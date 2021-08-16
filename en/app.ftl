@@ -230,7 +230,7 @@ error-subdomain-select = You must select a subdomain before creating a subdomain
 
 ## Onboarding 
 
-onboarding-headline = Create your first alias, you have three ways…
+onboarding-headline = Create your first alias, you have three ways …
 onboarding-tip-1 = Just click the button “Generate New Alias” to create your first alias
 onboarding-tip-2 = By selecting the { -brand-name-firefox-relay } icon when it appears in email fields
 onboarding-tip-3 = Via the context menu, just right-click (Windows) or Control-click (macOS) on form fields to access the menu and generate an alias
@@ -239,8 +239,11 @@ onboarding-tip-3 = Via the context menu, just right-click (Windows) or Control-c
 
 modal-rename-alias-saved = Label saved!
 modal-delete-headline = Permanently delete this alias?
+
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = Once you delete this alias, it cannot be recovered. 
-    { -brand-name-firefox-relay } will no longer forward messages sent to <strong></strong>, including messages that allow you to reset lost passwords.
+    { -brand-name-firefox-relay } will no longer forward messages sent to <strong>{ $email }</strong>, including messages that allow you to reset lost passwords.
 modal-delete-warning-upgrade = If you use this alias to log in to sites you care about, 
     you should update your login with a different email address before you delete this one.
 modal-delete-confirmation = Yes, I want to delete this alias.
@@ -266,5 +269,5 @@ survey-option-not-likely = Not likely
 ## VPN Promo Banner
 
 vpn-promo-headline = Save 50% with a full year subscription
-vpn-promo-copy = Protect your online data—and choose a VPN subscription plan that works for you.
+vpn-promo-copy = Protect your online data and choose a VPN subscription plan that works for you.
 vpn-promo-cta = Get { -brand-name-mozilla-vpn }
