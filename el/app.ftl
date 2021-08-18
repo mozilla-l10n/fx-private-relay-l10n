@@ -19,11 +19,6 @@
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Λογαριασμός Firefox
-        [uppercase] Λογαριασμός Firefox
-    }
 
 ## Meta Data
 
@@ -40,21 +35,48 @@ avatar-tooltip = Προφίλ
 nav-faq = Συχνές ερωτήσεις
 nav-profile-sign-in = Σύνδεση
 nav-profile-sign-up = Εγγραφή
+nav-profile-sign-out = Αποσύνδεση
+nav-profile-sign-out-relay = Αποσύνδεση από το { -brand-name-relay }
+nav-profile-sign-out-confirm = Θέλετε σίγουρα να αποσυνδεθείτε;
 
 ## Footer
 
+nav-footer-privacy = Απόρρητο
+nav-footer-relay-terms = Όροι του { -brand-name-relay }
+nav-footer-legal = Νομικά
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Λογότυπο GitHub
 
 ## Bento Menu
 
+bento-button-title = Εφαρμογές και υπηρεσίες { -brand-name-firefox }
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Κλείσιμο μενού
 
 ## Home Page
 
+home-hero-cta = Σύνδεση
+how-it-works-headline = Πώς λειτουργεί
+how-it-works-step-1-headline = Λήψη επέκτασης
 
 ## FAQ Page
 
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
+profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
+profile-label-saved = Η ετικέτα αποθηκεύτηκε!
+profile-label-delete = Διαγραφή
+profile-label-reset = Επαναφορά
+profile-label-details-show = Εμφάνιση λεπτομερειών
+profile-label-details-hide = Απόκρυψη λεπτομερειών
+profile-label-cancel = Ακύρωση
+profile-forwarded-note = Σημείωση:
 
 ## Banner Messages (displayed on the profile page)
 
@@ -71,7 +93,10 @@ modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = Είναι το { -brand-name-relay } εύχρηστο;
+survey-question-3 = Νιώθετε ότι το { -brand-name-relay } είναι αξιόπιστο;
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Εξοικονομήστε 50% με συνδρομή ενός έτους
 vpn-promo-cta = Λήψη του { -brand-name-mozilla-vpn }
