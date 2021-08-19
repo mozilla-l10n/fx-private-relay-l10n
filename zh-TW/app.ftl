@@ -69,10 +69,14 @@ bento-button-close-label = 關閉選單
 ## Home Page
 
 home-hero-cta = 登入
+how-it-works-headline = 原理是什麼
+how-it-works-subheadline = 在使用 { -brand-name-firefox-browser }的任何地方都能保護您的個人身分。
 how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 how-it-works-step-2-headline = 建立新別名
 how-it-works-step-3-headline = 管理您的別名
+hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
+hero-image-copy-protect-html = …這樣就可以<strong>保護您的實際信箱地址</strong>，不被追蹤或垃圾信騷擾。
 
 ## FAQ Page
 
@@ -130,12 +134,18 @@ banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
 banner-choose-subdomain-headline = 使用您自己的網域名稱
 banner-choose-subdomain-headline-aliases = 使用您自己的別名網域
+banner-choose-subdomain-copy = 您可以使用自訂網域來建立信箱別名
 banner-choose-subdomain-input-placeholder = 搜尋網域
 banner-choose-subdomain-submit = 註冊網域
 banner-pack-upgrade-cta = 立刻升級
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = 您必須訂閱 Premium 版本，才能建立超過 { $number } 組別名
+error-premium-set-create-subdomain = 您必須訂閱 Premium 版本，才能建立使用子網域的別名
+error-subdomain-select = 您必須先選擇子網域，才能建立使用子網域的別名
 
 ## Onboarding 
 
