@@ -72,6 +72,7 @@ home-hero-cta = 登入
 how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 how-it-works-step-2-headline = 建立新別名
+how-it-works-step-3-headline = 管理您的別名
 
 ## FAQ Page
 
@@ -116,6 +117,7 @@ profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
 profile-label-cancel = 取消
+profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
 
 ## Banner Messages (displayed on the profile page)
