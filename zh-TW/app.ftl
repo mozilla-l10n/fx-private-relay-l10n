@@ -90,6 +90,8 @@ faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信�
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+faq-question-5-question = 我可以使用 @relay.firefox.com 網域建立我自己想要的 { -brand-name-relay } 別名信箱嗎？
+faq-question-5-answer = 目前不行，但我們正在考慮是否要加入這個功能，讓您可以使用指定網域建立自己的別名信箱。
 
 ## Profile Page (Logged In)
 
