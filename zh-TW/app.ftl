@@ -42,24 +42,75 @@ nav-profile-sign-in = 登入
 nav-profile-sign-up = 註冊
 nav-profile-sign-out = 登出
 nav-profile-sign-out-relay = 登出 { -brand-name-relay }
+nav-profile-sign-out-confirm = 您確定要登出嗎？
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } 大頭照
 
 ## Footer
 
+nav-footer-privacy = 隱私權
+nav-footer-relay-terms = { -brand-name-relay } 使用條款
+nav-footer-legal = 法律資訊
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = GitHub 圖示
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } 應用程式與服務
+fx-makes-tech = { -brand-name-firefox } 的各種技術，為您的線上隱私而戰。
+made-by-mozilla = 由 { -brand-name-mozilla } 打造
+fx-desktop = { -brand-name-firefox-browser }桌面版
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = 關閉選單
 
 ## Home Page
 
+home-hero-cta = 登入
+how-it-works-step-1-headline = 安裝擴充套件
+how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 
 ## FAQ Page
 
+# String used to display the attachment limit, e.g. 150 KB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+profile-label-reset = 重設
+# This string is followed by an email address
+profile-label-forward-emails = 轉寄郵件到:
+# This string is followed by date
+profile-label-first-emailed = 首次寄信於:
+# This string is followed by date:
+profile-label-created = 建立於:
+profile-label-details-show = 顯示細節
+profile-label-details-hide = 隱藏細節
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = 轉寄中
+profile-label-blocking = 封鎖中
+profile-label-copied = 已複製！
+profile-label-blocked = 封鎖
+profile-label-forwarded = 轉寄
+profile-label-cancel = 取消
+profile-filter-search-placeholder = 搜尋別名
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-headline = { -brand-name-relay } 搭配 { -brand-name-firefox } 使用，效果更好
+banner-download-firefox-cta = 下載 { -brand-name-firefox }
+banner-download-install-extension-headline = 安裝 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -brand-name-firefox }
+banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
+banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
+banner-choose-subdomain-headline = 使用您自己的網域名稱
+banner-choose-subdomain-headline-aliases = 使用您自己的別名網域
+banner-choose-subdomain-input-placeholder = 搜尋網域
+banner-choose-subdomain-submit = 註冊網域
+banner-pack-upgrade-cta = 立刻升級
 
 ## Error Messages
 
@@ -69,9 +120,27 @@ nav-profile-sign-out-relay = 登出 { -brand-name-relay }
 
 ## Alias Modals
 
+modal-rename-alias-saved = 已儲存標籤！
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = { -brand-name-relay } 使用簡單嗎？
+survey-question-3 = 您覺得 { -brand-name-relay } 值得信賴嗎？
+survey-question-4 = 您覺得 { -brand-name-relay } 的畫面簡潔好用嗎？
+survey-question-5 = 如果不能再使用 { -brand-name-relay } 了，您會覺得如何？
+survey-option-strongly-disagree = 非常不同意
+survey-option-disagree = 不同意
+survey-option-unsure = 沒意見
+survey-option-agree = 同意
+survey-option-strongly-agree = 非常同意
+survey-option-i-wouldnt-care = 我沒差
+survey-option-somewhat-disappointed = 有點失望
+survey-option-very-disappointed = 非常失望
+survey-option-very-likely = 非常願意
+survey-option-not-likely = 非常不願意
 
 ## VPN Promo Banner
 
+vpn-promo-headline = 一次訂閱一年份，享有半價折扣
+vpn-promo-copy = 保護您的線上資料，選擇適合您的 VPN 訂閱方案。
+vpn-promo-cta = 下載 { -brand-name-mozilla-vpn }
