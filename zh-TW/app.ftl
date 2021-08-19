@@ -40,6 +40,7 @@ avatar-tooltip = 個人資料
 nav-faq = 常見問題
 nav-profile-sign-in = 登入
 nav-profile-sign-up = 註冊
+nav-profile-manage-fxa = 管理您的 { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = 登出
 nav-profile-sign-out-relay = 登出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您確定要登出嗎？
@@ -60,6 +61,7 @@ fx-makes-tech = { -brand-name-firefox } 的各種技術，為您的線上隱私�
 made-by-mozilla = 由 { -brand-name-mozilla } 打造
 fx-desktop = { -brand-name-firefox-browser }桌面版
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } 行動版
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 bento-button-close-label = 關閉選單
@@ -69,9 +71,15 @@ bento-button-close-label = 關閉選單
 home-hero-cta = 登入
 how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+how-it-works-step-2-headline = 建立新別名
 
 ## FAQ Page
 
+faq-headline = 常見問題
+faq-question-1-question = 那垃圾信呢？
+faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
+faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
+faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -80,6 +88,18 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>歡迎，</span> { $email }！
+profile-headline-manage-domain = 管理您的網域別名
+profile-promo-upgrade-cta = 升級 { -brand-name-relay }
+profile-label-saved = 已儲存標籤！
+profile-label-generate-new-alias = 產生新別名
+profile-label-delete = 刪除
+profile-label-delete-alias = 刪除此別名
+profile-label-upgrade = 取得無限量別名
+profile-label-create-domain = 取得您自己的郵件網域
+profile-label-domain = 電子郵件網域:
 profile-label-reset = 重設
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到:
