@@ -28,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } 讓您可輕鬆建立別名信箱，使用該地址收信後再轉寄回您實際的信箱。可使用別名信箱來保護帳號，不受駭客與垃圾信件的騷擾。
 
 ## Header 
 
@@ -68,6 +69,8 @@ bento-button-close-label = 關閉選單
 
 ## Home Page
 
+home-hero-headline = 隱藏您的實際電子郵件地址，保護身分資訊
+home-hero-copy = 使用 { -brand-name-firefox-account }登入，即可立即建立 { -brand-name-relay } 別名信箱，讓您的網路帳號不受駭客攻擊。
 home-hero-cta = 登入
 how-it-works-headline = 原理是什麼
 how-it-works-subheadline = 在使用 { -brand-name-firefox-browser }的任何地方都能保護您的個人身分。
@@ -107,14 +110,14 @@ profile-label-delete = 刪除
 profile-label-delete-alias = 刪除此別名
 profile-label-upgrade = 取得無限量別名
 profile-label-create-domain = 取得您自己的郵件網域
-profile-label-domain = 電子郵件網域:
+profile-label-domain = 電子郵件網域：
 profile-label-reset = 重設
 # This string is followed by an email address
-profile-label-forward-emails = 轉寄郵件到:
+profile-label-forward-emails = 轉寄郵件到：
 # This string is followed by date
-profile-label-first-emailed = 首次寄信於:
+profile-label-first-emailed = 首次寄信於：
 # This string is followed by date:
-profile-label-created = 建立於:
+profile-label-created = 建立於：
 profile-label-details-show = 顯示細節
 profile-label-details-hide = 隱藏細節
 # This string is a label for a toggle (on/off) switch  
@@ -124,6 +127,8 @@ profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
 profile-label-cancel = 取消
+profile-forwarded-note = 注意：
+profile-forwarded-note-copy = 目前暫不支援超過 { email-size-limit } 的郵件（含附件），將不會轉寄給您。
 profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
 
@@ -138,9 +143,15 @@ banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
 banner-choose-subdomain-headline = 使用您自己的網域名稱
 banner-choose-subdomain-headline-aliases = 使用您自己的別名網域
 banner-choose-subdomain-copy = 您可以使用自訂網域來建立信箱別名
+banner-choose-subdomain-warning = 注意：之後將無法再更改網域名稱
 banner-choose-subdomain-input-placeholder = 搜尋網域
 banner-choose-subdomain-submit = 註冊網域
 banner-pack-upgrade-cta = 立刻升級
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳號
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳號
 
 ## Error Messages
 
@@ -156,6 +167,9 @@ error-subdomain-select = 您必須先選擇子網域，才能建立使用子網�
 ## Alias Modals
 
 modal-rename-alias-saved = 已儲存標籤！
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
 
 ## Evergreen Survey (displayed on the profile page)
 
