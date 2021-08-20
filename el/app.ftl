@@ -50,7 +50,10 @@ logo-github-alt = Λογότυπο GitHub
 ## Bento Menu
 
 bento-button-title = Εφαρμογές και υπηρεσίες { -brand-name-firefox }
+made-by-mozilla = Από τη { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser } για υπολογιστές
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } για κινητά
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 bento-button-close-label = Κλείσιμο μενού
@@ -63,6 +66,7 @@ how-it-works-step-1-headline = Λήψη επέκτασης
 
 ## FAQ Page
 
+faq-headline = Συχνές ερωτήσεις
 
 ## Profile Page (Logged In)
 
@@ -72,7 +76,11 @@ profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-delete = Διαγραφή
+profile-label-delete-alias = Διαγραφή ψευδωνύμου
+profile-label-domain = Τομέας email:
 profile-label-reset = Επαναφορά
+# This string is followed by an email address
+profile-label-forward-emails = Προώθηση email στο:
 profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
 profile-label-cancel = Ακύρωση
@@ -103,6 +111,10 @@ survey-question-2 = Είναι το { -brand-name-relay } εύχρηστο;
 survey-question-3 = Νιώθετε ότι το { -brand-name-relay } είναι αξιόπιστο;
 survey-option-strongly-disagree = Διαφωνώ απόλυτα
 survey-option-disagree = Διαφωνώ
+survey-option-agree = Συμφωνώ
+survey-option-strongly-agree = Συμφωνώ απόλυτα
+survey-option-very-likely = Πολύ πιθανό
+survey-option-not-likely = Καθόλου πιθανό
 
 ## VPN Promo Banner
 
