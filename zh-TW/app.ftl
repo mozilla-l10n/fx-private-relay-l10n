@@ -77,11 +77,13 @@ how-it-works-subheadline = 在使用 { -brand-name-firefox-browser }的任何地
 how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 how-it-works-step-2-headline = 建立新別名
+how-it-works-step-2-copy = 當您上網時，{ -brand-name-relay } 圖示會出現在網站請您填寫電子郵件地址的欄位。選擇該圖示即可產生一組以 @relay.firefox.com 結尾的全新隨機信箱。{ -brand-name-relay } 將轉寄郵件到您帳號所綁定的主要電子郵件地址。
 how-it-works-step-3-headline = 管理您的別名
 how-it-works-step-3-copy = 登入 { -brand-name-relay } 即可追蹤您建立過的別名信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
 hero-image-copy-trust = 用這家公司的服務來轉發私人郵件，可靠嗎？
 hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
 hero-image-copy-protect-html = …這樣就可以<strong>保護您的實際信箱地址</strong>，不被追蹤或垃圾信騷擾。
+hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪些郵件可以直達您的收件匣！
 
 ## FAQ Page
 
@@ -114,6 +116,7 @@ faq-question-5-answer = 目前不行，但我們正在考慮是否要加入這�
 faq-question-6-question = { -brand-name-mozilla } 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
 faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
 faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
+faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 
 ## Profile Page (Logged In)
 
@@ -121,7 +124,11 @@ faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼
 #   $email (string) - User email address
 profile-label-welcome-html = <span>歡迎，</span> { $email }！
 profile-headline-manage-domain = 管理您的網域別名
+profile-supports-email-forwarding = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）
+profile-promo-upgrade-headline = 升級後即可獲得更多功能。
+profile-promo-upgrade-copy = 升級 { -brand-name-relay } 即可獲得無限量的郵件信箱與您專屬的郵件網域。
 profile-promo-upgrade-cta = 升級 { -brand-name-relay }
+profile-label-edit = 編輯此別名的標籤
 profile-label-saved = 已儲存標籤！
 profile-label-generate-new-alias = 產生新別名
 profile-label-delete = 刪除
@@ -129,6 +136,7 @@ profile-label-delete-alias = 刪除此別名
 profile-label-upgrade = 取得無限量別名
 profile-label-create-domain = 取得您自己的郵件網域
 profile-label-domain = 電子郵件網域：
+profile-label-domain-tooltip = 建立專屬您的自訂郵件網域。
 profile-label-reset = 重設
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
@@ -145,18 +153,34 @@ profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
 profile-label-cancel = 取消
+profile-blocked-copy = 當您對此別名選擇封鎖時，{ -brand-name-firefox-relay } 收到此郵件就會直接捨棄。
+profile-forwarded-copy = 當您對此別名選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 目前暫不支援超過 { email-size-limit } 的郵件（含附件），將不會轉寄給您。
+profile-stat-label-blocked = 封信已封鎖
+profile-stat-label-forwarded = 封信已轉寄
 profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } 無法發送您的郵件。
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    目前暫時無法寄出郵件給 { $username }。
+    嘗試轉寄郵件給您十，我們收到您的電子郵件服務業者的 <em>{ $bounce_type }</em>「退信」 通知。
+    可能是因為 { -brand-name-relay } 無法連線到您電子郵件服務業者的主機，或是信箱已滿。將於 { $date } 再試一次。
 banner-download-firefox-headline = { -brand-name-relay } 搭配 { -brand-name-firefox } 使用，效果更好
+banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 擴充套件，讓建立別名信箱變得更簡單。
 banner-download-firefox-cta = 下載 { -brand-name-firefox }
 banner-download-install-extension-headline = 安裝 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+banner-download-install-extension-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
 banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -brand-name-firefox }
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 讓建立別名信箱變得更簡單，還有自訂別名網域與無限量別名功能。
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
 banner-choose-subdomain-headline = 使用您自己的網域名稱
 banner-choose-subdomain-headline-aliases = 使用您自己的別名網域
@@ -164,6 +188,8 @@ banner-choose-subdomain-copy = 您可以使用自訂網域來建立信箱別名
 banner-choose-subdomain-warning = 注意：之後將無法再更改網域名稱
 banner-choose-subdomain-input-placeholder = 搜尋網域
 banner-choose-subdomain-submit = 註冊網域
+banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
+banner-pack-upgrade-copy = 透過無限量別名信箱與您個人的郵件網域功能，{ -brand-name-firefox } { -brand-name-relay-premium } 可幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳號
@@ -176,21 +202,33 @@ banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳�
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account. 
 error-premium-set-make-aliases = 您必須訂閱 Premium 版本，才能建立超過 { $number } 組別名
+error-premium-cannot-change-subdomain = 無法變更您的子網域
+error-premium-set-subdomain = 您必須訂閱 Premium 版本，才能設定子網域
 error-premium-set-create-subdomain = 您必須訂閱 Premium 版本，才能建立使用子網域的別名
+error-subdomain-not-created = 無法建立子網域，請嘗試改用其他子網域名稱
+error-subdomain-email-not-created = 無法建立使用子網域的電子郵件信箱，請嘗試改用其他子網域名稱
 error-subdomain-select = 您必須先選擇子網域，才能建立使用子網域的別名
 
 ## Onboarding 
 
+onboarding-headline = 有三種方式能建立您的第一個別名…
+onboarding-tip-1 = 點擊「產生新別名」來建立您的第一組別名
+onboarding-tip-2 = 當 { -brand-name-firefox-relay } 圖示出現在信箱地址欄位時，選擇該圖示
+onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑鼠點擊（macOS），產生一組別名
 
 ## Alias Modals
 
 modal-rename-alias-saved = 已儲存標籤！
+modal-delete-headline = 確定要永久刪除這個別名嗎？
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
+modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，應該在刪除此別名前先到該網站把電子郵件地址更改成其他地址。
+modal-delete-confirmation = 是的，我想要刪除這個別名。
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = 從 1-10 分計算，您多有可能會把 { -brand-name-relay } 推薦給朋友或同事？
 survey-question-2 = { -brand-name-relay } 使用簡單嗎？
 survey-question-3 = 您覺得 { -brand-name-relay } 值得信賴嗎？
 survey-question-4 = 您覺得 { -brand-name-relay } 的畫面簡潔好用嗎？
