@@ -21,8 +21,8 @@
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Firefox account
-        [uppercase] Firefox Account
+       *[lowercase] Firefox 帳號
+        [uppercase] Firefox 帳號
     }
 
 ## Meta Data
@@ -44,7 +44,7 @@ nav-profile-manage-fxa = 管理您的 { -brand-name-firefox-account(capitalizati
 nav-profile-sign-out = 登出
 nav-profile-sign-out-relay = 登出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您確定要登出嗎？
-nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } 大頭照
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
 
 ## Footer
 
