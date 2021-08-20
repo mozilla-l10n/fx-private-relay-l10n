@@ -19,6 +19,7 @@
     }
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
@@ -31,6 +32,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
 
 ## Header 
 
