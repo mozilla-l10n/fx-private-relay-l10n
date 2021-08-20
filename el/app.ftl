@@ -80,6 +80,11 @@ profile-forwarded-note = Σημείωση:
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
+banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
+banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-pack-upgrade-cta = Αναβάθμιση τώρα
 
 ## Error Messages
 
@@ -89,12 +94,15 @@ profile-forwarded-note = Σημείωση:
 
 ## Alias Modals
 
+modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
 
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-2 = Είναι το { -brand-name-relay } εύχρηστο;
 survey-question-3 = Νιώθετε ότι το { -brand-name-relay } είναι αξιόπιστο;
+survey-option-strongly-disagree = Διαφωνώ απόλυτα
+survey-option-disagree = Διαφωνώ
 
 ## VPN Promo Banner
 
