@@ -85,13 +85,17 @@ profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
 profile-label-cancel = Ακύρωση
 profile-forwarded-note = Σημείωση:
+profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
+banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
 banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 
 ## Error Messages
@@ -103,6 +107,7 @@ banner-pack-upgrade-cta = Αναβάθμιση τώρα
 ## Alias Modals
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
+modal-delete-headline = Οριστική διαγραφή ψευδωνύμου;
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
 
 ## Evergreen Survey (displayed on the profile page)
