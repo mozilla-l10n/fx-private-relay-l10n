@@ -78,6 +78,8 @@ how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 how-it-works-step-2-headline = 建立新別名
 how-it-works-step-3-headline = 管理您的別名
+how-it-works-step-3-copy = 登入 { -brand-name-relay } 即可追蹤您建立過的別名信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
+hero-image-copy-trust = 用這家公司的服務來轉發私人郵件，可靠嗎？
 hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
 hero-image-copy-protect-html = …這樣就可以<strong>保護您的實際信箱地址</strong>，不被追蹤或垃圾信騷擾。
 
@@ -85,6 +87,7 @@ hero-image-copy-protect-html = …這樣就可以<strong>保護您的實際信�
 
 faq-headline = 常見問題
 faq-question-1-question = 那垃圾信呢？
+faq-question-1-answer-a = 雖然 { -brand-name-relay } 本身不會過濾垃圾信，我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
 faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
