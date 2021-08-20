@@ -76,6 +76,9 @@ how-it-works-headline = 原理是什麼
 how-it-works-subheadline = 在使用 { -brand-name-firefox-browser }的任何地方都能保護您的個人身分。
 how-it-works-step-1-headline = 安裝擴充套件
 how-it-works-step-1-link = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+how-it-works-step-1-copy =
+    選擇 { -brand-name-firefox } 工具列上的圖示來開啟登入頁面。
+    使用 { -brand-name-firefox-account }登入，開始使用。
 how-it-works-step-2-headline = 建立新別名
 how-it-works-step-2-copy = 當您上網時，{ -brand-name-relay } 圖示會出現在網站請您填寫電子郵件地址的欄位。選擇該圖示即可產生一組以 @relay.firefox.com 結尾的全新隨機信箱。{ -brand-name-relay } 將轉寄郵件到您帳號所綁定的主要電子郵件地址。
 how-it-works-step-3-headline = 管理您的別名
