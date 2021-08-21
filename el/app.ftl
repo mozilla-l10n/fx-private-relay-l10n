@@ -67,6 +67,15 @@ how-it-works-step-1-headline = Λήψη επέκτασης
 ## FAQ Page
 
 faq-headline = Συχνές ερωτήσεις
+faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
+faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
+faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
+faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+# String used to display the attachment limit, e.g. 150 KB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
@@ -75,8 +84,10 @@ faq-headline = Συχνές ερωτήσεις
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
+profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
 profile-label-delete = Διαγραφή
 profile-label-delete-alias = Διαγραφή ψευδωνύμου
+profile-label-upgrade = Απόκτηση απεριόριστων ψευδωνύμων
 profile-label-domain = Τομέας email:
 profile-label-reset = Επαναφορά
 # This string is followed by an email address
@@ -98,10 +109,21 @@ banner-download-install-extension-cta = Προσθήκη του { -brand-name-re
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
+banner-choose-subdomain-submit = Απόκτηση τομέα
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Πρέπει να είστε συνδρομητής premium για να φτιάξετε πάνω από { $number } ψευδώνυμα
+error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
+error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
 
 ## Onboarding 
 
@@ -114,12 +136,15 @@ modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Από το 1 έως το 10, πόσο πιθανό είναι να προτείνετε το { -brand-name-relay } σε έναν φίλο ή συνάδελφο;
 survey-question-2 = Είναι το { -brand-name-relay } εύχρηστο;
 survey-question-3 = Νιώθετε ότι το { -brand-name-relay } είναι αξιόπιστο;
+survey-question-5 = Πώς θα νιώθατε εάν δεν μπορούσατε πλέον να χρησιμοποιήσετε το { -brand-name-relay };
 survey-option-strongly-disagree = Διαφωνώ απόλυτα
 survey-option-disagree = Διαφωνώ
 survey-option-agree = Συμφωνώ
 survey-option-strongly-agree = Συμφωνώ απόλυτα
+survey-option-i-wouldnt-care = Δεν θα με ένοιαζε
 survey-option-very-likely = Πολύ πιθανό
 survey-option-not-likely = Καθόλου πιθανό
 
