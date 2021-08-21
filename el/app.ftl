@@ -50,6 +50,7 @@ logo-github-alt = Λογότυπο GitHub
 ## Bento Menu
 
 bento-button-title = Εφαρμογές και υπηρεσίες { -brand-name-firefox }
+fx-makes-tech = Το { -brand-name-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
 made-by-mozilla = Από τη { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } για υπολογιστές
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -63,10 +64,13 @@ bento-button-close-label = Κλείσιμο μενού
 home-hero-cta = Σύνδεση
 how-it-works-headline = Πώς λειτουργεί
 how-it-works-step-1-headline = Λήψη επέκτασης
+how-it-works-step-1-link = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
+hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
 
 ## FAQ Page
 
 faq-headline = Συχνές ερωτήσεις
+faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
 faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
@@ -76,6 +80,7 @@ faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 
 ## Profile Page (Logged In)
 
@@ -92,9 +97,15 @@ profile-label-domain = Τομέας email:
 profile-label-reset = Επαναφορά
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
+# This string is followed by date:
+profile-label-created = Δημιουργία:
 profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = προώθηση
+profile-label-blocking = αποκλεισμός
 profile-label-cancel = Ακύρωση
+profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτό το ψευδώνυμο.
 profile-forwarded-note = Σημείωση:
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
@@ -104,12 +115,18 @@ profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
 banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
+banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox-browser } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
+banner-download-install-extension-headline = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }
+banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox-browser } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 banner-choose-subdomain-submit = Απόκτηση τομέα
+banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
@@ -127,6 +144,9 @@ error-subdomain-select = Πρέπει να επιλέξετε έναν υποτ�
 
 ## Onboarding 
 
+onboarding-headline = Δημιουργήστε το πρώτο σας ψευδώνυμο, έχετε τρεις τρόπους…
+onboarding-tip-2 = Επιλέγοντας το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί στα πεδία email
+onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάντε δεξί κλικ (Windows) ή control-κλικ (macOS) στα πεδία φορμών για να προσπελάσετε το μενού και να δημιουργήσετε ένα ψευδώνυμο
 
 ## Alias Modals
 
