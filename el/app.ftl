@@ -85,6 +85,8 @@ profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
 profile-label-cancel = Ακύρωση
 profile-forwarded-note = Σημείωση:
+profile-stat-label-blocked = Αποκλεισμένα email
+profile-stat-label-forwarded = Προωθημένα email
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 
 ## Banner Messages (displayed on the profile page)
