@@ -56,15 +56,24 @@ nav-footer-privacy = Confidentialité
 nav-footer-relay-terms = Conditions d’utilisation de { -brand-name-relay }
 nav-footer-legal = Mentions légales
 logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Logo GitHub
 
 ## Bento Menu
 
+bento-button-title = Applications et services { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } est une technologie qui lutte pour vos droits.
+made-by-mozilla = Conçu par { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser(capitalization: "uppercase") } pour ordinateur
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } pour mobile
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Fermer le menu
 
 ## Home Page
 
+home-hero-cta = Connexion
+how-it-works-headline = Principes de fonctionnement
 
 ## FAQ Page
 
@@ -94,3 +103,4 @@ email-size-limit = { $size } { $unit }
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Économisez 50 % en vous abonnant pour un an
