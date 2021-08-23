@@ -85,6 +85,22 @@ hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</
 
 faq-headline = Domande più frequenti
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
+faq-question-3-question = { -brand-name-relay } è disponibile solo negli Stati Uniti?
+faq-question-3-answer = Il sito è momentaneamente disponibile solo in inglese, ma puoi utilizzare il servizio dovunque ti trovi.
+faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
+# String used to display the attachment limit, e.g. 150 KB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+email-size-limit = { $size } { $unit }
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-4-answer-html =
+    { -brand-name-relay } attualmente non permette di rispondere usando un alias.
+    Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
+faq-question-6-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
+faq-question-7-answer = Ora supportiamo anche l’inoltro degli allegati, tuttavia c’è un limite alle dimensioni: { -brand-name-relay } non inoltrerà i messaggi più grandi di { email-size-limit }.
 
 ## Profile Page (Logged In)
 
