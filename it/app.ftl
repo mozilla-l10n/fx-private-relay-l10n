@@ -50,9 +50,20 @@ nav-profile-sign-out-confirm = Effettuare la disconnessione?
 
 ## Footer
 
+nav-footer-privacy = Privacy
+nav-footer-relay-terms = Termini di utilizzo di { -brand-name-relay }
+nav-footer-legal = Note legali
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Logo di GitHub
 
 ## Bento Menu
 
+fx-makes-tech = { -brand-name-firefox } è una tecnologia che combatte per la tua privacy online.
+made-by-mozilla = Realizzato da { -brand-name-mozilla }
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Chiudi menu
 
 ## Home Page
 
