@@ -67,9 +67,24 @@ bento-button-close-label = Chiudi menu
 
 ## Home Page
 
+home-hero-cta = Accedi
+how-it-works-headline = Come funziona
+how-it-works-step-1-headline = Installa l’estensione
+how-it-works-step-1-link = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Seleziona l’icona che appare sulla barra degli strumenti di { -brand-name-firefox } per aprire la pagina di accesso. 
+    Accedi con il tuo { -brand-name-firefox-account } per iniziare.
+how-it-works-step-2-headline = Crea un nuovo alias
+how-it-works-step-3-headline = Gestisci i tuoi alias
+how-it-works-step-3-copy =
+    Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato.
+    Se uno di questi riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
+hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</strong> per ogni nuovo account …
 
 ## FAQ Page
 
+faq-headline = Domande più frequenti
+faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 
 ## Profile Page (Logged In)
 
