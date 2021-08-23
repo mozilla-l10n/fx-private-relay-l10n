@@ -84,7 +84,20 @@ hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</
 ## FAQ Page
 
 faq-headline = Domande più frequenti
+faq-question-1-question = Cosa succede alla posta indesiderata?
+faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (per esempio, “relay” in @relay.firefox.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo. 
+    Con la crescita di popolarità di { -brand-name-firefox-relay } e la creazione di un numero sempre maggiore di indirizzi alias, il nostro servizio potrebbe essere inserito in una lista di domini bloccati.
+    Se non riesci a utilizzare un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>contattaci</a>.
 faq-question-3-question = { -brand-name-relay } è disponibile solo negli Stati Uniti?
 faq-question-3-answer = Il sito è momentaneamente disponibile solo in inglese, ma puoi utilizzare il servizio dovunque ti trovi.
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
@@ -99,11 +112,21 @@ email-size-limit = { $size } { $unit }
 faq-question-4-answer-html =
     { -brand-name-relay } attualmente non permette di rispondere usando un alias.
     Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
+faq-question-5-question = Posso creare la mia versione di { -brand-name-relay } utilizzando il dominio @relay.firefox.com?
+faq-question-5-answer = Attualmente no, ma stiamo considerando nuove funzionalità, tra cui la possibilità di creare il proprio alias con un dominio designato.
+faq-question-6-question = Che cosa succede se { -brand-name-mozilla } chiude il servizio { -brand-name-firefox-relay }?
 faq-question-6-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
+faq-question-7-question = Che cosa succede alle email con allegati inviate al mio alias?
 faq-question-7-answer = Ora supportiamo anche l’inoltro degli allegati, tuttavia c’è un limite alle dimensioni: { -brand-name-relay } non inoltrerà i messaggi più grandi di { email-size-limit }.
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Ciao,</span> { $email }.
+profile-headline-manage-domain = Gestisci gli alias per il tuo dominio
+profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }.
+profile-label-edit = Modifica l’etichetta di questo alias
 
 ## Banner Messages (displayed on the profile page)
 
