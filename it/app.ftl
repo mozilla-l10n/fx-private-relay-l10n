@@ -43,6 +43,10 @@ label-open-menu = Apri menu
 avatar-tooltip = Profilo
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
+nav-profile-sign-in = Accedi
+nav-profile-sign-up = Registrati
+nav-profile-sign-out = Disconnetti
+nav-profile-sign-out-confirm = Effettuare la disconnessione?
 
 ## Footer
 
