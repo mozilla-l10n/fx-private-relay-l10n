@@ -61,7 +61,7 @@ logo-github-alt = Logo GitHub
 ## Bento Menu
 
 bento-button-title = Applications et services { -brand-name-firefox }
-fx-makes-tech = { -brand-name-firefox } est une technologie qui lutte pour vos droits.
+fx-makes-tech = { -brand-name-firefox } est une technologie qui lutte pour votre vie privée en ligne.
 made-by-mozilla = Conçu par { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser(capitalization: "uppercase") } pour ordinateur
 fx-lockwise = { -brand-name-firefox-lockwise }
