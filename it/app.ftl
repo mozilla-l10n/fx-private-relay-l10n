@@ -79,6 +79,7 @@ home-hero-copy =
     Accedi con il tuo { -brand-name-firefox-account } per iniziare.
 home-hero-cta = Accedi
 how-it-works-headline = Come funziona
+how-it-works-subheadline = Proteggi la tua identità personale ovunque utilizzi il { -brand-name-firefox-browser }
 how-it-works-step-1-headline = Installa l’estensione
 how-it-works-step-1-link = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
 how-it-works-step-1-copy =
