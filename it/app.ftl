@@ -144,6 +144,23 @@ profile-label-welcome-html = <span>Ciao,</span> { $email }.
 profile-headline-manage-domain = Gestisci gli alias per il tuo dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }.
 profile-label-edit = Modifica l’etichetta di questo alias
+profile-label-saved = Etichetta salvata
+profile-label-generate-new-alias = Genera nuovo alias
+profile-label-delete = Elimina
+profile-label-delete-alias = Elimina questo alias
+profile-label-upgrade = Ottieni alias illimitati
+profile-label-create-domain = Ottieni il tuo dominio email
+profile-label-domain = Dominio email:
+profile-label-domain-tooltip = Crea il tuo dominio email unico e personalizzato.
+profile-label-reset = Ripristina
+# This string is followed by an email address
+profile-label-forward-emails = Inoltra messaggi a:
+# This string is followed by date
+profile-label-first-emailed = Data primo invio:
+# This string is followed by date:
+profile-label-created = Data creazione:
+profile-label-details-show = Mostra dettagli
+profile-label-details-hide = Nascondi dettagli
 
 ## Banner Messages (displayed on the profile page)
 
