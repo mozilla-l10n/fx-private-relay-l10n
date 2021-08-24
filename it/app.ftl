@@ -162,7 +162,12 @@ profile-label-first-emailed = Data primo invio:
 profile-label-created = Data creazione:
 profile-label-details-show = Mostra dettagli
 profile-label-details-hide = Nascondi dettagli
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = inoltro attivo
+profile-label-blocking = inoltro bloccato
 profile-label-copied = Copiato
+profile-label-blocked = Bloccati
+profile-label-forwarded = Inoltrati
 profile-label-cancel = Annulla
 profile-blocked-copy = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
 profile-forwarded-copy = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
@@ -176,6 +181,14 @@ profile-filter-search-placeholder = Cerca alias
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } non è riuscito a consegnare la tua email.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Al momento non è possibile inviare email a { $username }. 
+    Abbiamo ricevuto un “rimbalzo” <em>{ $bounce_type }</em> dal tuo provider di posta elettronica durante il tentativo di inoltro dell’email. 
+    Questo può accadere se { -brand-name-relay } non riesce a connettersi al tuo provider o quando la tua casella di posta è piena. Sarà effettuato un altro tentativo il { $date }.
 banner-download-firefox-headline = { -brand-name-relay } è ancora meglio in { -brand-name-firefox }
 banner-download-firefox-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
 banner-download-firefox-cta = Scarica { -brand-name-firefox }
@@ -184,8 +197,10 @@ banner-download-install-extension-copy = L’estensione { -brand-name-relay } pe
 banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
+banner-choose-subdomain-headline = Scegli il tuo dominio personalizzato
 banner-choose-subdomain-headline-aliases = Ottieni il tuo dominio alias personalizzato
 banner-choose-subdomain-copy = Puoi scegliere un dominio personalizzato per i tuoi alias di posta elettronica.
+banner-choose-subdomain-warning = Nota: non sarà possibile modificare il dominio in un secondo tempo
 banner-choose-subdomain-input-placeholder = Cerca dominio
 banner-choose-subdomain-submit = Ottieni dominio
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
