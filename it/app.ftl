@@ -231,9 +231,38 @@ onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro 
 
 ## Alias Modals
 
+modal-rename-alias-saved = Etichetta salvata.
+modal-delete-headline = Eliminare definitivamente questo alias?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Una volta eliminato, questo alias non potrà essere recuperato.
+    { -brand-name-firefox-relay } non inoltrerà più i messaggi inviati a <strong>{ $email }</strong>, inclusi i messaggi che consentono di reimpostare le password perse.
+modal-delete-warning-upgrade =
+    Se utilizzi questo alias per accedere ai siti che ti interessano,
+    dovresti aggiornare le tue credenziali di accesso con un indirizzo email diverso prima di eliminare questo alias.
+modal-delete-confirmation = Sì, voglio eliminare questo alias.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Su una scala da 1 a 10, con quale probabilità consiglieresti { -brand-name-relay } a un amico o a un collega?
+survey-question-2 = { -brand-name-relay } è facile da utilizzare?
+survey-question-3 = Pensi che { -brand-name-relay } sia affidabile?
+survey-question-4 = { -brand-name-relay } si presenta in modo chiaro e semplice?
+survey-question-5 = Come ti sentiresti se non potessi più utilizzare { -brand-name-relay }?
+survey-option-strongly-disagree = Assolutamente in disaccordo
+survey-option-disagree = Non sono d’accordo
+survey-option-unsure = Non sono sicuro
+survey-option-agree = Sono d’accordo
+survey-option-strongly-agree = Assolutamente d’accordo
+survey-option-i-wouldnt-care = Non mi importerebbe
+survey-option-somewhat-disappointed = Un po’ deluso
+survey-option-very-disappointed = Molto deluso
+survey-option-very-likely = Molto probabile
+survey-option-not-likely = Poco probabile
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Risparmia il 50% con un abbonamento annuale
+vpn-promo-copy = Proteggi i tuoi dati online e scegli un piano di abbonamento VPN adatto alle tue esigenze.
+vpn-promo-cta = Ottieni { -brand-name-mozilla-vpn }
