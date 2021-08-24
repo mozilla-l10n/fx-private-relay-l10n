@@ -45,8 +45,11 @@ avatar-tooltip = Profilo
 nav-faq = FAQ
 nav-profile-sign-in = Accedi
 nav-profile-sign-up = Registrati
+nav-profile-manage-fxa = Gestisci il tuo { -brand-name-firefox-account }
 nav-profile-sign-out = Disconnetti
+nav-profile-sign-out-relay = Disconnessione da { -brand-name-relay }
 nav-profile-sign-out-confirm = Effettuare la disconnessione?
+nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 
 ## Footer
 
@@ -58,15 +61,22 @@ logo-github-alt = Logo di GitHub
 
 ## Bento Menu
 
+bento-button-title = App e servizi { -brand-name-firefox }
 fx-makes-tech = { -brand-name-firefox } è una tecnologia che combatte per la tua privacy online.
 made-by-mozilla = Realizzato da { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser(capitalization: "uppercase") } per desktop
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } per dispositivi mobili
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 bento-button-close-label = Chiudi menu
 
 ## Home Page
 
+home-hero-headline = Nascondi il tuo indirizzo email reale per mantenere la tua identità al sicuro
+home-hero-copy =
+    Condividi alias di posta elettronica { -brand-name-relay } al posto del tuo indirizzo email reale per proteggere i tuoi account online dagli hacker. 
+    Accedi con il tuo { -brand-name-firefox-account } per iniziare.
 home-hero-cta = Accedi
 how-it-works-headline = Come funziona
 how-it-works-step-1-headline = Installa l’estensione
@@ -75,11 +85,18 @@ how-it-works-step-1-copy =
     Seleziona l’icona che appare sulla barra degli strumenti di { -brand-name-firefox } per aprire la pagina di accesso. 
     Accedi con il tuo { -brand-name-firefox-account } per iniziare.
 how-it-works-step-2-headline = Crea un nuovo alias
+how-it-works-step-2-copy =
+    Durante la navigazione, l’icona di { -brand-name-relay } appare nei siti che richiedono il tuo indirizzo email.
+    Selezionala per generare un nuovo indirizzo di posta elettronica casuale che termina con @relay.firefox.com.
+    { -brand-name-relay } inoltra i messaggi all’indirizzo email principale associato al tuo account.
 how-it-works-step-3-headline = Gestisci i tuoi alias
 how-it-works-step-3-copy =
     Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato.
     Se uno di questi riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
+hero-image-copy-trust = Ti fidi a condividere la tua email personale con questa azienda?
 hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</strong> per ogni nuovo account …
+hero-image-copy-protect-html = … così puoi <strong>proteggere il tuo indirizzo email reale</strong> da tracciamento e spam.
+hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che arriva nella tua casella di posta!
 
 ## FAQ Page
 
