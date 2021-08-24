@@ -161,9 +161,21 @@ profile-label-first-emailed = Data primo invio:
 profile-label-created = Data creazione:
 profile-label-details-show = Mostra dettagli
 profile-label-details-hide = Nascondi dettagli
+profile-label-copied = Copiato
+profile-label-cancel = Annulla
+profile-blocked-copy = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
+profile-forwarded-copy = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
+profile-forwarded-note = Nota:
+profile-forwarded-note-copy = I messaggi (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non sono attualmente supportati e non verranno inoltrati.
+profile-stat-label-blocked = Messaggi bloccati
+profile-stat-label-forwarded = Messaggi inoltrati
+profile-stat-label-aliases-used = Alias utilizzati
+profile-filter-search-placeholder = Cerca alias
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } non è riuscito a consegnare la tua email.
+banner-download-firefox-headline = { -brand-name-relay } è ancora meglio in { -brand-name-firefox }
 
 ## Error Messages
 
