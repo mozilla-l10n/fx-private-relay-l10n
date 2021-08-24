@@ -176,12 +176,42 @@ profile-filter-search-placeholder = Cerca alias
 
 banner-bounced-headline = { -brand-name-relay } non è riuscito a consegnare la tua email.
 banner-download-firefox-headline = { -brand-name-relay } è ancora meglio in { -brand-name-firefox }
+banner-download-firefox-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
+banner-download-firefox-cta = Scarica { -brand-name-firefox }
+banner-download-install-extension-headline = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
+banner-download-install-extension-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
+banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
+banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
+banner-choose-subdomain-headline-aliases = Ottieni il tuo dominio alias personalizzato
+banner-choose-subdomain-copy = Puoi scegliere un dominio personalizzato per i tuoi alias di posta elettronica.
+banner-choose-subdomain-input-placeholder = Cerca dominio
+banner-choose-subdomain-submit = Ottieni dominio
+banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Puoi creare qualsiasi indirizzo @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Puoi creare qualsiasi indirizzo @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = È necessario avere un abbonamento premium per creare più di { $number } alias
+error-premium-cannot-change-subdomain = Non è possibile modificare il sottodominio
+error-premium-set-subdomain = È necessario avere un abbonamento premium per impostare un sottodominio
+error-premium-set-create-subdomain = È necessario avere un abbonamento premium per creare alias per il sottodominio
+error-subdomain-not-created = Impossibile creare il sottodominio, provane un altro
+error-subdomain-email-not-created = Impossibile creare l’indirizzo email con sottodominio, provane un altro
+error-subdomain-select = È necessario selezionare un sottodominio prima di creare un alias
 
 ## Onboarding 
 
+onboarding-headline = Crea il tuo primo alias, esistono tre modi per farlo …
+onboarding-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias
+onboarding-tip-2 = Seleziona l’icona { -brand-name-firefox-relay } quando appare nei campi dell’email
+onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro del mouse (Windows) o fai clic tenendo premuto il tasto Ctrl (macOS) sui campi del modulo per accedere al menu e generare un alias
 
 ## Alias Modals
 
