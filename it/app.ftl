@@ -144,6 +144,9 @@ faq-question-7-answer = Ora supportiamo anche l’inoltro degli allegati, tuttav
 profile-label-welcome-html = <span>Ciao,</span> { $email }.
 profile-headline-manage-domain = Gestisci gli alias per il tuo dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }.
+profile-promo-upgrade-headline = Aggiorna alla versione premium per avere ancora più funzionalità.
+profile-promo-upgrade-copy = Aggiorna { -brand-name-relay } alla versione premium per ottenere indirizzi di posta elettronica illimitati e il tuo dominio email personale.
+profile-promo-upgrade-cta = Aggiorna { -brand-name-relay }
 profile-label-edit = Modifica l’etichetta di questo alias
 profile-label-saved = Etichetta salvata
 profile-label-generate-new-alias = Genera nuovo alias
@@ -197,13 +200,16 @@ banner-download-install-extension-copy = L’estensione { -brand-name-relay } pe
 banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
+banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Scegli il tuo dominio personalizzato
 banner-choose-subdomain-headline-aliases = Ottieni il tuo dominio alias personalizzato
 banner-choose-subdomain-copy = Puoi scegliere un dominio personalizzato per i tuoi alias di posta elettronica.
 banner-choose-subdomain-warning = Nota: non sarà possibile modificare il dominio in un secondo tempo
 banner-choose-subdomain-input-placeholder = Cerca dominio
 banner-choose-subdomain-submit = Ottieni dominio
+banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
+banner-pack-upgrade-cta = Aggiorna adesso
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Puoi creare qualsiasi indirizzo @{ $subdomain }
 # Variables:
