@@ -171,9 +171,30 @@ profile-label-forwarded = Переслано
 profile-label-cancel = Скасувати
 profile-blocked-copy = { -brand-name-firefox-relay } видалить повідомлення, перш ніж вони потраплять у вашу поштову скриньку, якщо ви виберете блокування для цієї альтернативної адреси.
 profile-forwarded-copy = { -brand-name-firefox-relay } надсилатиме повідомлення на вашу поштову скриньку, якщо ви виберете пересилання для цієї альтернативної адреси.
+profile-forwarded-note = Примітка:
+profile-forwarded-note-copy = Електронна пошта (включно з вкладеними файлами) розміром понад { email-size-limit } наразі не підтримується й не пересилається.
+profile-stat-label-blocked = Заблоковані електронні листи
+profile-stat-label-forwarded = Переслані електронні листи
+profile-stat-label-aliases-used = Використовувані альтернативні адреси е-пошти
+profile-filter-search-placeholder = Шукати альтернативні адреси
+profile-filter-category-option-active-aliases = Активні альтернативні адреси
+profile-filter-category-option-disabled-aliases = Вимкнені альтернативні адреси
+profile-filter-category-option-relay-aliases = Альтернативні адреси Relay
+profile-filter-category-option-domain-based-aliases = Альтернативні адреси на основі домену
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } не може доставити вашу електронну пошту.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Наразі ми не можемо надіслати електронний лист на адресу { $username }.
+    Ми отримали <em>{ $bounce_type }</em> "відмов" від вашого постачальника послуг електронної пошти під час спроби переслати вам електронні листи.
+    Це може статися, якщо { -brand-name-relay } не може під'єднатися до вашого постачальника послуг електронної пошти або якщо ваша поштова скринька була заповнена. Ми повторимо спробу { $date }.
+banner-download-firefox-cta = Отримати { -brand-name-firefox }
+banner-download-install-extension-headline = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
 
 ## Error Messages
 
