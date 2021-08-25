@@ -255,6 +255,21 @@ modal-delete-confirmation = Так, я хочу видалити цю альте
 survey-question-1 = За оцінкою від 1 до 10, наскільки ймовірно, що ви порекомендуєте { -brand-name-relay } друзям чи колегам?
 survey-question-2 = Чи простий у користуванні { -brand-name-relay }?
 survey-question-3 = Чи вважаєте ви, що { -brand-name-relay } заслуговує довіри?
+survey-question-4 = Чи зрозуміло та просто представлено { -brand-name-relay }?
+survey-question-5 = Як би ви почувались, якби більше не змогли користуватись { -brand-name-relay }?
+survey-option-strongly-disagree = Категорично не погоджуюсь
+survey-option-disagree = Не погоджуюсь
+survey-option-unsure = Невпевнений
+survey-option-agree = Погоджуюсь
+survey-option-strongly-agree = Цілком погоджуюсь
+survey-option-i-wouldnt-care = Мені байдуже
+survey-option-somewhat-disappointed = Дещо засмучено
+survey-option-very-disappointed = Дуже засмучено
+survey-option-very-likely = Обов'язково порекомендую
+survey-option-not-likely = Швидше не порекомендую
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Заощаджуйте 50% із річною передплатою
+vpn-promo-copy = Захистіть свої інтернет-дані та оберіть тарифний план VPN, який вас задовольнить.
+vpn-promo-cta = Отримати { -brand-name-mozilla-vpn }
