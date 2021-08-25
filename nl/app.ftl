@@ -200,18 +200,71 @@ banner-upgrade-cta = Upgraden naar { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Kies uw eigen domein
 banner-choose-subdomain-headline-aliases = Verkrijg uw eigen aangepaste aliasdomein
 banner-choose-subdomain-copy = U kunt een aangepast domein kiezen voor uw e-mailaliassen.
+banner-choose-subdomain-warning = Opmerking: u kunt uw domein later niet wijzigen
+banner-choose-subdomain-input-placeholder = Domein zoeken
+banner-choose-subdomain-submit = Domein verkrijgen
+banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
+banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
+banner-pack-upgrade-cta = Nu upgraden
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = U kunt elk adres @{ $subdomain } verzinnen
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = U kunt elk adres @{ $subdomain } verzinnen
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = U moet een premiumabonnee zijn om meer dan { $number } aliassen aan te maken
+error-premium-cannot-change-subdomain = U kunt uw subdomein niet wijzigen
+error-premium-set-subdomain = U moet een premiumabonnee zijn om een subdomein in te stellen
+error-premium-set-create-subdomain = U moet een premiumabonnee zijn om subdomeinaliassen aan te maken
+error-subdomain-not-created = Subdomein kan niet worden aangemaakt, probeer iets anders
+error-subdomain-email-not-created = E-mailadres met subdomein kan niet worden aangemaakt, probeer iets anders
+error-subdomain-select = U moet een subdomein selecteren voordat u een subdomeinalias aanmaakt
 
 ## Onboarding 
 
+onboarding-headline = Maak uw eerste alias aan, u kunt kiezen uit drie manieren…
+onboarding-tip-1 = Klik gewoon op de knop ‘Nieuwe alias aanmaken’ om uw eerste alias aan te maken
+onboarding-tip-2 = Door het { -brand-name-firefox-relay }-pictogram te selecteren wanneer het in e-mailvelden verschijnt
+onboarding-tip-3 = Via het contextmenu, klik gewoon met uw rechtermuisknop (Windows) of Control-klik (macOS) op formuliervelden om het menu te openen en een alias aan te maken
 
 ## Alias Modals
 
+modal-rename-alias-saved = Label opgeslagen!
+modal-delete-headline = Dit alias definitief verwijderen?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Als u dit alias verwijderd, kan het niet meer worden hersteld.
+    { -brand-name-firefox-relay } stuurt geen berichten meer door die zijn verzonden naar <strong>{ $email }</strong>, inclusief berichten waarmee u vergeten wachtwoorden kunt herinitialiseren.
+modal-delete-warning-upgrade =
+    Als u dit alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
+    moet u uw aanmelding bijwerken met een ander e-mailadres voordat u dit verwijdert.
+modal-delete-confirmation = Ja, ik wil dit alias verwijderen.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Op een schaal van 1-10, hoe waarschijnlijk is het dat u { -brand-name-relay } aanbeveelt bij een vriend of collega?
+survey-question-2 = Is { -brand-name-relay } gemakkelijk te gebruiken?
+survey-question-3 = Vindt u { -brand-name-relay } betrouwbaar?
+survey-question-4 = Heeft { -brand-name-relay } een duidelijke en eenvoudige uitstraling?
+survey-question-5 = Hoe zou u zich voelen als u { -brand-name-relay } niet meer zou kunnen gebruiken?
+survey-option-strongly-disagree = Sterk oneens
+survey-option-disagree = Oneens
+survey-option-unsure = Weet niet
+survey-option-agree = Eens
+survey-option-strongly-agree = Sterk eens
+survey-option-i-wouldnt-care = Maakt mij niet uit
+survey-option-somewhat-disappointed = Enigszins teleurgesteld
+survey-option-very-disappointed = Zeer teleurgesteld
+survey-option-very-likely = Zeer waarschijnlijk
+survey-option-not-likely = Niet waarschijnlijk
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Bespaar 50% met een volledig jaarabonnement
+vpn-promo-copy = Bescherm uw onlinegegevens en kies een VPN-abonnement dat bij u past.
+vpn-promo-cta = { -brand-name-mozilla-vpn } downloaden
