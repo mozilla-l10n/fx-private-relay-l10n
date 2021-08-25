@@ -77,7 +77,7 @@ home-hero-cta = Увійти
 how-it-works-headline = Як це працює
 how-it-works-subheadline = Захищайте свою особистість скрізь, де ви використовуєте { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Отримати розширення
-how-it-works-step-1-link = Завантажити розширення { -brand-name-relay } для { -brand-name-firefox }.
+how-it-works-step-1-link = Завантажте розширення { -brand-name-relay } для { -brand-name-firefox }.
 how-it-works-step-1-copy =
     Виберіть піктограму, яка з’явиться на панелі інструментів { -brand-name-firefox }, щоб відкрити сторінку входу. 
     Увійдіть у свій обліковий запис { -brand-name-firefox-account }, щоб розпочати.
