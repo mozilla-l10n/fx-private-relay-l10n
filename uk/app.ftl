@@ -193,14 +193,47 @@ banner-bounced-copy =
     Наразі ми не можемо надіслати електронний лист на адресу { $username }.
     Ми отримали <em>{ $bounce_type }</em> "відмов" від вашого постачальника послуг електронної пошти під час спроби переслати вам електронні листи.
     Це може статися, якщо { -brand-name-relay } не може під'єднатися до вашого постачальника послуг електронної пошти або якщо ваша поштова скринька була заповнена. Ми повторимо спробу { $date }.
+banner-download-firefox-headline = { -brand-name-relay } навіть краще у { -brand-name-firefox }
+banner-download-firefox-copy = Розширення { -brand-name-relay } для { -brand-name-firefox-browser } спрощує створення альтернативних адрес.
 banner-download-firefox-cta = Отримати { -brand-name-firefox }
 banner-download-install-extension-headline = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
+banner-download-install-extension-copy = Розширення { -brand-name-relay } для { -brand-name-firefox-browser } спрощує користування альтернативними адресами.
+banner-download-install-extension-cta = Додати { -brand-name-relay } до { -brand-name-firefox }
+banner-upgrade-headline = Оновити до { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } спрощує створення альтернативних адрес електронної пошти за допомогою власних доменів альтернативних адрес і необмеженої кількості електронних адрес.
+banner-upgrade-cta = Оновити до { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Виберіть власний домен
+banner-choose-subdomain-headline-aliases = Отримайте власний домен альтернативної адреси
+banner-choose-subdomain-copy = Ви можете вибрати власний домен для своїх альтернативних адрес електронної пошти.
+banner-choose-subdomain-warning = Примітка: Ви не можете змінити свій домен пізніше
+banner-choose-subdomain-input-placeholder = Пошук домену
+banner-choose-subdomain-submit = Отримати домен
+banner-pack-upgrade-headline-html = Оновіться до <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, щоб отримати більше альтернативних адрес
+banner-pack-upgrade-copy = Завдяки необмеженій кількості альтернативних адрес електронної пошти та вашому власному домену електронної пошти, { -brand-name-firefox } { -brand-name-relay-premium } допомагає вам захистити себе в інтернеті.
+banner-pack-upgrade-cta = Оновити зараз
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Ви можете створити будь-яку адресу @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Ви можете створити будь-яку адресу @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Щоб створити більше ніж { $number } альтернативних адрес, ви повинні бути преміумпередплатником
+error-premium-cannot-change-subdomain = Ви не можете змінити свій піддомен
+error-premium-set-subdomain = Щоб встановити піддомен, ви повинні бути преміумпередплатником
+error-premium-set-create-subdomain = Щоб встановити альтернативну адресу піддомену, ви повинні бути преміумпередплатником
+error-subdomain-not-created = Не вдалося створити піддомен, спробуйте іншу назву
+error-subdomain-email-not-created = Не вдалося створити адресу електронної пошти з піддоменом, спробуйте іншу назву
+error-subdomain-select = Перед створенням альтернативної адреси піддомену потрібно вибрати піддомен
 
 ## Onboarding 
 
+onboarding-headline = Створіть свою першу альтернативну адресу одним з трьох способів …
+onboarding-tip-1 = Просто натисніть кнопку “Створити нову альтернативну адресу”, щоб створити свою першу альтернативну адресу
+onboarding-tip-2 = Виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться у полі електронної пошти
 
 ## Alias Modals
 
