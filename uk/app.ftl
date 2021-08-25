@@ -28,18 +28,51 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } полегшує створення знеособлених облікових записів е-пошти, з яких листи пересилаються до вашої справжньої теки вхідних. Користуйтеся ним для захисту своїх мережних облікових записів від хакерів та небажаних повідомлень.
 
 ## Header 
 
+logo-alt = { -brand-name-firefox-relay }
+nav-menu = Меню
+nav-home = Домівка
+label-open-menu = Відкрити меню
+avatar-tooltip = Профіль
+# FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
+nav-faq = ЧаП
+nav-profile-sign-in = Увійти
+nav-profile-sign-up = Зареєструватися
+nav-profile-manage-fxa = Керувати своїм { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-sign-out = Вийти
+nav-profile-sign-out-relay = Вийти з { -brand-name-relay }
+nav-profile-sign-out-confirm = Ви впевнені, що бажаєте вийти?
+nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
 
+nav-footer-privacy = Приватність
+nav-footer-relay-terms = Умови { -brand-name-relay }
+nav-footer-legal = Правові положення
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Логотип GitHub
 
 ## Bento Menu
 
+bento-button-title = Програми та служби { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } — це технологія, яка захищає вашу приватність у мережі.
+made-by-mozilla = Створено у { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser } для комп'ютера
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } для мобільних
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Закрити меню
 
 ## Home Page
 
+home-hero-headline = Приховайте свою справжню електронну адресу, щоб захистити свою особистість
+home-hero-copy =
+    Поширюйте псевдоніми е-пошти { -brand-name-relay } замість справжньої адреси е-пошти, щоб захистити свої мережні облікові записи від хакерів.
+    Увійдіть у свій обліковий запис { -brand-name-firefox-account }, щоб розпочати.
 
 ## FAQ Page
 
