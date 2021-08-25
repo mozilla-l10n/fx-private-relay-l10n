@@ -135,6 +135,42 @@ faq-question-7-answer = Тепер ми підтримуємо пересила�
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Вітаємо,</span> { $email }!
+profile-headline-manage-domain = Керуйте своїми альтернативними доменами
+profile-supports-email-forwarding = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }
+profile-promo-upgrade-headline = Оновіть, щоб отримати ще більше можливостей.
+profile-promo-upgrade-copy = Оновіть { -brand-name-relay }, щоб отримати необмежену кількість адрес е-пошти та власний домен е-пошти.
+profile-promo-upgrade-cta = Оновити { -brand-name-relay }
+profile-label-edit = Змінити мітку для цієї альтернативної адреси
+profile-label-saved = Мітку збережено!
+profile-label-generate-new-alias = Створити нову альтернативну адресу
+profile-label-delete = Видалити
+profile-label-delete-alias = Видалити цю альтернативну адресу
+profile-label-upgrade = Отримати необмежену кількість альтернативних адрес
+profile-label-create-domain = Отримати власний домен е-пошти
+profile-label-domain = Домен е-пошти:
+profile-label-domain-tooltip = Створити свій унікальний та власний домен е-пошти.
+profile-label-reset = Скинути
+profile-label-apply = Застосувати
+# This string is followed by an email address
+profile-label-forward-emails = Пересилати електронні листи на адресу:
+# This string is followed by date
+profile-label-first-emailed = Перший електронний лист:
+# This string is followed by date:
+profile-label-created = Створено:
+profile-label-details-show = Показати подробиці
+profile-label-details-hide = Сховати подробиці
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = пересилання
+profile-label-blocking = блокування
+profile-label-copied = Скопійовано!
+profile-label-blocked = Заблоковано
+profile-label-forwarded = Переслано
+profile-label-cancel = Скасувати
+profile-blocked-copy = { -brand-name-firefox-relay } видалить повідомлення, перш ніж вони потраплять у вашу поштову скриньку, якщо ви виберете блокування для цієї альтернативної адреси.
+profile-forwarded-copy = { -brand-name-firefox-relay } надсилатиме повідомлення на вашу поштову скриньку, якщо ви виберете пересилання для цієї альтернативної адреси.
 
 ## Banner Messages (displayed on the profile page)
 
