@@ -140,9 +140,66 @@ faq-question-7-answer = We ondersteunen nu het doorsturen van bijlagen. Er is ec
 profile-label-welcome-html = <span>Welkom,</span> { $email }!
 profile-headline-manage-domain = Uw domeinaliassen beheren
 profile-supports-email-forwarding = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }
+profile-promo-upgrade-headline = Upgrade voor nog meer functies.
+profile-promo-upgrade-copy = Upgrade { -brand-name-relay } om onbeperkte e-mailadressen en uw eigen e-maildomein te krijgen.
+profile-promo-upgrade-cta = { -brand-name-relay } upgraden
+profile-label-edit = Het label voor dit alias bewerken
+profile-label-saved = Label opgeslagen!
+profile-label-generate-new-alias = Nieuw alias aanmaken
+profile-label-delete = Verwijderen
+profile-label-delete-alias = Dit alias verwijderen
+profile-label-upgrade = Onbeperkte aliassen verkrijgen
+profile-label-create-domain = Uw e-maildomein verkrijgen
+profile-label-domain = E-maildomein:
+profile-label-domain-tooltip = Creëer uw unieke en aangepaste e-maildomein.
+profile-label-reset = Herinitialiseren
+# This string is followed by an email address
+profile-label-forward-emails = E-mailberichten doorsturen naar:
+# This string is followed by date
+profile-label-first-emailed = Eerste keer gemaild:
+# This string is followed by date:
+profile-label-created = Gemaakt:
+profile-label-details-show = Details tonen
+profile-label-details-hide = Details verbergen
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = doorsturen
+profile-label-blocking = blokkeren
+profile-label-copied = Gekopieerd!
+profile-label-blocked = Geblokkeerd
+profile-label-forwarded = Doorgestuurd
+profile-label-cancel = Annuleren
+profile-blocked-copy = { -brand-name-firefox-relay } verwijdert berichten voordat ze uw Postvak IN kunnen bereiken wanneer u blokkeren voor dit alias selecteert.
+profile-forwarded-copy = { -brand-name-firefox-relay } stuurt berichten naar uw Postvak IN wanneer u doorsturen voor dit alias selecteert.
+profile-forwarded-note = Opmerking:
+profile-forwarded-note-copy = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden momenteel niet ondersteund en worden niet doorgestuurd.
+profile-stat-label-blocked = E-mailberichten geblokkeerd
+profile-stat-label-forwarded = E-mailberichten doorgestuurd
+profile-stat-label-aliases-used = Gebruikte e-mailaliassen
+profile-filter-search-placeholder = Aliassen zoeken
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } kan uw e-mail niet bezorgen.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    We kunnen momenteel geen e-mailberichten sturen naar { $username }.
+    We hebben een <em>{ $bounce_type }</em> “bounce” ontvangen van uw e-mailprovider toen we e-mailberichten naar u probeerden door te sturen.
+    Dit kan gebeuren als { -brand-name-relay } geen verbinding kan maken met uw e-mailprovider, of als uw mailbox vol is. We zullen het opnieuw proberen op { $date }.
+banner-download-firefox-headline = { -brand-name-relay } is nog beter in { -brand-name-firefox }
+banner-download-firefox-copy = De { -brand-name-relay }-extensie voor { -brand-name-firefox-browser } maakt het maken van aliassen nog eenvoudiger.
+banner-download-firefox-cta = { -brand-name-firefox } downloaden
+banner-download-install-extension-headline = Download de { -brand-name-relay }-extensie voor { -brand-name-firefox }
+banner-download-install-extension-copy = De { -brand-name-relay }-extensie voor de { -brand-name-firefox-browser } maakt het gebruik van e-mailaliassen nog eenvoudiger.
+banner-download-install-extension-cta = { -brand-name-relay } toevoegen aan { -brand-name-firefox }
+banner-upgrade-headline = Upgraden naar { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } maakt het aanmaken van e-mailaliassen nog eenvoudiger, met aangepaste aliasdomeinen en onbeperkte aliassen.
+banner-upgrade-cta = Upgraden naar { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Kies uw eigen domein
+banner-choose-subdomain-headline-aliases = Verkrijg uw eigen aangepaste aliasdomein
+banner-choose-subdomain-copy = U kunt een aangepast domein kiezen voor uw e-mailaliassen.
 
 ## Error Messages
 
