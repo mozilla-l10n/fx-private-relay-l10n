@@ -87,17 +87,51 @@ how-it-works-step-2-copy =
     Välj den för att skapa en ny, slumpmässig adress som slutar på @relay.firefox.com.
     { -brand-name-relay } vidarebefordrar meddelanden till den primära e-postadress som är kopplad till ditt konto.
 how-it-works-step-3-headline = Hantera dina alias
+how-it-works-step-3-copy =
+    Logga in på { -brand-name-relay } översikt för att hålla reda på de alias du har skapat.
+    Om du upptäcker att ett alias tar emot skräppost eller oönskade meddelanden kan du blockera alla meddelanden eller till och med ta bort alias, direkt från översikten.
 hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-postadress?
+hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för varje nytt konto ...
+hero-image-copy-protect-html = ... så att du kan <strong>skydda din riktiga e-postadress</strong> från spårning och skräppost.
+hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer till din inkorg!
 
 ## FAQ Page
 
 faq-headline = Vanliga frågor
 faq-question-1-question = Hur är det med spam?
+faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Om du ser ett större problem med oönskad e-post från alla dina alias, <a href="{ $url }" { $attrs }>rapportera detta till oss</a> så att vi kan överväga att justera SES-tröskelvärden för denna service. Om du rapporterar dessa som skräppost, kommer din e-postleverantör att se { -brand-name-relay } som källan till skräppost, inte den ursprungliga avsändaren.
+faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (dvs "relay"-delen av @relay.firefox.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton.
+    Eftersom { -brand-name-firefox-relay } växer i popularitet och utfärdar fler alias kan vår tjänst placeras på en blockeringslista.
+    Om du inte kan använda ett { -brand-name-relay }-alias, <a href="{ $url }" { $attrs }>meddela oss</a>.
+faq-question-3-question = Är { -brand-name-relay } endast tillgänglig i USA?
+faq-question-3-answer = Webbplatsen är för närvarande endast tillgänglig på engelska, men du kan använda tjänsten var som helst.
+faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-4-answer-html =
+    { -brand-name-relay } har ännu inte möjlighet att svara med ett alias.
+    Om du försöker kommer ingenting att hända. Vi planerar en ytterligare funktion för att låta dig <a href="{ $url }" { $attrs }>svara anonymt till avsändaren</a>.
+faq-question-5-question = Kan jag skapa mitt egna { -brand-name-relay }-alias med domänen @relay.firefox.com?
+faq-question-5-answer = Inte för närvarande, men vi överväger nya funktioner, inklusive att låta dig skapa ditt egna alias med en angiven domän.
+faq-question-6-question = Vad händer om { -brand-name-mozilla } stänger av tjänsten { -brand-name-firefox-relay }?
+faq-question-6-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
+faq-question-7-question = Vad händer om ett e-postmeddelande som skickats till mitt alias innehåller en bilaga?
+faq-question-7-answer = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns på { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 
 ## Profile Page (Logged In)
 
@@ -105,6 +139,9 @@ email-size-limit = { $size } { $unit }
 #   $email (string) - User email address
 profile-label-welcome-html = <span> Välkommen,</span> { $email }!
 profile-headline-manage-domain = Hantera dina domänalias
+profile-supports-email-forwarding = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek
+profile-promo-upgrade-headline = Uppgradera för ännu fler funktioner.
+profile-promo-upgrade-copy = Uppgradera { -brand-name-relay } för att få obegränsade e-postadresser och din egen e-postdomän.
 profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
 profile-label-edit = Redigera etiketten för detta alias
 profile-label-saved = Etikett sparad!
@@ -119,25 +156,47 @@ profile-label-reset = Återställ
 profile-label-apply = Tillämpa
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
+# This string is followed by date
+profile-label-first-emailed = Första e-posten:
 # This string is followed by date:
 profile-label-created = Skapad:
 profile-label-details-show = Visa detaljer
 profile-label-details-hide = Dölj detaljer
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = vidarebefordrar
+profile-label-blocking = blockerar
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
 profile-label-forwarded = Vidarebefordrat
 profile-label-cancel = Avbryt
+profile-blocked-copy = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
+profile-forwarded-copy = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
 profile-forwarded-note = Obs:
+profile-forwarded-note-copy = E-post (inklusive bilagor) större än { email-size-limit } stöds för närvarande inte och kommer inte att vidarebefordras.
 profile-stat-label-blocked = E-postmeddelanden blockerade
 profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
 profile-stat-label-aliases-used = E-postalias som används
 profile-filter-search-placeholder = Sök efter alias
 profile-filter-category-option-active-aliases = Aktiva alias
 profile-filter-category-option-disabled-aliases = Inaktiverade alias
+profile-filter-category-option-relay-aliases = Relay-alias
+profile-filter-category-option-domain-based-aliases = Domänbaserade alias
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } kunde inte leverera din e-post.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Vi kan för närvarande inte skicka e-post till { $username }.
+    Vi fick ett <em>{ $bounce_type }</em> ”studs” från din e -postleverantör när vi försökte vidarebefordra e-postmeddelanden till dig.
+    Detta kan hända om { -brand-name-relay } inte kunde ansluta till din e-postleverantör eller om din brevlåda var full. Vi försöker igen den { $date }.
+banner-download-firefox-headline = { -brand-name-relay } är ännu bättre i { -brand-name-firefox }
+banner-download-firefox-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att skapa alias.
 banner-download-firefox-cta = Hämta { -brand-name-firefox }
+banner-download-install-extension-headline = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
 banner-choose-subdomain-headline = Välj din egen domän
 banner-choose-subdomain-headline-aliases = Skaffa din egna anpassade aliasdomän
 banner-choose-subdomain-copy = Du kan välja en anpassad domän för dina e-postalias.
