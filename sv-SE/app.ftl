@@ -197,6 +197,11 @@ banner-download-firefox-headline = { -brand-name-relay } är ännu bättre i { -
 banner-download-firefox-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att skapa alias.
 banner-download-firefox-cta = Hämta { -brand-name-firefox }
 banner-download-install-extension-headline = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
+banner-download-install-extension-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att använda e-postalias.
+banner-download-install-extension-cta = Lägg till { -brand-name-relay } i { -brand-name-firefox }
+banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade aliasdomäner och obegränsade alias.
+banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Välj din egen domän
 banner-choose-subdomain-headline-aliases = Skaffa din egna anpassade aliasdomän
 banner-choose-subdomain-copy = Du kan välja en anpassad domän för dina e-postalias.
@@ -229,6 +234,7 @@ error-subdomain-select = Du måste välja en underdomän innan du skapar ett und
 onboarding-headline = Skapa ditt första alias, du finns tre sätt...
 onboarding-tip-1 = Klicka bara på knappen "Skapa nytt alias" för att skapa ditt första alias
 onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när den visas i e-postfältet
+onboarding-tip-3 = Via snabbmenyn högerklickar du bara (Windows) eller Ctrl-klickar (macOS) på formulärfält för att komma åt menyn och skapa ett alias
 
 ## Alias Modals
 
