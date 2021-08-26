@@ -67,16 +67,59 @@ bento-button-close-label = Stäng meny
 home-hero-headline = Dölj din riktiga e-postadress för att skydda din identitet
 home-hero-cta = Logga in
 how-it-works-headline = Hur fungerar det
+how-it-works-subheadline = Skydda din personliga identitet överallt där du använder { -brand-name-firefox-browser }.
+how-it-works-step-1-headline = Hämta tillägget
+how-it-works-step-1-link = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Välj ikonen som visas i { -brand-name-firefox } verktygsfält för att komma till inloggningssidan.
+    Logga in med ditt { -brand-name-firefox-account } för att komma igång.
+how-it-works-step-2-headline = Skapa ett nytt alias
+how-it-works-step-3-headline = Hantera dina alias
+hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-postadress?
 
 ## FAQ Page
 
+faq-headline = Vanliga frågor
+faq-question-1-question = Hur är det med spam?
+# String used to display the attachment limit, e.g. 150 KB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span> Välkommen,</span> { $email }!
+profile-headline-manage-domain = Hantera dina domänalias
+profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
+profile-label-edit = Redigera etiketten för detta alias
+profile-label-saved = Etikett sparad!
+profile-label-generate-new-alias = Skapa nytt alias
+profile-label-delete = Ta bort
+profile-label-delete-alias = Ta bort detta alias
+profile-label-upgrade = Få obegränsat med alias
+profile-label-create-domain = Skaffa din e-postdomän
+profile-label-domain = E-postdomän:
+profile-label-domain-tooltip = Skapa din unika och anpassade e-postdomän.
+profile-label-reset = Återställ
+profile-label-apply = Tillämpa
+# This string is followed by an email address
+profile-label-forward-emails = Vidarebefordra e-post till:
+# This string is followed by date:
+profile-label-created = Skapad:
+profile-label-details-show = Visa detaljer
+profile-label-details-hide = Dölj detaljer
+profile-label-copied = Kopierad!
+profile-label-blocked = Blockerad
+profile-label-forwarded = 4Vidarebefordrat
 profile-label-cancel = Avbryt
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-cta = Hämta { -brand-name-firefox }
+banner-choose-subdomain-input-placeholder = Sök efter domän
 banner-pack-upgrade-cta = Uppgradera nu
 
 ## Error Messages
