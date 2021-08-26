@@ -78,6 +78,9 @@ profile-label-copied = Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Encaminhado
 profile-label-cancel = Cancelar
+profile-forwarded-note = Nota:
+profile-stat-label-blocked = Emails bloqueados
+profile-stat-label-forwarded = Emails encaminhados
 
 ## Banner Messages (displayed on the profile page)
 
