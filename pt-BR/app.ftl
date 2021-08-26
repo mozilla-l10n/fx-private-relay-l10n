@@ -84,6 +84,7 @@ profile-stat-label-forwarded = Emails encaminhados
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = O { -brand-name-relay } não conseguiu enviar seu email.
 
 ## Error Messages
 
