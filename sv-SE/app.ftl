@@ -28,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias, alias som vidarebefordras till din riktiga inkorg. Använd den för att skydda dina onlinekonton från hackare och oönskade meddelanden.
 
 ## Header 
 
@@ -40,9 +41,11 @@ avatar-tooltip = Profil
 nav-faq = Vanliga frågor
 nav-profile-sign-in = Logga in
 nav-profile-sign-up = Registrera dig
+nav-profile-manage-fxa = Hantera ditt { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = Logga ut
 nav-profile-sign-out-relay = Logga ut från { -brand-name-relay }
 nav-profile-sign-out-confirm = Är du säker på att du vill logga ut?
+nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
 
@@ -54,6 +57,8 @@ logo-github-alt = GitHub-logotyp
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } appar och tjänster
+fx-makes-tech = { -brand-name-firefox } är teknik som kämpar för din integritet online.
 made-by-mozilla = Skapad av { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } för datorer
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -65,6 +70,9 @@ bento-button-close-label = Stäng meny
 ## Home Page
 
 home-hero-headline = Dölj din riktiga e-postadress för att skydda din identitet
+home-hero-copy =
+    Dela { -brand-name-relay } e-postalias istället för din riktiga e-postadress för att skydda dina onlinekonton från hackare.
+    Logga in med ditt { -brand-name-firefox-account } för att komma igång.
 home-hero-cta = Logga in
 how-it-works-headline = Hur fungerar det
 how-it-works-subheadline = Skydda din personliga identitet överallt där du använder { -brand-name-firefox-browser }.
@@ -74,6 +82,10 @@ how-it-works-step-1-copy =
     Välj ikonen som visas i { -brand-name-firefox } verktygsfält för att komma till inloggningssidan.
     Logga in med ditt { -brand-name-firefox-account } för att komma igång.
 how-it-works-step-2-headline = Skapa ett nytt alias
+how-it-works-step-2-copy =
+    När du surfar kommer ikonen { -brand-name-relay } att visas där webbplatser ber om din e-postadress.
+    Välj den för att skapa en ny, slumpmässig adress som slutar på @relay.firefox.com.
+    { -brand-name-relay } vidarebefordrar meddelanden till den primära e-postadress som är kopplad till ditt konto.
 how-it-works-step-3-headline = Hantera dina alias
 hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-postadress?
 
@@ -180,6 +192,19 @@ survey-question-2 = Är { -brand-name-relay } lätt att använda?
 survey-question-3 = Tycker du att { -brand-name-relay } är pålitlig?
 survey-question-4 = Har { -brand-name-relay } en ren och enkel presentation?
 survey-question-5 = Hur skulle du känna om du inte längre kunde använda { -brand-name-relay }?
+survey-option-strongly-disagree = Håller inte alls med
+survey-option-disagree = Håller inte med
+survey-option-unsure = Osäker
+survey-option-agree = Håller med
+survey-option-strongly-agree = Håller helt med
+survey-option-i-wouldnt-care = Jag bryr mig inte
+survey-option-somewhat-disappointed = Något besviken
+survey-option-very-disappointed = Väldigt besviken
+survey-option-very-likely = Väldigt troligt
+survey-option-not-likely = Inte troligt
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Spara 50% med en helårsprenumeration
+vpn-promo-copy = Skydda dina onlinedata och välj en prenumerationsplan för VPN som fungerar för dig.
+vpn-promo-cta = Hämta { -brand-name-mozilla-vpn }
