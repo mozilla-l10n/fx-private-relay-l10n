@@ -161,9 +161,25 @@ onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när de
 
 ## Alias Modals
 
+modal-rename-alias-saved = Etikett sparad!
+modal-delete-headline = Vill du ta bort detta alias permanent?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    När du har tagit bort detta alias kan det inte återställas.
+    { -brand-name-firefox-relay } vidarebefordrar inte längre meddelanden som skickas till <strong>{ $email }</strong>, inklusive meddelanden som gör att du kan återställa förlorade lösenord.
+modal-delete-warning-upgrade =
+    Om du använder detta alias för att logga in på webbplatser du bryr dig om,
+    bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
+modal-delete-confirmation = Ja, jag vill ta bort detta alias.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = På en skala från 1-10, hur troligt är det att du skulle rekommendera { -brand-name-relay } till en vän eller kollega?
+survey-question-2 = Är { -brand-name-relay } lätt att använda?
+survey-question-3 = Tycker du att { -brand-name-relay } är pålitlig?
+survey-question-4 = Har { -brand-name-relay } en ren och enkel presentation?
+survey-question-5 = Hur skulle du känna om du inte längre kunde använda { -brand-name-relay }?
 
 ## VPN Promo Banner
 
