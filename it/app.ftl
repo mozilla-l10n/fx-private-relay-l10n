@@ -157,6 +157,7 @@ profile-label-create-domain = Ottieni il tuo dominio email
 profile-label-domain = Dominio email:
 profile-label-domain-tooltip = Crea il tuo dominio email unico e personalizzato.
 profile-label-reset = Ripristina
+profile-label-apply = Applica
 # This string is followed by an email address
 profile-label-forward-emails = Inoltra messaggi a:
 # This string is followed by date
@@ -180,6 +181,9 @@ profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used = Alias utilizzati
 profile-filter-search-placeholder = Cerca alias
+profile-filter-category-option-active-aliases = Alias attivi
+profile-filter-category-option-disabled-aliases = Alias disattivati
+profile-filter-category-option-domain-based-aliases = Alias per dominio
 
 ## Banner Messages (displayed on the profile page)
 
