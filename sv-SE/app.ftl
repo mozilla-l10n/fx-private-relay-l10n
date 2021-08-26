@@ -128,14 +128,36 @@ profile-filter-category-option-disabled-aliases = Inaktiverade alias
 banner-download-firefox-cta = Hämta { -brand-name-firefox }
 banner-choose-subdomain-headline = Välj din egen domän
 banner-choose-subdomain-headline-aliases = Skaffa din egna anpassade aliasdomän
+banner-choose-subdomain-copy = Du kan välja en anpassad domän för dina e-postalias.
+banner-choose-subdomain-warning = Obs! Du kan inte ändra din domän senare
 banner-choose-subdomain-input-placeholder = Sök efter domän
+banner-choose-subdomain-submit = Skaffa en domän
+banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
+banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Du kan skapa vilken adress som helst @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Du kan skapa vilken adress som helst @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Du måste vara en premiumabonnent för att kunna göra fler än { $number }-alias
+error-premium-cannot-change-subdomain = Du kan inte ändra din underdomän
+error-premium-set-subdomain = Du måste vara en premiumabonnent för att ställa in en underdomän
+error-premium-set-create-subdomain = Du måste vara en premiumabonnent för att skapa underdomänalias
+error-subdomain-not-created = Underdomänen kunde inte skapas, prova något annat
+error-subdomain-email-not-created = E-postadress med underdomän kunde inte skapas, prova något annat
+error-subdomain-select = Du måste välja en underdomän innan du skapar ett underdomänalias
 
 ## Onboarding 
 
+onboarding-headline = Skapa ditt första alias, du finns tre sätt...
+onboarding-tip-1 = Klicka bara på knappen "Skapa nytt alias" för att skapa ditt första alias
+onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när den visas i e-postfältet
 
 ## Alias Modals
 
