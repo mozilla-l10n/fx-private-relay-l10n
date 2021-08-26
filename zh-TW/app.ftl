@@ -141,6 +141,7 @@ profile-label-create-domain = 取得您自己的郵件網域
 profile-label-domain = 電子郵件網域：
 profile-label-domain-tooltip = 建立專屬您的自訂郵件網域。
 profile-label-reset = 重設
+profile-label-apply = 套用
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
 # This string is followed by date
@@ -164,6 +165,10 @@ profile-stat-label-blocked = 封信已封鎖
 profile-stat-label-forwarded = 封信已轉寄
 profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
+profile-filter-category-option-active-aliases = 使用中的別名
+profile-filter-category-option-disabled-aliases = 已停用的別名
+profile-filter-category-option-relay-aliases = 轉寄別名
+profile-filter-category-option-domain-based-aliases = 網域相關別名
 
 ## Banner Messages (displayed on the profile page)
 
