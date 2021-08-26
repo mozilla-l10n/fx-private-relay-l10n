@@ -183,6 +183,7 @@ profile-stat-label-aliases-used = Alias utilizzati
 profile-filter-search-placeholder = Cerca alias
 profile-filter-category-option-active-aliases = Alias attivi
 profile-filter-category-option-disabled-aliases = Alias disattivati
+profile-filter-category-option-relay-aliases = Alias di inoltro
 profile-filter-category-option-domain-based-aliases = Alias per dominio
 
 ## Banner Messages (displayed on the profile page)
