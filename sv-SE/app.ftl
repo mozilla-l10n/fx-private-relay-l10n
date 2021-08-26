@@ -113,12 +113,21 @@ profile-label-details-show = Visa detaljer
 profile-label-details-hide = Dölj detaljer
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
-profile-label-forwarded = 4Vidarebefordrat
+profile-label-forwarded = Vidarebefordrat
 profile-label-cancel = Avbryt
+profile-forwarded-note = Obs:
+profile-stat-label-blocked = E-postmeddelanden blockerade
+profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
+profile-stat-label-aliases-used = E-postalias som används
+profile-filter-search-placeholder = Sök efter alias
+profile-filter-category-option-active-aliases = Aktiva alias
+profile-filter-category-option-disabled-aliases = Inaktiverade alias
 
 ## Banner Messages (displayed on the profile page)
 
 banner-download-firefox-cta = Hämta { -brand-name-firefox }
+banner-choose-subdomain-headline = Välj din egen domän
+banner-choose-subdomain-headline-aliases = Skaffa din egna anpassade aliasdomän
 banner-choose-subdomain-input-placeholder = Sök efter domän
 banner-pack-upgrade-cta = Uppgradera nu
 
