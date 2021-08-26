@@ -153,6 +153,7 @@ profile-label-create-domain = Uw e-maildomein verkrijgen
 profile-label-domain = E-maildomein:
 profile-label-domain-tooltip = Creëer uw unieke en aangepaste e-maildomein.
 profile-label-reset = Herinitialiseren
+profile-label-apply = Toepassen
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberichten doorsturen naar:
 # This string is followed by date
@@ -176,6 +177,9 @@ profile-stat-label-blocked = E-mailberichten geblokkeerd
 profile-stat-label-forwarded = E-mailberichten doorgestuurd
 profile-stat-label-aliases-used = Gebruikte e-mailaliassen
 profile-filter-search-placeholder = Aliassen zoeken
+profile-filter-category-option-active-aliases = Actieve aliassen
+profile-filter-category-option-disabled-aliases = Uitgeschakelde aliassen
+profile-filter-category-option-domain-based-aliases = Domeingebaseerde aliassen
 
 ## Banner Messages (displayed on the profile page)
 
