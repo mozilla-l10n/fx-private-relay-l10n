@@ -39,15 +39,20 @@ nav-faq = Perguntas frequentes
 nav-profile-sign-in = Entrar
 nav-profile-sign-up = Criar uma conta
 nav-profile-sign-out = Sair
+nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
 
 nav-footer-privacy = Privacidade
+nav-footer-relay-terms = Termos do { -brand-name-relay }
+nav-footer-legal = Jurídico
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logotipo do GitHub
 
 ## Bento Menu
 
+bento-button-title = Aplicativos e serviços { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } é tecnologia que defende sua privacidade online.
 made-by-mozilla = Feito pela { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } para computador
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -58,9 +63,12 @@ bento-button-close-label = Fechar menu
 
 ## Home Page
 
+home-hero-headline = Oculte seu endereço de email real para ajudar a proteger sua identidade
 home-hero-cta = Entrar
 how-it-works-headline = Como funciona
+how-it-works-subheadline = Proteja sua identidade pessoal onde quer que use o { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Instalar a extensão
+how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
 
 ## FAQ Page
 
@@ -98,9 +106,20 @@ banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
 banner-choose-subdomain-headline = Escolha seu próprio domínio
+banner-choose-subdomain-warning = Nota: Você não pode alterar seu domínio mais tarde
+banner-choose-subdomain-input-placeholder = Pesquisar domínio
+banner-choose-subdomain-submit = Obter domínio
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
 
 ## Error Messages
 
+error-premium-cannot-change-subdomain = Você não pode alterar seu subdomínio
+error-premium-set-subdomain = Você precisa ter assinatura premium para definir um subdomínio
+error-subdomain-not-created = Não foi possível criar o subdomínio, tente outro
 
 ## Onboarding 
 
@@ -110,6 +129,18 @@ banner-choose-subdomain-headline = Escolha seu próprio domínio
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = Discordo totalmente
+survey-option-disagree = Discordo
+survey-option-unsure = Não tenho certeza
+survey-option-agree = Concordo
+survey-option-strongly-agree = Concordo plenamente
+survey-option-somewhat-disappointed = Um pouco desapontado
+survey-option-very-disappointed = Muito desapontado
+survey-option-very-likely = Muito provável
+survey-option-not-likely = Pouco provável
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Economize 50% com uma assinatura de ano inteiro
+vpn-promo-copy = Proteja seus dados online, escolha um plano de assinatura de VPN que sirva para você.
+vpn-promo-cta = Instale o { -brand-name-mozilla-vpn }
