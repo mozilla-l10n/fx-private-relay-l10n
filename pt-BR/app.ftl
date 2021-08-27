@@ -60,6 +60,7 @@ bento-button-close-label = Fechar menu
 
 home-hero-cta = Entrar
 how-it-works-headline = Como funciona
+how-it-works-step-1-headline = Instalar a extensão
 
 ## FAQ Page
 
@@ -73,7 +74,14 @@ email-size-limit = { $size } { $unit }
 ## Profile Page (Logged In)
 
 profile-label-delete = Excluir
+profile-label-domain = Domínio de email:
+profile-label-domain-tooltip = Crie seu domínio de email, exclusivo e personalizado.
+profile-label-reset = Redefinir
 profile-label-apply = Aplicar
+# This string is followed by an email address
+profile-label-forward-emails = Encaminhar emails para:
+profile-label-details-show = Exibir detalhes
+profile-label-details-hide = Ocultar detalhes
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Encaminhado
@@ -85,6 +93,11 @@ profile-stat-label-forwarded = Emails encaminhados
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = O { -brand-name-relay } não conseguiu enviar seu email.
+banner-download-firefox-headline = O { -brand-name-relay } é ainda melhor no { -brand-name-firefox }
+banner-download-firefox-cta = Instale o { -brand-name-firefox }
+banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
+banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
+banner-choose-subdomain-headline = Escolha seu próprio domínio
 
 ## Error Messages
 
