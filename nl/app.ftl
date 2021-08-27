@@ -179,6 +179,7 @@ profile-stat-label-aliases-used = Gebruikte e-mailaliassen
 profile-filter-search-placeholder = Aliassen zoeken
 profile-filter-category-option-active-aliases = Actieve aliassen
 profile-filter-category-option-disabled-aliases = Uitgeschakelde aliassen
+profile-filter-category-option-relay-aliases = Doorstuuraliassen
 profile-filter-category-option-domain-based-aliases = Domeingebaseerde aliassen
 
 ## Banner Messages (displayed on the profile page)
