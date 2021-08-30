@@ -89,9 +89,11 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
 banner-download-firefox-cta = Installer { -brand-name-firefox }
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
 banner-pack-upgrade-cta = Mettre à niveau maintenant
@@ -105,6 +107,7 @@ error-subdomain-select = Vous devez sélectionner un sous-domaine avant de crée
 
 ## Alias Modals
 
+modal-rename-alias-saved = Nom enregistré !
 
 ## Evergreen Survey (displayed on the profile page)
 
