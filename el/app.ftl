@@ -95,6 +95,7 @@ profile-label-delete-alias = Διαγραφή ψευδωνύμου
 profile-label-upgrade = Απόκτηση απεριόριστων ψευδωνύμων
 profile-label-domain = Τομέας email:
 profile-label-reset = Επαναφορά
+profile-label-apply = Εφαρμογή
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
 # This string is followed by date:
@@ -110,6 +111,9 @@ profile-forwarded-note = Σημείωση:
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
+profile-filter-category-option-active-aliases = Ενεργά ψευδώνυμα
+profile-filter-category-option-relay-aliases = Ψευδώνυμα Relay
+profile-filter-category-option-domain-based-aliases = Ψευδώνυμα βάσει τομέα
 
 ## Banner Messages (displayed on the profile page)
 
@@ -159,6 +163,7 @@ modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το
 survey-question-1 = Από το 1 έως το 10, πόσο πιθανό είναι να προτείνετε το { -brand-name-relay } σε έναν φίλο ή συνάδελφο;
 survey-question-2 = Είναι το { -brand-name-relay } εύχρηστο;
 survey-question-3 = Νιώθετε ότι το { -brand-name-relay } είναι αξιόπιστο;
+survey-question-4 = Διαθέτει το { -brand-name-relay } μια απλή και σαφή παρουσίαση;
 survey-question-5 = Πώς θα νιώθατε εάν δεν μπορούσατε πλέον να χρησιμοποιήσετε το { -brand-name-relay };
 survey-option-strongly-disagree = Διαφωνώ απόλυτα
 survey-option-disagree = Διαφωνώ
