@@ -165,6 +165,9 @@ profile-label-details-hide = Dölj detaljer
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = vidarebefordrar
 profile-label-blocking = blockerar
+profile-label-disable-forwarding-button = Inaktivera vidarebefordran av e-post för detta alias
+profile-label-enable-forwarding-button = Aktivera vidarebefordran av e-post för detta alias
+profile-label-click-to-copy = Klicka för att kopiera
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
 profile-label-forwarded = Vidarebefordrat
