@@ -165,6 +165,9 @@ profile-label-details-hide = Сховати подробиці
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = пересилання
 profile-label-blocking = блокування
+profile-label-disable-forwarding-button = Вимкнути пересилання листів для цієї альтернативної пошти
+profile-label-enable-forwarding-button = Увімкнути пересилання листів для цієї альтернативної пошти
+profile-label-click-to-copy = Клацніть, щоб скопіювати
 profile-label-copied = Скопійовано!
 profile-label-blocked = Заблоковано
 profile-label-forwarded = Переслано
