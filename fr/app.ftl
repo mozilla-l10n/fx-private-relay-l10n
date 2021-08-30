@@ -77,6 +77,10 @@ how-it-works-headline = Principes de fonctionnement
 
 ## FAQ Page
 
+faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
+faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
+faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
+faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -88,9 +92,13 @@ email-size-limit = { $size } { $unit }
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-cta = Installer { -brand-name-firefox }
+banner-upgrade-headline = Passez à { -brand-name-relay-premium }
+banner-pack-upgrade-cta = Mettre à niveau maintenant
 
 ## Error Messages
 
+error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
 
 ## Onboarding 
 
