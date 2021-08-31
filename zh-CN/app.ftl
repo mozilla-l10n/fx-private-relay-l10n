@@ -77,6 +77,7 @@ how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
 how-it-works-step-3-headline = 管理马甲
+hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
 
 ## FAQ Page
 
@@ -102,7 +103,9 @@ faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-headline-manage-domain = 管理您的域名马甲
+profile-supports-email-forwarding = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）
 profile-promo-upgrade-headline = 升级后可享受更多功能。
+profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限量的邮箱地址，以及您专属的邮箱域名。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-edit = 编辑此马甲的标签
 profile-label-saved = 标签已保存！
@@ -133,7 +136,7 @@ profile-label-cancel = 取消
 profile-forwarded-note = 注意：
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
-profile-stat-label-aliases-used = 邮箱马甲已被使用
+profile-stat-label-aliases-used = 已用的邮箱马甲
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
@@ -178,7 +181,7 @@ onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址
 
 modal-rename-alias-saved = 标签已保存！
 modal-delete-headline = 确定要永久删除此马甲吗？
-modal-delete-confirmation = 是的，我想要删除此马甲。
+modal-delete-confirmation = 是的，我要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
 
