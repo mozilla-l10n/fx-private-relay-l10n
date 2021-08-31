@@ -241,3 +241,4 @@ survey-option-not-likely = Peu probable
 
 vpn-promo-headline = Économisez 50 % en vous abonnant pour un an
 vpn-promo-copy = Protégez vos données en ligne et choisissez le forfait d’abonnement VPN qui vous convient le mieux.
+vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
