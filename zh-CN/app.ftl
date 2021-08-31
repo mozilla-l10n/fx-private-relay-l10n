@@ -69,7 +69,9 @@ bento-button-close-label = 关闭菜单
 ## Home Page
 
 home-hero-headline = 隐藏您的的真实邮箱地址，保护身份信息
+home-hero-copy = 使用 { -brand-name-firefox-account }登录，即可新建 { -brand-name-relay } 马甲邮箱，保护您的网络账户不受黑客攻击。
 home-hero-cta = 登录
+how-it-works-headline = 如何工作
 how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
@@ -78,6 +80,7 @@ how-it-works-step-3-headline = 管理马甲
 ## FAQ Page
 
 faq-headline = 常见问题
+faq-question-1-question = 那垃圾邮件呢？
 faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
 faq-question-3-question = { -brand-name-relay } 只在美国可用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
@@ -125,6 +128,7 @@ banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -b
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
+banner-choose-subdomain-input-placeholder = 搜索域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-cta = 立即升级
 
@@ -136,6 +140,8 @@ error-subdomain-select = 您须先选择子域，才能创建子域的马甲
 
 ## Onboarding 
 
+onboarding-tip-1 = 点击“生成新马甲”来创建您的第一个马甲
+onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
 
 ## Alias Modals
 
