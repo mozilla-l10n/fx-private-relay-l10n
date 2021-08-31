@@ -154,9 +154,12 @@ banner-pack-upgrade-cta = 立即升级
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
+error-premium-cannot-change-subdomain = 无法更改您的子域
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域
 error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域的马甲
-error-subdomain-not-created = 无法创建子域，请尝试其它前缀
 error-subdomain-select = 您须先选择子域，才能创建子域的马甲
 
 ## Onboarding 
