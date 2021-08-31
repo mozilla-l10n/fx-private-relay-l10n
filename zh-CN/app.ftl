@@ -43,6 +43,7 @@ nav-profile-sign-up = 注册
 nav-profile-sign-out = 退出
 nav-profile-sign-out-relay = 退出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您确定要退出登录吗？
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
 
 ## Footer
 
@@ -54,6 +55,7 @@ logo-github-alt = GitHub 徽标
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } 应用程序与服务
 made-by-mozilla = { -brand-name-mozilla } 出品
 fx-desktop = { -brand-name-firefox-browser }桌面版
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -67,27 +69,33 @@ bento-button-close-label = 关闭菜单
 home-hero-cta = 登录
 how-it-works-headline = 工作原理
 how-it-works-step-1-headline = 安装扩展
+how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
 how-it-works-step-3-headline = 管理您的马甲
 
 ## FAQ Page
 
 faq-headline = 常见问题
+faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
 faq-question-3-question = { -brand-name-relay } 只在美国可用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
+faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
 
 ## Profile Page (Logged In)
 
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
+profile-headline-manage-domain = 管理您的域名马甲
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
+profile-label-edit = 编辑此马甲的标签
 profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
@@ -101,6 +109,7 @@ profile-label-enable-forwarding-button = 对此马甲启用转发
 profile-label-copied = 已复制！
 profile-label-cancel = 取消
 profile-forwarded-note = 注意：
+profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
 
@@ -114,9 +123,14 @@ banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -b
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
+banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
+banner-pack-upgrade-cta = 立即升级
 
 ## Error Messages
 
+error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域
+error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域的马甲
+error-subdomain-select = 您须先选择子域，才能创建子域的马甲
 
 ## Onboarding 
 
@@ -128,9 +142,13 @@ modal-delete-confirmation = 是的，我想要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = 强烈反对
 survey-option-disagree = 不同意
 survey-option-agree = 同意
+survey-option-i-wouldnt-care = 没有感觉
+survey-option-somewhat-disappointed = 有点失望
 
 ## VPN Promo Banner
 
+vpn-promo-headline = 一次性订阅全年，可享半价
 vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
