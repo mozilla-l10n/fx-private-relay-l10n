@@ -89,6 +89,7 @@ how-it-works-step-2-copy =
     Lorsque vous naviguez, l’icône { -brand-name-relay } apparaîtra là où les sites vous demandent votre adresse électronique.
     Cliquez dessus pour générer une nouvelle adresse aléatoire qui se termine par @relay.firefox.com.
     { -brand-name-relay } transférera les messages à l’adresse principale associée à votre compte.
+how-it-works-step-3-headline = Gérer vos alias
 how-it-works-step-3-copy =
     Connectez-vous au tableau de bord de { -brand-name-relay } pour consulter les alias que vous avez créés.
     Si vous constatez qu’un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
@@ -178,6 +179,7 @@ banner-choose-subdomain-copy = Vous pouvez choisir un domaine personnalisé pour
 banner-choose-subdomain-input-placeholder = Rechercher un domaine
 banner-choose-subdomain-submit = Obtenir le domaine
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
+banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
@@ -200,14 +202,42 @@ error-subdomain-select = Vous devez sélectionner un sous-domaine avant de crée
 
 onboarding-headline = Pour créer votre premier alias, vous avez trois possibilités…
 onboarding-tip-1 = Cliquez simplement sur le bouton « Générer un nouvel alias » pour créer votre premier alias
+onboarding-tip-2 = Cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresses électroniques
+onboarding-tip-3 = Via le menu contextuel, faites un clic droit (Windows) ou Ctrl-clic (macOS) sur les champs du formulaire pour accéder au menu et générer un alias
 
 ## Alias Modals
 
 modal-rename-alias-saved = Nom enregistré !
+modal-delete-headline = Supprimer définitivement cet alias ?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Une fois cet alias supprimé, il ne peut pas être récupéré.
+    { -brand-name-firefox-relay } ne transférera plus les messages envoyés à <strong>{ $email }</strong>, y compris les messages vous permettant de réinitialiser les mots de passe perdus.
+modal-delete-warning-upgrade =
+    Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent,
+    vous devriez mettre à jour votre identifiant avec une adresse électronique différente avant de supprimer celle-ci.
+modal-delete-confirmation = Oui, je veux supprimer cet alias.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Sur une échelle de 1 à 10, quelle est la probabilité que vous recommandiez { -brand-name-relay } à des ami·es ou collègues ?
+survey-question-2 = { -brand-name-relay } est-il facile à utiliser ?
+survey-question-3 = Pensez-vous que { -brand-name-relay } est digne de confiance ?
+survey-question-4 = { -brand-name-relay } a-t-il une présentation claire et simple ?
+survey-question-5 = Que ressentiriez-vous si vous ne pouviez plus utiliser { -brand-name-relay } ?
+survey-option-strongly-disagree = Pas du tout d’accord
+survey-option-disagree = Pas d’accord
+survey-option-unsure = Je ne sais pas trop
+survey-option-agree = D’accord
+survey-option-strongly-agree = Tout à fait d’accord
+survey-option-i-wouldnt-care = Aucune importance pour moi
+survey-option-somewhat-disappointed = Assez déçu·e
+survey-option-very-disappointed = Très déçu·e
+survey-option-very-likely = Très probable
+survey-option-not-likely = Peu probable
 
 ## VPN Promo Banner
 
 vpn-promo-headline = Économisez 50 % en vous abonnant pour un an
+vpn-promo-copy = Protégez vos données en ligne et choisissez le forfait d’abonnement VPN qui vous convient le mieux.
