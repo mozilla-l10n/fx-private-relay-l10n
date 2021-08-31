@@ -107,9 +107,22 @@ email-size-limit = { $size } { $unit }
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
     Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
+faq-question-5-question = Posso criar meu próprio endereço do { -brand-name-relay } usando o domínio @relay.firefox.com?
+faq-question-5-answer = Atualmente não, mas estamos considerando novos recursos, incluindo permitir que você crie seu próprio endereço de redirecionamento com um domínio designado.
+faq-question-6-question = O que acontece se a { -brand-name-mozilla } encerrar o serviço { -brand-name-firefox-relay }?
+faq-question-6-answer = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
+faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
+faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Boas-vindas,</span> { $email }!
+profile-headline-manage-domain = Gerenciar seus endereços de redirecionamento de domínio
+profile-supports-email-forwarding = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }
+profile-label-edit = Editar o rótulo deste endereço de redirecionamento
+profile-label-saved = Rótulo salvo!
 profile-label-delete = Excluir
 profile-label-domain = Domínio de email:
 profile-label-domain-tooltip = Crie seu domínio de email, exclusivo e personalizado.
