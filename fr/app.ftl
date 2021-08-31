@@ -123,7 +123,31 @@ profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionna
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
 profile-label-edit = Modifier le nom de cet alias
+profile-label-saved = Nom enregistré !
+profile-label-generate-new-alias = Générer un nouvel alias
+profile-label-delete = Supprimer
+profile-label-delete-alias = Supprimer cet alias
+profile-label-create-domain = Obtenez votre domaine de messagerie
+profile-label-domain = Domaine de messagerie :
+profile-label-domain-tooltip = Créez votre domaine de messagerie unique et personnalisé.
+profile-label-reset = Réinitialiser
+profile-label-apply = Appliquer
+# This string is followed by an email address
+profile-label-forward-emails = Transférer les messages à :
+# This string is followed by date
+profile-label-first-emailed = Premier message :
+# This string is followed by date:
+profile-label-created = Date de création :
+profile-label-details-show = Afficher les détails
+profile-label-details-hide = Masquer les détails
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = transfert
+profile-label-blocking = blocage
+profile-label-disable-forwarding-button = Désactiver le transfert de messages pour cet alias
+profile-label-enable-forwarding-button = Activer le transfert de messages pour cet alias
 profile-label-click-to-copy = Cliquer pour copier
+profile-label-copied = Copié !
+profile-label-blocked = Bloqués
 
 ## Banner Messages (displayed on the profile page)
 
