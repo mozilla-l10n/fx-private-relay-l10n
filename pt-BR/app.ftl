@@ -77,15 +77,36 @@ how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand
 how-it-works-step-1-copy =
     Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
     Entre com sua { -brand-name-firefox-account } para começar.
+how-it-works-step-2-copy =
+    Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
+    Clique no ícone para gerar um novo endereço aleatório que termine em @relay.firefox.com.
+    O { -brand-name-relay } irá encaminhar as mensagens para o endereço de email principal associado à sua conta.
+how-it-works-step-3-copy =
+    Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou.
+    Se descobrir que um deles recebe spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
+hero-image-copy-trust = Você pode ao menos confiar seu email pessoal a essa empresa?
+hero-image-copy-unique-html = <strong>Use um endereço de retransmissão exclusivo</strong> para cada nova conta…
+hero-image-copy-protect-html = … para poder <strong>proteger seu email real</strong> de rastreamento e spam.
+hero-image-copy-control-html = Agora <em>você está no controle</em> do que chega em sua caixa de entrada!
 
 ## FAQ Page
 
 faq-headline = Perguntas frequentes
+faq-question-1-question = E quanto ao spam?
+faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
+faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
+faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-4-answer-html =
+    O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
+    Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
 
 ## Profile Page (Logged In)
 
