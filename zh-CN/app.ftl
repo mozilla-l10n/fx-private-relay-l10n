@@ -67,11 +67,10 @@ bento-button-close-label = 关闭菜单
 ## Home Page
 
 home-hero-cta = 登录
-how-it-works-headline = 工作原理
 how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
-how-it-works-step-3-headline = 管理您的马甲
+how-it-works-step-3-headline = 管理马甲
 
 ## FAQ Page
 
