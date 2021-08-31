@@ -181,6 +181,9 @@ onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址
 
 modal-rename-alias-saved = 标签已保存！
 modal-delete-headline = 确定要永久删除此马甲吗？
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
 modal-delete-confirmation = 是的，我要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
