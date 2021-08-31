@@ -156,6 +156,10 @@ modal-delete-confirmation = 是的，我想要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = 在 1 到 10 的范围内，您向朋友或同事推荐 { -brand-name-relay } 的可能性有多大？
+survey-question-2 = { -brand-name-relay } 易于使用吗？
+survey-question-3 = 您认为 { -brand-name-relay } 值得信赖吗？
+survey-question-4 = { -brand-name-relay } 的界面简洁好用吗？
 survey-question-5 = 若不能再使用 { -brand-name-relay }，您会觉得？
 survey-option-strongly-disagree = 强烈反对
 survey-option-disagree = 不同意
@@ -164,6 +168,9 @@ survey-option-agree = 同意
 survey-option-strongly-agree = 非常同意
 survey-option-i-wouldnt-care = 没有感觉
 survey-option-somewhat-disappointed = 有点失望
+survey-option-very-disappointed = 非常失望
+survey-option-very-likely = 极有可能
+survey-option-not-likely = 不太可能
 
 ## VPN Promo Banner
 
