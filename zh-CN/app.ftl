@@ -122,6 +122,7 @@ profile-filter-category-option-disabled-aliases = 已禁用的马甲
 
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
 banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox }，体验更佳
+banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让创建马甲更简单。
 banner-download-firefox-cta = 下载 { -brand-name-firefox }
 banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 banner-download-install-extension-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
@@ -155,6 +156,7 @@ modal-delete-confirmation = 是的，我想要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-5 = 若不能再使用 { -brand-name-relay }，您会觉得？
 survey-option-strongly-disagree = 强烈反对
 survey-option-disagree = 不同意
 survey-option-agree = 同意
@@ -164,4 +166,5 @@ survey-option-somewhat-disappointed = 有点失望
 ## VPN Promo Banner
 
 vpn-promo-headline = 一次性订阅全年，可享半价
+vpn-promo-copy = 保护您的在线数据，选择适合您的 VPN 订阅方案。
 vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
