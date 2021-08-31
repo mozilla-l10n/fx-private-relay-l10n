@@ -28,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } rende facile crear aliases e-mail, que inultra a tu real cassa de ingresso. Usa lo pro proteger tu contos online de piratas informatic e messages indesirate.
 
 ## Header 
 
@@ -40,6 +41,7 @@ avatar-tooltip = Profilo
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
 nav-profile-sign-up = Inscriber se
+nav-profile-manage-fxa = Gere tu { -brand-name-firefox-account(majusculas: "majusculas") }
 nav-profile-sign-out = Clauder session
 nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
@@ -67,6 +69,11 @@ bento-button-close-label = Clauder menu
 
 ## Home Page
 
+home-hero-headline = Cela tu real adresse e-mail a adjuta proteger tu identitate
+home-hero-copy =
+    Comparti le aliases e-mail de { -brand-name-relay } in vice del tu real adresse e-mail pro proteger tu contos online del piratas informatic. 
+    
+    Accede con tu { -brand-name-firefox-account } pro comenciar.
 home-hero-cta = Aperir session
 how-it-works-headline = Como functiona illo
 how-it-works-step-1-headline = Installa le extension
@@ -136,6 +143,7 @@ modal-rename-alias-saved = Etiquetta salvate!
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = Io dissenti fortemente
 survey-option-disagree = Dissenti
 survey-option-unsure = Insecur
 survey-option-agree = De accordo
