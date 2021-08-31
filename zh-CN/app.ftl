@@ -124,9 +124,12 @@ banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
 banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox }，体验更佳
 banner-download-firefox-cta = 下载 { -brand-name-firefox }
 banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
+banner-download-install-extension-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义马甲域名与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
+banner-choose-subdomain-headline = 选择您的自有域名
 banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
 banner-choose-subdomain-input-placeholder = 搜索域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
@@ -136,10 +139,12 @@ banner-pack-upgrade-cta = 立即升级
 
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域
 error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域的马甲
+error-subdomain-not-created = 无法创建子域，请尝试其它前缀
 error-subdomain-select = 您须先选择子域，才能创建子域的马甲
 
 ## Onboarding 
 
+onboarding-headline = 有三种方式来创建您的第一个马甲…
 onboarding-tip-1 = 点击“生成新马甲”来创建您的第一个马甲
 onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
 
