@@ -72,11 +72,36 @@ bento-button-close-label = Fermer le menu
 
 ## Home Page
 
+home-hero-headline = Masquez votre véritable adresse électronique pour protéger votre identité
+home-hero-copy =
+    Partagez les alias { -brand-name-relay } au lieu de votre véritable adresse électronique pour protéger vos comptes en ligne contre les pirates.
+    Connectez-vous avec votre { -brand-name-firefox-account } pour commencer.
 home-hero-cta = Connexion
 how-it-works-headline = Principes de fonctionnement
+how-it-works-subheadline = Protégez votre identité personnelle partout où vous utilisez le { -brand-name-firefox-browser }.
+how-it-works-step-1-headline = Obtenir l’extension
+how-it-works-step-1-link = Téléchargez l’extension { -brand-name-relay } pour { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Sélectionnez l’icône qui apparaît sur votre barre d’outils { -brand-name-firefox } pour accéder à la page de connexion.
+    Connectez-vous avec votre { -brand-name-firefox-account } pour commencer.
+how-it-works-step-2-headline = Créer un nouvel alias
+how-it-works-step-2-copy =
+    Lorsque vous naviguez, l’icône { -brand-name-relay } apparaîtra là où les sites vous demandent votre adresse électronique.
+    Cliquez dessus pour générer une nouvelle adresse aléatoire qui se termine par @relay.firefox.com.
+    { -brand-name-relay } transférera les messages à l’adresse principale associée à votre compte.
+how-it-works-step-3-copy =
+    Connectez-vous au tableau de bord de { -brand-name-relay } pour consulter les alias que vous avez créés.
+    Si vous constatez qu’un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
+hero-image-copy-trust = Pouvez-vous faire confiance à cette entreprise avec votre messagerie personnelle ?
+hero-image-copy-unique-html = <strong>Utilisez une adresse de relais unique</strong> pour chaque nouveau compte…
+hero-image-copy-protect-html = … afin de <strong>protéger votre véritable adresse électronique</strong> du pistage et du spam.
+hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arrive dans votre boîte de réception !
 
 ## FAQ Page
 
+faq-headline = Questions fréquentes
+faq-question-1-question = Et les messages indésirables ?
+faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
 faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
 faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
@@ -89,9 +114,15 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Bienvenue,</span> { $email } !
+profile-headline-manage-domain = Gérer les alias de votre domaine
+profile-supports-email-forwarding = { -brand-name-firefox-relay } prend en charge le transfert de courriels (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }
 profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionnalités.
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
+profile-label-edit = Modifier le nom de cet alias
 profile-label-click-to-copy = Cliquer pour copier
 
 ## Banner Messages (displayed on the profile page)
