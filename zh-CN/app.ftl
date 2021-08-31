@@ -84,7 +84,7 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 faq-headline = 常见问题
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
-faq-question-3-question = { -brand-name-relay } 只在美国可用吗？
+faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 # String used to display the attachment limit, e.g. 150 KB
@@ -184,6 +184,7 @@ modal-delete-headline = 确定要永久删除此马甲吗？
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
+modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 modal-delete-confirmation = 是的，我要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
