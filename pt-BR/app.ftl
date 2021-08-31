@@ -105,6 +105,13 @@ faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
+    Conforme o { -brand-name-firefox-relay } crescer em popularidade e emitir mais endereços de redirecionamento, nosso serviço pode ser colocado em uma lista de bloqueio.
+    Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
 faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
 faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
@@ -146,6 +153,10 @@ profile-label-reset = Redefinir
 profile-label-apply = Aplicar
 # This string is followed by an email address
 profile-label-forward-emails = Encaminhar emails para:
+# This string is followed by date
+profile-label-first-emailed = Primeira mensagem:
+# This string is followed by date:
+profile-label-created = Criado em:
 profile-label-details-show = Exibir detalhes
 profile-label-details-hide = Ocultar detalhes
 # This string is a label for a toggle (on/off) switch  
@@ -174,10 +185,21 @@ profile-filter-category-option-domain-based-aliases = Endereços de redirecionam
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = O { -brand-name-relay } não conseguiu enviar seu email.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    No momento, não podemos enviar email para { $username }.
+    Recebemos uma “rejeição” <em>{ $bounce_type }</em> do seu provedor de email ao tentar encaminhar emails para você.
+    Isso pode acontecer se o { -brand-name-relay } não conseguir se conectar com seu provedor de email, ou se sua caixa de entrada estiver cheia. Tentaremos novamente em { $date }.
 banner-download-firefox-headline = O { -brand-name-relay } é ainda melhor no { -brand-name-firefox }
+banner-download-firefox-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais a criação de endereços de redirecionamento.
 banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
+banner-download-install-extension-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais usar endereços de redirecionamento de email.
 banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
+banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
 banner-choose-subdomain-headline = Escolha seu próprio domínio
 banner-choose-subdomain-headline-aliases = Tenha seu próprio domínio personalizado de endereços de redirecionamento
 banner-choose-subdomain-copy = Você pode escolher um domínio personalizado para seus endereços de redirecionamento de email.
