@@ -140,6 +140,9 @@ faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexo
 profile-label-welcome-html = <span>Boas-vindas,</span> { $email }!
 profile-headline-manage-domain = Gerenciar seus endereços de redirecionamento de domínio
 profile-supports-email-forwarding = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }
+profile-promo-upgrade-headline = Mude para a versão premium para ter ainda mais funcionalidades.
+profile-promo-upgrade-copy = Mude para a versão premium do { -brand-name-relay } para ter endereços de email ilimitados e seu próprio domínio de email.
+profile-promo-upgrade-cta = Mudar para a versão premium do { -brand-name-relay }
 profile-label-edit = Editar o rótulo deste endereço de redirecionamento
 profile-label-saved = Rótulo salvo!
 profile-label-generate-new-alias = Gerar novo endereço de redirecionamento
@@ -199,13 +202,16 @@ banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 banner-download-install-extension-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais usar endereços de redirecionamento de email.
 banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
+banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
+banner-upgrade-cta = Mudar para o { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Escolha seu próprio domínio
 banner-choose-subdomain-headline-aliases = Tenha seu próprio domínio personalizado de endereços de redirecionamento
 banner-choose-subdomain-copy = Você pode escolher um domínio personalizado para seus endereços de redirecionamento de email.
 banner-choose-subdomain-warning = Nota: Você não pode alterar seu domínio mais tarde
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
 banner-choose-subdomain-submit = Obter domínio
+banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
@@ -236,10 +242,19 @@ onboarding-tip-3 = Através do menu de contexto, basta clicar com o botão direi
 
 modal-rename-alias-saved = Rótulo salvo!
 modal-delete-headline = Excluir permanentemente este endereço de redirecionamento?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Após excluir este endereço de redirecionamento, ele não pode ser recuperado.
+    O { -brand-name-firefox-relay } não irá mais encaminhar mensagens enviadas para <strong>{ $email }</strong>, incluindo mensagens que permitam você redefinir senhas perdidas.
+modal-delete-warning-upgrade =
+    Se você usa este endereço de redirecionamento para acessar contas em sites de seu interesse,
+    você deve alterar o endereço de email de cada conta antes de excluir este endereço.
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Numa de escala de 1 a 10, qual a probabilidade de você recomendar o { -brand-name-relay } para um amigo ou colega?
 survey-question-2 = O { -brand-name-relay } é fácil de usar?
 survey-question-3 = Você acha o { -brand-name-relay } confiável?
 survey-question-4 = O { -brand-name-relay } tem uma apresentação simples e limpa?
