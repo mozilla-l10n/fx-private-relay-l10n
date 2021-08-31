@@ -133,9 +133,11 @@ profile-label-cancel = 取消
 profile-forwarded-note = 注意：
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
+profile-stat-label-aliases-used = 邮箱马甲已被使用
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
+profile-filter-category-option-domain-based-aliases = 域名相关马甲
 
 ## Banner Messages (displayed on the profile page)
 
@@ -151,6 +153,7 @@ banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让�
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 banner-choose-subdomain-headline = 选择您的自有域名
 banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
+banner-choose-subdomain-warning = 注意：之后将无法再更改域名
 banner-choose-subdomain-input-placeholder = 搜索域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-cta = 立即升级
@@ -173,6 +176,7 @@ onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址
 
 ## Alias Modals
 
+modal-rename-alias-saved = 标签已保存！
 modal-delete-headline = 确定要永久删除此马甲吗？
 modal-delete-confirmation = 是的，我想要删除此马甲。
 
