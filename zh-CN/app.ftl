@@ -88,15 +88,21 @@ email-size-limit = { $size } { $unit }
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
+profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
+profile-label-upgrade = 获取无限量马甲
 profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by date:
 profile-label-created = 创建于：
+profile-label-disable-forwarding-button = 对此马甲禁用转发
+profile-label-enable-forwarding-button = 对此马甲启用转发
 profile-label-copied = 已复制！
 profile-label-cancel = 取消
 profile-forwarded-note = 注意：
+profile-filter-category-option-active-aliases = 使用中的马甲
+profile-filter-category-option-disabled-aliases = 已禁用的马甲
 
 ## Banner Messages (displayed on the profile page)
 
@@ -107,6 +113,7 @@ banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
+banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
 
 ## Error Messages
 
@@ -116,6 +123,8 @@ banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 
 ## Alias Modals
 
+modal-delete-headline = 确定要永久删除此马甲吗？
+modal-delete-confirmation = 是的，我想要删除此马甲。
 
 ## Evergreen Survey (displayed on the profile page)
 
