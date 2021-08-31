@@ -159,7 +159,9 @@ modal-delete-confirmation = 是的，我想要删除此马甲。
 survey-question-5 = 若不能再使用 { -brand-name-relay }，您会觉得？
 survey-option-strongly-disagree = 强烈反对
 survey-option-disagree = 不同意
+survey-option-unsure = 不确定
 survey-option-agree = 同意
+survey-option-strongly-agree = 非常同意
 survey-option-i-wouldnt-care = 没有感觉
 survey-option-somewhat-disappointed = 有点失望
 
