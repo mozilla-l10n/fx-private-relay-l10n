@@ -172,6 +172,7 @@ banner-choose-subdomain-copy = Você pode escolher um domínio personalizado par
 banner-choose-subdomain-warning = Nota: Você não pode alterar seu domínio mais tarde
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
 banner-choose-subdomain-submit = Obter domínio
+banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
 # Variables:
@@ -180,15 +181,28 @@ banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomai
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Você precisa ter assinatura premium para criar mais de { $number } endereços de redirecionamento
 error-premium-cannot-change-subdomain = Você não pode alterar seu subdomínio
 error-premium-set-subdomain = Você precisa ter assinatura premium para definir um subdomínio
+error-premium-set-create-subdomain = Você precisa ter assinatura premium para criar endereços de redirecionamento de subdomínio
 error-subdomain-not-created = Não foi possível criar o subdomínio, tente outro
+error-subdomain-email-not-created = Não foi possível criar o endereço de redirecionamento de subdomínio, tente outro
+error-subdomain-select = Você deve selecionar um subdomínio antes de criar endereços de redirecionamento de subdomínio
 
 ## Onboarding 
 
+onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três maneiras …
+onboarding-tip-1 = Basta clicar no botão “Gerar novo endereço de redirecionamento” para criar seu primeiro endereço de redirecionamento
+onboarding-tip-2 = Clicando no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email
+onboarding-tip-3 = Através do menu de contexto, basta clicar com o botão direito do mouse (Windows) ou Control-clique (macOS) em um campo de formulário para acessar o menu e gerar um endereço de redirecionamento
 
 ## Alias Modals
 
+modal-rename-alias-saved = Rótulo salvo!
+modal-delete-headline = Excluir permanentemente este endereço de redirecionamento?
+modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
 
 ## Evergreen Survey (displayed on the profile page)
 
