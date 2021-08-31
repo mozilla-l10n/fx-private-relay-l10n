@@ -11,9 +11,11 @@
 -brand-name-firefox = Firefox
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
+-brand-name-relay-premium = Relay Premium
 -brand-name-firefox-browser = Navegador Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
@@ -38,7 +40,10 @@ avatar-tooltip = Perfil
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Entrar
 nav-profile-sign-up = Criar uma conta
+nav-profile-manage-fxa = Gerenciar sua { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = Sair
+nav-profile-sign-out-relay = Sair do { -brand-name-relay }
+nav-profile-sign-out-confirm = Tem certeza que quer sair?
 nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -69,6 +74,9 @@ how-it-works-headline = Como funciona
 how-it-works-subheadline = Proteja sua identidade pessoal onde quer que use o { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Instalar a extensão
 how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
+    Entre com sua { -brand-name-firefox-account } para começar.
 
 ## FAQ Page
 
