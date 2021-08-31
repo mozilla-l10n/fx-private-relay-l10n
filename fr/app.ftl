@@ -89,7 +89,10 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionnalités.
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
+profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
+profile-label-click-to-copy = Cliquer pour copier
 
 ## Banner Messages (displayed on the profile page)
 
