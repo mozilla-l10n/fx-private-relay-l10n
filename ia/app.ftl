@@ -132,6 +132,7 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 
 ## Alias Modals
 
+modal-rename-alias-saved = Etiquetta salvate!
 
 ## Evergreen Survey (displayed on the profile page)
 
