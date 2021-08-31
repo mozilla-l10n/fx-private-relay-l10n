@@ -153,6 +153,9 @@ profile-label-details-hide = 隱藏細節
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = 轉寄中
 profile-label-blocking = 封鎖中
+profile-label-disable-forwarding-button = 對此別名停用轉寄
+profile-label-enable-forwarding-button = 對此別名啟用轉寄
+profile-label-click-to-copy = 點擊複製
 profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
