@@ -165,6 +165,9 @@ profile-label-details-hide = Details verbergen
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = doorsturen
 profile-label-blocking = blokkeren
+profile-label-disable-forwarding-button = Doorsturen van e-mailberichten voor deze alias uitschakelen
+profile-label-enable-forwarding-button = Doorsturen van e-mailberichten voor deze alias inschakelen
+profile-label-click-to-copy = Klik om te kopiëren
 profile-label-copied = Gekopieerd!
 profile-label-blocked = Geblokkeerd
 profile-label-forwarded = Doorgestuurd
