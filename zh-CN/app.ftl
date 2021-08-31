@@ -40,6 +40,7 @@ avatar-tooltip = 个人资料
 nav-faq = 常见问题
 nav-profile-sign-in = 登录
 nav-profile-sign-up = 注册
+nav-profile-manage-fxa = 管理您的 { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = 退出
 nav-profile-sign-out-relay = 退出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您确定要退出登录吗？
@@ -56,6 +57,7 @@ logo-github-alt = GitHub 徽标
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } 应用程序与服务
+fx-makes-tech = { -brand-name-firefox } 用技术为您的隐私而战。
 made-by-mozilla = { -brand-name-mozilla } 出品
 fx-desktop = { -brand-name-firefox-browser }桌面版
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -66,6 +68,7 @@ bento-button-close-label = 关闭菜单
 
 ## Home Page
 
+home-hero-headline = 隐藏您的的真实邮箱地址，保护身份信息
 home-hero-cta = 登录
 how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
