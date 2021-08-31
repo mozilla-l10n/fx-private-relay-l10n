@@ -148,20 +148,58 @@ profile-label-enable-forwarding-button = Activer le transfert de messages pour c
 profile-label-click-to-copy = Cliquer pour copier
 profile-label-copied = Copié !
 profile-label-blocked = Bloqués
+profile-label-forwarded = Transférés
+profile-label-cancel = Annuler
+profile-blocked-copy = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
+profile-forwarded-copy = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
+profile-forwarded-note = Remarque :
+profile-forwarded-note-copy = Les messages (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne sont actuellement pas pris en charge et ne seront pas transférés.
+profile-stat-label-blocked = Messages bloqués
+profile-stat-label-forwarded = Messages transférés
+profile-stat-label-aliases-used = Alias utilisés
+profile-filter-search-placeholder = Rechercher des alias
+profile-filter-category-option-active-aliases = Alias actifs
+profile-filter-category-option-disabled-aliases = Alias désactivés
+profile-filter-category-option-relay-aliases = Alias de relais
+profile-filter-category-option-domain-based-aliases = Alias par domaines
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-headline = { -brand-name-relay } fonctionne encore mieux avec { -brand-name-firefox }
 banner-download-firefox-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
 banner-download-firefox-cta = Installer { -brand-name-firefox }
+banner-download-install-extension-headline = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
+banner-download-install-extension-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend l’utilisation des alias de messagerie encore plus facile.
+banner-download-install-extension-cta = Ajouter { -brand-name-relay } à { -brand-name-firefox }
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Choisissez votre propre domaine
+banner-choose-subdomain-headline-aliases = Obtenez votre propre domaine d’alias personnalisé
+banner-choose-subdomain-copy = Vous pouvez choisir un domaine personnalisé pour vos alias de messagerie.
+banner-choose-subdomain-input-placeholder = Rechercher un domaine
+banner-choose-subdomain-submit = Obtenir le domaine
+banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-cta = Mettre à niveau maintenant
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Vous devez être abonné·e premium pour créer plus de { $number } alias
+error-premium-cannot-change-subdomain = Vous ne pouvez pas changer votre sous-domaine
+error-premium-set-subdomain = Vous devez être abonné·e premium pour définir un sous-domaine
+error-premium-set-create-subdomain = Vous devez être abonné·e premium pour créer des alias de sous-domaine
+error-subdomain-not-created = Le sous-domaine n’a pas pu être créé, essayez autre chose
 error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
 
 ## Onboarding 
 
+onboarding-headline = Pour créer votre premier alias, vous avez trois possibilités…
+onboarding-tip-1 = Cliquez simplement sur le bouton « Générer un nouvel alias » pour créer votre premier alias
 
 ## Alias Modals
 
