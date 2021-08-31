@@ -213,6 +213,7 @@ banner-choose-subdomain-input-placeholder = Pesquisar domínio
 banner-choose-subdomain-submit = Obter domínio
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
+banner-pack-upgrade-cta = Mude agora para a versão premium
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
 # Variables:
