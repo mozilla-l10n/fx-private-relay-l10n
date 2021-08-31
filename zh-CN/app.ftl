@@ -67,8 +67,6 @@ bento-button-close-label = 关闭菜单
 home-hero-cta = 登录
 how-it-works-headline = 工作原理
 how-it-works-step-1-headline = 安装扩展
-how-it-works-step-2-headline = 新建别名
-how-it-works-step-3-headline = 管理您的别名
 
 ## FAQ Page
 
@@ -89,17 +87,23 @@ profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-delete = 删除
-profile-label-delete-alias = 删除此别名
 profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by date:
 profile-label-created = 创建于：
 profile-label-copied = 已复制！
 profile-label-cancel = 取消
+profile-forwarded-note = 注意：
 
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
+banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox }，体验更佳
+banner-download-firefox-cta = 下载 { -brand-name-firefox }
+banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
+banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
+banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
+banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 
 ## Error Messages
 
