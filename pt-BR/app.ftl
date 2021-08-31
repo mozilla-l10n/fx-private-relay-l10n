@@ -28,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = O { -brand-name-firefox-relay } facilita criar endereços de redirecionamento de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
 
 ## Header 
 
@@ -69,6 +70,9 @@ bento-button-close-label = Fechar menu
 ## Home Page
 
 home-hero-headline = Oculte seu endereço de email real para ajudar a proteger sua identidade
+home-hero-copy =
+    Compartilhe endereços de redirecionamento de email do { -brand-name-relay } em vez do seu endereço de email real para proteger suas contas online de hackers.
+    Entre com sua { -brand-name-firefox-account } para começar.
 home-hero-cta = Entrar
 how-it-works-headline = Como funciona
 how-it-works-subheadline = Proteja sua identidade pessoal onde quer que use o { -brand-name-firefox-browser }.
@@ -77,10 +81,12 @@ how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand
 how-it-works-step-1-copy =
     Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
     Entre com sua { -brand-name-firefox-account } para começar.
+how-it-works-step-2-headline = Criar endereço de redirecionamento
 how-it-works-step-2-copy =
     Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
     Clique no ícone para gerar um novo endereço aleatório que termine em @relay.firefox.com.
     O { -brand-name-relay } irá encaminhar as mensagens para o endereço de email principal associado à sua conta.
+how-it-works-step-3-headline = Gerenciar seus endereços de redirecionamento
 how-it-works-step-3-copy =
     Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou.
     Se descobrir que um deles recebe spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
@@ -93,6 +99,7 @@ hero-image-copy-control-html = Agora <em>você está no controle</em> do que che
 
 faq-headline = Perguntas frequentes
 faq-question-1-question = E quanto ao spam?
+faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
 faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
 faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
@@ -206,11 +213,16 @@ modal-delete-confirmation = Sim, quero excluir este endereço de redirecionament
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = O { -brand-name-relay } é fácil de usar?
+survey-question-3 = Você acha o { -brand-name-relay } confiável?
+survey-question-4 = O { -brand-name-relay } tem uma apresentação simples e limpa?
+survey-question-5 = Como você se sentiria se não pudesse mais usar o { -brand-name-relay }?
 survey-option-strongly-disagree = Discordo totalmente
 survey-option-disagree = Discordo
 survey-option-unsure = Não tenho certeza
 survey-option-agree = Concordo
 survey-option-strongly-agree = Concordo plenamente
+survey-option-i-wouldnt-care = Eu não me importaria
 survey-option-somewhat-disappointed = Um pouco desapontado
 survey-option-very-disappointed = Muito desapontado
 survey-option-very-likely = Muito provável
