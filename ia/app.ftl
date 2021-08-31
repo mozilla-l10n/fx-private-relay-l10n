@@ -41,10 +41,14 @@ nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
 nav-profile-sign-up = Inscriber se
 nav-profile-sign-out = Clauder session
+nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
+nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
+nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
 
 nav-footer-privacy = Confidentialitate
+nav-footer-relay-terms = Terminos de uso de { -brand-name-relay }
 nav-footer-legal = Legal
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
@@ -53,7 +57,10 @@ logo-github-alt = Logo GitHub
 
 bento-button-title = Applicationes e servicios { -brand-name-firefox }
 fx-makes-tech = { -brand-name-firefox } es un technologia que lucta pro tu confidentialitate in linea.
+made-by-mozilla = Producite per { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser } pro scriptorio
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } pro mobile
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 bento-button-close-label = Clauder menu
@@ -65,6 +72,7 @@ how-it-works-headline = Como functiona illo
 how-it-works-step-1-headline = Installa le extension
 how-it-works-step-1-link = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 how-it-works-step-2-headline = Crear un nove alias
+how-it-works-step-3-headline = Gere tu aliases
 
 ## FAQ Page
 
@@ -99,6 +107,7 @@ profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used = Aliases email usate
 profile-filter-search-placeholder = Cercar aliases
+profile-filter-category-option-active-aliases = Aliases active
 
 ## Banner Messages (displayed on the profile page)
 
@@ -114,6 +123,18 @@ profile-filter-search-placeholder = Cercar aliases
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-disagree = Dissenti
+survey-option-unsure = Insecur
+survey-option-agree = De accordo
+survey-option-strongly-agree = Fortemente de accordo
+survey-option-i-wouldnt-care = Non me interessarea
+survey-option-somewhat-disappointed = Un poco deludite
+survey-option-very-disappointed = Multo deludite
+survey-option-very-likely = Multo probabile
+survey-option-not-likely = Non probabile
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Sparnia le 50% con un subscription de un anno integre
+vpn-promo-copy = Protege tu datos online e selige un plano de subscription VPN que functiona pro te.
+vpn-promo-cta = Installar { -brand-name-mozilla-vpn }
