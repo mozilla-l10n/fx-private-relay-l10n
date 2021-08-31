@@ -84,7 +84,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = Neue Alias-E-Mail-Adresse erstellen
 how-it-works-step-2-copy =
     Beim Surfen erscheint das { -brand-name-relay }-Symbol an Feldern, in denen nach Ihrer E-Mail-Adresse gefragt wird.
-    Wählen Sie es aus, um eine neue, zufällig E-Mail-Adresse zu erstellen, die auf @relay.firefox.com endet.
+    Wählen Sie es aus, um eine neue, zufällige E-Mail-Adresse zu erstellen, die auf @relay.firefox.com endet.
     { -brand-name-relay } leitet Nachrichten an Ihre Haupt-E-Mail-Adresse weiter, die mit Ihrem Konto verknüpft ist.
 how-it-works-step-3-headline = Ihre Alias-E-Mail-Adressen verwalten
 how-it-works-step-3-copy =
@@ -165,6 +165,9 @@ profile-label-details-hide = Details ausblenden
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = Weiterleiten
 profile-label-blocking = Blockieren
+profile-label-disable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse deaktivieren
+profile-label-enable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse aktivieren
+profile-label-click-to-copy = Zum Kopieren anklicken
 profile-label-copied = Kopiert!
 profile-label-blocked = Blockiert
 profile-label-forwarded = Weitergeleitet
