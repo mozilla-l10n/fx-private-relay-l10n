@@ -102,19 +102,34 @@ profile-headline-manage-domain = 管理您的域名马甲
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-edit = 编辑此马甲的标签
+profile-label-saved = 标签已保存！
 profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
 profile-label-upgrade = 获取无限量马甲
 profile-label-reset = 重置
 profile-label-apply = 应用
+# This string is followed by an email address
+profile-label-forward-emails = 转发邮件至：
+# This string is followed by date
+profile-label-first-emailed = 首次发件于：
 # This string is followed by date:
 profile-label-created = 创建于：
+profile-label-details-show = 显示详细信息
+profile-label-details-hide = 隐藏详细信息
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = 转发中
+profile-label-blocking = 拦截中
 profile-label-disable-forwarding-button = 对此马甲禁用转发
 profile-label-enable-forwarding-button = 对此马甲启用转发
+profile-label-click-to-copy = 点击复制
 profile-label-copied = 已复制！
+profile-label-blocked = 拦截
+profile-label-forwarded = 转发
 profile-label-cancel = 取消
 profile-forwarded-note = 注意：
+profile-stat-label-blocked = 封邮件已拦截
+profile-stat-label-forwarded = 封邮件已转发
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
