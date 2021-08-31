@@ -74,6 +74,7 @@ how-it-works-step-3-headline = 管理您的别名
 
 faq-headline = 常见问题
 faq-question-3-question = { -brand-name-relay } 只在美国可用吗？
+faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -93,9 +94,12 @@ profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by date:
 profile-label-created = 创建于：
+profile-label-copied = 已复制！
+profile-label-cancel = 取消
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
 
 ## Error Messages
 
