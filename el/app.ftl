@@ -98,6 +98,8 @@ profile-label-reset = Επαναφορά
 profile-label-apply = Εφαρμογή
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
+# This string is followed by date
+profile-label-first-emailed = Πρώτο email:
 # This string is followed by date:
 profile-label-created = Δημιουργία:
 profile-label-details-show = Εμφάνιση λεπτομερειών
@@ -105,6 +107,8 @@ profile-label-details-hide = Απόκρυψη λεπτομερειών
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
+profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
+profile-label-copied = Αντιγράφτηκε!
 profile-label-cancel = Ακύρωση
 profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτό το ψευδώνυμο.
 profile-forwarded-note = Σημείωση:
