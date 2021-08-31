@@ -28,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱，用它收邮件并转发至您的真实邮箱。可用马甲邮箱来保护您的账户，不受黑客和垃圾邮件的侵扰。
 
 ## Header 
 
@@ -69,7 +70,7 @@ bento-button-close-label = 关闭菜单
 ## Home Page
 
 home-hero-headline = 隐藏您的的真实邮箱地址，保护身份信息
-home-hero-copy = 使用 { -brand-name-firefox-account }登录，即可新建 { -brand-name-relay } 马甲邮箱，保护您的网络账户不受黑客攻击。
+home-hero-copy = 使用 { -brand-name-firefox-account }登录，即可创建 { -brand-name-relay } 马甲邮箱，保护您的网络账户不受黑客攻击。
 home-hero-cta = 登录
 how-it-works-headline = 如何工作
 how-it-works-step-1-headline = 安装扩展
