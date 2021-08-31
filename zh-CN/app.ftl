@@ -91,6 +91,9 @@ faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮�
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建我自己的 { -brand-name-relay } 马甲邮箱吗？
+faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定域名创建自己的马甲邮箱。
+faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
 
 ## Profile Page (Logged In)
