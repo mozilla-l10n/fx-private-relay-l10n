@@ -67,6 +67,8 @@ bento-button-close-label = 关闭菜单
 home-hero-cta = 登录
 how-it-works-headline = 工作原理
 how-it-works-step-1-headline = 安装扩展
+how-it-works-step-2-headline = 新建马甲
+how-it-works-step-3-headline = 管理您的马甲
 
 ## FAQ Page
 
@@ -87,6 +89,7 @@ profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-delete = 删除
+profile-label-delete-alias = 删除此马甲
 profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by date:
