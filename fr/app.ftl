@@ -32,6 +32,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } facilite la création d’alias de messagerie qui transfèrent les messages vers votre véritable boîte de réception. Utilisez-le pour protéger vos comptes en ligne contre les pirates et les messages indésirables.
 
 ## Header 
 
@@ -128,6 +129,7 @@ profile-label-saved = Nom enregistré !
 profile-label-generate-new-alias = Générer un nouvel alias
 profile-label-delete = Supprimer
 profile-label-delete-alias = Supprimer cet alias
+profile-label-upgrade = Obtenir un nombre illimité d’alias
 profile-label-create-domain = Obtenez votre domaine de messagerie
 profile-label-domain = Domaine de messagerie :
 profile-label-domain-tooltip = Créez votre domaine de messagerie unique et personnalisé.
@@ -176,6 +178,7 @@ banner-upgrade-headline = Passez à { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Choisissez votre propre domaine
 banner-choose-subdomain-headline-aliases = Obtenez votre propre domaine d’alias personnalisé
 banner-choose-subdomain-copy = Vous pouvez choisir un domaine personnalisé pour vos alias de messagerie.
+banner-choose-subdomain-warning = Remarque : vous ne pourrez pas modifier votre domaine ultérieurement
 banner-choose-subdomain-input-placeholder = Rechercher un domaine
 banner-choose-subdomain-submit = Obtenir le domaine
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
