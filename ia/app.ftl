@@ -81,6 +81,10 @@ how-it-works-step-1-headline = Installa le extension
 how-it-works-step-1-link = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 how-it-works-step-1-copy = Elige le icone que appare sur tu barra del instrumentos de { -brand-name-firefox } pro acceder al pagina de authentication. Accede con tu { -brand-name-firefox-account } pro comenciar.
 how-it-works-step-2-headline = Crear un nove alias
+how-it-works-step-2-copy =
+    Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail.
+    Elige lo pro generar un nove, aleatori adresse que fini in @relay.firefox.com.
+    { -brand-name-relay } inultrara le messages al adresse e-mail primari associate con tu conto.
 how-it-works-step-3-headline = Gere tu aliases
 
 ## FAQ Page
