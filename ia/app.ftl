@@ -76,8 +76,10 @@ home-hero-copy =
     Accede con tu { -brand-name-firefox-account } pro comenciar.
 home-hero-cta = Aperir session
 how-it-works-headline = Como functiona illo
+how-it-works-subheadline = Protege tu identitate personal ubique tu usa { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Installa le extension
 how-it-works-step-1-link = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
+how-it-works-step-1-copy = Elige le icone que appare sur tu barra del instrumentos de { -brand-name-firefox } pro acceder al pagina de authentication. Accede con tu { -brand-name-firefox-account } pro comenciar.
 how-it-works-step-2-headline = Crear un nove alias
 how-it-works-step-3-headline = Gere tu aliases
 
