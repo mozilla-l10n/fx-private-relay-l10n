@@ -98,6 +98,12 @@ hero-image-copy-control-html = Ora <em>tu es al commando</em> de lo que arriva a
 
 faq-headline = Folio a questiones
 faq-question-1-question = E le SPAM?
+faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le SPAM, nostre e-mail partner Amazon SES bloca SPAM e malware. Si { -brand-name-relay } inultra messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar messages del alias inultrante los.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> assi nos pote considerar de adjustar le limines de SPAM de Amazon SES pro iste servicio. Si tu directemente reporta los como SPAM, tu fornitor de servicios e-mail videra { -brand-name-relay } como fonte de SPAM, non le expeditor original.
+faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
