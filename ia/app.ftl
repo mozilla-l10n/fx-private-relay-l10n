@@ -104,6 +104,16 @@ faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le SPAM, nost
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> assi nos pote considerar de adjustar le limines de SPAM de Amazon SES pro iste servicio. Si tu directemente reporta los como SPAM, tu fornitor de servicios e-mail videra { -brand-name-relay } como fonte de SPAM, non le expeditor original.
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo. 
+    Como { -brand-name-firefox-relay } cresce in popularitate e publica plure aliases, nostre servicio poterea esser ubicate sur un lista del blocadas. 
+    If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>per favor face nos saper lo</a>.
+faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
+faq-question-3-answer = Le sito actualmente es solo disponibile in anglese, ma tu pote usar le servicio ubique.
+faq-question-4-question = Pote io replicar al messages per mi alias de { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
