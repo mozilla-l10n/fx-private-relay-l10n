@@ -91,6 +91,8 @@ how-it-works-step-3-copy =
     Si tu trova que tu recipe SPAM o messages indesirate, tu pote blocar tote le messages o mesmo deler le alias, justo ab le pannello de controlo.
 hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
+hero-image-copy-protect-html = … assi que tu pote <strong>proteger tu real e-mail</strong> de traciamento e SPAM.
+hero-image-copy-control-html = Ora <em>tu es al commando</em> de lo que arriva a tu cassa de ingresso!
 
 ## FAQ Page
 
