@@ -113,6 +113,7 @@ faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias 
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+faq-question-5-question = Puis-je créer mon propre alias { -brand-name-relay } en utilisant le domaine @relay.firefox.com ?
 
 ## Profile Page (Logged In)
 
