@@ -86,6 +86,11 @@ how-it-works-step-2-copy =
     Elige lo pro generar un nove, aleatori adresse que fini in @relay.firefox.com.
     { -brand-name-relay } inultrara le messages al adresse e-mail primari associate con tu conto.
 how-it-works-step-3-headline = Gere tu aliases
+how-it-works-step-3-copy =
+    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del aliases que tu creava.
+    Si tu trova que tu recipe SPAM o messages indesirate, tu pote blocar tote le messages o mesmo deler le alias, justo ab le pannello de controlo.
+hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
+hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
 
 ## FAQ Page
 
