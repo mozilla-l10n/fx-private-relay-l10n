@@ -85,6 +85,7 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 faq-headline = 常见问题
 faq-question-1-question = 那垃圾邮件呢？
+faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
 faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
