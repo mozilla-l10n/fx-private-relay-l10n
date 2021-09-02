@@ -78,6 +78,7 @@ how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
 how-it-works-step-3-headline = 管理马甲
+hero-image-copy-protect-html = …这样就可以<strong>保护您的真实邮箱地址</strong>，不受跟踪或垃圾邮件侵扰。
 hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
 
 ## FAQ Page
