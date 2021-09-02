@@ -2,9 +2,8 @@
 name: Send submodule updates to mozilla/fx-private-relay repo
 
 on:
-  push:
-    branches: 
-      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   update:
