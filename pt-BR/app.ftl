@@ -86,7 +86,7 @@ how-it-works-step-2-copy =
     Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
     Clique no ícone para gerar um novo endereço aleatório que termine em @relay.firefox.com.
     O { -brand-name-relay } irá encaminhar as mensagens para o endereço de email principal associado à sua conta.
-how-it-works-step-3-headline = Gerenciar seus endereços de redirecionamento
+how-it-works-step-3-headline = Gerenciar endereços de redirecionamento
 how-it-works-step-3-copy =
     Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou.
     Se descobrir que um deles recebe spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
