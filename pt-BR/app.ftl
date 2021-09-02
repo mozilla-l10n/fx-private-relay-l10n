@@ -239,7 +239,7 @@ onboarding-tip-1 = Basta clicar no botão “Gerar novo endereço de redireciona
 onboarding-tip-2 = Clicando no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email
 onboarding-tip-3 = Através do menu de contexto, basta clicar com o botão direito do mouse (Windows) ou Control-clique (macOS) em um campo de formulário para acessar o menu e gerar um endereço de redirecionamento
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = Rótulo salvo!
 modal-delete-headline = Excluir permanentemente este endereço de redirecionamento?
@@ -252,6 +252,15 @@ modal-delete-warning-upgrade =
     Se você usa este endereço de redirecionamento para acessar contas em sites de seu interesse,
     você deve alterar o endereço de email de cada conta antes de excluir este endereço.
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
+modal-domain-register-good-news = Boas notícias!
+modal-domain-register-warning = Lembre que você pode registrar somente um domínio para sua conta e depois não é possível alterar seu domínio.
+modal-domain-register-button = Registrar domínio
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } está disponível!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Sim, quero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
