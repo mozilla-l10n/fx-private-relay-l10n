@@ -239,7 +239,7 @@ onboarding-tip-1 = Просто натисніть кнопку “Створи�
 onboarding-tip-2 = Виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться у полі електронної пошти
 onboarding-tip-3 = У контекстному меню просто клацніть правою кнопкою миші (Windows) або клацніть, одночасно натиснувши клавішу Control (macOS) у полі форми, щоб відкрити меню та створити альтернативну адресу
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = Мітку збережено!
 modal-delete-headline = Видалити цю альтернативну адресу назавжди?
@@ -252,6 +252,15 @@ modal-delete-warning-upgrade =
     Якщо ви користуєтеся цією альтернативною адресою для входу на сайти, які вас цікавлять, 
     вам слід оновити електронну адресу свого облікового запису, перш ніж видалити цю.
 modal-delete-confirmation = Так, я хочу видалити цю альтернативну адресу.
+modal-domain-register-good-news = Гарні новини!
+modal-domain-register-warning = Пам’ятайте, що вам дозволено зареєструвати лише один домен для свого облікового запису, і змінити його пізніше неможливо.
+modal-domain-register-button = Зареєструвати домен
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } доступний!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Так, я хочу зареєструвати { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
