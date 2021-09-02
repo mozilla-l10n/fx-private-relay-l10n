@@ -73,6 +73,7 @@ home-hero-headline = 隐藏您的的真实邮箱地址，保护身份信息
 home-hero-copy = 使用 { -brand-name-firefox-account }登录，即可创建 { -brand-name-relay } 马甲邮箱，保护您的网络账户不受黑客攻击。
 home-hero-cta = 登录
 how-it-works-headline = 如何工作
+how-it-works-subheadline = 使用 { -brand-name-firefox-browser }，保护您的个人身份。
 how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 how-it-works-step-2-headline = 新建马甲
