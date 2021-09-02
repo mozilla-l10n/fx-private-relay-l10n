@@ -256,7 +256,7 @@ modal-delete-warning-upgrade = If you use this alias to log in to sites you care
     you should update your login with a different email address before you delete this one.
 modal-delete-confirmation = Yes, I want to delete this alias.
 modal-domain-register-good-news = Good News!
-modal-domain-register-warning = Remember you are allowed to register one domain only for your account and is not possible to change your domain later.
+modal-domain-register-warning = Remember, you are allowed to register one domain only for your account and is not possible to change your domain later.
 modal-domain-register-button = Register Domain
 
 # Variables:
