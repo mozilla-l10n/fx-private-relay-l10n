@@ -142,6 +142,7 @@ profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta inult
 profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
 profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
 profile-promo-upgrade-cta = Promove { -brand-name-relay }
+profile-label-edit = Modificar le nomine de ce alias
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
 profile-label-delete = Deler
@@ -194,26 +195,45 @@ banner-bounced-copy =
     Nos actualmente non pote inviar e-mail a { $username }. 
     Nos recipeva un “saltar” <em>{ $bounce_type }</em> de tu fornitor de servicios e-mail, tentante de inultrar e-mails pro te. 
     Isto pote evenir si { -brand-name-relay } non poteva connecter te a tu fornitor de servicios e-mail o si tu cassetta postal era plen.
+banner-download-firefox-headline = { -brand-name-relay } es ancora melior in { -brand-name-firefox }
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
+banner-upgrade-headline = Promover a { -brand-name-relay-premium }
+banner-upgrade-cta = Promover a { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Elige tu proprie dominio
+banner-choose-subdomain-headline-aliases = Obtene tu proprie dominio alias personal
+banner-choose-subdomain-copy = Tu pote eliger un dominio personal pro tu aliases e-mail.
+banner-choose-subdomain-warning = Nota: Tu non pote cambiar tu dominio plus tarde
 banner-choose-subdomain-input-placeholder = Cercar dominio
 banner-choose-subdomain-submit = Obtener le dominio
+banner-pack-upgrade-cta = Promover ora
 
 ## Error Messages
 
+error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
 
 ## Onboarding 
 
+onboarding-headline = Crea tu prime alias, tu ha tres manieras …
 
 ## Modals
 
 modal-rename-alias-saved = Etiquetta salvate!
 modal-delete-headline = Deler permanentemente iste alias?
 modal-delete-confirmation = Si, io desira deler iste alias.
+modal-domain-register-good-news = Bon novas!
+modal-domain-register-button = Registrar dominio
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } es disponibile!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Si, io vole registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-3 = Esque tu senti que { -brand-name-relay } es digne de fide?
 survey-option-strongly-disagree = Io dissenti fortemente
 survey-option-disagree = Dissenti
 survey-option-unsure = Insecur
