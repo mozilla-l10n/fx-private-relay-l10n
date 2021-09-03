@@ -185,6 +185,7 @@ profile-filter-category-option-domain-based-aliases = Alias per dominio
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
