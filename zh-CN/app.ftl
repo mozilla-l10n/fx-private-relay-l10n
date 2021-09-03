@@ -72,7 +72,7 @@ bento-button-close-label = 关闭菜单
 home-hero-headline = 隐藏您的的真实邮箱地址，保护身份信息
 home-hero-copy = 使用 { -brand-name-firefox-account }登录，即可创建 { -brand-name-relay } 马甲邮箱，保护您的网络账户不受黑客攻击。
 home-hero-cta = 登录
-how-it-works-headline = 如何工作
+how-it-works-headline = 步骤详解
 how-it-works-subheadline = 使用 { -brand-name-firefox-browser }，保护您的个人身份。
 how-it-works-step-1-headline = 安装扩展
 how-it-works-step-1-link = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
@@ -82,6 +82,8 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = 新建马甲
 how-it-works-step-2-copy = 当您上网时，{ -brand-name-relay } 图标会出现在网站请您填写的电子邮件地址栏。选择该图标即可生成一组以 @relay.firefox.com 结尾的全新随机邮箱。{ -brand-name-relay } 将会转发邮件至您账户所绑定的主邮箱地址。
 how-it-works-step-3-headline = 管理马甲
+hero-image-copy-trust = 在这家公司网站上用您的个人邮箱，放心？
+hero-image-copy-unique-html = 为每个新账户<strong>使用不同 relay 邮箱</strong>…
 hero-image-copy-protect-html = …这样就可以<strong>保护您的真实邮箱地址</strong>，不受跟踪或垃圾邮件侵扰。
 hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
 
@@ -192,7 +194,7 @@ onboarding-headline = 有三种方式来创建您的第一个马甲…
 onboarding-tip-1 = 点击“生成新马甲”来创建您的第一个马甲
 onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = 标签已保存！
 modal-delete-headline = 确定要永久删除此马甲吗？
