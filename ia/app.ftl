@@ -141,32 +141,47 @@ profile-headline-manage-domain = Gere tu aliases de dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta inultrar e-mail (includite annexos) de e-mail fin a { email-size-limit } in dimension
 profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
 profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
+profile-promo-upgrade-cta = Promove { -brand-name-relay }
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
 profile-label-delete = Deler
 profile-label-delete-alias = Deler iste alias
+profile-label-upgrade = Obtene aliases illimitate
+profile-label-create-domain = Obtene tu dominio e-mail
 profile-label-domain = Dominio de email:
+profile-label-domain-tooltip = Crea tu unic e personal dominio e-mail.
 profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 # This string is followed by an email address
 profile-label-forward-emails = Inultrar emails a:
+# This string is followed by date
+profile-label-first-emailed = Primo inviate per email:
 # This string is followed by date:
 profile-label-created = Create:
 profile-label-details-show = Monstrar detalios
 profile-label-details-hide = Celar detalios
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = inultrante
 profile-label-blocking = blocada
+profile-label-disable-forwarding-button = Disactivar de inultrar e-mail pro iste alias
+profile-label-enable-forwarding-button = Activar de inultrar e-mail pro iste alias
 profile-label-click-to-copy = Clicca pro copiar
 profile-label-copied = Copiate!
 profile-label-blocked = Blocate
 profile-label-forwarded = Inviate ultra
 profile-label-cancel = Cancellar
+profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de ingresso quando tu elige le blocada pro iste alias.
+profile-forwarded-copy = { -brand-name-firefox-relay } inviara messages a tu cassa de ingresso quando tu elige inultrar pro iste alias.
 profile-forwarded-note = Nota:
+profile-forwarded-note-copy = E-mail (includite annexos) major de { email-size-limit } non es actualmente supportate e non sera inultrate.
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used = Aliases email usate
 profile-filter-search-placeholder = Cercar aliases
 profile-filter-category-option-active-aliases = Aliases active
 profile-filter-category-option-disabled-aliases = Aliases disactivate
+profile-filter-category-option-relay-aliases = Aliases de relay
+profile-filter-category-option-domain-based-aliases = Alias per dominio
 
 ## Banner Messages (displayed on the profile page)
 
