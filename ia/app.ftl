@@ -128,7 +128,9 @@ faq-question-4-answer-html =
 faq-question-5-question = Pote io crear mi proprie alias de { -brand-name-relay } per le dominio @relay.firefox.com?
 faq-question-5-answer = Non actualmente, ma nos considera nove functionalitates i.a. permitter te de crear tu proprie alias con un dominio designate.
 faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servicio { -brand-name-firefox-relay }?
+faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-7-question = E se un email inviate a mi alias contine un annexo?
+faq-question-7-answer = Nos ora supporta inultrar annexos.Totevia, il ha un limite de { email-size-limit } pro le e-mail inultrate per { -brand-name-relay }. Ulle e-mails major de { email-size-limit } non sera <t0/>inultrate.
 
 ## Profile Page (Logged In)
 
@@ -175,7 +177,7 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 ## Onboarding 
 
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = Etiquetta salvate!
 
