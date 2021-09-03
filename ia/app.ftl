@@ -138,6 +138,9 @@ faq-question-7-answer = Nos ora supporta inultrar annexos.Totevia, il ha un limi
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Benvenite,</span> { $email }!
 profile-headline-manage-domain = Gere tu aliases de dominio
+profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta inultrar e-mail (includite annexos) de e-mail fin a { email-size-limit } in dimension
+profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
+profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
 profile-label-delete = Deler
