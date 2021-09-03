@@ -223,6 +223,8 @@ modal-delete-warning-upgrade =
     Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent,
     vous devriez mettre à jour votre identifiant avec une adresse électronique différente avant de supprimer celle-ci.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
+modal-domain-register-good-news = Bonne nouvelle !
+modal-domain-register-button = Enregistrer le domaine
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } est disponible !
