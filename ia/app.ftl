@@ -186,9 +186,19 @@ profile-filter-category-option-domain-based-aliases = Alias per dominio
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Nos actualmente non pote inviar e-mail a { $username }. 
+    Nos recipeva un “saltar” <em>{ $bounce_type }</em> de tu fornitor de servicios e-mail, tentante de inultrar e-mails pro te. 
+    Isto pote evenir si { -brand-name-relay } non poteva connecter te a tu fornitor de servicios e-mail o si tu cassetta postal era plen.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
+banner-choose-subdomain-input-placeholder = Cercar dominio
+banner-choose-subdomain-submit = Obtener le dominio
 
 ## Error Messages
 
@@ -199,6 +209,8 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 ## Modals
 
 modal-rename-alias-saved = Etiquetta salvate!
+modal-delete-headline = Deler permanentemente iste alias?
+modal-delete-confirmation = Si, io desira deler iste alias.
 
 ## Evergreen Survey (displayed on the profile page)
 
