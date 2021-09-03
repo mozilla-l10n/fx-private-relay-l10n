@@ -125,7 +125,7 @@ faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-n
 
 # Variables:
 #   $email (string) - User email address
-profile-label-welcome-html = <span>歡迎，</span> { $email }！
+profile-label-welcome-html = <span>歡迎，</span>{ $email }！
 profile-headline-manage-domain = 管理您的網域別名
 profile-supports-email-forwarding = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）
 profile-promo-upgrade-headline = 升級後即可獲得更多功能。
