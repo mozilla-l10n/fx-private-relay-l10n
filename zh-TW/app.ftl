@@ -237,6 +237,7 @@ modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -bran
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，應該在刪除此別名前先到該網站把電子郵件地址更改成其他地址。
 modal-delete-confirmation = 是的，我想要刪除這個別名。
 modal-domain-register-good-news = 好消息！
+modal-domain-register-warning = 注意：您只可註冊一組由自己私人使用的網域，之後將無法再變更。
 modal-domain-register-button = 註冊網域
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
