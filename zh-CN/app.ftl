@@ -82,6 +82,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = 新建马甲
 how-it-works-step-2-copy = 当您上网时，{ -brand-name-relay } 图标会出现在网站请您填写的电子邮件地址栏。选择该图标即可生成一组以 @relay.firefox.com 结尾的全新随机邮箱。{ -brand-name-relay } 将会转发邮件至您账户所绑定的主邮箱地址。
 how-it-works-step-3-headline = 管理马甲
+how-it-works-step-3-copy = 登录 { -brand-name-relay } 即可总览您创建的的马甲邮箱。若您发现某个马甲邮箱开始收到垃圾邮件或不想收到的邮件，则可在面板上直接屏蔽或删除该马甲。
 hero-image-copy-trust = 在这家公司网站上用您的个人邮箱，放心？
 hero-image-copy-unique-html = 为每个新账户<strong>使用不同 relay 邮箱</strong>…
 hero-image-copy-protect-html = …这样就可以<strong>保护您的真实邮箱地址</strong>，不受跟踪或垃圾邮件侵扰。
@@ -173,7 +174,7 @@ banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让�
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 banner-choose-subdomain-headline = 选择您的自有域名
 banner-choose-subdomain-copy = 您可以为马甲邮箱选择自定义域名。
-banner-choose-subdomain-warning = 注意：之后将无法再更改域名
+banner-choose-subdomain-warning = 注意：之后将无法再更改子域名
 banner-choose-subdomain-input-placeholder = 搜索域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-cta = 立即升级
@@ -183,10 +184,10 @@ banner-pack-upgrade-cta = 立即升级
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account. 
 error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
-error-premium-cannot-change-subdomain = 无法更改您的子域
-error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域
-error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域的马甲
-error-subdomain-select = 您须先选择子域，才能创建子域的马甲
+error-premium-cannot-change-subdomain = 无法更改您的子域名
+error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
+error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域名的马甲
+error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
 
 ## Onboarding 
 
@@ -203,6 +204,14 @@ modal-delete-headline = 确定要永久删除此马甲吗？
 modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
 modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 modal-delete-confirmation = 是的，我要删除此马甲。
+modal-domain-register-good-news = 好消息！
+modal-domain-register-button = 注册域名
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } 可用！
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = 是的，我想注册 { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
