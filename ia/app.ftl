@@ -234,6 +234,8 @@ modal-domain-register-confirmation = Si, io vole registrar { $subdomain }
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-3 = Esque tu senti que { -brand-name-relay } es digne de fide?
+survey-question-4 = Ha { -brand-name-relay } un presentation munde e simple?
+survey-question-5 = Como te sentirea si tu non poterea plus usar { -brand-name-relay }?
 survey-option-strongly-disagree = Io dissenti fortemente
 survey-option-disagree = Dissenti
 survey-option-unsure = Insecur
