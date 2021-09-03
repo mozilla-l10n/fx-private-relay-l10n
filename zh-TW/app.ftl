@@ -227,7 +227,7 @@ onboarding-tip-1 = 點擊「產生新別名」來建立您的第一組別名
 onboarding-tip-2 = 當 { -brand-name-firefox-relay } 圖示出現在信箱地址欄位時，選擇該圖示
 onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑鼠點擊（macOS），產生一組別名
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = 已儲存標籤！
 modal-delete-headline = 確定要永久刪除這個別名嗎？
@@ -236,6 +236,8 @@ modal-delete-headline = 確定要永久刪除這個別名嗎？
 modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，應該在刪除此別名前先到該網站把電子郵件地址更改成其他地址。
 modal-delete-confirmation = 是的，我想要刪除這個別名。
+modal-domain-register-good-news = 好消息！
+modal-domain-register-button = 註冊網域
 
 ## Evergreen Survey (displayed on the profile page)
 
