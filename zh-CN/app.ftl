@@ -198,6 +198,7 @@ error-subdomain-select = 您须先选择子域名，才能创建使用子域名�
 onboarding-headline = 有三种方式来创建您的第一个马甲…
 onboarding-tip-1 = 点击“生成新马甲”来创建您的第一个马甲
 onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
+onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标左击（macOS），即可通过右键菜单生成新马甲
 
 ## Modals
 
