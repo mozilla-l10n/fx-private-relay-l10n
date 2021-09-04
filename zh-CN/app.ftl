@@ -202,6 +202,11 @@ banner-choose-subdomain-submit = 注册子域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = 您可以使用任意前缀 @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = 您可以使用任意前缀 @{ $subdomain }
 
 ## Error Messages
 
