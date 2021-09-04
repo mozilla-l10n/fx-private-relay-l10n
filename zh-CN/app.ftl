@@ -151,6 +151,8 @@ profile-label-copied = 已复制！
 profile-label-blocked = 拦截
 profile-label-forwarded = 转发
 profile-label-cancel = 取消
+profile-blocked-copy = 对此马甲选择屏蔽时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
+profile-forwarded-copy = 对此马甲选择转发时，{ -brand-name-firefox-relay } 将会把邮件转发予您。
 profile-forwarded-note = 注意：
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
@@ -187,6 +189,8 @@ error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创�
 error-premium-cannot-change-subdomain = 无法更改您的子域名
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
 error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域名的马甲
+error-subdomain-not-created = 无法创建此子域名，请尝试其他子域名
+error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，请尝试其他子域名
 error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
 
 ## Onboarding 
