@@ -53,9 +53,11 @@ avatar-tooltip = Προφίλ
 nav-faq = Συχνές ερωτήσεις
 nav-profile-sign-in = Σύνδεση
 nav-profile-sign-up = Εγγραφή
+nav-profile-manage-fxa = Διαχείριση { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 nav-profile-sign-out = Αποσύνδεση
 nav-profile-sign-out-relay = Αποσύνδεση από το { -brand-name-relay }
 nav-profile-sign-out-confirm = Θέλετε σίγουρα να αποσυνδεθείτε;
+nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 
 ## Footer
 
@@ -80,13 +82,20 @@ bento-button-close-label = Κλείσιμο μενού
 ## Home Page
 
 home-hero-headline = Αποκρύψτε το πραγματικό σας email και προστατέψετε την ταυτότητά σας
+home-hero-copy =
+    Μοιραστείτε τα ψευδώνυμα email του { -brand-name-relay } αντί για την πραγματική σας διεύθυνση και προστατευτείτε από τους hackers. 
+    Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 home-hero-cta = Σύνδεση
 how-it-works-headline = Πώς λειτουργεί
 how-it-works-step-1-headline = Λήψη επέκτασης
 how-it-works-step-1-link = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Επιλέξτε το εικονίδιο που εμφανίζεται στη γραμμή εργαλείων του { -brand-name-firefox } για πρόσβαση στη σελίδα σύνδεσης. 
+    Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμου
 how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
 hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
+hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
 
 ## FAQ Page
 
@@ -130,6 +139,7 @@ profile-label-details-hide = Απόκρυψη λεπτομερειών
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
+profile-label-enable-forwarding-button = Ενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
 profile-label-cancel = Ακύρωση
