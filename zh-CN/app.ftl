@@ -98,6 +98,10 @@ faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾�
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
 faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不再接受 Gmail、Hotmail、Yahoo 以外的账户注册。随着 { -brand-name-firefox-relay } 的知名度增加，并创建更多的马甲邮箱，我们的服务也可能被屏蔽。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
 faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
@@ -172,6 +176,14 @@ profile-filter-category-option-domain-based-aliases = 子域名马甲
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    当前暂无法向 { $username } 发送邮件。
+    在尝试向您转发邮件时，我们收到您的邮件服务商的<em>{ $bounce_type }</em>“退回”通知。
+    可能是因为 { -brand-name-relay } 无法连接到您邮件服务商的主机，或是邮箱已满。我们将在 { $date } 再次尝试。
 banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox }，体验更佳
 banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让创建马甲更简单。
 banner-download-firefox-cta = 下载 { -brand-name-firefox }
@@ -188,6 +200,7 @@ banner-choose-subdomain-warning = 注意：之后将无法再更改子域名
 banner-choose-subdomain-input-placeholder = 搜索子域名
 banner-choose-subdomain-submit = 注册子域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
+banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
 
 ## Error Messages
