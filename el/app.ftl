@@ -61,10 +61,13 @@ bento-button-close-label = Κλείσιμο μενού
 
 ## Home Page
 
+home-hero-headline = Αποκρύψτε το πραγματικό σας email και προστατέψετε την ταυτότητά σας
 home-hero-cta = Σύνδεση
 how-it-works-headline = Πώς λειτουργεί
 how-it-works-step-1-headline = Λήψη επέκτασης
 how-it-works-step-1-link = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
+how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμου
+how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
 hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
 
 ## FAQ Page
