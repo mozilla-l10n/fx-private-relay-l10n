@@ -209,6 +209,7 @@ modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -bran
 modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
+modal-domain-register-warning = 注意：账户与子域名直接绑定，一经注册之后便不可再更改。
 modal-domain-register-button = 注册域名
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
