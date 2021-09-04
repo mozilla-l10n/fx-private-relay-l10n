@@ -114,6 +114,7 @@ faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建我自�
 faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定子域名创建自己的马甲邮箱。
 faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
+faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 
 ## Profile Page (Logged In)
 
