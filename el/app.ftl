@@ -116,6 +116,7 @@ profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 profile-filter-category-option-active-aliases = Ενεργά ψευδώνυμα
+profile-filter-category-option-disabled-aliases = Ανενεργά ψευδώνυμα
 profile-filter-category-option-relay-aliases = Ψευδώνυμα Relay
 profile-filter-category-option-domain-based-aliases = Ψευδώνυμα βάσει τομέα
 
@@ -156,11 +157,19 @@ onboarding-headline = Δημιουργήστε το πρώτο σας ψευδώ
 onboarding-tip-2 = Επιλέγοντας το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί στα πεδία email
 onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάντε δεξί κλικ (Windows) ή control-κλικ (macOS) στα πεδία φορμών για να προσπελάσετε το μενού και να δημιουργήσετε ένα ψευδώνυμο
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
 modal-delete-headline = Οριστική διαγραφή ψευδωνύμου;
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
+modal-domain-register-good-news = Καλά νέα!
+modal-domain-register-button = Καταχώρηση τομέα
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = Το { $subdomain } είναι διαθέσιμο!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Ναι, θέλω να καταχωρήσω το { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
