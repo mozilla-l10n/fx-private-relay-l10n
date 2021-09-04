@@ -113,6 +113,7 @@ hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μον
 
 faq-headline = Συχνές ερωτήσεις
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
+faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
 faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
