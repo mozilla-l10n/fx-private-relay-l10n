@@ -139,6 +139,7 @@ profile-label-details-hide = Απόκρυψη λεπτομερειών
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
+profile-label-disable-forwarding-button = Απενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-enable-forwarding-button = Ενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
