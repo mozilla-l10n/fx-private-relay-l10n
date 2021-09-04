@@ -88,6 +88,7 @@ faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla }
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
+profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
 profile-label-delete = Διαγραφή
@@ -132,6 +133,7 @@ banner-download-install-extension-cta = Προσθήκη του { -brand-name-re
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-choose-subdomain-copy = Μπορείτε να επιλέξετε έναν προσαρμοσμένο τομέα για τα ψευδώνυμα email σας.
 banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 banner-choose-subdomain-submit = Απόκτηση τομέα
@@ -149,6 +151,8 @@ banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε
 #   $number (string) - Maximum number of aliases a user can make on a free account. 
 error-premium-set-make-aliases = Πρέπει να είστε συνδρομητής premium για να φτιάξετε πάνω από { $number } ψευδώνυμα
 error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
+error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
+error-premium-set-create-subdomain = Πρέπει να είστε συνδρομητής premium για να δημιουργήσετε ψευδώνυμα υποτομέα
 error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
 
 ## Onboarding 
