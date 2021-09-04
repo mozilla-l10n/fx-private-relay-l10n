@@ -19,6 +19,24 @@
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
+-brand-name-firefox-account =
+    { $case ->
+       *[nominative]
+            { $capitalization ->
+               *[lowercase] λογαριασμός Firefox
+                [uppercase] Λογαριασμός Firefox
+            }
+        [genitive]
+            { $capitalization ->
+               *[lowercase] λογαριασμού Firefox
+                [uppercase] Λογαριασμού Firefox
+            }
+        [accusative]
+            { $capitalization ->
+               *[lowercase] λογαριασμό Firefox
+                [uppercase] Λογαριασμό Firefox
+            }
+    }
 
 ## Meta Data
 
