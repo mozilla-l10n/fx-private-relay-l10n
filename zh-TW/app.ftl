@@ -92,7 +92,7 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 
 faq-headline = 常見問題
 faq-question-1-question = 那垃圾信呢？
-faq-question-1-answer-a = 雖然 { -brand-name-relay } 本身不會過濾垃圾信，我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
+faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -101,7 +101,7 @@ faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } �
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中的「relay.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。隨著 { -brand-name-firefox-relay } 的知名度增加，並且建立更多別名信箱，我們的服務也有可能被放到封鎖清單中。若您無法使用 { -brand-name-relay } 別名，<a href="{ $url }" { $attrs }>請讓我們知道</a>。
+faq-question-2-answer-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中包含的「relay.」部分） 信箱註冊；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。隨著 { -brand-name-firefox-relay } 的知名度增加，並且建立更多別名信箱，我們的服務也有可能被放到封鎖清單中。若您無法使用 { -brand-name-relay } 別名，<a href="{ $url }" { $attrs }>請讓我們知道</a>。
 faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
 faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
@@ -163,7 +163,7 @@ profile-label-cancel = 取消
 profile-blocked-copy = 對此別名選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
 profile-forwarded-copy = 對此別名選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
 profile-forwarded-note = 注意：
-profile-forwarded-note-copy = 目前暫不支援超過 { email-size-limit } 的郵件（含附件），將不會轉寄給您。
+profile-forwarded-note-copy = 目前不支援超過 { email-size-limit }（含附件）的郵件，將不會轉寄給您。
 profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used = 已用的郵件別名
@@ -234,8 +234,8 @@ modal-delete-headline = 確定要永久刪除這個別名嗎？
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再把寄送到 <strong>{ $email }</strong> 的郵件（包含密碼重設信）轉寄給您。
-modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，應該在刪除此別名前先到該網站把電子郵件地址更改成其他地址。
-modal-delete-confirmation = 是的，我想要刪除這個別名。
+modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，請務必在刪除此別名前，先到該網站把電子郵件地址更改成其他地址。
+modal-delete-confirmation = 是的，我要刪除這個別名。
 modal-domain-register-good-news = 好消息！
 modal-domain-register-warning = 注意：您只可註冊一組由自己私人使用的網域，之後將無法再變更。
 modal-domain-register-button = 註冊網域
