@@ -81,6 +81,7 @@ faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
 faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
+faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
 
 ## Profile Page (Logged In)
 
