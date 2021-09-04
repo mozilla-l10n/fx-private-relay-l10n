@@ -111,7 +111,9 @@ email-size-limit = { $size } { $unit }
 #   $attrs (string) - specific attributes added to external links
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建我自己想要的 { -brand-name-relay } 的马甲吗？
+faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定子域名创建自己的马甲邮箱。
 faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
+faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
 faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 
@@ -120,6 +122,7 @@ faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
+profile-headline-manage-domain = 管理您的子域名马甲
 profile-supports-email-forwarding = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限量的邮箱地址，以及您专属的邮箱域名。
@@ -130,6 +133,9 @@ profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
 profile-label-upgrade = 获取无限量马甲
+profile-label-create-domain = 获取您的子域名邮箱
+profile-label-domain = 子域名邮箱：
+profile-label-domain-tooltip = 创建您专属的自定义子域名邮箱。
 profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by an email address
@@ -160,6 +166,8 @@ profile-stat-label-aliases-used = 已用的邮箱马甲
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
+profile-filter-category-option-relay-aliases = 转发马甲
+profile-filter-category-option-domain-based-aliases = 子域名马甲
 
 ## Banner Messages (displayed on the profile page)
 
