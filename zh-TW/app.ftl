@@ -182,7 +182,7 @@ banner-bounced-headline = { -brand-name-relay } 無法發送您的郵件。
 #   $date (string) - A date for the next time the services tries to resend the email
 banner-bounced-copy =
     目前暫時無法寄出郵件給 { $username }。
-    嘗試轉寄郵件給您十，我們收到您的電子郵件服務業者的 <em>{ $bounce_type }</em>「退信」 通知。
+    嘗試轉寄郵件給您時，我們收到您的電子郵件服務業者的 <em>{ $bounce_type }</em>「退信」 通知。
     可能是因為 { -brand-name-relay } 無法連線到您電子郵件服務業者的主機，或是信箱已滿。將於 { $date } 再試一次。
 banner-download-firefox-headline = { -brand-name-relay } 搭配 { -brand-name-firefox } 使用，效果更好
 banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 擴充套件，讓建立別名信箱變得更簡單。
