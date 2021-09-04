@@ -12,7 +12,19 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
--brand-name-firefox-browser = Φυλλομετρητής Firefox
+-brand-name-firefox-browser =
+    { $case ->
+       *[nominative]
+            { $capitalization ->
+               *[uppercase] Φυλλομετρητής Firefox
+                [lowercase] φυλλομετρητής Firefox
+            }
+        [genitive]
+            { $capitalization ->
+               *[uppercase] Φυλλομετρητή Firefox
+                [lowercase] φυλλομετρητή Firefox
+            }
+    }
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
@@ -110,6 +122,12 @@ faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-4-answer-html =
+    Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο. 
+    Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
 faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
 
@@ -118,6 +136,7 @@ faq-question-7-question = Τι γίνεται αν ένα email προς το ψ
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
+profile-supports-email-forwarding = Το { -brand-name-firefox-relay } υποστηρίζει την προώθηση email (μαζί με τα συνημμένα) μεγέθους έως { email-size-limit }
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
@@ -158,10 +177,10 @@ profile-filter-category-option-domain-based-aliases = Ψευδώνυμα βάσ�
 
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
 banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
-banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox-browser } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
+banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
 banner-download-install-extension-headline = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }
-banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox-browser } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
+banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
@@ -191,6 +210,7 @@ error-subdomain-select = Πρέπει να επιλέξετε έναν υποτ�
 ## Onboarding 
 
 onboarding-headline = Δημιουργήστε το πρώτο σας ψευδώνυμο, έχετε τρεις τρόπους…
+onboarding-tip-1 = Απλά κάντε κλικ στο κουμπί «Δημιουργία νέου ψευδωνύμου» για να δημιουργήσετε το πρώτο σας ψευδώνυμο
 onboarding-tip-2 = Επιλέγοντας το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί στα πεδία email
 onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάντε δεξί κλικ (Windows) ή control-κλικ (macOS) στα πεδία φορμών για να προσπελάσετε το μενού και να δημιουργήσετε ένα ψευδώνυμο
 
