@@ -242,6 +242,14 @@ onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Contro
 
 modal-rename-alias-saved = Etiquetta salvate!
 modal-delete-headline = Deler permanentemente iste alias?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Un vice que tu dele iste alias, illo non pote esser recuperate. 
+    { -brand-name-firefox-relay } non plus inultrara messages inviate a <strong>{ $email }</strong>, includite messages que te permitte de reinitialisar le contrasignos perdite.
+modal-delete-warning-upgrade =
+    Si tu usa iste alias pro acceder a sitos tu cura, 
+    tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu dele isto.
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
 modal-domain-register-button = Registrar dominio
