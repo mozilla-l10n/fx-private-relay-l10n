@@ -234,6 +234,7 @@ error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias d
 ## Onboarding 
 
 onboarding-headline = Crea tu prime alias, tu ha tres manieras …
+onboarding-tip-1 = Solo clicca le button “Generar nove alias” pro crear tu primo alias
 
 ## Modals
 
