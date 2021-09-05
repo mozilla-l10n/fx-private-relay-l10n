@@ -196,6 +196,7 @@ banner-bounced-copy =
     Nos recipeva un “saltar” <em>{ $bounce_type }</em> de tu fornitor de servicios e-mail, tentante de inultrar e-mails pro te. 
     Isto pote evenir si { -brand-name-relay } non poteva connecter te a tu fornitor de servicios e-mail o si tu cassetta postal era plen.
 banner-download-firefox-headline = { -brand-name-relay } es ancora melior in { -brand-name-firefox }
+banner-download-firefox-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le creation del aliases.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
