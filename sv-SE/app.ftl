@@ -239,7 +239,7 @@ onboarding-tip-1 = Klicka bara på knappen "Skapa nytt alias" för att skapa dit
 onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när den visas i e-postfältet
 onboarding-tip-3 = Via snabbmenyn högerklickar du bara (Windows) eller Ctrl-klickar (macOS) på formulärfält för att komma åt menyn och skapa ett alias
 
-## Alias Modals
+## Modals
 
 modal-rename-alias-saved = Etikett sparad!
 modal-delete-headline = Vill du ta bort detta alias permanent?
@@ -252,6 +252,15 @@ modal-delete-warning-upgrade =
     Om du använder detta alias för att logga in på webbplatser du bryr dig om,
     bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
 modal-delete-confirmation = Ja, jag vill ta bort detta alias.
+modal-domain-register-good-news = Goda nyheter!
+modal-domain-register-warning = Kom ihåg att du bara kan registrera en domän för ditt konto och att du inte kan ändra din domän senare.
+modal-domain-register-button = Registrera domän
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } är tillgänglig!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Ja, jag vill registrera { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
