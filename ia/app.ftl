@@ -252,6 +252,7 @@ modal-delete-warning-upgrade =
     tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu dele isto.
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
+modal-domain-register-warning = Rememora, tu pote registrar un dominio solo pro tu conto e non es possibile lo cambiar plus tarde.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -262,6 +263,8 @@ modal-domain-register-confirmation = Si, io vole registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Sur un scala de 1 a 10, quanto es probabile que tu recommenda { -brand-name-relay } a un amico o collega?
+survey-question-2 = Es { -brand-name-relay } facile a usar?
 survey-question-3 = Esque tu senti que { -brand-name-relay } es digne de fide?
 survey-question-4 = Ha { -brand-name-relay } un presentation munde e simple?
 survey-question-5 = Como te sentirea si tu non poterea plus usar { -brand-name-relay }?
