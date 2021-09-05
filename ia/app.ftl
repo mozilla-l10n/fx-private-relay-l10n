@@ -228,6 +228,8 @@ error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
 error-premium-set-subdomain = Tu debe esser un abonato premium pro definir plus de { $number } aliases
 error-premium-set-create-subdomain = Tu debe esser un abonato premium pro crear aliases de sub-dominio
 error-subdomain-not-created = Le sub-dominio non pote esser create, tenta altero
+error-subdomain-email-not-created = Le adresse e-mail con sub-dominio non pote esser create, tenta altero
+error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias de sub-dominio
 
 ## Onboarding 
 
