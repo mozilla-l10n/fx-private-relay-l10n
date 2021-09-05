@@ -202,6 +202,7 @@ banner-download-install-extension-headline = Discarga le extension { -brand-name
 banner-download-install-extension-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le uso del aliases de e-mail.
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-relay-premium } de { -brand-name-firefox } rende mesmo plus facile le creation del aliases de e-mail, con dominios de alias personal e aliases illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Elige tu proprie dominio
 banner-choose-subdomain-headline-aliases = Obtene tu proprie dominio alias personal
@@ -209,10 +210,20 @@ banner-choose-subdomain-copy = Tu pote eliger un dominio personal pro tu aliases
 banner-choose-subdomain-warning = Nota: Tu non pote cambiar tu dominio plus tarde
 banner-choose-subdomain-input-placeholder = Cercar dominio
 banner-choose-subdomain-submit = Obtener le dominio
+banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
+banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite online.
 banner-pack-upgrade-cta = Promover ora
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account. 
+error-premium-set-make-aliases = Tu debe esser un abonato premium pro crear plus que { $number } aliases
 error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
 
 ## Onboarding 
