@@ -235,6 +235,8 @@ error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias d
 
 onboarding-headline = Crea tu prime alias, tu ha tres manieras …
 onboarding-tip-1 = Solo clicca le button “Generar nove alias” pro crear tu primo alias
+onboarding-tip-2 = Seligente le icone de { -brand-name-firefox-relay } quando illo appare in campos de e-mail
+onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Control-click (macOS) sur le campos del formulario pro acceder le menu e generar un alias
 
 ## Modals
 
