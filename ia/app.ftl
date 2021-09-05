@@ -225,6 +225,9 @@ banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
 #   $number (string) - Maximum number of aliases a user can make on a free account. 
 error-premium-set-make-aliases = Tu debe esser un abonato premium pro crear plus que { $number } aliases
 error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
+error-premium-set-subdomain = Tu debe esser un abonato premium pro definir plus de { $number } aliases
+error-premium-set-create-subdomain = Tu debe esser un abonato premium pro crear aliases de sub-dominio
+error-subdomain-not-created = Le sub-dominio non pote esser create, tenta altero
 
 ## Onboarding 
 
