@@ -199,6 +199,7 @@ banner-download-firefox-headline = { -brand-name-relay } es ancora melior in { -
 banner-download-firefox-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le creation del aliases.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
+banner-download-install-extension-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le uso del aliases de e-mail.
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
