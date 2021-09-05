@@ -99,6 +99,7 @@ home-hero-copy =
     Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 home-hero-cta = Σύνδεση
 how-it-works-headline = Πώς λειτουργεί
+how-it-works-subheadline = Προστατέψτε την ταυτότητά σας, όπου κι αν χρησιμοποιείτε τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") }.
 how-it-works-step-1-headline = Λήψη επέκτασης
 how-it-works-step-1-link = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
 how-it-works-step-1-copy =
@@ -165,7 +166,9 @@ profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
 profile-label-cancel = Ακύρωση
 profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτό το ψευδώνυμο.
+profile-forwarded-copy = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτό το ψευδώνυμο.
 profile-forwarded-note = Σημείωση:
+profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
@@ -186,6 +189,7 @@ banner-download-install-extension-cta = Προσθήκη του { -brand-name-re
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Επιλέξτε τον δικό σας τομέα
 banner-choose-subdomain-copy = Μπορείτε να επιλέξετε έναν προσαρμοσμένο τομέα για τα ψευδώνυμα email σας.
 banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
@@ -206,6 +210,7 @@ error-premium-set-make-aliases = Πρέπει να είστε συνδρομητ
 error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
 error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
 error-premium-set-create-subdomain = Πρέπει να είστε συνδρομητής premium για να δημιουργήσετε ψευδώνυμα υποτομέα
+error-subdomain-not-created = Δεν ήταν δυνατή η δημιουργία υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
 
 ## Onboarding 
