@@ -248,7 +248,7 @@ modal-domain-register-confirmation = 是的，我想注册 { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
-survey-question-1 = 在 1 到 10 的范围内，您向朋友或同事推荐 { -brand-name-relay } 的可能性有多大？
+survey-question-1 = 以 1 - 10 分计，您向朋友或同事推荐 { -brand-name-relay } 的可能性有多大？
 survey-question-2 = { -brand-name-relay } 易于使用吗？
 survey-question-3 = 您认为 { -brand-name-relay } 值得信赖吗？
 survey-question-4 = { -brand-name-relay } 的界面简洁好用吗？
