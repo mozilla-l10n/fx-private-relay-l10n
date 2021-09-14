@@ -166,6 +166,8 @@ profile-label-disable-forwarding-button = Απενεργοποίηση προώ�
 profile-label-enable-forwarding-button = Ενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
+profile-label-blocked = Αποκλεισμένα
+profile-label-forwarded = Προωθημένα
 profile-label-cancel = Ακύρωση
 profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτό το ψευδώνυμο.
 profile-forwarded-copy = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτό το ψευδώνυμο.
@@ -173,6 +175,7 @@ profile-forwarded-note = Σημείωση:
 profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
+profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 profile-filter-category-option-active-aliases = Ενεργά ψευδώνυμα
 profile-filter-category-option-disabled-aliases = Ανενεργά ψευδώνυμα
@@ -196,6 +199,7 @@ banner-choose-subdomain-copy = Μπορείτε να επιλέξετε έναν
 banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 banner-choose-subdomain-submit = Απόκτηση τομέα
+banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # This string is followed by name (string) that the user chooses
@@ -213,6 +217,7 @@ error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξ�
 error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
 error-premium-set-create-subdomain = Πρέπει να είστε συνδρομητής premium για να δημιουργήσετε ψευδώνυμα υποτομέα
 error-subdomain-not-created = Δεν ήταν δυνατή η δημιουργία υποτομέα, δοκιμάστε κάτι άλλο
+error-subdomain-email-not-created = Αδυναμία δημιουργίας διεύθυνσης email με υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
 
 ## Onboarding 
