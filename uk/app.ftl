@@ -220,17 +220,26 @@ banner-choose-subdomain-label = Ви можете створити будь-як
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = Ви можете створити будь-яку адресу @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Ваш домен @{ $subdomain } створено
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Щоб створити більше ніж { $number } псевдоадрес, ви повинні бути преміумпередплатником
 error-premium-cannot-change-subdomain = Ви не можете змінити свій піддомен
 error-premium-set-subdomain = Щоб встановити піддомен, ви повинні бути преміумпередплатником
+error-premium-check-subdomain = Щоб перевірити піддомен, ви повинні бути преміумпередплатником
 error-premium-set-create-subdomain = Щоб встановити піддомен псевдоадреси, ви повинні бути преміумпередплатником
 error-subdomain-not-created = Не вдалося створити піддомен, спробуйте іншу назву
 error-subdomain-email-not-created = Не вдалося створити адресу електронної пошти з піддоменом, спробуйте іншу назву
 error-subdomain-select = Перед створенням піддомену псевдоадреси потрібно вибрати піддомен
+error-subdomain-not-available = Домен @{ $unavailable_subdomain } недоступний. Повторіть спробу з іншим доменом.
 
 ## Onboarding 
 
