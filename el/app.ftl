@@ -109,6 +109,8 @@ how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμο�
 how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
 hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
 hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
+hero-image-copy-protect-html = …ώστε να <strong>προστατέψετε το πραγματικό σας email</strong> από καταγραφή και spam.
+hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε τον έλεγχο</em> των εισερχομένων σας!
 
 ## FAQ Page
 
@@ -224,8 +226,17 @@ onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάν�
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
 modal-delete-headline = Οριστική διαγραφή ψευδωνύμου;
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Μόλις διαγράψετε το ψευδώνυμο, δεν μπορεί να ανακτηθεί. 
+    Το { -brand-name-firefox-relay } δεν θα προωθεί πλέον τα μηνύματα που αποστέλλονται στο <strong>{ $email }</strong>, όπως μηνύματα που σας επιτρέπουν την επαναφορά κωδικών πρόσβασης.
+modal-delete-warning-upgrade =
+    Αν χρησιμοποιείτε αυτό το ψευδώνυμο για τη σύνδεση σε σημαντικούς ιστοτόπους, 
+    θα πρέπει να ενημερώσετε τα στοιχεία σύνδεσής σας με μια άλλη διεύθυνση email πριν διαγράψετε αυτήν.
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
 modal-domain-register-good-news = Καλά νέα!
+modal-domain-register-warning = Θυμηθείτε: μπορείτε να καταχωρήσετε μόνο έναν τομέα για τον λογαριασμό σας και δεν μπορείτε να τον αλλάξετε αργότερα.
 modal-domain-register-button = Καταχώρηση τομέα
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
