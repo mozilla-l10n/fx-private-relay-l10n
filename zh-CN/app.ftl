@@ -208,10 +208,17 @@ banner-choose-subdomain-label = 您可以使用任意前缀 @{ $subdomain }
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = 您可以使用任意前缀 @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = 您的子域名 @{ $subdomain } 已创建
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
 error-premium-cannot-change-subdomain = 无法更改您的子域名
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
