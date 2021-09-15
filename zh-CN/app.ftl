@@ -222,10 +222,12 @@ success-subdomain-registered = 您的子域名 @{ $subdomain } 已创建
 error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
 error-premium-cannot-change-subdomain = 无法更改您的子域名
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
+error-premium-check-subdomain = 您须成为 Premium 版订阅者，才能确认子域名的可用性
 error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域名的马甲
 error-subdomain-not-created = 无法创建此子域名，请尝试其他子域名
 error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，请尝试其他子域名
 error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
+error-subdomain-not-available = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
 
 ## Onboarding 
 
