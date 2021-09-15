@@ -234,10 +234,12 @@ success-subdomain-registered = Seu domínio @{ $subdomain } foi criado
 error-premium-set-make-aliases = Você precisa ter assinatura premium para criar mais de { $number } endereços de redirecionamento
 error-premium-cannot-change-subdomain = Você não pode alterar seu subdomínio
 error-premium-set-subdomain = Você precisa ter assinatura premium para definir um subdomínio
+error-premium-check-subdomain = Você precisa ter assinatura premium para definir um subdomínio
 error-premium-set-create-subdomain = Você precisa ter assinatura premium para criar endereços de redirecionamento de subdomínio
 error-subdomain-not-created = Não foi possível criar o subdomínio, tente outro
 error-subdomain-email-not-created = Não foi possível criar o endereço de redirecionamento de subdomínio, tente outro
 error-subdomain-select = Você deve selecionar um subdomínio antes de criar endereços de redirecionamento de subdomínio
+error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não está disponível. Tente novamente com outro domínio.
 
 ## Onboarding 
 
