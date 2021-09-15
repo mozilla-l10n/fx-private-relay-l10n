@@ -219,17 +219,26 @@ banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Tu dominio @{ $subdomain } ha essite create
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Tu debe esser un abonato premium pro crear plus que { $number } aliases
 error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
 error-premium-set-subdomain = Tu debe esser un abonato premium pro definir plus de { $number } aliases
+error-premium-check-subdomain = Tu debe esser un abonato premium pro controlar un subdominio
 error-premium-set-create-subdomain = Tu debe esser un abonato premium pro crear aliases de sub-dominio
 error-subdomain-not-created = Le sub-dominio non pote esser create, tenta altero
 error-subdomain-email-not-created = Le adresse e-mail con sub-dominio non pote esser create, tenta altero
 error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias de sub-dominio
+error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es disponibile. Retenta con un altere dominio.
 
 ## Onboarding 
 
