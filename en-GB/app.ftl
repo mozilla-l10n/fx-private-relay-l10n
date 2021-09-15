@@ -220,17 +220,26 @@ banner-choose-subdomain-label = You can make up any address @{ $subdomain }
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = You can make up any address @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Your domain @{ $subdomain } has been created
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = You must be a premium subscriber to make more than { $number } aliases
 error-premium-cannot-change-subdomain = You cannot change your subdomain
 error-premium-set-subdomain = You must be a premium subscriber to set a subdomain
+error-premium-check-subdomain = You must be a premium subscriber to check a subdomain
 error-premium-set-create-subdomain = You must be a premium subscriber to create subdomain aliases
 error-subdomain-not-created = Subdomain could not be created, try something else
 error-subdomain-email-not-created = Email address with subdomain could not be created, try something else
 error-subdomain-select = You must select a subdomain before creating a subdomain aliases
+error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not available. Please try again with another domain.
 
 ## Onboarding 
 
