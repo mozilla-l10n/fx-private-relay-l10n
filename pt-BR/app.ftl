@@ -220,10 +220,17 @@ banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomai
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = Você pode criar qualquer endereço @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Seu domínio @{ $subdomain } foi criado
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Você precisa ter assinatura premium para criar mais de { $number } endereços de redirecionamento
 error-premium-cannot-change-subdomain = Você não pode alterar seu subdomínio
 error-premium-set-subdomain = Você precisa ter assinatura premium para definir um subdomínio
