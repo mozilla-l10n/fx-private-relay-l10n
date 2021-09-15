@@ -220,17 +220,26 @@ banner-choose-subdomain-label = U kunt elk adres @{ $subdomain } verzinnen
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = U kunt elk adres @{ $subdomain } verzinnen
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Uw domein @{ $subdomain } is aangemaakt
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = U moet een premiumabonnee zijn om meer dan { $number } aliassen aan te maken
 error-premium-cannot-change-subdomain = U kunt uw subdomein niet wijzigen
 error-premium-set-subdomain = U moet een premiumabonnee zijn om een subdomein in te stellen
+error-premium-check-subdomain = U moet een premiumabonnee zijn om een subdomein te controleren
 error-premium-set-create-subdomain = U moet een premiumabonnee zijn om subdomeinaliassen aan te maken
 error-subdomain-not-created = Subdomein kan niet worden aangemaakt, probeer iets anders
 error-subdomain-email-not-created = E-mailadres met subdomein kan niet worden aangemaakt, probeer iets anders
 error-subdomain-select = U moet een subdomein selecteren voordat u een subdomeinalias aanmaakt
+error-subdomain-not-available = Het domein @{ $unavailable_subdomain } is niet beschikbaar. Probeer het opnieuw met een ander domein.
 
 ## Onboarding 
 
