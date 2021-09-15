@@ -140,6 +140,7 @@ faq-question-7-question = Τι γίνεται αν ένα email προς το ψ
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
+profile-headline-manage-domain = Διαχείριση ψευδωνύμων τομέα
 profile-supports-email-forwarding = Το { -brand-name-firefox-relay } υποστηρίζει την προώθηση email (μαζί με τα συνημμένα) μεγέθους έως { email-size-limit }
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
@@ -208,10 +209,17 @@ banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Ο τομέας @{ $subdomain } έχει δημιουργηθεί
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Πρέπει να είστε συνδρομητής premium για να φτιάξετε πάνω από { $number } ψευδώνυμα
 error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
 error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
@@ -219,6 +227,7 @@ error-premium-set-create-subdomain = Πρέπει να είστε συνδρομ
 error-subdomain-not-created = Δεν ήταν δυνατή η δημιουργία υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-email-not-created = Αδυναμία δημιουργίας διεύθυνσης email με υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
+error-subdomain-not-available = Ο τομέας @{ $unavailable_subdomain } δεν είναι διαθέσιμος. Παρακαλώ δοκιμάστε με έναν άλλο τομέα.
 
 ## Onboarding 
 
