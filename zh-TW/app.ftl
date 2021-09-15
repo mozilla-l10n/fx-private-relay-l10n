@@ -208,17 +208,26 @@ banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳�
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-label = 您可使用任何 @{ $subdomain } 的信箱帳號
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = 已建立您的網域 @{ $subdomain }
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = 您必須訂閱 Premium 版本，才能建立超過 { $number } 組別名
 error-premium-cannot-change-subdomain = 無法變更您的子網域
 error-premium-set-subdomain = 您必須訂閱 Premium 版本，才能設定子網域
+error-premium-check-subdomain = 您必須訂閱 Premium 版本，才能確認子網域是否可以使用
 error-premium-set-create-subdomain = 您必須訂閱 Premium 版本，才能建立使用子網域的別名
 error-subdomain-not-created = 無法建立子網域，請嘗試改用其他子網域名稱
 error-subdomain-email-not-created = 無法建立使用子網域的電子郵件信箱，請嘗試改用其他子網域名稱
 error-subdomain-select = 您必須先選擇子網域，才能建立使用子網域的別名
+error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用。請使用其他網域名稱再試一次。
 
 ## Onboarding 
 
