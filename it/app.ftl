@@ -172,6 +172,7 @@ profile-label-blocking = inoltro bloccato
 profile-label-disable-forwarding-button = Disattiva l’inoltro di email per questo alias
 profile-label-enable-forwarding-button = Attiva l’inoltro di email per questo alias
 profile-label-click-to-copy = Fai clic per copiare
+profile-label-copy-confirmation = Alias copiato negli appunti
 profile-label-copied = Copiato
 profile-label-blocked = Bloccati
 profile-label-forwarded = Inoltrati
