@@ -168,6 +168,7 @@ profile-label-blocking = bloqueio
 profile-label-disable-forwarding-button = Desativar o encaminhamento de email deste endereço de redirecionamento
 profile-label-enable-forwarding-button = Ativar o encaminhamento de email deste endereço de redirecionamento
 profile-label-click-to-copy = Clique para copiar
+profile-label-copy-confirmation = Endereço de redirecionamento copiado para área de transferência
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Encaminhado
