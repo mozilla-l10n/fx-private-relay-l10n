@@ -168,6 +168,7 @@ profile-label-blocking = блокування
 profile-label-disable-forwarding-button = Вимкнути пересилання листів для цієї псевдоадреси
 profile-label-enable-forwarding-button = Увімкнути пересилання листів для цієї псевдоадреси
 profile-label-click-to-copy = Клацніть, щоб скопіювати
+profile-label-copy-confirmation = Псевдоадресу скопійовано до буфера обміну
 profile-label-copied = Скопійовано!
 profile-label-blocked = Заблоковано
 profile-label-forwarded = Переслано
