@@ -168,6 +168,7 @@ profile-label-blocking = blocking
 profile-label-disable-forwarding-button = Disable email forwarding for this alias
 profile-label-enable-forwarding-button = Enable email forwarding for this alias
 profile-label-click-to-copy = Click to copy
+profile-label-copy-confirmation = Alias copied to clipboard
 profile-label-copied = Copied!
 profile-label-blocked = Blocked
 profile-label-forwarded = Forwarded
