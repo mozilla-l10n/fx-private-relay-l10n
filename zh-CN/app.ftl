@@ -156,6 +156,7 @@ profile-label-blocking = 拦截中
 profile-label-disable-forwarding-button = 禁用此马甲的转发
 profile-label-enable-forwarding-button = 启用此马甲的转发
 profile-label-click-to-copy = 点击复制
+profile-label-copy-confirmation = 马甲已复制到剪贴板
 profile-label-copied = 已复制！
 profile-label-blocked = 拦截
 profile-label-forwarded = 转发
