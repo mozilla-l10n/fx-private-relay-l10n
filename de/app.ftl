@@ -168,6 +168,7 @@ profile-label-blocking = Blockieren
 profile-label-disable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse deaktivieren
 profile-label-enable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse aktivieren
 profile-label-click-to-copy = Zum Kopieren anklicken
+profile-label-copy-confirmation = Alias-E-Mail-Adresse in Zwischenablage kopiert
 profile-label-copied = Kopiert!
 profile-label-blocked = Blockiert
 profile-label-forwarded = Weitergeleitet
