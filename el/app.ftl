@@ -132,6 +132,8 @@ email-size-limit = { $size } { $unit }
 faq-question-4-answer-html =
     Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο. 
     Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
+faq-question-5-question = Μπορώ να ορίσω το δικό μου ψευδώνυμο { -brand-name-relay } με τον τομέα @relay.firefox.com;
+faq-question-5-answer = Προς το παρόν όχι, αλλά εξετάζουμε νέες λειτουργίες, όπως η δυνατότητα δημιουργίας του δικού σας ψευδωνύμου με έναν καθορισμένο τομέα.
 faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
 
@@ -166,6 +168,7 @@ profile-label-blocking = αποκλεισμός
 profile-label-disable-forwarding-button = Απενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-enable-forwarding-button = Ενεργοποίηση προώθησης email για το ψευδώνυμο
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
+profile-label-copy-confirmation = Το ψευδώνυμο αντιγράφτηκε στο πρόχειρο
 profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
