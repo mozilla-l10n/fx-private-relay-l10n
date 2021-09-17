@@ -53,6 +53,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = Το { -brand-name-firefox-relay } διευκολύνει τη δημιουργία ψευδωνύμων email, τα οποία κάνουν προώθηση στα πραγματικά σας εισερχόμενα. Προστατέψτε τους λογαριασμούς σας από hackers και ανεπιθύμητα μηνύματα.
 
 ## Header 
 
@@ -149,6 +150,7 @@ faq-question-7-answer = Πλέον υποστηρίζουμε την προώθ�
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
 profile-headline-manage-domain = Διαχείριση ψευδωνύμων τομέα
 profile-supports-email-forwarding = Το { -brand-name-firefox-relay } υποστηρίζει την προώθηση email (μαζί με τα συνημμένα) μεγέθους έως { email-size-limit }
+profile-promo-upgrade-copy = Αναβαθμίστε το { -brand-name-relay } για να αποκτήσετε απεριόριστες διευθύνσεις email και τον δικό σας τομέα αλληλογραφίας.
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
@@ -156,7 +158,9 @@ profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύ�
 profile-label-delete = Διαγραφή
 profile-label-delete-alias = Διαγραφή ψευδωνύμου
 profile-label-upgrade = Απόκτηση απεριόριστων ψευδωνύμων
+profile-label-create-domain = Αποκτήστε τον τομέα email σας
 profile-label-domain = Τομέας email:
+profile-label-domain-tooltip = Δημιουργήστε τον μοναδικό και προσαρμοσμένο τομέα email σας.
 profile-label-reset = Επαναφορά
 profile-label-apply = Εφαρμογή
 # This string is followed by an email address
@@ -204,6 +208,7 @@ banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premiu
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Επιλέξτε τον δικό σας τομέα
+banner-choose-subdomain-headline-aliases = Αποκτήστε τον δικό σας προσαρμοσμένο τομέα ψευδωνύμων
 banner-choose-subdomain-copy = Μπορείτε να επιλέξετε έναν προσαρμοσμένο τομέα για τα ψευδώνυμα email σας.
 banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
@@ -231,6 +236,7 @@ success-subdomain-registered = Ο τομέας @{ $subdomain } έχει δημι
 error-premium-set-make-aliases = Πρέπει να είστε συνδρομητής premium για να φτιάξετε πάνω από { $number } ψευδώνυμα
 error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
 error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
+error-premium-check-subdomain = Πρέπει να είστε συνδρομητής premium για να επιλέξετε έναν υποτομέα
 error-premium-set-create-subdomain = Πρέπει να είστε συνδρομητής premium για να δημιουργήσετε ψευδώνυμα υποτομέα
 error-subdomain-not-created = Δεν ήταν δυνατή η δημιουργία υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-email-not-created = Αδυναμία δημιουργίας διεύθυνσης email με υποτομέα, δοκιμάστε κάτι άλλο
@@ -276,13 +282,17 @@ survey-question-4 = Διαθέτει το { -brand-name-relay } μια απλή 
 survey-question-5 = Πώς θα νιώθατε εάν δεν μπορούσατε πλέον να χρησιμοποιήσετε το { -brand-name-relay };
 survey-option-strongly-disagree = Διαφωνώ απόλυτα
 survey-option-disagree = Διαφωνώ
+survey-option-unsure = Δεν ξέρω σίγουρα
 survey-option-agree = Συμφωνώ
 survey-option-strongly-agree = Συμφωνώ απόλυτα
 survey-option-i-wouldnt-care = Δεν θα με ένοιαζε
+survey-option-somewhat-disappointed = Μερική απογοήτευση
+survey-option-very-disappointed = Μεγάλη απογοήτευση
 survey-option-very-likely = Πολύ πιθανό
 survey-option-not-likely = Καθόλου πιθανό
 
 ## VPN Promo Banner
 
 vpn-promo-headline = Εξοικονομήστε 50% με συνδρομή ενός έτους
+vpn-promo-copy = Προστατέψτε τα διαδικτυακά σας δεδομένα και επιλέξτε το πακέτο συνδρομής VPN που σας ταιριάζει.
 vpn-promo-cta = Λήψη του { -brand-name-mozilla-vpn }
