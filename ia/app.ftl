@@ -213,11 +213,9 @@ banner-choose-subdomain-submit = Obtener le dominio
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite online.
 banner-pack-upgrade-cta = Promover ora
-# This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-label = Tu pote crear ulle adresse @{ $subdomain }
+banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
 
 ## Success Messages
 
