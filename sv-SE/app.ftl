@@ -168,6 +168,7 @@ profile-label-blocking = blockerar
 profile-label-disable-forwarding-button = Inaktivera vidarebefordran av e-post för detta alias
 profile-label-enable-forwarding-button = Aktivera vidarebefordran av e-post för detta alias
 profile-label-click-to-copy = Klicka för att kopiera
+profile-label-copy-confirmation = Alias kopierade till urklipp
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
 profile-label-forwarded = Vidarebefordrat
@@ -214,21 +215,32 @@ banner-choose-subdomain-submit = Skaffa en domän
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Din domän är:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
 
+## Success Messages
+
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Din domän @{ $subdomain } har skapats
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Du måste vara en premiumabonnent för att kunna göra fler än { $number }-alias
 error-premium-cannot-change-subdomain = Du kan inte ändra din underdomän
 error-premium-set-subdomain = Du måste vara en premiumabonnent för att ställa in en underdomän
+error-premium-check-subdomain = Du måste vara en premiumabonnent för att kontrollera en underdomän
 error-premium-set-create-subdomain = Du måste vara en premiumabonnent för att skapa underdomänalias
 error-subdomain-not-created = Underdomänen kunde inte skapas, prova något annat
 error-subdomain-email-not-created = E-postadress med underdomän kunde inte skapas, prova något annat
 error-subdomain-select = Du måste välja en underdomän innan du skapar ett underdomänalias
+error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan domän.
 
 ## Onboarding 
 
