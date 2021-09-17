@@ -214,11 +214,9 @@ banner-choose-subdomain-submit = Skaffa en domän
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
-# This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = Du kan skapa vilken adress som helst @{ $subdomain }
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-label = Du kan skapa vilken adress som helst @{ $subdomain }
+banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
 
 ## Error Messages
 

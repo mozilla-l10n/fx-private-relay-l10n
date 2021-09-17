@@ -215,11 +215,9 @@ banner-choose-subdomain-submit = Get Domain
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
-# This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = You can make up any address @{ $subdomain }
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-label = You can make up any address @{ $subdomain }
+banner-choose-subdomain-description = You can make up any address @{ $subdomain }
 
 ## Success Messages
 

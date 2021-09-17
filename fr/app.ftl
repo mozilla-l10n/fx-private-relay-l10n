@@ -186,11 +186,9 @@ banner-choose-subdomain-submit = Obtenir le domaine
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
-# This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-label = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
+banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
 
 ## Error Messages
 

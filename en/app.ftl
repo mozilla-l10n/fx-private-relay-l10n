@@ -223,7 +223,7 @@ banner-choose-subdomain-label = Your domain is:
 
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-label = You can make up any address @{ $subdomain }
+banner-choose-subdomain-description = You can make up any address @{ $subdomain }
 
 ## Success Messages
 
