@@ -107,6 +107,9 @@ how-it-works-step-1-copy =
     Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμου
 how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
+how-it-works-step-3-copy =
+    Συνδεθείτε στον πίνακα ελέγχου του { -brand-name-relay } για να παρακολουθήσετε τα ψευδώνυμά σας.
+    Αν δείτε ότι κάποιο λαμβάνει ανεπιθύμητη αλληλογραφία, μπορείτε να αποκλείσετε όλα τα μηνύματα ή ακόμα και να διαγράψετε το ψευδώνυμο, απευθείας από τον πίνακα ελέγχου.
 hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
 hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
 hero-image-copy-protect-html = …ώστε να <strong>προστατέψετε το πραγματικό σας email</strong> από καταγραφή και spam.
@@ -135,7 +138,9 @@ faq-question-4-answer-html =
 faq-question-5-question = Μπορώ να ορίσω το δικό μου ψευδώνυμο { -brand-name-relay } με τον τομέα @relay.firefox.com;
 faq-question-5-answer = Προς το παρόν όχι, αλλά εξετάζουμε νέες λειτουργίες, όπως η δυνατότητα δημιουργίας του δικού σας ψευδωνύμου με έναν καθορισμένο τομέα.
 faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
+faq-question-6-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
+faq-question-7-answer = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει ένα όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
 
 ## Profile Page (Logged In)
 
