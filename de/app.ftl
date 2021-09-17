@@ -215,6 +215,8 @@ banner-choose-subdomain-submit = Domain erhalten
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet Ihnen unbegrenzt viele Alias-E-Mail-Adressen und Ihre eigene E-Mail-Domain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Ihre Domain ist:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Sie können beliebige Adressen mit @{ $subdomain } erstellen
