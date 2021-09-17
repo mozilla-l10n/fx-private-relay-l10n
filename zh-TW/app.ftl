@@ -203,6 +203,8 @@ banner-choose-subdomain-submit = 註冊網域
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 可透過無限量別名信箱與您個人的郵件網域功能，幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = 您的網域是:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
