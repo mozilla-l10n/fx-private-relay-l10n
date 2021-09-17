@@ -168,6 +168,7 @@ profile-label-blocking = blokkeren
 profile-label-disable-forwarding-button = Doorsturen van e-mailberichten voor deze alias uitschakelen
 profile-label-enable-forwarding-button = Doorsturen van e-mailberichten voor deze alias inschakelen
 profile-label-click-to-copy = Klik om te kopiëren
+profile-label-copy-confirmation = Alias naar klembord gekopieerd
 profile-label-copied = Gekopieerd!
 profile-label-blocked = Geblokkeerd
 profile-label-forwarded = Doorgestuurd
