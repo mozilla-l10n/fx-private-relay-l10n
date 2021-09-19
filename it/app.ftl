@@ -219,6 +219,8 @@ banner-choose-subdomain-submit = Ottieni dominio
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Il tuo dominio è:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
@@ -237,6 +239,7 @@ success-subdomain-registered = Il dominio @{ $subdomain } è stato creato
 error-premium-set-make-aliases = È necessario avere un abbonamento premium per creare più di { $number } alias
 error-premium-cannot-change-subdomain = Non è possibile modificare il sottodominio
 error-premium-set-subdomain = È necessario avere un abbonamento premium per impostare un sottodominio
+error-premium-check-subdomain = È necessario avere un abbonamento premium per selezionare un sottodominio
 error-premium-set-create-subdomain = È necessario avere un abbonamento premium per creare alias per il sottodominio
 error-subdomain-not-created = Impossibile creare il sottodominio, provane un altro
 error-subdomain-email-not-created = Impossibile creare l’indirizzo email con sottodominio, provane un altro
