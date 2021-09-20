@@ -167,6 +167,7 @@ profile-label-blocking = blocada
 profile-label-disable-forwarding-button = Disactivar de inultrar e-mail pro iste alias
 profile-label-enable-forwarding-button = Activar de inultrar e-mail pro iste alias
 profile-label-click-to-copy = Clicca pro copiar
+profile-label-copy-confirmation = Alias copiate al area de transferentia
 profile-label-copied = Copiate!
 profile-label-blocked = Blocate
 profile-label-forwarded = Inviate ultra
