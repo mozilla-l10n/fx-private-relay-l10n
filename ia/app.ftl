@@ -123,8 +123,8 @@ email-size-limit = { $size } { $unit }
 #   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
 #   $attrs (string) - specific attributes added to external links
 faq-question-4-answer-html =
-    { -brand-name-relay } non ancora offere le capacitate de replicar per un alias. 
-    Si tu prova, nihil evenira. Nos sta a planificar un altere functionalitate pro facer te <a href="{ $url }" { $attrs }>replicar anonymemente al expeditores</a>.
+    { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
+    Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
 faq-question-5-question = Pote io crear mi proprie alias de { -brand-name-relay } per le dominio @relay.firefox.com?
 faq-question-5-answer = Non actualmente, ma nos considera nove functionalitates i.a. permitter te de crear tu proprie alias con un dominio designate.
 faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servicio { -brand-name-firefox-relay }?
