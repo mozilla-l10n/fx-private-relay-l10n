@@ -215,6 +215,8 @@ banner-choose-subdomain-submit = Domein verkrijgen
 banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
 banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
 banner-pack-upgrade-cta = Nu upgraden
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Uw domein is:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = U kunt elk adres @{ $subdomain } verzinnen
