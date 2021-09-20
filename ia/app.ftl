@@ -113,7 +113,7 @@ faq-question-2-answer-html =
     If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>per favor face nos saper lo</a>.
 faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
 faq-question-3-answer = Le sito actualmente es solo disponibile in anglese, ma tu pote usar le servicio ubique.
-faq-question-4-question = Pote io replicar al messages per mi alias de { -brand-name-relay }?
+faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
