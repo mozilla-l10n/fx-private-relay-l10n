@@ -87,22 +87,22 @@ how-it-works-step-2-copy =
     { -brand-name-relay } inultrara le messages al adresse e-mail primari associate con tu conto.
 how-it-works-step-3-headline = Gere tu aliases
 how-it-works-step-3-copy =
-    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del aliases que tu creava.
-    Si tu trova que tu recipe SPAM o messages indesirate, tu pote blocar tote le messages o mesmo deler le alias, justo ab le pannello de controlo.
+    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del aliases que tu ha create.
+    Si tu trova que un de istes recipe spam o messages indesirate, tu pote blocar tote le messages o mesmo deler le alias, directemente ab le pannello de controlo.
 hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
-hero-image-copy-protect-html = … assi que tu pote <strong>proteger tu real e-mail</strong> de traciamento e SPAM.
+hero-image-copy-protect-html = … de sorta que tu pote <strong>proteger tu adresse de e-mail real</strong> de traciamento e spam.
 hero-image-copy-control-html = Ora <em>tu es al commando</em> de lo que arriva a tu cassa de ingresso!
 
 ## FAQ Page
 
 faq-headline = Folio a questiones
-faq-question-1-question = E le SPAM?
-faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le SPAM, nostre e-mail partner Amazon SES bloca SPAM e malware. Si { -brand-name-relay } inultra messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar messages del alias inultrante los.
+faq-question-1-question = E quanto al spam?
+faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> assi nos pote considerar de adjustar le limines de SPAM de Amazon SES pro iste servicio. Si tu directemente reporta los como SPAM, tu fornitor de servicios e-mail videra { -brand-name-relay } como fonte de SPAM, non le expeditor original.
+faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
