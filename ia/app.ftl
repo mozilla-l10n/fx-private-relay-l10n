@@ -28,7 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description = { -brand-name-firefox-relay } rende facile crear aliases e-mail, que inultra a tu real cassa de ingresso. Usa lo pro proteger tu contos online de piratas informatic e messages indesirate.
+meta-description = { -brand-name-firefox-relay } rende facile crear aliases de e-mail que reexpedi le messages a tu cassa de entrata real. Usa lo pro proteger tu contos in linea contra piratas informatic e messages indesirate.
 
 ## Header 
 
@@ -71,9 +71,9 @@ bento-button-close-label = Clauder menu
 
 home-hero-headline = Cela tu real adresse e-mail a adjuta proteger tu identitate
 home-hero-copy =
-    Comparti le aliases e-mail de { -brand-name-relay } in vice del tu real adresse e-mail pro proteger tu contos online del piratas informatic. 
+    Comparti le aliases de e-mail de { -brand-name-relay } in loco de tu adresse de e-mail real pro proteger tu contos in linea contra piratas informatic. 
     
-    Accede con tu { -brand-name-firefox-account } pro comenciar.
+    Aperi session con tu { -brand-name-firefox-account } pro comenciar.
 home-hero-cta = Aperir session
 how-it-works-headline = Como functiona illo
 how-it-works-subheadline = Protege tu identitate personal ubique tu usa { -brand-name-firefox-browser }.
@@ -212,7 +212,7 @@ banner-choose-subdomain-warning = Nota: Tu non pote cambiar tu dominio plus tard
 banner-choose-subdomain-input-placeholder = Cercar dominio
 banner-choose-subdomain-submit = Obtener le dominio
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
-banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite online.
+banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
 banner-pack-upgrade-cta = Promover ora
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
@@ -292,5 +292,5 @@ survey-option-not-likely = Non probabile
 ## VPN Promo Banner
 
 vpn-promo-headline = Sparnia le 50% con un subscription de un anno integre
-vpn-promo-copy = Protege tu datos online e selige un plano de subscription VPN que functiona pro te.
+vpn-promo-copy = Protege tu datos in linea e selige un plano de subscription VPN que functiona pro te.
 vpn-promo-cta = Installar { -brand-name-mozilla-vpn }
