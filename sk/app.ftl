@@ -84,7 +84,7 @@ nav-profile-sign-in = Prihlásiť sa
 nav-profile-sign-up = Zaregistrovať sa
 nav-profile-manage-fxa = Spravovať { -brand-name-firefox-account(capitalization: "lowercase") }
 nav-profile-sign-out = Odhlásiť sa
-nav-profile-sign-out-relay = Odhlásiť sa z { -brand-name-relay }
+nav-profile-sign-out-relay = Odhlásiť sa zo služby { -brand-name-relay }
 nav-profile-sign-out-confirm = Naozaj sa chcete odhlásiť?
 nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization: "lowercase") }
 
@@ -98,7 +98,7 @@ logo-github-alt = Logo GitHubu
 
 ## Bento Menu
 
-bento-button-title = Aplikácie a služby { -brand-name-firefox }
+bento-button-title = Aplikácie a služby { -brand-name-firefox(case: "gen") }
 fx-makes-tech = { -brand-name-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
 made-by-mozilla = Od spoločnosti { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } pre počítače
@@ -128,6 +128,13 @@ how-it-works-step-2-copy =
     V takom na ňu kliknite a vygenerujte novú náhodnú adresu, ktorá končí na @relay.firefox.com.
     { -brand-name-relay } bude správy zaslané na tento alias preposielať na primárnu e-mailovú adresu priradenú k vášmu účtu.
 how-it-works-step-3-headline = Spravujte svoje aliasy
+how-it-works-step-3-copy =
+    Prihláste sa do hlavného panela služby { -brand-name-relay } a sledujte aliasy, ktoré ste vytvorili.
+    Ak zistíte, že jeden z nich prijíma nevyžiadanú poštu alebo nechcené správy, môžete zablokovať všetky správy alebo dokonca odstrániť alias priamo z hlavného panela.
+hero-image-copy-trust = Môžete tejto spoločnosti dôverovať odovzdaním svojho osobného e-mailu?
+hero-image-copy-unique-html = <strong>Použite jedinečnú adresu špeciálne vytvorenú</strong> pre každý nový účet…
+hero-image-copy-protect-html = ... čím si <strong>chránite svoj skutočný e-mail</strong> pred sledovaním a spamom.
+hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do vašej e-mailovej schránky.
 
 ## FAQ Page
 
@@ -143,9 +150,9 @@ faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html =
-    Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje poddoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tie z účtov Gmail, Hotmail alebo Yahoo.
+    Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje poddoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
     Keďže { -brand-name-firefox-relay } získava na popularite a vydáva viac aliasov, môže byť naša služba zaradená do zoznamu blokovaných.
-    Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }> dajte nám prosím vedieť </a>.
+    Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám prosím vedieť</a>.
 faq-question-3-question = Je { -brand-name-relay } k dispozícii iba v USA?
 faq-question-3-answer = Stránka je v súčasnosti k dispozícii iba v angličtine, ale službu môžete použiť kdekoľvek.
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
