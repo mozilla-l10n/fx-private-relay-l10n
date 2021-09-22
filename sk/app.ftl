@@ -53,6 +53,8 @@ logo-github-alt = Logo GitHubu
 
 ## Bento Menu
 
+fx-makes-tech = { -brand-name-firefox } je technológia, ktorá bojuje za vaše súkromie na internete.
+made-by-mozilla = Od spoločnosti { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } pre počítače
 fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } pre mobilné zariadenia
