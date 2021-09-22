@@ -21,7 +21,11 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
--brand-name-firefox-browser = Prehliadač Firefox
+-brand-name-firefox-browser =
+    { $capitalization ->
+        [lowercase] prehliadač Firefox
+       *[uppercase] Prehliadač Firefox
+    }
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
@@ -29,9 +33,37 @@
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Účet Firefox
-        [uppercase] účet Firefox
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[uppercase] Účet Firefox
+                [lowercase] účet Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[uppercase] Účtu Firefox
+                [lowercase] účtu Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[uppercase] Účtu Firefox
+                [lowercase] účtu Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[uppercase] Účet Firefox
+                [lowercase] účet Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[uppercase] Účte Firefox
+                [lowercase] účte Firefox
+            }
+        [ins]
+            { $capitalization ->
+               *[uppercase] Účtom Firefox
+                [lowercase] účtom Firefox
+            }
     }
 
 ## Meta Data
@@ -79,14 +111,17 @@ bento-button-close-label = Zavrieť ponuku
 ## Home Page
 
 home-hero-headline = Skryte svoju skutočnú e-mailovú adresu, aby ste chránili svoju identitu
+home-hero-copy =
+    Uvádzajte e-mailové aliasy služby { -brand-name-relay } namiesto svojej skutočnej e-mailovej adresy, aby boli vaše online účty chránené pred hackermi.
+    Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
 home-hero-cta = Prihlásiť sa
 how-it-works-headline = Ako to funguje
-how-it-works-subheadline = Chráňte svoju identitu všade, kde používate { -brand-name-firefox-browser }.
+how-it-works-subheadline = Chráňte svoju identitu všade, kde používate { -brand-name-firefox-browser(capitalization: "lowercase") }.
 how-it-works-step-1-headline = Stiahnite si rozšírenie
 how-it-works-step-1-link = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
 how-it-works-step-1-copy =
     Kliknutím na ikonu, ktorá sa zobrazí na paneli s nástrojmi { -brand-name-firefox(case: "gen") }, prejdete na prihlasovaciu stránku.
-    Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(case: "gen") }.
+    Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
 how-it-works-step-2-headline = Vytvorte si nový alias
 how-it-works-step-2-copy =
     Pri prehliadaní sa zobrazí ikona { -brand-name-relay } vždy, keď narazíte na webové stránky vyžadujúce vašu e-mailovú adresu.
@@ -102,7 +137,7 @@ faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich aliasov, <a href="{ $url }" { $attrs }> nahláste nám to </a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
+faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich aliasov, <a href="{ $url }" { $attrs }>nahláste nám to</a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
