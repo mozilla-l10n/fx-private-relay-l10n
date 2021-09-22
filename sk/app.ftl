@@ -15,6 +15,7 @@
 -brand-name-firefox-browser = Prehliadač Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
@@ -27,6 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailových aliasov, ktoré sú preposielané do vašej skutočnej e-mailovej schránky. Použite ho na ochranu svojich online účtov pred hackermi a nechcenými správami.
 
 ## Header 
 
@@ -67,10 +69,14 @@ bento-button-close-label = Zavrieť ponuku
 
 ## Home Page
 
+home-hero-headline = Skryte svoju skutočnú e-mailovú adresu, aby ste chránili svoju identitu
 home-hero-cta = Prihlásiť sa
 how-it-works-headline = Ako to funguje
-how-it-works-step-1-headline = Získať rozšírenie
-how-it-works-step-2-headline = Vytvoriť nový alias
+how-it-works-subheadline = Chráňte svoju identitu všade, kde používate { -brand-name-firefox-browser }.
+how-it-works-step-1-headline = Stiahnite si rozšírenie
+how-it-works-step-1-link = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
+how-it-works-step-2-headline = Vytvorte si nový alias
+how-it-works-step-3-headline = Spravujte svoje aliasy
 
 ## FAQ Page
 
@@ -104,9 +110,17 @@ faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
 faq-question-5-question = Môžem si vytvoriť svoj vlastný { -brand-name-relay } alias na doméne @relay.firefox.com?
+faq-question-5-answer = Momentálne nie, ale zvažujeme nové funkcie vrátane možnosti nechať si vytvoriť vlastný alias s označenou doménou.
+faq-question-6-question = Čo sa stane, ak { -brand-name-mozilla } vypne službu { -brand-name-firefox-relay }?
+faq-question-6-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
+faq-question-7-question = Čo keď e-mail odoslaný na môj alias obsahuje prílohu?
+faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Vitajte,</span> { $email }!
 profile-label-generate-new-alias = Vytvoriť nový alias
 profile-label-delete = Odstrániť
 profile-label-delete-alias = Odstrániť tento alias
