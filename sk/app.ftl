@@ -8,7 +8,16 @@
 
 # Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
 
--brand-name-firefox = Firefox
+-brand-name-firefox =
+    { $case ->
+       *[nom] Firefox
+        [gen] Firefoxu
+        [dat] Firefoxu
+        [acc] Firefox
+        [loc] Firefoxe
+        [ins] Firefoxom
+    }
+    .gender = masculine
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
@@ -75,7 +84,14 @@ how-it-works-headline = Ako to funguje
 how-it-works-subheadline = Chráňte svoju identitu všade, kde používate { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Stiahnite si rozšírenie
 how-it-works-step-1-link = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Kliknutím na ikonu, ktorá sa zobrazí na paneli s nástrojmi { -brand-name-firefox(case: "gen") }, prejdete na prihlasovaciu stránku.
+    Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(case: "gen") }.
 how-it-works-step-2-headline = Vytvorte si nový alias
+how-it-works-step-2-copy =
+    Pri prehliadaní sa zobrazí ikona { -brand-name-relay } vždy, keď narazíte na webové stránky vyžadujúce vašu e-mailovú adresu.
+    V takom na ňu kliknite a vygenerujte novú náhodnú adresu, ktorá končí na @relay.firefox.com.
+    { -brand-name-relay } bude správy zaslané na tento alias preposielať na primárnu e-mailovú adresu priradenú k vášmu účtu.
 how-it-works-step-3-headline = Spravujte svoje aliasy
 
 ## FAQ Page
