@@ -193,6 +193,11 @@ profile-label-first-emailed = Prvý e-mail odoslaný:
 profile-label-created = Vytvorený:
 profile-label-details-show = Zobraziť podrobnosti
 profile-label-details-hide = Skryť podrobnosti
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = preposiela sa
+profile-label-blocking = blokuje sa
+profile-label-disable-forwarding-button = Blokovať preposielanie e-mailov pre tento alias
+profile-label-enable-forwarding-button = Povoliť preposielanie e-mailov pre tento alias
 profile-label-click-to-copy = Kliknutím skopírujete
 profile-label-copy-confirmation = Alias bol skopírovaný do schránky
 profile-label-copied = Skopírovaný!
@@ -200,14 +205,19 @@ profile-label-blocked = Zablokované
 profile-label-forwarded = Preposlané
 profile-label-cancel = Zrušiť
 profile-blocked-copy = Ak pre tento alias vyberiete blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
+profile-forwarded-copy = Keď zvolíte pre tento alias preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
 profile-forwarded-note = Poznámka:
+profile-forwarded-note-copy = E-maily (vrátane príloh) väčšie ako { email-size-limit } nie sú v súčasnosti podporované a nebudú preposielané.
 profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used = Použité e-mailové aliasy
 profile-filter-search-placeholder = Hľadať v aliasoch
+profile-filter-category-option-active-aliases = Aktívne aliasy
+profile-filter-category-option-disabled-aliases = Blokované aliasy
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } nemôže doručiť váš e-mail.
 banner-download-firefox-headline = Služba { -brand-name-relay } je ešte lepšia v prehliadači { -brand-name-firefox }
 banner-download-firefox-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie aliasov ešte viac.
 banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
@@ -240,6 +250,10 @@ onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť p
 
 ## Modals
 
+modal-delete-confirmation = Áno, chcem odstrániť tento alias.
+modal-domain-register-good-news = Dobré správy!
+modal-domain-register-warning = Nezabudnite, že pre svoj účet máte povolenú registráciu iba jednej domény a neskôr nie je možné vašu doménu zmeniť.
+modal-domain-register-button = Registrovať doménu
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -256,4 +270,6 @@ survey-option-not-likely = Pravdepodobne nie
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Ušetrite 50% s celoročným predplatným
+vpn-promo-copy = Chráňte svoje online dáta a vyberte si plán predplatného VPN, ktorý vám vyhovuje.
 vpn-promo-cta = Získajte { -brand-name-mozilla-vpn }
