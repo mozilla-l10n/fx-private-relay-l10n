@@ -180,10 +180,17 @@ faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presm
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vitajte,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }.
+profile-promo-upgrade-copy = Inovujte službu { -brand-name-relay }, aby ste získali neobmedzený počet e-mailových adries a vlastnú e-mailovú doménu.
+profile-promo-upgrade-cta = Inovovať službu { -brand-name-relay }
+profile-label-edit = Upraviť štítok pre tento alias
+profile-label-saved = Štítok uložený!
 profile-label-generate-new-alias = Vytvoriť nový alias
 profile-label-delete = Odstrániť
 profile-label-delete-alias = Odstrániť tento alias
+profile-label-upgrade = Získajte neobmedzené množstvo aliasov
+profile-label-create-domain = Získajte svoju e-mailovú doménu
 profile-label-domain = E-mailová doména:
+profile-label-domain-tooltip = Vytvorte si svoju jedinečnú a vlastnú e-mailovú doménu.
 profile-label-apply = Použiť
 # This string is followed by an email address
 profile-label-forward-emails = E-maily preposielať na:
@@ -250,13 +257,25 @@ onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť p
 
 ## Modals
 
+modal-delete-headline = Chcete tento alias natrvalo odstrániť?
 modal-delete-confirmation = Áno, chcem odstrániť tento alias.
 modal-domain-register-good-news = Dobré správy!
 modal-domain-register-warning = Nezabudnite, že pre svoj účet máte povolenú registráciu iba jednej domény a neskôr nie je možné vašu doménu zmeniť.
 modal-domain-register-button = Registrovať doménu
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } je k dispozícii!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Áno, chcem zaregistrovať doménu { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Na stupnici od 1 do 10, ako pravdepodobne by ste odporučili službu { -brand-name-relay } priateľovi alebo kolegovi?
+survey-question-2 = Je službu { -brand-name-relay } jednoduché používať?
+survey-question-3 = Máte pocit, že je produkt služba { -brand-name-relay } dôveryhodná?
+survey-question-4 = Má služba { -brand-name-relay } čistú a jednoduchú prezentáciu?
+survey-question-5 = Ako by ste sa cítili, keby ste službu { -brand-name-relay } nemohli ďalej používať?
 survey-option-strongly-disagree = Rozhodne nesúhlasím
 survey-option-disagree = Nesúhlasím
 survey-option-unsure = Neviem
