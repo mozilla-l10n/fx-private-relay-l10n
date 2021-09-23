@@ -125,7 +125,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = Vytvorte si nový alias
 how-it-works-step-2-copy =
     Pri prehliadaní sa zobrazí ikona { -brand-name-relay } vždy, keď narazíte na webové stránky vyžadujúce vašu e-mailovú adresu.
-    V takom na ňu kliknite a vygenerujte novú náhodnú adresu, ktorá končí na @relay.firefox.com.
+    V takom prípade na ňu kliknite a vygenerujete si novú náhodnú adresu, ktorá končí na @relay.firefox.com.
     { -brand-name-relay } bude správy zaslané na tento alias preposielať na primárnu e-mailovú adresu priradenú k vášmu účtu.
 how-it-works-step-3-headline = Spravujte svoje aliasy
 how-it-works-step-3-copy =
@@ -179,6 +179,7 @@ faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presm
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vitajte,</span> { $email }!
+profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }.
 profile-label-generate-new-alias = Vytvoriť nový alias
 profile-label-delete = Odstrániť
 profile-label-delete-alias = Odstrániť tento alias
@@ -193,6 +194,10 @@ profile-filter-search-placeholder = Hľadať v aliasoch
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-headline = Služba { -brand-name-relay } je ešte lepšia v prehliadači { -brand-name-firefox }
+banner-download-firefox-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie aliasov ešte viac.
+banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
+banner-download-install-extension-headline = Nainštalujte si { -brand-name-relay } pre { -brand-name-firefox }
 
 ## Success Messages
 
@@ -202,6 +207,10 @@ profile-filter-search-placeholder = Hľadať v aliasoch
 
 ## Onboarding 
 
+onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti…
+onboarding-tip-1 = Alias vytvoríte kliknutím na tlačidlo „Vytvoriť nový alias“
+onboarding-tip-2 = Prípadne kliknutím na ikonu služby { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailové adresy
+onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť pravým tlačidlom myši (Windows) alebo so stlačeným klávesom Ctrl (macOS) na polia formulára, čím sa dostanete do ponuky a vytvoríte si alias
 
 ## Modals
 
