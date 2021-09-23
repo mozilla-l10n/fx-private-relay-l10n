@@ -150,7 +150,7 @@ faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html =
-    Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje poddoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
+    Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
     Keďže { -brand-name-firefox-relay } získava na popularite a vydáva viac aliasov, môže byť naša služba zaradená do zoznamu blokovaných.
     Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám prosím vedieť</a>.
 faq-question-3-question = Je { -brand-name-relay } k dispozícii iba v USA?
@@ -179,7 +179,9 @@ faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presm
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vitajte,</span> { $email }!
+profile-headline-manage-domain = Spravujte svoje aliasy s doménou
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }.
+profile-promo-upgrade-headline = Inovujte a získate ešte viac funkcií.
 profile-promo-upgrade-copy = Inovujte službu { -brand-name-relay }, aby ste získali neobmedzený počet e-mailových adries a vlastnú e-mailovú doménu.
 profile-promo-upgrade-cta = Inovovať službu { -brand-name-relay }
 profile-label-edit = Upraviť štítok pre tento alias
@@ -191,6 +193,7 @@ profile-label-upgrade = Získajte neobmedzené množstvo aliasov
 profile-label-create-domain = Získajte svoju e-mailovú doménu
 profile-label-domain = E-mailová doména:
 profile-label-domain-tooltip = Vytvorte si svoju jedinečnú a vlastnú e-mailovú doménu.
+profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
 # This string is followed by an email address
 profile-label-forward-emails = E-maily preposielať na:
@@ -221,10 +224,19 @@ profile-stat-label-aliases-used = Použité e-mailové aliasy
 profile-filter-search-placeholder = Hľadať v aliasoch
 profile-filter-category-option-active-aliases = Aktívne aliasy
 profile-filter-category-option-disabled-aliases = Blokované aliasy
+profile-filter-category-option-domain-based-aliases = Aliasy založené na doméne
 
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } nemôže doručiť váš e-mail.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Momentálne nemôžeme odosielať e-maily na adresu { $username }.
+    Pri pokuse o preposlanie e-mailov na vašu adresu sme od vášho poskytovateľa e-mailovej schránky dostali odpoveď <em>{ $bounce_type }</em>.
+    To sa môže stať, ak sa { -brand-name-relay } nemôže pripojiť k vášmu poskytovateľovi e-mailovej schránky alebo ak je vaša e-mailová schránka plná. Skúsime to znova neskôr ({ $date }).
 banner-download-firefox-headline = Služba { -brand-name-relay } je ešte lepšia v prehliadači { -brand-name-firefox }
 banner-download-firefox-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie aliasov ešte viac.
 banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
@@ -240,13 +252,35 @@ banner-choose-subdomain-copy = Pre svoje e-mailové aliasy si môžete vybrať v
 banner-choose-subdomain-warning = Poznámka: svoju doménu nemôžete neskôr zmeniť
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 banner-choose-subdomain-submit = Získať doménu
+banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox }{ -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
+banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox }{ -brand-name-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Vaša doména je:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu @{ $subdomain }
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Vaša doména @{ $subdomain } bola vytvorená
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Ak chcete vytvoriť viac ako { $number } aliasov, musíte byť prémiovým predplatiteľom
+error-premium-cannot-change-subdomain = Subdoménu nemôžete zmeniť
+error-premium-set-subdomain = Na nastavenie subdomény musíte byť prémiovým predplatiteľom
+error-premium-check-subdomain = Na kontrolu subdomény musíte byť prémiovým predplatiteľom
+error-premium-set-create-subdomain = Na vytváranie aliasov v subdoméne musíte byť prémiovým predplatiteľom
+error-subdomain-not-created = Subdoménu nebolo možné vytvoriť, skúste niečo iné
+error-subdomain-email-not-created = E-mailovú adresu so subdoménou sa nepodarilo vytvoriť, skúste niečo iné
+error-subdomain-select = Pred vytvorením aliasov so subdoménou si musíte zvoliť subdoménu
+error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dispozícii. Skúste to znova s inou doménou.
 
 ## Onboarding 
 
@@ -257,7 +291,16 @@ onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť p
 
 ## Modals
 
+modal-rename-alias-saved = Štítok uložený!
 modal-delete-headline = Chcete tento alias natrvalo odstrániť?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Keď tento alias odstránite, nebude možné ho obnoviť.
+    { -brand-name-firefox-relay } už nebude ďalej posielať správy odoslané na  adresu <strong>{ $email }</strong>, vrátane správ, ktoré vám umožnia obnoviť stratené heslá.
+modal-delete-warning-upgrade =
+    Ak používate tento alias na prihlásenie sa na weby, na ktorých vám záleží,
+    mali by ste pred jeho odstránením aktualizovať svoje prihlasovacie údaje zadaním inej e-mailovej adresy.
 modal-delete-confirmation = Áno, chcem odstrániť tento alias.
 modal-domain-register-good-news = Dobré správy!
 modal-domain-register-warning = Nezabudnite, že pre svoj účet máte povolenú registráciu iba jednej domény a neskôr nie je možné vašu doménu zmeniť.
