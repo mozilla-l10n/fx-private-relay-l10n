@@ -185,7 +185,21 @@ profile-label-delete = Odstrániť
 profile-label-delete-alias = Odstrániť tento alias
 profile-label-domain = E-mailová doména:
 profile-label-apply = Použiť
+# This string is followed by an email address
+profile-label-forward-emails = E-maily preposielať na:
+# This string is followed by date
+profile-label-first-emailed = Prvý e-mail odoslaný:
+# This string is followed by date:
+profile-label-created = Vytvorený:
+profile-label-details-show = Zobraziť podrobnosti
+profile-label-details-hide = Skryť podrobnosti
+profile-label-click-to-copy = Kliknutím skopírujete
+profile-label-copy-confirmation = Alias bol skopírovaný do schránky
+profile-label-copied = Skopírovaný!
+profile-label-blocked = Zablokované
+profile-label-forwarded = Preposlané
 profile-label-cancel = Zrušiť
+profile-blocked-copy = Ak pre tento alias vyberiete blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
 profile-forwarded-note = Poznámka:
 profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
@@ -198,6 +212,18 @@ banner-download-firefox-headline = Služba { -brand-name-relay } je ešte lepši
 banner-download-firefox-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie aliasov ešte viac.
 banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
 banner-download-install-extension-headline = Nainštalujte si { -brand-name-relay } pre { -brand-name-firefox }
+banner-download-install-extension-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje používanie aliasov ešte viac.
+banner-download-install-extension-cta = Pridať { -brand-name-relay } do { -brand-name-firefox(case: "gen") }
+banner-upgrade-headline = Inovujte na { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ešte viac uľahčuje vytváranie e-mailových aliasov s vlastnými doménami a neobmedzeným počtom aliasov.
+banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Zvoľte si vlastnú doménu
+banner-choose-subdomain-headline-aliases = Získajte vlastnú doménu pre aliasy
+banner-choose-subdomain-copy = Pre svoje e-mailové aliasy si môžete vybrať vlastnú doménu.
+banner-choose-subdomain-warning = Poznámka: svoju doménu nemôžete neskôr zmeniť
+banner-choose-subdomain-input-placeholder = Vyhľadať doménu
+banner-choose-subdomain-submit = Získať doménu
+banner-pack-upgrade-cta = Inovovať teraz
 
 ## Success Messages
 
@@ -217,6 +243,16 @@ onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť p
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = Rozhodne nesúhlasím
+survey-option-disagree = Nesúhlasím
+survey-option-unsure = Neviem
+survey-option-agree = Súhlasím
+survey-option-strongly-agree = Rozhodne súhlasím
+survey-option-i-wouldnt-care = Bolo by mi to jedno
+survey-option-somewhat-disappointed = Trochu sklamane
+survey-option-very-disappointed = Veľmi sklamane
+survey-option-very-likely = Veľmi pravdepodobne
+survey-option-not-likely = Pravdepodobne nie
 
 ## VPN Promo Banner
 
