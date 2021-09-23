@@ -309,7 +309,7 @@ vpn-promo-cta = Get { -brand-name-mozilla-vpn }
 forwarded-email-header-from = This message was forwarded from { $display_email } by { $linked_origin }.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = Firefox Relay supports email forwarding (including attachments) of email up to 150KB in size. To learn more check our { $faq_link }. 
+forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more check our { $faq_link }. 
 forwarded-email-footer-manage-settings-text = manage settings for all aliases here.
 # Variables:
 #   $manage_settings_link (html) - This is a link to the user's profile on the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/accounts/profile" ...>{forwarded-email-footer-manage-settings-text}</a>
