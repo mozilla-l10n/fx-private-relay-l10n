@@ -120,7 +120,7 @@ how-it-works-subheadline = Chráňte svoju identitu všade, kde používate { -b
 how-it-works-step-1-headline = Stiahnite si rozšírenie
 how-it-works-step-1-link = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
 how-it-works-step-1-copy =
-    Kliknutím na ikonu, ktorá sa zobrazí na paneli s nástrojmi { -brand-name-firefox(case: "gen") }, prejdete na prihlasovaciu stránku.
+    Kliknutím na ikonu, ktorá sa zobrazí na paneli nástrojov { -brand-name-firefox(case: "gen") }, prejdete na prihlasovaciu stránku.
     Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
 how-it-works-step-2-headline = Vytvorte si nový alias
 how-it-works-step-2-copy =
@@ -224,6 +224,7 @@ profile-stat-label-aliases-used = Použité e-mailové aliasy
 profile-filter-search-placeholder = Hľadať v aliasoch
 profile-filter-category-option-active-aliases = Aktívne aliasy
 profile-filter-category-option-disabled-aliases = Blokované aliasy
+profile-filter-category-option-relay-aliases = Aliasy služby Relay
 profile-filter-category-option-domain-based-aliases = Aliasy založené na doméne
 
 ## Banner Messages (displayed on the profile page)
