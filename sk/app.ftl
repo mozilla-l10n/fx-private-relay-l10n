@@ -253,8 +253,8 @@ banner-choose-subdomain-copy = Pre svoje e-mailové aliasy si môžete vybrať v
 banner-choose-subdomain-warning = Poznámka: svoju doménu nemôžete neskôr zmeniť
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 banner-choose-subdomain-submit = Získať doménu
-banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox }{ -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
-banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox }{ -brand-name-relay-premium } zaistí ochranu online.
+banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
+banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox } { -brand-name-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vaša doména je:
