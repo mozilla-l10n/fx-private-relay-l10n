@@ -104,7 +104,18 @@ hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arri
 faq-headline = Questions fréquentes
 faq-question-1-question = Et les messages indésirables ?
 faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Si vous constatez un problème plus général de messages indésirables provenant de tous vos alias, veuillez <a href="{ $url }" { $attrs }>nous le signaler</a> afin que nous puissions envisager d’ajuster les seuils de spam SES pour ce service. Si vous les signalez comme spam, votre fournisseur de messagerie identifiera { -brand-name-relay } comme la source du spam, et non l’expéditeur original.
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Certains sites peuvent ne pas accepter une adresse électronique qui contient un sous-domaine (c’est-à-dire la partie « relay » de @relay.firefox.com) et d’autres ont arrêté d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
+    Au fur et à mesure que { -brand-name-firefox-relay } gagne en popularité et émet de plus en plus d’alias, notre service peut être placé sur une liste de blocage.
+    Si vous n’êtes pas en mesure d’utiliser un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>veuillez nous le faire savoir</a>.
 faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
 faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
 faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
@@ -190,10 +201,14 @@ banner-pack-upgrade-cta = Mettre à niveau maintenant
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
 
+## Success Messages
+
+
 ## Error Messages
 
 # Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account. 
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Vous devez être abonné·e premium pour créer plus de { $number } alias
 error-premium-cannot-change-subdomain = Vous ne pouvez pas changer votre sous-domaine
 error-premium-set-subdomain = Vous devez être abonné·e premium pour définir un sous-domaine
