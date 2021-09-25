@@ -124,7 +124,18 @@ faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias 
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
 email-size-limit = { $size } { $unit }
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-4-answer-html =
+    { -brand-name-relay } ne propose pas encore la possibilité de répondre en utilisant un alias.
+    Si vous essayez, rien ne se produira. Nous prévoyons d’ajouter une fonctionnalité vous permettant de <a href="{ $url }" { $attrs }>répondre anonymement</a>.
 faq-question-5-question = Puis-je créer mon propre alias { -brand-name-relay } en utilisant le domaine @relay.firefox.com ?
+faq-question-5-answer = Pas pour l’instant, mais nous étudions de nouvelles fonctionnalités parmi lesquelles la possibilité de créer votre propre alias avec un domaine attitré.
+faq-question-6-question = Que se passera-t-il si { -brand-name-mozilla } arrête le service { -brand-name-firefox-relay } ?
+faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
+faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
+faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 
 ## Profile Page (Logged In)
 
@@ -161,6 +172,7 @@ profile-label-blocking = blocage
 profile-label-disable-forwarding-button = Désactiver le transfert de messages pour cet alias
 profile-label-enable-forwarding-button = Activer le transfert de messages pour cet alias
 profile-label-click-to-copy = Cliquer pour copier
+profile-label-copy-confirmation = Alias copié dans le presse-papiers
 profile-label-copied = Copié !
 profile-label-blocked = Bloqués
 profile-label-forwarded = Transférés
@@ -180,6 +192,7 @@ profile-filter-category-option-domain-based-aliases = Alias par domaines
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre courrier électronique.
 banner-download-firefox-headline = { -brand-name-relay } fonctionne encore mieux avec { -brand-name-firefox }
 banner-download-firefox-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
 banner-download-firefox-cta = Installer { -brand-name-firefox }
