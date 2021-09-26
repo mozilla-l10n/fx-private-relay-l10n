@@ -140,6 +140,22 @@ faq-question-7-answer = Ahora admitimos el reenvío de archivos adjuntos. Sin em
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-headline-manage-domain = Administra los alias de tu dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }
+profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
+profile-promo-upgrade-copy = Actualiza { -brand-name-relay } para obtener direcciones de correo electrónico ilimitadas y tu propio dominio de correo electrónico.
+profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
+profile-label-edit = Editar la etiqueta de este alias
+profile-label-saved = ¡Etiqueta guardada!
+profile-label-generate-new-alias = Generar nuevo alias
+profile-label-delete = Eliminar
+profile-label-delete-alias = Eliminar este alias
+profile-label-upgrade = Obtener alias ilimitados
+profile-label-create-domain = Obtener tu dominio de correo electrónico
+profile-label-domain = Dominio de correo electrónico:
+profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y personalizado.
+profile-label-reset = Restablecer
+profile-label-apply = Aplicar
+# This string is followed by an email address
+profile-label-forward-emails = Reenviar correos electrónicos a:
 
 ## Banner Messages (displayed on the profile page)
 
