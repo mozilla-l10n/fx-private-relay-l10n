@@ -200,6 +200,19 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
 banner-download-firefox-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de alias.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
+banner-download-install-extension-headline = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }.
+banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más usar los alias de correo electrónico.
+banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand-name-firefox }
+banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } hace que la creación de alias de correo electrónico sea aún más fácil, con dominios de alias personalizados y alias ilimitados.
+banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
+banner-choose-subdomain-headline = Elije tu propio dominio
+banner-choose-subdomain-headline-aliases = Obtén tu propio dominio de alias personalizado
+banner-choose-subdomain-input-placeholder = Buscar dominio
+banner-choose-subdomain-submit = Obtener dominio
+banner-pack-upgrade-cta = Actualizar ahora
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Tu dominio es:
 
 ## Success Messages
 
