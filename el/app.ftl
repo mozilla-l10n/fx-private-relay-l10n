@@ -150,6 +150,7 @@ faq-question-7-answer = Πλέον υποστηρίζουμε την προώθ�
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
 profile-headline-manage-domain = Διαχείριση ψευδωνύμων τομέα
 profile-supports-email-forwarding = Το { -brand-name-firefox-relay } υποστηρίζει την προώθηση email (μαζί με τα συνημμένα) μεγέθους έως { email-size-limit }
+profile-promo-upgrade-headline = Αναβαθμίστε για ακόμα περισσότερες δυνατότητες.
 profile-promo-upgrade-copy = Αναβαθμίστε το { -brand-name-relay } για να αποκτήσετε απεριόριστες διευθύνσεις email και τον δικό σας τομέα αλληλογραφίας.
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
@@ -296,3 +297,13 @@ survey-option-not-likely = Καθόλου πιθανό
 vpn-promo-headline = Εξοικονομήστε 50% με συνδρομή ενός έτους
 vpn-promo-copy = Προστατέψτε τα διαδικτυακά σας δεδομένα και επιλέξτε το πακέτο συνδρομής VPN που σας ταιριάζει.
 vpn-promo-cta = Λήψη του { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Αυτό το μήνυμα προωθήθηκε από το { $display_email } στο { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
