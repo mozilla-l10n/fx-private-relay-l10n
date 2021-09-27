@@ -76,7 +76,7 @@ home-hero-copy =
 home-hero-cta = Entrar
 how-it-works-headline = Como funciona
 how-it-works-subheadline = Proteja sua identidade pessoal onde quer que use o { -brand-name-firefox-browser }.
-how-it-works-step-1-headline = Instalar a extensão
+how-it-works-step-1-headline = Instale a extensão
 how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
 how-it-works-step-1-copy =
     Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
