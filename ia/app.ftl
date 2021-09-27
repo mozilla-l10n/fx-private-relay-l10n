@@ -304,3 +304,5 @@ forwarded-email-header-from = Iste message ha essite inultrate de { $display_ema
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supporta inultrar e-mail (includite annexos) de e-mail fin a { email-size-limit } in dimension. Pro saper plus discoperi nostre { $faq_link }
+# This entire text is a link
+forwarded-email-footer = Stoppar de inultrar e-mail e gerer parametros pro tote le aliases hic.
