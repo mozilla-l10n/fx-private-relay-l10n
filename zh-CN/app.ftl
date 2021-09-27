@@ -279,3 +279,11 @@ survey-option-not-likely = 不太可能
 vpn-promo-headline = 一次性订阅全年，可享半价
 vpn-promo-copy = 保护您的在线数据，选择适合您的 VPN 订阅方案。
 vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
+# This entire text is a link
+forwarded-email-footer = 点此停止转发邮件或管理马甲设置。
