@@ -295,3 +295,15 @@ survey-option-not-likely = Pouco provável
 vpn-promo-headline = Economize 50% com uma assinatura de ano inteiro
 vpn-promo-copy = Proteja seus dados online, escolha um plano de assinatura de VPN que sirva para você.
 vpn-promo-cta = Instale o { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Esta mensagem foi encaminhada de { $display_email } por { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }. Saiba mais em { $faq_link }.
+# This entire text is a link
+forwarded-email-footer = Parar de encaminhar email e gerenciar configurações de todos os endereços de redirecionamento.
