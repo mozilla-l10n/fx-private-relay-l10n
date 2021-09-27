@@ -279,3 +279,10 @@ survey-option-not-likely = 非常不願意
 vpn-promo-headline = 一次訂閱一年份，享有半價折扣
 vpn-promo-copy = 保護您的線上資料，選擇適合您的 VPN 訂閱方案。
 vpn-promo-cta = 下載 { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_email } 帳號轉寄過來。
