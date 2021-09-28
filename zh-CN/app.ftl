@@ -283,6 +283,10 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
 # This entire text is a link
