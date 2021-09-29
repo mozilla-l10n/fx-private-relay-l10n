@@ -295,3 +295,15 @@ survey-option-not-likely = Niet waarschijnlijk
 vpn-promo-headline = Bespaar 50% met een volledig jaarabonnement
 vpn-promo-copy = Bescherm uw onlinegegevens en kies een VPN-abonnement dat bij u past.
 vpn-promo-cta = { -brand-name-mozilla-vpn } downloaden
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Dit bericht is doorgestuurd van { $display_email } door { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }. Kijk in onze { $faq_link } voor meer info.
+# This entire text is a link
+forwarded-email-footer = Hier kunt u het doorsturen van e-mail stopzetten en de instellingen voor alle aliassen beheren.
