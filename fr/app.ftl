@@ -210,6 +210,8 @@ banner-choose-subdomain-submit = Obtenir le domaine
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Votre domaine est :
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
@@ -281,3 +283,6 @@ survey-option-not-likely = Peu probable
 vpn-promo-headline = Économisez 50 % en vous abonnant pour un an
 vpn-promo-copy = Protégez vos données en ligne et choisissez le forfait d’abonnement VPN qui vous convient le mieux.
 vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
