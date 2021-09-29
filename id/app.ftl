@@ -74,6 +74,13 @@ home-hero-copy =
     Bagikan alias surel { -brand-name-relay } daripada alamat surel asli Anda untuk melindungi akun daring Anda dari peretas.
     Masuk dengan { -brand-name-firefox-account } Anda untuk mulai.
 home-hero-cta = Masuk
+how-it-works-headline = Bagaimana Ini Bekerja
+how-it-works-subheadline = Lindungi identitas pribadi Anda di mana saja Anda menggunakan { -brand-name-firefox-browser }.
+how-it-works-step-1-headline = Dapatkan ekstensi
+how-it-works-step-1-link = Unduh ekstensi { -brand-name-relay } untuk { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Pilih ikon yang muncul pada bilah alat { -brand-name-firefox } Anda untuk mengakses laman masuk.
+    Masuk dengan { -brand-name-firefox-account } untuk mulai.
 
 ## FAQ Page
 
