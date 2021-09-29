@@ -299,3 +299,10 @@ survey-option-not-likely = Poco probabile
 vpn-promo-headline = Risparmia il 50% con un abbonamento annuale
 vpn-promo-copy = Proteggi i tuoi dati online e scegli un piano di abbonamento VPN adatto alle tue esigenze.
 vpn-promo-cta = Ottieni { -brand-name-mozilla-vpn }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Questo messaggio è stato inoltrato da { $display_email } tramite { $linked_origin }.
