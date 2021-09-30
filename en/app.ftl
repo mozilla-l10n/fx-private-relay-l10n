@@ -253,6 +253,19 @@ onboarding-tip-1 = Just click the button “Generate New Alias” to create your
 onboarding-tip-2 = By selecting the { -brand-name-firefox-relay } icon when it appears in email fields
 onboarding-tip-3 = Via the context menu, just right-click (Windows) or Control-click (macOS) on form fields to access the menu and generate an alias
 
+## Premium Onboarding
+
+onboarding-premium-headline = Welcome to { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Now you can <strong>control</strong> what hits your inbox, one email at a time.
+onboarding-premium-feature-intro = With { -brand-name-firefox } { -brand-name-relay-premium } you can:
+onboarding-premium-control-title = Control what emails you get
+onboarding-premium-control-description = Share unlimited email aliases that forward emails you actually want to your inbox.
+onboarding-premium-domain-title = Use a custom domain for sharing aliases
+onboarding-premium-domain-description = With a custom domain, you can make your “newsletter” alias different from your “shopping” alias. 
+onboarding-premium-reply-title = Reply to emails without giving away your real address
+onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal—your alias will still protect your email address.
+
 ## Modals
 
 modal-rename-alias-saved = Label saved!
