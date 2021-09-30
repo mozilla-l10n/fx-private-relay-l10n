@@ -90,9 +90,9 @@ how-it-works-step-3-headline = Gerenciar endereços de redirecionamento
 how-it-works-step-3-copy =
     Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou.
     Se descobrir que um deles recebe spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
-hero-image-copy-trust = Você pode ao menos confiar seu email pessoal a essa empresa?
-hero-image-copy-unique-html = <strong>Use um endereço de redirecionamento exclusivo</strong> para cada nova conta…
-hero-image-copy-protect-html = … para poder <strong>proteger seu email real</strong> de rastreamento e spam.
+hero-image-copy-trust = Você confia nessa empresa para ter seu endereço de email pessoal?
+hero-image-copy-unique-html = <strong>Use um endereço de redirecionamento exclusivo</strong> em cada nova conta…
+hero-image-copy-protect-html = … para <strong>proteger seu email real</strong> de rastreamento e spam.
 hero-image-copy-control-html = Agora <em>você está no controle</em> do que chega em sua caixa de entrada!
 
 ## FAQ Page
