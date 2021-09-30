@@ -72,7 +72,7 @@ bento-button-close-label = Fechar menu
 home-hero-headline = Oculte seu endereço de email real para ajudar a proteger sua identidade
 home-hero-copy =
     Compartilhe endereços de redirecionamento de email do { -brand-name-relay } em vez do seu endereço de email real para proteger suas contas online de hackers.
-    Entre com sua { -brand-name-firefox-account } para começar.
+    Para começar, entre com sua { -brand-name-firefox-account }.
 home-hero-cta = Entrar
 how-it-works-headline = Como funciona
 how-it-works-subheadline = Proteja sua identidade pessoal onde quer que use o { -brand-name-firefox-browser }.
