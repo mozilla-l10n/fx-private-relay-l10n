@@ -81,7 +81,7 @@ how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand
 how-it-works-step-1-copy =
     Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
     Entre com sua { -brand-name-firefox-account } para começar.
-how-it-works-step-2-headline = Criar endereço de redirecionamento
+how-it-works-step-2-headline = Crie endereço de redirecionamento
 how-it-works-step-2-copy =
     Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
     Clique no ícone para gerar um novo endereço aleatório que termine em @relay.firefox.com.
