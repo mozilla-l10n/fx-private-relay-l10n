@@ -92,7 +92,7 @@ how-it-works-step-3-copy =
 hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
 hero-image-copy-protect-html = … de sorta que tu pote <strong>proteger tu adresse de e-mail real</strong> de traciamento e spam.
-hero-image-copy-control-html = Ora <em>tu es al commando</em> de lo que arriva a tu cassa de ingresso!
+hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
 
 ## FAQ Page
 
@@ -172,7 +172,7 @@ profile-label-copied = Copiate!
 profile-label-blocked = Blocate
 profile-label-forwarded = Inviate ultra
 profile-label-cancel = Cancellar
-profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de ingresso quando tu elige le blocada pro iste alias.
+profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste alias.
 profile-forwarded-copy = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste alias.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
