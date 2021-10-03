@@ -208,20 +208,44 @@ banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } hace
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Elije tu propio dominio
 banner-choose-subdomain-headline-aliases = Obtén tu propio dominio de alias personalizado
+banner-choose-subdomain-copy = Puedes elegir un dominio personalizado para tus alias de correo electrónico.
+banner-choose-subdomain-warning = Nota: No es posible cambiar el dominio más tarde
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-choose-subdomain-submit = Obtener dominio
+banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
+banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Se ha creado tu dominio @{ $subdomain }
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Tienes que ser un suscriptor premium para crear más de { $number } alias
+error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
+error-premium-set-subdomain = Tienes que ser un suscriptor premium para configurar un subdominio
+error-premium-check-subdomain = Tienes que ser un suscriptor premium para verificar un subdominio
+error-premium-set-create-subdomain = Tienes que ser un suscriptor premium para crear un alias con un subdominio
+error-subdomain-not-created = No se ha podido crear el subdominio, intenta otra cosa
+error-subdomain-email-not-created = No se ha podido crear un alias de correo con subdominio, intenta otra cosa
+error-subdomain-select = Tienes que seleccionar un subdominio antes de crear un alias de subdominio
+error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Vuelve a intentarlo con otro dominio.
 
 ## Onboarding 
 
+onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo ...
+onboarding-tip-1 = Simplemente haz clic en el botón “Generar nuevo alias” para crear tu primer alias.
 
 ## Modals
 
@@ -230,4 +254,7 @@ banner-choose-subdomain-label = Tu dominio es:
 
 
 ## VPN Promo Banner
+
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
 
