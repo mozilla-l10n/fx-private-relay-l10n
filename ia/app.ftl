@@ -300,9 +300,9 @@ vpn-promo-cta = Installar { -brand-name-mozilla-vpn }
 # Variables:
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Iste message ha essite inultrate de { $display_email } per { $linked_origin }.
+forwarded-email-header-from = Iste message ha essite reexpedite de { $display_email } per { $linked_origin }.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } supporta inultrar e-mail (includite annexos) de e-mail fin a { email-size-limit } in dimension. Pro saper plus discoperi nostre { $faq_link }
+forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
 # This entire text is a link
-forwarded-email-footer = Stoppar de inultrar e-mail e gerer parametros pro tote le aliases hic.
+forwarded-email-footer = Cessar le reexpedition de e-mail e gerer parametros pro tote le aliases.
