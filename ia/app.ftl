@@ -130,7 +130,7 @@ faq-question-5-answer = Non actualmente, ma nos considera nove functionalitates 
 faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servicio { -brand-name-firefox-relay }?
 faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-7-question = E se un email inviate a mi alias contine un annexo?
-faq-question-7-answer = Nos ora supporta inultrar annexos.Totevia, il ha un limite de { email-size-limit } pro le e-mail inultrate per { -brand-name-relay }. Ulle e-mails major de { email-size-limit } non sera <t0/>inultrate.
+faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 
 ## Profile Page (Logged In)
 
@@ -138,7 +138,7 @@ faq-question-7-answer = Nos ora supporta inultrar annexos.Totevia, il ha un limi
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Benvenite,</span> { $email }!
 profile-headline-manage-domain = Gere tu aliases de dominio
-profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta inultrar e-mail (includite annexos) de e-mail fin a { email-size-limit } in dimension
+profile-supports-email-forwarding = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }.
 profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
 profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
 profile-promo-upgrade-cta = Promove { -brand-name-relay }
@@ -154,7 +154,7 @@ profile-label-domain-tooltip = Crea tu unic e personal dominio e-mail.
 profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 # This string is followed by an email address
-profile-label-forward-emails = Inultrar emails a:
+profile-label-forward-emails = Reexpedir messages a:
 # This string is followed by date
 profile-label-first-emailed = Primo inviate per email:
 # This string is followed by date:
@@ -162,10 +162,10 @@ profile-label-created = Create:
 profile-label-details-show = Monstrar detalios
 profile-label-details-hide = Celar detalios
 # This string is a label for a toggle (on/off) switch  
-profile-label-forwarding = inultrante
+profile-label-forwarding = reexpedir
 profile-label-blocking = blocada
-profile-label-disable-forwarding-button = Disactivar de inultrar e-mail pro iste alias
-profile-label-enable-forwarding-button = Activar de inultrar e-mail pro iste alias
+profile-label-disable-forwarding-button = Disactivar le reexpedition de e-mail pro iste alias
+profile-label-enable-forwarding-button = Activar le reexpedition de e-mail pro iste alias
 profile-label-click-to-copy = Clicca pro copiar
 profile-label-copy-confirmation = Alias copiate al area de transferentia
 profile-label-copied = Copiate!
@@ -175,7 +175,7 @@ profile-label-cancel = Cancellar
 profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de ingresso quando tu elige le blocada pro iste alias.
 profile-forwarded-copy = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste alias.
 profile-forwarded-note = Nota:
-profile-forwarded-note-copy = E-mail (includite annexos) major de { email-size-limit } non es actualmente supportate e non sera inultrate.
+profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used = Aliases email usate
