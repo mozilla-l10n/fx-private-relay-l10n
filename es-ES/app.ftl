@@ -274,9 +274,36 @@ modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = En una escala de 1 a 10, ¿con qué probabilidad recomendarías { -brand-name-relay } a un amigo o colega?
+survey-question-2 = ¿Es { -brand-name-relay } fácil de usar?
+survey-question-3 = ¿Piensas que { -brand-name-relay } es de confianza?
+survey-question-4 = ¿Tiene { -brand-name-relay } una presentación limpia y sencilla?
+survey-question-5 = ¿Cómo te sentirías si no pudieras volver a usar { -brand-name-relay }?
+survey-option-strongly-disagree = Totalmente en desacuerdo
+survey-option-disagree = En desacuerdo
+survey-option-unsure = No estoy seguro
+survey-option-agree = Estoy de acuerdo
+survey-option-strongly-agree = Totalmente de acuerdo
+survey-option-i-wouldnt-care = No me importaría
+survey-option-somewhat-disappointed = Algo decepcionado
+survey-option-very-disappointed = Muy decepcionado
+survey-option-very-likely = Muy probablemente
+survey-option-not-likely = Poco probable
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Ahorra un 50% con una suscripción anual
+vpn-promo-copy = Protege tus datos en línea y elige el plan de suscripción a VPN que más te convenga.
+vpn-promo-cta = Obtén { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Este mensaje ha sido reenviado desde { $display_email } por { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }. Para saber más consulta nuestras { $faq_link }.
+# This entire text is a link
+forwarded-email-footer = Aquí puedes detener el reenvío de correo electrónico y administrar la configuración de todos los alias.
