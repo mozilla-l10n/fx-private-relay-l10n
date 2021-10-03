@@ -218,6 +218,9 @@ banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adre
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Votre domaine @{ $subdomain } a été créé
 
 ## Error Messages
 
@@ -227,9 +230,11 @@ banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adre
 error-premium-set-make-aliases = Vous devez être abonné·e premium pour créer plus de { $number } alias
 error-premium-cannot-change-subdomain = Vous ne pouvez pas changer votre sous-domaine
 error-premium-set-subdomain = Vous devez être abonné·e premium pour définir un sous-domaine
+error-premium-check-subdomain = Vous devez être abonné·e premium pour vérifier un sous-domaine
 error-premium-set-create-subdomain = Vous devez être abonné·e premium pour créer des alias de sous-domaine
 error-subdomain-not-created = Le sous-domaine n’a pas pu être créé, essayez autre chose
 error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
+error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre domaine.
 
 ## Onboarding 
 
@@ -286,3 +291,7 @@ vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Ce message a été transféré depuis { $display_email } par { $linked_origin }.
