@@ -193,9 +193,9 @@ banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
 #   $bounce_type (string) - Type of bounced email
 #   $date (string) - A date for the next time the services tries to resend the email
 banner-bounced-copy =
-    Nos actualmente non pote inviar e-mail a { $username }. 
-    Nos recipeva un “saltar” <em>{ $bounce_type }</em> de tu fornitor de servicios e-mail, tentante de inultrar e-mails pro te. 
-    Isto pote evenir si { -brand-name-relay } non poteva connecter te a tu fornitor de servicios e-mail o si tu cassetta postal era plen.
+    In iste momento, nos non pote inviar e-mail a { $username }. 
+    Nos ha recipite un “retrosalto” <em>{ $bounce_type }</em> de tu fornitor de e-mail durante nostre tentativa de reexpedir messages a te. 
+    Isto pote evenir si { -brand-name-relay } non poteva connecter se a tu fornitor de e-mail o si tu cassa postal esseva plen. Nos lo tentara de novo le { $date }.
 banner-download-firefox-headline = { -brand-name-relay } es ancora melior in { -brand-name-firefox }
 banner-download-firefox-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le creation del aliases.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
@@ -255,8 +255,8 @@ modal-delete-headline = Deler permanentemente iste alias?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
-    Un vice que tu dele iste alias, illo non pote esser recuperate. 
-    { -brand-name-firefox-relay } non plus inultrara messages inviate a <strong>{ $email }</strong>, includite messages que te permitte de reinitialisar le contrasignos perdite.
+    Un vice que tu ha delite iste alias, illo non pote esser recuperate. 
+    { -brand-name-firefox-relay } non reexpedira plus le messages inviate a <strong>{ $email }</strong>, non mesmo messages que te permitte de reinitialisar contrasignos perdite.
 modal-delete-warning-upgrade =
     Si tu usa iste alias pro acceder a sitos tu cura, 
     tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu dele isto.
