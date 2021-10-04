@@ -256,7 +256,7 @@ modal-delete-headline = Dit alias definitief verwijderen?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
-    Als u dit alias verwijdert, kan dit niet meer worden hersteld.
+    Als u dit alias verwijdert, kan het niet meer worden hersteld.
     { -brand-name-firefox-relay } stuurt geen berichten meer door die zijn verzonden naar <strong>{ $email }</strong>, ook geen berichten waarmee u vergeten wachtwoorden opnieuw kunt instellen.
 modal-delete-warning-upgrade =
     Als u dit alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
