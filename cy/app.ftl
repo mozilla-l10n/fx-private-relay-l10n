@@ -84,7 +84,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = Creu arallenw newydd
 how-it-works-step-2-copy =
     Wrth i chi bori, bydd eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
-    Gofynnwch i Relay i gynhyrchu cyfeiriad newydd, ar hap sy'n gorffen gyda @ relay.firefox.com.
+    Gofynnwch i Relay i gynhyrchu cyfeiriad newydd, ar hap sy'n gorffen gyda @relay.firefox.com.
     Bydd { -brand-name-relay } yn anfon negeseuon i'r prif gyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif.
 how-it-works-step-3-headline = Rheoli eich arallenwau
 how-it-works-step-3-copy =
@@ -105,7 +105,7 @@ faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae 
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diangen o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
-faq-question-2-question = Pam nad yw gwefan yn derbyn fy arallenw { -brand-name-relay }?
+faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -113,7 +113,7 @@ faq-question-2-answer-html =
     Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (h.y., cyfran “relay” @relay.firefox.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Wrth i { -brand-name-firefox-relay } dyfu mewn poblogrwydd a chyhoeddi mwy o arallenwau, efallai y bydd ein gwasanaeth yn cael ei roi ar restrau rhwystro.
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
-faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr UDA yn unig?
+faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithiau'n unig?
 faq-question-3-answer = Ar hyn o bryd dim ond yn Saesneg y mae'r wefan ar gael, ond gallwch ddefnyddio'r gwasanaeth yn unrhyw le.
 faq-question-4-question = A allaf ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
@@ -205,8 +205,8 @@ banner-download-install-extension-headline = Cael estyniad { -brand-name-relay }
 banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
 banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
-banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-rela-premium } yn gwneud creu arallenwau e-bost hyd yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau diderfyn.
-banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay }
+banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau diderfyn.
+banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Dewiswch eich parth eich hun
 banner-choose-subdomain-headline-aliases = Cael eich parth arallenw cyfaddas eich hun
 banner-choose-subdomain-copy = Gallwch ddewis parth cyfaddas ar gyfer arallenwau eich e-bost.
@@ -214,7 +214,7 @@ banner-choose-subdomain-warning = Nodyn: Nid oes modd i chi newid eich parth yn 
 banner-choose-subdomain-input-placeholder = Parth chwilio
 banner-choose-subdomain-submit = Cael Parth
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
-banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-rela-premium } yn eich helpu i aros yn ddiogel ar-lein.
+banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Eich parth yw:
@@ -238,7 +238,7 @@ error-premium-cannot-change-subdomain = Nid oes modd i chi newid eich is-barth
 error-premium-set-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i osod is-barth
 error-premium-check-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i wirio is-barth
 error-premium-set-create-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i greu arallenwau is-barth
-error-subdomain-not-created = Nid oes modd  creu yr is-barth, rhowch gynnig ar rywbeth arall
+error-subdomain-not-created = Nid oes modd  creu'r is-barth hwnnw, rhowch gynnig ar rywbeth arall
 error-subdomain-email-not-created = Nid oedd modd creu cyfeiriad e-bost gydag is-barth, rhowch gynnig ar rywbeth arall
 error-subdomain-select = Rhaid i chi ddewis is-barth cyn creu arallenwau is-barth
 error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gyda pharth arall.
