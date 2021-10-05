@@ -190,6 +190,25 @@ profile-filter-category-option-domain-based-aliases = Arallenwau ar sail parth
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = Nid yw { -brand-name-relay } wedi gallu anfon eich e-bost.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Ar hyn o bryd nid ydym yn gallu anfon e-bost at { $username }.
+    Rydym wedi derbyn <em>{ $bounce_type }</em> “dychweliad” gan eich darparwr e-bost wrth geisio anfon e-byst atoch.
+    Gall hyn ddigwydd os na allai { -brand-name-relay } gysylltu â'ch darparwr e-bost, neu pe bai'ch blwch post yn llawn. Byddwn yn ceisio eto ar { $date }.
+banner-download-firefox-headline = Mae { -brand-name-relay } hyd yn oed yn well yn { -brand-name-firefox }
+banner-download-firefox-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud creu arallenwau yn haws fyth.
+banner-download-firefox-cta = Cael { -brand-name-firefox }
+banner-download-install-extension-headline = Cael estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
+banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
+banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
+banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
+banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-rela-premium } yn gwneud creu arallenwau e-bost hyd yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau diderfyn.
+banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay }
+banner-choose-subdomain-headline = Dewiswch eich parth eich hun
+banner-choose-subdomain-headline-aliases = Cael eich parth arallenw cyfaddas eich hun
 
 ## Success Messages
 
