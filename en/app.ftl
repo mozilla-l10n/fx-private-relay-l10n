@@ -219,8 +219,8 @@ banner-pack-upgrade-copy = With unlimited email aliases and your own email domai
 banner-pack-upgrade-cta = Upgrade Now
 
 # Data Notification Banner:
-banner-label-data-notification-header = Coming soon to Relay
-banner-label-data-notification-body = You can allow Relay to collect optional data on the websites where your aliases are used to support future features. Allowing this data collection from the "Settings" page will make managing your inbox even easier.
+banner-label-data-notification-header = Coming soon to { -brand-name-relay }
+banner-label-data-notification-body = You can allow { -brand-name-relay } to collect optional data on the websites where your aliases are used to support future features. Allowing this data collection from the "Settings" page will make managing your inbox even easier.
 banner-label-data-notification-cta = Go to Settings
 
 # This string is followed by name (string) that the user chooses
