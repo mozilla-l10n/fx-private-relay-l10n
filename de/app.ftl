@@ -249,6 +249,19 @@ onboarding-tip-1 = Klicken Sie einfach auf die Schaltfläche „Neue Alias-Adres
 onboarding-tip-2 = Wählen Sie das { -brand-name-firefox-relay }-Symbol aus, wenn es in einem E-Mail-Adressfeld erscheint
 onboarding-tip-3 = Nutzen Sie das Kontextmenü, indem Sie per Rechtsklick (Windows) oder per Befehlstaste+Klick (macOS) in Formularfeldern das Menü aufrufen und eine Alias-Adresse erstellen
 
+## Premium Onboarding
+
+onboarding-premium-headline = Willkommen bei { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Jetzt können Sie E-Mail für E-Mail <strong>steuern</strong>, was in Ihrem Posteingang landet.
+onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-relay-premium } können Sie:
+onboarding-premium-control-title = steuern, welche E-Mails Sie erhalten
+onboarding-premium-control-description = unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten
+onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Mail-Adressen einrichten
+onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
+onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben
+onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
+
 ## Modals
 
 modal-rename-alias-saved = Beschriftung gespeichert!
