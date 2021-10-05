@@ -59,9 +59,40 @@ logo-github-alt = Logo GitHub
 
 bento-button-title = Apiau a gwasanaethau { -brand-name-firefox }
 fx-makes-tech = Mae { -brand-name-firefox } yn gwmni technoleg sy'n brwydro dros eich preifatrwydd ar-lein.
+made-by-mozilla = Gwnaed gan { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser } ar gyfer y Bwrdd Gwaith
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } Symudol
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Cau'r ddewislen
 
 ## Home Page
 
+home-hero-headline = Cuddiwch eich cyfeiriad e-bost go iawn i helpu diogelu eich hunaniaeth
+home-hero-copy =
+    Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i ddiogelu eich cyfrifon ar-lein rhag hacwyr.
+    Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+home-hero-cta = Mewngofnodi
+how-it-works-headline = Sut mae'n Gweithio
+how-it-works-subheadline = Diogelwch eich hunaniaeth bersonol lle bynnag rydych chi'n defnyddio'r porwr { -brand-name-firefox- }.
+how-it-works-step-1-headline = Cael yr estyniad
+how-it-works-step-1-link = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr
+how-it-works-step-1-copy =
+    Dewiswch yr eicon sy'n ymddangos ar eich bar offer { -brand-name-firefox } i gael mynediad i'r dudalen fewngofnodi.
+    Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+how-it-works-step-2-headline = Creu arallenw newydd
+how-it-works-step-2-copy =
+    Wrth i chi bori, bydd eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
+    Gofynnwch i Relay i gynhyrchu cyfeiriad newydd, ar hap sy'n gorffen gyda @ relay.firefox.com.
+    Bydd { -brand-name-relay } yn anfon negeseuon i'r prif gyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif.
+how-it-works-step-3-headline = Rheoli eich arallenwau
+how-it-works-step-3-copy =
+    Mewngofnodwch i'r bwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
+    Os gwelwch fod un yn derbyn sbam neu negeseuon digroeso, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, o'r Mewngofnodwch i'r bwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
+    Os gwelwch fod un yn derbyn sbam neu negeseuon digroeso, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, o'r bwrdd gwaith.
+hero-image-copy-trust = A allwch chi ymddiried yn y cwmni hwn gyda'ch e-bost personol?
+hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
 
 ## FAQ Page
 
