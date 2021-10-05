@@ -200,6 +200,7 @@ banner-download-install-extension-headline = Installez l’extension { -brand-na
 banner-download-install-extension-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend l’utilisation des alias de messagerie encore plus facile.
 banner-download-install-extension-cta = Ajouter { -brand-name-relay } à { -brand-name-firefox }
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rend la création d’alias de messagerie encore plus facile, avec des domaines d’alias personnalisés et des alias illimités.
 banner-upgrade-cta = Passer à { -brand-name-relay-premium }
 banner-choose-subdomain-headline = Choisissez votre propre domaine
 banner-choose-subdomain-headline-aliases = Obtenez votre propre domaine d’alias personnalisé
