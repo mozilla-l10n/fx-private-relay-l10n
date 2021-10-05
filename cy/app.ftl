@@ -136,6 +136,12 @@ faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae 
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Croeso,</span> { $email }
+profile-headline-manage-domain = Rheoli eich arallenwau parth
+profile-supports-email-forwarding = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { e-bost-maint-terfyn } o faint
+profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
 
 ## Banner Messages (displayed on the profile page)
 
