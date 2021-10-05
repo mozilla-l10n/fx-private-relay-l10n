@@ -50,7 +50,7 @@ nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "up
 ## Footer
 
 nav-footer-privacy = Preifatrwydd
-nav-footer-relay-terms = Amodau { -brand-name-rela }
+nav-footer-relay-terms = Amodau { -brand-name-relay }
 nav-footer-legal = Cyfreithiol
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
@@ -75,7 +75,7 @@ home-hero-copy =
     Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 home-hero-cta = Mewngofnodi
 how-it-works-headline = Sut mae'n Gweithio
-how-it-works-subheadline = Diogelwch eich hunaniaeth bersonol lle bynnag rydych chi'n defnyddio'r porwr { -brand-name-firefox- }.
+how-it-works-subheadline = Diogelwch eich hunaniaeth bersonol lle bynnag rydych chi'n defnyddio'r porwr { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Cael yr estyniad
 how-it-works-step-1-link = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr
 how-it-works-step-1-copy =
@@ -140,7 +140,7 @@ faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae 
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Croeso,</span> { $email }
 profile-headline-manage-domain = Rheoli eich arallenwau parth
-profile-supports-email-forwarding = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { e-bost-maint-terfyn } o faint
+profile-supports-email-forwarding = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint
 profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
 profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost diderfyn a'ch parth e-bost eich hun.
 profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
@@ -182,9 +182,14 @@ profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 profile-stat-label-aliases-used = Arallenwau e-bost wedi'u defnyddio
 profile-filter-search-placeholder = Chwilio arallenwau
+profile-filter-category-option-active-aliases = Arallenawau gweithredol
+profile-filter-category-option-disabled-aliases = Arallenwau wedi'u hanalluogi
+profile-filter-category-option-relay-aliases = Arallenwau Relay
+profile-filter-category-option-domain-based-aliases = Arallenwau ar sail parth
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = Nid yw { -brand-name-relay } wedi gallu anfon eich e-bost.
 
 ## Success Messages
 
