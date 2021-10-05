@@ -248,6 +248,10 @@ onboarding-tip-1 = Solo clicca le button “Generar nove alias” pro crear tu p
 onboarding-tip-2 = Seligente le icone de { -brand-name-firefox-relay } quando illo appare in campos de e-mail
 onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Control-click (macOS) sur le campos del formulario pro acceder le menu e generar un alias
 
+## Premium Onboarding
+
+onboarding-premium-headline = Benvenite a { -brand-name-relay-premium } de { -brand-name-firefox }
+
 ## Modals
 
 modal-rename-alias-saved = Etiquetta salvate!
