@@ -209,18 +209,62 @@ banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-rela-premium } y
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay }
 banner-choose-subdomain-headline = Dewiswch eich parth eich hun
 banner-choose-subdomain-headline-aliases = Cael eich parth arallenw cyfaddas eich hun
+banner-choose-subdomain-copy = Gallwch ddewis parth cyfaddas ar gyfer arallenwau eich e-bost.
+banner-choose-subdomain-warning = Nodyn: Nid oes modd i chi newid eich parth yn ddiweddarach
+banner-choose-subdomain-input-placeholder = Parth chwilio
+banner-choose-subdomain-submit = Cael Parth
+banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
+banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-rela-premium } yn eich helpu i aros yn ddiogel ar-lein.
+banner-pack-upgrade-cta = Uwchraddiwch Nawr
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Eich parth yw:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomain }
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Mae eich parth @{ $subdomain } wedi'i greu
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Rhaid i chi fod yn danysgrifiwr premiwm i greu mwy na { $number } arallenw
+error-premium-cannot-change-subdomain = Nid oes modd i chi newid eich is-barth
+error-premium-set-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i osod is-barth
+error-premium-check-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i wirio is-barth
+error-premium-set-create-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i greu arallenwau is-barth
+error-subdomain-not-created = Nid oes modd  creu yr is-barth, rhowch gynnig ar rywbeth arall
+error-subdomain-email-not-created = Nid oedd modd creu cyfeiriad e-bost gydag is-barth, rhowch gynnig ar rywbeth arall
+error-subdomain-select = Rhaid i chi ddewis is-barth cyn creu arallenwau is-barth
+error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gyda pharth arall.
 
 ## Onboarding 
 
+onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
+onboarding-tip-1 = Cliciwch ar y botwm “Creu Arallenw Newydd” i greu eich arallenw cyntaf
+onboarding-tip-2 = Trwy ddewis yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos ym meysydd e-bost
+onboarding-tip-3 = Trwy'r ddewislen cyd-destun, de-gliciwch (Windows) neu Control-click (macOS) ar feysydd ffurflen i gael mynediad i'r ddewislen a chynhyrchu arallenw
 
 ## Modals
 
+modal-rename-alias-saved = Label wedi’i gadw!
+modal-delete-headline = Dileu'r arallenw hwn am byth?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Ar ôl i chi ddileu'r arallenw hwn, nid oes modd ei adfer.
+    Ni fydd { -brand-name-firefox-relay } bellach yn anfon negeseuon sy'n cael eu hanfon at <strong>{ $email }</strong>, gan gynnwys negeseuon sy'n caniatáu i chi ailosod cyfrineiriau coll.
+modal-delete-warning-upgrade =
+    Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n eu hoffi,
+    dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu hwn.
+modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
+modal-domain-register-good-news = Newyddion Da!
+modal-domain-register-warning = Cofiwch, dim ond un parth yn unig y cewch chi gofrestru ar gyfer eich cyfrif ac nid yw'n bosibl newid eich parth yn nes ymlaen.
 
 ## Evergreen Survey (displayed on the profile page)
 
