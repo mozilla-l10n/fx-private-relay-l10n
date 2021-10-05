@@ -249,6 +249,17 @@ onboarding-tip-1 = Basta clicar no botão “Gerar novo endereço de redireciona
 onboarding-tip-2 = Clicando no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email
 onboarding-tip-3 = Através do menu de contexto, basta clicar com o botão direito do mouse (Windows) ou Control-clique (macOS) em um campo de formulário para acessar o menu e gerar um endereço de redirecionamento
 
+## Premium Onboarding
+
+onboarding-premium-headline = Boas-vindas ao { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Agora você pode <strong>controlar</strong> o que chega em sua caixa de entrada, um email por vez.
+onboarding-premium-feature-intro = Com o { -brand-name-firefox } { -brand-name-relay-premium } você pode:
+onboarding-premium-control-title = Controlar quais emails você recebe
+onboarding-premium-control-description = Compartilhar endereços de redirecionamento ilimitados, que encaminham para sua caixa de entrada os emails que você realmente quer.
+onboarding-premium-domain-title = Usar um domínio personalizado para compartilhar endereços de redirecionamento de email
+onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
+
 ## Modals
 
 modal-rename-alias-saved = Rótulo salvo!
