@@ -264,7 +264,7 @@ onboarding-premium-control-description = Share unlimited email aliases that forw
 onboarding-premium-domain-title = Use a custom domain for sharing aliases
 onboarding-premium-domain-description = With a custom domain, you can make your “newsletter” alias different from your “shopping” alias. 
 onboarding-premium-reply-title = Reply to emails without giving away your real address
-onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal—your alias will still protect your email address.
+onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
 
 ## Modals
 
