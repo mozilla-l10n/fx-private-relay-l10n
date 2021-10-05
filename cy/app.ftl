@@ -152,6 +152,36 @@ profile-label-delete-alias = Dileu'r arallenw hwn
 profile-label-upgrade = Cael arallenwau diderfyn
 profile-label-create-domain = Cael eich parth e-bost
 profile-label-domain = Parth E-bost:
+profile-label-domain-tooltip = Creu eich parth e-bost unigryw a chyfaddas.
+profile-label-reset = Ailosod
+profile-label-apply = Gosod
+# This string is followed by an email address
+profile-label-forward-emails = Anfon e-byst ymlaen at:
+# This string is followed by date
+profile-label-first-emailed = E-bostiwyd gyntaf:
+# This string is followed by date:
+profile-label-created = Crëwyd:
+profile-label-details-show = Dangos Manylion
+profile-label-details-hide = Cuddio Manylion
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = wedi'i anfon ymlaen
+profile-label-blocking = yn rhwystro
+profile-label-disable-forwarding-button = Analluoga anfon e-bost ymlaen ar gyfer yr arallenw hwn
+profile-label-enable-forwarding-button = Analluogi anfon e-bost ymlaen ar gyfer yr arallenw hwn
+profile-label-click-to-copy = Clicio i'w gopïo
+profile-label-copy-confirmation = Arallenw wedi'i gopïo i'r clipfwrdd
+profile-label-copied = Copïwyd!
+profile-label-blocked = Rhwystrwyd
+profile-label-forwarded = Anfonwyd Ymlaen
+profile-label-cancel = Diddymu
+profile-blocked-copy = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
+profile-forwarded-copy = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
+profile-forwarded-note = Nodyn:
+profile-forwarded-note-copy = Nid yw e-bost (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael ei gefnogi ar hyn o bryd a fyddan nhw ddim yn cael eu hanfon ymlaen.
+profile-stat-label-blocked = E-byst wedi'u Rhwystro
+profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
+profile-stat-label-aliases-used = Arallenwau e-bost wedi'u defnyddio
+profile-filter-search-placeholder = Chwilio arallenwau
 
 ## Banner Messages (displayed on the profile page)
 
