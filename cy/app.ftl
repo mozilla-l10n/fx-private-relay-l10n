@@ -142,6 +142,16 @@ profile-label-welcome-html = <span>Croeso,</span> { $email }
 profile-headline-manage-domain = Rheoli eich arallenwau parth
 profile-supports-email-forwarding = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { e-bost-maint-terfyn } o faint
 profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
+profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost diderfyn a'ch parth e-bost eich hun.
+profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
+profile-label-edit = Golygu label yr arallenw hwn
+profile-label-saved = Label wedi’i gadw!
+profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
+profile-label-delete = Dileu
+profile-label-delete-alias = Dileu'r arallenw hwn
+profile-label-upgrade = Cael arallenwau diderfyn
+profile-label-create-domain = Cael eich parth e-bost
+profile-label-domain = Parth E-bost:
 
 ## Banner Messages (displayed on the profile page)
 
