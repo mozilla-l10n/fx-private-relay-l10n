@@ -237,6 +237,10 @@ onboarding-tip-1 = 點擊「產生新別名」來建立您的第一組別名
 onboarding-tip-2 = 當 { -brand-name-firefox-relay } 圖示出現在信箱地址欄位時，選擇該圖示
 onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑鼠點擊（macOS），產生一組別名
 
+## Premium Onboarding
+
+onboarding-premium-headline = 歡迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
+
 ## Modals
 
 modal-rename-alias-saved = 已儲存標籤！
