@@ -251,6 +251,8 @@ onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Contro
 ## Premium Onboarding
 
 onboarding-premium-headline = Benvenite a { -brand-name-relay-premium } de { -brand-name-firefox }
+onboarding-premium-control-title = Controla que emails tu recipe
+onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
 
 ## Modals
 
