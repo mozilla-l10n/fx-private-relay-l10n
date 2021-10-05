@@ -244,6 +244,10 @@ onboarding-tip-1 = Cliquez simplement sur le bouton « Générer un nouvel alia
 onboarding-tip-2 = Cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresses électroniques
 onboarding-tip-3 = Via le menu contextuel, faites un clic droit (Windows) ou Ctrl-clic (macOS) sur les champs du formulaire pour accéder au menu et générer un alias
 
+## Premium Onboarding
+
+onboarding-premium-headline = Bienvenue sur { -brand-name-firefox } { -brand-name-relay-premium }
+
 ## Modals
 
 modal-rename-alias-saved = Nom enregistré !
