@@ -259,6 +259,8 @@ onboarding-premium-control-title = Controlar quais emails você recebe
 onboarding-premium-control-description = Compartilhar endereços de redirecionamento ilimitados, que encaminham para sua caixa de entrada os emails que você realmente quer.
 onboarding-premium-domain-title = Usar um domínio personalizado para compartilhar endereços de redirecionamento de email
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
+onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
+onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
 
 ## Modals
 
