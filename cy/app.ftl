@@ -93,9 +93,13 @@ how-it-works-step-3-copy =
     Os gwelwch fod un yn derbyn sbam neu negeseuon digroeso, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, o'r bwrdd gwaith.
 hero-image-copy-trust = A allwch chi ymddiried yn y cwmni hwn gyda'ch e-bost personol?
 hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
+hero-image-copy-protect-html = … fel y gallwch chi <strong>ddiogelu eich e-bost go iawn</strong> rhag tracio a sbam.
+hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
 
 ## FAQ Page
 
+faq-headline = Cwestiynau Cyffredin
+faq-question-1-question = Beth am sbam?
 
 ## Profile Page (Logged In)
 
