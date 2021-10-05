@@ -21,7 +21,7 @@
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] conta Firefox
+       *[lowercase] Conta Firefox
         [uppercase] Conta Firefox
     }
 
@@ -80,7 +80,7 @@ how-it-works-step-1-headline = Instale a extensão
 how-it-works-step-1-link = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
 how-it-works-step-1-copy =
     Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para acessar a página de entrada.
-    Entre com sua { -brand-name-firefox-account } para começar.
+    Para começar, entre com sua { -brand-name-firefox-account }.
 how-it-works-step-2-headline = Crie endereços de redirecionamento
 how-it-works-step-2-copy =
     Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
