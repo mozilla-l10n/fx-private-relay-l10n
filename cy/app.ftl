@@ -264,13 +264,47 @@ modal-delete-warning-upgrade =
     dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu hwn.
 modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
-modal-domain-register-warning = Cofiwch, dim ond un parth yn unig y cewch chi gofrestru ar gyfer eich cyfrif ac nid yw'n bosibl newid eich parth yn nes ymlaen.
+modal-domain-register-warning = Cofiwch, dim ond un parth yn unig y cewch chi gofrestru ar gyfer eich cyfrif ac nid yw'n bosibl newid eich parth yn ddiweddarach.
+modal-domain-register-button = Cofrestru Parth
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = Mae { $subdomain } ar gael!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Ydw, rwyf am gofrestru { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Ar raddfa o 1-10, pa mor debygol ydych chi i argymell { -brand-name-relay } i ffrind neu gydweithiwr?
+survey-question-2 = A yw { -brand-name-relay } yn hawdd ei ddefnyddio?
+survey-question-3 = Ydych chi'n teimlo bod { -brand-name-relay } yn ddibynadwy?
+survey-question-4 = A oes gan { -brand-name-relay } gyflwyniad glân a syml?
+survey-question-5 = Sut fyddech chi'n teimlo pe na fyddech chi'n gallu defnyddio { -brand-name-relay } mwyach?
+survey-option-strongly-disagree = Anghytuno'n gryf
+survey-option-disagree = Anghytuno
+survey-option-unsure = Ansicr
+survey-option-agree = Cytuno
+survey-option-strongly-agree = Cytuno'n gryf
+survey-option-i-wouldnt-care = Fyddwn i ddim yn poeni
+survey-option-somewhat-disappointed = Braidd yn siomedig
+survey-option-very-disappointed = Siomedig iawn
+survey-option-very-likely = Yn debygol iawn
+survey-option-not-likely = Ddim yn debygol
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Arbedwch 50% gyda thanysgrifiad blwyddyn lawn
+vpn-promo-copy = Diogelwch eich data ar-lein - a dewis cynllun tanysgrifio VPN sy'n gweithio i chi.
+vpn-promo-cta = Cael { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } gan { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
+# This entire text is a link
+forwarded-email-footer = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
