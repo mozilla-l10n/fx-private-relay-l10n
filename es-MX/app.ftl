@@ -44,15 +44,19 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } para dispositivos móviles
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Cerrar menú
 
 ## Home Page
 
+how-it-works-step-1-headline = Obtener la extensión
 
 ## FAQ Page
 
 
 ## Profile Page (Logged In)
 
+profile-label-apply = Aplicar
+profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
 
 ## Banner Messages (displayed on the profile page)
