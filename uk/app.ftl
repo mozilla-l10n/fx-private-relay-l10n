@@ -108,6 +108,14 @@ settings-meta-contact-label = Зв'язатися з нами
 settings-meta-contact-tooltip = Зв’язатися щодо { -brand-name-relay }
 settings-meta-help-label = Довідка та підтримка
 settings-meta-help-tooltip = Отримати допомогу щодо користування { -brand-name-relay }
+settings-meta-status-label = Стан служби
+settings-meta-status-tooltip = Перевірити, чи всі системи { -brand-name-relay } зараз працюють.
+settings-error-save-heading = Не вдалося змінити налаштування
+settings-error-save-description = Ваші зміни в налаштуваннях не були збережені через помилку з'єднання. Будь ласка, повторіть спробу.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували псевдоадреси електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
+settings-button-save-label = Зберегти
+settings-button-save-tooltip = Застосувати вибрані налаштування.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -225,6 +233,8 @@ banner-choose-subdomain-submit = Отримати домен
 banner-pack-upgrade-headline-html = Оновіться до <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, щоб отримати більше псевдоадрес
 banner-pack-upgrade-copy = Завдяки необмеженій кількості псевдоадрес е-пошти та вашому власному домену електронної пошти, { -brand-name-firefox } { -brand-name-relay-premium } допомагає вам захистити себе в інтернеті.
 banner-pack-upgrade-cta = Оновити зараз
+# Data Notification Banner:
+banner-label-data-notification-header = Незабаром у { -brand-name-relay }
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ваш домен:
 # Variables:
