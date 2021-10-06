@@ -50,6 +50,7 @@ bento-button-close-label = Cerrar menú
 ## Home Page
 
 how-it-works-step-1-headline = Obtener la extensión
+hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 
 ## FAQ Page
 
