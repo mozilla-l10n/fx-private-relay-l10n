@@ -98,7 +98,7 @@ faq-question-1-answer-a = While { -brand-name-relay } does not filter for spam, 
 
 ## Settings page
 
-settings-headline = Relay Settings
+settings-headline = { -brand-name-relay } Settings
 settings-meta-contact-label = Contact us
 settings-meta-contact-tooltip = Get in touch about { -brand-name-relay }
 settings-meta-help-label = Help and support
@@ -107,10 +107,10 @@ settings-meta-status-label = Service status
 settings-meta-status-tooltip = Check whether all { -brand-name-relay } systems are currently operational.
 settings-error-save-heading = Settings change failed
 settings-error-save-description = Your changes to settings were not saved due to a connection error. Please try again.
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites is turned off.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Email alias label function is disabled
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites is turned off.
-settings-warning-collection-off-description = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email aliases. You can change this in "Settings" under "Data Collection."
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email aliases. You can change this in “Settings” under “Data Collection.”
 setting-label-collection-heading = Store Alias Labels
 setting-label-collection-description = Allow { -brand-name-relay } to collect data showing the sites on which your aliases are created and used.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
