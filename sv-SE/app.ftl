@@ -249,6 +249,19 @@ onboarding-tip-1 = Klicka bara på knappen "Skapa nytt alias" för att skapa dit
 onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när den visas i e-postfältet
 onboarding-tip-3 = Via snabbmenyn högerklickar du bara (Windows) eller Ctrl-klickar (macOS) på formulärfält för att komma åt menyn och skapa ett alias
 
+## Premium Onboarding
+
+onboarding-premium-headline = Välkommen till { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Nu kan du <strong>styra</strong> vad som hamnar i din inkorg, ett e-postmeddelande i taget.
+onboarding-premium-feature-intro = Med { -brand-name-firefox } { -brand-name-relay-premium } kan du:
+onboarding-premium-control-title = Kontrollera vilka e-postmeddelanden du får
+onboarding-premium-control-description = Dela obegränsade e-postalias som vidarebefordrar e-postmeddelanden du faktiskt vill ha till din inkorg.
+onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
+onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
+onboarding-premium-reply-title = Svara på e-post utan att ge bort din riktiga adress
+onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
+
 ## Modals
 
 modal-rename-alias-saved = Etikett sparad!
