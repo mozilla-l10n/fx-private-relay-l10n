@@ -53,9 +53,14 @@ how-it-works-step-1-headline = Obtener la extensión
 ## FAQ Page
 
 
+## Settings page
+
+
 ## Profile Page (Logged In)
 
 profile-label-apply = Aplicar
+profile-label-details-show = Mostrar detalles
+profile-label-details-hide = Ocultar detalles
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
 
