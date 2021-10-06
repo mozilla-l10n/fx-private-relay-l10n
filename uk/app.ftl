@@ -144,6 +144,8 @@ profile-promo-upgrade-headline = Оновіть, щоб отримати ще б
 profile-promo-upgrade-copy = Оновіть { -brand-name-relay }, щоб отримати необмежену кількість адрес е-пошти та власний домен е-пошти.
 profile-promo-upgrade-cta = Оновити { -brand-name-relay }
 profile-label-edit = Змінити мітку для цієї псевдоадреси
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Додайте назву облікового запису
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias = Створити нову псевдоадресу
 profile-label-delete = Видалити
