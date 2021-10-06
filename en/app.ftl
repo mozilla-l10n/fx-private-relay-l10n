@@ -142,6 +142,8 @@ profile-promo-upgrade-headline = Upgrade for even more features.
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } to get unlimited email addresses and your own email domain.
 profile-promo-upgrade-cta = Upgrade { -brand-name-relay }
 profile-label-edit = Edit the label for this alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Add account name
 profile-label-saved = Label saved!
 profile-label-generate-new-alias = Generate New Alias
 profile-label-delete = Delete
