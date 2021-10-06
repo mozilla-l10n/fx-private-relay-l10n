@@ -121,6 +121,17 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 faq-headline = Συχνές ερωτήσεις
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
+
+## Settings page
+
+settings-headline = Ρυθμίσεις { -brand-name-relay }
+settings-meta-contact-label = Επικοινωνία
+settings-meta-contact-tooltip = Επικοινωνία με το { -brand-name-relay }
+settings-meta-help-label = Βοήθεια και υποστήριξη
+settings-meta-status-label = Κατάσταση υπηρεσίας
+settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
+setting-label-collection-heading = Αποθήκευση ετικετών ψευδωνύμου
+settings-button-save-label = Αποθήκευση
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
 faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
@@ -154,6 +165,8 @@ profile-promo-upgrade-headline = Αναβαθμίστε για ακόμα περ
 profile-promo-upgrade-copy = Αναβαθμίστε το { -brand-name-relay } για να αποκτήσετε απεριόριστες διευθύνσεις email και τον δικό σας τομέα αλληλογραφίας.
 profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Προσθήκη ονόματος λογαριασμού
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
 profile-label-delete = Διαγραφή
@@ -217,6 +230,8 @@ banner-choose-subdomain-submit = Απόκτηση τομέα
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
+# Data Notification Banner:
+banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ο τομέας σας είναι:
 # Variables:
