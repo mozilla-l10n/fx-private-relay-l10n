@@ -251,6 +251,12 @@ onboarding-tip-1 = Απλά κάντε κλικ στο κουμπί «Δημιο
 onboarding-tip-2 = Επιλέγοντας το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί στα πεδία email
 onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάντε δεξί κλικ (Windows) ή control-κλικ (macOS) στα πεδία φορμών για να προσπελάσετε το μενού και να δημιουργήσετε ένα ψευδώνυμο
 
+## Premium Onboarding
+
+onboarding-premium-headline = Καλώς ορίσατε στο { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-name-relay-premium }, μπορείτε να:
+onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
+
 ## Modals
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
@@ -307,3 +313,5 @@ forwarded-email-header-from = Αυτό το μήνυμα προωθήθηκε α
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
+# This entire text is a link
+forwarded-email-footer = Διακόψτε την προώθηση email και διαχειριστείτε τις ρυθμίσεις για όλα τα ψευδώνυμα εδώ.
