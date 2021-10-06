@@ -240,6 +240,7 @@ onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标�
 ## Premium Onboarding
 
 onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 
 ## Modals
 
