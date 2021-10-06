@@ -144,6 +144,8 @@ profile-promo-upgrade-headline = Mit einem Upgrade gibt es noch mehr Funktionen.
 profile-promo-upgrade-copy = Mit einem Upgrade von { -brand-name-relay } können Sie unbegrenzt viele E-Mail-Adressen erstellen und Ihre Eigene E-Mail-Domain anlegen.
 profile-promo-upgrade-cta = Upgrade von { -brand-name-relay } ausführen
 profile-label-edit = Beschriftung für diese Alias-Adresse ändern
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Kontoname hinzufügen
 profile-label-saved = Beschriftung gespeichert!
 profile-label-generate-new-alias = Neue Alias-Adresse erzeugen
 profile-label-delete = Löschen
