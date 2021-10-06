@@ -108,10 +108,20 @@ settings-meta-contact-label = Kontakta oss
 settings-meta-contact-tooltip = Kontakta oss om { -brand-name-relay }
 settings-meta-help-label = Hjälp och support
 settings-meta-help-tooltip = Få hjälp med att använda { -brand-name-relay }
+settings-meta-status-label = Tjänstestatus
+settings-meta-status-tooltip = Kontrollera om alla { -brand-name-relay }-system för närvarande fungerar.
 settings-error-save-heading = Inställningsändringen misslyckades
 settings-error-save-description = Dina ändringar i inställningarna sparades inte på grund av ett anslutningsfel. Var god försök igen.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Etikettfunktionen för e-postalias är inaktiverad
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } får för närvarande inte samla in data som visar webbplatserna där du har skapat och använt e-postalias. Du kan ändra detta i "Inställningar" under "Datainsamling".
+setting-label-collection-heading = Lagra aliasetiketter
+setting-label-collection-description = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Denna information gör att vi kan märka dina alias med relevanta webbplatser i en framtida version. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
+settings-button-save-label = Spara
+settings-button-save-tooltip = Tillämpa dina valda inställningar.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -156,6 +166,8 @@ profile-promo-upgrade-headline = Uppgradera för ännu fler funktioner.
 profile-promo-upgrade-copy = Uppgradera { -brand-name-relay } för att få obegränsade e-postadresser och din egen e-postdomän.
 profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
 profile-label-edit = Redigera etiketten för detta alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Lägg till kontonamn
 profile-label-saved = Etikett sparad!
 profile-label-generate-new-alias = Skapa nytt alias
 profile-label-delete = Ta bort
@@ -227,6 +239,10 @@ banner-choose-subdomain-submit = Skaffa en domän
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
+# Data Notification Banner:
+banner-label-data-notification-header = Kommer snart till { -brand-name-relay }
+banner-label-data-notification-body = Du kan tillåta att { -brand-name-relay } samlar in valfri data på de webbplatser där dina alias används för att stödja framtida funktioner. Att tillåta denna datainsamling från sidan "Inställningar" kommer att göra hanteringen av din inkorg ännu enklare.
+banner-label-data-notification-cta = Gå till inställningar
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Din domän är:
 # Variables:
