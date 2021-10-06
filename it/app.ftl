@@ -148,6 +148,8 @@ profile-promo-upgrade-headline = Aggiorna alla versione premium per avere ancora
 profile-promo-upgrade-copy = Aggiorna { -brand-name-relay } alla versione premium per ottenere indirizzi di posta elettronica illimitati e il tuo dominio email personale.
 profile-promo-upgrade-cta = Aggiorna { -brand-name-relay }
 profile-label-edit = Modifica l’etichetta di questo alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Aggiungi nome account
 profile-label-saved = Etichetta salvata
 profile-label-generate-new-alias = Genera nuovo alias
 profile-label-delete = Elimina
@@ -252,6 +254,9 @@ onboarding-headline = Crea il tuo primo alias, esistono tre modi per farlo …
 onboarding-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias
 onboarding-tip-2 = Seleziona l’icona { -brand-name-firefox-relay } quando appare nei campi dell’email
 onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro del mouse (Windows) o fai clic tenendo premuto il tasto Ctrl (macOS) sui campi del modulo per accedere al menu e generare un alias
+
+## Premium Onboarding
+
 
 ## Modals
 
