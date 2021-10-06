@@ -100,6 +100,14 @@ hero-image-copy-control-html = Тепер <em>ви контролюєте</em> �
 faq-headline = Часті запитання
 faq-question-1-question = А як щодо спаму?
 faq-question-1-answer-a = Хоча { -brand-name-relay } не фільтрує спам, наш партнер е-пошти Amazon SES блокує спам та шкідливе програмне забезпечення. Якщо { -brand-name-relay } пересилає повідомлення, які вам не потрібні, ви можете змінити налаштування { -brand-name-relay }, щоб блокувати повідомлення з псевдоадреси, яка їх пересилає.
+
+## Settings page
+
+settings-headline = Налаштування { -brand-name-relay }
+settings-meta-contact-label = Зв'язатися з нами
+settings-meta-contact-tooltip = Зв’язатися щодо { -brand-name-relay }
+settings-meta-help-label = Довідка та підтримка
+settings-meta-help-tooltip = Отримати допомогу щодо користування { -brand-name-relay }
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
