@@ -24,13 +24,26 @@ meta-title = { -brand-name-firefox-relay }
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+label-open-menu = Abrir menú
+avatar-tooltip = Perfil
+# FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
+nav-faq = Preguntas frecuentes
+nav-profile-sign-in = Iniciar sesión
+nav-profile-sign-up = Registrarse
 
 ## Footer
 
 nav-footer-privacy = Privacidad
+logo-mozilla-alt = { -brand-name-mozilla }
 
 ## Bento Menu
 
+made-by-mozilla = Hecho por { -brand-name-mozilla }
+fx-desktop = { -brand-name-firefox-browser } para escritorio
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } para dispositivos móviles
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
 
 ## Home Page
 
@@ -40,6 +53,7 @@ nav-footer-privacy = Privacidad
 
 ## Profile Page (Logged In)
 
+profile-forwarded-note = Nota:
 
 ## Banner Messages (displayed on the profile page)
 
