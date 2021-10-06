@@ -240,6 +240,11 @@ onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑
 ## Premium Onboarding
 
 onboarding-premium-headline = 歡迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = 透過 { -brand-name-firefox } { -brand-name-relay-premium }，您可以：
+onboarding-premium-control-title = 自行控制要收到哪些郵件
+onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
+onboarding-premium-domain-description = 透過自訂網域，可以讓「電子報」別名跟「購物資訊」別名不同。
+onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
 
 ## Modals
 
