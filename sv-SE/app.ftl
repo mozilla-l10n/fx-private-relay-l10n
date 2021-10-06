@@ -100,6 +100,18 @@ hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer 
 faq-headline = Vanliga frågor
 faq-question-1-question = Hur är det med spam?
 faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
+
+## Settings page
+
+settings-headline = { -brand-name-relay } inställningar
+settings-meta-contact-label = Kontakta oss
+settings-meta-contact-tooltip = Kontakta oss om { -brand-name-relay }
+settings-meta-help-label = Hjälp och support
+settings-meta-help-tooltip = Få hjälp med att använda { -brand-name-relay }
+settings-error-save-heading = Inställningsändringen misslyckades
+settings-error-save-description = Dina ändringar i inställningarna sparades inte på grund av ett anslutningsfel. Var god försök igen.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Etikettfunktionen för e-postalias är inaktiverad
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
