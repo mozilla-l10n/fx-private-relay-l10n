@@ -106,9 +106,21 @@ settings-headline = Parametros de { -brand-name-relay }
 settings-meta-contact-label = Contacta nos
 settings-meta-contact-tooltip = Contacta nos re { -brand-name-relay }
 settings-meta-help-label = Auxilio e supporto
+settings-meta-help-tooltip = Auxilio usator de { -brand-name-relay }
 settings-meta-status-label = Stato del servicio
+settings-meta-status-tooltip = Controla si tote le systemas de { -brand-name-relay } es actualmente operative.
 settings-error-save-heading = Cambio de parametros fallite
+settings-error-save-description = Tu cambiamentos al parametros non ha essite salvate per un error de connexion. Retenta.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Le function etiquetta del alias de e-mail es disactivate
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate aliases de e-mail. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
+setting-label-collection-heading = Immagazinar le etiquettas de alias
+setting-label-collection-description = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu aliases es create e usate.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Iste datos permittera nos de etiquettar tu aliases con le sitos web pertinente in un version futur. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
+settings-button-save-tooltip = Applicar tu parametros eligite.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -226,6 +238,8 @@ banner-choose-subdomain-submit = Obtener le dominio
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
 banner-pack-upgrade-cta = Promover ora
+# Data Notification Banner:
+banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-cta = Ir al parametros
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
