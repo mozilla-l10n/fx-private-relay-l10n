@@ -102,9 +102,12 @@ settings-meta-contact-tooltip = 沟通 { -brand-name-relay } 的有关事项
 settings-meta-help-label = 帮助和支持
 settings-meta-help-tooltip = 获取 { -brand-name-relay } 的使用帮助
 settings-meta-status-label = 网站状态
+settings-meta-status-tooltip = 检查 { -brand-name-relay } 系统目前是否均正常运行。
 settings-error-save-heading = 设置保存失败
 settings-error-save-description = 遇到网络问题，设置未能保存，请重试。
+setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 settings-button-save-label = 保存
+settings-button-save-tooltip = 应用您所做的设置。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -144,6 +147,8 @@ profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限量的邮箱地址，以及您专属的邮箱域名。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-edit = 编辑此马甲的标签
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = 添加标签
 profile-label-saved = 标签已保存！
 profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
@@ -215,6 +220,7 @@ banner-choose-subdomain-submit = 注册子域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
+banner-label-data-notification-cta = 前往设置
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的子域名是：
 # Variables:
@@ -255,6 +261,7 @@ onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 onboarding-premium-domain-title = 用自定义子域名创建共用马甲邮箱
+onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 
 ## Modals
 
