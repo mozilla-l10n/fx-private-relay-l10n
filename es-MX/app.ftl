@@ -33,12 +33,19 @@ meta-description = { -brand-name-firefox-relay } facilita la creación de alias 
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+nav-menu = Menú
+nav-home = Inicio
 label-open-menu = Abrir menú
 avatar-tooltip = Perfil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Preguntas frecuentes
 nav-profile-sign-in = Iniciar sesión
 nav-profile-sign-up = Registrarse
+nav-profile-manage-fxa = Administra tu { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-sign-out = Cerrar sesión
+nav-profile-sign-out-relay = Cerrar sesión en { -brand-name-relay }
+nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
 
