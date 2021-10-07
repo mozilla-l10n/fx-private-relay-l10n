@@ -100,7 +100,13 @@ settings-headline = { -brand-name-relay } 設定
 settings-meta-contact-label = 聯絡我們
 settings-meta-contact-tooltip = 聯絡我們有關 { -brand-name-relay } 的各種事項
 settings-meta-help-label = 說明與技術支援
+settings-meta-help-tooltip = 尋找 { -brand-name-relay } 的使用說明
 settings-meta-status-label = 網站狀態
+settings-error-save-heading = 設定變更失敗
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = 已停用郵件別名標籤功能
+settings-button-save-label = 儲存
+settings-button-save-tooltip = 套用設定。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -140,6 +146,8 @@ profile-promo-upgrade-headline = 升級後即可獲得更多功能。
 profile-promo-upgrade-copy = 升級 { -brand-name-relay } 即可獲得無限量的郵件信箱與您專屬的郵件網域。
 profile-promo-upgrade-cta = 升級 { -brand-name-relay }
 profile-label-edit = 編輯此別名的標籤
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = 新增帳號名稱
 profile-label-saved = 已儲存標籤！
 profile-label-generate-new-alias = 產生新別名
 profile-label-delete = 刪除
@@ -211,6 +219,9 @@ banner-choose-subdomain-submit = 註冊網域
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 可透過無限量別名信箱與您個人的郵件網域功能，幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
+# Data Notification Banner:
+banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
+banner-label-data-notification-cta = 開啟設定
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的網域是:
 # Variables:
