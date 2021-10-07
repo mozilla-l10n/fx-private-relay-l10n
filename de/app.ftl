@@ -239,6 +239,10 @@ banner-choose-subdomain-submit = Domain erhalten
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet Ihnen unbegrenzt viele Alias-E-Mail-Adressen und Ihre eigene E-Mail-Domain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
+# Data Notification Banner:
+banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
+banner-label-data-notification-body = Sie können { -brand-name-relay } erlauben, optionale Daten auf den Websites zu sammeln, auf denen Ihre Alias-E-Mail-Adressen verwendet werden, um zukünftige Funktionen zu unterstützen. Wenn Sie diese Datenerfassung auf der Seite „Einstellungen“ zulassen, wird die Verwaltung Ihres Posteingangs noch einfacher.
+banner-label-data-notification-cta = Einstellungen öffnen
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ihre Domain ist:
 # Variables:
@@ -280,7 +284,7 @@ onboarding-premium-headline = Willkommen bei { -brand-name-firefox } { -brand-na
 onboarding-premium-subheadline-html = Jetzt können Sie E-Mail für E-Mail <strong>steuern</strong>, was in Ihrem Posteingang landet.
 onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-relay-premium } können Sie:
 onboarding-premium-control-title = steuern, welche E-Mails Sie erhalten
-onboarding-premium-control-description = unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten
+onboarding-premium-control-description = Sie können unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten.
 onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Mail-Adressen einrichten
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
 onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben
