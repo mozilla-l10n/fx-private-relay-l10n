@@ -263,7 +263,6 @@ onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro 
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Ora puoi <strong>controllare</strong> che cosa arriva nella tua casella di posta, per ogni singola email.
 onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-relay-premium } puoi:
-onboarding-premium-control-title = Controllare le email che ricevi
 
 ## Modals
 
