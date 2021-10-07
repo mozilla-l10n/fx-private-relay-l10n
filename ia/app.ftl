@@ -240,6 +240,7 @@ banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio
 banner-pack-upgrade-cta = Promover ora
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
+banner-label-data-notification-body = Tu pote permitter a { -brand-name-relay } de colliger datos optional sur le sitos web ubi tu aliases es usate pro supportar futur functionalitates. Permitter iste collection de datos per le pagina “Parametros” rendera mesmo plus facile gerer tu cassa de ingresso.
 banner-label-data-notification-cta = Ir al parametros
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
@@ -278,10 +279,15 @@ onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Contro
 ## Premium Onboarding
 
 onboarding-premium-headline = Benvenite a { -brand-name-relay-premium } de { -brand-name-firefox }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Ora tu pote lo que <strong>controlar</strong> attinge tu cassa de ingresso, un e-mail cata vice.
 onboarding-premium-feature-intro = Con { -brand-name-relay-premium } de { -brand-name-firefox } tu pote:
 onboarding-premium-control-title = Controla que emails tu recipe
+onboarding-premium-control-description = Comparti illimitate aliases de e-mail que inultra a tu cassa de ingresso le e-mails que tu realmente vole.
 onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
+onboarding-premium-domain-description = Con un dominio personalisate, tu pote render le alias de tu “littera de novas” differente del alias de tu “compras”.
 onboarding-premium-reply-title = Responde a emails sin revelar tu real adresse
+onboarding-premium-reply-description = Besonia tu de responder a e-mails inviate a un alias?
 
 ## Modals
 
