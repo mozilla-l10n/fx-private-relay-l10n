@@ -112,6 +112,11 @@ settings-meta-status-label = Status do serviço
 settings-meta-status-tooltip = Verificar se todos os sistemas do { -brand-name-relay } estão operacionais no momento.
 settings-error-save-heading = Falha na alteração das configurações
 settings-error-save-description = Suas alterações nas configurações não foram salvas devido a um erro de conexão. Tente novamente.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Está desativada a função de rótulo de endereço de redirecionamento
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou endereços de redirecionamento de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
+setting-label-collection-heading = Armazenar rótulos de endereços de redirecionamento
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
 # Variables:
