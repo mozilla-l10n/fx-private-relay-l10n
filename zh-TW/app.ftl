@@ -102,9 +102,13 @@ settings-meta-contact-tooltip = 聯絡我們有關 { -brand-name-relay } 的各�
 settings-meta-help-label = 說明與技術支援
 settings-meta-help-tooltip = 尋找 { -brand-name-relay } 的使用說明
 settings-meta-status-label = 網站狀態
+settings-meta-status-tooltip = 確認 { -brand-name-relay } 的系統目前是否正常運作。
 settings-error-save-heading = 設定變更失敗
+settings-error-save-description = 由於連線錯誤，並未儲存您的設定變更，請再試一次。
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = 已停用郵件別名標籤功能
+setting-label-collection-heading = 儲存別名標籤
+setting-label-collection-description = 允許 { -brand-name-relay } 收集資料，用來顯示別名是用於哪些網站的。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
 # Variables:
