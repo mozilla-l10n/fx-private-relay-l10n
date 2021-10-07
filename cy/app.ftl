@@ -71,13 +71,13 @@ bento-button-close-label = Cau'r ddewislen
 
 home-hero-headline = Cuddiwch eich cyfeiriad e-bost go iawn i helpu diogelu eich hunaniaeth
 home-hero-copy =
-    Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i ddiogelu eich cyfrifon ar-lein rhag hacwyr.
+    Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn er mwyn diogelu eich cyfrifon ar-lein rhag hacwyr.
     Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 home-hero-cta = Mewngofnodi
-how-it-works-headline = Sut mae'n Gweithio
+how-it-works-headline = Sut Mae'n Gweithio
 how-it-works-subheadline = Diogelwch eich hunaniaeth bersonol lle bynnag rydych chi'n defnyddio'r porwr { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Cael yr estyniad
-how-it-works-step-1-link = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr
+how-it-works-step-1-link = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr.
 how-it-works-step-1-copy =
     Dewiswch yr eicon sy'n ymddangos ar eich bar offer { -brand-name-firefox } i gael mynediad i'r dudalen fewngofnodi.
     Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
@@ -88,10 +88,9 @@ how-it-works-step-2-copy =
     Bydd { -brand-name-relay } yn anfon negeseuon i'r prif gyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif.
 how-it-works-step-3-headline = Rheoli eich arallenwau
 how-it-works-step-3-copy =
-    Mewngofnodwch i'r bwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
-    Os gwelwch fod un yn derbyn sbam neu negeseuon digroeso, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, o'r Mewngofnodwch i'r bwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
-    Os gwelwch fod un yn derbyn sbam neu negeseuon digroeso, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, o'r bwrdd gwaith.
-hero-image-copy-trust = A allwch chi ymddiried yn y cwmni hwn gyda'ch e-bost personol?
+    Mewngofnodwch i fwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
+    Os gwelwch fod un yn derbyn sbam neu negeseuon diofyn, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, yn syth o'r bwrdd gwaith.
+hero-image-copy-trust = Ydych chi'n gallu ymddiried yn y cwmni hwn gyda'ch e-bost personol?
 hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
 hero-image-copy-protect-html = … fel y gallwch chi <strong>ddiogelu eich e-bost go iawn</strong> rhag tracio a sbam.
 hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
@@ -100,7 +99,7 @@ hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n 
 
 faq-headline = Cwestiynau Cyffredin
 faq-question-1-question = Beth am sbam?
-faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch chi ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r alias sy'n eu hanfon ymlaen.
+faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
 
 ## Settings page
 
@@ -116,17 +115,17 @@ settings-error-save-description = Nid yw eich newidiadau i'r gosodiadau wedi eu 
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Mae swyddogaeth label arallenw e-bost wedi'i analluogi
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-description = Ar hyn o bryd nid oes caniatâd { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych chi wedi cynhyrchu a defnyddio arallenwau e-bost. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
+settings-warning-collection-off-description = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio arallenwau e-bost. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
 setting-label-collection-heading = Cadw Labeli Arallenwau
 setting-label-collection-description = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich arallenwau'n cael eu creu a'u defnyddio.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning = Bydd y data hwn yn caniatáu inni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
+setting-label-collection-off-warning = Bydd y data hwn yn caniatáu i ni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
 settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diangen o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
+faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diofyn o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
 faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -154,7 +153,7 @@ faq-question-5-answer = Ddim ar hyn o bryd, ond rydym yn ystyried nodweddion new
 faq-question-6-question = Beth fydd yn digwydd os bydd { -brand-name-mozilla } yn cau gwasanaeth { -brand-name-firefox-relay }?
 faq-question-6-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
 faq-question-7-question = Beth os yw e-bost sy'n cael ei anfon at fy arallenw'n cynnwys atodiad?
-faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
+faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 
 ## Profile Page (Logged In)
 
@@ -241,7 +240,9 @@ banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox
 banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Data Notification Banner:
-banner-label-data-notification-header = Yn dod yn fuan i { -brand-name-relay }
+banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
+banner-label-data-notification-body = Gallwch adael i { -brand-name-relay } gasglu data dewisol ar y gwefannau lle mae eich arallenwau'n cael eu defnyddio i gefnogi nodweddion y dyfodol. Bydd caniatáu casglu'r data hwn o'r dudalen “Gosodiadau” yn ei gwneud yn haws rheoli eich blwch derbyn.
+banner-label-data-notification-cta = Mynd i'r Gosodiadau
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Eich parth yw:
 # Variables:
@@ -278,6 +279,16 @@ onboarding-tip-3 = Trwy'r ddewislen cyd-destun, de-gliciwch (Windows) neu Contro
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Croeso i { -brand-name-firefox }{ -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Nawr gallwch chi <strong>reoli</strong> beth sy'n cyrraedd eich blwch derbyn, un e-bost ar y tro.
+onboarding-premium-feature-intro = Gyda { -brand-name-firefox }{ -brand-name-relay-premium } gallwch:
+onboarding-premium-control-title = Rheoli pa e-byst rydych yn eu derbyn
+onboarding-premium-control-description = Rhannu arallenwau e-bost diderfyn sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
+onboarding-premium-domain-title = Defnyddio parth cyfaddas ar gyfer rhannu arallenwau
+onboarding-premium-domain-description = Gyda pharth cyfaddas, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
+onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
+onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
 
 ## Modals
 
