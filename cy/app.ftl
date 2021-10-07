@@ -101,6 +101,28 @@ hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n 
 faq-headline = Cwestiynau Cyffredin
 faq-question-1-question = Beth am sbam?
 faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch chi ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r alias sy'n eu hanfon ymlaen.
+
+## Settings page
+
+settings-headline = Gosodiadau { -brand-name-relay }
+settings-meta-contact-label = Cysylltu â ni
+settings-meta-contact-tooltip = Cysylltwch â ni ynghylch { -brand-name-relay }
+settings-meta-help-label = Cymorth a chefnogaeth
+settings-meta-help-tooltip = Cael cymorth i ddefnyddio { -brand-name-relay }
+settings-meta-status-label = Statws gwasanaeth
+settings-meta-status-tooltip = Gwirio a yw holl systemau { -brand-name-relay } yn weithredol ar hyn o bryd.
+settings-error-save-heading = Methodd newid y gosodiadau
+settings-error-save-description = Nid yw eich newidiadau i'r gosodiadau wedi eu cadw oherwydd gwall cysylltiad. Ceisiwch eto, os gwelwch yn dda.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Mae swyddogaeth label arallenw e-bost wedi'i analluogi
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Ar hyn o bryd nid oes caniatâd { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych chi wedi cynhyrchu a defnyddio arallenwau e-bost. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
+setting-label-collection-heading = Cadw Labeli Arallenwau
+setting-label-collection-description = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich arallenwau'n cael eu creu a'u defnyddio.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Bydd y data hwn yn caniatáu inni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
+settings-button-save-label = Cadw
+settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -145,6 +167,8 @@ profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
 profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost diderfyn a'ch parth e-bost eich hun.
 profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
 profile-label-edit = Golygu label yr arallenw hwn
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Ychwanegu enw'r cyfrif
 profile-label-saved = Label wedi’i gadw!
 profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
 profile-label-delete = Dileu
@@ -216,6 +240,8 @@ banner-choose-subdomain-submit = Cael Parth
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
 banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
+# Data Notification Banner:
+banner-label-data-notification-header = Yn dod yn fuan i { -brand-name-relay }
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Eich parth yw:
 # Variables:
@@ -249,6 +275,9 @@ onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
 onboarding-tip-1 = Cliciwch ar y botwm “Creu Arallenw Newydd” i greu eich arallenw cyntaf
 onboarding-tip-2 = Trwy ddewis yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos ym meysydd e-bost
 onboarding-tip-3 = Trwy'r ddewislen cyd-destun, de-gliciwch (Windows) neu Control-click (macOS) ar feysydd ffurflen i gael mynediad i'r ddewislen a chynhyrchu arallenw
+
+## Premium Onboarding
+
 
 ## Modals
 
