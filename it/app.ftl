@@ -260,9 +260,16 @@ onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro 
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Ti diamo il benvenuto in { -brand-name-firefox } { -brand-name-relay-premium }
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Ora puoi <strong>controllare</strong> che cosa arriva nella tua casella di posta, per ogni singola email.
 onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-relay-premium } puoi:
+onboarding-premium-control-title = Decidere quali email ricevere
+onboarding-premium-control-description = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
+onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli alias
+onboarding-premium-domain-description = Con un dominio personalizzato, puoi impostare alias differenti per “newsletter” e “shopping”.
+onboarding-premium-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale
+onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
 
 ## Modals
 
