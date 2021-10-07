@@ -100,6 +100,16 @@ hero-image-copy-control-html = Nu <em>hebt u de controle</em> over wat er in uw 
 faq-headline = Veelgestelde vragen
 faq-question-1-question = Hoe zit het met spam?
 faq-question-1-answer-a = Hoewel { -brand-name-relay } niet filtert op spam, blokkeert onze e-mailpartner Amazon SES wel spam en malware. Als { -brand-name-relay } ongewenste berichten doorstuurt, kunt u uw instellingen van { -brand-name-relay } bijwerken om berichten te blokkeren van de alias die ze doorstuurt.
+
+## Settings page
+
+settings-headline = { -brand-name-relay }-instellingen
+settings-meta-contact-label = Contact
+settings-meta-contact-tooltip = Contact opnemen over { -brand-name-relay }
+settings-meta-help-label = Hulp en ondersteuning
+settings-error-save-heading = Wijziging instellingen mislukt
+settings-button-save-label = Opslaan
+settings-button-save-tooltip = Uw gekozen instellingen toepassen.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -144,6 +154,8 @@ profile-promo-upgrade-headline = Upgrade voor nog meer functies.
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } om onbeperkte e-mailadressen en uw eigen e-maildomein te krijgen.
 profile-promo-upgrade-cta = { -brand-name-relay } upgraden
 profile-label-edit = Het label voor dit alias bewerken
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Accountnaam toevoegen
 profile-label-saved = Label opgeslagen!
 profile-label-generate-new-alias = Nieuw alias aanmaken
 profile-label-delete = Verwijderen
@@ -215,6 +227,9 @@ banner-choose-subdomain-submit = Domein verkrijgen
 banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
 banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
 banner-pack-upgrade-cta = Nu upgraden
+# Data Notification Banner:
+banner-label-data-notification-header = Binnenkort bij { -brand-name-relay }
+banner-label-data-notification-cta = Naar Instellingen
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Uw domein is:
 # Variables:
@@ -248,6 +263,11 @@ onboarding-headline = Maak uw eerste alias aan, u kunt kiezen uit drie manieren�
 onboarding-tip-1 = Klik gewoon op de knop ‘Nieuwe alias aanmaken’ om uw eerste alias aan te maken
 onboarding-tip-2 = Door het { -brand-name-firefox-relay }-pictogram te selecteren wanneer het in e-mailvelden verschijnt
 onboarding-tip-3 = Via het contextmenu, klik gewoon met uw rechtermuisknop (Windows) of Control-klik (macOS) op formuliervelden om het menu te openen en een alias aan te maken
+
+## Premium Onboarding
+
+onboarding-premium-headline = Welkom bij { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = Met { -brand-name-firefox } { -brand-name-relay-premium } kunt u:
 
 ## Modals
 
