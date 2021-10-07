@@ -11,11 +11,19 @@
 -brand-name-firefox = Firefox
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
+-brand-name-relay-premium = Relay Premium
+-brand-name-firefox-browser = Navegador Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
+-brand-name-firefox-account =
+    { $capitalization ->
+       *[lowercase] cuenta de Firefox
+        [uppercase] Cuenta de Firefox
+    }
 
 ## Meta Data
 
