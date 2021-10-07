@@ -104,6 +104,7 @@ faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nost
 
 settings-headline = Parametros de { -brand-name-relay }
 settings-meta-contact-label = Contacta nos
+settings-meta-contact-tooltip = Contacta nos re { -brand-name-relay }
 settings-meta-help-label = Auxilio e supporto
 settings-meta-status-label = Stato del servicio
 settings-error-save-heading = Cambio de parametros fallite
