@@ -81,6 +81,7 @@ settings-button-save-label = Guardar
 
 ## Profile Page (Logged In)
 
+profile-label-saved = ¡Etiqueta guardada!
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
