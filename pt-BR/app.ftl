@@ -117,6 +117,9 @@ settings-warning-collection-off-heading = Está desativada a função de rótulo
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou endereços de redirecionamento de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
 setting-label-collection-heading = Armazenar rótulos de endereços de redirecionamento
+setting-label-collection-description = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde seus endereços de redirecionamento foram criados e usados.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
 # Variables:
@@ -238,6 +241,8 @@ banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitado
 banner-pack-upgrade-cta = Mude agora para a versão premium
 # Data Notification Banner:
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
+banner-label-data-notification-body = Você pode permitir que o { -brand-name-relay } colete dados opcionais nos sites onde seus endereços de redirecionamento são usados, para oferecer suporte a futuros recursos. Permitir esta coleta de dados na página “Configurações” facilita ainda mais o gerenciamento da sua caixa de entrada.
+banner-label-data-notification-cta = Ir para configurações
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Seu domínio é:
 # Variables:
