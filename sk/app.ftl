@@ -141,6 +141,24 @@ hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do
 faq-headline = Často kladené otázky
 faq-question-1-question = A čo spam?
 faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú poštu, náš e-mailový partner Amazon SES blokuje spam a škodlivý softvér. Ak { -brand-name-relay } preposiela správy, ktoré nechcete, môžete aktualizovať svoje nastavenia tejto služby a zablokovať aliasy, ktoré ich preposielajú.
+
+## Settings page
+
+settings-headline = Nastavenia služby { -brand-name-relay }
+settings-meta-contact-label = Kontaktujte nás
+settings-meta-contact-tooltip = Kontaktujte nás ohľadom služby { -brand-name-relay }
+settings-meta-help-label = Pomoc a podpora
+settings-meta-help-tooltip = Získať pomoc s používaním služby { -brand-name-relay }
+settings-meta-status-label = Stav služby
+settings-meta-status-tooltip = Pozrite si, či sú všetky systémy služby { -brand-name-relay } aktuálne funkčné.
+settings-error-save-heading = Zmena nastavení zlyhala
+settings-error-save-description = Vaše zmeny nastavení neboli uložené kvôli chybe pripojenia. Skúste to znova.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Funkcia označenia e-mailového aliasu štítkom je deaktivovaná
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Tieto údaje nám v budúcom vydaní umožnia označiť vaše aliasy príslušnými webovými stránkami. Ak sa rozhodnete túto predvoľbu deaktivovať, vaše aliasy nebudú označené webovými stránkami, kde sa používajú.
+settings-button-save-label = Uložiť
+settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -185,6 +203,8 @@ profile-promo-upgrade-headline = Inovujte a získate ešte viac funkcií.
 profile-promo-upgrade-copy = Inovujte službu { -brand-name-relay }, aby ste získali neobmedzený počet e-mailových adries a vlastnú e-mailovú doménu.
 profile-promo-upgrade-cta = Inovovať službu { -brand-name-relay }
 profile-label-edit = Upraviť štítok pre tento alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Pridať názov účtu
 profile-label-saved = Štítok uložený!
 profile-label-generate-new-alias = Vytvoriť nový alias
 profile-label-delete = Odstrániť
@@ -256,6 +276,9 @@ banner-choose-subdomain-submit = Získať doménu
 banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
 banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox } { -brand-name-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
+# Data Notification Banner:
+banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
+banner-label-data-notification-cta = Prejsť do nastavení
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vaša doména je:
 # Variables:
@@ -289,6 +312,10 @@ onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti�
 onboarding-tip-1 = Alias vytvoríte kliknutím na tlačidlo „Vytvoriť nový alias“
 onboarding-tip-2 = Prípadne kliknutím na ikonu služby { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailové adresy
 onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť pravým tlačidlom myši (Windows) alebo so stlačeným klávesom Ctrl (macOS) na polia formulára, čím sa dostanete do ponuky a vytvoríte si alias
+
+## Premium Onboarding
+
+onboarding-premium-headline = Víta vás { -brand-name-firefox } { -brand-name-relay-premium }
 
 ## Modals
 
