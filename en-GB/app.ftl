@@ -100,6 +100,28 @@ hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arri
 faq-headline = Frequently Asked Questions
 faq-question-1-question = What about spam?
 faq-question-1-answer-a = While { -brand-name-relay } does not filter for spam, our email partner Amazon SES does block spam and malware. If { -brand-name-relay } forwards messages you don’t want, you can update your { -brand-name-relay } settings to block messages from the alias forwarding them.
+
+## Settings page
+
+settings-headline = { -brand-name-relay } Settings
+settings-meta-contact-label = Contact us
+settings-meta-contact-tooltip = Get in touch about { -brand-name-relay }
+settings-meta-help-label = Help and support
+settings-meta-help-tooltip = Get help using { -brand-name-relay }
+settings-meta-status-label = Service status
+settings-meta-status-tooltip = Check whether all { -brand-name-relay } systems are currently operational.
+settings-error-save-heading = Settings change failed
+settings-error-save-description = Your changes to settings were not saved due to a connection error. Please try again.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Email alias label function is disabled
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email aliases. You can change this in “Settings” under “Data Collection.”
+setting-label-collection-heading = Store Alias Labels
+setting-label-collection-description = Allow { -brand-name-relay } to collect data showing the sites on which your aliases are created and used.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = This data will allow us to label your aliases with the relevant web sites in a future release. If you decide to opt-out from this preference, your aliases will not be labelled with the web sites where they’re used.
+settings-button-save-label = Save
+settings-button-save-tooltip = Apply your chosen settings.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -144,6 +166,8 @@ profile-promo-upgrade-headline = Upgrade for even more features.
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } to get unlimited email addresses and your own email domain.
 profile-promo-upgrade-cta = Upgrade { -brand-name-relay }
 profile-label-edit = Edit the label for this alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Add account name
 profile-label-saved = Label saved!
 profile-label-generate-new-alias = Generate New Alias
 profile-label-delete = Delete
@@ -215,6 +239,10 @@ banner-choose-subdomain-submit = Get Domain
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
+# Data Notification Banner:
+banner-label-data-notification-header = Coming soon to { -brand-name-relay }
+banner-label-data-notification-body = You can allow { -brand-name-relay } to collect optional data on the web sites where your aliases are used to support future features. Allowing this data collection from the “Settings” page will make managing your inbox even easier.
+banner-label-data-notification-cta = Go to Settings
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Your domain is:
 # Variables:
