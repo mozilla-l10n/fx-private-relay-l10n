@@ -104,6 +104,9 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 faq-headline = Domande più frequenti
 faq-question-1-question = Cosa succede alla posta indesiderata?
 faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
+
+## Settings page
+
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -257,6 +260,10 @@ onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro 
 
 ## Premium Onboarding
 
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Ora puoi <strong>controllare</strong> che cosa arriva nella tua casella di posta, per ogni singola email.
+onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-relay-premium } puoi:
+onboarding-premium-control-title = Controllare le email che ricevi
 
 ## Modals
 
