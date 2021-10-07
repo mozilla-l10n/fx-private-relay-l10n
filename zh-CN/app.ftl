@@ -105,6 +105,11 @@ settings-meta-status-label = 网站状态
 settings-meta-status-tooltip = 检查 { -brand-name-relay } 系统目前是否均正常运行。
 settings-error-save-heading = 设置保存失败
 settings-error-save-description = 遇到网络问题，设置未能保存，请重试。
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = 已禁用马甲邮箱标签功能
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = 当前不允许 { -brand-name-relay } 收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
+setting-label-collection-heading = 存储马甲标签
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
@@ -220,6 +225,8 @@ banner-choose-subdomain-submit = 注册子域名
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
+# Data Notification Banner:
+banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的子域名是：
@@ -262,6 +269,7 @@ onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-p
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 onboarding-premium-domain-title = 用自定义子域名创建共用马甲邮箱
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
+onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 
 ## Modals
 
