@@ -112,6 +112,8 @@ settings-meta-status-label = Status do serviço
 settings-meta-status-tooltip = Verificar se todos os sistemas do { -brand-name-relay } estão operacionais no momento.
 settings-error-save-heading = Falha na alteração das configurações
 settings-error-save-description = Suas alterações nas configurações não foram salvas devido a um erro de conexão. Tente novamente.
+settings-button-save-label = Salvar
+settings-button-save-tooltip = Aplicar as configurações escolhidas
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -156,6 +158,8 @@ profile-promo-upgrade-headline = Mude para a versão premium para ter ainda mais
 profile-promo-upgrade-copy = Mude para a versão premium do { -brand-name-relay } para ter endereços de email ilimitados e seu próprio domínio de email.
 profile-promo-upgrade-cta = Mudar para a versão premium do { -brand-name-relay }
 profile-label-edit = Editar o rótulo deste endereço de redirecionamento
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Adicionar nome da conta
 profile-label-saved = Rótulo salvo!
 profile-label-generate-new-alias = Gerar novo endereço de redirecionamento
 profile-label-delete = Excluir
@@ -227,6 +231,8 @@ banner-choose-subdomain-submit = Obter domínio
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
 banner-pack-upgrade-cta = Mude agora para a versão premium
+# Data Notification Banner:
+banner-label-data-notification-header = Em breve no { -brand-name-relay }
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Seu domínio é:
 # Variables:
