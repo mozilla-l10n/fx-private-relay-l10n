@@ -93,6 +93,14 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 faq-headline = 常見問題
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
+
+## Settings page
+
+settings-headline = { -brand-name-relay } 設定
+settings-meta-contact-label = 聯絡我們
+settings-meta-contact-tooltip = 聯絡我們有關 { -brand-name-relay } 的各種事項
+settings-meta-help-label = 說明與技術支援
+settings-meta-status-label = 網站狀態
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
