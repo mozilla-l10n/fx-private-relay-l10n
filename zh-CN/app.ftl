@@ -108,7 +108,7 @@ settings-error-save-description = 遇到网络问题，设置未能保存，请�
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = 已禁用马甲邮箱标签功能
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-description = 当前不允许 { -brand-name-relay } 收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
+settings-warning-collection-off-description = { -brand-name-relay } 当前未被允许收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
 setting-label-collection-heading = 存储马甲标签
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 settings-button-save-label = 保存
