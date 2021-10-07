@@ -107,6 +107,11 @@ settings-headline = Configurações do { -brand-name-relay }
 settings-meta-contact-label = Entre em contato conosco
 settings-meta-contact-tooltip = Entre em contato sobre o { -brand-name-relay }
 settings-meta-help-label = Ajuda e suporte
+settings-meta-help-tooltip = Obtenha ajuda em como usar o { -brand-name-relay }
+settings-meta-status-label = Status do serviço
+settings-meta-status-tooltip = Verificar se todos os sistemas do { -brand-name-relay } estão operacionais no momento.
+settings-error-save-heading = Falha na alteração das configurações
+settings-error-save-description = Suas alterações nas configurações não foram salvas devido a um erro de conexão. Tente novamente.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
