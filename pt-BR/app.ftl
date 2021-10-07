@@ -100,6 +100,13 @@ hero-image-copy-control-html = Agora <em>você está no controle</em> do que che
 faq-headline = Perguntas frequentes
 faq-question-1-question = E quanto ao spam?
 faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
+
+## Settings page
+
+settings-headline = Configurações do { -brand-name-relay }
+settings-meta-contact-label = Entre em contato conosco
+settings-meta-contact-tooltip = Entre em contato sobre o { -brand-name-relay }
+settings-meta-help-label = Ajuda e suporte
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
