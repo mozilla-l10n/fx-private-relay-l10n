@@ -50,10 +50,14 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 ## Footer
 
 nav-footer-privacy = Privacidad
+nav-footer-relay-terms = Términos de { -brand-name-relay }
+nav-footer-legal = Legal
 logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Logo de GitHub
 
 ## Bento Menu
 
+bento-button-title = Aplicaciones y servicios de { -brand-name-firefox }
 made-by-mozilla = Hecho por { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } para escritorio
 fx-lockwise = { -brand-name-firefox-lockwise }
