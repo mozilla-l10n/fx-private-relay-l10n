@@ -102,6 +102,8 @@ settings-meta-contact-tooltip = 沟通 { -brand-name-relay } 的有关事项
 settings-meta-help-label = 帮助和支持
 settings-meta-help-tooltip = 获取 { -brand-name-relay } 的使用帮助
 settings-meta-status-label = 网站状态
+settings-error-save-heading = 设置保存失败
+settings-error-save-description = 遇到网络问题，设置未能保存，请重试。
 settings-button-save-label = 保存
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -199,7 +201,7 @@ banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox
 banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让创建马甲更简单。
 banner-download-firefox-cta = 下载 { -brand-name-firefox }
 banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
-banner-download-install-extension-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
+banner-download-install-extension-copy = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义子域名马甲与无限量马甲功能。
@@ -242,8 +244,8 @@ error-subdomain-not-available = 子域名 @{ $unavailable_subdomain } 不可用�
 
 ## Onboarding 
 
-onboarding-headline = 有三种方式来创建您的第一个马甲…
-onboarding-tip-1 = 点击“生成新马甲”来创建您的第一个马甲
+onboarding-headline = 有三种方式可以创建您的第一个马甲…
+onboarding-tip-1 = 点击“生成新马甲”即可创建您的第一个马甲
 onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
 onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标左击（macOS），即可通过右键菜单生成新马甲
 
@@ -251,6 +253,8 @@ onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标�
 
 onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
+onboarding-premium-control-title = 自行控制要收取哪些邮件
+onboarding-premium-domain-title = 用自定义子域名创建共用马甲邮箱
 
 ## Modals
 
