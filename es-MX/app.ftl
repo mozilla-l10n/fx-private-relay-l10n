@@ -58,6 +58,7 @@ logo-github-alt = Logo de GitHub
 ## Bento Menu
 
 bento-button-title = Aplicaciones y servicios de { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } es tecnología que lucha por tu privacidad en línea.
 made-by-mozilla = Hecho por { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } para escritorio
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -76,6 +77,7 @@ hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico 
 
 ## Settings page
 
+settings-button-save-label = Guardar
 
 ## Profile Page (Logged In)
 
