@@ -111,6 +111,8 @@ settings-warning-collection-off-heading = 已停用郵件別名標籤功能
 settings-warning-collection-off-description = { -brand-name-relay } 目前並未被允許收集您用於產生與使用過的信件別名網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
 setting-label-collection-heading = 儲存別名標籤
 setting-label-collection-description = 允許 { -brand-name-relay } 收集資料，用來顯示別名是用於哪些網站的。
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = 讓我們收集此資料後，就可以自動在新版當中將您產生的別名與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些別名被用於哪些網站。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
 # Variables:
@@ -227,6 +229,7 @@ banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium }
 banner-pack-upgrade-cta = 立刻升級
 # Data Notification Banner:
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
+banner-label-data-notification-body = 您可允許 { -brand-name-relay } 收集在哪些網站建立與使用過別名，以滿足未來版本中提供的新功能所需資料（非必要）。可到「設定」頁面允許收集，讓您在未來可以更輕鬆就能管理收件匣。
 banner-label-data-notification-cta = 開啟設定
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的網域是:
