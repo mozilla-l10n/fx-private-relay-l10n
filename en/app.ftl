@@ -111,7 +111,8 @@ settings-error-save-description = Your changes to settings were not saved due to
 settings-warning-collection-off-heading = Email alias label function is disabled
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email aliases. You can change this in “Settings” under “Data Collection.”
-setting-label-collection-heading = Store Alias Labels
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description = Allow { -brand-name-relay } to collect data showing the sites on which your aliases are created and used.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = This data will allow us to label your aliases with the relevant websites in a future release. If you decide to opt-out from this preference, your aliases will not be labeled with the websites where they’re used.
