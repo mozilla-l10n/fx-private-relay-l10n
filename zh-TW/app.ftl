@@ -45,6 +45,8 @@ nav-profile-manage-fxa = 管理您的 { -brand-name-firefox-account(capitalizati
 nav-profile-sign-out = 登出
 nav-profile-sign-out-relay = 登出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您確定要登出嗎？
+nav-profile-settings = 設定
+nav-profile-settings-tooltip = 設定 { -brand-name-firefox-relay }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
 
 ## Footer
