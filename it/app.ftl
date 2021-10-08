@@ -109,6 +109,8 @@ faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata
 
 ## Settings page
 
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacy
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
