@@ -104,6 +104,9 @@ hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arri
 faq-headline = Questions fréquentes
 faq-question-1-question = Et les messages indésirables ?
 faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
+
+## Settings page
+
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -143,7 +146,7 @@ faq-question-7-answer = Nous prenons désormais en charge le transfert de pièce
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Bienvenue,</span> { $email } !
 profile-headline-manage-domain = Gérer les alias de votre domaine
-profile-supports-email-forwarding = { -brand-name-firefox-relay } prend en charge le transfert de courriels (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }
+profile-supports-email-forwarding = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }
 profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionnalités.
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
@@ -193,6 +196,14 @@ profile-filter-category-option-domain-based-aliases = Alias par domaines
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre courrier électronique.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Nous ne sommes actuellement pas en mesure d’envoyer un e-mail à { $username }.
+    Nous avons reçu un « rebond » <em>{ $bounce_type }</em> de votre fournisseur de messagerie lorsque nous avons essayé de vous transférer des e-mails.
+    Cela peut arriver si { -brand-name-relay } n’a pas pu se connecter à votre fournisseur de messagerie ou si votre boîte de réception était pleine. Nous réessayerons le { $date }.
 banner-download-firefox-headline = { -brand-name-relay } fonctionne encore mieux avec { -brand-name-firefox }
 banner-download-firefox-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
 banner-download-firefox-cta = Installer { -brand-name-firefox }
@@ -234,6 +245,7 @@ error-premium-set-subdomain = Vous devez être abonné·e premium pour définir 
 error-premium-check-subdomain = Vous devez être abonné·e premium pour vérifier un sous-domaine
 error-premium-set-create-subdomain = Vous devez être abonné·e premium pour créer des alias de sous-domaine
 error-subdomain-not-created = Le sous-domaine n’a pas pu être créé, essayez autre chose
+error-subdomain-email-not-created = L’adresse e-mail avec le sous-domaine n’a pas pu être créée, essayez autre chose
 error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
 error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre domaine.
 
@@ -247,6 +259,15 @@ onboarding-tip-3 = Via le menu contextuel, faites un clic droit (Windows) ou Ctr
 ## Premium Onboarding
 
 onboarding-premium-headline = Bienvenue sur { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Vous pouvez désormais <strong>contrôler</strong> ce qui arrive dans votre boîte de réception, un e-mail à la fois.
+onboarding-premium-feature-intro = Avec { -brand-name-firefox } { -brand-name-relay-premium }, vous pouvez :
+onboarding-premium-control-title = Contrôler les e-mails que vous recevez
+onboarding-premium-control-description = Partager un nombre illimité d’alias de messagerie qui transfèrent les e-mails que vous souhaitez réellement vers votre boîte de réception.
+onboarding-premium-domain-title = Utiliser un domaine personnalisé pour partager des alias
+onboarding-premium-domain-description = Avec un domaine personnalisé, vous pouvez différencier votre alias « newsletter » de votre alias « shopping ».
+onboarding-premium-reply-title = Répondre aux e-mails sans révéler votre véritable adresse
+onboarding-premium-reply-description = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
 
 ## Modals
 
@@ -262,6 +283,7 @@ modal-delete-warning-upgrade =
     vous devriez mettre à jour votre identifiant avec une adresse électronique différente avant de supprimer celle-ci.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
+modal-domain-register-warning = Gardez à l’esprit que vous ne pouvez enregistrer qu’un domaine pour votre compte et qu’il n’est pas possible de modifier votre domaine ultérieurement.
 modal-domain-register-button = Enregistrer le domaine
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
