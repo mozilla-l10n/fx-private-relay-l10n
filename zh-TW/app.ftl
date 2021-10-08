@@ -107,6 +107,8 @@ settings-error-save-heading = 設定變更失敗
 settings-error-save-description = 由於連線錯誤，並未儲存您的設定變更，請再試一次。
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = 已停用郵件別名標籤功能
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } 目前並未被允許收集您用於產生與使用過的信件別名網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
 setting-label-collection-heading = 儲存別名標籤
 setting-label-collection-description = 允許 { -brand-name-relay } 收集資料，用來顯示別名是用於哪些網站的。
 settings-button-save-label = 儲存
@@ -267,9 +269,11 @@ onboarding-premium-headline = 歡迎使用 { -brand-name-firefox } { -brand-name
 onboarding-premium-subheadline-html = 現在起您可一封一封郵件<strong>自行控制</strong>哪些能進到信件匣。
 onboarding-premium-feature-intro = 透過 { -brand-name-firefox } { -brand-name-relay-premium }，您可以：
 onboarding-premium-control-title = 自行控制要收到哪些郵件
+onboarding-premium-control-description = 可建立無限量的別名信箱，只讓您想收到的信件直達收件匣。
 onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
 onboarding-premium-domain-description = 透過自訂網域，可以讓「電子報」別名跟「購物資訊」別名不同。
 onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
+onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件嗎？只要如往常一般方式回信，仍可透過別名來保護您的地址。
 
 ## Modals
 
