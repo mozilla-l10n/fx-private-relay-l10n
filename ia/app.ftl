@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Gere tu { -brand-name-firefox-account(majusculas: "maju
 nav-profile-sign-out = Clauder session
 nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
+nav-profile-settings = Parametros
+nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -115,7 +117,8 @@ settings-error-save-description = Tu cambiamentos al parametros non ha essite sa
 settings-warning-collection-off-heading = Le function etiquetta del alias de e-mail es disactivate
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate aliases de e-mail. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
-setting-label-collection-heading = Immagazinar le etiquettas de alias
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Confidentialitate
 setting-label-collection-description = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu aliases es create e usate.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Iste datos permittera nos de etiquettar tu aliases con le sitos web pertinente in un version futur. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
