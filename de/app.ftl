@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Verwalten Sie Ihren { -brand-name-firefox-account(capit
 nav-profile-sign-out = Abmelden
 nav-profile-sign-out-relay = Von { -brand-name-relay } abmelden
 nav-profile-sign-out-confirm = Möchten Sie sich wirklich abmelden?
+nav-profile-settings = Einstellungen
+nav-profile-settings-tooltip = { -brand-name-firefox-relay } einstellen
 nav-profile-image-alt = Avatar von { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
