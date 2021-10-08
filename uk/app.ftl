@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Керувати своїм { -brand-name-firefox-accou
 nav-profile-sign-out = Вийти
 nav-profile-sign-out-relay = Вийти з { -brand-name-relay }
 nav-profile-sign-out-confirm = Ви впевнені, що бажаєте вийти?
+nav-profile-settings = Налаштування
+nav-profile-settings-tooltip = Налаштувати { -brand-name-firefox-relay }
 nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -116,7 +118,8 @@ settings-error-save-description = Ваші зміни в налаштуванн�
 settings-warning-collection-off-heading = Функцію позначення псевдоадрес електронної пошти вимкнено
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували псевдоадреси електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
-setting-label-collection-heading = Зберегти позначення псевдоадрес
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Приватність
 setting-label-collection-description = Дозвольте { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші псевдоадреси.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Ці дані дозволять нам позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
