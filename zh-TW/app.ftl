@@ -263,6 +263,8 @@ onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑
 ## Premium Onboarding
 
 onboarding-premium-headline = 歡迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = 現在起您可一封一封郵件<strong>自行控制</strong>哪些能進到信件匣。
 onboarding-premium-feature-intro = 透過 { -brand-name-firefox } { -brand-name-relay-premium }，您可以：
 onboarding-premium-control-title = 自行控制要收到哪些郵件
 onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
