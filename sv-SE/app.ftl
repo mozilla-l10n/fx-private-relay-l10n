@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Hantera ditt { -brand-name-firefox-account(capitalizati
 nav-profile-sign-out = Logga ut
 nav-profile-sign-out-relay = Logga ut från { -brand-name-relay }
 nav-profile-sign-out-confirm = Är du säker på att du vill logga ut?
+nav-profile-settings = Inställningar
+nav-profile-settings-tooltip = Konfigurera { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -116,7 +118,8 @@ settings-error-save-description = Dina ändringar i inställningarna sparades in
 settings-warning-collection-off-heading = Etikettfunktionen för e-postalias är inaktiverad
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = { -brand-name-relay } får för närvarande inte samla in data som visar webbplatserna där du har skapat och använt e-postalias. Du kan ändra detta i "Inställningar" under "Datainsamling".
-setting-label-collection-heading = Lagra aliasetiketter
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Integritet
 setting-label-collection-description = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Denna information gör att vi kan märka dina alias med relevanta webbplatser i en framtida version. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
