@@ -77,9 +77,11 @@ hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico 
 
 ## FAQ Page
 
+faq-headline = Preguntas frecuentes
 
 ## Settings page
 
+settings-meta-contact-label = Contáctanos
 settings-button-save-label = Guardar
 
 ## Profile Page (Logged In)
