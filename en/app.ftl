@@ -44,6 +44,8 @@ nav-profile-manage-fxa = Manage your { -brand-name-firefox-account(capitalizatio
 nav-profile-sign-out = Sign Out
 nav-profile-sign-out-relay = Sign Out of { -brand-name-relay }
 nav-profile-sign-out-confirm = Are you sure you want to sign out?
+nav-profile-settings = Settings
+nav-profile-settings-tooltip = Configure { -brand-name-firefox-relay }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
