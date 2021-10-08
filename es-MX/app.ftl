@@ -69,7 +69,10 @@ bento-button-close-label = Cerrar menú
 
 ## Home Page
 
+home-hero-cta = Iniciar sesión
+how-it-works-headline = Cómo funciona
 how-it-works-step-1-headline = Obtener la extensión
+hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 
 ## FAQ Page
