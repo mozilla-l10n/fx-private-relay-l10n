@@ -49,6 +49,8 @@ nav-profile-manage-fxa = Gestisci il tuo { -brand-name-firefox-account }
 nav-profile-sign-out = Disconnetti
 nav-profile-sign-out-relay = Disconnetti da { -brand-name-relay }
 nav-profile-sign-out-confirm = Effettuare la disconnessione?
+nav-profile-settings = Impostazioni
+nav-profile-settings-tooltip = Configura { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 
 ## Footer
