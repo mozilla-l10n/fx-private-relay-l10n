@@ -138,6 +138,7 @@ modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-unsure = No estoy seguro
 survey-option-very-likely = Muy probablemente
 
 ## VPN Promo Banner
