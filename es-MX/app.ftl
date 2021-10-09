@@ -71,7 +71,7 @@ bento-button-close-label = Cerrar menú
 
 ## Home Page
 
-home-hero-headline = Ocultar tu dirección de correo real para proteger tu identidad
+home-hero-headline = Ocultar tu dirección de correo real para ayudar a proteger tu identidad
 home-hero-copy =
     Comparte tus alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tus cuentas en línea de los piratas informáticos.
     Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
@@ -91,6 +91,7 @@ faq-headline = Preguntas frecuentes
 ## Settings page
 
 settings-meta-contact-label = Contáctanos
+settings-meta-help-label = Ayuda y soporte
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
