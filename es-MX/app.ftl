@@ -110,8 +110,10 @@ profile-label-saved = ¡Etiqueta guardada!
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
+profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
+profile-filter-category-option-active-aliases = Alias activos
 
 ## Banner Messages (displayed on the profile page)
 
@@ -130,6 +132,9 @@ profile-forwarded-note = Nota:
 
 ## Modals
 
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
