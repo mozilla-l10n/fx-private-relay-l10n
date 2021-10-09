@@ -71,10 +71,16 @@ bento-button-close-label = Cerrar menú
 
 ## Home Page
 
+home-hero-headline = Ocultar tu dirección de correo real para proteger tu identidad
+home-hero-copy =
+    Comparte tus alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tus cuentas en línea de los piratas informáticos.
+    Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
 home-hero-cta = Iniciar sesión
 how-it-works-headline = Cómo funciona
+how-it-works-subheadline = Protege tu identidad personal en todos los lugares donde uses { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Obtener la extensión
 how-it-works-step-1-link = Descargar la extensión de { -brand-name-relay } para { -brand-name-firefox }.
+how-it-works-step-3-headline = Administra tus alias
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 
