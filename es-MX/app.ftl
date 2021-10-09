@@ -95,6 +95,11 @@ settings-meta-help-label = Ayuda y soporte
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
+# String used to display the attachment limit, e.g. 150 KB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
