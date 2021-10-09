@@ -72,6 +72,7 @@ bento-button-close-label = Cerrar menú
 home-hero-cta = Iniciar sesión
 how-it-works-headline = Cómo funciona
 how-it-works-step-1-headline = Obtener la extensión
+how-it-works-step-1-link = Descargar la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 
@@ -82,10 +83,15 @@ faq-headline = Preguntas frecuentes
 ## Settings page
 
 settings-meta-contact-label = Contáctanos
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
@@ -113,6 +119,7 @@ profile-forwarded-note = Nota:
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-very-likely = Muy probablemente
 
 ## VPN Promo Banner
 
