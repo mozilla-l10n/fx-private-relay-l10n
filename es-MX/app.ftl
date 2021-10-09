@@ -143,6 +143,7 @@ survey-option-very-likely = Muy probablemente
 
 ## VPN Promo Banner
 
+vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
