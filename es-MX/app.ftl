@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Administra tu { -brand-name-firefox-account(capitalizat
 nav-profile-sign-out = Cerrar sesión
 nav-profile-sign-out-relay = Cerrar sesión en { -brand-name-relay }
 nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
+nav-profile-settings = Ajustes
+nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
