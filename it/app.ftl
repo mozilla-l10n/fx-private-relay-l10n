@@ -109,6 +109,17 @@ faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata
 
 ## Settings page
 
+settings-headline = Impostazioni di { -brand-name-relay }
+settings-meta-contact-label = Contatti
+settings-meta-contact-tooltip = Contattaci riguardo a { -brand-name-relay }
+settings-meta-help-label = Guida e supporto
+settings-meta-help-tooltip = Ottieni assistenza sull’utilizzo di { -brand-name-relay }
+settings-meta-status-label = Stato del servizio
+settings-meta-status-tooltip = Verifica se tutti i sistemi di { -brand-name-relay } sono attualmente operativi.
+settings-error-save-heading = Modifica delle impostazioni non riuscita
+settings-error-save-description = Le modifiche alle impostazioni non sono state salvate a causa di un errore di connessione. Riprova.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = La funzione di etichetta per gli alias email è disattivata
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 # Variables:
