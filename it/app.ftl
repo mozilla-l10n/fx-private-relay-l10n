@@ -122,6 +122,8 @@ settings-error-save-description = Le modifiche alle impostazioni non sono state 
 settings-warning-collection-off-heading = La funzione di etichetta per gli alias email è disattivata
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
+settings-button-save-label = Salva
+settings-button-save-tooltip = Applica le impostazioni scelte.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -239,6 +241,10 @@ banner-choose-subdomain-submit = Ottieni dominio
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
+# Data Notification Banner:
+banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
+banner-label-data-notification-body = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi sui siti web dove vengono utilizzati i tuoi alias per supportare funzionalità future. Autorizzare questa raccolta dati dalla pagina “Impostazioni” renderà ancora più semplice la gestione della tua casella di posta.
+banner-label-data-notification-cta = Vai alle impostazioni
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Il tuo dominio è:
 # Variables:
