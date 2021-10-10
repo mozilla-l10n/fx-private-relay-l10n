@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Administra tu { -brand-name-firefox-account }
 nav-profile-sign-out = Cerrar sesión
 nav-profile-sign-out-relay = Cerrar sesión en { -brand-name-relay }
 nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar la sesión?
+nav-profile-settings = Ajustes
+nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account }
 
 ## Footer
@@ -100,6 +102,20 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 faq-headline = Preguntas frecuentes
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-1-answer-a = Aunque { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
+
+## Settings page
+
+settings-headline = Ajustes de { -brand-name-relay }
+settings-meta-contact-label = Contáctanos
+settings-meta-contact-tooltip = Contáctanos acerca de { -brand-name-relay }
+settings-meta-help-label = Ayuda y soporte
+settings-meta-help-tooltip = Obtén ayuda sobre el uso de { -brand-name-relay }
+settings-meta-status-label = Estado del servicio
+settings-meta-status-tooltip = Comprueba si todos los sistemas de { -brand-name-relay } están actualmente operativos.
+settings-error-save-heading = Error al cambiar la configuración
+settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -248,6 +264,9 @@ onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo ...
 onboarding-tip-1 = Simplemente haz clic en el botón “Generar nuevo alias” para crear tu primer alias.
 onboarding-tip-2 = Selecciona el icono { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico
 onboarding-tip-3 = A través del menú contextual, simplemente haz clic con el botón derecho (Windows) o presiona Control y haz clic (macOS) en los campos del formulario para acceder al menú y generar un alias
+
+## Premium Onboarding
+
 
 ## Modals
 
