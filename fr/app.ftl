@@ -49,6 +49,8 @@ nav-profile-manage-fxa = Gérer votre { -brand-name-firefox-account }
 nav-profile-sign-out = Se déconnecter
 nav-profile-sign-out-relay = Déconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Voulez-vous vraiment vous déconnecter ?
+nav-profile-settings = Paramètres
+nav-profile-settings-tooltip = Configurer { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 
 ## Footer
@@ -107,6 +109,16 @@ faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messa
 
 ## Settings page
 
+settings-headline = Paramètres de { -brand-name-relay }
+settings-meta-contact-label = Nous contacter
+settings-meta-contact-tooltip = Contactez-nous à propos de { -brand-name-relay }
+settings-meta-help-label = Aide et assistance
+settings-meta-status-label = État du service
+settings-meta-status-tooltip = Vérifiez si tous les systèmes de { -brand-name-relay } sont actuellement opérationnels.
+settings-error-save-heading = Échec de la modification des paramètres
+settings-error-save-description = Vos paramètres n’ont pas pu être enregistrés en raison d’une erreur de connexion. Veuillez réessayer.
+settings-button-save-label = Enregistrer
+settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -151,6 +163,8 @@ profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionna
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
 profile-label-edit = Modifier le nom de cet alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Ajouter un nom de compte
 profile-label-saved = Nom enregistré !
 profile-label-generate-new-alias = Générer un nouvel alias
 profile-label-delete = Supprimer
@@ -222,6 +236,9 @@ banner-choose-subdomain-submit = Obtenir le domaine
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
+# Data Notification Banner:
+banner-label-data-notification-header = Prochainement dans { -brand-name-relay }
+banner-label-data-notification-cta = Ouvrir les paramètres
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Votre domaine est :
 # Variables:
