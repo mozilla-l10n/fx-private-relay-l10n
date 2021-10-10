@@ -86,6 +86,8 @@ nav-profile-manage-fxa = Spravovať { -brand-name-firefox-account(capitalization
 nav-profile-sign-out = Odhlásiť sa
 nav-profile-sign-out-relay = Odhlásiť sa zo služby { -brand-name-relay }
 nav-profile-sign-out-confirm = Naozaj sa chcete odhlásiť?
+nav-profile-settings = Nastavenia
+nav-profile-settings-tooltip = Nastavenia služby { -brand-name-firefox-relay }
 nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization: "lowercase") }
 
 ## Footer
@@ -155,6 +157,11 @@ settings-error-save-heading = Zmena nastavení zlyhala
 settings-error-save-description = Vaše zmeny nastavení neboli uložené kvôli chybe pripojenia. Skúste to znova.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Funkcia označenia e-mailového aliasu štítkom je deaktivovaná
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } nemá v súčasnosti povolenie zhromažďovať údaje zobrazujúce weby, na ktorých ste vygenerovali a používali e-mailové aliasy. Môžete to zmeniť v časti “Nastavenia” v časti “Zhromažďovanie údajov”.
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Súkromie
+setting-label-collection-description = Povoliť službe { -brand-name-relay } zhromažďovať údaje o stránkach, na ktorých sú vaše aliasy vytvárané a používané.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Tieto údaje nám v budúcom vydaní umožnia označiť vaše aliasy príslušnými webovými stránkami. Ak sa rozhodnete túto predvoľbu deaktivovať, vaše aliasy nebudú označené webovými stránkami, kde sa používajú.
 settings-button-save-label = Uložiť
