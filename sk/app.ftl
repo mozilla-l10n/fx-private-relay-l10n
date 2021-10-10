@@ -285,6 +285,7 @@ banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a v
 banner-pack-upgrade-cta = Inovovať teraz
 # Data Notification Banner:
 banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
+banner-label-data-notification-body = Službe { -brand-name-relay } môžete povoliť zhromažďovať voliteľné údaje na webových stránkach, kde sa vaše aliasy používajú s cieľom podporiť vývoj budúcich funkcií. Povolenie tohto zhromažďovania údajov na stránke Nastavenia ešte viac uľahčí správu vašej doručenej pošty.
 banner-label-data-notification-cta = Prejsť do nastavení
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vaša doména je:
@@ -323,6 +324,15 @@ onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť p
 ## Premium Onboarding
 
 onboarding-premium-headline = Víta vás { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Teraz môžete <strong>mať kontrolu</strong> nad tým, čo sa dostane do vašej e-mailovej schránky, jeden po druhom.
+onboarding-premium-feature-intro = So službou { -brand-name-firefox } { -brand-name-relay-premium } môžete:
+onboarding-premium-control-title = Majte kontrolu nad tým, aké e-maily budete dostávať
+onboarding-premium-control-description = Zdieľajte neobmedzené množstvo e-mailových aliasov, ktoré preposielajú len e-maily, ktoré skutočne chcete, do vašej doručenej pošty.
+onboarding-premium-domain-title = Používajte pre svoje aliasy vlastnú doménu
+onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
+onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
+onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
 
 ## Modals
 
