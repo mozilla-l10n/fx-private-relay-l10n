@@ -116,6 +116,15 @@ settings-error-save-heading = Error al cambiar la configuración
 settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado alias de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacidad
+setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
+settings-button-save-label = Guardar
+settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -160,6 +169,8 @@ profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
 profile-promo-upgrade-copy = Actualiza { -brand-name-relay } para obtener direcciones de correo electrónico ilimitadas y tu propio dominio de correo electrónico.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-edit = Editar la etiqueta de este alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Añadir nombre de cuenta
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
@@ -231,6 +242,10 @@ banner-choose-subdomain-submit = Obtener dominio
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
+# Data Notification Banner:
+banner-label-data-notification-header = Próximamente en { -brand-name-relay }
+banner-label-data-notification-body = Puedes permitir que { -brand-name-relay } recopile datos opcionales en los sitios web donde se utilizan tus alias para admitir funcionalidades futuras. Autorizar esta recopilación de datos desde la página “Ajustes” facilitará aún más la administración de tu bandeja de entrada.
+banner-label-data-notification-cta = Ir a Ajustes
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
 # Variables:
@@ -267,6 +282,16 @@ onboarding-tip-3 = A través del menú contextual, simplemente haz clic con el b
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Te damos la bienvenida a { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
+onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium }puedes:
+onboarding-premium-control-title = Controla los correos electrónicos que recibes
+onboarding-premium-control-description = Comparte alias de correo electrónico ilimitados que reenvían a tu bandeja de entrada los correos electrónicos que realmente deseas.
+onboarding-premium-domain-title = Usar un dominio personalizado para compartir alias
+onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que tu alias de “boletín informativo” sea diferente de tu alias de “compras”.
+onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
+onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tu alias seguirá protegiendo tu dirección de correo electrónico.
 
 ## Modals
 
