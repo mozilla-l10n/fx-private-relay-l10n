@@ -46,6 +46,7 @@ nav-profile-sign-out = 退出
 nav-profile-sign-out-relay = 退出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您确定要退出登录吗？
 nav-profile-settings = 设置
+nav-profile-settings-tooltip = 设置 { -brand-name-firefox-relay }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
 
 ## Footer
@@ -110,6 +111,8 @@ settings-error-save-description = 遇到网络问题，设置未能保存，请�
 settings-warning-collection-off-heading = 已禁用马甲邮箱标签功能
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = { -brand-name-relay } 当前未被允许收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
