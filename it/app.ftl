@@ -175,6 +175,7 @@ profile-promo-upgrade-cta = Aggiorna { -brand-name-relay }
 profile-label-edit = Modifica l’etichetta di questo alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Aggiungi nome account
+profile-label-save-error = Impossibile salvare, riprova.
 profile-label-saved = Etichetta salvata
 profile-label-generate-new-alias = Genera nuovo alias
 profile-label-delete = Elimina
