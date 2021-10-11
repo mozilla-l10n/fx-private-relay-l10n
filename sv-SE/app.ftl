@@ -171,6 +171,7 @@ profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
 profile-label-edit = Redigera etiketten för detta alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Lägg till kontonamn
+profile-label-save-error = Det gick inte att spara, försök igen.
 profile-label-saved = Etikett sparad!
 profile-label-generate-new-alias = Skapa nytt alias
 profile-label-delete = Ta bort
