@@ -170,6 +170,7 @@ profile-promo-upgrade-cta = Promove { -brand-name-relay }
 profile-label-edit = Modificar le nomine de ce alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Adder nomine de conto
+profile-label-save-error = Falta a salvar, retenta.
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
 profile-label-delete = Deler
