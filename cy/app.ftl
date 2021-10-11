@@ -139,7 +139,7 @@ faq-question-2-answer-html =
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
 faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithiau'n unig?
 faq-question-3-answer = Ar hyn o bryd dim ond yn Saesneg y mae'r wefan ar gael, ond gallwch ddefnyddio'r gwasanaeth yn unrhyw le.
-faq-question-4-question = A allaf ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
+faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
