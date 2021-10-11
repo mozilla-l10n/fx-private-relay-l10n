@@ -171,6 +171,7 @@ profile-promo-upgrade-cta = Оновити { -brand-name-relay }
 profile-label-edit = Змінити мітку для цієї псевдоадреси
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Додайте назву облікового запису
+profile-label-save-error = Не вдалося зберегти. Повторіть спробу.
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias = Створити нову псевдоадресу
 profile-label-delete = Видалити
