@@ -109,7 +109,16 @@ settings-headline = { -brand-name-relay }-instellingen
 settings-meta-contact-label = Contact
 settings-meta-contact-tooltip = Contact opnemen over { -brand-name-relay }
 settings-meta-help-label = Hulp en ondersteuning
+settings-meta-help-tooltip = Hulp verkrijgen met { -brand-name-relay }
+settings-meta-status-label = Servicestatus
+settings-meta-status-tooltip = Bekijken of alle { -brand-name-relay }-systemen momenteel operationeel zijn.
 settings-error-save-heading = Wijziging instellingen mislukt
+settings-error-save-description = Uw instellingswijzigingen zijn niet opgeslagen vanwege een verbindingsfout. Probeer het opnieuw.
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacy
+setting-label-collection-description = { -brand-name-relay } toestaan om gegevens te verzamelen over de websites waarop uw aliassen zijn aangemaakt en gebruikt.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Met deze gegevens kunnen we in een toekomstige versie uw aliassen labelen met de relevante websites. Als u besluit deze voorkeur uit te schakelen, worden uw aliassen niet gelabeld met de websites waar ze worden gebruikt.
 settings-button-save-label = Opslaan
 settings-button-save-tooltip = Uw gekozen instellingen toepassen.
 # Variables:
@@ -270,6 +279,7 @@ onboarding-tip-3 = Via het contextmenu, klik gewoon met uw rechtermuisknop (Wind
 
 onboarding-premium-headline = Welkom bij { -brand-name-firefox } { -brand-name-relay-premium }
 onboarding-premium-feature-intro = Met { -brand-name-firefox } { -brand-name-relay-premium } kunt u:
+onboarding-premium-control-title = Bepalen welke e-mailberichten u ontvangt
 
 ## Modals
 
