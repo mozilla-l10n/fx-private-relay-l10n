@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Uw { -brand-name-firefox-account(capitalization: "lower
 nav-profile-sign-out = Afmelden
 nav-profile-sign-out-relay = Afmelden bij { -brand-name-relay }
 nav-profile-sign-out-confirm = Weet u zeker dat u zich wilt afmelden?
+nav-profile-settings = Instellingen
+nav-profile-settings-tooltip = { -brand-name-firefox-relay } configureren
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase") }-avatar
 
 ## Footer
