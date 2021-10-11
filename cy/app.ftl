@@ -45,6 +45,8 @@ nav-profile-manage-fxa = Rheoli eich { -brand-name-firefox-account(capitalizatio
 nav-profile-sign-out = Allgofnodi
 nav-profile-sign-out-relay = Allgofnodi o { -brand-name-relay }
 nav-profile-sign-out-confirm = Ydych chi'n siŵr eich bod eisiau allgofnodi?
+nav-profile-settings = Gosodiadau
+nav-profile-settings-tooltip = Ffurfweddu { -brand-name-firefox-relay }
 nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -116,7 +118,8 @@ settings-error-save-description = Nid yw eich newidiadau i'r gosodiadau wedi eu 
 settings-warning-collection-off-heading = Mae swyddogaeth label arallenw e-bost wedi'i analluogi
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio arallenwau e-bost. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
-setting-label-collection-heading = Cadw Labeli Arallenwau
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Preifatrwydd
 setting-label-collection-description = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich arallenwau'n cael eu creu a'u defnyddio.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Bydd y data hwn yn caniatáu i ni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
