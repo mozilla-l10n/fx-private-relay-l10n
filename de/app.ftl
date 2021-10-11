@@ -171,6 +171,7 @@ profile-promo-upgrade-cta = Upgrade von { -brand-name-relay } ausführen
 profile-label-edit = Beschriftung für diese Alias-Adresse ändern
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Kontoname hinzufügen
+profile-label-save-error = Fehler beim Speichern, bitte versuchen Sie es erneut.
 profile-label-saved = Beschriftung gespeichert!
 profile-label-generate-new-alias = Neue Alias-Adresse erzeugen
 profile-label-delete = Löschen
