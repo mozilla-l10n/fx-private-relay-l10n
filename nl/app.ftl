@@ -114,6 +114,10 @@ settings-meta-status-label = Servicestatus
 settings-meta-status-tooltip = Bekijken of alle { -brand-name-relay }-systemen momenteel operationeel zijn.
 settings-error-save-heading = Wijziging instellingen mislukt
 settings-error-save-description = Uw instellingswijzigingen zijn niet opgeslagen vanwege een verbindingsfout. Probeer het opnieuw.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Labelfunctie voor e-mailaliassen is uitgeschakeld
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } mag momenteel geen gegevens verzamelen over de websites waar u e-mailaliassen heeft aangemaakt en gebruikt. U kunt dit in ‘Instellingen’ wijzigen onder ‘Gegevensverzameling’.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description = { -brand-name-relay } toestaan om gegevens te verzamelen over de websites waarop uw aliassen zijn aangemaakt en gebruikt.
@@ -240,6 +244,7 @@ banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomei
 banner-pack-upgrade-cta = Nu upgraden
 # Data Notification Banner:
 banner-label-data-notification-header = Binnenkort bij { -brand-name-relay }
+banner-label-data-notification-body = U kunt { -brand-name-relay } toestaan om optionele gegevens te verzamelen over de websites waar uw aliassen worden gebruikt om toekomstige functies te ondersteunen. Als u deze gegevensverzameling op de pagina ‘Instellingen’ toestaat, wordt het beheren van uw Postvak IN nog eenvoudiger.
 banner-label-data-notification-cta = Naar Instellingen
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Uw domein is:
@@ -278,8 +283,15 @@ onboarding-tip-3 = Via het contextmenu, klik gewoon met uw rechtermuisknop (Wind
 ## Premium Onboarding
 
 onboarding-premium-headline = Welkom bij { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = U kunt nu <strong>bepalen</strong> wat er in uw Postvak IN belandt, één e-mailbericht tegelijk.
 onboarding-premium-feature-intro = Met { -brand-name-firefox } { -brand-name-relay-premium } kunt u:
 onboarding-premium-control-title = Bepalen welke e-mailberichten u ontvangt
+onboarding-premium-control-description = Onbeperkt e-mailaliassen delen die de berichten die u echt wilt ontvangen naar uw Postvak IN doorsturen.
+onboarding-premium-domain-title = Een aangepast domein gebruiken voor het delen van aliassen
+onboarding-premium-domain-description = Met een aangepast domein kunt u uw ‘nieuwsbrief’-alias laten afwijken van uw ‘winkel’-alias.
+onboarding-premium-reply-title = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
+onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias zijn gestuurd beantwoorden? Antwoord gewoon als altijd – uw alias beschermt uw e-mailadres nog steeds.
 
 ## Modals
 
