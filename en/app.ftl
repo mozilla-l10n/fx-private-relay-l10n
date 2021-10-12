@@ -92,6 +92,60 @@ hero-image-copy-unique-html = <strong>Use a unique relay address</strong> for ev
 hero-image-copy-protect-html = … so you can <strong>protect your real email</strong> from tracking and spam.
 hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arriving to your inbox!
 
+# Home Page Version A
+
+# Hero Section
+landing-hero-headline = Protect your real email address to help control your inbox
+landing-hero-body = { -brand-name-firefox-relay } email aliases protect your real email address from public view, automatically forwarding emails to your real inbox. 
+    Now you can receive only the emails you want in your inbox. Sign up with your ⁨{ -brand-name-firefox-account }⁩ to get started.
+
+# How it works section
+landing-how-it-works-headline = How it works
+landing-how-it-works-body = Share { -brand-name-relay } email aliases instead of your real email address to protect your email inbox, as well as your identity.
+landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }
+landing-how-it-works-step-1-body = to generate email aliases automatically wherever you enter your email address online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address. 
+    Select it to generate a new, random address that ends in @relay.mozmail.com.
+landing-how-it-works-step-3-body = Sign in to the { -brand-name-relay } dashboard to keep track of the aliases you’ve created. { -brand-name-relay } will forward messages to your email address. 
+    If an alias gets spam or unwanted messages, you can block all messages or even delete the alias, right from the dashboard.
+
+# Pricing section
+landing-pricing-headline = Limited-time only: Unlimited aliases for $1 per month
+landing-pricing-body = Try { -brand-name-firefox-relay } aliases and start protecting your email inbox. 
+    Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
+landing-pricing-free-price = Free
+landing-pricing-free-feature-1 = Up to 5 email aliases
+landing-pricing-free-feature-2 = Browser extension
+landing-pricing-free-cta = Get { -brand-name-relay }
+landing-pricing-premium-price = USD/month
+landing-pricing-premium-feature-1 = Unlimited email aliases
+landing-pricing-premium-feature-2 = Browser extension
+landing-pricing-premium-feature-3 = Your own email domain
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Reply to forwarded emails
+
+# Use Cases
+landing-use-cases-shopping = Shopping
+landing-use-cases-shopping-body = Buying something from a new online shop? Use a { -brand-name-relay } alias instead of your email when making an online purchase. 
+    We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
+landing-use-cases-social-networks = Social Networks
+landing-use-cases-social-networks-body = Want to better protect your online identity when using a social network? 
+    Trying to keep your real email from being tied to your presence on social media? Use a { -brand-name-relay } alias to log in and help protect yourself online.
+landing-use-cases-offline = Offline
+landing-use-cases-offline-body = Prefer to get email receipts, but want to avoid marketing spam too?
+    Use a { -brand-name-relay } alias instead of your email when getting a paperless receipt in a store. 
+    We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
+landing-use-cases-access-content = Access Content
+landing-use-cases-access-content-body = Want to sign up for that newsletter, but don’t trust the sender? 
+    Use an alias instead of your real address—if you start getting unwanted emails through that alias, the sender may have sold your alias to other marketers, or it might even have been leaked in a data breach. 
+    Just turn off or delete the alias to protect your email inbox.
+landing-use-cases-gaming = Gaming
+landing-use-cases-gaming-body = Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address? 
+    Use a { -brand-name-relay } alias to put one more layer of protection between your online identity and the games you play online.
+
+
 ## FAQ Page
 
 faq-headline = Frequently Asked Questions
