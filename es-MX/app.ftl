@@ -110,6 +110,7 @@ profile-label-saved = ¡Etiqueta guardada!
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
+profile-label-click-to-copy = Clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
