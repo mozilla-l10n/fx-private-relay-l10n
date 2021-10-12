@@ -102,8 +102,8 @@ landing-hero-body = { -brand-name-firefox-relay } email aliases protect your rea
 # How it works section
 landing-how-it-works-headline = How it works
 landing-how-it-works-body = Share { -brand-name-relay } email aliases instead of your real email address to protect your email inbox, as well as your identity.
-landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }
-landing-how-it-works-step-1-body = to generate email aliases automatically wherever you enter your email address online.
+landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Generate email aliases automatically wherever you enter your email address online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address. 
     Select it to generate a new, random address that ends in @relay.mozmail.com.
@@ -111,14 +111,16 @@ landing-how-it-works-step-3-body = Sign in to the { -brand-name-relay } dashboar
     If an alias gets spam or unwanted messages, you can block all messages or even delete the alias, right from the dashboard.
 
 # Pricing section
-landing-pricing-headline = Limited-time only: Unlimited aliases for $1 per month
+# Variables:
+#   $USD (string) - currency
+landing-pricing-headline = Limited-time only: Unlimited aliases for 1{ $usd } per month
 landing-pricing-body = Try { -brand-name-firefox-relay } aliases and start protecting your email inbox. 
     Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
 landing-pricing-free-price = Free
 landing-pricing-free-feature-1 = Up to 5 email aliases
 landing-pricing-free-feature-2 = Browser extension
 landing-pricing-free-cta = Get { -brand-name-relay }
-landing-pricing-premium-price = USD/month
+landing-pricing-premium-price = { $usd }/month
 landing-pricing-premium-feature-1 = Unlimited email aliases
 landing-pricing-premium-feature-2 = Browser extension
 landing-pricing-premium-feature-3 = Your own email domain
@@ -139,7 +141,7 @@ landing-use-cases-offline-body = Prefer to get email receipts, but want to avoid
     We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
 landing-use-cases-access-content = Access Content
 landing-use-cases-access-content-body = Want to sign up for that newsletter, but don’t trust the sender? 
-    Use an alias instead of your real address—if you start getting unwanted emails through that alias, the sender may have sold your alias to other marketers, or it might even have been leaked in a data breach. 
+    Use an alias instead of your real address — if you start getting unwanted emails through that alias, the sender may have sold your alias to other marketers, or it might even have been leaked in a data breach. 
     Just turn off or delete the alias to protect your email inbox.
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body = Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address? 
