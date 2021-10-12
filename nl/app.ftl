@@ -171,6 +171,7 @@ profile-promo-upgrade-cta = { -brand-name-relay } upgraden
 profile-label-edit = Het label voor dit alias bewerken
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Accountnaam toevoegen
+profile-label-save-error = Opslaan mislukt, probeer het opnieuw.
 profile-label-saved = Label opgeslagen!
 profile-label-generate-new-alias = Nieuw alias aanmaken
 profile-label-delete = Verwijderen
