@@ -171,6 +171,7 @@ profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
 profile-label-edit = Golygu label yr arallenw hwn
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Ychwanegu enw'r cyfrif
+profile-label-save-error = Wedi methu cadw, ceisiwch eto.
 profile-label-saved = Label wedi’i gadw!
 profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
 profile-label-delete = Dileu
