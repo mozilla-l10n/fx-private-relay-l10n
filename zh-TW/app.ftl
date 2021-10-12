@@ -159,6 +159,7 @@ profile-promo-upgrade-cta = 升級 { -brand-name-relay }
 profile-label-edit = 編輯此別名的標籤
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = 新增帳號名稱
+profile-label-save-error = 儲存失敗，請再試一次。
 profile-label-saved = 已儲存標籤！
 profile-label-generate-new-alias = 產生新別名
 profile-label-delete = 刪除
