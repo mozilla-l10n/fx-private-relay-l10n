@@ -212,6 +212,7 @@ profile-promo-upgrade-cta = Inovovať službu { -brand-name-relay }
 profile-label-edit = Upraviť štítok pre tento alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Pridať názov účtu
+profile-label-save-error = Uloženie zlyhalo, skúste to znova.
 profile-label-saved = Štítok uložený!
 profile-label-generate-new-alias = Vytvoriť nový alias
 profile-label-delete = Odstrániť
