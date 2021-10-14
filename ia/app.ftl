@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
 nav-profile-settings = Parametros
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
+nav-profile-help = Auxilio e supporto
+nav-profile-help-tooltip = Auxilio usator de { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Contacta nos
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Contacta nos re { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -156,6 +162,7 @@ faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servici
 faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-7-question = E se un email inviate a mi alias contine un annexo?
 faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
+faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 
 ## Profile Page (Logged In)
 
@@ -208,10 +215,14 @@ profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used = Aliases email usate
 profile-filter-search-placeholder = Cercar aliases
-profile-filter-category-option-active-aliases = Aliases active
-profile-filter-category-option-disabled-aliases = Aliases disactivate
-profile-filter-category-option-relay-aliases = Aliases de relay
-profile-filter-category-option-domain-based-aliases = Alias per dominio
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Inultrante aliases
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blocante aliases
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Aliases casual
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
 
 ## Banner Messages (displayed on the profile page)
 
@@ -257,6 +268,7 @@ banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Tu dominio @{ $subdomain } ha essite create
+success-settings-update = Tu parametros ha essite actualisate.
 
 ## Error Messages
 
