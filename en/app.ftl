@@ -211,10 +211,16 @@ profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used = Email aliases used
 profile-filter-search-placeholder = Search aliases
-profile-filter-category-option-active-aliases = Active aliases
-profile-filter-category-option-disabled-aliases = Disabled aliases
-profile-filter-category-option-relay-aliases = Relay aliases
-profile-filter-category-option-domain-based-aliases = Domain-based aliases
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Forwarding aliases
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blocking aliases
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Random aliases
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Critical-only aliases
 
 ## Banner Messages (displayed on the profile page)
 
