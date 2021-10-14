@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Von { -brand-name-relay } abmelden
 nav-profile-sign-out-confirm = Möchten Sie sich wirklich abmelden?
 nav-profile-settings = Einstellungen
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } einstellen
+nav-profile-help = Hilfe und Unterstützung
+nav-profile-help-tooltip = Hilfe bei der Verwendung von { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Kontakt
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Kontakt zum Thema { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar von { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -157,6 +163,11 @@ faq-question-6-question = Was passiert, wenn { -brand-name-mozilla } den Dienst 
 faq-question-6-answer = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die { -brand-name-relay }-Alias-Adressen verwenden.
 faq-question-7-question = Was ist, wenn eine E-Mail an meine Alias-Adresse einen Anhang enthält?
 faq-question-7-answer = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
+faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftung und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 
 ## Profile Page (Logged In)
 
@@ -209,10 +220,16 @@ profile-stat-label-blocked = Blockierte E-Mails
 profile-stat-label-forwarded = Weitergeleitete E-Mails
 profile-stat-label-aliases-used = Verwendete Alias-E-Mail-Adressen
 profile-filter-search-placeholder = Alias-Adressen durchsuchen
-profile-filter-category-option-active-aliases = Aktive Alias-E-Mail-Adressen
-profile-filter-category-option-disabled-aliases = Deaktivierte Alias-E-Mail-Adressen
-profile-filter-category-option-relay-aliases = Relay-Alias-E-Mail-Adressen
-profile-filter-category-option-domain-based-aliases = Domain-basierte Alias-E-Mail-Adressen
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Weitergeleitete Alias-E-Mail-Adressen
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blockierte Alias-E-Mail-Adressen
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Zufällige Alias-E-Mail-Adressen
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Benutzerdefinierte Alias-E-Mail-Adressen
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, die nur wichtige E-Mails weiterleiten
 
 ## Banner Messages (displayed on the profile page)
 
@@ -258,6 +275,7 @@ banner-choose-subdomain-description = Sie können beliebige Adressen mit @{ $sub
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Ihre Domain @{ $subdomain } wurde erstellt
+success-settings-update = Ihre Einstellungen wurden aktualisiert
 
 ## Error Messages
 
