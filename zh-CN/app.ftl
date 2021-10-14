@@ -157,6 +157,7 @@ profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-edit = 编辑此马甲的标签
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = 添加标签
+profile-label-save-error = 保存失败，请重试。
 profile-label-saved = 标签已保存！
 profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
