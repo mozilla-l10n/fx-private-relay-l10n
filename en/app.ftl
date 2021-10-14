@@ -263,6 +263,7 @@ banner-choose-subdomain-description = You can make up any address @{ $subdomain 
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Your domain @{ $subdomain } has been created
+success-settings-update = Your settings have been updated
 
 ## Error Messages
 
