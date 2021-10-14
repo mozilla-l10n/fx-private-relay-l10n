@@ -155,6 +155,12 @@ faq-question-6-question = What happens if { -brand-name-mozilla } shuts down the
 faq-question-6-answer = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } aliases.
 faq-question-7-question = What if an email sent to my alias contains an attachment?
 faq-question-7-answer = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
+faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
+
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you. 
 
 ## Profile Page (Logged In)
 
