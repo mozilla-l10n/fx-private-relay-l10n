@@ -145,6 +145,7 @@ faq-question-6-question = { -brand-name-mozilla } 結束 { -brand-name-firefox-r
 faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
 faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
 faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
+faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 
 ## Profile Page (Logged In)
 
@@ -197,10 +198,6 @@ profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
-profile-filter-category-option-active-aliases = 使用中的別名
-profile-filter-category-option-disabled-aliases = 已停用的別名
-profile-filter-category-option-relay-aliases = 轉寄別名
-profile-filter-category-option-domain-based-aliases = 網域相關別名
 
 ## Banner Messages (displayed on the profile page)
 
@@ -246,6 +243,7 @@ banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信�
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = 已建立您的網域 @{ $subdomain }
+success-settings-update = 已更新您的設定。
 
 ## Error Messages
 
