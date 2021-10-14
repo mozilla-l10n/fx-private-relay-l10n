@@ -146,6 +146,10 @@ faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-n
 faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
 faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
 
 ## Profile Page (Logged In)
 
@@ -198,6 +202,16 @@ profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used = 已用的郵件別名
 profile-filter-search-placeholder = 搜尋別名
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = 轉寄別名
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = 封鎖別名
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = 隨機別名
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = 自訂別名
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = 只轉重要郵件的別名
 
 ## Banner Messages (displayed on the profile page)
 
