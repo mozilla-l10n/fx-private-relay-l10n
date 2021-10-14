@@ -70,6 +70,10 @@ nav-profile-manage-fxa = Διαχείριση { -brand-name-firefox-account(case
 nav-profile-sign-out = Αποσύνδεση
 nav-profile-sign-out-relay = Αποσύνδεση από το { -brand-name-relay }
 nav-profile-sign-out-confirm = Θέλετε σίγουρα να αποσυνδεθείτε;
+nav-profile-settings = Ρυθμίσεις
+nav-profile-help = Βοήθεια και υποστήριξη
+# This is only visible to Premium users.
+nav-profile-contact = Επικοινωνία
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 
 ## Footer
@@ -130,7 +134,8 @@ settings-meta-contact-tooltip = Επικοινωνία με το { -brand-name-r
 settings-meta-help-label = Βοήθεια και υποστήριξη
 settings-meta-status-label = Κατάσταση υπηρεσίας
 settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
-setting-label-collection-heading = Αποθήκευση ετικετών ψευδωνύμου
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Απόρρητο
 settings-button-save-label = Αποθήκευση
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
@@ -153,6 +158,7 @@ faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla }
 faq-question-6-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
 faq-question-7-answer = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει ένα όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
+faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 
 ## Profile Page (Logged In)
 
@@ -204,10 +210,6 @@ profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
-profile-filter-category-option-active-aliases = Ενεργά ψευδώνυμα
-profile-filter-category-option-disabled-aliases = Ανενεργά ψευδώνυμα
-profile-filter-category-option-relay-aliases = Ψευδώνυμα Relay
-profile-filter-category-option-domain-based-aliases = Ψευδώνυμα βάσει τομέα
 
 ## Banner Messages (displayed on the profile page)
 
@@ -243,6 +245,7 @@ banner-choose-subdomain-description = Μπορείτε να δημιουργήσ
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Ο τομέας @{ $subdomain } έχει δημιουργηθεί
+success-settings-update = Οι ρυθμίσεις σας έχουν ενημερωθεί
 
 ## Error Messages
 
