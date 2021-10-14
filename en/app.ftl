@@ -268,6 +268,9 @@ banner-pack-upgrade-cta = Upgrade Now
 banner-label-data-notification-header = Coming soon to { -brand-name-relay }
 banner-label-data-notification-body = You can allow { -brand-name-relay } to collect optional data on the websites where your aliases are used to support future features. Allowing this data collection from the “Settings” page will make managing your inbox even easier.
 banner-label-data-notification-cta = Go to Settings
+banner-label-data-notification-header-v2 = Enable new features
+banner-label-data-notification-body-v2 = You can allow { -brand-name-relay } to collect optional data that allows us to sync your alias labels across your devices with the websites where they’re created and used.
+banner-label-data-notification-body-cta = Learn More
 
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Your domain is:
