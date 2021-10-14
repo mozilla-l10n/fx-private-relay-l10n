@@ -92,14 +92,14 @@ hero-image-copy-unique-html = <strong>Use a unique relay address</strong> for ev
 hero-image-copy-protect-html = … so you can <strong>protect your real email</strong> from tracking and spam.
 hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arriving to your inbox!
 
-# Home Page Version A
+## Home Page Version A
 
-# Hero Section
+## Hero Section
 landing-hero-headline = Protect your real email address to help control your inbox
 landing-hero-body = { -brand-name-firefox-relay } email aliases protect your real email address from public view, automatically forwarding emails to your real inbox. 
     Now you can receive only the emails you want in your inbox. Sign up with your ⁨{ -brand-name-firefox-account }⁩ to get started.
 
-# How it works section
+## How it works section
 landing-how-it-works-headline = How it works
 landing-how-it-works-body = Share { -brand-name-relay } email aliases instead of your real email address to protect your email inbox, as well as your identity.
 landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }.
@@ -110,7 +110,7 @@ landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon
 landing-how-it-works-step-3-body = Sign in to the { -brand-name-relay } dashboard to keep track of the aliases you’ve created. { -brand-name-relay } will forward messages to your email address. 
     If an alias gets spam or unwanted messages, you can block all messages or even delete the alias, right from the dashboard.
 
-# Pricing section
+## Pricing section
 # Variables:
 #   $USD (string) - currency
 landing-pricing-headline = Limited-time only: Unlimited aliases for 1{ $usd } per month
@@ -128,7 +128,7 @@ landing-pricing-premium-feature-3 = Your own email domain
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
 
-# Use Cases
+## Use Cases
 landing-use-cases-shopping = Shopping
 landing-use-cases-shopping-body = Buying something from a new online shop? Use a { -brand-name-relay } alias instead of your email when making an online purchase. 
     We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
