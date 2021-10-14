@@ -124,7 +124,7 @@ faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-rel
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不再接受 Gmail、Hotmail、Yahoo 以外的账户注册。随着 { -brand-name-firefox-relay } 的知名度增加，并创建更多的马甲邮箱，我们的服务也可能被屏蔽。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
+faq-question-2-answer-html = 部分网站可能不接受使用子域（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不再接受 Gmail、Hotmail、Yahoo 以外的账户注册。随着 { -brand-name-firefox-relay } 的知名度增加，并创建更多的马甲邮箱，我们的服务也可能被屏蔽。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
 faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
 faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
@@ -138,7 +138,7 @@ email-size-limit = { $size } { $unit }
 #   $attrs (string) - specific attributes added to external links
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建自己心仪的 { -brand-name-relay } 马甲吗？
-faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定子域名创建自己的马甲邮箱。
+faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定子域创建自己的马甲邮箱。
 faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
@@ -149,7 +149,7 @@ faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
-profile-headline-manage-domain = 管理您的子域名马甲
+profile-headline-manage-domain = 管理您的子域马甲
 profile-supports-email-forwarding = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）
 profile-promo-upgrade-headline = 升级后可享受更多功能。
 profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限量的邮箱地址，以及您专属的邮箱域名。
@@ -163,9 +163,9 @@ profile-label-generate-new-alias = 生成新马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
 profile-label-upgrade = 获取无限量马甲
-profile-label-create-domain = 获取您的子域名邮箱
-profile-label-domain = 子域名邮箱：
-profile-label-domain-tooltip = 创建您专属的自定义子域名邮箱。
+profile-label-create-domain = 获取您的子域邮箱
+profile-label-domain = 子域邮箱：
+profile-label-domain-tooltip = 创建您专属的自定义子域邮箱。
 profile-label-reset = 重置
 profile-label-apply = 应用
 # This string is followed by an email address
@@ -198,7 +198,7 @@ profile-filter-search-placeholder = 搜索马甲
 profile-filter-category-option-active-aliases = 使用中的马甲
 profile-filter-category-option-disabled-aliases = 已禁用的马甲
 profile-filter-category-option-relay-aliases = 转发马甲
-profile-filter-category-option-domain-based-aliases = 子域名马甲
+profile-filter-category-option-domain-based-aliases = 子域马甲
 
 ## Banner Messages (displayed on the profile page)
 
@@ -218,22 +218,22 @@ banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 
 banner-download-install-extension-copy = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
-banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义子域名马甲与无限量马甲功能。
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义子域马甲与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
-banner-choose-subdomain-headline = 选择您的专属子域名
-banner-choose-subdomain-headline-aliases = 获取您的自定义子域名马甲
-banner-choose-subdomain-copy = 您可以使用自定义子域名创建马甲。
-banner-choose-subdomain-warning = 注意：之后将无法再更改子域名
-banner-choose-subdomain-input-placeholder = 搜索子域名
-banner-choose-subdomain-submit = 注册子域名
+banner-choose-subdomain-headline = 选择您的专属子域
+banner-choose-subdomain-headline-aliases = 获取您的自定义子域马甲
+banner-choose-subdomain-copy = 您可以使用自定义子域创建马甲。
+banner-choose-subdomain-warning = 注意：之后将无法再更改子域
+banner-choose-subdomain-input-placeholder = 搜索子域
+banner-choose-subdomain-submit = 注册子域
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
-banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
+banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 # This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = 您的子域名是：
+banner-choose-subdomain-label = 您的子域是：
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
@@ -242,7 +242,7 @@ banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain 
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-success-subdomain-registered = 您的子域名 @{ $subdomain } 已创建
+success-subdomain-registered = 您的子域 @{ $subdomain } 已创建
 
 ## Error Messages
 
@@ -250,14 +250,14 @@ success-subdomain-registered = 您的子域名 @{ $subdomain } 已创建
 #   $number (string) - Maximum number of aliases a user can make on a free account.
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
-error-premium-cannot-change-subdomain = 无法更改您的子域名
-error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
-error-premium-check-subdomain = 您须成为 Premium 版订阅者，才能确认子域名的可用性
-error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域名的马甲
-error-subdomain-not-created = 无法创建此子域名，请尝试其他子域名
-error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，请尝试其他子域名
-error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
-error-subdomain-not-available = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
+error-premium-cannot-change-subdomain = 无法更改您的子域
+error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域
+error-premium-check-subdomain = 您须成为 Premium 版订阅者，才能确认子域的可用性
+error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能创建使用子域的马甲
+error-subdomain-not-created = 无法创建此子域，请尝试其他子域
+error-subdomain-email-not-created = 无法创建使用此子域的邮箱，请尝试其他子域
+error-subdomain-select = 您须先选择子域，才能创建使用子域的马甲
+error-subdomain-not-available = 子域 @{ $unavailable_subdomain } 不可用。请使用其他子域重试。
 
 ## Onboarding 
 
@@ -271,7 +271,9 @@ onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标�
 onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 onboarding-premium-control-title = 自行控制要收取哪些邮件
-onboarding-premium-domain-title = 用自定义子域名创建共用马甲邮箱
+onboarding-premium-control-description = 可创建无限量的马甲邮箱，只转发您想收到的邮件到收件箱。
+onboarding-premium-domain-title = 用自定义子域创建共用马甲邮箱
+onboarding-premium-domain-description = 借助自定义子域，您可在各个网站使用不同马甲邮箱。
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 
@@ -285,8 +287,8 @@ modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -bran
 modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
-modal-domain-register-warning = 注意：账户与子域名直接绑定，注册之后不可更改。
-modal-domain-register-button = 注册子域名
+modal-domain-register-warning = 注意：账户与子域直接绑定，注册之后不可更改。
+modal-domain-register-button = 注册子域
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } 可用！
