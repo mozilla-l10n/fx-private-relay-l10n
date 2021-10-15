@@ -164,6 +164,10 @@ faq-question-6-answer = Ми повідомимо вас заздалегідь,
 faq-question-7-question = Що робити, якщо електронний лист, надісланий на мою псевдоадресу, містить вкладення?
 faq-question-7-answer = Тепер ми підтримуємо пересилання вкладених файлів. Однак існує обмеження { email-size-limit } для пересилання е-пошти за допомогою { -brand-name-relay }. Усі електронні листи розміром понад { email-size-limit } не пересилатимуться.
 faq-question-8-question = Які дані збирає { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Ви можете дізнатися більше про дані, які збирає { -brand-name-firefox-relay }, переглянувши наше <a href="{ $url }" { $attrs }>Повідомлення про приватність Notice</a>. Ви також можете за бажанням обмінюватися даними про мітки та вебсайти, які використовуєте для своїх псевдоадрес електронної пошти, щоб ми могли покращити для вас нашу службу.
 
 ## Profile Page (Logged In)
 
@@ -216,6 +220,16 @@ profile-stat-label-blocked = Заблоковані електронні лис�
 profile-stat-label-forwarded = Переслані електронні листи
 profile-stat-label-aliases-used = Використовувані псевдоадреси е-пошти
 profile-filter-search-placeholder = Шукати псевдоадреси
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Активні ппсевдоадреси
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Неактивні псевдоадреси
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Випадкові псевдоадреси
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Користувацькі псевдоадреси
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Важливі псевдоадреси
 
 ## Banner Messages (displayed on the profile page)
 
@@ -250,6 +264,9 @@ banner-pack-upgrade-cta = Оновити зараз
 banner-label-data-notification-header = Незабаром у { -brand-name-relay }
 banner-label-data-notification-body = Ви можете дозволити { -brand-name-relay } збирати додаткові дані на вебсайтах, на яких ви користувалися псевдоадресами, які потрібні для підтримки майбутніх функцій. Дозвіл на збір даних на сторінці «Налаштування» зробить керування вашими «Вхідними» ще простішим.
 banner-label-data-notification-cta = Перейти до налаштувань
+banner-label-data-notification-header-v2 = Увімкнути нові функції
+banner-label-data-notification-body-v2 = Ви можете дозволити { -brand-name-relay } збирати додаткові дані, які дозволяють нам синхронізувати ваші псевдоадреси на ваших пристроях із вебсайтами, де вони створюються та використовуються.
+banner-label-data-notification-body-cta = Докладніше
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ваш домен:
 # Variables:
@@ -261,6 +278,7 @@ banner-choose-subdomain-description = Ви можете створити буд�
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Ваш домен @{ $subdomain } створено
+success-settings-update = Ваші налаштування були оновлені
 
 ## Error Messages
 
