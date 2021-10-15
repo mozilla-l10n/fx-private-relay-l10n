@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Logga ut från { -brand-name-relay }
 nav-profile-sign-out-confirm = Är du säker på att du vill logga ut?
 nav-profile-settings = Inställningar
 nav-profile-settings-tooltip = Konfigurera { -brand-name-firefox-relay }
+nav-profile-help = Hjälp och support
+nav-profile-help-tooltip = Få hjälp med att använda { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Kontakta oss
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Kontakta oss om { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -209,10 +215,16 @@ profile-stat-label-blocked = E-postmeddelanden blockerade
 profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
 profile-stat-label-aliases-used = E-postalias som används
 profile-filter-search-placeholder = Sök efter alias
-profile-filter-category-option-active-aliases = Aktiva alias
-profile-filter-category-option-disabled-aliases = Inaktiverade alias
-profile-filter-category-option-relay-aliases = Relay-alias
-profile-filter-category-option-domain-based-aliases = Domänbaserade alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Vidarebefordrade alias
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blockerade alias
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Slumpmässiga alias
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Anpassade alias
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Endast kritiska alias
 
 ## Banner Messages (displayed on the profile page)
 
@@ -247,6 +259,9 @@ banner-pack-upgrade-cta = Uppgradera nu
 banner-label-data-notification-header = Kommer snart till { -brand-name-relay }
 banner-label-data-notification-body = Du kan tillåta att { -brand-name-relay } samlar in valfri data på de webbplatser där dina alias används för att stödja framtida funktioner. Att tillåta denna datainsamling från sidan "Inställningar" kommer att göra hanteringen av din inkorg ännu enklare.
 banner-label-data-notification-cta = Gå till inställningar
+banner-label-data-notification-header-v2 = Aktivera nya funktioner
+banner-label-data-notification-body-v2 = Du kan tillåta att { -brand-name-relay } samlar in valfri data som gör att vi kan synkronisera dina aliasetiketter mellan dina enheter med webbplatserna där de skapas och används.
+banner-label-data-notification-body-cta = Läs mer
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Din domän är:
 # Variables:
@@ -258,6 +273,7 @@ banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $s
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Din domän @{ $subdomain } har skapats
+success-settings-update = Dina inställningar har uppdaterats
 
 ## Error Messages
 
