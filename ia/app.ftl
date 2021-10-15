@@ -163,6 +163,10 @@ faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adre
 faq-question-7-question = E se un email inviate a mi alias contine un annexo?
 faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
 
 ## Profile Page (Logged In)
 
