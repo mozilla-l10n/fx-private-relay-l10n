@@ -264,6 +264,9 @@ banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
 banner-label-data-notification-body = Sie können { -brand-name-relay } erlauben, optionale Daten auf den Websites zu sammeln, auf denen Ihre Alias-E-Mail-Adressen verwendet werden, um zukünftige Funktionen zu unterstützen. Wenn Sie diese Datenerfassung auf der Seite „Einstellungen“ zulassen, wird die Verwaltung Ihres Posteingangs noch einfacher.
 banner-label-data-notification-cta = Einstellungen öffnen
+banner-label-data-notification-header-v2 = Neue Funktionen aktivieren
+banner-label-data-notification-body-v2 = Sie können { -brand-name-relay } erlauben, optionale Daten zu sammeln, die es uns ermöglichen, Ihre Alias-Beschriftungen über Ihre Geräte hinweg mit den Websites zu synchronisieren, auf denen sie erstellt und verwendet werden.
+banner-label-data-notification-body-cta = Weitere Informationen
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ihre Domain ist:
 # Variables:
