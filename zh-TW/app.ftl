@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = 登出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您確定要登出嗎？
 nav-profile-settings = 設定
 nav-profile-settings-tooltip = 設定 { -brand-name-firefox-relay }
+nav-profile-help = 說明與技術支援
+nav-profile-help-tooltip = 獲得 { -brand-name-relay } 的使用說明
+# This is only visible to Premium users.
+nav-profile-contact = 聯絡我們
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = 聯絡我們有關 { -brand-name-relay-premium } 的各種事項
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
 
 ## Footer
@@ -246,6 +252,9 @@ banner-pack-upgrade-cta = 立刻升級
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
 banner-label-data-notification-body = 您可允許 { -brand-name-relay } 收集在哪些網站建立與使用過別名，以滿足未來版本中提供的新功能所需資料（非必要）。可到「設定」頁面允許收集，讓您在未來可以更輕鬆就能管理收件匣。
 banner-label-data-notification-cta = 開啟設定
+banner-label-data-notification-header-v2 = 開啟全新功能
+banner-label-data-notification-body-v2 = 您可允許 { -brand-name-relay } 收集更多資料，讓我們於各裝置間同步您於哪些網站建立使用別名標籤（非必要提供）。
+banner-label-data-notification-body-cta = 了解更多
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的網域是:
 # Variables:
