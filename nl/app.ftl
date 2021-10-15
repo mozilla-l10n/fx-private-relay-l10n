@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Afmelden bij { -brand-name-relay }
 nav-profile-sign-out-confirm = Weet u zeker dat u zich wilt afmelden?
 nav-profile-settings = Instellingen
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } configureren
+nav-profile-help = Hulp en ondersteuning
+nav-profile-help-tooltip = Hulp verkrijgen met { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Contact
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Contact opnemen over { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase") }-avatar
 
 ## Footer
@@ -157,6 +163,7 @@ faq-question-6-question = Wat gebeurt er als { -brand-name-mozilla } de { -brand
 faq-question-6-answer = We laten u van tevoren weten dat u het e-mailadres van accounts die gebruikmaken van { -brand-name-relay }-aliassen moet wijzigen.
 faq-question-7-question = Wat moet ik doen als een e-mailbericht dat naar mijn alias is verzonden een bijlage bevat?
 faq-question-7-answer = We ondersteunen nu het doorsturen van bijlagen. Er is echter een limiet van { email-size-limit } voor het doorsturen van e-mailberichten met { -brand-name-relay }. E-mailberichten die groter zijn dan { email-size-limit } worden niet doorgestuurd.
+faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }?
 
 ## Profile Page (Logged In)
 
@@ -209,10 +216,6 @@ profile-stat-label-blocked = E-mailberichten geblokkeerd
 profile-stat-label-forwarded = E-mailberichten doorgestuurd
 profile-stat-label-aliases-used = Gebruikte e-mailaliassen
 profile-filter-search-placeholder = Aliassen zoeken
-profile-filter-category-option-active-aliases = Actieve aliassen
-profile-filter-category-option-disabled-aliases = Uitgeschakelde aliassen
-profile-filter-category-option-relay-aliases = Doorstuuraliassen
-profile-filter-category-option-domain-based-aliases = Domeingebaseerde aliassen
 
 ## Banner Messages (displayed on the profile page)
 
@@ -247,6 +250,8 @@ banner-pack-upgrade-cta = Nu upgraden
 banner-label-data-notification-header = Binnenkort bij { -brand-name-relay }
 banner-label-data-notification-body = U kunt { -brand-name-relay } toestaan om optionele gegevens te verzamelen over de websites waar uw aliassen worden gebruikt om toekomstige functies te ondersteunen. Als u deze gegevensverzameling op de pagina ‘Instellingen’ toestaat, wordt het beheren van uw Postvak IN nog eenvoudiger.
 banner-label-data-notification-cta = Naar Instellingen
+banner-label-data-notification-header-v2 = Nieuwe functies inschakelen
+banner-label-data-notification-body-cta = Meer info
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Uw domein is:
 # Variables:
@@ -258,6 +263,7 @@ banner-choose-subdomain-description = U kunt elk adres @{ $subdomain } verzinnen
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Uw domein @{ $subdomain } is aangemaakt
+success-settings-update = Uw instellingen zijn bijgewerkt
 
 ## Error Messages
 
