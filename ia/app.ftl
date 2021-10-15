@@ -223,6 +223,8 @@ profile-filter-category-option-disabled-aliases-v2 = Blocante aliases
 profile-filter-category-option-relay-aliases-v2 = Aliases casual
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Aliases solo critic
 
 ## Banner Messages (displayed on the profile page)
 
@@ -257,6 +259,9 @@ banner-pack-upgrade-cta = Promover ora
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-body = Tu pote permitter a { -brand-name-relay } de colliger datos optional sur le sitos web ubi tu aliases es usate pro supportar futur functionalitates. Permitter iste collection de datos per le pagina “Parametros” rendera mesmo plus facile gerer tu cassa de ingresso.
 banner-label-data-notification-cta = Ir al parametros
+banner-label-data-notification-header-v2 = Activar nove functiones
+banner-label-data-notification-body-v2 = Tu pote permitter a { -brand-name-relay } de colliger datos optional pro nos consentir de synchronisar tu etiquettas alias inter apparatos con le sitos web ubi illos ha essite create e es usate.
+banner-label-data-notification-body-cta = Pro saper plus
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
 # Variables:
