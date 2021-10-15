@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Вийти з { -brand-name-relay }
 nav-profile-sign-out-confirm = Ви впевнені, що бажаєте вийти?
 nav-profile-settings = Налаштування
 nav-profile-settings-tooltip = Налаштувати { -brand-name-firefox-relay }
+nav-profile-help = Довідка та підтримка
+nav-profile-help-tooltip = Отримати допомогу щодо користування { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Зв'язатися з нами
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Зв’язатися щодо { -brand-name-relay-premium }
 nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -157,6 +163,7 @@ faq-question-6-question = Що станеться, якщо { -brand-name-mozill
 faq-question-6-answer = Ми повідомимо вас заздалегідь, що вам потрібно змінити адресу е-пошти будь-яких облікових записів, які використовують псевдоадресу { -brand-name-relay }.
 faq-question-7-question = Що робити, якщо електронний лист, надісланий на мою псевдоадресу, містить вкладення?
 faq-question-7-answer = Тепер ми підтримуємо пересилання вкладених файлів. Однак існує обмеження { email-size-limit } для пересилання е-пошти за допомогою { -brand-name-relay }. Усі електронні листи розміром понад { email-size-limit } не пересилатимуться.
+faq-question-8-question = Які дані збирає { -brand-name-firefox-relay }?
 
 ## Profile Page (Logged In)
 
@@ -209,10 +216,6 @@ profile-stat-label-blocked = Заблоковані електронні лис�
 profile-stat-label-forwarded = Переслані електронні листи
 profile-stat-label-aliases-used = Використовувані псевдоадреси е-пошти
 profile-filter-search-placeholder = Шукати псевдоадреси
-profile-filter-category-option-active-aliases = Активні псевдоадреси
-profile-filter-category-option-disabled-aliases = Вимкнені псевдоадреси
-profile-filter-category-option-relay-aliases = Псевдоадреси Relay
-profile-filter-category-option-domain-based-aliases = Псевдоадреси на основі домену
 
 ## Banner Messages (displayed on the profile page)
 
