@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = 退出 { -brand-name-relay }
 nav-profile-sign-out-confirm = 您确定要退出登录吗？
 nav-profile-settings = 设置
 nav-profile-settings-tooltip = 设置 { -brand-name-firefox-relay }
+nav-profile-help = 帮助和支持
+nav-profile-help-tooltip = 获取 { -brand-name-relay } 的使用帮助
+# This is only visible to Premium users.
+nav-profile-contact = 联系我们
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
 
 ## Footer
@@ -143,6 +149,7 @@ faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-r
 faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
 faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
+faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 
 ## Profile Page (Logged In)
 
@@ -195,10 +202,6 @@ profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used = 已用的邮箱马甲
 profile-filter-search-placeholder = 搜索马甲
-profile-filter-category-option-active-aliases = 使用中的马甲
-profile-filter-category-option-disabled-aliases = 已禁用的马甲
-profile-filter-category-option-relay-aliases = 转发马甲
-profile-filter-category-option-domain-based-aliases = 域名马甲
 
 ## Banner Messages (displayed on the profile page)
 
@@ -232,6 +235,8 @@ banner-pack-upgrade-cta = 立即升级
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
+banner-label-data-notification-header-v2 = 启用新功能
+banner-label-data-notification-body-cta = 详细了解
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的域名是：
 # Variables:
@@ -243,6 +248,7 @@ banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain 
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = 您的域名 @{ $subdomain } 已创建
+success-settings-update = 您的设置已更新。
 
 ## Error Messages
 
