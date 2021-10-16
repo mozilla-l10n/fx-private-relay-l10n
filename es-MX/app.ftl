@@ -47,6 +47,7 @@ nav-profile-sign-out-relay = Cerrar sesión en { -brand-name-relay }
 nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
 nav-profile-settings = Ajustes
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
+nav-profile-help = Ayuda y soporte
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
@@ -71,7 +72,7 @@ bento-button-close-label = Cerrar menú
 
 ## Home Page
 
-home-hero-headline = Ocultar tu dirección de correo real para ayudar a proteger tu identidad
+home-hero-headline = Oculta tu dirección de correo real para ayudar a proteger tu identidad
 home-hero-copy =
     Comparte tus alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tus cuentas en línea de los piratas informáticos.
     Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
@@ -106,6 +107,7 @@ email-size-limit = { $size } { $unit }
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
+profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
@@ -114,10 +116,13 @@ profile-label-click-to-copy = Clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
-profile-filter-category-option-active-aliases = Alias activos
 
 ## Banner Messages (displayed on the profile page)
 
+banner-choose-subdomain-input-placeholder = Buscar dominio
+banner-label-data-notification-body-cta = Saber más
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Tu dominio es:
 
 ## Success Messages
 
@@ -148,3 +153,7 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
