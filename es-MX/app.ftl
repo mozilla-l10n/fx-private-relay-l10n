@@ -88,6 +88,7 @@ hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico 
 ## FAQ Page
 
 faq-headline = Preguntas frecuentes
+faq-question-1-question = ¿Qué pasa con el spam?
 
 ## Settings page
 
@@ -96,6 +97,7 @@ settings-meta-help-label = Ayuda y soporte
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
+faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 # String used to display the attachment limit, e.g. 150 KB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -109,6 +111,7 @@ email-size-limit = { $size } { $unit }
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-saved = ¡Etiqueta guardada!
+profile-label-generate-new-alias = Generar nuevo alias
 profile-label-apply = Aplicar
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
