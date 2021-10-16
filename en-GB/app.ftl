@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Sign Out of { -brand-name-relay }
 nav-profile-sign-out-confirm = Are you sure you want to sign out?
 nav-profile-settings = Settings
 nav-profile-settings-tooltip = Configure { -brand-name-firefox-relay }
+nav-profile-help = Help and support
+nav-profile-help-tooltip = Get help using { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Contact us
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Get in touch about { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
@@ -157,6 +163,11 @@ faq-question-6-question = What happens if { -brand-name-mozilla } shuts down the
 faq-question-6-answer = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } aliases.
 faq-question-7-question = What if an email sent to my alias contains an attachment?
 faq-question-7-answer = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
+faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
 
 ## Profile Page (Logged In)
 
@@ -209,10 +220,16 @@ profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used = Email aliases used
 profile-filter-search-placeholder = Search aliases
-profile-filter-category-option-active-aliases = Active aliases
-profile-filter-category-option-disabled-aliases = Disabled aliases
-profile-filter-category-option-relay-aliases = Relay aliases
-profile-filter-category-option-domain-based-aliases = Domain-based aliases
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Forwarding aliases
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blocking aliases
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Random aliases
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Critical-only aliases
 
 ## Banner Messages (displayed on the profile page)
 
@@ -247,6 +264,9 @@ banner-pack-upgrade-cta = Upgrade Now
 banner-label-data-notification-header = Coming soon to { -brand-name-relay }
 banner-label-data-notification-body = You can allow { -brand-name-relay } to collect optional data on the web sites where your aliases are used to support future features. Allowing this data collection from the “Settings” page will make managing your inbox even easier.
 banner-label-data-notification-cta = Go to Settings
+banner-label-data-notification-header-v2 = Enable new features
+banner-label-data-notification-body-v2 = You can allow { -brand-name-relay } to collect optional data that allows us to synchronise your alias labels across your devices with the web sites where they’re created and used.
+banner-label-data-notification-body-cta = Learn More
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Your domain is:
 # Variables:
@@ -258,6 +278,7 @@ banner-choose-subdomain-description = You can make up any address @{ $subdomain 
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Your domain @{ $subdomain } has been created
+success-settings-update = Your settings have been updated
 
 ## Error Messages
 
