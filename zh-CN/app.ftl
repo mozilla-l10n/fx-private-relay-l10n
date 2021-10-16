@@ -202,6 +202,14 @@ profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used = 已用的邮箱马甲
 profile-filter-search-placeholder = 搜索马甲
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = 转发中马甲
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = 已屏蔽马甲
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = 随机马甲
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = 自定义马甲
 
 ## Banner Messages (displayed on the profile page)
 
