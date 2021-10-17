@@ -164,6 +164,10 @@ faq-question-6-answer = Te notificaremos con antelación que debes cambiar la di
 faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
 faq-question-7-answer = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus alias de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
 
 ## Profile Page (Logged In)
 
@@ -178,6 +182,7 @@ profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-edit = Editar la etiqueta de este alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Añadir nombre de cuenta
+profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
@@ -215,6 +220,16 @@ profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used = Alias utilizados
 profile-filter-search-placeholder = Buscar alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Alias con reenvío
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Alias bloqueados
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Solo alias críticos
 
 ## Banner Messages (displayed on the profile page)
 
@@ -249,6 +264,9 @@ banner-pack-upgrade-cta = Actualizar ahora
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-body = Puedes permitir que { -brand-name-relay } recopile datos opcionales en los sitios web donde se utilizan tus alias para admitir funcionalidades futuras. Autorizar esta recopilación de datos desde la página “Ajustes” facilitará aún más la administración de tu bandeja de entrada.
 banner-label-data-notification-cta = Ir a Ajustes
+banner-label-data-notification-header-v2 = Activar nuevas funciones
+banner-label-data-notification-body-v2 = Puedes permitir que { -brand-name-relay } recopile datos opcionales que nos permitan sincronizar tus etiquetas de alias en todos tus dispositivos con los sitios web donde se han creado y utilizado.
+banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
 # Variables:
@@ -260,6 +278,7 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Se ha creado tu dominio @{ $subdomain }
+success-settings-update = Se han actualizado tus ajustes.
 
 ## Error Messages
 
