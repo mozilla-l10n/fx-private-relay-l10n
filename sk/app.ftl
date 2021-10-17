@@ -88,6 +88,12 @@ nav-profile-sign-out-relay = Odhlásiť sa zo služby { -brand-name-relay }
 nav-profile-sign-out-confirm = Naozaj sa chcete odhlásiť?
 nav-profile-settings = Nastavenia
 nav-profile-settings-tooltip = Nastavenia služby { -brand-name-firefox-relay }
+nav-profile-help = Pomoc a podpora
+nav-profile-help-tooltip = Získať pomoc s používaním služby { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Kontaktujte nás
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Kontaktujte nás ohľadom služby { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization: "lowercase") }
 
 ## Footer
@@ -198,6 +204,11 @@ faq-question-6-question = Čo sa stane, ak { -brand-name-mozilla } vypne službu
 faq-question-6-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
 faq-question-7-question = Čo keď e-mail odoslaný na môj alias obsahuje prílohu?
 faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
+faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhromažďuje?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>oznámenie o ochrane súkromia</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové aliasy, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
 
 ## Profile Page (Logged In)
 
@@ -250,10 +261,16 @@ profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used = Použité e-mailové aliasy
 profile-filter-search-placeholder = Hľadať v aliasoch
-profile-filter-category-option-active-aliases = Aktívne aliasy
-profile-filter-category-option-disabled-aliases = Blokované aliasy
-profile-filter-category-option-relay-aliases = Aliasy služby Relay
-profile-filter-category-option-domain-based-aliases = Aliasy založené na doméne
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Preposielané aliasy
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blokované aliasy
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Náhodné aliasy
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Vlastné aliasy
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Aliasy preposielajúce iba kritické správy
 
 ## Banner Messages (displayed on the profile page)
 
@@ -288,6 +305,9 @@ banner-pack-upgrade-cta = Inovovať teraz
 banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
 banner-label-data-notification-body = Službe { -brand-name-relay } môžete povoliť zhromažďovať voliteľné údaje na webových stránkach, kde sa vaše aliasy používajú s cieľom podporiť vývoj budúcich funkcií. Povolenie tohto zhromažďovania údajov na stránke Nastavenia ešte viac uľahčí správu vašej doručenej pošty.
 banner-label-data-notification-cta = Prejsť do nastavení
+banner-label-data-notification-header-v2 = Povolenie nových funkcií
+banner-label-data-notification-body-v2 = Môžete službe { -brand-name-relay } povoliť zhromažďovať voliteľné údaje, ktoré nám umožňujú synchronizovať štítky vašich aliasov vo vašich zariadeniach so stránkami, pre ktoré sú vytvorené a na ktorých sú používané.
+banner-label-data-notification-body-cta = Ďalšie informácie
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vaša doména je:
 # Variables:
@@ -299,6 +319,7 @@ banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu 
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Vaša doména @{ $subdomain } bola vytvorená
+success-settings-update = Vaše nastavenia boli aktualizované.
 
 ## Error Messages
 
