@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Cerrar sesión en { -brand-name-relay }
 nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar la sesión?
 nav-profile-settings = Ajustes
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
+nav-profile-help = Ayuda y apoyo
+nav-profile-help-tooltip = Obtén ayuda sobre el uso de { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Contacta con nosotros
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Contacta con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account }
 
 ## Footer
@@ -157,6 +163,7 @@ faq-question-6-question = ¿Qué sucede si { -brand-name-mozilla } cierra el ser
 faq-question-6-answer = Te notificaremos con antelación que debes cambiar la dirección de correo electrónico de cualquier cuenta que utilice un alias de { -brand-name-relay }.
 faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
 faq-question-7-answer = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
+faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 
 ## Profile Page (Logged In)
 
@@ -208,10 +215,6 @@ profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used = Alias utilizados
 profile-filter-search-placeholder = Buscar alias
-profile-filter-category-option-active-aliases = Alias activos
-profile-filter-category-option-disabled-aliases = Alias desactivados
-profile-filter-category-option-relay-aliases = Alias de reenvío
-profile-filter-category-option-domain-based-aliases = Alias basados en dominios
 
 ## Banner Messages (displayed on the profile page)
 
