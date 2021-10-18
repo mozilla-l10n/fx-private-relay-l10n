@@ -55,6 +55,8 @@ nav-profile-help = Guida e supporto
 nav-profile-help-tooltip = Ottieni assistenza sull’utilizzo di { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Contatti
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Contattaci riguardo a { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 
 ## Footer
@@ -165,6 +167,11 @@ faq-question-6-question = Che cosa succede se { -brand-name-mozilla } chiude il 
 faq-question-6-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
 faq-question-7-question = Che cosa succede alle email con allegati inviate al mio alias?
 faq-question-7-answer = Ora supportiamo anche l’inoltro degli allegati, tuttavia c’è un limite alle dimensioni: { -brand-name-relay } non inoltrerà i messaggi più grandi di { email-size-limit }.
+faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
 
 ## Profile Page (Logged In)
 
@@ -217,6 +224,14 @@ profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used = Alias utilizzati
 profile-filter-search-placeholder = Cerca alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Alias con inoltro attivo
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Alias casuali
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Alias personalizzati
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Alias con inoltro essenziale
 
 ## Banner Messages (displayed on the profile page)
 
@@ -251,6 +266,7 @@ banner-pack-upgrade-cta = Aggiorna adesso
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
 banner-label-data-notification-body = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi sui siti web dove vengono utilizzati i tuoi alias per supportare funzionalità future. Autorizzare questa raccolta dati dalla pagina “Impostazioni” renderà ancora più semplice la gestione della tua casella di posta.
 banner-label-data-notification-cta = Vai alle impostazioni
+banner-label-data-notification-header-v2 = Attiva nuove funzioni
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Il tuo dominio è:
 # Variables:
