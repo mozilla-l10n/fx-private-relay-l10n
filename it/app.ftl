@@ -51,6 +51,10 @@ nav-profile-sign-out-relay = Disconnetti da { -brand-name-relay }
 nav-profile-sign-out-confirm = Effettuare la disconnessione?
 nav-profile-settings = Impostazioni
 nav-profile-settings-tooltip = Configura { -brand-name-firefox-relay }
+nav-profile-help = Guida e supporto
+nav-profile-help-tooltip = Ottieni assistenza sull’utilizzo di { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Contatti
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 
 ## Footer
@@ -213,10 +217,6 @@ profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used = Alias utilizzati
 profile-filter-search-placeholder = Cerca alias
-profile-filter-category-option-active-aliases = Alias attivi
-profile-filter-category-option-disabled-aliases = Alias disattivati
-profile-filter-category-option-relay-aliases = Alias di inoltro
-profile-filter-category-option-domain-based-aliases = Alias per dominio
 
 ## Banner Messages (displayed on the profile page)
 
