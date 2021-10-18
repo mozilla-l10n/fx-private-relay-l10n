@@ -47,6 +47,12 @@ nav-profile-sign-out-relay = Allgofnodi o { -brand-name-relay }
 nav-profile-sign-out-confirm = Ydych chi'n siŵr eich bod eisiau allgofnodi?
 nav-profile-settings = Gosodiadau
 nav-profile-settings-tooltip = Ffurfweddu { -brand-name-firefox-relay }
+nav-profile-help = Cymorth a chefnogaeth
+nav-profile-help-tooltip = Cael cymorth i ddefnyddio { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Cysylltu â ni
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Cysylltwch â ni ynghylch { -brand-name-relay }
 nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -157,6 +163,11 @@ faq-question-6-question = Beth fydd yn digwydd os bydd { -brand-name-mozilla } y
 faq-question-6-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
 faq-question-7-question = Beth os yw e-bost sy'n cael ei anfon at fy arallenw'n cynnwys atodiad?
 faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
+faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
 
 ## Profile Page (Logged In)
 
@@ -209,10 +220,6 @@ profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 profile-stat-label-aliases-used = Arallenwau e-bost wedi'u defnyddio
 profile-filter-search-placeholder = Chwilio arallenwau
-profile-filter-category-option-active-aliases = Arallenawau gweithredol
-profile-filter-category-option-disabled-aliases = Arallenwau wedi'u hanalluogi
-profile-filter-category-option-relay-aliases = Arallenwau Relay
-profile-filter-category-option-domain-based-aliases = Arallenwau ar sail parth
 
 ## Banner Messages (displayed on the profile page)
 
