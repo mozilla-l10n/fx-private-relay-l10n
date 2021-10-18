@@ -45,6 +45,14 @@ nav-profile-manage-fxa = Gerenciar sua { -brand-name-firefox-account(capitalizat
 nav-profile-sign-out = Sair
 nav-profile-sign-out-relay = Sair do { -brand-name-relay }
 nav-profile-sign-out-confirm = Tem certeza que quer sair?
+nav-profile-settings = Configurações
+nav-profile-settings-tooltip = Configurar o { -brand-name-firefox-relay }
+nav-profile-help = Ajuda e suporte
+nav-profile-help-tooltip = Obtenha ajuda sobre como usar o { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Fale conosco
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Entre em contato sobre o { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -116,7 +124,8 @@ settings-error-save-description = Suas alterações nas configurações não for
 settings-warning-collection-off-heading = Está desativada a função de rótulo de endereço de redirecionamento
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou endereços de redirecionamento de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
-setting-label-collection-heading = Armazenar rótulos de endereços de redirecionamento
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacidade
 setting-label-collection-description = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde seus endereços de redirecionamento foram criados e usados.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
@@ -154,6 +163,7 @@ faq-question-6-question = O que acontece se a { -brand-name-mozilla } encerrar o
 faq-question-6-answer = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
 faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
 faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
+faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 
 ## Profile Page (Logged In)
 
@@ -168,6 +178,7 @@ profile-promo-upgrade-cta = Mudar para a versão premium do { -brand-name-relay 
 profile-label-edit = Editar o rótulo deste endereço de redirecionamento
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Adicionar nome da conta
+profile-label-save-error = Falha ao salvar, tente novamente.
 profile-label-saved = Rótulo salvo!
 profile-label-generate-new-alias = Gerar novo endereço de redirecionamento
 profile-label-delete = Excluir
@@ -205,10 +216,16 @@ profile-stat-label-blocked = Emails bloqueados
 profile-stat-label-forwarded = Emails encaminhados
 profile-stat-label-aliases-used = Endereços de redirecionamento de email usados
 profile-filter-search-placeholder = Pesquisar endereços de redirecionamento
-profile-filter-category-option-active-aliases = Endereços de redirecionamento ativos
-profile-filter-category-option-disabled-aliases = Endereços de redirecionamento desativados
-profile-filter-category-option-relay-aliases = Endereços de redirecionamento
-profile-filter-category-option-domain-based-aliases = Endereços de redirecionamento baseados em domínio
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Endereços de redirecionamento com encaminhamento
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Endereços de redirecionamento com bloqueio
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Endereços de redirecionamento aleatórios
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Endereços de redirecionamento personalizados
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Endereços de redirecionamento que só encaminham emails críticos
 
 ## Banner Messages (displayed on the profile page)
 
@@ -243,6 +260,8 @@ banner-pack-upgrade-cta = Mude agora para a versão premium
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
 banner-label-data-notification-body = Você pode permitir que o { -brand-name-relay } colete dados opcionais nos sites onde seus endereços de redirecionamento são usados, para oferecer suporte a futuros recursos. Permitir esta coleta de dados na página “Configurações” facilita ainda mais o gerenciamento da sua caixa de entrada.
 banner-label-data-notification-cta = Ir para configurações
+banner-label-data-notification-body-v2 = Você pode permitir que o { -brand-name-relay } colete dados opcionais que nos permitem sincronizar seus rótulos de endereços de redirecionamento em seus dispositivos, com os sites onde são criados e usados.
+banner-label-data-notification-body-cta = Saiba mais
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Seu domínio é:
 # Variables:
@@ -254,6 +273,7 @@ banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $su
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Seu domínio @{ $subdomain } foi criado
+success-settings-update = Suas configurações foram atualizadas
 
 ## Error Messages
 
