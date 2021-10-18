@@ -226,6 +226,8 @@ profile-stat-label-aliases-used = Alias utilizzati
 profile-filter-search-placeholder = Cerca alias
 # Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-aliases-v2 = Alias con inoltro attivo
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Alias con blocco attivo
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Alias casuali
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -267,6 +269,8 @@ banner-label-data-notification-header = Disponibile a breve su { -brand-name-rel
 banner-label-data-notification-body = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi sui siti web dove vengono utilizzati i tuoi alias per supportare funzionalità future. Autorizzare questa raccolta dati dalla pagina “Impostazioni” renderà ancora più semplice la gestione della tua casella di posta.
 banner-label-data-notification-cta = Vai alle impostazioni
 banner-label-data-notification-header-v2 = Attiva nuove funzioni
+banner-label-data-notification-body-v2 = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi che ci consentono di sincronizzare le etichette degli alias su tutti i tuoi dispositivi, insieme ai siti web dove li hai generati e utilizzati.
+banner-label-data-notification-body-cta = Ulteriori informazioni
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Il tuo dominio è:
 # Variables:
@@ -278,6 +282,7 @@ banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdom
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Il dominio @{ $subdomain } è stato creato
+success-settings-update = Le impostazioni sono state aggiornate.
 
 ## Error Messages
 
