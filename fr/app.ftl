@@ -51,6 +51,12 @@ nav-profile-sign-out-relay = Déconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Voulez-vous vraiment vous déconnecter ?
 nav-profile-settings = Paramètres
 nav-profile-settings-tooltip = Configurer { -brand-name-firefox-relay }
+nav-profile-help = Aide et assistance
+nav-profile-help-tooltip = Obtenir de l’aide pour utiliser { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Nous contacter
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Nous contacter à propos de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 
 ## Footer
@@ -113,6 +119,7 @@ settings-headline = Paramètres de { -brand-name-relay }
 settings-meta-contact-label = Nous contacter
 settings-meta-contact-tooltip = Contactez-nous à propos de { -brand-name-relay }
 settings-meta-help-label = Aide et assistance
+settings-meta-help-tooltip = Obtenir de l’aide pour utiliser { -brand-name-relay }
 settings-meta-status-label = État du service
 settings-meta-status-tooltip = Vérifiez si tous les systèmes de { -brand-name-relay } sont actuellement opérationnels.
 settings-error-save-heading = Échec de la modification des paramètres
@@ -202,10 +209,6 @@ profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used = Alias utilisés
 profile-filter-search-placeholder = Rechercher des alias
-profile-filter-category-option-active-aliases = Alias actifs
-profile-filter-category-option-disabled-aliases = Alias désactivés
-profile-filter-category-option-relay-aliases = Alias de relais
-profile-filter-category-option-domain-based-aliases = Alias par domaines
 
 ## Banner Messages (displayed on the profile page)
 
