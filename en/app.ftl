@@ -115,15 +115,18 @@ landing-how-it-works-step-3-body = Sign in to the { -brand-name-relay } dashboar
 ## Pricing section
 
 # Variables:
-#   $USD (string) - currency
-landing-pricing-headline = Limited-time only: Unlimited aliases for 1{ $usd } per month
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Limited-time only: Unlimited aliases for { $monthly_price } per month
 landing-pricing-body = Try { -brand-name-firefox-relay } aliases and start protecting your email inbox. 
     Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
 landing-pricing-free-price = Free
 landing-pricing-free-feature-1 = Up to 5 email aliases
 landing-pricing-free-feature-2 = Browser extension
 landing-pricing-free-cta = Get { -brand-name-relay }
-landing-pricing-premium-price = { $usd }/month
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
 landing-pricing-premium-feature-1 = Unlimited email aliases
 landing-pricing-premium-feature-2 = Browser extension
 landing-pricing-premium-feature-3 = Your own email domain
