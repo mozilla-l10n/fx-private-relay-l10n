@@ -132,9 +132,44 @@ landing-how-it-works-step-3-body =
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Лише обмежений час: необмежена кількість псевдоадрес за { $monthly_price } на місяць
+landing-pricing-body =
+    Спробуйте псевдоадреси { -brand-name-firefox-relay } і почніть захищати свою поштову скриньку.
+    Потім оновіться до { -brand-name-relay-premium } для ще більшої гнучкості та індивідуального керування.
+landing-pricing-free-price = Безплатно
+landing-pricing-free-feature-1 = До 5 псевдоадрес електронної пошти
+landing-pricing-free-feature-2 = Розширення для браузера
+landing-pricing-free-cta = Отримати { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-1 = Необмежена кількість псевдоадрес електронної пошти
+landing-pricing-premium-feature-2 = Розширення для браузера
+landing-pricing-premium-feature-3 = Ваш власний домен електронної пошти
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Відповідайте на переслані електронні листи
 
 ## Use Cases
 
+landing-use-cases-shopping = Закупи
+landing-use-cases-shopping-body =
+    Купуєте щось в новому інтернет-магазині? Під час здійснення онлайн-закупів скористайтеся псевдоадресою { -brand-name-relay } замість своєї електронної пошти.
+    Ми надішлемо квитанцію на вашу справжню електронну адресу, і якщо ви почнете отримувати листи, які вам не подобаються, просто вимкніть пересилання електронної пошти.
+landing-use-cases-social-networks = Суспільні мережі:
+landing-use-cases-social-networks-body =
+    Хочете краще захистити свою особистість в інтернеті користуючись суспільною мережею?
+    Намагаєтесь утримати вашу справжню електронну пошту від прив’язки до ваших суспільних мереж? Скористайтеся псевдоадресою { -brand-name-relay } для входу та захисту себе в інтернеті.
+landing-use-cases-offline = Офлайн
+landing-use-cases-offline-body =
+    Бажаєте отримувати квитанції електронною поштою, але хочете також уникнути маркетингового спаму?
+    Використовуйте псевдоадресу { -brand-name-relay } замість своєї електронної пошти, коли отримуєте не паперову квитанцію у крамниці.
+    Ми надішлемо квитанцію на вашу справжню електронну адресу, і якщо ви почнете отримувати листи, які вам не подобаються, просто вимкніть пересилання електронної пошти.
+landing-use-cases-access-content = Доступ до вмісту
+landing-use-cases-access-content-body =
+    Хочете підписатися на цю розсилку, але не довіряєте відправнику?
+    Використовуйте псевдоадресу замість своєї справжньої адреси — якщо ви починаєте отримувати небажані електронні листи через цю псевдоадресу, відправник, можливо, продав вашу псевдоадресу іншим маркетологам, або він навіть міг зазнати витоку даних.
+    Просто вимкніть або видаліть псевдоадресу, щоб захистити свою поштову скриньку.
+landing-use-cases-gaming = Ігри
 
 ## FAQ Page
 
