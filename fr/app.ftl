@@ -121,13 +121,16 @@ settings-meta-contact-tooltip = Contactez-nous à propos de { -brand-name-relay 
 settings-meta-help-label = Aide et assistance
 settings-meta-help-tooltip = Obtenir de l’aide pour utiliser { -brand-name-relay }
 settings-meta-status-label = État du service
-settings-meta-status-tooltip = Vérifiez si tous les systèmes de { -brand-name-relay } sont actuellement opérationnels.
+settings-meta-status-tooltip = Vérifier si tous les systèmes de { -brand-name-relay } sont actuellement opérationnels.
 settings-error-save-heading = Échec de la modification des paramètres
 settings-error-save-description = Vos paramètres n’ont pas pu être enregistrés en raison d’une erreur de connexion. Veuillez réessayer.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = La fonction de nommage des alias de messagerie est désactivée
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } n’est actuellement pas autorisé à collecter les données indiquant les sites sur lesquels vous avez généré et utilisé des alias d’e-mail. Vous pouvez modifier ce choix dans « Paramètres » sous « Collecte de données ».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Vie privée
+setting-label-collection-description = Autoriser { -brand-name-relay } à collecter des données indiquant les sites sur lesquels vos alias sont créés et utilisés.
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 # Variables:
