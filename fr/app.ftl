@@ -165,6 +165,7 @@ faq-question-6-question = Que se passera-t-il si { -brand-name-mozilla } arrête
 faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
 faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
 faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
+faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
 
 ## Profile Page (Logged In)
 
