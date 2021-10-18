@@ -124,6 +124,10 @@ settings-meta-status-label = État du service
 settings-meta-status-tooltip = Vérifiez si tous les systèmes de { -brand-name-relay } sont actuellement opérationnels.
 settings-error-save-heading = Échec de la modification des paramètres
 settings-error-save-description = Vos paramètres n’ont pas pu être enregistrés en raison d’une erreur de connexion. Veuillez réessayer.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = La fonction de nommage des alias de messagerie est désactivée
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Vie privée
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 # Variables:
@@ -172,6 +176,7 @@ profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
 profile-label-edit = Modifier le nom de cet alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Ajouter un nom de compte
+profile-label-save-error = Échec de l’enregistrement, veuillez réessayer.
 profile-label-saved = Nom enregistré !
 profile-label-generate-new-alias = Générer un nouvel alias
 profile-label-delete = Supprimer
@@ -209,6 +214,14 @@ profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used = Alias utilisés
 profile-filter-search-placeholder = Rechercher des alias
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Alias bloqués
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Alias aléatoires
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Alias personnalisés
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Alias critiques uniquement
 
 ## Banner Messages (displayed on the profile page)
 
@@ -241,7 +254,11 @@ banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre prop
 banner-pack-upgrade-cta = Mettre à niveau maintenant
 # Data Notification Banner:
 banner-label-data-notification-header = Prochainement dans { -brand-name-relay }
+banner-label-data-notification-body = Vous pouvez autoriser { -brand-name-relay } à collecter des données facultatives sur les sites web où vos alias sont utilisés pour prendre en charge des fonctionnalités futures. Autoriser cette collecte de données à partir de la page « Paramètres » rendra la gestion de votre boîte de réception encore plus facile.
 banner-label-data-notification-cta = Ouvrir les paramètres
+banner-label-data-notification-header-v2 = Activer les nouvelles fonctionnalités
+banner-label-data-notification-body-v2 = Vous pouvez autoriser { -brand-name-relay } à collecter des données facultatives qui nous permettent de synchroniser vos noms d’alias sur vos appareils avec les sites web sur lesquels ils sont créés et utilisés.
+banner-label-data-notification-body-cta = En savoir plus
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Votre domaine est :
 # Variables:
@@ -253,6 +270,7 @@ banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adre
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Votre domaine @{ $subdomain } a été créé
+success-settings-update = Vos paramètres ont été mis à jour
 
 ## Error Messages
 
@@ -342,3 +360,6 @@ vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Ce message a été transféré depuis { $display_email } par { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
