@@ -52,7 +52,7 @@ nav-profile-help-tooltip = Cael cymorth i ddefnyddio { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Cysylltu â ni
 # This is only visible to Premium users.
-nav-profile-contact-tooltip = Cysylltu â ni ynghylch { -brand-name-relay }
+nav-profile-contact-tooltip = Cysylltu â ni ynghylch { -brand-name-relay-premium }
 nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -265,7 +265,7 @@ banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
 banner-label-data-notification-body = Gallwch adael i { -brand-name-relay } gasglu data dewisol ar y gwefannau lle mae eich arallenwau'n cael eu defnyddio i gefnogi nodweddion y dyfodol. Bydd caniatáu casglu'r data hwn o'r dudalen “Gosodiadau” yn ei gwneud yn haws rheoli eich blwch derbyn.
 banner-label-data-notification-cta = Mynd i'r Gosodiadau
 banner-label-data-notification-header-v2 = Galluogi nodweddion newydd
-banner-label-data-notification-body-v2 = Gallwch ganiatáu i Relay gasglu data dewisol sy'n ein galluogi i gydweddu labeli arallenwau eich holl ddyfeisiau â'r gwefannau lle maen nhw wedi'u creu a'u defnyddio.
+banner-label-data-notification-body-v2 = Gallwch ganiatáu i { -brand-name-relay } gasglu data dewisol sy'n ein galluogi i gydweddu labeli arallenwau eich holl ddyfeisiau â'r gwefannau lle maen nhw wedi'u creu a'u defnyddio.
 banner-label-data-notification-body-cta = Dysgu Rhagor
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Eich parth yw:
