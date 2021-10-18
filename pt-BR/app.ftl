@@ -164,6 +164,10 @@ faq-question-6-answer = Avisaremos com antecedência que você precisará altera
 faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
 faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
+# Variables:
+#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
 
 ## Profile Page (Logged In)
 
@@ -260,6 +264,7 @@ banner-pack-upgrade-cta = Mude agora para a versão premium
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
 banner-label-data-notification-body = Você pode permitir que o { -brand-name-relay } colete dados opcionais nos sites onde seus endereços de redirecionamento são usados, para oferecer suporte a futuros recursos. Permitir esta coleta de dados na página “Configurações” facilita ainda mais o gerenciamento da sua caixa de entrada.
 banner-label-data-notification-cta = Ir para configurações
+banner-label-data-notification-header-v2 = Ativar novos recursos
 banner-label-data-notification-body-v2 = Você pode permitir que o { -brand-name-relay } colete dados opcionais que nos permitem sincronizar seus rótulos de endereços de redirecionamento em seus dispositivos, com os sites onde são criados e usados.
 banner-label-data-notification-body-cta = Saiba mais
 # This string is followed by name (string) that the user chooses
