@@ -103,6 +103,31 @@ hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för
 hero-image-copy-protect-html = ... så att du kan <strong>skydda din riktiga e-postadress</strong> från spårning och skräppost.
 hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer till din inkorg!
 
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+
+## Pricing section
+
+landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Upp till 5 e-postalias
+landing-pricing-free-feature-2 = Webbläsartillägg
+landing-pricing-free-cta = Hämta { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price } / månad
+landing-pricing-premium-feature-1 = Obegränsade e-postalias
+landing-pricing-premium-feature-2 = Webbläsartillägg
+landing-pricing-premium-feature-3 = Din egen e-postdomän
+
+## Use Cases
+
+
 ## FAQ Page
 
 faq-headline = Vanliga frågor
@@ -165,7 +190,7 @@ faq-question-7-question = Vad händer om ett e-postmeddelande som skickats till 
 faq-question-7-answer = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns på { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
 
