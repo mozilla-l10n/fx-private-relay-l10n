@@ -85,6 +85,22 @@ how-it-works-step-3-headline = Administra tus alias
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+
+## Pricing section
+
+landing-pricing-free-price = Gratis
+
+## Use Cases
+
+
 ## FAQ Page
 
 faq-headline = Preguntas frecuentes
