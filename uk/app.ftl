@@ -207,6 +207,19 @@ faq-headline = Часті запитання
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Що таке псевдоадреси { -brand-name-relay }?
 faq-question-what-is-answer = Псевдоадреси електронної пошти — це замасковані адреси електронної пошти, які пересилають повідомлення на вашу справжню адресу електронної пошти. Вони надають вам змогу ділитися адресою зі сторонніми, маскуючи вашу справжню адресу електронної пошти та пересилатимуть на неї повідомлення.
+faq-question-missing-emails-question = Я не отримую повідомлень від своїх псевдоадрес
+faq-question-missing-emails-answer-a = Є кілька причин, чому ви не отримуєте електронні листи, переадресовані за допомогою ваших псевдоадрес. Серед них:
+faq-question-missing-emails-answer-reason-spam = Повідомлення потрапляють у спам
+faq-question-missing-emails-answer-reason-blocked = Ваш постачальник електронної пошти блокує вашу псевдоадресу
+faq-question-missing-emails-answer-reason-size = Пересланий електронний лист містить вкладення обсягом понад { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Сайт не приймає псевдоадреси
+faq-question-missing-emails-answer-reason-turned-off = Можливо, переадресацію вимкнено
+faq-question-missing-emails-answer-reason-delay = Можливо, для пересилання ваших повідомлень { -brand-name-relay } знадобиться більше часу, ніж зазвичай
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Якщо ви користувач { -brand-name-relay-premium }, який стикається з будь-якою з цих проблем, <a href="{ $url }" { $attrs }>зверніться до нашої служби підтримки</a>.
+faq-question-use-cases-question = Коли варто користуватися псевдоадресами { -brand-name-relay }?
+faq-question-use-cases-answer = Ви можете використовувати псевдоадреси { -brand-name-relay } у більшості місць, де б використовували свою звичайну адресу електронної пошти. Ми радимо використовувати їх під час реєстрації на маркетингові/інформаційні електронні листи, що дасть змогу контролювати отримувати електронні листи в майбутньому чи ні. Ми не радимо використовувати псевдоадреси, коли вам потрібно підтвердити свою особу або для надсилання дуже важливих електронних листів. Наприклад, ви можете захотіти поділитися своєю справжньою електронною адресою зі своїм банком, лікарем, адвокатом тощо.
 faq-question-2-question = Чому сайт не приймає мою псевдоадресу { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -216,13 +229,24 @@ faq-question-2-answer-html =
     Деякі сайти можуть не приймати адресу е-пошти, яка містить піддомен (тобто частку "relay" у @relay.firefox.com), а інші припинили приймати всі адреси, крім тих, що належать до облікових записів Gmail, Hotmail або Yahoo.
     Оскільки популярність { -brand-name-firefox-relay } зростає і випускається більше псевдоадрес, наша служба може бути розміщена у списку заблокованих.
     Якщо ви не можете користуватись псевдоадресою { -brand-name-relay }, <a href="{ $url }" { $attrs }>повідомте нам про це</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Деякі сайти можуть не приймати адресу е-пошти, яка містить піддомен (тобто частку "relay" у @relay.firefox.com), а інші припинили приймати всі адреси, крім тих, що належать до облікових записів Gmail, Hotmail або Yahoo.
+    Якщо ви не можете користуватись альтернативною адресою { -brand-name-relay }, <a href="{ $url }" { $attrs }>повідомте нам про це</a>.
 faq-question-1-question = А як щодо спаму?
 faq-question-1-answer-a = Хоча { -brand-name-relay } не фільтрує спам, наш партнер е-пошти Amazon SES блокує спам та шкідливе програмне забезпечення. Якщо { -brand-name-relay } пересилає повідомлення, які вам не потрібні, ви можете змінити налаштування { -brand-name-relay }, щоб блокувати повідомлення з псевдоадреси, яка їх пересилає.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Якщо ви бачите, що проблема з небажаною е-поштою стосується усіх ваших псевдоадрес, <a href="{ $url }" { $attrs }>повідомте нам про це</a>, щоб ми могли скоригувати поріг спаму для SES щодо цієї служби. Якщо ви повідомляєте про це як про спам, ваш постачальник е-пошти бачитиме { -brand-name-relay } джерелом спаму, а не справжнього відправника.
+faq-question-availability-question = Де доступний { -brand-name-relay }?
+faq-question-availability-answer = Безплатний { -brand-name-relay } доступний у більшості країн. { -brand-name-relay-premium } доступний у США, Німеччині, Великобританії, Канаді, Сінгапурі, Малайзії, Новій Зеландії, Франції, Бельгії, Австрії, Іспанії, Італії, Швейцарії, Нідерландах та Ірландії.
 faq-question-4-question = Чи можу я відповідати на повідомлення за допомогою своєї псевдоадреси { -brand-name-relay }?
+faq-question-4-answer = Користувачі { -brand-name-relay-premium } можуть відповісти на переслане повідомлення електронної пошти протягом 3 місяців з моменту його отримання. Будь-які адреси копій або прихованих копій не будуть включені у ваші відповіді.
+faq-question-browser-support-question = Чи можна використовувати { -brand-name-relay } в інших браузерах або на мобільному пристрої?
+faq-question-browser-support-answer = Так, ви можете створити псевдоадреси { -brand-name-relay } в інших браузерах або на мобільних пристроях, просто увійшовши на свою інформаційну панель { -brand-name-relay }.
 faq-question-8-question = Які дані збирає { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
