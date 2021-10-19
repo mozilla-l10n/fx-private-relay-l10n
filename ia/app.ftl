@@ -111,6 +111,7 @@ landing-hero-headline = Protege tu real adresse e-mail pro adjutar proteger tu c
 
 ## How it works section
 
+landing-how-it-works-headline = Como functiona illo
 
 ## Pricing section
 
