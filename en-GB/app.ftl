@@ -152,6 +152,27 @@ landing-pricing-premium-feature-4 = Reply to forwarded emails
 ## Use Cases
 
 landing-use-cases-shopping = Shopping
+landing-use-cases-shopping-body =
+    Buying something from a new online shop? Use a { -brand-name-relay } alias instead of your email when making an online purchase. 
+    We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
+landing-use-cases-social-networks = Social Networks
+landing-use-cases-social-networks-body =
+    Want to better protect your online identity when using a social network? 
+    Trying to keep your real email from being tied to your presence on social media? Use a { -brand-name-relay } alias to log in and help protect yourself online.
+landing-use-cases-offline = Offline
+landing-use-cases-offline-body =
+    Prefer to get email receipts, but want to avoid marketing spam too?
+    Use a { -brand-name-relay } alias instead of your email when getting a paperless receipt in a store. 
+    We’ll forward the receipt to your real email address, and if you start getting emails you don’t like, just turn off email forwarding.
+landing-use-cases-access-content = Access Content
+landing-use-cases-access-content-body =
+    Want to sign up for that newsletter, but don’t trust the sender? 
+    Use an alias instead of your real address — if you start getting unwanted emails through that alias, the sender may have sold your alias to other marketers, or it might even have been leaked in a data breach. 
+    Just turn off or delete the alias to protect your email inbox.
+landing-use-cases-gaming = Gaming
+landing-use-cases-gaming-body =
+    Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address? 
+    Use a { -brand-name-relay } alias to put one more layer of protection between your online identity and the games you play online.
 
 ## FAQ Page
 
