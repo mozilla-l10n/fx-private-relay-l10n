@@ -103,6 +103,36 @@ hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</stron
 hero-image-copy-protect-html = … fel y gallwch chi <strong>ddiogelu eich e-bost go iawn</strong> rhag tracio a sbam.
 hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Diogelwch eich cyfeiriad e-bost go iawn i helpu rheoli eich blwch derbyn
+landing-hero-body =
+    Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
+    Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+
+## How it works section
+
+landing-how-it-works-headline = Sut mae'n gweithio
+landing-how-it-works-body = Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i diogelu eich blwch derbyn e-byst, yn ogystal â'ch hunaniaeth.
+landing-how-it-works-step-1-body-cta = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr.
+landing-how-it-works-step-1-body = Cynhyrchu arallenwau e-bost yn awtomatig lle bynnag y byddwch chi'n rhoi'ch cyfeiriad e-bost ar-lein.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Wrth i chi bori, bydd yr eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
+    Dewiswch ef i gynhyrchu cyfeiriad ar hap newydd sy'n gorffen gyda @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Mewngofnodwch i fwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu. Bydd { -brand-name-relay } yn anfon negeseuon ymlaen i'ch cyfeiriad e-bost.
+    Os gwelwch fod un yn derbyn sbam neu negeseuon diofyn, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, yn syth o'r bwrdd gwaith.
+
+## Pricing section
+
+
+## Use Cases
+
+
 ## FAQ Page
 
 faq-headline = Cwestiynau Cyffredin
@@ -165,7 +195,7 @@ faq-question-7-question = Beth os yw e-bost sy'n cael ei anfon at fy arallenw'n 
 faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
 
