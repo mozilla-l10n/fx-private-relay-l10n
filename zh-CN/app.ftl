@@ -113,6 +113,9 @@ landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -bra
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限量马甲
 landing-pricing-free-price = 免费版
 landing-pricing-free-feature-1 = 最多 5 个马甲邮箱
 landing-pricing-free-feature-2 = 浏览器扩展
@@ -186,6 +189,10 @@ faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -b
 faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
 faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = 您可阅读我们的 <a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 
 ## Profile Page (Logged In)
 
