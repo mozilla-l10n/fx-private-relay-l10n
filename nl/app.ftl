@@ -97,7 +97,7 @@ how-it-works-step-2-copy =
 how-it-works-step-3-headline = Uw aliassen beheren
 how-it-works-step-3-copy =
     Meld u aan bij het { -brand-name-relay }-dashboard om de aliassen die u hebt aangemaakt te volgen.
-    Als u merkt dat er een spam of ongewenste berichten ontvangt, kunt u alle berichten blokkeren of zelfs het alias verwijderen, rechtstreeks vanuit het dashboard.
+    Als u merkt dat er een spam of ongewenste berichten ontvangt, kunt u alle berichten blokkeren of zelfs de alias verwijderen, rechtstreeks vanuit het dashboard.
 hero-image-copy-trust = Kunt u dit bedrijf zelfs vertrouwen met uw persoonlijke e-mailadres?
 hero-image-copy-unique-html = <strong>Gebruik een uniek doorstuuradres</strong> voor elke nieuwe account…
 hero-image-copy-protect-html = … zodat u <strong>uw echte e-mailadres</strong> kunt beschermen tegen volgen en spam.
@@ -168,8 +168,8 @@ landing-use-cases-offline-body =
 landing-use-cases-access-content = Toegang tot inhoud
 landing-use-cases-access-content-body =
     Wilt u zich aanmelden voor die nieuwsbrief, maar vertrouwt u de afzender niet?
-    Gebruik een alias in plaats van uw echte adres – als u ongewenste e-mailberichten via dat alias krijgt, heeft de afzender uw alias mogelijk aan anderen verkocht of is het mogelijk zelfs gelekt bij een datalek.
-    Schakel het alias gewoon uit of verwijder het om uw Postvak IN te beschermen.
+    Gebruik een alias in plaats van uw echte adres – als u ongewenste e-mailberichten via die alias krijgt, heeft de afzender uw alias mogelijk aan anderen verkocht of is het mogelijk zelfs gelekt bij een datalek.
+    Schakel de alias gewoon uit of verwijder het om uw Postvak IN te beschermen.
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body =
     Geniet u van online gamen, maar maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
@@ -251,14 +251,14 @@ profile-supports-email-forwarding = { -brand-name-firefox-relay } ondersteunt he
 profile-promo-upgrade-headline = Upgrade voor nog meer functies.
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } om onbeperkte e-mailadressen en uw eigen e-maildomein te krijgen.
 profile-promo-upgrade-cta = { -brand-name-relay } upgraden
-profile-label-edit = Het label voor dit alias bewerken
+profile-label-edit = Het label voor deze alias bewerken
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Accountnaam toevoegen
 profile-label-save-error = Opslaan mislukt, probeer het opnieuw.
 profile-label-saved = Label opgeslagen!
-profile-label-generate-new-alias = Nieuw alias aanmaken
+profile-label-generate-new-alias = Nieuwe alias aanmaken
 profile-label-delete = Verwijderen
-profile-label-delete-alias = Dit alias verwijderen
+profile-label-delete-alias = Deze alias verwijderen
 profile-label-upgrade = Onbeperkte aliassen verkrijgen
 profile-label-create-domain = Uw e-maildomein verkrijgen
 profile-label-domain = E-maildomein:
@@ -390,7 +390,7 @@ onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias
 ## Modals
 
 modal-rename-alias-saved = Label opgeslagen!
-modal-delete-headline = Dit alias definitief verwijderen?
+modal-delete-headline = Deze alias definitief verwijderen?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
