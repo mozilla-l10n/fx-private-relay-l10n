@@ -149,6 +149,9 @@ landing-pricing-premium-feature-4 = Replica al e-mails inultrate
 ## Use Cases
 
 landing-use-cases-shopping = Compras
+landing-use-cases-shopping-body =
+    Compra tu qualcosa de un nove boteca online? Usa un alias { -brand-name-relay } in vice del tu e-mail, quando tu face un compra online. 
+    Nos inultrara le quitantia a tu real adresse e-mail e si tu comencia reciper e-mails que non te place, solo disactiva inultrar e-mail.
 landing-use-cases-social-networks = Retes social
 landing-use-cases-offline = Foras de linea
 landing-use-cases-gaming = Jocos
