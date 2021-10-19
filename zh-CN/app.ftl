@@ -101,22 +101,32 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 ## Hero Section
 
+landing-hero-headline = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰邮箱
+landing-hero-body =
+    { -brand-name-firefox-relay } 马甲邮箱可自动将电子邮件转发到您的真实邮箱，从而保护您的真实邮箱地址免遭泄露。
+    从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account } 注册即可开始使用。
 
 ## How it works section
 
+landing-how-it-works-headline = 工作原理
 landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 
 ## Pricing section
 
+landing-pricing-free-price = 免费版
+landing-pricing-free-cta = 下载 { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
+landing-pricing-premium-feature-2 = 浏览器扩展
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 ## Use Cases
 
+landing-use-cases-shopping = 网购
 landing-use-cases-social-networks = 社交网络
+landing-use-cases-gaming = 游戏
 
 ## FAQ Page
 
