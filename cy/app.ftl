@@ -169,7 +169,7 @@ landing-use-cases-access-content-body =
     Eisiau cofrestru ar gyfer y cylchlythyr hwnnw, ond ddim yn ymddiried yn yr anfonwr?
     Defnyddiwch arallenw yn lle eich cyfeiriad go iawn - os byddwch yn dechrau cael negeseuon e-bost diofyn trwy'r arallenw hwnnw, efallai y bydd yr anfonwr wedi gwerthu eich arallenw i farchnatwyr eraill.  Neu efallai ei fod wedi ei gipio mewn tor-data.
     Diffoddwch neu dilëwch yr arallenw i ddiogelu eich blwch derbyn e-bost.
-landing-use-cases-gaming = Gemau
+landing-use-cases-gaming = Chwarae Gemau
 landing-use-cases-gaming-body =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch arallenw { -brand-name-relay } i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
