@@ -123,12 +123,57 @@ landing-how-it-works-step-1-body = Genereer automatisch e-mailaliassen waar u uw
 landing-how-it-works-step-2-body =
     Terwijl u surft, verschijnt het { -brand-name-relay }-pictogram waar websites om uw e-mailadres vragen.
     Selecteer het om een nieuw, willekeurig adres te genereren dat eindigt op @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Meld u aan bij het { -brand-name-relay }-dashboard om de aliassen die u hebt aangemaakt te volgen. { -brand-name-relay } stuurt berichten door naar uw e-mailadres.
+    
+    Als een alias spam of ongewenste berichten ontvangt, kunt u alle berichten blokkeren of zelfs de alias verwijderen, rechtstreeks vanuit het dashboard.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Tijdelijk aanbod: onbeperkte aliassen voor { $monthly_price } per maand
+landing-pricing-body =
+    Probeer { -brand-name-firefox-relay }-aliassen en begin met het beschermen van uw Postvak IN.
+    Upgrade vervolgens naar { -brand-name-relay-premium } voor nog meer flexibiliteit en aanpasbaarheid.
+landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Maximaal 5 e-mailaliassen
+landing-pricing-free-feature-2 = Browserextensie
+landing-pricing-free-cta = { -brand-name-relay } downloaden
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/maand
+landing-pricing-premium-feature-1 = Onbeperkte e-mailaliassen
+landing-pricing-premium-feature-2 = Browserextensie
+landing-pricing-premium-feature-3 = Uw eigen e-maildomein
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = uwemail@uwdomein.mozmail.com
+landing-pricing-premium-feature-4 = Doorgestuurde e-mailberichten beantwoorden
 
 ## Use Cases
 
+landing-use-cases-shopping = Winkelen
+landing-use-cases-shopping-body =
+    Iets kopen in een nieuwe webshop? Gebruik een { -brand-name-relay }-alias in plaats van uw e-mailadres wanneer u een online aankoop doet.
+    We sturen het ontvangstbewijs door naar uw echte e-mailadres, en als u ongewenste e-mailberichten begint te ontvangen, schakelt u het doorsturen van e-mail gewoon uit.
+landing-use-cases-social-networks = Sociale netwerken
+landing-use-cases-social-networks-body =
+    Wilt u uw online identiteit beter beschermen bij het gebruik van een sociaal netwerk?
+    Probeert u te voorkomen dat uw echte e-mailadres wordt gekoppeld aan uw aanwezigheid op sociale media? Gebruik een { -brand-name-relay }-alias om aan te melden en help uzelf online te beschermen.
+landing-use-cases-offline = Offline
+landing-use-cases-offline-body =
+    Ontvangt u liever e-mailbevestigingen, maar wilt u ook marketingspam vermijden?
+    Gebruik een { -brand-name-relay }-alias in plaats van uw e-mailadres wanneer u een papierloos ontvangstbewijs in een winkel ontvangt.
+    We sturen het ontvangstbewijs door naar uw echte e-mailadres, en als u ongewenste e-mailberichten begint te ontvangen, schakelt u het doorsturen van e-mail gewoon uit.
+landing-use-cases-access-content = Toegang tot inhoud
+landing-use-cases-access-content-body =
+    Wilt u zich aanmelden voor die nieuwsbrief, maar vertrouwt u de afzender niet?
+    Gebruik een alias in plaats van uw echte adres – als u ongewenste e-mailberichten via dat alias krijgt, heeft de afzender uw alias mogelijk aan anderen verkocht of is het mogelijk zelfs gelekt bij een datalek.
+    Schakel het alias gewoon uit of verwijder het om uw Postvak IN te beschermen.
+landing-use-cases-gaming = Gaming
+landing-use-cases-gaming-body =
+    Geniet u van online gamen, maar maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
+    Gebruik een { -brand-name-relay }-alias om een extra beschermingslaag te plaatsen tussen uw online-identiteit en de games die u online speelt.
 
 ## FAQ Page
 
@@ -191,6 +236,10 @@ faq-question-6-answer = We laten u van tevoren weten dat u het e-mailadres van a
 faq-question-7-question = Wat moet ik doen als een e-mailbericht dat naar mijn alias is verzonden een bijlage bevat?
 faq-question-7-answer = We ondersteunen nu het doorsturen van bijlagen. Er is echter een limiet van { email-size-limit } voor het doorsturen van e-mailberichten met { -brand-name-relay }. E-mailberichten die groter zijn dan { email-size-limit } worden niet doorgestuurd.
 faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = U vindt meer info over de gegevens die { -brand-name-firefox-relay } verzamelt in onze <a href="{ $url }" { $attrs }>Privacyverklaring</a>. U kunt optioneel ook gegevens delen over de labels en website die u gebruikt voor uw e-mailaliassen, zodat we u die service kunnen bieden en deze voor u kunnen verbeteren.
 
 ## Profile Page (Logged In)
 
@@ -243,6 +292,16 @@ profile-stat-label-blocked = E-mailberichten geblokkeerd
 profile-stat-label-forwarded = E-mailberichten doorgestuurd
 profile-stat-label-aliases-used = Gebruikte e-mailaliassen
 profile-filter-search-placeholder = Aliassen zoeken
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Doorstuuraliassen
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blokkeringsaliassen
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Willekeurige aliassen
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Aangepaste aliassen
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Alleen-kritiek-aliassen
 
 ## Banner Messages (displayed on the profile page)
 
@@ -278,6 +337,7 @@ banner-label-data-notification-header = Binnenkort bij { -brand-name-relay }
 banner-label-data-notification-body = U kunt { -brand-name-relay } toestaan om optionele gegevens te verzamelen over de websites waar uw aliassen worden gebruikt om toekomstige functies te ondersteunen. Als u deze gegevensverzameling op de pagina ‘Instellingen’ toestaat, wordt het beheren van uw Postvak IN nog eenvoudiger.
 banner-label-data-notification-cta = Naar Instellingen
 banner-label-data-notification-header-v2 = Nieuwe functies inschakelen
+banner-label-data-notification-body-v2 = U kunt { -brand-name-relay } toestaan om optionele gegevens te verzamelen, waarmee we uw aliaslabels op al uw apparaten kunnen synchroniseren met de websites waarop ze zijn gemaakt en gebruikt.
 banner-label-data-notification-body-cta = Meer info
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Uw domein is:
