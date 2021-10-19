@@ -213,7 +213,7 @@ faq-question-2-answer-html =
 faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
 faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
 faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
-# String used to display the attachment limit, e.g. 150 KB
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
@@ -231,6 +231,10 @@ faq-question-6-answer = Nous vous informerons à l’avance que vous devez modif
 faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
 faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
 
 ## Profile Page (Logged In)
 
@@ -279,6 +283,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } supprimera les messages ava
 profile-forwarded-copy = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
 profile-forwarded-note = Remarque :
 profile-forwarded-note-copy = Les messages (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne sont actuellement pas pris en charge et ne seront pas transférés.
+profile-forwarded-note-copy-v2 = Les e-mails (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne seront pas transférés.
 profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used = Alias utilisés
