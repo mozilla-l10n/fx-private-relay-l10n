@@ -133,6 +133,7 @@ landing-pricing-premium-feature-4 = 回复转发的电子邮件
 
 landing-use-cases-shopping = 网购
 landing-use-cases-social-networks = 社交网络
+landing-use-cases-offline = 线下场景
 landing-use-cases-gaming = 游戏
 
 ## FAQ Page
@@ -287,6 +288,7 @@ banner-pack-upgrade-cta = 立即升级
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 banner-label-data-notification-header-v2 = 启用新功能
+banner-label-data-notification-body-v2 = 您可以允许 { -brand-name-relay } 收集更多数据，以便我们将您在各网站上创建使用的马甲标签在设备间同步（非必需）。
 banner-label-data-notification-body-cta = 详细了解
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = 您的域名是：
