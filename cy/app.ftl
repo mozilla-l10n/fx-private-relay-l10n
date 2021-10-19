@@ -118,7 +118,7 @@ landing-hero-body =
 landing-how-it-works-headline = Sut mae'n gweithio
 landing-how-it-works-body = Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i diogelu eich blwch derbyn e-byst, yn ogystal â'ch hunaniaeth.
 landing-how-it-works-step-1-body-cta = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr.
-landing-how-it-works-step-1-body = Cynhyrchu arallenwau e-bost yn awtomatig lle bynnag y byddwch chi'n rhoi'ch cyfeiriad e-bost ar-lein.
+landing-how-it-works-step-1-body = Cynhyrchwch arallenwau e-bost yn awtomatig lle bynnag y byddwch chi'n rhoi'ch cyfeiriad e-bost ar-lein.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Wrth i chi bori, bydd yr eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
@@ -134,14 +134,14 @@ landing-how-it-works-step-3-body =
 landing-pricing-headline = Am amser cyfyngedig: Arallenwau diderfyn am { $monthly_price } y mis
 landing-pricing-body =
     Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
-    Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanwl.
+    Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanylach.
 landing-pricing-free-price = Am Ddim
 landing-pricing-free-feature-1 = Hyd at 5 arallenw e-bost
 landing-pricing-free-feature-2 = Estyniad porwr
 landing-pricing-free-cta = Cael { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-price = { $monthly_price }/mis
 landing-pricing-premium-feature-1 = Arallenwau e-bost diderfyn
 landing-pricing-premium-feature-2 = Estyniad porwr
 landing-pricing-premium-feature-3 = Eich parth e-bost eich hun
@@ -154,7 +154,7 @@ landing-pricing-premium-feature-4 = Ateb e-byst a anfonwyd ymlaen
 landing-use-cases-shopping = Siopa
 landing-use-cases-shopping-body =
     Yn prynu rhywbeth o siop ar-lein newydd? Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth brynu ar-lein.
-    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch anfon y neges e-bost i ffwrdd.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch anfon ymlaen y neges e-bost i ffwrdd.
 landing-use-cases-social-networks = Rhwydweithiau Cymdeithasol
 landing-use-cases-social-networks-body =
     Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
@@ -165,6 +165,14 @@ landing-use-cases-offline-body =
     Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth gael derbynneb ddi-bapur mewn siop.
     Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
 landing-use-cases-access-content = Mynediad i Gynnwys
+landing-use-cases-access-content-body =
+    Eisiau cofrestru ar gyfer y cylchlythyr hwnnw, ond ddim yn ymddiried yn yr anfonwr?
+    Defnyddiwch arallenw yn lle eich cyfeiriad go iawn - os byddwch yn dechrau cael negeseuon e-bost diofyn trwy'r arallenw hwnnw, efallai y bydd yr anfonwr wedi gwerthu eich arallenw i farchnatwyr eraill.  Neu efallai ei fod wedi ei gipio mewn tor-data.
+    Diffoddwch neu dilëwch yr arallenw i ddiogelu eich blwch derbyn e-bost.
+landing-use-cases-gaming = Gemau
+landing-use-cases-gaming-body =
+    Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
+    Defnyddiwch arallenw { -brand-name-relay } i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
 
 ## FAQ Page
 
