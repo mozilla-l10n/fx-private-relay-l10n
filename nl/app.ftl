@@ -394,12 +394,12 @@ modal-delete-headline = Deze alias definitief verwijderen?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
-    Als u dit alias verwijdert, kan het niet meer worden hersteld.
+    Als u deze alias verwijdert, kan deze niet meer worden hersteld.
     { -brand-name-firefox-relay } stuurt geen berichten meer door die zijn verzonden naar <strong>{ $email }</strong>, ook geen berichten waarmee u vergeten wachtwoorden opnieuw kunt instellen.
 modal-delete-warning-upgrade =
-    Als u dit alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
+    Als u deze alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
     moet u uw aanmelding bijwerken met een ander e-mailadres voordat u dit verwijdert.
-modal-delete-confirmation = Ja, ik wil dit alias verwijderen.
+modal-delete-confirmation = Ja, ik wil deze alias verwijderen.
 modal-domain-register-good-news = Goed nieuws!
 modal-domain-register-warning = Onthoud dat u slechts één domein voor uw account mag registreren en dat het niet mogelijk is om uw domein later te wijzigen.
 modal-domain-register-button = Domein registreren
