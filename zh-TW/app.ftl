@@ -96,6 +96,22 @@ hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的
 hero-image-copy-protect-html = …這樣就可以<strong>保護您的實際信箱地址</strong>，不被追蹤或垃圾信騷擾。
 hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪些郵件可以直達您的收件匣！
 
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+landing-how-it-works-headline = 原理是什麼
+
+## Pricing section
+
+
+## Use Cases
+
+
 ## FAQ Page
 
 faq-headline = 常見問題
@@ -153,7 +169,7 @@ faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼
 faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
 
