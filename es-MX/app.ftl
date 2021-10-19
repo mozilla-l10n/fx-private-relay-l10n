@@ -93,13 +93,20 @@ hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico 
 
 ## How it works section
 
+landing-how-it-works-headline = Cómo funciona
 
 ## Pricing section
 
 landing-pricing-free-price = Gratis
+landing-pricing-free-feature-2 = Extensión del navegador
+landing-pricing-free-cta = Obtener { -brand-name-relay }
+landing-pricing-premium-feature-2 = Extensión del navegador
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 ## Use Cases
 
+landing-use-cases-social-networks = Redes sociales
 
 ## FAQ Page
 
@@ -135,6 +142,8 @@ profile-label-click-to-copy = Clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 ## Banner Messages (displayed on the profile page)
 
