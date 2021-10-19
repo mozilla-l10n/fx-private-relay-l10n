@@ -103,6 +103,77 @@ hero-image-copy-unique-html = <strong>Verwenden Sie eine einzigartige Weiterleit
 hero-image-copy-protect-html = … damit Sie <strong>Ihre echte E-Mail-Adresse</strong> vor Tracking und Spam schützen können.
 hero-image-copy-control-html = Jetzt <em>haben sie die Kontrolle darüber</em>, was in Ihrem Posteingang ankommt!
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Schützen Sie Ihre echte E-Mail-Adresse, um Ihren Posteingang besser zu kontrollieren
+landing-hero-body =
+    Alias-E-Mail-Adressen von { -brand-name-firefox-relay } schützen Ihre echte E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
+    Jetzt können Sie dafür sorgen, dass nur noch die gewünschten E-Mails in Ihrem Posteingang landen. Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
+
+## How it works section
+
+landing-how-it-works-headline = Wie es funktioniert
+landing-how-it-works-body = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
+landing-how-it-works-step-1-body-cta = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
+landing-how-it-works-step-1-body = Generieren Sie automatisch Alias-E-Mail-Adressen, wo immer Sie Ihre E-Mail-Adresse online eingeben.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach Ihrer E-Mail-Adresse fragen.
+    Wählen Sie es aus, um eine neue, zufällige Adresse zu generieren, die auf @relay.mozmail.com endet.
+landing-how-it-works-step-3-body =
+    Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um die von Ihnen erstellten Alias-E-Mail-Adressen zu verfolgen. { -brand-name-relay } leitet Nachrichten an Ihre E-Mail-Adresse weiter.
+    Wenn eine Alias-E-Mail-Adresse Spam oder unerwünschte Nachrichten erhält, können Sie alle Nachrichten blockieren oder den Alias sogar direkt aus der Übersicht löschen.
+
+## Pricing section
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Nur für begrenzte Zeit: Unbegrenzte Alias-E-Mail-Adressen für { $monthly_price } pro Monat
+landing-pricing-body =
+    Probieren Sie die Alias-E-Mail-Adressen von { -brand-name-firefox-relay } aus und schützen Sie Ihren E-Mail-Posteingang.
+    Dann holen Sie sich { -brand-name-relay-premium } für noch mehr Flexibilität und individuelle Steuerung.
+landing-pricing-free-price = Kostenlos
+landing-pricing-free-feature-1 = Bis zu fünf Alias-E-Mail-Adressen
+landing-pricing-free-feature-2 = Browser-Erweiterung
+landing-pricing-free-cta = Holen Sie sich { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/Monat
+landing-pricing-premium-feature-1 = Unbegrenzt viele Alias-E-Mail-Adressen
+landing-pricing-premium-feature-2 = Browser-Erweiterung
+landing-pricing-premium-feature-3 = Ihre eigene E-Mail-Domain
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = ihreadresse@ihredomain.mozmail.com
+landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
+
+## Use Cases
+
+landing-use-cases-shopping = Einkaufen
+landing-use-cases-shopping-body =
+    Etwas in einem neuen Online-Shop kaufen? Verwenden Sie beim Online-Einkauf eine Alias-E-Mail-Adresse von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse.
+    Wir leiten die Quittung an Ihre echte E-Mail-Adresse weiter. Wenn Sie E-Mails erhalten, die Ihnen nicht gefallen, deaktivieren Sie einfach die E-Mail-Weiterleitung.
+landing-use-cases-social-networks = Soziale Netzwerke
+landing-use-cases-social-networks-body =
+    Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen?
+    Versuchen Sie zu verhindern, dass Ihre echte E-Mail-Adresse mit Ihrer Präsenz in den sozialen Medien in Verbindung gebracht wird? Verwenden Sie eine Alias-E-Mail-Adresse von { -brand-name-relay }, um sich anzumelden und sich online zu schützen.
+landing-use-cases-offline = Offline
+landing-use-cases-offline-body =
+    Sie möchten lieber E-Mail-Bestätigungen erhalten, möchten aber auch Marketing-Spam vermeiden?
+    Verwenden Sie eine Alias-E-Mail-Adresse von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse, wenn Sie in einem Geschäft einen papierlosen Beleg erhalten.
+    Wir leiten die Quittung an Ihre echte E-Mail-Adresse weiter. Wenn Sie E-Mails erhalten, die Ihnen nicht gefallen, deaktivieren Sie einfach die E-Mail-Weiterleitung.
+landing-use-cases-access-content = Zugriff auf Inhalte
+landing-use-cases-access-content-body =
+    Sie möchten sich für einen Newsletter anmelden, aber Sie vertrauen dem Absender nicht?
+    Verwenden Sie eine Alias-E-Mail-Adresse anstelle Ihrer echten Adresse – wenn Sie unerwünschte E-Mails über diese Alias-E-Mail-Adresse erhalten, hat der Absender Ihren Alias möglicherweise an andere Vermarkter verkauft oder er wurde bei einem Datenleck öffentlich bekannt.
+    Deaktivieren oder löschen Sie einfach die Alias-E-Mail-Adresse, um Ihren E-Mail-Posteingang zu schützen.
+landing-use-cases-gaming = Gaming
+landing-use-cases-gaming-body =
+    Genießen Sie Online-Spiele, aber machen Sie sich Sorgen, dass andere Spieler oder Mobber über Ihren Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind?
+    Verwenden Sie die Alias-E-Mail-Adressen von { -brand-name-relay }, um eine weitere Schutzebene zwischen Ihrer Online-Identität und den Spielen, die Sie im Internet spielen, zu schaffen.
+
 ## FAQ Page
 
 faq-headline = Häufig gestellte Fragen
@@ -165,7 +236,7 @@ faq-question-7-question = Was ist, wenn eine E-Mail an meine Alias-Adresse einen
 faq-question-7-answer = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftung und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 
