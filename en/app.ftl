@@ -207,7 +207,7 @@ faq-question-3-answer = The site is currently only available in English, but you
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
 
     
-# String used to display the attachment limit, e.g. 150 KB
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
@@ -282,6 +282,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } will delete messages before
 profile-forwarded-copy = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this alias.
 profile-forwarded-note = Note:
 profile-forwarded-note-copy = Email (including attachments) larger than { email-size-limit } are not currently supported and will not be forwarded.
+profile-forwarded-note-copy-v2 = Email (including attachments) larger than { email-size-limit } will not be forwarded.
 profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used = Email aliases used
