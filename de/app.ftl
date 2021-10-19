@@ -217,7 +217,7 @@ faq-question-2-answer-html =
 faq-question-3-question = Ist { -brand-name-relay } nur in den USA verfügbar?
 faq-question-3-answer = Die Website ist derzeit nur in englischer Sprache verfügbar, aber Sie können den Dienst überall nutzen.
 faq-question-4-question = Kann ich mit meiner { -brand-name-relay }-Alias-Adresse auf Nachrichten antworten?
-# String used to display the attachment limit, e.g. 150 KB
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
@@ -287,6 +287,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } löscht Nachrichten, bevor 
 profile-forwarded-copy = { -brand-name-firefox-relay } sendet E-Mails an Ihren Posteingang, wenn Sie für diese Alias-Adresse „Weiterleiten“ auswählen.
 profile-forwarded-note = Hinweis:
 profile-forwarded-note-copy = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden derzeit nicht unterstützt und nicht weitergeleitet.
+profile-forwarded-note-copy-v2 = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 profile-stat-label-blocked = Blockierte E-Mails
 profile-stat-label-forwarded = Weitergeleitete E-Mails
 profile-stat-label-aliases-used = Verwendete Alias-E-Mail-Adressen
