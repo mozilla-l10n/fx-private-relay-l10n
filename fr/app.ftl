@@ -107,6 +107,71 @@ hero-image-copy-unique-html = <strong>Utilisez une adresse de relais unique</str
 hero-image-copy-protect-html = … afin de <strong>protéger votre véritable adresse électronique</strong> du pistage et du spam.
 hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arrive dans votre boîte de réception !
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Protégez votre véritable adresse e-mail pour garder le contrôle de votre boîte de réception
+
+## How it works section
+
+landing-how-it-works-headline = Principe de fonctionnement
+landing-how-it-works-body = Partagez des alias de messagerie { -brand-name-relay } à la place de votre véritable adresse e-mail pour protéger votre boîte de réception, ainsi que votre identité.
+landing-how-it-works-step-1-body-cta = Téléchargez l’extension { -brand-name-relay } pour { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Générez automatiquement des alias de messagerie chaque fois que vous saisissez votre adresse e-mail en ligne.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Au cours de votre navigation, l’icône { -brand-name-relay } apparaîtra là où les sites vous demanderont votre adresse e-mail.
+    Sélectionnez-la pour générer une nouvelle adresse aléatoire qui se termine par @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Connectez-vous au tableau de bord de { -brand-name-relay } pour suivre les alias que vous avez créés. { -brand-name-relay } transférera les messages vers votre adresse e-mail.
+    Si un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
+
+## Pricing section
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Durée limitée uniquement : nombre illimité d’alias pour { $monthly_price } par mois
+landing-pricing-body =
+    Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
+    Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
+landing-pricing-free-price = Gratuit
+landing-pricing-free-feature-1 = Jusqu’à 5 alias de messagerie
+landing-pricing-free-feature-2 = Extension de navigateur
+landing-pricing-free-cta = Installer { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/mois
+landing-pricing-premium-feature-1 = Nombre illimité d’alias de messagerie
+landing-pricing-premium-feature-2 = Extension de navigateur
+landing-pricing-premium-feature-3 = Votre propre domaine de messagerie
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
+landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
+
+## Use Cases
+
+landing-use-cases-shopping = Achats en ligne
+landing-use-cases-shopping-body =
+    Vous acheter quelque chose sur une nouvelle boutique en ligne ? Utilisez un alias { -brand-name-relay } à la place de votre adresse e-mail lorsque vous effectuez un achat en ligne.
+    Nous transférerons le reçu à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, désactivez simplement le transfert d’e-mails.
+landing-use-cases-social-networks = Réseaux sociaux
+landing-use-cases-social-networks-body =
+    Vous voulez mieux protéger votre identité en ligne lorsque vous utilisez un réseau social ?
+    Vous essayez d’empêcher votre véritable e-mail d’être liée à votre présence sur les réseaux sociaux ? Utilisez un alias { -brand-name-relay } pour vous connecter et vous protéger en ligne.
+landing-use-cases-offline = Hors connexion
+landing-use-cases-offline-body =
+    Vous préférez recevoir les tickets de caisse par e-mail, mais vous souhaitez également éviter les messages marketing indésirables ?
+    Utilisez un alias { -brand-name-relay } à la place de votre adresse e-mail lorsque vous souhaitez recevoir un ticket de caisse dématérialisé dans un magasin.
+    Nous transférerons le ticket de caisse à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, désactivez simplement le transfert d’e-mails.
+landing-use-cases-access-content = Accéder à du contenu
+landing-use-cases-access-content-body =
+    Vous voulez vous inscrire à cette newsletter, mais vous ne faites pas confiance à l’expéditeur ?
+    Utilisez un alias au lieu de votre véritable adresse. Si vous commencez à recevoir des e-mails indésirables via cet alias, l’expéditeur peut avoir vendu votre alias à d’autres spécialistes du marketing, ou il peut même avoir été divulgué lors d’une fuite de données.
+    Désactivez ou supprimez simplement l’alias pour protéger votre boîte de réception.
+landing-use-cases-gaming = Jeux
+
 ## FAQ Page
 
 faq-headline = Questions fréquentes
