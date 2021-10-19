@@ -103,6 +103,33 @@ hero-image-copy-unique-html = <strong>Gebruik een uniek doorstuuradres</strong> 
 hero-image-copy-protect-html = … zodat u <strong>uw echte e-mailadres</strong> kunt beschermen tegen volgen en spam.
 hero-image-copy-control-html = Nu <em>hebt u de controle</em> over wat er in uw Postvak IN belandt!
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Bescherm uw echte e-mailadres om uw Postvak IN te beschermen
+landing-hero-body =
+    { -brand-name-firefox-relay }-e-mailaliassen beschermen uw echte e-mailadres tegen openbare weergave en sturen e-mailberichten automatisch door naar uw echte Postvak IN.
+    Nu kunt u alleen de e-mailberichten die u wilt in uw Postvak IN ontvangen. Schrijf u in met uw { -brand-name-firefox-account } om aan de slag te gaan.
+
+## How it works section
+
+landing-how-it-works-headline = Hoe het werkt
+landing-how-it-works-body = Deel { -brand-name-relay }-e-mailaliassen in plaats van uw echte e-mailadres om uw Postvak IN en uw identiteit te beschermen.
+landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-extensie voor { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Genereer automatisch e-mailaliassen waar u uw e-mailadres online invoert.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Terwijl u surft, verschijnt het { -brand-name-relay }-pictogram waar websites om uw e-mailadres vragen.
+    Selecteer het om een nieuw, willekeurig adres te genereren dat eindigt op @relay.mozmail.com.
+
+## Pricing section
+
+
+## Use Cases
+
+
 ## FAQ Page
 
 faq-headline = Veelgestelde vragen
