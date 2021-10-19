@@ -129,9 +129,37 @@ landing-how-it-works-step-3-body =
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Am amser cyfyngedig: Arallenwau diderfyn am { $monthly_price } y mis
+landing-pricing-body =
+    Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
+    Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanwl.
+landing-pricing-free-price = Am Ddim
+landing-pricing-free-feature-1 = Hyd at 5 arallenw e-bost
+landing-pricing-free-feature-2 = Estyniad porwr
+landing-pricing-free-cta = Cael { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-1 = Arallenwau e-bost diderfyn
+landing-pricing-premium-feature-2 = Estyniad porwr
+landing-pricing-premium-feature-3 = Eich parth e-bost eich hun
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Ateb e-byst a anfonwyd ymlaen
 
 ## Use Cases
 
+landing-use-cases-shopping = Siopa
+landing-use-cases-shopping-body =
+    Yn prynu rhywbeth o siop ar-lein newydd? Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth brynu ar-lein.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch anfon y neges e-bost i ffwrdd.
+landing-use-cases-social-networks = Rhwydweithiau Cymdeithasol
+landing-use-cases-social-networks-body =
+    Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
+    Yn ceisio cadw'ch e-bost go iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
+landing-use-cases-offline = All-lein
 
 ## FAQ Page
 
