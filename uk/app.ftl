@@ -205,6 +205,8 @@ faq-headline = Часті запитання
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Що таке псевдоадреси { -brand-name-relay }?
+faq-question-what-is-answer = Псевдоадреси електронної пошти — це замасковані адреси електронної пошти, які пересилають повідомлення на вашу справжню адресу електронної пошти. Вони надають вам змогу ділитися адресою зі сторонніми, маскуючи вашу справжню адресу електронної пошти та пересилатимуть на неї повідомлення.
 faq-question-2-question = Чому сайт не приймає мою псевдоадресу { -brand-name-relay }?
 # Deprecated
 # Variables:
