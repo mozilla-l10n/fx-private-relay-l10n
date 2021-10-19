@@ -115,6 +115,8 @@ landing-hero-body =
 ## How it works section
 
 landing-how-it-works-headline = Como functiona illo
+landing-how-it-works-body = Comparti aliases e-mail de { -brand-name-relay }, in vice del tu real adresse e-mail pro proteger tu cassa de ingresso e tu identitate.
+landing-how-it-works-step-1-body-cta = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }.
 
 ## Pricing section
 
