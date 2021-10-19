@@ -172,12 +172,6 @@ landing-use-cases-access-content-body =
     Désactivez ou supprimez simplement l’alias pour protéger votre boîte de réception.
 landing-use-cases-gaming = Jeux
 
-## FAQ Page
-
-faq-headline = Questions fréquentes
-faq-question-1-question = Et les messages indésirables ?
-faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
-
 ## Settings page
 
 settings-headline = Paramètres de { -brand-name-relay }
@@ -196,13 +190,21 @@ settings-warning-collection-off-description = { -brand-name-relay } n’est actu
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Vie privée
 setting-label-collection-description = Autoriser { -brand-name-relay } à collecter des données indiquant les sites sur lesquels vos alias sont créés et utilisés.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Ces données nous permettront de nommer vos alias en fonction des sites web dans une future version. Si vous décidez de désactiver cette préférence, vos alias ne seront pas nommés d’après les sites web sur lesquels ils sont utilisés.
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
+
+## FAQ Page
+
+faq-headline = Questions fréquentes
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Si vous constatez un problème plus général de messages indésirables provenant de tous vos alias, veuillez <a href="{ $url }" { $attrs }>nous le signaler</a> afin que nous puissions envisager d’ajuster les seuils de spam SES pour ce service. Si vous les signalez comme spam, votre fournisseur de messagerie identifiera { -brand-name-relay } comme la source du spam, et non l’expéditeur original.
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -210,31 +212,34 @@ faq-question-2-answer-html =
     Certains sites peuvent ne pas accepter une adresse électronique qui contient un sous-domaine (c’est-à-dire la partie « relay » de @relay.firefox.com) et d’autres ont arrêté d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
     Au fur et à mesure que { -brand-name-firefox-relay } gagne en popularité et émet de plus en plus d’alias, notre service peut être placé sur une liste de blocage.
     Si vous n’êtes pas en mesure d’utiliser un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>veuillez nous le faire savoir</a>.
-faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
-faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
-faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
-# String used to display the attachment limit, e.g. 10 MB
+faq-question-1-question = Et les messages indésirables ?
+faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    { -brand-name-relay } ne propose pas encore la possibilité de répondre en utilisant un alias.
-    Si vous essayez, rien ne se produira. Nous prévoyons d’ajouter une fonctionnalité vous permettant de <a href="{ $url }" { $attrs }>répondre anonymement</a>.
-faq-question-5-question = Puis-je créer mon propre alias { -brand-name-relay } en utilisant le domaine @relay.firefox.com ?
-faq-question-5-answer = Pas pour l’instant, mais nous étudions de nouvelles fonctionnalités parmi lesquelles la possibilité de créer votre propre alias avec un domaine attitré.
-faq-question-6-question = Que se passera-t-il si { -brand-name-mozilla } arrête le service { -brand-name-firefox-relay } ?
-faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
-faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
-faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
+faq-question-1-answer-b-html = Si vous constatez un problème plus général de messages indésirables provenant de tous vos alias, veuillez <a href="{ $url }" { $attrs }>nous le signaler</a> afin que nous puissions envisager d’ajuster les seuils de spam SES pour ce service. Si vous les signalez comme spam, votre fournisseur de messagerie identifiera { -brand-name-relay } comme la source du spam, et non l’expéditeur original.
+faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
 faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
+# Deprecated
+faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
+# Deprecated
+faq-question-3-answer = Le site n’est actuellement disponible qu’en anglais, mais vous pouvez l’utiliser depuis n’importe où.
+# Deprecated
+faq-question-5-question = Puis-je créer mon propre alias { -brand-name-relay } en utilisant le domaine @relay.firefox.com ?
+# Deprecated
+faq-question-5-answer = Pas pour l’instant, mais nous étudions de nouvelles fonctionnalités parmi lesquelles la possibilité de créer votre propre alias avec un domaine attitré.
+# Deprecated
+faq-question-6-question = Que se passera-t-il si { -brand-name-mozilla } arrête le service { -brand-name-firefox-relay } ?
+# Deprecated
+faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
+# Deprecated
+faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 
 ## Profile Page (Logged In)
 
@@ -288,6 +293,8 @@ profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used = Alias utilisés
 profile-filter-search-placeholder = Rechercher des alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Alias avec transfert actif
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-aliases-v2 = Alias bloqués
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
@@ -437,3 +444,5 @@ forwarded-email-header-from = Ce message a été transféré depuis { $display_e
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
+# This entire text is a link
+forwarded-email-footer = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
