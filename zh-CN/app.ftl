@@ -96,6 +96,28 @@ hero-image-copy-unique-html = 为每个新账户<strong>使用不同 relay 邮�
 hero-image-copy-protect-html = …这样就可以<strong>保护您的真实邮箱地址</strong>，不受跟踪或垃圾邮件侵扰。
 hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
 
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
+
+## Pricing section
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price } / 月
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+
+## Use Cases
+
+landing-use-cases-social-networks = 社交网络
+
 ## FAQ Page
 
 faq-headline = 常见问题
