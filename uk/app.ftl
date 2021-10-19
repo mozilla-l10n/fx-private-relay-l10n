@@ -174,12 +174,6 @@ landing-use-cases-gaming-body =
     Полюбляєте онлайн-ігри, але турбуєтесь про те, що інші гравці чи цькувальники дізнаються, хто ви, за допомогою вашого імені гравця та адреси електронної пошти?
     Використовуйте псевдоадресу { -brand-name-relay }, щоб створити ще один рівень захисту між вашою інтернет-особистістю та іграми, в які ви граєте онлайн.
 
-## FAQ Page
-
-faq-headline = Часті запитання
-faq-question-1-question = А як щодо спаму?
-faq-question-1-answer-a = Хоча { -brand-name-relay } не фільтрує спам, наш партнер е-пошти Amazon SES блокує спам та шкідливе програмне забезпечення. Якщо { -brand-name-relay } пересилає повідомлення, які вам не потрібні, ви можете змінити налаштування { -brand-name-relay }, щоб блокувати повідомлення з псевдоадреси, яка їх пересилає.
-
 ## Settings page
 
 settings-headline = Налаштування { -brand-name-relay }
@@ -202,11 +196,17 @@ setting-label-collection-description = Дозвольте { -brand-name-relay } 
 setting-label-collection-off-warning = Ці дані дозволять нам позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
 settings-button-save-label = Зберегти
 settings-button-save-tooltip = Застосувати вибрані налаштування.
+
+## FAQ Page
+
+faq-headline = Часті запитання
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Якщо ви бачите, що проблема з небажаною е-поштою стосується усіх ваших псевдоадрес, <a href="{ $url }" { $attrs }>повідомте нам про це</a>, щоб ми могли скоригувати поріг спаму для SES щодо цієї служби. Якщо ви повідомляєте про це як про спам, ваш постачальник е-пошти бачитиме { -brand-name-relay } джерелом спаму, а не справжнього відправника.
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = Чому сайт не приймає мою псевдоадресу { -brand-name-relay }?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -214,31 +214,34 @@ faq-question-2-answer-html =
     Деякі сайти можуть не приймати адресу е-пошти, яка містить піддомен (тобто частку "relay" у @relay.firefox.com), а інші припинили приймати всі адреси, крім тих, що належать до облікових записів Gmail, Hotmail або Yahoo.
     Оскільки популярність { -brand-name-firefox-relay } зростає і випускається більше псевдоадрес, наша служба може бути розміщена у списку заблокованих.
     Якщо ви не можете користуватись псевдоадресою { -brand-name-relay }, <a href="{ $url }" { $attrs }>повідомте нам про це</a>.
-faq-question-3-question = { -brand-name-relay } доступний лише у США?
-faq-question-3-answer = Наразі сайт доступний лише англійською мовою, але ви можете користуватися послугою будь-де.
-faq-question-4-question = Чи можу я відповідати на повідомлення за допомогою своєї псевдоадреси { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = А як щодо спаму?
+faq-question-1-answer-a = Хоча { -brand-name-relay } не фільтрує спам, наш партнер е-пошти Amazon SES блокує спам та шкідливе програмне забезпечення. Якщо { -brand-name-relay } пересилає повідомлення, які вам не потрібні, ви можете змінити налаштування { -brand-name-relay }, щоб блокувати повідомлення з псевдоадреси, яка їх пересилає.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    { -brand-name-relay } поки не пропонує можливості відповідати за допомогою псевдоадреси. 
-    Якщо ви спробуєте, нічого не вийде. Ми плануємо додаткову можливість, яка дозволить вам <a href="{ $url }" { $attrs }>анонімно відповідати відправникам</a>.
-faq-question-5-question = Чи можу я створити власну псевдоадресу { -brand-name-relay } за допомогою домену @relay.firefox.com?
-faq-question-5-answer = Наразі ні, але ми обмірковуємо нові можливості, зокрема можливість створити власну псевдоадресу з призначеним доменом.
-faq-question-6-question = Що станеться, якщо { -brand-name-mozilla } вимкне службу { -brand-name-firefox-relay }?
-faq-question-6-answer = Ми повідомимо вас заздалегідь, що вам потрібно змінити адресу е-пошти будь-яких облікових записів, які використовують псевдоадресу { -brand-name-relay }.
-faq-question-7-question = Що робити, якщо електронний лист, надісланий на мою псевдоадресу, містить вкладення?
-faq-question-7-answer = Тепер ми підтримуємо пересилання вкладених файлів. Однак існує обмеження { email-size-limit } для пересилання е-пошти за допомогою { -brand-name-relay }. Усі електронні листи розміром понад { email-size-limit } не пересилатимуться.
+faq-question-1-answer-b-html = Якщо ви бачите, що проблема з небажаною е-поштою стосується усіх ваших псевдоадрес, <a href="{ $url }" { $attrs }>повідомте нам про це</a>, щоб ми могли скоригувати поріг спаму для SES щодо цієї служби. Якщо ви повідомляєте про це як про спам, ваш постачальник е-пошти бачитиме { -brand-name-relay } джерелом спаму, а не справжнього відправника.
+faq-question-4-question = Чи можу я відповідати на повідомлення за допомогою своєї псевдоадреси { -brand-name-relay }?
 faq-question-8-question = Які дані збирає { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Ви можете дізнатися більше про дані, які збирає { -brand-name-firefox-relay }, переглянувши наше <a href="{ $url }" { $attrs }>Повідомлення про приватність Notice</a>. Ви також можете за бажанням обмінюватися даними про мітки та вебсайти, які використовуєте для своїх псевдоадрес електронної пошти, щоб ми могли покращити для вас нашу службу.
+# Deprecated
+faq-question-3-question = { -brand-name-relay } доступний лише у США?
+# Deprecated
+faq-question-3-answer = Наразі сайт доступний лише англійською мовою, але ви можете користуватися послугою будь-де.
+# Deprecated
+faq-question-5-question = Чи можу я створити власну псевдоадресу { -brand-name-relay } за допомогою домену @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Наразі ні, але ми обмірковуємо нові можливості, зокрема можливість створити власну псевдоадресу з призначеним доменом.
+# Deprecated
+faq-question-6-question = Що станеться, якщо { -brand-name-mozilla } вимкне службу { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Ми повідомимо вас заздалегідь, що вам потрібно змінити адресу е-пошти будь-яких облікових записів, які використовують псевдоадресу { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = Що робити, якщо електронний лист, надісланий на мою псевдоадресу, містить вкладення?
+# Deprecated
+faq-question-7-answer = Тепер ми підтримуємо пересилання вкладених файлів. Однак існує обмеження { email-size-limit } для пересилання е-пошти за допомогою { -brand-name-relay }. Усі електронні листи розміром понад { email-size-limit } не пересилатимуться.
 
 ## Profile Page (Logged In)
 
@@ -287,6 +290,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } видалить повід
 profile-forwarded-copy = { -brand-name-firefox-relay } надсилатиме повідомлення на вашу поштову скриньку, якщо ви виберете пересилання для цієї псевдоадреси.
 profile-forwarded-note = Примітка:
 profile-forwarded-note-copy = Електронна пошта (включно з вкладеними файлами) розміром понад { email-size-limit } наразі не підтримується й не пересилається.
+profile-forwarded-note-copy-v2 = Електронна пошта (включно з вкладеними файлами) обсягом понад { email-size-limit } не пересилатиметься.
 profile-stat-label-blocked = Заблоковані електронні листи
 profile-stat-label-forwarded = Переслані електронні листи
 profile-stat-label-aliases-used = Використовувані псевдоадреси е-пошти
