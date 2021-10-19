@@ -129,21 +129,24 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 
 ## How it works section
 
+landing-how-it-works-headline = Πώς λειτουργεί;
 
 ## Pricing section
 
+landing-pricing-free-price = Δωρεάν
+landing-pricing-free-feature-1 = Έως 5 ψευδώνυμα email
+landing-pricing-free-cta = Λήψη του { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/μήνα
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 ## Use Cases
 
 landing-use-cases-shopping = Αγορές
-
-## FAQ Page
-
-faq-headline = Συχνές ερωτήσεις
-faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
-faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
+landing-use-cases-social-networks = Κοινωνικά δίκτυα
+landing-use-cases-gaming = Παιχνίδια
 
 ## Settings page
 
@@ -156,28 +159,39 @@ settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 settings-button-save-label = Αποθήκευση
-faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
-faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
-faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
-faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
-# String used to display the attachment limit, e.g. 150 KB
+
+## FAQ Page
+
+faq-headline = Συχνές ερωτήσεις
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
-#   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο. 
-    Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
-faq-question-5-question = Μπορώ να ορίσω το δικό μου ψευδώνυμο { -brand-name-relay } με τον τομέα @relay.firefox.com;
-faq-question-5-answer = Προς το παρόν όχι, αλλά εξετάζουμε νέες λειτουργίες, όπως η δυνατότητα δημιουργίας του δικού σας ψευδωνύμου με έναν καθορισμένο τομέα.
-faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
-faq-question-6-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
-faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
-faq-question-7-answer = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει ένα όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
+faq-question-missing-emails-answer-reason-not-accepted = Ο ιστότοπος δεν δέχεται ψευδώνυμα
+faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
+faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
+faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
+faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
+faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
+# Deprecated
+faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
+# Deprecated
+faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
+# Deprecated
+faq-question-5-question = Μπορώ να ορίσω το δικό μου ψευδώνυμο { -brand-name-relay } με τον τομέα @relay.firefox.com;
+# Deprecated
+faq-question-5-answer = Προς το παρόν όχι, αλλά εξετάζουμε νέες λειτουργίες, όπως η δυνατότητα δημιουργίας του δικού σας ψευδωνύμου με έναν καθορισμένο τομέα.
+# Deprecated
+faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
+# Deprecated
+faq-question-6-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
+# Deprecated
+faq-question-7-answer = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει ένα όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
 
 ## Profile Page (Logged In)
 
@@ -229,6 +243,10 @@ profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Τυχαία ψευδώνυμα
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Προσαρμοσμένα ψευδώνυμα
 
 ## Banner Messages (displayed on the profile page)
 
@@ -253,6 +271,7 @@ banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email 
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
+banner-label-data-notification-body-cta = Μάθετε περισσότερα
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ο τομέας σας είναι:
 # Variables:
