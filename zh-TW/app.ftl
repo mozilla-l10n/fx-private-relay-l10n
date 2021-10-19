@@ -101,16 +101,40 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 
 ## Hero Section
 
+landing-hero-headline = 保護您實際的電子郵件地址，並且自行控管收件匣
 
 ## How it works section
 
 landing-how-it-works-headline = 原理是什麼
+landing-how-it-works-step-1-body-cta = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+landing-how-it-works-step-3-body = 登入 { -brand-name-relay } 即可追蹤您建立過的別名信箱，而 { -brand-name-relay } 會將訊息轉發到您實際的郵件信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = 限時促銷：每月 { $monthly_price } 即可使用無限量別名
+landing-pricing-free-price = 免費版
+landing-pricing-free-feature-1 = 最多 5 組電子郵件別名
+landing-pricing-free-feature-2 = 瀏覽器擴充套件
+landing-pricing-free-cta = 下載 { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = 每月 { $monthly_price }
+landing-pricing-premium-feature-1 = 無限量的郵件別名
+landing-pricing-premium-feature-2 = 瀏覽器擴充套件
+landing-pricing-premium-feature-3 = 使用您自己的電子郵件網域
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 
 ## Use Cases
 
+landing-use-cases-shopping = 線上購物
+landing-use-cases-social-networks = 社群網路
+landing-use-cases-offline = 線下環境
+landing-use-cases-access-content = 開啟網站內容
+landing-use-cases-gaming = 遊戲
 
 ## FAQ Page
 
