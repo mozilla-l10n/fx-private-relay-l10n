@@ -160,6 +160,11 @@ landing-use-cases-social-networks-body =
     Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
     Yn ceisio cadw'ch e-bost go iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
 landing-use-cases-offline = All-lein
+landing-use-cases-offline-body =
+    Yn well gennych gael derbynebau e-bost, ond eisiau osgoi sbam marchnata hefyd?
+    Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth gael derbynneb ddi-bapur mewn siop.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
+landing-use-cases-access-content = Mynediad i Gynnwys
 
 ## FAQ Page
 
