@@ -153,7 +153,11 @@ landing-use-cases-shopping-body =
     Compra tu qualcosa de un nove boteca online? Usa un alias { -brand-name-relay } in vice del tu e-mail, quando tu face un compra online. 
     Nos inultrara le quitantia a tu real adresse e-mail e si tu comencia reciper e-mails que non te place, solo disactiva inultrar e-mail.
 landing-use-cases-social-networks = Retes social
+landing-use-cases-social-networks-body =
+    Vole to proteger melio tu identitate online quando tu usa un rete social? 
+    Tenta tu de mantener tu real e-mail de esser ligate a tu presentia sur le retes social? Usar un alias { -brand-name-relay } pro authenticar te e adjuta protege te mesme online.
 landing-use-cases-offline = Foras de linea
+landing-use-cases-access-content = Contento de accesso
 landing-use-cases-gaming = Jocos
 
 ## Settings page
