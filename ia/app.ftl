@@ -108,6 +108,9 @@ hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva i
 ## Hero Section
 
 landing-hero-headline = Protege tu real adresse e-mail pro adjutar proteger tu cassa de ingresso
+landing-hero-body =
+    Le aliases e-mail de { -brand-name-firefox-relay } protege tu real adresse e-mail del vision public, automaticamente inultrante e-mails a tu real cassa de ingresso. 
+    Ora tu pote reciper solo le e-mails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
 
 ## How it works section
 
@@ -129,12 +132,6 @@ landing-use-cases-shopping = Compras
 landing-use-cases-social-networks = Retes social
 landing-use-cases-offline = Foras de linea
 landing-use-cases-gaming = Jocos
-
-## FAQ Page
-
-faq-headline = Folio a questiones
-faq-question-1-question = E quanto al spam?
-faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
 
 ## Settings page
 
@@ -158,11 +155,17 @@ setting-label-collection-description = Permitter a { -brand-name-relay } de coll
 setting-label-collection-off-warning = Iste datos permittera nos de etiquettar tu aliases con le sitos web pertinente in un version futur. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
+
+## FAQ Page
+
+faq-headline = Folio a questiones
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -170,31 +173,34 @@ faq-question-2-answer-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo. 
     Como { -brand-name-firefox-relay } cresce in popularitate e publica plure aliases, nostre servicio poterea esser ubicate sur un lista del blocadas. 
     If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>per favor face nos saper lo</a>.
-faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
-faq-question-3-answer = Le sito actualmente es solo disponibile in anglese, ma tu pote usar le servicio ubique.
-faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 10 MB
+faq-question-1-question = E quanto al spam?
+faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
-    Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
-faq-question-5-question = Pote io crear mi proprie alias de { -brand-name-relay } per le dominio @relay.firefox.com?
-faq-question-5-answer = Non actualmente, ma nos considera nove functionalitates i.a. permitter te de crear tu proprie alias con un dominio designate.
-faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servicio { -brand-name-firefox-relay }?
-faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
-faq-question-7-question = E se un email inviate a mi alias contine un annexo?
-faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
+faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
+faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
+# Deprecated
+faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
+# Deprecated
+faq-question-3-answer = Le sito actualmente es solo disponibile in anglese, ma tu pote usar le servicio ubique.
+# Deprecated
+faq-question-5-question = Pote io crear mi proprie alias de { -brand-name-relay } per le dominio @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Non actualmente, ma nos considera nove functionalitates i.a. permitter te de crear tu proprie alias con un dominio designate.
+# Deprecated
+faq-question-6-question = Que eveni si { -brand-name-mozilla } claude le servicio { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = E se un email inviate a mi alias contine un annexo?
+# Deprecated
+faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 
 ## Profile Page (Logged In)
 
