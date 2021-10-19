@@ -114,13 +114,17 @@ landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -bra
 ## Pricing section
 
 landing-pricing-free-price = 免费版
+landing-pricing-free-feature-1 = 最多 5 个马甲邮箱
+landing-pricing-free-feature-2 = 浏览器扩展
 landing-pricing-free-cta = 下载 { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
+landing-pricing-premium-feature-1 = 无限量的马甲邮箱
 landing-pricing-premium-feature-2 = 浏览器扩展
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = 回复转发的电子邮件
 
 ## Use Cases
 
