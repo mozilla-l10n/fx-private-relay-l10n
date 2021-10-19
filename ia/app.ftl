@@ -102,6 +102,33 @@ hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro 
 hero-image-copy-protect-html = … de sorta que tu pote <strong>proteger tu adresse de e-mail real</strong> de traciamento e spam.
 hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Protege tu real adresse e-mail pro adjutar proteger tu cassa de ingresso
+
+## How it works section
+
+
+## Pricing section
+
+landing-pricing-free-price = Libere
+landing-pricing-free-cta = Discarga { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+
+## Use Cases
+
+landing-use-cases-shopping = Compras
+landing-use-cases-social-networks = Retes social
+landing-use-cases-offline = Foras de linea
+landing-use-cases-gaming = Jocos
+
 ## FAQ Page
 
 faq-headline = Folio a questiones
@@ -145,7 +172,7 @@ faq-question-2-answer-html =
 faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
 faq-question-3-answer = Le sito actualmente es solo disponibile in anglese, ma tu pote usar le servicio ubique.
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. KB for Kilobyte)
@@ -164,7 +191,7 @@ faq-question-7-question = E se un email inviate a mi alias contine un annexo?
 faq-question-7-answer = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
 
