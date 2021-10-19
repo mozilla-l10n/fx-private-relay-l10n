@@ -71,6 +71,7 @@ nav-profile-sign-out = Αποσύνδεση
 nav-profile-sign-out-relay = Αποσύνδεση από το { -brand-name-relay }
 nav-profile-sign-out-confirm = Θέλετε σίγουρα να αποσυνδεθείτε;
 nav-profile-settings = Ρυθμίσεις
+nav-profile-settings-tooltip = Ρύθμιση του { -brand-name-firefox-relay }
 nav-profile-help = Βοήθεια και υποστήριξη
 # This is only visible to Premium users.
 nav-profile-contact = Επικοινωνία
@@ -119,6 +120,24 @@ hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το π
 hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
 hero-image-copy-protect-html = …ώστε να <strong>προστατέψετε το πραγματικό σας email</strong> από καταγραφή και spam.
 hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε τον έλεγχο</em> των εισερχομένων σας!
+
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+
+## Pricing section
+
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+
+## Use Cases
+
+landing-use-cases-shopping = Αγορές
 
 ## FAQ Page
 
