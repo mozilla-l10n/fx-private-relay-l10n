@@ -103,6 +103,56 @@ hero-image-copy-unique-html = <strong>Use a unique relay address</strong> for ev
 hero-image-copy-protect-html = … so you can <strong>protect your real email</strong> from tracking and spam.
 hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arriving to your inbox!
 
+## Home Page Version A
+
+
+## Hero Section
+
+landing-hero-headline = Protect your real email address to help control your inbox
+landing-hero-body =
+    { -brand-name-firefox-relay } email aliases protect your real email address from public view, automatically forwarding emails to your real inbox. 
+    Now you can receive only the emails you want in your inbox. Sign up with your ⁨{ -brand-name-firefox-account }⁩ to get started.
+
+## How it works section
+
+landing-how-it-works-headline = How it works
+landing-how-it-works-body = Share { -brand-name-relay } email aliases instead of your real email address to protect your email inbox, as well as your identity.
+landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Generate email aliases automatically wherever you enter your email address online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address. 
+    Select it to generate a new, random address that ends in @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Sign in to the { -brand-name-relay } dashboard to keep track of the aliases you’ve created. { -brand-name-relay } will forward messages to your email address. 
+    If an alias gets spam or unwanted messages, you can block all messages or even delete the alias, right from the dashboard.
+
+## Pricing section
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Limited-time only: Unlimited aliases for { $monthly_price } per month
+landing-pricing-body =
+    Try { -brand-name-firefox-relay } aliases and start protecting your email inbox. 
+    Then upgrade to { -brand-name-relay-premium } for even more flexibility and customised control.
+landing-pricing-free-price = Free
+landing-pricing-free-feature-1 = Up to 5 email aliases
+landing-pricing-free-feature-2 = Browser extension
+landing-pricing-free-cta = Get { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-1 = Unlimited email aliases
+landing-pricing-premium-feature-2 = Browser extension
+landing-pricing-premium-feature-3 = Your own email domain
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Reply to forwarded emails
+
+## Use Cases
+
+landing-use-cases-shopping = Shopping
+
 ## FAQ Page
 
 faq-headline = Frequently Asked Questions
@@ -165,7 +215,7 @@ faq-question-7-question = What if an email sent to my alias contains an attachme
 faq-question-7-answer = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
 
