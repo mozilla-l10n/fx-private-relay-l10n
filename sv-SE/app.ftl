@@ -116,9 +116,25 @@ landing-hero-body =
 ## How it works section
 
 landing-how-it-works-headline = Hur det fungerar
+landing-how-it-works-body = Dela { -brand-name-relay } e-postalias i stället för din riktiga e-postadress för att skydda din inkorg såväl som din identitet.
+landing-how-it-works-step-1-body-cta = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Skapa e-postalias automatiskt var du än anger din e-postadress online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    När du surfar kommer ikonen { -brand-name-relay } att visas där webbplatser ber om din e-postadress.
+    Välj den för att skapa en ny, slumpmässig adress som slutar på @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Logga in på { -brand-name-relay } översikt för att hålla reda på de alias du har skapat. { -brand-name-relay } vidarebefordrar meddelanden till din e-postadress.
+    Om ett alias får skräppost eller oönskade meddelanden kan du blockera alla meddelanden eller till och med ta bort alias, direkt från översikten.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Endast för en begränsad tid: Obegränsade alias för { $monthly_price } per månad
+landing-pricing-body =
+    Prova { -brand-name-firefox-relay } alias och börja skydda din inkorg.
+    Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Upp till 5 e-postalias
 landing-pricing-free-feature-2 = Webbläsartillägg
@@ -129,6 +145,8 @@ landing-pricing-premium-price = { $monthly_price } / månad
 landing-pricing-premium-feature-1 = Obegränsade e-postalias
 landing-pricing-premium-feature-2 = Webbläsartillägg
 landing-pricing-premium-feature-3 = Din egen e-postdomän
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
 
 ## Use Cases
 
