@@ -139,6 +139,8 @@ profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-apply = Aplicar
+# This string is followed by date:
+profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
 profile-label-click-to-copy = Clic para copiar
