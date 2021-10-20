@@ -25,8 +25,8 @@
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] comptes Firefox
-        [uppercase] Comptes Firefox
+       *[lowercase] compte Firefox
+        [uppercase] Compte Firefox
     }
 
 ## Meta Data
