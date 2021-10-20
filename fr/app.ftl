@@ -81,9 +81,9 @@ bento-button-close-label = Fermer le menu
 
 ## Home Page
 
-home-hero-headline = Masquez votre véritable adresse électronique pour protéger votre identité
+home-hero-headline = Masquez votre véritable adresse e-mail pour protéger votre identité
 home-hero-copy =
-    Partagez les alias { -brand-name-relay } au lieu de votre véritable adresse électronique pour protéger vos comptes en ligne contre les pirates.
+    Partagez les alias { -brand-name-relay } au lieu de votre véritable adresse e-mail pour protéger vos comptes en ligne contre les pirates.
     Connectez-vous avec votre { -brand-name-firefox-account } pour commencer.
 home-hero-cta = Connexion
 how-it-works-headline = Principes de fonctionnement
@@ -95,7 +95,7 @@ how-it-works-step-1-copy =
     Connectez-vous avec votre { -brand-name-firefox-account } pour commencer.
 how-it-works-step-2-headline = Créer un nouvel alias
 how-it-works-step-2-copy =
-    Lorsque vous naviguez, l’icône { -brand-name-relay } apparaîtra là où les sites vous demandent votre adresse électronique.
+    Lorsque vous naviguez, l’icône { -brand-name-relay } apparaîtra là où les sites vous demandent votre adresse e-mail.
     Cliquez dessus pour générer une nouvelle adresse aléatoire qui se termine par @relay.firefox.com.
     { -brand-name-relay } transférera les messages à l’adresse principale associée à votre compte.
 how-it-works-step-3-headline = Gérer vos alias
@@ -104,7 +104,7 @@ how-it-works-step-3-copy =
     Si vous constatez qu’un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
 hero-image-copy-trust = Pouvez-vous faire confiance à cette entreprise avec votre messagerie personnelle ?
 hero-image-copy-unique-html = <strong>Utilisez une adresse de relais unique</strong> pour chaque nouveau compte…
-hero-image-copy-protect-html = … afin de <strong>protéger votre véritable adresse électronique</strong> du pistage et du spam.
+hero-image-copy-protect-html = … afin de <strong>protéger votre véritable adresse e-mail</strong> du pistage et du spam.
 hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arrive dans votre boîte de réception !
 
 ## Home Page Version A
@@ -339,7 +339,7 @@ profile-filter-category-option-critical-only-aliases = Alias critiques uniquemen
 
 ## Banner Messages (displayed on the profile page)
 
-banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre courrier électronique.
+banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre e-mail.
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -405,7 +405,7 @@ error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est p
 
 onboarding-headline = Pour créer votre premier alias, vous avez trois possibilités…
 onboarding-tip-1 = Cliquez simplement sur le bouton « Générer un nouvel alias » pour créer votre premier alias
-onboarding-tip-2 = Cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresses électroniques
+onboarding-tip-2 = Cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresses e-mail
 onboarding-tip-3 = Via le menu contextuel, faites un clic droit (Windows) ou Ctrl-clic (macOS) sur les champs du formulaire pour accéder au menu et générer un alias
 
 ## Premium Onboarding
@@ -432,7 +432,7 @@ modal-delete-warning-recovery-html =
     { -brand-name-firefox-relay } ne transférera plus les messages envoyés à <strong>{ $email }</strong>, y compris les messages vous permettant de réinitialiser les mots de passe perdus.
 modal-delete-warning-upgrade =
     Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent,
-    vous devriez mettre à jour votre identifiant avec une adresse électronique différente avant de supprimer celle-ci.
+    vous devriez mettre à jour votre identifiant avec une adresse e-mail différente avant de supprimer celle-ci.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
 modal-domain-register-warning = Gardez à l’esprit que vous ne pouvez enregistrer qu’un domaine pour votre compte et qu’il n’est pas possible de modifier votre domaine ultérieurement.
