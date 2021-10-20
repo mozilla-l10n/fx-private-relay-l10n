@@ -83,6 +83,7 @@ how-it-works-headline = Cómo funciona
 how-it-works-subheadline = Protege tu identidad personal en todos los lugares donde uses { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Obtener la extensión
 how-it-works-step-1-link = Descargar la extensión de { -brand-name-relay } para { -brand-name-firefox }.
+how-it-works-step-2-headline = Crea un nuevo alias
 how-it-works-step-3-headline = Administra tus alias
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
@@ -144,6 +145,7 @@ profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
 profile-label-click-to-copy = Clic para copiar
+profile-label-copy-confirmation = Alias copiado al portapapeles
 profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
@@ -153,6 +155,7 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 ## Banner Messages (displayed on the profile page)
 
 banner-choose-subdomain-input-placeholder = Buscar dominio
+banner-pack-upgrade-cta = Actualizar ahora
 banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
@@ -168,6 +171,7 @@ banner-choose-subdomain-label = Tu dominio es:
 
 ## Premium Onboarding
 
+onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
 
 ## Modals
 
