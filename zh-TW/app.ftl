@@ -136,12 +136,6 @@ landing-use-cases-offline = 線下環境
 landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-gaming = 遊戲
 
-## FAQ Page
-
-faq-headline = 常見問題
-faq-question-1-question = 那垃圾信呢？
-faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
-
 ## Settings page
 
 settings-headline = { -brand-name-relay } 設定
@@ -164,38 +158,54 @@ setting-label-collection-description = 允許 { -brand-name-relay } 收集資料
 setting-label-collection-off-warning = 讓我們收集此資料後，就可以自動在新版當中將您產生的別名與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些別名被用於哪些網站。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
+
+## FAQ Page
+
+faq-headline = 常見問題
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-missing-emails-answer-reason-spam = 訊息掉進垃圾信件匣
+faq-question-missing-emails-answer-reason-blocked = 您的電子郵件業者封鎖您的別名
+faq-question-missing-emails-answer-reason-size = 轉寄的郵件附件超過 { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = 網站不接受使用別名信箱
+faq-question-missing-emails-answer-reason-turned-off = 別名帳號的轉發功能可能被關閉了
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中包含的「relay.」部分） 信箱註冊；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。隨著 { -brand-name-firefox-relay } 的知名度增加，並且建立更多別名信箱，我們的服務也有可能被放到封鎖清單中。若您無法使用 { -brand-name-relay } 別名，<a href="{ $url }" { $attrs }>請讓我們知道</a>。
-faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
-faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
-faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = 那垃圾信呢？
+faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
-faq-question-5-question = 我可以使用 @relay.firefox.com 網域建立我自己想要的 { -brand-name-relay } 別名信箱嗎？
-faq-question-5-answer = 目前不行，但我們正在考慮是否要加入這個功能，讓您可以使用指定網域建立自己的別名信箱。
-faq-question-6-question = { -brand-name-mozilla } 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
-faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
-faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
-faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
+faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
+faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
+# Deprecated
+faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
+# Deprecated
+faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
+# Deprecated
+faq-question-5-question = 我可以使用 @relay.firefox.com 網域建立我自己想要的 { -brand-name-relay } 別名信箱嗎？
+# Deprecated
+faq-question-5-answer = 目前不行，但我們正在考慮是否要加入這個功能，讓您可以使用指定網域建立自己的別名信箱。
+# Deprecated
+faq-question-6-question = { -brand-name-mozilla } 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
+# Deprecated
+faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
+# Deprecated
+faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
+# Deprecated
+faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 
 ## Profile Page (Logged In)
 
