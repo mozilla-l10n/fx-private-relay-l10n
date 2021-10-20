@@ -242,6 +242,8 @@ faq-question-availability-answer = Free { -brand-name-relay } is available in mo
 
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
 faq-question-4-answer = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. Any CC’ed or BCC’ed addresses will not be included in your replies.
+faq-question-4-answer-html = { -brand-name-relay } does not yet offer the ability to reply using an alias.
+    If you try, nothing will happen. We are planning an additional feature to let you <a href="{ $url }" { $attrs }>reply anonymously to senders</a>.
 
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 faq-question-browser-support-answer = Yes, you can generate { -brand-name-relay } aliases on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
