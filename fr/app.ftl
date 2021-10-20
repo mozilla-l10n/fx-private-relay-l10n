@@ -203,6 +203,19 @@ faq-headline = Questions fréquentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Qu’est-ce qu’un alias { -brand-name-relay } ?
+faq-question-missing-emails-question = Je ne reçois pas de messages de mes alias
+faq-question-missing-emails-answer-a = Il existe plusieurs raisons pour lesquelles vous ne recevez peut-être pas les e-mails transférés via vos alias. Ces raisons incluent :
+faq-question-missing-emails-answer-reason-spam = Les messages vont dans le courrier indésirable
+faq-question-missing-emails-answer-reason-blocked = Votre fournisseur de messagerie bloque votre alias
+faq-question-missing-emails-answer-reason-size = L’e-mail transféré contient une pièce jointe supérieure à { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Le site n’accepte pas les alias
+faq-question-missing-emails-answer-reason-turned-off = L’alias a peut-être été désactivé
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } peut prendre plus de temps que d’habitude pour transférer vos messages
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Si vous utilisez { -brand-name-relay-premium } et rencontrez l’un de ces problèmes, veuillez <a href="{ $url }" { $attrs }>contacter notre équipe d’assistance</a>.
+faq-question-use-cases-question = Quand dois-je utiliser les alias { -brand-name-relay } ?
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
 # Deprecated
 # Variables:
@@ -218,7 +231,13 @@ faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messa
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si vous constatez un problème plus général de messages indésirables provenant de tous vos alias, veuillez <a href="{ $url }" { $attrs }>nous le signaler</a> afin que nous puissions envisager d’ajuster les seuils de spam SES pour ce service. Si vous les signalez comme spam, votre fournisseur de messagerie identifiera { -brand-name-relay } comme la source du spam, et non l’expéditeur original.
+faq-question-availability-question = Où { -brand-name-relay } est-il disponible ?
+faq-question-availability-answer = { -brand-name-relay } gratuit est disponible dans la plupart des pays. { -brand-name-relay-premium } est disponible aux États-Unis, en Allemagne, au Royaume-Uni, au Canada, à Singapour, en Malaisie, en Nouvelle-Zélande, en France, en Belgique, en Autriche, en Espagne, en Italie, en Suisse, aux Pays-Bas et en Irlande.
 faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
+faq-question-4-answer = Les utilisateurs et utilisatrices de { -brand-name-relay-premium } peuvent répondre à un e-mail transféré dans les 3 mois suivant sa réception. Les adresses en Copie ou en Copie cachée ne seront pas incluses dans vos réponses.
+faq-question-browser-support-question = Puis-je utiliser { -brand-name-relay } sur d’autres navigateurs ou sur mon appareil mobile ?
+faq-question-browser-support-answer = Oui, vous pouvez générer des alias { -brand-name-relay } sur d’autres navigateurs ou appareils mobiles simplement en vous connectant à votre tableau de bord { -brand-name-relay }.
+faq-question-longevity-question = Que se passera-t-il si Mozilla arrête le service { -brand-name-firefox-relay } ?
 faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
