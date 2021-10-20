@@ -110,6 +110,7 @@ landing-hero-body =
 
 landing-how-it-works-headline = 工作原理
 landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
+landing-how-it-works-step-1-body = 在输入邮箱地址时自动生成马甲邮箱
 
 ## Pricing section
 
@@ -136,12 +137,6 @@ landing-use-cases-social-networks = 社交网络
 landing-use-cases-offline = 线下场景
 landing-use-cases-gaming = 游戏
 
-## FAQ Page
-
-faq-headline = 常见问题
-faq-question-1-question = 那垃圾邮件呢？
-faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
-
 ## Settings page
 
 settings-headline = { -brand-name-relay } 设置
@@ -162,38 +157,49 @@ setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
+
+## FAQ Page
+
+faq-headline = 常见问题
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不再接受 Gmail、Hotmail、Yahoo 以外的账户注册。随着 { -brand-name-firefox-relay } 的知名度增加，并创建更多的马甲邮箱，我们的服务也可能被屏蔽。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
-faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
-faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
-faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = 那垃圾邮件呢？
+faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
-faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建自己心仪的 { -brand-name-relay } 马甲吗？
-faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定域名创建自己的马甲邮箱。
-faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
-faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
-faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
-faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
+faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
+faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = 您可阅读我们的 <a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+# Deprecated
+faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
+# Deprecated
+faq-question-3-answer = 本站当前只有英文版，但您可在全球使用此服务。
+# Deprecated
+faq-question-5-question = 我可以使用 @relay.firefox.com 域名创建自己心仪的 { -brand-name-relay } 马甲吗？
+# Deprecated
+faq-question-5-answer = 当前不行，但我们正在考虑是否要加入此功能，让您可以使用指定域名创建自己的马甲邮箱。
+# Deprecated
+faq-question-6-question = { -brand-name-mozilla } 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
+# Deprecated
+faq-question-6-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
+# Deprecated
+faq-question-7-question = 发送到我马甲邮箱的邮件包含附件怎么办？
+# Deprecated
+faq-question-7-answer = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 
 ## Profile Page (Logged In)
 
