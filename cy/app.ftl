@@ -219,7 +219,7 @@ faq-question-missing-emails-answer-reason-delay = Efallai y bydd { -brand-name-r
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-name-relay-premium } sy'n cael trafferth gydag unrhyw un o'r materion hyn, <a href="{ $url }" { $attrs }>cysylltwch â'n tîm cymorth</a> os gwelwch yn dda.
 faq-question-use-cases-question = Pryd ddylwn i ddefnyddio arallenw { -brand-name-relay }?
-faq-question-use-cases-answer = Gallwch ddefnyddio arallenw { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata/gwybodaeth lle efallai yr hoffech reoli a ydych chi'n derbyn e-byst yn y dyfodol ai peidio. Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei gwirio neu ar gyfer e-byst pwysig iawn. Er enghraifft, rydych chi am rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg, eich cyfreithiwr, ac ati.
+faq-question-use-cases-answer = Gallwch ddefnyddio arallenw { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata/gwybodaeth lle efallai yr hoffech chi reoli a ydych chi'n derbyn e-byst yn y dyfodol ai peidio. Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei gwirio neu ar gyfer e-byst pwysig iawn. Er enghraifft, byddwch angen rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg, eich cyfreithiwr, ac ati.
 faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -244,13 +244,13 @@ faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost di
 faq-question-availability-question = Lle mae { -brand-name-relay } ar gael?
 faq-question-availability-answer = Mae { -brand-name-relay } ar gael am ddim yn y mwyafrif o wledydd. Mae { -brand-name-relay-premium } ar gael yn yr Unol Daleithiau, yr Almaen, y Deyrnas Unedig, Canada, Singapore, Malaysia, Seland Newydd, Ffrainc, Gwlad Belg, Awstria, Sbaen, yr Eidal, y Swistir, yr Iseldiroedd ac Iwerddon.
 faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
-faq-question-4-answer = Gall defnyddwyr { -brand-name-relay-premium } ateb i e-bost a anfonwyd ymlaen o fewn 3 mis ar ôl derbyn yr e-bost. Ni fydd unrhyw gyfeiriadau CC neu BCC yn cael eu cynnwys yn eich atebion.
+faq-question-4-answer = Gall defnyddwyr { -brand-name-relay-premium } ateb e-byst a anfonwyd ymlaen o fewn 3 mis ar ôl derbyn yr e-byst hynny. Ni fydd unrhyw gyfeiriadau CC neu BCC yn cael eu cynnwys yn eich atebion.
 faq-question-browser-support-question = A allaf ddefnyddio { -brand-name-relay } ar borwyr eraill neu fy nyfais symudol?
 faq-question-browser-support-answer = Gallwch, gallwch gynhyrchu arallenwau { -brand-name-relay } ar borwyr neu ddyfeisiau symudol eraill dim ond trwy fewngofnodi i'ch bwrdd gwaith { -brand-name-relay }.
 faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
 faq-question-mozmail-question = Pam y dechreuodd fy arallenwau ddefnyddio'r parth “mozmail.com?”
-faq-question-mozmail-answer = Gwnaethom y newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud yn bosibl cael parth e-bost cyfaddas, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
+faq-question-mozmail-answer = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost cyfaddas, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
 faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
 faq-question-attachments-answer = Bydd, mae { -brand-name-firefox-relay } yn cefnogi e-byst a anfonwyd ymlaen gydag atodiadau o hyd at { email-size-limit } o faint. Os oes gan e-bost atodiad sy'n fwy na { email-size-limit }, ni fydd yn cael ei anfon ymlaen.
 faq-question-unsubscribe-domain-question = Beth sy'n digwydd i'm parth cyfaddas os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
