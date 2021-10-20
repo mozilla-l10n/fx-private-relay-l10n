@@ -445,6 +445,9 @@ modal-delete-warning-recovery-html = Once you delete this alias, it cannot be re
     { -brand-name-firefox-relay } will no longer forward messages sent to <strong>{ $email }</strong>, including messages that allow you to reset lost passwords.
 modal-delete-warning-upgrade = If you use this alias to log in to sites you care about, 
     you should update your login with a different email address before you delete this one.
+modal-delete-domain-address-warning-upgrade = If you use this alias to log in to sites you care about,
+    you should update your login with a different email address before you delete this one.
+    If you recreate a deleted alias, emails sent to the original alias will continue to be forwarded.
 modal-delete-confirmation = Yes, I want to delete this alias.
 modal-domain-register-good-news = Good News!
 modal-domain-register-warning = Remember, you are allowed to register one domain only for your account and is not possible to change your domain later.
