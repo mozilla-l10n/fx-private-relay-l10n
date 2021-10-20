@@ -139,6 +139,8 @@ profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
+profile-label-delete = Eliminar
+profile-label-delete-alias = Eliminar este alias
 profile-label-apply = Aplicar
 # This string is followed by date:
 profile-label-created = Creado:
