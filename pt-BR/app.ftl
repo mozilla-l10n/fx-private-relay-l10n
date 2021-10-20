@@ -103,11 +103,21 @@ hero-image-copy-unique-html = <strong>Use um endereço de redirecionamento exclu
 hero-image-copy-protect-html = … para <strong>proteger seu email real</strong> de rastreamento e spam.
 hero-image-copy-control-html = Agora <em>você está no controle</em> do que chega em sua caixa de entrada!
 
-## FAQ Page
+## Home Page Version A
 
-faq-headline = Perguntas frequentes
-faq-question-1-question = E quanto ao spam?
-faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
+
+## Hero Section
+
+landing-hero-headline = Proteja seu endereço de email real para ajudar a controlar sua caixa de entrada
+
+## How it works section
+
+
+## Pricing section
+
+
+## Use Cases
+
 
 ## Settings page
 
@@ -131,11 +141,17 @@ setting-label-collection-description = Permitir que o { -brand-name-relay } cole
 setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
+
+## FAQ Page
+
+faq-headline = Perguntas frequentes
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -143,31 +159,34 @@ faq-question-2-answer-html =
     Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
     Conforme o { -brand-name-firefox-relay } crescer em popularidade e emitir mais endereços de redirecionamento, nosso serviço pode ser colocado em uma lista de bloqueio.
     Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
-faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
-faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
-faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = E quanto ao spam?
+faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
-    Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
-faq-question-5-question = Posso criar meu próprio endereço do { -brand-name-relay } usando o domínio @relay.firefox.com?
-faq-question-5-answer = Atualmente não, mas estamos considerando novos recursos, incluindo permitir que você crie seu próprio endereço de redirecionamento com um domínio designado.
-faq-question-6-question = O que acontece se a { -brand-name-mozilla } encerrar o serviço { -brand-name-firefox-relay }?
-faq-question-6-answer = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
-faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
-faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
+faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
+faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
+# Deprecated
+faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
+# Deprecated
+faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
+# Deprecated
+faq-question-5-question = Posso criar meu próprio endereço do { -brand-name-relay } usando o domínio @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Atualmente não, mas estamos considerando novos recursos, incluindo permitir que você crie seu próprio endereço de redirecionamento com um domínio designado.
+# Deprecated
+faq-question-6-question = O que acontece se a { -brand-name-mozilla } encerrar o serviço { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
+# Deprecated
+faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 
 ## Profile Page (Logged In)
 
