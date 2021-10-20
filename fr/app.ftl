@@ -223,7 +223,7 @@ faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -bra
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html =
-    Certains sites peuvent ne pas accepter une adresse électronique qui contient un sous-domaine (c’est-à-dire la partie « relay » de @relay.firefox.com) et d’autres ont arrêté d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
+    Certains sites peuvent ne pas accepter une adresse e-mail qui contient un sous-domaine (c’est-à-dire la partie « relay » de @relay.firefox.com) et d’autres ont arrêté d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
     Au fur et à mesure que { -brand-name-firefox-relay } gagne en popularité et émet de plus en plus d’alias, notre service peut être placé sur une liste de blocage.
     Si vous n’êtes pas en mesure d’utiliser un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>veuillez nous le faire savoir</a>.
 # Variables:
@@ -245,7 +245,7 @@ faq-question-4-answer = Les utilisateurs et utilisatrices de { -brand-name-relay
 faq-question-browser-support-question = Puis-je utiliser { -brand-name-relay } sur d’autres navigateurs ou sur mon appareil mobile ?
 faq-question-browser-support-answer = Oui, vous pouvez générer des alias { -brand-name-relay } sur d’autres navigateurs ou appareils mobiles simplement en vous connectant à votre tableau de bord { -brand-name-relay }.
 faq-question-longevity-question = Que se passera-t-il si Mozilla arrête le service { -brand-name-firefox-relay } ?
-faq-question-longevity-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
+faq-question-longevity-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse e-mail de tous les comptes qui utilisent des alias { -brand-name-relay }.
 faq-question-mozmail-question = Pourquoi mes alias ont-ils commencé à utiliser le domaine « mozmail.com » ?
 faq-question-mozmail-answer = Nous sommes passés de « relay.firefox.com » à « mozmail.com » afin de permettre l’obtention d’un domaine de messagerie personnalisé, tel que alias@votredomaine.mozmail.com. Les domaines de messagerie personnalisés, disponibles pour les abonnés { -brand-name-relay-premium }, rendent également vos alias de messagerie beaucoup plus faciles à mémoriser que les alias aléatoires.
 faq-question-attachments-question = { -brand-name-firefox-relay } transférera-t-il les e-mails avec pièces jointes ?
@@ -268,9 +268,9 @@ faq-question-5-answer = Pas pour l’instant, mais nous étudions de nouvelles f
 # Deprecated
 faq-question-6-question = Que se passera-t-il si { -brand-name-mozilla } arrête le service { -brand-name-firefox-relay } ?
 # Deprecated
-faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse électronique de tous les comptes qui utilisent des alias { -brand-name-relay }.
+faq-question-6-answer = Nous vous informerons à l’avance que vous devez modifier l’adresse e-mail de tous les comptes qui utilisent des alias { -brand-name-relay }.
 # Deprecated
-faq-question-7-question = Que se passe-t-il si un courrier électronique envoyé à mon alias contient une pièce jointe ?
+faq-question-7-question = Que se passe-t-il si un e-mail envoyé à mon alias contient une pièce jointe ?
 # Deprecated
 faq-question-7-answer = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 
@@ -282,7 +282,7 @@ profile-label-welcome-html = <span>Bienvenue,</span> { $email } !
 profile-headline-manage-domain = Gérer les alias de votre domaine
 profile-supports-email-forwarding = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }
 profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionnalités.
-profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses électroniques et votre propre domaine de messagerie.
+profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses e-mail et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
 profile-label-edit = Modifier le nom de cet alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
