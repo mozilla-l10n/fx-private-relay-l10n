@@ -48,6 +48,8 @@ nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
 nav-profile-settings = Ajustes
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-help = Ayuda y soporte
+# This is only visible to Premium users.
+nav-profile-contact = Contáctanos
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
@@ -94,6 +96,7 @@ hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico 
 ## How it works section
 
 landing-how-it-works-headline = Cómo funciona
+landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 
 ## Pricing section
 
@@ -108,11 +111,6 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 landing-use-cases-social-networks = Redes sociales
 
-## FAQ Page
-
-faq-headline = Preguntas frecuentes
-faq-question-1-question = ¿Qué pasa con el spam?
-
 ## Settings page
 
 settings-meta-contact-label = Contáctanos
@@ -120,12 +118,17 @@ settings-meta-help-label = Ayuda y soporte
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
-faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+
+## FAQ Page
+
+faq-headline = Preguntas frecuentes
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
+faq-question-1-question = ¿Qué pasa con el spam?
 
 ## Profile Page (Logged In)
 
