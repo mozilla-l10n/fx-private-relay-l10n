@@ -214,14 +214,6 @@ faq-question-use-cases-question = When should I use { -brand-name-relay } aliase
 faq-question-use-cases-answer = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future. We don’t recommend using aliases when you need your identity verified or for very important emails. For example, you’d want to share your real email address with your bank, your doctor, your lawyer, etc.
 
 faq-question-2-question = Why won’t a site accept my { -brand-name-relay } alias?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Some sites may not accept an email address that includes a subdomain (i.e., the “relay” portion of @relay.firefox.com) and others have stopped accepting all addresses except those from Gmail, Hotmail or Yahoo accounts.
-    As { -brand-name-firefox-relay } grows in popularity and issues more aliases, our service might be placed on a blocklist. 
-    If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>please let us know</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -262,23 +254,6 @@ faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
-
-# Deprecated
-faq-question-3-question = Is { -brand-name-relay } available only in the US?
-# Deprecated
-faq-question-3-answer = The site is currently only available in English, but you can use the service anywhere.
-# Deprecated
-faq-question-5-question = Can I make up my own { -brand-name-relay } alias using the @relay.firefox.com domain?
-# Deprecated
-faq-question-5-answer = Not currently, but we are considering new features including letting you create your own alias with a designated domain.
-# Deprecated
-faq-question-6-question = What happens if { -brand-name-mozilla } shuts down the { -brand-name-firefox-relay } service?
-# Deprecated
-faq-question-6-answer = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } aliases.
-# Deprecated
-faq-question-7-question = What if an email sent to my alias contains an attachment?
-# Deprecated
-faq-question-7-answer = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 
 ## Profile Page (Logged In)
 
@@ -330,7 +305,6 @@ profile-label-cancel = Cancel
 profile-blocked-copy = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this alias.
 profile-forwarded-copy = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this alias.
 profile-forwarded-note = Note:
-profile-forwarded-note-copy = Email (including attachments) larger than { email-size-limit } are not currently supported and will not be forwarded.
 profile-forwarded-note-copy-v2 = Email (including attachments) larger than { email-size-limit } will not be forwarded.
 profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
