@@ -170,8 +170,11 @@ settings-meta-contact-tooltip = Επικοινωνία με το { -brand-name-r
 settings-meta-help-label = Βοήθεια και υποστήριξη
 settings-meta-help-tooltip = Λήψη βοήθειας με το { -brand-name-relay }
 settings-meta-status-label = Κατάσταση υπηρεσίας
+settings-meta-status-tooltip = Δείτε αν όλα τα συστήματα του { -brand-name-relay } είναι λειτουργικά αυτήν τη στιγμή.
 settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
 settings-error-save-description = Οι αλλαγές σας στις ρυθμίσεις δεν αποθηκεύτηκαν λόγω σφάλματος σύνδεσης. Παρακαλώ δοκιμάστε ξανά.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Η λειτουργία ετικέτας των ψευδωνύμων email είναι ανενεργή
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 settings-button-save-label = Αποθήκευση
@@ -205,6 +208,10 @@ faq-question-attachments-question = Θα προωθεί το { -brand-name-firef
 faq-question-attachments-answer = Ναι, το { -brand-name-firefox-relay } υποστηρίζει προωθημένα email με συνημμένα μεγέθους έως και { email-size-limit }. Αν ένα email περιέχει συνημμένο μεγαλύτερο των { email-size-limit }, δεν θα προωθείται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay }, διαβάζοντας την <a href="{ $url }" { $attrs }>πολιτική απορρήτου</a> μας. Μπορείτε επίσης να μοιραστείτε προαιρετικά δεδομένα σχετικές με τις ετικέτες και τον ιστότοπο που χρησιμοποιείτε για τα ψευδώνυμα email σας, προκειμένου να σας παρέχουμε και να βελτιώνουμε αυτήν την υπηρεσία.
 # Deprecated
 faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
 # Deprecated
