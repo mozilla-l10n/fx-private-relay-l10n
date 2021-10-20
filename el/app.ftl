@@ -152,6 +152,7 @@ landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
 
 ## Use Cases
 
@@ -187,7 +188,11 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Τι είναι ένα ψευδώνυμο { -brand-name-relay };
 faq-question-missing-emails-question = Δεν λαμβάνω μηνύματα από τα ψευδώνυμά μου
 faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
+faq-question-missing-emails-answer-reason-blocked = Ο πάροχος email σας αποκλείει το ψευδώνυμό σας
+faq-question-missing-emails-answer-reason-size = Το προωθημένο email έχει συνημμένο μεγαλύτερο από { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Ο ιστότοπος δεν δέχεται ψευδώνυμα
+faq-question-missing-emails-answer-reason-turned-off = Δεν έχει ενεργοποιηθεί η προώθηση για το ψευδώνυμο
+faq-question-use-cases-question = Πότε πρέπει να χρησιμοποιώ τα ψευδώνυμα { -brand-name-relay };
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
@@ -262,6 +267,7 @@ profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφε�
 profile-forwarded-copy = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτό το ψευδώνυμο.
 profile-forwarded-note = Σημείωση:
 profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
+profile-forwarded-note-copy-v2 = Τα email (μαζί με τα συνημμένα) μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
@@ -300,7 +306,9 @@ banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email 
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
+banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
+banner-label-data-notification-body-v2 = Μπορείτε να επιτρέψετε στο { -brand-name-relay } τη συλλογή προαιρετικών δεδομένων που μας επιτρέπουν να συγχρονίζουμε τις ετικέτες των ψευδωνύμων σας στις συσκευές σας με τους ιστοτόπους όπου δημιουργήθηκαν και χρησιμοποιήθηκαν.
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ο τομέας σας είναι:
@@ -346,6 +354,7 @@ onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-na
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
 onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
+onboarding-premium-reply-description = Θέλετε να απαντήσετε σε email που απεστάλησαν σε ένα ψευδώνυμο; Απαντήστε κανονικά — το ψευδώνυμό σας θα προστατεύσει τη διεύθυνση email.
 
 ## Modals
 
@@ -359,6 +368,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Αν χρησιμοποιείτε αυτό το ψευδώνυμο για τη σύνδεση σε σημαντικούς ιστοτόπους, 
     θα πρέπει να ενημερώσετε τα στοιχεία σύνδεσής σας με μια άλλη διεύθυνση email πριν διαγράψετε αυτήν.
+modal-delete-domain-address-warning-upgrade =
+    Αν χρησιμοποιείτε αυτό το ψευδώνυμο για τη σύνδεση σε αγαπημένους ιστοτόπους,
+    θα πρέπει να ενημερώσετε τη σύνδεσή σας με μια διαφορετική διεύθυνση email προτού διαγράψετε αυτή.
+    Αν δημιουργήσετε ξανά ένα διαγεγραμμένο ψευδώνυμο, τα email που αποστέλλονται στο πρωτότυπο ψευδώνυμο θα συνεχίσουν να προωθούνται.
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
 modal-domain-register-good-news = Καλά νέα!
 modal-domain-register-warning = Θυμηθείτε: μπορείτε να καταχωρήσετε μόνο έναν τομέα για τον λογαριασμό σας και δεν μπορείτε να τον αλλάξετε αργότερα.
