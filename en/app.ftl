@@ -181,6 +181,7 @@ setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description = Allow { -brand-name-relay } to collect data showing the sites on which your aliases are created and used.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = This data will allow us to label your aliases with the relevant websites in a future release. If you decide to opt-out from this preference, your aliases will not be labeled with the websites where they’re used.
+setting-label-collection-off-warning-v2 = This data will allow us to label your aliases with the websites where they’re used. If you decide to opt out from this preference, your aliases will not be labeled with the websites where they’re used.
 settings-button-save-label = Save
 settings-button-save-tooltip = Apply your chosen settings.
 
