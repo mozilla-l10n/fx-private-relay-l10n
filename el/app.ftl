@@ -170,9 +170,11 @@ settings-meta-help-label = Βοήθεια και υποστήριξη
 settings-meta-help-tooltip = Λήψη βοήθειας με το { -brand-name-relay }
 settings-meta-status-label = Κατάσταση υπηρεσίας
 settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
+settings-error-save-description = Οι αλλαγές σας στις ρυθμίσεις δεν αποθηκεύτηκαν λόγω σφάλματος σύνδεσης. Παρακαλώ δοκιμάστε ξανά.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 settings-button-save-label = Αποθήκευση
+settings-button-save-tooltip = Εφαρμογή των επιλεγμένων σας ρυθμίσεων.
 
 ## FAQ Page
 
