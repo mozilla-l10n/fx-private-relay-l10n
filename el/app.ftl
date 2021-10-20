@@ -73,8 +73,11 @@ nav-profile-sign-out-confirm = Θέλετε σίγουρα να αποσυνδε
 nav-profile-settings = Ρυθμίσεις
 nav-profile-settings-tooltip = Ρύθμιση του { -brand-name-firefox-relay }
 nav-profile-help = Βοήθεια και υποστήριξη
+nav-profile-help-tooltip = Λήψη βοήθειας με το { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Επικοινωνία
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Επικοινωνία σχετικά με το { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 
 ## Footer
@@ -130,11 +133,16 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 ## How it works section
 
 landing-how-it-works-headline = Πώς λειτουργεί;
+landing-how-it-works-step-1-body-cta = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Μόνο για περιορισμένο χρονικό διάστημα: απεριόριστα ψευδώνυμα με { $monthly_price } ανά μήνα
 landing-pricing-free-price = Δωρεάν
 landing-pricing-free-feature-1 = Έως 5 ψευδώνυμα email
+landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -146,6 +154,8 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 landing-use-cases-shopping = Αγορές
 landing-use-cases-social-networks = Κοινωνικά δίκτυα
+landing-use-cases-offline = Εκτός σύνδεσης
+landing-use-cases-access-content = Πρόσβαση σε περιεχόμενο
 landing-use-cases-gaming = Παιχνίδια
 
 ## Settings page
@@ -154,6 +164,7 @@ settings-headline = Ρυθμίσεις { -brand-name-relay }
 settings-meta-contact-label = Επικοινωνία
 settings-meta-contact-tooltip = Επικοινωνία με το { -brand-name-relay }
 settings-meta-help-label = Βοήθεια και υποστήριξη
+settings-meta-help-tooltip = Λήψη βοήθειας με το { -brand-name-relay }
 settings-meta-status-label = Κατάσταση υπηρεσίας
 settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
@@ -168,12 +179,19 @@ faq-headline = Συχνές ερωτήσεις
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Τι είναι ένα ψευδώνυμο { -brand-name-relay };
+faq-question-missing-emails-question = Δεν λαμβάνω μηνύματα από τα ψευδώνυμά μου
+faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
 faq-question-missing-emails-answer-reason-not-accepted = Ο ιστότοπος δεν δέχεται ψευδώνυμα
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
+faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
+faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
+faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Deprecated
