@@ -174,12 +174,6 @@ landing-use-cases-gaming-body =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch arallenw { -brand-name-relay } i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
 
-## FAQ Page
-
-faq-headline = Cwestiynau Cyffredin
-faq-question-1-question = Beth am sbam?
-faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
-
 ## Settings page
 
 settings-headline = Gosodiadau { -brand-name-relay }
@@ -202,11 +196,30 @@ setting-label-collection-description = Caniatáu i { -brand-name-relay } gasglu 
 setting-label-collection-off-warning = Bydd y data hwn yn caniatáu i ni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
 settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
+
+## FAQ Page
+
+faq-headline = Cwestiynau Cyffredin
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Beth yw arallenw { -brand-name-relay }?
+faq-question-what-is-answer = Mae arallenwau e-bost yn gyfeiriadau e-bost wedi'u cuddio sy'n anfon negeseuon i'ch gwir gyfeiriad e-bost. Mae'r arallenwau hyn yn caniatáu ichi rannu cyfeiriad â thrydydd parti sy'n cuddio'ch gwir gyfeiriad e-bost ac yn anfon negeseuon atyn nhw.
+faq-question-missing-emails-question = Nid wyf yn cael negeseuon o fy arallenwau
+faq-question-missing-emails-answer-a = Mae yna ychydig o resymau efallai pam nad ydych chi'n derbyn e-byst sy'n cael eu hanfon ymlaen trwy eich arallenwau. Mae'r rhesymau hyn yn cynnwys:
+faq-question-missing-emails-answer-reason-spam = Mae negeseuon yn mynd i'r sbam
+faq-question-missing-emails-answer-reason-blocked = Mae eich darparwr e-bost yn rhwystro'ch arallenwau
+faq-question-missing-emails-answer-reason-size = Mae gan yr e-bost a anfonwyd atodiad sy'n fwy na { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Nid yw'r wefan yn derbyn arallenwau
+faq-question-missing-emails-answer-reason-turned-off = Efallai bod yr arallenw wedi diffodd anfon ymlaen
+faq-question-missing-emails-answer-reason-delay = Efallai y bydd { -brand-name-relay } yn cymryd mwy o amser na'r arfer i anfon eich negeseuon ymlaen
+#   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diofyn o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
+faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-name-relay-premium } sy'n cael trafferth gydag unrhyw un o'r materion hyn, <a href="{ $url }" { $attrs }>cysylltwch â'n tîm cymorth</a> os gwelwch yn dda.
 faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -214,31 +227,34 @@ faq-question-2-answer-html =
     Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (h.y., cyfran “relay” @relay.firefox.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Wrth i { -brand-name-firefox-relay } dyfu mewn poblogrwydd a chyhoeddi mwy o arallenwau, efallai y bydd ein gwasanaeth yn cael ei roi ar restrau rhwystro.
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
-faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithiau'n unig?
-faq-question-3-answer = Ar hyn o bryd dim ond yn Saesneg y mae'r wefan ar gael, ond gallwch ddefnyddio'r gwasanaeth yn unrhyw le.
-faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = Beth am sbam?
+faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-4-answer-html =
-    Nid yw { -brand-name-relay } eto yn cynnig y gallu i ymateb gan ddefnyddio arallenw.
-    Os ceisiwch wneud hynny, ni fydd unrhyw beth yn digwydd. Rydym yn cynllunio nodwedd ychwanegol i adael i chi <a href="{ $url }" { $attrs }>ateb yn ddienw i anfonwyr</a>.
-faq-question-5-question = Oes modd i mi greu fy arallenwau { -brand-name-relay } fy hun gan ddefnyddio parth gan ddefnyddio parth @relay.firefox.com?
-faq-question-5-answer = Ddim ar hyn o bryd, ond rydym yn ystyried nodweddion newydd gan gynnwys gadael i chi greu eich arallenw eich hun gyda pharth dynodedig.
-faq-question-6-question = Beth fydd yn digwydd os bydd { -brand-name-mozilla } yn cau gwasanaeth { -brand-name-firefox-relay }?
-faq-question-6-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
-faq-question-7-question = Beth os yw e-bost sy'n cael ei anfon at fy arallenw'n cynnwys atodiad?
-faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
+faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diofyn o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
+faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
+# Deprecated
+faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithiau'n unig?
+# Deprecated
+faq-question-3-answer = Ar hyn o bryd dim ond yn Saesneg y mae'r wefan ar gael, ond gallwch ddefnyddio'r gwasanaeth yn unrhyw le.
+# Deprecated
+faq-question-5-question = Oes modd i mi greu fy arallenwau { -brand-name-relay } fy hun gan ddefnyddio parth gan ddefnyddio parth @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Ddim ar hyn o bryd, ond rydym yn ystyried nodweddion newydd gan gynnwys gadael i chi greu eich arallenw eich hun gyda pharth dynodedig.
+# Deprecated
+faq-question-6-question = Beth fydd yn digwydd os bydd { -brand-name-mozilla } yn cau gwasanaeth { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = Beth os yw e-bost sy'n cael ei anfon at fy arallenw'n cynnwys atodiad?
+# Deprecated
+faq-question-7-answer = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 
 ## Profile Page (Logged In)
 
