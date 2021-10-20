@@ -207,6 +207,20 @@ faq-headline = Vanliga frågor
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Vad är ett { -brand-name-relay }-alias?
+faq-question-what-is-answer = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din sanna e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din sanna e-postadress och vidarebefordra meddelanden till den.
+faq-question-missing-emails-question = Jag får inga meddelanden från mina alias
+faq-question-missing-emails-answer-a = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
+faq-question-missing-emails-answer-reason-spam = Meddelanden kommer till spam
+faq-question-missing-emails-answer-reason-blocked = Din e-postleverantör blockerar ditt alias
+faq-question-missing-emails-answer-reason-size = Det vidarebefordrade e-postmeddelandet har en bilaga större än { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Webbplatsen accepterar inte alias
+faq-question-missing-emails-answer-reason-turned-off = Alias kan ha avstängt vidarebefordran
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kan ta längre tid än vanligt att vidarebefordra dina meddelanden
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Om du är en { -brand-name-relay-premium }-användare som kämpar med något av dessa problem, <a href="{ $url }" { $attrs }>kontakta vårt supportteam</a>.
+faq-question-use-cases-question = När ska jag använda { -brand-name-relay }-alias?
+faq-question-use-cases-answer = Du kan använda { -brand-name-relay }-alias på de flesta ställen där du skulle använda din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte. Vi rekommenderar inte att du använder alias när du behöver verifiera din identitet eller för mycket viktiga e-postmeddelanden. Till exempel vill du dela din riktiga e-postadress med din bank, din läkare, din advokat, etc.
 faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
 # Deprecated
 # Variables:
@@ -215,6 +229,12 @@ faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-nam
 faq-question-2-answer-html =
     Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (dvs "relay"-delen av @relay.firefox.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton.
     Eftersom { -brand-name-firefox-relay } växer i popularitet och utfärdar fler alias kan vår tjänst placeras på en blockeringslista.
+    Om du inte kan använda ett { -brand-name-relay }-alias, <a href="{ $url }" { $attrs }>meddela oss</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (dvs "relä"-delen av @relay.firefox.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton
     Om du inte kan använda ett { -brand-name-relay }-alias, <a href="{ $url }" { $attrs }>meddela oss</a>.
 faq-question-1-question = Hur är det med spam?
 faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
@@ -235,6 +255,10 @@ faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten {
 faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
 faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
 faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
+faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
+faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stöder vidarebefordrade e-postmeddelanden med bilagor på upp till { email-size-limit } i storlek. Om ett e-postmeddelande har en bilaga större än { email-size-limit } vidarebefordras det inte.
+faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -304,6 +328,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } tar bort meddelanden innan 
 profile-forwarded-copy = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
 profile-forwarded-note = Obs:
 profile-forwarded-note-copy = E-post (inklusive bilagor) större än { email-size-limit } stöds för närvarande inte och kommer inte att vidarebefordras.
+profile-forwarded-note-copy-v2 = E-post (inklusive bilagor) större än { email-size-limit } vidarebefordras inte.
 profile-stat-label-blocked = E-postmeddelanden blockerade
 profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
 profile-stat-label-aliases-used = E-postalias som används
@@ -415,6 +440,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Om du använder detta alias för att logga in på webbplatser du bryr dig om,
     bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
+modal-delete-domain-address-warning-upgrade =
+    Om du använder detta alias för att logga in på webbplatser du bryr dig om,
+    bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
+    Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
 modal-delete-confirmation = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
 modal-domain-register-warning = Kom ihåg att du bara kan registrera en domän för ditt konto och att du inte kan ändra din domän senare.
