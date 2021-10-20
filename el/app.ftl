@@ -264,10 +264,16 @@ profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Ψευδώνυμα προώθησης
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Ψευδώνυμα αποκλεισμού
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Τυχαία ψευδώνυμα
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Προσαρμοσμένα ψευδώνυμα
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Ψευδώνυμα υψηλής σημασίας
 
 ## Banner Messages (displayed on the profile page)
 
@@ -332,8 +338,11 @@ onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάν�
 ## Premium Onboarding
 
 onboarding-premium-headline = Καλώς ορίσατε στο { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Πλέον, μπορείτε να <strong>ελέγχετε</strong> τα εισερχόμενά σας, ένα email κάθε φορά.
 onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-name-relay-premium }, μπορείτε να:
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
+onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 
 ## Modals
