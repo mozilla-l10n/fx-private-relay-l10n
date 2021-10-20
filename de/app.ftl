@@ -194,6 +194,7 @@ setting-label-collection-heading-v2 = Datenschutz
 setting-label-collection-description = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen Ihre Alias-E-Mail-Adressen erstellt und verwendet werden.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den entsprechenden Websites zu beschriften. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
+setting-label-collection-off-warning-v2 = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
 settings-button-save-label = Speichern
 settings-button-save-tooltip = Gewählte Einstellungen übernehmen.
 
@@ -436,6 +437,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Wenn Sie sich mit dieser Alias-Adresse auf Websites anmelden, die Ihnen wichtig sind,
     sollten Sie Ihre Zugangsdaten mit einer neuen E-Mail-Adresse aktualisieren, bevor Sie diese löschen.
+modal-delete-domain-address-warning-upgrade =
+    Wenn Sie diese Alias-E-Mail-Adresse verwenden, um sich bei Websites anzumelden, die Ihnen wichtig sind,
+    sollten Sie die E-Mail-Adresse Ihrer Zugangsdaten ändern, bevor Sie diese löschen.
+    Wenn Sie eine gelöschte Alias-E-Mail-Adresse neu erstellen, werden E-Mails, die an die ursprüngliche Alias-E-Mail-Adresse gesendet wurden, wieder weitergeleitet.
 modal-delete-confirmation = Ja, ich möchte diese Alias-Adresse löschen.
 modal-domain-register-good-news = Gute Nachrichten!
 modal-domain-register-warning = Denken Sie daran, dass Sie nur eine Domain für Ihr Konto registrieren und Ihre Domain später nicht ändern können.
