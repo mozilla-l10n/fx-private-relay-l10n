@@ -133,7 +133,7 @@ landing-how-it-works-step-3-body =
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Endast för en begränsad tid: Obegränsade alias för { $monthly_price } per månad
 landing-pricing-body =
-    Prova { -brand-name-firefox-relay } alias och börja skydda din inkorg.
+    Prova { -brand-name-firefox-relay }-alias och börja skydda din inkorg.
     Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Upp till 5 e-postalias
@@ -147,9 +147,32 @@ landing-pricing-premium-feature-2 = Webbläsartillägg
 landing-pricing-premium-feature-3 = Din egen e-postdomän
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
+landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
 
 ## Use Cases
 
+landing-use-cases-shopping = Shopping
+landing-use-cases-shopping-body =
+    Köper du något från en ny webbshop? Använd ett { -brand-name-relay }-alias istället för din e-post när du gör ett köp online.
+    Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
+landing-use-cases-social-networks = Sociala nätverk
+landing-use-cases-social-networks-body =
+    Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk?
+    Försöker du hindra din riktiga e-postadress från att vara knuten till din närvaro på sociala medier? Använd ett { -brand-name-relay }-alias för att logga in och skydda dig själv online.
+landing-use-cases-offline = Offline
+landing-use-cases-offline-body =
+    Föredrar du att få e-postkvitton, men vill du också undvika marknadsföring av skräppost?
+    Använd ett { -brand-name-relay }-alias istället för din e-postadress när du får ett papperslöst kvitto i en butik.
+    Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
+landing-use-cases-access-content = Åtkomst till innehåll
+landing-use-cases-access-content-body =
+    Vill du registrera dig för nyhetsbrev, men du litar inte på avsändaren?
+    Använd ett alias istället för din riktiga e-postadress — om du börjar få oönskade e-postmeddelanden via det alias kan avsändaren ha sålt ditt alias till andra marknadsförare eller det kan till och med ha läckt ut i ett dataintrång.
+    Stäng bara av eller ta bort alias för att skydda din inkorg.
+landing-use-cases-gaming = Spel
+landing-use-cases-gaming-body =
+    Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
+    Använd ett { -brand-name-relay }-alias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
 
 ## Settings page
 
@@ -171,6 +194,7 @@ setting-label-collection-heading-v2 = Integritet
 setting-label-collection-description = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Denna information gör att vi kan märka dina alias med relevanta webbplatser i en framtida version. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
+setting-label-collection-off-warning-v2 = Med denna data kan vi märka dina alias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
 settings-button-save-label = Spara
 settings-button-save-tooltip = Tillämpa dina valda inställningar.
 
@@ -182,6 +206,7 @@ faq-headline = Vanliga frågor
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Vad är ett { -brand-name-relay }-alias?
 faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
 # Deprecated
 # Variables:
@@ -197,10 +222,19 @@ faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skr
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Om du ser ett större problem med oönskad e-post från alla dina alias, <a href="{ $url }" { $attrs }>rapportera detta till oss</a> så att vi kan överväga att justera SES-tröskelvärden för denna service. Om du rapporterar dessa som skräppost, kommer din e-postleverantör att se { -brand-name-relay } som källan till skräppost, inte den ursprungliga avsändaren.
+faq-question-availability-question = Var är { -brand-name-relay } tillgängligt?
+faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
+faq-question-4-answer = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom tre månader efter att de fått e-postmeddelandet. Eventuella kopia- eller dolda kopia-adresser ingår inte i dina svar.
 faq-question-4-answer-html =
     { -brand-name-relay } har ännu inte möjlighet att svara med ett alias.
     Om du försöker kommer ingenting att hända. Vi planerar en ytterligare funktion för att låta dig <a href="{ $url }" { $attrs }>svara anonymt till avsändaren</a>.
+faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
+faq-question-browser-support-answer = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
+faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
+faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
+faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
