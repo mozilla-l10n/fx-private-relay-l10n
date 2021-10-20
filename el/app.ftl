@@ -147,6 +147,9 @@ landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/μήνα
+landing-pricing-premium-feature-1 = Απεριόριστα ψευδώνυμα email
+landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
+landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
@@ -289,6 +292,7 @@ banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email 
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
+banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ο τομέας σας είναι:
