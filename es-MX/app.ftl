@@ -169,6 +169,8 @@ banner-choose-subdomain-label = Tu dominio es:
 
 ## Modals
 
+modal-rename-alias-saved = ¡Etiqueta guardada!
+modal-domain-register-good-news = ¡Buenas noticias!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
@@ -177,6 +179,7 @@ modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 survey-option-unsure = No estoy seguro
 survey-option-very-likely = Muy probablemente
+survey-option-not-likely = Poco probable
 
 ## VPN Promo Banner
 
