@@ -202,6 +202,7 @@ faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
+faq-question-attachments-answer = Ναι, το { -brand-name-firefox-relay } υποστηρίζει προωθημένα email με συνημμένα μεγέθους έως και { email-size-limit }. Αν ένα email περιέχει συνημμένο μεγαλύτερο των { email-size-limit }, δεν θα προωθείται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Deprecated
@@ -234,6 +235,7 @@ profile-promo-upgrade-cta = Αναβάθμιση του { -brand-name-relay }
 profile-label-edit = Επεξεργασία ετικέτας ψευδωνύμου
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Προσθήκη ονόματος λογαριασμού
+profile-label-save-error = Αποτυχία αποθήκευσης, παρακαλώ δοκιμάστε ξανά.
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
 profile-label-delete = Διαγραφή
