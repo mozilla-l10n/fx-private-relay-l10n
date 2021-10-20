@@ -218,6 +218,8 @@ faq-question-missing-emails-answer-reason-delay = Efallai y bydd { -brand-name-r
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-name-relay-premium } sy'n cael trafferth gydag unrhyw un o'r materion hyn, <a href="{ $url }" { $attrs }>cysylltwch â'n tîm cymorth</a> os gwelwch yn dda.
+faq-question-use-cases-question = Pryd ddylwn i ddefnyddio arallenw { -brand-name-relay }?
+faq-question-use-cases-answer = Gallwch ddefnyddio arallenw { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata/gwybodaeth lle efallai yr hoffech reoli a ydych chi'n derbyn e-byst yn y dyfodol ai peidio. Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei gwirio neu ar gyfer e-byst pwysig iawn. Er enghraifft, rydych chi am rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg, eich cyfreithiwr, ac ati.
 faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -226,6 +228,12 @@ faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name
 faq-question-2-answer-html =
     Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (h.y., cyfran “relay” @relay.firefox.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Wrth i { -brand-name-firefox-relay } dyfu mewn poblogrwydd a chyhoeddi mwy o arallenwau, efallai y bydd ein gwasanaeth yn cael ei roi ar restrau rhwystro.
+    Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (h.y., cyfran “relay” @relay.firefox.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
 faq-question-1-question = Beth am sbam?
 faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
