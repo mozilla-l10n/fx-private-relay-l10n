@@ -334,6 +334,7 @@ onboarding-tip-3 = Μέσω του μενού επιλογών, απλά κάν�
 onboarding-premium-headline = Καλώς ορίσατε στο { -brand-name-firefox } { -brand-name-relay-premium }
 onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-name-relay-premium }, μπορείτε να:
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
+onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 
 ## Modals
 
