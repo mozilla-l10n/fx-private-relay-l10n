@@ -241,7 +241,20 @@ faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae 
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Os ydych chi'n gweld problem ehangach o e-bost diofyn o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
+faq-question-availability-question = Lle mae { -brand-name-relay } ar gael?
+faq-question-availability-answer = Mae { -brand-name-relay } ar gael am ddim yn y mwyafrif o wledydd. Mae { -brand-name-relay-premium } ar gael yn yr Unol Daleithiau, yr Almaen, y Deyrnas Unedig, Canada, Singapore, Malaysia, Seland Newydd, Ffrainc, Gwlad Belg, Awstria, Sbaen, yr Eidal, y Swistir, yr Iseldiroedd ac Iwerddon.
 faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
+faq-question-4-answer = Gall defnyddwyr { -brand-name-relay-premium } ateb i e-bost a anfonwyd ymlaen o fewn 3 mis ar ôl derbyn yr e-bost. Ni fydd unrhyw gyfeiriadau CC neu BCC yn cael eu cynnwys yn eich atebion.
+faq-question-browser-support-question = A allaf ddefnyddio { -brand-name-relay } ar borwyr eraill neu fy nyfais symudol?
+faq-question-browser-support-answer = Gallwch, gallwch gynhyrchu arallenwau { -brand-name-relay } ar borwyr neu ddyfeisiau symudol eraill dim ond trwy fewngofnodi i'ch bwrdd gwaith { -brand-name-relay }.
+faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
+faq-question-mozmail-question = Pam y dechreuodd fy arallenwau ddefnyddio'r parth “mozmail.com?”
+faq-question-mozmail-answer = Gwnaethom y newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud yn bosibl cael parth e-bost cyfaddas, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
+faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
+faq-question-attachments-answer = Bydd, mae { -brand-name-firefox-relay } yn cefnogi e-byst a anfonwyd ymlaen gydag atodiadau o hyd at { email-size-limit } o faint. Os oes gan e-bost atodiad sy'n fwy na { email-size-limit }, ni fydd yn cael ei anfon ymlaen.
+faq-question-unsubscribe-domain-question = Beth sy'n digwydd i'm parth cyfaddas os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch parth cyfaddas, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r parth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a anfonir ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -311,6 +324,7 @@ profile-blocked-copy = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn
 profile-forwarded-copy = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-note = Nodyn:
 profile-forwarded-note-copy = Nid yw e-bost (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael ei gefnogi ar hyn o bryd a fyddan nhw ddim yn cael eu hanfon ymlaen.
+profile-forwarded-note-copy-v2 = Ni fydd e-byst (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 profile-stat-label-aliases-used = Arallenwau e-bost wedi'u defnyddio
