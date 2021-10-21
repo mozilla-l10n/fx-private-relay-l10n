@@ -132,19 +132,26 @@ landing-how-it-works-step-3-body =
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Apenas por tempo limitado: Endereços de redirecionamento ilimitados por { $monthly_price } mensais
+landing-pricing-body =
+    Experimente usar endereços de redirecionamento do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email.
+    Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
 landing-pricing-free-price = Gratuito
+landing-pricing-free-feature-1 = Até 5 endereços de redirecionamento de email
 landing-pricing-free-feature-2 = Extensão do navegador
 landing-pricing-free-cta = Instale o { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mês
+landing-pricing-premium-feature-1 = Endereços de redirecionamento de email ilimitados
 landing-pricing-premium-feature-2 = Extensão do navegador
 landing-pricing-premium-feature-3 = Seu próprio domínio de email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = seuemail@seudominio.mozmail.com
+landing-pricing-premium-feature-4 = Responder a emails encaminhados
 
 ## Use Cases
 
+landing-use-cases-shopping = Compras
 
 ## Settings page
 
