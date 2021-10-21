@@ -159,6 +159,11 @@ landing-use-cases-social-networks = Redes sociais
 landing-use-cases-social-networks-body =
     Quer proteger melhor sua identidade online ao usar uma rede social?
     Evitar que seu email real seja vinculado à sua presença nas redes sociais? Use um endereço de redirecionamento do { -brand-name-relay } para acessar e ajudar a se proteger online.
+landing-use-cases-access-content = Acessar conteúdo
+landing-use-cases-access-content-body =
+    Quer se inscrever em um boletim informativo, mas não confia no remetente?
+    Use um endereço de redirecionamento em vez de seu endereço real. Se você começar a receber emails indesejados através desse endereço de redirecionamento, o remetente pode ter vendido seu endereço para outros profissionais de marketing, ou pode até estar em um vazamento de dados.
+    Basta desativar ou excluir o endereço de redirecionamento para proteger sua caixa de entrada.
 landing-use-cases-gaming = Jogos
 landing-use-cases-gaming-body =
     Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do seu nome no jogo e endereço de email?
@@ -226,13 +231,21 @@ faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
+faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
+faq-question-4-answer = Os usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após o recebimento do email. Quaisquer endereços CC ou CCO não são incluídos em suas respostas.
+faq-question-4-answer-html =
+    O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
+    Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
 faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
 faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
 faq-question-longevity-question = O que acontece se a Mozilla encerrar o serviço { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Avisaremos com antecedência que você precisa alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
 faq-question-mozmail-question = Por que meus endereços de redirecionamento passaram a usar o domínio “mozmail.com”?
 faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail.com” para possibilitar a obtenção de um domínio de email personalizado, como alias@seudominio.mozmail.com. Domínios de email personalizados, disponíveis para assinantes do { -brand-name-relay-premium }, também tornam seus endereços de redirecionamento de email muito mais fáceis de lembrar do que endereços de redirecionamento gerados aleatoriamente.
+faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
+faq-question-attachments-answer = Sim, o { -brand-name-firefox-relay } oferece suporte a emails encaminhados com anexos de até { email-size-limit }. Se um email tiver um anexo maior que { email-size-limit }, ele não é encaminhado.
+faq-question-unsubscribe-domain-question = O que acontece com meu domínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -302,6 +315,7 @@ profile-blocked-copy = O { -brand-name-firefox-relay } exclui mensagens antes qu
 profile-forwarded-copy = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento deste endereço de redirecionamento.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Emails (incluindo anexos) maiores que { email-size-limit } no momento não são aceitos e não são encaminhados.
+profile-forwarded-note-copy-v2 = Emails (incluindo anexos) maiores que { email-size-limit } não são encaminhados.
 profile-stat-label-blocked = Emails bloqueados
 profile-stat-label-forwarded = Emails encaminhados
 profile-stat-label-aliases-used = Endereços de redirecionamento de email usados
