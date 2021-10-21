@@ -196,6 +196,7 @@ faq-headline = Perguntas frequentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = O que é um endereço de redirecionamento do { -brand-name-relay }?
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
