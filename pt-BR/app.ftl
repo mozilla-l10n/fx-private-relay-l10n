@@ -109,6 +109,9 @@ hero-image-copy-control-html = Agora <em>você está no controle</em> do que che
 ## Hero Section
 
 landing-hero-headline = Proteja seu endereço de email real para ajudar a controlar sua caixa de entrada
+landing-hero-body =
+    Os endereços de redirecionamento de email do { -brand-name-firefox-relay } protegem seu endereço de email real de ser visto publicamente, encaminhando mensagens automaticamente para sua caixa de entrada real.
+    Agora você pode receber apenas os emails que quiser em sua caixa de entrada. Inscreva-se com sua { -brand-name-firefox-account } para começar a usar.
 
 ## How it works section
 
