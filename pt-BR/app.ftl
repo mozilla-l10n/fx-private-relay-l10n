@@ -246,6 +246,7 @@ faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
 faq-question-attachments-answer = Sim, o { -brand-name-firefox-relay } oferece suporte a emails encaminhados com anexos de até { email-size-limit }. Se um email tiver um anexo maior que { email-size-limit }, ele não é encaminhado.
 faq-question-unsubscribe-domain-question = O que acontece com meu domínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de seu domínio personalizado, mas não poderá mais criar endereços de redirecionamento usando esse domínio. Se tiver mais de cinco endereços de redirecionamento no total, não poderá criar mais nenhum. Também perderá a capacidade de responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -427,6 +428,7 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Se você usa este endereço de redirecionamento para acessar contas em sites de seu interesse,
     você deve alterar o endereço de email de cada conta antes de excluir este endereço.
+modal-delete-domain-address-warning-upgrade = Se você usar este endereço de redirecionamento para acessar contas em sites de seu interesse, deve atualizar sua conta com um endereço de email diferente, antes de excluir este. Se você recriar um endereço de redirecionamento excluído, os emails enviados para o endereço de redirecionamento original voltarão a ser encaminhados.
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
 modal-domain-register-good-news = Boas notícias!
 modal-domain-register-warning = Lembre que você pode registrar somente um domínio para sua conta e depois não é possível alterar seu domínio.
