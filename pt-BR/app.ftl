@@ -209,6 +209,7 @@ faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode e
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-name-relay-premium } e está enfrentando algum desses problemas, <a href="{ $url }" { $attrs }>entre em contato com nossa equipe de suporte</a>.
+faq-question-use-cases-question = Quando devo usar endereços de redirecionamento do { -brand-name-relay }?
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -224,7 +225,14 @@ faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
+faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
+faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
+faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
+faq-question-longevity-question = O que acontece se a Mozilla encerrar o serviço { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Avisaremos com antecedência que você precisa alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
+faq-question-mozmail-question = Por que meus endereços de redirecionamento passaram a usar o domínio “mozmail.com”?
+faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail.com” para possibilitar a obtenção de um domínio de email personalizado, como alias@seudominio.mozmail.com. Domínios de email personalizados, disponíveis para assinantes do { -brand-name-relay-premium }, também tornam seus endereços de redirecionamento de email muito mais fáceis de lembrar do que endereços de redirecionamento gerados aleatoriamente.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
