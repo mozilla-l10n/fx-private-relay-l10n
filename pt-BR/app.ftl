@@ -199,6 +199,16 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = O que é um endereço de redirecionamento do { -brand-name-relay }?
 faq-question-what-is-answer = Endereços de redirecionamento de email são endereços de email mascarados que encaminham mensagens para seu endereço de email verdadeiro. Esses endereços de redirecionamento permitem que você compartilhe com terceiros um endereço que oculta seu endereço de email verdadeiro e encaminha mensagens para ele.
 faq-question-missing-emails-question = Não estou recebendo mensagens de meus endereços de redirecionamento
+faq-question-missing-emails-answer-a = Existem alguns motivos de você não estar recebendo emails encaminhados através de seus endereços de redirecionamento. Pode ser:
+faq-question-missing-emails-answer-reason-spam = As mensagens estão indo para a pasta de spam
+faq-question-missing-emails-answer-reason-blocked = Seu provedor de email está bloqueando seu endereço de redirecionamento
+faq-question-missing-emails-answer-reason-size = O email encaminhado contém um anexo maior que { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = O site não aceita endereços de redirecionamento
+faq-question-missing-emails-answer-reason-turned-off = O endereço de redirecionamento pode estar com encaminhamento desativado
+faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode estar demorando mais do que o normal para encaminhar suas mensagens
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-name-relay-premium } e está enfrentando algum desses problemas, <a href="{ $url }" { $attrs }>entre em contato com nossa equipe de suporte</a>.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
