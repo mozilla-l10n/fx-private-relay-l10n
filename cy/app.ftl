@@ -269,7 +269,7 @@ faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithi
 # Deprecated
 faq-question-3-answer = Ar hyn o bryd dim ond yn Saesneg y mae'r wefan ar gael, ond gallwch ddefnyddio'r gwasanaeth yn unrhyw le.
 # Deprecated
-faq-question-5-question = Oes modd i mi greu fy arallenwau { -brand-name-relay } fy hun gan ddefnyddio parth gan ddefnyddio parth @relay.firefox.com?
+faq-question-5-question = Oes modd i mi greu fy arallenwau { -brand-name-relay } fy hun gan ddefnyddio parth @relay.firefox.com?
 # Deprecated
 faq-question-5-answer = Ddim ar hyn o bryd, ond rydym yn ystyried nodweddion newydd gan gynnwys gadael i chi greu eich arallenw eich hun gyda pharth dynodedig.
 # Deprecated
