@@ -213,6 +213,15 @@ faq-question-missing-emails-question = Ik ontvang geen berichten van mijn aliass
 faq-question-missing-emails-answer-a = Er kunnen een paar redenen zijn waarom u geen e-mailberichten ontvangt die via uw aliassen zijn doorgestuurd, waaronder:
 faq-question-missing-emails-answer-reason-spam = Berichten worden als ongewenst gezien
 faq-question-missing-emails-answer-reason-blocked = Uw e-mailprovider blokkeert uw alias
+faq-question-missing-emails-answer-reason-size = Het doorgestuurde e-mailbericht heeft een bijlage die groter is dan { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = De website accepteert geen aliassen
+faq-question-missing-emails-answer-reason-turned-off = Mogelijk is doorsturen uitgeschakeld voor de alias
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kan er langer dan normaal over doen om uw berichten door te sturen
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Als u een { -brand-name-relay-premium }-gebruiker bent en met een van deze problemen worstelt, neem dan <a href="{ $url }" { $attrs }>contact op met ons ondersteuningsteam</a>.
+faq-question-use-cases-question = Wanneer moet ik { -brand-name-relay }-aliassen gebruiken?
+faq-question-use-cases-answer = U kunt { -brand-name-relay }-aliassen gebruiken op de meeste plaatsen waar u uw normale e-mailadres zou gebruiken. We raden u aan deze te gebruiken wanneer u zich aanmeldt voor marketing-/informatieve e-mailberichten waarbij u zou willen bepalen of u in de toekomst e-mailberichten ontvangt. We raden het gebruik van aliassen af wanneer u uw identiteit moet verifiëren of voor zeer belangrijke e-mailberichten. U wilt bijvoorbeeld uw echte e-mailadres delen met uw bank, uw arts, uw advocaat, enz.
 faq-question-2-question = Waarom accepteert een website mijn alias van { -brand-name-relay } niet?
 # Deprecated
 # Variables:
@@ -222,16 +231,35 @@ faq-question-2-answer-html =
     Sommige websites accepteren mogelijk geen e-mailadres dat een subdomein bevat (d.w.z. het “relay”-gedeelte van @relay.firefox.com) en andere accepteren geen enkel adres meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
     Terwijl { -brand-name-firefox-relay } in populariteit groeit en meer aliassen uitgeeft, kan onze service op een blokkeerlijst worden geplaatst.
     Als u geen { -brand-name-relay }-alias kunt gebruiken, <a href="{ $url }" { $attrs }>laat het ons dan weten</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Sommige websites accepteren mogelijk geen e-mailadres dat een subdomein bevat (d.w.z. het “relay”-gedeelte van @relay.firefox.com) en andere accepteren geen enkel adres meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
+    Als u geen { -brand-name-relay }-alias kunt gebruiken, <a href="{ $url }" { $attrs }>laat het ons dan weten</a>.
 faq-question-1-question = Hoe zit het met spam?
 faq-question-1-answer-a = Hoewel { -brand-name-relay } niet filtert op spam, blokkeert onze e-mailpartner Amazon SES wel spam en malware. Als { -brand-name-relay } ongewenste berichten doorstuurt, kunt u uw instellingen van { -brand-name-relay } bijwerken om berichten te blokkeren van de alias die ze doorstuurt.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Als u een breder probleem ziet van ongewenste e-mail van al uw aliassen, <a href="{ $url }" { $attrs }>meld dit dan aan ons</a> zodat we kunnen overwegen de SES-spamdrempels voor deze service  aan te passen. Als u deze als spam meldt, ziet uw e-mailprovider { -brand-name-relay } als de bron van spam, niet de oorspronkelijke afzender.
+faq-question-availability-question = Waar is { -brand-name-relay } beschikbaar?
+faq-question-availability-answer = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in de Verenigde Staten, Duitsland, het Verenigd Koninkrijk, Canada, Singapore, Maleisië, Nieuw-Zeeland, Frankrijk, België, Oostenrijk, Spanje, Italië, Zwitserland, Nederland en Ierland.
 faq-question-4-question = Kan ik berichten beantwoorden met mijn { -brand-name-relay }-alias?
+faq-question-4-answer = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Adressen in de velden Cc of Bcc worden niet opgenomen in uw antwoorden.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt nog niet de mogelijkheid om te antwoorden met een alias.
     Als u dit probeert, gebeurt er niets. We hebben plannen voor een extra functie waarmee u <a href="{ $url }" { $attrs }>anoniem kunt reageren op afzenders</a>.
+faq-question-browser-support-question = Kan ik { -brand-name-relay } gebruiken in andere browsers of mijn mobiele apparaat?
+faq-question-browser-support-answer = Ja, u kunt { -brand-name-relay }-aliassen genereren in andere browsers of mobiele apparaten door u simpelweg aan te melden op uw { -brand-name-relay }-dashboard.
+faq-question-longevity-question = Wat gebeurt er als Mozilla de { -brand-name-firefox-relay }-service beëindigt?
+faq-question-longevity-answer = We laten u van tevoren weten dat u het e-mailadres van accounts die gebruikmaken van { -brand-name-relay }-aliassen moet wijzigen.
+faq-question-mozmail-question = Waarom zijn mijn aliassen begonnen het domein ‘mozmail.com’ te gebruiken?
+faq-question-mozmail-answer = We overgestapt van ‘relay.firefox.com’ naar ‘mozmail.com’ om het mogelijk te maken een aangepast e-maildomein te krijgen, zoals alias@uwdomein.mozmail.com. Aangepaste e-maildomeinen, beschikbaar voor { -brand-name-relay-premium }-abonnees, maken uw e-mailaliassen ook veel gemakkelijker te onthouden dan willekeurige aliassen.
+faq-question-attachments-question = Stuurt { -brand-name-firefox-relay } e-mailberichten met bijlagen door?
+faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } ondersteunt doorgestuurde e-mailberichten met bijlagen tot een grootte van { email-size-limit }. Als een e-mailbericht een bijlage heeft die groter is dan { email-size-limit }, dan wordt dit niet doorgestuurd.
+faq-question-unsubscribe-domain-question = Wat gebeurt er met mijn aangepaste domein als ik mijn abonnement bij { -brand-name-relay-premium } opzeg?
+faq-question-unsubscribe-domain-answer = Als u downgradet van { -brand-name-relay-premium }, ontvangt u nog steeds e-mailberichten die worden doorgestuurd via uw aangepaste domein, maar kunt u geen nieuwe aliassen meer maken met dat domein. Als u in totaal meer dan vijf aliassen heeft, kunt u er geen meer maken. U verliest ook de mogelijkheid om doorgestuurde berichten te beantwoorden. U kunt zich opnieuw abonneren op { -brand-name-relay-premium } en weer toegang krijgen tot deze functies.
 faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -301,6 +329,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } verwijdert berichten voorda
 profile-forwarded-copy = { -brand-name-firefox-relay } stuurt berichten naar uw Postvak IN wanneer u doorsturen voor dit alias selecteert.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden momenteel niet ondersteund en worden niet doorgestuurd.
+profile-forwarded-note-copy-v2 = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden niet doorgestuurd.
 profile-stat-label-blocked = E-mailberichten geblokkeerd
 profile-stat-label-forwarded = E-mailberichten doorgestuurd
 profile-stat-label-aliases-used = Gebruikte e-mailaliassen
@@ -412,6 +441,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Als u deze alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
     moet u uw aanmelding bijwerken met een ander e-mailadres voordat u dit verwijdert.
+modal-delete-domain-address-warning-upgrade =
+    Als u deze alias gebruikt om u aan te melden bij websites die u belangrijk vindt,
+    dient u uw aanmelding bij te werken met een ander e-mailadres voordat u deze verwijdert.
+    Als u een verwijderde alias opnieuw aanmaakt, worden e-mailberichten die naar de oorspronkelijke alias zijn verzonden nog steeds doorgestuurd.
 modal-delete-confirmation = Ja, ik wil deze alias verwijderen.
 modal-domain-register-good-news = Goed nieuws!
 modal-domain-register-warning = Onthoud dat u slechts één domein voor uw account mag registreren en dat het niet mogelijk is om uw domein later te wijzigen.
