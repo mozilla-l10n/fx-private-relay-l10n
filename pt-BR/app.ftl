@@ -159,6 +159,10 @@ landing-use-cases-social-networks = Redes sociais
 landing-use-cases-social-networks-body =
     Quer proteger melhor sua identidade online ao usar uma rede social?
     Evitar que seu email real seja vinculado à sua presença nas redes sociais? Use um endereço de redirecionamento do { -brand-name-relay } para acessar e ajudar a se proteger online.
+landing-use-cases-gaming = Jogos
+landing-use-cases-gaming-body =
+    Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do seu nome no jogo e endereço de email?
+    Use um endereço de redirecionamento do { -brand-name-relay } para colocar mais uma camada de proteção entre sua identidade online e os jogos que você joga online.
 
 ## Settings page
 
