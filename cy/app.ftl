@@ -440,6 +440,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n eu hoffi,
     dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu hwn.
+modal-delete-domain-address-warning-upgrade =
+    Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n poeni amdanyn nhw,
+    dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu'r un hwn.
+    Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
 modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
 modal-domain-register-warning = Cofiwch, dim ond un parth yn unig y cewch chi gofrestru ar gyfer eich cyfrif ac nid yw'n bosibl newid eich parth yn ddiweddarach.
