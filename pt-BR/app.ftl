@@ -159,6 +159,11 @@ landing-use-cases-social-networks = Redes sociais
 landing-use-cases-social-networks-body =
     Quer proteger melhor sua identidade online ao usar uma rede social?
     Evitar que seu email real seja vinculado à sua presença nas redes sociais? Use um endereço de redirecionamento do { -brand-name-relay } para acessar e ajudar a se proteger online.
+landing-use-cases-offline = Desconectado
+landing-use-cases-offline-body =
+    Prefere receber recibos por email, mas também quer evitar spam de marketing?
+    Use um endereço de redirecionamento do { -brand-name-relay } em vez de seu email para receber um recibo online de uma loja.
+    Encaminharemos o recibo para seu endereço de email real. Se você começar a receber emails indesejados, basta desativar o encaminhamento deste email.
 landing-use-cases-access-content = Acessar conteúdo
 landing-use-cases-access-content-body =
     Quer se inscrever em um boletim informativo, mas não confia no remetente?
@@ -215,6 +220,7 @@ faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode e
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-name-relay-premium } e está enfrentando algum desses problemas, <a href="{ $url }" { $attrs }>entre em contato com nossa equipe de suporte</a>.
 faq-question-use-cases-question = Quando devo usar endereços de redirecionamento do { -brand-name-relay }?
+faq-question-use-cases-answer = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares onde usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing e/ou informativos, quando quer controlar se receberá ou não emails no futuro. Não recomendamos o uso de endereços de redirecionamento quando você precisa que sua identidade seja verificada ou para emails muito importantes. Por exemplo, você pode querer compartilhar seu endereço de email real com seu banco, seu médico, seu advogado, etc.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -223,6 +229,12 @@ faq-question-2-question = Por que um site não aceitaria meu endereço de redire
 faq-question-2-answer-html =
     Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
     Conforme o { -brand-name-firefox-relay } crescer em popularidade e emitir mais endereços de redirecionamento, nosso serviço pode ser colocado em uma lista de bloqueio.
+    Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
     Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
 faq-question-1-question = E quanto ao spam?
 faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
