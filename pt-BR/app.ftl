@@ -197,6 +197,8 @@ faq-headline = Perguntas frequentes
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = O que é um endereço de redirecionamento do { -brand-name-relay }?
+faq-question-what-is-answer = Endereços de redirecionamento de email são endereços de email mascarados que encaminham mensagens para seu endereço de email verdadeiro. Esses endereços de redirecionamento permitem que você compartilhe com terceiros um endereço que oculta seu endereço de email verdadeiro e encaminha mensagens para ele.
+faq-question-missing-emails-question = Não estou recebendo mensagens de meus endereços de redirecionamento
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
