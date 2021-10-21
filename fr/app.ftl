@@ -171,6 +171,9 @@ landing-use-cases-access-content-body =
     Utilisez un alias au lieu de votre véritable adresse. Si vous commencez à recevoir des e-mails indésirables via cet alias, l’expéditeur peut avoir vendu votre alias à d’autres spécialistes du marketing, ou il peut même avoir été divulgué lors d’une fuite de données.
     Désactivez ou supprimez simplement l’alias pour protéger votre boîte de réception.
 landing-use-cases-gaming = Jeux
+landing-use-cases-gaming-body =
+    Vous aimez les jeux en ligne, mais vous craignez que d’autres joueurs ou des harceleurs n’apprennent qui vous êtes par votre identifiant de joueur et votre adresse e-mail ?
+    Utilisez un alias { -brand-name-relay } pour ajouter une couche de protection entre votre identité numérique et les jeux en ligne auxquels vous participez.
 
 ## Settings page
 
@@ -192,6 +195,7 @@ setting-label-collection-heading-v2 = Vie privée
 setting-label-collection-description = Autoriser { -brand-name-relay } à collecter des données indiquant les sites sur lesquels vos alias sont créés et utilisés.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Ces données nous permettront de nommer vos alias en fonction des sites web dans une future version. Si vous décidez de désactiver cette préférence, vos alias ne seront pas nommés d’après les sites web sur lesquels ils sont utilisés.
+setting-label-collection-off-warning-v2 = Ces données nous permettent de nommer vos alias en fonction des sites web où ils sont utilisés. Si vous décidez de refuser cette préférence, vos alias ne seront pas nommés d’après les sites web sur lesquels ils sont utilisés.
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 
@@ -204,6 +208,7 @@ faq-headline = Questions fréquentes
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Qu’est-ce qu’un alias { -brand-name-relay } ?
+faq-question-what-is-answer = Les alias de messagerie sont des adresses e-mail masquées qui transfèrent les messages à votre véritable adresse e-mail. Ces alias vous permettent de donner aux tiers une adresse qui masque votre véritable adresse e-mail à laquelle sont transférés les messages.
 faq-question-missing-emails-question = Je ne reçois pas de messages de mes alias
 faq-question-missing-emails-answer-a = Il existe plusieurs raisons pour lesquelles vous ne recevez peut-être pas les e-mails transférés via vos alias. Ces raisons incluent :
 faq-question-missing-emails-answer-reason-spam = Les messages vont dans le courrier indésirable
@@ -242,6 +247,9 @@ faq-question-availability-question = Où { -brand-name-relay } est-il disponible
 faq-question-availability-answer = { -brand-name-relay } gratuit est disponible dans la plupart des pays. { -brand-name-relay-premium } est disponible aux États-Unis, en Allemagne, au Royaume-Uni, au Canada, à Singapour, en Malaisie, en Nouvelle-Zélande, en France, en Belgique, en Autriche, en Espagne, en Italie, en Suisse, aux Pays-Bas et en Irlande.
 faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
 faq-question-4-answer = Les utilisateurs et utilisatrices de { -brand-name-relay-premium } peuvent répondre à un e-mail transféré dans les 3 mois suivant sa réception. Les adresses en Copie ou en Copie cachée ne seront pas incluses dans vos réponses.
+faq-question-4-answer-html =
+    { -brand-name-relay } ne propose pas encore la possibilité de répondre en utilisant un alias.
+    Si vous essayez, rien ne se produira. Nous prévoyons d’ajouter une fonctionnalité vous permettant de <a href="{ $url }" { $attrs }>répondre anonymement</a>.
 faq-question-browser-support-question = Puis-je utiliser { -brand-name-relay } sur d’autres navigateurs ou sur mon appareil mobile ?
 faq-question-browser-support-answer = Oui, vous pouvez générer des alias { -brand-name-relay } sur d’autres navigateurs ou appareils mobiles simplement en vous connectant à votre tableau de bord { -brand-name-relay }.
 faq-question-longevity-question = Que se passera-t-il si Mozilla arrête le service { -brand-name-firefox-relay } ?
@@ -433,6 +441,7 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent,
     vous devriez mettre à jour votre identifiant avec une adresse e-mail différente avant de supprimer celle-ci.
+modal-delete-domain-address-warning-upgrade = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
 modal-domain-register-warning = Gardez à l’esprit que vous ne pouvez enregistrer qu’un domaine pour votre compte et qu’il n’est pas possible de modifier votre domaine ultérieurement.
