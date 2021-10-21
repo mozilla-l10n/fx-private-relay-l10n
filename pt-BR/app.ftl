@@ -184,6 +184,7 @@ setting-label-collection-heading-v2 = Privacidade
 setting-label-collection-description = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde seus endereços de redirecionamento foram criados e usados.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
+setting-label-collection-off-warning-v2 = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites onde são usados. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
 
