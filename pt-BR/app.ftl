@@ -116,9 +116,22 @@ landing-hero-body =
 ## How it works section
 
 landing-how-it-works-headline = Como funciona
+landing-how-it-works-body = Compartilhe endereços de redirecionamento de email do { -brand-name-relay } em vez de seu endereço de email real, para proteger sua caixa de entrada, bem como sua identidade.
+landing-how-it-works-step-1-body-cta = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Gere endereços de redirecionamento de email automaticamente sempre que você inserir um endereço de email online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
+    Clique no ícone para gerar um novo endereço aleatório que termina em @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou. O { -brand-name-relay } encaminha mensagens para seu endereço de email real.
+    Se um endereço de redirecionamento receber spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Apenas por tempo limitado: Endereços de redirecionamento ilimitados por { $monthly_price } mensais
 landing-pricing-free-price = Gratuito
 landing-pricing-free-feature-2 = Extensão do navegador
 landing-pricing-free-cta = Instale o { -brand-name-relay }
