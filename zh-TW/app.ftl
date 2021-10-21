@@ -186,6 +186,7 @@ faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，�
 faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
+faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
