@@ -162,7 +162,14 @@ landing-use-cases-offline-body =
     Usa un alias de { -brand-name-relay } in vice del tu e-mail quando tu recipe un quitantia digital in un boteca. 
     Nos inultrara le quitantia a tu real adresse e-mail e si tu comencia reciper e-mails que non te place, solo disactiva le alias e-mail.
 landing-use-cases-access-content = Contento de accesso
+landing-use-cases-access-content-body =
+    Vole tu inscribe te a ille littera de novas, ma non te fide del expeditor? 
+    Usa un alias in vice del tu real adresse — si tu comencia reciper indesirate e-mails per ille alias, le expeditor pote haber vendite tu alias a altere mercatores, o illo pote mesmo haber essite revelate in un violation de datos. 
+    Solo disactiva o dele le alias pro proteger tu cassa de ingresso e-mail.
 landing-use-cases-gaming = Jocos
+landing-use-cases-gaming-body =
+    Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse e-mail? 
+    Usa un alias de { -brand-name-relay } pro poner un altere strato de protection inter tu online identitate e le jocos que tu practica online.
 
 ## Settings page
 
