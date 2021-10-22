@@ -191,6 +191,7 @@ setting-label-collection-heading-v2 = Confidentialitate
 setting-label-collection-description = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu aliases es create e usate.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Iste datos permittera nos de etiquettar tu aliases con le sitos web pertinente in un version futur. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
+setting-label-collection-off-warning-v2 = Iste datos permittera nos de etiquettar tu aliases con le sitos web ubi illos es usate. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
 
@@ -202,6 +203,7 @@ faq-headline = Folio a questiones
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Que es un alias de { -brand-name-relay }?
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -218,6 +220,7 @@ faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nost
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
+faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
