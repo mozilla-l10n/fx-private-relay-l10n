@@ -204,6 +204,8 @@ faq-headline = Folio a questiones
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Que es un alias de { -brand-name-relay }?
+faq-question-what-is-answer = Aliases e-mail es adresses e-mail disguisate que inultra le messages a tu ver adresse e-mail. Iste aliases te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse e-mail e inultrara le messages a illo.
+faq-question-missing-emails-question = Io non recipe messages de mi aliases
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
