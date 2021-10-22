@@ -157,6 +157,10 @@ landing-use-cases-social-networks-body =
     Vole to proteger melio tu identitate online quando tu usa un rete social? 
     Tenta tu de mantener tu real e-mail de esser ligate a tu presentia sur le retes social? Usar un alias { -brand-name-relay } pro authenticar te e adjuta protege te mesme online.
 landing-use-cases-offline = Foras de linea
+landing-use-cases-offline-body =
+    Prefere tu obtener quitantias e-mail, ma vole alsi impedir SPAM de marketing?
+    Usa un alias de { -brand-name-relay } in vice del tu e-mail quando tu recipe un quitantia digital in un boteca. 
+    Nos inultrara le quitantia a tu real adresse e-mail e si tu comencia reciper e-mails que non te place, solo disactiva le alias e-mail.
 landing-use-cases-access-content = Contento de accesso
 landing-use-cases-gaming = Jocos
 
