@@ -220,6 +220,9 @@ faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nost
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
+faq-question-4-answer-html =
+    { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
+    Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
 faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
