@@ -212,6 +212,7 @@ faq-question-missing-emails-answer-reason-blocked = Tu fornitor de servicios e-m
 faq-question-missing-emails-answer-reason-size = Le e-mail inultrate ha un annexo major de { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Le sito non accepta aliases
 faq-question-missing-emails-answer-reason-turned-off = Le alias pote haber le function de inultrar disactivate
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote star plus longemente que usual pro inultrar tu messages
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
