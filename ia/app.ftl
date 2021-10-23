@@ -255,6 +255,7 @@ faq-question-mozmail-answer = Nos passava de “relay.firefox.com” a “mozmai
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
 faq-question-attachments-answer = Si, { -brand-name-firefox-relay } supporta e-mails inultrate con annexos usque { email-size-limit } in dimension. Si un e-mail ha un annexo major de { email-size-limit }, illo non sera inultrate.
 faq-question-unsubscribe-domain-question = Que eveni a mi dominio personal si io me remove del inrolamento de { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora e-mails inultrate a transverso de tu dominio personal, ma tu non plus potera crear nove aliases per ille dominio. Si tu ha plus que cinque aliases in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote resubscriber te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -324,6 +325,7 @@ profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que il
 profile-forwarded-copy = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste alias.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
+profile-forwarded-note-copy-v2 = Ulle e-mail (annexos includite) major de { email-size-limit } non sera inultrate.
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used = Aliases email usate
@@ -435,6 +437,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Si tu usa iste alias pro acceder a sitos tu cura, 
     tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu dele isto.
+modal-delete-domain-address-warning-upgrade =
+    Si tu usa iste alias pro acceder a sitos que tu cura,
+    tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu lo dele.
+    Si tu recrea un alias delite, le e-mails inviate al original alias continuara esser inultrate.
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
 modal-domain-register-warning = Rememora, tu pote registrar un dominio solo pro tu conto e non es possibile lo cambiar plus tarde.
