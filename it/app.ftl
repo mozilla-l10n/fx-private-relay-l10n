@@ -121,6 +121,8 @@ landing-how-it-works-headline = Come funziona
 landing-how-it-works-body = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
 landing-how-it-works-step-1-body-cta = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
 landing-how-it-works-step-1-body = Genera automaticamente alias email ovunque inserisci il tuo indirizzo email online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body = Durante la navigazione, l’icona di { -brand-name-relay } verrà visualizzata nei campi del sito in cui viene richiesto il tuo indirizzo email. Selezionala per generare un nuovo indirizzo email casuale che termina con @relay.mozmail.com.
 landing-how-it-works-step-3-body =
     Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato. { -brand-name-relay } inoltrerà i messaggi al tuo indirizzo email.
     Se uno di questi alias riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
@@ -130,6 +132,9 @@ landing-how-it-works-step-3-body =
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
+landing-pricing-body =
+    Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
+    Aggiorna a { -brand-name-relay-premium } per una flessibilità ancora maggiore e una gestione più personalizzata.
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
@@ -155,8 +160,19 @@ landing-use-cases-social-networks-body =
     Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
     Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
 landing-use-cases-offline = Non in linea
+landing-use-cases-offline-body =
+    Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
+    Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
+    Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
 landing-use-cases-access-content = Accesso a contenuti
+landing-use-cases-access-content-body =
+    Vuoi iscriverti a una newsletter ma non ti fidi del mittente?
+    Utilizza un alias al posto del tuo indirizzo reale. Se improvvisamente inizi a ricevere email indesiderate attraverso quell’alias, è possibile che il tuo indirizzo sia stato venduto a terze parti o perfino coinvolto in una violazione di dati.
+    A quel punto puoi disattivare o eliminare l’alias per proteggere la tua casella di posta elettronica.
 landing-use-cases-gaming = Giochi online
+landing-use-cases-gaming-body =
+    Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo <em>gamertag</em> e il tuo indirizzo email?
+    Utilizza un alias { -brand-name-relay } per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 
 ## Settings page
 
@@ -227,6 +243,7 @@ faq-question-longevity-question = Che cosa succede se Mozilla interrompe il serv
 faq-question-longevity-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
 faq-question-mozmail-question = Perché i miei alias hanno iniziato a utilizzare il dominio “mozmail.com”?
 faq-question-mozmail-answer = Abbiamo effettuato il passaggio da “relay.firefox.com” a “mozmail.com” per rendere possibile l’utilizzo di un dominio di posta elettronica personalizzato, come alias@tuodominio.mozmail.com. I domini di posta elettronica personalizzati, disponibili per gli abbonati { -brand-name-relay-premium }, rendono anche i tuoi alias email molto più facili da ricordare rispetto agli alias generati casualmente.
+faq-question-attachments-question = Con { -brand-name-firefox-relay } si possono inoltrare email con allegati?
 faq-question-attachments-answer = Sì, { -brand-name-firefox-relay } supporta l’inoltro di email con allegati con una dimensione massima di { email-size-limit }. Se un’email include un allegato più grande di { email-size-limit }, non verrà inoltrata.
 faq-question-unsubscribe-domain-question = Che cosa succede al mio dominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite il tuo dominio personale, ma non potrai più creare nuovi alias utilizzando quel dominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
