@@ -133,6 +133,10 @@ landing-pricing-headline = Offerta a tempo limitato: alias illimitati per { $mon
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
+landing-pricing-free-cta = Ottieni { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price } al mese
 landing-pricing-premium-feature-1 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-2 = Estensione per browser
 landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personale
@@ -151,6 +155,8 @@ landing-use-cases-social-networks-body =
     Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
     Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
 landing-use-cases-offline = Non in linea
+landing-use-cases-access-content = Accesso a contenuti
+landing-use-cases-gaming = Giochi online
 
 ## Settings page
 
@@ -183,6 +189,12 @@ faq-headline = Domande più frequenti
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Che cos’è un alias { -brand-name-relay }?
+faq-question-what-is-answer = Gli alias email sono indirizzi email mascherati che inoltrano i messaggi al tuo indirizzo email reale. Questi alias ti consentono di condividere un indirizzo con terze parti senza preoccupazioni: il tuo indirizzo email reale rimarrà nascosto e riceverà i messaggi inoltrati.
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay-premium } alle prese con uno di questi problemi, <a href="{ $url }" { $attrs }>contatta il nostro team di supporto</a>.
+faq-question-use-cases-answer = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro. Non è consigliabile utilizzare un alias per verificare la propria identità o per email molto importanti. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico, il tuo avvocato, ecc.
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -192,6 +204,12 @@ faq-question-2-answer-html =
     Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (per esempio, “relay” in @relay.firefox.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo. 
     Con la crescita di popolarità di { -brand-name-firefox-relay } e la creazione di un numero sempre maggiore di indirizzi alias, il nostro servizio potrebbe essere inserito in una lista di domini bloccati.
     Se non riesci a utilizzare un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>contattaci</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (per esempio, “relay” in @relay.firefox.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo.
+    Se non riesci a utilizzare un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>contattaci</a>.
 faq-question-1-question = Cosa succede alla posta indesiderata?
 faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
 # Variables:
@@ -199,9 +217,19 @@ faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
+faq-question-4-answer = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione dell’email stessa. Eventuali indirizzi in Cc o Ccn non saranno inclusi nella risposta.
 faq-question-4-answer-html =
     { -brand-name-relay } attualmente non permette di rispondere usando un alias.
     Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
+faq-question-browser-support-question = Posso utilizzare { -brand-name-relay } con altri browser o sul mio dispositivo <em>mobile</em>?
+faq-question-browser-support-answer = Sì, puoi generare alias { -brand-name-relay } con altri browser o dispositivi mobili semplicemente accedendo alla tua dashboard { -brand-name-relay }.
+faq-question-longevity-question = Che cosa succede se Mozilla interrompe il servizio { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
+faq-question-mozmail-question = Perché i miei alias hanno iniziato a utilizzare il dominio “mozmail.com”?
+faq-question-mozmail-answer = Abbiamo effettuato il passaggio da “relay.firefox.com” a “mozmail.com” per rendere possibile l’utilizzo di un dominio di posta elettronica personalizzato, come alias@tuodominio.mozmail.com. I domini di posta elettronica personalizzati, disponibili per gli abbonati { -brand-name-relay-premium }, rendono anche i tuoi alias email molto più facili da ricordare rispetto agli alias generati casualmente.
+faq-question-attachments-answer = Sì, { -brand-name-firefox-relay } supporta l’inoltro di email con allegati con una dimensione massima di { email-size-limit }. Se un’email include un allegato più grande di { email-size-limit }, non verrà inoltrata.
+faq-question-unsubscribe-domain-question = Che cosa succede al mio dominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite il tuo dominio personale, ma non potrai più creare nuovi alias utilizzando quel dominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
 faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -271,6 +299,7 @@ profile-blocked-copy = Selezionando il blocco per questo alias, { -brand-name-fi
 profile-forwarded-copy = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = I messaggi (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non sono attualmente supportati e non verranno inoltrati.
+profile-forwarded-note-copy-v2 = Le email (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non verranno inoltrate.
 profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used = Alias utilizzati
@@ -382,6 +411,7 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Se utilizzi questo alias per accedere ai siti che ti interessano,
     dovresti aggiornare le tue credenziali di accesso con un indirizzo email diverso prima di eliminare questo alias.
+modal-delete-domain-address-warning-upgrade = Se utilizzi questo alias per accedere ai siti che ritieni importanti, prima di eliminarlo dovresti aggiornare le tue credenziali di accesso utilizzando un indirizzo email diverso. Se ricrei un alias dopo averlo eliminato, le email inviate all’alias originale continueranno a essere inoltrate.
 modal-delete-confirmation = Sì, voglio eliminare questo alias.
 modal-domain-register-good-news = Buone notizie!
 modal-domain-register-warning = Ricorda: puoi registrare un solo dominio per il tuo account e non è possibile cambiare dominio in un secondo momento.
