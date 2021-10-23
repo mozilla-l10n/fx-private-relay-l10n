@@ -217,6 +217,7 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote sta
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-relay-premium } luctante con ulle de iste problemas, per favor <a href="{ $url }" { $attrs }>continge nostre equipa de assistentia</a>.
 faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-relay }?
+faq-question-use-cases-answer = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia los usar quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non. Nos non recommenda usar le aliases quando te besonia tu identitate verificate o pro e-mails multo importante. Per exemplo, tu desirarea compartir tu real adresse e-mail con tu banca, tu doctor, tu advocato, etc.
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -226,12 +227,19 @@ faq-question-2-answer-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo. 
     Como { -brand-name-firefox-relay } cresce in popularitate e publica plure aliases, nostre servicio poterea esser ubicate sur un lista del blocadas. 
     If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>per favor face nos saper lo</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
+    Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
 faq-question-1-question = E quanto al spam?
 faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
+faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
 faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
