@@ -115,6 +115,7 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 
 ## How it works section
 
+landing-how-it-works-headline = Come funziona
 
 ## Pricing section
 
@@ -131,9 +132,11 @@ landing-use-cases-shopping = Shopping
 landing-use-cases-shopping-body =
     Stai acquistando qualcosa da un nuovo negozio online? Usa un alias { -brand-name-relay } invece del tuo indirizzo email quando effettui un acquisto online.
     La ricevuta sarà inoltrata al tuo indirizzo email reale e, se inizierai a ricevere email indesiderate, potrai semplicemente disattivare l’inoltro dei messaggi.
+landing-use-cases-social-networks = Social network
 landing-use-cases-social-networks-body =
     Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
     Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
+landing-use-cases-offline = Non in linea
 
 ## Settings page
 
