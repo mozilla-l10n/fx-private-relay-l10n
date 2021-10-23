@@ -113,6 +113,7 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 ## Hero Section
 
 landing-hero-headline = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
+landing-hero-body = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
 
 ## How it works section
 
