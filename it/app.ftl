@@ -112,6 +112,7 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 
 ## Hero Section
 
+landing-hero-headline = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
 
 ## How it works section
 
@@ -119,6 +120,9 @@ landing-how-it-works-headline = Come funziona
 
 ## Pricing section
 
+landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
+landing-pricing-free-feature-2 = Estensione per browser
 landing-pricing-premium-feature-1 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-2 = Estensione per browser
 landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personale
