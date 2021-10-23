@@ -209,10 +209,16 @@ faq-question-what-is-question = Che cos’è un alias { -brand-name-relay }?
 faq-question-what-is-answer = Gli alias email sono indirizzi email mascherati che inoltrano i messaggi al tuo indirizzo email reale. Questi alias ti consentono di condividere un indirizzo con terze parti senza preoccupazioni: il tuo indirizzo email reale rimarrà nascosto e riceverà i messaggi inoltrati.
 faq-question-missing-emails-question = Non ricevo messaggi dai miei alias
 faq-question-missing-emails-answer-a = Ci sono alcuni motivi per cui potresti non ricevere le email inoltrate tramite i tuoi alias. Questi motivi includono:
+faq-question-missing-emails-answer-reason-spam = I messaggi finiscono nella posta indesiderata (spam)
+faq-question-missing-emails-answer-reason-blocked = Il tuo fornitore di posta elettronica sta bloccando il tuo alias
+faq-question-missing-emails-answer-reason-size = L’email inoltrata ha un allegato più grande di { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Il sito non accetta alias
+faq-question-missing-emails-answer-reason-turned-off = L’inoltro per l’alias potrebbe essere stato disattivato
+faq-question-missing-emails-answer-reason-delay = È possibile che { -brand-name-relay } stia richiedendo più tempo del solito per inoltrare i tuoi messaggi
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay-premium } alle prese con uno di questi problemi, <a href="{ $url }" { $attrs }>contatta il nostro team di supporto</a>.
+faq-question-use-cases-question = Quando è consigliato utilizzare gli alias { -brand-name-relay }?
 faq-question-use-cases-answer = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro. Non è consigliabile utilizzare un alias per verificare la propria identità o per email molto importanti. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico, il tuo avvocato, ecc.
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 # Deprecated
@@ -235,6 +241,7 @@ faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
+faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 faq-question-4-answer = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione dell’email stessa. Eventuali indirizzi in Cc o Ccn non saranno inclusi nella risposta.
 faq-question-4-answer-html =
