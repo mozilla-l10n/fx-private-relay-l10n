@@ -251,6 +251,10 @@ faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 faq-question-mozmail-question = Perque mi aliases comenciava usar le dominio “mozmail.com?”
+faq-question-mozmail-answer = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un dominio e-mail personal, tal como alias@yourdomain.mozmail.com. Le dominios e-mail personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, alsi rende tu aliases e-mail multo plus facile a rememorar que aliases aleatori.
+faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
+faq-question-attachments-answer = Si, { -brand-name-firefox-relay } supporta e-mails inultrate con annexos usque { email-size-limit } in dimension. Si un e-mail ha un annexo major de { email-size-limit }, illo non sera inultrate.
+faq-question-unsubscribe-domain-question = Que eveni a mi dominio personal si io me remove del inrolamento de { -brand-name-relay-premium }?
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
