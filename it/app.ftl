@@ -164,7 +164,7 @@ landing-use-cases-offline-body =
     Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
     Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
     Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
-landing-use-cases-access-content = Accesso a contenuti
+landing-use-cases-access-content = Contenuti
 landing-use-cases-access-content-body =
     Vuoi iscriverti a una newsletter ma non ti fidi del mittente?
     Utilizza un alias al posto del tuo indirizzo reale. Se improvvisamente inizi a ricevere email indesiderate attraverso quell’alias, è possibile che il tuo indirizzo sia stato venduto a terze parti o perfino coinvolto in una violazione di dati.
