@@ -207,6 +207,9 @@ faq-headline = Domande più frequenti
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Che cos’è un alias { -brand-name-relay }?
 faq-question-what-is-answer = Gli alias email sono indirizzi email mascherati che inoltrano i messaggi al tuo indirizzo email reale. Questi alias ti consentono di condividere un indirizzo con terze parti senza preoccupazioni: il tuo indirizzo email reale rimarrà nascosto e riceverà i messaggi inoltrati.
+faq-question-missing-emails-question = Non ricevo messaggi dai miei alias
+faq-question-missing-emails-answer-a = Ci sono alcuni motivi per cui potresti non ricevere le email inoltrate tramite i tuoi alias. Questi motivi includono:
+faq-question-missing-emails-answer-reason-not-accepted = Il sito non accetta alias
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay-premium } alle prese con uno di questi problemi, <a href="{ $url }" { $attrs }>contatta il nostro team di supporto</a>.
