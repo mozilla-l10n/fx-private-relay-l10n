@@ -213,6 +213,10 @@ faq-question-missing-emails-answer-reason-size = Le e-mail inultrate ha un annex
 faq-question-missing-emails-answer-reason-not-accepted = Le sito non accepta aliases
 faq-question-missing-emails-answer-reason-turned-off = Le alias pote haber le function de inultrar disactivate
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote star plus longemente que usual pro inultrar tu messages
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-relay-premium } luctante con ulle de iste problemas, per favor <a href="{ $url }" { $attrs }>continge nostre equipa de assistentia</a>.
+faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-relay }?
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
