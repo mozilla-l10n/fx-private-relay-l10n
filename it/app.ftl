@@ -118,9 +118,18 @@ landing-hero-body = Gli alias { -brand-name-firefox-relay } proteggono il tuo in
 ## How it works section
 
 landing-how-it-works-headline = Come funziona
+landing-how-it-works-body = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
+landing-how-it-works-step-1-body-cta = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Genera automaticamente alias email ovunque inserisci il tuo indirizzo email online.
+landing-how-it-works-step-3-body =
+    Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato. { -brand-name-relay } inoltrerà i messaggi al tuo indirizzo email.
+    Se uno di questi alias riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
