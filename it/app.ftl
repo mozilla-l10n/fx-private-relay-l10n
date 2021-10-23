@@ -194,6 +194,7 @@ setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description = Consenti a { -brand-name-relay } di raccogliere i dati relativi ai siti dove vengono generati e utilizzati i tuoi alias.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web pertinenti in una versione futura. Se decidi di disattivare questa preferenza, i tuoi alias non verranno etichettati con i siti web dove vengono utilizzati.
+setting-label-collection-off-warning-v2 = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web dove vengono utilizzati. Se decidi di disattivare questa preferenza, i tuoi alias non verranno più etichettati in questo modo.
 settings-button-save-label = Salva
 settings-button-save-tooltip = Applica le impostazioni scelte.
 
@@ -242,6 +243,7 @@ faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
 faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
+faq-question-availability-answer = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda.
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 faq-question-4-answer = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione dell’email stessa. Eventuali indirizzi in Cc o Ccn non saranno inclusi nella risposta.
 faq-question-4-answer-html =
