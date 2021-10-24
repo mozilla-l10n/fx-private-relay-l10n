@@ -160,6 +160,10 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body = Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address? 
     Use a { -brand-name-relay } alias to put one more layer of protection between your online identity and the games you play online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Top questions about { -brand-name-firefox-relay }
+landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 
 ## Settings page
 
