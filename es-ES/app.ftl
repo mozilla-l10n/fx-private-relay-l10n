@@ -136,9 +136,40 @@ landing-pricing-body =
     Prueba los alias de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
     Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Hasta 5 alias de correo electrónico
+landing-pricing-free-feature-2 = Extensión del navegador
+landing-pricing-free-cta = Obtén { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/mes
+landing-pricing-premium-feature-1 = Alias ilimitados de correo electrónico
+landing-pricing-premium-feature-2 = Extensión del navegador
+landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = tuemail@tudominio.mozmail.com
+landing-pricing-premium-feature-4 = Responde a correos electrónicos reenviados
 
 ## Use Cases
 
+landing-use-cases-shopping = Compras
+landing-use-cases-shopping-body =
+    ¿Estás comprando algo en una nueva tienda en línea? Utiliza un alias de { -brand-name-relay } en lugar de tu correo electrónico cuando realices una compra en línea.
+    Reenviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-social-networks = Redes sociales
+landing-use-cases-social-networks-body =
+    ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
+    ¿Intentas evitar que tu correo electrónico real esté vinculado a tu presencia en las redes sociales? Utiliza un alias de { -brand-name-relay } para iniciar sesión y protegerte en línea.
+landing-use-cases-offline = Sin conexión
+landing-use-cases-offline-body =
+    ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
+    Utiliza un alias de { -brand-name-relay } en vez de tu correo electrónico cuando obtengas un recibo sin papel en una tienda.
+    Enviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-access-content = Acceder a contenido
+landing-use-cases-access-content-body =
+    ¿Quieres suscribirse a ese boletín, pero no confías en el remitente?
+    Usa un alias en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de ese alias, es posible que el remitente haya vendido tu alias a otros comercializadores, o incluso podría haberse filtrado en una violación de datos.
+    Simplemente apaga o elimina el alias para proteger tu bandeja de entrada de correo electrónico.
+landing-use-cases-gaming = Juegos
 
 ## Settings page
 
