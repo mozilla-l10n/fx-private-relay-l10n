@@ -103,11 +103,42 @@ hero-image-copy-unique-html = <strong>Utiliza una dirección de reenvío única<
 hero-image-copy-protect-html = …para que puedas <strong>proteger tu correo electrónico real</strong> del seguimiento y el spam.
 hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que llega a tu bandeja de entrada!
 
-## FAQ Page
+## Home Page Version A
 
-faq-headline = Preguntas frecuentes
-faq-question-1-question = ¿Qué pasa con el spam?
-faq-question-1-answer-a = Aunque { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
+
+## Hero Section
+
+landing-hero-headline = Protege tu dirección de correo electrónico real para un mejor control de tu bandeja de entrada
+landing-hero-body =
+    Los alias de correo electrónico de { -brand-name-firefox-relay } protegen tu dirección de correo electrónico real al impedir que sea visible públicamente, reenviando automáticamente los correos electrónicos a tu bandeja de entrada real.
+    Ahora puedes recibir solo los correos electrónicos que desees en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para comenzar.
+
+## How it works section
+
+landing-how-it-works-headline = Cómo funciona
+landing-how-it-works-body = Comparte los alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tu bandeja de entrada de correo electrónico, así como tu identidad.
+landing-how-it-works-step-1-body-cta = Descarga la extensión { -brand-name-relay } para { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que introduzcas tu dirección de correo electrónico en línea.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Mientras navegas, aparecerá el ícono de { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
+    Selecciónalo para generar una nueva dirección aleatoria que termine en @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado. { -brand-name-relay }reenviará los mensajes a tu dirección de correo electrónico.
+    Si un alias recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
+
+## Pricing section
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Solo por tiempo limitado: alias ilimitados por { $monthly_price } al mes
+landing-pricing-body =
+    Prueba los alias de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
+    Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
+landing-pricing-free-price = Gratis
+
+## Use Cases
+
 
 ## Settings page
 
@@ -131,11 +162,17 @@ setting-label-collection-description = Permitir que { -brand-name-relay } recopi
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
+
+## FAQ Page
+
+faq-headline = Preguntas frecuentes
+# String used to display the attachment limit, e.g. 10 MB
 # Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Si ves un problema más amplio de correo electrónico no deseado de todos sus alias, por favor <a href="{ $url }" { $attrs }>infórmanos</a> para que podamos considerar ajustar los parámetros de spam de SES para este servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, en vez del remitente original.
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -143,31 +180,37 @@ faq-question-2-answer-html =
     Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (es decir, la parte "relay" de @relay.firefox.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
     A medida que { -brand-name-firefox-relay } aumente en popularidad y emita más alias, nuestro servicio podría incluirse en una lista de bloqueo.
     Si no puedes utilizar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>háznoslo saber </a>.
-faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
-faq-question-3-answer = El sitio actualmente solo está disponible en inglés, pero puedes usar el servicio en cualquier lugar.
-faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
-# String used to display the attachment limit, e.g. 150 KB
+faq-question-1-question = ¿Qué pasa con el spam?
+faq-question-1-answer-a = Aunque { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
 # Variables:
-#  $size (number): maximum size for attachments
-#  $unit (string): unit of measurement (e.g. KB for Kilobyte)
-email-size-limit = { $size } { $unit }
-# Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Si ves un problema más amplio de correo electrónico no deseado de todos sus alias, por favor <a href="{ $url }" { $attrs }>infórmanos</a> para que podamos considerar ajustar los parámetros de spam de SES para este servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, en vez del remitente original.
+faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 faq-question-4-answer-html =
     { -brand-name-relay } todavía no ofrece la capacidad de responder usando un alias.
     Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
-faq-question-5-question = ¿Puedo crear mi propio alias de { -brand-name-relay } usando el dominio @relay.firefox.com?
-faq-question-5-answer = Actualmente no, pero estamos considerando nuevas funciones que incluyen permitirte crear tu propio alias con un dominio designado.
-faq-question-6-question = ¿Qué sucede si { -brand-name-mozilla } cierra el servicio { -brand-name-firefox-relay }?
-faq-question-6-answer = Te notificaremos con antelación que debes cambiar la dirección de correo electrónico de cualquier cuenta que utilice un alias de { -brand-name-relay }.
-faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
-faq-question-7-answer = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
-#   $url (url) - https://github.com/mozilla/fx-private-relay/issues/99
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus alias de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
+# Deprecated
+faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
+# Deprecated
+faq-question-3-answer = El sitio actualmente solo está disponible en inglés, pero puedes usar el servicio en cualquier lugar.
+# Deprecated
+faq-question-5-question = ¿Puedo crear mi propio alias de { -brand-name-relay } usando el dominio @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Actualmente no, pero estamos considerando nuevas funciones que incluyen permitirte crear tu propio alias con un dominio designado.
+# Deprecated
+faq-question-6-question = ¿Qué sucede si { -brand-name-mozilla } cierra el servicio { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Te notificaremos con antelación que debes cambiar la dirección de correo electrónico de cualquier cuenta que utilice un alias de { -brand-name-relay }.
+# Deprecated
+faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
+# Deprecated
+faq-question-7-answer = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 
 ## Profile Page (Logged In)
 
