@@ -258,6 +258,7 @@ faq-question-mozmail-answer = Hemos cambiado de “relay.firefox.com” a “moz
 faq-question-attachments-question = ¿Puede { -brand-name-firefox-relay } reenviar correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer = Sí, { -brand-name-firefox-relay } admite correos electrónicos reenviados con archivos adjuntos con un tamaño máximo de { email-size-limit }. Si un correo electrónico tiene un archivo adjunto mayor que { email-size-limit }, no se reenviará.
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Si te das de baja de { -brand-name-relay-premium }, seguirás recibiendo correos electrónicos reenviados a través de tu dominio personalizado, pero ya no podrás crear nuevos alias con ese dominio. Si tienes más de cinco alias en total, no podrás crear más. También perderás la capacidad de responder a los mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } y recuperar el acceso a estas funciones.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -327,6 +328,7 @@ profile-blocked-copy = Cuando selecciones el bloqueo para este alias, { -brand-n
 profile-forwarded-copy = Cuando selecciones el reenvío para este alias, { -brand-name-firefox-relay } enviará los mensajes a tu bandeja de entrada.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluidos los archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
+profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used = Alias utilizados
@@ -438,6 +440,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Si usas este alias para iniciar sesión en los sitios que te interesan,
     debes actualizar tu inicio de sesión con una dirección de correo electrónico diferente antes de eliminar ésta.
+modal-delete-domain-address-warning-upgrade =
+    Si usas este alias para iniciar sesión en sitios que te interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo electrónico diferente antes de eliminar ésta.
+    Si vuelves a crear un alias eliminado, los correos electrónicos enviados al alias original se seguirán reenviando.
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
 modal-domain-register-warning = Recuerda, puedes registrar un dominio solo para tu cuenta y no es posible cambiar el dominio más adelante.
