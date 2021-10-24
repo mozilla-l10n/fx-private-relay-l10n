@@ -170,6 +170,9 @@ landing-use-cases-access-content-body =
     Usa un alias en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de ese alias, es posible que el remitente haya vendido tu alias a otros comercializadores, o incluso podría haberse filtrado en una violación de datos.
     Simplemente apaga o elimina el alias para proteger tu bandeja de entrada de correo electrónico.
 landing-use-cases-gaming = Juegos
+landing-use-cases-gaming-body =
+    ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
+    Utiliza un alias de { -brand-name-relay } para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 
 ## Settings page
 
@@ -191,6 +194,7 @@ setting-label-collection-heading-v2 = Privacidad
 setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
+setting-label-collection-off-warning-v2 = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web donde se usan. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 
@@ -202,6 +206,21 @@ faq-headline = Preguntas frecuentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
+faq-question-what-is-answer = Los alias de correo electrónico son direcciones de correo electrónico enmascaradas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estos alias te permiten compartir una dirección con terceros que enmascarará tu verdadera dirección de correo electrónico y te reenviarán mensajes.
+faq-question-missing-emails-question = No recibo mensajes de mis alias
+faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
+faq-question-missing-emails-answer-reason-spam = Los mensajes acaban en la carpeta de spam
+faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
+faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor de { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
+faq-question-missing-emails-answer-reason-turned-off = Es posible que el alias tenga el reenvío desactivado
+faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-relay } tarde más de lo habitual en reenviar tus mensajes
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-relay-premium } y encuentras alguno de estos problemas, <a href="{ $url }" { $attrs }>ponte en contacto con nuestro equipo de asistencia</a>.
+faq-question-use-cases-question = ¿Cuándo debería usar los alias de{ -brand-name-relay }?
+faq-question-use-cases-answer = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos informativos o de marketing en los que es posible que desees controlar si recibes o no correos electrónicos en el futuro. No recomendamos el uso de alias cuando necesites verificar tu identidad o para correos electrónicos muy importantes. Por ejemplo, querrás compartir tu dirección de correo electrónico real con tu banco, tu médico, tu abogado, etc.
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -211,16 +230,34 @@ faq-question-2-answer-html =
     Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (es decir, la parte "relay" de @relay.firefox.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
     A medida que { -brand-name-firefox-relay } aumente en popularidad y emita más alias, nuestro servicio podría incluirse en una lista de bloqueo.
     Si no puedes utilizar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>háznoslo saber </a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (es decir, la parte “relay” de @relay.firefox.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
+    Si no puedes utilizar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>háznoslo saber </a>.
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-1-answer-a = Aunque { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Si ves un problema más amplio de correo electrónico no deseado de todos sus alias, por favor <a href="{ $url }" { $attrs }>infórmanos</a> para que podamos considerar ajustar los parámetros de spam de SES para este servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, en vez del remitente original.
+faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
+faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
+faq-question-4-answer = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a la recepción de ese correo. Las direcciones en copia o copia oculta no se incluirán en las respuestas.
 faq-question-4-answer-html =
     { -brand-name-relay } todavía no ofrece la capacidad de responder usando un alias.
     Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
+faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
+faq-question-browser-support-answer = Sí, puedes generar alias de { -brand-name-relay } en otros navegadores o dispositivos móviles simplemente iniciando sesión en tu panel de control de { -brand-name-relay }.
+faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Te notificaremos con antelación que debes cambiar la dirección de correo electrónico de cualquier cuenta que utilice un alias de { -brand-name-relay }.
+faq-question-mozmail-question = ¿Por qué mis alias han empezado a usar el dominio “mozmail.com”?
+faq-question-mozmail-answer = Hemos cambiado de “relay.firefox.com” a “mozmail.com” para poder obtener un dominio de correo electrónico personalizado, como alias@tudominio.mozmail.com. Los dominios de correo electrónico personalizados, disponibles para los suscriptores de { -brand-name-relay-premium }, también hacen que tus alias de correo electrónico sean mucho más fáciles de recordar que los alias aleatorios.
+faq-question-attachments-question = ¿Puede { -brand-name-firefox-relay } reenviar correos electrónicos con archivos adjuntos?
+faq-question-attachments-answer = Sí, { -brand-name-firefox-relay } admite correos electrónicos reenviados con archivos adjuntos con un tamaño máximo de { email-size-limit }. Si un correo electrónico tiene un archivo adjunto mayor que { email-size-limit }, no se reenviará.
+faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
