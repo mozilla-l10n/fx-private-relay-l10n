@@ -181,8 +181,12 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } 马甲邮箱是什么？
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
+faq-question-missing-emails-answer-reason-blocked = 邮件服务商屏蔽了您的马甲邮箱
+faq-question-missing-emails-answer-reason-size = 转发的电子邮件（含附件）大于 { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = 该网站不允许使用马甲邮箱
 faq-question-missing-emails-answer-reason-turned-off = 马甲邮箱的转发功能可能已被关闭
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 转发消息可能需要比平时更长的时间
+faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
 # Variables:
@@ -195,6 +199,7 @@ faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾�
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
+faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
