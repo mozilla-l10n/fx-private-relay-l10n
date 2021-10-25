@@ -198,6 +198,16 @@ landing-use-cases-social-networks = Sociálne siete
 landing-use-cases-social-networks-body =
     Chcete lepšie chrániť svoju online identitu pri používaní sociálnej siete?
     Snažíte sa, aby váš skutočný e-mail nebol spojený s vašou prítomnosťou na sociálnych médiách? Na prihlásenie a ochranu online použite alias služby { -brand-name-relay }.
+landing-use-cases-offline = Zostaňte offline
+landing-use-cases-offline-body =
+    Uprednostňujete dostávať e-mailové potvrdenky, ale chcete sa vyhnúť aj marketingovému spamu?
+    Pri získavaní bezpapierového potvrdenia v obchode použite namiesto e-mailu alias { -brand-name-relay }.
+    Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnite preposielanie e-mailov.
+landing-use-cases-access-content = Prístup k obsahu
+landing-use-cases-access-content-body =
+    Chcete sa prihlásiť na odber newslettra, ale neveríte odosielateľovi?
+    Použite alias namiesto svojej skutočnej adresy – ak cez tento alias začnete dostávať nechcené e-maily, odosielateľ mohol predať váš alias iným obchodníkom alebo dokonca mohol uniknúť pri úniku údajov.
+    Stačí vypnúť alebo odstrániť alias, aby ste ochránili svoju e-mailovú schránku.
 landing-use-cases-gaming = Hranie hier
 landing-use-cases-gaming-body =
     Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
