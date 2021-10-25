@@ -123,7 +123,7 @@ landing-how-it-works-step-3-body = 登录 { -brand-name-relay } 即可总览您�
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限量马甲
-landing-pricing-free-price = 免费版
+landing-pricing-free-price = 免费
 landing-pricing-free-feature-1 = 最多 5 个马甲邮箱
 landing-pricing-free-feature-2 = 浏览器扩展
 landing-pricing-free-cta = 下载 { -brand-name-relay }
@@ -132,6 +132,7 @@ landing-pricing-free-cta = 下载 { -brand-name-relay }
 landing-pricing-premium-price = { $monthly_price } / 月
 landing-pricing-premium-feature-1 = 无限量的马甲邮箱
 landing-pricing-premium-feature-2 = 浏览器扩展
+landing-pricing-premium-feature-3 = 专属邮箱域名
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 回复转发的电子邮件
@@ -177,7 +178,7 @@ faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的�
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
 faq-question-missing-emails-answer-reason-not-accepted = 该网站不允许使用马甲邮箱
 faq-question-missing-emails-answer-reason-turned-off = 马甲邮箱的转发功能可能已被关闭
-faq-question-2-question = 为什么某些网站不接受我的 { -brand-name-relay } 马甲邮箱？
+faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -198,7 +199,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-html = 您可阅读我们的 <a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 # Deprecated
 faq-question-3-question = { -brand-name-relay } 只可在美国使用吗？
 # Deprecated
