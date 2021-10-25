@@ -141,6 +141,9 @@ landing-pricing-premium-feature-4 = 回复转发的电子邮件
 ## Use Cases
 
 landing-use-cases-shopping = 网购
+landing-use-cases-shopping-body =
+    网购和 { -brand-name-relay } 马甲邮箱更配哦~ 
+    我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
 landing-use-cases-social-networks = 社交网络
 landing-use-cases-offline = 线下场景
 landing-use-cases-gaming = 游戏
