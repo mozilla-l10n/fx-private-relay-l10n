@@ -169,6 +169,8 @@ settings-warning-collection-off-description = { -brand-name-relay } 当前未被
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = 此数据将允许我们在新版本中将您生成的马甲与网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
 
