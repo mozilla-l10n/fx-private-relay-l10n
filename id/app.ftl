@@ -45,6 +45,14 @@ nav-profile-manage-fxa = Kelola { -brand-name-firefox-account(capitalization: "u
 nav-profile-sign-out = Keluar
 nav-profile-sign-out-relay = Keluar dari { -brand-name-relay }
 nav-profile-sign-out-confirm = Anda yakin ingin keluar?
+nav-profile-settings = Pengaturan
+nav-profile-settings-tooltip = Konfigurasikan { -brand-name-firefox-relay }
+nav-profile-help = Bantuan dan dukungan
+nav-profile-help-tooltip = Dapatkan bantuan menggunakan { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Hubungi kami
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Hubungi kami tentang { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
@@ -81,6 +89,25 @@ how-it-works-step-1-link = Unduh ekstensi { -brand-name-relay } untuk { -brand-n
 how-it-works-step-1-copy =
     Pilih ikon yang muncul pada bilah alat { -brand-name-firefox } Anda untuk mengakses laman masuk.
     Masuk dengan { -brand-name-firefox-account } untuk mulai.
+how-it-works-step-2-headline = Buat alias baru
+
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+
+## Pricing section
+
+
+## Use Cases
+
+
+## Settings page
+
 
 ## FAQ Page
 
@@ -98,6 +125,9 @@ how-it-works-step-1-copy =
 
 
 ## Onboarding 
+
+
+## Premium Onboarding
 
 
 ## Modals
