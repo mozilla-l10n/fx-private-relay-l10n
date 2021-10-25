@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Genießen Sie Online-Spiele, aber machen Sie sich Sorgen, dass andere Spieler oder Mobber über Ihren Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind?
     Verwenden Sie die Alias-E-Mail-Adressen von { -brand-name-relay }, um eine weitere Schutzebene zwischen Ihrer Online-Identität und den Spielen, die Sie im Internet spielen, zu schaffen.
 
+## Landing FAQ Section
+
+landing-faq-headline = Häufigste Fragen zu { -brand-name-firefox-relay }
+landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Einstellungen von { -brand-name-relay }
@@ -246,15 +251,18 @@ faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-4-question = Kann ich mit meiner { -brand-name-relay }-Alias-Adresse auf Nachrichten antworten?
 faq-question-4-answer = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Alle CC- oder BCC-Adressen werden nicht in Ihre Antworten aufgenommen.
+faq-question-4-answer-v2 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-html =
     { -brand-name-relay } bietet aktuell nicht die Möglichkeit, mit einer seiner Alias-E-Mail-Adressen zu antworten.
     Wenn Sie dies versuchen, passiert nichts. Wir planen eine zusätzliche Funktion, mit der Sie <a href="{ $url }" { $attrs }>anonym auf Nachrichten antworten können</a>.
+faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
+faq-question-subdomain-characters-answer = Nur englisches Alphabet in Kleinbuchstaben, Zahlen und Bindestriche (-).
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
 faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten generieren, indem Sie sich einfach bei Ihrer { -brand-name-relay }-Übersicht anmelden.
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 faq-question-longevity-answer = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die { -brand-name-relay }-Alias-Adressen verwenden.
 faq-question-mozmail-question = Warum verwenden meine Alias-E-Mail-Adressen die Domain „mozmail.com“?
-faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@yourdomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, machen Ihre Alias-E-Mail-Adressen auch viel leichter zu merken als zufällige Aliase.
+faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@ihredomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, machen Ihre Alias-E-Mail-Adressen auch viel leichter zu merken als zufällige Aliase.
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } unterstützt weitergeleitete E-Mails mit Anhängen bis zu einer Größe von { email-size-limit }. Wenn eine E-Mail einen Anhang enthält, der größer als { email-size-limit } ist, wird sie nicht weitergeleitet.
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
@@ -364,12 +372,26 @@ banner-download-install-extension-cta = Installieren Sie { -brand-name-relay } f
 banner-upgrade-headline = Machen Sie das Upgrade auf { -brand-name-relay-premium }
 banner-upgrade-copy = Mit { -brand-name-firefox } { -brand-name-relay-premium } wird die Verwendung von Alias-E-Mail-Adressen noch einfacher, weil Sie benutzerdefinierte Alias-Domains und unbegrenzt viele Alias-Adressen nutzen können.
 banner-upgrade-cta = Machen Sie das Upgrade auf { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Wählen Sie Ihre eigene Domain
-banner-choose-subdomain-headline-aliases = Holen Sie sich Ihre eigene benutzerdefinierte Alias-Domain
-banner-choose-subdomain-copy = Sie können eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen auswählen.
-banner-choose-subdomain-warning = Hinweis: Sie können Ihre Domain später nicht mehr ändern
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Wichtige Aufgabe
+banner-register-subdomain-headline-aliases = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = ihredomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen freigeben, die nicht generiert werden müssen
+    bevor Sie sie verwenden. Benötigen Sie eine Alias-E-Mail-Adresse für eine Reservierung? Geben Sie dem Restaurant die Adresse
+    „restaurant@ihredomain.{ $mozmail }“. Jede Alias-E-Mail-Adresse,
+    die Ihre benutzerdefinierte Domain verwendet, wird an Sie weitergeleitet.
 banner-choose-subdomain-input-placeholder = Domain suchen
-banner-choose-subdomain-submit = Domain erhalten
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet Ihnen unbegrenzt viele Alias-E-Mail-Adressen und Ihre eigene E-Mail-Domain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
