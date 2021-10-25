@@ -255,6 +255,8 @@ faq-question-4-answer-v2 = Користувачі { -brand-name-relay-premium } 
 faq-question-4-answer-html =
     { -brand-name-relay } поки не пропонує можливості відповідати за допомогою псевдоадреси. 
     Якщо ви спробуєте, нічого не вийде. Ми плануємо додаткову можливість, яка дозволить вам <a href="{ $url }" { $attrs }>анонімно відповідати відправникам</a>.
+faq-question-subdomain-characters-question = Які символи я можу використовувати для створення піддомену?
+faq-question-subdomain-characters-answer = Лише малий англійський алфавіт, цифри та дефіс (-).
 faq-question-browser-support-question = Чи можна використовувати { -brand-name-relay } в інших браузерах або на мобільному пристрої?
 faq-question-browser-support-answer = Так, ви можете створити псевдоадреси { -brand-name-relay } в інших браузерах або на мобільних пристроях, просто увійшовши на свою інформаційну панель { -brand-name-relay }.
 faq-question-longevity-question = Що станеться, якщо ⁨Mozilla⁩ вимкне службу { -brand-name-firefox-relay }?
@@ -370,7 +372,26 @@ banner-download-install-extension-cta = Додати { -brand-name-relay } до 
 banner-upgrade-headline = Оновити до { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } спрощує створення псевдоадрес е-пошти за допомогою власних доменів псевдоадрес і необмеженої кількості псевдоадрес.
 banner-upgrade-cta = Оновити до { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Необхідні дії
+banner-register-subdomain-headline-aliases = Отримайте користувацький домен для своїх псевдоадрес
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = вашдомен
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    За допомогою власного домену ви можете ділитися псевдоадресами, які не потрібно створювати
+    перед використанням. Потрібна адреса для бронювання? Назвіть
+    “restaurant@yourdomain.{ $mozmail }” для ресторану. Будь-яка псевдоадреса із використанням вашого
+    власного домену буде перенаправлено вам.
 banner-choose-subdomain-input-placeholder = Пошук домену
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Пошук
 banner-pack-upgrade-headline-html = Оновіться до <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, щоб отримати більше псевдоадрес
 banner-pack-upgrade-copy = Завдяки необмеженій кількості псевдоадрес е-пошти та вашому власному домену електронної пошти, { -brand-name-firefox } { -brand-name-relay-premium } допомагає вам захистити себе в інтернеті.
 banner-pack-upgrade-cta = Оновити зараз
