@@ -234,7 +234,7 @@ faq-question-2-answer-html =
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v2-html =
-    Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain enthält (d. h. den „Relay“-Teil von @relay.firefox.com) und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten
+    Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain enthält (d. h. den „Relay“-Teil von @relay.firefox.com) und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
     Wenn Sie keine Alias-E-Mail-Adresse von { -brand-name-relay } verwenden können, <a href="{ $url }" { $attrs }>teilen Sie uns dies bitte mit</a>.
 faq-question-1-question = Was ist mit Spam?
 faq-question-1-answer-a = { -brand-name-relay } filtert keinen Spam, aber unser E-Mail-Partner Amazon SES blockiert Spam und Schadsoftware. Wenn { -brand-name-relay } unerwünschte Nachrichten weiterleitet, können Sie Ihre { -brand-name-relay }-Einstellungen ändern, um Nachrichten zu blockieren, die von der Alias-Adresse weitergeleitet werden.
