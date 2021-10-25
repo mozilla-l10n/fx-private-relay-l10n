@@ -202,6 +202,7 @@ faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存�
 faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
 faq-question-availability-answer = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
+faq-question-4-answer = 所转发的邮件，{ -brand-name-relay-premium } 用户可在收到后三个月内进行回复。任何抄送或密送地址均不会包含在回复中。
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
