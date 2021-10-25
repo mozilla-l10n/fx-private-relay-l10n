@@ -254,6 +254,7 @@ faq-question-4-answer = Gli utenti { -brand-name-relay-premium } possono rispond
 faq-question-4-answer-html =
     { -brand-name-relay } attualmente non permette di rispondere usando un alias.
     Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
+faq-question-subdomain-characters-question = Quali caratteri si possono utilizzare per creare un sottodominio?
 faq-question-browser-support-question = Posso utilizzare { -brand-name-relay } con altri browser o sul mio dispositivo <em>mobile</em>?
 faq-question-browser-support-answer = Sì, puoi generare alias { -brand-name-relay } con altri browser o dispositivi mobili semplicemente accedendo alla tua dashboard { -brand-name-relay }.
 faq-question-longevity-question = Che cosa succede se Mozilla interrompe il servizio { -brand-name-firefox-relay }?
