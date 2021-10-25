@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do seu nome no jogo e endereço de email?
     Use um endereço de redirecionamento do { -brand-name-relay } para colocar mais uma camada de proteção entre sua identidade online e os jogos que você joga online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Principais perguntas sobre o { -brand-name-firefox-relay }
+landing-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Configurações do { -brand-name-relay }
@@ -246,9 +251,12 @@ faq-question-availability-question = Onde o { -brand-name-relay } está disponí
 faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
 faq-question-4-answer = Os usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após o recebimento do email. Quaisquer endereços CC ou CCO não são incluídos em suas respostas.
+faq-question-4-answer-v2 = Os usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após o recebimento do email. Se você adicionar um destinatário Cc ou Cco ao responder um email, seu endereço de email original será exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes Cc ou Cco ao responder.
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
     Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
+faq-question-subdomain-characters-question = Que caracteres posso usar para criar um subdomínio?
+faq-question-subdomain-characters-answer = Somente letras minúsculas do alfabeto inglês, números e traços (-).
 faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
 faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
 faq-question-longevity-question = O que acontece se a Mozilla encerrar o serviço { -brand-name-firefox-relay }?
@@ -364,12 +372,13 @@ banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -br
 banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
 banner-upgrade-cta = Mudar para o { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Escolha seu próprio domínio
-banner-choose-subdomain-headline-aliases = Tenha seu próprio domínio personalizado de endereços de redirecionamento
-banner-choose-subdomain-copy = Você pode escolher um domínio personalizado para seus endereços de redirecionamento de email.
-banner-choose-subdomain-warning = Nota: Você não pode alterar seu domínio mais tarde
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = seudominio
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
-banner-choose-subdomain-submit = Obter domínio
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Pesquisar
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
 banner-pack-upgrade-cta = Mude agora para a versão premium
