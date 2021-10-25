@@ -372,10 +372,19 @@ banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -br
 banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
 banner-upgrade-cta = Mudar para o { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Ação necessária
+banner-register-subdomain-headline-aliases = Tenha um domínio personalizado nos endereços de redirecionamento
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = seudominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy = Com um domínio personalizado, você pode compartilhar endereços de redirecionamento que não precisam ser gerados antes de usar. Precisa de um para fazer uma reserva? Informe “hotel@seudomínio.{ $mozmail }” para o hotel. Qualquer endereço de redirecionamento que tenha seu domínio personalizado é encaminhado a você.
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Pesquisar
