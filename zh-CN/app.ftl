@@ -101,7 +101,7 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 ## Hero Section
 
-landing-hero-headline = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰邮箱
+landing-hero-headline = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰
 landing-hero-body =
     { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
     从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
@@ -145,7 +145,8 @@ landing-use-cases-shopping-body = 网购和 { -brand-name-relay } 马甲邮箱�
 landing-use-cases-social-networks = 社交网络
 landing-use-cases-social-networks-body = 想要在社交网络中保护好自己的在线身份？不希望真实邮箱与你在社交媒体上的存在相挂钩？使用 { -brand-name-relay } 马甲注册登录保护自己。
 landing-use-cases-offline = 线下场景
-landing-use-cases-offline-body = 更喜欢收到电子邮件收据，但也想避免营销垃圾邮件？在商店中获取无纸收据时，请使用 { -brand-name-relay } 马甲邮箱。我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
+landing-use-cases-offline-body = 更喜欢收到电子邮件收据，亦想避免营销垃圾邮件？在商店中获取无纸收据时，请使用 { -brand-name-relay } 马甲邮箱。我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
+landing-use-cases-access-content = 网络读物
 landing-use-cases-gaming = 游戏
 
 ## Settings page
@@ -268,6 +269,7 @@ profile-blocked-copy = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 
 profile-forwarded-copy = 启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 若邮件（含附件）大于 { email-size-limit }，将不会向您转发。
+profile-forwarded-note-copy-v2 = 大于 { email-size-limit } 的电子邮件（含附件）将不会被转发。
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used = 已用的邮箱马甲
