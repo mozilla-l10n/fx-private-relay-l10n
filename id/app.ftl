@@ -156,6 +156,10 @@ landing-use-cases-shopping-body =
     Beli sesuatu dari toko online baru? Gunakan alias dari { -brand-name-relay } daripada alamat surel Anda ketika berbelanja
     Kami akan meneruskan tanda terima ke alamat surel asli Anda, dan jika Anda mulai mendapatkan surel yang tidak diinginkan, cukup matikan penerusan surel.
 landing-use-cases-social-networks = Jejaring Sosial
+landing-use-cases-social-networks-body =
+    Ingin melindungi identitas daring Anda lebih baik ketika menggunakan jejaring sosial?
+    Ingin menjaga alamat surel asli Anda tidak terikat dengan akun media sosial? Gunakan alias dari { -brand-name-relay } untuk masuk dan melindungi diri Anda daring.
+landing-use-cases-offline = Luring
 
 ## Settings page
 
