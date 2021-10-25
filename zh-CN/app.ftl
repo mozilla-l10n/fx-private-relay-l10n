@@ -170,7 +170,8 @@ settings-warning-collection-off-description = { -brand-name-relay } 当前未被
 setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning = 此数据将允许我们在新版本中将您生成的马甲与网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
+setting-label-collection-off-warning = 此数据将允许我们在未来版本中，将您的马甲与其所使用网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
+setting-label-collection-off-warning-v2 = 此数据将允许我们将您的马甲与其所使用网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
 
@@ -201,6 +202,10 @@ faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay 
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不再接受 Gmail、Hotmail、Yahoo 以外的账户注册。随着 { -brand-name-firefox-relay } 的知名度增加，并创建更多的马甲邮箱，我们的服务也可能被屏蔽。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不接受 Gmail、Hotmail、Yahoo 以外的账户注册。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
@@ -381,6 +386,8 @@ onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标�
 ## Premium Onboarding
 
 onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = 哪一封邮件可以进入收件箱，<strong>控制权</strong>在您。
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 onboarding-premium-control-description = 可创建无限量的马甲邮箱，只转发您想收到的邮件到收件箱。
