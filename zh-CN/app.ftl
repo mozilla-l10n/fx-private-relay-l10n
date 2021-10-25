@@ -340,7 +340,7 @@ banner-choose-subdomain-copy = 您可以使用自定义域名创建马甲。
 banner-choose-subdomain-warning = 注意：之后将无法再更改域名
 banner-choose-subdomain-input-placeholder = 搜索域名
 banner-choose-subdomain-submit = 注册域名
-banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获取更多马甲
+banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获得更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
 # Data Notification Banner:
@@ -406,6 +406,7 @@ modal-delete-headline = 确定要永久删除此马甲吗？
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
 modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
+modal-delete-domain-address-warning-upgrade = 如果您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
 modal-domain-register-warning = 注意：账户与域名直接绑定，注册之后不可更改。
