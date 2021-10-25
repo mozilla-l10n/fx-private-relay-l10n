@@ -213,6 +213,11 @@ landing-use-cases-gaming-body =
     Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
     Použite alias služby { -brand-name-relay } na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Najčastejšie otázky o službe { -brand-name-firefox-relay }
+landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Nastavenia služby { -brand-name-relay }
@@ -288,6 +293,8 @@ faq-question-4-answer = Používatelia služby { -brand-name-relay-premium } mô
 faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
+faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
+faq-question-subdomain-characters-answer = Len malé znaky anglickej abecedy, čísla a pomlčky (-).
 faq-question-browser-support-question = Môžem použiť { -brand-name-relay } v iných prehliadačoch alebo na svojom mobilnom zariadení?
 faq-question-browser-support-answer = Áno, aliasy služby { -brand-name-relay } môžete vygenerovať v iných prehliadačoch alebo mobilných zariadeniach jednoduchým prihlásením sa do hlavného panela služby { -brand-name-relay }.
 faq-question-longevity-question = Čo sa stane, ak { -brand-name-firefox-relay } vypne službu { -brand-name-firefox-relay }?
@@ -403,12 +410,9 @@ banner-download-install-extension-cta = Pridať { -brand-name-relay } do { -bran
 banner-upgrade-headline = Inovujte na { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ešte viac uľahčuje vytváranie e-mailových aliasov s vlastnými doménami a neobmedzeným počtom aliasov.
 banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Zvoľte si vlastnú doménu
-banner-choose-subdomain-headline-aliases = Získajte vlastnú doménu pre aliasy
-banner-choose-subdomain-copy = Pre svoje e-mailové aliasy si môžete vybrať vlastnú doménu.
-banner-choose-subdomain-warning = Poznámka: svoju doménu nemôžete neskôr zmeniť
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
-banner-choose-subdomain-submit = Získať doménu
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Hľadať
 banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
 banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox } { -brand-name-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
