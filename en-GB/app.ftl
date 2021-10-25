@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address? 
     Use a { -brand-name-relay } alias to put one more layer of protection between your online identity and the games you play online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Top questions about { -brand-name-firefox-relay }
+landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } Settings
@@ -246,9 +251,12 @@ faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
 faq-question-4-answer = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. Any CC’ed or BCC’ed addresses will not be included in your replies.
+faq-question-4-answer-v2 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the receivers and those on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
 faq-question-4-answer-html =
     { -brand-name-relay } does not yet offer the ability to reply using an alias. 
     If you try, nothing will happen. We are planning an additional feature to let you <a href="{ $url }" { $attrs }>reply anonymously to senders</a>.
+faq-question-subdomain-characters-question = What characters can I use to create a subdomain?
+faq-question-subdomain-characters-answer = Only lower case English alphabet, numbers, and dashes (-).
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 faq-question-browser-support-answer = Yes, you can generate { -brand-name-relay } aliases on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
 faq-question-longevity-question = What happens if ⁨Mozilla⁩ shuts down the ⁨{ -brand-name-firefox-relay } service?
@@ -364,12 +372,26 @@ banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-na
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makes creating email aliases even easier, with custom alias domains and unlimited aliases.
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Choose your own domain
-banner-choose-subdomain-headline-aliases = Get your own custom alias domain
-banner-choose-subdomain-copy = You can choose a custom domain for your email aliases.
-banner-choose-subdomain-warning = Note: You cannot change your domain later
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Action step
+banner-register-subdomain-headline-aliases = Get a custom domain for your aliases
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = yourdomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    With a custom domain, you can share aliases that don’t need to be generated
+    before you use them. Need one for a reservation? Give
+    “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any alias using your
+    custom domain will be forwarded to you.
 banner-choose-subdomain-input-placeholder = Search domain
-banner-choose-subdomain-submit = Get Domain
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Search
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
