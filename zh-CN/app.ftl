@@ -184,6 +184,7 @@ faq-headline = 常见问题
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } 马甲邮箱是什么？
+faq-question-what-is-answer = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的匿名邮箱。您可以放心地与第三方共享这些邮箱地址，掩藏真实邮箱地址。
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
 faq-question-missing-emails-answer-a = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
