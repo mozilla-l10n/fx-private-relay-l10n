@@ -168,6 +168,12 @@ landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Len časovo obmedzené: neobmedzené aliasy za { $monthly_price } mesačne
+landing-pricing-body =
+    Vyskúšajte aliasy služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
+    Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
 landing-pricing-free-price = Zadarmo
 landing-pricing-free-feature-1 = Až 5 e-mailových aliasov
 landing-pricing-free-feature-2 = Rozšírenie do prehliadača
@@ -218,12 +224,19 @@ faq-headline = Často kladené otázky
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Čo je alias služby { -brand-name-relay }?
+faq-question-what-is-answer = E-mailové aliasy sú maskované e-mailové adresy, ktoré preposielajú správy na vašu skutočnú e-mailovú adresu. Tieto aliasy vám umožňujú s tretími stranami zdieľať vygenerovanú adresu, čím zamaskujete vašu skutočnú e-mailovú adresu.
+faq-question-missing-emails-question = Nedostávam správy z mojich aliasov
+faq-question-missing-emails-answer-a = Existuje niekoľko dôvodov, prečo nemusíte nedostávať e-maily preposielané cez vaše aliasy. Medzi tieto dôvody patria:
 faq-question-missing-emails-answer-reason-spam = Správy sa dostávajú do spamu
 faq-question-missing-emails-answer-reason-blocked = Váš poskytovateľ e-mailu blokuje váš alias
 faq-question-missing-emails-answer-reason-size = Preposlaný e-mail má prílohu väčšiu ako { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Stránka neprijíma aliasy
 faq-question-missing-emails-answer-reason-turned-off = Alias môže mať vypnuté preposielanie správ
 faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } môže preposielanie vašich správ trvať dlhšie ako zvyčajne
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -brand-name-relay-premium }, ktorý zápasí s niektorým z týchto problémov, <a href="{ $url }" { $attrs }>kontaktujte náš tím podpory</a>.
 faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 # Deprecated
@@ -241,6 +254,7 @@ faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich aliasov, <a href="{ $url }" { $attrs }>nahláste nám to</a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
+faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Spojenom kráľovstve, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
 faq-question-4-answer = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od jeho prijatia. Akékoľvek adresy uvedené v poliach Kópia alebo Skrytá kópia nebudú zahrnuté do vašich odpovedí.
 faq-question-4-answer-html =
@@ -251,6 +265,7 @@ faq-question-browser-support-answer = Áno, aliasy služby { -brand-name-relay }
 faq-question-longevity-question = Čo sa stane, ak { -brand-name-firefox-relay } vypne službu { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
 faq-question-mozmail-question = Prečo moje aliasy začali používať doménu “mozmail.com?”
+faq-question-mozmail-answer = Prešli sme z “relay.firefox.com” na “mozmail.com”, aby bolo možné získať vlastnú e-mailovú doménu, napríklad alias@vašadoména.mozmail.com. Vlastné e-mailové domény dostupné pre službu { -brand-name-relay-premium } tiež uľahčujú zapamätanie si vašich e-mailových aliasov.
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e-maily s prílohami?
 faq-question-attachments-answer = Áno, služba { -brand-name-firefox-relay } podporuje preposielanie e-mailov s prílohami do veľkosti { email-size-limit }. Ak má e-mail prílohu väčšiu ako { email-size-limit }, nebude preposlaný.
 faq-question-unsubscribe-domain-question = Čo sa stane s mojou vlastnou doménou, ak zruším službu { -brand-name-relay-premium }?
