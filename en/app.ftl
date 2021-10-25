@@ -373,7 +373,9 @@ banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action step
 banner-register-subdomain-headline-aliases = Get a custom domain for your aliases
-# This string is used as an example subdomain alias. It will be added into the following string, with only "yourdomain" translated. It needs to be ALL lowercase, with no space in between the words. Output: ***@yourdomain.mozmail.com
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
