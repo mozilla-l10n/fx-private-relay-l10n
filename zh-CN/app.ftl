@@ -141,12 +141,11 @@ landing-pricing-premium-feature-4 = 回复转发的电子邮件
 ## Use Cases
 
 landing-use-cases-shopping = 网购
-landing-use-cases-shopping-body =
-    网购和 { -brand-name-relay } 马甲邮箱更配哦~ 
-    我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
+landing-use-cases-shopping-body = 网购和 { -brand-name-relay } 马甲邮箱更配哦~ 我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
 landing-use-cases-social-networks = 社交网络
 landing-use-cases-social-networks-body = 想要在社交网络中保护好自己的在线身份？不希望真实邮箱与你在社交媒体上的存在相挂钩？使用 { -brand-name-relay } 马甲注册登录保护自己。
 landing-use-cases-offline = 线下场景
+landing-use-cases-offline-body = 更喜欢收到电子邮件收据，但也想避免营销垃圾邮件？在商店中获取无纸收据时，请使用 { -brand-name-relay } 马甲邮箱。我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
 landing-use-cases-gaming = 游戏
 
 ## Settings page
