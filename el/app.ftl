@@ -162,6 +162,11 @@ landing-use-cases-offline = Εκτός σύνδεσης
 landing-use-cases-access-content = Πρόσβαση σε περιεχόμενο
 landing-use-cases-gaming = Παιχνίδια
 
+## Landing FAQ Section
+
+landing-faq-headline = Συνήθεις ερωτήσεις για το { -brand-name-firefox-relay }
+landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσεις για το { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Ρυθμίσεις { -brand-name-relay }
@@ -205,6 +210,7 @@ faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτ
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-subdomain-characters-answer = Μόνο πεζά αγγλικά γράμματα, αριθμοί και παύλες (-).
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
@@ -307,12 +313,13 @@ banner-download-install-extension-cta = Προσθήκη του { -brand-name-re
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Επιλέξτε τον δικό σας τομέα
-banner-choose-subdomain-headline-aliases = Αποκτήστε τον δικό σας προσαρμοσμένο τομέα ψευδωνύμων
-banner-choose-subdomain-copy = Μπορείτε να επιλέξετε έναν προσαρμοσμένο τομέα για τα ψευδώνυμα email σας.
-banner-choose-subdomain-warning = Σημείωση: Δεν θα μπορείτε να αλλάξετε τον τομέα σας αργότερα
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = otomeassas
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
-banner-choose-subdomain-submit = Απόκτηση τομέα
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Αναζήτηση
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
