@@ -197,6 +197,7 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 转发�
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 用户，遇到这些问题，请<a href="{ $url }" { $attrs }>联系我们的支持团队</a>。
 faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
+faq-question-use-cases-answer = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们非常建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。但是，我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好与银行、医生、律师等分享您的真实邮箱地址。
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
 # Variables:
