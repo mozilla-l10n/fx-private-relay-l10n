@@ -123,12 +123,39 @@ landing-how-it-works-step-1-body = Buat surel alias secara otomatis di mana pun 
 landing-how-it-works-step-2-body =
     Saat Anda menjelajah, ikon { -brand-name-relay } akan muncuk ketika situs menanyakan alamat surel Anda.
     Pilih untuk membuat alamat acak baru berakhiran @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Masuk ke dasbor { -brand-name-relay } untuk memantau alias-alias yang telah Anda buat. { -brand-name-relay } akan meneruskan pesan-pesan ke alamat surel Anda. 
+    Jika sebuah alias mendapatkan spam atau pesan yang tidak diinginkan, Anda dapat memblokir semua pesan atau bahkan menghapus alias, langsung dari dasbor.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Waktu terbatas: Alias tidak terbatas seharga { $monthly_price } per bulan
+landing-pricing-body =
+    Coba alias { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda
+    Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
+landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Hingga 5 surel alias
+landing-pricing-free-feature-2 = Ekstensi Peramban
+landing-pricing-free-cta = Dapatkan { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/bulan
+landing-pricing-premium-feature-1 = Alias surel tak terbatas
+landing-pricing-premium-feature-2 = Ekstensi peramban
+landing-pricing-premium-feature-3 = Domain surel Anda sendiri
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Balas surel yang diteruskan
 
 ## Use Cases
 
+landing-use-cases-shopping = Belanja
+landing-use-cases-shopping-body =
+    Beli sesuatu dari toko online baru? Gunakan alias dari { -brand-name-relay } daripada alamat surel Anda ketika berbelanja
+    Kami akan meneruskan tanda terima ke alamat surel asli Anda, dan jika Anda mulai mendapatkan surel yang tidak diinginkan, cukup matikan penerusan surel.
+landing-use-cases-social-networks = Jejaring Sosial
 
 ## Settings page
 
