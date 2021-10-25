@@ -151,6 +151,9 @@ landing-use-cases-access-content-body = 想要订阅某个新闻通讯，但不�
 landing-use-cases-gaming = 游戏
 landing-use-cases-gaming-body = 热爱网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用 { -brand-name-relay } 马甲邮箱，多一层身份伪装，多一份安全。
 
+## Landing FAQ Section
+
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } 设置
@@ -219,6 +222,7 @@ faq-question-availability-answer = 绝大多数国家/地区都可以使用免�
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer = 所转发的邮件，{ -brand-name-relay-premium } 用户可在收到后三个月内进行回复。任何抄送或密送地址均不会包含在回复中。
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
+faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
 faq-question-browser-support-answer = 是的，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
@@ -334,12 +338,9 @@ banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -b
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义域名马甲与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
-banner-choose-subdomain-headline = 选择您的专属域名
-banner-choose-subdomain-headline-aliases = 获取您的自定义域名马甲
-banner-choose-subdomain-copy = 您可以使用自定义域名创建马甲。
-banner-choose-subdomain-warning = 注意：之后将无法再更改域名
 banner-choose-subdomain-input-placeholder = 搜索域名
-banner-choose-subdomain-submit = 注册域名
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = 搜索
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获得更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
