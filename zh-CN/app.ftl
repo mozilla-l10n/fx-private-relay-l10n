@@ -103,8 +103,8 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 landing-hero-headline = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰邮箱
 landing-hero-body =
-    { -brand-name-firefox-relay } 马甲邮箱可自动将电子邮件转发到您的真实邮箱，从而保护您的真实邮箱地址免遭泄露。
-    从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account } 注册即可开始使用。
+    { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
+    从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
 
 ## How it works section
 
@@ -275,6 +275,8 @@ profile-filter-category-option-disabled-aliases-v2 = 已屏蔽马甲
 profile-filter-category-option-relay-aliases-v2 = 随机马甲
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = 自定义马甲
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = 只转发重要邮件的马甲
 
 ## Banner Messages (displayed on the profile page)
 
@@ -307,6 +309,7 @@ banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium }
 banner-pack-upgrade-cta = 立即升级
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
+banner-label-data-notification-body = 您可允许 { -brand-name-relay } 收集在哪些网站创建使用过马甲邮箱，以帮助未来新功能开发（非必需）。到“设置”页面允许收集，让未来的收件箱管理更轻松。
 banner-label-data-notification-cta = 前往设置
 banner-label-data-notification-header-v2 = 启用新功能
 banner-label-data-notification-body-v2 = 您可以允许 { -brand-name-relay } 收集更多数据，以便我们将您在各网站上创建使用的马甲标签在设备间同步（非必需）。
