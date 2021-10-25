@@ -157,6 +157,14 @@ landing-hero-body =
 ## How it works section
 
 landing-how-it-works-headline = Ako to funguje
+landing-how-it-works-body = Používajte e-mailové aliasy služby { -brand-name-relay } namiesto svojej skutočnej e-mailovej adresy, aby ste ochránili svoju e-mailovú schránku, ako aj svoju identitu.
+landing-how-it-works-step-1-body-cta = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Automaticky generuje e-mailové aliasy vždy, keď zadáte svoju e-mailovú adresu online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Počas prehliadania sa ikona služby { -brand-name-relay } zobrazí tam, kde stránky požadujú zadanie e-mailovej adresy.
+    Kliknite na ňu, ak chcete vygenerovať novú, náhodnú adresu, ktorá končí na @relay.mozmail.com.
+landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -brand-name-relay } a sledujte aliasy, ktoré ste vytvorili. { -brand-name-relay } preposiela správy do vašej e-mailovej schránky. Ak zistíte, že jeden z nich prijíma nevyžiadanú poštu alebo nechcené správy, môžete zablokovať všetky správy alebo dokonca odstrániť alias priamo z hlavného panela.
 
 ## Pricing section
 
@@ -175,6 +183,9 @@ landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
 
 ## Use Cases
 
+landing-use-cases-shopping = Nakupovanie
+landing-use-cases-social-networks = Sociálne siete
+landing-use-cases-gaming = Hranie hier
 
 ## Settings page
 
@@ -207,6 +218,13 @@ faq-headline = Často kladené otázky
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-missing-emails-answer-reason-spam = Správy sa dostávajú do spamu
+faq-question-missing-emails-answer-reason-blocked = Váš poskytovateľ e-mailu blokuje váš alias
+faq-question-missing-emails-answer-reason-size = Preposlaný e-mail má prílohu väčšiu ako { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Stránka neprijíma aliasy
+faq-question-missing-emails-answer-reason-turned-off = Alias môže mať vypnuté preposielanie správ
+faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } môže preposielanie vašich správ trvať dlhšie ako zvyčajne
+faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -222,10 +240,21 @@ faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich aliasov, <a href="{ $url }" { $attrs }>nahláste nám to</a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
+faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
+faq-question-4-answer = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od jeho prijatia. Akékoľvek adresy uvedené v poliach Kópia alebo Skrytá kópia nebudú zahrnuté do vašich odpovedí.
 faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
+faq-question-browser-support-question = Môžem použiť { -brand-name-relay } v iných prehliadačoch alebo na svojom mobilnom zariadení?
+faq-question-browser-support-answer = Áno, aliasy služby { -brand-name-relay } môžete vygenerovať v iných prehliadačoch alebo mobilných zariadeniach jednoduchým prihlásením sa do hlavného panela služby { -brand-name-relay }.
+faq-question-longevity-question = Čo sa stane, ak { -brand-name-firefox-relay } vypne službu { -brand-name-firefox-relay }?
+faq-question-longevity-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
+faq-question-mozmail-question = Prečo moje aliasy začali používať doménu “mozmail.com?”
+faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e-maily s prílohami?
+faq-question-attachments-answer = Áno, služba { -brand-name-firefox-relay } podporuje preposielanie e-mailov s prílohami do veľkosti { email-size-limit }. Ak má e-mail prílohu väčšiu ako { email-size-limit }, nebude preposlaný.
+faq-question-unsubscribe-domain-question = Čo sa stane s mojou vlastnou doménou, ak zruším službu { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Ak prejdete na nižšiu verziu z { -brand-name-relay-premium }, budete stále dostávať e-maily preposielané cez vašu vlastnú doménu, ale už nebudete môcť vytvárať nové aliasy pomocou tejto domény. Ak máte celkovo viac ako päť aliasov, nebudete môcť vytvoriť ďalšie. Stratíte tiež možnosť odpovedať na preposlané správy. Ak znova prejdete na { -brand-name-relay-premium }, opätovne získate prístup k týmto funkciám.
 faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
