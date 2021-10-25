@@ -123,6 +123,7 @@ landing-how-it-works-step-3-body = 登录 { -brand-name-relay } 即可总览您�
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限量马甲
+landing-pricing-body = 使用 { -brand-name-firefox-relay } 马甲邮箱就可保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则能获得更多灵活性和控制选项。
 landing-pricing-free-price = 免费
 landing-pricing-free-feature-1 = 最多 5 个马甲邮箱
 landing-pricing-free-feature-2 = 浏览器扩展
