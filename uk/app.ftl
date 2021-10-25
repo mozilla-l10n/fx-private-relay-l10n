@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Полюбляєте онлайн-ігри, але турбуєтесь про те, що інші гравці чи цькувальники дізнаються, хто ви, за допомогою вашого імені гравця та адреси електронної пошти?
     Використовуйте псевдоадресу { -brand-name-relay }, щоб створити ще один рівень захисту між вашою інтернет-особистістю та іграми, в які ви граєте онлайн.
 
+## Landing FAQ Section
+
+landing-faq-headline = Найпопулярніші запитання про { -brand-name-firefox-relay }
+landing-faq-cta = Перегляньте інші поширені запитання про { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Налаштування { -brand-name-relay }
@@ -246,6 +251,7 @@ faq-question-availability-question = Де доступний { -brand-name-relay
 faq-question-availability-answer = Безплатний { -brand-name-relay } доступний у більшості країн. { -brand-name-relay-premium } доступний у США, Німеччині, Великобританії, Канаді, Сінгапурі, Малайзії, Новій Зеландії, Франції, Бельгії, Австрії, Іспанії, Італії, Швейцарії, Нідерландах та Ірландії.
 faq-question-4-question = Чи можу я відповідати на повідомлення за допомогою своєї псевдоадреси { -brand-name-relay }?
 faq-question-4-answer = Користувачі { -brand-name-relay-premium } можуть відповісти на переслане повідомлення електронної пошти протягом 3 місяців з моменту його отримання. Будь-які адреси копій або прихованих копій не будуть включені у ваші відповіді.
+faq-question-4-answer-v2 = Користувачі { -brand-name-relay-premium } можуть відповісти на пересланий електронний лист протягом 3 місяців з моменту отримання листа. Якщо ви додаєте копію або приховану копію під час відповіді на електронний лист, ваша початкова адреса електронної пошти буде доступна для одержувачів. Якщо ви не хочете, щоб ваша початкова адреса електронної пошти розкривалася, не додавайте копії чи приховані копії під час відповіді.
 faq-question-4-answer-html =
     { -brand-name-relay } поки не пропонує можливості відповідати за допомогою псевдоадреси. 
     Якщо ви спробуєте, нічого не вийде. Ми плануємо додаткову можливість, яка дозволить вам <a href="{ $url }" { $attrs }>анонімно відповідати відправникам</a>.
@@ -364,12 +370,7 @@ banner-download-install-extension-cta = Додати { -brand-name-relay } до 
 banner-upgrade-headline = Оновити до { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } спрощує створення псевдоадрес е-пошти за допомогою власних доменів псевдоадрес і необмеженої кількості псевдоадрес.
 banner-upgrade-cta = Оновити до { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Виберіть власний домен
-banner-choose-subdomain-headline-aliases = Отримайте власний домен псевдоадреси
-banner-choose-subdomain-copy = Ви можете вибрати власний домен для своїх псевдоадрес е-пошти.
-banner-choose-subdomain-warning = Примітка: Ви не можете змінити свій домен пізніше
 banner-choose-subdomain-input-placeholder = Пошук домену
-banner-choose-subdomain-submit = Отримати домен
 banner-pack-upgrade-headline-html = Оновіться до <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, щоб отримати більше псевдоадрес
 banner-pack-upgrade-copy = Завдяки необмеженій кількості псевдоадрес е-пошти та вашому власному домену електронної пошти, { -brand-name-firefox } { -brand-name-relay-premium } допомагає вам захистити себе в інтернеті.
 banner-pack-upgrade-cta = Оновити зараз
