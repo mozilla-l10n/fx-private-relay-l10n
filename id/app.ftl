@@ -90,6 +90,15 @@ how-it-works-step-1-copy =
     Pilih ikon yang muncul pada bilah alat { -brand-name-firefox } Anda untuk mengakses laman masuk.
     Masuk dengan { -brand-name-firefox-account } untuk mulai.
 how-it-works-step-2-headline = Buat alias baru
+how-it-works-step-2-copy =
+    Saat Anda menjelajah, ikon { -brand-name-relay } akan muncul di situs yang meminta alamat surel Anda.
+    Pilih untuk membuat alamat acak baru yang berakhiran @relay.firefox.com.
+    { -brand-name-relay } akan meneruskan pesan ke alamat surel utama yang diasosiasikan dengan akun Anda.
+how-it-works-step-3-headline = Kelola alias Anda
+how-it-works-step-3-copy =
+    Masuk ke dasbor { -brand-name-relay } untuk memantau alias-alias yang telah Anda buat.
+    Jika Anda menemukan alamat yang menerima spam atau pesan yang tidak diinginkan, Anda dapat memblokir semua pesan atau bahkan menghapus alias tersebut, langsung dari dasbor.
+hero-image-copy-trust = Bisakah Anda memercayai perusahaan ini dengan surel pribadi Anda?
 
 ## Home Page Version A
 
