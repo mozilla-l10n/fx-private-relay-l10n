@@ -374,19 +374,24 @@ banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-na
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makes creating email aliases even easier, with custom alias domains and unlimited aliases.
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action step
-banner-choose-subdomain-headline = Choose your own domain
-banner-choose-subdomain-headline-aliases = Get your own custom alias domain
-banner-choose-subdomain-headline-aliases-v2 = Get a custom domain for your aliases
+banner-register-subdomain-headline-aliases = Get a custom domain for your aliases
 # This string is used as an example subdomain alias. It will be added into the following string, with only "yourdomain" translated. It needs to be ALL lowercase, with no space in between the words. Output: ***@yourdomain.mozmail.com
-banner-choose-subdomain-example-address = yourdomain
-banner-choose-subdomain-copy = You can choose a custom domain for your email aliases.
-# Do not translate "mozmail.com" for the example email address. When translating "restaurant", it should be lower-case and no spaces, to resemble a valid email address: restaurant@yourdomain.mozmail.com
-banner-choose-subdomain-copy-v2 = With a custom domain, you can share aliases that don’t need to be generated before you use them. Need one for a reservation? Give “restaurant@{ banner-choose-subdomain-example-address }.mozmail.com” to the restaurant. Any alias using your custom domain will be forwarded to you.
-banner-choose-subdomain-warning = Note: You cannot change your domain later
+banner-register-subdomain-example-address = yourdomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    With a custom domain, you can share aliases that don’t need to be generated
+    before you use them. Need one for a reservation? Give
+    “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any alias using your
+    custom domain will be forwarded to you.
 banner-choose-subdomain-input-placeholder = Search domain
-banner-choose-subdomain-submit = Get Domain
-banner-choose-subdomain-search = Search
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Search
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
