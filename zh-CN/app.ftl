@@ -148,6 +148,7 @@ landing-use-cases-offline = 线下场景
 landing-use-cases-offline-body = 更喜欢收到电子邮件收据，亦想避免营销垃圾邮件？在商店中获取无纸收据时，请使用 { -brand-name-relay } 马甲邮箱。我们会将收据转发至您的真实邮箱地址，若开始收到不喜欢的邮件，关闭邮件转发即可。
 landing-use-cases-access-content = 网络读物
 landing-use-cases-gaming = 游戏
+landing-use-cases-gaming-body = 热爱网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用 { -brand-name-relay } 马甲邮箱，多一层身份伪装，多一份安全。
 
 ## Settings page
 
@@ -180,12 +181,16 @@ faq-headline = 常见问题
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } 马甲邮箱是什么？
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
+faq-question-missing-emails-answer-a = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
 faq-question-missing-emails-answer-reason-blocked = 邮件服务商屏蔽了您的马甲邮箱
 faq-question-missing-emails-answer-reason-size = 转发的电子邮件（含附件）大于 { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = 该网站不允许使用马甲邮箱
 faq-question-missing-emails-answer-reason-turned-off = 马甲邮箱的转发功能可能已被关闭
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 转发消息可能需要比平时更长的时间
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 用户，遇到这些问题，请<a href="{ $url }" { $attrs }>联系我们的支持团队</a>。
 faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
@@ -205,6 +210,7 @@ faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮�
 faq-question-4-answer = 所转发的邮件，{ -brand-name-relay-premium } 用户可在收到后三个月内进行回复。任何抄送或密送地址均不会包含在回复中。
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
+faq-question-browser-support-answer = 是的，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 faq-question-longevity-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
 faq-question-mozmail-question = 为何我的马甲邮箱域名变成“mozmail.com”了？
