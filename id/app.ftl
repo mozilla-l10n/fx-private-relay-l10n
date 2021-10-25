@@ -99,15 +99,30 @@ how-it-works-step-3-copy =
     Masuk ke dasbor { -brand-name-relay } untuk memantau alias-alias yang telah Anda buat.
     Jika Anda menemukan alamat yang menerima spam atau pesan yang tidak diinginkan, Anda dapat memblokir semua pesan atau bahkan menghapus alias tersebut, langsung dari dasbor.
 hero-image-copy-trust = Bisakah Anda memercayai perusahaan ini dengan surel pribadi Anda?
+hero-image-copy-unique-html = <strong>Gunakan alamat relai unik</strong> untuk setiap akun baru …
+hero-image-copy-protect-html = … sehingga Anda dapat <strong>melindungi surel asli Anda</strong> dari pelacakan dan spam.
+hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa yang masuk ke kotak masuk!
 
 ## Home Page Version A
 
 
 ## Hero Section
 
+landing-hero-headline = Lindungi alamat surel asli Anda untuk mengendalikan kotak masuk
+landing-hero-body =
+    Surel alias { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan surel ke kotak masuk Anda yang sebenarnya. 
+    Sekarang Anda dapat hanya menerima surel yang Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk memulai.
 
 ## How it works section
 
+landing-how-it-works-headline = Cara kerja
+landing-how-it-works-body = Bagikan surel alias { -brand-name-relay } alih-alih alamat surel asli Anda untuk melindungi kotak masuk, serta identitas Anda.
+landing-how-it-works-step-1-body-cta = Unduh ekstensi { -brand-name-relay } untuk { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Buat surel alias secara otomatis di mana pun Anda memasukkan alamat surel secara daring.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Saat Anda menjelajah, ikon { -brand-name-relay } akan muncuk ketika situs menanyakan alamat surel Anda.
+    Pilih untuk membuat alamat acak baru berakhiran @relay.mozmail.com.
 
 ## Pricing section
 
