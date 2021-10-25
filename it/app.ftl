@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo <em>gamertag</em> e il tuo indirizzo email?
     Utilizza un alias { -brand-name-relay } per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Domande principali su { -brand-name-firefox-relay }
+landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Impostazioni di { -brand-name-relay }
@@ -364,12 +369,7 @@ banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -bran
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
 banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Scegli il tuo dominio personalizzato
-banner-choose-subdomain-headline-aliases = Ottieni il tuo dominio alias personalizzato
-banner-choose-subdomain-copy = Puoi scegliere un dominio personalizzato per i tuoi alias di posta elettronica.
-banner-choose-subdomain-warning = Nota: non sarà possibile modificare il dominio in un secondo tempo
 banner-choose-subdomain-input-placeholder = Cerca dominio
-banner-choose-subdomain-submit = Ottieni dominio
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personalizzato, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
