@@ -164,6 +164,8 @@ landing-use-cases-offline-body =
     Lebih senang mendapatkan pesan tanda terima, namun ingin menghindari spam pemasaran juga?
     Gunakan alias dari { -brand-name-relay } daripada memakai surel Anda ketika mendapatkan tanda terima dari toko.
     Kami akan meneruskan tanda terima ke alamat surel Anda, atau jika Anda mulai mendapatkan surel yang tidak inginkan, cukup matikan penerusan surel.
+landing-use-cases-access-content = Akses Konten
+landing-use-cases-gaming = Ranah Gim
 
 ## Settings page
 
