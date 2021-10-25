@@ -144,7 +144,7 @@ landing-pricing-free-cta = Ottieni { -brand-name-relay }
 landing-pricing-premium-price = { $monthly_price } al mese
 landing-pricing-premium-feature-1 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-2 = Estensione per browser
-landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personale
+landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personalizzato
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = tuaemail@tuodominio.mozmail.com
 landing-pricing-premium-feature-4 = Rispondi ai messaggi inoltrati
@@ -258,7 +258,7 @@ faq-question-mozmail-answer = Abbiamo effettuato il passaggio da “relay.firefo
 faq-question-attachments-question = Con { -brand-name-firefox-relay } si possono inoltrare email con allegati?
 faq-question-attachments-answer = Sì, { -brand-name-firefox-relay } supporta l’inoltro di email con allegati con una dimensione massima di { email-size-limit }. Se un’email include un allegato più grande di { email-size-limit }, non verrà inoltrata.
 faq-question-unsubscribe-domain-question = Che cosa succede al mio dominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite il tuo dominio personale, ma non potrai più creare nuovi alias utilizzando quel dominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
+faq-question-unsubscribe-domain-answer = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite il tuo dominio personalizzato, ma non potrai più creare nuovi alias utilizzando quel dominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
 faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -289,7 +289,7 @@ profile-label-welcome-html = <span>Ciao,</span> { $email }.
 profile-headline-manage-domain = Gestisci gli alias per il tuo dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }.
 profile-promo-upgrade-headline = Aggiorna alla versione premium per avere ancora più funzionalità.
-profile-promo-upgrade-copy = Aggiorna { -brand-name-relay } alla versione premium per ottenere indirizzi di posta elettronica illimitati e il tuo dominio email personale.
+profile-promo-upgrade-copy = Aggiorna { -brand-name-relay } alla versione premium per ottenere indirizzi di posta elettronica illimitati e il tuo dominio email personalizzato.
 profile-promo-upgrade-cta = Aggiorna { -brand-name-relay }
 profile-label-edit = Modifica l’etichetta di questo alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -371,7 +371,7 @@ banner-choose-subdomain-warning = Nota: non sarà possibile modificare il domini
 banner-choose-subdomain-input-placeholder = Cerca dominio
 banner-choose-subdomain-submit = Ottieni dominio
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
-banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personale, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
+banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personalizzato, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
 # Data Notification Banner:
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
