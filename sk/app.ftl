@@ -170,7 +170,7 @@ landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-headline = Len časovo obmedzené: neobmedzené aliasy za { $monthly_price } mesačne
+landing-pricing-headline = Časovo obmedzené: neobmedzené aliasy za { $monthly_price } mesačne
 landing-pricing-body =
     Vyskúšajte aliasy služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
     Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
@@ -180,18 +180,28 @@ landing-pricing-free-feature-2 = Rozšírenie do prehliadača
 landing-pricing-free-cta = Získajte { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-premium-price = { $monthly_price }/mesiac
+landing-pricing-premium-price = { $monthly_price }/mesačne
 landing-pricing-premium-feature-1 = Neobmedzený počet e-mailových aliasov
 landing-pricing-premium-feature-2 = Rozšírenie do prehliadača
 landing-pricing-premium-feature-3 = Vaša vlastná e-mailová doména
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
+landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
 
 ## Use Cases
 
 landing-use-cases-shopping = Nakupovanie
+landing-use-cases-shopping-body =
+    Kupujete niečo v novom internetovom obchode? Pri nákupe online použite namiesto svojho e-mailu alias služby { -brand-name-relay }.
+    Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnete preposielanie e-mailov.
 landing-use-cases-social-networks = Sociálne siete
+landing-use-cases-social-networks-body =
+    Chcete lepšie chrániť svoju online identitu pri používaní sociálnej siete?
+    Snažíte sa, aby váš skutočný e-mail nebol spojený s vašou prítomnosťou na sociálnych médiách? Na prihlásenie a ochranu online použite alias služby { -brand-name-relay }.
 landing-use-cases-gaming = Hranie hier
+landing-use-cases-gaming-body =
+    Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
+    Použite alias služby { -brand-name-relay } na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
 
 ## Settings page
 
@@ -213,6 +223,7 @@ setting-label-collection-heading-v2 = Súkromie
 setting-label-collection-description = Povoliť službe { -brand-name-relay } zhromažďovať údaje o stránkach, na ktorých sú vaše aliasy vytvárané a používané.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Tieto údaje nám v budúcom vydaní umožnia označiť vaše aliasy príslušnými webovými stránkami. Ak sa rozhodnete túto predvoľbu deaktivovať, vaše aliasy nebudú označené webovými stránkami, kde sa používajú.
+setting-label-collection-off-warning-v2 = Tieto údaje nám umožnia označiť vaše aliasy webovými stránkami, na ktorých sa používajú. Ak sa rozhodnete zrušiť túto predvoľbu, vaše aliasy nebudú označené webovými stránkami, na ktorých sa používajú.
 settings-button-save-label = Uložiť
 settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 
@@ -238,6 +249,7 @@ faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -brand-name-relay-premium }, ktorý zápasí s niektorým z týchto problémov, <a href="{ $url }" { $attrs }>kontaktujte náš tím podpory</a>.
 faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
+faq-question-use-cases-answer = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť určovať, či budete v budúcnosti dostávať e-maily alebo nie. Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily. Svoju skutočnú e-mailovú adresu by ste napríklad chceli zdieľať so svojou bankou, lekárom, právnikom, atď.
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -247,6 +259,12 @@ faq-question-2-answer-html =
     Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
     Keďže { -brand-name-firefox-relay } získava na popularite a vydáva viac aliasov, môže byť naša služba zaradená do zoznamu blokovaných.
     Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám prosím vedieť</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (t. j. časť “relay” v adrese @relay.firefox.com) a iné prestali prijímať všetky adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
+    Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám vedieť</a>.
 faq-question-1-question = A čo spam?
 faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú poštu, náš e-mailový partner Amazon SES blokuje spam a škodlivý softvér. Ak { -brand-name-relay } preposiela správy, ktoré nechcete, môžete aktualizovať svoje nastavenia tejto služby a zablokovať aliasy, ktoré ich preposielajú.
 # Variables:
