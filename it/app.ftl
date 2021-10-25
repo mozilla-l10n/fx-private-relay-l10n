@@ -377,6 +377,12 @@ banner-register-subdomain-headline-aliases = Ottieni un dominio personalizzato p
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tuodominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy = Con un dominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@tuodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo il dominio personalizzato ti verrà inoltrato automaticamente.
 banner-choose-subdomain-input-placeholder = Cerca dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cerca
