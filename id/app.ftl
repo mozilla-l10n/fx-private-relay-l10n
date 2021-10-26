@@ -183,9 +183,12 @@ faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
 faq-question-missing-emails-answer-reason-blocked = Penyedia surel Anda memblokir alias Anda
 faq-question-missing-emails-answer-reason-not-accepted = Situs tidak menerima alias
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
+faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 
 ## Profile Page (Logged In)
 
+profile-label-forwarded = Diteruskan
+profile-label-cancel = Batal
 
 ## Banner Messages (displayed on the profile page)
 
