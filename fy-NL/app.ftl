@@ -100,19 +100,42 @@ how-it-works-step-3-copy =
     As jo merke dat jo spam of net-winske berjochten ûntfange, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
 hero-image-copy-trust = Kinne jo dit bedriuw sels fertrouwe mei jo persoanlike e-mailadres?
 hero-image-copy-unique-html = <strong>Brûk in unyk trochstjoeradres</strong> foar elk nije account…
+hero-image-copy-protect-html = … sadat jo <strong>jo echte e-mailadres</strong> beskermje kinne tsjin folgjen en spam.
+hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn jo Postfek YN te lâne komt!
 
 ## Home Page Version A
 
 
 ## Hero Section
 
+landing-hero-headline = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
+landing-hero-body =
+    { -brand-name-firefox-relay }-e-mailaliassen beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
+    No kinne jo allinnich de e-mailberjochten dy't jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
 
 ## How it works section
 
 landing-how-it-works-headline = Hoe't it wurket
+landing-how-it-works-body = Diel { -brand-name-relay }-e-mailaliassen yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
+landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Generearje automatysk e-mailaliassen wêr't jo jo e-mailadres online ynfiere.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Wylst jo sneupe, ferskynt it { -brand-name-relay }-piktogram wêr websites om jo e-mailadres freegje.
+    Selektearje it om in nij, eigenwillich adres te generearjen dat einiget op @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy't jo oanmakke hawwe te folgjen.  { -brand-name-relay } stjoert berjochten troch nei jo e-mailadres.
+    
+    As in alias spam of net-winske berjochten ûntfangt, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Tydlik oanbod: ûnbeheinde aliassen foar { $monthly_price } yn 'e moanne
+landing-pricing-body =
+    Probearje { -brand-name-firefox-relay }-aliassen en begjin mei it beskermjen fan jo Postfek YN.
+    Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
 landing-pricing-free-price = Fergees
 landing-pricing-free-feature-1 = Maksimaal 5 e-mailaliassen
 landing-pricing-free-feature-2 = Browserútwreiding
@@ -130,6 +153,9 @@ landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 ## Use Cases
 
 landing-use-cases-shopping = Winkelje
+landing-use-cases-shopping-body =
+    Wat keapje yn in nije webshop? Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear't jo in online oankeap dogge.
+    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-social-networks = Sosjale netwurken
 landing-use-cases-offline = Offline
 landing-use-cases-access-content = Tagong ta ynhâld
