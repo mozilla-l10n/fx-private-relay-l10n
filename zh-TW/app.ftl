@@ -138,6 +138,8 @@ landing-use-cases-gaming = 遊戲
 
 ## Landing FAQ Section
 
+landing-faq-headline = { -brand-name-firefox-relay } 的熱門問題
+landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 
 ## Settings page
 
@@ -170,6 +172,7 @@ faq-headline = 常見問題
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = { -brand-name-relay } 別名是什麼？
 faq-question-missing-emails-answer-reason-spam = 訊息掉進垃圾信件匣
 faq-question-missing-emails-answer-reason-blocked = 您的電子郵件業者封鎖您的別名
 faq-question-missing-emails-answer-reason-size = 轉寄的郵件附件超過 { email-size-limit }
@@ -181,6 +184,10 @@ faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } �
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中包含的「relay.」部分） 信箱註冊；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。隨著 { -brand-name-firefox-relay } 的知名度增加，並且建立更多別名信箱，我們的服務也有可能被放到封鎖清單中。若您無法使用 { -brand-name-relay } 別名，<a href="{ $url }" { $attrs }>請讓我們知道</a>。
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中的「relay.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。若您無法使用 { -brand-name-relay } 別名， <a href="{ $url }" { $attrs }>請讓我們知道</a>。
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
@@ -294,6 +301,8 @@ banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -b
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 讓建立別名信箱變得更簡單，還有自訂別名網域與無限量別名功能。
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = 動作步驟
 banner-register-subdomain-headline-aliases = 使用您想要的網域名稱建立別名
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
