@@ -131,7 +131,7 @@ landing-how-it-works-step-3-body =
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-headline = Am amser cyfyngedig: Arallenwau diderfyn am { $monthly_price } y mis
+landing-pricing-headline = Am amser cyfyngedig: Arallenwau dirifedi am { $monthly_price } y mis
 landing-pricing-body =
     Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
     Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanylach.
@@ -142,7 +142,7 @@ landing-pricing-free-cta = Cael { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mis
-landing-pricing-premium-feature-1 = Arallenwau e-bost diderfyn
+landing-pricing-premium-feature-1 = Arallenwau e-bost dirifedi
 landing-pricing-premium-feature-2 = Estyniad porwr
 landing-pricing-premium-feature-3 = Eich parth e-bost eich hun
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
@@ -173,6 +173,9 @@ landing-use-cases-gaming = Chwarae Gemau
 landing-use-cases-gaming-body =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch arallenw { -brand-name-relay } i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
+
+## Landing FAQ Section
+
 
 ## Settings page
 
@@ -289,7 +292,7 @@ profile-label-welcome-html = <span>Croeso,</span> { $email }
 profile-headline-manage-domain = Rheoli eich arallenwau parth
 profile-supports-email-forwarding = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint
 profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
-profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost diderfyn a'ch parth e-bost eich hun.
+profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost dirifedi a'ch parth e-bost eich hun.
 profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
 profile-label-edit = Golygu label yr arallenw hwn
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -299,7 +302,7 @@ profile-label-saved = Label wedi’i gadw!
 profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
 profile-label-delete = Dileu
 profile-label-delete-alias = Dileu'r arallenw hwn
-profile-label-upgrade = Cael arallenwau diderfyn
+profile-label-upgrade = Cael arallenwau dirifedi
 profile-label-create-domain = Cael eich parth e-bost
 profile-label-domain = Parth E-bost:
 profile-label-domain-tooltip = Creu eich parth e-bost unigryw a chyfaddas.
@@ -362,16 +365,11 @@ banner-download-install-extension-headline = Cael yr estyniad { -brand-name-rela
 banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
 banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
-banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau diderfyn.
+banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau dirifedi.
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Dewiswch eich parth eich hun
-banner-choose-subdomain-headline-aliases = Cael eich parth arallenw cyfaddas eich hun
-banner-choose-subdomain-copy = Gallwch ddewis parth cyfaddas ar gyfer arallenwau eich e-bost.
-banner-choose-subdomain-warning = Nodyn: Nid oes modd i chi newid eich parth yn ddiweddarach
 banner-choose-subdomain-input-placeholder = Parth chwilio
-banner-choose-subdomain-submit = Cael Parth
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
-banner-pack-upgrade-copy = Gydag arallenwau e-bost diderfyn a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
+banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Data Notification Banner:
 banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
@@ -422,7 +420,7 @@ onboarding-premium-headline = Croeso i { -brand-name-firefox }{ -brand-name-rela
 onboarding-premium-subheadline-html = Nawr gallwch chi <strong>reoli</strong> beth sy'n cyrraedd eich blwch derbyn, un e-bost ar y tro.
 onboarding-premium-feature-intro = Gyda { -brand-name-firefox }{ -brand-name-relay-premium } gallwch:
 onboarding-premium-control-title = Rheoli pa e-byst rydych yn eu derbyn
-onboarding-premium-control-description = Rhannu arallenwau e-bost diderfyn sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
+onboarding-premium-control-description = Rhannu arallenwau e-bost dirifedi sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
 onboarding-premium-domain-title = Defnyddio parth cyfaddas ar gyfer rhannu arallenwau
 onboarding-premium-domain-description = Gyda pharth cyfaddas, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
