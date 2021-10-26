@@ -166,6 +166,9 @@ landing-use-cases-offline-body =
     Kami akan meneruskan tanda terima ke alamat surel Anda, atau jika Anda mulai mendapatkan surel yang tidak inginkan, cukup matikan penerusan surel.
 landing-use-cases-access-content = Akses Konten
 landing-use-cases-gaming = Ranah Gim
+landing-use-cases-gaming-body =
+    Suka permainan daring namun khawatir terhadap pemain atau perisak lain yang mengetahui siapa Anda melalui tag pemain dan alamat surel Anda?
+    Gunakan alias { -brand-name-relay } untuk proteksi lapisan tambahan antara identitas daring dan permainan yang Anda mainkan secara daring.
 
 ## Landing FAQ Section
 
@@ -204,6 +207,7 @@ faq-headline = Pertanyaan yang Sering Diajukan (FAQ)
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Apa itu alias { -brand-name-relay }?
+faq-question-what-is-answer = Alias surel adalah alamat surel bertopeng yang meneruskan pesan ke alamat surel Anda yang sebenarnya. Alias ini memungkinkan Anda untuk berbagi alamat dengan pihak ketiga yang akan menutupi alamat surel Anda yang sebenarnya dan meneruskan pesan ke sana.
 faq-question-missing-emails-question = Saya tidak menerima pesan dari alias saya
 faq-question-missing-emails-answer-a = Ada beberapa alasan mengapa Anda mungkin tidak menerima surel yang diteruskan melalui alias Anda. Berikut beberapa alasannya:
 faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
@@ -211,6 +215,11 @@ faq-question-missing-emails-answer-reason-blocked = Penyedia surel Anda membloki
 faq-question-missing-emails-answer-reason-size = Surel yang diteruskan memiliki lampiran berukuran lebih dari { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Situs tidak menerima alias
 faq-question-missing-emails-answer-reason-turned-off = Alias mungkin telah menonaktifkan penerusan
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } mungkin membutuhkan waktu lebih lama dari biasanya untuk meneruskan pesan Anda
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Jika Anda pengguna { -brand-name-relay-premium } yang mengalami masalah ini, harap <a href="{ $url }" { $attrs }>hubungi tim dukungan kami</a>.
+faq-question-use-cases-question = Kapan saya harus menggunakan alias { -brand-name-relay }?
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 
