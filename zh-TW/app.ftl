@@ -206,9 +206,11 @@ faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，�
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
+faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
 faq-question-4-answer = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。任何副本或密件副本收件者，都不會包含在回覆當中。
+faq-question-4-answer-v2 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時回覆郵件，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入副本或密件副本收件者。
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
 faq-question-subdomain-characters-answer = 目前只接受小寫拉丁字母、數字、連字號（-）。
@@ -333,6 +335,12 @@ banner-register-subdomain-headline-aliases = 使用您想要的網域名稱建�
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy = 使用自訂網域功能，不需要先產生別名就可以直接轉寄郵件。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您的自訂別名的信件都會直接轉寄給您。
 banner-choose-subdomain-input-placeholder = 搜尋網域
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜尋
