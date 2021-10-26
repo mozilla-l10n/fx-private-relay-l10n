@@ -157,9 +157,23 @@ landing-use-cases-shopping-body =
     Wat keapje yn in nije webshop? Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear't jo in online oankeap dogge.
     Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-social-networks = Sosjale netwurken
+landing-use-cases-social-networks-body =
+    Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk?
+    Probearje jo foar te kommen dat jo echte e-mailadres keppele wurdt oan jo oanwêzichheid op sosjale media? Brûk in { -brand-name-relay }-alias om oan te melden en help josels online te beskermjen.
 landing-use-cases-offline = Offline
+landing-use-cases-offline-body =
+    Untfange jo leaver e-mailbefêstigingen, mar wolle jo ek marketingspam mije?
+    Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear't jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
+    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfange, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-access-content = Tagong ta ynhâld
+landing-use-cases-access-content-body =
+    Wolle jo jo oanmelde foar dy nijsbrief, mar fertrouwe jo de ôfstjoerder net?
+    Brûk in alias yn stee fan jo echte adres – as jo net-winske e-mailberjochten fia dy alias krije, hat de ôfstjoerder jo alias mooglik oan oaren ferkocht of is it mooglik sels lekt by in datalek.
+    Skeakelje de alias gewoanwei út of smyt it fuort om jo Postfek YN te beskermjen.
 landing-use-cases-gaming = Gaming
+landing-use-cases-gaming-body =
+    Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
+    Brûk in { -brand-name-relay }-alias om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy't jo online spylje.
 
 ## Landing FAQ Section
 
@@ -174,6 +188,11 @@ settings-meta-contact-tooltip = Kontakt opnimme oer { -brand-name-relay }
 settings-meta-help-label = Help en stipe
 settings-meta-help-tooltip = Help krije mei { -brand-name-relay }
 settings-meta-status-label = Servicesteat
+settings-meta-status-tooltip = Besjen oft alle { -brand-name-relay }-systemen op dit stuit operasjoneel binne.
+settings-error-save-heading = Wiziging ynstellingen mislearre
+settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fanwegen in ferbiningsflater. Probearje it opnij.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Labelfunksje foar e-mailaliassen is útskeakele
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 settings-button-save-label = Bewarje
