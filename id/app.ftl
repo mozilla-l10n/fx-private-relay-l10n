@@ -170,13 +170,25 @@ landing-use-cases-gaming = Ranah Gim
 ## Landing FAQ Section
 
 landing-faq-headline = Pertanyaan teratas seputar { -brand-name-firefox-relay }
+landing-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
 
 ## Settings page
 
+settings-headline = Pengaturan { -brand-name-relay }
 settings-meta-contact-label = Hubungi kami
+settings-meta-contact-tooltip = Tanyakan hal seputar { -brand-name-relay }
 settings-meta-help-label = Bantuan dan dukungan
+settings-meta-help-tooltip = Dapatkan bantuan menggunakan { -brand-name-relay }
+settings-meta-status-label = Status Layanan
+settings-error-save-heading = Perubahan pengaturan gagal
+settings-error-save-description = Perubahan pengaturan Anda tidak tersimpan dikarenakan koneksi bermasalah. Silakan coba lagi.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Fungsi label alias surel dinonaktifkan
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Saat ini { -brand-name-relay } tidak diizinkan untuk mengumpulkan data yang menunjukkan situs di mana Anda membuat alias surel. Anda dapat mengubahnya di “Pengaturan” dalam “Pengumpulan Data.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privasi
+setting-label-collection-description = Izinkan { -brand-name-relay } mengumpulkan data yang menunjukkan situs tempat alias Anda dibuat dan digunakan.
 
 ## FAQ Page
 
