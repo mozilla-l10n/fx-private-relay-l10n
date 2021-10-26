@@ -250,6 +250,18 @@ faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blo
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo aliassen, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
+faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
+faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
+faq-question-4-answer = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. Adressen yn de fjilden Cc of Bcc wurde net opnommen yn jo antwurden.
+faq-question-4-answer-v2 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear't jo in e-mailberjocht beäntwurdzje, wurdt jo oasrspronklike e-mailadres sichtber foar de ûntfangers en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+faq-question-4-answer-html =
+    { -brand-name-relay } biedt noch net de mooglikheid om te antwurdzjen mei in alias.
+    As jo dit probearje, bart der neat. Wy hawwe plannen foar in ekstra funksje wêrmei't jo <a href="{ $url }" { $attrs }>anonym reagearje kinne op ôfstjoerders</a>.
+faq-question-subdomain-characters-question = Hokker tekens kin ik brûke om in subdomein oan te meitsjen?
+faq-question-subdomain-characters-answer = Allinnich lytse letters fan it Ingelske alfabet, sifers en streekjes (-).
+faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
+faq-question-browser-support-answer = Ja, jo kinne { -brand-name-relay }-aliassen generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
+faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
 
 ## Profile Page (Logged In)
 
