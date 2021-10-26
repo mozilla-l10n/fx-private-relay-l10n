@@ -97,7 +97,7 @@ how-it-works-step-2-copy =
 how-it-works-step-3-headline = Uw aliassen beheren
 how-it-works-step-3-copy =
     Meld u aan bij het { -brand-name-relay }-dashboard om de aliassen die u hebt aangemaakt te volgen.
-    Als u merkt dat er een spam of ongewenste berichten ontvangt, kunt u alle berichten blokkeren of zelfs de alias verwijderen, rechtstreeks vanuit het dashboard.
+    Als u merkt dat u spam of ongewenste berichten ontvangt, kunt u alle berichten blokkeren of zelfs de alias verwijderen, rechtstreeks vanuit het dashboard.
 hero-image-copy-trust = Kunt u dit bedrijf zelfs vertrouwen met uw persoonlijke e-mailadres?
 hero-image-copy-unique-html = <strong>Gebruik een uniek doorstuuradres</strong> voor elke nieuwe account…
 hero-image-copy-protect-html = … zodat u <strong>uw echte e-mailadres</strong> kunt beschermen tegen volgen en spam.
