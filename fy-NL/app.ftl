@@ -334,7 +334,11 @@ profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
 profile-label-cancel = Annulearje
+profile-blocked-copy = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear't jo blokkearje foar dit alias selektearje.
+profile-forwarded-copy = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear't jo trochstjoere foar dit alias selektearje.
 profile-forwarded-note = Opmerking:
+profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
+profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
 profile-stat-label-blocked = E-mailberjochten blokkearre
 profile-stat-label-forwarded = E-mailberjochten trochstjoerd
 profile-stat-label-aliases-used = Brûkte e-mailaliassen
@@ -353,6 +357,14 @@ profile-filter-category-option-critical-only-aliases = Allinnich-krityk-aliassen
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Wy kinne op dit stuit gjin e-mailberjochten stjoere nei { $username }.
+    Wy hawwe in <em>{ $bounce_type }</em> “bounce” ûntfongen fan jo e-mailprovider doe't wy e-mailberjochten nei jo probearren troch te stjoeren.
+    Dit kin barre as { -brand-name-relay } gjin ferbining meitsje kin mei jo e-mailprovider, of as jo mailbox fol is. Wy sille it opnij probearje op { $date }.
 banner-download-firefox-headline = { -brand-name-relay } is noch better yn { -brand-name-firefox }
 banner-download-firefox-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan aliassen noch ienfâldiger.
 banner-download-firefox-cta = { -brand-name-firefox } downloade
@@ -369,6 +381,24 @@ banner-register-subdomain-headline-aliases = In oanpast domein krije foar jo ali
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = jodomein
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Mei in oanpast domein kinne jo aliassen diele dy't net generearre hoege te wurden
+    eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Ferstrek
+    ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy't jo oanpaste
+    domein brûkt wurdt nei jo trochstjoerd.
+banner-choose-subdomain-input-placeholder = Domein sykje
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Sykje
+banner-pack-upgrade-headline-html = Opwurdearje nei <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om mear aliassen te krijen
+banner-pack-upgrade-copy = Mei ûnbeheinde e-mailaliassen en jo eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } jo online beskerme te bliuwen.
+banner-pack-upgrade-cta = No opwurdearje
+# Data Notification Banner:
+banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 
 ## Success Messages
 
