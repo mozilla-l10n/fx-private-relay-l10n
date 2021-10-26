@@ -175,6 +175,11 @@ landing-use-cases-gaming-body =
     Geniet u van online gamen, maar maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
     Gebruik een { -brand-name-relay }-alias om een extra beschermingslaag te plaatsen tussen uw online-identiteit en de games die u online speelt.
 
+## Landing FAQ Section
+
+landing-faq-headline = Veelgestelde vragen over { -brand-name-firefox-relay }
+landing-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = { -brand-name-relay }-instellingen
@@ -247,9 +252,12 @@ faq-question-availability-question = Waar is { -brand-name-relay } beschikbaar?
 faq-question-availability-answer = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in de Verenigde Staten, Duitsland, het Verenigd Koninkrijk, Canada, Singapore, Maleisië, Nieuw-Zeeland, Frankrijk, België, Oostenrijk, Spanje, Italië, Zwitserland, Nederland en Ierland.
 faq-question-4-question = Kan ik berichten beantwoorden met mijn { -brand-name-relay }-alias?
 faq-question-4-answer = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Adressen in de velden Cc of Bcc worden niet opgenomen in uw antwoorden.
+faq-question-4-answer-v2 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor de ontvangers en de personen in het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt nog niet de mogelijkheid om te antwoorden met een alias.
     Als u dit probeert, gebeurt er niets. We hebben plannen voor een extra functie waarmee u <a href="{ $url }" { $attrs }>anoniem kunt reageren op afzenders</a>.
+faq-question-subdomain-characters-question = Welke tekens kan ik gebruiken om een subdomein aan te maken?
+faq-question-subdomain-characters-answer = Alleen kleine letters van het Engelse alfabet, cijfers en streepjes (-).
 faq-question-browser-support-question = Kan ik { -brand-name-relay } gebruiken in andere browsers of mijn mobiele apparaat?
 faq-question-browser-support-answer = Ja, u kunt { -brand-name-relay }-aliassen genereren in andere browsers of mobiele apparaten door u simpelweg aan te melden op uw { -brand-name-relay }-dashboard.
 faq-question-longevity-question = Wat gebeurt er als Mozilla de { -brand-name-firefox-relay }-service beëindigt?
@@ -365,12 +373,26 @@ banner-download-install-extension-cta = { -brand-name-relay } toevoegen aan { -b
 banner-upgrade-headline = Upgraden naar { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } maakt het aanmaken van e-mailaliassen nog eenvoudiger, met aangepaste aliasdomeinen en onbeperkte aliassen.
 banner-upgrade-cta = Upgraden naar { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Kies uw eigen domein
-banner-choose-subdomain-headline-aliases = Verkrijg uw eigen aangepaste aliasdomein
-banner-choose-subdomain-copy = U kunt een aangepast domein kiezen voor uw e-mailaliassen.
-banner-choose-subdomain-warning = Opmerking: u kunt uw domein later niet wijzigen
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Actiestap
+banner-register-subdomain-headline-aliases = Een aangepast domein verkrijgen voor uw aliassen
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = uwdomein
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Met een aangepast domein kunt u aliassen delen die niet hoeven te worden gegenereerd
+    voordat u ze gebruikt. Hebt u er een nodig voor een reservering? Verstrek
+    ‘restaurant@uwdomein.{ $mozmail }’ aan het restaurant. Elke alias die uw aangepaste
+    domein gebruikt wordt naar u doorgestuurd.
 banner-choose-subdomain-input-placeholder = Domein zoeken
-banner-choose-subdomain-submit = Domein verkrijgen
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Zoeken
 banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
 banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
 banner-pack-upgrade-cta = Nu upgraden
