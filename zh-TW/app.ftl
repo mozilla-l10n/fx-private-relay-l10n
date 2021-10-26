@@ -107,6 +107,9 @@ landing-hero-headline = 保護您實際的電子郵件地址，並且自行控�
 
 landing-how-it-works-headline = 原理是什麼
 landing-how-it-works-step-1-body-cta = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+landing-how-it-works-step-1-body = 在任何一張表單填寫電子郵件地址時，自動產生別名信箱。
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body = 隨您上網，{ -brand-name-relay } 圖示將顯示在要求您填寫信箱的網頁表單旁。點擊該圖示即可產生全新、以 @relay.mozmail.com 結尾的隨機地址。
 landing-how-it-works-step-3-body = 登入 { -brand-name-relay } 即可追蹤您建立過的別名信箱，而 { -brand-name-relay } 會將訊息轉發到您實際的郵件信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
 
 ## Pricing section
@@ -205,6 +208,7 @@ faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，�
 faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
+faq-question-4-answer = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。任何副本或密件副本收件者，都不會包含在回覆當中。
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
 faq-question-subdomain-characters-answer = 目前只接受小寫拉丁字母、數字、連字號（-）。
@@ -213,6 +217,10 @@ faq-question-browser-support-answer = 可以，您只要登入 { -brand-name-rel
 faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
 faq-question-longevity-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
 faq-question-mozmail-question = 為什麼我產生的別名信箱開始使用「mozmail.com」網域？
+faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 alias@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您產生的郵件別名更容易被記得。
+faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
+faq-question-attachments-answer = 是，{ -brand-name-firefox-relay } 支援轉寄大小不超過 { email-size-limit } 的郵件（含附件）。若郵件超過 { email-size-limit } 則不會被轉寄。
+faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂網域會發生什麼事？
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -282,6 +290,7 @@ profile-blocked-copy = 對此別名選擇封鎖時，{ -brand-name-firefox-relay
 profile-forwarded-copy = 對此別名選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 目前不支援超過 { email-size-limit }（含附件）的郵件，將不會轉寄給您。
+profile-forwarded-note-copy-v2 = 超過 { email-size-limit } 的郵件（含附件）將不會被轉寄。
 profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used = 已用的郵件別名
