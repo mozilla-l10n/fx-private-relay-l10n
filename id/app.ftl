@@ -189,6 +189,14 @@ faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, an
 
 profile-label-forwarded = Diteruskan
 profile-label-cancel = Batal
+profile-stat-label-blocked = Surel Diblokir
+profile-stat-label-forwarded = Surel Diteruskan
+profile-stat-label-aliases-used = Alias surel digunakan
+profile-filter-search-placeholder = Cari alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Meneruskan alias
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
 
 ## Banner Messages (displayed on the profile page)
 
