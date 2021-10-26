@@ -95,6 +95,11 @@ how-it-works-step-2-copy =
     Selektearje it piktogram om in nij, eigenwillich adres te generearjen dat einiget op @relay.firefox.com.
     { -brand-name-relay } stjoert berjochten troch nei it primêre e-mailadres dat heart by jo account.
 how-it-works-step-3-headline = Jo aliassen beheare
+how-it-works-step-3-copy =
+    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy't jo oanmakke hawwe te folgjen.
+    As jo merke dat jo spam of net-winske berjochten ûntfange, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
+hero-image-copy-trust = Kinne jo dit bedriuw sels fertrouwe mei jo persoanlike e-mailadres?
+hero-image-copy-unique-html = <strong>Brûk in unyk trochstjoeradres</strong> foar elk nije account…
 
 ## Home Page Version A
 
