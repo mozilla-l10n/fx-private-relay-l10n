@@ -340,7 +340,16 @@ banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -br
 banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias khusus dan alias tak terhingga.
 banner-upgrade-cta = Beralih ke { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Perlu tindakan
+banner-register-subdomain-headline-aliases = Miliki domain khusus untuk alias Anda
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = domainanda
 banner-choose-subdomain-input-placeholder = Cari domain
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Cari
 banner-pack-upgrade-headline-html = beralih ke <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> untuk memiliki lebih banyak alias
 banner-pack-upgrade-copy = Dengan alias surel tak terhingga dan domain surel Anda sendiri, { -brand-name-firefox } { -brand-name-relay-premium } membantu Anda tetap terlindungi saat daring.
 banner-pack-upgrade-cta = Beralih sekarang
@@ -370,6 +379,7 @@ success-settings-update = Setelan Anda telah diperbarui.
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Anda harus menjadi pelanggan premium untuk mendapatkan lebih dari { $number } alias
 error-premium-cannot-change-subdomain = Anda tidak dapat mengubah subdomain Anda
+error-premium-set-subdomain = Anda harus menjadi pelanggan premium untuk mengatur subdomain
 error-premium-check-subdomain = Anda harus menjadi pelanggan premium untuk memeriksa subdomain
 error-premium-set-create-subdomain = Anda harus menjadi pelanggan premium untuk membuat alias subdomain
 error-subdomain-not-created = Subdomain tidak dapat dibuat, coba yang lain
@@ -386,6 +396,8 @@ onboarding-tip-2 = Dengan memilih ikon { -brand-name-firefox-relay } ketika munc
 ## Premium Onboarding
 
 onboarding-premium-headline = Selamat datang di { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Sekarang Anda dapat <strong>mengontrol</strong> apa yang masuk ke kotak masuk Anda, satu surel pada satu waktu.
 onboarding-premium-feature-intro = Dengan { -brand-name-firefox } { -brand-name-relay-premium } Anda dapat:
 onboarding-premium-control-title = Atur surel yang Anda terima
 onboarding-premium-control-description = Bagikan alias surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
@@ -418,6 +430,7 @@ survey-question-1 = Dalam skala 1-10, seberapa besar kemungkinan Anda merekomend
 survey-question-2 = Apakah { -brand-name-relay } mudah untuk digunakan?
 survey-question-3 = Apakah { -brand-name-relay } dapat dipercaya?
 survey-question-4 = Apakah { -brand-name-relay } memiliki tampilan yang bersih dan sederhana?
+survey-question-5 = Apa tanggapan Anda jika Anda tidak dapat lagi menggunakan { -brand-name-relay }?
 survey-option-strongly-disagree = Sangat tidak setuju
 survey-option-disagree = Tidak setuju
 survey-option-unsure = Tidak yakin
