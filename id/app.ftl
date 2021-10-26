@@ -167,11 +167,22 @@ landing-use-cases-offline-body =
 landing-use-cases-access-content = Akses Konten
 landing-use-cases-gaming = Ranah Gim
 
+## Landing FAQ Section
+
+
 ## Settings page
 
+settings-meta-contact-label = Hubungi kami
+settings-meta-help-label = Bantuan dan dukungan
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privasi
 
 ## FAQ Page
 
+faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
+faq-question-missing-emails-answer-reason-blocked = Penyedia surel Anda memblokir alias Anda
+faq-question-missing-emails-answer-reason-not-accepted = Situs tidak menerima alias
+faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 
 ## Profile Page (Logged In)
 
