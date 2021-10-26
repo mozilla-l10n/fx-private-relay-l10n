@@ -212,6 +212,9 @@ profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Selamat datang di { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-control-title = Atur surel yang Anda terima
+onboarding-premium-control-description = Bagikan alias surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
 
 ## Modals
 
