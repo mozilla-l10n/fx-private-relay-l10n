@@ -268,6 +268,12 @@ faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei 
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stipet trochstjoerde e-mailberjochten mei bylagen oant in grutte fan { email-size-limit }. As in e-mailberjocht in bylage hat dy't grutter is as { email-size-limit }, dan wurdt dit net trochstjoerd.
 faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
+faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy't trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
+faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy't { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy't jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 
 ## Profile Page (Logged In)
 
