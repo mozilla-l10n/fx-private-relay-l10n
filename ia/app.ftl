@@ -252,6 +252,7 @@ faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
     Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
 faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
+faq-question-subdomain-characters-answer = Solo minusculas del alphabeto anglese, numeros e lineettas (-)
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per authentication a tu pannello de controlo { -brand-name-relay }.
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
@@ -367,11 +368,22 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-relay-premium } de { -brand-name-firefox } rende mesmo plus facile le creation del aliases de e-mail, con dominios de alias personal e aliases illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Action necesse
 banner-register-subdomain-headline-aliases = Obtene un dominio personal pro tu aliases
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tudominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Con un dominio personalisate, tu pote compartir aliases sin deber generar los
+    ante los usar. Besonia tu un pro un reservation? Da
+    “restaurante@tudominio.{ $mozmail }” al restaurante. Cata alias que usa tu dominio essera inultrate a te.
 banner-choose-subdomain-input-placeholder = Cercar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cercar
