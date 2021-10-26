@@ -274,6 +274,20 @@ faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy't { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy't jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
+# Deprecated
+faq-question-3-question = Is { -brand-name-relay } allinnich beskikber yn de FS?
+# Deprecated
+faq-question-3-answer = De website is op dit stuit allinnich yn it Ingelsk beskikber, mar jo kinne de tsjinst oeral brûke.
+# Deprecated
+faq-question-5-question = Kin ik myn eigen { -brand-name-relay }-alias meitsje mei it domein @relay.firefox.com?
+# Deprecated
+faq-question-5-answer = Op dit stuit net, mar wy betinke nije funksjes, wêrûnder de mooglikheid om jo eigen alias te meitsjen mei in oanwezen domein.
+# Deprecated
+faq-question-6-question = Wat bart der as { -brand-name-mozilla } de { -brand-name-firefox-relay }-tsjinst beëiniget?
+# Deprecated
+faq-question-6-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy't gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+# Deprecated
+faq-question-7-question = Wat moat ik dwaan as in e-mailberjocht dat nei myn alias ferstjoerd is in bylage befettet?
 
 ## Profile Page (Logged In)
 
