@@ -262,6 +262,12 @@ faq-question-subdomain-characters-answer = Allinnich lytse letters fan it Ingels
 faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
 faq-question-browser-support-answer = Ja, jo kinne { -brand-name-relay }-aliassen generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
 faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
+faq-question-longevity-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy't gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+faq-question-mozmail-question = Wêrom binne myn aliassen begûn it domein ‘mozmail.com’ te brûken?
+faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-maildomein te krijen, lykas alias@uwdomein.mozmail.com. Oanpaste e-maildomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailaliassen ek folle makliker te ûnthâlden as eigenwillige aliassen.
+faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
+faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stipet trochstjoerde e-mailberjochten mei bylagen oant in grutte fan { email-size-limit }. As in e-mailberjocht in bylage hat dy't grutter is as { email-size-limit }, dan wurdt dit net trochstjoerd.
+faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
 
 ## Profile Page (Logged In)
 
