@@ -220,6 +220,16 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } mungkin 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Jika Anda pengguna { -brand-name-relay-premium } yang mengalami masalah ini, harap <a href="{ $url }" { $attrs }>hubungi tim dukungan kami</a>.
 faq-question-use-cases-question = Kapan saya harus menggunakan alias { -brand-name-relay }?
+faq-question-use-cases-answer = Anda dapat menggunakan alias { -brand-name-relay } di sebagian besar tempat Anda menggunakan alamat surel biasa. Kami menyarankan untuk menggunakannya saat mendaftar untuk email pemasaran/informasi di mana Anda mungkin ingin mengontrol apakah Anda akan menerima surel atau tidak di masa mendatang. Kami tidak menyarankan menggunakan alias saat identitas Anda perlu diverifikasi atau untuk email yang sangat penting. Misalnya, Anda ingin membagikan alamat surel asli Anda dengan bank, dokter, pengacara, dll.
+faq-question-2-question = Mengapa ada situs yang tidak menerima alias { -brand-name-relay } saya?
+# Deprecated
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Beberapa situs mungkin menolak alamat surel yang menyertakan sub-domain (contoh bagian dari “relay" yaitu @relay.firefox.com) dan situs lainnya tidak menerima alamat surel selain dari akun Gmail, Hotmail, atau yahoo.
+    Dengan berkembangnya popularitas dan isu banyaknya penggunaan alias { -brand-name-firefox-relay }, layanan ini mungkin dimasukkan dalam daftar blokir.
+    Jika Anda tidak bisa menggunakan alias { -brand-name-relay }, <a href="{ $url }"{ $attrs }>beri tahu kami</a>.
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 
