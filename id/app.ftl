@@ -273,7 +273,27 @@ profile-promo-upgrade-copy = Beralih ke { -brand-name-relay } premium untuk mend
 profile-label-generate-new-alias = Buat Alias Baru
 profile-label-delete = Hapus
 profile-label-delete-alias = Hapus alias ini
-profile-label-upgrade = Dapatkan alias tanpa batas
+profile-label-upgrade = Miliki alias tak terhingga
+profile-label-create-domain = Miliki domain surel Anda
+profile-label-domain = Domain surel:
+profile-label-domain-tooltip = Buat domain surel unik dan khusus Anda.
+profile-label-reset = Setel Ulang
+profile-label-apply = Terapkan
+# This string is followed by an email address
+profile-label-forward-emails = Teruskan surel ke:
+# This string is followed by date:
+profile-label-created = Dibuat:
+profile-label-details-show = Tampilkan Detail
+profile-label-details-hide = Sembunyikan Detail
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = meneruskan
+profile-label-blocking = memblokir
+profile-label-disable-forwarding-button = Nonaktifkan penerusan surel untuk alias ini
+profile-label-enable-forwarding-button = Aktifkan penerusan surel untuk alias ini
+profile-label-click-to-copy = Klik untuk menyalin
+profile-label-copy-confirmation = Alias disalin ke papan klip
+profile-label-copied = Tersalin!
+profile-label-blocked = Diblokir
 profile-label-forwarded = Diteruskan
 profile-label-cancel = Batal
 profile-stat-label-blocked = Surel Diblokir
