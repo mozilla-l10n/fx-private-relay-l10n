@@ -136,6 +136,9 @@ landing-use-cases-offline = 線下環境
 landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-gaming = 遊戲
 
+## Landing FAQ Section
+
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } 設定
@@ -291,12 +294,14 @@ banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -b
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 讓建立別名信箱變得更簡單，還有自訂別名網域與無限量別名功能。
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
-banner-choose-subdomain-headline = 使用您自己的網域名稱
-banner-choose-subdomain-headline-aliases = 使用您自己的別名網域
-banner-choose-subdomain-copy = 您可以使用自訂網域來建立信箱別名
-banner-choose-subdomain-warning = 注意：之後將無法再更改網域名稱
+banner-register-subdomain-headline-aliases = 使用您想要的網域名稱建立別名
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = yourdomain
 banner-choose-subdomain-input-placeholder = 搜尋網域
-banner-choose-subdomain-submit = 註冊網域
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = 搜尋
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 可透過無限量別名信箱與您個人的郵件網域功能，幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
