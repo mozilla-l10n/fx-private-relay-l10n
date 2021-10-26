@@ -204,9 +204,13 @@ faq-headline = Pertanyaan yang Sering Diajukan (FAQ)
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Apa itu alias { -brand-name-relay }?
+faq-question-missing-emails-question = Saya tidak menerima pesan dari alias saya
+faq-question-missing-emails-answer-a = Ada beberapa alasan mengapa Anda mungkin tidak menerima surel yang diteruskan melalui alias Anda. Berikut beberapa alasannya:
 faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
 faq-question-missing-emails-answer-reason-blocked = Penyedia surel Anda memblokir alias Anda
+faq-question-missing-emails-answer-reason-size = Surel yang diteruskan memiliki lampiran berukuran lebih dari { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Situs tidak menerima alias
+faq-question-missing-emails-answer-reason-turned-off = Alias mungkin telah menonaktifkan penerusan
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 
@@ -222,6 +226,8 @@ profile-filter-search-placeholder = Cari alias
 profile-filter-category-option-active-aliases-v2 = Meneruskan alias
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Alias acak
 
 ## Banner Messages (displayed on the profile page)
 
