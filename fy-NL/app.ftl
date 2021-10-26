@@ -288,16 +288,25 @@ faq-question-6-question = Wat bart der as { -brand-name-mozilla } de { -brand-na
 faq-question-6-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy't gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
 # Deprecated
 faq-question-7-question = Wat moat ik dwaan as in e-mailberjocht dat nei myn alias ferstjoerd is in bylage befettet?
+# Deprecated
+faq-question-7-answer = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy't grutter binne as { email-size-limit } wurde net trochstjoerd.
 
 ## Profile Page (Logged In)
 
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Wolkom,</span> { $email }!
+profile-headline-manage-domain = Jo domeinaliassen beheare
+profile-supports-email-forwarding = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }
+profile-promo-upgrade-headline = Opwurdearje foar noch mear funksjes.
+profile-promo-upgrade-copy = Opwurdearje { -brand-name-relay } om ûnbeheinde e-mailadressen en jo eigen e-maildomein te krijen.
 profile-promo-upgrade-cta = { -brand-name-relay } opwurdearje
+profile-label-edit = It label foar dizze alias bewurkje
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Accountnamme tafoegje
+profile-label-save-error = Bewarjen mislearre, probearje it opnij.
 profile-label-saved = Label bewarre!
+profile-label-generate-new-alias = Nije alias oanmeitsje
 profile-label-delete = Fuortsmite
 profile-label-delete-alias = Dizze alias fuortsmite
 profile-label-upgrade = Unbeheinde aliassen krije
