@@ -372,7 +372,26 @@ banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } hace que la creación de alias de correo electrónico sea aún más fácil, con dominios de alias personalizados y alias ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Acción importante
+banner-register-subdomain-headline-aliases = Obtén un dominio personalizado para tus alias
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = tudominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Con un dominio personalizado, puedes compartir alias que no es necesario generar
+    antes de usarlos. ¿Necesitas uno para hacer una reserva? Usa
+    “restaurante@tudominio.{ $mozmail }” al restaurante. Cualquier alias que use tu
+    dominio personalizado se te reenviará.
 banner-choose-subdomain-input-placeholder = Buscar dominio
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
