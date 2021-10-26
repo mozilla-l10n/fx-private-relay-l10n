@@ -215,15 +215,29 @@ profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
 onboarding-premium-headline = Selamat datang di { -brand-name-firefox } { -brand-name-relay-premium }
 onboarding-premium-control-title = Atur surel yang Anda terima
 onboarding-premium-control-description = Bagikan alias surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
+onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
 
 ## Modals
 
+modal-rename-alias-saved = Label disimpan!
 
 ## Evergreen Survey (displayed on the profile page)
 
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Hemat 50% dengan berlangganan setahun penuh
+vpn-promo-copy = Lindungi data daring Anda dan pilih paket berlangganan VPN yang sesuai untuk Anda.
+vpn-promo-cta = Dapatkan { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
+# This entire text is a link
+forwarded-email-footer = Hentikan penerusan surel dan kelola setelan untuk semua alias di sini.
