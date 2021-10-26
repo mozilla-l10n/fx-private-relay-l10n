@@ -410,6 +410,13 @@ banner-download-install-extension-cta = Pridať { -brand-name-relay } do { -bran
 banner-upgrade-headline = Inovujte na { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ešte viac uľahčuje vytváranie e-mailových aliasov s vlastnými doménami a neobmedzeným počtom aliasov.
 banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Vykonať akciu
+banner-register-subdomain-headline-aliases = Získajte vlastnú doménu pre svoje aliasy
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = vaša_doména
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Hľadať
