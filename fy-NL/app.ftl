@@ -90,6 +90,11 @@ how-it-works-step-1-copy =
     Selektearje it piktogram dat op jo { -brand-name-firefox }-arkbalke ferskynt om de oanmeldingsside te iepenjen.
     Meld jo oan mei jo { -brand-name-firefox-account } om oan de slach te gean.
 how-it-works-step-2-headline = In nije alias oanmeitsje
+how-it-works-step-2-copy =
+    Wylst jo navigearje sil it { -brand-name-relay }-piktogram ferskine wêr websites om jo e-mailadres freegje.
+    Selektearje it piktogram om in nij, eigenwillich adres te generearjen dat einiget op @relay.firefox.com.
+    { -brand-name-relay } stjoert berjochten troch nei it primêre e-mailadres dat heart by jo account.
+how-it-works-step-3-headline = Jo aliassen beheare
 
 ## Home Page Version A
 
@@ -99,12 +104,28 @@ how-it-works-step-2-headline = In nije alias oanmeitsje
 
 ## How it works section
 
+landing-how-it-works-headline = Hoe't it wurket
 
 ## Pricing section
 
+landing-pricing-free-price = Fergees
+landing-pricing-free-feature-1 = Maksimaal 5 e-mailaliassen
+landing-pricing-free-feature-2 = Browserútwreiding
+landing-pricing-free-cta = { -brand-name-relay } downloade
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/maand
+landing-pricing-premium-feature-1 = Unbeheinde e-mailaliassen
+landing-pricing-premium-feature-2 = Browserútwreiding
+landing-pricing-premium-feature-3 = Jo eigen e-maildomein
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
+landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 
 ## Use Cases
 
+landing-use-cases-shopping = Winkelje
+landing-use-cases-social-networks = Sosjale netwurken
 
 ## Landing FAQ Section
 
