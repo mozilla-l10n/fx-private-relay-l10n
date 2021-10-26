@@ -456,6 +456,21 @@ onboarding-premium-reply-description = Moatte jo e-mailberjochten dy't nei in al
 
 modal-rename-alias-saved = Label bewarre!
 modal-delete-headline = Dizze alias definityf fuortsmite?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    As jo dizze alias fuortsmite, kin dizze net mear wersteld wurde.
+    { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy't ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
+modal-delete-warning-upgrade =
+    As jo dizze alias brûke om jo oan te melden by websites dy't jo wichtich fine,
+    moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
+modal-delete-domain-address-warning-upgrade =
+    As jo dizze alias brûke om jo oan te melden by websites dy't jo wichtich fine,
+    moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
+    As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy't nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
+modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
+modal-domain-register-good-news = Goed nijs!
+modal-domain-register-warning = Unthâld dat jo mar ien domein foar jo account registrearje meie en dat it net mooglik is om jo domein letter te wizigjen.
 modal-domain-register-button = Domein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -466,6 +481,11 @@ modal-domain-register-confirmation = Ja, ik wol { $subdomain } registrearje
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Op in skeal fan 1-10, hoe wierskynlik is it dat jo { -brand-name-relay } oanrekommandearje by in freon of kollega?
+survey-question-2 = Is { -brand-name-relay } maklik te brûken?
+survey-question-3 = Fine jo { -brand-name-relay } betrouber?
+survey-question-4 = Hat { -brand-name-relay } in dúdlike en ienfâldige útstrieling?
+survey-question-5 = Hoe soene jo jo fiele as jo { -brand-name-relay } net langer mear brûke kinne?
 survey-option-strongly-disagree = Beslist net mei iens
 survey-option-disagree = Net mei iens
 survey-option-unsure = Unwis
