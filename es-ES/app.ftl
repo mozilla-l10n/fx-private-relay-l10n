@@ -177,6 +177,7 @@ landing-use-cases-gaming-body =
 ## Landing FAQ Section
 
 landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
+landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
 ## Settings page
 
@@ -250,9 +251,12 @@ faq-question-availability-question = ¿Dónde está disponible { -brand-name-rel
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 faq-question-4-answer = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a la recepción de ese correo. Las direcciones en copia o copia oculta no se incluirán en las respuestas.
+faq-question-4-answer-v2 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a  surecepción. Si añades a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no añadas CC o CCO al responder.
 faq-question-4-answer-html =
     { -brand-name-relay } todavía no ofrece la capacidad de responder usando un alias.
     Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
+faq-question-subdomain-characters-question = ¿Qué caracteres puedo utilizar para crear un subdominio?
+faq-question-subdomain-characters-answer = Solo letras minúsculas del alfabeto inglés, números y guiones (-).
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
 faq-question-browser-support-answer = Sí, puedes generar alias de { -brand-name-relay } en otros navegadores o dispositivos móviles simplemente iniciando sesión en tu panel de control de { -brand-name-relay }.
 faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
