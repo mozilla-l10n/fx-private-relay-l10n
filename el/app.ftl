@@ -199,6 +199,7 @@ faq-headline = Συχνές ερωτήσεις
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Τι είναι ένα ψευδώνυμο { -brand-name-relay };
 faq-question-missing-emails-question = Δεν λαμβάνω μηνύματα από τα ψευδώνυμά μου
+faq-question-missing-emails-answer-a = Ακολουθούν μερικοί λόγοι για τους οποίους ενδέχεται να μην λαμβάνετε προωθημένα email από τα ψευδώνυμά σας:
 faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
 faq-question-missing-emails-answer-reason-blocked = Ο πάροχος email σας αποκλείει το ψευδώνυμό σας
 faq-question-missing-emails-answer-reason-size = Το προωθημένο email έχει συνημμένο μεγαλύτερο από { email-size-limit }
