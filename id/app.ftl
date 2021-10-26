@@ -259,6 +259,12 @@ faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain khusus s
 faq-question-unsubscribe-domain-answer = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui domain khusus, tetapi Anda tidak dapat lagi membuat alias baru menggunakan domain tersebut. Jika Anda memiliki lebih dari lima alias secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Deprecated
+faq-question-5-answer = Saat ini belum, tetapi kami sedang mempertimbangkan fitur baru termasuk memungkinkan Anda membuat alias sendiri dengan domain yang ditentukan.
+# Deprecated
+faq-question-6-question = Apa yang terjadi jika { -brand-name-mozilla } menghentikan layanan { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-6-answer = Kami akan memberi tahu Anda lebih awal jika Anda perlu mengubah alamat surel dari setiap akun yang menggunakan alias { -brand-name-relay }.
+# Deprecated
 faq-question-7-question = Bagaimana jika surel yang dikirim ke alias saya berisi lampiran?
 
 ## Profile Page (Logged In)
@@ -270,6 +276,12 @@ profile-headline-manage-domain = Kelola domain alias Anda
 profile-supports-email-forwarding = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga { email-size-limit }
 profile-promo-upgrade-headline = Berlangganan untuk lebih banyak fitur.
 profile-promo-upgrade-copy = Beralih ke { -brand-name-relay } premium untuk mendapatkan alamat surel tanpa batas dan domain surel Anda sendiri.
+profile-promo-upgrade-cta = Beralih ke { -brand-name-relay } premium
+profile-label-edit = Ubah label untuk alias ini
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Tambahkan nama akun
+profile-label-save-error = Gagal menyimpan, harap coba lagi.
+profile-label-saved = Label disimpan!
 profile-label-generate-new-alias = Buat Alias Baru
 profile-label-delete = Hapus
 profile-label-delete-alias = Hapus alias ini
@@ -363,20 +375,29 @@ error-premium-set-create-subdomain = Anda harus menjadi pelanggan premium untuk 
 error-subdomain-not-created = Subdomain tidak dapat dibuat, coba yang lain
 error-subdomain-email-not-created = Alamat surel dengan subdomain tidak dapat dibuat, coba yang lain
 error-subdomain-select = Anda harus memilih subdomain sebelum membuat alias subdomain
+error-subdomain-not-available = Domain @{ $unavailable_subdomain } tidak tersedia. Silakan coba lagi dengan domain lain.
 
 ## Onboarding 
 
+onboarding-headline = Buat alias pertama Anda, Anda memiliki tiga cara ...
+onboarding-tip-1 = Cukup klik tombol “Buat Alias Baru” untuk membuat alias pertama Anda
+onboarding-tip-2 = Dengan memilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel
 
 ## Premium Onboarding
 
 onboarding-premium-headline = Selamat datang di { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = Dengan { -brand-name-firefox } { -brand-name-relay-premium } Anda dapat:
 onboarding-premium-control-title = Atur surel yang Anda terima
 onboarding-premium-control-description = Bagikan alias surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
 onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
+onboarding-premium-domain-description = Dengan domain khusus, Anda dapat membuat alias "buletin" Anda berbeda dari alias "belanja" Anda.
+onboarding-premium-reply-title = Balas surel tanpa memberikan alamat asli Anda
+onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alias? Cukup balas seperti biasa — alias Anda akan tetap melindungi alamat surel Anda.
 
 ## Modals
 
 modal-rename-alias-saved = Label disimpan!
+modal-delete-headline = Hapus alias ini secara permanen?
 modal-delete-warning-upgrade =
     Jika Anda menggunakan alias ini untuk masuk ke situs yang Anda minati,
     Anda harus memperbarui log masuk Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
@@ -395,6 +416,8 @@ modal-domain-register-confirmation = Ya, saya ingin mendaftarkan { $subdomain }
 
 survey-question-1 = Dalam skala 1-10, seberapa besar kemungkinan Anda merekomendasikan { -brand-name-relay } kepada teman atau kolega?
 survey-question-2 = Apakah { -brand-name-relay } mudah untuk digunakan?
+survey-question-3 = Apakah { -brand-name-relay } dapat dipercaya?
+survey-question-4 = Apakah { -brand-name-relay } memiliki tampilan yang bersih dan sederhana?
 survey-option-strongly-disagree = Sangat tidak setuju
 survey-option-disagree = Tidak setuju
 survey-option-unsure = Tidak yakin
