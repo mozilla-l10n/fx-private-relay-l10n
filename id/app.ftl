@@ -230,6 +230,21 @@ faq-question-2-answer-html =
     Beberapa situs mungkin menolak alamat surel yang menyertakan sub-domain (contoh bagian dari “relay" yaitu @relay.firefox.com) dan situs lainnya tidak menerima alamat surel selain dari akun Gmail, Hotmail, atau yahoo.
     Dengan berkembangnya popularitas dan isu banyaknya penggunaan alias { -brand-name-firefox-relay }, layanan ini mungkin dimasukkan dalam daftar blokir.
     Jika Anda tidak bisa menggunakan alias { -brand-name-relay }, <a href="{ $url }"{ $attrs }>beri tahu kami</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Beberapa situs mungkin menolak alamat surel yang menyertakan sub-domain (contoh bagian dari “relay" yaitu @relay.firefox.com) dan situs lainnya tidak menerima alamat surel selain dari akun Gmail, Hotmail, atau yahoo.
+    Jika Anda tidak bisa menggunakan alias { -brand-name-relay }, <a href="{ $url }"{ $attrs }>beri tahu kami</a>.
+faq-question-1-question = Bagaimana dengan spam?
+faq-question-1-answer-a = Meskipun { -brand-name-relay } tidak memfilter spam, mitra surel kami Amazon SES memblokir spam dan malware. Jika { -brand-name-relay } meneruskan pesan yang tidak Anda inginkan, Anda dapat memperbarui setelan { -brand-name-relay } untuk memblokir pesan agar tidak diteruskan.
+faq-question-availability-question = Di mana { -brand-name-relay } tersedia?
+faq-question-availability-answer = { -brand-name-relay } gratis tersedia di sebagian besar negara. { -brand-name-relay-premium } tersedia di Amerika Serikat, Jerman, Inggris Raya, Kanada, Singapura, Malaysia, Selandia Baru, Prancis, Belgia, Austria, Spanyol, Italia, Swiss, Belanda, dan Irlandia.
+faq-question-4-question = Dapatkah saya membalas pesan menggunakan alias { -brand-name-relay } saya?
+faq-question-4-answer = Pengguna { -brand-name-relay-premium } dapat membalas surel yang diteruskan dalam waktu 3 bulan setelah menerima surel. Alamat CC atau BCC apa pun tidak akan disertakan dalam balasan Anda.
+faq-question-4-answer-html =
+    { -brand-name-relay } belum bisa untuk membalas menggunakan alias.
+    Jika Anda mencobanya, tidak akan terjadi apa-apa. Kami merencanakan fitur tambahan untuk memungkinkan Anda <a href="{ $url }" { $attrs }>membalas secara anonim kepada pengirim</a>.
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 
@@ -250,9 +265,12 @@ profile-filter-category-option-relay-aliases-v2 = Alias acak
 
 ## Banner Messages (displayed on the profile page)
 
+banner-label-data-notification-body = Anda dapat mengizinkan{ -brand-name-relay } untuk mengumpulkan data opsional di situs web tempat alias Anda digunakan untuk mendukung fitur di masa mendatang. Mengizinkan pengumpulan data ini dari halaman “Pengaturan” akan membuat pengelolaan kotak masuk Anda menjadi lebih mudah.
+banner-label-data-notification-cta = Buka Pengaturan
 
 ## Success Messages
 
+success-settings-update = Setelan Anda telah diperbarui.
 
 ## Error Messages
 
