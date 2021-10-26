@@ -166,9 +166,62 @@ profile-promo-upgrade-cta = { -brand-name-relay } opwurdearje
 profile-label-placeholder = Accountnamme tafoegje
 profile-label-saved = Label bewarre!
 profile-label-delete = Fuortsmite
+profile-label-delete-alias = Dizze alias fuortsmite
+profile-label-upgrade = Unbeheinde aliassen krije
+profile-label-create-domain = Jo e-maildomein krije
+profile-label-domain = E-maildomein:
+profile-label-domain-tooltip = Meitsje jo unike en oanpaste e-maildomein.
+profile-label-reset = Opnij inisjalisearje
+profile-label-apply = Tapasse
+# This string is followed by an email address
+profile-label-forward-emails = E-mailberjochten trochstjoere nei:
+# This string is followed by date
+profile-label-first-emailed = Earste kear maild:
+# This string is followed by date:
+profile-label-created = Makke:
+profile-label-details-show = Details toane
+profile-label-details-hide = Details ferstopje
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = trochstjoere
+profile-label-blocking = blokkearje
+profile-label-disable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias útskeakelje
+profile-label-enable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias ynskeakelje
+profile-label-click-to-copy = Klikje om te kopiearjen
+profile-label-copy-confirmation = Alias nei klamboerd kopiearre
+profile-label-copied = Kopiearre!
+profile-label-blocked = Blokkearre
+profile-label-forwarded = Trochstjoerd
+profile-label-cancel = Annulearje
+profile-forwarded-note = Opmerking:
+profile-stat-label-blocked = E-mailberjochten blokkearre
+profile-stat-label-forwarded = E-mailberjochten trochstjoerd
+profile-stat-label-aliases-used = Brûkte e-mailaliassen
+profile-filter-search-placeholder = Aliassen sykje
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Trochstjoeraliassen
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blokkearringsaliassen
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Eigenwillige aliassen
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Oanpaste aliassen
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Allinnich-krityk-aliassen
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
+banner-download-firefox-headline = { -brand-name-relay } is noch better yn { -brand-name-firefox }
+banner-download-firefox-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan aliassen noch ienfâldiger.
+banner-download-firefox-cta = { -brand-name-firefox } downloade
+banner-download-install-extension-headline = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }
+banner-download-install-extension-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
+banner-download-install-extension-cta = { -brand-name-relay } tafoegje oan { -brand-name-firefox }
+banner-upgrade-headline = Opwurdearje nei { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makket it oanmeitsjen fan e-mailaliassen noch ienfâldiger, mei oanpaste aliasdomeinen en ûnbeheinde aliassen.
+banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Aksjestap
 
 ## Success Messages
 
