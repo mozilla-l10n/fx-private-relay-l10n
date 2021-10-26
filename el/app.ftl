@@ -129,6 +129,7 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 
 ## Hero Section
 
+landing-hero-headline = Προστατέψτε την πραγματική σας διεύθυνση email και ελέγξτε τα εισερχόμενά σας
 
 ## How it works section
 
@@ -140,6 +141,9 @@ landing-how-it-works-step-1-body-cta = Κάντε λήψη της επέκτασ
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Μόνο για περιορισμένο χρονικό διάστημα: απεριόριστα ψευδώνυμα με { $monthly_price } ανά μήνα
+landing-pricing-body =
+    Δοκιμάστε τα ψευδώνυμα { -brand-name-firefox-relay } και προστατέψτε τα εισερχόμενά σας. 
+    Έπειτα, αναβαθμίστε στο { -brand-name-relay-premium } για ακόμα περισσότερη ευελιξία και έλεγχο.
 landing-pricing-free-price = Δωρεάν
 landing-pricing-free-feature-1 = Έως 5 ψευδώνυμα email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
@@ -200,6 +204,7 @@ faq-question-missing-emails-answer-reason-blocked = Ο πάροχος email σα
 faq-question-missing-emails-answer-reason-size = Το προωθημένο email έχει συνημμένο μεγαλύτερο από { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = Ο ιστότοπος δεν δέχεται ψευδώνυμα
 faq-question-missing-emails-answer-reason-turned-off = Δεν έχει ενεργοποιηθεί η προώθηση για το ψευδώνυμο
+faq-question-missing-emails-answer-reason-delay = Το { -brand-name-relay } ίσως καθυστερεί περισσότερο απ' ότι συνήθως με την προώθηση των μηνυμάτων σας
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Αν είστε χρήστης του { -brand-name-relay-premium } και αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επικοινωνήστε με την ομάδα υποστήριξής μας</a>.
@@ -211,6 +216,7 @@ faq-question-availability-question = Πού είναι διαθέσιμο το {
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
 faq-question-subdomain-characters-answer = Μόνο πεζά αγγλικά γράμματα, αριθμοί και παύλες (-).
+faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
