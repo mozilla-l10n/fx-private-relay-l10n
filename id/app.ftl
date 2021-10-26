@@ -296,6 +296,11 @@ profile-label-copied = Tersalin!
 profile-label-blocked = Diblokir
 profile-label-forwarded = Diteruskan
 profile-label-cancel = Batal
+profile-blocked-copy = { -brand-name-firefox-relay } akan menghapus pesan sebelum masuk ke kotak masuk Anda saat Anda memilih memblokir untuk alias ini.
+profile-forwarded-copy = { -brand-name-firefox-relay } akan mengirim pesan ke kotak masuk Anda saat Anda pilih meneruskan untuk alias ini.
+profile-forwarded-note = Catatan:
+profile-forwarded-note-copy = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } saat ini tidak didukung dan tidak akan diteruskan.
+profile-forwarded-note-copy-v2 = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } tidak akan diteruskan.
 profile-stat-label-blocked = Surel Diblokir
 profile-stat-label-forwarded = Surel Diteruskan
 profile-stat-label-aliases-used = Alias surel digunakan
@@ -306,9 +311,21 @@ profile-filter-category-option-active-aliases-v2 = Meneruskan alias
 profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Alias acak
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Alias khusus
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Alias surel-penting-saja
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } tidak dapat mengirimkan surel Anda.
+banner-download-firefox-headline = { -brand-name-relay } bahkan lebih baik di { -brand-name-firefox }
+banner-download-firefox-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } membantu pembuatan alias menjadi lebih mudah.
+banner-download-firefox-cta = Unduh { -brand-name-firefox }
+banner-download-install-extension-headline = Unduh ekstensi { -brand-name-relay } untuk { -brand-name-firefox }
+banner-download-install-extension-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan alias surel.
+banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -brand-name-firefox }
+banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
 banner-label-data-notification-body = Anda dapat mengizinkan{ -brand-name-relay } untuk mengumpulkan data opsional di situs web tempat alias Anda digunakan untuk mendukung fitur di masa mendatang. Mengizinkan pengumpulan data ini dari halaman “Pengaturan” akan membuat pengelolaan kotak masuk Anda menjadi lebih mudah.
 banner-label-data-notification-cta = Buka Pengaturan
 
