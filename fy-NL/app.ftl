@@ -222,6 +222,11 @@ banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makk
 banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Aksjestap
+banner-register-subdomain-headline-aliases = In oanpast domein krije foar jo aliassen
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = jodomein
 
 ## Success Messages
 
@@ -237,12 +242,41 @@ banner-label-action = Aksjestap
 
 ## Modals
 
+modal-domain-register-button = Domein registrearje
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } is beskikber!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Ja, ik wol { $subdomain } registrearje
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = Beslist net mei iens
+survey-option-disagree = Net mei iens
+survey-option-unsure = Unwis
+survey-option-agree = Iens
+survey-option-strongly-agree = Beslist mei iens
+survey-option-i-wouldnt-care = Makket my net út
+survey-option-somewhat-disappointed = Wat teloarsteld
+survey-option-very-disappointed = Tige teloarsteld
+survey-option-very-likely = Nei alle gedachten
+survey-option-not-likely = Net wierskynlik
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Besparje 50% mei in folslein jierabonnemint
+vpn-promo-copy = Beskermje jo onlinegegevens en kies in VPN-abonnemint dat by jo past.
+vpn-promo-cta = { -brand-name-mozilla-vpn } downloade
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email } troch { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
+# This entire text is a link
+forwarded-email-footer = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle aliassen beheare.
