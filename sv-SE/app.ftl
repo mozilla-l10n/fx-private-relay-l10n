@@ -174,6 +174,11 @@ landing-use-cases-gaming-body =
     Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
     Använd ett { -brand-name-relay }-alias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
 
+## Landing FAQ Section
+
+landing-faq-headline = De vanligaste frågorna om { -brand-name-firefox-relay }
+landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } inställningar
@@ -246,9 +251,12 @@ faq-question-availability-question = Var är { -brand-name-relay } tillgängligt
 faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
 faq-question-4-answer = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom tre månader efter att de fått e-postmeddelandet. Eventuella kopia- eller dolda kopia-adresser ingår inte i dina svar.
+faq-question-4-answer-v2 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagarna och i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-4-answer-html =
     { -brand-name-relay } har ännu inte möjlighet att svara med ett alias.
     Om du försöker kommer ingenting att hända. Vi planerar en ytterligare funktion för att låta dig <a href="{ $url }" { $attrs }>svara anonymt till avsändaren</a>.
+faq-question-subdomain-characters-question = Vilka tecken kan jag använda för att skapa en underdomän?
+faq-question-subdomain-characters-answer = Endast små bokstäver, engelska alfabet, siffror och bindestreck (-).
 faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
 faq-question-browser-support-answer = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
 faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
@@ -364,12 +372,14 @@ banner-download-install-extension-cta = Lägg till { -brand-name-relay } i { -br
 banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade aliasdomäner och obegränsade alias.
 banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Välj din egen domän
-banner-choose-subdomain-headline-aliases = Skaffa din egna anpassade aliasdomän
-banner-choose-subdomain-copy = Du kan välja en anpassad domän för dina e-postalias.
-banner-choose-subdomain-warning = Obs! Du kan inte ändra din domän senare
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Viktig åtgärd
+banner-register-subdomain-headline-aliases = Skaffa en anpassad domän för dina alias
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = dindomän
 banner-choose-subdomain-input-placeholder = Sök efter domän
-banner-choose-subdomain-submit = Skaffa en domän
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
