@@ -379,7 +379,19 @@ banner-register-subdomain-headline-aliases = Skaffa en anpassad domän för dina
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = dindomän
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Med en anpassad domän kan du dela alias som inte behöver genereras
+    innan du använder dem. Behöver du en för bokning? Ge
+    "restaurang@dindomän.{ $mozmail }" till restaurangen. Alla alias som
+    använder din anpassade domän kommer att vidarebefordras till dig.
 banner-choose-subdomain-input-placeholder = Sök efter domän
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Sök
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
