@@ -174,6 +174,10 @@ landing-use-cases-gaming-body =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
     Utiliza un alias de { -brand-name-relay } para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 
+## Landing FAQ Section
+
+landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Ajustes de { -brand-name-relay }
@@ -364,12 +368,7 @@ banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } hace que la creación de alias de correo electrónico sea aún más fácil, con dominios de alias personalizados y alias ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Elije tu propio dominio
-banner-choose-subdomain-headline-aliases = Obtén tu propio dominio de alias personalizado
-banner-choose-subdomain-copy = Puedes elegir un dominio personalizado para tus alias de correo electrónico.
-banner-choose-subdomain-warning = Nota: No es posible cambiar el dominio más tarde
 banner-choose-subdomain-input-placeholder = Buscar dominio
-banner-choose-subdomain-submit = Obtener dominio
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
