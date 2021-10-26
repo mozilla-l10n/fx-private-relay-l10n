@@ -169,6 +169,7 @@ landing-use-cases-gaming = Ranah Gim
 
 ## Landing FAQ Section
 
+landing-faq-headline = Pertanyaan teratas seputar { -brand-name-firefox-relay }
 
 ## Settings page
 
@@ -220,6 +221,12 @@ onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
 ## Modals
 
 modal-rename-alias-saved = Label disimpan!
+modal-delete-warning-upgrade =
+    Jika Anda menggunakan alias ini untuk masuk ke situs yang Anda minati,
+    Anda harus memperbarui log masuk Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
+modal-delete-confirmation = Ya, saya ingin menghapus alias ini.
+modal-domain-register-good-news = Kabar Baik!
+modal-domain-register-warning = Perlu diingat, Anda hanya diperbolehkan mendaftarkan satu domain untuk akun Anda dan domain tersebut tidak akan bisa diubah.
 modal-domain-register-button = Daftarkan Domain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
