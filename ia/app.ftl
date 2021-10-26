@@ -171,6 +171,11 @@ landing-use-cases-gaming-body =
     Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse e-mail? 
     Usa un alias de { -brand-name-relay } pro poner un altere strato de protection inter tu online identitate e le jocos que tu practica online.
 
+## Landing FAQ Section
+
+landing-faq-headline = Questiones principal re { -brand-name-firefox-relay }
+landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Parametros de { -brand-name-relay }
@@ -246,6 +251,7 @@ faq-question-4-answer = Le usatores de { -brand-name-relay-premium } pote replic
 faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
     Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
+faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per authentication a tu pannello de controlo { -brand-name-relay }.
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
@@ -361,12 +367,14 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-relay-premium } de { -brand-name-firefox } rende mesmo plus facile le creation del aliases de e-mail, con dominios de alias personal e aliases illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Elige tu proprie dominio
-banner-choose-subdomain-headline-aliases = Obtene tu proprie dominio alias personal
-banner-choose-subdomain-copy = Tu pote eliger un dominio personal pro tu aliases e-mail.
-banner-choose-subdomain-warning = Nota: Tu non pote cambiar tu dominio plus tarde
+banner-register-subdomain-headline-aliases = Obtene un dominio personal pro tu aliases
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = tudominio
 banner-choose-subdomain-input-placeholder = Cercar dominio
-banner-choose-subdomain-submit = Obtener le dominio
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Cercar
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
 banner-pack-upgrade-cta = Promover ora
