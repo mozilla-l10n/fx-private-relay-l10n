@@ -176,6 +176,11 @@ landing-use-cases-gaming-body =
     Vous aimez les jeux en ligne, mais vous craignez que d’autres joueurs ou des harceleurs n’apprennent qui vous êtes par votre identifiant de joueur et votre adresse e-mail ?
     Utilisez un alias { -brand-name-relay } pour ajouter une couche de protection entre votre identité numérique et les jeux en ligne auxquels vous participez.
 
+## Landing FAQ Section
+
+landing-faq-headline = Questions les plus fréquentes sur { -brand-name-firefox-relay }
+landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-relay }
+
 ## Settings page
 
 settings-headline = Paramètres de { -brand-name-relay }
@@ -251,6 +256,8 @@ faq-question-4-answer = Les utilisateurs et utilisatrices de { -brand-name-relay
 faq-question-4-answer-html =
     { -brand-name-relay } ne propose pas encore la possibilité de répondre en utilisant un alias.
     Si vous essayez, rien ne se produira. Nous prévoyons d’ajouter une fonctionnalité vous permettant de <a href="{ $url }" { $attrs }>répondre anonymement</a>.
+faq-question-subdomain-characters-question = Quels caractères puis-je utiliser pour créer un sous-domaine ?
+faq-question-subdomain-characters-answer = Uniquement l’alphabet anglais en minuscules, les chiffres et les tirets (-).
 faq-question-browser-support-question = Puis-je utiliser { -brand-name-relay } sur d’autres navigateurs ou sur mon appareil mobile ?
 faq-question-browser-support-answer = Oui, vous pouvez générer des alias { -brand-name-relay } sur d’autres navigateurs ou appareils mobiles simplement en vous connectant à votre tableau de bord { -brand-name-relay }.
 faq-question-longevity-question = Que se passera-t-il si Mozilla arrête le service { -brand-name-firefox-relay } ?
@@ -366,12 +373,20 @@ banner-download-install-extension-cta = Ajouter { -brand-name-relay } à { -bran
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rend la création d’alias de messagerie encore plus facile, avec des domaines d’alias personnalisés et des alias illimités.
 banner-upgrade-cta = Passer à { -brand-name-relay-premium }
-banner-choose-subdomain-headline = Choisissez votre propre domaine
-banner-choose-subdomain-headline-aliases = Obtenez votre propre domaine d’alias personnalisé
-banner-choose-subdomain-copy = Vous pouvez choisir un domaine personnalisé pour vos alias de messagerie.
-banner-choose-subdomain-warning = Remarque : vous ne pourrez pas modifier votre domaine ultérieurement
+banner-register-subdomain-headline-aliases = Obtenez un domaine personnalisé pour vos alias
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = votredomaine
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy = Avec un domaine personnalisé, vous pouvez partager des alias qui n’ont pas besoin d’être générés avant de les utiliser. Besoin d’un pour une réservation ? Donnez « restaurant@votredomaine.{ $mozmail } » au restaurant. Tout alias utilisant votre domaine personnalisé vous sera transmis.
 banner-choose-subdomain-input-placeholder = Rechercher un domaine
-banner-choose-subdomain-submit = Obtenir le domaine
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Rechercher
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
