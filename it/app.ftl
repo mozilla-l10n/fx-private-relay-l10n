@@ -372,6 +372,8 @@ banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -bran
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
 banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Prossimo passo
 banner-register-subdomain-headline-aliases = Ottieni un dominio personalizzato per i tuoi alias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
