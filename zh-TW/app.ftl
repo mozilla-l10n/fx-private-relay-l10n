@@ -135,6 +135,7 @@ landing-use-cases-social-networks = 社群網路
 landing-use-cases-offline = 線下環境
 landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-gaming = 遊戲
+landing-use-cases-gaming-body = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用 { -brand-name-relay } 別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 
 ## Landing FAQ Section
 
@@ -161,6 +162,7 @@ setting-label-collection-heading-v2 = 隱私權
 setting-label-collection-description = 允許 { -brand-name-relay } 收集資料，用來顯示別名是用於哪些網站的。
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = 讓我們收集此資料後，就可以自動在新版當中將您產生的別名與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些別名被用於哪些網站。
+setting-label-collection-off-warning-v2 = 此資料讓我們能將您產生的別名與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些別名被用於哪些網站。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
 
