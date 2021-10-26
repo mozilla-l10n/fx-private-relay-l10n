@@ -193,9 +193,16 @@ settings-error-save-heading = Wiziging ynstellingen mislearre
 settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fanwegen in ferbiningsflater. Probearje it opnij.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Labelfunksje foar e-mailaliassen is útskeakele
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr't jo e-mailaliassen oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
+setting-label-collection-description = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo aliassen oanmakke en brûkt binne.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Mei dizze gegevens kinne wy yn in takomstige ferzje jo aliassen labelje mei de relevante websites. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr't se brûkt wurde.
+setting-label-collection-off-warning-v2 = Mei dizze gegevens kinne wy jo aliassen labelje mei de relevante websites wêr't se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr't se brûkt wurde.
 settings-button-save-label = Bewarje
+settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 
 ## FAQ Page
 
@@ -205,6 +212,20 @@ faq-headline = Faak stelde fragen
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Wat is in { -brand-name-relay }-alias?
+faq-question-what-is-answer = E-mailaliassen binne maskearre e-mailadressen dy't berjochten trochstjoere nei jo echte e-mailadres. Mei dizze aliassen kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+faq-question-missing-emails-question = Ik ûntfang gjin berjochten fan myn aliassen
+faq-question-missing-emails-answer-a = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy't fia jo aliassen trochstjoerd binne, wêrûnder:
+faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
+faq-question-missing-emails-answer-reason-blocked = Jo e-mailprovider blokkearret jo alias
+faq-question-missing-emails-answer-reason-size = It trochstjoerde e-mailberjocht hat in bylage dy't grutter is as { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = De website akseptearret gjin aliassen
+faq-question-missing-emails-answer-reason-turned-off = Mooglik is trochstjoeren útskeakele foar de alias
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der langer as normaal oer dwaan om jo berjochten troch te stjoeren
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium }-brûker binne en mei ien fan dizze problemen wrakselje, nim dan <a href="{ $url }" { $attrs }>kontakt op mei ús stipeteam</a>.
+faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
 
 ## Profile Page (Logged In)
 
