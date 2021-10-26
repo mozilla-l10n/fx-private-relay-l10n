@@ -226,6 +226,30 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium }-brûker binne en mei ien fan dizze problemen wrakselje, nim dan <a href="{ $url }" { $attrs }>kontakt op mei ús stipeteam</a>.
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
+faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear't jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear't jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
+faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
+# Deprecated
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-html =
+    Guon websites akseptearje mooglik gjin e-mailadres dat in subdomein befettet (d.w.s. it “relay”-part fan @relay.firefox.com) en oaren akseptearje gjin inkeld adres mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
+    Wylst { -brand-name-firefox-relay } yn populariteit groeit en mear aliassen útjout, kin ús tsjinst op in blokkearlist pleatst wurde.
+    As jo gjin { -brand-name-relay }-alias brûke kinne, <a href="{ $url }" { $attrs }>lit it ús dan witte</a>.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v2-html =
+    Guon websites akseptearje mooglik gjin e-mailadres dat in subdomein befettet (d.w.s. it “relay”-part fan @relay.firefox.com) en oaren akseptearje gjin inkeld adres mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
+    
+    As jo gjin { -brand-name-relay }-alias brûke kinne, <a href="{ $url }" { $attrs }>lit it ús dan witte</a>.
+faq-question-1-question = Hoe sit it mei spam?
+faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy't se trochstjoert.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo aliassen, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
+faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 
 ## Profile Page (Logged In)
 
