@@ -399,21 +399,63 @@ banner-pack-upgrade-copy = Mei ûnbeheinde e-mailaliassen en jo eigen e-maildome
 banner-pack-upgrade-cta = No opwurdearje
 # Data Notification Banner:
 banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
+banner-label-data-notification-body = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen oer de websites wêr't jo aliassen brûkt wurde om takomstige funksjes te stypjen. As jo dizze gegevenssamling op de side ‘Ynstellingen’ tastean, wurdt it behearen fan jo Postfek YN noch ienfâldiger.
+banner-label-data-notification-cta = Nei Ynstellingen
+banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
+banner-label-data-notification-body-v2 = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen, wêrmei't wy jo aliaslabels op al jo apparaten syngronisearje kinne mei de websites wêrop se makke en brûkt binne.
+banner-label-data-notification-body-cta = Mear ynfo
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Jo domein is:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Jo domein @{ $subdomain } is oanmakke
+success-settings-update = Jo ynstellingen binne bywurke
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Jo moatte in premiumabonnee wêze om mear as { $number } aliassen oan te meitsjen
+error-premium-cannot-change-subdomain = Jo kinne jo subdomein net wizigje
+error-premium-set-subdomain = Jo moatte in premiumabonnee wêze om in subdomein yn te stellen
+error-premium-check-subdomain = Jo moatte in premiumabonnee wêze om in subdomein te kontrolearjen
+error-premium-set-create-subdomain = Jo moatte in premiumabonnee wêze om in subdomeinaliassen oan te meitsjen
+error-subdomain-not-created = Subdomein kin net oanmakke wurde, probearje wat oars
+error-subdomain-email-not-created = E-mailadres mei subdomein kin net oanmakke wurde, probearje wat oars
+error-subdomain-select = Jo moatte in subdomein selektearje eardat jo in subdomainalias oanmeitsje
+error-subdomain-not-available = It domein @{ $unavailable_subdomain } is net beskikber. Probearje it opnij mei in oar domein.
 
 ## Onboarding 
 
+onboarding-headline = Meitsje jo earste alias oan, jo kinne kieze út trije manieren…
+onboarding-tip-1 = Klik gewoan op de knop ‘Nije alias oanmeitsje’ om jo earste alias oan te meitsjen
+onboarding-tip-2 = Troch it { -brand-name-firefox-relay }-piktogram te selektearjen wannear't it yn e-mailfjilden ferskynt
+onboarding-tip-3 = Fia it kontekstmenu, klik gewoan mei jo rjochtermûsknop (Windows) of Control-klik (macOS) op formulierfjilden om it menu te iepenjen en in alias oan te meitsjen
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Wolkom by { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Jo kinne no <strong>bepale</strong> wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
+onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-relay-premium } kinne jo:
+onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
+onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy't de berjochten dy't jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
+onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan aliassen
+onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
+onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
+onboarding-premium-reply-description = Moatte jo e-mailberjochten dy't nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
 
 ## Modals
 
+modal-rename-alias-saved = Label bewarre!
+modal-delete-headline = Dizze alias definityf fuortsmite?
 modal-domain-register-button = Domein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
