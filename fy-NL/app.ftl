@@ -126,18 +126,46 @@ landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 
 landing-use-cases-shopping = Winkelje
 landing-use-cases-social-networks = Sosjale netwurken
+landing-use-cases-offline = Offline
+landing-use-cases-access-content = Tagong ta ynhâld
+landing-use-cases-gaming = Gaming
 
 ## Landing FAQ Section
 
+landing-faq-headline = Faakstelde fragen oer { -brand-name-firefox-relay }
+landing-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 
 ## Settings page
 
+settings-headline = { -brand-name-relay }-ynstellingen
+settings-meta-contact-label = Kontakt
+settings-meta-contact-tooltip = Kontakt opnimme oer { -brand-name-relay }
+settings-meta-help-label = Help en stipe
+settings-meta-help-tooltip = Help krije mei { -brand-name-relay }
+settings-meta-status-label = Servicesteat
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Privacy
+settings-button-save-label = Bewarje
 
 ## FAQ Page
 
+faq-headline = Faak stelde fragen
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Wolkom,</span> { $email }!
+profile-promo-upgrade-cta = { -brand-name-relay } opwurdearje
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Accountnamme tafoegje
+profile-label-saved = Label bewarre!
+profile-label-delete = Fuortsmite
 
 ## Banner Messages (displayed on the profile page)
 
