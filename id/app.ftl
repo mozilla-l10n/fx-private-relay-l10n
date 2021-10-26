@@ -256,9 +256,19 @@ faq-question-mozmail-answer = Kami beralih dari “relay.firefox.com” ke “mo
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
 faq-question-attachments-answer = Ya, { -brand-name-firefox-relay } mendukung surel yang diteruskan dengan lampiran berukuran hingga { email-size-limit }. Jika surel memiliki lampiran yang lebih besar dari { email-size-limit }, maka tidak akan diteruskan.
 faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain khusus saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui domain khusus, tetapi Anda tidak dapat lagi membuat alias baru menggunakan domain tersebut. Jika Anda memiliki lebih dari lima alias secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
+faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
+# Deprecated
+faq-question-7-question = Bagaimana jika surel yang dikirim ke alias saya berisi lampiran?
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Selamat datang,</span> { $email }!
+profile-headline-manage-domain = Kelola domain alias Anda
+profile-supports-email-forwarding = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga { email-size-limit }
+profile-promo-upgrade-headline = Berlangganan untuk lebih banyak fitur.
 profile-label-forwarded = Diteruskan
 profile-label-cancel = Batal
 profile-stat-label-blocked = Surel Diblokir
