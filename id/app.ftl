@@ -326,15 +326,43 @@ banner-download-install-extension-headline = Unduh ekstensi { -brand-name-relay 
 banner-download-install-extension-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan alias surel.
 banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -brand-name-firefox }
 banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias khusus dan alias tak terhingga.
+banner-upgrade-cta = Beralih ke { -brand-name-relay-premium }
+banner-choose-subdomain-input-placeholder = Cari domain
+banner-pack-upgrade-headline-html = beralih ke <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> untuk memiliki lebih banyak alias
+banner-pack-upgrade-copy = Dengan alias surel tak terhingga dan domain surel Anda sendiri, { -brand-name-firefox } { -brand-name-relay-premium } membantu Anda tetap terlindungi saat daring.
+banner-pack-upgrade-cta = Beralih sekarang
+# Data Notification Banner:
+banner-label-data-notification-header = Segera hadir di { -brand-name-relay }
 banner-label-data-notification-body = Anda dapat mengizinkan{ -brand-name-relay } untuk mengumpulkan data opsional di situs web tempat alias Anda digunakan untuk mendukung fitur di masa mendatang. Mengizinkan pengumpulan data ini dari halaman “Pengaturan” akan membuat pengelolaan kotak masuk Anda menjadi lebih mudah.
 banner-label-data-notification-cta = Buka Pengaturan
+banner-label-data-notification-header-v2 = Aktifkan fitur baru
+banner-label-data-notification-body-cta = Pelajari lebih lanjut
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Domain Anda adalah:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Anda dapat membuat alamat @{ $subdomain } apa pun
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Domain @{ $subdomain } Anda telah dibuat
 success-settings-update = Setelan Anda telah diperbarui.
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Anda harus menjadi pelanggan premium untuk mendapatkan lebih dari { $number } alias
+error-premium-cannot-change-subdomain = Anda tidak dapat mengubah subdomain Anda
+error-premium-check-subdomain = Anda harus menjadi pelanggan premium untuk memeriksa subdomain
+error-premium-set-create-subdomain = Anda harus menjadi pelanggan premium untuk membuat alias subdomain
+error-subdomain-not-created = Subdomain tidak dapat dibuat, coba yang lain
+error-subdomain-email-not-created = Alamat surel dengan subdomain tidak dapat dibuat, coba yang lain
+error-subdomain-select = Anda harus memilih subdomain sebelum membuat alias subdomain
 
 ## Onboarding 
 
