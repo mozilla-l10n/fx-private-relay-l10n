@@ -220,9 +220,28 @@ onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
 ## Modals
 
 modal-rename-alias-saved = Label disimpan!
+modal-domain-register-button = Daftarkan Domain
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } tersedia!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation = Ya, saya ingin mendaftarkan { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Dalam skala 1-10, seberapa besar kemungkinan Anda merekomendasikan { -brand-name-relay } kepada teman atau kolega?
+survey-question-2 = Apakah { -brand-name-relay } mudah untuk digunakan?
+survey-option-strongly-disagree = Sangat tidak setuju
+survey-option-disagree = Tidak setuju
+survey-option-unsure = Tidak yakin
+survey-option-agree = Setuju
+survey-option-strongly-agree = Sangat setuju
+survey-option-i-wouldnt-care = Saya tidak peduli
+survey-option-somewhat-disappointed = Agak kecewa
+survey-option-very-disappointed = Sangat mengecewakan
+survey-option-very-likely = Sangat mungkin
+survey-option-not-likely = Kemungkinan tidak
 
 ## VPN Promo Banner
 
