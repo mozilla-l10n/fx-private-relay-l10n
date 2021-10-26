@@ -189,9 +189,21 @@ settings-warning-collection-off-description = Saat ini { -brand-name-relay } tid
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privasi
 setting-label-collection-description = Izinkan { -brand-name-relay } mengumpulkan data yang menunjukkan situs tempat alias Anda dibuat dan digunakan.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Data ini akan memungkinkan kami untuk melabeli alias Anda dengan situs web yang relevan di rilis mendatang. Jika Anda memutuskan tidak ikut dengan preferensi ini, alias Anda tidak akan diberi label dengan situs web tempat mereka digunakan.
+setting-label-collection-off-warning-v2 = Data ini akan memungkinkan kami untuk melabeli alias Anda dengan situs web yang menggunakannya. Jika Anda memutuskan tidak ikut dengan preferensi ini, alias Anda tidak akan diberi label dengan situs web di mana alias digunakan.
+settings-button-save-label = Simpan
+settings-button-save-tooltip = Terapkan pengaturan yang Anda pilih.
 
 ## FAQ Page
 
+faq-headline = Pertanyaan yang Sering Diajukan (FAQ)
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Apa itu alias { -brand-name-relay }?
 faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
 faq-question-missing-emails-answer-reason-blocked = Penyedia surel Anda memblokir alias Anda
 faq-question-missing-emails-answer-reason-not-accepted = Situs tidak menerima alias
