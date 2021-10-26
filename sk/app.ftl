@@ -290,6 +290,7 @@ faq-question-availability-question = Kde je služba { -brand-name-relay } k disp
 faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Spojenom kráľovstve, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
 faq-question-4-answer = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od jeho prijatia. Akékoľvek adresy uvedené v poliach Kópia alebo Skrytá kópia nebudú zahrnuté do vašich odpovedí.
+faq-question-4-answer-v2 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
@@ -417,6 +418,14 @@ banner-register-subdomain-headline-aliases = Získajte vlastnú doménu pre svoj
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = vaša_doména
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Pomocou vlastnej domény môžete používať aliasy, ktoré nie je potrebné generovať
+    pred ich použitím. Potrebujete rezervovať stôl v reštaurácii? Použite “restauracia@vašadoména.{ $mozmail }”. Akýkoľvek alias používajúci vašu vlastnú doménu bude presmerovaný do vašej e-mailovej schránky.
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Hľadať
