@@ -111,6 +111,10 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 ## Use Cases
 
 landing-use-cases-social-networks = Redes sociales
+landing-use-cases-offline = Sin conexión
+
+## Landing FAQ Section
+
 
 ## Settings page
 
