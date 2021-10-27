@@ -176,8 +176,8 @@ landing-use-cases-gaming-body =
 
 ## Landing FAQ Section
 
-landing-faq-headline = Y cwestiynau amlycaf am { -brand-name-firefox-relay }
-landing-faq-cta = Gwybod rhagor o gwestiynnau am { -brand-name-firefox-relay }
+landing-faq-headline = Y prif gwestiynau am { -brand-name-firefox-relay }
+landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 
 ## Settings page
 
@@ -251,9 +251,12 @@ faq-question-availability-question = Lle mae { -brand-name-relay } ar gael?
 faq-question-availability-answer = Mae { -brand-name-relay } ar gael am ddim yn y mwyafrif o wledydd. Mae { -brand-name-relay-premium } ar gael yn yr Unol Daleithiau, yr Almaen, y Deyrnas Unedig, Canada, Singapore, Malaysia, Seland Newydd, Ffrainc, Gwlad Belg, Awstria, Sbaen, yr Eidal, y Swistir, yr Iseldiroedd ac Iwerddon.
 faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 faq-question-4-answer = Gall defnyddwyr { -brand-name-relay-premium } ateb e-byst a anfonwyd ymlaen o fewn 3 mis ar ôl derbyn yr e-byst hynny. Ni fydd unrhyw gyfeiriadau CC neu BCC yn cael eu cynnwys yn eich atebion.
+faq-question-4-answer-v2 = Gall defnyddwyr { -brand-name-relay-premium } ymateb i e-bost a anfonwyd ymlaen cyn pen 3 mis ar ôl derbyn yr e-bost. Os ychwanegwch CC neu BCC pan fyddwch yn ateb e-bost, bydd eich cyfeiriad e-bost gwreiddiol yn weladwy i'r derbynwyr a'r rhai ar yr e-bost. Os nad ydych am i'ch cyfeiriad e-bost gwreiddiol gael ei ddatgelu, peidiwch ag ychwanegu CC neu BCC wrth ateb.
 faq-question-4-answer-html =
     Nid yw { -brand-name-relay } eto yn cynnig y gallu i ymateb gan ddefnyddio arallenw.
     Os ceisiwch wneud hynny, ni fydd unrhyw beth yn digwydd. Rydym yn cynllunio nodwedd ychwanegol i adael i chi <a href="{ $url }" { $attrs }>ateb yn ddienw i anfonwyr</a>.
+faq-question-subdomain-characters-question = Pa nodau y gallaf eu defnyddio i greu is-barth?
+faq-question-subdomain-characters-answer = Dim ond llythrennau bach yr wyddor, rhifau a llinell doriad (-).
 faq-question-browser-support-question = A allaf ddefnyddio { -brand-name-relay } ar borwyr eraill neu fy nyfais symudol?
 faq-question-browser-support-answer = Gallwch, gallwch gynhyrchu arallenwau { -brand-name-relay } ar borwyr neu ddyfeisiau symudol eraill dim ond trwy fewngofnodi i'ch bwrdd gwaith { -brand-name-relay }.
 faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
@@ -369,7 +372,26 @@ banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -b
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
 banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau dirifedi.
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Cam gweithredu
+banner-register-subdomain-headline-aliases = Cael parth cyfaddas ar gyfer eich arallenwau
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = eichparth
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Gyda pharth cyfaddas, gallwch rannu arallenwau nad oes angen eu cynhyrchu
+    cyn i chi eu defnyddio. Angen un ar gyfer archeb? Rhowch
+    “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
+    defnyddio'ch parth cyfaddas yn cael ei anfon ymlaen atoch chi.
 banner-choose-subdomain-input-placeholder = Parth chwilio
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Chwilio
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
 banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
