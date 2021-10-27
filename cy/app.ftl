@@ -176,6 +176,8 @@ landing-use-cases-gaming-body =
 
 ## Landing FAQ Section
 
+landing-faq-headline = Y cwestiynau amlycaf am { -brand-name-firefox-relay }
+landing-faq-cta = Gwybod rhagor o gwestiynnau am { -brand-name-firefox-relay }
 
 ## Settings page
 
