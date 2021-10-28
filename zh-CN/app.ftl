@@ -349,6 +349,12 @@ banner-register-subdomain-headline-aliases = 用自定义域名创建马甲
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy = 借助自定义域名功能，不需生成马甲也可直接转发邮件。要预订餐厅？用“restaurant@yourdomain.{ $mozmail }”这个邮箱地址就可以。任何使用您自定义域名的马甲都会直接转发给您。
 banner-choose-subdomain-input-placeholder = 搜索域名
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜索
