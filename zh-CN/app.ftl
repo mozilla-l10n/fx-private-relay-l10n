@@ -153,6 +153,7 @@ landing-use-cases-gaming-body = 热爱网络游戏，但担心其他玩家或憨
 
 ## Landing FAQ Section
 
+landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 
 ## Settings page
 
@@ -338,6 +339,12 @@ banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -b
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义域名马甲与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = 操作步骤
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = yourdomain
 banner-choose-subdomain-input-placeholder = 搜索域名
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜索
