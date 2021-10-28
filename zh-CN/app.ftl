@@ -125,7 +125,7 @@ landing-how-it-works-step-3-body = 登录 { -brand-name-relay } 即可总览您�
 landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限量马甲
 landing-pricing-body = 使用 { -brand-name-firefox-relay } 马甲邮箱就可保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则能获得更多灵活性和控制选项。
 landing-pricing-free-price = 免费
-landing-pricing-free-feature-1 = 最多 5 个马甲邮箱
+landing-pricing-free-feature-1 = 最多 5 个马甲
 landing-pricing-free-feature-2 = 浏览器扩展
 landing-pricing-free-cta = 下载 { -brand-name-relay }
 # Variables:
@@ -153,6 +153,7 @@ landing-use-cases-gaming-body = 热爱网络游戏，但担心其他玩家或憨
 
 ## Landing FAQ Section
 
+landing-faq-headline = { -brand-name-firefox-relay } 的常见问题
 landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 
 ## Settings page
@@ -341,6 +342,7 @@ banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让�
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = 操作步骤
+banner-register-subdomain-headline-aliases = 用自定义域名创建马甲
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
