@@ -122,7 +122,7 @@ landing-how-it-works-step-3-body = 登录 { -brand-name-relay } 即可总览您�
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限量马甲
+landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限多个马甲
 landing-pricing-body = 使用 { -brand-name-firefox-relay } 马甲邮箱就可保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则能获得更多灵活性和控制选项。
 landing-pricing-free-price = 免费
 landing-pricing-free-feature-1 = 最多 5 个马甲
@@ -131,7 +131,7 @@ landing-pricing-free-cta = 下载 { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
-landing-pricing-premium-feature-1 = 无限量的马甲邮箱
+landing-pricing-premium-feature-1 = 无限多个马甲
 landing-pricing-premium-feature-2 = 浏览器扩展
 landing-pricing-premium-feature-3 = 专属邮箱域名
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
@@ -265,7 +265,7 @@ profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-headline-manage-domain = 管理您的域名马甲
 profile-supports-email-forwarding = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）
 profile-promo-upgrade-headline = 升级后可享受更多功能。
-profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限量的邮箱地址，以及您专属的邮箱域名。
+profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限多个邮箱地址，以及您专属的邮箱域名。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-label-edit = 编辑此马甲的标签
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -402,7 +402,7 @@ onboarding-premium-headline = 欢迎使用 { -brand-name-firefox } { -brand-name
 onboarding-premium-subheadline-html = 哪一封邮件可以进入收件箱，<strong>控制权</strong>在您。
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 onboarding-premium-control-title = 自行控制要收取哪些邮件
-onboarding-premium-control-description = 可创建无限量的马甲邮箱，只转发您想收到的邮件到收件箱。
+onboarding-premium-control-description = 可创建无限多个马甲，只转发您想收到的邮件到收件箱。
 onboarding-premium-domain-title = 用自定义域名创建共用马甲邮箱
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
