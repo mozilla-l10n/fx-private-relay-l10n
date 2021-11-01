@@ -473,7 +473,7 @@ modal-domain-register-warning = Onthoud dat u slechts één domein voor uw accou
 modal-domain-register-button = Domein registreren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-available = { $subdomein } is beschikbaar!
+modal-domain-register-available = { $subdomain } is beschikbaar!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation = Ja, ik wil { $subdomain } registreren
