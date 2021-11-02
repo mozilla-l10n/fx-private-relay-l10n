@@ -437,7 +437,7 @@ banner-label-data-notification-header = Už čoskoro v službe { -brand-name-rel
 banner-label-data-notification-body = Službe { -brand-name-relay } môžete povoliť zhromažďovať voliteľné údaje na webových stránkach, kde sa vaše aliasy používajú s cieľom podporiť vývoj budúcich funkcií. Povolenie tohto zhromažďovania údajov na stránke Nastavenia ešte viac uľahčí správu vašej doručenej pošty.
 banner-label-data-notification-cta = Prejsť do nastavení
 banner-label-data-notification-header-v2 = Povolenie nových funkcií
-banner-label-data-notification-body-v2 = Môžete službe { -brand-name-relay } povoliť zhromažďovať voliteľné údaje, ktoré nám umožňujú synchronizovať štítky vašich aliasov vo vašich zariadeniach so stránkami, pre ktoré sú vytvorené a na ktorých sú používané.
+banner-label-data-notification-body-v2 = Službe { -brand-name-relay } môžete povoliť zhromažďovať voliteľné údaje, ktoré nám umožňujú priraďovať štítky vašich aliasov vo všetkých vašich zariadeniach ku stránkam, pre ktoré sú vytvorené a na ktorých sú používané.
 banner-label-data-notification-body-cta = Ďalšie informácie
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Vaša doména je:
