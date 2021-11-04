@@ -142,6 +142,7 @@ landing-pricing-free-cta = Instale o { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mês
+landing-pricing-premium-price-highlight = Preços por tempo limitado
 landing-pricing-premium-feature-1 = Endereços de redirecionamento de email ilimitados
 landing-pricing-premium-feature-2 = Extensão do navegador
 landing-pricing-premium-feature-3 = Seu próprio domínio de email
