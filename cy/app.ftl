@@ -142,6 +142,7 @@ landing-pricing-free-cta = Cael { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mis
+landing-pricing-premium-price-highlight = Prisio am gyfnod cyfyngedig
 landing-pricing-premium-feature-1 = Arallenwau e-bost dirifedi
 landing-pricing-premium-feature-2 = Estyniad porwr
 landing-pricing-premium-feature-3 = Eich parth e-bost eich hun
