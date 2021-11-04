@@ -142,6 +142,7 @@ landing-pricing-free-cta = Hämta { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / månad
+landing-pricing-premium-price-highlight = Tidsbegränsad prissättning
 landing-pricing-premium-feature-1 = Obegränsade e-postalias
 landing-pricing-premium-feature-2 = Webbläsartillägg
 landing-pricing-premium-feature-3 = Din egen e-postdomän
