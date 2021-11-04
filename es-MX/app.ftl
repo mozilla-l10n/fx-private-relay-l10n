@@ -80,7 +80,7 @@ home-hero-copy =
     Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
 home-hero-cta = Iniciar sesión
 how-it-works-headline = Cómo funciona
-how-it-works-subheadline = Protege tu identidad personal en todos los lugares donde uses { -brand-name-firefox-browser }.
+how-it-works-subheadline = Protege tu identidad personal en todos los lugares donde uses el { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Obtener la extensión
 how-it-works-step-1-link = Descargar la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 how-it-works-step-2-headline = Crea un nuevo alias
