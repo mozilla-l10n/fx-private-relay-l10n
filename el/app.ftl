@@ -216,6 +216,9 @@ faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτ
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-4-answer-html =
+    Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο.
+    Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
 faq-question-subdomain-characters-question = Τι χαρακτήρες μπορώ να χρησιμοποιήσω στον υποτομέα;
 faq-question-subdomain-characters-answer = Μόνο πεζά αγγλικά γράμματα, αριθμοί και παύλες (-).
 faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
