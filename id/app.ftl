@@ -260,6 +260,12 @@ faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain khusus s
 faq-question-unsubscribe-domain-answer = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui domain khusus, tetapi Anda tidak dapat lagi membuat alias baru menggunakan domain tersebut. Jika Anda memiliki lebih dari lima alias secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Deprecated
+faq-question-3-question = Apakah { -brand-name-relay } hanya tersedia di AS?
+# Deprecated
+faq-question-3-answer = Saat ini situs hanya tersedia dalam bahasa Inggris, tetapi Anda dapat menggunakan layanan ini di mana saja.
+# Deprecated
+faq-question-5-question = Dapatkah saya membuat alias { -brand-name-relay } saya sendiri menggunakan domain @relay.firefox.com?
+# Deprecated
 faq-question-5-answer = Saat ini belum, tetapi kami sedang mempertimbangkan fitur baru termasuk memungkinkan Anda membuat alias sendiri dengan domain yang ditentukan.
 # Deprecated
 faq-question-6-question = Apa yang terjadi jika { -brand-name-mozilla } menghentikan layanan { -brand-name-firefox-relay }?
