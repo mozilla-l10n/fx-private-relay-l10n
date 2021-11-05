@@ -394,6 +394,8 @@ banner-register-subdomain-button-search = Cercar
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
 banner-pack-upgrade-cta = Promover ora
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-body = Tu pote permitter a { -brand-name-relay } de colliger datos optional sur le sitos web ubi tu aliases es usate pro supportar futur functionalitates. Permitter iste collection de datos per le pagina “Parametros” rendera mesmo plus facile gerer tu cassa de ingresso.
