@@ -463,22 +463,22 @@ onboarding-premium-reply-title = Reply to emails without giving away your real a
 onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
-multi-part-onboarding-premium-welcome-description = { onboarding-premium-control-description }
 multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliases
-multi-part-onboarding-premium-domain-subheadline = { multi-part-onboarding-premium-welcome-subheadline }
 multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
+
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
-    Need an alias for restaurant reservations? Just say food@yourdomain.mozmail.com — No need to create the alias beforehand. 
+    Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand. 
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later 
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
-multi-part-onboarding-premium-extension-subheadline = { multi-part-onboarding-premium-welcome-subheadline }
 multi-part-onboarding-premium-extension-reply-title = Reply to emails without giving away your real address:
-multi-part-onboarding-premium-extension-reply-description = { onboarding-premium-reply-description }
 multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox } 
 multi-part-onboarding-premium-extension-get-description = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email aliases even easier. 
 multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
