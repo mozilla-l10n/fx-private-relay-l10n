@@ -311,6 +311,8 @@ profile-label-domain = Dominio de email:
 profile-label-domain-tooltip = Crea tu unic e personal dominio e-mail.
 profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
+profile-label-skip = Saltar
+profile-label-continue = Continuar
 # This string is followed by an email address
 profile-label-forward-emails = Reexpedir messages a:
 # This string is followed by date
@@ -430,9 +432,7 @@ error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es di
 ## Onboarding 
 
 onboarding-headline = Crea tu prime alias, tu ha tres manieras …
-onboarding-tip-1 = Solo clicca le button “Generar nove alias” pro crear tu primo alias
-onboarding-tip-2 = Seligente le icone de { -brand-name-firefox-relay } quando illo appare in campos de e-mail
-onboarding-tip-3 = Via le menu contextual, solo clicca dextre (Windows) o Control-click (macOS) sur le campos del formulario pro acceder le menu e generar un alias
+onboarding-alias-tip-1 = Elige “Generar nove alias” pro crear tu prime alias.
 
 ## Premium Onboarding
 
@@ -446,6 +446,23 @@ onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
 onboarding-premium-domain-description = Con un dominio personalisate, tu pote render le alias de tu “littera de novas” differente del alias de tu “compras”.
 onboarding-premium-reply-title = Responde a emails sin revelar tu real adresse
 onboarding-premium-reply-description = Besonia tu de responder a e-mails inviate a un alias?
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Benvenite a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de ingresso, un e-mail cata vice.
+multi-part-onboarding-premium-welcome-title = Controla que emails tu recipe:
+multi-part-onboarding-premium-welcome-button-start = Comenciar
+multi-part-onboarding-premium-domain-headline = Un dominio personal pro compartir aliases
+multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
+multi-part-onboarding-premium-domain-cta = Registra ora tu dominio personal:
+multi-part-onboarding-premium-extension-reply-title = Responde a emails sin revelar tu real adresse:
+multi-part-onboarding-premium-extension-get-title = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Le extension { -brand-name-relay } pro { -brand-name-firefox } rende mesmo plus facile le uso del aliases de e-mail.
+multi-part-onboarding-premium-extension-button-download = Discarga le extension { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Continuar,io discargara plus tarde le extension
+multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
+multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de controlo
 
 ## Modals
 
@@ -465,14 +482,14 @@ modal-delete-domain-address-warning-upgrade =
     Si tu recrea un alias delite, le e-mails inviate al original alias continuara esser inultrate.
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
-modal-domain-register-warning = Rememora, tu pote registrar un dominio solo pro tu conto e non es possibile lo cambiar plus tarde.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } es disponibile!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Si, io vole registrar { $subdomain }
+modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomain }
+modal-domain-register-success-title = Successo!
 
 ## Evergreen Survey (displayed on the profile page)
 
