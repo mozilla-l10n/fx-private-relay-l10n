@@ -142,6 +142,8 @@ faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
+# Deprecated
+faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 
 ## Profile Page (Logged In)
 
@@ -161,6 +163,8 @@ profile-label-apply = Aplicar
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
 profile-label-click-to-copy = Clic para copiar
 profile-label-copy-confirmation = Alias copiado al portapapeles
@@ -197,6 +201,8 @@ banner-choose-subdomain-label = Tu dominio es:
 
 ## Premium Onboarding
 
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
 
 ## Modals
@@ -231,6 +237,7 @@ survey-option-not-likely = Poco probable
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Ahorra un 50% con una suscripción anual
 vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
