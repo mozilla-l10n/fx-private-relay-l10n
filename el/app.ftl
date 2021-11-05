@@ -134,7 +134,16 @@ landing-hero-headline = Προστατέψτε την πραγματική σα�
 ## How it works section
 
 landing-how-it-works-headline = Πώς λειτουργεί;
+landing-how-it-works-body = Μοιραστείτε τα ψευδώνυμα email του { -brand-name-relay } αντί της πραγματικής σας διεύθυνσης email για να προστατεύσετε τα εισερχόμενα και την ταυτότητά σας.
 landing-how-it-works-step-1-body-cta = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Δημιουργήστε αυτόματα ψευδώνυμα email όπου κι αν εισαγάγετε τη διεύθυνση email σας στο διαδίκτυο.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Καθώς περιηγείστε, θα εμφανιστεί το εικονίδιο { -brand-name-relay } σε ιστοτόπους που ζητούν τη διεύθυνση email σας.
+    Επιλέξτε το για να δημιουργήσετε μια νέα, τυχαία διεύθυνση με κατάληξη @relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Συνδεθείτε στον πίνακα ελέγχου του { -brand-name-relay } για να παρακολουθήσετε τα ψευδώνυμά σας. Το { -brand-name-relay } θα προωθεί μηνύματα στη διεύθυνση email σας. 
+    Αν ένα ψευδώνυμο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να αποκλείσετε όλα τα μηνύματα ή ακόμα και να διαγράψετε το ψευδώνυμο, απευθείας από τον πίνακα ελέγχου.
 
 ## Pricing section
 
@@ -151,6 +160,7 @@ landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/μήνα
+landing-pricing-premium-price-highlight = Τιμή περιορισμένου χρόνου
 landing-pricing-premium-feature-1 = Απεριόριστα ψευδώνυμα email
 landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
@@ -341,6 +351,9 @@ banner-register-subdomain-button-search = Αναζήτηση
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Ενημέρωση σημείωσης απορρήτου
+banner-label-privacy-notice-update-cta = Προβολή σημείωσης απορρήτου
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
 banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
@@ -378,6 +391,9 @@ error-subdomain-not-available = Ο τομέας @{ $unavailable_subdomain } δε
 ## Onboarding 
 
 onboarding-headline = Δημιουργήστε το πρώτο σας ψευδώνυμο, έχετε τρεις τρόπους…
+onboarding-alias-tip-1 = Επιλέξτε «Δημιουργία νέου ψευδωνύμου» για να δημιουργήσετε το πρώτο σας ψευδώνυμο.
+onboarding-alias-tip-2 = Με την επέκταση { -brand-name-relay }, επιλέξτε το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί σε πεδία email.
+onboarding-alias-tip-3 = Με την επέκταση { -brand-name-relay }, κάντε δεξί κλικ σε πεδία φορμών και επιλέξτε «Δημιουργία νέου ψευδωνύμου».
 
 ## Premium Onboarding
 
@@ -386,6 +402,7 @@ onboarding-premium-headline = Καλώς ορίσατε στο { -brand-name-fir
 onboarding-premium-subheadline-html = Πλέον, μπορείτε να <strong>ελέγχετε</strong> τα εισερχόμενά σας, ένα email κάθε φορά.
 onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-name-relay-premium }, μπορείτε να:
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
+onboarding-premium-domain-title = Χρησιμοποιήστε έναν προσαρμοσμένο τομέα για κοινή χρήση ψευδωνύμων
 onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 onboarding-premium-reply-description = Θέλετε να απαντήσετε σε email που απεστάλησαν σε ένα ψευδώνυμο; Απαντήστε κανονικά — το ψευδώνυμό σας θα προστατεύσει τη διεύθυνση email.
@@ -393,7 +410,16 @@ onboarding-premium-reply-description = Θέλετε να απαντήσετε σ
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Πλέον, μπορείτε να ελέγχετε τα εισερχόμενά σας, ένα email κάθε φορά.
+multi-part-onboarding-premium-welcome-title = Ελέγξετε ποια email θα λαμβάνετε:
 multi-part-onboarding-premium-welcome-button-start = Έναρξη
+multi-part-onboarding-premium-domain-headline = Προσαρμοσμένος τομέας για κοινή χρήση ψευδωνύμων
+multi-part-onboarding-premium-domain-title = Αποκτήστε έναν δικό σας τομέα ψευδωνύμων:
+multi-part-onboarding-premium-domain-cta = Καταχωρήστε τον δικό σας τομέα τώρα:
+multi-part-onboarding-premium-extension-headline = Φραγή, προώθηση και απάντηση
+multi-part-onboarding-premium-extension-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση:
+multi-part-onboarding-premium-extension-get-title = Αποκτήστε την επέκταση { -brand-name-relay } για το { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 multi-part-onboarding-premium-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κάνω λήψη της επέκτασης αργότερα
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
@@ -417,6 +443,7 @@ modal-delete-domain-address-warning-upgrade =
     Αν δημιουργήσετε ξανά ένα διαγεγραμμένο ψευδώνυμο, τα email που αποστέλλονται στο πρωτότυπο ψευδώνυμο θα συνεχίσουν να προωθούνται.
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
 modal-domain-register-good-news = Καλά νέα!
+modal-domain-register-warning-reminder = Θυμηθείτε ότι μπορείτε να καταχωρήσετε μόνο έναν τομέα. Δεν θα μπορείτε να τον αλλάξετε αργότερα.
 modal-domain-register-button = Καταχώρηση τομέα
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -425,6 +452,11 @@ modal-domain-register-available = Το { $subdomain } είναι διαθέσι�
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
 modal-domain-register-success-title = Επιτυχία!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = Το { $subdomain } είναι πλέον ο τομέας email σας!
+modal-domain-register-success-copy = Τώρα μπορείτε να φτιάξετε απεριόριστα ψευδώνυμα email με τον νέο σας τομέα! Τι περιμένετε;
 
 ## Evergreen Survey (displayed on the profile page)
 
