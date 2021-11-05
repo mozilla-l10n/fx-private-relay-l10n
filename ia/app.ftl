@@ -461,7 +461,14 @@ multi-part-onboarding-premium-welcome-title = Controla que emails tu recipe:
 multi-part-onboarding-premium-welcome-button-start = Comenciar
 multi-part-onboarding-premium-domain-headline = Un dominio personal pro compartir aliases
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
+    Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
 multi-part-onboarding-premium-domain-cta = Registra ora tu dominio personal:
+multi-part-onboarding-premium-domain-button-skip = Continuar, io registrara mi dominio personal plus tarde
+multi-part-onboarding-premium-extension-headline = Blocar, inultrar e replicar
 multi-part-onboarding-premium-extension-reply-title = Responde a emails sin revelar tu real adresse:
 multi-part-onboarding-premium-extension-get-title = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Le extension { -brand-name-relay } pro { -brand-name-firefox } rende mesmo plus facile le uso del aliases de e-mail.
@@ -488,6 +495,7 @@ modal-delete-domain-address-warning-upgrade =
     Si tu recrea un alias delite, le e-mails inviate al original alias continuara esser inultrate.
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
+modal-domain-register-warning-reminder = Rememora, tu pote registrar solo un dominio. Tu non potera cambiar lo postea.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -496,6 +504,11 @@ modal-domain-register-available = { $subdomain } es disponibile!
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomain }
 modal-domain-register-success-title = Successo!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } es ora tu dominio e-mail!
+modal-domain-register-success-copy = Ora tu pote crear illimitate aliases e-mail per tu nove dominio! Que attende tu?
 
 ## Evergreen Survey (displayed on the profile page)
 
