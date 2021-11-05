@@ -104,7 +104,7 @@ hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arri
 
 landing-hero-headline = Protect your real email address to help control your inbox
 landing-hero-body = { -brand-name-firefox-relay } email aliases protect your real email address from public view, automatically forwarding emails to your real inbox. 
-    Now you can receive only the emails you want in your inbox. Sign up with your ⁨{ -brand-name-firefox-account }⁩ to get started.
+    Now you can receive only the emails you want in your inbox. Sign up with your { -brand-name-firefox-account } to get started.
 
 ## How it works section
 
@@ -257,8 +257,8 @@ faq-question-subdomain-characters-answer = Only lower case English alphabet, num
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 faq-question-browser-support-answer = Yes, you can generate { -brand-name-relay } aliases on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
 
-faq-question-longevity-question = What happens if ⁨Mozilla⁩ shuts down the ⁨{ -brand-name-firefox-relay } service?
-faq-question-longevity-answer = We will give you advance notice that you need to change the email address of any accounts that are using ⁨{ -brand-name-relay }⁩ aliases.
+faq-question-longevity-question = What happens if Mozilla shuts down the { -brand-name-firefox-relay } service?
+faq-question-longevity-answer = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } aliases.
 
 faq-question-mozmail-question = Why did my aliases start to use the domain “mozmail.com?”
 faq-question-mozmail-answer = We made the switch from “relay.firefox.com” to “mozmail.com” in order to make it possible to get a custom email domain, such as alias@yourdomain.mozmail.com. Custom email domains, available to { -brand-name-relay-premium } subscribers, also make your email aliases much easier to remember than random aliases.
