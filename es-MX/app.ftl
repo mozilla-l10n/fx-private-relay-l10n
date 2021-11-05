@@ -86,6 +86,9 @@ how-it-works-headline = Cómo funciona
 how-it-works-subheadline = Protege tu identidad personal en todos los lugares donde uses el { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Obtener la extensión
 how-it-works-step-1-link = Descargar la extensión de { -brand-name-relay } para { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Selecciona el icono que aparece en tu barra de herramientas de { -brand-name-firefox } para acceder a la página de inicio de sesión. 
+    Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
 how-it-works-step-2-headline = Crea un nuevo alias
 how-it-works-step-3-headline = Administra tus alias
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
