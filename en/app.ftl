@@ -316,6 +316,8 @@ profile-label-domain = Email Domain:
 profile-label-domain-tooltip = Create your unique and custom email domain.
 profile-label-reset = Reset
 profile-label-apply = Apply
+profile-label-skip = Skip
+profile-label-continue = Continue
 
 # This string is followed by an email address
 profile-label-forward-emails = Forward emails to:
@@ -443,9 +445,9 @@ error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not av
 ## Onboarding 
 
 onboarding-headline = Create your first alias, you have three ways …
-onboarding-tip-1 = Just click the button “Generate New Alias” to create your first alias
-onboarding-tip-2 = By selecting the { -brand-name-firefox-relay } icon when it appears in email fields
-onboarding-tip-3 = Via the context menu, just right-click (Windows) or Control-click (macOS) on form fields to access the menu and generate an alias
+onboarding-alias-tip-1 = Select “Generate New Alias” to create your first alias.
+onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
+onboarding-alias-tip-3 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate New Alias.”
 
 ## Premium Onboarding
 
@@ -460,10 +462,35 @@ onboarding-premium-domain-description = With a custom domain, you can make your 
 onboarding-premium-reply-title = Reply to emails without giving away your real address
 onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
 
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
+multi-part-onboarding-premium-welcome-title = Control what emails you get:
+multi-part-onboarding-premium-welcome-description = { onboarding-premium-control-description }
+multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliases
+multi-part-onboarding-premium-domain-subheadline = { multi-part-onboarding-premium-welcome-subheadline }
+multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
+# 
+multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
+  Need an alias for restaurant reservations? Just say food@yourdomain.mozmail.com — No need to create the alias beforehand. 
+multi-part-onboarding-premium-domain-cta = Register your custom domain now:
+multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later 
+multi-part-onboarding-premium-extension-headline = Block, forward, and reply
+multi-part-onboarding-premium-extension-subheadline = { multi-part-onboarding-premium-welcome-subheadline }
+multi-part-onboarding-premium-extension-reply-title = Reply to emails without giving away your real address:
+multi-part-onboarding-premium-extension-reply-description = { onboarding-premium-reply-description }
+multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox } 
+multi-part-onboarding-premium-extension-get-description = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email aliases even easier. 
+multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
+multi-part-onboarding-premium-extension-button-skip = Continue, I’ll download the extension later
+multi-part-onboarding-premium-extension-added = { -brand-name-relay } extension added!
+multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
+
 ## Modals
 
 modal-rename-alias-saved = Label saved!
 modal-delete-headline = Permanently delete this alias?
+
 
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
@@ -476,7 +503,7 @@ modal-delete-domain-address-warning-upgrade = If you use this alias to log in to
     If you recreate a deleted alias, emails sent to the original alias will continue to be forwarded.
 modal-delete-confirmation = Yes, I want to delete this alias.
 modal-domain-register-good-news = Good News!
-modal-domain-register-warning = Remember, you are allowed to register one domain only for your account and is not possible to change your domain later.
+modal-domain-register-warning = Remember, you can only register one domain. You won’t be able to change it later.
 modal-domain-register-button = Register Domain
 
 # Variables:
@@ -485,7 +512,14 @@ modal-domain-register-available = { $subdomain } is available!
 
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Yes, I want to register { $subdomain }
+modal-domain-register-confirmation = Yes, I want to register @{ $subdomain }
+modal-domain-register-success-title = Success!
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } is now your email domain!
+modal-domain-register-success-copy = Now you can create unlimited email aliases using your new domain! What are you waiting for?
 
 ## Evergreen Survey (displayed on the profile page)
 
