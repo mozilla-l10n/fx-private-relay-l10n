@@ -141,6 +141,7 @@ faq-headline = Preguntas frecuentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-name-relay }?
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 faq-question-1-question = ¿Qué pasa con el spam?
@@ -154,8 +155,11 @@ faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
+profile-headline-manage-domain = Administra los alias de tu dominio
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-edit = Editar la etiqueta de este alias
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Agregar nombre de cuenta
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
@@ -185,7 +189,9 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
+banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más el uso de alias de correo electrónico.
 banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand-name-firefox }
+banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
@@ -228,6 +234,7 @@ modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = En una escala del 1-10, ¿qué probabilidades hay de que recomiendes { -brand-name-relay } a un amigo o colega?
+survey-question-2 = ¿{ -brand-name-relay } es fácil de usar?
 survey-question-3 = ¿Sientes que { -brand-name-relay } es confiable?
 survey-question-4 = ¿Tiene { -brand-name-relay } una presentación limpia y simple?
 survey-question-5 = ¿Cómo te sentirías si ya no pudieras usar { -brand-name-relay }?
