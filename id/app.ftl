@@ -183,6 +183,7 @@ settings-meta-contact-tooltip = Tanyakan hal seputar { -brand-name-relay }
 settings-meta-help-label = Bantuan dan dukungan
 settings-meta-help-tooltip = Dapatkan bantuan menggunakan { -brand-name-relay }
 settings-meta-status-label = Status Layanan
+settings-meta-status-tooltip = Periksa apakah saat ini semua sistem { -brand-name-relay } berfungsi.
 settings-error-save-heading = Perubahan pengaturan gagal
 settings-error-save-description = Perubahan pengaturan Anda tidak tersimpan dikarenakan koneksi bermasalah. Silakan coba lagi.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
