@@ -181,6 +181,7 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
+banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
