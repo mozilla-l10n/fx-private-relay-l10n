@@ -115,12 +115,14 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 landing-use-cases-social-networks = Redes sociales
 landing-use-cases-offline = Sin conexión
+landing-use-cases-gaming = Juegos
 
 ## Landing FAQ Section
 
 
 ## Settings page
 
+settings-headline = Ajustes de { -brand-name-relay }
 settings-meta-contact-label = Contáctanos
 settings-meta-help-label = Ayuda y soporte
 settings-meta-status-label = Estado del servicio
@@ -147,6 +149,7 @@ faq-question-availability-question = ¿Dónde está disponible { -brand-name-rel
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
+profile-label-edit = Editar la etiqueta de este alias
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
@@ -158,9 +161,12 @@ profile-label-apply = Aplicar
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
+profile-label-blocking = bloqueando
 profile-label-click-to-copy = Clic para copiar
 profile-label-copy-confirmation = Alias copiado al portapapeles
 profile-label-copied = ¡Copiado!
+profile-label-blocked = Bloqueado
+profile-label-forwarded = Reenviados
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
 profile-filter-search-placeholder = Buscar alias
@@ -169,6 +175,8 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-cta = Obtén { -brand-name-firefox }
+banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
@@ -207,6 +215,9 @@ modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = En una escala del 1-10, ¿qué probabilidades hay de que recomiendes { -brand-name-relay } a un amigo o colega?
+survey-question-3 = ¿Sientes que { -brand-name-relay } es confiable?
+survey-question-4 = ¿Tiene { -brand-name-relay } una presentación limpia y simple?
+survey-question-5 = ¿Cómo te sentirías si ya no pudieras usar { -brand-name-relay }?
 survey-option-strongly-disagree = Totalmente en desacuerdo
 survey-option-disagree = En desacuerdo
 survey-option-unsure = No estoy seguro
