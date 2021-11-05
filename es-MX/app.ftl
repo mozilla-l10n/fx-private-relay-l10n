@@ -185,6 +185,8 @@ banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
+# Data Notification Banner:
+banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
