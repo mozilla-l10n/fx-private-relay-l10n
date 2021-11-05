@@ -110,6 +110,9 @@ landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-r
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-2 = Extensión del navegador
 landing-pricing-free-cta = Obtener { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/mes
 landing-pricing-premium-feature-2 = Extensión del navegador
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
@@ -167,6 +170,7 @@ profile-label-delete-alias = Eliminar este alias
 profile-label-upgrade = Obtener alias ilimitados
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
+profile-label-continue = Continuar
 # This string is followed by date:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
@@ -218,6 +222,9 @@ banner-choose-subdomain-label = Tu dominio es:
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
 
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+
 ## Modals
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
@@ -227,9 +234,6 @@ modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
