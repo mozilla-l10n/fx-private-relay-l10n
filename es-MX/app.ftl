@@ -48,8 +48,11 @@ nav-profile-sign-out-confirm = ¿Estás seguro de que quieres cerrar sesión?
 nav-profile-settings = Ajustes
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-help = Ayuda y soporte
+nav-profile-help-tooltip = Obtén ayuda para usar { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Contáctanos
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Comunícate con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
 ## Footer
@@ -162,6 +165,7 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
+banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
@@ -183,6 +187,7 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-rel
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
 modal-domain-register-good-news = ¡Buenas noticias!
+modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
