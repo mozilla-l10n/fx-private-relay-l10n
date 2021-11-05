@@ -403,6 +403,11 @@ banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } {
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
 
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Privacy Notice Update
+banner-label-privacy-notice-update-body = To improve the reliability of { -brand-name-firefox-relay } in the event that an email can’t be delivered, we will temporarily keep the email on our servers until it has been delivered. We will never hold onto it for more than three days.
+banner-label-privacy-notice-update-cta = View Privacy Notice
+
 # Data Notification Banner:
 banner-label-data-notification-header = Coming soon to { -brand-name-relay }
 banner-label-data-notification-body = You can allow { -brand-name-relay } to collect optional data on the websites where your aliases are used to support future features. Allowing this data collection from the “Settings” page will make managing your inbox even easier.
