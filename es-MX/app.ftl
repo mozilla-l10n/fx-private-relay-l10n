@@ -123,6 +123,7 @@ landing-use-cases-offline = Sin conexión
 
 settings-meta-contact-label = Contáctanos
 settings-meta-help-label = Ayuda y soporte
+settings-meta-status-label = Estado del servicio
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
@@ -135,8 +136,10 @@ faq-headline = Preguntas frecuentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-name-relay }?
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 faq-question-1-question = ¿Qué pasa con el spam?
+faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 
 ## Profile Page (Logged In)
 
@@ -148,6 +151,8 @@ profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
 profile-label-delete-alias = Eliminar este alias
+profile-label-upgrade = Obtener alias ilimitados
+profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 # This string is followed by date:
 profile-label-created = Creado:
@@ -158,13 +163,16 @@ profile-label-copy-confirmation = Alias copiado al portapapeles
 profile-label-copied = ¡Copiado!
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
+profile-filter-search-placeholder = Buscar alias
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 ## Banner Messages (displayed on the profile page)
 
+banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 banner-pack-upgrade-cta = Actualizar ahora
+banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
@@ -186,15 +194,27 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-rel
 ## Modals
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
+modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
 modal-domain-register-button = Registrar dominio
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = ¡{ $subdomain } está disponible!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = En una escala del 1-10, ¿qué probabilidades hay de que recomiendes { -brand-name-relay } a un amigo o colega?
+survey-option-strongly-disagree = Totalmente en desacuerdo
+survey-option-disagree = En desacuerdo
 survey-option-unsure = No estoy seguro
+survey-option-agree = De acuerdo
+survey-option-strongly-agree = Totalmente de acuerdo
+survey-option-i-wouldnt-care = No me importaría
+survey-option-somewhat-disappointed = Algo decepcionado
+survey-option-very-disappointed = Muy decepcionado
 survey-option-very-likely = Muy probablemente
 survey-option-not-likely = Poco probable
 
