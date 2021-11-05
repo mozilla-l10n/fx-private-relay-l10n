@@ -396,6 +396,8 @@ banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio
 banner-pack-upgrade-cta = Promover ora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
+banner-label-privacy-notice-update-body = Pro meliorar le fidabilitate de { -brand-name-firefox-relay } in caso que un e-mail non pote esser livrate, nos temporarimente mantenera le e-mail sur nostre servitores usque illo ha essite livrate. Nos jammais lo tenera in desde plus que tres dies.
+banner-label-privacy-notice-update-cta = Vider le aviso de confidentialitate
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-body = Tu pote permitter a { -brand-name-relay } de colliger datos optional sur le sitos web ubi tu aliases es usate pro supportar futur functionalitates. Permitter iste collection de datos per le pagina “Parametros” rendera mesmo plus facile gerer tu cassa de ingresso.
@@ -435,6 +437,8 @@ error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es di
 
 onboarding-headline = Crea tu prime alias, tu ha tres manieras …
 onboarding-alias-tip-1 = Elige “Generar nove alias” pro crear tu prime alias.
+onboarding-alias-tip-2 = Usante le extension le { -brand-name-relay }, elige le icone { -brand-name-firefox-relay } quando illo appare in campos de e-mail.
+onboarding-alias-tip-3 = Usante le extension { -brand-name-relay }, clicca dextre sur le campos del formulario e elige “Generar Nove Alias.”
 
 ## Premium Onboarding
 
