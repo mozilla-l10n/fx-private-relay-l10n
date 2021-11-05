@@ -467,12 +467,12 @@ multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
 multi-part-onboarding-premium-welcome-description = { onboarding-premium-control-description }
+multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliases
 multi-part-onboarding-premium-domain-subheadline = { multi-part-onboarding-premium-welcome-subheadline }
 multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
-# 
 multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
-  Need an alias for restaurant reservations? Just say food@yourdomain.mozmail.com — No need to create the alias beforehand. 
+    Need an alias for restaurant reservations? Just say food@yourdomain.mozmail.com — No need to create the alias beforehand. 
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later 
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
@@ -503,7 +503,7 @@ modal-delete-domain-address-warning-upgrade = If you use this alias to log in to
     If you recreate a deleted alias, emails sent to the original alias will continue to be forwarded.
 modal-delete-confirmation = Yes, I want to delete this alias.
 modal-domain-register-good-news = Good News!
-modal-domain-register-warning = Remember, you can only register one domain. You won’t be able to change it later.
+modal-domain-register-warning-reminder = Remember, you can only register one domain. You won’t be able to change it later.
 modal-domain-register-button = Register Domain
 
 # Variables:
