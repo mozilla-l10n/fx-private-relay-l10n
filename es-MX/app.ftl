@@ -142,6 +142,7 @@ faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
+faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 
