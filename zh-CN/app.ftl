@@ -284,6 +284,8 @@ profile-label-domain = 域名邮箱：
 profile-label-domain-tooltip = 创建您专属的自定义域名邮箱。
 profile-label-reset = 重置
 profile-label-apply = 应用
+profile-label-skip = 跳过
+profile-label-continue = 继续
 # This string is followed by an email address
 profile-label-forward-emails = 转发邮件至：
 # This string is followed by date
@@ -362,6 +364,9 @@ banner-register-subdomain-button-search = 搜索
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获得更多马甲
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = 隐私声明更新
+banner-label-privacy-notice-update-cta = 查看隐私声明
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-body = 您可允许 { -brand-name-relay } 收集在哪些网站创建使用过马甲邮箱，以帮助未来新功能开发（非必需）。到“设置”页面允许收集，让未来的收件箱管理更轻松。
@@ -400,9 +405,8 @@ error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。�
 ## Onboarding 
 
 onboarding-headline = 有三种方式可以创建您的第一个马甲…
-onboarding-tip-1 = 点击“生成新马甲”即可创建您的第一个马甲
-onboarding-tip-2 = 当 { -brand-name-firefox-relay } 图标出现在邮箱地址栏时，选择该图标
-onboarding-tip-3 = 在表单栏上鼠标右击（Windows）或 Control + 鼠标左击（macOS），即可通过右键菜单生成新马甲
+onboarding-alias-tip-1 = 点击“生成新马甲”创建您的第一个马甲。
+onboarding-alias-tip-3 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新别名”。
 
 ## Premium Onboarding
 
@@ -417,6 +421,16 @@ onboarding-premium-domain-description = 借助自定义域名，您可在各个�
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-button-start = 开始使用
+multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
+multi-part-onboarding-premium-domain-button-skip = 继续，我以后再注册自定义域名
+multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
+multi-part-onboarding-premium-extension-button-download = 下载 { -brand-name-relay } 扩展
+multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
+
 ## Modals
 
 modal-rename-alias-saved = 标签已保存！
@@ -428,14 +442,14 @@ modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的�
 modal-delete-domain-address-warning-upgrade = 如果您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
-modal-domain-register-warning = 注意：账户与域名直接绑定，注册之后不可更改。
 modal-domain-register-button = 注册域名
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } 可用！
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = 是的，我要注册 { $subdomain }
+modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
+modal-domain-register-success-title = 成功！
 
 ## Evergreen Survey (displayed on the profile page)
 
