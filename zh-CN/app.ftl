@@ -424,6 +424,8 @@ onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件�
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
+multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
 multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
