@@ -425,11 +425,17 @@ onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件�
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-button-start = 开始使用
+multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
-multi-part-onboarding-premium-domain-button-skip = 继续，我以后再注册自定义域名
+multi-part-onboarding-premium-domain-button-skip = 继续，我之后再注册自定义域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
+multi-part-onboarding-premium-extension-reply-title = 不用泄露真实邮箱，就能回复邮件：
+multi-part-onboarding-premium-extension-get-title = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
+multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 multi-part-onboarding-premium-extension-button-download = 下载 { -brand-name-relay } 扩展
+multi-part-onboarding-premium-extension-button-skip = 继续，我之后再下载扩展
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
+multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 
 ## Modals
 
