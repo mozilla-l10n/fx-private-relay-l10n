@@ -198,6 +198,8 @@ banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-cta = Actualizar ahora
 # Data Notification Banner:
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
