@@ -465,6 +465,21 @@ multi-part-onboarding-premium-welcome-title = Контролюйте, які л�
 multi-part-onboarding-premium-welcome-button-start = Розпочнімо
 multi-part-onboarding-premium-domain-headline = Власні домени псевдоадрес, якими можна ділитися
 multi-part-onboarding-premium-domain-title = Отримайте користувацький домен для своїх псевдоадрес:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Використовуючи спеціальний домен, ви можете створювати псевдоадреси, які легше запам’ятати та поділитися ними.
+    Потрібна псевдоадреса для бронювання ресторанів? Просто скажіть food@yourdomain{ $mozmail } — не потрібно створювати псевдоадресу заздалегідь.
+multi-part-onboarding-premium-domain-cta = Зареєструйте свій власний домен зараз:
+multi-part-onboarding-premium-domain-button-skip = Продовжити, я зареєструю свій власний домен пізніше
+multi-part-onboarding-premium-extension-headline = Блокуйте, пересилайте та відповідайте
+multi-part-onboarding-premium-extension-reply-title = Відповідайте на електронні листи, не повідомляючи своєї справжньої адреси:
+multi-part-onboarding-premium-extension-get-title = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Розширення { -brand-name-relay } для { -brand-name-firefox } спрощує користування псевдоадресами.
+multi-part-onboarding-premium-extension-button-download = Отримати розширення { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Продовжити, я завантажу розширення пізніше
+multi-part-onboarding-premium-extension-added = Розширення { -brand-name-relay } додано!
+multi-part-onboarding-premium-extension-button-dashboard = Перейти до панелі стану
 
 ## Modals
 
@@ -484,10 +499,20 @@ modal-delete-domain-address-warning-upgrade =
     видалену псевдоадресу, електронні листи, надіслані на оригінальну псевдоадресу, будуть продовжувати пересилатися.
 modal-delete-confirmation = Так, я хочу видалити цю псевдоадресу.
 modal-domain-register-good-news = Гарні новини!
+modal-domain-register-warning-reminder = Пам’ятайте, що ви можете зареєструвати лише один домен. Ви не зможете змінити його пізніше.
 modal-domain-register-button = Зареєструвати домен
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } доступний!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Так, я хочу зареєструвати @{ $subdomain }
+modal-domain-register-success-title = Готово!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } — відтепер ваш домен електронної пошти!
+modal-domain-register-success-copy = Тепер ви можете створювати необмежену кількість псевдоадрес електронної пошти, за допомогою свого нового домену! Не баріться, користуйтеся!
 
 ## Evergreen Survey (displayed on the profile page)
 
