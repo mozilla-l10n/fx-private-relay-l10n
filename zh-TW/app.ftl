@@ -386,9 +386,6 @@ error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用�
 ## Onboarding 
 
 onboarding-headline = 有三種方式能建立您的第一個別名…
-onboarding-tip-1 = 點擊「產生新別名」來建立您的第一組別名
-onboarding-tip-2 = 當 { -brand-name-firefox-relay } 圖示出現在信箱地址欄位時，選擇該圖示
-onboarding-tip-3 = 對表單欄位開啟右鍵選單（Windows）或 Control+滑鼠點擊（macOS），產生一組別名
 
 ## Premium Onboarding
 
@@ -403,6 +400,13 @@ onboarding-premium-domain-description = 透過自訂網域，可以讓「電子�
 onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
 onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件嗎？只要如往常一般方式回信，仍可透過別名來保護您的地址。
 
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-extension-button-download = 下載 { -brand-name-relay } 擴充套件
+multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
+multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
+multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
+
 ## Modals
 
 modal-rename-alias-saved = 已儲存標籤！
@@ -413,14 +417,18 @@ modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -bran
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，請務必在刪除此別名前，先到該網站把電子郵件地址更改成其他地址。
 modal-delete-confirmation = 是的，我要刪除這個別名。
 modal-domain-register-good-news = 好消息！
-modal-domain-register-warning = 注意：您只可註冊一組由自己私人使用的網域，之後將無法再變更。
 modal-domain-register-button = 註冊網域
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = 可以註冊 { $subdomain }！
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = 好，我要註冊 { $subdomain }
+modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
+modal-domain-register-success-title = 成功！
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = 現在起將使用 { $subdomain } 作為您的郵件網域！
 
 ## Evergreen Survey (displayed on the profile page)
 
