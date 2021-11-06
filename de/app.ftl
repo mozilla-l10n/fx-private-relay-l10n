@@ -314,6 +314,8 @@ profile-label-domain = E-Mail-Domain:
 profile-label-domain-tooltip = Erstellen Sie Ihre einzigartige und benutzerdefinierte E-Mail-Domain.
 profile-label-reset = Zurücksetzen
 profile-label-apply = Anwenden
+profile-label-skip = Überspringen
+profile-label-continue = Weiter
 # This string is followed by an email address
 profile-label-forward-emails = E-Mails weiterleiten an:
 # This string is followed by date
@@ -396,6 +398,10 @@ banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet Ihnen unbegrenzt viele Alias-E-Mail-Adressen und Ihre eigene E-Mail-Domain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
+banner-label-privacy-notice-update-body = Um die Zuverlässigkeit von { -brand-name-firefox-relay } für den Fall zu verbessern, dass eine E-Mail nicht zugestellt werden kann, speichern wir die E-Mail vorübergehend auf unseren Servern, bis sie zugestellt wurde. Wir speichern die E-Mail nie länger als drei Tage.
+banner-label-privacy-notice-update-cta = Datenschutzhinweis ansehen
 # Data Notification Banner:
 banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
 banner-label-data-notification-body = Sie können { -brand-name-relay } erlauben, optionale Daten auf den Websites zu sammeln, auf denen Ihre Alias-E-Mail-Adressen verwendet werden, um zukünftige Funktionen zu unterstützen. Wenn Sie diese Datenerfassung auf der Seite „Einstellungen“ zulassen, wird die Verwaltung Ihres Posteingangs noch einfacher.
@@ -434,9 +440,9 @@ error-subdomain-not-available = Die Domain @{ $unavailable_subdomain } ist nicht
 ## Onboarding 
 
 onboarding-headline = Erstellen Sie Ihre erste Alias-Adresse; Sie haben drei Möglichkeiten …
-onboarding-tip-1 = Klicken Sie einfach auf die Schaltfläche „Neue Alias-Adresse erstellen“, um Ihre erste Alias-Adresse zu erstellen
-onboarding-tip-2 = Wählen Sie das { -brand-name-firefox-relay }-Symbol aus, wenn es in einem E-Mail-Adressfeld erscheint
-onboarding-tip-3 = Nutzen Sie das Kontextmenü, indem Sie per Rechtsklick (Windows) oder per Befehlstaste+Klick (macOS) in Formularfeldern das Menü aufrufen und eine Alias-Adresse erstellen
+onboarding-alias-tip-1 = Wählen Sie „Neue Alias-Adresse erstellen“, um Ihre erste Alias-Adresse zu erstellen
+onboarding-alias-tip-2 = Wählen Sie mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
+onboarding-alias-tip-3 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Alias-Adresse erstellen“.
 
 ## Premium Onboarding
 
@@ -450,6 +456,23 @@ onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Ma
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
 onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben
 onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Jetzt können Sie E-Mail für E-Mail steuern, was in Ihrem Posteingang landet.
+multi-part-onboarding-premium-welcome-title = Steuern Sie, welche E-Mails Sie erhalten:
+multi-part-onboarding-premium-welcome-button-start = Erste Schritte
+multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für Alias-E-Mail-Adressen
+multi-part-onboarding-premium-domain-title = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Mithilfe einer benutzerdefinierten Domäne können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
+    Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
+multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
+multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
+multi-part-onboarding-premium-extension-headline = Blockieren, weiterleiten und antworten
 
 ## Modals
 
@@ -469,14 +492,10 @@ modal-delete-domain-address-warning-upgrade =
     Wenn Sie eine gelöschte Alias-E-Mail-Adresse neu erstellen, werden E-Mails, die an die ursprüngliche Alias-E-Mail-Adresse gesendet wurden, wieder weitergeleitet.
 modal-delete-confirmation = Ja, ich möchte diese Alias-Adresse löschen.
 modal-domain-register-good-news = Gute Nachrichten!
-modal-domain-register-warning = Denken Sie daran, dass Sie nur eine Domain für Ihr Konto registrieren und Ihre Domain später nicht ändern können.
 modal-domain-register-button = Domain registrieren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } ist verfügbar!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ja, ich möchte { $subdomain } registrieren
 
 ## Evergreen Survey (displayed on the profile page)
 
