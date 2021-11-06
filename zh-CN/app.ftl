@@ -406,6 +406,7 @@ error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。�
 
 onboarding-headline = 有三种方式可以创建您的第一个马甲…
 onboarding-alias-tip-1 = 点击“生成新马甲”创建您的第一个马甲。
+onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
 onboarding-alias-tip-3 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新别名”。
 
 ## Premium Onboarding
