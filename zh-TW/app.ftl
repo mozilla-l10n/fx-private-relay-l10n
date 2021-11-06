@@ -270,6 +270,8 @@ profile-label-domain = 電子郵件子網域：
 profile-label-domain-tooltip = 建立專屬您的自訂郵件網域。
 profile-label-reset = 重設
 profile-label-apply = 套用
+profile-label-skip = 略過
+profile-label-continue = 繼續
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
 # This string is followed by date
@@ -348,6 +350,9 @@ banner-register-subdomain-button-search = 搜尋
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 可透過無限量別名信箱與您個人的郵件網域功能，幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = 隱私權公告更新
+banner-label-privacy-notice-update-cta = 檢視隱私權公告
 # Data Notification Banner:
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
 banner-label-data-notification-body = 您可允許 { -brand-name-relay } 收集在哪些網站建立與使用過別名，以滿足未來版本中提供的新功能所需資料（非必要）。可到「設定」頁面允許收集，讓您在未來可以更輕鬆就能管理收件匣。
@@ -386,6 +391,7 @@ error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用�
 ## Onboarding 
 
 onboarding-headline = 有三種方式能建立您的第一個別名…
+onboarding-alias-tip-1 = 點擊「產生新別名」來建立您的第一組別名。
 
 ## Premium Onboarding
 
@@ -402,6 +408,18 @@ onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件�
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封郵件自行控制哪些能進到信件匣。
+multi-part-onboarding-premium-welcome-title = 自行控制要收到哪些郵件：
+multi-part-onboarding-premium-welcome-button-start = 開始使用
+multi-part-onboarding-premium-domain-headline = 共用別名的自訂網域名稱
+multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建立別名：
+multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
+multi-part-onboarding-premium-domain-button-skip = 先繼續，我之後再註冊自訂網域
+multi-part-onboarding-premium-extension-headline = 封鎖、轉寄、回覆
+multi-part-onboarding-premium-extension-reply-title = 不用給出實際信箱，就能回覆郵件：
+multi-part-onboarding-premium-extension-get-title = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
+multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox }的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
 multi-part-onboarding-premium-extension-button-download = 下載 { -brand-name-relay } 擴充套件
 multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
