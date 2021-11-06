@@ -315,6 +315,8 @@ profile-label-domain = E-maildomein:
 profile-label-domain-tooltip = Creëer uw unieke en aangepaste e-maildomein.
 profile-label-reset = Herinitialiseren
 profile-label-apply = Toepassen
+profile-label-skip = Overslaan
+profile-label-continue = Doorgaan
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberichten doorsturen naar:
 # This string is followed by date
@@ -435,9 +437,6 @@ error-subdomain-not-available = Het domein @{ $unavailable_subdomain } is niet b
 ## Onboarding 
 
 onboarding-headline = Maak uw eerste alias aan, u kunt kiezen uit drie manieren…
-onboarding-tip-1 = Klik gewoon op de knop ‘Nieuwe alias aanmaken’ om uw eerste alias aan te maken
-onboarding-tip-2 = Door het { -brand-name-firefox-relay }-pictogram te selecteren wanneer het in e-mailvelden verschijnt
-onboarding-tip-3 = Via het contextmenu, klik gewoon met uw rechtermuisknop (Windows) of Control-klik (macOS) op formuliervelden om het menu te openen en een alias aan te maken
 
 ## Premium Onboarding
 
@@ -451,6 +450,9 @@ onboarding-premium-domain-title = Een aangepast domein gebruiken voor het delen 
 onboarding-premium-domain-description = Met een aangepast domein kunt u uw ‘nieuwsbrief’-alias laten afwijken van uw ‘winkel’-alias.
 onboarding-premium-reply-title = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
 onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias zijn gestuurd beantwoorden? Antwoord gewoon als altijd – uw alias beschermt uw e-mailadres nog steeds.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -470,14 +472,10 @@ modal-delete-domain-address-warning-upgrade =
     Als u een verwijderde alias opnieuw aanmaakt, worden e-mailberichten die naar de oorspronkelijke alias zijn verzonden nog steeds doorgestuurd.
 modal-delete-confirmation = Ja, ik wil deze alias verwijderen.
 modal-domain-register-good-news = Goed nieuws!
-modal-domain-register-warning = Onthoud dat u slechts één domein voor uw account mag registreren en dat het niet mogelijk is om uw domein later te wijzigen.
 modal-domain-register-button = Domein registreren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beschikbaar!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ja, ik wil { $subdomain } registreren
 
 ## Evergreen Survey (displayed on the profile page)
 
