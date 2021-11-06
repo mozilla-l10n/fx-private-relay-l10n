@@ -461,6 +461,10 @@ onboarding-premium-reply-description = Потрібно відповісти н�
 
 multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Тепер ви можете контролювати, що саме потрапляє у вашу поштову скриньку, по одному листу за раз.
+multi-part-onboarding-premium-welcome-title = Контролюйте, які листи ви отримуєте:
+multi-part-onboarding-premium-welcome-button-start = Розпочнімо
+multi-part-onboarding-premium-domain-headline = Власні домени псевдоадрес, якими можна ділитися
+multi-part-onboarding-premium-domain-title = Отримайте користувацький домен для своїх псевдоадрес:
 
 ## Modals
 
