@@ -314,6 +314,8 @@ profile-label-domain = Домен е-пошти:
 profile-label-domain-tooltip = Створити свій унікальний та власний домен е-пошти.
 profile-label-reset = Скинути
 profile-label-apply = Застосувати
+profile-label-skip = Пропустити
+profile-label-continue = Продовжити
 # This string is followed by an email address
 profile-label-forward-emails = Пересилати електронні листи на адресу:
 # This string is followed by date
@@ -434,9 +436,6 @@ error-subdomain-not-available = Домен @{ $unavailable_subdomain } недо�
 ## Onboarding 
 
 onboarding-headline = Створіть свою першу псевдоадресу одним з трьох способів …
-onboarding-tip-1 = Просто натисніть кнопку “Створити нову псевдоадресу”, щоб створити свою першу псевдоадресу
-onboarding-tip-2 = Виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться у полі електронної пошти
-onboarding-tip-3 = У контекстному меню просто клацніть правою кнопкою миші (Windows) або клацніть, одночасно натиснувши клавішу Control (macOS) у полі форми, щоб відкрити меню та створити псевдоадресу
 
 ## Premium Onboarding
 
@@ -450,6 +449,9 @@ onboarding-premium-domain-title = Використовуйте власні до
 onboarding-premium-domain-description = За допомогою власного домену ви можете відрізнити свою псевдоадресу “інформаційний лист” від своєї псевдоадреси для “покупок”.
 onboarding-premium-reply-title = Відповідайте на електронні листи, не розкриваючи своєї справжньої адреси
 onboarding-premium-reply-description = Потрібно відповісти на електронні листи, надіслані на псевдоадресу? Просто відповідайте як зазвичай — ваша псевдоадреса все одно захищатиме вашу справжню електронну адресу.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -469,14 +471,10 @@ modal-delete-domain-address-warning-upgrade =
     видалену псевдоадресу, електронні листи, надіслані на оригінальну псевдоадресу, будуть продовжувати пересилатися.
 modal-delete-confirmation = Так, я хочу видалити цю псевдоадресу.
 modal-domain-register-good-news = Гарні новини!
-modal-domain-register-warning = Пам’ятайте, що вам дозволено зареєструвати лише один домен для свого облікового запису, і змінити його пізніше неможливо.
 modal-domain-register-button = Зареєструвати домен
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } доступний!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Так, я хочу зареєструвати { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
