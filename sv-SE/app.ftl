@@ -467,7 +467,19 @@ multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
 multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-domain-description = Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
+multi-part-onboarding-premium-domain-description =
+    Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
+    Behöver du ett alias för restaurangbokningar? Använd bara mat@dindomän{ $mozmail } — Ditt alias behöver inte skapas i förväg.
+multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
+multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
+multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
+multi-part-onboarding-premium-extension-reply-title = Svara på e-post utan att ge bort din riktiga adress:
+multi-part-onboarding-premium-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Tillägget { -brand-name-relay } för { -brand-name-firefox } gör det ännu enklare att använda e-postalias.
+multi-part-onboarding-premium-extension-button-download = Hämta tillägget { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Fortsätt, jag laddar ner tillägget senare
+multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
+multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 
 ## Modals
 
@@ -487,10 +499,20 @@ modal-delete-domain-address-warning-upgrade =
     Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
 modal-delete-confirmation = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
+modal-domain-register-warning-reminder = Kom ihåg att du bara kan registrera en domän. Du kommer inte att kunna ändra den senare.
 modal-domain-register-button = Registrera domän
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } är tillgänglig!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
+modal-domain-register-success-title = Lyckades!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } är nu din e-postdomän!
+modal-domain-register-success-copy = Nu kan du skapa obegränsat med e-postalias i din nya domän! Vad väntar du på?
 
 ## Evergreen Survey (displayed on the profile page)
 
