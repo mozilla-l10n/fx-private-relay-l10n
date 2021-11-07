@@ -502,6 +502,21 @@ multi-part-onboarding-premium-welcome-title = Majte kontrolu nad tým, aké e-ma
 multi-part-onboarding-premium-welcome-button-start = Začíname
 multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie aliasov
 multi-part-onboarding-premium-domain-title = Získajte vlastnú doménu pre svoje aliasy:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Pomocou vlastnej domény môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať.
+    Potrebujete alias na rezervácie v reštaurácii? Stačí zadať jedlo@vašadoména{ $mozmail } — nie je potrebné vytvárať alias vopred.
+multi-part-onboarding-premium-domain-cta = Zaregistrujte svoju vlastnú doménu teraz:
+multi-part-onboarding-premium-domain-button-skip = Pokračovať, svoju vlastnú doménu si zaregistrujem neskôr
+multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
+multi-part-onboarding-premium-extension-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy:
+multi-part-onboarding-premium-extension-get-title = Získajte rozšírenie { -brand-name-relay } pre { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox } ešte viac zjednodušuje používanie e-mailových aliasov.
+multi-part-onboarding-premium-extension-button-download = Získajte rozšírenie { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Pokračovať, rozšírenie si stiahnem neskôr
+multi-part-onboarding-premium-extension-added = Rozšírenie { -brand-name-relay } bolo pridané!
+multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
 
 ## Modals
 
@@ -521,10 +536,20 @@ modal-delete-domain-address-warning-upgrade =
     Ak znova vytvoríte odstránený alias, e-maily odoslané na pôvodný alias sa budú naďalej preposielať.
 modal-delete-confirmation = Áno, chcem odstrániť tento alias.
 modal-domain-register-good-news = Dobré správy!
+modal-domain-register-warning-reminder = Pamätajte, že môžete zaregistrovať iba jednu doménu. Neskôr ju už nebudete môcť zmeniť.
 modal-domain-register-button = Registrovať doménu
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } je k dispozícii!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
+modal-domain-register-success-title = Úspešné!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } je teraz vašou e-mailovou doménou!
+modal-domain-register-success-copy = Teraz môžete pomocou svojej novej domény vytvárať neobmedzené e-mailové aliasy! Tak na čo čakáte?
 
 ## Evergreen Survey (displayed on the profile page)
 
