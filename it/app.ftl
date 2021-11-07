@@ -458,11 +458,16 @@ multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
 multi-part-onboarding-premium-welcome-button-start = Inizia
 multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
+multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
+multi-part-onboarding-premium-domain-button-skip = Continua, registrerò il mio dominio personalizzato più tardi
+multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
 multi-part-onboarding-premium-extension-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale:
 multi-part-onboarding-premium-extension-get-title = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = L’estensione { -brand-name-relay } per { -brand-name-firefox } rende l’utilizzo degli alias ancora più facile.
 multi-part-onboarding-premium-extension-button-download = Installa l’estensione { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Continua, scaricherò l’estensione più tardi
 multi-part-onboarding-premium-extension-added = Estensione { -brand-name-relay } installata.
+multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
 
 ## Modals
 
@@ -479,6 +484,7 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Se utilizzi questo alias per accedere ai siti che ritieni importanti, prima di eliminarlo dovresti aggiornare le tue credenziali di accesso utilizzando un indirizzo email diverso. Se ricrei un alias dopo averlo eliminato, le email inviate all’alias originale continueranno a essere inoltrate.
 modal-delete-confirmation = Sì, voglio eliminare questo alias.
 modal-domain-register-good-news = Buone notizie!
+modal-domain-register-warning-reminder = Ricorda, puoi registrare un solo dominio. Non potrai cambiarlo in seguito.
 modal-domain-register-button = Registra dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -487,6 +493,11 @@ modal-domain-register-available = { $subdomain } è disponibile!
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sì, voglio registrare @{ $subdomain }
 modal-domain-register-success-title = Operazione riuscita.
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } è ora il tuo dominio di posta elettronica!
+modal-domain-register-success-copy = Ora puoi creare alias email illimitati utilizzando il tuo nuovo dominio! Che cosa stai aspettando?
 
 ## Evergreen Survey (displayed on the profile page)
 
