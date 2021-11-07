@@ -314,6 +314,8 @@ profile-label-domain = Dominio email:
 profile-label-domain-tooltip = Crea il tuo dominio email unico e personalizzato.
 profile-label-reset = Ripristina
 profile-label-apply = Applica
+profile-label-skip = Ignora
+profile-label-continue = Continua
 # This string is followed by an email address
 profile-label-forward-emails = Inoltra messaggi a:
 # This string is followed by date
@@ -392,6 +394,9 @@ banner-register-subdomain-button-search = Cerca
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personalizzato, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Aggiornamento dell’informativa sulla privacy
+banner-label-privacy-notice-update-cta = Visualizza informativa sulla privacy
 # Data Notification Banner:
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
 banner-label-data-notification-body = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi sui siti web dove vengono utilizzati i tuoi alias per supportare funzionalità future. Autorizzare questa raccolta dati dalla pagina “Impostazioni” renderà ancora più semplice la gestione della tua casella di posta.
@@ -430,9 +435,7 @@ error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è di
 ## Onboarding 
 
 onboarding-headline = Crea il tuo primo alias, esistono tre modi per farlo …
-onboarding-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias
-onboarding-tip-2 = Seleziona l’icona { -brand-name-firefox-relay } quando appare nei campi dell’email
-onboarding-tip-3 = Tramite il menu contestuale, fai clic con il pulsante destro del mouse (Windows) o fai clic tenendo premuto il tasto Ctrl (macOS) sui campi del modulo per accedere al menu e generare un alias
+onboarding-alias-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias.
 
 ## Premium Onboarding
 
@@ -446,6 +449,16 @@ onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli a
 onboarding-premium-domain-description = Con un dominio personalizzato, puoi impostare alias differenti per “newsletter” e “shopping”.
 onboarding-premium-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale
 onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Benvenuto in { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Ora puoi decidere che cosa arriva nella tua casella di posta, per ogni singola email.
+multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
+multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
+multi-part-onboarding-premium-extension-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale:
+multi-part-onboarding-premium-extension-get-title = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = L’estensione { -brand-name-relay } per { -brand-name-firefox } rende l’utilizzo degli alias ancora più facile.
 
 ## Modals
 
@@ -462,14 +475,10 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Se utilizzi questo alias per accedere ai siti che ritieni importanti, prima di eliminarlo dovresti aggiornare le tue credenziali di accesso utilizzando un indirizzo email diverso. Se ricrei un alias dopo averlo eliminato, le email inviate all’alias originale continueranno a essere inoltrate.
 modal-delete-confirmation = Sì, voglio eliminare questo alias.
 modal-domain-register-good-news = Buone notizie!
-modal-domain-register-warning = Ricorda: puoi registrare un solo dominio per il tuo account e non è possibile cambiare dominio in un secondo momento.
 modal-domain-register-button = Registra dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } è disponibile!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Sì, voglio registrare { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
