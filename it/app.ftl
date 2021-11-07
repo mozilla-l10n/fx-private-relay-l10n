@@ -396,6 +396,7 @@ banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personali
 banner-pack-upgrade-cta = Aggiorna adesso
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aggiornamento dell’informativa sulla privacy
+banner-label-privacy-notice-update-body = Per garantire l’affidabilità di { -brand-name-firefox-relay }, nel caso in cui ci siano problemi con la consegna di un’email, la conserveremo temporaneamente sui nostri server fino a quando non sarà stata consegnata. L’email non verrà mai conservata per più di tre giorni.
 banner-label-privacy-notice-update-cta = Visualizza informativa sulla privacy
 # Data Notification Banner:
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
@@ -436,6 +437,8 @@ error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è di
 
 onboarding-headline = Crea il tuo primo alias, esistono tre modi per farlo …
 onboarding-alias-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias.
+onboarding-alias-tip-2 = Con l’estensione { -brand-name-relay } installata, seleziona l’icona di { -brand-name-firefox-relay } quando appare nei campi email.
+onboarding-alias-tip-3 = Con l’estensione { -brand-name-relay } installata, fai clic con il tasto destro del mouse sui campi del modulo e seleziona “Genera nuovo alias”.
 
 ## Premium Onboarding
 
@@ -458,6 +461,11 @@ multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
 multi-part-onboarding-premium-welcome-button-start = Inizia
 multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
+    Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
 multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
 multi-part-onboarding-premium-domain-button-skip = Continua, registrerò il mio dominio personalizzato più tardi
 multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
