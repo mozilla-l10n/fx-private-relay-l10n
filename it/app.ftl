@@ -455,6 +455,7 @@ onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a
 multi-part-onboarding-premium-welcome-headline = Benvenuto in { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora puoi decidere che cosa arriva nella tua casella di posta, per ogni singola email.
 multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
+multi-part-onboarding-premium-welcome-button-start = Inizia
 multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
 multi-part-onboarding-premium-extension-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale:
