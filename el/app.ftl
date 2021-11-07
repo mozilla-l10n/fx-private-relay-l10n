@@ -196,6 +196,9 @@ settings-error-save-description = Οι αλλαγές σας στις ρυθμί
 settings-warning-collection-off-heading = Η λειτουργία ετικέτας των ψευδωνύμων email είναι ανενεργή
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στα ψευδώνυμά σας με τους σχετικούς ιστοτόπους, σε μια μελλοντική έκδοση. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, τα ψευδώνυμά σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
+setting-label-collection-off-warning-v2 = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στα ψευδώνυμά σας με τους ιστοτόπους όπου χρησιμοποιούνται. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, τα ψευδώνυμά σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
 settings-button-save-label = Αποθήκευση
 settings-button-save-tooltip = Εφαρμογή των επιλεγμένων σας ρυθμίσεων.
 
@@ -226,6 +229,7 @@ faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτ
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-4-answer = Οι χρήστες { -brand-name-relay-premium } μπορούν να απαντήσουν σε ένα προωθημένο email εντός 3 μηνών από την παραλαβή του email. Δεν θα συμπεριληφθούν τυχόν διευθύνσεις κοινοποίησης ή κρυφής κοινοποίησης στις απαντήσεις σας.
 faq-question-4-answer-html =
     Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο.
     Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
