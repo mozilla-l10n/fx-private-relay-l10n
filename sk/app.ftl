@@ -477,6 +477,9 @@ error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dis
 ## Onboarding 
 
 onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti…
+onboarding-alias-tip-1 = Kliknutím na „Vytvoriť nový alias“ vytvorte svoj prvý alias.
+onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach e-mailu.
+onboarding-alias-tip-3 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť nový alias“.
 
 ## Premium Onboarding
 
