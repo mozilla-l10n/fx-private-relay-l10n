@@ -196,6 +196,7 @@ settings-error-save-description = Οι αλλαγές σας στις ρυθμί
 settings-warning-collection-off-heading = Η λειτουργία ετικέτας των ψευδωνύμων email είναι ανενεργή
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
+setting-label-collection-description = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται ψευδώνυμα.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στα ψευδώνυμά σας με τους σχετικούς ιστοτόπους, σε μια μελλοντική έκδοση. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, τα ψευδώνυμά σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
 setting-label-collection-off-warning-v2 = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στα ψευδώνυμά σας με τους ιστοτόπους όπου χρησιμοποιούνται. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, τα ψευδώνυμά σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
@@ -211,6 +212,7 @@ faq-headline = Συχνές ερωτήσεις
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Τι είναι ένα ψευδώνυμο { -brand-name-relay };
+faq-question-what-is-answer = Τα ψευδώνυμα email είναι καλυμμένες διευθύνσεις email που προωθούν μηνύματα στην πραγματική σας διεύθυνση email. Αυτά τα ψευδώνυμα σάς επιτρέπουν να μοιραστείτε μια διεύθυνση με τρίτους που θα αποκρύψει το πραγματικό σας email και θα προωθεί μηνύματα σε αυτό.
 faq-question-missing-emails-question = Δεν λαμβάνω μηνύματα από τα ψευδώνυμά μου
 faq-question-missing-emails-answer-a = Ακολουθούν μερικοί λόγοι για τους οποίους ενδέχεται να μην λαμβάνετε προωθημένα email από τα ψευδώνυμά σας:
 faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
