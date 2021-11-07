@@ -455,10 +455,13 @@ onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a
 multi-part-onboarding-premium-welcome-headline = Benvenuto in { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora puoi decidere che cosa arriva nella tua casella di posta, per ogni singola email.
 multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
+multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
 multi-part-onboarding-premium-extension-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale:
 multi-part-onboarding-premium-extension-get-title = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = L’estensione { -brand-name-relay } per { -brand-name-firefox } rende l’utilizzo degli alias ancora più facile.
+multi-part-onboarding-premium-extension-button-download = Installa l’estensione { -brand-name-relay }
+multi-part-onboarding-premium-extension-added = Estensione { -brand-name-relay } installata.
 
 ## Modals
 
@@ -479,6 +482,10 @@ modal-domain-register-button = Registra dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } è disponibile!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Sì, voglio registrare @{ $subdomain }
+modal-domain-register-success-title = Operazione riuscita.
 
 ## Evergreen Survey (displayed on the profile page)
 
