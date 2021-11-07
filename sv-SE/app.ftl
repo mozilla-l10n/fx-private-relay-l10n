@@ -441,6 +441,8 @@ error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte ti
 
 onboarding-headline = Skapa ditt första alias, du finns tre sätt...
 onboarding-alias-tip-1 = Välj "Generera nytt alias" för att skapa ditt första alias.
+onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
+onboarding-alias-tip-3 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
 
 ## Premium Onboarding
 
@@ -457,6 +459,15 @@ onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden s
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamnar i din inkorg, ett e-postmeddelande i taget.
+multi-part-onboarding-premium-welcome-title = Kontrollera vilka e-postmeddelanden du får:
+multi-part-onboarding-premium-welcome-button-start = Kom igång
+multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
+multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description = Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
 
 ## Modals
 
