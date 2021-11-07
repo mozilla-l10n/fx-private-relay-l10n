@@ -142,6 +142,7 @@ landing-pricing-free-cta = Obtén { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mes
+landing-pricing-premium-price-highlight = Precios válidos por tiempo limitado
 landing-pricing-premium-feature-1 = Alias ilimitados de correo electrónico
 landing-pricing-premium-feature-2 = Extensión del navegador
 landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
@@ -313,6 +314,8 @@ profile-label-domain = Dominio de correo electrónico:
 profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y personalizado.
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
+profile-label-skip = Saltar
+profile-label-continue = Continuar
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
 # This string is followed by date
@@ -395,6 +398,10 @@ banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
+banner-label-privacy-notice-update-body = Para mejorar la fiabilidad de { -brand-name-firefox-relay } en el caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se haya entregado. Nunca lo conservaremos durante más de tres días.
+banner-label-privacy-notice-update-cta = Ver el aviso de privacidad
 # Data Notification Banner:
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-body = Puedes permitir que { -brand-name-relay } recopile datos opcionales en los sitios web donde se utilizan tus alias para admitir funcionalidades futuras. Autorizar esta recopilación de datos desde la página “Ajustes” facilitará aún más la administración de tu bandeja de entrada.
@@ -433,9 +440,7 @@ error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está 
 ## Onboarding 
 
 onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo ...
-onboarding-tip-1 = Simplemente haz clic en el botón “Generar nuevo alias” para crear tu primer alias.
-onboarding-tip-2 = Selecciona el icono { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico
-onboarding-tip-3 = A través del menú contextual, simplemente haz clic con el botón derecho (Windows) o presiona Control y haz clic (macOS) en los campos del formulario para acceder al menú y generar un alias
+onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
 
 ## Premium Onboarding
 
@@ -449,6 +454,9 @@ onboarding-premium-domain-title = Usar un dominio personalizado para compartir a
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que tu alias de “boletín informativo” sea diferente de tu alias de “compras”.
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tu alias seguirá protegiendo tu dirección de correo electrónico.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -468,14 +476,10 @@ modal-delete-domain-address-warning-upgrade =
     Si vuelves a crear un alias eliminado, los correos electrónicos enviados al alias original se seguirán reenviando.
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
-modal-domain-register-warning = Recuerda, puedes registrar un dominio solo para tu cuenta y no es posible cambiar el dominio más adelante.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Sí, quiero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
