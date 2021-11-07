@@ -314,6 +314,8 @@ profile-label-domain = E-postdomän:
 profile-label-domain-tooltip = Skapa din unika och anpassade e-postdomän.
 profile-label-reset = Återställ
 profile-label-apply = Tillämpa
+profile-label-skip = Hoppa över
+profile-label-continue = Fortsätt
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
 # This string is followed by date
@@ -396,6 +398,10 @@ banner-register-subdomain-button-search = Sök
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Uppdatering av sekretesspolicy
+banner-label-privacy-notice-update-body = För att förbättra tillförlitligheten i { -brand-name-firefox-relay } i händelse av att ett e-postmeddelande inte kan levereras, kommer vi tillfälligt att behålla e-postmeddelandet på våra servrar tills det har levererats. Vi kommer aldrig att hålla på det i mer än tre dagar.
+banner-label-privacy-notice-update-cta = Visa sekretesspolicy
 # Data Notification Banner:
 banner-label-data-notification-header = Kommer snart till { -brand-name-relay }
 banner-label-data-notification-body = Du kan tillåta att { -brand-name-relay } samlar in valfri data på de webbplatser där dina alias används för att stödja framtida funktioner. Att tillåta denna datainsamling från sidan "Inställningar" kommer att göra hanteringen av din inkorg ännu enklare.
@@ -434,9 +440,7 @@ error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte ti
 ## Onboarding 
 
 onboarding-headline = Skapa ditt första alias, du finns tre sätt...
-onboarding-tip-1 = Klicka bara på knappen "Skapa nytt alias" för att skapa ditt första alias
-onboarding-tip-2 = Genom att välja ikonen { -brand-name-firefox-relay } när den visas i e-postfältet
-onboarding-tip-3 = Via snabbmenyn högerklickar du bara (Windows) eller Ctrl-klickar (macOS) på formulärfält för att komma åt menyn och skapa ett alias
+onboarding-alias-tip-1 = Välj "Generera nytt alias" för att skapa ditt första alias.
 
 ## Premium Onboarding
 
@@ -450,6 +454,9 @@ onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
 onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
 onboarding-premium-reply-title = Svara på e-post utan att ge bort din riktiga adress
 onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -469,14 +476,10 @@ modal-delete-domain-address-warning-upgrade =
     Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
 modal-delete-confirmation = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
-modal-domain-register-warning = Kom ihåg att du bara kan registrera en domän för ditt konto och att du inte kan ändra din domän senare.
 modal-domain-register-button = Registrera domän
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } är tillgänglig!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ja, jag vill registrera { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
