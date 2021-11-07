@@ -353,6 +353,8 @@ profile-label-domain = E-mailová doména:
 profile-label-domain-tooltip = Vytvorte si svoju jedinečnú a vlastnú e-mailovú doménu.
 profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
+profile-label-skip = Preskočiť
+profile-label-continue = Pokračovať
 # This string is followed by an email address
 profile-label-forward-emails = E-maily preposielať na:
 # This string is followed by date
@@ -433,6 +435,10 @@ banner-register-subdomain-button-search = Hľadať
 banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
 banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox } { -brand-name-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Aktualizácia oznámenia o ochrane osobných údajov
+banner-label-privacy-notice-update-body = Aby sme zvýšili spoľahlivosť slu6by { -brand-name-firefox-relay } v prípade, že e-mail nebude možné doručiť, dočasne ho ponecháme na našich serveroch, kým nebude doručený. Nikdy to však nebude dlhšie ako tri dni.
+banner-label-privacy-notice-update-cta = Zobraziť oznámenie o ochrane osobných údajov
 # Data Notification Banner:
 banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
 banner-label-data-notification-body = Službe { -brand-name-relay } môžete povoliť zhromažďovať voliteľné údaje na webových stránkach, kde sa vaše aliasy používajú s cieľom podporiť vývoj budúcich funkcií. Povolenie tohto zhromažďovania údajov na stránke Nastavenia ešte viac uľahčí správu vašej doručenej pošty.
@@ -471,9 +477,6 @@ error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dis
 ## Onboarding 
 
 onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti…
-onboarding-tip-1 = Alias vytvoríte kliknutím na tlačidlo „Vytvoriť nový alias“
-onboarding-tip-2 = Prípadne kliknutím na ikonu služby { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailové adresy
-onboarding-tip-3 = Alebo prostredníctvom kontextovej ponuky stačí kliknúť pravým tlačidlom myši (Windows) alebo so stlačeným klávesom Ctrl (macOS) na polia formulára, čím sa dostanete do ponuky a vytvoríte si alias
 
 ## Premium Onboarding
 
@@ -487,6 +490,15 @@ onboarding-premium-domain-title = Používajte pre svoje aliasy vlastnú doménu
 onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
 onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
 onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Teraz môžete mať kontrolu nad tým, čo sa dostane do vašej e-mailovej schránky, jeden e-mail po druhom.
+multi-part-onboarding-premium-welcome-title = Majte kontrolu nad tým, aké e-maily budete dostávať:
+multi-part-onboarding-premium-welcome-button-start = Začíname
+multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie aliasov
+multi-part-onboarding-premium-domain-title = Získajte vlastnú doménu pre svoje aliasy:
 
 ## Modals
 
@@ -506,14 +518,10 @@ modal-delete-domain-address-warning-upgrade =
     Ak znova vytvoríte odstránený alias, e-maily odoslané na pôvodný alias sa budú naďalej preposielať.
 modal-delete-confirmation = Áno, chcem odstrániť tento alias.
 modal-domain-register-good-news = Dobré správy!
-modal-domain-register-warning = Nezabudnite, že pre svoj účet máte povolenú registráciu iba jednej domény a neskôr nie je možné vašu doménu zmeniť.
 modal-domain-register-button = Registrovať doménu
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } je k dispozícii!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Áno, chcem zaregistrovať doménu { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
