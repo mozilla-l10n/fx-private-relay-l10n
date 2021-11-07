@@ -441,6 +441,8 @@ error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está 
 
 onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo ...
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
+onboarding-alias-tip-2 = Con la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
+onboarding-alias-tip-3 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona “Generar nuevo alias”.
 
 ## Premium Onboarding
 
@@ -457,6 +459,27 @@ onboarding-premium-reply-description = ¿Necesitas responder a los correos elect
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Bienvenido a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
+multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
+multi-part-onboarding-premium-welcome-button-start = Comenzar
+multi-part-onboarding-premium-domain-headline = Dominio personalizado para alias
+multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
+    ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa comida@tudominio{ $mozmail }. No es necesario crear el alias de antemano.
+multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
+multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
+multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
+multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
+multi-part-onboarding-premium-extension-get-title = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más usar los alias de correo electrónico.
+multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
+multi-part-onboarding-premium-extension-added = Extensión { -brand-name-relay } instalada.
+multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 
 ## Modals
 
@@ -476,10 +499,20 @@ modal-delete-domain-address-warning-upgrade =
     Si vuelves a crear un alias eliminado, los correos electrónicos enviados al alias original se seguirán reenviando.
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
+modal-domain-register-warning-reminder = Recuerda, solo puedes registrar un dominio. No podrás cambiarlo más tarde.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+modal-domain-register-success-title = ¡Correcto!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = ¡{ $subdomain } es ahora tu dominio de correo electrónico!
+modal-domain-register-success-copy = ¡Ahora puedes crear alias de correo electrónico ilimitados con tu nuevo dominio! ¿A que estás esperando?
 
 ## Evergreen Survey (displayed on the profile page)
 
