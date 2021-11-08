@@ -226,6 +226,7 @@ faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-r
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia los usar quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non. Nos non recommenda usar le aliases quando te besonia tu identitate verificate o pro e-mails multo importante. Per exemplo, tu desirarea compartir tu real adresse e-mail con tu banca, tu doctor, tu advocato, etc.
 faq-question-use-cases-answer-part1 = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia usar los quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non.
+faq-question-use-cases-answer-part2 = Nos non recommenda usar aliases quando te besonia tu identitate verificate o pro e-mails multo importante o illos ubi tu debe reciper annexos. Per exemplo, tu compartira tu real adresse e-mail con tu banca, tu doctor e tu advocato e quando recipe permissiones de entrata a concerto o volo.
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -272,6 +273,8 @@ faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
+faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
+faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
 # Deprecated
 faq-question-3-question = Es { -brand-name-relay } disponibile solo in le SUA?
 # Deprecated
