@@ -479,6 +479,9 @@ multi-part-onboarding-premium-extension-reply-title = Antwurdzje op e-mailberjoc
 multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } downloade
 multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
 multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-útwreiding downloade
+multi-part-onboarding-premium-extension-button-skip = Trochgean, ik download de útwreiding letter
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
+multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 
 ## Modals
 
@@ -498,10 +501,20 @@ modal-delete-domain-address-warning-upgrade =
     As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy't nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
 modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
 modal-domain-register-good-news = Goed nijs!
+modal-domain-register-warning-reminder = Unthâld dat jo mar ien domein registrearje kinne. Jo kinne it letter net mear wizigje.
 modal-domain-register-button = Domein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beskikber!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
+modal-domain-register-success-title = Slagge!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } is no jo e-maildomein!
+modal-domain-register-success-copy = Jo kinne no ûnbeheind e-mailaliassen meitsje mei jo nije domein! Wêr wachtsje jo noch op?
 
 ## Evergreen Survey (displayed on the profile page)
 
