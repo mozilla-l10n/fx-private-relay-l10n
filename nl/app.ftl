@@ -399,6 +399,10 @@ banner-register-subdomain-button-search = Zoeken
 banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
 banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
 banner-pack-upgrade-cta = Nu upgraden
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Update privacyverklaring
+banner-label-privacy-notice-update-body = Om de betrouwbaarheid van { -brand-name-firefox-relay } te verbeteren in het geval dat een e-mailbericht niet kan worden afgeleverd, bewaren we het e-mailbericht tijdelijk op onze servers totdat het is afgeleverd. We bewaren het nooit langer dan drie dagen.
+banner-label-privacy-notice-update-cta = Privacyverklaring bekijken
 # Data Notification Banner:
 banner-label-data-notification-header = Binnenkort bij { -brand-name-relay }
 banner-label-data-notification-body = U kunt { -brand-name-relay } toestaan om optionele gegevens te verzamelen over de websites waar uw aliassen worden gebruikt om toekomstige functies te ondersteunen. Als u deze gegevensverzameling op de pagina ‘Instellingen’ toestaat, wordt het beheren van uw Postvak IN nog eenvoudiger.
@@ -437,6 +441,9 @@ error-subdomain-not-available = Het domein @{ $unavailable_subdomain } is niet b
 ## Onboarding 
 
 onboarding-headline = Maak uw eerste alias aan, u kunt kiezen uit drie manieren…
+onboarding-alias-tip-1 = Selecteer ‘Nieuwe alias aanmaken’ om uw eerste alias aan te maken.
+onboarding-alias-tip-2 = Selecteer als u de { -brand-name-relay }-extensie gebruikt het { -brand-name-firefox-relay }-pictogram wanneer dit in e-mailvelden verschijnt.
+onboarding-alias-tip-3 = Klik als u de { -brand-name-relay }-extensie gebruikt met de rechtermuisknop op formuliervelden en selecteer ‘Nieuwe alias aanmaken’.
 
 ## Premium Onboarding
 
@@ -453,6 +460,20 @@ onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Welkom bij { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = U kunt nu bepalen wat er in uw Postvak IN belandt, één e-mailbericht tegelijk.
+multi-part-onboarding-premium-welcome-title = Bepalen welke e-mailberichten u ontvangt:
+multi-part-onboarding-premium-welcome-button-start = Beginnen
+multi-part-onboarding-premium-domain-headline = Aangepast domein voor het delen van aliassen
+multi-part-onboarding-premium-domain-title = Een aangepast domein verkrijgen voor uw aliassen:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
+    Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
+multi-part-onboarding-premium-domain-cta = Registreer nu uw aangepaste domein:
+multi-part-onboarding-premium-domain-button-skip = Doorgaan, ik registreer mijn aangepaste domein later
+multi-part-onboarding-premium-extension-headline = Blokkeren, doorsturen en beantwoorden
 
 ## Modals
 
