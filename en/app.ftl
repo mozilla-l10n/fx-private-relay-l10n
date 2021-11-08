@@ -217,7 +217,10 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } might be
 faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-premium } user struggling with any of these issues, please <a href="{ $url }" { $attrs }>contact our support team</a>.
 
 faq-question-use-cases-question = When should I use { -brand-name-relay } aliases?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future. We don’t recommend using aliases when you need your identity verified or for very important emails. For example, you’d want to share your real email address with your bank, your doctor, your lawyer, etc.
+faq-question-use-cases-answer-part1 = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future.
+faq-question-use-cases-answer-part2 = We don’t recommend using aliases when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your real email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
 
 faq-question-2-question = Why won’t a site accept my { -brand-name-relay } alias?
 # Deprecated
@@ -274,6 +277,9 @@ faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
+
+faq-question-email-storage-question = Does { -brand-name-relay } store my emails?
+faq-question-email-storage-answer = Under the rare circumstance in which the service is down, we may temporarily store your emails until we are able to send them. We will never store your emails for longer than three days.
 
 # Deprecated
 faq-question-3-question = Is { -brand-name-relay } available only in the US?
