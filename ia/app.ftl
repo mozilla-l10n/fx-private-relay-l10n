@@ -223,7 +223,9 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote sta
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-relay-premium } luctante con ulle de iste problemas, per favor <a href="{ $url }" { $attrs }>continge nostre equipa de assistentia</a>.
 faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia los usar quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non. Nos non recommenda usar le aliases quando te besonia tu identitate verificate o pro e-mails multo importante. Per exemplo, tu desirarea compartir tu real adresse e-mail con tu banca, tu doctor, tu advocato, etc.
+faq-question-use-cases-answer-part1 = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia usar los quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non.
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
