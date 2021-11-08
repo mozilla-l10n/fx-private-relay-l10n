@@ -316,6 +316,8 @@ profile-label-domain = E-maildomein:
 profile-label-domain-tooltip = Meitsje jo unike en oanpaste e-maildomein.
 profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
+profile-label-skip = Oerslaan
+profile-label-continue = Trochgean
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberjochten trochstjoere nei:
 # This string is followed by date
@@ -398,6 +400,10 @@ banner-register-subdomain-button-search = Sykje
 banner-pack-upgrade-headline-html = Opwurdearje nei <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om mear aliassen te krijen
 banner-pack-upgrade-copy = Mei ûnbeheinde e-mailaliassen en jo eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } jo online beskerme te bliuwen.
 banner-pack-upgrade-cta = No opwurdearje
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Fernijing privacyferklearring
+banner-label-privacy-notice-update-body = Om de betrouberheid fan { -brand-name-firefox-relay } te ferbetterjen yn it gefal dat in e-mailberjocht net ôflevere wurde kin, bewarje wy it e-mailberjocht tydlik op ús servers oant it ôflevere is. Wy bewarje it nea langer as trije dagen.
+banner-label-privacy-notice-update-cta = Privacyferklearring besjen
 # Data Notification Banner:
 banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 banner-label-data-notification-body = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen oer de websites wêr't jo aliassen brûkt wurde om takomstige funksjes te stypjen. As jo dizze gegevenssamling op de side ‘Ynstellingen’ tastean, wurdt it behearen fan jo Postfek YN noch ienfâldiger.
@@ -436,9 +442,9 @@ error-subdomain-not-available = It domein @{ $unavailable_subdomain } is net bes
 ## Onboarding 
 
 onboarding-headline = Meitsje jo earste alias oan, jo kinne kieze út trije manieren…
-onboarding-tip-1 = Klik gewoan op de knop ‘Nije alias oanmeitsje’ om jo earste alias oan te meitsjen
-onboarding-tip-2 = Troch it { -brand-name-firefox-relay }-piktogram te selektearjen wannear't it yn e-mailfjilden ferskynt
-onboarding-tip-3 = Fia it kontekstmenu, klik gewoan mei jo rjochtermûsknop (Windows) of Control-klik (macOS) op formulierfjilden om it menu te iepenjen en in alias oan te meitsjen
+onboarding-alias-tip-1 = Selektearje ‘Nije alias oanmeitsje’ om jo earste alias oan te meitsjen
+onboarding-alias-tip-2 = Selektearje as jo de { -brand-name-relay }-útwreiding brûke it { -brand-name-firefox-relay }-piktogram wannear’t dit yn e-mailfjilden ferskynt.
+onboarding-alias-tip-3 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nije alias oanmeitsje’.
 
 ## Premium Onboarding
 
@@ -452,6 +458,27 @@ onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan al
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
 onboarding-premium-reply-description = Moatte jo e-mailberjochten dy't nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
+multi-part-onboarding-premium-welcome-title = Bepale hokker e-mailberjochten jo ûntfange:
+multi-part-onboarding-premium-welcome-button-start = Begjinne
+multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fan aliassen
+multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
+    In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
+multi-part-onboarding-premium-domain-cta = Registrearje no jo oanpaste domein:
+multi-part-onboarding-premium-domain-button-skip = Trochgean, ik registrearje myn oanpaste domein letter
+multi-part-onboarding-premium-extension-headline = Blokkearje, trochstjoere en beäntwurdzje
+multi-part-onboarding-premium-extension-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan:
+multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } downloade
+multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
+multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-útwreiding downloade
 
 ## Modals
 
@@ -471,14 +498,10 @@ modal-delete-domain-address-warning-upgrade =
     As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy't nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
 modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
 modal-domain-register-good-news = Goed nijs!
-modal-domain-register-warning = Unthâld dat jo mar ien domein foar jo account registrearje meie en dat it net mooglik is om jo domein letter te wizigjen.
 modal-domain-register-button = Domein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beskikber!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ja, ik wol { $subdomain } registrearje
 
 ## Evergreen Survey (displayed on the profile page)
 
