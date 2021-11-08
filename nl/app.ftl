@@ -474,6 +474,13 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-domain-cta = Registreer nu uw aangepaste domein:
 multi-part-onboarding-premium-domain-button-skip = Doorgaan, ik registreer mijn aangepaste domein later
 multi-part-onboarding-premium-extension-headline = Blokkeren, doorsturen en beantwoorden
+multi-part-onboarding-premium-extension-reply-title = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven:
+multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-extensie voor { -brand-name-firefox } downloaden
+multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-extensie voor { -brand-name-firefox } maakt het gebruik van e-mailaliassen nog eenvoudiger.
+multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-extensie downloaden
+multi-part-onboarding-premium-extension-button-skip = Doorgaan, ik download de extensie later
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
+multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
 
 ## Modals
 
@@ -493,10 +500,20 @@ modal-delete-domain-address-warning-upgrade =
     Als u een verwijderde alias opnieuw aanmaakt, worden e-mailberichten die naar de oorspronkelijke alias zijn verzonden nog steeds doorgestuurd.
 modal-delete-confirmation = Ja, ik wil deze alias verwijderen.
 modal-domain-register-good-news = Goed nieuws!
+modal-domain-register-warning-reminder = Onthoud dat u slechts één domein kunt registreren. U kunt het later niet meer wijzigen.
 modal-domain-register-button = Domein registreren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beschikbaar!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, ik wil @{ $subdomain } registreren
+modal-domain-register-success-title = Gelukt!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } is nu uw e-maildomein!
+modal-domain-register-success-copy = U kunt nu onbeperkt e-mailaliassen maken met uw nieuwe domein! Waar wacht u nog op?
 
 ## Evergreen Survey (displayed on the profile page)
 
