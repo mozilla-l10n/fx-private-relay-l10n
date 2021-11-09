@@ -115,6 +115,10 @@ how-it-works-step-1-copy =
     Επιλέξτε το εικονίδιο που εμφανίζεται στη γραμμή εργαλείων του { -brand-name-firefox } για πρόσβαση στη σελίδα σύνδεσης. 
     Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμου
+how-it-works-step-2-copy =
+    Ενώ περιηγείστε, το εικονίδιο του { -brand-name-relay } θα εμφανιστεί όπου οι ιστότοποι ζητούν τη διεύθυνση email σας.
+    Επιλέξτε το για τη δημιουργία μιας νέας, τυχαίας διεύθυνσης με κατάληξη @relay.firefox.com.
+    Το { -brand-name-relay } θα προωθεί μηνύματα στην κύρια διεύθυνση email του λογαριασμού σας.
 how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
 how-it-works-step-3-copy =
     Συνδεθείτε στον πίνακα ελέγχου του { -brand-name-relay } για να παρακολουθήσετε τα ψευδώνυμά σας.
@@ -360,9 +364,11 @@ banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email 
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Ενημέρωση σημείωσης απορρήτου
+banner-label-privacy-notice-update-body = Για τη βελτίωση της αξιοπιστίας του { -brand-name-firefox-relay } σε περίπτωση που δεν μπορεί παραδοθεί κάποιο email, θα το διατηρήσουμε προσωρινά στους διακομιστές μας έως ότου παραδοθεί. Δεν θα το κρατήσουμε ποτέ παραπάνω από τρεις ημέρες.
 banner-label-privacy-notice-update-cta = Προβολή σημείωσης απορρήτου
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
+banner-label-data-notification-body = Μπορείτε να επιτρέψετε στο { -brand-name-relay } να συλλέγει προαιρετικά δεδομένα για τους ιστοτόπους όπου χρησιμοποιούνται τα ψευδώνυμά σας για την υποστήριξη μελλοντικών λειτουργιών. Επιτρέποντας αυτήν τη συλλογή δεδομένων από τη σελίδα «Ρυθμίσεις», θα γίνει ακόμα πιο εύκολη η διαχείριση των εισερχομένων σας.
 banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-v2 = Μπορείτε να επιτρέψετε στο { -brand-name-relay } τη συλλογή προαιρετικών δεδομένων που μας επιτρέπουν να συγχρονίζουμε τις ετικέτες των ψευδωνύμων σας στις συσκευές σας με τους ιστοτόπους όπου δημιουργήθηκαν και χρησιμοποιήθηκαν.
