@@ -227,7 +227,9 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium }-brûker binne en mei ien fan dizze problemen wrakselje, nim dan <a href="{ $url }" { $attrs }>kontakt op mei ús stipeteam</a>.
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear't jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear't jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
+faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
 # Deprecated
 # Variables:
