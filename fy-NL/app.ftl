@@ -230,6 +230,7 @@ faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear't jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear't jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
 faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
+faq-question-use-cases-answer-part2 = Wy rekommandearje it gebrûk fan aliassen ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar fluchten.
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
 # Deprecated
 # Variables:
@@ -277,6 +278,8 @@ faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy't { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy't jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
+faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
+faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
 # Deprecated
 faq-question-3-question = Is { -brand-name-relay } allinnich beskikber yn de FS?
 # Deprecated
