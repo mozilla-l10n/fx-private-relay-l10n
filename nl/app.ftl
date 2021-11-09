@@ -227,7 +227,10 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kan er l
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Als u een { -brand-name-relay-premium }-gebruiker bent en met een van deze problemen worstelt, neem dan <a href="{ $url }" { $attrs }>contact op met ons ondersteuningsteam</a>.
 faq-question-use-cases-question = Wanneer moet ik { -brand-name-relay }-aliassen gebruiken?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = U kunt { -brand-name-relay }-aliassen gebruiken op de meeste plaatsen waar u uw normale e-mailadres zou gebruiken. We raden u aan deze te gebruiken wanneer u zich aanmeldt voor marketing-/informatieve e-mailberichten waarbij u zou willen bepalen of u in de toekomst e-mailberichten ontvangt. We raden het gebruik van aliassen af wanneer u uw identiteit moet verifiëren of voor zeer belangrijke e-mailberichten. U wilt bijvoorbeeld uw echte e-mailadres delen met uw bank, uw arts, uw advocaat, enz.
+faq-question-use-cases-answer-part1 = U kunt { -brand-name-relay }-aliassen gebruiken op de meeste plaatsen waar u uw normale e-mailadres zou gebruiken. We raden u aan ze te gebruiken wanneer u zich aanmeldt voor marketing-/informatieve e-mailberichten, waarbij u misschien wilt bepalen of u in de toekomst e-mailberichten wilt blijven ontvangen.
+faq-question-use-cases-answer-part2 = We raden het gebruik van aliassen af wanneer u uw identiteit moet verifiëren of voor zeer belangrijke e-mailberichten of berichten waarbij u bijlagen moet ontvangen. U wilt bijvoorbeeld uw echte e-mailadres delen met uw bank, uw arts en uw advocaat, evenals bij het ontvangen van concerttickets of instapkaarten voor vluchten.
 faq-question-2-question = Waarom accepteert een website mijn alias van { -brand-name-relay } niet?
 # Deprecated
 # Variables:
@@ -274,6 +277,8 @@ faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = U vindt meer info over de gegevens die { -brand-name-firefox-relay } verzamelt in onze <a href="{ $url }" { $attrs }>Privacyverklaring</a>. U kunt optioneel ook gegevens delen over de labels en website die u gebruikt voor uw e-mailaliassen, zodat we u die service kunnen bieden en deze voor u kunnen verbeteren.
+faq-question-email-storage-question = Slaat { -brand-name-relay } mijn e-mailberichten op?
+faq-question-email-storage-answer = In het zeldzame geval dat de service niet beschikbaar is, kunnen we uw e-mailberichten tijdelijk opslaan totdat we ze kunnen verzenden. We zullen uw e-mailberichten nooit langer dan drie dagen bewaren.
 # Deprecated
 faq-question-3-question = Is { -brand-name-relay } alleen beschikbaar in de VS?
 # Deprecated
