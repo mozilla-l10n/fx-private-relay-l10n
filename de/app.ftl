@@ -226,7 +226,10 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } braucht 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Wenn Sie ein { -brand-name-relay-premium }-Nutzer sind, der mit einem dieser Probleme zu kämpfen hat, <a href="{ $url }" { $attrs }>kontaktieren Sie unser Hilfeteam</a>.
 faq-question-use-cases-question = Wann sollte ich Alias-E-Mail-Adressen von { -brand-name-relay } verwenden?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht. Wir empfehlen nicht, Alias-E-Mail-Adressen zu verwenden, wenn Sie Ihre Identität bestätigen müssen oder für sehr wichtige E-Mails. Sie sollten beispielsweise Ihre echte E-Mail-Adresse bei Ihrer Bank, Ihrem Arzt, Ihrem Anwalt usw. angeben.
+faq-question-use-cases-answer-part1 = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
+faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Alias-E-Mail-Adressen nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre echte E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugbordkarten mitteilen.
 faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von { -brand-name-relay } nicht?
 # Deprecated
 # Variables:
@@ -273,6 +276,8 @@ faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftung und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
+faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
+faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir Ihre E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden Ihre E-Mails niemals länger als drei Tage speichern.
 # Deprecated
 faq-question-3-question = Ist { -brand-name-relay } nur in den USA verfügbar?
 # Deprecated
