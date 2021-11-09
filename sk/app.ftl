@@ -265,7 +265,10 @@ faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -brand-name-relay-premium }, ktorý zápasí s niektorým z týchto problémov, <a href="{ $url }" { $attrs }>kontaktujte náš tím podpory</a>.
 faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť určovať, či budete v budúcnosti dostávať e-maily alebo nie. Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily. Svoju skutočnú e-mailovú adresu by ste napríklad chceli zdieľať so svojou bankou, lekárom, právnikom, atď.
+faq-question-use-cases-answer-part1 = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
+faq-question-use-cases-answer-part2 = Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -312,6 +315,8 @@ faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhro
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>oznámenie o ochrane súkromia</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové aliasy, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
+faq-question-email-storage-question = Ukladá { -brand-name-relay } moje e-maily?
+faq-question-email-storage-answer = Vo výnimočných prípadoch, keď je služba mimo prevádzky, môžeme dočasne uchovávať vaše e-maily, kým ich nebudeme môcť odoslať. Vaše e-maily nikdy nebudeme uchovávať dlhšie ako tri dni.
 # Deprecated
 faq-question-3-question = Je { -brand-name-relay } k dispozícii iba v USA?
 # Deprecated
@@ -437,7 +442,7 @@ banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a v
 banner-pack-upgrade-cta = Inovovať teraz
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizácia oznámenia o ochrane osobných údajov
-banner-label-privacy-notice-update-body = Aby sme zvýšili spoľahlivosť slu6by { -brand-name-firefox-relay } v prípade, že e-mail nebude možné doručiť, dočasne ho ponecháme na našich serveroch, kým nebude doručený. Nikdy to však nebude dlhšie ako tri dni.
+banner-label-privacy-notice-update-body = Aby sme zvýšili spoľahlivosť služby { -brand-name-firefox-relay } v prípade, že e-mail nebude možné doručiť, dočasne ho ponecháme na našich serveroch, kým nebude doručený. Nikdy to však nebude dlhšie ako tri dni.
 banner-label-privacy-notice-update-cta = Zobraziť oznámenie o ochrane osobných údajov
 # Data Notification Banner:
 banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
