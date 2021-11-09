@@ -226,7 +226,10 @@ faq-question-missing-emails-answer-reason-delay = Efallai y bydd { -brand-name-r
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-name-relay-premium } sy'n cael trafferth gydag unrhyw un o'r materion hyn, <a href="{ $url }" { $attrs }>cysylltwch â'n tîm cymorth</a> os gwelwch yn dda.
 faq-question-use-cases-question = Pryd ddylwn i ddefnyddio arallenw { -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Gallwch ddefnyddio arallenw { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata/gwybodaeth lle efallai yr hoffech chi reoli a ydych chi'n derbyn e-byst yn y dyfodol ai peidio. Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei gwirio neu ar gyfer e-byst pwysig iawn. Er enghraifft, byddwch angen rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg, eich cyfreithiwr, ac ati.
+faq-question-use-cases-answer-part1 = Gallwch ddefnyddio arallenwau { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata neu wybodaeth lle efallai yr hoffech reoli a fyddwch yn derbyn e-byst yn y dyfodol ai peidio.
+faq-question-use-cases-answer-part2 = Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei wirio neu ar gyfer e-byst pwysig iawn neu'r rheini lle mae'n rhaid i chi dderbyn atodiadau. Er enghraifft, rydych chi am rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg a'ch cyfreithiwr, yn ogystal ag wrth dderbyn tocynnau cyngerdd neu bas byrddio awyren.
 faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -273,6 +276,8 @@ faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasgl
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
+faq-question-email-storage-question = A yw { -brand-name-relay } yn cadw fy e-byst?
+faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth wedi torri, byddwn efallai'n cadw eich e-byst dros dro nes ein bod yn gallu eu hanfon. Byddwn ni byth yn cadw'ch e-byst am fwy na thridiau.
 # Deprecated
 faq-question-3-question = A yw { -brand-name-relay } ar gael yn yr Unol Daleithiau'n unig?
 # Deprecated
@@ -314,6 +319,8 @@ profile-label-domain = Parth E-bost:
 profile-label-domain-tooltip = Creu eich parth e-bost unigryw a chyfaddas.
 profile-label-reset = Ailosod
 profile-label-apply = Gosod
+profile-label-skip = Hepgor
+profile-label-continue = Parhau
 # This string is followed by an email address
 profile-label-forward-emails = Anfon e-byst ymlaen at:
 # This string is followed by date
@@ -396,6 +403,8 @@ banner-register-subdomain-button-search = Chwilio
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
 banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
 # Data Notification Banner:
 banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
 banner-label-data-notification-body = Gallwch adael i { -brand-name-relay } gasglu data dewisol ar y gwefannau lle mae eich arallenwau'n cael eu defnyddio i gefnogi nodweddion y dyfodol. Bydd caniatáu casglu'r data hwn o'r dudalen “Gosodiadau” yn ei gwneud yn haws rheoli eich blwch derbyn.
@@ -434,9 +443,6 @@ error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar ga
 ## Onboarding 
 
 onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
-onboarding-tip-1 = Cliciwch ar y botwm “Creu Arallenw Newydd” i greu eich arallenw cyntaf
-onboarding-tip-2 = Trwy ddewis yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos ym meysydd e-bost
-onboarding-tip-3 = Trwy'r ddewislen cyd-destun, de-gliciwch (Windows) neu Control-click (macOS) ar feysydd ffurflen i gael mynediad i'r ddewislen a chynhyrchu arallenw
 
 ## Premium Onboarding
 
@@ -450,6 +456,9 @@ onboarding-premium-domain-title = Defnyddio parth cyfaddas ar gyfer rhannu arall
 onboarding-premium-domain-description = Gyda pharth cyfaddas, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
 onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -469,14 +478,10 @@ modal-delete-domain-address-warning-upgrade =
     Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
 modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
-modal-domain-register-warning = Cofiwch, dim ond un parth yn unig y cewch chi gofrestru ar gyfer eich cyfrif ac nid yw'n bosibl newid eich parth yn ddiweddarach.
 modal-domain-register-button = Cofrestru Parth
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = Mae { $subdomain } ar gael!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ydw, rwyf am gofrestru { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
