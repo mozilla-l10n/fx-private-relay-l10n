@@ -266,11 +266,11 @@ faq-question-browser-support-answer = Gallwch, gallwch gynhyrchu arallenwau { -b
 faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
 faq-question-mozmail-question = Pam y dechreuodd fy arallenwau ddefnyddio'r parth “mozmail.com?”
-faq-question-mozmail-answer = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost cyfaddas, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
+faq-question-mozmail-answer = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost personol, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
 faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
 faq-question-attachments-answer = Bydd, mae { -brand-name-firefox-relay } yn cefnogi e-byst a anfonwyd ymlaen gydag atodiadau o hyd at { email-size-limit } o faint. Os oes gan e-bost atodiad sy'n fwy na { email-size-limit }, ni fydd yn cael ei anfon ymlaen.
-faq-question-unsubscribe-domain-question = Beth sy'n digwydd i'm parth cyfaddas os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
-faq-question-unsubscribe-domain-answer = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch parth cyfaddas, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r parth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a anfonir ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
+faq-question-unsubscribe-domain-question = Beth sy'n digwydd i'm parth personol os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch parth personol, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r parth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a fydd yn cael eu hanfon ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -316,7 +316,7 @@ profile-label-delete-alias = Dileu'r arallenw hwn
 profile-label-upgrade = Cael arallenwau dirifedi
 profile-label-create-domain = Cael eich parth e-bost
 profile-label-domain = Parth E-bost:
-profile-label-domain-tooltip = Creu eich parth e-bost unigryw a chyfaddas.
+profile-label-domain-tooltip = Creu eich parth e-bost unigryw a phersonol.
 profile-label-reset = Ailosod
 profile-label-apply = Gosod
 profile-label-skip = Hepgor
@@ -356,7 +356,7 @@ profile-filter-category-option-disabled-aliases-v2 = Rhwystro arallenwau
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Arallenwau ar hap
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
-profile-filter-category-option-domain-based-aliases-v2 = Arallenwau cyfaddas
+profile-filter-category-option-domain-based-aliases-v2 = Arallenwau personol
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Arallenwau critigol yn unig
 
@@ -378,11 +378,11 @@ banner-download-install-extension-headline = Cael yr estyniad { -brand-name-rela
 banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
 banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
-banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau cyfaddas ac arallenwau dirifedi.
+banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau persono ac arallenwau dirifedi.
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Cam gweithredu
-banner-register-subdomain-headline-aliases = Cael parth cyfaddas ar gyfer eich arallenwau
+banner-register-subdomain-headline-aliases = Cael parth personol ar gyfer eich arallenwau
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -393,10 +393,10 @@ banner-register-subdomain-example-address = eichparth
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy =
-    Gyda pharth cyfaddas, gallwch rannu arallenwau nad oes angen eu cynhyrchu
+    Gyda pharth personol, gallwch rannu arallenwau nad oes angen eu cynhyrchu
     cyn i chi eu defnyddio. Angen un ar gyfer archeb? Rhowch
     “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
-    defnyddio'ch parth cyfaddas yn cael ei anfon ymlaen atoch chi.
+    defnyddio'ch parth personol yn cael ei anfon ymlaen atoch chi.
 banner-choose-subdomain-input-placeholder = Parth chwilio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Chwilio
@@ -405,7 +405,7 @@ banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost ei
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
-banner-label-privacy-notice-update-body = Er mwyn gwella dibynadwyedd { -brand-name-firefox-relay } os na ellir dosbarthu e-bost, byddwn yn cadw'r e-bost dros dro ar ein gweinyddwyr nes iddo gael ei anfon. Fyddwn ni byth yn ei gadw am fwy na thridiau.
+banner-label-privacy-notice-update-body = Er mwyn gwella dibynadwyedd { -brand-name-firefox-relay } os nad ydym yn gallu dosbarthu e-bost, byddwn yn cadw'r e-bost dros dro ar ein gweinyddwyr nes iddo gael ei anfon. Fyddwn ni byth yn ei gadw am fwy na thridiau.
 banner-label-privacy-notice-update-cta = Gweld yr Hysbysiad Preifatrwydd
 # Data Notification Banner:
 banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
@@ -447,7 +447,7 @@ error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar ga
 onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
 onboarding-alias-tip-1 = Dewiswch “Cynhyrchu Arallenw Newydd” i greu eich arallenw cyntaf.
 onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
-onboarding-alias-tip-3 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y  ffurflen a dewis “Cynhyrchu Arallenw Newydd.”
+onboarding-alias-tip-3 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y ffurflen a dewis “Cynhyrchu Arallenw Newydd.”
 
 ## Premium Onboarding
 
@@ -457,8 +457,8 @@ onboarding-premium-subheadline-html = Nawr gallwch chi <strong>reoli</strong> be
 onboarding-premium-feature-intro = Gyda { -brand-name-firefox }{ -brand-name-relay-premium } gallwch:
 onboarding-premium-control-title = Rheoli pa e-byst rydych yn eu derbyn
 onboarding-premium-control-description = Rhannu arallenwau e-bost dirifedi sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
-onboarding-premium-domain-title = Defnyddio parth cyfaddas ar gyfer rhannu arallenwau
-onboarding-premium-domain-description = Gyda pharth cyfaddas, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
+onboarding-premium-domain-title = Defnyddio parth personol ar gyfer rhannu arallenwau
+onboarding-premium-domain-description = Gyda pharth personol, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
 onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
 
@@ -469,14 +469,14 @@ multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'
 multi-part-onboarding-premium-welcome-title = Rheolwch pa e-byst rydych yn eu derbyn:
 multi-part-onboarding-premium-welcome-button-start = Cychwyn Arni
 multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu arallenwau
-multi-part-onboarding-premium-domain-title = Cael parth cyfaddas ar gyfer eich arallenwau:
+multi-part-onboarding-premium-domain-title = Cael parth personol ar gyfer eich arallenwau:
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description =
-    Gan ddefnyddio parth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
+    Gan ddefnyddio parth personol, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
     Angen arallenw ar gyfer archebion bwyty? Dim ond rhoi bwyd@ eichparth{ $mozmail } - Does dim angen creu'r arallenw ymlaen llaw.
-multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth cyfaddas nawr:
-multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth cyfaddas yn nes ymlaen
+multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth personol nawr:
+multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth personol yn nes ymlaen
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
 multi-part-onboarding-premium-extension-reply-title = Ateb e-byst heb ddatgelu eich cyfeiriad go iawn:
 multi-part-onboarding-premium-extension-get-title = Cael estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
