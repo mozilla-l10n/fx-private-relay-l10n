@@ -480,6 +480,11 @@ multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru f
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
 multi-part-onboarding-premium-extension-reply-title = Ateb e-byst heb ddatgelu eich cyfeiriad go iawn:
 multi-part-onboarding-premium-extension-get-title = Cael estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws.
+multi-part-onboarding-premium-extension-button-download = Cael Estyniad { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Parhau, byddaf yn llwytho'r estyniad i lawr yn nes ymlaen
+multi-part-onboarding-premium-extension-added = Wedi ychwanegu estyniad { -brand-name-relay }!
+multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
 
 ## Modals
 
@@ -499,10 +504,20 @@ modal-delete-domain-address-warning-upgrade =
     Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
 modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
+modal-domain-register-warning-reminder = Cofiwch, dim ond un parth y gallwch chi ei gofrestru. Fyddwch chi ddim yn gallu ei newid yn nes ymlaen.
 modal-domain-register-button = Cofrestru Parth
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = Mae { $subdomain } ar gael!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
+modal-domain-register-success-title = Llwyddiant!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = Nawr{ $subdomain } yw eich parth e-bost!
+modal-domain-register-success-copy = Nawr gallwch greu arallenwau e-bost didiwedd gan ddefnyddio'ch parth newydd! Ffwrdd â ni!
 
 ## Evergreen Survey (displayed on the profile page)
 
