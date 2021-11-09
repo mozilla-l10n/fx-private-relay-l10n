@@ -405,6 +405,8 @@ banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost ei
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
+banner-label-privacy-notice-update-body = Er mwyn gwella dibynadwyedd { -brand-name-firefox-relay } os na ellir dosbarthu e-bost, byddwn yn cadw'r e-bost dros dro ar ein gweinyddwyr nes iddo gael ei anfon. Fyddwn ni byth yn ei gadw am fwy na thridiau.
+banner-label-privacy-notice-update-cta = Gweld yr Hysbysiad Preifatrwydd
 # Data Notification Banner:
 banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
 banner-label-data-notification-body = Gallwch adael i { -brand-name-relay } gasglu data dewisol ar y gwefannau lle mae eich arallenwau'n cael eu defnyddio i gefnogi nodweddion y dyfodol. Bydd caniatáu casglu'r data hwn o'r dudalen “Gosodiadau” yn ei gwneud yn haws rheoli eich blwch derbyn.
@@ -443,6 +445,9 @@ error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar ga
 ## Onboarding 
 
 onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
+onboarding-alias-tip-1 = Dewiswch “Cynhyrchu Arallenw Newydd” i greu eich arallenw cyntaf.
+onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
+onboarding-alias-tip-3 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y  ffurflen a dewis “Cynhyrchu Arallenw Newydd.”
 
 ## Premium Onboarding
 
@@ -459,6 +464,22 @@ onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfo
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'n taro'ch blwch derbyn, un e-bost ar y tro.
+multi-part-onboarding-premium-welcome-title = Rheolwch pa e-byst rydych yn eu derbyn:
+multi-part-onboarding-premium-welcome-button-start = Cychwyn Arni
+multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu arallenwau
+multi-part-onboarding-premium-domain-title = Cael parth cyfaddas ar gyfer eich arallenwau:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Gan ddefnyddio parth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
+    Angen arallenw ar gyfer archebion bwyty? Dim ond rhoi bwyd@ eichparth{ $mozmail } - Does dim angen creu'r arallenw ymlaen llaw.
+multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth cyfaddas nawr:
+multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth cyfaddas yn nes ymlaen
+multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
+multi-part-onboarding-premium-extension-reply-title = Ateb e-byst heb ddatgelu eich cyfeiriad go iawn:
+multi-part-onboarding-premium-extension-get-title = Cael estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
 
 ## Modals
 
