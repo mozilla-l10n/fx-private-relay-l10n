@@ -318,6 +318,8 @@ profile-label-domain = Domínio de email:
 profile-label-domain-tooltip = Crie seu domínio de email, exclusivo e personalizado.
 profile-label-reset = Redefinir
 profile-label-apply = Aplicar
+profile-label-skip = Ignorar
+profile-label-continue = Continuar
 # This string is followed by an email address
 profile-label-forward-emails = Encaminhar emails para:
 # This string is followed by date
@@ -396,6 +398,10 @@ banner-register-subdomain-button-search = Pesquisar
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
 banner-pack-upgrade-cta = Mude agora para a versão premium
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Atualização do aviso de privacidade
+banner-label-privacy-notice-update-body = Para melhorar a confiabilidade do { -brand-name-firefox-relay } no caso de não conseguir entregar um email, ele será mantido em nossos servidores temporariamente até que seja entregue. Nunca iremos manter por mais de três dias.
+banner-label-privacy-notice-update-cta = Ver aviso de privacidade
 # Data Notification Banner:
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
 banner-label-data-notification-body = Você pode permitir que o { -brand-name-relay } colete dados opcionais nos sites onde seus endereços de redirecionamento são usados, para oferecer suporte a futuros recursos. Permitir esta coleta de dados na página “Configurações” facilita ainda mais o gerenciamento da sua caixa de entrada.
@@ -434,6 +440,7 @@ error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não est�
 ## Onboarding 
 
 onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três maneiras …
+onboarding-alias-tip-2 = Ao usar a extensão { -brand-name-relay }, clique no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email.
 
 ## Premium Onboarding
 
@@ -450,6 +457,12 @@ onboarding-premium-reply-description = Precisa responder mensagens enviadas para
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Boas-vindas ao { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Agora você pode controlar o que chega em sua caixa de entrada, um email por vez.
+multi-part-onboarding-premium-welcome-title = Controle quais emails você recebe:
+multi-part-onboarding-premium-welcome-button-start = Introdução
+multi-part-onboarding-premium-domain-headline = Domínio personalizado para compartilhar endereços de redirecionamento
+multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos endereços de redirecionamento:
 
 ## Modals
 
