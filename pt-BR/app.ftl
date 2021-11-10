@@ -226,7 +226,9 @@ faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode e
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-name-relay-premium } e está enfrentando algum desses problemas, <a href="{ $url }" { $attrs }>entre em contato com nossa equipe de suporte</a>.
 faq-question-use-cases-question = Quando devo usar endereços de redirecionamento do { -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares onde usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing e/ou informativos, quando quer controlar se receberá ou não emails no futuro. Não recomendamos o uso de endereços de redirecionamento quando você precisa que sua identidade seja verificada ou para emails muito importantes. Por exemplo, você pode querer compartilhar seu endereço de email real com seu banco, seu médico, seu advogado, etc.
+faq-question-use-cases-answer-part1 = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares em que usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing ou informativos, podendo controlar se quer ou não receber emails no futuro.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -430,9 +432,6 @@ error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não est�
 ## Onboarding 
 
 onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três maneiras …
-onboarding-tip-1 = Basta clicar no botão “Gerar novo endereço de redirecionamento” para criar seu primeiro endereço de redirecionamento
-onboarding-tip-2 = Clicando no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email
-onboarding-tip-3 = Através do menu de contexto, basta clicar com o botão direito do mouse (Windows) ou Control-clique (macOS) em um campo de formulário para acessar o menu e gerar um endereço de redirecionamento
 
 ## Premium Onboarding
 
@@ -446,6 +445,9 @@ onboarding-premium-domain-title = Usar um domínio personalizado para compartilh
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
 onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
 onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
 
 ## Modals
 
@@ -462,14 +464,10 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Se você usar este endereço de redirecionamento para acessar contas em sites de seu interesse, deve atualizar sua conta com um endereço de email diferente, antes de excluir este. Se você recriar um endereço de redirecionamento excluído, os emails enviados para o endereço de redirecionamento original voltarão a ser encaminhados.
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
 modal-domain-register-good-news = Boas notícias!
-modal-domain-register-warning = Lembre que você pode registrar somente um domínio para sua conta e depois não é possível alterar seu domínio.
 modal-domain-register-button = Registrar domínio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } está disponível!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Sim, quero registrar { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
