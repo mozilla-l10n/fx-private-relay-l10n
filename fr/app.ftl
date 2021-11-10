@@ -228,6 +228,7 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } peut pre
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Si vous utilisez { -brand-name-relay-premium } et rencontrez l’un de ces problèmes, veuillez <a href="{ $url }" { $attrs }>contacter notre équipe d’assistance</a>.
 faq-question-use-cases-question = Quand dois-je utiliser les alias { -brand-name-relay } ?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Vous pouvez utiliser des alias { -brand-name-relay } dans la plupart des cas où vous utiliseriez votre adresse e-mail habituelle. Nous vous recommandons de les utiliser lors de l’inscription à des e-mails marketing/d’information où vous voudrez peut-être contrôler si vous recevez ou non des e-mails à l’avenir. Nous vous déconseillons d’utiliser des alias lorsque vous avez besoin de vérifier votre identité ou pour des e-mails très importants. Par exemple, il sera préférable de partager votre véritable adresse e-mail avec votre banque, votre médecin, votre avocat, etc.
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
 # Deprecated
@@ -275,6 +276,8 @@ faq-question-8-question = Quelles données { -brand-name-firefox-relay } collect
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
+faq-question-email-storage-question = { -brand-name-relay } conserve-t-il mes e-mails ?
+faq-question-email-storage-answer = Dans les rares cas où le service est en panne, nous pouvons stocker temporairement vos e-mails jusqu’à ce que nous soyons en mesure de les envoyer. Nous ne conserverons jamais vos e-mails plus de trois jours.
 # Deprecated
 faq-question-3-question = { -brand-name-relay } est-il disponible uniquement aux États-Unis ?
 # Deprecated
@@ -316,6 +319,8 @@ profile-label-domain = Domaine de messagerie :
 profile-label-domain-tooltip = Créez votre domaine de messagerie unique et personnalisé.
 profile-label-reset = Réinitialiser
 profile-label-apply = Appliquer
+profile-label-skip = Ignorer
+profile-label-continue = Continuer
 # This string is followed by an email address
 profile-label-forward-emails = Transférer les messages à :
 # This string is followed by date
@@ -394,6 +399,10 @@ banner-register-subdomain-button-search = Rechercher
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
 banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Mise à jour de la politique de confidentialité
+banner-label-privacy-notice-update-body = Pour améliorer la fiabilité de { -brand-name-firefox-relay } dans le cas où un e-mail ne peut pas être envoyé, nous conserverons temporairement l’e-mail sur nos serveurs jusqu’à ce qu’il soit envoyé. Nous ne le conserverons jamais plus de trois jours.
+banner-label-privacy-notice-update-cta = Consulter la politique de confidentialité
 # Data Notification Banner:
 banner-label-data-notification-header = Prochainement dans { -brand-name-relay }
 banner-label-data-notification-body = Vous pouvez autoriser { -brand-name-relay } à collecter des données facultatives sur les sites web où vos alias sont utilisés pour prendre en charge des fonctionnalités futures. Autoriser cette collecte de données à partir de la page « Paramètres » rendra la gestion de votre boîte de réception encore plus facile.
@@ -432,9 +441,9 @@ error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est p
 ## Onboarding 
 
 onboarding-headline = Pour créer votre premier alias, vous avez trois possibilités…
-onboarding-tip-1 = Cliquez simplement sur le bouton « Générer un nouvel alias » pour créer votre premier alias
-onboarding-tip-2 = Cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresses e-mail
-onboarding-tip-3 = Via le menu contextuel, faites un clic droit (Windows) ou Ctrl-clic (macOS) sur les champs du formulaire pour accéder au menu et générer un alias
+onboarding-alias-tip-1 = Sélectionnez « Générer un nouvel alias » pour créer votre premier alias
+onboarding-alias-tip-2 = À l’aide de l’extension { -brand-name-relay }, cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresse e-mail.
+onboarding-alias-tip-3 = À l’aide de l’extension { -brand-name-relay }, faites un clic droit sur les champs de formulaire et sélectionnez « Générer un nouvel alias ».
 
 ## Premium Onboarding
 
@@ -448,6 +457,15 @@ onboarding-premium-domain-title = Utiliser un domaine personnalisé pour partage
 onboarding-premium-domain-description = Avec un domaine personnalisé, vous pouvez différencier votre alias « newsletter » de votre alias « shopping ».
 onboarding-premium-reply-title = Répondre aux e-mails sans révéler votre véritable adresse
 onboarding-premium-reply-description = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contrôler ce qui arrive dans votre boîte de réception, un e-mail à la fois.
+multi-part-onboarding-premium-welcome-title = Contrôler les e-mails que vous recevez :
+multi-part-onboarding-premium-welcome-button-start = Lancez-vous
+multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour partager des alias
+multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
 
 ## Modals
 
@@ -464,14 +482,10 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
-modal-domain-register-warning = Gardez à l’esprit que vous ne pouvez enregistrer qu’un domaine pour votre compte et qu’il n’est pas possible de modifier votre domaine ultérieurement.
 modal-domain-register-button = Enregistrer le domaine
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } est disponible !
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Oui, je veux enregistrer { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
