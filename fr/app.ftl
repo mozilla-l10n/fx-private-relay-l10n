@@ -230,6 +230,8 @@ faq-question-missing-emails-answer-b-html = Si vous utilisez { -brand-name-relay
 faq-question-use-cases-question = Quand dois-je utiliser les alias { -brand-name-relay } ?
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Vous pouvez utiliser des alias { -brand-name-relay } dans la plupart des cas où vous utiliseriez votre adresse e-mail habituelle. Nous vous recommandons de les utiliser lors de l’inscription à des e-mails marketing/d’information où vous voudrez peut-être contrôler si vous recevez ou non des e-mails à l’avenir. Nous vous déconseillons d’utiliser des alias lorsque vous avez besoin de vérifier votre identité ou pour des e-mails très importants. Par exemple, il sera préférable de partager votre véritable adresse e-mail avec votre banque, votre médecin, votre avocat, etc.
+faq-question-use-cases-answer-part1 = Vous pouvez utiliser des alias { -brand-name-relay } dans la plupart des cas où vous utiliseriez votre adresse e-mail habituelle. Nous vous recommandons de les utiliser lors de l’inscription à des e-mails marketing/d’information où vous voudrez peut-être contrôler la réception ou non d’e-mails à l’avenir.
+faq-question-use-cases-answer-part2 = Nous vous déconseillons d’utiliser des alias lorsque vous avez besoin de vérifier votre identité, pour des e-mails très importants ou dans le cas où vous devez recevoir des pièces jointes. Par exemple, il est préférable de partager votre véritable adresse e-mail avec votre banque, votre médecin et votre avocat, ainsi que lorsque vous recevez des tickets pour un concert ou des billets d’avion.
 faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -brand-name-relay } ?
 # Deprecated
 # Variables:
@@ -473,6 +475,13 @@ multi-part-onboarding-premium-domain-description =
     Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
 multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
+multi-part-onboarding-premium-extension-reply-title = Répondez aux e-mails sans révéler votre véritable adresse :
+multi-part-onboarding-premium-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = L’extension { -brand-name-relay } pour { -brand-name-firefox } rend l’utilisation des alias de messagerie encore plus facile.
+multi-part-onboarding-premium-extension-button-download = Installer l’extension { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Continuer, je téléchargerai l’extension plus tard
+multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
+multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
 
 ## Modals
 
@@ -489,10 +498,19 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
+modal-domain-register-warning-reminder = N’oubliez pas que vous ne pouvez enregistrer qu’un seul domaine. Vous ne pourrez pas le changer plus tard.
 modal-domain-register-button = Enregistrer le domaine
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } est disponible !
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
+modal-domain-register-success-title = Terminé !
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } est maintenant votre domaine de messagerie !
 
 ## Evergreen Survey (displayed on the profile page)
 
