@@ -468,7 +468,16 @@ multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
     Precisa de um endereço de redirecionamento para reservas em restaurantes? Basta informar comida@seudominio{ $mozmail } — Não precisa criar antes o endereço de redirecionamento.
-multi-part-onboarding-premium-domain-cta = Registre agora seu domínio personalizado:
+multi-part-onboarding-premium-domain-cta = Registrar agora o domínio personalizado:
+multi-part-onboarding-premium-domain-button-skip = Avançar, vou registrar meu domínio personalizado mais tarde
+multi-part-onboarding-premium-extension-headline = Bloquear, encaminhar e responder
+multi-part-onboarding-premium-extension-reply-title = Responda mensagens sem revelar seu endereço de email real:
+multi-part-onboarding-premium-extension-get-title = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = A extensão { -brand-name-relay } para { -brand-name-firefox } facilita ainda mais usar endereços de redirecionamento de email.
+multi-part-onboarding-premium-extension-button-download = Instalar a extensão { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Avançar, instalarei a extensão mais tarde
+multi-part-onboarding-premium-extension-added = Extensão { -brand-name-relay } adicionada!
+multi-part-onboarding-premium-extension-button-dashboard = Ir para o painel
 
 ## Modals
 
@@ -485,10 +494,20 @@ modal-delete-warning-upgrade =
 modal-delete-domain-address-warning-upgrade = Se você usar este endereço de redirecionamento para acessar contas em sites de seu interesse, deve atualizar sua conta com um endereço de email diferente, antes de excluir este. Se você recriar um endereço de redirecionamento excluído, os emails enviados para o endereço de redirecionamento original voltarão a ser encaminhados.
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
 modal-domain-register-good-news = Boas notícias!
+modal-domain-register-warning-reminder = Lembre, você só pode registrar um domínio. Não poderá alterar depois.
 modal-domain-register-button = Registrar domínio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } está disponível!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Sim, quero registrar @{ $subdomain }
+modal-domain-register-success-title = Sucesso!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = Agora { $subdomain } é seu domínio de email!
+modal-domain-register-success-copy = Agora você pode criar endereços de redirecionamento de email ilimitados usando seu novo domínio! O que está esperando?
 
 ## Evergreen Survey (displayed on the profile page)
 
