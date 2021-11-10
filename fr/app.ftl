@@ -475,6 +475,7 @@ multi-part-onboarding-premium-domain-description =
     Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
 multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
+multi-part-onboarding-premium-extension-headline = Bloquez, transférez et répondez
 multi-part-onboarding-premium-extension-reply-title = Répondez aux e-mails sans révéler votre véritable adresse :
 multi-part-onboarding-premium-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = L’extension { -brand-name-relay } pour { -brand-name-firefox } rend l’utilisation des alias de messagerie encore plus facile.
@@ -511,6 +512,7 @@ modal-domain-register-success-title = Terminé !
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = { $subdomain } est maintenant votre domaine de messagerie !
+modal-domain-register-success-copy = Vous pouvez maintenant créer un nombre illimité d’alias en utilisant votre nouveau domaine ! Qu’attendez-vous ?
 
 ## Evergreen Survey (displayed on the profile page)
 
