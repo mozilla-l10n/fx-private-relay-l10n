@@ -251,7 +251,7 @@ faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indes
 faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapore, Malaysia, Nove Zelanda, Francia, Belgio, Austria, Espania, Italia, Suissa, Hollanda e Irlanda.
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
-faq-question-4-answer = Le usatores de { -brand-name-relay-premium } pote replicar a un e-mail inultrate intra 3 menses de reciper lo. Ulle adresses CC o CCN non sera includite in tu replicas.
+faq-question-4-answer = Le usatores de { -brand-name-relay-premium } pote responder a un e-mail reinviate intra 3 menses post reception. Adresses CC o BCC non essera includite in tu responsas.
 faq-question-4-answer-v2 = Le usatores de { -brand-name-relay-premium } pote responder a un email inultrate in 3 menses desde le reception. Se tu adde qualcuno in Cc o Ccn quando tu responde, tu real adresse email sera exponite al destinatarios e a altere subjectos incluse in le email. Si tu non vole que tu adresse email real es monstrate, non adde destinatarios in Cc o Ccn quando tu responde.
 faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
