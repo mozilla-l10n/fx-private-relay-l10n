@@ -466,6 +466,13 @@ multi-part-onboarding-premium-welcome-title = Contrôler les e-mails que vous re
 multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour partager des alias
 multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Grâce à un domaine personnalisé, vous pouvez créer des alias plus faciles que jamais à mémoriser et à partager.
+    Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
+multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
+multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
 
 ## Modals
 
