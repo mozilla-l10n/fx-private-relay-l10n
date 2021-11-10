@@ -229,6 +229,7 @@ faq-question-use-cases-question = Quando devo usar endereços de redirecionament
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares onde usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing e/ou informativos, quando quer controlar se receberá ou não emails no futuro. Não recomendamos o uso de endereços de redirecionamento quando você precisa que sua identidade seja verificada ou para emails muito importantes. Por exemplo, você pode querer compartilhar seu endereço de email real com seu banco, seu médico, seu advogado, etc.
 faq-question-use-cases-answer-part1 = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares em que usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing ou informativos, podendo controlar se quer ou não receber emails no futuro.
+faq-question-use-cases-answer-part2 = Não recomendamos usar endereços de redirecionamento quando você precisa que sua identidade seja verificada, ou quando você pode receber mensagens muito importantes, ou anexos. Por exemplo, pode compartilhar seu endereço de email real com seu banco, seu médico ou seu advogado, assim como para receber entradas de shows ou passagens de voos.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -275,6 +276,7 @@ faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
+faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 # Deprecated
 faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
 # Deprecated
