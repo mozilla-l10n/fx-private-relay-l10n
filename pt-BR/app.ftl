@@ -277,6 +277,7 @@ faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
+faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
 # Deprecated
 faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
 # Deprecated
@@ -440,7 +441,9 @@ error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não est�
 ## Onboarding 
 
 onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três maneiras …
+onboarding-alias-tip-1 = Selecione “Gerar novo endereço de redirecionamento” para criar seu primeiro endereço de redirecionamento.
 onboarding-alias-tip-2 = Ao usar a extensão { -brand-name-relay }, clique no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email.
+onboarding-alias-tip-3 = Usando a extensão { -brand-name-relay }, clique com o botão direito em campos de formulário e selecione “Gerar novo endereço de redirecionamento“.
 
 ## Premium Onboarding
 
