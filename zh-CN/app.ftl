@@ -109,7 +109,7 @@ landing-hero-body =
 ## How it works section
 
 landing-how-it-works-headline = 工作原理
-landing-how-it-works-body = 共享 { -brand-name-relay } 马甲邮箱，掩藏真实邮箱地址，从而保护您的邮箱及身份信息。
+landing-how-it-works-body = 提供 { -brand-name-relay } 马甲邮箱，掩藏真实邮箱地址，从而保护您的邮箱及身份信息。
 landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 landing-how-it-works-step-1-body = 在输入邮箱地址时自动生成马甲邮箱
 # Do not change '@relay.mozmail.com'
@@ -190,7 +190,7 @@ faq-headline = 常见问题
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } 马甲邮箱是什么？
-faq-question-what-is-answer = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的匿名邮箱。您可以放心地与第三方共享这些邮箱地址，掩藏真实邮箱地址。
+faq-question-what-is-answer = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的匿名邮箱。您可以放心地向第三方提供这些邮箱地址，掩藏真实邮箱地址。
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
 faq-question-missing-emails-answer-a = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
@@ -245,7 +245,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择向我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
 # Deprecated
@@ -435,6 +435,11 @@ multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入�
 multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
 multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    借助自定义域名功能，您可创建比以往更好记和分享的马甲。
+    想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
 multi-part-onboarding-premium-domain-button-skip = 继续，我之后再注册自定义域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
