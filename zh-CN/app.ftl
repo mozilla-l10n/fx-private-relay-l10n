@@ -131,7 +131,7 @@ landing-pricing-free-cta = 下载 { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
-landing-pricing-premium-price-highlight = 限时好价
+landing-pricing-premium-price-highlight = 限时价格
 landing-pricing-premium-feature-1 = 无限数量马甲
 landing-pricing-premium-feature-2 = 浏览器扩展
 landing-pricing-premium-feature-3 = 专属邮箱域名
@@ -224,7 +224,7 @@ faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾�
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
 faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
-faq-question-availability-answer = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
+faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer = 所转发的邮件，{ -brand-name-relay-premium } 用户可在收到后三个月内进行回复。任何抄送或密送地址均不会包含在回复中。
 faq-question-4-answer-v2 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
@@ -423,7 +423,7 @@ onboarding-premium-subheadline-html = 哪一封邮件可以进入收件箱，<st
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } 可享：
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 onboarding-premium-control-description = 可创建无限数量马甲，只转发您想收到的邮件到收件箱。
-onboarding-premium-domain-title = 用自定义域名创建共用马甲邮箱
+onboarding-premium-domain-title = 用自定义域名创建马甲邮箱
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
@@ -434,6 +434,7 @@ multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-rela
 multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
 multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
 multi-part-onboarding-premium-welcome-button-start = 开始使用
+multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
@@ -475,6 +476,7 @@ modal-domain-register-success-title = 成功！
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = { $subdomain } 现在是您的专属邮箱域名！
+modal-domain-register-success-copy = 您现在可以使用新域名创建无限数量的马甲了，赶快试试吧！
 
 ## Evergreen Survey (displayed on the profile page)
 
