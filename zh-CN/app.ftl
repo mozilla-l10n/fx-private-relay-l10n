@@ -462,6 +462,7 @@ modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的�
 modal-delete-domain-address-warning-upgrade = 如果您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
+modal-domain-register-warning-reminder = 请记住，您只能注册一个域名，且不可更改。
 modal-domain-register-button = 注册域名
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -470,6 +471,10 @@ modal-domain-register-available = { $subdomain } 可用！
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
 modal-domain-register-success-title = 成功！
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } 现在是您的专属邮箱域名！
 
 ## Evergreen Survey (displayed on the profile page)
 
