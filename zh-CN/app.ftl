@@ -206,6 +206,7 @@ faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马�
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们非常建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。但是，我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好与银行、医生、律师等分享您的真实邮箱地址。
 faq-question-use-cases-answer-part1 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们非常建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
+faq-question-use-cases-answer-part2 = 我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好在与银行、医生、律师沟通，或接收音乐会或航班信息时，提供您的真实邮箱地址。
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
 # Variables:
