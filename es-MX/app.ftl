@@ -114,6 +114,7 @@ landing-pricing-free-cta = Obtener { -brand-name-relay }
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mes
 landing-pricing-premium-feature-2 = Extensión del navegador
+landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
@@ -160,6 +161,7 @@ faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-headline-manage-domain = Administra los alias de tu dominio
 profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
+profile-promo-upgrade-copy = Actualiza { -brand-name-relay } para obtener direcciones de correo electrónico ilimitadas y tu propio dominio de correo electrónico.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-edit = Editar la etiqueta de este alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
