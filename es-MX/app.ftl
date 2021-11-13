@@ -159,6 +159,7 @@ faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-headline-manage-domain = Administra los alias de tu dominio
+profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-label-edit = Editar la etiqueta de este alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -168,6 +169,9 @@ profile-label-generate-new-alias = Generar nuevo alias
 profile-label-delete = Eliminar
 profile-label-delete-alias = Eliminar este alias
 profile-label-upgrade = Obtener alias ilimitados
+profile-label-create-domain = Obtener tu dominio de correo electrónico
+profile-label-domain = Dominio de correo electrónico:
+profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y personalizado.
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-continue = Continuar
@@ -220,9 +224,11 @@ banner-choose-subdomain-label = Tu dominio es:
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Bienvenido a { -brand-name-firefox } { -brand-name-relay-premium }
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
+onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
