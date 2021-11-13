@@ -207,6 +207,7 @@ banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-cta = Actualizar ahora
+banner-label-privacy-notice-update-cta = Ver aviso de privacidad
 # Data Notification Banner:
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-cta = Ir a Ajustes
