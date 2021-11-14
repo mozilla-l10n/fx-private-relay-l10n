@@ -277,6 +277,7 @@ faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus alias de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
+faq-question-email-storage-answer = En la rara circunstancia en la que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos más de tres días.
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 # Deprecated
