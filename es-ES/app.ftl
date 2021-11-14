@@ -226,7 +226,10 @@ faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-r
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-relay-premium } y encuentras alguno de estos problemas, <a href="{ $url }" { $attrs }>ponte en contacto con nuestro equipo de asistencia</a>.
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de{ -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos informativos o de marketing en los que es posible que desees controlar si recibes o no correos electrónicos en el futuro. No recomendamos el uso de alias cuando necesites verificar tu identidad o para correos electrónicos muy importantes. Por ejemplo, querrás compartir tu dirección de correo electrónico real con tu banco, tu médico, tu abogado, etc.
+faq-question-use-cases-answer-part1 = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Te recomendamos que las utilices al registrarte para correos electrónicos de marketing/información, y así puedas controlar si recibes o no correos en el futuro.
+faq-question-use-cases-answer-part2 = No recomendamos usar alias cuando necesitas verificar tu identidad o para correos muy importantes o aquellos en los que debes recibir archivos adjuntos. Por ejemplo, es preferible compartir tu dirección de correo electrónico real con tu banco, tu médico y tu abogado, así como cuando recibas pases de concierto o de embarque de vuelos.
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 # Deprecated
 # Variables:
@@ -273,6 +276,7 @@ faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus alias de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
+faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 # Deprecated
