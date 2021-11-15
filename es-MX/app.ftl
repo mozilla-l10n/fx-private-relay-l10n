@@ -235,6 +235,7 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
 
 ## Modals
 
