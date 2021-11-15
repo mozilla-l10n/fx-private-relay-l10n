@@ -226,6 +226,7 @@ faq-question-missing-emails-answer-reason-delay = È possibile che { -brand-name
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay-premium } alle prese con uno di questi problemi, <a href="{ $url }" { $attrs }>contatta il nostro team di supporto</a>.
 faq-question-use-cases-question = Quando è consigliato utilizzare gli alias { -brand-name-relay }?
+# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro. Non è consigliabile utilizzare un alias per verificare la propria identità o per email molto importanti. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico, il tuo avvocato, ecc.
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 # Deprecated
@@ -273,6 +274,7 @@ faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-r
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
+faq-question-email-storage-question = { -brand-name-relay } conserva le mie email?
 # Deprecated
 faq-question-3-question = { -brand-name-relay } è disponibile solo negli Stati Uniti?
 # Deprecated
