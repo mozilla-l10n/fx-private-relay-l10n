@@ -228,6 +228,8 @@ faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay
 faq-question-use-cases-question = Quando è consigliato utilizzare gli alias { -brand-name-relay }?
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro. Non è consigliabile utilizzare un alias per verificare la propria identità o per email molto importanti. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico, il tuo avvocato, ecc.
+faq-question-use-cases-answer-part1 = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro.
+faq-question-use-cases-answer-part2 = Non è consigliabile utilizzare un alias per verificare la propria identità, per email molto importanti o per quelle in cui si devono ricevere allegati. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico o il tuo avvocato, così come quando devi ricevere biglietti aerei o per concerti.
 faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 # Deprecated
 # Variables:
