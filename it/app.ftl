@@ -275,6 +275,7 @@ faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-r
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
 faq-question-email-storage-question = { -brand-name-relay } conserva le mie email?
+faq-question-email-storage-answer = Nelle rare situazioni in cui il servizio non è attivo, potremmo salvare temporaneamente le tue email fino a quando non potranno essere inviate. Le tue email non verranno mai conservate per più di tre giorni.
 # Deprecated
 faq-question-3-question = { -brand-name-relay } è disponibile solo negli Stati Uniti?
 # Deprecated
