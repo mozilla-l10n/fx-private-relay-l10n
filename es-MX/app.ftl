@@ -207,6 +207,7 @@ banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-cta = Actualizar ahora
+banner-label-privacy-notice-update-body = Para mejorar la confiabilidad de { -brand-name-firefox-relay } en caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se entregue. Nunca lo conservaremos por más de tres días.
 banner-label-privacy-notice-update-cta = Ver aviso de privacidad
 # Data Notification Banner:
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
