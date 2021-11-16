@@ -136,6 +136,8 @@ settings-headline = Ajustes de { -brand-name-relay }
 settings-meta-contact-label = Contáctanos
 settings-meta-help-label = Ayuda y soporte
 settings-meta-status-label = Estado del servicio
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 settings-button-save-label = Guardar
@@ -156,6 +158,10 @@ faq-question-availability-question = ¿Dónde está disponible { -brand-name-rel
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
+# Deprecated
+faq-question-3-answer = Actualmente el sitio web sólo está disponible en inglés, pero puedes usar el servicio donde sea.
+# Deprecated
+faq-question-5-question = ¿Puedo crear mi propio alias de { -brand-name-relay } usando el dominio @relay.firefox.com?
 
 ## Profile Page (Logged In)
 
@@ -229,6 +235,8 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 
 ## Error Messages
 
+error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
+error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Por favor intenta de nuevo con otro dominio.
 
 ## Onboarding 
 
@@ -248,6 +256,7 @@ multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -bra
 ## Modals
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
+modal-delete-headline = ¿Eliminar definitivamente este alias?
 modal-delete-warning-upgrade =
     Si tú usas este alias para iniciar sesión en los sitios que te interesan, 
     debes actualizar tú inicio de sesión con una dirección de correo electrónico diferente antes de eliminar está.
