@@ -216,6 +216,9 @@ banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
 
 ## Success Messages
 
