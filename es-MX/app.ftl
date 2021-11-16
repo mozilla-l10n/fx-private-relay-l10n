@@ -93,6 +93,7 @@ how-it-works-step-2-headline = Crea un nuevo alias
 how-it-works-step-3-headline = Administra tus alias
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
+hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que llega a tu bandeja de entrada!
 
 ## Home Page Version A
 
@@ -117,11 +118,13 @@ landing-pricing-premium-feature-2 = Extensión del navegador
 landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
 
 ## Use Cases
 
 landing-use-cases-social-networks = Redes sociales
 landing-use-cases-offline = Sin conexión
+landing-use-cases-access-content = Acceder a contenido
 landing-use-cases-gaming = Juegos
 
 ## Landing FAQ Section
@@ -206,6 +209,7 @@ banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
+banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
 banner-label-privacy-notice-update-body = Para mejorar la confiabilidad de { -brand-name-firefox-relay } en caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se entregue. Nunca lo conservaremos por más de tres días.
 banner-label-privacy-notice-update-cta = Ver aviso de privacidad
