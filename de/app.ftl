@@ -274,6 +274,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
 # Deprecated
 faq-question-subdomain-characters-answer = Nur englisches Alphabet in Kleinbuchstaben, Zahlen und Bindestriche (-).
+faq-question-subdomain-characters-answer-v2 = Sie können nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
 faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten generieren, indem Sie sich einfach bei Ihrer { -brand-name-relay }-Übersicht anmelden.
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
@@ -283,6 +284,7 @@ faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com�
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 # Deprecated
 faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } unterstützt weitergeleitete E-Mails mit Anhängen bis zu einer Größe von { email-size-limit }. Wenn eine E-Mail einen Anhang enthält, der größer als { email-size-limit } ist, wird sie nicht weitergeleitet.
+faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
 faq-question-unsubscribe-domain-answer = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierte Domain weitergeleitet werden, aber Sie können mit dieser Domain keine neuen Alias-E-Mail-Adressen mehr erstellen. Wenn Sie insgesamt mehr als fünf Alias-E-Mail-Adressen haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
