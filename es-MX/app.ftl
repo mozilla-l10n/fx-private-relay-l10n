@@ -105,6 +105,7 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 
 landing-how-it-works-headline = Cómo funciona
 landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-relay } para { -brand-name-firefox }.
+landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que ingreses tu dirección de correo electrónico en línea.
 
 ## Pricing section
 
@@ -130,6 +131,8 @@ landing-use-cases-gaming = Juegos
 
 ## Landing FAQ Section
 
+landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
+landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
 ## Settings page
 
@@ -159,6 +162,7 @@ faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-nam
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
+faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 # Deprecated
