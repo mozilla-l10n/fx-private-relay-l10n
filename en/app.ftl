@@ -214,7 +214,7 @@ faq-question-missing-emails-answer-reason-turned-off = The alias might have forw
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } might be taking longer than usual to forward your messages
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-premium } user struggling with any of these issues, please <a href="{ $url }" { $attrs }>contact our support team</a>.#   $url (url) - link to the support site
+faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-premium } user struggling with any of these issues, please <a href="{ $url }" { $attrs }>contact our support team</a>.
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = If you’re struggling with any of these issues, please <a href="{ $url }" { $attrs }>visit our support site</a>.
