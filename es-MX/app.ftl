@@ -244,12 +244,19 @@ multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -bra
 ## Modals
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
+modal-delete-warning-upgrade =
+    Si tú usas este alias para iniciar sesión en los sitios que te interesan, 
+    debes actualizar tú inicio de sesión con una dirección de correo electrónico diferente antes de eliminar está.
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
+modal-domain-register-warning-reminder = Recuerda, solo puedes registrar un dominio. No podrás cambiarlo más tarde.
 modal-domain-register-button = Registrar dominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
