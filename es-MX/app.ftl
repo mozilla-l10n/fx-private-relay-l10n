@@ -122,6 +122,7 @@ landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
 
 ## Use Cases
 
+landing-use-cases-shopping = Compras
 landing-use-cases-social-networks = Redes sociales
 landing-use-cases-offline = Sin conexión
 landing-use-cases-access-content = Acceder a contenido
@@ -135,6 +136,7 @@ landing-use-cases-gaming = Juegos
 settings-headline = Ajustes de { -brand-name-relay }
 settings-meta-contact-label = Contáctanos
 settings-meta-help-label = Ayuda y soporte
+settings-meta-help-tooltip = Obtener ayuda para usar { -brand-name-relay }
 settings-meta-status-label = Estado del servicio
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
@@ -217,6 +219,7 @@ banner-download-install-extension-headline = Obtén la extensión de { -brand-na
 banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más el uso de alias de correo electrónico.
 banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand-name-firefox }
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
@@ -254,6 +257,7 @@ onboarding-premium-headline = Bienvenido a { -brand-name-firefox } { -brand-name
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
+onboarding-premium-control-title = Controla los correos electrónicos que recibes
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -264,6 +268,11 @@ multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -bra
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
 modal-delete-headline = ¿Eliminar definitivamente este alias?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Una vez que elimines este alias, no podrás recuperarlo.
+    { -brand-name-firefox-relay } ya no reenviará los mensajes enviados a <strong>{ $email }</strong>, incluidos los mensajes que te permiten restablecer las contraseñas perdidas.
 modal-delete-warning-upgrade =
     Si tú usas este alias para iniciar sesión en los sitios que te interesan, 
     debes actualizar tú inicio de sesión con una dirección de correo electrónico diferente antes de eliminar está.
