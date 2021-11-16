@@ -236,11 +236,18 @@ faq-question-2-answer-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo. 
     Como { -brand-name-firefox-relay } cresce in popularitate e publica plure aliases, nostre servicio poterea esser ubicate sur un lista del blocadas. 
     If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>per favor face nos saper lo</a>.
+# Deprecated
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v2-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (i.e., le parte de “relay”: @relay.firefox.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
+    Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v3-html =
+    Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
     Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
 faq-question-1-question = E quanto al spam?
 faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
@@ -252,11 +259,14 @@ faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapore, Malaysia, Nove Zelanda, Francia, Belgio, Austria, Espania, Italia, Suissa, Hollanda e Irlanda.
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
 faq-question-4-answer = Le usatores de { -brand-name-relay-premium } pote responder a un e-mail reinviate intra 3 menses post reception. Adresses CC o BCC non essera includite in tu responsas.
+# Deprecated
 faq-question-4-answer-v2 = Le usatores de { -brand-name-relay-premium } pote responder a un email inultrate in 3 menses desde le reception. Se tu adde qualcuno in Cc o Ccn quando tu responde, tu real adresse email sera exponite al destinatarios e a altere subjectos incluse in le email. Si tu non vole que tu adresse email real es monstrate, non adde destinatarios in Cc o Ccn quando tu responde.
+faq-question-4-answer-v3 = Le usatores de { -brand-name-relay-premium } pote responder a un email inultrate in 3 menses desde le reception. Se tu adde qualcuno in Cc o Ccn quando tu responde, tu real adresse email sera exponite al destinatario e a altere subjectos incluse in le email. Si tu non vole que tu adresse email real es monstrate, non adde destinatarios in Cc o Ccn quando tu responde.
 faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
     Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
 faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
+# Deprecated
 faq-question-subdomain-characters-answer = Solo minusculas del alphabeto anglese, numeros e lineettas (-)
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per authentication a tu pannello de controlo { -brand-name-relay }.
@@ -265,7 +275,9 @@ faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar
 faq-question-mozmail-question = Perque mi aliases comenciava usar le dominio “mozmail.com?”
 faq-question-mozmail-answer = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un dominio e-mail personal, tal como alias@yourdomain.mozmail.com. Le dominios e-mail personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, alsi rende tu aliases e-mail multo plus facile a rememorar que aliases aleatori.
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
+# Deprecated
 faq-question-attachments-answer = Si, { -brand-name-firefox-relay } supporta e-mails inultrate con annexos usque { email-size-limit } in dimension. Si un e-mail ha un annexo major de { email-size-limit }, illo non sera inultrate.
+faq-question-attachments-answer-v2 = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 faq-question-unsubscribe-domain-question = Que eveni a mi dominio personal si io me remove del inrolamento de { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora e-mails inultrate a transverso de tu dominio personal, ma tu non plus potera crear nove aliases per ille dominio. Si tu ha plus que cinque aliases in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote resubscriber te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
