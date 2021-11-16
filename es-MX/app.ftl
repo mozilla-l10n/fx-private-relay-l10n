@@ -152,6 +152,7 @@ faq-headline = Preguntas frecuentes
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-name-relay }?
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
