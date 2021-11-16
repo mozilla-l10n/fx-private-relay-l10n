@@ -162,6 +162,8 @@ faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU
 faq-question-3-answer = Actualmente el sitio web sólo está disponible en inglés, pero puedes usar el servicio donde sea.
 # Deprecated
 faq-question-5-question = ¿Puedo crear mi propio alias de { -brand-name-relay } usando el dominio @relay.firefox.com?
+# Deprecated
+faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
 
 ## Profile Page (Logged In)
 
@@ -186,6 +188,8 @@ profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y p
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-continue = Continuar
+# This string is followed by an email address
+profile-label-forward-emails = Reenviar correos electrónicos a:
 # This string is followed by date:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
@@ -206,6 +210,8 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
+banner-download-firefox-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de alias.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más el uso de alias de correo electrónico.
@@ -215,6 +221,7 @@ banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
+banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
 banner-label-privacy-notice-update-body = Para mejorar la confiabilidad de { -brand-name-firefox-relay } en caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se entregue. Nunca lo conservaremos por más de tres días.
