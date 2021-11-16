@@ -104,12 +104,14 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 ## How it works section
 
 landing-how-it-works-headline = Cómo funciona
+landing-how-it-works-body = Comparte los alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tu bandeja de entrada de correo electrónico, así como tu identidad.
 landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que ingreses tu dirección de correo electrónico en línea.
 
 ## Pricing section
 
 landing-pricing-free-price = Gratis
+landing-pricing-free-feature-1 = Hasta 5 alias de correo electrónico
 landing-pricing-free-feature-2 = Extensión del navegador
 landing-pricing-free-cta = Obtener { -brand-name-relay }
 # Variables:
