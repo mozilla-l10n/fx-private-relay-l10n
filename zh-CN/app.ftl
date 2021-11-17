@@ -202,6 +202,9 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 转发�
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 用户，遇到这些问题，请<a href="{ $url }" { $attrs }>联系我们的支持团队</a>。
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = 若您遇到这些问题，请<a href="{ $url }" { $attrs }>访问我们的用户支持网站</a>。
 faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们非常建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。但是，我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好与银行、医生、律师等分享您的真实邮箱地址。
@@ -218,6 +221,10 @@ faq-question-2-answer-html = 部分网站可能不接受使用子域名（即 @r
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v2-html = 部分网站可能不接受使用子域名（即 @relay.firefox.com 中的“relay”部分）邮箱注册；有些网站则是不接受 Gmail、Hotmail、Yahoo 以外的账户注册。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v3-html = 部分网站可能不接受使用子域名（@subdomain.mozmail.com）邮箱注册；有些网站则是不接受 Gmail、Hotmail、Yahoo 以外的账户注册。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
@@ -230,6 +237,7 @@ faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮�
 faq-question-4-answer = 所转发的邮件，{ -brand-name-relay-premium } 用户可在收到后三个月内进行回复。任何抄送或密送地址均不会包含在回复中。
 # Deprecated
 faq-question-4-answer-v2 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
+faq-question-4-answer-v3 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
 # Deprecated
