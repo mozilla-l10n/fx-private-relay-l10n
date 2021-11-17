@@ -274,6 +274,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Vilka tecken kan jag använda för att skapa en underdomän?
 # Deprecated
 faq-question-subdomain-characters-answer = Endast små bokstäver, engelska alfabet, siffror och bindestreck (-).
+faq-question-subdomain-characters-answer-v2 = Du kan bara använda små bokstäver ur engelska alfabetet, siffror och bindestreck för att skapa en underdomän.
 faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
 faq-question-browser-support-answer = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
 faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
@@ -283,6 +284,7 @@ faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “moz
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 # Deprecated
 faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stöder vidarebefordrade e-postmeddelanden med bilagor på upp till { email-size-limit } i storlek. Om ett e-postmeddelande har en bilaga större än { email-size-limit } vidarebefordras det inte.
+faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
