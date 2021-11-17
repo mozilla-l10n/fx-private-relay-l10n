@@ -267,12 +267,14 @@ faq-question-4-question = Posso responder mensagens usando meu endereço do { -b
 faq-question-4-answer = Os usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após o recebimento do email. Quaisquer endereços CC ou CCO não são incluídos em suas respostas.
 # Deprecated
 faq-question-4-answer-v2 = Os usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após o recebimento do email. Se você adicionar um destinatário Cc ou Cco ao responder um email, seu endereço de email original será exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes Cc ou Cco ao responder.
+faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
     Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
 faq-question-subdomain-characters-question = Que caracteres posso usar para criar um subdomínio?
 # Deprecated
 faq-question-subdomain-characters-answer = Somente letras minúsculas do alfabeto inglês, números e traços (-).
+faq-question-subdomain-characters-answer-v2 = Você só pode usar letras minúsculas sem acentos, números e hifens para criar um subdomínio.
 faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
 faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
 faq-question-longevity-question = O que acontece se a Mozilla encerrar o serviço { -brand-name-firefox-relay }?
