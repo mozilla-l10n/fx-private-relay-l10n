@@ -284,6 +284,7 @@ faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
 # Deprecated
 faq-question-attachments-answer = Sim, o { -brand-name-firefox-relay } oferece suporte a emails encaminhados com anexos de até { email-size-limit }. Se um email tiver um anexo maior que { email-size-limit }, ele não é encaminhado.
+faq-question-attachments-answer-v2 = Agora oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } no encaminhamento de emails usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 faq-question-unsubscribe-domain-question = O que acontece com meu domínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de seu domínio personalizado, mas não poderá mais criar endereços de redirecionamento usando esse domínio. Se tiver mais de cinco endereços de redirecionamento no total, não poderá criar mais nenhum. Também perderá a capacidade de responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
