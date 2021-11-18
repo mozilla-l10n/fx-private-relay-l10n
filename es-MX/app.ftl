@@ -117,6 +117,8 @@ landing-pricing-free-cta = Obtener { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mes
+landing-pricing-premium-price-highlight = Precios por tiempo limitado
+landing-pricing-premium-feature-1 = Alias de correo electrónico ilimitados
 landing-pricing-premium-feature-2 = Extensión del navegador
 landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
@@ -228,12 +230,18 @@ banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = tudominio
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
 banner-label-privacy-notice-update-body = Para mejorar la confiabilidad de { -brand-name-firefox-relay } en caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se entregue. Nunca lo conservaremos por más de tres días.
 banner-label-privacy-notice-update-cta = Ver aviso de privacidad
 # Data Notification Banner:
