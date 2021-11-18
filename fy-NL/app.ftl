@@ -83,7 +83,7 @@ home-hero-copy =
     Meld jo oan mei jo { -brand-name-firefox-account } om oan de slach te gean.
 home-hero-cta = Oanmelde
 how-it-works-headline = Hoe't it wurket
-how-it-works-subheadline = Beskermje jo persoanlike identiteit, oeral wêr't jo de { -brand-name-firefox-browser } brûke.
+how-it-works-subheadline = Beskermje jo persoanlike identiteit, oeral wêr’t jo de { -brand-name-firefox-browser } brûke.
 how-it-works-step-1-headline = De útwreiding downloade
 how-it-works-step-1-link = Download { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
 how-it-works-step-1-copy =
@@ -118,7 +118,7 @@ landing-hero-body =
 landing-how-it-works-headline = Hoe't it wurket
 landing-how-it-works-body = Diel { -brand-name-relay }-e-mailaliassen yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
 landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
-landing-how-it-works-step-1-body = Generearje automatysk e-mailaliassen wêr't jo jo e-mailadres online ynfiere.
+landing-how-it-works-step-1-body = Generearje automatysk e-mailaliassen wêr’t jo jo e-mailadres online ynfiere.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Wylst jo sneupe, ferskynt it { -brand-name-relay }-piktogram wêr websites om jo e-mailadres freegje.
@@ -195,13 +195,13 @@ settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fan
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Labelfunksje foar e-mailaliassen is útskeakele
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-description = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr't jo e-mailaliassen oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
+settings-warning-collection-off-description = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr’t jo e-mailaliassen oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo aliassen oanmakke en brûkt binne.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning = Mei dizze gegevens kinne wy yn in takomstige ferzje jo aliassen labelje mei de relevante websites. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr't se brûkt wurde.
-setting-label-collection-off-warning-v2 = Mei dizze gegevens kinne wy jo aliassen labelje mei de relevante websites wêr't se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr't se brûkt wurde.
+setting-label-collection-off-warning = Mei dizze gegevens kinne wy yn in takomstige ferzje jo aliassen labelje mei de relevante websites. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr’t se brûkt wurde.
+setting-label-collection-off-warning-v2 = Mei dizze gegevens kinne wy jo aliassen labelje mei de relevante websites wêr’t se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr’t se brûkt wurde.
 settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 
@@ -231,7 +231,7 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
+faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
 faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
 faq-question-use-cases-answer-part2 = Wy rekommandearje it gebrûk fan aliassen ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar fluchten.
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
@@ -428,7 +428,7 @@ banner-label-privacy-notice-update-body = Om de betrouberheid fan { -brand-name-
 banner-label-privacy-notice-update-cta = Privacyferklearring besjen
 # Data Notification Banner:
 banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
-banner-label-data-notification-body = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen oer de websites wêr't jo aliassen brûkt wurde om takomstige funksjes te stypjen. As jo dizze gegevenssamling op de side ‘Ynstellingen’ tastean, wurdt it behearen fan jo Postfek YN noch ienfâldiger.
+banner-label-data-notification-body = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen oer de websites wêr’t jo aliassen brûkt wurde om takomstige funksjes te stypjen. As jo dizze gegevenssamling op de side ‘Ynstellingen’ tastean, wurdt it behearen fan jo Postfek YN noch ienfâldiger.
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
 banner-label-data-notification-body-v2 = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen, wêrmei't wy jo aliaslabels op al jo apparaten syngronisearje kinne mei de websites wêrop se makke en brûkt binne.
