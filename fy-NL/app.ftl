@@ -28,7 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description = { -brand-name-firefox-relay } makket it maklik om e-mailaliassen te meitsjen, dy't nei jo echte postfek yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
+meta-description = { -brand-name-firefox-relay } makket it maklik om e-mailaliassen te meitsjen, dy’t nei jo echte postfek yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
 
 ## Header 
 
@@ -66,7 +66,7 @@ logo-github-alt = GitHub-logo
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox }-apps en -tsjinsten
-fx-makes-tech = { -brand-name-firefox } is technology dy't stridet foar jo online privacy.
+fx-makes-tech = { -brand-name-firefox } is technology dy’t stridet foar jo online privacy.
 made-by-mozilla = Makke troch { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } foar desktop
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -96,7 +96,7 @@ how-it-works-step-2-copy =
     { -brand-name-relay } stjoert berjochten troch nei it primêre e-mailadres dat heart by jo account.
 how-it-works-step-3-headline = Jo aliassen beheare
 how-it-works-step-3-copy =
-    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy't jo oanmakke hawwe te folgjen.
+    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy’t jo oanmakke hawwe te folgjen.
     As jo merke dat jo spam of net-winske berjochten ûntfange, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
 hero-image-copy-trust = Kinne jo dit bedriuw sels fertrouwe mei jo persoanlike e-mailadres?
 hero-image-copy-unique-html = <strong>Brûk in unyk trochstjoeradres</strong> foar elk nije account…
@@ -111,7 +111,7 @@ hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn 
 landing-hero-headline = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
 landing-hero-body =
     { -brand-name-firefox-relay }-e-mailaliassen beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
-    No kinne jo allinnich de e-mailberjochten dy't jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
+    No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
 
 ## How it works section
 
@@ -124,7 +124,7 @@ landing-how-it-works-step-2-body =
     Wylst jo sneupe, ferskynt it { -brand-name-relay }-piktogram wêr websites om jo e-mailadres freegje.
     Selektearje it om in nij, eigenwillich adres te generearjen dat einiget op @relay.mozmail.com.
 landing-how-it-works-step-3-body =
-    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy't jo oanmakke hawwe te folgjen.  { -brand-name-relay } stjoert berjochten troch nei jo e-mailadres.
+    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy’t jo oanmakke hawwe te folgjen.  { -brand-name-relay } stjoert berjochten troch nei jo e-mailadres.
     
     As in alias spam of net-winske berjochten ûntfangt, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
 
@@ -155,7 +155,7 @@ landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 
 landing-use-cases-shopping = Winkelje
 landing-use-cases-shopping-body =
-    Wat keapje yn in nije webshop? Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear't jo in online oankeap dogge.
+    Wat keapje yn in nije webshop? Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear’t jo in online oankeap dogge.
     Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-social-networks = Sosjale netwurken
 landing-use-cases-social-networks-body =
@@ -164,7 +164,7 @@ landing-use-cases-social-networks-body =
 landing-use-cases-offline = Offline
 landing-use-cases-offline-body =
     Untfange jo leaver e-mailbefêstigingen, mar wolle jo ek marketingspam mije?
-    Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear't jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
+    Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear’t jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
     Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfange, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-access-content = Tagong ta ynhâld
 landing-use-cases-access-content-body =
@@ -174,7 +174,7 @@ landing-use-cases-access-content-body =
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body =
     Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
-    Brûk in { -brand-name-relay }-alias om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy't jo online spylje.
+    Brûk in { -brand-name-relay }-alias om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
 
 ## Landing FAQ Section
 
@@ -214,12 +214,12 @@ faq-headline = Faak stelde fragen
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Wat is in { -brand-name-relay }-alias?
-faq-question-what-is-answer = E-mailaliassen binne maskearre e-mailadressen dy't berjochten trochstjoere nei jo echte e-mailadres. Mei dizze aliassen kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+faq-question-what-is-answer = E-mailaliassen binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze aliassen kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
 faq-question-missing-emails-question = Ik ûntfang gjin berjochten fan myn aliassen
-faq-question-missing-emails-answer-a = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy't fia jo aliassen trochstjoerd binne, wêrûnder:
+faq-question-missing-emails-answer-a = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo aliassen trochstjoerd binne, wêrûnder:
 faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
 faq-question-missing-emails-answer-reason-blocked = Jo e-mailprovider blokkearret jo alias
-faq-question-missing-emails-answer-reason-size = It trochstjoerde e-mailberjocht hat in bylage dy't grutter is as { email-size-limit }
+faq-question-missing-emails-answer-reason-size = It trochstjoerde e-mailberjocht hat in bylage dy’t grutter is as { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = De website akseptearret gjin aliassen
 faq-question-missing-emails-answer-reason-turned-off = Mooglik is trochstjoeren útskeakele foar de alias
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der langer as normaal oer dwaan om jo berjochten troch te stjoeren
@@ -231,7 +231,7 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear't jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear't jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
+faq-question-use-cases-answer = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr't jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan dizze te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten wêrby't jo bepale soene wolle oft jo yn de takomst e-mailberjochten ûntfange. Wy rekommandearje it gebrûk fan aliassen net oan wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter, jo advokaat, ensfh.
 faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
 faq-question-use-cases-answer-part2 = Wy rekommandearje it gebrûk fan aliassen ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar fluchten.
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
@@ -259,7 +259,7 @@ faq-question-2-answer-v3-html =
     
     As jo gjin { -brand-name-relay }-alias brûke kinne, <a href="{ $url }" { $attrs }>lit it ús dan witte</a>.
 faq-question-1-question = Hoe sit it mei spam?
-faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy't se trochstjoert.
+faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy’t se trochstjoert.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -269,8 +269,8 @@ faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte
 faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
 faq-question-4-answer = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. Adressen yn de fjilden Cc of Bcc wurde net opnommen yn jo antwurden.
 # Deprecated
-faq-question-4-answer-v2 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear't jo in e-mailberjocht beäntwurdzje, wurdt jo oasrspronklike e-mailadres sichtber foar de ûntfangers en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
-faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear't jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+faq-question-4-answer-v2 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oasrspronklike e-mailadres sichtber foar de ûntfangers en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt noch net de mooglikheid om te antwurdzjen mei in alias.
     As jo dit probearje, bart der neat. Wy hawwe plannen foar in ekstra funksje wêrmei't jo <a href="{ $url }" { $attrs }>anonym reagearje kinne op ôfstjoerders</a>.
@@ -281,20 +281,20 @@ faq-question-subdomain-characters-answer-v2 = Jo kinne allinnich lytse Nederlân
 faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
 faq-question-browser-support-answer = Ja, jo kinne { -brand-name-relay }-aliassen generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
 faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
-faq-question-longevity-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy't gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+faq-question-longevity-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
 faq-question-mozmail-question = Wêrom binne myn aliassen begûn it domein ‘mozmail.com’ te brûken?
 faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-maildomein te krijen, lykas alias@uwdomein.mozmail.com. Oanpaste e-maildomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailaliassen ek folle makliker te ûnthâlden as eigenwillige aliassen.
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 # Deprecated
-faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stipet trochstjoerde e-mailberjochten mei bylagen oant in grutte fan { email-size-limit }. As in e-mailberjocht in bylage hat dy't grutter is as { email-size-limit }, dan wurdt dit net trochstjoerd.
-faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy't grutter binne as { email-size-limit } wurde net trochstjoerd.
+faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stipet trochstjoerde e-mailberjochten mei bylagen oant in grutte fan { email-size-limit }. As in e-mailberjocht in bylage hat dy’t grutter is as { email-size-limit }, dan wurdt dit net trochstjoerd.
+faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
 faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
-faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy't trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
+faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy't { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy't jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
+faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
 # Deprecated
@@ -308,11 +308,11 @@ faq-question-5-answer = Op dit stuit net, mar wy betinke nije funksjes, wêrûnd
 # Deprecated
 faq-question-6-question = Wat bart der as { -brand-name-mozilla } de { -brand-name-firefox-relay }-tsjinst beëiniget?
 # Deprecated
-faq-question-6-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy't gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+faq-question-6-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
 # Deprecated
 faq-question-7-question = Wat moat ik dwaan as in e-mailberjocht dat nei myn alias ferstjoerd is in bylage befettet?
 # Deprecated
-faq-question-7-answer = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy't grutter binne as { email-size-limit } wurde net trochstjoerd.
+faq-question-7-answer = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
 
 ## Profile Page (Logged In)
 
@@ -359,8 +359,8 @@ profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
 profile-label-cancel = Annulearje
-profile-blocked-copy = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear't jo blokkearje foar dit alias selektearje.
-profile-forwarded-copy = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear't jo trochstjoere foar dit alias selektearje.
+profile-blocked-copy = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit alias selektearje.
+profile-forwarded-copy = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit alias selektearje.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
@@ -412,9 +412,9 @@ banner-register-subdomain-example-address = jodomein
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy =
-    Mei in oanpast domein kinne jo aliassen diele dy't net generearre hoege te wurden
+    Mei in oanpast domein kinne jo aliassen diele dy’t net generearre hoege te wurden
     eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Ferstrek
-    ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy't jo oanpaste
+    ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy’t jo oanpaste
     domein brûkt wurdt nei jo trochstjoerd.
 banner-choose-subdomain-input-placeholder = Domein sykje
 # This is the “call to action” text on the submit button of domain registration form.
@@ -475,11 +475,11 @@ onboarding-premium-headline = Wolkom by { -brand-name-firefox } { -brand-name-re
 onboarding-premium-subheadline-html = Jo kinne no <strong>bepale</strong> wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-relay-premium } kinne jo:
 onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
-onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy't de berjochten dy't jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
+onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
 onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan aliassen
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
-onboarding-premium-reply-description = Moatte jo e-mailberjochten dy't nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
+onboarding-premium-reply-description = Moatte jo e-mailberjochten dy’t nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
@@ -513,14 +513,14 @@ modal-delete-headline = Dizze alias definityf fuortsmite?
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
     As jo dizze alias fuortsmite, kin dizze net mear wersteld wurde.
-    { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy't ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
+    { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy’t ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
 modal-delete-warning-upgrade =
-    As jo dizze alias brûke om jo oan te melden by websites dy't jo wichtich fine,
+    As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
 modal-delete-domain-address-warning-upgrade =
-    As jo dizze alias brûke om jo oan te melden by websites dy't jo wichtich fine,
+    As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
-    As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy't nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
+    As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy’t nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
 modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
 modal-domain-register-good-news = Goed nijs!
 modal-domain-register-warning-reminder = Unthâld dat jo mar ien domein registrearje kinne. Jo kinne it letter net mear wizigje.
