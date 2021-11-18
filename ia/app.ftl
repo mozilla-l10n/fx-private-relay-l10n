@@ -222,6 +222,9 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote sta
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-relay-premium } luctante con ulle de iste problemas, per favor <a href="{ $url }" { $attrs }>continge nostre equipa de assistentia</a>.
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = Si tu combatte con ulle de iste problemas, <a href="{ $url }" { $attrs }>visita nostre sito de assistentia</a>.
 faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-relay }?
 # Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
 faq-question-use-cases-answer = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia los usar quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non. Nos non recommenda usar le aliases quando te besonia tu identitate verificate o pro e-mails multo importante. Per exemplo, tu desirarea compartir tu real adresse e-mail con tu banca, tu doctor, tu advocato, etc.
@@ -268,6 +271,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
 # Deprecated
 faq-question-subdomain-characters-answer = Solo minusculas del alphabeto anglese, numeros e lineettas (-)
+faq-question-subdomain-characters-answer-v2 = Tu pote solo usar litteras minuscule anglese, numeros, e lineettas pro crear un sub-dominio.
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per authentication a tu pannello de controlo { -brand-name-relay }.
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
