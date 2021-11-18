@@ -287,6 +287,7 @@ faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei 
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 # Deprecated
 faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stipet trochstjoerde e-mailberjochten mei bylagen oant in grutte fan { email-size-limit }. As in e-mailberjocht in bylage hat dy't grutter is as { email-size-limit }, dan wurdt dit net trochstjoerd.
+faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy't grutter binne as { email-size-limit } wurde net trochstjoerd.
 faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
 faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy't trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
