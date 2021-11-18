@@ -82,7 +82,7 @@ home-hero-copy =
     Diel e-mailaliassen fan { -brand-name-relay } yn stee fan jo echte e-mailadres, om jo online accounts tsjin hackers te beskermjen.
     Meld jo oan mei jo { -brand-name-firefox-account } om oan de slach te gean.
 home-hero-cta = Oanmelde
-how-it-works-headline = Hoe't it wurket
+how-it-works-headline = Hoe’t it wurket
 how-it-works-subheadline = Beskermje jo persoanlike identiteit, oeral wêr’t jo de { -brand-name-firefox-browser } brûke.
 how-it-works-step-1-headline = De útwreiding downloade
 how-it-works-step-1-link = Download { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
@@ -115,7 +115,7 @@ landing-hero-body =
 
 ## How it works section
 
-landing-how-it-works-headline = Hoe't it wurket
+landing-how-it-works-headline = Hoe’t it wurket
 landing-how-it-works-body = Diel { -brand-name-relay }-e-mailaliassen yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
 landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
 landing-how-it-works-step-1-body = Generearje automatysk e-mailaliassen wêr’t jo jo e-mailadres online ynfiere.
@@ -388,7 +388,7 @@ banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
 #   $date (string) - A date for the next time the services tries to resend the email
 banner-bounced-copy =
     Wy kinne op dit stuit gjin e-mailberjochten stjoere nei { $username }.
-    Wy hawwe in <em>{ $bounce_type }</em> “bounce” ûntfongen fan jo e-mailprovider doe't wy e-mailberjochten nei jo probearren troch te stjoeren.
+    Wy hawwe in <em>{ $bounce_type }</em> “bounce” ûntfongen fan jo e-mailprovider doe’t wy e-mailberjochten nei jo probearren troch te stjoeren.
     Dit kin barre as { -brand-name-relay } gjin ferbining meitsje kin mei jo e-mailprovider, of as jo mailbox fol is. Wy sille it opnij probearje op { $date }.
 banner-download-firefox-headline = { -brand-name-relay } is noch better yn { -brand-name-firefox }
 banner-download-firefox-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan aliassen noch ienfâldiger.
