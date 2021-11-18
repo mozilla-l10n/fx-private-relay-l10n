@@ -275,6 +275,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Welke tekens kan ik gebruiken om een subdomein aan te maken?
 # Deprecated
 faq-question-subdomain-characters-answer = Alleen kleine letters van het Engelse alfabet, cijfers en streepjes (-).
+faq-question-subdomain-characters-answer-v2 = U kunt alleen kleine Nederlandse letters, cijfers en koppeltekens gebruiken om een subdomein te maken.
 faq-question-browser-support-question = Kan ik { -brand-name-relay } gebruiken in andere browsers of mijn mobiele apparaat?
 faq-question-browser-support-answer = Ja, u kunt { -brand-name-relay }-aliassen genereren in andere browsers of mobiele apparaten door u simpelweg aan te melden op uw { -brand-name-relay }-dashboard.
 faq-question-longevity-question = Wat gebeurt er als Mozilla de { -brand-name-firefox-relay }-service beëindigt?
