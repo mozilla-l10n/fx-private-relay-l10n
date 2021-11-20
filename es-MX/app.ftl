@@ -183,11 +183,13 @@ faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-nam
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
+faq-question-subdomain-characters-answer-v2 = Solo puedes usar letras minúsculas, números y guiones en inglés para crear un subdominio.
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
 faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
 faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el dominio “mozmail.com”?
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
+faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 # Deprecated
@@ -203,6 +205,7 @@ faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi ali
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-headline-manage-domain = Administra los alias de tu dominio
+profile-supports-email-forwarding = { -brand-name-firefox-relay } admite el reenvío de correos electrónicos (incluidos los archivos adjuntos) con un tamaño de hasta { email-size-limit }
 profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
 profile-promo-upgrade-copy = Actualiza { -brand-name-relay } para obtener direcciones de correo electrónico ilimitadas y tu propio dominio de correo electrónico.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
@@ -344,6 +347,7 @@ modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomai
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = ¡{ $subdomain } ahora es tu dominio de correo electrónico!
+modal-domain-register-success-copy = ¡Ahora puedes crear alias de correo electrónico ilimitados usando tu nuevo dominio! ¿Qué estas esperando?
 
 ## Evergreen Survey (displayed on the profile page)
 
