@@ -90,7 +90,14 @@ how-it-works-step-1-copy =
     Selecciona el icono que aparece en tu barra de herramientas de { -brand-name-firefox } para acceder a la página de inicio de sesión. 
     Inicia sesión con tu { -brand-name-firefox-account } para comenzar.
 how-it-works-step-2-headline = Crea un nuevo alias
+how-it-works-step-2-copy =
+    Mientras navegas, aparecerá el ícono { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
+    Da clic sobre el para generar una nueva dirección aleatoria que termine en @relay.firefox.com.
+    { -brand-name-relay } reenviará los mensajes a la dirección de correo electrónico principal asociada a tu cuenta.
 how-it-works-step-3-headline = Administra tus alias
+how-it-works-step-3-copy =
+    Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado.
+    Si descubres que uno recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que llega a tu bandeja de entrada!
@@ -167,6 +174,9 @@ faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
+faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el dominio “mozmail.com”?
+faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
+faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
 # Deprecated
@@ -221,6 +231,7 @@ profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
 banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
 banner-download-firefox-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de alias.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
@@ -230,6 +241,7 @@ banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
+banner-register-subdomain-headline-aliases = Obtén un dominio personalizado para tus alias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -261,6 +273,7 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 ## Error Messages
 
 error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
+error-subdomain-email-not-created = No se pudo crear la dirección de correo electrónico con el subdominio, intenta con otro
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
 error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Por favor intenta de nuevo con otro dominio.
 
@@ -280,6 +293,10 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
+multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
+multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
+multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
+multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 
 ## Modals
 
@@ -303,6 +320,10 @@ modal-domain-register-available = ¡{ $subdomain } está disponible!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = ¡{ $subdomain } ahora es tu dominio de correo electrónico!
 
 ## Evergreen Survey (displayed on the profile page)
 
