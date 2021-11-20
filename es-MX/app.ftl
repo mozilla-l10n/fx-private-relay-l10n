@@ -260,11 +260,13 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 
 ## Error Messages
 
+error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
 error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Por favor intenta de nuevo con otro dominio.
 
 ## Onboarding 
 
+onboarding-headline = Crea tu primer alias, tienes tres formas ...
 
 ## Premium Onboarding
 
