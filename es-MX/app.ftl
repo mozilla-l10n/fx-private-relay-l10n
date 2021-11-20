@@ -184,6 +184,7 @@ faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
+faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
 faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el dominio “mozmail.com”?
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
@@ -238,6 +239,8 @@ profile-forwarded-note = Nota:
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-filter-search-placeholder = Buscar alias
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 
@@ -292,6 +295,7 @@ error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está 
 ## Onboarding 
 
 onboarding-headline = Crea tu primer alias, tienes tres formas ...
+onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
 
 ## Premium Onboarding
 
@@ -306,10 +310,12 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-button-start = Comenzar
+multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
+multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 
 ## Modals
