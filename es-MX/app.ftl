@@ -107,6 +107,9 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 
 ## Hero Section
 
+landing-hero-body =
+    Los alias de correo electrónico de { -brand-name-firefox-relay } protegen tu dirección de correo electrónico real de la vista pública, reenviando automáticamente los correos electrónicos a tu bandeja de entrada real.
+    Ahora puedes recibir solo los correos electrónicos que quieras en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para comenzar.
 
 ## How it works section
 
@@ -114,6 +117,10 @@ landing-how-it-works-headline = Cómo funciona
 landing-how-it-works-body = Comparte los alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tu bandeja de entrada de correo electrónico, así como tu identidad.
 landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que ingreses tu dirección de correo electrónico en línea.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Mientras navegas, aparecerá el ícono { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
+    Selecciónalo para generar una nueva dirección aleatoria que termine en @ relay.mozmail.com.
 
 ## Pricing section
 
@@ -168,6 +175,9 @@ faq-headline = Preguntas frecuentes
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
+faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
+faq-question-missing-emails-answer-reason-turned-off = Es posible que el alias tenga el reenvío desactivado
+faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-relay } tarde más de lo habitual en reenviar tus mensajes
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-name-relay }?
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
 faq-question-1-question = ¿Qué pasa con el spam?
@@ -225,6 +235,8 @@ profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviados
 profile-label-cancel = Cancelar
 profile-forwarded-note = Nota:
+profile-stat-label-blocked = Correos electrónicos bloqueados
+profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-filter-search-placeholder = Buscar alias
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
@@ -293,6 +305,8 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-button-start = Comenzar
+multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
