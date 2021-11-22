@@ -235,19 +235,17 @@ faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτ
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
-faq-question-4-answer = Οι χρήστες { -brand-name-relay-premium } μπορούν να απαντήσουν σε ένα προωθημένο email εντός 3 μηνών από την παραλαβή του email. Δεν θα συμπεριληφθούν τυχόν διευθύνσεις κοινοποίησης ή κρυφής κοινοποίησης στις απαντήσεις σας.
 faq-question-4-answer-html =
     Το { -brand-name-relay } δεν προσφέρει ακόμα την ικανότητα απάντησης με ψευδώνυμο.
     Αν δοκιμάσετε, δεν θα συμβεί τίποτα. Σχεδιάζουμε μια νέα λειτουργία που θα επιτρέπει την <a href="{ $url }" { $attrs }>ανώνυμη απάντηση στους αποστολείς</a>.
 faq-question-subdomain-characters-question = Τι χαρακτήρες μπορώ να χρησιμοποιήσω στον υποτομέα;
-faq-question-subdomain-characters-answer = Μόνο πεζά αγγλικά γράμματα, αριθμοί και παύλες (-).
+faq-question-subdomain-characters-answer-v2 = Μπορείτε να χρησιμοποιήσετε μόνο πεζά αγγλικά γράμματα, αριθμούς και παύλες για τον υποτομέα.
 faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
 faq-question-browser-support-answer = Ναι, μπορείτε να δημιουργήσετε ψευδώνυμα { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακά σας στο { -brand-name-relay }.
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-longevity-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
-faq-question-attachments-answer = Ναι, το { -brand-name-firefox-relay } υποστηρίζει προωθημένα email με συνημμένα μεγέθους έως και { email-size-limit }. Αν ένα email περιέχει συνημμένο μεγαλύτερο των { email-size-limit }, δεν θα προωθείται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Variables:
@@ -255,22 +253,6 @@ faq-question-8-question = Ποια δεδομένα συλλέγει το { -bra
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay }, διαβάζοντας την <a href="{ $url }" { $attrs }>πολιτική απορρήτου</a> μας. Μπορείτε επίσης να μοιραστείτε προαιρετικά δεδομένα σχετικές με τις ετικέτες και τον ιστότοπο που χρησιμοποιείτε για τα ψευδώνυμα email σας, προκειμένου να σας παρέχουμε και να βελτιώνουμε αυτήν την υπηρεσία.
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
-# Deprecated
-faq-question-3-question = Είναι το { -brand-name-relay } διαθέσιμο μόνο στις ΗΠΑ;
-# Deprecated
-faq-question-3-answer = Προς το παρόν, ο ιστότοπος είναι διαθέσιμος μόνο στα αγγλικά, αλλά μπορείτε να χρησιμοποιήσετε την υπηρεσία οπουδήποτε.
-# Deprecated
-faq-question-5-question = Μπορώ να ορίσω το δικό μου ψευδώνυμο { -brand-name-relay } με τον τομέα @relay.firefox.com;
-# Deprecated
-faq-question-5-answer = Προς το παρόν όχι, αλλά εξετάζουμε νέες λειτουργίες, όπως η δυνατότητα δημιουργίας του δικού σας ψευδωνύμου με έναν καθορισμένο τομέα.
-# Deprecated
-faq-question-6-question = Τι θα γίνει εάν η { -brand-name-mozilla } τερματίσει την υπηρεσία { -brand-name-firefox-relay };
-# Deprecated
-faq-question-6-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
-# Deprecated
-faq-question-7-question = Τι γίνεται αν ένα email προς το ψευδώνυμό μου περιέχει συνημμένο;
-# Deprecated
-faq-question-7-answer = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει ένα όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
 
 ## Profile Page (Logged In)
 
