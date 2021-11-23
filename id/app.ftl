@@ -142,6 +142,7 @@ landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/bulan
+landing-pricing-premium-price-highlight = Harga waktu terbatas
 landing-pricing-premium-feature-1 = Alias surel tak terbatas
 landing-pricing-premium-feature-2 = Ekstensi peramban
 landing-pricing-premium-feature-3 = Domain surel Anda sendiri
@@ -165,6 +166,10 @@ landing-use-cases-offline-body =
     Gunakan alias dari { -brand-name-relay } daripada memakai surel Anda ketika mendapatkan tanda terima dari toko.
     Kami akan meneruskan tanda terima ke alamat surel Anda, atau jika Anda mulai mendapatkan surel yang tidak inginkan, cukup matikan penerusan surel.
 landing-use-cases-access-content = Akses Konten
+landing-use-cases-access-content-body =
+    Ingin mendaftar buletin tersebut namun sangsi dengan pengirimnya? 
+    Gunakan alias untuk mengganti alamat asli anda — jika anda mulai menerima surel yang tidak dikehendaki melalui alias tersebut, mungkin pengirim telah menjual alias anda ke pemasar lain atau bahkan telah bocor karena peretasan.
+    Matikan saja alias terssebut untuk melindungi kotak surat anda.
 landing-use-cases-gaming = Ranah Gim
 landing-use-cases-gaming-body =
     Suka permainan daring namun khawatir terhadap pemain atau perisak lain yang mengetahui siapa Anda melalui tag pemain dan alamat surel Anda?
@@ -221,33 +226,16 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } mungkin 
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Jika Anda pengguna { -brand-name-relay-premium } yang mengalami masalah ini, harap <a href="{ $url }" { $attrs }>hubungi tim dukungan kami</a>.
 faq-question-use-cases-question = Kapan saya harus menggunakan alias { -brand-name-relay }?
-faq-question-use-cases-answer = Anda dapat menggunakan alias { -brand-name-relay } di sebagian besar tempat Anda menggunakan alamat surel biasa. Kami menyarankan untuk menggunakannya saat mendaftar untuk email pemasaran/informasi di mana Anda mungkin ingin mengontrol apakah Anda akan menerima surel atau tidak di masa mendatang. Kami tidak menyarankan menggunakan alias saat identitas Anda perlu diverifikasi atau untuk email yang sangat penting. Misalnya, Anda ingin membagikan alamat surel asli Anda dengan bank, dokter, pengacara, dll.
 faq-question-2-question = Mengapa ada situs yang tidak menerima alias { -brand-name-relay } saya?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Beberapa situs mungkin menolak alamat surel yang menyertakan sub-domain (contoh bagian dari “relay" yaitu @relay.firefox.com) dan situs lainnya tidak menerima alamat surel selain dari akun Gmail, Hotmail, atau yahoo.
-    Dengan berkembangnya popularitas dan isu banyaknya penggunaan alias { -brand-name-firefox-relay }, layanan ini mungkin dimasukkan dalam daftar blokir.
-    Jika Anda tidak bisa menggunakan alias { -brand-name-relay }, <a href="{ $url }"{ $attrs }>beri tahu kami</a>.
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Beberapa situs mungkin menolak alamat surel yang menyertakan sub-domain (contoh bagian dari “relay" yaitu @relay.firefox.com) dan situs lainnya tidak menerima alamat surel selain dari akun Gmail, Hotmail, atau yahoo.
-    Jika Anda tidak bisa menggunakan alias { -brand-name-relay }, <a href="{ $url }"{ $attrs }>beri tahu kami</a>.
 faq-question-1-question = Bagaimana dengan spam?
 faq-question-1-answer-a = Meskipun { -brand-name-relay } tidak memfilter spam, mitra surel kami Amazon SES memblokir spam dan malware. Jika { -brand-name-relay } meneruskan pesan yang tidak Anda inginkan, Anda dapat memperbarui setelan { -brand-name-relay } untuk memblokir pesan agar tidak diteruskan.
 faq-question-availability-question = Di mana { -brand-name-relay } tersedia?
 faq-question-availability-answer = { -brand-name-relay } gratis tersedia di sebagian besar negara. { -brand-name-relay-premium } tersedia di Amerika Serikat, Jerman, Inggris Raya, Kanada, Singapura, Malaysia, Selandia Baru, Prancis, Belgia, Austria, Spanyol, Italia, Swiss, Belanda, dan Irlandia.
 faq-question-4-question = Dapatkah saya membalas pesan menggunakan alias { -brand-name-relay } saya?
-faq-question-4-answer = Pengguna { -brand-name-relay-premium } dapat membalas surel yang diteruskan dalam waktu 3 bulan setelah menerima surel. Alamat CC atau BCC apa pun tidak akan disertakan dalam balasan Anda.
 faq-question-4-answer-html =
     { -brand-name-relay } belum bisa untuk membalas menggunakan alias.
     Jika Anda mencobanya, tidak akan terjadi apa-apa. Kami merencanakan fitur tambahan untuk memungkinkan Anda <a href="{ $url }" { $attrs }>membalas secara anonim kepada pengirim</a>.
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
-faq-question-subdomain-characters-answer = Hanya huruf kecil alfabet Inggris, angka, dan tanda hubung (-).
 faq-question-browser-support-question = Dapatkah saya menggunakan { -brand-name-relay } di peramban lain atau perangkat seluler saya?
 faq-question-browser-support-answer = Ya, Anda dapat membuat alias { -brand-name-relay } di peramban atau perangkat seluler lain hanya dengan masuk ke dasbor { -brand-name-relay } Anda.
 faq-question-longevity-question = Apa yang terjadi jika Mozilla menghentikan layanan { -brand-name-firefox-relay }?
@@ -255,24 +243,9 @@ faq-question-longevity-answer = Kami akan memberi tahu Anda lebih awal jika Anda
 faq-question-mozmail-question = Mengapa alias saya menggunakan domain “mozmail.com?”
 faq-question-mozmail-answer = Kami beralih dari “relay.firefox.com” ke “mozmail.com” untuk memungkinkan mendapatkan domain surel khusus, seperti alias@domainanda.mozmail.com. Domain surel khusus, tersedia untuk pelanggan { -brand-name-relay-premium }, juga membuat alias surel Anda lebih mudah diingat daripada alias acak.
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
-faq-question-attachments-answer = Ya, { -brand-name-firefox-relay } mendukung surel yang diteruskan dengan lampiran berukuran hingga { email-size-limit }. Jika surel memiliki lampiran yang lebih besar dari { email-size-limit }, maka tidak akan diteruskan.
 faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain khusus saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui domain khusus, tetapi Anda tidak dapat lagi membuat alias baru menggunakan domain tersebut. Jika Anda memiliki lebih dari lima alias secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-3-question = Apakah { -brand-name-relay } hanya tersedia di AS?
-# Deprecated
-faq-question-3-answer = Saat ini situs hanya tersedia dalam bahasa Inggris, tetapi Anda dapat menggunakan layanan ini di mana saja.
-# Deprecated
-faq-question-5-question = Dapatkah saya membuat alias { -brand-name-relay } saya sendiri menggunakan domain @relay.firefox.com?
-# Deprecated
-faq-question-5-answer = Saat ini belum, tetapi kami sedang mempertimbangkan fitur baru termasuk memungkinkan Anda membuat alias sendiri dengan domain yang ditentukan.
-# Deprecated
-faq-question-6-question = Apa yang terjadi jika { -brand-name-mozilla } menghentikan layanan { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-6-answer = Kami akan memberi tahu Anda lebih awal jika Anda perlu mengubah alamat surel dari setiap akun yang menggunakan alias { -brand-name-relay }.
-# Deprecated
-faq-question-7-question = Bagaimana jika surel yang dikirim ke alias saya berisi lampiran?
 
 ## Profile Page (Logged In)
 
@@ -357,7 +330,7 @@ banner-register-subdomain-example-address = domainanda
 banner-choose-subdomain-input-placeholder = Cari domain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cari
-banner-pack-upgrade-headline-html = beralih ke <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> untuk memiliki lebih banyak alias
+banner-pack-upgrade-headline-html = Beralih ke <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> untuk memiliki lebih banyak alias
 banner-pack-upgrade-copy = Dengan alias surel tak terhingga dan domain surel Anda sendiri, { -brand-name-firefox } { -brand-name-relay-premium } membantu Anda tetap terlindungi saat daring.
 banner-pack-upgrade-cta = Beralih sekarang
 # Data Notification Banner:
@@ -397,8 +370,6 @@ error-subdomain-not-available = Domain @{ $unavailable_subdomain } tidak tersedi
 ## Onboarding 
 
 onboarding-headline = Buat alias pertama Anda, Anda memiliki tiga cara ...
-onboarding-tip-1 = Cukup klik tombol “Buat Alias Baru” untuk membuat alias pertama Anda
-onboarding-tip-2 = Dengan memilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel
 
 ## Premium Onboarding
 
@@ -413,6 +384,10 @@ onboarding-premium-domain-description = Dengan domain khusus, Anda dapat membuat
 onboarding-premium-reply-title = Balas surel tanpa memberikan alamat asli Anda
 onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alias? Cukup balas seperti biasa — alias Anda akan tetap melindungi alamat surel Anda.
 
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
+
 ## Modals
 
 modal-rename-alias-saved = Label disimpan!
@@ -422,14 +397,10 @@ modal-delete-warning-upgrade =
     Anda harus memperbarui log masuk Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
 modal-delete-confirmation = Ya, saya ingin menghapus alias ini.
 modal-domain-register-good-news = Kabar Baik!
-modal-domain-register-warning = Perlu diingat, Anda hanya diperbolehkan mendaftarkan satu domain untuk akun Anda dan domain tersebut tidak akan bisa diubah.
 modal-domain-register-button = Daftarkan Domain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } tersedia!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation = Ya, saya ingin mendaftarkan { $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
