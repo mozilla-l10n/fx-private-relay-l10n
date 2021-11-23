@@ -98,6 +98,7 @@ how-it-works-step-3-headline = Administra tus alias
 how-it-works-step-3-copy =
     Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado.
     Si descubres que uno recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
+hero-image-copy-trust = ¿Puedes confiar en esta empresa para compartir tu correo electrónico personal?
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-protect-html = … para <strong>proteger tu correo electrónico real</strong> de rastreo y spam.
 hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que llega a tu bandeja de entrada!
@@ -107,6 +108,7 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 
 ## Hero Section
 
+landing-hero-headline = Protege tu dirección de correo electrónico real para un mejor control de tu bandeja de entrada
 landing-hero-body =
     Los alias de correo electrónico de { -brand-name-firefox-relay } protegen tu dirección de correo electrónico real de la vista pública, reenviando automáticamente los correos electrónicos a tu bandeja de entrada real.
     Ahora puedes recibir solo los correos electrónicos que quieras en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para comenzar.
@@ -121,9 +123,18 @@ landing-how-it-works-step-1-body = Genera alias de correo electrónico automáti
 landing-how-it-works-step-2-body =
     Mientras navegas, aparecerá el ícono { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
     Selecciónalo para generar una nueva dirección aleatoria que termine en @ relay.mozmail.com.
+landing-how-it-works-step-3-body =
+    Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado. { -brand-name-relay }reenviará los mensajes a tu dirección de correo electrónico.
+    Si un alias recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Solo por tiempo limitado: alias ilimitados por { $monthly_price } al mes
+landing-pricing-body =
+    Prueba los alias de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
+    Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1 = Hasta 5 alias de correo electrónico
 landing-pricing-free-feature-2 = Extensión del navegador
@@ -142,10 +153,27 @@ landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
 ## Use Cases
 
 landing-use-cases-shopping = Compras
+landing-use-cases-shopping-body =
+    ¿Estás comprando algo en una nueva tienda en línea? Utiliza un alias de { -brand-name-relay } en lugar de tu correo electrónico cuando realices una compra en línea.
+    Reenviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
 landing-use-cases-social-networks = Redes sociales
+landing-use-cases-social-networks-body =
+    ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
+    ¿Intentas evitar que tu correo electrónico real esté vinculado a tu presencia en las redes sociales? Utiliza un alias de { -brand-name-relay } para iniciar sesión y protegerte en línea.
 landing-use-cases-offline = Sin conexión
+landing-use-cases-offline-body =
+    ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
+    Utiliza un alias de { -brand-name-relay } en vez de tu correo electrónico cuando obtengas un recibo sin papel en una tienda.
+    Enviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
 landing-use-cases-access-content = Acceder a contenido
+landing-use-cases-access-content-body =
+    ¿Quieres suscribirse a ese boletín, pero no confías en el remitente?
+    Usa un alias en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de ese alias, es posible que el remitente haya vendido tu alias a otros comercializadores, o incluso podría haberse filtrado en una violación de datos.
+    Simplemente apaga o elimina el alias para proteger tu bandeja de entrada de correo electrónico.
 landing-use-cases-gaming = Juegos
+landing-use-cases-gaming-body =
+    ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
+    Utiliza un alias de { -brand-name-relay } para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 
 ## Landing FAQ Section
 
@@ -156,13 +184,22 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 
 settings-headline = Ajustes de { -brand-name-relay }
 settings-meta-contact-label = Contáctanos
+settings-meta-contact-tooltip = Contáctanos acerca de { -brand-name-relay }
 settings-meta-help-label = Ayuda y soporte
 settings-meta-help-tooltip = Obtener ayuda para usar { -brand-name-relay }
 settings-meta-status-label = Estado del servicio
+settings-meta-status-tooltip = Comprueba si todos los sistemas de { -brand-name-relay } están actualmente operativos.
+settings-error-save-heading = Error al cambiar la configuración
+settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado alias de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
+setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 
 ## FAQ Page
@@ -190,14 +227,6 @@ faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el domini
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
-# Deprecated
-faq-question-3-question = ¿{ -brand-name-relay } solo está disponible en EE.UU.?
-# Deprecated
-faq-question-3-answer = Actualmente el sitio web sólo está disponible en inglés, pero puedes usar el servicio donde sea.
-# Deprecated
-faq-question-5-question = ¿Puedo crear mi propio alias de { -brand-name-relay } usando el dominio @relay.firefox.com?
-# Deprecated
-faq-question-7-question = ¿Qué pasa si un correo electrónico enviado a mi alias contiene un archivo adjunto?
 
 ## Profile Page (Logged In)
 
