@@ -168,7 +168,7 @@ landing-use-cases-offline-body =
 landing-use-cases-access-content = Zugriff auf Inhalte
 landing-use-cases-access-content-body =
     Sie möchten sich für einen Newsletter anmelden, aber Sie vertrauen dem Absender nicht?
-    Verwenden Sie eine Alias-E-Mail-Adresse anstelle Ihrer echten Adresse – wenn Sie unerwünschte E-Mails über diese Alias-E-Mail-Adresse erhalten, hat der Absender Ihren Alias möglicherweise an andere Vermarkter verkauft oder er wurde bei einem Datenleck öffentlich bekannt.
+    Verwenden Sie eine Alias-E-Mail-Adresse anstelle Ihrer eigentlichen Adresse – wenn Sie unerwünschte E-Mails über diese Alias-E-Mail-Adresse erhalten, hat der Absender Ihren Alias möglicherweise an andere Vermarkter verkauft oder er wurde bei einem Datenleck öffentlich bekannt.
     Deaktivieren oder löschen Sie einfach die Alias-E-Mail-Adresse, um Ihren E-Mail-Posteingang zu schützen.
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body =
@@ -230,7 +230,7 @@ faq-question-missing-emails-answer-b-html = Wenn Sie ein { -brand-name-relay-pre
 faq-question-missing-emails-answer-support-site-html = Wenn Sie mit einem dieser Probleme zu kämpfen haben, <a href="{ $url }" { $attrs }>besuchen Sie bitte unsere Hilfe-Website</a>.
 faq-question-use-cases-question = Wann sollte ich Alias-E-Mail-Adressen von { -brand-name-relay } verwenden?
 faq-question-use-cases-answer-part1 = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
-faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Alias-E-Mail-Adressen nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre echte E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugbordkarten mitteilen.
+faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Alias-E-Mail-Adressen nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre eigentliche E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugbordkarten mitteilen.
 faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von { -brand-name-relay } nicht?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -258,7 +258,7 @@ faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von 
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 faq-question-longevity-answer = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die Alias-E-Mail-Adressen von { -brand-name-relay } verwenden.
 faq-question-mozmail-question = Warum verwenden meine Alias-E-Mail-Adressen die Domain „mozmail.com“?
-faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@ihredomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, machen Ihre Alias-E-Mail-Adressen auch viel leichter zu merken als zufällige Aliase.
+faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@ihredomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, lassen Sie Ihre Alias-E-Mail-Adressen auch viel leichter merken als zufällige Aliase.
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
@@ -435,7 +435,7 @@ onboarding-premium-control-title = steuern, welche E-Mails Sie erhalten
 onboarding-premium-control-description = Sie können unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten.
 onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Mail-Adressen einrichten
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
-onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben
+onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
 onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -454,7 +454,7 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
 multi-part-onboarding-premium-extension-headline = Blockieren, weiterleiten und antworten
-multi-part-onboarding-premium-extension-reply-title = Antworten Sie auf E-Mails, ohne Ihre echte Adresse preiszugeben:
+multi-part-onboarding-premium-extension-reply-title = Antworten Sie auf E-Mails, ohne Ihre eigentliche Adresse preiszugeben:
 multi-part-onboarding-premium-extension-get-title = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 multi-part-onboarding-premium-extension-get-description = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } macht die Verwendung von Alias-Adressen noch einfacher.
 multi-part-onboarding-premium-extension-button-download = Holen Sie sich die { -brand-name-relay }-Erweiterung
