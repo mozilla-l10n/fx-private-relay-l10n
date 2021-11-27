@@ -229,26 +229,9 @@ faq-question-missing-emails-answer-b-html = Wenn Sie ein { -brand-name-relay-pre
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Wenn Sie mit einem dieser Probleme zu kämpfen haben, <a href="{ $url }" { $attrs }>besuchen Sie bitte unsere Hilfe-Website</a>.
 faq-question-use-cases-question = Wann sollte ich Alias-E-Mail-Adressen von { -brand-name-relay } verwenden?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht. Wir empfehlen nicht, Alias-E-Mail-Adressen zu verwenden, wenn Sie Ihre Identität bestätigen müssen oder für sehr wichtige E-Mails. Sie sollten beispielsweise Ihre echte E-Mail-Adresse bei Ihrer Bank, Ihrem Arzt, Ihrem Anwalt usw. angeben.
 faq-question-use-cases-answer-part1 = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
 faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Alias-E-Mail-Adressen nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre echte E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugbordkarten mitteilen.
 faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von { -brand-name-relay } nicht?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Nicht alle Websites akzeptieren eine E-Mail-Adresse mit einer Subdomain (d.h. das „relay“ in @relay.firefox.com) und andere akzeptieren nur noch Adressen von Gmail, Hotmail oder Yahoo.
-    Wenn { -brand-name-firefox-relay } beliebter wird und mehr Alias-Adressen ausstellt, landet unser Dienst womöglich auf einer Blockierliste.
-    Wenn Sie keine { -brand-name-relay }-Alias-Adresse nutzen können, <a href="{ $url }" { $attrs }>melden Sie sich bitte bei uns</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain enthält (d. h. den „Relay“-Teil von @relay.firefox.com) und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
-    Wenn Sie keine Alias-E-Mail-Adresse von { -brand-name-relay } verwenden können, <a href="{ $url }" { $attrs }>teilen Sie uns dies bitte mit</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -264,16 +247,11 @@ faq-question-1-answer-b-html = Wenn Sie feststellen, dass es bei all Ihren Alias
 faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-4-question = Kann ich mit meiner { -brand-name-relay }-Alias-Adresse auf Nachrichten antworten?
-faq-question-4-answer = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Alle CC- oder BCC-Adressen werden nicht in Ihre Antworten aufgenommen.
-# Deprecated
-faq-question-4-answer-v2 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-html =
     { -brand-name-relay } bietet aktuell nicht die Möglichkeit, mit einer seiner Alias-E-Mail-Adressen zu antworten.
     Wenn Sie dies versuchen, passiert nichts. Wir planen eine zusätzliche Funktion, mit der Sie <a href="{ $url }" { $attrs }>anonym auf Nachrichten antworten können</a>.
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
-# Deprecated
-faq-question-subdomain-characters-answer = Nur englisches Alphabet in Kleinbuchstaben, Zahlen und Bindestriche (-).
 faq-question-subdomain-characters-answer-v2 = Sie können nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
 faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten generieren, indem Sie sich einfach bei Ihrer { -brand-name-relay }-Übersicht anmelden.
@@ -282,8 +260,6 @@ faq-question-longevity-answer = Wir werden Sie im Voraus darüber informieren, d
 faq-question-mozmail-question = Warum verwenden meine Alias-E-Mail-Adressen die Domain „mozmail.com“?
 faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@ihredomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, machen Ihre Alias-E-Mail-Adressen auch viel leichter zu merken als zufällige Aliase.
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
-# Deprecated
-faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } unterstützt weitergeleitete E-Mails mit Anhängen bis zu einer Größe von { email-size-limit }. Wenn eine E-Mail einen Anhang enthält, der größer als { email-size-limit } ist, wird sie nicht weitergeleitet.
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
 faq-question-unsubscribe-domain-answer = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierte Domain weitergeleitet werden, aber Sie können mit dieser Domain keine neuen Alias-E-Mail-Adressen mehr erstellen. Wenn Sie insgesamt mehr als fünf Alias-E-Mail-Adressen haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
@@ -294,22 +270,6 @@ faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftung und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
 faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir Ihre E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden Ihre E-Mails niemals länger als drei Tage speichern.
-# Deprecated
-faq-question-3-question = Ist { -brand-name-relay } nur in den USA verfügbar?
-# Deprecated
-faq-question-3-answer = Die Website ist derzeit nur in englischer Sprache verfügbar, aber Sie können den Dienst überall nutzen.
-# Deprecated
-faq-question-5-question = Kann ich meine eigene { -brand-name-relay }-Alias-Adresse mit der Domain @relay.firefox.com erstellen?
-# Deprecated
-faq-question-5-answer = Derzeit nicht, aber wir prüfen neue Funktionen, einschließlich der Möglichkeit, Ihre eigene Alias-Adresse mit einer bestimmten Domain zu erstellen.
-# Deprecated
-faq-question-6-question = Was passiert, wenn { -brand-name-mozilla } den Dienst { -brand-name-firefox-relay } einstellt?
-# Deprecated
-faq-question-6-answer = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die { -brand-name-relay }-Alias-Adressen verwenden.
-# Deprecated
-faq-question-7-question = Was ist, wenn eine E-Mail an meine Alias-Adresse einen Anhang enthält?
-# Deprecated
-faq-question-7-answer = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 
 ## Profile Page (Logged In)
 
@@ -326,7 +286,7 @@ profile-label-edit = Beschriftung für diese Alias-Adresse ändern
 profile-label-placeholder = Kontoname hinzufügen
 profile-label-save-error = Fehler beim Speichern, bitte versuchen Sie es erneut.
 profile-label-saved = Beschriftung gespeichert!
-profile-label-generate-new-alias = Neue Alias-Adresse erzeugen
+profile-label-generate-new-alias = Neue Alias-Adresse erstellen
 profile-label-delete = Löschen
 profile-label-delete-alias = Diese Alias-Adresse löschen
 profile-label-upgrade = Unbegrenzt viele Alias-Adressen erhalten
