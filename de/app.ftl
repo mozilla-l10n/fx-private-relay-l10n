@@ -324,7 +324,7 @@ profile-forwarded-note-copy-v2 = E-Mails (einschließlich Anhänge), die größe
 profile-stat-label-blocked = Blockierte E-Mails
 profile-stat-label-forwarded = Weitergeleitete E-Mails
 profile-stat-label-aliases-used = Verwendete Alias-E-Mail-Adressen
-profile-filter-search-placeholder = Alias-Adressen durchsuchen
+profile-filter-search-placeholder = Alias-E-Mail-Adressen durchsuchen
 # Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-aliases-v2 = Weitergeleitete Alias-E-Mail-Adressen
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
