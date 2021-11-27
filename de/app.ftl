@@ -97,7 +97,7 @@ how-it-works-step-2-copy =
 how-it-works-step-3-headline = Ihre Alias-E-Mail-Adressen verwalten
 how-it-works-step-3-copy =
     Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über Ihre Alias-E-Mail-Adressen zu behalten.
-    Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie aus der Übersicht alle Nachrichten blockieren oder sogar die Alias-Adresse ganz löschen.
+    Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie aus der Übersicht alle Nachrichten blockieren oder sogar die Alias-E-Mail-Adresse ganz löschen.
 hero-image-copy-trust = Können Sie dieser Firma überhaupt Ihre persönliche E-Mail-Adresse anvertrauen?
 hero-image-copy-unique-html = <strong>Verwenden Sie eine einzigartige Weiterleitungsadresse</strong> für jedes neue Konto …
 hero-image-copy-protect-html = … damit Sie <strong>Ihre echte E-Mail-Adresse</strong> vor Tracking und Spam schützen können.
@@ -118,11 +118,11 @@ landing-hero-body =
 landing-how-it-works-headline = Wie es funktioniert
 landing-how-it-works-body = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
 landing-how-it-works-step-1-body-cta = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
-landing-how-it-works-step-1-body = Generieren Sie automatisch Alias-E-Mail-Adressen, wo immer Sie Ihre E-Mail-Adresse online eingeben.
+landing-how-it-works-step-1-body = Erstellen Sie automatisch Alias-E-Mail-Adressen, wo immer Sie Ihre E-Mail-Adresse online eingeben.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach Ihrer E-Mail-Adresse fragen.
-    Wählen Sie es aus, um eine neue, zufällige Adresse zu generieren, die auf @relay.mozmail.com endet.
+    Wählen Sie es aus, um eine neue, zufällige Adresse zu erstellen, die auf @relay.mozmail.com endet.
 landing-how-it-works-step-3-body =
     Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um die von Ihnen erstellten Alias-E-Mail-Adressen zu verfolgen. { -brand-name-relay } leitet Nachrichten an Ihre E-Mail-Adresse weiter.
     Wenn eine Alias-E-Mail-Adresse Spam oder unerwünschte Nachrichten erhält, können Sie alle Nachrichten blockieren oder den Alias sogar direkt aus der Übersicht löschen.
@@ -254,7 +254,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
 faq-question-subdomain-characters-answer-v2 = Sie können nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
-faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten generieren, indem Sie sich einfach bei Ihrer { -brand-name-relay }-Übersicht anmelden.
+faq-question-browser-support-answer = Ja, Sie können Alias-E-Mail-Adressen von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erstellen, indem Sie sich einfach bei Ihrer { -brand-name-relay }-Übersicht anmelden.
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 faq-question-longevity-answer = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die { -brand-name-relay }-Alias-Adressen verwenden.
 faq-question-mozmail-question = Warum verwenden meine Alias-E-Mail-Adressen die Domain „mozmail.com“?
@@ -369,7 +369,7 @@ banner-register-subdomain-example-address = ihredomain
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy =
-    Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen freigeben, die nicht generiert werden müssen
+    Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen freigeben, die nicht erstellt werden müssen,
     bevor Sie sie verwenden. Benötigen Sie eine Alias-E-Mail-Adresse für eine Reservierung? Geben Sie dem Restaurant die Adresse
     „restaurant@ihredomain.{ $mozmail }“. Jede Alias-E-Mail-Adresse,
     die Ihre benutzerdefinierte Domain verwendet, wird an Sie weitergeleitet.
