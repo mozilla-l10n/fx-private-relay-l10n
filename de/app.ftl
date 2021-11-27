@@ -192,7 +192,7 @@ settings-meta-status-tooltip = Prüfen Sie, ob alle { -brand-name-relay }-System
 settings-error-save-heading = Änderung der Einstellungen fehlgeschlagen
 settings-error-save-description = Ihre Änderungen an den Einstellungen wurden aufgrund eines Verbindungsfehlers nicht gespeichert. Bitte versuchen Sie es erneut.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-heading = Funktion „Beschriftung von E-Mail-Alias-Adresse“ ist deaktiviert
+settings-warning-collection-off-heading = Funktion „Beschriftung von Alias-E-Mail-Adresse“ ist deaktiviert
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen Sie Alias-E-Mail-Adressen erstellt und verwendet haben. Dies können Sie in den „Einstellungen“ unter „Datenerfassung“ ändern.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
