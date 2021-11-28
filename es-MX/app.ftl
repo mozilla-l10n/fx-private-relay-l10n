@@ -200,6 +200,7 @@ setting-label-collection-heading-v2 = Privacidad
 setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
+setting-label-collection-off-warning-v2 = Estos datos nos permitirán etiquetar tus alias con los sitios web donde se utilizan. Si decides no activar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 
 ## FAQ Page
@@ -212,6 +213,7 @@ faq-headline = Preguntas frecuentes
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
+faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor que { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
 faq-question-missing-emails-answer-reason-turned-off = Es posible que el alias tenga el reenvío desactivado
 faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-relay } tarde más de lo habitual en reenviar tus mensajes
@@ -353,6 +355,7 @@ multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dom
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más el uso de alias de correo electrónico.
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 
