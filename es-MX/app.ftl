@@ -354,6 +354,7 @@ multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responde
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
+multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 
 ## Modals
 
