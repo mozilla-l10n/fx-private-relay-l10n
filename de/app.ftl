@@ -101,7 +101,7 @@ how-it-works-step-3-copy =
 hero-image-copy-trust = Können Sie dieser Firma überhaupt Ihre persönliche E-Mail-Adresse anvertrauen?
 hero-image-copy-unique-html = <strong>Verwenden Sie eine einzigartige Weiterleitungsadresse</strong> für jedes neue Konto …
 hero-image-copy-protect-html = … damit Sie <strong>Ihre eigentliche E-Mail-Adresse</strong> vor Tracking und Spam schützen können.
-hero-image-copy-control-html = Jetzt <em>haben sie die Kontrolle darüber</em>, was in Ihrem Posteingang ankommt!
+hero-image-copy-control-html = Jetzt <em>haben Sie die Kontrolle darüber</em>, was in Ihrem Posteingang ankommt!
 
 ## Home Page Version A
 
@@ -449,7 +449,7 @@ multi-part-onboarding-premium-domain-title = Holen Sie sich eine benutzerdefinie
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description =
-    Mithilfe einer benutzerdefinierten Domäne können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
+    Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
     Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
 multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
