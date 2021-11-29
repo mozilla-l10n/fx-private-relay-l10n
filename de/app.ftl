@@ -28,7 +28,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description = Mit { -brand-name-firefox-relay } können Sie Alias-E-Mail-Adressen erstellen, die an Ihren eigentlichen Posteingang weitergeleitet werden. So können Sie Ihre Online-Konto vor Hackern und unerwünschten Nachrichten schützen.
+meta-description = Mit { -brand-name-firefox-relay } können Sie Alias-E-Mail-Adressen erstellen, die an Ihren eigentlichen Posteingang weitergeleitet werden. So können Sie Ihre Online-Konten vor Hackern und unerwünschten Nachrichten schützen.
 
 ## Header 
 
@@ -267,7 +267,7 @@ faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftung und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
+faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftungen und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
 faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir Ihre E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden Ihre E-Mails niemals länger als drei Tage speichern.
 
@@ -279,7 +279,7 @@ profile-label-welcome-html = <span>Willkommen</span> { $email }!
 profile-headline-manage-domain = Ihre Domain-Alias-Adressen verwalten
 profile-supports-email-forwarding = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }
 profile-promo-upgrade-headline = Mit einem Upgrade gibt es noch mehr Funktionen.
-profile-promo-upgrade-copy = Mit einem Upgrade von { -brand-name-relay } können Sie unbegrenzt viele E-Mail-Adressen erstellen und Ihre Eigene E-Mail-Domain anlegen.
+profile-promo-upgrade-copy = Mit einem Upgrade von { -brand-name-relay } können Sie unbegrenzt viele E-Mail-Adressen erstellen und Ihre eigene E-Mail-Domain anlegen.
 profile-promo-upgrade-cta = Upgrade von { -brand-name-relay } ausführen
 profile-label-edit = Beschriftung für diese Alias-Adresse ändern
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -338,7 +338,7 @@ profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, di
 
 ## Banner Messages (displayed on the profile page)
 
-banner-bounced-headline = { -brand-name-relay } könnte Ihre E-Mail nicht zustellen.
+banner-bounced-headline = { -brand-name-relay } konnte Ihre E-Mail nicht zustellen.
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
