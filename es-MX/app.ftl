@@ -398,6 +398,7 @@ modal-domain-register-available = ¡{ $subdomain } está disponible!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+modal-domain-register-success-title = ¡Correcto!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
