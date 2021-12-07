@@ -183,7 +183,7 @@ premium-promo-perks-cta-tooltip = Upgrade to { -brand-name-firefox-relay-premium
 premium-promo-perks-perk-unlimited-headline = Create unlimited email aliases
 premium-promo-perks-perk-unlimited-body = No more five-alias limit: with { -brand-name-relay-premium }, you can generate as many aliases as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your real address.
 premium-promo-perks-perk-custom-domain-headline = Choose your own custom domain
-premium-promo-perks-perk-custom-domain-body = With a custom domain, you can create aliases that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com—No need to create the alias beforehand.
+premium-promo-perks-perk-custom-domain-body = With a custom domain, you can create aliases that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the alias beforehand.
 premium-promo-perks-perk-dashboard-headline = Control your aliases from the dashboard
 premium-promo-perks-perk-dashboard-body = Manage all your aliases in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
 
