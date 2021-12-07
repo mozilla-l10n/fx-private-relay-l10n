@@ -192,15 +192,6 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 可能�
 faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 使用者，遇到這些困擾，請<a href="{ $url }" { $attrs }>聯絡我們的技術支援團隊</a>。
 faq-question-use-cases-question = 什麼時候該用 { -brand-name-relay } 轉寄郵件？
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中包含的「relay.」部分） 信箱註冊；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。隨著 { -brand-name-firefox-relay } 的知名度增加，並且建立更多別名信箱，我們的服務也有可能被放到封鎖清單中。若您無法使用 { -brand-name-relay } 別名，<a href="{ $url }" { $attrs }>請讓我們知道</a>。
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html = 有些網站可能不接受使用子網域（也就是 @relay.firefox.com 當中的「relay.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。若您無法使用 { -brand-name-relay } 別名， <a href="{ $url }" { $attrs }>請讓我們知道</a>。
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
@@ -210,11 +201,8 @@ faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所�
 faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
-faq-question-4-answer = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。任何副本或密件副本收件者，都不會包含在回覆當中。
-faq-question-4-answer-v2 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時回覆郵件，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入副本或密件副本收件者。
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
-faq-question-subdomain-characters-answer = 目前只接受小寫拉丁字母、數字、連字號（-）。
 faq-question-browser-support-question = 我可以在其他瀏覽器或行動裝置使用 { -brand-name-relay } 嗎？
 faq-question-browser-support-answer = 可以，您只要登入 { -brand-name-relay } 儀錶板，即可在其他瀏覽器或行動裝置上產生 { -brand-name-relay } 別名。
 faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
@@ -222,29 +210,13 @@ faq-question-longevity-answer = 我們會提前通知您，讓您可到使用 { 
 faq-question-mozmail-question = 為什麼我產生的別名信箱開始使用「mozmail.com」網域？
 faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 alias@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您產生的郵件別名更容易被記得。
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
-faq-question-attachments-answer = 是，{ -brand-name-firefox-relay } 支援轉寄大小不超過 { email-size-limit } 的郵件（含附件）。若郵件超過 { email-size-limit } 則不會被轉寄。
 faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂網域會發生什麼事？
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
-# Deprecated
-faq-question-3-question = { -brand-name-relay } 只在美國推出嗎？
-# Deprecated
-faq-question-3-answer = 本站目前只有英文版，但您可以在世界各地使用此服務。
-# Deprecated
-faq-question-5-question = 我可以使用 @relay.firefox.com 網域建立我自己想要的 { -brand-name-relay } 別名信箱嗎？
-# Deprecated
-faq-question-5-answer = 目前不行，但我們正在考慮是否要加入這個功能，讓您可以使用指定網域建立自己的別名信箱。
-# Deprecated
-faq-question-6-question = { -brand-name-mozilla } 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
-# Deprecated
-faq-question-6-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
-# Deprecated
-faq-question-7-question = 寄送到我的別名信箱的郵件包含附件怎麼辦？
-# Deprecated
-faq-question-7-answer = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
+faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 
 ## Profile Page (Logged In)
 
@@ -435,6 +407,7 @@ modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -bran
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，請務必在刪除此別名前，先到該網站把電子郵件地址更改成其他地址。
 modal-delete-confirmation = 是的，我要刪除這個別名。
 modal-domain-register-good-news = 好消息！
+modal-domain-register-warning-reminder = 您只可註冊一個網域，之後不能再更改。
 modal-domain-register-button = 註冊網域
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -447,6 +420,7 @@ modal-domain-register-success-title = 成功！
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = 現在起將使用 { $subdomain } 作為您的郵件網域！
+modal-domain-register-success-copy = 現在可以使用新網域名稱建立無限別名了，還在等什麼，快來註冊！
 
 ## Evergreen Survey (displayed on the profile page)
 
