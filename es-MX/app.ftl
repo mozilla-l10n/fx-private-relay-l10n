@@ -239,6 +239,9 @@ faq-question-1-answer-a = Si bien { -brand-name-relay } no filtra el spam, nuest
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
+faq-question-4-answer-html =
+    { -brand-name-relay } aún no ofrece la capacidad de responder usando un alias.
+    Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
 faq-question-subdomain-characters-question = ¿Qué caracteres puedo usar para crear un subdominio?
 faq-question-subdomain-characters-answer-v2 = Solo puedes usar letras minúsculas, números y guiones en inglés para crear un subdominio.
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
@@ -249,6 +252,7 @@ faq-question-mozmail-answer = Hicimos el cambio de “relay.firefox.com” a “
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
+faq-question-email-storage-answer = En las raras circunstancias en las que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos por más de tres días.
 
 ## Profile Page (Logged In)
 
@@ -378,6 +382,7 @@ multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responde
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más el uso de alias de correo electrónico.
+multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 
@@ -431,6 +436,7 @@ survey-option-not-likely = Poco probable
 ## VPN Promo Banner
 
 vpn-promo-headline = Ahorra un 50% con una suscripción anual
+vpn-promo-copy = Protege tus datos en línea y elige un plan de suscripción a VPN que funcione para ti.
 vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
@@ -439,3 +445,6 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluyendo archivos adjuntos) de hasta { email-size-limit } de tamaño. Para saber más, revisa nuestro { $faq_link }.
