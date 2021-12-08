@@ -251,6 +251,10 @@ faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el domini
 faq-question-mozmail-answer = Hicimos el cambio de “relay.firefox.com” a “mozmail.com” para poder obtener un dominio de correo electrónico personalizado, como alias@yourdomain.mozmail.com. Los dominios de correo electrónico personalizados, disponibles para los suscriptores de { -brand-name-relay-premium }, también hacen que tus alias de correo electrónico sean mucho más fáciles de recordar que los alias aleatorios.
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Puede obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y el sitio que usas para tus alias de correo electrónico para que podamos ofrecerte ese servicio y  mejorarlo.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En las raras circunstancias en las que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos por más de tres días.
 
@@ -349,6 +353,7 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Se ha creado tu dominio @{ $subdomain }
+success-settings-update = Tu configuración ha sido actualizada.
 
 ## Error Messages
 
@@ -448,3 +453,5 @@ forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email }
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluyendo archivos adjuntos) de hasta { email-size-limit } de tamaño. Para saber más, revisa nuestro { $faq_link }.
+# This entire text is a link
+forwarded-email-footer = Detener el reenvío de correo electrónico y administrar la configuración de todos los alias aquí.
