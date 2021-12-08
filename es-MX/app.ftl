@@ -189,10 +189,17 @@ premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada c
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, obtienes alias de correo electrónico personalizados ilimitados que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a Relay Premium por solo { $monthly_price } al mes.</b>
 premium-promo-hero-cta = Actualizar ahora
+premium-promo-availability-warning = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
 premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-cta-label = Actualizar ahora
 premium-promo-perks-cta-tooltip = Actualizar a { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
+premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
+premium-promo-perks-perk-dashboard-headline = Controla tus alias desde el panel
+premium-promo-use-cases-headline = Utiliza los alias de correo electrónico de { -brand-name-relay } en cualquier lugar
+premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-social-networks-heading = Redes sociales
+premium-promo-use-cases-gaming-heading = Juegos
 
 ## Settings page
 
