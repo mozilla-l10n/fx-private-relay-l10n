@@ -199,6 +199,15 @@ premium-promo-perks-perk-unlimited-body = Більше немає обмежен
 premium-promo-perks-perk-custom-domain-headline = Оберіть свій власний домен
 premium-promo-perks-perk-custom-domain-body = За допомогою власного домену ви можете створювати псевдоадреси, які легше запам’ятати та ділитися ними. Потрібен домен для бронювання ресторану? Використовуйте, наприклад food@mydomain.mozmail.com — не потрібно створювати псевдоадресу заздалегідь.
 premium-promo-perks-perk-dashboard-headline = Керуйте своїми псевдоадресами з панелі керування
+premium-promo-perks-perk-dashboard-body = Керуйте всіма своїми псевдоадресами зі зручної панелі керування: якщо на одну з адрес почнуть надходити небажані повідомлення, ви можете заблокувати їх, щоб вони не потрапляли до ваших вхідних.
+premium-promo-use-cases-headline = Використовуйте псевдоадреси електронної пошти { -brand-name-relay } будь-де
+premium-promo-use-cases-shopping-heading = Покупки
+premium-promo-use-cases-shopping-body = Хочете стежити за знижками без спаму? Повʼяжіть усі свої облікові записи «покупки» до власної псевдоадреси, як-от «mydeals@mydomain.mozmail.com».
+premium-promo-use-cases-social-networks-heading = Суспільні мережі
+premium-promo-use-cases-social-networks-body = Хочете краще захистити свою особу онлайн під час використання суспільної мережі? Використовуйте іншу псевдоадресу { -brand-name-relay }, щоб увійти в кожну суспільну мережу та убезпечити свою справжню електронну адресу від потрапляння на ці сайти.
+premium-promo-use-cases-gaming-heading = Ігри
+premium-promo-use-cases-gaming-body = Хвилюєтеся, що інші гравці чи тролі дізнаються, хто ви насправді, за допомогою тега вашого гравця та електронної адреси? Використовуйте псевдоадресу на кшталт «onlinegame@mydomain.mozmail.com», щоб створити ще один рівень захисту між вашою особистістю та онлайн-іграми.
+premium-promo-pricing-free-price = Ваш поточний безплатний тарифний план
 
 ## Settings page
 
