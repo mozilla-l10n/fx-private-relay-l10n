@@ -172,7 +172,7 @@ landing-use-cases-access-content-body =
     A quel punto puoi disattivare o eliminare l’alias per proteggere la tua casella di posta elettronica.
 landing-use-cases-gaming = Giochi online
 landing-use-cases-gaming-body =
-    Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo <em>gamertag</em> e il tuo indirizzo email?
+    Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
     Utilizza un alias { -brand-name-relay } per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 
 ## Landing FAQ Section
@@ -253,7 +253,7 @@ faq-question-4-answer-html =
     Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
 faq-question-subdomain-characters-question = Quali caratteri si possono utilizzare per creare un sottodominio?
 faq-question-subdomain-characters-answer-v2 = Per creare un sottodominio puoi utilizzare solo lettere latine minuscole, numeri e trattini.
-faq-question-browser-support-question = Posso utilizzare { -brand-name-relay } con altri browser o sul mio dispositivo <em>mobile</em>?
+faq-question-browser-support-question = Posso utilizzare { -brand-name-relay } con altri browser o sul mio dispositivo mobile?
 faq-question-browser-support-answer = Sì, puoi generare alias { -brand-name-relay } con altri browser o dispositivi mobili semplicemente accedendo alla tua dashboard { -brand-name-relay }.
 faq-question-longevity-question = Che cosa succede se Mozilla interrompe il servizio { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
