@@ -10,6 +10,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox Browser
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -166,6 +168,36 @@ landing-use-cases-gaming-body = Enjoy online gaming, but worried about other gam
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
 landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Make protecting your inbox easier with { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = With { -brand-name-firefox-relay-premium }, you get unlimited custom email aliases that forward only the emails you want to your real email address. <b>For a limited time, you can upgrade to Relay Premium for only { $monthly_price } a month.</b>
+premium-promo-hero-cta = Upgrade now
+premium-promo-availability-warning = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Switzerland, the UK, and the US.
+
+premium-promo-perks-headline = Why upgrade to { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = With { -brand-name-firefox-relay-premium }, you get all the inbox protection and management of { -brand-name-relay }, but with unlimited email aliases and your own custom domain to make managing your inbox even easier.
+premium-promo-perks-cta-label = Upgrade now
+premium-promo-perks-cta-tooltip = Upgrade to { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Create unlimited email aliases
+premium-promo-perks-perk-unlimited-body = No more five-alias limit: with { -brand-name-relay-premium }, you can generate as many aliases as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your real address.
+premium-promo-perks-perk-custom-domain-headline = Choose your own custom domain
+premium-promo-perks-perk-custom-domain-body = With a custom domain, you can create aliases that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the alias beforehand.
+premium-promo-perks-perk-dashboard-headline = Control your aliases from the dashboard
+premium-promo-perks-perk-dashboard-body = Manage all your aliases in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
+
+premium-promo-use-cases-headline = Use { -brand-name-relay } email aliases anywhere
+premium-promo-use-cases-shopping-heading = Shopping
+premium-promo-use-cases-shopping-body = Trying to sign up for discounts without all the spam? Bundle all your “shopping” accounts under unique custom aliases, like “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Social Networks
+premium-promo-use-cases-social-networks-body = Want to better protect your online identity when using a social network? Use a different { -brand-name-relay } alias to log in to each social network and help protect your true email from being exposed to those sites.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use an alias like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
+
+premium-promo-pricing-free-price = Your current Free plan
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } Settings
@@ -242,7 +274,9 @@ faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
 
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
+# Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
+faq-question-4-answer-v4 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those copied on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
 faq-question-4-answer-html = { -brand-name-relay } does not yet offer the ability to reply using an alias.
     If you try, nothing will happen. We are planning an additional feature to let you <a href="{ $url }" { $attrs }>reply anonymously to senders</a>.
 
@@ -537,6 +571,7 @@ vpn-promo-cta = Get { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = This message was forwarded from { $display_email } by { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } removes CCs and BCCs from your replies. If you re-add them, your real email will be exposed.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }. 
