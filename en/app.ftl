@@ -175,6 +175,7 @@ premium-promo-hero-headline = Make protecting your inbox easier with { -brand-na
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-html = With { -brand-name-firefox-relay-premium }, you get unlimited custom email aliases that forward only the emails you want to your real email address. <b>For a limited time, you can upgrade to Relay Premium for only { $monthly_price } a month.</b>
 premium-promo-hero-cta = Upgrade now
+premium-promo-availability-warning = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Switzerland, the UK, and the US.
 
 premium-promo-perks-headline = Why upgrade to { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead = With { -brand-name-firefox-relay-premium }, you get all the inbox protection and management of { -brand-name-relay }, but with unlimited email aliases and your own custom domain to make managing your inbox even easier.
