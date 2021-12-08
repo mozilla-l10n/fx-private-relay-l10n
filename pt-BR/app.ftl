@@ -187,6 +187,14 @@ landing-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay 
 premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com o { -brand-name-firefox-relay-premium }
 premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionamento de email ilimitados
+premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
+premium-promo-perks-perk-dashboard-headline = Controle seus endereços de redirecionamento no painel
+premium-promo-perks-perk-dashboard-body = Gerencie todos os seus endereços em um painel fácil de usar. Se perceber que um endereço está recebendo mensagens indesejadas, você pode bloquear para que não cheguem à sua caixa de entrada.
+premium-promo-use-cases-headline = Use endereços de redirecionamento de email do { -brand-name-relay } em qualquer lugar
+premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-social-networks-heading = Redes sociais
+premium-promo-use-cases-gaming-heading = Jogos
 
 ## Settings page
 
