@@ -180,6 +180,9 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
 landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
+## Premium promo page
+
+
 ## Settings page
 
 settings-headline = Ajustes de { -brand-name-relay }
@@ -292,6 +295,8 @@ profile-label-details-hide = Ocultar detalles
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
+profile-label-disable-forwarding-button = Deshabilitar el reenvío de correo electrónico para este alias
+profile-label-enable-forwarding-button = Habilitar el reenvío de correo electrónico para este alias
 profile-label-click-to-copy = Clic para copiar
 profile-label-copy-confirmation = Alias copiado al portapapeles
 profile-label-copied = ¡Copiado!
@@ -341,6 +346,7 @@ banner-label-privacy-notice-update-cta = Ver aviso de privacidad
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
+banner-label-data-notification-body-v2 = Puedes permitir que { -brand-name-relay } recopile datos opcionales que nos permitan sincronizar tus etiquetas de alias en tus dispositivos con los sitios web donde se crean y se utilizan.
 banner-label-data-notification-body-cta = Saber más
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Tu dominio es:
@@ -353,7 +359,7 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 # Variables:
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered = Se ha creado tu dominio @{ $subdomain }
-success-settings-update = Tu configuración ha sido actualizada.
+success-settings-update = Tu configuración ha sido actualizada
 
 ## Error Messages
 
