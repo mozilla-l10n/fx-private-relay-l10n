@@ -185,16 +185,24 @@ landing-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay 
 ## Premium promo page
 
 premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com o { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Com o { -brand-name-firefox-relay-premium } você tem acesso a endereços de redirecionamento personalizados ilimitados, que encaminham apenas os emails que você quer para seu endereço de email real. <b>Por tempo limitado, você pode mudar para o Relay Premium por apenas { $monthly_price } por mês.</b>
+premium-promo-availability-warning = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e Estados Unidos.
 premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionamento de email ilimitados
 premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
+premium-promo-perks-perk-custom-domain-body = Com um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar. Precisa de um para reservas em restaurantes? Use algo como comida@meudominio.mozmail.com — Nem precisa criar o endereço antes.
 premium-promo-perks-perk-dashboard-headline = Controle seus endereços de redirecionamento no painel
 premium-promo-perks-perk-dashboard-body = Gerencie todos os seus endereços em um painel fácil de usar. Se perceber que um endereço está recebendo mensagens indesejadas, você pode bloquear para que não cheguem à sua caixa de entrada.
 premium-promo-use-cases-headline = Use endereços de redirecionamento de email do { -brand-name-relay } em qualquer lugar
 premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-shopping-body = Tentando conseguir descontos, mas sem receber spam? Agrupe rodas as suas contas de “compras” em endereços de redirecionamento personalizados exclusivos, como “ofertas@meudominio.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Redes sociais
 premium-promo-use-cases-gaming-heading = Jogos
+premium-promo-use-cases-gaming-body = Preocupado que outros jogadores ou intimidadores descubram quem você é por meio do seu nome no jogo e endereço de email? Use um endereço de redirecionamento como “jogos@meudominio.mozmail.com” para colocar mais uma camada de proteção entre sua identidade e os jogos que você joga online.
+premium-promo-pricing-free-price = Seu plano gratuito atual
 
 ## Settings page
 
