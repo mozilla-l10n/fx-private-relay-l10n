@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox Browser
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -180,6 +182,33 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
 landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Make protecting your inbox easier with { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = With { -brand-name-firefox-relay-premium }, you get unlimited custom email aliases that forward only the emails you want to your real email address. <b>For a limited time, you can upgrade to Relay Premium for only { $monthly_price } a month.</b>
+premium-promo-hero-cta = Upgrade now
+premium-promo-availability-warning = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Switzerland, the UK, and the US.
+premium-promo-perks-headline = Why upgrade to { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = With { -brand-name-firefox-relay-premium }, you get all the inbox protection and management of { -brand-name-relay }, but with unlimited email aliases and your own custom domain to make managing your inbox even easier.
+premium-promo-perks-cta-label = Upgrade now
+premium-promo-perks-cta-tooltip = Upgrade to { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Create unlimited email aliases
+premium-promo-perks-perk-unlimited-body = No more five-alias limit: with { -brand-name-relay-premium }, you can generate as many aliases as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your real address.
+premium-promo-perks-perk-custom-domain-headline = Choose your own custom domain
+premium-promo-perks-perk-custom-domain-body = With a custom domain, you can create aliases that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the alias beforehand.
+premium-promo-perks-perk-dashboard-headline = Control your aliases from the dashboard
+premium-promo-perks-perk-dashboard-body = Manage all your aliases in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
+premium-promo-use-cases-headline = Use { -brand-name-relay } email aliases anywhere
+premium-promo-use-cases-shopping-heading = Shopping
+premium-promo-use-cases-shopping-body = Trying to sign up for discounts without all the spam? Bundle all your “shopping” accounts under unique custom aliases, like “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Social Networks
+premium-promo-use-cases-social-networks-body = Want to better protect your online identity when using a social network? Use a different { -brand-name-relay } alias to log in to each social network and help protect your true email from being exposed to those sites.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use an alias like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
+premium-promo-pricing-free-price = Your current Free plan
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } Settings
@@ -229,26 +258,9 @@ faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-pr
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = If you’re struggling with any of these issues, please <a href="{ $url }" { $attrs }>visit our support site</a>.
 faq-question-use-cases-question = When should I use { -brand-name-relay } aliases?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future. We don’t recommend using aliases when you need your identity verified or for very important emails. For example, you’d want to share your real email address with your bank, your doctor, your lawyer, etc.
 faq-question-use-cases-answer-part1 = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future.
 faq-question-use-cases-answer-part2 = We don’t recommend using aliases when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your real email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
 faq-question-2-question = Why won’t a site accept my { -brand-name-relay } alias?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Some sites may not accept an email address that includes a subdomain (i.e., the “relay” portion of @relay.firefox.com) and others have stopped accepting all addresses except those from Gmail, Hotmail or Yahoo accounts. 
-    As { -brand-name-firefox-relay } grows in popularity and issues more aliases, our service might be placed on a blocklist. 
-    If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>please let us know</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Some sites may not accept an email address that includes a subdomain (i.e., the “relay” portion of @relay.firefox.com) and others have stopped accepting all addresses except those from Gmail, Hotmail or Yahoo accounts.
-    If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>please let us know</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -264,16 +276,13 @@ faq-question-1-answer-b-html = If you see a broader problem of unwanted email fr
 faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
-faq-question-4-answer = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. Any CC’ed or BCC’ed addresses will not be included in your replies.
 # Deprecated
-faq-question-4-answer-v2 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the receivers and those on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
 faq-question-4-answer-v3 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
+faq-question-4-answer-v4 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those copied on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
 faq-question-4-answer-html =
     { -brand-name-relay } does not yet offer the ability to reply using an alias. 
     If you try, nothing will happen. We are planning an additional feature to let you <a href="{ $url }" { $attrs }>reply anonymously to senders</a>.
 faq-question-subdomain-characters-question = What characters can I use to create a subdomain?
-# Deprecated
-faq-question-subdomain-characters-answer = Only lower case English alphabet, numbers, and dashes (-).
 faq-question-subdomain-characters-answer-v2 = You can only use lower-case English letters, numbers, and hyphens to create a subdomain.
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 faq-question-browser-support-answer = Yes, you can generate { -brand-name-relay } aliases on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
@@ -282,8 +291,6 @@ faq-question-longevity-answer = We will give you advance notice that you need to
 faq-question-mozmail-question = Why did my aliases start to use the domain “mozmail.com?”
 faq-question-mozmail-answer = We made the switch from “relay.firefox.com” to “mozmail.com” in order to make it possible to get a custom email domain, such as alias@yourdomain.mozmail.com. Custom email domains, available to { -brand-name-relay-premium } subscribers, also make your email aliases much easier to remember than random aliases.
 faq-question-attachments-question = Will { -brand-name-firefox-relay } forward emails with attachments?
-# Deprecated
-faq-question-attachments-answer = Yes, { -brand-name-firefox-relay } supports forwarded emails with attachments of up to { email-size-limit } in size. If an email has an attachment larger than { email-size-limit }, it will not be forwarded.
 faq-question-attachments-answer-v2 = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 faq-question-unsubscribe-domain-question = What happens to my custom domain if I unsubscribe from { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = If you downgrade from { -brand-name-relay-premium }, you’ll still receive emails forwarded through your custom domain, but you’ll no longer be able to create new aliases using that domain. If you have more than five aliases in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages. You can resubscribe to { -brand-name-relay-premium } and regain access to these features.
@@ -294,22 +301,6 @@ faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
 faq-question-email-storage-question = Does { -brand-name-relay } store my emails?
 faq-question-email-storage-answer = Under the rare circumstance in which the service is down, we may temporarily store your emails until we are able to send them. We will never store your emails for longer than three days.
-# Deprecated
-faq-question-3-question = Is { -brand-name-relay } available only in the US?
-# Deprecated
-faq-question-3-answer = The site is currently only available in English, but you can use the service anywhere.
-# Deprecated
-faq-question-5-question = Can I make up my own { -brand-name-relay } alias using the @relay.firefox.com domain?
-# Deprecated
-faq-question-5-answer = Not currently, but we are considering new features including letting you create your own alias with a designated domain.
-# Deprecated
-faq-question-6-question = What happens if { -brand-name-mozilla } shuts down the { -brand-name-firefox-relay } service?
-# Deprecated
-faq-question-6-answer = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } aliases.
-# Deprecated
-faq-question-7-question = What if an email sent to my alias contains an attachment?
-# Deprecated
-faq-question-7-answer = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 
 ## Profile Page (Logged In)
 
@@ -565,6 +556,7 @@ vpn-promo-cta = Get { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = This message was forwarded from { $display_email } by { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } removes CCs and BCCs from your replies. If you re-add them, your real email will be exposed.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }.
