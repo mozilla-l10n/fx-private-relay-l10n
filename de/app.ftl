@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox-Browser
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -180,6 +182,33 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Häufigste Fragen zu { -brand-name-firefox-relay }
 landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Erleichtern Sie den Schutz Ihres Posteingangs mit { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Mit { -brand-name-firefox-relay-premium } erhalten Sie unbegrenzt viele benutzerdefinierte Alias-E-Mail-Adressen, die nur die gewünschten E-Mails an Ihre echte E-Mail-Adresse weiterleiten. <b>Für eine begrenzte Zeit können Sie für nur { $monthly_price } pro Monat auf Relay Premium upgraden.</b>
+premium-promo-hero-cta = Jetzt upgraden
+premium-promo-availability-warning = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
+premium-promo-perks-headline = Warum sollten Sie das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
+premium-promo-perks-lead = Mit { -brand-name-firefox-relay-premium } erhalten Sie den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten Alias-E-Mail-Adressen und Ihrer eigenen benutzerdefinierten Domain, um die Verwaltung Ihres Posteingangs noch einfacher zu machen.
+premium-promo-perks-cta-label = Jetzt upgraden
+premium-promo-perks-cta-tooltip = Machen Sie das Upgrade auf { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Unbegrenzt viele Alias-E-Mail-Adressen erstellen
+premium-promo-perks-perk-unlimited-body = Keine Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Mit { -brand-name-relay-premium } können Sie so viele Alias-E-Mail-Adressen generieren, wie Sie benötigen, um Ihren E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Sie können sogar auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben.
+premium-promo-perks-perk-custom-domain-headline = Wählen Sie Ihre eigene benutzerdefinierte Domain
+premium-promo-perks-perk-custom-domain-body = Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können. Benötigen Sie eine für Restaurantreservierungen? Verwenden Sie einen wie essen@meinedomain.mozmail.com – Sie müssen die Alias-Adresse nicht vorher erstellen.
+premium-promo-perks-perk-dashboard-headline = Steuern Sie Ihre Alias-E-Mail-Adressen von der Übersicht
+premium-promo-perks-perk-dashboard-body = Verwalten Sie alle Ihre Alias-E-Mail-Adressen in der benutzerfreundlichen Übersicht: Wenn Sie feststellen, dass eine unerwünschte Nachrichten erhält, können Sie verhindern, dass diese Nachrichten Ihren Posteingang erreichen.
+premium-promo-use-cases-headline = Verwenden Sie überall Alias-E-Mail-Adressen von { -brand-name-relay }
+premium-promo-use-cases-shopping-heading = Einkaufen
+premium-promo-use-cases-shopping-body = Versuchen Sie, sich für Rabatte ohne alle Spam zu registrieren? Bündeln Sie alle Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten Alias-E-Mail-Adressen, wie „mydeals@meinedomain.mozmail.com“.
+premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
+premium-promo-use-cases-social-networks-body = Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwenden Sie eine eigene Alias-E-Mail-Adresse von { -brand-name-relay } für jedes soziale Netzwerk und verhindern Sie, dass Ihre echte E-Mail-Adresse diesen Websites bekannt wird.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body = Sind Sie besorgt, dass andere Spieler oder Trolle über Ihren Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind? Verwenden Sie eine Alias-E-Mail-Adresse wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen Ihrer Identität und den Spielen, die Sie online spielen, zu platzieren.
+premium-promo-pricing-free-price = Ihr aktuelles, kostenloses Modell
+
 ## Settings page
 
 settings-headline = Einstellungen von { -brand-name-relay }
@@ -247,6 +276,7 @@ faq-question-1-answer-b-html = Wenn Sie feststellen, dass es bei all Ihren Alias
 faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-4-question = Kann ich mit meiner Alias-E-Mail-Adresse von { -brand-name-relay } auf Nachrichten antworten?
+# Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-html =
     { -brand-name-relay } bietet aktuell nicht die Möglichkeit, mit einer seiner Alias-E-Mail-Adressen zu antworten.
