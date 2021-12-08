@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox 瀏覽器
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -145,6 +147,21 @@ landing-use-cases-gaming-body = 愛玩線上遊戲，但擔心其他玩家或者
 
 landing-faq-headline = { -brand-name-firefox-relay } 的熱門問題
 landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
+
+## Premium promo page
+
+premium-promo-hero-cta = 立刻升級
+premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
+premium-promo-perks-cta-label = 立刻升級
+premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = 建立無限量的郵件別名
+premium-promo-perks-perk-custom-domain-headline = 使用您自訂的網域名稱
+premium-promo-perks-perk-dashboard-headline = 在儀表板管理您建立的別名
+premium-promo-use-cases-headline = 隨時隨地都能使用 { -brand-name-relay } 別名信箱
+premium-promo-use-cases-shopping-heading = 線上購物
+premium-promo-use-cases-social-networks-heading = 社群網路
+premium-promo-use-cases-gaming-heading = 遊戲
+premium-promo-pricing-free-price = 您目前的免費方案
 
 ## Settings page
 
