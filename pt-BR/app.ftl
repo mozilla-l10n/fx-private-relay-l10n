@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Navegador Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -180,6 +182,12 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Principais perguntas sobre o { -brand-name-firefox-relay }
 landing-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com o { -brand-name-firefox-relay-premium }
+premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
+premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
+
 ## Settings page
 
 settings-headline = Configurações do { -brand-name-relay }
@@ -229,26 +237,9 @@ faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-nam
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Se estiver tendo algum desses problemas, <a href="{ $url }" { $attrs }>visite nosso site de suporte</a>.
 faq-question-use-cases-question = Quando devo usar endereços de redirecionamento do { -brand-name-relay }?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares onde usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing e/ou informativos, quando quer controlar se receberá ou não emails no futuro. Não recomendamos o uso de endereços de redirecionamento quando você precisa que sua identidade seja verificada ou para emails muito importantes. Por exemplo, você pode querer compartilhar seu endereço de email real com seu banco, seu médico, seu advogado, etc.
 faq-question-use-cases-answer-part1 = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares em que usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing ou informativos, podendo controlar se quer ou não receber emails no futuro.
 faq-question-use-cases-answer-part2 = Não recomendamos usar endereços de redirecionamento quando você precisa que sua identidade seja verificada, ou quando você pode receber mensagens muito importantes, ou anexos. Por exemplo, pode compartilhar seu endereço de email real com seu banco, seu médico ou seu advogado, assim como para receber entradas de shows ou passagens de voos.
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
-    Conforme o { -brand-name-firefox-relay } crescer em popularidade e emitir mais endereços de redirecionamento, nosso serviço pode ser colocado em uma lista de bloqueio.
-    Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Alguns sites podem não aceitar endereços de email que incluam um subdomínio (ou seja, a parte “relay” de @relay.firefox.com), enquanto outros sites pararam de aceitar qualquer endereço, exceto os de contas do Gmail, Hotmail ou Yahoo.
-    Se você não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos informe</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -264,16 +255,12 @@ faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails inde
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
 faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
-faq-question-4-answer = Os usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após o recebimento do email. Quaisquer endereços CC ou CCO não são incluídos em suas respostas.
 # Deprecated
-faq-question-4-answer-v2 = Os usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após o recebimento do email. Se você adicionar um destinatário Cc ou Cco ao responder um email, seu endereço de email original será exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes Cc ou Cco ao responder.
 faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
     Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
 faq-question-subdomain-characters-question = Que caracteres posso usar para criar um subdomínio?
-# Deprecated
-faq-question-subdomain-characters-answer = Somente letras minúsculas do alfabeto inglês, números e traços (-).
 faq-question-subdomain-characters-answer-v2 = Você só pode usar letras minúsculas sem acentos, números e hifens para criar um subdomínio.
 faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
 faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
@@ -282,8 +269,6 @@ faq-question-longevity-answer = Avisaremos com antecedência que você precisa a
 faq-question-mozmail-question = Por que meus endereços de redirecionamento passaram a usar o domínio “mozmail.com”?
 faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail.com” para possibilitar a obtenção de um domínio de email personalizado, como alias@seudominio.mozmail.com. Domínios de email personalizados, disponíveis para assinantes do { -brand-name-relay-premium }, também tornam seus endereços de redirecionamento de email muito mais fáceis de lembrar do que endereços de redirecionamento gerados aleatoriamente.
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
-# Deprecated
-faq-question-attachments-answer = Sim, o { -brand-name-firefox-relay } oferece suporte a emails encaminhados com anexos de até { email-size-limit }. Se um email tiver um anexo maior que { email-size-limit }, ele não é encaminhado.
 faq-question-attachments-answer-v2 = Agora oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } no encaminhamento de emails usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 faq-question-unsubscribe-domain-question = O que acontece com meu domínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de seu domínio personalizado, mas não poderá mais criar endereços de redirecionamento usando esse domínio. Se tiver mais de cinco endereços de redirecionamento no total, não poderá criar mais nenhum. Também perderá a capacidade de responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
@@ -294,22 +279,6 @@ faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
-# Deprecated
-faq-question-3-question = O { -brand-name-relay } só está disponível nos EUA?
-# Deprecated
-faq-question-3-answer = Atualmente, o site está disponível apenas em inglês, mas você pode usar o serviço em qualquer lugar.
-# Deprecated
-faq-question-5-question = Posso criar meu próprio endereço do { -brand-name-relay } usando o domínio @relay.firefox.com?
-# Deprecated
-faq-question-5-answer = Atualmente não, mas estamos considerando novos recursos, incluindo permitir que você crie seu próprio endereço de redirecionamento com um domínio designado.
-# Deprecated
-faq-question-6-question = O que acontece se a { -brand-name-mozilla } encerrar o serviço { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-6-answer = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
-# Deprecated
-faq-question-7-question = E se um email enviado para meu endereço de redirecionamento tiver um anexo?
-# Deprecated
-faq-question-7-answer = No momento oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } para encaminhamento de email usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 
 ## Profile Page (Logged In)
 
