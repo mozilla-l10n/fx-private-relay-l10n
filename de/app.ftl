@@ -278,6 +278,7 @@ faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in d
 faq-question-4-question = Kann ich mit meiner Alias-E-Mail-Adresse von { -brand-name-relay } auf Nachrichten antworten?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
+faq-question-4-answer-v4 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn Sie beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügen, wird Ihre ursprüngliche E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn Sie nicht möchten, dass Ihre ursprüngliche E-Mail-Adresse offengelegt wird, fügen Sie beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-html =
     { -brand-name-relay } bietet aktuell nicht die Möglichkeit, mit einer seiner Alias-E-Mail-Adressen zu antworten.
     Wenn Sie dies versuchen, passiert nichts. Wir planen eine zusätzliche Funktion, mit der Sie <a href="{ $url }" { $attrs }>anonym auf Nachrichten antworten können</a>.
@@ -555,6 +556,7 @@ vpn-promo-cta = Jetzt { -brand-name-mozilla-vpn } nutzen
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Diese Nachricht wurde von { $display_email } von { $linked_origin } weitergeleitet
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } entfernt CCs und BCCs aus Ihren Antworten. Wenn Sie sie erneut hinzufügen, wird Ihre echte E-Mail-Adresse offen gelegt.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen finden Sie in unseren { $faq_link }
