@@ -197,6 +197,8 @@ premium-promo-perks-cta-tooltip = Оновити до { -brand-name-firefox-rela
 premium-promo-perks-perk-unlimited-headline = Створюйте необмежену кількість псевдоадрес електронної пошти
 premium-promo-perks-perk-unlimited-body = Більше немає обмеження у п’ять псевдоадрес: за допомогою { -brand-name-relay-premium } ви можете створити стільки псевдоадрес, скільки вам потрібно, щоб захистити свою електронну скриньку від спамерів та елементів онлайн-стеження. Ви навіть можете відповідати на електронні листи, не показуючи свою справжню адресу.
 premium-promo-perks-perk-custom-domain-headline = Оберіть свій власний домен
+premium-promo-perks-perk-custom-domain-body = За допомогою власного домену ви можете створювати псевдоадреси, які легше запам’ятати та ділитися ними. Потрібен домен для бронювання ресторану? Використовуйте, наприклад food@mydomain.mozmail.com — не потрібно створювати псевдоадресу заздалегідь.
+premium-promo-perks-perk-dashboard-headline = Керуйте своїми псевдоадресами з панелі керування
 
 ## Settings page
 
