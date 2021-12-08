@@ -182,6 +182,11 @@ landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-cta = Promover ora
+premium-promo-perks-cta-label = Promover ora
+premium-promo-perks-cta-tooltip = Promover a { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-custom-domain-headline = Elige tu proprie dominio personal
+premium-promo-use-cases-social-networks-heading = Retes social
+premium-promo-use-cases-gaming-heading = Jocos
 
 ## Settings page
 
