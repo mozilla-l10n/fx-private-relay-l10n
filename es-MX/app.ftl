@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Navegador Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -182,6 +184,15 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 
 ## Premium promo page
 
+premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, obtienes alias de correo electrónico personalizados ilimitados que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a Relay Premium por solo { $monthly_price } al mes.</b>
+premium-promo-hero-cta = Actualizar ahora
+premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
+premium-promo-perks-cta-label = Actualizar ahora
+premium-promo-perks-cta-tooltip = Actualizar a { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
 
 ## Settings page
 
@@ -332,6 +343,16 @@ banner-register-subdomain-headline-aliases = Obtén un dominio personalizado par
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tudominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Con un dominio personalizado, puedes compartir alias que no necesitan ser generados
+    antes de usarlos. ¿Necesitas uno para hacer una reserva? Usa
+    “restaurant@yourdomain.{ $mozmail }” al restaurante. Cualquier alias que use tu
+    dominio personalizado se reenviará para ti.
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
