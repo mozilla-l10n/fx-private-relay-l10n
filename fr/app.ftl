@@ -187,7 +187,17 @@ landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-r
 ## Premium promo page
 
 premium-promo-hero-headline = Simplifiez la protection de votre boîte de réception grâce à { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à Relay Premium pour seulement { $monthly_price } par mois.</b>
 premium-promo-hero-cta = Mettre à niveau maintenant
+premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
+premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-premium } ?
+premium-promo-perks-lead = Avec { -brand-name-firefox-relay-premium }, non seulement vous bénéficiez de tous les avantages de la protection et de la gestion de la boîte de réception de { -brand-name-relay }, mais aussi d’un nombre illimité d’alias de messagerie et de votre propre domaine personnalisé pour faciliter comme jamais la gestion de votre boîte de réception.
+premium-promo-perks-cta-label = Mettre à niveau maintenant
+premium-promo-perks-cta-tooltip = Passez à { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Créer un nombre illimité d’alias
+premium-promo-perks-perk-custom-domain-headline = Choisir son domaine personnalisé
 
 ## Settings page
 
