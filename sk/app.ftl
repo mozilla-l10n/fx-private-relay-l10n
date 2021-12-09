@@ -224,6 +224,29 @@ landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-fi
 ## Premium promo page
 
 premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových aliasov, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete prejsť na Relay Premium len za { $monthly_price } mesačne.</b>
+premium-promo-hero-cta = Inovovať teraz
+premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švajčiarsku, Spojenom kráľovstve a USA.
+premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových aliasov a vašou vlastnou doménou, aby bola správa doručenej pošty ešte jednoduchšia.
+premium-promo-perks-cta-label = Inovovať teraz
+premium-promo-perks-cta-tooltip = Inovovať na { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Vytvárajte neobmedzený počet e-mailových aliasov
+premium-promo-perks-perk-unlimited-body = Už žiadny limit piatich aliasov: so službou { -brand-name-relay-premium } môžete vygenerovať toľko aliasov, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
+premium-promo-perks-perk-custom-domain-headline = Vyberte si vlastnú doménu
+premium-promo-perks-perk-custom-domain-body = S vlastnou doménou môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete alias na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — alias nie je potrebné vytvárať vopred.
+premium-promo-perks-perk-dashboard-headline = Spravujte svoje aliasy z ovládacieho panela
+premium-promo-perks-perk-dashboard-body = Spravujte všetky svoje aliasy na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
+premium-promo-use-cases-headline = Používajte e-mailové aliasy služby { -brand-name-relay } kdekoľvek
+premium-promo-use-cases-shopping-heading = Nakupovanie
+premium-promo-use-cases-shopping-body = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými aliasmi, napríklad “mojenakupy@mojadomena.mozmail.com”.
+premium-promo-use-cases-social-networks-heading = Sociálne siete
+premium-promo-use-cases-social-networks-body = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite iný alias služby { -brand-name-relay } a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
+premium-promo-use-cases-gaming-heading = Hranie hier
+premium-promo-use-cases-gaming-body = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite alias ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
+premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
 
 ## Settings page
 
@@ -294,6 +317,7 @@ faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je d
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
+faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
