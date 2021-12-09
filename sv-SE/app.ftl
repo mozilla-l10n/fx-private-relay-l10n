@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox Browser
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -180,6 +182,19 @@ landing-use-cases-gaming-body =
 landing-faq-headline = De vanligaste frågorna om { -brand-name-firefox-relay }
 landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till Relay Premium för endast { $monthly_price } i månaden.</b>
+premium-promo-hero-cta = Uppgradera nu
+premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
+premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
+premium-promo-perks-cta-label = Uppgradera nu
+premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Skapa ett obegränsat antal e-postalias
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } inställningar
@@ -229,26 +244,9 @@ faq-question-missing-emails-answer-b-html = Om du är en { -brand-name-relay-pre
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Om du kämpar med något av dessa problem, <a href="{ $url }" { $attrs }>besök vår supportwebbplats</a>.
 faq-question-use-cases-question = När ska jag använda { -brand-name-relay }-alias?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Du kan använda { -brand-name-relay }-alias på de flesta ställen där du skulle använda din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte. Vi rekommenderar inte att du använder alias när du behöver verifiera din identitet eller för mycket viktiga e-postmeddelanden. Till exempel vill du dela din riktiga e-postadress med din bank, din läkare, din advokat, etc.
 faq-question-use-cases-answer-part1 = Du kan använda { -brand-name-relay }-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
 faq-question-use-cases-answer-part2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
 faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (dvs "relay"-delen av @relay.firefox.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton.
-    Eftersom { -brand-name-firefox-relay } växer i popularitet och utfärdar fler alias kan vår tjänst placeras på en blockeringslista.
-    Om du inte kan använda ett { -brand-name-relay }-alias, <a href="{ $url }" { $attrs }>meddela oss</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (dvs "relä"-delen av @relay.firefox.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton
-    Om du inte kan använda ett { -brand-name-relay }-alias, <a href="{ $url }" { $attrs }>meddela oss</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -264,16 +262,12 @@ faq-question-1-answer-b-html = Om du ser ett större problem med oönskad e-post
 faq-question-availability-question = Var är { -brand-name-relay } tillgängligt?
 faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
-faq-question-4-answer = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom tre månader efter att de fått e-postmeddelandet. Eventuella kopia- eller dolda kopia-adresser ingår inte i dina svar.
 # Deprecated
-faq-question-4-answer-v2 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagarna och i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-4-answer-v3 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagarna och i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-4-answer-html =
     { -brand-name-relay } har ännu inte möjlighet att svara med ett alias.
     Om du försöker kommer ingenting att hända. Vi planerar en ytterligare funktion för att låta dig <a href="{ $url }" { $attrs }>svara anonymt till avsändaren</a>.
 faq-question-subdomain-characters-question = Vilka tecken kan jag använda för att skapa en underdomän?
-# Deprecated
-faq-question-subdomain-characters-answer = Endast små bokstäver, engelska alfabet, siffror och bindestreck (-).
 faq-question-subdomain-characters-answer-v2 = Du kan bara använda små bokstäver ur engelska alfabetet, siffror och bindestreck för att skapa en underdomän.
 faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
 faq-question-browser-support-answer = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
@@ -282,8 +276,6 @@ faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du mås
 faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
 faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
-# Deprecated
-faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } stöder vidarebefordrade e-postmeddelanden med bilagor på upp till { email-size-limit } i storlek. Om ett e-postmeddelande har en bilaga större än { email-size-limit } vidarebefordras det inte.
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
@@ -294,22 +286,6 @@ faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 faq-question-8-answer-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
 faq-question-email-storage-question = Lagrar { -brand-name-relay } mina e-postmeddelanden?
 faq-question-email-storage-answer = Under de sällsynta omständigheter då tjänsten är nere, kan vi tillfälligt lagra dina e-postmeddelanden tills vi kan skicka de. Vi kommer aldrig att lagra dina e-postmeddelanden längre än tre dagar.
-# Deprecated
-faq-question-3-question = Är { -brand-name-relay } endast tillgänglig i USA?
-# Deprecated
-faq-question-3-answer = Webbplatsen är för närvarande endast tillgänglig på engelska, men du kan använda tjänsten var som helst.
-# Deprecated
-faq-question-5-question = Kan jag skapa mitt egna { -brand-name-relay }-alias med domänen @relay.firefox.com?
-# Deprecated
-faq-question-5-answer = Inte för närvarande, men vi överväger nya funktioner, inklusive att låta dig skapa ditt egna alias med en angiven domän.
-# Deprecated
-faq-question-6-question = Vad händer om { -brand-name-mozilla } stänger av tjänsten { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-6-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
-# Deprecated
-faq-question-7-question = Vad händer om ett e-postmeddelande som skickats till mitt alias innehåller en bilaga?
-# Deprecated
-faq-question-7-answer = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns på { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 
 ## Profile Page (Logged In)
 
