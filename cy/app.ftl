@@ -184,20 +184,20 @@ landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 
 ## Premium promo page
 
-premium-promo-hero-headline = Gwnewch diogelu eich bwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
+premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael arallenwau e-bost cyfaddas diderfyn sy'n anfon dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i Relay Premium am ddim ond { $monthly_price } y mis.</b>
+premium-promo-hero-body-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael arallenwau e-bost cyfaddas dirifedi sy'n anfon dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i Relay Premium am ddim ond { $monthly_price } y mis.</b>
 premium-promo-hero-cta = Uwchraddiwch nawr
 premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
 premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
-premium-promo-perks-lead = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag arallenwau e-bost diderfyn a'ch parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
+premium-promo-perks-lead = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag arallenwau e-bost dirifedi a'ch parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
 premium-promo-perks-cta-label = Uwchraddiwch nawr
 premium-promo-perks-cta-tooltip = Uwchraddiwch i { -brand-name-firefox-relay-premium }
-premium-promo-perks-perk-unlimited-headline = Crëwch arallenwau e-bost diderfyn
+premium-promo-perks-perk-unlimited-headline = Crëwch arallenwau e-bost dirifedi
 premium-promo-perks-perk-unlimited-body = Dim rhagor o gyfyngiad pump arallenws: gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i diogelu eich blwch drebyn e-bost rhag sbamwyr a thracwyr ar-lein. Gallwch hyd yn oed ateb e-byst heb ddatgelu eich cyfeiriad go iawn.
 premium-promo-perks-perk-custom-domain-headline = Dewiswch eich parth cyfaddas eich hun
-premium-promo-perks-perk-custom-domain-body = Gyda pharth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does rhaid creu'r arallenw ymlaen llaw.
+premium-promo-perks-perk-custom-domain-body = Gyda pharth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does dim rhaid creu'r arallenw ymlaen llaw.
 premium-promo-perks-perk-dashboard-headline = Rheolwch eich arallenwau o'r bwrdd gwaith
 premium-promo-perks-perk-dashboard-body = Rheolwch eich holl arallenwau yn y bwrdd gwaith hawdd ei ddefnyddio: os gwelwch fod un yn derbyn negeseuon diofyn, gallwch rwystro'r negeseuon hynny rhag cyrraedd eich blwch derbyn.
 premium-promo-use-cases-headline = Defnyddiwch arallenwau e-bost { -brand-name-relay } yn unrhyw le
@@ -206,6 +206,8 @@ premium-promo-use-cases-shopping-body = Yn ceisio cofrestru ar gyfer gostyngiada
 premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
 premium-promo-use-cases-social-networks-body = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn agored i'r gwefannau hynny.
 premium-promo-use-cases-gaming-heading = Gemau
+premium-promo-use-cases-gaming-body = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch alias fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
+premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
 
 ## Settings page
 
@@ -276,6 +278,7 @@ faq-question-availability-answer = Mae { -brand-name-relay } ar gael am ddim yn 
 faq-question-4-question = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Gall defnyddwyr { -brand-name-relay-premium } ymateb i e-bost a anfonwyd ymlaen cyn pen 3 mis ar ôl derbyn yr e-bost. Os ychwanegwch CC neu BCC pan fyddwch yn ateb e-bost, bydd eich cyfeiriad e-bost gwreiddiol yn weladwy i'r derbynwyr a'r rhai ar yr e-bost. Os nad ydych am i'ch cyfeiriad e-bost gwreiddiol gael ei ddatgelu, peidiwch ag ychwanegu CC neu BCC wrth ateb.
+faq-question-4-answer-v4 = Gall defnyddwyr { -brand-name-relay-premium } ymateb i e-bost a anfonwyd ymlaen cyn pen 3 mis ar ôl derbyn yr e-bost. Os ychwanegwch CC neu BCC pan fyddwch yn ateb e-bost, bydd eich cyfeiriad e-bost gwreiddiol yn weladwy i'r derbynwyr a'r rhai ar yr e-bost. Os nad ydych am i'ch cyfeiriad e-bost gwreiddiol gael ei ddatgelu, peidiwch ag ychwanegu CC neu BCC wrth ateb.
 faq-question-4-answer-html =
     Nid yw { -brand-name-relay } eto yn cynnig y gallu i ymateb gan ddefnyddio arallenw.
     Os ceisiwch wneud hynny, ni fydd unrhyw beth yn digwydd. Rydym yn cynllunio nodwedd ychwanegol i adael i chi <a href="{ $url }" { $attrs }>ateb yn ddienw i anfonwyr</a>.
@@ -553,6 +556,7 @@ vpn-promo-cta = Cael { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } gan { $linked_origin }.
+forwarded-email-header-cc-notice = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
