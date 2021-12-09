@@ -188,8 +188,11 @@ premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-html = Com o { -brand-name-firefox-relay-premium } você tem acesso a endereços de redirecionamento personalizados ilimitados, que encaminham apenas os emails que você quer para seu endereço de email real. <b>Por tempo limitado, você pode mudar para o Relay Premium por apenas { $monthly_price } por mês.</b>
+premium-promo-hero-cta = Mude agora para a versão premium
 premium-promo-availability-warning = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e Estados Unidos.
 premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Com o { -brand-name-firefox-relay-premium } você tem acesso ao mesmo gerenciamento e proteção de caixa de entrada do { -brand-name-relay }, mas com endereços de redirecionamento de email ilimitados e seu próprio domínio personalizado, facilitando ainda mais o controle de seus emails.
+premium-promo-perks-cta-label = Mude agora para a versão premium
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionamento de email ilimitados
 premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
