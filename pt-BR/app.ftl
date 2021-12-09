@@ -195,6 +195,7 @@ premium-promo-perks-lead = Com o { -brand-name-firefox-relay-premium } você tem
 premium-promo-perks-cta-label = Mude agora para a versão premium
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionamento de email ilimitados
+premium-promo-perks-perk-unlimited-body = Chega de limite de endereços de redirecionamento. Com o { -brand-name-relay-premium }, você pode criar quantos endereços precisar para ajudar a proteger sua caixa de entrada de spam e rastreadores. Você pode até responder aos emails sem expor seu endereço real.
 premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
 premium-promo-perks-perk-custom-domain-body = Com um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar. Precisa de um para reservas em restaurantes? Use algo como comida@meudominio.mozmail.com — Nem precisa criar o endereço antes.
 premium-promo-perks-perk-dashboard-headline = Controle seus endereços de redirecionamento no painel
@@ -203,6 +204,7 @@ premium-promo-use-cases-headline = Use endereços de redirecionamento de email d
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body = Tentando conseguir descontos, mas sem receber spam? Agrupe rodas as suas contas de “compras” em endereços de redirecionamento personalizados exclusivos, como “ofertas@meudominio.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Redes sociais
+premium-promo-use-cases-social-networks-body = Quer proteger melhor sua identidade online ao usar uma rede social? Use um endereço de redirecionamento do { -brand-name-relay } diferente para acessar cada uma delas e ajudar a proteger seu email verdadeiro de ser exposto a esses sites.
 premium-promo-use-cases-gaming-heading = Jogos
 premium-promo-use-cases-gaming-body = Preocupado que outros jogadores ou intimidadores descubram quem você é por meio do seu nome no jogo e endereço de email? Use um endereço de redirecionamento como “jogos@meudominio.mozmail.com” para colocar mais uma camada de proteção entre sua identidade e os jogos que você joga online.
 premium-promo-pricing-free-price = Seu plano gratuito atual
@@ -276,6 +278,7 @@ faq-question-availability-answer = O { -brand-name-relay } gratuito está dispon
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
+faq-question-4-answer-v4 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que recebem cópia. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
     Se você tentar, nada acontece. Estamos planejando um recurso adicional para permitir que você <a href="{ $url }" { $attrs }> responda anonimamente a remetentes</a>.
