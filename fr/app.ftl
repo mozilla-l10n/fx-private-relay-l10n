@@ -457,7 +457,7 @@ onboarding-premium-headline = Bienvenue sur { -brand-name-firefox } { -brand-nam
 onboarding-premium-subheadline-html = Vous pouvez désormais <strong>contrôler</strong> ce qui arrive dans votre boîte de réception, un e-mail à la fois.
 onboarding-premium-feature-intro = Avec { -brand-name-firefox } { -brand-name-relay-premium }, vous pouvez :
 onboarding-premium-control-title = Contrôler les e-mails que vous recevez
-onboarding-premium-control-description = Partager un nombre illimité d’alias de messagerie qui transfèrent les e-mails que vous souhaitez réellement vers votre boîte de réception.
+onboarding-premium-control-description = Partagez un nombre illimité d’alias de messagerie qui transfèrent les e-mails que vous souhaitez réellement vers votre boîte de réception.
 onboarding-premium-domain-title = Utiliser un domaine personnalisé pour partager des alias
 onboarding-premium-domain-description = Avec un domaine personnalisé, vous pouvez différencier votre alias « newsletter » de votre alias « shopping ».
 onboarding-premium-reply-title = Répondre aux e-mails sans révéler votre véritable adresse
@@ -467,7 +467,7 @@ onboarding-premium-reply-description = Besoin de répondre aux e-mails envoyés 
 
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contrôler ce qui arrive dans votre boîte de réception, un e-mail à la fois.
-multi-part-onboarding-premium-welcome-title = Contrôler les e-mails que vous recevez :
+multi-part-onboarding-premium-welcome-title = Contrôlez les e-mails que vous recevez :
 multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour partager des alias
 multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
