@@ -184,6 +184,28 @@ landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 
 ## Premium promo page
 
+premium-promo-hero-headline = Gwnewch diogelu eich bwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael arallenwau e-bost cyfaddas diderfyn sy'n anfon dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i Relay Premium am ddim ond { $monthly_price } y mis.</b>
+premium-promo-hero-cta = Uwchraddiwch nawr
+premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
+premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag arallenwau e-bost diderfyn a'ch parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
+premium-promo-perks-cta-label = Uwchraddiwch nawr
+premium-promo-perks-cta-tooltip = Uwchraddiwch i { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Crëwch arallenwau e-bost diderfyn
+premium-promo-perks-perk-unlimited-body = Dim rhagor o gyfyngiad pump arallenws: gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i diogelu eich blwch drebyn e-bost rhag sbamwyr a thracwyr ar-lein. Gallwch hyd yn oed ateb e-byst heb ddatgelu eich cyfeiriad go iawn.
+premium-promo-perks-perk-custom-domain-headline = Dewiswch eich parth cyfaddas eich hun
+premium-promo-perks-perk-custom-domain-body = Gyda pharth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does rhaid creu'r arallenw ymlaen llaw.
+premium-promo-perks-perk-dashboard-headline = Rheolwch eich arallenwau o'r bwrdd gwaith
+premium-promo-perks-perk-dashboard-body = Rheolwch eich holl arallenwau yn y bwrdd gwaith hawdd ei ddefnyddio: os gwelwch fod un yn derbyn negeseuon diofyn, gallwch rwystro'r negeseuon hynny rhag cyrraedd eich blwch derbyn.
+premium-promo-use-cases-headline = Defnyddiwch arallenwau e-bost { -brand-name-relay } yn unrhyw le
+premium-promo-use-cases-shopping-heading = Siopa
+premium-promo-use-cases-shopping-body = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
+premium-promo-use-cases-social-networks-body = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn agored i'r gwefannau hynny.
+premium-promo-use-cases-gaming-heading = Gemau
 
 ## Settings page
 
