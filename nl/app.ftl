@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox-browser
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -181,6 +183,14 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Veelgestelde vragen over { -brand-name-firefox-relay }
 landing-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-cta = Nu upgraden
+premium-promo-availability-warning = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zwitserland, het VK en de VS.
+premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-premium }?
+premium-promo-perks-cta-label = Nu upgraden
+premium-promo-perks-cta-tooltip = Upgraden naar { -brand-name-firefox-relay-premium }
+
 ## Settings page
 
 settings-headline = { -brand-name-relay }-instellingen
@@ -230,26 +240,9 @@ faq-question-missing-emails-answer-b-html = Als u een { -brand-name-relay-premiu
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Als u met een van deze problemen worstelt, <a href="{ $url }" { $attrs }>bezoek onze ondersteuningswebsite</a>.
 faq-question-use-cases-question = Wanneer moet ik { -brand-name-relay }-aliassen gebruiken?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = U kunt { -brand-name-relay }-aliassen gebruiken op de meeste plaatsen waar u uw normale e-mailadres zou gebruiken. We raden u aan deze te gebruiken wanneer u zich aanmeldt voor marketing-/informatieve e-mailberichten waarbij u zou willen bepalen of u in de toekomst e-mailberichten ontvangt. We raden het gebruik van aliassen af wanneer u uw identiteit moet verifiëren of voor zeer belangrijke e-mailberichten. U wilt bijvoorbeeld uw echte e-mailadres delen met uw bank, uw arts, uw advocaat, enz.
 faq-question-use-cases-answer-part1 = U kunt { -brand-name-relay }-aliassen gebruiken op de meeste plaatsen waar u uw normale e-mailadres zou gebruiken. We raden u aan ze te gebruiken wanneer u zich aanmeldt voor marketing-/informatieve e-mailberichten, waarbij u misschien wilt bepalen of u in de toekomst e-mailberichten wilt blijven ontvangen.
 faq-question-use-cases-answer-part2 = We raden het gebruik van aliassen af wanneer u uw identiteit moet verifiëren of voor zeer belangrijke e-mailberichten of berichten waarbij u bijlagen moet ontvangen. U wilt bijvoorbeeld uw echte e-mailadres delen met uw bank, uw arts en uw advocaat, evenals bij het ontvangen van concerttickets of instapkaarten voor vluchten.
 faq-question-2-question = Waarom accepteert een website mijn alias van { -brand-name-relay } niet?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Sommige websites accepteren mogelijk geen e-mailadres dat een subdomein bevat (d.w.z. het “relay”-gedeelte van @relay.firefox.com) en andere accepteren geen enkel adres meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
-    Terwijl { -brand-name-firefox-relay } in populariteit groeit en meer aliassen uitgeeft, kan onze service op een blokkeerlijst worden geplaatst.
-    Als u geen { -brand-name-relay }-alias kunt gebruiken, <a href="{ $url }" { $attrs }>laat het ons dan weten</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Sommige websites accepteren mogelijk geen e-mailadres dat een subdomein bevat (d.w.z. het “relay”-gedeelte van @relay.firefox.com) en andere accepteren geen enkel adres meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
-    Als u geen { -brand-name-relay }-alias kunt gebruiken, <a href="{ $url }" { $attrs }>laat het ons dan weten</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -265,16 +258,12 @@ faq-question-1-answer-b-html = Als u een breder probleem ziet van ongewenste e-m
 faq-question-availability-question = Waar is { -brand-name-relay } beschikbaar?
 faq-question-availability-answer = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in de Verenigde Staten, Duitsland, het Verenigd Koninkrijk, Canada, Singapore, Maleisië, Nieuw-Zeeland, Frankrijk, België, Oostenrijk, Spanje, Italië, Zwitserland, Nederland en Ierland.
 faq-question-4-question = Kan ik berichten beantwoorden met mijn { -brand-name-relay }-alias?
-faq-question-4-answer = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Adressen in de velden Cc of Bcc worden niet opgenomen in uw antwoorden.
 # Deprecated
-faq-question-4-answer-v2 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor de ontvangers en de personen in het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor de ontvanger en de personen in het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt nog niet de mogelijkheid om te antwoorden met een alias.
     Als u dit probeert, gebeurt er niets. We hebben plannen voor een extra functie waarmee u <a href="{ $url }" { $attrs }>anoniem kunt reageren op afzenders</a>.
 faq-question-subdomain-characters-question = Welke tekens kan ik gebruiken om een subdomein aan te maken?
-# Deprecated
-faq-question-subdomain-characters-answer = Alleen kleine letters van het Engelse alfabet, cijfers en streepjes (-).
 faq-question-subdomain-characters-answer-v2 = U kunt alleen kleine Nederlandse letters, cijfers en koppeltekens gebruiken om een subdomein te maken.
 faq-question-browser-support-question = Kan ik { -brand-name-relay } gebruiken in andere browsers of mijn mobiele apparaat?
 faq-question-browser-support-answer = Ja, u kunt { -brand-name-relay }-aliassen genereren in andere browsers of mobiele apparaten door u simpelweg aan te melden op uw { -brand-name-relay }-dashboard.
@@ -283,8 +272,6 @@ faq-question-longevity-answer = We laten u van tevoren weten dat u het e-mailadr
 faq-question-mozmail-question = Waarom zijn mijn aliassen begonnen het domein ‘mozmail.com’ te gebruiken?
 faq-question-mozmail-answer = We zijn overgestapt van ‘relay.firefox.com’ naar ‘mozmail.com’ om het mogelijk te maken een aangepast e-maildomein te krijgen, zoals alias@uwdomein.mozmail.com. Aangepaste e-maildomeinen, beschikbaar voor { -brand-name-relay-premium }-abonnees, maken uw e-mailaliassen ook veel gemakkelijker te onthouden dan willekeurige aliassen.
 faq-question-attachments-question = Stuurt { -brand-name-firefox-relay } e-mailberichten met bijlagen door?
-# Deprecated
-faq-question-attachments-answer = Ja, { -brand-name-firefox-relay } ondersteunt doorgestuurde e-mailberichten met bijlagen tot een grootte van { email-size-limit }. Als een e-mailbericht een bijlage heeft die groter is dan { email-size-limit }, dan wordt dit niet doorgestuurd.
 faq-question-attachments-answer-v2 = We ondersteunen nu het doorsturen van bijlagen. Er is echter een limiet van { email-size-limit } voor het doorsturen van e-mailberichten met { -brand-name-relay }. E-mailberichten die groter zijn dan { email-size-limit } worden niet doorgestuurd.
 faq-question-unsubscribe-domain-question = Wat gebeurt er met mijn aangepaste domein als ik mijn abonnement bij { -brand-name-relay-premium } opzeg?
 faq-question-unsubscribe-domain-answer = Als u downgradet van { -brand-name-relay-premium }, ontvangt u nog steeds e-mailberichten die worden doorgestuurd via uw aangepaste domein, maar kunt u geen nieuwe aliassen meer maken met dat domein. Als u in totaal meer dan vijf aliassen heeft, kunt u er geen meer maken. U verliest ook de mogelijkheid om doorgestuurde berichten te beantwoorden. U kunt zich opnieuw abonneren op { -brand-name-relay-premium } en weer toegang krijgen tot deze functies.
@@ -295,22 +282,6 @@ faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }
 faq-question-8-answer-html = U vindt meer info over de gegevens die { -brand-name-firefox-relay } verzamelt in onze <a href="{ $url }" { $attrs }>Privacyverklaring</a>. U kunt optioneel ook gegevens delen over de labels en website die u gebruikt voor uw e-mailaliassen, zodat we u die service kunnen bieden en deze voor u kunnen verbeteren.
 faq-question-email-storage-question = Slaat { -brand-name-relay } mijn e-mailberichten op?
 faq-question-email-storage-answer = In het zeldzame geval dat de service niet beschikbaar is, kunnen we uw e-mailberichten tijdelijk opslaan totdat we ze kunnen verzenden. We zullen uw e-mailberichten nooit langer dan drie dagen bewaren.
-# Deprecated
-faq-question-3-question = Is { -brand-name-relay } alleen beschikbaar in de VS?
-# Deprecated
-faq-question-3-answer = De website is momenteel alleen in het Engels beschikbaar, maar u kunt de dienst overal gebruiken.
-# Deprecated
-faq-question-5-question = Kan ik mijn eigen { -brand-name-relay }-alias maken met het domein @relay.firefox.com?
-# Deprecated
-faq-question-5-answer = Momenteel niet, maar we overwegen nieuwe functies, waaronder de mogelijkheid om uw eigen alias te maken met een aangewezen domein.
-# Deprecated
-faq-question-6-question = Wat gebeurt er als { -brand-name-mozilla } de { -brand-name-firefox-relay }-service beëindigt?
-# Deprecated
-faq-question-6-answer = We laten u van tevoren weten dat u het e-mailadres van accounts die gebruikmaken van { -brand-name-relay }-aliassen moet wijzigen.
-# Deprecated
-faq-question-7-question = Wat moet ik doen als een e-mailbericht dat naar mijn alias is verzonden een bijlage bevat?
-# Deprecated
-faq-question-7-answer = We ondersteunen nu het doorsturen van bijlagen. Er is echter een limiet van { email-size-limit } voor het doorsturen van e-mailberichten met { -brand-name-relay }. E-mailberichten die groter zijn dan { email-size-limit } worden niet doorgestuurd.
 
 ## Profile Page (Logged In)
 
