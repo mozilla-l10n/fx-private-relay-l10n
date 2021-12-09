@@ -166,6 +166,8 @@ premium-promo-availability-warning = 当前已在奥地利、比利时、加拿�
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
+premium-promo-use-cases-shopping-heading = 网购
+premium-promo-use-cases-social-networks-heading = 社交网络
 premium-promo-use-cases-gaming-heading = 游戏
 
 ## Settings page
