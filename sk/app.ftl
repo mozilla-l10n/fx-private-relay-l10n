@@ -21,6 +21,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $capitalization ->
         [lowercase] prehliadač Firefox
@@ -219,6 +221,10 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Najčastejšie otázky o službe { -brand-name-firefox-relay }
 landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { -brand-name-firefox-relay-premium }
+
 ## Settings page
 
 settings-headline = Nastavenia služby { -brand-name-relay }
@@ -268,26 +274,9 @@ faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -br
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Ak ste narazili na ktorýkoľvek z týchto problémov, <a href="{ $url }" { $attrs }>navštívte našu stránku podpory</a>.
 faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
-# Deprecated (replaced by -part1 and -part2): faq-question-use-cases-answer 
-faq-question-use-cases-answer = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť určovať, či budete v budúcnosti dostávať e-maily alebo nie. Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily. Svoju skutočnú e-mailovú adresu by ste napríklad chceli zdieľať so svojou bankou, lekárom, právnikom, atď.
 faq-question-use-cases-answer-part1 = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
 faq-question-use-cases-answer-part2 = Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-html =
-    Niektoré weby nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (ako napríklad “relay” na adrese @relay.firefox.com), iné stránky zas prestali prijímať iné adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
-    Keďže { -brand-name-firefox-relay } získava na popularite a vydáva viac aliasov, môže byť naša služba zaradená do zoznamu blokovaných.
-    Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám prosím vedieť</a>.
-# Deprecated
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-2-answer-v2-html =
-    Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (t. j. časť “relay” v adrese @relay.firefox.com) a iné prestali prijímať všetky adresy okrem tých z účtov Gmail, Hotmail alebo Yahoo.
-    Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám vedieť</a>.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -303,16 +292,12 @@ faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poš
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
 faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Spojenom kráľovstve, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
-faq-question-4-answer = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od jeho prijatia. Akékoľvek adresy uvedené v poliach Kópia alebo Skrytá kópia nebudú zahrnuté do vašich odpovedí.
 # Deprecated
-faq-question-4-answer-v2 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-4-answer-v3 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-4-answer-html =
     { -brand-name-relay } zatiaľ neponúka možnosť odpovedať pomocou aliasu.
     Ak to skúsite, nič sa nestane. Plánujeme ďalšiu funkciu, ktorá vám umožní <a href="{ $url }" { $attrs }>anonymne odpovedať odosielateľom</a>.
 faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
-# Deprecated
-faq-question-subdomain-characters-answer = Len malé znaky anglickej abecedy, čísla a pomlčky (-).
 faq-question-subdomain-characters-answer-v2 = Na vytvorenie subdomény môžete použiť iba malé anglické písmená, čísla a pomlčky.
 faq-question-browser-support-question = Môžem použiť { -brand-name-relay } v iných prehliadačoch alebo na svojom mobilnom zariadení?
 faq-question-browser-support-answer = Áno, aliasy služby { -brand-name-relay } môžete vygenerovať v iných prehliadačoch alebo mobilných zariadeniach jednoduchým prihlásením sa do hlavného panela služby { -brand-name-relay }.
@@ -321,8 +306,6 @@ faq-question-longevity-answer = Vopred vás upozorníme, že musíte zmeniť e-m
 faq-question-mozmail-question = Prečo moje aliasy začali používať doménu “mozmail.com?”
 faq-question-mozmail-answer = Prešli sme z “relay.firefox.com” na “mozmail.com”, aby bolo možné získať vlastnú e-mailovú doménu, napríklad alias@vašadoména.mozmail.com. Vlastné e-mailové domény dostupné pre službu { -brand-name-relay-premium } tiež uľahčujú zapamätanie si vašich e-mailových aliasov.
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e-maily s prílohami?
-# Deprecated
-faq-question-attachments-answer = Áno, služba { -brand-name-firefox-relay } podporuje preposielanie e-mailov s prílohami do veľkosti { email-size-limit }. Ak má e-mail prílohu väčšiu ako { email-size-limit }, nebude preposlaný.
 faq-question-attachments-answer-v2 = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
 faq-question-unsubscribe-domain-question = Čo sa stane s mojou vlastnou doménou, ak zruším službu { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Ak prejdete na nižšiu verziu z { -brand-name-relay-premium }, budete stále dostávať e-maily preposielané cez vašu vlastnú doménu, ale už nebudete môcť vytvárať nové aliasy pomocou tejto domény. Ak máte celkovo viac ako päť aliasov, nebudete môcť vytvoriť ďalšie. Stratíte tiež možnosť odpovedať na preposlané správy. Ak znova prejdete na { -brand-name-relay-premium }, opätovne získate prístup k týmto funkciám.
@@ -333,22 +316,6 @@ faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhro
 faq-question-8-answer-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>oznámenie o ochrane súkromia</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové aliasy, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
 faq-question-email-storage-question = Ukladá { -brand-name-relay } moje e-maily?
 faq-question-email-storage-answer = Vo výnimočných prípadoch, keď je služba mimo prevádzky, môžeme dočasne uchovávať vaše e-maily, kým ich nebudeme môcť odoslať. Vaše e-maily nikdy nebudeme uchovávať dlhšie ako tri dni.
-# Deprecated
-faq-question-3-question = Je { -brand-name-relay } k dispozícii iba v USA?
-# Deprecated
-faq-question-3-answer = Stránka je v súčasnosti k dispozícii iba v angličtine, ale službu môžete použiť kdekoľvek.
-# Deprecated
-faq-question-5-question = Môžem si vytvoriť svoj vlastný { -brand-name-relay } alias na doméne @relay.firefox.com?
-# Deprecated
-faq-question-5-answer = Momentálne nie, ale zvažujeme nové funkcie vrátane možnosti nechať si vytvoriť vlastný alias s označenou doménou.
-# Deprecated
-faq-question-6-question = Čo sa stane, ak { -brand-name-mozilla } vypne službu { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-6-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
-# Deprecated
-faq-question-7-question = Čo keď e-mail odoslaný na môj alias obsahuje prílohu?
-# Deprecated
-faq-question-7-answer = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
 
 ## Profile Page (Logged In)
 
