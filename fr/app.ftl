@@ -276,6 +276,7 @@ faq-question-availability-answer = { -brand-name-relay } gratuit est disponible 
 faq-question-4-question = Puis-je répondre aux messages en utilisant mon alias { -brand-name-relay } ?
 # Deprecated
 faq-question-4-answer-v3 = Les utilisateurs et utilisatrices de { -brand-name-relay-premium } peuvent répondre à un e-mail transféré dans les 3 mois suivant sa réception. Si vous ajoutez une adresse en Copie ou Copie cachée lorsque vous répondez à un e-mail, votre adresse e-mail d’origine sera visible par les destinataires. Si vous ne souhaitez pas que votre adresse e-mail d’origine soit visible, n’ajoutez pas d’adresse en Copie ou Copie cachée en répondant.
+faq-question-4-answer-v4 = Les utilisateurs et utilisatrices de { -brand-name-relay-premium } peuvent répondre à un e-mail transféré dans les trois mois suivant sa réception. Si vous ajoutez des destinataires en copie ou en copie cachée lorsque vous répondez à un message, votre adresse électronique originale sera exposée au destinataire principal et à toutes les personnes mises en copie. Si vous ne le souhaitez pas, n’ajoutez personne en copie ou en copie cachée en répondant.
 faq-question-4-answer-html =
     { -brand-name-relay } ne propose pas encore la possibilité de répondre en utilisant un alias.
     Si vous essayez, rien ne se produira. Nous prévoyons d’ajouter une fonctionnalité vous permettant de <a href="{ $url }" { $attrs }>répondre anonymement</a>.
