@@ -101,7 +101,7 @@ nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization:
 ## Footer
 
 nav-footer-privacy = Súkromie
-nav-footer-relay-terms = Podmienky služby { -brand-name-relay }
+nav-footer-relay-terms = Podmienky používania služby { -brand-name-relay }
 nav-footer-legal = Právne informácie
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
@@ -593,6 +593,7 @@ vpn-promo-cta = Získajte { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Táto správa bola preposlaná z adresy { $display_email } službou { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } odstraňuje polia Kópia a Skrytá kópia z vašich odpovedí. Ak ich znova pridáte, váš skutočný e-mail bude odhalený.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
