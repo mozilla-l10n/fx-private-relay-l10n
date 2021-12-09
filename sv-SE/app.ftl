@@ -191,9 +191,23 @@ premium-promo-hero-body-html = Med { -brand-name-firefox-relay-premium } får du
 premium-promo-hero-cta = Uppgradera nu
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade domän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
 premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Skapa ett obegränsat antal e-postalias
+premium-promo-perks-perk-unlimited-body = Ingen gräns med fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
+premium-promo-perks-perk-custom-domain-headline = Välj din egen anpassade domän
+premium-promo-perks-perk-custom-domain-body = Med en anpassad domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
+premium-promo-perks-perk-dashboard-headline = Styr dina alias från översikten
+premium-promo-perks-perk-dashboard-body = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
+premium-promo-use-cases-headline = Använd { -brand-name-relay } e-postalias var som helst
+premium-promo-use-cases-shopping-heading = Shopping
+premium-promo-use-cases-shopping-body = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under unika anpassade alias, som "mydeals@mydomain.mozmail.com."
+premium-promo-use-cases-social-networks-heading = Sociala nätverk
+premium-promo-use-cases-social-networks-body = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett annat { -brand-name-relay }-alias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
+premium-promo-use-cases-gaming-heading = Spel
+premium-promo-use-cases-gaming-body = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
+premium-promo-pricing-free-price = Din nuvarande gratisplan
 
 ## Settings page
 
@@ -264,6 +278,7 @@ faq-question-availability-answer = Gratis { -brand-name-relay } är tillgänglig
 faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
 # Deprecated
 faq-question-4-answer-v3 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagarna och i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
+faq-question-4-answer-v4 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagaren och de som kopieras i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-4-answer-html =
     { -brand-name-relay } har ännu inte möjlighet att svara med ett alias.
     Om du försöker kommer ingenting att hända. Vi planerar en ytterligare funktion för att låta dig <a href="{ $url }" { $attrs }>svara anonymt till avsändaren</a>.
@@ -541,6 +556,7 @@ vpn-promo-cta = Hämta { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Det här meddelandet vidarebefordrades från { $display_email } av { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek. Mer information finns i vår { $faq_link }.
