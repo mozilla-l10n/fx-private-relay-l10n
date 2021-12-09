@@ -197,6 +197,7 @@ premium-promo-perks-lead = Avec { -brand-name-firefox-relay-premium }, non seule
 premium-promo-perks-cta-label = Mettre à niveau maintenant
 premium-promo-perks-cta-tooltip = Passez à { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Créer un nombre illimité d’alias
+premium-promo-perks-perk-unlimited-body = Finie la limite des cinq alias : avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour vous permettre de protéger votre boîte de réception des spammeurs et des traqueurs. Vous pouvez même répondre aux messages sans exposer votre vraie adresse e-mail.
 premium-promo-perks-perk-custom-domain-headline = Choisir son domaine personnalisé
 premium-promo-perks-perk-custom-domain-body = Avec un domaine personnalisé, vous pouvez créer autant d’alias plus faciles que jamais à retenir et partager. Vous en avez besoin d’un pour réserver une table au restaurant ? Utilisez-en un comme resto@mondomaine.mozmail.com — nul besoin de le créer avant de l’utiliser.
 premium-promo-perks-perk-dashboard-body = Gérez tous vos alias dans le tableau de bord si pratique : si vous trouvez que l’un d’eux reçoit des messages non sollicités, vous pouvez empêcher ceux-ci d’arriver dans votre boîte de réception.
