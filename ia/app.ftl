@@ -199,8 +199,12 @@ premium-promo-perks-perk-dashboard-headline = Controla tu aliases ab le pannello
 premium-promo-perks-perk-dashboard-body = Gere tote tu aliases in le pannello de controlo facile a usar: si tu trova que un recipe messages indesirate, tu pote blocar ille messages de attinger tu cassa de ingresso.
 premium-promo-use-cases-headline = Usa ubique aliases e-mail { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-shopping-body = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal aliases, como “mydeals@mydomain.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Retes social
+premium-promo-use-cases-social-networks-body = Vole tu proteger melio tu identitate online quando tu usa un rete social? Usa un differente alias de { -brand-name-relay } pro acceder a cata rete social e adjuta proteger tu ver e-mail de esser exponite a ille sitos.
 premium-promo-use-cases-gaming-heading = Jocos
+premium-promo-use-cases-gaming-body = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un alias como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
+premium-promo-pricing-free-price = Tu actual plano gratuite
 
 ## Settings page
 
