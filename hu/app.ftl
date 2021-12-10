@@ -52,15 +52,38 @@ nav-profile-help = Súgó és támogatás
 nav-profile-help-tooltip = Kérjen segítséget a { -brand-name-relay } használatához
 # This is only visible to Premium users.
 nav-profile-contact = Kapcsolat
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Lépjen kapcsolatba velünk a { -brand-name-relay-premium } ügyében
+nav-profile-image-alt = { -brand-name-firefox-account } profilkép
 
 ## Footer
 
+nav-footer-privacy = Adatvédelem
+nav-footer-relay-terms = { -brand-name-relay } feltételei
+nav-footer-legal = Jogi információk
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = GitHub logó
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } alkalmazások és szolgáltatások
+fx-makes-tech = A { -brand-name-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
+made-by-mozilla = A { -brand-name-mozilla } készítette
+fx-desktop = { -brand-name-firefox-browser } asztali számítógépre
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } mobilra
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+bento-button-close-label = Menü bezárása
 
 ## Home Page
 
+home-hero-cta = Bejelentkezés
+how-it-works-headline = Hogyan működik
+how-it-works-step-1-headline = Kiegészítő beszerzése
+how-it-works-step-1-link = Töltse le a { -brand-name-relay } kiegészítőt a { -brand-name-firefox }hoz.
+how-it-works-step-2-headline = Új álnév létrehozása
+how-it-works-step-3-headline = Saját álnevek kezelése
 
 ## Home Page Version A
 
