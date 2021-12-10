@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $case ->
        *[nominative]
@@ -184,6 +186,13 @@ landing-use-cases-gaming = Παιχνίδια
 
 landing-faq-headline = Συνήθεις ερωτήσεις για το { -brand-name-firefox-relay }
 landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσεις για το { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-perks-cta-label = Αναβάθμιση τώρα
+premium-promo-use-cases-shopping-heading = Αγορές
+premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
+premium-promo-use-cases-gaming-heading = Παιχνίδια
 
 ## Settings page
 
