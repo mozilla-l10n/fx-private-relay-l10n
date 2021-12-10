@@ -275,6 +275,7 @@ faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Le usatores de { -brand-name-relay-premium } pote responder a un email inultrate in 3 menses desde le reception. Se tu adde qualcuno in Cc o Ccn quando tu responde, tu real adresse email sera exponite al destinatario e a altere subjectos incluse in le email. Si tu non vole que tu adresse email real es monstrate, non adde destinatarios in Cc o Ccn quando tu responde.
+faq-question-4-answer-v4 = Le usatores de { -brand-name-relay-premium } pote replicar a un e-mail inultrate intra 3 menses de reciper lo. Si tu adde un CC o CCN quando tu replica retro a un e-mail, tu original adresse e-mail sera exponite al destinatario e a illes copiate super le e-mail. Si tu non vole que tu original adresse e-mail sia exponite, non adder CCs o Ccn quando responde.
 faq-question-4-answer-html =
     { -brand-name-relay } non ancora offere le capacitate de responder usante un alias. 
     Si tu lo prova, nihil evenira. Nos ha planos pro un altere functionalitate que permitte <a href="{ $url }" { $attrs }>responder anonymemente al expeditores</a>.
@@ -551,6 +552,7 @@ vpn-promo-cta = Installar { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Iste message ha essite reexpedite de { $display_email } per { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } remove CCs e Ccns de tu replicas. Si tu los re-adde, tu real e-mail sera exponite.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
