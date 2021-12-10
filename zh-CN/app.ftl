@@ -166,7 +166,7 @@ premium-promo-availability-warning = 当前已在奥地利、比利时、加拿�
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
-premium-promo-perks-perk-unlimited-headline = 创建无限数量的马甲邮箱
+premium-promo-perks-perk-unlimited-headline = 创建不限数量的马甲邮箱
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
 premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
@@ -506,6 +506,7 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
