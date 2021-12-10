@@ -161,12 +161,13 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 
 ## Premium promo page
 
+premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
 premium-promo-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
-premium-promo-perks-perk-unlimited-headline = 创建不限数量的马甲邮箱
+premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
 premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
