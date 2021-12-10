@@ -168,9 +168,11 @@ premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 创建无限数量的马甲邮箱
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
+premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-social-networks-heading = 社交网络
 premium-promo-use-cases-gaming-heading = 游戏
+premium-promo-pricing-free-price = 您当前的免费方案
 
 ## Settings page
 
@@ -239,6 +241,7 @@ faq-question-availability-answer = 绝大多数国家/地区都可使用免费�
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
+faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
 faq-question-4-answer-html = { -brand-name-relay } 暂不支持使用马甲邮箱回复邮件。若您要尝试，将会耽误您人生几分钟。不过，我们正计划推出新功能，让您可以<a href="{ $url }" { $attrs }>匿名回复邮件</a>。
 faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
 faq-question-subdomain-characters-answer-v2 = 您只能使用小写英文字母、数字、连字符（-）来创建子域名。
