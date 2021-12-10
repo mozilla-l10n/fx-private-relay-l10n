@@ -47,6 +47,11 @@ nav-profile-sign-out = Kijelentkezés
 nav-profile-sign-out-relay = Kijelentkezés a { -brand-name-relay }ből
 nav-profile-sign-out-confirm = Biztos, hogy kijelentkezik?
 nav-profile-settings = Beállítások
+nav-profile-settings-tooltip = { -brand-name-firefox-relay } beállítása
+nav-profile-help = Súgó és támogatás
+nav-profile-help-tooltip = Kérjen segítséget a { -brand-name-relay } használatához
+# This is only visible to Premium users.
+nav-profile-contact = Kapcsolat
 
 ## Footer
 
