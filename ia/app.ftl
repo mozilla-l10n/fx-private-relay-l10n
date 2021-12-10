@@ -181,10 +181,16 @@ landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 
 ## Premium promo page
 
+premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso con { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate aliases e-mail personal que inultra solo le e-mails que tu lo vole a tu real adresse e-mail. <b>Pro un tempore limitate, tu pote promover a Relay Premium pro solo { $monthly_price } un mense.</b>
 premium-promo-hero-cta = Promover ora
+premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
 premium-promo-perks-cta-label = Promover ora
 premium-promo-perks-cta-tooltip = Promover a { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-custom-domain-headline = Elige tu proprie dominio personal
+premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-social-networks-heading = Retes social
 premium-promo-use-cases-gaming-heading = Jocos
 
