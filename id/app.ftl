@@ -370,6 +370,14 @@ profile-filter-category-option-critical-only-aliases = Alias surel-penting-saja
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } tidak dapat mengirimkan surel Anda.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Saat ini kami tidak dapat mengirim surel ke { $username }. 
+    Kami menerima "pantulan" <em>{ $bounce_type }</em> dari penyedia surel Anda saat mencoba meneruskan surel kepada Anda. 
+    Ini dapat terjadi jika { -brand-name-relay } tidak dapat tersambung ke penyedia layanan surel Anda, atau jika kotak surat Anda penuh. Kami akan mencoba lagi pada { $date }.
 banner-download-firefox-headline = { -brand-name-relay } bahkan lebih baik di { -brand-name-firefox }
 banner-download-firefox-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } membantu pembuatan alias menjadi lebih mudah.
 banner-download-firefox-cta = Unduh { -brand-name-firefox }
@@ -386,17 +394,32 @@ banner-register-subdomain-headline-aliases = Miliki domain khusus untuk alias An
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = domainanda
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Dengan domain kustom, Anda dapat berbagi alias yang tidak perlu dibuat
+    sebelum Anda menggunakannya. Butuh satu untuk reservasi? Berikan
+    "restaurant@yourdomain.{ $mozmail }" ke restoran. Alias apa saja yang menggunakan
+    domain kustom akan diteruskan kepada anda.
 banner-choose-subdomain-input-placeholder = Cari domain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cari
 banner-pack-upgrade-headline-html = Beralih ke <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> untuk memiliki lebih banyak alias
 banner-pack-upgrade-copy = Dengan alias surel tak terhingga dan domain surel Anda sendiri, { -brand-name-firefox } { -brand-name-relay-premium } membantu Anda tetap terlindungi saat daring.
 banner-pack-upgrade-cta = Beralih sekarang
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Pembaruan Perberitahuan Privasi
+banner-label-privacy-notice-update-body = Untuk meningkatkan keandalan { -brand-name-firefox-relay } pada saat surel tidak dapat dikirim, kami akan menjaga surel pada peladen kami sementara hingga dikirimkan. Kami tidak akan pernah menahannya selama lebih dari tiga hari.
+banner-label-privacy-notice-update-cta = Lihat Pemberitahuan Privasi
 # Data Notification Banner:
 banner-label-data-notification-header = Segera hadir di { -brand-name-relay }
 banner-label-data-notification-body = Anda dapat mengizinkan{ -brand-name-relay } untuk mengumpulkan data opsional di situs web tempat alias Anda digunakan untuk mendukung fitur di masa mendatang. Mengizinkan pengumpulan data ini dari halaman “Pengaturan” akan membuat pengelolaan kotak masuk Anda menjadi lebih mudah.
 banner-label-data-notification-cta = Buka Pengaturan
 banner-label-data-notification-header-v2 = Aktifkan fitur baru
+banner-label-data-notification-body-v2 = Anda dapat mengizinkan { -brand-name-relay } untuk mengumpulkan data opsional yang memungkinkan kami untuk menyinkronkan label alias Anda di seluruh perangkat Anda dengan situs web tempat mereka dibuat dan digunakan.
 banner-label-data-notification-body-cta = Pelajari lebih lanjut
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Domain Anda adalah:
@@ -429,6 +452,9 @@ error-subdomain-not-available = Domain @{ $unavailable_subdomain } tidak tersedi
 ## Onboarding 
 
 onboarding-headline = Buat alias pertama Anda, Anda memiliki tiga cara ...
+onboarding-alias-tip-1 = Pilih "Buat Alias Baru" untuk membuat alias pertama Anda.
+onboarding-alias-tip-2 = Dengan menggunakan ekstensi { -brand-name-relay }, pilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel.
+onboarding-alias-tip-3 = Menggunakan ekstensi { -brand-name-relay }, klik kanan pada bidang formulir dan pilih "Buat Alias Baru."
 
 ## Premium Onboarding
 
@@ -446,20 +472,59 @@ onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alia
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol apa yang masuk ke kotak masuk, satu surel sekaligus.
+multi-part-onboarding-premium-welcome-title = Kendalikan surel apa yang Anda dapatkan:
+multi-part-onboarding-premium-welcome-button-start = Memulai
+multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alias
+multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Menggunakan domain kustom, Anda dapat membuat alias yang lebih mudah diingat dan dibagikan. 
+    Butuh nama samaran untuk pemesanan restoran? Katakan food@yourdomain{ $mozmail } — Tidak perlu membuat alias sebelumnya.
+multi-part-onboarding-premium-domain-cta = Daftarkan domain kustom Anda sekarang:
+multi-part-onboarding-premium-domain-button-skip = Lanjutkan, saya akan mendaftarkan domain kustom saya nanti
+multi-part-onboarding-premium-extension-headline = Blokir, teruskan, dan balas
+multi-part-onboarding-premium-extension-reply-title = Balas surel tanpa memberikan alamat asli Anda:
+multi-part-onboarding-premium-extension-get-title = Dapatkan ekstensi { -brand-name-relay } untuk { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox } semakin mempermudah penggunaan surel alias.
+multi-part-onboarding-premium-extension-button-download = Dapatkan Ekstensi { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Lanjutkan, saya akan mengunduh ekstensi nanti
+multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
+multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
 
 ## Modals
 
 modal-rename-alias-saved = Label disimpan!
 modal-delete-headline = Hapus alias ini secara permanen?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Setelah Anda menghapusnya, alias ini tidak dapat dipulihkan. 
+    { -brand-name-firefox-relay } tidak akan lagi meneruskan pesan yang dikirim ke <strong>{ $email }</strong>, termasuk pesan yang memungkinkan anda untuk mengatur ulang sandi yang hilang.
 modal-delete-warning-upgrade =
     Jika Anda menggunakan alias ini untuk masuk ke situs yang Anda minati,
     Anda harus memperbarui log masuk Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
+modal-delete-domain-address-warning-upgrade =
+    Jika Anda menggunakan alias ini untuk masuk ke situs yang Anda minati,
+    Anda harus memperbarui login Anda dengan alamat surel yang berbeda sebelum Anda menghapus yang ini.
+    Jika Anda membuat ulang alias yang dihapus, surel yang dikirim ke alias asli akan terus diteruskan.
 modal-delete-confirmation = Ya, saya ingin menghapus alias ini.
 modal-domain-register-good-news = Kabar Baik!
+modal-domain-register-warning-reminder = Ingat, Anda hanya dapat mendaftarkan satu domain. Anda tidak akan dapat mengubahnya nanti.
 modal-domain-register-button = Daftarkan Domain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } tersedia!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ya, saya ingin mendaftarkan @{ $subdomain }
+modal-domain-register-success-title = Sukses!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = Kini { $subdomain } adalah domain surel Anda!
+modal-domain-register-success-copy = Kini Anda dapat membuat alias surel tak terbatas menggunakan domain baru! Apa lagi yang ditunggu?
 
 ## Evergreen Survey (displayed on the profile page)
 
