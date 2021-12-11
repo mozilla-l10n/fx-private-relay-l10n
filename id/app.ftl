@@ -195,6 +195,15 @@ premium-promo-perks-lead = Dengan { -brand-name-firefox-relay-premium }, Anda me
 premium-promo-perks-cta-label = Tingkatkan sekarang
 premium-promo-perks-cta-tooltip = Tingkatkan ke { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Buat alias surel tanpa batas
+premium-promo-perks-perk-unlimited-body = Tidak ada batas lima alias lagi: dengan { -brand-name-relay-premium }, Anda bisa membuat alias sebanyak yang Anda perlukan untuk melindungi kotak surat surel Anda dengan spammer dan pelacak daring. Anda bahkan dapat membalas surel tanpa memperlihatkan alamat asli surel Anda.
+premium-promo-perks-perk-custom-domain-headline = Pilih domain kustom Anda sendiri
+premium-promo-perks-perk-custom-domain-body = Dengan domain kustom, Anda dapat membuat alias yang mudah diingat dan dibagikan. Perlu untuk reservasi restoran? Gunakan alias seperti food@mydomain.mozmail.com — Tak perlu membuat alias sebelumnya.
+premium-promo-perks-perk-dashboard-headline = Kendalikan alias Anda dari dasbor
+premium-promo-perks-perk-dashboard-body = Kelola seluruh alias Anda dengan dasbor yang mudah digunakan: jika Anda menemukan satu alias menerima pesan yang tidak diinginkan, Anda dapat memblokir pesan tersebut masuk ke dalam kotak surat.
+premium-promo-use-cases-headline = Gunakan alias surel { -brand-name-relay } di mana saja
+premium-promo-use-cases-shopping-heading = Belanja
+premium-promo-use-cases-shopping-body = Coba daftar diskon tanpa kena spam? Gabungkan semua akun "belanja" Anda di bawah alias kustom unik, seperti “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Jejaring Sosial
 
 ## Settings page
 
