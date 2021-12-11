@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Peramban Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
@@ -179,6 +181,19 @@ landing-use-cases-gaming-body =
 
 landing-faq-headline = Pertanyaan teratas seputar { -brand-name-firefox-relay }
 landing-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Lindungi kotak masuk Anda lebih mudah dengan { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan alias surel kustom tanpa batas yang meneruskan surel yang diinginkan ke alamat surel Anda yang sebenarnya. <b>Dalam waktu terbatas, Anda dapat meningkatkan ke Relay Premium dengan hanya { $monthly_price } per bulan.</b>
+premium-promo-hero-cta = Tingkatkan sekarang
+premium-promo-availability-warning = Saat ini, { -brand-name-relay-premium } baru tersedia di Amerika Serikat, Austria, Belanda, Belgia, Britania Raya, Irlandia, Italia, Jerman, Malaysia, Kanada, Perancis, Selandia Baru, Singapura, dan Spanyol.
+premium-promo-perks-headline = Mengapa beralih ke { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan semua fitur pengelolaan dan perlindungan kotak masuk dari { -brand-name-relay }, namun dilengkapi dengan alias surel tanpa batas dan domain kustom Anda sendiri untuk memudahkan pengelolaan kotak masuk Anda.
+premium-promo-perks-cta-label = Tingkatkan sekarang
+premium-promo-perks-cta-tooltip = Tingkatkan ke { -brand-name-firefox-relay-premium }
 
 ## Settings page
 
