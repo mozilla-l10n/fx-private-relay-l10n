@@ -189,7 +189,9 @@ landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσ�
 
 ## Premium promo page
 
+premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-perks-cta-label = Αναβάθμιση τώρα
+premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
 premium-promo-use-cases-shopping-heading = Αγορές
 premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
 premium-promo-use-cases-gaming-heading = Παιχνίδια
