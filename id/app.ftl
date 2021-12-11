@@ -194,6 +194,7 @@ premium-promo-perks-headline = Mengapa beralih ke { -brand-name-firefox-relay-pr
 premium-promo-perks-lead = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan semua fitur pengelolaan dan perlindungan kotak masuk dari { -brand-name-relay }, namun dilengkapi dengan alias surel tanpa batas dan domain kustom Anda sendiri untuk memudahkan pengelolaan kotak masuk Anda.
 premium-promo-perks-cta-label = Tingkatkan sekarang
 premium-promo-perks-cta-tooltip = Tingkatkan ke { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Buat alias surel tanpa batas
 
 ## Settings page
 
