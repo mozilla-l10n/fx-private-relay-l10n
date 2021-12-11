@@ -242,7 +242,7 @@ faq-headline = Pertanyaan yang Sering Diajukan (FAQ)
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Apa itu alias { -brand-name-relay }?
-faq-question-what-is-answer = Alias surel adalah alamat surel bertopeng yang meneruskan pesan ke alamat surel Anda yang sebenarnya. Alias ini memungkinkan Anda untuk berbagi alamat dengan pihak ketiga yang akan menutupi alamat surel Anda yang sebenarnya dan meneruskan pesan ke sana.
+faq-question-what-is-answer = Surel alias adalah alamat surel bertopeng yang meneruskan pesan ke alamat surel Anda yang sebenarnya. Alias ini memungkinkan Anda untuk berbagi alamat dengan pihak ketiga yang akan menutupi alamat surel Anda yang sebenarnya dan meneruskan pesan ke sana.
 faq-question-missing-emails-question = Saya tidak menerima pesan dari alias saya
 faq-question-missing-emails-answer-a = Ada beberapa alasan mengapa Anda mungkin tidak menerima surel yang diteruskan melalui alias Anda. Berikut beberapa alasannya:
 faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
@@ -556,6 +556,7 @@ vpn-promo-cta = Dapatkan { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel Anda yang sebenarnya akan diketahui.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
