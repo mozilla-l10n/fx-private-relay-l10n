@@ -108,6 +108,7 @@ landing-hero-headline = 保護您實際的電子郵件地址，並且自行控�
 ## How it works section
 
 landing-how-it-works-headline = 原理是什麼
+landing-how-it-works-body = 不直接提供您實際的電子郵件地址，而是提供 { -brand-name-relay } 的郵件別名出去，以保護您的收件匣與個人身分。
 landing-how-it-works-step-1-body-cta = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 landing-how-it-works-step-1-body = 在任何一張表單填寫電子郵件地址時，自動產生別名信箱。
 # Do not change '@relay.mozmail.com'
@@ -150,7 +151,9 @@ landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 
 ## Premium promo page
 
+premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
 premium-promo-hero-cta = 立刻升級
+premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-cta-label = 立刻升級
 premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
@@ -159,6 +162,7 @@ premium-promo-perks-perk-custom-domain-headline = 使用您自訂的網域名稱
 premium-promo-perks-perk-dashboard-headline = 在儀表板管理您建立的別名
 premium-promo-use-cases-headline = 隨時隨地都能使用 { -brand-name-relay } 別名信箱
 premium-promo-use-cases-shopping-heading = 線上購物
+premium-promo-use-cases-shopping-body = 想要收到折價券，但不想要收到垃圾信嗎？在不同的購物網站都使用獨立的自訂別名，例如「mydeals@mydomain.mozmail.com」。
 premium-promo-use-cases-social-networks-heading = 社群網路
 premium-promo-use-cases-gaming-heading = 遊戲
 premium-promo-pricing-free-price = 您目前的免費方案
@@ -207,6 +211,9 @@ faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 可能�
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 使用者，遇到這些困擾，請<a href="{ $url }" { $attrs }>聯絡我們的技術支援團隊</a>。
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
 faq-question-use-cases-question = 什麼時候該用 { -brand-name-relay } 轉寄郵件？
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
 faq-question-1-question = 那垃圾信呢？
@@ -220,6 +227,7 @@ faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
+faq-question-subdomain-characters-answer-v2 = 您僅可使用小寫英文字母、數字、連字號（-）來建立子網域。
 faq-question-browser-support-question = 我可以在其他瀏覽器或行動裝置使用 { -brand-name-relay } 嗎？
 faq-question-browser-support-answer = 可以，您只要登入 { -brand-name-relay } 儀錶板，即可在其他瀏覽器或行動裝置上產生 { -brand-name-relay } 別名。
 faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
@@ -227,6 +235,7 @@ faq-question-longevity-answer = 我們會提前通知您，讓您可到使用 { 
 faq-question-mozmail-question = 為什麼我產生的別名信箱開始使用「mozmail.com」網域？
 faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 alias@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您產生的郵件別名更容易被記得。
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
+faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂網域會發生什麼事？
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
@@ -381,6 +390,7 @@ error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用�
 
 onboarding-headline = 有三種方式能建立您的第一個別名…
 onboarding-alias-tip-1 = 點擊「產生新別名」來建立您的第一組別名。
+onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
 
 ## Premium Onboarding
 
