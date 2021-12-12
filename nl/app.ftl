@@ -185,11 +185,34 @@ landing-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
 
 ## Premium promo page
 
+premium-promo-hero-headline = Maak het beschermen van uw Postvak IN gemakkelijker met { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Met { -brand-name-firefox-relay-premium } krijgt u onbeperkt aangepaste e-mailaliassen die alleen gewenste e-mailberichten doorsturen naar uw echte e-mailadres. <b>U kunt gedurende een beperkte tijd upgraden naar Relay Premium voor slechts { $monthly_price } per maand.</b>
 premium-promo-hero-cta = Nu upgraden
 premium-promo-availability-warning = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zwitserland, het VK en de VS.
 premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Met { -brand-name-firefox-relay-premium } krijgt u alle bescherming van uw Postvak IN en het beheer van { -brand-name-relay }, maar met onbeperkte e-mailaliassen en uw eigen aangepaste domein om het beheren van uw Postvak IN nog eenvoudiger te maken.
 premium-promo-perks-cta-label = Nu upgraden
 premium-promo-perks-cta-tooltip = Upgraden naar { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Maak onbeperkte e-mailaliassen aan
+premium-promo-perks-perk-unlimited-body = Geen limiet van vijf aliassen meer: met { -brand-name-relay-premium } kunt u zoveel aliassen aanmaken als u nodig hebt om uw Postvak IN te beschermen tegen spammers en online trackers. U kunt zelfs e-mailberichten beantwoorden zonder uw echte adres bekend te maken.
+premium-promo-perks-perk-custom-domain-headline = Kies uw eigen aangepaste domein
+premium-promo-perks-perk-custom-domain-body =
+    Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
+    Hebt u er een nodig voor restaurantreserveringen? Gebruik bijvoorbeeld eten@uwdomein.mozmail.com – U hoeft de alias niet vooraf te maken.
+premium-promo-perks-perk-dashboard-headline = Beheer uw aliassen vanaf het dashboard
+premium-promo-perks-perk-dashboard-body = Beheer al uw aliassen in het gebruiksvriendelijke dashboard: als u merkt dat er één ongewenste berichten ontvangt, kunt u voorkomen dat die berichten uw Postvak IN bereiken.
+premium-promo-use-cases-headline = Gebruik e-mailaliassen van { -brand-name-relay } overal
+premium-promo-use-cases-shopping-heading = Winkelen
+premium-promo-use-cases-shopping-body = Probeert u zich aan te melden voor kortingen zonder alle spam? Bundel al uw ‘winkel’-accounts onder unieke aangepaste aliassen, zoals ‘mijndeals@mijndomein.mozmail.com’.
+premium-promo-use-cases-social-networks-heading = Sociale netwerken
+premium-promo-use-cases-social-networks-body = Wilt u uw online identiteit beter beschermen bij het gebruik van een sociaal netwerk? Gebruik een andere { -brand-name-relay }-alias om voor elke aanmelding bij een sociaal netwerk om te helpen voorkomen dat uw echte e-mailadres zichtbaar is voor die websites.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body =
+    Maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
+    Gebruik een alias zoals ‘onlinegame@mijndomein.mozmail.com’ om een extra beschermingslaag te plaatsen tussen uw identiteit en de games die u online speelt.
+premium-promo-pricing-free-price = Uw huidige gratis abonnement
 
 ## Settings page
 
@@ -260,6 +283,7 @@ faq-question-availability-answer = Gratis { -brand-name-relay } is in de meeste 
 faq-question-4-question = Kan ik berichten beantwoorden met mijn { -brand-name-relay }-alias?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor de ontvanger en de personen in het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
+faq-question-4-answer-v4 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor alle ontvangers van het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt nog niet de mogelijkheid om te antwoorden met een alias.
     Als u dit probeert, gebeurt er niets. We hebben plannen voor een extra functie waarmee u <a href="{ $url }" { $attrs }>anoniem kunt reageren op afzenders</a>.
@@ -537,6 +561,7 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloaden
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Dit bericht is doorgestuurd van { $display_email } door { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } verwijdert Cc’s en Bcc’s uit uw antwoorden. Als u ze opnieuw toevoegt, wordt uw echte e-mailadres zichtbaar.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }. Kijk in onze { $faq_link } voor meer info.
