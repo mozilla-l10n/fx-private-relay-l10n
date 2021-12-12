@@ -200,10 +200,13 @@ premium-promo-perks-perk-unlimited-headline = Créer un nombre illimité d’ali
 premium-promo-perks-perk-unlimited-body = Finie la limite des cinq alias : avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour vous permettre de protéger votre boîte de réception des spammeurs et des traqueurs. Vous pouvez même répondre aux messages sans exposer votre vraie adresse e-mail.
 premium-promo-perks-perk-custom-domain-headline = Choisir son domaine personnalisé
 premium-promo-perks-perk-custom-domain-body = Avec un domaine personnalisé, vous pouvez créer autant d’alias plus faciles que jamais à retenir et partager. Vous en avez besoin d’un pour réserver une table au restaurant ? Utilisez-en un comme resto@mondomaine.mozmail.com — nul besoin de le créer avant de l’utiliser.
+premium-promo-perks-perk-dashboard-headline = Contrôler les alias depuis le tableau de bord
 premium-promo-perks-perk-dashboard-body = Gérez tous vos alias dans le tableau de bord si pratique : si vous trouvez que l’un d’eux reçoit des messages non sollicités, vous pouvez empêcher ceux-ci d’arriver dans votre boîte de réception.
+premium-promo-use-cases-headline = Utiliser partout les alias de messagerie de { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Achats en ligne
 premium-promo-use-cases-shopping-body = Vous essayez de vous inscrire à des promotions sans que cela vous inonde de spams ? Regroupez vos comptes d’« achats en ligne » sous des alias personnalisés uniques, comme « mesoffres@mondomaine.mozmail.com ».
 premium-promo-use-cases-social-networks-heading = Réseaux sociaux
+premium-promo-use-cases-social-networks-body = Vous voulez une meilleure protection de votre identité en ligne quand vous utilisez un réseau social ? Avec { -brand-name-relay }, utilisez un alias différent pour la connexion à chaque réseau social et protégez ainsi votre véritable adresse électronique du regard de ces sites.
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse électronique ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
 
