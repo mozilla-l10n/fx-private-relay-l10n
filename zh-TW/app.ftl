@@ -391,6 +391,7 @@ error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用�
 onboarding-headline = 有三種方式能建立您的第一個別名…
 onboarding-alias-tip-1 = 點擊「產生新別名」來建立您的第一組別名。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
+onboarding-alias-tip-3 = 使用 { -brand-name-relay } 擴充套件，對表單欄位按右鍵，然後選擇「建立新別名」。
 
 ## Premium Onboarding
 
@@ -479,6 +480,7 @@ vpn-promo-cta = 下載 { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_email } 帳號轉寄過來。
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）。若需詳細資訊，請參考我們的 { $faq_link }。
