@@ -110,9 +110,18 @@ hero-image-copy-control-html = Most <em>Ön irányítja azt</em>, hogy mi érkez
 
 ## Hero Section
 
+landing-hero-headline = Védje valódi e-mail-címét, hogy könnyebben kezelje postaládáját
 
 ## How it works section
 
+landing-how-it-works-headline = Hogyan működik
+landing-how-it-works-body = A valódi e-mail-címe helyett ossza meg a { -brand-name-relay } e-mail álneveket, hogy megvédje a postaládáját és személyazonosságát.
+landing-how-it-works-step-1-body-cta = Töltse le a { -brand-name-relay } kiegészítőt a { -brand-name-firefox }hoz.
+landing-how-it-works-step-1-body = Mindenhol automatikusan állítson elő e-mail álneveket, ahol megadja az e-mail-címét online.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Böngészés közben megjelenik a { -brand-name-relay } ikon, ahol a webhelyek az Ön e-mail-címét kérik.
+    Válassza ki egy új, véletlenszerű cím létrehozásához, amely a @relay.mozmail.com címre végződik.
 
 ## Pricing section
 
