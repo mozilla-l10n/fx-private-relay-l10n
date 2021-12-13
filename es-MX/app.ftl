@@ -241,6 +241,7 @@ faq-headline = Preguntas frecuentes
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
 faq-question-missing-emails-question = No recibo mensajes de mis alias
+faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
 faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor que { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
@@ -277,6 +278,8 @@ faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { 
 faq-question-longevity-answer = Te notificaremos con anticipación que debes cambiar la dirección de correo electrónico de cualquier cuenta que utilice un alias de { -brand-name-relay }.
 faq-question-mozmail-question = ¿Por qué mis alias comenzaron a usar el dominio “mozmail.com”?
 faq-question-mozmail-answer = Hicimos el cambio de “relay.firefox.com” a “mozmail.com” para poder obtener un dominio de correo electrónico personalizado, como alias@yourdomain.mozmail.com. Los dominios de correo electrónico personalizados, disponibles para los suscriptores de { -brand-name-relay-premium }, también hacen que tus alias de correo electrónico sean mucho más fáciles de recordar que los alias aleatorios.
+faq-question-attachments-question = ¿Reenviará { -brand-name-firefox-relay } correos electrónicos con archivos adjuntos?
+faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
@@ -310,6 +313,7 @@ profile-label-domain = Dominio de correo electrónico:
 profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y personalizado.
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
+profile-label-skip = Omitir
 profile-label-continue = Continuar
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
@@ -328,6 +332,7 @@ profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviados
 profile-label-cancel = Cancelar
+profile-blocked-copy = { -brand-name-firefox-relay } eliminará los mensajes antes de que lleguen a tu bandeja de entrada cuando selecciones el bloqueo para este alias.
 profile-forwarded-copy = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para este alias.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluyendo archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
@@ -352,6 +357,8 @@ banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Acción necesaria
 banner-register-subdomain-headline-aliases = Obtén un dominio personalizado para tus alias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
@@ -398,6 +405,7 @@ success-settings-update = Tu configuración ha sido actualizada
 
 ## Error Messages
 
+error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
 error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
 error-subdomain-email-not-created = No se pudo crear la dirección de correo electrónico con el subdominio, intenta con otro
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
@@ -424,6 +432,11 @@ multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -bra
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-domain-headline = Dominio personalizado para compartir alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
+    ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa uno como comida@tudominio { $mozmail } — No es necesario crear el alias de antemano.
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
@@ -432,6 +445,7 @@ multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -b
 multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más el uso de alias de correo electrónico.
 multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
+multi-part-onboarding-premium-extension-added = ¡Extensión { -brand-name-relay } agregada!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
 
 ## Modals
