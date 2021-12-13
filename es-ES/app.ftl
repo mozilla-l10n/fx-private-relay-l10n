@@ -184,6 +184,19 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 
 ## Premium promo page
 
+premium-promo-hero-headline = Simplifica la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, obtienes alias de correo electrónico personalizados ilimitados que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a Relay Premium por solo { $monthly_price } al mes.</b>
+premium-promo-hero-cta = Actualizar ahora
+premium-promo-availability-warning = { -brand-name-relay-premium } está actualmente disponible en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
+premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de tu bandeja de entrada que proporciona { -brand-name-relay }, pero con alias de correo electrónico ilimitados y tu propio dominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
+premium-promo-perks-cta-label = Actualizar ahora
+premium-promo-perks-cta-tooltip = Actualiza a { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
+premium-promo-perks-perk-unlimited-body = No más límite de cinco alias: con { -brand-name-relay-premium }, puedes generar tantos alias como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
+premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
 
 ## Settings page
 
