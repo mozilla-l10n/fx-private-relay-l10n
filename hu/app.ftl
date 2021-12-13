@@ -111,6 +111,9 @@ hero-image-copy-control-html = Most <em>Ön irányítja azt</em>, hogy mi érkez
 ## Hero Section
 
 landing-hero-headline = Védje valódi e-mail-címét, hogy könnyebben kezelje postaládáját
+landing-hero-body =
+    A { -brand-name-firefox-relay } e-mail álnevek megvédik valódi e-mail-címét a nyilvánossától, és automatikusan továbbítják az e-maileket a valódi postaládájába.
+    Mostantól csak a kívánt e-maileket kapja meg a beérkező levelek között. A kezdéshez regisztráljon { -brand-name-firefox-account }jával.
 
 ## How it works section
 
