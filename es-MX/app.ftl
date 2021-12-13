@@ -407,6 +407,7 @@ error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está 
 
 onboarding-headline = Crea tu primer alias, tienes tres formas ...
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
+onboarding-alias-tip-2 = Usando la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 
 ## Premium Onboarding
 
@@ -421,6 +422,7 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-button-start = Comenzar
+multi-part-onboarding-premium-domain-headline = Dominio personalizado para compartir alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
