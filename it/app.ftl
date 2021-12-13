@@ -185,6 +185,9 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a Relay Premium per soli { $monthly_price } al mese.</b>
 premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
@@ -192,6 +195,7 @@ premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la 
 premium-promo-perks-cta-label = Aggiorna adesso
 premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crea alias illimitati
+premium-promo-perks-perk-unlimited-body = Niente più limiti di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
 premium-promo-perks-perk-custom-domain-headline = Scegli il tuo dominio personalizzato
 premium-promo-perks-perk-custom-domain-body = Con un dominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
 premium-promo-perks-perk-dashboard-headline = Gestisci i tuoi alias dalla dashboard
@@ -200,6 +204,7 @@ premium-promo-use-cases-headline = Utilizza alias email { -brand-name-relay } ov
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” sotto alias personalizzati unici, come “sconti@miodominio.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Social network
+premium-promo-use-cases-social-networks-body = Vuoi proteggere meglio la tua identità online quando usi un social network? Utilizza un alias { -brand-name-relay } diverso per accedere a ciascun social network ed evita di esporre il tuo indirizzo email reale in questi siti.
 premium-promo-use-cases-gaming-heading = Giochi
 premium-promo-use-cases-gaming-body = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 premium-promo-pricing-free-price = Il tuo attuale piano gratuito
