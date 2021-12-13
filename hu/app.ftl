@@ -30,6 +30,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description = A { -brand-name-firefox-relay } megkönnyíti az e-mail álnevek létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteket. Használja online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
 
 ## Header 
 
@@ -78,12 +79,31 @@ bento-button-close-label = Menü bezárása
 
 ## Home Page
 
+home-hero-headline = Rejtse el a valódi e-mail-címét, hogy megvédje személyazonosságát
+home-hero-copy =
+    A valódi e-mail címe helyett ossza meg a { -brand-name-relay } e-mail álneveket, hogy megvédje online fiókját a hackerektől.
+    A kezdéshez jelentkezzen be { -brand-name-firefox-account }jával.
 home-hero-cta = Bejelentkezés
 how-it-works-headline = Hogyan működik
+how-it-works-subheadline = Védje személyazonosságát mindenütt, ahol a { -brand-name-firefox-browser }t használja.
 how-it-works-step-1-headline = Kiegészítő beszerzése
 how-it-works-step-1-link = Töltse le a { -brand-name-relay } kiegészítőt a { -brand-name-firefox }hoz.
+how-it-works-step-1-copy =
+    A bejelentkezési oldal eléréséhez válassza ki a { -brand-name-firefox } eszköztáron megjelenő ikont.
+    A kezdéshez jelentkezzen be { -brand-name-firefox-account }jával.
 how-it-works-step-2-headline = Új álnév létrehozása
+how-it-works-step-2-copy =
+    Böngészés közben megjelenik a { -brand-name-relay } ikon ott, ahol a webhelyek az Ön e-mail címét kérik.
+    Válassza ki egy új, véletlenszerű cím létrehozásához, amely a @relay.firefox.com címre végződik.
+    A { -brand-name-relay } az üzeneteket a fiókjához társított elsődleges e-mail-címre továbbítja.
 how-it-works-step-3-headline = Saját álnevek kezelése
+how-it-works-step-3-copy =
+    Jelentkezzen be a { -brand-name-relay } irányítópultra, hogy nyomon követhesse a létrehozott álneveket.
+    Ha úgy találja, hogy az egyik ezek közül kéretlen leveleket vagy kéretlen üzeneteket kap, az összes üzenetet letilthatja, vagy akár törölheti is az álnevet, közvetlenül az irányítópultból.
+hero-image-copy-trust = Egyáltalán rábízhatja erre a cégre a személyes e-mail-címét?
+hero-image-copy-unique-html = <strong>Használjon egyedi továbbítási címet</strong> minden új fiókhoz…
+hero-image-copy-protect-html = … így <strong>megvédheti valódi e-mail-címét</strong> a követéstől és a levélszeméttől.
+hero-image-copy-control-html = Most <em>Ön irányítja azt</em>, hogy mi érkezzen a postaládájába!
 
 ## Home Page Version A
 
