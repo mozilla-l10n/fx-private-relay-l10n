@@ -12,6 +12,8 @@
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser =
     { $capitalization ->
        *[lowercase] browser Firefox
@@ -180,6 +182,10 @@ landing-use-cases-gaming-body =
 landing-faq-headline = Domande principali su { -brand-name-firefox-relay }
 landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 
+## Premium promo page
+
+premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
+
 ## Settings page
 
 settings-headline = Impostazioni di { -brand-name-relay }
@@ -247,6 +253,7 @@ faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata
 faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
 faq-question-availability-answer = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda.
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
+# Deprecated
 faq-question-4-answer-v3 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
 faq-question-4-answer-html =
     { -brand-name-relay } attualmente non permette di rispondere usando un alias.
