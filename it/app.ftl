@@ -185,6 +185,24 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
+premium-promo-hero-cta = Aggiorna adesso
+premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
+premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo dominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
+premium-promo-perks-cta-label = Aggiorna adesso
+premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Crea alias illimitati
+premium-promo-perks-perk-custom-domain-headline = Scegli il tuo dominio personalizzato
+premium-promo-perks-perk-custom-domain-body = Con un dominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
+premium-promo-perks-perk-dashboard-headline = Gestisci i tuoi alias dalla dashboard
+premium-promo-perks-perk-dashboard-body = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
+premium-promo-use-cases-headline = Utilizza alias email { -brand-name-relay } ovunque
+premium-promo-use-cases-shopping-heading = Shopping
+premium-promo-use-cases-shopping-body = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” sotto alias personalizzati unici, come “sconti@miodominio.mozmail.com”.
+premium-promo-use-cases-social-networks-heading = Social network
+premium-promo-use-cases-gaming-heading = Giochi
+premium-promo-use-cases-gaming-body = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
+premium-promo-pricing-free-price = Il tuo attuale piano gratuito
 
 ## Settings page
 
@@ -255,6 +273,7 @@ faq-question-availability-answer = La versione gratuita di { -brand-name-relay }
 faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
+faq-question-4-answer-v4 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
 faq-question-4-answer-html =
     { -brand-name-relay } attualmente non permette di rispondere usando un alias.
     Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
@@ -525,6 +544,7 @@ vpn-promo-cta = Ottieni { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Questo messaggio è stato inoltrato da { $display_email } tramite { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } rimuove Cc e Ccn dai tuoi messaggi di risposta. Se li aggiungi nuovamente, il tuo indirizzo email reale sarà esposto.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }. Per ulteriori informazioni consulta le nostre { $faq_link }.
