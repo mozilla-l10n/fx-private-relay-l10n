@@ -197,6 +197,19 @@ premium-promo-perks-cta-tooltip = Actualiza a { -brand-name-firefox-relay-premiu
 premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
 premium-promo-perks-perk-unlimited-body = No más límite de cinco alias: con { -brand-name-relay-premium }, puedes generar tantos alias como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
 premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
+premium-promo-perks-perk-custom-domain-body =
+    Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
+    ¿Necesitas un alias para las reservas de restaurantes? Usa uno como comida@tudominio.mozmail.com. No es necesario crear el alias de antemano.
+premium-promo-perks-perk-dashboard-headline = Controla tus alias desde el panel
+premium-promo-perks-perk-dashboard-body = Administra todos tus alias en el panel de fácil uso: si ves que un alias recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
+premium-promo-use-cases-headline = Utiliza los alias de correo de { -brand-name-relay } en cualquier lugar
+premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-shopping-body = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo alias personalizados únicos, como “descuentos@midominio.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Redes sociales
+premium-promo-use-cases-social-networks-body = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa un alias de { -brand-name-relay } diferente para iniciar sesión en cada red social y así ayudar a proteger tu verdadero correo electrónico evitando exponerlo en estos sitios.
+premium-promo-use-cases-gaming-heading = Juegos
+premium-promo-use-cases-gaming-body = ¿Te preocupa que otros jugadores o trolls sepan quién eres a través de tu nombre y dirección de correo electrónico? Utiliza un alias como “juegoenlinea@midominio.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+premium-promo-pricing-free-price = Tu plan gratuito actual
 
 ## Settings page
 
@@ -267,6 +280,7 @@ faq-question-availability-answer = La versión gratuita de { -brand-name-relay }
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a  surecepción. Si añades a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no añadas CC o CCO al responder.
+faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a  surecepción. Si añades a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no añadas CC o CCO al responder.
 faq-question-4-answer-html =
     { -brand-name-relay } todavía no ofrece la capacidad de responder usando un alias.
     Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
