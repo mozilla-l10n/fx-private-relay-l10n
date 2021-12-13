@@ -209,6 +209,7 @@ premium-promo-use-cases-social-networks-heading = Réseaux sociaux
 premium-promo-use-cases-social-networks-body = Vous voulez une meilleure protection de votre identité en ligne quand vous utilisez un réseau social ? Avec { -brand-name-relay }, utilisez un alias différent pour la connexion à chaque réseau social et protégez ainsi votre véritable adresse électronique du regard de ces sites.
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse électronique ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
+premium-promo-pricing-free-price = Votre forfait gratuit actuel
 
 ## Settings page
 
