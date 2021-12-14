@@ -417,6 +417,7 @@ error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está 
 onboarding-headline = Crea tu primer alias, tienes tres formas ...
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
 onboarding-alias-tip-2 = Usando la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
+onboarding-alias-tip-3 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nuevo alias".
 
 ## Premium Onboarding
 
