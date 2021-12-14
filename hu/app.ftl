@@ -128,9 +128,23 @@ landing-how-it-works-step-2-body =
 
 ## Pricing section
 
+landing-pricing-free-price = Ingyenes
+landing-pricing-free-feature-2 = Böngészőkiegészítő
+landing-pricing-free-cta = { -brand-name-relay } beszerzése
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/hónap
+landing-pricing-premium-price-highlight = Korlátozott idejű árak
+landing-pricing-premium-feature-1 = Korlátlan számú e-mail álnév
+landing-pricing-premium-feature-2 = Böngészőkiegészítő
+landing-pricing-premium-feature-3 = Saját e-mail domain
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = Válasz az átirányított e-mailekre
 
 ## Use Cases
 
+landing-use-cases-shopping = Vásárlás
 
 ## Landing FAQ Section
 
