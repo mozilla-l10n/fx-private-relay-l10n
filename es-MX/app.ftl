@@ -425,6 +425,7 @@ onboarding-premium-headline = Bienvenido a { -brand-name-firefox } { -brand-name
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
+onboarding-premium-control-description = Comparte alias de correo electrónico ilimitados que reenvían los correos electrónicos que realmente deseas a tu bandeja de entrada.
 onboarding-premium-domain-title = Utiliza un dominio personalizado para compartir alias
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que el alias de tu "boletín informativo" sea diferente de tu alias de "compras".
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
@@ -432,6 +433,8 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
+multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-domain-headline = Dominio personalizado para compartir alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
@@ -463,6 +466,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Si tú usas este alias para iniciar sesión en los sitios que te interesan, 
     debes actualizar tú inicio de sesión con una dirección de correo electrónico diferente antes de eliminar está.
+modal-delete-domain-address-warning-upgrade =
+    Si usas este alias para iniciar sesión en los sitios que te interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo diferente antes de eliminar ésta.
+    Si vuelves a crear un alias borrado, los correos enviados al alias original se continuarán reenviando.
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-domain-register-good-news = ¡Buenas noticias!
 modal-domain-register-warning-reminder = Recuerda, solo puedes registrar un dominio. No podrás cambiarlo más tarde.
