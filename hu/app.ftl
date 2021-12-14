@@ -145,6 +145,13 @@ landing-pricing-premium-feature-4 = Válasz az átirányított e-mailekre
 ## Use Cases
 
 landing-use-cases-shopping = Vásárlás
+landing-use-cases-shopping-body =
+    Vásárol valamit egy új online boltból? Online vásárláskor használjon { -brand-name-relay } álnevet az e-mail-címe helyett.
+    A nyugtát a valódi e-mail-címére továbbítjuk, és ha olyan e-maileket kap, amelyek nem tetszenek, csak kapcsolja ki az e-mail-továbbítást.
+landing-use-cases-social-networks = Közösségi hálózatok
+landing-use-cases-offline = Kapcsolat nélkül
+landing-use-cases-access-content = Tartalom elérése
+landing-use-cases-gaming = Játék
 
 ## Landing FAQ Section
 
