@@ -207,6 +207,7 @@ premium-promo-use-cases-social-networks-heading = Redes sociales
 premium-promo-use-cases-social-networks-body = ¿Quieres proteger mejor tu identidad en línea al usar una red social? Usa un alias de { -brand-name-relay } diferente para iniciar sesión en cada red social y ayudar a proteger tu verdadero correo electrónico de estar expuesto a estos sitios.
 premium-promo-use-cases-gaming-heading = Juegos
 premium-promo-use-cases-gaming-body = ¿Preocupado por otros jugadores o trolls sepan quién eres a través de tu placa y dirección de correo electrónico? Utiliza un alias como “onlinegame@mydomain.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+premium-promo-pricing-free-price = Tu plan gratuito actual
 
 ## Settings page
 
@@ -430,6 +431,7 @@ onboarding-premium-control-description = Comparte alias de correo electrónico i
 onboarding-premium-domain-title = Utiliza un dominio personalizado para compartir alias
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que el alias de tu "boletín informativo" sea diferente de tu alias de "compras".
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
+onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tú alias seguirá protegiendo tú dirección de correo electrónico.
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
