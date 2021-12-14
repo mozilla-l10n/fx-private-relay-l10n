@@ -241,6 +241,7 @@ faq-headline = Preguntas frecuentes
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
+faq-question-what-is-answer = Los alias de correo electrónico son direcciones de correo electrónico enmascaradas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estos alias te permiten compartir una dirección con terceros que enmascararán tu verdadera dirección de correo electrónico y te reenviarán mensajes.
 faq-question-missing-emails-question = No recibo mensajes de mis alias
 faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
 faq-question-missing-emails-answer-reason-spam = Los mensajes se convierten en spam
@@ -413,7 +414,14 @@ success-settings-update = Tu configuración ha sido actualizada
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Debes ser un suscriptor premium para crear más de { $number } alias
 error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
+error-premium-set-subdomain = Debes ser un suscriptor premium para configurar un subdominio
+error-premium-check-subdomain = Debes ser un suscriptor premium para verificar un subdominio
+error-premium-set-create-subdomain = Debes ser un suscriptor premium para crear alias de subdominio
 error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
 error-subdomain-email-not-created = No se pudo crear la dirección de correo electrónico con el subdominio, intenta con otro
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
