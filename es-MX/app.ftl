@@ -231,6 +231,7 @@ setting-label-collection-description = Permitir que { -brand-name-relay } recopi
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 setting-label-collection-off-warning-v2 = Estos datos nos permitirán etiquetar tus alias con los sitios web donde se utilizan. Si decides no activar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
+settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 
 ## FAQ Page
 
@@ -289,6 +290,7 @@ faq-question-mozmail-answer = Hicimos el cambio de “relay.firefox.com” a “
 faq-question-attachments-question = ¿Reenviará { -brand-name-firefox-relay } correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-unsubscribe-domain-question = ¿Qué sucede con mi dominio personalizado si me doy de baja de { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer = Si te das de baja de { -brand-name-relay-premium }, seguirás recibiendo correos electrónicos reenviados a través de tu subdominio personalizado, pero ya no podrás crear nuevos alias con ese dominio. Si tienes más de cinco alias en total, no podrás crear más. También perderás la capacidad de responder a los mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } y recuperar el acceso a estas funciones.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
