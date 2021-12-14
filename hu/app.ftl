@@ -155,15 +155,50 @@ landing-use-cases-gaming = Játék
 
 ## Landing FAQ Section
 
+landing-faq-headline = A leggyakoribb kérdések a { -brand-name-firefox-relay }-jel kapcsolatban
+landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 
 ## Premium promo page
 
+premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
+premium-promo-hero-cta = Frissítsen most
+premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
+premium-promo-perks-cta-label = Frissítsen most
+premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Korlátlan számú e-mail álnév létrehozása
+premium-promo-perks-perk-custom-domain-headline = Válassza ki saját egyéni domainjét
+premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
+premium-promo-use-cases-gaming-heading = Játék
+premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
 
 ## Settings page
 
+settings-headline = { -brand-name-relay } beállítások
+settings-meta-contact-label = Kapcsolat
+settings-meta-contact-tooltip = Lépjen kapcsolatba velünk a { -brand-name-relay } ügyében
+settings-meta-help-label = Súgó és támogatás
+settings-meta-help-tooltip = Kérjen segítséget a { -brand-name-relay } használatához
+settings-meta-status-label = Szolgáltatás állapota
+settings-meta-status-tooltip = Ellenőrizze, hogy az összes { -brand-name-relay } rendszer működik-e jelenleg.
+settings-error-save-heading = A beállítások módosítása sikertelen
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Az e-mail álnév címke funkció ki van kapcsolva
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail álneveket hozott létre és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Adatvédelem
+settings-button-save-label = Mentés
+settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 
 ## FAQ Page
 
+faq-headline = Gyakran Ismételt Kérdések
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
 
 ## Profile Page (Logged In)
 
