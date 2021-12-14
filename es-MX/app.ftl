@@ -242,6 +242,7 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
 faq-question-missing-emails-question = No recibo mensajes de mis alias
 faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
+faq-question-missing-emails-answer-reason-spam = Los mensajes se convierten en spam
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
 faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor que { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
@@ -424,6 +425,8 @@ onboarding-premium-headline = Bienvenido a { -brand-name-firefox } { -brand-name
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium } tú puedes:
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
+onboarding-premium-domain-title = Utiliza un dominio personalizado para compartir alias
+onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que el alias de tu "boletín informativo" sea diferente de tu alias de "compras".
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
