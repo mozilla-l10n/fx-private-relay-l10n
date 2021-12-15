@@ -353,6 +353,7 @@ banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium }
 banner-pack-upgrade-cta = 立刻升級
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隱私權公告更新
+banner-label-privacy-notice-update-body = 為了加強 { -brand-name-firefox-relay } 的可靠度，降低郵件轉寄失敗的機會，我們將在伺服器上暫存收到的郵件，直到信件成功寄出為止。這個保存時間不會超過三天。
 banner-label-privacy-notice-update-cta = 檢視隱私權公告
 # Data Notification Banner:
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
