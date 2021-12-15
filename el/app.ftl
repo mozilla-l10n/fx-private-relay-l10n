@@ -189,15 +189,19 @@ landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσ�
 
 ## Premium promo page
 
+premium-promo-hero-headline = Προστατέψτε ευκολότερα τα εισερχόμενά σας με το { -brand-name-firefox-relay-premium }
 premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -brand-name-firefox-relay-premium };
 premium-promo-perks-cta-label = Αναβάθμιση τώρα
 premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Δημιουργήστε απεριόριστα ψευδώνυμα email
 premium-promo-perks-perk-custom-domain-headline = Επιλέξτε τον δικό σας προσαρμοσμένο τομέα
+premium-promo-perks-perk-dashboard-headline = Ελέγξτε τα ψευδώνυμά σας από τον πίνακα ελέγχου
 premium-promo-use-cases-headline = Χρησιμοποιήστε τα ψευδώνυμα { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
 premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
 premium-promo-use-cases-gaming-heading = Παιχνίδια
+premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμμά σας
 
 ## Settings page
 
@@ -499,6 +503,7 @@ vpn-promo-cta = Λήψη του { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Αυτό το μήνυμα προωθήθηκε από το { $display_email } στο { $linked_origin }.
+forwarded-email-header-cc-notice = Το { -brand-name-relay-premium } αφαιρεί τις διευθύνσεις CC και BCC από τις απαντήσεις σας. Αν τις προσθέσετε εκ νέου, θα εκτεθεί το πραγματικό σας email.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
