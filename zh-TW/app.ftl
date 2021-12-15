@@ -225,6 +225,9 @@ faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所�
 faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
+# Deprecated
+faq-question-4-answer-v3 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
+faq-question-4-answer-v4 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
 faq-question-4-answer-html = { -brand-name-relay } 不提供使用別名信箱回信的功能。若您試著這樣作，將不會發生任何事。我們正計畫推出新功能，讓您可以<a href="{ $url }" { $attrs }>匿名地回信</a>。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
 faq-question-subdomain-characters-answer-v2 = 您僅可使用小寫英文字母、數字、連字號（-）來建立子網域。
