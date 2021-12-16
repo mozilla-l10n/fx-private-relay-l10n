@@ -169,10 +169,12 @@ premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
+premium-promo-perks-perk-dashboard-headline = 轻松管理所有马甲
 premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-social-networks-heading = 社交网络
 premium-promo-use-cases-gaming-heading = 游戏
+premium-promo-use-cases-gaming-body = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像“onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
 premium-promo-pricing-free-price = 您当前的免费方案
 
 ## Settings page
