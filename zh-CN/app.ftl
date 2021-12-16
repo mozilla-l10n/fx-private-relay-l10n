@@ -162,6 +162,9 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只将想要收取的邮件转发到您的真实邮箱地址。<b>限时价格：每月只需 { $monthly_price }，即可升级为 Relay Premium。</b>
 premium-promo-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
