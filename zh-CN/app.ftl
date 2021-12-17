@@ -172,6 +172,9 @@ premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
+premium-promo-perks-perk-custom-domain-body =
+    借助自定义域名功能，可创建比以往更好记和分享的马甲。
+    想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
 premium-promo-perks-perk-dashboard-headline = 轻松管理所有马甲
 premium-promo-perks-perk-dashboard-body = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
 premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
