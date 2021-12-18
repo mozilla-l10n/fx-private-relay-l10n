@@ -354,6 +354,8 @@ profile-filter-search-placeholder = Buscar alias
 profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Solo alias críticos
 
 ## Banner Messages (displayed on the profile page)
 
