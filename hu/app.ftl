@@ -125,9 +125,15 @@ landing-how-it-works-step-1-body = Mindenhol automatikusan állítson elő e-mai
 landing-how-it-works-step-2-body =
     Böngészés közben megjelenik a { -brand-name-relay } ikon, ahol a webhelyek az Ön e-mail-címét kérik.
     Válassza ki egy új, véletlenszerű cím létrehozásához, amely a @relay.mozmail.com címre végződik.
+landing-how-it-works-step-3-body =
+    Jelentkezzen be a { -brand-name-relay } irányítópultra, hogy nyomon követhesse a létrehozott álneveket. A { -brand-name-relay } továbbítani fogja az üzeneteket az Ön e-mail-címére.
+    Ha egy álnév spamet vagy kéretlen üzeneteket kap, letilthatja az összes üzenetet, vagy akár törölheti is az álnevet, közvetlenül az irányítópulton.
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = Csak korlátozott ideig: Korlátlan álnevek havi { $monthly_price } áron
 landing-pricing-free-price = Ingyenes
 landing-pricing-free-feature-2 = Böngészőkiegészítő
 landing-pricing-free-cta = { -brand-name-relay } beszerzése
