@@ -206,6 +206,7 @@ premium-promo-use-cases-shopping-body = A levélszemetek nélkül próbál felir
 premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
 premium-promo-use-cases-social-networks-body = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő { -brand-name-relay } álnevet az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
 premium-promo-use-cases-gaming-heading = Játék
+premium-promo-use-cases-gaming-body = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan álnevet, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
 premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
 
 ## Settings page
@@ -218,12 +219,17 @@ settings-meta-help-tooltip = Kérjen segítséget a { -brand-name-relay } haszn�
 settings-meta-status-label = Szolgáltatás állapota
 settings-meta-status-tooltip = Ellenőrizze, hogy az összes { -brand-name-relay } rendszer működik-e jelenleg.
 settings-error-save-heading = A beállítások módosítása sikertelen
+settings-error-save-description = A beállítások módosításai kapcsolati hiba miatt nem lettek elmentve. Próbálja meg újra.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Az e-mail álnév címke funkció ki van kapcsolva
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-description = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail álneveket hozott létre és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Adatvédelem
+setting-label-collection-description = Engedélyezés a { -brand-name-relay } számára, hogy adatokat gyűjtsön azokról a webhelyekről, amelyeken az álneveket létrehozta és használja.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Ezek az adatok lehetővé teszik számunkra, hogy egy későbbi kiadásban felcímkézzük álneveit a releváns webhelyekkel. Ha úgy dönt, hogy leiratkozik ebből a beállításból, akkor az álnevei nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
+setting-label-collection-off-warning-v2 = Ezek az adatok lehetővé teszik számunkra, hogy felcímkézzük álneveit azokkal a webhelyekkel, ahol azokat használja. Ha úgy dönt, hogy leiratkozik ebből a beállításból, akkor az álnevek nem lesznek megjelölve azon webhelyekkel, ahol használják őket.
 settings-button-save-label = Mentés
 settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 
