@@ -159,9 +159,23 @@ landing-use-cases-shopping-body =
     Vásárol valamit egy új online boltból? Online vásárláskor használjon { -brand-name-relay } álnevet az e-mail-címe helyett.
     A nyugtát a valódi e-mail-címére továbbítjuk, és ha olyan e-maileket kap, amelyek nem tetszenek, csak kapcsolja ki az e-mail-továbbítást.
 landing-use-cases-social-networks = Közösségi hálózatok
+landing-use-cases-social-networks-body =
+    Szeretné jobban megvédeni online személyazonosságát a közösségi hálózatok használatakor?
+    Megpróbálja megakadályozni, hogy a valódi e-mail-címe a közösségi médiában való jelenlétéhez kapcsolódjon? Használjon { -brand-name-relay } álnevet a bejelentkezéshez, és segítsen megvédeni magát az interneten.
 landing-use-cases-offline = Kapcsolat nélkül
+landing-use-cases-offline-body =
+    Szívesebben kap e-mailes nyugtákat, de szeretné elkerülni a marketinges spamet is?
+    Használjon { -brand-name-relay } álnevet az e-mail-címe helyett, ha papírmentes nyugtát kap egy üzletben.
+    A nyugtát a valódi e-mail-címére továbbítjuk, és ha olyan e-maileket kap, amelyek nem tetszenek, csak kapcsolja ki az e-mail-továbbítást.
 landing-use-cases-access-content = Tartalom elérése
+landing-use-cases-access-content-body =
+    Szeretne feliratkozni arra a hírlevélre, de nem bízik a feladóban?
+    Használjon álnevet a valódi címe helyett – ha nem kívánt e-maileket kap ezen az álnéven keresztül, előfordulhat, hogy a feladó eladta az álnevet más marketingeseknek, vagy akár adatszivárgás következtében is kiszivároghatott.
+    Csak kapcsolja ki vagy törölje az álnevet, hogy megvédje e-mailjeit.
 landing-use-cases-gaming = Játék
+landing-use-cases-gaming-body =
+    Élvezi az online játékokat, de aggódik amiatt, hogy más játékosok vagy zaklatók megtudják ki Ön a játékoscímkéje és az e-mail-címe alapján?
+    Használjon { -brand-name-relay } álnevet, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
 
 ## Landing FAQ Section
 
@@ -171,7 +185,11 @@ landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 ## Premium promo page
 
 premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail álnevet kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a Relay Premiumra.</b>
 premium-promo-hero-cta = Frissítsen most
+premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 premium-promo-perks-cta-label = Frissítsen most
 premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
