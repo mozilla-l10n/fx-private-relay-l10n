@@ -134,7 +134,11 @@ landing-how-it-works-step-3-body =
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Csak korlátozott ideig: Korlátlan álnevek havi { $monthly_price } áron
+landing-pricing-body =
+    Próbálja ki a { -brand-name-firefox-relay } álneveket, és kezdje el megvédeni e-mail postafiókját.
+    Ezután frissítsen a { -brand-name-relay-premium } verzióra a még nagyobb rugalmasság és testreszabott irányítás érdekében.
 landing-pricing-free-price = Ingyenes
+landing-pricing-free-feature-1 = Akár 5 e-mail álnév
 landing-pricing-free-feature-2 = Böngészőkiegészítő
 landing-pricing-free-cta = { -brand-name-relay } beszerzése
 # Variables:
