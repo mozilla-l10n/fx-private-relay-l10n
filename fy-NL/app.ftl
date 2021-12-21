@@ -190,6 +190,8 @@ premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker m
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailaliassen dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei Relay Premium foar mar { $monthly_price } yn de moanne.</b>
 premium-promo-hero-cta = No opwurdearje
+premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
+premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
 
 ## Settings page
 
