@@ -481,20 +481,27 @@ onboarding-premium-domain-title = Use a custom domain for sharing aliases
 onboarding-premium-domain-description = With a custom domain, you can make your “newsletter” alias different from your “shopping” alias. 
 onboarding-premium-reply-title = Reply to emails without giving away your real address
 onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
+onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you can:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
+multi-part-onboarding-premium-generate-unlimited-title = Generate unlimited email aliases:
 multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliases
 multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
+multi-part-onboarding-premium-get-domain = Get a custom domain
+multi-part-onboarding-reply-headline = Reply to your emails
 
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
     Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand. 
+multi-part-onboarding-premium-get-domain-description = Use a custom domain for sharing aliases: With a custom domain, you can create 
+    aliases without having to generate them beforehand. Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later 
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
