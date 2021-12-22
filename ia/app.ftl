@@ -473,8 +473,6 @@ multi-part-onboarding-premium-welcome-title = Controla que emails tu recipe:
 multi-part-onboarding-premium-welcome-button-start = Comenciar
 multi-part-onboarding-premium-domain-headline = Un dominio personal pro compartir aliases
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
     Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
@@ -558,3 +556,5 @@ forwarded-email-header-cc-notice = { -brand-name-relay-premium } remove CCs e Cc
 forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Cessar le reexpedition de e-mail e gerer parametros pro tote le aliases.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Promover a { -brand-name-relay-premium }
