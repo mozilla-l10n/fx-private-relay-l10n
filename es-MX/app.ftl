@@ -459,8 +459,8 @@ multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-domain-headline = Dominio personalizado para compartir alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Obtén un dominio personalizado
+multi-part-onboarding-reply-headline = Responder a tus correos
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa uno como comida@tudominio { $mozmail } — No es necesario crear el alias de antemano.
@@ -539,7 +539,12 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Actualiza a { $premium_link } para obtener alias ilimitados y un dominio de correo electrónico personalizado.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluyendo archivos adjuntos) de hasta { email-size-limit } de tamaño. Para saber más, revisa nuestro { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Detener el reenvío de correo electrónico y administrar la configuración de todos los alias aquí.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
