@@ -468,17 +468,19 @@ onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
 onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
 onboarding-premium-reply-title = Svara på e-post utan att ge bort din riktiga adress
 onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
+onboarding-premium-title-detail = Med { -brand-name-firefox-relay-premium } kan du:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamnar i din inkorg, ett e-postmeddelande i taget.
 multi-part-onboarding-premium-welcome-title = Kontrollera vilka e-postmeddelanden du får:
+multi-part-onboarding-premium-generate-unlimited-title = Skapa ett obegränsat antal e-postalias:
 multi-part-onboarding-premium-welcome-button-start = Kom igång
 multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
 multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Skaffa en anpassad domän
+multi-part-onboarding-reply-headline = Svara på dina mejl
 multi-part-onboarding-premium-domain-description =
     Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
     Behöver du ett alias för restaurangbokningar? Använd bara mat@dindomän{ $mozmail } — Ditt alias behöver inte skapas i förväg.
