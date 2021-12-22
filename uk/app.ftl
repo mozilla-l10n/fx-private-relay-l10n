@@ -468,20 +468,28 @@ onboarding-premium-domain-title = Використовуйте власні до
 onboarding-premium-domain-description = За допомогою власного домену ви можете відрізнити свою псевдоадресу “інформаційний лист” від своєї псевдоадреси для “покупок”.
 onboarding-premium-reply-title = Відповідайте на електронні листи, не розкриваючи своєї справжньої адреси
 onboarding-premium-reply-description = Потрібно відповісти на електронні листи, надіслані на псевдоадресу? Просто відповідайте як зазвичай — ваша псевдоадреса все одно захищатиме вашу справжню електронну адресу.
+onboarding-premium-title-detail = За допомогою { -brand-name-firefox-relay-premium } ви можете:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Тепер ви можете контролювати, що саме потрапляє у вашу поштову скриньку, по одному листу за раз.
 multi-part-onboarding-premium-welcome-title = Контролюйте, які листи ви отримуєте:
+multi-part-onboarding-premium-generate-unlimited-title = Генерувати необмежену кількість псевдоадрес електронної пошти
 multi-part-onboarding-premium-welcome-button-start = Розпочнімо
 multi-part-onboarding-premium-domain-headline = Власні домени псевдоадрес, якими можна ділитися
 multi-part-onboarding-premium-domain-title = Отримайте користувацький домен для своїх псевдоадрес:
+multi-part-onboarding-premium-get-domain = Отримати індивідуальний домен
+multi-part-onboarding-reply-headline = Відповідати на ваші електронні листи
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Обмеження на п’ять псевдоадрес скасовано: тепер ви можете створювати стільки користувацьких або випадкових псевдоадрес, скільки вам потрібно. На компʼютері ви можете використовувати додаток Relay, щоб створювати їх на ходу.
 multi-part-onboarding-premium-domain-description =
     Використовуючи спеціальний домен, ви можете створювати псевдоадреси, які легше запам’ятати та поділитися ними.
     Потрібна псевдоадреса для бронювання ресторанів? Просто скажіть food@yourdomain{ $mozmail } — не потрібно створювати псевдоадресу заздалегідь.
+multi-part-onboarding-premium-get-domain-description =
+    Використовуйте користувацький домен для спільного використання псевдоадрес: за допомогою спеціального домену ви можете створювати
+    псевдоадреси без необхідності генерувати їх заздалегідь. Потрібна адреса, щоб підписатися на інформаційний бюлетень? Наприклад, “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Зареєструйте свій власний домен зараз:
 multi-part-onboarding-premium-domain-button-skip = Продовжити, я зареєструю свій власний домен пізніше
 multi-part-onboarding-premium-extension-headline = Блокуйте, пересилайте та відповідайте
