@@ -481,9 +481,15 @@ multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
 multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
 multi-part-onboarding-premium-get-domain = Skaffa en anpassad domän
 multi-part-onboarding-reply-headline = Svara på dina mejl
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda Relay-tillägget för att skapa dem när du behöver.
 multi-part-onboarding-premium-domain-description =
     Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
     Behöver du ett alias för restaurangbokningar? Använd bara mat@dindomän{ $mozmail } — Ditt alias behöver inte skapas i förväg.
+multi-part-onboarding-premium-get-domain-description =
+    Använd en anpassad domän för att dela alias: med en anpassad domän kan du skapa
+    alias utan att behöva generera dem i förväg. Behöver du ett för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
 multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
 multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
@@ -560,7 +566,12 @@ vpn-promo-cta = Hämta { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Det här meddelandet vidarebefordrades från { $display_email } av { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Uppgradera till { $premium_link } för att få obegränsade alias och en anpassad e-postdomän.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek. Mer information finns i vår { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Sluta vidarebefordra e-post och hantera inställningar för alla alias här.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-premium }
