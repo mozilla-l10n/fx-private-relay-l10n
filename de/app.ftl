@@ -487,6 +487,9 @@ multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Al
 multi-part-onboarding-premium-domain-description =
     Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
     Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
+multi-part-onboarding-premium-get-domain-description =
+    Verwenden Sie eine benutzerdefinierten Domäne zum Weitergeben von Alias-E-Mail-Adressen: Mit einer benutzerdefinierten Domain können Sie
+    Alias-Adressen verwenden, ohne sie vorher erzeugen zu müssen. Benötigen Sie eine Alias-Adresse, um sich für einen Newsletter anzumelden? Nehmen Sie einfach „lesen@meinedomain{ $mozmail }“
 multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
 multi-part-onboarding-premium-extension-headline = Blockieren, weiterleiten und antworten
@@ -563,7 +566,12 @@ vpn-promo-cta = Jetzt { -brand-name-mozilla-vpn } nutzen
 forwarded-email-header-from = Diese Nachricht wurde von { $display_email } von { $linked_origin } weitergeleitet
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } entfernt CCs und BCCs aus Ihren Antworten. Wenn Sie sie erneut hinzufügen, wird Ihre echte E-Mail-Adresse offen gelegt.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Machen Sie das Upgrade auf { $premium_link } und erhalten Sie unbegrenzt viele Alias-E-Mail-Adressen und eine benutzerdefinierte Domain für E-Mails.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen finden Sie in unseren { $faq_link }
 # This entire text is a link
 forwarded-email-footer = Hier können Sie die Weiterleitung für alle Alias-E-Mail-Adressen beenden und die Einstellungen verwalten.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Machen Sie das Upgrade auf { -brand-name-relay-premium }
