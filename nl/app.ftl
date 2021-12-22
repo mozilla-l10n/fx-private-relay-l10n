@@ -473,17 +473,19 @@ onboarding-premium-domain-title = Een aangepast domein gebruiken voor het delen 
 onboarding-premium-domain-description = Met een aangepast domein kunt u uw ‘nieuwsbrief’-alias laten afwijken van uw ‘winkel’-alias.
 onboarding-premium-reply-title = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
 onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias zijn gestuurd beantwoorden? Antwoord gewoon als altijd – uw alias beschermt uw e-mailadres nog steeds.
+onboarding-premium-title-detail = Met { -brand-name-firefox-relay-premium } kunt u:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Welkom bij { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = U kunt nu bepalen wat er in uw Postvak IN belandt, één e-mailbericht tegelijk.
 multi-part-onboarding-premium-welcome-title = Bepalen welke e-mailberichten u ontvangt:
+multi-part-onboarding-premium-generate-unlimited-title = Genereer onbeperkte e-mailaliassen:
 multi-part-onboarding-premium-welcome-button-start = Beginnen
 multi-part-onboarding-premium-domain-headline = Aangepast domein voor het delen van aliassen
 multi-part-onboarding-premium-domain-title = Een aangepast domein verkrijgen voor uw aliassen:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Krijg een aangepast domein
+multi-part-onboarding-reply-headline = Beantwoord uw e-mailberichten
 multi-part-onboarding-premium-domain-description =
     Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
     Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
@@ -563,7 +565,12 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloaden
 forwarded-email-header-from = Dit bericht is doorgestuurd van { $display_email } door { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } verwijdert Cc’s en Bcc’s uit uw antwoorden. Als u ze opnieuw toevoegt, wordt uw echte e-mailadres zichtbaar.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Upgrade naar { $premium_link } om onbeperkte aliassen en een aangepast e-maildomein te krijgen.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }. Kijk in onze { $faq_link } voor meer info.
 # This entire text is a link
 forwarded-email-footer = Hier kunt u het doorsturen van e-mail stopzetten en de instellingen voor alle aliassen beheren.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Upgraden naar { -brand-name-relay-premium }
