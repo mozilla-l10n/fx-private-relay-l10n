@@ -468,17 +468,22 @@ onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Ma
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
 onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
 onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
+onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } können Sie:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jetzt können Sie E-Mail für E-Mail steuern, was in Ihrem Posteingang landet.
 multi-part-onboarding-premium-welcome-title = Steuern Sie, welche E-Mails Sie erhalten:
+multi-part-onboarding-premium-generate-unlimited-title = Unbegrenzt viele Alias-E-Mail-Adressen erstellen:
 multi-part-onboarding-premium-welcome-button-start = Erste Schritte
 multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für Alias-E-Mail-Adressen
 multi-part-onboarding-premium-domain-title = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen:
+multi-part-onboarding-premium-get-domain = Eine benutzerdefinierte Domain verwenden
+multi-part-onboarding-reply-headline = Auf Ihre E-Mails antworten
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Alias-Adressen generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem Relay-Add-on nebenbei erstellen.
 multi-part-onboarding-premium-domain-description =
     Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
     Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
