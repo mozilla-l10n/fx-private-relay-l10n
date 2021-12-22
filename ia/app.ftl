@@ -464,15 +464,19 @@ onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
 onboarding-premium-domain-description = Con un dominio personalisate, tu pote render le alias de tu “littera de novas” differente del alias de tu “compras”.
 onboarding-premium-reply-title = Responde a emails sin revelar tu real adresse
 onboarding-premium-reply-description = Besonia tu de responder a e-mails inviate a un alias?
+onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tu pote:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Benvenite a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de ingresso, un e-mail cata vice.
 multi-part-onboarding-premium-welcome-title = Controla que emails tu recipe:
+multi-part-onboarding-premium-generate-unlimited-title = Generar illimitate aliases e-mail:
 multi-part-onboarding-premium-welcome-button-start = Comenciar
 multi-part-onboarding-premium-domain-headline = Un dominio personal pro compartir aliases
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
+multi-part-onboarding-premium-get-domain = Obtener un dominio personal
+multi-part-onboarding-reply-headline = Replicar a tu e-mails
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
     Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
