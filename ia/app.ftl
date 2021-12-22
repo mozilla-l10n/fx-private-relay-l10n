@@ -477,9 +477,15 @@ multi-part-onboarding-premium-domain-headline = Un dominio personal pro comparti
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
 multi-part-onboarding-premium-get-domain = Obtener un dominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque aliases: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo Relay pro crear los al volo.
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
     Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
+multi-part-onboarding-premium-get-domain-description =
+    Usar un dominio personal pro compartir le aliases: con un dominio personal, tu pote crear 
+    aliases sin deber generar los previemente. Besonia tu de uno, pro registrar te a un littera de novas? Solo dice “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra ora tu dominio personal:
 multi-part-onboarding-premium-domain-button-skip = Continuar, io registrara mi dominio personal plus tarde
 multi-part-onboarding-premium-extension-headline = Blocar, inultrar e replicar
@@ -555,6 +561,9 @@ vpn-promo-cta = Installar { -brand-name-mozilla-vpn }
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Iste message ha essite reexpedite de { $display_email } per { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } remove CCs e Ccns de tu replicas. Si tu los re-adde, tu real e-mail sera exponite.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Promove a { $premium_link } pro haber aliases illimitate e un dominio e-mail personal.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
