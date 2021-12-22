@@ -483,7 +483,7 @@ multi-part-onboarding-premium-get-domain = Отримати індивідуал
 multi-part-onboarding-reply-headline = Відповідати на ваші електронні листи
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Обмеження на п’ять псевдоадрес скасовано: тепер ви можете створювати стільки користувацьких або випадкових псевдоадрес, скільки вам потрібно. На компʼютері ви можете використовувати додаток Relay, щоб створювати їх на ходу.
+multi-part-onboarding-premium-welcome-description = Більше ніякого обмеження на п’ять псевдоадрес: тепер ви можете створювати стільки власних або випадкових псевдоадрес, скільки вам потрібно. На компʼютері ви можете використовувати додаток Relay, щоб створювати їх на ходу.
 multi-part-onboarding-premium-domain-description =
     Використовуючи спеціальний домен, ви можете створювати псевдоадреси, які легше запам’ятати та поділитися ними.
     Потрібна псевдоадреса для бронювання ресторанів? Просто скажіть food@yourdomain{ $mozmail } — не потрібно створювати псевдоадресу заздалегідь.
@@ -566,7 +566,12 @@ vpn-promo-cta = Отримати { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Це повідомлення було переслано з { $display_email } за допомогою { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } прибирає копію та приховану копію з ваших відповідей. Якщо ви додасте їх повторно, ваша справжня електронна адреса буде розкрита.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Передплатіть { $premium_link }, щоб отримати необмежену кількість псевдоадрес і власний домен електронної пошти.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }. Докладніше: { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Припинити пересилання електронної пошти та керувати налаштуваннями всіма псевдоадресами можна тут.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Передплатити { -brand-name-relay-premium }
