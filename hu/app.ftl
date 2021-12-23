@@ -245,9 +245,47 @@ faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
 
 ## Profile Page (Logged In)
 
+profile-label-reset = Visszaállítás
+profile-label-apply = Alkalmaz
+profile-label-skip = Kihagyás
+profile-label-continue = Folytatás
+# This string is followed by an email address
+profile-label-forward-emails = Levelek továbbítása ide:
+# This string is followed by date
+profile-label-first-emailed = Első e-mail:
+# This string is followed by date:
+profile-label-created = Létrehozva:
+profile-label-details-show = Részletek megjelenítése
+profile-label-details-hide = Részletek elrejtése
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = továbbítás
+profile-label-blocking = blokkolás
+profile-label-disable-forwarding-button = Levéltovábbítás letiltása ennél az álnévnél
+profile-label-enable-forwarding-button = Levéltovábbítás engedélyezése ennél az álnévnél
+profile-label-click-to-copy = Kattintson a másoláshoz
+profile-label-copy-confirmation = Álnév vágólapra másolva
+profile-label-copied = Másolva!
+profile-label-blocked = Blokkolva
+profile-label-forwarded = Továbbítva
+profile-label-cancel = Mégse
+profile-stat-label-blocked = Blokkolt e-mailek
+profile-stat-label-forwarded = Továbbított e-mailek
+profile-stat-label-aliases-used = Használt e-mail álnevek
+profile-filter-search-placeholder = Alnevek keresése
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Továbbítási álnevek
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Blokkoló álnevek
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Véletlenszerű álnevek
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Egyéni álnevek
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = „Csak kritikus” álnevek
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
 
 ## Success Messages
 
