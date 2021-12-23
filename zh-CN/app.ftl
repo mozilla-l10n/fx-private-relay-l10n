@@ -168,6 +168,7 @@ premium-promo-hero-body-html = 订阅 { -brand-name-firefox-relay-premium }，�
 premium-promo-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
+premium-promo-perks-lead = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
