@@ -192,6 +192,27 @@ premium-promo-hero-body-html = Mei { -brand-name-firefox-relay-premium } krije j
 premium-promo-hero-cta = No opwurdearje
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailaliassen en jo eigen oanpaste domein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
+premium-promo-perks-cta-label = No opwurdearje
+premium-promo-perks-cta-tooltip = Opwurdearje nei { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Meitsje ûnbeheinde e-mailaliassen
+premium-promo-perks-perk-unlimited-body = Gjin limyt fan fiif aliassen mear: mei { -brand-name-relay-premium } kinne jo safolle aliassen oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
+premium-promo-perks-perk-custom-domain-headline = Kies jo eigen oanpaste domein
+premium-promo-perks-perk-custom-domain-body =
+    Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
+    In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein.mozmail.com – Jo hoege de alias net yn it foar te meitsjen.
+premium-promo-perks-perk-dashboard-headline = Behear jo aliassen fan it dashboard ôf
+premium-promo-perks-perk-dashboard-body = Behear al jo aliassen yn it gebrûksfreonlike dashboerd: as jo merke dat der ien net-winske berjochten ûntfangt, kinne jo foarkomme dat dy berjochten jo Postfek YN berikje.
+premium-promo-use-cases-headline = Brûk e-mailaliassen fan { -brand-name-relay } oeral
+premium-promo-use-cases-shopping-heading = Winkelje
+premium-promo-use-cases-shopping-body = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste aliassen, lykas ‘myndeals@myndomein.mozmail.com’.
+premium-promo-use-cases-social-networks-heading = Sosjale netwurken
+premium-promo-use-cases-social-networks-body = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oare { -brand-name-relay }-alias om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo echte e-mailadres sichtber is foar dy websites.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body =
+    Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
+    Brûk in alias lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
+premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
 
 ## Settings page
 
@@ -263,6 +284,7 @@ faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte
 faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+faq-question-4-answer-v4 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar alle ûntfangers fan it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
 faq-question-4-answer-html =
     { -brand-name-relay } biedt noch net de mooglikheid om te antwurdzjen mei in alias.
     As jo dit probearje, bart der neat. Wy hawwe plannen foar in ekstra funksje wêrmei't jo <a href="{ $url }" { $attrs }>anonym reagearje kinne op ôfstjoerders</a>.
@@ -452,17 +474,19 @@ onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan al
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
 onboarding-premium-reply-description = Moatte jo e-mailberjochten dy’t nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
+onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinne jo:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 multi-part-onboarding-premium-welcome-title = Bepale hokker e-mailberjochten jo ûntfange:
+multi-part-onboarding-premium-generate-unlimited-title = Generearje ûnbeheinde e-mailaliassen:
 multi-part-onboarding-premium-welcome-button-start = Begjinne
 multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fan aliassen
 multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Krij in oanpast domein
+multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
