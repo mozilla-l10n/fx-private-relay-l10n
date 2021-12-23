@@ -466,20 +466,26 @@ onboarding-premium-domain-title = Utiliser un domaine personnalisé pour partage
 onboarding-premium-domain-description = Avec un domaine personnalisé, vous pouvez différencier votre alias « newsletter » de votre alias « shopping ».
 onboarding-premium-reply-title = Répondre aux e-mails sans révéler votre véritable adresse
 onboarding-premium-reply-description = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
+onboarding-premium-title-detail = Avec { -brand-name-firefox-relay-premium }, vous pouvez :
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contrôler ce qui arrive dans votre boîte de réception, un e-mail à la fois.
 multi-part-onboarding-premium-welcome-title = Contrôlez les e-mails que vous recevez :
+multi-part-onboarding-premium-generate-unlimited-title = Générer un nombre illimité d’alias :
 multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour partager des alias
 multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
+multi-part-onboarding-premium-get-domain = Disposer d’un domaine personnalisé
+multi-part-onboarding-reply-headline = Répondre à vos e-mails
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module Relay pour les créer à la volée.
 multi-part-onboarding-premium-domain-description =
     Grâce à un domaine personnalisé, vous pouvez créer des alias plus faciles que jamais à mémoriser et à partager.
     Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
+multi-part-onboarding-premium-get-domain-description = Utiliser un domaine personnalisé pour partager vos alias : avec un domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@domaineperso{ $mozmail } ».
 multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
 multi-part-onboarding-premium-extension-headline = Bloquez, transférez et répondez
@@ -553,7 +559,12 @@ vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Ce message a été transféré depuis { $display_email } par { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } supprime les destinataires en copie ou en copie cachée de vos réponses. Si vous les ajoutez de nouveau, votre véritable adresse e-mail est exposée.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Passez à { $premium_link } pour obtenir un nombre illimité d’alias et un domaine personnalisé.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Passez à { -brand-name-relay-premium }
