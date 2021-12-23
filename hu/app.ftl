@@ -342,12 +342,25 @@ success-settings-update = A beállításai frissítve lettek
 #   $number (string) - Maximum number of aliases a user can make on a free account.
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Prémium előfizetőnek kell lennie, hogy több mint { $number } álnevet hozhasson létre
+error-premium-cannot-change-subdomain = Nem módosíthatja az aldomainjét
+error-premium-set-subdomain = Az aldomain beállításához prémium előfizetőnek kell lennie
+error-premium-check-subdomain = Az aldomain ellenőrzéséhez prémium előfizetőnek kell lennie
+error-premium-set-create-subdomain = Az aldomain álnevek létrehozásához prémium előfizetőnek kell lennie
+error-subdomain-not-created = Nem sikerült létrehozni az aldomaint, próbálkozzon mással
+error-subdomain-email-not-created = Nem sikerült e-mail-címet létrehozni az aldomainnel, próbálkozzon mással
+error-subdomain-select = Ki kell választania egy aldomaint, mielőtt aldomain álnevet hozna létre
+error-subdomain-not-available = A(z) @{ $unavailable_subdomain } domain nem érhető el. Próbálja újra egy másik domainnel.
 
 ## Onboarding 
 
+onboarding-headline = Hozza létre az első álnevét, ennek három módja van…
+onboarding-alias-tip-1 = Válassza az „Új álnév előállítása” lehetőséget az első álneve létrehozásához.
+onboarding-alias-tip-2 = Használja a { -brand-name-relay } kiegészítőt, válassza a { -brand-name-firefox-relay } ikont, ha megjelenik az e-mail mezőkben.
+onboarding-alias-tip-3 = Használja a { -brand-name-relay } kiegészítőt, kattintson jobb gombbal egy űrlapmezőre, és válassza az „Új álnév előállítása” lehetőséget.
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Üdvözli a { -brand-name-firefox } { -brand-name-relay-premium }
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
