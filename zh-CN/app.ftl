@@ -171,6 +171,7 @@ premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
+premium-promo-perks-perk-unlimited-body = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
 premium-promo-perks-perk-custom-domain-body =
     借助自定义域名功能，可创建比以往更好记和分享的马甲。
