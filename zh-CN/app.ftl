@@ -181,6 +181,7 @@ premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay 
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站指定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
 premium-promo-use-cases-social-networks-heading = 社交网络
+premium-promo-use-cases-social-networks-body = 想在社交网络上更好地保护个人信息？在每个社交平台使用不同的 { -brand-name-relay } 马甲，可帮助保护您的真实邮箱地址免遭泄露。
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像“onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
 premium-promo-pricing-free-price = 您当前的免费方案
@@ -449,6 +450,9 @@ multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 multi-part-onboarding-premium-get-domain = 获取自定义域名
 multi-part-onboarding-reply-headline = 回复邮件
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 Relay 附加组件随时创建马甲。
 multi-part-onboarding-premium-domain-description =
     借助自定义域名功能，您可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
