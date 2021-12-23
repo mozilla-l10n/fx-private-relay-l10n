@@ -409,15 +409,19 @@ onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
 onboarding-premium-domain-description = 透過自訂網域，可以讓「電子報」別名跟「購物資訊」別名不同。
 onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
 onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件嗎？只要如往常一般方式回信，仍可透過別名來保護您的地址。
+onboarding-premium-title-detail = 透過 { -brand-name-firefox-relay-premium }，您可以：
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封郵件自行控制哪些能進到信件匣。
 multi-part-onboarding-premium-welcome-title = 自行控制要收到哪些郵件：
+multi-part-onboarding-premium-generate-unlimited-title = 產生無限量的郵件別名:
 multi-part-onboarding-premium-welcome-button-start = 開始使用
 multi-part-onboarding-premium-domain-headline = 共用別名的自訂網域名稱
 multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建立別名：
+multi-part-onboarding-premium-get-domain = 獲得自訂網域
+multi-part-onboarding-reply-headline = 回覆郵件
 multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
 multi-part-onboarding-premium-domain-button-skip = 先繼續，我之後再註冊自訂網域
 multi-part-onboarding-premium-extension-headline = 封鎖、轉寄、回覆
@@ -486,7 +490,12 @@ vpn-promo-cta = 下載 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_email } 帳號轉寄過來。
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = 升級到 { $premium_link } 即可獲得無限量的別名帳號與自訂郵件網域。
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）。若需詳細資訊，請參考我們的 { $faq_link }。
 # This entire text is a link
 forwarded-email-footer = 點擊此處停止轉寄郵件或管理別名設定。
+# This entire text is a link
+forwarded-email-footer-premium-banner = 升級到 { -brand-name-relay-premium }
