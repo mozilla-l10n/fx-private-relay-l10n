@@ -361,9 +361,31 @@ onboarding-alias-tip-3 = Használja a { -brand-name-relay } kiegészítőt, katt
 ## Premium Onboarding
 
 onboarding-premium-headline = Üdvözli a { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Mostantól e-mail-címenként <strong>szabályozhatja</strong>, hogy mi kerüljön a postaládájába.
+onboarding-premium-feature-intro = A { -brand-name-firefox } { -brand-name-relay-premium }mal a következőket teheti:
+onboarding-premium-control-title = Szabályozhatja, hogy milyen e-maileket kapjon
+onboarding-premium-control-description = Korlátlan számú e-mail álnevet oszthat meg, amelyek a valóban várt leveleket továbbítják a postafiókjába.
+onboarding-premium-domain-title = Egyéni domaint használthat az álnevek megosztásához
+onboarding-premium-domain-description = Egy egyéni domain használatával a „hírlevél” álneve eltérhet a „vásárlás” álnevétől.
+onboarding-premium-reply-title = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
+onboarding-premium-reply-description = Válaszolnia kell az álnévre küldött levelekre? Csak válaszoljon a szokásos módon – az álnév továbbra is védi az e-mail címét.
+onboarding-premium-title-detail = A { -brand-name-firefox-relay-premium }mal a következőket teheti:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = Üdvözli a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Mostantól e-mail-címenként szabályozhatja, hogy mi kerüljön a postaládájába.
+multi-part-onboarding-premium-welcome-title = Szabályozhatja, hogy milyen e-maileket kapjon:
+multi-part-onboarding-premium-generate-unlimited-title = Korlátlan számú e-mail álnév előállítása:
+multi-part-onboarding-premium-welcome-button-start = Kezdő lépések
+multi-part-onboarding-premium-domain-headline = Egyéni domain az álnevek megosztásához
+multi-part-onboarding-premium-domain-title = Szerezzen egyéni domaint az álneveihez:
+multi-part-onboarding-premium-get-domain = Egyéni domain beszerzése
+multi-part-onboarding-reply-headline = Válaszoljon a leveleire
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
 
 ## Modals
 
