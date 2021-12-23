@@ -457,6 +457,7 @@ multi-part-onboarding-premium-welcome-description = 突破 5 个马甲的数量�
 multi-part-onboarding-premium-domain-description =
     借助自定义域名功能，您可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
+multi-part-onboarding-premium-get-domain-description = 马甲 + 自定义域名：向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customdomain{ $mozmail }”就好
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
 multi-part-onboarding-premium-domain-button-skip = 继续，我之后再注册自定义域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
