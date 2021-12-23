@@ -487,6 +487,9 @@ multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fa
 multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
 multi-part-onboarding-premium-get-domain = Krij in oanpast domein
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliassen mear: jo kinne no safolle oanpaste of ferskate aliassen generearje as jo nedich binne. Op desktop, kinne jo de Relay-add-on brûke om se daliks oan te meitsjen.
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
@@ -569,3 +572,5 @@ forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email 
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
 # This entire text is a link
 forwarded-email-footer = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle aliassen beheare.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-premium }
