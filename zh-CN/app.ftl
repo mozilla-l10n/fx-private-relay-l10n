@@ -436,17 +436,19 @@ onboarding-premium-domain-title = 用自定义域名创建马甲邮箱
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
+onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享：
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
 multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
+multi-part-onboarding-premium-generate-unlimited-title = 生成不限数量的马甲邮箱：
 multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = 获取自定义域名
+multi-part-onboarding-reply-headline = 回复邮件
 multi-part-onboarding-premium-domain-description =
     借助自定义域名功能，您可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
@@ -519,7 +521,12 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = 升级为 { $premium_link }，即享不限数量马甲和自定义域名。
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
 # This entire text is a link
 forwarded-email-footer = 点此停止转发邮件或管理马甲设置。
+# This entire text is a link
+forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
