@@ -268,6 +268,11 @@ profile-label-copied = Másolva!
 profile-label-blocked = Blokkolva
 profile-label-forwarded = Továbbítva
 profile-label-cancel = Mégse
+profile-blocked-copy = Ha a blokkolást választja ennél az álnévnél, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
+profile-forwarded-copy = Ha a továbbítást választja ennél az álnévnél, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
+profile-forwarded-note = Megjegyzés:
+profile-forwarded-note-copy = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) jelenleg nem támogatottak, és nem kerülnek továbbításra.
+profile-forwarded-note-copy-v2 = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) nem lesznek továbbítva.
 profile-stat-label-blocked = Blokkolt e-mailek
 profile-stat-label-forwarded = Továbbított e-mailek
 profile-stat-label-aliases-used = Használt e-mail álnevek
@@ -286,12 +291,57 @@ profile-filter-category-option-critical-only-aliases = „Csak kritikus” álne
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
+banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox }szal
+banner-download-firefox-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek létrehozását.
+banner-download-firefox-cta = { -brand-name-firefox } beszerzése
+banner-download-install-extension-headline = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
+banner-download-install-extension-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek használatát.
+banner-download-install-extension-cta = A { -brand-name-relay } hozzáadása a { -brand-name-firefox }hoz
+banner-upgrade-headline = Frissítés a { -brand-name-relay-premium }ra
+banner-upgrade-copy = A { -brand-name-firefox } { -brand-name-relay-premium } még könnyebbé teszi az e-mail álnevek létrehozását, az egyéni álnévdomainek és a korlátlan számú álnévnek köszönhetően.
+banner-upgrade-cta = Frissítés a { -brand-name-relay-premium }ra
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Műveleti lépés
+banner-register-subdomain-headline-aliases = Szerezzen egyéni domaint az álneveihez
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = yourdomain
+banner-choose-subdomain-input-placeholder = Domain keresése
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Keresés
+banner-pack-upgrade-headline-html = Frissítsen <strong>{ -brand-name-firefox } { -brand-name-relay-premium }ra</strong>, hogy több álnevet kapjon
+banner-pack-upgrade-copy = A korlátlan számú e-mail álnévnek és az egyéni e-mail domainnek köszönhetően, a { -brand-name-firefox } { -brand-name-relay-premium } segít megőrizni az online védelmét.
+banner-pack-upgrade-cta = Frissítés most
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Adatvédelmi nyilatkozat frissítése
+banner-label-privacy-notice-update-body = A { -brand-name-firefox-relay } megbízhatóságának javítása érdekében, arra az esetre, ha egy e-mailt nem sikerül kézbesíteni, az e-mailt ideiglenesen a kiszolgálóinkon tároljuk, amíg az kézbesítésre nem kerül. Soha nem tartjuk meg három napnál tovább.
+banner-label-privacy-notice-update-cta = Adatvédelmi nyilatkozat megtekintése
+# Data Notification Banner:
+banner-label-data-notification-header = Hamarosan elérhető a { -brand-name-relay }ben
+banner-label-data-notification-cta = Ugrás a beállításokhoz
+banner-label-data-notification-header-v2 = Új funkciók engedélyezése
+banner-label-data-notification-body-v2 = Engedélyezheti a { -brand-name-relay } számára, hogy nem kötelező adatokat gyűjtsön, amely lehetővé teszik számunkra, hogy szinkronizáljuk a webhelyekhez létrehozott és használt álnévcímkéit az eszközei között.
+banner-label-data-notification-body-cta = További tudnivalók
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Az Ön domainje:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létrehozhat
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = Az Ön @{ $subdomain } domainje létrejött
+success-settings-update = A beállításai frissítve lettek
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases = Prémium előfizetőnek kell lennie, hogy több mint { $number } álnevet hozhasson létre
 
 ## Onboarding 
 
