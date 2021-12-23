@@ -245,6 +245,17 @@ faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Üdvözöljük,</span> { $email }!
+profile-headline-manage-domain = Saját domain álnevek kezelése
+profile-supports-email-forwarding = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja
+profile-promo-upgrade-headline = Frissítsen a még több funkcióért.
+profile-promo-upgrade-copy = A { -brand-name-relay } frissítésével korlátlan számú e-mail-címet és saját e-mail domaint kaphat.
+profile-promo-upgrade-cta = A { -brand-name-relay } frissítése
+profile-label-edit = Az álnév címkéjének szerkesztése
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Fióknév hozzáadása
 profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-skip = Kihagyás
@@ -386,15 +397,63 @@ multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
+multi-part-onboarding-premium-domain-description = Egyéni domain használatakor olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Csak mondja, hogy kaja@yourdomain{ $mozmail } – nem szükséges előzetesen létrehoznia az álnevet.
+multi-part-onboarding-premium-get-domain-description = Használjon egyéni domaint az álnevek megosztásához: Egyéni domainnel anélkül hozhat létre álneveket, hogy előzetesen előállította volna. Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@customdomain{ $mozmail }”.
+multi-part-onboarding-premium-domain-cta = Regisztrálja egyéni domainjét most:
+multi-part-onboarding-premium-domain-button-skip = Folytatás, később regisztrálom az egyéni domainomat
+multi-part-onboarding-premium-extension-headline = Blokkolás, továbbítás és válasz
+multi-part-onboarding-premium-extension-reply-title = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét:
+multi-part-onboarding-premium-extension-get-title = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
+multi-part-onboarding-premium-extension-get-description = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek használatát.
+multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } kiegészítő beszerzése
+multi-part-onboarding-premium-extension-button-skip = Folytatás, később töltöm le a kiegészítőt
+multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
+multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
 
 ## Modals
 
+modal-rename-alias-saved = Címke mentve!
+modal-delete-headline = Véglegesen törli ezt az álnevet?
+modal-delete-confirmation = Igen, törlöm ezt az álnevet.
+modal-domain-register-good-news = Jó hírek!
+modal-domain-register-warning-reminder = Ne feledje, hogy csak egy domaint regisztrálhat. Később nem fogja tudni megváltoztatni.
+modal-domain-register-button = Domain regisztrálása
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = A(z) { $subdomain } elérhető!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdomain }
+modal-domain-register-success-title = Sikerült!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = A(z) { $subdomain } mostantól az Ön e-mail domainje!
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = A { -brand-name-relay } könnyen használható?
+survey-question-3 = Megbízhatónak érzi a { -brand-name-relay }t?
+survey-question-4 = A { -brand-name-relay }nek letisztult és egyszerű a megjelenése?
+survey-question-5 = Mit érezne, ha már nem használhatná a { -brand-name-relay }t?
+survey-option-strongly-disagree = Egyáltalán nem ért egyet
+survey-option-disagree = Nem ért egyet
+survey-option-unsure = Bizonytalan
+survey-option-agree = Egyetért
+survey-option-strongly-agree = Teljesen egyetért
+survey-option-i-wouldnt-care = Nem érdekelné
+survey-option-somewhat-disappointed = Kissé csalódna
+survey-option-very-disappointed = Nagyon csalódna
+survey-option-very-likely = Nagyon valószínű
+survey-option-not-likely = Nem valószínű
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Takarítson meg 50%-ot az éves előfizetéssel
+vpn-promo-copy = Védje meg online adatait, és válasszon egy Önnek megfelelő VPN-előfizetést.
+vpn-promo-cta = { -brand-name-mozilla-vpn } beszerzése
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# This entire text is a link
+forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premium }ra
