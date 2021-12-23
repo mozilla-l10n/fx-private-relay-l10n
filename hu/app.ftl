@@ -94,7 +94,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline = Új álnév létrehozása
 how-it-works-step-2-copy =
     Böngészés közben megjelenik a { -brand-name-relay } ikon ott, ahol a webhelyek az Ön e-mail címét kérik.
-    Válassza ki egy új, véletlenszerű cím létrehozásához, amely a @relay.firefox.com címre végződik.
+    Válassza ki egy új, véletlenszerű cím előállításához, amely a @relay.firefox.com címre végződik.
     A { -brand-name-relay } az üzeneteket a fiókjához társított elsődleges e-mail-címre továbbítja.
 how-it-works-step-3-headline = Saját álnevek kezelése
 how-it-works-step-3-copy =
@@ -124,7 +124,7 @@ landing-how-it-works-step-1-body = Mindenhol automatikusan állítson elő e-mai
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Böngészés közben megjelenik a { -brand-name-relay } ikon, ahol a webhelyek az Ön e-mail-címét kérik.
-    Válassza ki egy új, véletlenszerű cím létrehozásához, amely a @relay.mozmail.com címre végződik.
+    Válassza ki egy új, véletlenszerű cím előállításához, amely a @relay.mozmail.com címre végződik.
 landing-how-it-works-step-3-body =
     Jelentkezzen be a { -brand-name-relay } irányítópultra, hogy nyomon követhesse a létrehozott álneveket. A { -brand-name-relay } továbbítani fogja az üzeneteket az Ön e-mail-címére.
     Ha egy álnév spamet vagy kéretlen üzeneteket kap, letilthatja az összes üzenetet, vagy akár törölheti is az álnevet, közvetlenül az irányítópulton.
@@ -195,7 +195,7 @@ premium-promo-perks-lead = A { -brand-name-firefox-relay-premium } segítségév
 premium-promo-perks-cta-label = Frissítsen most
 premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Korlátlan számú e-mail álnév létrehozása
-premium-promo-perks-perk-unlimited-body = Nincs többé öt álneves korlát: a { -brand-name-relay-premium } segítségével annyi álnevet hozhat létre, amennyire csak szüksége van, hogy megvédje a postaládáját a spammerektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
+premium-promo-perks-perk-unlimited-body = Nincs többé öt álneves korlát: a { -brand-name-relay-premium } segítségével annyi álnevet állíthat elő, amennyire csak szüksége van, hogy megvédje a postaládáját a spammerektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
 premium-promo-perks-perk-custom-domain-headline = Válassza ki saját egyéni domainjét
 premium-promo-perks-perk-custom-domain-body = Egyéni domain segítségével olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Használja például a kaja@mydomain.mozmail.com címet – nem szükséges előzetesen létrehoznia az álnevet.
 premium-promo-perks-perk-dashboard-headline = Kezelje az álneveit az irányítópultról
@@ -223,7 +223,7 @@ settings-error-save-description = A beállítások módosításai kapcsolati hib
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Az e-mail álnév címke funkció ki van kapcsolva
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-description = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail álneveket hozott létre és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
+settings-warning-collection-off-description = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail álneveket állított elő és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Adatvédelem
 setting-label-collection-description = Engedélyezés a { -brand-name-relay } számára, hogy adatokat gyűjtsön azokról a webhelyekről, amelyeken az álneveket létrehozta és használja.
@@ -242,6 +242,7 @@ faq-headline = Gyakran Ismételt Kérdések
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
+faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
 
 ## Profile Page (Logged In)
 
@@ -256,6 +257,15 @@ profile-promo-upgrade-cta = A { -brand-name-relay } frissítése
 profile-label-edit = Az álnév címkéjének szerkesztése
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Fióknév hozzáadása
+profile-label-save-error = A mentés sikertelen, próbálja újra.
+profile-label-saved = Címke mentve!
+profile-label-generate-new-alias = Új álnév előállítása
+profile-label-delete = Törlés
+profile-label-delete-alias = Álnév törlése
+profile-label-upgrade = Szerezzen korlátlan számú álnevet
+profile-label-create-domain = Szerezzen saját e-mail domaint
+profile-label-domain = E-mail domain:
+profile-label-domain-tooltip = Hozza létre az egyedi és egyéni e-mail domainjét.
 profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-skip = Kihagyás
