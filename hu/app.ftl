@@ -270,7 +270,15 @@ faq-question-2-answer-v3-html =
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
 faq-question-1-answer-a = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító álnevet.
 faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
+faq-question-availability-answer = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svájcban, Hollandiában és Írországban érhető el.
+faq-question-4-question = Válaszolhatok az üzenetekre a { -brand-name-relay } álnevem használatával?
+faq-question-subdomain-characters-question = Milyen karaktereket használhatok aldomain létrehozásánál?
+faq-question-subdomain-characters-answer-v2 = Aldomain létrehozásához csak kisbetűs angol betűket, számokat és kötőjeleket használhat.
+faq-question-browser-support-question = Használhatom a { -brand-name-relay }t más böngészőkön vagy a mobileszközömön?
 faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
+faq-question-longevity-question = Mi történik, ha a Mozilla leállítja a { -brand-name-firefox-relay } szolgáltatást?
+faq-question-longevity-answer = Előzetesen értesíteni fogjuk, hogy meg kell változtatnia minden olyan fiókja e-mail-címét, amely { -brand-name-relay } álneveket használ.
+faq-question-mozmail-question = Miért kezdték el az álneveim a „mozmail.com” domaint használni?
 
 ## Profile Page (Logged In)
 
