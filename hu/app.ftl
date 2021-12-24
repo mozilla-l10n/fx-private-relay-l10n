@@ -242,6 +242,7 @@ faq-headline = Gyakran Ismételt Kérdések
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
+faq-question-what-is-answer = Az e-mail álnevek olyan maszkolt e-mail-címek, amelyek a valódi e-mail-címére továbbítják az üzeneteket. Ezek az álnevek lehetővé teszik, hogy úgy ossza meg a címet harmadik felekkel, hogy közben elfedi a valódi e-mail-címét, és oda továbbítja az üzeneteket.
 faq-question-missing-emails-question = Nem kapok üzeneteket az álneveimtől
 faq-question-missing-emails-answer-a = Számos oka lehet annak, hogy miért nem kapja meg az álneveken keresztül továbbított leveleket. Pár lehetséges ok:
 faq-question-missing-emails-answer-reason-spam = Az üzenetek levélszemétbe kerülnek
@@ -267,6 +268,8 @@ faq-question-2-answer-v3-html =
     Előfordulhat, hogy egyes webhelyek nem fogadnak el olyan e-mail-címeket, melyek aldomaint (@aldomain.mozmail.com) tartalmaznak, mások pedig nem fogadnak el minden címet, csak Gmail, Hotmail vagy Yahoo fiókokat.
     Ha nem tudja használni a { -brand-name-relay } álnevet, akkor <a href="{ $url }" { $attrs }>tudassa velünk</a>.
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
+faq-question-1-answer-a = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító álnevet.
+faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
 faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
 
 ## Profile Page (Logged In)
