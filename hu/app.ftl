@@ -282,6 +282,8 @@ faq-question-mozmail-question = Miért kezdték el az álneveim a „mozmail.com
 faq-question-mozmail-answer = Azért váltottunk a „relay.firefox.com”-ról a „mozmail.com”-ra, hogy lehetőség legyen egyéni email domain használatára, például erre: alias@yourdomain.mozmail.com. Az egyéni e-mail tartományokkal, melyek { -brand-name-relay-premium } előfizetők számára érhetők el, az e-mail álneveket is könnyebben megjegyezhetővé válnak mint a véletlenszerű álnevek.
 faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja a mellékletekkel rendelkező leveleket?
 faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
+faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
+faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
 
 ## Profile Page (Logged In)
 
@@ -478,9 +480,11 @@ modal-domain-register-success-title = Sikerült!
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = A(z) { $subdomain } mostantól az Ön e-mail domainje!
+modal-domain-register-success-copy = Mostantól korlátlan számú e-mail álnevet hozhat létre az új domain használatával. Mire vár?
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = 1-től 10-ig terjedő skálán, mekkora valószínűséggel ajánlaná a { -brand-name-relay }t egy barátjának vagy kollégájának?
 survey-question-2 = A { -brand-name-relay } könnyen használható?
 survey-question-3 = Megbízhatónak érzi a { -brand-name-relay }t?
 survey-question-4 = A { -brand-name-relay }nek letisztult és egyszerű a megjelenése?
@@ -504,5 +508,18 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } beszerzése
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Ezt az üzenetet a(z) { $display_email } továbbította a következőtől: { $linked_origin }.
+forwarded-email-header-cc-notice = A { -brand-name-relay-premium } eltávolítja a „Másolatot kap” és „Vakmásolatot kap” mezőket a válaszokból. Ha újra felveszi őket, akkor kikerül a valódi e-mail-címe.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú álnévhez és egy egyéni e-mail-domainhez jusson.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja. További információkért lásd a { $faq_link } oldalunkat.
+# This entire text is a link
+forwarded-email-footer = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes álnévbeállítást.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premium }ra
