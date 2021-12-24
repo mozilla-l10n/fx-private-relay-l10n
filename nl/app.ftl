@@ -480,18 +480,21 @@ onboarding-premium-title-detail = Met { -brand-name-firefox-relay-premium } kunt
 multi-part-onboarding-premium-welcome-headline = Welkom bij { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = U kunt nu bepalen wat er in uw Postvak IN belandt, één e-mailbericht tegelijk.
 multi-part-onboarding-premium-welcome-title = Bepalen welke e-mailberichten u ontvangt:
-multi-part-onboarding-premium-generate-unlimited-title = Genereer onbeperkte e-mailaliassen:
+multi-part-onboarding-premium-generate-unlimited-title = Onbeperkte e-mailaliassen aanmaken:
 multi-part-onboarding-premium-welcome-button-start = Beginnen
 multi-part-onboarding-premium-domain-headline = Aangepast domein voor het delen van aliassen
 multi-part-onboarding-premium-domain-title = Een aangepast domein verkrijgen voor uw aliassen:
-multi-part-onboarding-premium-get-domain = Krijg een aangepast domein
-multi-part-onboarding-reply-headline = Beantwoord uw e-mailberichten
+multi-part-onboarding-premium-get-domain = Een aangepast domein verkrijgen
+multi-part-onboarding-reply-headline = Uw e-mailberichten beantwoorden
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = Geen limiet van vijf aliassen meer: u kunt nu zoveel aangepaste of willekeurige aliassen genereren als u nodig heeft. Op desktop kunt u de Relay-add-on gebruiken om ze onderweg aan te maken.
 multi-part-onboarding-premium-domain-description =
     Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
     Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
+multi-part-onboarding-premium-get-domain-description =
+    Een aangepast domein voor het delen van aliassen gebruiken: met een aangepast domein kunt u
+    aliassen aanmaken zonder deze vooraf aan te hoeven maken. Heeft u er een nodig om u aan te melden voor een nieuwsbrief? Gebruik gewoon ‘lezen@aangepastdomein{ $mozmail }’
 multi-part-onboarding-premium-domain-cta = Registreer nu uw aangepaste domein:
 multi-part-onboarding-premium-domain-button-skip = Doorgaan, ik registreer mijn aangepaste domein later
 multi-part-onboarding-premium-extension-headline = Blokkeren, doorsturen en beantwoorden
