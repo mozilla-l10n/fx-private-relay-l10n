@@ -486,6 +486,9 @@ multi-part-onboarding-premium-domain-headline = Aangepast domein voor het delen 
 multi-part-onboarding-premium-domain-title = Een aangepast domein verkrijgen voor uw aliassen:
 multi-part-onboarding-premium-get-domain = Krijg een aangepast domein
 multi-part-onboarding-reply-headline = Beantwoord uw e-mailberichten
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Geen limiet van vijf aliassen meer: u kunt nu zoveel aangepaste of willekeurige aliassen genereren als u nodig heeft. Op desktop kunt u de Relay-add-on gebruiken om ze onderweg aan te maken.
 multi-part-onboarding-premium-domain-description =
     Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
     Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
