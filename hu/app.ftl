@@ -257,6 +257,7 @@ faq-question-missing-emails-answer-b-html = Ha Ön { -brand-name-relay-premium }
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Ha a fenti problémák bármelyikével küzd, akkor <a href="{ $url }" { $attrs }>keresse fel a támogatási webhelyünket</a>.
 faq-question-use-cases-question = Mikor használjam a { -brand-name-relay } álneveket?
+faq-question-use-cases-answer-part1 = A legtöbb helyen használhatja a { -brand-name-relay } álneveket, ahol a szokásos e-mail-címét használná. Azt javasoljuk, hogy akkor használja őket, amikor olyan marketinges/információs e-mailekre iratkozik fel, ahol esetleg szabályozni szeretné, hogy a jövőben kapjon-e leveleket.
 faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
 
 ## Profile Page (Logged In)
