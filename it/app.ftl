@@ -195,7 +195,7 @@ premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la 
 premium-promo-perks-cta-label = Aggiorna adesso
 premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Crea alias illimitati
-premium-promo-perks-perk-unlimited-body = Niente più limiti di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
+premium-promo-perks-perk-unlimited-body = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
 premium-promo-perks-perk-custom-domain-headline = Scegli il tuo dominio personalizzato
 premium-promo-perks-perk-custom-domain-body = Con un dominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
 premium-promo-perks-perk-dashboard-headline = Gestisci i tuoi alias dalla dashboard
@@ -477,6 +477,9 @@ multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli a
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
 multi-part-onboarding-premium-get-domain = Ottenere un dominio personalizzato
 multi-part-onboarding-reply-headline = Rispondi alle tue email
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione Relay per crearli sul momento.
 multi-part-onboarding-premium-domain-description =
     Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
     Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
