@@ -242,6 +242,21 @@ faq-headline = Gyakran Ismételt Kérdések
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
+faq-question-missing-emails-question = Nem kapok üzeneteket az álneveimtől
+faq-question-missing-emails-answer-a = Számos oka lehet annak, hogy miért nem kapja meg az álneveken keresztül továbbított leveleket. Pár lehetséges ok:
+faq-question-missing-emails-answer-reason-spam = Az üzenetek levélszemétbe kerülnek
+faq-question-missing-emails-answer-reason-blocked = Az e-mail-szolgáltatója blokkolja az álnevét
+faq-question-missing-emails-answer-reason-size = A továbbított e-mail melléklete nagyobb, mint { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted = Az oldal nem fogad el álneveket
+faq-question-missing-emails-answer-reason-turned-off = Lehet, hogy az álnév továbbítása ki van kapcsolva
+faq-question-missing-emails-answer-reason-delay = A { -brand-name-relay }nek a szokásosnál tovább tarthat az üzenetei továbbítása
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Ha Ön { -brand-name-relay-premium } felhasználó, és a fenti problémák bármelyikével küszködik, akkor <a href="{ $url }" { $attrs }>vegye fel a kapcsolatot az ügyfélszolgálati csapatunkkal</a>.
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = Ha a fenti problémák bármelyikével küzd, akkor <a href="{ $url }" { $attrs }>keresse fel a támogatási webhelyünket</a>.
+faq-question-use-cases-question = Mikor használjam a { -brand-name-relay } álneveket?
 faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
 
 ## Profile Page (Logged In)
