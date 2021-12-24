@@ -464,6 +464,7 @@ onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli a
 onboarding-premium-domain-description = Con un dominio personalizzato, puoi impostare alias differenti per “newsletter” e “shopping”.
 onboarding-premium-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale
 onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
+onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } puoi:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
@@ -473,8 +474,7 @@ multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
 multi-part-onboarding-premium-welcome-button-start = Inizia
 multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Ottenere un dominio personalizzato
 multi-part-onboarding-premium-domain-description =
     Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
     Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
