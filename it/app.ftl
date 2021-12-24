@@ -476,13 +476,16 @@ multi-part-onboarding-premium-welcome-button-start = Inizia
 multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
 multi-part-onboarding-premium-get-domain = Ottenere un dominio personalizzato
-multi-part-onboarding-reply-headline = Rispondi alle tue email
+multi-part-onboarding-reply-headline = Rispondere alle tue email
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione Relay per crearli sul momento.
 multi-part-onboarding-premium-domain-description =
     Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
     Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
+multi-part-onboarding-premium-get-domain-description =
+    Utilizza un dominio personalizzato per condividere gli alias: con un dominio personalizzato puoi creare 
+    alias senza doverli generare in anticipo. Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
 multi-part-onboarding-premium-domain-button-skip = Continua, registrerò il mio dominio personalizzato più tardi
 multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
