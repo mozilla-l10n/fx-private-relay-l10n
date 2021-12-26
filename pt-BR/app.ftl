@@ -464,17 +464,19 @@ onboarding-premium-domain-title = Usar um domínio personalizado para compartilh
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
 onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
 onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
+onboarding-premium-title-detail = Com o { -brand-name-firefox-relay-premium } você pode:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Boas-vindas ao { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Agora você pode controlar o que chega em sua caixa de entrada, um email por vez.
 multi-part-onboarding-premium-welcome-title = Controle quais emails você recebe:
+multi-part-onboarding-premium-generate-unlimited-title = Gerar endereços de redirecionamento de email ilimitados:
 multi-part-onboarding-premium-welcome-button-start = Introdução
 multi-part-onboarding-premium-domain-headline = Domínio personalizado para compartilhar endereços de redirecionamento
 multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos endereços de redirecionamento:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain = Ter um domínio personalizado
+multi-part-onboarding-reply-headline = Responder seus emails
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
     Precisa de um endereço de redirecionamento para reservas em restaurantes? Basta informar comida@seudominio{ $mozmail } — Não precisa criar antes o endereço de redirecionamento.
@@ -551,7 +553,12 @@ vpn-promo-cta = Instale o { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Esta mensagem foi encaminhada de { $display_email } por { $linked_origin }.
 forwarded-email-header-cc-notice = O { -brand-name-relay-premium } remove remetentes em Cc e Cco de suas respostas. Se você voltar a adicionar, seu endereço de email real é exposto.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Mude para o { $premium_link } para ter endereços de redirecionamento ilimitados e um domínio de email personalizado.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }. Saiba mais em { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Parar de encaminhar email e gerenciar configurações de todos os endereços de redirecionamento.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Mudar para o { -brand-name-relay-premium }
