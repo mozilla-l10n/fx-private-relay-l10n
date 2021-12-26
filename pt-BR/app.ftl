@@ -477,6 +477,9 @@ multi-part-onboarding-premium-domain-headline = Domínio personalizado para comp
 multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos endereços de redirecionamento:
 multi-part-onboarding-premium-get-domain = Ter um domínio personalizado
 multi-part-onboarding-reply-headline = Responder seus emails
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Chega de limite de cinco endereços de redirecionamento. Agora você pode gerar quantos endereços precisar, personalizados ou aleatórios. No computador, você pode usar a extensão Relay para criar na hora.
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
     Precisa de um endereço de redirecionamento para reservas em restaurantes? Basta informar comida@seudominio{ $mozmail } — Não precisa criar antes o endereço de redirecionamento.
