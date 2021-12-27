@@ -420,6 +420,7 @@ onboarding-premium-domain-title = Χρησιμοποιήστε έναν προσ
 onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 onboarding-premium-reply-description = Θέλετε να απαντήσετε σε email που απεστάλησαν σε ένα ψευδώνυμο; Απαντήστε κανονικά — το ψευδώνυμό σας θα προστατεύσει τη διεύθυνση email.
+onboarding-premium-title-detail = Με το { -brand-name-firefox-relay-premium }, μπορείτε να:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
@@ -509,3 +510,5 @@ forwarded-email-header-cc-notice = Το { -brand-name-relay-premium } αφαιρ
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
 # This entire text is a link
 forwarded-email-footer = Διακόψτε την προώθηση email και διαχειριστείτε τις ρυθμίσεις για όλα τα ψευδώνυμα εδώ.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Αναβάθμιση στο { -brand-name-relay-premium }
