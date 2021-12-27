@@ -493,6 +493,9 @@ multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliasse
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
+multi-part-onboarding-premium-get-domain-description =
+    In oanpast domein foar it dielen fan aliassen brûke: mei in oanpast domein kinne jo
+    aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen. Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
 multi-part-onboarding-premium-domain-cta = Registrearje no jo oanpaste domein:
 multi-part-onboarding-premium-domain-button-skip = Trochgean, ik registrearje myn oanpaste domein letter
 multi-part-onboarding-premium-extension-headline = Blokkearje, trochstjoere en beäntwurdzje
@@ -567,6 +570,10 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloade
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email } troch { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo echte e-mailadres sichtber.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Wurdearje op nei { $premium_link } om ûnbeheinde aliassen en in oanpast e-maildomein te krijen.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
