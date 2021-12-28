@@ -505,20 +505,28 @@ onboarding-premium-domain-title = Používajte pre svoje aliasy vlastnú doménu
 onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
 onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
 onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
+onboarding-premium-title-detail = So službou { -brand-name-firefox-relay-premium } môžete:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Teraz môžete mať kontrolu nad tým, čo sa dostane do vašej e-mailovej schránky, jeden e-mail po druhom.
 multi-part-onboarding-premium-welcome-title = Majte kontrolu nad tým, aké e-maily budete dostávať:
+multi-part-onboarding-premium-generate-unlimited-title = Vytvárajte neobmedzený počet e-mailových aliasov:
 multi-part-onboarding-premium-welcome-button-start = Začíname
 multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie aliasov
 multi-part-onboarding-premium-domain-title = Získajte vlastnú doménu pre svoje aliasy:
+multi-part-onboarding-premium-get-domain = Získajte vlastnú doménu
+multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Už žiadne obmedzenie na päť aliasov: teraz môžete generovať toľko vlastných alebo náhodných aliasov, koľko potrebujete. Jednoducho pomocou doplnku Relay.
 multi-part-onboarding-premium-domain-description =
     Pomocou vlastnej domény môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať.
     Potrebujete alias na rezervácie v reštaurácii? Stačí zadať jedlo@vašadoména{ $mozmail } — nie je potrebné vytvárať alias vopred.
+multi-part-onboarding-premium-get-domain-description =
+    Použite vlastnú doménu na zdieľanie aliasov: s vlastnou doménou môžete vytvárať
+    aliasy bez toho, aby ste ich museli vopred generovať. Potrebujete alias na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vašadoména{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta = Zaregistrujte svoju vlastnú doménu teraz:
 multi-part-onboarding-premium-domain-button-skip = Pokračovať, svoju vlastnú doménu si zaregistrujem neskôr
 multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
@@ -595,7 +603,12 @@ vpn-promo-cta = Získajte { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Táto správa bola preposlaná z adresy { $display_email } službou { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } odstraňuje polia Kópia a Skrytá kópia z vašich odpovedí. Ak ich znova pridáte, váš skutočný e-mail bude odhalený.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Inovujte na { $premium_link } a získajte neobmedzené aliasy a vlastnú e-mailovú doménu.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky aliasy.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Inovujte na { -brand-name-relay-premium }
