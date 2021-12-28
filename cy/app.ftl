@@ -468,20 +468,28 @@ onboarding-premium-domain-title = Defnyddio parth personol ar gyfer rhannu arall
 onboarding-premium-domain-description = Gyda pharth personol, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
 onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
+onboarding-premium-title-detail = Gyda { -brand-name-firefox-relay-premium } gallwch:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'n taro'ch blwch derbyn, un e-bost ar y tro.
 multi-part-onboarding-premium-welcome-title = Rheolwch pa e-byst rydych yn eu derbyn:
+multi-part-onboarding-premium-generate-unlimited-title = Crëu arallenwau e-bost dirifedi:
 multi-part-onboarding-premium-welcome-button-start = Cychwyn Arni
 multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu arallenwau
 multi-part-onboarding-premium-domain-title = Cael parth personol ar gyfer eich arallenwau:
+multi-part-onboarding-premium-get-domain = Cael parth cyfaddas
+multi-part-onboarding-reply-headline = Ateb i'ch e-byst
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Dim mwy o ddim ond pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau cyfaddas neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn Relay i'w creu yn ôl yr angen.
 multi-part-onboarding-premium-domain-description =
     Gan ddefnyddio parth personol, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
     Angen arallenw ar gyfer archebion bwyty? Dim ond rhoi bwyd@ eichparth{ $mozmail } - Does dim angen creu'r arallenw ymlaen llaw.
+multi-part-onboarding-premium-get-domain-description =
+    Defnyddiwch barth cyfaddas ar gyfer rhannu arallenwau: Gyda pharth cyfaddas, gallwch greu
+    arallenwau heb orfod eu cynhyrchu ymlaen llaw. Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth personol nawr:
 multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth personol yn nes ymlaen
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
@@ -558,7 +566,12 @@ vpn-promo-cta = Cael { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } gan { $linked_origin }.
 forwarded-email-header-cc-notice = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Uwchraddiwch i { $premium_link } i gael arallenwau dirifedi a pharth e-bost cyfaddas.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premium }
