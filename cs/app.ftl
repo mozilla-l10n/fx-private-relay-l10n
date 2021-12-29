@@ -92,6 +92,44 @@
         [ins] Mozillou VPN
     }
     .gender = feminine
+-brand-name-mozilla-privacy-pack =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Balíček soukromí od Mozilly
+                [lower] balíček soukromí od Mozilly
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Balíčku soukromí od Mozilly
+                [lower] balíčku soukromí od Mozilly
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Balíčku soukromí od Mozilly
+                [lower] balíčku soukromí od Mozilly
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Balíček soukromí od Mozilly
+                [lower] balíček soukromí od Mozilly
+            }
+        [voc]
+            { $capitalization ->
+               *[upper] Balíčku soukromí od Mozilly
+                [lower] balíčku soukromí od Mozilly
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Balíčku soukromí od Mozilly
+                [lower] balíčku soukromí od Mozilly
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Balíčkem soukromí od Mozilly
+                [lower] balíčkem soukromí od Mozilly
+            }
+    }
 -brand-name-firefox-lockwise =
     { $case ->
        *[nom] Firefox Lockwise
@@ -125,6 +163,44 @@
         [ins] Pocketem
     }
     .gender = masculine
+-brand-name-firefox-account =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Účet Firefoxu
+                [lower] účet Firefoxu
+            }
+        [voc]
+            { $capitalization ->
+               *[upper] Účte Firefoxu
+                [lower] účte Firefoxu
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Účtu Firefoxu
+                [lower] účtu Firefoxu
+            }
+        [ins]
+            { $capitalization ->
+               *[upper] Účtem Firefoxu
+                [lower] účtem Firefoxu
+            }
+    }
 
 ## Meta Data
 
@@ -144,10 +220,21 @@ nav-profile-sign-in = Přihlásit se
 nav-profile-sign-up = Registrace
 nav-profile-manage-fxa = Správa { -brand-name-firefox-account(case: "gen", capitalization: "lower") }
 nav-profile-sign-out = Odhlásit se
+nav-profile-sign-out-relay = Odhlásit se z { -brand-name-relay(case: "gen") }
 nav-profile-sign-out-confirm = Opravdu se chcete odhlásit?
+nav-profile-settings = Nastavení
+nav-profile-settings-tooltip = Nastavení { -brand-name-firefox-relay(case: "gen") }
+nav-profile-help = Nápověda a podpora
+nav-profile-help-tooltip = Získat pomoc s používáním služby { -brand-name-relay }
+# This is only visible to Premium users.
+nav-profile-contact = Kontakt
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Kontaktujte nás ohledně služby { -brand-name-relay-premium }
+nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Footer
 
+nav-footer-relay-terms = Podmínky používání služby { -brand-name-relay }
 nav-footer-legal = Právní informace
 logo-mozilla-alt = { -brand-name-mozilla }
 
@@ -166,16 +253,21 @@ bento-button-close-label = Zavřít nabídku
 ## Home Page
 
 home-hero-headline = Skryjte vaši skutečnou e-mailovou adresu abyste ochránili svou identitu
+home-hero-copy = Sdílejte e-mailové aliasy vygenerované službou { -brand-name-relay } místo svých skutečný adres, abyste ochránili své online účty proti hackerům. Přihlaste se ke svému { -brand-name-firefox-account(case: "dat", capitalization: "lower") }.
 home-hero-cta = Přihlásit se
 how-it-works-headline = Jak to funguje
 how-it-works-subheadline = Chraňte svou identitu. Používejte { -brand-name-firefox-browser(case: "acc", capitalization: "lower") }.
 how-it-works-step-1-headline = Získat toto rozšíření
+how-it-works-step-1-link = Stáhnout rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 how-it-works-step-1-copy = Pr začátek se přihlaste do svého { -brand-name-firefox-account(case: "acc", capitalization: "lower") }. Pro přechod na přihlašovací stránku vyberte ikonu, která se zobrazí na panelu nástrojů { -brand-name-firefox(case: "gen") }.
 how-it-works-step-2-headline = Vytvořit nový alias
 how-it-works-step-2-copy =
     Při prohlížení stránek, které žádají vaši e-mailovou adresu, se objeví tato ikona { -brand-name-relay(case: "gen") }. 
     Klepnutím na ni vygenerujete novou náhodnou adresu končící na @relay.firefox.com.
     { -brand-name-relay } přesměruje zprávy na vaši hlavní adresu spojenou s vaším účtem.
+how-it-works-step-3-copy =
+    Přihlaste se ke službě { -brand-name-relay } abyste měli přehled o aliasech, které jste vytvořili.
+    Když zjistíte, že nějaký z nich přijímá spam nebo nevyžádané zprávy, můžete zablokovat všechny zprávy nebo dokonce alias smazat, přímo ze stránky.
 
 ## Home Page Version A
 
@@ -204,10 +296,20 @@ how-it-works-step-2-copy =
 ## FAQ Page
 
 faq-headline = Často kladené otázky
+faq-question-2-question = Proč stránka nepřijímá můj alias { -brand-name-relay }?
 faq-question-1-question = A co spam?
+faq-question-1-answer-a = Ačkoliv služba { -brand-name-relay } nefiltruje spam, náš e-mailový partner Amazon SES blokuje spam a malware. Když { -brand-name-relay } přepošle zprávu, kterou nechcete, můžete změnit své nastavení na blokování zpráv z aliasu, který je přeposílá.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Pokud zjistíte větší množství nechtěných e-mailů ze všech svých aliasů, <a href="{ $url }" { $attrs }>nahlaste nám je</a>, abychom mohli zvážit úpravu nastavení služby SES pro spam. Pokud je nahlásíte jako spam, váš poskytovatel e-mailových služeb uvidí jako jejich zdroj službu { -brand-name-relay }, nikoliv skutečného odesílatele.
+faq-question-4-question = Mohu odpovídat na zprávy pomocí aliasu služby { -brand-name-relay }?
 
 ## Profile Page (Logged In)
 
+profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
+profile-promo-upgrade-copy = Upgradujte { -brand-name-relay(case: "acc") } a získejte neomezené množství e-mailových adres a vlastní e-mailovou doménu.
+profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
 
 ## Banner Messages (displayed on the profile page)
 
