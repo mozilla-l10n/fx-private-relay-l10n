@@ -271,6 +271,9 @@ how-it-works-step-3-copy =
     Přihlaste se ke službě { -brand-name-relay } abyste měli přehled o aliasech, které jste vytvořili.
     Když zjistíte, že nějaký z nich přijímá spam nebo nevyžádané zprávy, můžete zablokovat všechny zprávy nebo dokonce alias smazat, přímo ze stránky.
 hero-image-copy-trust = Můžete této společnosti vůbec důvěřovat se svými osobními e-maily?
+hero-image-copy-unique-html = <strong>Použijte unikátní adresu</strong> pro každý nový účet …
+hero-image-copy-protect-html = … díky čemuž můžete <strong>ochránit váš skutečný e-mail</strong> před sledováním a spamem.
+hero-image-copy-control-html = Nyní <em>vy máte pod kontrolou</em>, co vám přijde do e-mailové schránky!
 
 ## Home Page Version A
 
@@ -352,6 +355,11 @@ profile-label-cancel = Zrušit
 profile-blocked-copy = Pokud pro tento alias vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě před tím, než se dostanou do vaší e-mailové schránky.
 profile-forwarded-copy = Pokud vyberete pro tento alias přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
 profile-forwarded-note = Poznámka:
+profile-forwarded-note-copy = E-maily (včetně příloh) větší, než { email-size-limit } nyní nejsou podporovány a nebudou přeposlány.
+profile-stat-label-blocked = E-maily blokovány
+profile-stat-label-forwarded = E-maily přeposílány
+profile-stat-label-aliases-used = Používané e-mailové aliasy
+profile-filter-search-placeholder = Hledat aliasy
 
 ## Banner Messages (displayed on the profile page)
 
@@ -373,17 +381,31 @@ banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc")
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ještě více usnadňuje vytváření e-mailových aliasů s vlastními doménami aliasů a neomezenými aliasy.
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
+banner-choose-subdomain-input-placeholder = Hledat doménu
 banner-pack-upgrade-headline-html = Pro více aliasů upgradujte na <strong>{ -brand-name-firefox(case: "acc") } { -brand-name-relay-premium }</strong>
 banner-pack-upgrade-copy = Díky neomezenému počtu e-mailových aliasů a vaší vlastní e-mailové doméně vás { -brand-name-firefox } { -brand-name-relay-premium } na internetu ochrání.
+banner-pack-upgrade-cta = Upgradujte
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = Vaše doména je:
 
 ## Success Messages
 
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-premium-set-make-aliases =
+    { $number ->
+        [one] Chcete-li vytvořit více než jeden alias, musíte být prémiovým předplatitelem
+        [few] Chcete-li vytvořit více než { $number } aliasy, musíte být prémiovým předplatitelem
+       *[other] Chcete-li vytvořit více než { $number } aliasů, musíte být prémiovým předplatitelem
+    }
 
 ## Onboarding 
 
+onboarding-headline = K vytvoření prvního aliasu máte tři způsoby…
 
 ## Premium Onboarding
 
@@ -393,11 +415,16 @@ banner-pack-upgrade-copy = Díky neomezenému počtu e-mailových aliasů a vaš
 
 ## Modals
 
+modal-delete-headline = Chcete tento alias trvale smazat?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
     Jakmile tento alias smažete, nebude ho už možné obnovit.
     { -brand-name-firefox-relay } přestane přeposílat zprávy odeslané na adresu <strong>{ $email }</strong>. To zahrnuje i zprávy, které vám umožní obnovit zapomenutá hesla.
+modal-delete-warning-upgrade =
+    Pokud používáte tento alias k přihlašování na stránkách, na kterých vám záleží,
+    měli byste před smazáním této adresy nejprve změnit přihlašovací údaje na jinou e-mailovou adresu.
+modal-delete-confirmation = Ano, chci tento alias smazat.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -412,6 +439,9 @@ survey-option-unsure = Nevím
 survey-option-agree = Souhlasím
 survey-option-strongly-agree = Rozhodně souhlasím
 survey-option-i-wouldnt-care = Bylo by mi to jedno
+survey-option-somewhat-disappointed = Lehké zklamání
+survey-option-very-disappointed = Velké zklamání
+survey-option-very-likely = Určitě ano
 survey-option-not-likely = Spíše ne
 
 ## VPN Promo Banner
