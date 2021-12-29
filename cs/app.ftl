@@ -19,6 +19,19 @@
         [ins] Firefoxem
     }
     .gender = masculine
+-brand-name-firefox-relay =
+    { $case ->
+       *[nom] Firefox Relay
+        [gen] Firefoxu Relay
+        [dat] Firefoxu Relay
+        [acc] Firefox Relay
+        [voc] Firefoxe Relay
+        [loc] Firefoxu Relay
+        [ins] Firefoxem Relay
+    }
+    .gender = masculine
+-brand-name-relay = Relay
+-brand-name-relay-premium = Relay Premium
 -brand-name-firefox-browser =
     { $case ->
        *[nom]
@@ -57,6 +70,61 @@
                 [lower] prohlížečem Firefox
             }
     }
+-brand-name-mozilla =
+    { $case ->
+       *[nom] Mozilla
+        [gen] Mozilly
+        [dat] Mozille
+        [acc] Mozillu
+        [voc] Mozillo
+        [loc] Mozille
+        [ins] Mozillou
+    }
+    .gender = feminine
+-brand-name-mozilla-vpn =
+    { $case ->
+       *[nom] Mozilla VPN
+        [gen] Mozilly VPN
+        [dat] Mozille VPN
+        [acc] Mozillu VPN
+        [voc] Mozillo VPN
+        [loc] Mozille VPN
+        [ins] Mozillou VPN
+    }
+    .gender = feminine
+-brand-name-firefox-lockwise =
+    { $case ->
+       *[nom] Firefox Lockwise
+        [gen] Firefoxu Lockwise
+        [dat] Firefoxu Lockwise
+        [acc] Firefox Lockwise
+        [voc] Firefoxe Lockwise
+        [loc] Firefoxu Lockwise
+        [ins] Firefoxem Lockwise
+    }
+    .gender = masculine
+-brand-name-firefox-monitor =
+    { $case ->
+       *[nom] Firefox Monitor
+        [gen] Firefox Monitoru
+        [dat] Firefox Monitoru
+        [acc] Firefox Monitor
+        [voc] Firefox Monitore
+        [loc] Firefox Monitoru
+        [ins] Firefox Monitorem
+    }
+    .gender = masculine
+-brand-name-pocket =
+    { $case ->
+       *[nom] Pocket
+        [gen] Pocketu
+        [dat] Pocketu
+        [acc] Pocket
+        [voc] Pocket
+        [loc] Pocketu
+        [ins] Pocketem
+    }
+    .gender = masculine
 
 ## Meta Data
 
@@ -109,6 +177,30 @@ how-it-works-step-2-copy =
     Klepnutím na ni vygenerujete novou náhodnou adresu končící na @relay.firefox.com.
     { -brand-name-relay } přesměruje zprávy na vaši hlavní adresu spojenou s vaším účtem.
 
+## Home Page Version A
+
+
+## Hero Section
+
+
+## How it works section
+
+
+## Pricing section
+
+
+## Use Cases
+
+
+## Landing FAQ Section
+
+
+## Premium promo page
+
+
+## Settings page
+
+
 ## FAQ Page
 
 faq-headline = Často kladené otázky
@@ -128,13 +220,22 @@ banner-bounced-copy =
     Při pokusech o přeposlání e-mailů jsme obdrželi automatickou odpověď <em>{ $bounce_type }</em> “bounce” od poskytovatele vaší e-mailové schránky.
     Tato situace mohla nastat z důvodu, že se { -brand-name-relay } nemůže spojit s poskytovatelem e-mailové schránky, nebo pokud je vaše schránka plná. Zkusíme to znovu dne { $date }.
 
+## Success Messages
+
+
 ## Error Messages
 
 
 ## Onboarding 
 
 
-## Alias Modals
+## Premium Onboarding
+
+
+## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
+
+
+## Modals
 
 
 ## Evergreen Survey (displayed on the profile page)
@@ -152,3 +253,6 @@ survey-option-not-likely = Spíše ne
 vpn-promo-headline = Ušetřete 50 % s předplatným na celý rok
 vpn-promo-copy = Chraňte svá online data a vyberte si plán předplatného služby VPN, který vám vyhovuje.
 vpn-promo-cta = Získejte { -brand-name-mozilla-vpn(case: "acc") }
+
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+
