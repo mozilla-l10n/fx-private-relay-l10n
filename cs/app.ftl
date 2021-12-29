@@ -277,6 +277,7 @@ hero-image-copy-trust = Můžete této společnosti vůbec důvěřovat se svým
 
 ## Hero Section
 
+landing-hero-headline = Chraňte svou skutečnou e-mailovou adresu, abyste měli svou doručenou poštu pod kontrolou
 
 ## How it works section
 
@@ -318,14 +319,18 @@ faq-question-4-question = Mohu odpovídat na zprávy pomocí aliasu služby { -b
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vítejte,</span> { $email }!
+profile-headline-manage-domain = Spravovat vaše doménové aliasy
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
+profile-promo-upgrade-headline = Upgradujte pro ještě více funkcí.
 profile-promo-upgrade-copy = Upgradujte { -brand-name-relay(case: "acc") } a získejte neomezené množství e-mailových adres a vlastní e-mailovou doménu.
 profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
+profile-label-edit = Upravit štítek tohoto aliasu
 profile-label-saved = Štítek uložen!
 profile-label-generate-new-alias = Vygenerovat nový alias
 profile-label-delete = Smazat
 profile-label-delete-alias = Smazat tento alias
 profile-label-upgrade = Získat neomezený počet aliasů
+profile-label-create-domain = Získat vlastní e-mailovou doménu
 profile-label-domain = Doména pro e-maily:
 profile-label-domain-tooltip = Vytvořte si svou jedinečnou vlastní e-mailovu doménu.
 profile-label-reset = Obnovit
@@ -344,9 +349,13 @@ profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
 profile-label-forwarded = Přeposláno
 profile-label-cancel = Zrušit
+profile-blocked-copy = Pokud pro tento alias vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě před tím, než se dostanou do vaší e-mailové schránky.
+profile-forwarded-copy = Pokud vyberete pro tento alias přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
+profile-forwarded-note = Poznámka:
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = Služba { -brand-name-relay } nemohla doručit váš e-mail.
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -355,6 +364,17 @@ banner-bounced-copy =
     E-mail pro { $username } momentálně nemůžeme odeslat.
     Při pokusech o přeposlání e-mailů jsme obdrželi automatickou odpověď <em>{ $bounce_type }</em> “bounce” od poskytovatele vaší e-mailové schránky.
     Tato situace mohla nastat z důvodu, že se { -brand-name-relay } nemůže spojit s poskytovatelem e-mailové schránky, nebo pokud je vaše schránka plná. Zkusíme to znovu dne { $date }.
+banner-download-firefox-headline = { -brand-name-relay } je ještě lepší v kombinaci s { -brand-name-firefox(case: "ins") }
+banner-download-firefox-copy = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje vytváření aliasů.
+banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
+banner-download-install-extension-headline = Získat rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
+banner-download-install-extension-copy = Díky rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } je používání e-mailových aliasů ještě snazší.
+banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc") } do { -brand-name-firefox(case: "gen") }
+banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ještě více usnadňuje vytváření e-mailových aliasů s vlastními doménami aliasů a neomezenými aliasy.
+banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
+banner-pack-upgrade-headline-html = Pro více aliasů upgradujte na <strong>{ -brand-name-firefox(case: "acc") } { -brand-name-relay-premium }</strong>
+banner-pack-upgrade-copy = Díky neomezenému počtu e-mailových aliasů a vaší vlastní e-mailové doméně vás { -brand-name-firefox } { -brand-name-relay-premium } na internetu ochrání.
 
 ## Success Messages
 
@@ -373,9 +393,19 @@ banner-bounced-copy =
 
 ## Modals
 
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Jakmile tento alias smažete, nebude ho už možné obnovit.
+    { -brand-name-firefox-relay } přestane přeposílat zprávy odeslané na adresu <strong>{ $email }</strong>. To zahrnuje i zprávy, které vám umožní obnovit zapomenutá hesla.
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Na stupnici od 1 do 10, jako moc byste { -brand-name-relay(case: "acc") } doporučili svým přátelům nebo kolegům?
+survey-question-2 = Je používaní služby { -brand-name-relay } snadné?
+survey-question-3 = Je podle vás služba { -brand-name-relay } důvěryhodná?
+survey-question-4 = Prezentuje se { -brand-name-relay } jednoduše a srozumitelně?
+survey-question-5 = Jak byste si cítili, kdybyste { -brand-name-relay(case: "acc") } najednou nemohli používat?
 survey-option-strongly-disagree = Rozhodně nesouhlasím
 survey-option-disagree = Nesouhlasím
 survey-option-unsure = Nevím
