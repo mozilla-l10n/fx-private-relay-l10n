@@ -398,10 +398,16 @@ banner-choose-subdomain-label = Vaše doména je:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases =
     { $number ->
-        [one] Chcete-li vytvořit více než jeden alias, musíte být prémiovým předplatitelem
-        [few] Chcete-li vytvořit více než { $number } aliasy, musíte být prémiovým předplatitelem
-       *[other] Chcete-li vytvořit více než { $number } aliasů, musíte být prémiovým předplatitelem
+        [one] Pro vytvoření více než jednoho aliasu musíte být prémiovým předplatitelem
+        [few] Pro vytvoření více než { $number } aliasů musíte být prémiovým předplatitelem
+       *[other] Pro vytvoření více než { $number } aliasů musíte být prémiovým předplatitelem
     }
+error-premium-cannot-change-subdomain = Svou subdoménu nemůžete změnit
+error-premium-set-subdomain = Pro nastavení subdomény musíte být prémiovým předplatitelem
+error-premium-set-create-subdomain = Pro vytváření aliasů na subdoméně musíte být prémiovým předplatitelem
+error-subdomain-not-created = Subdoménu nelze vytvořit, zkuste nějakou jinou
+error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla být vytvořena, zkuste nějakou jinou
+error-subdomain-select = Před vytvořením aliasu na subdoméně musíte vybrat subdoménu
 
 ## Onboarding 
 
@@ -415,6 +421,7 @@ onboarding-headline = K vytvoření prvního aliasu máte tři způsoby…
 
 ## Modals
 
+modal-rename-alias-saved = Štítek uložen
 modal-delete-headline = Chcete tento alias trvale smazat?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
