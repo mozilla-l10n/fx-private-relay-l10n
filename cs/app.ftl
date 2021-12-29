@@ -234,9 +234,11 @@ nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capi
 
 ## Footer
 
+nav-footer-privacy = Ochrana osobních údajů
 nav-footer-relay-terms = Podmínky používání služby { -brand-name-relay }
 nav-footer-legal = Právní informace
 logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = Logo GitHubu
 
 ## Bento Menu
 
@@ -268,6 +270,7 @@ how-it-works-step-2-copy =
 how-it-works-step-3-copy =
     Přihlaste se ke službě { -brand-name-relay } abyste měli přehled o aliasech, které jste vytvořili.
     Když zjistíte, že nějaký z nich přijímá spam nebo nevyžádané zprávy, můžete zablokovat všechny zprávy nebo dokonce alias smazat, přímo ze stránky.
+hero-image-copy-trust = Můžete této společnosti vůbec důvěřovat se svými osobními e-maily?
 
 ## Home Page Version A
 
@@ -296,6 +299,11 @@ how-it-works-step-3-copy =
 ## FAQ Page
 
 faq-headline = Často kladené otázky
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-2-question = Proč stránka nepřijímá můj alias { -brand-name-relay }?
 faq-question-1-question = A co spam?
 faq-question-1-answer-a = Ačkoliv služba { -brand-name-relay } nefiltruje spam, náš e-mailový partner Amazon SES blokuje spam a malware. Když { -brand-name-relay } přepošle zprávu, kterou nechcete, můžete změnit své nastavení na blokování zpráv z aliasu, který je přeposílá.
@@ -307,9 +315,35 @@ faq-question-4-question = Mohu odpovídat na zprávy pomocí aliasu služby { -b
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Vítejte,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
 profile-promo-upgrade-copy = Upgradujte { -brand-name-relay(case: "acc") } a získejte neomezené množství e-mailových adres a vlastní e-mailovou doménu.
 profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
+profile-label-saved = Štítek uložen!
+profile-label-generate-new-alias = Vygenerovat nový alias
+profile-label-delete = Smazat
+profile-label-delete-alias = Smazat tento alias
+profile-label-upgrade = Získat neomezený počet aliasů
+profile-label-domain = Doména pro e-maily:
+profile-label-domain-tooltip = Vytvořte si svou jedinečnou vlastní e-mailovu doménu.
+profile-label-reset = Obnovit
+# This string is followed by an email address
+profile-label-forward-emails = Přeposílat e-maily na:
+# This string is followed by date
+profile-label-first-emailed = První e-mail:
+# This string is followed by date:
+profile-label-created = Vytvořeno:
+profile-label-details-show = Zobrazit podrobnosti
+profile-label-details-hide = Skrýt podrobnosti
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = přeposílání
+profile-label-blocking = blokování
+profile-label-copied = Zkopírováno!
+profile-label-blocked = Blokováno
+profile-label-forwarded = Přeposláno
+profile-label-cancel = Zrušit
 
 ## Banner Messages (displayed on the profile page)
 
