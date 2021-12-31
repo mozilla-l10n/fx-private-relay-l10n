@@ -509,6 +509,10 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
     akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt az álnevet.
+modal-delete-domain-address-warning-upgrade =
+    Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
+    akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt az álnevet.
+    Ha újra létrehozza a törölt álnevet, akkor az eredeti álnévre küldött levelek továbbra is továbbítva lesznek.
 modal-delete-confirmation = Igen, törlöm ezt az álnevet.
 modal-domain-register-good-news = Jó hírek!
 modal-domain-register-warning-reminder = Ne feledje, hogy csak egy domaint regisztrálhat. Később nem fogja tudni megváltoztatni.
