@@ -293,6 +293,7 @@ faq-question-mozmail-answer = Azért váltottunk a „relay.firefox.com”-ról 
 faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja a mellékletekkel rendelkező leveleket?
 faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továbbítását. Azonban van egy { email-size-limit }-os korlát az e-mailek a { -brand-name-relay } használatával történő továbbításakor. Az { email-size-limit }-nál nagyobb e-mailek nem lesznek továbbítva.
 faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
+faq-question-unsubscribe-domain-answer = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új álneveket már nem fog tudni felvenni annál a domainnál. Ha összesen több mint öt álneve van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
 
