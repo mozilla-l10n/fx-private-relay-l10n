@@ -295,7 +295,12 @@ faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továb
 faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 faq-question-unsubscribe-domain-answer = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új álneveket már nem fog tudni felvenni annál a domainnál. Ha összesen több mint öt álneve van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-html = Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkból</a>. Nem kötelező, de megoszthatja az adatait az e-mail-álnevekhez használt címkéiről és a webhelyekről, hogy biztosíthassuk azt a szolgáltatást és továbbfejleszthessük azt.
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
+faq-question-email-storage-answer = Abban a ritka esetben, amikor a szolgáltatás nem működik, ideiglenesen tárolhatjuk az e-maileket, amíg el nem tudjuk küldeni azokat. Soha nem tároljuk az e-maileket három napnál hosszabb ideig.
 
 ## Profile Page (Logged In)
 
@@ -365,6 +370,14 @@ profile-filter-category-option-critical-only-aliases = „Csak kritikus” álne
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Jelenleg nem tudunk e-mail küldeni ide: { $username }.
+    Egy <em>{ $bounce_type }</em> „visszapattanást” kaptunk az e-mail-szolgáltatójától, amikor levelet próbáltunk továbbítani Önnek.
+    Ez akkor történhet, ha a { -brand-name-relay } nem tudott kapcsolódni az e-mail-szolgáltatójához, vagy ha a postaládája megtelt. Ekkor fogjuk újra megpróbálni: { $date }.
 banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox }szal
 banner-download-firefox-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek létrehozását.
 banner-download-firefox-cta = { -brand-name-firefox } beszerzése
@@ -381,6 +394,16 @@ banner-register-subdomain-headline-aliases = Szerezzen egyéni domaint az álnev
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Egy egyéni domainnel olyan álneveket oszthat meg, amelyeket nem kell előállítani a
+    használatuk előtt. Szüksége van egyre egy foglaláshoz? Adja meg az
+    „etterem@yourdomain.{ $mozmail }” címet az étteremnek. Minden olyan álnév, amely az
+    egyéni tartományát használja, továbbítva lesz Önnek.
 banner-choose-subdomain-input-placeholder = Domain keresése
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Keresés
@@ -393,6 +416,7 @@ banner-label-privacy-notice-update-body = A { -brand-name-firefox-relay } megbí
 banner-label-privacy-notice-update-cta = Adatvédelmi nyilatkozat megtekintése
 # Data Notification Banner:
 banner-label-data-notification-header = Hamarosan elérhető a { -brand-name-relay }ben
+banner-label-data-notification-body = Engedélyezheti a { -brand-name-relay } számára, hogy nem kötelező adatokat gyűjtsön arról, hogy mely webhelyeken használja az álneveket, hogy ezt a jövőbeni funkciók támogatására használjuk. Ha engedélyezi ezt az adatgyűjtést a „Beállítások” oldalon, még könnyebbé válik a beérkező leveleinek kezelése.
 banner-label-data-notification-cta = Ugrás a beállításokhoz
 banner-label-data-notification-header-v2 = Új funkciók engedélyezése
 banner-label-data-notification-body-v2 = Engedélyezheti a { -brand-name-relay } számára, hogy nem kötelező adatokat gyűjtsön, amely lehetővé teszik számunkra, hogy szinkronizáljuk a webhelyekhez létrehozott és használt álnévcímkéit az eszközei között.
@@ -477,6 +501,14 @@ multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpul
 
 modal-rename-alias-saved = Címke mentve!
 modal-delete-headline = Véglegesen törli ezt az álnevet?
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-html =
+    Ha egyszer töröl egy álnevet, akkor nem állítható vissza.
+    A { -brand-name-firefox-relay } többé nem fogja továbbítani a(z) <strong>{ $email }</strong> felé küldött üzeneteket, köztük azokat sem, melyek a jelszavak visszaállítását tennék lehetővé.
+modal-delete-warning-upgrade =
+    Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
+    akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt az álnevet.
 modal-delete-confirmation = Igen, törlöm ezt az álnevet.
 modal-domain-register-good-news = Jó hírek!
 modal-domain-register-warning-reminder = Ne feledje, hogy csak egy domaint regisztrálhat. Később nem fogja tudni megváltoztatni.
