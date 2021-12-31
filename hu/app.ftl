@@ -269,9 +269,19 @@ faq-question-2-answer-v3-html =
     Ha nem tudja használni a { -brand-name-relay } álnevet, akkor <a href="{ $url }" { $attrs }>tudassa velünk</a>.
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
 faq-question-1-answer-a = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító álnevet.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Ha az összes álnevéről érkező nem kívánt e-mailek szélesebb körű problémáját tapasztalja, akkor <a href="{ $url }" { $attrs }>jelentse ezt nekünk</a>, hogy megfontolhassuk az SES levélszemét küszöbértékének módosítását erre a szolgáltatásra vonatkozóan. Ha ezeket levélszemétnek jelöli, akkor az e-mail szolgáltatója a { -brand-name-relay }t fogja a levélszemét forrásaként látni, nem pedig az eredeti feladót.
 faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
 faq-question-availability-answer = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svájcban, Hollandiában és Írországban érhető el.
 faq-question-4-question = Válaszolhatok az üzenetekre a { -brand-name-relay } álnevem használatával?
+# Deprecated
+faq-question-4-answer-v3 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és az e-mailben szereplők számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
+faq-question-4-answer-v4 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és a másolatot kapók számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
+faq-question-4-answer-html =
+    A { -brand-name-relay } még nem biztosít arra lehetőséget, hogy az álnévvel válaszoljon.
+    Ha megpróbálja, semmi sem fog történni. Tervezünk egy olyan további funkciót, amellyel <a href="{ $url }" { $attrs }>névtelenül válaszolhat a feladóknak</a>.
 faq-question-subdomain-characters-question = Milyen karaktereket használhatok aldomain létrehozásánál?
 faq-question-subdomain-characters-answer-v2 = Aldomain létrehozásához csak kisbetűs angol betűket, számokat és kötőjeleket használhat.
 faq-question-browser-support-question = Használhatom a { -brand-name-relay }t más böngészőkön vagy a mobileszközömön?
@@ -281,6 +291,7 @@ faq-question-longevity-answer = Előzetesen értesíteni fogjuk, hogy meg kell v
 faq-question-mozmail-question = Miért kezdték el az álneveim a „mozmail.com” domaint használni?
 faq-question-mozmail-answer = Azért váltottunk a „relay.firefox.com”-ról a „mozmail.com”-ra, hogy lehetőség legyen egyéni email domain használatára, például erre: alias@yourdomain.mozmail.com. Az egyéni e-mail tartományokkal, melyek { -brand-name-relay-premium } előfizetők számára érhetők el, az e-mail álneveket is könnyebben megjegyezhetővé válnak mint a véletlenszerű álnevek.
 faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja a mellékletekkel rendelkező leveleket?
+faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továbbítását. Azonban van egy { email-size-limit }-os korlát az e-mailek a { -brand-name-relay } használatával történő továbbításakor. Az { email-size-limit }-nál nagyobb e-mailek nem lesznek továbbítva.
 faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
