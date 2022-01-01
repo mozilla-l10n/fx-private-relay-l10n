@@ -349,7 +349,12 @@ profile-forwarded-note-copy = Los correos electrónicos (incluyendo archivos adj
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
+profile-stat-label-aliases-used = Alias de e-mail usados
 profile-filter-search-placeholder = Buscar alias
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Alias con reenvío
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Alias bloqueados
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -360,6 +365,14 @@ profile-filter-category-option-critical-only-aliases = Solo alias críticos
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Actualmente no podemos enviar correos electrónicos a { $username }.
+    Recibimos un <em>{ $bounce_type }</em> “rebote” de tu proveedor de correo electrónico cuando intentamos reenviar correos electrónicos.
+    Esto puede suceder si { -brand-name-relay } no pudo conectarse con tu proveedor de correo electrónico o si tu buzón de correo estaba lleno. Lo intentaremos de nuevo el { $date }.
 banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
 banner-download-firefox-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de alias.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
