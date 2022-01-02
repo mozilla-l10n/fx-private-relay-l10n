@@ -489,6 +489,9 @@ multi-part-onboarding-premium-welcome-description = No más límite de cinco ali
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa comida@tudominio{ $mozmail }. No es necesario crear el alias de antemano.
+multi-part-onboarding-premium-get-domain-description =
+    Utiliza un dominio personalizado para compartir alias: Con un dominio personalizado, puedes crear
+    alias sin necesidad de generarlos de antemano. ¿Necesitas uno para suscribirte a un boletín de noticias? Únicamente dí “leer@dominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
@@ -565,7 +568,12 @@ vpn-promo-cta = Obtén { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Este mensaje ha sido reenviado desde { $display_email } por { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } elimina los destinatarios en copia y copia oculta de tus respuestas. Si los vuelves a añadir, tu correo electrónico real quedará expuesto.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Cambia a { $premium_link } para obtener alias ilimitados y un dominio personalizado de correo electrónico.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }. Para saber más consulta nuestras { $faq_link }.
 # This entire text is a link
 forwarded-email-footer = Aquí puedes detener el reenvío de correo electrónico y administrar la configuración de todos los alias.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
