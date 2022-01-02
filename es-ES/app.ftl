@@ -470,17 +470,22 @@ onboarding-premium-domain-title = Usar un dominio personalizado para compartir a
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que tu alias de “boletín informativo” sea diferente de tu alias de “compras”.
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tu alias seguirá protegiendo tu dirección de correo electrónico.
+onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tú puedes:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Bienvenido a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
+multi-part-onboarding-premium-generate-unlimited-title = Generar direcciones de correo ilimitadas:
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-domain-headline = Dominio personalizado para alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
+multi-part-onboarding-premium-get-domain = Conseguir un dominio personalizado
+multi-part-onboarding-reply-headline = Responder a tus correos
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En tu ordenador, puedes usar el complemento de Relay para crearlos sobre la marcha.
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa comida@tudominio{ $mozmail }. No es necesario crear el alias de antemano.
