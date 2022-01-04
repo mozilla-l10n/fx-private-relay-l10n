@@ -500,8 +500,8 @@ multi-part-onboarding-reply-headline = Reply to your emails
 multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
     Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand. 
-multi-part-onboarding-premium-get-domain-description = Use a custom domain for sharing aliases: With a custom domain, you can create 
-    aliases without having to generate them beforehand. Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 = With a custom domain, you can create aliases without having to generate them beforehand. 
+    Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later 
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
