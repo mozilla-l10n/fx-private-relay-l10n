@@ -79,6 +79,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser(capitalization: "uppercase") } per dispositivi mobili
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Chiudi menu
 
 ## Home Page
@@ -483,9 +484,9 @@ multi-part-onboarding-premium-welcome-description = Niente più limite di cinque
 multi-part-onboarding-premium-domain-description =
     Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
     Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
-multi-part-onboarding-premium-get-domain-description =
-    Utilizza un dominio personalizzato per condividere gli alias: con un dominio personalizzato puoi creare 
-    alias senza doverli generare in anticipo. Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    Con un dominio personalizzato puoi creare alias senza doverli generare in anticipo. 
+    Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
 multi-part-onboarding-premium-domain-button-skip = Continua, registrerò il mio dominio personalizzato più tardi
 multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
