@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } voor mobiel
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Menu sluiten
 
 ## Home Page
@@ -492,9 +493,9 @@ multi-part-onboarding-premium-welcome-description = Geen limiet van vijf aliasse
 multi-part-onboarding-premium-domain-description =
     Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
     Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
-multi-part-onboarding-premium-get-domain-description =
-    Een aangepast domein voor het delen van aliassen gebruiken: met een aangepast domein kunt u
-    aliassen aanmaken zonder deze vooraf aan te hoeven maken. Heeft u er een nodig om u aan te melden voor een nieuwsbrief? Gebruik gewoon ‘lezen@aangepastdomein{ $mozmail }’
+multi-part-onboarding-premium-get-domain-description-2 =
+    Met een aangepast domein kunt u aliassen aanmaken zonder deze vooraf aan te hoeven maken. 
+    Heeft u er een nodig om u aan te melden voor een nieuwsbrief? Gebruik gewoon ‘lezen@aangepastdomein{ $mozmail }’
 multi-part-onboarding-premium-domain-cta = Registreer nu uw aangepaste domein:
 multi-part-onboarding-premium-domain-button-skip = Doorgaan, ik registreer mijn aangepaste domein later
 multi-part-onboarding-premium-extension-headline = Blokkeren, doorsturen en beantwoorden
