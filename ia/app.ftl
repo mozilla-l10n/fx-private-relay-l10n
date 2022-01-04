@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } pro mobile
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Clauder menu
 
 ## Home Page
@@ -483,9 +484,9 @@ multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque 
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
     Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
-multi-part-onboarding-premium-get-domain-description =
-    Usar un dominio personal pro compartir le aliases: con un dominio personal, tu pote crear 
-    aliases sin deber generar los previemente. Besonia tu de uno, pro registrar te a un littera de novas? Solo dice “read@customdomain{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    Con un dominio personal, tu pote crear aliases sin deber generar illes previemente. 
+    Besonia tu de uno, pro registrar te a un littera de novas? Solo dice “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra ora tu dominio personal:
 multi-part-onboarding-premium-domain-button-skip = Continuar, io registrara mi dominio personal plus tarde
 multi-part-onboarding-premium-extension-headline = Blocar, inultrar e replicar
