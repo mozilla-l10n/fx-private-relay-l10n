@@ -116,6 +116,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } pre mobilné zariadenia
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Zavrieť ponuku
 
 ## Home Page
@@ -524,9 +525,9 @@ multi-part-onboarding-premium-welcome-description = Už žiadne obmedzenie na p�
 multi-part-onboarding-premium-domain-description =
     Pomocou vlastnej domény môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať.
     Potrebujete alias na rezervácie v reštaurácii? Stačí zadať jedlo@vašadoména{ $mozmail } — nie je potrebné vytvárať alias vopred.
-multi-part-onboarding-premium-get-domain-description =
-    Použite vlastnú doménu na zdieľanie aliasov: s vlastnou doménou môžete vytvárať
-    aliasy bez toho, aby ste ich museli vopred generovať. Potrebujete alias na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vašadoména{ $mozmail }”.
+multi-part-onboarding-premium-get-domain-description-2 =
+    S vlastnou doménou môžete vytvárať aliasy bez toho, aby ste ich museli generovať vopred.
+    Potrebujete alias na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vašadoména{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta = Zaregistrujte svoju vlastnú doménu teraz:
 multi-part-onboarding-premium-domain-button-skip = Pokračovať, svoju vlastnú doménu si zaregistrujem neskôr
 multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
