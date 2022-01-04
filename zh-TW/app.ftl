@@ -166,6 +166,7 @@ premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body = 想要收到折價券，但不想要收到垃圾信嗎？在不同的購物網站都使用獨立的自訂別名，例如「mydeals@mydomain.mozmail.com」。
 premium-promo-use-cases-social-networks-heading = 社群網路
 premium-promo-use-cases-gaming-heading = 遊戲
+premium-promo-use-cases-gaming-body = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 premium-promo-pricing-free-price = 您目前的免費方案
 
 ## Settings page
@@ -217,6 +218,10 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
 faq-question-use-cases-question = 什麼時候該用 { -brand-name-relay } 轉寄郵件？
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v3-html = 有些網站可能不接受使用子網域（也就是 @subdomain.mozmail.com 當中的「subdomain.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。若您無法使用 { -brand-name-relay } 別名， <a href="{ $url }" { $attrs }>請讓我們知道</a>。
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
