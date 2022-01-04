@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } für Mobilgeräte
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Menü schließen
 
 ## Home Page
@@ -487,8 +488,8 @@ multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Al
 multi-part-onboarding-premium-domain-description =
     Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
     Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
-multi-part-onboarding-premium-get-domain-description =
-    Verwenden Sie eine benutzerdefinierten Domäne zum Weitergeben von Alias-E-Mail-Adressen: Mit einer benutzerdefinierten Domain können Sie
+multi-part-onboarding-premium-get-domain-description-2 =
+    Mit einer benutzerdefinierten Domain können Sie
     Alias-Adressen verwenden, ohne sie vorher erzeugen zu müssen. Benötigen Sie eine Alias-Adresse, um sich für einen Newsletter anzumelden? Nehmen Sie einfach „lesen@meinedomain{ $mozmail }“
 multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
