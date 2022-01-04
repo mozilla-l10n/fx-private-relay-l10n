@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } mobilra
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Menü bezárása
 
 ## Home Page
@@ -485,7 +486,9 @@ multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
 multi-part-onboarding-premium-domain-description = Egyéni domain használatakor olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Csak mondja, hogy kaja@yourdomain{ $mozmail } – nem szükséges előzetesen létrehoznia az álnevet.
-multi-part-onboarding-premium-get-domain-description = Használjon egyéni domaint az álnevek megosztásához: Egyéni domainnel anélkül hozhat létre álneveket, hogy előzetesen előállította volna. Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@customdomain{ $mozmail }”.
+multi-part-onboarding-premium-get-domain-description-2 =
+    Egyéni domainnel anélkül hozhat létre álneveket, hogy előzetesen előállította volna.
+    Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@customdomain{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta = Regisztrálja egyéni domainjét most:
 multi-part-onboarding-premium-domain-button-skip = Folytatás, később regisztrálom az egyéni domainomat
 multi-part-onboarding-premium-extension-headline = Blokkolás, továbbítás és válasz
