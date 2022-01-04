@@ -483,6 +483,9 @@ multi-part-onboarding-premium-welcome-description = No más límite de cinco ali
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa uno como comida@tudominio { $mozmail } — No es necesario crear el alias de antemano.
+multi-part-onboarding-premium-get-domain-description-2 =
+    Con un dominio personalizado, puedes crear alias sin tener que generarlas de antemano. 
+    ¿Necesitas registrarte a un boletín? Solo di “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
