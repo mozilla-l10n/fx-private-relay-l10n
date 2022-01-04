@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } för mobiler
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Stäng meny
 
 ## Home Page
@@ -487,9 +488,9 @@ multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem al
 multi-part-onboarding-premium-domain-description =
     Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
     Behöver du ett alias för restaurangbokningar? Använd bara mat@dindomän{ $mozmail } — Ditt alias behöver inte skapas i förväg.
-multi-part-onboarding-premium-get-domain-description =
-    Använd en anpassad domän för att dela alias: med en anpassad domän kan du skapa
-    alias utan att behöva generera dem i förväg. Behöver du ett för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
+multi-part-onboarding-premium-get-domain-description-2 =
+    Med en anpassad domän kan du skapa alias utan att behöva generera dem i förväg.
+    Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
 multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
 multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
