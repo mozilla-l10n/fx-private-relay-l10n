@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } para dispositivos móveis
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Fechar menu
 
 ## Home Page
@@ -483,7 +484,9 @@ multi-part-onboarding-premium-welcome-description = Chega de limite de cinco end
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
     Precisa de um endereço de redirecionamento para reservas em restaurantes? Basta informar comida@seudominio{ $mozmail } — Não precisa criar antes o endereço de redirecionamento.
-multi-part-onboarding-premium-get-domain-description = Use um domínio personalizado para compartilhar endereços de redirecionamento. Com um domínio personalizado, você pode criar endereços de redirecionamento sem precisar gerar antes. Precisa de um para assinar um boletim informativo? Basta informar “leitura@dominiopersonalizado{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    Com um domínio personalizado, você pode criar endereços de redirecionamento sem precisar gerar antes. 
+    Precisa de um para assinar um boletim informativo? Basta informar “leitura@dominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registrar agora o domínio personalizado:
 multi-part-onboarding-premium-domain-button-skip = Avançar, vou registrar meu domínio personalizado mais tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, encaminhar e responder
