@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } для мобільних
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Закрити меню
 
 ## Home Page
@@ -487,9 +488,9 @@ multi-part-onboarding-premium-welcome-description = Більше ніякого 
 multi-part-onboarding-premium-domain-description =
     Використовуючи спеціальний домен, ви можете створювати псевдоадреси, які легше запам’ятати та поділитися ними.
     Потрібна псевдоадреса для бронювання ресторанів? Просто скажіть food@yourdomain{ $mozmail } — не потрібно створювати псевдоадресу заздалегідь.
-multi-part-onboarding-premium-get-domain-description =
-    Використовуйте користувацький домен для спільного використання псевдоадрес: за допомогою спеціального домену ви можете створювати
-    псевдоадреси без необхідності генерувати їх заздалегідь. Потрібна адреса, щоб підписатися на інформаційний бюлетень? Наприклад, “read@customdomain{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    За допомогою власного домена ви можете створювати псевдоніми без необхідності генерувати їх заздалегідь. 
+    Потрібна адреса, щоб підписатися на інформаційний бюлетень? Наприклад, “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Зареєструйте свій власний домен зараз:
 multi-part-onboarding-premium-domain-button-skip = Продовжити, я зареєструю свій власний домен пізніше
 multi-part-onboarding-premium-extension-headline = Блокуйте, пересилайте та відповідайте
