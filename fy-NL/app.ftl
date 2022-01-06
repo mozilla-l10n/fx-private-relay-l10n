@@ -75,6 +75,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } foar mobyl
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Menu slute
 
 ## Home Page
@@ -493,9 +494,9 @@ multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliasse
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
-multi-part-onboarding-premium-get-domain-description =
-    In oanpast domein foar it dielen fan aliassen brûke: mei in oanpast domein kinne jo
-    aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen. Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
+multi-part-onboarding-premium-get-domain-description-2 =
+    Mei in oanpast domein kinne jo aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
+    Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
 multi-part-onboarding-premium-domain-cta = Registrearje no jo oanpaste domein:
 multi-part-onboarding-premium-domain-button-skip = Trochgean, ik registrearje myn oanpaste domein letter
 multi-part-onboarding-premium-extension-headline = Blokkearje, trochstjoere en beäntwurdzje
