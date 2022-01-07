@@ -39,6 +39,7 @@ meta-description = { -brand-name-firefox-relay } consente di creare facilmente a
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Pagina iniziale
 label-open-menu = Apri menu
