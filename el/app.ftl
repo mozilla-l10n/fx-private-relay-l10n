@@ -60,6 +60,7 @@ meta-description = Το { -brand-name-firefox-relay } διευκολύνει τ�
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Μενού
 nav-home = Αρχική
 label-open-menu = Άνοιγμα μενού
