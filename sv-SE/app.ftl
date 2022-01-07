@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } gör det enkelt att skapa e-pos
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Meny
 nav-home = Hem
 label-open-menu = Öppna meny
