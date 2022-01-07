@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } 讓您可輕鬆建立別名信�
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = 選單
 nav-home = 首頁
 label-open-menu = 開啟選單
