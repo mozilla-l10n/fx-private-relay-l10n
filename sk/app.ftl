@@ -76,6 +76,7 @@ meta-description = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailov
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Ponuka
 nav-home = Domov
 label-open-menu = Otvoriť ponuku
