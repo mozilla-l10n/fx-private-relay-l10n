@@ -35,6 +35,7 @@ meta-description = A { -brand-name-firefox-relay } megkönnyíti az e-mail álne
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menü
 nav-home = Kezdőlap
 label-open-menu = Menü megnyitása
