@@ -35,6 +35,7 @@ meta-description = Mit { -brand-name-firefox-relay } können Sie Alias-E-Mail-Ad
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menü
 nav-home = Startseite
 label-open-menu = Menü öffnen
