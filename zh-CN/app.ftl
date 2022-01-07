@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱�
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = 菜单
 nav-home = 主页
 label-open-menu = 打开菜单
