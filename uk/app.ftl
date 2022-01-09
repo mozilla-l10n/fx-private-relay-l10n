@@ -230,8 +230,8 @@ settings-warning-collection-off-description = Наразі { -brand-name-relay }
 setting-label-collection-heading-v2 = Приватність
 setting-label-collection-description = Дозвольте { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші псевдоадреси.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning = Ці дані дозволять нам позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
-setting-label-collection-off-warning-v2 = Ці дані дозволять нам пов'язувати ваші псевдоадреси з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
+setting-label-collection-off-warning = Ці дані дають нам можливість позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
+setting-label-collection-off-warning-v2 = Ці дані дають нам можливість пов'язувати ваші псевдоадреси з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
 settings-button-save-label = Зберегти
 settings-button-save-tooltip = Застосувати вибрані налаштування.
 
@@ -421,7 +421,7 @@ banner-label-data-notification-header = Незабаром у { -brand-name-rela
 banner-label-data-notification-body = Ви можете дозволити { -brand-name-relay } збирати додаткові дані на вебсайтах, на яких ви користувалися псевдоадресами, які потрібні для підтримки майбутніх функцій. Дозвіл на збір даних на сторінці «Налаштування» зробить керування вашими «Вхідними» ще простішим.
 banner-label-data-notification-cta = Перейти до налаштувань
 banner-label-data-notification-header-v2 = Увімкнути нові функції
-banner-label-data-notification-body-v2 = Ви можете дозволити { -brand-name-relay } збирати додаткові дані, які дозволяють нам синхронізувати ваші псевдоадреси на ваших пристроях із вебсайтами, де вони створюються та використовуються.
+banner-label-data-notification-body-v2 = Ви можете дозволити { -brand-name-relay } збирати додаткові дані, які дають нам можливість синхронізувати ваші псевдоадреси на ваших пристроях із вебсайтами, де вони створюються та використовуються.
 banner-label-data-notification-body-cta = Докладніше
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = Ваш домен:
