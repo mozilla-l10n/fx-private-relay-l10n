@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } facilita la creación de alias 
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menú
 nav-home = Inicio
 label-open-menu = Abrir menú
@@ -277,6 +278,9 @@ faq-question-1-answer-b-html = Si ves un problema más amplio de correo electró
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
+# Deprecated
+faq-question-4-answer-v3 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a su recepción. Si agregas a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no agregues CC o CCO al responder.
+faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a la recepción del correo electrónico. Si agregas un CC o CCO cuando respondes a un correo electrónico, tu dirección de correo electrónico original estará expuesta al destinatario y a los que se hayan copiado en el correo electrónico. Si no deseas que se exponga tu dirección de correo electrónico original, no agregues CC o CCO al responder.
 faq-question-4-answer-html =
     { -brand-name-relay } aún no ofrece la capacidad de responder usando un alias.
     Si lo intentas, no pasará nada. Estamos planeando una función adicional que te permitirá <a href="{ $url }" { $attrs }>responder de forma anónima a los remitentes</a>.
@@ -328,6 +332,8 @@ profile-label-skip = Omitir
 profile-label-continue = Continuar
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
+# This string is followed by date
+profile-label-first-emailed = Fecha del primer mensaje:
 # This string is followed by date:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
@@ -560,6 +566,7 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } elimina los destinatarios en copia y copia oculta de tus respuestas. Si los vuelves a agregar, tu correo electrónico real quedará expuesto.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner = Actualiza a { $premium_link } para obtener alias ilimitados y un dominio de correo electrónico personalizado.
