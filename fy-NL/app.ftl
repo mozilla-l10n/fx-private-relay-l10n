@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } makket it maklik om e-mailalias
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Startside
 label-open-menu = Menu iepenje
