@@ -35,6 +35,7 @@ meta-description = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd cre
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Dewislen
 nav-home = Cartref
 label-open-menu = Agor y ddewislen
@@ -75,6 +76,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } Symudol
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Cau'r ddewislen
 
 ## Home Page
@@ -487,9 +489,9 @@ multi-part-onboarding-premium-welcome-description = Dim mwy o ddim ond pum arall
 multi-part-onboarding-premium-domain-description =
     Gan ddefnyddio parth personol, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
     Angen arallenw ar gyfer archebion bwyty? Dim ond rhoi bwyd@ eichparth{ $mozmail } - Does dim angen creu'r arallenw ymlaen llaw.
-multi-part-onboarding-premium-get-domain-description =
-    Defnyddiwch barth cyfaddas ar gyfer rhannu arallenwau: Gyda pharth cyfaddas, gallwch greu
-    arallenwau heb orfod eu cynhyrchu ymlaen llaw. Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    Gyda pharth cyfaddas, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
+    Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth personol nawr:
 multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth personol yn nes ymlaen
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
