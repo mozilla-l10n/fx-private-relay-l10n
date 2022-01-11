@@ -470,15 +470,18 @@ onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
 onboarding-premium-domain-description = Dengan domain khusus, Anda dapat membuat alias "buletin" Anda berbeda dari alias "belanja" Anda.
 onboarding-premium-reply-title = Balas surel tanpa memberikan alamat asli Anda
 onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alias? Cukup balas seperti biasa — alias Anda akan tetap melindungi alamat surel Anda.
+onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } Anda dapat:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol apa yang masuk ke kotak masuk, satu surel sekaligus.
 multi-part-onboarding-premium-welcome-title = Kendalikan surel apa yang Anda dapatkan:
+multi-part-onboarding-premium-generate-unlimited-title = Hasilkan alias surel tanpa batas:
 multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alias
 multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
+multi-part-onboarding-premium-get-domain = Dapatkan domain kustom
 multi-part-onboarding-premium-domain-description =
     Menggunakan domain kustom, Anda dapat membuat alias yang lebih mudah diingat dan dibagikan. 
     Butuh nama samaran untuk pemesanan restoran? Katakan food@yourdomain{ $mozmail } — Tidak perlu membuat alias sebelumnya.
