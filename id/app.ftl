@@ -482,9 +482,15 @@ multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alias
 multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
 multi-part-onboarding-premium-get-domain = Dapatkan domain kustom
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-welcome-description = Tidak ada lagi batasan lima alias: Anda sekarang dapat membuat alias kustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya Relay untuk membuatnya saat bepergian.
 multi-part-onboarding-premium-domain-description =
     Menggunakan domain kustom, Anda dapat membuat alias yang lebih mudah diingat dan dibagikan. 
     Butuh nama samaran untuk pemesanan restoran? Katakan food@yourdomain{ $mozmail } — Tidak perlu membuat alias sebelumnya.
+multi-part-onboarding-premium-get-domain-description-2 =
+    Dengan domain kustom, Anda dapat membuat alias tanpa harus membuatnya terlebih dahulu.
+    Perlu satu untuk mendaftar buletin? Cukup ucapkan “baca@domainkustom{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Daftarkan domain kustom Anda sekarang:
 multi-part-onboarding-premium-domain-button-skip = Lanjutkan, saya akan mendaftarkan domain kustom saya nanti
 multi-part-onboarding-premium-extension-headline = Blokir, teruskan, dan balas
@@ -560,6 +566,9 @@ vpn-promo-cta = Dapatkan { -brand-name-mozilla-vpn }
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel Anda yang sebenarnya akan diketahui.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Tingkatkan ke { $premium_link } untuk mendapatkan alias tak terbatas dan domain surel kustom.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
