@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } memudahkan pembuatan surel alia
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Beranda
 label-open-menu = Buka menu
@@ -75,6 +76,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } untuk Mobile
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Tutup menu
 
 ## Home Page
@@ -477,8 +479,6 @@ multi-part-onboarding-premium-welcome-title = Kendalikan surel apa yang Anda dap
 multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alias
 multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description =
     Menggunakan domain kustom, Anda dapat membuat alias yang lebih mudah diingat dan dibagikan. 
     Butuh nama samaran untuk pemesanan restoran? Katakan food@yourdomain{ $mozmail } — Tidak perlu membuat alias sebelumnya.
