@@ -291,10 +291,10 @@ faq-question-browser-support-answer = Ya, Anda dapat membuat alias { -brand-name
 faq-question-longevity-question = Apa yang terjadi jika Mozilla menghentikan layanan { -brand-name-firefox-relay }?
 faq-question-longevity-answer = Kami akan memberi tahu Anda lebih awal jika Anda perlu mengubah alamat surel dari setiap akun yang menggunakan alias { -brand-name-relay }.
 faq-question-mozmail-question = Mengapa alias saya menggunakan domain “mozmail.com?”
-faq-question-mozmail-answer = Kami beralih dari “relay.firefox.com” ke “mozmail.com” untuk memungkinkan mendapatkan domain surel khusus, seperti alias@domainanda.mozmail.com. Domain surel khusus, tersedia untuk pelanggan { -brand-name-relay-premium }, juga membuat alias surel Anda lebih mudah diingat daripada alias acak.
+faq-question-mozmail-answer = Kami beralih dari “relay.firefox.com” ke “mozmail.com” untuk memungkinkan mendapatkan domain surel kustom, seperti alias@domainanda.mozmail.com. Domain surel khusus, tersedia untuk pelanggan { -brand-name-relay-premium }, juga membuat alias surel Anda lebih mudah diingat daripada alias acak.
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
 faq-question-attachments-answer-v2 = Sekarang kami mendukung penerusan lampiran. Namun, ada batas { email-size-limit } untuk penerusan surel menggunakan { -brand-name-relay }. Surel apapun yang lebih besar dari { email-size-limit } tidak akan diteruskan.
-faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain khusus saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question = Apa yang terjadi pada domain kustom saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui domain khusus, tetapi Anda tidak dapat lagi membuat alias baru menggunakan domain tersebut. Jika Anda memiliki lebih dari lima alias secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Variables:
@@ -325,7 +325,7 @@ profile-label-delete-alias = Hapus alias ini
 profile-label-upgrade = Miliki alias tak terhingga
 profile-label-create-domain = Miliki domain surel Anda
 profile-label-domain = Domain surel:
-profile-label-domain-tooltip = Buat domain surel unik dan khusus Anda.
+profile-label-domain-tooltip = Buat domain surel unik dan kustom Anda.
 profile-label-reset = Setel Ulang
 profile-label-apply = Terapkan
 profile-label-skip = Lewati
@@ -365,7 +365,7 @@ profile-filter-category-option-disabled-aliases-v2 = Memblokir alias
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-relay-aliases-v2 = Alias acak
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
-profile-filter-category-option-domain-based-aliases-v2 = Alias khusus
+profile-filter-category-option-domain-based-aliases-v2 = Alias kustom
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias surel-penting-saja
 
@@ -387,11 +387,11 @@ banner-download-install-extension-headline = Unduh ekstensi { -brand-name-relay 
 banner-download-install-extension-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan alias surel.
 banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -brand-name-firefox }
 banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
-banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias khusus dan alias tak terhingga.
+banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias kustom dan alias tak terhingga.
 banner-upgrade-cta = Beralih ke { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Perlu tindakan
-banner-register-subdomain-headline-aliases = Miliki domain khusus untuk alias Anda
+banner-register-subdomain-headline-aliases = Miliki domain kustom untuk alias Anda
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -466,8 +466,8 @@ onboarding-premium-subheadline-html = Sekarang Anda dapat <strong>mengontrol</st
 onboarding-premium-feature-intro = Dengan { -brand-name-firefox } { -brand-name-relay-premium } Anda dapat:
 onboarding-premium-control-title = Atur surel yang Anda terima
 onboarding-premium-control-description = Bagikan alias surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
-onboarding-premium-domain-title = Gunakan domain khusus untuk berbagi alias
-onboarding-premium-domain-description = Dengan domain khusus, Anda dapat membuat alias "buletin" Anda berbeda dari alias "belanja" Anda.
+onboarding-premium-domain-title = Gunakan domain kustom untuk berbagi alias
+onboarding-premium-domain-description = Dengan domain kustom, Anda dapat membuat alias "buletin" Anda berbeda dari alias "belanja" Anda.
 onboarding-premium-reply-title = Balas surel tanpa memberikan alamat asli Anda
 onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alias? Cukup balas seperti biasa — alias Anda akan tetap melindungi alamat surel Anda.
 onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } Anda dapat:
@@ -482,6 +482,7 @@ multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alias
 multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
 multi-part-onboarding-premium-get-domain = Dapatkan domain kustom
+multi-part-onboarding-reply-headline = Balas ke surel Anda
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = Tidak ada lagi batasan lima alias: Anda sekarang dapat membuat alias kustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya Relay untuk membuatnya saat bepergian.
@@ -574,3 +575,5 @@ forwarded-email-header-premium-banner = Tingkatkan ke { $premium_link } untuk me
 forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
 # This entire text is a link
 forwarded-email-footer = Hentikan penerusan surel dan kelola setelan untuk semua alias di sini.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Beralih ke { -brand-name-relay-premium }
