@@ -509,6 +509,9 @@ vpn-promo-cta = Λήψη του { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Αυτό το μήνυμα προωθήθηκε από το { $display_email } στο { $linked_origin }.
 forwarded-email-header-cc-notice = Το { -brand-name-relay-premium } αφαιρεί τις διευθύνσεις CC και BCC από τις απαντήσεις σας. Αν τις προσθέσετε εκ νέου, θα εκτεθεί το πραγματικό σας email.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = Αναβαθμίστε στο { $premium_link } για να λάβετε απεριόριστα ψευδώνυμα και έναν προσαρμοσμένο τομέα email.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
 # This entire text is a link
