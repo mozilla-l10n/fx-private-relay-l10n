@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } makes it easy to create email a
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Home
 label-open-menu = Open menu
@@ -75,6 +76,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } for Mobile
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Close menu
 
 ## Home Page
@@ -487,9 +489,9 @@ multi-part-onboarding-premium-welcome-description = No more five-alias limit: yo
 multi-part-onboarding-premium-domain-description =
     Using a custom domain, you can create aliases that are easier than ever to remember and share. 
     Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand.
-multi-part-onboarding-premium-get-domain-description =
-    Use a custom domain for sharing aliases: With a custom domain, you can create 
-    aliases without having to generate them beforehand. Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    With a custom domain, you can create aliases without having to generate them beforehand. 
+    Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
