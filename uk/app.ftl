@@ -228,7 +228,7 @@ settings-warning-collection-off-heading = Функцію позначення п
 settings-warning-collection-off-description = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували псевдоадреси електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватність
-setting-label-collection-description = Дозвольте { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші псевдоадреси.
+setting-label-collection-description = Дозволити { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші псевдоадреси.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Ці дані дають нам можливість позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
 setting-label-collection-off-warning-v2 = Ці дані дають нам можливість пов'язувати ваші псевдоадреси з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
