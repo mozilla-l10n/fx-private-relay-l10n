@@ -35,6 +35,7 @@ meta-description = { -brand-name-firefox-relay } facilita la creación de alias 
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menú
 nav-home = Inicio
 label-open-menu = Abrir menú
@@ -75,6 +76,7 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } para móvil
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Cerrar menú
 
 ## Home Page
@@ -489,9 +491,9 @@ multi-part-onboarding-premium-welcome-description = No más límite de cinco ali
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa comida@tudominio{ $mozmail }. No es necesario crear el alias de antemano.
-multi-part-onboarding-premium-get-domain-description =
-    Utiliza un dominio personalizado para compartir alias: Con un dominio personalizado, puedes crear
-    alias sin necesidad de generarlos de antemano. ¿Necesitas uno para suscribirte a un boletín de noticias? Únicamente dí “leer@dominiopersonalizado{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-2 =
+    Con un dominio personalizado, puedes crear alias sin necesidad de generarlos de antemano. 
+    ¿Necesitas uno para suscribirte a un boletín de noticias? Únicamente dí “leer@dominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
