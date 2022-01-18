@@ -249,6 +249,9 @@ faq-question-missing-emails-answer-reason-delay = Το { -brand-name-relay } ί�
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-b-html = Αν είστε χρήστης του { -brand-name-relay-premium } και αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επικοινωνήστε με την ομάδα υποστήριξής μας</a>.
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = Εάν αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επισκεφτείτε τον ιστότοπο υποστήριξης</a>.
 faq-question-use-cases-question = Πότε πρέπει να χρησιμοποιώ τα ψευδώνυμα { -brand-name-relay };
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
@@ -430,9 +433,12 @@ onboarding-premium-title-detail = Με το { -brand-name-firefox-relay-premium 
 multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Πλέον, μπορείτε να ελέγχετε τα εισερχόμενά σας, ένα email κάθε φορά.
 multi-part-onboarding-premium-welcome-title = Ελέγξετε ποια email θα λαμβάνετε:
+multi-part-onboarding-premium-generate-unlimited-title = Δημιουργήστε απεριόριστα ψευδώνυμα email:
 multi-part-onboarding-premium-welcome-button-start = Έναρξη
 multi-part-onboarding-premium-domain-headline = Προσαρμοσμένος τομέας για κοινή χρήση ψευδωνύμων
 multi-part-onboarding-premium-domain-title = Αποκτήστε έναν δικό σας τομέα ψευδωνύμων:
+multi-part-onboarding-premium-get-domain = Αποκτήστε έναν προσαρμοσμένο τομέα
+multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 multi-part-onboarding-premium-domain-cta = Καταχωρήστε τον δικό σας τομέα τώρα:
 multi-part-onboarding-premium-domain-button-skip = Συνέχεια, θα καταχωρήσω τον τομέα μου αργότερα
 multi-part-onboarding-premium-extension-headline = Φραγή, προώθηση και απάντηση
