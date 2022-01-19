@@ -453,7 +453,6 @@ success-settings-update = Your settings have been updated
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = You must be a premium subscriber to make more than { $number } aliases
 error-premium-cannot-change-subdomain = You cannot change your subdomain
 error-premium-set-subdomain = You must be a premium subscriber to set a subdomain
@@ -462,6 +461,8 @@ error-premium-set-create-subdomain = You must be a premium subscriber to create 
 error-subdomain-not-created = Subdomain could not be created, try something else
 error-subdomain-email-not-created = Email address with subdomain could not be created, try something else
 error-subdomain-select = You must select a subdomain before creating a subdomain aliases
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not available. Please try again with another domain.
 
 ## Tips and tricks at the bottom of the page
@@ -533,11 +534,13 @@ multi-part-onboarding-premium-domain-title = Get a custom domain for your aliase
 multi-part-onboarding-premium-get-domain = Get a custom domain
 multi-part-onboarding-reply-headline = Reply to your emails
 
+multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 multi-part-onboarding-premium-domain-description = Using a custom domain, you can create aliases that are easier than ever to remember and share. 
     Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand. 
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 = With a custom domain, you can create aliases without having to generate them beforehand. 
     Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
