@@ -440,7 +440,6 @@ success-settings-update = Ihre Einstellungen wurden aktualisiert
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Sie müssen Premium-Abonnent sein, um mehr als { $number } Alias-Adressen zu erstellen
 error-premium-cannot-change-subdomain = Sie können Ihre Subdomain nicht ändern
 error-premium-set-subdomain = Sie müssen Premium-Abonnent sein, um eine Subdomain einzurichten
@@ -449,7 +448,45 @@ error-premium-set-create-subdomain = Sie müssen Premium-Abonnent sein, um Alias
 error-subdomain-not-created = Subdomain konnte nicht erstellt werden, versuchen Sie etwas anderes
 error-subdomain-email-not-created = E-Mail-Adresse mit Subdomain konnte nicht erstellt werden, versuchen Sie etwas anderes
 error-subdomain-select = Sie müssen eine Subdomain auswählen, bevor Sie eine Subdomain-Alias-Adresse erstellen
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Die Domain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuchen Sie es mit einer anderen Domain erneut.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Hilfe & Tipps
+tips-header-button-close-label = Schließen
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Häufig gestellte Fragen
+tips-footer-link-feedback-label = Feedback
+tips-footer-link-feedback-tooltip = Feedback senden
+tips-footer-link-support-label = Hilfe
+tips-footer-link-support-tooltip = Hilfe kontaktieren
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Neue benutzerdefinierte Alias-E-Mail-Adresse erstellen
+modal-custom-alias-picker-warning = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+modal-custom-alias-picker-form-heading = Oder erstellen Sie manuell eine benutzerdefinierte Alias-E-Mail-Adresse
+modal-custom-alias-picker-form-prefix-label = Alias-Präfix eintragen
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = z.B. „Kaffee“
+modal-custom-alias-picker-form-submit-label = Alias-E-Mail-Adresse erzeugen
+modal-custom-alias-picker-creation-error = Ihre benutzerdefinierte Alias-E-Mail-Adresse konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Alias-Adresse, um sie zu erstellen.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = So erstellen Sie benutzerdefinierte Alias-E-Mail-Adressen
+popover-custom-alias-explainer-explanation = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+popover-custom-alias-explainer-generate-button-heading = Benutzerdefinierte Alias-E-Mail-Adresse manuell erstellen
+popover-custom-alias-explainer-generate-button-label = Benutzerdefinierte Alias-E-Mail-Adresse erzeugen
+popover-custom-alias-explainer-close-button-label = Schließen
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Erstellen von Alias-E-Mail-Adressen mit Ihrer benutzerdefinierten Domain
+tips-custom-alias-content = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 
 ## Onboarding 
 
@@ -483,12 +520,14 @@ multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für A
 multi-part-onboarding-premium-domain-title = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen:
 multi-part-onboarding-premium-get-domain = Eine benutzerdefinierte Domain verwenden
 multi-part-onboarding-reply-headline = Auf Ihre E-Mails antworten
+multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Alias-Adressen generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem Relay-Add-on nebenbei erstellen.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Alias-Adressen generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem Relay-Add-on nebenbei erstellen.
 multi-part-onboarding-premium-domain-description =
     Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
     Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Mit einer benutzerdefinierten Domain können Sie
     Alias-Adressen verwenden, ohne sie vorher erzeugen zu müssen. Benötigen Sie eine Alias-Adresse, um sich für einen Newsletter anzumelden? Nehmen Sie einfach „lesen@meinedomain{ $mozmail }“
