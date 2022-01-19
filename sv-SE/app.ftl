@@ -440,7 +440,6 @@ success-settings-update = Dina inställningar har uppdaterats
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Du måste vara en premiumabonnent för att kunna göra fler än { $number }-alias
 error-premium-cannot-change-subdomain = Du kan inte ändra din underdomän
 error-premium-set-subdomain = Du måste vara en premiumabonnent för att ställa in en underdomän
@@ -449,7 +448,41 @@ error-premium-set-create-subdomain = Du måste vara en premiumabonnent för att 
 error-subdomain-not-created = Underdomänen kunde inte skapas, prova något annat
 error-subdomain-email-not-created = E-postadress med underdomän kunde inte skapas, prova något annat
 error-subdomain-select = Du måste välja en underdomän innan du skapar ett underdomänalias
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan domän.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Hjälp & tips
+tips-header-button-close-label = Ignorera
+tips-footer-link-faq-label = Vanliga frågor
+tips-footer-link-faq-tooltip = Vanliga frågor
+tips-footer-link-feedback-label = Återkoppling
+tips-footer-link-feedback-tooltip = Ge återkoppling
+tips-footer-link-support-label = Support
+tips-footer-link-support-tooltip = Kontakta supporten
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Skapa ett nytt anpassat alias
+modal-custom-alias-picker-warning = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän —alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+modal-custom-alias-picker-form-heading = Eller skapa ett anpassat alias manuellt
+modal-custom-alias-picker-form-prefix-label = Ange aliasprefix
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = t.ex. "kaffe"
+modal-custom-alias-picker-form-submit-label = Generera alias
+modal-custom-alias-picker-creation-error = Ditt anpassade alias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till alias för att skapa det.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-generate-button-label = Skapa anpassade alias
+popover-custom-alias-explainer-close-button-label = Stäng
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Skapa alias med din anpassade domän
 
 ## Onboarding 
 
@@ -483,12 +516,14 @@ multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
 multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
 multi-part-onboarding-premium-get-domain = Skaffa en anpassad domän
 multi-part-onboarding-reply-headline = Svara på dina mejl
+multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda Relay-tillägget för att skapa dem när du behöver.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda Relay-tillägget för att skapa dem när du behöver.
 multi-part-onboarding-premium-domain-description =
     Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
     Behöver du ett alias för restaurangbokningar? Använd bara mat@dindomän{ $mozmail } — Ditt alias behöver inte skapas i förväg.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Med en anpassad domän kan du skapa alias utan att behöva generera dem i förväg.
     Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
