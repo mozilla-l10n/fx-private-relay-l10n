@@ -477,12 +477,16 @@ modal-custom-alias-picker-creation-error = Ditt anpassade alias kunde inte skapa
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Hur man skapar anpassade alias
+popover-custom-alias-explainer-explanation = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+popover-custom-alias-explainer-generate-button-heading = Skapa ett anpassat alias manuellt
 popover-custom-alias-explainer-generate-button-label = Skapa anpassade alias
 popover-custom-alias-explainer-close-button-label = Stäng
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Skapa alias med din anpassade domän
+tips-custom-alias-content = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
 
 ## Onboarding 
 
