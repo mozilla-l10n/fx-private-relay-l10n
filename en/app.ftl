@@ -464,6 +464,42 @@ error-subdomain-email-not-created = Email address with subdomain could not be cr
 error-subdomain-select = You must select a subdomain before creating a subdomain aliases
 error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not available. Please try again with another domain.
 
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Help & Tips
+tips-header-button-close-label = Dismiss
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Frequently asked questions
+tips-footer-link-feedback-label = Feedback
+tips-footer-link-feedback-tooltip = Give feedback
+tips-footer-link-support-label = Support
+tips-footer-link-support-tooltip = Contact support
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Create a new custom alias
+modal-custom-alias-picker-warning = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+modal-custom-alias-picker-form-heading = Or, create a custom alias manually
+modal-custom-alias-picker-form-prefix-label = Enter alias prefix
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = e.g. "coffee"
+modal-custom-alias-picker-form-submit-label = Generate Alias
+modal-custom-alias-picker-creation-error = Your custom alias could not be manually created. Please try again, or send an email to the alias to create it.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = How to create custom aliases
+popover-custom-alias-explainer-explanation = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+popover-custom-alias-explainer-generate-button-heading = Generate a custom alias manually
+popover-custom-alias-explainer-generate-button-label = Generate custom alias
+popover-custom-alias-explainer-close-button-label = Close
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Creating aliases using your custom domain
+tips-custom-alias-content = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+
 ## Onboarding 
 
 onboarding-headline = Create your first alias, you have three ways …
