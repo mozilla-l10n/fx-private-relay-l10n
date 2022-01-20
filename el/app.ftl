@@ -420,6 +420,9 @@ tips-footer-link-support-label = Υποστήριξη
 
 ## Alias for generating a custom alias
 
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
 
 ## Popover explaining how custom aliases work
 
