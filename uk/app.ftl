@@ -63,6 +63,7 @@ nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capita
 nav-footer-privacy = Приватність
 nav-footer-relay-terms = Умови { -brand-name-relay }
 nav-footer-legal = Правові положення
+nav-footer-release-notes = Примітки до випуску
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Логотип GitHub
 
