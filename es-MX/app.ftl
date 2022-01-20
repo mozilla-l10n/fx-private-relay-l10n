@@ -471,6 +471,8 @@ modal-custom-alias-picker-form-submit-label = Generar alias
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Cómo crear alias personalizados
+popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
 popover-custom-alias-explainer-close-button-label = Cerrar
 
 ## Tip about using custom aliases
