@@ -321,6 +321,9 @@ profile-label-save-error = Не вдалося зберегти. Повторі�
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias = Створити нову псевдоадресу
 profile-label-generate-new-alias-menu-random = Випадкова псевдоадреса
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Псевдоадреса @{ $subdomain }
 profile-label-delete = Видалити
 profile-label-delete-alias = Видалити цю псевдоадресу
 profile-label-upgrade = Отримати необмежену кількість псевдоадрес
