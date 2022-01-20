@@ -458,9 +458,22 @@ tips-header-title = Довідка й поради
 tips-header-button-close-label = Відхилити
 tips-footer-link-faq-label = ЧаП
 tips-footer-link-faq-tooltip = Часті запитання
+tips-footer-link-feedback-label = Відгук
+tips-footer-link-feedback-tooltip = Надіслати відгук
+tips-footer-link-support-label = Підтримка
+tips-footer-link-support-tooltip = Звернутися до служби підтримки
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Створіть нову власну псевдоадресу
+modal-custom-alias-picker-warning = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
+modal-custom-alias-picker-form-heading = Або створіть власну псевдоадресу вручну
+modal-custom-alias-picker-form-prefix-label = Введіть префікс псевдоадреси
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = напр. «coffee»
+modal-custom-alias-picker-form-submit-label = Створити псевдоадресу
+modal-custom-alias-picker-creation-error = Не вдалося створити власну псевдоадресу вручну. Спробуйте ще раз або надішліть електронний лист на псевдоадресу, щоб створити її.
 
 ## Popover explaining how custom aliases work
 
