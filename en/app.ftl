@@ -325,6 +325,10 @@ profile-label-placeholder = Add account name
 profile-label-save-error = Failed to save, please try again.
 profile-label-saved = Label saved!
 profile-label-generate-new-alias = Generate New Alias
+profile-label-generate-new-alias-menu-random = Random Alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } Alias
 profile-label-delete = Delete
 profile-label-delete-alias = Delete this alias
 profile-label-upgrade = Get unlimited aliases
