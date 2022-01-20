@@ -317,6 +317,7 @@ profile-label-placeholder = Adder nomine de conto
 profile-label-save-error = Falta a salvar, retenta.
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
+profile-label-generate-new-alias-menu-random = Alias aleatori
 profile-label-delete = Deler
 profile-label-delete-alias = Deler iste alias
 profile-label-upgrade = Obtene aliases illimitate
@@ -436,7 +437,6 @@ success-settings-update = Tu parametros ha essite actualisate.
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Tu debe esser un abonato premium pro crear plus que { $number } aliases
 error-premium-cannot-change-subdomain = Tu non pote cambiar tu subdominio
 error-premium-set-subdomain = Tu debe esser un abonato premium pro definir plus de { $number } aliases
@@ -445,7 +445,29 @@ error-premium-set-create-subdomain = Tu debe esser un abonato premium pro crear 
 error-subdomain-not-created = Le sub-dominio non pote esser create, tenta altero
 error-subdomain-email-not-created = Le adresse e-mail con sub-dominio non pote esser create, tenta altero
 error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias de sub-dominio
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es disponibile. Retenta con un altere dominio.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-button-close-label = Dimitter
+tips-footer-link-faq-label = Folio a questiones
+tips-footer-link-faq-tooltip = Folio a questiones
+tips-footer-link-feedback-label = Reaction
+tips-footer-link-feedback-tooltip = Da tu opinion
+tips-footer-link-support-label = Supporto
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-form-submit-label = Generar alias
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-close-button-label = Clauder
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -479,12 +501,14 @@ multi-part-onboarding-premium-domain-headline = Un dominio personal pro comparti
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
 multi-part-onboarding-premium-get-domain = Obtener un dominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
+multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque aliases: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo Relay pro crear los al volo.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque aliases: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo Relay pro crear los al volo.
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
     Besonia tu de un alias pro reservationes de restaurante? Solo dice alimento@yourdomain{ $mozmail }, nulle besonio de crear alias previemente.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personal, tu pote crear aliases sin deber generar illes previemente. 
     Besonia tu de uno, pro registrar te a un littera de novas? Solo dice “read@customdomain{ $mozmail }”
