@@ -320,6 +320,7 @@ profile-label-placeholder = Agregar nombre de cuenta
 profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
+profile-label-generate-new-alias-menu-random = Alias aleatorio
 profile-label-delete = Eliminar
 profile-label-delete-alias = Eliminar este alias
 profile-label-upgrade = Obtener alias ilimitados
@@ -440,7 +441,6 @@ success-settings-update = Tu configuración ha sido actualizada
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Debes ser un suscriptor premium para crear más de { $number } alias
 error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
 error-premium-set-subdomain = Debes ser un suscriptor premium para configurar un subdominio
@@ -449,7 +449,32 @@ error-premium-set-create-subdomain = Debes ser un suscriptor premium para crear 
 error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
 error-subdomain-email-not-created = No se pudo crear la dirección de correo electrónico con el subdominio, intenta con otro
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Por favor intenta de nuevo con otro dominio.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Ayuda y consejos
+tips-header-button-close-label = Descartar
+tips-footer-link-faq-label = Preguntas frecuentes
+tips-footer-link-faq-tooltip = Preguntas frecuentemente realizadas
+tips-footer-link-feedback-label = Comentarios
+tips-footer-link-feedback-tooltip = Enviar opinión
+tips-footer-link-support-label = Soporte
+tips-footer-link-support-tooltip = Contactar al soporte
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
+modal-custom-alias-picker-form-submit-label = Generar alias
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-close-button-label = Cerrar
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -483,12 +508,14 @@ multi-part-onboarding-premium-domain-headline = Dominio personalizado para compa
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
 multi-part-onboarding-premium-get-domain = Obtén un dominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
+multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En el escritorio, puedes usar el complemento de Relay para crearlos en el camino.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En el escritorio, puedes usar el complemento de Relay para crearlos en el camino.
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa uno como comida@tudominio { $mozmail } — No es necesario crear el alias de antemano.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personalizado, puedes crear alias sin tener que generarlas de antemano. 
     ¿Necesitas registrarte a un boletín? Solo di “read@customdomain{ $mozmail }”
