@@ -477,9 +477,16 @@ modal-custom-alias-picker-creation-error = Не вдалося створити 
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Як створити власні псевдоадреси
+popover-custom-alias-explainer-explanation = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
+popover-custom-alias-explainer-generate-button-heading = Створити власну псевдоадресу вручну
+popover-custom-alias-explainer-generate-button-label = Створити власну псевдоадресу
+popover-custom-alias-explainer-close-button-label = Закрити
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Створення псевдоадрес із використанням власного домену
+tips-custom-alias-content = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 
 ## Onboarding 
 
