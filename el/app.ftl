@@ -294,6 +294,7 @@ profile-label-placeholder = Προσθήκη ονόματος λογαριασμ
 profile-label-save-error = Αποτυχία αποθήκευσης, παρακαλώ δοκιμάστε ξανά.
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
+profile-label-generate-new-alias-menu-random = Τυχαίο ψευδώνυμο
 profile-label-delete = Διαγραφή
 profile-label-delete-alias = Διαγραφή ψευδωνύμου
 profile-label-upgrade = Απόκτηση απεριόριστων ψευδωνύμων
@@ -396,7 +397,6 @@ success-settings-update = Οι ρυθμίσεις σας έχουν ενημερ
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Πρέπει να είστε συνδρομητής premium για να φτιάξετε πάνω από { $number } ψευδώνυμα
 error-premium-cannot-change-subdomain = Δεν μπορείτε να αλλάξετε τον υποτομέα σας
 error-premium-set-subdomain = Πρέπει να είστε συνδρομητής premium για να ορίσετε έναν υποτομέα
@@ -405,7 +405,28 @@ error-premium-set-create-subdomain = Πρέπει να είστε συνδρομ
 error-subdomain-not-created = Δεν ήταν δυνατή η δημιουργία υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-email-not-created = Αδυναμία δημιουργίας διεύθυνσης email με υποτομέα, δοκιμάστε κάτι άλλο
 error-subdomain-select = Πρέπει να επιλέξετε έναν υποτομέα προτού δημιουργήσετε ψευδώνυμα υποτομέα
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Ο τομέας @{ $unavailable_subdomain } δεν είναι διαθέσιμος. Παρακαλώ δοκιμάστε με έναν άλλο τομέα.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Βοήθεια & συμβουλές
+tips-header-button-close-label = Απόρριψη
+tips-footer-link-faq-tooltip = Συχνές ερωτήσεις
+tips-footer-link-feedback-label = Σχόλια
+tips-footer-link-feedback-tooltip = Αποστολή σχολίων
+tips-footer-link-support-label = Υποστήριξη
+
+## Alias for generating a custom alias
+
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-close-button-label = Κλείσιμο
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
