@@ -440,7 +440,6 @@ success-settings-update = Mae eich gosodiadau wedi'u diweddaru
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Rhaid i chi fod yn danysgrifiwr premiwm i greu mwy na { $number } arallenw
 error-premium-cannot-change-subdomain = Nid oes modd i chi newid eich is-barth
 error-premium-set-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i osod is-barth
@@ -449,7 +448,45 @@ error-premium-set-create-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i g
 error-subdomain-not-created = Nid oes modd  creu'r is-barth hwnnw, rhowch gynnig ar rywbeth arall
 error-subdomain-email-not-created = Nid oedd modd creu cyfeiriad e-bost gydag is-barth, rhowch gynnig ar rywbeth arall
 error-subdomain-select = Rhaid i chi ddewis is-barth cyn creu arallenwau is-barth
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gyda pharth arall.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Cymorth a Chynghorion
+tips-header-button-close-label = Cau
+tips-footer-link-faq-label = Cwestiynau Cyffredin
+tips-footer-link-faq-tooltip = Cwestiynau cyffredin
+tips-footer-link-feedback-label = Adborth
+tips-footer-link-feedback-tooltip = Rhowch adborth
+tips-footer-link-support-label = Cefnogaeth
+tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Crëwch arallenw cyfaddas newydd
+modal-custom-alias-picker-warning = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+modal-custom-alias-picker-form-heading = Neu, crëwch arallenw personol â llaw
+modal-custom-alias-picker-form-prefix-label = Rhoi rhagosodiad arallenw
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = e.e. "coffi"
+modal-custom-alias-picker-form-submit-label = Cynhyrchu Arallenw
+modal-custom-alias-picker-creation-error = Nid oedd modd creu eich arallenw cyfaddas. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Sut i greu arallenwau cyfaddas
+popover-custom-alias-explainer-explanation = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+popover-custom-alias-explainer-generate-button-heading = Crëwch arallenw cyfaddas â llaw
+popover-custom-alias-explainer-generate-button-label = Cynhyrchu arallenw cyfaddas
+popover-custom-alias-explainer-close-button-label = Cau
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Creu arallenwau gan ddefnyddio'ch parth cyfaddas
+tips-custom-alias-content = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 
 ## Onboarding 
 
@@ -483,12 +520,14 @@ multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu a
 multi-part-onboarding-premium-domain-title = Cael parth personol ar gyfer eich arallenwau:
 multi-part-onboarding-premium-get-domain = Cael parth cyfaddas
 multi-part-onboarding-reply-headline = Ateb i'ch e-byst
+multi-part-onboarding-premium-welcome-description = Dim mwy o ddim ond pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau cyfaddas neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn Relay i'w creu yn ôl yr angen.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Dim mwy o ddim ond pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau cyfaddas neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn Relay i'w creu yn ôl yr angen.
 multi-part-onboarding-premium-domain-description =
     Gan ddefnyddio parth personol, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
     Angen arallenw ar gyfer archebion bwyty? Dim ond rhoi bwyd@ eichparth{ $mozmail } - Does dim angen creu'r arallenw ymlaen llaw.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Gyda pharth cyfaddas, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
     Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
