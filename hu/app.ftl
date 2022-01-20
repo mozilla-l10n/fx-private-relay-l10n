@@ -440,7 +440,6 @@ success-settings-update = A beállításai frissítve lettek
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Prémium előfizetőnek kell lennie, hogy több mint { $number } álnevet hozhasson létre
 error-premium-cannot-change-subdomain = Nem módosíthatja az aldomainjét
 error-premium-set-subdomain = Az aldomain beállításához prémium előfizetőnek kell lennie
@@ -449,7 +448,45 @@ error-premium-set-create-subdomain = Az aldomain álnevek létrehozásához pré
 error-subdomain-not-created = Nem sikerült létrehozni az aldomaint, próbálkozzon mással
 error-subdomain-email-not-created = Nem sikerült e-mail-címet létrehozni az aldomainnel, próbálkozzon mással
 error-subdomain-select = Ki kell választania egy aldomaint, mielőtt aldomain álnevet hozna létre
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = A(z) @{ $unavailable_subdomain } domain nem érhető el. Próbálja újra egy másik domainnel.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Súgó és tippek
+tips-header-button-close-label = Eltüntetés
+tips-footer-link-faq-label = GYIK
+tips-footer-link-faq-tooltip = Gyakran ismételt kérdések
+tips-footer-link-feedback-label = Visszajelzés
+tips-footer-link-feedback-tooltip = Visszajelzés
+tips-footer-link-support-label = Támogatás
+tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Új egyéni álnév létrehozása
+modal-custom-alias-picker-warning = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+modal-custom-alias-picker-form-heading = Vagy hozzon létre kézzel egy egyéni álnevet
+modal-custom-alias-picker-form-prefix-label = Írja be az álnévelőtagot
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = például „kave”
+modal-custom-alias-picker-form-submit-label = Álnév előállítása
+modal-custom-alias-picker-creation-error = Az egyéni álnév nem hozható létre kézileg. Próbálja újra, vagy küldjön egy e-mailt az álnévre a létrehozásához.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Hogyan hozzon létre egyéni álneveket
+popover-custom-alias-explainer-explanation = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+popover-custom-alias-explainer-generate-button-heading = Egyéni álnév kézi létrehozása
+popover-custom-alias-explainer-generate-button-label = Egyéni álnév előállítása
+popover-custom-alias-explainer-close-button-label = Bezárás
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Álnevek létrehozása az egyéni domainje használatával
+tips-custom-alias-content = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
 
 ## Onboarding 
 
@@ -483,10 +520,12 @@ multi-part-onboarding-premium-domain-headline = Egyéni domain az álnevek megos
 multi-part-onboarding-premium-domain-title = Szerezzen egyéni domaint az álneveihez:
 multi-part-onboarding-premium-get-domain = Egyéni domain beszerzése
 multi-part-onboarding-reply-headline = Válaszoljon a leveleire
+multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
 multi-part-onboarding-premium-domain-description = Egyéni domain használatakor olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Csak mondja, hogy kaja@yourdomain{ $mozmail } – nem szükséges előzetesen létrehoznia az álnevet.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Egyéni domainnel anélkül hozhat létre álneveket, hogy előzetesen előállította volna.
     Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@customdomain{ $mozmail }”.
