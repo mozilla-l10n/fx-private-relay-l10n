@@ -451,6 +451,7 @@ error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es di
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Adjuta e consilios
 tips-header-button-close-label = Dimitter
 tips-footer-link-faq-label = Folio a questiones
 tips-footer-link-faq-tooltip = Folio a questiones
