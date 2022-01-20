@@ -467,7 +467,10 @@ tips-footer-link-support-tooltip = Contactar al soporte
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
+modal-custom-alias-picker-form-heading = O bien, crea un alias personalizado manualmente
+modal-custom-alias-picker-form-prefix-label = Ingresa el prefijo del alias
 modal-custom-alias-picker-form-submit-label = Generar alias
+modal-custom-alias-picker-creation-error = Tu alias personalizado no se pudo crear manualmente, Vuelve a intentarlo o envía un correo electrónico al alias para crearlo.
 
 ## Popover explaining how custom aliases work
 
