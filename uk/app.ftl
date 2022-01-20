@@ -320,6 +320,7 @@ profile-label-placeholder = Додайте назву облікового за�
 profile-label-save-error = Не вдалося зберегти. Повторіть спробу.
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias = Створити нову псевдоадресу
+profile-label-generate-new-alias-menu-random = Випадкова псевдоадреса
 profile-label-delete = Видалити
 profile-label-delete-alias = Видалити цю псевдоадресу
 profile-label-upgrade = Отримати необмежену кількість псевдоадрес
