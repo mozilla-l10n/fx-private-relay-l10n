@@ -445,7 +445,6 @@ success-settings-update = Uw instellingen zijn bijgewerkt
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = U moet een premiumabonnee zijn om meer dan { $number } aliassen aan te maken
 error-premium-cannot-change-subdomain = U kunt uw subdomein niet wijzigen
 error-premium-set-subdomain = U moet een premiumabonnee zijn om een subdomein in te stellen
@@ -454,7 +453,45 @@ error-premium-set-create-subdomain = U moet een premiumabonnee zijn om subdomein
 error-subdomain-not-created = Subdomein kan niet worden aangemaakt, probeer iets anders
 error-subdomain-email-not-created = E-mailadres met subdomein kan niet worden aangemaakt, probeer iets anders
 error-subdomain-select = U moet een subdomein selecteren voordat u een subdomeinalias aanmaakt
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Het domein @{ $unavailable_subdomain } is niet beschikbaar. Probeer het opnieuw met een ander domein.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Hulp & Tips
+tips-header-button-close-label = Sluiten
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Veelgestelde vragen
+tips-footer-link-feedback-label = Feedback
+tips-footer-link-feedback-tooltip = Feedback geven
+tips-footer-link-support-label = Ondersteuning
+tips-footer-link-support-tooltip = Contact opnemen
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Een nieuwe aangepaste alias aanmaken
+modal-custom-alias-picker-warning = Het enige dat u hoeft te doen, is een unieke alias bedenken en delen die uw aangepaste domein gebruikt – de alias wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
+modal-custom-alias-picker-form-heading = Of maak handmatig een aangepaste alias
+modal-custom-alias-picker-form-prefix-label = Voer aliasvoorvoegsel in
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = b.v. ‘koffie’
+modal-custom-alias-picker-form-submit-label = Alias aanmaken
+modal-custom-alias-picker-creation-error = Uw aangepaste alias kan niet handmatig worden gemaakt. Probeer het opnieuw of stuur een e-mailbericht naar de alias om deze aan te maken.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Aangepaste aliassen maken
+popover-custom-alias-explainer-explanation = Het enige dat u hoeft te doen, is een unieke alias bedenken en delen die uw aangepaste domein gebruikt – de alias wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
+popover-custom-alias-explainer-generate-button-heading = Handmatig een aangepaste alias aanmaken
+popover-custom-alias-explainer-generate-button-label = Aangepaste alias aanmaken
+popover-custom-alias-explainer-close-button-label = Sluiten
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Aliassen maken met uw aangepaste domein
+tips-custom-alias-content = Het enige dat u hoeft te doen, is een unieke alias bedenken en delen die uw aangepaste domein gebruikt – de alias wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
 
 ## Onboarding 
 
@@ -488,12 +525,14 @@ multi-part-onboarding-premium-domain-headline = Aangepast domein voor het delen 
 multi-part-onboarding-premium-domain-title = Een aangepast domein verkrijgen voor uw aliassen:
 multi-part-onboarding-premium-get-domain = Een aangepast domein verkrijgen
 multi-part-onboarding-reply-headline = Uw e-mailberichten beantwoorden
+multi-part-onboarding-premium-welcome-description = Geen limiet van vijf aliassen meer: u kunt nu zoveel aangepaste of willekeurige aliassen genereren als u nodig heeft. Op desktop kunt u de Relay-add-on gebruiken om ze onderweg aan te maken.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Geen limiet van vijf aliassen meer: u kunt nu zoveel aangepaste of willekeurige aliassen genereren als u nodig heeft. Op desktop kunt u de Relay-add-on gebruiken om ze onderweg aan te maken.
 multi-part-onboarding-premium-domain-description =
     Met een aangepast domein kunt u aliassen maken die gemakkelijker dan ooit te onthouden en te delen zijn.
     Een alias nodig voor restaurantreserveringen? Zeg gewoon eten@uwdomein{ $mozmail } – U hoeft de alias niet vooraf te maken.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Met een aangepast domein kunt u aliassen aanmaken zonder deze vooraf aan te hoeven maken. 
     Heeft u er een nodig om u aan te melden voor een nieuwsbrief? Gebruik gewoon ‘lezen@aangepastdomein{ $mozmail }’
