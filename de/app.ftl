@@ -320,6 +320,10 @@ profile-label-placeholder = Kontoname hinzufügen
 profile-label-save-error = Fehler beim Speichern, bitte versuchen Sie es erneut.
 profile-label-saved = Beschriftung gespeichert!
 profile-label-generate-new-alias = Neue Alias-Adresse erstellen
+profile-label-generate-new-alias-menu-random = Zufällige Alias-E-Mail-Adresse
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias-E-Mail-Adresse für @{ $subdomain }
 profile-label-delete = Löschen
 profile-label-delete-alias = Diese Alias-Adresse löschen
 profile-label-upgrade = Unbegrenzt viele Alias-Adressen erhalten
