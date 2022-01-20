@@ -457,13 +457,21 @@ tips-footer-link-faq-tooltip = Folio a questiones
 tips-footer-link-feedback-label = Reaction
 tips-footer-link-feedback-tooltip = Da tu opinion
 tips-footer-link-support-label = Supporto
+tips-footer-link-support-tooltip = Contactar supporto
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Crear un nove alias personalisate
+modal-custom-alias-picker-form-prefix-label = Insere un prefixo de alias
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = e.g. "caffe"
 modal-custom-alias-picker-form-submit-label = Generar alias
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Como crear aliases personalisate
+popover-custom-alias-explainer-generate-button-label = Generar alias personalisate
 popover-custom-alias-explainer-close-button-label = Clauder
 
 ## Tip about using custom aliases
