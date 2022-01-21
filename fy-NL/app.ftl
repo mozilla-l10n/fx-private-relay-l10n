@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase
 nav-footer-privacy = Privacy
 nav-footer-relay-terms = { -brand-name-relay }-betingsten
 nav-footer-legal = Juridysk
+nav-footer-release-notes = Utjefteopmerkingen
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
@@ -326,6 +327,10 @@ profile-label-placeholder = Accountnamme tafoegje
 profile-label-save-error = Bewarjen mislearre, probearje it opnij.
 profile-label-saved = Label bewarre!
 profile-label-generate-new-alias = Nije alias oanmeitsje
+profile-label-generate-new-alias-menu-random = Eigenwillige alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
 profile-label-delete = Fuortsmite
 profile-label-delete-alias = Dizze alias fuortsmite
 profile-label-upgrade = Unbeheinde aliassen krije
@@ -446,7 +451,6 @@ success-settings-update = Jo ynstellingen binne bywurke
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Jo moatte in premiumabonnee wêze om mear as { $number } aliassen oan te meitsjen
 error-premium-cannot-change-subdomain = Jo kinne jo subdomein net wizigje
 error-premium-set-subdomain = Jo moatte in premiumabonnee wêze om in subdomein yn te stellen
@@ -455,7 +459,45 @@ error-premium-set-create-subdomain = Jo moatte in premiumabonnee wêze om in sub
 error-subdomain-not-created = Subdomein kin net oanmakke wurde, probearje wat oars
 error-subdomain-email-not-created = E-mailadres mei subdomein kin net oanmakke wurde, probearje wat oars
 error-subdomain-select = Jo moatte in subdomein selektearje eardat jo in subdomainalias oanmeitsje
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = It domein @{ $unavailable_subdomain } is net beskikber. Probearje it opnij mei in oar domein.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Help & Tips
+tips-header-button-close-label = Slute
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Faak stelde fragen
+tips-footer-link-feedback-label = Kommentaar
+tips-footer-link-feedback-tooltip = Kommentaar jaan
+tips-footer-link-support-label = Stipe
+tips-footer-link-support-tooltip = Kontakt opnimme
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = In nije oanpaste alias oanmeitsje
+modal-custom-alias-picker-warning = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+modal-custom-alias-picker-form-heading = Of meitsje hânmjittich in oanpaste alias
+modal-custom-alias-picker-form-prefix-label = Fier aliasfoarfoegsel yn
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = byg. ‘kofje’
+modal-custom-alias-picker-form-submit-label = Alias oanmeitsje
+modal-custom-alias-picker-creation-error = Jo oanpaste alias kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei de alias om dizze oan te meitsjen.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Oanpaste aliassen meitsje
+popover-custom-alias-explainer-explanation = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+popover-custom-alias-explainer-generate-button-heading = Hânmjittich in oanpaste alias oanmeitsje
+popover-custom-alias-explainer-generate-button-label = Oanpaste alias oanmeitsje
+popover-custom-alias-explainer-close-button-label = Slute
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Aliassen oanmeitsje mei jo oanpaste domein
+tips-custom-alias-content = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
 
 ## Onboarding 
 
@@ -489,12 +531,14 @@ multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fa
 multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
 multi-part-onboarding-premium-get-domain = Krij in oanpast domein
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
+multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliassen mear: jo kinne no safolle oanpaste of ferskate aliassen generearje as jo nedich binne. Op desktop, kinne jo de Relay-add-on brûke om se daliks oan te meitsjen.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliassen mear: jo kinne no safolle oanpaste of ferskate aliassen generearje as jo nedich binne. Op desktop, kinne jo de Relay-add-on brûke om se daliks oan te meitsjen.
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Mei in oanpast domein kinne jo aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
     Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
