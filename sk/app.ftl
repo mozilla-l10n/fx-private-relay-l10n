@@ -507,12 +507,28 @@ tips-footer-link-support-tooltip = Kontaktovať podporu
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Vytvorte si nový vlastný alias
+modal-custom-alias-picker-warning = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+modal-custom-alias-picker-form-heading = Alebo si vytvorte vlastný alias manuálne
+modal-custom-alias-picker-form-prefix-label = Zadajte predponu aliasu
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = napr. "hracky"
+modal-custom-alias-picker-form-submit-label = Vytvoriť alias
+modal-custom-alias-picker-creation-error = Váš vlastný alias nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e-mail na alias, aby ste ho vytvorili.
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Ako vytvárať vlastné aliasy
+popover-custom-alias-explainer-explanation = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+popover-custom-alias-explainer-generate-button-heading = Manuálne vytvorenie vlastného aliasu
+popover-custom-alias-explainer-generate-button-label = Vytvoriť vlastný alias
+popover-custom-alias-explainer-close-button-label = Zavrieť
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Vytváranie aliasov pomocou vlastnej domény
+tips-custom-alias-content = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 
 ## Onboarding 
 
