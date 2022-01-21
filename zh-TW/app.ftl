@@ -427,12 +427,16 @@ modal-custom-alias-picker-form-submit-label = 產生別名
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = 如何建立自訂別名
+popover-custom-alias-explainer-explanation = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
 popover-custom-alias-explainer-generate-button-heading = 手動建立自訂別名
 popover-custom-alias-explainer-generate-button-label = 建立自訂別名
 popover-custom-alias-explainer-close-button-label = 關閉
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = 使用您的自訂網域來建立別名
+tips-custom-alias-content = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
 
 ## Onboarding 
 
@@ -489,6 +493,7 @@ modal-delete-headline = 確定要永久刪除這個別名嗎？
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再把寄送到 <strong>{ $email }</strong> 的郵件（包含密碼重設信）轉寄給您。
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，請務必在刪除此別名前，先到該網站把電子郵件地址更改成其他地址。
+modal-delete-domain-address-warning-upgrade = 若您打算使用此別名註冊重要網站的帳號，應該在刪除此別名前，先將帳號更改為其他的墊子郵件信箱。若在刪除別名後重新建立原本的別名，還是會轉寄寄送到該原始別名的信件。
 modal-delete-confirmation = 是的，我要刪除這個別名。
 modal-domain-register-good-news = 好消息！
 modal-domain-register-warning-reminder = 您只可註冊一個網域，之後不能再更改。
