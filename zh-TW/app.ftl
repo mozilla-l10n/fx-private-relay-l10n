@@ -180,6 +180,7 @@ premium-promo-use-cases-headline = 隨時隨地都能使用 { -brand-name-relay 
 premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body = 想要收到折價券，但不想要收到垃圾信嗎？在不同的購物網站都使用獨立的自訂別名，例如「mydeals@mydomain.mozmail.com」。
 premium-promo-use-cases-social-networks-heading = 社群網路
+premium-promo-use-cases-social-networks-body = 想要在使用社群網路時更加保護您的線上身分嗎？改用 { -brand-name-relay } 別名信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
 premium-promo-use-cases-gaming-heading = 遊戲
 premium-promo-use-cases-gaming-body = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 premium-promo-pricing-free-price = 您目前的免費方案
