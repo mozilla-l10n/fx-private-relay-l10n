@@ -107,6 +107,7 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 ## Hero Section
 
 landing-hero-headline = 保護您實際的電子郵件地址，並且自行控管收件匣
+landing-hero-body = { -brand-name-firefox-relay } 別名信箱會自動轉寄郵件到您的實際信箱，並保護您實際的電子郵件信箱，使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可已開始使用。
 
 ## How it works section
 
