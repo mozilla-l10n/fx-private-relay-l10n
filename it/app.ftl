@@ -67,6 +67,7 @@ nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 nav-footer-privacy = Privacy
 nav-footer-relay-terms = Termini di utilizzo di { -brand-name-relay }
 nav-footer-legal = Note legali
+nav-footer-release-notes = Note di versione
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo di GitHub
 
@@ -436,7 +437,6 @@ success-settings-update = Le impostazioni sono state aggiornate.
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = È necessario avere un abbonamento premium per creare più di { $number } alias
 error-premium-cannot-change-subdomain = Non è possibile modificare il sottodominio
 error-premium-set-subdomain = È necessario avere un abbonamento premium per impostare un sottodominio
@@ -445,7 +445,21 @@ error-premium-set-create-subdomain = È necessario avere un abbonamento premium 
 error-subdomain-not-created = Impossibile creare il sottodominio, provane un altro
 error-subdomain-email-not-created = Impossibile creare l’indirizzo email con sottodominio, provane un altro
 error-subdomain-select = È necessario selezionare un sottodominio prima di creare un alias
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro dominio.
+
+## Tips and tricks at the bottom of the page
+
+
+## Alias for generating a custom alias
+
+
+## Popover explaining how custom aliases work
+
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -479,12 +493,14 @@ multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli a
 multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
 multi-part-onboarding-premium-get-domain = Ottenere un dominio personalizzato
 multi-part-onboarding-reply-headline = Rispondere alle tue email
+multi-part-onboarding-premium-welcome-description = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione Relay per crearli sul momento.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione Relay per crearli sul momento.
 multi-part-onboarding-premium-domain-description =
     Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
     Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@tuodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personalizzato puoi creare alias senza doverli generare in anticipo. 
     Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
