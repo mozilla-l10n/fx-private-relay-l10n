@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase
 nav-footer-privacy = Privacy
 nav-footer-relay-terms = { -brand-name-relay }-voorwaarden
 nav-footer-legal = Juridisch
+nav-footer-release-notes = Uitgaveopmerkingen
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
@@ -325,6 +326,10 @@ profile-label-placeholder = Accountnaam toevoegen
 profile-label-save-error = Opslaan mislukt, probeer het opnieuw.
 profile-label-saved = Label opgeslagen!
 profile-label-generate-new-alias = Nieuwe alias aanmaken
+profile-label-generate-new-alias-menu-random = Willekeurige alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
 profile-label-delete = Verwijderen
 profile-label-delete-alias = Deze alias verwijderen
 profile-label-upgrade = Onbeperkte aliassen verkrijgen
