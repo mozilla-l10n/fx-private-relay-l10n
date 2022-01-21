@@ -63,6 +63,7 @@ nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "up
 nav-footer-privacy = Preifatrwydd
 nav-footer-relay-terms = Amodau { -brand-name-relay }
 nav-footer-legal = Cyfreithiol
+nav-footer-release-notes = Nodiadau Rhyddhau
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
@@ -320,6 +321,10 @@ profile-label-placeholder = Ychwanegu enw'r cyfrif
 profile-label-save-error = Wedi methu cadw, ceisiwch eto.
 profile-label-saved = Label wedi’i gadw!
 profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
+profile-label-generate-new-alias-menu-random = Arallenwau ar Hap
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Arallenw @{ $subdomain }
 profile-label-delete = Dileu
 profile-label-delete-alias = Dileu'r arallenw hwn
 profile-label-upgrade = Cael arallenwau dirifedi
