@@ -143,6 +143,7 @@ landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 ## Use Cases
 
 landing-use-cases-shopping = 線上購物
+landing-use-cases-shopping-body = 要在新的網路商店買東西？請用 { -brand-name-relay } 而不要使用實際的電子郵件信箱來登記信箱。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
 landing-use-cases-social-networks = 社群網路
 landing-use-cases-offline = 線下環境
 landing-use-cases-access-content = 開啟網站內容
