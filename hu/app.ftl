@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account } profilkép
 nav-footer-privacy = Adatvédelem
 nav-footer-relay-terms = { -brand-name-relay } feltételei
 nav-footer-legal = Jogi információk
+nav-footer-release-notes = Kiadási megjegyzések
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logó
 
@@ -320,6 +321,10 @@ profile-label-placeholder = Fióknév hozzáadása
 profile-label-save-error = A mentés sikertelen, próbálja újra.
 profile-label-saved = Címke mentve!
 profile-label-generate-new-alias = Új álnév előállítása
+profile-label-generate-new-alias-menu-random = Véletlenszerű álnév
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } álnév
 profile-label-delete = Törlés
 profile-label-delete-alias = Álnév törlése
 profile-label-upgrade = Szerezzen korlátlan számú álnevet
