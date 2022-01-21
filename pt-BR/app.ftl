@@ -486,6 +486,8 @@ popover-custom-alias-explainer-close-button-label = Fechar
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Como criar endereços de redirecionamento usando seu domínio personalizado
+tips-custom-alias-content = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
 
 ## Onboarding 
 
