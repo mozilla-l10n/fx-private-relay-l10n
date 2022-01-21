@@ -145,8 +145,11 @@ landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 landing-use-cases-shopping = 線上購物
 landing-use-cases-shopping-body = 要在新的網路商店買東西？請用 { -brand-name-relay } 而不要使用實際的電子郵件信箱來登記信箱。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
 landing-use-cases-social-networks = 社群網路
+landing-use-cases-social-networks-body = 使用社群網路時，想要加強保護您的線上身分嗎？試著不讓您的實際信箱與社群媒體帳號被結合起來避免肉搜嗎？使用 { -brand-name-relay } 的別名信箱來登入，並且保護您的線上身分。
 landing-use-cases-offline = 線下環境
+landing-use-cases-offline-body = 想收到電子發票或收據，但不想收到廣告信嗎？請使用 { -brand-name-relay } 別名信箱，而不使用實際的信箱來收取店家的無紙化收據。我們會將收據轉寄到您的實際信箱，開始收到不喜歡的垃圾信時，只要關閉轉寄功能就好。
 landing-use-cases-access-content = 開啟網站內容
+landing-use-cases-access-content-body = 想要註冊某份電子報，但不確定寄件者可不可靠？請使用別名信箱訂閱。當您開始透過該別名信箱收到不想要的郵件時，就代表寄件者可能把您的信箱賣給其他廣告商，或是名單已遭外流。只要關閉或刪除別名，即可保護您的收件匣。
 landing-use-cases-gaming = 遊戲
 landing-use-cases-gaming-body = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用 { -brand-name-relay } 別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 
