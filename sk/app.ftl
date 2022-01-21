@@ -104,6 +104,7 @@ nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization:
 nav-footer-privacy = Súkromie
 nav-footer-relay-terms = Podmienky používania služby { -brand-name-relay }
 nav-footer-legal = Právne informácie
+nav-footer-release-notes = Poznámky k vydaniu
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
 
@@ -359,6 +360,10 @@ profile-label-placeholder = Pridať názov účtu
 profile-label-save-error = Uloženie zlyhalo, skúste to znova.
 profile-label-saved = Štítok uložený!
 profile-label-generate-new-alias = Vytvoriť nový alias
+profile-label-generate-new-alias-menu-random = Náhodný alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Odstrániť
 profile-label-delete-alias = Odstrániť tento alias
 profile-label-upgrade = Získajte neobmedzené množstvo aliasov
@@ -477,7 +482,6 @@ success-settings-update = Vaše nastavenia boli aktualizované.
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Ak chcete vytvoriť viac ako { $number } aliasov, musíte byť prémiovým predplatiteľom
 error-premium-cannot-change-subdomain = Subdoménu nemôžete zmeniť
 error-premium-set-subdomain = Na nastavenie subdomény musíte byť prémiovým predplatiteľom
@@ -486,7 +490,29 @@ error-premium-set-create-subdomain = Na vytváranie aliasov v subdoméne musíte
 error-subdomain-not-created = Subdoménu nebolo možné vytvoriť, skúste niečo iné
 error-subdomain-email-not-created = E-mailovú adresu so subdoménou sa nepodarilo vytvoriť, skúste niečo iné
 error-subdomain-select = Pred vytvorením aliasov so subdoménou si musíte zvoliť subdoménu
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dispozícii. Skúste to znova s inou doménou.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Pomocník a tipy
+tips-header-button-close-label = Zavrieť
+tips-footer-link-faq-label = Často kladené otázky
+tips-footer-link-faq-tooltip = Často kladené otázky
+tips-footer-link-feedback-label = Spätná väzba
+tips-footer-link-feedback-tooltip = Odoslať spätnú väzbu
+tips-footer-link-support-label = Podpora
+tips-footer-link-support-tooltip = Kontaktovať podporu
+
+## Alias for generating a custom alias
+
+
+## Popover explaining how custom aliases work
+
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -520,12 +546,14 @@ multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie a
 multi-part-onboarding-premium-domain-title = Získajte vlastnú doménu pre svoje aliasy:
 multi-part-onboarding-premium-get-domain = Získajte vlastnú doménu
 multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
+multi-part-onboarding-premium-welcome-description = Už žiadne obmedzenie na päť aliasov: teraz môžete generovať toľko vlastných alebo náhodných aliasov, koľko potrebujete. Jednoducho pomocou doplnku Relay.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Už žiadne obmedzenie na päť aliasov: teraz môžete generovať toľko vlastných alebo náhodných aliasov, koľko potrebujete. Jednoducho pomocou doplnku Relay.
 multi-part-onboarding-premium-domain-description =
     Pomocou vlastnej domény môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať.
     Potrebujete alias na rezervácie v reštaurácii? Stačí zadať jedlo@vašadoména{ $mozmail } — nie je potrebné vytvárať alias vopred.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     S vlastnou doménou môžete vytvárať aliasy bez toho, aby ste ich museli generovať vopred.
     Potrebujete alias na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vašadoména{ $mozmail }”.
