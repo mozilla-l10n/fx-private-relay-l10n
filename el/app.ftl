@@ -88,6 +88,7 @@ nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", c
 nav-footer-privacy = Απόρρητο
 nav-footer-relay-terms = Όροι του { -brand-name-relay }
 nav-footer-legal = Νομικά
+nav-footer-release-notes = Σημειώσεις έκδοσης
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Λογότυπο GitHub
 
