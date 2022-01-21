@@ -255,6 +255,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
+faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
 
 ## Profile Page (Logged In)
 
@@ -418,12 +419,14 @@ tips-footer-link-support-tooltip = 聯絡支援團隊
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = 建立新自訂別名
+modal-custom-alias-picker-warning = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
 modal-custom-alias-picker-form-heading = 或者手動建立自訂別名
 modal-custom-alias-picker-form-prefix-label = 輸入別名前綴
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
 modal-custom-alias-picker-form-submit-label = 產生別名
+modal-custom-alias-picker-creation-error = 無法手動建立您的自訂別名，請再試一次，或直接寄信到該別名信箱即可建立。
 
 ## Popover explaining how custom aliases work
 
