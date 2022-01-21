@@ -470,6 +470,10 @@ modal-custom-alias-picker-heading = Criar endereço de redirecionamento personal
 modal-custom-alias-picker-warning = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
 modal-custom-alias-picker-form-heading = Ou crie um endereço de redirecionamento personalizado manualmente
 modal-custom-alias-picker-form-prefix-label = Digite o prefixo do endereço de redirecionamento
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "lojas"
+modal-custom-alias-picker-form-submit-label = Gerar endereço de redirecionamento
 
 ## Popover explaining how custom aliases work
 
