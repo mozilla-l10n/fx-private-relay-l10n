@@ -218,6 +218,7 @@ faq-headline = 常見問題
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } 別名是什麼？
+faq-question-what-is-answer = 別名信箱就是會將收到的郵件轉寄到您的實際信箱的隱藏信箱。您可以將這些別名分享給第三方業者，使他們無法知道您的實際信箱，但還是能夠收到通知郵件。
 faq-question-missing-emails-question = 我沒有收到來自別名信箱轉寄的郵件
 faq-question-missing-emails-answer-a = 下列原因可能會造成信件無法轉發給您：
 faq-question-missing-emails-answer-reason-spam = 訊息掉進垃圾信件匣
