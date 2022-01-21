@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: 
 nav-footer-privacy = Privacidade
 nav-footer-relay-terms = Termos do { -brand-name-relay }
 nav-footer-legal = Jurídico
+nav-footer-release-notes = Notas de atualização
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logotipo do GitHub
 
@@ -436,7 +437,6 @@ success-settings-update = Suas configurações foram atualizadas
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Você precisa ter assinatura premium para criar mais de { $number } endereços de redirecionamento
 error-premium-cannot-change-subdomain = Você não pode alterar seu subdomínio
 error-premium-set-subdomain = Você precisa ter assinatura premium para definir um subdomínio
@@ -445,7 +445,21 @@ error-premium-set-create-subdomain = Você precisa ter assinatura premium para c
 error-subdomain-not-created = Não foi possível criar o subdomínio, tente outro
 error-subdomain-email-not-created = Não foi possível criar o endereço de redirecionamento de subdomínio, tente outro
 error-subdomain-select = Você deve selecionar um subdomínio antes de criar endereços de redirecionamento de subdomínio
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não está disponível. Tente novamente com outro domínio.
+
+## Tips and tricks at the bottom of the page
+
+
+## Alias for generating a custom alias
+
+
+## Popover explaining how custom aliases work
+
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -479,12 +493,14 @@ multi-part-onboarding-premium-domain-headline = Domínio personalizado para comp
 multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos endereços de redirecionamento:
 multi-part-onboarding-premium-get-domain = Ter um domínio personalizado
 multi-part-onboarding-reply-headline = Responder seus emails
+multi-part-onboarding-premium-welcome-description = Chega de limite de cinco endereços de redirecionamento. Agora você pode gerar quantos endereços precisar, personalizados ou aleatórios. No computador, você pode usar a extensão Relay para criar na hora.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Chega de limite de cinco endereços de redirecionamento. Agora você pode gerar quantos endereços precisar, personalizados ou aleatórios. No computador, você pode usar a extensão Relay para criar na hora.
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
     Precisa de um endereço de redirecionamento para reservas em restaurantes? Basta informar comida@seudominio{ $mozmail } — Não precisa criar antes o endereço de redirecionamento.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Com um domínio personalizado, você pode criar endereços de redirecionamento sem precisar gerar antes. 
     Precisa de um para assinar um boletim informativo? Basta informar “leitura@dominiopersonalizado{ $mozmail }”
