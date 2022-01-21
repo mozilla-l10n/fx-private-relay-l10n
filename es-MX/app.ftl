@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 nav-footer-privacy = Privacidad
 nav-footer-relay-terms = Términos de { -brand-name-relay }
 nav-footer-legal = Legal
+nav-footer-release-notes = Notas de la versión
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo de GitHub
 
