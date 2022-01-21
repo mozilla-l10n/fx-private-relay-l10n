@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization
 nav-footer-privacy = Integritet
 nav-footer-relay-terms = Villkor { -brand-name-relay }
 nav-footer-legal = Juridisk information
+nav-footer-release-notes = Versionsfakta
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logotyp
 
@@ -320,6 +321,10 @@ profile-label-placeholder = Lägg till kontonamn
 profile-label-save-error = Det gick inte att spara, försök igen.
 profile-label-saved = Etikett sparad!
 profile-label-generate-new-alias = Skapa nytt alias
+profile-label-generate-new-alias-menu-random = Slumpmässigt alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
 profile-label-delete = Ta bort
 profile-label-delete-alias = Ta bort detta alias
 profile-label-upgrade = Få obegränsat med alias
