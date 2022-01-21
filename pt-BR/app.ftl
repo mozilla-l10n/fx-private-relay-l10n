@@ -321,6 +321,10 @@ profile-label-placeholder = Adicionar nome da conta
 profile-label-save-error = Falha ao salvar, tente novamente.
 profile-label-saved = Rótulo salvo!
 profile-label-generate-new-alias = Gerar novo endereço de redirecionamento
+profile-label-generate-new-alias-menu-random = Endereço de redirecionamento aleatório
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Endereço de redirecionamento de @{ $subdomain }
 profile-label-delete = Excluir
 profile-label-delete-alias = Excluir este endereço de redirecionamento
 profile-label-upgrade = Tenha endereços de redirecionamento ilimitados
@@ -451,9 +455,18 @@ error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não est�
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Ajuda e dicas
+tips-header-button-close-label = Dispensar
+tips-footer-link-faq-label = Perguntas frequentes
+tips-footer-link-faq-tooltip = Perguntas frequentes
+tips-footer-link-feedback-label = Comentários
+tips-footer-link-feedback-tooltip = Dê sua opinião
+tips-footer-link-support-label = Suporte
+tips-footer-link-support-tooltip = Entre em contato com o suporte
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Criar endereço de redirecionamento personalizado
 
 ## Popover explaining how custom aliases work
 
