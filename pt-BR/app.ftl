@@ -474,9 +474,15 @@ modal-custom-alias-picker-form-prefix-label = Digite o prefixo do endereço de r
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "lojas"
 modal-custom-alias-picker-form-submit-label = Gerar endereço de redirecionamento
+modal-custom-alias-picker-creation-error = Seu endereço de redirecionamento personalizado não pôde ser criado manualmente. Tente novamente, ou envie um email para o endereço de redirecionamento para criar automaticamente.
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Como criar endereços de redirecionamento personalizados
+popover-custom-alias-explainer-explanation = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
+popover-custom-alias-explainer-generate-button-heading = Gerar um endereço de redirecionamento personalizado manualmente
+popover-custom-alias-explainer-generate-button-label = Gerar endereço de redirecionamento personalizado
+popover-custom-alias-explainer-close-button-label = Fechar
 
 ## Tip about using custom aliases
 
