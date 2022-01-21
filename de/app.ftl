@@ -23,8 +23,8 @@
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Firefox Account
-        [uppercase] Firefox Account
+       *[lowercase] Firefox-Konto
+        [uppercase] Firefox-Konto
     }
 
 ## Meta Data
@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar von { -brand-name-firefox-account(capitalization:
 nav-footer-privacy = Datenschutz
 nav-footer-relay-terms = Nutzungsbedingungen von { -brand-name-relay }
 nav-footer-legal = Rechtliches
+nav-footer-release-notes = Versionshinweise
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-Logo
 
