@@ -234,6 +234,8 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
 faq-question-use-cases-question = 什麼時候該用 { -brand-name-relay } 轉寄郵件？
+faq-question-use-cases-answer-part1 = 您可以在大部分要以實際信箱的地方使用 { -brand-name-relay } 別名信箱。我們建議您在訂閱電子報，或接收不重要的通知郵件時使用，這樣未來就可以自己決定要不要再收到此類郵件。
+faq-question-use-cases-answer-part2 = 我們不建議您使用別名信箱來註冊需要用來驗證身分、重要郵件，或是會收到附件的服務。舉例來說，您可能要向銀行、醫院、律師，或是在收門票、機票等服務使用實際信箱。
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -263,6 +265,7 @@ faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將�
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
 faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂網域會發生什麼事？
+faq-question-unsubscribe-domain-answer = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂網域轉寄的郵件，但無法再使用該網域來建立新別名信箱。若您已有超過五組別名信箱，將無法再建立新的別名信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -488,6 +491,9 @@ multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建�
 multi-part-onboarding-premium-get-domain = 獲得自訂網域
 multi-part-onboarding-reply-headline = 回覆郵件
 multi-part-onboarding-premium-welcome-description = 不再只能設定五組別名：您可以無限量隨意產生自訂或隨機別名。在桌機上，還可以使用 Relay 的附加元件隨時建立別名。
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description = 使用自訂網域，可以建立方便好記好分享的別名信箱。要預約餐廳嗎？可免事先建立，直接使用 food@yourdomain{ $mozmail } 登記。
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 = 您可以透過自訂網域，不用先產生就馬上能使用別名。突然需要一個信箱來訂閱電子報嗎？直接輸入「read@customdomain{ $mozmail }」就好
