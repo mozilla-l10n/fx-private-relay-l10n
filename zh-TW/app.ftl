@@ -161,12 +161,17 @@ landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 ## Premium promo page
 
 premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件別名信箱功能，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 Relay Premium 方案。</b>
 premium-promo-hero-cta = 立刻升級
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
+premium-promo-perks-lead = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量別名，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
 premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = 建立無限量的郵件別名
+premium-promo-perks-perk-unlimited-body = 不再只能建立五組別名：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的別名信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
 premium-promo-perks-perk-custom-domain-headline = 使用您自訂的網域名稱
 premium-promo-perks-perk-dashboard-headline = 在儀表板管理您建立的別名
 premium-promo-use-cases-headline = 隨時隨地都能使用 { -brand-name-relay } 別名信箱
