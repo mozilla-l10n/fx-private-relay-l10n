@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 nav-footer-privacy = 隱私權
 nav-footer-relay-terms = { -brand-name-relay } 使用條款
 nav-footer-legal = 法律資訊
+nav-footer-release-notes = 新鮮事
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub 圖示
 
@@ -271,6 +272,10 @@ profile-label-placeholder = 新增帳號名稱
 profile-label-save-error = 儲存失敗，請再試一次。
 profile-label-saved = 已儲存標籤！
 profile-label-generate-new-alias = 產生新別名
+profile-label-generate-new-alias-menu-random = 隨機別名
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } 別名
 profile-label-delete = 刪除
 profile-label-delete-alias = 刪除此別名
 profile-label-upgrade = 取得無限量別名
@@ -387,7 +392,6 @@ success-settings-update = 已更新您的設定。
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = 您必須訂閱 Premium 版本，才能建立超過 { $number } 組別名
 error-premium-cannot-change-subdomain = 無法變更您的子網域
 error-premium-set-subdomain = 您必須訂閱 Premium 版本，才能設定子網域
@@ -396,7 +400,39 @@ error-premium-set-create-subdomain = 您必須訂閱 Premium 版本，才能建�
 error-subdomain-not-created = 無法建立子網域，請嘗試改用其他子網域名稱
 error-subdomain-email-not-created = 無法建立使用子網域的電子郵件信箱，請嘗試改用其他子網域名稱
 error-subdomain-select = 您必須先選擇子網域，才能建立使用子網域的別名
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用。請使用其他網域名稱再試一次。
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = 使用說明與小秘訣
+tips-header-button-close-label = 知道了！
+tips-footer-link-faq-label = 常見問題
+tips-footer-link-faq-tooltip = 常見問題
+tips-footer-link-feedback-label = 意見回饋
+tips-footer-link-feedback-tooltip = 提供意見回饋
+tips-footer-link-support-label = 技術支援
+tips-footer-link-support-tooltip = 聯絡支援團隊
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = 建立新自訂別名
+modal-custom-alias-picker-form-heading = 或者手動建立自訂別名
+modal-custom-alias-picker-form-prefix-label = 輸入別名前綴
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
+modal-custom-alias-picker-form-submit-label = 產生別名
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-generate-button-heading = 手動建立自訂別名
+popover-custom-alias-explainer-generate-button-label = 建立自訂別名
+popover-custom-alias-explainer-close-button-label = 關閉
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -430,8 +466,6 @@ multi-part-onboarding-premium-domain-headline = 共用別名的自訂網域名�
 multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建立別名：
 multi-part-onboarding-premium-get-domain = 獲得自訂網域
 multi-part-onboarding-reply-headline = 回覆郵件
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-welcome-description = 不再只能設定五組別名：您可以無限量隨意產生自訂或隨機別名。在桌機上，還可以使用 Relay 的附加元件隨時建立別名。
 multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
 multi-part-onboarding-premium-domain-button-skip = 先繼續，我之後再註冊自訂網域
