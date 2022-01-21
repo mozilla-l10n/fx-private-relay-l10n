@@ -467,6 +467,9 @@ multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建�
 multi-part-onboarding-premium-get-domain = 獲得自訂網域
 multi-part-onboarding-reply-headline = 回覆郵件
 multi-part-onboarding-premium-welcome-description = 不再只能設定五組別名：您可以無限量隨意產生自訂或隨機別名。在桌機上，還可以使用 Relay 的附加元件隨時建立別名。
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-2 = 您可以透過自訂網域，不用先產生就馬上能使用別名。突然需要一個信箱來訂閱電子報嗎？直接輸入「read@customdomain{ $mozmail }」就好
 multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
 multi-part-onboarding-premium-domain-button-skip = 先繼續，我之後再註冊自訂網域
 multi-part-onboarding-premium-extension-headline = 封鎖、轉寄、回覆
