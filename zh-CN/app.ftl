@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 nav-footer-privacy = 隐私
 nav-footer-relay-terms = { -brand-name-relay } 使用条款
 nav-footer-legal = 法律
+nav-footer-release-notes = 新变化
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub 徽标
 
@@ -295,6 +296,10 @@ profile-label-placeholder = 添加标签
 profile-label-save-error = 保存失败，请重试。
 profile-label-saved = 标签已保存！
 profile-label-generate-new-alias = 生成新马甲
+profile-label-generate-new-alias-menu-random = 随机马甲
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } 马甲
 profile-label-delete = 删除
 profile-label-delete-alias = 删除此马甲
 profile-label-upgrade = 获取无限量马甲
@@ -411,7 +416,6 @@ success-settings-update = 您的设置已更新。
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = 您须成为 Premium 版订阅者，才能创建超过 { $number } 个马甲
 error-premium-cannot-change-subdomain = 无法更改您的子域名
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
@@ -420,7 +424,31 @@ error-premium-set-create-subdomain = 您须成为 Premium 版订阅者，才能�
 error-subdomain-not-created = 无法创建子域名，请尝试其他字符
 error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，请尝试其他字符
 error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = 帮助和提示
+tips-footer-link-faq-label = 常见问题
+tips-footer-link-faq-tooltip = 常见问题
+tips-footer-link-feedback-tooltip = 提供反馈
+tips-footer-link-support-label = 用户支持
+tips-footer-link-support-tooltip = 联系用户支持
+
+## Alias for generating a custom alias
+
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = 例如“coffee”
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-close-button-label = 关闭
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -454,12 +482,14 @@ multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 multi-part-onboarding-premium-get-domain = 获取自定义域名
 multi-part-onboarding-reply-headline = 回复邮件
+multi-part-onboarding-premium-welcome-description = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 Relay 附加组件随时创建马甲。
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 Relay 附加组件随时创建马甲。
 multi-part-onboarding-premium-domain-description =
     借助自定义域名功能，您可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customdomain{ $mozmail }”就好
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
 multi-part-onboarding-premium-domain-button-skip = 继续，我之后再注册自定义域名
