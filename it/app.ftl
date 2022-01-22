@@ -321,6 +321,7 @@ profile-label-placeholder = Aggiungi nome account
 profile-label-save-error = Impossibile salvare, riprova.
 profile-label-saved = Etichetta salvata
 profile-label-generate-new-alias = Genera nuovo alias
+profile-label-generate-new-alias-menu-random = Alias casuale
 profile-label-delete = Elimina
 profile-label-delete-alias = Elimina questo alias
 profile-label-upgrade = Ottieni alias illimitati
@@ -451,9 +452,15 @@ error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è di
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-button-close-label = Ignora
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Domande più frequenti
+tips-footer-link-support-label = Supporto
+tips-footer-link-support-tooltip = Contatta l’assistenza
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
 
 ## Popover explaining how custom aliases work
 
