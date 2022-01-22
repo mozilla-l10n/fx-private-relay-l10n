@@ -431,8 +431,10 @@ error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。�
 ## Tips and tricks at the bottom of the page
 
 tips-header-title = 帮助和提示
+tips-header-button-close-label = 知道了
 tips-footer-link-faq-label = 常见问题
 tips-footer-link-faq-tooltip = 常见问题
+tips-footer-link-feedback-label = 反馈
 tips-footer-link-feedback-tooltip = 提供反馈
 tips-footer-link-support-label = 用户支持
 tips-footer-link-support-tooltip = 联系用户支持
