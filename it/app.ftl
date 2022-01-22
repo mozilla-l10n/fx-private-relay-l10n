@@ -479,6 +479,7 @@ popover-custom-alias-explainer-close-button-label = Chiudi
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Crea alias utilizzando il tuo dominio personalizzato
 
 ## Onboarding 
 
