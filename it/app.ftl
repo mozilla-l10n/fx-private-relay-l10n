@@ -322,6 +322,9 @@ profile-label-save-error = Impossibile salvare, riprova.
 profile-label-saved = Etichetta salvata
 profile-label-generate-new-alias = Genera nuovo alias
 profile-label-generate-new-alias-menu-random = Alias casuale
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Elimina
 profile-label-delete-alias = Elimina questo alias
 profile-label-upgrade = Ottieni alias illimitati
@@ -455,6 +458,8 @@ error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è di
 tips-header-button-close-label = Ignora
 tips-footer-link-faq-label = FAQ
 tips-footer-link-faq-tooltip = Domande più frequenti
+tips-footer-link-feedback-label = Feedback
+tips-footer-link-feedback-tooltip = Invia la tua opinione
 tips-footer-link-support-label = Supporto
 tips-footer-link-support-tooltip = Contatta l’assistenza
 
