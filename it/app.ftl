@@ -461,6 +461,9 @@ tips-footer-link-support-tooltip = Contatta l’assistenza
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
+modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
+modal-custom-alias-picker-form-prefix-label = Inserire un prefisso per l’alias
+modal-custom-alias-picker-form-submit-label = Genera alias
 
 ## Popover explaining how custom aliases work
 
