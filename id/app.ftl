@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "up
 nav-footer-privacy = Privasi
 nav-footer-relay-terms = Ketentuan { -brand-name-relay }
 nav-footer-legal = Legal
+nav-footer-release-notes = Catatan Rilis
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
@@ -320,6 +321,10 @@ profile-label-placeholder = Tambahkan nama akun
 profile-label-save-error = Gagal menyimpan, harap coba lagi.
 profile-label-saved = Label disimpan!
 profile-label-generate-new-alias = Buat Alias Baru
+profile-label-generate-new-alias-menu-random = Alias Acak
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Hapus
 profile-label-delete-alias = Hapus alias ini
 profile-label-upgrade = Miliki alias tak terhingga
@@ -440,7 +445,6 @@ success-settings-update = Setelan Anda telah diperbarui.
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Anda harus menjadi pelanggan premium untuk mendapatkan lebih dari { $number } alias
 error-premium-cannot-change-subdomain = Anda tidak dapat mengubah subdomain Anda
 error-premium-set-subdomain = Anda harus menjadi pelanggan premium untuk mengatur subdomain
@@ -449,7 +453,45 @@ error-premium-set-create-subdomain = Anda harus menjadi pelanggan premium untuk 
 error-subdomain-not-created = Subdomain tidak dapat dibuat, coba yang lain
 error-subdomain-email-not-created = Alamat surel dengan subdomain tidak dapat dibuat, coba yang lain
 error-subdomain-select = Anda harus memilih subdomain sebelum membuat alias subdomain
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Domain @{ $unavailable_subdomain } tidak tersedia. Silakan coba lagi dengan domain lain.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Kiat & Bantuan
+tips-header-button-close-label = Tutup
+tips-footer-link-faq-label = Tanya Jawab
+tips-footer-link-faq-tooltip = Pertanyaan umum
+tips-footer-link-feedback-label = Masukan
+tips-footer-link-feedback-tooltip = Kirim masukan
+tips-footer-link-support-label = Dukungan
+tips-footer-link-support-tooltip = Kontak dukungan
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Buat alias kustom baru
+modal-custom-alias-picker-warning = Yang perlu Anda lakukan hanyalah membuat dan membagikan alias unik yang menggunakan domain kustom Anda — alias akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
+modal-custom-alias-picker-form-heading = Atau, buat alias kustom secara manual
+modal-custom-alias-picker-form-prefix-label = Masukkan awalan alias
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = mis. "kopi"
+modal-custom-alias-picker-form-submit-label = Buat Alias
+modal-custom-alias-picker-creation-error = Alias kustom Anda tidak dapat dibuat secara manual. Silakan coba lagi, atau kirim surel ke alias untuk membuatnya.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Cara membuat alias kustom
+popover-custom-alias-explainer-explanation = Yang perlu Anda lakukan hanyalah membuat dan membagikan alias unik yang menggunakan domain kustom Anda — alias akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
+popover-custom-alias-explainer-generate-button-heading = Buat alias kustom secara manual
+popover-custom-alias-explainer-generate-button-label = Buat alias kustom
+popover-custom-alias-explainer-close-button-label = Tutup
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Membuat alias menggunakan domain kustom Anda
+tips-custom-alias-content = Yang perlu Anda lakukan hanyalah membuat dan membagikan alias unik yang menggunakan domain kustom Anda — alias akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
 
 ## Onboarding 
 
@@ -483,12 +525,14 @@ multi-part-onboarding-premium-domain-headline = Domain kustom untuk berbagi alia
 multi-part-onboarding-premium-domain-title = Dapatkan domain kustom untuk alias Anda:
 multi-part-onboarding-premium-get-domain = Dapatkan domain kustom
 multi-part-onboarding-reply-headline = Balas ke surel Anda
+multi-part-onboarding-premium-welcome-description = Tidak ada lagi batasan lima alias: Anda sekarang dapat membuat alias kustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya Relay untuk membuatnya saat bepergian.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Tidak ada lagi batasan lima alias: Anda sekarang dapat membuat alias kustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya Relay untuk membuatnya saat bepergian.
 multi-part-onboarding-premium-domain-description =
     Menggunakan domain kustom, Anda dapat membuat alias yang lebih mudah diingat dan dibagikan. 
     Butuh nama samaran untuk pemesanan restoran? Katakan food@yourdomain{ $mozmail } — Tidak perlu membuat alias sebelumnya.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Dengan domain kustom, Anda dapat membuat alias tanpa harus membuatnya terlebih dahulu.
     Perlu satu untuk mendaftar buletin? Cukup ucapkan “baca@domainkustom{ $mozmail }”
