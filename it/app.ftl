@@ -470,6 +470,9 @@ modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
 modal-custom-alias-picker-warning = Tutto ciò che devi fare è creare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
 modal-custom-alias-picker-form-prefix-label = Inserire un prefisso per l’alias
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
 modal-custom-alias-picker-form-submit-label = Genera alias
 modal-custom-alias-picker-creation-error = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
