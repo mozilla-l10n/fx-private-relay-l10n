@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar de { -brand-name-firefox-account }
 nav-footer-privacy = Privacidad
 nav-footer-relay-terms = Términos de { -brand-name-relay }
 nav-footer-legal = Legal
+nav-footer-release-notes = Notas de la versión
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo de GitHub
 
@@ -322,6 +323,10 @@ profile-label-placeholder = Añadir nombre de cuenta
 profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
+profile-label-generate-new-alias-menu-random = Alias aleatorio
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Eliminar
 profile-label-delete-alias = Eliminar este alias
 profile-label-upgrade = Obtener alias ilimitados
@@ -442,7 +447,6 @@ success-settings-update = Se han actualizado tus ajustes.
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Tienes que ser un suscriptor premium para crear más de { $number } alias
 error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
 error-premium-set-subdomain = Tienes que ser un suscriptor premium para configurar un subdominio
@@ -451,7 +455,45 @@ error-premium-set-create-subdomain = Tienes que ser un suscriptor premium para c
 error-subdomain-not-created = No se ha podido crear el subdominio, intenta otra cosa
 error-subdomain-email-not-created = No se ha podido crear un alias de correo con subdominio, intenta otra cosa
 error-subdomain-select = Tienes que seleccionar un subdominio antes de crear un alias de subdominio
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Vuelve a intentarlo con otro dominio.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Ayuda y consejos
+tips-header-button-close-label = Descartar
+tips-footer-link-faq-label = Preguntas frecuentes
+tips-footer-link-faq-tooltip = Preguntas frecuentes
+tips-footer-link-feedback-label = Comentarios
+tips-footer-link-feedback-tooltip = Enviar opinión
+tips-footer-link-support-label = Ayuda
+tips-footer-link-support-tooltip = Contactar con la ayuda
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
+modal-custom-alias-picker-warning = Todo lo que necesitas hacer es inventar y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@midominio.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+modal-custom-alias-picker-form-heading = O bien, crea un alias personalizado manualmente
+modal-custom-alias-picker-form-prefix-label = Introduce el prefijo del alias
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = p.ej. "restaurante"
+modal-custom-alias-picker-form-submit-label = Generar alias
+modal-custom-alias-picker-creation-error = Tu alias personalizado no se ha podido crear manualmente. Vuelve a intentarlo o envía un correo al alias para crearlo.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = Cómo crear alias personalizados
+popover-custom-alias-explainer-explanation = Todo lo que necesitas hacer es inventar y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@midominio.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+popover-custom-alias-explainer-generate-button-heading = Crea un alias personalizado manualmente
+popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
+popover-custom-alias-explainer-close-button-label = Cerrar
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Crear alias usando tu dominio personalizado
+tips-custom-alias-content = Todo lo que necesitas hacer es inventar y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@midominio.mozmail.com” la próxima vez que compres en línea, por ejemplo.
 
 ## Onboarding 
 
@@ -485,12 +527,14 @@ multi-part-onboarding-premium-domain-headline = Dominio personalizado para alias
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
 multi-part-onboarding-premium-get-domain = Conseguir un dominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
+multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En tu ordenador, puedes usar el complemento de Relay para crearlos sobre la marcha.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En tu ordenador, puedes usar el complemento de Relay para crearlos sobre la marcha.
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Simplemente usa comida@tudominio{ $mozmail }. No es necesario crear el alias de antemano.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personalizado, puedes crear alias sin necesidad de generarlos de antemano. 
     ¿Necesitas uno para suscribirte a un boletín de noticias? Únicamente dí “leer@dominiopersonalizado{ $mozmail }”
