@@ -63,6 +63,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 nav-footer-privacy = Privacy
 nav-footer-relay-terms = { -brand-name-relay } Terms
 nav-footer-legal = Legal
+nav-footer-release-notes = Release Notes
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logo
 
@@ -320,6 +321,10 @@ profile-label-placeholder = Add account name
 profile-label-save-error = Failed to save, please try again.
 profile-label-saved = Label saved!
 profile-label-generate-new-alias = Generate New Alias
+profile-label-generate-new-alias-menu-random = Random Alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } Alias
 profile-label-delete = Delete
 profile-label-delete-alias = Delete this alias
 profile-label-upgrade = Get unlimited aliases
@@ -440,7 +445,6 @@ success-settings-update = Your settings have been updated
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = You must be a premium subscriber to make more than { $number } aliases
 error-premium-cannot-change-subdomain = You cannot change your subdomain
 error-premium-set-subdomain = You must be a premium subscriber to set a subdomain
@@ -449,7 +453,45 @@ error-premium-set-create-subdomain = You must be a premium subscriber to create 
 error-subdomain-not-created = Subdomain could not be created, try something else
 error-subdomain-email-not-created = Email address with subdomain could not be created, try something else
 error-subdomain-select = You must select a subdomain before creating a subdomain aliases
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not available. Please try again with another domain.
+
+## Tips and tricks at the bottom of the page
+
+tips-header-title = Help & Tips
+tips-header-button-close-label = Dismiss
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Frequently asked questions
+tips-footer-link-feedback-label = Feedback
+tips-footer-link-feedback-tooltip = Give feedback
+tips-footer-link-support-label = Support
+tips-footer-link-support-tooltip = Contact support
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-heading = Create a new custom alias
+modal-custom-alias-picker-warning = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+modal-custom-alias-picker-form-heading = Or, create a custom alias manually
+modal-custom-alias-picker-form-prefix-label = Enter alias prefix
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = e.g. "coffee"
+modal-custom-alias-picker-form-submit-label = Generate Alias
+modal-custom-alias-picker-creation-error = Your custom alias could not be manually created. Please try again, or send an email to the alias to create it.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-heading = How to create custom aliases
+popover-custom-alias-explainer-explanation = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+popover-custom-alias-explainer-generate-button-heading = Generate a custom alias manually
+popover-custom-alias-explainer-generate-button-label = Generate custom alias
+popover-custom-alias-explainer-close-button-label = Close
+
+## Tip about using custom aliases
+
+tips-custom-alias-heading = Creating aliases using your custom domain
+tips-custom-alias-content = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
 
 ## Onboarding 
 
@@ -483,12 +525,14 @@ multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliase
 multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
 multi-part-onboarding-premium-get-domain = Get a custom domain
 multi-part-onboarding-reply-headline = Reply to your emails
+multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
 multi-part-onboarding-premium-domain-description =
     Using a custom domain, you can create aliases that are easier than ever to remember and share. 
     Need an alias for restaurant reservations? Just say food@yourdomain{ $mozmail } — No need to create the alias beforehand.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
     With a custom domain, you can create aliases without having to generate them beforehand. 
     Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
