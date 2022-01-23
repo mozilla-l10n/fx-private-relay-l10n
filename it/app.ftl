@@ -455,6 +455,7 @@ error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è di
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Aiuto e suggerimenti
 tips-header-button-close-label = Ignora
 tips-footer-link-faq-label = FAQ
 tips-footer-link-faq-tooltip = Domande più frequenti
@@ -466,13 +467,16 @@ tips-footer-link-support-tooltip = Contatta l’assistenza
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
+modal-custom-alias-picker-warning = Tutto ciò che devi fare è creare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
 modal-custom-alias-picker-form-prefix-label = Inserire un prefisso per l’alias
 modal-custom-alias-picker-form-submit-label = Genera alias
+modal-custom-alias-picker-creation-error = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = Come creare alias personalizzati
+popover-custom-alias-explainer-explanation = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personalizzato
 popover-custom-alias-explainer-generate-button-label = Genera alias personalizzato
 popover-custom-alias-explainer-close-button-label = Chiudi
@@ -480,6 +484,7 @@ popover-custom-alias-explainer-close-button-label = Chiudi
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Crea alias utilizzando il tuo dominio personalizzato
+tips-custom-alias-content = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 
 ## Onboarding 
 
