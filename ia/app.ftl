@@ -63,6 +63,7 @@ nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: 
 nav-footer-privacy = Confidentialitate
 nav-footer-relay-terms = Terminos de uso de { -brand-name-relay }
 nav-footer-legal = Legal
+nav-footer-release-notes = Notas de version
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
@@ -318,6 +319,9 @@ profile-label-save-error = Falta a salvar, retenta.
 profile-label-saved = Etiquetta salvate!
 profile-label-generate-new-alias = Generar nove alias
 profile-label-generate-new-alias-menu-random = Alias aleatori
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias de @{ $subdomain }
 profile-label-delete = Deler
 profile-label-delete-alias = Deler iste alias
 profile-label-upgrade = Obtene aliases illimitate
