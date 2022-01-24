@@ -467,20 +467,27 @@ tips-footer-link-support-tooltip = Contactar supporto
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Crear un nove alias personalisate
+modal-custom-alias-picker-warning = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+modal-custom-alias-picker-form-heading = O, crea manualmente un alias personal
 modal-custom-alias-picker-form-prefix-label = Insere un prefixo de alias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "caffe"
 modal-custom-alias-picker-form-submit-label = Generar alias
+modal-custom-alias-picker-creation-error = Tu alias personal non pote esser create manualmente. Retenta, o invia un e-mail al alias pro crear lo.
 
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = Como crear aliases personalisate
+popover-custom-alias-explainer-explanation = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personal
 popover-custom-alias-explainer-generate-button-label = Generar alias personalisate
 popover-custom-alias-explainer-close-button-label = Clauder
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Creation del aliases per tu dominio personal
+tips-custom-alias-content = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
 
 ## Onboarding 
 
