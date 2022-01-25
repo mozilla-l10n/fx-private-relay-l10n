@@ -322,6 +322,9 @@ profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias = Generar nuevo alias
 profile-label-generate-new-alias-menu-random = Alias aleatorio
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Eliminar
 profile-label-delete-alias = Eliminar este alias
 profile-label-upgrade = Obtener alias ilimitados
@@ -470,6 +473,9 @@ tips-footer-link-support-tooltip = Contactar al soporte
 modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
 modal-custom-alias-picker-form-heading = O bien, crea un alias personalizado manualmente
 modal-custom-alias-picker-form-prefix-label = Ingresa el prefijo del alias
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = p.ej. "café"
 modal-custom-alias-picker-form-submit-label = Generar alias
 modal-custom-alias-picker-creation-error = Tu alias personalizado no se pudo crear manualmente, Vuelve a intentarlo o envía un correo electrónico al alias para crearlo.
 
