@@ -455,16 +455,19 @@ error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est p
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-warning = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 modal-custom-alias-picker-form-heading = Ou créez manuellement un alias personnalisé
 modal-custom-alias-picker-creation-error = Votre alias personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-explanation = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 popover-custom-alias-explainer-generate-button-heading = Générer un alias personnalisé manuellement
 popover-custom-alias-explainer-generate-button-label = Générer un alias personnalisé
 
 ## Tip about using custom aliases
 
+tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 
 ## Onboarding 
 
