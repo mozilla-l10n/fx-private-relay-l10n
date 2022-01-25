@@ -438,7 +438,6 @@ success-settings-update = Vos paramètres ont été mis à jour
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases = Vous devez être abonné·e premium pour créer plus de { $number } alias
 error-premium-cannot-change-subdomain = Vous ne pouvez pas changer votre sous-domaine
 error-premium-set-subdomain = Vous devez être abonné·e premium pour définir un sous-domaine
@@ -447,7 +446,25 @@ error-premium-set-create-subdomain = Vous devez être abonné·e premium pour cr
 error-subdomain-not-created = Le sous-domaine n’a pas pu être créé, essayez autre chose
 error-subdomain-email-not-created = L’adresse e-mail avec le sous-domaine n’a pas pu être créée, essayez autre chose
 error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre domaine.
+
+## Tips and tricks at the bottom of the page
+
+
+## Alias for generating a custom alias
+
+modal-custom-alias-picker-form-heading = Ou créez manuellement un alias personnalisé
+modal-custom-alias-picker-creation-error = Votre alias personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
+
+## Popover explaining how custom aliases work
+
+popover-custom-alias-explainer-generate-button-heading = Générer un alias personnalisé manuellement
+popover-custom-alias-explainer-generate-button-label = Générer un alias personnalisé
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -481,12 +498,14 @@ multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour parta
 multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
 multi-part-onboarding-premium-get-domain = Disposer d’un domaine personnalisé
 multi-part-onboarding-reply-headline = Répondre à vos e-mails
+multi-part-onboarding-premium-welcome-description = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module Relay pour les créer à la volée.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
-multi-part-onboarding-premium-welcome-description = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module Relay pour les créer à la volée.
 multi-part-onboarding-premium-domain-description =
     Grâce à un domaine personnalisé, vous pouvez créer des alias plus faciles que jamais à mémoriser et à partager.
     Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 = Avec un domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@domaineperso{ $mozmail } ».
 multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
