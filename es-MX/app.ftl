@@ -471,6 +471,7 @@ tips-footer-link-support-tooltip = Contactar al soporte
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
+modal-custom-alias-picker-warning = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
 modal-custom-alias-picker-form-heading = O bien, crea un alias personalizado manualmente
 modal-custom-alias-picker-form-prefix-label = Ingresa el prefijo del alias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
@@ -482,6 +483,7 @@ modal-custom-alias-picker-creation-error = Tu alias personalizado no se pudo cre
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = Cómo crear alias personalizados
+popover-custom-alias-explainer-explanation = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
 popover-custom-alias-explainer-generate-button-heading = Generar un alias personalizado manualmente
 popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
 popover-custom-alias-explainer-close-button-label = Cerrar
@@ -489,6 +491,7 @@ popover-custom-alias-explainer-close-button-label = Cerrar
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Crear alias usando tu dominio personalizado
+tips-custom-alias-content = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
 
 ## Onboarding 
 
