@@ -67,6 +67,7 @@ nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 nav-footer-privacy = Confidentialité
 nav-footer-relay-terms = Conditions d’utilisation de { -brand-name-relay }
 nav-footer-legal = Mentions légales
+nav-footer-release-notes = Notes de mise à jour
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
@@ -322,6 +323,10 @@ profile-label-placeholder = Ajouter un nom de compte
 profile-label-save-error = Échec de l’enregistrement, veuillez réessayer.
 profile-label-saved = Nom enregistré !
 profile-label-generate-new-alias = Générer un nouvel alias
+profile-label-generate-new-alias-menu-random = Alias aléatoire
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 profile-label-delete = Supprimer
 profile-label-delete-alias = Supprimer cet alias
 profile-label-upgrade = Obtenir un nombre illimité d’alias
@@ -452,24 +457,38 @@ error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est p
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Aide et conseils
+tips-header-button-close-label = Fermer
+tips-footer-link-faq-label = FAQ
+tips-footer-link-faq-tooltip = Questions fréquentes
+tips-footer-link-feedback-label = Votre avis
+tips-footer-link-feedback-tooltip = Donner votre avis
+tips-footer-link-support-label = Assistance
+tips-footer-link-support-tooltip = Contacter l’assistance
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Créer un nouvel alias personnalisé
 modal-custom-alias-picker-warning = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 modal-custom-alias-picker-form-heading = Ou créez manuellement un alias personnalisé
+modal-custom-alias-picker-form-prefix-label = Saisissez le préfixe de l’alias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = par exemple, « café »
+modal-custom-alias-picker-form-submit-label = Générer l’alias
 modal-custom-alias-picker-creation-error = Votre alias personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Comment créer des alias personnalisés
 popover-custom-alias-explainer-explanation = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 popover-custom-alias-explainer-generate-button-heading = Générer un alias personnalisé manuellement
 popover-custom-alias-explainer-generate-button-label = Générer un alias personnalisé
+popover-custom-alias-explainer-close-button-label = Fermer
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Créer des alias en utilisant votre nom de domaine
 tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 
 ## Onboarding 
