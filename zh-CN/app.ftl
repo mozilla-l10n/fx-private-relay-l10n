@@ -448,10 +448,12 @@ modal-custom-alias-picker-form-prefix-label = 输入马甲前缀
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如“coffee”
 modal-custom-alias-picker-form-submit-label = 生成马甲
+modal-custom-alias-picker-creation-error = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
 
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = 如何创建自定义马甲
+popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
 popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
 popover-custom-alias-explainer-close-button-label = 关闭
 
