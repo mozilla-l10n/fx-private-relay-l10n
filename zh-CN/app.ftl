@@ -441,9 +441,11 @@ tips-footer-link-support-tooltip = 联系用户支持
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-form-prefix-label = 输入马甲前缀
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如“coffee”
+modal-custom-alias-picker-form-submit-label = 生成马甲
 
 ## Popover explaining how custom aliases work
 
