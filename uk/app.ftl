@@ -597,6 +597,19 @@ survey-option-somewhat-disappointed = Дещо засмучено
 survey-option-very-disappointed = Дуже засмучено
 survey-option-very-likely = Обов'язково порекомендую
 survey-option-not-likely = Швидше не порекомендую
+survey-option-dismiss = Відхилити
+
+## CSAT survey
+
+survey-csat-question = Наскільки ви задоволені роботою { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Дуже незадоволені
+survey-csat-answer-dissatisfied = Незадоволені
+survey-csat-answer-neutral = Нейтрально
+survey-csat-answer-satisfied = Задоволені
+survey-csat-answer-very-satisfied = Дуже задоволені
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Спасибі за ваш відгук. Ми хотіли б дізнатися більше, як ми можемо вдосконалити { -brand-name-relay } для вас. Чи готові ви взяти участь у двохвилинному опитуванні?
 
 ## VPN Promo Banner
 
