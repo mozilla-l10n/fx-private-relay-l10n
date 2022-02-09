@@ -603,6 +603,9 @@ survey-csat-answer-dissatisfied = Non satisfacite
 survey-csat-answer-neutral = Neutral
 survey-csat-answer-satisfied = Satisfacite
 survey-csat-answer-very-satisfied = Absolutemente satisfacite
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Gratias pro vostre commentario. A nos placerea saper plus re como nos poterea meliorar { -brand-name-relay } pro te, vole tu acceptar un questionario de duo minutas?
 
 ## VPN Promo Banner
 
