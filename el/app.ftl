@@ -139,6 +139,9 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 ## Hero Section
 
 landing-hero-headline = Προστατέψτε την πραγματική σας διεύθυνση email και ελέγξτε τα εισερχόμενά σας
+landing-hero-body =
+    Τα ψευδώνυμα email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα email στα πραγματικά σας εισερχόμενα. 
+    Πλέον μπορείτε να λαμβάνετε μόνο τα email που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account } σας για να ξεκινήσετε.
 
 ## How it works section
 
@@ -196,6 +199,7 @@ premium-promo-hero-headline = Προστατέψτε ευκολότερα τα �
 premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-availability-warning = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -brand-name-firefox-relay-premium };
+premium-promo-perks-lead = Με το { -brand-name-firefox-relay-premium }, έχετε όλη την προστασία και τη διαχείριση εισερχομένων του { -brand-name-relay }, αλλά με απεριόριστα ψευδώνυμα email και τον δικό σας προσαρμοσμένο τομέα για ακόμα πιο εύκολη διαχείριση των εισερχομένων σας.
 premium-promo-perks-cta-label = Αναβάθμιση τώρα
 premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Δημιουργήστε απεριόριστα ψευδώνυμα email
@@ -296,6 +300,9 @@ profile-label-save-error = Αποτυχία αποθήκευσης, παρακα
 profile-label-saved = Η ετικέτα αποθηκεύτηκε!
 profile-label-generate-new-alias = Δημιουργία νέου ψευδωνύμου
 profile-label-generate-new-alias-menu-random = Τυχαίο ψευδώνυμο
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Ψευδώνυμο @{ $subdomain }
 profile-label-delete = Διαγραφή
 profile-label-delete-alias = Διαγραφή ψευδωνύμου
 profile-label-upgrade = Απόκτηση απεριόριστων ψευδωνύμων
@@ -414,19 +421,26 @@ error-subdomain-not-available = Ο τομέας @{ $unavailable_subdomain } δε
 
 tips-header-title = Βοήθεια & συμβουλές
 tips-header-button-close-label = Απόρριψη
+tips-footer-link-faq-label = Συχνές ερωτήσεις
 tips-footer-link-faq-tooltip = Συχνές ερωτήσεις
 tips-footer-link-feedback-label = Σχόλια
 tips-footer-link-feedback-tooltip = Αποστολή σχολίων
 tips-footer-link-support-label = Υποστήριξη
+tips-footer-link-support-tooltip = Επικοινωνία με την υποστήριξη
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = Δημιουργία νέου προσαρμοσμένου ψευδωνύμου
+modal-custom-alias-picker-form-heading = Ή δημιουργήστε ένα προσαρμοσμένο ψευδώνυμο
+modal-custom-alias-picker-form-prefix-label = Εισαγάγετε πρόθεμα ψευδωνύμου
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
+modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδωνύμου
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = Τρόπος δημιουργίας προσαρμοσμένων ψευδωνύμων
 popover-custom-alias-explainer-close-button-label = Κλείσιμο
 
 ## Tip about using custom aliases
