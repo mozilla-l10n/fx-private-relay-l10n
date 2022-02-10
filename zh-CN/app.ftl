@@ -459,6 +459,7 @@ popover-custom-alias-explainer-close-button-label = 关闭
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = 使用自定义域名创建马甲
 
 ## Onboarding 
 
@@ -555,6 +556,16 @@ survey-option-somewhat-disappointed = 有点失望
 survey-option-very-disappointed = 非常失望
 survey-option-very-likely = 极有可能
 survey-option-not-likely = 不太可能
+survey-option-dismiss = 隐藏
+
+## CSAT survey
+
+survey-csat-question = 您对 { -brand-name-firefox-relay } 使用体验的满意度如何？
+survey-csat-answer-very-dissatisfied = 非常不满意
+survey-csat-answer-dissatisfied = 不满意
+survey-csat-answer-neutral = 无感
+survey-csat-answer-satisfied = 满意
+survey-csat-answer-very-satisfied = 非常满意
 
 ## VPN Promo Banner
 
