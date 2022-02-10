@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     “restaurant@yourdomain.{ $mozmail }” для ресторану. Будь-яка псевдоадреса із використанням вашого
     власного домену буде перенаправлено вам.
 banner-choose-subdomain-input-placeholder = Пошук домену
+banner-choose-subdomain-input-placeholder-2 = Підберіть для себе новий домен
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Пошук
 banner-pack-upgrade-headline-html = Оновіться до <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, щоб отримати більше псевдоадрес
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = За допомогою { -brand-name-firefox
 onboarding-premium-control-title = Контролюйте, які листи ви отримуєте
 onboarding-premium-control-description = Діліться необмеженою кількістю псевдоадрес електронної пошти, які пересилають потрібні вам електронні листи у вашу поштову скриньку.
 onboarding-premium-domain-title = Використовуйте власні домени псевдоадрес, якими можна ділитися
+onboarding-premium-domain-title-2 = Використовуйте власні домени псевдоадрес, якими можна ділитися:
 onboarding-premium-domain-description = За допомогою власного домену ви можете відрізнити свою псевдоадресу “інформаційний лист” від своєї псевдоадреси для “покупок”.
 onboarding-premium-reply-title = Відповідайте на електронні листи, не розкриваючи своєї справжньої адреси
 onboarding-premium-reply-description = Потрібно відповісти на електронні листи, надіслані на псевдоадресу? Просто відповідайте як зазвичай — ваша псевдоадреса все одно захищатиме вашу справжню електронну адресу.
