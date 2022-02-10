@@ -590,6 +590,15 @@ survey-option-somewhat-disappointed = Assez déçu·e
 survey-option-very-disappointed = Très déçu·e
 survey-option-very-likely = Très probable
 survey-option-not-likely = Peu probable
+survey-option-dismiss = Fermer
+
+## CSAT survey
+
+survey-csat-answer-very-dissatisfied = Très insatisfait·e
+survey-csat-answer-dissatisfied = Insatisfait·e
+survey-csat-answer-neutral = Neutre
+survey-csat-answer-satisfied = Satisfait·e
+survey-csat-answer-very-satisfied = Très satisfait·e
 
 ## VPN Promo Banner
 
