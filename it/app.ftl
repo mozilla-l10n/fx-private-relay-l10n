@@ -597,8 +597,12 @@ survey-option-dismiss = Chiudi
 survey-csat-question = Quanto sei soddisfatto della tua esperienza con { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Molto insoddisfatto
 survey-csat-answer-dissatisfied = Insoddisfatto
+survey-csat-answer-neutral = Indifferente
 survey-csat-answer-satisfied = Soddisfatto
 survey-csat-answer-very-satisfied = Molto soddisfatto
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Grazie per il tuo feedback. Vorremmo scoprire in che modo possiamo migliorare { -brand-name-relay }. Saresti disposto a partecipare a un sondaggio di due minuti?
 
 ## VPN Promo Banner
 
