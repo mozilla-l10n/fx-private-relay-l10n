@@ -590,6 +590,15 @@ survey-option-somewhat-disappointed = Un po’ deluso
 survey-option-very-disappointed = Molto deluso
 survey-option-very-likely = Molto probabile
 survey-option-not-likely = Poco probabile
+survey-option-dismiss = Chiudi
+
+## CSAT survey
+
+survey-csat-question = Quanto sei soddisfatto della tua esperienza con { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Molto insoddisfatto
+survey-csat-answer-dissatisfied = Insoddisfatto
+survey-csat-answer-satisfied = Soddisfatto
+survey-csat-answer-very-satisfied = Molto soddisfatto
 
 ## VPN Promo Banner
 
