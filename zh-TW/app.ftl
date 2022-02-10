@@ -561,6 +561,9 @@ survey-csat-answer-dissatisfied = 不滿意
 survey-csat-answer-neutral = 普通
 survey-csat-answer-satisfied = 滿意
 survey-csat-answer-very-satisfied = 非常滿意
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = 感謝您提供意見回饋，我們想更加了解要如何為您改進 { -brand-name-relay }，方便做個兩分鐘意見調查嗎？
 
 ## VPN Promo Banner
 
