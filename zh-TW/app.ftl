@@ -551,6 +551,16 @@ survey-option-somewhat-disappointed = 有點失望
 survey-option-very-disappointed = 非常失望
 survey-option-very-likely = 非常願意
 survey-option-not-likely = 非常不願意
+survey-option-dismiss = 隱藏
+
+## CSAT survey
+
+survey-csat-question = 您對 { -brand-name-firefox-relay } 的使用體驗有多滿意？
+survey-csat-answer-very-dissatisfied = 非常不滿意
+survey-csat-answer-dissatisfied = 不滿意
+survey-csat-answer-neutral = 普通
+survey-csat-answer-satisfied = 滿意
+survey-csat-answer-very-satisfied = 非常滿意
 
 ## VPN Promo Banner
 
