@@ -597,6 +597,19 @@ survey-option-somewhat-disappointed = Somewhat disappointed
 survey-option-very-disappointed = Very disappointed
 survey-option-very-likely = Very likely
 survey-option-not-likely = Not likely
+survey-option-dismiss = Dismiss
+
+## CSAT survey
+
+survey-csat-question = How satisfied are you with your { -brand-name-firefox-relay } experience?
+survey-csat-answer-very-dissatisfied = Very Dissatisfied
+survey-csat-answer-dissatisfied = Dissatisfied
+survey-csat-answer-neutral = Neutral
+survey-csat-answer-satisfied = Satisfied
+survey-csat-answer-very-satisfied = Very Satisfied
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Thank you for your feedback. We would like to learn more about how we can improve { -brand-name-relay } for you, would you be willing to take a two-minute survey?
 
 ## VPN Promo Banner
 
