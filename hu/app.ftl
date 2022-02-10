@@ -595,6 +595,19 @@ survey-option-somewhat-disappointed = Kissé csalódna
 survey-option-very-disappointed = Nagyon csalódna
 survey-option-very-likely = Nagyon valószínű
 survey-option-not-likely = Nem valószínű
+survey-option-dismiss = Eltüntetés
+
+## CSAT survey
+
+survey-csat-question = Mennyire elégedett a { -brand-name-firefox-relay }lel kapcsolatos tapasztalataival?
+survey-csat-answer-very-dissatisfied = Nagyon elégedetlen
+survey-csat-answer-dissatisfied = Elégedetlen
+survey-csat-answer-neutral = Semleges
+survey-csat-answer-satisfied = Elégedett
+survey-csat-answer-very-satisfied = Nagyon elégedett
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Köszönjük a visszajelzést. Szeretnénk többet megtudni arról, hogyan javíthatjuk a { -brand-name-relay } szolgáltatáson az Ön számára. Hajlandó lenne kitölteni egy kétperces felmérést?
 
 ## VPN Promo Banner
 
