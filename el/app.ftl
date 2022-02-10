@@ -539,6 +539,19 @@ survey-option-somewhat-disappointed = Μερική απογοήτευση
 survey-option-very-disappointed = Μεγάλη απογοήτευση
 survey-option-very-likely = Πολύ πιθανό
 survey-option-not-likely = Καθόλου πιθανό
+survey-option-dismiss = Απόρριψη
+
+## CSAT survey
+
+survey-csat-question = Πόσο ικανοποιητική είναι η εμπειρία σας στο { -brand-name-firefox-relay };
+survey-csat-answer-very-dissatisfied = Πολύ δυσάρεστη
+survey-csat-answer-dissatisfied = Δυσάρεστη
+survey-csat-answer-neutral = Ουδέτερη
+survey-csat-answer-satisfied = Ικανοποιητική
+survey-csat-answer-very-satisfied = Πολύ ικανοποιητική
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Ευχαριστούμε για τα σχόλιά σας. Επιθυμούμε να μάθουμε περισσότερα σχετικά με το πώς μπορούμε να βελτιώσουμε το { -brand-name-relay } για εσάς, θα θέλατε να συμμετάσχετε σε μια έρευνα δύο λεπτών;
 
 ## VPN Promo Banner
 
