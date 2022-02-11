@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     „etterem@yourdomain.{ $mozmail }” címet az étteremnek. Minden olyan álnév, amely az
     egyéni tartományát használja, továbbítva lesz Önnek.
 banner-choose-subdomain-input-placeholder = Domain keresése
+banner-choose-subdomain-input-placeholder-2 = Keresés az új domainben
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Keresés
 banner-pack-upgrade-headline-html = Frissítsen <strong>{ -brand-name-firefox } { -brand-name-relay-premium }ra</strong>, hogy több álnevet kapjon
@@ -508,7 +509,8 @@ onboarding-premium-subheadline-html = Mostantól e-mail-címenként <strong>szab
 onboarding-premium-feature-intro = A { -brand-name-firefox } { -brand-name-relay-premium }mal a következőket teheti:
 onboarding-premium-control-title = Szabályozhatja, hogy milyen e-maileket kapjon
 onboarding-premium-control-description = Korlátlan számú e-mail álnevet oszthat meg, amelyek a valóban várt leveleket továbbítják a postafiókjába.
-onboarding-premium-domain-title = Egyéni domaint használthat az álnevek megosztásához
+onboarding-premium-domain-title = Használjon egyéni domaint az álnevek megosztásához:
+onboarding-premium-domain-title-2 = Használjon egyéni domaint az álnevek megosztásához:
 onboarding-premium-domain-description = Egy egyéni domain használatával a „hírlevél” álneve eltérhet a „vásárlás” álnevétől.
 onboarding-premium-reply-title = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
 onboarding-premium-reply-description = Válaszolnia kell az álnévre küldött levelekre? Csak válaszoljon a szokásos módon – az álnév továbbra is védi az e-mail címét.
