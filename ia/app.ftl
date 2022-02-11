@@ -408,6 +408,7 @@ banner-register-subdomain-copy =
     ante los usar. Besonia tu un pro un reservation? Da
     “restaurante@tudominio.{ $mozmail }” al restaurante. Cata alias que usa tu dominio essera inultrate a te.
 banner-choose-subdomain-input-placeholder = Cercar dominio
+banner-choose-subdomain-input-placeholder-2 = Cerca tu nove dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cercar
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
@@ -505,6 +506,7 @@ onboarding-premium-feature-intro = Con { -brand-name-relay-premium } de { -brand
 onboarding-premium-control-title = Controla que emails tu recipe
 onboarding-premium-control-description = Comparti illimitate aliases de e-mail que inultra a tu cassa de ingresso le e-mails que tu realmente vole.
 onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
+onboarding-premium-domain-title-2 = Usa un dominio personal pro compartir aliases:
 onboarding-premium-domain-description = Con un dominio personalisate, tu pote render le alias de tu “littera de novas” differente del alias de tu “compras”.
 onboarding-premium-reply-title = Responde a emails sin revelar tu real adresse
 onboarding-premium-reply-description = Besonia tu de responder a e-mails inviate a un alias?
