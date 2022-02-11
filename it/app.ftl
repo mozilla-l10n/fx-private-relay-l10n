@@ -408,6 +408,7 @@ banner-register-subdomain-example-address = tuodominio
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy = Con un dominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@tuodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo il dominio personalizzato ti verrà inoltrato automaticamente.
 banner-choose-subdomain-input-placeholder = Cerca dominio
+banner-choose-subdomain-input-placeholder-2 = Trova il tuo nuovo dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cerca
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
@@ -505,6 +506,7 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-rela
 onboarding-premium-control-title = Decidere quali email ricevere
 onboarding-premium-control-description = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
 onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli alias
+onboarding-premium-domain-title-2 = Utilizza un dominio personalizzato per condividere gli alias:
 onboarding-premium-domain-description = Con un dominio personalizzato, puoi impostare alias differenti per “newsletter” e “shopping”.
 onboarding-premium-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale
 onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
