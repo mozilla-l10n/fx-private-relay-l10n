@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
     defnyddio'ch parth personol yn cael ei anfon ymlaen atoch chi.
 banner-choose-subdomain-input-placeholder = Parth chwilio
+banner-choose-subdomain-input-placeholder-2 = Chwiliwch eich parth newydd
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Chwilio
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = Gyda { -brand-name-firefox }{ -brand-name-rel
 onboarding-premium-control-title = Rheoli pa e-byst rydych yn eu derbyn
 onboarding-premium-control-description = Rhannu arallenwau e-bost dirifedi sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
 onboarding-premium-domain-title = Defnyddio parth personol ar gyfer rhannu arallenwau
+onboarding-premium-domain-title-2 = Defnyddiwch barth cyfaddas ar gyfer rhannu arallenwau:
 onboarding-premium-domain-description = Gyda pharth personol, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
 onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
@@ -597,6 +599,19 @@ survey-option-somewhat-disappointed = Braidd yn siomedig
 survey-option-very-disappointed = Siomedig iawn
 survey-option-very-likely = Yn debygol iawn
 survey-option-not-likely = Ddim yn debygol
+survey-option-dismiss = Cau
+
+## CSAT survey
+
+survey-csat-question = Pa mor fodlon ydych chi o'ch profiadau gyda { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Anfodlon Iawn
+survey-csat-answer-dissatisfied = Anfodlon
+survey-csat-answer-neutral = Niwtral
+survey-csat-answer-satisfied = Bodlon
+survey-csat-answer-very-satisfied = Bodlon Iawn
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Diolch i chi am eich adborth. Hoffem ddysgu ragor am sut y gallwn ni wella { -brand-name-relay } ar eich cyfer chi. A fyddech chi'n fodlon cynnal arolwg dwy funud?
 
 ## VPN Promo Banner
 
