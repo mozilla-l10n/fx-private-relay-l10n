@@ -183,7 +183,13 @@ landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα e
 ## Use Cases
 
 landing-use-cases-shopping = Αγορές
+landing-use-cases-shopping-body =
+    Αγοράζετε κάτι από ένα νέο ηλεκτρονικό κατάστημα; Χρησιμοποιήστε ένα ψευδώνυμο { -brand-name-relay }⁩ αντί για το email σας κατά τη διαδικτυακή σας αγορά. 
+    Θα προωθήσουμε την απόδειξη στην πραγματική σας διεύθυνση email και αν αρχίσετε να λαμβάνετε ανεπιθύμητα email, απλά απενεργοποιήστε την προώθηση email.
 landing-use-cases-social-networks = Κοινωνικά δίκτυα
+landing-use-cases-social-networks-body =
+    Θέλετε καλύτερη προστασία για τη διαδικτυακή σας ταυτότητα κατά τη χρήση κοινωνικών δικτύων; 
+    Προσπαθείτε να μη συσχετίσετε το πραγματικό σας email με την παρουσία σας στα κοινωνικά δίκτυα; Συνδεθείτε με ένα ψευδώνυμο { -brand-name-relay } και προστατευτείτε στο διαδίκτυο.
 landing-use-cases-offline = Εκτός σύνδεσης
 landing-use-cases-access-content = Πρόσβαση σε περιεχόμενο
 landing-use-cases-gaming = Παιχνίδια
@@ -196,6 +202,9 @@ landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσ�
 ## Premium promo page
 
 premium-promo-hero-headline = Προστατέψτε ευκολότερα τα εισερχόμενά σας με το { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστα προσαρμοσμένα ψευδώνυμα email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email. <b>Για περιορισμένο χρονικό διάστημα, μπορείτε να αναβαθμίσετε στο Relay Premium με μόλις { $monthly_price } το μήνα.</b>
 premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-availability-warning = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -brand-name-firefox-relay-premium };
@@ -270,7 +279,7 @@ faq-question-4-answer-html =
 faq-question-subdomain-characters-question = Τι χαρακτήρες μπορώ να χρησιμοποιήσω στον υποτομέα;
 faq-question-subdomain-characters-answer-v2 = Μπορείτε να χρησιμοποιήσετε μόνο πεζά αγγλικά γράμματα, αριθμούς και παύλες για τον υποτομέα.
 faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
-faq-question-browser-support-answer = Ναι, μπορείτε να δημιουργήσετε ψευδώνυμα { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακά σας στο { -brand-name-relay }.
+faq-question-browser-support-answer = Ναι, μπορείτε να δημιουργήσετε ψευδώνυμα { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακα ελέγχου σας στο { -brand-name-relay }.
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-longevity-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
