@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     "restaurang@dindomän.{ $mozmail }" till restaurangen. Alla alias som
     använder din anpassade domän kommer att vidarebefordras till dig.
 banner-choose-subdomain-input-placeholder = Sök efter domän
+banner-choose-subdomain-input-placeholder-2 = Sök på din nya domän
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Sök
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = Med { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Kontrollera vilka e-postmeddelanden du får
 onboarding-premium-control-description = Dela obegränsade e-postalias som vidarebefordrar e-postmeddelanden du faktiskt vill ha till din inkorg.
 onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
+onboarding-premium-domain-title-2 = Använd en anpassad domän för att dela alias:
 onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
 onboarding-premium-reply-title = Svara på e-post utan att ge bort din riktiga adress
 onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
