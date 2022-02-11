@@ -141,7 +141,7 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 landing-hero-headline = Προστατέψτε την πραγματική σας διεύθυνση email και ελέγξτε τα εισερχόμενά σας
 landing-hero-body =
     Τα ψευδώνυμα email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα email στα πραγματικά σας εισερχόμενα. 
-    Πλέον μπορείτε να λαμβάνετε μόνο τα email που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account } σας για να ξεκινήσετε.
+    Πλέον μπορείτε να λαμβάνετε μόνο τα email που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 
 ## How it works section
 
@@ -216,6 +216,7 @@ premium-promo-perks-perk-custom-domain-headline = Επιλέξτε τον δικ
 premium-promo-perks-perk-dashboard-headline = Ελέγξτε τα ψευδώνυμά σας από τον πίνακα ελέγχου
 premium-promo-use-cases-headline = Χρησιμοποιήστε τα ψευδώνυμα { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
+premium-promo-use-cases-shopping-body = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε μοναδικά προσαρμοσμένα ψευδώνυμα, όπως το «prosfores@otomeasmou.mozmail.com».
 premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
 premium-promo-use-cases-gaming-heading = Παιχνίδια
 premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμμά σας
@@ -268,6 +269,12 @@ faq-question-missing-emails-answer-b-html = Αν είστε χρήστης το�
 faq-question-missing-emails-answer-support-site-html = Εάν αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επισκεφτείτε τον ιστότοπο υποστήριξης</a>.
 faq-question-use-cases-question = Πότε πρέπει να χρησιμοποιώ τα ψευδώνυμα { -brand-name-relay };
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v3-html =
+    Μερικοί ιστότοποι ενδέχεται να μην δέχονται διευθύνσεις email που περιέχουν υποτομέα (@υποτομέας.mozmail.com) και άλλοι έχουν σταματήσει να δέχονται διευθύνσεις, εκτός από αυτές των Gmail, Hotmail και Yahoo.
+    Αν δεν μπορείτε να χρησιμοποιήσετε ένα ψευδώνυμο { -brand-name-relay }, <a href="{ $url }" { $attrs }>ενημερώστε μας</a>.
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
@@ -284,6 +291,7 @@ faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερ�
 faq-question-longevity-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
+faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Variables:
@@ -291,6 +299,7 @@ faq-question-8-question = Ποια δεδομένα συλλέγει το { -bra
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-html = Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay }, διαβάζοντας την <a href="{ $url }" { $attrs }>πολιτική απορρήτου</a> μας. Μπορείτε επίσης να μοιραστείτε προαιρετικά δεδομένα σχετικές με τις ετικέτες και τον ιστότοπο που χρησιμοποιείτε για τα ψευδώνυμα email σας, προκειμένου να σας παρέχουμε και να βελτιώνουμε αυτήν την υπηρεσία.
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
+faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 
 ## Profile Page (Logged In)
 
