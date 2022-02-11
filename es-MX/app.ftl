@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     “restaurant@yourdomain.{ $mozmail }” al restaurante. Cualquier alias que use tu
     dominio personalizado se reenviará para ti.
 banner-choose-subdomain-input-placeholder = Buscar dominio
+banner-choose-subdomain-input-placeholder-2 = Buscar tu nuevo dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
 onboarding-premium-control-description = Comparte alias de correo electrónico ilimitados que reenvían los correos electrónicos que realmente deseas a tu bandeja de entrada.
 onboarding-premium-domain-title = Utiliza un dominio personalizado para compartir alias
+onboarding-premium-domain-title-2 = Usar un dominio personalizado para compartir alias:
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que el alias de tu "boletín informativo" sea diferente de tu alias de "compras".
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tú alias seguirá protegiendo tú dirección de correo electrónico.
