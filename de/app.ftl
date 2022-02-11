@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     „restaurant@ihredomain.{ $mozmail }“. Jede Alias-E-Mail-Adresse,
     die Ihre benutzerdefinierte Domain verwendet, wird an Sie weitergeleitet.
 banner-choose-subdomain-input-placeholder = Domain suchen
+banner-choose-subdomain-input-placeholder-2 = Suchen Sie Ihre neue Domain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = steuern, welche E-Mails Sie erhalten
 onboarding-premium-control-description = Sie können unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten.
 onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Mail-Adressen einrichten
+onboarding-premium-domain-title-2 = Eine benutzerdefinierte Domain für Alias-E-Mail-Adressen verwenden:
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
 onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
 onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
