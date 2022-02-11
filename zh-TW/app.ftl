@@ -377,6 +377,7 @@ banner-register-subdomain-example-address = yourdomain
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy = 使用自訂網域功能，不需要先產生別名就可以直接轉寄郵件。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您的自訂別名的信件都會直接轉寄給您。
 banner-choose-subdomain-input-placeholder = 搜尋網域
+banner-choose-subdomain-input-placeholder-2 = 搜尋您的新網域
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜尋
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
@@ -474,6 +475,7 @@ onboarding-premium-feature-intro = 透過 { -brand-name-firefox } { -brand-name-
 onboarding-premium-control-title = 自行控制要收到哪些郵件
 onboarding-premium-control-description = 可建立無限量的別名信箱，只讓您想收到的信件直達收件匣。
 onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
+onboarding-premium-domain-title-2 = 用自訂網域名稱建立共用別名：
 onboarding-premium-domain-description = 透過自訂網域，可以讓「電子報」別名跟「購物資訊」別名不同。
 onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
 onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件嗎？只要如往常一般方式回信，仍可透過別名來保護您的地址。
