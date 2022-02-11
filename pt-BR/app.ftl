@@ -408,6 +408,7 @@ banner-register-subdomain-example-address = seudominio
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy = Com um domínio personalizado, você pode compartilhar endereços de redirecionamento que não precisam ser gerados antes de usar. Precisa de um para fazer uma reserva? Informe “hotel@seudomínio.{ $mozmail }” para o hotel. Qualquer endereço de redirecionamento que tenha seu domínio personalizado é encaminhado a você.
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
+banner-choose-subdomain-input-placeholder-2 = Pesquise seu novo domínio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Pesquisar
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
@@ -505,6 +506,7 @@ onboarding-premium-feature-intro = Com o { -brand-name-firefox } { -brand-name-r
 onboarding-premium-control-title = Controlar quais emails você recebe
 onboarding-premium-control-description = Compartilhar endereços de redirecionamento ilimitados, que encaminham para sua caixa de entrada os emails que você realmente quer.
 onboarding-premium-domain-title = Usar um domínio personalizado para compartilhar endereços de redirecionamento de email
+onboarding-premium-domain-title-2 = Use um domínio personalizado para compartilhar endereços de redirecionamento:
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
 onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
 onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
