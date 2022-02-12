@@ -383,6 +383,7 @@ banner-register-subdomain-example-address = yourdomain
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy = 借助自定义域名功能，不需生成马甲也可直接转发邮件。要预订餐厅？用“restaurant@yourdomain.{ $mozmail }”这个邮箱地址就可以。任何使用您自定义域名的马甲都会直接转发给您。
 banner-choose-subdomain-input-placeholder = 搜索域名
+banner-choose-subdomain-input-placeholder-2 = 搜索您的新域名
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜索
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获得更多马甲
@@ -442,6 +443,7 @@ tips-footer-link-support-tooltip = 联系用户支持
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = 新建自定义马甲
+modal-custom-alias-picker-warning = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 modal-custom-alias-picker-form-heading = 或手动创建自定义马甲
 modal-custom-alias-picker-form-prefix-label = 输入马甲前缀
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
@@ -453,6 +455,7 @@ modal-custom-alias-picker-creation-error = 无法手动创建自定义马甲，�
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = 如何创建自定义马甲
+popover-custom-alias-explainer-explanation = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
 popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
 popover-custom-alias-explainer-close-button-label = 关闭
@@ -460,6 +463,7 @@ popover-custom-alias-explainer-close-button-label = 关闭
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = 使用自定义域名创建马甲
+tips-custom-alias-content = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 
 ## Onboarding 
 
@@ -477,6 +481,7 @@ onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-p
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 onboarding-premium-control-description = 可创建无限数量马甲，只转发您想收到的邮件到收件箱。
 onboarding-premium-domain-title = 用自定义域名创建马甲邮箱
+onboarding-premium-domain-title-2 = 用自定义域名创建马甲邮箱：
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
@@ -566,6 +571,9 @@ survey-csat-answer-dissatisfied = 不满意
 survey-csat-answer-neutral = 无感
 survey-csat-answer-satisfied = 满意
 survey-csat-answer-very-satisfied = 非常满意
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = 感谢您的反馈。我们想要了解如何为您改进 { -brand-name-relay }。您愿意花两分钟做个小调查吗？
 
 ## VPN Promo Banner
 
