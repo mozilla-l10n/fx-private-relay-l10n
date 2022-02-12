@@ -412,6 +412,7 @@ banner-register-subdomain-copy =
     “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any alias using your
     custom domain will be forwarded to you.
 banner-choose-subdomain-input-placeholder = Search domain
+banner-choose-subdomain-input-placeholder-2 = Search your new domain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Search
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
@@ -509,6 +510,7 @@ onboarding-premium-feature-intro = With { -brand-name-firefox } { -brand-name-re
 onboarding-premium-control-title = Control what emails you get
 onboarding-premium-control-description = Share unlimited email aliases that forward emails you actually want to your inbox.
 onboarding-premium-domain-title = Use a custom domain for sharing aliases
+onboarding-premium-domain-title-2 = Use a custom domain for sharing aliases:
 onboarding-premium-domain-description = With a custom domain, you can make your “newsletter” alias different from your “shopping” alias.
 onboarding-premium-reply-title = Reply to emails without giving away your real address
 onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
