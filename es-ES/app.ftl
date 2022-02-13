@@ -414,6 +414,7 @@ banner-register-subdomain-copy =
     “restaurante@tudominio.{ $mozmail }” al restaurante. Cualquier alias que use tu
     dominio personalizado se te reenviará.
 banner-choose-subdomain-input-placeholder = Buscar dominio
+banner-choose-subdomain-input-placeholder-2 = Buscar tu nuevo dominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
@@ -511,6 +512,7 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
 onboarding-premium-control-description = Comparte alias de correo electrónico ilimitados que reenvían a tu bandeja de entrada los correos electrónicos que realmente deseas.
 onboarding-premium-domain-title = Usar un dominio personalizado para compartir alias
+onboarding-premium-domain-title-2 = Usar un dominio personalizado para compartir alias:
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que tu alias de “boletín informativo” sea diferente de tu alias de “compras”.
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tu alias seguirá protegiendo tu dirección de correo electrónico.
@@ -599,6 +601,19 @@ survey-option-somewhat-disappointed = Algo decepcionado
 survey-option-very-disappointed = Muy decepcionado
 survey-option-very-likely = Muy probablemente
 survey-option-not-likely = Poco probable
+survey-option-dismiss = Descartar
+
+## CSAT survey
+
+survey-csat-question = ¿Cómo estás de satisfecho con tu experiencia con { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Muy insatisfecho
+survey-csat-answer-dissatisfied = Insatisfecho
+survey-csat-answer-neutral = Neutral
+survey-csat-answer-satisfied = Satisfecho
+survey-csat-answer-very-satisfied = Muy satisfecho
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Gracias por tus comentarios. Nos gustaría obtener más información sobre cómo podemos mejorar { -brand-name-relay } para ti. ¿Estarías dispuesto a participar en una encuesta de dos minutos?
 
 ## VPN Promo Banner
 
