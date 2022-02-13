@@ -449,6 +449,7 @@ banner-register-subdomain-copy =
     Pomocou vlastnej domény môžete používať aliasy, ktoré nie je potrebné generovať
     pred ich použitím. Potrebujete rezervovať stôl v reštaurácii? Použite “restauracia@vašadoména.{ $mozmail }”. Akýkoľvek alias používajúci vašu vlastnú doménu bude presmerovaný do vašej e-mailovej schránky.
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
+banner-choose-subdomain-input-placeholder-2 = Vyhľadajte svoju novú doménu
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Hľadať
 banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
@@ -546,6 +547,7 @@ onboarding-premium-feature-intro = So službou { -brand-name-firefox } { -brand-
 onboarding-premium-control-title = Majte kontrolu nad tým, aké e-maily budete dostávať
 onboarding-premium-control-description = Zdieľajte neobmedzené množstvo e-mailových aliasov, ktoré preposielajú len e-maily, ktoré skutočne chcete, do vašej doručenej pošty.
 onboarding-premium-domain-title = Používajte pre svoje aliasy vlastnú doménu
+onboarding-premium-domain-title-2 = Používajte pre svoje aliasy vlastnú doménu:
 onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
 onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
 onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
