@@ -611,6 +611,7 @@ survey-option-dismiss = Slute
 
 survey-csat-question = Hoe tefreden binne jo mei jo ûnderfining fan { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Hiel ûntefreden
+survey-csat-answer-dissatisfied = Untefreden
 survey-csat-answer-neutral = Gemiddeld
 survey-csat-answer-satisfied = Tefreden
 survey-csat-answer-very-satisfied = Tige tefreden
