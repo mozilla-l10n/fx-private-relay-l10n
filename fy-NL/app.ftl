@@ -418,6 +418,7 @@ banner-register-subdomain-copy =
     ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy’t jo oanpaste
     domein brûkt wurdt nei jo trochstjoerd.
 banner-choose-subdomain-input-placeholder = Domein sykje
+banner-choose-subdomain-input-placeholder-2 = Jo nije domein sykje
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Sykje
 banner-pack-upgrade-headline-html = Opwurdearje nei <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om mear aliassen te krijen
@@ -515,6 +516,7 @@ onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
 onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
 onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan aliassen
+onboarding-premium-domain-title-2 = In oanpast domein brûke foar it dielen fan aliassen:
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
 onboarding-premium-reply-description = Moatte jo e-mailberjochten dy’t nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
@@ -603,6 +605,12 @@ survey-option-somewhat-disappointed = Wat teloarsteld
 survey-option-very-disappointed = Tige teloarsteld
 survey-option-very-likely = Nei alle gedachten
 survey-option-not-likely = Net wierskynlik
+survey-option-dismiss = Slute
+
+## CSAT survey
+
+survey-csat-question = Hoe tefreden binne jo mei jo ûnderfining fan { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Hiel ûntefreden
 
 ## VPN Promo Banner
 
