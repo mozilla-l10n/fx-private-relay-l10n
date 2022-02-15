@@ -310,6 +310,17 @@ faq-question-8-answer-html = You can learn more about the data { -brand-name-fir
 faq-question-email-storage-question = Does { -brand-name-relay } store my emails?
 faq-question-email-storage-answer = Under the rare circumstance in which the service is down, we may temporarily store your emails until we are able to send them. We will never store your emails for longer than three days.
 
+faq-question-acceptable-use-question = What are the acceptable uses of { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } has the same <a href="{ $url }" { $attrs }>conditions of use as all { -brand-name-mozilla } products</a>. We have a zero-tolerance policy when it comes to using { -brand-name-relay } for malicious purposes like spam, resulting in the termination of a user’s account. We take measures to prevent users from violating our conditions by:
+faq-question-acceptable-use-answer-measure-account = Requiring a { -brand-name-firefox-account(capitalization: "uppercase") } with a verified email address
+faq-question-acceptable-use-answer-measure-unlimited-payment = Requiring payment for a user to create more than five aliases
+faq-question-acceptable-use-answer-measure-rate-limit = Rate-limiting the number of aliases that can be generated in one day
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
+
 ## Profile Page (Logged In)
 
 # Variables:
