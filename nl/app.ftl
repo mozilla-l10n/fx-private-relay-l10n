@@ -417,6 +417,7 @@ banner-register-subdomain-copy =
     ‘restaurant@uwdomein.{ $mozmail }’ aan het restaurant. Elke alias die uw aangepaste
     domein gebruikt wordt naar u doorgestuurd.
 banner-choose-subdomain-input-placeholder = Domein zoeken
+banner-choose-subdomain-input-placeholder-2 = Uw nieuwe domein zoeken
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Zoeken
 banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om meer aliassen te verkrijgen
@@ -514,6 +515,7 @@ onboarding-premium-feature-intro = Met { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Bepalen welke e-mailberichten u ontvangt
 onboarding-premium-control-description = Onbeperkt e-mailaliassen delen die de berichten die u echt wilt ontvangen naar uw Postvak IN doorsturen.
 onboarding-premium-domain-title = Een aangepast domein gebruiken voor het delen van aliassen
+onboarding-premium-domain-title-2 = Een aangepast domein gebruiken voor het delen van aliassen:
 onboarding-premium-domain-description = Met een aangepast domein kunt u uw ‘nieuwsbrief’-alias laten afwijken van uw ‘winkel’-alias.
 onboarding-premium-reply-title = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
 onboarding-premium-reply-description = Moet u e-mailberichten die naar een alias zijn gestuurd beantwoorden? Antwoord gewoon als altijd – uw alias beschermt uw e-mailadres nog steeds.
@@ -602,6 +604,19 @@ survey-option-somewhat-disappointed = Enigszins teleurgesteld
 survey-option-very-disappointed = Zeer teleurgesteld
 survey-option-very-likely = Zeer waarschijnlijk
 survey-option-not-likely = Niet waarschijnlijk
+survey-option-dismiss = Sluiten
+
+## CSAT survey
+
+survey-csat-question = Hoe tevreden bent u met uw { -brand-name-firefox-relay }-ervaring?
+survey-csat-answer-very-dissatisfied = Zeer ontevreden
+survey-csat-answer-dissatisfied = Ontevreden
+survey-csat-answer-neutral = Gemiddeld
+survey-csat-answer-satisfied = Tevreden
+survey-csat-answer-very-satisfied = Zeer tevreden
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Bedankt voor uw feedback. We willen graag meer weten over hoe we { -brand-name-relay } voor u kunnen verbeteren, zou u een enquête van twee minuten willen invullen?
 
 ## VPN Promo Banner
 
