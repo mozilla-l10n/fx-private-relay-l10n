@@ -305,6 +305,15 @@ faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
 faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições, ao:
+faq-question-acceptable-use-answer-measure-account = Exigir uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
+faq-question-acceptable-use-answer-measure-unlimited-payment = Exigir pagamento para um usuário criar mais de cinco endereços de redirecionamento
+faq-question-acceptable-use-answer-measure-rate-limit = Limitar o número de endereços de redirecionamento que podem ser gerados a cada dia
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Consulte mais informações em nossos <a href="{ $url }" { $attrs }>termos do serviço</a>.
 
 ## Profile Page (Logged In)
 
