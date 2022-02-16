@@ -273,6 +273,13 @@ faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
+faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合理用途？
+faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account(capitalization: "uppercase") } 使用驗證過的電子郵件地址
+faq-question-acceptable-use-answer-measure-unlimited-payment = 要求使用者付款才可以建立超過五組別名
+faq-question-acceptable-use-answer-measure-rate-limit = 限制一天內可產生的別名數量
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = 若需更多資訊，請閱讀我們的<a href="{ $url }" { $attrs }>服務條款</a>。
 
 ## Profile Page (Logged In)
 
