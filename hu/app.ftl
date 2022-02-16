@@ -310,6 +310,10 @@ faq-question-acceptable-use-question = Mik a { -brand-name-relay } elfogadható 
 faq-question-acceptable-use-answer-a-html = A { -brand-name-firefox-relay } <a href="{ $url }" { $attrs }>használati feltételei megegyeznek az összes { -brand-name-mozilla } termékével</a>. Zéró toleranciát gyakorlunk, ha a { -brand-name-relay } rosszindulatú használatáról van szó, például ha levélszemét küldésére használják, akkor az a felhasználó fiókjának megszüntetését eredményezi. Intézkedéseket teszünk annak érdekében, hogy a felhasználók ne sértsék meg a feltételeinket:
 faq-question-acceptable-use-answer-measure-account = Megköveteljük, hogy ellenőrzött e-mail-címmel használja a { -brand-name-firefox-account }ját
 faq-question-acceptable-use-answer-measure-unlimited-payment = Fizetés szükséges ahhoz, hogy a felhasználók ötnél több álnevet hozzanak létre
+faq-question-acceptable-use-answer-measure-rate-limit = Korlátozzuk az egy nap alatt létrehozható álnevek számát
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = További információkért tekintse át <a href="{ $url }" { $attrs }>Általános Szerződési Feltételeinket</a>.
 
 ## Profile Page (Logged In)
 
