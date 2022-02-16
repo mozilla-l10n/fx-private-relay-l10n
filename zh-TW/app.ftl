@@ -274,6 +274,9 @@ faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合理用途？
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 的 <a href="{ $url }" { $attrs }>使用條款與所有 { -brand-name-mozilla } 產品都相同</a>。我們絕不允許透過 { -brand-name-relay } 進行諸如濫發垃圾信件等有害行為，此類行為將導致使用者帳號被關閉。我們會採取下列行為來防止使用者違反使用條款：
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account(capitalization: "uppercase") } 使用驗證過的電子郵件地址
 faq-question-acceptable-use-answer-measure-unlimited-payment = 要求使用者付款才可以建立超過五組別名
 faq-question-acceptable-use-answer-measure-rate-limit = 限制一天內可產生的別名數量
