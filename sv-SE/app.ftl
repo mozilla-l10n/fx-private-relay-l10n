@@ -304,6 +304,16 @@ faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 faq-question-8-answer-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
 faq-question-email-storage-question = Lagrar { -brand-name-relay } mina e-postmeddelanden?
 faq-question-email-storage-answer = Under de sällsynta omständigheter då tjänsten är nere, kan vi tillfälligt lagra dina e-postmeddelanden tills vi kan skicka de. Vi kommer aldrig att lagra dina e-postmeddelanden längre än tre dagar.
+faq-question-acceptable-use-question = Vilka är de acceptabla användningsområdena för { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } har samma <a href="{ $url }" { $attrs }>användningsvillkor som alla { -brand-name-mozilla }-produkter</a>. Vi har en nolltoleranspolicy när det gäller att använda { -brand-name-relay } för skadliga ändamål som skräppost, vilket leder till att en användares konto sägs upp. Vi vidtar åtgärder för att förhindra användare från att bryta mot våra villkor genom att:
+faq-question-acceptable-use-answer-measure-account = Kräver en { -brand-name-firefox-account(capitalization: "uppercase") } med en verifierad e-postadress
+faq-question-acceptable-use-answer-measure-unlimited-payment = Kräver betalning för att en användare ska kunna skapa fler än fem alias
+faq-question-acceptable-use-answer-measure-rate-limit = Begränsa antalet alias som kan genereras på en dag
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Läs våra <a href="{ $url }" { $attrs }>användarvillkor</a> för mer information.
 
 ## Profile Page (Logged In)
 
