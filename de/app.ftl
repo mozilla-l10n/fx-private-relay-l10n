@@ -304,6 +304,16 @@ faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftungen und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
 faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir Ihre E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden Ihre E-Mails niemals länger als drei Tage speichern.
+faq-question-acceptable-use-question = Zu welchem Zweck darf { -brand-name-relay } eingesetzt werden?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat dieselben <a href="{ $url }" { $attrs }>Nutzungsbedingungen wie alle { -brand-name-mozilla }-Produkte</a>. Wir haben eine Null-Toleranz-Richtlinie, wenn es darum geht, { -brand-name-relay } für böswillige Zwecke wie Spam zu verwenden, was zur Kündigung eines Benutzerkontos führt. Wir ergreifen Maßnahmen, um Benutzer daran zu hindern, gegen unsere Bedingungen zu verstoßen, indem wir:
+faq-question-acceptable-use-answer-measure-account = ein { -brand-name-firefox-account(capitalization: "uppercase") } mit einer verifizierten E-Mail-Adresse verlangen
+faq-question-acceptable-use-answer-measure-unlimited-payment = die Erstellung von mehr als fünf Alias-E-Mail-Adressen nur gegen Bezahlung zulassen
+faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Alias-E-Mail-Adressen begrenzen, die an einem Tag generiert werden können
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Bitte lesen Sie unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
 
 ## Profile Page (Logged In)
 
