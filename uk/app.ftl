@@ -307,9 +307,13 @@ faq-question-email-storage-answer = У тих рідкісних випадка�
 faq-question-acceptable-use-question = Що вважається прийнятним застосуванням { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } має ті самі <a href="{ $url }" { $attrs }>умови користування, що й усі продукти { -brand-name-mozilla }</a>. Ми маємо політику нетерпимості до користування { -brand-name-relay } у зловмисних цілях, як-от спам, що призводить до припинення дії облікового запису користувача. Ми вживаємо заходів, щоб запобігти порушенням користувачів наших умов такими способами:
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } має ті самі <a href="{ $url }" { $attrs }>умови надання послуг, що й усі продукти { -brand-name-mozilla }</a>. Ми маємо політику нетерпимості до користування { -brand-name-relay } у зловмисних цілях, як-от спам, що призводить до припинення дії облікового запису користувача. Ми вживаємо заходів, щоб запобігти порушенням користувачів наших умов такими способами:
 faq-question-acceptable-use-answer-measure-account = Вимагаємо { -brand-name-firefox-account(capitalization: "uppercase") } з підтвердженою адресою електронної пошти
 faq-question-acceptable-use-answer-measure-unlimited-payment = Вимагаємо оплати від користувачів за створення понад п'ять псевдоадрес
+faq-question-acceptable-use-answer-measure-rate-limit = Обмеження кількості псевдоадрес, які можна створити за один день
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Для отримання додаткових відомостей перегляньте наші <a href="{ $url }" { $attrs }>Умови надання послуг</a>.
 
 ## Profile Page (Logged In)
 
