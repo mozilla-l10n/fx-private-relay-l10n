@@ -308,6 +308,9 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } ha le 
 faq-question-acceptable-use-answer-measure-account = Requirer un { -brand-name-firefox-account(capitalization: "uppercase") } con un adresse email verificate
 faq-question-acceptable-use-answer-measure-unlimited-payment = Requirer le pagamento la usator pro crear plus que cinque aliases
 faq-question-acceptable-use-answer-measure-rate-limit = Limitar le numero de aliases que on pote generar in un die
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
 
 ## Profile Page (Logged In)
 
