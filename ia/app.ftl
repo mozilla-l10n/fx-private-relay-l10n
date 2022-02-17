@@ -302,6 +302,12 @@ faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-na
 faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
 faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
 faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } ha le mesme <a href="{ $url }" { $attrs }>conditiones de uso de tote le productos de { -brand-name-mozilla }</a>. Nos ha un politica de tolerantia zero quando il eveni que on usa { -brand-name-relay } pro propositos malitiose como spam, consequente in le termination del conto del usator. Nos prende mensuras pro impedir que le usatores viola nostre conditiones per:
+faq-question-acceptable-use-answer-measure-account = Requirer un { -brand-name-firefox-account(capitalization: "uppercase") } con un adresse email verificate
+faq-question-acceptable-use-answer-measure-unlimited-payment = Requirer le pagamento la usator pro crear plus que cinque aliases
+faq-question-acceptable-use-answer-measure-rate-limit = Limitar le numero de aliases que on pote generar in un die
 
 ## Profile Page (Logged In)
 
