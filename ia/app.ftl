@@ -301,6 +301,7 @@ faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
 faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
 faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
+faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-name-relay }?
 
 ## Profile Page (Logged In)
 
