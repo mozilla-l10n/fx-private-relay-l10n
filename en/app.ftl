@@ -394,6 +394,22 @@ profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Critical-only aliases
 
+## Alias Promotional Email Blocking (displayed on the profile page)
+profile-promo-email-blocking-title = What emails do you want to block?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = All
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promotionals
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = None
+profile-promo-email-blocking-description-all = { -brand-name-relay } is blocking all emails sent to this alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails, while still forwarding emails like receipts and shipping information.
+profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
+profile-promo-email-blocking-label-promotionals = Block promotions
+profile-promo-email-blocking-label-none = Block all
+profile-promo-email-blocking-label-forwarding = Forwarding
+profile-promo-email-blocking-label-not-forwarding = Not forwarding
+
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
@@ -512,11 +528,19 @@ popover-custom-alias-explainer-explanation = All you need to do is make up and s
 popover-custom-alias-explainer-generate-button-heading = Generate a custom alias manually
 popover-custom-alias-explainer-generate-button-label = Generate custom alias
 popover-custom-alias-explainer-close-button-label = Close
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
+popover-custom-alias-explainer-promotional-block-tooltip = Enable Block Promotional Emails on an alias to stop marketing emails from reaching your inbox. 
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Creating aliases using your custom domain
 tips-custom-alias-content = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+## Tip about using custom aliases
+
+tips-promo-email-blocking-heading = Block Promotional Emails
+tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information. 
+
 
 ## Onboarding 
 
