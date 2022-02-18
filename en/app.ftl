@@ -407,7 +407,7 @@ profile-promo-email-blocking-description-promotionals = { -brand-name-relay } wi
 profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
 profile-promo-email-blocking-label-promotionals = Block promotions
 profile-promo-email-blocking-label-none = Block all
-profile-promo-email-blocking-label-forwarding = Forwarding
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Not forwarding
 
 ## Banner Messages (displayed on the profile page)
