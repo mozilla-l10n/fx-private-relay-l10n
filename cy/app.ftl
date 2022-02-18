@@ -304,6 +304,16 @@ faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasgl
 faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
 faq-question-email-storage-question = A yw { -brand-name-relay } yn cadw fy e-byst?
 faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth wedi torri, byddwn efallai'n cadw eich e-byst dros dro nes ein bod yn gallu eu hanfon. Byddwn ni byth yn cadw'ch e-byst am fwy na thridiau.
+faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay } yr un amodau defnydd <a href = " { $url } " { $attrs }> â holl gynnyrch { -brand-name-mozilla }</a>. Mae gennym ni bolisi dim goddefgarwch o ran defnyddio { -brand-name-relay } at ddibenion maleisus fel sbam, sy'n arwain at derfynu cyfrif defnyddiwr. Rydym yn cymryd camau i atal defnyddwyr rhag torri ein hamodau drwy:
+faq-question-acceptable-use-answer-measure-account = Mae angen { -brand-name-firefox-account(capitalization: "uppercase") } gyda chyfeiriad e-bost wedi'i ddilysu
+faq-question-acceptable-use-answer-measure-unlimited-payment = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
+faq-question-acceptable-use-answer-measure-rate-limit = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Darllenwch ein <a href="{ $url }" { $attrs }>Telerau Gwasanaeth</a> am ragor o wybodaeth.
 
 ## Profile Page (Logged In)
 
