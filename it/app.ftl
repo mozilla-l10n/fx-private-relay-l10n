@@ -304,6 +304,16 @@ faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-r
 faq-question-8-answer-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
 faq-question-email-storage-question = { -brand-name-relay } conserva le mie email?
 faq-question-email-storage-answer = Nelle rare situazioni in cui il servizio non è attivo, potremmo salvare temporaneamente le tue email fino a quando non potranno essere inviate. Le tue email non verranno mai conservate per più di tre giorni.
+faq-question-acceptable-use-question = Quali sono gli utilizzi accettabili di { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } è soggetto alle stesse <a href="{ $url }" { $attrs }>condizioni di utilizzo di tutti i prodotti { -brand-name-mozilla }</a>. Abbiamo una politica di tolleranza zero nel caso in cui { -brand-name-relay } venga utilizzato con intenti dolosi come l’invio di spam, con conseguente chiusura dell’account. Adottiamo misure per impedire agli utenti di violare le nostre condizioni:
+faq-question-acceptable-use-answer-measure-account = È obbligatorio utilizzare un { -brand-name-firefox-account } con un indirizzo email verificato
+faq-question-acceptable-use-answer-measure-unlimited-payment = La creazione di più di cinque alias è un servizio a pagamento
+faq-question-acceptable-use-answer-measure-rate-limit = È possibile creare un numero limitato di alias ogni giorno
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Per ulteriori informazioni consulta i nostri <a href="{ $url }" { $attrs }>termini di servizio</a>.
 
 ## Profile Page (Logged In)
 
