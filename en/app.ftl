@@ -322,9 +322,9 @@ faq-question-acceptable-use-answer-measure-rate-limit = Rate-limiting the number
 faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
 
 faq-question-promotional-email-blocking-question = What is promotional email blocking?
-faq-question-promotional-email-blocking-answer = Relay Premium subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
-faq-question-detect-promotional-question = How does Relay detect if an email is Promotional or not?
-faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. Firefox Relay detects this header data so it can block these emails.
+faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
+faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
+faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
 ## Profile Page (Logged In)
 
 # Variables:
