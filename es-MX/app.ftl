@@ -314,6 +314,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Tasa de limitación del 
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Por favor, lee nuestros <a href="{ $url }" { $attrs }>Términos de Servicio</a> para más información.
+faq-question-promotional-email-blocking-question = ¿Qué es el bloqueo de correo electrónico promocional?
+faq-question-promotional-email-blocking-answer = Los suscriptores de { -brand-name-relay-premium } pueden habilitar el bloqueo de correo electrónico promocional. Esta función te reenviará correos electrónicos importantes, como recibos, restablecimientos de contraseña y confirmaciones, mientras bloquea los mensajes de marketing. Existe un ligero riesgo de que se bloquee un mensaje importante, por lo que te recomendamos que no utilices esta función para lugares muy importantes como tu banco. Si un correo electrónico está bloqueado, no se puede recuperar.
+faq-question-detect-promotional-question = ¿Cómo detecta { -brand-name-relay } si un correo electrónico es promocional o no?
+faq-question-detect-promotional-answer = Muchos correos electrónicos se envían con metadatos de “encabezado” para indicar que provienen de herramientas automatizadas basadas en listas. { -brand-name-firefox-relay } detecta estos datos de encabezado para que pueda bloquear estos correos electrónicos.
 
 ## Profile Page (Logged In)
 
@@ -383,6 +387,23 @@ profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Solo alias críticos
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = ¿Qué correos electrónicos quieres bloquear?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Todos
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promocionales
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Ninguno
+profile-promo-email-blocking-description-all = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a este alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos e información de envío.
+profile-promo-email-blocking-description-none = { -brand-name-relay } no está bloqueando ningún correo electrónico para este alias.
+profile-promo-email-blocking-label-promotionals = Bloquear promociones
+profile-promo-email-blocking-label-none = Bloquear todo
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = No reenviar
 
 ## Banner Messages (displayed on the profile page)
 
@@ -498,11 +519,19 @@ popover-custom-alias-explainer-explanation = Todo lo que necesitas hacer es crea
 popover-custom-alias-explainer-generate-button-heading = Generar un alias personalizado manualmente
 popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
 popover-custom-alias-explainer-close-button-label = Cerrar
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos electrónicos promocionales
+popover-custom-alias-explainer-promotional-block-tooltip = Habilitar bloquear correos electrónicos promocionales en un alias para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Crear alias usando tu dominio personalizado
 tips-custom-alias-content = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+
+## Tip about using custom aliases
+
+tips-promo-email-blocking-heading = Bloquear correos electrónicos promocionales
+tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bloquear correos electrónicos promocionales para que no lleguen a tu bandeja de entrada y al mismo tiempo te permite recibir correos electrónicos como recibos o información de envío.
 
 ## Onboarding 
 
