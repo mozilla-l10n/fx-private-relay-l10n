@@ -314,6 +314,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Обмеження кі�
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Для отримання додаткових відомостей перегляньте наші <a href="{ $url }" { $attrs }>Умови надання послуг</a>.
+faq-question-promotional-email-blocking-question = Що таке блокування рекламної електронної пошти?
 
 ## Profile Page (Logged In)
 
@@ -383,6 +384,9 @@ profile-filter-category-option-relay-aliases-v2 = Випадкові псевд�
 profile-filter-category-option-domain-based-aliases-v2 = Користувацькі псевдоадреси
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Важливі псевдоадреси
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -503,6 +507,9 @@ popover-custom-alias-explainer-close-button-label = Закрити
 
 tips-custom-alias-heading = Створення псевдоадрес із використанням власного домену
 tips-custom-alias-content = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
