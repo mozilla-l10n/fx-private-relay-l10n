@@ -322,7 +322,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Rate-limiting the number
 faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
 
 faq-question-promotional-email-blocking-question = What is promotional email blocking?
-faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations, while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
+faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
 faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
 faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
 ## Profile Page (Logged In)
@@ -407,7 +407,7 @@ profile-promo-email-blocking-option-promotionals = Promotionals
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = None
 profile-promo-email-blocking-description-all = { -brand-name-relay } is blocking all emails sent to this alias.
-profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails, while still forwarding emails like receipts and shipping information.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails while still forwarding emails like receipts and shipping information.
 profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
 profile-promo-email-blocking-label-promotionals = Block promotions
 profile-promo-email-blocking-label-none = Block all
