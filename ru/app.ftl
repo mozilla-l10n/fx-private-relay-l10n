@@ -75,6 +75,7 @@ logo-github-alt = Логотип GitHub
 ## Bento Menu
 
 bento-button-title = Приложения и службы { -brand-name-firefox }
+fx-makes-tech = { -brand-name-firefox } — это технологии, отстаивающие вашу приватность в Интернете.
 made-by-mozilla = Создано { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser(case: "nominative_uppercase") } для компьютера
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -86,6 +87,24 @@ bento-button-close-label = Закрыть меню
 
 ## Home Page
 
+home-hero-headline = Скрывайте свой настоящий адрес электронной почты, чтобы защитить свою личность
+home-hero-copy =
+    Используйте псевдоним { -brand-name-relay } вместо настоящего адреса электронной почты, чтобы защитить свои сетевые аккаунты от хакеров. 
+    Войдите в свой { -brand-name-firefox-account(case: "accusative") }, чтобы начать.
+home-hero-cta = Войти
+how-it-works-headline = Как это работает
+how-it-works-subheadline = Защитите свою личность везде, где используете { -brand-name-firefox-browser(case: "accusative") }
+how-it-works-step-1-headline = Получите расширение
+how-it-works-step-1-link = Загрузите расширение { -brand-name-relay } для { -brand-name-firefox }
+how-it-works-step-1-copy =
+    Выберите значок, который появится на панели инструментов вашего { -brand-name-firefox }, чтобы открыть страницу входа. 
+    Войдите в свой { -brand-name-firefox-account(case: "accusative") }, чтобы начать.
+how-it-works-step-2-headline = Создайте новый псевдоним
+how-it-works-step-2-copy =
+    Во время веб-сёрфинга на сайтах, которые будут запрашивать адрес вашей электронной почты, будет появляться значок { -brand-name-relay }.
+    Выберите его, чтобы создать новый случайный адрес, оканчивающийся на @relay.firefox.com.
+    { -brand-name-relay } будет пересылать сообщения на основной адрес электронной почты, связанный с вашим аккаунтом.
+how-it-works-step-3-headline = Управляйте своими псевдонимами
 
 ## Home Page Version A
 
