@@ -314,7 +314,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Alias-E-M
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bitte lesen Sie unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
-faq-question-promotional-email-blocking-question = Was bedeutet die Blockade von Werbe-E-Mails?
+faq-question-promotional-email-blocking-question = Was bedeutet das Blockieren von Werbe-E-Mails?
+faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir Ihnen, diese Funktion nicht für sehr wichtige Kontakte wie Ihre Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
+faq-question-detect-promotional-question = Wie erkennt { -brand-name-relay }, ob eine E-Mail Werbezwecken dient oder nicht?
+faq-question-detect-promotional-answer = Viele E-Mails werden mit „Kopfzeilen“-Metadaten gesendet, um anzuzeigen, dass sie von listenbasierten automatisierten Werkzeugen stammen. { -brand-name-firefox-relay } erkennt diese Kopfzeilen-Daten, sodass diese E-Mails blockiert werden können.
 
 ## Profile Page (Logged In)
 
@@ -387,6 +390,14 @@ profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, di
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Welche E-Mails möchten Sie blockieren?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Alle
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Werbung
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Keine
+profile-promo-email-blocking-description-all = { -brand-name-relay } blockiert alle E-Mails, die an diese Alias-E-Mail-Adresse gesendet werden.
 
 ## Banner Messages (displayed on the profile page)
 
