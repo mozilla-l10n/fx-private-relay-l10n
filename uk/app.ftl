@@ -314,7 +314,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Обмеження кі�
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Для отримання додаткових відомостей перегляньте наші <a href="{ $url }" { $attrs }>Умови надання послуг</a>.
-faq-question-promotional-email-blocking-question = Що таке блокування рекламної електронної пошти?
+faq-question-promotional-email-blocking-question = Що таке блокування промоційної електронної пошти?
+faq-question-promotional-email-blocking-answer = Передплатники { -brand-name-relay-premium } можуть увімкнути блокування промоційної електронної пошти. Ця функція пересилає вам важливі електронні листи, як-от квитанції, скидання пароля та підтвердження, але блокуватиме маркетингові повідомлення. Існує незначна ймовірність, що важливе повідомлення може бути заблоковано, тому ми радимо не використовувати цю функцію для дуже важливих сайтів, як-от ваш банк. Якщо електронний лист заблоковано, його неможливо відновити.
+faq-question-detect-promotional-question = Як { -brand-name-relay } визначає, промоційний лист чи ні?
+faq-question-detect-promotional-answer = Багато електронних листів надсилаються з метаданими «заголовок», де вказано, що вони отримані від автоматизованих інструментів на основі списків. { -brand-name-firefox-relay } виявляє ці дані заголовка, щоб заблокувати ці листи.
 
 ## Profile Page (Logged In)
 
@@ -387,6 +390,20 @@ profile-filter-category-option-critical-only-aliases = Важливі псевд
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Які електронні листи ви хочете заблокувати?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Усі
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Промоційні
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Не блокувати
+profile-promo-email-blocking-description-all = { -brand-name-relay } блокує всі електронні листи, надіслані на цю псевдоадресу.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } намагатиметься заблокувати рекламні листи, водночас пересилаючи електронні листи, як-от квитанції та інформацію про доставлення.
+profile-promo-email-blocking-description-none = { -brand-name-relay } не блокує електронні листи для цієї псевдоадреси.
+profile-promo-email-blocking-label-promotionals = Блокувати промоції
+profile-promo-email-blocking-label-none = Блокувати всі
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Не пересилаються
 
 ## Banner Messages (displayed on the profile page)
 
@@ -502,6 +519,9 @@ popover-custom-alias-explainer-explanation = Усе що вам потрібно
 popover-custom-alias-explainer-generate-button-heading = Створити власну псевдоадресу вручну
 popover-custom-alias-explainer-generate-button-label = Створити власну псевдоадресу
 popover-custom-alias-explainer-close-button-label = Закрити
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
+popover-custom-alias-explainer-promotional-block-tooltip = Увімкніть блокування промоційних електронних листів псевдоадресою, щоб маркетингові листи не надходили до вашої теки вхідних.
 
 ## Tip about using custom aliases
 
@@ -510,6 +530,8 @@ tips-custom-alias-content = Усе що вам потрібно зробити, 
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Блокувати промоційні листи
+tips-promo-email-blocking-content = За допомогою { -brand-name-relay-premium } ви можете блокувати надходження промоційних листів до вашої теки «Вхідні», при цьому дозволяючи вам отримувати електронні листи, як-от квитанції або інформацію про доставлення.
 
 ## Onboarding 
 
