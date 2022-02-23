@@ -286,6 +286,7 @@ faq-question-acceptable-use-answer-b-html = 若需更多資訊，請閱讀我們
 faq-question-promotional-email-blocking-question = 行銷郵件封鎖功能是什麼？
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 訂閱者可開啟行銷郵件封鎖功能。此功能將會把消費收據、密碼重設信、確認信件等重要信件轉寄給您，但會封鎖所有行銷郵件。還是有些微的可能誤擋到重要郵件，所以我們建議您不要對重要的服務（例如銀行）開啟此功能。若郵件遭到封鎖，將無法救回。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何偵測一封信是不是行銷郵件？
+faq-question-detect-promotional-answer = 許多郵件的標頭上會記載該郵件是使用自動化工具所產生的郵件清單所寄出。{ -brand-name-firefox-relay } 會偵測此標頭資料，並且加以阻擋封鎖。
 
 ## Profile Page (Logged In)
 
@@ -366,6 +367,7 @@ profile-promo-email-blocking-option-promotionals = 行銷郵件
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = 無
 profile-promo-email-blocking-description-all = { -brand-name-relay } 將封鎖所有寄到此別名信箱的郵件。
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 將嘗試封鎖行銷郵件，但仍然轉寄消費收據、訂單出貨通知等重要郵件給您。
 profile-promo-email-blocking-description-none = { -brand-name-relay } 不會封鎖任何寄到此別名信箱的郵件。
 profile-promo-email-blocking-label-promotionals = 封鎖行銷郵件
 profile-promo-email-blocking-label-none = 封鎖全部
@@ -484,6 +486,7 @@ popover-custom-alias-explainer-generate-button-label = 建立自訂別名
 popover-custom-alias-explainer-close-button-label = 關閉
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
+popover-custom-alias-explainer-promotional-block-tooltip = 對別名信箱開啟「封鎖行銷郵件功能」，即可不讓行銷郵件進入收件匣。
 
 ## Tip about using custom aliases
 
