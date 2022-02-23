@@ -314,6 +314,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Begränsa antalet alias 
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Läs våra <a href="{ $url }" { $attrs }>användarvillkor</a> för mer information.
+faq-question-promotional-email-blocking-question = Vad är e-postblockering för reklam?
+faq-question-promotional-email-blocking-answer = Prenumeranter på { -brand-name-relay-premium } kan aktivera e-postblockering. Den här funktionen vidarebefordrar viktiga e-postmeddelanden till dig, såsom kvitton, lösenordsåterställning och bekräftelser samtidigt som marknadsföringsmeddelanden blockeras. Det finns en liten risk att ett viktigt meddelande fortfarande kan blockeras, så vi rekommenderar att du inte använder den här funktionen för mycket viktiga platser som din bank. Om ett e-postmeddelande är blockerat kan det inte återställas.
+faq-question-detect-promotional-question = Hur upptäcker { -brand-name-relay } om ett e-postmeddelande är reklam eller inte?
+faq-question-detect-promotional-answer = Många e-postmeddelanden skickas med "header"-metadata för att indikera att de kommer från listbaserade automatiserade verktyg. { -brand-name-firefox-relay } upptäcker denna rubrikdata så att den kan blockera dessa e-postmeddelanden.
 
 ## Profile Page (Logged In)
 
@@ -383,6 +387,23 @@ profile-filter-category-option-relay-aliases-v2 = Slumpmässiga alias
 profile-filter-category-option-domain-based-aliases-v2 = Anpassade alias
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Endast kritiska alias
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = Vilka e-postmeddelanden vill du blockera?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Alla
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Reklam
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Inga
+profile-promo-email-blocking-description-all = { -brand-name-relay } blockerar alla e-postmeddelanden som skickas till detta alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } kommer att försöka blockera reklammeddelanden samtidigt som de vidarebefordrar e-postmeddelanden som kvitton och leveransinformation.
+profile-promo-email-blocking-description-none = { -brand-name-relay } blockerar inte några e-postmeddelanden för detta alias.
+profile-promo-email-blocking-label-promotionals = Blockera reklam
+profile-promo-email-blocking-label-none = Blockera alla
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Vidarebefordrar inte
 
 ## Banner Messages (displayed on the profile page)
 
@@ -498,11 +519,18 @@ popover-custom-alias-explainer-explanation = Allt du behöver göra är att skap
 popover-custom-alias-explainer-generate-button-heading = Skapa ett anpassat alias manuellt
 popover-custom-alias-explainer-generate-button-label = Skapa anpassade alias
 popover-custom-alias-explainer-close-button-label = Stäng
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Blockera reklammeddelanden
+popover-custom-alias-explainer-promotional-block-tooltip = Aktivera blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Skapa alias med din anpassade domän
 tips-custom-alias-content = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+
+## Tip about using custom aliases
+
+tips-promo-email-blocking-heading = Blockera reklammeddelanden
 
 ## Onboarding 
 
