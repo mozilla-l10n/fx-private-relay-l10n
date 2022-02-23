@@ -531,6 +531,7 @@ tips-custom-alias-content = Allt du behöver göra är att skapa och dela ett un
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = Blockera reklammeddelanden
+tips-promo-email-blocking-content = Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din inkorg samtidigt som du kan ta emot e-postmeddelanden som kvitton eller leveransinformation.
 
 ## Onboarding 
 
