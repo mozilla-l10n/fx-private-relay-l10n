@@ -398,6 +398,12 @@ profile-promo-email-blocking-option-promotionals = Werbung
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Keine
 profile-promo-email-blocking-description-all = { -brand-name-relay } blockiert alle E-Mails, die an diese Alias-E-Mail-Adresse gesendet werden.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } wird versuchen, Werbe-E-Mails zu blockieren, während E-Mails wie Quittungen und Versandinformationen nach wie vor weitergeleitet werden.
+profile-promo-email-blocking-description-none = { -brand-name-relay } blockiert keine E-Mails für diese Alias-E-Mail-Adresse.
+profile-promo-email-blocking-label-promotionals = Werbung blockieren
+profile-promo-email-blocking-label-none = Alles blockieren
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Nicht weiterleiten
 
 ## Banner Messages (displayed on the profile page)
 
@@ -513,6 +519,9 @@ popover-custom-alias-explainer-explanation = Sie müssen nur eine eindeutige Ali
 popover-custom-alias-explainer-generate-button-heading = Benutzerdefinierte Alias-E-Mail-Adresse manuell erstellen
 popover-custom-alias-explainer-generate-button-label = Benutzerdefinierte Alias-E-Mail-Adresse erzeugen
 popover-custom-alias-explainer-close-button-label = Schließen
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
+popover-custom-alias-explainer-promotional-block-tooltip = Aktivieren Sie bei einer Alias-E-Mail-Adresse die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
 
 ## Tip about using custom aliases
 
@@ -521,6 +530,8 @@ tips-custom-alias-content = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Werbe-E-Mails blockieren
+tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
 
 ## Onboarding 
 
