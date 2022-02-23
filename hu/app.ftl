@@ -394,6 +394,12 @@ profile-promo-email-blocking-option-promotionals = A promóciósakat
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Semelyiket
 profile-promo-email-blocking-description-all = A { -brand-name-relay } blokkol minden, az erre az álnévre küldött e-mailt.
+profile-promo-email-blocking-description-promotionals = A { -brand-name-relay } megpróbálja blokkolni a promóciós e-maileket, miközben továbbra is továbbítja az olyan e-maileket, amelyek nyugtákat és szállítási információkat tartalmaznak.
+profile-promo-email-blocking-description-none = A { -brand-name-relay } nem blokkol semmilyen e-mailt ennél az álnévnél.
+profile-promo-email-blocking-label-promotionals = Promóciók blokkolása
+profile-promo-email-blocking-label-none = Az összes blokkolása
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Nincs továbbítás
 
 ## Banner Messages (displayed on the profile page)
 
@@ -509,6 +515,9 @@ popover-custom-alias-explainer-explanation = Mindössze annyit kell tennie, hogy
 popover-custom-alias-explainer-generate-button-heading = Egyéni álnév kézi létrehozása
 popover-custom-alias-explainer-generate-button-label = Egyéni álnév előállítása
 popover-custom-alias-explainer-close-button-label = Bezárás
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Promóciós e-mailek letiltása
+popover-custom-alias-explainer-promotional-block-tooltip = Engedélyezze a Promóciós e-mailek letiltását egy álnéven, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
 
 ## Tip about using custom aliases
 
@@ -517,6 +526,8 @@ tips-custom-alias-content = Mindössze annyit kell tennie, hogy létrehoz és me
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Promóciós e-mailek blokkolása
+tips-promo-email-blocking-content = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is lehetővé teszi a nyugtákat vagy szállítási információkat tartalmazó e-mailek fogadását.
 
 ## Onboarding 
 
