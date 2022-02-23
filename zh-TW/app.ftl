@@ -496,6 +496,7 @@ tips-custom-alias-content = 您只要建立一組獨特而使用您自訂名稱�
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = 封鎖行銷郵件
+tips-promo-email-blocking-content = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 
 ## Onboarding 
 
