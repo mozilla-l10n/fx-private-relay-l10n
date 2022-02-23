@@ -314,6 +314,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Limitar o número de end
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Consulte mais informações em nossos <a href="{ $url }" { $attrs }>termos do serviço</a>.
+faq-question-promotional-email-blocking-question = O que é bloqueio de email promocional?
+faq-question-promotional-email-blocking-answer = Os assinantes do { -brand-name-relay-premium } podem ativar o bloqueio de email promocional. Este recurso encaminha para você emails importantes, como recibos, redefinição de senhas e confirmações, mas bloqueia mensagens de marketing. Há um pequeno risco de uma mensagem importante ser bloqueada, por isso recomendamos que você não use este recurso em coisas muito importantes, como seu banco. Se um email for bloqueado, não poderá ser recuperado.
+faq-question-detect-promotional-question = Como o { -brand-name-relay } detecta se um email é ou não promocional?
+faq-question-detect-promotional-answer = Muitos emails são enviados com metadados em “header” para indicar que são gerados por ferramentas automatizadas baseadas em listas. O { -brand-name-firefox-relay } detecta esses dados de cabeçalho para bloquear tais emails.
 
 ## Profile Page (Logged In)
 
@@ -383,6 +387,23 @@ profile-filter-category-option-relay-aliases-v2 = Endereços de redirecionamento
 profile-filter-category-option-domain-based-aliases-v2 = Endereços de redirecionamento personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Endereços de redirecionamento que só encaminham emails críticos
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = Quais emails você quer bloquear?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Todos
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promocionais
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Nenhum
+profile-promo-email-blocking-description-all = O { -brand-name-relay } está bloqueando todos os emails enviados para este endereço de redirecionamento.
+profile-promo-email-blocking-description-promotionals = O { -brand-name-relay } irá tentar bloquear emails promocionais, mas encaminhar emails como recibos e informações de frete.
+profile-promo-email-blocking-description-none = O { -brand-name-relay } não está bloqueando nenhum email enviado para este endereço de redirecionamento.
+profile-promo-email-blocking-label-promotionals = Bloquear promoções
+profile-promo-email-blocking-label-none = Bloquear tudo
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Não encaminhando
 
 ## Banner Messages (displayed on the profile page)
 
@@ -494,11 +515,18 @@ popover-custom-alias-explainer-explanation = Tudo o que você precisa fazer é i
 popover-custom-alias-explainer-generate-button-heading = Gerar um endereço de redirecionamento personalizado manualmente
 popover-custom-alias-explainer-generate-button-label = Gerar endereço de redirecionamento personalizado
 popover-custom-alias-explainer-close-button-label = Fechar
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Bloquear emails promocionais
+popover-custom-alias-explainer-promotional-block-tooltip = Ative o bloqueio de emails promocionais em um endereço de redirecionamento para impedir que emails de marketing cheguem à sua caixa de entrada.
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Como criar endereços de redirecionamento usando seu domínio personalizado
 tips-custom-alias-content = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
+
+## Tip about using custom aliases
+
+tips-promo-email-blocking-heading = Bloquear emails promocionais
 
 ## Onboarding 
 
