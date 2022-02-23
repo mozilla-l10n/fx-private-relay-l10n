@@ -397,6 +397,8 @@ profile-filter-category-option-relay-aliases-v2 = Random aliases
 profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Critical-only aliases
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Promo-blocking aliases
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 profile-promo-email-blocking-title = What emails do you want to block?
