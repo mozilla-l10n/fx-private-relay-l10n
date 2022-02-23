@@ -314,6 +314,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Alias-E-M
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bitte lesen Sie unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
+faq-question-promotional-email-blocking-question = Was bedeutet die Blockade von Werbe-E-Mails?
 
 ## Profile Page (Logged In)
 
@@ -383,6 +384,9 @@ profile-filter-category-option-relay-aliases-v2 = Zufällige Alias-E-Mail-Adress
 profile-filter-category-option-domain-based-aliases-v2 = Benutzerdefinierte Alias-E-Mail-Adressen
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, die nur wichtige E-Mails weiterleiten
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -503,6 +507,9 @@ popover-custom-alias-explainer-close-button-label = Schließen
 
 tips-custom-alias-heading = Erstellen von Alias-E-Mail-Adressen mit Ihrer benutzerdefinierten Domain
 tips-custom-alias-content = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
