@@ -306,6 +306,16 @@ faq-question-8-question = Quelles données { -brand-name-firefox-relay } collect
 faq-question-8-answer-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
 faq-question-email-storage-question = { -brand-name-relay } conserve-t-il mes e-mails ?
 faq-question-email-storage-answer = Dans les rares cas où le service est en panne, nous pouvons stocker temporairement vos e-mails jusqu’à ce que nous soyons en mesure de les envoyer. Nous ne conserverons jamais vos e-mails plus de trois jours.
+faq-question-acceptable-use-question = Quelles sont les utilisations acceptables de { -brand-name-relay } ?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } a les mêmes <a href="{ $url }" { $attrs }>conditions d’utilisation que tous les autres produits de { -brand-name-mozilla }</a>. Nous avons une politique de tolérance zéro s’il advient un usage de { -brand-name-relay } à des fins malveillantes, comme le spam, qui entraîne la résiliation du compte de l’utilisateur ou l’utilisatrice. Nous prenons des mesures afin d’empêcher les utilisateurs et utilisatrices de violer nos conditions en :
+faq-question-acceptable-use-answer-measure-account = exigeant un { -brand-name-firefox-account } avec une adresse e-mail vérifiée
+faq-question-acceptable-use-answer-measure-unlimited-payment = exigeant un paiement pour qu’un utilisateur ou une utilisatrice puisse créer plus de cinq alias
+faq-question-acceptable-use-answer-measure-rate-limit = limitant le nombre d’alias qui peuvent être générés en une journée
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Veuillez consulter nos <a href="{ $url }" { $attrs }>conditions d’utilisation</a> pour plus d’informations.
 
 ## Profile Page (Logged In)
 
@@ -375,6 +385,11 @@ profile-filter-category-option-relay-aliases-v2 = Alias aléatoires
 profile-filter-category-option-domain-based-aliases-v2 = Alias personnalisés
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias critiques uniquement
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-label-none = Tout bloquer
+profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
 
 ## Banner Messages (displayed on the profile page)
 
@@ -491,6 +506,9 @@ popover-custom-alias-explainer-close-button-label = Fermer
 
 tips-custom-alias-heading = Créer des alias en utilisant votre nom de domaine
 tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
