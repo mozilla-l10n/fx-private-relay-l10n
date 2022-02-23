@@ -384,6 +384,17 @@ profile-filter-category-option-domain-based-aliases-v2 = Egyéni álnevek
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = „Csak kritikus” álnevek
 
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = Milyen e-maileket szeretne letiltani?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Az összeset
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = A promóciósakat
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Semelyiket
+profile-promo-email-blocking-description-all = A { -brand-name-relay } blokkol minden, az erre az álnévre küldött e-mailt.
+
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
@@ -503,6 +514,9 @@ popover-custom-alias-explainer-close-button-label = Bezárás
 
 tips-custom-alias-heading = Álnevek létrehozása az egyéni domainje használatával
 tips-custom-alias-content = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
