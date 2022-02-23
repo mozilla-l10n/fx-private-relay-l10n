@@ -314,6 +314,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Cyfyngu ar gyfraddau'r n
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Darllenwch ein <a href="{ $url }" { $attrs }>Telerau Gwasanaeth</a> am ragor o wybodaeth.
+faq-question-promotional-email-blocking-question = Beth yw rhwystro e-byst hyrwyddo?
 
 ## Profile Page (Logged In)
 
@@ -383,6 +384,9 @@ profile-filter-category-option-relay-aliases-v2 = Arallenwau ar hap
 profile-filter-category-option-domain-based-aliases-v2 = Arallenwau personol
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Arallenwau critigol yn unig
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -503,6 +507,9 @@ popover-custom-alias-explainer-close-button-label = Cau
 
 tips-custom-alias-heading = Creu arallenwau gan ddefnyddio'ch parth cyfaddas
 tips-custom-alias-content = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
