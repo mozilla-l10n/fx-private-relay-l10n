@@ -315,7 +315,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Cyfyngu ar gyfraddau'r n
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Darllenwch ein <a href="{ $url }" { $attrs }>Telerau Gwasanaeth</a> am ragor o wybodaeth.
 faq-question-promotional-email-blocking-question = Beth yw rhwystro e-byst hyrwyddo?
-faq-question-promotional-email-blocking-answer = Gall tanysgrifwyr { -brand-name-relay-premium } alluogi rhwystro e-byst hyrwyddol. Bydd y nodwedd hon yn anfon e-byst pwysig atoch, fel derbynebau, ailosod cyfrinair a chadarnhad tra'n dal i rwystro negeseuon marchnata. Mae yna ychydig o risg y gallai neges bwysig gael ei rhwystro o hyd, felly rydyn ni'n argymell nad ydych chi'n defnyddio'r nodwedd hon ar gyfer llefydd pwysig iawn fel eich banc. Os yw e-bost yn cael ei rwystro, nid oes modd ei adennill.
+faq-question-promotional-email-blocking-answer = Gall tanysgrifwyr { -brand-name-relay-premium } alluogi rhwystro e-byst hyrwyddol. Bydd y nodwedd hon yn anfon e-byst pwysig atoch, fel derbynebau, ailosod cyfrineiriau a chadarnhad tra'n dal i rwystro negeseuon marchnata. Mae yna ychydig o risg y gall negeseuon pwysig gael eu rhwystro o hyd, felly rydyn yn argymell nad ydych yn defnyddio'r nodwedd hon ar gyfer llefydd pwysig iawn fel eich banc. Os yw e-bost yn cael ei rwystro, nid oes modd ei adennill.
 faq-question-detect-promotional-question = Sut mae { -brand-name-relay } yn canfod a yw e-bost yn Hyrwyddol ai peidio?
 faq-question-detect-promotional-answer = Mae llawer o e-byst yn cael eu hanfon gyda “phennyn” metadata i nodi eu bod yn dod o offer awtomataidd ar sail rhestr. Mae { -brand-name-firefox-relay } yn canfod y data pennyn hwn er mwyn rhwystro'r e-byst hyn.
 
@@ -401,6 +401,9 @@ profile-promo-email-blocking-description-all = Mae { -brand-name-relay } yn rhwy
 profile-promo-email-blocking-description-promotionals = Bydd { -brand-name-relay } yn ceisio rhwystro e-byst hyrwyddo tra'n parhau i anfon e-byst ymlaen megis derbynebau a manylion cludo.
 profile-promo-email-blocking-description-none = Nid yw { -brand-name-relay } yn rhwystro unrhyw e-byst ar gyfer yr arallenw hwn.
 profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
+profile-promo-email-blocking-label-none = Rhwystro'r cyfan
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Ddim yn anfon ymlaen
 
 ## Banner Messages (displayed on the profile page)
 
@@ -516,6 +519,9 @@ popover-custom-alias-explainer-explanation = Y cyfan sy'n rhaid i chi ei wneud y
 popover-custom-alias-explainer-generate-button-heading = Crëwch arallenw cyfaddas â llaw
 popover-custom-alias-explainer-generate-button-label = Cynhyrchu arallenw cyfaddas
 popover-custom-alias-explainer-close-button-label = Cau
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Rhwystro e-byst hyrwyddo
+popover-custom-alias-explainer-promotional-block-tooltip = Galluogi Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
 
 ## Tip about using custom aliases
 
@@ -524,6 +530,8 @@ tips-custom-alias-content = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu a
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Rhwystro E-byst Hyrwyddo
+tips-promo-email-blocking-content = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 
 ## Onboarding 
 
