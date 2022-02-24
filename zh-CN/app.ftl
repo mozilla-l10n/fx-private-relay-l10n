@@ -279,6 +279,10 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择向我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
+faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 
 ## Profile Page (Logged In)
 
@@ -351,10 +355,19 @@ profile-filter-category-option-critical-only-aliases = 只转发重要邮件的�
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = 您想要屏蔽哪些类型的邮件？
 # Block all emails sent to a speciic alias
 profile-promo-email-blocking-option-all = 全部
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = 营销邮件
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = 无
+profile-promo-email-blocking-description-all = { -brand-name-relay } 将屏蔽所有发送至此马甲邮箱的邮件。
+profile-promo-email-blocking-description-none = { -brand-name-relay } 不会屏蔽任何发送至此马甲邮箱的邮件。
+profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
+profile-promo-email-blocking-label-none = 屏蔽全部
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = 不转发
 
 ## Banner Messages (displayed on the profile page)
 
@@ -466,6 +479,8 @@ popover-custom-alias-explainer-explanation = 您只需要创建一个独特的�
 popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
 popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
 popover-custom-alias-explainer-close-button-label = 关闭
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 
 ## Tip about using custom aliases
 
@@ -474,6 +489,7 @@ tips-custom-alias-content = 您只需要创建一个独特的马甲——别名�
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = 屏蔽营销邮件
 
 ## Onboarding 
 
