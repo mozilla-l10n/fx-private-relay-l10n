@@ -90,14 +90,14 @@ whatsnew-feature-sign-back-in-heading = Sign back in with your aliases
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = To create a new alias when you’re asked for your email, open...
+whatsnew-feature-sign-back-in-snippet = To create a new alias when you’re asked for your email, open…
 whatsnew-feature-sign-back-in-description = To sign in with a previously-used alias, open the context menu where the site asks for your email. You’ll be able to select the alias and auto-fill the email field.
 
 whatsnew-feature-forward-some-heading = Promotional email blocking
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails...
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } allows you to block only promotional emails sent to an alias. You’ll receive emails like receipts but not marketing emails.
 
 ## Bento Menu
