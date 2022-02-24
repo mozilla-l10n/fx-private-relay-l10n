@@ -388,6 +388,9 @@ profile-filter-category-option-critical-only-aliases = Alias critiques uniquemen
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Quels e-mails voulez-vous bloquer ?
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Aucun
 profile-promo-email-blocking-label-none = Tout bloquer
 profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
 
