@@ -69,7 +69,11 @@ logo-github-alt = GitHub logo
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = News
-whatsnew-counter-label = { $count } new announcements.
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 new announcement.
+        *[other] { $count } new announcements.
+    }
 whatsnew-close-label = Close
 whatsnew-tab-new-label = News
 whatsnew-tab-archive-label = History
