@@ -349,6 +349,13 @@ profile-filter-category-option-domain-based-aliases-v2 = 自定义马甲
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = 只转发重要邮件的马甲
 
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = 全部
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = 无
+
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
@@ -464,6 +471,9 @@ popover-custom-alias-explainer-close-button-label = 关闭
 
 tips-custom-alias-heading = 使用自定义域名创建马甲
 tips-custom-alias-content = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
