@@ -240,7 +240,7 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = 若您遇到这些问题，请<a href="{ $url }" { $attrs }>访问我们的用户支持网站</a>。
 faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
-faq-question-use-cases-answer-part1 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们非常建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
+faq-question-use-cases-answer-part1 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们强烈建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
 faq-question-use-cases-answer-part2 = 我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好在与银行、医生、律师沟通，或接收音乐会或航班信息时，提供您的真实邮箱地址。
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Variables:
@@ -279,6 +279,8 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择向我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
+faq-question-acceptable-use-answer-measure-unlimited-payment = 要求用户付费才可创建五个以上马甲
+faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成的马甲数量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
