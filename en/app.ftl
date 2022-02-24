@@ -66,6 +66,40 @@ nav-footer-release-notes = Release Notes
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logo
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = News
+whatsnew-counter-label = { $count } new announcements.
+whatsnew-close-label = Close
+whatsnew-tab-new-label = News
+whatsnew-tab-archive-label = History
+whatsnew-footer-clear-all-label = Clear all
+whatsnew-footer-back-label = Back
+whatsnew-footer-learn-more-label = Learn more
+
+whatsnew-empty-message = Be sure to check back here—we’re always working on great new features to make { -brand-name-relay } even better.
+
+whatsnew-feature-size-limit-heading = Attachment size increase
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } can now forward emails up to 25MB, including…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } can now forward emails up to 25MB, including attachments.
+
+whatsnew-feature-sign-back-in-heading = Sign back in with your aliases
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = To create a new alias when you’re asked for your email, open...
+whatsnew-feature-sign-back-in-description = To sign in with a previously-used alias, open the context menu where the site asks for your email. You’ll be able to select the alias and auto-fill the email field.
+
+whatsnew-feature-forward-some-heading = Promotional email blocking
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails...
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } allows you to block only promotional emails sent to an alias. You’ll receive emails like receipts but not marketing emails.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } apps and services
