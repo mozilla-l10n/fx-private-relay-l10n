@@ -279,6 +279,8 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择向我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
+faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
+faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account }使用验证过的电子邮件地址
 faq-question-acceptable-use-answer-measure-unlimited-payment = 要求用户付费才可创建五个以上马甲
 faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成的马甲数量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
