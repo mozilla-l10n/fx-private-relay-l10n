@@ -77,7 +77,7 @@ whatsnew-footer-clear-all-label = Clear all
 whatsnew-footer-back-label = Back
 whatsnew-footer-learn-more-label = Learn more
 
-whatsnew-empty-message = Be sure to check back here—we’re always working on great new features to make { -brand-name-relay } even better.
+whatsnew-empty-message = Be sure to check back here — we’re always working on great new features to make { -brand-name-relay } even better.
 
 whatsnew-feature-size-limit-heading = Attachment size increase
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
