@@ -363,6 +363,7 @@ profile-promo-email-blocking-option-promotionals = 营销邮件
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = 无
 profile-promo-email-blocking-description-all = { -brand-name-relay } 将屏蔽所有发送至此马甲邮箱的邮件。
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 将尝试屏蔽营销邮件，但仍会转发消费收据、物流信息等重要邮件。
 profile-promo-email-blocking-description-none = { -brand-name-relay } 不会屏蔽任何发送至此马甲邮箱的邮件。
 profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
 profile-promo-email-blocking-label-none = 屏蔽全部
