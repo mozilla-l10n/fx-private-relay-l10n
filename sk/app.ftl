@@ -353,6 +353,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Obmedzuje sa počet alia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Ďalšie informácie nájdete v našich <a href="{ $url }" { $attrs }>Podmienkach používania služby</a>.
+faq-question-promotional-email-blocking-question = Čo je blokovanie marketingových e-mailov?
+faq-question-promotional-email-blocking-answer = Predplatitelia { -brand-name-relay-premium } môžu povoliť blokovanie propagačných e-mailov. Táto funkcia vám prepošle dôležité e-maily, ako sú potvrdenia o prečítaní, obnovenia hesla a iné potvrdenia, pričom bude stále blokovať marketingové správy. Existuje mierne riziko, že dôležitá správa môže byť stále zablokovaná, preto vám odporúčame, aby ste túto funkciu nepoužívali na veľmi dôležitých miestach, ako je vaša banka. Ak je e-mail zablokovaný, nie je možné ho obnoviť.
+faq-question-detect-promotional-question = Ako { -brand-name-relay } zistí, či je e-mail marketingový alebo nie?
+faq-question-detect-promotional-answer = Mnoho e-mailov sa odosiela s metadátami v hlavičke, ktoré indikujú, že e-mail pochádza z automatizovaných nástrojov založených na zoznamoch adries. { -brand-name-firefox-relay } rozpoznáva tieto údaje hlavičky, aby mohol tieto e-maily zablokovať.
 
 ## Profile Page (Logged In)
 
@@ -422,6 +426,23 @@ profile-filter-category-option-relay-aliases-v2 = Náhodné aliasy
 profile-filter-category-option-domain-based-aliases-v2 = Vlastné aliasy
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Aliasy preposielajúce iba kritické správy
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = Aké e-maily chcete blokovať?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Všetky
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Marketingové
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Žiadne
+profile-promo-email-blocking-description-all = { -brand-name-relay } blokuje všetky e-maily odoslané na tento alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } sa pokúsi zablokovať marketingové e-maily a zároveň preposielať e-maily, ako sú potvrdenia o prečítaní a informácie o dodaní vašich objednávok.
+profile-promo-email-blocking-description-none = { -brand-name-relay } neblokuje žiadne e-maily odoslané na tento alias.
+profile-promo-email-blocking-label-promotionals = Blokovať marketingové
+profile-promo-email-blocking-label-none = Blokovať všetky
+profile-promo-email-blocking-label-forwarding = Preposiela sa
+profile-promo-email-blocking-label-not-forwarding = Nepreposiela sa
 
 ## Banner Messages (displayed on the profile page)
 
@@ -540,6 +561,9 @@ popover-custom-alias-explainer-close-button-label = Zavrieť
 
 tips-custom-alias-heading = Vytváranie aliasov pomocou vlastnej domény
 tips-custom-alias-content = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
