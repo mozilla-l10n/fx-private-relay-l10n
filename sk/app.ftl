@@ -556,6 +556,9 @@ popover-custom-alias-explainer-explanation = Všetko, čo musíte urobiť, je vy
 popover-custom-alias-explainer-generate-button-heading = Manuálne vytvorenie vlastného aliasu
 popover-custom-alias-explainer-generate-button-label = Vytvoriť vlastný alias
 popover-custom-alias-explainer-close-button-label = Zavrieť
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Blokovať marketingové e-maily
+popover-custom-alias-explainer-promotional-block-tooltip = Povoľte možnosť Blokovať marketingové e-maily na aliase, aby ste zabránili tomu, aby sa marketingové e-maily dostávali do vašej doručenej pošty.
 
 ## Tip about using custom aliases
 
@@ -564,6 +567,8 @@ tips-custom-alias-content = Všetko, čo musíte urobiť, je vytvoriť a zdieľa
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Blokovať marketingové e-maily
+tips-promo-email-blocking-content = So službou { -brand-name-relay-premium } môžete blokovať doručenie marketingových e-mailov do vašej doručenej pošty, a zároveň prijímať e-maily, ako sú potvrdenia o prečítaní či informácie o dodaní vašich objednávok.
 
 ## Onboarding 
 
