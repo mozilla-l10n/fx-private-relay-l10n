@@ -286,6 +286,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
+faq-question-promotional-email-blocking-question = 营销邮件屏蔽是啥东东？
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 
 ## Profile Page (Logged In)
@@ -486,6 +487,7 @@ popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
 popover-custom-alias-explainer-close-button-label = 关闭
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
+popover-custom-alias-explainer-promotional-block-tooltip = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
 
 ## Tip about using custom aliases
 
