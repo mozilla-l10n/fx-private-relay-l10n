@@ -86,6 +86,12 @@ whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 # length as the English version.
 whatsnew-feature-size-limit-snippet = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含…
 whatsnew-feature-size-limit-description = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含附件）
+whatsnew-feature-sign-back-in-heading = 使用您的別名信箱登入網站
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = 當網站要求您輸入信箱時，請開啟…
+whatsnew-feature-sign-back-in-description = 要使用先前建立的別名信箱登入網站，請在網站的信箱輸入框當中點擊右鍵選單，然後就可以選擇別名信箱並且自動填入。
 
 ## Bento Menu
 
@@ -166,11 +172,11 @@ landing-use-cases-shopping = 線上購物
 landing-use-cases-shopping-body = 要在新的網路商店買東西？請用 { -brand-name-relay } 而不要使用實際的電子郵件信箱來登記信箱。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
 landing-use-cases-social-networks = 社群網路
 landing-use-cases-social-networks-body = 使用社群網路時，想要加強保護您的線上身分嗎？試著不讓您的實際信箱與社群媒體帳號被結合起來避免肉搜嗎？使用 { -brand-name-relay } 的別名信箱來登入，並且保護您的線上身分。
-landing-use-cases-offline = 線下環境
+landing-use-cases-offline = 店家購物
 landing-use-cases-offline-body = 想收到電子發票或收據，但不想收到廣告信嗎？請使用 { -brand-name-relay } 別名信箱，而不使用實際的信箱來收取店家的無紙化收據。我們會將收據轉寄到您的實際信箱，開始收到不喜歡的垃圾信時，只要關閉轉寄功能就好。
 landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-access-content-body = 想要註冊某份電子報，但不確定寄件者可不可靠？請使用別名信箱訂閱。當您開始透過該別名信箱收到不想要的郵件時，就代表寄件者可能把您的信箱賣給其他廣告商，或是名單已遭外流。只要關閉或刪除別名，即可保護您的收件匣。
-landing-use-cases-gaming = 遊戲
+landing-use-cases-gaming = 玩遊戲
 landing-use-cases-gaming-body = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用 { -brand-name-relay } 別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 
 ## Landing FAQ Section
@@ -201,7 +207,7 @@ premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body = 想要收到折價券，但不想要收到垃圾信嗎？在不同的購物網站都使用獨立的自訂別名，例如「mydeals@mydomain.mozmail.com」。
 premium-promo-use-cases-social-networks-heading = 社群網路
 premium-promo-use-cases-social-networks-body = 想要在使用社群網路時更加保護您的線上身分嗎？改用 { -brand-name-relay } 別名信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
-premium-promo-use-cases-gaming-heading = 遊戲
+premium-promo-use-cases-gaming-heading = 玩遊戲
 premium-promo-use-cases-gaming-body = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 premium-promo-pricing-free-price = 您目前的免費方案
 
