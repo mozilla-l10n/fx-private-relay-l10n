@@ -80,6 +80,7 @@ whatsnew-tab-archive-label = 歷史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 了解更多
+whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 
 ## Bento Menu
 
