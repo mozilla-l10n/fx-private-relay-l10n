@@ -93,6 +93,13 @@ whatsnew-feature-sign-back-in-heading = Melden Sie sich mit Ihren Alias-E-Mail-A
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = Um eine neue Alias-Adresse zu erstellen, wenn Sie nach Ihrer E-Mail-Adresse gefragt werden, öffnen Sie …
+whatsnew-feature-sign-back-in-description = Um sich mit einer zuvor verwendeten Alias-E-Mail-Adresse anzumelden, öffnen Sie das Kontextmenü, in dem die Website nach Ihrer E-Mail-Adresse fragt. Sie können die Alias-Adresse auswählen und das E-Mail-Adressfeld automatisch ausfüllen.
+whatsnew-feature-forward-some-heading = Blockieren von Werbe-E-Mails
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ermöglicht es Ihnen, nur Werbe-E-Mails zu blockieren…
+whatsnew-feature-forward-some-description = Mit { -brand-name-relay-premium } können Sie nur Werbe-E-Mails blockieren, die an eine Alias-E-Mail-Adresse gesendet werden. Sie erhalten E-Mails wie Quittungen, aber keine Marketing-E-Mails.
 
 ## Bento Menu
 
@@ -298,6 +305,7 @@ faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von 
 faq-question-2-answer-v3-html =
     Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain enthält (@subdomain.mozmail.com) und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
     Wenn Sie keine Alias-E-Mail-Adresse von { -brand-name-relay } verwenden können, <a href="{ $url }" { $attrs }>teilen Sie uns dies bitte mit</a>.
+faq-question-2-answer-v4 = Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain (@subdomain.mozmail.com) enthält, und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
 faq-question-1-question = Was ist mit Spam?
 faq-question-1-answer-a = { -brand-name-relay } filtert keinen Spam, aber unser E-Mail-Partner Amazon SES blockiert Spam und Schadsoftware. Wenn { -brand-name-relay } unerwünschte Nachrichten weiterleitet, können Sie Ihre { -brand-name-relay }-Einstellungen ändern, um Nachrichten zu blockieren, die von der Alias-E-Mail-Adresse weitergeleitet werden.
 # Variables:
@@ -415,6 +423,8 @@ profile-filter-category-option-relay-aliases-v2 = Zufällige Alias-E-Mail-Adress
 profile-filter-category-option-domain-based-aliases-v2 = Benutzerdefinierte Alias-E-Mail-Adressen
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, die nur wichtige E-Mails weiterleiten
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Werbung-blockierende Alias-Adressen
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
