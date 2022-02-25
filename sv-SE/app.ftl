@@ -67,6 +67,27 @@ nav-footer-release-notes = Versionsfakta
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logotyp
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Nyheter
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nytt meddelande.
+       *[other] { $count } nya meddelanden.
+    }
+whatsnew-close-label = Stäng
+whatsnew-tab-new-label = Nyheter
+whatsnew-tab-archive-label = Historik
+whatsnew-footer-clear-all-label = Rensa allt
+whatsnew-footer-back-label = Tillbaka
+whatsnew-footer-learn-more-label = Läs mer
+whatsnew-feature-forward-some-heading = Blockering av reklammeddelanden
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } låter dig blockera endast reklammeddelanden...
+whatsnew-feature-forward-some-description = Med { -brand-name-relay-premium } kan du endast blockera reklammeddelanden som skickas till ett alias. Du kommer att få e-postmeddelanden som kvitton men inte marknadsföringsmeddelanden.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } appar och tjänster
@@ -267,6 +288,7 @@ faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-nam
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (@subdomain.mozmail.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton.
     Om du inte kan använda ett { -brand-name-relay }-alias <a href="{ $url }" { $attrs }>meddela oss</a>.
