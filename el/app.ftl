@@ -107,6 +107,10 @@ whatsnew-footer-clear-all-label = Απαλοιφή όλων
 whatsnew-footer-back-label = Πίσω
 whatsnew-footer-learn-more-label = Μάθετε περισσότερα
 whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμένων
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως 25MB, μαζί με…
 whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
 whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών email
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
