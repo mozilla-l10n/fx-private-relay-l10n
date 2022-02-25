@@ -67,6 +67,33 @@ nav-footer-release-notes = Versionshinweise
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-Logo
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Neuigkeiten
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 neue Ankündigung.
+       *[other] { $count } neue Ankündigungen.
+    }
+whatsnew-close-label = Schließen
+whatsnew-tab-new-label = Neuigkeiten
+whatsnew-tab-archive-label = Chronik
+whatsnew-footer-clear-all-label = Alle löschen
+whatsnew-footer-back-label = Zurück
+whatsnew-footer-learn-more-label = Weitere Informationen
+whatsnew-empty-message = Schauen Sie hier immer wieder vorbei – wir arbeiten ständig an tollen neuen Funktionen, um { -brand-name-relay } noch besser zu machen.
+whatsnew-feature-size-limit-heading = Vergrößerung der Anhänge
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu 25 MB weiterleiten, einschließlich…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu einer Größe von 25 MB weiterleiten, einschließlich Anhänge.
+whatsnew-feature-sign-back-in-heading = Melden Sie sich mit Ihren Alias-E-Mail-Adressen wieder an
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Um eine neue Alias-Adresse zu erstellen, wenn Sie nach Ihrer E-Mail-Adresse gefragt werden, öffnen Sie …
+
 ## Bento Menu
 
 bento-button-title = Apps und Dienste von { -brand-name-firefox }
@@ -267,6 +294,7 @@ faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von 
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain enthält (@subdomain.mozmail.com) und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
     Wenn Sie keine Alias-E-Mail-Adresse von { -brand-name-relay } verwenden können, <a href="{ $url }" { $attrs }>teilen Sie uns dies bitte mit</a>.
