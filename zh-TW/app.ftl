@@ -67,6 +67,20 @@ nav-footer-release-notes = 新鮮事
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub 圖示
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = 新聞
+whatsnew-counter-label =
+    { $count ->
+       *[other] { $count } 則新公告。
+    }
+whatsnew-close-label = 關閉
+whatsnew-tab-new-label = 新聞
+whatsnew-tab-archive-label = 歷史
+whatsnew-footer-clear-all-label = 全部清除
+whatsnew-footer-back-label = 返回
+whatsnew-footer-learn-more-label = 了解更多
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } 應用程式與服務
@@ -240,6 +254,7 @@ faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } �
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html = 有些網站可能不接受使用子網域（也就是 @subdomain.mozmail.com 當中的「subdomain.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。若您無法使用 { -brand-name-relay } 別名， <a href="{ $url }" { $attrs }>請讓我們知道</a>。
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
