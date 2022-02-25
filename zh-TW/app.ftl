@@ -80,6 +80,7 @@ whatsnew-tab-archive-label = 歷史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 了解更多
+whatsnew-empty-message = 請三不五時回來這邊看看 — 我們會持續開發新功能，讓 { -brand-name-relay } 變得更好。
 whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -274,6 +275,7 @@ faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } �
 #   $attrs (string) - specific attributes added to external links
 # Deprecated
 faq-question-2-answer-v3-html = 有些網站可能不接受使用子網域（也就是 @subdomain.mozmail.com 當中的「subdomain.」部分） ；有些業者則是已經不再接受 Gmail、Hotmail、Yahoo 以外的帳號註冊。若您無法使用 { -brand-name-relay } 別名， <a href="{ $url }" { $attrs }>請讓我們知道</a>。
+faq-question-2-answer-v4 = 某些網站可能不接受使用子網域（@subdomain.mozmail.com）的電子郵件信箱，也有一些已經拒絕接收來自 Gmail、Hotmail 或 Yahoo 等大型業者以外的帳號。
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
 # Variables:
@@ -389,6 +391,8 @@ profile-filter-category-option-relay-aliases-v2 = 隨機別名
 profile-filter-category-option-domain-based-aliases-v2 = 自訂別名
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = 只轉重要郵件的別名
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = 可封鎖行銷信件的別名信箱
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
