@@ -74,6 +74,10 @@ whatsnew-close-label = Clauder
 whatsnew-tab-new-label = Novas
 whatsnew-tab-archive-label = Chronologia
 whatsnew-footer-clear-all-label = Clarar toto
+whatsnew-footer-back-label = Retro
+whatsnew-footer-learn-more-label = Pro saper plus
+whatsnew-feature-size-limit-heading = Accrescer le dimension del annexo
+whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
 
 ## Bento Menu
 
