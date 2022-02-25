@@ -423,6 +423,8 @@ profile-filter-category-option-relay-aliases-v2 = Slumpmässiga alias
 profile-filter-category-option-domain-based-aliases-v2 = Anpassade alias
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Endast kritiska alias
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Alias som blockerar marknadsföring
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
