@@ -81,6 +81,11 @@ whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 了解更多
 whatsnew-feature-size-limit-heading = 接受的附件大小增加了
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含…
+whatsnew-feature-size-limit-description = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含附件）
 
 ## Bento Menu
 
