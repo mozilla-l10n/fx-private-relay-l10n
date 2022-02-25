@@ -92,6 +92,10 @@ nav-footer-release-notes = Σημειώσεις έκδοσης
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Λογότυπο GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Ειδήσεις
+
 ## Bento Menu
 
 bento-button-title = Εφαρμογές και υπηρεσίες { -brand-name-firefox }
@@ -272,6 +276,7 @@ faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν α
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Μερικοί ιστότοποι ενδέχεται να μην δέχονται διευθύνσεις email που περιέχουν υποτομέα (@υποτομέας.mozmail.com) και άλλοι έχουν σταματήσει να δέχονται διευθύνσεις, εκτός από αυτές των Gmail, Hotmail και Yahoo.
     Αν δεν μπορείτε να χρησιμοποιήσετε ένα ψευδώνυμο { -brand-name-relay }, <a href="{ $url }" { $attrs }>ενημερώστε μας</a>.
@@ -371,6 +376,9 @@ profile-filter-category-option-domain-based-aliases-v2 = Προσαρμοσμέ�
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Ψευδώνυμα υψηλής σημασίας
 
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
@@ -461,6 +469,9 @@ modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδων�
 
 popover-custom-alias-explainer-heading = Τρόπος δημιουργίας προσαρμοσμένων ψευδωνύμων
 popover-custom-alias-explainer-close-button-label = Κλείσιμο
+
+## Tip about using custom aliases
+
 
 ## Tip about using custom aliases
 
