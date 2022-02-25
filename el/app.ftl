@@ -106,6 +106,13 @@ whatsnew-tab-archive-label = Ιστορικό
 whatsnew-footer-clear-all-label = Απαλοιφή όλων
 whatsnew-footer-back-label = Πίσω
 whatsnew-footer-learn-more-label = Μάθετε περισσότερα
+whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμένων
+whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
+whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών email
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = Το { -brand-name-relay-premium } επιτρέπει τη φραγή διαφημιστικών email…
 
 ## Bento Menu
 
@@ -192,7 +199,7 @@ landing-pricing-premium-feature-1 = Απεριόριστα ψευδώνυμα em
 landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
-landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-3-subheader = toemailsas@otomeassas.mozmail.com
 landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
 
 ## Use Cases
@@ -389,6 +396,8 @@ profile-filter-category-option-critical-only-aliases = Ψευδώνυμα υψη
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
+profile-promo-email-blocking-label-none = Φραγή όλων
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
@@ -411,6 +420,7 @@ banner-register-subdomain-headline-aliases = Απόκτηση προσαρμοσ
 # translated consistently across other strings.
 banner-register-subdomain-example-address = otomeassas
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
+banner-choose-subdomain-input-placeholder-2 = Αναζητήστε τον νέο σας τομέα
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Αναζήτηση
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
@@ -487,6 +497,8 @@ popover-custom-alias-explainer-close-button-label = Κλείσιμο
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Φραγή διαφημιστικών email
+tips-promo-email-blocking-content = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ επιτρέπεται ακόμα η λήψη email, όπως αποδείξεις ή στοιχεία αποστολής.
 
 ## Onboarding 
 
@@ -504,6 +516,7 @@ onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-na
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
 onboarding-premium-control-description = Μοιραστείτε απεριόριστα ψευδώνυμα email που προωθούν τα email που πραγματικά θέλετε στα εισερχόμενά σας.
 onboarding-premium-domain-title = Χρησιμοποιήστε έναν προσαρμοσμένο τομέα για κοινή χρήση ψευδωνύμων
+onboarding-premium-domain-title-2 = Χρησιμοποιήστε έναν προσαρμοσμένο τομέα για κοινή χρήση ψευδωνύμων:
 onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 onboarding-premium-reply-description = Θέλετε να απαντήσετε σε email που απεστάλησαν σε ένα ψευδώνυμο; Απαντήστε κανονικά — το ψευδώνυμό σας θα προστατεύσει τη διεύθυνση email.
