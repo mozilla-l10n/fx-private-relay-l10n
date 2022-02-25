@@ -81,6 +81,19 @@ whatsnew-tab-archive-label = Historik
 whatsnew-footer-clear-all-label = Rensa allt
 whatsnew-footer-back-label = Tillbaka
 whatsnew-footer-learn-more-label = Läs mer
+whatsnew-empty-message = Kom gärna tillbaka hit – vi arbetar ständigt med nya fantastiska funktioner för att göra { -brand-name-relay } ännu bättre.
+whatsnew-feature-size-limit-heading = Ökning av bilagans storlek
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive...
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive bilagor.
+whatsnew-feature-sign-back-in-heading = Logga in igen med dina alias
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = För att skapa ett nytt alias när du blir ombedd att ange din e-post, öppna...
+whatsnew-feature-sign-back-in-description = För att logga in med ett tidigare använt alias, öppna snabbmenyn där webbplatsen ber om din e-post. Du kommer att kunna välja alias och fylla i e-postfältet automatiskt.
 whatsnew-feature-forward-some-heading = Blockering av reklammeddelanden
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -292,6 +305,7 @@ faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-nam
 faq-question-2-answer-v3-html =
     Vissa webbplatser accepterar kanske inte en e-postadress som innehåller en underdomän (@subdomain.mozmail.com) och andra har slutat acceptera alla adresser utom de från Gmail-, Hotmail- eller Yahoo-konton.
     Om du inte kan använda ett { -brand-name-relay }-alias <a href="{ $url }" { $attrs }>meddela oss</a>.
+faq-question-2-answer-v4 = Vissa webbplatser kanske inte accepterar en e-postadress som innehåller en underdomän (@subdomain.mozmail.com) och andra har slutat acceptera alla adresser förutom de från Gmail-, Hotmail- eller Yahoo-konton.
 faq-question-1-question = Hur är det med spam?
 faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
 # Variables:
