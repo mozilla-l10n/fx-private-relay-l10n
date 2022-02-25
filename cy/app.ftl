@@ -97,6 +97,13 @@ whatsnew-feature-sign-back-in-heading = Mewngofnodwch eto gyda'ch arallenwau
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = I greu arallenw newydd pan fydd gofyn am eich e-bost, agorwch…
+whatsnew-feature-sign-back-in-description = I fewngofnodi ag arallenw a ddefnyddiwyd yn flaenorol, agorwch y ddewislen cyd-destun lle mae'r wefan yn gofyn am eich e-bost. Byddwch yn gallu dewis yr arallenw a llenwi'r maes e-bost yn awtomatig.
+whatsnew-feature-forward-some-heading = Rhwystro e-byst hyrwyddo
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = Mae { -brand-name-relay-premium } yn caniatáu i chi rwystro dim ond e-byst hyrwyddo…
+whatsnew-feature-forward-some-description = Mae { -brand-name-relay-premium } yn eich galluogi i rwystro dim ond e-byst hyrwyddo a anfonwyd at arallenw. Byddwch yn derbyn e-byst fel derbynebau ond nid e-byst marchnata.
 
 ## Bento Menu
 
@@ -302,6 +309,7 @@ faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name
 faq-question-2-answer-v3-html =
     Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (@isbarth.mozmail.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
+faq-question-2-answer-v4 = Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy'n cynnwys is-barth (@subdomain.mozmail.com) ac mae eraill wedi rhoi'r gorau i dderbyn unrhyw gyfeiriad ac eithrio'r rhai o gyfrifon Gmail, Hotmail neu Yahoo.
 faq-question-1-question = Beth am sbam?
 faq-question-1-answer-a = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
 # Variables:
@@ -419,6 +427,8 @@ profile-filter-category-option-relay-aliases-v2 = Arallenwau ar hap
 profile-filter-category-option-domain-based-aliases-v2 = Arallenwau personol
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Arallenwau critigol yn unig
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Arallenwau rhwystro hyrwyddo
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
