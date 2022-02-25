@@ -111,12 +111,19 @@ whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμ
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-size-limit-snippet = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως 25MB, μαζί με…
+whatsnew-feature-size-limit-description = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως 25MB, μαζί με τα συνημμένα.
 whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Για να δημιουργήσετε ένα νέο ψευδώνυμο όταν σας ζητηθεί το email σας, ανοίξτε…
+whatsnew-feature-sign-back-in-description = Για να συνδεθείτε με ένα ψευδώνυμο που χρησιμοποιήσατε στο παρελθόν, ανοίξτε το μενού επιλογών στο σημείο όπου ο ιστότοπος ζητά το email σας. Θα μπορέσετε να επιλέξετε το ψευδώνυμο και να συμπληρώσετε αυτόματα το πεδίο email.
 whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών email
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-forward-some-snippet = Το { -brand-name-relay-premium } επιτρέπει τη φραγή διαφημιστικών email…
+whatsnew-feature-forward-some-description = Το { -brand-name-relay-premium } σάς επιτρέπει να αποκλείετε τα διαφημιστικά email που αποστέλλονται σε ένα ψευδώνυμο. Θα λαμβάνετε email, όπως αποδείξεις, αλλά όχι διαφημιστικά email.
 
 ## Bento Menu
 
@@ -328,6 +335,11 @@ faq-question-8-answer-html = Μπορείτε να μάθετε περισσότ
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
+faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
+faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 
 ## Profile Page (Logged In)
 
@@ -397,12 +409,25 @@ profile-filter-category-option-relay-aliases-v2 = Τυχαία ψευδώνυμ�
 profile-filter-category-option-domain-based-aliases-v2 = Προσαρμοσμένα ψευδώνυμα
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Ψευδώνυμα υψηλής σημασίας
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Ψευδώνυμα φραγής διαφημίσεων
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Ποια email θέλετε να αποκλείσετε;
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Όλα
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Διαφημιστικά
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Κανένα
+profile-promo-email-blocking-description-all = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτό το ψευδώνυμο.
+profile-promo-email-blocking-description-promotionals = Το { -brand-name-relay } θα επιχειρήσει να αποκλείσει τα διαφημιστικά email, προωθώντας όμως άλλα email, όπως αποδείξεις και στοιχεία αποστολής.
+profile-promo-email-blocking-description-none = Το { -brand-name-relay } δεν αποκλείει κανένα email για αυτό το ψευδώνυμο.
 profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
 profile-promo-email-blocking-label-none = Φραγή όλων
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
 
 ## Banner Messages (displayed on the profile page)
 
@@ -484,6 +509,7 @@ tips-footer-link-support-tooltip = Επικοινωνία με την υποστ
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Δημιουργία νέου προσαρμοσμένου ψευδωνύμου
+modal-custom-alias-picker-warning = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 modal-custom-alias-picker-form-heading = Ή δημιουργήστε ένα προσαρμοσμένο ψευδώνυμο
 modal-custom-alias-picker-form-prefix-label = Εισαγάγετε πρόθεμα ψευδωνύμου
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
