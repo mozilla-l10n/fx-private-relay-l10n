@@ -87,6 +87,19 @@ whatsnew-feature-size-limit-heading = Aumento del tamaño del archivo adjunto
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25MB, incluyendo…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25MB, incluyendo adjuntos.
+whatsnew-feature-sign-back-in-heading = Inicia sesión de nuevo con tus alias
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Para crear un nuevo alias cuando se te solicite tu correo electrónico, abre…
+whatsnew-feature-sign-back-in-description = Para iniciar sesión con un alias utilizado anteriormente, abre el menú de contexto donde el sitio solicita tu correo electrónico. Podrás seleccionar el alias y autocompletar el campo de correo electrónico.
+whatsnew-feature-forward-some-heading = Bloqueo de correos electrónicos promocionales
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permite bloquear solo correos electrónicos promocionales…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permite bloquear solo los correos electrónicos promocionales enviados a un alias. Recibirás correos electrónicos como recibos, pero no correos electrónicos de marketing.
 
 ## Bento Menu
 
@@ -292,6 +305,7 @@ faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-nam
 faq-question-2-answer-v3-html =
     Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (@subdominio.mozmail.com) y otros dejaron de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
     Si no puede utilizar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>por favor háganoslo saber</a>.
+faq-question-2-answer-v4 = Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (@subdominio.mozmail.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-1-answer-a = Si bien { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no desea, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
 # Variables:
@@ -409,6 +423,8 @@ profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Solo alias críticos
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Alias ​​de bloqueo de anuncios
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
