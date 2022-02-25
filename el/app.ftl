@@ -106,6 +106,7 @@ whatsnew-tab-archive-label = Ιστορικό
 whatsnew-footer-clear-all-label = Απαλοιφή όλων
 whatsnew-footer-back-label = Πίσω
 whatsnew-footer-learn-more-label = Μάθετε περισσότερα
+whatsnew-empty-message = Συνεχίστε να έρχεστε εδώ — εργαζόμαστε πάντα πάνω σε νέες, εξαιρετικές λειτουργίες για να κάνουμε καλύτερο το { -brand-name-relay }.
 whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμένων
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -324,6 +325,7 @@ faq-question-browser-support-answer = Ναι, μπορείτε να δημιου
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-longevity-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
+faq-question-mozmail-answer = Αλλάξαμε το «relay.firefox.com» σε «mozmail.com» για να καταστήσουμε δυνατή την απόκτηση προσαρμοσμένων τομέων email, όπως το pseudwnumo@otomeassas.mozmail.com. Οι προσαρμοσμένοι τομείς email, που διατίθενται στους συνδρομητές του { -brand-name-relay-premium }, κάνουν πολύ πιο εύκολη την απομνημόνευση των ψευδωνύμων email σας σε σχέση με τα τυχαία ψευδώνυμα.
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
@@ -336,6 +338,7 @@ faq-question-email-storage-question = Αποθηκεύει το { -brand-name-re
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
 faq-question-acceptable-use-answer-measure-unlimited-payment = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε ψευδωνύμων
+faq-question-acceptable-use-answer-measure-rate-limit = Περιορίζοντας τον αριθμό των ψευδωνύμων που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
