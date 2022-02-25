@@ -67,6 +67,14 @@ nav-footer-release-notes = Notas de version
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Novas
+whatsnew-close-label = Clauder
+whatsnew-tab-new-label = Novas
+whatsnew-tab-archive-label = Chronologia
+whatsnew-footer-clear-all-label = Clarar toto
+
 ## Bento Menu
 
 bento-button-title = Applicationes e servicios { -brand-name-firefox }
@@ -264,6 +272,7 @@ faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
     Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
@@ -380,6 +389,9 @@ profile-filter-category-option-relay-aliases-v2 = Aliases casual
 profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Aliases solo critic
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -499,6 +511,9 @@ popover-custom-alias-explainer-close-button-label = Clauder
 
 tips-custom-alias-heading = Creation del aliases per tu dominio personal
 tips-custom-alias-content = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
