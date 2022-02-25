@@ -335,11 +335,13 @@ faq-question-8-answer-html = Μπορείτε να μάθετε περισσότ
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
+faq-question-acceptable-use-answer-measure-unlimited-payment = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε ψευδωνύμων
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
 faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
+faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
 
 ## Profile Page (Logged In)
 
@@ -520,10 +522,17 @@ modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδων�
 ## Popover explaining how custom aliases work
 
 popover-custom-alias-explainer-heading = Τρόπος δημιουργίας προσαρμοσμένων ψευδωνύμων
+popover-custom-alias-explainer-explanation = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
+popover-custom-alias-explainer-generate-button-heading = Χειροκίνητη δημιουργία ψευδωνύμου
+popover-custom-alias-explainer-generate-button-label = Δημιουργία προσαρμοσμένου ψευδωνύμου
 popover-custom-alias-explainer-close-button-label = Κλείσιμο
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
+popover-custom-alias-explainer-promotional-block-tooltip = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε ένα ψευδώνυμο για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
 
 ## Tip about using custom aliases
 
+tips-custom-alias-content = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 
 ## Tip about using custom aliases
 
