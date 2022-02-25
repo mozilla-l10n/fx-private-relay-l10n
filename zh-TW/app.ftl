@@ -92,6 +92,12 @@ whatsnew-feature-sign-back-in-heading = 使用您的別名信箱登入網站
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = 當網站要求您輸入信箱時，請開啟…
 whatsnew-feature-sign-back-in-description = 要使用先前建立的別名信箱登入網站，請在網站的信箱輸入框當中點擊右鍵選單，然後就可以選擇別名信箱並且自動填入。
+whatsnew-feature-forward-some-heading = 封鎖行銷郵件
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但還是會轉寄別名信箱收到的收據、發票等重要郵件。
 
 ## Bento Menu
 
