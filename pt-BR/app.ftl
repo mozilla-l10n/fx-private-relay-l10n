@@ -67,6 +67,18 @@ nav-footer-release-notes = Notas de atualização
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logotipo do GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Notícias
+whatsnew-close-label = Fechar
+whatsnew-tab-new-label = Notícias
+whatsnew-tab-archive-label = Histórico
+whatsnew-footer-clear-all-label = Limpar tudo
+whatsnew-footer-back-label = Voltar
+whatsnew-footer-learn-more-label = Saiba mais
+whatsnew-feature-size-limit-heading = Aumento no tamanho de anexos
+whatsnew-feature-forward-some-heading = Bloqueio de email promocional
+
 ## Bento Menu
 
 bento-button-title = Aplicativos e serviços { -brand-name-firefox }
@@ -267,6 +279,7 @@ faq-question-2-question = Por que um site não aceitaria meu endereço de redire
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Alguns sites podem não aceitar endereços de email que tenham subdomínio (@subdomínio.mozmail.com). Outros deixaram de aceitar endereços que não sejam de contas do Gmail, Hotmail ou Yahoo.
     Se não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos avise</a>.
@@ -387,6 +400,8 @@ profile-filter-category-option-relay-aliases-v2 = Endereços de redirecionamento
 profile-filter-category-option-domain-based-aliases-v2 = Endereços de redirecionamento personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Endereços de redirecionamento que só encaminham emails críticos
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Endereços de redirecionamento com bloqueio de email promocional
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
