@@ -67,6 +67,40 @@ nav-footer-release-notes = Kiadási megjegyzések
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logó
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Hírek
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 új bejelentés.
+       *[other] { $count } új bejelentés.
+    }
+whatsnew-close-label = Bezárás
+whatsnew-tab-new-label = Hírek
+whatsnew-tab-archive-label = Előzmények
+whatsnew-footer-clear-all-label = Összes törlése
+whatsnew-footer-back-label = Vissza
+whatsnew-footer-learn-more-label = További tudnivalók
+whatsnew-empty-message = Feltétlenül térjen vissza ide – folyamatosan dolgozunk nagyszerű új funkciókon, hogy még jobbá tegyük a { -brand-name-relay } szolgáltatást.
+whatsnew-feature-size-limit-heading = Mellékletek méretének növelése
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = A { -brand-name-firefox-relay } mostantól akár 25 MB-os e-maileket is továbbíthat…
+whatsnew-feature-size-limit-description = A { -brand-name-firefox-relay } mostantól akár 25 MB-os e-maileket is továbbíthat, beleértve a mellékleteket is.
+whatsnew-feature-sign-back-in-heading = Jelentkezzen be újra az álneveivel
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Hogy új álnevet hozzon létre, ha az e-mail-címét kérik, nyissa meg a…
+whatsnew-feature-sign-back-in-description = Ha korábban használt álnévvel jelentkezne be, nyissa meg a helyi menüt, ahol a webhely az Ön e-mail-címét kéri. Kiválaszthatja az álnevet, és automatikusan kitöltheti az e-mail mezőt.
+whatsnew-feature-forward-some-heading = Promóciós e-mailek blokkolása
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = A { -brand-name-relay-premium } lehetővé teszi, hogy csak a promóciós e-maileket blokkolja…
+whatsnew-feature-forward-some-description = A { -brand-name-relay-premium } lehetővé teszi, hogy csak az álnévre küldött promóciós leveket tiltsa. Meg fogja kapni például nyugtákat, de marketing e-maileket nem.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } alkalmazások és szolgáltatások
@@ -267,9 +301,11 @@ faq-question-2-question = Miért nem fogadja el egy webhely a { -brand-name-rela
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Előfordulhat, hogy egyes webhelyek nem fogadnak el olyan e-mail-címeket, melyek aldomaint (@aldomain.mozmail.com) tartalmaznak, mások pedig nem fogadnak el minden címet, csak Gmail, Hotmail vagy Yahoo fiókokat.
     Ha nem tudja használni a { -brand-name-relay } álnevet, akkor <a href="{ $url }" { $attrs }>tudassa velünk</a>.
+faq-question-2-answer-v4 = Előfordulhat, hogy egyes webhelyek nem fogadnak el olyan e-mail címeket, amelyek aldomaint (@subdomain.mozmail.com) tartalmaznak, mások pedig nem fogadnak el minden címet, csak a Gmail-, Hotmail- vagy Yahoo-fiókokból származókat.
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
 faq-question-1-answer-a = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító álnevet.
 # Variables:
@@ -387,6 +423,8 @@ profile-filter-category-option-relay-aliases-v2 = Véletlenszerű álnevek
 profile-filter-category-option-domain-based-aliases-v2 = Egyéni álnevek
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = „Csak kritikus” álnevek
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Promóciót blokkoló álnevek
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
