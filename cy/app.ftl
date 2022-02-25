@@ -67,6 +67,37 @@ nav-footer-release-notes = Nodiadau Rhyddhau
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Newyddion
+whatsnew-counter-label =
+    { $count ->
+        [zero] 0 cyhoeddiadau newydd.
+        [one] 1 cyhoeddiad newydd.
+        [two] { $count } cyhoeddiad newydd.
+        [few] { $count } cyhoeddiad newydd.
+        [many] { $count } cyhoeddiad newydd.
+       *[other] { $count } cyhoeddiad newydd.
+    }
+whatsnew-close-label = Cau
+whatsnew-tab-new-label = Newyddion
+whatsnew-tab-archive-label = Hanes
+whatsnew-footer-clear-all-label = Clirio'r cyfan
+whatsnew-footer-back-label = Nôl
+whatsnew-footer-learn-more-label = Dysgu rhagor
+whatsnew-empty-message = Gwnewch yn siŵr eich bod yn dod nôl yma - rydym bob amser yn gweithio ar nodweddion newydd gwych i wneud { -brand-name-relay } hyd yn oed yn well.
+whatsnew-feature-size-limit-heading = Cynnydd maint atodiad
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at 25MB ymlaen, gan gynnwys…
+whatsnew-feature-size-limit-description = Gall { -brand-name-firefox-relay } anfon e-byst hyd at 25MB ymlaen, gan gynnwys atodiadau.
+whatsnew-feature-sign-back-in-heading = Mewngofnodwch eto gyda'ch arallenwau
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = I greu arallenw newydd pan fydd gofyn am eich e-bost, agorwch…
+
 ## Bento Menu
 
 bento-button-title = Apiau a gwasanaethau { -brand-name-firefox }
@@ -267,6 +298,7 @@ faq-question-2-question = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy’n cynnwys is-barth (@isbarth.mozmail.com) ac mae eraill wedi rhoi’r gorau i dderbyn pob cyfeiriad ac eithrio’r rhai o gyfrifon Gmail, Hotmail, neu Yahoo.
     Os nad ydych yn gallu defnyddio arallenw { -brand-name-relay }, <a href="{ $url }" { $attrs }>rhowch wybod i ni</a>.
