@@ -95,6 +95,17 @@ logo-github-alt = Λογότυπο GitHub
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Ειδήσεις
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 νέα ανακοίνωση.
+       *[other] { $count } νέες ανακοινώσεις.
+    }
+whatsnew-close-label = Κλείσιμο
+whatsnew-tab-new-label = Ειδήσεις
+whatsnew-tab-archive-label = Ιστορικό
+whatsnew-footer-clear-all-label = Απαλοιφή όλων
+whatsnew-footer-back-label = Πίσω
+whatsnew-footer-learn-more-label = Μάθετε περισσότερα
 
 ## Bento Menu
 
@@ -378,6 +389,7 @@ profile-filter-category-option-critical-only-aliases = Ψευδώνυμα υψη
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
 
