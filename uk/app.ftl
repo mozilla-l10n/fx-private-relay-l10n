@@ -83,6 +83,17 @@ whatsnew-footer-clear-all-label = Стерти все
 whatsnew-footer-back-label = Назад
 whatsnew-footer-learn-more-label = Докладніше
 whatsnew-empty-message = Обов’язково перегляньте оновлення — ми завжди працюємо над чудовими новими функціями, щоб зробити { -brand-name-relay } ще кращим.
+whatsnew-feature-size-limit-heading = Збільшено розміру вкладення
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } відтепер може пересилати електронні листи розміром до 25 МБ включно…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } відтепер може пересилати електронні листи розміром до 25 МБ включно з вкладеннями.
+whatsnew-feature-sign-back-in-heading = Увійдіть використовуючи свої псевдоадреси
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Щоб створити нову псевдоадресу, коли вас попросять ввести електронну адресу, відкрийте…
 
 ## Bento Menu
 
