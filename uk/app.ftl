@@ -94,6 +94,13 @@ whatsnew-feature-sign-back-in-heading = Увійдіть використову�
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = Щоб створити нову псевдоадресу, коли вас попросять ввести електронну адресу, відкрийте…
+whatsnew-feature-sign-back-in-description = Щоб увійти за допомогою раніше використовуваної псевдоадреси, відкрийте контекстне меню, коли сайт запитує вашу електронну пошту. Ви зможете вибрати псевдоадресу й автоматично заповнити поле електронної пошти.
+whatsnew-feature-forward-some-heading = Блокування промоційної електронної пошти
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи, надіслані на псевдоадреси. Ви отримуватимете електронні листи, як-от квитанції, але не маркетингові листи.
 
 ## Bento Menu
 
@@ -299,6 +306,7 @@ faq-question-2-question = Чому сайт не приймає мою псев�
 faq-question-2-answer-v3-html =
     Деякі сайти можуть не приймати адресу е-пошти, яка містить піддомен (@subdomain.mozmail.com), а інші припинили приймати всі адреси, крім тих, що належать до облікових записів Gmail, Hotmail або Yahoo.
     Якщо ви не можете користуватись альтернативною адресою { -brand-name-relay }, <a href="{ $url }" { $attrs }>повідомте нам про це</a>.
+faq-question-2-answer-v4 = Деякі сайти можуть не приймати адресу електронної пошти, яка містить субдомен (@subdomain.mozmail.com), а інші перестали приймати всі адреси, крім адрес з облікових записів Gmail, Hotmail або Yahoo.
 faq-question-1-question = А як щодо спаму?
 faq-question-1-answer-a = Хоча { -brand-name-relay } не фільтрує спам, наш партнер е-пошти Amazon SES блокує спам та шкідливе програмне забезпечення. Якщо { -brand-name-relay } пересилає повідомлення, які вам не потрібні, ви можете змінити налаштування { -brand-name-relay }, щоб блокувати повідомлення з псевдоадреси, яка їх пересилає.
 # Variables:
@@ -416,6 +424,8 @@ profile-filter-category-option-relay-aliases-v2 = Випадкові псевд�
 profile-filter-category-option-domain-based-aliases-v2 = Користувацькі псевдоадреси
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Важливі псевдоадреси
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Псевдоадреси, що блокують рекламу
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
