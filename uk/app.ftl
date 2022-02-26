@@ -82,6 +82,7 @@ whatsnew-tab-archive-label = Історія
 whatsnew-footer-clear-all-label = Стерти все
 whatsnew-footer-back-label = Назад
 whatsnew-footer-learn-more-label = Докладніше
+whatsnew-empty-message = Обов’язково перегляньте оновлення — ми завжди працюємо над чудовими новими функціями, щоб зробити { -brand-name-relay } ще кращим.
 
 ## Bento Menu
 
