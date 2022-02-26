@@ -67,6 +67,22 @@ nav-footer-release-notes = Примітки до випуску
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Логотип GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Новини
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 нове оголошення.
+        [few] { $count } нові оголошення.
+       *[many] { $count } нових оголошень.
+    }
+whatsnew-close-label = Закрити
+whatsnew-tab-new-label = Новини
+whatsnew-tab-archive-label = Історія
+whatsnew-footer-clear-all-label = Стерти все
+whatsnew-footer-back-label = Назад
+whatsnew-footer-learn-more-label = Докладніше
+
 ## Bento Menu
 
 bento-button-title = Програми та служби { -brand-name-firefox }
@@ -267,6 +283,7 @@ faq-question-2-question = Чому сайт не приймає мою псев�
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Деякі сайти можуть не приймати адресу е-пошти, яка містить піддомен (@subdomain.mozmail.com), а інші припинили приймати всі адреси, крім тих, що належать до облікових записів Gmail, Hotmail або Yahoo.
     Якщо ви не можете користуватись альтернативною адресою { -brand-name-relay }, <a href="{ $url }" { $attrs }>повідомте нам про це</a>.
