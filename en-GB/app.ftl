@@ -67,6 +67,40 @@ nav-footer-release-notes = Release Notes
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logo
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = News
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 new announcement.
+       *[other] { $count } new announcements.
+    }
+whatsnew-close-label = Close
+whatsnew-tab-new-label = News
+whatsnew-tab-archive-label = History
+whatsnew-footer-clear-all-label = Clear all
+whatsnew-footer-back-label = Back
+whatsnew-footer-learn-more-label = Learn more
+whatsnew-empty-message = Be sure to check back here — we’re always working on great new features to make { -brand-name-relay } even better.
+whatsnew-feature-size-limit-heading = Attachment size increase
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } can now forward emails up to 25MB, including…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } can now forward emails up to 25MB, including attachments.
+whatsnew-feature-sign-back-in-heading = Sign back in with your aliases
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = To create a new alias when you’re asked for your email, open…
+whatsnew-feature-sign-back-in-description = To sign in with a previously-used alias, open the context menu where the site asks for your email. You’ll be able to select the alias and auto-fill the email field.
+whatsnew-feature-forward-some-heading = Promotional email blocking
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } allows you to block only promotional emails sent to an alias. You’ll receive emails like receipts but not marketing emails.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } apps and services
@@ -267,9 +301,11 @@ faq-question-2-question = Why won’t a site accept my { -brand-name-relay } ali
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Some sites may not accept an email address that includes a subdomain (@subdomain.mozmail.com) and others have stopped accepting all addresses except those from Gmail, Hotmail, or Yahoo accounts.
     If you are not able to use a { -brand-name-relay } alias, <a href="{ $url }" { $attrs }>please let us know</a>.
+faq-question-2-answer-v4 = Some sites may not accept an email address that includes a subdomain (@subdomain.mozmail.com) and others have stopped accepting all addresses except those from Gmail, Hotmail, or Yahoo accounts.
 faq-question-1-question = What about spam?
 faq-question-1-answer-a = While { -brand-name-relay } does not filter for spam, our email partner Amazon SES does block spam and malware. If { -brand-name-relay } forwards messages you don’t want, you can update your { -brand-name-relay } settings to block messages from the alias forwarding them.
 # Variables:
@@ -314,6 +350,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Rate-limiting the number
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
+faq-question-promotional-email-blocking-question = What is promotional email blocking?
+faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
+faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
+faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
 
 ## Profile Page (Logged In)
 
@@ -383,6 +423,21 @@ profile-filter-category-option-relay-aliases-v2 = Random aliases
 profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Critical-only aliases
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Promo-blocking aliases
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = What emails do you want to block?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = All
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promotionals
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = None
+profile-promo-email-blocking-description-all = { -brand-name-relay } is blocking all emails sent to this alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails while still forwarding emails like receipts and shipping information.
+profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
 
 ## Banner Messages (displayed on the profile page)
 
@@ -503,6 +558,9 @@ popover-custom-alias-explainer-close-button-label = Close
 
 tips-custom-alias-heading = Creating aliases using your custom domain
 tips-custom-alias-content = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
