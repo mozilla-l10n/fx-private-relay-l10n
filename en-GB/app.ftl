@@ -438,6 +438,10 @@ profile-promo-email-blocking-option-none = None
 profile-promo-email-blocking-description-all = { -brand-name-relay } is blocking all emails sent to this alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails while still forwarding emails like receipts and shipping information.
 profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
+profile-promo-email-blocking-label-promotionals = Block promotions
+profile-promo-email-blocking-label-none = Block all
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Not forwarding
 
 ## Banner Messages (displayed on the profile page)
 
@@ -553,6 +557,9 @@ popover-custom-alias-explainer-explanation = All you need to do is make up and s
 popover-custom-alias-explainer-generate-button-heading = Generate a custom alias manually
 popover-custom-alias-explainer-generate-button-label = Generate custom alias
 popover-custom-alias-explainer-close-button-label = Close
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
+popover-custom-alias-explainer-promotional-block-tooltip = Enable Block Promotional Emails on an alias to stop marketing emails from reaching your inbox.
 
 ## Tip about using custom aliases
 
@@ -561,6 +568,8 @@ tips-custom-alias-content = All you need to do is make up and share a unique ali
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Block Promotional Emails
+tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
 
 ## Onboarding 
 
