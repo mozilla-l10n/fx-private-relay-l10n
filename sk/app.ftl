@@ -110,7 +110,38 @@ logo-github-alt = Logo GitHubu
 
 ## The new feature announcement area, under the "News" link at the top
 
-whatsnew-trigger-label = Správy
+whatsnew-trigger-label = Novinky
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nové oznámenie
+        [few] { $count } nové oznámenia
+       *[other] { $count } nových oznámení
+    }
+whatsnew-close-label = Zavrieť
+whatsnew-tab-new-label = Novinky
+whatsnew-tab-archive-label = História
+whatsnew-footer-clear-all-label = Vymazať všetko
+whatsnew-footer-back-label = Naspäť
+whatsnew-footer-learn-more-label = Ďalšie informácie
+whatsnew-empty-message = Nezabudnite sa sem vrátiť – neustále pracujeme na skvelých nových funkciách, aby sme službu { -brand-name-relay } ešte vylepšili.
+whatsnew-feature-size-limit-heading = Zväčšenie veľkosti prílohy
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily do veľkosti 25 MB, vrátane…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až 25 MB vrátane príloh.
+whatsnew-feature-sign-back-in-heading = Znova sa prihláste pomocou svojich aliasov
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Ak chcete vytvoriť nový alias, keď sa zobrazí výzva na zadanie e-mailu, otvorte…
+whatsnew-feature-sign-back-in-description = Ak sa chcete prihlásiť pomocou predtým používaného aliasu, v mieste kde stránka požaduje váš e-mail otvorte kontextovú ponuku. Budete si môcť vybrať alias a automaticky vyplniť pole s e-mailom.
+whatsnew-feature-forward-some-heading = Blokovanie marketingových e-mailov
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily odoslané na alias. Budete naďalej dostávať e-maily, ako sú potvrdenia o prečítaní, ale nie marketingové e-maily.
 
 ## Bento Menu
 
@@ -314,6 +345,7 @@ faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand
 faq-question-2-answer-v3-html =
     Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (@subdomena.mozmail.com) a iné prestali akceptovať všetky adresy okrem adries z účtov Gmail, Hotmail alebo Yahoo.
     Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám vedieť</a>.
+faq-question-2-answer-v4 = Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (@subdomena.mozmail.com) a iné prestali akceptovať všetky adresy mimo adries z účtov Gmail, Hotmail alebo Yahoo.
 faq-question-1-question = A čo spam?
 faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú poštu, náš e-mailový partner Amazon SES blokuje spam a škodlivý softvér. Ak { -brand-name-relay } preposiela správy, ktoré nechcete, môžete aktualizovať svoje nastavenia tejto služby a zablokovať aliasy, ktoré ich preposielajú.
 # Variables:
@@ -431,6 +463,8 @@ profile-filter-category-option-relay-aliases-v2 = Náhodné aliasy
 profile-filter-category-option-domain-based-aliases-v2 = Vlastné aliasy
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Aliasy preposielajúce iba kritické správy
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Aliasy blokujúce marketing
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
