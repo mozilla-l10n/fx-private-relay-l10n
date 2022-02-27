@@ -93,6 +93,8 @@ whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es requirite tu e-mail, aperi…
+whatsnew-feature-sign-back-in-description = Pro aperir session con un alias precedentemente usate, aperi le menu contextual ubi le sito demanda pro tu e-mail. Tu potera eliger le alias e auto-plenar le campo e-mail.
+whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
 
 ## Bento Menu
 
@@ -417,7 +419,9 @@ profile-promo-email-blocking-option-all = Tote
 profile-promo-email-blocking-option-promotionals = Promotional
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Nulle
+profile-promo-email-blocking-label-none = Blocar tote
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Non inultrar
 
 ## Banner Messages (displayed on the profile page)
 
@@ -532,6 +536,8 @@ popover-custom-alias-explainer-explanation = Tote lo que tu debe facer es crear 
 popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personal
 popover-custom-alias-explainer-generate-button-label = Generar alias personalisate
 popover-custom-alias-explainer-close-button-label = Clauder
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
 
 ## Tip about using custom aliases
 
@@ -540,6 +546,7 @@ tips-custom-alias-content = Tote lo que tu debe facer es crear e compartir un un
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Blocar e-mails promotional
 
 ## Onboarding 
 
