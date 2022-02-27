@@ -67,6 +67,18 @@ nav-footer-release-notes = 新变化
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub 徽标
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = 新闻
+whatsnew-close-label = 关闭
+whatsnew-tab-new-label = 新闻
+whatsnew-tab-archive-label = 历史
+whatsnew-footer-clear-all-label = 全部清除
+whatsnew-footer-back-label = 返回
+whatsnew-footer-learn-more-label = 详细了解
+whatsnew-feature-size-limit-heading = 附件容量增加
+whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } 应用程序与服务
@@ -246,6 +258,7 @@ faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay 
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html = 部分网站可能不接受使用子域名（@subdomain.mozmail.com）邮箱注册；有些网站则是不接受 Gmail、Hotmail、Yahoo 以外的账户注册。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
