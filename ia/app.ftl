@@ -70,14 +70,29 @@ logo-github-alt = Logo GitHub
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Novas
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nove annuncio.
+       *[other] { $count } nove annuncios.
+    }
 whatsnew-close-label = Clauder
 whatsnew-tab-new-label = Novas
 whatsnew-tab-archive-label = Chronologia
 whatsnew-footer-clear-all-label = Clarar toto
 whatsnew-footer-back-label = Retro
 whatsnew-footer-learn-more-label = Pro saper plus
+whatsnew-empty-message = Controla retro hic, sempre nos labora sur formidabile nove functionalitates pro render mesmo melior { -brand-name-relay }.
 whatsnew-feature-size-limit-heading = Accrescer le dimension del annexo
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite annexos.
 whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es requirite tu e-mail, aperi…
 
 ## Bento Menu
 
