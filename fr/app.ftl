@@ -85,6 +85,7 @@ whatsnew-feature-size-limit-heading = Augmentation de la taille des pièces join
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo, en tenant compte des pièces jointes.
 whatsnew-feature-sign-back-in-heading = Reconnectez-vous avec vos alias
+whatsnew-feature-sign-back-in-description = Pour vous connecter avec un alias déjà utilisé, ouvrez le menu contextuel là où le site demande de saisir votre adresse e-mail. Il vous sera alors possible de choisir l’alias et de remplir automatiquement le champ d’adresse.
 
 ## Bento Menu
 
