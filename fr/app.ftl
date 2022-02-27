@@ -71,6 +71,21 @@ nav-footer-release-notes = Notes de mise à jour
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-close-label = Fermer
+whatsnew-footer-clear-all-label = Tout effacer
+whatsnew-footer-back-label = Retour
+whatsnew-footer-learn-more-label = En savoir plus
+whatsnew-empty-message = Revenez bientôt — nous travaillons en permanence sur de nouvelles fonctionnalités pour toujours améliorer { -brand-name-relay }.
+whatsnew-feature-size-limit-heading = Augmentation de la taille des pièces jointes
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo, en tenant compte des pièces jointes.
+whatsnew-feature-sign-back-in-heading = Reconnectez-vous avec vos alias
+
 ## Bento Menu
 
 bento-button-title = Applications et services { -brand-name-firefox }
@@ -269,6 +284,7 @@ faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -bra
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Certains sites peuvent ne pas accepter une adresse e-mail qui inclut un sous-domaine (@sousdomaine.mozmail.com) et d’autres ont cessé d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
     Si vous n’êtes pas en mesure d’utiliser un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>veuillez nous le faire savoir</a>.
