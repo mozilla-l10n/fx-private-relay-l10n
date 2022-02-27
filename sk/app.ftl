@@ -108,6 +108,10 @@ nav-footer-release-notes = Poznámky k vydaniu
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Správy
+
 ## Bento Menu
 
 bento-button-title = Aplikácie a služby { -brand-name-firefox(case: "gen") }
@@ -306,6 +310,7 @@ faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (@subdomena.mozmail.com) a iné prestali akceptovať všetky adresy okrem adries z účtov Gmail, Hotmail alebo Yahoo.
     Ak nemôžete použiť alias služby { -brand-name-relay }, <a href="{ $url }" { $attrs }>dajte nám vedieť</a>.
