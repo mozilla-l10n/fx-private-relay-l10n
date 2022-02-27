@@ -396,6 +396,13 @@ profile-filter-category-option-critical-only-aliases = Aliases solo critic
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Tote
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promotional
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Nulle
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
 
