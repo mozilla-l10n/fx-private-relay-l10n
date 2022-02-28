@@ -95,6 +95,11 @@ whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
 whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es requirite tu e-mail, aperi…
 whatsnew-feature-sign-back-in-description = Pro aperir session con un alias precedentemente usate, aperi le menu contextual ubi le sito demanda pro tu e-mail. Tu potera eliger le alias e auto-plenar le campo e-mail.
 whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permitte de blocar solo le e-mails promotional…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solo e-mails promotional inviate a un alias. Tu recipera e-mails como quitantias ma non e-mails de marketing.
 
 ## Bento Menu
 
@@ -538,6 +543,7 @@ popover-custom-alias-explainer-generate-button-label = Generar alias personalisa
 popover-custom-alias-explainer-close-button-label = Clauder
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
+popover-custom-alias-explainer-promotional-block-tooltip = Activar le blocada del e-mails promotional sur un alias pro stoppar le e-mails de marketing de attinger tu cassa de ingresso.
 
 ## Tip about using custom aliases
 
@@ -547,6 +553,7 @@ tips-custom-alias-content = Tote lo que tu debe facer es crear e compartir un un
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = Blocar e-mails promotional
+tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, tu pote blocar e-mails promotional de attinger tu cassa de ingresso durante que ancora te es permittite reciper e-mails como quitantias o informationes de expedition.
 
 ## Onboarding 
 
