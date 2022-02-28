@@ -302,6 +302,7 @@ faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name
 faq-question-2-answer-v3-html =
     Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
     Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
+faq-question-2-answer-v4 = Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate de acceptar tote le adresses excepte illos del contos Gmail, Hotmail o Yahoo.
 faq-question-1-question = E quanto al spam?
 faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
 # Variables:
@@ -346,6 +347,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Limitar le numero de ali
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
+faq-question-promotional-email-blocking-question = Que es le blocada de e-mail promotional?
 
 ## Profile Page (Logged In)
 
