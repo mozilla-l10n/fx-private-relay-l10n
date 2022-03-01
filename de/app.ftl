@@ -493,39 +493,39 @@ banner-label-privacy-notice-update-body = Um die Zuverlässigkeit von { -brand-n
 banner-label-privacy-notice-update-cta = Datenschutzhinweis ansehen
 # Data Notification Banner:
 banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
-banner-label-data-notification-body = Sie können { -brand-name-relay } erlauben, optionale Daten auf den Websites zu sammeln, auf denen Ihre Alias-E-Mail-Adressen verwendet werden, um zukünftige Funktionen zu unterstützen. Wenn Sie diese Datenerfassung auf der Seite „Einstellungen“ zulassen, wird die Verwaltung Ihres Posteingangs noch einfacher.
+banner-label-data-notification-body = Du kannst { -brand-name-relay } erlauben, optionale Daten auf den Websites zu sammeln, auf denen deine Aliasse verwendet werden, um zukünftige Funktionen zu unterstützen. Wenn du diese Datenerfassung auf der Seite „Einstellungen“ zulässt, wird die Verwaltung deines Posteingangs noch einfacher.
 banner-label-data-notification-cta = Einstellungen öffnen
 banner-label-data-notification-header-v2 = Neue Funktionen aktivieren
-banner-label-data-notification-body-v2 = Sie können { -brand-name-relay } erlauben, optionale Daten zu sammeln, die es uns ermöglichen, Ihre Alias-Beschriftungen über Ihre Geräte hinweg mit den Websites zu synchronisieren, auf denen sie erstellt und verwendet werden.
+banner-label-data-notification-body-v2 = Du kannst { -brand-name-relay } erlauben, optionale Daten zu sammeln, die es uns ermöglichen, deine Alias-Beschriftungen über deine Geräte hinweg mit den Websites zu synchronisieren, auf denen sie erstellt und verwendet werden.
 banner-label-data-notification-body-cta = Weitere Informationen
 # This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = Ihre Domain ist:
+banner-choose-subdomain-label = Deine Domain ist:
 # Variables:
 # $subdomain (url) - User-set subdomain
-banner-choose-subdomain-description = Sie können beliebige Adressen mit @{ $subdomain } erstellen
+banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdomain } erstellen
 
 ## Success Messages
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-success-subdomain-registered = Ihre Domain @{ $subdomain } wurde erstellt
-success-settings-update = Ihre Einstellungen wurden aktualisiert
+success-subdomain-registered = Deine Domain @{ $subdomain } wurde erstellt
+success-settings-update = Deine Einstellungen wurden aktualisiert
 
 ## Error Messages
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-error-premium-set-make-aliases = Sie müssen Premium-Abonnent sein, um mehr als { $number } Alias-Adressen zu erstellen
-error-premium-cannot-change-subdomain = Sie können Ihre Subdomain nicht ändern
-error-premium-set-subdomain = Sie müssen Premium-Abonnent sein, um eine Subdomain einzurichten
-error-premium-check-subdomain = Sie müssen Premium-Abonnent sein, um eine Subdomain zu überprüfen
-error-premium-set-create-subdomain = Sie müssen Premium-Abonnent sein, um Alias-Adressen mit Subdomain zu erstellen
-error-subdomain-not-created = Subdomain konnte nicht erstellt werden, versuchen Sie etwas anderes
-error-subdomain-email-not-created = E-Mail-Adresse mit Subdomain konnte nicht erstellt werden, versuchen Sie etwas anderes
-error-subdomain-select = Sie müssen eine Subdomain auswählen, bevor Sie eine Subdomain-Alias-Adresse erstellen
+error-premium-set-make-aliases = Du musst Premium-Abonnent sein, um mehr als { $number } Aliasse zu erstellen
+error-premium-cannot-change-subdomain = Du kannst deine Subdomain nicht ändern
+error-premium-set-subdomain = Du musst Premium-Abonnent sein, um eine Subdomain einzurichten
+error-premium-check-subdomain = Du musst Premium-Abonnent sein, um eine Subdomain zu überprüfen
+error-premium-set-create-subdomain = Du musst Premium-Abonnent sein, um Aliasse mit Subdomain zu erstellen
+error-subdomain-not-created = Subdomain konnte nicht erstellt werden, versuche etwas anderes
+error-subdomain-email-not-created = E-Mail-Adresse mit Subdomain konnte nicht erstellt werden, versuche etwas anderes
+error-subdomain-select = Du musst eine Subdomain auswählen, bevor du ein Subdomain-Alias erstellst
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
-error-subdomain-not-available = Die Domain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuchen Sie es mit einer anderen Domain erneut.
+error-subdomain-not-available = Die Domain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuche es mit einer anderen Domain erneut.
 
 ## Tips and tricks at the bottom of the page
 
@@ -540,7 +540,7 @@ tips-footer-link-support-tooltip = Hilfe kontaktieren
 
 ## Alias for generating a custom alias
 
-modal-custom-alias-picker-heading = Neue benutzerdefinierte Alias-E-Mail-Adresse erstellen
+modal-custom-alias-picker-heading = Neues benutzerdefiniertes Alias erstellen
 modal-custom-alias-picker-warning = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 modal-custom-alias-picker-form-heading = Oder erstellen Sie manuell eine benutzerdefinierte Alias-E-Mail-Adresse
 modal-custom-alias-picker-form-prefix-label = Alias-Präfix eintragen
