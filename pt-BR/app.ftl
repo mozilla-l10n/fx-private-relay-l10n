@@ -70,12 +70,18 @@ logo-github-alt = Logotipo do GitHub
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Notícias
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 novidade.
+       *[other] { $count } novidades.
+    }
 whatsnew-close-label = Fechar
 whatsnew-tab-new-label = Notícias
 whatsnew-tab-archive-label = Histórico
 whatsnew-footer-clear-all-label = Limpar tudo
 whatsnew-footer-back-label = Voltar
 whatsnew-footer-learn-more-label = Saiba mais
+whatsnew-empty-message = Não deixe de voltar a olhar aqui. Estamos sempre trabalhando em excelentes novos recursos para tornar o { -brand-name-relay } ainda melhor.
 whatsnew-feature-size-limit-heading = Aumento no tamanho de anexos
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -299,6 +305,7 @@ faq-question-2-question = Por que um site não aceitaria meu endereço de redire
 faq-question-2-answer-v3-html =
     Alguns sites podem não aceitar endereços de email que tenham subdomínio (@subdomínio.mozmail.com). Outros deixaram de aceitar endereços que não sejam de contas do Gmail, Hotmail ou Yahoo.
     Se não conseguir usar um endereço de redirecionamento do { -brand-name-relay }, <a href="{ $url }" { $attrs }>nos avise</a>.
+faq-question-2-answer-v4 = Alguns sites podem não aceitar um endereço de email que inclua um subdomínio (@subdomínio.mozmail.com), outros passaram a só aceitar endereços de contas do Gmail, Hotmail ou Yahoo.
 faq-question-1-question = E quanto ao spam?
 faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso parceiro de email Amazon SES bloqueia spam e malware. Se o { -brand-name-relay } encaminhar mensagens que você não quer receber, você pode atualizar suas configurações do { -brand-name-relay } para bloquear mensagens do endereço de redirecionamento que as encaminha.
 # Variables:
