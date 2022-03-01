@@ -135,36 +135,36 @@ how-it-works-step-2-copy =
     { -brand-name-relay } leitet Nachrichten an deine Haupt-E-Mail-Adresse weiter, die mit deinem Konto verknüpft ist.
 how-it-works-step-3-headline = Deine Alias-E-Mail-Adressen verwalten
 how-it-works-step-3-copy =
-    Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über Ihre Alias-E-Mail-Adressen zu behalten.
-    Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie aus der Übersicht alle Nachrichten blockieren oder sogar die Alias-E-Mail-Adresse ganz löschen.
-hero-image-copy-trust = Können Sie dieser Firma überhaupt Ihre persönliche E-Mail-Adresse anvertrauen?
-hero-image-copy-unique-html = <strong>Verwenden Sie eine einzigartige Weiterleitungsadresse</strong> für jedes neue Konto …
-hero-image-copy-protect-html = … damit Sie <strong>Ihre eigentliche E-Mail-Adresse</strong> vor Tracking und Spam schützen können.
-hero-image-copy-control-html = Jetzt <em>haben Sie die Kontrolle darüber</em>, was in Ihrem Posteingang ankommt!
+    Melde dich bei der { -brand-name-relay }-Übersicht an, um den Überblick über deine Alias zu behalten.
+    Wenn du feststellst, dass eine davon Spam oder unerwünschte Nachrichten erhält, kannst du alle Nachrichten blockieren oder das Alias ganz löschen.
+hero-image-copy-trust = Kannst du dieser Firma überhaupt deine persönliche E-Mail-Adresse anvertrauen?
+hero-image-copy-unique-html = <strong>Verwende eine einzigartige Weiterleitungsadresse</strong> für jedes neue Konto …
+hero-image-copy-protect-html = … damit du <strong>deine eigentliche E-Mail-Adresse</strong> vor Tracking und Spam schützen kannst.
+hero-image-copy-control-html = Jetzt <em>hast du die Kontrolle darüber</em>, was in deinem Posteingang ankommt!
 
 ## Home Page Version A
 
 
 ## Hero Section
 
-landing-hero-headline = Schützen Sie Ihre eigentliche E-Mail-Adresse, um Ihren Posteingang besser zu kontrollieren
+landing-hero-headline = Schütze deine eigentliche E-Mail-Adresse, um deinen Posteingang besser zu kontrollieren
 landing-hero-body =
-    Alias-E-Mail-Adressen von { -brand-name-firefox-relay } schützen Ihre eigentliche E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
-    Jetzt können Sie dafür sorgen, dass nur noch die gewünschten E-Mails in Ihrem Posteingang landen. Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
+    Alias von { -brand-name-firefox-relay } schützen deine eigentliche E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an deinen echten Posteingang weiter.
+    Jetzt kannst du dafür sorgen, dass nur noch die gewünschten E-Mails in deinem Posteingang landen. Melde dich mit deinem { -brand-name-firefox-account } an, um loszulegen.
 
 ## How it works section
 
 landing-how-it-works-headline = Wie es funktioniert
-landing-how-it-works-body = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer eigentlichen E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
-landing-how-it-works-step-1-body-cta = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
-landing-how-it-works-step-1-body = Erstellen Sie automatisch Alias-E-Mail-Adressen, wo immer Sie Ihre E-Mail-Adresse online eingeben.
+landing-how-it-works-body = Teile Aliasse von { -brand-name-relay } anstelle deiner eigentlichen E-Mail-Adresse, um deinen E-Mail-Posteingang sowie deine Identität zu schützen.
+landing-how-it-works-step-1-body-cta = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
+landing-how-it-works-step-1-body = Erstelle automatisch Aliasse, wo immer du deine E-Mail-Adresse online eingibst.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
-    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach Ihrer E-Mail-Adresse fragen.
-    Wählen Sie es aus, um eine neue, zufällige Adresse zu erstellen, die auf @relay.mozmail.com endet.
+    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach deiner E-Mail-Adresse fragen.
+    Wähle es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
 landing-how-it-works-step-3-body =
-    Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um die von Ihnen erstellten Alias-E-Mail-Adressen zu verfolgen. { -brand-name-relay } leitet Nachrichten an Ihre E-Mail-Adresse weiter.
-    Wenn eine Alias-E-Mail-Adresse Spam oder unerwünschte Nachrichten erhält, können Sie alle Nachrichten blockieren oder den Alias sogar direkt aus der Übersicht löschen.
+    Melde dich bei der { -brand-name-relay }-Übersicht an, um die von dir erstellten Aliasse zu verfolgen. { -brand-name-relay } leitet Nachrichten an deine E-Mail-Adresse weiter.
+    Wenn ein Alias Spam oder unerwünschte Nachrichten erhält, kannst du alle Nachrichten blockieren oder das Alias sogar direkt aus der Übersicht löschen.
 
 ## Pricing section
 
@@ -172,19 +172,19 @@ landing-how-it-works-step-3-body =
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline = Nur für begrenzte Zeit: Unbegrenzte Alias-E-Mail-Adressen für { $monthly_price } pro Monat
 landing-pricing-body =
-    Probieren Sie die Alias-E-Mail-Adressen von { -brand-name-firefox-relay } aus und schützen Sie Ihren E-Mail-Posteingang.
-    Dann holen Sie sich { -brand-name-relay-premium } für noch mehr Flexibilität und individuelle Steuerung.
+    Probiere die Aliasse von { -brand-name-firefox-relay } aus und schütze deinen E-Mail-Posteingang.
+    Dann hole dir { -brand-name-relay-premium } für noch mehr Flexibilität und individuelle Steuerung.
 landing-pricing-free-price = Kostenlos
 landing-pricing-free-feature-1 = Bis zu fünf Alias-E-Mail-Adressen
 landing-pricing-free-feature-2 = Browser-Erweiterung
-landing-pricing-free-cta = Holen Sie sich { -brand-name-relay }
+landing-pricing-free-cta = Hole dir { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/Monat
 landing-pricing-premium-price-highlight = Zeitlich begrenztes Angebot
 landing-pricing-premium-feature-1 = Unbegrenzt viele Alias-E-Mail-Adressen
 landing-pricing-premium-feature-2 = Browser-Erweiterung
-landing-pricing-premium-feature-3 = Ihre eigene E-Mail-Domain
+landing-pricing-premium-feature-3 = Deine eigene E-Mail-Domain
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = ihreadresse@ihredomain.mozmail.com
 landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
@@ -193,12 +193,12 @@ landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
 
 landing-use-cases-shopping = Einkaufen
 landing-use-cases-shopping-body =
-    Etwas in einem neuen Online-Shop kaufen? Verwenden Sie beim Online-Einkauf eine Alias-E-Mail-Adresse von { -brand-name-relay } anstelle Ihrer eigentlichen E-Mail-Adresse.
-    Wir leiten die Quittung an Ihre echte E-Mail-Adresse weiter. Wenn Sie E-Mails erhalten, die Ihnen nicht gefallen, deaktivieren Sie einfach die E-Mail-Weiterleitung.
+    Etwas in einem neuen Online-Shop kaufen? Verwende beim Online-Einkauf ein Alias von { -brand-name-relay } anstelle deiner eigentlichen E-Mail-Adresse.
+    Wir leiten sie an deine echte E-Mail-Adresse weiter. Wenn du E-Mails erhältst, die dir nicht gefallen, deaktiviere einfach die E-Mail-Weiterleitung.
 landing-use-cases-social-networks = Soziale Netzwerke
 landing-use-cases-social-networks-body =
-    Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen?
-    Versuchen Sie zu verhindern, dass Ihre eigentliche E-Mail-Adresse mit Ihrer Präsenz in den sozialen Medien in Verbindung gebracht wird? Verwenden Sie eine Alias-E-Mail-Adresse von { -brand-name-relay }, um sich anzumelden und sich online zu schützen.
+    Möchtest du deine Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen?
+    Versuchst du zu verhindern, dass deine eigentliche E-Mail-Adresse mit deiner Präsenz in den sozialen Medien in Verbindung gebracht wird? Verwende ein Alias von { -brand-name-relay }, um dich anzumelden und dich online zu schützen.
 landing-use-cases-offline = Offline
 landing-use-cases-offline-body =
     Sie möchten lieber E-Mail-Bestätigungen erhalten, möchten aber auch Marketing-Spam vermeiden?
