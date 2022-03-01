@@ -657,15 +657,15 @@ modal-domain-register-success-title = Fertig!
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success = { $subdomain } ist jetzt deine E-Mail-Domain!
-modal-domain-register-success-copy = Jetzt können Sie mit Ihrer neuen Domain unbegrenzt Alias-E-Mail-Adressen erstellen! Worauf warten Sie?
+modal-domain-register-success-copy = Jetzt kannst du mit deiner neuen Domain unbegrenzt Aliasse erstellen! Worauf wartest du?
 
 ## Evergreen Survey (displayed on the profile page)
 
-survey-question-1 = Wie wahrscheinlich ist es auf einer Skala von 1-10, dass Sie { -brand-name-relay } einem Freund oder Kollegen empfehlen?
+survey-question-1 = Wie wahrscheinlich ist es auf einer Skala von 1-10, dass du { -brand-name-relay } einem Freund oder Kollegen empfiehlst?
 survey-question-2 = Ist { -brand-name-relay } einfach zu bedienen?
-survey-question-3 = Halten Sie { -brand-name-relay } für vertrauenswürdig?
+survey-question-3 = Hältst du { -brand-name-relay } für vertrauenswürdig?
 survey-question-4 = Hat { -brand-name-relay } eine übersichtliche und einfache Benutzeroberfläche?
-survey-question-5 = Wie würden Sie sich fühlen, wenn Sie { -brand-name-relay } nicht mehr verwenden könnten?
+survey-question-5 = Wie würdest du dich fühlen, wenn du { -brand-name-relay } nicht mehr verwenden kannst?
 survey-option-strongly-disagree = Stimme überhaupt nicht zu
 survey-option-disagree = Stimme nicht zu
 survey-option-unsure = Unsicher
@@ -680,7 +680,7 @@ survey-option-dismiss = Schließen
 
 ## CSAT survey
 
-survey-csat-question = Wie zufrieden sind Sie mit { -brand-name-firefox-relay }?
+survey-csat-question = Wie zufrieden bist du mit { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Sehr unzufrieden
 survey-csat-answer-dissatisfied = Unzufrieden
 survey-csat-answer-neutral = Neutral
@@ -688,12 +688,12 @@ survey-csat-answer-satisfied = Zufrieden
 survey-csat-answer-very-satisfied = Sehr zufrieden
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
-survey-csat-followup = Danke für Ihre Rückmeldung. Wir würden gerne mehr darüber erfahren, wie wir { -brand-name-relay } in Ihrem Sinne verbessern können. Wären Sie bereit, an einer zweiminütigen Umfrage teilzunehmen?
+survey-csat-followup = Danke für deine Rückmeldung. Wir würden gerne mehr darüber erfahren, wie wir { -brand-name-relay } in deinem Sinne verbessern können. Wärst du bereit, an einer zweiminütigen Umfrage teilzunehmen?
 
 ## VPN Promo Banner
 
-vpn-promo-headline = Sparen Sie 50% mit einem Jahresabo
-vpn-promo-copy = Schützen Sie Ihre Daten im Internet und wählen Sie ein VPN-Abonnement, das zu Ihnen passt.
+vpn-promo-headline = Spare 50% mit einem Jahresabo
+vpn-promo-copy = Schütze deine Daten im Internet und wähle ein VPN-Abonnement, das zu dir passt.
 vpn-promo-cta = Jetzt { -brand-name-mozilla-vpn } nutzen
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
@@ -702,14 +702,14 @@ vpn-promo-cta = Jetzt { -brand-name-mozilla-vpn } nutzen
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Diese Nachricht wurde von { $display_email } von { $linked_origin } weitergeleitet
-forwarded-email-header-cc-notice = { -brand-name-relay-premium } entfernt CCs und BCCs aus Ihren Antworten. Wenn Sie sie erneut hinzufügen, wird Ihre echte E-Mail-Adresse offen gelegt.
+forwarded-email-header-cc-notice = { -brand-name-relay-premium } entfernt CCs und BCCs aus deinen Antworten. Wenn du sie erneut hinzufügst, wird deine echte E-Mail-Adresse offengelegt.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner = Machen Sie das Upgrade auf { $premium_link } und erhalten Sie unbegrenzt viele Alias-E-Mail-Adressen und eine benutzerdefinierte Domain für E-Mails.
+forwarded-email-header-premium-banner = Mache das Upgrade auf { $premium_link } und erhalte unbegrenzt viele Aliasse und eine benutzerdefinierte Domain für E-Mails.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen finden Sie in unseren { $faq_link }
+forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen findest du in unseren { $faq_link }
 # This entire text is a link
-forwarded-email-footer = Hier können Sie die Weiterleitung für alle Alias-E-Mail-Adressen beenden und die Einstellungen verwalten.
+forwarded-email-footer = Hier kannst du die Weiterleitung für alle Aliasse beenden und die Einstellungen verwalten.
 # This entire text is a link
-forwarded-email-footer-premium-banner = Machen Sie das Upgrade auf { -brand-name-relay-premium }
+forwarded-email-footer-premium-banner = Mache das Upgrade auf { -brand-name-relay-premium }
