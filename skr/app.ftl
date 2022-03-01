@@ -9,6 +9,7 @@
 # Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
 
 -brand-name-firefox = فائرفوکس
+-brand-name-mozilla = موزلّا
 
 ## Meta Data
 
@@ -16,9 +17,13 @@
 ## Header 
 
 nav-menu = مینیو
+nav-home = مُکھ پناں
+label-open-menu = مینیو کھولو
 avatar-tooltip = پروفائل
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = عمومی سوالات
+nav-profile-sign-in = سائن ان
+nav-profile-sign-up = سائن اپ
 nav-profile-sign-out = سائن آؤٹ
 nav-profile-settings = ترتیباں
 
@@ -29,15 +34,21 @@ nav-footer-legal = قنونی
 
 ## The new feature announcement area, under the "News" link at the top
 
+whatsnew-trigger-label = خبراں
 whatsnew-close-label = بند کرو
 whatsnew-tab-new-label = خبراں
 whatsnew-tab-archive-label = تاریخ
+whatsnew-footer-clear-all-label = سارے صاف کرو
+whatsnew-footer-learn-more-label = ٻیا سِکھو
 
 ## Bento Menu
 
+bento-button-close-label = مینیو بند کرو
 
 ## Home Page
 
+home-hero-cta = سائن ان
+how-it-works-headline = ایہ کین٘ویں کم کریندے
 
 ## Home Page Version A
 
@@ -54,27 +65,55 @@ landing-pricing-free-price = مفت
 
 ## Use Cases
 
+landing-use-cases-offline = آف لائن
+landing-use-cases-gaming = کھیݙݨ
 
 ## Landing FAQ Section
 
 
 ## Premium promo page
 
+premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
+premium-promo-use-cases-gaming-heading = کھیݙݨ
 
 ## Settings page
 
+settings-meta-contact-label = ساݙے نال رابطہ کرو
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = رازداری
+settings-button-save-label = محفوظ
 
 ## FAQ Page
 
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+profile-label-skip = چھوڑو
+profile-label-continue = جاری
+profile-label-cancel = منسوخ
+profile-forwarded-note = نوٹ:
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = سارے
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = کوئی وی کائنی
 
 ## Banner Messages (displayed on the profile page)
 
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = ڳولو
+banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
+banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
+banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
+banner-label-data-notification-body-cta = ٻیا سِکھو
 
 ## Success Messages
 
@@ -90,6 +129,7 @@ landing-pricing-free-price = مفت
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-close-button-label = بند کرو
 
 ## Tip about using custom aliases
 
@@ -105,6 +145,7 @@ landing-pricing-free-price = مفت
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-button-start = شروع کرو
 
 ## Modals
 
