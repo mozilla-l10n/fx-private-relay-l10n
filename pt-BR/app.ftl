@@ -77,7 +77,16 @@ whatsnew-footer-clear-all-label = Limpar tudo
 whatsnew-footer-back-label = Voltar
 whatsnew-footer-learn-more-label = Saiba mais
 whatsnew-feature-size-limit-heading = Aumento no tamanho de anexos
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo…
+whatsnew-feature-size-limit-description = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo anexos.
 whatsnew-feature-forward-some-heading = Bloqueio de email promocional
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais…
 
 ## Bento Menu
 
