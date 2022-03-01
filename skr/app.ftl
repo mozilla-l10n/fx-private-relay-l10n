@@ -10,6 +10,11 @@
 
 -brand-name-firefox = فائرفوکس
 -brand-name-mozilla = موزلّا
+-brand-name-firefox-account =
+    { $capitalization ->
+       *[lowercase] فائرفوکس کھاتہ
+        [uppercase] فائرفوکس کھاتہ
+    }
 
 ## Meta Data
 
@@ -26,11 +31,16 @@ nav-profile-sign-in = سائن ان
 nav-profile-sign-up = سائن اپ
 nav-profile-sign-out = سائن آؤٹ
 nav-profile-settings = ترتیباں
+# This is only visible to Premium users.
+nav-profile-contact = ساݙے نال رابطہ کرو
 
 ## Footer
 
 nav-footer-privacy = رازداری
 nav-footer-legal = قنونی
+nav-footer-release-notes = ریلیز نوٹس
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = GitHub لوگو
 
 ## The new feature announcement area, under the "News" link at the top
 
@@ -43,6 +53,8 @@ whatsnew-footer-learn-more-label = ٻیا سِکھو
 
 ## Bento Menu
 
+fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = مینیو بند کرو
 
 ## Home Page
@@ -62,9 +74,12 @@ how-it-works-headline = ایہ کین٘ویں کم کریندے
 ## Pricing section
 
 landing-pricing-free-price = مفت
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 ## Use Cases
 
+landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-gaming = کھیݙݨ
 
@@ -75,6 +90,7 @@ landing-use-cases-gaming = کھیݙݨ
 
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
+premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 
 ## Settings page
