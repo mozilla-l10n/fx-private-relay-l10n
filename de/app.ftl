@@ -239,12 +239,12 @@ premium-promo-perks-perk-dashboard-headline = Steuere deine Aliasse von der Übe
 premium-promo-perks-perk-dashboard-body = Verwalte alle deine Aliasse in der benutzerfreundlichen Übersicht: Wenn du feststellst, dass eine unerwünschte Nachrichten erhält, kannst du verhindern, dass diese Nachrichten deinen Posteingang erreichen.
 premium-promo-use-cases-headline = Verwende überall Aliasse von { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Einkaufen
-premium-promo-use-cases-shopping-body = Versuchen Sie, sich für Rabatte ohne alle Spam zu registrieren? Bündeln Sie alle Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten Alias-E-Mail-Adressen, wie „mydeals@meinedomain.mozmail.com“.
+premium-promo-use-cases-shopping-body = Versuchst du, dich für Rabatte ohne Spam zu registrieren? Bündel alle deine „Einkaufs“-Konten unter einzigartigen benutzerdefinierten Aliassen, wie „mydeals@meinedomain.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
-premium-promo-use-cases-social-networks-body = Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwenden Sie eine eigene Alias-E-Mail-Adresse von { -brand-name-relay } für jedes soziale Netzwerk und verhindern Sie, dass Ihre echte E-Mail-Adresse diesen Websites bekannt wird.
+premium-promo-use-cases-social-networks-body = Möchtest du deine Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwende ein eigenes Alias von { -brand-name-relay } für jedes soziale Netzwerk und verhindere, dass deine echte E-Mail-Adresse diesen Websites bekannt wird.
 premium-promo-use-cases-gaming-heading = Gaming
-premium-promo-use-cases-gaming-body = Sind Sie besorgt, dass andere Spieler oder Trolle über Ihren Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind? Verwenden Sie eine Alias-E-Mail-Adresse wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen Ihrer Identität und den Spielen, die Sie online spielen, zu platzieren.
-premium-promo-pricing-free-price = Ihr aktuelles, kostenloses Modell
+premium-promo-use-cases-gaming-body = Du bist besorgt, dass andere Spieler oder Trolle über dein Gamertag und deine E-Mail-Adresse erfahren, wer du bist? Verwende ein Alias wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen deiner Identität und den Spielen, die du online spielst, zu platzieren.
+premium-promo-pricing-free-price = Dein aktuelles, kostenloses Modell
 
 ## Settings page
 
@@ -254,16 +254,16 @@ settings-meta-contact-tooltip = Kontakt zum Thema { -brand-name-relay }
 settings-meta-help-label = Hilfe und Unterstützung
 settings-meta-help-tooltip = Hilfe bei der Verwendung von { -brand-name-relay }
 settings-meta-status-label = Dienst-Status
-settings-meta-status-tooltip = Prüfen Sie, ob alle { -brand-name-relay }-Systeme derzeit betriebsbereit sind.
+settings-meta-status-tooltip = Prüfe, ob alle { -brand-name-relay }-Systeme derzeit betriebsbereit sind.
 settings-error-save-heading = Änderung der Einstellungen fehlgeschlagen
-settings-error-save-description = Ihre Änderungen an den Einstellungen wurden aufgrund eines Verbindungsfehlers nicht gespeichert. Bitte versuchen Sie es erneut.
+settings-error-save-description = Deine Änderungen an den Einstellungen wurden aufgrund eines Verbindungsfehlers nicht gespeichert. Bitte versuche es erneut.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Funktion „Beschriftung von Alias-E-Mail-Adresse“ ist deaktiviert
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
-settings-warning-collection-off-description = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen Sie Alias-E-Mail-Adressen erstellt und verwendet haben. Dies können Sie in den „Einstellungen“ unter „Datenerfassung“ ändern.
+settings-warning-collection-off-description = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen du Aliasse erstellt und verwendet hast. Dies kannst du in den „Einstellungen“ unter „Datenerfassung“ ändern.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Datenschutz
-setting-label-collection-description = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen Ihre Alias-E-Mail-Adressen erstellt und verwendet werden.
+setting-label-collection-description = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen deine Aliasse erstellt und verwendet werden.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den entsprechenden Websites zu beschriften. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
 setting-label-collection-off-warning-v2 = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
