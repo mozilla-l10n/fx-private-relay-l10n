@@ -118,22 +118,22 @@ bento-button-close-label = Menü schließen
 
 home-hero-headline = Verberge deine eigentliche E-Mail-Adresse, um deine Identität zu schützen
 home-hero-copy =
-    Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer eigentliche E-Mail-Adresse, um Ihre Online-Konten vor Hackern zu schützen.
-    Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
+    Teile Alias-E-Mail-Adressen von { -brand-name-relay } anstelle deiner eigentliche E-Mail-Adresse, um deine Online-Konten vor Hackern zu schützen.
+    Melde dich mit deinem { -brand-name-firefox-account } an, um loszulegen.
 home-hero-cta = Anmelden
 how-it-works-headline = So funktioniert’s
-how-it-works-subheadline = Schützen Sie Ihre persönliche Identität überall, wo Sie den { -brand-name-firefox-browser } verwenden.
-how-it-works-step-1-headline = Installieren Sie die Erweiterung
-how-it-works-step-1-link = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
+how-it-works-subheadline = Schütze deine persönliche Identität überall, wo du den { -brand-name-firefox-browser } verwendest.
+how-it-works-step-1-headline = Installiere die Erweiterung
+how-it-works-step-1-link = Lade die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 how-it-works-step-1-copy =
-    Wählen Sie das Symbol, das in Ihrer { -brand-name-firefox }-Symbolleiste erscheint, um die Anmeldeseite aufzurufen.
-    Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
+    Wähle das Symbol, das in deiner { -brand-name-firefox }-Symbolleiste erscheint, um die Anmeldeseite aufzurufen.
+    Melde dich mit deinem { -brand-name-firefox-account } an, um loszulegen.
 how-it-works-step-2-headline = Neue Alias-E-Mail-Adresse erstellen
 how-it-works-step-2-copy =
-    Beim Surfen erscheint das { -brand-name-relay }-Symbol an Feldern, in denen nach Ihrer E-Mail-Adresse gefragt wird.
-    Wählen Sie es aus, um eine neue, zufällige E-Mail-Adresse zu erstellen, die auf @relay.firefox.com endet.
-    { -brand-name-relay } leitet Nachrichten an Ihre Haupt-E-Mail-Adresse weiter, die mit Ihrem Konto verknüpft ist.
-how-it-works-step-3-headline = Ihre Alias-E-Mail-Adressen verwalten
+    Beim Surfen erscheint das { -brand-name-relay }-Symbol dort, wo nach deiner E-Mail-Adresse gefragt wird.
+    Wähle es aus, um eine neue, zufällige E-Mail-Adresse zu erstellen, die auf @mozmail.com endet.
+    { -brand-name-relay } leitet Nachrichten an deine Haupt-E-Mail-Adresse weiter, die mit deinem Konto verknüpft ist.
+how-it-works-step-3-headline = Deine Alias-E-Mail-Adressen verwalten
 how-it-works-step-3-copy =
     Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über Ihre Alias-E-Mail-Adressen zu behalten.
     Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie aus der Übersicht alle Nachrichten blockieren oder sogar die Alias-E-Mail-Adresse ganz löschen.
