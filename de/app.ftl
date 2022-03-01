@@ -201,18 +201,18 @@ landing-use-cases-social-networks-body =
     Versuchst du zu verhindern, dass deine eigentliche E-Mail-Adresse mit deiner Präsenz in den sozialen Medien in Verbindung gebracht wird? Verwende ein Alias von { -brand-name-relay }, um dich anzumelden und dich online zu schützen.
 landing-use-cases-offline = Offline
 landing-use-cases-offline-body =
-    Sie möchten lieber E-Mail-Bestätigungen erhalten, möchten aber auch Marketing-Spam vermeiden?
-    Verwenden Sie eine Alias-E-Mail-Adresse von { -brand-name-relay } anstelle Ihrer eigentlichen E-Mail-Adresse, wenn Sie in einem Geschäft einen papierlosen Beleg erhalten.
-    Wir leiten die Quittung an Ihre eigentliche E-Mail-Adresse weiter. Wenn Sie E-Mails erhalten, die Ihnen nicht gefallen, deaktivieren Sie einfach die E-Mail-Weiterleitung.
+    Du möchtest lieber E-Mail-Bestätigungen erhalten, möchtest aber auch Marketing-Spam vermeiden?
+    Verwende ein Alias von { -brand-name-relay } anstelle deiner eigentlichen E-Mail-Adresse, wenn du in einem Geschäft einen papierlosen Beleg erhältst.
+    Wir leiten die Quittung an deine eigentliche E-Mail-Adresse weiter. Wenn du E-Mails erhältst, die dir nicht gefallen, deaktiviere einfach die E-Mail-Weiterleitung.
 landing-use-cases-access-content = Zugriff auf Inhalte
 landing-use-cases-access-content-body =
-    Sie möchten sich für einen Newsletter anmelden, aber Sie vertrauen dem Absender nicht?
-    Verwenden Sie eine Alias-E-Mail-Adresse anstelle Ihrer eigentlichen Adresse – wenn Sie unerwünschte E-Mails über diese Alias-E-Mail-Adresse erhalten, hat der Absender Ihren Alias möglicherweise an andere Vermarkter verkauft oder er wurde bei einem Datenleck öffentlich bekannt.
+    Du möchtest dich für einen Newsletter anmelden, aber du vertraust dem Absender nicht?
+    Verwende ein Alias anstelle deiner eigentlichen Adresse – wenn du unerwünschte E-Mails über diese Alias-E-Mail-Adresse erhältst, hat der Absender dein Alias möglicherweise an andere Vermarkter verkauft oder er wurde bei einem Datenleck öffentlich bekannt.
     Deaktivieren oder löschen Sie einfach die Alias-E-Mail-Adresse, um Ihren E-Mail-Posteingang zu schützen.
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body =
-    Genießen Sie Online-Spiele, aber machen Sie sich Sorgen, dass andere Spieler oder Mobber über Ihren Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind?
-    Verwenden Sie die Alias-E-Mail-Adressen von { -brand-name-relay }, um eine weitere Schutzebene zwischen Ihrer Online-Identität und den Spielen, die Sie im Internet spielen, zu schaffen.
+    Genießt du Online-Spiele, aber machst dir Sorgen, dass andere Spieler oder Mobber über dein Gamertag und deine E-Mail-Adresse erfahren, wer du bist?
+    Verwende das Alias von { -brand-name-relay }, um eine weitere Schutzebene zwischen deiner Online-Identität und den Spielen, die du im Internet spielst, zu schaffen.
 
 ## Landing FAQ Section
 
@@ -221,23 +221,23 @@ landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 
 ## Premium promo page
 
-premium-promo-hero-headline = Erleichtern Sie den Schutz Ihres Posteingangs mit { -brand-name-firefox-relay-premium }
+premium-promo-hero-headline = Erleichtere den Schutz deines Posteingangs mit { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-html = Mit { -brand-name-firefox-relay-premium } erhalten Sie unbegrenzt viele benutzerdefinierte Alias-E-Mail-Adressen, die nur die gewünschten E-Mails an Ihre echte E-Mail-Adresse weiterleiten. <b>Für eine begrenzte Zeit können Sie für nur { $monthly_price } pro Monat auf Relay Premium upgraden.</b>
+premium-promo-hero-body-html = Mit { -brand-name-firefox-relay-premium } erhältst du unbegrenzt viele benutzerdefinierte Aliasse, die nur die gewünschten E-Mails an deine echte E-Mail-Adresse weiterleiten. <b>Für eine begrenzte Zeit kannst du für nur { $monthly_price } pro Monat auf Relay Premium upgraden.</b>
 premium-promo-hero-cta = Jetzt upgraden
 premium-promo-availability-warning = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
-premium-promo-perks-headline = Warum sollten Sie das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
-premium-promo-perks-lead = Mit { -brand-name-firefox-relay-premium } erhalten Sie den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten Alias-E-Mail-Adressen und Ihrer eigenen benutzerdefinierten Domain, um die Verwaltung Ihres Posteingangs noch einfacher zu machen.
+premium-promo-perks-headline = Warum solltest du das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
+premium-promo-perks-lead = Mit { -brand-name-firefox-relay-premium } erhältst du den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten Aliassen und deiner eigenen benutzerdefinierten Domain, um die Verwaltung deines Posteingangs noch einfacher zu machen.
 premium-promo-perks-cta-label = Jetzt upgraden
-premium-promo-perks-cta-tooltip = Machen Sie das Upgrade auf { -brand-name-firefox-relay-premium }
+premium-promo-perks-cta-tooltip = Mache das Upgrade auf { -brand-name-firefox-relay-premium }
 premium-promo-perks-perk-unlimited-headline = Unbegrenzt viele Alias-E-Mail-Adressen erstellen
-premium-promo-perks-perk-unlimited-body = Keine Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Mit { -brand-name-relay-premium } können Sie so viele Alias-E-Mail-Adressen generieren, wie Sie benötigen, um Ihren E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Sie können sogar auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben.
-premium-promo-perks-perk-custom-domain-headline = Wählen Sie Ihre eigene benutzerdefinierte Domain
-premium-promo-perks-perk-custom-domain-body = Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können. Benötigen Sie eine für Restaurantreservierungen? Verwenden Sie einen wie essen@meinedomain.mozmail.com – Sie müssen die Alias-Adresse nicht vorher erstellen.
-premium-promo-perks-perk-dashboard-headline = Steuern Sie Ihre Alias-E-Mail-Adressen von der Übersicht
-premium-promo-perks-perk-dashboard-body = Verwalten Sie alle Ihre Alias-E-Mail-Adressen in der benutzerfreundlichen Übersicht: Wenn Sie feststellen, dass eine unerwünschte Nachrichten erhält, können Sie verhindern, dass diese Nachrichten Ihren Posteingang erreichen.
-premium-promo-use-cases-headline = Verwenden Sie überall Alias-E-Mail-Adressen von { -brand-name-relay }
+premium-promo-perks-perk-unlimited-body = Keine Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Mit { -brand-name-relay-premium } kannst du so viele Alias-E-Mail-Adressen generieren, wie du benötigst, um deinen E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Du kannst sogar auf E-Mails antworten, ohne deine echte Adresse preiszugeben.
+premium-promo-perks-perk-custom-domain-headline = Wählen deine eigene benutzerdefinierte Domain
+premium-promo-perks-perk-custom-domain-body = Mit einer benutzerdefinierten Domain kannst du Aliasse erstellen, die du dir leichter merken und teilen kannst. Benötigst du eine für Restaurantreservierungen? Verwende eine wie essen@meinedomain.mozmail.com – Du musst die Aliasse nicht vorher erstellen.
+premium-promo-perks-perk-dashboard-headline = Steuere deine Aliasse von der Übersicht
+premium-promo-perks-perk-dashboard-body = Verwalte alle deine Aliasse in der benutzerfreundlichen Übersicht: Wenn du feststellst, dass eine unerwünschte Nachrichten erhält, kannst du verhindern, dass diese Nachrichten deinen Posteingang erreichen.
+premium-promo-use-cases-headline = Verwende überall Aliasse von { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Einkaufen
 premium-promo-use-cases-shopping-body = Versuchen Sie, sich für Rabatte ohne alle Spam zu registrieren? Bündeln Sie alle Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten Alias-E-Mail-Adressen, wie „mydeals@meinedomain.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
