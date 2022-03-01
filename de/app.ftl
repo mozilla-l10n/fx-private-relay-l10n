@@ -265,8 +265,8 @@ settings-warning-collection-off-description = { -brand-name-relay } ist derzeit 
 setting-label-collection-heading-v2 = Datenschutz
 setting-label-collection-description = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen deine Aliasse erstellt und verwendet werden.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den entsprechenden Websites zu beschriften. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
-setting-label-collection-off-warning-v2 = Diese Daten ermöglichen es uns, Ihre Alias-E-Mail-Adressen in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Alias-E-Mail-Adressen nicht mit den Websites beschriftet, auf denen sie verwendet werden.
+setting-label-collection-off-warning = Diese Daten ermöglichen es uns, deine Alias-E-Mail-Adressen in einer zukünftigen Version mit den entsprechenden Websites zu beschriften. Wenn du dich von dieser Einstellung abmeldest, werden deine Aliasse nicht mit den Websites beschriftet, auf denen sie verwendet werden.
+setting-label-collection-off-warning-v2 = Diese Daten ermöglichen es uns, deine Alias-E-Mail-Adressen in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn du dich von dieser Einstellung abmeldest, werden deine Aliasse nicht mit den Websites beschriftet, auf denen sie verwendet werden.
 settings-button-save-label = Speichern
 settings-button-save-tooltip = Gewählte Einstellungen übernehmen.
 
