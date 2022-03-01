@@ -541,55 +541,55 @@ tips-footer-link-support-tooltip = Hilfe kontaktieren
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = Neues benutzerdefiniertes Alias erstellen
-modal-custom-alias-picker-warning = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
-modal-custom-alias-picker-form-heading = Oder erstellen Sie manuell eine benutzerdefinierte Alias-E-Mail-Adresse
+modal-custom-alias-picker-warning = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
+modal-custom-alias-picker-form-heading = Oder erstelle manuell ein benutzerdefiniertes Alias
 modal-custom-alias-picker-form-prefix-label = Alias-Präfix eintragen
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = z.B. „Kaffee“
 modal-custom-alias-picker-form-submit-label = Alias-E-Mail-Adresse erzeugen
-modal-custom-alias-picker-creation-error = Ihre benutzerdefinierte Alias-E-Mail-Adresse konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Alias-Adresse, um sie zu erstellen.
+modal-custom-alias-picker-creation-error = Dein benutzerdefiniertes Alias konnte nicht manuell erstellt werden. Bitte versuche es erneut oder sende eine E-Mail an das Alias, um es zu erstellen.
 
 ## Popover explaining how custom aliases work
 
-popover-custom-alias-explainer-heading = So erstellen Sie benutzerdefinierte Alias-E-Mail-Adressen
-popover-custom-alias-explainer-explanation = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
-popover-custom-alias-explainer-generate-button-heading = Benutzerdefinierte Alias-E-Mail-Adresse manuell erstellen
-popover-custom-alias-explainer-generate-button-label = Benutzerdefinierte Alias-E-Mail-Adresse erzeugen
+popover-custom-alias-explainer-heading = So erstellst du benutzerdefinierte Aliasse
+popover-custom-alias-explainer-explanation = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
+popover-custom-alias-explainer-generate-button-heading = Benutzerdefiniertes Alias manuell erstellen
+popover-custom-alias-explainer-generate-button-label = Benutzerdefiniertes Alias erzeugen
 popover-custom-alias-explainer-close-button-label = Schließen
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
-popover-custom-alias-explainer-promotional-block-tooltip = Aktivieren Sie bei einer Alias-E-Mail-Adresse die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
+popover-custom-alias-explainer-promotional-block-tooltip = Aktiviere bei einem Alias die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails deinen Posteingang erreichen.
 
 ## Tip about using custom aliases
 
-tips-custom-alias-heading = Erstellen von Alias-E-Mail-Adressen mit Ihrer benutzerdefinierten Domain
-tips-custom-alias-content = Sie müssen nur eine eindeutige Alias-E-Mail-Adresse erstellen und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Alias-Adresse wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+tips-custom-alias-heading = Erstellen von Aliassen mit deiner benutzerdefinierten Domain
+tips-custom-alias-content = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
 
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = Werbe-E-Mails blockieren
-tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
+tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } kannst du verhindern, dass Werbe-E-Mails deinen Posteingang erreichen, während du weiterhin E-Mails wie Quittungen oder Versandinformationen erhältst.
 
 ## Onboarding 
 
-onboarding-headline = Erstellen Sie Ihre erste Alias-Adresse; Sie haben drei Möglichkeiten …
-onboarding-alias-tip-1 = Wählen Sie „Neue Alias-Adresse erstellen“, um Ihre erste Alias-Adresse zu erstellen
-onboarding-alias-tip-2 = Wählen Sie mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
-onboarding-alias-tip-3 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Alias-Adresse erstellen“.
+onboarding-headline = Erstelle dein erstes Alias; Du hast drei Möglichkeiten …
+onboarding-alias-tip-1 = Wähle „Neues Alias erstellen“, um dein erstes Alias zu erstellen
+onboarding-alias-tip-2 = Wähle mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
+onboarding-alias-tip-3 = Klicke mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wähle „Neues Alias erstellen“.
 
 ## Premium Onboarding
 
 onboarding-premium-headline = Willkommen bei { -brand-name-firefox } { -brand-name-relay-premium }
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
-onboarding-premium-subheadline-html = Jetzt können Sie E-Mail für E-Mail <strong>steuern</strong>, was in Ihrem Posteingang landet.
-onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-relay-premium } können Sie:
-onboarding-premium-control-title = steuern, welche E-Mails Sie erhalten
-onboarding-premium-control-description = Sie können unbegrenzt viele Alias-E-Mail-Adressen teilen, die die erwünschten E-Mails an Ihren Posteingang weiterleiten.
-onboarding-premium-domain-title = eine benutzerdefinierte Domain für Alias-E-Mail-Adressen einrichten
-onboarding-premium-domain-title-2 = Eine benutzerdefinierte Domain für Alias-E-Mail-Adressen verwenden:
-onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain können Sie für „Newsletter“ und „Einkaufen“ jeweils andere Alias-E-Mail-Adressen einrichten.
-onboarding-premium-reply-title = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
+onboarding-premium-subheadline-html = Jetzt kannst du E-Mail für E-Mail <strong>steuern</strong>, was in deinem Posteingang landet.
+onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-relay-premium } kannst du:
+onboarding-premium-control-title = steuern, welche E-Mails du erhältst
+onboarding-premium-control-description = Du kannst unbegrenzt viele Aliasse teilen, die die gewünschten E-Mails an deinen Posteingang weiterleiten.
+onboarding-premium-domain-title = eine benutzerdefinierte Domain für Aliasse einrichten
+onboarding-premium-domain-title-2 = Eine benutzerdefinierte Domain für Aliasse verwenden:
+onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain kannst du für „Newsletter“ und „Einkaufen“ jeweils andere Aliasse einrichten.
+onboarding-premium-reply-title = auf E-Mails antworten, ohne deine eigentliche Adresse preiszugeben
 onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
 onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } können Sie:
 
