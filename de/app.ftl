@@ -30,7 +30,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description = Mit { -brand-name-firefox-relay } können Sie Alias-E-Mail-Adressen erstellen, die an Ihren eigentlichen Posteingang weitergeleitet werden. So können Sie Ihre Online-Konten vor Hackern und unerwünschten Nachrichten schützen.
+meta-description = Mit { -brand-name-firefox-relay } kannst du Aliasse für deine E-Mail-Adresse erstellen, die Nachrichten an deinen eigentlichen Posteingang weiterleiten. So kannst du deine Online-Konten vor Hackern und unerwünschten Nachrichten schützen.
 
 ## Header 
 
@@ -44,10 +44,10 @@ avatar-tooltip = Profil
 nav-faq = FAQ
 nav-profile-sign-in = Anmelden
 nav-profile-sign-up = Registrieren
-nav-profile-manage-fxa = Verwalten Sie Ihren { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-manage-fxa = Verwalte deinen { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = Abmelden
 nav-profile-sign-out-relay = Von { -brand-name-relay } abmelden
-nav-profile-sign-out-confirm = Möchten Sie sich wirklich abmelden?
+nav-profile-sign-out-confirm = Möchtest du dich wirklich abmelden?
 nav-profile-settings = Einstellungen
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } einstellen
 nav-profile-help = Hilfe und Unterstützung
@@ -81,30 +81,30 @@ whatsnew-tab-archive-label = Chronik
 whatsnew-footer-clear-all-label = Alle löschen
 whatsnew-footer-back-label = Zurück
 whatsnew-footer-learn-more-label = Weitere Informationen
-whatsnew-empty-message = Schauen Sie hier immer wieder vorbei – wir arbeiten ständig an tollen neuen Funktionen, um { -brand-name-relay } noch besser zu machen.
+whatsnew-empty-message = Schaue hier immer wieder vorbei – wir arbeiten ständig an tollen neuen Funktionen, um { -brand-name-relay } noch besser zu machen.
 whatsnew-feature-size-limit-heading = Vergrößerung der Anhänge
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu 25 MB weiterleiten, einschließlich…
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu einer Größe von 25 MB weiterleiten, einschließlich…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu einer Größe von 25 MB weiterleiten, einschließlich Anhänge.
-whatsnew-feature-sign-back-in-heading = Melden Sie sich mit Ihren Alias-E-Mail-Adressen wieder an
+whatsnew-feature-sign-back-in-heading = Melde dich mit deinen Alias-E-Mail-Adressen wieder an
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = Um eine neue Alias-Adresse zu erstellen, wenn Sie nach Ihrer E-Mail-Adresse gefragt werden, öffnen Sie …
-whatsnew-feature-sign-back-in-description = Um sich mit einer zuvor verwendeten Alias-E-Mail-Adresse anzumelden, öffnen Sie das Kontextmenü, in dem die Website nach Ihrer E-Mail-Adresse fragt. Sie können die Alias-Adresse auswählen und das E-Mail-Adressfeld automatisch ausfüllen.
+whatsnew-feature-sign-back-in-snippet = Um ein neues Alias zu erstellen, wenn du nach deiner E-Mail-Adresse gefragt wirst, öffne …
+whatsnew-feature-sign-back-in-description = Um sich mit einem zuvor verwendeten Alias anzumelden, öffne das Kontextmenü, in dem die Website nach deiner E-Mail-Adresse fragt. Du kannst das Alias auswählen und das E-Mail-Adressfeld so automatisch ausfüllen.
 whatsnew-feature-forward-some-heading = Blockieren von Werbe-E-Mails
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ermöglicht es Ihnen, nur Werbe-E-Mails zu blockieren…
-whatsnew-feature-forward-some-description = Mit { -brand-name-relay-premium } können Sie nur Werbe-E-Mails blockieren, die an eine Alias-E-Mail-Adresse gesendet werden. Sie erhalten E-Mails wie Quittungen, aber keine Marketing-E-Mails.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ermöglicht es dir, nur Werbe-E-Mails zu blockieren…
+whatsnew-feature-forward-some-description = Mit { -brand-name-relay-premium } kannst du nur Werbe-E-Mails blockieren, die an ein Alias gesendet werden. Du erhältst E-Mails wie Quittungen, aber keine Marketing-E-Mails.
 
 ## Bento Menu
 
 bento-button-title = Apps und Dienste von { -brand-name-firefox }
-fx-makes-tech = { -brand-name-firefox } ist eine Technologie, die für Ihre Privatsphäre im Internet kämpft.
+fx-makes-tech = { -brand-name-firefox } ist eine Technologie, die für deine Privatsphäre im Internet kämpft.
 made-by-mozilla = Entwickelt von { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } für Desktop
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -116,7 +116,7 @@ bento-button-close-label = Menü schließen
 
 ## Home Page
 
-home-hero-headline = Verbergen Sie Ihre eigentliche E-Mail-Adresse, um Ihre Identität zu schützen
+home-hero-headline = Verberge deine eigentliche E-Mail-Adresse, um deine Identität zu schützen
 home-hero-copy =
     Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer eigentliche E-Mail-Adresse, um Ihre Online-Konten vor Hackern zu schützen.
     Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
