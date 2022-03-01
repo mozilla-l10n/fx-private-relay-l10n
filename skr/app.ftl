@@ -9,7 +9,17 @@
 # Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
 
 -brand-name-firefox = فائرفوکس
+-brand-name-firefox-relay = فائرفوکس رِیلے
+-brand-name-relay = رِیلے
+-brand-name-relay-premium = رِیلے پریمیئم
+-brand-name-premium = پریمیئم
+-brand-name-firefox-relay-premium = فائرفوکس رِیلے پریمیئم
+-brand-name-firefox-browser = فائرفوکس براؤزر
 -brand-name-mozilla = موزلّا
+-brand-name-mozilla-vpn = موزلّا وی پی این
+-brand-name-mozilla-privacy-pack = موزلّا رازداری پیک
+-brand-name-firefox-monitor = فائرفوکس مانیٹر
+-brand-name-pocket = پاکٹ
 -brand-name-firefox-account =
     { $capitalization ->
        *[lowercase] فائرفوکس کھاتہ
@@ -18,6 +28,7 @@
 
 ## Meta Data
 
+meta-title = { -brand-name-firefox-relay }
 
 ## Header 
 
