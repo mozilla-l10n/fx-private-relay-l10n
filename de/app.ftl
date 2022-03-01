@@ -332,26 +332,26 @@ faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com�
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
-faq-question-unsubscribe-domain-answer = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierte Domain weitergeleitet werden, aber Sie können mit dieser Domain keine neuen Alias-E-Mail-Adressen mehr erstellen. Wenn Sie insgesamt mehr als fünf Alias-E-Mail-Adressen haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
+faq-question-unsubscribe-domain-answer = Wenn du ein Downgrade von { -brand-name-relay-premium } durchführst, erhältst du weiterhin E-Mails, die über deine benutzerdefinierte Domain weitergeleitet werden, aber du kannst mit dieser Domain keine neuen Aliasse mehr erstellen. Wenn du insgesamt mehr als fünf Aliasse hast, kannst du keine weiteren erstellen. Du verlierst auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Du kannst { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftungen und der Website teilen, die Sie für Ihre Alias-E-Mail-Adressen verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
+faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten findest du in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional kannst du auch Daten zu den Beschriftungen und der Website teilen, die du für deine Aliasse verwendest, damit wir dir diesen Dienst anbieten und für dich verbessern können.
 faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
-faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir Ihre E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden Ihre E-Mails niemals länger als drei Tage speichern.
+faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir deine E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden deine E-Mails niemals länger als drei Tage speichern.
 faq-question-acceptable-use-question = Zu welchem Zweck darf { -brand-name-relay } eingesetzt werden?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat dieselben <a href="{ $url }" { $attrs }>Nutzungsbedingungen wie alle { -brand-name-mozilla }-Produkte</a>. Wir haben eine Null-Toleranz-Richtlinie, wenn es darum geht, { -brand-name-relay } für böswillige Zwecke wie Spam zu verwenden, was zur Kündigung eines Benutzerkontos führt. Wir ergreifen Maßnahmen, um Benutzer daran zu hindern, gegen unsere Bedingungen zu verstoßen, indem wir:
 faq-question-acceptable-use-answer-measure-account = ein { -brand-name-firefox-account(capitalization: "uppercase") } mit einer verifizierten E-Mail-Adresse verlangen
-faq-question-acceptable-use-answer-measure-unlimited-payment = die Erstellung von mehr als fünf Alias-E-Mail-Adressen nur gegen Bezahlung zulassen
-faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Alias-E-Mail-Adressen begrenzen, die an einem Tag generiert werden können
+faq-question-acceptable-use-answer-measure-unlimited-payment = die Erstellung von mehr als fünf Aliassen nur gegen Bezahlung zulassen
+faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Aliassen begrenzen, die an einem Tag generiert werden können
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-b-html = Bitte lesen Sie unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
+faq-question-acceptable-use-answer-b-html = Bitte lese unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
 faq-question-promotional-email-blocking-question = Was bedeutet das Blockieren von Werbe-E-Mails?
-faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir Ihnen, diese Funktion nicht für sehr wichtige Kontakte wie Ihre Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
+faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir dir, diese Funktion nicht für sehr wichtige Kontakte wie deine Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
 faq-question-detect-promotional-question = Wie erkennt { -brand-name-relay }, ob eine E-Mail Werbezwecken dient oder nicht?
 faq-question-detect-promotional-answer = Viele E-Mails werden mit „Kopfzeilen“-Metadaten gesendet, um anzuzeigen, dass sie von listenbasierten automatisierten Werkzeugen stammen. { -brand-name-firefox-relay } erkennt diese Kopfzeilen-Daten, sodass diese E-Mails blockiert werden können.
 
@@ -360,27 +360,27 @@ faq-question-detect-promotional-answer = Viele E-Mails werden mit „Kopfzeilen�
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Willkommen</span> { $email }!
-profile-headline-manage-domain = Ihre Domain-Alias-Adressen verwalten
+profile-headline-manage-domain = Deine Domain-Aliasse verwalten
 profile-supports-email-forwarding = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }
 profile-promo-upgrade-headline = Mit einem Upgrade gibt es noch mehr Funktionen.
-profile-promo-upgrade-copy = Mit einem Upgrade von { -brand-name-relay } können Sie unbegrenzt viele E-Mail-Adressen erstellen und Ihre eigene E-Mail-Domain anlegen.
+profile-promo-upgrade-copy = Mit einem Upgrade von { -brand-name-relay } kannst du unbegrenzt viele E-Mail-Adressen erstellen und deine eigene E-Mail-Domain anlegen.
 profile-promo-upgrade-cta = Upgrade von { -brand-name-relay } ausführen
-profile-label-edit = Beschriftung für diese Alias-Adresse ändern
+profile-label-edit = Beschriftung für dieses Alias ändern
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Kontoname hinzufügen
-profile-label-save-error = Fehler beim Speichern, bitte versuchen Sie es erneut.
+profile-label-save-error = Fehler beim Speichern, bitte versuche es erneut.
 profile-label-saved = Beschriftung gespeichert!
-profile-label-generate-new-alias = Neue Alias-Adresse erstellen
-profile-label-generate-new-alias-menu-random = Zufällige Alias-E-Mail-Adresse
+profile-label-generate-new-alias = Neues Alias erstellen
+profile-label-generate-new-alias-menu-random = Zufälliges Alias
 # Variables
 #   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
-profile-label-generate-new-alias-menu-custom = Alias-E-Mail-Adresse für @{ $subdomain }
+profile-label-generate-new-alias-menu-custom = Alias für @{ $subdomain }
 profile-label-delete = Löschen
-profile-label-delete-alias = Diese Alias-Adresse löschen
-profile-label-upgrade = Unbegrenzt viele Alias-Adressen erhalten
-profile-label-create-domain = Holen Sie sich Ihre E-Mail-Domain
+profile-label-delete-alias = Dieses Alias löschen
+profile-label-upgrade = Unbegrenzt viele Aliasse erhalten
+profile-label-create-domain = Hole dir deine E-Mail-Domain
 profile-label-domain = E-Mail-Domain:
-profile-label-domain-tooltip = Erstellen Sie Ihre einzigartige und benutzerdefinierte E-Mail-Domain.
+profile-label-domain-tooltip = Erstelle deine einzigartige und benutzerdefinierte E-Mail-Domain.
 profile-label-reset = Zurücksetzen
 profile-label-apply = Anwenden
 profile-label-skip = Überspringen
@@ -396,25 +396,25 @@ profile-label-details-hide = Details ausblenden
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = Weiterleiten
 profile-label-blocking = Blockieren
-profile-label-disable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse deaktivieren
-profile-label-enable-forwarding-button = E-Mail-Weiterleitung für diese Alias-Adresse aktivieren
+profile-label-disable-forwarding-button = E-Mail-Weiterleitung für dieses Alias deaktivieren
+profile-label-enable-forwarding-button = E-Mail-Weiterleitung für dieses Alias aktivieren
 profile-label-click-to-copy = Zum Kopieren anklicken
-profile-label-copy-confirmation = Alias-E-Mail-Adresse in Zwischenablage kopiert
+profile-label-copy-confirmation = Alias in Zwischenablage kopiert
 profile-label-copied = Kopiert!
 profile-label-blocked = Blockiert
 profile-label-forwarded = Weitergeleitet
 profile-label-cancel = Abbrechen
-profile-blocked-copy = { -brand-name-firefox-relay } löscht Nachrichten, bevor sie Ihren Posteingang erreichen, wenn Sie für diese Alias-Adresse „Blockieren“ auswählen.
-profile-forwarded-copy = { -brand-name-firefox-relay } sendet E-Mails an Ihren Posteingang, wenn Sie für diese Alias-Adresse „Weiterleiten“ auswählen.
+profile-blocked-copy = { -brand-name-firefox-relay } löscht Nachrichten, bevor sie deinen Posteingang erreichen, wenn du für dieses Alias „Blockieren“ auswählst.
+profile-forwarded-copy = { -brand-name-firefox-relay } sendet E-Mails an deinen Posteingang, wenn du für dieses Alias „Weiterleiten“ auswählst.
 profile-forwarded-note = Hinweis:
 profile-forwarded-note-copy = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden derzeit nicht unterstützt und nicht weitergeleitet.
 profile-forwarded-note-copy-v2 = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 profile-stat-label-blocked = Blockierte E-Mails
 profile-stat-label-forwarded = Weitergeleitete E-Mails
-profile-stat-label-aliases-used = Verwendete Alias-E-Mail-Adressen
-profile-filter-search-placeholder = Alias-E-Mail-Adressen durchsuchen
+profile-stat-label-aliases-used = Verwendete Aliasse
+profile-filter-search-placeholder = Aliasse durchsuchen
 # Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
-profile-filter-category-option-active-aliases-v2 = Weitergeleitete Alias-E-Mail-Adressen
+profile-filter-category-option-active-aliases-v2 = Weitergeleitete Aliasse
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-aliases-v2 = Blockierte Alias-E-Mail-Adressen
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
