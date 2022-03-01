@@ -279,25 +279,25 @@ faq-headline = Häufig gestellte Fragen
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Was ist eine Alias-E-Mail-Adresse von { -brand-name-relay }?
-faq-question-what-is-answer = Alias-E-Mail-Adressen sind maskierte E-Mail-Adressen, die Nachrichten an Ihre eigentliche E-Mail-Adresse weiterleiten. Diese Alias-E-Mail-Adressen ermöglichen es Ihnen, eine Adresse mit Dritten zu teilen, die Ihre eigentliche E-Mail-Adresse maskiert und Nachrichten an diese weiterleitet.
+faq-question-what-is-answer = Aliasse sind maskierte E-Mail-Adressen, die Nachrichten an deine eigentliche E-Mail-Adresse weiterleiten. Diese Aliasse ermöglichen es dir, eine Adresse mit Dritten zu teilen, die deine eigentliche E-Mail-Adresse maskiert und Nachrichten an diese weiterleitet.
 faq-question-missing-emails-question = Ich erhalte keine Nachrichten von meinen Alias-E-Mail-Adressen
-faq-question-missing-emails-answer-a = Es gibt einige Gründe, warum Sie möglicherweise keine E-Mails erhalten, die über Ihre Alias-E-Mail-Adressen weitergeleitet werden. Zu diesen Gründen gehören:
+faq-question-missing-emails-answer-a = Es gibt einige Gründe, warum du möglicherweise keine E-Mails erhältst, die über deine Aliasse weitergeleitet werden. Zu diesen Gründen gehören:
 faq-question-missing-emails-answer-reason-spam = Nachrichten landen im Spam
-faq-question-missing-emails-answer-reason-blocked = Ihr E-Mail-Anbieter blockiert Ihre Alias-E-Mail-Adresse
+faq-question-missing-emails-answer-reason-blocked = Dein E-Mail-Anbieter blockiert dein Alias
 faq-question-missing-emails-answer-reason-size = Die weitergeleitete E-Mail enthält einen Anhang, der größer als { email-size-limit } ist.
-faq-question-missing-emails-answer-reason-not-accepted = Die Website akzeptiert keine Alias-E-Mail-Adressen
-faq-question-missing-emails-answer-reason-turned-off = Die Weiterleitung ist bei dieser Alias-E-Mail-Adresse möglicherweise deaktiviert
-faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } braucht möglicherweise länger als gewöhnlich, um Ihre Nachrichten weiterzuleiten
+faq-question-missing-emails-answer-reason-not-accepted = Die Website akzeptiert keine Aliasse
+faq-question-missing-emails-answer-reason-turned-off = Die Weiterleitung ist bei diesem Alias möglicherweise deaktiviert
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } braucht möglicherweise länger als gewöhnlich, um deine Nachrichten weiterzuleiten
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = Wenn Sie ein { -brand-name-relay-premium }-Nutzer sind, der mit einem dieser Probleme zu kämpfen hat, <a href="{ $url }" { $attrs }>kontaktieren Sie unser Hilfeteam</a>.
+faq-question-missing-emails-answer-b-html = Wenn du ein { -brand-name-relay-premium }-Nutzer bist, der mit einem dieser Probleme zu kämpfen hat, <a href="{ $url }" { $attrs }>kontaktiere unser Hilfeteam</a>.
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-support-site-html = Wenn Sie mit einem dieser Probleme zu kämpfen haben, <a href="{ $url }" { $attrs }>besuchen Sie bitte unsere Hilfe-Website</a>.
-faq-question-use-cases-question = Wann sollte ich Alias-E-Mail-Adressen von { -brand-name-relay } verwenden?
-faq-question-use-cases-answer-part1 = Sie können die Alias-E-Mail-Adressen von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
-faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Alias-E-Mail-Adressen nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre eigentliche E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugbordkarten mitteilen.
-faq-question-2-question = Warum akzeptiert eine Website meine Alias-Adresse von { -brand-name-relay } nicht?
+faq-question-missing-emails-answer-support-site-html = Wenn du mit einem dieser Probleme zu kämpfen hast, <a href="{ $url }" { $attrs }>besuche bitte unsere Hilfe-Website</a>.
+faq-question-use-cases-question = Wann sollte ich Aliasse von { -brand-name-relay } verwenden?
+faq-question-use-cases-answer-part1 = Du kannst die Aliasse von { -brand-name-relay } an den meisten Orten verwenden, an denen du deine normale E-Mail-Adresse verwenden würdest. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen du möglicherweise kontrollieren möchtest, ob du in Zukunft E-Mails erhältst oder nicht.
+faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Aliassen nicht, wenn deine Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen du Anhänge erhalten musst. Du solltest beispielsweise deine eigentliche E-Mail-Adresse deiner Bank, deinem Arzt und deinem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
+faq-question-2-question = Warum akzeptiert eine Website mein Alias von { -brand-name-relay } nicht?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
