@@ -416,28 +416,28 @@ profile-filter-search-placeholder = Aliasse durchsuchen
 # Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-aliases-v2 = Weitergeleitete Aliasse
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
-profile-filter-category-option-disabled-aliases-v2 = Blockierte Alias-E-Mail-Adressen
+profile-filter-category-option-disabled-aliases-v2 = Blockierte Aliasse
 # Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
-profile-filter-category-option-relay-aliases-v2 = Zufällige Alias-E-Mail-Adressen
+profile-filter-category-option-relay-aliases-v2 = Zufällige Aliasse
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
-profile-filter-category-option-domain-based-aliases-v2 = Benutzerdefinierte Alias-E-Mail-Adressen
+profile-filter-category-option-domain-based-aliases-v2 = Benutzerdefinierte Aliasse
 # Filter on Relay aliases that only forward critical emails.
-profile-filter-category-option-critical-only-aliases = Alias-E-Mail-Adressen, die nur wichtige E-Mails weiterleiten
+profile-filter-category-option-critical-only-aliases = Aliasse, die nur wichtige E-Mails weiterleiten
 # Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
-profile-filter-category-option-promo-blocking-aliases = Werbung-blockierende Alias-Adressen
+profile-filter-category-option-promo-blocking-aliases = Werbung-blockierende Aliasse
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
-profile-promo-email-blocking-title = Welche E-Mails möchten Sie blockieren?
+profile-promo-email-blocking-title = Welche E-Mails möchtest du blockieren?
 # Block all emails sent to a speciic alias
 profile-promo-email-blocking-option-all = Alle
 # Block promotional emails sent to a speciic alias
 profile-promo-email-blocking-option-promotionals = Werbung
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Keine
-profile-promo-email-blocking-description-all = { -brand-name-relay } blockiert alle E-Mails, die an diese Alias-E-Mail-Adresse gesendet werden.
+profile-promo-email-blocking-description-all = { -brand-name-relay } blockiert alle E-Mails, die an dieses Alias gesendet werden.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } wird versuchen, Werbe-E-Mails zu blockieren, während E-Mails wie Quittungen und Versandinformationen nach wie vor weitergeleitet werden.
-profile-promo-email-blocking-description-none = { -brand-name-relay } blockiert keine E-Mails für diese Alias-E-Mail-Adresse.
+profile-promo-email-blocking-description-none = { -brand-name-relay } blockiert keine E-Mails für dieses Alias.
 profile-promo-email-blocking-label-promotionals = Werbung blockieren
 profile-promo-email-blocking-label-none = Alles blockieren
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -445,47 +445,47 @@ profile-promo-email-blocking-label-not-forwarding = Nicht weiterleiten
 
 ## Banner Messages (displayed on the profile page)
 
-banner-bounced-headline = { -brand-name-relay } konnte Ihre E-Mail nicht zustellen.
+banner-bounced-headline = { -brand-name-relay } konnte deine E-Mail nicht zustellen.
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
 #   $date (string) - A date for the next time the services tries to resend the email
 banner-bounced-copy =
     Aktuell können wir E-Mails an { $username } nicht zustellen.
-    Wir haben von Ihrem E-Mail-Anbieter eine <em>{ $bounce_type }</em> „Bounce Message“ (Unzustellbarkeitsnachricht) erhalten, als wir die E-Mail an Sie weiterleiten wollten.
-    Dies kann passieren, wenn { -brand-name-relay } keine Verbindung zu Ihrem E-Mail-Anbieter herstellen konnte oder wenn Ihr Posteingang voll ist. Wir versuchen es am { $date } erneut.
+    Wir haben von deinem E-Mail-Anbieter eine <em>{ $bounce_type }</em> „Bounce Message“ (Unzustellbarkeitsnachricht) erhalten, als wir die E-Mail an dich weiterleiten wollten.
+    Dies kann passieren, wenn { -brand-name-relay } keine Verbindung zu deinem E-Mail-Anbieter herstellen konnte oder wenn dein Posteingang voll ist. Wir versuchen es am { $date } erneut.
 banner-download-firefox-headline = { -brand-name-relay } funktioniert mit { -brand-name-firefox } noch besser
-banner-download-firefox-copy = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox-browser } macht das Erstellen von Alias-Adressen noch einfacher.
-banner-download-firefox-cta = Holen Sie sich { -brand-name-firefox }
-banner-download-install-extension-headline = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
+banner-download-firefox-copy = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox-browser } macht das Erstellen von Aliassen noch einfacher.
+banner-download-firefox-cta = Hole dir { -brand-name-firefox }
+banner-download-install-extension-headline = Lade die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 banner-download-install-extension-copy = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox-browser } macht die Verwendung von Alias-Adressen noch einfacher.
-banner-download-install-extension-cta = Installieren Sie { -brand-name-relay } für { -brand-name-firefox }
-banner-upgrade-headline = Machen Sie das Upgrade auf { -brand-name-relay-premium }
-banner-upgrade-copy = Mit { -brand-name-firefox } { -brand-name-relay-premium } wird die Verwendung von Alias-E-Mail-Adressen noch einfacher, weil Sie benutzerdefinierte Alias-Domains und unbegrenzt viele Alias-Adressen nutzen können.
-banner-upgrade-cta = Machen Sie das Upgrade auf { -brand-name-relay-premium }
+banner-download-install-extension-cta = Installiere { -brand-name-relay } für { -brand-name-firefox }
+banner-upgrade-headline = Mache das Upgrade auf { -brand-name-relay-premium }
+banner-upgrade-copy = Mit { -brand-name-firefox } { -brand-name-relay-premium } wird die Verwendung von Aliassen noch einfacher, weil du benutzerdefinierte Alias-Domains und unbegrenzt viele Alias-Adressen nutzen kannst.
+banner-upgrade-cta = Mache das Upgrade auf { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Wichtige Aufgabe
-banner-register-subdomain-headline-aliases = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen
+banner-register-subdomain-headline-aliases = Hole dir eine benutzerdefinierte Domain für deine Aliasse
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
-banner-register-subdomain-example-address = ihredomain
+banner-register-subdomain-example-address = deinedomain
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
 #
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy =
-    Mit einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen freigeben, die nicht erstellt werden müssen,
-    bevor Sie sie verwenden. Benötigen Sie eine Alias-E-Mail-Adresse für eine Reservierung? Geben Sie dem Restaurant die Adresse
-    „restaurant@ihredomain.{ $mozmail }“. Jede Alias-E-Mail-Adresse,
-    die Ihre benutzerdefinierte Domain verwendet, wird an Sie weitergeleitet.
+    Mit einer benutzerdefinierten Domain kannst du Aliasse freigeben, die nicht erstellt werden müssen,
+    bevor du sie verwendest. Benötigst du ein Alias für eine Reservierung? Gib dem Restaurant die Adresse
+    „restaurant@deinedomain.{ $mozmail }“. Jedes Alias,
+    das deine benutzerdefinierte Domain verwendet, wird an dich weitergeleitet.
 banner-choose-subdomain-input-placeholder = Domain suchen
-banner-choose-subdomain-input-placeholder-2 = Suchen Sie Ihre neue Domain
+banner-choose-subdomain-input-placeholder-2 = Suche deine neue Domain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Suchen
-banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhalten Sie noch mehr Alias-Adressen.
-banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet Ihnen unbegrenzt viele Alias-E-Mail-Adressen und Ihre eigene E-Mail-Domain und schützt Sie so im Internet.
+banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhältst du noch mehr Aliasse.
+banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet dir unbegrenzt viele Aliasse und deine eigene E-Mail-Domain und schützt dich so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
