@@ -590,38 +590,38 @@ onboarding-premium-domain-title = eine benutzerdefinierte Domain für Aliasse ei
 onboarding-premium-domain-title-2 = Eine benutzerdefinierte Domain für Aliasse verwenden:
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain kannst du für „Newsletter“ und „Einkaufen“ jeweils andere Aliasse einrichten.
 onboarding-premium-reply-title = auf E-Mails antworten, ohne deine eigentliche Adresse preiszugeben
-onboarding-premium-reply-description = Müssen Sie auf E-Mails antworten, die an eine Alias-E-Mail-Adresse gesendet wurden? Antworten Sie einfach wie gewohnt – Ihr Alias schützt Ihre E-Mail-Adresse weiterhin.
-onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } können Sie:
+onboarding-premium-reply-description = Musst du auf E-Mails antworten, die an ein Alias gesendet wurden? Antworte einfach wie gewohnt – dein Alias schützt deine E-Mail-Adresse weiterhin.
+onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } kannst du:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
-multi-part-onboarding-premium-welcome-subheadline = Jetzt können Sie E-Mail für E-Mail steuern, was in Ihrem Posteingang landet.
-multi-part-onboarding-premium-welcome-title = Steuern Sie, welche E-Mails Sie erhalten:
-multi-part-onboarding-premium-generate-unlimited-title = Unbegrenzt viele Alias-E-Mail-Adressen erstellen:
+multi-part-onboarding-premium-welcome-subheadline = Jetzt kannst du E-Mail für E-Mail steuern, was in deinem Posteingang landet.
+multi-part-onboarding-premium-welcome-title = Steuere, welche E-Mails du erhältst:
+multi-part-onboarding-premium-generate-unlimited-title = Unbegrenzt viele Aliasse erstellen:
 multi-part-onboarding-premium-welcome-button-start = Erste Schritte
-multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für Alias-E-Mail-Adressen
-multi-part-onboarding-premium-domain-title = Holen Sie sich eine benutzerdefinierte Domain für Ihre Alias-E-Mail-Adressen:
+multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für Aliasse
+multi-part-onboarding-premium-domain-title = Hole dir eine benutzerdefinierte Domain für deine Aliasse:
 multi-part-onboarding-premium-get-domain = Eine benutzerdefinierte Domain verwenden
-multi-part-onboarding-reply-headline = Auf Ihre E-Mails antworten
-multi-part-onboarding-premium-welcome-description = Kein Begrenzung auf fünf Alias-E-Mail-Adressen mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Alias-Adressen generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem Relay-Add-on nebenbei erstellen.
+multi-part-onboarding-reply-headline = Auf deine E-Mails antworten
+multi-part-onboarding-premium-welcome-description = Keine Begrenzung auf fünf Aliasse mehr: Du kannst jetzt so viele benutzerdefinierte oder zufällige Aliasse generieren, wie du benötigst. Auf dem PC kannst du diese mit dem Relay-Add-on nebenbei erstellen.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-domain-description =
-    Mithilfe einer benutzerdefinierten Domain können Sie Alias-E-Mail-Adressen erstellen, die Sie sich leichter merken und teilen können.
-    Benötigen Sie eine Alias-Adresse für Restaurantreservierungen? Sagen Sie einfach essen@ihredomain{ $mozmail } – Sie müssen die Alias-Adresse nicht vorher erstellen.
+    Mithilfe einer benutzerdefinierten Domain kannst du Aliasse erstellen, die du dir leichter merken und teilen kannst.
+    Benötigst du ein Alias für Restaurantreservierungen? Sage einfach essen@deinedomain{ $mozmail } – du musst das Alias nicht vorher erstellen.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
-    Mit einer benutzerdefinierten Domain können Sie
-    Alias-Adressen verwenden, ohne sie vorher erzeugen zu müssen. Benötigen Sie eine Alias-Adresse, um sich für einen Newsletter anzumelden? Nehmen Sie einfach „lesen@meinedomain{ $mozmail }“
-multi-part-onboarding-premium-domain-cta = Registrieren Sie jetzt Ihre benutzerdefinierte Domain:
+    Mit einer benutzerdefinierten Domain kannst du
+    Aliasse verwenden, ohne sie vorher erzeugen zu müssen. Benötigst du ein Alias, um dich für einen Newsletter anzumelden? Nimm einfach „lesen@meinedomain{ $mozmail }“
+multi-part-onboarding-premium-domain-cta = Registriere jetzt deine benutzerdefinierte Domain:
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
 multi-part-onboarding-premium-extension-headline = Blockieren, weiterleiten und antworten
-multi-part-onboarding-premium-extension-reply-title = Antworten Sie auf E-Mails, ohne Ihre eigentliche Adresse preiszugeben:
-multi-part-onboarding-premium-extension-get-title = Laden Sie die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
+multi-part-onboarding-premium-extension-reply-title = Antworte auf E-Mails, ohne deine eigentliche Adresse preiszugeben:
+multi-part-onboarding-premium-extension-get-title = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 multi-part-onboarding-premium-extension-get-description = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } macht die Verwendung von Alias-Adressen noch einfacher.
-multi-part-onboarding-premium-extension-button-download = Holen Sie sich die { -brand-name-relay }-Erweiterung
+multi-part-onboarding-premium-extension-button-download = Hole dir die { -brand-name-relay }-Erweiterung
 multi-part-onboarding-premium-extension-button-skip = Weiter, ich lade die Erweiterung später herunter
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
 multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
@@ -629,22 +629,22 @@ multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
 ## Modals
 
 modal-rename-alias-saved = Beschriftung gespeichert!
-modal-delete-headline = Diese Alias-Adresse endgültig löschen?
+modal-delete-headline = Dieses Alias endgültig löschen?
 # Variables:
 #   $email (string) - The relay alias (email address) that will be deleted
 modal-delete-warning-recovery-html =
-    Sobald Sie diese Alias-Adresse gelöscht haben, kann sie nicht wiederhergestellt werden.
+    Sobald du dieses Alias gelöscht hast, kann sie nicht wiederhergestellt werden.
     { -brand-name-firefox-relay } leitet keine Nachrichten mehr an <strong>{ $email }</strong> weiter, einschließlich Nachrichten, die der Wiederherstellung verlorener Passwörter dienen.
 modal-delete-warning-upgrade =
-    Wenn Sie sich mit dieser Alias-Adresse auf Websites anmelden, die Ihnen wichtig sind,
-    sollten Sie Ihre Zugangsdaten mit einer neuen E-Mail-Adresse aktualisieren, bevor Sie diese löschen.
+    Wenn du dich mit diesem Alias auf Websites anmeldest, die dir wichtig sind,
+    solltest du deine Zugangsdaten mit einer neuen E-Mail-Adresse aktualisieren, bevor du diese löschst.
 modal-delete-domain-address-warning-upgrade =
-    Wenn Sie diese Alias-E-Mail-Adresse verwenden, um sich bei Websites anzumelden, die Ihnen wichtig sind,
-    sollten Sie die E-Mail-Adresse Ihrer Zugangsdaten ändern, bevor Sie diese löschen.
-    Wenn Sie eine gelöschte Alias-E-Mail-Adresse neu erstellen, werden E-Mails, die an die ursprüngliche Alias-E-Mail-Adresse gesendet wurden, wieder weitergeleitet.
+    Wenn du dieses Alias verwendest, um dich bei Websites anzumelden, die dir wichtig sind,
+    solltest du die E-Mail-Adresse deiner Zugangsdaten ändern, bevor du diese löschst.
+    Wenn du ein gelöschtes Alias neu erstellst, werden E-Mails, die an die ursprüngliche Alias-E-Mail-Adresse gesendet wurden, wieder weitergeleitet.
 modal-delete-confirmation = Ja, ich möchte diese Alias-Adresse löschen.
 modal-domain-register-good-news = Gute Nachrichten!
-modal-domain-register-warning-reminder = Denken Sie daran, dass Sie nur eine Domain registrieren können. Sie können sie später nicht mehr ändern.
+modal-domain-register-warning-reminder = Denke daran, dass du nur eine Domain registrieren kannst. Du kannst sie später nicht mehr ändern.
 modal-domain-register-button = Domain registrieren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -656,7 +656,7 @@ modal-domain-register-success-title = Fertig!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success = { $subdomain } ist jetzt Ihre E-Mail-Domain!
+modal-domain-register-success = { $subdomain } ist jetzt deine E-Mail-Domain!
 modal-domain-register-success-copy = Jetzt können Sie mit Ihrer neuen Domain unbegrenzt Alias-E-Mail-Adressen erstellen! Worauf warten Sie?
 
 ## Evergreen Survey (displayed on the profile page)
