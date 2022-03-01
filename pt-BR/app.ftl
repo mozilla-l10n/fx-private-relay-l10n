@@ -82,11 +82,18 @@ whatsnew-feature-size-limit-heading = Aumento no tamanho de anexos
 # length as the English version.
 whatsnew-feature-size-limit-snippet = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo…
 whatsnew-feature-size-limit-description = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo anexos.
+whatsnew-feature-sign-back-in-heading = Cadastre-se novamente com seus endereços de redirecionamento
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Para criar um novo endereço de redirecionamento quando for solicitado seu email, abra…
+whatsnew-feature-sign-back-in-description = Para entrar com um endereço de redirecionamento usado anteriormente, abra o menu de contexto onde o site pede seu email. Você pode selecionar o endereço de redirecionamento a ser preenchido automaticamente no campo de email.
 whatsnew-feature-forward-some-heading = Bloqueio de email promocional
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais…
+whatsnew-feature-forward-some-description = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais enviados a um endereço de redirecionamento. Você receberá emails como recibos, mas não emails de propaganda.
 
 ## Bento Menu
 
