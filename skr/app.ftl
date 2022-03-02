@@ -129,6 +129,9 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = کھاتہ ناں شامل کرو
+profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 profile-label-skip = چھوڑو
 profile-label-continue = جاری
 profile-label-cancel = منسوخ
