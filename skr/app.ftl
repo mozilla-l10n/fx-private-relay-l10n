@@ -286,6 +286,11 @@ survey-option-disagree = اختلاف
 survey-option-unsure = کچ پک
 survey-option-agree = متفق
 survey-option-strongly-agree = ݙاڈھا متفق
+survey-option-somewhat-disappointed = کجھ مون٘جھا
+survey-option-very-disappointed = ݙاڈھا مون٘جھا
+survey-option-very-likely = غالباً
+survey-option-not-likely = امکان کائنی
+survey-option-dismiss = فارغ  کرو
 
 ## CSAT survey
 
