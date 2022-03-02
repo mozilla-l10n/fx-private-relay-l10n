@@ -185,6 +185,9 @@ profile-label-generate-new-alias-menu-custom = @{ $subdomain } عرفی ناں
 profile-label-delete = مٹاؤ
 profile-label-delete-alias = ایہ عرفی ناں مٹاؤ
 profile-label-upgrade = بے انت عرفی ناں گھنو
+profile-label-create-domain = آپݨی ای میل ڈومین گھنو
+profile-label-domain = ای میل ڈومین:
+profile-label-domain-tooltip = آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
@@ -198,9 +201,14 @@ profile-forwarded-note = نوٹ:
 profile-promo-email-blocking-option-all = سارے
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = کوئی وی کائنی
+profile-promo-email-blocking-label-none = سارے بلاک کرو
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-firefox-cta = { -brand-name-firefox } گھنو
+banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
+banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -231,12 +239,16 @@ tips-footer-link-faq-tooltip = اکثر پچھے ون٘ڄݨ آلے سوالات
 tips-footer-link-feedback-label = فیڈبیک
 tips-footer-link-feedback-tooltip = فیڈبیک ݙیوو
 tips-footer-link-support-label = سہارا
+tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 
 ## Alias for generating a custom alias
 
+modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
+modal-custom-alias-picker-form-submit-label = عرفی ناں جنریٹ کرو
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-generate-button-label = کسٹم عرفی ناں جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
 
 ## Tip about using custom aliases
@@ -253,11 +265,18 @@ popover-custom-alias-explainer-close-button-label = بند کرو
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
+multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
+multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
 
 ## Modals
 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
+modal-domain-register-button = ڈومین رجسٹڑ کرو
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } دستیاب ہے!
 modal-domain-register-success-title = کامیابی!
 
 ## Evergreen Survey (displayed on the profile page)
