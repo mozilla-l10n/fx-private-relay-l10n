@@ -76,6 +76,7 @@ whatsnew-footer-learn-more-label = ٻیا سِکھو
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } ایپ تے خدمتاں
 made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
 fx-desktop = ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }
 fx-lockwise = { -brand-name-firefox-lockwise }
