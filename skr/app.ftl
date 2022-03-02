@@ -211,6 +211,11 @@ modal-domain-register-success-title = کامیابی!
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = ݙاڈھا اختلاف
+survey-option-disagree = اختلاف
+survey-option-unsure = کچ پک
+survey-option-agree = متفق
+survey-option-strongly-agree = ݙاڈھا متفق
 
 ## CSAT survey
 
