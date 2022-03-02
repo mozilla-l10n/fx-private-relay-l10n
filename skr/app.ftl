@@ -47,10 +47,12 @@ nav-profile-sign-out = سائن آؤٹ
 nav-profile-settings = ترتیباں
 # This is only visible to Premium users.
 nav-profile-contact = ساݙے نال رابطہ کرو
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
 
 ## Footer
 
 nav-footer-privacy = رازداری
+nav-footer-relay-terms = { -brand-name-relay } ٹرماں
 nav-footer-legal = قنونی
 nav-footer-release-notes = ریلیز نوٹس
 logo-mozilla-alt = { -brand-name-mozilla }
@@ -87,13 +89,16 @@ how-it-works-headline = ایہ کین٘ویں کم کریندے
 
 ## How it works section
 
+landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 
 ## Pricing section
 
 landing-pricing-free-price = مفت
+landing-pricing-free-cta = { -brand-name-relay } گھنو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
@@ -110,11 +115,13 @@ landing-use-cases-gaming = کھیݙݨ
 
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
+premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 
 ## Settings page
 
+settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
@@ -122,6 +129,7 @@ settings-button-save-label = محفوظ
 
 ## FAQ Page
 
+faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
