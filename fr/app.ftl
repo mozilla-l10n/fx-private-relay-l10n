@@ -74,6 +74,7 @@ logo-github-alt = Logo GitHub
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-close-label = Fermer
+whatsnew-tab-archive-label = Historique
 whatsnew-footer-clear-all-label = Tout effacer
 whatsnew-footer-back-label = Retour
 whatsnew-footer-learn-more-label = En savoir plus
@@ -85,7 +86,17 @@ whatsnew-feature-size-limit-heading = Augmentation de la taille des pièces join
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo, en tenant compte des pièces jointes.
 whatsnew-feature-sign-back-in-heading = Reconnectez-vous avec vos alias
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Pour créer un nouvel alias quand on vous demande votre e-mail…
 whatsnew-feature-sign-back-in-description = Pour vous connecter avec un alias déjà utilisé, ouvrez le menu contextuel là où le site demande de saisir votre adresse e-mail. Il vous sera alors possible de choisir l’alias et de remplir automatiquement le champ d’adresse.
+whatsnew-feature-forward-some-heading = Blocage des e-mails promotionnels
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vous permet de bloquer seulement les e-mails promotionnels…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vous permet de bloquer seulement les e-mails promotionnels envoyés à un alias. Vous recevez les messages tels que les reçus, mais pas les e-mails des campagnes publicitaires.
 
 ## Bento Menu
 
@@ -289,6 +300,7 @@ faq-question-2-question = Pourquoi un site n’accepte-t-il pas mon alias { -bra
 faq-question-2-answer-v3-html =
     Certains sites peuvent ne pas accepter une adresse e-mail qui inclut un sous-domaine (@sousdomaine.mozmail.com) et d’autres ont cessé d’accepter toutes les adresses, à l’exception de celles des comptes Gmail, Hotmail ou Yahoo.
     Si vous n’êtes pas en mesure d’utiliser un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>veuillez nous le faire savoir</a>.
+faq-question-2-answer-v4 = Certains sites peuvent ne pas accepter une adresse e-mail qui contient un sous-domaine (@sousdomaine.mozmail.com). D’autres n’acceptent plus d’adresses autres que celles des comptes Gmail, Hotmail ou Yahoo.
 faq-question-1-question = Et les messages indésirables ?
 faq-question-1-answer-a = Bien que { -brand-name-relay } ne filtre pas les messages indésirables, notre partenaire de messagerie Amazon SES bloque les messages indésirables et les logiciels malveillants. Si { -brand-name-relay } transfère des messages que vous ne voulez pas, vous pouvez mettre à jour vos paramètres { -brand-name-relay } pour bloquer les messages de l’alias qui les transfère.
 # Variables:
@@ -333,6 +345,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = limitant le nombre d’a
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Veuillez consulter nos <a href="{ $url }" { $attrs }>conditions d’utilisation</a> pour plus d’informations.
+faq-question-promotional-email-blocking-question = En quoi consiste le blocage des e-mails promotionnels ?
+faq-question-promotional-email-blocking-answer = Les abonnés à { -brand-name-relay-premium } peuvent activer le blocage des e-mails promotionnels. Cette fonctionnalité vous transfère les e-mails importants, tels que les factures, les réinitialisations de mot de passe et les confirmations tout en bloquant ceux des campagnes publicitaires. Il existe toujours un léger risque de voir un message important bloqué, aussi nous vous recommandons de ne pas utiliser cette fonctionnalité pour des sites très importants comme celui de votre banque. Si un e-mail est bloqué, il est impossible de le récupérer.
+faq-question-detect-promotional-question = Comment { -brand-name-relay } détecte-t-il si un e-mail est promotionnel ?
+faq-question-detect-promotional-answer = De nombreux e-mails sont expédiés avec des métadonnées dans l’« en-tête » pour indiquer qu’ils proviennent d’outils automatisés se basant sur des listes. { -brand-name-firefox-relay } détecte ces données d’en-tête et peut ainsi bloquer ces e-mails.
 
 ## Profile Page (Logged In)
 
@@ -402,13 +418,24 @@ profile-filter-category-option-relay-aliases-v2 = Alias aléatoires
 profile-filter-category-option-domain-based-aliases-v2 = Alias personnalisés
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias critiques uniquement
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Alias bloquant les promotions
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = Quels e-mails voulez-vous bloquer ?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Tous
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promotionnels
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Aucun
+profile-promo-email-blocking-description-all = { -brand-name-relay } bloque tous les e-mails envoyés à cet alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tente de bloquer les e-mails promotionnels tout en transférant les messages tels que les reçus et les avis d’expédition.
+profile-promo-email-blocking-description-none = { -brand-name-relay } ne bloque aucun e-mail envoyé à cet alias.
+profile-promo-email-blocking-label-promotionals = Bloquer les promotions
 profile-promo-email-blocking-label-none = Tout bloquer
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
 
 ## Banner Messages (displayed on the profile page)
@@ -521,6 +548,9 @@ popover-custom-alias-explainer-explanation = Tout ce que vous avez à faire est 
 popover-custom-alias-explainer-generate-button-heading = Générer un alias personnalisé manuellement
 popover-custom-alias-explainer-generate-button-label = Générer un alias personnalisé
 popover-custom-alias-explainer-close-button-label = Fermer
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Bloquer les e-mails promotionnels
+popover-custom-alias-explainer-promotional-block-tooltip = Activez le blocage des e-mails promotionnels pour un alias afin d’empêcher la réception des messages des campagnes publicitaires dans votre boîte de réception.
 
 ## Tip about using custom aliases
 
@@ -529,6 +559,7 @@ tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de p
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Bloquer les e-mails promotionnels
 tips-promo-email-blocking-content = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout en autorisant la réception des messages tels que les reçus ou les avis d’expédition.
 
 ## Onboarding 
