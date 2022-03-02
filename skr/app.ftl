@@ -132,6 +132,10 @@ email-size-limit = { $size } { $unit }
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = کھاتہ ناں شامل کرو
 profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
+profile-label-saved = لیبل محفوظ تھی ڳیا!
+profile-label-delete = مٹاؤ
+profile-label-reset = ولدا ٹھیک کرو
+profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
 profile-label-continue = جاری
 profile-label-cancel = منسوخ
@@ -146,12 +150,22 @@ profile-promo-email-blocking-option-none = کوئی وی کائنی
 
 ## Banner Messages (displayed on the profile page)
 
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = تہاݙی ڈومین
+banner-choose-subdomain-input-placeholder = ڈومین ڳولو
+banner-choose-subdomain-input-placeholder-2 = آپݨی نویں ڈومین ڳولو
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = ڳولو
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
 banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-body-cta = ٻیا سِکھو
+# This string is followed by name (string) that the user chooses
+banner-choose-subdomain-label = تہاݙی ڈومین ہے:
 
 ## Success Messages
 
@@ -161,6 +175,11 @@ banner-label-data-notification-body-cta = ٻیا سِکھو
 
 ## Tips and tricks at the bottom of the page
 
+tips-footer-link-faq-label = عمومی سوالات
+tips-footer-link-faq-tooltip = اکثر پچھے ون٘ڄݨ آلے سوالات
+tips-footer-link-feedback-label = فیڈبیک
+tips-footer-link-feedback-tooltip = فیڈبیک ݙیوو
+tips-footer-link-support-label = سہارا
 
 ## Alias for generating a custom alias
 
@@ -187,6 +206,8 @@ multi-part-onboarding-premium-welcome-button-start = شروع کرو
 
 ## Modals
 
+modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
+modal-domain-register-success-title = کامیابی!
 
 ## Evergreen Survey (displayed on the profile page)
 
