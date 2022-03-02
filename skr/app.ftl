@@ -18,6 +18,7 @@
 -brand-name-mozilla = موزلّا
 -brand-name-mozilla-vpn = موزلّا وی پی این
 -brand-name-mozilla-privacy-pack = موزلّا رازداری پیک
+-brand-name-firefox-lockwise = فائرفوکس لاک وائز
 -brand-name-firefox-monitor = فائرفوکس مانیٹر
 -brand-name-pocket = پاکٹ
 -brand-name-firefox-account =
@@ -219,9 +220,17 @@ survey-option-strongly-agree = ݙاڈھا متفق
 
 ## CSAT survey
 
+survey-csat-answer-very-dissatisfied = ݙاڈھا غیرتسلی بخش
+survey-csat-answer-dissatisfied = غیر تسلی بخش
+survey-csat-answer-neutral = غیر جانبدار
+survey-csat-answer-satisfied = تسلی بخش
+survey-csat-answer-very-satisfied = ݙاڈھا تسلی بخش
 
 ## VPN Promo Banner
 
+vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# This entire text is a link
+forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
