@@ -127,12 +127,14 @@ premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
+premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 
 ## Settings page
 
 settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
 settings-meta-help-label = مدد تے سہارا
+settings-meta-status-label = خدمت حیثیت
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
@@ -145,6 +147,7 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
 
 ## Profile Page (Logged In)
 
