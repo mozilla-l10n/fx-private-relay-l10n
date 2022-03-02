@@ -72,7 +72,9 @@ whatsnew-footer-learn-more-label = ٻیا سِکھو
 ## Bento Menu
 
 made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
+fx-desktop = ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = موبائل کیتے { -brand-name-firefox-browser }
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
