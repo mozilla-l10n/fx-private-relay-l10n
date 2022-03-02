@@ -84,6 +84,8 @@ bento-button-close-label = مینیو بند کرو
 
 home-hero-cta = سائن ان
 how-it-works-headline = ایہ کین٘ویں کم کریندے
+how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
+how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 
 ## Home Page Version A
 
@@ -98,10 +100,13 @@ landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 ## Pricing section
 
 landing-pricing-free-price = مفت
+landing-pricing-free-feature-1 = ٥ تائیں ای میل عرفی ناں
+landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-free-cta = { -brand-name-relay } گھنو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
@@ -127,6 +132,7 @@ premium-promo-use-cases-gaming-heading = کھیݙݨ
 
 settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
+settings-meta-help-label = مدد تے سہارا
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
