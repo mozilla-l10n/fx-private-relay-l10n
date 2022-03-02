@@ -67,6 +67,40 @@ nav-footer-release-notes = Uitgaveopmerkingen
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Nieuws
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nieuwe aankondiging.
+       *[other] { $count } nieuwe aankondigingen.
+    }
+whatsnew-close-label = Sluiten
+whatsnew-tab-new-label = Nieuws
+whatsnew-tab-archive-label = Geschiedenis
+whatsnew-footer-clear-all-label = Alles wissen
+whatsnew-footer-back-label = Terug
+whatsnew-footer-learn-more-label = Meer info
+whatsnew-empty-message = Kom zeker nog eens terug – we werken altijd aan geweldige nieuwe functies om { -brand-name-relay } nog beter te maken.
+whatsnew-feature-size-limit-heading = Verbeterde bijlagegrootte
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief bijlagen.
+whatsnew-feature-sign-back-in-heading = Opnieuw aanmelden met uw aliassen
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Als u een nieuwe alias wilt maken wanneer u om uw e-mailadres wordt gevraagd, opent u...
+whatsnew-feature-sign-back-in-description = Om u aan te melden met een eerder gebruikte alias, opent u het contextmenu waar de website om uw e-mailadres vraagt. U kunt de alias selecteren en het e-mailveld automatisch invullen.
+whatsnew-feature-forward-some-heading = Blokkeren van reclameberichten
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren…
+whatsnew-feature-forward-some-description = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren die naar een alias zijn verzonden. U ontvangt e-mailberichten zoals bonnen, maar geen marketingberichten.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox }-apps en -services
@@ -272,9 +306,11 @@ faq-question-2-question = Waarom accepteert een website mijn alias van { -brand-
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Sommige websites accepteren mogelijk geen e-mailadres dat een subdomein bevat (@subdomein.mozmail.com) en andere accepteren geen enkel adres meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
     Als u geen { -brand-name-relay }-alias kunt gebruiken, <a href="{ $url }" { $attrs }>laat het ons dan weten</a>.
+faq-question-2-answer-v4 = Sommige websites accepteren mogelijk geen e-mailadres met een subdomein (@subdomein.mozmail.com) en andere accepteren niet alle adressen meer, behalve die van Gmail-, Hotmail- of Yahoo-accounts.
 faq-question-1-question = Hoe zit het met spam?
 faq-question-1-answer-a = Hoewel { -brand-name-relay } niet filtert op spam, blokkeert onze e-mailpartner Amazon SES wel spam en malware. Als { -brand-name-relay } ongewenste berichten doorstuurt, kunt u uw instellingen van { -brand-name-relay } bijwerken om berichten te blokkeren van de alias die ze doorstuurt.
 # Variables:
@@ -319,6 +355,10 @@ faq-question-acceptable-use-answer-measure-rate-limit = Het aantal aliassen dat 
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bekijk onze <a href="{ $url }" { $attrs }>Servicevoorwaarden</a> voor meer informatie.
+faq-question-promotional-email-blocking-question = Wat is blokkeren van reclameberichten?
+faq-question-promotional-email-blocking-answer = Abonnees van { -brand-name-relay-premium } kunnen blokkeren van reclameberichten inschakelen. Deze functie stuurt u belangrijke e-mailberichten door, zoals ontvangstbewijzen, wachtwoordherinitialisaties en bevestigingen, terwijl marketingberichten nog steeds worden geblokkeerd. Er is een kleine kans dat een belangrijk bericht nog steeds wordt geblokkeerd, dus we raden u aan deze functie niet te gebruiken voor belangrijke plaatsen, zoals uw bank. Als een e-mailbericht wordt geblokkeerd kan het niet worden hersteld.
+faq-question-detect-promotional-question = Hoe detecteert { -brand-name-relay } of een e-mailbericht reclame is of niet?
+faq-question-detect-promotional-answer = Veel e-mailberichten worden verzonden met ‘header’-metagegevens die aangeven dat ze afkomstig zijn van hulpmiddelen die automatisch berichten verzenden. { -brand-name-firefox-relay } detecteert deze headergegevens, zodat het deze e-mailberichten kan blokkeren.
 
 ## Profile Page (Logged In)
 
@@ -388,6 +428,25 @@ profile-filter-category-option-relay-aliases-v2 = Willekeurige aliassen
 profile-filter-category-option-domain-based-aliases-v2 = Aangepaste aliassen
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alleen-kritiek-aliassen
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Reclameblokkerende aliassen
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = Welke e-mailberichten wilt u blokkeren?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Alle
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Reclame
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Geen
+profile-promo-email-blocking-description-all = { -brand-name-relay } blokkeert alle e-mailberichten die naar deze alias worden verzonden.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probeert reclameberichten te blokkeren terwijl e-mailberichten zoals ontvangstbewijzen en verzendinformatie nog steeds wordt doorgestuurd.
+profile-promo-email-blocking-description-none = { -brand-name-relay } blokkeert geen enkel e-mailbericht voor deze alias.
+profile-promo-email-blocking-label-promotionals = Reclame blokkeren
+profile-promo-email-blocking-label-none = Alles blokkeren
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Niet doorsturen
 
 ## Banner Messages (displayed on the profile page)
 
@@ -503,11 +562,16 @@ popover-custom-alias-explainer-explanation = Het enige dat u hoeft te doen, is e
 popover-custom-alias-explainer-generate-button-heading = Handmatig een aangepaste alias aanmaken
 popover-custom-alias-explainer-generate-button-label = Aangepaste alias aanmaken
 popover-custom-alias-explainer-close-button-label = Sluiten
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Reclameberichten blokkeren
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Aliassen maken met uw aangepaste domein
 tips-custom-alias-content = Het enige dat u hoeft te doen, is een unieke alias bedenken en delen die uw aangepaste domein gebruikt – de alias wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
