@@ -529,6 +529,7 @@ tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de p
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-content = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout en autorisant la réception des messages tels que les reçus ou les avis d’expédition.
 
 ## Onboarding 
 
