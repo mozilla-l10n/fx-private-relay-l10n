@@ -44,6 +44,7 @@ nav-faq = عمومی سوالات
 nav-profile-sign-in = سائن ان
 nav-profile-sign-up = سائن اپ
 nav-profile-sign-out = سائن آؤٹ
+nav-profile-sign-out-relay = { -brand-name-relay } توں سائن آؤٹ تھیوو
 nav-profile-settings = ترتیباں
 # This is only visible to Premium users.
 nav-profile-contact = ساݙے نال رابطہ کرو
@@ -70,6 +71,7 @@ whatsnew-footer-learn-more-label = ٻیا سِکھو
 
 ## Bento Menu
 
+made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
 fx-lockwise = { -brand-name-firefox-lockwise }
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
