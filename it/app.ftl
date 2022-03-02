@@ -71,6 +71,35 @@ nav-footer-release-notes = Note di versione
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo di GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Novità
+whatsnew-close-label = Chiudi
+whatsnew-tab-new-label = Novità
+whatsnew-tab-archive-label = Cronologia
+whatsnew-footer-clear-all-label = Elimina tutto
+whatsnew-footer-back-label = Indietro
+whatsnew-footer-learn-more-label = Ulteriori informazioni
+whatsnew-empty-message = Tieni d’occhio questo spazio: lavoriamo costantemente su nuove fantastiche funzionalità per rendere { -brand-name-relay } sempre migliore.
+whatsnew-feature-size-limit-heading = Più spazio per gli allegati
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB…
+whatsnew-feature-size-limit-description = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB (allegati inclusi).
+whatsnew-feature-sign-back-in-heading = Registrati direttamente con i tuoi alias
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Per creare un nuovo alias quando ti viene richiesta la tua email…
+whatsnew-feature-sign-back-in-description = Per accedere con un alias utilizzato in precedenza, apri il menu contestuale nel campo in cui il sito richiede la tua email. Potrai selezionare l’alias e compilare automaticamente il campo dell’email.
+whatsnew-feature-forward-some-heading = Blocco delle email pubblicitarie
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie inviate a un alias. Riceverai email importanti, come ad esempio fatture, ma non email di marketing.
+
 ## Bento Menu
 
 bento-button-title = App e servizi { -brand-name-firefox }
@@ -267,9 +296,11 @@ faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (@sottodominio.mozmail.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo.
     Se non riesci a utilizzare un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>contattaci</a>.
+faq-question-2-answer-v4 = Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (@sottodominio.mozmail.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo.
 faq-question-1-question = Cosa succede alla posta indesiderata?
 faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
 # Variables:
@@ -314,6 +345,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = È possibile creare un n
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Per ulteriori informazioni consulta i nostri <a href="{ $url }" { $attrs }>termini di servizio</a>.
+faq-question-promotional-email-blocking-question = Che cos’è il blocco delle email pubblicitarie?
 
 ## Profile Page (Logged In)
 
@@ -383,6 +415,9 @@ profile-filter-category-option-relay-aliases-v2 = Alias casuali
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizzati
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Alias con inoltro essenziale
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -499,6 +534,9 @@ popover-custom-alias-explainer-close-button-label = Chiudi
 
 tips-custom-alias-heading = Crea alias utilizzando il tuo dominio personalizzato
 tips-custom-alias-content = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
