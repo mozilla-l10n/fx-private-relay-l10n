@@ -32,6 +32,8 @@ meta-title = { -brand-name-firefox-relay }
 
 ## Header 
 
+logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = مینیو
 nav-home = مُکھ پناں
 label-open-menu = مینیو کھولو
@@ -60,10 +62,13 @@ whatsnew-close-label = بند کرو
 whatsnew-tab-new-label = خبراں
 whatsnew-tab-archive-label = تاریخ
 whatsnew-footer-clear-all-label = سارے صاف کرو
+whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
 
 ## Bento Menu
 
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = مینیو بند کرو
@@ -85,6 +90,9 @@ how-it-works-headline = ایہ کین٘ویں کم کریندے
 ## Pricing section
 
 landing-pricing-free-price = مفت
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/month
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
