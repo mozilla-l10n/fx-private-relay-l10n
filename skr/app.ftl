@@ -43,9 +43,14 @@ avatar-tooltip = پروفائل
 nav-faq = عمومی سوالات
 nav-profile-sign-in = سائن ان
 nav-profile-sign-up = سائن اپ
+nav-profile-manage-fxa = آپݨاں { -brand-name-firefox-account(capitalization: "uppercase") } منیج کرو
 nav-profile-sign-out = سائن آؤٹ
 nav-profile-sign-out-relay = { -brand-name-relay } توں سائن آؤٹ تھیوو
+nav-profile-sign-out-confirm = بھلا تہاکوں پک ہے جو تساں سائن آؤٹ تھیوݨ چاہندے ہو؟
 nav-profile-settings = ترتیباں
+nav-profile-settings-tooltip = { -brand-name-firefox-relay } کنفیگر کرو
+nav-profile-help = مدد تے سہارا
+nav-profile-help-tooltip = { -brand-name-relay } ورت تے مدد گھنو
 # This is only visible to Premium users.
 nav-profile-contact = ساݙے نال رابطہ کرو
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
@@ -84,6 +89,7 @@ bento-button-close-label = مینیو بند کرو
 
 home-hero-cta = سائن ان
 how-it-works-headline = ایہ کین٘ویں کم کریندے
+how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 
@@ -113,6 +119,7 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 
 ## Use Cases
 
+landing-use-cases-shopping = خریداری
 landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-gaming = کھیݙݨ
@@ -123,8 +130,10 @@ landing-use-cases-gaming = کھیݙݨ
 ## Premium promo page
 
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
+premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
