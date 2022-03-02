@@ -564,6 +564,7 @@ popover-custom-alias-explainer-generate-button-label = Aangepaste alias aanmaken
 popover-custom-alias-explainer-close-button-label = Sluiten
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Reclameberichten blokkeren
+popover-custom-alias-explainer-promotional-block-tooltip = Reclameberichten blokkeren inschakelen voor een alias, zodat marketingberichten uw Postvak IN niet bereiken.
 
 ## Tip about using custom aliases
 
@@ -572,6 +573,8 @@ tips-custom-alias-content = Het enige dat u hoeft te doen, is een unieke alias b
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Reclameberichten blokkeren
+tips-promo-email-blocking-content = Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken, terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
 
 ## Onboarding 
 
