@@ -91,6 +91,7 @@ bento-button-close-label = مینیو بند کرو
 home-hero-cta = سائن ان
 how-it-works-headline = ایہ کین٘ویں کم کریندے
 how-it-works-step-1-headline = ایکسٹنشن گھنو
+how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 
@@ -134,6 +135,9 @@ premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
+premium-promo-perks-perk-custom-domain-headline = آپݨاں کسٹم ڈومین چُݨو
+premium-promo-perks-perk-dashboard-headline = ڈیشبورڈ کنوں آپݨے عرفی ناں کنٹرول کرو
+premium-promo-use-cases-headline = کہیں وی جاء تے { -brand-name-relay } ای میل عرفی ناں ورتو
 premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
@@ -158,14 +162,29 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
+faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
+faq-question-1-question = سپیم بارے؟
+faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
+faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
+faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 
 ## Profile Page (Logged In)
 
+profile-headline-manage-domain = آپݨے ڈومین عرفی ناں منیج کرو
+profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
+profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = کھاتہ ناں شامل کرو
 profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 profile-label-saved = لیبل محفوظ تھی ڳیا!
+profile-label-generate-new-alias = نواں عرفی ناں جنریٹ کرو
+profile-label-generate-new-alias-menu-random = رینڈم عرفی ناں
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = @{ $subdomain } عرفی ناں
 profile-label-delete = مٹاؤ
+profile-label-delete-alias = ایہ عرفی ناں مٹاؤ
+profile-label-upgrade = بے انت عرفی ناں گھنو
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
