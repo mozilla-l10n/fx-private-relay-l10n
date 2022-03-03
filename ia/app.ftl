@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Accrescer le dimension del annexo
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite annexos.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } pote ora inultrar e-mails usque { email-size-limit }, includite…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } pote ora inultrar e-mails usque { email-size-limit }, includite annexos.
 whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
