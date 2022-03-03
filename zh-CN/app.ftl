@@ -80,11 +80,12 @@ whatsnew-tab-archive-label = 历史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 详细了解
+whatsnew-empty-message = 请常回来看看！我们正不断努力开发更多新功能，让 { -brand-name-relay } 更加强大易用。
 whatsnew-feature-size-limit-heading = 附件容量增加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } 现在可以转发最大 25MB 的电子邮件，包含…
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } 现在可以转发最大 25MB 的电子邮件，包含（…
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
@@ -274,6 +275,7 @@ faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay 
 #   $attrs (string) - specific attributes added to external links
 # Deprecated
 faq-question-2-answer-v3-html = 部分网站可能不接受使用子域名（@subdomain.mozmail.com）邮箱注册；有些网站则是不接受 Gmail、Hotmail、Yahoo 以外的账户注册。若您无法使用 { -brand-name-relay } 马甲，<a href="{ $url }" { $attrs }>请告知我们</a>。
+faq-question-2-answer-v4 = 有些网站可能不接受包含子域（如 @subdomain.mozmail.com）的邮箱地址，而有些网站已停止接受除 Gmail、Hotmail 和 Yahoo 外的所有电子邮件地址。
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
@@ -307,6 +309,9 @@ faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 和所有 { -brand-name-mozilla } 产品采用相同的 <a href="{ $url }" { $attrs }>使用条款</a>。我们对于将 { -brand-name-relay } 用于发送垃圾邮件等恶意用途实行零容忍政策，停用违规账户。我们采取一系列措施来防止用户违反我们的条款：
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account }使用验证过的电子邮件地址
 faq-question-acceptable-use-answer-measure-unlimited-payment = 要求用户付费才可创建五个以上马甲
 faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成的马甲数量
