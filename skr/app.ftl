@@ -79,6 +79,7 @@ whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
+whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 
 ## Bento Menu
 
@@ -94,6 +95,7 @@ bento-button-close-label = مینیو بند کرو
 
 ## Home Page
 
+home-hero-headline = آپݨی سُن٘ڄاݨ دی حفاظت کیتے آپݨاں اصل ای میل پتہ لُکاؤ
 home-hero-cta = سائن ان
 how-it-works-headline = ایہ کین٘ویں کم کریندے
 how-it-works-step-1-headline = ایکسٹنشن گھنو
@@ -110,6 +112,7 @@ how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 ## How it works section
 
 landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
+landing-how-it-works-step-1-body-cta = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 
 ## Pricing section
 
@@ -125,6 +128,7 @@ landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 
 ## Use Cases
 
@@ -135,6 +139,7 @@ landing-use-cases-gaming = کھیݙݨ
 
 ## Landing FAQ Section
 
+landing-faq-headline = { -brand-name-firefox-relay } بارے اہم سوالات
 
 ## Premium promo page
 
@@ -155,6 +160,7 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
 settings-meta-help-label = مدد تے سہارا
+settings-meta-help-tooltip = { -brand-name-relay } ورتݨ نال مدد گھنو
 settings-meta-status-label = خدمت حیثیت
 settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھئی
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
@@ -172,15 +178,20 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
+faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
+faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
 profile-headline-manage-domain = آپݨے ڈومین عرفی ناں منیج کرو
 profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
@@ -215,6 +226,7 @@ profile-label-details-hide = تفصیلاں لُکاؤ
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
+profile-label-disable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
