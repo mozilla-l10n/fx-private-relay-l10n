@@ -167,7 +167,7 @@ landing-use-cases-offline-body = 更喜欢收到电子邮件收据，亦想避�
 landing-use-cases-access-content = 网络读物
 landing-use-cases-access-content-body = 想要订阅某个新闻通讯，但不信任发件人？请使用马甲邮箱。若您开始收到转发的无关电子邮件，则说明发件人可能已将您的马甲邮箱出售给其他营销人员，甚至可能已被公开泄露。此时，只需关闭或删除马甲即可保护您的收件箱。
 landing-use-cases-gaming = 游戏
-landing-use-cases-gaming-body = 热爱网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用 { -brand-name-relay } 马甲邮箱，多一层身份伪装，多一份安全。
+landing-use-cases-gaming-body = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用 { -brand-name-relay } 马甲邮箱，多一层身份伪装，多一份安全。
 
 ## Landing FAQ Section
 
