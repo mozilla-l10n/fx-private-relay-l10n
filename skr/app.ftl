@@ -223,6 +223,8 @@ profile-label-cancel = منسوخ
 profile-forwarded-note = نوٹ:
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
+profile-stat-label-aliases-used = ورتیل ای میل عرفی ناں
+profile-filter-search-placeholder = عرفی ناں ڳولو
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -238,6 +240,8 @@ profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = عمل مرحلہ
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -263,6 +267,8 @@ banner-choose-subdomain-label = تہاݙی ڈومین ہے:
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = مدد تے گُر
+tips-header-button-close-label = فارغ کرو
 tips-footer-link-faq-label = عمومی سوالات
 tips-footer-link-faq-tooltip = اکثر پچھے ون٘ڄݨ آلے سوالات
 tips-footer-link-feedback-label = فیڈبیک
@@ -273,10 +279,13 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 ## Alias for generating a custom alias
 
 modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
+modal-custom-alias-picker-form-heading = یا، کسٹم عرفی ناں دستی تخلیق کرو
+modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج کرو
 modal-custom-alias-picker-form-submit-label = عرفی ناں جنریٹ کرو
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-generate-button-heading = کسٹم عرفی ناں دستی جنریٹ کرو
 popover-custom-alias-explainer-generate-button-label = کسٹم عرفی ناں جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
 
@@ -297,19 +306,30 @@ popover-custom-alias-explainer-close-button-label = بند کرو
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
+multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
+multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
+multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
 
 ## Modals
 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
+modal-delete-confirmation = جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔
+modal-domain-register-good-news = خوشخبری!
 modal-domain-register-button = ڈومین رجسٹڑ کرو
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
 modal-domain-register-success-title = کامیابی!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈومین ہے!
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟
 survey-option-strongly-disagree = ݙاڈھا اختلاف
 survey-option-disagree = اختلاف
 survey-option-unsure = کچ پک
