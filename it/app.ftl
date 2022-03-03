@@ -74,6 +74,7 @@ logo-github-alt = Logo di GitHub
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Novità
+whatsnew-counter-label = { $count } novità
 whatsnew-close-label = Chiudi
 whatsnew-tab-new-label = Novità
 whatsnew-tab-archive-label = Cronologia
@@ -346,6 +347,8 @@ faq-question-acceptable-use-answer-measure-rate-limit = È possibile creare un n
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Per ulteriori informazioni consulta i nostri <a href="{ $url }" { $attrs }>termini di servizio</a>.
 faq-question-promotional-email-blocking-question = Che cos’è il blocco delle email pubblicitarie?
+faq-question-promotional-email-blocking-answer = Gli abbonati { -brand-name-relay-premium } possono attivare il blocco delle email pubblicitarie. Questa funzione garantisce l’inoltro di email importanti come fatture, reimpostazioni di password e conferme, bloccando invece i messaggi di marketing. Esiste il rischio, seppur minimo, che un messaggio importante possa essere bloccato. Per questo motivo ti consigliamo di non utilizzare questa funzione per servizi essenziali, come la tua banca. Se un’email viene bloccata, non sarà possibile recuperarla.
+faq-question-detect-promotional-question = In che modo { -brand-name-relay } stabilisce se si tratta di un’email pubblicitaria?
 faq-question-detect-promotional-answer = Molte email vengono inviate con metadati di “intestazione” che indicano la provenienza da strumenti automatizzati basati su elenchi. { -brand-name-firefox-relay } è in grado di rilevare questi dati e bloccare queste email.
 
 ## Profile Page (Logged In)
@@ -430,9 +433,11 @@ profile-promo-email-blocking-option-promotionals = Pubblicitarie
 profile-promo-email-blocking-option-none = Nessuna
 profile-promo-email-blocking-description-all = { -brand-name-relay } sta bloccando tutte le email inviate a questo alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tenterà di bloccare le email pubblicitarie, consentendoti comunque di ricevere email essenziali come fatture o informazioni su una spedizione.
+profile-promo-email-blocking-description-none = { -brand-name-relay } non sta bloccando alcuna email per questo alias.
 profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
 profile-promo-email-blocking-label-none = Blocca tutto
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Inoltro disattivato
 
 ## Banner Messages (displayed on the profile page)
 
@@ -544,6 +549,8 @@ popover-custom-alias-explainer-explanation = Tutto ciò che devi fare è inventa
 popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personalizzato
 popover-custom-alias-explainer-generate-button-label = Genera alias personalizzato
 popover-custom-alias-explainer-close-button-label = Chiudi
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Blocca email pubblicitarie
 popover-custom-alias-explainer-promotional-block-tooltip = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
 
 ## Tip about using custom aliases
