@@ -227,7 +227,9 @@ profile-label-details-hide = تفصیلاں لُکاؤ
 profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
 profile-label-disable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
+profile-label-enable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
+profile-label-copy-confirmation = عرفی ناں کلپ بورڈ تے نقل تھی ڳیا
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
@@ -267,12 +269,14 @@ banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
 banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
+banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = تہاݙی ڈومین ہے:
 
 ## Success Messages
 
+success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 
 ## Error Messages
 
