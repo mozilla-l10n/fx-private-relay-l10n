@@ -67,12 +67,18 @@ logo-github-alt = GitHub لوگو
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = خبراں
+whatsnew-counter-label =
+    { $count ->
+        [one] ١ نواں اعلان۔
+       *[other] { $count } نویں اعلان۔
+    }
 whatsnew-close-label = بند کرو
 whatsnew-tab-new-label = خبراں
 whatsnew-tab-archive-label = تاریخ
 whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
+whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
 
 ## Bento Menu
 
@@ -114,6 +120,7 @@ landing-pricing-free-cta = { -brand-name-relay } گھنو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-feature-1 = بے انت ای میل عرفی ناں
 landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
@@ -149,6 +156,9 @@ settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
 settings-meta-help-label = مدد تے سہارا
 settings-meta-status-label = خدمت حیثیت
+settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھئی
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = ای میل عرفی ناں لیبل عمل غیرفعال تھی ڳیا
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
@@ -163,6 +173,7 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
+faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
@@ -171,6 +182,7 @@ faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قا
 ## Profile Page (Logged In)
 
 profile-headline-manage-domain = آپݨے ڈومین عرفی ناں منیج کرو
+profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -192,6 +204,12 @@ profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
 profile-label-continue = جاری
+# This string is followed by an email address
+profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
+# This string is followed by date
+profile-label-first-emailed = پہلی ای میل تھئی:
+# This string is followed by date:
+profile-label-created = بݨیا:
 profile-label-cancel = منسوخ
 profile-forwarded-note = نوٹ:
 
