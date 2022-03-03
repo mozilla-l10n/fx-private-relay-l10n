@@ -70,6 +70,10 @@ logo-github-alt = GitHub 徽标
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = 新闻
+whatsnew-counter-label =
+    { $count ->
+       *[other] { $count } 则新公告。
+    }
 whatsnew-close-label = 关闭
 whatsnew-tab-new-label = 新闻
 whatsnew-tab-archive-label = 历史
@@ -77,7 +81,17 @@ whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 详细了解
 whatsnew-feature-size-limit-heading = 附件容量增加
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } 现在可以转发最大 25MB 的电子邮件，包含…
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
+whatsnew-feature-forward-some-heading = 屏蔽营销邮件
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
 
 ## Bento Menu
 
@@ -370,6 +384,8 @@ profile-filter-category-option-relay-aliases-v2 = 随机马甲
 profile-filter-category-option-domain-based-aliases-v2 = 自定义马甲
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = 只转发重要邮件的马甲
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = 屏蔽营销邮件的马甲邮箱
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -510,6 +526,7 @@ tips-custom-alias-content = 您只需要创建一个独特的马甲——别名�
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = 屏蔽营销邮件
+tips-promo-email-blocking-content = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 
 ## Onboarding 
 
