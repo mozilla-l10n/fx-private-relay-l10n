@@ -210,8 +210,19 @@ profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
 profile-label-first-emailed = پہلی ای میل تھئی:
 # This string is followed by date:
 profile-label-created = بݨیا:
+profile-label-details-show = تفصیلاں ݙکھاؤ
+profile-label-details-hide = تفصیلاں لُکاؤ
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = اڳوں تے پٹھݨ
+profile-label-blocking = بلاک کرݨ
+profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
+profile-label-copied = نقل تھی ڳیا!
+profile-label-blocked = بلاک تھی ڳیا
+profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-cancel = منسوخ
 profile-forwarded-note = نوٹ:
+profile-stat-label-blocked = بلاک تھیاں ای میلاں
+profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
