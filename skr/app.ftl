@@ -239,6 +239,10 @@ profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used = ورتیل ای میل عرفی ناں
 profile-filter-search-placeholder = عرفی ناں ڳولو
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے عرفی ناں
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عرفی ناں
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
