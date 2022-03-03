@@ -348,6 +348,9 @@ faq-question-acceptable-use-answer-measure-rate-limit = Limitar le numero de ali
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
 faq-question-promotional-email-blocking-question = Que es le blocada de e-mail promotional?
+faq-question-promotional-email-blocking-answer = Le abonatos de { -brand-name-relay-premium } pote activar le blocada de e-mail promotional. Iste functionalitate te inultrera le e-mails importante, tal como quitantias, reinitialisationes e confirmationes de contrasigno, durante que ancora bloca le messages de marketing. Il ha un leve risco que un importante message pote ancora esser blocate, assi nos consilia que tu non usa iste functionalitate pro sitos multo importante como tu banca. Si un e-mail es blocate, illo non pote esser recovrate.
+faq-question-detect-promotional-question = Como face { -brand-name-relay } a disvelar si un e-mail es Promotional o non?
+faq-question-detect-promotional-answer = Multe e-mails es inviate con metadatos de “testa” pro indicar que illos veni ab applicationes automatisate basate sur lista. { -brand-name-firefox-relay } revela iste datos de testa, assi illo pote blocar iste e-mails.
 
 ## Profile Page (Logged In)
 
@@ -417,15 +420,22 @@ profile-filter-category-option-relay-aliases-v2 = Aliases casual
 profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Aliases solo critic
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Aliases blocante-promo
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Que e-mails vole tu blocar?
 # Block all emails sent to a speciic alias
 profile-promo-email-blocking-option-all = Tote
 # Block promotional emails sent to a speciic alias
 profile-promo-email-blocking-option-promotionals = Promotional
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Nulle
+profile-promo-email-blocking-description-all = { -brand-name-relay } bloca tote le e-mails inviate a iste alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tentara de blocar e-mails promotional durante que ancora inultrara e-mails como quitantias e informationes de expedition.
+profile-promo-email-blocking-description-none = { -brand-name-relay } non bloca ulle e-mails pro iste alias.
+profile-promo-email-blocking-label-promotionals = Blocar promotiones
 profile-promo-email-blocking-label-none = Blocar tote
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Non inultrar
