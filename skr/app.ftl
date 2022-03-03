@@ -263,10 +263,12 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
+banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = عمل مرحلہ
+banner-register-subdomain-headline-aliases = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -279,6 +281,8 @@ banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
 banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
+# Data Notification Banner:
+banner-label-data-notification-header = { -brand-name-relay } تے جلدی آندا پئے
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
@@ -287,6 +291,9 @@ banner-choose-subdomain-label = تہاݙی ڈومین ہے:
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered = تہاݙی { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 
 ## Error Messages
@@ -309,19 +316,26 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
 modal-custom-alias-picker-form-heading = یا، کسٹم عرفی ناں دستی تخلیق کرو
 modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج کرو
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
 modal-custom-alias-picker-form-submit-label = عرفی ناں جنریٹ کرو
 
 ## Popover explaining how custom aliases work
 
+popover-custom-alias-explainer-heading = کسٹم  عرفی ناں کین٘ویں تخلیق کروں
 popover-custom-alias-explainer-generate-button-heading = کسٹم عرفی ناں دستی جنریٹ کرو
 popover-custom-alias-explainer-generate-button-label = کسٹم عرفی ناں جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
 
 ## Tip about using custom aliases
 
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 
 ## Onboarding 
 
@@ -332,7 +346,9 @@ popover-custom-alias-explainer-close-button-label = بند کرو
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
+multi-part-onboarding-premium-generate-unlimited-title = بے انت ای میل عرفی ناں جنریٹ کرو:
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
+multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو:
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
@@ -343,12 +359,16 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 ## Modals
 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
+modal-delete-headline = ایہ عرفی ناں پکّا پکّا مٹاؤں؟
 modal-delete-confirmation = جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔
 modal-domain-register-good-news = خوشخبری!
 modal-domain-register-button = ڈومین رجسٹڑ کرو
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 modal-domain-register-success-title = کامیابی!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
@@ -363,6 +383,7 @@ survey-option-disagree = اختلاف
 survey-option-unsure = کچ پک
 survey-option-agree = متفق
 survey-option-strongly-agree = ݙاڈھا متفق
+survey-option-i-wouldnt-care = میں خیال کائناں رکھیساں
 survey-option-somewhat-disappointed = کجھ مون٘جھا
 survey-option-very-disappointed = ݙاڈھا مون٘جھا
 survey-option-very-likely = غالباً
