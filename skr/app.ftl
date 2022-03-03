@@ -243,6 +243,10 @@ profile-filter-search-placeholder = عرفی ناں ڳولو
 profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے عرفی ناں
 # Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عرفی ناں
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی ناں
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -250,11 +254,14 @@ profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عر
 profile-promo-email-blocking-option-all = سارے
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = کوئی وی کائنی
+profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 
 ## Banner Messages (displayed on the profile page)
 
+banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
