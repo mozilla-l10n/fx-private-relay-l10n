@@ -280,6 +280,7 @@ success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳی�
 
 ## Error Messages
 
+error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
 
 ## Tips and tricks at the bottom of the page
 
