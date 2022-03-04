@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Verbeterde bijlagegrootte
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief bijlagen.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu e-mailberichten tot { email-size-limit } doorsturen, inclusief…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kan nu e-mailberichten tot { email-size-limit } doorsturen, inclusief bijlagen.
 whatsnew-feature-sign-back-in-heading = Opnieuw aanmelden met uw aliassen
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
