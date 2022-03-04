@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Ökning av bilagans storlek
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive...
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive bilagor.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive...
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive bilagor.
 whatsnew-feature-sign-back-in-heading = Logga in igen med dina alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
