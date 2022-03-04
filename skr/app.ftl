@@ -83,6 +83,10 @@ whatsnew-footer-learn-more-label = ٻیا سِکھو
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
 whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکوں صرف پروموشنل ای میلاں بلاک کرݨ دی اجازت ݙینیدی ہے۔۔۔
 
 ## Bento Menu
 
