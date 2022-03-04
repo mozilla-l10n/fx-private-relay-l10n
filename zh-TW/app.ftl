@@ -87,6 +87,11 @@ whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 # length as the English version.
 whatsnew-feature-size-limit-snippet = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含…
 whatsnew-feature-size-limit-description = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含附件）
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含…
+whatsnew-feature-size-limit-description-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含附件）
 whatsnew-feature-sign-back-in-heading = 使用您的別名信箱登入網站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
