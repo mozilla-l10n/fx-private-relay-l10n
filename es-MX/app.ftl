@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Aumento del tamaño del archivo adjunto
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25MB, incluyendo…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25MB, incluyendo adjuntos.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos hasta de { email-size-limit }, incluyendo…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } ahora puede reenviar correos electónicos hasta de { email-size-limit }, incluyendo adjuntos.
 whatsnew-feature-sign-back-in-heading = Inicia sesión de nuevo con tus alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
