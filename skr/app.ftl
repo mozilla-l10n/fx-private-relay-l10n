@@ -53,6 +53,8 @@ nav-profile-help = مدد تے سہارا
 nav-profile-help-tooltip = { -brand-name-relay } ورت تے مدد گھنو
 # This is only visible to Premium users.
 nav-profile-contact = ساݙے نال رابطہ کرو
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = { -brand-name-relay-premium } بارے رابطہ وچ راہوو
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
 
 ## Footer
@@ -147,6 +149,7 @@ premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
+premium-promo-perks-perk-unlimited-headline = بے انت ای میل عرفی ناں تخلیق کرو
 premium-promo-perks-perk-custom-domain-headline = آپݨاں کسٹم ڈومین چُݨو
 premium-promo-perks-perk-dashboard-headline = ڈیشبورڈ کنوں آپݨے عرفی ناں کنٹرول کرو
 premium-promo-use-cases-headline = کہیں وی جاء تے { -brand-name-relay } ای میل عرفی ناں ورتو
@@ -159,6 +162,7 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 
 settings-headline = { -brand-name-relay } ترتیباں
 settings-meta-contact-label = ساݙے نال رابطہ کرو
+settings-meta-contact-tooltip = { -brand-name-relay } بارے رابطے وچ راہوو
 settings-meta-help-label = مدد تے سہارا
 settings-meta-help-tooltip = { -brand-name-relay } ورتݨ نال مدد گھنو
 settings-meta-status-label = خدمت حیثیت
@@ -168,6 +172,7 @@ settings-warning-collection-off-heading = ای میل عرفی ناں لیبل �
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
+settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔
 
 ## FAQ Page
 
@@ -186,6 +191,7 @@ faq-question-availability-question = { -brand-name-relay } کتھ دستیاب �
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
+faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
 
 ## Profile Page (Logged In)
 
