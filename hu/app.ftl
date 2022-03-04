@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Mellékletek méretének növelése
 # length as the English version.
 whatsnew-feature-size-limit-snippet = A { -brand-name-firefox-relay } mostantól akár 25 MB-os e-maileket is továbbíthat…
 whatsnew-feature-size-limit-description = A { -brand-name-firefox-relay } mostantól akár 25 MB-os e-maileket is továbbíthat, beleértve a mellékleteket is.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = A { -brand-name-firefox-relay } mostantól akár { email-size-limit }-os e-maileket is továbbíthat…
+whatsnew-feature-size-limit-description-var = A { -brand-name-firefox-relay } mostantól akár { email-size-limit }-os e-maileket is továbbíthat, beleértve a mellékleteket is.
 whatsnew-feature-sign-back-in-heading = Jelentkezzen be újra az álneveivel
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
