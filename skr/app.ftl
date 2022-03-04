@@ -81,6 +81,7 @@ whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
+whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 
 ## Bento Menu
@@ -104,12 +105,14 @@ how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
+hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
 
 ## Home Page Version A
 
 
 ## Hero Section
 
+landing-hero-headline = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
 
 ## How it works section
 
@@ -125,6 +128,7 @@ landing-pricing-free-cta = { -brand-name-relay } گھنو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-price-highlight = محدود ویلے دی قیمت
 landing-pricing-premium-feature-1 = بے انت ای میل عرفی ناں
 landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
@@ -137,6 +141,7 @@ landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں د
 landing-use-cases-shopping = خریداری
 landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
+landing-use-cases-access-content = مواد تائیں رسائی کرو
 landing-use-cases-gaming = کھیݙݨ
 
 ## Landing FAQ Section
