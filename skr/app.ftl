@@ -354,12 +354,16 @@ onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، ت
 
 ## Premium Onboarding
 
+onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premium } وچ ست بسم اللہ
+onboarding-premium-domain-title = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو
+onboarding-premium-domain-title-2 = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-generate-unlimited-title = بے انت ای میل عرفی ناں جنریٹ کرو:
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
+multi-part-onboarding-premium-domain-headline = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین
 multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو:
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
