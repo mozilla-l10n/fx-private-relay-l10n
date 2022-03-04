@@ -312,6 +312,9 @@ banner-label-data-notification-header-v2 = نویاں خصوصیات فعال ک
 banner-label-data-notification-body-cta = ٻیا سِکھو
 # This string is followed by name (string) that the user chooses
 banner-choose-subdomain-label = تہاݙی ڈومین ہے:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
 
 ## Success Messages
 
@@ -323,6 +326,9 @@ success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳی�
 ## Error Messages
 
 error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
+error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
+error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
+error-premium-set-create-subdomain = سب ڈومین عرفی ناں تخلیق کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
 error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
 
