@@ -92,6 +92,11 @@ whatsnew-feature-size-limit-heading = Cynnydd maint atodiad
 # length as the English version.
 whatsnew-feature-size-limit-snippet = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at 25MB ymlaen, gan gynnwys…
 whatsnew-feature-size-limit-description = Gall { -brand-name-firefox-relay } anfon e-byst hyd at 25MB ymlaen, gan gynnwys atodiadau.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at { email-size-limit } ymlaen, gan gynnwys…
+whatsnew-feature-size-limit-description-var = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at { email-size-limit } ymlaen, gan gynnwys atodiadau.
 whatsnew-feature-sign-back-in-heading = Mewngofnodwch eto gyda'ch arallenwau
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
