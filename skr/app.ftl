@@ -364,12 +364,16 @@ onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، ت
 ## Premium Onboarding
 
 onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premium } وچ ست بسم اللہ
+onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:
+onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
 onboarding-premium-domain-title = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو
 onboarding-premium-domain-title-2 = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو:
+onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
+multi-part-onboarding-premium-welcome-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:
 multi-part-onboarding-premium-generate-unlimited-title = بے انت ای میل عرفی ناں جنریٹ کرو:
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
 multi-part-onboarding-premium-domain-headline = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین
@@ -377,6 +381,7 @@ multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے �
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
+multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
