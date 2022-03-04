@@ -89,6 +89,11 @@ whatsnew-feature-size-limit-heading = Збільшено розміру вкла
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } відтепер може пересилати електронні листи розміром до 25 МБ включно…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } відтепер може пересилати електронні листи розміром до 25 МБ включно з вкладеннями.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } відтепер може пересилати електронні листи розміром до { email-size-limit }, включаючи…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } тепер може пересилати електронні листи розміром до { email-size-limit }, включаючи вкладення.
 whatsnew-feature-sign-back-in-heading = Увійдіть використовуючи свої псевдоадреси
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
