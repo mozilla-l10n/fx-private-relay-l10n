@@ -81,6 +81,16 @@ whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = ہݨ { -brand-name-firefox-relay } ٢٥ ایم بی تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔
+whatsnew-feature-size-limit-description = ہݨ { -brand-name-firefox-relay } ٢٥ ایم بی تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔
+whatsnew-feature-size-limit-description-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔
 whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
