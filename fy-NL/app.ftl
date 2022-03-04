@@ -67,6 +67,10 @@ nav-footer-release-notes = Utjefteopmerkingen
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Nijs
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox }-apps en -tsjinsten
@@ -272,6 +276,7 @@ faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Guon websites akseptearje mooglik gjin e-mailadres dat in subdomein befettet (@subdomein.mozmail.com) en oaren akseptearje gjin inkeld adres mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
     
@@ -379,6 +384,9 @@ profile-filter-category-option-relay-aliases-v2 = Eigenwillige aliassen
 profile-filter-category-option-domain-based-aliases-v2 = Oanpaste aliassen
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Allinnich-krityk-aliassen
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
@@ -499,6 +507,9 @@ popover-custom-alias-explainer-close-button-label = Slute
 
 tips-custom-alias-heading = Aliassen oanmeitsje mei jo oanpaste domein
 tips-custom-alias-content = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
