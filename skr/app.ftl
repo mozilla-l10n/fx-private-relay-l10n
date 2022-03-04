@@ -256,13 +256,19 @@ profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
 profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی ناں
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = صرف ضروری عرفی ناں
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = مشہوریاں روکݨ آلے عرفی ناں
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = تساں کہڑیاں ای میلاں بلاک کرݨ چاہندے ہو؟
 # Block all emails sent to a speciic alias
 profile-promo-email-blocking-option-all = سارے
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = پروموشنل
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = کوئی وی کائنی
+profile-promo-email-blocking-description-all = ایں عرفی ناں کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
 profile-promo-email-blocking-description-none = ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
