@@ -362,6 +362,9 @@ faq-question-acceptable-use-answer-measure-rate-limit = It oantal aliassen dat o
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Besjoch ús <a href="{ $url }" { $attrs }>Tsjinstbetingsten</a> foar mear ynformaasje.
 faq-question-promotional-email-blocking-question = Wat is blokkearjen fan reklameberjochten?
+faq-question-promotional-email-blocking-answer = Abonnees fan { -brand-name-relay-premium } kinne blokkearjen fan reklameberjochten ynskeakelje. Dizze funksje stjoert jo wichtige e-mailberjochten troch, lykas ûntfangstbewizen, wachtwurdwerinisjalisaasjes en befêstigingen, wylst marketingberjochten noch hieltyd blokkearre wurde. Der is in lytse kâns dat in wichtich berjocht noch hieltyd blokkearre wurdt, dus wy riede jo oan dizze funksje net te brûken foar wichtige plakken, lykas jo bank. As in e-mailberjocht blokkearre wurdt kin it net wersteld wurde.
+faq-question-detect-promotional-question = Hoe detektearret { -brand-name-relay } of in e-mailberjocht reklame is of net?
+faq-question-detect-promotional-answer = In protte e-mailberjochten wurde ferstjoerd met ‘header’-metagegevens dy’t oanjaan dat se ôfkomstich binne fan helpmiddelen dy’t automatysk berjochten ferstjoere. { -brand-name-firefox-relay } detektearret dizze headergegevens, sadat it dizze e-mailberjochten blokkearje kin.
 
 ## Profile Page (Logged In)
 
@@ -431,9 +434,25 @@ profile-filter-category-option-relay-aliases-v2 = Eigenwillige aliassen
 profile-filter-category-option-domain-based-aliases-v2 = Oanpaste aliassen
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Allinnich-krityk-aliassen
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Reklameblokkearjende aliassen
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Hokker e-mailberjochten wolle jo blokkearje?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Alle
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Reklame
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Gjin
+profile-promo-email-blocking-description-all = { -brand-name-relay } blokkearret alle e-mailberjochten dy’t nei dizze alias ferstjoerd wurde.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probearret reklameberjochten te blokkearjen, wylst e-mailberjochten lykas ûntfangstbewizen en ferstjoerynformaasje noch hieltyd trochstjoerd wurdt.
+profile-promo-email-blocking-description-none = { -brand-name-relay } blokkearret gjin inkeld e-mailberjocht foar dizze alias.
+profile-promo-email-blocking-label-promotionals = Reklame blokkearje
+profile-promo-email-blocking-label-none = Alles blokkearje
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Net trochstjoere
 
 ## Banner Messages (displayed on the profile page)
 
@@ -549,6 +568,9 @@ popover-custom-alias-explainer-explanation = It iennige dat jo hoege te dwaan, i
 popover-custom-alias-explainer-generate-button-heading = Hânmjittich in oanpaste alias oanmeitsje
 popover-custom-alias-explainer-generate-button-label = Oanpaste alias oanmeitsje
 popover-custom-alias-explainer-close-button-label = Slute
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Reklameberjochten blokkearje
+popover-custom-alias-explainer-promotional-block-tooltip = Reklameberjochten blokkearje ynskeakelje foar in alias, sadat marketingberjochten jo Postfek YN berikke.
 
 ## Tip about using custom aliases
 
@@ -557,6 +579,8 @@ tips-custom-alias-content = It iennige dat jo hoege te dwaan, is in unike alias 
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Reklameberjochten blokkearje
+tips-promo-email-blocking-content = Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke, wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange.
 
 ## Onboarding 
 
