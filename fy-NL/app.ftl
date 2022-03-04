@@ -316,6 +316,7 @@ faq-question-2-answer-v3-html =
     Guon websites akseptearje mooglik gjin e-mailadres dat in subdomein befettet (@subdomein.mozmail.com) en oaren akseptearje gjin inkeld adres mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
     
     As jo gjin { -brand-name-relay }-alias brûke kinne, <a href="{ $url }" { $attrs }>lit it ús dan witte</a>.
+faq-question-2-answer-v4 = Guon websites akseptearje mooglik gjin e-mailadres mei in subdomein (@subdomein.mozmail.com) en oare akseptearje net alle adressen mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
 faq-question-1-question = Hoe sit it mei spam?
 faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy’t se trochstjoert.
 # Variables:
@@ -350,6 +351,17 @@ faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }
 faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
+faq-question-acceptable-use-question = Wat binne de akseptabele tapassingen fan { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat deselde <a href="{ $url }" { $attrs }>brûksbetingsten as alle { -brand-name-mozilla }-produkten</a>. Wy hawwe in nultolerânsjebelied as it giet om it gebrûk fan { -brand-name-relay } foar kweadwaande doeleinen lykas spam, wat liedt ta de beëiniging fan in brûkersaccount. Wy nimme maatregelen om foar te kommen dat brûkers ús betingsten skeine troch:
+faq-question-acceptable-use-answer-measure-account = In { -brand-name-firefox-account } mei in ferifiearre e-mailadres te fereaskjen
+faq-question-acceptable-use-answer-measure-unlimited-payment = Betelling te freegjen as in brûker mear as fiif aliassen oanmeitsje wol
+faq-question-acceptable-use-answer-measure-rate-limit = It oantal aliassen dat op ien dei oanmakke wurde kin te beheinen
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Besjoch ús <a href="{ $url }" { $attrs }>Tsjinstbetingsten</a> foar mear ynformaasje.
+faq-question-promotional-email-blocking-question = Wat is blokkearjen fan reklameberjochten?
 
 ## Profile Page (Logged In)
 
