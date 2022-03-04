@@ -70,6 +70,36 @@ logo-github-alt = GitHub-logo
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Nijs
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nije oankundiging.
+       *[other] { $count } nije oankundigingen.
+    }
+whatsnew-close-label = Slute
+whatsnew-tab-new-label = Nijs
+whatsnew-tab-archive-label = Skiednis
+whatsnew-footer-clear-all-label = Alles wiskje
+whatsnew-footer-back-label = Tebek
+whatsnew-footer-learn-more-label = Mear ynfo
+whatsnew-empty-message = Kom wis nochris werom – wy wurkje altyd oan geweldige nije funksjes om { -brand-name-relay } noch better te meitsjen.
+whatsnew-feature-size-limit-heading = Ferbettere bylagegrutte
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kin no e-mailberjochten oant 25 MB trochstjoere, ynklusyf…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kin no e-mailberjochten oant 25 MB trochstjoere, ynklusyf bylagen.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kin no e-mailberjochten oant { email-size-limit } trochstjoere, ynklusyf…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kin no e-mailberjochten oant { email-size-limit } trochstjoere, ynklusyf bylagen.
+whatsnew-feature-sign-back-in-heading = Opnij oanmelde mei jo aliassen
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = As jo in nije alias meitsje wolle wannear’t jo om jo e-mailadres frege wurdt, iepenje jo...
+whatsnew-feature-sign-back-in-description = Om jo oan te melden mei in earder brûkte alias, iepenje jo it kontekstmenu wêr’t de website om jo e-mailadres freget. Jo kinne de alias selektearje en it e-mailfjild automatysk ynfolje.
+whatsnew-feature-forward-some-heading = Blokkearjen fan reklameberjochten
 
 ## Bento Menu
 
