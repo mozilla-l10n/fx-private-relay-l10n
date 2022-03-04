@@ -88,6 +88,11 @@ whatsnew-feature-size-limit-heading = Più spazio per gli allegati
 # length as the English version.
 whatsnew-feature-size-limit-snippet = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB…
 whatsnew-feature-size-limit-description = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB (allegati inclusi).
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a { email-size-limit }…
+whatsnew-feature-size-limit-description-var = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a { email-size-limit } (allegati inclusi).
 whatsnew-feature-sign-back-in-heading = Registrati direttamente con i tuoi alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
