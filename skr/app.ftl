@@ -147,6 +147,7 @@ landing-use-cases-gaming = کھیݙݨ
 ## Landing FAQ Section
 
 landing-faq-headline = { -brand-name-firefox-relay } بارے اہم سوالات
+landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 
 ## Premium promo page
 
@@ -194,6 +195,7 @@ faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرف�
 faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
+faq-question-4-question = بھلا میں آپݨے { -brand-name-relay } عرفی ناں ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
