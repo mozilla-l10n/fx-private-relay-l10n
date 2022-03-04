@@ -186,6 +186,7 @@ faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہ�
 faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
+faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
@@ -253,6 +254,8 @@ profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عر
 profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی ناں
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = صرف ضروری عرفی ناں
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
