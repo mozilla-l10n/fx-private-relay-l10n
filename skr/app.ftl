@@ -165,6 +165,7 @@ landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 
 ## Premium promo page
 
+premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
