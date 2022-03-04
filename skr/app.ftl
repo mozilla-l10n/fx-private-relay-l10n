@@ -350,6 +350,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 
 ## Onboarding 
 
+onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، تہاݙے کول ترائے طریقے ہن۔۔۔
 
 ## Premium Onboarding
 
