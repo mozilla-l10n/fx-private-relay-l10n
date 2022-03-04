@@ -260,6 +260,7 @@ profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی نا�
 profile-promo-email-blocking-option-all = سارے
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = کوئی وی کائنی
+profile-promo-email-blocking-description-none = ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -268,6 +269,7 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
+banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
@@ -305,6 +307,8 @@ success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳی�
 ## Error Messages
 
 error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
+error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
+error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
 
 ## Tips and tricks at the bottom of the page
 
@@ -338,6 +342,7 @@ popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای م
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = تہاݙی کسٹم ڈومین ورت تے عرفی ناں تخلیق کریندا پئے
 
 ## Tip about using custom aliases
 
