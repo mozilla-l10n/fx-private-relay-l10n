@@ -120,6 +120,7 @@ how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay 
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
+hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
 
 ## Home Page Version A
 
@@ -188,6 +189,7 @@ settings-meta-help-label = مدد تے سہارا
 settings-meta-help-tooltip = { -brand-name-relay } ورتݨ نال مدد گھنو
 settings-meta-status-label = خدمت حیثیت
 settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھئی
+settings-error-save-description = کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = ای میل عرفی ناں لیبل عمل غیرفعال تھی ڳیا
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
