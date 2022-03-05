@@ -137,6 +137,7 @@ landing-hero-headline = آپݨے انباکس کنٹرول کرݨ دی مدد ک
 
 landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
+landing-how-it-works-step-1-body = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل عرفی ناں جنریٹ کرو۔
 
 ## Pricing section
 
@@ -212,6 +213,8 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
 faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
+faq-question-missing-emails-answer-reason-blocked = تہاݙا ای میل فراہم کرݨ آلا تہاݙے عرفی ناں بلاک کریندا پئے
+faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
 faq-question-missing-emails-answer-reason-turned-off = عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
@@ -222,6 +225,7 @@ faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
+faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
@@ -312,6 +316,7 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
+banner-download-install-extension-headline = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
 banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
