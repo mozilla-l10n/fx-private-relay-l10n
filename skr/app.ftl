@@ -361,6 +361,7 @@ error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہ�
 error-premium-set-create-subdomain = سب ڈومین عرفی ناں تخلیق کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
 error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
+error-subdomain-select = سب ڈومین عرفی ناں خلقݨ کنوں پہلے سب ڈومین چُݨݨ ضروری ہے
 
 ## Tips and tricks at the bottom of the page
 
