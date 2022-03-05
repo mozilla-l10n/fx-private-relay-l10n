@@ -92,6 +92,10 @@ whatsnew-feature-size-limit-description = ہݨ { -brand-name-firefox-relay } ٢�
 whatsnew-feature-size-limit-snippet-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔
 whatsnew-feature-size-limit-description-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔
 whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = نواں عرفی ناں خلقݨ کیتے، ڄڈݨ تہاݙے کولوں ای میل دا پُچھیجے تاں، کھولو۔۔۔
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
