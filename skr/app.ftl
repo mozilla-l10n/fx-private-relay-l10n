@@ -224,6 +224,7 @@ faq-question-4-question = بھلا میں آپݨے { -brand-name-relay } عرف�
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
+faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
