@@ -412,6 +412,7 @@ onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-p
 onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
 onboarding-premium-domain-title = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو
 onboarding-premium-domain-title-2 = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو:
+onboarding-premium-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -426,6 +427,8 @@ multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
+multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
+multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
@@ -474,6 +477,7 @@ survey-csat-answer-very-satisfied = ݙاڈھا تسلی بخش
 
 ## VPN Promo Banner
 
+vpn-promo-headline = پورے سال دی سبسکرپشن نال ٥٠٪ بچاؤ
 vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
