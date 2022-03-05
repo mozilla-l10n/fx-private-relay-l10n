@@ -130,6 +130,11 @@ whatsnew-feature-size-limit-heading = Zväčšenie veľkosti prílohy
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily do veľkosti 25 MB, vrátane…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až 25 MB vrátane príloh.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až { email-size-limit }, vrátane…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až { email-size-limit }, vrátane príloh.
 whatsnew-feature-sign-back-in-heading = Znova sa prihláste pomocou svojich aliasov
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
