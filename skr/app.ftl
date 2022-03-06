@@ -119,6 +119,7 @@ bento-button-close-label = مینیو بند کرو
 home-hero-headline = آپݨی سُن٘ڄاݨ دی حفاظت کیتے آپݨاں اصل ای میل پتہ لُکاؤ
 home-hero-cta = سائن ان
 how-it-works-headline = ایہ کین٘ویں کم کریندے
+how-it-works-subheadline = آپݨی ذاتی سُن٘ڄاݨ دی حفاظت کرو جتھ وی تساں { -brand-name-firefox-browser } ورتو۔
 how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
