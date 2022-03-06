@@ -126,6 +126,7 @@ how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
 hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
+hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آندا پئے تساں  ہُݨ اُوندے<em>تساں کنٹرول وچ ہو</em>!
 
 ## Home Page Version A
 
@@ -194,6 +195,7 @@ settings-meta-contact-tooltip = { -brand-name-relay } بارے رابطے وچ �
 settings-meta-help-label = مدد تے سہارا
 settings-meta-help-tooltip = { -brand-name-relay } ورتݨ نال مدد گھنو
 settings-meta-status-label = خدمت حیثیت
+settings-meta-status-tooltip = پڑتال کرو بھلا سارے { -brand-name-relay } نظام ہݨ چلݨ آلے ہن۔
 settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھئی
 settings-error-save-description = کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
@@ -219,10 +221,12 @@ faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای م
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
 faq-question-missing-emails-answer-reason-turned-off = عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
+faq-question-2-question = میݙے { -brand-name-relay } عرفی ناں ایہ سائٹ قبول کیوں نیں کیتے؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
 faq-question-4-question = بھلا میں آپݨے { -brand-name-relay } عرفی ناں ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
+faq-question-subdomain-characters-answer-v2 = سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
@@ -231,6 +235,8 @@ faq-question-unsubscribe-domain-question = جے میں { -brand-name-relay-premi
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
+faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
+faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
 
 ## Profile Page (Logged In)
