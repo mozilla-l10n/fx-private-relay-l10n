@@ -74,6 +74,38 @@ logo-github-alt = Логотип GitHub
 
 ## The new feature announcement area, under the "News" link at the top
 
+whatsnew-trigger-label = Новости
+whatsnew-counter-label =
+    { $count ->
+        [one] { $count } новое уведомление
+        [few] { $count } новых уведомления
+       *[many] { $count } новых уведомлений
+    }
+whatsnew-close-label = Закрыть
+whatsnew-tab-new-label = Новости
+whatsnew-tab-archive-label = История
+whatsnew-footer-clear-all-label = Удалить всё
+whatsnew-footer-back-label = Назад
+whatsnew-footer-learn-more-label = Подробнее
+whatsnew-empty-message = Обязательно возвращайтесь сюда — мы постоянно работаем над созданием новых замечательных функций, чтобы сделать { -brand-name-relay } ещё лучше.
+whatsnew-feature-size-limit-heading = Увеличен размер вложений
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } теперь может пересылать письма размером до 25МБ, включая…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } теперь может пересылать письма размером до 25МБ, включая вложения.
+whatsnew-feature-sign-back-in-heading = Войдите снова, используя псевдонимы
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Чтобы создать новый псевдоним, когда вас просят ввести электронную почту, откройте…
+whatsnew-feature-sign-back-in-description = Чтобы войти с помощью использованного ранее псевдонима, откройте контекстное меню там, где сайт запрашивает вашу электронную почту. Вы сможете выбрать псевдоним и автоматически заполнить соответствующее поле.
+whatsnew-feature-forward-some-heading = Блокировка рекламных писем
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } позволяет блокировать только рекламные письма…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } позволяет блокировать только рекламные письма, отправленные на псевдонимы. Вы будете получать такие электронные письма, как квитанции, но не как маркетинговые письма.
 
 ## Bento Menu
 
