@@ -444,6 +444,7 @@ modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
 modal-delete-headline = ایہ عرفی ناں پکّا پکّا مٹاؤں؟
 modal-delete-confirmation = جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔
 modal-domain-register-good-news = خوشخبری!
+modal-domain-register-warning-reminder = یاد رکھو، تساں صرف ہک ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
 modal-domain-register-button = ڈومین رجسٹڑ کرو
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -461,6 +462,7 @@ modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈو�
 
 survey-question-2 = بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟
 survey-question-3 = بھلا تساں محسوس کریندے جو { -brand-name-relay } بھروسے دے قابل ہے؟
+survey-question-5 = جے تساں { -brand-name-relay } کوں کافی عرصے کنوں نہ ورت سڳے ہوو تاں تساں کیا محسوس کریسو۔
 survey-option-strongly-disagree = ݙاڈھا اختلاف
 survey-option-disagree = اختلاف
 survey-option-unsure = کچ پک
@@ -488,5 +490,14 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner = کسٹم ای میل ڈومین تے بے انت عرفی ناں گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
+# This entire text is a link
+forwarded-email-footer = اتھ سارے عرفی نان٘واں کنوں ای میل بھیڄݨ کنوں روکو تے ترتیباں منیج کرو۔
 # This entire text is a link
 forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
