@@ -226,6 +226,7 @@ faq-question-browser-support-question = بھلا میں ٻئت براؤزراں 
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
+faq-question-unsubscribe-domain-question = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم ݙٌڈومین نال کیا تھیسی؟
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
@@ -405,6 +406,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 ## Onboarding 
 
 onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، تہاݙے کول ترائے طریقے ہن۔۔۔
+onboarding-alias-tip-1 = آپݨاں پہلا عرفی ناں خلقݨ کیتے "نواں ناں جنریٹ کرو" چُݨو۔
 
 ## Premium Onboarding
 
@@ -427,10 +429,12 @@ multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے �
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
+multi-part-onboarding-premium-domain-button-skip = جاری رکھو، میں آپݨی کسٹم ڈومین بعد وچ رجسٹر کریساں
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
 multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
 multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
 
@@ -456,6 +460,7 @@ modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈو�
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-2 = بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟
+survey-question-3 = بھلا تساں محسوس کریندے جو { -brand-name-relay } بھروسے دے قابل ہے؟
 survey-option-strongly-disagree = ݙاڈھا اختلاف
 survey-option-disagree = اختلاف
 survey-option-unsure = کچ پک
