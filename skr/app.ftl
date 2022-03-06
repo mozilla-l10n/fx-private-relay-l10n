@@ -237,7 +237,9 @@ faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیا�
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
 faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم
+faq-question-acceptable-use-answer-measure-rate-limit = ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
+faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘ویں پتہ لڳدے جو ایہ ای میل پروموشنل ہے یا کائناں؟
 
 ## Profile Page (Logged In)
 
