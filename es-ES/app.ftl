@@ -67,6 +67,38 @@ nav-footer-release-notes = Notas de la versión
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo de GitHub
 
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Noticias
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 anuncio nuevo.
+       *[other] { $count } anuncios nuevos.
+    }
+whatsnew-close-label = Cerrar
+whatsnew-tab-new-label = Noticias
+whatsnew-tab-archive-label = Historial
+whatsnew-footer-clear-all-label = Borrar todo
+whatsnew-footer-back-label = Atrás
+whatsnew-footer-learn-more-label = Saber más
+whatsnew-empty-message = Asegúrate de volver a consultar aquí: siempre estamos trabajando en funciones nuevas y geniales para hacer que { -brand-name-relay } sea aún mejor.
+whatsnew-feature-size-limit-heading = Aumento del tamaño del archivo adjunto
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25 MB, incluyendo...
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25 MB, incluyendo adjuntos.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta { email-size-limit }, incluyendo...
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta { email-size-limit }, incluyendo adjuntos.
+whatsnew-feature-sign-back-in-heading = Vuelve a iniciar sesión con tus alias
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Para crear un nuevo alias cuando se te solicite tu correo electrónico, abre...
+
 ## Bento Menu
 
 bento-button-title = Aplicaciones y servicios de { -brand-name-firefox }
@@ -269,6 +301,7 @@ faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-nam
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-2-answer-v3-html =
     Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (@subdominio.mozmail.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
     Si no puedes utilizar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>háznoslo saber </a>.
@@ -379,6 +412,20 @@ profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Solo alias críticos
+
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+profile-promo-email-blocking-title = ¿Qué correos electrónicos quieres bloquear?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Todos
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promocionales
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Ninguno
+profile-promo-email-blocking-description-all = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a este alias.
+profile-promo-email-blocking-label-promotionals = Bloquear promociones
+profile-promo-email-blocking-label-none = Bloquear todo
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
 
@@ -494,11 +541,17 @@ popover-custom-alias-explainer-explanation = Todo lo que necesitas hacer es inve
 popover-custom-alias-explainer-generate-button-heading = Crea un alias personalizado manualmente
 popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
 popover-custom-alias-explainer-close-button-label = Cerrar
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos promocionales
 
 ## Tip about using custom aliases
 
 tips-custom-alias-heading = Crear alias usando tu dominio personalizado
 tips-custom-alias-content = Todo lo que necesitas hacer es inventar y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@midominio.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+
+## Tip about using custom aliases
+
+tips-promo-email-blocking-heading = Bloquear correos promocionales
 
 ## Onboarding 
 
