@@ -73,7 +73,14 @@ logo-github-alt = Logo GitHub
 
 ## The new feature announcement area, under the "News" link at the top
 
+whatsnew-trigger-label = Nouveautés
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nouvelle annonce
+       *[other] { $count } nouvelles annonces
+    }
 whatsnew-close-label = Fermer
+whatsnew-tab-new-label = Nouveautés
 whatsnew-tab-archive-label = Historique
 whatsnew-footer-clear-all-label = Tout effacer
 whatsnew-footer-back-label = Retour
@@ -85,6 +92,10 @@ whatsnew-feature-size-limit-heading = Augmentation de la taille des pièces join
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } peut désormais transférer des e-mails de 25 Mo, en tenant compte des pièces jointes.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } peut désormais transférer des e-mails de { email-size-limit }…
 whatsnew-feature-sign-back-in-heading = Reconnectez-vous avec vos alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
