@@ -96,6 +96,7 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } peut dé
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } peut désormais transférer des e-mails de { email-size-limit }…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } peut désormais transférer des e-mails de { email-size-limit }, en tenant compte des pièces jointes.
 whatsnew-feature-sign-back-in-heading = Reconnectez-vous avec vos alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
