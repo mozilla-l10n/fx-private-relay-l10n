@@ -24,6 +24,8 @@
        *[lowercase] Firefox account
         [uppercase] Firefox Account
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -479,6 +481,9 @@ banner-download-firefox-cta = Get { -brand-name-firefox }
 banner-download-install-extension-headline = Get the { -brand-name-relay } extension for { -brand-name-firefox }
 banner-download-install-extension-copy = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email aliases even easier.
 banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Try { -brand-name-relay } for { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using aliases even easier.
+banner-download-install-chrome-extension-cta = Get the { -brand-name-relay } extension
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makes creating email aliases even easier, with custom alias domains and unlimited aliases.
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
@@ -644,6 +649,9 @@ multi-part-onboarding-premium-extension-reply-title = Reply to emails without gi
 multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox } 
 multi-part-onboarding-premium-extension-get-description = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email aliases even easier. 
 multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
+multi-part-onboarding-premium-chrome-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email aliases even easier.
+multi-part-onboarding-premium-chrome-extension-button-download = Get { -brand-name-relay } Extension
 multi-part-onboarding-premium-extension-button-skip = Continue, I’ll download the extension later
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } extension added!
 multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
