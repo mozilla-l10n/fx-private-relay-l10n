@@ -26,6 +26,8 @@
        *[lowercase] فائرفوکس کھاتہ
         [uppercase] فائرفوکس کھاتہ
     }
+-brand-name-chrome = کروم
+-brand-name-google-chrome = گوگل کروم
 
 ## Meta Data
 
@@ -249,6 +251,7 @@ faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
 profile-headline-manage-domain = آپݨے ڈومین عرفی ناں منیج کرو
 profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
+profile-promo-upgrade-copy = بے انت ای میل پتے تے آپݨی ای میل ڈومین گھنݨ کیتے { -brand-name-relay } اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -343,6 +346,7 @@ banner-choose-subdomain-input-placeholder = ڈومین ڳولو
 banner-choose-subdomain-input-placeholder-2 = آپݨی نویں ڈومین ڳولو
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = ڳولو
+banner-pack-upgrade-headline-html = ٻئے عرفی ناں گھنݨ کیتے <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> تے اپ گریڈ کرو
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
@@ -367,6 +371,9 @@ success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳی�
 
 ## Error Messages
 
+# Variables:
+#   $number (string) - Maximum number of aliases a user can make on a free account.
+error-premium-set-make-aliases = { $number }کنوں ودھ عرفی ناں بݨاوݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
 error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
