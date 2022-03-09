@@ -26,6 +26,8 @@
        *[lowercase] Firefox-konto
         [uppercase] Firefox-konto
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -465,6 +467,9 @@ banner-download-firefox-cta = Hämta { -brand-name-firefox }
 banner-download-install-extension-headline = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
 banner-download-install-extension-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att använda e-postalias.
 banner-download-install-extension-cta = Lägg till { -brand-name-relay } i { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Testa { -brand-name-relay } för { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda alias.
+banner-download-install-chrome-extension-cta = Hämta tillägget { -brand-name-relay }
 banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade aliasdomäner och obegränsade alias.
 banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
@@ -627,6 +632,9 @@ multi-part-onboarding-premium-extension-reply-title = Svara på e-post utan att 
 multi-part-onboarding-premium-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Tillägget { -brand-name-relay } för { -brand-name-firefox } gör det ännu enklare att använda e-postalias.
 multi-part-onboarding-premium-extension-button-download = Hämta tillägget { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda e-postalias.
+multi-part-onboarding-premium-chrome-extension-button-download = Hämta tillägget { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Fortsätt, jag laddar ner tillägget senare
 multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
 multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
