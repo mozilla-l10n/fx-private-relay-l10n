@@ -105,6 +105,7 @@ whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکو
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } ایپ تے خدمتاں
+fx-makes-tech = { -brand-name-firefox } او ٹیکنالوجی ہے جہڑی تہاݙی آن لائن رازداری کیتے بھِڑدی ہے۔
 made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
 fx-desktop = ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }
 fx-lockwise = { -brand-name-firefox-lockwise }
