@@ -32,6 +32,7 @@
     .gender = masculine
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
+-brand-name-premium = Premium
 -brand-name-firefox-browser =
     { $case ->
        *[nom]
@@ -210,6 +211,7 @@ meta-description = { -brand-name-firefox-relay } usnadňuje vytváření e-mailo
 ## Header 
 
 logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Nabídka
 nav-home = Domů
 label-open-menu = Otevřít nabídku
@@ -237,8 +239,26 @@ nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capi
 nav-footer-privacy = Ochrana osobních údajů
 nav-footer-relay-terms = Podmínky používání služby { -brand-name-relay }
 nav-footer-legal = Právní informace
+nav-footer-release-notes = Poznámky k vydání
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
+
+## The new feature announcement area, under the "News" link at the top
+
+whatsnew-trigger-label = Novinky
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 nové oznámení
+        [few] { $count } nová oznámení
+       *[other] { $count } nových oznámení
+    }
+whatsnew-close-label = Zavřít
+whatsnew-tab-new-label = Novinky
+whatsnew-tab-archive-label = Historie
+whatsnew-footer-clear-all-label = Vymazat vše
+whatsnew-footer-back-label = Zpět
+whatsnew-footer-learn-more-label = Zjistit více
+whatsnew-feature-size-limit-heading = Navýšení velikosti příloh
 
 ## Bento Menu
 
@@ -361,6 +381,9 @@ profile-stat-label-forwarded = E-maily přeposílány
 profile-stat-label-aliases-used = Používané e-mailové aliasy
 profile-filter-search-placeholder = Hledat aliasy
 
+## Alias Promotional Email Blocking (displayed on the profile page)
+
+
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = Služba { -brand-name-relay } nemohla doručit váš e-mail.
@@ -395,7 +418,6 @@ banner-choose-subdomain-label = Vaše doména je:
 
 # Variables:
 #   $number (string) - Maximum number of aliases a user can make on a free account.
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-premium-set-make-aliases =
     { $number ->
         [one] Pro vytvoření více než jednoho aliasu musíte být prémiovým předplatitelem
@@ -408,6 +430,21 @@ error-premium-set-create-subdomain = Pro vytváření aliasů na subdoméně mus
 error-subdomain-not-created = Subdoménu nelze vytvořit, zkuste nějakou jinou
 error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla být vytvořena, zkuste nějakou jinou
 error-subdomain-select = Před vytvořením aliasu na subdoméně musíte vybrat subdoménu
+
+## Tips and tricks at the bottom of the page
+
+
+## Alias for generating a custom alias
+
+
+## Popover explaining how custom aliases work
+
+
+## Tip about using custom aliases
+
+
+## Tip about using custom aliases
+
 
 ## Onboarding 
 
@@ -450,6 +487,9 @@ survey-option-somewhat-disappointed = Lehké zklamání
 survey-option-very-disappointed = Velké zklamání
 survey-option-very-likely = Určitě ano
 survey-option-not-likely = Spíše ne
+
+## CSAT survey
+
 
 ## VPN Promo Banner
 
