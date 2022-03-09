@@ -26,6 +26,8 @@
        *[lowercase] Firefox-Konto
         [uppercase] Firefox-Konto
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -465,6 +467,9 @@ banner-download-firefox-cta = Hole dir { -brand-name-firefox }
 banner-download-install-extension-headline = Lade die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 banner-download-install-extension-copy = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox-browser } macht die Verwendung von Alias-Adressen noch einfacher.
 banner-download-install-extension-cta = Installiere { -brand-name-relay } für { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Probieren Sie { -brand-name-relay } für { -brand-name-google-chrome } aus
+banner-download-install-chrome-extension-copy = Die { -brand-name-firefox-relay }-Erweiterung für { -brand-name-chrome } macht die Verwendung von Alias-Adressen noch einfacher.
+banner-download-install-chrome-extension-cta = Holen Sie sich die { -brand-name-relay }-Erweiterung
 banner-upgrade-headline = Mache das Upgrade auf { -brand-name-relay-premium }
 banner-upgrade-copy = Mit { -brand-name-firefox } { -brand-name-relay-premium } wird die Verwendung von Aliassen noch einfacher, weil du benutzerdefinierte Alias-Domains und unbegrenzt viele Alias-Adressen nutzen kannst.
 banner-upgrade-cta = Mache das Upgrade auf { -brand-name-relay-premium }
@@ -627,6 +632,9 @@ multi-part-onboarding-premium-extension-reply-title = Antworte auf E-Mails, ohne
 multi-part-onboarding-premium-extension-get-title = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 multi-part-onboarding-premium-extension-get-description = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } macht die Verwendung von Alias-Adressen noch einfacher.
 multi-part-onboarding-premium-extension-button-download = Hole dir die { -brand-name-relay }-Erweiterung
+multi-part-onboarding-premium-chrome-extension-get-title = Holen Sie sich die { -brand-name-relay }-Erweiterung für { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Die { -brand-name-firefox-relay }-Erweiterung für { -brand-name-chrome } macht die Verwendung von Alias-E-Mail-Adressen noch einfacher.
+multi-part-onboarding-premium-chrome-extension-button-download = Holen Sie sich die { -brand-name-relay }-Erweiterung
 multi-part-onboarding-premium-extension-button-skip = Weiter, ich lade die Erweiterung später herunter
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
 multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
