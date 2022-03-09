@@ -117,6 +117,7 @@ whatsnew-feature-size-limit-description = Το { -brand-name-firefox-relay } μ�
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-size-limit-snippet-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με…
+whatsnew-feature-size-limit-description-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με τα συνημμένα.
 whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
