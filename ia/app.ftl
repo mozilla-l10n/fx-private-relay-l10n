@@ -26,6 +26,8 @@
        *[lowercase] Firefox account
         [uppercase] Firefox Account
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -462,6 +464,9 @@ banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 banner-download-install-extension-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le uso del aliases de e-mail.
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Proba { -brand-name-relay } pro { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases.
+banner-download-install-chrome-extension-cta = Installa le extension { -brand-name-relay }
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-relay-premium } de { -brand-name-firefox } rende mesmo plus facile le creation del aliases de e-mail, con dominios de alias personal e aliases illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
@@ -623,6 +628,9 @@ multi-part-onboarding-premium-extension-reply-title = Responde a emails sin reve
 multi-part-onboarding-premium-extension-get-title = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Le extension { -brand-name-relay } pro { -brand-name-firefox } rende mesmo plus facile le uso del aliases de e-mail.
 multi-part-onboarding-premium-extension-button-download = Discarga le extension { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Installa le extension { -brand-name-relay } pro { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases email.
+multi-part-onboarding-premium-chrome-extension-button-download = Discargar extension { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar,io discargara plus tarde le extension
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de controlo
