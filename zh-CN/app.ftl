@@ -93,6 +93,10 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } 现在�
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件，包含（…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件（包含附件）。
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = 当网站要求您输入邮箱时，请打开…
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
