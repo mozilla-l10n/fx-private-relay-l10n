@@ -26,6 +26,8 @@
        *[lowercase] Обліковий запис Firefox
         [uppercase] Обліковий запис Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -466,6 +468,9 @@ banner-download-firefox-cta = Отримати { -brand-name-firefox }
 banner-download-install-extension-headline = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
 banner-download-install-extension-copy = Розширення { -brand-name-relay } для { -brand-name-firefox-browser } спрощує користування псевдоадресами.
 banner-download-install-extension-cta = Додати { -brand-name-relay } до { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Спробуйте { -brand-name-relay } для { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Розширення { -brand-name-firefox-relay } для { -brand-name-chrome } робить створення та користування псевдоадресами ще простішим.
+banner-download-install-chrome-extension-cta = Отримати розширення { -brand-name-relay }
 banner-upgrade-headline = Оновити до { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } спрощує створення псевдоадрес е-пошти за допомогою власних доменів псевдоадрес і необмеженої кількості псевдоадрес.
 banner-upgrade-cta = Оновити до { -brand-name-relay-premium }
@@ -628,6 +633,9 @@ multi-part-onboarding-premium-extension-reply-title = Відповідайте �
 multi-part-onboarding-premium-extension-get-title = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Розширення { -brand-name-relay } для { -brand-name-firefox } спрощує користування псевдоадресами.
 multi-part-onboarding-premium-extension-button-download = Отримати розширення { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Отримайте розширення { -brand-name-relay } для { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Розширення { -brand-name-firefox-relay } для { -brand-name-chrome } робить створення та користування псевдоадресами електронної пошти ще простішим.
+multi-part-onboarding-premium-chrome-extension-button-download = Отримати розширення { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Продовжити, я завантажу розширення пізніше
 multi-part-onboarding-premium-extension-added = Розширення { -brand-name-relay } додано!
 multi-part-onboarding-premium-extension-button-dashboard = Перейти до панелі стану
