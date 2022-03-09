@@ -97,6 +97,7 @@ whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = 当网站要求您输入邮箱时，请打开…
+whatsnew-feature-sign-back-in-description = 要使用先前用过的马甲邮箱登录网站，请在网站的邮箱输入框中点击右键菜单，之后选择马甲邮箱并自动填充。
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -330,6 +331,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
 faq-question-promotional-email-blocking-question = 营销邮件屏蔽是啥东东？
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
+faq-question-detect-promotional-answer = 许多邮件发送时包含“头（header）”元数据，以表明其来自基于列表的自动化工具。{ -brand-name-firefox-relay } 能够检测到此头数据，因此可以进行屏蔽。
 
 ## Profile Page (Logged In)
 
