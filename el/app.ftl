@@ -592,6 +592,7 @@ multi-part-onboarding-premium-extension-reply-title = Απαντήστε σε em
 multi-part-onboarding-premium-extension-get-title = Αποκτήστε την επέκταση { -brand-name-relay } για το { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 multi-part-onboarding-premium-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κάνω λήψη της επέκτασης αργότερα
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
 multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
