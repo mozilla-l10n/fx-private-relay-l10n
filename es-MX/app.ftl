@@ -26,6 +26,8 @@
        *[lowercase] cuenta de Firefox
         [uppercase] Cuenta de Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -465,6 +467,9 @@ banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más el uso de alias de correo electrónico.
 banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Prueba { -brand-name-relay } para { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } funciona creando y usando alias muy fácilmente.
+banner-download-install-chrome-extension-cta = Consigue la extensión de { -brand-name-relay }
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
@@ -627,6 +632,9 @@ multi-part-onboarding-premium-extension-reply-title = Responde correos electrón
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más el uso de alias de correo electrónico.
 multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Consigue la extensión de { -brand-name-relay } para { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } funciona creando y usando alias muy fácilmente.
+multi-part-onboarding-premium-chrome-extension-button-download = Consigue la extensión de { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-added = ¡Extensión { -brand-name-relay } agregada!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
