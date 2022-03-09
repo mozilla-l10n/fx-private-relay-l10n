@@ -51,6 +51,8 @@
                 [uppercase] Λογαριασμό Firefox
             }
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
