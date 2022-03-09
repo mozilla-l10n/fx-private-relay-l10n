@@ -26,6 +26,8 @@
        *[lowercase] Conta Firefox
         [uppercase] Conta Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -465,6 +467,9 @@ banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 banner-download-install-extension-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais usar endereços de redirecionamento de email.
 banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Experimente o { -brand-name-relay } para { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar endereços de redirecionamento de email.
+banner-download-install-chrome-extension-cta = Instale a extensão { -brand-name-relay }
 banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
 banner-upgrade-cta = Mudar para o { -brand-name-relay-premium }
