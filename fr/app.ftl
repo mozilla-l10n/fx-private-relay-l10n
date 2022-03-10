@@ -488,7 +488,7 @@ banner-choose-subdomain-input-placeholder-2 = Cherchez votre nouveau domaine
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Rechercher
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
-banner-pack-upgrade-copy = Avec des alias de messagerie illimités et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
+banner-pack-upgrade-copy = Avec un nombre d’alias de messagerie illimité et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Mise à jour de la politique de confidentialité
