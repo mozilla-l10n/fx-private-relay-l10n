@@ -275,6 +275,8 @@ settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
 settings-error-save-description = Οι αλλαγές σας στις ρυθμίσεις δεν αποθηκεύτηκαν λόγω σφάλματος σύνδεσης. Παρακαλώ δοκιμάστε ξανά.
 # This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
 settings-warning-collection-off-heading = Η λειτουργία ετικέτας των ψευδωνύμων email είναι ανενεργή
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = Το { -brand-name-relay } δεν μπορεί να συλλέξει τα δεδομένα που αναφέρουν τους ιστοτόπους όπου έχετε δημιουργήσει και χρησιμοποιήσει ψευδώνυμα email. Μπορείτε να το αλλάξετε αυτό στην ενότητα «Συλλογή δεδομένων» στις «Ρυθμίσεις».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 setting-label-collection-description = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται ψευδώνυμα.
@@ -317,6 +319,7 @@ faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν α
 faq-question-2-answer-v3-html =
     Μερικοί ιστότοποι ενδέχεται να μην δέχονται διευθύνσεις email που περιέχουν υποτομέα (@υποτομέας.mozmail.com) και άλλοι έχουν σταματήσει να δέχονται διευθύνσεις, εκτός από αυτές των Gmail, Hotmail και Yahoo.
     Αν δεν μπορείτε να χρησιμοποιήσετε ένα ψευδώνυμο { -brand-name-relay }, <a href="{ $url }" { $attrs }>ενημερώστε μας</a>.
+faq-question-2-answer-v4 = Κάποιοι ιστότοποι ενδέχεται να μην αποδεχτούν μια διεύθυνση email που περιλαμβάνει υποτομέα (@upotomeas.mozmail.com), ενώ άλλοι έχουν σταματήσει να δέχονται όλες τις διευθύνσεις εκτός των λογαριασμών Gmail, Hotmail ή Yahoo.
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
