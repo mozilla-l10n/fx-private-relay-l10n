@@ -146,6 +146,9 @@ landing-how-it-works-step-1-body = جہڑے ویلے تساں آن لائن اپ
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ وچ بے انت عرفی ناں
 landing-pricing-free-price = مفت
 landing-pricing-free-feature-1 = ٥ تائیں ای میل عرفی ناں
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
@@ -292,6 +295,7 @@ profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-cancel = منسوخ
+profile-forwarded-copy = تساں جہڑے ویلے عرفی ناں کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
@@ -330,9 +334,14 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
+banner-download-firefox-copy = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں بݨاوݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-download-install-extension-headline = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
+banner-download-install-extension-copy = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
+banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } کیتے { -brand-name-relay } اَزماؤ
+banner-download-install-chrome-extension-copy = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
+banner-download-install-chrome-extension-cta = { -brand-name-relay } ایکسٹنشن گھنو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
