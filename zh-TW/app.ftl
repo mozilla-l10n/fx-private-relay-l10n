@@ -26,6 +26,8 @@
        *[lowercase] Firefox 帳號
         [uppercase] Firefox 帳號
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -433,6 +435,7 @@ banner-download-firefox-cta = 下載 { -brand-name-firefox }
 banner-download-install-extension-headline = 安裝 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 banner-download-install-extension-copy = 透過 { -brand-name-firefox-browser }的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
 banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -brand-name-firefox }
+banner-download-install-chrome-extension-cta = 下載 { -brand-name-relay } 擴充套件
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 讓建立別名信箱變得更簡單，還有自訂別名網域與無限量別名功能。
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
@@ -587,6 +590,7 @@ multi-part-onboarding-premium-extension-reply-title = 不用給出實際信箱�
 multi-part-onboarding-premium-extension-get-title = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox }的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
 multi-part-onboarding-premium-extension-button-download = 下載 { -brand-name-relay } 擴充套件
+multi-part-onboarding-premium-chrome-extension-button-download = 下載 { -brand-name-relay } 擴充套件
 multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
 multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
