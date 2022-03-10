@@ -67,6 +67,8 @@
                 [lowercase] účtom Firefox
             }
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -505,6 +507,9 @@ banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
 banner-download-install-extension-headline = Nainštalujte si { -brand-name-relay } pre { -brand-name-firefox }
 banner-download-install-extension-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje používanie aliasov ešte viac.
 banner-download-install-extension-cta = Pridať { -brand-name-relay } do { -brand-name-firefox(case: "gen") }
+banner-download-install-chrome-extension-headline = Vyskúšajte { -brand-name-relay } pre { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Rozšírenie { -brand-name-firefox-relay } pre { -brand-name-chrome } ešte viac zjednodušuje používanie aliasov.
+banner-download-install-chrome-extension-cta = Získajte rozšírenie { -brand-name-relay }
 banner-upgrade-headline = Inovujte na { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ešte viac uľahčuje vytváranie e-mailových aliasov s vlastnými doménami a neobmedzeným počtom aliasov.
 banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
@@ -618,7 +623,7 @@ tips-promo-email-blocking-content = So službou { -brand-name-relay-premium } m�
 
 onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti…
 onboarding-alias-tip-1 = Kliknutím na „Vytvoriť nový alias“ vytvorte svoj prvý alias.
-onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach e-mailu.
+onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailovú adresu.
 onboarding-alias-tip-3 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť nový alias“.
 
 ## Premium Onboarding
@@ -665,6 +670,9 @@ multi-part-onboarding-premium-extension-reply-title = Odpovedajte na e-maily bez
 multi-part-onboarding-premium-extension-get-title = Získajte rozšírenie { -brand-name-relay } pre { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox } ešte viac zjednodušuje používanie e-mailových aliasov.
 multi-part-onboarding-premium-extension-button-download = Získajte rozšírenie { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Nainštalujte si { -brand-name-relay } pre { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Rozšírenie { -brand-name-firefox-relay } pre { -brand-name-chrome } ešte viac zjednodušuje používanie e-mailových aliasov.
+multi-part-onboarding-premium-chrome-extension-button-download = Získajte rozšírenie { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Pokračovať, rozšírenie si stiahnem neskôr
 multi-part-onboarding-premium-extension-added = Rozšírenie { -brand-name-relay } bolo pridané!
 multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
