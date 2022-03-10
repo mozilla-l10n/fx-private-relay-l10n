@@ -26,6 +26,8 @@
        *[lowercase] Firefox-account
         [uppercase] Firefox Account
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -470,6 +472,9 @@ banner-download-firefox-cta = { -brand-name-firefox } downloaden
 banner-download-install-extension-headline = Download de { -brand-name-relay }-extensie voor { -brand-name-firefox }
 banner-download-install-extension-copy = De { -brand-name-relay }-extensie voor de { -brand-name-firefox-browser } maakt het gebruik van e-mailaliassen nog eenvoudiger.
 banner-download-install-extension-cta = { -brand-name-relay } toevoegen aan { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Probeer { -brand-name-relay } voor { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = De { -brand-name-firefox-relay }-extensie voor { -brand-name-chrome } maakt het gebruik van aliassen nog eenvoudiger.
+banner-download-install-chrome-extension-cta = De { -brand-name-relay }-extensie downloaden
 banner-upgrade-headline = Upgraden naar { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } maakt het aanmaken van e-mailaliassen nog eenvoudiger, met aangepaste aliasdomeinen en onbeperkte aliassen.
 banner-upgrade-cta = Upgraden naar { -brand-name-relay-premium }
@@ -632,6 +637,9 @@ multi-part-onboarding-premium-extension-reply-title = Antwoorden op e-mailberich
 multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-extensie voor { -brand-name-firefox } downloaden
 multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-extensie voor { -brand-name-firefox } maakt het gebruik van e-mailaliassen nog eenvoudiger.
 multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-extensie downloaden
+multi-part-onboarding-premium-chrome-extension-get-title = De { -brand-name-relay }-extensie voor { -brand-name-google-chrome } downloaden
+multi-part-onboarding-premium-chrome-extension-get-description = De { -brand-name-firefox-relay }-extensie voor { -brand-name-chrome } maakt het gebruik van e-mailaliassen nog eenvoudiger.
+multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-name-relay }-extensie downloaden
 multi-part-onboarding-premium-extension-button-skip = Doorgaan, ik download de extensie later
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
 multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
