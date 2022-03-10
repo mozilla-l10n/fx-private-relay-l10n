@@ -453,6 +453,9 @@ banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
 banner-download-install-extension-headline = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }
 banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Δοκιμάστε το { -brand-name-relay } για { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων.
+banner-download-install-chrome-extension-cta = Λήψη της επέκτασης { -brand-name-relay }
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
@@ -531,6 +534,7 @@ modal-custom-alias-picker-form-prefix-label = Εισαγάγετε πρόθεμ�
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
 modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδωνύμου
+modal-custom-alias-picker-creation-error = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένου ψευδωνύμου. Παρακαλούμε δοκιμάστε ξανά ή στείλτε ένα email στο ψευδώνυμο για να δημιουργηθεί.
 
 ## Popover explaining how custom aliases work
 
@@ -585,6 +589,11 @@ multi-part-onboarding-premium-domain-headline = Προσαρμοσμένος τ�
 multi-part-onboarding-premium-domain-title = Αποκτήστε έναν δικό σας τομέα ψευδωνύμων:
 multi-part-onboarding-premium-get-domain = Αποκτήστε έναν προσαρμοσμένο τομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-2 =
+    Με έναν προσαρμοσμένο τομέα, μπορείτε να αποκτήσετε ψευδώνυμα χωρίς να τα έχετε δημιουργήσει εκ των προτέρων. 
+    Θέλετε ένα για εγγραφή σε κάποιο ενημερωτικό δελτίο; Χρησιμοποιήστε κάτι όπως το «deltio@prosarmosmenostomeas{ $mozmail }»
 multi-part-onboarding-premium-domain-cta = Καταχωρήστε τον δικό σας τομέα τώρα:
 multi-part-onboarding-premium-domain-button-skip = Συνέχεια, θα καταχωρήσω τον τομέα μου αργότερα
 multi-part-onboarding-premium-extension-headline = Φραγή, προώθηση και απάντηση
@@ -592,6 +601,8 @@ multi-part-onboarding-premium-extension-reply-title = Απαντήστε σε em
 multi-part-onboarding-premium-extension-get-title = Αποκτήστε την επέκταση { -brand-name-relay } για το { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
 multi-part-onboarding-premium-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη δημιουργία και χρήση ψευδωνύμων email.
 multi-part-onboarding-premium-chrome-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κάνω λήψη της επέκτασης αργότερα
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
