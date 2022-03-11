@@ -26,6 +26,8 @@
        *[lowercase] Cyfrif Firefox
         [uppercase] Cyfrif Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -469,6 +471,7 @@ banner-download-firefox-cta = Cael { -brand-name-firefox }
 banner-download-install-extension-headline = Cael yr estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
 banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
 banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Rhowch gynnig ar { -brand-name-relay } ar { -brand-name-google-chrome }
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
 banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau persono ac arallenwau dirifedi.
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
