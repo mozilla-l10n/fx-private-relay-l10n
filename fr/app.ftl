@@ -30,6 +30,8 @@
        *[lowercase] compte Firefox
         [uppercase] Compte Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -467,6 +469,9 @@ banner-download-firefox-cta = Installer { -brand-name-firefox }
 banner-download-install-extension-headline = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
 banner-download-install-extension-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend l’utilisation des alias de messagerie encore plus facile.
 banner-download-install-extension-cta = Ajouter { -brand-name-relay } à { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Essayez { -brand-name-relay } pour { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = L’extension { -brand-name-firefox-relay } pour { -brand-name-chrome } facilite la création et l’utilisation d’alias.
+banner-download-install-chrome-extension-cta = Installer l’extension { -brand-name-relay }
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rend la création d’alias de messagerie encore plus facile, avec des domaines d’alias personnalisés et des alias illimités.
 banner-upgrade-cta = Passer à { -brand-name-relay-premium }
@@ -623,6 +628,7 @@ multi-part-onboarding-premium-extension-reply-title = Répondez aux e-mails sans
 multi-part-onboarding-premium-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = L’extension { -brand-name-relay } pour { -brand-name-firefox } rend l’utilisation des alias de messagerie encore plus facile.
 multi-part-onboarding-premium-extension-button-download = Installer l’extension { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-google-chrome }
 multi-part-onboarding-premium-extension-button-skip = Continuer, je téléchargerai l’extension plus tard
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
 multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
