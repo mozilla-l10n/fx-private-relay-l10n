@@ -327,6 +327,8 @@ faq-question-missing-emails-answer-b-html = Αν είστε χρήστης το�
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Εάν αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επισκεφτείτε τον ιστότοπο υποστήριξης</a>.
 faq-question-use-cases-question = Πότε πρέπει να χρησιμοποιώ τα ψευδώνυμα { -brand-name-relay };
+faq-question-use-cases-answer-part1 = Μπορείτε να εισαγάγετε τα ψευδώνυμα { -brand-name-relay } στα περισσότερα μέρη που θα χρησιμοποιούσατε την κανονική σας διεύθυνση email. Προτείνουμε τη χρήση τους κατά την εγγραφή σας σε διαφημιστικά/ενημερωτικά email, όπου ίσως θελήσετε να επιλέξετε εάν θα λαμβάνετε ή όχι email στο μέλλον.
+faq-question-use-cases-answer-part2 = Δεν συνιστούμε τη χρήση ψευδωνύμων όταν χρειάζεται να επαληθεύσετε την ταυτότητά σας ή για πολύ σημαντικά email ή σε περίπτωση που πρέπει να λαμβάνετε συνημμένα αρχεία. Για παράδειγμα, καλό είναι να δώσετε την πραγματική σας διεύθυνση email στην τράπεζα, τον γιατρό και τον δικηγόρο σας, καθώς και όταν λαμβάνετε εισιτήρια για συναυλίες ή πτήσεις.
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -338,6 +340,10 @@ faq-question-2-answer-v3-html =
 faq-question-2-answer-v4 = Κάποιοι ιστότοποι ενδέχεται να μην αποδεχτούν μια διεύθυνση email που περιλαμβάνει υποτομέα (@upotomeas.mozmail.com), ενώ άλλοι έχουν σταματήσει να δέχονται όλες τις διευθύνσεις εκτός των λογαριασμών Gmail, Hotmail ή Yahoo.
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από το ψευδώνυμο που τα προωθεί.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-html = Εάν διαπιστώσετε εκτεταμένο πρόβλημα με ανεπιθύμητα email από όλα τα ψευδώνυμά σας, <a href="{ $url }" { $attrs }>αναφέρετέ το σε εμάς</a> ώστε να εξετάσουμε το ενδεχόμενο προσαρμογής των ορίων για ανεπιθύμητα μηνύματα SES για αυτήν την υπηρεσία. Εάν τα αναφέρετε ως ανεπιθύμητα, ο πάροχος ηλεκτρονικού ταχυδρομείου σας θα θεωρήσει το { -brand-name-relay } ως πηγή ανεπιθύμητης αλληλογραφίας και όχι τον αρχικό αποστολέα.
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
