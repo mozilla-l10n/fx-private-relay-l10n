@@ -478,6 +478,16 @@ banner-register-subdomain-headline-aliases = Απόκτηση προσαρμοσ
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = otomeassas
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy =
+    Με έναν προσαρμοσμένο τομέα, μπορείτε να έχετε ψευδώνυμα χωρίς να τα
+    δημιουργήσετε εκ των προτέρων. Χρειάζεστε ένα για κάποια κράτηση; Δώστε το
+    «estiatorio@otomeassas.{ $mozmail }» στο εστιατόριο. Όλα τα ψευδώνυμα του
+    προσαρμοσμένου τομέα σας θα προωθούνται σε εσάς.
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 banner-choose-subdomain-input-placeholder-2 = Αναζητήστε τον νέο σας τομέα
 # This is the “call to action” text on the submit button of domain registration form.
