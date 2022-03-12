@@ -242,6 +242,9 @@ landing-use-cases-access-content-body =
     Χρησιμοποιήστε ένα ψευδώνυμο αντί της πραγματικής σας διεύθυνσης — αν αρχίσετε να λαμβάνετε ανεπιθύμητα email μέσω του ψευδωνύμου, ο αποστολέας ενδέχεται να έχει πουλήσει το ψευδώνυμό σας σε άλλους διαφημιστές ή ίσως να έχει διαρρεύσει σε κάποια παραβίαση δεδομένων. 
     Απλώς απενεργοποιήστε ή διαγράψτε το ψευδώνυμο για να προστατεύσετε τα εισερχόμενά σας.
 landing-use-cases-gaming = Παιχνίδια
+landing-use-cases-gaming-body =
+    Απολαμβάνετε τα διαδικτυακά παιχνίδια, αλλά ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή νταήδες, μέσω του ονόματος παίκτη και της διεύθυνσης email σας; 
+    Χρησιμοποιήστε ένα ψευδώνυμο { -brand-name-relay } για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητά σας.
 
 ## Landing FAQ Section
 
@@ -467,6 +470,14 @@ profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
 ## Banner Messages (displayed on the profile page)
 
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Αυτήν τη στιγμή, δεν μπορούμε να στείλουμε email στο { $username }. 
+    Λάβαμε «αναπήδηση» <em>{ $bounce_type }</em> από τον πάροχο ηλεκτρονικού ταχυδρομείου σας κατά την απόπειρα προώθησης των email σε εσάς. 
+    Αυτό μπορεί να συμβεί εάν το { -brand-name-relay } δεν μπορέσει να συνδεθεί με τον πάροχο ηλεκτρονικού ταχυδρομείου σας ή εάν το γραμματοκιβώτιό σας είναι γεμάτο. Θα δοκιμάσουμε ξανά στις { $date }.
 banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
 banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
