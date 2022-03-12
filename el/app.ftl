@@ -259,6 +259,7 @@ premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-fire
 premium-promo-perks-perk-unlimited-headline = Δημιουργήστε απεριόριστα ψευδώνυμα email
 premium-promo-perks-perk-unlimited-body = Χωρίς τον περιορισμό των πέντε ψευδωνύμων: με το { -brand-name-relay-premium }, μπορείτε να έχετε όσα ψευδώνυμα χρειάζεστε για την προστασία των εισερχομένων σας από ανεπιθύμητα μηνύματα και διαδικτυακούς ιχνηλάτες. Μπορείτε ακόμα και να απαντήσετε σε email χωρίς να εκτεθεί η πραγματική σας διεύθυνση.
 premium-promo-perks-perk-custom-domain-headline = Επιλέξτε τον δικό σας προσαρμοσμένο τομέα
+premium-promo-perks-perk-custom-domain-body = Με έναν προσαρμοσμένο τομέα, μπορείτε να δημιουργήσετε ψευδώνυμα που μπορείτε να θυμάστε και να μοιράζεστε πιο εύκολα από ποτέ. Χρειάζεστε ένα για κρατήσεις σε εστιατόρια; Χρησιμοποιήστε κάτι σαν αυτό: faghto@otomeasmou.mozmail.com — Δεν χρειάζεται να το έχετε δημιουργήσει εκ των προτέρων.
 premium-promo-perks-perk-dashboard-headline = Ελέγξτε τα ψευδώνυμά σας από τον πίνακα ελέγχου
 premium-promo-perks-perk-dashboard-body = Διαχειριστείτε όλα τα ψευδώνυμά σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
 premium-promo-use-cases-headline = Χρησιμοποιήστε τα ψευδώνυμα { -brand-name-relay } παντού
@@ -359,6 +360,7 @@ faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτ
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = Το { -brand-name-firefox-relay } έχει τις ίδιες <a href="{ $url }" { $attrs }>προϋποθέσεις χρήσης με όλα τα προϊόντα { -brand-name-mozilla }</a>. Έχουμε μια πολιτική μηδενικής ανοχής όσον αφορά τη χρήση του { -brand-name-relay } για κακόβουλους σκοπούς, όπως ανεπιθύμητα μηνύματα, που οδηγούν σε τερματισμό ενός λογαριασμού χρήστη. Λαμβάνουμε μέτρα για την αποτροπή της παραβίασης των όρων μας:
+faq-question-acceptable-use-answer-measure-account = Απαιτώντας έναν { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } με επαληθευμένη διεύθυνση email
 faq-question-acceptable-use-answer-measure-unlimited-payment = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε ψευδωνύμων
 faq-question-acceptable-use-answer-measure-rate-limit = Περιορίζοντας τον αριθμό των ψευδωνύμων που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -571,6 +573,7 @@ popover-custom-alias-explainer-promotional-block-tooltip = Ενεργοποιή�
 
 ## Tip about using custom aliases
 
+tips-custom-alias-heading = Δημιουργία ψευδωνύμων με τον προσαρμοσμένο τομέα σας
 tips-custom-alias-content = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 
 ## Tip about using custom aliases
@@ -612,6 +615,11 @@ multi-part-onboarding-premium-domain-title = Αποκτήστε έναν δικ�
 multi-part-onboarding-premium-get-domain = Αποκτήστε έναν προσαρμοσμένο τομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 multi-part-onboarding-premium-welcome-description = Χωρίς τον περιορισμό των πέντε ψευδωνύμων: μπορείτε να έχετε όσα προσαρμοσμένα ή τυχαία ψευδώνυμα χρειάζεστε. Στον υπολογιστή, μπορείτε να χρησιμοποιήσετε το πρόσθετο του Relay για να τα δημιουργείτε εν κινήσει.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-domain-description =
+    Με έναν προσαρμοσμένο τομέα, μπορείτε να δημιουργείτε ψευδώνυμα που μπορείτε να θυμάστε και να μοιράζεστε πιο εύκολα από ποτέ. 
+    Χρειάζεστε ένα ψευδώνυμο για κρατήσεις σε εστιατόρια; Πείτε απλώς faghto@otomeassas{ $mozmail } — Δεν χρειάζεται να έχετε δημιουργήσει εκ των προτέρων.
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-2 =
