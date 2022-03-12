@@ -364,6 +364,7 @@ faq-question-mozmail-answer = Αλλάξαμε το «relay.firefox.com» σε �
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
+faq-question-unsubscribe-domain-answer = Εάν ακυρώσετε τη συνδρομή σας στο { -brand-name-relay-premium }, θα συνεχίσετε να λαμβάνετε email μέσω του προσαρμοσμένου σας τομέα, αλλά δεν θα μπορείτε πλέον να δημιουργείτε νέα ψευδώνυμα με αυτόν. Εάν έχετε περισσότερα από πέντε ψευδώνυμα συνολικά, δεν θα μπορείτε να δημιουργήσετε άλλα. Θα χάσετε επίσης τη δυνατότητα απάντησης σε προωθημένα μηνύματα. Μπορείτε να εγγραφείτε ξανά στο { -brand-name-relay-premium } και να αποκτήσετε ξανά πρόσβαση σε αυτές τις λειτουργίες.
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
@@ -382,6 +383,7 @@ faq-question-acceptable-use-answer-measure-rate-limit = Περιορίζοντα
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
 faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
+faq-question-promotional-email-blocking-answer = Οι συνδρομητές του { -brand-name-relay-premium } μπορούν να ενεργοποιήσουν τη φραγή των διαφημιστικών email. Αυτή η λειτουργία θα προωθήσει σε εσάς τα σημαντικά email, όπως αποδείξεις, μηνύματα για επαναφορά κωδικών πρόσβασης και επιβεβαιώσεις, ενώ θα αποκλείει τα διαφημιστικά μηνύματα. Υπάρχει ένας μικρός κίνδυνος να αποκλειστεί κάποιο σημαντικό μήνυμα, επομένως σας συνιστούμε να μην χρησιμοποιείτε αυτήν τη λειτουργία για πολύ σημαντικά μέρη, όπως η τράπεζά σας. Εάν αποκλειστεί κάποιο email, δεν μπορεί να ανακτηθεί.
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
 
