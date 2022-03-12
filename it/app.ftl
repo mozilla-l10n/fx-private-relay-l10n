@@ -30,6 +30,8 @@
        *[lowercase] account Firefox
         [uppercase] Account Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -461,6 +463,8 @@ banner-download-firefox-cta = Scarica { -brand-name-firefox }
 banner-download-install-extension-headline = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
 banner-download-install-extension-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
 banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Prova { -brand-name-relay } per { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias ancora più facile.
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
 banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
