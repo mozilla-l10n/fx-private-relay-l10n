@@ -26,6 +26,8 @@
        *[lowercase] Firefox-fiók
         [uppercase] Firefox-fiók
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -465,6 +467,7 @@ banner-download-firefox-cta = { -brand-name-firefox } beszerzése
 banner-download-install-extension-headline = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
 banner-download-install-extension-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek használatát.
 banner-download-install-extension-cta = A { -brand-name-relay } hozzáadása a { -brand-name-firefox }hoz
+banner-download-install-chrome-extension-headline = Próbálja ki a { -brand-name-google-chrome }-hoz készült { -brand-name-relay }t
 banner-upgrade-headline = Frissítés a { -brand-name-relay-premium }ra
 banner-upgrade-copy = A { -brand-name-firefox } { -brand-name-relay-premium } még könnyebbé teszi az e-mail álnevek létrehozását, az egyéni álnévdomainek és a korlátlan számú álnévnek köszönhetően.
 banner-upgrade-cta = Frissítés a { -brand-name-relay-premium }ra
