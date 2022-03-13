@@ -26,6 +26,8 @@
        *[lowercase] Firefox 账户
         [uppercase] Firefox 账户
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -439,6 +441,9 @@ banner-download-firefox-cta = 下载 { -brand-name-firefox }
 banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 banner-download-install-extension-copy = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = 试试 { -brand-name-google-chrome } 版 { -brand-name-relay }。
+banner-download-install-chrome-extension-copy = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
+banner-download-install-chrome-extension-cta = 下载 { -brand-name-relay } 扩展
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义域名马甲与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
@@ -595,6 +600,9 @@ multi-part-onboarding-premium-extension-reply-title = 不用泄露真实邮箱�
 multi-part-onboarding-premium-extension-get-title = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 multi-part-onboarding-premium-extension-button-download = 下载 { -brand-name-relay } 扩展
+multi-part-onboarding-premium-chrome-extension-get-title = 下载 { -brand-name-google-chrome } 版 { -brand-name-relay } 扩展。
+multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
+multi-part-onboarding-premium-chrome-extension-button-download = 下载 { -brand-name-relay } 扩展
 multi-part-onboarding-premium-extension-button-skip = 继续，我之后再下载扩展
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
 multi-part-onboarding-premium-extension-button-dashboard = 前往面板
