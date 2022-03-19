@@ -469,8 +469,10 @@ multi-part-onboarding-premium-domain-button-skip = جاری رکھو، میں آ
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
 multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
 multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-chrome-extension-get-title = { -brand-name-google-chrome } کیتے { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
@@ -516,6 +518,7 @@ survey-option-dismiss = فارغ  کرو
 
 ## CSAT survey
 
+survey-csat-question = تساں آپݨے { -brand-name-firefox-relay } تجربے نال کتی مطمئن ہو؟
 survey-csat-answer-very-dissatisfied = ݙاڈھا غیرتسلی بخش
 survey-csat-answer-dissatisfied = غیر تسلی بخش
 survey-csat-answer-neutral = غیر جانبدار
@@ -525,6 +528,7 @@ survey-csat-answer-very-satisfied = ݙاڈھا تسلی بخش
 ## VPN Promo Banner
 
 vpn-promo-headline = پورے سال دی سبسکرپشن نال ٥٠٪ بچاؤ
+vpn-promo-copy = آپݨے آن لائن ڈیٹا دی حفاظت کرو تے وی پی این سبسکرپشن منصوبہ چُݨو جہڑا تہاݙے کیتے کم کریندے۔
 vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
