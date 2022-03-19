@@ -444,6 +444,8 @@ onboarding-alias-tip-1 = آپݨاں پہلا عرفی ناں خلقݨ کیتے "
 ## Premium Onboarding
 
 onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premium } وچ ست بسم اللہ
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں<strong>کنٹرول</strong> کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:
 onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
 onboarding-premium-domain-title = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو
@@ -468,6 +470,8 @@ multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، ت
 multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
 multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-chrome-extension-get-title = { -brand-name-google-chrome } کیتے { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
@@ -496,6 +500,7 @@ modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈو�
 
 survey-question-2 = بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟
 survey-question-3 = بھلا تساں محسوس کریندے جو { -brand-name-relay } بھروسے دے قابل ہے؟
+survey-question-4 = بھلا { -brand-name-relay } وچ سادہ تے ستھری پیش کش ہے؟
 survey-question-5 = جے تساں { -brand-name-relay } کوں کافی عرصے کنوں نہ ورت سڳے ہوو تاں تساں کیا محسوس کریسو۔
 survey-option-strongly-disagree = ݙاڈھا اختلاف
 survey-option-disagree = اختلاف
