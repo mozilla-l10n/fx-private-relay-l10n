@@ -223,6 +223,7 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
 faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
+faq-question-missing-emails-answer-a = کجھ وجوہات ہن جو تہاکوں تہاݙے عرفی نان٘واں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
 faq-question-missing-emails-answer-reason-blocked = تہاݙا ای میل فراہم کرݨ آلا تہاݙے عرفی ناں بلاک کریندا پئے
 faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
