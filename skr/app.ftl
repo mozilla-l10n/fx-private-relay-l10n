@@ -82,6 +82,7 @@ whatsnew-tab-archive-label = تاریخ
 whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
+whatsnew-empty-message = اتھ ولدا واپس چیک کرݨ یقینی بݨاؤ — اساں  ہمیشاں نویاں خصوصیات تے کم کریندے ہاں تاں جو { -brand-name-relay } بیا چنگا بݨے۔
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -129,6 +130,7 @@ how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
 hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
+hero-image-copy-protect-html = … ایں سانگے تساں سپیم تے ٹریک تھیوݨ کنوں <strong> آپݨی اصلی ای میل دی حفاظت</strong>کر سگدے ہو۔
 hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آندا پئے تساں  ہُݨ اُوندے<em>تساں کنٹرول وچ ہو</em>!
 
 ## Home Page Version A
