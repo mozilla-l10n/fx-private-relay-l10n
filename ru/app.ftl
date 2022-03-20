@@ -31,6 +31,8 @@
         [instrumental] аккаунтом Firefox
         [prepositional] аккаунте Firefox
     }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
@@ -94,6 +96,11 @@ whatsnew-feature-size-limit-heading = Увеличен размер вложен
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } теперь может пересылать письма размером до 25МБ, включая…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } теперь может пересылать письма размером до 25МБ, включая вложения.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } теперь может пересылать письма размером до { email-size-limit }, включая…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } теперь может пересылать письма размером до { email-size-limit }, включая вложения.
 whatsnew-feature-sign-back-in-heading = Войдите снова, используя псевдонимы
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -183,7 +190,7 @@ landing-pricing-body =
 landing-pricing-free-price = Бесплатно
 landing-pricing-free-feature-1 = До 5 псевдонимов электронной почты
 landing-pricing-free-feature-2 = Расширение для браузера
-landing-pricing-free-cta = Получите { -brand-name-relay }
+landing-pricing-free-cta = Получить { -brand-name-relay }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/месяц
@@ -193,10 +200,11 @@ landing-pricing-premium-feature-2 = Расширение для браузера
 landing-pricing-premium-feature-3 = Собственный домен электронной почты
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
-landing-pricing-premium-feature-4 = Отвечайте на пересланные электронные письма
+landing-pricing-premium-feature-4 = Возможность отвечать на пересланные письма
 
 ## Use Cases
 
+landing-use-cases-shopping = Покупки
 
 ## Landing FAQ Section
 
