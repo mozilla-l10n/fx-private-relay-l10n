@@ -350,9 +350,19 @@ faq-question-8-answer-html = Puedes obtener más información sobre los datos qu
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En la rara circunstancia en la que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos más de tres días.
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene las mismas <a href="{ $url }" { $attrs }>condiciones de uso como todos los productos { -brand-name-mozilla }</a>. Tenemos una política de tolerancia cero cuando se trata de usar { -brand-name-relay } para propósitos maliciosos como spam, lo que resultaría en la eliminación de la cuenta de ese usuario. Tomamos medidas para evitar que los usuarios violen nuestras condiciones:
+faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección verificada de correo electrónico
+faq-question-acceptable-use-answer-measure-unlimited-payment = La creación de más de cinco alias es un servicio de pago
+faq-question-acceptable-use-answer-measure-rate-limit = Limitación del número de alias que se puede crear cada día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Por favor, lee nuestros <a href="{ $url }" { $attrs }>Términos de Servicio</a> para más información.
+faq-question-promotional-email-blocking-question = ¿Qué es el bloqueo de correo electrónico promocional?
+faq-question-promotional-email-blocking-answer = Los suscriptores de { -brand-name-relay-premium } pueden activar el bloqueo de correo electrónico promocional. Esta función reenviará correos electrónicos importantes, como recibos, restablecimientos de contraseña y confirmaciones, mientras bloquea los mensajes de marketing. Existe un ligero riesgo de que se bloquee un mensaje importante, por lo que te recomendamos que no utilices esta función para servicios muy importantes como tu banco. Si un correo electrónico ha sido bloqueado, no se puede recuperar.
+faq-question-detect-promotional-question = ¿Cómo detecta { -brand-name-relay } si un correo electrónico es promocional o no?
+faq-question-detect-promotional-answer = Muchos correos electrónicos se envían con metadatos de “encabezado” para indicar que provienen de herramientas automatizadas basadas en listas. { -brand-name-firefox-relay } detecta estos datos de encabezado para poder bloquear estos correos electrónicos.
 
 ## Profile Page (Logged In)
 
@@ -422,6 +432,8 @@ profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
 # Filter on Relay aliases that only forward critical emails.
 profile-filter-category-option-critical-only-aliases = Solo alias críticos
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Alias con bloqueo de publicidad
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -433,9 +445,12 @@ profile-promo-email-blocking-option-promotionals = Promocionales
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Ninguno
 profile-promo-email-blocking-description-all = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a este alias.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos o seguimientos de compras.
+profile-promo-email-blocking-description-none = { -brand-name-relay } no está bloqueando ningún correo electrónico para este alias.
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
 profile-promo-email-blocking-label-none = Bloquear todo
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = No reenviar
 
 ## Banner Messages (displayed on the profile page)
 
@@ -454,6 +469,9 @@ banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }.
 banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más usar los alias de correo electrónico.
 banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Prueba { -brand-name-relay } para { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de alias sea aún más fácil.
+banner-download-install-chrome-extension-cta = Obtén la extensión { -brand-name-relay }
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } hace que la creación de alias de correo electrónico sea aún más fácil, con dominios de alias personalizados y alias ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
@@ -553,6 +571,7 @@ popover-custom-alias-explainer-generate-button-label = Generar alias personaliza
 popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos promocionales
+popover-custom-alias-explainer-promotional-block-tooltip = Activa el bloqueo de correos electrónicos promocionales en un alias para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
 
 ## Tip about using custom aliases
 
@@ -562,6 +581,7 @@ tips-custom-alias-content = Todo lo que necesitas hacer es inventar y compartir 
 ## Tip about using custom aliases
 
 tips-promo-email-blocking-heading = Bloquear correos promocionales
+tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
 
 ## Onboarding 
 
@@ -614,6 +634,9 @@ multi-part-onboarding-premium-extension-reply-title = Responde correos electrón
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más usar los alias de correo electrónico.
 multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Obtén la extensión { -brand-name-relay } para { -brand-name-google-chrome }.
+multi-part-onboarding-premium-chrome-extension-get-description = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de alias de correo sea aún más fácil.
+multi-part-onboarding-premium-chrome-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-added = Extensión { -brand-name-relay } instalada.
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
