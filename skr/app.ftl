@@ -302,6 +302,7 @@ profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-cancel = منسوخ
+profile-blocked-copy = جہڑے ویلے تساں ایں عرفی ناں کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-forwarded-copy = تساں جہڑے ویلے عرفی ناں کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
