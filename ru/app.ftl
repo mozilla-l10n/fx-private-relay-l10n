@@ -362,6 +362,12 @@ profile-filter-category-option-promo-blocking-aliases = Псевдонимы с 
 profile-promo-email-blocking-title = Какие электронные письма вы хотите блокировать?
 # Block all emails sent to a speciic alias
 profile-promo-email-blocking-option-all = Все
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Рекламные
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Не блокировать
+profile-promo-email-blocking-description-all = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
+profile-promo-email-blocking-description-none = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
 
 ## Banner Messages (displayed on the profile page)
 
