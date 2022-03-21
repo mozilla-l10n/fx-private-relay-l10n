@@ -205,24 +205,163 @@ landing-pricing-premium-feature-4 = Возможность отвечать на
 ## Use Cases
 
 landing-use-cases-shopping = Покупки
+landing-use-cases-shopping-body =
+    Покупаете что-то в новом интернет-магазине? Воспользуйтесь псевдонимом { -brand-name-relay } вместо своей электронной почты при совершении онлайн-покупки. 
+    Мы перешлем квитанцию на ваш настоящий адрес электронной почты, и если вы начнёте получать нежелательные письма, то сможете просто отключить переадресацию электронной почты.
+landing-use-cases-social-networks = Социальные сети
+landing-use-cases-social-networks-body =
+    Хотите лучше защитить свою личность в Интернете во время использования социальной сети? 
+    Пытаетесь не связывать свою настоящую электронную почту с социальными сетями? Воспользуйтесь псевдонимом { -brand-name-relay } для входа и защитите себя в Интернете.
+landing-use-cases-offline = Офлайн
+landing-use-cases-offline-body =
+    Предпочитаете получать квитанции на электронную почту, но при этом хотите избежать маркетингового спама?
+    Воспользуйтесь псевдонимом { -brand-name-relay } вместо своей электронной почты при получении электронной квитанции в магазине. 
+    Мы перешлём квитанцию на ваш настоящий адрес электронной почты, и если вы начнёте получать нежелательные письма, то сможете просто отключить переадресацию электронной почты.
+landing-use-cases-access-content = Доступ к содержимому
+landing-use-cases-access-content-body =
+    Хотите подписаться на рассылку, но не доверяете отправителю? 
+    Воспользуйтесь псевдонимом вместо настоящего адреса — если вы начнёте получать нежелательные письма на него, то отправитель, возможно, продал ваш псевдоним другим маркетологам или даже мог подвергнуться утечке данных. 
+    Просто выключите или удалите псевдоним, чтобы защитить свой электронный почтовый ящик.
+landing-use-cases-gaming = Игры
+landing-use-cases-gaming-body =
+    Любите онлайн-игры, но беспокоитесь о том, что другие игроки или тролли узнают, кто вы, по вашему тегу и адресу электронной почты? 
+    Воспользуйтесь псевдонимом { -brand-name-relay }, чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
 
 ## Landing FAQ Section
 
+landing-faq-headline = Самые популярные вопросы о { -brand-name-firefox-relay }
+landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-firefox-relay }
 
 ## Premium promo page
 
+premium-promo-hero-headline = Упростите защиту своего почтового ящика с { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-html = С { -brand-name-firefox-relay-premium } вы получите неограниченное число собственных псевдонимов электронной почты, которые будут пересылать только нужные вам письма на ваш настоящий адрес. <b>В течение ограниченного времени вы можете перейти на Relay Premium всего за { $monthly_price } в месяц.</b>
+premium-promo-hero-cta = Перейти сейчас
+premium-promo-availability-warning = { -brand-name-relay-premium } сейчас доступен в Австрии, Бельгии, Великобритании, Германии, Ирландии, Испании, Италии, Канаде, Малайзии, Нидерландах, Новой Зеландии, Сингапуре, США, Франции и Швейцарии.
+premium-promo-perks-headline = Зачем переходить на { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead = С { -brand-name-firefox-relay-premium } вы получите полную защиту и управление почтовым ящиком от { -brand-name-relay }, но с неограниченным числом псевдонимов электронной почты и собственным доменом, который сделает управление входящими ещё проще.
+premium-promo-perks-cta-label = Перейти сейчас
+premium-promo-perks-cta-tooltip = Перейти на { -brand-name-firefox-relay-premium }
+premium-promo-perks-perk-unlimited-headline = Создавайте неограниченное число псевдонимов электронной почты
+premium-promo-perks-perk-unlimited-body = Больше никакого ограничения в пять псевдонимов: с { -brand-name-relay-premium } вы сможете создавать сколько угодно псевдонимов для защиты своего электронного почтового ящика от спамеров и онлайн-трекеров. Вы даже сможете отвечать на письма, не раскрывая свой настоящий адрес.
+premium-promo-perks-perk-custom-domain-headline = Выбирайте собственный домен
+premium-promo-perks-perk-custom-domain-body = С собственным доменом вы сможете создавать псевдонимы, которые проще запоминать и использовать. Нужен псевдоним для бронирования ресторанов? Воспользуйтесь, например, food@mydomain.mozmail.com — не нужно создавать его заранее.
+premium-promo-perks-perk-dashboard-headline = Контролируйте псевдонимы на панели управления
+premium-promo-perks-perk-dashboard-body = Управляйте всеми псевдонимами со специальной удобной панели: если на один из них начнут приходить нежелательные сообщения, вы сможете заблокировать их, и они больше не попадут в ваш почтовый ящик.
+premium-promo-use-cases-headline = Используйте псевдонимы электронной почты { -brand-name-relay } где угодно
+premium-promo-use-cases-shopping-heading = Покупки
+premium-promo-use-cases-shopping-body = Пытаетесь подписаться на скидки без спама? Сгруппируйте все свои аккаунты для покупок под собственными уникальными псевдонимами, такими как «‎mydeals@mydomain.mozmail.com».
+premium-promo-use-cases-social-networks-heading = Социальные сети
+premium-promo-use-cases-social-networks-body = Хотите лучше защитить свою личность в Интернете во время использования социальной сети? Воспользуйтесь разными псевдонимами { -brand-name-relay } для входа в каждую социальную сеть и не открывайте свою настоящую электронную почту этим сайтам.
+premium-promo-use-cases-gaming-heading = Игры
+premium-promo-use-cases-gaming-body = Беспокоитесь о том, что другие игроки или тролли узнают, кто вы, по вашему тегу и адресу электронной почты? Воспользуйтесь псевдонимом, например, «‎onlinegame@mydomain.mozmail.com», чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
+premium-promo-pricing-free-price = Ваш текущий тарифный план: бесплатный
 
 ## Settings page
 
+settings-headline = Настройки { -brand-name-relay }
+settings-meta-contact-label = Связаться с нами
+settings-meta-contact-tooltip = Связаться с нами по поводу { -brand-name-relay }
+settings-meta-help-label = Справка и поддержка
+settings-meta-help-tooltip = Получите помощь по использованию { -brand-name-relay }
+settings-meta-status-label = Состояние службы
+settings-meta-status-tooltip = Проверьте, все ли системы { -brand-name-relay } сейчас работают.
+settings-error-save-heading = Не удалось изменить настройки
+settings-error-save-description = Ваши изменения настроек не были сохранены из-за ошибки соединения. Пожалуйста, попробуйте ещё раз.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading = Функция маркировки псевдонимов электронной почты отключена
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description = { -brand-name-relay } сейчас не разрешён сбор данных о том, на каких сайтах вы создаёте и используете псевдонимы электронной почты. Вы можете изменить это в «Настройках» в разделе «Сбор данных».
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Приватность
+setting-label-collection-description = Разрешить { -brand-name-relay } собирать данные о том, на каких сайтах вы создаёте и используете псевдонимы электронной почты.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning = Эти данные позволят нам маркировать ваши псевдонимы соответствующими веб-сайтами в будущем выпуске. Если вы откажетесь от этой настройки, ваши псевдонимы не будут иметь пометок про веб-сайты, на которых они используются.
+setting-label-collection-off-warning-v2 = Эти данные позволят нам маркировать ваши псевдонимы веб-сайтами, на которых они используются. Если вы откажетесь от этой настройки, ваши псевдонимы не будут иметь пометок про веб-сайты, на которых они используются.
+settings-button-save-label = Сохранить
+settings-button-save-tooltip = Применить выбранные настройки.
 
 ## FAQ Page
 
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Добро пожаловать,</span> { $email }!
+profile-headline-manage-domain = Управляйте псевдонимами своего домена
+profile-supports-email-forwarding = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения).
+profile-promo-upgrade-headline = Переходите на улучшенную версию, чтобы получить ещё больше возможностей.
+profile-promo-upgrade-copy = Переходите на улучшенную версию { -brand-name-relay }, чтобы получить неограниченное число псевдонимов электронной почты и собственный домен.
+profile-promo-upgrade-cta = Перейти на улучшенную версию { -brand-name-relay }
+profile-label-edit = Редактировать метку этого псевдонима
+# On the user's profile page, this text appears for an alias when it doesn't have a label.
+profile-label-placeholder = Добавьте название аккаунта
+profile-label-save-error = Не удалось сохранить, пожалуйста, попробуйте ещё раз.
+profile-label-saved = Метка сохранена!
+profile-label-generate-new-alias = Создать новый псевдоним
+profile-label-generate-new-alias-menu-random = Случайный псевдоним
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom = Псевдоним @{ $subdomain }
+profile-label-delete = Удалить
+profile-label-delete-alias = Удалить этот псевдоним
+profile-label-upgrade = Получите неограниченное число псевдонимов
+profile-label-create-domain = Получите собственный домен электронной почты
+profile-label-domain = Домен электронной почты:
+profile-label-domain-tooltip = Создайте собственный уникальный домен электронной почты.
+profile-label-reset = Сбросить
+profile-label-apply = Применить
+profile-label-skip = Пропустить
+profile-label-continue = Продолжить
+# This string is followed by an email address
+profile-label-forward-emails = Пересылать письма на:
+# This string is followed by date
+profile-label-first-emailed = Первое письмо:
+# This string is followed by date:
+profile-label-created = Создан:
+profile-label-details-show = Показать подробности
+profile-label-details-hide = Скрыть подробности
+# This string is a label for a toggle (on/off) switch  
+profile-label-forwarding = переадресация
+profile-label-blocking = блокировка
+profile-label-disable-forwarding-button = Отключить переадресацию писем для этого псевдонима
+profile-label-enable-forwarding-button = Включить переадресацию писем для этого псевдонима
+profile-label-click-to-copy = Нажмите, чтобы скопировать
+profile-label-copy-confirmation = Псевдоним скопирован в буфер обмена
+profile-label-copied = Скопировано!
+profile-label-blocked = Заблокировано
+profile-label-forwarded = Переслано
+profile-label-cancel = Отмена
+profile-blocked-copy = { -brand-name-firefox-relay } будет удалять сообщения прежде, чем они попадут в ваш почтовый ящик, если вы выберете блокировку для этого псевдонима.
+profile-forwarded-copy = { -brand-name-firefox-relay } будет отправлять сообщения в ваш почтовый ящик, если вы выберете переадресацию для этого псевдонима.
+profile-forwarded-note = Примечание:
+profile-forwarded-note-copy = Письма размером более { email-size-limit } (включая вложения) сейчас не поддерживаются и не будут пересланы.
+profile-forwarded-note-copy-v2 = Письма размером более { email-size-limit } (включая вложения) не будут пересланы.
+profile-stat-label-blocked = Писем заблокировано
+profile-stat-label-forwarded = Писем переслано
+profile-stat-label-aliases-used = Псевдонимов электронной почты использовано
+profile-filter-search-placeholder = Поиск псевдонимов
+# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-aliases-v2 = Псевдонимы с переадресацией
+# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-aliases-v2 = Псевдонимы с блокировкой
+# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-relay-aliases-v2 = Случайные псевдонимы
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-domain-based-aliases-v2 = Пользовательские псевдонимы
+# Filter on Relay aliases that only forward critical emails.
+profile-filter-category-option-critical-only-aliases = Псевдонимы с переадресацией важных писем
+# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-aliases = Псевдонимы с блокировкой рекламы
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Какие электронные письма вы хотите блокировать?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Все
 
 ## Banner Messages (displayed on the profile page)
 
