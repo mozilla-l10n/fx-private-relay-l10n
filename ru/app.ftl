@@ -295,6 +295,7 @@ faq-question-what-is-question = Что такое псевдоним { -brand-na
 faq-question-missing-emails-question = Я не получаю сообщения от моих псевдонимов
 faq-question-missing-emails-answer-reason-spam = Сообщения попадают в спам
 faq-question-missing-emails-answer-reason-blocked = Ваш провайдер электронной почты блокирует ваш псевдоним
+faq-question-missing-emails-answer-reason-not-accepted = Сайт не принимает псевдонимы
 
 ## Profile Page (Logged In)
 
