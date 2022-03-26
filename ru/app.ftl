@@ -378,7 +378,11 @@ profile-promo-email-blocking-option-promotionals = Рекламные
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Не блокировать
 profile-promo-email-blocking-description-all = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } будет стараться блокировать рекламные электронные письма, при этом пересылая такие письма, как квитанции и информацию о доставке.
 profile-promo-email-blocking-description-none = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
+profile-promo-email-blocking-label-promotionals = Блокировать рекламу
+profile-promo-email-blocking-label-none = Блокировать всё
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 
 ## Banner Messages (displayed on the profile page)
 
