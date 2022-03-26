@@ -285,6 +285,16 @@ settings-button-save-tooltip = Применить выбранные настр�
 
 ## FAQ Page
 
+faq-headline = Часто задаваемые вопросы
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question = Что такое псевдоним { -brand-name-relay }?
+faq-question-missing-emails-question = Я не получаю сообщения от моих псевдонимов
+faq-question-missing-emails-answer-reason-spam = Сообщения попадают в спам
+faq-question-missing-emails-answer-reason-blocked = Ваш провайдер электронной почты блокирует ваш псевдоним
 
 ## Profile Page (Logged In)
 
