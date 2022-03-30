@@ -147,8 +147,6 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
 landing-pricing-premium-feature-5 = Block promotional emails
 
-
-
 ## Use Cases
 
 landing-use-cases-shopping = Shopping
