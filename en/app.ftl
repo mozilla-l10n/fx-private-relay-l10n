@@ -174,6 +174,8 @@ landing-how-it-works-step-1-body-2 = Generate email masks automatically wherever
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address. 
     Select it to generate a new, random address that ends in @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address.
+    Select it to generate a new, random address that ends in @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body = Sign in to the { -brand-name-relay } dashboard to keep track of the aliases you’ve created. { -brand-name-relay } will forward messages to your email address. 
     If an alias gets spam or unwanted messages, you can block all messages or even delete the alias, right from the dashboard.
@@ -217,6 +219,7 @@ landing-pricing-premium-feature-5 = Block promotional emails
 
 ## Use Cases
 
+landing-use-cases-heading = Use { -brand-name-firefox-relay } for:
 landing-use-cases-shopping = Shopping
 # Deprecated
 landing-use-cases-shopping-body = Buying something from a new online shop? Use a { -brand-name-relay } alias instead of your email when making an online purchase. 
@@ -488,6 +491,7 @@ faq-question-promotional-email-blocking-question = What is promotional email blo
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
 faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
 faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
+
 ## Profile Page (Logged In)
 
 # Variables:
@@ -500,6 +504,12 @@ profile-promo-upgrade-headline = Upgrade for even more features.
 # Deprecated
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } to get unlimited email addresses and your own email domain.
 profile-promo-upgrade-cta = Upgrade { -brand-name-relay }
+profile-details-expand = Show mask details
+profile-details-collapse = Hide mask details
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Click to copy mask { $address }.
 # Deprecated
 profile-label-edit = Edit the label for this alias
 profile-label-edit-2 = Edit the label for this mask
@@ -532,6 +542,7 @@ profile-label-create-subdomain = Get your email subdomain
 # Deprecated
 profile-label-domain = Email Domain:
 profile-label-subdomain = Email Subdomain:
+profile-label-subdomain-tooltip-trigger = More info
 # Deprecated
 profile-label-domain-tooltip = Create your unique and custom email domain.
 profile-label-subdomain-tooltip = Create your unique email subdomain.
@@ -586,6 +597,10 @@ profile-stat-label-aliases-used-2 = Email masks used
 # Deprecated
 profile-filter-search-placeholder = Search aliases
 profile-filter-search-placeholder-2 = Search masks
+profile-filter-category-button-label = Filter visible masks
+profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
+profile-filter-category-title = Filter visible masks
+profile-filter-no-results = No masks match your selected criteria. <clear-button>Clear all filters.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Forwarding aliases
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
@@ -594,6 +609,8 @@ profile-filter-category-option-active-masks = Forwarding masks
 profile-filter-category-option-disabled-aliases-v2 = Blocking aliases
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Blocking masks
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Promo-blocking masks
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Random aliases
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
@@ -602,12 +619,6 @@ profile-filter-category-option-random-masks = Random masks
 profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Custom masks
-# Deprecated
-profile-filter-category-option-critical-only-aliases = Critical-only aliases
-# Deprecated
-profile-filter-category-option-promo-blocking-aliases = Promo-blocking aliases
-# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
-profile-filter-category-option-promo-blocking-masks = Promo-blocking masks
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 profile-promo-email-blocking-title = What emails do you want to block?
@@ -626,6 +637,8 @@ profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Not forwarding
 
 ## Banner Messages (displayed on the profile page)
+
+banner-dismiss = Dismiss
 
 banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
 
@@ -743,6 +756,14 @@ error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not av
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = The subdomain @{ $unavailable_subdomain } is not available. Please try a different one.
+error-settings-update = There was an error updating your settings, please try again
+error-mask-create-failed = The mask could not be created. Please try again.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = The mask data could not be updated. Please try again.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = The mask { $mask } could not be deleted. Please try again.
 
 ## Tips and tricks at the bottom of the page
 
@@ -853,6 +874,10 @@ onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Step { $step } of { $max }.
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
@@ -944,10 +969,17 @@ modal-domain-register-button-2 = Register Subdomain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is available!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is available!
 
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Yes, I want to register <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Success!
 
 # Deprecated
@@ -956,9 +988,20 @@ modal-domain-register-success = { $subdomain } is now your email domain!
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is now your email subdomain!
 # Deprecated
 modal-domain-register-success-copy = Now you can create unlimited email aliases using your new domain! What are you waiting for?
 modal-domain-register-success-copy-2 = Now you can create unlimited custom email masks!
+
+## The "Help & Tips" area at the bottom of the page
+
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
