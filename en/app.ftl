@@ -323,6 +323,7 @@ faq-question-1-answer-b-html = If you see a broader problem of unwanted email fr
 
 faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
+faq-question-availability-answer-v2 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, Finland, France, Belgium, Austria, Spain, Italy, Sweden, Switzerland, Netherlands, and Ireland.
 
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
 # Deprecated
