@@ -195,6 +195,7 @@ landing-pricing-premium-feature-3 = Seu próprio domínio de email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = seuemail@seudominio.mozmail.com
 landing-pricing-premium-feature-4 = Responder a emails encaminhados
+landing-pricing-premium-feature-5 = Bloquear emails promocionais
 
 ## Use Cases
 
@@ -321,6 +322,7 @@ faq-question-1-answer-a = Embora o { -brand-name-relay } não filtre spam, nosso
 faq-question-1-answer-b-html = Se perceber um problema mais amplo de emails indesejados de todos os seus endereços de redirecionamento, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
 faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
+faq-question-availability-answer-v2 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, Finlândia, França, Bélgica, Áustria, Espanha, Itália, Suécia, Suíça, Holanda e Irlanda.
 faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
