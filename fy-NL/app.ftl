@@ -196,6 +196,7 @@ landing-pricing-premium-feature-3 = Jo eigen e-maildomein
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
 landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
+landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
 
 ## Use Cases
 
@@ -327,6 +328,7 @@ faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blo
 faq-question-1-answer-b-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo aliassen, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
+faq-question-availability-answer-v2 = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapoer, Maleizië, Nij-Seelân, Finlân, Frankryk, België, Eastenryk, Spanje, Italië, Sweden, Switserlân, Nederlân en Ierlân.
 faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
