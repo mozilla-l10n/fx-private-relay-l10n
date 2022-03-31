@@ -195,6 +195,7 @@ landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
+landing-pricing-premium-feature-5 = Bloquear correos con publicidad
 
 ## Use Cases
 
@@ -321,6 +322,7 @@ faq-question-1-answer-a = Si bien { -brand-name-relay } no filtra el spam, nuest
 faq-question-1-answer-b-html = Si ves un problema más amplio de correo electrónico no deseado de todos tus alias, <a href="{ $url }" { $attrs }> infórmanos</a> para que podamos considerar ajustar los parámetros de spam de SES para este Servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, no el remitente original.
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
+faq-question-availability-answer-v2 = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Finlandia, Francia, Bélgica, Austria, España, Italia, Suecia, Suiza, Países Bajos e Irlanda.
 faq-question-4-question = ¿Puedo responder mensajes usando mi alias de { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a su recepción. Si agregas a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no agregues CC o CCO al responder.
