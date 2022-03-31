@@ -190,6 +190,7 @@ landing-pricing-premium-feature-3 = Your own email domain
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
+landing-pricing-premium-feature-5 = Block promotional emails
 
 ## Use Cases
 
