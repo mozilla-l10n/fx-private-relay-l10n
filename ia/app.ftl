@@ -192,6 +192,7 @@ landing-pricing-premium-feature-3 = Tu proprie dominio e-mail
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Replica al e-mails inultrate
+landing-pricing-premium-feature-5 = Blocar e-mails promotional
 
 ## Use Cases
 
