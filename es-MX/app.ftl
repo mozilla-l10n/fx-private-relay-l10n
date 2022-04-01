@@ -172,26 +172,40 @@ landing-how-it-works-body-2 = Proporciona un correo enmascarado de { -brand-name
 landing-how-it-works-step-1-body-cta = Descarga la extensión de { -brand-name-relay } para { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que ingreses tu dirección de correo electrónico en línea.
+landing-how-it-works-step-1-body-2 = Genera correos enmascarados automáticamente cada vez que ingreses tu dirección de correo en línea.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Mientras navegas, aparecerá el ícono { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
     Selecciónalo para generar una nueva dirección aleatoria que termine en @ relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Mientras navegas en internet, aparecerá el ícono de { -brand-name-relay } donde los sitios te solicitan tu dirección de correo electrónico.
+    Selecciónalo para generar una nueva dirección aleatoria que termine en @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado. { -brand-name-relay }reenviará los mensajes a tu dirección de correo electrónico.
     Si un alias recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
+landing-how-it-works-step-3-body-2 =
+    Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de las correos enmascarados que has creado.
+    Si encuentras que uno recibe spam o mensajes no deseados, puede bloquear todos los mensajes o incluso eliminarla la dirección, directamente desde el tablero.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Solo por tiempo limitado: alias ilimitados por { $monthly_price } al mes
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Solo por tiempo limitado: correos electrónicos enmascarados por { $monthly_price } al mes
 # Deprecated
 landing-pricing-body =
     Prueba los alias de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
     Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
+landing-pricing-body-2 =
+    Prueba los correos electrónicos enmascarados de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
+    Luego actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 landing-pricing-free-price = Gratis
 # Deprecated
 landing-pricing-free-feature-1 = Hasta 5 alias de correo electrónico
+landing-pricing-free-feature-1-2 = Enmascara hasta 5 correos
 landing-pricing-free-feature-2 = Extensión del navegador
 landing-pricing-free-cta = Obtener { -brand-name-relay }
 # Variables:
@@ -200,9 +214,11 @@ landing-pricing-premium-price = { $monthly_price }/mes
 landing-pricing-premium-price-highlight = Precios por tiempo limitado
 # Deprecated
 landing-pricing-premium-feature-1 = Alias de correo electrónico ilimitados
+landing-pricing-premium-feature-1-2 = Correos enmascarados ilimitados
 landing-pricing-premium-feature-2 = Extensión del navegador
 # Deprecated
 landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
+landing-pricing-premium-feature-3-2 = tu propio subdominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
@@ -210,11 +226,15 @@ landing-pricing-premium-feature-5 = Bloquear correos con publicidad
 
 ## Use Cases
 
+landing-use-cases-heading = Usa { -brand-name-firefox-relay } para:
 landing-use-cases-shopping = Compras
 # Deprecated
 landing-use-cases-shopping-body =
     ¿Estás comprando algo en una nueva tienda en línea? Utiliza un alias de { -brand-name-relay } en lugar de tu correo electrónico cuando realices una compra en línea.
     Reenviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-shopping-body-2 =
+    ¿Compras algo de una nueva tienda en línea? Usa un correo enmascarado en lugar de tu verdadero correo electrónico cuando realices una compra en línea.
+    Reenviaremos el recibo a tu verdadera dirección de correo electrónico, y si comienzas a recibir correos electrónicos que no te gustan, simplemente cambia la máscara a bloqueo.
 landing-use-cases-social-networks = Redes sociales
 # Deprecated
 landing-use-cases-social-networks-body =
