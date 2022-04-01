@@ -235,6 +235,7 @@ landing-pricing-premium-feature-3 = Vaša vlastná e-mailová doména
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
 landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
+landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
 
 ## Use Cases
 
