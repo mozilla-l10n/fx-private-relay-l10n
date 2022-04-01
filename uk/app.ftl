@@ -345,12 +345,17 @@ settings-warning-collection-off-heading = Функцію позначення п
 settings-warning-collection-off-heading-2 = Функцію міток масок адрес електронної пошти вимкнено
 # Deprecated
 settings-warning-collection-off-description = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували псевдоадреси електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували маски адрес електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватність
 # Deprecated
 setting-label-collection-description = Дозволити { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші псевдоадреси.
+setting-label-collection-description-2 = Дозволити { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші маски.
 # Deprecated
 setting-label-collection-off-warning = Ці дані дають нам можливість позначити ваші псевдоадреси з відповідними вебсайтами в наступному випуску. Якщо ви вирішите відмовитися від цього параметра, ваші псевдоадреси матимуть позначки про вебсайти, на яких вони використовуються.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Ці дані дозволять нам пов'язувати ваші маски адрес електронної пошти з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші маски адрес електронної пошти матимуть позначки про вебсайти, на яких вони використовуються.
 settings-button-save-label = Зберегти
 settings-button-save-tooltip = Застосувати вибрані налаштування.
 
@@ -364,8 +369,10 @@ faq-headline = Часті запитання
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Що таке псевдоадреси { -brand-name-relay }?
+faq-question-what-is-question-2 = Що таке маски адрес електронної пошти { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Псевдоадреси електронної пошти — це замасковані адреси електронної пошти, які пересилають повідомлення на вашу справжню адресу електронної пошти. Вони надають вам змогу ділитися адресою зі сторонніми, маскуючи вашу справжню адресу електронної пошти та пересилатимуть на неї повідомлення.
+faq-question-what-is-answer-2 = Маски адрес електронної пошти — це замасковані, або приватні, адреси електронної пошти, які пересилають повідомлення на вашу справжню адресу електронної пошти. Вони надають вам змогу ділитися адресою зі сторонніми, маскуючи вашу справжню адресу електронної пошти та пересилатимуть на неї повідомлення.
 # Deprecated
 faq-question-missing-emails-question = Я не отримую повідомлень від своїх псевдоадрес
 # Deprecated
@@ -531,12 +538,22 @@ profile-stat-label-aliases-used = Використовувані псевдоа�
 profile-filter-search-placeholder = Шукати псевдоадреси
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Активні ппсевдоадреси
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Активні маски
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Неактивні псевдоадреси
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Неактивні маски
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Маски, що блокують рекламу
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Випадкові псевдоадреси
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Випадкові маски
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Користувацькі псевдоадреси
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Власні маски
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -557,6 +574,7 @@ profile-promo-email-blocking-label-not-forwarding = Не пересилають�
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Відхилити
 banner-bounced-headline = { -brand-name-relay } не може доставити вашу електронну пошту.
 # Variables:
 #   $username (string) - Username
@@ -662,17 +680,21 @@ tips-footer-link-support-tooltip = Звернутися до служби під
 
 # Deprecated
 modal-custom-alias-picker-heading = Створіть нову власну псевдоадресу
+modal-custom-alias-picker-heading-2 = Створіть нову власну маску
 # Deprecated
 modal-custom-alias-picker-warning = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 # Deprecated
 modal-custom-alias-picker-form-heading = Або створіть власну псевдоадресу вручну
+modal-custom-alias-picker-form-heading-2 = Або створіть власну маску вручну
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Введіть префікс псевдоадреси
+modal-custom-alias-picker-form-prefix-label-2 = Введіть префікс маски адреси електронної пошти
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = напр. «coffee»
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Створити псевдоадресу
+modal-custom-alias-picker-form-submit-label-2 = Створити маску
 # Deprecated
 modal-custom-alias-picker-creation-error = Не вдалося створити власну псевдоадресу вручну. Спробуйте ще раз або надішліть електронний лист на псевдоадресу, щоб створити її.
 
@@ -680,21 +702,26 @@ modal-custom-alias-picker-creation-error = Не вдалося створити 
 
 # Deprecated
 popover-custom-alias-explainer-heading = Як створити власні псевдоадреси
+popover-custom-alias-explainer-heading-2 = Як створювати власні маски
 # Deprecated
 popover-custom-alias-explainer-explanation = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Створити власну псевдоадресу вручну
+popover-custom-alias-explainer-generate-button-heading-2 = Створити власну маску вручну
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Створити власну псевдоадресу
+popover-custom-alias-explainer-generate-button-label-2 = Створити власну маску
 popover-custom-alias-explainer-close-button-label = Закрити
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
 popover-custom-alias-explainer-promotional-block-tooltip = Увімкніть блокування промоційних електронних листів псевдоадресою, щоб маркетингові листи не надходили до вашої теки вхідних.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування промоційних електронних листів маскою, щоб маркетингові листи не надходили до вашої теки вхідних.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Створення псевдоадрес із використанням власного домену
+tips-custom-alias-heading-2 = Створення маски з використанням власного субдомену
 # Deprecated
 tips-custom-alias-content = Усе що вам потрібно зробити, це створити й поділитися унікальною псевдоадресою, яка використовує ваш власний домен — псевдоадресу буде згенеровано автоматично. Спробуйте, наприклад, “shop@customdomain.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 
@@ -707,11 +734,14 @@ tips-promo-email-blocking-content = За допомогою { -brand-name-relay-
 
 # Deprecated
 onboarding-headline = Створіть свою першу псевдоадресу одним з трьох способів …
+onboarding-headline-2 = Створіть свою першу маску адреси електронної пошти
 # Deprecated
 onboarding-alias-tip-1 = Виберіть “Створити нову псевдоадресу”, щоб створити свою першу псевдоадресу
+onboarding-alias-tip-1-2 = Виберіть “Створити нову маску”, щоб створити свою першу маску електронної адреси
 onboarding-alias-tip-2 = Використовуючи розширення { -brand-name-relay }, виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться в полях електронної пошти.
 # Deprecated
 onboarding-alias-tip-3 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Створити нову псевдоадресу.”
+onboarding-alias-tip-3-2 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Створити нову маску.”
 
 ## Premium Onboarding
 
@@ -722,6 +752,7 @@ onboarding-premium-feature-intro = За допомогою { -brand-name-firefox
 onboarding-premium-control-title = Контролюйте, які листи ви отримуєте
 # Deprecated
 onboarding-premium-control-description = Діліться необмеженою кількістю псевдоадрес електронної пошти, які пересилають потрібні вам електронні листи у вашу поштову скриньку.
+onboarding-premium-control-description-2 = Діліться необмеженою кількістю масок адрес електронної пошти, які пересилають потрібні вам електронні листи у вашу поштову скриньку.
 # Deprecated
 onboarding-premium-domain-title = Використовуйте власні домени псевдоадрес, якими можна ділитися
 # Deprecated
@@ -736,11 +767,16 @@ onboarding-premium-title-detail = За допомогою { -brand-name-firefox-
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Крок { $step } із { $max }.
 multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Тепер ви можете контролювати, що саме потрапляє у вашу поштову скриньку, по одному листу за раз.
 multi-part-onboarding-premium-welcome-title = Контролюйте, які листи ви отримуєте:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Генерувати необмежену кількість псевдоадрес електронної пошти
+multi-part-onboarding-premium-generate-unlimited-title-2 = Створюйте необмежену кількість масок адрес електронної пошти
 multi-part-onboarding-premium-welcome-button-start = Розпочнімо
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Власні домени псевдоадрес, якими можна ділитися
@@ -748,6 +784,7 @@ multi-part-onboarding-premium-domain-headline = Власні домени псе
 multi-part-onboarding-premium-domain-title = Отримайте користувацький домен для своїх псевдоадрес:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Отримати індивідуальний домен
+multi-part-onboarding-premium-get-subdomain = Отримати індивідуальний субдомен
 multi-part-onboarding-reply-headline = Відповідати на ваші електронні листи
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Більше ніякого обмеження на п’ять псевдоадрес: тепер ви можете створювати стільки власних або випадкових псевдоадрес, скільки вам потрібно. На компʼютері ви можете використовувати додаток Relay, щоб створювати їх на ходу.
