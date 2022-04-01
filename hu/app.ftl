@@ -713,6 +713,9 @@ banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létreho
 
 # Deprecated
 success-subdomain-registered = Az Ön @{ $subdomain } domainje létrejött
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Az Ön @{ $subdomain } aldomainje létrejött
 success-settings-update = A beállításai frissítve lettek
 
 ## Error Messages
@@ -730,6 +733,10 @@ error-subdomain-email-not-created = Nem sikerült e-mail-címet létrehozni az a
 error-subdomain-select = Ki kell választania egy aldomaint, mielőtt aldomain álnevet hozna létre
 # Deprecated
 error-subdomain-not-available = A(z) @{ $unavailable_subdomain } domain nem érhető el. Próbálja újra egy másik domainnel.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = A(z) @{ $unavailable_subdomain } aldomain nem érhető el. Próbálja újra egy másikkal.
+error-settings-update = Hiba történt a beállítások frissítésekor, próbálja újra
 
 ## Tips and tricks at the bottom of the page
 
