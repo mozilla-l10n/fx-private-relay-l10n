@@ -303,18 +303,24 @@ premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio person
 premium-promo-perks-perk-custom-domain-headline-2 = Selecciona tu subdominio personalizado
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir. ¿Necesitas uno para las reservas de restaurantes? Usa uno como food@mydomain.mozmail.com — No hace falta crear el alias de antemano.
+premium-promo-perks-perk-custom-domain-body-2 = Con un subdominio personalizado, puedes crear máscaras que son más sencillas de recordar y compartir. ¿Necesitas una para reservaciones en un restaurante? Usa una como comida@midominio.mozmail.com — No necesitas crear la máscara de antemano.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Controla tus alias desde el panel
+premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el tablero
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Administra todos tus alias en el panel de fácil uso: si encuentras que uno recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
+premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras de correo electrónico en el panel fácil de usar: si encuentras que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
 # Deprecated
 premium-promo-use-cases-headline = Utiliza los alias de correo electrónico de { -brand-name-relay } en cualquier lugar
+premium-promo-use-cases-headline-2 = Usa correos enmascarados de { -brand-name-relay } donde sea
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
 premium-promo-use-cases-shopping-body = ¿Intentas registrarte para obtener descuentos sin todo el spam? Agrupa todas tus cuentas de “compras” con alias personalizados únicos, como “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-shopping-body-2 = ¿Quieres registrarte para obtener descuentos sin todo el spam? Empaqueta todas tus cuentas de “compra” en un correo enmascarado como “miscompras@midominio.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Redes sociales
 # Deprecated
 premium-promo-use-cases-social-networks-body = ¿Quieres proteger mejor tu identidad en línea al usar una red social? Usa un alias de { -brand-name-relay } diferente para iniciar sesión en cada red social y ayudar a proteger tu verdadero correo electrónico de estar expuesto a estos sitios.
+premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa un correo enmascarado diferente para iniciar sesión en cada red social y ayuda a proteger tu verdadero correo electrónico para que no quede expuesto a esos sitios.
 premium-promo-use-cases-gaming-heading = Juegos
 # Deprecated
 premium-promo-use-cases-gaming-body = ¿Preocupado por otros jugadores o trolls sepan quién eres a través de tu placa y dirección de correo electrónico? Utiliza un alias como “onlinegame@mydomain.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
