@@ -198,9 +198,11 @@ landing-pricing-premium-feature-1 = Nombre illimité d’alias de messagerie
 landing-pricing-premium-feature-2 = Extension de navigateur
 # Deprecated
 landing-pricing-premium-feature-3 = Votre propre domaine de messagerie
+landing-pricing-premium-feature-3-2 = Votre propre sous-domaine de messagerie
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
 landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
+landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
 
 ## Use Cases
 
