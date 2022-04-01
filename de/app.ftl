@@ -316,12 +316,15 @@ premium-promo-use-cases-headline-2 = Verwenden Sie überall E-Mail-Masken von { 
 premium-promo-use-cases-shopping-heading = Einkaufen
 # Deprecated
 premium-promo-use-cases-shopping-body = Versuchst du, dich für Rabatte ohne Spam zu registrieren? Bündel alle deine „Einkaufs“-Konten unter einzigartigen benutzerdefinierten Aliassen, wie „mydeals@meinedomain.mozmail.com“.
+premium-promo-use-cases-shopping-body-2 = Versuchen Sie, sich für Rabatte ohne Spam zu registrieren? Bündeln Sie Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten E-Mail-Masken, wie „mydeals@meinedomain.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
 # Deprecated
 premium-promo-use-cases-social-networks-body = Möchtest du deine Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwende ein eigenes Alias von { -brand-name-relay } für jedes soziale Netzwerk und verhindere, dass deine echte E-Mail-Adresse diesen Websites bekannt wird.
+premium-promo-use-cases-social-networks-body-2 = Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwenden Sie eine eigene E-Mail-Maske für jedes soziale Netzwerk und verhindern Sie, dass Ihre echte E-Mail-Adresse diesen Websites bekannt wird.
 premium-promo-use-cases-gaming-heading = Gaming
 # Deprecated
 premium-promo-use-cases-gaming-body = Du bist besorgt, dass andere Spieler oder Trolle über dein Gamertag und deine E-Mail-Adresse erfahren, wer du bist? Verwende ein Alias wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen deiner Identität und den Spielen, die du online spielst, zu platzieren.
+premium-promo-use-cases-gaming-body-2 = Sie sind besorgt, dass andere Spieler oder Trolle über Ihr Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind? Verwenden Sie eine Maske wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen Ihrer Identität und den Spielen, die Sie online spielen, zu platzieren.
 premium-promo-pricing-free-price = Dein aktuelles, kostenloses Modell
 
 ## Settings page
@@ -337,14 +340,21 @@ settings-error-save-heading = Änderung der Einstellungen fehlgeschlagen
 settings-error-save-description = Deine Änderungen an den Einstellungen wurden aufgrund eines Verbindungsfehlers nicht gespeichert. Bitte versuche es erneut.
 # Deprecated
 settings-warning-collection-off-heading = Funktion „Beschriftung von Alias-E-Mail-Adresse“ ist deaktiviert
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Funktion „Beschriftung von E-Mail-Masken“ ist deaktiviert
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen du Aliasse erstellt und verwendet hast. Dies kannst du in den „Einstellungen“ unter „Datenerfassung“ ändern.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen Sie E-Mail-Masken erstellt und verwendet haben. Dies können Sie in den „Einstellungen“ unter „Datenerfassung“ ändern.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Datenschutz
 # Deprecated
 setting-label-collection-description = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen deine Aliasse erstellt und verwendet werden.
+setting-label-collection-description-2 = { -brand-name-relay } erlauben, Daten zu sammeln, die die Websites zeigen, auf denen Ihre Masken erstellt und verwendet werden.
 # Deprecated
 setting-label-collection-off-warning = Diese Daten ermöglichen es uns, deine Alias-E-Mail-Adressen in einer zukünftigen Version mit den entsprechenden Websites zu beschriften. Wenn du dich von dieser Einstellung abmeldest, werden deine Aliasse nicht mit den Websites beschriftet, auf denen sie verwendet werden.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Diese Daten ermöglichen es uns, Ihre E-Mail-Masken in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Masken nicht mit den Websites beschriftet, auf denen sie verwendet werden.
 settings-button-save-label = Speichern
 settings-button-save-tooltip = Gewählte Einstellungen übernehmen.
 
@@ -358,20 +368,27 @@ faq-headline = Häufig gestellte Fragen
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Was ist eine Alias-E-Mail-Adresse von { -brand-name-relay }?
+faq-question-what-is-question-2 = Was ist eine E-Mail-Maske von { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Aliasse sind maskierte E-Mail-Adressen, die Nachrichten an deine eigentliche E-Mail-Adresse weiterleiten. Diese Aliasse ermöglichen es dir, eine Adresse mit Dritten zu teilen, die deine eigentliche E-Mail-Adresse maskiert und Nachrichten an diese weiterleitet.
+faq-question-what-is-answer-2 = Masken sind maskierte E-Mail-Adressen, die Nachrichten an Ihre eigentliche E-Mail-Adresse weiterleiten. Diese Masken ermöglichen es Ihnen, eine Adresse mit Dritten zu teilen, die Ihre eigentliche E-Mail-Adresse maskiert und Nachrichten an diese weiterleitet.
 # Deprecated
 faq-question-missing-emails-question = Ich erhalte keine Nachrichten von meinen Alias-E-Mail-Adressen
+faq-question-missing-emails-question-2 = Ich erhalte keine Nachrichten von meinen E-Mail-Masken
 # Deprecated
 faq-question-missing-emails-answer-a = Es gibt einige Gründe, warum du möglicherweise keine E-Mails erhältst, die über deine Aliasse weitergeleitet werden. Zu diesen Gründen gehören:
+faq-question-missing-emails-answer-a-2 = Es gibt einige Gründe, warum Sie möglicherweise keine E-Mails erhalten, die über Ihre Masken weitergeleitet werden. Zu diesen Gründen gehören:
 faq-question-missing-emails-answer-reason-spam = Nachrichten landen im Spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Dein E-Mail-Anbieter blockiert dein Alias
+faq-question-missing-emails-answer-reason-blocked-2 = Ihr E-Mail-Anbieter blockiert Ihre E-Mail-Masken
 faq-question-missing-emails-answer-reason-size = Die weitergeleitete E-Mail enthält einen Anhang, der größer als { email-size-limit } ist.
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Die Website akzeptiert keine Aliasse
+faq-question-missing-emails-answer-reason-not-accepted-2 = Die Website akzeptiert keine E-Mail-Masken
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Die Weiterleitung ist bei diesem Alias möglicherweise deaktiviert
+faq-question-missing-emails-answer-reason-turned-off-2 = Die Weiterleitung ist bei dieser Maske möglicherweise deaktiviert
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } braucht möglicherweise länger als gewöhnlich, um deine Nachrichten weiterzuleiten
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -381,12 +398,16 @@ faq-question-missing-emails-answer-b-html = Wenn du ein { -brand-name-relay-prem
 faq-question-missing-emails-answer-support-site-html = Wenn du mit einem dieser Probleme zu kämpfen hast, <a href="{ $url }" { $attrs }>besuche bitte unsere Hilfe-Website</a>.
 # Deprecated
 faq-question-use-cases-question = Wann sollte ich Aliasse von { -brand-name-relay } verwenden?
+faq-question-use-cases-question-2 = Wann sollte ich E-Mail-Masken von { -brand-name-relay } verwenden?
 # Deprecated
 faq-question-use-cases-answer-part1 = Du kannst die Aliasse von { -brand-name-relay } an den meisten Orten verwenden, an denen du deine normale E-Mail-Adresse verwenden würdest. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen du möglicherweise kontrollieren möchtest, ob du in Zukunft E-Mails erhältst oder nicht.
+faq-question-use-cases-answer-part1-2 = Sie können die E-Mail-Masken von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie  möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
 # Deprecated
 faq-question-use-cases-answer-part2 = Wir empfehlen die Verwendung von Aliassen nicht, wenn deine Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen du Anhänge erhalten musst. Du solltest beispielsweise deine eigentliche E-Mail-Adresse deiner Bank, deinem Arzt und deinem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
+faq-question-use-cases-answer-part2-2 = Wir empfehlen die Verwendung von E-Mail-Masken nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre eigentliche E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
 # Deprecated
 faq-question-2-question = Warum akzeptiert eine Website mein Alias von { -brand-name-relay } nicht?
+faq-question-2-question-2 = Warum akzeptiert eine Website meine E-Mail-Maske von { -brand-name-relay } nicht?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -398,13 +419,19 @@ faq-question-2-answer-v4 = Einige Websites akzeptieren möglicherweise keine E-M
 faq-question-1-question = Was ist mit Spam?
 # Deprecated
 faq-question-1-answer-a = { -brand-name-relay } filtert keinen Spam, aber unser E-Mail-Partner Amazon SES blockiert Spam und Schadsoftware. Wenn { -brand-name-relay } unerwünschte Nachrichten weiterleitet, kannst du deine { -brand-name-relay }-Einstellungen ändern, um Nachrichten zu blockieren, die von dem Alias weitergeleitet werden.
+faq-question-1-answer-a-2 = { -brand-name-relay } filtert keinen Spam, aber unser E-Mail-Partner Amazon SES blockiert Spam und Schadsoftware. Wenn { -brand-name-relay } unerwünschte Nachrichten weiterleitet, können Sie Ihre { -brand-name-relay }-Einstellungen ändern, um Nachrichten zu blockieren, die von der Maske weitergeleitet werden.
 # Deprecated
 faq-question-1-answer-b-html = Wenn du feststellst, dass es bei all deinen Aliassen ein größeres Problem mit unerwünschten Nachrichten gibt, <a href="{ $url }" { $attrs }>schreibe uns</a>, sodass wir prüfen können, ob wir die SES-Spam-Schwellen für diesen Dienst anpassen können. Wenn du diese Nachrichten als Spam meldest, erfasst dein E-Mail-Anbieter { -brand-name-relay } als Quelle der Spam-Nachrichten, und nicht den ursprünglichen Absender.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Wenn Sie feststellst, dass es bei all Ihren Masken ein größeres Problem mit unerwünschten Nachrichten gibt, <a href="{ $url }" { $attrs }>schreiben Sie uns</a>, sodass wir prüfen können, ob wir die SES-Spam-Schwellen für diesen Dienst anpassen können. Wenn Sie diese Nachrichten als Spam melden, erfasst Ihr E-Mail-Anbieter { -brand-name-relay } als Quelle der Spam-Nachrichten, und nicht den ursprünglichen Absender.
 faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-availability-answer-v2 = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Finnland, Frankreich, Belgien, Österreich, Spanien, Italien, Schweden, der Schweiz, den Niederlanden und Irland verfügbar.
 # Deprecated
 faq-question-4-question = Kann ich mit meiner Alias-E-Mail-Adresse von { -brand-name-relay } auf Nachrichten antworten?
+faq-question-4-question-2 = Kann ich mit meiner E-Mail-Maske von { -brand-name-relay } auf Nachrichten antworten?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-Benutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine ursprüngliche E-Mail-Adresse den Empfängern und denen in der E-Mail angezeigt. Wenn du nicht möchtest, dass deine ursprüngliche E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine ursprüngliche E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn du nicht möchtest, dass deine ursprüngliche E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
@@ -417,19 +444,25 @@ faq-question-subdomain-characters-answer-v2 = Du kannst nur englische Kleinbuchs
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
 # Deprecated
 faq-question-browser-support-answer = Ja, du kannst Aliasse von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erstellen, indem du dich einfach bei { -brand-name-relay }-anmeldest.
+faq-question-browser-support-answer-2 = Ja, Sie können Masken von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erstellen, indem Sie sich einfach bei der { -brand-name-relay }-Übersicht anmelden..
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 # Deprecated
 faq-question-longevity-answer = Wir werden dich im Voraus darüber informieren, dass du die E-Mail-Adresse aller Konten ändern musst, die Aliasse von { -brand-name-relay } verwenden.
+faq-question-longevity-answer-2 = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die E-Mail-Masken von { -brand-name-relay } verwenden.
 # Deprecated
 faq-question-mozmail-question = Warum verwenden meine Aliasse die Domain „mozmail.com“?
+faq-question-mozmail-question-2 = Warum verwenden meine E-MailMasken die Domain „mozmail.com“?
 # Deprecated
 faq-question-mozmail-answer = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Domain wie alias@ihredomain.mozmail.com zu erhalten. Benutzerdefinierte E-Mail-Domains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, lassen dich deine Aliasse auch viel leichter merken als zufällige Aliasse.
+faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Subdomain wie alias@ihredomain.mozmail.com zu erhalten. Mit benutzerdefinierten E-Mail-Subdomains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, können Sie E-Mail-Masken erstellen, die sich deutlich einfacher merken lassen.
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 # Deprecated
 faq-question-unsubscribe-domain-question = Was passiert mit meiner benutzerdefinierten Domain, wenn ich mich von { -brand-name-relay-premium } abmelde?
+faq-question-unsubscribe-domain-question-2 = Was passiert mit meiner benutzerdefinierten Subdomain, wenn ich mich von { -brand-name-relay-premium } abmelde?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Wenn du ein Downgrade von { -brand-name-relay-premium } durchführst, erhältst du weiterhin E-Mails, die über deine benutzerdefinierte Domain weitergeleitet werden, aber du kannst mit dieser Domain keine neuen Aliasse mehr erstellen. Wenn du insgesamt mehr als fünf Aliasse hast, kannst du keine weiteren erstellen. Du verlierst auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Du kannst { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
+faq-question-unsubscribe-domain-answer-2 = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierten E-Mail-Masken weitergeleitet werden, aber Sie können mit dieser Subdomain keine neuen Masken mehr erstellen. Wenn Sie insgesamt mehr als fünf Masken haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-8-answer-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten findest du in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional kannst du auch Daten zu den Beschriftungen und der Website teilen, die du für deine Aliasse verwendest, damit wir dir diesen Dienst anbieten und für dich verbessern können.
