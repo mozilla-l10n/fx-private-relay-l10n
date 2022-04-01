@@ -258,11 +258,18 @@ landing-use-cases-access-content-body =
     Szeretne feliratkozni arra a hírlevélre, de nem bízik a feladóban?
     Használjon álnevet a valódi címe helyett – ha nem kívánt e-maileket kap ezen az álnéven keresztül, előfordulhat, hogy a feladó eladta az álnevet más marketingeseknek, vagy akár adatszivárgás következtében is kiszivároghatott.
     Csak kapcsolja ki vagy törölje az álnevet, hogy megvédje e-mailjeit.
+landing-use-cases-access-content-body-2 =
+    Szeretne feliratkozni arra a hírlevélre, de nem bízik a feladóban?
+    Használjon maszkot a valódi címe helyett – ha nem kívánt e-maileket kap ezen a maszkon keresztül, előfordulhat, hogy a feladó eladta a maszkot más marketingeseknek, vagy akár adatszivárgás következtében is kiszivároghatott.
+    Csak kapcsolja ki vagy törölje a maszkot, hogy megvédje a bejövő leveleit.
 landing-use-cases-gaming = Játék
 # Deprecated
 landing-use-cases-gaming-body =
     Élvezi az online játékokat, de aggódik amiatt, hogy más játékosok vagy zaklatók megtudják ki Ön a játékoscímkéje és az e-mail-címe alapján?
     Használjon { -brand-name-relay } álnevet, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
+landing-use-cases-gaming-body-2 =
+    Élvezi az online játékokat, de aggódik amiatt, hogy más játékosok vagy zaklatók megtudják ki Ön a játékoscímkéje és az e-mail-címe alapján?
+    Használjon egy e-mail-maszkot, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
 
 ## Landing FAQ Section
 
@@ -274,35 +281,49 @@ landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
 # Deprecated
 premium-promo-hero-body-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail álnevet kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a Relay Premiumra.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a { -brand-name-relay-premium }ra.</b>
 premium-promo-hero-cta = Frissítsen most
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 # Deprecated
 premium-promo-perks-lead = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail álnévvel és egyéni domainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
+premium-promo-perks-lead-2 = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail-maszkkal és egyéni aldomainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
 premium-promo-perks-cta-label = Frissítsen most
 premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Korlátlan számú e-mail álnév létrehozása
+premium-promo-perks-perk-unlimited-headline-2 = Korlátlan számú e-mail-maszk létrehozása
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Nincs többé öt álneves korlát: a { -brand-name-relay-premium } segítségével annyi álnevet állíthat elő, amennyire csak szüksége van, hogy megvédje a postaládáját a spammerektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
+premium-promo-perks-perk-unlimited-body-2 = Nincs többé öt maszkos korlát: a { -brand-name-relay-premium } segítségével annyi maszkot állíthat elő, amennyire csak szüksége van, hogy megvédje a postaládáját a kéretlen levelektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
 premium-promo-perks-perk-custom-domain-headline = Válassza ki saját egyéni domainjét
+premium-promo-perks-perk-custom-domain-headline-2 = Válassza ki saját egyéni aldomainjét
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Egyéni domain segítségével olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Használja például a kaja@mydomain.mozmail.com címet – nem szükséges előzetesen létrehoznia az álnevet.
+premium-promo-perks-perk-custom-domain-body-2 = Egyéni aldomain segítségével olyan maszkokat hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Használja például a kaja@mydomain.mozmail.com címet – nem szükséges előzetesen létrehoznia a maszkot.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Kezelje az álneveit az irányítópultról
+premium-promo-perks-perk-dashboard-headline-2 = Kezelje a maszkot az irányítópultról
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Kezelje összes álnevét a könnyen használható irányítópulton: ha úgy találja, hogy az egyik nem kívánt üzeneteket kap, letilthatja, hogy ezek az üzenetek ne kerüljenek a beérkező levelei közé.
+premium-promo-perks-perk-dashboard-body-2 = Kezelje összes e-mail-maszkját a könnyen használható irányítópulton: ha úgy találja, hogy az egyik nem kívánt üzeneteket kap, letilthatja, hogy ezek az üzenetek ne kerüljenek a beérkező levelei közé.
 # Deprecated
 premium-promo-use-cases-headline = Használjon { -brand-name-relay } e-mail álneveket bárhol
+premium-promo-use-cases-headline-2 = Használjon { -brand-name-relay } e-mail-maszkokat bárhol
 premium-promo-use-cases-shopping-heading = Vásárlás
 # Deprecated
 premium-promo-use-cases-shopping-body = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni álnevek alá, például „ajanlataim@mydomain.mozmail.com”.
+premium-promo-use-cases-shopping-body-2 = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni e-mail-maszkok alá, például „ajanlataim@mydomain.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
 # Deprecated
 premium-promo-use-cases-social-networks-body = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő { -brand-name-relay } álnevet az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
+premium-promo-use-cases-social-networks-body-2 = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő e-mail-maszkot az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
 premium-promo-use-cases-gaming-heading = Játék
 # Deprecated
 premium-promo-use-cases-gaming-body = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan álnevet, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
+premium-promo-use-cases-gaming-body-2 = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan maszkot, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
 premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
 
 ## Settings page
@@ -318,14 +339,21 @@ settings-error-save-heading = A beállítások módosítása sikertelen
 settings-error-save-description = A beállítások módosításai kapcsolati hiba miatt nem lettek elmentve. Próbálja meg újra.
 # Deprecated
 settings-warning-collection-off-heading = Az e-mail álnév címke funkció ki van kapcsolva
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Az e-mail-maszkcímke funkció ki van kapcsolva
 # Deprecated
 settings-warning-collection-off-description = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail álneveket állított elő és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail-maszkokat állított elő és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Adatvédelem
 # Deprecated
 setting-label-collection-description = Engedélyezés a { -brand-name-relay } számára, hogy adatokat gyűjtsön azokról a webhelyekről, amelyeken az álneveket létrehozta és használja.
+setting-label-collection-description-2 = Engedélyezés a { -brand-name-relay } számára, hogy adatokat gyűjtsön azokról a webhelyekről, amelyeken a maszkokat létrehozta és használja.
 # Deprecated
 setting-label-collection-off-warning = Ezek az adatok lehetővé teszik számunkra, hogy egy későbbi kiadásban felcímkézzük álneveit a releváns webhelyekkel. Ha úgy dönt, hogy leiratkozik ebből a beállításból, akkor az álnevei nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Ezek az adatok lehetővé teszik számunkra, hogy felcímkézzük az e-mail-maszkjait azokkal a webhelyekkel, ahol azokat használja. Ha úgy dönt, hogy leiratkozik erről a beállításról, akkor a maszkok nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
 settings-button-save-label = Mentés
 settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 
@@ -339,12 +367,16 @@ faq-headline = Gyakran Ismételt Kérdések
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Mi az a { -brand-name-relay } álnév?
+faq-question-what-is-question-2 = Mi az a { -brand-name-relay } e-mail-maszk?
 # Deprecated
 faq-question-what-is-answer = Az e-mail álnevek olyan maszkolt e-mail-címek, amelyek a valódi e-mail-címére továbbítják az üzeneteket. Ezek az álnevek lehetővé teszik, hogy úgy ossza meg a címet harmadik felekkel, hogy közben elfedi a valódi e-mail-címét, és oda továbbítja az üzeneteket.
+faq-question-what-is-answer-2 = Az e-mail-maszkok olyan maszkolt vagy privát e-mail-címek, amelyek a valódi e-mail-címére továbbítják az üzeneteket. Ezek a maszkok lehetővé teszik, hogy úgy ossza meg a címet harmadik felekkel, hogy közben elfedi a valódi e-mail-címét, és oda továbbítja az üzeneteket.
 # Deprecated
 faq-question-missing-emails-question = Nem kapok üzeneteket az álneveimtől
+faq-question-missing-emails-question-2 = Nem kapok üzeneteket az e-mail-maszkjaimtól
 # Deprecated
 faq-question-missing-emails-answer-a = Számos oka lehet annak, hogy miért nem kapja meg az álneveken keresztül továbbított leveleket. Pár lehetséges ok:
+faq-question-missing-emails-answer-a-2 = Számos oka lehet annak, hogy miért nem kapja meg a maszkokon keresztül továbbított leveleket. Pár lehetséges ok:
 faq-question-missing-emails-answer-reason-spam = Az üzenetek levélszemétbe kerülnek
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Az e-mail-szolgáltatója blokkolja az álnevét
