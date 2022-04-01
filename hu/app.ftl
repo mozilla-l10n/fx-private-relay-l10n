@@ -34,6 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = A { -brand-name-firefox-relay } megkönnyíti az e-mail álnevek létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteket. Használja online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
+meta-description-2 = A { -brand-name-firefox-relay } megkönnyíti az e-mail-maszkok létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteit. Használja őket az online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
 
 ## Header 
 
@@ -461,9 +462,14 @@ faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel,
 faq-question-unsubscribe-domain-question-2 = Mi történik az egyéni aldomainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új álneveket már nem fog tudni felvenni annál a domainnál. Ha összesen több mint öt álneve van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
+faq-question-unsubscribe-domain-answer-2 = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új maszkokat már nem fog tudni felvenni annál az aldomainnál. Ha összesen több mint öt maszkja van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-8-answer-html = Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkból</a>. Nem kötelező, de megoszthatja az adatait az e-mail-álnevekhez használt címkéiről és a webhelyekről, hogy biztosíthassuk azt a szolgáltatást és továbbfejleszthessük azt.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkból</a>. Nem kötelező, de megoszthatja az adatait az e-mail-maszkokhoz használt címkéiről és a webhelyekről, hogy biztosíthassuk azt a szolgáltatást és továbbfejleszthessük azt.
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
 faq-question-email-storage-answer = Abban a ritka esetben, amikor a szolgáltatás nem működik, ideiglenesen tárolhatjuk az e-maileket, amíg el nem tudjuk küldeni azokat. Soha nem tároljuk az e-maileket három napnál hosszabb ideig.
 faq-question-acceptable-use-question = Mik a { -brand-name-relay } elfogadható felhasználási területei?
@@ -585,6 +591,7 @@ profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
 profile-filter-category-button-tooltip = Szűrje a maszkokat aldomain szerint vagy aszerint, hogy blokkolják-e a bejövő e-maileket
 profile-filter-category-title = Látható maszkok szűrése
+profile-filter-no-results = Egyetlen maszk sem felel meg a kiválasztott feltételeknek. <clear-button>Az összes szűrő törlése.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Továbbítási álnevek
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
@@ -935,27 +942,54 @@ modal-delete-domain-address-warning-upgrade =
     Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
     akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt az álnevet.
     Ha újra létrehozza a törölt álnevet, akkor az eredeti álnévre küldött levelek továbbra is továbbítva lesznek.
+modal-delete-domain-address-warning-upgrade-2 =
+    Ha ezt a maszkot az Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
+    akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt.
+    Ha újra létrehozza a törölt maszkot, akkor az eredeti maszkra küldött levelek továbbra is továbbítva lesznek.
 # Deprecated
 modal-delete-confirmation = Igen, törlöm ezt az álnevet.
+modal-delete-confirmation-2 = Igen, törlöm ezt a maszkot.
 modal-domain-register-good-news = Jó hírek!
 # Deprecated
 modal-domain-register-warning-reminder = Ne feledje, hogy csak egy domaint regisztrálhat. Később nem fogja tudni megváltoztatni.
+modal-domain-register-warning-reminder-2 = Ne feledje, hogy csak egy aldomaint regisztrálhat. Később nem fogja tudni megváltoztatni.
 # Deprecated
 modal-domain-register-button = Domain regisztrálása
+modal-domain-register-button-2 = Aldomain regisztrálása
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = A(z) { $subdomain } elérhető!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> elérhető.
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Igen, szeretném regisztrálni a következőt: <subdomain>{ $subdomain }</subdomain>.
 modal-domain-register-success-title = Sikerült!
 # Deprecated
 modal-domain-register-success = A(z) { $subdomain } mostantól az Ön e-mail domainje!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = A(z) { $subdomain } mostantól az Ön e-mail-aldomainje!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> mostantól az e-mail-aldomainja.
 # Deprecated
 modal-domain-register-success-copy = Mostantól korlátlan számú e-mail álnevet hozhat létre az új domain használatával. Mire vár?
+modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-mail-maszkot hozhat létre.
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = { $nr }. tipp
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1002,12 +1036,18 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } beszerzése
 forwarded-email-header-from = Ezt az üzenetet a(z) { $display_email } továbbította a következőtől: { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = A { -brand-name-relay-premium } eltávolítja a „Másolatot kap” és „Vakmásolatot kap” mezőket a válaszokból. Ha újra felveszi őket, akkor kikerül a valódi e-mail-címe.
+forwarded-email-header-cc-notice-2 = A { -brand-name-relay-premium } eltávolítja a „Másolatot kap” és „Vakmásolatot kap” mezőket a válaszokból. Ha újra felveszi őket, akkor kikerül a valódi e-mail-címe.
 # Deprecated
 forwarded-email-header-premium-banner = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú álnévhez és egy egyéni e-mail-domainhez jusson.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú e-mail-maszkhoz és egy egyéni e-mail-aldomainhez jusson.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja. További információkért lásd a { $faq_link } oldalunkat.
 # Deprecated
 forwarded-email-footer = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes álnévbeállítást.
+# This entire text is a link
+forwarded-email-footer-2 = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes maszk beállításait.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premium }ra
