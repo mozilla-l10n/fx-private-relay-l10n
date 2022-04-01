@@ -304,13 +304,16 @@ premium-promo-perks-perk-custom-domain-headline = Оберіть свій вла
 premium-promo-perks-perk-custom-domain-headline-2 = Оберіть свій власний субдомен
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = За допомогою власного домену ви можете створювати псевдоадреси, які легше запам’ятати та ділитися ними. Потрібен домен для бронювання ресторану? Використовуйте, наприклад food@mydomain.mozmail.com — не потрібно створювати псевдоадресу заздалегідь.
+premium-promo-perks-perk-custom-domain-body-2 = За допомогою власного субдомену ви можете створювати маски, які легше запам’ятати та ділитися ними. Потрібен домен для бронювання ресторану? Використовуйте, наприклад food@mydomain.mozmail.com — не потрібно створювати маску заздалегідь.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Керуйте своїми псевдоадресами з панелі керування
 premium-promo-perks-perk-dashboard-headline-2 = Керуйте своїми масками з панелі керування
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Керуйте всіма своїми псевдоадресами зі зручної панелі керування: якщо на одну з адрес почнуть надходити небажані повідомлення, ви можете заблокувати їх, щоб вони не потрапляли до ваших вхідних.
+premium-promo-perks-perk-dashboard-body-2 = Керуйте всіма своїми масками зі зручної панелі керування: якщо на одну з адрес почнуть надходити небажані повідомлення, ви можете заблокувати їх, щоб вони не потрапляли до ваших вхідних.
 # Deprecated
 premium-promo-use-cases-headline = Використовуйте псевдоадреси електронної пошти { -brand-name-relay } будь-де
+premium-promo-use-cases-headline-2 = Використовуйте маски адрес електронної пошти { -brand-name-relay } будь-де
 premium-promo-use-cases-shopping-heading = Покупки
 # Deprecated
 premium-promo-use-cases-shopping-body = Хочете стежити за знижками без спаму? Повʼяжіть усі свої облікові записи «покупки» до власної псевдоадреси, як-от «mydeals@mydomain.mozmail.com».
