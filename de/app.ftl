@@ -481,7 +481,7 @@ faq-question-acceptable-use-answer-measure-unlimited-payment = die Erstellung vo
 faq-question-acceptable-use-answer-measure-rate-limit = die Anzahl von Aliassen begrenzen, die an einem Tag generiert werden können
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-b-html = Bitte lese unsere <a href="%(url)s">Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
+faq-question-acceptable-use-answer-b-html = Bitte lese unsere <a href="{ $url }" { $attrs }>Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
 faq-question-promotional-email-blocking-question = Was bedeutet das Blockieren von Werbe-E-Mails?
 faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir dir, diese Funktion nicht für sehr wichtige Kontakte wie deine Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
 faq-question-detect-promotional-question = Wie erkennt { -brand-name-relay }, ob eine E-Mail Werbezwecken dient oder nicht?
