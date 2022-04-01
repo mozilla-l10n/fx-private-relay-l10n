@@ -882,6 +882,7 @@ multi-part-onboarding-premium-get-subdomain = Conseguir un subdominio personaliz
 multi-part-onboarding-reply-headline = Responder a tus correos
 # Deprecated
 multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En el escritorio, puedes usar el complemento de Relay para crearlos en el camino.
+multi-part-onboarding-premium-welcome-description-2 = No más limitaciones a 5 máscaras: ahora puedes generar tantas máscaras personalizadas y aleatorias como necesites. En el navegador de escritorio, puedes usar el complemento { -brand-name-relay } para crearlo rápidamente.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
@@ -890,16 +891,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personalizado, puedes crear alias sin tener que generarlas de antemano. 
     ¿Necesitas registrarte a un boletín? Solo di “read@customdomain{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Con un subdominio personalizado, puedes crear máscaras sin generarlas de antemano.
+    ¿Necesitas una registrarte a un boletín? Solamente di “leer@subdominiopersonalizado{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registra tu dominio personalizado ahora:
+multi-part-onboarding-premium-domain-cta-2 = Registra tu subdominio personalizado ahora:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Continuar, registraré mi dominio personalizado más tarde
+multi-part-onboarding-premium-domain-button-skip-2 = Continuar, registraré mi subdominio personalizado después
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Responde correos electrónicos sin revelar tu dirección real:
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más el uso de alias de correo electrónico.
+multi-part-onboarding-premium-extension-get-description-2 = La extensión de { -brand-name-relay } para { -brand-name-firefox } hace más sencilla la creación correos enmascarados.
 multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Consigue la extensión de { -brand-name-relay } para { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } funciona creando y usando alias muy fácilmente.
@@ -913,6 +922,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de contro
 modal-rename-alias-saved = ¡Etiqueta guardada!
 # Deprecated
 modal-delete-headline = ¿Eliminar definitivamente este alias?
+modal-delete-headline-2 = ¿Eliminar permanentemente este correo enmascarado?
 # Deprecated
 modal-delete-warning-recovery-html =
     Una vez que elimines este alias, no podrás recuperarlo.
@@ -928,11 +938,13 @@ modal-delete-domain-address-warning-upgrade =
     Si vuelves a crear un alias borrado, los correos enviados al alias original se continuarán reenviando.
 # Deprecated
 modal-delete-confirmation = Sí, quiero eliminar este alias.
+modal-delete-confirmation-2 = Sí, deseo eliminar esta máscara.
 modal-domain-register-good-news = ¡Buenas noticias!
 # Deprecated
 modal-domain-register-warning-reminder = Recuerda, solo puedes registrar un dominio. No podrás cambiarlo más tarde.
 # Deprecated
 modal-domain-register-button = Registrar dominio
+modal-domain-register-button-2 = Registrar subdominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
@@ -944,6 +956,7 @@ modal-domain-register-success-title = ¡Correcto!
 modal-domain-register-success = ¡{ $subdomain } ahora es tu dominio de correo electrónico!
 # Deprecated
 modal-domain-register-success-copy = ¡Ahora puedes crear alias de correo electrónico ilimitados usando tu nuevo dominio! ¿Qué estas esperando?
+modal-domain-register-success-copy-2 = ¡Ahora puedes crear correos enmascarados personalizados sin límites!
 
 ## The "Help & Tips" area at the bottom of the page
 
