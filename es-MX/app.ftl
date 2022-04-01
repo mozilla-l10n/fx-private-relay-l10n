@@ -856,15 +856,21 @@ onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu d
 onboarding-premium-reply-title-2 = Responde correos sin revelar tu verdadera dirección
 # Deprecated
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tú alias seguirá protegiendo tú dirección de correo electrónico.
+onboarding-premium-reply-description-2 = ¿Necesitas responder a los correos electrónicos enviados a una máscara? Simplemente responde normalmente: tu máscara seguirá protegiendo tu dirección de correo electrónico.
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } puedes:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Paso { $step } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Te damos la bienvenida a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Generar alias de correo electrónico ilimitados:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Generar correos enmascarados ilimitados:
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Dominio personalizado para compartir alias
@@ -872,6 +878,7 @@ multi-part-onboarding-premium-domain-headline = Dominio personalizado para compa
 multi-part-onboarding-premium-domain-title = Obtén un dominio personalizado para tus alias:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Obtén un dominio personalizado
+multi-part-onboarding-premium-get-subdomain = Conseguir un subdominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
 # Deprecated
 multi-part-onboarding-premium-welcome-description = No más límite de cinco alias: ahora puedes generar tantos alias personalizados o aleatorios como necesites. En el escritorio, puedes usar el complemento de Relay para crearlos en el camino.
