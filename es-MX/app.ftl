@@ -401,10 +401,13 @@ faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-
 faq-question-use-cases-question-2 = ¿Cuándo debo usar correos enmascarados de { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos informativos o de marketing en los que es posible que desees controlar si recibes o no correos electrónicos en el futuro.
+faq-question-use-cases-answer-part1-2 = Puedes usar correos enmascarados de { -brand-name-relay } en la mayoría de los lugares donde usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos de marketing/informativos en los que desees controlar si recibirás o no correos electrónicos en el futuro.
 # Deprecated
 faq-question-use-cases-answer-part2 = No recomendamos usar alias cuando necesites verificar tu identidad o para correos electrónicos muy importantes o aquellos en los que debes recibir archivos adjuntos. Por ejemplo, quieres compartir tu dirección de correo electrónico real con tu banco, tu médico y tu abogado, así como cuando recibas pases de conciertos o de embarque de vuelos.
+faq-question-use-cases-answer-part2-2 = No recomendamos el uso de máscaras cuando necesites verificar tu identidad o para correos electrónicos muy importantes o en los que debes recibir archivos adjuntos. Por ejemplo, tendrías que compartir tu verdadera dirección de correo con tu banco, médico y abogado, así como cuando recibes boletos de un concierto o un vuelo.
 # Deprecated
 faq-question-2-question = ¿Por qué un sitio no acepta mi alias de { -brand-name-relay }?
+faq-question-2-question-2 = ¿Por qué un sitio no aceptaría mi correo enmascarado de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -416,6 +419,7 @@ faq-question-2-answer-v4 = Es posible que algunos sitios no acepten una direcci�
 faq-question-1-question = ¿Qué pasa con el spam?
 # Deprecated
 faq-question-1-answer-a = Si bien { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no desea, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes del alias que los reenvía.
+faq-question-1-answer-a-2 = Si bien { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes de la máscara que los reenvía.
 # Deprecated
 faq-question-1-answer-b-html = Si ves un problema más amplio de correo electrónico no deseado de todos tus alias, <a href="{ $url }" { $attrs }> infórmanos</a> para que podamos considerar ajustar los parámetros de spam de SES para este Servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, no el remitente original.
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
