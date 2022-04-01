@@ -927,21 +927,34 @@ modal-delete-headline-2 = ¿Eliminar permanentemente este correo enmascarado?
 modal-delete-warning-recovery-html =
     Una vez que elimines este alias, no podrás recuperarlo.
     { -brand-name-firefox-relay } ya no reenviará los mensajes enviados a <strong>{ $email }</strong>, incluidos los mensajes que te permiten restablecer las contraseñas perdidas.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Una vez que elimines esta máscara, no se puede recuperar.
+    { -brand-name-firefox-relay } ya no reenviará los mensajes enviados a <strong>{ $email }</strong>, incluidos los mensajes que le permiten restablecer contraseñas perdidas.
 # Deprecated
 modal-delete-warning-upgrade =
     Si tú usas este alias para iniciar sesión en los sitios que te interesan, 
     debes actualizar tú inicio de sesión con una dirección de correo electrónico diferente antes de eliminar está.
+modal-delete-warning-upgrade-2 =
+    Si usas este correo enmascarado para iniciar sesión en los sitios que le interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo electrónico diferente antes de eliminar esta.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Si usas este alias para iniciar sesión en los sitios que te interesan,
     debes actualizar tu inicio de sesión con una dirección de correo diferente antes de eliminar ésta.
     Si vuelves a crear un alias borrado, los correos enviados al alias original se continuarán reenviando.
+modal-delete-domain-address-warning-upgrade-2 =
+    Si usas esta máscara para iniciar sesión en los sitios que te interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo diferente antes de eliminar esta.
+    Si vuelves a crear una máscara eliminada, los correos electrónicos enviados a la máscara original se seguirán reenviando.
 # Deprecated
 modal-delete-confirmation = Sí, quiero eliminar este alias.
 modal-delete-confirmation-2 = Sí, deseo eliminar esta máscara.
 modal-domain-register-good-news = ¡Buenas noticias!
 # Deprecated
 modal-domain-register-warning-reminder = Recuerda, solo puedes registrar un dominio. No podrás cambiarlo más tarde.
+modal-domain-register-warning-reminder-2 = Recuerda, solamente puedes registrar un subdominio. No serás capaz de cambiarlo después.
 # Deprecated
 modal-domain-register-button = Registrar dominio
 modal-domain-register-button-2 = Registrar subdominio
