@@ -643,10 +643,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de alias.
+banner-download-firefox-copy-2 = La extensión de { -brand-name-relay } para { -brand-name-firefox-browser } hace la creación de máscaras más sencillo.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión de { -brand-name-relay } para { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más el uso de alias de correo electrónico.
+banner-download-install-extension-copy-2 = La extensión de { -brand-name-relay } para { -brand-name-firefox-browser } hace el uso de correos enmascarados más sencillo.
 banner-download-install-extension-cta = Agregar { -brand-name-relay } a { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Prueba { -brand-name-relay } para { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } funciona creando y usando alias muy fácilmente.
@@ -654,11 +656,13 @@ banner-download-install-chrome-extension-cta = Consigue la extensión de { -bran
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } permite crear alias de correo electrónico aún más fácil, con dominios de alias personalizados e ilimitados.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } facilita aún más la creación correos enmascarados, con subdominios de máscara personalizados y máscaras ilimitadas.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Acción necesaria
 # Deprecated
 banner-register-subdomain-headline-aliases = Obtén un dominio personalizado para tus alias
+banner-register-subdomain-headline-aliases-2 = Consigue un subdominio personalizado para tus máscaras
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -669,16 +673,29 @@ banner-register-subdomain-copy =
     antes de usarlos. ¿Necesitas uno para hacer una reserva? Usa
     “restaurant@yourdomain.{ $mozmail }” al restaurante. Cualquier alias que use tu
     dominio personalizado se reenviará para ti.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Con un subdominio personalizado, puede compartir máscaras que no necesitan generarse
+    antes de usarlas. ¿Necesitas una para una reserva? Dar
+    “restaurante@tudominio.{ $mozmail }” al restaurante. Cualquier máscara usando tu
+    subdominio personalizado será reenviado a ti.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Buscar dominio
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Buscar tu nuevo dominio
+banner-choose-subdomain-input-placeholder-3 = Buscar subdominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Buscar
 # Deprecated
 banner-pack-upgrade-headline-html = Actualiza a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para obtener más alias
+banner-pack-upgrade-headline-2-html = Actualizar a <strong>{ -brand-name-firefox-relay-premium }</strong> para obtener correos enmascarados
 # Deprecated
 banner-pack-upgrade-copy = Con alias de correo electrónico ilimitados y tu propio dominio de correo electrónico, { -brand-name-firefox } { -brand-name-relay-premium } te ayuda a mantenerte protegido en línea.
+banner-pack-upgrade-copy-2 = Con correos enmascarados personalizados y tu subdominio de correo, { -brand-name-firefox-relay-premium } te ayuda a seguir protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
@@ -703,6 +720,9 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 
 # Deprecated
 success-subdomain-registered = Se ha creado tu dominio @{ $subdomain }
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Tu subdominio @{ $subdomain } ha sido creado
 success-settings-update = Tu configuración ha sido actualizada
 
 ## Error Messages
@@ -720,6 +740,17 @@ error-subdomain-email-not-created = No se pudo crear la dirección de correo ele
 error-subdomain-select = Debes seleccionar un subdominio antes de crear un alias de subdominio
 # Deprecated
 error-subdomain-not-available = El dominio @{ $unavailable_subdomain } no está disponible. Por favor intenta de nuevo con otro dominio.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Tu subdominio @{ $unavailable_subdomain } no está disponible. Por favor, prueba una diferente.
+error-settings-update = Se ha producido un error al actualizar la configuración, inténtalo de nuevo.
+error-mask-create-failed = La máscara no pudo crearse. Por favor, intenta de nuevo.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Los datos de la máscara no se pudieron actualizar. Por favor, intenta de nuevo.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = La máscara { $mask } no se puede eliminar. Por favor, intenta de nuevo.
 
 ## Tips and tricks at the bottom of the page
 
@@ -736,17 +767,22 @@ tips-footer-link-support-tooltip = Contactar al soporte
 
 # Deprecated
 modal-custom-alias-picker-heading = Crear un nuevo alias personalizado
+modal-custom-alias-picker-heading-2 = Crear una nueva máscara personalizada
 # Deprecated
 modal-custom-alias-picker-warning = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+modal-custom-alias-picker-warning-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use su subdominio personalizado: la máscara se generará automáticamente. Intenta “compra@subdominiopersonalizado.mozmail.com” la siguiente vez que compres en línea, por ejemplo.
 # Deprecated
 modal-custom-alias-picker-form-heading = O bien, crea un alias personalizado manualmente
+modal-custom-alias-picker-form-heading-2 = O, crea una máscara personalizada manualmente
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Ingresa el prefijo del alias
+modal-custom-alias-picker-form-prefix-label-2 = Ingresa el prefijo del correo enmascarado
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "café"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Generar alias
+modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 # Deprecated
 modal-custom-alias-picker-creation-error = Tu alias personalizado no se pudo crear manualmente, Vuelve a intentarlo o envía un correo electrónico al alias para crearlo.
 
