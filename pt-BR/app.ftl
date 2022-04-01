@@ -34,6 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = O { -brand-name-firefox-relay } facilita criar endereços de redirecionamento de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
+meta-description-2 = O { -brand-name-firefox-relay } facilita criar máscaras de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
 
 ## Header 
 
@@ -158,19 +159,27 @@ landing-hero-headline-2 = Proteja seu endereço de email real para ajudar a cont
 landing-hero-body =
     Os endereços de redirecionamento de email do { -brand-name-firefox-relay } protegem seu endereço de email real de ser visto publicamente, encaminhando mensagens automaticamente para sua caixa de entrada real.
     Agora você pode receber apenas os emails que quiser em sua caixa de entrada. Inscreva-se com sua { -brand-name-firefox-account } para começar a usar.
+landing-hero-body-2 =
+    As máscaras de email do { -brand-name-firefox-relay } protegem seu endereço de email real de ser visto publicamente, encaminhando mensagens automaticamente para sua caixa de entrada real.
+    Agora você pode receber apenas as mensagens que quiser em sua caixa de entrada. Inscreva-se com sua { -brand-name-firefox-account } para começar a usar.
 
 ## How it works section
 
 landing-how-it-works-headline = Como funciona
 # Deprecated
 landing-how-it-works-body = Compartilhe endereços de redirecionamento de email do { -brand-name-relay } em vez de seu endereço de email real, para proteger sua caixa de entrada, bem como sua identidade.
+landing-how-it-works-body-2 = Compartilhe máscaras de email do { -brand-name-relay } em vez de seu endereço de email real, para proteger sua caixa de entrada, bem como sua identidade.
 landing-how-it-works-step-1-body-cta = Baixe a extensão { -brand-name-relay } para { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Gere endereços de redirecionamento de email automaticamente sempre que você inserir um endereço de email online.
+landing-how-it-works-step-1-body-2 = Gere máscaras de email automaticamente sempre que você informar um endereço de email online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
     Clique no ícone para gerar um novo endereço aleatório que termina em @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Conforme você navega, o ícone do { -brand-name-relay } aparece onde os sites solicitam seu endereço de email.
+    Clique no ícone para gerar um novo endereço aleatório com final @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou. O { -brand-name-relay } encaminha mensagens para seu endereço de email real.
@@ -266,17 +275,22 @@ premium-promo-perks-cta-label = Mude agora para a versão premium
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionamento de email ilimitados
+premium-promo-perks-perk-unlimited-headline-2 = Crie máscaras de email ilimitadas
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Chega de limite de endereços de redirecionamento. Com o { -brand-name-relay-premium }, você pode criar quantos endereços precisar para ajudar a proteger sua caixa de entrada de spam e rastreadores. Você pode até responder aos emails sem expor seu endereço real.
 premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
+premium-promo-perks-perk-custom-domain-headline-2 = Escolha seu próprio subdomínio personalizado
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Com um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar. Precisa de um para reservas em restaurantes? Use algo como comida@meudominio.mozmail.com — Nem precisa criar o endereço antes.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Controle seus endereços de redirecionamento no painel
+premium-promo-perks-perk-dashboard-headline-2 = Controle suas máscaras no painel
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Gerencie todos os seus endereços em um painel fácil de usar. Se perceber que um endereço está recebendo mensagens indesejadas, você pode bloquear para que não cheguem à sua caixa de entrada.
+premium-promo-perks-perk-dashboard-body-2 = Gerencie todas as suas máscaras de endereços em um painel fácil de usar. Se perceber que uma está recebendo mensagens indesejadas, você pode bloquear o encaminhamento de tais mensagens para sua caixa de entrada.
 # Deprecated
 premium-promo-use-cases-headline = Use endereços de redirecionamento de email do { -brand-name-relay } em qualquer lugar
+premium-promo-use-cases-headline-2 = Use máscaras de email do { -brand-name-relay } em qualquer lugar
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
 premium-promo-use-cases-shopping-body = Tentando conseguir descontos, mas sem receber spam? Agrupe rodas as suas contas de “compras” em endereços de redirecionamento personalizados exclusivos, como “ofertas@meudominio.mozmail.com”.
