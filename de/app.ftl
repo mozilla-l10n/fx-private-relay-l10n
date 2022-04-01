@@ -159,35 +159,53 @@ landing-hero-headline-2 = Schützen Sie Ihre echte E-Mail-Adresse, um Ihren Post
 landing-hero-body =
     Alias von { -brand-name-firefox-relay } schützen deine eigentliche E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an deinen echten Posteingang weiter.
     Jetzt kannst du dafür sorgen, dass nur noch die gewünschten E-Mails in deinem Posteingang landen. Melde dich mit deinem { -brand-name-firefox-account } an, um loszulegen.
+landing-hero-body-2 =
+    E-Mail-Masken von { -brand-name-firefox-relay } schützen Ihre eigentliche E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
+    Jetzt können Sie dafür sorgen, dass nur noch die gewünschten E-Mails in Ihrem Posteingang landen. Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
 
 ## How it works section
 
 landing-how-it-works-headline = Wie es funktioniert
 # Deprecated
 landing-how-it-works-body = Teile Aliasse von { -brand-name-relay } anstelle deiner eigentlichen E-Mail-Adresse, um deinen E-Mail-Posteingang sowie deine Identität zu schützen.
+landing-how-it-works-body-2 = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer eigentlichen E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
 landing-how-it-works-step-1-body-cta = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 # Deprecated
 landing-how-it-works-step-1-body = Erstelle automatisch Aliasse, wo immer du deine E-Mail-Adresse online eingibst.
+landing-how-it-works-step-1-body-2 = Erstellen Sie E-Mail-Masken automatisch überall dort, wo Sie Ihre E-Mail-Adresse online eingeben.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach deiner E-Mail-Adresse fragen.
     Wähle es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
+landing-how-it-works-step-2-body-2 =
+    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites Ihrer E-Mail-Adresse fragen.
+    Wählen Sie es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
 # Deprecated
 landing-how-it-works-step-3-body =
     Melde dich bei der { -brand-name-relay }-Übersicht an, um die von dir erstellten Aliasse zu verfolgen. { -brand-name-relay } leitet Nachrichten an deine E-Mail-Adresse weiter.
     Wenn ein Alias Spam oder unerwünschte Nachrichten erhält, kannst du alle Nachrichten blockieren oder das Alias sogar direkt aus der Übersicht löschen.
+landing-how-it-works-step-3-body-2 =
+    Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über die von Ihnen erstellten E-Mail-Masken zu behalten.
+    Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie direkt aus der Übersicht alle Nachrichten blockieren oder sogar die Maske löschen.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Nur für begrenzte Zeit: Unbegrenzte Alias-E-Mail-Adressen für { $monthly_price } pro Monat
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Nur für begrenzte Zeit: Unbegrenzte E-Mail-Masken für { $monthly_price } pro Monat
 # Deprecated
 landing-pricing-body =
     Probiere die Aliasse von { -brand-name-firefox-relay } aus und schütze deinen E-Mail-Posteingang.
     Dann hole dir { -brand-name-relay-premium } für noch mehr Flexibilität und individuelle Steuerung.
+landing-pricing-body-2 =
+    Probieren Sie { -brand-name-firefox-relay } E-Mail-Masken aus und schützen Sie Ihren E-Mail-Posteingang.
+    Führen Sie dann ein Upgrade auf { -brand-name-relay-premium } durch, um noch mehr Flexibilität und individuelle Steuerung zu erhalten.
 landing-pricing-free-price = Kostenlos
 # Deprecated
 landing-pricing-free-feature-1 = Bis zu fünf Alias-E-Mail-Adressen
+landing-pricing-free-feature-1-2 = Bis zu fünf Alias-E-Mail-Masken
 landing-pricing-free-feature-2 = Browser-Erweiterung
 landing-pricing-free-cta = Hole dir { -brand-name-relay }
 # Variables:
@@ -196,9 +214,11 @@ landing-pricing-premium-price = { $monthly_price }/Monat
 landing-pricing-premium-price-highlight = Zeitlich begrenztes Angebot
 # Deprecated
 landing-pricing-premium-feature-1 = Unbegrenzt viele Alias-E-Mail-Adressen
+landing-pricing-premium-feature-1-2 = Unbegrenzte E-Mail-Masken
 landing-pricing-premium-feature-2 = Browser-Erweiterung
 # Deprecated
 landing-pricing-premium-feature-3 = Deine eigene E-Mail-Domain
+landing-pricing-premium-feature-3-2 = Ihre eigene E-Mail-Subdomain
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = ihreadresse@ihredomain.mozmail.com
 landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
@@ -206,11 +226,15 @@ landing-pricing-premium-feature-5 = Werbe-E-Mails blockieren
 
 ## Use Cases
 
+landing-use-cases-heading = Verwenden Sie { -brand-name-firefox-relay } für:
 landing-use-cases-shopping = Einkaufen
 # Deprecated
 landing-use-cases-shopping-body =
     Etwas in einem neuen Online-Shop kaufen? Verwende beim Online-Einkauf ein Alias von { -brand-name-relay } anstelle deiner eigentlichen E-Mail-Adresse.
     Wir leiten sie an deine echte E-Mail-Adresse weiter. Wenn du E-Mails erhältst, die dir nicht gefallen, deaktiviere einfach die E-Mail-Weiterleitung.
+landing-use-cases-shopping-body-2 =
+    Kaufen Sie etwas in einem neuen Online-Shop? Verwenden Sie bei einem Online-Kauf eine E-Mail-Maske anstelle Ihrer echten E-Mail-Adresse.
+    Wir leiten die Quittung an Ihre echte E-Mail-Adresse weiter, und wenn Sie unerwünschte E-Mails erhalten, schalten Sie die Maske einfach auf Blockieren um.
 landing-use-cases-social-networks = Soziale Netzwerke
 # Deprecated
 landing-use-cases-social-networks-body =
