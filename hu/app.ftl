@@ -531,8 +531,10 @@ profile-label-create-subdomain = Szerezzen saját e-mail aldomaint
 # Deprecated
 profile-label-domain = E-mail domain:
 profile-label-subdomain = E-mail aldomain:
+profile-label-subdomain-tooltip-trigger = További információk
 # Deprecated
 profile-label-domain-tooltip = Hozza létre az egyedi és egyéni e-mail domainjét.
+profile-label-subdomain-tooltip = Hozza létre egyedi e-mail aldomainjét.
 profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-skip = Kihagyás
@@ -550,19 +552,25 @@ profile-label-forwarding = továbbítás
 profile-label-blocking = blokkolás
 # Deprecated
 profile-label-disable-forwarding-button = Levéltovábbítás letiltása ennél az álnévnél
+profile-label-disable-forwarding-button-2 = Levéltovábbítás letiltása ennél a maszknál
 # Deprecated
 profile-label-enable-forwarding-button = Levéltovábbítás engedélyezése ennél az álnévnél
+profile-label-enable-forwarding-button-2 = Levéltovábbítás engedélyezése ennél a maszknál
 profile-label-click-to-copy = Kattintson a másoláshoz
 # Deprecated
 profile-label-copy-confirmation = Álnév vágólapra másolva
+# Deprecated
+profile-label-copy-confirmation-2 = Maszk vágólapra másolva
 profile-label-copied = Másolva!
 profile-label-blocked = Blokkolva
 profile-label-forwarded = Továbbítva
 profile-label-cancel = Mégse
 # Deprecated
 profile-blocked-copy = Ha a blokkolást választja ennél az álnévnél, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
+profile-blocked-copy-2 = Ha a blokkolást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
 # Deprecated
 profile-forwarded-copy = Ha a továbbítást választja ennél az álnévnél, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
+profile-forwarded-copy-2 = Ha a továbbítást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
 profile-forwarded-note = Megjegyzés:
 profile-forwarded-note-copy = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) jelenleg nem támogatottak, és nem kerülnek továbbításra.
 profile-forwarded-note-copy-v2 = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) nem lesznek továbbítva.
@@ -570,8 +578,11 @@ profile-stat-label-blocked = Blokkolt e-mailek
 profile-stat-label-forwarded = Továbbított e-mailek
 # Deprecated
 profile-stat-label-aliases-used = Használt e-mail álnevek
+profile-stat-label-aliases-used-2 = Használt e-mail-maszkok
 # Deprecated
 profile-filter-search-placeholder = Alnevek keresése
+profile-filter-search-placeholder-2 = Maszkok keresése
+profile-filter-category-button-label = Látható maszkok szűrése
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Továbbítási álnevek
 # Deprecated
