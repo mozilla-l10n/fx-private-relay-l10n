@@ -250,6 +250,10 @@ landing-use-cases-offline-body =
     Бажаєте отримувати квитанції електронною поштою, але хочете також уникнути маркетингового спаму?
     Використовуйте псевдоадресу { -brand-name-relay } замість своєї електронної пошти, коли отримуєте не паперову квитанцію у крамниці.
     Ми надішлемо квитанцію на вашу справжню електронну адресу, і якщо ви почнете отримувати листи, які вам не подобаються, просто вимкніть пересилання електронної пошти.
+landing-use-cases-offline-body-2 =
+    Бажаєте отримувати квитанції електронною поштою, але хочете також уникнути маркетингового спаму?
+    Використовуйте маску { -brand-name-relay } замість своєї електронної пошти, коли отримуєте не паперову квитанцію у крамниці.
+    Ми надішлемо квитанцію на вашу справжню електронну адресу, і якщо ви почнете отримувати листи, які вам не подобаються, просто вимкніть пересилання електронної пошти.
 landing-use-cases-access-content = Доступ до вмісту
 # Deprecated
 landing-use-cases-access-content-body =
@@ -775,20 +779,36 @@ modal-domain-register-good-news = Гарні новини!
 modal-domain-register-warning-reminder = Пам’ятайте, що ви можете зареєструвати лише один домен. Ви не зможете змінити його пізніше.
 # Deprecated
 modal-domain-register-button = Зареєструвати домен
+modal-domain-register-button-2 = Зареєструвати субдомен
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } доступний!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступний!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Так, я хочу зареєструвати @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Так, я хочу зареєструвати <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Готово!
 # Deprecated
 modal-domain-register-success = { $subdomain } — відтепер ваш домен електронної пошти!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } — відтепер ваш субдомен електронної пошти!
 # Deprecated
 modal-domain-register-success-copy = Тепер ви можете створювати необмежену кількість псевдоадрес електронної пошти, за допомогою свого нового домену! Не баріться, користуйтеся!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Порада { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
