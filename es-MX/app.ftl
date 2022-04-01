@@ -324,6 +324,7 @@ premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu ide
 premium-promo-use-cases-gaming-heading = Juegos
 # Deprecated
 premium-promo-use-cases-gaming-body = ¿Preocupado por otros jugadores o trolls sepan quién eres a través de tu placa y dirección de correo electrónico? Utiliza un alias como “onlinegame@mydomain.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+premium-promo-use-cases-gaming-body-2 = ¿Preocupado porque otros jugadores o trolls sepan quien eres a través de tu gamertag y dirección de correo electrónico? Usa una máscara como “juegoenlinea@midominio.mozmail.com" para poner mayor protección entre tu identidad y los juegos que disfrutas en línea.
 premium-promo-pricing-free-price = Tu plan gratuito actual
 
 ## Settings page
@@ -339,14 +340,21 @@ settings-error-save-heading = Error al cambiar la configuración
 settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # Deprecated
 settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = La función de etiqueta de correo enmascarado está deshabilitada
 # Deprecated
 settings-warning-collection-off-description = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado alias de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } no tiene permitido actualmente recolectar datos mostrando los sitios donde generaste y usaste correos enmascarados. Puedes cambiar esto en “Configuración” bajo “Colección de datos.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 # Deprecated
 setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
+setting-label-collection-description-2 = Permitir { -brand-name-relay } recolectar datos mostrando los sitios en donde tus máscaras fueron creadas y usadas.
 # Deprecated
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar tus correos enmascarados con los sitios web donde se utilizan. Si decides optar por no participar en esta preferencia, tus máscaras no se etiquetarán con los sitios web donde se usan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 
@@ -360,20 +368,27 @@ faq-headline = Preguntas frecuentes
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
+faq-question-what-is-question-2 = ¿Que es un correo enmascarado de { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Los alias de correo electrónico son direcciones de correo electrónico enmascaradas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estos alias te permiten compartir una dirección con terceros que enmascararán tu verdadera dirección de correo electrónico y te reenviarán mensajes.
+faq-question-what-is-answer-2 = Las correos enmascarados son direcciones de correo electrónico privadas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estas máscaras te permiten compartir una dirección con terceros que enmascararán tu verdadera dirección de correo electrónico y te reenviarán mensajes.
 # Deprecated
 faq-question-missing-emails-question = No recibo mensajes de mis alias
+faq-question-missing-emails-question-2 = No estoy recibiendo mensajes de mis correos enmascarados
 # Deprecated
 faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
+faq-question-missing-emails-answer-a-2 = Hay algunas razones porque las que podrías no estar recibiendo correos reenviados a tus máscaras. Estas razones incluyen:
 faq-question-missing-emails-answer-reason-spam = Los mensajes se convierten en spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
+faq-question-missing-emails-answer-reason-blocked-2 = Tu proveedor de correo está bloqueador tus correos enmascarados
 faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor que { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
+faq-question-missing-emails-answer-reason-not-accepted-2 = Este sitio no acepta correos enmascarados
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Es posible que el alias tenga el reenvío desactivado
+faq-question-missing-emails-answer-reason-turned-off-2 = La máscara puede tener desactivada el reenvío
 faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-relay } tarde más de lo habitual en reenviar tus mensajes
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -383,6 +398,7 @@ faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-
 faq-question-missing-emails-answer-support-site-html = Si tienes alguno de estos problemas, <a href="{ $url }" { $attrs }>visite nuestro sitio de asistencia</a>.
 # Deprecated
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de { -brand-name-relay }?
+faq-question-use-cases-question-2 = ¿Cuándo debo usar correos enmascarados de { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos informativos o de marketing en los que es posible que desees controlar si recibes o no correos electrónicos en el futuro.
 # Deprecated
@@ -441,7 +457,7 @@ faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -b
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene las mismas <a href="{ $url }" { $attrs }>condiciones de uso como todos los { -brand-name-mozilla } productos</a>. Tenemos una política de cero tolerancia cuando se trata de usar { -brand-name-relay } para propósitos maliciosos como soam, como resultado se eliminará la cuenta de ese usuario. Tomamos medidas para evitar que los usuarios violen nuestras condiciones:
-faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account(capitalization: "mayúscula") } con una dirección de correo verificado
+faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección de correo verificado
 faq-question-acceptable-use-answer-measure-unlimited-payment = Se requiere pago para que el usuario cree más de 5 alias
 faq-question-acceptable-use-answer-measure-rate-limit = Tasa de limitación del número de alias que se pueden generar en un día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
