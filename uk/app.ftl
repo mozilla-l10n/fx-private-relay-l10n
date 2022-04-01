@@ -742,6 +742,11 @@ error-subdomain-select = Перед створенням піддомену пс
 # Deprecated
 error-subdomain-not-available = Домен @{ $unavailable_subdomain } недоступний. Повторіть спробу з іншим доменом.
 # Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Субдомен @{ $unavailable_subdomain } недоступний. Будь ласка, спробуйте інший.
+error-settings-update = Під час оновлення вашого платежу сталася помилка, спробуйте ще раз.
+error-mask-create-failed = Не вдалося створити маску. Повторіть спробу.
+# Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Не вдалося видалити маску { $mask }. Повторіть спробу.
 
