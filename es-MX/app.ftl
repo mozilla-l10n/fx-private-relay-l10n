@@ -240,23 +240,37 @@ landing-use-cases-social-networks = Redes sociales
 landing-use-cases-social-networks-body =
     ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
     ¿Intentas evitar que tu correo electrónico real esté vinculado a tu presencia en las redes sociales? Utiliza un alias de { -brand-name-relay } para iniciar sesión y protegerte en línea.
+landing-use-cases-social-networks-body-2 =
+    ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
+    ¿Estás tratando de evitar que tu verdadero correo electrónico esté vinculado a tu presencia en redes sociales? Usa una máscara de { -brand-name-relay } para iniciar sesión y ayudar a protegerte en línea.
 landing-use-cases-offline = Sin conexión
 # Deprecated
 landing-use-cases-offline-body =
     ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
     Utiliza un alias de { -brand-name-relay } en vez de tu correo electrónico cuando obtengas un recibo sin papel en una tienda.
     Enviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-offline-body-2 =
+    ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
+    Usa una máscara de { -brand-name-relay } en lugar de tu correo electrónico cuando obtengas un recibo electrónico en una tienda.
+    Reenviaremos el recibo a tu verdadera dirección de correo electrónico y si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
 landing-use-cases-access-content = Acceder a contenido
 # Deprecated
 landing-use-cases-access-content-body =
     ¿Quieres suscribirse a ese boletín, pero no confías en el remitente?
     Usa un alias en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de ese alias, es posible que el remitente haya vendido tu alias a otros comercializadores, o incluso podría haberse filtrado en una violación de datos.
     Simplemente apaga o elimina el alias para proteger tu bandeja de entrada de correo electrónico.
+landing-use-cases-access-content-body-2 =
+    ¿Quieres suscribirte a ese boletín, pero no confías en el remitente?
+    Usa una máscara en lugar de tu verdadera dirección de correo electrónico: si comienzas a recibir correos electrónicos no deseados a través de esa máscara, es posible que el remitente los haya vendido a otros vendedores, o incluso podría haberse filtrado en una violación de datos.
+    Simplemente apaga o elimina la máscara para proteger tu bandeja de entrada.
 landing-use-cases-gaming = Juegos
 # Deprecated
 landing-use-cases-gaming-body =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
     Utiliza un alias de { -brand-name-relay } para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+landing-use-cases-gaming-body-2 =
+    ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o acosadores sepan quién eres a través de tu gamertag y dirección de correo electrónico?
+    Usa una máscara de correo electrónico para poner una capa más de protección entre tu identidad en línea y los juegos que juegas en línea.
 
 ## Landing FAQ Section
 
@@ -268,15 +282,20 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, obtienes alias de correo electrónico personalizados ilimitados que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a Relay Premium por solo { $monthly_price } al mes.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, obtienes correos enmascarados ilimitados que te reenvían solo los correos que quieres a tu verdadera bandeja de entrada. <b>Por tiempo limitado, puedes actualizar a { -brand-name-relay-premium } por solo { $monthly_price } al mes.</b>
 premium-promo-hero-cta = Actualizar ahora
 premium-promo-availability-warning = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
 premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de la bandeja de entrada{ -brand-name-relay }, pero con alias de correo electrónico ilimitados y tu propio dominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
+premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección en tu bandeja de entrada y organización de { -brand-name-relay }, pero con correos enmascarados ilimitados y un subdominio propio personalizado para que tu administración de bandeja de entrada sea más sencilla.
 premium-promo-perks-cta-label = Actualizar ahora
 premium-promo-perks-cta-tooltip = Actualizar a { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
+premium-promo-perks-perk-unlimited-headline-2 = Crear correos enmascarados ilimitados
 # Deprecated
 premium-promo-perks-perk-unlimited-body = No más límite de cinco alias: con { -brand-name-relay-premium }, puedes generar tantos alias como necesites para ayudar a proteger tu bandeja de entrada de spammers y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
 premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
