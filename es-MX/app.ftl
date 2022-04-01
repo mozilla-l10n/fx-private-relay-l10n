@@ -785,28 +785,36 @@ modal-custom-alias-picker-form-submit-label = Generar alias
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 # Deprecated
 modal-custom-alias-picker-creation-error = Tu alias personalizado no se pudo crear manualmente, Vuelve a intentarlo o envía un correo electrónico al alias para crearlo.
+modal-custom-alias-picker-creation-error-2 = Tu correo enmascarado personalizado no se pudo crear manualmente. Vuelve a intentarlo o envía un correo electrónico a la máscara para crearla.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Cómo crear alias personalizados
+popover-custom-alias-explainer-heading-2 = Cómo crear máscaras personalizadas
 # Deprecated
 popover-custom-alias-explainer-explanation = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+popover-custom-alias-explainer-explanation-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use su subdominio personalizado: la máscara se generará automáticamente. Prueba “compra@dominiopersonalizado.mozmail.com" la siguiente ves que compres en línea, por ejemplo.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Generar un alias personalizado manualmente
+popover-custom-alias-explainer-generate-button-heading-2 = Genera una máscara personalizada manualmente
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Generar alias personalizado
+popover-custom-alias-explainer-generate-button-label-2 = Genera una máscara personalizada
 popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos electrónicos promocionales
 popover-custom-alias-explainer-promotional-block-tooltip = Habilitar bloquear correos electrónicos promocionales en un alias para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Habilita el bloqueo de correos electrónicos promocionales en una máscara para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Crear alias usando tu dominio personalizado
+tips-custom-alias-heading-2 = Creación de máscaras con su subdominio personalizado
 # Deprecated
 tips-custom-alias-content = Todo lo que necesitas hacer es crear y compartir un alias único que use tu dominio personalizado — el alias se generará automáticamente. Prueba “shop@customdomain.mozmail.com” la próxima vez que compres en línea, por ejemplo.
+tips-custom-alias-content-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use su subdominio personalizado: la máscara se generará automáticamente. Intenta “comprar@dominiopersonalizado.mozmail.com” la siguiente ves que compres en línea, por ejemplo.
 
 ## Tip about using custom aliases
 
@@ -817,8 +825,10 @@ tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bl
 
 # Deprecated
 onboarding-headline = Crea tu primer alias, tienes tres formas ...
+onboarding-headline-2 = Crear tu primer correo enmascarado
 # Deprecated
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
+onboarding-alias-tip-1-2 = Selecciona “Generar nueva máscara” para crear tu primer correo enmascarado.
 onboarding-alias-tip-2 = Usando la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 # Deprecated
 onboarding-alias-tip-3 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nuevo alias".
