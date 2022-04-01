@@ -882,16 +882,24 @@ multi-part-onboarding-premium-domain-description = Egyéni domain használatakor
 multi-part-onboarding-premium-get-domain-description-2 =
     Egyéni domainnel anélkül hozhat létre álneveket, hogy előzetesen előállította volna.
     Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@customdomain{ $mozmail }”.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Egyéni aldomainnel anélkül hozhat létre maszkokat, hogy előzetesen előállította volna.
+    Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@sajataldomain{ $mozmail }”.
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Regisztrálja egyéni domainjét most:
+multi-part-onboarding-premium-domain-cta-2 = Regisztrálja egyéni aldomainjét most:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Folytatás, később regisztrálom az egyéni domainomat
+multi-part-onboarding-premium-domain-button-skip-2 = Folytatás, később regisztrálom az egyéni aldomainomat
 multi-part-onboarding-premium-extension-headline = Blokkolás, továbbítás és válasz
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét:
 multi-part-onboarding-premium-extension-get-title = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek használatát.
+multi-part-onboarding-premium-extension-get-description-2 = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az e-mail-maszkok használatát.
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } kiegészítő beszerzése
 multi-part-onboarding-premium-chrome-extension-get-title = A { -brand-name-google-chrome }-hoz készült { -brand-name-relay } kiegészítő beszerzése
 multi-part-onboarding-premium-chrome-extension-get-description = A { -brand-name-chrome }-hoz készült { -brand-name-firefox-relay } kiegészítő még könnyebbé teszi az e-mail-álnevek létrehozását és használatát.
@@ -905,14 +913,23 @@ multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpul
 modal-rename-alias-saved = Címke mentve!
 # Deprecated
 modal-delete-headline = Véglegesen törli ezt az álnevet?
+modal-delete-headline-2 = Véglegesen törli ezt az e-mail-maszkot?
 # Deprecated
 modal-delete-warning-recovery-html =
     Ha egyszer töröl egy álnevet, akkor nem állítható vissza.
+    A { -brand-name-firefox-relay } többé nem fogja továbbítani a(z) <strong>{ $email }</strong> felé küldött üzeneteket, köztük azokat sem, melyek a jelszavak visszaállítását tennék lehetővé.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Ha egyszer törli ezt a maszkot, akkor nem állítható vissza.
     A { -brand-name-firefox-relay } többé nem fogja továbbítani a(z) <strong>{ $email }</strong> felé küldött üzeneteket, köztük azokat sem, melyek a jelszavak visszaállítását tennék lehetővé.
 # Deprecated
 modal-delete-warning-upgrade =
     Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
     akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt az álnevet.
+modal-delete-warning-upgrade-2 =
+    Ha ezt a maszkot az Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
+    akkor érdemes frissítenie a bejelentkezési adatait egy másik e-mail-címmel, mielőtt törölné ezt.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Ha ezt az álnevet Ön számára fontos webhelyekre történő bejelentkezéshez használja, 
