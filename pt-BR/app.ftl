@@ -184,14 +184,23 @@ landing-how-it-works-step-2-body-2 =
 landing-how-it-works-step-3-body =
     Entre no painel do { -brand-name-relay } para acompanhar os endereços que você criou. O { -brand-name-relay } encaminha mensagens para seu endereço de email real.
     Se um endereço de redirecionamento receber spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até mesmo excluir o endereço, ali mesmo no painel.
+landing-how-it-works-step-3-body-2 =
+    Entre no painel do { -brand-name-relay } para acompanhar as máscaras de email que você criou.
+    Se descobrir que uma delas recebe spam ou mensagens indesejadas, você pode bloquear todas as mensagens ou até excluir a máscara, ali mesmo no painel.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Apenas por tempo limitado: Endereços de redirecionamento ilimitados por { $monthly_price } mensais
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Apenas por tempo limitado: Máscaras de email ilimitadas por { $monthly_price } mensais
 # Deprecated
 landing-pricing-body =
     Experimente usar endereços de redirecionamento do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email.
+    Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
+landing-pricing-body-2 =
+    Experimente usar máscaras de email do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email.
     Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
 landing-pricing-free-price = Gratuito
 # Deprecated
@@ -250,11 +259,18 @@ landing-use-cases-access-content-body =
     Quer se inscrever em um boletim informativo, mas não confia no remetente?
     Use um endereço de redirecionamento em vez de seu endereço real. Se você começar a receber emails indesejados através desse endereço de redirecionamento, o remetente pode ter vendido seu endereço para outros profissionais de marketing, ou pode até estar em um vazamento de dados.
     Basta desativar ou excluir o endereço de redirecionamento para proteger sua caixa de entrada.
+landing-use-cases-access-content-body-2 =
+    Quer se inscrever em um boletim informativo, mas não confia no remetente?
+    Use uma máscara em vez de seu endereço de email real. Se você começar a receber emails indesejados através dessa máscara, o remetente pode ter vendido o endereço para outros profissionais de marketing, ou pode até estar em um vazamento de dados.
+    Basta desativar ou excluir a máscara para proteger sua caixa de entrada.
 landing-use-cases-gaming = Jogos
 # Deprecated
 landing-use-cases-gaming-body =
     Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do seu nome no jogo e endereço de email?
     Use um endereço de redirecionamento do { -brand-name-relay } para colocar mais uma camada de proteção entre sua identidade online e os jogos que você joga online.
+landing-use-cases-gaming-body-2 =
+    Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do nome do seu personagem e endereço de email?
+    Use uma máscara de email para colocar mais uma camada de proteção entre sua identidade online e os jogos que você joga online.
 
 ## Landing FAQ Section
 
