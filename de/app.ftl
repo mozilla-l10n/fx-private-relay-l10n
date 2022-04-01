@@ -673,16 +673,29 @@ banner-register-subdomain-copy =
     bevor du sie verwendest. Benötigst du ein Alias für eine Reservierung? Gib dem Restaurant die Adresse
     „restaurant@deinedomain.{ $mozmail }“. Jedes Alias,
     das deine benutzerdefinierte Domain verwendet, wird an dich weitergeleitet.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Mit einer benutzerdefinierten Subdomain können können Sie Masken freigeben, die nicht erstellt werden müssen,
+    bevor Sie sie verwenden. Benötigen Sie eine Maske für eine Reservierung? Geben Sie dem Restaurant die Adresse
+    „restaurant@ihredomain.{ $mozmail }“. Jede Maske,
+    die Ihre benutzerdefinierte Subdomain verwendet, wird an Sie weitergeleitet.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Domain suchen
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Suche deine neue Domain
+banner-choose-subdomain-input-placeholder-3 = Subdomain suchen
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Suchen
 # Deprecated
 banner-pack-upgrade-headline-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> erhältst du noch mehr Aliasse.
+banner-pack-upgrade-headline-2-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong> erhalten Sie noch mehr Masken.
 # Deprecated
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } bietet dir unbegrenzt viele Aliasse und deine eigene E-Mail-Domain und schützt dich so im Internet.
+banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihren unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
@@ -707,6 +720,9 @@ banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdo
 
 # Deprecated
 success-subdomain-registered = Deine Domain @{ $subdomain } wurde erstellt
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Ihre Subdomain @{ $subdomain } wurde erstellt
 success-settings-update = Deine Einstellungen wurden aktualisiert
 
 ## Error Messages
@@ -724,6 +740,17 @@ error-subdomain-email-not-created = E-Mail-Adresse mit Subdomain konnte nicht er
 error-subdomain-select = Du musst eine Subdomain auswählen, bevor du ein Subdomain-Alias erstellst
 # Deprecated
 error-subdomain-not-available = Die Domain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuche es mit einer anderen Domain erneut.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Die Subdomain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuchen Sie es mit einer anderen Subdomain erneut.
+error-settings-update = Beim Aktualisieren Ihrer Einstellungen ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut
+error-mask-create-failed = Die Maske konnte nicht erstellt werden. Bitte versuchen Sie es erneut.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Die Masken-Daten konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Die Maske { $maske } konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.
 
 ## Tips and tricks at the bottom of the page
 
@@ -740,41 +767,54 @@ tips-footer-link-support-tooltip = Hilfe kontaktieren
 
 # Deprecated
 modal-custom-alias-picker-heading = Neues benutzerdefiniertes Alias erstellen
+modal-custom-alias-picker-heading-2 = Neue benutzerdefinierte Maske erstellen
 # Deprecated
 modal-custom-alias-picker-warning = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
+modal-custom-alias-picker-warning-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 # Deprecated
 modal-custom-alias-picker-form-heading = Oder erstelle manuell ein benutzerdefiniertes Alias
+modal-custom-alias-picker-form-heading-2 = Oder erstellen Sie manuell eine benutzerdefiniertes Maske
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Alias-Präfix eintragen
+modal-custom-alias-picker-form-prefix-label-2 = Präfix für E-Mail-Maske eingeben
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = z.B. „Kaffee“
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Alias-E-Mail-Adresse erzeugen
+modal-custom-alias-picker-form-submit-label-2 = Maske erzeugen
 # Deprecated
 modal-custom-alias-picker-creation-error = Dein benutzerdefiniertes Alias konnte nicht manuell erstellt werden. Bitte versuche es erneut oder sende eine E-Mail an das Alias, um es zu erstellen.
+modal-custom-alias-picker-creation-error-2 = Ihre benutzerdefinierte Maske konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Maske, um sie zu erstellen.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = So erstellst du benutzerdefinierte Aliasse
+popover-custom-alias-explainer-heading-2 = So erstellen Sie benutzerdefinierte Masken
 # Deprecated
 popover-custom-alias-explainer-explanation = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
+popover-custom-alias-explainer-explanation-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Benutzerdefiniertes Alias manuell erstellen
+popover-custom-alias-explainer-generate-button-heading-2 = Benutzerdefinierte Maske manuell erstellen
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Benutzerdefiniertes Alias erzeugen
+popover-custom-alias-explainer-generate-button-label-2 = Benutzerdefinierte Maske erzeugen
 popover-custom-alias-explainer-close-button-label = Schließen
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
 popover-custom-alias-explainer-promotional-block-tooltip = Aktiviere bei einem Alias die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails deinen Posteingang erreichen.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivieren Sie bei einer Maske die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Erstellen von Aliassen mit deiner benutzerdefinierten Domain
+tips-custom-alias-heading-2 = Erstellen von Masken mit Ihrer benutzerdefinierten Subdomain
 # Deprecated
 tips-custom-alias-content = Du musst nur ein eindeutiges Alias erstellen und weitergeben, die deine benutzerdefinierte Domain verwendet – das Alias wird automatisch generiert. Versuche es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn du das nächste Mal online einkaufst.
+tips-custom-alias-content-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 
 ## Tip about using custom aliases
 
@@ -785,11 +825,14 @@ tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } kannst du 
 
 # Deprecated
 onboarding-headline = Erstelle dein erstes Alias; Du hast drei Möglichkeiten …
+onboarding-headline-2 = Erstellen Sie Ihre erste E-Mail-Maske
 # Deprecated
 onboarding-alias-tip-1 = Wähle „Neues Alias erstellen“, um dein erstes Alias zu erstellen
+onboarding-alias-tip-1-2 = Wählen Sie „Neue Maske erstellen“, um Ihre erste E-Mail-Maske zu erstellen
 onboarding-alias-tip-2 = Wähle mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
 # Deprecated
 onboarding-alias-tip-3 = Klicke mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wähle „Neues Alias erstellen“.
+onboarding-alias-tip-3-2 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Maske erstellen“.
 
 ## Premium Onboarding
 
@@ -800,25 +843,34 @@ onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = steuern, welche E-Mails du erhältst
 # Deprecated
 onboarding-premium-control-description = Du kannst unbegrenzt viele Aliasse teilen, die die gewünschten E-Mails an deinen Posteingang weiterleiten.
+onboarding-premium-control-description-2 = Sie können unbegrenzt viele Masken teilen, die die gewünschten E-Mails an Ihren Posteingang weiterleiten.
 # Deprecated
 onboarding-premium-domain-title = eine benutzerdefinierte Domain für Aliasse einrichten
 # Deprecated
 onboarding-premium-domain-title-2 = Eine benutzerdefinierte Domain für Aliasse verwenden:
+onboarding-premium-domain-title-3 = Eine benutzerdefinierte Subdomain für Masken verwenden:
 # Deprecated
 onboarding-premium-domain-description = Mit einer benutzerdefinierten Domain kannst du für „Newsletter“ und „Einkaufen“ jeweils andere Aliasse einrichten.
 # Deprecated
 onboarding-premium-reply-title = auf E-Mails antworten, ohne deine eigentliche Adresse preiszugeben
+onboarding-premium-reply-title-2 = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
 # Deprecated
 onboarding-premium-reply-description = Musst du auf E-Mails antworten, die an ein Alias gesendet wurden? Antworte einfach wie gewohnt – dein Alias schützt deine E-Mail-Adresse weiterhin.
+onboarding-premium-reply-description-2 = Müssen Sie auf E-Mails antworten, die an eine Maske gesendet wurden? Antworten Sie einfach wie gewohnt – Ihre Maske schützt Ihre E-Mail-Adresse weiterhin.
 onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } kannst du:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Schritt { $step } von { $max }.
 multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jetzt kannst du E-Mail für E-Mail steuern, was in deinem Posteingang landet.
 multi-part-onboarding-premium-welcome-title = Steuere, welche E-Mails du erhältst:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Unbegrenzt viele Aliasse erstellen:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Unbegrenzt viele E-Mail-Masken erstellen:
 multi-part-onboarding-premium-welcome-button-start = Erste Schritte
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für Aliasse
@@ -826,9 +878,11 @@ multi-part-onboarding-premium-domain-headline = Benutzerdefinierte Domain für A
 multi-part-onboarding-premium-domain-title = Hole dir eine benutzerdefinierte Domain für deine Aliasse:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Eine benutzerdefinierte Domain verwenden
+multi-part-onboarding-premium-get-subdomain = Eine benutzerdefinierte Subdomain erhalten
 multi-part-onboarding-reply-headline = Auf deine E-Mails antworten
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Keine Begrenzung auf fünf Aliasse mehr: Du kannst jetzt so viele benutzerdefinierte oder zufällige Aliasse generieren, wie du benötigst. Auf dem PC kannst du diese mit dem Relay-Add-on nebenbei erstellen.
+multi-part-onboarding-premium-welcome-description-2 = Keine Begrenzung auf fünf Masken mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Masken generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem { -brand-name-relay }-Add-on nebenbei erstellen.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Mithilfe einer benutzerdefinierten Domain kannst du Aliasse erstellen, die du dir leichter merken und teilen kannst.
