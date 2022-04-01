@@ -832,6 +832,7 @@ onboarding-alias-tip-1-2 = Selecciona “Generar nueva máscara” para crear tu
 onboarding-alias-tip-2 = Usando la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 # Deprecated
 onboarding-alias-tip-3 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nuevo alias".
+onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nueva máscara".
 
 ## Premium Onboarding
 
@@ -842,14 +843,17 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
 # Deprecated
 onboarding-premium-control-description = Comparte alias de correo electrónico ilimitados que reenvían los correos electrónicos que realmente deseas a tu bandeja de entrada.
+onboarding-premium-control-description-2 = Compartir correos enmascarados ilimitados que reenvían los correos que realmente deseas a tu bandeja de entrada.
 # Deprecated
 onboarding-premium-domain-title = Utiliza un dominio personalizado para compartir alias
 # Deprecated
 onboarding-premium-domain-title-2 = Usar un dominio personalizado para compartir alias:
+onboarding-premium-domain-title-3 = Usar un subdominio personalizado para compartir máscaras:
 # Deprecated
 onboarding-premium-domain-description = Con un dominio personalizado, puedes hacer que el alias de tu "boletín informativo" sea diferente de tu alias de "compras".
 # Deprecated
 onboarding-premium-reply-title = Responde correos electrónicos sin revelar tu dirección real
+onboarding-premium-reply-title-2 = Responde correos sin revelar tu verdadera dirección
 # Deprecated
 onboarding-premium-reply-description = ¿Necesitas responder a los correos electrónicos enviados a un alias? Simplemente responde como de costumbre: tú alias seguirá protegiendo tú dirección de correo electrónico.
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } puedes:
