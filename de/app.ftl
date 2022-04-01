@@ -750,7 +750,7 @@ error-mask-create-failed = Die Maske konnte nicht erstellt werden. Bitte versuch
 error-mask-update-failed = Die Masken-Daten konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
-error-mask-delete-failed = Die Maske { $maske } konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.
+error-mask-delete-failed = Die Maske { $mask } konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.
 
 ## Tips and tricks at the bottom of the page
 
@@ -891,16 +891,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Mit einer benutzerdefinierten Domain kannst du
     Aliasse verwenden, ohne sie vorher erzeugen zu müssen. Benötigst du ein Alias, um dich für einen Newsletter anzumelden? Nimm einfach „lesen@meinedomain{ $mozmail }“
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Mit einer benutzerdefinierten Subdomain können Sie
+    Masken verwenden, ohne sie vorher erzeugen zu müssen. Benötigen Sie eine Maske, um sich für einen Newsletter anzumelden? Nehmen Sie einfach „lesen@meinedomain{ $mozmail }“
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registriere jetzt deine benutzerdefinierte Domain:
+multi-part-onboarding-premium-domain-cta-2 = Registrieren Sie jetzt Ihre benutzerdefinierte Subdomain:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Weiter, ich registriere meine benutzerdefinierte Domain später
+multi-part-onboarding-premium-domain-button-skip-2 = Weiter, ich registriere meine benutzerdefinierte Subdomain später
 multi-part-onboarding-premium-extension-headline = Blockieren, weiterleiten und antworten
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Antworte auf E-Mails, ohne deine eigentliche Adresse preiszugeben:
 multi-part-onboarding-premium-extension-get-title = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } macht die Verwendung von Alias-Adressen noch einfacher.
+multi-part-onboarding-premium-extension-get-description-2 = Die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } macht die Verwendung von E-Mail-Masken noch einfacher.
 multi-part-onboarding-premium-extension-button-download = Hole dir die { -brand-name-relay }-Erweiterung
 multi-part-onboarding-premium-chrome-extension-get-title = Holen Sie sich die { -brand-name-relay }-Erweiterung für { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Die { -brand-name-firefox-relay }-Erweiterung für { -brand-name-chrome } macht die Verwendung von Alias-E-Mail-Adressen noch einfacher.
@@ -914,40 +922,76 @@ multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
 modal-rename-alias-saved = Beschriftung gespeichert!
 # Deprecated
 modal-delete-headline = Dieses Alias endgültig löschen?
+modal-delete-headline-2 = Diese E-Mail-Maske endgültig löschen?
 # Deprecated
 modal-delete-warning-recovery-html =
     Sobald du dieses Alias gelöscht hast, kann sie nicht wiederhergestellt werden.
+    { -brand-name-firefox-relay } leitet keine Nachrichten mehr an <strong>{ $email }</strong> weiter, einschließlich Nachrichten, die der Wiederherstellung verlorener Passwörter dienen.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Sobald Sie diese Maske gelöscht haben, kann sie nicht wiederhergestellt werden.
     { -brand-name-firefox-relay } leitet keine Nachrichten mehr an <strong>{ $email }</strong> weiter, einschließlich Nachrichten, die der Wiederherstellung verlorener Passwörter dienen.
 # Deprecated
 modal-delete-warning-upgrade =
     Wenn du dich mit diesem Alias auf Websites anmeldest, die dir wichtig sind,
     solltest du deine Zugangsdaten mit einer neuen E-Mail-Adresse aktualisieren, bevor du diese löschst.
+modal-delete-warning-upgrade-2 =
+    Wenn Sie sich mit dieser E-Mail-Maske auf Websites anmelden, die Ihnen wichtig sind,
+    sollten Sie Ihre Zugangsdaten mit einer neuen E-Mail-Adresse aktualisieren, bevor Sie diese löschen.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Wenn du dieses Alias verwendest, um dich bei Websites anzumelden, die dir wichtig sind,
     solltest du die E-Mail-Adresse deiner Zugangsdaten ändern, bevor du diese löschst.
     Wenn du ein gelöschtes Alias neu erstellst, werden E-Mails, die an die ursprüngliche Alias-E-Mail-Adresse gesendet wurden, wieder weitergeleitet.
+modal-delete-domain-address-warning-upgrade-2 =
+    Wenn Sie diese Maske verwenden, um sich bei Websites anzumelden, die Ihnen wichtig sind,
+    sollten Sie die E-Mail-Adresse Ihrer Zugangsdaten ändern, bevor Sie diese löschen.
+    Wenn Sie eine gelöschte Maske neu erstellen, werden E-Mails, die an die ursprüngliche Maske gesendet wurden, wieder weitergeleitet.
 # Deprecated
 modal-delete-confirmation = Ja, ich möchte diese Alias-Adresse löschen.
+modal-delete-confirmation-2 = Ja, ich möchte diese Maske löschen.
 modal-domain-register-good-news = Gute Nachrichten!
 # Deprecated
 modal-domain-register-warning-reminder = Denke daran, dass du nur eine Domain registrieren kannst. Du kannst sie später nicht mehr ändern.
+modal-domain-register-warning-reminder-2 = Denken Sie daran, dass Sie nur eine Subdomain registrieren kannst. Sie können sie später nicht mehr ändern.
 # Deprecated
 modal-domain-register-button = Domain registrieren
+modal-domain-register-button-2 = Subdomain registrieren
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } ist verfügbar!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist verfügbar!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } registrieren
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ja, ich möchte <subdomain>{ $subdomain }</subdomain> registrieren
 modal-domain-register-success-title = Fertig!
 # Deprecated
 modal-domain-register-success = { $subdomain } ist jetzt deine E-Mail-Domain!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } ist jetzt Ihre E-Mail-Subdomain!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist jetzt Ihre E-Mail-Subdomain!
 # Deprecated
 modal-domain-register-success-copy = Jetzt kannst du mit deiner neuen Domain unbegrenzt Aliasse erstellen! Worauf wartest du?
+modal-domain-register-success-copy-2 = Jetzt können Sie unbegrenzt benutzerdefinierte E-Mail-Masken erstellen!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tipp { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -994,12 +1038,18 @@ vpn-promo-cta = Jetzt { -brand-name-mozilla-vpn } nutzen
 forwarded-email-header-from = Diese Nachricht wurde von { $display_email } von { $linked_origin } weitergeleitet
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } entfernt CCs und BCCs aus deinen Antworten. Wenn du sie erneut hinzufügst, wird deine echte E-Mail-Adresse offengelegt.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } entfernt CCs und BCCs aus Ihren Antworten. Wenn Sie sie erneut hinzufügen, wird Ihre echte E-Mail-Adresse offengelegt.
 # Deprecated
 forwarded-email-header-premium-banner = Mache das Upgrade auf { $premium_link } und erhalte unbegrenzt viele Aliasse und eine benutzerdefinierte Domain für E-Mails.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Machen Sie das Upgrade auf { $premium_link } und erhalten unbegrenzt viele E-Mail-Masken und eine benutzerdefinierte Subdomain für E-Mails.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen findest du in unseren { $faq_link }
 # Deprecated
 forwarded-email-footer = Hier kannst du die Weiterleitung für alle Aliasse beenden und die Einstellungen verwalten.
+# This entire text is a link
+forwarded-email-footer-2 = Hier können Sie die Weiterleitung für alle Masken beenden und die Einstellungen verwalten.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Mache das Upgrade auf { -brand-name-relay-premium }
