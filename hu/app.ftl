@@ -737,6 +737,13 @@ error-subdomain-not-available = A(z) @{ $unavailable_subdomain } domain nem érh
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = A(z) @{ $unavailable_subdomain } aldomain nem érhető el. Próbálja újra egy másikkal.
 error-settings-update = Hiba történt a beállítások frissítésekor, próbálja újra
+error-mask-create-failed = A maszk létrehozása nem sikerült. Próbálja újra.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = A maszk adatait nem sikerült frissíteni. Próbálja újra.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = A(z) { $mask } maszk létrehozása nem sikerült. Próbálja újra.
 
 ## Tips and tricks at the bottom of the page
 
@@ -753,8 +760,10 @@ tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
 
 # Deprecated
 modal-custom-alias-picker-heading = Új egyéni álnév létrehozása
+modal-custom-alias-picker-heading-2 = Új egyéni maszk létrehozása
 # Deprecated
 modal-custom-alias-picker-warning = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+modal-custom-alias-picker-warning-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenialdomain.mozmail.com” címet legközelebb, amikor online vásárol.
 # Deprecated
 modal-custom-alias-picker-form-heading = Vagy hozzon létre kézzel egy egyéni álnevet
 # Deprecated
