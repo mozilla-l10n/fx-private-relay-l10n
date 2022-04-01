@@ -766,37 +766,48 @@ modal-custom-alias-picker-warning = Mindössze annyit kell tennie, hogy létreho
 modal-custom-alias-picker-warning-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenialdomain.mozmail.com” címet legközelebb, amikor online vásárol.
 # Deprecated
 modal-custom-alias-picker-form-heading = Vagy hozzon létre kézzel egy egyéni álnevet
+modal-custom-alias-picker-form-heading-2 = Vagy hozzon létre kézzel egy egyéni maszkot
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Írja be az álnévelőtagot
+modal-custom-alias-picker-form-prefix-label-2 = Írja be az e-mail-maszk előtagját
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = például „kave”
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Álnév előállítása
+modal-custom-alias-picker-form-submit-label-2 = Maszk előállítása
 # Deprecated
 modal-custom-alias-picker-creation-error = Az egyéni álnév nem hozható létre kézileg. Próbálja újra, vagy küldjön egy e-mailt az álnévre a létrehozásához.
+modal-custom-alias-picker-creation-error-2 = Az egyéni e-mail-maszk nem hozható létre kézileg. Próbálja újra, vagy küldjön egy e-mailt a maszkra a létrehozásához.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Hogyan hozzon létre egyéni álneveket
+popover-custom-alias-explainer-heading-2 = Hogyan hozzon létre egyéni maszkokat
 # Deprecated
 popover-custom-alias-explainer-explanation = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+popover-custom-alias-explainer-explanation-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenidomain.mozmail.com” címet legközelebb, amikor online vásárol.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Egyéni álnév kézi létrehozása
+popover-custom-alias-explainer-generate-button-heading-2 = Egyéni maszk létrehozása kézileg
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Egyéni álnév előállítása
+popover-custom-alias-explainer-generate-button-label-2 = Egyéni maszk előállítása
 popover-custom-alias-explainer-close-button-label = Bezárás
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Promóciós e-mailek letiltása
 popover-custom-alias-explainer-promotional-block-tooltip = Engedélyezze a Promóciós e-mailek letiltását egy álnéven, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Engedélyezze a Promóciós e-mailek letiltását egy maszkon, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Álnevek létrehozása az egyéni domainje használatával
+tips-custom-alias-heading-2 = Maszkok létrehozása az egyéni aldomainje használatával
 # Deprecated
 tips-custom-alias-content = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi álnevet, amely az Ön egyéni domainjét használja – az álnév automatikusan létrejön. Próbálja ki például a vasarlas@egyenidomain.mozmail.com címet legközelebb, amikor online vásárol.
+tips-custom-alias-content-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenidomain.mozmail.com” címet legközelebb, amikor online vásárol.
 
 ## Tip about using custom aliases
 
@@ -807,11 +818,14 @@ tips-promo-email-blocking-content = A { -brand-name-relay-premium } segítségé
 
 # Deprecated
 onboarding-headline = Hozza létre az első álnevét, ennek három módja van…
+onboarding-headline-2 = Hozza létre az első e-mail-maszkját
 # Deprecated
 onboarding-alias-tip-1 = Válassza az „Új álnév előállítása” lehetőséget az első álneve létrehozásához.
+onboarding-alias-tip-1-2 = Válassza az „Új maszk előállítása” lehetőséget az első maszkja létrehozásához.
 onboarding-alias-tip-2 = Használja a { -brand-name-relay } kiegészítőt, válassza a { -brand-name-firefox-relay } ikont, ha megjelenik az e-mail mezőkben.
 # Deprecated
 onboarding-alias-tip-3 = Használja a { -brand-name-relay } kiegészítőt, kattintson jobb gombbal egy űrlapmezőre, és válassza az „Új álnév előállítása” lehetőséget.
+onboarding-alias-tip-3-2 = Használja a { -brand-name-relay } kiegészítőt, kattintson jobb gombbal egy űrlapmezőre, és válassza az „Új maszk előállítása” lehetőséget.
 
 ## Premium Onboarding
 
@@ -822,25 +836,34 @@ onboarding-premium-feature-intro = A { -brand-name-firefox } { -brand-name-relay
 onboarding-premium-control-title = Szabályozhatja, hogy milyen e-maileket kapjon
 # Deprecated
 onboarding-premium-control-description = Korlátlan számú e-mail álnevet oszthat meg, amelyek a valóban várt leveleket továbbítják a postafiókjába.
+onboarding-premium-control-description-2 = Korlátlan számú e-mail-maszkot oszthat meg, amelyek a valóban várt leveleket továbbítják a postafiókjába.
 # Deprecated
 onboarding-premium-domain-title = Használjon egyéni domaint az álnevek megosztásához:
 # Deprecated
 onboarding-premium-domain-title-2 = Használjon egyéni domaint az álnevek megosztásához:
+onboarding-premium-domain-title-3 = Használjon egyéni aldomaint a maszkok megosztásához:
 # Deprecated
 onboarding-premium-domain-description = Egy egyéni domain használatával a „hírlevél” álneve eltérhet a „vásárlás” álnevétől.
 # Deprecated
 onboarding-premium-reply-title = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
+onboarding-premium-reply-title-2 = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
 # Deprecated
 onboarding-premium-reply-description = Válaszolnia kell az álnévre küldött levelekre? Csak válaszoljon a szokásos módon – az álnév továbbra is védi az e-mail címét.
+onboarding-premium-reply-description-2 = Válaszolnia kell a maszkra küldött levelekre? Csak válaszoljon a szokásos módon – a maszk továbbra is védi az e-mail-címét.
 onboarding-premium-title-detail = A { -brand-name-firefox-relay-premium }mal a következőket teheti:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = { $step }. / { $max } lépés
 multi-part-onboarding-premium-welcome-headline = Üdvözli a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Mostantól e-mail-címenként szabályozhatja, hogy mi kerüljön a postaládájába.
 multi-part-onboarding-premium-welcome-title = Szabályozhatja, hogy milyen e-maileket kapjon:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Korlátlan számú e-mail álnév előállítása:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Korlátlan számú e-mail-maszk előállítása:
 multi-part-onboarding-premium-welcome-button-start = Kezdő lépések
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Egyéni domain az álnevek megosztásához
@@ -848,9 +871,11 @@ multi-part-onboarding-premium-domain-headline = Egyéni domain az álnevek megos
 multi-part-onboarding-premium-domain-title = Szerezzen egyéni domaint az álneveihez:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Egyéni domain beszerzése
+multi-part-onboarding-premium-get-subdomain = Egyéni aldomain beszerzése
 multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Nincs többé öt álneves korlát: mostantól annyi egyéni vagy véletlenszerű álnevet állíthat elő, amennyire szüksége van. Asztali számítógépen a Relay kiegészítővel menet közben is létrehozhatja őket.
+multi-part-onboarding-premium-welcome-description-2 = Nincs többé öt maszkos korlát: mostantól annyi egyéni vagy véletlenszerű maszkot állíthat elő, amennyire csak szüksége van. Asztali számítógépen a { -brand-name-relay } kiegészítővel menet közben is létrehozhatja őket.
 # Deprecated
 multi-part-onboarding-premium-domain-description = Egyéni domain használatakor olyan álneveket hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Csak mondja, hogy kaja@yourdomain{ $mozmail } – nem szükséges előzetesen létrehoznia az álnevet.
 # Deprecated
