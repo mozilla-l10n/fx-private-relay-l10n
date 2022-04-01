@@ -380,11 +380,14 @@ faq-question-missing-emails-answer-a-2 = Számos oka lehet annak, hogy miért ne
 faq-question-missing-emails-answer-reason-spam = Az üzenetek levélszemétbe kerülnek
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Az e-mail-szolgáltatója blokkolja az álnevét
+faq-question-missing-emails-answer-reason-blocked-2 = Az e-mail-szolgáltatója blokkolja az e-mail-maszkjait
 faq-question-missing-emails-answer-reason-size = A továbbított e-mail melléklete nagyobb, mint { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Az oldal nem fogad el álneveket
+faq-question-missing-emails-answer-reason-not-accepted-2 = Az oldal nem fogad el e-mail-maszkokat
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Lehet, hogy az álnév továbbítása ki van kapcsolva
+faq-question-missing-emails-answer-reason-turned-off-2 = Lehet, hogy a maszk továbbítása ki van kapcsolva
 faq-question-missing-emails-answer-reason-delay = A { -brand-name-relay }nek a szokásosnál tovább tarthat az üzenetei továbbítása
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -394,12 +397,16 @@ faq-question-missing-emails-answer-b-html = Ha Ön { -brand-name-relay-premium }
 faq-question-missing-emails-answer-support-site-html = Ha a fenti problémák bármelyikével küzd, akkor <a href="{ $url }" { $attrs }>keresse fel a támogatási webhelyünket</a>.
 # Deprecated
 faq-question-use-cases-question = Mikor használjam a { -brand-name-relay } álneveket?
+faq-question-use-cases-question-2 = Mikor használjam a { -brand-name-relay } e-mail-maszkokat?
 # Deprecated
 faq-question-use-cases-answer-part1 = A legtöbb helyen használhatja a { -brand-name-relay } álneveket, ahol a szokásos e-mail-címét használná. Azt javasoljuk, hogy akkor használja őket, amikor olyan marketinges/információs e-mailekre iratkozik fel, ahol esetleg szabályozni szeretné, hogy a jövőben kapjon-e leveleket.
+faq-question-use-cases-answer-part1-2 = A legtöbb helyen használhatja a { -brand-name-relay } e-mail-maszkokat, ahol a szokásos e-mail-címét használná. Azt javasoljuk, hogy akkor használja őket, amikor olyan marketinges/információs e-mailekre iratkozik fel, ahol esetleg szabályozni szeretné, hogy a jövőben kapjon-e leveleket.
 # Deprecated
 faq-question-use-cases-answer-part2 = Nem javasoljuk az álnevek használatát, ha igazolnia kell személyazonosságát, vagy ha nagyon fontos leveleket vár, vagy akkor, amikor mellékleteket kellfogadnia. Például, a bankjával, orvosával és ügyvédjével a valódi e-mail-címét akarja megosztani, valamint koncertjegyek vagy repülőjegy beszállókártyák átvételekor is azt akarja használni.
+faq-question-use-cases-answer-part2-2 = Nem javasoljuk a maszkok használatát, ha igazolnia kell személyazonosságát, vagy ha nagyon fontos leveleket vár, vagy akkor, amikor mellékleteket kell fogadnia. Például, a bankjával, orvosával és ügyvédjével a valódi e-mail-címét akarja megosztani, valamint koncertjegyek vagy repülőjegy beszállókártyák átvételekor is azt akarja használni.
 # Deprecated
 faq-question-2-question = Miért nem fogadja el egy webhely a { -brand-name-relay } álnevet?
+faq-question-2-question-2 = Miért nem fogadja el egy webhely a { -brand-name-relay } e-mail-maszkomat?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -411,13 +418,19 @@ faq-question-2-answer-v4 = Előfordulhat, hogy egyes webhelyek nem fogadnak el o
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
 # Deprecated
 faq-question-1-answer-a = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító álnevet.
+faq-question-1-answer-a-2 = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító maszkot.
 # Deprecated
 faq-question-1-answer-b-html = Ha az összes álnevéről érkező nem kívánt e-mailek szélesebb körű problémáját tapasztalja, akkor <a href="{ $url }" { $attrs }>jelentse ezt nekünk</a>, hogy megfontolhassuk az SES levélszemét küszöbértékének módosítását erre a szolgáltatásra vonatkozóan. Ha ezeket levélszemétnek jelöli, akkor az e-mail szolgáltatója a { -brand-name-relay }t fogja a levélszemét forrásaként látni, nem pedig az eredeti feladót.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Ha az összes maszkjáról érkező nem kívánt e-mailek szélesebb körű problémáját tapasztalja, akkor <a href="{ $url }" { $attrs }>jelentse ezt nekünk</a>, hogy megfontolhassuk az SES levélszemét küszöbértékének módosítását erre a szolgáltatásra vonatkozóan. Ha ezeket levélszemétnek jelöli, akkor az e-mail szolgáltatója a { -brand-name-relay }t fogja a levélszemét forrásaként látni, nem pedig az eredeti feladót.
 faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
 faq-question-availability-answer = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svájcban, Hollandiában és Írországban érhető el.
 faq-question-availability-answer-v2 = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Finnországban, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svédországban, Svájcban, Hollandiában és Írországban érhető el.
 # Deprecated
 faq-question-4-question = Válaszolhatok az üzenetekre a { -brand-name-relay } álnevem használatával?
+faq-question-4-question-2 = Válaszolhatok az üzenetekre a { -brand-name-relay } e-mail-maszkom használatával?
 # Deprecated
 faq-question-4-answer-v3 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és az e-mailben szereplők számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
 faq-question-4-answer-v4 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és a másolatot kapók számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
@@ -430,17 +443,22 @@ faq-question-subdomain-characters-answer-v2 = Aldomain létrehozásához csak ki
 faq-question-browser-support-question = Használhatom a { -brand-name-relay }t más böngészőkön vagy a mobileszközömön?
 # Deprecated
 faq-question-browser-support-answer = Igen, úgy állíthat elő { -brand-name-relay } álneveket más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
+faq-question-browser-support-answer-2 = Igen, úgy állíthat elő { -brand-name-relay } maszkokat más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
 faq-question-longevity-question = Mi történik, ha a Mozilla leállítja a { -brand-name-firefox-relay } szolgáltatást?
 # Deprecated
 faq-question-longevity-answer = Előzetesen értesíteni fogjuk, hogy meg kell változtatnia minden olyan fiókja e-mail-címét, amely { -brand-name-relay } álneveket használ.
+faq-question-longevity-answer-2 = Előzetesen értesíteni fogjuk, hogy meg kell változtatnia minden olyan fiókja e-mail-címét, amely { -brand-name-relay } e-mail-maszkokat használ.
 # Deprecated
 faq-question-mozmail-question = Miért kezdték el az álneveim a „mozmail.com” domaint használni?
+faq-question-mozmail-question-2 = Miért kezdték el az e-mail-maszkjaim a „mozmail.com” domaint használni?
 # Deprecated
 faq-question-mozmail-answer = Azért váltottunk a „relay.firefox.com”-ról a „mozmail.com”-ra, hogy lehetőség legyen egyéni email domain használatára, például erre: alias@yourdomain.mozmail.com. Az egyéni e-mail tartományokkal, melyek { -brand-name-relay-premium } előfizetők számára érhetők el, az e-mail álneveket is könnyebben megjegyezhetővé válnak mint a véletlenszerű álnevek.
+faq-question-mozmail-answer-2 = Azért váltottunk a „relay.firefox.com”-ról a „mozmail.com”-ra, hogy lehetőség legyen egyéni email aldomain használatára, például erre: maszk@sajatdomain.mozmail.com. Az egyéni e-mail aldomainekkel, melyek a { -brand-name-relay-premium } előfizetők számára érhetők el, könnyebben megjegyezhető e-mail-maszkok állíthatók elő.
 faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja a mellékletekkel rendelkező leveleket?
 faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továbbítását. Azonban van egy { email-size-limit }-os korlát az e-mailek a { -brand-name-relay } használatával történő továbbításakor. Az { email-size-limit }-nál nagyobb e-mailek nem lesznek továbbítva.
 # Deprecated
 faq-question-unsubscribe-domain-question = Mi történik az egyéni domainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
+faq-question-unsubscribe-domain-question-2 = Mi történik az egyéni aldomainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új álneveket már nem fog tudni felvenni annál a domainnál. Ha összesen több mint öt álneve van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
@@ -475,27 +493,44 @@ profile-promo-upgrade-headline = Frissítsen a még több funkcióért.
 # Deprecated
 profile-promo-upgrade-copy = A { -brand-name-relay } frissítésével korlátlan számú e-mail-címet és saját e-mail domaint kaphat.
 profile-promo-upgrade-cta = A { -brand-name-relay } frissítése
+profile-details-expand = Maszk részleteinek megjelenítése
+profile-details-collapse = Maszk részleteinek elrejtése
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Kattintson a(z) { $address } maszk másolásához.
 # Deprecated
 profile-label-edit = Az álnév címkéjének szerkesztése
+profile-label-edit-2 = A maszk címkéjének szerkesztése
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Fióknév hozzáadása
 profile-label-save-error = A mentés sikertelen, próbálja újra.
 profile-label-saved = Címke mentve!
 # Deprecated
 profile-label-generate-new-alias = Új álnév előállítása
+profile-label-generate-new-alias-2 = Új maszk előállítása
 # Deprecated
 profile-label-generate-new-alias-menu-random = Véletlenszerű álnév
+profile-label-generate-new-alias-menu-random-2 = Véletlenszerű e-mail-maszk
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain } álnév
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } maszk
 profile-label-delete = Törlés
 # Deprecated
 profile-label-delete-alias = Álnév törlése
 # Deprecated
+profile-label-delete-alias-2 = Álnév törlése
+# Deprecated
 profile-label-upgrade = Szerezzen korlátlan számú álnevet
+profile-label-upgrade-2 = Korlátlan számú e-mail-maszk szerzése
 # Deprecated
 profile-label-create-domain = Szerezzen saját e-mail domaint
+profile-label-create-subdomain = Szerezzen saját e-mail aldomaint
 # Deprecated
 profile-label-domain = E-mail domain:
+profile-label-subdomain = E-mail aldomain:
 # Deprecated
 profile-label-domain-tooltip = Hozza létre az egyedi és egyéni e-mail domainjét.
 profile-label-reset = Visszaállítás
