@@ -466,6 +466,10 @@ faq-question-unsubscribe-domain-answer-2 = Si eliminas tu suscripción de { -bra
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-8-answer-html = Puede obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y el sitio que usas para tus alias de correo electrónico para que podamos ofrecerte ese servicio y  mejorarlo.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. Opcionalmente, también puedes compartir datos sobre las etiquetas y el sitio que utilizas para tus correos enmascarados y así podamos brindarte ese servicio y mejorarlo.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En las raras circunstancias en las que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos por más de tres días.
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
@@ -495,29 +499,48 @@ profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
 # Deprecated
 profile-promo-upgrade-copy = Actualiza { -brand-name-relay } para obtener direcciones de correo electrónico ilimitadas y tu propio dominio de correo electrónico.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
+profile-details-expand = Mostrar detalles de las máscaras
+profile-details-collapse = Ocultar detalles de las máscaras
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Clic para copiar máscara { $address }.
 # Deprecated
 profile-label-edit = Editar la etiqueta de este alias
+profile-label-edit-2 = Edita la etiqueta para esta máscara
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Agregar nombre de cuenta
 profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 # Deprecated
 profile-label-generate-new-alias = Generar nuevo alias
+profile-label-generate-new-alias-2 = Generar nueva máscara
 # Deprecated
 profile-label-generate-new-alias-menu-random = Alias aleatorio
+profile-label-generate-new-alias-menu-random-2 = Correo enmascarado aleatorio
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } máscara
 profile-label-delete = Eliminar
 # Deprecated
 profile-label-delete-alias = Eliminar este alias
 # Deprecated
+profile-label-delete-alias-2 = Elimina este alias
+# Deprecated
 profile-label-upgrade = Obtener alias ilimitados
+profile-label-upgrade-2 = Consigue correos enmascarados ilimitados
 # Deprecated
 profile-label-create-domain = Obtener tu dominio de correo electrónico
+profile-label-create-subdomain = Consigue tu subdominio de correo
 # Deprecated
 profile-label-domain = Dominio de correo electrónico:
+profile-label-subdomain = Subdominio de correo:
+profile-label-subdomain-tooltip-trigger = Más información
 # Deprecated
 profile-label-domain-tooltip = Crea tu dominio de correo electrónico único y personalizado.
+profile-label-subdomain-tooltip = Cree su subdominio de correo electrónico único.
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-skip = Omitir
@@ -535,19 +558,25 @@ profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
 # Deprecated
 profile-label-disable-forwarding-button = Deshabilitar el reenvío de correo electrónico para este alias
+profile-label-disable-forwarding-button-2 = Inhabilitar el reenvío de correo para esta máscara
 # Deprecated
 profile-label-enable-forwarding-button = Habilitar el reenvío de correo electrónico para este alias
+profile-label-enable-forwarding-button-2 = Habilitar el reenvío de correo para esta máscara
 profile-label-click-to-copy = Clic para copiar
 # Deprecated
 profile-label-copy-confirmation = Alias copiado al portapapeles
+# Deprecated
+profile-label-copy-confirmation-2 = Máscara copiada al portapapeles
 profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviados
 profile-label-cancel = Cancelar
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } eliminará los mensajes antes de que lleguen a tu bandeja de entrada cuando selecciones el bloqueo para este alias.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para este alias.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluyendo archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
@@ -555,16 +584,32 @@ profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 # Deprecated
 profile-stat-label-aliases-used = Alias de e-mail usados
+profile-stat-label-aliases-used-2 = Correos enmascarados usados
 # Deprecated
 profile-filter-search-placeholder = Buscar alias
+profile-filter-search-placeholder-2 = Buscar máscaras
+profile-filter-category-button-label = Filtras máscaras visibles
+profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
+profile-filter-category-title = Filtrar máscaras visibles
+profile-filter-no-results = Ninguna máscara coincide con los criterios seleccionados. <clear-button>Borrar todos los filtros.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Alias con reenvío
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Máscaras de reenvío
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Alias bloqueados
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Máscaras de bloqueo
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Mascaras bloqueadoras de promociones
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Alias aleatorios
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Máscaras aleatorias
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizados
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Máscaras personalizadas
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -585,6 +630,7 @@ profile-promo-email-blocking-label-not-forwarding = No reenviar
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Descartar
 banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
 # Variables:
 #   $username (string) - Username
