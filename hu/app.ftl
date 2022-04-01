@@ -583,14 +583,26 @@ profile-stat-label-aliases-used-2 = Használt e-mail-maszkok
 profile-filter-search-placeholder = Alnevek keresése
 profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
+profile-filter-category-button-tooltip = Szűrje a maszkokat aldomain szerint vagy aszerint, hogy blokkolják-e a bejövő e-maileket
+profile-filter-category-title = Látható maszkok szűrése
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Továbbítási álnevek
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Továbbítási maszkok
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blokkoló álnevek
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blokkoló maszkok
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Promóciót blokkoló maszkok
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Véletlenszerű álnevek
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Véletlenszerű maszkok
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Egyéni álnevek
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Egyéni maszkok
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -611,6 +623,7 @@ profile-promo-email-blocking-label-not-forwarding = Nincs továbbítás
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Eltüntetés
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
 # Variables:
 #   $username (string) - Username
@@ -623,10 +636,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox }szal
 # Deprecated
 banner-download-firefox-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek létrehozását.
+banner-download-firefox-copy-2 = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi a maszkok létrehozását.
 banner-download-firefox-cta = { -brand-name-firefox } beszerzése
 banner-download-install-extension-headline = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
 # Deprecated
 banner-download-install-extension-copy = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi az álnevek használatát.
+banner-download-install-extension-copy-2 = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi a maszkok használatát.
 banner-download-install-extension-cta = A { -brand-name-relay } hozzáadása a { -brand-name-firefox }hoz
 banner-download-install-chrome-extension-headline = Próbálja ki a { -brand-name-google-chrome }-hoz készült { -brand-name-relay }t
 banner-download-install-chrome-extension-copy = A { -brand-name-chrome }-hoz készült { -brand-name-firefox-relay } kiegészítő még könnyebbé teszi az álnevek létrehozását és használatát.
@@ -634,11 +649,13 @@ banner-download-install-chrome-extension-cta = A { -brand-name-relay } kiegész�
 banner-upgrade-headline = Frissítés a { -brand-name-relay-premium }ra
 # Deprecated
 banner-upgrade-copy = A { -brand-name-firefox } { -brand-name-relay-premium } még könnyebbé teszi az e-mail álnevek létrehozását, az egyéni álnévdomainek és a korlátlan számú álnévnek köszönhetően.
+banner-upgrade-copy-2 = A { -brand-name-firefox-relay-premium } még könnyebbé teszi az e-mail-maszkok létrehozását, az egyéni maszk-aldomainek és a korlátlan számú maszknak köszönhetően.
 banner-upgrade-cta = Frissítés a { -brand-name-relay-premium }ra
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Műveleti lépés
 # Deprecated
 banner-register-subdomain-headline-aliases = Szerezzen egyéni domaint az álneveihez
+banner-register-subdomain-headline-aliases-2 = Szerezzen egyéni aldomaint a maszkjaihoz
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -649,16 +666,29 @@ banner-register-subdomain-copy =
     használatuk előtt. Szüksége van egyre egy foglaláshoz? Adja meg az
     „etterem@yourdomain.{ $mozmail }” címet az étteremnek. Minden olyan álnév, amely az
     egyéni tartományát használja, továbbítva lesz Önnek.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Egy egyéni aldomainnel olyan maszkokat oszthat meg, amelyeket nem kell előállítani a
+    használatuk előtt. Szüksége van egyre egy foglaláshoz? Adja meg az
+    „etterem@yourdomain.{ $mozmail }” címet az étteremnek. Minden olyan maszk, amely az
+    egyéni aldomainját használja, továbbítva lesz Önnek.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Domain keresése
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Keresés az új domainben
+banner-choose-subdomain-input-placeholder-3 = Aldomain keresése
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Keresés
 # Deprecated
 banner-pack-upgrade-headline-html = Frissítsen <strong>{ -brand-name-firefox } { -brand-name-relay-premium }ra</strong>, hogy több álnevet kapjon
+banner-pack-upgrade-headline-2-html = Frissítsen <strong>{ -brand-name-firefox-relay-premium }ra</strong>, hogy több maszkot kapjon
 # Deprecated
 banner-pack-upgrade-copy = A korlátlan számú e-mail álnévnek és az egyéni e-mail domainnek köszönhetően, a { -brand-name-firefox } { -brand-name-relay-premium } segít megőrizni az online védelmét.
+banner-pack-upgrade-copy-2 = A korlátlan számú e-mail-maszknak és az egyéni e-mail-aldomainnek köszönhetően, a { -brand-name-firefox-relay-premium } segít megőrizni az online védelmét.
 banner-pack-upgrade-cta = Frissítés most
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Adatvédelmi nyilatkozat frissítése
