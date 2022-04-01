@@ -298,7 +298,9 @@ premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico 
 premium-promo-perks-perk-unlimited-headline-2 = Crear correos enmascarados ilimitados
 # Deprecated
 premium-promo-perks-perk-unlimited-body = No más límite de cinco alias: con { -brand-name-relay-premium }, puedes generar tantos alias como necesites para ayudar a proteger tu bandeja de entrada de spammers y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
+premium-promo-perks-perk-unlimited-body-2 = No más limitaciones a 5 máscaras: con { -brand-name-relay-premium }, puedes generar tanto correos enmascarados como necesites para ayudarte a proteger tu bandeja de entrada del spam y rastreadores en línea. Incluso puedes responder a otros correos sin exponer tu verdadera dirección.
 premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
+premium-promo-perks-perk-custom-domain-headline-2 = Selecciona tu subdominio personalizado
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir. ¿Necesitas uno para las reservas de restaurantes? Usa uno como food@mydomain.mozmail.com — No hace falta crear el alias de antemano.
 # Deprecated
