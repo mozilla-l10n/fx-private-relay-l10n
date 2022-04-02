@@ -34,6 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱，用它收邮件并转发至您的真实邮箱。可用马甲邮箱来保护您的账户，不受黑客和垃圾邮件的侵扰。
+meta-description-2 = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱，用它收邮件并转发至您的真实邮箱。可用马甲邮箱来保护您的账户，不受黑客和垃圾邮件的侵扰。
 
 ## Header 
 
@@ -164,8 +165,12 @@ landing-how-it-works-step-1-body = 在输入邮箱地址时自动生成马甲邮
 landing-how-it-works-step-2-body =
     在您浏览网页时，{ -brand-name-relay } 图标将出现在网站要求您提供电子邮件地址的位置。
     选择它即可生成以 @relay.mozmail.com 结尾的随机全新邮箱地址。
+landing-how-it-works-step-2-body-2 =
+    在您浏览网页时，{ -brand-name-relay } 图标将出现在网站要求您提供电子邮件地址的位置。
+    选择它即可生成以 @mozmail.com 结尾的随机全新邮箱地址。
 # Deprecated
 landing-how-it-works-step-3-body = 登录 { -brand-name-relay } 即可总览您创建的的马甲邮箱，而 { -brand-name-relay } 会将邮件转发至您的真实邮箱。若您发现某个马甲邮箱开始收到垃圾邮件或不想收到的邮件，则可在面板上直接屏蔽或删除该马甲。
+landing-how-it-works-step-3-body-2 = 登录 { -brand-name-relay } 即可总览您创建的的马甲邮箱。若您发现某个马甲邮箱开始收到垃圾邮件或不想收到的邮件，则可在面板上直接屏蔽或删除该马甲。
 
 ## Pricing section
 
