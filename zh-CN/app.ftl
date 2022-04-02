@@ -370,6 +370,7 @@ faq-question-browser-support-answer = 是的，登录 { -brand-name-relay } 面�
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 # Deprecated
 faq-question-longevity-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
+faq-question-longevity-answer-2 = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站完成换绑。
 # Deprecated
 faq-question-mozmail-question = 为何我的马甲邮箱域名变成“mozmail.com”了？
 # Deprecated
@@ -535,10 +536,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } + { -brand-name-firefox }，体验更佳
 # Deprecated
 banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 扩展，让创建马甲更简单。
+banner-download-firefox-copy-2 = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让创建马甲更简单。
 banner-download-firefox-cta = 下载 { -brand-name-firefox }
 banner-download-install-extension-headline = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 # Deprecated
 banner-download-install-extension-copy = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
+banner-download-install-extension-copy-2 = { -brand-name-firefox-browser }的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = 试试 { -brand-name-google-chrome } 版 { -brand-name-relay }。
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
@@ -546,6 +549,7 @@ banner-download-install-chrome-extension-cta = 下载 { -brand-name-relay } 扩�
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 让创建马甲邮箱更简单，更有自定义域名马甲与无限量马甲功能。
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 让创建马甲邮箱更简单，更有自定义子域名马甲与无限量马甲功能。
 banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = 操作步骤
@@ -634,13 +638,16 @@ modal-custom-alias-picker-heading = 新建自定义马甲
 modal-custom-alias-picker-warning = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 # Deprecated
 modal-custom-alias-picker-form-heading = 或手动创建自定义马甲
+modal-custom-alias-picker-form-heading-2 = 或手动创建自定义马甲
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = 输入马甲前缀
+modal-custom-alias-picker-form-prefix-label-2 = 输入马甲邮箱前缀
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如“coffee”
 # Deprecated
 modal-custom-alias-picker-form-submit-label = 生成马甲
+modal-custom-alias-picker-form-submit-label-2 = 生成马甲
 # Deprecated
 modal-custom-alias-picker-creation-error = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
 
@@ -648,6 +655,7 @@ modal-custom-alias-picker-creation-error = 无法手动创建自定义马甲，�
 
 # Deprecated
 popover-custom-alias-explainer-heading = 如何创建自定义马甲
+popover-custom-alias-explainer-heading-2 = 如何创建自定义马甲
 # Deprecated
 popover-custom-alias-explainer-explanation = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 # Deprecated
@@ -698,17 +706,23 @@ onboarding-premium-domain-title-2 = 用自定义域名创建马甲邮箱：
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 # Deprecated
 onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
+onboarding-premium-reply-title-2 = 不需泄露真实邮箱，就能回复邮件
 # Deprecated
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享：
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = 第 { $step } / { $max } 步。
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
 multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = 生成不限数量的马甲邮箱：
+multi-part-onboarding-premium-generate-unlimited-title-2 = 生成不限数量的马甲邮箱：
 multi-part-onboarding-premium-welcome-button-start = 开始使用
 # Deprecated
 multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
@@ -716,25 +730,33 @@ multi-part-onboarding-premium-domain-headline = 自定义域名的马甲邮箱
 multi-part-onboarding-premium-domain-title = 用自定义域名创建马甲：
 # Deprecated
 multi-part-onboarding-premium-get-domain = 获取自定义域名
+multi-part-onboarding-premium-get-subdomain = 获取自定义子域名
 multi-part-onboarding-reply-headline = 回复邮件
 # Deprecated
 multi-part-onboarding-premium-welcome-description = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 Relay 附加组件随时创建马甲。
+multi-part-onboarding-premium-welcome-description-2 = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 { -brand-name-relay } 附加组件随时创建马甲。
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     借助自定义域名功能，您可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“restaurant@yourdomain.{ $mozmail }”就 Okay，无需事先创建。
 # Deprecated
 multi-part-onboarding-premium-get-domain-description-2 = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customdomain{ $mozmail }”就好
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customsubdomain{ $mozmail }”就好
 # Deprecated
 multi-part-onboarding-premium-domain-cta = 立即注册您的自定义域名：
+multi-part-onboarding-premium-domain-cta-2 = 立即注册您的自定义子域名：
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = 继续，我之后再注册自定义域名
+multi-part-onboarding-premium-domain-button-skip-2 = 继续，我以后再注册自定义子域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = 不用泄露真实邮箱，就能回复邮件：
 multi-part-onboarding-premium-extension-get-title = 安装 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
+multi-part-onboarding-premium-extension-get-description-2 = { -brand-name-firefox } 的 { -brand-name-relay } 扩展，让使用马甲邮箱更简单。
 multi-part-onboarding-premium-extension-button-download = 下载 { -brand-name-relay } 扩展
 multi-part-onboarding-premium-chrome-extension-get-title = 下载 { -brand-name-google-chrome } 版 { -brand-name-relay } 扩展。
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
@@ -748,12 +770,18 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 modal-rename-alias-saved = 标签已保存！
 # Deprecated
 modal-delete-headline = 确定要永久删除此马甲吗？
+modal-delete-headline-2 = 确定要永久删除此马甲邮箱吗？
 # Deprecated
 modal-delete-warning-recovery-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
 # Deprecated
 modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
+modal-delete-warning-upgrade-2 = 若您使用此马甲邮箱注册账户登录重要的网站，则应在删除此马甲前先到该网站将电子邮件地址更改为其他地址。
 # Deprecated
 modal-delete-domain-address-warning-upgrade = 如果您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
+modal-delete-domain-address-warning-upgrade-2 = 若您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 # Deprecated
 modal-delete-confirmation = 是的，我要删除此马甲。
 modal-delete-confirmation-2 = 是的，我要删除此马甲。
@@ -768,11 +796,26 @@ modal-domain-register-button-2 = 注册子域名
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } 可用！
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可用！
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = 是的，我要注册 <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = 成功！
 # Deprecated
 modal-domain-register-success = { $subdomain } 现在是您的专属邮箱域名！
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } 现在是属于您的邮箱子域名！
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 现在是属于您的邮箱子域名！
 # Deprecated
 modal-domain-register-success-copy = 您现在可以使用新域名创建无限数量的马甲了，赶快试试吧！
 
@@ -824,8 +867,12 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Deprecated
 forwarded-email-header-premium-banner = 升级为 { $premium_link }，即享不限数量马甲和自定义域名。
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = 升级为 { $premium_link }，即享不限数量马甲和自定义子域名。
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
