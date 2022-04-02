@@ -305,18 +305,24 @@ faq-question-what-is-question = { -brand-name-relay } 马甲邮箱是什么？
 faq-question-what-is-question-2 = { -brand-name-relay } 马甲邮箱是什么？
 # Deprecated
 faq-question-what-is-answer = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的匿名邮箱。您可以放心地向第三方提供这些邮箱地址，掩藏真实邮箱地址。
+faq-question-what-is-answer-2 = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的私人匿名邮箱。您可以放心地向第三方提供这些邮箱地址，掩藏真实邮箱地址。
 # Deprecated
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
+faq-question-missing-emails-question-2 = 我收不到来自我马甲邮箱的消息
 # Deprecated
 faq-question-missing-emails-answer-a = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
+faq-question-missing-emails-answer-a-2 = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = 邮件服务商屏蔽了您的马甲邮箱
+faq-question-missing-emails-answer-reason-blocked-2 = 邮件服务商屏蔽了您的马甲邮箱
 faq-question-missing-emails-answer-reason-size = 转发的电子邮件（含附件）大于 { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = 该网站不允许使用马甲邮箱
+faq-question-missing-emails-answer-reason-not-accepted-2 = 该网站不允许使用马甲邮箱
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = 马甲邮箱的转发功能可能已被关闭
+faq-question-missing-emails-answer-reason-turned-off-2 = 马甲邮箱的转发功能可能已被关闭
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 转发消息可能需要比平时更长的时间
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -326,12 +332,16 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 faq-question-missing-emails-answer-support-site-html = 若您遇到这些问题，请<a href="{ $url }" { $attrs }>访问我们的用户支持网站</a>。
 # Deprecated
 faq-question-use-cases-question = 何时应该使用 { -brand-name-relay } 马甲邮箱？
+faq-question-use-cases-question-2 = 何时应该使用 { -brand-name-relay } 马甲邮箱？
 # Deprecated
 faq-question-use-cases-answer-part1 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们强烈建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
+faq-question-use-cases-answer-part1-2 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们强烈建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
 # Deprecated
 faq-question-use-cases-answer-part2 = 我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好在与银行、医生、律师沟通，或接收音乐会或航班信息时，提供您的真实邮箱地址。
+faq-question-use-cases-answer-part2-2 = 我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好在与银行、医生、律师沟通，或接收音乐会或航班信息时，提供您的真实邮箱地址。
 # Deprecated
 faq-question-2-question = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
+faq-question-2-question-2 = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -423,6 +433,7 @@ profile-label-upgrade = 获取无限量马甲
 profile-label-create-domain = 获取您的域名邮箱
 # Deprecated
 profile-label-domain = 域名邮箱：
+profile-label-subdomain-tooltip-trigger = 更多信息
 # Deprecated
 profile-label-domain-tooltip = 创建您专属的自定义域名邮箱。
 profile-label-reset = 重置
@@ -442,11 +453,15 @@ profile-label-forwarding = 转发中
 profile-label-blocking = 拦截中
 # Deprecated
 profile-label-disable-forwarding-button = 禁用此马甲的转发
+profile-label-disable-forwarding-button-2 = 禁用此马甲的转发
 # Deprecated
 profile-label-enable-forwarding-button = 启用此马甲的转发
+profile-label-enable-forwarding-button-2 = 启用此马甲的转发
 profile-label-click-to-copy = 点击复制
 # Deprecated
 profile-label-copy-confirmation = 马甲已复制到剪贴板
+# Deprecated
+profile-label-copy-confirmation-2 = 马甲已复制到剪贴板
 profile-label-copied = 已复制！
 profile-label-blocked = 拦截
 profile-label-forwarded = 转发
@@ -470,8 +485,12 @@ profile-filter-category-option-active-aliases-v2 = 转发中马甲
 profile-filter-category-option-disabled-aliases-v2 = 已屏蔽马甲
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = 随机马甲
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = 随机马甲
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = 自定义马甲
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = 自定义马甲
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -530,10 +549,12 @@ banner-register-subdomain-copy = 借助自定义域名功能，不需生成马�
 banner-choose-subdomain-input-placeholder = 搜索域名
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = 搜索您的新域名
+banner-choose-subdomain-input-placeholder-3 = 搜索子域名
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜索
 # Deprecated
 banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可获得更多马甲
+banner-pack-upgrade-headline-2-html = 升级为 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可获得更多马甲
 # Deprecated
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
