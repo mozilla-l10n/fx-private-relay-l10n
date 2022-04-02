@@ -308,7 +308,7 @@ faq-question-what-is-answer = 所谓“马甲邮箱”，就是可以将邮件�
 faq-question-what-is-answer-2 = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的私人匿名邮箱。您可以放心地向第三方提供这些邮箱地址，掩藏真实邮箱地址。
 # Deprecated
 faq-question-missing-emails-question = 我收不到来自我的马甲邮箱的消息
-faq-question-missing-emails-question-2 = 我收不到来自我马甲邮箱的消息
+faq-question-missing-emails-question-2 = 我收不到来自马甲邮箱的消息
 # Deprecated
 faq-question-missing-emails-answer-a = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-a-2 = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
@@ -412,6 +412,8 @@ profile-promo-upgrade-headline = 升级后可享受更多功能。
 # Deprecated
 profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限数量邮箱地址，以及您专属的邮箱域名。
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
+profile-details-expand = 显示马甲详细信息
+profile-details-collapse = 隐藏马甲详细信息
 # Deprecated
 profile-label-edit = 编辑此马甲的标签
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -420,19 +422,28 @@ profile-label-save-error = 保存失败，请重试。
 profile-label-saved = 标签已保存！
 # Deprecated
 profile-label-generate-new-alias = 生成新马甲
+profile-label-generate-new-alias-2 = 生成新马甲
 # Deprecated
 profile-label-generate-new-alias-menu-random = 随机马甲
+profile-label-generate-new-alias-menu-random-2 = 随机马甲邮箱
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain } 马甲
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } 马甲
 profile-label-delete = 删除
 # Deprecated
 profile-label-delete-alias = 删除此马甲
 # Deprecated
+profile-label-delete-alias-2 = 删除此马甲
+# Deprecated
 profile-label-upgrade = 获取无限量马甲
 # Deprecated
 profile-label-create-domain = 获取您的域名邮箱
+profile-label-create-subdomain = 获取您的子域名邮箱
 # Deprecated
 profile-label-domain = 域名邮箱：
+profile-label-subdomain = 子域名邮箱：
 profile-label-subdomain-tooltip-trigger = 更多信息
 # Deprecated
 profile-label-domain-tooltip = 创建您专属的自定义域名邮箱。
@@ -479,6 +490,7 @@ profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used = 已用的邮箱马甲
 # Deprecated
 profile-filter-search-placeholder = 搜索马甲
+profile-filter-search-placeholder-2 = 搜索马甲
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = 转发中马甲
 # Deprecated
@@ -557,6 +569,7 @@ banner-pack-upgrade-headline-html = 升级为 <strong>{ -brand-name-firefox } { 
 banner-pack-upgrade-headline-2-html = 升级为 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可获得更多马甲
 # Deprecated
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 的无限量马甲邮箱 + 个人邮箱域名，助力您的在线安全。
+banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
 banner-pack-upgrade-cta = 立即升级
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隐私声明更新
@@ -581,6 +594,9 @@ banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain 
 
 # Deprecated
 success-subdomain-registered = 您的域名 @{ $subdomain } 已创建
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = 您的子域名 @{ $subdomain } 已创建
 success-settings-update = 您的设置已更新。
 
 ## Error Messages
@@ -740,11 +756,14 @@ modal-delete-warning-upgrade = 若您使用此马甲注册账户登录重要的�
 modal-delete-domain-address-warning-upgrade = 如果您在使用此马甲登录关心的网站，请务必在删除前换绑其他邮箱。若重新创建已删除的马甲，发送到原始马甲的电子邮件将继续转发。
 # Deprecated
 modal-delete-confirmation = 是的，我要删除此马甲。
+modal-delete-confirmation-2 = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
 # Deprecated
 modal-domain-register-warning-reminder = 请记住，您只能注册一个域名，且不可更改。
+modal-domain-register-warning-reminder-2 = 请记住，您只能注册一个子域名，且不可更改。
 # Deprecated
 modal-domain-register-button = 注册域名
+modal-domain-register-button-2 = 注册子域名
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } 可用！
@@ -812,5 +831,7 @@ forwarded-email-header-premium-banner = 升级为 { $premium_link }，即享不�
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
 # Deprecated
 forwarded-email-footer = 点此停止转发邮件或管理马甲设置。
+# This entire text is a link
+forwarded-email-footer-2 = 点此停止转发邮件或管理马甲设置。
 # This entire text is a link
 forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
