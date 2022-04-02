@@ -153,6 +153,7 @@ hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer 
 
 # Deprecated
 landing-hero-headline = Skydda din riktiga e-postadress, för bättre kontroll över din inkorg
+landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig att kontrollera din inkorg
 # Deprecated
 landing-hero-body =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
@@ -186,6 +187,7 @@ landing-pricing-body =
 landing-pricing-free-price = Gratis
 # Deprecated
 landing-pricing-free-feature-1 = Upp till 5 e-postalias
+landing-pricing-free-feature-1-2 = Upp till 5 e-postmasker
 landing-pricing-free-feature-2 = Webbläsartillägg
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # Variables:
@@ -194,6 +196,7 @@ landing-pricing-premium-price = { $monthly_price } / månad
 landing-pricing-premium-price-highlight = Tidsbegränsad prissättning
 # Deprecated
 landing-pricing-premium-feature-1 = Obegränsade e-postalias
+landing-pricing-premium-feature-1-2 = Obegränsade e-postmasker
 landing-pricing-premium-feature-2 = Webbläsartillägg
 # Deprecated
 landing-pricing-premium-feature-3 = Din egen e-postdomän
