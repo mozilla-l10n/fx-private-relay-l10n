@@ -298,10 +298,12 @@ premium-promo-perks-perk-unlimited-headline = Crie endereços de redirecionament
 premium-promo-perks-perk-unlimited-headline-2 = Crie máscaras de email ilimitadas
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Chega de limite de endereços de redirecionamento. Com o { -brand-name-relay-premium }, você pode criar quantos endereços precisar para ajudar a proteger sua caixa de entrada de spam e rastreadores. Você pode até responder aos emails sem expor seu endereço real.
+premium-promo-perks-perk-unlimited-body-2 = Chega de limite de máscaras. Com o { -brand-name-relay-premium }, você pode criar quantas  máscaras precisar para ajudar a proteger sua caixa de entrada de spam e rastreadores. Você pode até responder aos emails sem expor seu endereço real.
 premium-promo-perks-perk-custom-domain-headline = Escolha seu próprio domínio personalizado
 premium-promo-perks-perk-custom-domain-headline-2 = Escolha seu próprio subdomínio personalizado
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Com um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar. Precisa de um para reservas em restaurantes? Use algo como comida@meudominio.mozmail.com — Nem precisa criar o endereço antes.
+premium-promo-perks-perk-custom-domain-body-2 = Com um subdomínio personalizado, você pode criar máscaras mais fáceis do que nunca de lembrar e compartilhar. Precisa de uma para reservas em restaurantes? Use algo como comida@meudominio.mozmail.com — Nem precisa criar o endereço antes.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Controle seus endereços de redirecionamento no painel
 premium-promo-perks-perk-dashboard-headline-2 = Controle suas máscaras no painel
