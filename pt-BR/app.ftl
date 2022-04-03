@@ -942,22 +942,44 @@ modal-delete-confirmation-2 = Sim, quero excluir esta máscara.
 modal-domain-register-good-news = Boas notícias!
 # Deprecated
 modal-domain-register-warning-reminder = Lembre, você só pode registrar um domínio. Não poderá alterar depois.
+modal-domain-register-warning-reminder-2 = Lembre, você só pode registrar um subdomínio. Não poderá alterar depois.
 # Deprecated
 modal-domain-register-button = Registrar domínio
+modal-domain-register-button-2 = Registrar subdomínio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } está disponível!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> está disponível!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sim, quero registrar @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Sim, quero registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Sucesso!
 # Deprecated
 modal-domain-register-success = Agora { $subdomain } é seu domínio de email!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = Agora { $subdomain } é seu subdomínio de emails!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = Agora <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> é seu subdomínio de emails!
 # Deprecated
 modal-domain-register-success-copy = Agora você pode criar endereços de redirecionamento de email ilimitados usando seu novo domínio! O que está esperando?
+modal-domain-register-success-copy-2 = Agora você pode criar máscaras de email personalizadas ilimitadas!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Dica { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1004,12 +1026,18 @@ vpn-promo-cta = Instale o { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Esta mensagem foi encaminhada de { $display_email } por { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = O { -brand-name-relay-premium } remove remetentes em Cc e Cco de suas respostas. Se você voltar a adicionar, seu endereço de email real é exposto.
+forwarded-email-header-cc-notice-2 = O { -brand-name-relay-premium } remove remetentes em Cc e Cco de suas respostas. Se você voltar a adicionar, seu endereço de email real é exposto.
 # Deprecated
 forwarded-email-header-premium-banner = Mude para o { $premium_link } para ter endereços de redirecionamento ilimitados e um domínio de email personalizado.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Mude para o { $premium_link } para ter máscaras de email ilimitadas e um subdomínio de emails personalizado.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }. Saiba mais em { $faq_link }.
 # Deprecated
 forwarded-email-footer = Parar de encaminhar email e gerenciar configurações de todos os endereços de redirecionamento.
+# This entire text is a link
+forwarded-email-footer-2 = Pare de encaminhar emails e gerencie configurações de todas as máscaras aqui.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Mudar para o { -brand-name-relay-premium }
