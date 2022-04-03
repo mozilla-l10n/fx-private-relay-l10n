@@ -90,6 +90,24 @@ whatsnew-feature-size-limit-heading = Ukuran lampiran meningkat
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } dapat menerukan surel hingga 25MB, termasuk…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } dapat menerukan surel hingga 25MB, termasuk lampiran.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } dapat menerukan surel hingga { email-size-limit }, termasuk…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } dapat menerukan surel hingga { email-size-limit }, termasuk lampiran.
+whatsnew-feature-sign-back-in-heading = Masuk kembali dengan alias Anda
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Untuk membuat alias baru saat Anda diminta alamat surel, buka...
+whatsnew-feature-sign-back-in-description = Untuk masuk dengan alias yang sebelumnya digunakan, buka menu konteks di mana situs meminta surel Anda. Anda akan dapat memilih alias dan otomatis mengisi isian surel.
+whatsnew-feature-forward-some-heading = Pemblokiran surel promosi
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi...
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi yang dikirim ke alias. Anda akan menerima surel berbentuk tanda terima, bukan surel pemasaran.
 
 ## Bento Menu
 
@@ -116,12 +134,14 @@ how-it-works-step-1-copy =
     Masuk dengan { -brand-name-firefox-account } untuk mulai.
 # Deprecated
 how-it-works-step-2-headline = Buat alias baru
+how-it-works-step-2-headline-2 = Buat masker surel baru
 how-it-works-step-2-copy =
     Saat Anda menjelajah, ikon { -brand-name-relay } akan muncul di situs yang meminta alamat surel Anda.
     Pilih untuk membuat alamat acak baru yang berakhiran @relay.firefox.com.
     { -brand-name-relay } akan meneruskan pesan ke alamat surel utama yang diasosiasikan dengan akun Anda.
 # Deprecated
 how-it-works-step-3-headline = Kelola alias Anda
+how-it-works-step-3-headline-2 = Kelola masker surel Anda
 hero-image-copy-trust = Bisakah Anda memercayai perusahaan ini dengan surel pribadi Anda?
 hero-image-copy-unique-html = <strong>Gunakan alamat relai unik</strong> untuk setiap akun baru …
 hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa yang masuk ke kotak masuk!
@@ -133,6 +153,7 @@ hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa 
 
 # Deprecated
 landing-hero-headline = Lindungi alamat surel asli Anda untuk mengendalikan kotak masuk
+landing-hero-headline-2 = Lindungi alamat surel asli Anda untuk membantu kendalikan kotak masuk Anda
 # Deprecated
 landing-hero-body =
     Surel alias { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan surel ke kotak masuk Anda yang sebenarnya. 
