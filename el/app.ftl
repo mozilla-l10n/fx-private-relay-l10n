@@ -184,6 +184,9 @@ landing-hero-headline-2 = Προστατέψτε την πραγματική σ�
 landing-hero-body =
     Τα ψευδώνυμα email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα email στα πραγματικά σας εισερχόμενα. 
     Πλέον μπορείτε να λαμβάνετε μόνο τα email που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
+landing-hero-body-2 =
+    Οι μάσκες email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα μηνύματα στα πραγματικά σας εισερχόμενα. 
+    Πλέον μπορείτε να λαμβάνετε μόνο τα μηνύματα που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 
 ## How it works section
 
@@ -206,6 +209,9 @@ landing-how-it-works-step-2-body-2 =
 landing-how-it-works-step-3-body =
     Συνδεθείτε στον πίνακα ελέγχου του { -brand-name-relay } για να παρακολουθήσετε τα ψευδώνυμά σας. Το { -brand-name-relay } θα προωθεί μηνύματα στη διεύθυνση email σας. 
     Αν ένα ψευδώνυμο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να αποκλείσετε όλα τα μηνύματα ή ακόμα και να διαγράψετε το ψευδώνυμο, απευθείας από τον πίνακα ελέγχου.
+landing-how-it-works-step-3-body-2 =
+    Συνδεθείτε στον πίνακα ελέγχου του { -brand-name-relay } για να παρακολουθήσετε τις μάσκες email σας.
+    Αν δείτε ότι κάποια λαμβάνει ανεπιθύμητη αλληλογραφία, μπορείτε να αποκλείσετε όλα τα μηνύματα ή ακόμα και να διαγράψετε τη μάσκα, απευθείας από τον πίνακα ελέγχου.
 
 ## Pricing section
 
@@ -245,6 +251,7 @@ landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
 
 ## Use Cases
 
+landing-use-cases-heading = Χρησιμοποιήστε το { -brand-name-firefox-relay } για:
 landing-use-cases-shopping = Αγορές
 # Deprecated
 landing-use-cases-shopping-body =
@@ -362,12 +369,14 @@ faq-question-missing-emails-answer-a = Ακολουθούν μερικοί λό�
 faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Ο πάροχος email σας αποκλείει το ψευδώνυμό σας
+faq-question-missing-emails-answer-reason-blocked-2 = Ο πάροχος email σας αποκλείει τις μάσκες email σας
 faq-question-missing-emails-answer-reason-size = Το προωθημένο email έχει συνημμένο μεγαλύτερο από { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Ο ιστότοπος δεν δέχεται ψευδώνυμα
 faq-question-missing-emails-answer-reason-not-accepted-2 = Ο ιστότοπος δεν δέχεται μάσκες email
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Δεν έχει ενεργοποιηθεί η προώθηση για το ψευδώνυμο
+faq-question-missing-emails-answer-reason-turned-off-2 = Ενδέχεται να μην έχει ενεργοποιηθεί η προώθηση για τη μάσκα
 faq-question-missing-emails-answer-reason-delay = Το { -brand-name-relay } ίσως καθυστερεί περισσότερο απ' ότι συνήθως με την προώθηση των μηνυμάτων σας
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -377,6 +386,7 @@ faq-question-missing-emails-answer-b-html = Αν είστε χρήστης το�
 faq-question-missing-emails-answer-support-site-html = Εάν αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επισκεφτείτε τον ιστότοπο υποστήριξης</a>.
 # Deprecated
 faq-question-use-cases-question = Πότε πρέπει να χρησιμοποιώ τα ψευδώνυμα { -brand-name-relay };
+faq-question-use-cases-question-2 = Πότε πρέπει να χρησιμοποιώ τις μάσκες email του { -brand-name-relay };
 # Deprecated
 faq-question-use-cases-answer-part1 = Μπορείτε να εισαγάγετε τα ψευδώνυμα { -brand-name-relay } στα περισσότερα μέρη που θα χρησιμοποιούσατε την κανονική σας διεύθυνση email. Προτείνουμε τη χρήση τους κατά την εγγραφή σας σε διαφημιστικά/ενημερωτικά email, όπου ίσως θελήσετε να επιλέξετε εάν θα λαμβάνετε ή όχι email στο μέλλον.
 # Deprecated
@@ -401,6 +411,7 @@ faq-question-availability-answer = Το δωρεάν { -brand-name-relay } δι�
 faq-question-availability-answer-v2 = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Φινλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, τη Σουηδία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 # Deprecated
 faq-question-4-question = Μπορώ να απαντήσω σε μηνύματα με το ψευδώνυμο { -brand-name-relay } μου;
+faq-question-4-question-2 = Μπορώ να απαντήσω σε μηνύματα με τη μάσκα email του { -brand-name-relay } μου;
 # Deprecated
 faq-question-4-answer-v3 = Οι χρήστες του { -brand-name-relay-premium } μπορούν να απαντήσουν σε ένα προωθημένο email εντός 3 μηνών από την παραλαβή του. Αν προσθέσετε κάποιον παραλήπτη κοινοποίησης (CC) ή κρυφής κοινοποίησης (BCC) κατά την απάντηση σε κάποιο email, η αρχική σας διεύθυνση email θα εκτεθεί στον πρώτο παραλήπτη και τους υπόλοιπους. Αν δεν θέλετε να εκτεθεί η αρχική σας διεύθυνση email, μην προσθέσετε CC ή BCC.
 faq-question-4-answer-v4 = Οι χρήστες του { -brand-name-relay-premium } μπορούν να απαντήσουν σε ένα προωθημένο email εντός 3 μηνών από την παραλαβή του. Αν προσθέσετε κάποιον παραλήπτη κοινοποίησης (CC) ή κρυφής κοινοποίησης (BCC) κατά την απάντηση σε κάποιο email, η αρχική σας διεύθυνση email θα εκτεθεί στον πρώτο παραλήπτη και αυτούς που προσθέσατε. Αν δεν θέλετε να εκτεθεί η αρχική σας διεύθυνση email, μην προσθέσετε CC ή BCC.
@@ -413,17 +424,21 @@ faq-question-subdomain-characters-answer-v2 = Μπορείτε να χρησιμ
 faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
 # Deprecated
 faq-question-browser-support-answer = Ναι, μπορείτε να δημιουργήσετε ψευδώνυμα { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακα ελέγχου σας στο { -brand-name-relay }.
+faq-question-browser-support-answer-2 = Ναι, μπορείτε να δημιουργήσετε μάσκες { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακα ελέγχου σας στο { -brand-name-relay }.
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 # Deprecated
 faq-question-longevity-answer = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν ψευδώνυμα { -brand-name-relay }.
+faq-question-longevity-answer-2 = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν μάσκες email του { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
+faq-question-mozmail-question-2 = Γιατί οι μάσκες email μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 # Deprecated
 faq-question-mozmail-answer = Αλλάξαμε το «relay.firefox.com» σε «mozmail.com» για να καταστήσουμε δυνατή την απόκτηση προσαρμοσμένων τομέων email, όπως το pseudwnumo@otomeassas.mozmail.com. Οι προσαρμοσμένοι τομείς email, που διατίθενται στους συνδρομητές του { -brand-name-relay-premium }, κάνουν πολύ πιο εύκολη την απομνημόνευση των ψευδωνύμων email σας σε σχέση με τα τυχαία ψευδώνυμα.
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
 # Deprecated
 faq-question-unsubscribe-domain-question = Τι θα συμβεί στον προσαρμοσμένο τομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
+faq-question-unsubscribe-domain-question-2 = Τι θα συμβεί στον προσαρμοσμένο υποτομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 # Deprecated
 faq-question-unsubscribe-domain-answer = Εάν ακυρώσετε τη συνδρομή σας στο { -brand-name-relay-premium }, θα συνεχίσετε να λαμβάνετε email μέσω του προσαρμοσμένου σας τομέα, αλλά δεν θα μπορείτε πλέον να δημιουργείτε νέα ψευδώνυμα με αυτόν. Εάν έχετε περισσότερα από πέντε ψευδώνυμα συνολικά, δεν θα μπορείτε να δημιουργήσετε άλλα. Θα χάσετε επίσης τη δυνατότητα απάντησης σε προωθημένα μηνύματα. Μπορείτε να εγγραφείτε ξανά στο { -brand-name-relay-premium } και να αποκτήσετε ξανά πρόσβαση σε αυτές τις λειτουργίες.
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
@@ -514,17 +529,22 @@ profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
 # Deprecated
 profile-label-disable-forwarding-button = Απενεργοποίηση προώθησης email για το ψευδώνυμο
+profile-label-disable-forwarding-button-2 = Απενεργοποίηση προώθησης email για τη μάσκα
 # Deprecated
 profile-label-enable-forwarding-button = Ενεργοποίηση προώθησης email για το ψευδώνυμο
+profile-label-enable-forwarding-button-2 = Ενεργοποίηση προώθησης email για τη μάσκα
 profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 # Deprecated
 profile-label-copy-confirmation = Το ψευδώνυμο αντιγράφτηκε στο πρόχειρο
+# Deprecated
+profile-label-copy-confirmation-2 = Η μάσκα αντιγράφτηκε στο πρόχειρο
 profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
 profile-label-cancel = Ακύρωση
 # Deprecated
 profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτό το ψευδώνυμο.
+profile-blocked-copy-2 = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτήν τη μάσκα.
 # Deprecated
 profile-forwarded-copy = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτό το ψευδώνυμο.
 profile-forwarded-note = Σημείωση:
@@ -534,6 +554,7 @@ profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 # Deprecated
 profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
+profile-stat-label-aliases-used-2 = Μάσκες email σε χρήση
 # Deprecated
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 profile-filter-search-placeholder-2 = Αναζήτηση μασκών
@@ -627,6 +648,7 @@ banner-register-subdomain-button-search = Αναζήτηση
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
 # Deprecated
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
+banner-pack-upgrade-copy-2 = Με απεριόριστες μάσκες email και τον δικό σας υποτομέα email, το { -brand-name-firefox-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Ενημέρωση σημείωσης απορρήτου
@@ -691,6 +713,7 @@ tips-footer-link-support-tooltip = Επικοινωνία με την υποστ
 
 # Deprecated
 modal-custom-alias-picker-heading = Δημιουργία νέου προσαρμοσμένου ψευδωνύμου
+modal-custom-alias-picker-heading-2 = Δημιουργία νέας προσαρμοσμένης μάσκας
 # Deprecated
 modal-custom-alias-picker-warning = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 # Deprecated
@@ -710,12 +733,15 @@ modal-custom-alias-picker-creation-error = Δεν ήταν δυνατή η μη 
 
 # Deprecated
 popover-custom-alias-explainer-heading = Τρόπος δημιουργίας προσαρμοσμένων ψευδωνύμων
+popover-custom-alias-explainer-heading-2 = Τρόπος δημιουργίας προσαρμοσμένων μασκών
 # Deprecated
 popover-custom-alias-explainer-explanation = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Χειροκίνητη δημιουργία ψευδωνύμου
+popover-custom-alias-explainer-generate-button-heading-2 = Χειροκίνητη δημιουργία μάσκας
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Δημιουργία προσαρμοσμένου ψευδωνύμου
+popover-custom-alias-explainer-generate-button-label-2 = Δημιουργία προσαρμοσμένης μάσκας
 popover-custom-alias-explainer-close-button-label = Κλείσιμο
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
@@ -804,6 +830,7 @@ multi-part-onboarding-premium-extension-reply-title = Απαντήστε σε em
 multi-part-onboarding-premium-extension-get-title = Αποκτήστε την επέκταση { -brand-name-relay } για το { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Η επέκταση { -brand-name-relay } για το { -brand-name-firefox } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
+multi-part-onboarding-premium-extension-get-description-2 = Η επέκταση του { -brand-name-relay } για το { -brand-name-firefox } κάνει ακόμα ευκολότερη τη χρήση μασκών email.
 multi-part-onboarding-premium-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη δημιουργία και χρήση ψευδωνύμων email.
