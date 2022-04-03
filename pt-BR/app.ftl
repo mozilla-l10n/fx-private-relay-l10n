@@ -899,6 +899,7 @@ multi-part-onboarding-premium-extension-reply-title = Responda mensagens sem rev
 multi-part-onboarding-premium-extension-get-title = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = A extensão { -brand-name-relay } para { -brand-name-firefox } facilita ainda mais usar endereços de redirecionamento de email.
+multi-part-onboarding-premium-extension-get-description-2 = A extensão { -brand-name-relay } para { -brand-name-firefox } facilita ainda mais usar máscaras de email.
 multi-part-onboarding-premium-extension-button-download = Instalar a extensão { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Instale a extensão { -brand-name-relay } para { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar endereços de redirecionamento de email.
@@ -912,18 +913,32 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir para o painel
 modal-rename-alias-saved = Rótulo salvo!
 # Deprecated
 modal-delete-headline = Excluir permanentemente este endereço de redirecionamento?
+modal-delete-headline-2 = Excluir permanentemente esta máscara de email?
 # Deprecated
 modal-delete-warning-recovery-html =
     Após excluir este endereço de redirecionamento, ele não pode ser recuperado.
+    O { -brand-name-firefox-relay } não irá mais encaminhar mensagens enviadas para <strong>{ $email }</strong>, incluindo mensagens que permitam você redefinir senhas perdidas.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Após excluir esta máscara, ela não pode ser recuperada.
     O { -brand-name-firefox-relay } não irá mais encaminhar mensagens enviadas para <strong>{ $email }</strong>, incluindo mensagens que permitam você redefinir senhas perdidas.
 # Deprecated
 modal-delete-warning-upgrade =
     Se você usa este endereço de redirecionamento para acessar contas em sites de seu interesse,
     você deve alterar o endereço de email de cada conta antes de excluir este endereço.
+modal-delete-warning-upgrade-2 =
+    Se você usa esta máscara de email para acessar contas em sites de seu interesse,
+    deve alterar o endereço de email de cada conta antes de excluir esta máscara.
 # Deprecated
 modal-delete-domain-address-warning-upgrade = Se você usar este endereço de redirecionamento para acessar contas em sites de seu interesse, deve atualizar sua conta com um endereço de email diferente, antes de excluir este. Se você recriar um endereço de redirecionamento excluído, os emails enviados para o endereço de redirecionamento original voltarão a ser encaminhados.
+modal-delete-domain-address-warning-upgrade-2 =
+    Se você usa esta máscara para acessar contas em sites de seu interesse,
+    deve alterar o endereço de email de cada conta antes de excluir esta máscara.
+    Se você recriar uma máscara excluída, os emails enviados para a máscara original voltam a ser encaminhados.
 # Deprecated
 modal-delete-confirmation = Sim, quero excluir este endereço de redirecionamento.
+modal-delete-confirmation-2 = Sim, quero excluir esta máscara.
 modal-domain-register-good-news = Boas notícias!
 # Deprecated
 modal-domain-register-warning-reminder = Lembre, você só pode registrar um domínio. Não poderá alterar depois.
