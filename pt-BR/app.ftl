@@ -444,22 +444,31 @@ faq-question-subdomain-characters-answer-v2 = Você só pode usar letras minúsc
 faq-question-browser-support-question = Posso usar o { -brand-name-relay } em outros navegadores ou em meu dispositivo móvel?
 # Deprecated
 faq-question-browser-support-answer = Sim, você pode gerar endereços de redirecionamento do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
+faq-question-browser-support-answer-2 = Sim, você pode gerar máscaras do { -brand-name-relay } em outros navegadores ou dispositivos móveis simplesmente entrando na sua conta no painel do { -brand-name-relay }.
 faq-question-longevity-question = O que acontece se a Mozilla encerrar o serviço { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Avisaremos com antecedência que você precisa alterar o endereço de email de todas as contas em que esteja usando um endereço de redirecionamento do { -brand-name-relay }.
+faq-question-longevity-answer-2 = Avisaremos com antecedência que você precisará alterar o endereço de email de todas as contas em que esteja usando máscaras de email do { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Por que meus endereços de redirecionamento passaram a usar o domínio “mozmail.com”?
+faq-question-mozmail-question-2 = Por que minhas máscaras de email passaram a usar o domínio “mozmail.com”?
 # Deprecated
 faq-question-mozmail-answer = Mudamos de “relay.firefox.com” para “mozmail.com” para possibilitar a obtenção de um domínio de email personalizado, como alias@seudominio.mozmail.com. Domínios de email personalizados, disponíveis para assinantes do { -brand-name-relay-premium }, também tornam seus endereços de redirecionamento de email muito mais fáceis de lembrar do que endereços de redirecionamento gerados aleatoriamente.
 faq-question-attachments-question = O { -brand-name-firefox-relay } encaminha emails com anexos?
 faq-question-attachments-answer-v2 = Agora oferecemos suporte ao encaminhamento de anexos. No entanto, há um limite de { email-size-limit } no encaminhamento de emails usando o { -brand-name-relay }. Quaisquer emails maiores que { email-size-limit } não são encaminhados.
 # Deprecated
 faq-question-unsubscribe-domain-question = O que acontece com meu domínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = O que acontece com meu subdomínio personalizado se eu cancelar a assinatura do { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de seu domínio personalizado, mas não poderá mais criar endereços de redirecionamento usando esse domínio. Se tiver mais de cinco endereços de redirecionamento no total, não poderá criar mais nenhum. Também perderá a capacidade de responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
+faq-question-unsubscribe-domain-answer-2 = Se você cancelar o { -brand-name-relay-premium }, ainda receberá emails encaminhados através de suas máscaras de email personalizadas, mas não poderá mais criar novas máscaras usando esse subdomínio. Se tiver mais de cinco máscaras no total, não poderá criar mais nenhuma. Também não poderá mais responder às mensagens encaminhadas. Você pode assinar novamente o { -brand-name-relay-premium } e recuperar o acesso a esses recursos.
 faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Deprecated
 faq-question-8-answer-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa seus endereços de redirecionamento de email, para que possamos fornecer este serviço e melhorar para você.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa suas máscaras de email, para que possamos fornecer e melhorar este serviço para você.
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
 faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -brand-name-relay }?
@@ -489,29 +498,48 @@ profile-promo-upgrade-headline = Mude para a versão premium para ter ainda mais
 # Deprecated
 profile-promo-upgrade-copy = Mude para a versão premium do { -brand-name-relay } para ter endereços de email ilimitados e seu próprio domínio de email.
 profile-promo-upgrade-cta = Mudar para a versão premium do { -brand-name-relay }
+profile-details-expand = Mostrar detalhes da máscara
+profile-details-collapse = Ocultar detalhes da máscara
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Clique para copiar a máscara { $address }.
 # Deprecated
 profile-label-edit = Editar o rótulo deste endereço de redirecionamento
+profile-label-edit-2 = Editar o rótulo desta máscara
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Adicionar nome da conta
 profile-label-save-error = Falha ao salvar, tente novamente.
 profile-label-saved = Rótulo salvo!
 # Deprecated
 profile-label-generate-new-alias = Gerar novo endereço de redirecionamento
+profile-label-generate-new-alias-2 = Gerar nova máscara
 # Deprecated
 profile-label-generate-new-alias-menu-random = Endereço de redirecionamento aleatório
+profile-label-generate-new-alias-menu-random-2 = Máscara de email aleatória
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Endereço de redirecionamento de @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Máscara de @{ $subdomain }
 profile-label-delete = Excluir
 # Deprecated
 profile-label-delete-alias = Excluir este endereço de redirecionamento
 # Deprecated
+profile-label-delete-alias-2 = Excluir este endereço de redirecionamento
+# Deprecated
 profile-label-upgrade = Tenha endereços de redirecionamento ilimitados
+profile-label-upgrade-2 = Tenha máscaras de email ilimitadas
 # Deprecated
 profile-label-create-domain = Tenha seu domínio de emails
+profile-label-create-subdomain = Tenha seu subdomínio de emails
 # Deprecated
 profile-label-domain = Domínio de email:
+profile-label-subdomain = Subdomínio de emails:
+profile-label-subdomain-tooltip-trigger = Mais informações
 # Deprecated
 profile-label-domain-tooltip = Crie seu domínio de email, exclusivo e personalizado.
+profile-label-subdomain-tooltip = Crie seu subdomínio de emails exclusivo.
 profile-label-reset = Redefinir
 profile-label-apply = Aplicar
 profile-label-skip = Ignorar
@@ -529,19 +557,25 @@ profile-label-forwarding = encaminhamento
 profile-label-blocking = bloqueio
 # Deprecated
 profile-label-disable-forwarding-button = Desativar o encaminhamento de email deste endereço de redirecionamento
+profile-label-disable-forwarding-button-2 = Desativar o encaminhamento de email desta máscara
 # Deprecated
 profile-label-enable-forwarding-button = Ativar o encaminhamento de email deste endereço de redirecionamento
+profile-label-enable-forwarding-button-2 = Ativar o encaminhamento de email desta máscara
 profile-label-click-to-copy = Clique para copiar
 # Deprecated
 profile-label-copy-confirmation = Endereço de redirecionamento copiado para área de transferência
+# Deprecated
+profile-label-copy-confirmation-2 = Máscara copiada para área de transferência
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueados
 profile-label-forwarded = Encaminhados
 profile-label-cancel = Cancelar
 # Deprecated
 profile-blocked-copy = O { -brand-name-firefox-relay } exclui mensagens antes que cheguem à sua caixa de entrada quando você selecionar bloqueio deste endereço de redirecionamento.
+profile-blocked-copy-2 = O { -brand-name-firefox-relay } exclui mensagens antes que cheguem à sua caixa de entrada quando você seleciona bloqueio desta máscara.
 # Deprecated
 profile-forwarded-copy = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento deste endereço de redirecionamento.
+profile-forwarded-copy-2 = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento desta máscara.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Emails (incluindo anexos) maiores que { email-size-limit } no momento não são aceitos e não são encaminhados.
 profile-forwarded-note-copy-v2 = Emails (incluindo anexos) maiores que { email-size-limit } não são encaminhados.
@@ -549,8 +583,13 @@ profile-stat-label-blocked = Emails bloqueados
 profile-stat-label-forwarded = Emails encaminhados
 # Deprecated
 profile-stat-label-aliases-used = Endereços de redirecionamento de email usados
+profile-stat-label-aliases-used-2 = Máscaras de email usadas
 # Deprecated
 profile-filter-search-placeholder = Pesquisar endereços de redirecionamento
+profile-filter-search-placeholder-2 = Pesquisar máscaras
+profile-filter-category-button-label = Filtrar máscaras visíveis
+profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
+profile-filter-category-title = Filtrar máscaras visíveis
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Endereços de redirecionamento com encaminhamento
 # Deprecated
