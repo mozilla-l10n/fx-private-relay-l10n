@@ -647,6 +647,7 @@ banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais usar endereços de redirecionamento de email.
+banner-download-install-extension-copy-2 = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais usar máscaras de email.
 banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Experimente o { -brand-name-relay } para { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar endereços de redirecionamento de email.
@@ -654,27 +655,38 @@ banner-download-install-chrome-extension-cta = Instale a extensão { -brand-name
 banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = O { -brand-name-firefox } { -brand-name-relay-premium } facilita ainda mais criar endereços de redirecionamento de email, com domínios personalizados e endereços de redirecionamento ilimitados.
+banner-upgrade-copy-2 = O { -brand-name-firefox-relay-premium } facilita ainda mais criar máscaras de email, com subdomínios de máscaras personalizados e máscaras ilimitadas.
 banner-upgrade-cta = Mudar para o { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Ação necessária
 # Deprecated
 banner-register-subdomain-headline-aliases = Tenha um domínio personalizado nos endereços de redirecionamento
+banner-register-subdomain-headline-aliases-2 = Tenha um subdomínio personalizado em suas máscaras
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = seudominio
 # Deprecated
 banner-register-subdomain-copy = Com um domínio personalizado, você pode compartilhar endereços de redirecionamento que não precisam ser gerados antes de usar. Precisa de um para fazer uma reserva? Informe “hotel@seudomínio.{ $mozmail }” para o hotel. Qualquer endereço de redirecionamento que tenha seu domínio personalizado é encaminhado a você.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 = Com um subdomínio personalizado, você pode compartilhar máscaras que não precisam ser geradas antes de usar. Precisa de uma para fazer uma reserva? Informe “hotel@seudomínio.{ $mozmail }” para o hotel. Qualquer máscara que tenha seu subdomínio personalizado encaminha mensagens para você.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Pesquisar domínio
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Pesquise seu novo domínio
+banner-choose-subdomain-input-placeholder-3 = Pesquisar subdomínio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Pesquisar
 # Deprecated
 banner-pack-upgrade-headline-html = Mude para o <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> para ter mais endereços de redirecionamento
+banner-pack-upgrade-headline-2-html = Mude para o <strong>{ -brand-name-firefox-relay-premium }</strong> para ter mais máscaras de email
 # Deprecated
 banner-pack-upgrade-copy = Com endereços de redirecionamento de email ilimitados e seu próprio domínio de email, o { -brand-name-firefox } { -brand-name-relay-premium } ajuda você a se manter protegido online.
+banner-pack-upgrade-copy-2 = Com máscaras de email ilimitadas e seu próprio subdomínio de emails, o { -brand-name-firefox-relay-premium } ajuda você a se manter protegido online.
 banner-pack-upgrade-cta = Mude agora para a versão premium
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Atualização do aviso de privacidade
@@ -699,6 +711,9 @@ banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $su
 
 # Deprecated
 success-subdomain-registered = Seu domínio @{ $subdomain } foi criado
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Seu subdomínio @{ $subdomain } foi criado
 success-settings-update = Suas configurações foram atualizadas
 
 ## Error Messages
@@ -716,6 +731,11 @@ error-subdomain-email-not-created = Não foi possível criar o endereço de redi
 error-subdomain-select = Você deve selecionar um subdomínio antes de criar endereços de redirecionamento de subdomínio
 # Deprecated
 error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não está disponível. Tente novamente com outro domínio.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = O subdomínio @{ $unavailable_subdomain } não está disponível. Tente outro.
+error-settings-update = Houve um erro ao alterar suas configurações, tente novamente
+error-mask-create-failed = A máscara não pôde ser criada. Tente novamente.
 
 ## Tips and tricks at the bottom of the page
 
