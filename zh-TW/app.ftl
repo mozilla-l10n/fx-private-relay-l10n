@@ -191,6 +191,7 @@ landing-pricing-premium-feature-5 = 封鎖行銷郵件
 
 ## Use Cases
 
+landing-use-cases-heading = 使用 { -brand-name-firefox-relay } 來：
 landing-use-cases-shopping = 線上購物
 # Deprecated
 landing-use-cases-shopping-body = 要在新的網路商店買東西？請用 { -brand-name-relay } 而不要使用實際的電子郵件信箱來登記信箱。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
@@ -229,6 +230,7 @@ premium-promo-perks-perk-unlimited-headline = 建立無限量的郵件別名
 # Deprecated
 premium-promo-perks-perk-unlimited-body = 不再只能建立五組別名：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的別名信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
 premium-promo-perks-perk-custom-domain-headline = 使用您自訂的網域名稱
+premium-promo-perks-perk-custom-domain-headline-2 = 使用您自訂的子網域名稱
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = 使用自訂網域，可以建立方便好記好分享的別名信箱。要預約餐廳嗎？可免事先建立，直接使用 food@mydomain.mozmail.com 登記。
 # Deprecated
@@ -409,6 +411,7 @@ profile-label-subdomain = 信箱子網域：
 profile-label-subdomain-tooltip-trigger = 更多資訊
 # Deprecated
 profile-label-domain-tooltip = 建立專屬您的自訂郵件網域。
+profile-label-subdomain-tooltip = 建立專屬您的子網域信箱。
 profile-label-reset = 重設
 profile-label-apply = 套用
 profile-label-skip = 略過
@@ -476,6 +479,7 @@ profile-promo-email-blocking-label-not-forwarding = 不轉寄
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = 知道了！
 banner-bounced-headline = { -brand-name-relay } 無法發送您的郵件。
 # Variables:
 #   $username (string) - Username
@@ -514,6 +518,7 @@ banner-register-subdomain-copy = 使用自訂網域功能，不需要先產生�
 banner-choose-subdomain-input-placeholder = 搜尋網域
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = 搜尋您的新網域
+banner-choose-subdomain-input-placeholder-3 = 搜尋子網域
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = 搜尋
 # Deprecated
@@ -544,6 +549,9 @@ banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信�
 
 # Deprecated
 success-subdomain-registered = 已建立您的網域 @{ $subdomain }
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = 已建立您的子網域 @{ $subdomain }
 success-settings-update = 已更新您的設定。
 
 ## Error Messages
@@ -561,6 +569,10 @@ error-subdomain-email-not-created = 無法建立使用子網域的電子郵件�
 error-subdomain-select = 您必須先選擇子網域，才能建立使用子網域的別名
 # Deprecated
 error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用。請使用其他網域名稱再試一次。
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = 子網域 @{ $unavailable_subdomain } 無法使用。請使用其他名稱再試一次。
+error-settings-update = 更新設定時發生錯誤，請再試一次。
 
 ## Tips and tricks at the bottom of the page
 
@@ -651,6 +663,10 @@ onboarding-premium-title-detail = 透過 { -brand-name-firefox-relay-premium }�
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = 第 { $step } 步，共 { $max } 步。
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封郵件自行控制哪些能進到信件匣。
 multi-part-onboarding-premium-welcome-title = 自行控制要收到哪些郵件：
@@ -663,6 +679,7 @@ multi-part-onboarding-premium-domain-headline = 共用別名的自訂網域名�
 multi-part-onboarding-premium-domain-title = 使用您想要的網域名稱建立別名：
 # Deprecated
 multi-part-onboarding-premium-get-domain = 獲得自訂網域
+multi-part-onboarding-premium-get-subdomain = 獲得自訂子網域
 multi-part-onboarding-reply-headline = 回覆郵件
 # Deprecated
 multi-part-onboarding-premium-welcome-description = 不再只能設定五組別名：您可以無限量隨意產生自訂或隨機別名。在桌機上，還可以使用 Relay 的附加元件隨時建立別名。
@@ -672,8 +689,10 @@ multi-part-onboarding-premium-domain-description = 使用自訂網域，可以�
 multi-part-onboarding-premium-get-domain-description-2 = 您可以透過自訂網域，不用先產生就馬上能使用別名。突然需要一個信箱來訂閱電子報嗎？直接輸入「read@customdomain{ $mozmail }」就好
 # Deprecated
 multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
+multi-part-onboarding-premium-domain-cta-2 = 現在就註冊您的專屬子網域：
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = 先繼續，我之後再註冊自訂網域
+multi-part-onboarding-premium-domain-button-skip-2 = 先繼續，之後再來註冊子網域
 multi-part-onboarding-premium-extension-headline = 封鎖、轉寄、回覆
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = 不用給出實際信箱，就能回覆郵件：
@@ -706,20 +725,40 @@ modal-domain-register-good-news = 好消息！
 modal-domain-register-warning-reminder = 您只可註冊一個網域，之後不能再更改。
 # Deprecated
 modal-domain-register-button = 註冊網域
+modal-domain-register-button-2 = 註冊子網域
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = 可以註冊 { $subdomain }！
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可以使用！
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = 對，我想註冊 <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = 成功！
 # Deprecated
 modal-domain-register-success = 現在起將使用 { $subdomain } 作為您的郵件網域！
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的信箱子網域！
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = 現在起將使用 <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 做為您的信箱子網域！
 # Deprecated
 modal-domain-register-success-copy = 現在可以使用新網域名稱建立無限別名了，還在等什麼，快來註冊！
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = 秘訣 { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
