@@ -315,13 +315,16 @@ premium-promo-use-cases-headline = Use endereços de redirecionamento de email d
 premium-promo-use-cases-headline-2 = Use máscaras de email do { -brand-name-relay } em qualquer lugar
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
-premium-promo-use-cases-shopping-body = Tentando conseguir descontos, mas sem receber spam? Agrupe rodas as suas contas de “compras” em endereços de redirecionamento personalizados exclusivos, como “ofertas@meudominio.mozmail.com”.
+premium-promo-use-cases-shopping-body = Tentando conseguir descontos, mas sem receber spam? Agrupe todas as suas contas de “compras” em endereços de redirecionamento personalizados exclusivos, como “ofertas@meudominio.mozmail.com”.
+premium-promo-use-cases-shopping-body-2 = Quer se cadastrar para conseguir descontos, mas sem receber spam? Agrupe todas as suas contas de “compras” em máscaras de email personalizadas, como “ofertas@meudominio.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Redes sociais
 # Deprecated
 premium-promo-use-cases-social-networks-body = Quer proteger melhor sua identidade online ao usar uma rede social? Use um endereço de redirecionamento do { -brand-name-relay } diferente para acessar cada uma delas e ajudar a proteger seu email verdadeiro de ser exposto a esses sites.
+premium-promo-use-cases-social-networks-body-2 = Quer proteger melhor sua identidade online ao usar uma rede social? Use uma máscara de email diferente para acessar cada uma delas e ajude a proteger seu email verdadeiro de ser exposto nesses sites.
 premium-promo-use-cases-gaming-heading = Jogos
 # Deprecated
 premium-promo-use-cases-gaming-body = Preocupado que outros jogadores ou intimidadores descubram quem você é por meio do seu nome no jogo e endereço de email? Use um endereço de redirecionamento como “jogos@meudominio.mozmail.com” para colocar mais uma camada de proteção entre sua identidade e os jogos que você joga online.
+premium-promo-use-cases-gaming-body-2 = Preocupado que outros jogadores ou intimidadores descubram quem você é por meio do seu nome no jogo e endereço de email? Use uma máscara como “jogos@meudominio.mozmail.com” para colocar mais uma camada de proteção entre sua identidade e os jogos que você joga online.
 premium-promo-pricing-free-price = Seu plano gratuito atual
 
 ## Settings page
@@ -337,12 +340,17 @@ settings-error-save-heading = Falha na alteração das configurações
 settings-error-save-description = Suas alterações nas configurações não foram salvas devido a um erro de conexão. Tente novamente.
 # Deprecated
 settings-warning-collection-off-heading = Está desativada a função de rótulo de endereço de redirecionamento
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Está desativada a função de rótulos de máscaras
 # Deprecated
 settings-warning-collection-off-description = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou endereços de redirecionamento de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou máscaras de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidade
 # Deprecated
 setting-label-collection-description = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde seus endereços de redirecionamento foram criados e usados.
+setting-label-collection-description-2 = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde suas máscaras foram criadas e usadas.
 # Deprecated
 setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
 settings-button-save-label = Salvar
