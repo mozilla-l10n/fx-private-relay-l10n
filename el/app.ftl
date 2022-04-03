@@ -486,6 +486,7 @@ faq-question-unsubscribe-domain-question = Τι θα συμβεί στον πρ�
 faq-question-unsubscribe-domain-question-2 = Τι θα συμβεί στον προσαρμοσμένο υποτομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 # Deprecated
 faq-question-unsubscribe-domain-answer = Εάν ακυρώσετε τη συνδρομή σας στο { -brand-name-relay-premium }, θα συνεχίσετε να λαμβάνετε email μέσω του προσαρμοσμένου σας τομέα, αλλά δεν θα μπορείτε πλέον να δημιουργείτε νέα ψευδώνυμα με αυτόν. Εάν έχετε περισσότερα από πέντε ψευδώνυμα συνολικά, δεν θα μπορείτε να δημιουργήσετε άλλα. Θα χάσετε επίσης τη δυνατότητα απάντησης σε προωθημένα μηνύματα. Μπορείτε να εγγραφείτε ξανά στο { -brand-name-relay-premium } και να αποκτήσετε ξανά πρόσβαση σε αυτές τις λειτουργίες.
+faq-question-unsubscribe-domain-answer-2 = Εάν ακυρώσετε τη συνδρομή σας στο { -brand-name-relay-premium }, θα συνεχίσετε να λαμβάνετε email μέσω του προσαρμοσμένου σας υποτομέα, αλλά δεν θα μπορείτε πλέον να δημιουργείτε νέες μάσκες με αυτόν. Εάν έχετε περισσότερες από πέντε μάσκες συνολικά, δεν θα μπορείτε να δημιουργήσετε άλλες. Θα χάσετε επίσης τη δυνατότητα απάντησης σε προωθημένα μηνύματα. Μπορείτε να εγγραφείτε ξανά στο { -brand-name-relay-premium } και να αποκτήσετε ξανά πρόσβαση σε αυτές τις λειτουργίες.
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Deprecated
 faq-question-8-answer-html = Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay }, διαβάζοντας την <a href="{ $url }" { $attrs }>πολιτική απορρήτου</a> μας. Μπορείτε επίσης να μοιραστείτε προαιρετικά δεδομένα σχετικές με τις ετικέτες και τον ιστότοπο που χρησιμοποιείτε για τα ψευδώνυμα email σας, προκειμένου να σας παρέχουμε και να βελτιώνουμε αυτήν την υπηρεσία.
@@ -677,11 +678,13 @@ banner-download-install-chrome-extension-cta = Λήψη της επέκταση�
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = Το { -brand-name-firefox } { -brand-name-relay-premium } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email, με προσαρμοσμένους τομείς και απεριόριστα ψευδώνυμα.
+banner-upgrade-copy-2 = Το { -brand-name-firefox-relay-premium } κάνει ακόμα ευκολότερη τη χρήση μασκών email, με προσαρμοσμένους υποτομείς και απεριόριστες μάσκες.
 banner-upgrade-cta = Αναβάθμιση στο { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Βήμα ενέργειας
 # Deprecated
 banner-register-subdomain-headline-aliases = Απόκτηση προσαρμοσμένου τομέα για ψευδώνυμα
+banner-register-subdomain-headline-aliases-2 = Απόκτηση προσαρμοσμένου υποτομέα για μάσκες
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -692,6 +695,16 @@ banner-register-subdomain-copy =
     δημιουργήσετε εκ των προτέρων. Χρειάζεστε ένα για κάποια κράτηση; Δώστε το
     «estiatorio@otomeassas.{ $mozmail }» στο εστιατόριο. Όλα τα ψευδώνυμα του
     προσαρμοσμένου τομέα σας θα προωθούνται σε εσάς.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Με έναν προσαρμοσμένο υποτομέα, μπορείτε να έχετε μάσκες χωρίς να τις δημιουργήσετε
+    εκ των προτέρων. Χρειάζεστε μία για κάποια κράτηση; Δώστε το
+    «estiatorio@otomeassas.{ $mozmail }» στο εστιατόριο. Όλες οι μάσκες του
+    προσαρμοσμένου υποτομέα σας θα προωθούνται σε εσάς.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 # Deprecated
@@ -779,10 +792,13 @@ modal-custom-alias-picker-heading = Δημιουργία νέου προσαρμ
 modal-custom-alias-picker-heading-2 = Δημιουργία νέας προσαρμοσμένης μάσκας
 # Deprecated
 modal-custom-alias-picker-warning = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
+modal-custom-alias-picker-warning-2 = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε μια μοναδική μάσκα που να χρησιμοποιεί τον προσαρμοσμένο υποτομέα σας — η μάσκα θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomaupotomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 # Deprecated
 modal-custom-alias-picker-form-heading = Ή δημιουργήστε ένα προσαρμοσμένο ψευδώνυμο
+modal-custom-alias-picker-form-heading-2 = Ή δημιουργήστε μια προσαρμοσμένη μάσκα
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Εισαγάγετε πρόθεμα ψευδωνύμου
+modal-custom-alias-picker-form-prefix-label-2 = Εισαγάγετε πρόθεμα μάσκας
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
@@ -791,6 +807,7 @@ modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδων�
 modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 # Deprecated
 modal-custom-alias-picker-creation-error = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένου ψευδωνύμου. Παρακαλούμε δοκιμάστε ξανά ή στείλτε ένα email στο ψευδώνυμο για να δημιουργηθεί.
+modal-custom-alias-picker-creation-error-2 = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένης μάσκας email. Παρακαλώ δοκιμάστε ξανά ή στείλτε ένα email στη μάσκα για να δημιουργηθεί.
 
 ## Popover explaining how custom aliases work
 
@@ -799,6 +816,7 @@ popover-custom-alias-explainer-heading = Τρόπος δημιουργίας π�
 popover-custom-alias-explainer-heading-2 = Τρόπος δημιουργίας προσαρμοσμένων μασκών
 # Deprecated
 popover-custom-alias-explainer-explanation = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε ένα μοναδικό ψευδώνυμο που να χρησιμοποιεί τον προσαρμοσμένο τομέα σας — το ψευδώνυμο θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
+popover-custom-alias-explainer-explanation-2 = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε μια μοναδική μάσκα που να χρησιμοποιεί τον προσαρμοσμένο υποτομέα σας — η μάσκα θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Χειροκίνητη δημιουργία ψευδωνύμου
 popover-custom-alias-explainer-generate-button-heading-2 = Χειροκίνητη δημιουργία μάσκας
@@ -809,6 +827,7 @@ popover-custom-alias-explainer-close-button-label = Κλείσιμο
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
 popover-custom-alias-explainer-promotional-block-tooltip = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε ένα ψευδώνυμο για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε μια μάσκα για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
 
 ## Tip about using custom aliases
 
