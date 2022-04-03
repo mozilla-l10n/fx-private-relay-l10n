@@ -159,12 +159,14 @@ how-it-works-step-1-copy =
     Συνδεθείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
 # Deprecated
 how-it-works-step-2-headline = Δημιουργία νέου ψευδωνύμου
+how-it-works-step-2-headline-2 = Δημιουργία νέας μάσκας email
 how-it-works-step-2-copy =
     Ενώ περιηγείστε, το εικονίδιο του { -brand-name-relay } θα εμφανιστεί όπου οι ιστότοποι ζητούν τη διεύθυνση email σας.
     Επιλέξτε το για τη δημιουργία μιας νέας, τυχαίας διεύθυνσης με κατάληξη @relay.firefox.com.
     Το { -brand-name-relay } θα προωθεί μηνύματα στην κύρια διεύθυνση email του λογαριασμού σας.
 # Deprecated
 how-it-works-step-3-headline = Διαχείριση ψευδωνύμων
+how-it-works-step-3-headline-2 = Διαχείριση μασκών email
 hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το προσωπικό σας email σε αυτή την εταιρεία;
 hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
 hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε τον έλεγχο</em> των εισερχομένων σας!
@@ -209,6 +211,7 @@ landing-pricing-body =
 landing-pricing-free-price = Δωρεάν
 # Deprecated
 landing-pricing-free-feature-1 = Έως 5 ψευδώνυμα email
+landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # Variables:
@@ -217,6 +220,7 @@ landing-pricing-premium-price = { $monthly_price }/μήνα
 landing-pricing-premium-price-highlight = Τιμή περιορισμένου χρόνου
 # Deprecated
 landing-pricing-premium-feature-1 = Απεριόριστα ψευδώνυμα email
+landing-pricing-premium-feature-1-2 = Απεριόριστες μάσκες email
 landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
 # Deprecated
 landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
@@ -330,6 +334,7 @@ faq-headline = Συχνές ερωτήσεις
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Τι είναι ένα ψευδώνυμο { -brand-name-relay };
+faq-question-what-is-question-2 = Τι είναι μια μάσκα email του { -brand-name-relay };
 # Deprecated
 faq-question-what-is-answer = Τα ψευδώνυμα email είναι καλυμμένες διευθύνσεις email που προωθούν μηνύματα στην πραγματική σας διεύθυνση email. Αυτά τα ψευδώνυμα σάς επιτρέπουν να μοιραστείτε μια διεύθυνση με τρίτους που θα αποκρύψει το πραγματικό σας email και θα προωθεί μηνύματα σε αυτό.
 # Deprecated
@@ -498,12 +503,22 @@ profile-stat-label-aliases-used = Ψευδώνυμα email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Ψευδώνυμα προώθησης
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Μάσκες προώθησης
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Ψευδώνυμα αποκλεισμού
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Μάσκες αποκλεισμού
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Μάσκες φραγής διαφημίσεων
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Τυχαία ψευδώνυμα
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Τυχαίες μάσκες
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Προσαρμοσμένα ψευδώνυμα
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Προσαρμοσμένες μάσκες
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -524,6 +539,7 @@ profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Απόρριψη
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
 # Variables:
 #   $username (string) - Username
@@ -566,6 +582,7 @@ banner-register-subdomain-copy =
 banner-choose-subdomain-input-placeholder = Αναζήτηση τομέα
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Αναζητήστε τον νέο σας τομέα
+banner-choose-subdomain-input-placeholder-3 = Αναζήτηση υποτομέα
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Αναζήτηση
 # Deprecated
@@ -768,6 +785,7 @@ modal-delete-domain-address-warning-upgrade =
     Αν δημιουργήσετε ξανά ένα διαγεγραμμένο ψευδώνυμο, τα email που αποστέλλονται στο πρωτότυπο ψευδώνυμο θα συνεχίσουν να προωθούνται.
 # Deprecated
 modal-delete-confirmation = Ναι, θέλω να διαγράψω αυτό το ψευδώνυμο.
+modal-delete-confirmation-2 = Ναι, θέλω να διαγράψω αυτήν τη μάσκα.
 modal-domain-register-good-news = Καλά νέα!
 # Deprecated
 modal-domain-register-warning-reminder = Θυμηθείτε ότι μπορείτε να καταχωρήσετε μόνο έναν τομέα. Δεν θα μπορείτε να τον αλλάξετε αργότερα.
@@ -784,9 +802,20 @@ modal-domain-register-available-2 = Το <subdomain>{ $subdomain }</subdomain><d
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Επιτυχία!
 # Deprecated
 modal-domain-register-success = Το { $subdomain } είναι πλέον ο τομέας email σας!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = Το { $subdomain } είναι πλέον ο υποτομέας email σας!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι πλέον ο υποτομέας email σας!
 # Deprecated
 modal-domain-register-success-copy = Τώρα μπορείτε να φτιάξετε απεριόριστα ψευδώνυμα email με τον νέο σας τομέα! Τι περιμένετε;
 
