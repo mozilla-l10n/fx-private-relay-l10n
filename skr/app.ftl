@@ -253,6 +253,7 @@ faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرف�
 faq-question-missing-emails-answer-reason-not-accepted-2 = ایہ سائٹ ای میل ماسک قبول کائنی کریندی
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی
+faq-question-missing-emails-answer-reason-turned-off-2 = ماسک  اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-missing-emails-answer-reason-delay = تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔
 # Deprecated
 faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
@@ -294,6 +295,8 @@ profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ 
 # Deprecated
 profile-promo-upgrade-copy = بے انت ای میل پتے تے آپݨی ای میل ڈومین گھنݨ کیتے { -brand-name-relay } اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
+profile-details-expand = ماسک تفصیلاں ݙکھاؤ
+profile-details-collapse = ماسک تفصیلاں لکاؤ
 # Deprecated
 profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -315,6 +318,7 @@ profile-label-upgrade = بے انت عرفی ناں گھنو
 profile-label-create-domain = آپݨی ای میل ڈومین گھنو
 # Deprecated
 profile-label-domain = ای میل ڈومین:
+profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
 # Deprecated
 profile-label-domain-tooltip = آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
