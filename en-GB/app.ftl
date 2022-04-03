@@ -300,23 +300,31 @@ premium-promo-perks-perk-unlimited-headline-2 = Create unlimited email masks
 premium-promo-perks-perk-unlimited-body = No more five-alias limit: with { -brand-name-relay-premium }, you can generate as many aliases as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your real address.
 premium-promo-perks-perk-unlimited-body-2 = No more five-mask limit: with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your true address.
 premium-promo-perks-perk-custom-domain-headline = Choose your own custom domain
+premium-promo-perks-perk-custom-domain-headline-2 = Choose your own custom subdomain
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = With a custom domain, you can create aliases that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the alias beforehand.
+premium-promo-perks-perk-custom-domain-body-2 = With a custom subdomain, you can create masks that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the mask beforehand.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Control your aliases from the dashboard
+premium-promo-perks-perk-dashboard-headline-2 = Control your masks from the dashboard
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Manage all your aliases in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
+premium-promo-perks-perk-dashboard-body-2 = Manage all your email masks in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
 # Deprecated
 premium-promo-use-cases-headline = Use { -brand-name-relay } email aliases anywhere
+premium-promo-use-cases-headline-2 = Use { -brand-name-relay } email masks anywhere
 premium-promo-use-cases-shopping-heading = Shopping
 # Deprecated
 premium-promo-use-cases-shopping-body = Trying to sign up for discounts without all the spam? Bundle all your “shopping” accounts under unique custom aliases, like “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-shopping-body-2 = Trying to sign up for discounts without all the spam? Bundle all your “shopping” accounts under custom email masks, like “mydeals@mydomain.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Social Networks
 # Deprecated
 premium-promo-use-cases-social-networks-body = Want to better protect your online identity when using a social network? Use a different { -brand-name-relay } alias to log in to each social network and help protect your true email from being exposed to those sites.
+premium-promo-use-cases-social-networks-body-2 = Want to better protect your online identity when using a social network? Use a different email mask to log in to each social network and help protect your true email from being exposed to those sites.
 premium-promo-use-cases-gaming-heading = Gaming
 # Deprecated
 premium-promo-use-cases-gaming-body = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use an alias like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
+premium-promo-use-cases-gaming-body-2 = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use a mask like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
 premium-promo-pricing-free-price = Your current Free plan
 
 ## Settings page
@@ -332,14 +340,21 @@ settings-error-save-heading = Settings change failed
 settings-error-save-description = Your changes to settings were not saved due to a connection error. Please try again.
 # Deprecated
 settings-warning-collection-off-heading = Email alias label function is disabled
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Email mask label function is disabled
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email aliases. You can change this in “Settings” under “Data Collection.”
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email masks. You can change this in “Settings” under “Data Collection.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 # Deprecated
 setting-label-collection-description = Allow { -brand-name-relay } to collect data showing the sites on which your aliases are created and used.
+setting-label-collection-description-2 = Allow { -brand-name-relay } to collect data showing the sites on which your masks are created and used.
 # Deprecated
 setting-label-collection-off-warning = This data will allow us to label your aliases with the relevant web sites in a future release. If you decide to opt-out from this preference, your aliases will not be labelled with the web sites where they’re used.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = This data will allow us to label your email masks with the web sites where they’re used. If you decide to opt out from this preference, your masks will not be labelled with the web sites where they’re used.
 settings-button-save-label = Save
 settings-button-save-tooltip = Apply your chosen settings.
 
@@ -353,20 +368,27 @@ faq-headline = Frequently Asked Questions
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = What is a { -brand-name-relay } alias?
+faq-question-what-is-question-2 = What is a { -brand-name-relay } email mask?
 # Deprecated
 faq-question-what-is-answer = Email aliases are masked email addresses that forward messages to your true email address. These aliases allow you to share an address with third parties which will mask your true email address and forward messages to it.
+faq-question-what-is-answer-2 = Email masks are masked, or private, email addresses that forward messages to your true email address. These masks allow you to share an address with third parties which will mask your true email address and forward messages to it.
 # Deprecated
 faq-question-missing-emails-question = I’m not getting messages from my aliases
+faq-question-missing-emails-question-2 = I’m not getting messages from my email masks
 # Deprecated
 faq-question-missing-emails-answer-a = There are a few reasons you might not be receiving emails forwarded through your aliases. These reasons include:
+faq-question-missing-emails-answer-a-2 = There are a few reasons you might not be receiving emails forwarded through your masks. These reasons include:
 faq-question-missing-emails-answer-reason-spam = Messages are going into spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Your email provider is blocking your alias
+faq-question-missing-emails-answer-reason-blocked-2 = Your email provider is blocking your email masks
 faq-question-missing-emails-answer-reason-size = The email forwarded has an attachment larger than { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = The site doesn’t accept aliases
+faq-question-missing-emails-answer-reason-not-accepted-2 = The site doesn’t accept email masks
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = The alias might have forwarding turned off
+faq-question-missing-emails-answer-reason-turned-off-2 = The mask might have forwarding turned off
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } might be taking longer than usual to forward your messages
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -376,12 +398,16 @@ faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-pr
 faq-question-missing-emails-answer-support-site-html = If you’re struggling with any of these issues, please <a href="{ $url }" { $attrs }>visit our support site</a>.
 # Deprecated
 faq-question-use-cases-question = When should I use { -brand-name-relay } aliases?
+faq-question-use-cases-question-2 = When should I use { -brand-name-relay } email masks?
 # Deprecated
 faq-question-use-cases-answer-part1 = You can use { -brand-name-relay } aliases most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future.
+faq-question-use-cases-answer-part1-2 = You can use { -brand-name-relay } email masks most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future.
 # Deprecated
 faq-question-use-cases-answer-part2 = We don’t recommend using aliases when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your real email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
+faq-question-use-cases-answer-part2-2 = We don’t recommend using masks when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your true email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
 # Deprecated
 faq-question-2-question = Why won’t a site accept my { -brand-name-relay } alias?
+faq-question-2-question-2 = Why won’t a site accept my { -brand-name-relay } email mask?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -393,12 +419,19 @@ faq-question-2-answer-v4 = Some sites may not accept an email address that inclu
 faq-question-1-question = What about spam?
 # Deprecated
 faq-question-1-answer-a = While { -brand-name-relay } does not filter for spam, our email partner Amazon SES does block spam and malware. If { -brand-name-relay } forwards messages you don’t want, you can update your { -brand-name-relay } settings to block messages from the alias forwarding them.
+faq-question-1-answer-a-2 = While { -brand-name-relay } does not filter for spam, our email partner Amazon SES does block spam and malware. If { -brand-name-relay } forwards messages you don’t want, you can update your { -brand-name-relay } settings to block messages from the mask forwarding them.
 # Deprecated
 faq-question-1-answer-b-html = If you see a broader problem of unwanted email from all of your aliases, please <a href="{ $url }" { $attrs }>report this to us</a> so we can consider adjusting the SES spam thresholds for this service. If you report these as spam, your email provider will see { -brand-name-relay } as the source of spam, not the original sender.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = If you see a broader problem of unwanted email from all of your masks, please <a href="{ $url }" { $attrs }>report this to us</a> so we can consider adjusting the SES spam thresholds for this service. If you report these as spam, your email provider will see { -brand-name-relay } as the source of spam, not the original sender.
 faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
+faq-question-availability-answer-v2 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, Finland, France, Belgium, Austria, Spain, Italy, Sweden, Switzerland, the Netherlands, and Ireland.
 # Deprecated
 faq-question-4-question = Can I reply to messages using my { -brand-name-relay } alias?
+faq-question-4-question-2 = Can I reply to messages using my { -brand-name-relay } email mask?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
 faq-question-4-answer-v4 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those copied on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
@@ -411,22 +444,32 @@ faq-question-subdomain-characters-answer-v2 = You can only use lower-case Englis
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 # Deprecated
 faq-question-browser-support-answer = Yes, you can generate { -brand-name-relay } aliases on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
+faq-question-browser-support-answer-2 = Yes, you can generate { -brand-name-relay } masks on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
 faq-question-longevity-question = What happens if ⁨Mozilla⁩ shuts down the ⁨{ -brand-name-firefox-relay } service?
 # Deprecated
 faq-question-longevity-answer = We will give you advance notice that you need to change the email address of any accounts that are using ⁨{ -brand-name-relay }⁩ aliases.
+faq-question-longevity-answer-2 = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } email masks.
 # Deprecated
 faq-question-mozmail-question = Why did my aliases start to use the domain “mozmail.com?”
+faq-question-mozmail-question-2 = Why did my email masks start to use the domain “mozmail.com?”
 # Deprecated
 faq-question-mozmail-answer = We made the switch from “relay.firefox.com” to “mozmail.com” in order to make it possible to get a custom email domain, such as alias@yourdomain.mozmail.com. Custom email domains, available to { -brand-name-relay-premium } subscribers, also make your email aliases much easier to remember than random aliases.
+faq-question-mozmail-answer-2 = We made the switch from “relay.firefox.com” to “mozmail.com” in order to make it possible to get a custom email subdomain, such as mask@yourdomain.mozmail.com. Custom email subdomains, available to { -brand-name-relay-premium } subscribers, allow you to generate easier-to-remember email masks.
 faq-question-attachments-question = Will { -brand-name-firefox-relay } forward emails with attachments?
 faq-question-attachments-answer-v2 = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
 # Deprecated
 faq-question-unsubscribe-domain-question = What happens to my custom domain if I unsubscribe from { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = What happens to my custom subdomain if I unsubscribe from { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = If you downgrade from { -brand-name-relay-premium }, you’ll still receive emails forwarded through your custom domain, but you’ll no longer be able to create new aliases using that domain. If you have more than five aliases in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages. You can resubscribe to { -brand-name-relay-premium } and regain access to these features.
+faq-question-unsubscribe-domain-answer-2 = If you downgrade from { -brand-name-relay-premium }, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that subdomain. If you have more than five masks in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages. You can resubscribe to { -brand-name-relay-premium } and regain access to these features.
 faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 # Deprecated
 faq-question-8-answer-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email aliases so we can provide you that service and improve it for you.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email masks so we can provide you that service and improve it for you.
 faq-question-email-storage-question = Does { -brand-name-relay } store my emails?
 faq-question-email-storage-answer = Under the rare circumstance in which the service is down, we may temporarily store your emails until we are able to send them. We will never store your emails for longer than three days.
 faq-question-acceptable-use-question = What are the acceptable uses of { -brand-name-relay }?
@@ -456,29 +499,48 @@ profile-promo-upgrade-headline = Upgrade for even more features.
 # Deprecated
 profile-promo-upgrade-copy = Upgrade { -brand-name-relay } to get unlimited email addresses and your own email domain.
 profile-promo-upgrade-cta = Upgrade { -brand-name-relay }
+profile-details-expand = Show mask details
+profile-details-collapse = Hide mask details
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Click to copy mask { $address }.
 # Deprecated
 profile-label-edit = Edit the label for this alias
+profile-label-edit-2 = Edit the label for this mask
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Add account name
 profile-label-save-error = Failed to save, please try again.
 profile-label-saved = Label saved!
 # Deprecated
 profile-label-generate-new-alias = Generate New Alias
+profile-label-generate-new-alias-2 = Generate new mask
 # Deprecated
 profile-label-generate-new-alias-menu-random = Random Alias
+profile-label-generate-new-alias-menu-random-2 = Random email mask
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain } Alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } mask
 profile-label-delete = Delete
 # Deprecated
 profile-label-delete-alias = Delete this alias
 # Deprecated
+profile-label-delete-alias-2 = Delete this alias
+# Deprecated
 profile-label-upgrade = Get unlimited aliases
+profile-label-upgrade-2 = Get unlimited email masks
 # Deprecated
 profile-label-create-domain = Get your email domain
+profile-label-create-subdomain = Get your email subdomain
 # Deprecated
 profile-label-domain = Email Domain:
+profile-label-subdomain = Email Subdomain:
+profile-label-subdomain-tooltip-trigger = More info
 # Deprecated
 profile-label-domain-tooltip = Create your unique and custom email domain.
+profile-label-subdomain-tooltip = Create your unique email subdomain.
 profile-label-reset = Reset
 profile-label-apply = Apply
 profile-label-skip = Skip
@@ -496,19 +558,25 @@ profile-label-forwarding = forwarding
 profile-label-blocking = blocking
 # Deprecated
 profile-label-disable-forwarding-button = Disable email forwarding for this alias
+profile-label-disable-forwarding-button-2 = Disable email forwarding for this mask
 # Deprecated
 profile-label-enable-forwarding-button = Enable email forwarding for this alias
+profile-label-enable-forwarding-button-2 = Enable email forwarding for this mask
 profile-label-click-to-copy = Click to copy
 # Deprecated
 profile-label-copy-confirmation = Alias copied to clipboard
+# Deprecated
+profile-label-copy-confirmation-2 = Mask copied to clipboard
 profile-label-copied = Copied!
 profile-label-blocked = Blocked
 profile-label-forwarded = Forwarded
 profile-label-cancel = Cancel
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this alias.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this mask.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this alias.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this mask.
 profile-forwarded-note = Note:
 profile-forwarded-note-copy = Email (including attachments) larger than { email-size-limit } are not currently supported and will not be forwarded.
 profile-forwarded-note-copy-v2 = Email (including attachments) larger than { email-size-limit } will not be forwarded.
@@ -516,16 +584,32 @@ profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 # Deprecated
 profile-stat-label-aliases-used = Email aliases used
+profile-stat-label-aliases-used-2 = Email masks used
 # Deprecated
 profile-filter-search-placeholder = Search aliases
+profile-filter-search-placeholder-2 = Search masks
+profile-filter-category-button-label = Filter visible masks
+profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
+profile-filter-category-title = Filter visible masks
+profile-filter-no-results = No masks match your selected criteria. <clear-button>Clear all filters.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Forwarding aliases
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Forwarding masks
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blocking aliases
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blocking masks
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Promo-blocking masks
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Random aliases
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Random masks
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Custom aliases
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Custom masks
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -546,6 +630,7 @@ profile-promo-email-blocking-label-not-forwarding = Not forwarding
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Dismiss
 banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
 # Variables:
 #   $username (string) - Username
@@ -558,10 +643,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } is even better in { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes creating aliases even easier.
+banner-download-firefox-copy-2 = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes creating masks even easier.
 banner-download-firefox-cta = Get { -brand-name-firefox }
 banner-download-install-extension-headline = Get the { -brand-name-relay } extension for { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email aliases even easier.
+banner-download-install-extension-copy-2 = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email masks even easier.
 banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Try { -brand-name-relay } for { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using aliases even easier.
@@ -569,11 +656,13 @@ banner-download-install-chrome-extension-cta = Get the { -brand-name-relay } ext
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makes creating email aliases even easier, with custom alias domains and unlimited aliases.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } makes creating email masks even easier, with custom mask subdomains and unlimited masks.
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action step
 # Deprecated
 banner-register-subdomain-headline-aliases = Get a custom domain for your aliases
+banner-register-subdomain-headline-aliases-2 = Get a custom subdomain for your masks
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -584,16 +673,29 @@ banner-register-subdomain-copy =
     before you use them. Need one for a reservation? Give
     “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any alias using your
     custom domain will be forwarded to you.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    With a custom subdomain, you can share masks that don’t need to be generated
+    before you use them. Need one for a reservation? Give
+    “restaurant@yourdomain.{ $mozmail }” to the restaurant. Any mask using your
+    custom subdomain will be forwarded to you.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Search domain
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Search your new domain
+banner-choose-subdomain-input-placeholder-3 = Search subdomain
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Search
 # Deprecated
 banner-pack-upgrade-headline-html = Upgrade to <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> to get more aliases
+banner-pack-upgrade-headline-2-html = Upgrade to <strong>{ -brand-name-firefox-relay-premium }</strong> to get more email masks
 # Deprecated
 banner-pack-upgrade-copy = With unlimited email aliases and your own email domain, { -brand-name-firefox } { -brand-name-relay-premium } helps you stay protected online.
+banner-pack-upgrade-copy-2 = With unlimited email masks and your own email subdomain, { -brand-name-firefox-relay-premium } helps you stay protected online.
 banner-pack-upgrade-cta = Upgrade Now
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Privacy Notice Update
@@ -618,6 +720,9 @@ banner-choose-subdomain-description = You can make up any address @{ $subdomain 
 
 # Deprecated
 success-subdomain-registered = Your domain @{ $subdomain } has been created
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Your subdomain @{ $subdomain } has been created
 success-settings-update = Your settings have been updated
 
 ## Error Messages
@@ -635,6 +740,17 @@ error-subdomain-email-not-created = Email address with subdomain could not be cr
 error-subdomain-select = You must select a subdomain before creating a subdomain aliases
 # Deprecated
 error-subdomain-not-available = The domain @{ $unavailable_subdomain } is not available. Please try again with another domain.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = The subdomain @{ $unavailable_subdomain } is not available. Please try a different one.
+error-settings-update = There was an error updating your settings, please try again
+error-mask-create-failed = The mask could not be created. Please try again.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = The mask data could not be updated. Please try again.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = The mask { $mask } could not be deleted. Please try again.
 
 ## Tips and tricks at the bottom of the page
 
@@ -651,41 +767,54 @@ tips-footer-link-support-tooltip = Contact support
 
 # Deprecated
 modal-custom-alias-picker-heading = Create a new custom alias
+modal-custom-alias-picker-heading-2 = Create a new custom mask
 # Deprecated
 modal-custom-alias-picker-warning = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+modal-custom-alias-picker-warning-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customsubdomain.mozmail.com” next time you shop online, for example.
 # Deprecated
 modal-custom-alias-picker-form-heading = Or, create a custom alias manually
+modal-custom-alias-picker-form-heading-2 = Or, create a custom mask manually
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Enter alias prefix
+modal-custom-alias-picker-form-prefix-label-2 = Enter email mask prefix
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "coffee"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Generate Alias
+modal-custom-alias-picker-form-submit-label-2 = Generate mask
 # Deprecated
 modal-custom-alias-picker-creation-error = Your custom alias could not be manually created. Please try again, or send an email to the alias to create it.
+modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = How to create custom aliases
+popover-custom-alias-explainer-heading-2 = How to create custom masks
 # Deprecated
 popover-custom-alias-explainer-explanation = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+popover-custom-alias-explainer-explanation-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Generate a custom alias manually
+popover-custom-alias-explainer-generate-button-heading-2 = Generate a custom mask manually
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Generate custom alias
+popover-custom-alias-explainer-generate-button-label-2 = Generate custom mask
 popover-custom-alias-explainer-close-button-label = Close
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip = Enable Block Promotional Emails on an alias to stop marketing emails from reaching your inbox.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Creating aliases using your custom domain
+tips-custom-alias-heading-2 = Creating masks using your custom subdomain
 # Deprecated
 tips-custom-alias-content = All you need to do is make up and share a unique alias that uses your custom domain — the alias will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+tips-custom-alias-content-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
 
 ## Tip about using custom aliases
 
@@ -696,11 +825,14 @@ tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can 
 
 # Deprecated
 onboarding-headline = Create your first alias, you have three ways …
+onboarding-headline-2 = Create your first email mask
 # Deprecated
 onboarding-alias-tip-1 = Select “Generate New Alias” to create your first alias.
+onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
 onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
 # Deprecated
 onboarding-alias-tip-3 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate New Alias.”
+onboarding-alias-tip-3-2 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate new mask.”
 
 ## Premium Onboarding
 
@@ -711,25 +843,34 @@ onboarding-premium-feature-intro = With { -brand-name-firefox } { -brand-name-re
 onboarding-premium-control-title = Control what emails you get
 # Deprecated
 onboarding-premium-control-description = Share unlimited email aliases that forward emails you actually want to your inbox.
+onboarding-premium-control-description-2 = Share unlimited email masks that forward emails you actually want to your inbox.
 # Deprecated
 onboarding-premium-domain-title = Use a custom domain for sharing aliases
 # Deprecated
 onboarding-premium-domain-title-2 = Use a custom domain for sharing aliases:
+onboarding-premium-domain-title-3 = Use a custom subdomain for sharing masks:
 # Deprecated
 onboarding-premium-domain-description = With a custom domain, you can make your “newsletter” alias different from your “shopping” alias.
 # Deprecated
 onboarding-premium-reply-title = Reply to emails without giving away your real address
+onboarding-premium-reply-title-2 = Reply to emails without giving away your true address
 # Deprecated
 onboarding-premium-reply-description = Need to reply to emails sent to an alias? Just reply as normal — your alias will still protect your email address.
+onboarding-premium-reply-description-2 = Need to reply to emails sent to a mask? Just reply as normal — your mask will still protect your email address.
 onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you can:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Step { $step } of { $max }.
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Generate unlimited email aliases:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
 multi-part-onboarding-premium-welcome-button-start = Get Started
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliases
@@ -737,9 +878,11 @@ multi-part-onboarding-premium-domain-headline = Custom domain for sharing aliase
 multi-part-onboarding-premium-domain-title = Get a custom domain for your aliases:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Get a custom domain
+multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
 multi-part-onboarding-reply-headline = Reply to your emails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = No more five-alias limit: you can now generate as many custom or random aliases as you need. On desktop, you can use the Relay add-on to create them on the go.
+multi-part-onboarding-premium-welcome-description-2 = No more five-mask limit: you can now generate as many custom or random masks as you need. On desktop, you can use the { -brand-name-relay } add-on to create them on the go.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Using a custom domain, you can create aliases that are easier than ever to remember and share. 
@@ -748,16 +891,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     With a custom domain, you can create aliases without having to generate them beforehand. 
     Need one to sign up for a newsletter? Just say “read@customdomain{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    With a custom subdomain, you can create masks without having to generate them beforehand.
+    Need one to sign up for a newsletter? Just say “read@customsubdomain{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Register your custom domain now:
+multi-part-onboarding-premium-domain-cta-2 = Register your custom subdomain now:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Continue, I’ll register my custom domain later
+multi-part-onboarding-premium-domain-button-skip-2 = Continue, I’ll register my custom subdomain later
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Reply to emails without giving away your real address:
 multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email aliases even easier.
+multi-part-onboarding-premium-extension-get-description-2 = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email masks even easier.
 multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
 multi-part-onboarding-premium-chrome-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email aliases even easier.
@@ -771,40 +922,76 @@ multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
 modal-rename-alias-saved = Label saved!
 # Deprecated
 modal-delete-headline = Permanently delete this alias?
+modal-delete-headline-2 = Permanently delete this email mask?
 # Deprecated
 modal-delete-warning-recovery-html =
     Once you delete this alias, it cannot be recovered. 
     { -brand-name-firefox-relay } will no longer forward messages sent to <strong>{ $email }</strong>, including messages that allow you to reset lost passwords.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Once you delete this mask, it cannot be recovered.
+    { -brand-name-firefox-relay } will no longer forward messages sent to <strong>{ $email }</strong>, including messages that allow you to reset lost passwords.
 # Deprecated
 modal-delete-warning-upgrade =
     If you use this alias to log in to sites you care about, 
+    you should update your login with a different email address before you delete this one.
+modal-delete-warning-upgrade-2 =
+    If you use this email mask to log in to sites you care about,
     you should update your login with a different email address before you delete this one.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     If you use this alias to log in to sites you care about,
     you should update your login with a different email address before you delete this one.
     If you recreate a deleted alias, emails sent to the original alias will continue to be forwarded.
+modal-delete-domain-address-warning-upgrade-2 =
+    If you use this mask to log in to sites you care about,
+    you should update your login with a different email address before you delete this one.
+    If you recreate a deleted mask, emails sent to the original mask will continue to be forwarded.
 # Deprecated
 modal-delete-confirmation = Yes, I want to delete this alias.
+modal-delete-confirmation-2 = Yes, I want to delete this mask.
 modal-domain-register-good-news = Good News!
 # Deprecated
 modal-domain-register-warning-reminder = Remember, you can only register one domain. You won’t be able to change it later.
+modal-domain-register-warning-reminder-2 = Remember, you can only register one subdomain. You won’t be able to change it later.
 # Deprecated
 modal-domain-register-button = Register Domain
+modal-domain-register-button-2 = Register Subdomain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is available!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is available!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Yes, I want to register <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Success!
 # Deprecated
 modal-domain-register-success = { $subdomain } is now your email domain!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is now your email subdomain!
 # Deprecated
 modal-domain-register-success-copy = Now you can create unlimited email aliases using your new domain! What are you waiting for?
+modal-domain-register-success-copy-2 = Now you can create unlimited custom email masks!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -851,12 +1038,18 @@ vpn-promo-cta = Get { -brand-name-mozilla-vpn }
 forwarded-email-header-from = This message was forwarded from { $display_email } by { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } removes CCs and BCCs from your replies. If you re-add them, your real email will be exposed.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } removes CCs and BCCs from your replies. If you re-add them, your true email will be exposed.
 # Deprecated
 forwarded-email-header-premium-banner = Upgrade to { $premium_link } to get unlimited aliases and a custom email domain.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Upgrade to { $premium_link } to get unlimited email masks and a custom email subdomain.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }.
 # Deprecated
 forwarded-email-footer = Stop email forwarding and manage settings for all aliases here.
+# This entire text is a link
+forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Upgrade to { -brand-name-relay-premium }
