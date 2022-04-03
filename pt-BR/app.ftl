@@ -736,6 +736,12 @@ error-subdomain-not-available = O domínio @{ $unavailable_subdomain } não est�
 error-subdomain-not-available-2 = O subdomínio @{ $unavailable_subdomain } não está disponível. Tente outro.
 error-settings-update = Houve um erro ao alterar suas configurações, tente novamente
 error-mask-create-failed = A máscara não pôde ser criada. Tente novamente.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Não foi possível alterar os dados da máscara. Tente novamente.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = A máscara { $mask } não pôde ser excluída. Tente novamente.
 
 ## Tips and tricks at the bottom of the page
 
@@ -752,41 +758,54 @@ tips-footer-link-support-tooltip = Entre em contato com o suporte
 
 # Deprecated
 modal-custom-alias-picker-heading = Criar endereço de redirecionamento personalizado
+modal-custom-alias-picker-heading-2 = Criar máscara personalizada
 # Deprecated
 modal-custom-alias-picker-warning = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
+modal-custom-alias-picker-warning-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@subdominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
 # Deprecated
 modal-custom-alias-picker-form-heading = Ou crie um endereço de redirecionamento personalizado manualmente
+modal-custom-alias-picker-form-heading-2 = Ou crie uma máscara personalizada manualmente
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Digite o prefixo do endereço de redirecionamento
+modal-custom-alias-picker-form-prefix-label-2 = Digite o prefixo da máscara de email
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "lojas"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Gerar endereço de redirecionamento
+modal-custom-alias-picker-form-submit-label-2 = Gerar máscara
 # Deprecated
 modal-custom-alias-picker-creation-error = Seu endereço de redirecionamento personalizado não pôde ser criado manualmente. Tente novamente, ou envie um email para o endereço de redirecionamento para criar automaticamente.
+modal-custom-alias-picker-creation-error-2 = Sua máscara de email personalizada não pôde ser criada manualmente. Tente novamente, ou envie um email para a máscara para criar automaticamente.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Como criar endereços de redirecionamento personalizados
+popover-custom-alias-explainer-heading-2 = Como criar máscaras personalizadas
 # Deprecated
 popover-custom-alias-explainer-explanation = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
+popover-custom-alias-explainer-explanation-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Gerar um endereço de redirecionamento personalizado manualmente
+popover-custom-alias-explainer-generate-button-heading-2 = Gerar uma máscara personalizada manualmente
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Gerar endereço de redirecionamento personalizado
+popover-custom-alias-explainer-generate-button-label-2 = Gerar máscara personalizada
 popover-custom-alias-explainer-close-button-label = Fechar
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear emails promocionais
 popover-custom-alias-explainer-promotional-block-tooltip = Ative o bloqueio de emails promocionais em um endereço de redirecionamento para impedir que emails de marketing cheguem à sua caixa de entrada.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative o bloqueio de emails promocionais em uma máscara para impedir que emails de marketing cheguem à sua caixa de entrada.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Como criar endereços de redirecionamento usando seu domínio personalizado
+tips-custom-alias-heading-2 = Como criar máscaras usando seu subdomínio personalizado
 # Deprecated
 tips-custom-alias-content = Tudo o que você precisa fazer é inventar e compartilhar um endereço de redirecionamento exclusivo com seu domínio personalizado. O endereço de redirecionamento é gerado automaticamente. Experimente “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online, por exemplo.
+tips-custom-alias-content-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
 
 ## Tip about using custom aliases
 
@@ -797,6 +816,7 @@ tips-promo-email-blocking-content = Com o { -brand-name-relay-premium }, você p
 
 # Deprecated
 onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três maneiras …
+onboarding-headline-2 = Crie sua primeira máscara de email
 # Deprecated
 onboarding-alias-tip-1 = Selecione “Gerar novo endereço de redirecionamento” para criar seu primeiro endereço de redirecionamento.
 onboarding-alias-tip-2 = Ao usar a extensão { -brand-name-relay }, clique no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email.
