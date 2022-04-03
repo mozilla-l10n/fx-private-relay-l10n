@@ -590,14 +590,25 @@ profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
 profile-filter-category-title = Filtrar máscaras visíveis
+profile-filter-no-results = Nenhuma máscara corresponde aos critérios selecionados. <clear-button>Limpar todos os filtros.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Endereços de redirecionamento com encaminhamento
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Máscaras com encaminhamento
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Endereços de redirecionamento com bloqueio
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Máscaras com bloqueio
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Máscaras com bloqueio de email promocional
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Endereços de redirecionamento aleatórios
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Máscaras aleatórias
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Endereços de redirecionamento personalizados
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Máscaras personalizadas
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -618,6 +629,7 @@ profile-promo-email-blocking-label-not-forwarding = Não encaminhando
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Descartar
 banner-bounced-headline = O { -brand-name-relay } não conseguiu enviar seu email.
 # Variables:
 #   $username (string) - Username
@@ -630,6 +642,7 @@ banner-bounced-copy =
 banner-download-firefox-headline = O { -brand-name-relay } é ainda melhor no { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais a criação de endereços de redirecionamento.
+banner-download-firefox-copy-2 = A extensão { -brand-name-relay } para { -brand-name-firefox-browser } facilita ainda mais a criação de máscaras.
 banner-download-firefox-cta = Instale o { -brand-name-firefox }
 banner-download-install-extension-headline = Instale a extensão { -brand-name-relay } para { -brand-name-firefox }
 # Deprecated
