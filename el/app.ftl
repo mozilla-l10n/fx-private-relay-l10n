@@ -479,6 +479,7 @@ faq-question-mozmail-question = Γιατί τα ψευδώνυμά μου άρχ
 faq-question-mozmail-question-2 = Γιατί οι μάσκες email μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 # Deprecated
 faq-question-mozmail-answer = Αλλάξαμε το «relay.firefox.com» σε «mozmail.com» για να καταστήσουμε δυνατή την απόκτηση προσαρμοσμένων τομέων email, όπως το pseudwnumo@otomeassas.mozmail.com. Οι προσαρμοσμένοι τομείς email, που διατίθενται στους συνδρομητές του { -brand-name-relay-premium }, κάνουν πολύ πιο εύκολη την απομνημόνευση των ψευδωνύμων email σας σε σχέση με τα τυχαία ψευδώνυμα.
+faq-question-mozmail-answer-2 = Αλλάξαμε το «relay.firefox.com» σε «mozmail.com» για να καταστήσουμε δυνατή την απόκτηση προσαρμοσμένων υποτομέων email, όπως το maska@otomeassas.mozmail.com. Οι προσαρμοσμένοι υποτομείς email, που διατίθενται στους συνδρομητές του { -brand-name-relay-premium }, επιτρέπουν την πιο εύκολη την απομνημόνευση των μασκών email σας σε σχέση με τις τυχαίες μάσκες.
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
 # Deprecated
@@ -613,7 +614,9 @@ profile-stat-label-aliases-used-2 = Μάσκες email σε χρήση
 profile-filter-search-placeholder = Αναζήτηση ψευδωνύμων
 profile-filter-search-placeholder-2 = Αναζήτηση μασκών
 profile-filter-category-button-label = Φιλτράρισμα ορατών μασκών
+profile-filter-category-button-tooltip = Φιλτράρισμα μασκών κατά υποτομέα ή/και εάν αποκλείουν εισερχόμενα email
 profile-filter-category-title = Φιλτράρισμα ορατών μασκών
+profile-filter-no-results = Καμία μάσκα δεν ταιριάζει με τα επιλεγμένα κριτήρια. <clear-button>Κατάργηση όλων των φίλτρων.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Ψευδώνυμα προώθησης
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
