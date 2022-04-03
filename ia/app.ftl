@@ -163,10 +163,14 @@ landing-how-it-works-body = Comparti aliases e-mail de { -brand-name-relay }, in
 landing-how-it-works-step-1-body-cta = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Genera automaticamente aliases e-mail ubicunque tu insere tu adresse e-mail online.
+landing-how-it-works-step-1-body-2 = Genera automaticamente mascas e-mail ubicunque tu insere tu adresse e-mail online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail. 
     Elige lo pro generar un nove, aleatori adresse que fini in @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail. 
+    Elige lo pro generar un nove, aleatori adresse que fini in @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del aliases que tu ha create. { -brand-name-relay } inultrara le messages a tu adresse e-mail. 
@@ -181,6 +185,7 @@ landing-pricing-body = Prova aliases { -brand-name-firefox-relay } e comencia pr
 landing-pricing-free-price = Libere
 # Deprecated
 landing-pricing-free-feature-1 = Usque 5 aliases e-mail
+landing-pricing-free-feature-1-2 = Usque 5 mascas e-mail
 landing-pricing-free-feature-2 = Extension de navigator
 landing-pricing-free-cta = Discarga { -brand-name-relay }
 # Variables:
@@ -189,9 +194,11 @@ landing-pricing-premium-price = { $monthly_price }/month
 landing-pricing-premium-price-highlight = Precios pro tempore limitate
 # Deprecated
 landing-pricing-premium-feature-1 = Aliases e-mail illimitate
+landing-pricing-premium-feature-1-2 = Mascas e-mail illimitate
 landing-pricing-premium-feature-2 = Extension de navigator
 # Deprecated
 landing-pricing-premium-feature-3 = Tu proprie dominio e-mail
+landing-pricing-premium-feature-3-2 = Tu proprie subdominio e-mail
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Replica al e-mails inultrate
