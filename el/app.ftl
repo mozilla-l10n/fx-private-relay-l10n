@@ -152,7 +152,7 @@ bento-button-close-label = Κλείσιμο μενού
 
 home-hero-cta = Σύνδεση
 how-it-works-headline = Πώς λειτουργεί
-how-it-works-subheadline = Προστατέψτε την ταυτότητά σας, όπου κι αν χρησιμοποιείτε τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") }.
+how-it-works-subheadline = Προστατέψτε την ταυτότητά σας, όπου κι αν χρησιμοποιείτε τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") }.
 how-it-works-step-1-headline = Λήψη επέκτασης
 how-it-works-step-1-link = Κάντε λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }.
 how-it-works-step-1-copy =
@@ -257,17 +257,27 @@ landing-use-cases-shopping = Αγορές
 landing-use-cases-shopping-body =
     Αγοράζετε κάτι από ένα νέο ηλεκτρονικό κατάστημα; Χρησιμοποιήστε ένα ψευδώνυμο { -brand-name-relay }⁩ αντί για το email σας κατά τη διαδικτυακή σας αγορά. 
     Θα προωθήσουμε την απόδειξη στην πραγματική σας διεύθυνση email και αν αρχίσετε να λαμβάνετε ανεπιθύμητα email, απλά απενεργοποιήστε την προώθηση email.
+landing-use-cases-shopping-body-2 =
+    Αγοράζετε κάτι από ένα νέο ηλεκτρονικό κατάστημα; Χρησιμοποιήστε μια μάσκα email αντί για το πραγματικό email σας κατά τη διαδικτυακή σας αγορά.
+    Θα προωθήσουμε την απόδειξη στην πραγματική σας διεύθυνση email και αν αρχίσετε να λαμβάνετε ανεπιθύμητα email, απλά ορίστε τη μάσκα σε λειτουργία αποκλεισμού.
 landing-use-cases-social-networks = Κοινωνικά δίκτυα
 # Deprecated
 landing-use-cases-social-networks-body =
     Θέλετε καλύτερη προστασία για τη διαδικτυακή σας ταυτότητα κατά τη χρήση κοινωνικών δικτύων; 
     Προσπαθείτε να μη συσχετίσετε το πραγματικό σας email με την παρουσία σας στα κοινωνικά δίκτυα; Συνδεθείτε με ένα ψευδώνυμο { -brand-name-relay } και προστατευτείτε στο διαδίκτυο.
+landing-use-cases-social-networks-body-2 =
+    Θέλετε καλύτερη προστασία για τη διαδικτυακή σας ταυτότητα κατά τη χρήση κοινωνικών δικτύων;
+    Προσπαθείτε να μη συσχετίσετε το πραγματικό σας email με την παρουσία σας στα κοινωνικά δίκτυα; Χρησιμοποιήστε μια μάσκα { -brand-name-relay } και προστατευτείτε στο διαδίκτυο.
 landing-use-cases-offline = Εκτός σύνδεσης
 # Deprecated
 landing-use-cases-offline-body =
     Θέλετε να λαμβάνετε αποδείξεις μέσω email, αλλά όχι ανεπιθύμητα διαφημιστικά μηνύματα;
     Χρησιμοποιήστε ένα ψευδώνυμο { -brand-name-relay } αντί του email σας κατά τη λήψη ψηφιακής απόδειξης από κάποιο κατάστημα. 
     Θα προωθήσουμε την απόδειξη στην πραγματική διεύθυνση email σας και αν αρχίσετε να λαμβάνετε ανεπιθύμητα email, απλά απενεργοποιήστε την προώθηση email.
+landing-use-cases-offline-body-2 =
+    Θέλετε να λαμβάνετε αποδείξεις μέσω email, αλλά όχι ανεπιθύμητα διαφημιστικά μηνύματα;
+    Χρησιμοποιήστε μια μάσκα { -brand-name-relay } αντί του email σας κατά τη λήψη ψηφιακής απόδειξης από κάποιο κατάστημα.
+    Θα προωθήσουμε την απόδειξη στην πραγματική διεύθυνση email σας και αν αρχίσετε να λαμβάνετε ανεπιθύμητα email, απλά απενεργοποιήστε την προώθηση.
 landing-use-cases-access-content = Πρόσβαση σε περιεχόμενο
 # Deprecated
 landing-use-cases-access-content-body =
@@ -299,14 +309,17 @@ premium-promo-perks-cta-label = Αναβάθμιση τώρα
 premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Δημιουργήστε απεριόριστα ψευδώνυμα email
+premium-promo-perks-perk-unlimited-headline-2 = Δημιουργία απεριόριστων μασκών email
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Χωρίς τον περιορισμό των πέντε ψευδωνύμων: με το { -brand-name-relay-premium }, μπορείτε να έχετε όσα ψευδώνυμα χρειάζεστε για την προστασία των εισερχομένων σας από ανεπιθύμητα μηνύματα και διαδικτυακούς ιχνηλάτες. Μπορείτε ακόμα και να απαντήσετε σε email χωρίς να εκτεθεί η πραγματική σας διεύθυνση.
+premium-promo-perks-perk-unlimited-body-2 = Χωρίς τον περιορισμό των πέντε μασκών: με το { -brand-name-relay-premium }, μπορείτε να έχετε όσες μάσκες χρειάζεστε για την προστασία των εισερχομένων σας από ανεπιθύμητα μηνύματα και διαδικτυακούς ιχνηλάτες. Μπορείτε ακόμα και να απαντήσετε σε email χωρίς να εκτεθεί η πραγματική σας διεύθυνση.
 premium-promo-perks-perk-custom-domain-headline = Επιλέξτε τον δικό σας προσαρμοσμένο τομέα
 premium-promo-perks-perk-custom-domain-headline-2 = Επιλέξτε τον δικό σας προσαρμοσμένο υποτομέα
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Με έναν προσαρμοσμένο τομέα, μπορείτε να δημιουργήσετε ψευδώνυμα που μπορείτε να θυμάστε και να μοιράζεστε πιο εύκολα από ποτέ. Χρειάζεστε ένα για κρατήσεις σε εστιατόρια; Χρησιμοποιήστε κάτι σαν αυτό: faghto@otomeasmou.mozmail.com — Δεν χρειάζεται να το έχετε δημιουργήσει εκ των προτέρων.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Ελέγξτε τα ψευδώνυμά σας από τον πίνακα ελέγχου
+premium-promo-perks-perk-dashboard-headline-2 = Ελέγξτε τις μάσκες σας από τον πίνακα ελέγχου
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Διαχειριστείτε όλα τα ψευδώνυμά σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
 premium-promo-perks-perk-dashboard-body-2 = Διαχειριστείτε όλες τις μάσκες email σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
@@ -316,6 +329,7 @@ premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσ�
 premium-promo-use-cases-shopping-heading = Αγορές
 # Deprecated
 premium-promo-use-cases-shopping-body = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε μοναδικά προσαρμοσμένα ψευδώνυμα, όπως το «prosfores@otomeasmou.mozmail.com».
+premium-promo-use-cases-shopping-body-2 = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε προσαρμοσμένες μάσκες email, όπως το «prosfores@otomeasmou.mozmail.com».
 premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
 # Deprecated
 premium-promo-use-cases-social-networks-body = Θέλετε να προστατεύσετε καλύτερα την ηλεκτρονική σας ταυτότητα σε ένα κοινωνικό δίκτυο; Χρησιμοποιήστε ένα διαφορετικό ψευδώνυμο { -brand-name-relay } για να συνδεθείτε σε κάθε κοινωνικό δίκτυο και να αποτρέψετε την έκθεση του πραγματικού σας email σε αυτούς τους ιστοτόπους.
@@ -343,6 +357,7 @@ settings-warning-collection-off-description = Το { -brand-name-relay } δεν 
 setting-label-collection-heading-v2 = Απόρρητο
 # Deprecated
 setting-label-collection-description = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται ψευδώνυμα.
+setting-label-collection-description-2 = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται οι μάσκες.
 # Deprecated
 setting-label-collection-off-warning = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στα ψευδώνυμά σας με τους σχετικούς ιστοτόπους, σε μια μελλοντική έκδοση. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, τα ψευδώνυμά σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
 settings-button-save-label = Αποθήκευση
@@ -393,6 +408,7 @@ faq-question-use-cases-answer-part1 = Μπορείτε να εισαγάγετε
 faq-question-use-cases-answer-part2 = Δεν συνιστούμε τη χρήση ψευδωνύμων όταν χρειάζεται να επαληθεύσετε την ταυτότητά σας ή για πολύ σημαντικά email ή σε περίπτωση που πρέπει να λαμβάνετε συνημμένα αρχεία. Για παράδειγμα, καλό είναι να δώσετε την πραγματική σας διεύθυνση email στην τράπεζα, τον γιατρό και τον δικηγόρο σας, καθώς και όταν λαμβάνετε εισιτήρια για συναυλίες ή πτήσεις.
 # Deprecated
 faq-question-2-question = Γιατί κάποιοι ιστότοποι δεν αποδέχονται το ψευδώνυμο { -brand-name-relay };
+faq-question-2-question-2 = Γιατί κάποιοι ιστότοποι δεν αποδέχονται τη μάσκα email μου από το { -brand-name-relay };
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -547,6 +563,7 @@ profile-blocked-copy = Το { -brand-name-firefox-relay } θα διαγράφε�
 profile-blocked-copy-2 = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτήν τη μάσκα.
 # Deprecated
 profile-forwarded-copy = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτό το ψευδώνυμο.
+profile-forwarded-copy-2 = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτήν τη μάσκα.
 profile-forwarded-note = Σημείωση:
 profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
 profile-forwarded-note-copy-v2 = Τα email (μαζί με τα συνημμένα) μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
@@ -610,11 +627,13 @@ banner-bounced-copy =
     Αυτό μπορεί να συμβεί εάν το { -brand-name-relay } δεν μπορέσει να συνδεθεί με τον πάροχο ηλεκτρονικού ταχυδρομείου σας ή εάν το γραμματοκιβώτιό σας είναι γεμάτο. Θα δοκιμάσουμε ξανά στις { $date }.
 banner-download-firefox-headline = Το { -brand-name-relay } είναι ακόμα καλύτερο στο { -brand-name-firefox }
 # Deprecated
-banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
+banner-download-firefox-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία ψευδωνύμων.
+banner-download-firefox-copy-2 = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη δημιουργία μασκών.
 banner-download-firefox-cta = Λήψη του { -brand-name-firefox }
 banner-download-install-extension-headline = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-firefox }
 # Deprecated
-banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "genitive", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
+banner-download-install-extension-copy = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων email.
+banner-download-install-extension-copy-2 = Η επέκταση { -brand-name-relay } για τον { -brand-name-firefox-browser(case: "accusative", capitalization: "lowercase") } κάνει ακόμα ευκολότερη τη χρήση μασκών email.
 banner-download-install-extension-cta = Προσθήκη του { -brand-name-relay } στο { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Δοκιμάστε το { -brand-name-relay } για { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων.
@@ -646,6 +665,7 @@ banner-choose-subdomain-input-placeholder-3 = Αναζήτηση υποτομέ�
 banner-register-subdomain-button-search = Αναζήτηση
 # Deprecated
 banner-pack-upgrade-headline-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> για περισσότερα ψευδώνυμα
+banner-pack-upgrade-headline-2-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox-relay-premium }</strong> για περισσότερες μάσκες email
 # Deprecated
 banner-pack-upgrade-copy = Με απεριόριστα ψευδώνυμα email και τον δικό σας τομέα email, το { -brand-name-firefox } { -brand-name-relay-premium } σάς προστατεύει στο διαδίκτυο.
 banner-pack-upgrade-copy-2 = Με απεριόριστες μάσκες email και τον δικό σας υποτομέα email, το { -brand-name-firefox-relay-premium } σάς προστατεύει στο διαδίκτυο.
@@ -697,6 +717,13 @@ error-subdomain-not-available = Ο τομέας @{ $unavailable_subdomain } δε
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Ο υποτομέας @{ $unavailable_subdomain } δεν είναι διαθέσιμος. Παρακαλώ δοκιμάστε με έναν άλλο.
 error-settings-update = Προέκυψε σφάλμα κατά την ενημέρωση των ρυθμίσεών σας. Παρακαλώ δοκιμάστε ξανά
+error-mask-create-failed = Δεν ήταν δυνατή η δημιουργία της μάσκας. Παρακαλώ δοκιμάστε ξανά.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Δεν ήταν δυνατή η ενημέρωση των δεδομένων της μάσκας. Παρακαλώ δοκιμάστε ξανά.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Δεν ήταν δυνατή η διαγραφή της μάσκας «{ $mask }». Παρακαλώ δοκιμάστε ξανά.
 
 ## Tips and tricks at the bottom of the page
 
@@ -768,6 +795,7 @@ onboarding-alias-tip-1 = Επιλέξτε «Δημιουργία νέου ψευ
 onboarding-alias-tip-2 = Με την επέκταση { -brand-name-relay }, επιλέξτε το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί σε πεδία email.
 # Deprecated
 onboarding-alias-tip-3 = Με την επέκταση { -brand-name-relay }, κάντε δεξί κλικ σε πεδία φορμών και επιλέξτε «Δημιουργία νέου ψευδωνύμου».
+onboarding-alias-tip-3-2 = Με την επέκταση { -brand-name-relay }, κάντε δεξί κλικ σε πεδία φορμών και επιλέξτε «Δημιουργία νέας μάσκας».
 
 ## Premium Onboarding
 
@@ -778,6 +806,7 @@ onboarding-premium-feature-intro = Με το { -brand-name-firefox } { -brand-na
 onboarding-premium-control-title = Ελέγξετε ποια email θα λαμβάνετε
 # Deprecated
 onboarding-premium-control-description = Μοιραστείτε απεριόριστα ψευδώνυμα email που προωθούν τα email που πραγματικά θέλετε στα εισερχόμενά σας.
+onboarding-premium-control-description-2 = Μοιραστείτε απεριόριστες μάσκες email που προωθούν τα email που πραγματικά θέλετε στα εισερχόμενά σας.
 # Deprecated
 onboarding-premium-domain-title = Χρησιμοποιήστε έναν προσαρμοσμένο τομέα για κοινή χρήση ψευδωνύμων
 # Deprecated
@@ -786,8 +815,10 @@ onboarding-premium-domain-title-2 = Χρησιμοποιήστε έναν προ
 onboarding-premium-domain-description = Με έναν προσαρμοσμένο τομέα, μπορείτε να κάνετε το ψευδώνυμο ενημερωτικών δελτίων σας διαφορετικό από το ψευδώνυμο αγορών σας.
 # Deprecated
 onboarding-premium-reply-title = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
+onboarding-premium-reply-title-2 = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
 # Deprecated
 onboarding-premium-reply-description = Θέλετε να απαντήσετε σε email που απεστάλησαν σε ένα ψευδώνυμο; Απαντήστε κανονικά — το ψευδώνυμό σας θα προστατεύσει τη διεύθυνση email.
+onboarding-premium-reply-description-2 = Θέλετε να απαντήσετε σε email που απεστάλησαν σε μια μάσκα; Απαντήστε κανονικά — η μάσκα σας θα προστατεύσει τη διεύθυνση email.
 onboarding-premium-title-detail = Με το { -brand-name-firefox-relay-premium }, μπορείτε να:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -801,6 +832,7 @@ multi-part-onboarding-premium-welcome-subheadline = Πλέον, μπορείτε
 multi-part-onboarding-premium-welcome-title = Ελέγξετε ποια email θα λαμβάνετε:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Δημιουργήστε απεριόριστα ψευδώνυμα email:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Δημιουργήστε απεριόριστες μάσκες email:
 multi-part-onboarding-premium-welcome-button-start = Έναρξη
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Προσαρμοσμένος τομέας για κοινή χρήση ψευδωνύμων
@@ -808,6 +840,7 @@ multi-part-onboarding-premium-domain-headline = Προσαρμοσμένος τ�
 multi-part-onboarding-premium-domain-title = Αποκτήστε έναν δικό σας τομέα ψευδωνύμων:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Αποκτήστε έναν προσαρμοσμένο τομέα
+multi-part-onboarding-premium-get-subdomain = Αποκτήστε έναν προσαρμοσμένο υποτομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Χωρίς τον περιορισμό των πέντε ψευδωνύμων: μπορείτε να έχετε όσα προσαρμοσμένα ή τυχαία ψευδώνυμα χρειάζεστε. Στον υπολογιστή, μπορείτε να χρησιμοποιήσετε το πρόσθετο του Relay για να τα δημιουργείτε εν κινήσει.
