@@ -203,6 +203,7 @@ landing-pricing-premium-feature-1-2 = Máscaras de correo electrónico ilimitada
 landing-pricing-premium-feature-2 = Extensión del navegador
 # Deprecated
 landing-pricing-premium-feature-3 = Tu propio dominio de correo electrónico
+landing-pricing-premium-feature-3-2 = Tu propio subdominio de correo electrónico
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = tuemail@tudominio.mozmail.com
 landing-pricing-premium-feature-4 = Responde a correos electrónicos reenviados
@@ -210,6 +211,7 @@ landing-pricing-premium-feature-5 = Bloquear correos promocionales
 
 ## Use Cases
 
+landing-use-cases-heading = Usa { -brand-name-firefox-relay } para:
 landing-use-cases-shopping = Compras
 # Deprecated
 landing-use-cases-shopping-body =
