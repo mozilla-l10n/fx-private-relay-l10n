@@ -353,6 +353,8 @@ setting-label-collection-description = Permitir que o { -brand-name-relay } cole
 setting-label-collection-description-2 = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde suas máscaras foram criadas e usadas.
 # Deprecated
 setting-label-collection-off-warning = Esses dados nos permitem rotular seus endereços de redirecionamento com os sites relevantes em uma futura versão. Se você decidir não usar esta preferência, seus endereços de redirecionamento não são identificados com os sites onde são usados.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Esses dados nos permitem rotular suas máscaras de email com os sites onde são usadas. Se você decidir não usar esta preferência, suas máscaras de email não são identificadas com os sites onde são usadas.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
 
@@ -366,20 +368,27 @@ faq-headline = Perguntas frequentes
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = O que é um endereço de redirecionamento do { -brand-name-relay }?
+faq-question-what-is-question-2 = O que é uma máscara de email do { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Endereços de redirecionamento de email são endereços de email mascarados que encaminham mensagens para seu endereço de email verdadeiro. Esses endereços de redirecionamento permitem que você compartilhe com terceiros um endereço que oculta seu endereço de email verdadeiro e encaminha mensagens para ele.
+faq-question-what-is-answer-2 = Máscaras de email são endereços de email mascarados, ou privativos, que encaminham mensagens para seu endereço de email verdadeiro. Essas máscaras permitem que você compartilhe com terceiros um endereço que oculta seu endereço de email verdadeiro e encaminha mensagens para ele.
 # Deprecated
 faq-question-missing-emails-question = Não estou recebendo mensagens de meus endereços de redirecionamento
+faq-question-missing-emails-question-2 = Não estou recebendo mensagens de minhas máscaras de email
 # Deprecated
 faq-question-missing-emails-answer-a = Existem alguns motivos de você não estar recebendo emails encaminhados através de seus endereços de redirecionamento. Pode ser:
+faq-question-missing-emails-answer-a-2 = Existem alguns motivos de você não estar recebendo emails encaminhados através de suas máscaras. Pode ser:
 faq-question-missing-emails-answer-reason-spam = As mensagens estão indo para a pasta de spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Seu provedor de email está bloqueando seu endereço de redirecionamento
+faq-question-missing-emails-answer-reason-blocked-2 = Seu provedor de email está bloqueando suas máscaras de email
 faq-question-missing-emails-answer-reason-size = O email encaminhado contém um anexo maior que { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = O site não aceita endereços de redirecionamento
+faq-question-missing-emails-answer-reason-not-accepted-2 = O site não aceita máscaras de email
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = O endereço de redirecionamento pode estar com encaminhamento desativado
+faq-question-missing-emails-answer-reason-turned-off-2 = A máscara pode estar com encaminhamento desativado
 faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode estar demorando mais do que o normal para encaminhar suas mensagens
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -389,12 +398,16 @@ faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-nam
 faq-question-missing-emails-answer-support-site-html = Se estiver tendo algum desses problemas, <a href="{ $url }" { $attrs }>visite nosso site de suporte</a>.
 # Deprecated
 faq-question-use-cases-question = Quando devo usar endereços de redirecionamento do { -brand-name-relay }?
+faq-question-use-cases-question-2 = Quando devo usar máscaras de email do { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Você pode usar endereços de redirecionamento do { -brand-name-relay } na maioria dos lugares em que usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing ou informativos, podendo controlar se quer ou não receber emails no futuro.
+faq-question-use-cases-answer-part1-2 = Você pode usar máscaras de email do { -brand-name-relay } na maioria dos lugares em que usaria seu endereço de email normal. Recomendamos usar ao se inscrever para receber emails de marketing ou informativos, podendo controlar se quer ou não receber emails no futuro.
 # Deprecated
 faq-question-use-cases-answer-part2 = Não recomendamos usar endereços de redirecionamento quando você precisa que sua identidade seja verificada, ou quando você pode receber mensagens muito importantes, ou anexos. Por exemplo, pode compartilhar seu endereço de email real com seu banco, seu médico ou seu advogado, assim como para receber entradas de shows ou passagens de voos.
+faq-question-use-cases-answer-part2-2 = Não recomendamos usar máscaras quando você precisa que sua identidade seja verificada, ou quando você pode receber mensagens muito importantes, ou anexos. Por exemplo, pode compartilhar seu endereço de email real com seu banco, seu médico ou seu advogado, assim como para receber entradas de shows ou passagens aéreas.
 # Deprecated
 faq-question-2-question = Por que um site não aceitaria meu endereço de redirecionamento do { -brand-name-relay }?
+faq-question-2-question-2 = Por que um site não aceitaria minhas máscaras de email do { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
