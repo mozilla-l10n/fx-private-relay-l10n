@@ -178,6 +178,7 @@ landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
 
 ## Use Cases
 
+landing-use-cases-heading = کیتے { -brand-name-firefox-relay } ورتو:
 landing-use-cases-shopping = خریداری
 landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
@@ -199,10 +200,13 @@ premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے ا�
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = بے انت ای میل عرفی ناں تخلیق کرو
 premium-promo-perks-perk-custom-domain-headline = آپݨاں کسٹم ڈومین چُݨو
+premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = ڈیشبورڈ کنوں آپݨے عرفی ناں کنٹرول کرو
+premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
 # Deprecated
 premium-promo-use-cases-headline = کہیں وی جاء تے { -brand-name-relay } ای میل عرفی ناں ورتو
+premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
 premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
@@ -246,6 +250,7 @@ faq-question-missing-emails-answer-reason-blocked = تہاݙا ای میل فر�
 faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
+faq-question-missing-emails-answer-reason-not-accepted-2 = ایہ سائٹ ای میل ماسک قبول کائنی کریندی
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-missing-emails-answer-reason-delay = تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔
