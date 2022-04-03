@@ -819,9 +819,11 @@ onboarding-headline = Crie seu primeiro endereço de redirecionamento, há três
 onboarding-headline-2 = Crie sua primeira máscara de email
 # Deprecated
 onboarding-alias-tip-1 = Selecione “Gerar novo endereço de redirecionamento” para criar seu primeiro endereço de redirecionamento.
+onboarding-alias-tip-1-2 = Selecione “Gerar nova máscara” para criar sua primeira máscara de email.
 onboarding-alias-tip-2 = Ao usar a extensão { -brand-name-relay }, clique no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email.
 # Deprecated
 onboarding-alias-tip-3 = Usando a extensão { -brand-name-relay }, clique com o botão direito em campos de formulário e selecione “Gerar novo endereço de redirecionamento“.
+onboarding-alias-tip-3-2 = Usando a extensão { -brand-name-relay }, clique com o botão direito em campos de formulário e selecione “Gerar nova máscara”.
 
 ## Premium Onboarding
 
@@ -832,25 +834,34 @@ onboarding-premium-feature-intro = Com o { -brand-name-firefox } { -brand-name-r
 onboarding-premium-control-title = Controlar quais emails você recebe
 # Deprecated
 onboarding-premium-control-description = Compartilhar endereços de redirecionamento ilimitados, que encaminham para sua caixa de entrada os emails que você realmente quer.
+onboarding-premium-control-description-2 = Compartilhe máscaras de email ilimitadas, que encaminham para sua caixa de entrada os emails que você realmente quer.
 # Deprecated
 onboarding-premium-domain-title = Usar um domínio personalizado para compartilhar endereços de redirecionamento de email
 # Deprecated
 onboarding-premium-domain-title-2 = Use um domínio personalizado para compartilhar endereços de redirecionamento:
+onboarding-premium-domain-title-3 = Use um subdomínio personalizado para compartilhar máscaras:
 # Deprecated
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
 # Deprecated
 onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
+onboarding-premium-reply-title-2 = Responda a mensagens sem revelar seu endereço de email real
 # Deprecated
 onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
+onboarding-premium-reply-description-2 = Precisa responder a mensagens enviadas para uma máscara? Basta responder normalmente, sua máscara continua protegendo seu email real.
 onboarding-premium-title-detail = Com o { -brand-name-firefox-relay-premium } você pode:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Etapa { $step } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Boas-vindas ao { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Agora você pode controlar o que chega em sua caixa de entrada, um email por vez.
 multi-part-onboarding-premium-welcome-title = Controle quais emails você recebe:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Gerar endereços de redirecionamento de email ilimitados:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Gere máscaras de email ilimitadas:
 multi-part-onboarding-premium-welcome-button-start = Introdução
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Domínio personalizado para compartilhar endereços de redirecionamento
@@ -858,9 +869,11 @@ multi-part-onboarding-premium-domain-headline = Domínio personalizado para comp
 multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos endereços de redirecionamento:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Ter um domínio personalizado
+multi-part-onboarding-premium-get-subdomain = Tenha um subdomínio personalizado
 multi-part-onboarding-reply-headline = Responder seus emails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Chega de limite de cinco endereços de redirecionamento. Agora você pode gerar quantos endereços precisar, personalizados ou aleatórios. No computador, você pode usar a extensão Relay para criar na hora.
+multi-part-onboarding-premium-welcome-description-2 = Chega de limite de cinco máscaras. Agora você pode gerar quantas máscaras precisar, personalizadas ou aleatórias. No computador, você pode usar a extensão { -brand-name-relay } para criar na hora.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Usando um domínio personalizado, você pode criar endereços de redirecionamento mais fáceis do que nunca de lembrar e compartilhar.
@@ -869,10 +882,17 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Com um domínio personalizado, você pode criar endereços de redirecionamento sem precisar gerar antes. 
     Precisa de um para assinar um boletim informativo? Basta informar “leitura@dominiopersonalizado{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Com um subdomínio personalizado, você pode criar máscaras sem precisar gerar antes. 
+    Precisa de uma para se inscrever em um boletim informativo? Basta informar “leitura@subdominiopersonalizado{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registrar agora o domínio personalizado:
+multi-part-onboarding-premium-domain-cta-2 = Registre agora seu subdomínio personalizado:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Avançar, vou registrar meu domínio personalizado mais tarde
+multi-part-onboarding-premium-domain-button-skip-2 = Avançar, vou registrar meu subdomínio personalizado mais tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, encaminhar e responder
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Responda mensagens sem revelar seu endereço de email real:
