@@ -158,35 +158,53 @@ landing-hero-headline-2 = Lindungi alamat surel asli Anda untuk membantu kendali
 landing-hero-body =
     Surel alias { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan surel ke kotak masuk Anda yang sebenarnya. 
     Sekarang Anda dapat hanya menerima surel yang Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk memulai.
+landing-hero-body-2 =
+    Surel masker { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan pesan ke kotak masuk Anda yang asli.
+    Sekarang Anda dapat menerima pesan yang hanya Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk mulai.
 
 ## How it works section
 
 landing-how-it-works-headline = Cara kerja
 # Deprecated
 landing-how-it-works-body = Bagikan surel alias { -brand-name-relay } alih-alih alamat surel asli Anda untuk melindungi kotak masuk, serta identitas Anda.
+landing-how-it-works-body-2 = Bagikan surel masker { -brand-name-relay } alih-alih alamat surel asli Anda untuk melindungi kotak masuk, serta identitas Anda.
 landing-how-it-works-step-1-body-cta = Unduh ekstensi { -brand-name-relay } untuk { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Buat surel alias secara otomatis di mana pun Anda memasukkan alamat surel secara daring.
+landing-how-it-works-step-1-body-2 = Buat masker surel secara otomatis di mana pun Anda memasukkan alamat surel secara daring.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Saat Anda menjelajah, ikon { -brand-name-relay } akan muncuk ketika situs menanyakan alamat surel Anda.
     Pilih untuk membuat alamat acak baru berakhiran @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Saat Anda menjelajah, ikon { -brand-name-relay } akan muncuk ketika situs menanyakan alamat surel Anda.
+    Pilih untuk membuat alamat acak baru berakhiran @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Masuk ke dasbor { -brand-name-relay } untuk memantau alias-alias yang telah Anda buat. { -brand-name-relay } akan meneruskan pesan-pesan ke alamat surel Anda. 
     Jika sebuah alias mendapatkan spam atau pesan yang tidak diinginkan, Anda dapat memblokir semua pesan atau bahkan menghapus alias, langsung dari dasbor.
+landing-how-it-works-step-3-body-2 =
+    Masuk ke dasbor { -brand-name-relay } untuk memantau surel masker yang telah Anda buat.
+    Jika Anda menemukan alamat yang menerima spam atau pesan yang tidak diinginkan, Anda dapat memblokir semua pesan atau bahkan menghapus masker tersebut, langsung dari dasbor.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Waktu terbatas: Alias tidak terbatas seharga { $monthly_price } per bulan
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Waktu terbatas: Masker tidak terbatas seharga { $monthly_price } per bulan
 # Deprecated
 landing-pricing-body =
     Coba alias { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda
     Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
+landing-pricing-body-2 =
+    Coba surel masker { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda
+    Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
 landing-pricing-free-price = Gratis
 # Deprecated
 landing-pricing-free-feature-1 = Hingga 5 surel alias
+landing-pricing-free-feature-1-2 = Hingga 5 surel masker
 landing-pricing-free-feature-2 = Ekstensi Peramban
 landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 # Variables:
@@ -195,15 +213,19 @@ landing-pricing-premium-price = { $monthly_price }/bulan
 landing-pricing-premium-price-highlight = Harga waktu terbatas
 # Deprecated
 landing-pricing-premium-feature-1 = Alias surel tak terbatas
+landing-pricing-premium-feature-1-2 = Surel masker tak terbatas
 landing-pricing-premium-feature-2 = Ekstensi peramban
 # Deprecated
 landing-pricing-premium-feature-3 = Domain surel Anda sendiri
+landing-pricing-premium-feature-3-2 = Subdomain surel Anda sendiri
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Balas surel yang diteruskan
+landing-pricing-premium-feature-5 = Blokir surel promosi
 
 ## Use Cases
 
+landing-use-cases-heading = Gunakan { -brand-name-firefox-relay } untuk:
 landing-use-cases-shopping = Belanja
 # Deprecated
 landing-use-cases-shopping-body =
