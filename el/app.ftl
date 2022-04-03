@@ -224,6 +224,7 @@ landing-pricing-premium-feature-1-2 = Απεριόριστες μάσκες emai
 landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
 # Deprecated
 landing-pricing-premium-feature-3 = Ο δικός σας τομέας email
+landing-pricing-premium-feature-3-2 = Ο δικός σας υποτομέας email
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = toemailsas@otomeassas.mozmail.com
 landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
@@ -657,6 +658,7 @@ modal-custom-alias-picker-form-prefix-label = Εισαγάγετε πρόθεμ�
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Δημιουργία ψευδωνύμου
+modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 # Deprecated
 modal-custom-alias-picker-creation-error = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένου ψευδωνύμου. Παρακαλούμε δοκιμάστε ξανά ή στείλτε ένα email στο ψευδώνυμο για να δημιουργηθεί.
 
@@ -789,6 +791,7 @@ modal-delete-confirmation-2 = Ναι, θέλω να διαγράψω αυτήν 
 modal-domain-register-good-news = Καλά νέα!
 # Deprecated
 modal-domain-register-warning-reminder = Θυμηθείτε ότι μπορείτε να καταχωρήσετε μόνο έναν τομέα. Δεν θα μπορείτε να τον αλλάξετε αργότερα.
+modal-domain-register-warning-reminder-2 = Θυμηθείτε ότι μπορείτε να καταχωρήσετε μόνο έναν υποτομέα. Δεν θα μπορείτε να τον αλλάξετε αργότερα.
 # Deprecated
 modal-domain-register-button = Καταχώρηση τομέα
 modal-domain-register-button-2 = Καταχώρηση υποτομέα
@@ -874,6 +877,9 @@ forwarded-email-header-cc-notice = Το { -brand-name-relay-premium } αφαιρ
 forwarded-email-header-cc-notice-2 = Το { -brand-name-relay-premium } αφαιρεί τις διευθύνσεις CC και BCC από τις απαντήσεις σας. Αν τις προσθέσετε εκ νέου, θα εκτεθεί το πραγματικό σας email.
 # Deprecated
 forwarded-email-header-premium-banner = Αναβαθμίστε στο { $premium_link } για να λάβετε απεριόριστα ψευδώνυμα και έναν προσαρμοσμένο τομέα email.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Αναβαθμίστε στο { $premium_link } για να λάβετε απεριόριστες μάσκες email και έναν προσαρμοσμένο υποτομέα email.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
