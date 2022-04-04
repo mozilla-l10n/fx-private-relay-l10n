@@ -195,6 +195,7 @@ landing-pricing-headline = Solo pro tempore limitate: aliases illimitate pro { $
 landing-pricing-headline-2 = Solo pro tempore limitate: aliases illimitate pro { $monthly_price } cata mense
 # Deprecated
 landing-pricing-body = Prova aliases { -brand-name-firefox-relay } e comencia proteger tu cassa de ingresso. Tunc promove a { -brand-name-relay-premium } pro ancora plus flexibilitate e controlo personalisate.
+landing-pricing-body-2 = Prova le mascas email de { -brand-name-firefox-relay } e comencia a proteger tu cassa de ingresso. Tunc promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
 landing-pricing-free-price = Libere
 # Deprecated
 landing-pricing-free-feature-1 = Usque 5 aliases e-mail
@@ -242,6 +243,10 @@ landing-use-cases-offline-body =
     Prefere tu obtener quitantias e-mail, ma vole alsi impedir SPAM de marketing?
     Usa un alias de { -brand-name-relay } in vice del tu e-mail quando tu recipe un quitantia digital in un boteca. 
     Nos inultrara le quitantia a tu real adresse e-mail e si tu comencia reciper e-mails que non te place, solo disactiva le alias e-mail.
+landing-use-cases-offline-body-2 =
+    Prefere tu reciper le quitantias per email, ma tu alsi vole impedir SPAM de marketing?
+    Usa un masca de { -brand-name-relay } in vice del tu email quando tu recipe un quitantia digital in un boteca. 
+    Nos inultrara le quitantia a tu ver adresse email e si tu comencia reciper emails que non te place, solo disactiva re-expedition del masca email.
 landing-use-cases-access-content = Contento de accesso
 # Deprecated
 landing-use-cases-access-content-body =
@@ -315,14 +320,21 @@ settings-error-save-heading = Cambio de parametros fallite
 settings-error-save-description = Tu cambiamentos al parametros non ha essite salvate per un error de connexion. Retenta.
 # Deprecated
 settings-warning-collection-off-heading = Le function etiquetta del alias de e-mail es disactivate
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Le function etiquetta del mascas email es disactivate
 # Deprecated
 settings-warning-collection-off-description = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate aliases de e-mail. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate mascas email. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Confidentialitate
 # Deprecated
 setting-label-collection-description = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu aliases es create e usate.
+setting-label-collection-description-2 = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu mascas es create e usate.
 # Deprecated
 setting-label-collection-off-warning = Iste datos permittera nos de etiquettar tu aliases con le sitos web pertinente in un version futur. Si tu decide exir ab iste preferentia, tu aliases non sera etiquettate con le sitos web ubi illos es usate.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Iste datos permittera nos de etiquettar tu mascas email con le sitos web ubi illos es usate. Si tu decide exir ab iste preferentia, tu mascas non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
 
@@ -336,20 +348,27 @@ faq-headline = Folio a questiones
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Que es un alias de { -brand-name-relay }?
+faq-question-what-is-question-2 = Que es un masca email de { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Aliases e-mail es adresses e-mail disguisate que inultra le messages a tu ver adresse e-mail. Iste aliases te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse e-mail e inultrara le messages a illo.
+faq-question-what-is-answer-2 = Le mascas email es adresses email mascate, o private, que inultra le messages a tu ver adresse email. Iste mascas te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse e-mail e inultrara le messages a illo.
 # Deprecated
 faq-question-missing-emails-question = Io non recipe messages de mi aliases
+faq-question-missing-emails-question-2 = Io non recipe messages ab mi mascas email
 # Deprecated
 faq-question-missing-emails-answer-a = Il ha alcun rationes perque tu pote non reciper e-mails inultrate per tu aliases. Iste rationes include:
+faq-question-missing-emails-answer-a-2 = Il ha alcun rationes perque tu pote non reciper emails inultrate per tu mascas. Iste rationes include:
 faq-question-missing-emails-answer-reason-spam = Messages que vade in SPAM
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Tu fornitor de servicios e-mail bloca tu alias
+faq-question-missing-emails-answer-reason-blocked-2 = Tu fornitor de servicios email bloca tu mascas email
 faq-question-missing-emails-answer-reason-size = Le e-mail inultrate ha un annexo major de { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Le sito non accepta aliases
+faq-question-missing-emails-answer-reason-not-accepted-2 = Le sito non accepta mascas email
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Le alias pote haber le function de inultrar disactivate
+faq-question-missing-emails-answer-reason-turned-off-2 = Le mascas pote haber le function de inultrar disactivate
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } pote star plus longemente que usual pro inultrar tu messages
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
