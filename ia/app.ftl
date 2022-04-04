@@ -399,12 +399,19 @@ faq-question-2-answer-v4 = Alcun sitos pote non acceptar un adresse e-mail que i
 faq-question-1-question = E quanto al spam?
 # Deprecated
 faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
+faq-question-1-answer-a-2 = Ben que { -brand-name-relay } non filtra le spam, nostre partner in email, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del masca que los inultra.
 # Deprecated
 faq-question-1-answer-b-html = Si tu vide un plus ample problema de e-mail indesirate de tote tu aliases, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> de sorta que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istes como spam, tu fornitor de servicio e-mail considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Si tu vide un plus ample problema de email indesirate ab tote tu mascas, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> a fin que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istos como spam, tu fornitor de servicio email considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
 faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapore, Malaysia, Nove Zelanda, Francia, Belgio, Austria, Espania, Italia, Suissa, Hollanda e Irlanda.
+faq-question-availability-answer-v2 = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapur, Malaya, Nove Zelanda, Finlandia, Francia, Belgio, Austria, Espania, Italia, Svedia, Suissa, Hollanda e Irlanda.
 # Deprecated
 faq-question-4-question = Pote io responder a messages usante mi alias de { -brand-name-relay }?
+faq-question-4-question-2 = Pote io responder a messages usante mi masca email de { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Le usatores de { -brand-name-relay-premium } pote responder a un email inultrate in 3 menses desde le reception. Se tu adde qualcuno in Cc o Ccn quando tu responde, tu real adresse email sera exponite al destinatario e a altere subjectos incluse in le email. Si tu non vole que tu adresse email real es monstrate, non adde destinatarios in Cc o Ccn quando tu responde.
 faq-question-4-answer-v4 = Le usatores de { -brand-name-relay-premium } pote replicar a un e-mail inultrate intra 3 menses de reciper lo. Si tu adde un CC o CCN quando tu replica retro a un e-mail, tu original adresse e-mail sera exponite al destinatario e a illes copiate super le e-mail. Si tu non vole que tu original adresse e-mail sia exponite, non adder CCs o Ccn quando responde.
@@ -417,9 +424,11 @@ faq-question-subdomain-characters-answer-v2 = Tu pote solo usar litteras minuscu
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 # Deprecated
 faq-question-browser-support-answer = Si, tu pote generar aliases { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per authentication a tu pannello de controlo { -brand-name-relay }.
+faq-question-browser-support-answer-2 = Si, tu pote generar mascas { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per le accesso a in tu pannello de controlo de { -brand-name-relay }.
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
+faq-question-longevity-answer-2 = Nos in avantia te dara aviso que tu debe cambiar le adresse email de ulle contos que usa mascas email de { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Perque mi aliases comenciava usar le dominio “mozmail.com?”
 faq-question-mozmail-question-2 = Perque mi mascas email comenciava usar le dominio “mozmail.com?”
