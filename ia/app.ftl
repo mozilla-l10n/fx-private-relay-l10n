@@ -378,12 +378,16 @@ faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-rel
 faq-question-missing-emails-answer-support-site-html = Si tu combatte con ulle de iste problemas, <a href="{ $url }" { $attrs }>visita nostre sito de assistentia</a>.
 # Deprecated
 faq-question-use-cases-question = Quando deberea io usar aliases { -brand-name-relay }?
+faq-question-use-cases-question-2 = Quando deberea io usar mascas email { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Tu pote usar aliases { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia usar los quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper e-mails in le futuro o non.
+faq-question-use-cases-answer-part1-2 = Tu pote usar mascas email { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia usar los quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper emails in le futuro o non.
 # Deprecated
 faq-question-use-cases-answer-part2 = Nos non recommenda usar aliases quando te besonia tu identitate verificate o pro e-mails multo importante o illos ubi tu debe reciper annexos. Per exemplo, tu compartira tu real adresse e-mail con tu banca, tu doctor e tu advocato e quando recipe permissiones de entrata a concerto o volo.
+faq-question-use-cases-answer-part2-2 = Nos non recommenda usar mascas email quando te besonia tu identitate verificate o pro emails multo importante o illos ubi tu debe reciper annexos. Per exemplo, tu compartira tu real adresse email con tu banca, tu doctor e tu advocato e quando recipe permissiones de entrata a concerto o volo.
 # Deprecated
 faq-question-2-question = Perque un sito non acceptara mi alias de { -brand-name-relay }?
+faq-question-2-question-2 = Perque un sito non acceptara mi masca email de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
