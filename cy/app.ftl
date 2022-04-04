@@ -34,7 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd creu arallenwau e-bostio, arallenwau sy'n cael eu hanfon ymlaen i'ch blwch derbyn go iawn. Defnyddiwch hwn i ddiogelu eich cyfrifon ar-lein rhag hacwyr a negeseuon digroeso.
-meta-description-2 = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd creu masgiau e-bost sy'n cael eu hanfon ymlaen i'ch blwch derbyn go iawn. Defnyddiwch nhw i ddiogelu eich cyfrifon ar-lein rhag hacwyr a negeseuon digroeso.
+meta-description-2 = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd creu arallenwau e-bostio, arallenwau sy'n cael eu hanfon ymlaen i'ch blwch derbyn go iawn. Defnyddiwch hwn i ddiogelu eich cyfrifon ar-lein rhag hacwyr a negeseuon digroeso.
 
 ## Header 
 
@@ -139,14 +139,14 @@ how-it-works-step-1-copy =
     Mewngofnodwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 # Deprecated
 how-it-works-step-2-headline = Creu arallenw newydd
-how-it-works-step-2-headline-2 = Creu masg e-bost newydd
+how-it-works-step-2-headline-2 = Creu arallenw newydd
 how-it-works-step-2-copy =
     Wrth i chi bori, bydd eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
     Gofynnwch i Relay i gynhyrchu cyfeiriad newydd, ar hap sy'n gorffen gyda @relay.firefox.com.
     Bydd { -brand-name-relay } yn anfon negeseuon i'r prif gyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif.
 # Deprecated
 how-it-works-step-3-headline = Rheoli eich arallenwau
-how-it-works-step-3-headline-2 = Rheoli eich masgiau e-bost
+how-it-works-step-3-headline-2 = Rheoli eich arallenwau ebost
 hero-image-copy-trust = Ydych chi'n gallu ymddiried yn y cwmni hwn gyda'ch e-bost personol?
 hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
 hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
@@ -164,7 +164,7 @@ landing-hero-body =
     Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
     Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 landing-hero-body-2 =
-    Mae masgiau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
+    Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
     Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 
 ## How it works section
@@ -172,29 +172,44 @@ landing-hero-body-2 =
 landing-how-it-works-headline = Sut mae'n gweithio
 # Deprecated
 landing-how-it-works-body = Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i diogelu eich blwch derbyn e-byst, yn ogystal â'ch hunaniaeth.
+landing-how-it-works-body-2 = Rhannwch arallenwau e-bost { -brand-name-relay } yn lle eich cyfeiriad e-bost go iawn i diogelu eich blwch derbyn e-byst, yn ogystal â'ch hunaniaeth.
 landing-how-it-works-step-1-body-cta = Llwythwch estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } i lawr.
 # Deprecated
 landing-how-it-works-step-1-body = Cynhyrchwch arallenwau e-bost yn awtomatig lle bynnag y byddwch chi'n rhoi'ch cyfeiriad e-bost ar-lein.
+landing-how-it-works-step-1-body-2 = Cynhyrchwch arallenwau e-bost yn awtomatig lle bynnag y byddwch chi'n rhoi'ch cyfeiriad e-bost ar-lein.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
+    Wrth i chi bori, bydd yr eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
+    Dewiswch ef i gynhyrchu cyfeiriad ar hap newydd sy'n gorffen gyda @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
     Wrth i chi bori, bydd yr eicon { -brand-name-relay } yn ymddangos lle mae gwefannau'n gofyn am eich cyfeiriad e-bost.
     Dewiswch ef i gynhyrchu cyfeiriad ar hap newydd sy'n gorffen gyda @relay.mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Mewngofnodwch i fwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu. Bydd { -brand-name-relay } yn anfon negeseuon ymlaen i'ch cyfeiriad e-bost.
     Os gwelwch fod un yn derbyn sbam neu negeseuon diofyn, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, yn syth o'r bwrdd gwaith.
+landing-how-it-works-step-3-body-2 =
+    Mewngofnodwch i fwrdd gwaith { -brand-name-relay } i gadw golwg ar yr arallenwau rydych chi wedi'u creu.
+    Os gwelwch fod un yn derbyn sbam neu negeseuon diofyn, gallwch rwystro pob neges neu hyd yn oed ddileu'r arallenwau, yn syth o'r bwrdd gwaith.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Am amser cyfyngedig: Arallenwau dirifedi am { $monthly_price } y mis
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Am amser cyfyngedig: Arallenwau e-bost dirifedi am { $monthly_price } y mis
 # Deprecated
 landing-pricing-body =
     Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
     Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanylach.
+landing-pricing-body-2 =
+    Rhowch gynnig ar arallenwau e-bost { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
+    Yna uwchraddiwch i { -brand-name-relay-premium } i gael hyd yn oed mwy o hyblygrwydd a rheolaeth fanylach.
 landing-pricing-free-price = Am Ddim
 # Deprecated
 landing-pricing-free-feature-1 = Hyd at 5 arallenw e-bost
+landing-pricing-free-feature-1-2 = Hyd at 5 arallenw e-bost
 landing-pricing-free-feature-2 = Estyniad porwr
 landing-pricing-free-cta = Cael { -brand-name-relay }
 # Variables:
@@ -203,9 +218,11 @@ landing-pricing-premium-price = { $monthly_price }/mis
 landing-pricing-premium-price-highlight = Prisio am gyfnod cyfyngedig
 # Deprecated
 landing-pricing-premium-feature-1 = Arallenwau e-bost dirifedi
+landing-pricing-premium-feature-1-2 = Arallenwau e-bost dirifedi
 landing-pricing-premium-feature-2 = Estyniad porwr
 # Deprecated
 landing-pricing-premium-feature-3 = Eich parth e-bost eich hun
+landing-pricing-premium-feature-3-2 = Eich is-parth e-bost eich hun
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Ateb e-byst a anfonwyd ymlaen
@@ -213,21 +230,32 @@ landing-pricing-premium-feature-5 = Rhwystro e-byst hyrwyddo
 
 ## Use Cases
 
+landing-use-cases-heading = Defnyddiwch { -brand-name-firefox-relay } ar gyfer:
 landing-use-cases-shopping = Siopa
 # Deprecated
 landing-use-cases-shopping-body =
     Yn prynu rhywbeth o siop ar-lein newydd? Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth brynu ar-lein.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch anfon ymlaen y neges e-bost i ffwrdd.
+landing-use-cases-shopping-body-2 =
+    Yn prynu rhywbeth o siop ar-lein newydd? Defnyddiwch arallenw e-bost yn lle eich e-bost go-iawn wrth brynu ar-lein.
     Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch anfon ymlaen y neges e-bost i ffwrdd.
 landing-use-cases-social-networks = Rhwydweithiau Cymdeithasol
 # Deprecated
 landing-use-cases-social-networks-body =
     Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
     Yn ceisio cadw'ch e-bost go iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
+landing-use-cases-social-networks-body-2 =
+    Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
+    Yn ceisio cadw'ch e-bost go-iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
 landing-use-cases-offline = All-lein
 # Deprecated
 landing-use-cases-offline-body =
     Yn well gennych gael derbynebau e-bost, ond eisiau osgoi sbam marchnata hefyd?
     Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost wrth gael derbynneb ddi-bapur mewn siop.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
+landing-use-cases-offline-body-2 =
+    Yn well gennych gael derbynebau e-bost, ond eisiau osgoi sbam marchnata hefyd?
+    Defnyddiwch arallenw e-bost { -brand-name-relay } yn lle eich e-bost wrth gael derbynneb ar-lein mewn siop.
     Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
 landing-use-cases-access-content = Mynediad i Gynnwys
 # Deprecated
