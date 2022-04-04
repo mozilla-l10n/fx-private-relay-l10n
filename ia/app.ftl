@@ -431,6 +431,8 @@ profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
 # Deprecated
 profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
 profile-promo-upgrade-cta = Promove { -brand-name-relay }
+profile-details-expand = Monstrar le detalios del masca
+profile-details-collapse = Celar le detalios del masca
 # Deprecated
 profile-label-edit = Modificar le nomine de ce alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -447,11 +449,17 @@ profile-label-delete = Deler
 # Deprecated
 profile-label-delete-alias = Deler iste alias
 # Deprecated
+profile-label-delete-alias-2 = Deler iste alias
+# Deprecated
 profile-label-upgrade = Obtene aliases illimitate
+profile-label-upgrade-2 = Obtener mascas e-mail illimitate
 # Deprecated
 profile-label-create-domain = Obtene tu dominio e-mail
+profile-label-create-subdomain = Obtene tu subdominio e-mail
 # Deprecated
 profile-label-domain = Dominio de email:
+profile-label-subdomain = Subdominio email:
+profile-label-subdomain-tooltip-trigger = Plus de informationes
 # Deprecated
 profile-label-domain-tooltip = Crea tu unic e personal dominio e-mail.
 profile-label-reset = Reinitialisar
@@ -471,6 +479,7 @@ profile-label-forwarding = reexpedir
 profile-label-blocking = blocada
 # Deprecated
 profile-label-disable-forwarding-button = Disactivar le reexpedition de e-mail pro iste alias
+profile-label-disable-forwarding-button-2 = Disactivar le reexpedition de email pro iste mascas
 # Deprecated
 profile-label-enable-forwarding-button = Activar le reexpedition de e-mail pro iste alias
 profile-label-click-to-copy = Clicca pro copiar
@@ -636,13 +645,16 @@ modal-custom-alias-picker-form-prefix-label = Insere un prefixo de alias
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "caffe"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Generar alias
+modal-custom-alias-picker-form-submit-label-2 = Generar masca
 # Deprecated
 modal-custom-alias-picker-creation-error = Tu alias personal non pote esser create manualmente. Retenta, o invia un e-mail al alias pro crear lo.
+modal-custom-alias-picker-creation-error-2 = Tu masca email personal non pote esser create manualmente. Retenta, o invia un email al masca pro crear lo.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Como crear aliases personalisate
+popover-custom-alias-explainer-heading-2 = Como crear mascas personalisate
 # Deprecated
 popover-custom-alias-explainer-explanation = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
 # Deprecated
