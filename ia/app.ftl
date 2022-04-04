@@ -259,21 +259,28 @@ premium-promo-availability-warning = { -brand-name-relay-premium } es actualment
 premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate aliases e-mail e tu proprie dominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
+premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
 premium-promo-perks-cta-label = Promover ora
 premium-promo-perks-cta-tooltip = Promover a { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crea illimitate aliases e-mail
+premium-promo-perks-perk-unlimited-headline-2 = Crea illimitate mascas email
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Jammais plus limite de cinque-alias: con { -brand-name-relay-premium }, tu pote generar quante aliases te besonia pro adjutar proteger tu cassa de ingresso e-mail ab le spammatores e traciatores online. Tu pote mesmo replicar al e-mails sin exponer tu real adresse.
 premium-promo-perks-perk-custom-domain-headline = Elige tu proprie dominio personal
+premium-promo-perks-perk-custom-domain-headline-2 = Elige tu proprie subdominio personal
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Con un dominio personal, tu pote crear aliases que es plus facile que mais a rememorar e compartir. Besonia te de un pro reservationes de restaurante? Usa un como alimentos@mydomain.mozmail.com — Nulle besonio de crear le alias previemente.
+premium-promo-perks-perk-custom-domain-body-2 = Con un subdominio personal, tu pote crear mascas que es plus facile que mais a rememorar e compartir. Besonia tu de un pro reservationes de restaurante? Usa un como alimentos@mydomain.mozmail.com — Nulle besonio de crear le alias previemente.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Controla tu aliases ab le pannello de controlo
+premium-promo-perks-perk-dashboard-headline-2 = Controla tu mascas ab le pannello de controlo
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Gere tote tu aliases in le pannello de controlo facile a usar: si tu trova que un recipe messages indesirate, tu pote blocar ille messages de attinger tu cassa de ingresso.
+premium-promo-perks-perk-dashboard-body-2 = Gere tote tu mascas email in le pannello de controlo facile a usar: si tu trova que un recipe messages indesirate, tu pote blocar ille messages de attinger tu cassa de ingresso.
 # Deprecated
 premium-promo-use-cases-headline = Usa ubique aliases e-mail { -brand-name-relay }
+premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
 premium-promo-use-cases-shopping-body = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal aliases, como “mydeals@mydomain.mozmail.com.”
@@ -382,6 +389,7 @@ faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -bra
 faq-question-longevity-answer = Nos in avantia te dara aviso que tu debe cambiar le adresse e-mail de ulle contos que usa aliases { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Perque mi aliases comenciava usar le dominio “mozmail.com?”
+faq-question-mozmail-question-2 = Perque mi mascas email comenciava usar le dominio “mozmail.com?”
 # Deprecated
 faq-question-mozmail-answer = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un dominio e-mail personal, tal como alias@yourdomain.mozmail.com. Le dominios e-mail personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, alsi rende tu aliases e-mail multo plus facile a rememorar que aliases aleatori.
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
