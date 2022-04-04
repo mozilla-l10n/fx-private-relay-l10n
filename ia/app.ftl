@@ -206,6 +206,7 @@ landing-pricing-premium-feature-5 = Blocar e-mails promotional
 
 ## Use Cases
 
+landing-use-cases-heading = Usa { -brand-name-firefox-relay } pro:
 landing-use-cases-shopping = Compras
 # Deprecated
 landing-use-cases-shopping-body =
