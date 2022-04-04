@@ -272,6 +272,9 @@ landing-use-cases-gaming = Chwarae Gemau
 landing-use-cases-gaming-body =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch arallenw { -brand-name-relay } i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
+landing-use-cases-gaming-body-2 =
+    Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
+    Defnyddiwch e-bost arallenw i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
 
 ## Landing FAQ Section
 
@@ -283,35 +286,49 @@ landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael arallenwau e-bost cyfaddas dirifedi sy'n anfon dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i Relay Premium am ddim ond { $monthly_price } y mis.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael e-byst arallenwau cyfaddas dirifedi sy'n anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go-iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i { -brand-name-relay-premium } am ddim ond { $monthly_price } y mis.</b>
 premium-promo-hero-cta = Uwchraddiwch nawr
 premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
 premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag arallenwau e-bost dirifedi a'ch parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
+premium-promo-perks-lead-2 = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag e-byst arallenwau dirifedi a'ch is-parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
 premium-promo-perks-cta-label = Uwchraddiwch nawr
 premium-promo-perks-cta-tooltip = Uwchraddiwch i { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crëwch arallenwau e-bost dirifedi
+premium-promo-perks-perk-unlimited-headline-2 = Crëwch e-byst arallenwau dirifedi
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Dim rhagor o gyfyngiad pump arallenws: gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i diogelu eich blwch drebyn e-bost rhag sbamwyr a thracwyr ar-lein. Gallwch hyd yn oed ateb e-byst heb ddatgelu eich cyfeiriad go iawn.
+premium-promo-perks-perk-unlimited-body-2 = Dim rhagor o gyfyngiad pum e-bost arallenw: gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o e-byst arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-byst rhag sbamwyr a thracwyr ar-lein. Gallwch hyd yn oed ateb e-byst heb ddatgelu eich cyfeiriad go iawn.
 premium-promo-perks-perk-custom-domain-headline = Dewiswch eich parth cyfaddas eich hun
+premium-promo-perks-perk-custom-domain-headline-2 = Dewiswch eich is-barth cyfaddas eich hun
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Gyda pharth cyfaddas, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does dim rhaid creu'r arallenw ymlaen llaw.
+premium-promo-perks-perk-custom-domain-body-2 = Gydag is-barth cyfaddas, gallwch greu e-byst arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does dim rhaid creu'r arallenw ymlaen llaw.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Rheolwch eich arallenwau o'r bwrdd gwaith
+premium-promo-perks-perk-dashboard-headline-2 = Rheolwch eich e-byst arallenwau o'r bwrdd gwaith
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Rheolwch eich holl arallenwau yn y bwrdd gwaith hawdd ei ddefnyddio: os gwelwch fod un yn derbyn negeseuon diofyn, gallwch rwystro'r negeseuon hynny rhag cyrraedd eich blwch derbyn.
+premium-promo-perks-perk-dashboard-body-2 = Rheolwch eich holl e-byst arallenwau yn y bwrdd gwaith hawdd ei ddefnyddio: os gwelwch fod un yn derbyn negeseuon diofyn, gallwch rwystro'r negeseuon hynny rhag cyrraedd eich blwch derbyn.
 # Deprecated
 premium-promo-use-cases-headline = Defnyddiwch arallenwau e-bost { -brand-name-relay } yn unrhyw le
+premium-promo-use-cases-headline-2 = Defnyddiwch e-byst arallenwau { -brand-name-relay } yn unrhyw le
 premium-promo-use-cases-shopping-heading = Siopa
 # Deprecated
 premium-promo-use-cases-shopping-body = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
+premium-promo-use-cases-shopping-body-2 = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan e-byst arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
 # Deprecated
 premium-promo-use-cases-social-networks-body = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn agored i'r gwefannau hynny.
+premium-promo-use-cases-social-networks-body-2 = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch e-byst arallenwau gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn rhy agored ar y gwefannau hynny.
 premium-promo-use-cases-gaming-heading = Gemau
 # Deprecated
 premium-promo-use-cases-gaming-body = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch alias fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
+premium-promo-use-cases-gaming-body-2 = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch e-bost arallenw fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
 premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
 
 ## Settings page
@@ -327,14 +344,21 @@ settings-error-save-heading = Methodd newid y gosodiadau
 settings-error-save-description = Nid yw eich newidiadau i'r gosodiadau wedi eu cadw oherwydd gwall cysylltiad. Ceisiwch eto, os gwelwch yn dda.
 # Deprecated
 settings-warning-collection-off-heading = Mae swyddogaeth label arallenw e-bost wedi'i analluogi
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Mae swyddogaeth label e-bost arallenw wedi'i analluogi
 # Deprecated
 settings-warning-collection-off-description = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio arallenwau e-bost. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio e-bust arallenwau. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Preifatrwydd
 # Deprecated
 setting-label-collection-description = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich arallenwau'n cael eu creu a'u defnyddio.
+setting-label-collection-description-2 = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich e-byst arallenwau'n cael eu creu a'u defnyddio.
 # Deprecated
 setting-label-collection-off-warning = Bydd y data hwn yn caniatáu i ni labelu'ch arallenwau â'r gwefannau perthnasol mewn fersiwn yn y dyfodol. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Bydd y data hwn yn caniatáu i ni labelu'ch e-byst arallenwau â'r gwefannau lle maen nhw'n cael eu defnyddio. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich e-byst arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
 settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
 
@@ -348,12 +372,16 @@ faq-headline = Cwestiynau Cyffredin
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Beth yw arallenw { -brand-name-relay }?
+faq-question-what-is-question-2 = Beth yw e-bost arallenw { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Mae arallenwau e-bost yn gyfeiriadau e-bost wedi'u cuddio sy'n anfon negeseuon i'ch gwir gyfeiriad e-bost. Mae'r arallenwau hyn yn caniatáu ichi rannu cyfeiriad â thrydydd parti sy'n cuddio'ch gwir gyfeiriad e-bost ac yn anfon negeseuon atyn nhw.
+faq-question-what-is-answer-2 = Mae e-bost arallenw yn gyfeiriadau e-bost wedi'i guddio sy'n anfon neges i'ch gwir gyfeiriad e-bost. Mae'r e-bost arallenw yn caniatáu i chi rannu cyfeiriad â thrydydd parti sy'n cuddio'ch gwir gyfeiriad e-bost ac yn anfon neges ymlaen ato.
 # Deprecated
 faq-question-missing-emails-question = Nid wyf yn cael negeseuon o fy arallenwau
+faq-question-missing-emails-question-2 = Nid wyf yn derbyn negeseuon gan fy e-bost arallenw
 # Deprecated
 faq-question-missing-emails-answer-a = Mae yna ychydig o resymau efallai pam nad ydych chi'n derbyn e-byst sy'n cael eu hanfon ymlaen trwy eich arallenwau. Mae'r rhesymau hyn yn cynnwys:
+faq-question-missing-emails-answer-a-2 = Mae yna rai rhesymau efallai pam nad ydych chi'n derbyn e-byst sy'n cael eu hanfon ymlaen trwy eich e-byst arallenwau. Mae'r rhesymau hyn yn cynnwys:
 faq-question-missing-emails-answer-reason-spam = Mae negeseuon yn mynd i'r sbam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Mae eich darparwr e-bost yn rhwystro'ch arallenwau
