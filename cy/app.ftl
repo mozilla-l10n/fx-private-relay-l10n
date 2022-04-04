@@ -146,6 +146,7 @@ how-it-works-step-2-copy =
     Bydd { -brand-name-relay } yn anfon negeseuon i'r prif gyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif.
 # Deprecated
 how-it-works-step-3-headline = Rheoli eich arallenwau
+how-it-works-step-3-headline-2 = Rheoli eich masgiau e-bost
 hero-image-copy-trust = Ydych chi'n gallu ymddiried yn y cwmni hwn gyda'ch e-bost personol?
 hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
 hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
@@ -157,9 +158,13 @@ hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n 
 
 # Deprecated
 landing-hero-headline = Diogelwch eich cyfeiriad e-bost go iawn i helpu rheoli eich blwch derbyn
+landing-hero-headline-2 = Diogelwch eich cyfeiriad e-bost go iawn i helpu rheoli eich blwch derbyn
 # Deprecated
 landing-hero-body =
     Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
+    Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+landing-hero-body-2 =
+    Mae masgiau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
     Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
 
 ## How it works section
