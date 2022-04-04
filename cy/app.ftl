@@ -385,11 +385,14 @@ faq-question-missing-emails-answer-a-2 = Mae yna rai rhesymau efallai pam nad yd
 faq-question-missing-emails-answer-reason-spam = Mae negeseuon yn mynd i'r sbam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Mae eich darparwr e-bost yn rhwystro'ch arallenwau
+faq-question-missing-emails-answer-reason-blocked-2 = Mae eich darparwr e-bost yn rhwystro'ch e-byst arallenwau
 faq-question-missing-emails-answer-reason-size = Mae gan yr e-bost a anfonwyd atodiad sy'n fwy na { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Nid yw'r wefan yn derbyn arallenwau
+faq-question-missing-emails-answer-reason-not-accepted-2 = Nid yw'r wefan yn derbyn e-byst arallenwau
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Efallai bod yr arallenw wedi diffodd anfon ymlaen
+faq-question-missing-emails-answer-reason-turned-off-2 = Efallai bod yr e-byst arallenwau wedi diffodd anfon ymlaen
 faq-question-missing-emails-answer-reason-delay = Efallai y bydd { -brand-name-relay } yn cymryd mwy o amser na'r arfer i anfon eich negeseuon ymlaen
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -399,6 +402,7 @@ faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-
 faq-question-missing-emails-answer-support-site-html = Os ydych chi'n cael trafferth gydag unrhyw un o'r materion hyn, ewch <a href="{ $url }" { $attrs }>ewch i'n gwefan gymorth</a>.
 # Deprecated
 faq-question-use-cases-question = Pryd ddylwn i ddefnyddio arallenw { -brand-name-relay }?
+faq-question-use-cases-question-2 = Pryd ddylwn i ddefnyddio e-bost arallenw { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Gallwch ddefnyddio arallenwau { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata neu wybodaeth lle efallai yr hoffech reoli a fyddwch yn derbyn e-byst yn y dyfodol ai peidio.
 # Deprecated
