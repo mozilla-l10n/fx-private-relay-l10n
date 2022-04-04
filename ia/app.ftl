@@ -434,6 +434,7 @@ faq-question-mozmail-question = Perque mi aliases comenciava usar le dominio “
 faq-question-mozmail-question-2 = Perque mi mascas email comenciava usar le dominio “mozmail.com?”
 # Deprecated
 faq-question-mozmail-answer = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un dominio e-mail personal, tal como alias@yourdomain.mozmail.com. Le dominios e-mail personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, alsi rende tu aliases e-mail multo plus facile a rememorar que aliases aleatori.
+faq-question-mozmail-answer-2 = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un subdominio email personal, tal como mask@yourdomain.mozmail.com. Le subdominios email personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, te permitte de generar mascas email plus facile a rememorar.
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
 faq-question-attachments-answer-v2 = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 # Deprecated
