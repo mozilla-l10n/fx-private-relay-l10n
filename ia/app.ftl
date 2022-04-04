@@ -157,6 +157,9 @@ landing-hero-headline-2 = Protege tu ver adresse e-mail pro adjutar proteger tu 
 landing-hero-body =
     Le aliases e-mail de { -brand-name-firefox-relay } protege tu real adresse e-mail del vision public, automaticamente inultrante e-mails a tu real cassa de ingresso. 
     Ora tu pote reciper solo le e-mails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
+landing-hero-body-2 =
+    Le mascas email de { -brand-name-firefox-relay } protege tu ver adresse e-mail del vision public, automaticamente inultrante emails a tu ver cassa de ingresso. 
+    Ora tu pote reciper solo le emails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
 
 ## How it works section
 
@@ -179,11 +182,17 @@ landing-how-it-works-step-2-body-2 =
 landing-how-it-works-step-3-body =
     Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del aliases que tu ha create. { -brand-name-relay } inultrara le messages a tu adresse e-mail. 
     Si un alias te forni SPAM o messages indesirate, tu pote blocar tote le messages o mesmo deler le alias, justo per le pannello de controlo..
+landing-how-it-works-step-3-body-2 =
+    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del mascas email que tu ha create.
+    Si tu trova que un de istes recipe spam o messages indesirate, tu pote blocar tote le messages o mesmo deler le masca, directemente ab le pannello de controlo.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Solo pro tempore limitate: aliases illimitate pro { $monthly_price } cata mense
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Solo pro tempore limitate: aliases illimitate pro { $monthly_price } cata mense
 # Deprecated
 landing-pricing-body = Prova aliases { -brand-name-firefox-relay } e comencia proteger tu cassa de ingresso. Tunc promove a { -brand-name-relay-premium } pro ancora plus flexibilitate e controlo personalisate.
 landing-pricing-free-price = Libere
