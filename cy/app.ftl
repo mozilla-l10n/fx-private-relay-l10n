@@ -246,7 +246,7 @@ landing-use-cases-social-networks-body =
     Yn ceisio cadw'ch e-bost go iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
 landing-use-cases-social-networks-body-2 =
     Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol?
-    Yn ceisio cadw'ch e-bost go-iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch arallenw { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
+    Yn ceisio cadw'ch e-bost go-iawn rhag cael ei gysylltu â'ch presenoldeb ar gyfryngau cymdeithasol? Defnyddiwch e-byst arallenwau { -brand-name-relay } i fewngofnodi a helpu i ddiogelu eich hun ar-lein.
 landing-use-cases-offline = All-lein
 # Deprecated
 landing-use-cases-offline-body =
@@ -255,8 +255,8 @@ landing-use-cases-offline-body =
     Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
 landing-use-cases-offline-body-2 =
     Yn well gennych gael derbynebau e-bost, ond eisiau osgoi sbam marchnata hefyd?
-    Defnyddiwch arallenw e-bost { -brand-name-relay } yn lle eich e-bost wrth gael derbynneb ar-lein mewn siop.
-    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, trowch y neges e-bost i ffwrdd.
+    Defnyddiwch e-byst arallenwau { -brand-name-relay } yn lle eich e-bost go-iawn wrth dderbyn derbynneb ar-lein mewn siop.
+    Byddwn yn anfon y dderbynneb ymlaen i'ch cyfeiriad e-bost go iawn, ac os byddwch chi'n dechrau cael e-byst nad ydych chi'n eu hoffi, gallwch ddiffodd anfon yr e-bost ymlaen.
 landing-use-cases-access-content = Mynediad i Gynnwys
 # Deprecated
 landing-use-cases-access-content-body =
