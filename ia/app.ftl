@@ -34,6 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } rende facile crear aliases de e-mail que reexpedi le messages a tu cassa de entrata real. Usa lo pro proteger tu contos in linea contra piratas informatic e messages indesirate.
+meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas email que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
 
 ## Header 
 
