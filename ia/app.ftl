@@ -132,12 +132,14 @@ how-it-works-step-1-link = Discarga le extension { -brand-name-relay } pro { -br
 how-it-works-step-1-copy = Elige le icone que appare sur tu barra del instrumentos de { -brand-name-firefox } pro acceder al pagina de authentication. Accede con tu { -brand-name-firefox-account } pro comenciar.
 # Deprecated
 how-it-works-step-2-headline = Crear un nove alias
+how-it-works-step-2-headline-2 = Crear un nove masca email
 how-it-works-step-2-copy =
     Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse de e-mail.
     Selige lo pro generar un nove adresse aleatori que termina in @relay.firefox.com.
     { -brand-name-relay } reexpedira le messages al adresse de e-mail primari associate a tu conto.
 # Deprecated
 how-it-works-step-3-headline = Gere tu aliases
+how-it-works-step-3-headline-2 = Gere tu mascas email
 hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
 hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
@@ -160,6 +162,7 @@ landing-hero-body =
 landing-how-it-works-headline = Como functiona illo
 # Deprecated
 landing-how-it-works-body = Comparti aliases e-mail de { -brand-name-relay }, in vice del tu real adresse e-mail pro proteger tu cassa de ingresso e tu identitate.
+landing-how-it-works-body-2 = Comparti mascas email de { -brand-name-relay }, in vice del tu ver adresse e-mail pro proteger tu cassa de ingresso e tu identitate.
 landing-how-it-works-step-1-body-cta = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Genera automaticamente aliases e-mail ubicunque tu insere tu adresse e-mail online.
