@@ -582,6 +582,8 @@ profile-filter-category-option-disabled-aliases-v2 = Blocante aliases
 profile-filter-category-option-disabled-masks = Blocante mascas
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Aliases casual
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Mascas aleatori
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
 # Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -619,10 +621,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } es ancora melior in { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le creation del aliases.
+banner-download-firefox-copy-2 = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le creation del mascas.
 banner-download-firefox-cta = Discarga { -brand-name-firefox }
 banner-download-install-extension-headline = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le uso del aliases de e-mail.
+banner-download-install-extension-copy-2 = Le extension { -brand-name-relay } pro { -brand-name-firefox-browser } rende mesmo plus facile le uso del mascas email.
 banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Proba { -brand-name-relay } pro { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases.
