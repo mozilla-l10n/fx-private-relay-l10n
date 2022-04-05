@@ -134,9 +134,11 @@ how-it-works-step-1-copy =
     用 { -brand-name-firefox-account }登录，开始使用。
 # Deprecated
 how-it-works-step-2-headline = 新建马甲
+how-it-works-step-2-headline-2 = 新建马甲邮箱
 how-it-works-step-2-copy = 当您上网时，{ -brand-name-relay } 图标会出现在网站请您填写的电子邮件地址栏。选择该图标即可生成一组以 @relay.firefox.com 结尾的全新随机邮箱。{ -brand-name-relay } 将会转发邮件至您账户所绑定的主邮箱地址。
 # Deprecated
 how-it-works-step-3-headline = 管理马甲
+how-it-works-step-3-headline-2 = 管理您的马甲邮箱
 hero-image-copy-trust = 在这家公司网站上用您的个人邮箱，放心？
 hero-image-copy-unique-html = 为每个新账户<strong>使用不同 relay 邮箱</strong>…
 hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
@@ -148,8 +150,12 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 # Deprecated
 landing-hero-headline = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰
+landing-hero-headline-2 = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰
 # Deprecated
 landing-hero-body =
+    { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
+    从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
+landing-hero-body-2 =
     { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
     从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
 
@@ -158,9 +164,11 @@ landing-hero-body =
 landing-how-it-works-headline = 工作原理
 # Deprecated
 landing-how-it-works-body = 提供 { -brand-name-relay } 马甲邮箱，掩藏真实邮箱地址，从而保护您的邮箱及身份信息。
+landing-how-it-works-body-2 = 提供 { -brand-name-relay } 马甲邮箱，掩藏真实邮箱地址，从而保护您的邮箱及身份信息。
 landing-how-it-works-step-1-body-cta = 下载 { -brand-name-firefox } 的 { -brand-name-relay } 扩展。
 # Deprecated
 landing-how-it-works-step-1-body = 在输入邮箱地址时自动生成马甲邮箱
+landing-how-it-works-step-1-body-2 = 在输入邮箱地址时自动生成马甲邮箱
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     在您浏览网页时，{ -brand-name-relay } 图标将出现在网站要求您提供电子邮件地址的位置。
@@ -176,6 +184,9 @@ landing-how-it-works-step-3-body-2 = 登录 { -brand-name-relay } 即可总览�
 
 # Deprecated
 landing-pricing-headline = 限时活动：每月 { $monthly_price } 即可获得无限数量马甲
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = 限时活动：每月 { $monthly_price } 即可获得无限数量马甲
 # Deprecated
 landing-pricing-body = 使用 { -brand-name-firefox-relay } 马甲邮箱就可保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则能获得更多灵活性和控制选项。
 landing-pricing-body-2 = 试用 { -brand-name-firefox-relay } 马甲邮箱保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则可获得更多灵活性和控制选项。
@@ -219,9 +230,11 @@ landing-use-cases-offline-body-2 = 更喜欢电子邮件收据，但也想避免
 landing-use-cases-access-content = 网络读物
 # Deprecated
 landing-use-cases-access-content-body = 想要订阅某个新闻通讯，但不信任发件人？请使用马甲邮箱。若您开始收到转发的无关电子邮件，则说明发件人可能已将您的马甲邮箱出售给其他营销人员，甚至可能已被公开泄露。此时，只需关闭或删除马甲即可保护您的收件箱。
+landing-use-cases-access-content-body-2 = 想要订阅某个新闻通讯，但不信任发件人？请使用马甲邮箱。若您开始收到转发的无关电子邮件，则说明发件人可能已将您的马甲邮箱出售给其他营销人员，甚至可能已被公开泄露。此时，只需关闭或删除马甲即可保护您的收件箱。
 landing-use-cases-gaming = 游戏
 # Deprecated
 landing-use-cases-gaming-body = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用 { -brand-name-relay } 马甲邮箱，多一层身份伪装，多一份安全。
+landing-use-cases-gaming-body-2 = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用马甲邮箱，多一层身份伪装，多一份安全。
 
 ## Landing FAQ Section
 
