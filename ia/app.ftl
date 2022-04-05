@@ -648,6 +648,16 @@ banner-register-subdomain-copy =
     Con un dominio personalisate, tu pote compartir aliases sin deber generar los
     ante los usar. Besonia tu un pro un reservation? Da
     “restaurante@tudominio.{ $mozmail }” al restaurante. Cata alias que usa tu dominio essera inultrate a te.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Con un dominio personalisate, tu pote compartir mascas sin deber generar los
+    ante usar los. Besonia tu un pro un reservation? Da
+    “restaurante@tudominio.{ $mozmail }” al restaurante. Cata alias que usa tu
+     subdominio personal essera inultrate a te.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Cercar dominio
 # Deprecated
@@ -728,6 +738,7 @@ modal-custom-alias-picker-heading-2 = Crear un nove masca personalisate
 modal-custom-alias-picker-warning = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
 # Deprecated
 modal-custom-alias-picker-form-heading = O, crea manualmente un alias personal
+modal-custom-alias-picker-form-heading-2 = O, crea manualmente un masca personal
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Insere un prefixo de alias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
@@ -749,8 +760,10 @@ popover-custom-alias-explainer-heading-2 = Como crear mascas personalisate
 popover-custom-alias-explainer-explanation = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personal
+popover-custom-alias-explainer-generate-button-heading-2 = Genera manualmente un masca personal
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Generar alias personalisate
+popover-custom-alias-explainer-generate-button-label-2 = Generar masca personalisate
 popover-custom-alias-explainer-close-button-label = Clauder
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
