@@ -253,11 +253,18 @@ landing-use-cases-access-content-body =
     Vole tu inscribe te a ille littera de novas, ma non te fide del expeditor? 
     Usa un alias in vice del tu real adresse — si tu comencia reciper indesirate e-mails per ille alias, le expeditor pote haber vendite tu alias a altere mercatores, o illo pote mesmo haber essite revelate in un violation de datos. 
     Solo disactiva o dele le alias pro proteger tu cassa de ingresso e-mail.
+landing-use-cases-access-content-body-2 =
+    Vole tu inscriber te a ille littera de novas, ma non te fide del expeditor? 
+    Usa un masca in vice del tu ver adresse email  — si tu comencia reciper indesirate emails per ille mascas, le expeditor pote haber vendite tu mascas a altere mercatores, o illo pote mesmo haber essite revelate in un violation de datos. 
+    Solo disactiva o dele le mascas pro proteger tu cassa de ingresso email.
 landing-use-cases-gaming = Jocos
 # Deprecated
 landing-use-cases-gaming-body =
     Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse e-mail? 
     Usa un alias de { -brand-name-relay } pro poner un altere strato de protection inter tu online identitate e le jocos que tu practica online.
+landing-use-cases-gaming-body-2 =
+    Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse email? 
+    Usa un masca email pro poner un altere strato de protection inter tu identitate online e le jocos que tu practica online.
 
 ## Landing FAQ Section
 
