@@ -312,6 +312,7 @@ premium-promo-use-cases-social-networks-body = Vole tu proteger melio tu identit
 premium-promo-use-cases-gaming-heading = Jocos
 # Deprecated
 premium-promo-use-cases-gaming-body = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un alias como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
+premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
 premium-promo-pricing-free-price = Tu actual plano gratuite
 
 ## Settings page
@@ -446,11 +447,17 @@ faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-ma
 faq-question-attachments-answer-v2 = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
 # Deprecated
 faq-question-unsubscribe-domain-question = Que eveni a mi dominio personal si io me remove del inrolamento de { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = Que eveni a mi subdominio personal si io me remove del abonamento de { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora e-mails inultrate a transverso de tu dominio personal, ma tu non plus potera crear nove aliases per ille dominio. Si tu ha plus que cinque aliases in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote resubscriber te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
+faq-question-unsubscribe-domain-answer-2 = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora emails inultrate a transverso de tu mascas email personal, ma tu non plus potera crear nove mascas per ille subdominio. Si tu ha plus que cinque mascas in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote re-abonar te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-8-answer-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu aliases e-mail assi nos pote fornir te ille servicio e lo meliorar pro te.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu mascas email assi nos pote fornir te ille servicio e meliorar lo pro te.
 faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
 faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
 faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-name-relay }?
@@ -565,6 +572,8 @@ profile-stat-label-aliases-used-2 = Mascas email usate
 # Deprecated
 profile-filter-search-placeholder = Cercar aliases
 profile-filter-search-placeholder-2 = Cercar in mascas
+profile-filter-category-button-label = Filtrar le mascas visibile
+profile-filter-category-title = Filtrar le mascas visibile
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Inultrante aliases
 # Deprecated
@@ -690,6 +699,10 @@ error-subdomain-email-not-created = Le adresse e-mail con sub-dominio non pote e
 error-subdomain-select = Tu debe seliger un sub-dominio ante de crear un alias de sub-dominio
 # Deprecated
 error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es disponibile. Retenta con un altere dominio.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Le subdominio @{ $unavailable_subdomain } non es disponibile. Retenta con un altero.
+error-settings-update = Un error occurreva durante le actualisation de parametros, reproba.
 
 ## Tips and tricks at the bottom of the page
 
@@ -706,6 +719,7 @@ tips-footer-link-support-tooltip = Contactar supporto
 
 # Deprecated
 modal-custom-alias-picker-heading = Crear un nove alias personalisate
+modal-custom-alias-picker-heading-2 = Crear un nove masca personalisate
 # Deprecated
 modal-custom-alias-picker-warning = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
 # Deprecated
