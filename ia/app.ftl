@@ -482,14 +482,20 @@ profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitat
 profile-promo-upgrade-cta = Promove { -brand-name-relay }
 profile-details-expand = Monstrar le detalios del masca
 profile-details-collapse = Celar le detalios del masca
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Clicca pro copiar le masca { $address }.
 # Deprecated
 profile-label-edit = Modificar le nomine de ce alias
+profile-label-edit-2 = Modificar le nomine de iste masca
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Adder nomine de conto
 profile-label-save-error = Falta a salvar, retenta.
 profile-label-saved = Etiquetta salvate!
 # Deprecated
 profile-label-generate-new-alias = Generar nove alias
+profile-label-generate-new-alias-2 = Generar un nove masca
 # Deprecated
 profile-label-generate-new-alias-menu-random = Alias aleatori
 # Deprecated
@@ -511,6 +517,7 @@ profile-label-subdomain = Subdominio email:
 profile-label-subdomain-tooltip-trigger = Plus de informationes
 # Deprecated
 profile-label-domain-tooltip = Crea tu unic e personal dominio e-mail.
+profile-label-subdomain-tooltip = Crea tu unic subdominio email.
 profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 profile-label-skip = Saltar
@@ -528,20 +535,25 @@ profile-label-forwarding = reexpedir
 profile-label-blocking = blocada
 # Deprecated
 profile-label-disable-forwarding-button = Disactivar le reexpedition de e-mail pro iste alias
-profile-label-disable-forwarding-button-2 = Disactivar le reexpedition de email pro iste mascas
+profile-label-disable-forwarding-button-2 = Disactivar le reexpedition de email pro iste masca
 # Deprecated
 profile-label-enable-forwarding-button = Activar le reexpedition de e-mail pro iste alias
+profile-label-enable-forwarding-button-2 = Activar le reexpedition de email pro iste masca
 profile-label-click-to-copy = Clicca pro copiar
 # Deprecated
 profile-label-copy-confirmation = Alias copiate al area de transferentia
+# Deprecated
+profile-label-copy-confirmation-2 = Masca copiate al area de transferentia
 profile-label-copied = Copiate!
 profile-label-blocked = Blocate
 profile-label-forwarded = Inviate ultra
 profile-label-cancel = Cancellar
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste alias.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste masca.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste alias.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste masca.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
 profile-forwarded-note-copy-v2 = Ulle e-mail (annexos includite) major de { email-size-limit } non sera inultrate.
@@ -549,16 +561,22 @@ profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 # Deprecated
 profile-stat-label-aliases-used = Aliases email usate
+profile-stat-label-aliases-used-2 = Mascas email usate
 # Deprecated
 profile-filter-search-placeholder = Cercar aliases
+profile-filter-search-placeholder-2 = Cercar in mascas
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Inultrante aliases
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blocante aliases
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blocante mascas
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Aliases casual
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Aliases personalisate
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Mascas personalisate
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -579,6 +597,7 @@ profile-promo-email-blocking-label-not-forwarding = Non inultrar
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Dimitter
 banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
 # Variables:
 #   $username (string) - Username
@@ -620,6 +639,7 @@ banner-register-subdomain-copy =
 banner-choose-subdomain-input-placeholder = Cercar dominio
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Cerca tu nove dominio
+banner-choose-subdomain-input-placeholder-3 = Cercar subdominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cercar
 # Deprecated
@@ -650,6 +670,9 @@ banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
 
 # Deprecated
 success-subdomain-registered = Tu dominio @{ $subdomain } ha essite create
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Tu subdominio @{ $subdomain } ha essite create
 success-settings-update = Tu parametros ha essite actualisate.
 
 ## Error Messages
