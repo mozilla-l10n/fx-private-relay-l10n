@@ -579,12 +579,22 @@ profile-filter-category-title = Filtra gli alias visualizzati
 profile-filter-no-results = Nessun alias corrisponde ai criteri selezionati. <clear-button>Rimuovi tutti i filtri.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Alias con inoltro attivo
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Alias con inoltro attivo
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Alias con blocco attivo
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Alias con blocco attivo
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Alias con blocco delle pubblicità attivo
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Alias casuali
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Alias casuali
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Alias personalizzati
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Alias personalizzati
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -605,6 +615,7 @@ profile-promo-email-blocking-label-not-forwarding = Inoltro disattivato
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Chiudi
 banner-bounced-headline = { -brand-name-relay } non è riuscito a consegnare la tua email.
 # Variables:
 #   $username (string) - Username
@@ -617,10 +628,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } è ancora meglio in { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
+banner-download-firefox-copy-2 = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
 banner-download-firefox-cta = Scarica { -brand-name-firefox }
 banner-download-install-extension-headline = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
 # Deprecated
 banner-download-install-extension-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
+banner-download-install-extension-copy-2 = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
 banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Prova { -brand-name-relay } per { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias ancora più facile.
@@ -633,6 +646,7 @@ banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
 banner-label-action = Prossimo passo
 # Deprecated
 banner-register-subdomain-headline-aliases = Ottieni un dominio personalizzato per i tuoi alias
+banner-register-subdomain-headline-aliases-2 = Ottieni un sottodominio personalizzato per i tuoi alias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -643,6 +657,7 @@ banner-register-subdomain-copy = Con un dominio personalizzato puoi condividere 
 banner-choose-subdomain-input-placeholder = Cerca dominio
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Trova il tuo nuovo dominio
+banner-choose-subdomain-input-placeholder-3 = Cerca sottodominio
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Cerca
 # Deprecated
