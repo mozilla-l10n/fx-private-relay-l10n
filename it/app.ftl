@@ -224,6 +224,9 @@ landing-use-cases-shopping = Shopping
 landing-use-cases-shopping-body =
     Stai acquistando qualcosa da un nuovo negozio online? Usa un alias { -brand-name-relay } invece del tuo indirizzo email quando effettui un acquisto online.
     La ricevuta sarà inoltrata al tuo indirizzo email reale e, se inizierai a ricevere email indesiderate, potrai semplicemente disattivare l’inoltro dei messaggi.
+landing-use-cases-shopping-body-2 =
+    Stai acquistando qualcosa da un nuovo negozio online? Usa un alias invece del tuo indirizzo email quando effettui un acquisto online.
+    La ricevuta sarà inoltrata al tuo indirizzo email reale e, se inizierai a ricevere email indesiderate, potrai semplicemente bloccare l’alias.
 landing-use-cases-social-networks = Social network
 # Deprecated
 landing-use-cases-social-networks-body =
@@ -658,6 +661,12 @@ banner-register-subdomain-headline-aliases-2 = Ottieni un sottodominio personali
 banner-register-subdomain-example-address = tuodominio
 # Deprecated
 banner-register-subdomain-copy = Con un dominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@miodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo il dominio personalizzato ti verrà inoltrato automaticamente.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 = Con un sottodominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@miodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo sottodominio personalizzato ti verrà inoltrato automaticamente.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Cerca dominio
 # Deprecated
@@ -715,8 +724,14 @@ error-subdomain-email-not-created = Impossibile creare l’indirizzo email con s
 error-subdomain-select = È necessario selezionare un sottodominio prima di creare un alias
 # Deprecated
 error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro dominio.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Il sottodominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro nome.
 error-settings-update = Si è verificato un errore durante l’aggiornamento delle impostazioni. Riprova.
 error-mask-create-failed = Impossibile creare l’alias. Riprova.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Impossibile aggiornare l’alias. Riprova.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = Impossibile eliminare l’alias { $mask }. Riprova.
@@ -780,6 +795,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-2 = Attiva il blocco de
 
 # Deprecated
 tips-custom-alias-heading = Crea alias utilizzando il tuo dominio personalizzato
+tips-custom-alias-heading-2 = Crea alias utilizzando il tuo sottodominio personalizzato
 # Deprecated
 tips-custom-alias-content = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 tips-custom-alias-content-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
@@ -811,6 +827,7 @@ onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-rela
 onboarding-premium-control-title = Decidere quali email ricevere
 # Deprecated
 onboarding-premium-control-description = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
+onboarding-premium-control-description-2 = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
 # Deprecated
 onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli alias
 # Deprecated
@@ -857,6 +874,11 @@ multi-part-onboarding-premium-domain-description =
 # Deprecated
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personalizzato puoi creare alias senza doverli generare in anticipo. 
+    Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Con un sottodominio personalizzato puoi creare alias senza doverli generare in anticipo. 
     Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
@@ -933,13 +955,14 @@ modal-domain-register-success = { $subdomain } è ora il tuo dominio di posta el
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success-2 = { $subdomain } è ora il tuo sottodominio di posta elettronica!
+modal-domain-register-success-2 = { $subdomain } è ora il tuo sottodominio di posta elettronica.
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> è ora il tuo sottodominio di posta elettronica.
 # Deprecated
 modal-domain-register-success-copy = Ora puoi creare alias email illimitati utilizzando il tuo nuovo dominio! Che cosa stai aspettando?
+modal-domain-register-success-copy-2 = Ora puoi creare illimitati alias personalizzati!
 
 ## The "Help & Tips" area at the bottom of the page
 
