@@ -229,9 +229,16 @@ landing-use-cases-social-networks = Social network
 landing-use-cases-social-networks-body =
     Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
     Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
+landing-use-cases-social-networks-body-2 =
+    Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
+    Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
 landing-use-cases-offline = Non in linea
 # Deprecated
 landing-use-cases-offline-body =
+    Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
+    Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
+    Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
+landing-use-cases-offline-body-2 =
     Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
     Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
     Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
@@ -246,6 +253,9 @@ landing-use-cases-gaming = Giochi online
 landing-use-cases-gaming-body =
     Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
     Utilizza un alias { -brand-name-relay } per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
+landing-use-cases-gaming-body-2 =
+    Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
+    Utilizza un alias di posta elettronica per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 
 ## Landing FAQ Section
 
@@ -257,26 +267,37 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a Relay Premium per soli { $monthly_price } al mese.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a { -brand-name-relay-premium } per soli { $monthly_price } al mese.</b>
 premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo dominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
+premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo sottodominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
 premium-promo-perks-cta-label = Aggiorna adesso
 premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crea alias illimitati
+premium-promo-perks-perk-unlimited-headline-2 = Crea alias illimitati
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
+premium-promo-perks-perk-unlimited-body-2 = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
 premium-promo-perks-perk-custom-domain-headline = Scegli il tuo dominio personalizzato
+premium-promo-perks-perk-custom-domain-headline-2 = Scegli il tuo sottodominio personalizzato
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Con un dominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
+premium-promo-perks-perk-custom-domain-body-2 = Con un sottodominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Gestisci i tuoi alias dalla dashboard
+premium-promo-perks-perk-dashboard-headline-2 = Gestisci i tuoi alias dalla dashboard
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
+premium-promo-perks-perk-dashboard-body-2 = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
 # Deprecated
 premium-promo-use-cases-headline = Utilizza alias email { -brand-name-relay } ovunque
+premium-promo-use-cases-headline-2 = Utilizza gli alias email { -brand-name-relay } ovunque
 premium-promo-use-cases-shopping-heading = Shopping
 # Deprecated
 premium-promo-use-cases-shopping-body = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” sotto alias personalizzati unici, come “sconti@miodominio.mozmail.com”.
