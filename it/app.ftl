@@ -38,6 +38,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
+meta-description-2 = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
 
 ## Header 
 
@@ -134,12 +135,14 @@ how-it-works-step-1-copy =
     Accedi con il tuo { -brand-name-firefox-account } per iniziare.
 # Deprecated
 how-it-works-step-2-headline = Crea un nuovo alias
+how-it-works-step-2-headline-2 = Crea un nuovo alias
 how-it-works-step-2-copy =
     Durante la navigazione, l’icona di { -brand-name-relay } appare nei siti che richiedono il tuo indirizzo email.
     Selezionala per generare un nuovo indirizzo di posta elettronica casuale che termina con @relay.firefox.com.
     { -brand-name-relay } inoltra i messaggi all’indirizzo email principale associato al tuo account.
 # Deprecated
 how-it-works-step-3-headline = Gestisci i tuoi alias
+how-it-works-step-3-headline-2 = Gestisci i tuoi alias
 hero-image-copy-trust = Ti fidi a condividere la tua email personale con questa azienda?
 hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</strong> per ogni nuovo account …
 hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che arriva nella tua casella di posta!
@@ -151,35 +154,50 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 
 # Deprecated
 landing-hero-headline = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
+landing-hero-headline-2 = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
 # Deprecated
 landing-hero-body = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
+landing-hero-body-2 = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
 
 ## How it works section
 
 landing-how-it-works-headline = Come funziona
 # Deprecated
 landing-how-it-works-body = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
+landing-how-it-works-body-2 = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
 landing-how-it-works-step-1-body-cta = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Genera automaticamente alias email ovunque inserisci il tuo indirizzo email online.
+landing-how-it-works-step-1-body-2 = Genera automaticamente alias email ovunque devi inserire il tuo indirizzo email online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body = Durante la navigazione, l’icona di { -brand-name-relay } verrà visualizzata nei campi del sito in cui viene richiesto il tuo indirizzo email. Selezionala per generare un nuovo indirizzo email casuale che termina con @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 = Durante la navigazione, l’icona di { -brand-name-relay } verrà visualizzata nei campi del sito in cui viene richiesto il tuo indirizzo email. Selezionala per generare un nuovo indirizzo email casuale che termina con @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato. { -brand-name-relay } inoltrerà i messaggi al tuo indirizzo email.
     Se uno di questi alias riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
+landing-how-it-works-step-3-body-2 =
+    Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato.
+    Se uno di questi riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
 # Deprecated
 landing-pricing-body =
+    Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
+    Aggiorna a { -brand-name-relay-premium } per una flessibilità ancora maggiore e una gestione più personalizzata.
+landing-pricing-body-2 =
     Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
     Aggiorna a { -brand-name-relay-premium } per una flessibilità ancora maggiore e una gestione più personalizzata.
 landing-pricing-free-price = Gratis
 # Deprecated
 landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
+landing-pricing-free-feature-1-2 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
 landing-pricing-free-cta = Ottieni { -brand-name-relay }
 # Variables:
@@ -188,9 +206,11 @@ landing-pricing-premium-price = { $monthly_price } al mese
 landing-pricing-premium-price-highlight = Prezzi validi per periodo limitato
 # Deprecated
 landing-pricing-premium-feature-1 = Alias di posta elettronica illimitati
+landing-pricing-premium-feature-1-2 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-2 = Estensione per browser
 # Deprecated
 landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personalizzato
+landing-pricing-premium-feature-3-2 = Il tuo sottodominio di posta elettronica personalizzato
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = tuaemail@tuodominio.mozmail.com
 landing-pricing-premium-feature-4 = Rispondi ai messaggi inoltrati
@@ -198,6 +218,7 @@ landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
 
 ## Use Cases
 
+landing-use-cases-heading = Utilizza { -brand-name-firefox-relay } per:
 landing-use-cases-shopping = Shopping
 # Deprecated
 landing-use-cases-shopping-body =
