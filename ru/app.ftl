@@ -454,6 +454,8 @@ faq-question-4-answer-v4 = Пользователи { -brand-name-relay-premium 
 faq-question-4-answer-html =
     { -brand-name-relay } пока не предоставляет возможности отвечать с помощью псевдонима.
     Если вы попытаетесь, ничего не произойдёт. Мы планируем добавить дополнительную функцию, позволяющую <a href="{ $url }" { $attrs }>анонимно отвечать отправителям</a>.
+faq-question-subdomain-characters-question = Какие символы я могу использовать для создания поддомена?
+faq-question-subdomain-characters-answer-v2 = Для создания поддомена можно использовать только строчные буквы английского алфавита, цифры и дефисы.
 
 ## Profile Page (Logged In)
 
