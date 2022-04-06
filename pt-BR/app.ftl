@@ -287,6 +287,7 @@ premium-promo-hero-body-html = Com o { -brand-name-firefox-relay-premium } você
 premium-promo-hero-body-2-html = Com o { -brand-name-firefox-relay-premium } você pode ter máscaras de email personalizadas ilimitadas, que encaminham apenas os emails que você quiser para seu endereço de email real. <b>Por tempo limitado, você pode mudar para o { -brand-name-relay-premium } por apenas { $monthly_price } por mês.</b>
 premium-promo-hero-cta = Mude agora para a versão premium
 premium-promo-availability-warning = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e Estados Unidos.
+premium-promo-availability-warning-2 = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, Finlândia, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
 premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Com o { -brand-name-firefox-relay-premium } você tem acesso ao mesmo gerenciamento e proteção de caixa de entrada do { -brand-name-relay }, mas com endereços de redirecionamento de email ilimitados e seu próprio domínio personalizado, facilitando ainda mais o controle de seus emails.
