@@ -279,6 +279,7 @@ premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium } ottieni
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a { -brand-name-relay-premium } per soli { $monthly_price } al mese.</b>
 premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo dominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
