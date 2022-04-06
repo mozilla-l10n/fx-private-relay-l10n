@@ -739,6 +739,7 @@ modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
 modal-custom-alias-picker-heading-2 = Crea un nuovo alias personalizzato
 # Deprecated
 modal-custom-alias-picker-warning = Tutto ciò che devi fare è creare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
+modal-custom-alias-picker-warning-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 # Deprecated
 modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
 modal-custom-alias-picker-form-heading-2 = Oppure crea manualmente un alias personalizzato
