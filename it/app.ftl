@@ -662,8 +662,10 @@ banner-choose-subdomain-input-placeholder-3 = Cerca sottodominio
 banner-register-subdomain-button-search = Cerca
 # Deprecated
 banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
+banner-pack-upgrade-headline-2-html = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per ottenere più alias
 # Deprecated
 banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personalizzato, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
+banner-pack-upgrade-copy-2 = Con alias illimitati e il tuo sottodominio email personalizzato, { -brand-name-firefox-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aggiornamento dell’informativa sulla privacy
@@ -688,6 +690,9 @@ banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdom
 
 # Deprecated
 success-subdomain-registered = Il dominio @{ $subdomain } è stato creato
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Il sottodominio @{ $subdomain } è stato creato
 success-settings-update = Le impostazioni sono state aggiornate.
 
 ## Error Messages
@@ -705,6 +710,11 @@ error-subdomain-email-not-created = Impossibile creare l’indirizzo email con s
 error-subdomain-select = È necessario selezionare un sottodominio prima di creare un alias
 # Deprecated
 error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro dominio.
+error-settings-update = Si è verificato un errore durante l’aggiornamento delle impostazioni. Riprova.
+error-mask-create-failed = Impossibile creare l’alias. Riprova.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Impossibile eliminare l’alias { $mask }. Riprova.
 
 ## Tips and tricks at the bottom of the page
 
@@ -721,24 +731,30 @@ tips-footer-link-support-tooltip = Contatta l’assistenza
 
 # Deprecated
 modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
+modal-custom-alias-picker-heading-2 = Crea un nuovo alias personalizzato
 # Deprecated
 modal-custom-alias-picker-warning = Tutto ciò che devi fare è creare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 # Deprecated
 modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
+modal-custom-alias-picker-form-heading-2 = Oppure crea manualmente un alias personalizzato
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Inserire un prefisso per l’alias
+modal-custom-alias-picker-form-prefix-label-2 = Inserire un prefisso per l’alias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Genera alias
+modal-custom-alias-picker-form-submit-label-2 = Genera alias
 # Deprecated
 modal-custom-alias-picker-creation-error = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
+modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Come creare alias personalizzati
+popover-custom-alias-explainer-heading-2 = Come creare alias personalizzati
 # Deprecated
 popover-custom-alias-explainer-explanation = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 # Deprecated
