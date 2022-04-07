@@ -278,6 +278,7 @@ premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso co
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate aliases e-mail personal que inultra solo le e-mails que tu lo vole a tu real adresse e-mail. <b>Pro un tempore limitate, tu pote promover a Relay Premium pro solo { $monthly_price } un mense.</b>
 premium-promo-hero-cta = Promover ora
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
 premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate aliases e-mail e tu proprie dominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
@@ -289,6 +290,7 @@ premium-promo-perks-perk-unlimited-headline = Crea illimitate aliases e-mail
 premium-promo-perks-perk-unlimited-headline-2 = Crea illimitate mascas email
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Jammais plus limite de cinque-alias: con { -brand-name-relay-premium }, tu pote generar quante aliases te besonia pro adjutar proteger tu cassa de ingresso e-mail ab le spammatores e traciatores online. Tu pote mesmo replicar al e-mails sin exponer tu real adresse.
+premium-promo-perks-perk-unlimited-body-2 = Jammais plus limite de cinque-mascas: con { -brand-name-relay-premium }, tu pote generar quante mascas te besonia pro adjutar a proteger tu cassa de ingresso email ab le spammatores e traciatores online. Tu pote mesmo replicar al emails sin exponer tu ver adresse.
 premium-promo-perks-perk-custom-domain-headline = Elige tu proprie dominio personal
 premium-promo-perks-perk-custom-domain-headline-2 = Elige tu proprie subdominio personal
 # Deprecated
@@ -306,9 +308,11 @@ premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
 premium-promo-use-cases-shopping-body = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal aliases, como “mydeals@mydomain.mozmail.com.”
+premium-promo-use-cases-shopping-body-2 = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal mascas email personalisate, como “mydeals@mydomain.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Retes social
 # Deprecated
 premium-promo-use-cases-social-networks-body = Vole tu proteger melio tu identitate online quando tu usa un rete social? Usa un differente alias de { -brand-name-relay } pro acceder a cata rete social e adjuta proteger tu ver e-mail de esser exponite a ille sitos.
+premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu identitate online quando tu usa un rete social? Usa un differente masca email pro acceder a cata rete social e adjuta proteger tu ver email de esser exponite a ille sitos.
 premium-promo-use-cases-gaming-heading = Jocos
 # Deprecated
 premium-promo-use-cases-gaming-body = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un alias como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
@@ -505,8 +509,12 @@ profile-label-generate-new-alias = Generar nove alias
 profile-label-generate-new-alias-2 = Generar un nove masca
 # Deprecated
 profile-label-generate-new-alias-menu-random = Alias aleatori
+profile-label-generate-new-alias-menu-random-2 = Mascas email aleatori
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Alias de @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Masca de @{ $subdomain }
 profile-label-delete = Deler
 # Deprecated
 profile-label-delete-alias = Deler iste alias
@@ -573,6 +581,7 @@ profile-stat-label-aliases-used-2 = Mascas email usate
 profile-filter-search-placeholder = Cercar aliases
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
+profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
 profile-filter-category-title = Filtrar le mascas visibile
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Inultrante aliases
