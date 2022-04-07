@@ -288,6 +288,7 @@ premium-promo-hero-body-html = Met { -brand-name-firefox-relay-premium } krijgt 
 premium-promo-hero-body-2-html = Met { -brand-name-firefox-relay-premium } krijgt u onbeperkt aangepaste e-mailmaskers die alleen gewenste e-mailberichten doorsturen naar uw echte e-mailadres. <b>U kunt gedurende een beperkte tijd upgraden naar { -brand-name-relay-premium } voor slechts { $monthly_price } per maand.</b>
 premium-promo-hero-cta = Nu upgraden
 premium-promo-availability-warning = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zwitserland, het VK en de VS.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Finland, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zweden, Zwitserland, het VK en de VS.
 premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Met { -brand-name-firefox-relay-premium } krijgt u alle bescherming van uw Postvak IN en het beheer van { -brand-name-relay }, maar met onbeperkte e-mailaliassen en uw eigen aangepaste domein om het beheren van uw Postvak IN nog eenvoudiger te maken.
