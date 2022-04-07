@@ -281,6 +281,7 @@ faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "م�
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
 # Deprecated
 faq-question-unsubscribe-domain-question = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم ݙٌڈومین نال کیا تھیسی؟
+faq-question-unsubscribe-domain-question-2 = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم  سب ڈومین نال کیا تھیسی؟
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
@@ -306,27 +307,42 @@ profile-promo-upgrade-copy = بے انت ای میل پتے تے آپݨی ای �
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-details-expand = ماسک تفصیلاں ݙکھاؤ
 profile-details-collapse = ماسک تفصیلاں لکاؤ
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = ماسک { $address } نقل کرݨ کیتے کلک کرو۔
 # Deprecated
 profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
+profile-label-edit-2 = ایں ماسک کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = کھاتہ ناں شامل کرو
 profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 profile-label-saved = لیبل محفوظ تھی ڳیا!
 # Deprecated
 profile-label-generate-new-alias = نواں عرفی ناں جنریٹ کرو
+profile-label-generate-new-alias-2 = نواں ماسک جنریٹ کرو
 # Deprecated
 profile-label-generate-new-alias-menu-random = رینڈم عرفی ناں
+profile-label-generate-new-alias-menu-random-2 = رینڈم ای میل ماسک
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain } عرفی ناں
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } ماسک
 profile-label-delete = مٹاؤ
 # Deprecated
 profile-label-delete-alias = ایہ عرفی ناں مٹاؤ
 # Deprecated
+profile-label-delete-alias-2 = ایہ عرفی ناں مٹاؤ
+# Deprecated
 profile-label-upgrade = بے انت عرفی ناں گھنو
+profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
 # Deprecated
 profile-label-create-domain = آپݨی ای میل ڈومین گھنو
+profile-label-create-subdomain = آپݨی ای میل سب ڈومین گھنو
 # Deprecated
 profile-label-domain = ای میل ڈومین:
+profile-label-subdomain = ای میل سب ڈومین:
 profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
 # Deprecated
 profile-label-domain-tooltip = آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔
@@ -365,8 +381,10 @@ profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 # Deprecated
 profile-stat-label-aliases-used = ورتیل ای میل عرفی ناں
+profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
 # Deprecated
 profile-filter-search-placeholder = عرفی ناں ڳولو
+profile-filter-search-placeholder-2 = ماسک ڳولو
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے عرفی ناں
 # Deprecated
@@ -394,6 +412,7 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = فارغ کرو
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
 # Deprecated
