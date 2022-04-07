@@ -127,6 +127,7 @@ how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 # Deprecated
 how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
+how-it-works-step-2-headline-2 = نواں ای میل ماسک بݨاؤ
 # Deprecated
 how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 how-it-works-step-3-headline-2 = آپݨے ای میل ماسک منیج کرو
@@ -202,6 +203,7 @@ premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = بے انت ای میل عرفی ناں تخلیق کرو
+premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
 premium-promo-perks-perk-custom-domain-headline = آپݨاں کسٹم ڈومین چُݨو
 premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
 # Deprecated
@@ -252,6 +254,7 @@ faq-question-missing-emails-answer-a = کجھ وجوہات ہن جو تہاکو�
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = تہاݙا ای میل فراہم کرݨ آلا تہاݙے عرفی ناں بلاک کریندا پئے
+faq-question-missing-emails-answer-reason-blocked-2 = تہاݙا ای میل فراہم کرݨ آلا تہاݙے ای میل ماسک بلاک کریندا پئے
 faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
@@ -262,6 +265,7 @@ faq-question-missing-emails-answer-reason-turned-off-2 = ماسک  اڳوں تے
 faq-question-missing-emails-answer-reason-delay = تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔
 # Deprecated
 faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
+faq-question-use-cases-question-2 = میں { -brand-name-relay } ای میل ماسک کݙݨ ورتاں؟
 # Deprecated
 faq-question-2-question = میݙے { -brand-name-relay } عرفی ناں ایہ سائٹ قبول کیوں نیں کیتے؟
 faq-question-1-question = سپیم بارے؟
