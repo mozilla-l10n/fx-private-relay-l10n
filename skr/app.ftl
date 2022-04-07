@@ -154,6 +154,9 @@ landing-how-it-works-step-1-body = جہڑے ویلے تساں آن لائن اپ
 
 # Deprecated
 landing-pricing-headline = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ وچ بے انت عرفی ناں
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ، بے انت ای میل ماسک
 landing-pricing-free-price = مفت
 # Deprecated
 landing-pricing-free-feature-1 = ٥ تائیں ای میل عرفی ناں
@@ -225,6 +228,8 @@ settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھ
 settings-error-save-description = کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔
 # Deprecated
 settings-warning-collection-off-heading = ای میل عرفی ناں لیبل عمل غیرفعال تھی ڳیا
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = ای میل ماسک لیبل عمل غیرفعال تھی ڳیا
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
