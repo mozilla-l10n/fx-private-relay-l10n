@@ -794,13 +794,16 @@ popover-custom-alias-explainer-close-button-label = Clauder
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
 popover-custom-alias-explainer-promotional-block-tooltip = Activar le blocada del e-mails promotional sur un alias pro stoppar le e-mails de marketing de attinger tu cassa de ingresso.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Activar le blocada de emails promotional sur un masca pro stoppar emails de marketing que attinge tu cassa de ingresso.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Creation del aliases per tu dominio personal
+tips-custom-alias-heading-2 = Creation de mascas de tu dominio personal
 # Deprecated
 tips-custom-alias-content = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+tips-custom-alias-content-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
 
 ## Tip about using custom aliases
 
@@ -811,11 +814,14 @@ tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, tu pote b
 
 # Deprecated
 onboarding-headline = Crea tu prime alias, tu ha tres manieras …
+onboarding-headline-2 = Crea tu prime masca email
 # Deprecated
 onboarding-alias-tip-1 = Elige “Generar nove alias” pro crear tu prime alias.
+onboarding-alias-tip-1-2 = Elige “Generar nove masca” pro crear tu prime masca.
 onboarding-alias-tip-2 = Usante le extension le { -brand-name-relay }, elige le icone { -brand-name-firefox-relay } quando illo appare in campos de e-mail.
 # Deprecated
 onboarding-alias-tip-3 = Usante le extension { -brand-name-relay }, clicca dextre sur le campos del formulario e elige “Generar Nove Alias.”
+onboarding-alias-tip-3-2 = Usante le extension { -brand-name-relay }, clicca dextre sur le campos del formulario e elige “Generar nove masca.”
 
 ## Premium Onboarding
 
@@ -826,25 +832,34 @@ onboarding-premium-feature-intro = Con { -brand-name-relay-premium } de { -brand
 onboarding-premium-control-title = Controla que emails tu recipe
 # Deprecated
 onboarding-premium-control-description = Comparti illimitate aliases de e-mail que inultra a tu cassa de ingresso le e-mails que tu realmente vole.
+onboarding-premium-control-description-2 = Comparti illimitate mascas email que inultra a tu cassa de ingresso le emails que tu realmente vole.
 # Deprecated
 onboarding-premium-domain-title = Usa un dominio personal pro compartir aliases
 # Deprecated
 onboarding-premium-domain-title-2 = Usa un dominio personal pro compartir aliases:
+onboarding-premium-domain-title-3 = Usa un subdominio personal pro compartir le mascas:
 # Deprecated
 onboarding-premium-domain-description = Con un dominio personalisate, tu pote render le alias de tu “littera de novas” differente del alias de tu “compras”.
 # Deprecated
 onboarding-premium-reply-title = Responde a emails sin revelar tu real adresse
+onboarding-premium-reply-title-2 = Responde a emails sin revelar tu ver adresse
 # Deprecated
 onboarding-premium-reply-description = Besonia tu de responder a e-mails inviate a un alias?
+onboarding-premium-reply-description-2 = Besonia tu de responder a emails inviate a un masca? solo replica normalmente, tu masca ancora protegera tu adresse email.
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tu pote:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Passo { $step } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Benvenite a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de ingresso, un e-mail cata vice.
 multi-part-onboarding-premium-welcome-title = Controla que emails tu recipe:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Generar illimitate aliases e-mail:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Crear illimitate mascas email
 multi-part-onboarding-premium-welcome-button-start = Comenciar
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Un dominio personal pro compartir aliases
@@ -852,6 +867,7 @@ multi-part-onboarding-premium-domain-headline = Un dominio personal pro comparti
 multi-part-onboarding-premium-domain-title = Obtene un dominio personal pro tu aliases:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Obtener un dominio personal
+multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque aliases: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo Relay pro crear los al volo.
