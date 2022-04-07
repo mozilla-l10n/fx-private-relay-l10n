@@ -871,6 +871,7 @@ multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Non plus limita te a cinque aliases: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo Relay pro crear los al volo.
+multi-part-onboarding-premium-welcome-description-2 = Non plus limita te a cinque mascas: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo { -brand-name-relay } pro crear los al volo.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Per un dominio personal, tu pote crear aliases que es plus facile que mais a rememora e compartir. 
@@ -879,16 +880,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Con un dominio personal, tu pote crear aliases sin deber generar illes previemente. 
     Besonia tu de uno, pro registrar te a un littera de novas? Solo dice “read@customdomain{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Con un subdominio personal, tu pote crear mascas sin previemente deber generar los. 
+    Besonia tu de un, pro registrar te a un littera de novas? Solo dice “read@customsubdomain{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registra ora tu dominio personal:
+multi-part-onboarding-premium-domain-cta-2 = Registra ora tu sudominio personal:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Continuar, io registrara mi dominio personal plus tarde
+multi-part-onboarding-premium-domain-button-skip-2 = Continuar, io registrara mi subdominio personal plus tarde
 multi-part-onboarding-premium-extension-headline = Blocar, inultrar e replicar
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Responde a emails sin revelar tu real adresse:
 multi-part-onboarding-premium-extension-get-title = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Le extension { -brand-name-relay } pro { -brand-name-firefox } rende mesmo plus facile le uso del aliases de e-mail.
+multi-part-onboarding-premium-extension-get-description-2 = Le extension { -brand-name-relay } pro { -brand-name-firefox } rende mesmo plus facile le uso de mascas email.
 multi-part-onboarding-premium-extension-button-download = Discarga le extension { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Installa le extension { -brand-name-relay } pro { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases email.
@@ -902,19 +911,32 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de contr
 modal-rename-alias-saved = Etiquetta salvate!
 # Deprecated
 modal-delete-headline = Deler permanentemente iste alias?
+modal-delete-headline-2 = Deler permanentemente iste masca email?
 # Deprecated
 modal-delete-warning-recovery-html =
     Un vice que tu ha delite iste alias, illo non pote esser recuperate. 
+    { -brand-name-firefox-relay } non reexpedira plus le messages inviate a <strong>{ $email }</strong>, non mesmo messages que te permitte de reinitialisar contrasignos perdite.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Un vice que tu ha delite iste masca, illo non pote esser recuperate. 
     { -brand-name-firefox-relay } non reexpedira plus le messages inviate a <strong>{ $email }</strong>, non mesmo messages que te permitte de reinitialisar contrasignos perdite.
 # Deprecated
 modal-delete-warning-upgrade =
     Si tu usa iste alias pro acceder a sitos tu cura, 
     tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu dele isto.
+modal-delete-warning-upgrade-2 =
+    Si tu usa iste masca pro acceder a sitos que tu cura, 
+    tu debe actualisar tu credentiales con un altere adresse email deler isto.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Si tu usa iste alias pro acceder a sitos que tu cura,
     tu debe actualisar tu credentiales con un altere adresse e-mail ante que tu lo dele.
     Si tu recrea un alias delite, le e-mails inviate al original alias continuara esser inultrate.
+modal-delete-domain-address-warning-upgrade-2 =
+    Si tu usa iste masca pro acceder a sitos que tu cura,
+    tu debe actualisar tu credentiales con un altere adresse email ante deler lo.
+    Si tu recrea un masca delite, le emails inviate al masca original continuara a esser inultrate.
 # Deprecated
 modal-delete-confirmation = Si, io desira deler iste alias.
 modal-domain-register-good-news = Bon novas!
