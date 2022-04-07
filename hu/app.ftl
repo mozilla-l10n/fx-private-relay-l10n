@@ -287,6 +287,7 @@ premium-promo-hero-body-html = A { -brand-name-firefox-relay-premium } segítsé
 premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a { -brand-name-relay-premium }ra.</b>
 premium-promo-hero-cta = Frissítsen most
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
+premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 # Deprecated
 premium-promo-perks-lead = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail álnévvel és egyéni domainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
