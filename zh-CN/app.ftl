@@ -246,27 +246,39 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
 # Deprecated
 premium-promo-hero-body-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只将想要收取的邮件转发到您的真实邮箱地址。<b>限时价格：每月只需 { $monthly_price }，即可升级为 Relay Premium。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
 premium-promo-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 # Deprecated
 premium-promo-perks-lead = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
+premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = 创建无限数量马甲
+premium-promo-perks-perk-unlimited-headline-2 = 创建无限数量马甲
 # Deprecated
 premium-promo-perks-perk-unlimited-body = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
+premium-promo-perks-perk-unlimited-body-2 = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
 premium-promo-perks-perk-custom-domain-headline = 选择您的自定义域名
+premium-promo-perks-perk-custom-domain-headline-2 = 选择您的自定义子域名
 # Deprecated
 premium-promo-perks-perk-custom-domain-body =
     借助自定义域名功能，可创建比以往更好记和分享的马甲。
+    想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
+premium-promo-perks-perk-custom-domain-body-2 =
+    借助自定义子域名功能，可创建比以往更好记和分享的马甲。
     想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = 轻松管理所有马甲
 premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
 # Deprecated
 premium-promo-perks-perk-dashboard-body = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
+premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
 # Deprecated
 premium-promo-use-cases-headline = 随时随地皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
@@ -374,12 +386,19 @@ faq-question-2-answer-v4 = 有些网站可能不接受包含子域（如 @subdom
 faq-question-1-question = 那垃圾邮件呢？
 # Deprecated
 faq-question-1-answer-a = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
+faq-question-1-answer-a-2 = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Deprecated
 faq-question-1-answer-b-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
 faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
 faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
+faq-question-availability-answer-v2 = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、芬兰、法国、比利时、奥地利、西班牙、意大利、瑞典、瑞士、荷兰和爱尔兰可用。
 # Deprecated
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
+faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
@@ -390,12 +409,14 @@ faq-question-subdomain-characters-answer-v2 = 您只能使用小写英文字母�
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
 # Deprecated
 faq-question-browser-support-answer = 是的，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
+faq-question-browser-support-answer-2 = 是的，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 # Deprecated
 faq-question-longevity-answer = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站换绑邮箱。
 faq-question-longevity-answer-2 = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站完成换绑。
 # Deprecated
 faq-question-mozmail-question = 为何我的马甲邮箱域名变成“mozmail.com”了？
+faq-question-mozmail-question-2 = 为何我的马甲域名变成“mozmail.com”了？
 # Deprecated
 faq-question-mozmail-answer = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱域名这一功能，如 alias@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可用的自定义邮箱域名比随机马甲名称好记很多。
 faq-question-attachments-question = { -brand-name-firefox-relay } 可以转发含附件的电子邮件吗？
