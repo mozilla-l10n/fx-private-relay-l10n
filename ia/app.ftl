@@ -276,6 +276,9 @@ landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso con { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate aliases e-mail personal que inultra solo le e-mails que tu lo vole a tu real adresse e-mail. <b>Pro un tempore limitate, tu pote promover a Relay Premium pro solo { $monthly_price } un mense.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate mascas email personal que inultra solo le emails que tu lo vole a tu ver adresse email. <b>Pro un tempore limitate, tu pote promover te a { -brand-name-relay-premium } pro solo { $monthly_price } a mense.</b>
 premium-promo-hero-cta = Promover ora
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
@@ -648,6 +651,7 @@ banner-download-install-chrome-extension-cta = Installa le extension { -brand-na
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-relay-premium } de { -brand-name-firefox } rende mesmo plus facile le creation del aliases de e-mail, con dominios de alias personal e aliases illimitate.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rende mesmo plus facile crear mascas email, con un subdominio mascas personalisate e mascas illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action necesse
@@ -682,6 +686,7 @@ banner-choose-subdomain-input-placeholder-3 = Cercar subdominio
 banner-register-subdomain-button-search = Cercar
 # Deprecated
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
+banner-pack-upgrade-headline-2-html = Promover a <strong>{ -brand-name-firefox-relay-premium }</strong> pro obtener plus mascas email
 # Deprecated
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
 banner-pack-upgrade-copy-2 = Con mascas email illimitate e tu proprie subdominio email, { -brand-name-firefox-relay-premium } te adjuta a restar protegite in linea.
