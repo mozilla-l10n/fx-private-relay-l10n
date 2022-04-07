@@ -653,6 +653,7 @@ banner-upgrade-cta = Promover a { -brand-name-relay-premium }
 banner-label-action = Action necesse
 # Deprecated
 banner-register-subdomain-headline-aliases = Obtene un dominio personal pro tu aliases
+banner-register-subdomain-headline-aliases-2 = Obtene un subdominio personalisate pro tu mascas
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -683,6 +684,7 @@ banner-register-subdomain-button-search = Cercar
 banner-pack-upgrade-headline-html = Promove a <strong> { -brand-name-relay-premium } de { -brand-name-firefox }</strong> pro obtener plus aliases
 # Deprecated
 banner-pack-upgrade-copy = Con aliases de e-mail illimitate e tu proprie dominio de e-mail, { -brand-name-relay-premium } de { -brand-name-firefox } te adjuta a restar protegite in linea.
+banner-pack-upgrade-copy-2 = Con mascas email illimitate e tu proprie subdominio email, { -brand-name-firefox-relay-premium } te adjuta a restar protegite in linea.
 banner-pack-upgrade-cta = Promover ora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
@@ -731,6 +733,13 @@ error-subdomain-not-available = Le dominio @{ $unavailable_subdomain } non es di
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Le subdominio @{ $unavailable_subdomain } non es disponibile. Retenta con un altero.
 error-settings-update = Un error occurreva durante le actualisation de parametros, reproba.
+error-mask-create-failed = Impossibile crea le masca. Retenta.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Le datos del masca non pote esser actualisate. Retenta.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Le masca { $mask } non pote esser delite. Retenta.
 
 ## Tips and tricks at the bottom of the page
 
@@ -750,11 +759,13 @@ modal-custom-alias-picker-heading = Crear un nove alias personalisate
 modal-custom-alias-picker-heading-2 = Crear un nove masca personalisate
 # Deprecated
 modal-custom-alias-picker-warning = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+modal-custom-alias-picker-warning-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
 # Deprecated
 modal-custom-alias-picker-form-heading = O, crea manualmente un alias personal
 modal-custom-alias-picker-form-heading-2 = O, crea manualmente un masca personal
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Insere un prefixo de alias
+modal-custom-alias-picker-form-prefix-label-2 = Insere un prefixo de masca email
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "caffe"
@@ -772,6 +783,7 @@ popover-custom-alias-explainer-heading = Como crear aliases personalisate
 popover-custom-alias-explainer-heading-2 = Como crear mascas personalisate
 # Deprecated
 popover-custom-alias-explainer-explanation = Tote lo que tu debe facer es crear e compartir un unic alias que usa tu dominio personal, le alias sera generate automaticamente. Prova “compra@customdomain.mozmail.com” le proxime vice que tu compra online, per exemplo.
+popover-custom-alias-explainer-explanation-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personal
 popover-custom-alias-explainer-generate-button-heading-2 = Genera manualmente un masca personal
