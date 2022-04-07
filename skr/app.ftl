@@ -391,8 +391,12 @@ profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے
 profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عرفی ناں
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = رینڈم ماسک
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی ناں
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = کسٹم ماسک
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -439,6 +443,7 @@ banner-register-subdomain-example-address = تہاݙی ڈومین
 banner-choose-subdomain-input-placeholder = ڈومین ڳولو
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = آپݨی نویں ڈومین ڳولو
+banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = ڳولو
 # Deprecated
@@ -502,15 +507,18 @@ modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج 
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = عرفی ناں جنریٹ کرو
+modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = کسٹم  عرفی ناں کین٘ویں تخلیق کروں
+popover-custom-alias-explainer-heading-2 = کسٹم  ماسک کین٘ویں تخلیق کروں
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = کسٹم عرفی ناں دستی جنریٹ کرو
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = کسٹم عرفی ناں جنریٹ کرو
+popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
@@ -560,6 +568,7 @@ multi-part-onboarding-premium-domain-headline = عرفی ناں شیئر کرݨ 
 multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو:
 # Deprecated
 multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
+multi-part-onboarding-premium-get-subdomain = کسٹم سب ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 # Deprecated
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
