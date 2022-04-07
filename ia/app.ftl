@@ -583,12 +583,17 @@ profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
 profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
 profile-filter-category-title = Filtrar le mascas visibile
+profile-filter-no-results = Nulle mascas concorda tu criterios de selection. <clear-button>Clarar tote le filtros.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Inultrante aliases
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Inultrante mascas
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blocante aliases
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Blocante mascas
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Mascas blocante-promos
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Aliases casual
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
