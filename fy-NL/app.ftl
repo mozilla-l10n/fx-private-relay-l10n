@@ -576,14 +576,18 @@ profile-label-enable-forwarding-button-2 = Trochstjoeren fan e-mailberjochten fo
 profile-label-click-to-copy = Klikje om te kopiearjen
 # Deprecated
 profile-label-copy-confirmation = Alias nei klamboerd kopiearre
+# Deprecated
+profile-label-copy-confirmation-2 = Masker nei klamboerd kopiearre
 profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
 profile-label-cancel = Annulearje
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit alias selektearje.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit alias selektearje.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
@@ -591,8 +595,11 @@ profile-stat-label-blocked = E-mailberjochten blokkearre
 profile-stat-label-forwarded = E-mailberjochten trochstjoerd
 # Deprecated
 profile-stat-label-aliases-used = Brûkte e-mailaliassen
+profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
 # Deprecated
 profile-filter-search-placeholder = Aliassen sykje
+profile-filter-search-placeholder-2 = Maskers trochsykje
+profile-filter-category-button-label = Sichtbere maskers filterje
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Trochstjoeraliassen
 # Deprecated
