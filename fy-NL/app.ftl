@@ -288,37 +288,53 @@ premium-promo-hero-body-html = Mei { -brand-name-firefox-relay-premium } krije j
 premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei { -brand-name-relay-premium } foar mar { $monthly_price } yn de moanne.</b>
 premium-promo-hero-cta = No opwurdearje
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Finlân, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Sweden, Switserlân, it FK en de FS.
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailaliassen en jo eigen oanpaste domein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
+premium-promo-perks-lead-2 = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailmaskers en jo eigen oanpaste subdomein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
 premium-promo-perks-cta-label = No opwurdearje
 premium-promo-perks-cta-tooltip = Opwurdearje nei { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Meitsje ûnbeheinde e-mailaliassen
+premium-promo-perks-perk-unlimited-headline-2 = Meitsje ûnbeheinde e-mailmaskers oan
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Gjin limyt fan fiif aliassen mear: mei { -brand-name-relay-premium } kinne jo safolle aliassen oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
+premium-promo-perks-perk-unlimited-body-2 = Gjin limyt fan fiif maskers mear: mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
 premium-promo-perks-perk-custom-domain-headline = Kies jo eigen oanpaste domein
+premium-promo-perks-perk-custom-domain-headline-2 = Kies jo eigen oanpaste subdomein
 # Deprecated
 premium-promo-perks-perk-custom-domain-body =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein.mozmail.com – Jo hoege de alias net yn it foar te meitsjen.
+premium-promo-perks-perk-custom-domain-body-2 =
+    Mei in oanpast subdomein kinne jo maskers meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
+    In masker nedich foar restaurantreservearringen? Sis gewoanwei iten@jodomein.mozmail.com – Jo hoege it masker net yn it foar te meitsjen.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Behear jo aliassen fan it dashboard ôf
+premium-promo-perks-perk-dashboard-headline-2 = Behear jo maskers fan it dashboard ôf
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Behear al jo aliassen yn it gebrûksfreonlike dashboerd: as jo merke dat der ien net-winske berjochten ûntfangt, kinne jo foarkomme dat dy berjochten jo Postfek YN berikje.
+premium-promo-perks-perk-dashboard-body-2 = Behear al jo maskers yn it gebrûksfreonlike dashboerd: as jo merke dat der ien net-winske berjochten ûntfangt, kinne jo foarkomme dat dy berjochten jo Postfek YN berikje.
 # Deprecated
 premium-promo-use-cases-headline = Brûk e-mailaliassen fan { -brand-name-relay } oeral
+premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
 # Deprecated
 premium-promo-use-cases-shopping-body = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste aliassen, lykas ‘myndeals@myndomein.mozmail.com’.
+premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
 premium-promo-use-cases-social-networks-heading = Sosjale netwurken
 # Deprecated
 premium-promo-use-cases-social-networks-body = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oare { -brand-name-relay }-alias om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo echte e-mailadres sichtber is foar dy websites.
+premium-promo-use-cases-social-networks-body-2 = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oar e-mailmasker om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo echte e-mailadres sichtber is foar dy websites.
 premium-promo-use-cases-gaming-heading = Gaming
 # Deprecated
 premium-promo-use-cases-gaming-body =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
     Brûk in alias lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
+premium-promo-use-cases-gaming-body-2 =
+    Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
+    Brûk in masker lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
 premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
 
 ## Settings page
@@ -334,14 +350,21 @@ settings-error-save-heading = Wiziging ynstellingen mislearre
 settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fanwegen in ferbiningsflater. Probearje it opnij.
 # Deprecated
 settings-warning-collection-off-heading = Labelfunksje foar e-mailaliassen is útskeakele
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Labelfunksje foar e-mailmaskers is útskeakele
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr’t jo e-mailaliassen oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr’t jo e-mailmaskers oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 # Deprecated
 setting-label-collection-description = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo aliassen oanmakke en brûkt binne.
+setting-label-collection-description-2 = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo maskers oanmakke en brûkt binne.
 # Deprecated
 setting-label-collection-off-warning = Mei dizze gegevens kinne wy yn in takomstige ferzje jo aliassen labelje mei de relevante websites. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr’t se brûkt wurde.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Mei dizze gegevens kinne wy jo maskers labelje mei de relevante websites wêr’t se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo maskers net labele mei de websites wêr’t se brûkt wurde.
 settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 
@@ -355,20 +378,27 @@ faq-headline = Faak stelde fragen
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Wat is in { -brand-name-relay }-alias?
+faq-question-what-is-question-2 = Wat is in { -brand-name-relay }-e-mailmasker?
 # Deprecated
 faq-question-what-is-answer = E-mailaliassen binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze aliassen kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+faq-question-what-is-answer-2 = E-mailmaskers binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze maskers kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
 # Deprecated
 faq-question-missing-emails-question = Ik ûntfang gjin berjochten fan myn aliassen
+faq-question-missing-emails-question-2 = Ik ûntfang gjin berjochten fan myn maskers
 # Deprecated
 faq-question-missing-emails-answer-a = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo aliassen trochstjoerd binne, wêrûnder:
+faq-question-missing-emails-answer-a-2 = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo maskers trochstjoerd binne, wêrûnder:
 faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Jo e-mailprovider blokkearret jo alias
+faq-question-missing-emails-answer-reason-blocked-2 = Jo e-mailprovider blokkearret jo e-mailmaskers
 faq-question-missing-emails-answer-reason-size = It trochstjoerde e-mailberjocht hat in bylage dy’t grutter is as { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = De website akseptearret gjin aliassen
+faq-question-missing-emails-answer-reason-not-accepted-2 = De website akseptearret gjin e-mailmaskers
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Mooglik is trochstjoeren útskeakele foar de alias
+faq-question-missing-emails-answer-reason-turned-off-2 = Mooglik is trochstjoeren útskeakele foar it masker
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der langer as normaal oer dwaan om jo berjochten troch te stjoeren
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -378,12 +408,16 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
 # Deprecated
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
+faq-question-use-cases-question-2 = Wannear moat ik { -brand-name-relay }-maskers brûke?
 # Deprecated
 faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
+faq-question-use-cases-answer-part1-2 = Jo kinne { -brand-name-relay }-e-mailmaskers brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
 # Deprecated
 faq-question-use-cases-answer-part2 = Wy rekommandearje it gebrûk fan aliassen ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar fluchten.
+faq-question-use-cases-answer-part2-2 = Wy rekommandearje it gebrûk fan maskers ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar flechten.
 # Deprecated
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
+faq-question-2-question-2 = Wêrom akseptearret in website myn e-mailmasker fan { -brand-name-relay } net?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
