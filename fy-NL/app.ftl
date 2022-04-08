@@ -32,7 +32,9 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+# Deprecated
 meta-description = { -brand-name-firefox-relay } makket it maklik om e-mailaliassen te meitsjen, dy’t nei jo echte postfek yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
+meta-description-2 = { -brand-name-firefox-relay } makket it maklik om e-mailmaskers te meitsjen, dy’t nei jo echte Postfek Yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
 
 ## Header 
 
@@ -123,10 +125,6 @@ bento-button-close-label = Menu slute
 
 ## Home Page
 
-home-hero-headline = Ferbergje jo echte e-mailadres om jo identiteit te beskermjen
-home-hero-copy =
-    Diel e-mailaliassen fan { -brand-name-relay } yn stee fan jo echte e-mailadres, om jo online accounts tsjin hackers te beskermjen.
-    Meld jo oan mei jo { -brand-name-firefox-account } om oan de slach te gean.
 home-hero-cta = Oanmelde
 how-it-works-headline = Hoe’t it wurket
 how-it-works-subheadline = Beskermje jo persoanlike identiteit, oeral wêr’t jo de { -brand-name-firefox-browser } brûke.
@@ -135,18 +133,18 @@ how-it-works-step-1-link = Download { -brand-name-relay }-útwreiding foar { -br
 how-it-works-step-1-copy =
     Selektearje it piktogram dat op jo { -brand-name-firefox }-arkbalke ferskynt om de oanmeldingsside te iepenjen.
     Meld jo oan mei jo { -brand-name-firefox-account } om oan de slach te gean.
+# Deprecated
 how-it-works-step-2-headline = In nije alias oanmeitsje
+how-it-works-step-2-headline-2 = In nij e-mailmasker oanmeitsje
 how-it-works-step-2-copy =
     Wylst jo navigearje sil it { -brand-name-relay }-piktogram ferskine wêr websites om jo e-mailadres freegje.
     Selektearje it piktogram om in nij, eigenwillich adres te generearjen dat einiget op @relay.firefox.com.
     { -brand-name-relay } stjoert berjochten troch nei it primêre e-mailadres dat heart by jo account.
+# Deprecated
 how-it-works-step-3-headline = Jo aliassen beheare
-how-it-works-step-3-copy =
-    Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy’t jo oanmakke hawwe te folgjen.
-    As jo merke dat jo spam of net-winske berjochten ûntfange, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
+how-it-works-step-3-headline-2 = Jo e-mailmaskers beheare
 hero-image-copy-trust = Kinne jo dit bedriuw sels fertrouwe mei jo persoanlike e-mailadres?
 hero-image-copy-unique-html = <strong>Brûk in unyk trochstjoeradres</strong> foar elk nije account…
-hero-image-copy-protect-html = … sadat jo <strong>jo echte e-mailadres</strong> beskermje kinne tsjin folgjen en spam.
 hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn jo Postfek YN te lâne komt!
 
 ## Home Page Version A
@@ -154,45 +152,74 @@ hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn 
 
 ## Hero Section
 
+# Deprecated
 landing-hero-headline = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
+landing-hero-headline-2 = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
+# Deprecated
 landing-hero-body =
     { -brand-name-firefox-relay }-e-mailaliassen beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
+    No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
+landing-hero-body-2 =
+    { -brand-name-firefox-relay }-e-mailmaskers beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
     No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
 
 ## How it works section
 
 landing-how-it-works-headline = Hoe’t it wurket
+# Deprecated
 landing-how-it-works-body = Diel { -brand-name-relay }-e-mailaliassen yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
+landing-how-it-works-body-2 = Diel { -brand-name-relay }-e-mailmaskers yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
 landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
+# Deprecated
 landing-how-it-works-step-1-body = Generearje automatysk e-mailaliassen wêr’t jo jo e-mailadres online ynfiere.
+landing-how-it-works-step-1-body-2 = Generearje automatysk e-mailmaskers wêr’t jo jo e-mailadres online ynfiere.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Wylst jo sneupe, ferskynt it { -brand-name-relay }-piktogram wêr websites om jo e-mailadres freegje.
     Selektearje it om in nij, eigenwillich adres te generearjen dat einiget op @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Wylst jo sneupe, ferskynt it { -brand-name-relay }-piktogram wêr websites om jo e-mailadres freegje.
+    Selektearje it om in nij, eigenwillich adres te generearjen dat einiget op @mozmail.com.
+# Deprecated
 landing-how-it-works-step-3-body =
     Meld jo oan by it { -brand-name-relay }-dashboerd om de aliassen dy’t jo oanmakke hawwe te folgjen.  { -brand-name-relay } stjoert berjochten troch nei jo e-mailadres.
     
     As in alias spam of net-winske berjochten ûntfangt, kinne jo alle berjochten blokkearje of sels de alias fuortsmite, streekrjocht fan it dashboerd út.
+landing-how-it-works-step-3-body-2 =
+    Meld jo oan by it { -brand-name-relay }-dashboerd om de e-mailmaskers dy’t jo oanmakke hawwe te folgjen.
+    As jo merke dat jo spam of net-winske berjochten ûntfange, kinne jo alle berjochten blokkearje of sels it masker fuortsmite, streekrjocht fan it dashboerd út.
 
 ## Pricing section
 
+# Deprecated
+landing-pricing-headline = Tydlik oanbod: ûnbeheinde aliassen foar { $monthly_price } yn 'e moanne
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-headline = Tydlik oanbod: ûnbeheinde aliassen foar { $monthly_price } yn 'e moanne
+landing-pricing-headline-2 = Tydlik oanbod: ûnbeheinde e-mailmaskers foar { $monthly_price } yn de moanne
+# Deprecated
 landing-pricing-body =
     Probearje { -brand-name-firefox-relay }-aliassen en begjin mei it beskermjen fan jo Postfek YN.
     Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
+landing-pricing-body-2 =
+    Probearje { -brand-name-firefox-relay }-e-mailmaskers en begjin mei it beskermjen fan jo Postfek YN.
+    Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
 landing-pricing-free-price = Fergees
+# Deprecated
 landing-pricing-free-feature-1 = Maksimaal 5 e-mailaliassen
+landing-pricing-free-feature-1-2 = Maksimaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserútwreiding
 landing-pricing-free-cta = { -brand-name-relay } downloade
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/maand
 landing-pricing-premium-price-highlight = Tydlike prizen
+# Deprecated
 landing-pricing-premium-feature-1 = Unbeheinde e-mailaliassen
+landing-pricing-premium-feature-1-2 = Unbeheinde e-mailmaskers
 landing-pricing-premium-feature-2 = Browserútwreiding
+# Deprecated
 landing-pricing-premium-feature-3 = Jo eigen e-maildomein
+landing-pricing-premium-feature-3-2 = Jo eigen e-mailsubdomein
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
 landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
@@ -200,28 +227,51 @@ landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
 
 ## Use Cases
 
+landing-use-cases-heading = Brûk { -brand-name-firefox-relay } foar:
 landing-use-cases-shopping = Winkelje
+# Deprecated
 landing-use-cases-shopping-body =
     Wat keapje yn in nije webshop? Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear’t jo in online oankeap dogge.
     Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
+landing-use-cases-shopping-body-2 =
+    Wat keapje yn in nije webshop? Brûk in e-mailmasker yn stee fan jo echte e-mailadres wannear’t jo in online oankeap dogge.
+    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-social-networks = Sosjale netwurken
+# Deprecated
 landing-use-cases-social-networks-body =
     Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk?
     Probearje jo foar te kommen dat jo echte e-mailadres keppele wurdt oan jo oanwêzichheid op sosjale media? Brûk in { -brand-name-relay }-alias om oan te melden en help josels online te beskermjen.
+landing-use-cases-social-networks-body-2 =
+    Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk?
+    Probearje jo foar te kommen dat jo echte e-mailadres keppele wurdt oan jo oanwêzichheid op sosjale media? Brûk in { -brand-name-relay }-masker om oan te melden en help josels online te beskermjen.
 landing-use-cases-offline = Offline
+# Deprecated
 landing-use-cases-offline-body =
     Untfange jo leaver e-mailbefêstigingen, mar wolle jo ek marketingspam mije?
     Brûk in { -brand-name-relay }-alias yn stee fan jo e-mailadres wannear’t jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
     Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfange, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
+landing-use-cases-offline-body-2 =
+    Untfange jo leaver e-mailbefêstigingen, mar wolle jo ek marketingspam mije?
+    Brûk in { -brand-name-relay }-masker yn stee fan jo e-mailadres wannear’t jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
+    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-access-content = Tagong ta ynhâld
+# Deprecated
 landing-use-cases-access-content-body =
     Wolle jo jo oanmelde foar dy nijsbrief, mar fertrouwe jo de ôfstjoerder net?
     Brûk in alias yn stee fan jo echte adres – as jo net-winske e-mailberjochten fia dy alias krije, hat de ôfstjoerder jo alias mooglik oan oaren ferkocht of is it mooglik sels lekt by in datalek.
     Skeakelje de alias gewoanwei út of smyt it fuort om jo Postfek YN te beskermjen.
+landing-use-cases-access-content-body-2 =
+    Wolle jo jo oanmelde foar dy nijsbrief, mar fertrouwe jo de ôfstjoerder net?
+    Brûk in masker yn stee fan jo echte adres – as jo net-winske e-mailberjochten fia dat masker krije, hat de ôfstjoerder jo masker mooglik oan oaren ferkocht of is it mooglik sels lekt by in datalek.
+    Skeakelje it masker gewoanwei út of smyt it fuort om jo Postfek YN te beskermjen.
 landing-use-cases-gaming = Gaming
+# Deprecated
 landing-use-cases-gaming-body =
     Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
     Brûk in { -brand-name-relay }-alias om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
+landing-use-cases-gaming-body-2 =
+    Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
+    Brûk in e-mailmasker om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
 
 ## Landing FAQ Section
 
@@ -231,29 +281,41 @@ landing-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker mei { -brand-name-firefox-relay-premium }
+# Deprecated
+premium-promo-hero-body-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailaliassen dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei Relay Premium foar mar { $monthly_price } yn de moanne.</b>
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailaliassen dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei Relay Premium foar mar { $monthly_price } yn de moanne.</b>
+premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei { -brand-name-relay-premium } foar mar { $monthly_price } yn de moanne.</b>
 premium-promo-hero-cta = No opwurdearje
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
+# Deprecated
 premium-promo-perks-lead = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailaliassen en jo eigen oanpaste domein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
 premium-promo-perks-cta-label = No opwurdearje
 premium-promo-perks-cta-tooltip = Opwurdearje nei { -brand-name-firefox-relay-premium }
+# Deprecated
 premium-promo-perks-perk-unlimited-headline = Meitsje ûnbeheinde e-mailaliassen
+# Deprecated
 premium-promo-perks-perk-unlimited-body = Gjin limyt fan fiif aliassen mear: mei { -brand-name-relay-premium } kinne jo safolle aliassen oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
 premium-promo-perks-perk-custom-domain-headline = Kies jo eigen oanpaste domein
+# Deprecated
 premium-promo-perks-perk-custom-domain-body =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein.mozmail.com – Jo hoege de alias net yn it foar te meitsjen.
+# Deprecated
 premium-promo-perks-perk-dashboard-headline = Behear jo aliassen fan it dashboard ôf
+# Deprecated
 premium-promo-perks-perk-dashboard-body = Behear al jo aliassen yn it gebrûksfreonlike dashboerd: as jo merke dat der ien net-winske berjochten ûntfangt, kinne jo foarkomme dat dy berjochten jo Postfek YN berikje.
+# Deprecated
 premium-promo-use-cases-headline = Brûk e-mailaliassen fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
+# Deprecated
 premium-promo-use-cases-shopping-body = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste aliassen, lykas ‘myndeals@myndomein.mozmail.com’.
 premium-promo-use-cases-social-networks-heading = Sosjale netwurken
+# Deprecated
 premium-promo-use-cases-social-networks-body = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oare { -brand-name-relay }-alias om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo echte e-mailadres sichtber is foar dy websites.
 premium-promo-use-cases-gaming-heading = Gaming
+# Deprecated
 premium-promo-use-cases-gaming-body =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
     Brûk in alias lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
@@ -270,16 +332,16 @@ settings-meta-status-label = Servicesteat
 settings-meta-status-tooltip = Besjen oft alle { -brand-name-relay }-systemen op dit stuit operasjoneel binne.
 settings-error-save-heading = Wiziging ynstellingen mislearre
 settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fanwegen in ferbiningsflater. Probearje it opnij.
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+# Deprecated
 settings-warning-collection-off-heading = Labelfunksje foar e-mailaliassen is útskeakele
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+# Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr’t jo e-mailaliassen oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
+# Deprecated
 setting-label-collection-description = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo aliassen oanmakke en brûkt binne.
-# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+# Deprecated
 setting-label-collection-off-warning = Mei dizze gegevens kinne wy yn in takomstige ferzje jo aliassen labelje mei de relevante websites. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr’t se brûkt wurde.
-setting-label-collection-off-warning-v2 = Mei dizze gegevens kinne wy jo aliassen labelje mei de relevante websites wêr’t se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo aliassen net labele mei de websites wêr’t se brûkt wurde.
 settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 
@@ -291,14 +353,21 @@ faq-headline = Faak stelde fragen
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+# Deprecated
 faq-question-what-is-question = Wat is in { -brand-name-relay }-alias?
+# Deprecated
 faq-question-what-is-answer = E-mailaliassen binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze aliassen kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+# Deprecated
 faq-question-missing-emails-question = Ik ûntfang gjin berjochten fan myn aliassen
+# Deprecated
 faq-question-missing-emails-answer-a = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo aliassen trochstjoerd binne, wêrûnder:
 faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
+# Deprecated
 faq-question-missing-emails-answer-reason-blocked = Jo e-mailprovider blokkearret jo alias
 faq-question-missing-emails-answer-reason-size = It trochstjoerde e-mailberjocht hat in bylage dy’t grutter is as { email-size-limit }
+# Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = De website akseptearret gjin aliassen
+# Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Mooglik is trochstjoeren útskeakele foar de alias
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kin der langer as normaal oer dwaan om jo berjochten troch te stjoeren
 #   $url (url) - link to the support site
@@ -307,9 +376,13 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
+# Deprecated
 faq-question-use-cases-question = Wannear moat ik { -brand-name-relay }-aliassen brûke?
+# Deprecated
 faq-question-use-cases-answer-part1 = Jo kinne { -brand-name-relay }-aliassen brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
+# Deprecated
 faq-question-use-cases-answer-part2 = Wy rekommandearje it gebrûk fan aliassen ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar fluchten.
+# Deprecated
 faq-question-2-question = Wêrom akseptearret in website myn alias fan { -brand-name-relay } net?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -321,37 +394,42 @@ faq-question-2-answer-v3-html =
     As jo gjin { -brand-name-relay }-alias brûke kinne, <a href="{ $url }" { $attrs }>lit it ús dan witte</a>.
 faq-question-2-answer-v4 = Guon websites akseptearje mooglik gjin e-mailadres mei in subdomein (@subdomein.mozmail.com) en oare akseptearje net alle adressen mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
 faq-question-1-question = Hoe sit it mei spam?
+# Deprecated
 faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy’t se trochstjoert.
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-1-answer-b-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo aliassen, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
 faq-question-availability-answer-v2 = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapoer, Maleizië, Nij-Seelân, Finlân, Frankryk, België, Eastenryk, Spanje, Italië, Sweden, Switserlân, Nederlân en Ierlân.
+# Deprecated
 faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar alle ûntfangers fan it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+# Deprecated
 faq-question-4-answer-html =
     { -brand-name-relay } biedt noch net de mooglikheid om te antwurdzjen mei in alias.
     As jo dit probearje, bart der neat. Wy hawwe plannen foar in ekstra funksje wêrmei't jo <a href="{ $url }" { $attrs }>anonym reagearje kinne op ôfstjoerders</a>.
 faq-question-subdomain-characters-question = Hokker tekens kin ik brûke om in subdomein oan te meitsjen?
 faq-question-subdomain-characters-answer-v2 = Jo kinne allinnich lytse Nederlânske letters, sifers en keppeltekens brûke om in subdomein te meitsjen.
 faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
+# Deprecated
 faq-question-browser-support-answer = Ja, jo kinne { -brand-name-relay }-aliassen generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
 faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
+# Deprecated
 faq-question-longevity-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+# Deprecated
 faq-question-mozmail-question = Wêrom binne myn aliassen begûn it domein ‘mozmail.com’ te brûken?
+# Deprecated
 faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-maildomein te krijen, lykas alias@uwdomein.mozmail.com. Oanpaste e-maildomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailaliassen ek folle makliker te ûnthâlden as eigenwillige aliassen.
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
+# Deprecated
 faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
+# Deprecated
 faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
-# Variables:
-#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
-#   $attrs (string) - specific attributes added to external links
+# Deprecated
 faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
@@ -375,26 +453,35 @@ faq-question-detect-promotional-answer = In protte e-mailberjochten wurde ferstj
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Wolkom,</span> { $email }!
+# Deprecated
 profile-headline-manage-domain = Jo domeinaliassen beheare
 profile-supports-email-forwarding = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }
 profile-promo-upgrade-headline = Opwurdearje foar noch mear funksjes.
+# Deprecated
 profile-promo-upgrade-copy = Opwurdearje { -brand-name-relay } om ûnbeheinde e-mailadressen en jo eigen e-maildomein te krijen.
 profile-promo-upgrade-cta = { -brand-name-relay } opwurdearje
+# Deprecated
 profile-label-edit = It label foar dizze alias bewurkje
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Accountnamme tafoegje
 profile-label-save-error = Bewarjen mislearre, probearje it opnij.
 profile-label-saved = Label bewarre!
+# Deprecated
 profile-label-generate-new-alias = Nije alias oanmeitsje
+# Deprecated
 profile-label-generate-new-alias-menu-random = Eigenwillige alias
-# Variables
-#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+# Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
 profile-label-delete = Fuortsmite
+# Deprecated
 profile-label-delete-alias = Dizze alias fuortsmite
+# Deprecated
 profile-label-upgrade = Unbeheinde aliassen krije
+# Deprecated
 profile-label-create-domain = Jo e-maildomein krije
+# Deprecated
 profile-label-domain = E-maildomein:
+# Deprecated
 profile-label-domain-tooltip = Meitsje jo unike en oanpaste e-maildomein.
 profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
@@ -411,35 +498,38 @@ profile-label-details-hide = Details ferstopje
 # This string is a label for a toggle (on/off) switch  
 profile-label-forwarding = trochstjoere
 profile-label-blocking = blokkearje
+# Deprecated
 profile-label-disable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias útskeakelje
+# Deprecated
 profile-label-enable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias ynskeakelje
 profile-label-click-to-copy = Klikje om te kopiearjen
+# Deprecated
 profile-label-copy-confirmation = Alias nei klamboerd kopiearre
 profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
 profile-label-cancel = Annulearje
+# Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit alias selektearje.
+# Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit alias selektearje.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
 profile-stat-label-blocked = E-mailberjochten blokkearre
 profile-stat-label-forwarded = E-mailberjochten trochstjoerd
+# Deprecated
 profile-stat-label-aliases-used = Brûkte e-mailaliassen
+# Deprecated
 profile-filter-search-placeholder = Aliassen sykje
-# Filter on Relay aliases that are still active; i.e. that still forward received emails to your email address.
+# Deprecated
 profile-filter-category-option-active-aliases-v2 = Trochstjoeraliassen
-# Filter on Relay aliases that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+# Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blokkearringsaliassen
-# Filter on Relay aliases that have a random name (<gibberish>@mozmail.com).
+# Deprecated
 profile-filter-category-option-relay-aliases-v2 = Eigenwillige aliassen
-# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+# Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Oanpaste aliassen
-# Filter on Relay aliases that only forward critical emails.
-profile-filter-category-option-critical-only-aliases = Allinnich-krityk-aliassen
-# Filter on Relay aliases that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
-profile-filter-category-option-promo-blocking-aliases = Reklameblokkearjende aliassen
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -470,39 +560,43 @@ banner-bounced-copy =
     Wy hawwe in <em>{ $bounce_type }</em> “bounce” ûntfongen fan jo e-mailprovider doe’t wy e-mailberjochten nei jo probearren troch te stjoeren.
     Dit kin barre as { -brand-name-relay } gjin ferbining meitsje kin mei jo e-mailprovider, of as jo mailbox fol is. Wy sille it opnij probearje op { $date }.
 banner-download-firefox-headline = { -brand-name-relay } is noch better yn { -brand-name-firefox }
+# Deprecated
 banner-download-firefox-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan aliassen noch ienfâldiger.
 banner-download-firefox-cta = { -brand-name-firefox } downloade
 banner-download-install-extension-headline = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }
+# Deprecated
 banner-download-install-extension-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
 banner-download-install-extension-cta = { -brand-name-relay } tafoegje oan { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Probearje { -brand-name-relay } foar { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan aliassen noch ienfâldiger.
 banner-download-install-chrome-extension-cta = De { -brand-name-relay }-útwreiding downloade
 banner-upgrade-headline = Opwurdearje nei { -brand-name-relay-premium }
+# Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makket it oanmeitsjen fan e-mailaliassen noch ienfâldiger, mei oanpaste aliasdomeinen en ûnbeheinde aliassen.
 banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Aksjestap
+# Deprecated
 banner-register-subdomain-headline-aliases = In oanpast domein krije foar jo aliassen
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = jodomein
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-#
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+# Deprecated
 banner-register-subdomain-copy =
     Mei in oanpast domein kinne jo aliassen diele dy’t net generearre hoege te wurden
     eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Ferstrek
     ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy’t jo oanpaste
     domein brûkt wurdt nei jo trochstjoerd.
+# Deprecated
 banner-choose-subdomain-input-placeholder = Domein sykje
+# Deprecated
 banner-choose-subdomain-input-placeholder-2 = Jo nije domein sykje
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Sykje
+# Deprecated
 banner-pack-upgrade-headline-html = Opwurdearje nei <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om mear aliassen te krijen
+# Deprecated
 banner-pack-upgrade-copy = Mei ûnbeheinde e-mailaliassen en jo eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } jo online beskerme te bliuwen.
 banner-pack-upgrade-cta = No opwurdearje
 # Privacy Notice update banner:
@@ -511,12 +605,14 @@ banner-label-privacy-notice-update-body = Om de betrouberheid fan { -brand-name-
 banner-label-privacy-notice-update-cta = Privacyferklearring besjen
 # Data Notification Banner:
 banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
+# Deprecated
 banner-label-data-notification-body = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen oer de websites wêr’t jo aliassen brûkt wurde om takomstige funksjes te stypjen. As jo dizze gegevenssamling op de side ‘Ynstellingen’ tastean, wurdt it behearen fan jo Postfek YN noch ienfâldiger.
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
+# Deprecated
 banner-label-data-notification-body-v2 = Jo kinne { -brand-name-relay } tastean om opsjonele gegevens te sammeljen, wêrmei't wy jo aliaslabels op al jo apparaten syngronisearje kinne mei de websites wêrop se makke en brûkt binne.
 banner-label-data-notification-body-cta = Mear ynfo
-# This string is followed by name (string) that the user chooses
+# Deprecated
 banner-choose-subdomain-label = Jo domein is:
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -524,25 +620,24 @@ banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
+# Deprecated
 success-subdomain-registered = Jo domein @{ $subdomain } is oanmakke
 success-settings-update = Jo ynstellingen binne bywurke
 
 ## Error Messages
 
-# Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account.
+# Deprecated
 error-premium-set-make-aliases = Jo moatte in premiumabonnee wêze om mear as { $number } aliassen oan te meitsjen
 error-premium-cannot-change-subdomain = Jo kinne jo subdomein net wizigje
 error-premium-set-subdomain = Jo moatte in premiumabonnee wêze om in subdomein yn te stellen
 error-premium-check-subdomain = Jo moatte in premiumabonnee wêze om in subdomein te kontrolearjen
+# Deprecated
 error-premium-set-create-subdomain = Jo moatte in premiumabonnee wêze om in subdomeinaliassen oan te meitsjen
 error-subdomain-not-created = Subdomein kin net oanmakke wurde, probearje wat oars
 error-subdomain-email-not-created = E-mailadres mei subdomein kin net oanmakke wurde, probearje wat oars
+# Deprecated
 error-subdomain-select = Jo moatte in subdomein selektearje eardat jo in subdomainalias oanmeitsje
-# Variables:
-#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+# Deprecated
 error-subdomain-not-available = It domein @{ $unavailable_subdomain } is net beskikber. Probearje it opnij mei in oar domein.
 
 ## Tips and tricks at the bottom of the page
@@ -558,21 +653,31 @@ tips-footer-link-support-tooltip = Kontakt opnimme
 
 ## Alias for generating a custom alias
 
+# Deprecated
 modal-custom-alias-picker-heading = In nije oanpaste alias oanmeitsje
+# Deprecated
 modal-custom-alias-picker-warning = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+# Deprecated
 modal-custom-alias-picker-form-heading = Of meitsje hânmjittich in oanpaste alias
+# Deprecated
 modal-custom-alias-picker-form-prefix-label = Fier aliasfoarfoegsel yn
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = byg. ‘kofje’
+# Deprecated
 modal-custom-alias-picker-form-submit-label = Alias oanmeitsje
+# Deprecated
 modal-custom-alias-picker-creation-error = Jo oanpaste alias kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei de alias om dizze oan te meitsjen.
 
 ## Popover explaining how custom aliases work
 
+# Deprecated
 popover-custom-alias-explainer-heading = Oanpaste aliassen meitsje
+# Deprecated
 popover-custom-alias-explainer-explanation = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+# Deprecated
 popover-custom-alias-explainer-generate-button-heading = Hânmjittich in oanpaste alias oanmeitsje
+# Deprecated
 popover-custom-alias-explainer-generate-button-label = Oanpaste alias oanmeitsje
 popover-custom-alias-explainer-close-button-label = Slute
 # Checkbox the user can click to adjust the block level of the new alias
@@ -581,7 +686,9 @@ popover-custom-alias-explainer-promotional-block-tooltip = Reklameberjochten blo
 
 ## Tip about using custom aliases
 
+# Deprecated
 tips-custom-alias-heading = Aliassen oanmeitsje mei jo oanpaste domein
+# Deprecated
 tips-custom-alias-content = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
 
 ## Tip about using custom aliases
@@ -591,9 +698,12 @@ tips-promo-email-blocking-content = Mei { -brand-name-relay-premium } kinne jo f
 
 ## Onboarding 
 
+# Deprecated
 onboarding-headline = Meitsje jo earste alias oan, jo kinne kieze út trije manieren…
+# Deprecated
 onboarding-alias-tip-1 = Selektearje ‘Nije alias oanmeitsje’ om jo earste alias oan te meitsjen
 onboarding-alias-tip-2 = Selektearje as jo de { -brand-name-relay }-útwreiding brûke it { -brand-name-firefox-relay }-piktogram wannear’t dit yn e-mailfjilden ferskynt.
+# Deprecated
 onboarding-alias-tip-3 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nije alias oanmeitsje’.
 
 ## Premium Onboarding
@@ -603,11 +713,17 @@ onboarding-premium-headline = Wolkom by { -brand-name-firefox } { -brand-name-re
 onboarding-premium-subheadline-html = Jo kinne no <strong>bepale</strong> wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-relay-premium } kinne jo:
 onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
+# Deprecated
 onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
+# Deprecated
 onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan aliassen
+# Deprecated
 onboarding-premium-domain-title-2 = In oanpast domein brûke foar it dielen fan aliassen:
+# Deprecated
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
+# Deprecated
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
+# Deprecated
 onboarding-premium-reply-description = Moatte jo e-mailberjochten dy’t nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
 onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinne jo:
 
@@ -616,28 +732,35 @@ onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinn
 multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 multi-part-onboarding-premium-welcome-title = Bepale hokker e-mailberjochten jo ûntfange:
+# Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Generearje ûnbeheinde e-mailaliassen:
 multi-part-onboarding-premium-welcome-button-start = Begjinne
+# Deprecated
 multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fan aliassen
+# Deprecated
 multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
+# Deprecated
 multi-part-onboarding-premium-get-domain = Krij in oanpast domein
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
+# Deprecated
 multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliassen mear: jo kinne no safolle oanpaste of ferskate aliassen generearje as jo nedich binne. Op desktop, kinne jo de Relay-add-on brûke om se daliks oan te meitsjen.
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+# Deprecated
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
     In alias nedich foar restaurantreservearingen? Sis gewoanwei iten@jodomein{ $mozmail } – Jo hoege de alias net yn it foar te meitsjen.
-# Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+# Deprecated
 multi-part-onboarding-premium-get-domain-description-2 =
     Mei in oanpast domein kinne jo aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
     Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
+# Deprecated
 multi-part-onboarding-premium-domain-cta = Registrearje no jo oanpaste domein:
+# Deprecated
 multi-part-onboarding-premium-domain-button-skip = Trochgean, ik registrearje myn oanpaste domein letter
 multi-part-onboarding-premium-extension-headline = Blokkearje, trochstjoere en beäntwurdzje
+# Deprecated
 multi-part-onboarding-premium-extension-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan:
 multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } downloade
+# Deprecated
 multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
 multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-útwreiding downloade
 multi-part-onboarding-premium-chrome-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-google-chrome } downloade
@@ -650,22 +773,27 @@ multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 ## Modals
 
 modal-rename-alias-saved = Label bewarre!
+# Deprecated
 modal-delete-headline = Dizze alias definityf fuortsmite?
-# Variables:
-#   $email (string) - The relay alias (email address) that will be deleted
+# Deprecated
 modal-delete-warning-recovery-html =
     As jo dizze alias fuortsmite, kin dizze net mear wersteld wurde.
     { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy’t ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
+# Deprecated
 modal-delete-warning-upgrade =
     As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
+# Deprecated
 modal-delete-domain-address-warning-upgrade =
     As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
     As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy’t nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
+# Deprecated
 modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
 modal-domain-register-good-news = Goed nijs!
+# Deprecated
 modal-domain-register-warning-reminder = Unthâld dat jo mar ien domein registrearje kinne. Jo kinne it letter net mear wizigje.
+# Deprecated
 modal-domain-register-button = Domein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -674,11 +802,13 @@ modal-domain-register-available = { $subdomain } is beskikber!
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
 modal-domain-register-success-title = Slagge!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
-#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+# Deprecated
 modal-domain-register-success = { $subdomain } is no jo e-maildomein!
+# Deprecated
 modal-domain-register-success-copy = Jo kinne no ûnbeheind e-mailaliassen meitsje mei jo nije domein! Wêr wachtsje jo noch op?
+
+## The "Help & Tips" area at the bottom of the page
+
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -723,14 +853,14 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloade
 #   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email } troch { $linked_origin }.
+# Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo echte e-mailadres sichtber.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+# Deprecated
 forwarded-email-header-premium-banner = Wurdearje op nei { $premium_link } om ûnbeheinde aliassen en in oanpast e-maildomein te krijen.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
-# This entire text is a link
+# Deprecated
 forwarded-email-footer = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle aliassen beheare.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-premium }
