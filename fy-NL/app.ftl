@@ -430,13 +430,19 @@ faq-question-2-answer-v4 = Guon websites akseptearje mooglik gjin e-mailadres me
 faq-question-1-question = Hoe sit it mei spam?
 # Deprecated
 faq-question-1-answer-a = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan de alias dy’t se trochstjoert.
+faq-question-1-answer-a-2 = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan it masker dy’t se trochstjoert.
 # Deprecated
 faq-question-1-answer-b-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo aliassen, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo maskers, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
 faq-question-availability-answer-v2 = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapoer, Maleizië, Nij-Seelân, Finlân, Frankryk, België, Eastenryk, Spanje, Italië, Sweden, Switserlân, Nederlân en Ierlân.
 # Deprecated
 faq-question-4-question = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-alias?
+faq-question-4-question-2 = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-e-mailmasker?
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar de ûntfanger en de persoanen yn it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar alle ûntfangers fan it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
@@ -449,22 +455,32 @@ faq-question-subdomain-characters-answer-v2 = Jo kinne allinnich lytse Nederlân
 faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
 # Deprecated
 faq-question-browser-support-answer = Ja, jo kinne { -brand-name-relay }-aliassen generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
+faq-question-browser-support-answer-2 = Ja, jo kinne { -brand-name-relay }-maskers generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
 faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
 # Deprecated
 faq-question-longevity-answer = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-aliassen wizigje moat.
+faq-question-longevity-answer-2 = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-e-mailmaskers wizigje moat.
 # Deprecated
 faq-question-mozmail-question = Wêrom binne myn aliassen begûn it domein ‘mozmail.com’ te brûken?
+faq-question-mozmail-question-2 = Wêrom binne myn maskers begûn it domein ‘mozmail.com’ te brûken?
 # Deprecated
 faq-question-mozmail-answer = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-maildomein te krijen, lykas alias@uwdomein.mozmail.com. Oanpaste e-maildomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailaliassen ek folle makliker te ûnthâlden as eigenwillige aliassen.
+faq-question-mozmail-answer-2 = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-mailsubdomein te krijen, lykas masker@jodomein.mozmail.com. Oanpaste e-mailsubdomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailmaskers ek folle makliker te ûnthâlden as eigenwillige e-mailmaskers.
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
 # Deprecated
 faq-question-unsubscribe-domain-question = Wat bart der mei myn oanpaste domein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
+faq-question-unsubscribe-domain-question-2 = Wat bart der mei myn oanpaste subdomein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
 # Deprecated
 faq-question-unsubscribe-domain-answer = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste domein, mar kinne jo gjin nije aliassen mear meitsje mei dat domein. As jo yn totaal mear as fiif aliassen hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
+faq-question-unsubscribe-domain-answer-2 = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste subdomein, mar kinne jo gjin nije e-mailmaskers mear meitsje mei dat domein. As jo yn totaal mear as fiif maskers hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-8-answer-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailaliassen, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailmaskers, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
 faq-question-acceptable-use-question = Wat binne de akseptabele tapassingen fan { -brand-name-relay }?
@@ -494,29 +510,48 @@ profile-promo-upgrade-headline = Opwurdearje foar noch mear funksjes.
 # Deprecated
 profile-promo-upgrade-copy = Opwurdearje { -brand-name-relay } om ûnbeheinde e-mailadressen en jo eigen e-maildomein te krijen.
 profile-promo-upgrade-cta = { -brand-name-relay } opwurdearje
+profile-details-expand = Details masker toane
+profile-details-collapse = Details masker ferstopje
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Klik om masker { $address } te kopiearje.
 # Deprecated
 profile-label-edit = It label foar dizze alias bewurkje
+profile-label-edit-2 = It label foar dit masker bewurkje
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Accountnamme tafoegje
 profile-label-save-error = Bewarjen mislearre, probearje it opnij.
 profile-label-saved = Label bewarre!
 # Deprecated
 profile-label-generate-new-alias = Nije alias oanmeitsje
+profile-label-generate-new-alias-2 = Nije masker oanmeitsje
 # Deprecated
 profile-label-generate-new-alias-menu-random = Eigenwillige alias
+profile-label-generate-new-alias-menu-random-2 = Willekeurich e-mailmasker
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-masker
 profile-label-delete = Fuortsmite
 # Deprecated
 profile-label-delete-alias = Dizze alias fuortsmite
 # Deprecated
+profile-label-delete-alias-2 = Dit masker fuortsmite
+# Deprecated
 profile-label-upgrade = Unbeheinde aliassen krije
+profile-label-upgrade-2 = Unbeheinde e-mailmaskers krije
 # Deprecated
 profile-label-create-domain = Jo e-maildomein krije
+profile-label-create-subdomain = Jo e-mailsubdomein krije
 # Deprecated
 profile-label-domain = E-maildomein:
+profile-label-subdomain = E-mailsubdomein:
+profile-label-subdomain-tooltip-trigger = Mear ynfo
 # Deprecated
 profile-label-domain-tooltip = Meitsje jo unike en oanpaste e-maildomein.
+profile-label-subdomain-tooltip = Meitsje jo unike e-mailsubdomein oan.
 profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
 profile-label-skip = Oerslaan
@@ -534,8 +569,10 @@ profile-label-forwarding = trochstjoere
 profile-label-blocking = blokkearje
 # Deprecated
 profile-label-disable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias útskeakelje
+profile-label-disable-forwarding-button-2 = Trochstjoeren fan e-mailberjochten foar dit masker útskeakelje
 # Deprecated
 profile-label-enable-forwarding-button = Trochstjoeren fan e-mailberjochten foar dizze alias ynskeakelje
+profile-label-enable-forwarding-button-2 = Trochstjoeren fan e-mailberjochten foar dit masker ynskeakelje
 profile-label-click-to-copy = Klikje om te kopiearjen
 # Deprecated
 profile-label-copy-confirmation = Alias nei klamboerd kopiearre
