@@ -487,6 +487,7 @@ faq-question-8-answer-html = Вы можете узнать больше о да
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Вы можете узнать больше о данных, собираемых { -brand-name-firefox-relay }, просмотрев наше <a href="{ $url }" { $attrs }>Уведомление о приватности</a>. Вы также можете дополнительно делиться с нами данными о метках и сайтах, использующих ваши псевдонимы электронной почты, чтобы мы могли предоставлять вам и улучшать соответствующую службу.
 faq-question-email-storage-question = { -brand-name-relay } хранит мои электронные письма?
+faq-question-email-storage-answer = Только в тех редких случаях, когда служба не работает, мы можем временно хранить ваши электронные письма, пока не сможем их отправить. Мы никогда не храним ваши письма дольше трёх дней.
 faq-question-acceptable-use-answer-measure-unlimited-payment = Требование оплаты за создание пользователем более пяти псевдонимов
 faq-question-promotional-email-blocking-question = Что такое блокировка рекламной электронной почты?
 
