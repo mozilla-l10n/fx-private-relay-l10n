@@ -191,9 +191,15 @@ landing-how-it-works-step-3-body-2 =
 
 # Deprecated
 landing-pricing-headline = Solo por tiempo limitado: alias ilimitados por { $monthly_price } al mes
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Solo por tiempo limitado: máscaras de correo electrónico ilimitadas por { $monthly_price } al mes
 # Deprecated
 landing-pricing-body =
     Prueba los alias de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
+    Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
+landing-pricing-body-2 =
+    Prueba las máscaras de correo electrónico de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo.
     Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 landing-pricing-free-price = Gratis
 # Deprecated
@@ -225,11 +231,17 @@ landing-use-cases-shopping = Compras
 landing-use-cases-shopping-body =
     ¿Estás comprando algo en una nueva tienda en línea? Utiliza un alias de { -brand-name-relay } en lugar de tu correo electrónico cuando realices una compra en línea.
     Reenviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-shopping-body-2 =
+    ¿Estás comprando algo en una nueva tienda en línea? Utiliza una máscara de correo en vez de lugar de tu correo electrónico cuando realices una compra en línea.
+    Reenviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente bloquea la máscara.
 landing-use-cases-social-networks = Redes sociales
 # Deprecated
 landing-use-cases-social-networks-body =
     ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
     ¿Intentas evitar que tu correo electrónico real esté vinculado a tu presencia en las redes sociales? Utiliza un alias de { -brand-name-relay } para iniciar sesión y protegerte en línea.
+landing-use-cases-social-networks-body-2 =
+    ¿Quieres proteger mejor tu identidad en línea cuando usas una red social?
+    ¿Intentas evitar que tu correo electrónico real esté vinculado a tu presencia en las redes sociales? Utiliza una máscara de { -brand-name-relay } para iniciar sesión y protegerte en línea.
 landing-use-cases-offline = Sin conexión
 # Deprecated
 landing-use-cases-offline-body =
