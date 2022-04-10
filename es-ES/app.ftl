@@ -324,9 +324,11 @@ premium-promo-use-cases-shopping-body-2 = ¿Estás intentando registrarte para o
 premium-promo-use-cases-social-networks-heading = Redes sociales
 # Deprecated
 premium-promo-use-cases-social-networks-body = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa un alias de { -brand-name-relay } diferente para iniciar sesión en cada red social y así ayudar a proteger tu verdadero correo electrónico evitando exponerlo en estos sitios.
+premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa una máscara diferente para iniciar sesión en cada red social y así ayudar a proteger tu verdadero correo electrónico evitando exponerlo en estos sitios.
 premium-promo-use-cases-gaming-heading = Juegos
 # Deprecated
 premium-promo-use-cases-gaming-body = ¿Te preocupa que otros jugadores o trolls sepan quién eres a través de tu nombre y dirección de correo electrónico? Utiliza un alias como “juegoenlinea@midominio.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+premium-promo-use-cases-gaming-body-2 = ¿Te preocupa que otros jugadores o trolls sepan quién eres a través de tu nombre y dirección de correo electrónico? Utiliza una máscara como “juegoenlinea@midominio.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 premium-promo-pricing-free-price = Tu plan gratuito actual
 
 ## Settings page
@@ -342,14 +344,21 @@ settings-error-save-heading = Error al cambiar la configuración
 settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # Deprecated
 settings-warning-collection-off-heading = La función de etiqueta de alias de correo electrónico está desactivada
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = La función de etiqueta de máscara de correo electrónico está desactivada
 # Deprecated
 settings-warning-collection-off-description = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado alias de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado máscaras de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 # Deprecated
 setting-label-collection-description = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus alias.
+setting-label-collection-description-2 = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus máscaras.
 # Deprecated
 setting-label-collection-off-warning = Estos datos nos permitirán etiquetar en una futura versión tus alias con los sitios web relevantes. Si decides desactivar esta opción, tus alias no se etiquetarán con los sitios web donde se utilizan.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar en una futura versión tus máscaras con los sitios web donde se usan. Si decides desactivar esta opción, tus máscaras no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 
@@ -363,20 +372,27 @@ faq-headline = Preguntas frecuentes
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = ¿Qué es un alias de { -brand-name-relay }?
+faq-question-what-is-question-2 = ¿Qué es una máscara de correo de { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = Los alias de correo electrónico son direcciones de correo electrónico enmascaradas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estos alias te permiten compartir una dirección con terceros que enmascarará tu verdadera dirección de correo electrónico y te reenviarán mensajes.
+faq-question-what-is-answer-2 = Las máscaras de correo electrónico son direcciones de correo electrónico enmascaradas, o privadas, que reenvían mensajes a tu verdadera dirección de correo electrónico. Estas máscaras te permiten compartir una dirección con terceros que enmascarará tu verdadera dirección de correo electrónico y te reenviarán mensajes.
 # Deprecated
 faq-question-missing-emails-question = No recibo mensajes de mis alias
+faq-question-missing-emails-question-2 = No recibo mensajes de mis máscaras de correo electrónico
 # Deprecated
 faq-question-missing-emails-answer-a = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus alias. Estas razones incluyen:
+faq-question-missing-emails-answer-a-2 = Hay algunas razones por las que es posible que no recibas correos electrónicos reenviados a través de tus máscaras. Estas razones incluyen:
 faq-question-missing-emails-answer-reason-spam = Los mensajes acaban en la carpeta de spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Tu proveedor de correo electrónico está bloqueando tu alias
+faq-question-missing-emails-answer-reason-blocked-2 = Tu proveedor de correo electrónico está bloqueando tu máscara de correo
 faq-question-missing-emails-answer-reason-size = El correo electrónico reenviado tiene un archivo adjunto mayor de { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = El sitio no acepta alias
+faq-question-missing-emails-answer-reason-not-accepted-2 = El sitio no acepta máscaras de correo electrónico
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Es posible que el alias tenga el reenvío desactivado
+faq-question-missing-emails-answer-reason-turned-off-2 = Es posible que la máscara tenga el reenvío desactivado
 faq-question-missing-emails-answer-reason-delay = Es posible que { -brand-name-relay } tarde más de lo habitual en reenviar tus mensajes
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -386,8 +402,10 @@ faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-
 faq-question-missing-emails-answer-support-site-html = Si tienes alguno de estos problemas, por favor <a href="{ $url }" { $attrs }>visita nuestro sitio de ayuda</a>.
 # Deprecated
 faq-question-use-cases-question = ¿Cuándo debería usar los alias de{ -brand-name-relay }?
+faq-question-use-cases-question-2 = ¿Cuándo debería usar las máscaras de { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Puedes usar alias de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Te recomendamos que las utilices al registrarte para correos electrónicos de marketing/información, y así puedas controlar si recibes o no correos en el futuro.
+faq-question-use-cases-answer-part1-2 = Puedes usar máscaras de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Te recomendamos que las utilices al registrarte para correos electrónicos de marketing/información, y así puedas controlar si recibes o no correos en el futuro.
 # Deprecated
 faq-question-use-cases-answer-part2 = No recomendamos usar alias cuando necesitas verificar tu identidad o para correos muy importantes o aquellos en los que debes recibir archivos adjuntos. Por ejemplo, es preferible compartir tu dirección de correo electrónico real con tu banco, tu médico y tu abogado, así como cuando recibas pases de concierto o de embarque de vuelos.
 # Deprecated
