@@ -150,6 +150,7 @@ landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 # Deprecated
 landing-how-it-works-step-1-body = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل عرفی ناں جنریٹ کرو۔
+landing-how-it-works-step-1-body-2 = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل ماسک جنریٹ کرو۔
 
 ## Pricing section
 
