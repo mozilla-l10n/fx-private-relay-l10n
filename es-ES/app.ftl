@@ -248,17 +248,28 @@ landing-use-cases-offline-body =
     ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
     Utiliza un alias de { -brand-name-relay } en vez de tu correo electrónico cuando obtengas un recibo sin papel en una tienda.
     Enviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
+landing-use-cases-offline-body-2 =
+    ¿Prefieres recibir recibos por correo electrónico, pero también quieres evitar el spam de marketing?
+    Utiliza una máscara de { -brand-name-relay } en vez de tu correo electrónico cuando obtengas un recibo sin papel en una tienda.
+    Enviaremos el recibo a tu dirección de correo electrónico real y, si comienzas a recibir correos electrónicos que no te gustan, simplemente desactiva el reenvío de correo electrónico.
 landing-use-cases-access-content = Acceder a contenido
 # Deprecated
 landing-use-cases-access-content-body =
     ¿Quieres suscribirse a ese boletín, pero no confías en el remitente?
     Usa un alias en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de ese alias, es posible que el remitente haya vendido tu alias a otros comercializadores, o incluso podría haberse filtrado en una violación de datos.
     Simplemente apaga o elimina el alias para proteger tu bandeja de entrada de correo electrónico.
+landing-use-cases-access-content-body-2 =
+    ¿Quieres suscribirte a ese boletín, pero no confías en el remitente?
+    Usa una máscara en lugar de tu dirección real: si comienzas a recibir correos electrónicos no deseados a través de esa máscara, es posible que el remitente haya vendido tu máscara a otros comercializadores, o incluso podría haber sido afectado por una filtración de datos.
+    Simplemente apaga o elimina la máscara para proteger tu bandeja de entrada de correo electrónico.
 landing-use-cases-gaming = Juegos
 # Deprecated
 landing-use-cases-gaming-body =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
     Utiliza un alias de { -brand-name-relay } para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+landing-use-cases-gaming-body-2 =
+    ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
+    Utiliza una máscara de correo electrónico para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 
 ## Landing FAQ Section
 
@@ -270,31 +281,46 @@ landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-rela
 premium-promo-hero-headline = Simplifica la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium }, obtienes alias de correo electrónico personalizados ilimitados que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a Relay Premium por solo { $monthly_price } al mes.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, obtienes máscaras ilimitadas de correo electrónico personalizado que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a { -brand-name-relay-premium } por solo { $monthly_price } al mes.</b>
 premium-promo-hero-cta = Actualizar ahora
 premium-promo-availability-warning = { -brand-name-relay-premium } está actualmente disponible en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } está actualmente disponible en Austria, Bélgica, Canadá, Finlandia, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suecia, Suiza, Reino Unido y Estados Unidos.
 premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de tu bandeja de entrada que proporciona { -brand-name-relay }, pero con alias de correo electrónico ilimitados y tu propio dominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
+premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de tu bandeja de entrada que proporciona { -brand-name-relay }, pero con máscaras de correo electrónico ilimitadas y tu propio subdominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
 premium-promo-perks-cta-label = Actualizar ahora
 premium-promo-perks-cta-tooltip = Actualiza a { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Crea alias de correo electrónico ilimitados
+premium-promo-perks-perk-unlimited-headline-2 = Crea máscaras de correo electrónico ilimitadas
 # Deprecated
 premium-promo-perks-perk-unlimited-body = No más límite de cinco alias: con { -brand-name-relay-premium }, puedes generar tantos alias como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
+premium-promo-perks-perk-unlimited-body-2 = No más límite de cinco máscaras: con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
 premium-promo-perks-perk-custom-domain-headline = Elige tu propio dominio personalizado
+premium-promo-perks-perk-custom-domain-headline-2 = Elige tu propio subdominio personalizado
 # Deprecated
 premium-promo-perks-perk-custom-domain-body =
     Con un dominio personalizado, puedes crear alias que son más fáciles de recordar y compartir.
     ¿Necesitas un alias para las reservas de restaurantes? Usa uno como comida@tudominio.mozmail.com. No es necesario crear el alias de antemano.
+premium-promo-perks-perk-custom-domain-body-2 =
+    Con un subdominio personalizado, puedes crear máscaras que son más fáciles de recordar y compartir.
+    ¿Necesitas una máscara para las reservas de restaurantes? Usa una como comida@tudominio.mozmail.com. No es necesario crear la máscara de antemano.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Controla tus alias desde el panel
+premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el panel
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Administra todos tus alias en el panel de fácil uso: si ves que un alias recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
+premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras en el panel de fácil uso: si ves que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
 # Deprecated
 premium-promo-use-cases-headline = Utiliza los alias de correo de { -brand-name-relay } en cualquier lugar
+premium-promo-use-cases-headline-2 = Utiliza las máscaras de correo de { -brand-name-relay } en cualquier lugar
 premium-promo-use-cases-shopping-heading = Compras
 # Deprecated
 premium-promo-use-cases-shopping-body = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo alias personalizados únicos, como “descuentos@midominio.mozmail.com.”
+premium-promo-use-cases-shopping-body-2 = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo máscaras personalizadas únicas, como “descuentos@midominio.mozmail.com.”
 premium-promo-use-cases-social-networks-heading = Redes sociales
 # Deprecated
 premium-promo-use-cases-social-networks-body = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa un alias de { -brand-name-relay } diferente para iniciar sesión en cada red social y así ayudar a proteger tu verdadero correo electrónico evitando exponerlo en estos sitios.
