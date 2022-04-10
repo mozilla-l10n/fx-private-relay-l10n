@@ -167,17 +167,25 @@ landing-hero-body-2 =
 landing-how-it-works-headline = Cómo funciona
 # Deprecated
 landing-how-it-works-body = Comparte los alias de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tu bandeja de entrada de correo electrónico, así como tu identidad.
+landing-how-it-works-body-2 = Comparte las máscaras de correo electrónico de { -brand-name-relay } en lugar de tu dirección de correo electrónico real para proteger tu bandeja de entrada de correo electrónico, así como tu identidad.
 landing-how-it-works-step-1-body-cta = Descarga la extensión { -brand-name-relay } para { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Genera alias de correo electrónico automáticamente siempre que introduzcas tu dirección de correo electrónico en línea.
+landing-how-it-works-step-1-body-2 = Genera máscaras de correo electrónico automáticamente siempre que introduzcas tu dirección de correo electrónico en línea.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Mientras navegas, aparecerá el ícono de { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
     Selecciónalo para generar una nueva dirección aleatoria que termine en @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Mientras navegas, aparecerá el ícono de { -brand-name-relay } donde los sitios solicitan tu dirección de correo electrónico.
+    Selecciónalo para generar una nueva dirección aleatoria que termine en @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de los alias que has creado. { -brand-name-relay }reenviará los mensajes a tu dirección de correo electrónico.
     Si un alias recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar el alias, directamente desde el panel de control.
+landing-how-it-works-step-3-body-2 =
+    Inicia sesión en el panel de { -brand-name-relay } para realizar un seguimiento de las máscaras que has creado.
+    Si descubres que uno recibe spam o mensajes no deseados, puedes bloquear todos los mensajes o incluso eliminar la máscara, directamente desde el panel de control.
 
 ## Pricing section
 
