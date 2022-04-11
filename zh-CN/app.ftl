@@ -712,6 +712,7 @@ popover-custom-alias-explainer-heading-2 = 如何创建自定义马甲
 popover-custom-alias-explainer-explanation = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
+popover-custom-alias-explainer-generate-button-heading-2 = 手动生成自定义马甲
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
 popover-custom-alias-explainer-generate-button-label-2 = 生成自定义马甲
@@ -741,9 +742,11 @@ onboarding-headline = 有三种方式可以创建您的第一个马甲…
 onboarding-headline-2 = 创建您的第一个马甲邮箱
 # Deprecated
 onboarding-alias-tip-1 = 点击“生成新马甲”创建您的第一个马甲。
+onboarding-alias-tip-1-2 = 点击“生成新马甲”创建您的第一个马甲邮箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
 # Deprecated
 onboarding-alias-tip-3 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新别名”。
+onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新马甲”。
 
 ## Premium Onboarding
 
