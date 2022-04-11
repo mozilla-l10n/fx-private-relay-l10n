@@ -462,6 +462,7 @@ profile-details-expand = 显示马甲详细信息
 profile-details-collapse = 隐藏马甲详细信息
 # Deprecated
 profile-label-edit = 编辑此马甲的标签
+profile-label-edit-2 = 编辑此马甲的标签
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = 添加标签
 profile-label-save-error = 保存失败，请重试。
@@ -484,6 +485,7 @@ profile-label-delete-alias = 删除此马甲
 profile-label-delete-alias-2 = 删除此马甲
 # Deprecated
 profile-label-upgrade = 获取无限量马甲
+profile-label-upgrade-2 = 获得无限量马甲
 # Deprecated
 profile-label-create-domain = 获取您的域名邮箱
 profile-label-create-subdomain = 获取您的子域名邮箱
@@ -525,8 +527,10 @@ profile-label-forwarded = 转发
 profile-label-cancel = 取消
 # Deprecated
 profile-blocked-copy = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
+profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
 # Deprecated
 profile-forwarded-copy = 启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
+profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 若邮件（含附件）大于 { email-size-limit }，将不会向您转发。
 profile-forwarded-note-copy-v2 = 大于 { email-size-limit } 的电子邮件（含附件）将不会被转发。
@@ -663,6 +667,9 @@ error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，�
 error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
 # Deprecated
 error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = 无法更新马甲数据，请重试。
 
 ## Tips and tricks at the bottom of the page
 
@@ -707,15 +714,18 @@ popover-custom-alias-explainer-explanation = 您只需要创建一个独特的�
 popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = 生成自定义新马甲
+popover-custom-alias-explainer-generate-button-label-2 = 生成自定义马甲
 popover-custom-alias-explainer-close-button-label = 关闭
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 popover-custom-alias-explainer-promotional-block-tooltip = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
+popover-custom-alias-explainer-promotional-block-tooltip-2 = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = 使用自定义域名创建马甲
+tips-custom-alias-heading-2 = 使用自定义子域名创建马甲
 # Deprecated
 tips-custom-alias-content = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 
@@ -728,6 +738,7 @@ tips-promo-email-blocking-content = 使用 { -brand-name-relay-premium } 可屏�
 
 # Deprecated
 onboarding-headline = 有三种方式可以创建您的第一个马甲…
+onboarding-headline-2 = 创建您的第一个马甲邮箱
 # Deprecated
 onboarding-alias-tip-1 = 点击“生成新马甲”创建您的第一个马甲。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
