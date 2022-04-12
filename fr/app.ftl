@@ -138,12 +138,14 @@ how-it-works-step-1-copy =
     Connectez-vous avec votre { -brand-name-firefox-account } pour commencer.
 # Deprecated
 how-it-works-step-2-headline = Créer un nouvel alias
+how-it-works-step-2-headline-2 = Créer un nouvel alias de messagerie
 how-it-works-step-2-copy =
     Lorsque vous naviguez, l’icône { -brand-name-relay } apparaîtra là où les sites vous demandent votre adresse e-mail.
     Cliquez dessus pour générer une nouvelle adresse aléatoire qui se termine par @relay.firefox.com.
     { -brand-name-relay } transférera les messages à l’adresse principale associée à votre compte.
 # Deprecated
 how-it-works-step-3-headline = Gérer vos alias
+how-it-works-step-3-headline-2 = Gérer vos alias de messagerie
 hero-image-copy-trust = Pouvez-vous faire confiance à cette entreprise avec votre messagerie personnelle ?
 hero-image-copy-unique-html = <strong>Utilisez une adresse de relais unique</strong> pour chaque nouveau compte…
 hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arrive dans votre boîte de réception !
@@ -164,29 +166,44 @@ landing-hero-body = Les alias d’adresse e-mail de { -brand-name-firefox-relay 
 landing-how-it-works-headline = Principe de fonctionnement
 # Deprecated
 landing-how-it-works-body = Partagez des alias de messagerie { -brand-name-relay } à la place de votre véritable adresse e-mail pour protéger votre boîte de réception, ainsi que votre identité.
+landing-how-it-works-body-2 = Partagez des alias de messagerie { -brand-name-relay } à la place de votre véritable adresse e-mail pour protéger votre boîte de réception, ainsi que votre identité.
 landing-how-it-works-step-1-body-cta = Téléchargez l’extension { -brand-name-relay } pour { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Générez automatiquement des alias de messagerie chaque fois que vous saisissez votre adresse e-mail en ligne.
+landing-how-it-works-step-1-body-2 = Générez automatiquement des alias de messagerie chaque fois que vous saisissez votre adresse e-mail en ligne.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Au cours de votre navigation, l’icône { -brand-name-relay } apparaîtra là où les sites vous demanderont votre adresse e-mail.
     Sélectionnez-la pour générer une nouvelle adresse aléatoire qui se termine par @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Au cours de votre navigation, l’icône { -brand-name-relay } apparaîtra là où les sites vous demanderont votre adresse e-mail.
+    Sélectionnez-la pour générer une nouvelle adresse aléatoire qui se termine par @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Connectez-vous au tableau de bord de { -brand-name-relay } pour suivre les alias que vous avez créés. { -brand-name-relay } transférera les messages vers votre adresse e-mail.
     Si un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
+landing-how-it-works-step-3-body-2 =
+    Connectez-vous au tableau de bord de { -brand-name-relay } pour consulter les alias de messagerie que vous avez créés.
+    Si vous constatez qu’un alias reçoit des messages indésirables, vous pouvez bloquer tous les messages ou même supprimer l’alias, directement depuis le tableau de bord.
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = Durée limitée uniquement : nombre illimité d’alias pour { $monthly_price } par mois
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Durée limitée uniquement : nombre illimité d’alias pour { $monthly_price } par mois
 # Deprecated
 landing-pricing-body =
+    Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
+    Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
+landing-pricing-body-2 =
     Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
     Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
 landing-pricing-free-price = Gratuit
 # Deprecated
 landing-pricing-free-feature-1 = Jusqu’à 5 alias de messagerie
+landing-pricing-free-feature-1-2 = Jusqu’à 5 alias de messagerie
 landing-pricing-free-feature-2 = Extension de navigateur
 landing-pricing-free-cta = Installer { -brand-name-relay }
 # Variables:
@@ -195,6 +212,7 @@ landing-pricing-premium-price = { $monthly_price }/mois
 landing-pricing-premium-price-highlight = Offre à durée limitée
 # Deprecated
 landing-pricing-premium-feature-1 = Nombre illimité d’alias de messagerie
+landing-pricing-premium-feature-1-2 = Nombre illimité d’alias de messagerie
 landing-pricing-premium-feature-2 = Extension de navigateur
 # Deprecated
 landing-pricing-premium-feature-3 = Votre propre domaine de messagerie
@@ -206,6 +224,7 @@ landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
 
 ## Use Cases
 
+landing-use-cases-heading = Utilisez { -brand-name-firefox-relay } pour :
 landing-use-cases-shopping = Achats en ligne
 # Deprecated
 landing-use-cases-shopping-body =
@@ -216,9 +235,16 @@ landing-use-cases-social-networks = Réseaux sociaux
 landing-use-cases-social-networks-body =
     Vous voulez mieux protéger votre identité en ligne lorsque vous utilisez un réseau social ?
     Vous essayez d’empêcher votre véritable e-mail d’être liée à votre présence sur les réseaux sociaux ? Utilisez un alias { -brand-name-relay } pour vous connecter et vous protéger en ligne.
+landing-use-cases-social-networks-body-2 =
+    Vous voulez mieux protéger votre identité en ligne lorsque vous utilisez un réseau social ?
+    Vous essayez d’empêcher votre véritable e-mail d’être liée à votre présence sur les réseaux sociaux ? Utilisez un alias { -brand-name-relay } pour vous connecter et vous protéger en ligne.
 landing-use-cases-offline = Hors connexion
 # Deprecated
 landing-use-cases-offline-body =
+    Vous préférez recevoir les tickets de caisse par e-mail, mais vous souhaitez également éviter les messages marketing indésirables ?
+    Utilisez un alias { -brand-name-relay } à la place de votre adresse e-mail lorsque vous souhaitez recevoir un ticket de caisse dématérialisé dans un magasin.
+    Nous transférerons le ticket de caisse à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, désactivez simplement le transfert d’e-mails.
+landing-use-cases-offline-body-2 =
     Vous préférez recevoir les tickets de caisse par e-mail, mais vous souhaitez également éviter les messages marketing indésirables ?
     Utilisez un alias { -brand-name-relay } à la place de votre adresse e-mail lorsque vous souhaitez recevoir un ticket de caisse dématérialisé dans un magasin.
     Nous transférerons le ticket de caisse à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, désactivez simplement le transfert d’e-mails.
@@ -228,11 +254,18 @@ landing-use-cases-access-content-body =
     Vous voulez vous inscrire à cette newsletter, mais vous ne faites pas confiance à l’expéditeur ?
     Utilisez un alias au lieu de votre véritable adresse. Si vous commencez à recevoir des e-mails indésirables via cet alias, l’expéditeur peut avoir vendu votre alias à d’autres spécialistes du marketing, ou il peut même avoir été divulgué lors d’une fuite de données.
     Désactivez ou supprimez simplement l’alias pour protéger votre boîte de réception.
+landing-use-cases-access-content-body-2 =
+    Vous voulez vous inscrire à cette newsletter, mais vous ne faites pas confiance à l’expéditeur ?
+    Utilisez un alias au lieu de votre véritable adresse. Si vous commencez à recevoir des e-mails indésirables via cet alias, l’expéditeur peut avoir vendu votre alias à d’autres spécialistes du marketing, ou il peut même avoir été divulgué lors d’une fuite de données.
+    Désactivez ou supprimez simplement l’alias pour protéger votre boîte de réception.
 landing-use-cases-gaming = Jeux
 # Deprecated
 landing-use-cases-gaming-body =
     Vous aimez les jeux en ligne, mais vous craignez que d’autres joueurs ou des harceleurs n’apprennent qui vous êtes par votre identifiant de joueur et votre adresse e-mail ?
     Utilisez un alias { -brand-name-relay } pour ajouter une couche de protection entre votre identité numérique et les jeux en ligne auxquels vous participez.
+landing-use-cases-gaming-body-2 =
+    Vous aimez les jeux en ligne, mais vous craignez que d’autres joueurs ou des harceleurs n’apprennent qui vous êtes par votre identifiant de joueur et votre adresse e-mail ?
+    Utilisez un alias de messagerie pour ajouter une couche de protection entre votre identité numérique et les jeux en ligne auxquels vous participez.
 
 ## Landing FAQ Section
 
@@ -244,6 +277,9 @@ landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-r
 premium-promo-hero-headline = Simplifiez la protection de votre boîte de réception grâce à { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à Relay Premium pour seulement { $monthly_price } par mois.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à { -brand-name-relay-premium } pour seulement { $monthly_price } par mois.</b>
 premium-promo-hero-cta = Mettre à niveau maintenant
 premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
 premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-premium } ?
