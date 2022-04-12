@@ -593,10 +593,18 @@ profile-filter-category-option-active-aliases-v2 = Alias avec transfert actif
 profile-filter-category-option-active-masks = Alias avec transfert actif
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Alias bloqués
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Alias bloqués
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Alias bloquant les promotions
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Alias aléatoires
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Alias aléatoires
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Alias personnalisés
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Alias personnalisés
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -617,6 +625,7 @@ profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Fermer
 banner-bounced-headline = { -brand-name-relay } n’a pu délivrer votre e-mail.
 # Variables:
 #   $username (string) - Username
@@ -629,10 +638,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } fonctionne encore mieux avec { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
+banner-download-firefox-copy-2 = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend la création d’alias encore plus facile.
 banner-download-firefox-cta = Installer { -brand-name-firefox }
 banner-download-install-extension-headline = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend l’utilisation des alias de messagerie encore plus facile.
+banner-download-install-extension-copy-2 = L’extension { -brand-name-relay } pour le { -brand-name-firefox-browser } rend l’utilisation des alias de messagerie encore plus facile.
 banner-download-install-extension-cta = Ajouter { -brand-name-relay } à { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Essayez { -brand-name-relay } pour { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = L’extension { -brand-name-firefox-relay } pour { -brand-name-chrome } facilite la création et l’utilisation d’alias.
