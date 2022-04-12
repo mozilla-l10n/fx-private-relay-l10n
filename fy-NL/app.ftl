@@ -889,9 +889,11 @@ multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fa
 multi-part-onboarding-premium-domain-title = In oanpast domein krije foar jo aliassen:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Krij in oanpast domein
+multi-part-onboarding-premium-get-subdomain = In oanpast subdomein krije
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Gjin limyt foar fiif aliassen mear: jo kinne no safolle oanpaste of ferskate aliassen generearje as jo nedich binne. Op desktop, kinne jo de Relay-add-on brûke om se daliks oan te meitsjen.
+multi-part-onboarding-premium-welcome-description-2 = Gjin limyt foar fiif maskers mear: jo kinne no safolle oanpaste of ferskate maskers generearje as jo nedich binne. Op desktop kinne jo de { -brand-name-relay }-add-on brûke om se daliks oan te meitsjen.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Mei in oanpast domein kinne jo aliassen meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
@@ -900,16 +902,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Mei in oanpast domein kinne jo aliassen oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
     Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastdomein{ $mozmail }’
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Mei in oanpast subdomein kinne jo maskers oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
+    Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastsubdomein{ $mozmail }’
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registrearje no jo oanpaste domein:
+multi-part-onboarding-premium-domain-cta-2 = Registrearje no jo oanpaste subdomein:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Trochgean, ik registrearje myn oanpaste domein letter
+multi-part-onboarding-premium-domain-button-skip-2 = Trochgean, ik registrearje myn oanpaste subdomein letter
 multi-part-onboarding-premium-extension-headline = Blokkearje, trochstjoere en beäntwurdzje
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan:
 multi-part-onboarding-premium-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } downloade
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
+multi-part-onboarding-premium-extension-get-description-2 = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox } makket it gebrûk fan e-mailmaskers noch ienfâldiger.
 multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay }-útwreiding downloade
 multi-part-onboarding-premium-chrome-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-google-chrome } downloade
 multi-part-onboarding-premium-chrome-extension-get-description = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
@@ -923,40 +933,76 @@ multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 modal-rename-alias-saved = Label bewarre!
 # Deprecated
 modal-delete-headline = Dizze alias definityf fuortsmite?
+modal-delete-headline-2 = Dit masker definityf fuortsmite?
 # Deprecated
 modal-delete-warning-recovery-html =
     As jo dizze alias fuortsmite, kin dizze net mear wersteld wurde.
     { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy’t ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    As jo dit masker fuortsmite, kin dizze net mear wersteld wurde.
+    { -brand-name-firefox-relay } stjoert gjin berjochten mear troch dy’t ferstjoerd binne nei <strong>{ $email }</strong>, ek gjin berjochten wêrmei't jo ferjitten wachtwurden opnij ynstelle kinne.
 # Deprecated
 modal-delete-warning-upgrade =
     As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
+    moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
+modal-delete-warning-upgrade-2 =
+    As jo dit masker brûke om jo oan te melden by websites dy't jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     As jo dizze alias brûke om jo oan te melden by websites dy’t jo wichtich fine,
     moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
     As jo in fuortsmiten alias opnij oanmeitsje, wurde e-mailberjochten dy’t nei de oarspronklike alias ferstjoerd binne noch hieltyd trochstjoerd.
+modal-delete-domain-address-warning-upgrade-2 =
+    As jo dit masker brûke om jo oan te melden by websites dy’t jo wichtich fine,
+    moatte jo jo oanmelding bywurkje mei in oar e-mailadres eardat jo dit fuortsmite.
+    As jo in fuortsmiten masker opnij oanmeitsje, wurde e-mailberjochten dy’t nei it oarspronklike masker ferstjoerd binne noch hieltyd trochstjoerd.
 # Deprecated
 modal-delete-confirmation = Ja, ik wol dizze alias fuortsmite.
+modal-delete-confirmation-2 = Ja, ik wol dit masker fuortsmite.
 modal-domain-register-good-news = Goed nijs!
 # Deprecated
 modal-domain-register-warning-reminder = Unthâld dat jo mar ien domein registrearje kinne. Jo kinne it letter net mear wizigje.
+modal-domain-register-warning-reminder-2 = Unthâld dat jo mar ien subdomein registrearje kinne. Jo kinne it letter net mear wizigje.
 # Deprecated
 modal-domain-register-button = Domein registrearje
+modal-domain-register-button-2 = Subdomein registrearje
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beskikber!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is beskikber!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ja, ik wol <subdomain>{ $subdomain }</subdomain> registrearje
 modal-domain-register-success-title = Slagge!
 # Deprecated
 modal-domain-register-success = { $subdomain } is no jo e-maildomein!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } is no jo e-mailsubdomein!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is no jo e-mailsubdomein!
 # Deprecated
 modal-domain-register-success-copy = Jo kinne no ûnbeheind e-mailaliassen meitsje mei jo nije domein! Wêr wachtsje jo noch op?
+modal-domain-register-success-copy-2 = No kinne jo ûnbeheind oanpaste e-mailmaskers meitsje!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1003,12 +1049,18 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloade
 forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email } troch { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo echte e-mailadres sichtber.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo echte e-mailadres sichtber.
 # Deprecated
 forwarded-email-header-premium-banner = Wurdearje op nei { $premium_link } om ûnbeheinde aliassen en in oanpast e-maildomein te krijen.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Wurdearje op nei { $premium_link } om ûnbeheinde maskers en in oanpast e-mailsubdomein te krijen.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
 # Deprecated
 forwarded-email-footer = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle aliassen beheare.
+# This entire text is a link
+forwarded-email-footer-2 = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle maskers beheare.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-premium }
