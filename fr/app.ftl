@@ -38,6 +38,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } facilite la création d’alias de messagerie qui transfèrent les messages vers votre véritable boîte de réception. Utilisez-le pour protéger vos comptes en ligne contre les pirates et les messages indésirables.
+meta-description-2 = { -brand-name-firefox-relay } facilite la création d’alias de messagerie qui transfèrent les messages vers votre véritable boîte de réception. Utilisez-les pour protéger vos comptes en ligne contre les pirates et les messages indésirables.
 
 ## Header 
 
@@ -231,6 +232,9 @@ landing-use-cases-shopping = Achats en ligne
 landing-use-cases-shopping-body =
     Vous acheter quelque chose sur une nouvelle boutique en ligne ? Utilisez un alias { -brand-name-relay } à la place de votre adresse e-mail lorsque vous effectuez un achat en ligne.
     Nous transférerons le reçu à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, désactivez simplement le transfert d’e-mails.
+landing-use-cases-shopping-body-2 =
+    Vous acheter quelque chose sur une nouvelle boutique en ligne ? Utilisez un alias de messagerie à la place de votre véritable adresse e-mail lorsque vous effectuez un achat en ligne.
+    Nous transférerons le reçu à votre véritable adresse e-mail, et si vous commencez à recevoir des e-mails que vous n’aimez pas, activez simplement le blocage de l’alias.
 landing-use-cases-social-networks = Réseaux sociaux
 # Deprecated
 landing-use-cases-social-networks-body =
@@ -451,6 +455,7 @@ faq-question-mozmail-question = Pourquoi mes alias ont-ils commencé à utiliser
 faq-question-mozmail-question-2 = Pourquoi mes alias de messagerie ont-ils commencé à utiliser le domaine « mozmail.com » ?
 # Deprecated
 faq-question-mozmail-answer = Nous sommes passés de « relay.firefox.com » à « mozmail.com » afin de permettre l’obtention d’un domaine de messagerie personnalisé, tel que alias@votredomaine.mozmail.com. Les domaines de messagerie personnalisés, disponibles pour les abonnés { -brand-name-relay-premium }, rendent également vos alias de messagerie beaucoup plus faciles à mémoriser que les alias aléatoires.
+faq-question-mozmail-answer-2 = Nous sommes passés de « relay.firefox.com » à « mozmail.com » afin de permettre l’obtention d’un sous-domaine de messagerie personnalisé, tel que alias@votredomaine.mozmail.com. Les sous-domaines de messagerie personnalisés, disponibles pour les abonnés { -brand-name-relay-premium }, permettent de générer des alias de messagerie beaucoup plus faciles à mémoriser.
 faq-question-attachments-question = { -brand-name-firefox-relay } transférera-t-il les e-mails avec pièces jointes ?
 faq-question-attachments-answer-v2 = Nous prenons désormais en charge le transfert de pièces jointes. Toutefois, il existe une limite de { email-size-limit } pour le transfert de messages par { -brand-name-relay }. Les courriers dont la taille excède { email-size-limit } ne seront pas transférés.
 # Deprecated
@@ -731,6 +736,7 @@ error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est p
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Le sous-domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre sous-domaine.
+error-settings-update = Une erreur s’est produite lors de la mise à jour de vos paramètres. Veuillez réessayer plus tard.
 error-mask-create-failed = L’alias n’a pas pu être créé. Veuillez réessayer.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
