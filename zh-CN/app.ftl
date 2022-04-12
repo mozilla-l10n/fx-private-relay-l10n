@@ -670,6 +670,9 @@ error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。�
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
 error-mask-update-failed = 无法更新马甲数据，请重试。
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = 无法删除马甲 { $mask }，请重试。
 
 ## Tips and tricks at the bottom of the page
 
@@ -686,6 +689,7 @@ tips-footer-link-support-tooltip = 联系用户支持
 
 # Deprecated
 modal-custom-alias-picker-heading = 新建自定义马甲
+modal-custom-alias-picker-heading-2 = 新建自定义马甲
 # Deprecated
 modal-custom-alias-picker-warning = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
 # Deprecated
