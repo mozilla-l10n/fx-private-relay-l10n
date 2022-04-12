@@ -457,9 +457,14 @@ faq-question-unsubscribe-domain-question = Qu’adviendra-t-il de mon domaine pe
 faq-question-unsubscribe-domain-question-2 = Qu’adviendra-t-il de mon sous-domaine personnalisé si je me désabonne de { -brand-name-relay-premium } ?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Si vous vous désabonnez de { -brand-name-relay-premium }, vous continuerez à recevoir les e-mails transférés via votre domaine personnalisé, mais vous ne pourrez plus créer de nouveaux alias à l’aide de ce domaine. Si vous avez plus de cinq alias au total, vous ne pourrez plus en créer. Vous perdrez également la possibilité de répondre aux messages transférés. Vous pouvez vous réabonner à { -brand-name-relay-premium } et accéder à nouveau à ces fonctionnalités.
+faq-question-unsubscribe-domain-answer-2 = Si vous vous désabonnez de { -brand-name-relay-premium }, vous continuerez à recevoir les e-mails transférés via vos alias de messagerie personnalisés, mais vous ne pourrez plus créer de nouveaux alias à l’aide de ce sous-domaine. Si vous avez plus de cinq alias au total, vous ne pourrez plus en créer. Vous perdrez également la possibilité de répondre aux messages transférés. Vous pouvez vous réabonner à { -brand-name-relay-premium } et accéder à nouveau à ces fonctionnalités.
 faq-question-8-question = Quelles données { -brand-name-firefox-relay } collecte-t-il ?
 # Deprecated
 faq-question-8-answer-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
 faq-question-email-storage-question = { -brand-name-relay } conserve-t-il mes e-mails ?
 faq-question-email-storage-answer = Dans les rares cas où le service est en panne, nous pouvons stocker temporairement vos e-mails jusqu’à ce que nous soyons en mesure de les envoyer. Nous ne conserverons jamais vos e-mails plus de trois jours.
 faq-question-acceptable-use-question = Quelles sont les utilisations acceptables de { -brand-name-relay } ?
@@ -489,29 +494,48 @@ profile-promo-upgrade-headline = Mettez à niveau pour encore plus de fonctionna
 # Deprecated
 profile-promo-upgrade-copy = Mettez à niveau { -brand-name-relay } pour obtenir un nombre illimité d’adresses e-mail et votre propre domaine de messagerie.
 profile-promo-upgrade-cta = Mettre à niveau { -brand-name-relay }
+profile-details-expand = Afficher les détails de l’alias
+profile-details-collapse = Masquer les détails de l’alias
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Cliquez pour copier l’alias { $address }.
 # Deprecated
 profile-label-edit = Modifier le nom de cet alias
+profile-label-edit-2 = Modifier le nom de cet alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Ajouter un nom de compte
 profile-label-save-error = Échec de l’enregistrement, veuillez réessayer.
 profile-label-saved = Nom enregistré !
 # Deprecated
 profile-label-generate-new-alias = Générer un nouvel alias
+profile-label-generate-new-alias-2 = Générer un nouvel alias
 # Deprecated
 profile-label-generate-new-alias-menu-random = Alias aléatoire
+profile-label-generate-new-alias-menu-random-2 = Alias de messagerie aléatoire
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Alias @{ $subdomain }
 profile-label-delete = Supprimer
 # Deprecated
 profile-label-delete-alias = Supprimer cet alias
 # Deprecated
+profile-label-delete-alias-2 = Supprimer cet alias
+# Deprecated
 profile-label-upgrade = Obtenir un nombre illimité d’alias
+profile-label-upgrade-2 = Obtenir un nombre illimité d’alias de messagerie
 # Deprecated
 profile-label-create-domain = Obtenez votre domaine de messagerie
+profile-label-create-subdomain = Obtenez votre sous-domaine de messagerie
 # Deprecated
 profile-label-domain = Domaine de messagerie :
+profile-label-subdomain = Sous-domaine de messagerie :
+profile-label-subdomain-tooltip-trigger = Plus d’infos
 # Deprecated
 profile-label-domain-tooltip = Créez votre domaine de messagerie unique et personnalisé.
+profile-label-subdomain-tooltip = Créez votre sous-domaine de messagerie unique.
 profile-label-reset = Réinitialiser
 profile-label-apply = Appliquer
 profile-label-skip = Ignorer
@@ -529,19 +553,25 @@ profile-label-forwarding = transfert
 profile-label-blocking = blocage
 # Deprecated
 profile-label-disable-forwarding-button = Désactiver le transfert de messages pour cet alias
+profile-label-disable-forwarding-button-2 = Désactiver le transfert de messages pour cet alias
 # Deprecated
 profile-label-enable-forwarding-button = Activer le transfert de messages pour cet alias
+profile-label-enable-forwarding-button-2 = Activer le transfert de messages pour cet alias
 profile-label-click-to-copy = Cliquer pour copier
 # Deprecated
 profile-label-copy-confirmation = Alias copié dans le presse-papiers
+# Deprecated
+profile-label-copy-confirmation-2 = Alias copié dans le presse-papiers
 profile-label-copied = Copié !
 profile-label-blocked = Bloqués
 profile-label-forwarded = Transférés
 profile-label-cancel = Annuler
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
 profile-forwarded-note = Remarque :
 profile-forwarded-note-copy = Les messages (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne sont actuellement pas pris en charge et ne seront pas transférés.
 profile-forwarded-note-copy-v2 = Les e-mails (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne seront pas transférés.
@@ -549,10 +579,18 @@ profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 # Deprecated
 profile-stat-label-aliases-used = Alias utilisés
+profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
 # Deprecated
 profile-filter-search-placeholder = Rechercher des alias
+profile-filter-search-placeholder-2 = Rechercher des alias
+profile-filter-category-button-label = Filtrer les alias visibles
+profile-filter-category-button-tooltip = Filtrer les alias par sous-domaine et/ou s’ils bloquent actuellement les e-mails entrants
+profile-filter-category-title = Filtrer les alias visibles
+profile-filter-no-results = Aucun alias ne correspond aux critères sélectionnés. <clear-button>Réinitialiser tous les filtres.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Alias avec transfert actif
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Alias avec transfert actif
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Alias bloqués
 # Deprecated
