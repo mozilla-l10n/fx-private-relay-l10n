@@ -600,14 +600,27 @@ profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
 profile-filter-search-placeholder = Aliassen sykje
 profile-filter-search-placeholder-2 = Maskers trochsykje
 profile-filter-category-button-label = Sichtbere maskers filterje
+profile-filter-category-button-tooltip = Maskers filterje op subdomein en/of oft se op dit stuit ynkommende e-mailberjochten blokkearje
+profile-filter-category-title = Sichtbere maskers filterje
+profile-filter-no-results = Der komme gjin maskers oerien mei jo selektearre kritearia. <clear-button>Alle filters wiskje.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Trochstjoeraliassen
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Trochstjoerende maskers
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blokkearringsaliassen
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blokkearjende maskers
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Reklameblokkearjende maskers
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Eigenwillige aliassen
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Oerige maskers
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Oanpaste aliassen
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Oanpaste maskers
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -628,6 +641,7 @@ profile-promo-email-blocking-label-not-forwarding = Net trochstjoere
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Slute
 banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
 # Variables:
 #   $username (string) - Username
@@ -640,10 +654,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } is noch better yn { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan aliassen noch ienfâldiger.
+banner-download-firefox-copy-2 = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it meitsjen fan maskers noch ienfâldiger.
 banner-download-firefox-cta = { -brand-name-firefox } downloade
 banner-download-install-extension-headline = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
+banner-download-install-extension-copy-2 = De { -brand-name-relay }-útwreiding foar { -brand-name-firefox-browser } makket it gebrûk fan e-mailmaskers noch ienfâldiger.
 banner-download-install-extension-cta = { -brand-name-relay } tafoegje oan { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Probearje { -brand-name-relay } foar { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan aliassen noch ienfâldiger.
