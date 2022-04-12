@@ -651,6 +651,7 @@ banner-download-install-chrome-extension-cta = Installer l’extension { -brand-
 banner-upgrade-headline = Passez à { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rend la création d’alias de messagerie encore plus facile, avec des domaines d’alias personnalisés et des alias illimités.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rend la création d’alias de messagerie encore plus facile, avec des sous-domaines d’alias personnalisés et un nombre d’alias illimité.
 banner-upgrade-cta = Passer à { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action importante
@@ -855,6 +856,7 @@ multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contr
 multi-part-onboarding-premium-welcome-title = Contrôlez les e-mails que vous recevez :
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Générer un nombre illimité d’alias :
+multi-part-onboarding-premium-generate-unlimited-title-2 = Générer un nombre illimité d’alias de messagerie :
 multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour partager des alias
@@ -862,25 +864,33 @@ multi-part-onboarding-premium-domain-headline = Domaine personnalisé pour parta
 multi-part-onboarding-premium-domain-title = Obtenez un domaine personnalisé pour vos alias :
 # Deprecated
 multi-part-onboarding-premium-get-domain = Disposer d’un domaine personnalisé
+multi-part-onboarding-premium-get-subdomain = Disposer d’un sous-domaine personnalisé
 multi-part-onboarding-reply-headline = Répondre à vos e-mails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module Relay pour les créer à la volée.
+multi-part-onboarding-premium-welcome-description-2 = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module { -brand-name-relay } pour les créer à la volée.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Grâce à un domaine personnalisé, vous pouvez créer des alias plus faciles que jamais à mémoriser et à partager.
     Besoin d’un alias pour les réservations de restaurant ? Dites simplement restaurant@votredomaine{ $mozmail } — Pas besoin de créer l’alias au préalable.
 # Deprecated
 multi-part-onboarding-premium-get-domain-description-2 = Avec un domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@domaineperso{ $mozmail } ».
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 = Avec un sous-domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@sousdomaineperso{ $mozmail } ».
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Enregistrez votre domaine personnalisé maintenant :
+multi-part-onboarding-premium-domain-cta-2 = Enregistrez votre sous-domaine personnalisé maintenant :
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Continuer, j’enregistrerai mon domaine personnalisé plus tard
+multi-part-onboarding-premium-domain-button-skip-2 = Continuer, j’enregistrerai mon sous-domaine personnalisé plus tard
 multi-part-onboarding-premium-extension-headline = Bloquez, transférez et répondez
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Répondez aux e-mails sans révéler votre véritable adresse :
 multi-part-onboarding-premium-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = L’extension { -brand-name-relay } pour { -brand-name-firefox } rend l’utilisation des alias de messagerie encore plus facile.
+multi-part-onboarding-premium-extension-get-description-2 = L’extension { -brand-name-relay } pour { -brand-name-firefox } rend l’utilisation des alias de messagerie encore plus facile.
 multi-part-onboarding-premium-extension-button-download = Installer l’extension { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Installez l’extension { -brand-name-relay } pour { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = L’extension { -brand-name-firefox-relay } pour { -brand-name-chrome } rend la création et l’utilisation d’alias de messagerie encore plus facile.
@@ -894,37 +904,70 @@ multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau d
 modal-rename-alias-saved = Nom enregistré !
 # Deprecated
 modal-delete-headline = Supprimer définitivement cet alias ?
+modal-delete-headline-2 = Supprimer définitivement cet alias de messagerie ?
 # Deprecated
 modal-delete-warning-recovery-html =
+    Une fois cet alias supprimé, il ne peut pas être récupéré.
+    { -brand-name-firefox-relay } ne transférera plus les messages envoyés à <strong>{ $email }</strong>, y compris les messages vous permettant de réinitialiser les mots de passe perdus.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
     Une fois cet alias supprimé, il ne peut pas être récupéré.
     { -brand-name-firefox-relay } ne transférera plus les messages envoyés à <strong>{ $email }</strong>, y compris les messages vous permettant de réinitialiser les mots de passe perdus.
 # Deprecated
 modal-delete-warning-upgrade =
     Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent,
     vous devriez mettre à jour votre identifiant avec une adresse e-mail différente avant de supprimer celle-ci.
+modal-delete-warning-upgrade-2 =
+    Si vous utilisez cet alias de messagerie pour vous connecter à des sites qui vous intéressent,
+    vous devriez mettre à jour votre identifiant avec une adresse e-mail différente avant de supprimer celle-ci.
 # Deprecated
 modal-delete-domain-address-warning-upgrade = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
+modal-delete-domain-address-warning-upgrade-2 = Si vous utilisez cet alias pour vous connecter à des sites qui vous intéressent, vous devrez mettre à jour votre identifiant de connexion avec une adresse e-mail différente avant de supprimer celle-ci. Si vous recréiez un alias supprimé, les courriers envoyés à l’alias d’origine continueraient de vous être transférés.
 # Deprecated
 modal-delete-confirmation = Oui, je veux supprimer cet alias.
+modal-delete-confirmation-2 = Oui, je veux supprimer cet alias.
 modal-domain-register-good-news = Bonne nouvelle !
 # Deprecated
 modal-domain-register-warning-reminder = N’oubliez pas que vous ne pouvez enregistrer qu’un seul domaine. Vous ne pourrez pas le changer plus tard.
+modal-domain-register-warning-reminder-2 = N’oubliez pas que vous ne pouvez enregistrer qu’un seul sous-domaine. Vous ne pourrez pas le changer plus tard.
 # Deprecated
 modal-domain-register-button = Enregistrer le domaine
+modal-domain-register-button-2 = Enregistrer le sous-domaine
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } est disponible !
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est disponible !
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Oui, je souhaite enregistrer <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Terminé !
 # Deprecated
 modal-domain-register-success = { $subdomain } est maintenant votre domaine de messagerie !
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } est maintenant votre sous-domaine de messagerie !
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est maintenant votre sous-domaine de messagerie !
 # Deprecated
 modal-domain-register-success-copy = Vous pouvez maintenant créer un nombre illimité d’alias en utilisant votre nouveau domaine ! Qu’attendez-vous ?
+modal-domain-register-success-copy-2 = Vous pouvez désormais créer un nombre illimité d’alias de messagerie personnalisés !
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Astuce { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -971,12 +1014,18 @@ vpn-promo-cta = Obtenir { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Ce message a été transféré depuis { $display_email } par { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } supprime les destinataires en copie ou en copie cachée de vos réponses. Si vous les ajoutez de nouveau, votre véritable adresse e-mail est exposée.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } supprime les destinataires en copie ou en copie cachée de vos réponses. Si vous les ajoutez de nouveau, votre véritable adresse e-mail est exposée.
 # Deprecated
 forwarded-email-header-premium-banner = Passez à { $premium_link } pour obtenir un nombre illimité d’alias et un domaine personnalisé.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Passez à { $premium_link } pour obtenir un nombre illimité d’alias de messagerie et un sous-domaine personnalisé.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
 # Deprecated
 forwarded-email-footer = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
+# This entire text is a link
+forwarded-email-footer-2 = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Passez à { -brand-name-relay-premium }
