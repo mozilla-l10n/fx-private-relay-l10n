@@ -698,12 +698,15 @@ banner-register-subdomain-copy-2 =
 banner-choose-subdomain-input-placeholder = Domein sykje
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Jo nije domein sykje
+banner-choose-subdomain-input-placeholder-3 = Subdomein sykje
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Sykje
 # Deprecated
 banner-pack-upgrade-headline-html = Opwurdearje nei <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> om mear aliassen te krijen
+banner-pack-upgrade-headline-2-html = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om mear e-mailmaskers te krijen
 # Deprecated
 banner-pack-upgrade-copy = Mei ûnbeheinde e-mailaliassen en jo eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } jo online beskerme te bliuwen.
+banner-pack-upgrade-copy-2 = Mei ûnbeheinde e-mailmaskers en jo eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } jo online beskerme te bliuwen.
 banner-pack-upgrade-cta = No opwurdearje
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Fernijing privacyferklearring
@@ -728,6 +731,9 @@ banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 
 # Deprecated
 success-subdomain-registered = Jo domein @{ $subdomain } is oanmakke
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Jo subdomein @{ $subdomain } is oanmakke
 success-settings-update = Jo ynstellingen binne bywurke
 
 ## Error Messages
@@ -745,6 +751,17 @@ error-subdomain-email-not-created = E-mailadres mei subdomein kin net oanmakke w
 error-subdomain-select = Jo moatte in subdomein selektearje eardat jo in subdomainalias oanmeitsje
 # Deprecated
 error-subdomain-not-available = It domein @{ $unavailable_subdomain } is net beskikber. Probearje it opnij mei in oar domein.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = It subdomein @{ $unavailable_subdomain } is net beskikber. Probearje it opnij mei in oar.
+error-settings-update = Der is in flater bard wylst jo bywurkjen fan jo ynstellingen, probearje it nochris
+error-mask-create-failed = It masker kin net oanmakke wurde. Probearje it opnij.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = De maskergegevens kinne net bywurke wurde. Probearje it opnij.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = It masker { $mask } kin net oanmakke wurde. Probearje it opnij.
 
 ## Tips and tricks at the bottom of the page
 
@@ -761,41 +778,54 @@ tips-footer-link-support-tooltip = Kontakt opnimme
 
 # Deprecated
 modal-custom-alias-picker-heading = In nije oanpaste alias oanmeitsje
+modal-custom-alias-picker-heading-2 = In nije oanpast masker oanmeitsje
 # Deprecated
 modal-custom-alias-picker-warning = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+modal-custom-alias-picker-warning-2 = It iennige dat jo hoege te dwaan, is in unyk masker betinke en diele dy’t jo oanpaste domein brûkt – it masker wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastsubdomein.mozmail.com’.
 # Deprecated
 modal-custom-alias-picker-form-heading = Of meitsje hânmjittich in oanpaste alias
+modal-custom-alias-picker-form-heading-2 = Of meitsje hânmjittich in oanpast masker
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Fier aliasfoarfoegsel yn
+modal-custom-alias-picker-form-prefix-label-2 = Fier maskerfoarfoegsel yn
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = byg. ‘kofje’
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Alias oanmeitsje
+modal-custom-alias-picker-form-submit-label-2 = Masker oanmeitsje
 # Deprecated
 modal-custom-alias-picker-creation-error = Jo oanpaste alias kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei de alias om dizze oan te meitsjen.
+modal-custom-alias-picker-creation-error-2 = Jo oanpaste masker kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei it masker om dizze oan te meitsjen.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Oanpaste aliassen meitsje
+popover-custom-alias-explainer-heading-2 = Oanpaste maskers meitsje
 # Deprecated
 popover-custom-alias-explainer-explanation = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+popover-custom-alias-explainer-explanation-2 = It iennige dat jo hoege te dwaan, is in unyk masker betinke en diele dy’t jo oanpaste domein brûkt – it masker wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastsubdomein.mozmail.com’.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Hânmjittich in oanpaste alias oanmeitsje
+popover-custom-alias-explainer-generate-button-heading-2 = Hânmjittich in oanpast masker oanmeitsje
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Oanpaste alias oanmeitsje
+popover-custom-alias-explainer-generate-button-label-2 = Oanpast masker oanmeitsje
 popover-custom-alias-explainer-close-button-label = Slute
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Reklameberjochten blokkearje
 popover-custom-alias-explainer-promotional-block-tooltip = Reklameberjochten blokkearje ynskeakelje foar in alias, sadat marketingberjochten jo Postfek YN berikke.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Skeakelje Reklameberjochten blokkearje yn foar in masker om foar te kommen dat marketingberjochten jo Postfek YN berikke.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Aliassen oanmeitsje mei jo oanpaste domein
+tips-custom-alias-heading-2 = Maskers meitsje mei jo oanpaste subdomein
 # Deprecated
 tips-custom-alias-content = It iennige dat jo hoege te dwaan, is in unike alias betinke en diele dy’t jo oanpaste domein brûkt – de alias wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastdomein.mozmail.com’.
+tips-custom-alias-content-2 = It iennige dat jo hoege te dwaan, is in unyk masker betinke en diele dy’t jo oanpaste domein brûkt – it masker wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastsubdomein.mozmail.com’.
 
 ## Tip about using custom aliases
 
@@ -806,11 +836,14 @@ tips-promo-email-blocking-content = Mei { -brand-name-relay-premium } kinne jo f
 
 # Deprecated
 onboarding-headline = Meitsje jo earste alias oan, jo kinne kieze út trije manieren…
+onboarding-headline-2 = Jo earste e-mailmasker oanmeitsje
 # Deprecated
 onboarding-alias-tip-1 = Selektearje ‘Nije alias oanmeitsje’ om jo earste alias oan te meitsjen
+onboarding-alias-tip-1-2 = Selektearje ‘Nij masker oanmeitsje’ om jo earste e-mailmasker oan te meitsjen
 onboarding-alias-tip-2 = Selektearje as jo de { -brand-name-relay }-útwreiding brûke it { -brand-name-firefox-relay }-piktogram wannear’t dit yn e-mailfjilden ferskynt.
 # Deprecated
 onboarding-alias-tip-3 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nije alias oanmeitsje’.
+onboarding-alias-tip-3-2 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nij masker oanmeitsje’.
 
 ## Premium Onboarding
 
@@ -821,25 +854,34 @@ onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
 # Deprecated
 onboarding-premium-control-description = Unbeheind e-mailaliassen diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
+onboarding-premium-control-description-2 = Unbeheind e-mailmaskers diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
 # Deprecated
 onboarding-premium-domain-title = In oanpast domein brûke foar it dielen fan aliassen
 # Deprecated
 onboarding-premium-domain-title-2 = In oanpast domein brûke foar it dielen fan aliassen:
+onboarding-premium-domain-title-3 = In oanpast subdomein brûke foar it dielen fan maskers:
 # Deprecated
 onboarding-premium-domain-description = Mei in oanpast domein kinne jo jo ‘nijsbrief‘-alias ôfwike litte fan jo ‘winkel’-alias.
 # Deprecated
 onboarding-premium-reply-title = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
+onboarding-premium-reply-title-2 = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
 # Deprecated
 onboarding-premium-reply-description = Moatte jo e-mailberjochten dy’t nei in alias stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo alias beskermet jo e-mailadres noch hieltyd.
+onboarding-premium-reply-description-2 = Moatte jo e-mailberjochten dy’t nei in masker stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo masker beskermet jo e-mailadres noch hieltyd.
 onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinne jo:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Stap { $step } fan { $max }.
 multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 multi-part-onboarding-premium-welcome-title = Bepale hokker e-mailberjochten jo ûntfange:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Generearje ûnbeheinde e-mailaliassen:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Unbeheinde e-mailmaskers oanmeitsje:
 multi-part-onboarding-premium-welcome-button-start = Begjinne
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Oanpast domein foar it dielen fan aliassen
