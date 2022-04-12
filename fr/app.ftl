@@ -656,22 +656,32 @@ banner-upgrade-cta = Passer à { -brand-name-relay-premium }
 banner-label-action = Action importante
 # Deprecated
 banner-register-subdomain-headline-aliases = Obtenez un domaine personnalisé pour vos alias
+banner-register-subdomain-headline-aliases-2 = Obtenez un sous-domaine personnalisé pour vos alias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = votredomaine
 # Deprecated
 banner-register-subdomain-copy = Avec un domaine personnalisé, vous pouvez partager des alias qui n’ont pas besoin d’être générés avant de les utiliser. Besoin d’un pour une réservation ? Donnez « restaurant@votredomaine.{ $mozmail } » au restaurant. Tout alias utilisant votre domaine personnalisé vous sera transmis.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 = Avec un sous-domaine personnalisé, vous pouvez partager des alias qui n’ont pas besoin d’être générés avant de les utiliser. Besoin d’un pour une réservation ? Donnez « restaurant@votredomaine.{ $mozmail } » au restaurant. Tout alias utilisant votre sous-domaine personnalisé vous sera transmis.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Rechercher un domaine
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Cherchez votre nouveau domaine
+banner-choose-subdomain-input-placeholder-3 = Rechercher un sous-domaine
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Rechercher
 # Deprecated
 banner-pack-upgrade-headline-html = Passez à <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> pour obtenir plus d’alias
+banner-pack-upgrade-headline-2-html = Passez à <strong>{ -brand-name-firefox-relay-premium }</strong> pour obtenir plus d’alias de messagerie
 # Deprecated
 banner-pack-upgrade-copy = Avec un nombre d’alias de messagerie illimité et votre propre domaine de messagerie, { -brand-name-firefox } { -brand-name-relay-premium } vous aide à rester protégé·e en ligne.
+banner-pack-upgrade-copy-2 = Avec un nombre d’alias de messagerie illimité et votre propre sous-domaine de messagerie, { -brand-name-firefox-relay-premium } vous aide à rester protégé·e en ligne.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Mise à jour de la politique de confidentialité
@@ -696,6 +706,9 @@ banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adre
 
 # Deprecated
 success-subdomain-registered = Votre domaine @{ $subdomain } a été créé
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Votre sous-domaine @{ $subdomain } a été créé
 success-settings-update = Vos paramètres ont été mis à jour
 
 ## Error Messages
@@ -713,6 +726,16 @@ error-subdomain-email-not-created = L’adresse e-mail avec le sous-domaine n’
 error-subdomain-select = Vous devez sélectionner un sous-domaine avant de créer un alias de sous-domaine
 # Deprecated
 error-subdomain-not-available = Le domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre domaine.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Le sous-domaine @{ $unavailable_subdomain } n’est pas disponible. Veuillez réessayer avec un autre sous-domaine.
+error-mask-create-failed = L’alias n’a pas pu être créé. Veuillez réessayer.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Les informations de l’alias n’ont pas pu être mises à jour. Veuillez réessayer.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = L’alias { $mask } n’a pas pu être supprimé. Veuillez réessayer.
 
 ## Tips and tricks at the bottom of the page
 
@@ -729,6 +752,7 @@ tips-footer-link-support-tooltip = Contacter l’assistance
 
 # Deprecated
 modal-custom-alias-picker-heading = Créer un nouvel alias personnalisé
+modal-custom-alias-picker-heading-2 = Créer un nouvel alias personnalisé
 # Deprecated
 modal-custom-alias-picker-warning = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 # Deprecated
