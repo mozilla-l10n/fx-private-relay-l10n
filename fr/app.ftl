@@ -755,39 +755,51 @@ modal-custom-alias-picker-heading = Créer un nouvel alias personnalisé
 modal-custom-alias-picker-heading-2 = Créer un nouvel alias personnalisé
 # Deprecated
 modal-custom-alias-picker-warning = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
+modal-custom-alias-picker-warning-2 = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre sous-domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@monsousdomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 # Deprecated
 modal-custom-alias-picker-form-heading = Ou créez manuellement un alias personnalisé
+modal-custom-alias-picker-form-heading-2 = Ou créez manuellement un alias personnalisé
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Saisissez le préfixe de l’alias
+modal-custom-alias-picker-form-prefix-label-2 = Saisissez le préfixe de l’alias de messagerie
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = par exemple, « café »
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Générer l’alias
+modal-custom-alias-picker-form-submit-label-2 = Générer l’alias
 # Deprecated
 modal-custom-alias-picker-creation-error = Votre alias personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
+modal-custom-alias-picker-creation-error-2 = Votre alias de messagerie personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Comment créer des alias personnalisés
+popover-custom-alias-explainer-heading-2 = Comment créer des alias personnalisés
 # Deprecated
 popover-custom-alias-explainer-explanation = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
+popover-custom-alias-explainer-explanation-2 = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre sous-domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Générer un alias personnalisé manuellement
+popover-custom-alias-explainer-generate-button-heading-2 = Générer un alias personnalisé manuellement
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Générer un alias personnalisé
+popover-custom-alias-explainer-generate-button-label-2 = Générer un alias personnalisé
 popover-custom-alias-explainer-close-button-label = Fermer
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquer les e-mails promotionnels
 popover-custom-alias-explainer-promotional-block-tooltip = Activez le blocage des e-mails promotionnels pour un alias afin d’empêcher la réception des messages des campagnes publicitaires dans votre boîte de réception.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Activez le blocage des e-mails promotionnels pour un alias afin d’empêcher la réception des messages des campagnes publicitaires dans votre boîte de réception.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Créer des alias en utilisant votre nom de domaine
+tips-custom-alias-heading-2 = Créer des alias en utilisant votre nom de sous-domaine
 # Deprecated
 tips-custom-alias-content = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
+tips-custom-alias-content-2 = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre sous-domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 
 ## Tip about using custom aliases
 
@@ -798,11 +810,14 @@ tips-promo-email-blocking-content = Grâce à { -brand-name-relay-premium }, vou
 
 # Deprecated
 onboarding-headline = Pour créer votre premier alias, vous avez trois possibilités…
+onboarding-headline-2 = Créer votre premier alias de messagerie
 # Deprecated
 onboarding-alias-tip-1 = Sélectionnez « Générer un nouvel alias » pour créer votre premier alias
+onboarding-alias-tip-1-2 = Sélectionnez « Générer un nouvel alias » pour créer votre premier alias de messagerie.
 onboarding-alias-tip-2 = À l’aide de l’extension { -brand-name-relay }, cliquez sur l’icône { -brand-name-firefox-relay } lorsqu’elle apparaît dans les champs d’adresse e-mail.
 # Deprecated
 onboarding-alias-tip-3 = À l’aide de l’extension { -brand-name-relay }, faites un clic droit sur les champs de formulaire et sélectionnez « Générer un nouvel alias ».
+onboarding-alias-tip-3-2 = À l’aide de l’extension { -brand-name-relay }, faites un clic droit sur les champs de formulaire et sélectionnez « Générer un nouvel alias ».
 
 ## Premium Onboarding
 
@@ -813,20 +828,28 @@ onboarding-premium-feature-intro = Avec { -brand-name-firefox } { -brand-name-re
 onboarding-premium-control-title = Contrôler les e-mails que vous recevez
 # Deprecated
 onboarding-premium-control-description = Partagez un nombre illimité d’alias de messagerie qui transfèrent les e-mails que vous souhaitez réellement vers votre boîte de réception.
+onboarding-premium-control-description-2 = Partagez un nombre illimité d’alias de messagerie qui transfèrent les e-mails que vous souhaitez réellement vers votre boîte de réception.
 # Deprecated
 onboarding-premium-domain-title = Utiliser un domaine personnalisé pour partager des alias
 # Deprecated
 onboarding-premium-domain-title-2 = Utiliser un domaine personnalisé pour les alias à partager :
+onboarding-premium-domain-title-3 = Utiliser un sous-domaine personnalisé pour les alias à partager :
 # Deprecated
 onboarding-premium-domain-description = Avec un domaine personnalisé, vous pouvez différencier votre alias « newsletter » de votre alias « shopping ».
 # Deprecated
 onboarding-premium-reply-title = Répondre aux e-mails sans révéler votre véritable adresse
+onboarding-premium-reply-title-2 = Répondre aux e-mails sans révéler votre véritable adresse
 # Deprecated
 onboarding-premium-reply-description = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
+onboarding-premium-reply-description-2 = Besoin de répondre aux e-mails envoyés à un alias ? Répondez simplement comme d’habitude, votre alias protégera toujours votre adresse e-mail.
 onboarding-premium-title-detail = Avec { -brand-name-firefox-relay-premium }, vous pouvez :
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Étape { $step } sur { $max }.
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contrôler ce qui arrive dans votre boîte de réception, un e-mail à la fois.
 multi-part-onboarding-premium-welcome-title = Contrôlez les e-mails que vous recevez :
