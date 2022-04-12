@@ -667,11 +667,13 @@ banner-download-install-chrome-extension-cta = De { -brand-name-relay }-útwreid
 banner-upgrade-headline = Opwurdearje nei { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } makket it oanmeitsjen fan e-mailaliassen noch ienfâldiger, mei oanpaste aliasdomeinen en ûnbeheinde aliassen.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } makket it oanmeitsjen fan e-mailmaskers noch ienfâldiger, mei oanpaste maskersubdomeinen en ûnbeheinde maskers.
 banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Aksjestap
 # Deprecated
 banner-register-subdomain-headline-aliases = In oanpast domein krije foar jo aliassen
+banner-register-subdomain-headline-aliases-2 = In oanpast subdomein krije foar jo maskers
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -682,6 +684,16 @@ banner-register-subdomain-copy =
     eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Ferstrek
     ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elke alias dy’t jo oanpaste
     domein brûkt wurdt nei jo trochstjoerd.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Mei in oanpast subdomein kinne jo maskers diele dy’t net generearre hoege te wurden
+    eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Jou
+    ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elk masker dy’t jo oanpaste
+    subdomein brûkt wurdt nei jo trochstjoerd.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Domein sykje
 # Deprecated
