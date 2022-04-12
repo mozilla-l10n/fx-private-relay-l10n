@@ -160,6 +160,7 @@ landing-hero-headline = Protégez votre véritable adresse e-mail pour garder le
 landing-hero-headline-2 = Protégez votre véritable adresse e-mail pour garder le contrôle de votre boîte de réception
 # Deprecated
 landing-hero-body = Les alias d’adresse e-mail de { -brand-name-firefox-relay } protègent votre véritable adresse d’un affichage public par un transfert automatique des messages vers votre boîte de réception. Désormais, vous pouvez recevoir uniquement les messages que vous souhaitez dans votre boîte de réception. Inscrivez-vous avec votre { -brand-name-firefox-account } pour commencer.
+landing-hero-body-2 = Les alias de messagerie de { -brand-name-firefox-relay } protègent votre véritable adresse d’un affichage public par un transfert automatique des messages vers votre boîte de réception. Désormais, vous pouvez recevoir uniquement les e-mails que vous souhaitez dans votre boîte de réception. Inscrivez-vous avec votre { -brand-name-firefox-account } pour commencer.
 
 ## How it works section
 
