@@ -705,7 +705,7 @@ banner-pack-upgrade-headline-html = Upgrade naar <strong>{ -brand-name-firefox }
 banner-pack-upgrade-headline-2-html = Upgrade naar <strong>{ -brand-name-firefox-relay-premium }</strong> om meer e-mailmaskers te verkrijgen
 # Deprecated
 banner-pack-upgrade-copy = Met onbeperkte e-mailaliassen en uw eigen e-maildomein, helpt { -brand-name-firefox } { -brand-name-relay-premium } u online beschermd te blijven.
-banner-pack-upgrade-copy-2 = Met onbeperkte e-mailaliassen en uw eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } u online beschermd te blijven.
+banner-pack-upgrade-copy-2 = Met onbeperkte e-mailmaskers en uw eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } u online beschermd te blijven.
 banner-pack-upgrade-cta = Nu upgraden
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Update privacyverklaring
