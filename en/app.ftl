@@ -35,7 +35,7 @@ meta-description = { -brand-name-firefox-relay } makes it easy to create email a
 meta-description-2 = { -brand-name-firefox-relay } makes it easy to create email masks that forward your messages to your true inbox. Use them to protect your online accounts from hackers and unwanted messages.
 
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
-common-link-newtab-alt = Opens in a new tab
+common-link-newtab-alt = (Opens in a new tab)
 
 ## Header 
 
