@@ -604,6 +604,7 @@ banner-upgrade-cta = 升级为 { -brand-name-relay-premium }
 banner-label-action = 操作步骤
 # Deprecated
 banner-register-subdomain-headline-aliases = 用自定义域名创建马甲
+banner-register-subdomain-headline-aliases-2 = 用自定义子域名创建马甲
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
