@@ -677,7 +677,7 @@ error-subdomain-select = 您须先选择子域名，才能创建使用子域名�
 error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
-error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
+error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
 error-mask-create-failed = 无法创建马甲，请重试。
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
