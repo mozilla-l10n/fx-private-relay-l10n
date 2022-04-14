@@ -573,6 +573,7 @@ profile-promo-email-blocking-label-not-forwarding = 不转发
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = 隐藏
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
 # Variables:
 #   $username (string) - Username
@@ -611,6 +612,12 @@ banner-register-subdomain-headline-aliases-2 = 用自定义子域名创建马甲
 banner-register-subdomain-example-address = yourdomain
 # Deprecated
 banner-register-subdomain-copy = 借助自定义域名功能，不需生成马甲也可直接转发邮件。要预订餐厅？用“restaurant@yourdomain.{ $mozmail }”这个邮箱地址就可以。任何使用您自定义域名的马甲都会直接转发给您。
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 = 借助自定义子域名功能，不需生成马甲也可直接转发邮件。要预订餐厅？用“restaurant@yourdomain.{ $mozmail }”这个邮箱地址就可以。任何使用您自定义子域名的邮件都会直接转发给您。
 # Deprecated
 banner-choose-subdomain-input-placeholder = 搜索域名
 # Deprecated
@@ -668,6 +675,10 @@ error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，�
 error-subdomain-select = 您须先选择子域名，才能创建使用子域名的马甲
 # Deprecated
 error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他域名重试。
+error-mask-create-failed = 无法创建马甲，请重试。
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
 error-mask-update-failed = 无法更新马甲数据，请重试。
@@ -707,6 +718,7 @@ modal-custom-alias-picker-form-submit-label = 生成马甲
 modal-custom-alias-picker-form-submit-label-2 = 生成马甲
 # Deprecated
 modal-custom-alias-picker-creation-error = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
+modal-custom-alias-picker-creation-error-2 = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
 
 ## Popover explaining how custom aliases work
 
@@ -762,10 +774,12 @@ onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-p
 onboarding-premium-control-title = 自行控制要收取哪些邮件
 # Deprecated
 onboarding-premium-control-description = 可创建无限数量马甲，只转发您想收到的邮件到收件箱。
+onboarding-premium-control-description-2 = 可创建无限数量马甲，只转发您想收到的邮件到收件箱。
 # Deprecated
 onboarding-premium-domain-title = 用自定义域名创建马甲邮箱
 # Deprecated
 onboarding-premium-domain-title-2 = 用自定义域名创建马甲邮箱：
+onboarding-premium-domain-title-3 = 用自定义子域名创建向外提供的马甲：
 # Deprecated
 onboarding-premium-domain-description = 借助自定义域名，您可在各个网站使用不同马甲邮箱。
 # Deprecated
@@ -773,6 +787,7 @@ onboarding-premium-reply-title = 不用泄露真实邮箱，就能回复邮件
 onboarding-premium-reply-title-2 = 不需泄露真实邮箱，就能回复邮件
 # Deprecated
 onboarding-premium-reply-description = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
+onboarding-premium-reply-description-2 = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享：
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
