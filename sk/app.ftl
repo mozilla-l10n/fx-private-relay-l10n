@@ -309,15 +309,19 @@ premium-promo-perks-cta-label = Inovovať teraz
 premium-promo-perks-cta-tooltip = Inovovať na { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Vytvárajte neobmedzený počet e-mailových aliasov
+premium-promo-perks-perk-unlimited-headline-2 = Vytvárajte neobmedzený počet e-mailových masiek
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Už žiadny limit piatich aliasov: so službou { -brand-name-relay-premium } môžete vygenerovať toľko aliasov, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
 premium-promo-perks-perk-custom-domain-headline = Vyberte si vlastnú doménu
+premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = S vlastnou doménou môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete alias na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — alias nie je potrebné vytvárať vopred.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Spravujte svoje aliasy z ovládacieho panela
+premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky z ovládacieho panela
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Spravujte všetky svoje aliasy na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
+premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
 # Deprecated
 premium-promo-use-cases-headline = Používajte e-mailové aliasy služby { -brand-name-relay } kdekoľvek
 premium-promo-use-cases-shopping-heading = Nakupovanie
