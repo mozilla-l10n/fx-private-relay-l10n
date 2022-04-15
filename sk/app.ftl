@@ -519,10 +519,16 @@ profile-filter-category-option-active-masks = Preposielané masky
 profile-filter-category-option-disabled-aliases-v2 = Blokované aliasy
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Blokované masky
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Masky blokujúce marketing
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Náhodné aliasy
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Náhodné masky
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Vlastné aliasy
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Vlastné masky
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -543,6 +549,7 @@ profile-promo-email-blocking-label-not-forwarding = Nepreposiela sa
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Zavrieť
 banner-bounced-headline = { -brand-name-relay } nemôže doručiť váš e-mail.
 # Variables:
 #   $username (string) - Username
@@ -583,6 +590,7 @@ banner-register-subdomain-copy =
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Vyhľadajte svoju novú doménu
+banner-choose-subdomain-input-placeholder-3 = Hľadať subdoménu
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Hľadať
 # Deprecated
@@ -630,6 +638,11 @@ error-subdomain-email-not-created = E-mailovú adresu so subdoménou sa nepodari
 error-subdomain-select = Pred vytvorením aliasov so subdoménou si musíte zvoliť subdoménu
 # Deprecated
 error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dispozícii. Skúste to znova s inou doménou.
+error-settings-update = Pri aktualizácii nastavení sa vyskytla chyba, skúste to znova
+error-mask-create-failed = Masku nebolo možné vytvoriť. Prosím skúste znova.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Údaje masky sa nepodarilo aktualizovať. Prosím skúste znova.
 
 ## Tips and tricks at the bottom of the page
 
