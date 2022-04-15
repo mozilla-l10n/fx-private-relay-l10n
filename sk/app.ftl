@@ -219,6 +219,9 @@ landing-how-it-works-step-1-body-2 = Automaticky generuje e-mailové masky vždy
 landing-how-it-works-step-2-body =
     Počas prehliadania sa ikona služby { -brand-name-relay } zobrazí tam, kde stránky požadujú zadanie e-mailovej adresy.
     Kliknite na ňu, ak chcete vygenerovať novú, náhodnú adresu, ktorá končí na @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Počas prehliadania sa ikona služby { -brand-name-relay } zobrazí tam, kde stránky požadujú zadanie e-mailovej adresy.
+    Kliknite na ňu, ak chcete vygenerovať novú, náhodnú adresu, ktorá končí na @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -brand-name-relay } a sledujte aliasy, ktoré ste vytvorili. { -brand-name-relay } preposiela správy do vašej e-mailovej schránky. Ak zistíte, že jeden z nich prijíma nevyžiadanú poštu alebo nechcené správy, môžete zablokovať všetky správy alebo dokonca odstrániť alias priamo z hlavného panela.
 
@@ -226,6 +229,9 @@ landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -
 
 # Deprecated
 landing-pricing-headline = Časovo obmedzené: neobmedzené aliasy za { $monthly_price } mesačne
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Časovo obmedzené: neobmedzené e-mailové masky za { $monthly_price } mesačne
 # Deprecated
 landing-pricing-body =
     Vyskúšajte aliasy služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
@@ -233,6 +239,7 @@ landing-pricing-body =
 landing-pricing-free-price = Zadarmo
 # Deprecated
 landing-pricing-free-feature-1 = Až 5 e-mailových aliasov
+landing-pricing-free-feature-1-2 = Až 5 e-mailových masiek
 landing-pricing-free-feature-2 = Rozšírenie do prehliadača
 landing-pricing-free-cta = Získajte { -brand-name-relay }
 # Variables:
@@ -241,9 +248,11 @@ landing-pricing-premium-price = { $monthly_price }/mesačne
 landing-pricing-premium-price-highlight = Časovo limitovaná cena
 # Deprecated
 landing-pricing-premium-feature-1 = Neobmedzený počet e-mailových aliasov
+landing-pricing-premium-feature-1-2 = Neobmedzený počet e-mailových masiek
 landing-pricing-premium-feature-2 = Rozšírenie do prehliadača
 # Deprecated
 landing-pricing-premium-feature-3 = Vaša vlastná e-mailová doména
+landing-pricing-premium-feature-3-2 = Vaša vlastná e-mailová subdoména
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
 landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
@@ -251,6 +260,7 @@ landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
 
 ## Use Cases
 
+landing-use-cases-heading = Použite { -brand-name-firefox-relay } pre:
 landing-use-cases-shopping = Nakupovanie
 # Deprecated
 landing-use-cases-shopping-body =
@@ -290,7 +300,8 @@ premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { 
 # Deprecated
 premium-promo-hero-body-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových aliasov, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete prejsť na Relay Premium len za { $monthly_price } mesačne.</b>
 premium-promo-hero-cta = Inovovať teraz
-premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švajčiarsku, Spojenom kráľovstve a USA.
+premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švajčiarsku, Veľkej Británii a USA.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových aliasov a vašou vlastnou doménou, aby bola správa doručenej pošty ešte jednoduchšia.
@@ -397,8 +408,8 @@ faq-question-1-answer-a = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú
 # Deprecated
 faq-question-1-answer-b-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich aliasov, <a href="{ $url }" { $attrs }>nahláste nám to</a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
-faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Spojenom kráľovstve, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
-faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Spojenom kráľovstve, Kanade, Singapure, Malajzii, Novom Zélande, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, a Írsku.
+faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
+faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, a Írsku.
 # Deprecated
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
 # Deprecated
