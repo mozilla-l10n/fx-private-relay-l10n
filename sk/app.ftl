@@ -762,13 +762,16 @@ modal-custom-alias-picker-heading-2 = Vytvorte novú vlastnú masku
 modal-custom-alias-picker-warning = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 # Deprecated
 modal-custom-alias-picker-form-heading = Alebo si vytvorte vlastný alias manuálne
+modal-custom-alias-picker-form-heading-2 = Alebo si vytvorte vlastnú masku manuálne
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Zadajte predponu aliasu
+modal-custom-alias-picker-form-prefix-label-2 = Zadajte predponu masky e-mailu
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = napr. "hracky"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Vytvoriť alias
+modal-custom-alias-picker-form-submit-label-2 = Vytvoriť masku
 # Deprecated
 modal-custom-alias-picker-creation-error = Váš vlastný alias nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e-mail na alias, aby ste ho vytvorili.
 
@@ -776,10 +779,12 @@ modal-custom-alias-picker-creation-error = Váš vlastný alias nebolo možné v
 
 # Deprecated
 popover-custom-alias-explainer-heading = Ako vytvárať vlastné aliasy
+popover-custom-alias-explainer-heading-2 = Ako vytvárať vlastné masky
 # Deprecated
 popover-custom-alias-explainer-explanation = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Manuálne vytvorenie vlastného aliasu
+popover-custom-alias-explainer-generate-button-heading-2 = Manuálne vytvorenie vlastnej masky
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Vytvoriť vlastný alias
 popover-custom-alias-explainer-close-button-label = Zavrieť
@@ -826,6 +831,7 @@ onboarding-premium-domain-title-2 = Používajte pre svoje aliasy vlastnú domé
 onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
 # Deprecated
 onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
+onboarding-premium-reply-title-2 = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
 # Deprecated
 onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
 onboarding-premium-title-detail = So službou { -brand-name-firefox-relay-premium } môžete:
