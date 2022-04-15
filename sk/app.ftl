@@ -513,8 +513,12 @@ profile-stat-label-aliases-used = Použité e-mailové aliasy
 profile-filter-search-placeholder = Hľadať v aliasoch
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Preposielané aliasy
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Preposielané masky
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blokované aliasy
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blokované masky
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Náhodné aliasy
 # Deprecated
