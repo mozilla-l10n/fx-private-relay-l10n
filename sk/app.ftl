@@ -308,6 +308,9 @@ landing-use-cases-gaming = Hranie hier
 landing-use-cases-gaming-body =
     Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
     Použite alias služby { -brand-name-relay } na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
+landing-use-cases-gaming-body-2 =
+    Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
+    Použite e-mailovú masku na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
 
 ## Landing FAQ Section
 
@@ -319,12 +322,16 @@ landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-fi
 premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových aliasov, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete prejsť na Relay Premium len za { $monthly_price } mesačne.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete inovovať na { -brand-name-relay-premium } len za { $monthly_price } mesačne.</b>
 premium-promo-hero-cta = Inovovať teraz
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švajčiarsku, Veľkej Británii a USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových aliasov a vašou vlastnou doménou, aby bola správa doručenej pošty ešte jednoduchšia.
+premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
 premium-promo-perks-cta-tooltip = Inovovať na { -brand-name-firefox-relay-premium }
 # Deprecated
@@ -332,6 +339,7 @@ premium-promo-perks-perk-unlimited-headline = Vytvárajte neobmedzený počet e-
 premium-promo-perks-perk-unlimited-headline-2 = Vytvárajte neobmedzený počet e-mailových masiek
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Už žiadny limit piatich aliasov: so službou { -brand-name-relay-premium } môžete vygenerovať toľko aliasov, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
+premium-promo-perks-perk-unlimited-body-2 = Už žiadny limit piatich masiek: so službou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
 premium-promo-perks-perk-custom-domain-headline = Vyberte si vlastnú doménu
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
 # Deprecated
