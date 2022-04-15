@@ -224,6 +224,9 @@ landing-how-it-works-step-2-body-2 =
     Kliknite na ňu, ak chcete vygenerovať novú, náhodnú adresu, ktorá končí na @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body = Prihláste sa do hlavného panela služby { -brand-name-relay } a sledujte aliasy, ktoré ste vytvorili. { -brand-name-relay } preposiela správy do vašej e-mailovej schránky. Ak zistíte, že jeden z nich prijíma nevyžiadanú poštu alebo nechcené správy, môžete zablokovať všetky správy alebo dokonca odstrániť alias priamo z hlavného panela.
+landing-how-it-works-step-3-body-2 =
+    Prihláste sa do hlavného panela služby { -brand-name-relay } a sledujte e-mailové masky, ktoré ste vytvorili.
+    Ak zistíte, že jedna z nich prijíma nevyžiadanú poštu alebo nechcené správy, môžete zablokovať všetky správy alebo dokonca vymazať masku priamo z hlavného panela.
 
 ## Pricing section
 
@@ -235,6 +238,9 @@ landing-pricing-headline-2 = Časovo obmedzené: neobmedzené e-mailové masky z
 # Deprecated
 landing-pricing-body =
     Vyskúšajte aliasy služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
+    Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
+landing-pricing-body-2 =
+    Vyskúšajte e-mailové masky služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
     Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
 landing-pricing-free-price = Zadarmo
 # Deprecated
@@ -266,16 +272,26 @@ landing-use-cases-shopping = Nakupovanie
 landing-use-cases-shopping-body =
     Kupujete niečo v novom internetovom obchode? Pri nákupe online použite namiesto svojho e-mailu alias služby { -brand-name-relay }.
     Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnete preposielanie e-mailov.
+landing-use-cases-shopping-body-2 =
+    Kupujete niečo v novom internetovom obchode? Pri nákupe online použite namiesto svojho skutočného e-mailu e-mailovú masku.
+    Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnete preposielanie e-mailov.
 landing-use-cases-social-networks = Sociálne siete
 # Deprecated
 landing-use-cases-social-networks-body =
     Chcete lepšie chrániť svoju online identitu pri používaní sociálnej siete?
     Snažíte sa, aby váš skutočný e-mail nebol spojený s vašou prítomnosťou na sociálnych médiách? Na prihlásenie a ochranu online použite alias služby { -brand-name-relay }.
+landing-use-cases-social-networks-body-2 =
+    Chcete lepšie chrániť svoju online identitu pri používaní sociálnej siete?
+    Snažíte sa, aby váš skutočný e-mail nebol spojený s vašou prítomnosťou na sociálnych médiách? Na prihlásenie a ochranu online použite masku služby { -brand-name-relay }.
 landing-use-cases-offline = Zostaňte offline
 # Deprecated
 landing-use-cases-offline-body =
     Uprednostňujete dostávať e-mailové potvrdenky, ale chcete sa vyhnúť aj marketingovému spamu?
     Pri získavaní bezpapierového potvrdenia v obchode použite namiesto e-mailu alias { -brand-name-relay }.
+    Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnite preposielanie e-mailov.
+landing-use-cases-offline-body-2 =
+    Uprednostňujete dostávať e-mailové potvrdenky, ale chcete sa vyhnúť aj marketingovému spamu?
+    Pri získavaní elektronického potvrdenia v obchode použite namiesto skutočného e-mailu e-mailovú masku služby { -brand-name-relay }.
     Potvrdenie prepošleme na vašu skutočnú e-mailovú adresu a ak začnete dostávať e-maily, ktoré sa vám nepáčia, jednoducho vypnite preposielanie e-mailov.
 landing-use-cases-access-content = Prístup k obsahu
 # Deprecated
@@ -283,6 +299,10 @@ landing-use-cases-access-content-body =
     Chcete sa prihlásiť na odber newslettra, ale neveríte odosielateľovi?
     Použite alias namiesto svojej skutočnej adresy – ak cez tento alias začnete dostávať nechcené e-maily, odosielateľ mohol predať váš alias iným obchodníkom alebo dokonca mohol uniknúť pri úniku údajov.
     Stačí vypnúť alebo odstrániť alias, aby ste ochránili svoju e-mailovú schránku.
+landing-use-cases-access-content-body-2 =
+    Chcete sa prihlásiť na odber newslettra, ale neveríte odosielateľovi?
+    Použite masku namiesto svojej skutočnej adresy – ak cez túto masku začnete dostávať nechcené e-maily, odosielateľ mohol predať vašu masku iným obchodníkom alebo dokonca táto mohla uniknúť pri úniku údajov.
+    V tom prípade stačí vypnúť alebo odstrániť masku, aby ste ochránili svoju e-mailovú schránku.
 landing-use-cases-gaming = Hranie hier
 # Deprecated
 landing-use-cases-gaming-body =
@@ -324,6 +344,7 @@ premium-promo-perks-perk-dashboard-body = Spravujte všetky svoje aliasy na jedn
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
 # Deprecated
 premium-promo-use-cases-headline = Používajte e-mailové aliasy služby { -brand-name-relay } kdekoľvek
+premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -brand-name-relay } kdekoľvek
 premium-promo-use-cases-shopping-heading = Nakupovanie
 # Deprecated
 premium-promo-use-cases-shopping-body = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými aliasmi, napríklad “mojenakupy@mojadomena.mozmail.com”.
