@@ -75,6 +75,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailových aliasov, ktoré sú preposielané do vašej skutočnej e-mailovej schránky. Použite ho na ochranu svojich online účtov pred hackermi a nechcenými správami.
+meta-description-2 = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailových masiek, ktoré posielajú vaše správy do vašej skutočnej e-mailovej schránky. Použite ich na ochranu svojich online účtov pred hackermi a nechcenými správami.
 
 ## Header 
 
@@ -176,12 +177,14 @@ how-it-works-step-1-copy =
     Začnite prihlásením sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
 # Deprecated
 how-it-works-step-2-headline = Vytvorte si nový alias
+how-it-works-step-2-headline-2 = Vytvorte novú e-mailovú masku
 how-it-works-step-2-copy =
     Pri prehliadaní sa zobrazí ikona { -brand-name-relay } vždy, keď narazíte na webové stránky vyžadujúce vašu e-mailovú adresu.
     V takom prípade na ňu kliknite a vygenerujete si novú náhodnú adresu, ktorá končí na @relay.firefox.com.
     { -brand-name-relay } bude správy zaslané na tento alias preposielať na primárnu e-mailovú adresu priradenú k vášmu účtu.
 # Deprecated
 how-it-works-step-3-headline = Spravujte svoje aliasy
+how-it-works-step-3-headline-2 = Spravujte svoje e-mailové masky
 hero-image-copy-trust = Môžete tejto spoločnosti dôverovať odovzdaním svojho osobného e-mailu?
 hero-image-copy-unique-html = <strong>Použite jedinečnú adresu špeciálne vytvorenú</strong> pre každý nový účet…
 hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do vašej e-mailovej schránky.
@@ -193,19 +196,25 @@ hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do
 
 # Deprecated
 landing-hero-headline = Chráňte svoju skutočnú e-mailovú adresu, aby ste mali svoju doručenú poštu pod kontrolou
+landing-hero-headline-2 = Chráňte svoju skutočnú e-mailovú adresu, aby ste mali svoju doručenú poštu pod kontrolou
 # Deprecated
 landing-hero-body =
     E-mailové aliasy služby { -brand-name-firefox-relay } chránia vašu skutočnú e-mailovú adresu pred verejným zobrazením a automaticky preposielajú e-maily do vašej skutočnej e-mailovej schránky.
     Teraz môžete do schránky dostávať iba e-maily, ktoré chcete. Ak to chcete skúsiť, zaregistrujte sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
+landing-hero-body-2 =
+    E-mailové masky služby { -brand-name-firefox-relay } chránia vašu skutočnú e-mailovú adresu pred verejným zobrazením a automaticky preposielajú správy do vašej skutočnej e-mailovej schránky.
+    Teraz môžete do doručenej pošty dostávať iba e-maily, ktoré chcete. Ak to chcete skúsiť, zaregistrujte sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
 
 ## How it works section
 
 landing-how-it-works-headline = Ako to funguje
 # Deprecated
 landing-how-it-works-body = Používajte e-mailové aliasy služby { -brand-name-relay } namiesto svojej skutočnej e-mailovej adresy, aby ste ochránili svoju e-mailovú schránku, ako aj svoju identitu.
+landing-how-it-works-body-2 = Používajte e-mailové masky služby { -brand-name-relay } namiesto svojej skutočnej e-mailovej adresy, aby ste ochránili svoju e-mailovú schránku, ako aj svoju identitu.
 landing-how-it-works-step-1-body-cta = Stiahnite si rozšírenie { -brand-name-relay } pre { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Automaticky generuje e-mailové aliasy vždy, keď zadáte svoju e-mailovú adresu online.
+landing-how-it-works-step-1-body-2 = Automaticky generuje e-mailové masky vždy, keď zadáte svoju e-mailovú adresu online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Počas prehliadania sa ikona služby { -brand-name-relay } zobrazí tam, kde stránky požadujú zadanie e-mailovej adresy.
@@ -643,6 +652,9 @@ error-mask-create-failed = Masku nebolo možné vytvoriť. Prosím skúste znova
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
 error-mask-update-failed = Údaje masky sa nepodarilo aktualizovať. Prosím skúste znova.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Masku { $mask } nebolo možné odstrániť. Prosím skúste znova.
 
 ## Tips and tricks at the bottom of the page
 
