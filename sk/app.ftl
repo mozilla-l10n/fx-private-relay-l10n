@@ -543,7 +543,7 @@ profile-label-save-error = Uloženie zlyhalo, skúste to znova.
 profile-label-saved = Štítok uložený!
 # Deprecated
 profile-label-generate-new-alias = Vytvoriť nový alias
-profile-label-generate-new-alias-2 = Vytvoriť novú masku
+profile-label-generate-new-alias-2 = Vytvoriť novú e-mailovú masku
 # Deprecated
 profile-label-generate-new-alias-menu-random = Náhodný alias
 profile-label-generate-new-alias-menu-random-2 = Náhodná e-mailová maska
@@ -835,9 +835,11 @@ onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti�
 onboarding-headline-2 = Vytvorte si svoju prvú e-mailovú masku
 # Deprecated
 onboarding-alias-tip-1 = Kliknutím na „Vytvoriť nový alias“ vytvorte svoj prvý alias.
+onboarding-alias-tip-1-2 = Kliknutím na „Vytvoriť novú e-mailovú masku“ vytvorte svoju prvú masku.
 onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailovú adresu.
 # Deprecated
 onboarding-alias-tip-3 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť nový alias“.
+onboarding-alias-tip-3-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť novú e-mailovú masku“.
 
 ## Premium Onboarding
 
@@ -938,11 +940,24 @@ modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu
 modal-domain-register-success-title = Úspešné!
 # Deprecated
 modal-domain-register-success = { $subdomain } je teraz vašou e-mailovou doménou!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } je teraz vašou e-mailovou subdoménou!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je teraz vašou e-mailovou subdoménou!
 # Deprecated
 modal-domain-register-success-copy = Teraz môžete pomocou svojej novej domény vytvárať neobmedzené e-mailové aliasy! Tak na čo čakáte?
+modal-domain-register-success-copy-2 = Teraz môžete vytvárať neobmedzené množstvo vlastných e-mailových masiek!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -989,12 +1004,18 @@ vpn-promo-cta = Získajte { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Táto správa bola preposlaná z adresy { $display_email } službou { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } odstraňuje polia Kópia a Skrytá kópia z vašich odpovedí. Ak ich znova pridáte, váš skutočný e-mail bude odhalený.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje polia Kópia a Skrytá kópia z vašich odpovedí. Ak ich znova pridáte, váš skutočný e-mail bude odhalený.
 # Deprecated
 forwarded-email-header-premium-banner = Inovujte na { $premium_link } a získajte neobmedzené aliasy a vlastnú e-mailovú doménu.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Inovujte na { $premium_link } a získajte neobmedzené množstvo e-mailových masiek a vlastnú e-mailovú subdoménu.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
 # Deprecated
 forwarded-email-footer = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky aliasy.
+# This entire text is a link
+forwarded-email-footer-2 = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky masky.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Inovujte na { -brand-name-relay-premium }
