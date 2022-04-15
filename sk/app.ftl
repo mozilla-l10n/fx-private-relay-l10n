@@ -348,6 +348,7 @@ premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -br
 premium-promo-use-cases-shopping-heading = Nakupovanie
 # Deprecated
 premium-promo-use-cases-shopping-body = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými aliasmi, napríklad “mojenakupy@mojadomena.mozmail.com”.
+premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými maskami, ako napríklad „mojenakupy@mojadomena.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Sociálne siete
 # Deprecated
 premium-promo-use-cases-social-networks-body = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite iný alias služby { -brand-name-relay } a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
@@ -369,14 +370,21 @@ settings-error-save-heading = Zmena nastavení zlyhala
 settings-error-save-description = Vaše zmeny nastavení neboli uložené kvôli chybe pripojenia. Skúste to znova.
 # Deprecated
 settings-warning-collection-off-heading = Funkcia označenia e-mailového aliasu štítkom je deaktivovaná
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Funkcia označenia e-mailovej masky štítkom je deaktivovaná
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } nemá v súčasnosti povolenie zhromažďovať údaje zobrazujúce weby, na ktorých ste vygenerovali a používali e-mailové aliasy. Môžete to zmeniť v časti “Nastavenia” v časti “Zhromažďovanie údajov”.
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } nemá v súčasnosti povolenie zhromažďovať údaje zobrazujúce weby, na ktorých ste vygenerovali a používali e-mailové masky. Môžete to zmeniť v časti “Nastavenia” v časti “Zhromažďovanie údajov”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Súkromie
 # Deprecated
 setting-label-collection-description = Povoliť službe { -brand-name-relay } zhromažďovať údaje o stránkach, na ktorých sú vaše aliasy vytvárané a používané.
+setting-label-collection-description-2 = Povoliť službe { -brand-name-relay } zhromažďovať údaje o stránkach, na ktorých sú vaše masky vytvárané a používané.
 # Deprecated
 setting-label-collection-off-warning = Tieto údaje nám v budúcom vydaní umožnia označiť vaše aliasy príslušnými webovými stránkami. Ak sa rozhodnete túto predvoľbu deaktivovať, vaše aliasy nebudú označené webovými stránkami, kde sa používajú.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Tieto údaje nám umožnia označiť vaše e-mailové masky webovými stránkami, na ktorých sa používajú. Ak sa rozhodnete zrušiť túto predvoľbu, vaše masky nebudú označené webovými stránkami, na ktorých sa používajú.
 settings-button-save-label = Uložiť
 settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 
@@ -390,20 +398,26 @@ faq-headline = Často kladené otázky
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Čo je alias služby { -brand-name-relay }?
+faq-question-what-is-question-2 = Čo je e-mailová maska služby { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = E-mailové aliasy sú maskované e-mailové adresy, ktoré preposielajú správy na vašu skutočnú e-mailovú adresu. Tieto aliasy vám umožňujú s tretími stranami zdieľať vygenerovanú adresu, čím zamaskujete vašu skutočnú e-mailovú adresu.
 # Deprecated
 faq-question-missing-emails-question = Nedostávam správy z mojich aliasov
+faq-question-missing-emails-question-2 = Nedostávam správy z mojich e-mailových masiek
 # Deprecated
 faq-question-missing-emails-answer-a = Existuje niekoľko dôvodov, prečo nemusíte nedostávať e-maily preposielané cez vaše aliasy. Medzi tieto dôvody patria:
+faq-question-missing-emails-answer-a-2 = Existuje niekoľko dôvodov, prečo nemusíte nedostávať e-maily preposielané cez vaše masky. Medzi tieto dôvody patria:
 faq-question-missing-emails-answer-reason-spam = Správy sa dostávajú do spamu
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Váš poskytovateľ e-mailu blokuje váš alias
+faq-question-missing-emails-answer-reason-blocked-2 = Váš poskytovateľ e-mailu blokuje vaše e-mailové masky
 faq-question-missing-emails-answer-reason-size = Preposlaný e-mail má prílohu väčšiu ako { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Stránka neprijíma aliasy
+faq-question-missing-emails-answer-reason-not-accepted-2 = Stránka neprijíma e-mailové masky
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Alias môže mať vypnuté preposielanie správ
+faq-question-missing-emails-answer-reason-turned-off-2 = Maska môže mať vypnuté preposielanie správ
 faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } môže preposielanie vašich správ trvať dlhšie ako zvyčajne
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -413,12 +427,14 @@ faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -br
 faq-question-missing-emails-answer-support-site-html = Ak ste narazili na ktorýkoľvek z týchto problémov, <a href="{ $url }" { $attrs }>navštívte našu stránku podpory</a>.
 # Deprecated
 faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -brand-name-relay }?
+faq-question-use-cases-question-2 = Kedy by som mal použiť e-mailové masky služby { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
 # Deprecated
 faq-question-use-cases-answer-part2 = Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
 # Deprecated
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
+faq-question-2-question-2 = Prečo stránka neprijme moju e-mailovú masku { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -437,6 +453,7 @@ faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je d
 faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, a Írsku.
 # Deprecated
 faq-question-4-question = Môžem na správy odpovedať pomocou svojho aliasu služby { -brand-name-relay }?
+faq-question-4-question-2 = Môžem odpovedať na správy pomocou svojej e-mailovej masky { -brand-name-relay }?
 # Deprecated
 faq-question-4-answer-v3 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
@@ -460,6 +477,7 @@ faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposiel
 faq-question-attachments-answer-v2 = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
 # Deprecated
 faq-question-unsubscribe-domain-question = Čo sa stane s mojou vlastnou doménou, ak zruším službu { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = Čo sa stane s mojou vlastnou subdoménou, ak zruším službu { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Ak prejdete na nižšiu verziu z { -brand-name-relay-premium }, budete stále dostávať e-maily preposielané cez vašu vlastnú doménu, ale už nebudete môcť vytvárať nové aliasy pomocou tejto domény. Ak máte celkovo viac ako päť aliasov, nebudete môcť vytvoriť ďalšie. Stratíte tiež možnosť odpovedať na preposlané správy. Ak znova prejdete na { -brand-name-relay-premium }, opätovne získate prístup k týmto funkciám.
 faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhromažďuje?
@@ -494,29 +512,48 @@ profile-promo-upgrade-headline = Inovujte a získate ešte viac funkcií.
 # Deprecated
 profile-promo-upgrade-copy = Inovujte službu { -brand-name-relay }, aby ste získali neobmedzený počet e-mailových adries a vlastnú e-mailovú doménu.
 profile-promo-upgrade-cta = Inovovať službu { -brand-name-relay }
+profile-details-expand = Zobraziť podrobnosti o maske
+profile-details-collapse = Skryť podrobnosti o maske
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Kliknutím skopírujete masku { $address }.
 # Deprecated
 profile-label-edit = Upraviť štítok pre tento alias
+profile-label-edit-2 = Upraviť štítok pre túto masku
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Pridať názov účtu
 profile-label-save-error = Uloženie zlyhalo, skúste to znova.
 profile-label-saved = Štítok uložený!
 # Deprecated
 profile-label-generate-new-alias = Vytvoriť nový alias
+profile-label-generate-new-alias-2 = Vytvoriť novú masku
 # Deprecated
 profile-label-generate-new-alias-menu-random = Náhodný alias
+profile-label-generate-new-alias-menu-random-2 = Náhodná e-mailová maska
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Maska @{ $subdomain }
 profile-label-delete = Odstrániť
 # Deprecated
 profile-label-delete-alias = Odstrániť tento alias
 # Deprecated
+profile-label-delete-alias-2 = Odstrániť túto masku
+# Deprecated
 profile-label-upgrade = Získajte neobmedzené množstvo aliasov
+profile-label-upgrade-2 = Získajte neobmedzené množstvo e-mailových masiek
 # Deprecated
 profile-label-create-domain = Získajte svoju e-mailovú doménu
+profile-label-create-subdomain = Získajte svoju e-mailovú subdoménu
 # Deprecated
 profile-label-domain = E-mailová doména:
+profile-label-subdomain = E-mailová subdoména:
+profile-label-subdomain-tooltip-trigger = Ďalšie informácie
 # Deprecated
 profile-label-domain-tooltip = Vytvorte si svoju jedinečnú a vlastnú e-mailovú doménu.
+profile-label-subdomain-tooltip = Vytvorte si svoju jedinečnú e-mailovú subdoménu.
 profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
 profile-label-skip = Preskočiť
@@ -534,11 +571,15 @@ profile-label-forwarding = preposiela sa
 profile-label-blocking = blokuje sa
 # Deprecated
 profile-label-disable-forwarding-button = Blokovať preposielanie e-mailov pre tento alias
+profile-label-disable-forwarding-button-2 = Blokovať preposielanie e-mailov pre túto masku
 # Deprecated
 profile-label-enable-forwarding-button = Povoliť preposielanie e-mailov pre tento alias
+profile-label-enable-forwarding-button-2 = Povoliť preposielanie e-mailov pre túto masku
 profile-label-click-to-copy = Kliknutím skopírujete
 # Deprecated
 profile-label-copy-confirmation = Alias bol skopírovaný do schránky
+# Deprecated
+profile-label-copy-confirmation-2 = Maska bola skopírovaná do schránky
 profile-label-copied = Skopírovaný!
 profile-label-blocked = Zablokované
 profile-label-forwarded = Preposlané
@@ -554,8 +595,10 @@ profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 # Deprecated
 profile-stat-label-aliases-used = Použité e-mailové aliasy
+profile-stat-label-aliases-used-2 = Použité e-mailové masky
 # Deprecated
 profile-filter-search-placeholder = Hľadať v aliasoch
+profile-filter-search-placeholder-2 = Hľadať v maskách
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Preposielané aliasy
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
@@ -623,6 +666,7 @@ banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
 banner-label-action = Vykonať akciu
 # Deprecated
 banner-register-subdomain-headline-aliases = Získajte vlastnú doménu pre svoje aliasy
+banner-register-subdomain-headline-aliases-2 = Získajte vlastnú subdoménu pre svoje masky
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -666,6 +710,9 @@ banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu 
 
 # Deprecated
 success-subdomain-registered = Vaša doména @{ $subdomain } bola vytvorená
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Vaša subdoména @{ $subdomain } bola vytvorená
 success-settings-update = Vaše nastavenia boli aktualizované.
 
 ## Error Messages
@@ -683,6 +730,9 @@ error-subdomain-email-not-created = E-mailovú adresu so subdoménou sa nepodari
 error-subdomain-select = Pred vytvorením aliasov so subdoménou si musíte zvoliť subdoménu
 # Deprecated
 error-subdomain-not-available = Doména @{ $unavailable_subdomain } nie je k dispozícii. Skúste to znova s inou doménou.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } nie je k dispozícii. Skúste inú.
 error-settings-update = Pri aktualizácii nastavení sa vyskytla chyba, skúste to znova
 error-mask-create-failed = Masku nebolo možné vytvoriť. Prosím skúste znova.
 # This currently appears when a mask label could not be updated,
@@ -707,6 +757,7 @@ tips-footer-link-support-tooltip = Kontaktovať podporu
 
 # Deprecated
 modal-custom-alias-picker-heading = Vytvorte si nový vlastný alias
+modal-custom-alias-picker-heading-2 = Vytvorte novú vlastnú masku
 # Deprecated
 modal-custom-alias-picker-warning = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 # Deprecated
