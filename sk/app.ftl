@@ -712,6 +712,14 @@ banner-register-subdomain-example-address = vaša_doména
 banner-register-subdomain-copy =
     Pomocou vlastnej domény môžete používať aliasy, ktoré nie je potrebné generovať
     pred ich použitím. Potrebujete rezervovať stôl v reštaurácii? Použite “restauracia@vašadoména.{ $mozmail }”. Akýkoľvek alias používajúci vašu vlastnú doménu bude presmerovaný do vašej e-mailovej schránky.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Pomocou vlastnej subdomény môžete používať masky, ktoré nie je potrebné generovať
+    pred ich použitím. Potrebujete rezervovať stôl v reštaurácii? Použite “restauracia@vasadomena.{ $mozmail }”. Akákoľvek maska používajúca vašu vlastnú subdoménu vám bude presmerovaná.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Vyhľadať doménu
 # Deprecated
@@ -721,8 +729,10 @@ banner-choose-subdomain-input-placeholder-3 = Hľadať subdoménu
 banner-register-subdomain-button-search = Hľadať
 # Deprecated
 banner-pack-upgrade-headline-html = Inovujte na <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> a získajte ďalšie aliasy
+banner-pack-upgrade-headline-2-html = Ak chcete získať viac e-mailových masiek, inovujte na <strong>{ -brand-name-firefox-relay-premium }</strong>
 # Deprecated
 banner-pack-upgrade-copy = Vďaka neobmedzenému počtu e-mailových aliasov a vlastnej e-mailovej doméne vám služba { -brand-name-firefox } { -brand-name-relay-premium } zaistí ochranu online.
+banner-pack-upgrade-copy-2 = Vďaka neobmedzenému počtu e-mailových masiek a vlastnej e-mailovej subdoméne vám služba { -brand-name-firefox-relay-premium } zaistí ochranu online.
 banner-pack-upgrade-cta = Inovovať teraz
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizácia oznámenia o ochrane osobných údajov
@@ -797,6 +807,7 @@ modal-custom-alias-picker-heading = Vytvorte si nový vlastný alias
 modal-custom-alias-picker-heading-2 = Vytvorte novú vlastnú masku
 # Deprecated
 modal-custom-alias-picker-warning = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+modal-custom-alias-picker-warning-2 = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečnú masku, ktorý používa vašu vlastnú subdoménu – maska sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnasubdomena.mozmail.com”.
 # Deprecated
 modal-custom-alias-picker-form-heading = Alebo si vytvorte vlastný alias manuálne
 modal-custom-alias-picker-form-heading-2 = Alebo si vytvorte vlastnú masku manuálne
@@ -820,11 +831,13 @@ popover-custom-alias-explainer-heading = Ako vytvárať vlastné aliasy
 popover-custom-alias-explainer-heading-2 = Ako vytvárať vlastné masky
 # Deprecated
 popover-custom-alias-explainer-explanation = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+popover-custom-alias-explainer-explanation-2 = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečnú masku, ktorý používa vašu vlastnú subdoménu – maska sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Manuálne vytvorenie vlastného aliasu
 popover-custom-alias-explainer-generate-button-heading-2 = Manuálne vytvorenie vlastnej masky
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Vytvoriť vlastný alias
+popover-custom-alias-explainer-generate-button-label-2 = Vytvoriť vlastnú e-mailovú masku
 popover-custom-alias-explainer-close-button-label = Zavrieť
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovať marketingové e-maily
@@ -867,10 +880,12 @@ onboarding-premium-feature-intro = So službou { -brand-name-firefox } { -brand-
 onboarding-premium-control-title = Majte kontrolu nad tým, aké e-maily budete dostávať
 # Deprecated
 onboarding-premium-control-description = Zdieľajte neobmedzené množstvo e-mailových aliasov, ktoré preposielajú len e-maily, ktoré skutočne chcete, do vašej doručenej pošty.
+onboarding-premium-control-description-2 = Zdieľajte neobmedzené množstvo e-mailových masiek, ktoré preposielajú len e-maily, ktoré skutočne chcete, do vašej doručenej pošty.
 # Deprecated
 onboarding-premium-domain-title = Používajte pre svoje aliasy vlastnú doménu
 # Deprecated
 onboarding-premium-domain-title-2 = Používajte pre svoje aliasy vlastnú doménu:
+onboarding-premium-domain-title-3 = Používajte pre svoje masky vlastnú subdoménu:
 # Deprecated
 onboarding-premium-domain-description = S vlastnou doménou môžete svoj alias pre novinky odlíšiť od svojho aliasu pre nakupovanie.
 # Deprecated
@@ -878,15 +893,21 @@ onboarding-premium-reply-title = Odpovedajte na e-maily bez uvedenia svojej skut
 onboarding-premium-reply-title-2 = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
 # Deprecated
 onboarding-premium-reply-description = Potrebujete odpovedať na e-maily odoslané na alias? Odpovedajte obvyklým spôsobom - váš alias bude aj naďalej chrániť vašu e-mailovú adresu.
+onboarding-premium-reply-description-2 = Potrebujete odpovedať na e-maily odoslané na e-mailovú masku? Odpovedajte obvyklým spôsobom - vaša maska bude aj naďalej chrániť vašu e-mailovú adresu.
 onboarding-premium-title-detail = So službou { -brand-name-firefox-relay-premium } môžete:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Krok { $step } z { $max }.
 multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Teraz môžete mať kontrolu nad tým, čo sa dostane do vašej e-mailovej schránky, jeden e-mail po druhom.
 multi-part-onboarding-premium-welcome-title = Majte kontrolu nad tým, aké e-maily budete dostávať:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Vytvárajte neobmedzený počet e-mailových aliasov:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvárajte neobmedzený počet e-mailových masiek:
 multi-part-onboarding-premium-welcome-button-start = Začíname
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie aliasov
@@ -894,9 +915,11 @@ multi-part-onboarding-premium-domain-headline = Vlastná doména na zdieľanie a
 multi-part-onboarding-premium-domain-title = Získajte vlastnú doménu pre svoje aliasy:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Získajte vlastnú doménu
+multi-part-onboarding-premium-get-subdomain = Získajte vlastnú subdoménu
 multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Už žiadne obmedzenie na päť aliasov: teraz môžete generovať toľko vlastných alebo náhodných aliasov, koľko potrebujete. Jednoducho pomocou doplnku Relay.
+multi-part-onboarding-premium-welcome-description-2 = Už žiadne obmedzenie na päť masiek: teraz môžete generovať toľko vlastných alebo náhodných masiek, koľko potrebujete. Jednoducho pomocou doplnku { -brand-name-relay }.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Pomocou vlastnej domény môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať.
@@ -905,16 +928,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     S vlastnou doménou môžete vytvárať aliasy bez toho, aby ste ich museli generovať vopred.
     Potrebujete alias na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vašadoména{ $mozmail }”.
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    S vlastnou subdoménou môžete vytvárať masky bez toho, aby ste ich museli generovať vopred.
+    Potrebujete masku na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vasasubdomena{ $mozmail }”.
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Zaregistrujte svoju vlastnú doménu teraz:
+multi-part-onboarding-premium-domain-cta-2 = Zaregistrujte svoju vlastnú subdoménu teraz:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Pokračovať, svoju vlastnú doménu si zaregistrujem neskôr
+multi-part-onboarding-premium-domain-button-skip-2 = Pokračovať, svoju vlastnú subdoménu si zaregistrujem neskôr
 multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy:
 multi-part-onboarding-premium-extension-get-title = Získajte rozšírenie { -brand-name-relay } pre { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox } ešte viac zjednodušuje používanie e-mailových aliasov.
+multi-part-onboarding-premium-extension-get-description-2 = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox } ešte viac zjednodušuje používanie e-mailových masiek.
 multi-part-onboarding-premium-extension-button-download = Získajte rozšírenie { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Nainštalujte si { -brand-name-relay } pre { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Rozšírenie { -brand-name-firefox-relay } pre { -brand-name-chrome } ešte viac zjednodušuje používanie e-mailových aliasov.
@@ -928,32 +959,55 @@ multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
 modal-rename-alias-saved = Štítok uložený!
 # Deprecated
 modal-delete-headline = Chcete tento alias natrvalo odstrániť?
+modal-delete-headline-2 = Chcete natrvalo odstrániť túto e-mailovú masku?
 # Deprecated
 modal-delete-warning-recovery-html =
     Keď tento alias odstránite, nebude možné ho obnoviť.
     { -brand-name-firefox-relay } už nebude ďalej posielať správy odoslané na  adresu <strong>{ $email }</strong>, vrátane správ, ktoré vám umožnia obnoviť stratené heslá.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Keď túto masku odstránite, nebude možné ju obnoviť.
+    { -brand-name-firefox-relay } už nebude ďalej posielať správy odoslané na adresu <strong>{ $email }</strong>, vrátane správ, ktoré vám umožnia obnoviť stratené heslá.
 # Deprecated
 modal-delete-warning-upgrade =
     Ak používate tento alias na prihlásenie sa na weby, na ktorých vám záleží,
     mali by ste pred jeho odstránením aktualizovať svoje prihlasovacie údaje zadaním inej e-mailovej adresy.
+modal-delete-warning-upgrade-2 =
+    Ak používate túto masku na prihlásenie sa na weby, na ktorých vám záleží,
+    mali by ste pred jej odstránením aktualizovať svoje prihlasovacie údaje zadaním inej e-mailovej adresy.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Ak používate tento alias na prihlásenie na stránky, na ktorých vám záleží,
     pred odstránením tejto adresy by ste mali aktualizovať svoje prihlasovacie údaje pomocou inej e-mailovej adresy.
     Ak znova vytvoríte odstránený alias, e-maily odoslané na pôvodný alias sa budú naďalej preposielať.
+modal-delete-domain-address-warning-upgrade-2 =
+    Ak používate túto masku na prihlásenie na stránky, na ktorých vám záleží,
+    pred odstránením tejto adresy by ste mali aktualizovať svoje prihlasovacie údaje pomocou inej e-mailovej adresy.
+    Ak znova vytvoríte odstránenú masku, e-maily odoslané na pôvodný masku sa budú naďalej preposielať.
 # Deprecated
 modal-delete-confirmation = Áno, chcem odstrániť tento alias.
+modal-delete-confirmation-2 = Áno, chcem túto masku odstrániť.
 modal-domain-register-good-news = Dobré správy!
 # Deprecated
 modal-domain-register-warning-reminder = Pamätajte, že môžete zaregistrovať iba jednu doménu. Neskôr ju už nebudete môcť zmeniť.
+modal-domain-register-warning-reminder-2 = Pamätajte, že môžete zaregistrovať iba jednu subdoménu. Neskôr ju už nebudete môcť zmeniť.
 # Deprecated
 modal-domain-register-button = Registrovať doménu
+modal-domain-register-button-2 = Registrovať subdoménu
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } je k dispozícii!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozícii!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Áno, chcem si zaregistrovať doménu <subdoménu>{ $subdomain }</subdoména>
 modal-domain-register-success-title = Úspešné!
 # Deprecated
 modal-domain-register-success = { $subdomain } je teraz vašou e-mailovou doménou!
