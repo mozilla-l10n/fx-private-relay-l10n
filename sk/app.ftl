@@ -344,6 +344,7 @@ premium-promo-perks-perk-custom-domain-headline = Vyberte si vlastnú doménu
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = S vlastnou doménou môžete vytvárať aliasy, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete alias na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — alias nie je potrebné vytvárať vopred.
+premium-promo-perks-perk-custom-domain-body-2 = S vlastnou subdoménou môžete vytvárať masky, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete masku na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — masku nie je potrebné vytvárať vopred.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Spravujte svoje aliasy z ovládacieho panela
 premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky z ovládacieho panela
@@ -360,9 +361,11 @@ premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zli
 premium-promo-use-cases-social-networks-heading = Sociálne siete
 # Deprecated
 premium-promo-use-cases-social-networks-body = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite iný alias služby { -brand-name-relay } a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
+premium-promo-use-cases-social-networks-body-2 = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite inú e-mailovú masku a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
 premium-promo-use-cases-gaming-heading = Hranie hier
 # Deprecated
 premium-promo-use-cases-gaming-body = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite alias ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
+premium-promo-use-cases-gaming-body-2 = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite masku ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
 premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
 
 ## Settings page
@@ -409,6 +412,7 @@ faq-question-what-is-question = Čo je alias služby { -brand-name-relay }?
 faq-question-what-is-question-2 = Čo je e-mailová maska služby { -brand-name-relay }?
 # Deprecated
 faq-question-what-is-answer = E-mailové aliasy sú maskované e-mailové adresy, ktoré preposielajú správy na vašu skutočnú e-mailovú adresu. Tieto aliasy vám umožňujú s tretími stranami zdieľať vygenerovanú adresu, čím zamaskujete vašu skutočnú e-mailovú adresu.
+faq-question-what-is-answer-2 = E-mailové masky sú maskované e-mailové adresy, ktoré preposielajú správy na vašu skutočnú e-mailovú adresu. Tieto masky vám umožňujú s tretími stranami zdieľať vygenerovanú adresu, čím zamaskujete vašu skutočnú e-mailovú adresu.
 # Deprecated
 faq-question-missing-emails-question = Nedostávam správy z mojich aliasov
 faq-question-missing-emails-question-2 = Nedostávam správy z mojich e-mailových masiek
@@ -438,8 +442,10 @@ faq-question-use-cases-question = Kedy by som mal použiť aliasy služby { -bra
 faq-question-use-cases-question-2 = Kedy by som mal použiť e-mailové masky služby { -brand-name-relay }?
 # Deprecated
 faq-question-use-cases-answer-part1 = Aliasy služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
+faq-question-use-cases-answer-part1-2 = Masky služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
 # Deprecated
 faq-question-use-cases-answer-part2 = Neodporúčame používať aliasy, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
+faq-question-use-cases-answer-part2-2 = Neodporúčame používať masky, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
 # Deprecated
 faq-question-2-question = Prečo stránka neprijíma môj alias služby { -brand-name-relay }?
 faq-question-2-question-2 = Prečo stránka neprijme moju e-mailovú masku { -brand-name-relay }?
@@ -477,8 +483,10 @@ faq-question-browser-support-answer = Áno, aliasy služby { -brand-name-relay }
 faq-question-longevity-question = Čo sa stane, ak { -brand-name-firefox-relay } vypne službu { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú aliasy služby { -brand-name-relay }.
+faq-question-longevity-answer-2 = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú masky služby { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Prečo moje aliasy začali používať doménu “mozmail.com?”
+faq-question-mozmail-question-2 = Prečo moje masky začali používať doménu “mozmail.com?”
 # Deprecated
 faq-question-mozmail-answer = Prešli sme z “relay.firefox.com” na “mozmail.com”, aby bolo možné získať vlastnú e-mailovú doménu, napríklad alias@vašadoména.mozmail.com. Vlastné e-mailové domény dostupné pre službu { -brand-name-relay-premium } tiež uľahčujú zapamätanie si vašich e-mailových aliasov.
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e-maily s prílohami?
@@ -596,6 +604,7 @@ profile-label-cancel = Zrušiť
 profile-blocked-copy = Ak pre tento alias vyberiete blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
 # Deprecated
 profile-forwarded-copy = Keď zvolíte pre tento alias preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
+profile-forwarded-copy-2 = Keď zvolíte pre túto masku preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
 profile-forwarded-note = Poznámka:
 profile-forwarded-note-copy = E-maily (vrátane príloh) väčšie ako { email-size-limit } nie sú v súčasnosti podporované a nebudú preposielané.
 profile-forwarded-note-copy-v2 = E-maily (vrátane príloh) väčšie ako { email-size-limit } nebudú preposielané.
@@ -658,10 +667,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = Služba { -brand-name-relay } je ešte lepšia v prehliadači { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie aliasov ešte viac.
+banner-download-firefox-copy-2 = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje vytváranie masiek ešte viac.
 banner-download-firefox-cta = Nainštalujte si { -brand-name-firefox }
 banner-download-install-extension-headline = Nainštalujte si { -brand-name-relay } pre { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje používanie aliasov ešte viac.
+banner-download-install-extension-copy-2 = Rozšírenie { -brand-name-relay } pre { -brand-name-firefox-browser(capitalization: "lowercase") } uľahčuje používanie masiek ešte viac.
 banner-download-install-extension-cta = Pridať { -brand-name-relay } do { -brand-name-firefox(case: "gen") }
 banner-download-install-chrome-extension-headline = Vyskúšajte { -brand-name-relay } pre { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Rozšírenie { -brand-name-firefox-relay } pre { -brand-name-chrome } ešte viac zjednodušuje používanie aliasov.
@@ -669,6 +680,7 @@ banner-download-install-chrome-extension-cta = Získajte rozšírenie { -brand-n
 banner-upgrade-headline = Inovujte na { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ešte viac uľahčuje vytváranie e-mailových aliasov s vlastnými doménami a neobmedzeným počtom aliasov.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } ešte viac uľahčuje vytváranie e-mailových masiek s vlastnými doménami a neobmedzeným počtom masiek.
 banner-upgrade-cta = Inovovať na { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Vykonať akciu
@@ -782,6 +794,7 @@ modal-custom-alias-picker-form-submit-label = Vytvoriť alias
 modal-custom-alias-picker-form-submit-label-2 = Vytvoriť masku
 # Deprecated
 modal-custom-alias-picker-creation-error = Váš vlastný alias nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e-mail na alias, aby ste ho vytvorili.
+modal-custom-alias-picker-creation-error-2 = Vašu vlastnú masku nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e-mail na masku, aby ste ju vytvorili.
 
 ## Popover explaining how custom aliases work
 
@@ -799,13 +812,16 @@ popover-custom-alias-explainer-close-button-label = Zavrieť
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovať marketingové e-maily
 popover-custom-alias-explainer-promotional-block-tooltip = Povoľte možnosť Blokovať marketingové e-maily na aliase, aby ste zabránili tomu, aby sa marketingové e-maily dostávali do vašej doručenej pošty.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Povoľte možnosť Blokovať marketingové e-maily na maske, aby ste zabránili tomu, aby sa marketingové e-maily dostávali do vašej doručenej pošty.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Vytváranie aliasov pomocou vlastnej domény
+tips-custom-alias-heading-2 = Vytváranie masiek pomocou vlastnej subdomény
 # Deprecated
 tips-custom-alias-content = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečný alias, ktorý používa vašu vlastnú doménu – alias sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
+tips-custom-alias-content-2 = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečnú masku, ktorý používa vašu vlastnú subdoménu – maska sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
 
 ## Tip about using custom aliases
 
@@ -816,6 +832,7 @@ tips-promo-email-blocking-content = So službou { -brand-name-relay-premium } m�
 
 # Deprecated
 onboarding-headline = Vytvorte si svoj prvý alias, máte tri rôzne možnosti…
+onboarding-headline-2 = Vytvorte si svoju prvú e-mailovú masku
 # Deprecated
 onboarding-alias-tip-1 = Kliknutím na „Vytvoriť nový alias“ vytvorte svoj prvý alias.
 onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailovú adresu.
