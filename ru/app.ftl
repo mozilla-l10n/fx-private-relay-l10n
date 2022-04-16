@@ -489,8 +489,19 @@ faq-question-8-answer-2-html = Вы можете узнать больше о д
 faq-question-email-storage-question = { -brand-name-relay } хранит мои электронные письма?
 faq-question-email-storage-answer = Только в тех редких случаях, когда служба не работает, мы можем временно хранить ваши электронные письма, пока не сможем их отправить. Мы никогда не храним ваши письма дольше трёх дней.
 faq-question-acceptable-use-question = Каковы допустимые варианты использования { -brand-name-relay }?
-faq-question-acceptable-use-answer-measure-unlimited-payment = Требование оплаты за создание пользователем более пяти псевдонимов
-faq-question-promotional-email-blocking-question = Что такое блокировка рекламной электронной почты?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } имеет те же <a href="{ $url }" { $attrs }>условия пользования, что и все продукты { -brand-name-mozilla }</a>. У нас действует политика абсолютной нетерпимости к использованию { -brand-name-relay } в злонамеренных целях, таких как рассылка спама, и в подобных случаях мы прекращаем действие аккаунта пользователя. Для того, чтобы пользователи не нарушали наших условий, мы:
+faq-question-acceptable-use-answer-measure-account = Требуем { -brand-name-firefox-account(case: "nominative_uppercase") } с подтверждённым адресом электронной почты
+faq-question-acceptable-use-answer-measure-unlimited-payment = Требуем оплату за создание пользователем более пяти псевдонимов
+faq-question-acceptable-use-answer-measure-rate-limit = Ограничиваем число псевдонимов, которые можно создать за один день
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Дополнительную информацию вы можете найти в <a href="{ $url }" { $attrs }>Условиях службы</a>.
+faq-question-promotional-email-blocking-question = Что такое блокировка рекламных электронных писем?
+faq-question-promotional-email-blocking-answer = Подписчики { -brand-name-relay-premium } могут включить блокировку рекламных электронных писем. Эта функция будет пересылать вам важные электронных письма, такие как квитанции, сбросы паролей и подтверждения, при этом блокируя маркетинговые сообщения. Существует небольшой риск того, что важные сообщения также будут заблокированы, поэтому мы не рекомендуем использовать эту функцию для очень важных мест, таких как банк. Если электронное письмо заблокировано, его невозможно восстановить.
+faq-question-detect-promotional-question = Как { -brand-name-relay } определяет, рекламное электронное письмо или нет?
+faq-question-detect-promotional-answer = Многие электронные письма содержат заголовочные метаданные, указывающие, что они отправлены с помощью автоматизированных инструментов на основе списков. { -brand-name-firefox-relay } определяет такие данные и блокирует эти письма.
 
 ## Profile Page (Logged In)
 
@@ -512,17 +523,22 @@ profile-details-collapse = Скрыть детали псевдонима
 profile-label-click-to-copy-alt = Нажмите, чтобы скопировать псевдоним { $address }.
 # Deprecated
 profile-label-edit = Редактировать метку этого псевдонима
+profile-label-edit-2 = Редактировать метку этого псевдонима
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Добавьте название аккаунта
 profile-label-save-error = Не удалось сохранить, пожалуйста, попробуйте ещё раз.
 profile-label-saved = Метка сохранена!
 # Deprecated
 profile-label-generate-new-alias = Создать новый псевдоним
+profile-label-generate-new-alias-2 = Создать новый псевдоним
 # Deprecated
 profile-label-generate-new-alias-menu-random = Случайный псевдоним
-profile-label-generate-new-alias-menu-random-2 = Случайный почтовый псевдоним
+profile-label-generate-new-alias-menu-random-2 = Случайный псевдоним
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Псевдоним @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Псевдоним @{ $subdomain }
 profile-label-delete = Удалить
 # Deprecated
 profile-label-delete-alias = Удалить этот псевдоним
@@ -530,12 +546,17 @@ profile-label-delete-alias = Удалить этот псевдоним
 profile-label-delete-alias-2 = Удалить этот псевдоним
 # Deprecated
 profile-label-upgrade = Получите неограниченное число псевдонимов
+profile-label-upgrade-2 = Получите неограниченное число псевдонимов электронной почты
 # Deprecated
 profile-label-create-domain = Получите собственный домен электронной почты
+profile-label-create-subdomain = Получите собственный поддомен электронной почты
 # Deprecated
 profile-label-domain = Домен электронной почты:
+profile-label-subdomain = Поддомен электронной почты:
+profile-label-subdomain-tooltip-trigger = Подробнее
 # Deprecated
 profile-label-domain-tooltip = Создайте собственный уникальный домен электронной почты.
+profile-label-subdomain-tooltip = Создайте свой уникальный поддомен электронной почты.
 profile-label-reset = Сбросить
 profile-label-apply = Применить
 profile-label-skip = Пропустить
@@ -553,8 +574,10 @@ profile-label-forwarding = переадресация
 profile-label-blocking = блокировка
 # Deprecated
 profile-label-disable-forwarding-button = Отключить переадресацию писем для этого псевдонима
+profile-label-disable-forwarding-button-2 = Отключить переадресацию писем для этого псевдонима
 # Deprecated
 profile-label-enable-forwarding-button = Включить переадресацию писем для этого псевдонима
+profile-label-enable-forwarding-button-2 = Включить переадресацию писем для этого псевдонима
 profile-label-click-to-copy = Нажмите, чтобы скопировать
 # Deprecated
 profile-label-copy-confirmation = Псевдоним скопирован в буфер обмена
@@ -566,8 +589,10 @@ profile-label-forwarded = Переслано
 profile-label-cancel = Отмена
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } будет удалять сообщения прежде, чем они попадут в ваш почтовый ящик, если вы выберете блокировку для этого псевдонима.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } будет удалять сообщения прежде, чем они попадут в ваш почтовый ящик, если вы выберете блокировку для этого псевдонима.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } будет отправлять сообщения в ваш почтовый ящик, если вы выберете переадресацию для этого псевдонима.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } будет отправлять сообщения в ваш почтовый ящик, если вы выберете переадресацию для этого псевдонима.
 profile-forwarded-note = Примечание:
 profile-forwarded-note-copy = Письма размером более { email-size-limit } (включая вложения) сейчас не поддерживаются и не будут пересланы.
 profile-forwarded-note-copy-v2 = Письма размером более { email-size-limit } (включая вложения) не будут пересланы.
@@ -575,8 +600,10 @@ profile-stat-label-blocked = Писем заблокировано
 profile-stat-label-forwarded = Писем переслано
 # Deprecated
 profile-stat-label-aliases-used = Псевдонимов электронной почты использовано
+profile-stat-label-aliases-used-2 = Псевдонимов электронной почты использовано
 # Deprecated
 profile-filter-search-placeholder = Поиск псевдонимов
+profile-filter-search-placeholder-2 = Поиск псевдонимов
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Псевдонимы с переадресацией
 # Deprecated
