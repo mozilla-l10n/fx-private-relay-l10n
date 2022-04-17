@@ -460,6 +460,10 @@ profile-promo-upgrade-copy = 升级 { -brand-name-relay } 即可获得无限数�
 profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-details-expand = 显示马甲详细信息
 profile-details-collapse = 隐藏马甲详细信息
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = 点击复制马甲邮箱 { $address }。
 # Deprecated
 profile-label-edit = 编辑此马甲的标签
 profile-label-edit-2 = 编辑此马甲的标签
@@ -538,13 +542,20 @@ profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 # Deprecated
 profile-stat-label-aliases-used = 已用的邮箱马甲
+profile-stat-label-aliases-used-2 = 已用的马甲邮箱
 # Deprecated
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-search-placeholder-2 = 搜索马甲
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = 转发中马甲
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = 转发中马甲
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = 已屏蔽马甲
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = 屏蔽中马甲
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = 屏蔽营销邮件的马甲
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = 随机马甲
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
@@ -678,6 +689,7 @@ error-subdomain-not-available = 域名 @{ $unavailable_subdomain } 不可用。�
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
+error-settings-update = 更新设置时遇到错误，请重试
 error-mask-create-failed = 无法创建马甲，请重试。
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
@@ -900,6 +912,10 @@ modal-domain-register-success-copy = 您现在可以使用新域名创建无限�
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = 提示 { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
