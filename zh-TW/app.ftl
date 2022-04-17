@@ -158,6 +158,7 @@ landing-hero-body = { -brand-name-firefox-relay } 別名信箱會自動轉寄郵
 landing-how-it-works-headline = 原理是什麼
 # Deprecated
 landing-how-it-works-body = 不直接提供您實際的電子郵件地址，而是提供 { -brand-name-relay } 的郵件別名出去，以保護您的收件匣與個人身分。
+landing-how-it-works-body-2 = 不直接提供您實際的電子郵件地址，而是提供 { -brand-name-relay } 的轉寄信箱出去，以保護您的收件匣與個人身分。
 landing-how-it-works-step-1-body-cta = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 # Deprecated
 landing-how-it-works-step-1-body = 在任何一張表單填寫電子郵件地址時，自動產生別名信箱。
@@ -207,12 +208,15 @@ landing-use-cases-heading = 使用 { -brand-name-firefox-relay } 來：
 landing-use-cases-shopping = 線上購物
 # Deprecated
 landing-use-cases-shopping-body = 要在新的網路商店買東西？請用 { -brand-name-relay } 而不要使用實際的電子郵件信箱來登記信箱。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
+landing-use-cases-shopping-body-2 = 要在新的網路商店買東西？可使用轉寄信箱而不要使用實際的電子郵件信箱來註冊帳號。我們會將購物收據轉寄到您實際的信箱，之後開始收到不喜歡的廣告信時，只要關閉郵件轉寄即可。
 landing-use-cases-social-networks = 社群網路
 # Deprecated
 landing-use-cases-social-networks-body = 使用社群網路時，想要加強保護您的線上身分嗎？試著不讓您的實際信箱與社群媒體帳號被結合起來避免肉搜嗎？使用 { -brand-name-relay } 的別名信箱來登入，並且保護您的線上身分。
+landing-use-cases-social-networks-body-2 = 使用社群網路時，想要加強保護您的線上身分嗎？試著不讓您的實際信箱與社群媒體帳號被結合起來避免肉搜嗎？使用 { -brand-name-relay } 的轉寄信箱來登入，並且保護您的線上身分。
 landing-use-cases-offline = 店家購物
 # Deprecated
 landing-use-cases-offline-body = 想收到電子發票或收據，但不想收到廣告信嗎？請使用 { -brand-name-relay } 別名信箱，而不使用實際的信箱來收取店家的無紙化收據。我們會將收據轉寄到您的實際信箱，開始收到不喜歡的垃圾信時，只要關閉轉寄功能就好。
+landing-use-cases-offline-body-2 = 想收到電子發票或收據，但不想收到廣告信嗎？請使用 { -brand-name-relay } 轉寄信箱，而不使用實際的信箱來收取店家的無紙化收據。我們會將收據轉寄到您的實際信箱，開始收到不喜歡的垃圾信時，只要關閉轉寄功能就好。
 landing-use-cases-access-content = 開啟網站內容
 # Deprecated
 landing-use-cases-access-content-body = 想要註冊某份電子報，但不確定寄件者可不可靠？請使用別名信箱訂閱。當您開始透過該別名信箱收到不想要的郵件時，就代表寄件者可能把您的信箱賣給其他廣告商，或是名單已遭外流。只要關閉或刪除別名，即可保護您的收件匣。
@@ -232,34 +236,44 @@ premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓�
 premium-promo-hero-body-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件別名信箱功能，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 Relay Premium 方案。</b>
 premium-promo-hero-cta = 立刻升級
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
 # Deprecated
 premium-promo-perks-lead = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量別名，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
+premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
 premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = 建立無限量的郵件別名
+premium-promo-perks-perk-unlimited-headline-2 = 建立無限量的轉寄信箱
 # Deprecated
 premium-promo-perks-perk-unlimited-body = 不再只能建立五組別名：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的別名信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
+premium-promo-perks-perk-unlimited-body-2 = 不再只能建立五組轉寄信箱：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的轉寄信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
 premium-promo-perks-perk-custom-domain-headline = 使用您自訂的網域名稱
 premium-promo-perks-perk-custom-domain-headline-2 = 使用您自訂的子網域名稱
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = 使用自訂網域，可以建立方便好記好分享的別名信箱。要預約餐廳嗎？可免事先建立，直接使用 food@mydomain.mozmail.com 登記。
+premium-promo-perks-perk-custom-domain-body-2 = 使用自訂子網域，可以建立方便好記好分享的轉寄信箱。要預約餐廳嗎？可免事先建立，直接使用 food@mydomain.mozmail.com 登記。
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = 在儀表板管理您建立的別名
+premium-promo-perks-perk-dashboard-headline-2 = 在儀表板管理您建立的轉寄信箱
 # Deprecated
 premium-promo-perks-perk-dashboard-body = 透過簡單好用的儀錶板管理您的所有別名信箱：發現有哪個信箱開始收到垃圾信時，就可以直接阻絕垃圾信於千里之外。
+premium-promo-perks-perk-dashboard-body-2 = 透過簡單好用的儀錶板管理您的所有轉寄信箱：發現有哪個信箱開始收到垃圾信時，就可以直接阻絕垃圾信於千里之外。
 # Deprecated
 premium-promo-use-cases-headline = 隨時隨地都能使用 { -brand-name-relay } 別名信箱
+premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
 premium-promo-use-cases-shopping-heading = 線上購物
 # Deprecated
 premium-promo-use-cases-shopping-body = 想要收到折價券，但不想要收到垃圾信嗎？在不同的購物網站都使用獨立的自訂別名，例如「mydeals@mydomain.mozmail.com」。
+premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
 premium-promo-use-cases-social-networks-heading = 社群網路
 # Deprecated
 premium-promo-use-cases-social-networks-body = 想要在使用社群網路時更加保護您的線上身分嗎？改用 { -brand-name-relay } 別名信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
 premium-promo-use-cases-gaming-heading = 玩遊戲
 # Deprecated
 premium-promo-use-cases-gaming-body = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
+premium-promo-use-cases-gaming-body-2 = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 premium-promo-pricing-free-price = 您目前的免費方案
 
 ## Settings page
@@ -275,6 +289,8 @@ settings-error-save-heading = 設定變更失敗
 settings-error-save-description = 由於連線錯誤，並未儲存您的設定變更，請再試一次。
 # Deprecated
 settings-warning-collection-off-heading = 已停用郵件別名標籤功能
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = 已停用轉寄信箱標籤功能
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } 目前並未被允許收集您用於產生與使用過的信件別名網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
