@@ -34,6 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } 讓您可輕鬆建立別名信箱，使用該地址收信後再轉寄回您實際的信箱。可使用別名信箱來保護帳號，不受駭客與垃圾信件的騷擾。
+meta-description-2 = { -brand-name-firefox-relay } 讓您可輕鬆建立轉寄信箱，使用該地址收信後再轉寄回您實際的信箱。可使用轉寄信箱來保護帳號，不受駭客與垃圾信件的騷擾。
 
 ## Header 
 
@@ -152,6 +153,7 @@ landing-hero-headline = 保護您實際的電子郵件地址，並且自行控�
 landing-hero-headline-2 = 保護您實際的電子郵件地址，並且自行控管收件匣
 # Deprecated
 landing-hero-body = { -brand-name-firefox-relay } 別名信箱會自動轉寄郵件到您的實際信箱，並保護您實際的電子郵件信箱，使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可已開始使用。
+landing-hero-body-2 = { -brand-name-firefox-relay } 轉寄信箱會自動轉寄郵件到您實際的電子郵件信箱，並保護該信箱使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可開始使用。
 
 ## How it works section
 
@@ -220,9 +222,11 @@ landing-use-cases-offline-body-2 = 想收到電子發票或收據，但不想收
 landing-use-cases-access-content = 開啟網站內容
 # Deprecated
 landing-use-cases-access-content-body = 想要註冊某份電子報，但不確定寄件者可不可靠？請使用別名信箱訂閱。當您開始透過該別名信箱收到不想要的郵件時，就代表寄件者可能把您的信箱賣給其他廣告商，或是名單已遭外流。只要關閉或刪除別名，即可保護您的收件匣。
+landing-use-cases-access-content-body-2 = 想要訂閱某份電子報，但不確定寄件者可不可靠？請使用轉寄信箱訂閱。當您會從該信箱收到不想要的郵件時，就代表寄件者可能已經把您的地址賣給其他廣告商，或是名單已遭外流。只要關閉或刪除轉寄信箱，即可保護您的收件匣。
 landing-use-cases-gaming = 玩遊戲
 # Deprecated
 landing-use-cases-gaming-body = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用 { -brand-name-relay } 別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
+landing-use-cases-gaming-body-2 = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 
 ## Landing FAQ Section
 
@@ -403,6 +407,7 @@ faq-question-mozmail-question = 為什麼我產生的別名信箱開始使用「
 faq-question-mozmail-question-2 = 為什麼我產生的轉寄信箱開始使用「mozmail.com」網域？
 # Deprecated
 faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 alias@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您產生的郵件別名更容易被記得。
+faq-question-mozmail-answer-2 = 為了讓您可以自訂郵件子網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 mask@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您可產生更好記的轉寄信箱。
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
 faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 # Deprecated
@@ -744,8 +749,8 @@ popover-custom-alias-explainer-generate-button-label-2 = 建立自訂轉寄信�
 popover-custom-alias-explainer-close-button-label = 關閉
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
-popover-custom-alias-explainer-promotional-block-tooltip = 對別名信箱開啟「封鎖行銷郵件功能」，即可不讓行銷郵件進入收件匣。
-popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件功能」，即可不讓行銷郵件進入收件匣。
+popover-custom-alias-explainer-promotional-block-tooltip = 對別名開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
+popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
 
 ## Tip about using custom aliases
 
@@ -768,9 +773,11 @@ onboarding-headline = 有三種方式能建立您的第一個別名…
 onboarding-headline-2 = 建立您的第一組轉寄信箱
 # Deprecated
 onboarding-alias-tip-1 = 點擊「產生新別名」來建立您的第一組別名。
+onboarding-alias-tip-1-2 = 點擊「產生新轉寄信箱」來建立您的第一組轉寄信箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
 # Deprecated
 onboarding-alias-tip-3 = 使用 { -brand-name-relay } 擴充套件，對表單欄位按右鍵，然後選擇「建立新別名」。
+onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 擴充套件，對表單欄位按右鍵，然後選擇「建立新轉寄信箱」。
 
 ## Premium Onboarding
 
