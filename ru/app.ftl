@@ -604,14 +604,28 @@ profile-stat-label-aliases-used-2 = Псевдонимов электронно�
 # Deprecated
 profile-filter-search-placeholder = Поиск псевдонимов
 profile-filter-search-placeholder-2 = Поиск псевдонимов
+profile-filter-category-button-label = Отфильтровать видимые псевдонимы
+profile-filter-category-button-tooltip = Отфильтровать псевдонимы по поддомену и/или тому, блокируют ли они сейчас входящую электронную почту
+profile-filter-category-title = Отфильтровать видимые псевдонимы
+profile-filter-no-results = Ни один из псевдонимов не отвечает выбранным критериям. <clear-button>Убрать все фильтры.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Псевдонимы с переадресацией
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Псевдонимы с переадресацией
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Псевдонимы с блокировкой
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Псевдонимы с блокировкой
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Псевдонимы с блокировкой рекламы
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Случайные псевдонимы
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Случайные псевдонимы
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Пользовательские псевдонимы
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Пользовательские псевдонимы
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -632,6 +646,7 @@ profile-promo-email-blocking-label-not-forwarding = Блокировка
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Пропустить
 banner-bounced-headline = { -brand-name-relay } не удалось доставить вашу электронную почту.
 # Variables:
 #   $username (string) - Username
@@ -644,10 +659,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } ещё лучше в { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Расширение { -brand-name-relay } для { -brand-name-firefox-browser(case: "genitive") } делает создание псевдонимов ещё проще.
+banner-download-firefox-copy-2 = Расширение { -brand-name-relay } для { -brand-name-firefox-browser(case: "genitive") } делает создание псевдонимов ещё проще.
 banner-download-firefox-cta = Получить { -brand-name-firefox }
 banner-download-install-extension-headline = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Расширение { -brand-name-relay } для { -brand-name-firefox-browser(case: "genitive") } делает использование псевдонимов электронной почты ещё проще.
+banner-download-install-extension-copy-2 = Расширение { -brand-name-relay } для { -brand-name-firefox-browser(case: "genitive") } делает использование псевдонимов электронной почты ещё проще.
 banner-download-install-extension-cta = Добавить { -brand-name-relay } в { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Попробуйте { -brand-name-relay } для { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов ещё проще.
@@ -655,7 +672,47 @@ banner-download-install-chrome-extension-cta = Получить расширен
 banner-upgrade-headline = Переходите на { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } делает создание псевдонимов электронной почты ещё проще, предоставляя пользовательские домены и неограниченное число псевдонимов.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } делает создание псевдонимов электронной почты ещё проще, предоставляя пользовательские поддомены и неограниченное число псевдонимов.
 banner-upgrade-cta = Перейти на { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Необходимое действие
+# Deprecated
+banner-register-subdomain-headline-aliases = Получите собственный домен для своих псевдонимов
+banner-register-subdomain-headline-aliases-2 = Получите собственный поддомен для своих псевдонимов
+# This string is used in the example subdomain alias. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = yourdomain
+# Deprecated
+banner-register-subdomain-copy =
+    С собственным доменом вы сможете использовать псевдонимы, не создавая их
+    заранее. Нужен псевдоним для бронирования? Воспользуйтесь
+    «restaurant@yourdomain.{ $mozmail }» для ресторана. Любой псевдоним с вашим
+    собственным доменом принадлежит вам.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    С собственным поддоменом вы сможете использовать псевдонимы, не создавая их
+    заранее. Нужен псевдоним для бронирования? Воспользуйтесь
+    «restaurant@yourdomain.{ $mozmail }» для ресторана. Любой псевдоним с вашим
+    собственным поддоменом принадлежит вам.
+# Deprecated
+banner-choose-subdomain-input-placeholder = Поиск домена
+# Deprecated
+banner-choose-subdomain-input-placeholder-2 = Подберите себе новый домен
+banner-choose-subdomain-input-placeholder-3 = Поиск поддомена
+# This is the “call to action” text on the submit button of domain registration form.
+banner-register-subdomain-button-search = Поиск
+# Deprecated
+banner-pack-upgrade-headline-html = Переходите на <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong>, чтобы получить больше псевдонимов
+banner-pack-upgrade-headline-2-html = Переходите на <strong>{ -brand-name-firefox-relay-premium }</strong>, чтобы получить больше псевдонимов электронной почты
+# Deprecated
+banner-pack-upgrade-copy = С неограниченным числом псевдонимов и вашим собственным доменом электронной почты { -brand-name-firefox } { -brand-name-relay-premium } помогает вам оставаться защищёнными в Интернете.
+banner-pack-upgrade-copy-2 = С неограниченным числом псевдонимов и вашим собственным поддоменом электронной почты { -brand-name-firefox-relay-premium } помогает вам оставаться защищёнными в Интернете.
+banner-pack-upgrade-cta = Перейти сейчас
 
 ## Success Messages
 
