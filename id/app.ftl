@@ -231,6 +231,9 @@ landing-use-cases-shopping = Belanja
 landing-use-cases-shopping-body =
     Beli sesuatu dari toko online baru? Gunakan alias dari { -brand-name-relay } daripada alamat surel Anda ketika berbelanja
     Kami akan meneruskan tanda terima ke alamat surel asli Anda, dan jika Anda mulai mendapatkan surel yang tidak diinginkan, cukup matikan penerusan surel.
+landing-use-cases-shopping-body-2 =
+    Beli sesuatu dari toko daring baru? Gunakan masker surel, bukan alamat surel asli Anda saat melakukan pembelian daring.
+    Kami akan meneruskan tanda terima ke alamat surel Anda yang sebenarnya, dan jika Anda mulai mendapatkan pesan yang tidak Anda suka, cukup tukar masker untuk memblokir.
 landing-use-cases-social-networks = Jejaring Sosial
 # Deprecated
 landing-use-cases-social-networks-body =
