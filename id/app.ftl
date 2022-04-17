@@ -239,6 +239,9 @@ landing-use-cases-social-networks = Jejaring Sosial
 landing-use-cases-social-networks-body =
     Ingin melindungi identitas daring Anda lebih baik ketika menggunakan jejaring sosial?
     Ingin menjaga alamat surel asli Anda tidak terikat dengan akun media sosial? Gunakan alias dari { -brand-name-relay } untuk masuk dan melindungi diri Anda daring.
+landing-use-cases-social-networks-body-2 =
+    Ingin lindungi identitas daring Anda lebih baik ketika menggunakan media sosial?
+    Ingin menjaga surel asli Anda dengan akun media sosial? Gunakan masker { -brand-name-relay } untuk masuk dan melindungi diri Anda selama daring.
 landing-use-cases-offline = Luring
 # Deprecated
 landing-use-cases-offline-body =
