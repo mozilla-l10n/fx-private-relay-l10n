@@ -402,9 +402,14 @@ faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-r
 faq-question-unsubscribe-domain-question-2 = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂子網域會發生什麼事？
 # Deprecated
 faq-question-unsubscribe-domain-answer = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂網域轉寄的郵件，但無法再使用該網域來建立新別名信箱。若您已有超過五組別名信箱，將無法再建立新的別名信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
+faq-question-unsubscribe-domain-answer-2 = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂轉寄信箱轉寄的郵件，但無法再使用該子網域來建立新轉寄信箱。若您已有超過五組轉寄信箱，將無法再建立新的轉寄信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Deprecated
 faq-question-8-answer-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些郵件別名標籤的資訊（非必要），讓我們為您提供並改善服務。
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些轉寄信箱標籤的資訊（非必要），讓我們為您提供並改善服務。
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合理用途？
@@ -434,18 +439,30 @@ profile-promo-upgrade-headline = 升級後即可獲得更多功能。
 # Deprecated
 profile-promo-upgrade-copy = 升級 { -brand-name-relay } 即可獲得無限量的郵件信箱與您專屬的郵件網域。
 profile-promo-upgrade-cta = 升級 { -brand-name-relay }
+profile-details-expand = 顯示轉寄信箱詳細資訊
+profile-details-collapse = 隱藏轉寄信箱詳細資訊
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = 點擊即可複製轉寄信箱 { $address }。
 # Deprecated
 profile-label-edit = 編輯此別名的標籤
+profile-label-edit-2 = 編輯此轉寄信箱的標籤
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = 新增帳號名稱
 profile-label-save-error = 儲存失敗，請再試一次。
 profile-label-saved = 已儲存標籤！
 # Deprecated
 profile-label-generate-new-alias = 產生新別名
+profile-label-generate-new-alias-2 = 產生新轉寄信箱
 # Deprecated
 profile-label-generate-new-alias-menu-random = 隨機別名
+profile-label-generate-new-alias-menu-random-2 = 隨機轉寄信箱
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain } 別名
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } 轉寄信箱
 profile-label-delete = 刪除
 # Deprecated
 profile-label-delete-alias = 刪除此別名
@@ -453,8 +470,10 @@ profile-label-delete-alias = 刪除此別名
 profile-label-delete-alias-2 = 刪除此別名
 # Deprecated
 profile-label-upgrade = 取得無限量別名
+profile-label-upgrade-2 = 取得無限量轉寄信箱
 # Deprecated
 profile-label-create-domain = 取得您自己的郵件網域
+profile-label-create-subdomain = 取得您的郵件子網域
 # Deprecated
 profile-label-domain = 電子郵件子網域：
 profile-label-subdomain = 信箱子網域：
@@ -479,19 +498,25 @@ profile-label-forwarding = 轉寄中
 profile-label-blocking = 封鎖中
 # Deprecated
 profile-label-disable-forwarding-button = 對此別名停用轉寄
+profile-label-disable-forwarding-button-2 = 對此轉寄信箱停用轉寄功能
 # Deprecated
 profile-label-enable-forwarding-button = 對此別名啟用轉寄
+profile-label-enable-forwarding-button-2 = 對此轉寄信箱啟用轉寄功能
 profile-label-click-to-copy = 點擊複製
 # Deprecated
 profile-label-copy-confirmation = 已將別名複製至剪貼簿
+# Deprecated
+profile-label-copy-confirmation-2 = 已將轉寄信箱複製至剪貼簿
 profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
 profile-label-cancel = 取消
 # Deprecated
 profile-blocked-copy = 對此別名選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
+profile-blocked-copy-2 = 對此轉寄信箱選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
 # Deprecated
 profile-forwarded-copy = 對此別名選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
+profile-forwarded-copy-2 = 對此轉寄信箱選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 目前不支援超過 { email-size-limit }（含附件）的郵件，將不會轉寄給您。
 profile-forwarded-note-copy-v2 = 超過 { email-size-limit } 的郵件（含附件）將不會被轉寄。
@@ -499,16 +524,32 @@ profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 # Deprecated
 profile-stat-label-aliases-used = 已用的郵件別名
+profile-stat-label-aliases-used-2 = 已用的轉寄信箱
 # Deprecated
 profile-filter-search-placeholder = 搜尋別名
+profile-filter-search-placeholder-2 = 搜尋轉寄信箱
+profile-filter-category-button-label = 過濾可見的轉寄信箱
+profile-filter-category-button-tooltip = 依照子網域及/或它們是否封鎖收到的郵件來過濾轉寄信箱
+profile-filter-category-title = 過濾可見的轉寄信箱
+profile-filter-no-results = 沒有符合您選擇條件的轉寄信箱。<clear-button>清除所有過濾條件。</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = 轉寄別名
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = 轉寄中的信箱
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = 封鎖別名
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = 封鎖中的信箱
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = 封鎖行銷信件的信箱
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = 隨機別名
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = 隨機信箱
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = 自訂別名
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = 自訂信箱
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -542,10 +583,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } 搭配 { -brand-name-firefox } 使用，效果更好
 # Deprecated
 banner-download-firefox-copy = { -brand-name-firefox-browser } 的 { -brand-name-relay } 擴充套件，讓建立別名信箱變得更簡單。
+banner-download-firefox-copy-2 = { -brand-name-firefox-browser }的 { -brand-name-relay } 擴充套件，讓建立轉寄信箱變得更簡單。
 banner-download-firefox-cta = 下載 { -brand-name-firefox }
 banner-download-install-extension-headline = 安裝 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 # Deprecated
 banner-download-install-extension-copy = 透過 { -brand-name-firefox-browser }的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
+banner-download-install-extension-copy-2 = { -brand-name-firefox-browser }的 { -brand-name-relay } 擴充套件，讓使用轉寄信箱變得更簡單。
 banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = 試試 { -brand-name-relay } 的 { -brand-name-google-chrome } 擴充功能。
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓使用別名信箱變得更簡單。
@@ -553,17 +596,25 @@ banner-download-install-chrome-extension-cta = 下載 { -brand-name-relay } 擴�
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 讓建立別名信箱變得更簡單，還有自訂別名網域與無限量別名功能。
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 讓建立轉寄信箱變得更簡單，還有自訂子網域與無限量信箱功能。
 banner-upgrade-cta = 升級到 { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = 動作步驟
 # Deprecated
 banner-register-subdomain-headline-aliases = 使用您想要的網域名稱建立別名
+banner-register-subdomain-headline-aliases-2 = 使用您想要的子網域名稱建立轉寄信箱
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
 # Deprecated
 banner-register-subdomain-copy = 使用自訂網域功能，不需要先產生別名就可以直接轉寄郵件。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您的自訂別名的信件都會直接轉寄給您。
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 = 使用自訂子網域功能，不需要先產生別名就可以直接轉寄郵件。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您的自訂別名的信件都會直接轉寄給您。
 # Deprecated
 banner-choose-subdomain-input-placeholder = 搜尋網域
 # Deprecated
