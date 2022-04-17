@@ -614,7 +614,7 @@ banner-register-subdomain-copy = 使用自訂網域功能，不需要先產生�
 #
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
-banner-register-subdomain-copy-2 = 使用自訂子網域功能，不需要先產生別名就可以直接轉寄郵件。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您的自訂別名的信件都會直接轉寄給您。
+banner-register-subdomain-copy-2 = 使用自訂子網域功能，不需要事先產生轉寄信箱就可以直接填入表單。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您自訂信箱的信件都會直接轉寄給您。
 # Deprecated
 banner-choose-subdomain-input-placeholder = 搜尋網域
 # Deprecated
@@ -624,8 +624,10 @@ banner-choose-subdomain-input-placeholder-3 = 搜尋子網域
 banner-register-subdomain-button-search = 搜尋
 # Deprecated
 banner-pack-upgrade-headline-html = 升級到 <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> 即可產生更多別名
+banner-pack-upgrade-headline-2-html = 升級到 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可產生更多轉寄信箱
 # Deprecated
 banner-pack-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } 可透過無限量別名信箱與您個人的郵件網域功能，幫助讓您的上網更受保護。
+banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 可透過無限量轉寄信箱與您個人的郵件子網域功能，幫助讓您的上網更受保護。
 banner-pack-upgrade-cta = 立刻升級
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隱私權公告更新
@@ -674,6 +676,13 @@ error-subdomain-not-available = 網域 @{ $unavailable_subdomain } 無法使用�
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = 子網域 @{ $unavailable_subdomain } 無法使用。請使用其他名稱再試一次。
 error-settings-update = 更新設定時發生錯誤，請再試一次。
+error-mask-create-failed = 無法建立此轉寄信箱，請再試一次。
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = 無法更新轉寄信箱資料，請再試一次。
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = 無法刪除轉寄信箱 { $mask }，請再試一次。
 
 ## Tips and tricks at the bottom of the page
 
@@ -690,41 +699,54 @@ tips-footer-link-support-tooltip = 聯絡支援團隊
 
 # Deprecated
 modal-custom-alias-picker-heading = 建立新自訂別名
+modal-custom-alias-picker-heading-2 = 建立新自訂轉寄信箱
 # Deprecated
 modal-custom-alias-picker-warning = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
+modal-custom-alias-picker-warning-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 # Deprecated
 modal-custom-alias-picker-form-heading = 或者手動建立自訂別名
+modal-custom-alias-picker-form-heading-2 = 或者手動建立自訂轉寄信箱
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = 輸入別名前綴
+modal-custom-alias-picker-form-prefix-label-2 = 輸入轉寄信箱前綴
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
 # Deprecated
 modal-custom-alias-picker-form-submit-label = 產生別名
+modal-custom-alias-picker-form-submit-label-2 = 產生轉寄信箱
 # Deprecated
 modal-custom-alias-picker-creation-error = 無法手動建立您的自訂別名，請再試一次，或直接寄信到該別名信箱即可建立。
+modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉寄信箱，請再試一次，或直接寄信到該轉寄信箱即可建立。
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = 如何建立自訂別名
+popover-custom-alias-explainer-heading-2 = 如何建立自訂轉寄信箱
 # Deprecated
 popover-custom-alias-explainer-explanation = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
+popover-custom-alias-explainer-explanation-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customdomain.mozmail.com」就會自動產生。
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = 手動建立自訂別名
+popover-custom-alias-explainer-generate-button-heading-2 = 手動建立自訂轉寄信箱
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = 建立自訂別名
+popover-custom-alias-explainer-generate-button-label-2 = 建立自訂轉寄信箱
 popover-custom-alias-explainer-close-button-label = 關閉
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
 popover-custom-alias-explainer-promotional-block-tooltip = 對別名信箱開啟「封鎖行銷郵件功能」，即可不讓行銷郵件進入收件匣。
+popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件功能」，即可不讓行銷郵件進入收件匣。
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = 使用您的自訂網域來建立別名
+tips-custom-alias-heading-2 = 使用您的自訂子網域來建立轉寄信箱
 # Deprecated
 tips-custom-alias-content = 您只要建立一組獨特而使用您自訂名稱的別名。例如在網購時改用「shop@customdomain.mozmail.com」。
+tips-custom-alias-content-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 
 ## Tip about using custom aliases
 
@@ -735,6 +757,7 @@ tips-promo-email-blocking-content = 透過 { -brand-name-relay-premium } 即可�
 
 # Deprecated
 onboarding-headline = 有三種方式能建立您的第一個別名…
+onboarding-headline-2 = 建立您的第一組轉寄信箱
 # Deprecated
 onboarding-alias-tip-1 = 點擊「產生新別名」來建立您的第一組別名。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
