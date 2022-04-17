@@ -234,6 +234,9 @@ landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
 # Deprecated
 premium-promo-hero-body-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件別名信箱功能，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 Relay Premium 方案。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件轉寄信箱，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 { -brand-name-relay-premium } 方案。</b>
 premium-promo-hero-cta = 立刻升級
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
@@ -294,12 +297,17 @@ settings-warning-collection-off-heading = 已停用郵件別名標籤功能
 settings-warning-collection-off-heading-2 = 已停用轉寄信箱標籤功能
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } 目前並未被允許收集您用於產生與使用過的信件別名網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } 目前並未被允許收集您用來產生與使用過轉寄信箱的網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隱私權
 # Deprecated
 setting-label-collection-description = 允許 { -brand-name-relay } 收集資料，用來顯示別名是用於哪些網站的。
+setting-label-collection-description-2 = 允許 { -brand-name-relay } 收集資料，用來顯示轉寄信箱是用於哪些網站的。
 # Deprecated
 setting-label-collection-off-warning = 讓我們收集此資料後，就可以自動在新版當中將您產生的別名與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些別名被用於哪些網站。
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = 此資料讓我們能將您產生的轉寄信箱與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些轉寄信箱被用於哪些網站。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
 
@@ -773,16 +781,20 @@ onboarding-premium-feature-intro = 透過 { -brand-name-firefox } { -brand-name-
 onboarding-premium-control-title = 自行控制要收到哪些郵件
 # Deprecated
 onboarding-premium-control-description = 可建立無限量的別名信箱，只讓您想收到的信件直達收件匣。
+onboarding-premium-control-description-2 = 可建立無限量的轉寄信箱，只讓您想收到的信件直達收件匣。
 # Deprecated
 onboarding-premium-domain-title = 用自訂網域名稱建立共用別名
 # Deprecated
 onboarding-premium-domain-title-2 = 用自訂網域名稱建立共用別名：
+onboarding-premium-domain-title-3 = 用自訂子網域名稱建立共用轉寄信箱：
 # Deprecated
 onboarding-premium-domain-description = 透過自訂網域，可以讓「電子報」別名跟「購物資訊」別名不同。
 # Deprecated
 onboarding-premium-reply-title = 不用給出實際信箱，就能回覆郵件
+onboarding-premium-reply-title-2 = 不用給出實際信箱，就能回覆郵件
 # Deprecated
 onboarding-premium-reply-description = 需要回覆寄到別名信箱的郵件嗎？只要如往常一般方式回信，仍可透過別名來保護您的地址。
+onboarding-premium-reply-description-2 = 需要回覆寄到轉寄信箱的郵件嗎？只要如往常一般方式回信，仍可透過轉寄信箱來保護您的地址。
 onboarding-premium-title-detail = 透過 { -brand-name-firefox-relay-premium }，您可以：
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -796,6 +808,7 @@ multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封�
 multi-part-onboarding-premium-welcome-title = 自行控制要收到哪些郵件：
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = 產生無限量的郵件別名:
+multi-part-onboarding-premium-generate-unlimited-title-2 = 產生無限量轉寄信箱：
 multi-part-onboarding-premium-welcome-button-start = 開始使用
 # Deprecated
 multi-part-onboarding-premium-domain-headline = 共用別名的自訂網域名稱
@@ -807,10 +820,14 @@ multi-part-onboarding-premium-get-subdomain = 獲得自訂子網域
 multi-part-onboarding-reply-headline = 回覆郵件
 # Deprecated
 multi-part-onboarding-premium-welcome-description = 不再只能設定五組別名：您可以無限量隨意產生自訂或隨機別名。在桌機上，還可以使用 Relay 的附加元件隨時建立別名。
+multi-part-onboarding-premium-welcome-description-2 = 不再只能設定五組信箱：您可以無限量隨意產生自訂或隨機轉寄信箱。在桌機上，還可以使用 { -brand-name-relay } 的附加元件隨時建立轉寄信箱。
 # Deprecated
 multi-part-onboarding-premium-domain-description = 使用自訂網域，可以建立方便好記好分享的別名信箱。要預約餐廳嗎？可免事先建立，直接使用 food@yourdomain{ $mozmail } 登記。
 # Deprecated
 multi-part-onboarding-premium-get-domain-description-2 = 您可以透過自訂網域，不用先產生就馬上能使用別名。突然需要一個信箱來訂閱電子報嗎？直接輸入「read@customdomain{ $mozmail }」就好
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 = 透過自訂子網域，不用先產生就能隨時建立轉寄信箱。突然需要一組信箱來訂閱電子報嗎？直接輸入「read@customsubdomain{ $mozmail }」就好
 # Deprecated
 multi-part-onboarding-premium-domain-cta = 現在就註冊您的自訂網域：
 multi-part-onboarding-premium-domain-cta-2 = 現在就註冊您的專屬子網域：
@@ -823,6 +840,7 @@ multi-part-onboarding-premium-extension-reply-title = 不用給出實際信箱�
 multi-part-onboarding-premium-extension-get-title = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox }的 { -brand-name-relay } 擴充套件，讓使用別名信箱變得更簡單。
+multi-part-onboarding-premium-extension-get-description-2 = { -brand-name-firefox }的 { -brand-name-relay } 擴充套件，讓使用轉寄信箱變得更簡單。
 multi-part-onboarding-premium-extension-button-download = 下載 { -brand-name-relay } 擴充套件
 multi-part-onboarding-premium-chrome-extension-get-title = 下載 { -brand-name-relay } 的 { -brand-name-google-chrome } 擴充功能。
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓使用別名信箱變得更簡單。
@@ -836,17 +854,25 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
 modal-rename-alias-saved = 已儲存標籤！
 # Deprecated
 modal-delete-headline = 確定要永久刪除這個別名嗎？
+modal-delete-headline-2 = 確定要永久刪除這組轉寄信箱嗎？
 # Deprecated
 modal-delete-warning-recovery-html = 刪除別名後就無法再復原。{ -brand-name-firefox-relay } 將不再把寄送到 <strong>{ $email }</strong> 的郵件（包含密碼重設信）轉寄給您。
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html = 刪除此轉寄信箱後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
 # Deprecated
 modal-delete-warning-upgrade = 若您使用此別名來註冊帳號登入重要的網站，請務必在刪除此別名前，先到該網站把電子郵件地址更改成其他地址。
+modal-delete-warning-upgrade-2 = 若您使用此轉寄信箱來註冊帳號登入重要網站，請務必在刪除此信箱前，先到該網站更改成其他電子郵件地址。
 # Deprecated
 modal-delete-domain-address-warning-upgrade = 若您打算使用此別名註冊重要網站的帳號，應該在刪除此別名前，先將帳號更改為其他的墊子郵件信箱。若在刪除別名後重新建立原本的別名，還是會轉寄寄送到該原始別名的信件。
+modal-delete-domain-address-warning-upgrade-2 = 若您打算使用此轉寄信箱註冊重要網站的帳號，應該在刪除此信箱前，先將帳號更改為其他的信箱。若在刪除信箱後已原本名稱重新建立信箱，則還是會轉寄寄送到該原始信箱的郵件。
 # Deprecated
 modal-delete-confirmation = 是的，我要刪除這個別名。
+modal-delete-confirmation-2 = 是的，我確定要刪除這組轉寄信箱。
 modal-domain-register-good-news = 好消息！
 # Deprecated
 modal-domain-register-warning-reminder = 您只可註冊一個網域，之後不能再更改。
+modal-domain-register-warning-reminder-2 = 您只可註冊一個子網域，之後不能再更改。
 # Deprecated
 modal-domain-register-button = 註冊網域
 modal-domain-register-button-2 = 註冊子網域
@@ -876,6 +902,7 @@ modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的
 modal-domain-register-success-3 = 現在起將使用 <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 做為您的信箱子網域！
 # Deprecated
 modal-domain-register-success-copy = 現在可以使用新網域名稱建立無限別名了，還在等什麼，快來註冊！
+modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的自訂轉寄信箱！
 
 ## The "Help & Tips" area at the bottom of the page
 
@@ -929,12 +956,18 @@ vpn-promo-cta = 下載 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_email } 帳號轉寄過來。
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
 # Deprecated
 forwarded-email-header-premium-banner = 升級到 { $premium_link } 即可獲得無限量的別名帳號與自訂郵件網域。
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = 升級到 { $premium_link } 即可獲得無限量的轉寄信箱與自訂郵件子網域功能。
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）。若需詳細資訊，請參考我們的 { $faq_link }。
 # Deprecated
 forwarded-email-footer = 點擊此處停止轉寄郵件或管理別名設定。
+# This entire text is a link
+forwarded-email-footer-2 = 點擊此處即可停止轉寄郵件或管理轉寄信箱設定。
 # This entire text is a link
 forwarded-email-footer-premium-banner = 升級到 { -brand-name-relay-premium }
