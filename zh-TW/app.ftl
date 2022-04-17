@@ -270,6 +270,7 @@ premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要�
 premium-promo-use-cases-social-networks-heading = 社群網路
 # Deprecated
 premium-promo-use-cases-social-networks-body = 想要在使用社群網路時更加保護您的線上身分嗎？改用 { -brand-name-relay } 別名信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
+premium-promo-use-cases-social-networks-body-2 = 想要在使用社群網路時更加保護您的線上身分嗎？可使用不同的轉寄信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
 premium-promo-use-cases-gaming-heading = 玩遊戲
 # Deprecated
 premium-promo-use-cases-gaming-body = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的別名，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
@@ -312,20 +313,27 @@ faq-headline = 常見問題
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = { -brand-name-relay } 別名是什麼？
+faq-question-what-is-question-2 = { -brand-name-relay } 轉寄信箱是什麼？
 # Deprecated
 faq-question-what-is-answer = 別名信箱就是會將收到的郵件轉寄到您的實際信箱的隱藏信箱。您可以將這些別名分享給第三方業者，使他們無法知道您的實際信箱，但還是能夠收到通知郵件。
+faq-question-what-is-answer-2 = 轉寄信箱就是會將收到的郵件轉寄到您的實際信箱的虛擬信箱。您可以將這些別名分享給第三方業者，使他們無法知道您的實際信箱，但還是能夠收到通知郵件。
 # Deprecated
 faq-question-missing-emails-question = 我沒有收到來自別名信箱轉寄的郵件
+faq-question-missing-emails-question-2 = 我沒有收到從轉寄信箱轉來的郵件
 # Deprecated
 faq-question-missing-emails-answer-a = 下列原因可能會造成信件無法轉發給您：
+faq-question-missing-emails-answer-a-2 = 下列原因可能會造成信件無法轉寄給您：
 faq-question-missing-emails-answer-reason-spam = 訊息掉進垃圾信件匣
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = 您的電子郵件業者封鎖您的別名
+faq-question-missing-emails-answer-reason-blocked-2 = 您的電子郵件業者封鎖您的轉寄信箱
 faq-question-missing-emails-answer-reason-size = 轉寄的郵件附件超過 { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = 網站不接受使用別名信箱
+faq-question-missing-emails-answer-reason-not-accepted-2 = 網站不接受使用轉寄信箱
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = 別名帳號的轉發功能可能被關閉了
+faq-question-missing-emails-answer-reason-turned-off-2 = 轉寄信箱的轉寄功能可能被關閉了
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 可能需花比較久的時間轉寄這封信
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -335,12 +343,16 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
 # Deprecated
 faq-question-use-cases-question = 什麼時候該用 { -brand-name-relay } 轉寄郵件？
+faq-question-use-cases-question-2 = 什麼時候該用 { -brand-name-relay } 的虛擬信箱來轉寄郵件？
 # Deprecated
 faq-question-use-cases-answer-part1 = 您可以在大部分要以實際信箱的地方使用 { -brand-name-relay } 別名信箱。我們建議您在訂閱電子報，或接收不重要的通知郵件時使用，這樣未來就可以自己決定要不要再收到此類郵件。
+faq-question-use-cases-answer-part1-2 = 您可以在大部分要以實際信箱的地方使用 { -brand-name-relay } 轉寄信箱。我們建議您在訂閱電子報，或接收不重要的通知郵件時使用，這樣未來就可以自己決定要不要再收到此類郵件。
 # Deprecated
 faq-question-use-cases-answer-part2 = 我們不建議您使用別名信箱來註冊需要用來驗證身分、重要郵件，或是會收到附件的服務。舉例來說，您可能要向銀行、醫院、律師，或是在收門票、機票等服務使用實際信箱。
+faq-question-use-cases-answer-part2-2 = 我們不建議您使用轉寄信箱來註冊需要用來驗證身分、重要郵件，或是會收到附件的服務。舉例來說，您可能要向銀行、醫院、律師，或是在收門票、機票等服務使用實際信箱。
 # Deprecated
 faq-question-2-question = 為什麼網站不接受我的 { -brand-name-relay } 別名信箱？
+faq-question-2-question-2 = 為什麼網站不接受我的 { -brand-name-relay } 轉寄信箱？
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -350,13 +362,19 @@ faq-question-2-answer-v4 = 某些網站可能不接受使用子網域（@subdoma
 faq-question-1-question = 那垃圾信呢？
 # Deprecated
 faq-question-1-answer-a = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該別名繼續轉寄。
+faq-question-1-answer-a-2 = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該虛擬信箱繼續轉寄。
 # Deprecated
 faq-question-1-answer-b-html = 若您發現更嚴重的問題，例如您的所有別名都開始轉發不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = 若您發現更嚴重的問題，例如您所有的轉寄信箱都開始轉寄不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
 faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-availability-answer-v2 = 大部分國家均可使用 { -brand-name-relay } 免費版，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、芬蘭、法國、比利時、奧地利、西班牙、義大利、瑞典、瑞士、荷蘭、愛爾蘭等地推出。
 # Deprecated
 faq-question-4-question = 我可以用我的 { -brand-name-relay } 別名回信嗎？
+faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 轉寄信箱回信嗎？
 # Deprecated
 faq-question-4-answer-v3 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
@@ -367,17 +385,21 @@ faq-question-subdomain-characters-answer-v2 = 您僅可使用小寫英文字母�
 faq-question-browser-support-question = 我可以在其他瀏覽器或行動裝置使用 { -brand-name-relay } 嗎？
 # Deprecated
 faq-question-browser-support-answer = 可以，您只要登入 { -brand-name-relay } 儀錶板，即可在其他瀏覽器或行動裝置上產生 { -brand-name-relay } 別名。
+faq-question-browser-support-answer-2 = 可以，您只要登入 { -brand-name-relay } 儀錶板，即可在其他瀏覽器或行動裝置上產生 { -brand-name-relay } 轉寄信箱。
 faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
 # Deprecated
 faq-question-longevity-answer = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 別名信箱的服務更改登記的信箱。
+faq-question-longevity-answer-2 = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 轉寄信箱的服務更改登記的信箱。
 # Deprecated
 faq-question-mozmail-question = 為什麼我產生的別名信箱開始使用「mozmail.com」網域？
+faq-question-mozmail-question-2 = 為什麼我產生的轉寄信箱開始使用「mozmail.com」網域？
 # Deprecated
 faq-question-mozmail-answer = 為了讓您可以自訂郵件網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 alias@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您產生的郵件別名更容易被記得。
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
 faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
 # Deprecated
 faq-question-unsubscribe-domain-question = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂網域會發生什麼事？
+faq-question-unsubscribe-domain-question-2 = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂子網域會發生什麼事？
 # Deprecated
 faq-question-unsubscribe-domain-answer = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂網域轉寄的郵件，但無法再使用該網域來建立新別名信箱。若您已有超過五組別名信箱，將無法再建立新的別名信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
