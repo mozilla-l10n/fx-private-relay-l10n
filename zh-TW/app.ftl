@@ -149,6 +149,7 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 
 # Deprecated
 landing-hero-headline = 保護您實際的電子郵件地址，並且自行控管收件匣
+landing-hero-headline-2 = 保護您實際的電子郵件地址，並且自行控管收件匣
 # Deprecated
 landing-hero-body = { -brand-name-firefox-relay } 別名信箱會自動轉寄郵件到您的實際信箱，並保護您實際的電子郵件信箱，使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可已開始使用。
 
@@ -177,6 +178,7 @@ landing-pricing-headline = 限時促銷：每月 { $monthly_price } 即可使用
 landing-pricing-headline-2 = 限時促銷：每月 { $monthly_price } 即可使用無限量轉寄信箱
 # Deprecated
 landing-pricing-body = 試用 { -brand-name-firefox-relay } 別名開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
+landing-pricing-body-2 = 試用 { -brand-name-firefox-relay } 來轉寄郵件並開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
 landing-pricing-free-price = 免費版
 # Deprecated
 landing-pricing-free-feature-1 = 最多 5 組電子郵件別名
