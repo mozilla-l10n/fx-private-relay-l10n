@@ -133,9 +133,11 @@ how-it-works-step-1-copy =
     使用 { -brand-name-firefox-account }登入，開始使用。
 # Deprecated
 how-it-works-step-2-headline = 建立新別名
+how-it-works-step-2-headline-2 = 建立新轉寄信箱
 how-it-works-step-2-copy = 當您上網時，{ -brand-name-relay } 圖示會出現在網站請您填寫電子郵件地址的欄位。選擇該圖示即可產生一組以 @relay.firefox.com 結尾的全新隨機信箱。{ -brand-name-relay } 將轉寄郵件到您帳號所綁定的主要電子郵件地址。
 # Deprecated
 how-it-works-step-3-headline = 管理您的別名
+how-it-works-step-3-headline-2 = 管理您的轉寄信箱
 hero-image-copy-trust = 拿自己的私人信箱來註冊網站帳號，安心嗎？
 hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
 hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪些郵件可以直達您的收件匣！
@@ -158,20 +160,27 @@ landing-how-it-works-body = 不直接提供您實際的電子郵件地址，而�
 landing-how-it-works-step-1-body-cta = 下載 { -brand-name-firefox } 的 { -brand-name-relay } 擴充套件。
 # Deprecated
 landing-how-it-works-step-1-body = 在任何一張表單填寫電子郵件地址時，自動產生別名信箱。
+landing-how-it-works-step-1-body-2 = 在任何一張表單填寫電子郵件地址時，自動產生轉寄信箱。
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body = 隨您上網，{ -brand-name-relay } 圖示將顯示在要求您填寫信箱的網頁表單旁。點擊該圖示即可產生全新、以 @relay.mozmail.com 結尾的隨機地址。
+landing-how-it-works-step-2-body-2 = 隨您上網，{ -brand-name-relay } 圖示將顯示在要求您填寫信箱的網頁表單旁。點擊該圖示即可產生全新、以 @mozmail.com 結尾的隨機地址。
 # Deprecated
 landing-how-it-works-step-3-body = 登入 { -brand-name-relay } 即可追蹤您建立過的別名信箱，而 { -brand-name-relay } 會將訊息轉發到您實際的郵件信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
+landing-how-it-works-step-3-body-2 = 登入 { -brand-name-relay } 即可追蹤您建立過的轉寄信箱。若您發現某組別名信箱開始收到垃圾信或不想收到的信件，就可以在儀錶板上直接封鎖或刪除該信箱。
 
 ## Pricing section
 
 # Deprecated
 landing-pricing-headline = 限時促銷：每月 { $monthly_price } 即可使用無限量別名
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = 限時促銷：每月 { $monthly_price } 即可使用無限量轉寄信箱
 # Deprecated
 landing-pricing-body = 試用 { -brand-name-firefox-relay } 別名開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
 landing-pricing-free-price = 免費版
 # Deprecated
 landing-pricing-free-feature-1 = 最多 5 組電子郵件別名
+landing-pricing-free-feature-1-2 = 最多 5 組轉寄信箱
 landing-pricing-free-feature-2 = 瀏覽器擴充套件
 landing-pricing-free-cta = 下載 { -brand-name-relay }
 # Variables:
@@ -180,6 +189,7 @@ landing-pricing-premium-price = 每月 { $monthly_price }
 landing-pricing-premium-price-highlight = 限時價格
 # Deprecated
 landing-pricing-premium-feature-1 = 無限量的郵件別名
+landing-pricing-premium-feature-1-2 = 無限量轉寄信箱
 landing-pricing-premium-feature-2 = 瀏覽器擴充套件
 # Deprecated
 landing-pricing-premium-feature-3 = 使用您自己的電子郵件網域
