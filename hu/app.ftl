@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = A { -brand-name-firefox-relay } megkönnyíti az e-mail álnevek létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteket. Használja online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
 meta-description-2 = A { -brand-name-firefox-relay } megkönnyíti az e-mail-maszkok létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteit. Használja őket az online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Új lapon nyílik meg)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Promóciós e-mailek blokkolása
 # length as the English version.
 whatsnew-feature-forward-some-snippet = A { -brand-name-relay-premium } lehetővé teszi, hogy csak a promóciós e-maileket blokkolja…
 whatsnew-feature-forward-some-description = A { -brand-name-relay-premium } lehetővé teszi, hogy csak az álnévre küldött promóciós leveket tiltsa. Meg fogja kapni például nyugtákat, de marketing e-maileket nem.
+whatsnew-feature-alias-to-mask-heading = Az álnevek most már maszkok
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Változást vesz észre? Az álneveket most már „maszkoknak” nevezzük, hogy a { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Változást vesz észre? Az álneveket most már „maszkoknak” nevezzük, hogy a { -brand-name-firefox-relay } könnyebben használható legyen, és megnyíljon az ajtó az új funkciók előtt.
 
 ## Bento Menu
 
