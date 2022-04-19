@@ -154,6 +154,10 @@ whatsnew-feature-forward-some-heading = Blokovanie marketingových e-mailov
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily odoslané na alias. Budete naďalej dostávať e-maily, ako sú potvrdenia o prečítaní, ale nie marketingové e-maily.
 whatsnew-feature-alias-to-mask-heading = Aliasy sú teraz masky
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie…
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
 
 ## Bento Menu
