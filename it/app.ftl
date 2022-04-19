@@ -39,6 +39,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
 meta-description-2 = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (si apre in una nuova scheda)
 
 ## Header 
 
