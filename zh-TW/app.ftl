@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } 讓您可輕鬆建立別名信箱，使用該地址收信後再轉寄回您實際的信箱。可使用別名信箱來保護帳號，不受駭客與垃圾信件的騷擾。
 meta-description-2 = { -brand-name-firefox-relay } 讓您可輕鬆建立轉寄信箱，使用該地址收信後再轉寄回您實際的信箱。可使用轉寄信箱來保護帳號，不受駭客與垃圾信件的騷擾。
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = （用新分頁開啟）
 
 ## Header 
 
