@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } facilita la creación de alias de correo electrónico que se reenvían a tu bandeja de entrada real. Úsalo para proteger tus cuentas en línea de piratas informáticos y mensajes no deseados.
 meta-description-2 = { -brand-name-firefox-relay } facilita la creación de correos electrónicos enmascarados que reenvían tus mensajes a tu verdadera bandeja de entrada. Úsalos para proteger tus cuentas en línea de piratas informáticos y mensajes no deseados.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Abrir en una nueva pestaña)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Bloqueo de correos electrónicos promoci
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permite bloquear solo correos electrónicos promocionales…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permite bloquear solo los correos electrónicos promocionales enviados a un alias. Recibirás correos electrónicos como recibos, pero no correos electrónicos de marketing.
+whatsnew-feature-alias-to-mask-heading = Los alias ahora son máscaras
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para hacer { -brand-name-firefox-relay }...
+whatsnew-feature-alias-to-mask-description = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para que { -brand-name-firefox-relay } sea más fácil de usar y abra la puerta a nuevas funciones.
 
 ## Bento Menu
 
