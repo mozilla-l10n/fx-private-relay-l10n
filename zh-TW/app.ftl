@@ -110,6 +110,12 @@ whatsnew-feature-forward-some-heading = 封鎖行銷郵件
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但還是會轉寄別名信箱收到的收據、發票等重要郵件。
+whatsnew-feature-alias-to-mask-heading = 現在起，「別名信箱」更名為「轉寄信箱」了
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }，並且讓新功能更容易上手。
 
 ## Bento Menu
 
