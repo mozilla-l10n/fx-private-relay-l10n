@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = O { -brand-name-firefox-relay } facilita criar endereços de redirecionamento de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
 meta-description-2 = O { -brand-name-firefox-relay } facilita criar máscaras de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (abre em uma nova aba)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Bloqueio de email promocional
 # length as the English version.
 whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais…
 whatsnew-feature-forward-some-description = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais enviados a um endereço de redirecionamento. Você receberá emails como recibos, mas não emails de propaganda.
+whatsnew-feature-alias-to-mask-heading = Endereços de redirecionamento agora são máscaras
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay } mais fácil de usar e abrir as portas para novos recursos.
 
 ## Bento Menu
 
