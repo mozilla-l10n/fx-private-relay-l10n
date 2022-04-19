@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = Mit { -brand-name-firefox-relay } kannst du Aliasse für deine E-Mail-Adresse erstellen, die Nachrichten an deinen eigentlichen Posteingang weiterleiten. So kannst du deine Online-Konten vor Hackern und unerwünschten Nachrichten schützen.
 meta-description-2 = { -brand-name-firefox-relay } macht es einfach, E-Mail-Masken zu erstellen, die Ihre Nachrichten an Ihren echten Posteingang weiterleiten. Verwenden Sie sie, um Ihre Online-Konten vor Hackern und unerwünschten Nachrichten zu schützen.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Wird in einem neuen Tab geöffnet)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Blockieren von Werbe-E-Mails
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ermöglicht es dir, nur Werbe-E-Mails zu blockieren…
 whatsnew-feature-forward-some-description = Mit { -brand-name-relay-premium } kannst du nur Werbe-E-Mails blockieren, die an ein Alias gesendet werden. Du erhältst E-Mails wie Quittungen, aber keine Marketing-E-Mails.
+whatsnew-feature-alias-to-mask-heading = Alias-E-Mail-Adressen heißen jetzt „Masken“
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Haben Sie’s gemerkt? Alias-Adressen heißen jetzt „Masken“, damit { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Haben Sie’s gemerkt? Alias-Adressen heißen jetzt „Masken“, damit { -brand-name-firefox-relay } noch benutzerfreundlicher wird und neue Funktionen einfacher hinzugefügt werden können.
 
 ## Bento Menu
 
