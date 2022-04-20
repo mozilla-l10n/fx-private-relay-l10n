@@ -492,8 +492,12 @@ faq-question-acceptable-use-question = What are the acceptable uses of { -brand-
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } has the same <a href="{ $url }" { $attrs }>conditions of use as all { -brand-name-mozilla } products</a>. We have a zero-tolerance policy when it comes to using { -brand-name-relay } for malicious purposes like spam, resulting in the termination of a user’s account. We take measures to prevent users from violating our conditions by:
 faq-question-acceptable-use-answer-measure-account = Requiring a { -brand-name-firefox-account(capitalization: "uppercase") } with a verified email address
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Requiring payment for a user to create more than five aliases
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Requiring payment for a user to create more than five masks
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Rate-limiting the number of aliases that can be generated in one day
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Rate-limiting the number of masks that can be generated in one day
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
@@ -639,9 +643,13 @@ profile-promo-email-blocking-option-all = All
 profile-promo-email-blocking-option-promotionals = Promotionals
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = None
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } is blocking all emails sent to this alias.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } is blocking all emails sent to this mask.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails while still forwarding emails like receipts and shipping information.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } is not blocking any emails for this alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } is not blocking any emails for this mask.
 profile-promo-email-blocking-label-promotionals = Block promotions
 profile-promo-email-blocking-label-none = Block all
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
