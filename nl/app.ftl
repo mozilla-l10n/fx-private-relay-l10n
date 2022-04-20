@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } maakt het gemakkelijk om e-mailaliassen te maken, die naar uw echte inbox worden doorgestuurd. Gebruik het om uw online accounts te beschermen tegen hackers en ongewenste berichten.
 meta-description-2 = { -brand-name-firefox-relay } maakt het gemakkelijk om e-mailmaskers te maken, die uw berichten naar uw echte Postvak IN duursturen. Gebruik ze om uw online accounts te beschermen tegen hackers en ongewenste berichten.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Opent in een nieuw tabblad)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Blokkeren van reclameberichten
 # length as the English version.
 whatsnew-feature-forward-some-snippet = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren…
 whatsnew-feature-forward-some-description = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren die naar een alias zijn verzonden. U ontvangt e-mailberichten zoals bonnen, maar geen marketingberichten.
+whatsnew-feature-alias-to-mask-heading = Aliassen zijn nu maskers
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Hebt u een verandering gezien? We noemen aliassen nu ‘maskers’ om { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Hebt u een verandering gezien? We noemen aliassen nu ‘maskers’ om { -brand-name-firefox-relay } gebruiksvriendelijker te maken en nieuwe functies mogelijk te maken.
 
 ## Bento Menu
 
