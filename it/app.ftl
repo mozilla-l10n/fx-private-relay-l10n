@@ -111,6 +111,12 @@ whatsnew-feature-forward-some-heading = Blocco delle email pubblicitarie
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie inviate a un alias. Riceverai email importanti, come ad esempio fatture, ma non email di marketing.
+whatsnew-feature-alias-to-mask-heading = Da “alias” a “mask”
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Nella versione inglese ora gli “alias” vengono chiamati “masks” per rendere { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Nella versione inglese ora gli “alias” vengono chiamati “masks” per rendere { -brand-name-firefox-relay } più intuitivo e aprire la strada a nuove funzioni.
 
 ## Bento Menu
 
