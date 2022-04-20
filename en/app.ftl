@@ -116,11 +116,17 @@ whatsnew-feature-forward-some-heading = Promotional email blocking
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } allows you to block only promotional emails sent to an alias. You’ll receive emails like receipts but not marketing emails.
 
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases are now masks
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
 
 ## Bento Menu
