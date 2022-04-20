@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } rende facile crear aliases de e-mail que reexpedi le messages a tu cassa de entrata real. Usa lo pro proteger tu contos in linea contra piratas informatic e messages indesirate.
 meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas email que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Aperi in un nove scheda)
 
 ## Header 
 
@@ -109,6 +111,12 @@ whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permitte de blocar solo le e-mails promotional…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solo e-mails promotional inviate a un alias. Tu recipera e-mails como quitantias ma non e-mails de marketing.
+whatsnew-feature-alias-to-mask-heading = Aliases ora es mascas
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-alias-to-mask-snippet = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay }…
+whatsnew-feature-alias-to-mask-description = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay } plus facile a usar e aperir le strata a nove functionalitates.
 
 ## Bento Menu
 
