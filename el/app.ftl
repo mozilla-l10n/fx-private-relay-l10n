@@ -60,6 +60,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = Το { -brand-name-firefox-relay } διευκολύνει τη δημιουργία ψευδωνύμων email, τα οποία κάνουν προώθηση στα πραγματικά σας εισερχόμενα. Προστατέψτε τους λογαριασμούς σας από hackers και ανεπιθύμητα μηνύματα.
 meta-description-2 = Το { -brand-name-firefox-relay } διευκολύνει τη δημιουργία μασκών email, τα οποία κάνουν προώθηση των μηνυμάτων σας στα πραγματικά σας εισερχόμενα. Χρησιμοποιήστε τις για να προστατέψτε τους λογαριασμούς σας από hackers και ανεπιθύμητα μηνύματα.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Ανοίγει σε νέα καρτέλα)
 
 ## Header 
 
