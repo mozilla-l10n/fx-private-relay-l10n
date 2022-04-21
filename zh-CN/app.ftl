@@ -433,7 +433,7 @@ faq-question-mozmail-question = 为何我的马甲邮箱域名变成“mozmail.c
 faq-question-mozmail-question-2 = 为何我的马甲域名变成“mozmail.com”了？
 # Deprecated
 faq-question-mozmail-answer = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱域名这一功能，如 alias@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可用的自定义邮箱域名比随机马甲名称好记很多。
-faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱域名这一功能，如 mask@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可用的自定义邮箱域名比随机马甲名称好记很多。
+faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱子域名这一特性，如 mask@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可使用自定义子域名生成更好记的马甲。
 faq-question-attachments-question = { -brand-name-firefox-relay } 可以转发含附件的电子邮件吗？
 faq-question-attachments-answer-v2 = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 # Deprecated
@@ -441,9 +441,14 @@ faq-question-unsubscribe-domain-question = 若取消订阅 { -brand-name-relay-p
 faq-question-unsubscribe-domain-question-2 = 若取消订阅 { -brand-name-relay-premium }，我的自定义子域会怎样？
 # Deprecated
 faq-question-unsubscribe-domain-answer = 若不再续订 { -brand-name-relay-premium }，您仍能收到之前自定义域名转发的电子邮件，但无法再使用该域名新建马甲。若已有五个以上马甲，则无法创建更多马甲。您也将无法回复转发的消息。再次订阅 { -brand-name-relay-premium } 才可重获这些功能的使用权。
+faq-question-unsubscribe-domain-answer-2 = 若不再续订 { -brand-name-relay-premium }，您仍能收到之前自定义马甲邮箱转发的电子邮件，但无法再使用该子域名新建马甲。若已有五个以上马甲，则无法创建更多马甲。您也将无法回复转发的消息。重新订阅 { -brand-name-relay-premium } 才可重获这些功能的使用权。
 faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Deprecated
-faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择向我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+faq-question-8-answer-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
@@ -593,9 +598,11 @@ profile-promo-email-blocking-option-promotionals = 营销邮件
 profile-promo-email-blocking-option-none = 无
 # Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } 将屏蔽所有发送至此马甲邮箱的邮件。
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 将屏蔽所有发送至此马甲邮箱的邮件。
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 将尝试屏蔽营销邮件，但仍会转发消费收据、物流信息等重要邮件。
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } 不会屏蔽任何发送至此马甲邮箱的邮件。
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不会屏蔽任何发送至此马甲邮箱的邮件。
 profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
 profile-promo-email-blocking-label-none = 屏蔽全部
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
