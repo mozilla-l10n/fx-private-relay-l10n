@@ -112,11 +112,17 @@ whatsnew-feature-forward-some-heading = Блокування промоційн�
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи, надіслані на псевдоадреси. Ви отримуватимете електронні листи, як-от квитанції, але не маркетингові листи.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Псевдоадреси відтепер називаються масками
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Помітили зміну? Тепер ми називаємо псевдоадреси «масками», щоб створити { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Помітили зміну? Тепер ми називаємо псевдоадреси «масками», щоб спростити користування { -brand-name-firefox-relay } та відкрити двері для нових функцій.
 
 ## Bento Menu
@@ -487,8 +493,12 @@ faq-question-acceptable-use-question = Що вважається прийнят�
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } має ті самі <a href="{ $url }" { $attrs }>умови надання послуг, що й усі продукти { -brand-name-mozilla }</a>. Ми маємо політику нетерпимості до користування { -brand-name-relay } у зловмисних цілях, як-от спам, що призводить до припинення дії облікового запису користувача. Ми вживаємо заходів, щоб запобігти порушенням користувачів наших умов такими способами:
 faq-question-acceptable-use-answer-measure-account = Вимагаємо { -brand-name-firefox-account(capitalization: "uppercase") } з підтвердженою адресою електронної пошти
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Вимагаємо оплати від користувачів за створення понад п'ять псевдоадрес
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Вимагається оплата від користувачів за створення понад п'ять масок
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Обмеження кількості псевдоадрес, які можна створити за один день
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Обмеження кількості масок, які можна створити за один день
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Для отримання додаткових відомостей перегляньте наші <a href="{ $url }" { $attrs }>Умови надання послуг</a>.
@@ -630,9 +640,13 @@ profile-promo-email-blocking-option-all = Усі
 profile-promo-email-blocking-option-promotionals = Промоційні
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Не блокувати
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } блокує всі електронні листи, надіслані на цю псевдоадресу.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокує всі електронні листи, надіслані на цю маску.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } намагатиметься заблокувати рекламні листи, водночас пересилаючи електронні листи, як-от квитанції та інформацію про доставлення.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } не блокує електронні листи для цієї псевдоадреси.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не блокує електронні листи для цієї маски.
 profile-promo-email-blocking-label-promotionals = Блокувати промоції
 profile-promo-email-blocking-label-none = Блокувати всі
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
