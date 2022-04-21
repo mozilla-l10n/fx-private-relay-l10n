@@ -136,6 +136,18 @@ whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών em
 # length as the English version.
 whatsnew-feature-forward-some-snippet = Το { -brand-name-relay-premium } επιτρέπει τη φραγή διαφημιστικών email…
 whatsnew-feature-forward-some-description = Το { -brand-name-relay-premium } σάς επιτρέπει να αποκλείετε τα διαφημιστικά email που αποστέλλονται σε ένα ψευδώνυμο. Θα λαμβάνετε email, όπως αποδείξεις, αλλά όχι διαφημιστικά email.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Τα ψευδώνυμα ονομάζονται πλέον «μάσκες»
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay } πιο εύχρηστο και ανοικτό σε νέες λειτουργίες.
 
 ## Bento Menu
 
@@ -505,7 +517,9 @@ faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτ
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = Το { -brand-name-firefox-relay } έχει τις ίδιες <a href="{ $url }" { $attrs }>προϋποθέσεις χρήσης με όλα τα προϊόντα { -brand-name-mozilla }</a>. Έχουμε μια πολιτική μηδενικής ανοχής όσον αφορά τη χρήση του { -brand-name-relay } για κακόβουλους σκοπούς, όπως ανεπιθύμητα μηνύματα, που οδηγούν σε τερματισμό ενός λογαριασμού χρήστη. Λαμβάνουμε μέτρα για την αποτροπή της παραβίασης των όρων μας:
 faq-question-acceptable-use-answer-measure-account = Απαιτώντας έναν { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } με επαληθευμένη διεύθυνση email
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε ψευδωνύμων
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Περιορίζοντας τον αριθμό των ψευδωνύμων που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -648,8 +662,10 @@ profile-promo-email-blocking-option-all = Όλα
 profile-promo-email-blocking-option-promotionals = Διαφημιστικά
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Κανένα
+# Deprecated
 profile-promo-email-blocking-description-all = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτό το ψευδώνυμο.
 profile-promo-email-blocking-description-promotionals = Το { -brand-name-relay } θα επιχειρήσει να αποκλείσει τα διαφημιστικά email, προωθώντας όμως άλλα email, όπως αποδείξεις και στοιχεία αποστολής.
+# Deprecated
 profile-promo-email-blocking-description-none = Το { -brand-name-relay } δεν αποκλείει κανένα email για αυτό το ψευδώνυμο.
 profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
 profile-promo-email-blocking-label-none = Φραγή όλων
