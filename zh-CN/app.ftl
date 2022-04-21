@@ -458,8 +458,10 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 和所
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account }使用验证过的电子邮件地址
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = 要求用户付费才可创建五个以上马甲
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = 要求用户付费才可创建五个以上马甲
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = 限制一天内可生成的马甲数量
+faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天内可生成的马甲数量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
@@ -521,6 +523,7 @@ profile-label-subdomain = 子域名邮箱：
 profile-label-subdomain-tooltip-trigger = 更多信息
 # Deprecated
 profile-label-domain-tooltip = 创建您专属的自定义域名邮箱。
+profile-label-subdomain-tooltip = 创建您专属的子域名邮箱。
 profile-label-reset = 重置
 profile-label-apply = 应用
 profile-label-skip = 跳过
@@ -568,6 +571,10 @@ profile-stat-label-aliases-used-2 = 已用的马甲邮箱
 # Deprecated
 profile-filter-search-placeholder = 搜索马甲
 profile-filter-search-placeholder-2 = 搜索马甲
+profile-filter-category-button-label = 过滤可见的马甲邮箱
+profile-filter-category-button-tooltip = 按子域名和/或是否屏蔽收到的邮件过滤马甲邮箱
+profile-filter-category-title = 过滤可见的马甲邮箱
+profile-filter-no-results = 没有匹配您选择条件的马甲邮箱。<clear-button>清除所有过滤选项。</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = 转发中马甲
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
