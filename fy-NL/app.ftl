@@ -651,9 +651,11 @@ profile-promo-email-blocking-option-promotionals = Reklame
 profile-promo-email-blocking-option-none = Gjin
 # Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blokkearret alle e-mailberjochten dy’t nei dizze alias ferstjoerd wurde.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokkearret alle e-mailberjochten dy’t nei dit masker ferstjoerd wurde.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probearret reklameberjochten te blokkearjen, wylst e-mailberjochten lykas ûntfangstbewizen en ferstjoerynformaasje noch hieltyd trochstjoerd wurdt.
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } blokkearret gjin inkeld e-mailberjocht foar dizze alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blokkearret gjin inkeld e-mailberjocht foar dit masker.
 profile-promo-email-blocking-label-promotionals = Reklame blokkearje
 profile-promo-email-blocking-label-none = Alles blokkearje
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
