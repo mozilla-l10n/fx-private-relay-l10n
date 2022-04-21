@@ -35,6 +35,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias, alias som vidarebefordras till din riktiga inkorg. Använd den för att skydda dina onlinekonton från hackare och oönskade meddelanden.
 meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Öppnas i en ny flik)
 
 ## Header 
 
@@ -201,6 +203,7 @@ landing-pricing-premium-feature-1-2 = Obegränsade e-postalias
 landing-pricing-premium-feature-2 = Webbläsartillägg
 # Deprecated
 landing-pricing-premium-feature-3 = Din egen e-postdomän
+landing-pricing-premium-feature-3-2 = Din egna e-postunderdomän
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
 landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
@@ -208,6 +211,7 @@ landing-pricing-premium-feature-5 = Blockera reklammeddelanden
 
 ## Use Cases
 
+landing-use-cases-heading = Använd { -brand-name-firefox-relay } för:
 landing-use-cases-shopping = Shopping
 # Deprecated
 landing-use-cases-shopping-body =
@@ -258,6 +262,7 @@ premium-promo-perks-perk-unlimited-headline = Skapa ett obegränsat antal e-post
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Ingen gräns med fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
 premium-promo-perks-perk-custom-domain-headline = Välj din egen anpassade domän
+premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Med en anpassad domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
 # Deprecated
@@ -417,6 +422,8 @@ profile-promo-upgrade-headline = Uppgradera för ännu fler funktioner.
 # Deprecated
 profile-promo-upgrade-copy = Uppgradera { -brand-name-relay } för att få obegränsade e-postadresser och din egen e-postdomän.
 profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
+profile-details-expand = Visa detaljer för alias
+profile-details-collapse = Dölj detaljer för alias
 # Deprecated
 profile-label-edit = Redigera etiketten för detta alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
@@ -433,13 +440,19 @@ profile-label-delete = Ta bort
 # Deprecated
 profile-label-delete-alias = Ta bort detta alias
 # Deprecated
+profile-label-delete-alias-2 = Ta bort detta alias
+# Deprecated
 profile-label-upgrade = Få obegränsat med alias
 # Deprecated
 profile-label-create-domain = Skaffa din e-postdomän
+profile-label-create-subdomain = Skaffa din e-postunderdomän
 # Deprecated
 profile-label-domain = E-postdomän:
+profile-label-subdomain = E-postunderdomän:
+profile-label-subdomain-tooltip-trigger = Mer information
 # Deprecated
 profile-label-domain-tooltip = Skapa din unika och anpassade e-postdomän.
+profile-label-subdomain-tooltip = Skapa din unika underdomän för e-post.
 profile-label-reset = Återställ
 profile-label-apply = Tillämpa
 profile-label-skip = Hoppa över
@@ -551,6 +564,7 @@ banner-register-subdomain-copy =
 banner-choose-subdomain-input-placeholder = Sök efter domän
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Sök på din nya domän
+banner-choose-subdomain-input-placeholder-3 = Sök underdomän
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Sök
 # Deprecated
@@ -581,6 +595,9 @@ banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $s
 
 # Deprecated
 success-subdomain-registered = Din domän @{ $subdomain } har skapats
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Din underdomän @{ $subdomain } har skapats
 success-settings-update = Dina inställningar har uppdaterats
 
 ## Error Messages
@@ -598,6 +615,7 @@ error-subdomain-email-not-created = E-postadress med underdomän kunde inte skap
 error-subdomain-select = Du måste välja en underdomän innan du skapar ett underdomänalias
 # Deprecated
 error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan domän.
+error-settings-update = Det uppstod ett fel när dina inställningar skulle uppdateras, försök igen
 
 ## Tips and tricks at the bottom of the page
 
@@ -688,6 +706,10 @@ onboarding-premium-title-detail = Med { -brand-name-firefox-relay-premium } kan 
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Steg { $step } av { $max }.
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamnar i din inkorg, ett e-postmeddelande i taget.
 multi-part-onboarding-premium-welcome-title = Kontrollera vilka e-postmeddelanden du får:
@@ -700,6 +722,7 @@ multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
 multi-part-onboarding-premium-domain-title = Skaffa en egen domän för dina alias:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Skaffa en anpassad domän
+multi-part-onboarding-premium-get-subdomain = Skaffa en anpassad underdomän
 multi-part-onboarding-reply-headline = Svara på dina mejl
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda Relay-tillägget för att skapa dem när du behöver.
@@ -713,6 +736,7 @@ multi-part-onboarding-premium-get-domain-description-2 =
     Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
+multi-part-onboarding-premium-domain-cta-2 = Registrera din anpassade underdomän nu:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
@@ -754,20 +778,36 @@ modal-domain-register-good-news = Goda nyheter!
 modal-domain-register-warning-reminder = Kom ihåg att du bara kan registrera en domän. Du kommer inte att kunna ändra den senare.
 # Deprecated
 modal-domain-register-button = Registrera domän
+modal-domain-register-button-2 = Registrera underdomän
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } är tillgänglig!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ja, jag vill registrera <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Lyckades!
 # Deprecated
 modal-domain-register-success = { $subdomain } är nu din e-postdomän!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är nu din e-postunderdomän!
 # Deprecated
 modal-domain-register-success-copy = Nu kan du skapa obegränsat med e-postalias i din nya domän! Vad väntar du på?
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tips { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
