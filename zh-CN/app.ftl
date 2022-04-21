@@ -749,6 +749,7 @@ modal-custom-alias-picker-heading = 新建自定义马甲
 modal-custom-alias-picker-heading-2 = 新建自定义马甲
 # Deprecated
 modal-custom-alias-picker-warning = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
+modal-custom-alias-picker-warning-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customsubdomain.mozmail.com”，这个马甲即会自动生成。
 # Deprecated
 modal-custom-alias-picker-form-heading = 或手动创建自定义马甲
 modal-custom-alias-picker-form-heading-2 = 或手动创建自定义马甲
@@ -772,6 +773,7 @@ popover-custom-alias-explainer-heading = 如何创建自定义马甲
 popover-custom-alias-explainer-heading-2 = 如何创建自定义马甲
 # Deprecated
 popover-custom-alias-explainer-explanation = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
+popover-custom-alias-explainer-explanation-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customdomain.mozmail.com”，这个马甲即会自动生成。
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = 手动生成自定义马甲
 popover-custom-alias-explainer-generate-button-heading-2 = 手动生成自定义马甲
@@ -791,6 +793,7 @@ tips-custom-alias-heading = 使用自定义域名创建马甲
 tips-custom-alias-heading-2 = 使用自定义子域名创建马甲
 # Deprecated
 tips-custom-alias-content = 您只需要创建一个独特的马甲——别名会自动生成。比方说，下次在网购时，可以尝试使用 “shop@customdomain.mozmail.com” 之类的马甲。
+tips-custom-alias-content-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customdomain.mozmail.com”，这个马甲即会自动生成。
 
 ## Tip about using custom aliases
 
