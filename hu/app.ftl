@@ -111,11 +111,17 @@ whatsnew-feature-forward-some-heading = Promóciós e-mailek blokkolása
 # length as the English version.
 whatsnew-feature-forward-some-snippet = A { -brand-name-relay-premium } lehetővé teszi, hogy csak a promóciós e-maileket blokkolja…
 whatsnew-feature-forward-some-description = A { -brand-name-relay-premium } lehetővé teszi, hogy csak az álnévre küldött promóciós leveket tiltsa. Meg fogja kapni például nyugtákat, de marketing e-maileket nem.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Az álnevek most már maszkok
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Változást vesz észre? Az álneveket most már „maszkoknak” nevezzük, hogy a { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Változást vesz észre? Az álneveket most már „maszkoknak” nevezzük, hogy a { -brand-name-firefox-relay } könnyebben használható legyen, és megnyíljon az ajtó az új funkciók előtt.
 
 ## Bento Menu
@@ -486,8 +492,12 @@ faq-question-acceptable-use-question = Mik a { -brand-name-relay } elfogadható 
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = A { -brand-name-firefox-relay } <a href="{ $url }" { $attrs }>használati feltételei megegyeznek az összes { -brand-name-mozilla } termékével</a>. Zéró toleranciát gyakorlunk, ha a { -brand-name-relay } rosszindulatú használatáról van szó, például ha levélszemét küldésére használják, akkor az a felhasználó fiókjának megszüntetését eredményezi. Intézkedéseket teszünk annak érdekében, hogy a felhasználók ne sértsék meg a feltételeinket:
 faq-question-acceptable-use-answer-measure-account = Megköveteljük, hogy ellenőrzött e-mail-címmel használja a { -brand-name-firefox-account }ját
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Fizetés szükséges ahhoz, hogy a felhasználók ötnél több álnevet hozzanak létre
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Fizetés szükséges ahhoz, hogy a felhasználók ötnél több maszkot hozzanak létre
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Korlátozzuk az egy nap alatt létrehozható álnevek számát
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Korlátozzuk az egy nap alatt létrehozható maszkok számát
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = További információkért tekintse át <a href="{ $url }" { $attrs }>Általános Szerződési Feltételeinket</a>.
@@ -629,9 +639,13 @@ profile-promo-email-blocking-option-all = Az összeset
 profile-promo-email-blocking-option-promotionals = A promóciósakat
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Semelyiket
+# Deprecated
 profile-promo-email-blocking-description-all = A { -brand-name-relay } blokkol minden, az erre az álnévre küldött e-mailt.
+profile-promo-email-blocking-description-all-2 = A { -brand-name-relay } blokkol minden, az erre a maszkra küldött e-mailt.
 profile-promo-email-blocking-description-promotionals = A { -brand-name-relay } megpróbálja blokkolni a promóciós e-maileket, miközben továbbra is továbbítja az olyan e-maileket, amelyek nyugtákat és szállítási információkat tartalmaznak.
+# Deprecated
 profile-promo-email-blocking-description-none = A { -brand-name-relay } nem blokkol semmilyen e-mailt ennél az álnévnél.
+profile-promo-email-blocking-description-none-2 = A { -brand-name-relay } nem blokkol semmilyen e-mailt ennél a maszknál.
 profile-promo-email-blocking-label-promotionals = Promóciók blokkolása
 profile-promo-email-blocking-label-none = Az összes blokkolása
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
