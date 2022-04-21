@@ -935,13 +935,14 @@ modal-domain-register-success = { $subdomain } 现在是您的专属邮箱域名
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use 
 #   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success-2 = { $subdomain } 现在是属于您的邮箱子域名！
+modal-domain-register-success-2 = { $subdomain }  现在是您的专属邮箱子域名！
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 现在是属于您的邮箱子域名！
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>  现在是您的专属邮箱子域名！
 # Deprecated
 modal-domain-register-success-copy = 您现在可以使用新域名创建无限数量的马甲了，赶快试试吧！
+modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自定义马甲邮箱！
 
 ## The "Help & Tips" area at the bottom of the page
 
