@@ -111,11 +111,17 @@ whatsnew-feature-forward-some-heading = Blokkearjen fan reklameberjochten
 # length as the English version.
 whatsnew-feature-forward-some-snippet = Mei { -brand-name-relay-premium } kinne jo allinnich reklameberjochten blokkearje…
 whatsnew-feature-forward-some-description = Mei { -brand-name-relay-premium } kinne jo allinnich reklameberjochten blokkearje dy’t nei in alias ferstjoerd binne. Jo ûntfange e-mailberjochten lykas bonnen, mar gjin marketingberjochten.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliassen binne no maskers
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Hawwe jo in feroaring sjoen? Wy neame aliassen no ‘maskers’ om { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Hawwe jo in feroaring sjoen? Wy neame aliassen no ‘maskers’ om { -brand-name-firefox-relay } gebrûksfreonliker te meitsjen en nije funksjes mooglik te meitsjen.
 
 ## Bento Menu
@@ -496,8 +502,12 @@ faq-question-acceptable-use-question = Wat binne de akseptabele tapassingen fan 
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat deselde <a href="{ $url }" { $attrs }>brûksbetingsten as alle { -brand-name-mozilla }-produkten</a>. Wy hawwe in nultolerânsjebelied as it giet om it gebrûk fan { -brand-name-relay } foar kweadwaande doeleinen lykas spam, wat liedt ta de beëiniging fan in brûkersaccount. Wy nimme maatregelen om foar te kommen dat brûkers ús betingsten skeine troch:
 faq-question-acceptable-use-answer-measure-account = In { -brand-name-firefox-account } mei in ferifiearre e-mailadres te fereaskjen
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Betelling te freegjen as in brûker mear as fiif aliassen oanmeitsje wol
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Betelling te freegjen as in brûker mear as fiif maskers oanmeitsje wol
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = It oantal aliassen dat op ien dei oanmakke wurde kin te beheinen
+faq-question-acceptable-use-answer-measure-rate-limit-2 = It oantal maskers dat op ien dei oanmakke wurde kin te beheinen
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Besjoch ús <a href="{ $url }" { $attrs }>Tsjinstbetingsten</a> foar mear ynformaasje.
@@ -639,8 +649,10 @@ profile-promo-email-blocking-option-all = Alle
 profile-promo-email-blocking-option-promotionals = Reklame
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Gjin
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blokkearret alle e-mailberjochten dy’t nei dizze alias ferstjoerd wurde.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probearret reklameberjochten te blokkearjen, wylst e-mailberjochten lykas ûntfangstbewizen en ferstjoerynformaasje noch hieltyd trochstjoerd wurdt.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } blokkearret gjin inkeld e-mailberjocht foar dizze alias.
 profile-promo-email-blocking-label-promotionals = Reklame blokkearje
 profile-promo-email-blocking-label-none = Alles blokkearje
