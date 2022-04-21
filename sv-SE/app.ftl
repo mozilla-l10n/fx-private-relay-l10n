@@ -111,6 +111,18 @@ whatsnew-feature-forward-some-heading = Blockering av reklammeddelanden
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } låter dig blockera endast reklammeddelanden...
 whatsnew-feature-forward-some-description = Med { -brand-name-relay-premium } kan du endast blockera reklammeddelanden som skickas till ett alias. Du kommer att få e-postmeddelanden som kvitton men inte marknadsföringsmeddelanden.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Aliases are now masks
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
 
 ## Bento Menu
 
@@ -426,6 +438,7 @@ profile-details-expand = Visa detaljer för alias
 profile-details-collapse = Dölj detaljer för alias
 # Deprecated
 profile-label-edit = Redigera etiketten för detta alias
+profile-label-edit-2 = Redigera etiketten för detta alias
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Lägg till kontonamn
 profile-label-save-error = Det gick inte att spara, försök igen.
