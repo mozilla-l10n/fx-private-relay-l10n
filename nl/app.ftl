@@ -111,11 +111,17 @@ whatsnew-feature-forward-some-heading = Blokkeren van reclameberichten
 # length as the English version.
 whatsnew-feature-forward-some-snippet = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren…
 whatsnew-feature-forward-some-description = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren die naar een alias zijn verzonden. U ontvangt e-mailberichten zoals bonnen, maar geen marketingberichten.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliassen zijn nu maskers
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Hebt u een verandering gezien? We noemen aliassen nu ‘maskers’ om { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Hebt u een verandering gezien? We noemen aliassen nu ‘maskers’ om { -brand-name-firefox-relay } gebruiksvriendelijker te maken en nieuwe functies mogelijk te maken.
 
 ## Bento Menu
@@ -495,8 +501,12 @@ faq-question-acceptable-use-question = Wat zijn de acceptabele toepassingen van 
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } heeft dezelfde <a href="{ $url }" { $attrs }>gebruiksvoorwaarden als alle { -brand-name-mozilla }-producten</a>. We hebben een nultolerantiebeleid als het gaat om het gebruik van { -brand-name-relay } voor kwaadaardige doeleinden zoals spam, wat leidt tot de beëindiging van een gebruikersaccount. We nemen maatregelen om te voorkomen dat gebruikers onze voorwaarden schenden door:
 faq-question-acceptable-use-answer-measure-account = Een { -brand-name-firefox-account } met een geverifieerd e-mailadres te vereisen
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Betaling te vragen als een gebruiker meer dan vijf aliassen wil aanmaken
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Betaling te vragen als een gebruiker meer dan vijf maskers wil aanmaken
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Het aantal aliassen dat op één dag kan worden aangemaakt te beperken
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Het aantal maskers dat op één dag kan worden aangemaakt te beperken
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bekijk onze <a href="{ $url }" { $attrs }>Servicevoorwaarden</a> voor meer informatie.
@@ -638,9 +648,13 @@ profile-promo-email-blocking-option-all = Alle
 profile-promo-email-blocking-option-promotionals = Reclame
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Geen
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blokkeert alle e-mailberichten die naar deze alias worden verzonden.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokkeert alle e-mailberichten die naar dit masker worden verzonden.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probeert reclameberichten te blokkeren terwijl e-mailberichten zoals ontvangstbewijzen en verzendinformatie nog steeds wordt doorgestuurd.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } blokkeert geen enkel e-mailbericht voor deze alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blokkeert geen enkel e-mailbericht voor dit masker.
 profile-promo-email-blocking-label-promotionals = Reclame blokkeren
 profile-promo-email-blocking-label-none = Alles blokkeren
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
