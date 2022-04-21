@@ -110,11 +110,17 @@ whatsnew-feature-forward-some-heading = 封鎖行銷郵件
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但還是會轉寄別名信箱收到的收據、發票等重要郵件。
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 現在起，「別名信箱」更名為「轉寄信箱」了
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }，並且讓新功能更容易上手。
 
 ## Bento Menu
@@ -438,8 +444,12 @@ faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合�
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 的 <a href="{ $url }" { $attrs }>使用條款與所有 { -brand-name-mozilla } 產品都相同</a>。我們絕不允許透過 { -brand-name-relay } 進行諸如濫發垃圾信件等有害行為，此類行為將導致使用者帳號被關閉。我們會採取下列行為來防止使用者違反使用條款：
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account(capitalization: "uppercase") } 使用驗證過的電子郵件地址
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = 要求使用者付款才可以建立超過五組別名
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = 要求使用者付款才可以建立超過五組轉寄信箱
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = 限制一天內可產生的別名數量
+faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天內可產生的轉寄信箱數量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 若需更多資訊，請閱讀我們的<a href="{ $url }" { $attrs }>服務條款</a>。
@@ -581,9 +591,13 @@ profile-promo-email-blocking-option-all = 全部
 profile-promo-email-blocking-option-promotionals = 行銷郵件
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = 無
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } 將封鎖所有寄到此別名信箱的郵件。
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 將封鎖所有寄到此轉寄信箱的郵件。
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 將嘗試封鎖行銷郵件，但仍然轉寄消費收據、訂單出貨通知等重要郵件給您。
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } 不會封鎖任何寄到此別名信箱的郵件。
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不會封鎖任何寄到此轉寄信箱的郵件。
 profile-promo-email-blocking-label-promotionals = 封鎖行銷郵件
 profile-promo-email-blocking-label-none = 封鎖全部
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
