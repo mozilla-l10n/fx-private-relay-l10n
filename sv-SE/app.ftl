@@ -34,7 +34,7 @@
 meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias, alias som vidarebefordras till din riktiga inkorg. Använd den för att skydda dina onlinekonton från hackare och oönskade meddelanden.
-meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postmasker som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
+meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
 
 ## Header 
 
@@ -135,14 +135,14 @@ how-it-works-step-1-copy =
     Logga in med ditt { -brand-name-firefox-account } för att komma igång.
 # Deprecated
 how-it-works-step-2-headline = Skapa ett nytt alias
-how-it-works-step-2-headline-2 = Skapa en ny e-postmask
+how-it-works-step-2-headline-2 = Skapa ett nytt e-postalias
 how-it-works-step-2-copy =
     När du surfar kommer ikonen { -brand-name-relay } att visas där webbplatser ber om din e-postadress.
     Välj den för att skapa en ny, slumpmässig adress som slutar på @relay.firefox.com.
     { -brand-name-relay } vidarebefordrar meddelanden till den primära e-postadress som är kopplad till ditt konto.
 # Deprecated
 how-it-works-step-3-headline = Hantera dina alias
-how-it-works-step-3-headline-2 = Hantera dina e-postmasker
+how-it-works-step-3-headline-2 = Hantera dina e-postalias
 hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-postadress?
 hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för varje nytt konto ...
 hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer till din inkorg!
@@ -188,7 +188,7 @@ landing-pricing-body =
 landing-pricing-free-price = Gratis
 # Deprecated
 landing-pricing-free-feature-1 = Upp till 5 e-postalias
-landing-pricing-free-feature-1-2 = Upp till 5 e-postmasker
+landing-pricing-free-feature-1-2 = Upp till 5 e-postalias
 landing-pricing-free-feature-2 = Webbläsartillägg
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # Variables:
@@ -197,7 +197,7 @@ landing-pricing-premium-price = { $monthly_price } / månad
 landing-pricing-premium-price-highlight = Tidsbegränsad prissättning
 # Deprecated
 landing-pricing-premium-feature-1 = Obegränsade e-postalias
-landing-pricing-premium-feature-1-2 = Obegränsade e-postmasker
+landing-pricing-premium-feature-1-2 = Obegränsade e-postalias
 landing-pricing-premium-feature-2 = Webbläsartillägg
 # Deprecated
 landing-pricing-premium-feature-3 = Din egen e-postdomän
@@ -393,7 +393,9 @@ faq-question-acceptable-use-question = Vilka är de acceptabla användningsområ
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } har samma <a href="{ $url }" { $attrs }>användningsvillkor som alla { -brand-name-mozilla }-produkter</a>. Vi har en nolltoleranspolicy när det gäller att använda { -brand-name-relay } för skadliga ändamål som skräppost, vilket leder till att en användares konto sägs upp. Vi vidtar åtgärder för att förhindra användare från att bryta mot våra villkor genom att:
 faq-question-acceptable-use-answer-measure-account = Kräver en { -brand-name-firefox-account(capitalization: "uppercase") } med en verifierad e-postadress
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Kräver betalning för att en användare ska kunna skapa fler än fem alias
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Begränsa antalet alias som kan genereras på en dag
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -495,8 +497,10 @@ profile-promo-email-blocking-option-all = Alla
 profile-promo-email-blocking-option-promotionals = Reklam
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Inga
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blockerar alla e-postmeddelanden som skickas till detta alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } kommer att försöka blockera reklammeddelanden samtidigt som de vidarebefordrar e-postmeddelanden som kvitton och leveransinformation.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } blockerar inte några e-postmeddelanden för detta alias.
 profile-promo-email-blocking-label-promotionals = Blockera reklam
 profile-promo-email-blocking-label-none = Blockera alla
