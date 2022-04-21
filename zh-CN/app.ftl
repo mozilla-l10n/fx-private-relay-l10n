@@ -110,12 +110,18 @@ whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = 🐍 + 👕 = 🐢，📧 + 👕 = Firefox Relay
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
-whatsnew-feature-alias-to-mask-snippet = 欢迎使用 { -brand-name-firefox-relay } 马甲邮箱…
+whatsnew-feature-alias-to-mask-snippet = { -brand-name-firefox-relay }，为邮箱披上“马甲”…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = { -brand-name-firefox-relay }，为邮箱披上“马甲”，诸多新特性轻松上手。
 
 ## Bento Menu
 
@@ -427,6 +433,7 @@ faq-question-mozmail-question = 为何我的马甲邮箱域名变成“mozmail.c
 faq-question-mozmail-question-2 = 为何我的马甲域名变成“mozmail.com”了？
 # Deprecated
 faq-question-mozmail-answer = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱域名这一功能，如 alias@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可用的自定义邮箱域名比随机马甲名称好记很多。
+faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱域名这一功能，如 mask@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可用的自定义邮箱域名比随机马甲名称好记很多。
 faq-question-attachments-question = { -brand-name-firefox-relay } 可以转发含附件的电子邮件吗？
 faq-question-attachments-answer-v2 = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
 # Deprecated
