@@ -111,11 +111,17 @@ whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permitte de blocar solo le e-mails promotional…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solo e-mails promotional inviate a un alias. Tu recipera e-mails como quitantias ma non e-mails de marketing.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases ora es mascas
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay } plus facile a usar e aperir le strata a nove functionalitates.
 
 ## Bento Menu
@@ -480,8 +486,12 @@ faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-nam
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } ha le mesme <a href="{ $url }" { $attrs }>conditiones de uso de tote le productos de { -brand-name-mozilla }</a>. Nos ha un politica de tolerantia zero quando il eveni que on usa { -brand-name-relay } pro propositos malitiose como spam, consequente in le termination del conto del usator. Nos prende mensuras pro impedir que le usatores viola nostre conditiones per:
 faq-question-acceptable-use-answer-measure-account = Requirer un { -brand-name-firefox-account(capitalization: "uppercase") } con un adresse email verificate
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Requirer le pagamento la usator pro crear plus que cinque aliases
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Requirer le pagamento al usator pro crear plus que cinque mascas
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Limitar le numero de aliases que on pote generar in un die
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitar le numero de mascas que on pote generar in un die
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
@@ -623,9 +633,13 @@ profile-promo-email-blocking-option-all = Tote
 profile-promo-email-blocking-option-promotionals = Promotional
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Nulle
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } bloca tote le e-mails inviate a iste alias.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bloca tote le e-mails inviate a iste masca.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tentara de blocar e-mails promotional durante que ancora inultrara e-mails como quitantias e informationes de expedition.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } non bloca ulle e-mails pro iste alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non bloca alcun emails pro iste masca.
 profile-promo-email-blocking-label-promotionals = Blocar promotiones
 profile-promo-email-blocking-label-none = Blocar tote
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
