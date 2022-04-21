@@ -110,6 +110,12 @@ whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = 欢迎使用 { -brand-name-firefox-relay } 马甲邮箱…
 
 ## Bento Menu
 
