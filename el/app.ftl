@@ -519,8 +519,10 @@ faq-question-acceptable-use-answer-a-html = Το { -brand-name-firefox-relay } �
 faq-question-acceptable-use-answer-measure-account = Απαιτώντας έναν { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } με επαληθευμένη διεύθυνση email
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε ψευδωνύμων
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Απαιτώντας πληρωμή από τον χρήστη για τη δημιουργία πάνω από πέντε μασκών
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Περιορίζοντας τον αριθμό των ψευδωνύμων που μπορούν να δημιουργηθούν σε μία ημέρα
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Περιορίζοντας τον αριθμό των μασκών που μπορούν να δημιουργηθούν σε μία ημέρα
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
@@ -664,9 +666,11 @@ profile-promo-email-blocking-option-promotionals = Διαφημιστικά
 profile-promo-email-blocking-option-none = Κανένα
 # Deprecated
 profile-promo-email-blocking-description-all = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτό το ψευδώνυμο.
+profile-promo-email-blocking-description-all-2 = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτήν τη μάσκα.
 profile-promo-email-blocking-description-promotionals = Το { -brand-name-relay } θα επιχειρήσει να αποκλείσει τα διαφημιστικά email, προωθώντας όμως άλλα email, όπως αποδείξεις και στοιχεία αποστολής.
 # Deprecated
 profile-promo-email-blocking-description-none = Το { -brand-name-relay } δεν αποκλείει κανένα email για αυτό το ψευδώνυμο.
+profile-promo-email-blocking-description-none-2 = Το { -brand-name-relay } δεν αποκλείει κανένα email για αυτήν τη μάσκα.
 profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
 profile-promo-email-blocking-label-none = Φραγή όλων
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
