@@ -388,8 +388,10 @@ profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-cancel = منسوخ
 # Deprecated
 profile-blocked-copy = جہڑے ویلے تساں ایں عرفی ناں کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
+profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 # Deprecated
 profile-forwarded-copy = تساں جہڑے ویلے عرفی ناں کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
+profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
