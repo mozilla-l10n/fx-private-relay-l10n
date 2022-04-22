@@ -485,6 +485,9 @@ banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomai
 
 # Deprecated
 success-subdomain-registered = تہاݙی { $subdomain }@ تخلیق تھی ڳئی ہے
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 
 ## Error Messages
@@ -516,10 +519,12 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 
 # Deprecated
 modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
+modal-custom-alias-picker-heading-2 = نواں کسٹم ماسک  بݨاؤ
 # Deprecated
 modal-custom-alias-picker-form-heading = یا، کسٹم عرفی ناں دستی تخلیق کرو
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج کرو
+modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ درج کرو
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
@@ -554,6 +559,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 
 # Deprecated
 onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، تہاݙے کول ترائے طریقے ہن۔۔۔
+onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 # Deprecated
 onboarding-alias-tip-1 = آپݨاں پہلا عرفی ناں خلقݨ کیتے "نواں ناں جنریٹ کرو" چُݨو۔
 
@@ -574,6 +580,10 @@ onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال �
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = { $max } دا { $step } قدم
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-subheadline = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں کنٹرول کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 multi-part-onboarding-premium-welcome-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:
@@ -618,6 +628,7 @@ modal-domain-register-good-news = خوشخبری!
 modal-domain-register-warning-reminder = یاد رکھو، تساں صرف ہک ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
 # Deprecated
 modal-domain-register-button = ڈومین رجسٹڑ کرو
+modal-domain-register-button-2 = سب ڈومین رجسٹر کرو
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
@@ -630,6 +641,10 @@ modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈو�
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = گُر { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
