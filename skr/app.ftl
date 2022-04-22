@@ -251,8 +251,10 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
+faq-question-what-is-question-2 = { -brand-name-relay } ای میل ماسک کیا ہے؟
 # Deprecated
 faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
+faq-question-missing-emails-question-2 = میں آپݨے ای میل ماسکاں  کنوں سنیہے کائنی گھندا پیا
 # Deprecated
 faq-question-missing-emails-answer-a = کجھ وجوہات ہن جو تہاکوں تہاݙے عرفی نان٘واں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
@@ -282,6 +284,7 @@ faq-question-browser-support-question = بھلا میں ٻئت براؤزراں 
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 # Deprecated
 faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
+faq-question-mozmail-question-2 = میݙے ای میل ماسکاں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
 # Deprecated
 faq-question-unsubscribe-domain-question = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم ݙٌڈومین نال کیا تھیسی؟
@@ -352,6 +355,7 @@ profile-label-subdomain = ای میل سب ڈومین:
 profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
 # Deprecated
 profile-label-domain-tooltip = آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔
+profile-label-subdomain-tooltip = آپݨی نویکلی ای میل سب ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
@@ -369,11 +373,15 @@ profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
 # Deprecated
 profile-label-disable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
+profile-label-disable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
 # Deprecated
 profile-label-enable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
+profile-label-enable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
 # Deprecated
 profile-label-copy-confirmation = عرفی ناں کلپ بورڈ تے نقل تھی ڳیا
+# Deprecated
+profile-label-copy-confirmation-2 = ماسک کلپ بورڈ تے نقل تھی ڳیا
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
