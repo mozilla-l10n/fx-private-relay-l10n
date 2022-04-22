@@ -104,6 +104,9 @@ whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکوں صرف پروموشنل ای میلاں بلاک کرݨ دی اجازت ݙینیدی ہے۔۔۔
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = عرفی ناں ہݨ ماسک ہن۔
 
 ## Bento Menu
 
@@ -287,7 +290,9 @@ faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھ
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -408,7 +413,9 @@ profile-promo-email-blocking-option-all = سارے
 profile-promo-email-blocking-option-promotionals = پروموشنل
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = کوئی وی کائنی
+# Deprecated
 profile-promo-email-blocking-description-all = ایں عرفی ناں کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
+# Deprecated
 profile-promo-email-blocking-description-none = ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
