@@ -126,6 +126,18 @@ whatsnew-feature-forward-some-heading = Блокировка рекламных 
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } позволяет блокировать только рекламные письма…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } позволяет блокировать только рекламные письма, отправленные на псевдонимы. Вы будете получать такие электронные письма, как квитанции, но не как маркетинговые письма.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Aliases are now masks
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
 
 ## Bento Menu
 
@@ -497,8 +509,10 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } име
 faq-question-acceptable-use-answer-measure-account = Требуем { -brand-name-firefox-account(case: "nominative_uppercase") } с подтверждённым адресом электронной почты
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Требуем оплату за создание пользователем более пяти псевдонимов
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Требуем оплату за создание пользователем более пяти псевдонимов
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Ограничиваем число псевдонимов, которые можно создать за один день
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Ограничиваем число псевдонимов, которые можно создать за один день
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Дополнительную информацию вы можете найти в <a href="{ $url }" { $attrs }>Условиях службы</a>.
@@ -642,6 +656,7 @@ profile-promo-email-blocking-option-promotionals = Рекламные
 profile-promo-email-blocking-option-none = Не блокировать
 # Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } будет стараться блокировать рекламные электронные письма, при этом пересылая такие письма, как квитанции и информацию о доставке.
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
