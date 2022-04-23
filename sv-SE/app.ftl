@@ -92,24 +92,24 @@ whatsnew-feature-size-limit-heading = Ökning av bilagans storlek
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive...
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till 25 MB, inklusive bilagor.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive...
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive bilagor.
 whatsnew-feature-sign-back-in-heading = Logga in igen med dina alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = För att skapa ett nytt alias när du blir ombedd att ange din e-post, öppna...
+whatsnew-feature-sign-back-in-snippet = För att skapa ett nytt alias när du blir ombedd att ange din e-post, öppna…
 whatsnew-feature-sign-back-in-description = För att logga in med ett tidigare använt alias, öppna snabbmenyn där webbplatsen ber om din e-post. Du kommer att kunna välja alias och fylla i e-postfältet automatiskt.
 whatsnew-feature-forward-some-heading = Blockering av reklammeddelanden
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } låter dig blockera endast reklammeddelanden...
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } låter dig blockera endast reklammeddelanden…
 whatsnew-feature-forward-some-description = Med { -brand-name-relay-premium } kan du endast blockera reklammeddelanden som skickas till ett alias. Du kommer att få e-postmeddelanden som kvitton men inte marknadsföringsmeddelanden.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
@@ -158,7 +158,7 @@ how-it-works-step-2-copy =
 how-it-works-step-3-headline = Hantera dina alias
 how-it-works-step-3-headline-2 = Hantera dina e-postalias
 hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-postadress?
-hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för varje nytt konto ...
+hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för varje nytt konto …
 hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer till din inkorg!
 
 ## Home Page Version A
@@ -689,7 +689,7 @@ tips-promo-email-blocking-content = Med { -brand-name-relay-premium } kan du blo
 ## Onboarding 
 
 # Deprecated
-onboarding-headline = Skapa ditt första alias, du finns tre sätt...
+onboarding-headline = Skapa ditt första alias, du finns tre sätt…
 # Deprecated
 onboarding-alias-tip-1 = Välj "Generera nytt alias" för att skapa ditt första alias.
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
