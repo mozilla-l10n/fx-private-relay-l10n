@@ -660,6 +660,7 @@ profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блок�
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } будет стараться блокировать рекламные электронные письма, при этом пересылая такие письма, как квитанции и информацию о доставке.
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
 profile-promo-email-blocking-label-promotionals = Блокировать рекламу
 profile-promo-email-blocking-label-none = Блокировать всё
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
