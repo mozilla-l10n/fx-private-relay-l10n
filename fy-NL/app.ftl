@@ -103,7 +103,7 @@ whatsnew-feature-sign-back-in-heading = Opnij oanmelde mei jo aliassen
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = As jo in nije alias meitsje wolle wannear’t jo om jo e-mailadres frege wurdt, iepenje jo...
+whatsnew-feature-sign-back-in-snippet = As jo in nije alias meitsje wolle wannear’t jo om jo e-mailadres frege wurdt, iepenje jo…
 whatsnew-feature-sign-back-in-description = Om jo oan te melden mei in earder brûkte alias, iepenje jo it kontekstmenu wêr’t de website om jo e-mailadres freget. Jo kinne de alias selektearje en it e-mailfjild automatysk ynfolje.
 whatsnew-feature-forward-some-heading = Blokkearjen fan reklameberjochten
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
