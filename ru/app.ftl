@@ -49,6 +49,8 @@ meta-title = { -brand-name-firefox-relay }
 # Deprecated
 meta-description = { -brand-name-firefox-relay } облегчает создание псевдонимов электронной почты, письма с которых пересылаются в ваш настоящий почтовый ящик. Используйте их для защиты своих аккаунтов в Интернете от хакеров и нежелательных сообщений.
 meta-description-2 = { -brand-name-firefox-relay } облегчает создание псевдонимов электронной почты, письма с которых пересылаются в ваш настоящий почтовый ящик. Используйте их для защиты своих аккаунтов в Интернете от хакеров и нежелательных сообщений.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Открывается в новой вкладке)
 
 ## Header 
 
@@ -493,7 +495,9 @@ faq-question-acceptable-use-question = Каковы допустимые вар�
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } имеет те же <a href="{ $url }" { $attrs }>условия пользования, что и все продукты { -brand-name-mozilla }</a>. У нас действует политика абсолютной нетерпимости к использованию { -brand-name-relay } в злонамеренных целях, таких как рассылка спама, и в подобных случаях мы прекращаем действие аккаунта пользователя. Для того, чтобы пользователи не нарушали наших условий, мы:
 faq-question-acceptable-use-answer-measure-account = Требуем { -brand-name-firefox-account(case: "nominative_uppercase") } с подтверждённым адресом электронной почты
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Требуем оплату за создание пользователем более пяти псевдонимов
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Ограничиваем число псевдонимов, которые можно создать за один день
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -636,8 +640,10 @@ profile-promo-email-blocking-option-all = Все
 profile-promo-email-blocking-option-promotionals = Рекламные
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Не блокировать
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } будет стараться блокировать рекламные электронные письма, при этом пересылая такие письма, как квитанции и информацию о доставке.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
 profile-promo-email-blocking-label-promotionals = Блокировать рекламу
 profile-promo-email-blocking-label-none = Блокировать всё
@@ -713,6 +719,11 @@ banner-pack-upgrade-headline-2-html = Переходите на <strong>{ -brand
 banner-pack-upgrade-copy = С неограниченным числом псевдонимов и вашим собственным доменом электронной почты { -brand-name-firefox } { -brand-name-relay-premium } помогает вам оставаться защищёнными в Интернете.
 banner-pack-upgrade-copy-2 = С неограниченным числом псевдонимов и вашим собственным поддоменом электронной почты { -brand-name-firefox-relay-premium } помогает вам оставаться защищёнными в Интернете.
 banner-pack-upgrade-cta = Перейти сейчас
+banner-label-data-notification-cta = Перейти в Настройки
+banner-label-data-notification-header-v2 = Включить новые функции
+banner-label-data-notification-body-cta = Подробнее
+# Deprecated
+banner-choose-subdomain-label = Ваш домен:
 
 ## Success Messages
 
@@ -722,9 +733,20 @@ banner-pack-upgrade-cta = Перейти сейчас
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Помощь и советы
+tips-header-button-close-label = Убрать
+tips-footer-link-faq-label = ЧЗВ
+tips-footer-link-faq-tooltip = Часто задаваемые вопросы
+tips-footer-link-feedback-label = Отзывы
+tips-footer-link-feedback-tooltip = Оставить отзыв
+tips-footer-link-support-label = Поддержка
+tips-footer-link-support-tooltip = Связаться с поддержкой
 
 ## Alias for generating a custom alias
 
+# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = например "кофе"
 
 ## Popover explaining how custom aliases work
 
