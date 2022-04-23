@@ -462,7 +462,9 @@ faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-na
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay } yr un amodau defnydd <a href = " { $url } " { $attrs }> â holl gynnyrch { -brand-name-mozilla }</a>. Mae gennym ni bolisi dim goddefgarwch o ran defnyddio { -brand-name-relay } at ddibenion maleisus fel sbam, sy'n arwain at derfynu cyfrif defnyddiwr. Rydym yn cymryd camau i atal defnyddwyr rhag torri ein hamodau drwy:
 faq-question-acceptable-use-answer-measure-account = Mae angen { -brand-name-firefox-account(capitalization: "uppercase") } gyda chyfeiriad e-bost wedi'i ddilysu
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -564,8 +566,10 @@ profile-promo-email-blocking-option-all = Y Cyfan
 profile-promo-email-blocking-option-promotionals = Hyrwyddol
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Dim
+# Deprecated
 profile-promo-email-blocking-description-all = Mae { -brand-name-relay } yn rhwystro pob e-bost sy'n cael eu hanfon at yr arallenw hwn.
 profile-promo-email-blocking-description-promotionals = Bydd { -brand-name-relay } yn ceisio rhwystro e-byst hyrwyddo tra'n parhau i anfon e-byst ymlaen megis derbynebau a manylion cludo.
+# Deprecated
 profile-promo-email-blocking-description-none = Nid yw { -brand-name-relay } yn rhwystro unrhyw e-byst ar gyfer yr arallenw hwn.
 profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
 profile-promo-email-blocking-label-none = Rhwystro'r cyfan
@@ -723,7 +727,7 @@ tips-promo-email-blocking-content = Gyda { -brand-name-relay-premium }, gallwch 
 ## Onboarding 
 
 # Deprecated
-onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd ...
+onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd …
 # Deprecated
 onboarding-alias-tip-1 = Dewiswch “Cynhyrchu Arallenw Newydd” i greu eich arallenw cyntaf.
 onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
