@@ -173,23 +173,34 @@ landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig a
 landing-hero-body =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
     Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
+landing-hero-body-2 =
+    { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
+    Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
 
 ## How it works section
 
 landing-how-it-works-headline = Hur det fungerar
 # Deprecated
 landing-how-it-works-body = Dela { -brand-name-relay } e-postalias i stället för din riktiga e-postadress för att skydda din inkorg såväl som din identitet.
+landing-how-it-works-body-2 = Dela { -brand-name-relay } e-postalias i stället för din riktiga e-postadress för att skydda din inkorg såväl som din identitet.
 landing-how-it-works-step-1-body-cta = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }.
 # Deprecated
 landing-how-it-works-step-1-body = Skapa e-postalias automatiskt var du än anger din e-postadress online.
+landing-how-it-works-step-1-body-2 = Generera e-postalias automatiskt var du än anger din e-postadress online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     När du surfar kommer ikonen { -brand-name-relay } att visas där webbplatser ber om din e-postadress.
     Välj den för att skapa en ny, slumpmässig adress som slutar på @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    När du surfar kommer ikonen { -brand-name-relay } att visas där webbplatser ber om din e-postadress.
+    Välj den för att skapa en ny, slumpmässig adress som slutar på @mozmail.com.
 # Deprecated
 landing-how-it-works-step-3-body =
     Logga in på { -brand-name-relay } översikt för att hålla reda på de alias du har skapat. { -brand-name-relay } vidarebefordrar meddelanden till din e-postadress.
     Om ett alias får skräppost eller oönskade meddelanden kan du blockera alla meddelanden eller till och med ta bort alias, direkt från översikten.
+landing-how-it-works-step-3-body-2 =
+    Logga in på { -brand-name-relay } översikt för att hålla reda på de alias du har skapat.
+    Om du upptäcker att ett alias tar emot skräppost eller oönskade meddelanden kan du blockera alla meddelanden eller till och med ta bort alias, direkt från översikten.
 
 ## Pricing section
 
@@ -271,6 +282,7 @@ premium-promo-perks-cta-label = Uppgradera nu
 premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-perks-perk-unlimited-headline = Skapa ett obegränsat antal e-postalias
+premium-promo-perks-perk-unlimited-headline-2 = Skapa obegränsat antal e-postalias
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Ingen gräns med fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
 premium-promo-perks-perk-custom-domain-headline = Välj din egen anpassade domän
@@ -283,6 +295,7 @@ premium-promo-perks-perk-dashboard-headline = Styr dina alias från översikten
 premium-promo-perks-perk-dashboard-body = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
 # Deprecated
 premium-promo-use-cases-headline = Använd { -brand-name-relay } e-postalias var som helst
+premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-shopping-heading = Shopping
 # Deprecated
 premium-promo-use-cases-shopping-body = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under unika anpassade alias, som "mydeals@mydomain.mozmail.com."
@@ -328,6 +341,7 @@ faq-headline = Vanliga frågor
 email-size-limit = { $size } { $unit }
 # Deprecated
 faq-question-what-is-question = Vad är ett { -brand-name-relay }-alias?
+faq-question-what-is-question-2 = Vad är { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-what-is-answer = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din sanna e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din sanna e-postadress och vidarebefordra meddelanden till den.
 # Deprecated
@@ -337,9 +351,11 @@ faq-question-missing-emails-answer-a = Det finns några anledningar till att du 
 faq-question-missing-emails-answer-reason-spam = Meddelanden kommer till spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Din e-postleverantör blockerar ditt alias
+faq-question-missing-emails-answer-reason-blocked-2 = Din e-postleverantör blockerar dina e-postalias
 faq-question-missing-emails-answer-reason-size = Det vidarebefordrade e-postmeddelandet har en bilaga större än { email-size-limit }
 # Deprecated
 faq-question-missing-emails-answer-reason-not-accepted = Webbplatsen accepterar inte alias
+faq-question-missing-emails-answer-reason-not-accepted-2 = Webbplatsen accepterar inte e-postalias
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Alias kan ha avstängt vidarebefordran
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kan ta längre tid än vanligt att vidarebefordra dina meddelanden
@@ -351,12 +367,14 @@ faq-question-missing-emails-answer-b-html = Om du är en { -brand-name-relay-pre
 faq-question-missing-emails-answer-support-site-html = Om du kämpar med något av dessa problem, <a href="{ $url }" { $attrs }>besök vår supportwebbplats</a>.
 # Deprecated
 faq-question-use-cases-question = När ska jag använda { -brand-name-relay }-alias?
+faq-question-use-cases-question-2 = När ska jag använda { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-use-cases-answer-part1 = Du kan använda { -brand-name-relay }-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
 # Deprecated
 faq-question-use-cases-answer-part2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
 # Deprecated
 faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
+faq-question-2-question-2 = Varför accepterar inte en webbplats mitt { -brand-name-relay } e-postalias?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -375,6 +393,7 @@ faq-question-availability-answer = Gratis { -brand-name-relay } är tillgänglig
 faq-question-availability-answer-v2 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Finland, Frankrike, Belgien, Österrike, Spanien, Italien, Sverige, Schweiz, Nederländerna, och Irland.
 # Deprecated
 faq-question-4-question = Kan jag svara på meddelanden med mitt { -brand-name-relay }-alias?
+faq-question-4-question-2 = Kan jag svara på meddelanden med mitt { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-4-answer-v3 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagarna och i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-4-answer-v4 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagaren och de som kopieras i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
@@ -392,12 +411,14 @@ faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten {
 faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
 # Deprecated
 faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
+faq-question-mozmail-question-2 = Varför började mina e-postalias använda domänen "mozmail.com?"
 # Deprecated
 faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 # Deprecated
 faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = Vad händer med min anpassade underdomän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
@@ -436,6 +457,10 @@ profile-promo-upgrade-copy = Uppgradera { -brand-name-relay } för att få obegr
 profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
 profile-details-expand = Visa detaljer för alias
 profile-details-collapse = Dölj detaljer för alias
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Klicka för att kopiera e-postalias { $address }.
 # Deprecated
 profile-label-edit = Redigera etiketten för detta alias
 profile-label-edit-2 = Redigera etiketten för detta alias
@@ -445,10 +470,15 @@ profile-label-save-error = Det gick inte att spara, försök igen.
 profile-label-saved = Etikett sparad!
 # Deprecated
 profile-label-generate-new-alias = Skapa nytt alias
+profile-label-generate-new-alias-2 = Generera nytt e-postalias
 # Deprecated
 profile-label-generate-new-alias-menu-random = Slumpmässigt alias
+profile-label-generate-new-alias-menu-random-2 = Slumpmässigt e-postalias
 # Deprecated
 profile-label-generate-new-alias-menu-custom = @{ $subdomain }-alias
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } e-postalias
 profile-label-delete = Ta bort
 # Deprecated
 profile-label-delete-alias = Ta bort detta alias
@@ -456,6 +486,7 @@ profile-label-delete-alias = Ta bort detta alias
 profile-label-delete-alias-2 = Ta bort detta alias
 # Deprecated
 profile-label-upgrade = Få obegränsat med alias
+profile-label-upgrade-2 = Få obegränsade e-postalias
 # Deprecated
 profile-label-create-domain = Skaffa din e-postdomän
 profile-label-create-subdomain = Skaffa din e-postunderdomän
@@ -483,11 +514,15 @@ profile-label-forwarding = vidarebefordrar
 profile-label-blocking = blockerar
 # Deprecated
 profile-label-disable-forwarding-button = Inaktivera vidarebefordran av e-post för detta alias
+profile-label-disable-forwarding-button-2 = Inaktivera vidarebefordran av e-post för detta e-postalias
 # Deprecated
 profile-label-enable-forwarding-button = Aktivera vidarebefordran av e-post för detta alias
+profile-label-enable-forwarding-button-2 = Aktivera vidarebefordran av e-post för detta e-postalias
 profile-label-click-to-copy = Klicka för att kopiera
 # Deprecated
 profile-label-copy-confirmation = Alias kopierade till urklipp
+# Deprecated
+profile-label-copy-confirmation-2 = E-postalias kopierades till urklipp
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
 profile-label-forwarded = Vidarebefordrat
@@ -503,16 +538,28 @@ profile-stat-label-blocked = E-postmeddelanden blockerade
 profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
 # Deprecated
 profile-stat-label-aliases-used = E-postalias som används
+profile-stat-label-aliases-used-2 = E-postalias som används
 # Deprecated
 profile-filter-search-placeholder = Sök efter alias
+profile-filter-search-placeholder-2 = Sök efter e-postalias
+profile-filter-category-button-label = Filtrera synliga e-postalias
+profile-filter-category-title = Filtrera synliga e-postalias
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Vidarebefordrade alias
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Vidarebefordrade e-postalias
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Blockerade alias
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Blockerade e-postalias
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Slumpmässiga alias
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Slumpmässiga e-postalias
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Anpassade alias
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Anpassade e-postalias
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -525,9 +572,11 @@ profile-promo-email-blocking-option-promotionals = Reklam
 profile-promo-email-blocking-option-none = Inga
 # Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blockerar alla e-postmeddelanden som skickas till detta alias.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blockerar alla e-post som skickas till detta e-postalias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } kommer att försöka blockera reklammeddelanden samtidigt som de vidarebefordrar e-postmeddelanden som kvitton och leveransinformation.
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } blockerar inte några e-postmeddelanden för detta alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blockerar inte några e-postmeddelanden för detta e-postalias.
 profile-promo-email-blocking-label-promotionals = Blockera reklam
 profile-promo-email-blocking-label-none = Blockera alla
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -547,10 +596,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } är ännu bättre i { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att skapa alias.
+banner-download-firefox-copy-2 = { -brand-name-relay } tillägget för { -brand-name-firefox-browser } gör det ännu enklare att skapa e-postalias.
 banner-download-firefox-cta = Hämta { -brand-name-firefox }
 banner-download-install-extension-headline = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Tillägget { -brand-name-relay } för { -brand-name-firefox-browser } gör det ännu enklare att använda e-postalias.
+banner-download-install-extension-copy-2 = { -brand-name-relay } tillägget för { -brand-name-firefox-browser } gör det ännu enklare att använda e-postalias.
 banner-download-install-extension-cta = Lägg till { -brand-name-relay } i { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Testa { -brand-name-relay } för { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda alias.
@@ -563,6 +614,7 @@ banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
 banner-label-action = Viktig åtgärd
 # Deprecated
 banner-register-subdomain-headline-aliases = Skaffa en anpassad domän för dina alias
+banner-register-subdomain-headline-aliases-2 = Skaffa en anpassad underdomän för dina e-postalias
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -582,6 +634,7 @@ banner-choose-subdomain-input-placeholder-3 = Sök underdomän
 banner-register-subdomain-button-search = Sök
 # Deprecated
 banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> för att få fler alias
+banner-pack-upgrade-headline-2-html = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att få flera e-postalias
 # Deprecated
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
@@ -628,7 +681,11 @@ error-subdomain-email-not-created = E-postadress med underdomän kunde inte skap
 error-subdomain-select = Du måste välja en underdomän innan du skapar ett underdomänalias
 # Deprecated
 error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan domän.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Underdomänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan.
 error-settings-update = Det uppstod ett fel när dina inställningar skulle uppdateras, försök igen
+error-mask-create-failed = E-postalias kunde inte skapas. Var god försök igen
 
 ## Tips and tricks at the bottom of the page
 
@@ -645,17 +702,20 @@ tips-footer-link-support-tooltip = Kontakta supporten
 
 # Deprecated
 modal-custom-alias-picker-heading = Skapa ett nytt anpassat alias
+modal-custom-alias-picker-heading-2 = Skapa ett nytt anpassat e-postalias
 # Deprecated
 modal-custom-alias-picker-warning = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän —alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
 # Deprecated
 modal-custom-alias-picker-form-heading = Eller skapa ett anpassat alias manuellt
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Ange aliasprefix
+modal-custom-alias-picker-form-prefix-label-2 = Ange prefix för e-postalias
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = t.ex. "kaffe"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Generera alias
+modal-custom-alias-picker-form-submit-label-2 = Generera e-postalias
 # Deprecated
 modal-custom-alias-picker-creation-error = Ditt anpassade alias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till alias för att skapa det.
 
@@ -690,8 +750,10 @@ tips-promo-email-blocking-content = Med { -brand-name-relay-premium } kan du blo
 
 # Deprecated
 onboarding-headline = Skapa ditt första alias, du finns tre sätt…
+onboarding-headline-2 = Skapa ditt första e-postalias
 # Deprecated
 onboarding-alias-tip-1 = Välj "Generera nytt alias" för att skapa ditt första alias.
+onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt första e-postalias.
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
 # Deprecated
 onboarding-alias-tip-3 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
@@ -728,6 +790,7 @@ multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamn
 multi-part-onboarding-premium-welcome-title = Kontrollera vilka e-postmeddelanden du får:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Skapa ett obegränsat antal e-postalias:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Generera obegränsat med e-postalias:
 multi-part-onboarding-premium-welcome-button-start = Kom igång
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Egen domän för att dela alias
@@ -789,12 +852,17 @@ modal-delete-confirmation = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
 # Deprecated
 modal-domain-register-warning-reminder = Kom ihåg att du bara kan registrera en domän. Du kommer inte att kunna ändra den senare.
+modal-domain-register-warning-reminder-2 = Kom ihåg att du bara kan registrera en underdomän. Du kommer inte att kunna ändra det senare.
 # Deprecated
 modal-domain-register-button = Registrera domän
 modal-domain-register-button-2 = Registrera underdomän
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } är tillgänglig!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är tillgänglig!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
@@ -814,6 +882,7 @@ modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är nu din e-postunderdomän!
 # Deprecated
 modal-domain-register-success-copy = Nu kan du skapa obegränsat med e-postalias i din nya domän! Vad väntar du på?
+modal-domain-register-success-copy-2 = Nu kan du skapa obegränsat antal anpassade e-postalias!
 
 ## The "Help & Tips" area at the bottom of the page
 
