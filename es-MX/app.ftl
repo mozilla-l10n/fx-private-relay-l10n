@@ -119,7 +119,7 @@ whatsnew-feature-alias-to-mask-heading = Los alias ahora son máscaras
 # length as the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
-whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para hacer { -brand-name-firefox-relay }...
+whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para hacer { -brand-name-firefox-relay }…
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para que { -brand-name-firefox-relay } sea más fácil de usar y abra la puerta a nuevas funciones.
@@ -847,7 +847,7 @@ tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bl
 ## Onboarding 
 
 # Deprecated
-onboarding-headline = Crea tu primer alias, tienes tres formas ...
+onboarding-headline = Crea tu primer alias, tienes tres formas …
 onboarding-headline-2 = Crear tu primer correo enmascarado
 # Deprecated
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
