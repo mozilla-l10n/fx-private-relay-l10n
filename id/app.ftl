@@ -100,13 +100,13 @@ whatsnew-feature-sign-back-in-heading = Masuk kembali dengan alias Anda
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = Untuk membuat alias baru saat Anda diminta alamat surel, buka...
+whatsnew-feature-sign-back-in-snippet = Untuk membuat alias baru saat Anda diminta alamat surel, buka…
 whatsnew-feature-sign-back-in-description = Untuk masuk dengan alias yang sebelumnya digunakan, buka menu konteks di mana situs meminta surel Anda. Anda akan dapat memilih alias dan otomatis mengisi isian surel.
 whatsnew-feature-forward-some-heading = Pemblokiran surel promosi
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi...
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi yang dikirim ke alias. Anda akan menerima surel berbentuk tanda terima, bukan surel pemasaran.
 
 ## Bento Menu
@@ -638,7 +638,7 @@ tips-custom-alias-content = Yang perlu Anda lakukan hanyalah membuat dan membagi
 ## Onboarding 
 
 # Deprecated
-onboarding-headline = Buat alias pertama Anda, Anda memiliki tiga cara ...
+onboarding-headline = Buat alias pertama Anda, Anda memiliki tiga cara …
 # Deprecated
 onboarding-alias-tip-1 = Pilih "Buat Alias Baru" untuk membuat alias pertama Anda.
 onboarding-alias-tip-2 = Dengan menggunakan ekstensi { -brand-name-relay }, pilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel.
