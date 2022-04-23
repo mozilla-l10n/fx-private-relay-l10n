@@ -522,6 +522,7 @@ modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
 modal-custom-alias-picker-heading-2 = نواں کسٹم ماسک  بݨاؤ
 # Deprecated
 modal-custom-alias-picker-form-heading = یا، کسٹم عرفی ناں دستی تخلیق کرو
+modal-custom-alias-picker-form-heading-2 = یا، کسٹم ماسک دستی تخلیق کرو
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج کرو
 modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ درج کرو
@@ -550,6 +551,7 @@ popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای م
 
 # Deprecated
 tips-custom-alias-heading = تہاݙی کسٹم ڈومین ورت تے عرفی ناں تخلیق کریندا پئے
+tips-custom-alias-heading-2 = تہاݙی کسٹم سب ڈومین ورت تے ماسک تخلیق کریندا پئے
 
 ## Tip about using custom aliases
 
@@ -589,6 +591,7 @@ multi-part-onboarding-premium-welcome-subheadline = جو کجھ تہاݙے ان�
 multi-part-onboarding-premium-welcome-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = بے انت ای میل عرفی ناں جنریٹ کرو:
+multi-part-onboarding-premium-generate-unlimited-title-2 = بے انت ای میل ماسک جنریٹ کرو:
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
 # Deprecated
 multi-part-onboarding-premium-domain-headline = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین
@@ -600,8 +603,10 @@ multi-part-onboarding-premium-get-subdomain = کسٹم سب ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
 # Deprecated
 multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
+multi-part-onboarding-premium-domain-cta-2 = آپݨی کسٹم سب ڈومین ہݨ رجسٹر کرو:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = جاری رکھو، میں آپݨی کسٹم ڈومین بعد وچ رجسٹر کریساں
+multi-part-onboarding-premium-domain-button-skip-2 = جاری رکھو، میں آپݨی کسٹم سب ڈومین بعد وچ رجسٹر کریساں
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
