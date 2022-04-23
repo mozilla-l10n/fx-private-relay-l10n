@@ -626,11 +626,14 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
 # Deprecated
 modal-delete-headline = ایہ عرفی ناں پکّا پکّا مٹاؤں؟
+modal-delete-headline-2 = ایہ ای میل ماسک پکّا پکّا مٹاؤں؟
 # Deprecated
 modal-delete-confirmation = جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔
+modal-delete-confirmation-2 = جیا، میں ایہ ماسک مٹاوݨ چاہندا ہاں۔
 modal-domain-register-good-news = خوشخبری!
 # Deprecated
 modal-domain-register-warning-reminder = یاد رکھو، تساں صرف ہک ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
+modal-domain-register-warning-reminder-2 = یاد رکھو، تساں صرف ہک سب ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
 # Deprecated
 modal-domain-register-button = ڈومین رجسٹڑ کرو
 modal-domain-register-button-2 = سب ڈومین رجسٹر کرو
@@ -643,6 +646,10 @@ modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ ر
 modal-domain-register-success-title = کامیابی!
 # Deprecated
 modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈومین ہے!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل سب ڈومین ہے!
 
 ## The "Help & Tips" area at the bottom of the page
 
