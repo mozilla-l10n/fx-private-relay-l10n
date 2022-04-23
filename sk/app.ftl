@@ -153,11 +153,17 @@ whatsnew-feature-forward-some-heading = Blokovanie marketingových e-mailov
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily odoslané na alias. Budete naďalej dostávať e-maily, ako sú potvrdenia o prečítaní, ale nie marketingové e-maily.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasy sú teraz masky
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
 
 ## Bento Menu
@@ -526,7 +532,9 @@ faq-question-acceptable-use-question = Aké sú prijateľné použitia služby {
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } má rovnaké <a href="{ $url }" { $attrs }>podmienky používania ako všetky produkty { -brand-name-mozilla(case: "gen") }</a>. Máme zásadu nulovej tolerancie, pokiaľ ide o používanie služby { -brand-name-relay } na škodlivé účely, ako je spam, čo vedie k zrušeniu účtu používateľa. Prijímame opatrenia, aby sme zabránili používateľom porušovať naše podmienky tým, že:
 faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalisation: "lowercase") } s overenou e-mailovou adresou
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Vyžaduje sa platba od používateľa za vytvorenie viac ako piatich aliasov
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Obmedzuje sa počet aliasov, ktoré je možné vygenerovať za jeden deň
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -669,8 +677,10 @@ profile-promo-email-blocking-option-all = Všetky
 profile-promo-email-blocking-option-promotionals = Marketingové
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Žiadne
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blokuje všetky e-maily odoslané na tento alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } sa pokúsi zablokovať marketingové e-maily a zároveň preposielať e-maily, ako sú potvrdenia o prečítaní a informácie o dodaní vašich objednávok.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } neblokuje žiadne e-maily odoslané na tento alias.
 profile-promo-email-blocking-label-promotionals = Blokovať marketingové
 profile-promo-email-blocking-label-none = Blokovať všetky
@@ -1015,7 +1025,7 @@ modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain
 modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-modal-domain-register-confirmation-checkbox-2 = Áno, chcem si zaregistrovať doménu <subdoménu>{ $subdomain }</subdoména>
+modal-domain-register-confirmation-checkbox-2 = Áno, chcem si zaregistrovať doménu <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Úspešné!
 # Deprecated
 modal-domain-register-success = { $subdomain } je teraz vašou e-mailovou doménou!
