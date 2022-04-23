@@ -89,18 +89,18 @@ whatsnew-feature-size-limit-heading = Aumento del tamaño del archivo adjunto
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25 MB, incluyendo...
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25 MB, incluyendo…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta 25 MB, incluyendo adjuntos.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta { email-size-limit }, incluyendo...
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta { email-size-limit }, incluyendo…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos de hasta { email-size-limit }, incluyendo adjuntos.
 whatsnew-feature-sign-back-in-heading = Vuelve a iniciar sesión con tus alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = Para crear un nuevo alias cuando se te solicite tu correo electrónico, abre...
+whatsnew-feature-sign-back-in-snippet = Para crear un nuevo alias cuando se te solicite tu correo electrónico, abre…
 whatsnew-feature-sign-back-in-description = Para iniciar sesión con un alias utilizado anteriormente, abre el menú de contexto donde el sitio solicita tu correo electrónico. Podrás seleccionar el alias y autocompletar el campo de correo electrónico.
 whatsnew-feature-forward-some-heading = Bloqueo de correos electrónicos promocionales
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
@@ -463,7 +463,9 @@ faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -b
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene las mismas <a href="{ $url }" { $attrs }>condiciones de uso como todos los productos { -brand-name-mozilla }</a>. Tenemos una política de tolerancia cero cuando se trata de usar { -brand-name-relay } para propósitos maliciosos como spam, lo que resultaría en la eliminación de la cuenta de ese usuario. Tomamos medidas para evitar que los usuarios violen nuestras condiciones:
 faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección verificada de correo electrónico
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = La creación de más de cinco alias es un servicio de pago
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Limitación del número de alias que se puede crear cada día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -572,8 +574,10 @@ profile-promo-email-blocking-option-all = Todos
 profile-promo-email-blocking-option-promotionals = Promocionales
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Ninguno
+# Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a este alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos o seguimientos de compras.
+# Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } no está bloqueando ningún correo electrónico para este alias.
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
 profile-promo-email-blocking-label-none = Bloquear todo
@@ -731,7 +735,7 @@ tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bl
 ## Onboarding 
 
 # Deprecated
-onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo ...
+onboarding-headline = Crea tu primer alias, tienes tres formas de hacerlo …
 # Deprecated
 onboarding-alias-tip-1 = Selecciona “Generar nuevo alias” para crear tu primer alias.
 onboarding-alias-tip-2 = Con la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
