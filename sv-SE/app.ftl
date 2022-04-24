@@ -469,6 +469,7 @@ faq-question-mozmail-question = Varför började mina alias använda domänen "m
 faq-question-mozmail-question-2 = Varför började mina e-postalias använda domänen "mozmail.com?"
 # Deprecated
 faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
+faq-question-mozmail-answer-2 = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postsubdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postsubdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, låter dig skapa e-post-alias som är enkla att komma ihåg.
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 # Deprecated
@@ -476,9 +477,14 @@ faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän 
 faq-question-unsubscribe-domain-question-2 = Vad händer med min anpassade underdomän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
+faq-question-unsubscribe-domain-answer-2 = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via dina anpassade e-post-alias, men du kan inte längre skapa nya alias med den subdomänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan återuppta prenumerationen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Deprecated
 faq-question-8-answer-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
 faq-question-email-storage-question = Lagrar { -brand-name-relay } mina e-postmeddelanden?
 faq-question-email-storage-answer = Under de sällsynta omständigheter då tjänsten är nere, kan vi tillfälligt lagra dina e-postmeddelanden tills vi kan skicka de. Vi kommer aldrig att lagra dina e-postmeddelanden längre än tre dagar.
 faq-question-acceptable-use-question = Vilka är de acceptabla användningsområdena för { -brand-name-relay }?
@@ -488,8 +494,10 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } har sa
 faq-question-acceptable-use-answer-measure-account = Kräver en { -brand-name-firefox-account(capitalization: "uppercase") } med en verifierad e-postadress
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Kräver betalning för att en användare ska kunna skapa fler än fem alias
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Kräver betalning för att en användare ska kunna skapa fler än fem alias
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Begränsa antalet alias som kan genereras på en dag
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Begränsa antalet alias som kan genereras på en dag
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Läs våra <a href="{ $url }" { $attrs }>användarvillkor</a> för mer information.
@@ -584,8 +592,10 @@ profile-label-forwarded = Vidarebefordrat
 profile-label-cancel = Avbryt
 # Deprecated
 profile-blocked-copy = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
+profile-blocked-copy-2 = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
 # Deprecated
 profile-forwarded-copy = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
 profile-forwarded-note = Obs:
 profile-forwarded-note-copy = E-post (inklusive bilagor) större än { email-size-limit } stöds för närvarande inte och kommer inte att vidarebefordras.
 profile-forwarded-note-copy-v2 = E-post (inklusive bilagor) större än { email-size-limit } vidarebefordras inte.
@@ -664,6 +674,7 @@ banner-download-install-chrome-extension-cta = Hämta tillägget { -brand-name-r
 banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade aliasdomäner och obegränsade alias.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade subdomäner och obegränsade alias.
 banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Viktig åtgärd
@@ -680,6 +691,16 @@ banner-register-subdomain-copy =
     innan du använder dem. Behöver du en för bokning? Ge
     "restaurang@dindomän.{ $mozmail }" till restaurangen. Alla alias som
     använder din anpassade domän kommer att vidarebefordras till dig.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Med en anpassad subdomän kan du dela alias som inte behöver genereras
+    innan du använder dem. Behöver du en för bokning? Ge
+    "restaurang@dindomän.{ $mozmail }" till restaurangen. Alla alias som
+    använder din anpassade subdomän kommer att vidarebefordras till dig.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Sök efter domän
 # Deprecated
@@ -692,6 +713,7 @@ banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefo
 banner-pack-upgrade-headline-2-html = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att få flera e-postalias
 # Deprecated
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
+banner-pack-upgrade-copy-2 = Med obegränsade e-postalias och din egen e-postsubdomän hjälper { -brand-name-firefox-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Uppdatering av sekretesspolicy
