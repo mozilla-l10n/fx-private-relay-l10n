@@ -386,10 +386,13 @@ faq-question-what-is-question = Vad är ett { -brand-name-relay }-alias?
 faq-question-what-is-question-2 = Vad är { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-what-is-answer = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din sanna e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din sanna e-postadress och vidarebefordra meddelanden till den.
+faq-question-what-is-answer-2 = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din riktiga e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din riktiga e-postadress och vidarebefordra meddelanden till den.
 # Deprecated
 faq-question-missing-emails-question = Jag får inga meddelanden från mina alias
+faq-question-missing-emails-question-2 = Jag får inga meddelanden från mina e-post-alias
 # Deprecated
 faq-question-missing-emails-answer-a = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
+faq-question-missing-emails-answer-a-2 = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
 faq-question-missing-emails-answer-reason-spam = Meddelanden kommer till spam
 # Deprecated
 faq-question-missing-emails-answer-reason-blocked = Din e-postleverantör blockerar ditt alias
@@ -400,6 +403,7 @@ faq-question-missing-emails-answer-reason-not-accepted = Webbplatsen accepterar 
 faq-question-missing-emails-answer-reason-not-accepted-2 = Webbplatsen accepterar inte e-postalias
 # Deprecated
 faq-question-missing-emails-answer-reason-turned-off = Alias kan ha avstängt vidarebefordran
+faq-question-missing-emails-answer-reason-turned-off-2 = Alias kan ha vidarebefordran avstängt
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } kan ta längre tid än vanligt att vidarebefordra dina meddelanden
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
@@ -412,8 +416,10 @@ faq-question-use-cases-question = När ska jag använda { -brand-name-relay }-al
 faq-question-use-cases-question-2 = När ska jag använda { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-use-cases-answer-part1 = Du kan använda { -brand-name-relay }-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
+faq-question-use-cases-answer-part1-2 = Du kan använda { -brand-name-relay } e-post-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
 # Deprecated
 faq-question-use-cases-answer-part2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
+faq-question-use-cases-answer-part2-2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
 # Deprecated
 faq-question-2-question = Varför accepterar inte en webbplats mitt { -brand-name-relay }-alias?
 faq-question-2-question-2 = Varför accepterar inte en webbplats mitt { -brand-name-relay } e-postalias?
@@ -428,8 +434,13 @@ faq-question-2-answer-v4 = Vissa webbplatser kanske inte accepterar en e-postadr
 faq-question-1-question = Hur är det med spam?
 # Deprecated
 faq-question-1-answer-a = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
+faq-question-1-answer-a-2 = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
 # Deprecated
 faq-question-1-answer-b-html = Om du ser ett större problem med oönskad e-post från alla dina alias, <a href="{ $url }" { $attrs }>rapportera detta till oss</a> så att vi kan överväga att justera SES-tröskelvärden för denna service. Om du rapporterar dessa som skräppost, kommer din e-postleverantör att se { -brand-name-relay } som källan till skräppost, inte den ursprungliga avsändaren.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Om du ser ett större problem med oönskad e-post från alla dina alias, <a href="{ $url }" { $attrs }>rapportera detta till oss</a> så att vi kan överväga att justera SES-tröskelvärden för denna service. Om du rapporterar dessa som skräppost, kommer din e-postleverantör att se { -brand-name-relay } som källan till skräppost, inte den ursprungliga avsändaren.
 faq-question-availability-question = Var är { -brand-name-relay } tillgängligt?
 faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-availability-answer-v2 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Finland, Frankrike, Belgien, Österrike, Spanien, Italien, Sverige, Schweiz, Nederländerna, och Irland.
@@ -448,9 +459,11 @@ faq-question-subdomain-characters-answer-v2 = Du kan bara använda små bokstäv
 faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
 # Deprecated
 faq-question-browser-support-answer = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
+faq-question-browser-support-answer-2 = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
 faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
+faq-question-longevity-answer-2 = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay } e-post-alias.
 # Deprecated
 faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
 faq-question-mozmail-question-2 = Varför började mina e-postalias använda domänen "mozmail.com?"
