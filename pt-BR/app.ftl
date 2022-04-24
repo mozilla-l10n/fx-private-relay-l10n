@@ -445,11 +445,11 @@ faq-question-availability-question = Onde o { -brand-name-relay } está disponí
 faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
 faq-question-availability-answer-v2 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, Finlândia, França, Bélgica, Áustria, Espanha, Itália, Suécia, Suíça, Holanda e Irlanda.
 # Deprecated
-faq-question-4-question = Posso responder mensagens usando meu endereço do { -brand-name-relay }?
+faq-question-4-question = Posso responder a mensagens usando meu endereço do { -brand-name-relay }?
 faq-question-4-question-2 = Posso responder a mensagens usando minha máscara de email do { -brand-name-relay }?
 # Deprecated
-faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
-faq-question-4-answer-v4 = Usuários do { -brand-name-relay-premium } podem responder um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder um email, seu endereço de email original é exposto aos destinatários e aos que recebem cópia. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
+faq-question-4-answer-v3 = Usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder a um email, seu endereço de email original é exposto aos destinatários e aos que estão no email. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
+faq-question-4-answer-v4 = Usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder a um email, seu endereço de email original é exposto aos destinatários e aos que recebem cópia. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 # Deprecated
 faq-question-4-answer-html =
     O { -brand-name-relay } ainda não oferece a capacidade de responder usando um endereço de redirecionamento.
@@ -490,11 +490,11 @@ faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço 
 faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições, ao:
+faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições:
 faq-question-acceptable-use-answer-measure-account = Precisa ter uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
 # Deprecated
-faq-question-acceptable-use-answer-measure-unlimited-payment = É preciso pagar para criar mais de cinco endereços de redirecionamento
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = É preciso pagar para um usuário criar mais de cinco máscaras
+faq-question-acceptable-use-answer-measure-unlimited-payment = Precisa pagar para um usuário criar mais de cinco endereços de redirecionamento
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Precisa pagar para um usuário criar mais de cinco máscaras
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = É limitado o número de endereços de redirecionamento que podem ser gerados a cada dia
 faq-question-acceptable-use-answer-measure-rate-limit-2 = É limitado o número de máscaras que podem ser geradas a cada dia
@@ -867,10 +867,10 @@ onboarding-premium-domain-title-3 = Use um subdomínio personalizado para compar
 # Deprecated
 onboarding-premium-domain-description = Com um domínio personalizado, você pode usar um endereço de redirecionamento em “boletim informativo” diferente do endereço de redirecionamento usado em “compras”.
 # Deprecated
-onboarding-premium-reply-title = Responder mensagens sem revelar seu endereço de email real
+onboarding-premium-reply-title = Responder a mensagens sem revelar seu endereço de email real
 onboarding-premium-reply-title-2 = Responda a mensagens sem revelar seu endereço de email real
 # Deprecated
-onboarding-premium-reply-description = Precisa responder mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
+onboarding-premium-reply-description = Precisa responder a mensagens enviadas para um endereço de redirecionamento? Basta responder normalmente, seu endereço de redirecionamento continua protegendo seu email real.
 onboarding-premium-reply-description-2 = Precisa responder a mensagens enviadas para uma máscara? Basta responder normalmente, sua máscara continua protegendo seu email real.
 onboarding-premium-title-detail = Com o { -brand-name-firefox-relay-premium } você pode:
 
@@ -894,7 +894,7 @@ multi-part-onboarding-premium-domain-title = Tenha um domínio personalizado nos
 # Deprecated
 multi-part-onboarding-premium-get-domain = Ter um domínio personalizado
 multi-part-onboarding-premium-get-subdomain = Tenha um subdomínio personalizado
-multi-part-onboarding-reply-headline = Responder seus emails
+multi-part-onboarding-reply-headline = Responder a seus emails
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Chega de limite de cinco endereços de redirecionamento. Agora você pode gerar quantos endereços precisar, personalizados ou aleatórios. No computador, você pode usar a extensão Relay para criar na hora.
 multi-part-onboarding-premium-welcome-description-2 = Chega de limite de cinco máscaras. Agora você pode gerar quantas máscaras precisar, personalizadas ou aleatórias. No computador, você pode usar a extensão { -brand-name-relay } para criar na hora.
