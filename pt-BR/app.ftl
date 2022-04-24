@@ -111,11 +111,17 @@ whatsnew-feature-forward-some-heading = Bloqueio de email promocional
 # length as the English version.
 whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais…
 whatsnew-feature-forward-some-description = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais enviados a um endereço de redirecionamento. Você receberá emails como recibos, mas não emails de propaganda.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Endereços de redirecionamento agora são máscaras
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay } mais fácil de usar e abrir as portas para novos recursos.
 
 ## Bento Menu
@@ -486,7 +492,9 @@ faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -bran
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições, ao:
 faq-question-acceptable-use-answer-measure-account = Exigir uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
+# Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Exigir pagamento para um usuário criar mais de cinco endereços de redirecionamento
+# Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Limitar o número de endereços de redirecionamento que podem ser gerados a cada dia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -629,9 +637,13 @@ profile-promo-email-blocking-option-all = Todos
 profile-promo-email-blocking-option-promotionals = Promocionais
 # Allow/forward all emails sent to a speciic alias
 profile-promo-email-blocking-option-none = Nenhum
+# Deprecated
 profile-promo-email-blocking-description-all = O { -brand-name-relay } está bloqueando todos os emails enviados para este endereço de redirecionamento.
+profile-promo-email-blocking-description-all-2 = O { -brand-name-relay } está bloqueando todos os emails enviados para esta máscara.
 profile-promo-email-blocking-description-promotionals = O { -brand-name-relay } irá tentar bloquear emails promocionais, mas encaminhar emails como recibos e informações de frete.
+# Deprecated
 profile-promo-email-blocking-description-none = O { -brand-name-relay } não está bloqueando nenhum email enviado para este endereço de redirecionamento.
+profile-promo-email-blocking-description-none-2 = O { -brand-name-relay } não está bloqueando nenhum email enviado para esta máscara.
 profile-promo-email-blocking-label-promotionals = Bloquear promoções
 profile-promo-email-blocking-label-none = Bloquear tudo
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
