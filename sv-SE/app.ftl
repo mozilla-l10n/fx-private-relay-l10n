@@ -389,7 +389,7 @@ faq-question-what-is-answer = E-postalias är maskerade e-postadresser som vidar
 faq-question-what-is-answer-2 = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din riktiga e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din riktiga e-postadress och vidarebefordra meddelanden till den.
 # Deprecated
 faq-question-missing-emails-question = Jag får inga meddelanden från mina alias
-faq-question-missing-emails-question-2 = Jag får inga meddelanden från mina e-post-alias
+faq-question-missing-emails-question-2 = Jag får inga meddelanden från mina e-postalias
 # Deprecated
 faq-question-missing-emails-answer-a = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
 faq-question-missing-emails-answer-a-2 = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
@@ -416,7 +416,7 @@ faq-question-use-cases-question = När ska jag använda { -brand-name-relay }-al
 faq-question-use-cases-question-2 = När ska jag använda { -brand-name-relay } e-postalias?
 # Deprecated
 faq-question-use-cases-answer-part1 = Du kan använda { -brand-name-relay }-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
-faq-question-use-cases-answer-part1-2 = Du kan använda { -brand-name-relay } e-post-alias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
+faq-question-use-cases-answer-part1-2 = Du kan använda { -brand-name-relay } e-postalias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
 # Deprecated
 faq-question-use-cases-answer-part2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
 faq-question-use-cases-answer-part2-2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
@@ -463,13 +463,13 @@ faq-question-browser-support-answer-2 = Ja, du kan skapa alias för { -brand-nam
 faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay }-alias.
-faq-question-longevity-answer-2 = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay } e-post-alias.
+faq-question-longevity-answer-2 = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay } e-postalias.
 # Deprecated
 faq-question-mozmail-question = Varför började mina alias använda domänen "mozmail.com?"
 faq-question-mozmail-question-2 = Varför började mina e-postalias använda domänen "mozmail.com?"
 # Deprecated
 faq-question-mozmail-answer = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, gör också dina e-postalias mycket lättare att komma ihåg än slumpmässiga alias.
-faq-question-mozmail-answer-2 = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postsubdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postsubdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, låter dig skapa e-post-alias som är enkla att komma ihåg.
+faq-question-mozmail-answer-2 = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postunderdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postunderdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, låter dig skapa e-postalias som är enkla att komma ihåg.
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
 # Deprecated
@@ -782,8 +782,10 @@ modal-custom-alias-picker-heading = Skapa ett nytt anpassat alias
 modal-custom-alias-picker-heading-2 = Skapa ett nytt anpassat e-postalias
 # Deprecated
 modal-custom-alias-picker-warning = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän —alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+modal-custom-alias-picker-warning-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade subdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
 # Deprecated
 modal-custom-alias-picker-form-heading = Eller skapa ett anpassat alias manuellt
+modal-custom-alias-picker-form-heading-2 = Eller skapa ett anpassat alias manuellt
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Ange aliasprefix
 modal-custom-alias-picker-form-prefix-label-2 = Ange prefix för e-postalias
@@ -795,28 +797,35 @@ modal-custom-alias-picker-form-submit-label = Generera alias
 modal-custom-alias-picker-form-submit-label-2 = Generera e-postalias
 # Deprecated
 modal-custom-alias-picker-creation-error = Ditt anpassade alias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till alias för att skapa det.
+modal-custom-alias-picker-creation-error-2 = Ditt anpassade e-postalias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till ditt alias för att skapa det.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Hur man skapar anpassade alias
+popover-custom-alias-explainer-heading-2 = Hur man skapar anpassade alias
 # Deprecated
 popover-custom-alias-explainer-explanation = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Skapa ett anpassat alias manuellt
+popover-custom-alias-explainer-generate-button-heading-2 = Skapa ett anpassat alias manuellt
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Skapa anpassade alias
+popover-custom-alias-explainer-generate-button-label-2 = Skapa anpassat alias
 popover-custom-alias-explainer-close-button-label = Stäng
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Blockera reklammeddelanden
 popover-custom-alias-explainer-promotional-block-tooltip = Aktivera blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivera Blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Skapa alias med din anpassade domän
+tips-custom-alias-heading-2 = Skapa alias med din anpassade subdomän
 # Deprecated
 tips-custom-alias-content = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+tips-custom-alias-content-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade subdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
 
 ## Tip about using custom aliases
 
@@ -834,6 +843,7 @@ onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt förs
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
 # Deprecated
 onboarding-alias-tip-3 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
+onboarding-alias-tip-3-2 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
 
 ## Premium Onboarding
 
@@ -844,16 +854,20 @@ onboarding-premium-feature-intro = Med { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Kontrollera vilka e-postmeddelanden du får
 # Deprecated
 onboarding-premium-control-description = Dela obegränsade e-postalias som vidarebefordrar e-postmeddelanden du faktiskt vill ha till din inkorg.
+onboarding-premium-control-description-2 = Dela obegränsade e-postalias som vidarebefordrar e-postmeddelanden du faktiskt vill ha till din inkorg.
 # Deprecated
 onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
 # Deprecated
 onboarding-premium-domain-title-2 = Använd en anpassad domän för att dela alias:
+onboarding-premium-domain-title-3 = Använd en anpassad subdomän för att dela alias:
 # Deprecated
 onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
 # Deprecated
 onboarding-premium-reply-title = Svara på e-post utan att ge bort din riktiga adress
+onboarding-premium-reply-title-2 = Svara på e-post utan att ge bort din riktiga adress
 # Deprecated
 onboarding-premium-reply-description = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
+onboarding-premium-reply-description-2 = Behöver du svara på e-postmeddelanden som skickats till ett alias? Svara bara som vanligt — ditt alias kommer fortfarande att skydda din e-postadress.
 onboarding-premium-title-detail = Med { -brand-name-firefox-relay-premium } kan du:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -879,6 +893,7 @@ multi-part-onboarding-premium-get-subdomain = Skaffa en anpassad underdomän
 multi-part-onboarding-reply-headline = Svara på dina mejl
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda Relay-tillägget för att skapa dem när du behöver.
+multi-part-onboarding-premium-welcome-description-2 = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda tillägget { -brand-name-relay } för att skapa dem när du behöver.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Med hjälp av en egen domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela.
@@ -887,17 +902,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Med en anpassad domän kan du skapa alias utan att behöva generera dem i förväg.
     Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customdomain{ $mozmail }"
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Med en anpassad subdomän kan du skapa alias utan att behöva generera dem i förväg.
+    Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customsubdomain{ $mozmail }"
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
 multi-part-onboarding-premium-domain-cta-2 = Registrera din anpassade underdomän nu:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
+multi-part-onboarding-premium-domain-button-skip-2 = Fortsätt, jag kommer att registrera min egen subdomän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Svara på e-post utan att ge bort din riktiga adress:
 multi-part-onboarding-premium-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Tillägget { -brand-name-relay } för { -brand-name-firefox } gör det ännu enklare att använda e-postalias.
+multi-part-onboarding-premium-extension-get-description-2 = Tillägget { -brand-name-relay } för { -brand-name-firefox } gör det ännu enklare att använda e-postalias.
 multi-part-onboarding-premium-extension-button-download = Hämta tillägget { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda e-postalias.
@@ -911,8 +933,14 @@ multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 modal-rename-alias-saved = Etikett sparad!
 # Deprecated
 modal-delete-headline = Vill du ta bort detta alias permanent?
+modal-delete-headline-2 = Vill du radera detta e-post-alias permanent?
 # Deprecated
 modal-delete-warning-recovery-html =
+    När du har tagit bort detta alias kan det inte återställas.
+    { -brand-name-firefox-relay } vidarebefordrar inte längre meddelanden som skickas till <strong>{ $email }</strong>, inklusive meddelanden som gör att du kan återställa förlorade lösenord.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
     När du har tagit bort detta alias kan det inte återställas.
     { -brand-name-firefox-relay } vidarebefordrar inte längre meddelanden som skickas till <strong>{ $email }</strong>, inklusive meddelanden som gör att du kan återställa förlorade lösenord.
 # Deprecated
