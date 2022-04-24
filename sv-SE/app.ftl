@@ -206,9 +206,15 @@ landing-how-it-works-step-3-body-2 =
 
 # Deprecated
 landing-pricing-headline = Endast för en begränsad tid: Obegränsade alias för { $monthly_price } per månad
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Endast för en begränsad tid: Obegränsade alias för { $monthly_price } per månad
 # Deprecated
 landing-pricing-body =
     Prova { -brand-name-firefox-relay }-alias och börja skydda din inkorg.
+    Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
+landing-pricing-body-2 =
+    Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
     Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
 landing-pricing-free-price = Gratis
 # Deprecated
@@ -239,6 +245,9 @@ landing-use-cases-shopping = Shopping
 # Deprecated
 landing-use-cases-shopping-body =
     Köper du något från en ny webbshop? Använd ett { -brand-name-relay }-alias istället för din e-post när du gör ett köp online.
+    Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
+landing-use-cases-shopping-body-2 =
+    Köper du något från en ny webbshop? Använd ett e-postalias istället för din e-post när du gör ett köp online.
     Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
 landing-use-cases-social-networks = Sociala nätverk
 # Deprecated
