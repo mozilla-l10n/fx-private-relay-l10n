@@ -491,11 +491,13 @@ faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -bran
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições, ao:
-faq-question-acceptable-use-answer-measure-account = Exigir uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
+faq-question-acceptable-use-answer-measure-account = Precisa ter uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
 # Deprecated
-faq-question-acceptable-use-answer-measure-unlimited-payment = Exigir pagamento para um usuário criar mais de cinco endereços de redirecionamento
+faq-question-acceptable-use-answer-measure-unlimited-payment = É preciso pagar para criar mais de cinco endereços de redirecionamento
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = É preciso pagar para um usuário criar mais de cinco máscaras
 # Deprecated
-faq-question-acceptable-use-answer-measure-rate-limit = Limitar o número de endereços de redirecionamento que podem ser gerados a cada dia
+faq-question-acceptable-use-answer-measure-rate-limit = É limitado o número de endereços de redirecionamento que podem ser gerados a cada dia
+faq-question-acceptable-use-answer-measure-rate-limit-2 = É limitado o número de máscaras que podem ser geradas a cada dia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Consulte mais informações em nossos <a href="{ $url }" { $attrs }>termos do serviço</a>.
