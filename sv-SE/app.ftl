@@ -305,6 +305,7 @@ premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för 
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade domän för att göra hanteringen av din inkorg ännu enklare.
+premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade subdomän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
 premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
 # Deprecated
@@ -312,26 +313,33 @@ premium-promo-perks-perk-unlimited-headline = Skapa ett obegränsat antal e-post
 premium-promo-perks-perk-unlimited-headline-2 = Skapa obegränsat antal e-postalias
 # Deprecated
 premium-promo-perks-perk-unlimited-body = Ingen gräns med fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
+premium-promo-perks-perk-unlimited-body-2 = Ingen gräns på fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
 premium-promo-perks-perk-custom-domain-headline = Välj din egen anpassade domän
 premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Med en anpassad domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
+premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad subdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Styr dina alias från översikten
+premium-promo-perks-perk-dashboard-headline-2 = Styr dina alias från översikten
 # Deprecated
 premium-promo-perks-perk-dashboard-body = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
+premium-promo-perks-perk-dashboard-body-2 = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
 # Deprecated
 premium-promo-use-cases-headline = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-shopping-heading = Shopping
 # Deprecated
 premium-promo-use-cases-shopping-body = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under unika anpassade alias, som "mydeals@mydomain.mozmail.com."
+premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-post-alias, som "mydeals@mydomain.mozmail.com."
 premium-promo-use-cases-social-networks-heading = Sociala nätverk
 # Deprecated
 premium-promo-use-cases-social-networks-body = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett annat { -brand-name-relay }-alias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
+premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-post-alias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
 premium-promo-use-cases-gaming-heading = Spel
 # Deprecated
 premium-promo-use-cases-gaming-body = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
+premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
 premium-promo-pricing-free-price = Din nuvarande gratisplan
 
 ## Settings page
@@ -347,14 +355,21 @@ settings-error-save-heading = Inställningsändringen misslyckades
 settings-error-save-description = Dina ändringar i inställningarna sparades inte på grund av ett anslutningsfel. Var god försök igen.
 # Deprecated
 settings-warning-collection-off-heading = Etikettfunktionen för e-postalias är inaktiverad
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Etikettfunktionen för e-postalias är inaktiverad
 # Deprecated
 settings-warning-collection-off-description = { -brand-name-relay } får för närvarande inte samla in data som visar webbplatserna där du har skapat och använt e-postalias. Du kan ändra detta i "Inställningar" under "Datainsamling".
+# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } får för närvarande inte samla in data som visar webbplatserna där du har skapat och använt e-postalias. Du kan ändra detta i "Inställningar" under "Datainsamling".
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Integritet
 # Deprecated
 setting-label-collection-description = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
+setting-label-collection-description-2 = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
 # Deprecated
 setting-label-collection-off-warning = Denna information gör att vi kan märka dina alias med relevanta webbplatser i en framtida version. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
+# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Med denna data kan vi märka dina e-post-alias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
 settings-button-save-label = Spara
 settings-button-save-tooltip = Tillämpa dina valda inställningar.
 
