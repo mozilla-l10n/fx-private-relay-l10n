@@ -608,7 +608,9 @@ profile-stat-label-aliases-used-2 = E-postalias som används
 profile-filter-search-placeholder = Sök efter alias
 profile-filter-search-placeholder-2 = Sök efter e-postalias
 profile-filter-category-button-label = Filtrera synliga e-postalias
+profile-filter-category-button-tooltip = Filtrera alias efter underdomän och/eller om de för närvarande blockerar inkommande e-post
 profile-filter-category-title = Filtrera synliga e-postalias
+profile-filter-no-results = Inga alias matchar dina valda kriterier. <clear-button>Rensa alla filter.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Vidarebefordrade alias
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
@@ -617,6 +619,8 @@ profile-filter-category-option-active-masks = Vidarebefordrade e-postalias
 profile-filter-category-option-disabled-aliases-v2 = Blockerade alias
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Blockerade e-postalias
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Alias som blockerar marknadsföring
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Slumpmässiga alias
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
@@ -649,6 +653,7 @@ profile-promo-email-blocking-label-not-forwarding = Vidarebefordrar inte
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Ignorera
 banner-bounced-headline = { -brand-name-relay } kunde inte leverera din e-post.
 # Variables:
 #   $username (string) - Username
@@ -763,6 +768,12 @@ error-subdomain-not-available = Domänen @{ $unavailable_subdomain } är inte ti
 error-subdomain-not-available-2 = Underdomänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan.
 error-settings-update = Det uppstod ett fel när dina inställningar skulle uppdateras, försök igen
 error-mask-create-failed = E-postalias kunde inte skapas. Var god försök igen
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Aliasdata kunde inte uppdateras. Var god försök igen.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Alias { $mask } kunde inte raderas. Var god försök igen.
 
 ## Tips and tricks at the bottom of the page
 
@@ -806,6 +817,7 @@ popover-custom-alias-explainer-heading = Hur man skapar anpassade alias
 popover-custom-alias-explainer-heading-2 = Hur man skapar anpassade alias
 # Deprecated
 popover-custom-alias-explainer-explanation = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
+popover-custom-alias-explainer-explanation-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade underdomän — ett alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Skapa ett anpassat alias manuellt
 popover-custom-alias-explainer-generate-button-heading-2 = Skapa ett anpassat alias manuellt
@@ -859,7 +871,7 @@ onboarding-premium-control-description-2 = Dela obegränsade e-postalias som vid
 onboarding-premium-domain-title = Använd en anpassad domän för att dela alias
 # Deprecated
 onboarding-premium-domain-title-2 = Använd en anpassad domän för att dela alias:
-onboarding-premium-domain-title-3 = Använd en anpassad subdomän för att dela alias:
+onboarding-premium-domain-title-3 = Använd en anpassad underdomän för att dela alias:
 # Deprecated
 onboarding-premium-domain-description = Med en anpassad domän kan du göra ditt "nyhetsbrev"-alias annorlunda än ditt "shopping"-alias.
 # Deprecated
@@ -905,14 +917,14 @@ multi-part-onboarding-premium-get-domain-description-2 =
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-3 =
-    Med en anpassad subdomän kan du skapa alias utan att behöva generera dem i förväg.
+    Med en anpassad underdomän kan du skapa alias utan att behöva generera dem i förväg.
     Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customsubdomain{ $mozmail }"
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Registrera din egen domän nu:
 multi-part-onboarding-premium-domain-cta-2 = Registrera din anpassade underdomän nu:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Fortsätt, jag kommer att registrera min egen domän senare
-multi-part-onboarding-premium-domain-button-skip-2 = Fortsätt, jag kommer att registrera min egen subdomän senare
+multi-part-onboarding-premium-domain-button-skip-2 = Fortsätt, jag kommer att registrera min egen underdomän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Svara på e-post utan att ge bort din riktiga adress:
@@ -933,7 +945,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 modal-rename-alias-saved = Etikett sparad!
 # Deprecated
 modal-delete-headline = Vill du ta bort detta alias permanent?
-modal-delete-headline-2 = Vill du radera detta e-post-alias permanent?
+modal-delete-headline-2 = Vill du radera detta e-postalias permanent?
 # Deprecated
 modal-delete-warning-recovery-html =
     När du har tagit bort detta alias kan det inte återställas.
