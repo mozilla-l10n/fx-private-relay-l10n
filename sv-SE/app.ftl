@@ -254,15 +254,26 @@ landing-use-cases-social-networks = Sociala nätverk
 landing-use-cases-social-networks-body =
     Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk?
     Försöker du hindra din riktiga e-postadress från att vara knuten till din närvaro på sociala medier? Använd ett { -brand-name-relay }-alias för att logga in och skydda dig själv online.
+landing-use-cases-social-networks-body-2 =
+    Vill du skydda din onlineidentitet bättre när du använder ett socialt nätverk?
+    Försöker du förhindra din riktiga e-postadress från att vara knuten till din närvaro på sociala medier? Använd ett { -brand-name-relay } alias för att logga in och skydda dig själv online.
 landing-use-cases-offline = Offline
 # Deprecated
 landing-use-cases-offline-body =
     Föredrar du att få e-postkvitton, men vill du också undvika marknadsföring av skräppost?
     Använd ett { -brand-name-relay }-alias istället för din e-postadress när du får ett papperslöst kvitto i en butik.
     Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
+landing-use-cases-offline-body-2 =
+    Föredrar du att få e-postkvitton, men vill du också undvika marknadsföring av skräppost?
+    Använd ett { -brand-name-relay } alias istället för din e-postadress när du får ett papperslöst kvitto i en butik.
+    Vi vidarebefordrar kvittot till din riktiga e-postadress och om du börjar få e-postmeddelanden som du inte gillar stänger du bara av vidarebefordran av e-post.
 landing-use-cases-access-content = Åtkomst till innehåll
 # Deprecated
 landing-use-cases-access-content-body =
+    Vill du registrera dig för nyhetsbrev, men du litar inte på avsändaren?
+    Använd ett alias istället för din riktiga e-postadress — om du börjar få oönskade e-postmeddelanden via det alias kan avsändaren ha sålt ditt alias till andra marknadsförare eller det kan till och med ha läckt ut i ett dataintrång.
+    Stäng bara av eller ta bort alias för att skydda din inkorg.
+landing-use-cases-access-content-body-2 =
     Vill du registrera dig för nyhetsbrev, men du litar inte på avsändaren?
     Använd ett alias istället för din riktiga e-postadress — om du börjar få oönskade e-postmeddelanden via det alias kan avsändaren ha sålt ditt alias till andra marknadsförare eller det kan till och med ha läckt ut i ett dataintrång.
     Stäng bara av eller ta bort alias för att skydda din inkorg.
@@ -271,6 +282,9 @@ landing-use-cases-gaming = Spel
 landing-use-cases-gaming-body =
     Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
     Använd ett { -brand-name-relay }-alias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
+landing-use-cases-gaming-body-2 =
+    Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
+    Använd ett e-postalias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
 
 ## Landing FAQ Section
 
@@ -282,8 +296,12 @@ landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
 premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
 # Deprecated
 premium-promo-hero-body-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till Relay Premium för endast { $monthly_price } i månaden.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till { -brand-name-relay-premium } för endast { $monthly_price } i månaden.</b>
 premium-promo-hero-cta = Uppgradera nu
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade domän för att göra hanteringen av din inkorg ännu enklare.
@@ -851,13 +869,21 @@ modal-delete-warning-recovery-html =
 modal-delete-warning-upgrade =
     Om du använder detta alias för att logga in på webbplatser du bryr dig om,
     bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
+modal-delete-warning-upgrade-2 =
+    Om du använder detta e-postalias för att logga in på webbplatser du bryr dig om,
+    bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
 # Deprecated
 modal-delete-domain-address-warning-upgrade =
     Om du använder detta alias för att logga in på webbplatser du bryr dig om,
     bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
     Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
+modal-delete-domain-address-warning-upgrade-2 =
+    Om du använder detta alias för att logga in på webbplatser du bryr dig om,
+    bör du uppdatera din inloggning med en annan e-postadress innan du tar bort den här.
+    Om du återskapar ett raderat alias kommer e-postmeddelanden som skickas till det ursprungliga alias att fortsätta att vidarebefordras.
 # Deprecated
 modal-delete-confirmation = Ja, jag vill ta bort detta alias.
+modal-delete-confirmation-2 = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
 # Deprecated
 modal-domain-register-warning-reminder = Kom ihåg att du bara kan registrera en domän. Du kommer inte att kunna ändra den senare.
@@ -945,12 +971,18 @@ vpn-promo-cta = Hämta { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Det här meddelandet vidarebefordrades från { $display_email } av { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
 # Deprecated
 forwarded-email-header-premium-banner = Uppgradera till { $premium_link } för att få obegränsade alias och en anpassad e-postdomän.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Uppgradera till { $premium_link } för att få obegränsade e-postalias och en anpassad e-postunderdomän.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek. Mer information finns i vår { $faq_link }.
 # Deprecated
 forwarded-email-footer = Sluta vidarebefordra e-post och hantera inställningar för alla alias här.
+# This entire text is a link
+forwarded-email-footer-2 = Sluta vidarebefordra e-post och hantera inställningar för alla alias här.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-premium }
