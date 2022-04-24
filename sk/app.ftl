@@ -534,8 +534,10 @@ faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } má ro
 faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalisation: "lowercase") } s overenou e-mailovou adresou
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Vyžaduje sa platba od používateľa za vytvorenie viac ako piatich aliasov
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Vyžaduje platbu od používateľa za vytvorenie viac ako piatich masiek
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Obmedzuje sa počet aliasov, ktoré je možné vygenerovať za jeden deň
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Obmedzuje sa počet masiek, ktoré je možné vygenerovať za jeden deň
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Ďalšie informácie nájdete v našich <a href="{ $url }" { $attrs }>Podmienkach používania služby</a>.
@@ -679,9 +681,11 @@ profile-promo-email-blocking-option-promotionals = Marketingové
 profile-promo-email-blocking-option-none = Žiadne
 # Deprecated
 profile-promo-email-blocking-description-all = { -brand-name-relay } blokuje všetky e-maily odoslané na tento alias.
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všetky e-maily odoslané na túto masku.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } sa pokúsi zablokovať marketingové e-maily a zároveň preposielať e-maily, ako sú potvrdenia o prečítaní a informácie o dodaní vašich objednávok.
 # Deprecated
 profile-promo-email-blocking-description-none = { -brand-name-relay } neblokuje žiadne e-maily odoslané na tento alias.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žiadne e-maily odoslané na túto masku.
 profile-promo-email-blocking-label-promotionals = Blokovať marketingové
 profile-promo-email-blocking-label-none = Blokovať všetky
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
