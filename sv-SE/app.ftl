@@ -477,7 +477,7 @@ faq-question-unsubscribe-domain-question = Vad händer med min anpassade domän 
 faq-question-unsubscribe-domain-question-2 = Vad händer med min anpassade underdomän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via din anpassade domän, men du kan inte längre skapa nya alias med den domänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan prenumerera igen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
-faq-question-unsubscribe-domain-answer-2 = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via dina anpassade e-post-alias, men du kan inte längre skapa nya alias med den subdomänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan återuppta prenumerationen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
+faq-question-unsubscribe-domain-answer-2 = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via dina anpassade e-postalias, men du kan inte längre skapa nya alias med den underdomänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan återuppta prenumerationen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Deprecated
 faq-question-8-answer-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
@@ -674,7 +674,7 @@ banner-download-install-chrome-extension-cta = Hämta tillägget { -brand-name-r
 banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade aliasdomäner och obegränsade alias.
-banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade subdomäner och obegränsade alias.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade underdomäner och obegränsade alias.
 banner-upgrade-cta = Uppgradera till { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Viktig åtgärd
@@ -697,10 +697,10 @@ banner-register-subdomain-copy =
 # Variables:
 #   $mozmail (string): domain used by Relay aliases (mozmail.com)
 banner-register-subdomain-copy-2 =
-    Med en anpassad subdomän kan du dela alias som inte behöver genereras
+    Med en anpassad underdomän kan du dela alias som inte behöver genereras
     innan du använder dem. Behöver du en för bokning? Ge
     "restaurang@dindomän.{ $mozmail }" till restaurangen. Alla alias som
-    använder din anpassade subdomän kommer att vidarebefordras till dig.
+    använder din anpassade underdomän kommer att vidarebefordras till dig.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Sök efter domän
 # Deprecated
@@ -713,7 +713,7 @@ banner-pack-upgrade-headline-html = Uppgradera till <strong>{ -brand-name-firefo
 banner-pack-upgrade-headline-2-html = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att få flera e-postalias
 # Deprecated
 banner-pack-upgrade-copy = Med obegränsade e-postalias och din egen e-postdomän hjälper { -brand-name-firefox } { -brand-name-relay-premium } dig att hålla dig skyddad online.
-banner-pack-upgrade-copy-2 = Med obegränsade e-postalias och din egen e-postsubdomän hjälper { -brand-name-firefox-relay-premium } dig att hålla dig skyddad online.
+banner-pack-upgrade-copy-2 = Med obegränsade e-postalias och din egen e-postunderdomän hjälper { -brand-name-firefox-relay-premium } dig att hålla dig skyddad online.
 banner-pack-upgrade-cta = Uppgradera nu
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Uppdatering av sekretesspolicy
@@ -782,7 +782,7 @@ modal-custom-alias-picker-heading = Skapa ett nytt anpassat alias
 modal-custom-alias-picker-heading-2 = Skapa ett nytt anpassat e-postalias
 # Deprecated
 modal-custom-alias-picker-warning = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän —alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
-modal-custom-alias-picker-warning-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade subdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
+modal-custom-alias-picker-warning-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade underdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
 # Deprecated
 modal-custom-alias-picker-form-heading = Eller skapa ett anpassat alias manuellt
 modal-custom-alias-picker-form-heading-2 = Eller skapa ett anpassat alias manuellt
@@ -822,10 +822,10 @@ popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivera Blockera r
 
 # Deprecated
 tips-custom-alias-heading = Skapa alias med din anpassade domän
-tips-custom-alias-heading-2 = Skapa alias med din anpassade subdomän
+tips-custom-alias-heading-2 = Skapa alias med din anpassade underdomän
 # Deprecated
 tips-custom-alias-content = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade domän — alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
-tips-custom-alias-content-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade subdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
+tips-custom-alias-content-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade underdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
 
 ## Tip about using custom aliases
 
