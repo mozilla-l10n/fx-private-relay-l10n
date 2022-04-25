@@ -110,6 +110,9 @@ whatsnew-feature-forward-some-heading = Pemblokiran surel promosi
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi yang dikirim ke alias. Anda akan menerima surel berbentuk tanda terima, bukan surel pemasaran.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Kini, alias berubah jadi masker
 
 ## Bento Menu
 
