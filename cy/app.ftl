@@ -875,21 +875,29 @@ onboarding-premium-control-description-2 = Rhannwch arallenwau e-bost diderfyn s
 onboarding-premium-domain-title = Defnyddio parth personol ar gyfer rhannu arallenwau
 # Deprecated
 onboarding-premium-domain-title-2 = Defnyddiwch barth cyfaddas ar gyfer rhannu arallenwau:
+onboarding-premium-domain-title-3 = Defnyddiwch barth personol ar gyfer rhannu arallenwau:
 # Deprecated
 onboarding-premium-domain-description = Gyda pharth personol, gallwch wneud eich arallenw “cylchlythyr” yn wahanol i'ch arallenw “siopa”.
 # Deprecated
 onboarding-premium-reply-title = Ymateb i e-byst heb ddatgelu eich cyfeiriad go iawn
+onboarding-premium-reply-title-2 = Atebwch e-byst heb ddatgelu eich cyfeiriad go iawn
 # Deprecated
 onboarding-premium-reply-description = Angen ymateb i e-byst rydych wedi'u hanfon at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
+onboarding-premium-reply-description-2 = Angen ymateb i e-byst anfonwyd at arallenw? Atebwch fel arfer - bydd eich arallenw'n dal i ddiogelu'ch cyfeiriad e-bost.
 onboarding-premium-title-detail = Gyda { -brand-name-firefox-relay-premium } gallwch:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Cam { $step } o { $max }.
 multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'n taro'ch blwch derbyn, un e-bost ar y tro.
 multi-part-onboarding-premium-welcome-title = Rheolwch pa e-byst rydych yn eu derbyn:
 # Deprecated
 multi-part-onboarding-premium-generate-unlimited-title = Crëu arallenwau e-bost dirifedi:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Crëwch e-byst arallenwau diderfyn:
 multi-part-onboarding-premium-welcome-button-start = Cychwyn Arni
 # Deprecated
 multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu arallenwau
@@ -897,9 +905,11 @@ multi-part-onboarding-premium-domain-headline = Parth personol ar gyfer rhannu a
 multi-part-onboarding-premium-domain-title = Cael parth personol ar gyfer eich arallenwau:
 # Deprecated
 multi-part-onboarding-premium-get-domain = Cael parth cyfaddas
+multi-part-onboarding-premium-get-subdomain = Cael is-parth personol
 multi-part-onboarding-reply-headline = Ateb i'ch e-byst
 # Deprecated
 multi-part-onboarding-premium-welcome-description = Dim mwy o ddim ond pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau cyfaddas neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn Relay i'w creu yn ôl yr angen.
+multi-part-onboarding-premium-welcome-description-2 = Dim mwy o derfyn pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau personol neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn { -brand-name-relay } i'w creu yn ôl yr angen.
 # Deprecated
 multi-part-onboarding-premium-domain-description =
     Gan ddefnyddio parth personol, gallwch greu arallenwau sy'n haws nag erioed i'w cofio a'u rhannu.
@@ -908,16 +918,24 @@ multi-part-onboarding-premium-domain-description =
 multi-part-onboarding-premium-get-domain-description-2 =
     Gyda pharth cyfaddas, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
     Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Gydag is-barth personol, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
+    Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Cofrestrwch eich parth personol nawr:
+multi-part-onboarding-premium-domain-cta-2 = Cofrestrwch eich is-barth personol nawr:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Parhau, byddaf yn cofrestru fy mharth personol yn nes ymlaen
+multi-part-onboarding-premium-domain-button-skip-2 = Parhau, byddaf yn cofrestru fy is-barth personol yn nes ymlaen
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Ateb e-byst heb ddatgelu eich cyfeiriad go iawn:
 multi-part-onboarding-premium-extension-get-title = Cael estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
 # Deprecated
 multi-part-onboarding-premium-extension-get-description = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } yn gwneud defnyddio arallenwau e-bost yn haws.
+multi-part-onboarding-premium-extension-get-description-2 = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox } yn gwneud defnyddio arallenwau e-bost yn haws.
 multi-part-onboarding-premium-extension-button-download = Cael Estyniad { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Cael yr estyniad { -brand-name-relay } ar gyfer { -brand-name-google-chrome }
 multi-part-onboarding-premium-chrome-extension-get-description = Mae'r estyniad { -brand-name-firefox-relay } ar gyfer { -brand-name-chrome } yn gwneud creu a defnyddio arallenwau yn haws.
@@ -931,12 +949,21 @@ multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
 modal-rename-alias-saved = Label wedi’i gadw!
 # Deprecated
 modal-delete-headline = Dileu'r arallenw hwn am byth?
+modal-delete-headline-2 = Dileu'r arallenw hwn yn barhaol?
 # Deprecated
 modal-delete-warning-recovery-html =
     Ar ôl i chi ddileu'r arallenw hwn, nid oes modd ei adfer.
     Ni fydd { -brand-name-firefox-relay } bellach yn anfon negeseuon sy'n cael eu hanfon at <strong>{ $email }</strong>, gan gynnwys negeseuon sy'n caniatáu i chi ailosod cyfrineiriau coll.
+# Variables:
+#   $email (string) - The relay alias (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Ar ôl i chi ddileu'r arallenw hwn, nid oes modd ei adfer.
+    Ni fydd { -brand-name-firefox-relay } bellach yn anfon negeseuon sy'n cael eu hanfon at <strong>{ $email }</strong>, gan gynnwys negeseuon sy'n caniatáu i chi ailosod cyfrineiriau coll.
 # Deprecated
 modal-delete-warning-upgrade =
+    Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n eu hoffi,
+    dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu hwn.
+modal-delete-warning-upgrade-2 =
     Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n eu hoffi,
     dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu hwn.
 # Deprecated
@@ -944,27 +971,54 @@ modal-delete-domain-address-warning-upgrade =
     Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n poeni amdanyn nhw,
     dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu'r un hwn.
     Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
+modal-delete-domain-address-warning-upgrade-2 =
+    Os ydych chi'n defnyddio'r arallenw hwn i fewngofnodi i wefannau rydych chi'n poeni amdanyn nhw,
+    dylech ddiweddaru'ch mewngofnod gyda chyfeiriad e-bost gwahanol cyn i chi ddileu'r un hwn.
+    Os ydych chi'n ail-greu arallenw wedi'i ddileu, bydd e-byst a anfonwyd at yr arallenw arall yn parhau i gael eu hanfon ymlaen.
 # Deprecated
 modal-delete-confirmation = Ydw, rwyf am ddileu'r arallenw hwn.
+modal-delete-confirmation-2 = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
 # Deprecated
 modal-domain-register-warning-reminder = Cofiwch, dim ond un parth y gallwch chi ei gofrestru. Fyddwch chi ddim yn gallu ei newid yn nes ymlaen.
+modal-domain-register-warning-reminder-2 = Cofiwch, dim ond un is-barth y gallwch chi ei gofrestru. Fyddwch chi ddim yn gallu ei newid yn nes ymlaen.
 # Deprecated
 modal-domain-register-button = Cofrestru Parth
+modal-domain-register-button-2 = Cofrestru Is-barth
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = Mae { $subdomain } ar gael!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain>Mae<domain>. { $domain }</domain> ar gael!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ydw, rydw i eisiau cofrestru <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Llwyddiant!
 # Deprecated
 modal-domain-register-success = Nawr{ $subdomain } yw eich parth e-bost!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } yw eich is-barth e-bost!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>. { $domain }</domain> yw eich is-barth e-bost!
 # Deprecated
 modal-domain-register-success-copy = Nawr gallwch greu arallenwau e-bost didiwedd gan ddefnyddio'ch parth newydd! Ffwrdd â ni!
+modal-domain-register-success-copy-2 = Nawr gallwch chi greu arallenwau e-bost personol diderfyn!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Awgrym { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1011,12 +1065,18 @@ vpn-promo-cta = Cael { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } gan { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
+forwarded-email-header-cc-notice-2 = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
 # Deprecated
 forwarded-email-header-premium-banner = Uwchraddiwch i { $premium_link } i gael arallenwau dirifedi a pharth e-bost cyfaddas.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Uwchraddiwch i { $premium_link } i gael arallenwau diderfyn ac is-barth e-bost personol.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
 # Deprecated
 forwarded-email-footer = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
+# This entire text is a link
+forwarded-email-footer-2 = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premium }
