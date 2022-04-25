@@ -745,8 +745,11 @@ banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $s
 success-subdomain-registered = Din domän @{ $subdomain } har skapats
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Din underdomän @{ $subdomain } har skapats
 success-settings-update = Dina inställningar har uppdaterats
+success-signed-out-message = Du har loggat ut.
+success-signed-in-message = Inloggad som { $username }.
 
 ## Error Messages
 
