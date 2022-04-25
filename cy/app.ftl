@@ -870,6 +870,7 @@ onboarding-premium-feature-intro = Gyda { -brand-name-firefox }{ -brand-name-rel
 onboarding-premium-control-title = Rheoli pa e-byst rydych yn eu derbyn
 # Deprecated
 onboarding-premium-control-description = Rhannu arallenwau e-bost dirifedi sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
+onboarding-premium-control-description-2 = Rhannwch arallenwau e-bost diderfyn sy'n anfon yr e-byst rydych wir eu heisiau i'ch blwch derbyn.
 # Deprecated
 onboarding-premium-domain-title = Defnyddio parth personol ar gyfer rhannu arallenwau
 # Deprecated
