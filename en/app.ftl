@@ -330,6 +330,22 @@ premium-promo-use-cases-gaming-body-2 = Worried about other gamers or trolls lea
 
 premium-promo-pricing-free-price = Your current Free plan
 
+## The Premium waitlist page
+
+waitlist-heading = Join the { -brand-name-relay-premium } Waitlist
+waitlist-lead = Get notified when { -brand-name-firefox-relay-premium } is available for your region.
+waitlist-control-required = Required
+waitlist-control-email-label = What is your email address?
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = What country do you live in?
+waitlist-control-locale-label = Select your preferred language.
+waitlist-submit-label = Join the Waitlist
+waitlist-privacy-policy-agree = By clicking “Join the waitlist”, you agree to our <a>Privacy Policy</a>.
+waitlist-privacy-policy-use = Your information will only be used to notify you about { -brand-name-firefox-relay-premium } availability.
+waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
+waitlist-subscribe-error-connection = There was an error adding you to the waitlist. Please check your connection, then try again.
+waitlist-subscribe-error-unknown = There was an error adding you to the waitlist. Please try again.
+
 ## Settings page
 
 settings-headline = { -brand-name-relay } Settings
