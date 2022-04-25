@@ -754,8 +754,11 @@ banner-choose-subdomain-description = U kunt elk adres @{ $subdomain } verzinnen
 success-subdomain-registered = Uw domein @{ $subdomain } is aangemaakt
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Uw subdomein @{ $subdomain } is aangemaakt
 success-settings-update = Uw instellingen zijn bijgewerkt
+success-signed-out-message = U bent afgemeld.
+success-signed-in-message = Succesvol aangemeld als
 
 ## Error Messages
 
