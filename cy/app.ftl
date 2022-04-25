@@ -540,19 +540,30 @@ profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
 profile-label-generate-new-alias-2 = Cynhyrchu arallenw newydd
 # Deprecated
 profile-label-generate-new-alias-menu-random = Arallenwau ar Hap
+profile-label-generate-new-alias-menu-random-2 = Arallenw e-bost ar hap
 # Deprecated
 profile-label-generate-new-alias-menu-custom = Arallenw @{ $subdomain }
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Arallenw @{ $subdomain }
 profile-label-delete = Dileu
 # Deprecated
 profile-label-delete-alias = Dileu'r arallenw hwn
 # Deprecated
+profile-label-delete-alias-2 = Dileu'r arallenw hwn
+# Deprecated
 profile-label-upgrade = Cael arallenwau dirifedi
+profile-label-upgrade-2 = Cael arallenwau diderfyn
 # Deprecated
 profile-label-create-domain = Cael eich parth e-bost
+profile-label-create-subdomain = Cael eich is-barth e-bost
 # Deprecated
 profile-label-domain = Parth E-bost:
+profile-label-subdomain = Is-barth E-bost:
+profile-label-subdomain-tooltip-trigger = Rhagor o wybodaeth
 # Deprecated
 profile-label-domain-tooltip = Creu eich parth e-bost unigryw a phersonol.
+profile-label-subdomain-tooltip = Crëwch eich is-barth e-bost unigryw.
 profile-label-reset = Ailosod
 profile-label-apply = Gosod
 profile-label-skip = Hepgor
@@ -570,19 +581,25 @@ profile-label-forwarding = wedi'i anfon ymlaen
 profile-label-blocking = yn rhwystro
 # Deprecated
 profile-label-disable-forwarding-button = Analluoga anfon e-bost ymlaen ar gyfer yr arallenw hwn
+profile-label-disable-forwarding-button-2 = Analluogi anfon e-bost ymlaen ar gyfer yr arallenw hwn
 # Deprecated
 profile-label-enable-forwarding-button = Analluogi anfon e-bost ymlaen ar gyfer yr arallenw hwn
+profile-label-enable-forwarding-button-2 = Galluogi anfon e-bost ymlaen ar gyfer yr arallenw hwn
 profile-label-click-to-copy = Clicio i'w gopïo
 # Deprecated
 profile-label-copy-confirmation = Arallenw wedi'i gopïo i'r clipfwrdd
+# Deprecated
+profile-label-copy-confirmation-2 = Copïwyd arallenw i’r clipfwrdd
 profile-label-copied = Copïwyd!
 profile-label-blocked = Rhwystrwyd
 profile-label-forwarded = Anfonwyd Ymlaen
 profile-label-cancel = Diddymu
 # Deprecated
 profile-blocked-copy = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
+profile-blocked-copy-2 = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 # Deprecated
 profile-forwarded-copy = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
+profile-forwarded-copy-2 = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-note = Nodyn:
 profile-forwarded-note-copy = Nid yw e-bost (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael ei gefnogi ar hyn o bryd a fyddan nhw ddim yn cael eu hanfon ymlaen.
 profile-forwarded-note-copy-v2 = Ni fydd e-byst (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
@@ -590,16 +607,32 @@ profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 # Deprecated
 profile-stat-label-aliases-used = Arallenwau e-bost wedi'u defnyddio
+profile-stat-label-aliases-used-2 = Arallenwau e-bost wedi'u defnyddio
 # Deprecated
 profile-filter-search-placeholder = Chwilio arallenwau
+profile-filter-search-placeholder-2 = Chwilio arallenwau
+profile-filter-category-button-label = Hidlo arallenwau gweladwy
+profile-filter-category-button-tooltip = Hidlo arallenwau yn ôl is-barth a/neu a ydyn nhw'n rhwystro e-byst sy'n dod i mewn ar hyn o bryd
+profile-filter-category-title = Hidlo arallenwau gweladwy
+profile-filter-no-results = Nid oes unrhyw arallenwau'n cyfateb i'r meini prawf a ddewiswyd gennych. <clear-button>Clirio pob ffilter.</clear-button>
 # Deprecated
 profile-filter-category-option-active-aliases-v2 = Anfon arallenwau ymlaen
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Anfon arallenwau ymlaen
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = Rhwystro arallenwau
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Rhwystro arallenwau
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Arallenwau sy'n rhwystro hyrwyddo
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = Arallenwau ar hap
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Arallenwau ar hap
 # Deprecated
 profile-filter-category-option-domain-based-aliases-v2 = Arallenwau personol
+# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Arallenwau personol
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
@@ -612,9 +645,11 @@ profile-promo-email-blocking-option-promotionals = Hyrwyddol
 profile-promo-email-blocking-option-none = Dim
 # Deprecated
 profile-promo-email-blocking-description-all = Mae { -brand-name-relay } yn rhwystro pob e-bost sy'n cael eu hanfon at yr arallenw hwn.
+profile-promo-email-blocking-description-all-2 = Mae { -brand-name-relay } yn rhwystro pob e-bost sy'n cael eu hanfon at yr arallenw hwn.
 profile-promo-email-blocking-description-promotionals = Bydd { -brand-name-relay } yn ceisio rhwystro e-byst hyrwyddo tra'n parhau i anfon e-byst ymlaen megis derbynebau a manylion cludo.
 # Deprecated
 profile-promo-email-blocking-description-none = Nid yw { -brand-name-relay } yn rhwystro unrhyw e-byst ar gyfer yr arallenw hwn.
+profile-promo-email-blocking-description-none-2 = Nid yw { -brand-name-relay } yn rhwystro unrhyw e-byst ar gyfer yr arallenw hwn.
 profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
 profile-promo-email-blocking-label-none = Rhwystro'r cyfan
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -622,6 +657,7 @@ profile-promo-email-blocking-label-not-forwarding = Ddim yn anfon ymlaen
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Cau
 banner-bounced-headline = Nid yw { -brand-name-relay } wedi gallu anfon eich e-bost.
 # Variables:
 #   $username (string) - Username
@@ -634,10 +670,12 @@ banner-bounced-copy =
 banner-download-firefox-headline = Mae { -brand-name-relay } hyd yn oed yn well yn { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud creu arallenwau yn haws fyth.
+banner-download-firefox-copy-2 = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud creu arallenwau yn haws fyth.
 banner-download-firefox-cta = Cael { -brand-name-firefox }
 banner-download-install-extension-headline = Cael yr estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
+banner-download-install-extension-copy-2 = Mae'r estyniad { -brand-name-relay } ar gyfer { -brand-name-firefox-browser } yn gwneud defnyddio arallenwau e-bost yn haws fyth.
 banner-download-install-extension-cta = Ychwanegwch { -brand-name-relay } i { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Rhowch gynnig ar { -brand-name-relay } ar { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy = Mae'r estyniad { -brand-name-firefox-relay } ar gyfer { -brand-name-chrome } yn gwneud creu a defnyddio arallenwau yn haws.
