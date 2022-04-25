@@ -746,8 +746,11 @@ banner-choose-subdomain-description = Ви можете створити буд�
 success-subdomain-registered = Ваш домен @{ $subdomain } створено
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Ваш субдомен @{ $subdomain } створено
 success-settings-update = Ваші налаштування були оновлені
+success-signed-out-message = Ви вийшли.
+success-signed-in-message = Ви успішно ввійшли як { $username }.
 
 ## Error Messages
 
