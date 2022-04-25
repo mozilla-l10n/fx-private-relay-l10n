@@ -305,7 +305,7 @@ premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för 
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 # Deprecated
 premium-promo-perks-lead = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade domän för att göra hanteringen av din inkorg ännu enklare.
-premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade subdomän för att göra hanteringen av din inkorg ännu enklare.
+premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
 premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
 # Deprecated
@@ -318,7 +318,7 @@ premium-promo-perks-perk-custom-domain-headline = Välj din egen anpassade domä
 premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
 # Deprecated
 premium-promo-perks-perk-custom-domain-body = Med en anpassad domän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
-premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad subdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa aliaset i förväg.
+premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad underdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa alias i förväg.
 # Deprecated
 premium-promo-perks-perk-dashboard-headline = Styr dina alias från översikten
 premium-promo-perks-perk-dashboard-headline-2 = Styr dina alias från översikten
@@ -331,11 +331,11 @@ premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias v
 premium-promo-use-cases-shopping-heading = Shopping
 # Deprecated
 premium-promo-use-cases-shopping-body = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under unika anpassade alias, som "mydeals@mydomain.mozmail.com."
-premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-post-alias, som "mydeals@mydomain.mozmail.com."
+premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
 premium-promo-use-cases-social-networks-heading = Sociala nätverk
 # Deprecated
 premium-promo-use-cases-social-networks-body = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett annat { -brand-name-relay }-alias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
-premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-post-alias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
+premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-postalias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
 premium-promo-use-cases-gaming-heading = Spel
 # Deprecated
 premium-promo-use-cases-gaming-body = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
@@ -369,7 +369,7 @@ setting-label-collection-description-2 = Låt { -brand-name-relay } samla in dat
 # Deprecated
 setting-label-collection-off-warning = Denna information gör att vi kan märka dina alias med relevanta webbplatser i en framtida version. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
 # This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning-2 = Med denna data kan vi märka dina e-post-alias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
+setting-label-collection-off-warning-2 = Med denna data kan vi märka dina e-postalias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
 settings-button-save-label = Spara
 settings-button-save-tooltip = Tillämpa dina valda inställningar.
 
