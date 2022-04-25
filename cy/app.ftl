@@ -467,19 +467,28 @@ faq-question-browser-support-answer-2 = Gallwch, gallwch gynhyrchu arallenwau { 
 faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
 # Deprecated
 faq-question-longevity-answer = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
+faq-question-longevity-answer-2 = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
 # Deprecated
 faq-question-mozmail-question = Pam y dechreuodd fy arallenwau ddefnyddio'r parth “mozmail.com?”
+faq-question-mozmail-question-2 = Pam mae fy arallenwau wedi dechrau ddefnyddio'r parth “mozmail.com?”
 # Deprecated
 faq-question-mozmail-answer = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost personol, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud eich e-bost arallenwau yn llawer haws i'w cofio nag arallenwau ar hap.
+faq-question-mozmail-answer-2 = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost personol, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud hi'n haws cynhyrchu e-bost arallenwau sy'n hawdd eu cofio nag arallenwau.
 faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
 faq-question-attachments-answer-v2 = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 # Deprecated
 faq-question-unsubscribe-domain-question = Beth sy'n digwydd i'm parth personol os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-question-2 = Beth sy'n digwydd i'm is-barth personol os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
 # Deprecated
 faq-question-unsubscribe-domain-answer = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch parth personol, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r parth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a fydd yn cael eu hanfon ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
+faq-question-unsubscribe-domain-answer-2 = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch e-bost arallenw personol, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r is-barth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a fydd yn cael eu hanfon ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Deprecated
 faq-question-8-answer-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
 faq-question-email-storage-question = A yw { -brand-name-relay } yn cadw fy e-byst?
 faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth wedi torri, byddwn efallai'n cadw eich e-byst dros dro nes ein bod yn gallu eu hanfon. Byddwn ni byth yn cadw'ch e-byst am fwy na thridiau.
 faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-name-relay }?
@@ -489,8 +498,10 @@ faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay 
 faq-question-acceptable-use-answer-measure-account = Mae angen { -brand-name-firefox-account(capitalization: "uppercase") } gyda chyfeiriad e-bost wedi'i ddilysu
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Darllenwch ein <a href="{ $url }" { $attrs }>Telerau Gwasanaeth</a> am ragor o wybodaeth.
@@ -511,14 +522,22 @@ profile-promo-upgrade-headline = Uwchraddio ar gyfer mwy fyth o nodweddion.
 # Deprecated
 profile-promo-upgrade-copy = Uwchraddio { -brand-name-relay } i gael cyfeiriadau e-bost dirifedi a'ch parth e-bost eich hun.
 profile-promo-upgrade-cta = Uwchraddio { -brand-name-relay }
+profile-details-expand = Dangos manylion arallenw
+profile-details-collapse = Cuddio manylion arallenw
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Cliciwch i gopïo arallenw { $address }.
 # Deprecated
 profile-label-edit = Golygu label yr arallenw hwn
+profile-label-edit-2 = Golygu label yr arallenw hwn
 # On the user's profile page, this text appears for an alias when it doesn't have a label.
 profile-label-placeholder = Ychwanegu enw'r cyfrif
 profile-label-save-error = Wedi methu cadw, ceisiwch eto.
 profile-label-saved = Label wedi’i gadw!
 # Deprecated
 profile-label-generate-new-alias = Cynhyrchu Arallenw Newydd
+profile-label-generate-new-alias-2 = Cynhyrchu arallenw newydd
 # Deprecated
 profile-label-generate-new-alias-menu-random = Arallenwau ar Hap
 # Deprecated
