@@ -745,8 +745,11 @@ banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdo
 success-subdomain-registered = Deine Domain @{ $subdomain } wurde erstellt
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Ihre Subdomain @{ $subdomain } wurde erstellt
 success-settings-update = Deine Einstellungen wurden aktualisiert
+success-signed-out-message = Sie haben sich abgemeldet.
+success-signed-in-message = Erfolgreich angemeldet als { $username }.
 
 ## Error Messages
 
