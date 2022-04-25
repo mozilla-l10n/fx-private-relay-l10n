@@ -738,8 +738,11 @@ banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
 success-subdomain-registered = Tu dominio @{ $subdomain } ha essite create
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Tu subdominio @{ $subdomain } ha essite create
 success-settings-update = Tu parametros ha essite actualisate.
+success-signed-out-message = Tu es disconnexe
+success-signed-in-message = Connexe con successo como { $username }
 
 ## Error Messages
 
