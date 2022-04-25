@@ -683,11 +683,13 @@ banner-download-install-chrome-extension-cta = Cael yr estyniad { -brand-name-re
 banner-upgrade-headline = Uwchraddiwch i { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = Mae { -brand-name-firefox } { -brand-name-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda pharthau arallenwau persono ac arallenwau dirifedi.
+banner-upgrade-copy-2 = Mae { -brand-name-firefox-relay-premium } yn gwneud creu arallenwau e-bost yn haws fyth, gyda is-barthau arallenwau personol ac arallenwau diderfyn.
 banner-upgrade-cta = Uwchraddiwch i { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Cam gweithredu
 # Deprecated
 banner-register-subdomain-headline-aliases = Cael parth personol ar gyfer eich arallenwau
+banner-register-subdomain-headline-aliases-2 = Cael is-parth personol ar gyfer eich arallenwau
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -698,16 +700,29 @@ banner-register-subdomain-copy =
     cyn i chi eu defnyddio. Angen un ar gyfer archeb? Rhowch
     “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
     defnyddio'ch parth personol yn cael ei anfon ymlaen atoch chi.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Gydag is-barth personol, gallwch rannu arallenwau nad oes angen eu cynhyrchu
+    cyn i chi eu defnyddio. Angen un ar gyfer archeb? Rhowch
+    “bwyty@eichparth.{ $mozmail }” i'r bwyty. Bydd unrhyw arallenw sy'n
+    defnyddio'ch parth personol yn cael ei anfon ymlaen atoch chi.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Parth chwilio
 # Deprecated
 banner-choose-subdomain-input-placeholder-2 = Chwiliwch eich parth newydd
+banner-choose-subdomain-input-placeholder-3 = Chwilio is-barth
 # This is the “call to action” text on the submit button of domain registration form.
 banner-register-subdomain-button-search = Chwilio
 # Deprecated
 banner-pack-upgrade-headline-html = Uwchraddiwch i <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> i gael rhagor o arallenwau
+banner-pack-upgrade-headline-2-html = Uwchraddiwch i <strong>{ -brand-name-firefox-relay-premium }</strong> i gael rhagor o arallenwau
 # Deprecated
 banner-pack-upgrade-copy = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox } { -brand-name-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
+banner-pack-upgrade-copy-2 = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
@@ -732,6 +747,9 @@ banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomai
 
 # Deprecated
 success-subdomain-registered = Mae eich parth @{ $subdomain } wedi'i greu
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Mae eich is-barth @{ $subdomain } wedi'i greu
 success-settings-update = Mae eich gosodiadau wedi'u diweddaru
 
 ## Error Messages
@@ -749,6 +767,17 @@ error-subdomain-email-not-created = Nid oedd modd creu cyfeiriad e-bost gydag is
 error-subdomain-select = Rhaid i chi ddewis is-barth cyn creu arallenwau is-barth
 # Deprecated
 error-subdomain-not-available = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gyda pharth arall.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gydag un arall.
+error-settings-update = Bu gwall wrth ddiweddaru eich gosodiadau, ceisiwch eto
+error-mask-create-failed = Nid oedd modd creu'r arallenw. Ceisiwch eto, os gwelwch yn dda.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Nid oedd modd diweddaru data'r arallenw. Ceisiwch eto, os gwelwch yn dda.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Nid oedd modd dileu'r arallenw { $mask }. Ceisiwch eto, os gwelwch yn dda.
 
 ## Tips and tricks at the bottom of the page
 
@@ -765,41 +794,54 @@ tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
 
 # Deprecated
 modal-custom-alias-picker-heading = Crëwch arallenw cyfaddas newydd
+modal-custom-alias-picker-heading-2 = Crëwch arallenw personol newydd
 # Deprecated
 modal-custom-alias-picker-warning = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+modal-custom-alias-picker-warning-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 # Deprecated
 modal-custom-alias-picker-form-heading = Neu, crëwch arallenw personol â llaw
+modal-custom-alias-picker-form-heading-2 = Neu, crëwch arallenw personol â llaw
 # Deprecated
 modal-custom-alias-picker-form-prefix-label = Rhoi rhagosodiad arallenw
+modal-custom-alias-picker-form-prefix-label-2 = Rhowch ragosodiad arallenw e-bost
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.e. "coffi"
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Cynhyrchu Arallenw
+modal-custom-alias-picker-form-submit-label-2 = Cynhyrchwch arallenw
 # Deprecated
 modal-custom-alias-picker-creation-error = Nid oedd modd creu eich arallenw cyfaddas. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
+modal-custom-alias-picker-creation-error-2 = Nid oedd modd creu eich arallenw personol. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
 
 ## Popover explaining how custom aliases work
 
 # Deprecated
 popover-custom-alias-explainer-heading = Sut i greu arallenwau cyfaddas
+popover-custom-alias-explainer-heading-2 = Sut i greu arallenwau personol
 # Deprecated
 popover-custom-alias-explainer-explanation = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+popover-custom-alias-explainer-explanation-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth personol - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Crëwch arallenw cyfaddas â llaw
+popover-custom-alias-explainer-generate-button-heading-2 = Crëwch arallenw personol â llaw
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Cynhyrchu arallenw cyfaddas
+popover-custom-alias-explainer-generate-button-label-2 = Cynhyrchwch arallenw personol
 popover-custom-alias-explainer-close-button-label = Cau
 # Checkbox the user can click to adjust the block level of the new alias
 popover-custom-alias-explainer-promotional-block-checkbox = Rhwystro e-byst hyrwyddo
 popover-custom-alias-explainer-promotional-block-tooltip = Galluogi Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Galluogwch Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
 
 ## Tip about using custom aliases
 
 # Deprecated
 tips-custom-alias-heading = Creu arallenwau gan ddefnyddio'ch parth cyfaddas
+tips-custom-alias-heading-2 = Creu arallenwau gan ddefnyddio'ch parth personol
 # Deprecated
 tips-custom-alias-content = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
+tips-custom-alias-content-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth personol - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 
 ## Tip about using custom aliases
 
@@ -810,11 +852,14 @@ tips-promo-email-blocking-content = Gyda { -brand-name-relay-premium }, gallwch 
 
 # Deprecated
 onboarding-headline = Crëwch eich arallenw cyntaf, mae gennych dair ffordd …
+onboarding-headline-2 = Creu eich arallenw e-bost cyntaf
 # Deprecated
 onboarding-alias-tip-1 = Dewiswch “Cynhyrchu Arallenw Newydd” i greu eich arallenw cyntaf.
+onboarding-alias-tip-1-2 = Dewiswch “Cynhyrchu arallenw newydd” i greu eich arallenw cyntaf.
 onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
 # Deprecated
 onboarding-alias-tip-3 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y ffurflen a dewis “Cynhyrchu Arallenw Newydd.”
+onboarding-alias-tip-3-2 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y  ffurflen a dewis “Cynhyrchu arallenw newydd.”
 
 ## Premium Onboarding
 
