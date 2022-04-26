@@ -770,8 +770,11 @@ banner-choose-subdomain-description = Μπορείτε να δημιουργήσ
 success-subdomain-registered = Ο τομέας @{ $subdomain } έχει δημιουργηθεί
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Ο υποτομέας @{ $subdomain } έχει δημιουργηθεί
 success-settings-update = Οι ρυθμίσεις σας έχουν ενημερωθεί
+success-signed-out-message = Έχετε αποσυνδεθεί.
+success-signed-in-message = Έγινε επιτυχής σύνδεση ως { $username }.
 
 ## Error Messages
 
