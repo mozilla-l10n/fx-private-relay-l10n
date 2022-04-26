@@ -701,8 +701,11 @@ banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain 
 success-subdomain-registered = 您的域名 @{ $subdomain } 已创建
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = 您的子域名 @{ $subdomain } 已创建
 success-settings-update = 您的设置已更新。
+success-signed-out-message = 您已退出登录。
+success-signed-in-message = 已成功以 { $username } 的身份登录。
 
 ## Error Messages
 
