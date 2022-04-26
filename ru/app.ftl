@@ -784,6 +784,8 @@ error-subdomain-not-available = Домен @{ $unavailable_subdomain } недо�
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Поддомен @{ $unavailable_subdomain } недоступен. Пожалуйста, попробуйте другой.
+error-settings-update = Во время обновления ваших настроек произошла ошибка, пожалуйста, попробуйте ещё раз
+error-mask-create-failed = Не удалось создать псевдоним. Пожалуйста, попробуйте ещё раз.
 
 ## Tips and tricks at the bottom of the page
 
