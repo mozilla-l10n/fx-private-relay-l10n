@@ -824,6 +824,9 @@ modal-custom-alias-picker-form-prefix-placeholder = например, «coffee»
 # Deprecated
 modal-custom-alias-picker-form-submit-label = Создать псевдоним
 modal-custom-alias-picker-form-submit-label-2 = Создать псевдоним
+# Deprecated
+modal-custom-alias-picker-creation-error = Не удалось создать пользовательский псевдоним вручную. Пожалуйста, попробуйте ещё раз или отправьте письмо на этот псевдоним, чтобы создать его.
+modal-custom-alias-picker-creation-error-2 = Не удалось создать пользовательский псевдоним электронной почты вручную. Пожалуйста, попробуйте ещё раз или отправьте письмо на этот псевдоним, чтобы создать его.
 
 ## Popover explaining how custom aliases work
 
