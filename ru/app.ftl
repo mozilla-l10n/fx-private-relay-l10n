@@ -795,8 +795,8 @@ error-mask-delete-failed = Не удалось удалить псевдоним
 
 ## Tips and tricks at the bottom of the page
 
-tips-header-title = Помощь и советы
-tips-header-button-close-label = Убрать
+tips-header-title = Справка и советы
+tips-header-button-close-label = Пропустить
 tips-footer-link-faq-label = ЧЗВ
 tips-footer-link-faq-tooltip = Часто задаваемые вопросы
 tips-footer-link-feedback-label = Отзывы
