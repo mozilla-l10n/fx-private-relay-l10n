@@ -738,14 +738,29 @@ banner-pack-upgrade-cta = Перейти сейчас
 banner-label-privacy-notice-update-body = Чтобы повысить надёжность { -brand-name-firefox-relay } в случаях, когда электронное письмо не может быть доставлено, мы будем временно хранить вашу электронную почту на своих серверах, пока она не будет доставлена. Мы не будем хранить её дольше трёх дней.
 # Data Notification Banner:
 banner-label-data-notification-header = Скоро в { -brand-name-relay }
+# Deprecated
+banner-label-data-notification-body = Вы можете разрешить { -brand-name-relay } собирать дополнительные данные о веб-сайтах, на которых используете псевдонимы, для поддержки будущих функций. Разрешение сбора этих данных на странице «Настройки» сделает управление вашим почтовым ящиком ещё проще.
 banner-label-data-notification-cta = Перейти в настройки
 banner-label-data-notification-header-v2 = Включить новые функции
+# Deprecated
+banner-label-data-notification-body-v2 = Вы можете разрешить { -brand-name-relay } собирать дополнительные данные, позволяющие нам синхронизировать метки псевдонимов на ваших устройствах с веб-сайтами, на которых они созданы и используются.
 banner-label-data-notification-body-cta = Подробнее
 # Deprecated
 banner-choose-subdomain-label = Ваш домен:
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Вы можете создать любой адрес @{ $subdomain }
 
 ## Success Messages
 
+# Deprecated
+success-subdomain-registered = Ваш домен @{ $subdomain } создан
+# Variables:
+#   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
+success-subdomain-registered-2 = Ваш поддомен @{ $subdomain } создан
+success-settings-update = Ваши настройки обновлены
+success-signed-out-message = Вы вышли.
 
 ## Error Messages
 
