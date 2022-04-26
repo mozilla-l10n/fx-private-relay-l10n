@@ -789,6 +789,9 @@ error-mask-create-failed = Не удалось создать псевдоним
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
 error-mask-update-failed = Не удалось обновить данные псевдонима. Пожалуйста, попробуйте ещё раз.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Не удалось удалить псевдоним { $mask }. Пожалуйста, попробуйте ещё раз.
 
 ## Tips and tricks at the bottom of the page
 
