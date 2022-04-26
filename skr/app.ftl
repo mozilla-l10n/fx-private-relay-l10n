@@ -300,6 +300,7 @@ faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = کہیں ورتݨ آلے کیتے پنج کنوں ودھ ماسک بݨاوݨ کیتے ضروری رقم
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ
+faq-question-acceptable-use-answer-measure-rate-limit-2 = ہک ݙین٘ہ وچ جنریٹ تھئے ماسکاں دی تعداد دی شرح کوں محدود کرݨ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = سوہݨا، ٻئی ڄاݨکاری کیتے ساݙیاں <a href="{ $url }" { $attrs }>خدمت دیاں شرطاں</a> تے نظرثانی کرو۔
@@ -408,6 +409,10 @@ profile-filter-search-placeholder-2 = ماسک ڳولو
 profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے عرفی ناں
 # Deprecated
 profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عرفی ناں
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = بلاک کرݨ آلے ماسک
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = مشہوریاں روکݨ آلے ماسک
 # Deprecated
 profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
@@ -428,6 +433,7 @@ profile-promo-email-blocking-option-promotionals = پروموشنل
 profile-promo-email-blocking-option-none = کوئی وی کائنی
 # Deprecated
 profile-promo-email-blocking-description-all = ایں عرفی ناں کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
+profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
 # Deprecated
 profile-promo-email-blocking-description-none = ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
