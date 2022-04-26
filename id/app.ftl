@@ -486,8 +486,24 @@ faq-question-8-answer-html = Anda dapat mempelajari lebih lanjut mengenai data y
 faq-question-8-answer-2-html = Anda dapat mempelajari lebih lanjut mengenai data yang dikumpulkan { -brand-name-firefox-relay } dengan melihat <a href="{ $url }" { $attrs }>Pemberitahuan Privasi</a> kami. Anda juga dapat secara opsional membagikan data tentang label dan situs yang Anda gunakan untuk topeng surel Anda sehingga kami dapat menyediakan layanan dan meningkatkannya untuk Anda.
 faq-question-email-storage-question = Apakah { -brand-name-relay } menyimpan surel saya?
 faq-question-email-storage-answer = Dalam keadaan yang jarang terjadi di mana layanan sedang tidak aktif, kami dapat menyimpan surel Anda untuk sementara sampai kami dapat mengirimkannya. Kami tidak akan pernah menyimpan surel Anda lebih dari tiga hari.
+faq-question-acceptable-use-question = Apa saja penggunaan { -brand-name-relay } yang dapat diterima?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } memiliki <a href="{ $url }" { $attrs }>persyaratan penggunaan sebagai semua produk { -brand-name-mozilla }</a>. Kami memiliki kebijakan tanpa toleransi jika menyangkut penggunaan { -brand-name-relay } untuk tujuan jahat seperti spam, mengakibatkan penghentian akun pengguna. Kami mengambil tindakan untuk mencegah pengguna melanggar persyaratan kami dengan:
+faq-question-acceptable-use-answer-measure-account = Memerlukan { -brand-name-firefox-account(kapitalisasi: "uppercase") } dengan alamat surel yang telah diverifikasi
+# Deprecated
+faq-question-acceptable-use-answer-measure-unlimited-payment = Memerlukan pembayaran untuk membuat lebih dari lima alias
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Membutuhkan pembayaran untuk membuat lebih dari lima topeng
+# Deprecated
+faq-question-acceptable-use-answer-measure-rate-limit = Pembatasan tingkat jumlah alias yang dapat dihasilkan dalam satu hari
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Pembatasan tingkat jumlah topeng yang dapat dihasilkan dalam satu hari
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Harap tinjau <a href="{ $url }" { $attrs }>Persyaratan Layanan</a> kami untuk informasi lebih lanjut.
+faq-question-promotional-email-blocking-question = Apa itu pemblokiran surel promosi?
+faq-question-promotional-email-blocking-answer = Pelanggan { -brand-name-relay-premium } dapat mengaktifkan pemblokiran surel promosi. Fitur ini akan meneruskan surel penting kepada Anda, seperti tanda terima, penyetelan ulang kata sandi, dan surel konfirmasi sambil tetap memblokir pesan pemasaran. Ada sedikit risiko bahwa pesan penting masih dapat diblokir, jadi sebaiknya Anda tidak menggunakan fitur ini untuk tempat yang sangat penting seperti bank Anda. Jika diblokir, surel tidak dapat dipulihkan.
+faq-question-detect-promotional-question = Bagaimana cara { -brand-name-relay } mendeteksi apakah surel bersifat Promosi atau tidak?
+faq-question-detect-promotional-answer = Banyak surel yang dikirim dengan metadata "header" untuk mengindikasikan bahwa surel tersebut berasal dari alat otomatis berbasis daftar. { -brand-name-firefox-relay } mendeteksi data header ini sehingga dapat memblokir email ini.
 
 ## Profile Page (Logged In)
 
@@ -528,6 +544,8 @@ profile-label-generate-new-alias-menu-custom-2 = Topeng @{ $subdomain }
 profile-label-delete = Hapus
 # Deprecated
 profile-label-delete-alias = Hapus alias ini
+# Deprecated
+profile-label-delete-alias-2 = Hapus alias ini
 # Deprecated
 profile-label-upgrade = Miliki alias tak terhingga
 profile-label-upgrade-2 = Dapatkan topeng surel tak terbatas
@@ -613,11 +631,28 @@ profile-filter-category-option-custom-masks = Topeng kustom
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Surel apa yang ingin Anda blokir?
+# Block all emails sent to a speciic alias
+profile-promo-email-blocking-option-all = Semua
+# Block promotional emails sent to a speciic alias
+profile-promo-email-blocking-option-promotionals = Promosi
+# Allow/forward all emails sent to a speciic alias
+profile-promo-email-blocking-option-none = Tidak ada
+# Deprecated
+profile-promo-email-blocking-description-all = { -brand-name-relay } memblokir semua surel yang masuk ke alias ini.
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } memblokir semua surel yang masuk ke topeng ini.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } akan mencoba memblokir surel promosi sambil tetap meneruskan surel seperti tanda terima dan informasi pengiriman.
+# Deprecated
+profile-promo-email-blocking-description-none = { -brand-name-relay } tidak memblokir surel apapun yang masuk ke alias ini.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } tidak memblokir surel apapun yang masuk ke topeng ini.
+profile-promo-email-blocking-label-promotionals = Blokir promosi
+profile-promo-email-blocking-label-none = Memblokir semua
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Tidak meneruskan
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Tutup
 banner-bounced-headline = { -brand-name-relay } tidak dapat mengirimkan surel Anda.
 # Variables:
 #   $username (string) - Username
@@ -637,6 +672,9 @@ banner-download-install-extension-headline = Unduh ekstensi { -brand-name-relay 
 banner-download-install-extension-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan alias surel.
 banner-download-install-extension-copy-2 = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan topeng surel.
 banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -brand-name-firefox }
+banner-download-install-chrome-extension-headline = Coba { -brand-name-relay } untuk { -brand-name-google-chrome }
+banner-download-install-chrome-extension-copy = Ekstensi { -brand-name-firefox-relay } untuk { -brand-name-chrome } membuat pembuatan dan penggunaan alias jadi lebih mudah.
+banner-download-install-chrome-extension-cta = Dapatkan ekstensi { -brand-name-relay }
 banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias kustom dan alias tak terhingga.
@@ -709,6 +747,8 @@ success-subdomain-registered = Domain @{ $subdomain } Anda telah dibuat
 #   $username (url) - User-set username
 success-subdomain-registered-2 = Subdomain Anda @{ $subdomain } telah dibuat
 success-settings-update = Setelan Anda telah diperbarui.
+success-signed-out-message = Anda telah keluar.
+success-signed-in-message = Sukses masuk sebagai { $username }.
 
 ## Error Messages
 
@@ -728,6 +768,7 @@ error-subdomain-not-available = Domain @{ $unavailable_subdomain } tidak tersedi
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Subdomain @{ $unavailable_subdomain } tidak tersedia. Silakan coba dengan subdomain yang berbeda.
+error-settings-update = Terjadi kesalahan saat memperbarui pengaturan Anda, silakan coba lagi
 error-mask-create-failed = Topeng tidak dapat dibuat. Silakan coba lagi.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
@@ -786,6 +827,9 @@ popover-custom-alias-explainer-generate-button-heading-2 = Buat topeng kustom se
 popover-custom-alias-explainer-generate-button-label = Buat alias kustom
 popover-custom-alias-explainer-generate-button-label-2 = Buat topeng kustom
 popover-custom-alias-explainer-close-button-label = Tutup
+# Checkbox the user can click to adjust the block level of the new alias
+popover-custom-alias-explainer-promotional-block-checkbox = Blokir surel promosi
+popover-custom-alias-explainer-promotional-block-tooltip = Aktifkan Pemblokiran Surel Promosi pada alias untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktifkan Pemblokiran Surel Promosi pada topeng untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
 
 ## Tip about using custom aliases
@@ -799,6 +843,8 @@ tips-custom-alias-content-2 = Yang perlu Anda lakukan hanyalah membuat dan memba
 
 ## Tip about using custom aliases
 
+tips-promo-email-blocking-heading = Pemblokiran Surel Promosi
+tips-promo-email-blocking-content = Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi untuk mencapai kotak masuk saat masih memungkinkan Anda menerima surel seperti informasi kuitansi atau pengiriman.
 
 ## Onboarding 
 
@@ -825,11 +871,14 @@ onboarding-premium-control-description = Bagikan alias surel tanpa batas yang me
 onboarding-premium-control-description-2 = Bagikan topeng surel tanpa batas yang meneruskan surel yang sebenarnya Anda inginkan ke kotak masuk Anda.
 # Deprecated
 onboarding-premium-domain-title = Gunakan domain kustom untuk berbagi alias
+# Deprecated
+onboarding-premium-domain-title-2 = Gunakan domain kustom untuk berbagi alias:
 onboarding-premium-domain-title-3 = Gunakan subdomain kustom untuk berbagi topeng:
 # Deprecated
 onboarding-premium-domain-description = Dengan domain kustom, Anda dapat membuat alias "buletin" Anda berbeda dari alias "belanja" Anda.
 # Deprecated
 onboarding-premium-reply-title = Balas surel tanpa memberikan alamat asli Anda
+onboarding-premium-reply-title-2 = Balas surel tanpa memberitahu alamat asli Anda
 # Deprecated
 onboarding-premium-reply-description = Perlu membalas surel yang dikirim ke alias? Cukup balas seperti biasa — alias Anda akan tetap melindungi alamat surel Anda.
 onboarding-premium-reply-description-2 = Perlu membalas surel yang dikirim ke topeng? Cukup balas seperti biasa — topeng Anda akan tetap melindungi alamat surel Anda.
@@ -837,6 +886,10 @@ onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } A
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Langkah { $step } dari { $max }
 multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol apa yang masuk ke kotak masuk, satu surel sekaligus.
 multi-part-onboarding-premium-welcome-title = Kendalikan surel apa yang Anda dapatkan:
@@ -870,8 +923,10 @@ multi-part-onboarding-premium-get-domain-description-3 =
     Perlu satu untuk mendaftar buletin? Cukup ucapkan “baca@subdomainkustom{ $mozmail }”
 # Deprecated
 multi-part-onboarding-premium-domain-cta = Daftarkan domain kustom Anda sekarang:
+multi-part-onboarding-premium-domain-cta-2 = Daftarkan subdomain kustom Anda sekarang:
 # Deprecated
 multi-part-onboarding-premium-domain-button-skip = Lanjutkan, saya akan mendaftarkan domain kustom saya nanti
+multi-part-onboarding-premium-domain-button-skip-2 = Lanjutkan, saya akan mendaftarkan subdomain kustom saya nanti
 multi-part-onboarding-premium-extension-headline = Blokir, teruskan, dan balas
 # Deprecated
 multi-part-onboarding-premium-extension-reply-title = Balas surel tanpa memberikan alamat asli Anda:
@@ -880,6 +935,9 @@ multi-part-onboarding-premium-extension-get-title = Dapatkan ekstensi { -brand-n
 multi-part-onboarding-premium-extension-get-description = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox } semakin mempermudah penggunaan surel alias.
 multi-part-onboarding-premium-extension-get-description-2 = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox } semakin mempermudah penggunaan topeng surel.
 multi-part-onboarding-premium-extension-button-download = Dapatkan Ekstensi { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Dapatkan ekstensi { -brand-name-relay } untuk { -brand-name-google-chrome }
+multi-part-onboarding-premium-chrome-extension-get-description = Ekstensi { -brand-name-firefox-relay } untuk { -brand-name-chrome } membuat pembuatan dan penggunaan alias jadi lebih mudah.
+multi-part-onboarding-premium-chrome-extension-button-download = Dapatkan Ekstensi { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Lanjutkan, saya akan mengunduh ekstensi nanti
 multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
 multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
@@ -921,23 +979,44 @@ modal-delete-confirmation-2 = Ya, saya ingin menghapus topeng ini.
 modal-domain-register-good-news = Kabar Baik!
 # Deprecated
 modal-domain-register-warning-reminder = Ingat, Anda hanya dapat mendaftarkan satu domain. Anda tidak akan dapat mengubahnya nanti.
+modal-domain-register-warning-reminder-2 = Ingat, Anda hanya dapat mendaftarkan satu subdomain. Anda tidak akan dapat mengubahnya nanti.
 # Deprecated
 modal-domain-register-button = Daftarkan Domain
+modal-domain-register-button-2 = Daftarkan Subdomain
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } tersedia!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> tersedia!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ya, saya ingin mendaftarkan @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ya, saya ingin mendaftarkan <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Sukses!
 # Deprecated
 modal-domain-register-success = Kini { $subdomain } adalah domain surel Anda!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = Kini { $subdomain } adalah subdomain surel Anda!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = Kini, <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> adalah subdomain surel Anda!
 # Deprecated
 modal-domain-register-success-copy = Kini Anda dapat membuat alias surel tak terbatas menggunakan domain baru! Apa lagi yang ditunggu?
 modal-domain-register-success-copy-2 = Sekarang Anda dapat membuat topeng email kustom tanpa batas!
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Kiat { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -956,9 +1035,12 @@ survey-option-somewhat-disappointed = Agak kecewa
 survey-option-very-disappointed = Sangat mengecewakan
 survey-option-very-likely = Sangat mungkin
 survey-option-not-likely = Kemungkinan tidak
+survey-option-dismiss = Tutup
 
 ## CSAT survey
 
+survey-csat-question = Seberapa puaskah Anda dengan pengalaman menggunakan { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Sangat Tidak Puas
 
 ## VPN Promo Banner
 
