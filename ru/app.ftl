@@ -786,6 +786,9 @@ error-subdomain-not-available = Домен @{ $unavailable_subdomain } недо�
 error-subdomain-not-available-2 = Поддомен @{ $unavailable_subdomain } недоступен. Пожалуйста, попробуйте другой.
 error-settings-update = Во время обновления ваших настроек произошла ошибка, пожалуйста, попробуйте ещё раз
 error-mask-create-failed = Не удалось создать псевдоним. Пожалуйста, попробуйте ещё раз.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Не удалось обновить данные псевдонима. Пожалуйста, попробуйте ещё раз.
 
 ## Tips and tricks at the bottom of the page
 
