@@ -761,9 +761,15 @@ success-subdomain-registered = Ваш домен @{ $subdomain } создан
 success-subdomain-registered-2 = Ваш поддомен @{ $subdomain } создан
 success-settings-update = Ваши настройки обновлены
 success-signed-out-message = Вы вышли.
+success-signed-in-message = Вы успешно вошли как { $username }.
 
 ## Error Messages
 
+# Deprecated
+error-premium-set-make-aliases = Вы должны быть премиум-подписчиком, чтобы создать более { $number } псевдонимов
+error-premium-cannot-change-subdomain = Вы не можете изменять свой поддомен
+error-premium-set-subdomain = Вы должны быть премиум-подписчиком, чтобы выбрать поддомен
+error-premium-check-subdomain = Вы должны быть премиум-подписчиком, чтобы проверить поддомен
 
 ## Tips and tricks at the bottom of the page
 
