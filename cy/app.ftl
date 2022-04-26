@@ -749,8 +749,11 @@ banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomai
 success-subdomain-registered = Mae eich parth @{ $subdomain } wedi'i greu
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Mae eich is-barth @{ $subdomain } wedi'i greu
 success-settings-update = Mae eich gosodiadau wedi'u diweddaru
+success-signed-out-message = Rydych wedi allgofnodi.
+success-signed-in-message = Wedi mewngofnodi'n llwyddiannus fel { $username }.
 
 ## Error Messages
 
