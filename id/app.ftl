@@ -609,6 +609,8 @@ profile-filter-category-option-custom-masks = Topeng kustom
 
 ## Alias Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } memblokir semua surel yang masuk ke topeng ini.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } tidak memblokir surel apapun yang masuk ke topeng ini.
 
 ## Banner Messages (displayed on the profile page)
 
@@ -624,19 +626,23 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } bahkan lebih baik di { -brand-name-firefox }
 # Deprecated
 banner-download-firefox-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } membantu pembuatan alias menjadi lebih mudah.
+banner-download-firefox-copy-2 = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } membantu pembuatan topeng menjadi lebih mudah.
 banner-download-firefox-cta = Unduh { -brand-name-firefox }
 banner-download-install-extension-headline = Unduh ekstensi { -brand-name-relay } untuk { -brand-name-firefox }
 # Deprecated
 banner-download-install-extension-copy = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan alias surel.
+banner-download-install-extension-copy-2 = Ekstensi { -brand-name-relay } untuk { -brand-name-firefox-browser } semakin mempermudah penggunaan topeng surel.
 banner-download-install-extension-cta = Tambahkan { -brand-name-relay } ke { -brand-name-firefox }
 banner-upgrade-headline = Beralih ke { -brand-name-relay-premium }
 # Deprecated
 banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } membantu pembuatan alias surel lebih mudah, dengan domain alias kustom dan alias tak terhingga.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } membantu pembuatan topeng surel lebih mudah, dengan subdomain topeng kustom dan topeng tak terhingga.
 banner-upgrade-cta = Beralih ke { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Perlu tindakan
 # Deprecated
 banner-register-subdomain-headline-aliases = Miliki domain kustom untuk alias Anda
+banner-register-subdomain-headline-aliases-2 = Dapatkan subdomain kustom untuk topeng Anda
 # This string is used in the example subdomain alias. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -647,6 +653,16 @@ banner-register-subdomain-copy =
     sebelum Anda menggunakannya. Butuh satu untuk reservasi? Berikan
     "restaurant@yourdomain.{ $mozmail }" ke restoran. Alias apa saja yang menggunakan
     domain kustom akan diteruskan kepada anda.
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Dengan subdomain kustom, Anda dapat berbagi topeng yang tidak perlu dibuat
+    sebelum Anda menggunakannya. Butuh satu untuk reservasi? Berikan
+    "restaurant@yourdomain.{ $mozmail }" ke restoran. Topeng apa pun yang menggunakan
+    subdomain kustom akan diteruskan kepada anda.
 # Deprecated
 banner-choose-subdomain-input-placeholder = Cari domain
 # This is the “call to action” text on the submit button of domain registration form.
