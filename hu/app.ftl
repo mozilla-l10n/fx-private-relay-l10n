@@ -745,8 +745,11 @@ banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létreho
 success-subdomain-registered = Az Ön @{ $subdomain } domainje létrejött
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Az Ön @{ $subdomain } aldomainje létrejött
 success-settings-update = A beállításai frissítve lettek
+success-signed-out-message = Ön kijelentkezett.
+success-signed-in-message = Sikeresen bejelentkezett mint { $username }.
 
 ## Error Messages
 
