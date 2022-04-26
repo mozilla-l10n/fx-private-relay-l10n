@@ -773,6 +773,14 @@ error-premium-check-subdomain = Вы должны быть премиум-под
 # Deprecated
 error-premium-set-create-subdomain = Вы должны быть премиум-подписчиком, чтобы создавать псевдонимы с помощью поддомена
 error-subdomain-not-created = Не удалось создать поддомен, попробуйте другой
+error-subdomain-email-not-created = Не удалось создать адрес электронной почты с помощью поддомена, попробуйте другой
+# Deprecated
+error-subdomain-select = Вы должны выбрать поддомен, прежде чем создавать псевдонимы с его помощью
+# Deprecated
+error-subdomain-not-available = Домен @{ $unavailable_subdomain } недоступен. Пожалуйста, попробуйте ещё раз с другим доменом.
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Поддомен @{ $unavailable_subdomain } недоступен. Пожалуйста, попробуйте другой.
 
 ## Tips and tricks at the bottom of the page
 
