@@ -815,9 +815,15 @@ modal-custom-alias-picker-warning-2 = Всё, что вам нужно сдел�
 # Deprecated
 modal-custom-alias-picker-form-heading = Или создайте собственный псевдоним вручную
 modal-custom-alias-picker-form-heading-2 = Или создайте собственный псевдоним вручную
+# Deprecated
+modal-custom-alias-picker-form-prefix-label = Введите префикс псевдонима
+modal-custom-alias-picker-form-prefix-label-2 = Введите префикс псевдонима электронной почты
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = например "кофе"
+modal-custom-alias-picker-form-prefix-placeholder = например, «coffee»
+# Deprecated
+modal-custom-alias-picker-form-submit-label = Создать псевдоним
+modal-custom-alias-picker-form-submit-label-2 = Создать псевдоним
 
 ## Popover explaining how custom aliases work
 
