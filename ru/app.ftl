@@ -809,6 +809,9 @@ tips-footer-link-support-tooltip = Связаться с поддержкой
 # Deprecated
 modal-custom-alias-picker-heading = Создайте новый собственный псевдоним
 modal-custom-alias-picker-heading-2 = Создайте новый собственный псевдоним
+# Deprecated
+modal-custom-alias-picker-warning = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным доменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
+modal-custom-alias-picker-warning-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customsubdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
 # This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = например "кофе"
