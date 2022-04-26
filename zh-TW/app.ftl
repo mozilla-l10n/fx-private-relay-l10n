@@ -689,8 +689,11 @@ banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信�
 success-subdomain-registered = 已建立您的網域 @{ $subdomain }
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = 已建立您的子網域 @{ $subdomain }
 success-settings-update = 已更新您的設定。
+success-signed-out-message = 您已登出。
+success-signed-in-message = 已成功以 { $username } 的身分登入。
 
 ## Error Messages
 
