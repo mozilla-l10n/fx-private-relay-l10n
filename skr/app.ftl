@@ -32,6 +32,8 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
 ## Header 
 
@@ -295,6 +297,7 @@ faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قا
 faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
 # Deprecated
 faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = کہیں ورتݨ آلے کیتے پنج کنوں ودھ ماسک بݨاوݨ کیتے ضروری رقم
 # Deprecated
 faq-question-acceptable-use-answer-measure-rate-limit = ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -487,6 +490,7 @@ banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomai
 success-subdomain-registered = تہاݙی { $subdomain }@ تخلیق تھی ڳئی ہے
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 
