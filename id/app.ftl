@@ -1041,6 +1041,13 @@ survey-option-dismiss = Tutup
 
 survey-csat-question = Seberapa puaskah Anda dengan pengalaman menggunakan { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Sangat Tidak Puas
+survey-csat-answer-dissatisfied = Tidak Puas
+survey-csat-answer-neutral = Netral
+survey-csat-answer-satisfied = Puas
+survey-csat-answer-very-satisfied = Sangat Puas
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Terima kasih atas tanggapan Anda. Kami ingin mempelajari lebih lanjut tentang bagaimana kami dapat meningkatkan { -brand-name-relay } untuk Anda, apakah Anda bersedia mengikuti survei dua menit?
 
 ## VPN Promo Banner
 
@@ -1056,6 +1063,7 @@ vpn-promo-cta = Dapatkan { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
 # Deprecated
 forwarded-email-header-cc-notice = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel Anda yang sebenarnya akan diketahui.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel asli Anda akan diketahui.
 # Deprecated
 forwarded-email-header-premium-banner = Tingkatkan ke { $premium_link } untuk mendapatkan alias tak terbatas dan domain surel kustom.
 # Variables:
