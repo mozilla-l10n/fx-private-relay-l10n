@@ -735,7 +735,10 @@ banner-pack-upgrade-headline-2-html = Переходите на <strong>{ -brand
 banner-pack-upgrade-copy = С неограниченным числом псевдонимов и вашим собственным доменом электронной почты { -brand-name-firefox } { -brand-name-relay-premium } помогает вам оставаться защищёнными в Интернете.
 banner-pack-upgrade-copy-2 = С неограниченным числом псевдонимов и вашим собственным поддоменом электронной почты { -brand-name-firefox-relay-premium } помогает вам оставаться защищёнными в Интернете.
 banner-pack-upgrade-cta = Перейти сейчас
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Обновление Уведомления о конфиденциальности
 banner-label-privacy-notice-update-body = Чтобы повысить надёжность { -brand-name-firefox-relay } в случаях, когда электронное письмо не может быть доставлено, мы будем временно хранить вашу электронную почту на своих серверах, пока она не будет доставлена. Мы не будем хранить её дольше трёх дней.
+banner-label-privacy-notice-update-cta = Просмотреть Уведомление о конфиденциальности
 # Data Notification Banner:
 banner-label-data-notification-header = Скоро в { -brand-name-relay }
 # Deprecated
