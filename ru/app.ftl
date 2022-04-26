@@ -830,6 +830,9 @@ modal-custom-alias-picker-creation-error-2 = Не удалось создать 
 
 ## Popover explaining how custom aliases work
 
+# Deprecated
+popover-custom-alias-explainer-heading = Как создавать собственные псевдонимы
+popover-custom-alias-explainer-heading-2 = Как создавать собственные псевдонимы
 
 ## Tip about using custom aliases
 
