@@ -755,8 +755,11 @@ banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 success-subdomain-registered = Jo domein @{ $subdomain } is oanmakke
 # Variables:
 #   $subdomain (url) - User-set subdomain
+#   $username (url) - User-set username
 success-subdomain-registered-2 = Jo subdomein @{ $subdomain } is oanmakke
 success-settings-update = Jo ynstellingen binne bywurke
+success-signed-out-message = Jo binne ôfmeld.
+success-signed-in-message = Mei sukses oanmeld as
 
 ## Error Messages
 
