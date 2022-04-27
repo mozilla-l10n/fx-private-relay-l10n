@@ -758,7 +758,7 @@ success-subdomain-registered = Uw domein @{ $subdomain } is aangemaakt
 success-subdomain-registered-2 = Uw subdomein @{ $subdomain } is aangemaakt
 success-settings-update = Uw instellingen zijn bijgewerkt
 success-signed-out-message = U bent afgemeld.
-success-signed-in-message = Succesvol aangemeld als
+success-signed-in-message = Succesvol aangemeld als { $username }.
 
 ## Error Messages
 
