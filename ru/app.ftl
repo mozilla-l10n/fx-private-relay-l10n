@@ -838,7 +838,7 @@ popover-custom-alias-explainer-explanation = Всё, что вам нужно с
 popover-custom-alias-explainer-explanation-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customsubdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Создать собственный псевдоним вручную
-popover-custom-alias-explainer-generate-button-heading-2 = Создать собственный псевдоним вручную
+popover-custom-alias-explainer-generate-button-heading-2 = Создайте собственный псевдоним вручную
 # Deprecated
 popover-custom-alias-explainer-generate-button-label = Создать собственный псевдоним
 popover-custom-alias-explainer-generate-button-label-2 = Создать собственный псевдоним
