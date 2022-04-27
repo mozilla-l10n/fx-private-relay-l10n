@@ -379,8 +379,8 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question = Que es un alias de { -brand-name-relay }?
 faq-question-what-is-question-2 = Que es un masca email de { -brand-name-relay }?
 # Deprecated
-faq-question-what-is-answer = Aliases e-mail es adresses e-mail disguisate que inultra le messages a tu ver adresse e-mail. Iste aliases te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse e-mail e inultrara le messages a illo.
-faq-question-what-is-answer-2 = Le mascas email es adresses email mascate, o private, que inultra le messages a tu ver adresse email. Iste mascas te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse e-mail e inultrara le messages a illo.
+faq-question-what-is-answer = Aliases e-mail es adresses email disguisate que inultra le messages a tu ver adresse email. Iste aliases te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse email e inultrara le messages a illo.
+faq-question-what-is-answer-2 = Le mascas email es adresses email mascate, o private, que inultra le messages a tu ver adresse email. Iste mascas te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse email e inultrara le messages a illo.
 # Deprecated
 faq-question-missing-emails-question = Io non recipe messages de mi aliases
 faq-question-missing-emails-question-2 = Io non recipe messages ab mi mascas email
@@ -422,9 +422,9 @@ faq-question-2-question-2 = Perque un sito non acceptara mi masca email de { -br
 #   $attrs (string) - specific attributes added to external links
 # Deprecated
 faq-question-2-answer-v3-html =
-    Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
+    Alcun sitos pote non acceptar un adresse email que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate acceptar tote le adresses, excepte illos del contos Gmail, Hotmail o Yahoo.
     Si tu non pote usar un alias de { -brand-name-relay }, <a href="{ $url }" { $attrs }>per favor face nos saper</a> lo.
-faq-question-2-answer-v4 = Alcun sitos pote non acceptar un adresse e-mail que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate de acceptar tote le adresses excepte illos del contos Gmail, Hotmail o Yahoo.
+faq-question-2-answer-v4 = Alcun sitos pote non acceptar un adresse email que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate de acceptar tote le adresses excepte illos del contos Gmail, Hotmail o Yahoo.
 faq-question-1-question = E quanto al spam?
 # Deprecated
 faq-question-1-answer-a = Ben que { -brand-name-relay } non filtra le spam, nostre partner in e-mail, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del alias que los reexpedi.
@@ -510,7 +510,7 @@ profile-headline-manage-domain = Gere tu aliases de dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }.
 profile-promo-upgrade-headline = Promove a ancora altere functionalitates.
 # Deprecated
-profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses e-mail e tu proprie dominio e-mail.
+profile-promo-upgrade-copy = Promove { -brand-name-relay } pro obtener illimitate adresses email e tu proprie dominio email.
 profile-promo-upgrade-cta = Promove { -brand-name-relay }
 profile-details-expand = Monstrar le detalios del masca
 profile-details-collapse = Celar le detalios del masca
