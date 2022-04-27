@@ -839,6 +839,10 @@ popover-custom-alias-explainer-explanation-2 = Всё, что вам нужно 
 # Deprecated
 popover-custom-alias-explainer-generate-button-heading = Создать собственный псевдоним вручную
 popover-custom-alias-explainer-generate-button-heading-2 = Создать собственный псевдоним вручную
+# Deprecated
+popover-custom-alias-explainer-generate-button-label = Создать собственный псевдоним
+popover-custom-alias-explainer-generate-button-label-2 = Создать собственный псевдоним
+popover-custom-alias-explainer-close-button-label = Закрыть
 
 ## Tip about using custom aliases
 
