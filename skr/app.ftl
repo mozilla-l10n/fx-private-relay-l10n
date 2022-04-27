@@ -276,10 +276,12 @@ faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں �
 faq-question-use-cases-question-2 = میں { -brand-name-relay } ای میل ماسک کݙݨ ورتاں؟
 # Deprecated
 faq-question-2-question = میݙے { -brand-name-relay } عرفی ناں ایہ سائٹ قبول کیوں نیں کیتے؟
+faq-question-2-question-2 = میݙے { -brand-name-relay } ای میل ماسک ایں سائٹ قبول کیوں نیں کیتے؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
 # Deprecated
 faq-question-4-question = بھلا میں آپݨے { -brand-name-relay } عرفی ناں ورت تے سنیہاں دا جواب ݙے سڳداں؟
+faq-question-4-question-2 = بھلا میں آپݨے { -brand-name-relay } ای میل ماسک ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-subdomain-characters-answer-v2 = سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
