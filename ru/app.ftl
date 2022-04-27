@@ -833,6 +833,9 @@ modal-custom-alias-picker-creation-error-2 = Не удалось создать 
 # Deprecated
 popover-custom-alias-explainer-heading = Как создавать собственные псевдонимы
 popover-custom-alias-explainer-heading-2 = Как создавать собственные псевдонимы
+# Deprecated
+popover-custom-alias-explainer-explanation = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным доменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
+popover-custom-alias-explainer-explanation-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customsubdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
 
 ## Tip about using custom aliases
 
