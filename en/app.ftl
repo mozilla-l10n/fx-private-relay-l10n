@@ -215,7 +215,12 @@ landing-pricing-free-price = Free
 landing-pricing-free-feature-1 = Up to 5 email aliases
 landing-pricing-free-feature-1-2 = Up to 5 email masks
 landing-pricing-free-feature-2 = Browser extension
+landing-pricing-free-feature-free = Free
+landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
 landing-pricing-free-cta = Get { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Available now!
+landing-pricing-free-feature-free = Free
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -232,6 +237,9 @@ landing-pricing-premium-feature-3-2 = Your own email subdomain
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
 landing-pricing-premium-feature-5 = Block promotional emails
+
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is not currently available in your country. Please share your email to be notified as soon as it is.
+landing-pricing-waitlist-cta = Join Waitlist
 
 ## Use Cases
 
