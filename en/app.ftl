@@ -344,6 +344,7 @@ waitlist-heading = Join the { -brand-name-relay-premium } Waitlist
 waitlist-lead = Get notified when { -brand-name-firefox-relay-premium } is available for your region.
 waitlist-control-required = Required
 waitlist-control-email-label = What is your email address?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = What country do you live in?
 waitlist-control-locale-label = Select your preferred language.
