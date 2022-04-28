@@ -515,6 +515,7 @@ banner-download-install-extension-cta = Προσθήκη του { -brand-name-re
 banner-download-install-chrome-extension-headline = Δοκιμάστε το { -brand-name-relay } για { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση ψευδωνύμων.
+banner-download-install-chrome-extension-copy-2 = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση μασκών.
 banner-download-install-chrome-extension-cta = Λήψη της επέκτασης { -brand-name-relay }
 banner-upgrade-headline = Αναβάθμιση στο { -brand-name-relay-premium }
 banner-upgrade-copy-2 = Το { -brand-name-firefox-relay-premium } κάνει ακόμα ευκολότερη τη χρήση μασκών email, με προσαρμοσμένους υποτομείς και απεριόριστες μάσκες.
@@ -676,6 +677,7 @@ multi-part-onboarding-premium-extension-button-download = Λήψη της επέ
 multi-part-onboarding-premium-chrome-extension-get-title = Λήψη της επέκτασης { -brand-name-relay } για το { -brand-name-google-chrome }
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη δημιουργία και χρήση ψευδωνύμων email.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση μασκών email.
 multi-part-onboarding-premium-chrome-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κάνω λήψη της επέκτασης αργότερα
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
