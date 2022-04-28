@@ -351,7 +351,7 @@ waitlist-control-locale-label = Select your preferred language.
 waitlist-submit-label = Join the Waitlist
 # Variables:
 #  $joinButtonLabel (string): the value of waitlist-submit-label
-waitlist-privacy-policy-agree = By clicking “{ $joinButtonLabel }”, you agree to our <a>Privacy Policy</a>.
+waitlist-privacy-policy-agree = By clicking “{ waitlist-submit-label }”, you agree to our <a>Privacy Policy</a>.
 waitlist-privacy-policy-use = Your information will only be used to notify you about { -brand-name-firefox-relay-premium } availability.
 waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
 waitlist-subscribe-error-connection = There was an error adding you to the waitlist. Please check your connection, then try again.
