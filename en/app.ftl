@@ -215,7 +215,12 @@ landing-pricing-free-price = Free
 landing-pricing-free-feature-1 = Up to 5 email aliases
 landing-pricing-free-feature-1-2 = Up to 5 email masks
 landing-pricing-free-feature-2 = Browser extension
+landing-pricing-free-feature-free = Free
+landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
 landing-pricing-free-cta = Get { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Available now!
+landing-pricing-free-feature-free = Free
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -232,6 +237,9 @@ landing-pricing-premium-feature-3-2 = Your own email subdomain
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
 landing-pricing-premium-feature-5 = Block promotional emails
+
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is not currently available in your country. Please share your email to be notified as soon as it is.
+landing-pricing-waitlist-cta = Join Waitlist
 
 ## Use Cases
 
@@ -329,6 +337,25 @@ premium-promo-use-cases-gaming-body = Worried about other gamers or trolls learn
 premium-promo-use-cases-gaming-body-2 = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use a mask like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
 
 premium-promo-pricing-free-price = Your current Free plan
+
+## The Premium waitlist page
+
+waitlist-heading = Join the { -brand-name-relay-premium } Waitlist
+waitlist-lead = Get notified when { -brand-name-firefox-relay-premium } is available for your region.
+waitlist-control-required = Required
+waitlist-control-email-label = What is your email address?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = What country do you live in?
+waitlist-control-locale-label = Select your preferred language.
+waitlist-submit-label = Join the Waitlist
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = By clicking “{ waitlist-submit-label }”, you agree to our <a>Privacy Policy</a>.
+waitlist-privacy-policy-use = Your information will only be used to notify you about { -brand-name-firefox-relay-premium } availability.
+waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
+waitlist-subscribe-error-connection = There was an error adding you to the waitlist. Please check your connection, then try again.
+waitlist-subscribe-error-unknown = There was an error adding you to the waitlist. Please try again.
 
 ## Settings page
 
@@ -1091,3 +1118,7 @@ forwarded-email-footer = Stop email forwarding and manage settings for all alias
 forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Upgrade to { -brand-name-relay-premium }
+
+## Notifications component
+
+toast-button-close-label = Close notification
