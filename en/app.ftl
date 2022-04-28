@@ -1115,3 +1115,7 @@ forwarded-email-footer = Stop email forwarding and manage settings for all alias
 forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Upgrade to { -brand-name-relay-premium }
+
+## Notifications component
+
+toast-button-close-label = Close notification
