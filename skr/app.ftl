@@ -35,7 +35,7 @@ meta-title = { -brand-name-firefox-relay }
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -130,11 +130,7 @@ how-it-works-headline = ایہ کین٘ویں کم کریندے
 how-it-works-subheadline = آپݨی ذاتی سُن٘ڄاݨ دی حفاظت کرو جتھ وی تساں { -brand-name-firefox-browser } ورتو۔
 how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
-# Deprecated
-how-it-works-step-2-headline = نواں عرفی ناں بݨاؤ
 how-it-works-step-2-headline-2 = نواں ای میل ماسک بݨاؤ
-# Deprecated
-how-it-works-step-3-headline = آپݨاں عرفی ناں منیج کرو
 how-it-works-step-3-headline-2 = آپݨے ای میل ماسک منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
 hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
@@ -145,41 +141,33 @@ hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آن
 
 ## Hero Section
 
-# Deprecated
-landing-hero-headline = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
 landing-hero-headline-2 = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
 
 ## How it works section
 
 landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
-# Deprecated
-landing-how-it-works-step-1-body = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل عرفی ناں جنریٹ کرو۔
 landing-how-it-works-step-1-body-2 = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل ماسک جنریٹ کرو۔
 
 ## Pricing section
 
-# Deprecated
-landing-pricing-headline = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ وچ بے انت عرفی ناں
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ، بے انت ای میل ماسک
 landing-pricing-free-price = مفت
-# Deprecated
-landing-pricing-free-feature-1 = ٥ تائیں ای میل عرفی ناں
 landing-pricing-free-feature-1-2 = ٥ تائیں ای میل ماسک
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
+landing-pricing-free-feature-free = مفت
 landing-pricing-free-cta = { -brand-name-relay } گھنو
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = ہݨ دستیاب ہے!
+landing-pricing-free-feature-free = مفت
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
 landing-pricing-premium-price-highlight = محدود ویلے دی قیمت
-# Deprecated
-landing-pricing-premium-feature-1 = بے انت ای میل عرفی ناں
 landing-pricing-premium-feature-1-2 = بے انت ای میل ماسک
 landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
-# Deprecated
-landing-pricing-premium-feature-3 = تہاݙی آپݨی ای میل ڈومین
 landing-pricing-premium-feature-3-2 = تہاݙی آپݨی ای میل نکی ڈومین
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
@@ -207,21 +195,17 @@ premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
-# Deprecated
-premium-promo-perks-perk-unlimited-headline = بے انت ای میل عرفی ناں تخلیق کرو
 premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
-premium-promo-perks-perk-custom-domain-headline = آپݨاں کسٹم ڈومین چُݨو
 premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
-# Deprecated
-premium-promo-perks-perk-dashboard-headline = ڈیشبورڈ کنوں آپݨے عرفی ناں کنٹرول کرو
 premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
-# Deprecated
-premium-promo-use-cases-headline = کہیں وی جاء تے { -brand-name-relay } ای میل عرفی ناں ورتو
 premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
 premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
+
+## The Premium waitlist page
+
 
 ## Settings page
 
@@ -234,9 +218,7 @@ settings-meta-status-label = خدمت حیثیت
 settings-meta-status-tooltip = پڑتال کرو بھلا سارے { -brand-name-relay } نظام ہݨ چلݨ آلے ہن۔
 settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھئی
 settings-error-save-description = کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔
-# Deprecated
-settings-warning-collection-off-heading = ای میل عرفی ناں لیبل عمل غیرفعال تھی ڳیا
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = ای میل ماسک لیبل عمل غیرفعال تھی ڳیا
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
@@ -251,57 +233,31 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-# Deprecated
-faq-question-what-is-question = { -brand-name-relay } عرفی ناں کیا ہے؟
 faq-question-what-is-question-2 = { -brand-name-relay } ای میل ماسک کیا ہے؟
-# Deprecated
-faq-question-missing-emails-question = میں آپݨے عرفی نان٘واں کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-question-2 = میں آپݨے ای میل ماسکاں  کنوں سنیہے کائنی گھندا پیا
-# Deprecated
-faq-question-missing-emails-answer-a = کجھ وجوہات ہن جو تہاکوں تہاݙے عرفی نان٘واں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
-# Deprecated
-faq-question-missing-emails-answer-reason-blocked = تہاݙا ای میل فراہم کرݨ آلا تہاݙے عرفی ناں بلاک کریندا پئے
 faq-question-missing-emails-answer-reason-blocked-2 = تہاݙا ای میل فراہم کرݨ آلا تہاݙے ای میل ماسک بلاک کریندا پئے
 faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
-# Deprecated
-faq-question-missing-emails-answer-reason-not-accepted = ایہ سائٹ عرفی ناں قبول کائنی کریندی
 faq-question-missing-emails-answer-reason-not-accepted-2 = ایہ سائٹ ای میل ماسک قبول کائنی کریندی
-# Deprecated
-faq-question-missing-emails-answer-reason-turned-off = عرفی ناں اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-missing-emails-answer-reason-turned-off-2 = ماسک  اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-missing-emails-answer-reason-delay = تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔
-# Deprecated
-faq-question-use-cases-question = میں { -brand-name-relay } عرفی ناں کݙݨ ورتاں؟
 faq-question-use-cases-question-2 = میں { -brand-name-relay } ای میل ماسک کݙݨ ورتاں؟
-# Deprecated
-faq-question-2-question = میݙے { -brand-name-relay } عرفی ناں ایہ سائٹ قبول کیوں نیں کیتے؟
 faq-question-2-question-2 = میݙے { -brand-name-relay } ای میل ماسک ایں سائٹ قبول کیوں نیں کیتے؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
-# Deprecated
-faq-question-4-question = بھلا میں آپݨے { -brand-name-relay } عرفی ناں ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-4-question-2 = بھلا میں آپݨے { -brand-name-relay } ای میل ماسک ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-subdomain-characters-answer-v2 = سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
-# Deprecated
-faq-question-mozmail-question = میݙے عرفی نان٘واں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-mozmail-question-2 = میݙے ای میل ماسکاں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
-# Deprecated
-faq-question-unsubscribe-domain-question = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم ݙٌڈومین نال کیا تھیسی؟
 faq-question-unsubscribe-domain-question-2 = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم  سب ڈومین نال کیا تھیسی؟
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 faq-question-acceptable-use-answer-measure-account = تصدیق تھئے ای میل پتے نال { -brand-name-firefox-account(capitalization: "uppercase") } دی لوڑ ہے
-# Deprecated
-faq-question-acceptable-use-answer-measure-unlimited-payment = کہیں ورتݨ آلے کیتے پنج کنوں ودھ عرفی ناں بݨاوݨ کیتے ضروری رقم
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = کہیں ورتݨ آلے کیتے پنج کنوں ودھ ماسک بݨاوݨ کیتے ضروری رقم
-# Deprecated
-faq-question-acceptable-use-answer-measure-rate-limit = ہک ݙین٘ہ وچ جنریٹ تھئے عرفی نان٘واں دی تعداد دی شرح کوں محدود کرݨ
 faq-question-acceptable-use-answer-measure-rate-limit-2 = ہک ݙین٘ہ وچ جنریٹ تھئے ماسکاں دی تعداد دی شرح کوں محدود کرݨ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -314,11 +270,7 @@ faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
-# Deprecated
-profile-headline-manage-domain = آپݨے ڈومین عرفی ناں منیج کرو
 profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
-# Deprecated
-profile-promo-upgrade-copy = بے انت ای میل پتے تے آپݨی ای میل ڈومین گھنݨ کیتے { -brand-name-relay } اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-details-expand = ماسک تفصیلاں ݙکھاؤ
 profile-details-collapse = ماسک تفصیلاں لکاؤ
@@ -326,41 +278,21 @@ profile-details-collapse = ماسک تفصیلاں لکاؤ
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = ماسک { $address } نقل کرݨ کیتے کلک کرو۔
-# Deprecated
-profile-label-edit = ایں عُرفی ناں کیتے لیبل وچ تبدیلی کرو
 profile-label-edit-2 = ایں ماسک کیتے لیبل وچ تبدیلی کرو
-# On the user's profile page, this text appears for an alias when it doesn't have a label.
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = کھاتہ ناں شامل کرو
 profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 profile-label-saved = لیبل محفوظ تھی ڳیا!
-# Deprecated
-profile-label-generate-new-alias = نواں عرفی ناں جنریٹ کرو
 profile-label-generate-new-alias-2 = نواں ماسک جنریٹ کرو
-# Deprecated
-profile-label-generate-new-alias-menu-random = رینڈم عرفی ناں
 profile-label-generate-new-alias-menu-random-2 = رینڈم ای میل ماسک
-# Deprecated
-profile-label-generate-new-alias-menu-custom = @{ $subdomain } عرفی ناں
 # Variables
 #   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } ماسک
 profile-label-delete = مٹاؤ
-# Deprecated
-profile-label-delete-alias = ایہ عرفی ناں مٹاؤ
-# Deprecated
-profile-label-delete-alias-2 = ایہ عرفی ناں مٹاؤ
-# Deprecated
-profile-label-upgrade = بے انت عرفی ناں گھنو
 profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
-# Deprecated
-profile-label-create-domain = آپݨی ای میل ڈومین گھنو
 profile-label-create-subdomain = آپݨی ای میل سب ڈومین گھنو
-# Deprecated
-profile-label-domain = ای میل ڈومین:
 profile-label-subdomain = ای میل سب ڈومین:
 profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
-# Deprecated
-profile-label-domain-tooltip = آپݨی نویکلی تے کسٹم ای میل ڈومین بݨاؤ۔
 profile-label-subdomain-tooltip = آپݨی نویکلی ای میل سب ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
@@ -374,70 +306,42 @@ profile-label-first-emailed = پہلی ای میل تھئی:
 profile-label-created = بݨیا:
 profile-label-details-show = تفصیلاں ݙکھاؤ
 profile-label-details-hide = تفصیلاں لُکاؤ
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
-# Deprecated
-profile-label-disable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
 profile-label-disable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
-# Deprecated
-profile-label-enable-forwarding-button = ایں عرفی ناں کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
 profile-label-enable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
-# Deprecated
-profile-label-copy-confirmation = عرفی ناں کلپ بورڈ تے نقل تھی ڳیا
-# Deprecated
-profile-label-copy-confirmation-2 = ماسک کلپ بورڈ تے نقل تھی ڳیا
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-cancel = منسوخ
-# Deprecated
-profile-blocked-copy = جہڑے ویلے تساں ایں عرفی ناں کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
-# Deprecated
-profile-forwarded-copy = تساں جہڑے ویلے عرفی ناں کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
-# Deprecated
-profile-stat-label-aliases-used = ورتیل ای میل عرفی ناں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
-# Deprecated
-profile-filter-search-placeholder = عرفی ناں ڳولو
 profile-filter-search-placeholder-2 = ماسک ڳولو
-# Deprecated
-profile-filter-category-option-active-aliases-v2 = اڳوں تے پٹھݨ آلے عرفی ناں
-# Deprecated
-profile-filter-category-option-disabled-aliases-v2 = بلاک کرݨ آلے عرفی ناں
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = بلاک کرݨ آلے ماسک
 # Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
 profile-filter-category-option-promo-blocking-masks = مشہوریاں روکݨ آلے ماسک
-# Deprecated
-profile-filter-category-option-relay-aliases-v2 = رینڈم عرفی ناں
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = رینڈم ماسک
-# Deprecated
-profile-filter-category-option-domain-based-aliases-v2 = کسٹم عرفی ناں
-# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = کسٹم ماسک
 
-## Alias Promotional Email Blocking (displayed on the profile page)
+## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = تساں کہڑیاں ای میلاں بلاک کرݨ چاہندے ہو؟
-# Block all emails sent to a speciic alias
+# Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = سارے
-# Block promotional emails sent to a speciic alias
+# Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotionals = پروموشنل
-# Allow/forward all emails sent to a speciic alias
+# Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = کوئی وی کائنی
-# Deprecated
-profile-promo-email-blocking-description-all = ایں عرفی ناں کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
 profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
-# Deprecated
-profile-promo-email-blocking-description-none = ایں عرفی ناں کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -448,35 +352,24 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 banner-dismiss = فارغ کرو
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
-# Deprecated
-banner-download-firefox-copy = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں بݨاوݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-download-install-extension-headline = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
-# Deprecated
-banner-download-install-extension-copy = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
 banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } کیتے { -brand-name-relay } اَزماؤ
+# Deprecated
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-chrome-extension-cta = { -brand-name-relay } ایکسٹنشن گھنو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = عمل مرحلہ
-# Deprecated
-banner-register-subdomain-headline-aliases = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو
-# This string is used in the example subdomain alias. Keep it lowercase and
+# This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = تہاݙی ڈومین
-# Deprecated
-banner-choose-subdomain-input-placeholder = ڈومین ڳولو
-# Deprecated
-banner-choose-subdomain-input-placeholder-2 = آپݨی نویں ڈومین ڳولو
 banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
-# This is the “call to action” text on the submit button of domain registration form.
+# This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ڳولو
-# Deprecated
-banner-pack-upgrade-headline-html = ٻئے عرفی ناں گھنݨ کیتے <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> تے اپ گریڈ کرو
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
@@ -486,35 +379,24 @@ banner-label-data-notification-header = { -brand-name-relay } تے جلدی آن
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
-# Deprecated
-banner-choose-subdomain-label = تہاݙی ڈومین ہے:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
 
 ## Success Messages
 
-# Deprecated
-success-subdomain-registered = تہاݙی { $subdomain }@ تخلیق تھی ڳئی ہے
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 
 ## Error Messages
 
-# Deprecated
-error-premium-set-make-aliases = { $number }کنوں ودھ عرفی ناں بݨاوݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
 error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
-# Deprecated
-error-premium-set-create-subdomain = سب ڈومین عرفی ناں تخلیق کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
 error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
-# Deprecated
-error-subdomain-select = سب ڈومین عرفی ناں خلقݨ کنوں پہلے سب ڈومین چُݨݨ ضروری ہے
 
 ## Tips and tricks at the bottom of the page
 
@@ -527,55 +409,35 @@ tips-footer-link-feedback-tooltip = فیڈبیک ݙیوو
 tips-footer-link-support-label = سہارا
 tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 
-## Alias for generating a custom alias
+## Modal for generating a custom mask
 
-# Deprecated
-modal-custom-alias-picker-heading = نواں کسٹم عرفی ناں بݨاؤ
 modal-custom-alias-picker-heading-2 = نواں کسٹم ماسک  بݨاؤ
-# Deprecated
-modal-custom-alias-picker-form-heading = یا، کسٹم عرفی ناں دستی تخلیق کرو
 modal-custom-alias-picker-form-heading-2 = یا، کسٹم ماسک دستی تخلیق کرو
-# Deprecated
-modal-custom-alias-picker-form-prefix-label = عرفی ناں سابقہ درج کرو
 modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ درج کرو
-# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
-# Deprecated
-modal-custom-alias-picker-form-submit-label = عرفی ناں جنریٹ کرو
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 
-## Popover explaining how custom aliases work
+## Popover explaining how custom masks work
 
-# Deprecated
-popover-custom-alias-explainer-heading = کسٹم  عرفی ناں کین٘ویں تخلیق کروں
 popover-custom-alias-explainer-heading-2 = کسٹم  ماسک کین٘ویں تخلیق کروں
-# Deprecated
-popover-custom-alias-explainer-generate-button-heading = کسٹم عرفی ناں دستی جنریٹ کرو
-# Deprecated
-popover-custom-alias-explainer-generate-button-label = کسٹم عرفی ناں جنریٹ کرو
 popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
-# Checkbox the user can click to adjust the block level of the new alias
+# Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
-# Deprecated
-tips-custom-alias-heading = تہاݙی کسٹم ڈومین ورت تے عرفی ناں تخلیق کریندا پئے
 tips-custom-alias-heading-2 = تہاݙی کسٹم سب ڈومین ورت تے ماسک تخلیق کریندا پئے
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
 tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 
-## Onboarding 
+## Onboarding
 
-# Deprecated
-onboarding-headline = آپݨاں پہلا عرفی ناں تخلیق کرو، تہاݙے کول ترائے طریقے ہن۔۔۔
 onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
-# Deprecated
-onboarding-alias-tip-1 = آپݨاں پہلا عرفی ناں خلقݨ کیتے "نواں ناں جنریٹ کرو" چُݨو۔
 
 ## Premium Onboarding
 
@@ -584,12 +446,6 @@ onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premiu
 onboarding-premium-subheadline-html = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں<strong>کنٹرول</strong> کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:
 onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
-# Deprecated
-onboarding-premium-domain-title = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو
-# Deprecated
-onboarding-premium-domain-title-2 = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین ورتو:
-# Deprecated
-onboarding-premium-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -601,32 +457,17 @@ multi-part-onboarding-step-counter = { $max } دا { $step } قدم
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-subheadline = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں کنٹرول کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 multi-part-onboarding-premium-welcome-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:
-# Deprecated
-multi-part-onboarding-premium-generate-unlimited-title = بے انت ای میل عرفی ناں جنریٹ کرو:
 multi-part-onboarding-premium-generate-unlimited-title-2 = بے انت ای میل ماسک جنریٹ کرو:
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
-# Deprecated
-multi-part-onboarding-premium-domain-headline = عرفی ناں شیئر کرݨ کیتے کسٹم ڈومین
-# Deprecated
-multi-part-onboarding-premium-domain-title = آپݨے عرفی ناں کیتے کسٹم ڈومین گھنو:
-# Deprecated
-multi-part-onboarding-premium-get-domain = کسٹم ڈومین گھنو
 multi-part-onboarding-premium-get-subdomain = کسٹم سب ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
-# Deprecated
-multi-part-onboarding-premium-domain-cta = میݙی کسٹم ڈومین ہݨ رجسٹر کرو:
 multi-part-onboarding-premium-domain-cta-2 = آپݨی کسٹم سب ڈومین ہݨ رجسٹر کرو:
-# Deprecated
-multi-part-onboarding-premium-domain-button-skip = جاری رکھو، میں آپݨی کسٹم ڈومین بعد وچ رجسٹر کریساں
 multi-part-onboarding-premium-domain-button-skip-2 = جاری رکھو، میں آپݨی کسٹم سب ڈومین بعد وچ رجسٹر کریساں
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
-# Deprecated
-multi-part-onboarding-premium-extension-reply-title = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو:
 multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
-# Deprecated
-multi-part-onboarding-premium-extension-get-description = { -brand-name-firefox } کیتے { -brand-name-relay }ایکسٹنشن عرفی ناں ای میل ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-chrome-extension-get-title = { -brand-name-google-chrome } کیتے { -brand-name-relay } ایکسٹنشن گھنو
+# Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
@@ -636,31 +477,21 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 ## Modals
 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
-# Deprecated
-modal-delete-headline = ایہ عرفی ناں پکّا پکّا مٹاؤں؟
 modal-delete-headline-2 = ایہ ای میل ماسک پکّا پکّا مٹاؤں؟
-# Deprecated
-modal-delete-confirmation = جیا، میں ایہ عرفی ناں مٹاوݨ چاہندا ہاں۔
 modal-delete-confirmation-2 = جیا، میں ایہ ماسک مٹاوݨ چاہندا ہاں۔
 modal-domain-register-good-news = خوشخبری!
-# Deprecated
-modal-domain-register-warning-reminder = یاد رکھو، تساں صرف ہک ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
 modal-domain-register-warning-reminder-2 = یاد رکھو، تساں صرف ہک سب ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
-# Deprecated
-modal-domain-register-button = ڈومین رجسٹڑ کرو
 modal-domain-register-button-2 = سب ڈومین رجسٹر کرو
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 modal-domain-register-success-title = کامیابی!
-# Deprecated
-modal-domain-register-success = { $subdomain } ہݨ تہاݙی ای میل ڈومین ہے!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
-#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل سب ڈومین ہے!
 
 ## The "Help & Tips" area at the bottom of the page
@@ -706,12 +537,11 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
-#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
-# Deprecated
-forwarded-email-header-premium-banner = کسٹم ای میل ڈومین تے بے انت عرفی ناں گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
-# Deprecated
-forwarded-email-footer = اتھ سارے عرفی نان٘واں کنوں ای میل بھیڄݨ کنوں روکو تے ترتیباں منیج کرو۔
 # This entire text is a link
 forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
+
+## Notifications component
+
