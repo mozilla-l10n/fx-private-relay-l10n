@@ -644,6 +644,7 @@ multi-part-onboarding-premium-extension-button-download = 下载 { -brand-name-r
 multi-part-onboarding-premium-chrome-extension-get-title = 下载 { -brand-name-google-chrome } 版 { -brand-name-relay } 扩展。
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
+multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
 multi-part-onboarding-premium-chrome-extension-button-download = 下载 { -brand-name-relay } 扩展
 multi-part-onboarding-premium-extension-button-skip = 继续，我之后再下载扩展
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
