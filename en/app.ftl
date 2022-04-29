@@ -574,10 +574,11 @@ banner-choose-subdomain-description = You can make up any address @{ $subdomain 
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = Your subdomain @{ $subdomain } has been created
 success-settings-update = Your settings have been updated
 success-signed-out-message = You have signed out.
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = Successfully signed in as { $username }.
 
 ## Error Messages
