@@ -19,7 +19,7 @@
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
--brand-name-firefox-account = 
+-brand-name-firefox-account =
     { $capitalization ->
        *[lowercase] Firefox account
         [uppercase] Firefox Account
@@ -35,7 +35,7 @@ meta-description-2 = { -brand-name-firefox-relay } makes it easy to create email
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Opens in a new tab)
 
-## Header 
+## Header
 
 logo-alt= { -brand-name-firefox-relay }
 logo-premium-alt= { -brand-name-firefox-relay-premium }
@@ -147,7 +147,7 @@ how-it-works-headline = How It Works
 how-it-works-subheadline = Protect your personal identity everywhere you use the { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Get the extension
 how-it-works-step-1-link = Download the { -brand-name-relay } extension for { -brand-name-firefox }.
-how-it-works-step-1-copy = Select the icon that appears on your { -brand-name-firefox } toolbar to access the sign-in page. 
+how-it-works-step-1-copy = Select the icon that appears on your { -brand-name-firefox } toolbar to access the sign-in page.
     Sign in with your { -brand-name-firefox-account } to get started.
 how-it-works-step-2-headline-2 = Create a new email mask
 how-it-works-step-2-copy = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address.
@@ -173,7 +173,7 @@ landing-how-it-works-body-2 = Share { -brand-name-relay } email masks instead of
 landing-how-it-works-step-1-body-cta = Download the { -brand-name-relay } extension for { -brand-name-firefox }.
 landing-how-it-works-step-1-body-2 = Generate email masks automatically wherever you enter your email address online.
 # Do not change '@relay.mozmail.com'
-landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address. 
+landing-how-it-works-step-2-body = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address.
     Select it to generate a new, random address that ends in @relay.mozmail.com.
 landing-how-it-works-step-2-body-2 = As you browse, the { -brand-name-relay } icon will appear where sites ask for your email address.
     Select it to generate a new, random address that ends in @mozmail.com.
@@ -454,7 +454,7 @@ profile-label-created = Created:
 profile-label-details-show = Show Details
 profile-label-details-hide = Hide Details
 
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = forwarding
 profile-label-blocking = blocking
 profile-label-disable-forwarding-button-2 = Disable email forwarding for this mask
@@ -514,8 +514,8 @@ banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
 #   $date (string) - A date for the next time the services tries to resend the email
-banner-bounced-copy = We are currently unable to send email to { $username }. 
-    We received a <em>{ $bounce_type }</em> “bounce” from your email provider when trying to forward emails to you. 
+banner-bounced-copy = We are currently unable to send email to { $username }.
+    We received a <em>{ $bounce_type }</em> “bounce” from your email provider when trying to forward emails to you.
     This can happen if { -brand-name-relay } couldn’t connect to your email provider, or if your mailbox was full. We will try again on { $date }.
 banner-download-firefox-headline = { -brand-name-relay } is even better in { -brand-name-firefox }
 banner-download-firefox-copy-2 = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes creating masks even easier.
@@ -640,10 +640,10 @@ tips-custom-alias-content-2 = All you need to do is make up and share a unique m
 ## Tip about using custom masks
 
 tips-promo-email-blocking-heading = Block Promotional Emails
-tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information. 
+tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
 
 
-## Onboarding 
+## Onboarding
 
 onboarding-headline-2 = Create your first email mask
 onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
@@ -685,7 +685,7 @@ multi-part-onboarding-premium-get-domain-description-3 = With a custom subdomain
 multi-part-onboarding-premium-domain-cta-2 = Register your custom subdomain now:
 multi-part-onboarding-premium-domain-button-skip-2 = Continue, I’ll register my custom subdomain later
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
-multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox } 
+multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description-2 = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email masks even easier.
 multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
 multi-part-onboarding-premium-chrome-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-google-chrome }
@@ -734,7 +734,7 @@ modal-domain-register-confirmation-checkbox-2 = Yes, I want to register <subdoma
 modal-domain-register-success-title = Success!
 
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
 # Variables:
@@ -799,7 +799,7 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } removes CCs a
 forwarded-email-header-premium-banner-2 = Upgrade to { $premium_link } to get unlimited email masks and a custom email subdomain.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }. 
+forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }.
 # This entire text is a link
 forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
 # This entire text is a link
