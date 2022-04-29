@@ -186,7 +186,10 @@ landing-pricing-free-price = 免费
 landing-pricing-free-feature-1-2 = 最多 5 个马甲
 landing-pricing-free-feature-2 = 浏览器扩展
 landing-pricing-free-feature-free = 免费
+landing-pricing-free-description = 试用 { -brand-name-firefox-relay } 马甲邮箱，保护您的收件箱。
 landing-pricing-free-cta = 下载 { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = 现已可用！
 landing-pricing-free-feature-free = 免费
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -199,6 +202,7 @@ landing-pricing-premium-feature-3-2 = 专属邮箱子域名
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 回复转发的电子邮件
 landing-pricing-premium-feature-5 = 屏蔽营销邮件
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
 landing-pricing-waitlist-cta = 加入预约名单
 
 ## Use Cases
@@ -261,6 +265,13 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = 您生活在哪个国家/地区？
 waitlist-control-locale-label = 选择您的首选语言。
 waitlist-submit-label = 加入预约名单
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = 点击“{ waitlist-submit-label }”，即表示您同意我们的<a>隐私政策</a>。
+waitlist-privacy-policy-use = 您的信息将仅用于向您通知 { -brand-name-firefox-relay-premium } 的可用性。
+waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
+waitlist-subscribe-error-connection = 加入预约名单时出错，请检查您的网络连接并重试。
+waitlist-subscribe-error-unknown = 加入预约名单时出错，请重试。
 
 ## Settings page
 
@@ -476,6 +487,7 @@ banner-download-install-extension-cta = 将 { -brand-name-relay } 添加到 { -b
 banner-download-install-chrome-extension-headline = 试试 { -brand-name-google-chrome } 版 { -brand-name-relay }。
 # Deprecated
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
+banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
 banner-download-install-chrome-extension-cta = 下载 { -brand-name-relay } 扩展
 banner-upgrade-headline = 升级为 { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 让创建马甲邮箱更简单，更有自定义子域名马甲与无限量马甲功能。
@@ -533,7 +545,7 @@ error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，�
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
-error-settings-update = 更新设置时遇到错误，请重试
+error-settings-update = 更新设置时出错，请重试
 error-mask-create-failed = 无法创建马甲，请重试。
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
