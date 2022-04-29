@@ -61,7 +61,7 @@ meta-description-2 = Το { -brand-name-firefox-relay } διευκολύνει �
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Ανοίγει σε νέα καρτέλα)
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -297,6 +297,8 @@ premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμ
 
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = toonomasas@example.com
 waitlist-control-country-label = Σε ποια χώρα κατοικείτε;
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
@@ -443,7 +445,7 @@ profile-label-first-emailed = Πρώτο email:
 profile-label-created = Δημιουργία:
 profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
 profile-label-disable-forwarding-button-2 = Απενεργοποίηση προώθησης email για τη μάσκα
@@ -560,10 +562,11 @@ banner-choose-subdomain-description = Μπορείτε να δημιουργήσ
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = Ο υποτομέας @{ $subdomain } έχει δημιουργηθεί
 success-settings-update = Οι ρυθμίσεις σας έχουν ενημερωθεί
 success-signed-out-message = Έχετε αποσυνδεθεί.
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = Έγινε επιτυχής σύνδεση ως { $username }.
 
 ## Error Messages
@@ -629,7 +632,7 @@ tips-custom-alias-content-2 = Χρειάζεται μόνο να δημιουρ�
 tips-promo-email-blocking-heading = Φραγή διαφημιστικών email
 tips-promo-email-blocking-content = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ επιτρέπεται ακόμα η λήψη email, όπως αποδείξεις ή στοιχεία αποστολής.
 
-## Onboarding 
+## Onboarding
 
 onboarding-headline-2 = Δημιουργήστε την πρώτη σας μάσκα email
 onboarding-alias-tip-1-2 = Επιλέξτε «Δημιουργία νέας μάσκας» για να δημιουργήσετε την πρώτη μάσκα email σας.
@@ -719,7 +722,7 @@ modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχω
 modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Επιτυχία!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = Το { $subdomain } είναι πλέον ο υποτομέας email σας!
 # Variables:
