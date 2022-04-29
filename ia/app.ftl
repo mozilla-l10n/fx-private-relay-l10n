@@ -206,6 +206,7 @@ landing-pricing-premium-feature-3-2 = Tu proprie subdominio e-mail
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Replica al e-mails inultrate
 landing-pricing-premium-feature-5 = Blocar e-mails promotional
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
 landing-pricing-waitlist-cta = Junge te al lista de attendentia
 
 ## Use Cases
@@ -283,6 +284,7 @@ waitlist-submit-label = Junge te al lista de attendentia
 waitlist-privacy-policy-agree = Cliccante sur “{ waitlist-submit-label }”, tu accepta nostre <a>Politica de confidentialitate</a>.
 waitlist-privacy-policy-use = Tu informationes solo sera usate pro notificar te re le disponibilitate de { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
+waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
 waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
 
 ## Settings page
