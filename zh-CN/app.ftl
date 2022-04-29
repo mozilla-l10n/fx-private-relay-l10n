@@ -185,7 +185,9 @@ landing-pricing-body-2 = 试用 { -brand-name-firefox-relay } 马甲邮箱保护
 landing-pricing-free-price = 免费
 landing-pricing-free-feature-1-2 = 最多 5 个马甲
 landing-pricing-free-feature-2 = 浏览器扩展
+landing-pricing-free-feature-free = 免费
 landing-pricing-free-cta = 下载 { -brand-name-relay }
+landing-pricing-free-feature-free = 免费
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
@@ -251,6 +253,14 @@ premium-promo-pricing-free-price = 您当前的免费方案
 ## The Premium waitlist page
 
 waitlist-heading = 欢迎加入 { -brand-name-relay-premium } 预约名单
+waitlist-lead = 当 { -brand-name-firefox-relay-premium } 可用于您的地区时，将会收到通知。
+waitlist-control-required = 必填
+waitlist-control-email-label = 您的电子邮件地址是什么？
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = 您生活在哪个国家/地区？
+waitlist-control-locale-label = 选择您的首选语言。
+waitlist-submit-label = 加入预约名单
 
 ## Settings page
 
@@ -728,3 +738,4 @@ forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
 
 ## Notifications component
 
+toast-button-close-label = 关闭通知
