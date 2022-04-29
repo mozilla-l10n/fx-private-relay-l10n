@@ -173,6 +173,7 @@ landing-pricing-premium-feature-3-2 = تہاݙی آپݨی ای میل نکی ڈ�
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
+landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
 
 ## Use Cases
 
@@ -206,6 +207,8 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 
 ## The Premium waitlist page
 
+waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
+waitlist-submit-label = تانگھ تندیر نال رلت کرو
 
 ## Settings page
 
