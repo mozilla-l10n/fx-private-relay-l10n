@@ -37,6 +37,8 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilite la création d’alias de messagerie qui transfèrent les messages vers votre véritable boîte de réception. Utilisez-les pour protéger vos comptes en ligne contre les pirates et les messages indésirables.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (S’ouvre dans un nouvel onglet)
 
 ## Header
 
@@ -111,6 +113,18 @@ whatsnew-feature-forward-some-heading = Blocage des e-mails promotionnels
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vous permet de bloquer seulement les e-mails promotionnels…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vous permet de bloquer seulement les e-mails promotionnels envoyés à un alias. Vous recevez les messages tels que les reçus, mais pas les e-mails des campagnes publicitaires.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Les alias s’appellent maintenant alias de messagerie
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Vous avez remarqué un changement ? Les alias s’appellent désormais les « alias de messagerie », afin de rendre { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Vous avez remarqué un changement ? Les alias s’appellent désormais les « alias de messagerie », afin de rendre { -brand-name-firefox-relay } plus facile à utiliser et permettre l’ajout de nouvelles fonctionnalités.
 
 ## Bento Menu
 
