@@ -269,10 +269,21 @@ premium-promo-pricing-free-price = Tu actual plano gratuite
 
 ## The Premium waitlist page
 
+waitlist-heading = Junge te al lista de attendentia de { -brand-name-relay-premium }
+waitlist-lead = Recipe avisos quando { -brand-name-firefox-relay-premium } sera disponibile pro tu region.
 waitlist-control-required = Necessari
 waitlist-control-email-label = Qual es tu adresse email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = In qual pais vive tu?
+waitlist-control-locale-label = Elige tu lingua preferite.
+waitlist-submit-label = Junge te al lista de attendentia
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Cliccante sur “{ waitlist-submit-label }”, tu accepta nostre <a>Politica de confidentialitate</a>.
+waitlist-privacy-policy-use = Tu informationes solo sera usate pro notificar te re le disponibilitate de { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
+waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
 
 ## Settings page
 
@@ -488,6 +499,7 @@ banner-download-install-extension-cta = Adder { -brand-name-relay } a { -brand-n
 banner-download-install-chrome-extension-headline = Proba { -brand-name-relay } pro { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases.
+banner-download-install-chrome-extension-copy-2 = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar le mascas.
 banner-download-install-chrome-extension-cta = Installa le extension { -brand-name-relay }
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rende mesmo plus facile crear mascas email, con un subdominio mascas personalisate e mascas illimitate.
@@ -650,6 +662,7 @@ multi-part-onboarding-premium-extension-button-download = Discarga le extension 
 multi-part-onboarding-premium-chrome-extension-get-title = Installa le extension { -brand-name-relay } pro { -brand-name-google-chrome }
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar aliases email.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar le mascas email.
 multi-part-onboarding-premium-chrome-extension-button-download = Discargar extension { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar,io discargara plus tarde le extension
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
