@@ -194,6 +194,7 @@ landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Upp till 5 e-postalias
 landing-pricing-free-feature-2 = Webbläsartillägg
 landing-pricing-free-feature-free = Gratis
+landing-pricing-free-description = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 landing-pricing-free-ribbon = Tillgänglig nu!
@@ -209,6 +210,7 @@ landing-pricing-premium-feature-3-2 = Din egna e-postunderdomän
 landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
 landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
 landing-pricing-premium-feature-5 = Blockera reklammeddelanden
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
 
 ## Use Cases
@@ -275,6 +277,19 @@ premium-promo-pricing-free-price = Din nuvarande gratisplan
 waitlist-heading = Ställ dig i väntelistan för { -brand-name-relay-premium }
 waitlist-lead = Få ett meddelande när { -brand-name-firefox-relay-premium } är tillgängligt i din region.
 waitlist-control-required = Krävs
+waitlist-control-email-label = Vad är din e-postadress?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = dittnamn@exempel.se
+waitlist-control-country-label = Vilket land bor du i?
+waitlist-control-locale-label = Välj ditt önskade språk.
+waitlist-submit-label = Ställ dig i väntelistan
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Genom att klicka på "{ waitlist-submit-label }" godkänner du vår <a>sekretesspolicy</a>.
+waitlist-privacy-policy-use = Din information kommer endast att användas för att meddela dig om tillgänglighet för { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = Du är på listan! När { -brand-name-firefox-relay-premium } blir tillgänglig för din region skickar vi ett e-postmeddelande till dig.
+waitlist-subscribe-error-connection = Det gick inte att lägga till dig på väntelistan. Kontrollera din anslutning och försök sedan igen.
+waitlist-subscribe-error-unknown = Det gick inte att lägga till dig på väntelistan. Var god försök igen.
 
 ## Settings page
 
@@ -490,6 +505,7 @@ banner-download-install-extension-cta = Lägg till { -brand-name-relay } i { -br
 banner-download-install-chrome-extension-headline = Testa { -brand-name-relay } för { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda alias.
+banner-download-install-chrome-extension-copy-2 = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda alias.
 banner-download-install-chrome-extension-cta = Hämta tillägget { -brand-name-relay }
 banner-upgrade-headline = Uppgradera till { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } gör det ännu enklare att skapa e-postalias med anpassade underdomäner och obegränsade alias.
@@ -651,6 +667,7 @@ multi-part-onboarding-premium-extension-button-download = Hämta tillägget { -b
 multi-part-onboarding-premium-chrome-extension-get-title = Hämta tillägget { -brand-name-relay } för { -brand-name-google-chrome }
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda e-postalias.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda e-postalias.
 multi-part-onboarding-premium-chrome-extension-button-download = Hämta tillägget { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Fortsätt, jag laddar ner tillägget senare
 multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
@@ -764,3 +781,4 @@ forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-prem
 
 ## Notifications component
 
+toast-button-close-label = Stäng meddelande
