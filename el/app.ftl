@@ -295,6 +295,7 @@ premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμ
 
 ## The Premium waitlist page
 
+waitlist-heading = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
