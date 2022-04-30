@@ -204,6 +204,7 @@ landing-pricing-premium-feature-3-2 = Il tuo sottodominio di posta elettronica p
 landing-pricing-premium-feature-3-subheader = tuaemail@tuodominio.mozmail.com
 landing-pricing-premium-feature-4 = Rispondi ai messaggi inoltrati
 landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } non è attualmente disponibile nel tuo Paese. Puoi fornirci il tuo indirizzo email per ricevere una notifica non appena sarà disponibile.
 landing-pricing-waitlist-cta = Iscriviti alla lista d’attesa
 
 ## Use Cases
@@ -267,16 +268,19 @@ premium-promo-pricing-free-price = Il tuo attuale piano gratuito
 
 ## The Premium waitlist page
 
+waitlist-heading = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
 waitlist-lead = Ricevi una notifica quando { -brand-name-firefox-relay-premium } sarà disponibile nel tuo Paese.
 waitlist-control-required = Obbligatorio
 waitlist-control-email-label = Qual è il tuo indirizzo email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = iltuonome@example.com
 waitlist-control-country-label = In quale Paese vivi?
+waitlist-control-locale-label = Seleziona la lingua che preferisci.
 waitlist-submit-label = Iscriviti alla lista d’attesa
 # Variables:
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = Facendo clic su “{ waitlist-submit-label }”, accetti la nostra <a>Informativa sulla privacy</a>.
+waitlist-privacy-policy-use = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità di { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
