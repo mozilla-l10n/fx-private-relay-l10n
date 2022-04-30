@@ -220,6 +220,8 @@ landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-free-feature-free = Δωρεάν
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Διαθέσιμο τώρα!
 landing-pricing-free-feature-free = Δωρεάν
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -296,6 +298,7 @@ premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμ
 ## The Premium waitlist page
 
 waitlist-heading = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
+waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -303,6 +306,10 @@ waitlist-control-email-placeholder = toonomasas@example.com
 waitlist-control-country-label = Σε ποια χώρα κατοικείτε;
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
+waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
 
 ## Settings page
 
