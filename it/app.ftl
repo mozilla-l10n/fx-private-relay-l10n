@@ -36,13 +36,11 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-# Deprecated
-meta-description = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
 meta-description-2 = { -brand-name-firefox-relay } consente di creare facilmente alias di posta elettronica in grado di inoltrare messaggi al tuo indirizzo reale. In questo modo puoi proteggere i tuoi account da hacker e messaggi indesiderati.
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (si apre in una nuova scheda)
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -147,15 +145,11 @@ how-it-works-step-1-link = Scarica l’estensione { -brand-name-relay } per { -b
 how-it-works-step-1-copy =
     Seleziona l’icona che appare sulla barra degli strumenti di { -brand-name-firefox } per aprire la pagina di accesso. 
     Accedi con il tuo { -brand-name-firefox-account } per iniziare.
-# Deprecated
-how-it-works-step-2-headline = Crea un nuovo alias
 how-it-works-step-2-headline-2 = Crea un nuovo alias
 how-it-works-step-2-copy =
     Durante la navigazione, l’icona di { -brand-name-relay } appare nei siti che richiedono il tuo indirizzo email.
     Selezionala per generare un nuovo indirizzo di posta elettronica casuale che termina con @relay.firefox.com.
     { -brand-name-relay } inoltra i messaggi all’indirizzo email principale associato al tuo account.
-# Deprecated
-how-it-works-step-3-headline = Gestisci i tuoi alias
 how-it-works-step-3-headline-2 = Gestisci i tuoi alias
 hero-image-copy-trust = Ti fidi a condividere la tua email personale con questa azienda?
 hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</strong> per ogni nuovo account …
@@ -166,114 +160,74 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 
 ## Hero Section
 
-# Deprecated
-landing-hero-headline = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
 landing-hero-headline-2 = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
-# Deprecated
-landing-hero-body = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
 landing-hero-body-2 = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
 
 ## How it works section
 
 landing-how-it-works-headline = Come funziona
-# Deprecated
-landing-how-it-works-body = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
 landing-how-it-works-body-2 = Condividi gli alias email di { -brand-name-relay } invece del tuo indirizzo email reale per proteggere la tua casella di posta elettronica e la tua identità.
 landing-how-it-works-step-1-body-cta = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
-# Deprecated
-landing-how-it-works-step-1-body = Genera automaticamente alias email ovunque inserisci il tuo indirizzo email online.
 landing-how-it-works-step-1-body-2 = Genera automaticamente alias email ovunque devi inserire il tuo indirizzo email online.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body = Durante la navigazione, l’icona di { -brand-name-relay } verrà visualizzata nei campi del sito in cui viene richiesto il tuo indirizzo email. Selezionala per generare un nuovo indirizzo email casuale che termina con @relay.mozmail.com.
 landing-how-it-works-step-2-body-2 = Durante la navigazione, l’icona di { -brand-name-relay } verrà visualizzata nei campi del sito in cui viene richiesto il tuo indirizzo email. Selezionala per generare un nuovo indirizzo email casuale che termina con @mozmail.com.
-# Deprecated
-landing-how-it-works-step-3-body =
-    Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato. { -brand-name-relay } inoltrerà i messaggi al tuo indirizzo email.
-    Se uno di questi alias riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
 landing-how-it-works-step-3-body-2 =
     Accedi alla dashboard di { -brand-name-relay } per tenere traccia degli alias che hai creato.
     Se uno di questi riceve spam o messaggi indesiderati, puoi bloccare tutti i messaggi e persino eliminare l’alias direttamente dalla dashboard.
 
 ## Pricing section
 
-# Deprecated
-landing-pricing-headline = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Offerta a tempo limitato: alias illimitati per { $monthly_price } al mese
-# Deprecated
-landing-pricing-body =
-    Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
-    Aggiorna a { -brand-name-relay-premium } per una flessibilità ancora maggiore e una gestione più personalizzata.
 landing-pricing-body-2 =
     Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
     Aggiorna a { -brand-name-relay-premium } per una flessibilità ancora maggiore e una gestione più personalizzata.
 landing-pricing-free-price = Gratis
-# Deprecated
-landing-pricing-free-feature-1 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-1-2 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
+landing-pricing-free-feature-free = Gratis
+landing-pricing-free-description = Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
 landing-pricing-free-cta = Ottieni { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Disponibile ora.
+landing-pricing-free-feature-free = Gratis
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } al mese
 landing-pricing-premium-price-highlight = Prezzi validi per periodo limitato
-# Deprecated
-landing-pricing-premium-feature-1 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-1-2 = Alias di posta elettronica illimitati
 landing-pricing-premium-feature-2 = Estensione per browser
-# Deprecated
-landing-pricing-premium-feature-3 = Il tuo dominio di posta elettronica personalizzato
 landing-pricing-premium-feature-3-2 = Il tuo sottodominio di posta elettronica personalizzato
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = tuaemail@tuodominio.mozmail.com
 landing-pricing-premium-feature-4 = Rispondi ai messaggi inoltrati
 landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
+landing-pricing-waitlist-cta = Iscriviti alla lista d’attesa
 
 ## Use Cases
 
 landing-use-cases-heading = Utilizza { -brand-name-firefox-relay } per:
 landing-use-cases-shopping = Shopping
-# Deprecated
-landing-use-cases-shopping-body =
-    Stai acquistando qualcosa da un nuovo negozio online? Usa un alias { -brand-name-relay } invece del tuo indirizzo email quando effettui un acquisto online.
-    La ricevuta sarà inoltrata al tuo indirizzo email reale e, se inizierai a ricevere email indesiderate, potrai semplicemente disattivare l’inoltro dei messaggi.
 landing-use-cases-shopping-body-2 =
     Stai acquistando qualcosa da un nuovo negozio online? Usa un alias invece del tuo indirizzo email quando effettui un acquisto online.
     La ricevuta sarà inoltrata al tuo indirizzo email reale e, se inizierai a ricevere email indesiderate, potrai semplicemente bloccare l’alias.
 landing-use-cases-social-networks = Social network
-# Deprecated
-landing-use-cases-social-networks-body =
-    Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
-    Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
 landing-use-cases-social-networks-body-2 =
     Vuoi proteggere meglio la tua identità online quando utilizzi un social network?
     Stai cercando di evitare che il tuo indirizzo email reale venga associato alla tua presenza sui social media? Utilizza un alias { -brand-name-relay } per accedere e proteggerti online.
 landing-use-cases-offline = Non in linea
-# Deprecated
-landing-use-cases-offline-body =
-    Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
-    Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
-    Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
 landing-use-cases-offline-body-2 =
     Preferisci ottenere le tue ricevute via email ma vuoi evitare messaggi indesiderati di marketing?
     Utilizza un alias { -brand-name-relay } invece della tua email quando richiedi una ricevuta elettronica in un negozio.
     Inoltreremo la ricevuta al tuo indirizzo email reale e, se inizi a ricevere messaggi che non ti piacciono, puoi semplicemente disattivare l’inoltro.
 landing-use-cases-access-content = Contenuti
-# Deprecated
-landing-use-cases-access-content-body =
-    Vuoi iscriverti a una newsletter ma non ti fidi del mittente?
-    Utilizza un alias al posto del tuo indirizzo reale. Se improvvisamente inizi a ricevere email indesiderate attraverso quell’alias, è possibile che il tuo indirizzo sia stato venduto a terze parti o perfino coinvolto in una violazione di dati.
-    A quel punto puoi disattivare o eliminare l’alias per proteggere la tua casella di posta elettronica.
 landing-use-cases-access-content-body-2 =
     Vuoi iscriverti a una newsletter ma non ti fidi del mittente?
     Utilizza un alias al posto del tuo indirizzo reale. Se improvvisamente inizi a ricevere email indesiderate attraverso quell’alias, è possibile che il tuo indirizzo sia stato venduto a terze parti o perfino coinvolto in una violazione di dati.
     A quel punto puoi disattivare o eliminare l’alias per proteggere la tua casella di posta elettronica.
 landing-use-cases-gaming = Giochi online
-# Deprecated
-landing-use-cases-gaming-body =
-    Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
-    Utilizza un alias { -brand-name-relay } per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 landing-use-cases-gaming-body-2 =
     Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
     Utilizza un alias di posta elettronica per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
@@ -286,8 +240,6 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
-# Deprecated
-premium-promo-hero-body-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a Relay Premium per soli { $monthly_price } al mese.</b>
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a { -brand-name-relay-premium } per soli { $monthly_price } al mese.</b>
@@ -295,44 +247,39 @@ premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
-# Deprecated
-premium-promo-perks-lead = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo dominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo sottodominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
 premium-promo-perks-cta-label = Aggiorna adesso
 premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
-# Deprecated
-premium-promo-perks-perk-unlimited-headline = Crea alias illimitati
 premium-promo-perks-perk-unlimited-headline-2 = Crea alias illimitati
-# Deprecated
-premium-promo-perks-perk-unlimited-body = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
 premium-promo-perks-perk-unlimited-body-2 = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
-premium-promo-perks-perk-custom-domain-headline = Scegli il tuo dominio personalizzato
 premium-promo-perks-perk-custom-domain-headline-2 = Scegli il tuo sottodominio personalizzato
-# Deprecated
-premium-promo-perks-perk-custom-domain-body = Con un dominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
 premium-promo-perks-perk-custom-domain-body-2 = Con un sottodominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
-# Deprecated
-premium-promo-perks-perk-dashboard-headline = Gestisci i tuoi alias dalla dashboard
 premium-promo-perks-perk-dashboard-headline-2 = Gestisci i tuoi alias dalla dashboard
-# Deprecated
-premium-promo-perks-perk-dashboard-body = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
 premium-promo-perks-perk-dashboard-body-2 = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
-# Deprecated
-premium-promo-use-cases-headline = Utilizza alias email { -brand-name-relay } ovunque
 premium-promo-use-cases-headline-2 = Utilizza gli alias email { -brand-name-relay } ovunque
 premium-promo-use-cases-shopping-heading = Shopping
-# Deprecated
-premium-promo-use-cases-shopping-body = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” sotto alias personalizzati unici, come “sconti@miodominio.mozmail.com”.
 premium-promo-use-cases-shopping-body-2 = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” in un alias personalizzato, come “sconti@miodominio.mozmail.com”.
 premium-promo-use-cases-social-networks-heading = Social network
-# Deprecated
-premium-promo-use-cases-social-networks-body = Vuoi proteggere meglio la tua identità online quando usi un social network? Utilizza un alias { -brand-name-relay } diverso per accedere a ciascun social network ed evita di esporre il tuo indirizzo email reale in questi siti.
 premium-promo-use-cases-social-networks-body-2 = Vuoi proteggere meglio la tua identità online quando usi un social network? Utilizza un alias diverso per accedere a ciascun social network ed evita di esporre il tuo indirizzo email reale in questi siti.
 premium-promo-use-cases-gaming-heading = Giochi
-# Deprecated
-premium-promo-use-cases-gaming-body = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 premium-promo-use-cases-gaming-body-2 = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 premium-promo-pricing-free-price = Il tuo attuale piano gratuito
+
+## The Premium waitlist page
+
+waitlist-lead = Ricevi una notifica quando { -brand-name-firefox-relay-premium } sarà disponibile nel tuo Paese.
+waitlist-control-required = Obbligatorio
+waitlist-control-email-label = Qual è il tuo indirizzo email?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = iltuonome@example.com
+waitlist-control-country-label = In quale Paese vivi?
+waitlist-submit-label = Iscriviti alla lista d’attesa
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Facendo clic su “{ waitlist-submit-label }”, accetti la nostra <a>Informativa sulla privacy</a>.
+waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
+waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
+waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
 
 ## Settings page
 
@@ -345,22 +292,14 @@ settings-meta-status-label = Stato del servizio
 settings-meta-status-tooltip = Verifica se tutti i sistemi di { -brand-name-relay } sono attualmente operativi.
 settings-error-save-heading = Modifica delle impostazioni non riuscita
 settings-error-save-description = Le modifiche alle impostazioni non sono state salvate a causa di un errore di connessione. Riprova.
-# Deprecated
-settings-warning-collection-off-heading = La funzione di etichetta per gli alias email è disattivata
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = La funzione di etichetta per gli alias email è disattivata
-# Deprecated
-settings-warning-collection-off-description = { -brand-name-relay } non è attualmente autorizzato a raccogliere i dati relativi ai siti dove hai generato e utilizzato gli alias email. È possibile modificare questa opzione in “Impostazioni”, nella sezione “Raccolta dati”.
-# This is a warning displayed at the top of the settings page when server storage of alias labels and associated websites are turned off.
+# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } non è attualmente autorizzato a raccogliere i dati relativi ai siti dove hai generato e utilizzato gli alias email. È possibile modificare questa opzione in “Impostazioni”, nella sezione “Raccolta dati”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
-# Deprecated
-setting-label-collection-description = Consenti a { -brand-name-relay } di raccogliere i dati relativi ai siti dove vengono generati e utilizzati i tuoi alias.
 setting-label-collection-description-2 = Consenti a { -brand-name-relay } di raccogliere i dati relativi ai siti dove vengono generati e utilizzati i tuoi alias.
-# Deprecated
-setting-label-collection-off-warning = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web pertinenti in una versione futura. Se decidi di disattivare questa preferenza, i tuoi alias non verranno etichettati con i siti web dove vengono utilizzati.
-# This is a warning displayed when the user toggles off server storage of alias labels, but hasn't pressed "Save" yet.
+# This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web dove vengono utilizzati. Se decidi di disattivare questa preferenza, i tuoi alias non verranno più etichettati in questo modo.
 settings-button-save-label = Salva
 settings-button-save-tooltip = Applica le impostazioni scelte.
@@ -373,28 +312,14 @@ faq-headline = Domande più frequenti
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-# Deprecated
-faq-question-what-is-question = Che cos’è un alias { -brand-name-relay }?
 faq-question-what-is-question-2 = Che cos’è un alias { -brand-name-relay }?
-# Deprecated
-faq-question-what-is-answer = Gli alias email sono indirizzi email mascherati che inoltrano i messaggi al tuo indirizzo email reale. Questi alias ti consentono di condividere un indirizzo con terze parti senza preoccupazioni: il tuo indirizzo email reale rimarrà nascosto e riceverà i messaggi inoltrati.
 faq-question-what-is-answer-2 = Gli alias email sono indirizzi email mascherati, o privati, che inoltrano i messaggi al tuo indirizzo email reale. Questi alias ti consentono di condividere un indirizzo con terze parti senza preoccupazioni: il tuo indirizzo email reale rimarrà nascosto e riceverà i messaggi inoltrati.
-# Deprecated
-faq-question-missing-emails-question = Non ricevo messaggi dai miei alias
 faq-question-missing-emails-question-2 = Non ricevo messaggi dai miei alias
-# Deprecated
-faq-question-missing-emails-answer-a = Ci sono alcuni motivi per cui potresti non ricevere le email inoltrate tramite i tuoi alias. Questi motivi includono:
 faq-question-missing-emails-answer-a-2 = Ci sono alcuni motivi per cui potresti non ricevere le email inoltrate tramite i tuoi alias. Questi motivi includono:
 faq-question-missing-emails-answer-reason-spam = I messaggi finiscono nella posta indesiderata (spam)
-# Deprecated
-faq-question-missing-emails-answer-reason-blocked = Il tuo fornitore di posta elettronica sta bloccando il tuo alias
 faq-question-missing-emails-answer-reason-blocked-2 = Il tuo fornitore di posta elettronica sta bloccando il tuo alias
 faq-question-missing-emails-answer-reason-size = L’email inoltrata ha un allegato più grande di { email-size-limit }
-# Deprecated
-faq-question-missing-emails-answer-reason-not-accepted = Il sito non accetta alias
 faq-question-missing-emails-answer-reason-not-accepted-2 = Il sito non accetta alias
-# Deprecated
-faq-question-missing-emails-answer-reason-turned-off = L’inoltro per l’alias potrebbe essere stato disattivato
 faq-question-missing-emails-answer-reason-turned-off-2 = L’inoltro per l’alias potrebbe essere stato disattivato
 faq-question-missing-emails-answer-reason-delay = È possibile che { -brand-name-relay } stia richiedendo più tempo del solito per inoltrare i tuoi messaggi
 #   $url (url) - link to the support site
@@ -403,32 +328,16 @@ faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Se stai riscontrando uno di questi problemi, <a href="{ $url }" { $attrs }>visita il nostro sito di supporto</a>.
-# Deprecated
-faq-question-use-cases-question = Quando è consigliato utilizzare gli alias { -brand-name-relay }?
 faq-question-use-cases-question-2 = Quando è consigliato utilizzare gli alias { -brand-name-relay }?
-# Deprecated
-faq-question-use-cases-answer-part1 = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro.
 faq-question-use-cases-answer-part1-2 = Puoi utilizzare gli alias { -brand-name-relay } nella maggior parte delle situazioni in cui utilizzeresti il tuo indirizzo email tradizionale. Ti consigliamo di utilizzarli quando ti registri per email di marketing o informazioni, dove potresti voler controllare se ricevere o meno ulteriori messaggi in futuro.
-# Deprecated
-faq-question-use-cases-answer-part2 = Non è consigliabile utilizzare un alias per verificare la propria identità, per email molto importanti o per quelle in cui si devono ricevere allegati. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico o il tuo avvocato, così come quando devi ricevere biglietti aerei o per concerti.
 faq-question-use-cases-answer-part2-2 = Non è consigliabile utilizzare un alias per verificare la propria identità, per email molto importanti o per quelle in cui si devono ricevere allegati. Ad esempio, dovresti sempre condividere il tuo indirizzo email reale con la tua banca, il tuo medico o il tuo avvocato, così come quando devi ricevere biglietti aerei o per concerti.
-# Deprecated
-faq-question-2-question = Perché un sito non accetta il mio alias { -brand-name-relay }?
 faq-question-2-question-2 = Perché un sito non accetta il mio alias { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
-# Deprecated
-faq-question-2-answer-v3-html =
-    Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (@sottodominio.mozmail.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo.
-    Se non riesci a utilizzare un alias { -brand-name-relay }, <a href="{ $url }" { $attrs }>contattaci</a>.
 faq-question-2-answer-v4 = Alcuni siti potrebbero non accettare un indirizzo di posta elettronica che include un sottodominio (@sottodominio.mozmail.com), mentre altri non accettano indirizzi che non siano Gmail, Hotmail o Yahoo.
 faq-question-1-question = Cosa succede alla posta indesiderata?
-# Deprecated
-faq-question-1-answer-a = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
 faq-question-1-answer-a-2 = { -brand-name-relay } non filtra la posta indesiderata (spam), ma il nostro partner per la posta elettronica Amazon SES blocca spam e malware. Se { -brand-name-relay } inoltra messaggi a cui non sei interessato, puoi cambiare le impostazioni di { -brand-name-relay } per bloccare i messaggi dall’alias che li inoltra.
-# Deprecated
-faq-question-1-answer-b-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -436,43 +345,21 @@ faq-question-1-answer-b-2-html = Se noti un problema diffuso di posta indesidera
 faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
 faq-question-availability-answer = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda.
 faq-question-availability-answer-v2 = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Finlandia, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Svezia, Paesi Bassi e Irlanda.
-# Deprecated
-faq-question-4-question = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 faq-question-4-question-2 = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
-# Deprecated
-faq-question-4-answer-v3 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
 faq-question-4-answer-v4 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
-# Deprecated
-faq-question-4-answer-html =
-    { -brand-name-relay } attualmente non permette di rispondere usando un alias.
-    Puoi provarci, ma non funziona. Stiamo progettando una funzione aggiuntiva che ti permetterà di <a href="{ $url }" { $attrs }>rispondere anonimamente ai messaggi</a>.
 faq-question-subdomain-characters-question = Quali caratteri si possono utilizzare per creare un sottodominio?
 faq-question-subdomain-characters-answer-v2 = Per creare un sottodominio puoi utilizzare solo lettere latine minuscole, numeri e trattini.
 faq-question-browser-support-question = Posso utilizzare { -brand-name-relay } con altri browser o sul mio dispositivo mobile?
-# Deprecated
-faq-question-browser-support-answer = Sì, puoi generare alias { -brand-name-relay } con altri browser o dispositivi mobili semplicemente accedendo alla tua dashboard { -brand-name-relay }.
 faq-question-browser-support-answer-2 = Sì, puoi generare alias { -brand-name-relay } con altri browser o dispositivi mobili semplicemente accedendo alla tua dashboard { -brand-name-relay }.
 faq-question-longevity-question = Che cosa succede se Mozilla interrompe il servizio { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-longevity-answer = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
 faq-question-longevity-answer-2 = Ti avviseremo in anticipo della necessità di cambiare l’indirizzo di posta elettronica di tutti gli account che utilizzano alias { -brand-name-relay }.
-# Deprecated
-faq-question-mozmail-question = Perché i miei alias hanno iniziato a utilizzare il dominio “mozmail.com”?
 faq-question-mozmail-question-2 = Perché i miei alias hanno iniziato a utilizzare il dominio “mozmail.com”?
-# Deprecated
-faq-question-mozmail-answer = Abbiamo effettuato il passaggio da “relay.firefox.com” a “mozmail.com” per rendere possibile l’utilizzo di un dominio di posta elettronica personalizzato, come alias@miodominio.mozmail.com. I domini di posta elettronica personalizzati, disponibili per gli abbonati { -brand-name-relay-premium }, rendono anche i tuoi alias email molto più facili da ricordare rispetto agli alias generati casualmente.
 faq-question-mozmail-answer-2 = Abbiamo effettuato il passaggio da “relay.firefox.com” a “mozmail.com” per rendere possibile l’utilizzo di un sottodominio di posta elettronica personalizzato, come alias@miodominio.mozmail.com. I sottodomini di posta elettronica personalizzati, disponibili per gli abbonati { -brand-name-relay-premium }, permettono di generare alias email più facili da ricordare.
 faq-question-attachments-question = Con { -brand-name-firefox-relay } si possono inoltrare email con allegati?
 faq-question-attachments-answer-v2 = Ora supportiamo anche l’inoltro degli allegati, tuttavia c’è un limite alle dimensioni: { -brand-name-relay } non inoltrerà i messaggi più grandi di { email-size-limit }.
-# Deprecated
-faq-question-unsubscribe-domain-question = Che cosa succede al mio dominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-question-2 = Che cosa succede al mio sottodominio personalizzato se disdico l’abbonamento a { -brand-name-relay-premium }?
-# Deprecated
-faq-question-unsubscribe-domain-answer = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite il tuo dominio personalizzato, ma non potrai più creare nuovi alias utilizzando quel dominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
 faq-question-unsubscribe-domain-answer-2 = Se esegui il downgrade da { -brand-name-relay-premium }, continuerai a ricevere email inoltrate tramite i tuoi alias personalizzati, ma non potrai più creare nuovi alias utilizzando quel sottodominio. Se hai più di cinque alias in totale, non potrai crearne altri. Perderai anche la possibilità di rispondere ai messaggi inoltrati. Puoi iscriverti nuovamente a { -brand-name-relay-premium } e riottenere l’accesso a queste funzioni.
 faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-relay }?
-# Deprecated
-faq-question-8-answer-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -484,11 +371,7 @@ faq-question-acceptable-use-question = Quali sono gli utilizzi accettabili di { 
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } è soggetto alle stesse <a href="{ $url }" { $attrs }>condizioni di utilizzo di tutti i prodotti { -brand-name-mozilla }</a>. Abbiamo una politica di tolleranza zero nel caso in cui { -brand-name-relay } venga utilizzato con intenti dolosi come l’invio di spam, con conseguente chiusura dell’account. Adottiamo misure per impedire agli utenti di violare le nostre condizioni:
 faq-question-acceptable-use-answer-measure-account = È obbligatorio utilizzare un { -brand-name-firefox-account } con un indirizzo email verificato
-# Deprecated
-faq-question-acceptable-use-answer-measure-unlimited-payment = La creazione di più di cinque alias è un servizio a pagamento
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = La creazione di più di cinque alias è un servizio a pagamento
-# Deprecated
-faq-question-acceptable-use-answer-measure-rate-limit = È possibile creare un numero limitato di alias ogni giorno
 faq-question-acceptable-use-answer-measure-rate-limit-2 = È possibile creare un numero limitato di alias ogni giorno
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
@@ -503,12 +386,8 @@ faq-question-detect-promotional-answer = Molte email vengono inviate con metadat
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Ciao,</span> { $email }.
-# Deprecated
-profile-headline-manage-domain = Gestisci gli alias per il tuo dominio
 profile-supports-email-forwarding = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }.
 profile-promo-upgrade-headline = Aggiorna alla versione premium per avere ancora più funzionalità.
-# Deprecated
-profile-promo-upgrade-copy = Aggiorna { -brand-name-relay } alla versione premium per ottenere indirizzi di posta elettronica illimitati e il tuo dominio email personalizzato.
 profile-promo-upgrade-cta = Aggiorna { -brand-name-relay }
 profile-details-expand = Mostra dettagli alias
 profile-details-collapse = Nascondi dettagli alias
@@ -516,41 +395,21 @@ profile-details-collapse = Nascondi dettagli alias
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = Fai clic per copiare l’alias { $address }.
-# Deprecated
-profile-label-edit = Modifica l’etichetta di questo alias
 profile-label-edit-2 = Modifica l’etichetta di questo alias
-# On the user's profile page, this text appears for an alias when it doesn't have a label.
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Aggiungi nome account
 profile-label-save-error = Impossibile salvare, riprova.
 profile-label-saved = Etichetta salvata
-# Deprecated
-profile-label-generate-new-alias = Genera nuovo alias
 profile-label-generate-new-alias-2 = Genera nuovo alias
-# Deprecated
-profile-label-generate-new-alias-menu-random = Alias casuale
 profile-label-generate-new-alias-menu-random-2 = Alias casuale
-# Deprecated
-profile-label-generate-new-alias-menu-custom = Alias @{ $subdomain }
 # Variables
 #   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
 profile-label-generate-new-alias-menu-custom-2 = Alias @{ $subdomain }
 profile-label-delete = Elimina
-# Deprecated
-profile-label-delete-alias = Elimina questo alias
-# Deprecated
-profile-label-delete-alias-2 = Elimina questo alias
-# Deprecated
-profile-label-upgrade = Ottieni alias illimitati
 profile-label-upgrade-2 = Ottieni alias illimitati
-# Deprecated
-profile-label-create-domain = Ottieni il tuo dominio email
 profile-label-create-subdomain = Ottieni il tuo sottodominio email
-# Deprecated
-profile-label-domain = Dominio email:
 profile-label-subdomain = Sottodominio email:
 profile-label-subdomain-tooltip-trigger = Altre informazioni
-# Deprecated
-profile-label-domain-tooltip = Crea il tuo dominio email unico e personalizzato.
 profile-label-subdomain-tooltip = Crea il tuo sottodominio email univoco.
 profile-label-reset = Ripristina
 profile-label-apply = Applica
@@ -564,79 +423,51 @@ profile-label-first-emailed = Data primo invio:
 profile-label-created = Data creazione:
 profile-label-details-show = Mostra dettagli
 profile-label-details-hide = Nascondi dettagli
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = inoltro attivo
 profile-label-blocking = inoltro bloccato
-# Deprecated
-profile-label-disable-forwarding-button = Disattiva l’inoltro di email per questo alias
 profile-label-disable-forwarding-button-2 = Disattiva l’inoltro di email per questo alias
-# Deprecated
-profile-label-enable-forwarding-button = Attiva l’inoltro di email per questo alias
 profile-label-enable-forwarding-button-2 = Attiva l’inoltro di email per questo alias
 profile-label-click-to-copy = Fai clic per copiare
-# Deprecated
-profile-label-copy-confirmation = Alias copiato negli appunti
-# Deprecated
-profile-label-copy-confirmation-2 = Alias copiato negli appunti
 profile-label-copied = Copiato
 profile-label-blocked = Bloccati
 profile-label-forwarded = Inoltrati
 profile-label-cancel = Annulla
-# Deprecated
-profile-blocked-copy = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
 profile-blocked-copy-2 = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
-# Deprecated
-profile-forwarded-copy = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
 profile-forwarded-copy-2 = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = I messaggi (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non sono attualmente supportati e non verranno inoltrati.
 profile-forwarded-note-copy-v2 = Le email (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non verranno inoltrate.
 profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
-# Deprecated
-profile-stat-label-aliases-used = Alias utilizzati
 profile-stat-label-aliases-used-2 = Alias utilizzati
-# Deprecated
-profile-filter-search-placeholder = Cerca alias
 profile-filter-search-placeholder-2 = Cerca alias
 profile-filter-category-button-label = Filtra gli alias visualizzati
 profile-filter-category-button-tooltip = Filtra gli alias in base al sottodominio e/o se stanno bloccando la posta in arrivo
 profile-filter-category-title = Filtra gli alias visualizzati
 profile-filter-no-results = Nessun alias corrisponde ai criteri selezionati. <clear-button>Rimuovi tutti i filtri.</clear-button>
-# Deprecated
-profile-filter-category-option-active-aliases-v2 = Alias con inoltro attivo
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Alias con inoltro attivo
-# Deprecated
-profile-filter-category-option-disabled-aliases-v2 = Alias con blocco attivo
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Alias con blocco attivo
 # Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
 profile-filter-category-option-promo-blocking-masks = Alias con blocco delle pubblicità attivo
-# Deprecated
-profile-filter-category-option-relay-aliases-v2 = Alias casuali
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Alias casuali
-# Deprecated
-profile-filter-category-option-domain-based-aliases-v2 = Alias personalizzati
-# Filter on Relay aliases that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Alias personalizzati
 
-## Alias Promotional Email Blocking (displayed on the profile page)
+## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = Quali email vuoi bloccare?
-# Block all emails sent to a speciic alias
+# Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Tutte
-# Block promotional emails sent to a speciic alias
+# Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotionals = Pubblicitarie
-# Allow/forward all emails sent to a speciic alias
+# Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Nessuna
-# Deprecated
-profile-promo-email-blocking-description-all = { -brand-name-relay } sta bloccando tutte le email inviate a questo alias.
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } sta bloccando tutte le email inviate a questo alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tenterà di bloccare le email pubblicitarie, consentendoti comunque di ricevere email essenziali come fatture o informazioni su una spedizione.
-# Deprecated
-profile-promo-email-blocking-description-none = { -brand-name-relay } non sta bloccando alcuna email per questo alias.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non sta bloccando alcuna email per questo alias.
 profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
 profile-promo-email-blocking-label-none = Blocca tutto
@@ -656,52 +487,36 @@ banner-bounced-copy =
     Abbiamo ricevuto un “rimbalzo” <em>{ $bounce_type }</em> dal tuo provider di posta elettronica durante il tentativo di inoltro dell’email. 
     Questo può accadere se { -brand-name-relay } non riesce a connettersi al tuo provider o quando la tua casella di posta è piena. Sarà effettuato un altro tentativo il { $date }.
 banner-download-firefox-headline = { -brand-name-relay } è ancora meglio in { -brand-name-firefox }
-# Deprecated
-banner-download-firefox-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
 banner-download-firefox-copy-2 = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende la creazione di alias ancora più facile.
 banner-download-firefox-cta = Scarica { -brand-name-firefox }
 banner-download-install-extension-headline = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }.
-# Deprecated
-banner-download-install-extension-copy = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
 banner-download-install-extension-copy-2 = L’estensione { -brand-name-relay } per { -brand-name-firefox-browser } rende l’utilizzo degli alias ancora più facile.
 banner-download-install-extension-cta = Aggiungi { -brand-name-relay } a { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Prova { -brand-name-relay } per { -brand-name-google-chrome }
+# Deprecated
 banner-download-install-chrome-extension-copy = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias ancora più facile.
+banner-download-install-chrome-extension-copy-2 = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias ancora più facile.
 banner-download-install-chrome-extension-cta = Installa l’estensione { -brand-name-relay }
 banner-upgrade-headline = Esegui l’aggiornamento a { -brand-name-relay-premium }
-# Deprecated
-banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } rende la creazione di alias ancora più facile, con domini alias personalizzati e alias illimitati.
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rende la creazione di alias ancora più facile, con sottodomini personalizzati e alias illimitati.
 banner-upgrade-cta = Aggiorna a { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Prossimo passo
-# Deprecated
-banner-register-subdomain-headline-aliases = Ottieni un dominio personalizzato per i tuoi alias
 banner-register-subdomain-headline-aliases-2 = Ottieni un sottodominio personalizzato per i tuoi alias
-# This string is used in the example subdomain alias. Keep it lowercase and
+# This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tuodominio
-# Deprecated
-banner-register-subdomain-copy = Con un dominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@miodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo il dominio personalizzato ti verrà inoltrato automaticamente.
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
 #
 # Variables:
-#   $mozmail (string): domain used by Relay aliases (mozmail.com)
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = Con un sottodominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@miodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo sottodominio personalizzato ti verrà inoltrato automaticamente.
-# Deprecated
-banner-choose-subdomain-input-placeholder = Cerca dominio
-# Deprecated
-banner-choose-subdomain-input-placeholder-2 = Trova il tuo nuovo dominio
 banner-choose-subdomain-input-placeholder-3 = Cerca sottodominio
-# This is the “call to action” text on the submit button of domain registration form.
+# This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Cerca
-# Deprecated
-banner-pack-upgrade-headline-html = Aggiorna a <strong>{ -brand-name-firefox } { -brand-name-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-headline-2-html = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per ottenere più alias
-# Deprecated
-banner-pack-upgrade-copy = Con alias illimitati e il tuo dominio email personalizzato, { -brand-name-firefox } { -brand-name-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-copy-2 = Con alias illimitati e il tuo sottodominio email personalizzato, { -brand-name-firefox-relay-premium } ti aiuta a rimanere protetto online.
 banner-pack-upgrade-cta = Aggiorna adesso
 # Privacy Notice update banner:
@@ -710,46 +525,31 @@ banner-label-privacy-notice-update-body = Per garantire l’affidabilità di { -
 banner-label-privacy-notice-update-cta = Visualizza informativa sulla privacy
 # Data Notification Banner:
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
-# Deprecated
-banner-label-data-notification-body = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi sui siti web dove vengono utilizzati i tuoi alias per supportare funzionalità future. Autorizzare questa raccolta dati dalla pagina “Impostazioni” renderà ancora più semplice la gestione della tua casella di posta.
 banner-label-data-notification-cta = Vai alle impostazioni
 banner-label-data-notification-header-v2 = Attiva nuove funzioni
-# Deprecated
-banner-label-data-notification-body-v2 = Puoi consentire a { -brand-name-relay } di raccogliere dati facoltativi che ci consentono di sincronizzare le etichette degli alias su tutti i tuoi dispositivi, insieme ai siti web dove li hai generati e utilizzati.
 banner-label-data-notification-body-cta = Ulteriori informazioni
-# Deprecated
-banner-choose-subdomain-label = Il tuo dominio è:
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
 
 ## Success Messages
 
-# Deprecated
-success-subdomain-registered = Il dominio @{ $subdomain } è stato creato
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = Il sottodominio @{ $subdomain } è stato creato
 success-settings-update = Le impostazioni sono state aggiornate.
 success-signed-out-message = Ti sei disconnesso.
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = Accesso effettuato come { $username }.
 
 ## Error Messages
 
-# Deprecated
-error-premium-set-make-aliases = È necessario avere un abbonamento premium per creare più di { $number } alias
 error-premium-cannot-change-subdomain = Non è possibile modificare il sottodominio
 error-premium-set-subdomain = È necessario avere un abbonamento premium per impostare un sottodominio
 error-premium-check-subdomain = È necessario avere un abbonamento premium per selezionare un sottodominio
-# Deprecated
-error-premium-set-create-subdomain = È necessario avere un abbonamento premium per creare alias per il sottodominio
 error-subdomain-not-created = Impossibile creare il sottodominio, provane un altro
 error-subdomain-email-not-created = Impossibile creare l’indirizzo email con sottodominio, provane un altro
-# Deprecated
-error-subdomain-select = È necessario selezionare un sottodominio prima di creare un alias
-# Deprecated
-error-subdomain-not-available = Il dominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro dominio.
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Il sottodominio @{ $unavailable_subdomain } non è disponibile. Riprova con un altro nome.
@@ -773,75 +573,44 @@ tips-footer-link-feedback-tooltip = Invia la tua opinione
 tips-footer-link-support-label = Supporto
 tips-footer-link-support-tooltip = Contatta l’assistenza
 
-## Alias for generating a custom alias
+## Modal for generating a custom mask
 
-# Deprecated
-modal-custom-alias-picker-heading = Crea un nuovo alias personalizzato
 modal-custom-alias-picker-heading-2 = Crea un nuovo alias personalizzato
-# Deprecated
-modal-custom-alias-picker-warning = Tutto ciò che devi fare è creare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 modal-custom-alias-picker-warning-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
-# Deprecated
-modal-custom-alias-picker-form-heading = Oppure crea manualmente un alias personalizzato
 modal-custom-alias-picker-form-heading-2 = Oppure crea manualmente un alias personalizzato
-# Deprecated
-modal-custom-alias-picker-form-prefix-label = Inserire un prefisso per l’alias
 modal-custom-alias-picker-form-prefix-label-2 = Inserire un prefisso per l’alias
-# This is shown in placeholder of the form field in which users can pick a custom alias prefix for their own subdomain,
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
-# Deprecated
-modal-custom-alias-picker-form-submit-label = Genera alias
 modal-custom-alias-picker-form-submit-label-2 = Genera alias
-# Deprecated
-modal-custom-alias-picker-creation-error = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
-## Popover explaining how custom aliases work
+## Popover explaining how custom masks work
 
-# Deprecated
-popover-custom-alias-explainer-heading = Come creare alias personalizzati
 popover-custom-alias-explainer-heading-2 = Come creare alias personalizzati
-# Deprecated
-popover-custom-alias-explainer-explanation = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 popover-custom-alias-explainer-explanation-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
-# Deprecated
-popover-custom-alias-explainer-generate-button-heading = Genera manualmente un alias personalizzato
 popover-custom-alias-explainer-generate-button-heading-2 = Genera manualmente un alias personalizzato
-# Deprecated
-popover-custom-alias-explainer-generate-button-label = Genera alias personalizzato
 popover-custom-alias-explainer-generate-button-label-2 = Genera alias personalizzato
 popover-custom-alias-explainer-close-button-label = Chiudi
-# Checkbox the user can click to adjust the block level of the new alias
+# Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocca email pubblicitarie
-popover-custom-alias-explainer-promotional-block-tooltip = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
-# Deprecated
-tips-custom-alias-heading = Crea alias utilizzando il tuo dominio personalizzato
 tips-custom-alias-heading-2 = Crea alias utilizzando il tuo sottodominio personalizzato
-# Deprecated
-tips-custom-alias-content = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo dominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 tips-custom-alias-content-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
 tips-promo-email-blocking-heading = Blocco delle email pubblicitarie
 tips-promo-email-blocking-content = Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua casella di posta, consentendoti comunque di ricevere email essenziali come fatture o informazioni su una spedizione.
 
-## Onboarding 
+## Onboarding
 
-# Deprecated
-onboarding-headline = Crea il tuo primo alias, esistono tre modi per farlo …
 onboarding-headline-2 = Crea il tuo primo alias
-# Deprecated
-onboarding-alias-tip-1 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias.
 onboarding-alias-tip-1-2 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias.
 onboarding-alias-tip-2 = Con l’estensione { -brand-name-relay } installata, seleziona l’icona di { -brand-name-firefox-relay } quando appare nei campi email.
-# Deprecated
-onboarding-alias-tip-3 = Con l’estensione { -brand-name-relay } installata, fai clic con il tasto destro del mouse sui campi del modulo e seleziona “Genera nuovo alias”.
 onboarding-alias-tip-3-2 = Con l’estensione { -brand-name-relay } installata, fai clic con il tasto destro del mouse sui campi del modulo e seleziona “Genera nuovo alias”.
 
 ## Premium Onboarding
@@ -851,21 +620,9 @@ onboarding-premium-headline = Ti diamo il benvenuto in { -brand-name-firefox } {
 onboarding-premium-subheadline-html = Ora puoi <strong>controllare</strong> che cosa arriva nella tua casella di posta, per ogni singola email.
 onboarding-premium-feature-intro = Con { -brand-name-firefox }{ -brand-name-relay-premium } puoi:
 onboarding-premium-control-title = Decidere quali email ricevere
-# Deprecated
-onboarding-premium-control-description = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
 onboarding-premium-control-description-2 = Condividi illimitati alias di posta elettronica che inoltreranno alla tua casella soltanto le email che desideri effettivamente ricevere.
-# Deprecated
-onboarding-premium-domain-title = Utilizzare un dominio personalizzato per gli alias
-# Deprecated
-onboarding-premium-domain-title-2 = Utilizza un dominio personalizzato per condividere gli alias:
 onboarding-premium-domain-title-3 = Utilizza un sottodominio personalizzato per condividere gli alias:
-# Deprecated
-onboarding-premium-domain-description = Con un dominio personalizzato, puoi impostare alias differenti per “newsletter” e “shopping”.
-# Deprecated
-onboarding-premium-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale
 onboarding-premium-reply-title-2 = Rispondere alle email senza rivelare il tuo indirizzo reale
-# Deprecated
-onboarding-premium-reply-description = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
 onboarding-premium-reply-description-2 = Devi rispondere ad alcune email inviate a un alias? Rispondi normalmente, il tuo alias continuerà a proteggere il tuo indirizzo email reale.
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } puoi:
 
@@ -878,50 +635,26 @@ multi-part-onboarding-step-counter = Passaggio { $step } di { $max }.
 multi-part-onboarding-premium-welcome-headline = Benvenuto in { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora puoi decidere che cosa arriva nella tua casella di posta, per ogni singola email.
 multi-part-onboarding-premium-welcome-title = Decidere quali email ricevere:
-# Deprecated
-multi-part-onboarding-premium-generate-unlimited-title = Generare alias illimitati:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Generare alias illimitati:
 multi-part-onboarding-premium-welcome-button-start = Inizia
-# Deprecated
-multi-part-onboarding-premium-domain-headline = Dominio personalizzato per gli alias
-# Deprecated
-multi-part-onboarding-premium-domain-title = Ottieni un dominio personalizzato per i tuoi alias:
-# Deprecated
-multi-part-onboarding-premium-get-domain = Ottenere un dominio personalizzato
 multi-part-onboarding-premium-get-subdomain = Ottenere un sottodominio personalizzato
 multi-part-onboarding-reply-headline = Rispondere alle tue email
-# Deprecated
-multi-part-onboarding-premium-welcome-description = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione Relay per crearli sul momento.
 multi-part-onboarding-premium-welcome-description-2 = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione { -brand-name-relay } per crearli sul momento.
-# Deprecated
-multi-part-onboarding-premium-domain-description =
-    Utilizzando un dominio personalizzato, puoi creare alias più facili da ricordare e condividere.
-    Ti serve un alias per prenotare nei ristoranti? Utilizza semplicemente cibo@miodominio{ $mozmail }, senza bisogno di creare l’alias in anticipo.
-# Deprecated
-multi-part-onboarding-premium-get-domain-description-2 =
-    Con un dominio personalizzato puoi creare alias senza doverli generare in anticipo. 
-    Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
 # Variables:
-#   $mozmail (string): domain used by Relay aliases (.mozmail.com)
+#   $mozmail (string): domain used by Relay masks (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-3 =
     Con un sottodominio personalizzato puoi creare alias senza doverli generare in anticipo. 
     Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
-# Deprecated
-multi-part-onboarding-premium-domain-cta = Registra ora il tuo dominio personalizzato:
 multi-part-onboarding-premium-domain-cta-2 = Registra ora il tuo sottodominio personalizzato:
-# Deprecated
-multi-part-onboarding-premium-domain-button-skip = Continua, registrerò il mio dominio personalizzato più tardi
 multi-part-onboarding-premium-domain-button-skip-2 = Continua, registrerò il mio sottodominio personalizzato più tardi
 multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
-# Deprecated
-multi-part-onboarding-premium-extension-reply-title = Rispondere alle email senza rivelare il tuo indirizzo reale:
 multi-part-onboarding-premium-extension-get-title = Scarica l’estensione { -brand-name-relay } per { -brand-name-firefox }
-# Deprecated
-multi-part-onboarding-premium-extension-get-description = L’estensione { -brand-name-relay } per { -brand-name-firefox } rende l’utilizzo degli alias ancora più facile.
 multi-part-onboarding-premium-extension-get-description-2 = L’estensione { -brand-name-relay } per { -brand-name-firefox } rende l’utilizzo degli alias ancora più facile.
 multi-part-onboarding-premium-extension-button-download = Installa l’estensione { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Installa l’estensione { -brand-name-relay } per { -brand-name-google-chrome }
+# Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias email ancora più facile.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = L’estensione { -brand-name-firefox-relay } per { -brand-name-chrome } rende la creazione e l’utilizzo degli alias email ancora più facile.
 multi-part-onboarding-premium-chrome-extension-button-download = Installa l’estensione { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continua, scaricherò l’estensione più tardi
 multi-part-onboarding-premium-extension-added = Estensione { -brand-name-relay } installata.
@@ -930,64 +663,42 @@ multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
 ## Modals
 
 modal-rename-alias-saved = Etichetta salvata.
-# Deprecated
-modal-delete-headline = Eliminare definitivamente questo alias?
 modal-delete-headline-2 = Eliminare definitivamente questo alias?
-# Deprecated
-modal-delete-warning-recovery-html =
-    Una volta eliminato, questo alias non potrà essere recuperato.
-    { -brand-name-firefox-relay } non inoltrerà più i messaggi inviati a <strong>{ $email }</strong>, inclusi i messaggi che consentono di reimpostare le password perse.
 # Variables:
-#   $email (string) - The relay alias (email address) that will be deleted
+#   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
     Una volta eliminato, questo alias non potrà essere recuperato.
     { -brand-name-firefox-relay } non inoltrerà più i messaggi inviati a <strong>{ $email }</strong>, inclusi i messaggi che consentono di reimpostare le password perse.
-# Deprecated
-modal-delete-warning-upgrade =
-    Se utilizzi questo alias per accedere ai siti che ti interessano,
-    dovresti aggiornare le tue credenziali di accesso con un indirizzo email diverso prima di eliminare questo alias.
 modal-delete-warning-upgrade-2 =
     Se utilizzi questo alias per accedere ai siti che ti interessano,
     dovresti aggiornare le tue credenziali di accesso con un indirizzo email diverso prima di eliminare questo alias.
-# Deprecated
-modal-delete-domain-address-warning-upgrade = Se utilizzi questo alias per accedere ai siti che ritieni importanti, prima di eliminarlo dovresti aggiornare le tue credenziali di accesso utilizzando un indirizzo email diverso. Se ricrei un alias dopo averlo eliminato, le email inviate all’alias originale continueranno a essere inoltrate.
 modal-delete-domain-address-warning-upgrade-2 = Se utilizzi questo alias per accedere ai siti che ritieni importanti, prima di eliminarlo dovresti aggiornare le tue credenziali di accesso utilizzando un indirizzo email diverso. Se ricrei un alias dopo averlo eliminato, le email inviate all’alias originale continueranno a essere inoltrate.
-# Deprecated
-modal-delete-confirmation = Sì, voglio eliminare questo alias.
 modal-delete-confirmation-2 = Sì, voglio eliminare questo alias.
 modal-domain-register-good-news = Buone notizie!
-# Deprecated
-modal-domain-register-warning-reminder = Ricorda, puoi registrare un solo dominio. Non potrai cambiarlo in seguito.
 modal-domain-register-warning-reminder-2 = Ricorda, puoi registrare un solo sottodominio. Non potrai cambiarlo in seguito.
-# Deprecated
-modal-domain-register-button = Registra dominio
 modal-domain-register-button-2 = Registra sottodominio
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } è disponibile!
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> è disponibile.
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sì, voglio registrare @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Sì, voglio registrare <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Operazione riuscita.
-# Deprecated
-modal-domain-register-success = { $subdomain } è ora il tuo dominio di posta elettronica!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
-#   for domain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } è ora il tuo sottodominio di posta elettronica.
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> è ora il tuo sottodominio di posta elettronica.
-# Deprecated
-modal-domain-register-success-copy = Ora puoi creare alias email illimitati utilizzando il tuo nuovo dominio! Che cosa stai aspettando?
 modal-domain-register-success-copy-2 = Ora puoi creare illimitati alias personalizzati!
 
 ## The "Help & Tips" area at the bottom of the page
@@ -1037,23 +748,21 @@ vpn-promo-cta = Ottieni { -brand-name-mozilla-vpn }
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
-#   $display_email (string) - This is the relay alias displayed in the email header. Example: abc123@relay.firefox.com
+#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Questo messaggio è stato inoltrato da { $display_email } tramite { $linked_origin }.
-# Deprecated
-forwarded-email-header-cc-notice = { -brand-name-relay-premium } rimuove Cc e Ccn dai tuoi messaggi di risposta. Se li aggiungi nuovamente, il tuo indirizzo email reale sarà esposto.
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } rimuove Cc e Ccn dai tuoi messaggi di risposta. Se li aggiungi nuovamente, il tuo indirizzo email reale sarà esposto.
-# Deprecated
-forwarded-email-header-premium-banner = Aggiorna a { $premium_link } per ottenere alias illimitati e il tuo dominio email personalizzato.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Aggiorna a { $premium_link } per ottenere alias illimitati e il tuo sottodominio email personalizzato.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supporta l’inoltro di email (allegati inclusi) con una dimensione massima di { email-size-limit }. Per ulteriori informazioni consulta le nostre { $faq_link }.
-# Deprecated
-forwarded-email-footer = Interrompi l’inoltro delle email e gestisci le impostazioni per tutti gli alias.
 # This entire text is a link
 forwarded-email-footer-2 = Interrompi l’inoltro delle email e gestisci le impostazioni per tutti gli alias.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Aggiorna a { -brand-name-relay-premium }
+
+## Notifications component
+
+toast-button-close-label = Chiudi notifica
