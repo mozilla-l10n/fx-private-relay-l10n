@@ -232,6 +232,35 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 = Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address?
     Use an email mask to put one more layer of protection between your online identity and the games you play online.
 
+landing-use-cases-shopping-hero-heading = Shopping with email masks
+landing-use-cases-shopping-hero-content1 = Want to buy something online and don’t know or fully trust the shop?
+landing-use-cases-shopping-hero-content2 = Use an email mask whenever you shop online. Get the confirmation sent to your real email and then easily turn the mask off anytime later.
+
+landing-use-cases-on-the-go = On the Go
+landing-use-cases-on-the-go-heading = On the go with { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Instantly make a custom email mask anywhere and everywhere you go! 
+landing-use-cases-on-the-go-connect-heading = Connect on the go
+landing-use-cases-on-the-go-connect-body = Use your email mask when you want to privately sign into your favorite coffee shop or public wifi 
+landing-use-cases-on-the-go-receipt-heading = Get email receipts
+landing-use-cases-on-the-go-receipt-body = Share a custom email mask for in-store shopping receipts without sharing your real email 
+landing-use-cases-on-the-go-phone-heading = Use on your phone
+landing-use-cases-on-the-go-phone-body = No matter where you are create a custom email mask in seconds for anything you want to do 
+
+landing-use-cases-on-the-go-connect-image-alt = Image of a person sitting on a table looking at their tablet
+landing-use-cases-on-the-go-receipt-image-alt = Image of a person on their phone in front of a store cart
+landing-use-cases-on-the-go-phone-image-alt = Image of a person checking their phone 
+
+landing-use-cases-signups = Signups
+landing-use-cases-signups-hero-heading = Worry-free signups
+landing-use-cases-signups-hero-content1 = Want to start a new subscription, RSVP to an event, or get a bargain promo code without having spam flooding your inbox?
+landing-use-cases-signups-hero-content2 = Before you complete that next signup, use an email mask instead of your real one to protect your info and keep control over your inbox.
+
+landing-use-cases-shopping-image-alt = Image of phone for shopping tab
+landing-use-cases-social-networks-image-alt = Image of thumb up and chat bubbles for social networks tab
+landing-use-cases-on-the-go-image-alt = Image of luggage for on the go tab
+landing-use-cases-signups-image-alt = Image of notebook and a document for the signups tab
+landing-use-cases-gaming-image-alt= Image of gaming controller for gaming tab
+
 ## Landing FAQ Section
 
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
