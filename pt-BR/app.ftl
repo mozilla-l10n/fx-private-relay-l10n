@@ -286,6 +286,10 @@ waitlist-submit-label = Entrar na lista de espera
 # Variables:
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = Ao clicar em “{ waitlist-submit-label }”, você concorda com nossa <a>política de privacidade</a>.
+waitlist-privacy-policy-use = Suas informações só serão usadas para te notificar sobre a disponibilidade do { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-firefox-relay-premium } estiver disponível em sua região, enviaremos um email.
+waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
+waitlist-subscribe-error-unknown = Houve um erro ao adicionar você à lista de espera. Tente novamente.
 
 ## Settings page
 
@@ -501,6 +505,7 @@ banner-download-install-extension-cta = Adicionar { -brand-name-relay } ao { -br
 banner-download-install-chrome-extension-headline = Experimente o { -brand-name-relay } para { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar endereços de redirecionamento de email.
+banner-download-install-chrome-extension-copy-2 = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar máscaras de email.
 banner-download-install-chrome-extension-cta = Instale a extensão { -brand-name-relay }
 banner-upgrade-headline = Mudar para o { -brand-name-relay-premium }
 banner-upgrade-copy-2 = O { -brand-name-firefox-relay-premium } facilita ainda mais criar máscaras de email, com subdomínios de máscaras personalizados e máscaras ilimitadas.
@@ -659,6 +664,7 @@ multi-part-onboarding-premium-extension-button-download = Instalar a extensão {
 multi-part-onboarding-premium-chrome-extension-get-title = Instale a extensão { -brand-name-relay } para { -brand-name-google-chrome }
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar endereços de redirecionamento de email.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = A extensão { -brand-name-firefox-relay } para { -brand-name-chrome } facilita ainda mais criar e usar máscaras de email.
 multi-part-onboarding-premium-chrome-extension-button-download = Instalar a extensão { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Avançar, instalarei a extensão mais tarde
 multi-part-onboarding-premium-extension-added = Extensão { -brand-name-relay } adicionada!
@@ -772,3 +778,4 @@ forwarded-email-footer-premium-banner = Mudar para o { -brand-name-relay-premium
 
 ## Notifications component
 
+toast-button-close-label = Fechar notificação
