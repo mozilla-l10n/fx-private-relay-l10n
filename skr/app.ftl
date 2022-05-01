@@ -207,6 +207,11 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 
 ## The Premium waitlist page
 
+waitlist-control-required = ضروری ہے
+waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
 
@@ -345,6 +350,7 @@ profile-promo-email-blocking-option-promotionals = پروموشنل
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = کوئی وی کائنی
 profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
+profile-promo-email-blocking-description-none-2 = ایں ماسک  کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
@@ -366,6 +372,7 @@ banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کر�
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = عمل مرحلہ
+banner-register-subdomain-headline-aliases-2 = آپݨے ماسکاں  کیتے کسٹم سب ڈومین گھنو
 # This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -392,6 +399,7 @@ banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomai
 #   $subdomain (url) - User-set subdomain
 success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
+success-signed-out-message = تساں سائن آؤٹ تھی ڳئے ہو۔
 
 ## Error Messages
 
@@ -548,3 +556,4 @@ forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ 
 
 ## Notifications component
 
+toast-button-close-label = نوٹیفیکیشن بند کرو
