@@ -404,6 +404,9 @@ banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomai
 success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 success-signed-out-message = تساں سائن آؤٹ تھی ڳئے ہو۔
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = { $username } دے طور تے کامیابی نال  سائن ان تھیا۔
 
 ## Error Messages
 
@@ -412,6 +415,14 @@ error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙ�
 error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
 error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
+error-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ کرݨ وچ خرابی ہائی، سوہݨا، ولدا کوشش کرو
+error-mask-create-failed = ماسک تخلیق کائنی تھی سڳیا۔ سوہݨا، ولدا کوشش کرو۔
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = ماسک ڈیٹا اپ ڈیٹ کائنی تھی سڳیا۔ سوہݨا، ولدا کوشش کرو۔
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = ماسک { $mask } کائنی مٹ  سڳیا۔ سوہݨا، ولدا کوشش کرو۔
 
 ## Tips and tricks at the bottom of the page
 
@@ -437,6 +448,7 @@ modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 ## Popover explaining how custom masks work
 
 popover-custom-alias-explainer-heading-2 = کسٹم  ماسک کین٘ویں تخلیق کروں
+popover-custom-alias-explainer-generate-button-heading-2 = کسٹم ماسک  دستی جنریٹ کرو
 popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جنریٹ کرو
 popover-custom-alias-explainer-close-button-label = بند کرو
 # Checkbox the user can click to adjust the block level of the new mask
@@ -461,6 +473,8 @@ onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premiu
 onboarding-premium-subheadline-html = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں<strong>کنٹرول</strong> کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:
 onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
+onboarding-premium-domain-title-3 = ماسک  شیئر کرݨ کیتے کسٹم سب ڈومین ورتو:
+onboarding-premium-reply-title-2 = آپݨاں ٹھیک پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -508,6 +522,7 @@ modal-domain-register-success-title = کامیابی!
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل سب ڈومین ہے!
+modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای میل ماسک تخلیق کر سڳدے ہو!
 
 ## The "Help & Tips" area at the bottom of the page
 
@@ -555,6 +570,8 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
+# This entire text is a link
+forwarded-email-footer-2 = اتھ سارے ماسکاں کنوں ای میل بھیڄݨ کنوں روکو  تے ترتیباں منیج کرو۔
 # This entire text is a link
 forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
 
