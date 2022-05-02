@@ -158,6 +158,7 @@ landing-pricing-free-price = مفت
 landing-pricing-free-feature-1-2 = ٥ تائیں ای میل ماسک
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
 landing-pricing-free-feature-free = مفت
+landing-pricing-free-description = { -brand-name-firefox-relay } ماسک ازماؤ تے آپݨے ای میل ابناکس دی حفاظت شروع کرو۔
 landing-pricing-free-cta = { -brand-name-relay } گھنو
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 landing-pricing-free-ribbon = ہݨ دستیاب ہے!
@@ -465,6 +466,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 ## Onboarding
 
 onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
+onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
 
 ## Premium Onboarding
 
@@ -494,10 +496,12 @@ multi-part-onboarding-premium-domain-cta-2 = آپݨی کسٹم سب ڈومین �
 multi-part-onboarding-premium-domain-button-skip-2 = جاری رکھو، میں آپݨی کسٹم سب ڈومین بعد وچ رجسٹر کریساں
 multi-part-onboarding-premium-extension-headline = بلاگ، اڳوں تے، تے جواب ݙیوو
 multi-part-onboarding-premium-extension-get-title = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
+multi-part-onboarding-premium-extension-get-description-2 = { -brand-name-firefox } کیتے { -brand-name-relay }ایکسٹنشن  ای میل ماسک ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-chrome-extension-get-title = { -brand-name-google-chrome } کیتے { -brand-name-relay } ایکسٹنشن گھنو
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
+multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل ماسک بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
@@ -515,13 +519,24 @@ modal-domain-register-button-2 = سب ڈومین رجسٹر کرو
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> دستیاب ہے!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = جیا، میں  <subdomain>{ $subdomain }</subdomain> رجسٹر کرݨ چاہنداں ہاں
 modal-domain-register-success-title = کامیابی!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل سب ڈومین ہے!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ہݨ تہاݙی ای میل سب ڈومین ہے!
 modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای میل ماسک تخلیق کر سڳدے ہو!
 
 ## The "Help & Tips" area at the bottom of the page
