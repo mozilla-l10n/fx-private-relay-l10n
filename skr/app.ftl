@@ -207,6 +207,7 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 
 ## The Premium waitlist page
 
+waitlist-heading = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 waitlist-control-required = ضروری ہے
 waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -331,6 +332,9 @@ profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
 profile-filter-search-placeholder-2 = ماسک ڳولو
+profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = اڳوں تے پٹھݨ آلے ماسک
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = بلاک کرݨ آلے ماسک
 # Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
