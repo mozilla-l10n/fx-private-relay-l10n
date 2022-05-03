@@ -240,26 +240,16 @@ landing-use-cases-on-the-go = On the Go
 landing-use-cases-on-the-go-heading = On the go with { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Instantly make a custom email mask anywhere and everywhere you go! 
 landing-use-cases-on-the-go-connect-heading = Connect on the go
-landing-use-cases-on-the-go-connect-body = Use your email mask when you want to privately sign into your favorite coffee shop or public wifi 
+landing-use-cases-on-the-go-connect-body = Use your email mask when you want to privately sign into your favorite coffee shop or public Wi-Fi 
 landing-use-cases-on-the-go-receipt-heading = Get email receipts
 landing-use-cases-on-the-go-receipt-body = Share a custom email mask for in-store shopping receipts without sharing your real email 
 landing-use-cases-on-the-go-phone-heading = Use on your phone
 landing-use-cases-on-the-go-phone-body = No matter where you are create a custom email mask in seconds for anything you want to do 
 
-landing-use-cases-on-the-go-connect-image-alt = Image of a person sitting on a table looking at their tablet
-landing-use-cases-on-the-go-receipt-image-alt = Image of a person on their phone in front of a store cart
-landing-use-cases-on-the-go-phone-image-alt = Image of a person checking their phone 
-
 landing-use-cases-signups = Signups
 landing-use-cases-signups-hero-heading = Worry-free signups
 landing-use-cases-signups-hero-content1 = Want to start a new subscription, RSVP to an event, or get a bargain promo code without having spam flooding your inbox?
 landing-use-cases-signups-hero-content2 = Before you complete that next signup, use an email mask instead of your real one to protect your info and keep control over your inbox.
-
-landing-use-cases-shopping-image-alt = Image of phone for shopping tab
-landing-use-cases-social-networks-image-alt = Image of thumb up and chat bubbles for social networks tab
-landing-use-cases-on-the-go-image-alt = Image of luggage for on the go tab
-landing-use-cases-signups-image-alt = Image of notebook and a document for the signups tab
-landing-use-cases-gaming-image-alt= Image of gaming controller for gaming tab
 
 ## Landing FAQ Section
 
