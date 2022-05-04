@@ -333,6 +333,7 @@ profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
 profile-filter-search-placeholder-2 = ماسک ڳولو
+profile-filter-category-button-label = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = اڳوں تے پٹھݨ آلے ماسک
@@ -366,12 +367,15 @@ profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 banner-dismiss = فارغ کرو
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
 banner-download-firefox-headline = { -brand-name-firefox } کنوں { -brand-name-relay } ٻہوں چنگا ہے
+banner-download-firefox-copy-2 = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن ماسک بݨاوݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-firefox-cta = { -brand-name-firefox } گھنو
 banner-download-install-extension-headline = { -brand-name-firefox }کیتے { -brand-name-relay } ایکسٹنشن گھنو
+banner-download-install-extension-copy-2 = { -brand-name-firefox-browser } کیتے { -brand-name-relay }ایکسٹنشن  ای میل ماسک ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-extension-cta = { -brand-name-firefox } تے { -brand-name-relay } شامل کرو
 banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } کیتے { -brand-name-relay } اَزماؤ
 # Deprecated
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن عرفی ناں بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
+banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ماسک بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 banner-download-install-chrome-extension-cta = { -brand-name-relay } ایکسٹنشن گھنو
 banner-upgrade-headline = { -brand-name-relay-premium } تے اپ گریڈ کرو
 banner-upgrade-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
