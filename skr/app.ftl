@@ -479,6 +479,7 @@ onboarding-premium-headline = { -brand-name-firefox } { -brand-name-relay-premiu
 onboarding-premium-subheadline-html = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں<strong>کنٹرول</strong> کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium } نال تساں کر سڳدے ہو:
 onboarding-premium-control-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو
+onboarding-premium-control-description-2 = بے انت ای میل ماسک شیئر کرو جہڑے تہاکوں او ای میلاں اڳوں تے پٹھن جہڑیاں تساں اصل وچ چاہندے ہو جو تہاݙے انباکس وچ ہوون۔
 onboarding-premium-domain-title-3 = ماسک  شیئر کرݨ کیتے کسٹم سب ڈومین ورتو:
 onboarding-premium-reply-title-2 = آپݨاں ٹھیک پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال تساں کر سڳدے ہو:
