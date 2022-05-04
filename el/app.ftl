@@ -219,6 +219,7 @@ landing-pricing-free-price = Δωρεάν
 landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
 landing-pricing-free-feature-free = Δωρεάν
+landing-pricing-free-description = Δοκιμάστε τις μάσκες του { -brand-name-firefox-relay } και αρχίστε να προστατεύετε τα εισερχόμενά σας.
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 landing-pricing-free-ribbon = Διαθέσιμο τώρα!
