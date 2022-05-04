@@ -212,6 +212,7 @@ landing-pricing-premium-feature-3-2 = Votre propre sous-domaine de messagerie
 landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
 landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
 landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
 
 ## Use Cases
@@ -277,6 +278,7 @@ premium-promo-pricing-free-price = Votre forfait gratuit actuel
 
 waitlist-heading = Rejoignez la liste d’attente de { -brand-name-relay-premium }
 waitlist-lead = Recevez une notification lorsque { -brand-name-firefox-relay-premium } est disponible pour votre région.
+waitlist-control-required = Requis
 waitlist-control-email-label = Quelle est votre adresse email ?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = votrenom@example.com
@@ -549,6 +551,9 @@ banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adre
 success-subdomain-registered-2 = Votre sous-domaine @{ $subdomain } a été créé
 success-settings-update = Vos paramètres ont été mis à jour
 success-signed-out-message = Déconnexion réussie.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = Connecté·e en tant que { $username }.
 
 ## Error Messages
 
