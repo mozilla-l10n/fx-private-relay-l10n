@@ -195,7 +195,12 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratuit
 landing-pricing-free-feature-1-2 = Jusqu’à 5 alias de messagerie
 landing-pricing-free-feature-2 = Extension de navigateur
+landing-pricing-free-feature-free = Gratuit
+landing-pricing-free-description = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
 landing-pricing-free-cta = Installer { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Disponible maintenant !
+landing-pricing-free-feature-free = Gratuit
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mois
@@ -207,6 +212,7 @@ landing-pricing-premium-feature-3-2 = Votre propre sous-domaine de messagerie
 landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
 landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
 landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
+landing-pricing-waitlist-cta = Rejoindre la liste d’attente
 
 ## Use Cases
 
@@ -269,7 +275,21 @@ premium-promo-pricing-free-price = Votre forfait gratuit actuel
 
 ## The Premium waitlist page
 
+waitlist-heading = Rejoignez la liste d’attente de { -brand-name-relay-premium }
+waitlist-lead = Recevez une notification lorsque { -brand-name-firefox-relay-premium } est disponible pour votre région.
 waitlist-control-email-label = Quelle est votre adresse email ?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = votrenom@example.com
+waitlist-control-country-label = Dans quel pays habitez-vous ?
+waitlist-control-locale-label = Sélectionnez votre langue préférée.
+waitlist-submit-label = Rejoindre la liste d’attente
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = En cliquant sur « { waitlist-submit-label } », vous acceptez notre <a>Politique de confidentialité</a>.
+waitlist-privacy-policy-use = Vos informations ne seront utilisées que pour vous informer de la disponibilité de { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = Vous êtes sur la liste ! Une fois que { -brand-name-firefox-relay-premium } sera disponible pour votre région, nous vous enverrons un e-mail.
+waitlist-subscribe-error-connection = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez vérifier votre connexion, puis réessayer.
+waitlist-subscribe-error-unknown = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez réessayer.
 
 ## Settings page
 
