@@ -101,6 +101,7 @@ whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال 
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-sign-back-in-snippet = نواں عرفی ناں خلقݨ کیتے، ڄڈݨ تہاݙے کولوں ای میل دا پُچھیجے تاں، کھولو۔۔۔
+whatsnew-feature-sign-back-in-description = پچھلے استعمال شدہ عرفی ناواں نال سائن ان تھیوݨ واسطے ،منیو کھولو جتھاں سائٹ تہاݙی ای میل پچھسی۔ تساں عرفی ناں چݨݨ تے ای میل  خانے کوں خودبخود بھرݨ دے قابل ہوسو۔
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
