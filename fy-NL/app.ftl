@@ -193,7 +193,12 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Fergees
 landing-pricing-free-feature-1-2 = Maksimaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserútwreiding
+landing-pricing-free-feature-free = Fergees
+landing-pricing-free-description = Probearje { -brand-name-firefox-relay }-maskers en begjin mei it beskermjen fan jo Postfek YN.
 landing-pricing-free-cta = { -brand-name-relay } downloade
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = No beskikber!
+landing-pricing-free-feature-free = Fergees
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/maand
@@ -205,6 +210,8 @@ landing-pricing-premium-feature-3-2 = Jo eigen e-mailsubdomein
 landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
 landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is op dit stuit net beskikber yn jo lân. Lit jo e-mailadres efter om berjocht te ûntfangen as it wol beskikber komt.
+landing-pricing-waitlist-cta = Op de wachtlist pleatse
 
 ## Use Cases
 
@@ -271,6 +278,22 @@ premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
 
 ## The Premium waitlist page
 
+waitlist-heading = Ynskriuwe foar de { -brand-name-relay-premium }-wachtlist
+waitlist-lead = Untfang in berjocht wannear’t { -brand-name-firefox-relay-premium } beskikber is foar jo regio.
+waitlist-control-required = Fereaske
+waitlist-control-email-label = Wat is jo e-mailadres?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = jonamme@example.com
+waitlist-control-country-label = Yn hokker lân wenje jo?
+waitlist-control-locale-label = Selektearje jo foarkartaal
+waitlist-submit-label = Op de wachtlist pleatse
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Troch op ‘{ waitlist-submit-label }’ te klikken, geane jo akkoard mei ús <a>Privacybelied</a>.
+waitlist-privacy-policy-use = Jo gegevens wurde allinnich brûkt om jo te berjochtsjen oer beskikberheid fan { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = Jo steane op de list! Sa gau as { -brand-name-firefox-relay-premium } beskikber komt foar jo regio, stjoere wy jo in e-mailberjocht.
+waitlist-subscribe-error-connection = Der is in flater bard by it pleatsen op de wachtlist. Kontrolearje jo ferbining en probearje it opnij.
+waitlist-subscribe-error-unknown = Der is in flater bard by it pleatsen op de wachtlist. Probearje it nochris.
 
 ## Settings page
 
@@ -486,6 +509,7 @@ banner-download-install-extension-cta = { -brand-name-relay } tafoegje oan { -br
 banner-download-install-chrome-extension-headline = Probearje { -brand-name-relay } foar { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan aliassen noch ienfâldiger.
+banner-download-install-chrome-extension-copy-2 = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan maskers noch ienfâldiger.
 banner-download-install-chrome-extension-cta = De { -brand-name-relay }-útwreiding downloade
 banner-upgrade-headline = Opwurdearje nei { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } makket it oanmeitsjen fan e-mailmaskers noch ienfâldiger, mei oanpaste maskersubdomeinen en ûnbeheinde maskers.
@@ -648,6 +672,7 @@ multi-part-onboarding-premium-extension-button-download = De { -brand-name-relay
 multi-part-onboarding-premium-chrome-extension-get-title = De { -brand-name-relay }-útwreiding foar { -brand-name-google-chrome } downloade
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan e-mailaliassen noch ienfâldiger.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan e-mailmaskers noch ienfâldiger.
 multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-name-relay }-útwreiding downloade
 multi-part-onboarding-premium-extension-button-skip = Trochgean, ik download de útwreiding letter
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
@@ -761,3 +786,4 @@ forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-prem
 
 ## Notifications component
 
+toast-button-close-label = Melding slute
