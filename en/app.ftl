@@ -158,7 +158,7 @@ hero-image-copy-trust = Can you even trust this company with your personal email
 hero-image-copy-unique-html = <strong>Use a unique relay address</strong> for every new account …
 hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arriving to your inbox!
 
-## Home Page Version A
+# Home Page Version A
 
 ## Hero Section
 
@@ -190,7 +190,6 @@ landing-pricing-body-2 = Try { -brand-name-firefox-relay } email masks and start
 landing-pricing-free-price = Free
 landing-pricing-free-feature-1-2 = Up to 5 email masks
 landing-pricing-free-feature-2 = Browser extension
-landing-pricing-free-feature-free = Free
 landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
 landing-pricing-free-cta = Get { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -310,7 +309,6 @@ setting-label-collection-description-2 = Allow { -brand-name-relay } to collect 
 setting-label-collection-off-warning-2 = This data will allow us to label your email masks with the websites where they’re used. If you decide to opt out from this preference, your masks will not be labeled with the websites where they’re used.
 settings-button-save-label = Save
 settings-button-save-tooltip = Apply your chosen settings.
-
 
 ## FAQ Page
 
@@ -489,6 +487,7 @@ profile-filter-category-option-random-masks = Random masks
 profile-filter-category-option-custom-masks = Custom masks
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
+
 profile-promo-email-blocking-title = What emails do you want to block?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = All
@@ -619,7 +618,7 @@ modal-custom-alias-picker-form-heading-2 = Or, create a custom mask manually
 modal-custom-alias-picker-form-prefix-label-2 = Enter email mask prefix
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = e.g. "coffee"
+modal-custom-alias-picker-form-prefix-placeholder = e.g. “coffee”
 modal-custom-alias-picker-form-submit-label-2 = Generate mask
 modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
 
@@ -638,11 +637,11 @@ popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promot
 
 tips-custom-alias-heading-2 = Creating masks using your custom subdomain
 tips-custom-alias-content-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+
 ## Tip about using custom masks
 
 tips-promo-email-blocking-heading = Block Promotional Emails
 tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
-
 
 ## Onboarding
 
