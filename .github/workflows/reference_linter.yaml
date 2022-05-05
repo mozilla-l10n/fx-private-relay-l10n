@@ -23,4 +23,4 @@ jobs:
           pip install -r .github/requirements.txt
       - name: Lint reference
         run: |
-          moz-fluent-lint ./en --config .github/scripts/config.yml
+          moz-fluent-lint ./en --config .github/linter_config.yml
