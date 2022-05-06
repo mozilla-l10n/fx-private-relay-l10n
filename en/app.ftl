@@ -502,6 +502,11 @@ profile-promo-email-blocking-label-promotionals = Block promotions
 profile-promo-email-blocking-label-none = Block all
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Not forwarding
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } only)
+profile-promo-email-blocking-description-promotionals-locked-label = Available to { -brand-name-relay-premium } subscribers
+profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waitlist
+profile-promo-email-blocking-description-promotionals-locked-close = Close
 
 ## Banner Messages (displayed on the profile page)
 
@@ -632,6 +637,7 @@ popover-custom-alias-explainer-close-button-label = Close
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = More info
 
 ## Tip about using custom masks
 
