@@ -155,7 +155,7 @@ hero-image-copy-trust = Ti fidi a condividere la tua email personale con questa 
 hero-image-copy-unique-html = <strong>Utilizza un indirizzo di inoltro univoco</strong> per ogni nuovo account …
 hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che arriva nella tua casella di posta!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -187,7 +187,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
-landing-pricing-free-feature-free = Gratis
 landing-pricing-free-description = Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
 landing-pricing-free-cta = Ottieni { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -232,6 +231,22 @@ landing-use-cases-gaming = Giochi online
 landing-use-cases-gaming-body-2 =
     Ti piace giocare online, ma sei preoccupato che altri giocatori o bulli scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email?
     Utilizza un alias di posta elettronica per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
+landing-use-cases-shopping-hero-heading = Fai acquisti con gli alias
+landing-use-cases-shopping-hero-content1 = Vuoi acquistare qualcosa online e non conosci o non ti fidi completamente del negozio?
+landing-use-cases-shopping-hero-content2 = Utilizza un alias di posta elettronica ogni volta che fai acquisti online. Ricevi la conferma al tuo indirizzo email reale e disattiva facilmente l’alias in qualsiasi momento.
+landing-use-cases-on-the-go = In movimento
+landing-use-cases-on-the-go-heading = Fuori casa con { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Crea al volo un alias di posta elettronica personalizzato, ovunque ti trovi.
+landing-use-cases-on-the-go-connect-heading = Connettiti mentre sei in viaggio
+landing-use-cases-on-the-go-connect-body = Utilizza il tuo alias di posta elettronica quando vuoi accedere in modo privato alla rete Wi-Fi del tuo bar preferito o a una rete pubblica
+landing-use-cases-on-the-go-receipt-heading = Ricevi fatture via email
+landing-use-cases-on-the-go-receipt-body = Quando fai acquisti in un negozio, fornisci un alias di posta elettronica personalizzato per ricevere la fattura senza condividere il tuo indirizzo email reale
+landing-use-cases-on-the-go-phone-heading = Utilizzalo sul tuo telefono
+landing-use-cases-on-the-go-phone-body = Non importa dove ti trovi, crea un alias di posta elettronica personalizzato in pochi secondi per qualsiasi cosa tu voglia fare
+landing-use-cases-signups = Registrazioni
+landing-use-cases-signups-hero-heading = Registrazioni senza pensieri
+landing-use-cases-signups-hero-content1 = Vuoi sottoscrivere un nuovo abbonamento, rispondere a un invito o ottenere un codice promozionale vantaggioso senza che lo spam invada la tua casella di posta?
+landing-use-cases-signups-hero-content2 = La prossima volta che devi registrarti, utilizza un alias di posta elettronica invece del tuo indirizzo email reale. In questo modo potrai proteggere le tue informazioni e rimanere in controllo della tua casella di posta.
 
 ## Landing FAQ Section
 
@@ -477,6 +492,11 @@ profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
 profile-promo-email-blocking-label-none = Blocca tutto
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Inoltro disattivato
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (solo per { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Disponibile per gli abbonati { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Aggiorna adesso
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Chiudi
 
 ## Banner Messages (displayed on the profile page)
 
@@ -599,6 +619,7 @@ popover-custom-alias-explainer-close-button-label = Chiudi
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocca email pubblicitarie
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Altre informazioni
 
 ## Tip about using custom masks
 
