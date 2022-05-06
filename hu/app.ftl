@@ -155,7 +155,7 @@ hero-image-copy-trust = Egyáltalán rábízhatja erre a cégre a személyes e-m
 hero-image-copy-unique-html = <strong>Használjon egyedi továbbítási címet</strong> minden új fiókhoz…
 hero-image-copy-control-html = Most <em>Ön irányítja azt</em>, hogy mi érkezzen a postaládájába!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Ingyenes
 landing-pricing-free-feature-1-2 = Akár 5 e-mail-maszk
 landing-pricing-free-feature-2 = Böngészőkiegészítő
-landing-pricing-free-feature-free = Ingyenes
 landing-pricing-free-description = Próbálja ki a { -brand-name-firefox-relay } maszkokat, és kezdje el a postaládája védelmét.
 landing-pricing-free-cta = { -brand-name-relay } beszerzése
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,8 @@ landing-use-cases-gaming = Játék
 landing-use-cases-gaming-body-2 =
     Élvezi az online játékokat, de aggódik amiatt, hogy más játékosok vagy zaklatók megtudják ki Ön a játékoscímkéje és az e-mail-címe alapján?
     Használjon egy e-mail-maszkot, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
+landing-use-cases-shopping-hero-heading = Vásárlás e-mail-maszkokkal
+landing-use-cases-shopping-hero-content1 = Szeretne vásárolni valamit az interneten, de nem ismeri az üzletet vagy nem bízik benne teljesen?
 
 ## Landing FAQ Section
 
