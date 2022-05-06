@@ -1,5 +1,8 @@
 # Relay Premium by Firefox Localization
-Localization for the Firefox Relay Premium 
+
+[![Relay](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/relay.yaml/badge.svg)](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/relay.yaml)
+
+Localization for the Firefox Relay Premium
 
 The application code with build instructions can be found
 at <https://github.com/mozilla/fx-private-relay>.
