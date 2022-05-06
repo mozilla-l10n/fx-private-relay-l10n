@@ -239,6 +239,20 @@ landing-use-cases-gaming-body-2 =
     Använd ett e-postalias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
 landing-use-cases-shopping-hero-heading = Shopping med e-postalias
 landing-use-cases-shopping-hero-content1 = Vill du köpa något online och inte känner till eller litar helt på butiken?
+landing-use-cases-shopping-hero-content2 = Använd ett e-postalias när du handlar online. Få bekräftelsen skickad till din riktiga e-post och stäng sedan enkelt av alias när som helst senare.
+landing-use-cases-on-the-go = På språng
+landing-use-cases-on-the-go-heading = På språng med { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Gör omedelbart ett anpassat e-postalias var som helst och var du än går!
+landing-use-cases-on-the-go-connect-heading = Anslut när du är på språng
+landing-use-cases-on-the-go-connect-body = Använd ditt e-postalias när du vill logga in privat på ditt favoritkafé eller offentliga Wi-Fi
+landing-use-cases-on-the-go-receipt-heading = Få e-postkvitton
+landing-use-cases-on-the-go-receipt-body = Dela ett anpassat e-postalias för shoppingkvitton i butik utan att dela din riktiga e-postadress
+landing-use-cases-on-the-go-phone-heading = Använd på din telefon
+landing-use-cases-on-the-go-phone-body = Oavsett var du är, skapa ett anpassat e-postalias på några sekunder för allt du vill göra
+landing-use-cases-signups = Registreringar
+landing-use-cases-signups-hero-heading = Bekymmersfria registreringar
+landing-use-cases-signups-hero-content1 = Vill du starta en ny prenumeration, svara på en inbjudan eller få en fyndkampanjkod utan att skräpposten svämmar över din inkorg?
+landing-use-cases-signups-hero-content2 = Innan du slutför nästa registrering, använd ett e-postalias istället för din riktiga för att skydda din information och behålla kontrollen över din inkorg
 
 ## Landing FAQ Section
 
@@ -484,6 +498,11 @@ profile-promo-email-blocking-label-promotionals = Blockera reklam
 profile-promo-email-blocking-label-none = Blockera alla
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Vidarebefordrar inte
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (endast { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Tillgänglig för { -brand-name-relay-premium }-prenumeranter
+profile-promo-email-blocking-description-promotionals-locked-cta = Uppgradera nu
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ställ dig i väntelistan för { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Stäng
 
 ## Banner Messages (displayed on the profile page)
 
@@ -610,6 +629,7 @@ popover-custom-alias-explainer-close-button-label = Stäng
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blockera reklammeddelanden
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivera Blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mer information
 
 ## Tip about using custom masks
 
