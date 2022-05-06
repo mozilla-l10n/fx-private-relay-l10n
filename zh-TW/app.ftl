@@ -207,6 +207,12 @@ landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-access-content-body-2 = 想要訂閱某份電子報，但不確定寄件者可不可靠？請使用轉寄信箱訂閱。當您會從該信箱收到不想要的郵件時，就代表寄件者可能已經把您的地址賣給其他廣告商，或是名單已遭外流。只要關閉或刪除轉寄信箱，即可保護您的收件匣。
 landing-use-cases-gaming = 玩遊戲
 landing-use-cases-gaming-body-2 = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
+landing-use-cases-shopping-hero-heading = 使用轉寄信箱網購
+landing-use-cases-shopping-hero-content1 = 想要在網路上網購，但不是熟悉的店家或無法完全信任這家商店嗎？
+landing-use-cases-shopping-hero-content2 = 在線上購物時使用轉寄信箱消費。可將訂單信轉寄到您的實際信箱並稍後再隨時關閉轉寄。
+landing-use-cases-on-the-go = 移動中
+landing-use-cases-on-the-go-heading = 隨時隨地使用 { -brand-name-relay }
+landing-use-cases-on-the-go-lead = 隨時隨地建立自訂的轉寄郵件信箱！
 landing-use-cases-on-the-go-connect-heading = 隨時隨地連線
 landing-use-cases-on-the-go-connect-body = 可使用轉寄信箱來在喜愛的咖啡店登入上網或登入使用公共 Wi-Fi。
 landing-use-cases-on-the-go-receipt-heading = 接收電子收據信
@@ -262,6 +268,7 @@ waitlist-control-country-label = 您生活在哪個國家？
 waitlist-control-locale-label = 選擇想使用的語言。
 waitlist-submit-label = 加入排隊名單
 waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
+waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
 
 ## Settings page
 
@@ -455,6 +462,9 @@ profile-promo-email-blocking-label-promotionals = 封鎖行銷郵件
 profile-promo-email-blocking-label-none = 封鎖全部
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = 不轉寄
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = （僅　{ -brand-name-premium }）
+profile-promo-email-blocking-description-promotionals-locked-cta = 立刻升級
+profile-promo-email-blocking-description-promotionals-locked-close = 關閉
 
 ## Banner Messages (displayed on the profile page)
 
@@ -576,6 +586,7 @@ popover-custom-alias-explainer-close-button-label = 關閉
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = 更多資訊
 
 ## Tip about using custom masks
 
