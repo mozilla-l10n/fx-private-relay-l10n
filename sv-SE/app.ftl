@@ -36,7 +36,7 @@ meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-p
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Öppnas i en ny flik)
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -155,7 +155,7 @@ hero-image-copy-trust = Kan du ens lita på detta företag med din personliga e-
 hero-image-copy-unique-html = <strong>Använd en unik relay-adress</strong> för varje nytt konto …
 hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer till din inkorg!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Upp till 5 e-postalias
 landing-pricing-free-feature-2 = Webbläsartillägg
-landing-pricing-free-feature-free = Gratis
 landing-pricing-free-description = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,8 @@ landing-use-cases-gaming = Spel
 landing-use-cases-gaming-body-2 =
     Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
     Använd ett e-postalias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
+landing-use-cases-shopping-hero-heading = Shopping med e-postalias
+landing-use-cases-shopping-hero-content1 = Vill du köpa något online och inte känner till eller litar helt på butiken?
 
 ## Landing FAQ Section
 
@@ -433,7 +434,7 @@ profile-label-first-emailed = Första e-posten:
 profile-label-created = Skapad:
 profile-label-details-show = Visa detaljer
 profile-label-details-hide = Dölj detaljer
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = vidarebefordrar
 profile-label-blocking = blockerar
 profile-label-disable-forwarding-button-2 = Inaktivera vidarebefordran av e-post för detta e-postalias
@@ -550,10 +551,11 @@ banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $s
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = Din underdomän @{ $subdomain } har skapats
 success-settings-update = Dina inställningar har uppdaterats
 success-signed-out-message = Du har loggat ut.
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = Inloggad som { $username }.
 
 ## Error Messages
@@ -619,7 +621,7 @@ tips-custom-alias-content-2 = Allt du behöver göra är att skapa och dela ett 
 tips-promo-email-blocking-heading = Blockera reklammeddelanden
 tips-promo-email-blocking-content = Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din inkorg samtidigt som du kan ta emot e-postmeddelanden som kvitton eller leveransinformation.
 
-## Onboarding 
+## Onboarding
 
 onboarding-headline-2 = Skapa ditt första e-postalias
 onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt första e-postalias.
@@ -708,7 +710,7 @@ modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdom
 modal-domain-register-confirmation-checkbox-2 = Ja, jag vill registrera <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Lyckades!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
 # Variables:
