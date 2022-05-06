@@ -137,7 +137,7 @@ hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال �
 hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
 hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آندا پئے تساں  ہُݨ اُوندے<em>تساں کنٹرول وچ ہو</em>!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -158,7 +158,6 @@ landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_pri
 landing-pricing-free-price = مفت
 landing-pricing-free-feature-1-2 = ٥ تائیں ای میل ماسک
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
-landing-pricing-free-feature-free = مفت
 landing-pricing-free-description = { -brand-name-firefox-relay } ماسک ازماؤ تے آپݨے ای میل ابناکس دی حفاظت شروع کرو۔
 landing-pricing-free-cta = { -brand-name-relay } گھنو
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -185,6 +184,10 @@ landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-access-content = مواد تائیں رسائی کرو
 landing-use-cases-gaming = کھیݙݨ
+landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
+landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
+landing-use-cases-on-the-go-phone-body = سائن اپ
+landing-use-cases-signups = سائن اپس
 
 ## Landing FAQ Section
 
