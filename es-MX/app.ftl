@@ -36,7 +36,7 @@ meta-description-2 = { -brand-name-firefox-relay } facilita la creación de corr
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Abrir en una nueva pestaña)
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -155,7 +155,7 @@ hero-image-copy-trust = ¿Puedes confiar en esta empresa para compartir tu corre
 hero-image-copy-unique-html = <strong>Utiliza una dirección única de Relay </strong> para cada cuenta nueva…
 hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que llega a tu bandeja de entrada!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Enmascara hasta 5 correos
 landing-pricing-free-feature-2 = Extensión del navegador
-landing-pricing-free-feature-free = Gratis
 landing-pricing-free-description = Prueba las máscaras de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
 landing-pricing-free-cta = Obtener { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,11 @@ landing-use-cases-gaming = Juegos
 landing-use-cases-gaming-body-2 =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o acosadores sepan quién eres a través de tu gamertag y dirección de correo electrónico?
     Usa una máscara de correo electrónico para poner una capa más de protección entre tu identidad en línea y los juegos que juegas en línea.
+landing-use-cases-shopping-hero-heading = Comprar con máscaras de correos electrónicos
+landing-use-cases-shopping-hero-content1 = ¿Quieres comprar algo en línea y no sabes o no confías completamente en la tienda?
+landing-use-cases-shopping-hero-content2 = Usa una máscara de correo electrónico cada vez que compres en línea. Recibe la confirmación de compra enviada a tu correo electrónico real y luego fácilmente desactiva la máscara en cualquier momento.
+landing-use-cases-on-the-go = Sobre la marcha
+landing-use-cases-on-the-go-heading = Sobre la marcha con { -brand-name-relay }
 
 ## Landing FAQ Section
 
@@ -433,7 +437,7 @@ profile-label-first-emailed = Fecha del primer mensaje:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
 profile-label-disable-forwarding-button-2 = Inhabilitar el reenvío de correo para esta máscara
@@ -550,10 +554,11 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = Tu subdominio @{ $subdomain } ha sido creado
 success-settings-update = Tu configuración ha sido actualizada
 success-signed-out-message = Has cerrado sesión.
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = Has iniciado sesión correctamente como { $username }.
 
 ## Error Messages
@@ -619,7 +624,7 @@ tips-custom-alias-content-2 = Todo lo que necesitas hacer es crear y compartir u
 tips-promo-email-blocking-heading = Bloquear correos electrónicos promocionales
 tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bloquear correos electrónicos promocionales para que no lleguen a tu bandeja de entrada y al mismo tiempo te permite recibir correos electrónicos como recibos o información de envío.
 
-## Onboarding 
+## Onboarding
 
 onboarding-headline-2 = Crear tu primer correo enmascarado
 onboarding-alias-tip-1-2 = Selecciona “Generar nueva máscara” para crear tu primer correo enmascarado.
@@ -708,7 +713,7 @@ modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomai
 modal-domain-register-confirmation-checkbox-2 = Sí, quiero registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = ¡Correcto!
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = ¡{ $subdomain } es ahora tu subdominio de correo electrónico!
 # Variables:
