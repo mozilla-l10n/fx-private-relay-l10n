@@ -239,6 +239,20 @@ landing-use-cases-gaming-body-2 =
     Használjon egy e-mail-maszkot, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
 landing-use-cases-shopping-hero-heading = Vásárlás e-mail-maszkokkal
 landing-use-cases-shopping-hero-content1 = Szeretne vásárolni valamit az interneten, de nem ismeri az üzletet vagy nem bízik benne teljesen?
+landing-use-cases-shopping-hero-content2 = Használjon e-mail-maszkot, amikor online vásárol. Kapja meg a visszaigazolást a valódi e-mail-címére, majd később bármikor könnyedén kikapcsolhatja a maszkot.
+landing-use-cases-on-the-go = Útközben
+landing-use-cases-on-the-go-heading = Útközben a { -brand-name-relay } segítségével
+landing-use-cases-on-the-go-lead = Azonnal készítsen egy egyéni e-mail-maszkot, bárhol is jár.
+landing-use-cases-on-the-go-connect-heading = Csatlakozzon útközben
+landing-use-cases-on-the-go-connect-body = Használja e-mail-maszkját, ha privát módon szeretne bejelentkezni kedvenc kávézójába vagy egy nyilvános Wi-Fi-hálózatra
+landing-use-cases-on-the-go-receipt-heading = Kapjon e-mailes nyugtákat
+landing-use-cases-on-the-go-receipt-body = Ossza meg egyéni e-mail maszkját a bolti vásárlási nyugtákhoz anélkül, hogy megosztaná valódi e-mail-címét
+landing-use-cases-on-the-go-phone-heading = Használja a telefonján
+landing-use-cases-on-the-go-phone-body = Nem számít, hol van, pillanatok alatt hozzon létre egy egyéni e-mail-maszkot bármihez, amihez csak szeretne
+landing-use-cases-signups = Regisztrációk
+landing-use-cases-signups-hero-heading = Gondtalan regisztrációk
+landing-use-cases-signups-hero-content1 = Új előfizetést szeretne indítani, válaszolna egy meghívásra, vagy akciós promóciós kódot szeretne kapni anélkül, hogy levélszemét árasztaná el a postaládáját?
+landing-use-cases-signups-hero-content2 = Mielőtt befejezné a következő regisztrációt, használjon egy e-mail maszkot a valódi címe helyett, hogy megvédje adatait és megtartsa a levelesládája feletti irányítást.
 
 ## Landing FAQ Section
 
@@ -484,6 +498,11 @@ profile-promo-email-blocking-label-promotionals = Promóciók blokkolása
 profile-promo-email-blocking-label-none = Az összes blokkolása
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Nincs továbbítás
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (csak { -brand-name-premium }mal)
+profile-promo-email-blocking-description-promotionals-locked-label = A { -brand-name-relay-premium } előfizetők számára érhető el
+profile-promo-email-blocking-description-promotionals-locked-cta = Frissítés most
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Csatlakozzon a { -brand-name-relay-premium } várólistához
+profile-promo-email-blocking-description-promotionals-locked-close = Bezárás
 
 ## Banner Messages (displayed on the profile page)
 
@@ -610,6 +629,7 @@ popover-custom-alias-explainer-close-button-label = Bezárás
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Promóciós e-mailek letiltása
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Engedélyezze a Promóciós e-mailek letiltását egy maszkon, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = További információk
 
 ## Tip about using custom masks
 
