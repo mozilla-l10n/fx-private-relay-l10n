@@ -246,8 +246,13 @@ landing-use-cases-on-the-go-lead = ¡Crea rápidamente una máscara de correo pe
 landing-use-cases-on-the-go-connect-heading = Conéctate sobre la marcha
 landing-use-cases-on-the-go-connect-body = Usa tu máscara de correo cuando quieras iniciar sesión de forma privada al Wi-Fi público de tu cafetería favorita
 landing-use-cases-on-the-go-receipt-heading = Recibe tus notas de compra por correo
+landing-use-cases-on-the-go-receipt-body = Comparte una máscara de correo personalizada para recibos de compras en la tienda sin compartir tu correo real
 landing-use-cases-on-the-go-phone-heading = Úsalo en tu teléfono
+landing-use-cases-on-the-go-phone-body = No importa dónde estés, crea una máscara de correo electrónico personalizada en segundos para cualquier cosa que desees hacer
 landing-use-cases-signups = Registros
+landing-use-cases-signups-hero-heading = Regístrate sin preocupaciones
+landing-use-cases-signups-hero-content1 = ¿Quieres iniciar una nueva suscripción, responder a una invitación u obtener un código de promoción sin que el spam inunde tu bandeja de entrada?
+landing-use-cases-signups-hero-content2 = Antes de completar el próximo registro, usa una máscara de correo en lugar de la real para proteger tu información y mantener el control sobre tu bandeja de entrada.
 
 ## Landing FAQ Section
 
