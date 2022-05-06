@@ -155,7 +155,7 @@ hero-image-copy-trust = Kannst du dieser Firma überhaupt deine persönliche E-M
 hero-image-copy-unique-html = <strong>Verwende eine einzigartige Weiterleitungsadresse</strong> für jedes neue Konto …
 hero-image-copy-control-html = Jetzt <em>hast du die Kontrolle darüber</em>, was in deinem Posteingang ankommt!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Kostenlos
 landing-pricing-free-feature-1-2 = Bis zu fünf Alias-E-Mail-Masken
 landing-pricing-free-feature-2 = Browser-Erweiterung
-landing-pricing-free-feature-free = Kostenlos
 landing-pricing-free-description = Probieren Sie { -brand-name-firefox-relay }-Masken aus und schützen Sie Ihr E-Mail-Postfach.
 landing-pricing-free-cta = Hole dir { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,22 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Genießen Sie Online-Spiele, machen sich aber Sorgen, dass andere Spieler oder Mobber über Ihr Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind?
     Verwenden Sie eine E-Mail-Maske, um eine weitere Schutzebene zwischen Ihrer Online-Identität und den Spielen, die Sie im Internet spielen, zu schaffen.
+landing-use-cases-shopping-hero-heading = Einkaufen mit E-Mail-Masken
+landing-use-cases-shopping-hero-content1 = Möchten Sie etwas im Internet kaufen, kennen oder vertrauen dem Verkäufer aber nicht ganz?
+landing-use-cases-shopping-hero-content2 = Verwenden Sie eine E-Mail-Maske, wenn Sie online einkaufen. Lassen Sie sich die Bestätigung an Ihre echte E-Mail-Adresse senden und schalten Sie die Maske später jederzeit einfach aus.
+landing-use-cases-on-the-go = Unterwegs
+landing-use-cases-on-the-go-heading = Unterwegs mit { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Erstellen Sie sofort und überall eine benutzerdefinierte E-Mail-Maske!
+landing-use-cases-on-the-go-connect-heading = Verbinden Sie sich unterwegs
+landing-use-cases-on-the-go-connect-body = Verwenden Sie Ihre E-Mail-Maske, wenn Sie sich privat bei Ihrem Lieblingscafé oder öffentlichen WLAN anmelden möchten
+landing-use-cases-on-the-go-receipt-heading = Erhalten Sie Quittungen per E-Mail
+landing-use-cases-on-the-go-receipt-body = Geben Sie beim Einkaufen eine benutzerdefinierte E-Mail-Maske für Quittungen an, ohne Ihre echte E-Mail-Adresse preiszugeben
+landing-use-cases-on-the-go-phone-heading = Auf Ihrem Handy verwenden
+landing-use-cases-on-the-go-phone-body = Egal wo Sie sind, erstellen Sie in Sekundenschnelle eine benutzerdefinierte E-Mail-Maske für alles, was Sie tun möchten
+landing-use-cases-signups = Registrierung
+landing-use-cases-signups-hero-heading = Sorgenfreies Registrieren
+landing-use-cases-signups-hero-content1 = Möchten Sie ein neues Abonnement abschließen, auf eine Einladung antworten oder einen günstigen Rabatt-Code erhalten, ohne dass Spam Ihren Posteingang überschwemmt?
+landing-use-cases-signups-hero-content2 = Bevor Sie die nächste Registrieren abschließen, verwenden Sie eine E-Mail-Maske anstelle Ihrer echten, um Ihre Daten zu schützen und die Kontrolle über Ihren Posteingang zu behalten
 
 ## Landing FAQ Section
 
@@ -483,6 +498,11 @@ profile-promo-email-blocking-label-promotionals = Werbung blockieren
 profile-promo-email-blocking-label-none = Alles blockieren
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Nicht weiterleiten
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (nur { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Verfügbar für { -brand-name-relay-premium }-Abonnenten
+profile-promo-email-blocking-description-promotionals-locked-cta = Jetzt upgraden
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
+profile-promo-email-blocking-description-promotionals-locked-close = Schließen
 
 ## Banner Messages (displayed on the profile page)
 
@@ -609,6 +629,7 @@ popover-custom-alias-explainer-close-button-label = Schließen
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivieren Sie bei einer Maske die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Weitere Informationen
 
 ## Tip about using custom masks
 
