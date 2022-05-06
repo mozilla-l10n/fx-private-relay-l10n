@@ -153,7 +153,7 @@ hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal 
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
 hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -189,7 +189,6 @@ landing-pricing-body-2 = Prova le mascas email de { -brand-name-firefox-relay } 
 landing-pricing-free-price = Libere
 landing-pricing-free-feature-1-2 = Usque 5 mascas e-mail
 landing-pricing-free-feature-2 = Extension de navigator
-landing-pricing-free-feature-free = Gratuite
 landing-pricing-free-description = Proba le mascas de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata email.
 landing-pricing-free-cta = Discarga { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -234,6 +233,22 @@ landing-use-cases-gaming = Jocos
 landing-use-cases-gaming-body-2 =
     Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse email? 
     Usa un masca email pro poner un altere strato de protection inter tu identitate online e le jocos que tu practica online.
+landing-use-cases-shopping-hero-heading = Compras con mascas email
+landing-use-cases-shopping-hero-content1 = Vole tu comprar alco online e non cognosce o non confide plenmente in le boteca?
+landing-use-cases-shopping-hero-content2 = Usa un masca email quandocunque tu compra online. Recipe le confirmation inviate a tu real email e pois facilemente disactiva le masca quando tu lo vole plus tarde.
+landing-use-cases-on-the-go = In movimento
+landing-use-cases-on-the-go-heading = Al volo con { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Al instante crea un masca email personalisate ubique tu va!
+landing-use-cases-on-the-go-connect-heading = Connecte te al volo
+landing-use-cases-on-the-go-connect-body = Usa tu masca email quando tu vole reservatemente acceder a tu favorite bar o wi-fi public
+landing-use-cases-on-the-go-receipt-heading = Recipe quitantias email
+landing-use-cases-on-the-go-receipt-body = Comparti un masca email personalisate pro quitantias de compras in boteca, sin compartir tu real email
+landing-use-cases-on-the-go-phone-heading = Usa lo sur tu telephono
+landing-use-cases-on-the-go-phone-body = Non importa ubi tu es, crea un masca email personalisate in secundas pro toto lo que tu vole facer
+landing-use-cases-signups = Inscriptiones
+landing-use-cases-signups-hero-heading = Registrationes sin anxietate
+landing-use-cases-signups-hero-content1 = Vole tu initiar un nove subscription, responder a un invitation, o reciper un codice de promotion de compras sin que le SPAM inunda tu cassa de ingresso?
+landing-use-cases-signups-hero-content2 = Ante que tu completa tu proxime registration, usa un masca email in vice de tu real adresse pro proteger tu information e mantener le controlo sur tu cassa de ingresso.
 
 ## Landing FAQ Section
 
@@ -479,6 +494,11 @@ profile-promo-email-blocking-label-promotionals = Blocar promotiones
 profile-promo-email-blocking-label-none = Blocar tote
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Non inultrar
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = Solo { -brand-name-premium }
+profile-promo-email-blocking-description-promotionals-locked-label = Disponibile al abonatos de { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Promover ora
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Junge te al lista de attendentia de { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Clauder
 
 ## Banner Messages (displayed on the profile page)
 
@@ -605,6 +625,7 @@ popover-custom-alias-explainer-close-button-label = Clauder
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activar le blocada de emails promotional sur un masca pro stoppar emails de marketing que attinge tu cassa de ingresso.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Pro saper plus
 
 ## Tip about using custom masks
 
