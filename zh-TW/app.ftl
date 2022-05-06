@@ -36,7 +36,7 @@ meta-description-2 = { -brand-name-firefox-relay } 讓您可輕鬆建立轉寄�
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = （用新分頁開啟）
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -151,7 +151,7 @@ hero-image-copy-trust = 拿自己的私人信箱來註冊網站帳號，安心�
 hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
 hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪些郵件可以直達您的收件匣！
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -179,7 +179,6 @@ landing-pricing-body-2 = 試用 { -brand-name-firefox-relay } 來轉寄郵件並
 landing-pricing-free-price = 免費版
 landing-pricing-free-feature-1-2 = 最多 5 組轉寄信箱
 landing-pricing-free-feature-2 = 瀏覽器擴充套件
-landing-pricing-free-feature-free = 免費
 landing-pricing-free-cta = 下載 { -brand-name-relay }
 landing-pricing-free-feature-free = 免費
 # Variables:
@@ -208,6 +207,16 @@ landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-access-content-body-2 = 想要訂閱某份電子報，但不確定寄件者可不可靠？請使用轉寄信箱訂閱。當您會從該信箱收到不想要的郵件時，就代表寄件者可能已經把您的地址賣給其他廣告商，或是名單已遭外流。只要關閉或刪除轉寄信箱，即可保護您的收件匣。
 landing-use-cases-gaming = 玩遊戲
 landing-use-cases-gaming-body-2 = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
+landing-use-cases-on-the-go-connect-heading = 隨時隨地連線
+landing-use-cases-on-the-go-connect-body = 可使用轉寄信箱來在喜愛的咖啡店登入上網或登入使用公共 Wi-Fi。
+landing-use-cases-on-the-go-receipt-heading = 接收電子收據信
+landing-use-cases-on-the-go-receipt-body = 將自訂轉寄信箱提供給店家寄送消費收據給您，而無須提供實際信箱
+landing-use-cases-on-the-go-phone-heading = 在手機上使用
+landing-use-cases-on-the-go-phone-body = 不論您在哪裡，只要花幾秒就可以建立自訂轉寄信箱來滿足您的任何需求
+landing-use-cases-signups = 註冊
+landing-use-cases-signups-hero-heading = 註冊帳號免煩惱
+landing-use-cases-signups-hero-content1 = 想要開始新訂閱、回覆邀請函或接收折扣碼，但又不想要收到一堆垃圾信嗎？
+landing-use-cases-signups-hero-content2 = 您下次註冊帳號時，可使用轉寄信箱而非實際信箱，來保護您的個資，也可更加掌握您的收件匣。
 
 ## Landing FAQ Section
 
@@ -244,6 +253,7 @@ premium-promo-pricing-free-price = 您目前的免費方案
 
 ## The Premium waitlist page
 
+waitlist-lead = 當 { -brand-name-firefox-relay-premium } 於您的地區推出時通知。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的電子郵件地址是什麼？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -251,6 +261,7 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = 您生活在哪個國家？
 waitlist-control-locale-label = 選擇想使用的語言。
 waitlist-submit-label = 加入排隊名單
+waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
 
 ## Settings page
 
@@ -394,7 +405,7 @@ profile-label-first-emailed = 首次寄信於：
 profile-label-created = 建立於：
 profile-label-details-show = 顯示細節
 profile-label-details-hide = 隱藏細節
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = 轉寄中
 profile-label-blocking = 封鎖中
 profile-label-disable-forwarding-button-2 = 對此轉寄信箱停用轉寄功能
@@ -506,10 +517,11 @@ banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信�
 
 # Variables:
 #   $subdomain (url) - User-set subdomain
-#   $username (url) - User-set username
 success-subdomain-registered-2 = 已建立您的子網域 @{ $subdomain }
 success-settings-update = 已更新您的設定。
 success-signed-out-message = 您已登出。
+# Variables:
+#   $username (url) - Username of the current user
 success-signed-in-message = 已成功以 { $username } 的身分登入。
 
 ## Error Messages
@@ -575,7 +587,7 @@ tips-custom-alias-content-2 = 您只要想一組獨特而使用您自訂子網�
 tips-promo-email-blocking-heading = 封鎖行銷郵件
 tips-promo-email-blocking-content = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 
-## Onboarding 
+## Onboarding
 
 onboarding-headline-2 = 建立您的第一組轉寄信箱
 onboarding-alias-tip-1-2 = 點擊「產生新轉寄信箱」來建立您的第一組轉寄信箱。
@@ -654,7 +666,7 @@ modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
 modal-domain-register-confirmation-checkbox-2 = 對，我想註冊 <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = 成功！
 # Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use 
+#   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的信箱子網域！
 # Variables:
