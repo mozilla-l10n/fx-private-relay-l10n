@@ -499,6 +499,11 @@ profile-promo-email-blocking-label-promotionals = Блокувати промо�
 profile-promo-email-blocking-label-none = Блокувати всі
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Не пересилаються
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (лише { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Доступно для передплатників { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Оновити зараз
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Долучайтеся до списку очікування { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Закрити
 
 ## Banner Messages (displayed on the profile page)
 
@@ -625,6 +630,7 @@ popover-custom-alias-explainer-close-button-label = Закрити
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування промоційних електронних листів маскою, щоб маркетингові листи не надходили до вашої теки вхідних.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Докладніше
 
 ## Tip about using custom masks
 
