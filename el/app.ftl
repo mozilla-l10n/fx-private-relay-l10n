@@ -180,7 +180,7 @@ hero-image-copy-trust = Μπορείτε να εμπιστευτείτε το π
 hero-image-copy-unique-html = <strong>Χρησιμοποιήστε μια μοναδική διεύθυνση Relay</strong> για κάθε νέο λογαριασμό…
 hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε τον έλεγχο</em> των εισερχομένων σας!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -218,7 +218,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Δωρεάν
 landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
-landing-pricing-free-feature-free = Δωρεάν
 landing-pricing-free-description = Δοκιμάστε τις μάσκες του { -brand-name-firefox-relay } και αρχίστε να προστατεύετε τα εισερχόμενά σας.
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -262,6 +261,7 @@ landing-use-cases-gaming = Παιχνίδια
 landing-use-cases-gaming-body-2 =
     Απολαμβάνετε τα διαδικτυακά παιχνίδια, αλλά ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή νταήδες, μέσω του ονόματος παίκτη και της διεύθυνσης email σας;
     Χρησιμοποιήστε μια μάσκα email για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητα και τα παιχνίδια σας.
+landing-use-cases-signups = Εγγραφές
 
 ## Landing FAQ Section
 
@@ -504,6 +504,10 @@ profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσε�
 profile-promo-email-blocking-label-none = Φραγή όλων
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (μόνο στο { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Διαθέσιμο για συνδρομητές { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Αναβάθμιση τώρα
+profile-promo-email-blocking-description-promotionals-locked-close = Κλείσιμο
 
 ## Banner Messages (displayed on the profile page)
 
@@ -630,6 +634,7 @@ popover-custom-alias-explainer-close-button-label = Κλείσιμο
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε μια μάσκα για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Περισσότερες πληροφορίες
 
 ## Tip about using custom masks
 
