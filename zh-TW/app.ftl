@@ -179,7 +179,10 @@ landing-pricing-body-2 = 試用 { -brand-name-firefox-relay } 來轉寄郵件並
 landing-pricing-free-price = 免費版
 landing-pricing-free-feature-1-2 = 最多 5 組轉寄信箱
 landing-pricing-free-feature-2 = 瀏覽器擴充套件
+landing-pricing-free-description = 試用 { -brand-name-firefox-relay } 轉寄信箱，保護您實際的信箱收件匣。
 landing-pricing-free-cta = 下載 { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = 已經推出！
 landing-pricing-free-feature-free = 免費
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -192,6 +195,7 @@ landing-pricing-premium-feature-3-2 = 使用您自己的電子郵件子網域
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 landing-pricing-premium-feature-5 = 封鎖行銷郵件
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 在尚未在您的國家推出，可以在下方登記，推出時我們就會通知您。
 landing-pricing-waitlist-cta = 加入排隊名單
 
 ## Use Cases
@@ -259,6 +263,7 @@ premium-promo-pricing-free-price = 您目前的免費方案
 
 ## The Premium waitlist page
 
+waitlist-heading = 加入 { -brand-name-relay-premium } 候補名單
 waitlist-lead = 當 { -brand-name-firefox-relay-premium } 於您的地區推出時通知。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的電子郵件地址是什麼？
@@ -267,8 +272,13 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = 您生活在哪個國家？
 waitlist-control-locale-label = 選擇想使用的語言。
 waitlist-submit-label = 加入排隊名單
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = 點擊「{ waitlist-submit-label }」，代表您同意我們的<a>隱私權保護政策</a>。
 waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
 waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
+waitlist-subscribe-error-connection = 將您加入候補名單時遇到錯誤，請確認網路連線是否正常，然後再試一次。
+waitlist-subscribe-error-unknown = 將您加入候補名單時發生錯誤，請再試一次。
 
 ## Settings page
 
@@ -463,7 +473,9 @@ profile-promo-email-blocking-label-none = 封鎖全部
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = 不轉寄
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = （僅　{ -brand-name-premium }）
+profile-promo-email-blocking-description-promotionals-locked-label = 僅提供 { -brand-name-relay-premium } 訂閱者使用
 profile-promo-email-blocking-description-promotionals-locked-cta = 立刻升級
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 加入 { -brand-name-relay-premium } 候補名單
 profile-promo-email-blocking-description-promotionals-locked-close = 關閉
 
 ## Banner Messages (displayed on the profile page)
@@ -487,6 +499,7 @@ banner-download-install-extension-cta = 將 { -brand-name-relay } 新增到 { -b
 banner-download-install-chrome-extension-headline = 試試 { -brand-name-relay } 的 { -brand-name-google-chrome } 擴充功能。
 # Deprecated
 banner-download-install-chrome-extension-copy = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓使用別名信箱變得更簡單。
+banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓您更簡單就能建立與使用轉寄信箱。
 banner-download-install-chrome-extension-cta = 下載 { -brand-name-relay } 擴充套件
 banner-upgrade-headline = 升級到 { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 讓建立轉寄信箱變得更簡單，還有自訂子網域與無限量信箱功能。
@@ -644,6 +657,7 @@ multi-part-onboarding-premium-extension-button-download = 下載 { -brand-name-r
 multi-part-onboarding-premium-chrome-extension-get-title = 下載 { -brand-name-relay } 的 { -brand-name-google-chrome } 擴充功能。
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓使用別名信箱變得更簡單。
+multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓您更簡單就能建立與使用轉寄信箱。
 multi-part-onboarding-premium-chrome-extension-button-download = 下載 { -brand-name-relay } 擴充套件
 multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
