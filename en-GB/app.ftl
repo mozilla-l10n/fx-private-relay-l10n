@@ -155,7 +155,7 @@ hero-image-copy-trust = Can you even trust this company with your personal email
 hero-image-copy-unique-html = <strong>Use a unique relay address</strong> for every new account …
 hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arriving to your inbox!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Free
 landing-pricing-free-feature-1-2 = Up to 5 email masks
 landing-pricing-free-feature-2 = Browser extension
-landing-pricing-free-feature-free = Free
 landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
 landing-pricing-free-cta = Get { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,22 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address?
     Use an email mask to put one more layer of protection between your online identity and the games you play online.
+landing-use-cases-shopping-hero-heading = Shopping with email masks
+landing-use-cases-shopping-hero-content1 = Want to buy something online and don’t know or fully trust the shop?
+landing-use-cases-shopping-hero-content2 = Use an email mask whenever you shop online. Get the confirmation sent to your real email and then easily turn the mask off anytime later.
+landing-use-cases-on-the-go = On the Go
+landing-use-cases-on-the-go-heading = On the go with { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Instantly make a custom email mask anywhere and everywhere you go!
+landing-use-cases-on-the-go-connect-heading = Connect on the go
+landing-use-cases-on-the-go-connect-body = Use your email mask when you want to privately sign in to your favourite coffee shop or public Wi-Fi
+landing-use-cases-on-the-go-receipt-heading = Get email receipts
+landing-use-cases-on-the-go-receipt-body = Share a custom email mask for in-store shopping receipts without sharing your real email
+landing-use-cases-on-the-go-phone-heading = Use on your phone
+landing-use-cases-on-the-go-phone-body = No matter where you are create a custom email mask in seconds for anything you want to do
+landing-use-cases-signups = Signups
+landing-use-cases-signups-hero-heading = Worry-free signups
+landing-use-cases-signups-hero-content1 = Want to start a new subscription, respond to an invitation, or get a bargain promo code without having spam flooding your inbox?
+landing-use-cases-signups-hero-content2 = Before you complete that next signup, use an email mask instead of your real one to protect your info and keep control over your inbox.
 
 ## Landing FAQ Section
 
@@ -483,6 +498,11 @@ profile-promo-email-blocking-label-promotionals = Block promotions
 profile-promo-email-blocking-label-none = Block all
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Not forwarding
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } only)
+profile-promo-email-blocking-description-promotionals-locked-label = Available to { -brand-name-relay-premium } subscribers
+profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waiting list
+profile-promo-email-blocking-description-promotionals-locked-close = Close
 
 ## Banner Messages (displayed on the profile page)
 
@@ -609,6 +629,7 @@ popover-custom-alias-explainer-close-button-label = Close
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = More info
 
 ## Tip about using custom masks
 
