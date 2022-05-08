@@ -154,7 +154,7 @@ hero-image-copy-trust = Bisakah Anda memercayai perusahaan ini dengan surel prib
 hero-image-copy-unique-html = <strong>Gunakan alamat relai unik</strong> untuk setiap akun baru …
 hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa yang masuk ke kotak masuk!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -192,7 +192,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Hingga 5 topeng surel
 landing-pricing-free-feature-2 = Ekstensi Peramban
-landing-pricing-free-feature-free = Gratis
 landing-pricing-free-description = Coba topeng { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda.
 landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -237,6 +236,8 @@ landing-use-cases-gaming = Ranah Gim
 landing-use-cases-gaming-body-2 =
     Suka permainan daring namun khawatir terhadap pemain atau perudung lain yang mengetahui siapa Anda melalui tag pemain dan alamat surel Anda?
     Gunakan topeng surel untuk proteksi lapisan tambahan antara identitas daring dan permainan yang Anda mainkan secara daring.
+landing-use-cases-shopping-hero-heading = Berbelanja dengan topeng surel
+landing-use-cases-shopping-hero-content1 = Ingin membeli sesuatu secara daring dan tidak tahu atau tidak percaya sepenuhnya dengan tokonya?
 
 ## Landing FAQ Section
 
