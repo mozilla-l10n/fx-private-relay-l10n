@@ -238,6 +238,13 @@ landing-use-cases-gaming-body-2 =
     Gunakan topeng surel untuk proteksi lapisan tambahan antara identitas daring dan permainan yang Anda mainkan secara daring.
 landing-use-cases-shopping-hero-heading = Berbelanja dengan topeng surel
 landing-use-cases-shopping-hero-content1 = Ingin membeli sesuatu secara daring dan tidak tahu atau tidak percaya sepenuhnya dengan tokonya?
+landing-use-cases-shopping-hero-content2 = Gunakan topeng surel kapan saat Anda berbelanja daring. Dapatkan pesan konfirmasi dikirim ke surel Anda yang sebenarnya dan kemudian matikan topeng kapan saja suatu saat.
+landing-use-cases-on-the-go = Dalam Perjalanan
+landing-use-cases-on-the-go-heading = Saat bepergian dengan { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Langsung buat topeng surel kustom di mana saja dan ke mana pun saat Anda bepergian!
+landing-use-cases-on-the-go-connect-heading = Sambungkan di mana saja
+landing-use-cases-on-the-go-connect-body = Gunakan topeng surel saat Anda ingin masuk secara pribadi ke kedai kopi favorit atau Wi-Fi publik
+landing-use-cases-on-the-go-receipt-heading = Dapatkan tanda terima surel
 
 ## Landing FAQ Section
 
