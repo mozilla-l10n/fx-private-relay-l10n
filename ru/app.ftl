@@ -208,7 +208,11 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Бесплатно
 landing-pricing-free-feature-1-2 = До 5 псевдонимов электронной почты
 landing-pricing-free-feature-2 = Расширение для браузера
+landing-pricing-free-description = Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик.
 landing-pricing-free-cta = Получить { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Сейчас доступно!
+landing-pricing-free-feature-free = Бесплатно
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/месяц
