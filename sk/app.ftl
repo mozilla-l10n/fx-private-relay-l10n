@@ -197,7 +197,7 @@ hero-image-copy-trust = Môžete tejto spoločnosti dôverovať odovzdaním svoj
 hero-image-copy-unique-html = <strong>Použite jedinečnú adresu špeciálne vytvorenú</strong> pre každý nový účet…
 hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do vašej e-mailovej schránky.
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -235,7 +235,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Zadarmo
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masiek
 landing-pricing-free-feature-2 = Rozšírenie do prehliadača
-landing-pricing-free-feature-free = Zadarmo
 landing-pricing-free-description = Vyskúšajte masky { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
 landing-pricing-free-cta = Získajte { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -280,6 +279,22 @@ landing-use-cases-gaming = Hranie hier
 landing-use-cases-gaming-body-2 =
     Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
     Použite e-mailovú masku na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
+landing-use-cases-shopping-hero-heading = Nakupovanie s e-mailovými maskami
+landing-use-cases-shopping-hero-content1 = Chcete si niečo kúpiť online a nepoznáte obchod alebo mu úplne nedôverujete?
+landing-use-cases-shopping-hero-content2 = Pri každom online nakupovaní používajte e-mailovú masku. Nechajte si poslať potvrdenie na váš skutočný e-mail a potom masku kedykoľvek jednoducho vypnite.
+landing-use-cases-on-the-go = Na cestách
+landing-use-cases-on-the-go-heading = Na cestách s { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Okamžite si vytvorte vlastnú e-mailovú masku kdekoľvek sa nachádzate!
+landing-use-cases-on-the-go-connect-heading = Pripojte sa na cestách
+landing-use-cases-on-the-go-connect-body = Použite svoju e-mailovú masku, keď sa chcete súkromne prihlásiť do svojej obľúbenej kaviarne alebo verejnej siete Wi-Fi
+landing-use-cases-on-the-go-receipt-heading = Získajte e-mailové potvrdenia
+landing-use-cases-on-the-go-receipt-body = Zdieľajte vlastnú e-mailovú masku pre potvrdenia o nákupe v obchode bez odhalenia svojho skutočného e-mailu
+landing-use-cases-on-the-go-phone-heading = Použitie na svojom telefóne
+landing-use-cases-on-the-go-phone-body = Bez ohľadu na to, kde sa nachádzate, vytvorte si za pár sekúnd vlastnú e-mailovú masku pre čokoľvek, čo chcete urobiť
+landing-use-cases-signups = Registrácie
+landing-use-cases-signups-hero-heading = Bezstarostné registrácie
+landing-use-cases-signups-hero-content1 = Chcete začať nové predplatné, odpovedať na pozvánku alebo získať výhodný propagačný kód bez toho, aby vašu e-mailovú schránku zaplavovala nevyžiadaná pošta?
+landing-use-cases-signups-hero-content2 = Pred dokončením vašej ďalšej registrácie použite e-mailovú masku namiesto svojej skutočnej adresy, aby ste ochránili svoje informácie a mali kontrolu nad svojou e-mailovou schránkou
 
 ## Landing FAQ Section
 
@@ -525,6 +540,11 @@ profile-promo-email-blocking-label-promotionals = Blokovať marketingové
 profile-promo-email-blocking-label-none = Blokovať všetky
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Nepreposiela sa
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (len { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Dostupné pre predplatiteľov { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Inovovať teraz
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Pridajte sa do zoznamu čakateľov na { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Zavrieť
 
 ## Banner Messages (displayed on the profile page)
 
@@ -649,6 +669,7 @@ popover-custom-alias-explainer-close-button-label = Zavrieť
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovať marketingové e-maily
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Povoľte možnosť Blokovať marketingové e-maily na maske, aby ste zabránili tomu, aby sa marketingové e-maily dostávali do vašej doručenej pošty.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Ďalšie informácie
 
 ## Tip about using custom masks
 
