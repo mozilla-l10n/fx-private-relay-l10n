@@ -224,6 +224,8 @@ landing-pricing-premium-feature-3-2 = Собственный поддомен э
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Возможность отвечать на пересланные письма
 landing-pricing-premium-feature-5 = Блокировка рекламных писем
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } сейчас не доступен в вашей стране. Пожалуйста, оставьте свою электронную почту, чтобы получить уведомление, как только он появится.
+landing-pricing-waitlist-cta = Присоединиться к списку ожидания
 
 ## Use Cases
 
