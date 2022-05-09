@@ -159,7 +159,7 @@ hero-image-copy-trust = Ydych chi'n gallu ymddiried yn y cwmni hwn gyda'ch e-bos
 hero-image-copy-unique-html = <strong>Defnyddiwch gyfeiriad Relay unigryw</strong> ar gyfer pob cyfrif newydd…
 hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n cyrraedd eich blwch derbyn!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -197,7 +197,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Am Ddim
 landing-pricing-free-feature-1-2 = Hyd at 5 e-bost arallenw
 landing-pricing-free-feature-2 = Estyniad porwr
-landing-pricing-free-feature-free = Am Ddim
 landing-pricing-free-description = Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechreuwch ddiogelu eich blwch derbyn e-bost.
 landing-pricing-free-cta = Cael { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -242,6 +241,13 @@ landing-use-cases-gaming = Chwarae Gemau
 landing-use-cases-gaming-body-2 =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch e-bost arallenw i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
+landing-use-cases-shopping-hero-heading = Siopa gyda arallenwau e-bost
+landing-use-cases-shopping-hero-content1 = Eisiau prynu rhywbeth ar-lein a ddim yn gyfarwydd nac yn ymddiried yn llwyr yn y siop?
+landing-use-cases-shopping-hero-content2 = Defnyddiwch arallenw e-bost pryd bynnag y byddwch chi'n siopa ar-lein. Anfonwch y cadarnhad i'ch e-bost go iawn, gallwch ddiffodd yr arallenw yn hawdd unrhyw bryd yn y dyfodol.
+landing-use-cases-on-the-go = Wrth Fynd
+landing-use-cases-on-the-go-heading = Wrth fynd gyda { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Gwnewch arallenw e-bost personol yn syth yn unrhyw le ac ym mhobman!
+landing-use-cases-on-the-go-connect-heading = Cysylltu wrth fynd
 
 ## Landing FAQ Section
 
