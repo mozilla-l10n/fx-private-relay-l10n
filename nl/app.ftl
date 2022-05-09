@@ -155,7 +155,7 @@ hero-image-copy-trust = Kunt u dit bedrijf zelfs vertrouwen met uw persoonlijke 
 hero-image-copy-unique-html = <strong>Gebruik een uniek doorstuuradres</strong> voor elke nieuwe account…
 hero-image-copy-control-html = Nu <em>hebt u de controle</em> over wat er in uw Postvak IN belandt!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Maximaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserextensie
-landing-pricing-free-feature-free = Gratis
 landing-pricing-free-description = Probeer { -brand-name-firefox-relay }-maskers en begin met het beschermen van uw Postvak IN.
 landing-pricing-free-cta = { -brand-name-relay } downloaden
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,22 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Geniet u van online gamen, maar maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
     Gebruik een e-mailmasker om een extra beschermingslaag te plaatsen tussen uw online-identiteit en de games die u online speelt.
+landing-use-cases-shopping-hero-heading = Winkelen met e-mailmaskers
+landing-use-cases-shopping-hero-content1 = Wilt u iets online kopen en kent u de winkel niet of vertrouwt u deze niet volledig?
+landing-use-cases-shopping-hero-content2 = Gebruik een e-mailmasker wanneer u online winkelt. Ontvang de bevestiging op uw echte e-mailadres en schakel het masker later gemakkelijk uit.
+landing-use-cases-on-the-go = Onderweg
+landing-use-cases-on-the-go-heading = Onderweg met { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Maak direct en overal een aangepast e-mailmasker!
+landing-use-cases-on-the-go-connect-heading = Onderweg verbinding maken
+landing-use-cases-on-the-go-connect-body = Gebruik uw e-mailmasker wanneer u zich privé wilt aanmelden bij uw favoriete lunchroom of openbare wifi
+landing-use-cases-on-the-go-receipt-heading = Ontvang ontvangstbewijzen per e-mail
+landing-use-cases-on-the-go-receipt-body = Deel een aangepast e-mailmasker voor kassabonnen in de winkel zonder uw echte e-mailadres te delen
+landing-use-cases-on-the-go-phone-heading = Gebruiken op uw telefoon
+landing-use-cases-on-the-go-phone-body = Waar u ook bent, maak binnen enkele seconden een aangepast e-mailmasker voor alles wat u wilt doen
+landing-use-cases-signups = Registraties
+landing-use-cases-signups-hero-heading = Zorgeloos registreren
+landing-use-cases-signups-hero-content1 = Wilt u een nieuw abonnement starten, reageren op een uitnodiging of een voordelige promocode krijgen zonder dat spam uw Postvak IN overspoelt?
+landing-use-cases-signups-hero-content2 = Gebruik, voordat u uw volgende registratie voltooit, een e-mailmasker in plaats van uw echte adres om uw gegevens te beschermen en controle te houden over uw Postvak IN.
 
 ## Landing FAQ Section
 
@@ -487,6 +502,11 @@ profile-promo-email-blocking-label-promotionals = Reclame blokkeren
 profile-promo-email-blocking-label-none = Alles blokkeren
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Niet doorsturen
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (alleen { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Beschikbaar voor { -brand-name-relay-premium }-abonnees
+profile-promo-email-blocking-description-promotionals-locked-cta = Nu upgraden
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
+profile-promo-email-blocking-description-promotionals-locked-close = Sluiten
 
 ## Banner Messages (displayed on the profile page)
 
@@ -613,6 +633,7 @@ popover-custom-alias-explainer-close-button-label = Sluiten
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reclameberichten blokkeren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Schakel Reclameberichten blokkeren in voor een masker om te voorkomen dat marketingberichten uw Postvak IN bereiken.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Meer info
 
 ## Tip about using custom masks
 
