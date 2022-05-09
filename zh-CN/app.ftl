@@ -151,7 +151,7 @@ hero-image-copy-trust = 在这家公司网站上用您的个人邮箱，放心�
 hero-image-copy-unique-html = 为每个新账户<strong>使用不同 relay 邮箱</strong>…
 hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些邮件可以进入您的收件箱！
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -185,7 +185,6 @@ landing-pricing-body-2 = 试用 { -brand-name-firefox-relay } 马甲邮箱保护
 landing-pricing-free-price = 免费
 landing-pricing-free-feature-1-2 = 最多 5 个马甲
 landing-pricing-free-feature-2 = 浏览器扩展
-landing-pricing-free-feature-free = 免费
 landing-pricing-free-description = 试用 { -brand-name-firefox-relay } 马甲邮箱，保护您的收件箱。
 landing-pricing-free-cta = 下载 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -218,6 +217,18 @@ landing-use-cases-access-content = 网络读物
 landing-use-cases-access-content-body-2 = 想要订阅某个新闻通讯，但不信任发件人？请使用马甲邮箱。若您开始收到转发的无关电子邮件，则说明发件人可能已将您的马甲邮箱出售给其他营销人员，甚至可能已被公开泄露。此时，只需关闭或删除马甲即可保护您的收件箱。
 landing-use-cases-gaming = 游戏
 landing-use-cases-gaming-body-2 = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用马甲邮箱，多一层身份伪装，多一份安全。
+landing-use-cases-shopping-hero-heading = 用马甲邮箱网购
+landing-use-cases-shopping-hero-content1 = 想要网购，但不熟悉或不是很信任商家？
+landing-use-cases-on-the-go = 旅途中
+landing-use-cases-on-the-go-heading = 随时随地使用 { -brand-name-relay }
+landing-use-cases-on-the-go-connect-heading = 随时随地连接
+landing-use-cases-on-the-go-connect-body = 可使用马甲邮箱登录公共 Wi-Fi，如在您最常去的咖啡厅登录上网时
+landing-use-cases-on-the-go-receipt-heading = 收取电子收据邮件
+landing-use-cases-on-the-go-receipt-body = 向商家提供马甲邮箱用于发送电子收据，无需提供真实邮箱
+landing-use-cases-on-the-go-phone-heading = 在手机上使用
+landing-use-cases-on-the-go-phone-body = 无论您身居何处，只需几秒就可为想做的任何事情创建自定义马甲邮箱
+landing-use-cases-signups = 注册
+landing-use-cases-signups-hero-heading = 注册全无忧
 
 ## Landing FAQ Section
 
@@ -465,6 +476,11 @@ profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
 profile-promo-email-blocking-label-none = 屏蔽全部
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = 不转发
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = （限 { -brand-name-premium }）
+profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } 订阅者可用
+profile-promo-email-blocking-description-promotionals-locked-cta = 立即升级
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 欢迎加入 { -brand-name-relay-premium } 预约名单
+profile-promo-email-blocking-description-promotionals-locked-close = 关闭
 
 ## Banner Messages (displayed on the profile page)
 
@@ -587,6 +603,7 @@ popover-custom-alias-explainer-close-button-label = 关闭
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = 更多信息
 
 ## Tip about using custom masks
 
