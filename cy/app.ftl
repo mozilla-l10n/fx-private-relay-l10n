@@ -248,6 +248,15 @@ landing-use-cases-on-the-go = Wrth Fynd
 landing-use-cases-on-the-go-heading = Wrth fynd gyda { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Gwnewch arallenw e-bost personol yn syth yn unrhyw le ac ym mhobman!
 landing-use-cases-on-the-go-connect-heading = Cysylltu wrth fynd
+landing-use-cases-on-the-go-connect-body = Defnyddiwch eich arallenw e-bost pan fyddwch chi eisiau mewngofnodi'n breifat i'ch hoff siop goffi neu Wi-Fi cyhoeddus
+landing-use-cases-on-the-go-receipt-heading = Cael derbynebau e-bost
+landing-use-cases-on-the-go-receipt-body = Rhannwch arallenw e-bost personol ar gyfer derbynebau siopa yn y siop a pheidio rhannu'ch e-bost go iawn
+landing-use-cases-on-the-go-phone-heading = Ei ddefnyddio ar eich ffôn
+landing-use-cases-on-the-go-phone-body = Does dim gwahaniaeth lle rydych chi, crëwch arllenw e-bost personol mewn eiliadau ar gyfer unrhyw beth rydych chi am ei wneud
+landing-use-cases-signups = Cofrestru
+landing-use-cases-signups-hero-heading = Cofrestru'n ddibryder
+landing-use-cases-signups-hero-content1 = Eisiau cychwyn tanysgrifiad newydd, ymateb i wahoddiad, neu gael cod hyrwyddo bargen heb gael sbam yn gorlifo'ch blwch derbyn?
+landing-use-cases-signups-hero-content2 = Cyn i chi gwblhau'r cofrestriad nesaf hwnnw, defnyddiwch arallenw e-bost yn lle'ch un go iawn i ddiogelu eich manylion a chadw rheolaeth dros eich blwch derbyn
 
 ## Landing FAQ Section
 
@@ -493,6 +502,11 @@ profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
 profile-promo-email-blocking-label-none = Rhwystro'r cyfan
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ddim yn anfon ymlaen
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } yn unig)
+profile-promo-email-blocking-description-promotionals-locked-label = Ar gael i danysgrifwyr { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Uwchraddiwch nawr
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ymunwch â rhestr aros { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Cau
 
 ## Banner Messages (displayed on the profile page)
 
@@ -619,6 +633,7 @@ popover-custom-alias-explainer-close-button-label = Cau
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Rhwystro e-byst hyrwyddo
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Galluogwch Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Rhagor o wybodaeth
 
 ## Tip about using custom masks
 
