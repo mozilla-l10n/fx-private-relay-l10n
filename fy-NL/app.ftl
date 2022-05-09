@@ -155,7 +155,7 @@ hero-image-copy-trust = Kinne jo dit bedriuw sels fertrouwe mei jo persoanlike e
 hero-image-copy-unique-html = <strong>Brûk in unyk trochstjoeradres</strong> foar elk nije account…
 hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn jo Postfek YN te lâne komt!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Fergees
 landing-pricing-free-feature-1-2 = Maksimaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserútwreiding
-landing-pricing-free-feature-free = Fergees
 landing-pricing-free-description = Probearje { -brand-name-firefox-relay }-maskers en begjin mei it beskermjen fan jo Postfek YN.
 landing-pricing-free-cta = { -brand-name-relay } downloade
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,22 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
     Brûk in e-mailmasker om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
+landing-use-cases-shopping-hero-heading = Winkelje mei e-mailmaskers
+landing-use-cases-shopping-hero-content1 = Wolle jo wat online keapje en kenne jo de winkel net of fertrouwe jo dizze net folslein?
+landing-use-cases-shopping-hero-content2 = Brûk in e-mailmasker as jo online winkelje. Untfang de befêstiging op jo echte e-mailadres en skeakelje dan it masker letter maklik út.
+landing-use-cases-on-the-go = Underweis
+landing-use-cases-on-the-go-heading = Underweis mei { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Meitsje daliks en oeral in oanpast e-mailmasker!
+landing-use-cases-on-the-go-connect-heading = Underweis ferbining meitsje
+landing-use-cases-on-the-go-connect-body = Brûk jo e-mailmasker wannear’t jo jo privee oanmelde wolle by jo favorite hoarekagelegenheid of iepenbiere wifi
+landing-use-cases-on-the-go-receipt-heading = Untfang ûntfangstbewizen per e-mail
+landing-use-cases-on-the-go-receipt-body = Diel in oanpast e-mailmasker foar kassabonnen yn de winkel sûnder jo echte e-mailadres te dielen
+landing-use-cases-on-the-go-phone-heading = Brûke op jo telefoan
+landing-use-cases-on-the-go-phone-body = Wêr’t jo ek binne, meitsje binnen inkelde sekonden in oanpast e-mailmasker foar alles wat jo dwaan wolle
+landing-use-cases-signups = Registraasjes
+landing-use-cases-signups-hero-heading = Soargeleas registrearje
+landing-use-cases-signups-hero-content1 = Wolle jo in nij abonnemint starte, reagearje op in útnûging of in promokoade mei foardiel krije sûnder dat spam jo Postfek YN oerrint?
+landing-use-cases-signups-hero-content2 = Brûk, eardat jo jo folgjende registraasje foltôgje, in e-mailmasker yn stee fan jo echte adres om jo gegevens te beskermjen en kontrôle te hâlden oer jo Postfek YN.
 
 ## Landing FAQ Section
 
@@ -487,6 +502,11 @@ profile-promo-email-blocking-label-promotionals = Reklame blokkearje
 profile-promo-email-blocking-label-none = Alles blokkearje
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Net trochstjoere
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (allinnich { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Beskikber foar { -brand-name-relay-premium }-abonnees
+profile-promo-email-blocking-description-promotionals-locked-cta = No opwurdearje
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ynskriuwe foar de { -brand-name-relay-premium }-wachtlist
+profile-promo-email-blocking-description-promotionals-locked-close = Slute
 
 ## Banner Messages (displayed on the profile page)
 
@@ -613,6 +633,7 @@ popover-custom-alias-explainer-close-button-label = Slute
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reklameberjochten blokkearje
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Skeakelje Reklameberjochten blokkearje yn foar in masker om foar te kommen dat marketingberjochten jo Postfek YN berikke.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mear ynfo
 
 ## Tip about using custom masks
 
