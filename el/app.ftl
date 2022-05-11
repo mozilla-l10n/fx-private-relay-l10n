@@ -234,6 +234,7 @@ landing-pricing-premium-feature-3-2 = Ο δικός σας υποτομέας em
 landing-pricing-premium-feature-3-subheader = toemailsas@otomeassas.mozmail.com
 landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
 landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
+landing-pricing-waitlist-description = Το { -brand-name-firefox-relay-premium } δεν είναι προς το παρόν διαθέσιμο στη χώρα σας. Παρακαλούμε πείτε μας το email σας για να ενημερωθείτε μόλις γίνει.
 landing-pricing-waitlist-cta = Εγγραφή στη λίστα αναμονής
 
 ## Use Cases
@@ -261,7 +262,12 @@ landing-use-cases-gaming = Παιχνίδια
 landing-use-cases-gaming-body-2 =
     Απολαμβάνετε τα διαδικτυακά παιχνίδια, αλλά ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή νταήδες, μέσω του ονόματος παίκτη και της διεύθυνσης email σας;
     Χρησιμοποιήστε μια μάσκα email για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητα και τα παιχνίδια σας.
+landing-use-cases-shopping-hero-heading = Αγορές με τις μάσκες email
+landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε κάτι στο διαδίκτυο και δεν γνωρίζετε ή δεν εμπιστεύεστε απόλυτα το κατάστημα;
+landing-use-cases-on-the-go = Εν κινήσει
+landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
 landing-use-cases-signups = Εγγραφές
+landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
 
 ## Landing FAQ Section
 
@@ -311,6 +317,7 @@ waitlist-submit-label = Εγγραφή στη λίστα αναμονής
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
 
 ## Settings page
 
@@ -507,6 +514,7 @@ profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (μόνο στο { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Διαθέσιμο για συνδρομητές { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Αναβάθμιση τώρα
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Κλείσιμο
 
 ## Banner Messages (displayed on the profile page)
