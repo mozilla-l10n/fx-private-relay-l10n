@@ -266,6 +266,7 @@ landing-use-cases-shopping-hero-heading = Αγορές με τις μάσκες 
 landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε κάτι στο διαδίκτυο και δεν γνωρίζετε ή δεν εμπιστεύεστε απόλυτα το κατάστημα;
 landing-use-cases-on-the-go = Εν κινήσει
 landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
+landing-use-cases-on-the-go-connect-heading = Σύνδεση εν κινήσει
 landing-use-cases-signups = Εγγραφές
 landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
 
@@ -317,6 +318,7 @@ waitlist-submit-label = Εγγραφή στη λίστα αναμονής
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
 waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
 
 ## Settings page
