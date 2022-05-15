@@ -237,6 +237,19 @@ landing-use-cases-gaming = Juegos
 landing-use-cases-gaming-body-2 =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o abusones sepan quién eres a través de tu nombre y dirección de correo electrónico?
     Utiliza una máscara de correo electrónico para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+landing-use-cases-shopping-hero-heading = Comprar con máscaras de correo electrónico
+landing-use-cases-shopping-hero-content1 = ¿Quieres comprar algo en línea y no sabes o no confías completamente en la tienda?
+landing-use-cases-shopping-hero-content2 = Usa una máscara de correo electrónico cada vez que compres en línea. Recibe la confirmación de compra enviada en tu correo electrónico real y luego desactiva fácilmente la máscara en cualquier momento.
+landing-use-cases-on-the-go = En movimiento
+landing-use-cases-on-the-go-heading = En movimiento con { -brand-name-relay }
+landing-use-cases-on-the-go-lead = ¡Crea sobre la marcha una máscara de correo personalizada cuando quieras y donde quieras!
+landing-use-cases-on-the-go-connect-heading = Conéctate en movimiento
+landing-use-cases-on-the-go-connect-body = Usa tu máscara de correo cuando quieras iniciar sesión de forma privada en tu cafetería favorita o en un Wi-Fi público
+landing-use-cases-on-the-go-receipt-heading = Recibe facturas por correo
+landing-use-cases-on-the-go-receipt-body = Comparte una máscara de correo personalizada para recibos de compras sin compartir tu correo real
+landing-use-cases-on-the-go-phone-heading = Úsalo en tu teléfono
+landing-use-cases-on-the-go-phone-body = No importa dónde estés, crea una máscara de correo electrónico personalizada en segundos para cualquier cosa que quieras hacer
+landing-use-cases-signups = Registros
 
 ## Landing FAQ Section
 
