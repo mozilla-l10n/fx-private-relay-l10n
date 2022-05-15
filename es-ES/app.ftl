@@ -473,6 +473,16 @@ profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
 profile-filter-category-title = Filtrar máscaras visibles
 profile-filter-no-results = Ninguna máscara coincide con los criterios seleccionados. <clear-button>Borrar todos los filtros.</clear-button>
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Máscaras con reenvío activo
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Máscaras con bloqueo activo
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Máscaras con bloqueo de promociones
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Máscaras aleatorias
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Máscaras personalizadas
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -483,14 +493,22 @@ profile-promo-email-blocking-option-all = Todos
 profile-promo-email-blocking-option-promotionals = Promocionales
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Ninguno
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a esta máscara.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos o seguimientos de compras.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está bloqueando ningún correo electrónico para esta máscara.
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
 profile-promo-email-blocking-label-none = Bloquear todo
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = No reenviar
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = Solo para { -brand-name-premium }
+profile-promo-email-blocking-description-promotionals-locked-label = Disponible para los suscriptores de { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Actualizar ahora
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Únete a la lista de espera de { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Descartar
 banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
 # Variables:
 #   $username (string) - Username
@@ -501,23 +519,41 @@ banner-bounced-copy =
     Recibimos un <em>{ $bounce_type }</em> "rebote" de tu proveedor de correo electrónico cuando intentamos reenviarle correos electrónicos.
     Esto puede suceder si { -brand-name-relay } no pudo conectarse con tu proveedor de correo electrónico o si tu buzón de correo estaba lleno. Lo volveremos a intentar el { $date }.
 banner-download-firefox-headline = { -brand-name-relay } es incluso mejor en { -brand-name-firefox }
+banner-download-firefox-copy-2 = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más la creación de máscaras.
 banner-download-firefox-cta = Obtén { -brand-name-firefox }
 banner-download-install-extension-headline = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }.
+banner-download-install-extension-copy-2 = La extensión { -brand-name-relay } para el { -brand-name-firefox-browser } facilita aún más usar as máscaras de correo electrónico.
 banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Prueba { -brand-name-relay } para { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de alias sea aún más fácil.
+banner-download-install-chrome-extension-copy-2 = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de máscaras sea aún más fácil.
 banner-download-install-chrome-extension-cta = Obtén la extensión { -brand-name-relay }
 banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } hace que la creación de máscaras de correo electrónico sea aún más fácil, con dominios de máscaras personalizados y máscaras ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Acción importante
+banner-register-subdomain-headline-aliases-2 = Obtén un dominio personalizado para tus máscaras
 # This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tudominio
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+banner-register-subdomain-copy-2 =
+    Con un subdominio personalizado, puedes compartir máscaras que no es necesario generar
+    antes de usarlas. ¿Necesitas una para hacer una reserva? Usa
+    “restaurante@tudominio.{ $mozmail }” para el restaurante. Cualquier máscara que use tu
+    subdominio personalizado se te reenviará.
+banner-choose-subdomain-input-placeholder-3 = Buscar subdominio
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Buscar
+banner-pack-upgrade-headline-2-html = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para obtener más máscaras
+banner-pack-upgrade-copy-2 = Con máscaras de correo electrónico ilimitados y tu propio subdominio de correo electrónico, { -brand-name-firefox-relay-premium } te ayuda a mantenerte protegido en línea.
 banner-pack-upgrade-cta = Actualizar ahora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
@@ -534,7 +570,14 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Se ha creado tu subdominio @{ $subdomain }
 success-settings-update = Se han actualizado tus ajustes.
+success-signed-out-message = Has cerrado sesión.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = Has iniciado sesión correctamente como { $username }.
 
 ## Error Messages
 
