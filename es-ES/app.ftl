@@ -381,9 +381,16 @@ faq-question-browser-support-answer-2 = Sí, puedes generar máscaras de { -bran
 faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Te avisaremos con antelación que necesitas cambiar la dirección de correo electrónico de cualquier cuenta que esté usando máscaras de correo de { -brand-name-relay }.
 faq-question-mozmail-question-2 = ¿Por qué mis máscaras de correo han comenzado a usar el dominio “mozmail.com?”
+faq-question-mozmail-answer-2 = Hicimos el cambio de “relay.firefox.com” a “mozmail.com” para poder obtener un subdominio de correo electrónico personalizado, como mascara@tudominio.mozmail.com. Los subdominios de correo electrónico personalizados, disponibles para los suscriptores de { -brand-name-relay-premium }, te permiten generar máscaras de correos más fáciles de recordar.
 faq-question-attachments-question = ¿Puede { -brand-name-firefox-relay } reenviar correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
+faq-question-unsubscribe-domain-question-2 = ¿Qué pasa con mi subdominio personalizado si elimino mi suscripción de { -brand-name-relay-premium }?
+faq-question-unsubscribe-domain-answer-2 = Si eliminas tu suscripción de { -brand-name-relay-premium }, aún recibirás correos reenviados a través de tus máscaras de correo personalizadas, pero no podrás crear más máscaras usando ese subdominio. Si tienes más de cinco máscaras en total, no podrás crear más. También perderás la posibilidad de responder mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } y obtener de nuevo acceso a esas características.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus máscaras de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En la rara circunstancia en la que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos más de tres días.
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
@@ -391,6 +398,8 @@ faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -b
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } tiene las mismas <a href="{ $url }" { $attrs }>condiciones de uso como todos los productos { -brand-name-mozilla }</a>. Tenemos una política de tolerancia cero cuando se trata de usar { -brand-name-relay } para propósitos maliciosos como spam, lo que resultaría en la eliminación de la cuenta de ese usuario. Tomamos medidas para evitar que los usuarios violen nuestras condiciones:
 faq-question-acceptable-use-answer-measure-account = Se requiere una { -brand-name-firefox-account } con una dirección verificada de correo electrónico
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = La creación de más de cinco máscaras es un servicio de pago
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitación del número de máscaras que se puede crear cada día
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Por favor, lee nuestros <a href="{ $url }" { $attrs }>Términos de Servicio</a> para más información.
@@ -407,11 +416,25 @@ profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }
 profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
 profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
+profile-details-expand = Mostrar detalles de la máscara
+profile-details-collapse = Ocultar detalles de la máscara
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Clic para copiar la máscara { $address }.
+profile-label-edit-2 = Editar la etiqueta de esta máscara
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Añadir nombre de cuenta
 profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
+profile-label-generate-new-alias-2 = Generar nueva máscara
+profile-label-generate-new-alias-menu-random-2 = Máscara de correo aleatoria
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Máscara @{ $subdomain }
 profile-label-delete = Eliminar
+profile-label-upgrade-2 = Obtenga máscaras de correo ilimitadas
+profile-label-create-subdomain = Consigue tu subdominio de correo
 profile-label-subdomain = Subdominio de correo electrónico:
 profile-label-subdomain-tooltip-trigger = Más información
 profile-label-subdomain-tooltip = Crea tu subdominio de correo electrónico único.
@@ -437,11 +460,19 @@ profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviado
 profile-label-cancel = Cancelar
+profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluidos los archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
+profile-stat-label-aliases-used-2 = Máscaras de correo utilizadas
+profile-filter-search-placeholder-2 = Buscar máscaras
+profile-filter-category-button-label = Filtras máscaras visibles
+profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
+profile-filter-category-title = Filtrar máscaras visibles
+profile-filter-no-results = Ninguna máscara coincide con los criterios seleccionados. <clear-button>Borrar todos los filtros.</clear-button>
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
