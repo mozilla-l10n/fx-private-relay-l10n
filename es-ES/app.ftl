@@ -250,6 +250,9 @@ landing-use-cases-on-the-go-receipt-body = Comparte una máscara de correo perso
 landing-use-cases-on-the-go-phone-heading = Úsalo en tu teléfono
 landing-use-cases-on-the-go-phone-body = No importa dónde estés, crea una máscara de correo electrónico personalizada en segundos para cualquier cosa que quieras hacer
 landing-use-cases-signups = Registros
+landing-use-cases-signups-hero-heading = Registros sin preocupaciones
+landing-use-cases-signups-hero-content1 = ¿Quieres hacer una nueva suscripción, responder a una invitación u obtener un código de promoción sin que el spam inunde tu bandeja de entrada?
+landing-use-cases-signups-hero-content2 = Antes de completar el próximo registro, usa una máscara de correo en lugar de tu correo real para proteger tu información y mantener el control sobre tu bandeja de entrada.
 
 ## Landing FAQ Section
 
@@ -288,6 +291,7 @@ premium-promo-pricing-free-price = Tu plan gratuito actual
 
 ## The Premium waitlist page
 
+waitlist-heading = Únete a la lista de espera de { -brand-name-relay-premium }
 
 ## Settings page
 
