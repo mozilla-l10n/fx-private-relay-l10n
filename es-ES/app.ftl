@@ -292,6 +292,21 @@ premium-promo-pricing-free-price = Tu plan gratuito actual
 ## The Premium waitlist page
 
 waitlist-heading = Únete a la lista de espera de { -brand-name-relay-premium }
+waitlist-lead = Recibe una notificación cuando { -brand-name-firefox-relay-premium } esté disponible para tu región.
+waitlist-control-required = Requerido
+waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = tunombre@example.com
+waitlist-control-country-label = ¿En qué país vives?
+waitlist-control-locale-label = Selecciona tu idioma preferido.
+waitlist-submit-label = Únete a la lista de espera
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Al hacer clic en “{ waitlist-submit-label }”, aceptas nuestra <a>política de privacidad</a>.
+waitlist-privacy-policy-use = Tu información será utilizada solamente para avisarte de la disponibilidad de { -brand-name-firefox-relay-premium }.
+waitlist-subscribe-success = ¡Estás en la lista! Cuando { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
+waitlist-subscribe-error-connection = Ha habido un error al añadirte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
+waitlist-subscribe-error-unknown = Ha habido un error al añadirte a la lista. Vuelve a intentarlo más tarde.
 
 ## Settings page
 
@@ -342,19 +357,30 @@ faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-
 faq-question-missing-emails-answer-support-site-html = Si tienes alguno de estos problemas, por favor <a href="{ $url }" { $attrs }>visita nuestro sitio de ayuda</a>.
 faq-question-use-cases-question-2 = ¿Cuándo debería usar las máscaras de { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Puedes usar máscaras de { -brand-name-relay } en la mayoría de los lugares en los que usarías tu dirección de correo electrónico habitual. Te recomendamos que las utilices al registrarte para correos electrónicos de marketing/información, y así puedas controlar si recibes o no correos en el futuro.
+faq-question-use-cases-answer-part2-2 = No recomendamos el uso de máscaras cuando necesites verificar tu identidad o para correos electrónicos muy importantes o en los que debes recibir archivos adjuntos. Por ejemplo, tendrías que compartir tu verdadera dirección de correo con tu banco, médico y abogado, así como cuando recibes las entradas de un concierto o los billetes de un vuelo.
+faq-question-2-question-2 = ¿Por qué un sitio no aceptaría mi máscara de correo de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (@subdominio.mozmail.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
 faq-question-1-question = ¿Qué pasa con el spam?
+faq-question-1-answer-a-2 = Si bien { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes de la máscara que los reenvía.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Si ves un problema mayor de correo electrónico no deseado de todas tus máscaras, por favor <a href="{ $url }" { $attrs }>infórmanos</a> para que podamos considerar ajustar los umbrales de spam de SES para este servicio. Si los reportas como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, no el remitente original.
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-availability-answer-v2 = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Finlandia, Francia, Bélgica, Austria, España, Italia, Suecia, Suiza, Países Bajos e Irlanda.
+faq-question-4-question-2 = ¿Puedo responder mensajes usando mi máscara de correo electrónico de { -brand-name-relay }?
 faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a  surecepción. Si añades a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no añadas CC o CCO al responder.
 faq-question-subdomain-characters-question = ¿Qué caracteres puedo utilizar para crear un subdominio?
 faq-question-subdomain-characters-answer-v2 = Solo puedes usar letras inglesas minúsculas, números y guiones para crear un subdominio.
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
+faq-question-browser-support-answer-2 = Sí, puedes generar máscaras de { -brand-name-relay } en otros navegadores o dispositivos móviles simplemente al iniciar sesión en tu panel de { -brand-name-relay }.
 faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
+faq-question-longevity-answer-2 = Te avisaremos con antelación que necesitas cambiar la dirección de correo electrónico de cualquier cuenta que esté usando máscaras de correo de { -brand-name-relay }.
+faq-question-mozmail-question-2 = ¿Por qué mis máscaras de correo han comenzado a usar el dominio “mozmail.com?”
 faq-question-attachments-question = ¿Puede { -brand-name-firefox-relay } reenviar correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
