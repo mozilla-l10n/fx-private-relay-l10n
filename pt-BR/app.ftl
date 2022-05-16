@@ -249,6 +249,10 @@ landing-use-cases-on-the-go-receipt-heading = Receba notas fiscais por email
 landing-use-cases-on-the-go-receipt-body = Compartilhe uma máscara de email personalizada para receber notas fiscais de compras de uma loja sem compartilhar seu email real
 landing-use-cases-on-the-go-phone-heading = Usar no seu celular
 landing-use-cases-on-the-go-phone-body = Não importa onde você esteja, crie uma máscara de email personalizada em segundos para qualquer coisa que queira fazer
+landing-use-cases-signups = Cadastros
+landing-use-cases-signups-hero-heading = Cadastros sem preocupações
+landing-use-cases-signups-hero-content1 = Quer iniciar uma nova inscrição, responder a um convite ou obter um código promocional de pechincha sem ter spam inundando sua caixa de entrada?
+landing-use-cases-signups-hero-content2 = Antes de concluir o próximo cadastro, use uma máscara de email em vez do email real para proteger suas informações e manter o controle sobre sua caixa de entrada
 
 ## Landing FAQ Section
 
@@ -494,6 +498,11 @@ profile-promo-email-blocking-label-promotionals = Bloquear promoções
 profile-promo-email-blocking-label-none = Bloquear tudo
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Não encaminhando
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (somente no { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Disponível para assinantes do { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Mudar agora
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Entrar na lista de espera do { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Fechar
 
 ## Banner Messages (displayed on the profile page)
 
@@ -616,6 +625,7 @@ popover-custom-alias-explainer-close-button-label = Fechar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear emails promocionais
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative o bloqueio de emails promocionais em uma máscara para impedir que emails de marketing cheguem à sua caixa de entrada.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mais informações
 
 ## Tip about using custom masks
 
