@@ -159,7 +159,7 @@ hero-image-copy-trust = Pouvez-vous faire confiance à cette entreprise avec vot
 hero-image-copy-unique-html = <strong>Utilisez une adresse de relais unique</strong> pour chaque nouveau compte…
 hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arrive dans votre boîte de réception !
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -195,7 +195,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratuit
 landing-pricing-free-feature-1-2 = Jusqu’à 5 alias de messagerie
 landing-pricing-free-feature-2 = Extension de navigateur
-landing-pricing-free-feature-free = Gratuit
 landing-pricing-free-description = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
 landing-pricing-free-cta = Installer { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -485,6 +484,7 @@ profile-promo-email-blocking-label-promotionals = Bloquer les promotions
 profile-promo-email-blocking-label-none = Tout bloquer
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
+profile-promo-email-blocking-description-promotionals-locked-close = Fermer
 
 ## Banner Messages (displayed on the profile page)
 
@@ -607,6 +607,7 @@ popover-custom-alias-explainer-close-button-label = Fermer
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquer les e-mails promotionnels
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activez le blocage des e-mails promotionnels pour un alias afin d’empêcher la réception des messages des campagnes publicitaires dans votre boîte de réception.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Plus d’infos
 
 ## Tip about using custom masks
 
