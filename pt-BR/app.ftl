@@ -242,6 +242,13 @@ landing-use-cases-shopping-hero-content1 = Quer comprar algo online, mas não co
 landing-use-cases-shopping-hero-content2 = Use uma máscara de email sempre que fizer compras online. Receba a confirmação enviada para seu email real e depois desative facilmente a máscara, quando quiser.
 landing-use-cases-on-the-go = Em movimento
 landing-use-cases-on-the-go-heading = Em movimento com o { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Crie instantaneamente uma máscara de email personalizada em todo e qualquer lugar que você vá!
+landing-use-cases-on-the-go-connect-heading = Conexão em movimento
+landing-use-cases-on-the-go-connect-body = Use sua máscara de email quando quiser acessar com privacidade em uma cafeteria ou em uma rede pública de WiFi
+landing-use-cases-on-the-go-receipt-heading = Receba notas fiscais por email
+landing-use-cases-on-the-go-receipt-body = Compartilhe uma máscara de email personalizada para receber notas fiscais de compras de uma loja sem compartilhar seu email real
+landing-use-cases-on-the-go-phone-heading = Usar no seu celular
+landing-use-cases-on-the-go-phone-body = Não importa onde você esteja, crie uma máscara de email personalizada em segundos para qualquer coisa que queira fazer
 
 ## Landing FAQ Section
 
