@@ -239,6 +239,11 @@ landing-use-cases-gaming = Jeux
 landing-use-cases-gaming-body-2 =
     Vous aimez les jeux en ligne, mais vous craignez que d’autres joueurs ou des harceleurs n’apprennent qui vous êtes par votre identifiant de joueur et votre adresse e-mail ?
     Utilisez un alias de messagerie pour ajouter une couche de protection entre votre identité numérique et les jeux en ligne auxquels vous participez.
+landing-use-cases-shopping-hero-heading = Shopping avec les alias de messagerie
+landing-use-cases-shopping-hero-content1 = Vous voulez faire un achat en ligne mais vous ne connaissez pas la boutique ou ne lui faites pas totalement confiance ?
+landing-use-cases-shopping-hero-content2 = Utilisez un alias de messagerie pour tout achat en ligne. Recevez sur votre véritable adresse e-mail la confirmation envoyée et, quand vous le voulez, désactivez facilement l’alias par la suite.
+landing-use-cases-on-the-go-heading = À la volée avec { -brand-name-relay }
+landing-use-cases-signups = Inscriptions
 
 ## Landing FAQ Section
 
@@ -484,6 +489,10 @@ profile-promo-email-blocking-label-promotionals = Bloquer les promotions
 profile-promo-email-blocking-label-none = Tout bloquer
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } uniquement)
+profile-promo-email-blocking-description-promotionals-locked-label = Disponible avec l’abonnement { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Mettre à niveau maintenant
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Rejoindre la liste d’attente de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Fermer
 
 ## Banner Messages (displayed on the profile page)
