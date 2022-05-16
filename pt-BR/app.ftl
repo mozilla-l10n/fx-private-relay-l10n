@@ -155,7 +155,7 @@ hero-image-copy-trust = Você confia nessa empresa para ter seu endereço de ema
 hero-image-copy-unique-html = <strong>Use um endereço de redirecionamento exclusivo</strong> em cada nova conta…
 hero-image-copy-control-html = Agora <em>você está no controle</em> do que chega em sua caixa de entrada!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
@@ -193,7 +193,6 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratuito
 landing-pricing-free-feature-1-2 = Até 5 máscaras de email
 landing-pricing-free-feature-2 = Extensão do navegador
-landing-pricing-free-feature-free = Gratuito
 landing-pricing-free-description = Experimente as máscaras do { -brand-name-firefox-relay } e comece a proteger a caixa de entrada de seu email.
 landing-pricing-free-cta = Instale o { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +237,11 @@ landing-use-cases-gaming = Jogos
 landing-use-cases-gaming-body-2 =
     Gosta de jogar online, mas tem preocupação de outros jogadores ou intimidadores descobrir quem você é por meio do nome do seu personagem e endereço de email?
     Use uma máscara de email para colocar mais uma camada de proteção entre sua identidade online e os jogos que você joga online.
+landing-use-cases-shopping-hero-heading = Compras com máscaras de email
+landing-use-cases-shopping-hero-content1 = Quer comprar algo online, mas não conhece ou não confia totalmente na loja?
+landing-use-cases-shopping-hero-content2 = Use uma máscara de email sempre que fizer compras online. Receba a confirmação enviada para seu email real e depois desative facilmente a máscara, quando quiser.
+landing-use-cases-on-the-go = Em movimento
+landing-use-cases-on-the-go-heading = Em movimento com o { -brand-name-relay }
 
 ## Landing FAQ Section
 
