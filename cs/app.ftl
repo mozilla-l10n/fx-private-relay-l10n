@@ -372,21 +372,71 @@ landing-how-it-works-step-1-body-2 = Vytvářejte e-mailové masky automaticky, 
 
 ## Pricing section
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Časově omezená nabídka: Neomezené e-mailové masky za { $monthly_price } měsíčně
+landing-pricing-free-price = Zdarma
+landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
+landing-pricing-free-feature-2 = Rozšíření do prohlížeče
+landing-pricing-free-cta = Získejte { -brand-name-relay }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/měsíc
+landing-pricing-premium-price-highlight = Časově omezená cena
+landing-pricing-premium-feature-1-2 = Neomezený počet e-mailových masek
+landing-pricing-premium-feature-2 = Rozšíření do prohlížeče
+landing-pricing-premium-feature-3-2 = Vaše vlastní e-mailová subdoména
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = vas-email@vase-domena.mozmail.com
+landing-pricing-premium-feature-4 = Možnost odpovědět na přeposlané e-maily
+landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
 
 ## Use Cases
 
+landing-use-cases-heading = Použijte { -brand-name-firefox-relay(case: "acc") } pro:
+landing-use-cases-shopping = Nakupování
+landing-use-cases-social-networks = Sociální sítě
+landing-use-cases-offline = Offline
+landing-use-cases-access-content = Přístup k obsahu
+landing-use-cases-gaming = Hry
 
 ## Landing FAQ Section
 
 
 ## Premium promo page
 
+premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomocí { -brand-name-firefox-relay-premium(case: "gen") }
+premium-promo-hero-cta = Upgradujte hned teď
+premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
+premium-promo-perks-cta-label = Upgradujte hned teď
+premium-promo-perks-cta-tooltip = Upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }
+premium-promo-perks-perk-unlimited-headline-2 = Vytvářejte neomezený počet e-mailových masek
+premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastní subdoménu
+premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
+premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
+premium-promo-use-cases-shopping-heading = Nakupování
+premium-promo-use-cases-social-networks-heading = Sociální sítě
+premium-promo-use-cases-gaming-heading = Hry
+premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
 ## The Premium waitlist page
 
 
 ## Settings page
 
+settings-headline = Nastavení { -brand-name-relay(case: "gen") }
+settings-meta-contact-label = Kontakt
+settings-meta-contact-tooltip = Kontaktujte nás ohledně { -brand-name-relay(case: "gen") }
+settings-meta-help-label = Nápověda a podpora
+settings-meta-help-tooltip = Získat pomoc s používáním { -brand-name-relay(case: "gen") }
+settings-meta-status-label = Stav služby
+settings-meta-status-tooltip = Zkontrolujte, zda jsou teď všechny systémy { -brand-name-relay(case: "gen") } funkční.
+settings-error-save-heading = Nastavení se nepodařilo změnit
+settings-error-save-description = Vaše změny nastavení nebyly uloženy kvůli chybě připojení. Zkuste to prosím znovu.
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Soukromí
+settings-button-save-label = Uložit
+settings-button-save-tooltip = Použijte zvolená nastavení.
 
 ## FAQ Page
 
@@ -396,6 +446,15 @@ faq-headline = Často kladené otázky
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+faq-question-what-is-question-2 = Co je to e-mailová maska { -brand-name-relay }?
+faq-question-missing-emails-question-2 = Nedostávám zprávy ze svých e-mailových masek
+faq-question-missing-emails-answer-reason-spam = Zprávy se dostávají do spamu
+faq-question-missing-emails-answer-reason-blocked-2 = Váš poskytovatel e-mailu blokuje vaše e-mailové masky
+faq-question-missing-emails-answer-reason-size = Přeposlaný e-mail má přílohu větší než { email-size-limit }
+faq-question-missing-emails-answer-reason-not-accepted-2 = Stránka nepřijímá e-mailové masky
+faq-question-missing-emails-answer-reason-turned-off-2 = Maska může mít vypnuté přeposílání
+faq-question-use-cases-question-2 = Kdy mám použít e-mailové masky { -brand-name-relay }?
+faq-question-2-question-2 = Proč stránka nepřijme moji e-mailovou masku { -brand-name-relay }?
 faq-question-1-question = A co spam?
 
 ## Profile Page (Logged In)
