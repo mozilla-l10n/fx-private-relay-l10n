@@ -240,6 +240,8 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } usnadňuje vytváření e-mailových masek, které přeposílají e-maily do vaší skutečné schránky. Použijte je k ochraně svých online účtů před hackery a nevyžádanou poštou.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Otevře se v novém panelu)
 
 ## Header
 
@@ -321,6 +323,18 @@ whatsnew-feature-forward-some-heading = Blokování propagačních e-mailů
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily zasílané na adresu vašeho alias. Budete dostávat e-maily jako jsou potvrzení, ale ne marketingové e-maily.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Aliasy se mění na masky
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Všiml jste si změny? Aliasy jsme ve { -brand-name-firefox-relay(case: "loc") } přejmenovaly na masky…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Všiml jste si změny? Aliasy jsme ve { -brand-name-firefox-relay(case: "loc") } přejmenovaly na masky, aby se vám snáze používaly.
 
 ## Bento Menu
 
@@ -392,6 +406,9 @@ landing-pricing-free-price = Zdarma
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
 landing-pricing-free-feature-2 = Rozšíření do prohlížeče
 landing-pricing-free-cta = Získejte { -brand-name-relay }
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = Nyní dostupné!
+landing-pricing-free-feature-free = Zdarma
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/měsíc
@@ -403,6 +420,14 @@ landing-pricing-premium-feature-3-2 = Vaše vlastní e-mailová subdoména
 landing-pricing-premium-feature-3-subheader = vas-email@vase-domena.mozmail.com
 landing-pricing-premium-feature-4 = Možnost odpovědět na přeposlané e-maily
 landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
+landing-pricing-waitlist-description =
+    { -brand-name-firefox-relay-premium.gender ->
+        [masculine] { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupný. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
+        [feminine] { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupná. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
+        [neuter] { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupné. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
+       *[other] Služba { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupná. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
+    }
+landing-pricing-waitlist-cta = Přidat se na čekací listinu
 
 ## Use Cases
 
@@ -429,6 +454,12 @@ landing-use-cases-gaming = Hry
 landing-use-cases-gaming-body-2 =
     Užíváte si online hraní, ale obáváte se, že ostatní hráči nebo online útočníci prostřednictvím vašeho gamertagu a e-mailové adresy zjistí, kdo jste?
     Použijte e-mailovou masku, abyste vložili další vrstvu ochrany mezi vaši online identitu a hry, které hrajete online.
+landing-use-cases-shopping-hero-heading = Nakupování s e-mailovými maskami
+landing-use-cases-shopping-hero-content1 = Chcete si něco koupit v online obchodě, který ještě neznáte, nebo mu plně nedůvěřujete?
+landing-use-cases-shopping-hero-content2 = Používejte e-mailovou masku při každém nákupu. Nechte si přeposlat potvrzení na svůj skutečný e-mail a poté masku kdykoli snadno vypněte.
+landing-use-cases-on-the-go = Na cestách
+landing-use-cases-on-the-go-heading = Cestování s { -brand-name-relay(case: "ins") }
+landing-use-cases-on-the-go-lead = E-mailovou masku si vytvoříte kdykoliv a kdekoliv potřebujete.
 
 ## Landing FAQ Section
 
@@ -442,6 +473,20 @@ premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomoc
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = S { -brand-name-firefox-relay-premium(case: "ins") } získáte neomezený počet vlastních e-mailových masek, které přeposílají pouze e-maily, které chcete, na vaši skutečnou e-mailovou adresu. <b>Po omezenou dobu můžete upgradovat na { -brand-name-relay-premium(case: "acc") } jen za { $monthly_price } měsíčně.</b>
 premium-promo-hero-cta = Upgradujte hned teď
+premium-promo-availability-warning =
+    { -brand-name-relay-premium.gender ->
+        [masculine] { -brand-name-relay-premium } je momentálně dostupný v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
+        [feminine] { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
+        [neuter] { -brand-name-relay-premium } je momentálně dostupné v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
+       *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
+    }
+premium-promo-availability-warning-2 =
+    { -brand-name-relay-premium.gender ->
+        [masculine] { -brand-name-relay-premium } je momentálně dostupný v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
+        [feminine] { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
+        [neuter] { -brand-name-relay-premium } je momentálně dostupné v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
+       *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
+    }
 premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
 premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
 premium-promo-perks-cta-label = Upgradujte hned teď
@@ -458,10 +503,25 @@ premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám,
 premium-promo-use-cases-social-networks-heading = Sociální sítě
 premium-promo-use-cases-social-networks-body-2 = Chcete lépe chránit svou online identitu při používání sociálních sítí? Pro přihlášení do každé sociální sítě použijte jinou e-mailovou masku a ochraňte svůj skutečný e-mail před zveřejněním na těchto stránkách.
 premium-promo-use-cases-gaming-heading = Hry
+premium-promo-use-cases-gaming-body-2 = Obáváte se, že se ostatní hráči nebo trollové prostřednictvím vašeho gamertagu a e-mailové adresy dozví, kdo jste? Použijte masku například „online-hry@vase-domena.mozmail.com“, abyste vložili další vrstvu ochrany mezi vaši identitu a hry, které hrajete online.
 premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
 ## The Premium waitlist page
 
+waitlist-lead =
+    { -brand-name-firefox-relay-premium.gender ->
+        [masculine] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
+        [feminine] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupná.
+        [neuter] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupné.
+       *[other] Dáme vám vědět, až pro vás bude služba { -brand-name-firefox-relay-premium } dostupná.
+    }
+waitlist-subscribe-success =
+    { -brand-name-firefox-relay-premium.gender ->
+        [masculine] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
+        [feminine] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupná.
+        [neuter] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupné.
+       *[other] Máme vás na seznamu a dáme vám vědět, až pro vás bude služba { -brand-name-firefox-relay-premium } dostupná.
+    }
 
 ## Settings page
 
@@ -474,8 +534,15 @@ settings-meta-status-label = Stav služby
 settings-meta-status-tooltip = Zkontrolujte, zda jsou teď všechny systémy { -brand-name-relay(case: "gen") } funkční.
 settings-error-save-heading = Nastavení se nepodařilo změnit
 settings-error-save-description = Vaše změny nastavení nebyly uloženy kvůli chybě připojení. Zkuste to prosím znovu.
+# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
+settings-warning-collection-off-heading-2 = Funkce označení masky e-mailu je zakázána
+# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
+settings-warning-collection-off-description-2 = { -brand-name-relay } nemá nyní povoleno shromažďovat data zobrazující weby, na kterých jste vygenerovali a použili e-mailové masky. Toto můžete změnit v „Nastavení“ v části „Shromažďování dat“.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Soukromí
+setting-label-collection-description-2 = Povolit { -brand-name-relay(case: "dat") } shromažďovat data o stránkách, na kterých jsou vytvořeny a používány vaše masky.
+# This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
+setting-label-collection-off-warning-2 = Tyto údaje nám umožní propojit vaše e-mailové masky s webovými stránkami, kde se používají. Pokud se rozhodnete tuto předvolbu zrušit, vaše masky nebudou propojeny s webovými stránkami, kde se používají.
 settings-button-save-label = Uložit
 settings-button-save-tooltip = Použijte zvolená nastavení.
 
@@ -488,15 +555,37 @@ faq-headline = Často kladené otázky
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Co je to e-mailová maska { -brand-name-relay }?
+faq-question-what-is-answer-2 = E-mailové masky jsou maskované nebo soukromé e-mailové adresy, které předávají zprávy do vaší skutečné e-mailové schránky. Tyto masky vám umožňují sdílet adresu s třetími stranami, a tím zakryjete vaši skutečnou e-mailovou adresu, na kterou zprávy přepošle.
 faq-question-missing-emails-question-2 = Nedostávám zprávy ze svých e-mailových masek
+faq-question-missing-emails-answer-a-2 = Existuje několik důvodů, proč možná nedostáváte e-maily přeposílané přes vaše masky. Mezi tyto důvody patří:
 faq-question-missing-emails-answer-reason-spam = Zprávy se dostávají do spamu
 faq-question-missing-emails-answer-reason-blocked-2 = Váš poskytovatel e-mailu blokuje vaše e-mailové masky
 faq-question-missing-emails-answer-reason-size = Přeposlaný e-mail má přílohu větší než { email-size-limit }
 faq-question-missing-emails-answer-reason-not-accepted-2 = Stránka nepřijímá e-mailové masky
 faq-question-missing-emails-answer-reason-turned-off-2 = Maska může mít vypnuté přeposílání
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay(case: "dat") } může přeposílání vašich zpráv trvat déle než obvykle
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = Pokud jste uživatelem { -brand-name-relay-premium(case: "gen") } a potýkáte se s některým z těchto problémů, <a href="{ $url }" { $attrs }>kontaktujte náš tým podpory</a>.
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = Pokud se potýkáte s některým z těchto problémů, <a href="{ $url }" { $attrs }>navštivte naše stránky podpory</a>.
 faq-question-use-cases-question-2 = Kdy mám použít e-mailové masky { -brand-name-relay }?
+faq-question-use-cases-answer-part1-2 = Maskování e-mailu pomocí { -brand-name-relay(case: "gen") } můžete použít na většině míst, kde byste jinak použili svou běžnou e-mailovou adresu. Doporučujeme je používat při přihlašování k odběru marketingových nebo informačních e-mailů, kde se pak můžete v budoucnu rozhodnout, jestli e-maily nadále dostávat.
+faq-question-use-cases-answer-part2-2 = Nedoporučujeme používat masky, pokud potřebujete ověřit svou identitu, pro velmi důležité e-maily, nebo tam, kde dostáváte přílohy. Svou skutečnou e-mailovou adresu byste například měli sdílet se svou bankou, lékařem, právníkem, při objednávání lístků na koncert nebo letenek.
 faq-question-2-question-2 = Proč stránka nepřijme moji e-mailovou masku { -brand-name-relay }?
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-2-answer-v4 = Některé stránky nemusí e-mailové z adresy, které obsahují subdoménu (@vase-domena.mozmail.com). Jiné přestaly přijímat všechny adresy kromě adres ze serverů Gmail, Hotmail nebo Yahoo.
 faq-question-1-question = A co spam?
+faq-question-availability-question =
+    { -brand-name-relay.gender ->
+        [masculine] Kde je { -brand-name-relay } dostupný?
+        [feminine] Kde je { -brand-name-relay } dostupná?
+        [neuter] Kde je { -brand-name-relay } dostupné?
+       *[other] Kde je služba { -brand-name-relay } dostupná?
+    }
 
 ## Profile Page (Logged In)
 
@@ -531,6 +620,7 @@ profile-stat-label-forwarded = E-maily přeposílány
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-description-promotionals-locked-label = Pro předplatitele { -brand-name-relay-premium(case: "gen") }
 
 ## Banner Messages (displayed on the profile page)
 
@@ -560,6 +650,9 @@ error-premium-cannot-change-subdomain = Svou subdoménu nemůžete změnit
 error-premium-set-subdomain = Pro nastavení subdomény musíte být prémiovým předplatitelem
 error-subdomain-not-created = Subdoménu nelze vytvořit, zkuste nějakou jinou
 error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla být vytvořena, zkuste nějakou jinou
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } není dostupná. Zkuste jinou.
 
 ## Tips and tricks at the bottom of the page
 
@@ -588,6 +681,13 @@ error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla bý
 ## Modals
 
 modal-rename-alias-saved = Štítek uložen
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } je k dispozici.
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozici.
 
 ## The "Help & Tips" area at the bottom of the page
 
