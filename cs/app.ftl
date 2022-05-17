@@ -369,12 +369,25 @@ landing-how-it-works-headline = Jak to funguje
 landing-how-it-works-body-2 = Sdílejte e-mailové masky { -brand-name-relay } namísto své skutečné e-mailové adresy, abyste ochránili svou e-mailovou schránku i svou identitu.
 landing-how-it-works-step-1-body-cta = Stáhněte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }.
 landing-how-it-works-step-1-body-2 = Vytvářejte e-mailové masky automaticky, kdekoli zadáte svou e-mailovou adresu.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Při procházení stránek se na místě, kde stránky požadují vaši e-mailovou adresu, zobrazí ikona { -brand-name-relay(case: "gen") }.
+    Klepněte na ikonu, pokud chcete vygenerovat novou náhodnou adresu, která končí na @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Při procházení se na místě, kde stránky požadují vaši e-mailovou adresu, zobrazí ikona { -brand-name-relay(case: "gen") }.
+    Klepněte na ni, pokud chcete vygenerovat novou náhodnou adresu, která končí na @mozmail.com.
+landing-how-it-works-step-3-body-2 =
+    Přihlaste se do nástěnky { -brand-name-relay(case: "gen") }, kde máte přehled o vytvořených e-mailových maskách.
+    Pokud zjistíte, že dostáváte spam nebo nevyžádané zprávy, můžete zablokovat všechny zprávy nebo dokonce masku odstranit přímo z nástěnky.
 
 ## Pricing section
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Časově omezená nabídka: Neomezené e-mailové masky za { $monthly_price } měsíčně
+landing-pricing-body-2 =
+    Vyzkoušejte e-mailové masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku.
+    Poté upgradujte na { -brand-name-relay-premium(case: "acc") } pro ještě větší flexibilitu a přizpůsobené ovládání.
 landing-pricing-free-price = Zdarma
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
 landing-pricing-free-feature-2 = Rozšíření do prohlížeče
@@ -395,27 +408,55 @@ landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
 
 landing-use-cases-heading = Použijte { -brand-name-firefox-relay(case: "acc") } pro:
 landing-use-cases-shopping = Nakupování
+landing-use-cases-shopping-body-2 =
+    Kupujete něco z nového internetového obchodu? Při nákupu online použijte e-mailovou masku místo svého skutečného e-mailu.
+    Potvrzení vám přepošleme do vaší skutečné schránky, a pokud vám začnou chodit e-maily, které se vám nelíbí, jednoduše masku zablokujete.
 landing-use-cases-social-networks = Sociální sítě
+landing-use-cases-social-networks-body-2 =
+    Chcete lépe chránit svou online identitu při používání sociálních sítí?
+    Snažíte se, aby váš skutečný e-mail nebyl spojen s vaší přítomností na sociálních sítích? Pro přihlášení a ochranu online použijte masku { -brand-name-relay }.
 landing-use-cases-offline = Offline
+landing-use-cases-offline-body-2 =
+    Chcete přijímat e-mailová potvrzení, ale chcete se vyhnout marketingovému spamu?
+    Pro získávání online účtenky v obchodě použijte namísto e-mailu svou masku { -brand-name-relay }.
+    Potvrzení vám přepošleme do vaší skutečné schránky, a pokud vám začnou chodit e-maily, které se vám nelíbí, prostě jejich přeposílání vypnete.
 landing-use-cases-access-content = Přístup k obsahu
+landing-use-cases-access-content-body-2 =
+    Chcete se přihlásit k odběru e-mailového zpravodaje, ale nedůvěřujete jeho odesílateli?
+    Použijte masku místo své skutečné e-mailové adresy – pokud přes tuto masku začnete dostávat nechtěné e-maily, odesílatel ji mohl prodat jiným obchodníkům nebo dokonce mohla uniknout při úniku dat.
+    Abyste svou e-mailovou schránku ochránili, stačí masku vypnout nebo odstranit.
 landing-use-cases-gaming = Hry
+landing-use-cases-gaming-body-2 =
+    Užíváte si online hraní, ale obáváte se, že ostatní hráči nebo online útočníci prostřednictvím vašeho gamertagu a e-mailové adresy zjistí, kdo jste?
+    Použijte e-mailovou masku, abyste vložili další vrstvu ochrany mezi vaši online identitu a hry, které hrajete online.
 
 ## Landing FAQ Section
 
+landing-faq-headline = Nejčastější dotazy k { -brand-name-firefox-relay(case: "dat") }
+landing-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(case: "dat") }
 
 ## Premium promo page
 
 premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomocí { -brand-name-firefox-relay-premium(case: "gen") }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = S { -brand-name-firefox-relay-premium(case: "ins") } získáte neomezený počet vlastních e-mailových masek, které přeposílají pouze e-maily, které chcete, na vaši skutečnou e-mailovou adresu. <b>Po omezenou dobu můžete upgradovat na { -brand-name-relay-premium(case: "acc") } jen za { $monthly_price } měsíčně.</b>
 premium-promo-hero-cta = Upgradujte hned teď
 premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
+premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
 premium-promo-perks-cta-label = Upgradujte hned teď
 premium-promo-perks-cta-tooltip = Upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }
 premium-promo-perks-perk-unlimited-headline-2 = Vytvářejte neomezený počet e-mailových masek
+premium-promo-perks-perk-unlimited-body-2 = Už žádný limit pěti masek: s { -brand-name-relay-premium(case: "ins") } můžete vygenerovat tolik masek, kolik potřebujete, abyste pomohli ochránit svou e-mailovou schránku před spammery a online sledováním. Můžete dokonce odpovídat na e-maily, aniž byste odhalili svou skutečnou adresu.
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastní subdoménu
+premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete vytvářet masky, které si zapamatujete a sdílíte snadněji než kdy dříve. Potřebujete jednu pro rezervaci v restauraci? Použijte například jidlo@vase-domena.mozmail.com — Není třeba vytvářet masku předem.
 premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
+premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
 premium-promo-use-cases-shopping-heading = Nakupování
+premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Sociální sítě
+premium-promo-use-cases-social-networks-body-2 = Chcete lépe chránit svou online identitu při používání sociálních sítí? Pro přihlášení do každé sociální sítě použijte jinou e-mailovou masku a ochraňte svůj skutečný e-mail před zveřejněním na těchto stránkách.
 premium-promo-use-cases-gaming-heading = Hry
 premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
