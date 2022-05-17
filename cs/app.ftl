@@ -33,6 +33,17 @@
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
+-brand-name-firefox-relay-premium =
+    { $case ->
+       *[nom] Firefox Relay Premium
+        [gen] Firefoxu Relay Premium
+        [dat] Firefoxu Relay Premium
+        [acc] Firefox Relay Premium
+        [voc] Firefoxe Relay Premium
+        [loc] Firefoxu Relay Premium
+        [ins] Firefoxem Relay Premium
+    }
+    .gender = masculine
 -brand-name-firefox-browser =
     { $case ->
        *[nom]
@@ -202,13 +213,35 @@
                 [lower] účtem Firefoxu
             }
     }
+-brand-name-chrome =
+    { $case ->
+       *[nom] Chrome
+        [gen] Chromu
+        [dat] Chromu
+        [acc] Chrome
+        [voc] Chrome
+        [loc] Chromu
+        [ins] Chromem
+    }
+    .gender = masculine
+-brand-name-google-chrome =
+    { $case ->
+       *[nom] Google Chrome
+        [gen] Google Chromu
+        [dat] Google Chromu
+        [acc] Google Chrome
+        [voc] Google Chrome
+        [loc] Google Chromu
+        [ins] Google Chromem
+    }
+    .gender = masculine
 
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description = { -brand-name-firefox-relay } usnadňuje vytváření e-mailových aliasů, které přeposílají e-maily do vaší skutečné schránky. Použijte jej k ochraně svých online účtů před hackery a nevyžádanou poštou.
+meta-description-2 = { -brand-name-firefox-relay } usnadňuje vytváření e-mailových masek, které přeposílají e-maily do vaší skutečné schránky. Použijte je k ochraně svých online účtů před hackery a nevyžádanou poštou.
 
-## Header 
+## Header
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
@@ -258,7 +291,36 @@ whatsnew-tab-archive-label = Historie
 whatsnew-footer-clear-all-label = Vymazat vše
 whatsnew-footer-back-label = Zpět
 whatsnew-footer-learn-more-label = Zjistit více
+whatsnew-empty-message =
+    { -brand-name-relay.gender ->
+        [masculine] Nezapomeňte se sem vracet – neustále pracujeme na skvělých nových funkcích, aby byl { -brand-name-relay } ještě lepší.
+        [feminine] Nezapomeňte se sem vracet – neustále pracujeme na skvělých nových funkcích, aby byla { -brand-name-relay } ještě lepší.
+        [neuter] Nezapomeňte se sem vracet – neustále pracujeme na skvělých nových funkcích, aby bylo { -brand-name-relay } ještě lepší.
+       *[other] Nezapomeňte se sem vracet – neustále pracujeme na skvělých nových funkcích, aby byla služba { -brand-name-relay } ještě lepší.
+    }
 whatsnew-feature-size-limit-heading = Navýšení velikosti příloh
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } nyní může přeposílat e-maily až do velikosti 25 MB, včetně…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } nyní může přeposílat e-maily až do velikosti 25 MB, včetně příloh.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } nyní může přeposílat e-maily s velikostí { email-size-limit }, včetně…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } může nyní přeposílat e-maily s velikostí až do { email-size-limit }, včetně příloh.
+whatsnew-feature-sign-back-in-heading = Znovu se přihlaste pomocí svých aliasů
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-sign-back-in-snippet = Když budete požádáni o váš e-mail, pro vytvoření nového aliasu otevřete…
+whatsnew-feature-sign-back-in-description = Když budete požádání o váš e-mail, pro přihlášení pomocí dříve použitého aliasu otevřete kontextovou nabídku a vybraný alias se automaticky vyplní do pole pro e-mail.
+whatsnew-feature-forward-some-heading = Blokování propagačních e-mailů
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily zasílané na adresu vašeho alias. Budete dostávat e-maily jako jsou potvrzení, ale ne marketingové e-maily.
 
 ## Bento Menu
 
@@ -270,40 +332,43 @@ fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser(capitalization: "upper") } pro mobily
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Zavřít nabídku
 
 ## Home Page
 
-home-hero-headline = Skryjte vaši skutečnou e-mailovou adresu abyste ochránili svou identitu
-home-hero-copy = Sdílejte e-mailové aliasy vygenerované službou { -brand-name-relay } místo svých skutečný adres, abyste ochránili své online účty proti hackerům. Přihlaste se ke svému { -brand-name-firefox-account(case: "dat", capitalization: "lower") }.
 home-hero-cta = Přihlásit se
 how-it-works-headline = Jak to funguje
 how-it-works-subheadline = Chraňte svou identitu. Používejte { -brand-name-firefox-browser(case: "acc", capitalization: "lower") }.
 how-it-works-step-1-headline = Získat toto rozšíření
 how-it-works-step-1-link = Stáhnout rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 how-it-works-step-1-copy = Pr začátek se přihlaste do svého { -brand-name-firefox-account(case: "acc", capitalization: "lower") }. Pro přechod na přihlašovací stránku vyberte ikonu, která se zobrazí na panelu nástrojů { -brand-name-firefox(case: "gen") }.
-how-it-works-step-2-headline = Vytvořit nový alias
+how-it-works-step-2-headline-2 = Vytvořte si novou e-mailovou masku
 how-it-works-step-2-copy =
     Při prohlížení stránek, které žádají vaši e-mailovou adresu, se objeví tato ikona { -brand-name-relay(case: "gen") }. 
     Klepnutím na ni vygenerujete novou náhodnou adresu končící na @relay.firefox.com.
     { -brand-name-relay } přesměruje zprávy na vaši hlavní adresu spojenou s vaším účtem.
-how-it-works-step-3-copy =
-    Přihlaste se ke službě { -brand-name-relay } abyste měli přehled o aliasech, které jste vytvořili.
-    Když zjistíte, že nějaký z nich přijímá spam nebo nevyžádané zprávy, můžete zablokovat všechny zprávy nebo dokonce alias smazat, přímo ze stránky.
+how-it-works-step-3-headline-2 = Spravujte své e-mailové masky
 hero-image-copy-trust = Můžete této společnosti vůbec důvěřovat se svými osobními e-maily?
 hero-image-copy-unique-html = <strong>Použijte unikátní adresu</strong> pro každý nový účet …
-hero-image-copy-protect-html = … díky čemuž můžete <strong>ochránit váš skutečný e-mail</strong> před sledováním a spamem.
 hero-image-copy-control-html = Nyní <em>vy máte pod kontrolou</em>, co vám přijde do e-mailové schránky!
 
-## Home Page Version A
+# Home Page Version A
 
 
 ## Hero Section
 
-landing-hero-headline = Chraňte svou skutečnou e-mailovou adresu, abyste měli svou doručenou poštu pod kontrolou
+landing-hero-headline-2 = Chraňte svou skutečnou e-mailovou adresu, abyste měli kontrolu nad příchozí poštou
+landing-hero-body-2 =
+    E-mailové masky { -brand-name-firefox-relay } chrání vaši skutečnou e-mailovou adresu před zveřejněním a automaticky přeposílají zprávy do vaší skutečné schránky.
+    Nyní budete přijímat pouze zprávy, které chcete mít ve své doručené poště. Začněte registrací pomocí svého { -brand-name-firefox-account(case: "gen", capitalization: "lower") }.
 
 ## How it works section
 
+landing-how-it-works-headline = Jak to funguje
+landing-how-it-works-body-2 = Sdílejte e-mailové masky { -brand-name-relay } namísto své skutečné e-mailové adresy, abyste ochránili svou e-mailovou schránku i svou identitu.
+landing-how-it-works-step-1-body-cta = Stáhněte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }.
+landing-how-it-works-step-1-body-2 = Vytvářejte e-mailové masky automaticky, kdekoli zadáte svou e-mailovou adresu.
 
 ## Pricing section
 
@@ -317,6 +382,9 @@ landing-hero-headline = Chraňte svou skutečnou e-mailovou adresu, abyste měli
 ## Premium promo page
 
 
+## The Premium waitlist page
+
+
 ## Settings page
 
 
@@ -328,34 +396,18 @@ faq-headline = Často kladené otázky
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-faq-question-2-question = Proč stránka nepřijímá můj alias { -brand-name-relay }?
 faq-question-1-question = A co spam?
-faq-question-1-answer-a = Ačkoliv služba { -brand-name-relay } nefiltruje spam, náš e-mailový partner Amazon SES blokuje spam a malware. Když { -brand-name-relay } přepošle zprávu, kterou nechcete, můžete změnit své nastavení na blokování zpráv z aliasu, který je přeposílá.
-# Variables:
-#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
-#   $attrs (string) - specific attributes added to external links
-faq-question-1-answer-b-html = Pokud zjistíte větší množství nechtěných e-mailů ze všech svých aliasů, <a href="{ $url }" { $attrs }>nahlaste nám je</a>, abychom mohli zvážit úpravu nastavení služby SES pro spam. Pokud je nahlásíte jako spam, váš poskytovatel e-mailových služeb uvidí jako jejich zdroj službu { -brand-name-relay }, nikoliv skutečného odesílatele.
-faq-question-4-question = Mohu odpovídat na zprávy pomocí aliasu služby { -brand-name-relay }?
 
 ## Profile Page (Logged In)
 
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vítejte,</span> { $email }!
-profile-headline-manage-domain = Spravovat vaše doménové aliasy
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
 profile-promo-upgrade-headline = Upgradujte pro ještě více funkcí.
-profile-promo-upgrade-copy = Upgradujte { -brand-name-relay(case: "acc") } a získejte neomezené množství e-mailových adres a vlastní e-mailovou doménu.
 profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
-profile-label-edit = Upravit štítek tohoto aliasu
 profile-label-saved = Štítek uložen!
-profile-label-generate-new-alias = Vygenerovat nový alias
 profile-label-delete = Smazat
-profile-label-delete-alias = Smazat tento alias
-profile-label-upgrade = Získat neomezený počet aliasů
-profile-label-create-domain = Získat vlastní e-mailovou doménu
-profile-label-domain = Doména pro e-maily:
-profile-label-domain-tooltip = Vytvořte si svou jedinečnou vlastní e-mailovu doménu.
 profile-label-reset = Obnovit
 # This string is followed by an email address
 profile-label-forward-emails = Přeposílat e-maily na:
@@ -365,23 +417,19 @@ profile-label-first-emailed = První e-mail:
 profile-label-created = Vytvořeno:
 profile-label-details-show = Zobrazit podrobnosti
 profile-label-details-hide = Skrýt podrobnosti
-# This string is a label for a toggle (on/off) switch  
+# This string is a label for a toggle (on/off) switch
 profile-label-forwarding = přeposílání
 profile-label-blocking = blokování
 profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
 profile-label-forwarded = Přeposláno
 profile-label-cancel = Zrušit
-profile-blocked-copy = Pokud pro tento alias vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě před tím, než se dostanou do vaší e-mailové schránky.
-profile-forwarded-copy = Pokud vyberete pro tento alias přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
 profile-forwarded-note = Poznámka:
 profile-forwarded-note-copy = E-maily (včetně příloh) větší, než { email-size-limit } nyní nejsou podporovány a nebudou přeposlány.
 profile-stat-label-blocked = E-maily blokovány
 profile-stat-label-forwarded = E-maily přeposílány
-profile-stat-label-aliases-used = Používané e-mailové aliasy
-profile-filter-search-placeholder = Hledat aliasy
 
-## Alias Promotional Email Blocking (displayed on the profile page)
+## Mask Promotional Email Blocking (displayed on the profile page)
 
 
 ## Banner Messages (displayed on the profile page)
@@ -396,59 +444,40 @@ banner-bounced-copy =
     Při pokusech o přeposlání e-mailů jsme obdrželi automatickou odpověď <em>{ $bounce_type }</em> “bounce” od poskytovatele vaší e-mailové schránky.
     Tato situace mohla nastat z důvodu, že se { -brand-name-relay } nemůže spojit s poskytovatelem e-mailové schránky, nebo pokud je vaše schránka plná. Zkusíme to znovu dne { $date }.
 banner-download-firefox-headline = { -brand-name-relay } je ještě lepší v kombinaci s { -brand-name-firefox(case: "ins") }
-banner-download-firefox-copy = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje vytváření aliasů.
 banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-headline = Získat rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
-banner-download-install-extension-copy = Díky rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } je používání e-mailových aliasů ještě snazší.
 banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc") } do { -brand-name-firefox(case: "gen") }
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
-banner-upgrade-copy = { -brand-name-firefox } { -brand-name-relay-premium } ještě více usnadňuje vytváření e-mailových aliasů s vlastními doménami aliasů a neomezenými aliasy.
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
-banner-choose-subdomain-input-placeholder = Hledat doménu
-banner-pack-upgrade-headline-html = Pro více aliasů upgradujte na <strong>{ -brand-name-firefox(case: "acc") } { -brand-name-relay-premium }</strong>
-banner-pack-upgrade-copy = Díky neomezenému počtu e-mailových aliasů a vaší vlastní e-mailové doméně vás { -brand-name-firefox } { -brand-name-relay-premium } na internetu ochrání.
 banner-pack-upgrade-cta = Upgradujte
-# This string is followed by name (string) that the user chooses
-banner-choose-subdomain-label = Vaše doména je:
 
 ## Success Messages
 
 
 ## Error Messages
 
-# Variables:
-#   $number (string) - Maximum number of aliases a user can make on a free account.
-error-premium-set-make-aliases =
-    { $number ->
-        [one] Pro vytvoření více než jednoho aliasu musíte být prémiovým předplatitelem
-        [few] Pro vytvoření více než { $number } aliasů musíte být prémiovým předplatitelem
-       *[other] Pro vytvoření více než { $number } aliasů musíte být prémiovým předplatitelem
-    }
 error-premium-cannot-change-subdomain = Svou subdoménu nemůžete změnit
 error-premium-set-subdomain = Pro nastavení subdomény musíte být prémiovým předplatitelem
-error-premium-set-create-subdomain = Pro vytváření aliasů na subdoméně musíte být prémiovým předplatitelem
 error-subdomain-not-created = Subdoménu nelze vytvořit, zkuste nějakou jinou
 error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla být vytvořena, zkuste nějakou jinou
-error-subdomain-select = Před vytvořením aliasu na subdoméně musíte vybrat subdoménu
 
 ## Tips and tricks at the bottom of the page
 
 
-## Alias for generating a custom alias
+## Modal for generating a custom mask
 
 
-## Popover explaining how custom aliases work
+## Popover explaining how custom masks work
 
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
 
-## Tip about using custom aliases
+## Tip about using custom masks
 
 
-## Onboarding 
+## Onboarding
 
-onboarding-headline = K vytvoření prvního aliasu máte tři způsoby…
 
 ## Premium Onboarding
 
@@ -459,16 +488,9 @@ onboarding-headline = K vytvoření prvního aliasu máte tři způsoby…
 ## Modals
 
 modal-rename-alias-saved = Štítek uložen
-modal-delete-headline = Chcete tento alias trvale smazat?
-# Variables:
-#   $email (string) - The relay alias (email address) that will be deleted
-modal-delete-warning-recovery-html =
-    Jakmile tento alias smažete, nebude ho už možné obnovit.
-    { -brand-name-firefox-relay } přestane přeposílat zprávy odeslané na adresu <strong>{ $email }</strong>. To zahrnuje i zprávy, které vám umožní obnovit zapomenutá hesla.
-modal-delete-warning-upgrade =
-    Pokud používáte tento alias k přihlašování na stránkách, na kterých vám záleží,
-    měli byste před smazáním této adresy nejprve změnit přihlašovací údaje na jinou e-mailovou adresu.
-modal-delete-confirmation = Ano, chci tento alias smazat.
+
+## The "Help & Tips" area at the bottom of the page
+
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -498,4 +520,7 @@ vpn-promo-copy = Chraňte svá online data a vyberte si plán předplatného slu
 vpn-promo-cta = Získejte { -brand-name-mozilla-vpn(case: "acc") }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
+
+
+## Notifications component
 
