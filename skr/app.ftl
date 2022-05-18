@@ -365,6 +365,8 @@ profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کر
 profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
+profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گریڈ کرو
+profile-promo-email-blocking-description-promotionals-locked-close = بند کرو
 
 ## Banner Messages (displayed on the profile page)
 
@@ -462,6 +464,7 @@ popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جن�
 popover-custom-alias-explainer-close-button-label = بند کرو
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = ٻئی ڄاݨکاری
 
 ## Tip about using custom masks
 
