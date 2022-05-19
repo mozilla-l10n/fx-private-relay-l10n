@@ -121,6 +121,13 @@ whatsnew-feature-alias-to-mask-snippet = Haben Sie’s gemerkt? Alias-Adressen h
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Haben Sie’s gemerkt? Alias-Adressen heißen jetzt „Masken“, damit { -brand-name-firefox-relay } noch benutzerfreundlicher wird und neue Funktionen einfacher hinzugefügt werden können.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } in Schweden verfügbar
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } in Finnland verfügbar
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz…
+whatsnew-feature-premium-expansion-description = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz – erstellen Sie unbegrenzt viele E-Mail-Masken, nutzen Sie eine benutzerdefinierte E-Mail-Subdomain und mehr!
 
 ## Bento Menu
 
