@@ -121,6 +121,13 @@ whatsnew-feature-alias-to-mask-snippet = Nella versione inglese ora gli “alias
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Nella versione inglese ora gli “alias” vengono chiamati “masks” per rendere { -brand-name-firefox-relay } più intuitivo e aprire la strada a nuove funzioni.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibile in Svezia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibile in Finlandia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Aggiorna adesso per una protezione ancora maggiore…
+whatsnew-feature-premium-expansion-description = Aggiorna adesso per una protezione ancora maggiore. Crea illimitati alias di posta elettronica, ottieni un sottodominio personalizzato per le email e altro ancora.
 
 ## Bento Menu
 
