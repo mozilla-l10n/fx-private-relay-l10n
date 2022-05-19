@@ -127,6 +127,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Promove ora e obtene ancora plus protection…
+whatsnew-feature-premium-expansion-description = Promove ora e obtene ancora plus protection — crea mascas email illimitate, obtene un subdominio email personal e ancora plus!
 
 ## Bento Menu
 
