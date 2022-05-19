@@ -121,6 +121,12 @@ whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llaman
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para que { -brand-name-firefox-relay } sea más fácil de usar y abra la puerta a nuevas funciones.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponible en Suecia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponible en Finlandia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtendrás mucha más protección…
 
 ## Bento Menu
 
