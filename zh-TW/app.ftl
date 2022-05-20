@@ -126,6 +126,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = 立刻升級，獲得更多保護…
+whatsnew-feature-premium-expansion-description = 立刻升級，獲得更多保護 — 建立無限量的轉寄信箱、設定自訂郵件子網域，還有更多功能！
 
 ## Bento Menu
 
