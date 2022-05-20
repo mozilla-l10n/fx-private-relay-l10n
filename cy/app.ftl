@@ -130,7 +130,7 @@ whatsnew-feature-premium-expansion-finland-heading = Mae { -brand-name-relay-pre
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-premium-expansion-snippet = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch...
+whatsnew-feature-premium-expansion-snippet = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch…
 whatsnew-feature-premium-expansion-description = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch - crëwch arallenwau e-bost diderfyn, cael is-barth e-bost personol, a mwy!
 
 ## Bento Menu
