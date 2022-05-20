@@ -163,6 +163,13 @@ whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame a
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
+whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } dostupná vo Švédsku
+whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } dostupná vo Fínsku
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Inovujte teraz a získajte ešte väčšiu ochranu…
+whatsnew-feature-premium-expansion-description = Inovujte teraz a získajte ešte väčšiu ochranu – vytvárajte neobmedzené množstvo e-mailových masiek, získajte vlastnú e-mailovú subdoménu a ďalšie!
 
 ## Bento Menu
 
