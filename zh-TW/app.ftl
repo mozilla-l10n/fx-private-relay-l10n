@@ -122,6 +122,10 @@ whatsnew-feature-alias-to-mask-snippet = 注意到變化了嗎？現在起，我
 whatsnew-feature-alias-to-mask-description = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }，並且讓新功能更容易上手。
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已於瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已於芬蘭推出
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = 立刻升級，獲得更多保護…
 
 ## Bento Menu
 
