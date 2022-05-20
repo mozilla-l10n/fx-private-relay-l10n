@@ -110,6 +110,8 @@ whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکو
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = عرفی ناں ہݨ ماسک ہن۔
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } سویڈن وچ دستیاب ہے
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } فن لینڈ وچ دستیاب ہے
 
 ## Bento Menu
 
