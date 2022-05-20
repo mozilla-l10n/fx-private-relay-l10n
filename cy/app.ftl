@@ -125,6 +125,13 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
+whatsnew-feature-premium-expansion-sweden-heading = Mae { -brand-name-relay-premium } ar gael yn Sweden
+whatsnew-feature-premium-expansion-finland-heading = Mae { -brand-name-relay-premium } ar gael yn y Ffindir
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch...
+whatsnew-feature-premium-expansion-description = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch - crëwch arallenwau e-bost diderfyn, cael is-barth e-bost personol, a mwy!
 
 ## Bento Menu
 
