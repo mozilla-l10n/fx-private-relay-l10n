@@ -112,6 +112,10 @@ whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکو
 whatsnew-feature-alias-to-mask-heading = عرفی ناں ہݨ ماسک ہن۔
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } سویڈن وچ دستیاب ہے
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } فن لینڈ وچ دستیاب ہے
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
 
 ## Bento Menu
 
@@ -186,6 +190,9 @@ landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-access-content = مواد تائیں رسائی کرو
 landing-use-cases-gaming = کھیݙݨ
+landing-use-cases-on-the-go = گو تے
+landing-use-cases-on-the-go-heading = { -brand-name-relay } نال گو تے
+landing-use-cases-on-the-go-connect-heading = گو نال کنکٹ تھیوو
 landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
 landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
@@ -222,6 +229,7 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
+waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
 ## Settings page
 
@@ -369,6 +377,7 @@ profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } صرف)
 profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گریڈ کرو
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 profile-promo-email-blocking-description-promotionals-locked-close = بند کرو
 
 ## Banner Messages (displayed on the profile page)
