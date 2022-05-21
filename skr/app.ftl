@@ -407,6 +407,7 @@ banner-register-subdomain-example-address = تہاݙی ڈومین
 banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ڳولو
+banner-pack-upgrade-headline-2-html = ٻئے ای میل ماسک گھنݨ کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> تے اپ گریڈ کرو
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
