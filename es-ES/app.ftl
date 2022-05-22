@@ -121,6 +121,12 @@ whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llaman
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = ¿Notas un cambio? Ahora estamos llamando “máscaras” a los alias para que { -brand-name-firefox-relay } sea más fácil de usar y abra la puerta a nuevas funciones.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponible en Suecia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponible en Finlandia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtén aún más protección…
 
 ## Bento Menu
 
@@ -586,6 +592,17 @@ error-premium-set-subdomain = Tienes que ser un suscriptor premium para configur
 error-premium-check-subdomain = Tienes que ser un suscriptor premium para verificar un subdominio
 error-subdomain-not-created = No se ha podido crear el subdominio, intenta otra cosa
 error-subdomain-email-not-created = No se ha podido crear un alias de correo con subdominio, intenta otra cosa
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = El subdominio @{ $unavailable_subdomain } no está disponible. Vuelve a intentarlo con otro diferente.
+error-settings-update = Se ha producido un error al actualizar la configuración, inténtalo de nuevo.
+error-mask-create-failed = No se ha podido crear la máscara. Inténtalo de nuevo.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Los datos de la máscara no se han podido actualizar. Por favor, inténtalo de nuevo.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = No se ha podido eliminar la máscara { $mask }. Inténtalo de nuevo.
 
 ## Tips and tricks at the bottom of the page
 
@@ -600,12 +617,19 @@ tips-footer-link-support-tooltip = Contactar con la ayuda
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-heading-2 = Crear una nueva máscara personalizada
+modal-custom-alias-picker-warning-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use tu subdominio personalizado: la máscara se generará automáticamente. Prueba "shop@subdominiopersonalizado.mozmail.com" la próxima vez que compres en línea, por ejemplo.
+modal-custom-alias-picker-form-heading-2 = O crea una máscara personalizada manualmente
+modal-custom-alias-picker-form-prefix-label-2 = Introduce el prefijo de la máscara de correo
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "restaurante"
+modal-custom-alias-picker-form-submit-label-2 = Generar máscara
+modal-custom-alias-picker-creation-error-2 = Tu máscara de correo electrónico personalizada no ha podido ser creada manualmente. Por favor, inténtalo de nuevo, o envía un correo electrónico a la máscara para crearla.
 
 ## Popover explaining how custom masks work
 
+popover-custom-alias-explainer-heading-2 = Cómo crear máscaras personalizadas
 popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos promocionales
