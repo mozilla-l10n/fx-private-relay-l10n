@@ -120,6 +120,13 @@ whatsnew-feature-alias-to-mask-snippet = Terasa ada yang berubah? Kami sekarang 
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Terasa ada yang berubah? Kami sekarang menyebut alias menjadi "topeng" untuk membuat { -brand-name-firefox-relay } lebih mudah untuk digunakan dan membuka pintu untuk fitur-fitur baru.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } tersedia di Swedia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } tersedia di Finlandia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Tingkatkan sekarang dan dapatkan perlindungan lebih…
+whatsnew-feature-premium-expansion-description = Tingkatkan sekarang dan dapatkan perlindungan lebih — buat topeng surel tanpa batas, dapatkan subdomain surel kustom, dan banyak lagi!
 
 ## Bento Menu
 
@@ -245,6 +252,13 @@ landing-use-cases-on-the-go-lead = Langsung buat topeng surel kustom di mana saj
 landing-use-cases-on-the-go-connect-heading = Sambungkan di mana saja
 landing-use-cases-on-the-go-connect-body = Gunakan topeng surel saat Anda ingin masuk secara pribadi ke kedai kopi favorit atau Wi-Fi publik
 landing-use-cases-on-the-go-receipt-heading = Dapatkan tanda terima surel
+landing-use-cases-on-the-go-receipt-body = Bagikan topeng surel kustom untuk tanda terima belanja tanpa membagikan surel asli Anda
+landing-use-cases-on-the-go-phone-heading = Gunakan di ponsel Anda
+landing-use-cases-on-the-go-phone-body = Di mana pun Anda berada, buat topeng surel kustom dalam hitungan detik untuk apa pun yang ingin Anda lakukan
+landing-use-cases-signups = Pendaftaran
+landing-use-cases-signups-hero-heading = Pendaftaran bebas khawatir
+landing-use-cases-signups-hero-content1 = Ingin memulai langganan baru, merespon undangan, atau mendapatkan kode promo tawar-menawar tanpa spam membanjiri kotak masuk Anda?
+landing-use-cases-signups-hero-content2 = Sebelum menyelesaikan pendaftaran berikutnya, gunakan topeng email sebagai pengganti surel asli untuk melindungi info Anda dan tetap mengendalikan kotak masuk Anda.
 
 ## Landing FAQ Section
 
@@ -490,6 +504,11 @@ profile-promo-email-blocking-label-promotionals = Blokir promosi
 profile-promo-email-blocking-label-none = Memblokir semua
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Tidak meneruskan
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } saja)
+profile-promo-email-blocking-description-promotionals-locked-label = Tersedia untuk pelanggan { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Tingkatkan sekarang
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Bergabunglah ke daftar tunggu { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Tutup
 
 ## Banner Messages (displayed on the profile page)
 
@@ -616,6 +635,7 @@ popover-custom-alias-explainer-close-button-label = Tutup
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokir surel promosi
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktifkan Pemblokiran Surel Promosi pada topeng untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Informasi lebih lanjut
 
 ## Tip about using custom masks
 
