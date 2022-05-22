@@ -127,6 +127,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtén aún más protección…
+whatsnew-feature-premium-expansion-description = ¡Actualiza ahora y obtendrás mucha más protección, crea máscaras de correo ilimitadas, obtén un subdominio de correo y más!
 
 ## Bento Menu
 
@@ -663,21 +664,41 @@ onboarding-premium-headline = Te damos la bienvenida a { -brand-name-firefox } {
 onboarding-premium-subheadline-html = Ahora puedes <strong>controlar</strong> lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 onboarding-premium-feature-intro = Con { -brand-name-firefox } { -brand-name-relay-premium }puedes:
 onboarding-premium-control-title = Controla los correos electrónicos que recibes
+onboarding-premium-control-description-2 = Comparte máscaras de correo electrónico ilimitadas que reenvían a tu bandeja de entrada los correos electrónicos que realmente deseas.
+onboarding-premium-domain-title-3 = Utiliza un subdominio personalizado para compartir máscaras:
+onboarding-premium-reply-title-2 = Responde correos electrónicos sin revelar tu dirección real
+onboarding-premium-reply-description-2 = ¿Necesitas responder a los correos electrónicos enviados a una máscara? Simplemente responde como de costumbre: tu máscara seguirá protegiendo tu dirección de correo electrónico.
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tú puedes:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Paso { $paso } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Bienvenido a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Genera un número ilimitado de máscaras de correo electrónico:
 multi-part-onboarding-premium-welcome-button-start = Comenzar
+multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
+multi-part-onboarding-premium-welcome-description-2 = No más límite de cinco máscaras: ahora puedes generar tantas máscaras personalizadas o aleatorias como necesites. En el escritorio, puedes usar el complemento { -brand-name-relay } para crearlos sobre la marcha.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    Con un subdominio personalizado, puedes crear máscaras sin tener que generarlas previamente.
+    ¿Necesitas uno para suscribirte a un boletín? Simplemente di "leer@subdominiopersonalizado{ $mozmail }"
+multi-part-onboarding-premium-domain-cta-2 = Registra ahora tu subdominio personalizado:
+multi-part-onboarding-premium-domain-button-skip-2 = Continuar, registraré mi subdominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
 multi-part-onboarding-premium-extension-get-title = Obtén la extensión { -brand-name-relay } para { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description-2 = La extensión { -brand-name-relay } para { -brand-name-firefox } facilita aún más usar las máscaras de correo electrónico.
 multi-part-onboarding-premium-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Obtén la extensión { -brand-name-relay } para { -brand-name-google-chrome }.
 # Deprecated
 multi-part-onboarding-premium-chrome-extension-get-description = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de alias de correo sea aún más fácil.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de máscaras de correo sea aún más fácil.
 multi-part-onboarding-premium-chrome-extension-button-download = Obtén la extensión { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-added = Extensión { -brand-name-relay } instalada.
@@ -686,17 +707,53 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de contro
 ## Modals
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
+modal-delete-headline-2 = ¿Eliminar permanentemente esta máscara de correo electrónico?
+# Variables:
+#   $email (string) - The relay mask (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Una vez que elimines esta máscara, no podrás recuperarla.
+    { -brand-name-firefox-relay } ya no reenviará los mensajes enviados a <strong>{ $email }</strong>, incluidos los mensajes que te permiten restablecer contraseñas perdidas.
+modal-delete-warning-upgrade-2 =
+    Si usas esta máscara para iniciar sesión en los sitios que te interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo electrónico diferente antes de eliminar ésta.
+modal-delete-domain-address-warning-upgrade-2 =
+    Si usas esta máscara para iniciar sesión en sitios que te interesan,
+    debes actualizar tu inicio de sesión con una dirección de correo electrónico diferente antes de eliminar ésta.
+    Si vuelves a crear una máscara eliminada, los correos electrónicos enviados al alias original se seguirán reenviando.
+modal-delete-confirmation-2 = Sí, quiero eliminar esta máscara.
 modal-domain-register-good-news = ¡Buenas noticias!
+modal-domain-register-warning-reminder-2 = Recuerda, solo puedes registrar un subdominio. No podrás cambiarlo más tarde.
+modal-domain-register-button-2 = Registrar subdominio
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
 # Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>{ $domain }</domain>está disponible!
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Sí, quiero registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = ¡Correcto!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = ¡{ $subdomain } es ahora tu subdominio de correo electrónico!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = ¡<subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>es ahora tu subdominio de correo electrónico!
+modal-domain-register-success-copy-2 = Ahora puedes crear un número ilimitado de máscaras de correo electrónico personalizadas.
 
 ## The "Help & Tips" area at the bottom of the page
 
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Consejo { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -741,11 +798,18 @@ vpn-promo-cta = Obtén { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Este mensaje ha sido reenviado desde { $display_email } por { $linked_origin }.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CC y BCC de tus respuestas. Si los vuelves a añadir, tu verdadero correo electrónico quedará expuesto.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Cambia a { $premium_link } para obtener máscaras ilimitadas y un subdominio personalizado de correo electrónico.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }. Para saber más consulta nuestras { $faq_link }.
+# This entire text is a link
+forwarded-email-footer-2 = Aquí puedes detener el reenvío de correo electrónico y administrar la configuración de todas las máscaras.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
 
 ## Notifications component
 
+toast-button-close-label = Cerrar notificación
