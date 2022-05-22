@@ -630,12 +630,19 @@ modal-custom-alias-picker-creation-error-2 = Tu máscara de correo electrónico 
 ## Popover explaining how custom masks work
 
 popover-custom-alias-explainer-heading-2 = Cómo crear máscaras personalizadas
+popover-custom-alias-explainer-explanation-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use tu subdominio personalizado: la máscara se generará automáticamente. Prueba "shop@dominiopersonalizado.mozmail.com" la próxima vez que compres en línea, por ejemplo.
+popover-custom-alias-explainer-generate-button-heading-2 = Crea una máscara personalizada manualmente
+popover-custom-alias-explainer-generate-button-label-2 = Generar máscara personalizada
 popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos promocionales
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Activa el bloqueo de correos electrónicos promocionales en una máscara para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Más información
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = Crear máscara usando tu subdominio personalizado
+tips-custom-alias-content-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use tu subdominio personalizado: la máscara se generará automáticamente. Prueba "shop@dominiopersonalizado.mozmail.com" la próxima vez que compres en línea, por ejemplo.
 
 ## Tip about using custom masks
 
@@ -644,7 +651,10 @@ tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bl
 
 ## Onboarding
 
+onboarding-headline-2 = Crear tu primera máscara de correo electrónico
+onboarding-alias-tip-1-2 = Selecciona "Generar nueva máscara" para crear tu primera máscara de correo electrónico.
 onboarding-alias-tip-2 = Con la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
+onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nueva máscara".
 
 ## Premium Onboarding
 
