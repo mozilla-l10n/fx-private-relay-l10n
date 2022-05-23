@@ -125,6 +125,13 @@ whatsnew-feature-alias-to-mask-snippet = Vous avez remarqué un changement ? Le
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Vous avez remarqué un changement ? Les alias s’appellent désormais les « alias de messagerie », afin de rendre { -brand-name-firefox-relay } plus facile à utiliser et permettre l’ajout de nouvelles fonctionnalités.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponible en Suède
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponible en Finlande
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Surclassez votre compte maintenant et obtenez encore plus de protection…
+whatsnew-feature-premium-expansion-description = Surclassez votre compte maintenant et obtenez encore plus de protection – créez un nombre illimité d’alias de messagerie, obtenez un sous-domaine de messagerie personnalisé et d’autres choses encore !
 
 ## Bento Menu
 
@@ -242,8 +249,19 @@ landing-use-cases-gaming-body-2 =
 landing-use-cases-shopping-hero-heading = Shopping avec les alias de messagerie
 landing-use-cases-shopping-hero-content1 = Vous voulez faire un achat en ligne mais vous ne connaissez pas la boutique ou ne lui faites pas totalement confiance ?
 landing-use-cases-shopping-hero-content2 = Utilisez un alias de messagerie pour tout achat en ligne. Recevez sur votre véritable adresse e-mail la confirmation envoyée et, quand vous le voulez, désactivez facilement l’alias par la suite.
+landing-use-cases-on-the-go = À la volée
 landing-use-cases-on-the-go-heading = À la volée avec { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Créez instantanément un alias de messagerie où que vous soyez et où que vous alliez !
+landing-use-cases-on-the-go-connect-heading = Connectez-vous partout
+landing-use-cases-on-the-go-connect-body = Utilisez votre alias de messagerie quand vous le souhaitez pour vous connecter en toute confidentialité à un Wi-Fi public ou à celui de votre café préféré.
+landing-use-cases-on-the-go-receipt-heading = Recevez vos factures par e-mail
+landing-use-cases-on-the-go-receipt-body = Donnez une adresse e-mail personnalisée pour les factures de vos achats en magasin sans communiquer votre véritable adresse e-mail.
+landing-use-cases-on-the-go-phone-heading = Utilisez-le sur votre téléphone
+landing-use-cases-on-the-go-phone-body = Peu importe où vous vous trouvez, créez une adresse e-mail personnalisée en quelques secondes quel que soit votre besoin.
 landing-use-cases-signups = Inscriptions
+landing-use-cases-signups-hero-heading = Inscriptions sans souci
+landing-use-cases-signups-hero-content1 = Vous voulez commencer un nouvel abonnement, répondre à une invitation ou obtenir un code de réduction sans que les spams n’inondent votre boîte de réception ?
+landing-use-cases-signups-hero-content2 = Pour finir cette inscription, utilisez un alias de messagerie à la place de votre véritable adresse e-mail pour protéger vos informations et garder le contrôle de votre boîte de réception.
 
 ## Landing FAQ Section
 
