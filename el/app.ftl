@@ -146,6 +146,8 @@ whatsnew-feature-alias-to-mask-snippet = Παρατηρήσατε κάποια �
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay } πιο εύχρηστο και ανοικτό σε νέες λειτουργίες.
+whatsnew-feature-premium-expansion-sweden-heading = Το { -brand-name-relay-premium } διατίθεται στη Σουηδία
+whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-premium } διατίθεται στη Φινλανδία
 
 ## Bento Menu
 
