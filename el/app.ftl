@@ -623,6 +623,11 @@ tips-footer-link-feedback-label = Σχόλια
 tips-footer-link-feedback-tooltip = Αποστολή σχολίων
 tips-footer-link-support-label = Υποστήριξη
 tips-footer-link-support-tooltip = Επικοινωνία με την υποστήριξη
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Συμβουλή { $nr }
+tips-toast-button-expand-label = Μάθετε περισσότερα
 
 ## Modal for generating a custom mask
 
@@ -756,13 +761,6 @@ modal-domain-register-success-2 = Το { $subdomain } είναι πλέον ο �
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι πλέον ο υποτομέας email σας!
 modal-domain-register-success-copy-2 = Τώρα μπορείτε να δημιουργήσετε απεριόριστες προσαρμοσμένες μάσκες email!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Συμβουλή { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
