@@ -583,6 +583,11 @@ tips-footer-link-feedback-label = 意見回饋
 tips-footer-link-feedback-tooltip = 提供意見回饋
 tips-footer-link-support-label = 技術支援
 tips-footer-link-support-tooltip = 聯絡支援團隊
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = 秘訣 { $nr }
+tips-toast-button-expand-label = 了解更多
 
 ## Modal for generating a custom mask
 
@@ -706,13 +711,6 @@ modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = 現在起將使用 <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 做為您的信箱子網域！
 modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的自訂轉寄信箱！
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = 秘訣 { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
