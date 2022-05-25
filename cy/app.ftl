@@ -617,6 +617,11 @@ tips-footer-link-feedback-label = Adborth
 tips-footer-link-feedback-tooltip = Rhowch adborth
 tips-footer-link-support-label = Cefnogaeth
 tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Awgrym { $nr }
+tips-toast-button-expand-label = Dysgu rhagor
 
 ## Modal for generating a custom mask
 
@@ -749,13 +754,6 @@ modal-domain-register-success-2 = { $subdomain } yw eich is-barth e-bost!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>. { $domain }</domain> yw eich is-barth e-bost!
 modal-domain-register-success-copy-2 = Nawr gallwch chi greu arallenwau e-bost personol diderfyn!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Awgrym { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
