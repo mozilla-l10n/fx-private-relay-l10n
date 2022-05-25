@@ -121,6 +121,13 @@ whatsnew-feature-alias-to-mask-snippet = Hawwe jo in feroaring sjoen? Wy neame a
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Hawwe jo in feroaring sjoen? Wy neame aliassen no ‘maskers’ om { -brand-name-firefox-relay } gebrûksfreonliker te meitsjen en nije funksjes mooglik te meitsjen.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } beskikber yn Sweden
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } beskikber yn Finlân
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Fernij no en ûntfang noch mear beskerming…
+whatsnew-feature-premium-expansion-description = Fernij no en ûntfang noch mear beskerming – meitsje ûnbeheind e-mailmaskers oan, ûntfang in oanpast e-mailsubdomein en mear!
 
 ## Bento Menu
 
@@ -610,6 +617,11 @@ tips-footer-link-feedback-label = Kommentaar
 tips-footer-link-feedback-tooltip = Kommentaar jaan
 tips-footer-link-support-label = Stipe
 tips-footer-link-support-tooltip = Kontakt opnimme
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
+tips-toast-button-expand-label = Mear ynfo
 
 ## Modal for generating a custom mask
 
@@ -742,13 +754,6 @@ modal-domain-register-success-2 = { $subdomain } is no jo e-mailsubdomein!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is no jo e-mailsubdomein!
 modal-domain-register-success-copy-2 = No kinne jo ûnbeheind oanpaste e-mailmaskers meitsje!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Tip { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
