@@ -611,6 +611,11 @@ tips-footer-link-feedback-label = Votre avis
 tips-footer-link-feedback-tooltip = Donner votre avis
 tips-footer-link-support-label = Assistance
 tips-footer-link-support-tooltip = Contacter l’assistance
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Astuce { $nr }
+tips-toast-button-expand-label = En savoir plus
 
 ## Modal for generating a custom mask
 
@@ -738,13 +743,6 @@ modal-domain-register-success-2 = { $subdomain } est maintenant votre sous-domai
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est maintenant votre sous-domaine de messagerie !
 modal-domain-register-success-copy-2 = Vous pouvez désormais créer un nombre illimité d’alias de messagerie personnalisés !
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Astuce { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
