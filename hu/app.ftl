@@ -613,6 +613,11 @@ tips-footer-link-feedback-label = Visszajelzés
 tips-footer-link-feedback-tooltip = Visszajelzés
 tips-footer-link-support-label = Támogatás
 tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = { $nr }. tipp
+tips-toast-button-expand-label = További tudnivalók
 
 ## Modal for generating a custom mask
 
@@ -745,13 +750,6 @@ modal-domain-register-success-2 = A(z) { $subdomain } mostantól az Ön e-mail-a
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> mostantól az e-mail-aldomainja.
 modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-mail-maszkot hozhat létre.
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = { $nr }. tipp
 
 ## Evergreen Survey (displayed on the profile page)
 
