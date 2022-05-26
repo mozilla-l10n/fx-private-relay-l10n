@@ -615,6 +615,10 @@ tips-footer-link-feedback-label = Comentarios
 tips-footer-link-feedback-tooltip = Enviar opinión
 tips-footer-link-support-label = Ayuda
 tips-footer-link-support-tooltip = Contactar con la ayuda
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Consejo { $nr }
 
 ## Modal for generating a custom mask
 
@@ -675,7 +679,7 @@ onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tú 
 # Variables:
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
-multi-part-onboarding-step-counter = Paso {{ $step }} de { $max }.
+multi-part-onboarding-step-counter = multi-part-onboarding-step-counter = Paso { $step } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Bienvenido a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
@@ -747,13 +751,6 @@ modal-domain-register-success-2 = ¡{ $subdomain } es ahora tu subdominio de cor
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = ¡<subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>es ahora tu subdominio de correo electrónico!
 modal-domain-register-success-copy-2 = Ahora puedes crear un número ilimitado de máscaras de correo electrónico personalizadas.
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Consejo { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
