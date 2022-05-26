@@ -121,6 +121,13 @@ whatsnew-feature-alias-to-mask-snippet = Notou uma mudança? Agora estamos chama
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay } mais fácil de usar e abrir as portas para novos recursos.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponível na Suécia
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponível na Finlândia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Mude agora e obtenha ainda mais proteção…
+whatsnew-feature-premium-expansion-description = Mude agora e obtenha ainda mais proteção. Crie máscaras de email ilimitadas, tenha um subdomínio de email personalizado e muito mais!
 
 ## Bento Menu
 
@@ -602,6 +609,11 @@ tips-footer-link-feedback-label = Comentários
 tips-footer-link-feedback-tooltip = Dê sua opinião
 tips-footer-link-support-label = Suporte
 tips-footer-link-support-tooltip = Entre em contato com o suporte
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Dica { $nr }
+tips-toast-button-expand-label = Saiba mais
 
 ## Modal for generating a custom mask
 
@@ -734,13 +746,6 @@ modal-domain-register-success-2 = Agora { $subdomain } é seu subdomínio de ema
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Agora <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> é seu subdomínio de emails!
 modal-domain-register-success-copy-2 = Agora você pode criar máscaras de email personalizadas ilimitadas!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Dica { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
