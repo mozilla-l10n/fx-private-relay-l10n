@@ -679,7 +679,7 @@ onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tú 
 # Variables:
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
-multi-part-onboarding-step-counter = multi-part-onboarding-step-counter = Paso { $step } de { $max }.
+multi-part-onboarding-step-counter = Paso { $step } de { $max }.
 multi-part-onboarding-premium-welcome-headline = Bienvenido a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo que llega a tu bandeja de entrada, un correo electrónico a la vez.
 multi-part-onboarding-premium-welcome-title = Controla los correos electrónicos que recibes:
