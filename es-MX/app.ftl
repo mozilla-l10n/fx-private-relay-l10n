@@ -335,6 +335,10 @@ setting-label-collection-description-2 = Permitir { -brand-name-relay } recolect
 setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar tus correos enmascarados con los sitios web donde se utilizan. Si decides optar por no participar en esta preferencia, tus máscaras no se etiquetarán con los sitios web donde se usan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Llave API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Clic para copiar
 
 ## FAQ Page
 
