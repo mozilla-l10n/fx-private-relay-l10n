@@ -336,6 +336,10 @@ setting-label-collection-description-2 = Дозволити { -brand-name-relay 
 setting-label-collection-off-warning-2 = Ці дані дозволять нам пов'язувати ваші маски адрес електронної пошти з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші маски адрес електронної пошти матимуть позначки про вебсайти, на яких вони використовуються.
 settings-button-save-label = Зберегти
 settings-button-save-tooltip = Застосувати вибрані налаштування.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Ключ API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Клацніть, щоб скопіювати
 
 ## FAQ Page
 
