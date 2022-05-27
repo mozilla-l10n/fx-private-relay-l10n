@@ -377,6 +377,10 @@ setting-label-collection-description-2 = Povoliť službe { -brand-name-relay } 
 setting-label-collection-off-warning-2 = Tieto údaje nám umožnia označiť vaše e-mailové masky webovými stránkami, na ktorých sa používajú. Ak sa rozhodnete zrušiť túto predvoľbu, vaše masky nebudú označené webovými stránkami, na ktorých sa používajú.
 settings-button-save-label = Uložiť
 settings-button-save-tooltip = Použiť vami zvolené nastavenia.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API kľúč
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Kliknutím skopírujete
 
 ## FAQ Page
 
