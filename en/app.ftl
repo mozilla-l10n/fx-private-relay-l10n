@@ -336,6 +336,10 @@ setting-label-collection-description-2 = Allow { -brand-name-relay } to collect 
 setting-label-collection-off-warning-2 = This data will allow us to label your email masks with the websites where they’re used. If you decide to opt out from this preference, your masks will not be labeled with the websites where they’re used.
 settings-button-save-label = Save
 settings-button-save-tooltip = Apply your chosen settings.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API Key
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Click to copy
 
 ## FAQ Page
 
