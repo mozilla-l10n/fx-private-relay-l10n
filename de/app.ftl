@@ -335,6 +335,10 @@ setting-label-collection-description-2 = { -brand-name-relay } erlauben, Daten z
 setting-label-collection-off-warning-2 = Diese Daten ermöglichen es uns, Ihre E-Mail-Masken in einer zukünftigen Version mit den Websites zu beschriften, auf denen sie genutzt werden. Wenn Sie sich von dieser Einstellung abmelden, werden Ihre Masken nicht mit den Websites beschriftet, auf denen sie verwendet werden.
 settings-button-save-label = Speichern
 settings-button-save-tooltip = Gewählte Einstellungen übernehmen.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API-Schlüssel
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Zum Kopieren anklicken
 
 ## FAQ Page
 
