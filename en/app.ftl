@@ -46,6 +46,7 @@ avatar-tooltip = Profile
 
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
+nav-phone = Phone Number
 nav-profile-sign-in = Sign In
 nav-profile-sign-up = Sign Up
 nav-profile-manage-fxa = Manage your { -brand-name-firefox-account(capitalization: "uppercase") }
@@ -359,6 +360,10 @@ setting-api-key-copied = Copied!
 ## FAQ Page
 
 faq-headline = Frequently Asked Questions
+
+## Phone Page
+
+phone-headline = Introducing phone number masking
 
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
