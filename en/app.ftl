@@ -75,8 +75,6 @@ nav-contact = Contact Us
  
 fx-desktop-2 = { -brand-name-firefox } for Desktop
 fx-mobile-2 = { -brand-name-firefox } for Mobile
-fx-containers = { -brand-name-firefox } Containers
-
 ## Footer
 
 nav-footer-privacy = Privacy
