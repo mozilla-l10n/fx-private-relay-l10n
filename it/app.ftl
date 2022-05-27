@@ -329,6 +329,10 @@ setting-label-collection-description-2 = Consenti a { -brand-name-relay } di rac
 setting-label-collection-off-warning-2 = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web dove vengono utilizzati. Se decidi di disattivare questa preferenza, i tuoi alias non verranno più etichettati in questo modo.
 settings-button-save-label = Salva
 settings-button-save-tooltip = Applica le impostazioni scelte.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Chiave API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Fai clic per copiare
 
 ## FAQ Page
 
