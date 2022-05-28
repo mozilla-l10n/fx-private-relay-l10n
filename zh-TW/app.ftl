@@ -309,6 +309,10 @@ setting-label-collection-description-2 = 允許 { -brand-name-relay } 收集資�
 setting-label-collection-off-warning-2 = 此資料讓我們能將您產生的轉寄信箱與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些轉寄信箱被用於哪些網站。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API 金鑰
+# This is a label that appears on hover to copy the API key
+settings-button-copy = 點擊複製
 
 ## FAQ Page
 
