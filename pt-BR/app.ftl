@@ -335,6 +335,10 @@ setting-label-collection-description-2 = Permitir que o { -brand-name-relay } co
 setting-label-collection-off-warning-2 = Esses dados nos permitem rotular suas máscaras de email com os sites onde são usadas. Se você decidir não usar esta preferência, suas máscaras de email não são identificadas com os sites onde são usadas.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Chave API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Clique para copiar
 
 ## FAQ Page
 
