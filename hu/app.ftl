@@ -335,6 +335,10 @@ setting-label-collection-description-2 = Engedélyezés a { -brand-name-relay } 
 setting-label-collection-off-warning-2 = Ezek az adatok lehetővé teszik számunkra, hogy felcímkézzük az e-mail-maszkjait azokkal a webhelyekkel, ahol azokat használja. Ha úgy dönt, hogy leiratkozik erről a beállításról, akkor a maszkok nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
 settings-button-save-label = Mentés
 settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API-kulcs
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Kattintson a másoláshoz
 
 ## FAQ Page
 
