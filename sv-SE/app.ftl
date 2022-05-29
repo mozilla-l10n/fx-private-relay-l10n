@@ -335,6 +335,10 @@ setting-label-collection-description-2 = Låt { -brand-name-relay } samla in dat
 setting-label-collection-off-warning-2 = Med denna data kan vi märka dina e-postalias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
 settings-button-save-label = Spara
 settings-button-save-tooltip = Tillämpa dina valda inställningar.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API-nyckel
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Klicka för att kopiera
 
 ## FAQ Page
 
@@ -613,6 +617,11 @@ tips-footer-link-feedback-label = Återkoppling
 tips-footer-link-feedback-tooltip = Ge återkoppling
 tips-footer-link-support-label = Support
 tips-footer-link-support-tooltip = Kontakta supporten
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tips { $nr }
+tips-toast-button-expand-label = Läs mer
 
 ## Modal for generating a custom mask
 
@@ -745,13 +754,6 @@ modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är nu din e-postunderdomän!
 modal-domain-register-success-copy-2 = Nu kan du skapa obegränsat antal anpassade e-postalias!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Tips { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
