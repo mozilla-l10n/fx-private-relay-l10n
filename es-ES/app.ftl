@@ -337,6 +337,10 @@ setting-label-collection-description-2 = Permitir que { -brand-name-relay } reco
 setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar en una futura versión tus máscaras con los sitios web donde se usan. Si decides desactivar esta opción, tus máscaras no se etiquetarán con los sitios web donde se utilizan.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Clave API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Clic para copiar
 
 ## FAQ Page
 
@@ -619,6 +623,7 @@ tips-footer-link-support-tooltip = Contactar con la ayuda
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Consejo { $nr }
+tips-toast-button-expand-label = Saber más
 
 ## Modal for generating a custom mask
 
