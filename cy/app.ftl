@@ -339,6 +339,10 @@ setting-label-collection-description-2 = Caniatáu i { -brand-name-relay } gasgl
 setting-label-collection-off-warning-2 = Bydd y data hwn yn caniatáu i ni labelu'ch e-byst arallenwau â'r gwefannau lle maen nhw'n cael eu defnyddio. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich e-byst arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
 settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Allwedd API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Clicio i'w gopïo
 
 ## FAQ Page
 
