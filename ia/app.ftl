@@ -331,6 +331,8 @@ setting-label-collection-description-2 = Permitter a { -brand-name-relay } de co
 setting-label-collection-off-warning-2 = Iste datos permittera nos de etiquettar tu mascas email con le sitos web ubi illos es usate. Si tu decide exir ab iste preferentia, tu mascas non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Clicca pro copiar
 
 ## FAQ Page
 
