@@ -335,6 +335,11 @@ whatsnew-feature-alias-to-mask-snippet = Všiml jste si změny? Aliasy jsme ve {
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všiml jste si změny? Aliasy jsme ve { -brand-name-firefox-relay(case: "loc") } přejmenovaly na masky, aby se vám snáze používaly.
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Aktualizujte nyní a získejte ještě lepší ochranu…
+whatsnew-feature-premium-expansion-description = Aktualizujte nyní a získejte ještě lepší ochranu – vytvářejte neomezený počet e-mailových masek, získejte vlastní e-mailovou subdoménu a mnoho dalšího!
 
 ## Bento Menu
 
@@ -460,6 +465,10 @@ landing-use-cases-shopping-hero-content2 = Používejte e-mailovou masku při ka
 landing-use-cases-on-the-go = Na cestách
 landing-use-cases-on-the-go-heading = Cestování s { -brand-name-relay(case: "ins") }
 landing-use-cases-on-the-go-lead = E-mailovou masku si vytvoříte kdykoliv a kdekoliv potřebujete.
+landing-use-cases-on-the-go-connect-heading = Připojení na cestách
+landing-use-cases-on-the-go-connect-body = Když se chcete soukromě přihlásit do své oblíbené kavárny nebo veřejné sítě Wi-Fi, použijte svou e-mailovou masku.
+landing-use-cases-on-the-go-receipt-heading = Příjem e-mailových účtenek
+landing-use-cases-on-the-go-receipt-body = Sdílejte vámi zvolenou e-mailovou masku pro obdržení účtenek z nákupů v obchodě, bez nutnosti sdílet váš skutečný e-mail
 
 ## Landing FAQ Section
 
@@ -702,9 +711,6 @@ modal-domain-register-available = { $subdomain } je k dispozici.
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozici.
-
-## The "Help & Tips" area at the bottom of the page
-
 
 ## Evergreen Survey (displayed on the profile page)
 
