@@ -337,6 +337,10 @@ setting-label-collection-description-2 = Autoriser { -brand-name-relay } à coll
 setting-label-collection-off-warning-2 = Ces données nous permettent de nommer vos alias de messagerie en fonction des sites web où ils sont utilisés. Si vous décidez de refuser cette préférence, vos alias ne seront pas nommés d’après les sites web sur lesquels ils sont utilisés.
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Clé d’API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Cliquer pour copier
 
 ## FAQ Page
 
