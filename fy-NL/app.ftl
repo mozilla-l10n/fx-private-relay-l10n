@@ -339,6 +339,10 @@ setting-label-collection-description-2 = { -brand-name-relay } tastean om gegeve
 setting-label-collection-off-warning-2 = Mei dizze gegevens kinne wy jo maskers labelje mei de relevante websites wêr’t se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo maskers net labele mei de websites wêr’t se brûkt wurde.
 settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API-kaai
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Klikje om te kopiearjen
 
 ## FAQ Page
 
