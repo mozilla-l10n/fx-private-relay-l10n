@@ -68,6 +68,7 @@ nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 
 ## Mobile menu text
 
+menu-upgrade-button = Mettre à niveau
 menu-toggle-open = Ouvrir le menu
 menu-toggle-close = Fermer le menu
 nav-dashboard = Tableau de bord
@@ -353,6 +354,7 @@ settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 setting-label-api-key = Clé d’API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Cliquer pour copier
+setting-api-key-copied = Copiée !
 
 ## FAQ Page
 
