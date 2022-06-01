@@ -62,6 +62,11 @@ nav-profile-contact = Kapcsolat
 nav-profile-contact-tooltip = Lépjen kapcsolatba velünk a { -brand-name-relay-premium } ügyében
 nav-profile-image-alt = { -brand-name-firefox-account } profilkép
 
+## Mobile menu text
+
+menu-upgrade-button = Frissítés
+menu-toggle-open = Menü megnyitása
+
 ## Footer
 
 nav-footer-privacy = Adatvédelem
