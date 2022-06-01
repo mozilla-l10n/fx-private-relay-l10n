@@ -62,6 +62,19 @@ nav-profile-contact = Зв'язатися з нами
 nav-profile-contact-tooltip = Зв’язатися щодо { -brand-name-relay-premium }
 nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Оновити
+menu-toggle-open = Відкрити меню
+menu-toggle-close = Закрити меню
+nav-dashboard = Панель
+nav-settings = Налаштування
+nav-support = Довідка та підтримка
+nav-sign-out = Вийти
+nav-contact = Контакти
+fx-desktop-2 = { -brand-name-firefox } для комп'ютерів
+fx-mobile-2 = { -brand-name-firefox } для мобільних
+
 ## Footer
 
 nav-footer-privacy = Приватність
@@ -340,6 +353,7 @@ settings-button-save-tooltip = Застосувати вибрані налаш�
 setting-label-api-key = Ключ API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Клацніть, щоб скопіювати
+setting-api-key-copied = Скопійовано!
 
 ## FAQ Page
 
