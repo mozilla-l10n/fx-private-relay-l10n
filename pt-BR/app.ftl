@@ -67,6 +67,13 @@ nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: 
 menu-upgrade-button = Mudar de plano
 menu-toggle-open = Abrir menu
 menu-toggle-close = Fechar menu
+nav-dashboard = Painel
+nav-settings = Configurações
+nav-support = Ajuda e suporte
+nav-sign-out = Sair
+nav-contact = Fale conosco
+fx-desktop-2 = { -brand-name-firefox } para computador
+fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
 ## Footer
 
@@ -345,6 +352,7 @@ settings-button-save-tooltip = Aplicar as configurações escolhidas
 setting-label-api-key = Chave API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clique para copiar
+setting-api-key-copied = Copiado!
 
 ## FAQ Page
 
