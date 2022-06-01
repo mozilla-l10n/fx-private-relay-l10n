@@ -66,6 +66,14 @@ nav-profile-image-alt = { -brand-name-firefox-account } profilkép
 
 menu-upgrade-button = Frissítés
 menu-toggle-open = Menü megnyitása
+menu-toggle-close = Menü bezárása
+nav-dashboard = Vezérlőpult
+nav-settings = Beállítások
+nav-support = Súgó és támogatás
+nav-sign-out = Kijelentkezés
+nav-contact = Kapcsolat
+fx-desktop-2 = { -brand-name-firefox } számítógépre
+fx-mobile-2 = { -brand-name-firefox } mobilra
 
 ## Footer
 
@@ -344,6 +352,7 @@ settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 setting-label-api-key = API-kulcs
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kattintson a másoláshoz
+setting-api-key-copied = Másolva!
 
 ## FAQ Page
 
