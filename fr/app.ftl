@@ -66,6 +66,18 @@ nav-profile-contact = Nous contacter
 nav-profile-contact-tooltip = Nous contacter à propos de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 
+## Mobile menu text
+
+menu-toggle-open = Ouvrir le menu
+menu-toggle-close = Fermer le menu
+nav-dashboard = Tableau de bord
+nav-settings = Paramètres
+nav-support = Aide et assistance
+nav-sign-out = Déconnexion
+nav-contact = Nous contacter
+fx-desktop-2 = { -brand-name-firefox } pour ordinateur
+fx-mobile-2 = { -brand-name-firefox } pour mobile
+
 ## Footer
 
 nav-footer-privacy = Confidentialité
