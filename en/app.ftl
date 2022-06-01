@@ -354,6 +354,7 @@ settings-button-save-tooltip = Apply your chosen settings.
 setting-label-api-key = API Key
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Click to copy
+setting-api-key-copied = Copied!
 
 ## FAQ Page
 
