@@ -62,7 +62,7 @@ nav-profile-contact = Contact us
 nav-profile-contact-tooltip = Get in touch about { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
 
-# Mobile menu text
+## Mobile menu text
 
 menu-upgrade-button = Upgrade
 menu-toggle-open = Open menu
@@ -75,6 +75,7 @@ nav-contact = Contact Us
  
 fx-desktop-2 = { -brand-name-firefox } for Desktop
 fx-mobile-2 = { -brand-name-firefox } for Mobile
+
 ## Footer
 
 nav-footer-privacy = Privacy
