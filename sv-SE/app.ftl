@@ -62,6 +62,19 @@ nav-profile-contact = Kontakta oss
 nav-profile-contact-tooltip = Kontakta oss om { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Uppgradera
+menu-toggle-open = Öppna meny
+menu-toggle-close = Stäng meny
+nav-dashboard = Översikt
+nav-settings = Inställningar
+nav-support = Hjälp och support
+nav-sign-out = Logga ut
+nav-contact = Kontakta oss
+fx-desktop-2 = { -brand-name-firefox } för datorer
+fx-mobile-2 = { -brand-name-firefox } för mobil
+
 ## Footer
 
 nav-footer-privacy = Integritet
@@ -339,6 +352,7 @@ settings-button-save-tooltip = Tillämpa dina valda inställningar.
 setting-label-api-key = API-nyckel
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klicka för att kopiera
+setting-api-key-copied = Kopierad!
 
 ## FAQ Page
 
