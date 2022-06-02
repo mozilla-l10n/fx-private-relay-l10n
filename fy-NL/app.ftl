@@ -591,6 +591,12 @@ banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
 banner-label-data-notification-body-cta = Mear ynfo
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Untfang beskerming en stypje it ynternet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Beskermje jo privacy wylst jo meidogge oan de striid foar in better ynternet, alles foar { $monthly_price }
+banner-upgrade-loyalist-cta = Mear beskerming ûntfange
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
