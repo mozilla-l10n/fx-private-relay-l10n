@@ -62,6 +62,19 @@ nav-profile-contact = Contacta nos
 nav-profile-contact-tooltip = Contacta nos re { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Actualisar
+menu-toggle-open = Aperir menu
+menu-toggle-close = Clauder menu
+nav-dashboard = Tabuliero
+nav-settings = Parametros
+nav-support = Adjuta e assistentia
+nav-sign-out = Clauder session
+nav-contact = Contacta nos
+fx-desktop-2 = { -brand-name-firefox } pro scriptorio
+fx-mobile-2 = { -brand-name-firefox } pro mobile
+
 ## Footer
 
 nav-footer-privacy = Confidentialitate
@@ -331,8 +344,11 @@ setting-label-collection-description-2 = Permitter a { -brand-name-relay } de co
 setting-label-collection-off-warning-2 = Iste datos permittera nos de etiquettar tu mascas email con le sitos web ubi illos es usate. Si tu decide exir ab iste preferentia, tu mascas non sera etiquettate con le sitos web ubi illos es usate.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Clave API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicca pro copiar
+setting-api-key-copied = Copiate!
 
 ## FAQ Page
 
@@ -567,6 +583,12 @@ banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-cta = Ir al parametros
 banner-label-data-notification-header-v2 = Activar nove functiones
 banner-label-data-notification-body-cta = Pro saper plus
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Obtene protection e appoia Internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Protege tu vita private e adhere al lucta pro un internet melior, toto pro { $monthly_price }
+banner-upgrade-loyalist-cta = Obtener plus protection
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
