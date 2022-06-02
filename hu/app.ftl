@@ -587,6 +587,9 @@ banner-label-data-notification-header = Hamarosan elérhető a { -brand-name-rel
 banner-label-data-notification-cta = Ugrás a beállításokhoz
 banner-label-data-notification-header-v2 = Új funkciók engedélyezése
 banner-label-data-notification-body-cta = További tudnivalók
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Szerezzen védelmet és támogassa az internetet
+banner-upgrade-loyalist-cta = Szerezzen nagyobb védelmet
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létrehozhat
