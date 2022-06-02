@@ -103,6 +103,19 @@ nav-profile-contact = Kontaktujte nás
 nav-profile-contact-tooltip = Kontaktujte nás ohľadom služby { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization: "lowercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Inovovať
+menu-toggle-open = Otvoriť ponuku
+menu-toggle-close = Zavrieť ponuku
+nav-dashboard = Nástenka
+nav-settings = Nastavenia
+nav-support = Pomoc a podpora
+nav-sign-out = Odhlásiť sa
+nav-contact = Kontaktujte nás
+fx-desktop-2 = { -brand-name-firefox } pre počítače
+fx-mobile-2 = { -brand-name-firefox } pre mobilné zariadenia
+
 ## Footer
 
 nav-footer-privacy = Súkromie
@@ -381,6 +394,7 @@ settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 setting-label-api-key = API kľúč
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kliknutím skopírujete
+setting-api-key-copied = Skopírované!
 
 ## FAQ Page
 
@@ -613,6 +627,12 @@ banner-label-data-notification-header = Už čoskoro v službe { -brand-name-rel
 banner-label-data-notification-cta = Prejsť do nastavení
 banner-label-data-notification-header-v2 = Povolenie nových funkcií
 banner-label-data-notification-body-cta = Ďalšie informácie
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Získajte ochranu a podporte internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Chráňte svoje súkromie a zapojte sa do boja za lepší internet, to všetko za { $monthly_price }
+banner-upgrade-loyalist-cta = Získajte väčšiu ochranu
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu @{ $subdomain }
