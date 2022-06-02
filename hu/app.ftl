@@ -589,6 +589,9 @@ banner-label-data-notification-header-v2 = Új funkciók engedélyezése
 banner-label-data-notification-body-cta = További tudnivalók
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline = Szerezzen védelmet és támogassa az internetet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Védje meg a magánszféráját, miközben csatlakozik a jobb internetért folytatott harchoz, mindezt { $monthly_price } összegért
 banner-upgrade-loyalist-cta = Szerezzen nagyobb védelmet
 # Variables:
 # $subdomain (url) - User-set subdomain
