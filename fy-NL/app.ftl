@@ -62,6 +62,19 @@ nav-profile-contact = Kontakt
 nav-profile-contact-tooltip = Kontakt opnimme oer { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase") }-avatar
 
+## Mobile menu text
+
+menu-upgrade-button = Opwurdearje
+menu-toggle-open = Menu iepenje
+menu-toggle-close = Menu slute
+nav-dashboard = Dashboerd
+nav-settings = Ynstellingen
+nav-support = Help en stipe
+nav-sign-out = Ofmelde
+nav-contact = Kontakt
+fx-desktop-2 = { -brand-name-firefox } foar desktop
+fx-mobile-2 = { -brand-name-firefox } foar mobyl
+
 ## Footer
 
 nav-footer-privacy = Privacy
@@ -343,6 +356,7 @@ settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 setting-label-api-key = API-kaai
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klikje om te kopiearjen
+setting-api-key-copied = Kopiearre!
 
 ## FAQ Page
 
