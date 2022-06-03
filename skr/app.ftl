@@ -435,6 +435,7 @@ banner-label-data-notification-header = { -brand-name-relay } تے جلدی آن
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
+banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
@@ -480,6 +481,7 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = گُر { $nr }
+tips-toast-button-expand-label = ٻیا سِکھو
 
 ## Modal for generating a custom mask
 
