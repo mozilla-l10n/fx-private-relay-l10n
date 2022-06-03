@@ -61,6 +61,17 @@ nav-profile-contact = ساݙے نال رابطہ کرو
 nav-profile-contact-tooltip = { -brand-name-relay-premium } بارے رابطہ وچ راہوو
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
 
+## Mobile menu text
+
+menu-upgrade-button = اپ گریڈ
+menu-toggle-open = مینیو کھولو
+menu-toggle-close = مینیو بند کرو
+nav-dashboard = ڈیش بورڈ
+nav-settings = ترتیباں
+nav-support = مدد تے سہارا
+nav-sign-out = سائن آؤٹ
+nav-contact = ساݙے نال رابطہ کرو
+
 ## Footer
 
 nav-footer-privacy = رازداری
@@ -458,6 +469,10 @@ tips-footer-link-feedback-label = فیڈبیک
 tips-footer-link-feedback-tooltip = فیڈبیک ݙیوو
 tips-footer-link-support-label = سہارا
 tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = گُر { $nr }
 
 ## Modal for generating a custom mask
 
@@ -563,13 +578,6 @@ modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل س�
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ہݨ تہاݙی ای میل سب ڈومین ہے!
 modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای میل ماسک تخلیق کر سڳدے ہو!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = گُر { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
