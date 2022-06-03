@@ -71,6 +71,8 @@ nav-settings = ترتیباں
 nav-support = مدد تے سہارا
 nav-sign-out = سائن آؤٹ
 nav-contact = ساݙے نال رابطہ کرو
+fx-desktop-2 = ڈیسک ٹاپ کیتے { -brand-name-firefox }
+fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
 ## Footer
 
@@ -259,6 +261,11 @@ settings-warning-collection-off-heading-2 = ای میل ماسک لیبل عمل
 setting-label-collection-heading-v2 = رازداری
 settings-button-save-label = محفوظ
 settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = اے پی آئی کنجی
+# This is a label that appears on hover to copy the API key
+settings-button-copy = نقل کرݨ کیتے کلک کرو
+setting-api-key-copied = نقل تھی ڳیا!
 
 ## FAQ Page
 
