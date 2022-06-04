@@ -66,6 +66,19 @@ nav-profile-contact = Contatti
 nav-profile-contact-tooltip = Contattaci riguardo a { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
 
+## Mobile menu text
+
+menu-upgrade-button = Aggiorna
+menu-toggle-open = Apri menu
+menu-toggle-close = Chiudi menu
+nav-dashboard = Pannello
+nav-settings = Impostazioni
+nav-support = Guida e supporto
+nav-sign-out = Disconnetti
+nav-contact = Contatti
+fx-desktop-2 = { -brand-name-firefox } per desktop
+fx-mobile-2 = { -brand-name-firefox } per dispositivi mobili
+
 ## Footer
 
 nav-footer-privacy = Privacy
@@ -333,6 +346,7 @@ settings-button-save-tooltip = Applica le impostazioni scelte.
 setting-label-api-key = Chiave API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Fai clic per copiare
+setting-api-key-copied = Copiato
 
 ## FAQ Page
 
@@ -563,6 +577,7 @@ banner-label-data-notification-header = Disponibile a breve su { -brand-name-rel
 banner-label-data-notification-cta = Vai alle impostazioni
 banner-label-data-notification-header-v2 = Attiva nuove funzioni
 banner-label-data-notification-body-cta = Ulteriori informazioni
+banner-upgrade-loyalist-cta = Ottieni una maggiore protezione
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
