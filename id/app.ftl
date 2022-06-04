@@ -62,6 +62,19 @@ nav-profile-contact = Hubungi kami
 nav-profile-contact-tooltip = Hubungi kami tentang { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Perbarui
+menu-toggle-open = Buka menu
+menu-toggle-close = Tutup menu
+nav-dashboard = Dasbor
+nav-settings = Pengaturan
+nav-support = Bantuan dan Dukungan
+nav-sign-out = Keluar
+nav-contact = Hubungi Kami
+fx-desktop-2 = { -brand-name-firefox } untuk Desktop
+fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
+
 ## Footer
 
 nav-footer-privacy = Privasi
@@ -334,6 +347,11 @@ setting-label-collection-description-2 = Izinkan { -brand-name-relay } mengumpul
 setting-label-collection-off-warning-2 = Data ini akan memungkinkan kami untuk memberi label pada topeng Anda dengan situs web yang menggunakannya. Jika Anda memutuskan tidak ikut dengan preferensi ini, topeng Anda tidak akan diberi label dengan situs web di mana topeng digunakan.
 settings-button-save-label = Simpan
 settings-button-save-tooltip = Terapkan pengaturan yang Anda pilih.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Kunci API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Klik untuk menyalin
+setting-api-key-copied = Tersalin!
 
 ## FAQ Page
 
@@ -568,6 +586,12 @@ banner-label-data-notification-header = Segera hadir di { -brand-name-relay }
 banner-label-data-notification-cta = Buka Pengaturan
 banner-label-data-notification-header-v2 = Aktifkan fitur baru
 banner-label-data-notification-body-cta = Pelajari lebih lanjut
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Dapatkan perlindungan dan dukung Internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Lindungi privasi Anda sekaligus bergabung memperjuangkan Internet yang lebih baik, semuanya dengan { $monthly_price }
+banner-upgrade-loyalist-cta = Dapatkan perlindungan lebih
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Anda dapat membuat alamat @{ $subdomain } apa pun
@@ -612,6 +636,11 @@ tips-footer-link-feedback-label = Masukan
 tips-footer-link-feedback-tooltip = Kirim masukan
 tips-footer-link-support-label = Dukungan
 tips-footer-link-support-tooltip = Kontak dukungan
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Kiat { $nr }
+tips-toast-button-expand-label = Pelajari lebih lanjut
 
 ## Modal for generating a custom mask
 
@@ -744,13 +773,6 @@ modal-domain-register-success-2 = Kini { $subdomain } adalah subdomain surel And
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Kini, <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> adalah subdomain surel Anda!
 modal-domain-register-success-copy-2 = Sekarang Anda dapat membuat topeng email kustom tanpa batas!
-
-## The "Help & Tips" area at the bottom of the page
-
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = Kiat { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
