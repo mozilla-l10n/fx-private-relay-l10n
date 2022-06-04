@@ -203,6 +203,7 @@ landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-access-content = مواد تائیں رسائی کرو
 landing-use-cases-gaming = کھیݙݨ
+landing-use-cases-shopping-hero-heading = ای میل ماسکاں نال خریداری کرݨ
 landing-use-cases-on-the-go = گو تے
 landing-use-cases-on-the-go-heading = { -brand-name-relay } نال گو تے
 landing-use-cases-on-the-go-connect-heading = گو نال کنکٹ تھیوو
