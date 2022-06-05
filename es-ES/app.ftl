@@ -62,6 +62,19 @@ nav-profile-contact = Contacta con nosotros
 nav-profile-contact-tooltip = Contacta con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account }
 
+## Mobile menu text
+
+menu-upgrade-button = Actualizar
+menu-toggle-open = Abrir menú
+menu-toggle-close = Cerrar menú
+nav-dashboard = Panel
+nav-settings = Ajustes
+nav-support = Ayuda y asistencia
+nav-sign-out = Cerrar sesión
+nav-contact = Contacta con nosotros
+fx-desktop-2 = { -brand-name-firefox } para escritorio
+fx-mobile-2 = { -brand-name-firefox } para móviles
+
 ## Footer
 
 nav-footer-privacy = Privacidad
@@ -341,6 +354,7 @@ settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 setting-label-api-key = Clave API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
+setting-api-key-copied = ¡Copiado!
 
 ## FAQ Page
 
@@ -575,6 +589,12 @@ banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Obtén protección y apoya Internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Protege tu privacidad mientras te unes a la lucha por un internet mejor, todo por { $monthly_price }
+banner-upgrade-loyalist-cta = Obtén más protección
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
