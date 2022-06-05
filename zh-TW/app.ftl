@@ -62,6 +62,19 @@ nav-profile-contact = 聯絡我們
 nav-profile-contact-tooltip = 聯絡我們有關 { -brand-name-relay-premium } 的各種事項
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
 
+## Mobile menu text
+
+menu-upgrade-button = 升級
+menu-toggle-open = 開啟選單
+menu-toggle-close = 關閉選單
+nav-dashboard = 儀錶板
+nav-settings = 設定
+nav-support = 說明與技術支援
+nav-sign-out = 登出
+nav-contact = 聯絡我們
+fx-desktop-2 = { -brand-name-firefox } 桌面版
+fx-mobile-2 = { -brand-name-firefox } 行動版
+
 ## Footer
 
 nav-footer-privacy = 隱私權
@@ -313,6 +326,7 @@ settings-button-save-tooltip = 套用設定。
 setting-label-api-key = API 金鑰
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 點擊複製
+setting-api-key-copied = 已複製！
 
 ## FAQ Page
 
@@ -543,6 +557,12 @@ banner-label-data-notification-header = 即將新增到 { -brand-name-relay } �
 banner-label-data-notification-cta = 開啟設定
 banner-label-data-notification-header-v2 = 開啟全新功能
 banner-label-data-notification-body-cta = 了解更多
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = 獲得保護並保護網路環境
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = 在保護您隱私的同時，加入我們為更好的網路環境而戰，全部只需 { $monthly_price }
+banner-upgrade-loyalist-cta = 獲得更多保護
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
