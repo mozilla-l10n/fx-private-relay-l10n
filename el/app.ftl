@@ -87,6 +87,19 @@ nav-profile-contact = Επικοινωνία
 nav-profile-contact-tooltip = Επικοινωνία σχετικά με το { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Αναβάθμιση
+menu-toggle-open = Άνοιγμα μενού
+menu-toggle-close = Κλείσιμο μενού
+nav-dashboard = Πίνακας
+nav-settings = Ρυθμίσεις
+nav-support = Βοήθεια και υποστήριξη
+nav-sign-out = Αποσύνδεση
+nav-contact = Επικοινωνία
+fx-desktop-2 = { -brand-name-firefox } για υπολογιστές
+fx-mobile-2 = { -brand-name-firefox } για κινητά
+
 ## Footer
 
 nav-footer-privacy = Απόρρητο
@@ -345,6 +358,11 @@ setting-label-collection-description-2 = Να επιτρέπεται στο { -b
 setting-label-collection-off-warning-2 = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στις μάσκες σας με τους ιστοτόπους όπου χρησιμοποιούνται. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, οι μάσκες σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
 settings-button-save-label = Αποθήκευση
 settings-button-save-tooltip = Εφαρμογή των επιλεγμένων σας ρυθμίσεων.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = Κλειδί API
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Κάντε κλικ για αντιγραφή
+setting-api-key-copied = Αντιγράφηκε!
 
 ## FAQ Page
 
