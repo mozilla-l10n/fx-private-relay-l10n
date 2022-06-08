@@ -351,6 +351,8 @@ settings-button-save-label = Зберегти
 settings-button-save-tooltip = Застосувати вибрані налаштування.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Ключ API
+settings-api-key-description = Це ваш ключ API { -brand-name-relay }. Він дозволяє іншим програмам автоматично отримувати доступ до вашого облікового запису { -brand-name-relay }.
+settings-api-key-description-bolded = Використовуйте його лише з довіреними застосунками, щоб отримати доступ до вашого облікового запису { -brand-name-relay }.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Клацніть, щоб скопіювати
 setting-api-key-copied = Скопійовано!
