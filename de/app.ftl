@@ -350,6 +350,8 @@ settings-button-save-label = Speichern
 settings-button-save-tooltip = Gewählte Einstellungen übernehmen.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-Schlüssel
+settings-api-key-description = Dies ist Ihr { -brand-name-relay }-API-Schlüssel. Dadurch können andere Apps automatisch auf Ihr { -brand-name-relay }-Konto zugreifen.
+settings-api-key-description-bolded = Verwenden Sie dies nur bei Apps, denen Sie beim Zugriff auf Ihr { -brand-name-relay }-Konto vertrauen.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Zum Kopieren anklicken
 setting-api-key-copied = Kopiert
