@@ -585,6 +585,7 @@ banner-label-data-notification-header = Prochainement dans { -brand-name-relay }
 banner-label-data-notification-cta = Ouvrir les paramètres
 banner-label-data-notification-header-v2 = Activer les nouvelles fonctionnalités
 banner-label-data-notification-body-cta = En savoir plus
+banner-upgrade-loyalist-cta = Obtenez encore plus de protection
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
