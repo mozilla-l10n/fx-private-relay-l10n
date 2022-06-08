@@ -281,11 +281,13 @@ landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 ## Landing Reviews Section
 
 landing-reviews-add-ons = Add-ons
-landing-reviews-details-source = Source
-landing-reviews-rating = out of 5 (328 reviews)
+landing-reviews-logo-title = { -brand-name-firefox } Browser
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Source: addons.mozilla.org
+landing-reviews-rating = out of 5 ({ $review_count } reviews)
 landing-reviews-show-next-button = show next review
 landing-reviews-show-previous-button = show previous review
-landing-review-anonymous-user = { -brand-name-firefox } user
+landing-review-anonymous-user = { -brand-name-firefox } user { $user_id }
 landing-review-user-one-review = I really appreciate the { -brand-name-mozilla } team for being so creative and simplifying the anonymizing of my e-mail address. This is a great extension, I highly recommend it to the privacy-aware!
 landing-review-user-two-review = Simple tool to get rid of or avoid spamming your email ID.
 landing-review-user-three-review = Love this extension! Very simple but powerful and the integration with the browser is wonderful.
