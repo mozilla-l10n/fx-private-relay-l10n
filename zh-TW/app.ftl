@@ -325,6 +325,7 @@ settings-button-save-tooltip = 套用設定。
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API 金鑰
 settings-api-key-description = 這是您的 { -brand-name-relay } API 金鑰，此金鑰可讓其他應用程式自動存取您的 { -brand-name-relay } 帳號。
+settings-api-key-description-bolded = 請只在信任可存取您的 { -brand-name-relay } 帳號的應用程式當中使用此金鑰。
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 點擊複製
 setting-api-key-copied = 已複製！
