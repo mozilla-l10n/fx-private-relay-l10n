@@ -278,6 +278,21 @@ landing-use-cases-signups-hero-content2 = Before you complete that next signup, 
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
 landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Add-ons
+landing-reviews-details-source = Source
+landing-reviews-rating = out of 5 (328 reviews)
+landing-review-anonymous-user = { -brand-name-firefox } user
+landing-review-user-one-review = I really appreciate the { -brand-name-mozilla } team for being so creative and simplifying the anonymizing of my e-mail address. This is a great extension, I highly recommend it to the privacy-aware!
+landing-review-user-two-review = Simple tool to get rid of or avoid spamming your email ID.
+landing-review-user-three-review = Love this extension! Very simple but powerful and the integration with the browser is wonderful.
+
+landing-review-user-four-review-list-1 = Gives peace of mind when surfing internet.
+landing-review-user-four-review-list-2 = Protects ones identity from trackers through generation of aliases where one does not want to share the real email address for various reasons.
+landing-review-user-four-review-list-3 = Email inbox data is safe in the hands of { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works wonders, try it!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Make protecting your inbox easier with { -brand-name-firefox-relay-premium }
