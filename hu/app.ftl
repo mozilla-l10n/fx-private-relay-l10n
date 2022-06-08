@@ -350,6 +350,8 @@ settings-button-save-label = Mentés
 settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-kulcs
+settings-api-key-description = Ez az Ön { -brand-name-relay } API-kulcsa. Lehetővé teszi, hogy más alkalmazások automatikusan hozzáférjenek az Ön { -brand-name-relay }-fiókjához.
+settings-api-key-description-bolded = Csak olyan alkalmazásokkal használja, amelyekben megbízik annyira, hogy hozzáférjenek a { -brand-name-relay }-fiókjához.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kattintson a másoláshoz
 setting-api-key-copied = Másolva!
