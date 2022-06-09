@@ -358,6 +358,7 @@ profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
 profile-label-forwarded = اڳوں تے پٹھ ݙتا
+profile-label-replies = جواب
 profile-label-cancel = منسوخ
 profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
