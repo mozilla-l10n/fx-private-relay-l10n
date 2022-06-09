@@ -484,12 +484,14 @@ profile-label-click-to-copy = Cliquer pour copier
 profile-label-copied = Copié !
 profile-label-blocked = Bloqués
 profile-label-forwarded = Transférés
+profile-label-replies = Réponses
 profile-label-cancel = Annuler
 profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
 profile-forwarded-note = Remarque :
 profile-forwarded-note-copy = Les messages (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne sont actuellement pas pris en charge et ne seront pas transférés.
 profile-forwarded-note-copy-v2 = Les e-mails (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne seront pas transférés.
+profile-replies-tooltip = Vous pouvez répondre aux e-mails reçus via cet alias, et { -brand-name-firefox-relay } continuera à protéger votre véritable adresse e-mail.
 profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
@@ -585,6 +587,11 @@ banner-label-data-notification-header = Prochainement dans { -brand-name-relay }
 banner-label-data-notification-cta = Ouvrir les paramètres
 banner-label-data-notification-header-v2 = Activer les nouvelles fonctionnalités
 banner-label-data-notification-body-cta = En savoir plus
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Protégez-vous et soutenez Internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Protégez votre vie privée tout en rejoignant la lutte pour un meilleur Internet, le tout pour { $monthly_price }
 banner-upgrade-loyalist-cta = Obtenez encore plus de protection
 # Variables:
 # $subdomain (url) - User-set subdomain
