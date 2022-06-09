@@ -354,6 +354,8 @@ settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-kaai
+settings-api-key-description = Dit is jo { -brand-name-relay }-API-kaai. Hjirmei kinne oare apps automatysk tagong krije ta jo { -brand-name-relay }-account.
+settings-api-key-description-bolded = Brûk dit allinnich mei apps dy’t jo fertrouwe om tagong te krijen ta jo { -brand-name-relay }-account foar jo.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klikje om te kopiearjen
 setting-api-key-copied = Kopiearre!
@@ -486,12 +488,14 @@ profile-label-click-to-copy = Klikje om te kopiearjen
 profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
+profile-label-replies = Antwurdzje
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
+profile-replies-tooltip = Jo kinne fia dit masker ûntfongen e-mailberjochten beäntwurdzje en { -brand-name-firefox-relay } sil jo echte e-mailadres beskermje bliuwe.
 profile-stat-label-blocked = E-mailberjochten blokkearre
 profile-stat-label-forwarded = E-mailberjochten trochstjoerd
 profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
