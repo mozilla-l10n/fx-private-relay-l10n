@@ -62,6 +62,12 @@ nav-profile-contact = Cysylltu â ni
 nav-profile-contact-tooltip = Cysylltu â ni ynghylch { -brand-name-relay-premium }
 nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Uwchraddio
+menu-toggle-open = Agor dewislen
+menu-toggle-close = Cau Dewislen
+
 ## Footer
 
 nav-footer-privacy = Preifatrwydd
