@@ -66,7 +66,14 @@ nav-profile-image-alt = Afatar { -brand-name-firefox-account(capitalization: "up
 
 menu-upgrade-button = Uwchraddio
 menu-toggle-open = Agor dewislen
-menu-toggle-close = Cau Dewislen
+menu-toggle-close = Cau dewislen
+nav-dashboard = Bwrdd Gwaith
+nav-settings = Gosodiadau
+nav-support = Cymorth a Chefnogaeth
+nav-sign-out = Allgofnodi
+nav-contact = Cysylltwch â ni
+fx-desktop-2 = { -brand-name-firefox } y Bwrdd Gwaith
+fx-mobile-2 = { -brand-name-firefox } Symudol
 
 ## Footer
 
@@ -347,8 +354,11 @@ settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Allwedd API
+settings-api-key-description = Hwn yw eich Allwedd API { -brand-name-relay }. Mae'n caniatáu i apiau eraill gael mynediad awtomatig i'ch cyfrif { -brand-name-relay }.
+settings-api-key-description-bolded = Defnyddiwch hwn dim ond gydag apiau rydych yn ymddiried ynddyn nhw i gael mynediad i'ch cyfrif { -brand-name-relay } i chi.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicio i'w gopïo
+setting-api-key-copied = Copïwyd!
 
 ## FAQ Page
 
@@ -478,12 +488,14 @@ profile-label-click-to-copy = Clicio i'w gopïo
 profile-label-copied = Copïwyd!
 profile-label-blocked = Rhwystrwyd
 profile-label-forwarded = Anfonwyd Ymlaen
+profile-label-replies = Atebion
 profile-label-cancel = Diddymu
 profile-blocked-copy-2 = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-copy-2 = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-note = Nodyn:
 profile-forwarded-note-copy = Nid yw e-bost (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael ei gefnogi ar hyn o bryd a fyddan nhw ddim yn cael eu hanfon ymlaen.
 profile-forwarded-note-copy-v2 = Ni fydd e-byst (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
+profile-replies-tooltip = Gallwch ateb e-byst a dderbyniwyd drwy'r arallenw hwn, a bydd { -brand-name-firefox-relay } yn parhau i ddiogelu eich gwir gyfeiriad e-bost.
 profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 profile-stat-label-aliases-used-2 = Arallenwau e-bost wedi'u defnyddio
@@ -583,6 +595,12 @@ banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
 banner-label-data-notification-cta = Mynd i'r Gosodiadau
 banner-label-data-notification-header-v2 = Galluogi nodweddion newydd
 banner-label-data-notification-body-cta = Dysgu Rhagor
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline = Cael diogelwch a chefnogi'r rhyngrwyd
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy = Diogelwch eich preifatrwydd wrth ymuno â'r frwydr am well rhyngrwyd, i gyd am { $monthly_price }
+banner-upgrade-loyalist-cta = Cael rhagor o ddiogelwch
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomain }
