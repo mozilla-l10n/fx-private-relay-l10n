@@ -346,6 +346,8 @@ settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Clave API
+settings-api-key-description = Isto es tu clave API de { -brand-name-relay }. Illo permitte a altere apps de automaticamente acceder a tu conto { -brand-name-relay }.
+settings-api-key-description-bolded = Usa isto solo con apps fidibile pro acceder a tu conto { -brand-name-relay } pro te.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicca pro copiar
 setting-api-key-copied = Copiate!
@@ -478,12 +480,14 @@ profile-label-click-to-copy = Clicca pro copiar
 profile-label-copied = Copiate!
 profile-label-blocked = Blocate
 profile-label-forwarded = Inviate ultra
+profile-label-replies = Responsas
 profile-label-cancel = Cancellar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste masca.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste masca.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
 profile-forwarded-note-copy-v2 = Ulle e-mail (annexos includite) major de { email-size-limit } non sera inultrate.
+profile-replies-tooltip = Per iste masca tu pote responder al emails recipite, e { -brand-name-firefox-relay } continuara a proteger tu ver adresse email
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used-2 = Mascas email usate
