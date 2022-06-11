@@ -282,6 +282,8 @@ landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε 
 landing-use-cases-on-the-go = Εν κινήσει
 landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
 landing-use-cases-on-the-go-connect-heading = Σύνδεση εν κινήσει
+landing-use-cases-on-the-go-receipt-heading = Λήψη αποδείξεων email
+landing-use-cases-on-the-go-phone-heading = Χρήση στο τηλέφωνό σας
 landing-use-cases-signups = Εγγραφές
 landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
 
@@ -492,6 +494,7 @@ profile-label-click-to-copy = Κάντε κλικ για αντιγραφή
 profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
+profile-label-replies = Απαντήσεις
 profile-label-cancel = Ακύρωση
 profile-blocked-copy-2 = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτήν τη μάσκα.
 profile-forwarded-copy-2 = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτήν τη μάσκα.
@@ -597,6 +600,7 @@ banner-label-data-notification-header = Έρχεται σύντομα στο { -
 banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
+banner-upgrade-loyalist-cta = Περισσότερη προστασία
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
