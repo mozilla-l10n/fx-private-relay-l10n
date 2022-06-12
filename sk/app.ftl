@@ -392,6 +392,8 @@ settings-button-save-label = Uložiť
 settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API kľúč
+settings-api-key-description = Toto je váš kľúč API pre { -brand-name-relay }. Umožňuje ostatným aplikáciám automaticky pristupovať k vášmu účtu služby { -brand-name-relay }.
+settings-api-key-description-bolded = Použite ho iba s aplikáciami, ktorým dôverujete, aby mali prístup k vášmu účtu { -brand-name-relay }.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kliknutím skopírujete
 setting-api-key-copied = Skopírované!
@@ -524,12 +526,14 @@ profile-label-click-to-copy = Kliknutím skopírujete
 profile-label-copied = Skopírovaný!
 profile-label-blocked = Zablokované
 profile-label-forwarded = Preposlané
+profile-label-replies = Odpovede
 profile-label-cancel = Zrušiť
 profile-blocked-copy-2 = Ak pre túto masku zvolíte blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
 profile-forwarded-copy-2 = Keď zvolíte pre túto masku preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
 profile-forwarded-note = Poznámka:
 profile-forwarded-note-copy = E-maily (vrátane príloh) väčšie ako { email-size-limit } nie sú v súčasnosti podporované a nebudú preposielané.
 profile-forwarded-note-copy-v2 = E-maily (vrátane príloh) väčšie ako { email-size-limit } nebudú preposielané.
+profile-replies-tooltip = Môžete odpovedať na e-maily prijaté prostredníctvom tejto masky a { -brand-name-firefox-relay } bude naďalej chrániť vašu skutočnú e-mailovú adresu.
 profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used-2 = Použité e-mailové masky
