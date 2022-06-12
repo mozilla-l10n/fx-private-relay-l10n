@@ -349,6 +349,8 @@ settings-button-save-label = Simpan
 settings-button-save-tooltip = Terapkan pengaturan yang Anda pilih.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Kunci API
+settings-api-key-description = Ini adalah kunci API { -brand-name-relay } Anda. Ini memungkinkan aplikasi lain secara otomatis mengakses akun { -brand-name-relay } Anda.
+settings-api-key-description-bolded = Hanya gunakan ini dengan aplikasi yang Anda percaya untuk mengakses akun { -brand-name-relay } untuk Anda.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klik untuk menyalin
 setting-api-key-copied = Tersalin!
@@ -481,12 +483,14 @@ profile-label-click-to-copy = Klik untuk menyalin
 profile-label-copied = Tersalin!
 profile-label-blocked = Diblokir
 profile-label-forwarded = Diteruskan
+profile-label-replies = Balasan
 profile-label-cancel = Batal
 profile-blocked-copy-2 = { -brand-name-firefox-relay } akan menghapus pesan sebelum masuk ke kotak masuk Anda saat Anda memilih memblokir untuk topeng ini.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } akan mengirim pesan ke kotak masuk Anda saat Anda pilih meneruskan untuk topeng ini.
 profile-forwarded-note = Catatan:
 profile-forwarded-note-copy = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } saat ini tidak didukung dan tidak akan diteruskan.
 profile-forwarded-note-copy-v2 = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } tidak akan diteruskan.
+profile-replies-tooltip = Anda dapat membalas surel yang diterima melalui topeng ini, dan { -brand-name-firefox-relay } akan lanjut melindungi alamat surel asli Anda.
 profile-stat-label-blocked = Surel Diblokir
 profile-stat-label-forwarded = Surel Diteruskan
 profile-stat-label-aliases-used-2 = Topeng surel digunakan
