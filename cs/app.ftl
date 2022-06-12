@@ -269,6 +269,19 @@ nav-profile-contact = Kontakt
 nav-profile-contact-tooltip = Kontaktujte nás ohledně služby { -brand-name-relay-premium }
 nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capitalization: "uppercase") }
 
+## Mobile menu text
+
+menu-upgrade-button = Aktualizovat
+menu-toggle-open = Otevřít nabídku
+menu-toggle-close = Zavřít nabídku
+nav-dashboard = Nástěnka
+nav-settings = Nastavení
+nav-support = Nápověda a podpora
+nav-sign-out = Odhlásit se
+nav-contact = Kontaktujte nás
+fx-desktop-2 = { -brand-name-firefox } pro počítač
+fx-mobile-2 = { -brand-name-firefox } pro mobily
+
 ## Footer
 
 nav-footer-privacy = Ochrana osobních údajů
@@ -335,6 +348,8 @@ whatsnew-feature-alias-to-mask-snippet = Všiml jste si změny? Aliasy jsme ve {
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všiml jste si změny? Aliasy jsme ve { -brand-name-firefox-relay(case: "loc") } přejmenovaly na masky, aby se vám snáze používaly.
+whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } je dostupná ve Švédsku
+whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } je dostupná ve Finsku
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
@@ -410,6 +425,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Zdarma
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
 landing-pricing-free-feature-2 = Rozšíření do prohlížeče
+landing-pricing-free-description = Vyzkoušejte masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku.
 landing-pricing-free-cta = Získejte { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 landing-pricing-free-ribbon = Nyní dostupné!
@@ -469,6 +485,12 @@ landing-use-cases-on-the-go-connect-heading = Připojení na cestách
 landing-use-cases-on-the-go-connect-body = Když se chcete soukromě přihlásit do své oblíbené kavárny nebo veřejné sítě Wi-Fi, použijte svou e-mailovou masku.
 landing-use-cases-on-the-go-receipt-heading = Příjem e-mailových účtenek
 landing-use-cases-on-the-go-receipt-body = Sdílejte vámi zvolenou e-mailovou masku pro obdržení účtenek z nákupů v obchodě, bez nutnosti sdílet váš skutečný e-mail
+landing-use-cases-on-the-go-phone-heading = Použití i v telefonu
+landing-use-cases-on-the-go-phone-body = Ať jste kdekoli, vytvořte si během několika sekund vlastní e-mailovou masku pro cokoli, co chcete udělat.
+landing-use-cases-signups = Registrace
+landing-use-cases-signups-hero-heading = Registrace bez obav
+landing-use-cases-signups-hero-content1 = Chcete si zřídit nové předplatné, odpovědět na pozvánku nebo získat výhodný promo kód bez toho, aby vám e-mailovou schránku zaplavil spam?
+landing-use-cases-signups-hero-content2 = Během své další registrace použijte místo svého skutečného e-mailu masku, abyste ochránili své údaje a udržovali si kontrolu nad doručenou poštou.
 
 ## Landing FAQ Section
 
@@ -517,6 +539,7 @@ premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
 ## The Premium waitlist page
 
+waitlist-heading = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 waitlist-lead =
     { -brand-name-firefox-relay-premium.gender ->
         [masculine] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
@@ -524,6 +547,17 @@ waitlist-lead =
         [neuter] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupné.
        *[other] Dáme vám vědět, až pro vás bude služba { -brand-name-firefox-relay-premium } dostupná.
     }
+waitlist-control-required = Povinné
+waitlist-control-email-label = Jaká je vaše e-mailová adresa?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = vase-adresa@example.com
+waitlist-control-country-label = V jaké zemi žijete?
+waitlist-control-locale-label = Vyberte svůj preferovaný jazyk.
+waitlist-submit-label = Přidat se na čekací listinu
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Klepnutím na tlačítko „{ waitlist-submit-label }“ souhlasíte s našimi <a>zásadami ochrany osobních údajů</a>.
+waitlist-privacy-policy-use = Vaše údaje budou použity pouze na informování o dostupnosti služby { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success =
     { -brand-name-firefox-relay-premium.gender ->
         [masculine] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
@@ -531,6 +565,8 @@ waitlist-subscribe-success =
         [neuter] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupné.
        *[other] Máme vás na seznamu a dáme vám vědět, až pro vás bude služba { -brand-name-firefox-relay-premium } dostupná.
     }
+waitlist-subscribe-error-connection = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkontrolujte prosím své připojení a zkuste to znovu.
+waitlist-subscribe-error-unknown = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkuste to prosím znovu.
 
 ## Settings page
 
@@ -554,6 +590,11 @@ setting-label-collection-description-2 = Povolit { -brand-name-relay(case: "dat"
 setting-label-collection-off-warning-2 = Tyto údaje nám umožní propojit vaše e-mailové masky s webovými stránkami, kde se používají. Pokud se rozhodnete tuto předvolbu zrušit, vaše masky nebudou propojeny s webovými stránkami, kde se používají.
 settings-button-save-label = Uložit
 settings-button-save-tooltip = Použijte zvolená nastavení.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API klíč
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Klepnutím zkopírujete do schránky
+setting-api-key-copied = Zkopírováno!
 
 ## FAQ Page
 
@@ -588,6 +629,11 @@ faq-question-2-question-2 = Proč stránka nepřijme moji e-mailovou masku { -br
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Některé stránky nemusí e-mailové z adresy, které obsahují subdoménu (@vase-domena.mozmail.com). Jiné přestaly přijímat všechny adresy kromě adres ze serverů Gmail, Hotmail nebo Yahoo.
 faq-question-1-question = A co spam?
+faq-question-1-answer-a-2 = { -brand-name-relay } sice nefiltruje spam, ovšem náš e-mailový partner Amazon SES spam a malware blokuje. Pokud služba { -brand-name-relay } přeposílá zprávy, které nechcete, můžete upravit její nastavení tak, aby blokovala zprávy od masky, která je přeposílá.
+# Variables:
+#   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-1-answer-b-2-html = Pokud zaznamenáte rozsáhlejší problém zasílání nevyžádaných e-mailů od všech masek, <a href="{ $url }" { $attrs }>nahlaste nám to</a> prosím, abychom zvážili úpravu prahových hodnot spamu SES pro tuto službu. Jestliže je nahlásíte jako spam, váš poskytovatel e-mailu bude jako zdroj spamu vidět službu { -brand-name-relay }, a ne původního odesílatele.
 faq-question-availability-question =
     { -brand-name-relay.gender ->
         [masculine] Kde je { -brand-name-relay } dostupný?
