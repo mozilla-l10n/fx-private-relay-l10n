@@ -352,6 +352,8 @@ settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Clave API
+settings-api-key-description = Esta es tu clave API de { -brand-name-relay }. Permite que otras aplicaciones accedan automáticamente a tu cuenta de { -brand-name-relay }.
+settings-api-key-description-bolded = Utilízala solo con aplicaciones en las que confíes para acceder a tu cuenta de { -brand-name-relay } en tu nombre.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
@@ -484,12 +486,14 @@ profile-label-click-to-copy = Haz clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviado
+profile-label-replies = Respuestas
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluidos los archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
+profile-replies-tooltip = Puedes responder a los correos electrónicos recibidos a través de esta máscara y { -brand-name-firefox-relay } continuará protegiendo tu dirección de correo real.
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used-2 = Máscaras de correo utilizadas
