@@ -592,10 +592,10 @@ banner-label-data-notification-cta = Einstellungen öffnen
 banner-label-data-notification-header-v2 = Neue Funktionen aktivieren
 banner-label-data-notification-body-cta = Weitere Informationen
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline = Schützen Sie sich und unterstützen Sie das Internet
+banner-upgrade-loyalist-headline-2 = Schützen Sie Ihre Privatsphäre, retten Sie das Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy = Schützen Sie Ihre Privatsphäre, während Sie sich dem Kampf für ein besseres Internet anschließen, alles für { $monthly_price }
+banner-upgrade-loyalist-copy-2 = Schützen Sie Ihre Privatsphäre und unterstützen Sie gleichzeitig unsere Mission für ein besseres Internet, alles für { $monthly_price }
 banner-upgrade-loyalist-cta = Holen Sie sich noch mehr Schutz
 # Variables:
 # $subdomain (url) - User-set subdomain
