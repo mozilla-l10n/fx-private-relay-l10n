@@ -280,6 +280,19 @@ landing-use-cases-signups-hero-content2 = Перш ніж здійснити н�
 landing-faq-headline = Найпопулярніші запитання про { -brand-name-firefox-relay }
 landing-faq-cta = Перегляньте інші поширені запитання про { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Додатки
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Джерело: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = з 5 ({ $review_count } відгуків)
+landing-reviews-show-next-button = показати наступний відгук
+landing-reviews-show-previous-button = показати попередній відгук
+landing-review-anonymous-user = { -brand-name-firefox } користувач { $user_id }
+
 ## Premium promo page
 
 premium-promo-hero-headline = Спростіть захист своєї поштової скриньки за допомогою { -brand-name-firefox-relay-premium }
