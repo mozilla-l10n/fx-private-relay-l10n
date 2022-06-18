@@ -292,6 +292,13 @@ landing-reviews-rating = з 5 ({ $review_count } відгуків)
 landing-reviews-show-next-button = показати наступний відгук
 landing-reviews-show-previous-button = показати попередній відгук
 landing-review-anonymous-user = { -brand-name-firefox } користувач { $user_id }
+landing-review-user-one-review = Щира подяка команді { -brand-name-mozilla } за креативність та спрощення анонімізації моєї електронної адреси. Це чудове розширення, я дуже раджу його тим, хто переймається приватністю!
+landing-review-user-two-review = Простий інструмент, щоб позбутися або уникнути спаму для вашого ID електронної пошти.
+landing-review-user-three-review = Подобається це розширення! Дуже просте, але потужне, а інтеграція з браузером чудова.
+landing-review-user-four-review-list-1 = Забезпечує спокій під час перегляду в Інтернеті.
+landing-review-user-four-review-list-2 = Захищає особистість від елементів стеження за допомогою генерування псевдоадрес, коли з різних причин не хочеться ділитися справжньою адресою електронної пошти.
+landing-review-user-four-review-list-3 = Дані вхідної електронної пошти в безпеці в руках { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } творить чудеса, спробуйте!!!
 
 ## Premium promo page
 
