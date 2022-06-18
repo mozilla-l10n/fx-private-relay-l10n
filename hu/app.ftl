@@ -279,6 +279,20 @@ landing-use-cases-signups-hero-content2 = Mielőtt befejezné a következő regi
 landing-faq-headline = A leggyakoribb kérdések a { -brand-name-firefox-relay }-jel kapcsolatban
 landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Kiegészítők
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Forrás: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = az 5-ből ({ $review_count } értékelés)
+landing-reviews-show-next-button = következő értékelés megjelenítése
+landing-reviews-show-previous-button = előző értékelés megjelenítése
+landing-review-anonymous-user = { $user_id } számú { -brand-name-firefox }-felhasználó
+landing-review-user-one-review = Nagyra értékelem a { -brand-name-mozilla } csapatát, amiért ilyen kreatívak és leegyszerűsítették az e-mail-címem anonimizálását. Ez egy nagyszerű kiegészítő, nagyon ajánlom azoknak, akik tudatosak az adatvédelmükkel kapcsolatban.
+
 ## Premium promo page
 
 premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
