@@ -279,6 +279,26 @@ landing-use-cases-signups-hero-content2 = Bevor Sie die nächste Registrieren ab
 landing-faq-headline = Häufigste Fragen zu { -brand-name-firefox-relay }
 landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Add-ons
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Quelle: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = von 5 ({ $review_count } Bewertungen)
+landing-reviews-show-next-button = Nächste Bewertung anzeigen
+landing-reviews-show-previous-button = Vorherige Bewertung anzeigen
+landing-review-anonymous-user = { -brand-name-firefox }-Nutzer { $user_id }
+landing-review-user-one-review = Ich schätze das Team von { -brand-name-mozilla } sehr dafür, dass es so kreativ ist und die Anonymisierung meiner E-Mail-Adresse vereinfacht hat. Dies ist eine großartige Erweiterung, ich kann sie datenschutzbewussten Personen nur wärmstens empfehlen!
+landing-review-user-two-review = Einfaches Werkzeug, um Ihre E-Mail-ID loszuwerden oder Spam zu vermeiden.
+landing-review-user-three-review = Ich liebe diese Erweiterung! Sehr einfach, aber leistungsstark und die Integration mit dem Browser ist wunderbar.
+landing-review-user-four-review-list-1 = Gibt Sicherheit beim Surfen im Internet.
+landing-review-user-four-review-list-2 = Schützt die eigene Identität vor Trackern durch die Generierung von Aliasnamen, wenn man die echte E-Mail-Adresse aus verschiedenen Gründen nicht weitergeben möchte.
+landing-review-user-four-review-list-3 = E-Mail-Posteingangsdaten sind in den Händen von { -brand-name-firefox-relay } sicher.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } wirkt Wunder, probieren Sie es aus!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Erleichtere den Schutz deines Posteingangs mit { -brand-name-firefox-relay-premium }
