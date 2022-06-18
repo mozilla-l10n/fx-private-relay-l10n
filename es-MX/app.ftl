@@ -279,6 +279,14 @@ landing-use-cases-signups-hero-content2 = Antes de completar el próximo registr
 landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
 landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Complementos
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Fuente: addons.mozilla.org
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona de maravilla, ¡pruébalo!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
