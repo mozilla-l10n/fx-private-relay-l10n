@@ -396,6 +396,7 @@ profile-promo-email-blocking-label-none = سارے بلاک کرو
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } صرف)
+profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } دے سبسکرائبراں کیتے دستیاب
 profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گریڈ کرو
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 profile-promo-email-blocking-description-promotionals-locked-close = بند کرو
