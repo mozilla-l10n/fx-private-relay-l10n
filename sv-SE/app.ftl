@@ -290,6 +290,14 @@ landing-reviews-details-source = Källa: addons.mozilla.org
 landing-reviews-rating = av 5 ({ $review_count } recensioner)
 landing-reviews-show-next-button = visa nästa recension
 landing-reviews-show-previous-button = visa föregående recension
+landing-review-anonymous-user = { -brand-name-firefox } användare { $user_id }
+landing-review-user-one-review = Jag uppskattar verkligen { -brand-name-mozilla }-teamet för att de är så kreativa och förenklar anonymiseringen av min e-postadress. Det här är ett bra tillägg, jag rekommenderar det starkt till integritetsmedvetna!
+landing-review-user-two-review = Enkelt verktyg för att bli av med eller undvika att spamma ditt e-post-ID.
+landing-review-user-three-review = Älskar detta tillägg! Mycket enkel men kraftfull och integrationen med webbläsaren är underbar.
+landing-review-user-four-review-list-1 = Ger sinnesfrid när du surfar på internet.
+landing-review-user-four-review-list-2 = Skyddar din identitet från spårare genom generering av alias där man av olika anledningar inte vill dela den riktiga e-postadressen.
+landing-review-user-four-review-list-3 = E-postens inkorgsdata är säkra i händerna på { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } gör underverk, prova den!!!
 
 ## Premium promo page
 
