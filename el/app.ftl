@@ -292,6 +292,19 @@ landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυ�
 landing-faq-headline = Συνήθεις ερωτήσεις για το { -brand-name-firefox-relay }
 landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσεις για το { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Πρόσθετα
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Πηγή: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = από 5 ({ $review_count } κριτικές)
+landing-reviews-show-next-button = εμφάνιση επόμενης κριτικής
+landing-reviews-show-previous-button = εμφάνιση προηγούμενης κριτικής
+landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Προστατέψτε ευκολότερα τα εισερχόμενά σας με το { -brand-name-firefox-relay-premium }
