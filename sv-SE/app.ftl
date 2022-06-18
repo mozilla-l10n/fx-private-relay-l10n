@@ -279,6 +279,18 @@ landing-use-cases-signups-hero-content2 = Innan du slutför nästa registrering,
 landing-faq-headline = De vanligaste frågorna om { -brand-name-firefox-relay }
 landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Tillägg
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Källa: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = av 5 ({ $review_count } recensioner)
+landing-reviews-show-next-button = visa nästa recension
+landing-reviews-show-previous-button = visa föregående recension
+
 ## Premium promo page
 
 premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
