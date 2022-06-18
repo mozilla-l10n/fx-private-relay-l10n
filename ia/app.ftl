@@ -275,6 +275,13 @@ landing-use-cases-signups-hero-content2 = Ante que tu completa tu proxime regist
 landing-faq-headline = Questiones principal re { -brand-name-firefox-relay }
 landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Additivos
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+landing-reviews-show-previous-button = Monstrar le revision previe
+landing-review-anonymous-user = { -brand-name-firefox } usator { $user_id }
+
 ## Premium promo page
 
 premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso con { -brand-name-firefox-relay-premium }
