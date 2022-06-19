@@ -293,6 +293,8 @@ landing-reviews-rating = sur 5 ({ $review_count } avis)
 landing-reviews-show-next-button = afficher l’avis suivant
 landing-reviews-show-previous-button = afficher l’avis précédent
 landing-review-anonymous-user = utilisateur ou utilisatrice { $user_id } de { -brand-name-firefox }
+landing-review-user-one-review = Je remercie vraiment l’équipe { -brand-name-mozilla } d'être si créative et de simplifier l’anonymisation de mon adresse e-mail. C’est une super extension, je la recommande vivement aux personnes soucieuses de la protection de leur vie privée  !
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } fonctionne à merveille, essayez-le !!!
 
 ## Premium promo page
 
