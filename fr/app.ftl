@@ -281,6 +281,19 @@ landing-use-cases-signups-hero-content2 = Pour finir cette inscription, utilisez
 landing-faq-headline = Questions les plus fréquentes sur { -brand-name-firefox-relay }
 landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Modules complémentaires
+landing-reviews-logo-title = { -brand-name-firefox-browser(capitalization: "uppercase") }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Source : addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = sur 5 ({ $review_count } avis)
+landing-reviews-show-next-button = afficher l’avis suivant
+landing-reviews-show-previous-button = afficher l’avis précédent
+landing-review-anonymous-user = utilisateur ou utilisatrice { $user_id } de { -brand-name-firefox }
+
 ## Premium promo page
 
 premium-promo-hero-headline = Simplifiez la protection de votre boîte de réception grâce à { -brand-name-firefox-relay-premium }
