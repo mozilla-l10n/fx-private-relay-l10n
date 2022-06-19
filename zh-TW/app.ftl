@@ -253,6 +253,19 @@ landing-use-cases-signups-hero-content2 = 您下次註冊帳號時，可使用�
 landing-faq-headline = { -brand-name-firefox-relay } 的熱門問題
 landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = 附加元件
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = 來源：addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = 滿分 5 顆星（{ $review_count } 筆評論）
+landing-reviews-show-next-button = 顯示下一筆評論
+landing-reviews-show-previous-button = 顯示下一筆評論
+landing-review-anonymous-user = { -brand-name-firefox } 使用者 { $user_id }
+
 ## Premium promo page
 
 premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
