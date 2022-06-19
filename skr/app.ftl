@@ -217,6 +217,10 @@ landing-use-cases-signups = سائن اپس
 landing-faq-headline = { -brand-name-firefox-relay } بارے اہم سوالات
 landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 
+## Landing Reviews Section
+
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
