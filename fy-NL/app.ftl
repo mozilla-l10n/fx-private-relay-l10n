@@ -279,6 +279,22 @@ landing-use-cases-signups-hero-content2 = Brûk, eardat jo jo folgjende registra
 landing-faq-headline = Faakstelde fragen oer { -brand-name-firefox-relay }
 landing-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Add-ons
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Boarne: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = fan 5 ({ $review_count } resinsjes)
+landing-reviews-show-next-button = folgjende resinsje toane
+landing-reviews-show-previous-button = foarige resinsje toane
+landing-review-anonymous-user = { -brand-name-firefox }-brûker { $user_id }
+landing-review-user-one-review = Ik wurdearje it { -brand-name-mozilla }-team wurklik foar de kreativiteit en it ferienfâldigjen fan it anonymisearjen fan myn e-mailadres. Dit is in bjusterbaarlike útwreiding, tige oanrekommandearre foar de privacybewuste minsk!
+landing-review-user-two-review = Ienfâldich ark om spam op jo e-mailadres kwyt te reitsjen of te foar te kommen.
+landing-review-user-three-review = Ik mei bot oer dizze útwreiding! Hiel ienfâldich mar krêftich en de yntegraasje mei de browser is prachtich.
+
 ## Premium promo page
 
 premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker mei { -brand-name-firefox-relay-premium }
@@ -595,11 +611,6 @@ banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
 banner-label-data-notification-body-cta = Mear ynfo
-# Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline = Untfang beskerming en stypje it ynternet
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy = Beskermje jo privacy wylst jo meidogge oan de striid foar in better ynternet, alles foar { $monthly_price }
 banner-upgrade-loyalist-cta = Mear beskerming ûntfange
 # Variables:
 # $subdomain (url) - User-set subdomain
