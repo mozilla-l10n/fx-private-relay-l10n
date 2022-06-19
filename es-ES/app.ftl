@@ -279,6 +279,26 @@ landing-use-cases-signups-hero-content2 = Antes de completar el próximo registr
 landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
 landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Complementos
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Fuente: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = de 5 ({ $review_count } reseñas)
+landing-reviews-show-next-button = mostrar la próxima reseña
+landing-reviews-show-previous-button = mostrar la reseña anterior
+landing-review-anonymous-user = Usuario { $user_id } de { -brand-name-firefox }
+landing-review-user-one-review = Realmente agradezco al equipo de { -brand-name-mozilla } por ser tan creativo y simplificar el anonimato de mi dirección de correo electrónico. Esta es una gran extensión, ¡la recomiendo encarecidamente a los amantes de la privacidad!
+landing-review-user-two-review = Herramienta simple para deshacerse o evitar el envío de spam a tu ID de correo electrónico.
+landing-review-user-three-review = ¡Me encanta esta extensión! Muy simple pero potente y la integración con el navegador es maravillosa.
+landing-review-user-four-review-list-1 = Da tranquilidad al navegar por internet.
+landing-review-user-four-review-list-2 = Protege mi identidad de los rastreadores a través de la generación de alias cuando uno no quiere compartir la dirección de correo electrónico real por varias razones.
+landing-review-user-four-review-list-3 = Los datos de la bandeja de entrada están seguros en manos de { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona de maravilla, ¡pruébalo!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Simplifica la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
@@ -594,10 +614,10 @@ banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline = Obtén protección y apoya Internet
+banner-upgrade-loyalist-headline-2 = Protege tu privacidad, salva Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy = Protege tu privacidad mientras te unes a la lucha por un internet mejor, todo por { $monthly_price }
+banner-upgrade-loyalist-copy-2 = Protege tu privacidad mientras te unes a nuestra misión para construir un Internet mejor, todo por { $monthly_price }
 banner-upgrade-loyalist-cta = Obtén más protección
 # Variables:
 # $subdomain (url) - User-set subdomain
