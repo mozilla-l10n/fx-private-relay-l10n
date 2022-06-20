@@ -295,6 +295,9 @@ landing-review-user-one-review = Agradeço à equipe da { -brand-name-mozilla } 
 landing-review-user-two-review = Ferramenta simples para se livrar ou evitar envio de spam para seu ID de email.
 landing-review-user-three-review = Adoro esta extensão! Muito simples, mas poderosa, e a integração com o navegador é excelente.
 landing-review-user-four-review-list-1 = Traz tranquilidade ao navegar na internet.
+landing-review-user-four-review-list-2 = Protege sua identidade de rastreadores através da geração de máscaras onde não se quer compartilhar o endereço de email real por vários motivos.
+landing-review-user-four-review-list-3 = Os dados da caixa de entrada de email estão protegidos nas mãos do { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = O { -brand-name-firefox-relay } funciona às maravilhas, experimente!!!
 
 ## Premium promo page
 
