@@ -285,6 +285,12 @@ landing-reviews-add-ons = Extensões
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Origem: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = de 5 ({ $review_count } avaliações)
+landing-reviews-show-next-button = mostrar próxima avaliação
+landing-reviews-show-previous-button = mostrar avaliação anterior
+landing-review-anonymous-user = Usuário { $user_id } do { -brand-name-firefox }
 
 ## Premium promo page
 
