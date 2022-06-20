@@ -279,6 +279,26 @@ landing-use-cases-signups-hero-content2 = Gebruik, voordat u uw volgende registr
 landing-faq-headline = Veelgestelde vragen over { -brand-name-firefox-relay }
 landing-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Add-ons
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Bron: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = van de 5 ({ $review_count } beoordelingen)
+landing-reviews-show-next-button = volgende beoordeling tonen
+landing-reviews-show-previous-button = vorige beoordeling tonen
+landing-review-anonymous-user = { -brand-name-firefox }-gebruiker { $user_id }
+landing-review-user-one-review = Ik waardeer het { -brand-name-mozilla }-team enorm omdat het zo creatief is geweest en het anonimiseren van mijn e-mailadres heeft vereenvoudigd. Dit is een geweldige extensie, ik raad het ten zeerste aan voor iedereen die om privacy geeft!
+landing-review-user-two-review = Eenvoudig hulpmiddel om uw spam naar uw e-mail-ID te verwijderen of te voorkomen.
+landing-review-user-three-review = Hou van deze extensie! Heel eenvoudig maar krachtig en de integratie met de browser is geweldig.
+landing-review-user-four-review-list-1 = Geeft rust bij het surfen op het internet.
+landing-review-user-four-review-list-2 = Beschermt uw identiteit tegen volgers door het aanmaken van aliassen, waarbij u om uiteenlopende redenen uw echte e-mailadres niet wilt delen.
+landing-review-user-four-review-list-3 = E-mailgegevens in uw Postvak IN zijn veilig in de handen van { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } doet wonderen, probeer het!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Maak het beschermen van uw Postvak IN gemakkelijker met { -brand-name-firefox-relay-premium }
@@ -596,10 +616,10 @@ banner-label-data-notification-cta = Naar Instellingen
 banner-label-data-notification-header-v2 = Nieuwe functies inschakelen
 banner-label-data-notification-body-cta = Meer info
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline = Ontvang bescherming en steun het internet
+banner-upgrade-loyalist-headline-2 = Bescherm uw privacy, red het internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy = Bescherm uw privacy terwijl u meedoet aan de strijd voor een beter internet, allemaal voor { $monthly_price }
+banner-upgrade-loyalist-copy-2 = Bescherm uw privacy terwijl u meedoet aan onze missie om een beter internet te bouwen, allemaal voor { $monthly_price }
 banner-upgrade-loyalist-cta = Meer bescherming ontvangen
 # Variables:
 # $subdomain (url) - User-set subdomain
