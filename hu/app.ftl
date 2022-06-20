@@ -294,6 +294,10 @@ landing-review-anonymous-user = { $user_id } számú { -brand-name-firefox }-fel
 landing-review-user-one-review = Nagyra értékelem a { -brand-name-mozilla } csapatát, amiért ilyen kreatívak és leegyszerűsítették az e-mail-címem anonimizálását. Ez egy nagyszerű kiegészítő, nagyon ajánlom azoknak, akik tudatosak az adatvédelmükkel kapcsolatban.
 landing-review-user-two-review = Egyszerű eszköz, amellyel megszabadulhat az e-mail-címére érkező levélszeméttől.
 landing-review-user-three-review = Imádom ezt a kiegészítőt! Nagyon egyszerű, de hatékony, és a böngészővel való integráció csodálatos.
+landing-review-user-four-review-list-1 = Nyugalmat ad internetezés közben.
+landing-review-user-four-review-list-2 = Megvédi személyazonosságát a nyomkövetőktől azáltal, hogy álneveket állít elő azokhoz a webhelyekhez, ahol különféle okok miatt nem akarja megosztani a valódi e-mail-címet.
+landing-review-user-four-review-list-3 = Az e-mail-fiókja adatai biztonságban vannak a { -brand-name-firefox-relay } kezében.
+landing-review-user-four-review-list-4 = A { -brand-name-firefox-relay } csodákat tesz, próbálja ki!
 
 ## Premium promo page
 
