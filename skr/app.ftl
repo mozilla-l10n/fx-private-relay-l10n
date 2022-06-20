@@ -219,7 +219,10 @@ landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = ایڈ ــ آن
 landing-reviews-logo-title = { -brand-name-firefox-browser }
+landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
+landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 
 ## Premium promo page
 
@@ -442,6 +445,8 @@ banner-label-data-notification-header = { -brand-name-relay } تے جلدی آن
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
 # Variables:
 # $subdomain (url) - User-set subdomain
