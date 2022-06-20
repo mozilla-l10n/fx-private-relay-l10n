@@ -292,6 +292,8 @@ landing-reviews-show-next-button = következő értékelés megjelenítése
 landing-reviews-show-previous-button = előző értékelés megjelenítése
 landing-review-anonymous-user = { $user_id } számú { -brand-name-firefox }-felhasználó
 landing-review-user-one-review = Nagyra értékelem a { -brand-name-mozilla } csapatát, amiért ilyen kreatívak és leegyszerűsítették az e-mail-címem anonimizálását. Ez egy nagyszerű kiegészítő, nagyon ajánlom azoknak, akik tudatosak az adatvédelmükkel kapcsolatban.
+landing-review-user-two-review = Egyszerű eszköz, amellyel megszabadulhat az e-mail-címére érkező levélszeméttől.
+landing-review-user-three-review = Imádom ezt a kiegészítőt! Nagyon egyszerű, de hatékony, és a böngészővel való integráció csodálatos.
 
 ## Premium promo page
 
