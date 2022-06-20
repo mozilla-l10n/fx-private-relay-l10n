@@ -285,6 +285,16 @@ landing-reviews-add-ons = Complementos
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Fuente: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = de 5 ({ $review_count } reseñas)
+landing-reviews-show-next-button = mostrar la próxima reseña
+landing-reviews-show-previous-button = mostrar la reseña anterior
+landing-review-anonymous-user = Usuario { $user_id } de { -brand-name-firefox }
+landing-review-user-one-review = Realmente agradezco al equipo de { -brand-name-mozilla } por ser tan creativo y simplificar el anonimato de mi dirección de correo electrónico. Esta es una gran extensión, ¡la recomiendo totalmente a los amantes de la privacidad!
+landing-review-user-two-review = Herramienta simple para deshacerse o evitar el envío de spam a tu ID de correo electrónico.
+landing-review-user-three-review = ¡Me encanta esta extensión! Muy simple pero potente y la integración con el navegador es maravillosa.
+landing-review-user-four-review-list-1 = Da tranquilidad al navegar por internet.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona de maravilla, ¡pruébalo!
 
 ## Premium promo page
