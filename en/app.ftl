@@ -548,6 +548,10 @@ profile-label-copied = Copied!
 profile-label-blocked = Blocked
 profile-label-forwarded = Forwarded
 profile-label-replies = Replies
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Trackers Removed
+profile-trackers-removed-tooltip-part1 = With tracker removal enabled, common email trackers will be removed from your forwarded emails.
+profile-trackers-removed-tooltip-part2 = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images.
 profile-label-cancel = Cancel
 profile-blocked-copy-2 = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this mask.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this mask.
