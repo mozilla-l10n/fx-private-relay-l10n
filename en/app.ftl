@@ -555,9 +555,15 @@ profile-forwarded-note = Note:
 profile-forwarded-note-copy = Email (including attachments) larger than { email-size-limit } are not currently supported and will not be forwarded.
 profile-forwarded-note-copy-v2 = Email (including attachments) larger than { email-size-limit } will not be forwarded.
 profile-replies-tooltip = You can reply to emails received through this mask, and { -brand-name-firefox-relay } will continue to protect your true email address.
+profile-stat-learn-more = Learn more
+profile-stat-learn-more-close = Close
 profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used-2 = Email masks used
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Trackers Removed
+profile-stat-label-trackers-learn-more-part1 = Enabling tracker removal will remove common email trackers from your forwarded emails.
+profile-stat-label-trackers-learn-more-part2 = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
 profile-filter-search-placeholder-2 = Search masks
 profile-filter-category-button-label = Filter visible masks
 profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
