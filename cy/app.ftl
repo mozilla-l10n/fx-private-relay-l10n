@@ -283,6 +283,26 @@ landing-use-cases-signups-hero-content2 = Cyn i chi gwblhau'r cofrestriad nesaf 
 landing-faq-headline = Y prif gwestiynau am { -brand-name-firefox-relay }
 landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Ychwanegion
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Ffynhonnell: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = allan o 5 ( { $review_count } adolygiad)
+landing-reviews-show-next-button = dangos yr adolygiad nesaf
+landing-reviews-show-previous-button = dangos yr adolygiad blaenorol
+landing-review-anonymous-user = Defnyddiwr { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Rwy'n gwerthfawrogi'n fawr y tîm { -brand-name-mozilla } am fod mor greadigol a symleiddio'r broses o wneud fy nghyfeiriad e-bost yn ddienw. Mae hwn yn estyniad gwych, rwy'n ei argymell yn fawr i'r rhai sy'n ymwybodol o'u breifatrwydd!
+landing-review-user-two-review = Teclyn syml i gael gwared ar neu osgoi sbamio cyfeiriad eich e-bost.
+landing-review-user-three-review = Caru'r estyniad hwn! Syml iawn ond pwerus ac mae'r integreiddio â'r porwr yn wych.
+landing-review-user-four-review-list-1 = Yn rhoi tawelwch meddwl wrth syrffio'r rhyngrwyd.
+landing-review-user-four-review-list-2 = Yn diogelu hunaniaeth rhywun rhag tracwyr trwy gynhyrchu arallenwau lle nad yw rhywun eisiau rhannu'r cyfeiriad e-bost go iawn am wahanol resymau.
+landing-review-user-four-review-list-3 = Mae data blwch derbyn e-bost yn ddiogel yn nwylo { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = Mae { -brand-name-firefox-relay } yn wych, rhowch gynnig arni!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
@@ -596,10 +616,10 @@ banner-label-data-notification-cta = Mynd i'r Gosodiadau
 banner-label-data-notification-header-v2 = Galluogi nodweddion newydd
 banner-label-data-notification-body-cta = Dysgu Rhagor
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline = Cael diogelwch a chefnogi'r rhyngrwyd
+banner-upgrade-loyalist-headline-2 = Diogelwch eich preifatrwydd, achub y rhyngrwyd
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy = Diogelwch eich preifatrwydd wrth ymuno â'r frwydr am well rhyngrwyd, i gyd am { $monthly_price }
+banner-upgrade-loyalist-copy-2 = Diogelwch eich preifatrwydd wrth ymuno â'r ymgyrch am well rhyngrwyd, i gyd am { $monthly_price }
 banner-upgrade-loyalist-cta = Cael rhagor o ddiogelwch
 # Variables:
 # $subdomain (url) - User-set subdomain
