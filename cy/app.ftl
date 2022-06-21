@@ -616,7 +616,7 @@ banner-label-data-notification-cta = Mynd i'r Gosodiadau
 banner-label-data-notification-header-v2 = Galluogi nodweddion newydd
 banner-label-data-notification-body-cta = Dysgu Rhagor
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline-2 = Diogelwch eich preifatrwydd, achub y rhyngrwyd
+banner-upgrade-loyalist-headline-2 = Diogelu eich preifatrwydd, achub y rhyngrwyd
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Diogelwch eich preifatrwydd wrth ymuno â'r ymgyrch am well rhyngrwyd, i gyd am { $monthly_price }
