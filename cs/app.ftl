@@ -497,6 +497,23 @@ landing-use-cases-signups-hero-content2 = Během své další registrace použij
 landing-faq-headline = Nejčastější dotazy k { -brand-name-firefox-relay(case: "dat") }
 landing-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(case: "dat") }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Doplňky
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Zdroj: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating =
+    { $review_count ->
+        [one] z 5 (jedna recenze)
+        [few] z 5 ({ $review_count } recenze)
+       *[other] z 5 ({ $review_count } recenzí)
+    }
+landing-reviews-show-next-button = zobrazit další recenzi
+landing-reviews-show-previous-button = zobrazit předchozí recenzi
+
 ## Premium promo page
 
 premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomocí { -brand-name-firefox-relay-premium(case: "gen") }
