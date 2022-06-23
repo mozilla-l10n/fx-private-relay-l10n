@@ -13,6 +13,7 @@
 -brand-name-relay = Relay
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
+-brand-name-firefox-relay-premium = Firefox Relay Premium
 
 ## Meta Data
 
