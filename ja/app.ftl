@@ -33,6 +33,10 @@ meta-title = { -brand-name-firefox-relay }
 
 ## Header
 
+logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
+nav-menu = メニュー
+nav-home = ホーム
 
 ## Mobile menu text
 
