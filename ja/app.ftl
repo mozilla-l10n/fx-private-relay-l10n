@@ -37,6 +37,12 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = メニュー
 nav-home = ホーム
+avatar-tooltip = プロファイル
+# FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
+nav-faq = FAQ
+nav-profile-sign-in = ログイン
+nav-profile-sign-up = アカウント登録
+nav-profile-sign-out = ログアウト
 
 ## Mobile menu text
 
