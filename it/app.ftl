@@ -283,6 +283,9 @@ landing-reviews-details-source = Fonte: addons.mozilla.org
 landing-reviews-rating = su 5 ({ $review_count } recensioni)
 landing-reviews-show-next-button = Mostra recensione successiva
 landing-reviews-show-previous-button = Mostra recensione precedente
+landing-review-user-three-review = Adoro questa estensione! Molto semplice ma potente e l’integrazione con il browser è meravigliosa.
+landing-review-user-four-review-list-1 = Dona tranquillità durante la navigazione su Internet.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } fa miracoli, provalo!!!
 
 ## Premium promo page
 
