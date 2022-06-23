@@ -16,9 +16,20 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-firefox-lockwise = Firefox Lockwise
+-brand-name-firefox-monitor = Firefox Monitor
+-brand-name-pocket = Pocket
+-brand-name-firefox-account =
+    { $capitalization ->
+       *[lowercase] Firefox アカウント
+        [uppercase] Firefox アカウント
+    }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
 
 ## Meta Data
 
+meta-title = { -brand-name-firefox-relay }
 
 ## Header
 
