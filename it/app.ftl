@@ -276,6 +276,7 @@ landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 ## Landing Reviews Section
 
 landing-reviews-add-ons = Componenti aggiuntivi
+landing-reviews-logo-title = { -brand-name-firefox-browser(capitalization: "uppercase") }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Fonte: addons.mozilla.org
 # This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
@@ -283,8 +284,13 @@ landing-reviews-details-source = Fonte: addons.mozilla.org
 landing-reviews-rating = su 5 ({ $review_count } recensioni)
 landing-reviews-show-next-button = Mostra recensione successiva
 landing-reviews-show-previous-button = Mostra recensione precedente
+landing-review-anonymous-user = Utente { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Apprezzo molto il team di { -brand-name-mozilla } per la creatività e per aver proposto un modo più semplice per rendere anonimo il mio indirizzo email. Questa estensione è ottima, la consiglio vivamente a chi è attento alla privacy!
+landing-review-user-two-review = Un semplice strumento per sbarazzarsi dello spam diretto verso la tua casella di posta.
 landing-review-user-three-review = Adoro questa estensione! Molto semplice ma potente e l’integrazione con il browser è meravigliosa.
 landing-review-user-four-review-list-1 = Dona tranquillità durante la navigazione su Internet.
+landing-review-user-four-review-list-2 = Protegge la mia identità dalle aziende che vogliono tracciarmi, creando un alias quando, per vari motivi, non voglio condividere il mio indirizzo email reale.
+landing-review-user-four-review-list-3 = Il contenuto della tua casella di posta è al sicuro nelle mani di { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } fa miracoli, provalo!!!
 
 ## Premium promo page
