@@ -14,6 +14,8 @@
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
 -brand-name-firefox-relay-premium = Firefox Relay Premium
+-brand-name-mozilla = Mozilla
+-brand-name-mozilla-vpn = Mozilla VPN
 
 ## Meta Data
 
