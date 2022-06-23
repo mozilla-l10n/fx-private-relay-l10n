@@ -273,6 +273,17 @@ landing-use-cases-signups-hero-content2 = La prossima volta che devi registrarti
 landing-faq-headline = Domande principali su { -brand-name-firefox-relay }
 landing-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Componenti aggiuntivi
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Fonte: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = su 5 ({ $review_count } recensioni)
+landing-reviews-show-next-button = Mostra recensione successiva
+landing-reviews-show-previous-button = Mostra recensione precedente
+
 ## Premium promo page
 
 premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente con { -brand-name-firefox-relay-premium }
