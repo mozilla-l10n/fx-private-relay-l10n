@@ -43,6 +43,7 @@ nav-faq = FAQ
 nav-profile-sign-in = ログイン
 nav-profile-sign-up = アカウント登録
 nav-profile-sign-out = ログアウト
+nav-profile-settings = 設定
 
 ## Mobile menu text
 
