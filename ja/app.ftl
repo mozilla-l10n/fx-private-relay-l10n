@@ -37,36 +37,17 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = メニュー
 nav-home = ホーム
-avatar-tooltip = プロファイル
-# FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
-nav-faq = FAQ
-nav-profile-sign-in = ログイン
-nav-profile-sign-up = アカウント登録
-nav-profile-sign-out = ログアウト
-nav-profile-settings = 設定
-# This is only visible to Premium users.
-nav-profile-contact = お問い合わせ
 
 ## Mobile menu text
 
-menu-upgrade-button = アップグレード
-nav-dashboard = ダッシュボード
-nav-settings = 設定
-nav-sign-out = ログアウト
-nav-contact = お問い合わせ
 
 ## Footer
 
-nav-footer-privacy = プライバシー
 nav-footer-legal = 法的情報
-nav-footer-release-notes = リリースノート
 logo-mozilla-alt = { -brand-name-mozilla }
 
 ## The new feature announcement area, under the "News" link at the top
 
-whatsnew-trigger-label = ニュース
-whatsnew-close-label = 閉じる
-whatsnew-tab-new-label = ニュース
 
 ## Bento Menu
 
