@@ -59,9 +59,12 @@ nav-contact = お問い合わせ
 
 nav-footer-privacy = プライバシー
 nav-footer-legal = 法的情報
+nav-footer-release-notes = リリースノート
+logo-mozilla-alt = { -brand-name-mozilla }
 
 ## The new feature announcement area, under the "News" link at the top
 
+whatsnew-trigger-label = ニュース
 
 ## Bento Menu
 
