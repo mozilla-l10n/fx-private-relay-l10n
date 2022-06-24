@@ -57,6 +57,8 @@ nav-contact = お問い合わせ
 
 ## Footer
 
+nav-footer-privacy = プライバシー
+nav-footer-legal = 法的情報
 
 ## The new feature announcement area, under the "News" link at the top
 
