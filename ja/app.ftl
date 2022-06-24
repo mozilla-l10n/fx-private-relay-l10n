@@ -65,6 +65,8 @@ logo-mozilla-alt = { -brand-name-mozilla }
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = ニュース
+whatsnew-close-label = 閉じる
+whatsnew-tab-new-label = ニュース
 
 ## Bento Menu
 
