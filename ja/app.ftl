@@ -49,6 +49,11 @@ nav-profile-contact = お問い合わせ
 
 ## Mobile menu text
 
+menu-upgrade-button = アップグレード
+nav-dashboard = ダッシュボード
+nav-settings = 設定
+nav-sign-out = ログアウト
+nav-contact = お問い合わせ
 
 ## Footer
 
