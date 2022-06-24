@@ -14,6 +14,7 @@
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
 -brand-name-firefox-relay-premium = Firefox Relay Premium
+-brand-name-firefox-browser = Firefox ブラウザー
 -brand-name-mozilla = Mozilla
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-firefox-lockwise = Firefox Lockwise
@@ -35,8 +36,6 @@ meta-title = { -brand-name-firefox-relay }
 
 logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
-nav-menu = メニュー
-nav-home = ホーム
 
 ## Mobile menu text
 
