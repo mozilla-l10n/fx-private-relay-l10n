@@ -44,6 +44,8 @@ nav-profile-sign-in = ログイン
 nav-profile-sign-up = アカウント登録
 nav-profile-sign-out = ログアウト
 nav-profile-settings = 設定
+# This is only visible to Premium users.
+nav-profile-contact = お問い合わせ
 
 ## Mobile menu text
 
