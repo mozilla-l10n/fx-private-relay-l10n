@@ -281,6 +281,7 @@ landing-reviews-add-ons = Additivos
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Fonte: addons.mozilla.org
+landing-reviews-show-next-button = monstrar le revision successive
 landing-reviews-show-previous-button = Monstrar le revision previe
 landing-review-anonymous-user = { -brand-name-firefox } usator { $user_id }
 
