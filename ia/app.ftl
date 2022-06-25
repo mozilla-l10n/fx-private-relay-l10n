@@ -281,9 +281,13 @@ landing-reviews-add-ons = Additivos
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = Fonte: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = ex 5 ({ $review_count } recensiones)
 landing-reviews-show-next-button = monstrar le revision successive
 landing-reviews-show-previous-button = Monstrar le revision previe
 landing-review-anonymous-user = { -brand-name-firefox } usator { $user_id }
+landing-review-user-one-review = Io realmente apprecia le { -brand-name-mozilla } equipa pro esser assi creative e simplificar le anonymitate de mi adresse email. Isto es un formidabile extension, io altemente lo recommenda a qui es attente al confidentialitate!
 
 ## Premium promo page
 
