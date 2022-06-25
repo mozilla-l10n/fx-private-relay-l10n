@@ -161,6 +161,10 @@ whatsnew-feature-alias-to-mask-snippet = Παρατηρήσατε κάποια �
 whatsnew-feature-alias-to-mask-description = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay } πιο εύχρηστο και ανοικτό σε νέες λειτουργίες.
 whatsnew-feature-premium-expansion-sweden-heading = Το { -brand-name-relay-premium } διατίθεται στη Σουηδία
 whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-premium } διατίθεται στη Φινλανδία
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
 
 ## Bento Menu
 
