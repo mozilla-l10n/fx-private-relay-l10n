@@ -321,6 +321,26 @@ landing-use-cases-signups-hero-content2 = Pred dokončením vašej ďalšej regi
 landing-faq-headline = Najčastejšie otázky o službe { -brand-name-firefox-relay }
 landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
 
+## Landing Reviews Section
+
+landing-reviews-add-ons = Doplnky
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Zdroj: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = z 5 ({ $review_count } recenzií)
+landing-reviews-show-next-button = zobraziť ďalšiu recenziu
+landing-reviews-show-previous-button = zobraziť predchádzajúcu recenziu
+landing-review-anonymous-user = Používateľ { -brand-name-firefox(case: "gen") }  { $user_id }
+landing-review-user-one-review = Naozaj oceňujem tím { -brand-name-mozilla } za to, že bol taký kreatívny a zjednodušil anonymizáciu mojej e-mailovej adresy. Toto je skvelé rozšírenie, vrelo ho odporúčam tým, ktorí si uvedomujú súkromie!
+landing-review-user-two-review = Jednoduchý nástroj, ako sa zbaviť alebo vyhnúť spamovaniu vašej e-mailovej schránky.
+landing-review-user-three-review = Milujtem toto rozšírenie! Veľmi jednoduché, spoľahlivé a pekne integrované do prehliadača.
+landing-review-user-four-review-list-1 = Poskytuje pokoj pri surfovaní na internete.
+landing-review-user-four-review-list-2 = Chráni identitu pred sledovacími prvkami prostredníctvom generovania aliasov, kde z rôznych dôvodov nechcete zdieľať skutočnú e-mailovú adresu.
+landing-review-user-four-review-list-3 = Údaje o e-mailovej schránky sú so službou { -brand-name-firefox-relay } v bezpečí.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } robí zázraky, určite ho vyskúšajte!!!
+
 ## Premium promo page
 
 premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { -brand-name-firefox-relay-premium }
