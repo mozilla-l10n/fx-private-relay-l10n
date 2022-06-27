@@ -294,6 +294,9 @@ landing-review-anonymous-user = { -brand-name-firefox }-brûker { $user_id }
 landing-review-user-one-review = Ik wurdearje it { -brand-name-mozilla }-team wurklik foar de kreativiteit en it ferienfâldigjen fan it anonymisearjen fan myn e-mailadres. Dit is in bjusterbaarlike útwreiding, tige oanrekommandearre foar de privacybewuste minsk!
 landing-review-user-two-review = Ienfâldich ark om spam op jo e-mailadres kwyt te reitsjen of te foar te kommen.
 landing-review-user-three-review = Ik mei bot oer dizze útwreiding! Hiel ienfâldich mar krêftich en de yntegraasje mei de browser is prachtich.
+landing-review-user-four-review-list-1 = Jout rêst by it sneupen op it ynternet.
+landing-review-user-four-review-list-2 = Beskermet jo identiteit tsjin folgers troch it oanmeitsjen fan aliassen, wêrby’t jo om ferskate redenen jo echte e-mailadres net diele wolle.
+landing-review-user-four-review-list-3 = E-mailgegevens yn jo Postfek YN binne feilich yn de hannen fan { -brand-name-firefox-relay }.
 
 ## Premium promo page
 
