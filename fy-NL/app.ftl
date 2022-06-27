@@ -297,6 +297,7 @@ landing-review-user-three-review = Ik mei bot oer dizze útwreiding! Hiel ienfâ
 landing-review-user-four-review-list-1 = Jout rêst by it sneupen op it ynternet.
 landing-review-user-four-review-list-2 = Beskermet jo identiteit tsjin folgers troch it oanmeitsjen fan aliassen, wêrby’t jo om ferskate redenen jo echte e-mailadres net diele wolle.
 landing-review-user-four-review-list-3 = E-mailgegevens yn jo Postfek YN binne feilich yn de hannen fan { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wûnderen, probearje it!!!
 
 ## Premium promo page
 
@@ -614,6 +615,11 @@ banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
 banner-label-data-notification-body-cta = Mear ynfo
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = Beskermje jo privacy, rêd it ynternet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = Beskermje jo privacy wylst jo meidogge oan ús misje om in better ynternet te bouwen, allegearre foar { $monthly_price }
 banner-upgrade-loyalist-cta = Mear beskerming ûntfange
 # Variables:
 # $subdomain (url) - User-set subdomain
