@@ -686,6 +686,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Saisissez le préfixe de l’ali
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = par exemple, « café »
+modal-custom-alias-picker-form-prefix-invalid-warning = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres et des traits d’union, et ne peuvent pas commencer ou se terminer par un trait d’union.
 modal-custom-alias-picker-form-submit-label-2 = Générer l’alias
 modal-custom-alias-picker-creation-error-2 = Votre alias de messagerie personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
 
@@ -771,8 +772,24 @@ trackerreport-meta-count-heading = Total des traqueurs
 trackerreport-trackers-heading = Traqueurs détectés
 trackerreport-trackers-count-heading = Nombre de traqueurs
 trackerreport-trackers-none = Aucun traqueur détecté dans cet e-mail.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 traqueur
+       *[other] { $count } traqueurs
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 traqueur
+       *[other] { $count } traqueurs
+    }
+trackerreport-removal-explainer-heading = Fonctionnement de la suppression des traqueurs
 trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
 trackerreport-faq-heading = Questions les plus fréquentes sur les traqueurs dans les e-mails
+trackerreport-loading = Chargement du rapport de suppression des traqueurs…
 
 ## Modals
 
