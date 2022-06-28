@@ -146,6 +146,7 @@ whatsnew-feature-tracker-removal-heading = Neue Funktion: Entfernung von E-Mail-
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus weitergeleiteten E-Mails entfernen…
+whatsnew-feature-tracker-removal-description = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus an Sie weitergeleiteten E-Mails entfernen, sodass Sie für Werbetreibende unsichtbar bleiben.
 
 ## Bento Menu
 
@@ -380,6 +381,10 @@ settings-api-key-description-bolded = Verwenden Sie dies nur bei Apps, denen Sie
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Zum Kopieren anklicken
 setting-api-key-copied = Kopiert
+setting-tracker-removal-heading = E-Mail-Tracker entfernen
+setting-tracker-removal-description = Entfernen Sie E-Mail-Tracker in allen weitergeleiteten E-Mails.
+setting-tracker-removal-note = { -brand-name-firefox-relay } kann jetzt gängige Tracker aus E-Mails entfernen, die über Ihre Masken weitergeleitet werden.
+setting-tracker-removal-warning = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
 
 ## FAQ Page
 
@@ -457,6 +462,12 @@ faq-question-promotional-email-blocking-question = Was bedeutet das Blockieren v
 faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir dir, diese Funktion nicht für sehr wichtige Kontakte wie deine Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
 faq-question-detect-promotional-question = Wie erkennt { -brand-name-relay }, ob eine E-Mail Werbezwecken dient oder nicht?
 faq-question-detect-promotional-answer = Viele E-Mails werden mit „Kopfzeilen“-Metadaten gesendet, um anzuzeigen, dass sie von listenbasierten automatisierten Werkzeugen stammen. { -brand-name-firefox-relay } erkennt diese Kopfzeilen-Daten, sodass diese E-Mails blockiert werden können.
+faq-question-disable-trackerremoval-question = Kann ich die Funktion zum Entfernen der E-Mail-Tracker deaktivieren?
+faq-question-disable-trackerremoval-answer = Ja. Wenn Sie Probleme mit fehlerhaft aussehenden E-Mails haben oder nicht möchten, dass Tracker entfernt werden, können Sie die Funktion in den Einstellungen deaktivieren.
+faq-question-bulk-trackerremoval-question = Kann ich Tracker nur bei bestimmten E-Mail-Masken entfernen?
+faq-question-bulk-trackerremoval-answer = Sie können die Tracker-Entfernung nur auf Kontoebene aktivieren – entweder werden Tracker aus allen Ihren E-Mails entfernt oder aus keiner von ihnen.
+faq-question-trackerremoval-breakage-question = Warum sehen meine E-Mails beschädigt aus?
+faq-question-trackerremoval-breakage-answer = Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken enthalten sind. Wenn der Tracker entfernt wird, sieht die E-Mail so aus, als wäre sie falsch formatiert worden, weil Grafiken fehlen. bei bereits empfangenen E-Mails kann dies nicht mehr korrigiert werden. Wenn Sie Ihre E-Mails deswegen nicht richtig lesen können, deaktivieren Sie die Tracker-Entfernung.
 
 ## Profile Page (Logged In)
 
@@ -510,6 +521,10 @@ profile-label-copied = Kopiert!
 profile-label-blocked = Blockiert
 profile-label-forwarded = Weitergeleitet
 profile-label-replies = Antworten
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Tracker entfernt
+profile-trackers-removed-tooltip-part1 = Wenn die Tracker-Entfernung aktiviert ist, werden gängige E-Mail-Tracker aus Ihren weitergeleiteten E-Mails entfernt.
+profile-trackers-removed-tooltip-part2 = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
 profile-label-cancel = Abbrechen
 profile-blocked-copy-2 = { -brand-name-firefox-relay } löscht Nachrichten, bevor sie Ihren Posteingang erreichen, wenn Sie für diese Maske „Blockieren“ auswählen.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } sendet E-Mails an Ihren Posteingang, wenn Sie für diese Maske „Weiterleiten“ auswählen.
@@ -517,9 +532,15 @@ profile-forwarded-note = Hinweis:
 profile-forwarded-note-copy = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden derzeit nicht unterstützt und nicht weitergeleitet.
 profile-forwarded-note-copy-v2 = E-Mails (einschließlich Anhänge), die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 profile-replies-tooltip = Sie können auf E-Mails antworten, die über diese Maske empfangen wurden, und { -brand-name-firefox-relay } schützt weiterhin Ihre echte E-Mail-Adresse.
+profile-stat-learn-more = Weitere Informationen
+profile-stat-learn-more-close = Schließen
 profile-stat-label-blocked = Blockierte E-Mails
 profile-stat-label-forwarded = Weitergeleitete E-Mails
 profile-stat-label-aliases-used-2 = Verwendete E-Mail-Masken
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Tracker entfernt
+profile-stat-label-trackers-learn-more-part1 = Wenn Sie die Tracker-Entfernung aktivieren, werden gängige E-Mail-Tracker aus Ihren weitergeleiteten E-Mails entfernt.
+profile-stat-label-trackers-learn-more-part2 = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
 profile-filter-search-placeholder-2 = Masken durchsuchen
 profile-filter-category-button-label = Sichtbare Masken filtern
 profile-filter-category-button-tooltip = Filtern Sie Masken nach Subdomain und/oder ob sie derzeit eingehende E-Mails blockieren
@@ -535,6 +556,9 @@ profile-filter-category-option-promo-blocking-masks = Werbung-blockierende Maske
 profile-filter-category-option-random-masks = Zufällige Masken
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Benutzerdefinierte Masken
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Status der Tracker-Entfernung
+profile-indicator-tracker-removal-tooltip = Derzeit werden E-Mail-Tracker entfernt
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -681,6 +705,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Präfix für E-Mail-Maske eingeb
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = z.B. „Kaffee“
+modal-custom-alias-picker-form-prefix-spaces-warning = Leerzeichen sind in E-Mail-Masken nicht erlaubt.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-Mail-Masken dürfen nur Kleinbuchstaben, Zahlen und Bindestriche enthalten und dürfen nicht mit einem Bindestrich beginnen oder enden.
 modal-custom-alias-picker-form-submit-label-2 = Maske erzeugen
 modal-custom-alias-picker-creation-error-2 = Ihre benutzerdefinierte Maske konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Maske, um sie zu erstellen.
 
@@ -762,6 +788,40 @@ multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } Tracker-Entfernungsbericht
+trackerreport-meta-from-heading = Von
+trackerreport-meta-receivedat-heading = Empfangen von
+trackerreport-meta-count-heading = Tracker insgesamt
+trackerreport-trackers-heading = Tracker erkannt
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Tracker-Domain
+trackerreport-trackers-count-heading = Anzahl der Tracker
+trackerreport-trackers-none = In dieser E-Mail wurden keine Tracker erkannt.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 Tracker
+       *[other] { $count } Tracker
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 Tracker
+       *[other] { $count } Tracker
+    }
+trackerreport-confidentiality-notice = Tracker-Informationen und Absenderadressen, die in diesen Berichten angezeigt werden, werden nicht von { -brand-name-firefox-relay } gespeichert und sind nur in Berichts-URLs enthalten. Wir speichern Ihre E-Mails nicht.
+trackerreport-removal-explainer-heading = So funktioniert die Tracker-Entfernung
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kann jetzt gängige Tracker aus E-Mails entfernen, die über Ihre E-Mail-Masken weitergeleitet werden. Sie erhalten Ihre E-Mails weiterhin, aber die Tracker in Ihren weitergeleiteten E-Mails werden entfernt, sodass Sie Ihre E-Mails erhalten können, ohne verfolgt zu werden. Um die Tracker-Entfernung für alle Ihre Masken gleichzeitig zu aktivieren, aktivieren Sie die Tracker-Entfernung in den Einstellungen und nicht einzeln für jede Maske.
+trackerreport-trackers-explainer-heading = Über E-Mail-Tracker
+trackerreport-trackers-explainer-content-part1 = E-Mail-Tracking ist eine gängiges Werkzeug für Überwachung und Werbung, das für viele Posteingänge zum Problem geworden ist. Diese Tracker können verwendet werden, um mehr über Ihr Online-Verhalten, Ihre Interessen und Ihre E-Mail-Aktivitäten zu erfahren.
+trackerreport-trackers-explainer-content-part2 = Ein Unternehmen oder eine Organisation bettet einen Tracker in E-Mails ein, die an Sie gesendet werden, normalerweise versteckt in einer Grafik oder einem Link. Wenn die E-Mail geöffnet wird, sendet der Code im Tracker Daten an das Unternehmen zurück.
+trackerreport-breakage-warning = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken enthalten sind, die nicht geladen werden, wenn sie einen Tracker enthalten.
+trackerreport-faq-heading = Die häufigsten Fragen zu E-Mail-Trackern
+trackerreport-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
+trackerreport-loading = Ihr Tracker-Entfernungsbericht wird geladen…
+trackerreport-load-error = Beim Erstellen Ihres Tracker-Entfernungsberichts ist ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite, um es erneut zu versuchen.
 
 ## Modals
 
