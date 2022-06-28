@@ -375,6 +375,10 @@ settings-api-key-description-bolded = Csak olyan alkalmazásokkal használja, am
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kattintson a másoláshoz
 setting-api-key-copied = Másolva!
+setting-tracker-removal-heading = E-mail-követők eltávolítása
+setting-tracker-removal-description = Az e-mail-követők eltávolítása az összes továbbított e-mailből.
+setting-tracker-removal-note = A { -brand-name-firefox-relay } mostantól eltávolíthatja a gyakori nyomkövetőket a maszkokon keresztül továbbított e-mailekből.
+setting-tracker-removal-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 
 ## FAQ Page
 
@@ -452,6 +456,7 @@ faq-question-promotional-email-blocking-question = Mit jelent a promóciós e-ma
 faq-question-promotional-email-blocking-answer = A { -brand-name-relay-premium } előfizetők engedélyezhetik a promóciós e-mailek blokkolását. Ez a funkció továbbítja Önnek a fontos e-maileket, például a nyugtákat, a jelszó-visszaállításokat és -megerősítéseket, miközben továbbra is blokkolja a marketingüzeneteket. Fennáll a veszélye annak, hogy egy fontos üzenet továbbra is blokkolva marad, ezért azt javasoljuk, hogy ne használja ezt a funkciót nagyon fontos helyeken, például a bankjánál. Ha egy e-mail blokkolva lett, akkor nem lehet helyreállítani.
 faq-question-detect-promotional-question = Hogyan észleli a { -brand-name-relay }, hogy egy e-mail promóciós jellegű-e vagy sem?
 faq-question-detect-promotional-answer = Sok e-mailt „fejléc” metaadatokkal küldenek, jelezve, hogy listaalapú, automatizált eszközöktől származnak. A { -brand-name-firefox-relay } észleli ezeket a fejlécadatokat, így blokkolni tudja ezeket az e-maileket.
+faq-question-disable-trackerremoval-question = Leállíthatom az e-mail nyomkövetők eltávolítását?
 
 ## Profile Page (Logged In)
 
@@ -754,6 +759,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = A { -brand-name
 multi-part-onboarding-premium-extension-button-skip = Folytatás, később töltöm le a kiegészítőt
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
 multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
