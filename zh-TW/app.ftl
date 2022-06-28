@@ -489,6 +489,8 @@ profile-label-forwarded = 轉寄
 profile-label-replies = 回覆
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = 追蹤器移除數量
+profile-trackers-removed-tooltip-part1 = 開啟「移除追蹤器」功能後，將從轉寄的郵件中移除常見的郵件追蹤器。
+profile-trackers-removed-tooltip-part2 = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 對此轉寄信箱選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
 profile-forwarded-copy-2 = 對此轉寄信箱選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
@@ -665,6 +667,7 @@ modal-custom-alias-picker-form-prefix-label-2 = 輸入轉寄信箱前綴
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
 modal-custom-alias-picker-form-prefix-spaces-warning = 轉寄信箱名稱中不允許空白。
+modal-custom-alias-picker-form-prefix-invalid-warning = 轉寄信箱名稱僅可包含小寫字數、數字、連字號（－），且連字號不可位於開頭或結尾。
 modal-custom-alias-picker-form-submit-label-2 = 產生轉寄信箱
 modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉寄信箱，請再試一次，或直接寄信到該轉寄信箱即可建立。
 
