@@ -756,6 +756,16 @@ multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κ�
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
 multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
 
+## Report of trackers removed from an email
+
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 ιχνηλάτης
+       *[other] { $count } ιχνηλάτες
+    }
+
 ## Modals
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
