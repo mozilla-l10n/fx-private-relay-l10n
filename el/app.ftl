@@ -518,6 +518,8 @@ profile-forwarded-copy-2 = Το { -brand-name-firefox-relay } θα στέλνε�
 profile-forwarded-note = Σημείωση:
 profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
 profile-forwarded-note-copy-v2 = Τα email (μαζί με τα συνημμένα) μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
+profile-stat-learn-more = Μάθετε περισσότερα
+profile-stat-learn-more-close = Κλείσιμο
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used-2 = Μάσκες email σε χρήση
@@ -758,9 +760,17 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-from-heading = Από
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
+    { $count ->
+        [one] 1 ιχνηλάτης
+       *[other] { $count } ιχνηλάτες
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
     { $count ->
         [one] 1 ιχνηλάτης
        *[other] { $count } ιχνηλάτες
