@@ -380,6 +380,8 @@ settings-api-key-description-bolded = Solo úsala con aplicaciones en las que co
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
 setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
+setting-tracker-removal-description = Elimina los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
+setting-tracker-removal-note = { -brand-name-firefox-relay } ahora puede eliminar rastreadores comunes de los correos electrónicos reenviados a través de tus máscaras.
 
 ## FAQ Page
 
@@ -774,9 +776,17 @@ trackerreport-trackers-heading = Rastreadores detectados
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Dominio del rastreador
 trackerreport-trackers-count-heading = Número de rastreadores
+trackerreport-trackers-none = No se detectaron rastreadores en este correo electrónico.
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
     { $count ->
         [one] 1 rastreador
        *[other] { $count } rastreadores
@@ -785,6 +795,8 @@ trackerreport-removal-explainer-heading = Cómo funciona la eliminación de rast
 trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
 trackerreport-faq-heading = Preguntas principales sobre los rastreadores de correo electrónico
 trackerreport-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
+trackerreport-loading = Cargando el informe de eliminación de rastreadores…
+trackerreport-load-error = Se produjo un error al generar el informe de eliminación del rastreador. Actualiza la página para volver a intentarlo.
 
 ## Modals
 
