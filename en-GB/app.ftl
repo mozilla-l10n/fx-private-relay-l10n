@@ -539,6 +539,8 @@ profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used-2 = Email masks used
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Trackers Removed
+profile-stat-label-trackers-learn-more-part1 = Enabling tracker removal will remove common email trackers from your forwarded emails.
+profile-stat-label-trackers-learn-more-part2 = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
 profile-filter-search-placeholder-2 = Search masks
 profile-filter-category-button-label = Filter visible masks
 profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
@@ -554,6 +556,9 @@ profile-filter-category-option-promo-blocking-masks = Promo-blocking masks
 profile-filter-category-option-random-masks = Random masks
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Custom masks
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Tracker removal status
+profile-indicator-tracker-removal-tooltip = Currently removing email trackers
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -700,6 +705,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Enter email mask prefix
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "coffee"
+modal-custom-alias-picker-form-prefix-spaces-warning = Spaces are not allowed in email masks.
+modal-custom-alias-picker-form-prefix-invalid-warning = Email masks can only contain lowercase letters, numbers, and hyphens, and may not start or end with a hyphen.
 modal-custom-alias-picker-form-submit-label-2 = Generate mask
 modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
 
@@ -781,6 +788,40 @@ multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } Tracker Removal Report
+trackerreport-meta-from-heading = From
+trackerreport-meta-receivedat-heading = Received by
+trackerreport-meta-count-heading = Total trackers
+trackerreport-trackers-heading = Trackers detected
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Tracker domain
+trackerreport-trackers-count-heading = Number of trackers
+trackerreport-trackers-none = No trackers detected in this email.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
+trackerreport-confidentiality-notice = Tracker information and from address shown in these reports are not saved by { -brand-name-firefox-relay } and only contained within report URLs. We do not save your emails.
+trackerreport-removal-explainer-heading = How tracker removal works
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your email masks. You’ll still receive your emails, but the trackers in your forwarded emails will be removed, so you can get your emails without being tracked. To enable tracker removal on all your masks at once, enable tracker removal in settings rather than individually for each mask.
+trackerreport-trackers-explainer-heading = About email trackers
+trackerreport-trackers-explainer-content-part1 = Email tracking is a common surveillance and advertising tool that has taken over many inboxes. These trackers can be used to understand more about your online behaviour, your interests, and your email activity.
+trackerreport-trackers-explainer-content-part2 = A company or organisation will embed a tracker in emails sent to you, usually hidden within an image or a link. When the email is opened, code within the tracker sends data back to the company.
+trackerreport-breakage-warning = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images, which will not load if they contain a tracker.
+trackerreport-faq-heading = Top questions about email trackers
+trackerreport-faq-cta = See more FAQs about { -brand-name-firefox-relay }
+trackerreport-loading = Loading your tracker removal report…
+trackerreport-load-error = There was an error generating your tracker removal report. Please refresh the page to try again.
 
 ## Modals
 
