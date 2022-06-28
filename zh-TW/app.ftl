@@ -140,6 +140,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = 立刻升級，獲得更多保護…
 whatsnew-feature-premium-expansion-description = 立刻升級，獲得更多保護 — 建立無限量的轉寄信箱、設定自訂郵件子網域，還有更多功能！
+whatsnew-feature-tracker-removal-heading = 推出郵件追蹤器移除功能
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器…
+whatsnew-feature-tracker-removal-description = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。
 
 ## Bento Menu
 
@@ -342,6 +348,9 @@ settings-api-key-description-bolded = 請只在信任可存取您的 { -brand-na
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 點擊複製
 setting-api-key-copied = 已複製！
+setting-tracker-removal-heading = 移除郵件追蹤器
+setting-tracker-removal-description = 移除轉寄郵件當中的電子郵件追蹤器。
+setting-tracker-removal-note = 現在起，{ -brand-name-firefox-relay } 可移除轉寄郵件當中常見的追蹤器。
 
 ## FAQ Page
 
@@ -715,6 +724,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = 下載 { -brand
 multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
 multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
