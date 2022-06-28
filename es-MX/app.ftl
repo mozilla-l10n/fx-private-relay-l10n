@@ -141,6 +141,10 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtendrás mucha más protección…
 whatsnew-feature-premium-expansion-description = ¡Actualiza ahora y obtendrás mucha más protección, crea máscaras de correo ilimitadas, obtén un subdominio de correo y más!
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eliminar los rastreadores de correo electrónico comunes de los correos electrónicos reenviados…
 
 ## Bento Menu
 
@@ -375,6 +379,7 @@ settings-api-key-description-bolded = Solo úsala con aplicaciones en las que co
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
+setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
 
 ## FAQ Page
 
@@ -505,6 +510,8 @@ profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviados
 profile-label-replies = Respuestas
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Rastreadores eliminados
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -512,9 +519,13 @@ profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluyendo archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-replies-tooltip = Puedes responder a los correos electrónicos recibidos a través de esta máscara y { -brand-name-firefox-relay } continuará protegiendo tu dirección de correo verdadero.
+profile-stat-learn-more = Saber más
+profile-stat-learn-more-close = Cerrar
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used-2 = Correos enmascarados usados
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Rastreadores eliminados
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
@@ -754,6 +765,26 @@ multi-part-onboarding-premium-chrome-extension-button-download = Consigue la ext
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-added = ¡Extensión { -brand-name-relay } agregada!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
+
+## Report of trackers removed from an email
+
+trackerreport-meta-from-heading = De
+trackerreport-meta-count-heading = Rastreadores totales
+trackerreport-trackers-heading = Rastreadores detectados
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Dominio del rastreador
+trackerreport-trackers-count-heading = Número de rastreadores
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+trackerreport-removal-explainer-heading = Cómo funciona la eliminación de rastreadores
+trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
+trackerreport-faq-heading = Preguntas principales sobre los rastreadores de correo electrónico
+trackerreport-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 
 ## Modals
 
