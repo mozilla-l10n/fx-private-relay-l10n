@@ -432,6 +432,8 @@ faq-question-detect-promotional-answer = 許多郵件的標頭上會記載該郵
 faq-question-disable-trackerremoval-question = 我可以不收到郵件追蹤器嗎？
 faq-question-disable-trackerremoval-answer = 可以。如果您發現收到的郵件內容異常，或者希望不再移除郵件中的追蹤器，可以到設定當中關閉此功能。
 faq-question-bulk-trackerremoval-question = 我可以只刪除部分轉寄信箱收到的追蹤器嗎？
+faq-question-bulk-trackerremoval-answer = 您只能於帳號層級開關「移除追蹤器」功能，必須將所有收到的郵件當中的追蹤器都移除，或是都保留。
+faq-question-trackerremoval-breakage-question = 為什麼我收到的郵件內容看來怪怪的？
 
 ## Profile Page (Logged In)
 
@@ -494,9 +496,14 @@ profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 目前不支援超過 { email-size-limit }（含附件）的郵件，將不會轉寄給您。
 profile-forwarded-note-copy-v2 = 超過 { email-size-limit } 的郵件（含附件）將不會被轉寄。
 profile-replies-tooltip = 您可以透過此轉寄信箱來回覆收到的郵件，{ -brand-name-firefox-relay } 仍會持續保護您的實際郵件信箱不展現給收件者。
+profile-stat-learn-more = 了解更多
+profile-stat-learn-more-close = 關閉
 profile-stat-label-blocked = 已封鎖信件
 profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used-2 = 已用的轉寄信箱
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = 追蹤器移除數量
+profile-stat-label-trackers-learn-more-part2 = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 profile-filter-search-placeholder-2 = 搜尋轉寄信箱
 profile-filter-category-button-label = 過濾可見的轉寄信箱
 profile-filter-category-button-tooltip = 依照子網域及/或它們是否封鎖收到的郵件來過濾轉寄信箱
@@ -512,6 +519,9 @@ profile-filter-category-option-promo-blocking-masks = 封鎖行銷信件的信�
 profile-filter-category-option-random-masks = 隨機信箱
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = 自訂信箱
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = 追蹤器移除狀態
+profile-indicator-tracker-removal-tooltip = 目前會移除郵件追蹤器
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -654,6 +664,7 @@ modal-custom-alias-picker-form-prefix-label-2 = 輸入轉寄信箱前綴
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
+modal-custom-alias-picker-form-prefix-spaces-warning = 轉寄信箱名稱中不允許空白。
 modal-custom-alias-picker-form-submit-label-2 = 產生轉寄信箱
 modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉寄信箱，請再試一次，或直接寄信到該轉寄信箱即可建立。
 
@@ -733,6 +744,34 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } 追蹤器移除報告
+trackerreport-meta-from-heading = 從
+trackerreport-meta-receivedat-heading = 接收者
+trackerreport-meta-count-heading = 追蹤器數量
+trackerreport-trackers-heading = 偵測到的追蹤器數量
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = 追蹤器網域
+trackerreport-trackers-count-heading = 追蹤器數量
+trackerreport-trackers-none = 並未於此郵件中偵測到追蹤器。
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+       *[other] { $count } 組追蹤器
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+       *[other] { $count } 組追蹤器
+    }
+trackerreport-removal-explainer-heading = 移除追蹤器的原理
+trackerreport-trackers-explainer-heading = 關於電子郵件追蹤器
+trackerreport-breakage-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中，被偵測到為追蹤器後就不會再顯示。
+trackerreport-faq-heading = 關於電子郵件追蹤器的熱門問題
+trackerreport-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
+trackerreport-loading = 正在載入您的追蹤器移除報告…
+trackerreport-load-error = 產生您的追蹤器移除報告時發生錯誤，請重新整理頁面再試一次。
 
 ## Modals
 
