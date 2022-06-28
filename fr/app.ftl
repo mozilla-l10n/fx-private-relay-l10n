@@ -145,6 +145,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Surclassez votre compte maintenant et obtenez encore plus de protection…
 whatsnew-feature-premium-expansion-description = Surclassez votre compte maintenant et obtenez encore plus de protection – créez un nombre illimité d’alias de messagerie, obtenez un sous-domaine de messagerie personnalisé et d’autres choses encore !
+whatsnew-feature-tracker-removal-heading = Suppression des traqueurs dans les e-mails
 
 ## Bento Menu
 
@@ -377,6 +378,8 @@ settings-api-key-description-bolded = Ne l’utilisez qu’avec des applications
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Cliquer pour copier
 setting-api-key-copied = Copiée !
+setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
+setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
 
 ## FAQ Page
 
@@ -454,6 +457,7 @@ faq-question-promotional-email-blocking-question = En quoi consiste le blocage d
 faq-question-promotional-email-blocking-answer = Les abonnés à { -brand-name-relay-premium } peuvent activer le blocage des e-mails promotionnels. Cette fonctionnalité vous transfère les e-mails importants, tels que les factures, les réinitialisations de mot de passe et les confirmations tout en bloquant ceux des campagnes publicitaires. Il existe toujours un léger risque de voir un message important bloqué, aussi nous vous recommandons de ne pas utiliser cette fonctionnalité pour des sites très importants comme celui de votre banque. Si un e-mail est bloqué, il est impossible de le récupérer.
 faq-question-detect-promotional-question = Comment { -brand-name-relay } détecte-t-il si un e-mail est promotionnel ?
 faq-question-detect-promotional-answer = De nombreux e-mails sont expédiés avec des métadonnées dans l’« en-tête » pour indiquer qu’ils proviennent d’outils automatisés se basant sur des listes. { -brand-name-firefox-relay } détecte ces données d’en-tête et peut ainsi bloquer ces e-mails.
+faq-question-disable-trackerremoval-question = Puis-je arrêter de supprimer les traqueurs des e-mails ?
 
 ## Profile Page (Logged In)
 
@@ -521,6 +525,8 @@ profile-stat-learn-more-close = Fermer
 profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Traqueurs supprimés
 profile-filter-search-placeholder-2 = Rechercher des alias
 profile-filter-category-button-label = Filtrer les alias visibles
 profile-filter-category-button-tooltip = Filtrer les alias par sous-domaine et/ou s’ils bloquent actuellement les e-mails entrants
@@ -536,6 +542,8 @@ profile-filter-category-option-promo-blocking-masks = Alias bloquant les promoti
 profile-filter-category-option-random-masks = Alias aléatoires
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Alias personnalisés
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = État de la suppression des traqueurs
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -757,6 +765,14 @@ multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau d
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-from-heading = Expéditeur
+trackerreport-meta-receivedat-heading = Reçu par
+trackerreport-meta-count-heading = Total des traqueurs
+trackerreport-trackers-heading = Traqueurs détectés
+trackerreport-trackers-count-heading = Nombre de traqueurs
+trackerreport-trackers-none = Aucun traqueur détecté dans cet e-mail.
+trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
+trackerreport-faq-heading = Questions les plus fréquentes sur les traqueurs dans les e-mails
 
 ## Modals
 
