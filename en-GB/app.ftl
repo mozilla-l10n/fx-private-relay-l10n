@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Upgrade now and get even more protection…
 whatsnew-feature-premium-expansion-description = Upgrade now and get even more protection — create unlimited email masks, get a custom email subdomain, and more!
+whatsnew-feature-tracker-removal-heading = Introducing email tracker removal
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Now { -brand-name-relay } can remove common email trackers from emails forwarded…
+whatsnew-feature-tracker-removal-description = Now { -brand-name-relay } can remove common email trackers from emails forwarded to you, helping you stay invisible to advertisers.
 
 ## Bento Menu
 
@@ -375,6 +381,10 @@ settings-api-key-description-bolded = Only use this with apps that you trust to 
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Click to copy
 setting-api-key-copied = Copied!
+setting-tracker-removal-heading = Remove Email Trackers
+setting-tracker-removal-description = Remove email trackers in all forwarded emails.
+setting-tracker-removal-note = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your masks.
+setting-tracker-removal-warning = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
 
 ## FAQ Page
 
@@ -452,6 +462,12 @@ faq-question-promotional-email-blocking-question = What is promotional email blo
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
 faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
 faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
+faq-question-disable-trackerremoval-question = Can I stop removing email trackers?
+faq-question-disable-trackerremoval-answer = Yes. If you’re having trouble with emails looking broken or would like to stop removing trackers, you can disable the feature in settings.
+faq-question-bulk-trackerremoval-question = Can I remove trackers only on some of my email masks?
+faq-question-bulk-trackerremoval-answer = You can only turn tracker removal on at an account level — it either removes trackers from all of your emails, or none of them.
+faq-question-trackerremoval-breakage-question = Why do my emails look broken?
+faq-question-trackerremoval-breakage-answer = Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images. When the tracker is removed, the email looks like it’s been formatted wrong because images are missing. This can’t be fixed for emails you’ve already received. If this is preventing you from reading your emails properly, turn off tracker removal.
 
 ## Profile Page (Logged In)
 
@@ -505,6 +521,10 @@ profile-label-copied = Copied!
 profile-label-blocked = Blocked
 profile-label-forwarded = Forwarded
 profile-label-replies = Replies
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Trackers Removed
+profile-trackers-removed-tooltip-part1 = With tracker removal enabled, common email trackers will be removed from your forwarded emails.
+profile-trackers-removed-tooltip-part2 = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images.
 profile-label-cancel = Cancel
 profile-blocked-copy-2 = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this mask.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this mask.
@@ -512,9 +532,13 @@ profile-forwarded-note = Note:
 profile-forwarded-note-copy = Email (including attachments) larger than { email-size-limit } are not currently supported and will not be forwarded.
 profile-forwarded-note-copy-v2 = Email (including attachments) larger than { email-size-limit } will not be forwarded.
 profile-replies-tooltip = You can reply to emails received through this mask, and { -brand-name-firefox-relay } will continue to protect your true email address.
+profile-stat-learn-more = Learn more
+profile-stat-learn-more-close = Close
 profile-stat-label-blocked = Emails Blocked
 profile-stat-label-forwarded = Emails Forwarded
 profile-stat-label-aliases-used-2 = Email masks used
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Trackers Removed
 profile-filter-search-placeholder-2 = Search masks
 profile-filter-category-button-label = Filter visible masks
 profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
@@ -754,6 +778,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Get { -brand-na
 multi-part-onboarding-premium-extension-button-skip = Continue, I’ll download the extension later
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } extension added!
 multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
