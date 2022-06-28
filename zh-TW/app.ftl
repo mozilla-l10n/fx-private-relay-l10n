@@ -429,6 +429,9 @@ faq-question-promotional-email-blocking-question = 行銷郵件封鎖功能是�
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 訂閱者可開啟行銷郵件封鎖功能。此功能將會把消費收據、密碼重設信、確認信件等重要信件轉寄給您，但會封鎖所有行銷郵件。還是有些微的可能誤擋到重要郵件，所以我們建議您不要對重要的服務（例如銀行）開啟此功能。若郵件遭到封鎖，將無法救回。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何偵測一封信是不是行銷郵件？
 faq-question-detect-promotional-answer = 許多郵件的標頭上會記載該郵件是使用自動化工具所產生的郵件清單所寄出。{ -brand-name-firefox-relay } 會偵測此標頭資料，並且加以阻擋封鎖。
+faq-question-disable-trackerremoval-question = 我可以不收到郵件追蹤器嗎？
+faq-question-disable-trackerremoval-answer = 可以。如果您發現收到的郵件內容異常，或者希望不再移除郵件中的追蹤器，可以到設定當中關閉此功能。
+faq-question-bulk-trackerremoval-question = 我可以只刪除部分轉寄信箱收到的追蹤器嗎？
 
 ## Profile Page (Logged In)
 
