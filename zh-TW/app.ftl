@@ -351,6 +351,7 @@ setting-api-key-copied = 已複製！
 setting-tracker-removal-heading = 移除郵件追蹤器
 setting-tracker-removal-description = 移除轉寄郵件當中的電子郵件追蹤器。
 setting-tracker-removal-note = 現在起，{ -brand-name-firefox-relay } 可移除轉寄郵件當中常見的追蹤器。
+setting-tracker-removal-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 
 ## FAQ Page
 
@@ -481,6 +482,8 @@ profile-label-copied = 已複製！
 profile-label-blocked = 封鎖
 profile-label-forwarded = 轉寄
 profile-label-replies = 回覆
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = 追蹤器移除數量
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 對此轉寄信箱選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
 profile-forwarded-copy-2 = 對此轉寄信箱選擇轉寄時，{ -brand-name-firefox-relay } 將把郵件轉寄給您。
