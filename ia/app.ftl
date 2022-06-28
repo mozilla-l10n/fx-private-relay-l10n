@@ -508,9 +508,13 @@ profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
 profile-forwarded-note-copy-v2 = Ulle e-mail (annexos includite) major de { email-size-limit } non sera inultrate.
 profile-replies-tooltip = Per iste masca tu pote responder al emails recipite, e { -brand-name-firefox-relay } continuara a proteger tu ver adresse email
+profile-stat-learn-more = Pro saper plus
+profile-stat-learn-more-close = Clauder
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used-2 = Mascas email usate
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = { "" }
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
 profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
@@ -750,6 +754,26 @@ multi-part-onboarding-premium-chrome-extension-button-download = Discargar exten
 multi-part-onboarding-premium-extension-button-skip = Continuar,io discargara plus tarde le extension
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de controlo
+
+## Report of trackers removed from an email
+
+trackerreport-meta-from-heading = Ab
+trackerreport-meta-receivedat-heading = Recipite ab
+trackerreport-meta-count-heading = Traciatores total
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 traciator
+       *[other] { $count } traciatores
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 traciator
+       *[other] { $count } traciatores
+    }
 
 ## Modals
 
