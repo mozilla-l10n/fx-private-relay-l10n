@@ -507,6 +507,8 @@ profile-label-copied = Copié !
 profile-label-blocked = Bloqués
 profile-label-forwarded = Transférés
 profile-label-replies = Réponses
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Traqueurs supprimés
 profile-label-cancel = Annuler
 profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
@@ -514,6 +516,8 @@ profile-forwarded-note = Remarque :
 profile-forwarded-note-copy = Les messages (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne sont actuellement pas pris en charge et ne seront pas transférés.
 profile-forwarded-note-copy-v2 = Les e-mails (en tenant compte des pièces jointes) supérieurs à { email-size-limit } ne seront pas transférés.
 profile-replies-tooltip = Vous pouvez répondre aux e-mails reçus via cet alias, et { -brand-name-firefox-relay } continuera à protéger votre véritable adresse e-mail.
+profile-stat-learn-more = En savoir plus
+profile-stat-learn-more-close = Fermer
 profile-stat-label-blocked = Messages bloqués
 profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
@@ -750,6 +754,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Installer l’e
 multi-part-onboarding-premium-extension-button-skip = Continuer, je téléchargerai l’extension plus tard
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
 multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
