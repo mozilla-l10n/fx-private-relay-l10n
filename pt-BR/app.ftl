@@ -512,9 +512,13 @@ profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Emails (incluindo anexos) maiores que { email-size-limit } no momento não são aceitos e não são encaminhados.
 profile-forwarded-note-copy-v2 = Emails (incluindo anexos) maiores que { email-size-limit } não são encaminhados.
 profile-replies-tooltip = Você pode responder a emails recebidos através dessa máscara, o { -brand-name-firefox-relay } continua a proteger seu endereço de email verdadeiro.
+profile-stat-learn-more = Saiba mais
+profile-stat-learn-more-close = Fechar
 profile-stat-label-blocked = Emails bloqueados
 profile-stat-label-forwarded = Emails encaminhados
 profile-stat-label-aliases-used-2 = Máscaras de email usadas
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Rastreadores removidos
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
@@ -750,6 +754,33 @@ multi-part-onboarding-premium-chrome-extension-button-download = Instalar a exte
 multi-part-onboarding-premium-extension-button-skip = Avançar, instalarei a extensão mais tarde
 multi-part-onboarding-premium-extension-added = Extensão { -brand-name-relay } adicionada!
 multi-part-onboarding-premium-extension-button-dashboard = Ir para o painel
+
+## Report of trackers removed from an email
+
+trackerreport-meta-count-heading = Total de rastreadores
+trackerreport-trackers-heading = Rastreadores detectados
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Domínio do rastreador
+trackerreport-trackers-count-heading = Número de rastreadores
+trackerreport-trackers-none = Nenhum rastreador detectado neste email.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+trackerreport-faq-heading = Principais dúvidas sobre rastreadores de email
+trackerreport-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
+trackerreport-loading = Carregando seu relatório de remoção de rastreadores…
+trackerreport-load-error = Houve um erro ao gerar o relatório de remoção de rastreadores. Atualize a página para tentar novamente.
 
 ## Modals
 
