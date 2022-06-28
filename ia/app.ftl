@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Promove ora e obtene ancora plus protection…
 whatsnew-feature-premium-expansion-description = Promove ora e obtene ancora plus protection — crea mascas email illimitate, obtene un subdominio email personal e ancora plus!
+whatsnew-feature-tracker-removal-heading = Introduction al remotion de traciator de email
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remover ab le emails inultrate le commun traciatores de email…
+whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
 
 ## Bento Menu
 
@@ -371,6 +377,8 @@ settings-api-key-description-bolded = Usa isto solo con apps fidibile pro accede
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicca pro copiar
 setting-api-key-copied = Copiate!
+setting-tracker-removal-heading = Remover traciatores de emails
+setting-tracker-removal-description = Remover traciatores de email in tote le emails inultrate.
 
 ## FAQ Page
 
