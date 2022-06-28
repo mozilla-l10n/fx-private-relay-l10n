@@ -141,6 +141,11 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz…
 whatsnew-feature-premium-expansion-description = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz – erstellen Sie unbegrenzt viele E-Mail-Masken, nutzen Sie eine benutzerdefinierte E-Mail-Subdomain und mehr!
+whatsnew-feature-tracker-removal-heading = Neue Funktion: Entfernung von E-Mail-Trackern
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus weitergeleiteten E-Mails entfernen…
 
 ## Bento Menu
 
@@ -754,6 +759,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Holen Sie sich 
 multi-part-onboarding-premium-extension-button-skip = Weiter, ich lade die Erweiterung später herunter
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
 multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
