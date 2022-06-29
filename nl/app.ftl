@@ -146,6 +146,7 @@ whatsnew-feature-tracker-removal-heading = Nieuw: verwijdering van e-mailtracker
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit doorgestuurde e-mailberichten…
+whatsnew-feature-tracker-removal-description = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders.
 
 ## Bento Menu
 
@@ -384,6 +385,10 @@ settings-api-key-description-bolded = Gebruik dit alleen met apps die u vertrouw
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klik om te kopiëren
 setting-api-key-copied = Gekopieerd!
+setting-tracker-removal-heading = E-mailtrackers verwijderen
+setting-tracker-removal-description = E-mailtrackers verwijderen uit alle doorgestuurde e-mailberichten.
+setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu veelgebruikte trackers verwijderen uit e-mailberichten die via uw maskers zijn doorgestuurd.
+setting-tracker-removal-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 
 ## FAQ Page
 
@@ -461,6 +466,12 @@ faq-question-promotional-email-blocking-question = Wat is blokkeren van reclameb
 faq-question-promotional-email-blocking-answer = Abonnees van { -brand-name-relay-premium } kunnen blokkeren van reclameberichten inschakelen. Deze functie stuurt u belangrijke e-mailberichten door, zoals ontvangstbewijzen, wachtwoordherinitialisaties en bevestigingen, terwijl marketingberichten nog steeds worden geblokkeerd. Er is een kleine kans dat een belangrijk bericht nog steeds wordt geblokkeerd, dus we raden u aan deze functie niet te gebruiken voor belangrijke plaatsen, zoals uw bank. Als een e-mailbericht wordt geblokkeerd kan het niet worden hersteld.
 faq-question-detect-promotional-question = Hoe detecteert { -brand-name-relay } of een e-mailbericht reclame is of niet?
 faq-question-detect-promotional-answer = Veel e-mailberichten worden verzonden met ‘header’-metagegevens die aangeven dat ze afkomstig zijn van hulpmiddelen die automatisch berichten verzenden. { -brand-name-firefox-relay } detecteert deze headergegevens, zodat het deze e-mailberichten kan blokkeren.
+faq-question-disable-trackerremoval-question = Kan ik stoppen met het verwijderen van e-mailtrackers?
+faq-question-disable-trackerremoval-answer = Ja. Als u problemen hebt met e-mailberichten die er niet goed uitzien, of als u wilt stoppen met het verwijderen van trackers, kunt u de functie in de instellingen uitschakelen.
+faq-question-bulk-trackerremoval-question = Kan ik trackers alleen op enkele van mijn e-mailmaskers verwijderen?
+faq-question-bulk-trackerremoval-answer = U kunt het verwijderen van trackers alleen op accountniveau inschakelen – het verwijdert trackers uit al uw e-mailberichten of geen ervan.
+faq-question-trackerremoval-breakage-question = Waarom zien mijn e-mailberichten er niet goed uit?
+faq-question-trackerremoval-breakage-answer = Soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers zich vaak in afbeeldingen bevinden. Wanneer de tracker wordt verwijderd, lijkt het alsof het e-mailbericht verkeerd is opgemaakt, omdat er afbeeldingen ontbreken. Dit kan niet worden opgelost voor e-mailberichten die u al hebt ontvangen. Als u hierdoor uw e-mailberichten niet goed kunt lezen, schakel de verwijdering van trackers dan uit.
 
 ## Profile Page (Logged In)
 
@@ -514,6 +525,10 @@ profile-label-copied = Gekopieerd!
 profile-label-blocked = Geblokkeerd
 profile-label-forwarded = Doorgestuurd
 profile-label-replies = Antwoorden
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = trackers verwijderd
+profile-trackers-removed-tooltip-part1 = Als trackerverwijdering is ingeschakeld, worden veelgebruikte e-mailtrackers verwijderd uit uw doorgestuurde e-mailberichten.
+profile-trackers-removed-tooltip-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 profile-label-cancel = Annuleren
 profile-blocked-copy-2 = { -brand-name-firefox-relay } verwijdert berichten voordat ze uw Postvak IN kunnen bereiken wanneer u blokkeren voor dit masker selecteert.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stuurt berichten naar uw Postvak IN wanneer u doorsturen voor dit masker selecteert.
@@ -521,9 +536,15 @@ profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden momenteel niet ondersteund en worden niet doorgestuurd.
 profile-forwarded-note-copy-v2 = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden niet doorgestuurd.
 profile-replies-tooltip = U kunt via dit masker ontvangen e-mailberichten beantwoorden en { -brand-name-firefox-relay } zal uw echte e-mailadres blijven beschermen.
+profile-stat-learn-more = Meer info
+profile-stat-learn-more-close = Sluiten
 profile-stat-label-blocked = E-mailberichten geblokkeerd
 profile-stat-label-forwarded = E-mailberichten doorgestuurd
 profile-stat-label-aliases-used-2 = Gebruikte e-mailmaskers
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = trackers verwijderd
+profile-stat-label-trackers-learn-more-part1 = Als u trackerverwijdering inschakelt, worden veelgebruikte e-mailtrackers uit uw doorgestuurde e-mailberichten verwijderd.
+profile-stat-label-trackers-learn-more-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 profile-filter-search-placeholder-2 = Maskers doorzoeken
 profile-filter-category-button-label = Zichtbare maskers filteren
 profile-filter-category-button-tooltip = Maskers filteren op subdomein en/of of ze momenteel inkomende e-mailberichten blokkeren
@@ -539,6 +560,9 @@ profile-filter-category-option-promo-blocking-masks = Reclameblokkerende maskers
 profile-filter-category-option-random-masks = Willekeurige maskers
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Aangepaste maskers
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Status trackerverwijdering
+profile-indicator-tracker-removal-tooltip = E-mailtrackers worden momenteel verwijderd
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -685,6 +709,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Voer maskervoorvoegsel in
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = b.v. ‘koffie’
+modal-custom-alias-picker-form-prefix-spaces-warning = Spaties zijn niet toegestaan in e-mailmaskers.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers mogen alleen kleine letters, cijfers en koppeltekens bevatten en mogen niet beginnen of eindigen met een koppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker aanmaken
 modal-custom-alias-picker-creation-error-2 = Uw aangepaste masker kan niet handmatig worden gemaakt. Probeer het opnieuw of stuur een e-mailbericht naar het masker om het aan te maken.
 
@@ -766,6 +792,29 @@ multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay }-trackerverwijderingsrapport
+trackerreport-meta-from-heading = Van
+trackerreport-meta-receivedat-heading = Ontvangen door
+trackerreport-meta-count-heading = Totaal aantal trackers
+trackerreport-trackers-heading = Trackers gedetecteerd
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Trackerdomein
+trackerreport-trackers-count-heading = Aantal trackers
+trackerreport-trackers-none = Geen trackers gedetecteerd in dit e-mailbericht.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
 
 ## Modals
 
