@@ -539,6 +539,8 @@ profile-stat-label-forwarded = Emails encaminhados
 profile-stat-label-aliases-used-2 = Máscaras de email usadas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores removidos
+profile-stat-label-trackers-learn-more-part1 = Ativar a remoção de rastreadores remove rastreadores comuns de emails encaminhados a você.
+profile-stat-label-trackers-learn-more-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
@@ -554,6 +556,9 @@ profile-filter-category-option-promo-blocking-masks = Máscaras com bloqueio de 
 profile-filter-category-option-random-masks = Máscaras aleatórias
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Máscaras personalizadas
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Status de remoção de rastreadores
+profile-indicator-tracker-removal-tooltip = Atualmente removendo rastreadores de email
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -696,6 +701,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Digite o prefixo da máscara de 
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "lojas"
+modal-custom-alias-picker-form-prefix-spaces-warning = Não são permitidos espaços em máscaras de email.
+modal-custom-alias-picker-form-prefix-invalid-warning = Máscaras de email só podem conter letras minúsculas, números e traços e não podem começar nem terminar com um traço.
 modal-custom-alias-picker-form-submit-label-2 = Gerar máscara
 modal-custom-alias-picker-creation-error-2 = Sua máscara de email personalizada não pôde ser criada manualmente. Tente novamente, ou envie um email para a máscara para criar automaticamente.
 
@@ -777,6 +784,9 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir para o painel
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Relatório de remoção de rastreadores do { -brand-name-relay }
+trackerreport-meta-from-heading = De
+trackerreport-meta-receivedat-heading = Recebido por
 trackerreport-meta-count-heading = Total de rastreadores
 trackerreport-trackers-heading = Rastreadores detectados
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -797,6 +807,9 @@ trackerreport-tracker-count =
         [one] 1 rastreador
        *[other] { $count } rastreadores
     }
+trackerreport-confidentiality-notice = As informações de rastreadores e de endereços exibidos nesses relatórios não são salvas pelo { -brand-name-firefox-relay }, estão contidas apenas nas URLs de relatórios. Não salvamos seus emails.
+trackerreport-removal-explainer-heading = Como funciona a remoção de rastreadores
+trackerreport-trackers-explainer-heading = Sobre rastreadores de email
 trackerreport-faq-heading = Principais dúvidas sobre rastreadores de email
 trackerreport-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
 trackerreport-loading = Carregando seu relatório de remoção de rastreadores…
