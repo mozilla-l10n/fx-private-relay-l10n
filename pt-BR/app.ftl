@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Mude agora e obtenha ainda mais proteção…
 whatsnew-feature-premium-expansion-description = Mude agora e obtenha ainda mais proteção. Crie máscaras de email ilimitadas, tenha um subdomínio de email personalizado e muito mais!
+whatsnew-feature-tracker-removal-heading = Apresentamos a remoção de rastreadores de email
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados…
+whatsnew-feature-tracker-removal-description = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes.
 
 ## Bento Menu
 
@@ -375,6 +381,10 @@ settings-api-key-description-bolded = Só use em aplicativos que você confia pa
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clique para copiar
 setting-api-key-copied = Copiado!
+setting-tracker-removal-heading = Remover rastreadores de email
+setting-tracker-removal-description = Remove rastreadores de email em todos os emails encaminhados.
+setting-tracker-removal-note = Agora o { -brand-name-firefox-relay } pode remover rastreadores comuns de emails encaminhados por suas máscaras.
+setting-tracker-removal-warning = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 
 ## FAQ Page
 
@@ -452,6 +462,9 @@ faq-question-promotional-email-blocking-question = O que é bloqueio de email pr
 faq-question-promotional-email-blocking-answer = Os assinantes do { -brand-name-relay-premium } podem ativar o bloqueio de email promocional. Este recurso encaminha para você emails importantes, como recibos, redefinição de senhas e confirmações, mas bloqueia mensagens de marketing. Há um pequeno risco de uma mensagem importante ser bloqueada, por isso recomendamos que você não use este recurso em coisas muito importantes, como seu banco. Se um email for bloqueado, não poderá ser recuperado.
 faq-question-detect-promotional-question = Como o { -brand-name-relay } detecta se um email é ou não promocional?
 faq-question-detect-promotional-answer = Muitos emails são enviados com metadados em “header” para indicar que são gerados por ferramentas automatizadas baseadas em listas. O { -brand-name-firefox-relay } detecta esses dados de cabeçalho para bloquear tais emails.
+faq-question-disable-trackerremoval-question = Posso parar de remover rastreadores de email?
+faq-question-disable-trackerremoval-answer = Sim. Caso você tenha problemas com emails parecer errados ou quer parar de remover rastreadores, pode desativar o recurso nas configurações.
+faq-question-bulk-trackerremoval-question = Posso remover rastreadores apenas em algumas das minhas máscaras de email?
 
 ## Profile Page (Logged In)
 
