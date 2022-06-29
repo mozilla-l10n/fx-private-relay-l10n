@@ -370,6 +370,8 @@ profile-label-cancel = منسوخ
 profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
+profile-stat-learn-more = ٻیا سِکھو
+profile-stat-learn-more-close = بند کرو
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
@@ -567,6 +569,10 @@ multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-r
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
+
+## Report of trackers removed from an email
+
+trackerreport-meta-from-heading = کنوں
 
 ## Modals
 
