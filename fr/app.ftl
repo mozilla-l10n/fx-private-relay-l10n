@@ -544,6 +544,7 @@ profile-filter-category-option-random-masks = Alias aléatoires
 profile-filter-category-option-custom-masks = Alias personnalisés
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = État de la suppression des traqueurs
+profile-indicator-tracker-removal-tooltip = Supprime les traqueurs des e-mails
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
