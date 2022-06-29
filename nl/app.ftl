@@ -141,6 +141,11 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Upgrade nu en ontvang nog meer bescherming…
 whatsnew-feature-premium-expansion-description = Upgrade nu en ontvang nog meer bescherming – maak onbeperkt e-mailmaskers aan, ontvang een aangepast e-mailsubdomein en meer!
+whatsnew-feature-tracker-removal-heading = Nieuw: verwijdering van e-mailtrackers
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit doorgestuurde e-mailberichten…
 
 ## Bento Menu
 
@@ -758,6 +763,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-nam
 multi-part-onboarding-premium-extension-button-skip = Doorgaan, ik download de extensie later
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
 multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
