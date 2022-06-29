@@ -465,6 +465,9 @@ faq-question-detect-promotional-answer = Muitos emails são enviados com metadad
 faq-question-disable-trackerremoval-question = Posso parar de remover rastreadores de email?
 faq-question-disable-trackerremoval-answer = Sim. Caso você tenha problemas com emails parecer errados ou quer parar de remover rastreadores, pode desativar o recurso nas configurações.
 faq-question-bulk-trackerremoval-question = Posso remover rastreadores apenas em algumas das minhas máscaras de email?
+faq-question-bulk-trackerremoval-answer = A ativação de remoção de rastreadores é configuração da conta, rastreadores são removidos de todos os seus emails ou de nenhum.
+faq-question-trackerremoval-breakage-question = Por que meus emails parecem errados?
+faq-question-trackerremoval-breakage-answer = Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens. Quando um rastreador é removido, o email pode parecer ter sido formatado incorretamente porque faltam imagens. Isso não pode ser corrigido em emails que você já recebeu. Se estiver atrapalhando a leitura de emails, desative a remoção de rastreadores.
 
 ## Profile Page (Logged In)
 
@@ -518,6 +521,10 @@ profile-label-copied = Copiado!
 profile-label-blocked = Bloqueados
 profile-label-forwarded = Encaminhados
 profile-label-replies = Respostas
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Rastreadores removidos
+profile-trackers-removed-tooltip-part1 = Com a remoção de rastreadores ativada, rastreadores comuns de email são removidos de emails encaminhados a você.
+profile-trackers-removed-tooltip-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = O { -brand-name-firefox-relay } exclui mensagens antes que cheguem à sua caixa de entrada quando você seleciona bloqueio desta máscara.
 profile-forwarded-copy-2 = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento desta máscara.
