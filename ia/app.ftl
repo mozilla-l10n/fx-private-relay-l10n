@@ -521,8 +521,6 @@ profile-stat-learn-more-close = Clauder
 profile-stat-label-blocked = Emails blocate
 profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used-2 = Mascas email usate
-# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
-profile-stat-label-trackers-removed = { "" }
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
 profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
