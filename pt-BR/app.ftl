@@ -809,6 +809,7 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = As informações de rastreadores e de endereços exibidos nesses relatórios não são salvas pelo { -brand-name-firefox-relay }, estão contidas apenas nas URLs de relatórios. Não salvamos seus emails.
 trackerreport-removal-explainer-heading = Como funciona a remoção de rastreadores
+trackerreport-removal-explainer-content = Agora o { -brand-name-firefox-relay } pode remover rastreadores comuns de emails encaminhados por meio de suas máscaras de email. Você continua recebendo emails, mas os rastreadores em emails encaminhados são removidos, para você poder receber emails sem ser rastreado. Para ativar a remoção de rastreadores em todas as suas máscaras de uma só vez, ative a remoção de rastreadores nas configurações em vez de individualmente em cada máscara.
 trackerreport-trackers-explainer-heading = Sobre rastreadores de email
 trackerreport-faq-heading = Principais dúvidas sobre rastreadores de email
 trackerreport-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
