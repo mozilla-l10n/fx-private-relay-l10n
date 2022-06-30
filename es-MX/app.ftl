@@ -514,6 +514,7 @@ profile-label-forwarded = Reenviados
 profile-label-replies = Respuestas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Rastreadores eliminados
+profile-trackers-removed-tooltip-part1 = Con la eliminación de rastreadores habilitada, los rastreadores de correo electrónico comunes se eliminarán de tus correos electrónicos reenviados.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -528,6 +529,7 @@ profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used-2 = Correos enmascarados usados
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores eliminados
+profile-stat-label-trackers-learn-more-part1 = Habilitar la eliminación de rastreadores eliminara los rastreadores de correo electrónico comunes de tus correos electrónicos reenviados.
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
