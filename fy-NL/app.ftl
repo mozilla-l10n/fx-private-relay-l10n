@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Fernij no en ûntfang noch mear beskerming…
 whatsnew-feature-premium-expansion-description = Fernij no en ûntfang noch mear beskerming – meitsje ûnbeheind e-mailmaskers oan, ûntfang in oanpast e-mailsubdomein en mear!
+whatsnew-feature-tracker-removal-heading = Nij: fuortsmiten fan e-mailtrackers
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út trochstjoerde e-mailberjochten fuortsmite…
+whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne fuortsmite, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
 
 ## Bento Menu
 
@@ -379,6 +385,7 @@ settings-api-key-description-bolded = Brûk dit allinnich mei apps dy’t jo fer
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klikje om te kopiearjen
 setting-api-key-copied = Kopiearre!
+setting-tracker-removal-heading = E-mailtrackers fuortsmite
 
 ## FAQ Page
 
@@ -758,6 +765,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-nam
 multi-part-onboarding-premium-extension-button-skip = Trochgean, ik download de útwreiding letter
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
 multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
