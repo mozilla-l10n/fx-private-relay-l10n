@@ -371,7 +371,6 @@ settings-button-copy = Fai clic per copiare
 setting-api-key-copied = Copiato
 setting-tracker-removal-heading = Rimuovere gli elementi traccianti dalle email
 setting-tracker-removal-note = { -brand-name-firefox-relay } ora può rimuovere gli elementi traccianti più comuni dalle email inoltrate attraverso i tuoi alias.
-setting-tracker-removal-warning = Importante: a volte la rimozione degli elementi traccianti può far sembrare l'email che hai ricevuto incompleta o mal formattata, perché gli elementi traccianti sono spesso contenuti all’interno delle immagini.
 
 ## FAQ Page
 
@@ -450,6 +449,7 @@ faq-question-promotional-email-blocking-answer = Gli abbonati { -brand-name-rela
 faq-question-detect-promotional-question = In che modo { -brand-name-relay } stabilisce se si tratta di un’email pubblicitaria?
 faq-question-detect-promotional-answer = Molte email vengono inviate con metadati di “intestazione” che indicano la provenienza da strumenti automatizzati basati su elenchi. { -brand-name-firefox-relay } è in grado di rilevare questi dati e bloccare queste email.
 faq-question-bulk-trackerremoval-question = Posso rimuovere gli elementi traccianti solo per alcuni dei miei alias email?
+faq-question-trackerremoval-breakage-question = Perché le email che ricevo sembrano incomplete o non formattate correttamente?
 
 ## Profile Page (Logged In)
 
