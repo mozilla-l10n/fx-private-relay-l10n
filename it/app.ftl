@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Aggiorna adesso per una protezione ancora maggiore…
 whatsnew-feature-premium-expansion-description = Aggiorna adesso per una protezione ancora maggiore. Crea illimitati alias di posta elettronica, ottieni un sottodominio personalizzato per le email e altro ancora.
+whatsnew-feature-tracker-removal-heading = Nuova funzione per la rimozione degli elementi traccianti dalle email
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email inoltrate…
+whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti.
 
 ## Bento Menu
 
@@ -370,7 +376,9 @@ settings-api-key-description-bolded = Utilizzala solo con applicazioni che ritie
 settings-button-copy = Fai clic per copiare
 setting-api-key-copied = Copiato
 setting-tracker-removal-heading = Rimuovere gli elementi traccianti dalle email
+setting-tracker-removal-description = Rimuovi gli elementi traccianti da tutte le email inoltrate.
 setting-tracker-removal-note = { -brand-name-firefox-relay } ora può rimuovere gli elementi traccianti più comuni dalle email inoltrate attraverso i tuoi alias.
+setting-tracker-removal-warning = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
 
 ## FAQ Page
 
@@ -448,8 +456,12 @@ faq-question-promotional-email-blocking-question = Che cos’è il blocco delle 
 faq-question-promotional-email-blocking-answer = Gli abbonati { -brand-name-relay-premium } possono attivare il blocco delle email pubblicitarie. Questa funzione garantisce l’inoltro di email importanti come fatture, reimpostazioni di password e conferme, bloccando invece i messaggi di marketing. Esiste il rischio, seppur minimo, che un messaggio importante possa essere bloccato. Per questo motivo ti consigliamo di non utilizzare questa funzione per servizi essenziali, come la tua banca. Se un’email viene bloccata, non sarà possibile recuperarla.
 faq-question-detect-promotional-question = In che modo { -brand-name-relay } stabilisce se si tratta di un’email pubblicitaria?
 faq-question-detect-promotional-answer = Molte email vengono inviate con metadati di “intestazione” che indicano la provenienza da strumenti automatizzati basati su elenchi. { -brand-name-firefox-relay } è in grado di rilevare questi dati e bloccare queste email.
+faq-question-disable-trackerremoval-question = Posso disattivare la rimozione degli elementi traccianti dalle email?
+faq-question-disable-trackerremoval-answer = Sì. Se riscontri problemi con la visualizzazione delle email o semplicemente vuoi interrompere la rimozione degli elementi traccianti, puoi disattivare la funzione nelle impostazioni.
 faq-question-bulk-trackerremoval-question = Posso rimuovere gli elementi traccianti solo per alcuni dei miei alias email?
+faq-question-bulk-trackerremoval-answer = Puoi attivare la rimozione degli elementi traccianti solo a livello di account: gli elementi traccianti verranno rimossi da tutte le tue email o da nessuna.
 faq-question-trackerremoval-breakage-question = Perché le email che ricevo sembrano incomplete o non formattate correttamente?
+faq-question-trackerremoval-breakage-answer = A volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno delle immagini. Quando un elemento tracciante viene rimosso, l’email sembra essere stata formattata in modo errato perché mancano le immagini. Questo problema non può essere risolto per le email che hai già ricevuto. Se questo ti impedisce di leggere correttamente le email, disattiva la rimozione degli elementi traccianti.
 
 ## Profile Page (Logged In)
 
@@ -505,6 +517,8 @@ profile-label-forwarded = Inoltrati
 profile-label-replies = Risposte
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Elementi traccianti rimossi
+profile-trackers-removed-tooltip-part1 = Quando la rimozione degli elementi traccianti è attiva, gli elementi traccianti più comuni verranno rimossi dalle email inoltrate.
+profile-trackers-removed-tooltip-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
 profile-label-cancel = Annulla
 profile-blocked-copy-2 = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
 profile-forwarded-copy-2 = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
@@ -519,6 +533,8 @@ profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used-2 = Alias utilizzati
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Elementi traccianti rimossi
+profile-stat-label-trackers-learn-more-part1 = L’attivazione della rimozione degli elementi traccianti rimuoverà gli elementi traccianti più comuni dalle email inoltrate.
+profile-stat-label-trackers-learn-more-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
 profile-filter-search-placeholder-2 = Cerca alias
 profile-filter-category-button-label = Filtra gli alias visualizzati
 profile-filter-category-button-tooltip = Filtra gli alias in base al sottodominio e/o se stanno bloccando la posta in arrivo
@@ -536,6 +552,7 @@ profile-filter-category-option-random-masks = Alias casuali
 profile-filter-category-option-custom-masks = Alias personalizzati
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Stato della rimozione degli elementi traccianti
+profile-indicator-tracker-removal-tooltip = Attualmente vengono rimossi gli elementi traccianti dalle email
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -678,6 +695,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Inserire un prefisso per l’ali
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
+modal-custom-alias-picker-form-prefix-spaces-warning = Negli alias email non sono consentiti spazi.
 modal-custom-alias-picker-form-prefix-invalid-warning = Gli alias email possono contenere solo lettere minuscole, numeri e trattini e non possono iniziare o terminare con un trattino.
 modal-custom-alias-picker-form-submit-label-2 = Genera alias
 modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
@@ -760,6 +778,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } — Rapporto sulla rimozione degli elementi traccianti
 trackerreport-meta-from-heading = Da
 trackerreport-meta-receivedat-heading = Ricevuto da
 trackerreport-trackers-heading = Elementi traccianti rilevati
