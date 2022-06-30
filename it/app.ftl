@@ -503,6 +503,8 @@ profile-label-copied = Copiato
 profile-label-blocked = Bloccati
 profile-label-forwarded = Inoltrati
 profile-label-replies = Risposte
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Elementi traccianti rimossi
 profile-label-cancel = Annulla
 profile-blocked-copy-2 = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
 profile-forwarded-copy-2 = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
@@ -510,9 +512,13 @@ profile-forwarded-note = Nota:
 profile-forwarded-note-copy = I messaggi (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non sono attualmente supportati e non verranno inoltrati.
 profile-forwarded-note-copy-v2 = Le email (inclusi gli allegati) di dimensioni superiori a { email-size-limit } non verranno inoltrate.
 profile-replies-tooltip = Puoi rispondere alle email ricevute tramite questo alias e { -brand-name-firefox-relay } continuerà a proteggere il tuo indirizzo email reale.
+profile-stat-learn-more = Ulteriori informazioni
+profile-stat-learn-more-close = Chiudi
 profile-stat-label-blocked = Messaggi bloccati
 profile-stat-label-forwarded = Messaggi inoltrati
 profile-stat-label-aliases-used-2 = Alias utilizzati
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Elementi traccianti rimossi
 profile-filter-search-placeholder-2 = Cerca alias
 profile-filter-category-button-label = Filtra gli alias visualizzati
 profile-filter-category-button-tooltip = Filtra gli alias in base al sottodominio e/o se stanno bloccando la posta in arrivo
@@ -528,6 +534,8 @@ profile-filter-category-option-promo-blocking-masks = Alias con blocco delle pub
 profile-filter-category-option-random-masks = Alias casuali
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Alias personalizzati
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Stato della rimozione degli elementi traccianti
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -670,6 +678,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Inserire un prefisso per l’ali
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
+modal-custom-alias-picker-form-prefix-invalid-warning = Gli alias email possono contenere solo lettere minuscole, numeri e trattini e non possono iniziare o terminare con un trattino.
 modal-custom-alias-picker-form-submit-label-2 = Genera alias
 modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
@@ -751,6 +760,29 @@ multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-from-heading = Da
+trackerreport-meta-receivedat-heading = Ricevuto da
+trackerreport-trackers-heading = Elementi traccianti rilevati
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Dominio dell’elemento tracciante
+trackerreport-trackers-count-heading = Numero degli elementi traccianti
+trackerreport-trackers-none = Nessun elemento tracciante rilevato in questa email.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 elemento tracciante
+       *[other] { $count } elementi traccianti
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 elemento tracciante
+       *[other] { $count } elementi traccianti
+    }
+trackerreport-removal-explainer-heading = Come funziona la rimozione degli elementi traccianti
+trackerreport-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 
 ## Modals
 
