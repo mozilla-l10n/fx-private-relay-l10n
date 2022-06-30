@@ -369,6 +369,9 @@ settings-api-key-description-bolded = Utilizzala solo con applicazioni che ritie
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Fai clic per copiare
 setting-api-key-copied = Copiato
+setting-tracker-removal-heading = Rimuovere gli elementi traccianti dalle email
+setting-tracker-removal-note = { -brand-name-firefox-relay } ora può rimuovere gli elementi traccianti più comuni dalle email inoltrate attraverso i tuoi alias.
+setting-tracker-removal-warning = Importante: a volte la rimozione degli elementi traccianti può far sembrare l'email che hai ricevuto incompleta o mal formattata, perché gli elementi traccianti sono spesso contenuti all’interno delle immagini.
 
 ## FAQ Page
 
@@ -446,6 +449,7 @@ faq-question-promotional-email-blocking-question = Che cos’è il blocco delle 
 faq-question-promotional-email-blocking-answer = Gli abbonati { -brand-name-relay-premium } possono attivare il blocco delle email pubblicitarie. Questa funzione garantisce l’inoltro di email importanti come fatture, reimpostazioni di password e conferme, bloccando invece i messaggi di marketing. Esiste il rischio, seppur minimo, che un messaggio importante possa essere bloccato. Per questo motivo ti consigliamo di non utilizzare questa funzione per servizi essenziali, come la tua banca. Se un’email viene bloccata, non sarà possibile recuperarla.
 faq-question-detect-promotional-question = In che modo { -brand-name-relay } stabilisce se si tratta di un’email pubblicitaria?
 faq-question-detect-promotional-answer = Molte email vengono inviate con metadati di “intestazione” che indicano la provenienza da strumenti automatizzati basati su elenchi. { -brand-name-firefox-relay } è in grado di rilevare questi dati e bloccare queste email.
+faq-question-bulk-trackerremoval-question = Posso rimuovere gli elementi traccianti solo per alcuni dei miei alias email?
 
 ## Profile Page (Logged In)
 
@@ -744,6 +748,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Installa l’es
 multi-part-onboarding-premium-extension-button-skip = Continua, scaricherò l’estensione più tardi
 multi-part-onboarding-premium-extension-added = Estensione { -brand-name-relay } installata.
 multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
