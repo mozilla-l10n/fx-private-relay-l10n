@@ -386,6 +386,9 @@ settings-api-key-description-bolded = Brûk dit allinnich mei apps dy’t jo fer
 settings-button-copy = Klikje om te kopiearjen
 setting-api-key-copied = Kopiearre!
 setting-tracker-removal-heading = E-mailtrackers fuortsmite
+setting-tracker-removal-description = E-mailtrackers fuortsmite út alle trochstjoerde e-mailberjochten.
+setting-tracker-removal-note = { -brand-name-firefox-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t fia jo maskers trochstjoerd binne fuortsmite.
+setting-tracker-removal-warning = Wichtich: somtiden kin it fuortsmiten fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
 
 ## FAQ Page
 
@@ -463,6 +466,11 @@ faq-question-promotional-email-blocking-question = Wat is blokkearjen fan reklam
 faq-question-promotional-email-blocking-answer = Abonnees fan { -brand-name-relay-premium } kinne blokkearjen fan reklameberjochten ynskeakelje. Dizze funksje stjoert jo wichtige e-mailberjochten troch, lykas ûntfangstbewizen, wachtwurdwerinisjalisaasjes en befêstigingen, wylst marketingberjochten noch hieltyd blokkearre wurde. Der is in lytse kâns dat in wichtich berjocht noch hieltyd blokkearre wurdt, dus wy riede jo oan dizze funksje net te brûken foar wichtige plakken, lykas jo bank. As in e-mailberjocht blokkearre wurdt kin it net wersteld wurde.
 faq-question-detect-promotional-question = Hoe detektearret { -brand-name-relay } of in e-mailberjocht reklame is of net?
 faq-question-detect-promotional-answer = In protte e-mailberjochten wurde ferstjoerd met ‘header’-metagegevens dy’t oanjaan dat se ôfkomstich binne fan helpmiddelen dy’t automatysk berjochten ferstjoere. { -brand-name-firefox-relay } detektearret dizze headergegevens, sadat it dizze e-mailberjochten blokkearje kin.
+faq-question-disable-trackerremoval-question = Kin ik stopje mei it fuortsmiten fan e-mailtrackers?
+faq-question-disable-trackerremoval-answer = Ja. As jo problemen hawwe mei e-mailberjochten dy’t der net goed útsjogge, of as jo stopje wolle mei it fuortsmiten fan trackers, kinne jo de funksje yn ynstellingen útskeakelje.
+faq-question-bulk-trackerremoval-question = Kin ik trackers allinnich op inkelde fan myn e-mailmaskers fuortsmite?
+faq-question-bulk-trackerremoval-answer = Jo kinne trackerfuortsmiting allinnich ynskeakelje op in accountnivo – it smyt trackers fan al jo e-mailberjochten fuort, of net ien derfan.
+faq-question-trackerremoval-breakage-question = Wêrom sjogge myn e-mailberjochten der net goed út?
 
 ## Profile Page (Logged In)
 
