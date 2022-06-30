@@ -380,6 +380,7 @@ settings-button-copy = Cliquer pour copier
 setting-api-key-copied = Copiée !
 setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
 setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
+setting-tracker-removal-warning = Important : Parfois, la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans les images.
 
 ## FAQ Page
 
@@ -771,6 +772,8 @@ trackerreport-meta-from-heading = Expéditeur
 trackerreport-meta-receivedat-heading = Reçu par
 trackerreport-meta-count-heading = Total des traqueurs
 trackerreport-trackers-heading = Traqueurs détectés
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Domaine du traqueur
 trackerreport-trackers-count-heading = Nombre de traqueurs
 trackerreport-trackers-none = Aucun traqueur détecté dans cet e-mail.
 # Variables:
