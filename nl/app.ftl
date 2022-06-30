@@ -815,6 +815,17 @@ trackerreport-tracker-count =
         [one] 1 tracker
        *[other] { $count } trackers
     }
+trackerreport-confidentiality-notice = Trackerinformatie en afzenderadressen die in deze rapporten worden getoond, worden niet opgeslagen door { -brand-name-firefox-relay } en zijn alleen opgenomen in rapport-URL’s. We slaan uw e-mailberichten niet op.
+trackerreport-removal-explainer-heading = Hoe trackerverwijdering werkt
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kan nu veelgebruikte trackers verwijderen uit e-mailberichten die via uw e-mailmaskers zijn doorgestuurd. U ontvangt uw e-mailberichten nog steeds, maar de trackers in de doorgestuurde berichten worden verwijderd, zodat u uw e-mailberichten ontvangt zonder te worden gevolgd. Schakel, om trackerverwijdering op al uw maskers in één keer in te schakelen, trackerverwijdering in in uw instellingen, in plaats van individueel voor elk masker.
+trackerreport-trackers-explainer-heading = Over e-mailtrackers
+trackerreport-trackers-explainer-content-part1 = E-mailtracking is een veelgebruikt hulpmiddel voor bewaking en reclame dat terug te vinden is in menig Postvak IN. Deze trackers kunnen worden gebruikt om meer inzicht te krijgen in uw online gedrag, uw interesses en uw e-mailactiviteit.
+trackerreport-trackers-explainer-content-part2 = Een bedrijf of organisatie zal een tracker opnemen in e-mailberichten die naar u worden verzonden, meestal verborgen in een afbeelding of een koppeling. Wanneer het e-mailbericht wordt geopend, stuurt de code in de tracker gegevens terug naar het bedrijf.
+trackerreport-breakage-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten, die niet worden geladen als ze een tracker bevatten.
+trackerreport-faq-heading = Veelgestelde vragen over e-mailtrackers
+trackerreport-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
+trackerreport-loading = Uw trackerverwijderingsrapport laden…
+trackerreport-load-error = Er is een fout opgetreden bij het aanmaken van uw trackerverwijderingsrapport. Vernieuw de pagina om het opnieuw te proberen.
 
 ## Modals
 
