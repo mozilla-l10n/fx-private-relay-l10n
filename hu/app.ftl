@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = A { -brand-name-relay-premi
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Frissítsen most, és szerezzen még nagyobb védelmet…
 whatsnew-feature-premium-expansion-description = Frissítsen most és szerezzen még nagyobb védelmet – hozzon létre korlátlan számú e-mail-maszkot, kapjon egyéni e-mail-aldomaint és még sok minden mást!
+whatsnew-feature-tracker-removal-heading = Bemutatjuk az e-mail-követők eltávolítását
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket a továbbított e-mailekből…
+whatsnew-feature-tracker-removal-description = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára.
 
 ## Bento Menu
 
@@ -458,6 +464,10 @@ faq-question-detect-promotional-question = Hogyan észleli a { -brand-name-relay
 faq-question-detect-promotional-answer = Sok e-mailt „fejléc” metaadatokkal küldenek, jelezve, hogy listaalapú, automatizált eszközöktől származnak. A { -brand-name-firefox-relay } észleli ezeket a fejlécadatokat, így blokkolni tudja ezeket az e-maileket.
 faq-question-disable-trackerremoval-question = Leállíthatom az e-mail nyomkövetők eltávolítását?
 faq-question-disable-trackerremoval-answer = Igen. Ha problémát okoz, hogy az e-mailek hibásnak tűnnek, vagy nem szeretné eltávolítani a nyomkövetőket, letilthatja a funkciót a beállításokban.
+faq-question-bulk-trackerremoval-question = Eltávolíthatom a nyomkövetőket csak bizonyos e-mail-maszkok esetén?
+faq-question-bulk-trackerremoval-answer = A nyomkövetők eltávolítását csak fiókszinten kapcsolhatja be – vagy eltávolítja a követőket az összes e-mailből, vagy egyikből sem.
+faq-question-trackerremoval-breakage-question = Miért tűnnek hibásnak az e-mailjeim?
+faq-question-trackerremoval-breakage-answer = Néha a követők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a követők gyakran a képekben találhatók. A nyomkövető eltávolításakor úgy tűnik, hogy az e-mail rosszul lett formázva, mert hiányoznak a képek. Ez nem javítható a már megkapott e-maileknél. Ha ez akadályozza az e-mailek megfelelő olvasását, kapcsolja ki a követők eltávolítását.
 
 ## Profile Page (Logged In)
 
@@ -763,6 +773,26 @@ multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpul
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-count-heading = Összes követő
+trackerreport-trackers-heading = Követők észlelve
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Követő domainje
+trackerreport-trackers-count-heading = Követők száma
+trackerreport-trackers-none = Ebben az e-mailben nem található követő.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 követő
+       *[other] { $count } követő
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 követő
+       *[other] { $count } követő
+    }
 
 ## Modals
 
