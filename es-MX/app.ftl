@@ -141,10 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtendrás mucha más protección…
 whatsnew-feature-premium-expansion-description = ¡Actualiza ahora y obtendrás mucha más protección, crea máscaras de correo ilimitadas, obtén un subdominio de correo y más!
+whatsnew-feature-tracker-removal-heading = Presentamos el eliminador de rastreadores de correo electrónico
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eliminar los rastreadores de correo electrónico comunes de los correos electrónicos reenviados…
+whatsnew-feature-tracker-removal-description = Ahora { -brand-name-relay } puedes eliminar rastreadores de correo electrónico comunes de los correos electrónicos que se te reenvían, ayudando a mantenerte invisible para los anunciantes.
 
 ## Bento Menu
 
@@ -382,6 +384,7 @@ setting-api-key-copied = ¡Copiado!
 setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
 setting-tracker-removal-description = Elimina los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
 setting-tracker-removal-note = { -brand-name-firefox-relay } ahora puede eliminar rastreadores comunes de los correos electrónicos reenviados a través de tus máscaras.
+setting-tracker-removal-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
 
 ## FAQ Page
 
@@ -460,7 +463,9 @@ faq-question-promotional-email-blocking-answer = Los suscriptores de { -brand-na
 faq-question-detect-promotional-question = ¿Cómo detecta { -brand-name-relay } si un correo electrónico es promocional o no?
 faq-question-detect-promotional-answer = Muchos correos electrónicos se envían con metadatos de “encabezado” para indicar que provienen de herramientas automatizadas basadas en listas. { -brand-name-firefox-relay } detecta estos datos de encabezado para que pueda bloquear estos correos electrónicos.
 faq-question-disable-trackerremoval-question = ¿Puedo detener el eliminador de rastreadores de correo electrónico?
+faq-question-disable-trackerremoval-answer = Sí. Si tienes problemas con los correos electrónicos que parecen incompletos o deseas dejar de eliminar los rastreadores, puedes deshabilitar la función en la configuración.
 faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo en algunas máscaras de correo electrónico?
+faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación del rastreador a nivel de cuenta; elimina los rastreadores de todos tus correos electrónicos o ninguno de ellos.
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
 
 ## Profile Page (Logged In)
