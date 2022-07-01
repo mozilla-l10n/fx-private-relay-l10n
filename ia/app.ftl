@@ -379,6 +379,7 @@ settings-button-copy = Clicca pro copiar
 setting-api-key-copied = Copiate!
 setting-tracker-removal-heading = Remover traciatores de emails
 setting-tracker-removal-description = Remover traciatores de email in tote le emails inultrate.
+setting-tracker-removal-note = Ora { -brand-name-firefox-relay } pote remover ab le emails inultrate per tu mascas, le traciatores de email commun.
 
 ## FAQ Page
 
