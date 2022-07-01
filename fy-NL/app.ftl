@@ -524,6 +524,8 @@ profile-label-copied = Kopiearre!
 profile-label-blocked = Blokkearre
 profile-label-forwarded = Trochstjoerd
 profile-label-replies = Antwurdzje
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = trackers fuortsmiten
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
@@ -531,9 +533,13 @@ profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
 profile-replies-tooltip = Jo kinne fia dit masker ûntfongen e-mailberjochten beäntwurdzje en { -brand-name-firefox-relay } sil jo echte e-mailadres beskermje bliuwe.
+profile-stat-learn-more = Mear ynfo
+profile-stat-learn-more-close = Slute
 profile-stat-label-blocked = E-mailberjochten blokkearre
 profile-stat-label-forwarded = E-mailberjochten trochstjoerd
 profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = trackers fuortsmiten
 profile-filter-search-placeholder-2 = Maskers trochsykje
 profile-filter-category-button-label = Sichtbere maskers filterje
 profile-filter-category-button-tooltip = Maskers filterje op subdomein en/of oft se op dit stuit ynkommende e-mailberjochten blokkearje
@@ -776,6 +782,32 @@ multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-from-heading = Fan
+trackerreport-meta-receivedat-heading = Untfongen troch
+trackerreport-meta-count-heading = Totaal oantal trackers
+trackerreport-trackers-heading = Trackers detektearre
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Trackerdomein
+trackerreport-trackers-count-heading = Oantal trackers
+trackerreport-trackers-none = Gjin trackers detektearre yn dit e-mailberjocht.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 tracker
+       *[other] { $count } trackers
+    }
+trackerreport-trackers-explainer-heading = Oer e-mailtrackers
+trackerreport-faq-heading = Faaks stelde fragen oer e-mailtrackers
+trackerreport-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
+trackerreport-loading = Jo trackerfuortsmitingsrapport lade…
 
 ## Modals
 
