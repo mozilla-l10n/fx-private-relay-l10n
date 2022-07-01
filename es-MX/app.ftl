@@ -467,6 +467,7 @@ faq-question-disable-trackerremoval-answer = Sí. Si tienes problemas con los co
 faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo en algunas máscaras de correo electrónico?
 faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación del rastreador a nivel de cuenta; elimina los rastreadores de todos tus correos electrónicos o ninguno de ellos.
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
+faq-question-trackerremoval-breakage-answer = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 
 ## Profile Page (Logged In)
 
@@ -523,6 +524,7 @@ profile-label-replies = Respuestas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Rastreadores eliminados
 profile-trackers-removed-tooltip-part1 = Con la eliminación de rastreadores habilitada, los rastreadores de correo electrónico comunes se eliminarán de tus correos electrónicos reenviados.
+profile-trackers-removed-tooltip-part2 = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto porque los rastreadores a menudo se encuentran dentro de las imágenes.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -538,6 +540,7 @@ profile-stat-label-aliases-used-2 = Correos enmascarados usados
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores eliminados
 profile-stat-label-trackers-learn-more-part1 = Habilitar la eliminación de rastreadores eliminara los rastreadores de correo electrónico comunes de tus correos electrónicos reenviados.
+profile-stat-label-trackers-learn-more-part2 = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes.
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
@@ -555,6 +558,7 @@ profile-filter-category-option-random-masks = Máscaras aleatorias
 profile-filter-category-option-custom-masks = Máscaras personalizadas
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Estado del eliminador de rastreadores
+profile-indicator-tracker-removal-tooltip = Actualmente eliminando rastreadores de correo electrónico
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -701,6 +705,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Ingresa el prefijo del correo en
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "café"
+modal-custom-alias-picker-form-prefix-spaces-warning = Los espacios no están permitidos en las máscaras de correo electrónico.
+modal-custom-alias-picker-form-prefix-invalid-warning = Las máscaras de correo electrónico solo deben tener letras minúsculas, números o guiones, además que no pueden comenzar o terminar con guión.
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 modal-custom-alias-picker-creation-error-2 = Tu correo enmascarado personalizado no se pudo crear manualmente. Vuelve a intentarlo o envía un correo electrónico a la máscara para crearla.
 
@@ -782,7 +788,9 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de contro
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Informe de eliminación del rastreador de { -brand-name-relay }
 trackerreport-meta-from-heading = De
+trackerreport-meta-receivedat-heading = Recibido por
 trackerreport-meta-count-heading = Rastreadores totales
 trackerreport-trackers-heading = Rastreadores detectados
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -803,8 +811,12 @@ trackerreport-tracker-count =
         [one] 1 rastreador
        *[other] { $count } rastreadores
     }
+trackerreport-confidentiality-notice = { -brand-name-firefox-relay } no guarda la información del rastreador ni de la dirección que se muestra en estos informes y solo se incluye en las URL del informe. No guardamos tus correos electrónicos.
 trackerreport-removal-explainer-heading = Cómo funciona la eliminación de rastreadores
 trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
+trackerreport-trackers-explainer-content-part1 = Los rastreadores en el correo electrónico son una herramienta común de vigilancia y publicidad que se ha apoderado de muchas bandejas de entrada. Estos rastreadores se pueden usar para comprender más sobre tu comportamiento en línea, tus intereses y tu actividad de correo electrónico.
+trackerreport-trackers-explainer-content-part2 = Una empresa u organización incorporará un rastreador en los correos electrónicos que te envían, generalmente oculto dentro de una imagen o un enlace. Cuando se abre el correo electrónico, el código dentro del rastreador envía datos a la empresa.
+trackerreport-breakage-warning = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto porque los rastreadores a menudo están contenidos en imágenes, que no se cargarán si contienen un rastreador.
 trackerreport-faq-heading = Preguntas principales sobre los rastreadores de correo electrónico
 trackerreport-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 trackerreport-loading = Cargando el informe de eliminación de rastreadores…
