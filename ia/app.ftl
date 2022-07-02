@@ -380,6 +380,7 @@ setting-api-key-copied = Copiate!
 setting-tracker-removal-heading = Remover traciatores de emails
 setting-tracker-removal-description = Remover traciatores de email in tote le emails inultrate.
 setting-tracker-removal-note = Ora { -brand-name-firefox-relay } pote remover ab le emails inultrate per tu mascas, le traciatores de email commun.
+setting-tracker-removal-warning = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
 
 ## FAQ Page
 
@@ -457,6 +458,7 @@ faq-question-promotional-email-blocking-question = Que es le blocada de e-mail p
 faq-question-promotional-email-blocking-answer = Le abonatos de { -brand-name-relay-premium } pote activar le blocada de e-mail promotional. Iste functionalitate te inultrera le e-mails importante, tal como quitantias, reinitialisationes e confirmationes de contrasigno, durante que ancora bloca le messages de marketing. Il ha un leve risco que un importante message pote ancora esser blocate, assi nos consilia que tu non usa iste functionalitate pro sitos multo importante como tu banca. Si un e-mail es blocate, illo non pote esser recovrate.
 faq-question-detect-promotional-question = Como face { -brand-name-relay } a disvelar si un e-mail es Promotional o non?
 faq-question-detect-promotional-answer = Multe e-mails es inviate con metadatos de “testa” pro indicar que illos veni ab applicationes automatisate basate sur lista. { -brand-name-firefox-relay } revela iste datos de testa, assi illo pote blocar iste e-mails.
+faq-question-disable-trackerremoval-question = Pote io stoppar le remotion de traciatores de email?
 
 ## Profile Page (Logged In)
 
