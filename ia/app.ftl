@@ -459,6 +459,10 @@ faq-question-promotional-email-blocking-answer = Le abonatos de { -brand-name-re
 faq-question-detect-promotional-question = Como face { -brand-name-relay } a disvelar si un e-mail es Promotional o non?
 faq-question-detect-promotional-answer = Multe e-mails es inviate con metadatos de “testa” pro indicar que illos veni ab applicationes automatisate basate sur lista. { -brand-name-firefox-relay } revela iste datos de testa, assi illo pote blocar iste e-mails.
 faq-question-disable-trackerremoval-question = Pote io stoppar le remotion de traciatores de email?
+faq-question-disable-trackerremoval-answer = Si. Si tu ha difficultates con emails al apparentia rupte o volerea stoppar le remotion de traciatores, tu pote disactivar le functionalitate in parametros.
+faq-question-bulk-trackerremoval-question = Pote io remover traciatores solo sur parte de mi mascas email?
+faq-question-bulk-trackerremoval-answer = Tu pote activar le remotion de traciatores solo al nivello de un conto: remover le traciatores de tote o nulle tu emails.
+faq-question-trackerremoval-breakage-question = Perque mi emails pare rupte?
 
 ## Profile Page (Logged In)
 
