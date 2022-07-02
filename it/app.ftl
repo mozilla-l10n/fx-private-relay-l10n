@@ -781,6 +781,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
 trackerreport-title = { -brand-name-relay } — Rapporto sulla rimozione degli elementi traccianti
 trackerreport-meta-from-heading = Da
 trackerreport-meta-receivedat-heading = Ricevuto da
+trackerreport-meta-count-heading = Totale elementi traccianti
 trackerreport-trackers-heading = Elementi traccianti rilevati
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Dominio dell’elemento tracciante
@@ -800,8 +801,17 @@ trackerreport-tracker-count =
         [one] 1 elemento tracciante
        *[other] { $count } elementi traccianti
     }
+trackerreport-confidentiality-notice = Le informazioni sugli elementi traccianti e gli indirizzi dei mittenti mostrati in queste segnalazioni non vengono salvati da { -brand-name-firefox-relay } e sono contenute solo negli URL del rapporto. Non conserviamo il contenuto delle tue email.
 trackerreport-removal-explainer-heading = Come funziona la rimozione degli elementi traccianti
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } adesso può rimuovere gli elementi traccianti più comuni dalle email inoltrate tramite gli alias di posta. Continuerai comunque a ricevere le tue email, ma gli elementi traccianti verranno rimossi dalle email inoltrate, così da poter ricevere messaggi senza essere tracciato. Attiva la rimozione degli elementi traccianti su tutti i tuoi alias contemporaneamente dalle impostazioni, anziché individualmente per ogni alias.
+trackerreport-trackers-explainer-heading = Informazioni sugli elementi traccianti nelle email
+trackerreport-trackers-explainer-content-part1 = Il tracciamento delle email è uno strumento di sorveglianza e pubblicità ormai comune e sta invadendo sempre più caselle di posta. Questi elementi traccianti possono essere utilizzati per comprendere meglio il tuo comportamento online, i tuoi interessi e l’attività della tua casella di posta.
+trackerreport-trackers-explainer-content-part2 = Un’azienda o un’organizzazione può incorporare un elemento tracciante nelle email che ti vengono inviate, solitamente nascosto all’interno di un'immagine o di un link. Quando l’email viene aperta, il codice all’interno dell’elemento tracciante invia informazioni all’azienda.
+trackerreport-breakage-warning = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini che non verranno caricate.
+trackerreport-faq-heading = Principali domande sugli elementi traccianti nelle email
 trackerreport-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
+trackerreport-loading = Caricamento del rapporto sulla rimozione degli elementi traccianti in corso…
+trackerreport-load-error = Si è verificato un errore durante la generazione del rapporto sulla rimozione degli elementi traccianti. Aggiornare la pagina per riprovare.
 
 ## Modals
 
