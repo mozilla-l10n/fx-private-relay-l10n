@@ -271,6 +271,13 @@ landing-reviews-rating = 滿分 5 顆星（{ $review_count } 筆評論）
 landing-reviews-show-next-button = 顯示下一筆評論
 landing-reviews-show-previous-button = 顯示下一筆評論
 landing-review-anonymous-user = { -brand-name-firefox } 使用者 { $user_id }
+landing-review-user-one-review = I really appreciate the { -brand-name-mozilla } team for being so creative and simplifying the anonymizing of my email address. This is a great extension, I highly recommend it to the privacy-aware!
+landing-review-user-two-review = Simple tool to get rid of or avoid spamming your email ID.
+landing-review-user-three-review = Love this extension! Very simple but powerful and the integration with the browser is wonderful.
+landing-review-user-four-review-list-1 = Gives peace of mind when surfing the internet.
+landing-review-user-four-review-list-2 = Protects ones identity from trackers through generation of aliases where one does not want to share the real email address for various reasons.
+landing-review-user-four-review-list-3 = Email inbox data is safe in the hands of { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works wonders, try it!!!
 
 ## Premium promo page
 
@@ -774,6 +781,8 @@ trackerreport-confidentiality-notice = { -brand-name-firefox-relay } 不會儲�
 trackerreport-removal-explainer-heading = 移除追蹤器的原理
 trackerreport-removal-explainer-content = 現在起，{ -brand-name-firefox-relay } 可移除轉寄給您的郵件中，常見的追蹤器。您還是會收到郵件，但信件中的追蹤器將被移除，這樣當您開信的時候就不會被追蹤。若要對所有轉寄信箱開啟此功能，可直接到設定中開啟，而無須一一設定。
 trackerreport-trackers-explainer-heading = 關於電子郵件追蹤器
+trackerreport-trackers-explainer-content-part1 = 許多監控與廣告工具會透過郵件追蹤來監控許多收件匣。這些追蹤器可用於更加了解您的上網行為、您的興趣與郵件記錄。
+trackerreport-trackers-explainer-content-part2 = 一間公司或組織，可能會透過在寄送給您的電子郵件中內嵌追蹤器（通常隱藏於圖片或連結之中）。當郵件開啟時，追蹤器內的程式就會執行，並且回傳追蹤資料。
 trackerreport-breakage-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中，被偵測到為追蹤器後就不會再顯示。
 trackerreport-faq-heading = 關於電子郵件追蹤器的熱門問題
 trackerreport-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
