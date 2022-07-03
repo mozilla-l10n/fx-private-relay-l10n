@@ -434,6 +434,7 @@ faq-question-disable-trackerremoval-answer = 可以。如果您發現收到的�
 faq-question-bulk-trackerremoval-question = 我可以只刪除部分轉寄信箱收到的追蹤器嗎？
 faq-question-bulk-trackerremoval-answer = 您只能於帳號層級開關「移除追蹤器」功能，必須將所有收到的郵件當中的追蹤器都移除，或是都保留。
 faq-question-trackerremoval-breakage-question = 為什麼我收到的郵件內容看來怪怪的？
+faq-question-trackerremoval-breakage-answer = 有的時候，移除郵件追蹤器可能會造成您的郵件內容看起來不正常，因為通常追蹤器是埋藏於圖片中，當圖片被移除後就會讓郵件內容跑版，或者險是不正常。若您已經收到郵件，這個情況就無法再修正，若這個行為造成您無法正確閱讀郵件，可關閉追蹤器移除功能。
 
 ## Profile Page (Logged In)
 
@@ -505,6 +506,7 @@ profile-stat-label-forwarded = 已轉寄信件
 profile-stat-label-aliases-used-2 = 已用的轉寄信箱
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = 追蹤器移除數量
+profile-stat-label-trackers-learn-more-part1 = 開啟追蹤器移除功能，將從轉寄給您的郵件中移除常見的郵件追蹤器。
 profile-stat-label-trackers-learn-more-part2 = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 profile-filter-search-placeholder-2 = 搜尋轉寄信箱
 profile-filter-category-button-label = 過濾可見的轉寄信箱
@@ -768,7 +770,9 @@ trackerreport-tracker-count =
     { $count ->
        *[other] { $count } 組追蹤器
     }
+trackerreport-confidentiality-notice = { -brand-name-firefox-relay } 不會儲存您所收到的追蹤器資訊與寄件者地址，僅可透過對應的報告網址開啟。我們也不會儲存您的郵件內容。
 trackerreport-removal-explainer-heading = 移除追蹤器的原理
+trackerreport-removal-explainer-content = 現在起，{ -brand-name-firefox-relay } 可移除轉寄給您的郵件中，常見的追蹤器。您還是會收到郵件，但信件中的追蹤器將被移除，這樣當您開信的時候就不會被追蹤。若要對所有轉寄信箱開啟此功能，可直接到設定中開啟，而無須一一設定。
 trackerreport-trackers-explainer-heading = 關於電子郵件追蹤器
 trackerreport-breakage-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中，被偵測到為追蹤器後就不會再顯示。
 trackerreport-faq-heading = 關於電子郵件追蹤器的熱門問題
