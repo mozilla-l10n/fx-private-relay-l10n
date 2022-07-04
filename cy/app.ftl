@@ -470,6 +470,8 @@ faq-question-disable-trackerremoval-question = A allaf roi'r gorau i ddileu trac
 faq-question-disable-trackerremoval-answer = Gallwch. Os ydych chi'n cael trafferth gydag e-byst yn edrych fel eu bod wedi torri neu os hoffech chi roi'r gorau i gael gwared ar dracwyr, gallwch chi analluogi'r nodwedd o fewn y gosodiadau.
 faq-question-bulk-trackerremoval-question = A allaf dynnu tracwyr o ddim ond rhai o fy arallenwau e-bost?
 faq-question-bulk-trackerremoval-answer = Dim ond ar lefel cyfrif y gallwch chi droi tynnu traciwr ymlaen - mae naill ai'n tynnu trcwyr o'ch holl e-byst, neu ddim ohonynt.
+faq-question-trackerremoval-breakage-question = Pam mae fy e-byst yn edrych fel eu bod wedi'u torri?
+faq-question-trackerremoval-breakage-answer = Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi'u torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys o fewn delweddau. Pan fydd y traciwr yn cael ei dynnu, mae'r e-bost yn edrych fel ei fod wedi'i fformatio'n anghywir oherwydd bod delweddau ar goll. Nid oes modd trwsio hyn ar gyfer e-byst rydych chi wedi'u derbyn yn barod. Os yw hyn yn eich atal rhag darllen eich e-byst yn iawn, diffoddwch dynnu traciwr.
 
 ## Profile Page (Logged In)
 
@@ -523,6 +525,10 @@ profile-label-copied = Copïwyd!
 profile-label-blocked = Rhwystrwyd
 profile-label-forwarded = Anfonwyd Ymlaen
 profile-label-replies = Atebion
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Tracwyr wedi'u Dileu
+profile-trackers-removed-tooltip-part1 = Gyda thynnu traciwr wedi'i alluogi, bydd tracwyr e-bost cyffredin yn cael eu tynnu o'ch e-byst a anfonwyd ymlaen.
+profile-trackers-removed-tooltip-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi'u torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau.
 profile-label-cancel = Diddymu
 profile-blocked-copy-2 = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-copy-2 = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
@@ -530,9 +536,15 @@ profile-forwarded-note = Nodyn:
 profile-forwarded-note-copy = Nid yw e-bost (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael ei gefnogi ar hyn o bryd a fyddan nhw ddim yn cael eu hanfon ymlaen.
 profile-forwarded-note-copy-v2 = Ni fydd e-byst (gan gynnwys atodiadau) sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
 profile-replies-tooltip = Gallwch ateb e-byst a dderbyniwyd drwy'r arallenw hwn, a bydd { -brand-name-firefox-relay } yn parhau i ddiogelu eich gwir gyfeiriad e-bost.
+profile-stat-learn-more = Dysgu rhagor
+profile-stat-learn-more-close = Cau
 profile-stat-label-blocked = E-byst wedi'u Rhwystro
 profile-stat-label-forwarded = E-byst wedi'u hanfon Ymlaen
 profile-stat-label-aliases-used-2 = Arallenwau e-bost wedi'u defnyddio
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Tracwyr wedi'u Dileu
+profile-stat-label-trackers-learn-more-part1 = Bydd galluogi tynnu traciwr yn dileu tracwyr e-bost cyffredin o'ch e-byst a anfonwyd ymlaen.
+profile-stat-label-trackers-learn-more-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod  wedi'u torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys o fewn delweddau.
 profile-filter-search-placeholder-2 = Chwilio arallenwau
 profile-filter-category-button-label = Hidlo arallenwau gweladwy
 profile-filter-category-button-tooltip = Hidlo arallenwau yn ôl is-barth a/neu a ydyn nhw'n rhwystro e-byst sy'n dod i mewn ar hyn o bryd
@@ -548,6 +560,9 @@ profile-filter-category-option-promo-blocking-masks = Arallenwau sy'n rhwystro h
 profile-filter-category-option-random-masks = Arallenwau ar hap
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Arallenwau personol
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Statws tynnu traciwyr
+profile-indicator-tracker-removal-tooltip = Wrthi'n tynnu tracwyr e-bost
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -694,6 +709,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Rhowch ragosodiad arallenw e-bos
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = e.e. "coffi"
+modal-custom-alias-picker-form-prefix-spaces-warning = Nid oes caniatâd i fylchau mewn arallenwau
+modal-custom-alias-picker-form-prefix-invalid-warning = Dim ond llythrennau bach, rhifau a chysylltiadau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chysylltnod.
 modal-custom-alias-picker-form-submit-label-2 = Cynhyrchwch arallenw
 modal-custom-alias-picker-creation-error-2 = Nid oedd modd creu eich arallenw personol. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
 
@@ -775,6 +792,26 @@ multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Adroddiad Tynnu Traciwr { -brand-name-relay }
+trackerreport-meta-from-heading = Oddi wrth
+trackerreport-meta-receivedat-heading = Derbyniwyd gan
+trackerreport-meta-count-heading = Cyfanswm tracwyr
+trackerreport-trackers-heading = Tracwyr wedi'u canfod
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Parth traciwr
+trackerreport-trackers-count-heading = Nifer y tracwyr
+trackerreport-trackers-none = Heb ganfod tracwyr yn yr e-bost hwn.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [zero] { $count } tracwyr
+        [one] 1 traciwr
+        [two] { $count } draciwr
+        [few] { $count } traciwr
+        [many] { $count } thraciwr
+       *[other] { $count } traciwr
+    }
 
 ## Modals
 
