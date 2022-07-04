@@ -150,6 +150,7 @@ whatsnew-feature-tracker-removal-heading = Yn cyflwyno dileu traciwr e-bost
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Nawr gall { -brand-name-relay } ddileu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon ymlaen…
+whatsnew-feature-tracker-removal-description = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.
 
 ## Bento Menu
 
@@ -384,6 +385,10 @@ settings-api-key-description-bolded = Defnyddiwch hwn dim ond gydag apiau rydych
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicio i'w gopïo
 setting-api-key-copied = Copïwyd!
+setting-tracker-removal-heading = Dileu Tracwyr E-bost
+setting-tracker-removal-description = Dileu tracwyr e-bost ym mhob e-bost sy'n cael eu hanfon ymlaen.
+setting-tracker-removal-note = Nawr gall { -brand-name-firefox-relay } dynnu tracwyr cyffredin o e-byst sy'n cael eu hanfon ymlaen drwy'ch arallenwau.
+setting-tracker-removal-warning = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fod wedi torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys mewn delweddau.
 
 ## FAQ Page
 
@@ -461,6 +466,10 @@ faq-question-promotional-email-blocking-question = Beth yw rhwystro e-byst hyrwy
 faq-question-promotional-email-blocking-answer = Gall tanysgrifwyr { -brand-name-relay-premium } alluogi rhwystro e-byst hyrwyddol. Bydd y nodwedd hon yn anfon e-byst pwysig atoch, fel derbynebau, ailosod cyfrineiriau a chadarnhad tra'n dal i rwystro negeseuon marchnata. Mae yna ychydig o risg y gall negeseuon pwysig gael eu rhwystro o hyd, felly rydyn yn argymell nad ydych yn defnyddio'r nodwedd hon ar gyfer llefydd pwysig iawn fel eich banc. Os yw e-bost yn cael ei rwystro, nid oes modd ei adennill.
 faq-question-detect-promotional-question = Sut mae { -brand-name-relay } yn canfod a yw e-bost yn Hyrwyddol ai peidio?
 faq-question-detect-promotional-answer = Mae llawer o e-byst yn cael eu hanfon gyda “phennyn” metadata i nodi eu bod yn dod o offer awtomataidd ar sail rhestr. Mae { -brand-name-firefox-relay } yn canfod y data pennyn hwn er mwyn rhwystro'r e-byst hyn.
+faq-question-disable-trackerremoval-question = A allaf roi'r gorau i ddileu tracwyr e-bost?
+faq-question-disable-trackerremoval-answer = Gallwch. Os ydych chi'n cael trafferth gydag e-byst yn edrych fel eu bod wedi torri neu os hoffech chi roi'r gorau i gael gwared ar dracwyr, gallwch chi analluogi'r nodwedd o fewn y gosodiadau.
+faq-question-bulk-trackerremoval-question = A allaf dynnu tracwyr o ddim ond rhai o fy arallenwau e-bost?
+faq-question-bulk-trackerremoval-answer = Dim ond ar lefel cyfrif y gallwch chi droi tynnu traciwr ymlaen - mae naill ai'n tynnu trcwyr o'ch holl e-byst, neu ddim ohonynt.
 
 ## Profile Page (Logged In)
 
