@@ -469,9 +469,9 @@ faq-question-detect-promotional-answer = Mae llawer o e-byst yn cael eu hanfon g
 faq-question-disable-trackerremoval-question = A allaf roi'r gorau i ddileu tracwyr e-bost?
 faq-question-disable-trackerremoval-answer = Gallwch. Os ydych chi'n cael trafferth gydag e-byst yn edrych fel eu bod wedi torri neu os hoffech chi roi'r gorau i gael gwared ar dracwyr, gallwch chi analluogi'r nodwedd o fewn y gosodiadau.
 faq-question-bulk-trackerremoval-question = A allaf dynnu tracwyr o ddim ond rhai o fy arallenwau e-bost?
-faq-question-bulk-trackerremoval-answer = Dim ond ar lefel cyfrif y gallwch chi droi tynnu traciwr ymlaen - mae naill ai'n tynnu trcwyr o'ch holl e-byst, neu ddim ohonynt.
-faq-question-trackerremoval-breakage-question = Pam mae fy e-byst yn edrych fel eu bod wedi'u torri?
-faq-question-trackerremoval-breakage-answer = Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi'u torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys o fewn delweddau. Pan fydd y traciwr yn cael ei dynnu, mae'r e-bost yn edrych fel ei fod wedi'i fformatio'n anghywir oherwydd bod delweddau ar goll. Nid oes modd trwsio hyn ar gyfer e-byst rydych chi wedi'u derbyn yn barod. Os yw hyn yn eich atal rhag darllen eich e-byst yn iawn, diffoddwch dynnu traciwr.
+faq-question-bulk-trackerremoval-answer = Dim ond ar lefel cyfrif y gallwch chi droi tynnu traciwr ymlaen - mae naill ai'n tynnu tracwyr o'ch holl e-byst, neu ddim ohonynt.
+faq-question-trackerremoval-breakage-question = Pam mae fy e-byst yn edrych fel eu bod wedi torri?
+faq-question-trackerremoval-breakage-answer = Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys o fewn delweddau. Pan fydd y traciwr yn cael ei dynnu, mae'r e-bost yn edrych fel ei fod wedi'i fformatio'n anghywir oherwydd bod delweddau ar goll. Nid oes modd trwsio hyn ar gyfer e-byst rydych chi wedi'u derbyn yn barod. Os yw hyn yn eich atal rhag darllen eich e-byst yn iawn, diffoddwch dynnu traciwr.
 
 ## Profile Page (Logged In)
 
@@ -528,7 +528,7 @@ profile-label-replies = Atebion
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Tracwyr wedi'u Dileu
 profile-trackers-removed-tooltip-part1 = Gyda thynnu traciwr wedi'i alluogi, bydd tracwyr e-bost cyffredin yn cael eu tynnu o'ch e-byst a anfonwyd ymlaen.
-profile-trackers-removed-tooltip-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi'u torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau.
+profile-trackers-removed-tooltip-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau.
 profile-label-cancel = Diddymu
 profile-blocked-copy-2 = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-copy-2 = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
@@ -812,6 +812,28 @@ trackerreport-trackers-value =
         [many] { $count } thraciwr
        *[other] { $count } traciwr
     }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [zero] { $count } tracwyr
+        [one] 1 traciwr
+        [two] { $count } draciwr
+        [few] { $count } traciwr
+        [many] { $count } thraciwr
+       *[other] { $count } traciwr
+    }
+trackerreport-confidentiality-notice = Nid yw gwybodaeth traciwr a'r cyfeiriad sy'n cael ei ddangos yn yr adroddiadau hyn yn cael eu cadw gan { -brand-name-firefox-relay } a dim ond o fewn URLau adroddiadau y maen nhw wedi'u cynnwys. Nid ydym yn cadw eich e-byst.
+trackerreport-removal-explainer-heading = Sut mae tynnu traciwyr yn gweithio
+trackerreport-removal-explainer-content = Gall { -brand-name-firefox-relay } bellach dynnu tracwyr cyffredin o e-byst sy'n cael eu hanfon ymlaen drwy'ch arallenwau e-bost. Byddwch yn dal i dderbyn eich e-byst, ond bydd y tracwyr yn eich e-byst a anfonwyd ymlaen yn cael eu dileu, fel y gallwch gael eich e-byst heb gael eich tracio. Er mwyn galluogi tynnu traciwr ar eich holl fasgiau ar unwaith, galluogi tynnu traciwr mewn gosodiadau yn hytrach nag yn unigol ar gyfer pob arallenw.
+trackerreport-trackers-explainer-heading = Ynghylch tracwyr e-bost
+trackerreport-trackers-explainer-content-part1 = Mae traciwr e-bost yn offeryn gwyliadwriaeth a hysbysebu cyffredin sydd wedi cymryd drosodd llawer o flychau derbyn. Mae modd defnyddio'r tracwyr hyn i ddeall mwy am eich ymddygiad ar-lein, eich diddordebau, a'ch gweithgaredd e-bost.
+trackerreport-trackers-explainer-content-part2 = Bydd cwmni neu sefydliad yn mewnosod traciwr mewn e-byst sy'n cael ei anfon atoch, fel arfer wedi'u cuddio o fewn delwedd neu ddolen. Pan fyddwch yn agor yr e-bost, mae cod o fewn y traciwr yn anfon data yn ôl i'r cwmni.
+trackerreport-breakage-warning = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel ei fod  wedi ei dorri oherwydd bod y tracwyr yn aml wedi'u cynnwys o fewn delweddau, na fydd yn llwytho os ydyn nhw'n cynnwys traciwr.
+trackerreport-faq-heading = Prif gwestiynau am dracwyr e-bost
+trackerreport-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
+trackerreport-loading = Wrthi'n llwytho eich adroddiad tynnu traciwr…
+trackerreport-load-error = Bu gwall wrth gynhyrchu eich adroddiad tynnu traciwr. Ail-lwythwch y dudalen i geisio eto.
 
 ## Modals
 
