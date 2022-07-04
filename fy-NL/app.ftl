@@ -471,6 +471,7 @@ faq-question-disable-trackerremoval-answer = Ja. As jo problemen hawwe mei e-mai
 faq-question-bulk-trackerremoval-question = Kin ik trackers allinnich op inkelde fan myn e-mailmaskers fuortsmite?
 faq-question-bulk-trackerremoval-answer = Jo kinne trackerfuortsmiting allinnich ynskeakelje op in accountnivo – it smyt trackers fan al jo e-mailberjochten fuort, of net ien derfan.
 faq-question-trackerremoval-breakage-question = Wêrom sjogge myn e-mailberjochten der net goed út?
+faq-question-trackerremoval-breakage-answer = Somtiden kin it fuortsmiten fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte. Wannear de tracker fuortsmiten wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it fuortsmiten fan trackers dan út.
 
 ## Profile Page (Logged In)
 
@@ -526,6 +527,7 @@ profile-label-forwarded = Trochstjoerd
 profile-label-replies = Antwurdzje
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = trackers fuortsmiten
+profile-trackers-removed-tooltip-part1 = As trackerfuortsmiten ynskeakele is, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten fuortsmiten.
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
