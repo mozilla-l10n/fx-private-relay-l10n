@@ -145,6 +145,11 @@ whatsnew-feature-premium-expansion-finland-heading = Mae { -brand-name-relay-pre
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch…
 whatsnew-feature-premium-expansion-description = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch - crëwch arallenwau e-bost diderfyn, cael is-barth e-bost personol, a mwy!
+whatsnew-feature-tracker-removal-heading = Yn cyflwyno dileu traciwr e-bost
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Nawr gall { -brand-name-relay } ddileu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon ymlaen…
 
 ## Bento Menu
 
@@ -758,6 +763,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Cael Estyniad {
 multi-part-onboarding-premium-extension-button-skip = Parhau, byddaf yn llwytho'r estyniad i lawr yn nes ymlaen
 multi-part-onboarding-premium-extension-added = Wedi ychwanegu estyniad { -brand-name-relay }!
 multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
