@@ -141,12 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Fernij no en ûntfang noch mear beskerming…
 whatsnew-feature-premium-expansion-description = Fernij no en ûntfang noch mear beskerming – meitsje ûnbeheind e-mailmaskers oan, ûntfang in oanpast e-mailsubdomein en mear!
-whatsnew-feature-tracker-removal-heading = Nij: fuortsmiten fan e-mailtrackers
+whatsnew-feature-tracker-removal-heading = Nij: ferwiderjen fan e-mailtrackers
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út trochstjoerde e-mailberjochten fuortsmite…
-whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne fuortsmite, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
+whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út trochstjoerde e-mailberjochten ferwiderje…
+whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
 
 ## Bento Menu
 
@@ -385,9 +385,9 @@ settings-api-key-description-bolded = Brûk dit allinnich mei apps dy’t jo fer
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klikje om te kopiearjen
 setting-api-key-copied = Kopiearre!
-setting-tracker-removal-heading = E-mailtrackers fuortsmite
-setting-tracker-removal-description = E-mailtrackers fuortsmite út alle trochstjoerde e-mailberjochten.
-setting-tracker-removal-note = { -brand-name-firefox-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t fia jo maskers trochstjoerd binne fuortsmite.
+setting-tracker-removal-heading = E-mailtrackers ferwiderje
+setting-tracker-removal-description = E-mailtrackers ferwiderje út alle trochstjoerde e-mailberjochten.
+setting-tracker-removal-note = { -brand-name-firefox-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t fia jo maskers trochstjoerd binne ferwiderje.
 setting-tracker-removal-warning = Wichtich: somtiden kin it fuortsmiten fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
 
 ## FAQ Page
@@ -471,7 +471,7 @@ faq-question-disable-trackerremoval-answer = Ja. As jo problemen hawwe mei e-mai
 faq-question-bulk-trackerremoval-question = Kin ik trackers allinnich op inkelde fan myn e-mailmaskers fuortsmite?
 faq-question-bulk-trackerremoval-answer = Jo kinne trackerfuortsmiting allinnich ynskeakelje op in accountnivo – it smyt trackers fan al jo e-mailberjochten fuort, of net ien derfan.
 faq-question-trackerremoval-breakage-question = Wêrom sjogge myn e-mailberjochten der net goed út?
-faq-question-trackerremoval-breakage-answer = Somtiden kin it fuortsmiten fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte. Wannear de tracker fuortsmiten wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it fuortsmiten fan trackers dan út.
+faq-question-trackerremoval-breakage-answer = Somtiden kin it ferwiderjen fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte. Wannear de tracker ferwidere wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it ferwiderjen fan trackers dan út.
 
 ## Profile Page (Logged In)
 
@@ -527,8 +527,8 @@ profile-label-forwarded = Trochstjoerd
 profile-label-replies = Antwurdzje
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = trackers fuortsmiten
-profile-trackers-removed-tooltip-part1 = As trackerfuortsmiten ynskeakele is, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten fuortsmiten.
-profile-trackers-removed-tooltip-part2 = Wichtich: somtiden kin it fuortsmiten fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
+profile-trackers-removed-tooltip-part1 = As trackerferwidering ynskeakele is, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
+profile-trackers-removed-tooltip-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
@@ -543,8 +543,8 @@ profile-stat-label-forwarded = E-mailberjochten trochstjoerd
 profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = trackers fuortsmiten
-profile-stat-label-trackers-learn-more-part1 = As jo trackerfuortsmiten ynskeakelje, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten fuortsmiten.
-profile-stat-label-trackers-learn-more-part2 = Wichtich: somtiden kin it fuortsmiten fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
+profile-stat-label-trackers-learn-more-part1 = As jo trackerferwidering ynskeakelje, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
+profile-stat-label-trackers-learn-more-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
 profile-filter-search-placeholder-2 = Maskers trochsykje
 profile-filter-category-button-label = Sichtbere maskers filterje
 profile-filter-category-button-tooltip = Maskers filterje op subdomein en/of oft se op dit stuit ynkommende e-mailberjochten blokkearje
@@ -561,8 +561,8 @@ profile-filter-category-option-random-masks = Oerige maskers
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Oanpaste maskers
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
-profile-indicator-tracker-removal-alt = Steat trackerfuortsmiten
-profile-indicator-tracker-removal-tooltip = E-mailtrackers wurde op dit stuit fuortsmiten
+profile-indicator-tracker-removal-alt = Steat trackerferwidering
+profile-indicator-tracker-removal-tooltip = E-mailtrackers wurde op dit stuit ferwidere
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -792,7 +792,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 
 ## Report of trackers removed from an email
 
-trackerreport-title = { -brand-name-relay }-trackerfuortsmitenrapport
+trackerreport-title = { -brand-name-relay }-trackerferwideringsrapport
 trackerreport-meta-from-heading = Fan
 trackerreport-meta-receivedat-heading = Untfongen troch
 trackerreport-meta-count-heading = Totaal oantal trackers
@@ -819,9 +819,13 @@ trackerreport-confidentiality-notice = Trackerynformaasje en ôfstjoeradressen d
 trackerreport-removal-explainer-heading = Hoe trackerferwidering wurket
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kin no faaks brûkte trackers ferwiderje út e-mailberjochten dy’t fia jo e-mailmaskers trochstjoerd binne. Jo ûntfange jo e-mailberjochten noch hieltyd, mar de trackers yn de trochstjoerde berjochten wurde ferwidere, sadat jo jo e-mailberjochten ûntfange sûnder te folge wurden. Skeakelje, om trackerferwidering op al jo maskers yn ien kear yn te skeakeljen, trackerferwidering yn yn jo ynstellingen, yn stee fan yndividueel foar elk masker.
 trackerreport-trackers-explainer-heading = Oer e-mailtrackers
+trackerreport-trackers-explainer-content-part1 = E-mailtracking is in faaks brûkt helpmiddel foar bewekking en reklame dat gauris werom te finen is yn Postfek YN. Dizze trackers kinne brûkt wurde om mear ynsjoch te krijen yn jo online gedrach, jo ynteressen en jo e-mailaktiviteit.
+trackerreport-trackers-explainer-content-part2 = In bedriuw of organisaasje sil in tracker opnimmen yn e-mailberjochten dy’t nei jo ferstjoerd wurde, meastentiids ferburgen yn in ôfbylding of in keppeling. Wannear’t it e-mailberjocht iepene wurdt, stjoert de koade yn de tracker gegevens werom nei it bedriuw.
+trackerreport-breakage-warning = Wichtich: somtiden kin it fuortsmiten fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte, dy’t net laden wurde as se in tracker befetsje.
 trackerreport-faq-heading = Faaks stelde fragen oer e-mailtrackers
 trackerreport-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 trackerreport-loading = Jo trackerfuortsmitingsrapport lade…
+trackerreport-load-error = Der is in flater bard by it oanmeitsjen fan jo trackerferwideringsrapport. Fernij de side om it opnij te probearjen.
 
 ## Modals
 
