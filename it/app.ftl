@@ -76,6 +76,7 @@ nav-settings = Impostazioni
 nav-support = Guida e supporto
 nav-sign-out = Disconnetti
 nav-contact = Contatti
+nav-menu-mobile = Menu per dispositivi mobili
 fx-desktop-2 = { -brand-name-firefox } per desktop
 fx-mobile-2 = { -brand-name-firefox } per dispositivi mobili
 
