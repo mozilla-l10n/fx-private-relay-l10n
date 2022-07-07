@@ -72,6 +72,7 @@ nav-settings = 設定
 nav-support = 說明與技術支援
 nav-sign-out = 登出
 nav-contact = 聯絡我們
+nav-menu-mobile = 行動選單
 fx-desktop-2 = { -brand-name-firefox } 桌面版
 fx-mobile-2 = { -brand-name-firefox } 行動版
 
