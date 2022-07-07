@@ -524,6 +524,8 @@ profile-label-forwarded = Továbbítva
 profile-label-replies = Válaszok
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Eltávolított követők
+profile-trackers-removed-tooltip-part1 = Ha a követők eltávolítása engedélyezve van, akkor a gyakori e-mail-követők eltávolításra kerülnek a továbbított levelekből.
+profile-trackers-removed-tooltip-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 profile-label-cancel = Mégse
 profile-blocked-copy-2 = Ha a blokkolást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
 profile-forwarded-copy-2 = Ha a továbbítást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
@@ -538,6 +540,8 @@ profile-stat-label-forwarded = Továbbított e-mailek
 profile-stat-label-aliases-used-2 = Használt e-mail-maszkok
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Eltávolított követők
+profile-stat-label-trackers-learn-more-part1 = A követők eltávolításának engedélyezése eltávolítja a gyakori e-mail-követőket a továbbított levelekből.
+profile-stat-label-trackers-learn-more-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
 profile-filter-category-button-tooltip = Szűrje a maszkokat aldomain szerint vagy aszerint, hogy blokkolják-e a bejövő e-maileket
@@ -810,6 +814,7 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = A követőinformációk és a feladók csak ezekben a jelentésekben jelennek meg, a { -brand-name-firefox-relay } nem menti őket, és csak a jelentések webcímeiben szerepel. Nem mentjük el az e-mailjeit.
 trackerreport-removal-explainer-heading = Hogyan működik a követők eltávolítása
+trackerreport-removal-explainer-content = A { -brand-name-firefox-relay } mostantól eltávolíthatja a gyakori követőket az e-mail-maszkokon keresztül továbbított e-mailekből. Továbbra is megkapja e-mailjeit, de a továbbított levelek nyomkövetőit eltávolítjuk. Ha egyszerre szeretné engedélyezni a követők eltávolítását az összes maszkon, engedélyezze a nyomkövető eltávolítását a beállításokban, ahelyett, hogy külön-külön tenné meg az összes maszknál.
 trackerreport-trackers-explainer-heading = Az e-mail-követőkről
 trackerreport-trackers-explainer-content-part1 = Az e-mail-követés egy elterjedt felügyeleti és hirdetési eszköz, amely sok postafiókot érint. Ezekkel a követőkkel több információ tudható meg az online viselkedéséről, érdeklődési köréről és a levelezési tevékenységéről.
 trackerreport-trackers-explainer-content-part2 = Egy vállalat vagy szervezet nyomkövetőt ágyaz be az Önnek küldött e-mailekbe, általában egy képbe vagy hivatkozásba rejtve. Az e-mail megnyitásakor a követőben található kód visszaküldi az adatokat a cégnek.
