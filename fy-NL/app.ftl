@@ -72,6 +72,7 @@ nav-settings = Ynstellingen
 nav-support = Help en stipe
 nav-sign-out = Ofmelde
 nav-contact = Kontakt
+nav-menu-mobile = Mobyl-menu
 fx-desktop-2 = { -brand-name-firefox } foar desktop
 fx-mobile-2 = { -brand-name-firefox } foar mobyl
 
