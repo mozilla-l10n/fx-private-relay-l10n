@@ -72,6 +72,7 @@ nav-settings = Beállítások
 nav-support = Súgó és támogatás
 nav-sign-out = Kijelentkezés
 nav-contact = Kapcsolat
+nav-menu-mobile = Mobilos menü
 fx-desktop-2 = { -brand-name-firefox } számítógépre
 fx-mobile-2 = { -brand-name-firefox } mobilra
 
@@ -521,6 +522,8 @@ profile-label-copied = Másolva!
 profile-label-blocked = Blokkolva
 profile-label-forwarded = Továbbítva
 profile-label-replies = Válaszok
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Eltávolított követők
 profile-label-cancel = Mégse
 profile-blocked-copy-2 = Ha a blokkolást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
 profile-forwarded-copy-2 = Ha a továbbítást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
@@ -528,9 +531,13 @@ profile-forwarded-note = Megjegyzés:
 profile-forwarded-note-copy = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) jelenleg nem támogatottak, és nem kerülnek továbbításra.
 profile-forwarded-note-copy-v2 = A { email-size-limit }-nál nagyobb levelek (beleszámolva a mellékleteket is) nem lesznek továbbítva.
 profile-replies-tooltip = Válaszolhat az ezen a maszkon keresztül kapott levelekre, és a { -brand-name-firefox-relay } továbbra is megvédi a valódi e-mail-címét.
+profile-stat-learn-more = További tudnivalók
+profile-stat-learn-more-close = Bezárás
 profile-stat-label-blocked = Blokkolt e-mailek
 profile-stat-label-forwarded = Továbbított e-mailek
 profile-stat-label-aliases-used-2 = Használt e-mail-maszkok
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Eltávolított követők
 profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
 profile-filter-category-button-tooltip = Szűrje a maszkokat aldomain szerint vagy aszerint, hogy blokkolják-e a bejövő e-maileket
@@ -546,6 +553,9 @@ profile-filter-category-option-promo-blocking-masks = Promóciót blokkoló masz
 profile-filter-category-option-random-masks = Véletlenszerű maszkok
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Egyéni maszkok
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Követőeltávolítás állapota
+profile-indicator-tracker-removal-tooltip = Jelenleg eltávolításra kerülnek az e-mail-követők
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -692,6 +702,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Írja be az e-mail-maszk előtag
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = például „kave”
+modal-custom-alias-picker-form-prefix-spaces-warning = Az e-mail-maszkokban nem lehet szóköz.
+modal-custom-alias-picker-form-prefix-invalid-warning = Az e-mail-maszkok csak kisbetűket, számokat és kötőjeleket tartalmazhatnak, és nem kezdődhetnek vagy végződhetnek kötőjellel.
 modal-custom-alias-picker-form-submit-label-2 = Maszk előállítása
 modal-custom-alias-picker-creation-error-2 = Az egyéni e-mail-maszk nem hozható létre kézileg. Próbálja újra, vagy küldjön egy e-mailt a maszkra a létrehozásához.
 
@@ -773,6 +785,9 @@ multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpul
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } követőeltávolítási jelentés
+trackerreport-meta-from-heading = Feladó
+trackerreport-meta-receivedat-heading = Fogadó
 trackerreport-meta-count-heading = Összes követő
 trackerreport-trackers-heading = Követők észlelve
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -793,6 +808,16 @@ trackerreport-tracker-count =
         [one] 1 követő
        *[other] { $count } követő
     }
+trackerreport-confidentiality-notice = A követőinformációk és a feladók csak ezekben a jelentésekben jelennek meg, a { -brand-name-firefox-relay } nem menti őket, és csak a jelentések webcímeiben szerepel. Nem mentjük el az e-mailjeit.
+trackerreport-removal-explainer-heading = Hogyan működik a követők eltávolítása
+trackerreport-trackers-explainer-heading = Az e-mail-követőkről
+trackerreport-trackers-explainer-content-part1 = Az e-mail-követés egy elterjedt felügyeleti és hirdetési eszköz, amely sok postafiókot érint. Ezekkel a követőkkel több információ tudható meg az online viselkedéséről, érdeklődési köréről és a levelezési tevékenységéről.
+trackerreport-trackers-explainer-content-part2 = Egy vállalat vagy szervezet nyomkövetőt ágyaz be az Önnek küldött e-mailekbe, általában egy képbe vagy hivatkozásba rejtve. Az e-mail megnyitásakor a követőben található kód visszaküldi az adatokat a cégnek.
+trackerreport-breakage-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók, melyek nem fognak betöltődni, ha követőt tartalmaznak.
+trackerreport-faq-heading = A leggyakoribb kérdések az e-mail-követőkkel kapcsolatban
+trackerreport-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
+trackerreport-loading = A követőeltávolítási jelentés betöltése…
+trackerreport-load-error = Hiba történt a követőeltávolítási jelentés létrehozásakor. Frissítse az oldalt az újrapróbálkozáshoz.
 
 ## Modals
 
