@@ -72,6 +72,7 @@ nav-settings = Instellingen
 nav-support = Hulp en ondersteuning
 nav-sign-out = Afmelden
 nav-contact = Contact
+nav-menu-mobile = Mobiel-menu
 fx-desktop-2 = { -brand-name-firefox } voor Desktop
 fx-mobile-2 = { -brand-name-firefox } voor mobiel
 
