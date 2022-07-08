@@ -72,6 +72,7 @@ nav-settings = Parametros
 nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
 nav-contact = Contacta nos
+nav-menu-mobile = Menu mobile
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
 
