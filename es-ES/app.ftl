@@ -72,6 +72,7 @@ nav-settings = Ajustes
 nav-support = Ayuda y asistencia
 nav-sign-out = Cerrar sesión
 nav-contact = Contacta con nosotros
+nav-menu-mobile = Menú para móviles
 fx-desktop-2 = { -brand-name-firefox } para escritorio
 fx-mobile-2 = { -brand-name-firefox } para móviles
 
@@ -141,6 +142,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtén aún más protección…
 whatsnew-feature-premium-expansion-description = ¡Actualiza ahora y obtendrás mucha más protección, crea máscaras de correo ilimitadas, obtén un subdominio de correo y más!
+whatsnew-feature-tracker-removal-heading = Presentamos el eliminador de rastreadores del correo electrónico
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados…
+whatsnew-feature-tracker-removal-description = Ahora { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando a mantenerte invisible para los anunciantes.
 
 ## Bento Menu
 
@@ -377,6 +384,10 @@ settings-api-key-description-bolded = Utilízala solo con aplicaciones en las qu
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
+setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
+setting-tracker-removal-description = Eliminar los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
+setting-tracker-removal-note = { -brand-name-firefox-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados a través de tus máscaras.
+setting-tracker-removal-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
 
 ## FAQ Page
 
@@ -454,6 +465,12 @@ faq-question-promotional-email-blocking-question = ¿Qué es el bloqueo de corre
 faq-question-promotional-email-blocking-answer = Los suscriptores de { -brand-name-relay-premium } pueden activar el bloqueo de correo electrónico promocional. Esta función reenviará correos electrónicos importantes, como recibos, restablecimientos de contraseña y confirmaciones, mientras bloquea los mensajes de marketing. Existe un ligero riesgo de que se bloquee un mensaje importante, por lo que te recomendamos que no utilices esta función para servicios muy importantes como tu banco. Si un correo electrónico ha sido bloqueado, no se puede recuperar.
 faq-question-detect-promotional-question = ¿Cómo detecta { -brand-name-relay } si un correo electrónico es promocional o no?
 faq-question-detect-promotional-answer = Muchos correos electrónicos se envían con metadatos de “encabezado” para indicar que provienen de herramientas automatizadas basadas en listas. { -brand-name-firefox-relay } detecta estos datos de encabezado para poder bloquear estos correos electrónicos.
+faq-question-disable-trackerremoval-question = ¿Puedo detener el eliminador de rastreadores de correo electrónico?
+faq-question-disable-trackerremoval-answer = Sí. Si tienes problemas con los correos electrónicos que parecen incompletos o deseas dejar de eliminar los rastreadores, puedes desactivar la función en la configuración.
+faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo en algunas máscaras de correo electrónico?
+faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación del rastreador a nivel de cuenta; eliminar los rastreadores de todos tus correos electrónicos o ninguno de ellos.
+faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
+faq-question-trackerremoval-breakage-answer = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 
 ## Profile Page (Logged In)
 
@@ -507,6 +524,8 @@ profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
 profile-label-forwarded = Reenviado
 profile-label-replies = Respuestas
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Rastreadores eliminados
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -514,9 +533,13 @@ profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluidos los archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
 profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-replies-tooltip = Puedes responder a los correos electrónicos recibidos a través de esta máscara y { -brand-name-firefox-relay } continuará protegiendo tu dirección de correo real.
+profile-stat-learn-more = Saber más
+profile-stat-learn-more-close = Cerrar
 profile-stat-label-blocked = Correos electrónicos bloqueados
 profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used-2 = Máscaras de correo utilizadas
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Rastreadores eliminados
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
@@ -756,6 +779,31 @@ multi-part-onboarding-premium-chrome-extension-button-download = Obtén la exten
 multi-part-onboarding-premium-extension-button-skip = Continuar, descargaré la extensión más tarde
 multi-part-onboarding-premium-extension-added = Extensión { -brand-name-relay } instalada.
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
+
+## Report of trackers removed from an email
+
+trackerreport-meta-from-heading = Remitente
+trackerreport-meta-receivedat-heading = Recibido por
+trackerreport-meta-count-heading = Rastreadores totales
+trackerreport-trackers-heading = Rastreadores detectados
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Dominio del rastreador
+trackerreport-trackers-count-heading = Número de rastreadores
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 rastreador
+       *[other] { $count } rastreadores
+    }
+trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
 
 ## Modals
 
