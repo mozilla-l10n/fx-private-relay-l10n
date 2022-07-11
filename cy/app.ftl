@@ -72,6 +72,7 @@ nav-settings = Gosodiadau
 nav-support = Cymorth a Chefnogaeth
 nav-sign-out = Allgofnodi
 nav-contact = Cysylltwch â ni
+nav-menu-mobile = Dewislen Symudol
 fx-desktop-2 = { -brand-name-firefox } y Bwrdd Gwaith
 fx-mobile-2 = { -brand-name-firefox } Symudol
 
