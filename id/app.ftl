@@ -23,7 +23,7 @@
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Akun Firefox
+       *[lowercase] Firefox account
         [uppercase] Firefox Account
     }
 -brand-name-chrome = Chrome
@@ -141,6 +141,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Tingkatkan sekarang dan dapatkan perlindungan lebih…
 whatsnew-feature-premium-expansion-description = Tingkatkan sekarang dan dapatkan perlindungan lebih — buat topeng surel tanpa batas, dapatkan subdomain surel kustom, dan banyak lagi!
+whatsnew-feature-tracker-removal-heading = Memperkenalkan penghapusan pelacak email
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Sekarang { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan…
+whatsnew-feature-tracker-removal-description = Sekarang { -brand-name-relay } dapat menghapus pelacak umum dari surel yang diteruskan kepada Anda, membantu Anda tetap tersembunyi oleh pengiklan.
 
 ## Bento Menu
 
@@ -182,7 +188,7 @@ hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa 
 
 landing-hero-headline-2 = Lindungi alamat surel asli Anda untuk membantu kendalikan kotak masuk Anda
 landing-hero-body-2 =
-    Topeng masker { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan pesan ke kotak masuk Anda yang asli.
+    Surel topeng { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan pesan ke kotak masuk Anda yang asli.
     Sekarang Anda dapat menerima pesan yang hanya Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk mulai.
 
 ## How it works section
@@ -281,6 +287,16 @@ landing-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = Pengaya
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Sumber: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = dari 5 ({ $review_count } ulasan)
+landing-reviews-show-next-button = tampilkan ulasan berikutnya
+landing-reviews-show-previous-button = tampilkan ulasan sebelumnya
+landing-review-anonymous-user = { -brand-name-firefox } pengguna { $user_id }
 
 ## Premium promo page
 
