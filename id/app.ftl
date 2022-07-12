@@ -465,6 +465,9 @@ faq-question-detect-promotional-answer = Banyak surel yang dikirim dengan metada
 faq-question-disable-trackerremoval-question = Dapatkah saya berhenti menghapus pelacak surel?
 faq-question-disable-trackerremoval-answer = Ya. Jika mengalami masalah dengan surel yang tampak rusak atau ingin berhenti menghapus pelacak, Anda dapat menonaktifkan fitur pada pengaturan.
 faq-question-bulk-trackerremoval-question = Dapatkah saya menghapus pelacak hanya pada beberapa topeng surel saya?
+faq-question-bulk-trackerremoval-answer = Anda hanya dapat menyalakan penghapus pelacak di tingkat akun — antara menghapus pelacak dari seluruh surel, atau tidak sama sekali.
+faq-question-trackerremoval-breakage-question = Mengapa surel saya terlihat rusak?
+faq-question-trackerremoval-breakage-answer = Terkadang menghapus pelacak dapat menyebabkan surel Anda terlihat rusak, karena pelacak seringkali terkandung di dalam gambar. Saat pelacak dihapus, format surel terlihat seperti bermasalah karena gambar hilang. Hal ini tidak dapat diperbaiki untuk surel yang telah Anda terima. Jika situasi ini mencegah Anda membaca surel dengan benar, matikan penghapusan pelacak.
 
 ## Profile Page (Logged In)
 
@@ -518,6 +521,10 @@ profile-label-copied = Tersalin!
 profile-label-blocked = Diblokir
 profile-label-forwarded = Diteruskan
 profile-label-replies = Balasan
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Pelacak Dihapus
+profile-trackers-removed-tooltip-part1 = Dengan penghapusan pelacak diaktifkan, pelacak surel umum akan dihapus dari surel Anda yang diteruskan.
+profile-trackers-removed-tooltip-part2 = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak karena sering kali pelacak terletak di dalam gambar.
 profile-label-cancel = Batal
 profile-blocked-copy-2 = { -brand-name-firefox-relay } akan menghapus pesan sebelum masuk ke kotak masuk Anda saat Anda memilih memblokir untuk topeng ini.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } akan mengirim pesan ke kotak masuk Anda saat Anda pilih meneruskan untuk topeng ini.
@@ -525,9 +532,15 @@ profile-forwarded-note = Catatan:
 profile-forwarded-note-copy = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } saat ini tidak didukung dan tidak akan diteruskan.
 profile-forwarded-note-copy-v2 = Surel (termasuk lampiran) yang lebih besar dari { email-size-limit } tidak akan diteruskan.
 profile-replies-tooltip = Anda dapat membalas surel yang diterima melalui topeng ini, dan { -brand-name-firefox-relay } akan lanjut melindungi alamat surel asli Anda.
+profile-stat-learn-more = Pelajari lebih lanjut
+profile-stat-learn-more-close = Tutup
 profile-stat-label-blocked = Surel Diblokir
 profile-stat-label-forwarded = Surel Diteruskan
 profile-stat-label-aliases-used-2 = Topeng surel digunakan
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Pelacak Dihapus
+profile-stat-label-trackers-learn-more-part1 = Mengaktifkan penghapusan pelacak akan menghapus pelacak surel umum dari surel yang diteruskan.
+profile-stat-label-trackers-learn-more-part2 = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak, karena sering kali pelacak terletak di dalam gambar.
 profile-filter-search-placeholder-2 = Cari topeng
 profile-filter-category-button-label = Saring topeng yang terlihat
 profile-filter-category-button-tooltip = Saring topeng menurut subdomain dan/atau apakah mereka sedang memblokir surel masuk
@@ -543,6 +556,9 @@ profile-filter-category-option-promo-blocking-masks = Topeng pemblokir promo
 profile-filter-category-option-random-masks = Topeng acak
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Topeng kustom
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Status penghapusan pelacak
+profile-indicator-tracker-removal-tooltip = Saat ini menghapus pelacak surel
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -689,6 +705,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Masukkan awalan topeng surel
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = mis. "kopi"
+modal-custom-alias-picker-form-prefix-spaces-warning = Spasi tidak diperbolehkan di topeng surel.
+modal-custom-alias-picker-form-prefix-invalid-warning = Topeng surel hanya dapat mengandung huruf kecil, angka, dan tanda hubung, serta tidak boleh berawalan atau diakhiri dengan tanda hubung.
 modal-custom-alias-picker-form-submit-label-2 = Buat topeng
 modal-custom-alias-picker-creation-error-2 = Topeng surel kustom Anda tidak dapat dibuat secara manual. Silakan coba lagi, atau kirim surel ke topeng untuk membuatnya.
 
@@ -770,6 +788,31 @@ multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Laporan Penghapusan Pelacak { -brand-name-relay }
+trackerreport-meta-from-heading = Dari
+trackerreport-meta-receivedat-heading = Diterima oleh
+trackerreport-meta-count-heading = Jumlah pelacak
+trackerreport-trackers-heading = Pelacak terdeteksi
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Domain pelacak
+trackerreport-trackers-count-heading = Jumlah pelacak
+trackerreport-trackers-none = Tidak ada pelacak terdeteksi pada surel ini
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+       *[other] { $count } pelacak
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+       *[other] { $count } pelacak
+    }
+trackerreport-confidentiality-notice = Informasi pelacak dan dari alamat yang ditampilkan dalam laporan ini tidak disimpan oleh { -brand-name-firefox-relay } dan hanya dimuat dalam URL laporan. Kami tidak menyimpan surel Anda.
+trackerreport-removal-explainer-heading = Cara kerja penghapusan pelacak
+trackerreport-removal-explainer-content = Kini { -brand-name-firefox-relay } dapat menghapus pelacak umum dari surel yang diteruskan ke topeng surel Anda. Anda masih akan menerima surel Anda, namun pelacak pada surel yang diteruskan akan dihapus, jadi Anda dapat menerima surel tanpa dilacak. Untuk mengaktifkan penghapusan pelacak pada semua topeng Anda sekaligus, aktifkan penghapusan pelacak di pengaturan alih-alih secara individual untuk setiap topeng.
+trackerreport-trackers-explainer-heading = Tentang pelacak surel
 
 ## Modals
 
