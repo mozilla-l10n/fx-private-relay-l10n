@@ -72,6 +72,7 @@ nav-settings = Pengaturan
 nav-support = Bantuan dan Dukungan
 nav-sign-out = Keluar
 nav-contact = Hubungi Kami
+nav-menu-mobile = Menu Seluler
 fx-desktop-2 = { -brand-name-firefox } untuk Desktop
 fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 
@@ -277,6 +278,9 @@ landing-use-cases-signups-hero-content2 = Sebelum menyelesaikan pendaftaran beri
 
 landing-faq-headline = Pertanyaan teratas seputar { -brand-name-firefox-relay }
 landing-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
+
+## Landing Reviews Section
+
 
 ## Premium promo page
 
@@ -733,6 +737,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = Dapatkan Eksten
 multi-part-onboarding-premium-extension-button-skip = Lanjutkan, saya akan mengunduh ekstensi nanti
 multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
 multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
