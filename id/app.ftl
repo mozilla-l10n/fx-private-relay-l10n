@@ -297,6 +297,13 @@ landing-reviews-rating = dari 5 ({ $review_count } ulasan)
 landing-reviews-show-next-button = tampilkan ulasan berikutnya
 landing-reviews-show-previous-button = tampilkan ulasan sebelumnya
 landing-review-anonymous-user = { -brand-name-firefox } pengguna { $user_id }
+landing-review-user-one-review = Saya sangat mengapresiasi tim { -brand-name-mozilla } yang telah sangat kreatif dan menyederhanakan proses menganonimkan alamat surel saya. Ini adalah ekstensi keren, saya sangat merekomendasi bagi Anda yang sadar akan privasi!
+landing-review-user-two-review = Alat sederhana untuk menyingkirkan atau menghindari spam pada ID surel Anda.
+landing-review-user-three-review = Suka banget dengan ekstensi ini! Sangat sederhana tapi canggih dan terintegrasi sangat baik dengan peramban.
+landing-review-user-four-review-list-1 = Memberikan ketenangan pikiran ketika berselancar di internet.
+landing-review-user-four-review-list-2 = Melindungi identitas seseorang dari pelacak melalui pembuatan alias di mana seseorang tidak ingin berbagi alamat surel yang sebenarnya untuk berbagai alasan.
+landing-review-user-four-review-list-3 = Data kotak masuk surel aman di tangan { -brand-name-firefox-relay }.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } bekerja secara ajaib, wajib dicoba!!!
 
 ## Premium promo page
 
@@ -374,6 +381,10 @@ settings-api-key-description-bolded = Hanya gunakan ini dengan aplikasi yang And
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klik untuk menyalin
 setting-api-key-copied = Tersalin!
+setting-tracker-removal-heading = Hapus Pelacak Surel
+setting-tracker-removal-description = Hapus pelacak surel di semua surel yang diteruskan.
+setting-tracker-removal-note = { -brand-name-firefox-relay } sekarang dapat menghapus pelacak umum dari surel yang diteruskan melalui topeng Anda.
+setting-tracker-removal-warning = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak, karena sering kali pelacak terletak di dalam gambar.
 
 ## FAQ Page
 
@@ -451,6 +462,9 @@ faq-question-promotional-email-blocking-question = Apa itu pemblokiran surel pro
 faq-question-promotional-email-blocking-answer = Pelanggan { -brand-name-relay-premium } dapat mengaktifkan pemblokiran surel promosi. Fitur ini akan meneruskan surel penting kepada Anda, seperti tanda terima, penyetelan ulang kata sandi, dan surel konfirmasi sambil tetap memblokir pesan pemasaran. Ada sedikit risiko bahwa pesan penting masih dapat diblokir, jadi sebaiknya Anda tidak menggunakan fitur ini untuk tempat yang sangat penting seperti bank Anda. Jika diblokir, surel tidak dapat dipulihkan.
 faq-question-detect-promotional-question = Bagaimana cara { -brand-name-relay } mendeteksi apakah surel bersifat Promosi atau tidak?
 faq-question-detect-promotional-answer = Banyak surel yang dikirim dengan metadata "header" untuk mengindikasikan bahwa surel tersebut berasal dari alat otomatis berbasis daftar. { -brand-name-firefox-relay } mendeteksi data header ini sehingga dapat memblokir email ini.
+faq-question-disable-trackerremoval-question = Dapatkah saya berhenti menghapus pelacak surel?
+faq-question-disable-trackerremoval-answer = Ya. Jika mengalami masalah dengan surel yang tampak rusak atau ingin berhenti menghapus pelacak, Anda dapat menonaktifkan fitur pada pengaturan.
+faq-question-bulk-trackerremoval-question = Dapatkah saya menghapus pelacak hanya pada beberapa topeng surel saya?
 
 ## Profile Page (Logged In)
 
