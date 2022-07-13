@@ -97,6 +97,7 @@ nav-settings = Ρυθμίσεις
 nav-support = Βοήθεια και υποστήριξη
 nav-sign-out = Αποσύνδεση
 nav-contact = Επικοινωνία
+nav-menu-mobile = Μενού για κινητές συσκευές
 fx-desktop-2 = { -brand-name-firefox } για υπολογιστές
 fx-mobile-2 = { -brand-name-firefox } για κινητά
 
@@ -761,6 +762,9 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 ## Report of trackers removed from an email
 
 trackerreport-meta-from-heading = Από
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Τομέας ιχνηλάτη
+trackerreport-trackers-count-heading = Αριθμός ιχνηλατών
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
