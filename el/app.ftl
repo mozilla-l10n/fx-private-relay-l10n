@@ -308,6 +308,7 @@ landing-reviews-details-source = Πηγή: addons.mozilla.org
 landing-reviews-rating = από 5 ({ $review_count } κριτικές)
 landing-reviews-show-next-button = εμφάνιση επόμενης κριτικής
 landing-reviews-show-previous-button = εμφάνιση προηγούμενης κριτικής
+landing-review-anonymous-user = Χρήστης { -brand-name-firefox } { $user_id }
 landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
 
 ## Premium promo page
@@ -383,6 +384,7 @@ setting-label-api-key = Κλειδί API
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Κάντε κλικ για αντιγραφή
 setting-api-key-copied = Αντιγράφηκε!
+setting-tracker-removal-heading = Αφαίρεση ιχνηλατών email
 
 ## FAQ Page
 
@@ -460,6 +462,7 @@ faq-question-promotional-email-blocking-question = Τι είναι η φραγή
 faq-question-promotional-email-blocking-answer = Οι συνδρομητές του { -brand-name-relay-premium } μπορούν να ενεργοποιήσουν τη φραγή των διαφημιστικών email. Αυτή η λειτουργία θα προωθήσει σε εσάς τα σημαντικά email, όπως αποδείξεις, μηνύματα για επαναφορά κωδικών πρόσβασης και επιβεβαιώσεις, ενώ θα αποκλείει τα διαφημιστικά μηνύματα. Υπάρχει ένας μικρός κίνδυνος να αποκλειστεί κάποιο σημαντικό μήνυμα, επομένως σας συνιστούμε να μην χρησιμοποιείτε αυτήν τη λειτουργία για πολύ σημαντικά μέρη, όπως η τράπεζά σας. Εάν αποκλειστεί κάποιο email, δεν μπορεί να ανακτηθεί.
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
+faq-question-disable-trackerremoval-question = Μπορώ να διακόψω την αφαίρεση ιχνηλατών email;
 
 ## Profile Page (Logged In)
 
