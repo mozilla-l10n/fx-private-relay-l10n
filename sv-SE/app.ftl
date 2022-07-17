@@ -755,6 +755,11 @@ multi-part-onboarding-premium-extension-button-skip = Fortsätt, jag laddar ner 
 multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
 multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 
+## Report of trackers removed from an email
+
+trackerreport-meta-from-heading = Från
+trackerreport-meta-receivedat-heading = Mottaget av
+
 ## Modals
 
 modal-rename-alias-saved = Etikett sparad!
