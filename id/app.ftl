@@ -816,6 +816,7 @@ trackerreport-trackers-explainer-heading = Tentang pelacak surel
 trackerreport-trackers-explainer-content-part1 = Pelacakan surel adalah alat pengawasan dan iklan umum yang telah mengambil alih banyak kotak masuk. Pelacak ini dapat digunakan untuk memahami lebih lanjut tentang perilaku daring, minat, dan aktivitas surel Anda.
 trackerreport-trackers-explainer-content-part2 = Perusahaan atau organisasi akan menyematkan pelacak dalam surel yang dikirimkan kepada Anda, biasanya disembunyikan dalam sebuah gambar atau tautan. Saat surel dibuka, kode dalam pelacak akan mengirim data kembali ke perusahaan.
 trackerreport-breakage-warning = Catatan penting: Terkadang menghapus pelacak bisa menyebabkan surel
+trackerreport-faq-heading = Pertanyaan teratas tentang pelacak email
 
 ## Modals
 
