@@ -146,6 +146,11 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 whatsnew-feature-premium-expansion-snippet = Surclassez votre compte maintenant et obtenez encore plus de protection…
 whatsnew-feature-premium-expansion-description = Surclassez votre compte maintenant et obtenez encore plus de protection – créez un nombre illimité d’alias de messagerie, obtenez un sous-domaine de messagerie personnalisé et d’autres choses encore !
 whatsnew-feature-tracker-removal-heading = Suppression des traqueurs dans les e-mails
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés…
+whatsnew-feature-tracker-removal-description = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs.
 
 ## Bento Menu
 
@@ -380,6 +385,7 @@ settings-button-copy = Cliquer pour copier
 setting-api-key-copied = Copiée !
 setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
 setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
+setting-tracker-removal-note = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie.
 setting-tracker-removal-warning = Important : Parfois, la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans les images.
 
 ## FAQ Page
@@ -459,6 +465,9 @@ faq-question-promotional-email-blocking-answer = Les abonnés à { -brand-name-r
 faq-question-detect-promotional-question = Comment { -brand-name-relay } détecte-t-il si un e-mail est promotionnel ?
 faq-question-detect-promotional-answer = De nombreux e-mails sont expédiés avec des métadonnées dans l’« en-tête » pour indiquer qu’ils proviennent d’outils automatisés se basant sur des listes. { -brand-name-firefox-relay } détecte ces données d’en-tête et peut ainsi bloquer ces e-mails.
 faq-question-disable-trackerremoval-question = Puis-je arrêter de supprimer les traqueurs des e-mails ?
+faq-question-disable-trackerremoval-answer = Oui. Si vous avez des soucis avec des e-mails qui s’affichent mal ou si vous souhaitez arrêter la suppression des traqueurs, vous pouvez désactiver la fonctionnalité dans les paramètres.
+faq-question-bulk-trackerremoval-question = Puis-je supprimer les traqueurs seulement sur certains de mes alias de messagerie ?
+faq-question-bulk-trackerremoval-answer = Vous ne pouvez activer la suppression des traqueurs qu’au niveau du compte — soit les supprimer sur toutes vos adresses e-mail, soit sur aucune.
 
 ## Profile Page (Logged In)
 
