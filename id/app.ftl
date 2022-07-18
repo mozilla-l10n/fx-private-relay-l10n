@@ -817,6 +817,9 @@ trackerreport-trackers-explainer-content-part1 = Pelacakan surel adalah alat pen
 trackerreport-trackers-explainer-content-part2 = Perusahaan atau organisasi akan menyematkan pelacak dalam surel yang dikirimkan kepada Anda, biasanya disembunyikan dalam sebuah gambar atau tautan. Saat surel dibuka, kode dalam pelacak akan mengirim data kembali ke perusahaan.
 trackerreport-breakage-warning = Catatan penting: Terkadang menghapus pelacak bisa menyebabkan surel
 trackerreport-faq-heading = Pertanyaan teratas tentang pelacak email
+trackerreport-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
+trackerreport-loading = Memuat laporan penghapusan pelacak Anda...
+trackerreport-load-error = Terjadi kesalahan saat membuat laporan penghapusan pelacak Anda. Segarkan laman untuk mencoba lagi.
 
 ## Modals
 
