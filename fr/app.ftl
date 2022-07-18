@@ -468,6 +468,7 @@ faq-question-disable-trackerremoval-question = Puis-je arrêter de supprimer les
 faq-question-disable-trackerremoval-answer = Oui. Si vous avez des soucis avec des e-mails qui s’affichent mal ou si vous souhaitez arrêter la suppression des traqueurs, vous pouvez désactiver la fonctionnalité dans les paramètres.
 faq-question-bulk-trackerremoval-question = Puis-je supprimer les traqueurs seulement sur certains de mes alias de messagerie ?
 faq-question-bulk-trackerremoval-answer = Vous ne pouvez activer la suppression des traqueurs qu’au niveau du compte — soit les supprimer sur toutes vos adresses e-mail, soit sur aucune.
+faq-question-trackerremoval-breakage-answer = Quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Quand le traqueur est supprimé, l’e-mail semble être mal formaté car il y manque ces images. Il n’est pas possible de corriger cela pour des e-mails déjà reçus. Si cette fonctionnalité vous empêche de lire correctement vos e-mails, désactivez la suppression des traqueurs.
 
 ## Profile Page (Logged In)
 
@@ -523,6 +524,8 @@ profile-label-forwarded = Transférés
 profile-label-replies = Réponses
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Traqueurs supprimés
+profile-trackers-removed-tooltip-part1 = Avec la suppression des traqueurs activée, les traqueurs d’e-mail courants sont supprimés de vos e-mails transférés.
+profile-trackers-removed-tooltip-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
 profile-label-cancel = Annuler
 profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
@@ -537,6 +540,8 @@ profile-stat-label-forwarded = Messages transférés
 profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Traqueurs supprimés
+profile-stat-label-trackers-learn-more-part1 = Activer la suppression des traqueurs supprime les traqueurs d’e-mail courants de vos messages transférés.
+profile-stat-label-trackers-learn-more-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
 profile-filter-search-placeholder-2 = Rechercher des alias
 profile-filter-category-button-label = Filtrer les alias visibles
 profile-filter-category-button-tooltip = Filtrer les alias par sous-domaine et/ou s’ils bloquent actuellement les e-mails entrants
@@ -697,6 +702,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Saisissez le préfixe de l’ali
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = par exemple, « café »
+modal-custom-alias-picker-form-prefix-spaces-warning = Les espaces ne sont pas autorisées dans les alias de messagerie.
 modal-custom-alias-picker-form-prefix-invalid-warning = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres et des traits d’union, et ne peuvent pas commencer ou se terminer par un trait d’union.
 modal-custom-alias-picker-form-submit-label-2 = Générer l’alias
 modal-custom-alias-picker-creation-error-2 = Votre alias de messagerie personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
@@ -777,6 +783,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau d
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Rapport sur la suppression des traqueurs de { -brand-name-relay }
 trackerreport-meta-from-heading = Expéditeur
 trackerreport-meta-receivedat-heading = Reçu par
 trackerreport-meta-count-heading = Total des traqueurs
@@ -799,6 +806,7 @@ trackerreport-tracker-count =
         [one] 1 traqueur
        *[other] { $count } traqueurs
     }
+trackerreport-confidentiality-notice = Les informations sur les traqueurs et les adresses d’expéditeur affichées dans ce rapport ne sont pas enregistrées par { -brand-name-firefox-relay } et sont uniquement contenues dans les URL de ce rapport. Nous n’enregistrons pas vos e-mails.
 trackerreport-removal-explainer-heading = Fonctionnement de la suppression des traqueurs
 trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
 trackerreport-faq-heading = Questions les plus fréquentes sur les traqueurs dans les e-mails
