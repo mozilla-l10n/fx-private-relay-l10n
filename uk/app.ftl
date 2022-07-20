@@ -328,7 +328,7 @@ premium-promo-perks-perk-dashboard-headline-2 = Керуйте своїми ма
 premium-promo-perks-perk-dashboard-body-2 = Керуйте всіма своїми масками зі зручної панелі керування: якщо на одну з адрес почнуть надходити небажані повідомлення, ви можете заблокувати їх, щоб вони не потрапляли до ваших вхідних.
 premium-promo-use-cases-headline-2 = Використовуйте маски адрес електронної пошти { -brand-name-relay } будь-де
 premium-promo-use-cases-shopping-heading = Покупки
-premium-promo-use-cases-shopping-body-2 = Хочете стежити за знижками без спаму? Повʼяжіть усі свої облікові записи «покупки» до власної маски адреси електронної пошти, як-от «mydeals@mydomain.mozmail.com».
+premium-promo-use-cases-shopping-body-2 = Хочете стежити за знижками без спаму? Пов'яжіть усі свої облікові записи «покупки» до власної маски адреси електронної пошти, як-от «mydeals@mydomain.mozmail.com».
 premium-promo-use-cases-social-networks-heading = Суспільні мережі
 premium-promo-use-cases-social-networks-body-2 = Хочете краще захистити свою особу онлайн під час використання суспільної мережі? Використовуйте іншу маску адреси електронної пошти, щоб увійти в кожну суспільну мережу та убезпечити свою справжню електронну адресу від потрапляння на ці сайти.
 premium-promo-use-cases-gaming-heading = Ігри
@@ -767,7 +767,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Створюйте н
 multi-part-onboarding-premium-welcome-button-start = Розпочнімо
 multi-part-onboarding-premium-get-subdomain = Отримати індивідуальний субдомен
 multi-part-onboarding-reply-headline = Відповідати на ваші електронні листи
-multi-part-onboarding-premium-welcome-description-2 = Більше ніякого обмеження на п’ять масок: тепер ви можете створювати стільки власних або випадкових масок, скільки вам потрібно. На компʼютері ви можете використовувати додаток { -brand-name-relay }, щоб створювати їх на ходу.
+multi-part-onboarding-premium-welcome-description-2 = Більше ніякого обмеження на п'ять масок: тепер ви можете створювати стільки власних або випадкових масок, скільки вам потрібно. На компʼютері ви можете використовувати додаток { -brand-name-relay }, щоб створювати їх на ходу.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (.mozmail.com)
 multi-part-onboarding-premium-get-domain-description-3 =
