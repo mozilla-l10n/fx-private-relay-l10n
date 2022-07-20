@@ -76,6 +76,9 @@ nav-profile-contact = Связаться с нами
 nav-profile-contact-tooltip = Связаться с нами по { -brand-name-relay-premium }
 nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "genitive") }
 
+## Mobile menu text
+
+
 ## Footer
 
 nav-footer-privacy = Приватность
@@ -136,6 +139,8 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } доступен в Швеции
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } доступен в Финляндии
 
 ## Bento Menu
 
@@ -252,11 +257,16 @@ landing-use-cases-gaming = Игры
 landing-use-cases-gaming-body-2 =
     Любите онлайн-игры, но беспокоитесь о том, что другие игроки или тролли узнают, кто вы, по вашему тегу и адресу электронной почты?
     Воспользуйтесь псевдонимом электронной почты, чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
+landing-use-cases-shopping-hero-heading = Покупки с псевдонимами электронной почты
+landing-use-cases-shopping-hero-content1 = Хотите купить что-то в Интернете, но не знаете магазин или не полностью ему доверяете?
 
 ## Landing FAQ Section
 
 landing-faq-headline = Самые популярные вопросы о { -brand-name-firefox-relay }
 landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-firefox-relay }
+
+## Landing Reviews Section
+
 
 ## Premium promo page
 
@@ -619,10 +629,10 @@ popover-custom-alias-explainer-close-button-label = Закрыть
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 
+## Report of trackers removed from an email
+
+
 ## Modals
-
-
-## The "Help & Tips" area at the bottom of the page
 
 
 ## Evergreen Survey (displayed on the profile page)
