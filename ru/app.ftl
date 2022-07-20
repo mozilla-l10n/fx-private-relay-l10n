@@ -262,6 +262,8 @@ landing-use-cases-shopping-hero-content1 = Хотите купить что-то
 landing-use-cases-shopping-hero-content2 = Воспользуйтесь псевдонимом электронной почты, когда совершаете покупки в Интернете. Получите подтверждение на свой настоящий электронный адрес, а затем легко отключайте псевдоним в любой момент.
 landing-use-cases-on-the-go = В пути
 landing-use-cases-on-the-go-heading = В пути с { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Мгновенно создавайте собственные псевдонимы электронной почты, где бы вы ни находились и куда бы ни направлялись!
+landing-use-cases-on-the-go-connect-heading = Подключайтесь на ходу
 
 ## Landing FAQ Section
 
