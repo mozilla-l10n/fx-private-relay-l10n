@@ -265,6 +265,7 @@ landing-use-cases-on-the-go-heading = В пути с { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Мгновенно создавайте собственные псевдонимы электронной почты, где бы вы ни находились и куда бы ни направлялись!
 landing-use-cases-on-the-go-connect-heading = Подключайтесь на ходу
 landing-use-cases-on-the-go-connect-body = Воспользуйтесь псевдонимом электронной почты, когда хотите приватно войти в Интернет в своей любимой кофейне или подключиться к общедоступной сети Wi-Fi
+landing-use-cases-on-the-go-receipt-heading = Получайте квитанции по электронной почте
 
 ## Landing FAQ Section
 
