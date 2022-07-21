@@ -740,6 +740,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Enter email mask prefix
 modal-custom-alias-picker-form-prefix-placeholder = e.g. “coffee”
 modal-custom-alias-picker-form-prefix-spaces-warning = Spaces are not allowed in email masks.
 modal-custom-alias-picker-form-prefix-invalid-warning = Email masks can only contain lowercase letters, numbers, and hyphens, and may not start or end with a hyphen.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Email masks can only contain lowercase letters, numbers, periods, and hyphens, and may not start or end with a period or hyphen.
 modal-custom-alias-picker-form-submit-label-2 = Generate mask
 modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
 
