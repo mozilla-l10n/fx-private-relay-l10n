@@ -784,6 +784,7 @@ trackerreport-tracker-count =
         [one] 1 ιχνηλάτης
        *[other] { $count } ιχνηλάτες
     }
+trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 
 ## Modals
 
