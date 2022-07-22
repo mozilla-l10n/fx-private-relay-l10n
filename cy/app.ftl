@@ -456,7 +456,7 @@ faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth 
 faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
-faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay } yr un amodau defnydd <a href = " { $url } " { $attrs }> â holl gynnyrch { -brand-name-mozilla }</a>. Mae gennym ni bolisi dim goddefgarwch o ran defnyddio { -brand-name-relay } at ddibenion maleisus fel sbam, sy'n arwain at derfynu cyfrif defnyddiwr. Rydym yn cymryd camau i atal defnyddwyr rhag torri ein hamodau drwy:
+faq-question-acceptable-use-answer-a-html = Mae gan { -brand-name-firefox-relay } yr un amodau defnydd <a href="{ $url }" { $attrs }> â holl gynnyrch { -brand-name-mozilla }</a>. Mae gennym ni bolisi dim goddefgarwch o ran defnyddio { -brand-name-relay } at ddibenion maleisus fel sbam, sy'n arwain at derfynu cyfrif defnyddiwr. Rydym yn cymryd camau i atal defnyddwyr rhag torri ein hamodau drwy:
 faq-question-acceptable-use-answer-measure-account = Mae angen { -brand-name-firefox-account(capitalization: "uppercase") } gyda chyfeiriad e-bost wedi'i ddilysu
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Mae angen taliad gan ddefnyddiwr i greu mwy na phum arallenw
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Cyfyngu ar gyfraddau'r nifer yr arallenwau y mae modd eu cynhyrchu mewn un diwrnod
