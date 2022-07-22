@@ -709,6 +709,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Введіть префікс м
 modal-custom-alias-picker-form-prefix-placeholder = напр. «coffee»
 modal-custom-alias-picker-form-prefix-spaces-warning = Пробіли в масках електронної пошти не допускаються.
 modal-custom-alias-picker-form-prefix-invalid-warning = Маски електронної пошти можуть містити лише малі літери, цифри та дефіси й не можуть починатися чи закінчуватися дефісом.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Маски електронної пошти можуть містити лише малі букви, цифри, крапки та дефіси й не можуть починатися чи закінчуватися крапкою або дефісом.
 modal-custom-alias-picker-form-submit-label-2 = Створити маску
 modal-custom-alias-picker-creation-error-2 = Не вдалося створити власну маску електронної адреси вручну. Спробуйте ще раз або надішліть електронний лист на маску, щоб створити її.
 
