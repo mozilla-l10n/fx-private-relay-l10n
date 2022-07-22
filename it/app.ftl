@@ -698,6 +698,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Inserire un prefisso per l’ali
 modal-custom-alias-picker-form-prefix-placeholder = ad es. “ristorante”
 modal-custom-alias-picker-form-prefix-spaces-warning = Negli alias email non sono consentiti spazi.
 modal-custom-alias-picker-form-prefix-invalid-warning = Gli alias email possono contenere solo lettere minuscole, numeri e trattini e non possono iniziare o terminare con un trattino.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Gli alias email possono contenere solo lettere minuscole, numeri, punti e trattini e non possono iniziare o terminare con un punto o un trattino.
 modal-custom-alias-picker-form-submit-label-2 = Genera alias
 modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
 
