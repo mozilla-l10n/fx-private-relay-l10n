@@ -708,6 +708,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Ingresa el prefijo del correo en
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "café"
 modal-custom-alias-picker-form-prefix-spaces-warning = Los espacios no están permitidos en las máscaras de correo electrónico.
 modal-custom-alias-picker-form-prefix-invalid-warning = Las máscaras de correo electrónico solo deben tener letras minúsculas, números o guiones, además que no pueden comenzar o terminar con guión.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Las máscaras de correo solo pueden tener letras minúsculas, números, puntos y guiones, no pueden iniciar o terminar con un punto o guión.
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 modal-custom-alias-picker-creation-error-2 = Tu correo enmascarado personalizado no se pudo crear manualmente. Vuelve a intentarlo o envía un correo electrónico a la máscara para crearla.
 
