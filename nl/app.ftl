@@ -712,6 +712,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Voer maskervoorvoegsel in
 modal-custom-alias-picker-form-prefix-placeholder = b.v. ‘koffie’
 modal-custom-alias-picker-form-prefix-spaces-warning = Spaties zijn niet toegestaan in e-mailmaskers.
 modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers mogen alleen kleine letters, cijfers en koppeltekens bevatten en mogen niet beginnen of eindigen met een koppelteken.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailmaskers mogen alleen kleine letters, cijfers, punten en koppeltekens bevatten en mogen niet beginnen of eindigen met een punt of een koppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker aanmaken
 modal-custom-alias-picker-creation-error-2 = Uw aangepaste masker kan niet handmatig worden gemaakt. Probeer het opnieuw of stuur een e-mailbericht naar het masker om het aan te maken.
 
