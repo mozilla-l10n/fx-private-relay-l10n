@@ -385,6 +385,7 @@ setting-api-key-copied = Kopierad!
 setting-tracker-removal-heading = Ta bort e-postspårare
 setting-tracker-removal-description = Ta bort e-postspårare i alla vidarebefordrade e-postmeddelanden.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu ta bort vanliga spårare från e-postmeddelanden som vidarebefordras genom dina alias.
+setting-tracker-removal-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
 
 ## FAQ Page
 
@@ -462,6 +463,12 @@ faq-question-promotional-email-blocking-question = Vad är e-postblockering för
 faq-question-promotional-email-blocking-answer = Prenumeranter på { -brand-name-relay-premium } kan aktivera e-postblockering. Den här funktionen vidarebefordrar viktiga e-postmeddelanden till dig, såsom kvitton, lösenordsåterställning och bekräftelser samtidigt som marknadsföringsmeddelanden blockeras. Det finns en liten risk att ett viktigt meddelande fortfarande kan blockeras, så vi rekommenderar att du inte använder den här funktionen för mycket viktiga platser som din bank. Om ett e-postmeddelande är blockerat kan det inte återställas.
 faq-question-detect-promotional-question = Hur upptäcker { -brand-name-relay } om ett e-postmeddelande är reklam eller inte?
 faq-question-detect-promotional-answer = Många e-postmeddelanden skickas med "header"-metadata för att indikera att de kommer från listbaserade automatiserade verktyg. { -brand-name-firefox-relay } upptäcker denna rubrikdata så att den kan blockera dessa e-postmeddelanden.
+faq-question-disable-trackerremoval-question = Kan jag sluta ta bort e-postspårare?
+faq-question-disable-trackerremoval-answer = Ja. Om du har problem med att e-postmeddelanden ser trasiga ut eller vill sluta ta bort spårare kan du inaktivera funktionen i inställningarna.
+faq-question-bulk-trackerremoval-question = Kan jag ta bort spårare endast från några av mina e-postalias?
+faq-question-bulk-trackerremoval-answer = Du kan bara aktivera borttagning av spårare på kontonivå — det tar antingen bort spårare från alla dina e-postmeddelanden, eller ingen av dem.
+faq-question-trackerremoval-breakage-question = Varför ser mina e-postmeddelanden trasiga ut?
+faq-question-trackerremoval-breakage-answer = Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder. När spåraren tas bort ser e-postmeddelandet ut som om det har formaterats fel eftersom bilder saknas. Detta kan inte åtgärdas för e-postmeddelanden du redan har fått. Om detta hindrar dig från att läsa dina e-postmeddelanden ordentligt, stäng av borttagning av spårare.
 
 ## Profile Page (Logged In)
 
@@ -515,6 +522,10 @@ profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
 profile-label-forwarded = Vidarebefordrat
 profile-label-replies = Svar
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Spårare borttagna
+profile-trackers-removed-tooltip-part1 = Med borttagning av spårare aktiverat kommer vanliga e-postspårare att tas bort från dina vidarebefordrade e-postmeddelanden.
+profile-trackers-removed-tooltip-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder.
 profile-label-cancel = Avbryt
 profile-blocked-copy-2 = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
@@ -522,9 +533,15 @@ profile-forwarded-note = Obs:
 profile-forwarded-note-copy = E-post (inklusive bilagor) större än { email-size-limit } stöds för närvarande inte och kommer inte att vidarebefordras.
 profile-forwarded-note-copy-v2 = E-post (inklusive bilagor) större än { email-size-limit } vidarebefordras inte.
 profile-replies-tooltip = Du kan svara på e-postmeddelanden som tas emot via detta alias och { -brand-name-firefox-relay } kommer att fortsätta att skydda din riktiga e-postadress.
+profile-stat-learn-more = Läs mer
+profile-stat-learn-more-close = Stäng
 profile-stat-label-blocked = E-postmeddelanden blockerade
 profile-stat-label-forwarded = E-postmeddelanden vidarebefordrade
 profile-stat-label-aliases-used-2 = E-postalias som används
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Spårare borttagna
+profile-stat-label-trackers-learn-more-part1 = Om du aktiverar borttagning av spårare tas vanliga e-postspårare bort från dina vidarebefordrade e-postmeddelanden.
+profile-stat-label-trackers-learn-more-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
 profile-filter-search-placeholder-2 = Sök efter e-postalias
 profile-filter-category-button-label = Filtrera synliga e-postalias
 profile-filter-category-button-tooltip = Filtrera alias efter underdomän och/eller om de för närvarande blockerar inkommande e-post
@@ -540,6 +557,9 @@ profile-filter-category-option-promo-blocking-masks = Alias som blockerar markna
 profile-filter-category-option-random-masks = Slumpmässiga e-postalias
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Anpassade e-postalias
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Status för borttagning av spårare
+profile-indicator-tracker-removal-tooltip = Tar för närvarande bort e-postspårare
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -686,6 +706,9 @@ modal-custom-alias-picker-form-prefix-label-2 = Ange prefix för e-postalias
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = t.ex. "kaffe"
+modal-custom-alias-picker-form-prefix-spaces-warning = Mellanslag är inte tillåtna i e-postalias.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-postalias kan bara innehålla små bokstäver, siffror och bindestreck och får inte börja eller sluta med ett bindestreck.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-postalias kan bara innehålla små bokstäver, siffror, punkter och bindestreck och får inte börja eller sluta med punkt eller bindestreck.
 modal-custom-alias-picker-form-submit-label-2 = Generera e-postalias
 modal-custom-alias-picker-creation-error-2 = Ditt anpassade e-postalias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till ditt alias för att skapa det.
 
@@ -767,8 +790,29 @@ multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } Rapport om borttagning av spårare
 trackerreport-meta-from-heading = Från
 trackerreport-meta-receivedat-heading = Mottaget av
+trackerreport-meta-count-heading = Totalt antal spårare
+trackerreport-trackers-heading = Upptäckta spårare
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Spårningsdomän
+trackerreport-trackers-count-heading = Antal spårare
+trackerreport-trackers-none = Inga spårare upptäcktes i detta e-postmeddelande.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 spårare
+       *[other] { $count } spårare
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 spårare
+       *[other] { $count } spårare
+    }
 
 ## Modals
 
