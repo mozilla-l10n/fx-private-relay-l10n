@@ -678,6 +678,7 @@ modal-custom-alias-picker-form-prefix-label-2 = 輸入轉寄信箱前綴
 modal-custom-alias-picker-form-prefix-placeholder = 例如「coffee」
 modal-custom-alias-picker-form-prefix-spaces-warning = 轉寄信箱名稱中不允許空白。
 modal-custom-alias-picker-form-prefix-invalid-warning = 轉寄信箱名稱僅可包含小寫字數、數字、連字號（－），且連字號不可位於開頭或結尾。
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = 轉寄信箱名稱僅可包含小寫字母、數字、小數點、連字號（－），且小數點與連字號不可位於開頭或結尾。
 modal-custom-alias-picker-form-submit-label-2 = 產生轉寄信箱
 modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉寄信箱，請再試一次，或直接寄信到該轉寄信箱即可建立。
 
