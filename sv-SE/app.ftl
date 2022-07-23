@@ -72,6 +72,7 @@ nav-settings = Inställningar
 nav-support = Hjälp och support
 nav-sign-out = Logga ut
 nav-contact = Kontakta oss
+nav-menu-mobile = Meny för mobila enheter
 fx-desktop-2 = { -brand-name-firefox } för datorer
 fx-mobile-2 = { -brand-name-firefox } för mobil
 
@@ -141,6 +142,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Uppgradera nu och få ännu mer skydd…
 whatsnew-feature-premium-expansion-description = Uppgradera nu och få ännu mer skydd — skapa obegränsade e-postalias, få en anpassad e-postdomän och mer!
+whatsnew-feature-tracker-removal-heading = Introducerar borttagning av e-postspårare
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från vidarebefordrade e-postmeddelanden...
+whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 
 ## Bento Menu
 
@@ -375,6 +382,9 @@ settings-api-key-description-bolded = Använd endast detta med appar som du lita
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klicka för att kopiera
 setting-api-key-copied = Kopierad!
+setting-tracker-removal-heading = Ta bort e-postspårare
+setting-tracker-removal-description = Ta bort e-postspårare i alla vidarebefordrade e-postmeddelanden.
+setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu ta bort vanliga spårare från e-postmeddelanden som vidarebefordras genom dina alias.
 
 ## FAQ Page
 
