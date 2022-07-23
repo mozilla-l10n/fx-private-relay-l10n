@@ -813,6 +813,17 @@ trackerreport-tracker-count =
         [one] 1 spårare
        *[other] { $count } spårare
     }
+trackerreport-confidentiality-notice = Spårningsinformation och från-adresser som visas i dessa rapporter sparas inte av { -brand-name-firefox-relay } och ingår endast i rapportens webbadresser. Vi sparar inte dina e-postmeddelanden.
+trackerreport-removal-explainer-heading = Så fungerar borttagning av spårare
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kan nu ta bort vanliga spårare från e-postmeddelanden som vidarebefordras via dina e-postalias. Du kommer fortfarande att få dina e-postmeddelanden, men spårarna i dina vidarebefordrade e-postmeddelanden kommer att tas bort, så att du kan få dina e-postmeddelanden utan att spåras. För att aktivera borttagning av spårare på alla dina alias samtidigt, aktivera borttagning av spårare i inställningarna snarare än individuellt för varje alias.
+trackerreport-trackers-explainer-heading = Om e-postspårare
+trackerreport-trackers-explainer-content-part1 = E-postspårning är ett vanligt övervaknings- och reklamverktyg som har tagit över många inkorgar. Dessa spårare kan användas för att förstå mer om ditt onlinebeteende, dina intressen och din e-postaktivitet.
+trackerreport-trackers-explainer-content-part2 = Ett företag eller en organisation kommer att bädda in en spårare i e-postmeddelanden som skickas till dig, vanligtvis gömda i en bild eller en länk. När e-postmeddelandet öppnas skickar koden i spåraren data tillbaka till företaget.
+trackerreport-breakage-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder, som inte laddas om de innehåller en spårare.
+trackerreport-faq-heading = De vanligaste frågorna om e-postspårare
+trackerreport-faq-cta = Se fler vanliga frågor om { -brand-name-firefox-relay }
+trackerreport-loading = Läser in din borttagningsrapport av spårare...
+trackerreport-load-error = Det uppstod ett fel när din rapport om borttagning av spårare genererades. Uppdatera sidan för att försöka igen.
 
 ## Modals
 
