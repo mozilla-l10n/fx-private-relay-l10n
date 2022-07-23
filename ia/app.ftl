@@ -704,6 +704,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Insere un prefixo de masca email
 modal-custom-alias-picker-form-prefix-placeholder = e.g. "caffe"
 modal-custom-alias-picker-form-prefix-spaces-warning = Spatios non es permittite in mascas email.
 modal-custom-alias-picker-form-prefix-invalid-warning = Mascas email pote solo continer litteras minusculas, numeros, e lineettas, e non pote initiar o finir con un tracto de union.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Mascas email pote solo continer litteras minusculas, numeros, punctos e lineettas, e non pote initiar o finir con un puncto o tracto de union.
 modal-custom-alias-picker-form-submit-label-2 = Generar masca
 modal-custom-alias-picker-creation-error-2 = Tu masca email personal non pote esser create manualmente. Retenta, o invia un email al masca pro crear lo.
 
