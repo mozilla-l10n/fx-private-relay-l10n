@@ -281,6 +281,7 @@ landing-use-cases-on-the-go-phone-body = Создавайте собственн
 landing-use-cases-signups = Регистрации
 landing-use-cases-signups-hero-heading = Регистрации без забот
 landing-use-cases-signups-hero-content1 = Хотите начать новую подписку, ответить на приглашение или получить выгодный промокод, не забивая спамом свой почтовый ящик?
+landing-use-cases-signups-hero-content2 = Прежде чем завершить следующую регистрацию, воспользуйтесь псевдонимом электронной почты вместо настоящей, чтобы защитить свою информацию и продолжать контролировать входящие сообщения.
 
 ## Landing FAQ Section
 
@@ -289,7 +290,16 @@ landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-fire
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = Дополнения
 landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Источник: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = из 5 ({ $review_count } отзывов)
+landing-reviews-show-next-button = показать следующий отзыв
+landing-reviews-show-previous-button = показать предыдущий отзыв
+landing-review-anonymous-user = Пользователь { -brand-name-firefox } { $user_id }
 
 ## Premium promo page
 
