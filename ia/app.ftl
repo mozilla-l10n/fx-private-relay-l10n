@@ -915,6 +915,10 @@ forwarded-email-header-premium-banner-2 = Promove a { $premium_link } pro haber 
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } traciatores de email removite
+forwarded-email-trackers-blocked-report = Pro saper plus
 # This entire text is a link
 forwarded-email-footer-2 = Cessar le reexpedition de email e gerer parametros pro tote le mascas.
 # This entire text is a link
