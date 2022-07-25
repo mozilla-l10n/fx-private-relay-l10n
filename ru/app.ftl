@@ -300,6 +300,7 @@ landing-reviews-rating = из 5 ({ $review_count } отзывов)
 landing-reviews-show-next-button = показать следующий отзыв
 landing-reviews-show-previous-button = показать предыдущий отзыв
 landing-review-anonymous-user = Пользователь { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Большое спасибо команде { -brand-name-mozilla } за творческий подход и за то, что я теперь могу легко скрывать свой адрес электронной почты. Это отличное расширение, и я настоятельно рекомендую его тем, кто беспокоится о своей приватности!
 
 ## Premium promo page
 
