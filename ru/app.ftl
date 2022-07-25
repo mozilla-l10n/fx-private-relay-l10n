@@ -338,6 +338,19 @@ premium-promo-pricing-free-price = Ваш текущий тарифный пла
 
 ## The Premium waitlist page
 
+waitlist-heading = Присоединяйтесь к списку ожидания { -brand-name-relay-premium }
+waitlist-lead = Получите уведомление, когда { -brand-name-firefox-relay-premium } станет доступным для вашего региона.
+waitlist-control-required = Обязательно
+waitlist-control-email-label = Какой у вас адрес электронной почты?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = В какой стране вы живёте?
+waitlist-control-locale-label = Выберите предпочитаемый язык.
+waitlist-submit-label = Присоединиться к списку ожидания
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = Нажимая «{ waitlist-submit-label }», вы соглашаетесь с нашей <a>Политикой конфиденциальности</a>.
+waitlist-privacy-policy-use = Предоставленная информация будет использована только для уведомления вас о доступности { -brand-name-firefox-relay-premium }.
 
 ## Settings page
 
