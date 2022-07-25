@@ -303,6 +303,9 @@ landing-review-anonymous-user = Пользователь { -brand-name-firefox }
 landing-review-user-one-review = Большое спасибо команде { -brand-name-mozilla } за творческий подход и за то, что я теперь могу легко скрывать свой адрес электронной почты. Это отличное расширение, и я настоятельно рекомендую его тем, кто беспокоится о своей приватности!
 landing-review-user-two-review = Простой инструмент, позволяющий избавиться от спама в вашем электронном почтовом ящике.
 landing-review-user-three-review = Обожаю это расширение! Очень простое, но при этом мощное, а интеграция с браузером просто невероятна.
+landing-review-user-four-review-list-1 = Позволяет не волноваться при работе в Интернете.
+landing-review-user-four-review-list-2 = Защищает личность от трекеров создавая псевдонимы, когда по разным причинам не хочется использовать настоящий адрес электронной почты.
+landing-review-user-four-review-list-3 = Данные электронного почтового ящика в безопасности с { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } творит чудеса, попробуйте!!!
 
 ## Premium promo page
