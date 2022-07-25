@@ -78,6 +78,15 @@ nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "geniti
 
 ## Mobile menu text
 
+menu-toggle-open = Открыть меню
+menu-toggle-close = Закрыть меню
+nav-dashboard = Панель управления
+nav-settings = Настройки
+nav-support = Справка и поддержка
+nav-sign-out = Выйти
+nav-contact = Связаться с нами
+fx-desktop-2 = { -brand-name-firefox } для компьютера
+fx-mobile-2 = { -brand-name-firefox } для мобильных устройств
 
 ## Footer
 
@@ -274,6 +283,7 @@ landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-fire
 
 ## Landing Reviews Section
 
+landing-reviews-logo-title = { -brand-name-firefox-browser }
 
 ## Premium promo page
 
