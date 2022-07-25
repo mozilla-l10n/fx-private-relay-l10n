@@ -712,6 +712,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Rhowch ragosodiad arallenw e-bos
 modal-custom-alias-picker-form-prefix-placeholder = e.e. "coffi"
 modal-custom-alias-picker-form-prefix-spaces-warning = Nid oes caniatâd i fylchau mewn arallenwau
 modal-custom-alias-picker-form-prefix-invalid-warning = Dim ond llythrennau bach, rhifau a chysylltiadau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chysylltnod.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Dim ond llythrennau bach, rhifau, cyfnodau a chysylltnodau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chyfnod na chysylltnod.
 modal-custom-alias-picker-form-submit-label-2 = Cynhyrchwch arallenw
 modal-custom-alias-picker-creation-error-2 = Nid oedd modd creu eich arallenw personol. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
 
