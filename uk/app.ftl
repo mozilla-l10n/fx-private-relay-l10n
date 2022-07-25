@@ -922,6 +922,10 @@ forwarded-email-header-premium-banner-2 = Передплатіть { $premium_li
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }. Докладніше: { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } елементи стеження електронної пошти вилучено
+forwarded-email-trackers-blocked-report = Докладніше
 # This entire text is a link
 forwarded-email-footer-2 = Припинити пересилання електронної пошти та керувати налаштуваннями всіма масками можна тут.
 # This entire text is a link
