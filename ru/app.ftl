@@ -78,6 +78,7 @@ nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "geniti
 
 ## Mobile menu text
 
+menu-upgrade-button = { -brand-name-premium }
 menu-toggle-open = Открыть меню
 menu-toggle-close = Закрыть меню
 nav-dashboard = Панель управления
