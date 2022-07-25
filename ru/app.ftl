@@ -719,6 +719,10 @@ multi-part-onboarding-premium-extension-get-title = Получите расши�
 multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
 multi-part-onboarding-premium-extension-button-download = Получить расширение { -brand-name-relay }
 multi-part-onboarding-premium-chrome-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-google-chrome }
+# Deprecated
+multi-part-onboarding-premium-chrome-extension-get-description = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов электронной почты ещё проще.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов электронной почты ещё проще.
+multi-part-onboarding-premium-chrome-extension-button-download = Получить расширение { -brand-name-relay }
 
 ## Report of trackers removed from an email
 
