@@ -672,6 +672,11 @@ tips-footer-link-feedback-label = Отзывы
 tips-footer-link-feedback-tooltip = Оставить отзыв
 tips-footer-link-support-label = Поддержка
 tips-footer-link-support-tooltip = Связаться с поддержкой
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Совет № { $nr }
+tips-toast-button-expand-label = Подробнее
 
 ## Modal for generating a custom mask
 
