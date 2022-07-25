@@ -687,6 +687,9 @@ modal-custom-alias-picker-form-prefix-label-2 = Введите префикс п
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = например, «coffee»
+modal-custom-alias-picker-form-prefix-spaces-warning = В псевдонимах электронной почты нельзя использовать пробелы.
+modal-custom-alias-picker-form-prefix-invalid-warning = Псевдонимы электронной почты могут содержать только строчные буквы, цифры и дефисы, при этом не начинаясь и не оканчиваясь дефисом.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Псевдонимы электронной почты могут содержать только строчные буквы, цифры и дефисы, при этом не начинаясь и не оканчиваясь точкой или дефисом.
 modal-custom-alias-picker-form-submit-label-2 = Создать псевдоним
 modal-custom-alias-picker-creation-error-2 = Не удалось создать пользовательский псевдоним электронной почты вручную. Пожалуйста, попробуйте ещё раз или отправьте письмо на этот псевдоним, чтобы создать его.
 
@@ -712,6 +715,10 @@ popover-custom-alias-explainer-close-button-label = Закрыть
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
+multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
+multi-part-onboarding-premium-extension-button-download = Получить расширение { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-google-chrome }
 
 ## Report of trackers removed from an email
 
