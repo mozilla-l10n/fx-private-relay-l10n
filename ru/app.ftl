@@ -513,12 +513,16 @@ profile-label-click-to-copy = Нажмите, чтобы скопировать
 profile-label-copied = Скопировано!
 profile-label-blocked = Заблокировано
 profile-label-forwarded = Переслано
+profile-label-replies = Ответов
 profile-label-cancel = Отмена
 profile-blocked-copy-2 = { -brand-name-firefox-relay } будет удалять сообщения прежде, чем они попадут в ваш почтовый ящик, если вы выберете блокировку для этого псевдонима.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } будет отправлять сообщения в ваш почтовый ящик, если вы выберете переадресацию для этого псевдонима.
 profile-forwarded-note = Примечание:
 profile-forwarded-note-copy = Письма размером более { email-size-limit } (включая вложения) сейчас не поддерживаются и не будут пересланы.
 profile-forwarded-note-copy-v2 = Письма размером более { email-size-limit } (включая вложения) не будут пересланы.
+profile-replies-tooltip = Вы можете отвечать на письма, полученные через этот псевдоним, а { -brand-name-firefox-relay } продолжит защищать ваш настоящий адрес электронной почты.
+profile-stat-learn-more = Подробнее
+profile-stat-learn-more-close = Закрыть
 profile-stat-label-blocked = Писем заблокировано
 profile-stat-label-forwarded = Писем переслано
 profile-stat-label-aliases-used-2 = Псевдонимов электронной почты использовано
@@ -554,6 +558,11 @@ profile-promo-email-blocking-label-promotionals = Блокировать рек�
 profile-promo-email-blocking-label-none = Блокировать всё
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Блокировка
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (только для { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Доступно для подписчиков { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-cta = Перейти сейчас
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Присоединиться к списку ожидания { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Закрыть
 
 ## Banner Messages (displayed on the profile page)
 
@@ -576,6 +585,7 @@ banner-download-install-extension-cta = Добавить { -brand-name-relay } �
 banner-download-install-chrome-extension-headline = Попробуйте { -brand-name-relay } для { -brand-name-google-chrome }
 # Deprecated
 banner-download-install-chrome-extension-copy = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов ещё проще.
+banner-download-install-chrome-extension-copy-2 = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов ещё проще.
 banner-download-install-chrome-extension-cta = Получить расширение { -brand-name-relay }
 banner-upgrade-headline = Переходите на { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } делает создание псевдонимов электронной почты ещё проще, предоставляя пользовательские поддомены и неограниченное число псевдонимов.
@@ -612,6 +622,12 @@ banner-label-data-notification-header = Скоро в { -brand-name-relay }
 banner-label-data-notification-cta = Перейти в настройки
 banner-label-data-notification-header-v2 = Включить новые функции
 banner-label-data-notification-body-cta = Подробнее
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = Защитите свою приватность, спасите Интернет
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = Защитите свою приватность всего за { $monthly_price }, присоединившись к нашей миссии по созданию лучшего Интернета
+banner-upgrade-loyalist-cta = Получить больше защиты
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Вы можете создать любой адрес @{ $subdomain }
