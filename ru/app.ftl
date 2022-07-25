@@ -271,12 +271,16 @@ landing-use-cases-shopping-hero-content1 = Хотите купить что-то
 landing-use-cases-shopping-hero-content2 = Воспользуйтесь псевдонимом электронной почты, когда совершаете покупки в Интернете. Получите подтверждение на свой настоящий электронный адрес, а затем легко отключайте псевдоним в любой момент.
 landing-use-cases-on-the-go = На ходу
 landing-use-cases-on-the-go-heading = На ходу с { -brand-name-relay }
-landing-use-cases-on-the-go-lead = Мгновенно создавайте собственные псевдонимы электронной почты, где бы вы ни находились и куда бы ни направлялись!
+landing-use-cases-on-the-go-lead = Мгновенно создавайте собственные псевдонимы электронной почты, где бы ни находились и куда бы ни направлялись!
 landing-use-cases-on-the-go-connect-heading = Подключайтесь на ходу
 landing-use-cases-on-the-go-connect-body = Воспользуйтесь псевдонимом электронной почты, когда хотите приватно войти в Интернет в своей любимой кофейне или подключиться к общедоступной сети Wi-Fi
 landing-use-cases-on-the-go-receipt-heading = Получайте квитанции по электронной почте
 landing-use-cases-on-the-go-receipt-body = Используйте псевдоним электронной почты, чтобы получать квитанции о покупках в магазинах, не раскрывая свою настоящую электронную почту
 landing-use-cases-on-the-go-phone-heading = Используйте на телефоне
+landing-use-cases-on-the-go-phone-body = Создавайте собственные псевдонимы электронной почты для чего угодно за считанные секунды, где бы ни находились
+landing-use-cases-signups = Регистрации
+landing-use-cases-signups-hero-heading = Регистрации без забот
+landing-use-cases-signups-hero-content1 = Хотите начать новую подписку, ответить на приглашение или получить выгодный промокод, не забивая спамом свой почтовый ящик?
 
 ## Landing FAQ Section
 
