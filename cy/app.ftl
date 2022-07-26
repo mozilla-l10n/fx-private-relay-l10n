@@ -931,6 +931,10 @@ forwarded-email-header-premium-banner-2 = Uwchraddiwch i { $premium_link } i gae
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } traciwr e-bost wedi'u dileu
+forwarded-email-trackers-blocked-report = Dysgu rhagor
 # This entire text is a link
 forwarded-email-footer-2 = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
 # This entire text is a link
