@@ -878,6 +878,10 @@ forwarded-email-header-premium-banner-2 = 升級到 { $premium_link } 即可獲�
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）。若需詳細資訊，請參考我們的 { $faq_link }。
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = 已移除 { $nr_blocked_trackers } 組電子郵件追蹤器
+forwarded-email-trackers-blocked-report = 了解更多
 # This entire text is a link
 forwarded-email-footer-2 = 點擊此處即可停止轉寄郵件或管理轉寄信箱設定。
 # This entire text is a link
