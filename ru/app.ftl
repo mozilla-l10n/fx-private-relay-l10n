@@ -86,6 +86,7 @@ nav-settings = Настройки
 nav-support = Справка и поддержка
 nav-sign-out = Выйти
 nav-contact = Связаться с нами
+nav-menu-mobile = Мобильное меню
 fx-desktop-2 = { -brand-name-firefox } для компьютера
 fx-mobile-2 = { -brand-name-firefox } для мобильных устройств
 
@@ -151,6 +152,7 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } доступен в Швеции
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } доступен в Финляндии
+whatsnew-feature-tracker-removal-heading = Представляем средство защиты эл. почты от отслеживания
 
 ## Bento Menu
 
@@ -716,6 +718,7 @@ popover-custom-alias-explainer-close-button-label = Закрыть
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
 multi-part-onboarding-premium-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
 multi-part-onboarding-premium-extension-button-download = Получить расширение { -brand-name-relay }
