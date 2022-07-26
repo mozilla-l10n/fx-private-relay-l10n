@@ -919,6 +919,10 @@ forwarded-email-header-premium-banner-2 = Frissítsen a { $premium_link } szolg�
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja. További információkért lásd a { $faq_link } oldalunkat.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-mail-követő eltávolítva
+forwarded-email-trackers-blocked-report = További tudnivalók
 # This entire text is a link
 forwarded-email-footer-2 = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes maszk beállításait.
 # This entire text is a link
