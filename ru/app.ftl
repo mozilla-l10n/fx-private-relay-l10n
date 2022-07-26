@@ -152,7 +152,10 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } доступен в Швеции
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } доступен в Финляндии
-whatsnew-feature-tracker-removal-heading = Представляем средство защиты эл. почты от отслеживания
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = Переходите сейчас и получите ещё больше защиты…
 
 ## Bento Menu
 
