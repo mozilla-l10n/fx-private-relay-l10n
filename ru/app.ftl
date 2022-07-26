@@ -156,6 +156,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Переходите сейчас и получите ещё больше защиты…
+whatsnew-feature-premium-expansion-description = Переходите сейчас и получите ещё больше защиты — создавайте неограниченное число псевдонимов электронной почты, получите собственный поддомен и не только!
 
 ## Bento Menu
 
@@ -706,6 +707,10 @@ popover-custom-alias-explainer-explanation-2 = Всё, что вам нужно 
 popover-custom-alias-explainer-generate-button-heading-2 = Создайте собственный псевдоним вручную
 popover-custom-alias-explainer-generate-button-label-2 = Создать собственный псевдоним
 popover-custom-alias-explainer-close-button-label = Закрыть
+# Checkbox the user can click to adjust the block level of the new mask
+popover-custom-alias-explainer-promotional-block-checkbox = Блокировать рекламные письма
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Включите блокировку рекламных писем для псевдонима, чтобы такие электронные письма не попадали в ваш почтовый ящик.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Подробнее
 
 ## Tip about using custom masks
 
