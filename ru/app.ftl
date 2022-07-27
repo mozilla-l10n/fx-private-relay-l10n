@@ -275,7 +275,7 @@ landing-use-cases-gaming-body-2 =
     Воспользуйтесь псевдонимом электронной почты, чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
 landing-use-cases-shopping-hero-heading = Покупки с псевдонимами электронной почты
 landing-use-cases-shopping-hero-content1 = Хотите купить что-то в Интернете, но не знаете магазин или не полностью ему доверяете?
-landing-use-cases-shopping-hero-content2 = Воспользуйтесь псевдонимом электронной почты, когда совершаете покупки в Интернете. Получите подтверждение на свой настоящий электронный адрес, а затем легко отключайте псевдоним в любой момент.
+landing-use-cases-shopping-hero-content2 = Воспользуйтесь псевдонимом электронной почты, когда совершаете покупки в Интернете. Получите подтверждение на свой настоящий электронный адрес, а затем легко отключите псевдоним в любой момент.
 landing-use-cases-on-the-go = На ходу
 landing-use-cases-on-the-go-heading = На ходу с { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Мгновенно создавайте собственные псевдонимы электронной почты, где бы ни находились и куда бы ни направлялись!
@@ -752,6 +752,13 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Создавайте 
 multi-part-onboarding-premium-welcome-button-start = Приступим
 multi-part-onboarding-premium-get-subdomain = Получите собственный поддомен
 multi-part-onboarding-reply-headline = Отвечайте на электронные письма
+multi-part-onboarding-premium-welcome-description-2 = Больше никакого ограничения в пять псевдонимов: теперь вы можете создавать сколько угодно собственных или случайных псевдонимов. На компьютере вы можете использовать дополнение { -brand-name-relay }, чтобы создавать их на ходу.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (.mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3 =
+    С собственным поддоменом вы можете использовать псевдонимы, не создавая их
+    заранее.
+    Нужен псевдоним для подписки на новостную рассылку? Просто воспользуйтесь «read@customsubdomain{ $mozmail }»
 multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
 multi-part-onboarding-premium-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
