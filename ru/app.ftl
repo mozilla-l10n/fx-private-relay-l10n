@@ -726,9 +726,12 @@ tips-promo-email-blocking-content = С { -brand-name-relay-premium } вы мож
 
 onboarding-headline-2 = Создайте свой первый псевдоним электронной почты
 onboarding-alias-tip-1-2 = Выберите «Создать новый псевдоним», чтобы создать свой первый псевдоним электронной почты.
+onboarding-alias-tip-2 = При использовании расширения { -brand-name-relay } выберите значок { -brand-name-firefox-relay }, когда он появится в поле для ввода электронной почты.
+onboarding-alias-tip-3-2 = При использовании расширения { -brand-name-relay } щёлкните правой кнопкой мыши по полю формы и выберите «Создать новый псевдоним».
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Добро пожаловать в { -brand-name-firefox } { -brand-name-relay-premium }
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
