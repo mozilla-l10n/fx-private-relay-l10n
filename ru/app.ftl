@@ -780,6 +780,12 @@ multi-part-onboarding-premium-extension-button-dashboard = Перейти на �
 ## Modals
 
 modal-rename-alias-saved = Метка сохранена!
+modal-delete-headline-2 = Удалить этот псевдоним электронной почты навсегда?
+# Variables:
+#   $email (string) - The relay mask (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Если вы удалите этот псевдоним, его нельзя будет восстановить.
+    { -brand-name-firefox-relay } больше не будет пересылать сообщения, отправленные на <strong>{ $email }</strong>, в том числе и сообщения, позволяющие вам восстановить забытые пароли.
 
 ## Evergreen Survey (displayed on the profile page)
 
