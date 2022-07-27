@@ -736,10 +736,22 @@ onboarding-premium-feature-intro = C { -brand-name-firefox } { -brand-name-relay
 onboarding-premium-control-title = Контролировать, какие электронные письма получаете
 onboarding-premium-control-description-2 = Использовать неограниченное число псевдонимов электронной почты, которые пересылают действительно нужные письма в ваш почтовый ящик.
 onboarding-premium-domain-title-3 = Использовать псевдонимы с собственным поддоменом:
+onboarding-premium-reply-title-2 = Отвечать на электронные письма, не раскрывая свой настоящий адрес
+onboarding-premium-reply-description-2 = Нужно ответить на электронные письма, отправленные на псевдоним? Просто отвечайте как обычно — псевдоним по-прежнему будет защищать ваш адрес электронной почты.
 onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы можете:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Шаг { $step } из { $max }.
+multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-title = Контролируйте, какие электронные письма получаете:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Создавайте неограниченное число псевдонимов электронной почты:
+multi-part-onboarding-premium-welcome-button-start = Приступим
+multi-part-onboarding-premium-get-subdomain = Получите собственный поддомен
+multi-part-onboarding-reply-headline = Отвечайте на электронные письма
 multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
 multi-part-onboarding-premium-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
