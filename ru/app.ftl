@@ -759,6 +759,8 @@ multi-part-onboarding-premium-get-domain-description-3 =
     С собственным поддоменом вы можете использовать псевдонимы, не создавая их
     заранее.
     Нужен псевдоним для подписки на новостную рассылку? Просто воспользуйтесь «read@customsubdomain{ $mozmail }»
+multi-part-onboarding-premium-domain-cta-2 = Зарегистрируйте собственный поддомен сейчас:
+multi-part-onboarding-premium-domain-button-skip-2 = Продолжить, я зарегистрирую собственный поддомен позже
 multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
 multi-part-onboarding-premium-extension-get-title = Получите расширение { -brand-name-relay } для { -brand-name-firefox }
 multi-part-onboarding-premium-extension-get-description-2 = Расширение { -brand-name-relay } для { -brand-name-firefox } делает использование псевдонимов электронной почты ещё проще.
@@ -768,12 +770,16 @@ multi-part-onboarding-premium-chrome-extension-get-title = Получите ра
 multi-part-onboarding-premium-chrome-extension-get-description = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов электронной почты ещё проще.
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов электронной почты ещё проще.
 multi-part-onboarding-premium-chrome-extension-button-download = Получить расширение { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Продолжить, я загружу расширение позже
+multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
+multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
 
 ## Report of trackers removed from an email
 
 
 ## Modals
 
+modal-rename-alias-saved = Метка сохранена!
 
 ## Evergreen Survey (displayed on the profile page)
 
