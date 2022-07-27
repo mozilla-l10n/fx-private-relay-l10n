@@ -732,6 +732,11 @@ onboarding-alias-tip-3-2 = При использовании расширени�
 ## Premium Onboarding
 
 onboarding-premium-headline = Добро пожаловать в { -brand-name-firefox } { -brand-name-relay-premium }
+onboarding-premium-feature-intro = C { -brand-name-firefox } { -brand-name-relay-premium } вы можете:
+onboarding-premium-control-title = Контролировать, какие электронные письма получаете
+onboarding-premium-control-description-2 = Использовать неограниченное число псевдонимов электронной почты, которые пересылают действительно нужные письма в ваш почтовый ящик.
+onboarding-premium-domain-title-3 = Использовать псевдонимы с собственным поддоменом:
+onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы можете:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
