@@ -176,8 +176,8 @@ whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame a
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
-whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } dostupná vo Švédsku
-whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } dostupná vo Fínsku
+whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } je dostupná vo Švédsku
+whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } je dostupná vo Fínsku
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
@@ -348,8 +348,8 @@ premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { 
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete inovovať na { -brand-name-relay-premium } len za { $monthly_price } mesačne.</b>
 premium-promo-hero-cta = Inovovať teraz
-premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švajčiarsku, Veľkej Británii a USA.
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Novom Zélande, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
+premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
@@ -457,8 +457,8 @@ faq-question-1-answer-a-2 = Aj keď { -brand-name-relay } nefiltruje nevyžiadan
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich masiek, <a href="{ $url }" { $attrs }> nahláste nám to </a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
-faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku.
-faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, a Írsku.
+faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
+faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
 faq-question-4-question-2 = Môžem odpovedať na správy pomocou svojej e-mailovej masky { -brand-name-relay }?
 faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
@@ -554,6 +554,8 @@ profile-forwarded-note = Poznámka:
 profile-forwarded-note-copy = E-maily (vrátane príloh) väčšie ako { email-size-limit } nie sú v súčasnosti podporované a nebudú preposielané.
 profile-forwarded-note-copy-v2 = E-maily (vrátane príloh) väčšie ako { email-size-limit } nebudú preposielané.
 profile-replies-tooltip = Môžete odpovedať na e-maily prijaté prostredníctvom tejto masky a { -brand-name-firefox-relay } bude naďalej chrániť vašu skutočnú e-mailovú adresu.
+profile-stat-learn-more = Ďalšie informácie
+profile-stat-learn-more-close = Zavrieť
 profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used-2 = Použité e-mailové masky
@@ -892,6 +894,7 @@ forwarded-email-header-premium-banner-2 = Inovujte na { $premium_link } a získa
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
+forwarded-email-trackers-blocked-report = Ďalšie informácie
 # This entire text is a link
 forwarded-email-footer-2 = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky masky.
 # This entire text is a link
