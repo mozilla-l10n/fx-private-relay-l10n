@@ -468,6 +468,7 @@ faq-question-disable-trackerremoval-question = Puis-je arrêter de supprimer les
 faq-question-disable-trackerremoval-answer = Oui. Si vous avez des soucis avec des e-mails qui s’affichent mal ou si vous souhaitez arrêter la suppression des traqueurs, vous pouvez désactiver la fonctionnalité dans les paramètres.
 faq-question-bulk-trackerremoval-question = Puis-je supprimer les traqueurs seulement sur certains de mes alias de messagerie ?
 faq-question-bulk-trackerremoval-answer = Vous ne pouvez activer la suppression des traqueurs qu’au niveau du compte — soit les supprimer sur toutes vos adresses e-mail, soit sur aucune.
+faq-question-trackerremoval-breakage-question = Que faire si mes e-mails semblent cassés ?
 faq-question-trackerremoval-breakage-answer = Quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Quand le traqueur est supprimé, l’e-mail semble être mal formaté car il y manque ces images. Il n’est pas possible de corriger cela pour des e-mails déjà reçus. Si cette fonctionnalité vous empêche de lire correctement vos e-mails, désactivez la suppression des traqueurs.
 
 ## Profile Page (Logged In)
@@ -903,6 +904,7 @@ forwarded-email-header-premium-banner-2 = Passez à { $premium_link } pour obten
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
+forwarded-email-trackers-blocked-report = En savoir plus
 # This entire text is a link
 forwarded-email-footer-2 = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
 # This entire text is a link
