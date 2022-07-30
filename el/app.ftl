@@ -785,6 +785,7 @@ trackerreport-tracker-count =
        *[other] { $count } ιχνηλάτες
     }
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
+trackerreport-faq-heading = Συνήθεις ερωτήσεις για τους ιχνηλάτες email
 
 ## Modals
 
@@ -881,6 +882,7 @@ forwarded-email-header-premium-banner-2 = Αναβαθμίστε στο { $premi
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
+forwarded-email-trackers-blocked-report = Μάθετε περισσότερα
 # This entire text is a link
 forwarded-email-footer-2 = Διακόψτε την προώθηση email και διαχειριστείτε τις ρυθμίσεις για όλες τις μάσκες εδώ.
 # This entire text is a link
