@@ -766,6 +766,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Αναφορά αφαίρεσης ιχνηλατών { -brand-name-relay }
 trackerreport-meta-from-heading = Από
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Τομέας ιχνηλάτη
