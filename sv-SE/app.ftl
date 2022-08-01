@@ -146,7 +146,7 @@ whatsnew-feature-tracker-removal-heading = Introducerar borttagning av e-postsp�
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från vidarebefordrade e-postmeddelanden...
+whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från vidarebefordrade e-postmeddelanden…
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 
 ## Bento Menu
@@ -822,7 +822,7 @@ trackerreport-trackers-explainer-content-part2 = Ett företag eller en organisat
 trackerreport-breakage-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder, som inte laddas om de innehåller en spårare.
 trackerreport-faq-heading = De vanligaste frågorna om e-postspårare
 trackerreport-faq-cta = Se fler vanliga frågor om { -brand-name-firefox-relay }
-trackerreport-loading = Läser in din borttagningsrapport av spårare...
+trackerreport-loading = Läser in din borttagningsrapport av spårare…
 trackerreport-load-error = Det uppstod ett fel när din rapport om borttagning av spårare genererades. Uppdatera sidan för att försöka igen.
 
 ## Modals
