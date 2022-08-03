@@ -723,7 +723,7 @@ faq-question-detect-promotional-answer = Mnoho e-mailů je odesíláno s metadat
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vítejte,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
-profile-promo-upgrade-headline = Upgradujte pro ještě více funkcí.
+profile-promo-upgrade-headline = Upgradujte a získejte ještě více funkcí.
 profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
 profile-details-expand = Zobrazit podrobnosti o masce
 profile-details-collapse = Skrýt podrobnosti o masce
@@ -733,7 +733,7 @@ profile-details-collapse = Skrýt podrobnosti o masce
 profile-label-click-to-copy-alt = Klepnutím zkopírujete masku { $address } do schránky.
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Přidat název účtu
-profile-label-saved = Štítek uložen!
+profile-label-saved = Popisek uložen!
 profile-label-generate-new-alias-2 = Vygenerovat novou masku
 profile-label-delete = Smazat
 profile-label-reset = Obnovit
@@ -771,9 +771,9 @@ profile-promo-email-blocking-option-promotionals = Propagační
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Žádné
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všechny e-maily odeslané na tuto masku.
-profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat propagační e-maily zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat propagační e-maily, zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žádné e-maily odeslané na tuto masku.
-profile-promo-email-blocking-label-promotionals = Blokovat propagace
+profile-promo-email-blocking-label-promotionals = Blokovat propagační e-maily
 profile-promo-email-blocking-label-none = Blokovat vše
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (pouze { -brand-name-premium })
@@ -793,7 +793,7 @@ banner-bounced-copy =
     Tato situace mohla nastat z důvodu, že se { -brand-name-relay } nemůže spojit s poskytovatelem e-mailové schránky, nebo pokud je vaše schránka plná. Zkusíme to znovu dne { $date }.
 banner-download-firefox-headline = { -brand-name-relay } je ještě lepší v kombinaci s { -brand-name-firefox(case: "ins") }
 banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
-banner-download-install-extension-headline = Získat rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
+banner-download-install-extension-headline = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-copy-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje používání e-mailových masek.
 banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc") } do { -brand-name-firefox(case: "gen") }
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
@@ -806,7 +806,7 @@ success-settings-update = Vaše nastavení bylo aktualizováno.
 success-signed-out-message = Byli jste odhlášeni.
 # Variables:
 #   $username (url) - Username of the current user
-success-signed-in-message = Byli jste úspěšně přihlášeni jako { $username }.
+success-signed-in-message = Úspěšně jste se přihlásili jako { $username }.
 
 ## Error Messages
 
