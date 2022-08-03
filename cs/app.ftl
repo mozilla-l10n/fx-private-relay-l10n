@@ -513,6 +513,13 @@ landing-reviews-rating =
     }
 landing-reviews-show-next-button = zobrazit další recenzi
 landing-reviews-show-previous-button = zobrazit předchozí recenzi
+landing-review-user-one-review = Velmi oceňuji tým { -brand-name-mozilla(case: "gen") } za to, že byl tak kreativní a zjednodušil anonymizaci mé e-mailové adresy. Je to skvělé rozšíření, vřele ho doporučuji těm, kteří si zakládají na soukromí!
+landing-review-user-two-review = Jednoduchý nástroj, jak se zbavit nebo vyhnout spamování vaší poštovní schránky.
+landing-review-user-three-review = Miluju tohle rozšíření! Velmi jednoduché, ale výkonné a integrace s prohlížečem je úžasná.
+landing-review-user-four-review-list-1 = Přináší klid na duši při surfování na internetu.
+landing-review-user-four-review-list-2 = Chrání totožnost před sledovacími subjekty prostřednictvím vytváření aliasů v případech, kdy člověk z různých důvodů nechce sdílet svou skutečnou e-mailovou adresu.
+landing-review-user-four-review-list-3 = Data e-mailové schránky jsou v rukou { -brand-name-firefox-relay(case: "gen") } v bezpečí.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } dělá pravé divy, určitě ho vyzkoušejte!!!
 
 ## Premium promo page
 
@@ -609,6 +616,8 @@ settings-button-save-label = Uložit
 settings-button-save-tooltip = Použijte zvolená nastavení.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API klíč
+settings-api-key-description = Toto je váš API klíč pro { -brand-name-relay(case: "acc") }. Umožňuje ostatním aplikacím automatický přístup k vašemu účtu { -brand-name-relay }.
+settings-api-key-description-bolded = Používejte ho pouze u aplikací, kterým důvěřujete natolik, že za vás budou moci přistupovat k vašemu účtu { -brand-name-relay }.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klepnutím zkopírujete do schránky
 setting-api-key-copied = Zkopírováno!
@@ -672,6 +681,41 @@ faq-question-availability-answer-v2 =
         [neuter] Neplacená varianta { -brand-name-relay(case: "gen") } je dostupná ve většině zemí. { -brand-name-relay-premium } je dostupné ve Spojených státech, Německu, Spojeném království, Kanadě, Singapuru, Malajsii, Novém Zélandu, Finsku, Francii, Belgii, Rakousku, Španělsku, Itálii, Švédsku, Švýcarsku, Nizozemsku a v Irsku.
        *[other] Neplacená varianta { -brand-name-relay(case: "gen") } je dostupná ve většině zemí. Služba { -brand-name-relay-premium } je dostupná ve Spojených státech, Německu, Spojeném království, Kanadě, Singapuru, Malajsii, Novém Zélandu, Finsku, Francii, Belgii, Rakousku, Španělsku, Itálii, Švédsku, Švýcarsku, Nizozemsku a v Irsku.
     }
+faq-question-4-question-2 = Mohu odpovídat na zprávy pomocí masky { -brand-name-relay }?
+faq-question-4-answer-v4 = Uživatelé { -brand-name-relay-premium(case: "gen") } mohou na přeposlaný e-mail odpovědět do 3 měsíců od jeho obdržení. Pokud při odpovídání na e-mail přidáte adresáta kopie nebo skryté kopie, bude příjemci a adresátům kopií odhalena vaše původní e-mailová adresa. Pokud si nepřejete, aby byla vaše původní e-mailová adresa odhalena, nepřidávejte při odpovídání adresáty kopie ani skryté kopie.
+faq-question-subdomain-characters-question = Jaké znaky mohu použít k vytvoření subdomény?
+faq-question-subdomain-characters-answer-v2 = K vytvoření subdomény můžete použít pouze malá anglická písmena, čísla a pomlčky.
+faq-question-browser-support-question = Mohu { -brand-name-relay(case: "acc") } používat i v jiných prohlížečích nebo na mobilním zařízení?
+faq-question-browser-support-answer-2 = Ano, masky { -brand-name-relay } můžete vytvářet i v jiných prohlížečích nebo na mobilních zařízeních, stačí se přihlásit do své nástěnky { -brand-name-relay }.
+faq-question-longevity-question = Co se stane, když Mozilla službu { -brand-name-firefox-relay } vypne?
+faq-question-longevity-answer-2 = S předstihem vás upozorníme, že je třeba změnit e-mailovou adresu všech účtů, které používají e-mailové masky { -brand-name-relay }.
+faq-question-mozmail-question-2 = Proč moje e-mailové masky začaly používat doménu „mozmail.com?“
+faq-question-mozmail-answer-2 = Přešli jsme z domény „relay.firefox.com“ na doménu „mozmail.com“, abychom uživateli umožnili získat vlastní e-mailovou subdoménu, například maska@vase-domena.mozmail.com. Vlastní e-mailové subdomény, které jsou k dispozici předplatitelům { -brand-name-relay-premium(case: "gen") }, umožňují vytvářet snadněji zapamatovatelné e-mailové masky.
+faq-question-attachments-question = Bude { -brand-name-firefox-relay } přeposílat e-maily s přílohami?
+faq-question-attachments-answer-v2 = Nyní podporujeme přeposílání příloh. Pro přeposílání e-mailů pomocí { -brand-name-relay(case: "gen") } je však stanoven limit { email-size-limit }. E-maily s velikostí větší než { email-size-limit } nebudou přeposlány.
+faq-question-unsubscribe-domain-question-2 = Co se stane s mou vlastní subdoménou, když se odhlásím z { -brand-name-relay-premium(case: "gen") }?
+faq-question-unsubscribe-domain-answer-2 = Pokud přejdete z placené varianty { -brand-name-relay-premium } zpět na neplacenou, budete nadále dostávat e-maily přeposílané prostřednictvím vlastních e-mailových masek, ale nebudete již moci vytvářet nové masky s použitím této subdomény. Jestliže máte celkově vytvořeno více než pět masek, nebudete moci vytvářet další. Ztratíte také možnost odpovídat na přeposlané zprávy. Můžete si ale znovu předplatit variantu { -brand-name-relay-premium(case: "acc") } a opět k těmto funkcím získat přístup.
+faq-question-8-question = Jaké údaje { -brand-name-firefox-relay } shromažďuje?
+# Variables:
+#   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-8-answer-2-html = Bližší informace o údajích, které { -brand-name-firefox-relay } shromažďuje, naleznete v našem <a href="{ $url }" { $attrs }>Oznámení o ochraně osobních údajů</a>. Volitelně také můžete sdílet údaje o popiscích a webu, který používáte pro své e-mailové masky, abychom vám mohli tuto službu poskytovat a vylepšovat ji.
+faq-question-email-storage-question = Uchovává si { -brand-name-relay } mé e-maily?
+faq-question-email-storage-answer = Ve výjimečných případech, kdy je služba mimo provoz, si můžeme vaše e-maily dočasně uchovávat, dokud je nebudeme moci odeslat. Vaše e-maily si nikdy neuchováváme déle než tři dny.
+faq-question-acceptable-use-question = Jaká jsou přijatelná použití { -brand-name-relay(case: "gen") }?
+#   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-a-html = Pro službu { -brand-name-firefox-relay } platí stejné <a href="{ $url }" { $attrs }>podmínky používání jako pro všechny produkty { -brand-name-mozilla(case: "gen") }</a>. Pokud jde o používání { -brand-name-relay(case: "gen") } ke škodlivým účelům jako je třeba spam, uplatňujeme politiku nulové tolerance, což má za následek zrušení uživatelského účtu. Přijímáme opatření, abychom uživatelům zabránili v porušování našich podmínek tím, že:
+faq-question-acceptable-use-answer-measure-account = Vyžadujeme { -brand-name-firefox-account(case: "acc") } s ověřenou e-mailovou adresou
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Za vytvoření více než pěti masek požadujeme od uživatele platbu
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Omezujeme počet masek, které lze vytvořit za jeden den
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Další informace naleznete v našich <a href="{ $url }" { $attrs }>podmínkách používání služby</a>.
+faq-question-promotional-email-blocking-question = Co je to blokování propagačních e-mailů?
+faq-question-promotional-email-blocking-answer = Předplatitelé { -brand-name-relay-premium(case: "gen") } mohou zapnout blokování propagačních e-mailů. Tato funkce vám bude přeposílat důležité e-maily, jako např. účtenky, obnovení hesla a různá potvrzení, a zároveň bude blokovat marketingové zprávy. Existuje však částečné riziko, že může být zablokována i nějaká důležitá zpráva, a proto doporučujeme, abyste tuto funkci nepoužívali pro velmi důležitá místa, například pro banku. Pokud je e-mail zablokován, nelze ho už získat zpět.
+faq-question-detect-promotional-question = Jak { -brand-name-relay } zjistí, jestli je e-mail propagační nebo ne?
+faq-question-detect-promotional-answer = Mnoho e-mailů je odesíláno s metadaty v záhlaví, která uvádějí, že pocházejí z automatizovaných nástrojů založených na seznamech adres. { -brand-name-firefox-relay } tato data rozpoznává a může tak tyto e-maily blokovat.
 
 ## Profile Page (Logged In)
 
@@ -681,7 +725,16 @@ profile-label-welcome-html = <span>Vítejte,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } podporuje přeposílání e-mailů do velikosti { email-size-limit } (včetně příloh).
 profile-promo-upgrade-headline = Upgradujte pro ještě více funkcí.
 profile-promo-upgrade-cta = Upgradujte { -brand-name-relay(case: "acc") }
+profile-details-expand = Zobrazit podrobnosti o masce
+profile-details-collapse = Skrýt podrobnosti o masce
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Klepnutím zkopírujete masku { $address } do schránky.
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
+profile-label-placeholder = Přidat název účtu
 profile-label-saved = Štítek uložen!
+profile-label-generate-new-alias-2 = Vygenerovat novou masku
 profile-label-delete = Smazat
 profile-label-reset = Obnovit
 # This string is followed by an email address
@@ -695,18 +748,37 @@ profile-label-details-hide = Skrýt podrobnosti
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = přeposílání
 profile-label-blocking = blokování
+profile-label-click-to-copy = Klepnutím zkopírujete do schránky
 profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
 profile-label-forwarded = Přeposláno
 profile-label-cancel = Zrušit
+profile-blocked-copy-2 = Pokud pro tuto masku vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě předtím, než se dostanou do vaší e-mailové schránky.
+profile-forwarded-copy-2 = Pokud vyberete pro tuto masku přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
 profile-forwarded-note = Poznámka:
 profile-forwarded-note-copy = E-maily (včetně příloh) větší, než { email-size-limit } nyní nejsou podporovány a nebudou přeposlány.
 profile-stat-label-blocked = E-maily blokovány
 profile-stat-label-forwarded = E-maily přeposílány
+profile-filter-search-placeholder-2 = Vyhledat masku
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Jaké e-maily chcete blokovat?
+# Block all emails sent to a speciic mask
+profile-promo-email-blocking-option-all = Všechny
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotionals = Propagační
+# Allow/forward all emails sent to a speciic mask
+profile-promo-email-blocking-option-none = Žádné
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všechny e-maily odeslané na tuto masku.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat propagační e-maily zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žádné e-maily odeslané na tuto masku.
+profile-promo-email-blocking-label-promotionals = Blokovat propagace
+profile-promo-email-blocking-label-none = Blokovat vše
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (pouze { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Pro předplatitele { -brand-name-relay-premium(case: "gen") }
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 
 ## Banner Messages (displayed on the profile page)
 
@@ -722,6 +794,7 @@ banner-bounced-copy =
 banner-download-firefox-headline = { -brand-name-relay } je ještě lepší v kombinaci s { -brand-name-firefox(case: "ins") }
 banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-headline = Získat rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
+banner-download-install-extension-copy-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje používání e-mailových masek.
 banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc") } do { -brand-name-firefox(case: "gen") }
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
@@ -729,6 +802,11 @@ banner-pack-upgrade-cta = Upgradujte
 
 ## Success Messages
 
+success-settings-update = Vaše nastavení bylo aktualizováno.
+success-signed-out-message = Byli jste odhlášeni.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = Byli jste úspěšně přihlášeni jako { $username }.
 
 ## Error Messages
 
@@ -764,9 +842,21 @@ error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } není d
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
 
+## Report of trackers removed from an email
+
+
 ## Modals
 
 modal-rename-alias-saved = Štítek uložen
+modal-delete-headline-2 = Chcete tuto masku trvale smazat?
+# Variables:
+#   $email (string) - The relay mask (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Jakmile tuto masku smažete, nebude ji už možné obnovit.
+    { -brand-name-firefox-relay } přestane přeposílat zprávy odeslané na adresu <strong>{ $email }</strong>. To zahrnuje i zprávy, které vám umožní obnovit zapomenutá hesla.
+modal-delete-warning-upgrade-2 = Pokud tuto e-mailovou masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy.
+modal-delete-domain-address-warning-upgrade-2 = Pokud tuto masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy. Jestliže smazanou masku znovu vytvoříte, budou e-maily zaslané na původní masku zase dál přeposílány.
+modal-delete-confirmation-2 = Ano, chci tuto masku smazat.
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } je k dispozici.
@@ -807,3 +897,4 @@ vpn-promo-cta = Získejte { -brand-name-mozilla-vpn(case: "acc") }
 
 ## Notifications component
 
+toast-button-close-label = Zavře oznámení
