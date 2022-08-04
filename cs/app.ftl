@@ -478,7 +478,7 @@ landing-use-cases-access-content-body-2 =
     Chcete se přihlásit k odběru e-mailového zpravodaje, ale nedůvěřujete jeho odesílateli?
     Použijte masku místo své skutečné e-mailové adresy – pokud přes tuto masku začnete dostávat nechtěné e-maily, odesílatel ji mohl prodat jiným obchodníkům nebo dokonce mohla uniknout při úniku dat.
     Abyste svou e-mailovou schránku ochránili, stačí masku vypnout nebo odstranit.
-landing-use-cases-gaming = Hry
+landing-use-cases-gaming = Hraní her
 landing-use-cases-gaming-body-2 =
     Užíváte si online hraní, ale obáváte se, že ostatní hráči nebo online útočníci prostřednictvím vašeho gamertagu a e-mailové adresy zjistí, kdo jste?
     Použijte e-mailovou masku, abyste vložili další vrstvu ochrany mezi vaši online identitu a hry, které hrajete online.
