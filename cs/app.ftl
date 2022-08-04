@@ -733,6 +733,7 @@ faq-question-disable-trackerremoval-answer = Ano. Pokud máte problémy s tím, 
 faq-question-bulk-trackerremoval-question = Mohu odstraňovat sledovací prvky pouze u některých svých e-mailových masek?
 faq-question-bulk-trackerremoval-answer = Odstraňování sledovacích prvků lze zapnout pouze na úrovni účtu – sledovací prvky se odstraňují buď ze všech vašich e-mailů, anebo ze žádného.
 faq-question-trackerremoval-breakage-question = Proč moje e-maily vypadají rozbité?
+faq-question-trackerremoval-breakage-answer = Občas může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích. Po odstranění sledovacího prvku vypadá e-mail jako špatně naformátovaný, protože chybí obrázky. U e-mailů, které jste již obdrželi, toto nelze nijak opravit. Pokud kvůli tomu není možné si e-maily korektně přečíst, vypněte odstraňování sledovacích prvků.
 
 ## Profile Page (Logged In)
 
