@@ -113,6 +113,7 @@ nav-settings = Nastavenia
 nav-support = Pomoc a podpora
 nav-sign-out = Odhlásiť sa
 nav-contact = Kontaktujte nás
+nav-menu-mobile = Ponuka pre mobilné zariadenia
 fx-desktop-2 = { -brand-name-firefox } pre počítače
 fx-mobile-2 = { -brand-name-firefox } pre mobilné zariadenia
 
@@ -183,6 +184,12 @@ whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Inovujte teraz a získajte ešte väčšiu ochranu…
 whatsnew-feature-premium-expansion-description = Inovujte teraz a získajte ešte väčšiu ochranu – vytvárajte neobmedzené množstvo e-mailových masiek, získajte vlastnú e-mailovú subdoménu a ďalšie!
+whatsnew-feature-tracker-removal-heading = Predstavujeme odstraňovanie sledovacích prvkov z e-mailov
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov…
+whatsnew-feature-tracker-removal-description = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov.
 
 ## Bento Menu
 
@@ -417,6 +424,9 @@ settings-api-key-description-bolded = Použite ho iba s aplikáciami, ktorým d�
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Kliknutím skopírujete
 setting-api-key-copied = Skopírované!
+setting-tracker-removal-heading = Odstraňovanie sledovacích prvkov z e-mailov
+setting-tracker-removal-note = { -brand-name-firefox-relay } teraz môže odstrániť bežné sledovacie prvky z e-mailov posielaných ďalej cez vaše masky.
+setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 
 ## FAQ Page
 
@@ -494,6 +504,7 @@ faq-question-promotional-email-blocking-question = Čo je blokovanie marketingov
 faq-question-promotional-email-blocking-answer = Predplatitelia { -brand-name-relay-premium } môžu povoliť blokovanie propagačných e-mailov. Táto funkcia vám prepošle dôležité e-maily, ako sú potvrdenia o prečítaní, obnovenia hesla a iné potvrdenia, pričom bude stále blokovať marketingové správy. Existuje mierne riziko, že dôležitá správa môže byť stále zablokovaná, preto vám odporúčame, aby ste túto funkciu nepoužívali na veľmi dôležitých miestach, ako je vaša banka. Ak je e-mail zablokovaný, nie je možné ho obnoviť.
 faq-question-detect-promotional-question = Ako { -brand-name-relay } zistí, či je e-mail marketingový alebo nie?
 faq-question-detect-promotional-answer = Mnoho e-mailov sa odosiela s metadátami v hlavičke, ktoré indikujú, že e-mail pochádza z automatizovaných nástrojov založených na zoznamoch adries. { -brand-name-firefox-relay } rozpoznáva tieto údaje hlavičky, aby mohol tieto e-maily zablokovať.
+faq-question-disable-trackerremoval-question = Môžem zastaviť odstraňovanie sledovacích prvkov z e-mailov?
 
 ## Profile Page (Logged In)
 
