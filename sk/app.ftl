@@ -582,6 +582,7 @@ profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used-2 = Použité e-mailové masky
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
+profile-stat-label-trackers-learn-more-part1 = Povolenie odstraňovania sledovacích prvkov odstráni bežné sledovacie prvky z preposielaných e-mailov.
 profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-filter-search-placeholder-2 = Hľadať v maskách
 profile-filter-category-button-label = Filtrovať viditeľné masky
@@ -598,6 +599,9 @@ profile-filter-category-option-promo-blocking-masks = Masky blokujúce marketing
 profile-filter-category-option-random-masks = Náhodné masky
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Vlastné masky
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Stav odstraňovania sledovacích prvkov
+profile-indicator-tracker-removal-tooltip = Momentálne sa odstraňujú sledovacie prvky z e-mailov
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -828,6 +832,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
 
 trackerreport-title = Správa o odstránených sledovacích prvkoch v službe { -brand-name-relay }
 trackerreport-meta-from-heading = Odosielateľ
+trackerreport-meta-receivedat-heading = Prijaté
 trackerreport-meta-count-heading = Celkom sledovacích prvkov
 trackerreport-trackers-heading = Počet zistených sledovacích prvkov
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -850,7 +855,10 @@ trackerreport-tracker-count =
         [few] { $count } sledovacie prvky
        *[other] { $count } sledovacích prvkov
     }
+trackerreport-confidentiality-notice = Informácie o sledovacích prvkoch a adresy odosielateľov v týchto prehľadoch nie sú ukladané službou { -brand-name-firefox-relay } a nachádzajú sa iba v týchto prehľadoch. Vaše e-maily neukladáme.
 trackerreport-removal-explainer-heading = Ako funguje odstraňovanie sledovacích prvkov
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } teraz dokáže odstrániť bežné sledovacie prvky z e-mailov preposielaných cez vaše e-mailové masky. Stále budete dostávať svoje e-maily, ale sledovacie prvky vo vašich preposlaných e-mailoch budú odstránené, takže svoje e-maily môžete dostávať bez toho, aby ste boli sledovaní. Ak chcete povoliť odstraňovanie sledovacích prvkov na všetkých maskách naraz, povoľte globálne odstraňovanie sledovacích prvkov v nastaveniach namiesto jednotlivého odstraňovania zvlášť pre každú masku.
+trackerreport-trackers-explainer-heading = O nástrojoch na sledovanie e-mailov
 trackerreport-trackers-explainer-content-part1 = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
 trackerreport-trackers-explainer-content-part2 = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
 trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
@@ -953,6 +961,9 @@ forwarded-email-header-premium-banner-2 = Inovujte na { $premium_link } a získa
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = Odstránené sledovacie prvky: { $nr_blocked_trackers }
 forwarded-email-trackers-blocked-report = Ďalšie informácie
 # This entire text is a link
 forwarded-email-footer-2 = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky masky.
