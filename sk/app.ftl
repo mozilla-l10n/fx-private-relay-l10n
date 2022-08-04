@@ -742,6 +742,9 @@ modal-custom-alias-picker-form-prefix-label-2 = Zadajte predponu masky e-mailu
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = napr. "hracky"
+modal-custom-alias-picker-form-prefix-spaces-warning = V maskách e-mailov nie sú povolené medzery.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-mailové masky môžu obsahovať iba malé písmená, čísla a spojovníky a nesmú začínať ani končiť spojovníkom.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailové masky môžu obsahovať iba malé písmená, čísla, bodky a spojovníky a nesmú začínať ani končiť bodkou alebo spojovníkom.
 modal-custom-alias-picker-form-submit-label-2 = Vytvoriť masku
 modal-custom-alias-picker-creation-error-2 = Vašu vlastnú masku nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e-mail na masku, aby ste ju vytvorili.
 
@@ -823,6 +826,38 @@ multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Správa o odstránených sledovacích prvkoch v službe { -brand-name-relay }
+trackerreport-meta-from-heading = Odosielateľ
+trackerreport-meta-count-heading = Celkom sledovacích prvkov
+trackerreport-trackers-heading = Počet zistených sledovacích prvkov
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Doména sledovacieho prvku
+trackerreport-trackers-count-heading = Počet sledovacích prvkov
+trackerreport-trackers-none = V tomto e-maile neboli zistené žiadne sledovacie prvky.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 sledovací prvok
+        [few] { $count } sledovacie prvky
+       *[other] { $count } sledovacích prvkov
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 sledovací prvok
+        [few] { $count } sledovacie prvky
+       *[other] { $count } sledovacích prvkov
+    }
+trackerreport-removal-explainer-heading = Ako funguje odstraňovanie sledovacích prvkov
+trackerreport-trackers-explainer-content-part1 = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
+trackerreport-trackers-explainer-content-part2 = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
+trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
+trackerreport-faq-heading = Najčastejšie otázky o nástrojoch na sledovanie e-mailov
+trackerreport-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
+trackerreport-loading = Načítava sa správa o odstránených sledovacích prvkoch…
+trackerreport-load-error = Pri generovaní správy o odstránených sledovacích prvkoch sa vyskytla chyba. Obnovte stránku a skúste to znova.
 
 ## Modals
 
