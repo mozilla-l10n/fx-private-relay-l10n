@@ -173,7 +173,7 @@ whatsnew-feature-alias-to-mask-heading = Aliasy sú teraz masky
 # length as the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
-whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie…
+whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie { -brand-name-firefox-relay }…
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
@@ -425,6 +425,7 @@ settings-api-key-description-bolded = Použite ho iba s aplikáciami, ktorým d�
 settings-button-copy = Kliknutím skopírujete
 setting-api-key-copied = Skopírované!
 setting-tracker-removal-heading = Odstraňovanie sledovacích prvkov z e-mailov
+setting-tracker-removal-description = Odstraňovať sledovacie prvky zo všetkých preposlaných e-mailov
 setting-tracker-removal-note = { -brand-name-firefox-relay } teraz môže odstrániť bežné sledovacie prvky z e-mailov posielaných ďalej cez vaše masky.
 setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 
@@ -505,6 +506,11 @@ faq-question-promotional-email-blocking-answer = Predplatitelia { -brand-name-re
 faq-question-detect-promotional-question = Ako { -brand-name-relay } zistí, či je e-mail marketingový alebo nie?
 faq-question-detect-promotional-answer = Mnoho e-mailov sa odosiela s metadátami v hlavičke, ktoré indikujú, že e-mail pochádza z automatizovaných nástrojov založených na zoznamoch adries. { -brand-name-firefox-relay } rozpoznáva tieto údaje hlavičky, aby mohol tieto e-maily zablokovať.
 faq-question-disable-trackerremoval-question = Môžem zastaviť odstraňovanie sledovacích prvkov z e-mailov?
+faq-question-disable-trackerremoval-answer = Áno. Ak máte problémy s e-mailami, ktoré vyzerajú nefunkčné a rozbité, alebo by ste chceli zastaviť odstraňovanie sledovacích prvkov, môžete túto funkciu zakázať v nastaveniach.
+faq-question-bulk-trackerremoval-question = Môžem odstrániť sledovacie prvky iba na niektorých mojich e-mailových maskách?
+faq-question-bulk-trackerremoval-answer = Odstraňovanie sledovacích prvkov môžete zapnúť iba na úrovni účtu – buď odstránia sa sledovacie prvky zo všetkých vašich e-mailov alebo zo žiadneho z nich.
+faq-question-trackerremoval-breakage-question = Prečo moje e-maily vyzerajú rozbité?
+faq-question-trackerremoval-breakage-answer = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčne a rozbite, pretože sledovacie prvky sú často obsiahnuté v obrázkoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
 
 ## Profile Page (Logged In)
 
@@ -558,6 +564,10 @@ profile-label-copied = Skopírovaný!
 profile-label-blocked = Zablokované
 profile-label-forwarded = Preposlané
 profile-label-replies = Odpovede
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Počet odstránených sledovacích prvkov
+profile-trackers-removed-tooltip-part1 = Keď je povolené odstraňovanie sledovacích prvkov, bežné sledovacie prvky budú odstraňované z preposielaných e-mailov.
+profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-label-cancel = Zrušiť
 profile-blocked-copy-2 = Ak pre túto masku zvolíte blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
 profile-forwarded-copy-2 = Keď zvolíte pre túto masku preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
@@ -570,6 +580,9 @@ profile-stat-learn-more-close = Zavrieť
 profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used-2 = Použité e-mailové masky
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
+profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-filter-search-placeholder-2 = Hľadať v maskách
 profile-filter-category-button-label = Filtrovať viditeľné masky
 profile-filter-category-button-tooltip = Filtrujte masky podľa subdomény a/alebo či práve blokujú prichádzajúce e-maily
