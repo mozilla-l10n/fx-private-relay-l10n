@@ -278,7 +278,8 @@ nav-dashboard = Nástěnka
 nav-settings = Nastavení
 nav-support = Nápověda a podpora
 nav-sign-out = Odhlásit se
-nav-contact = Kontaktujte nás
+nav-contact = Kontakt
+nav-menu-mobile = Nabídka pro mobily
 fx-desktop-2 = { -brand-name-firefox } pro počítač
 fx-mobile-2 = { -brand-name-firefox } pro mobily
 
@@ -355,6 +356,7 @@ whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Aktualizujte nyní a získejte ještě lepší ochranu…
 whatsnew-feature-premium-expansion-description = Aktualizujte nyní a získejte ještě lepší ochranu – vytvářejte neomezený počet e-mailových masek, získejte vlastní e-mailovou subdoménu a mnoho dalšího!
+whatsnew-feature-tracker-removal-heading = Představujeme možnost odstranění sledovacích prvků z e-mailů
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
