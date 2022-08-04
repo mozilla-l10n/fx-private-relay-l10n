@@ -760,7 +760,15 @@ profile-label-generate-new-alias-menu-random-2 = Náhodná e-mailová maska
 #   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
 profile-label-generate-new-alias-menu-custom-2 = Maska @{ $subdomain }
 profile-label-delete = Smazat
+profile-label-upgrade-2 = Získejte neomezený počet e-mailových masek
+profile-label-create-subdomain = Získejte vlastní e-mailovou subdoménu
+profile-label-subdomain = E-mailová subdoména:
+profile-label-subdomain-tooltip-trigger = Více informací
+profile-label-subdomain-tooltip = Vytvoří vaši jedinečnou e-mailovou subdoménu.
 profile-label-reset = Obnovit
+profile-label-apply = Použít
+profile-label-skip = Přeskočit
+profile-label-continue = Pokračovat
 # This string is followed by an email address
 profile-label-forward-emails = Přeposílat e-maily na:
 # This string is followed by date
@@ -772,6 +780,8 @@ profile-label-details-hide = Skrýt podrobnosti
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = přeposílání
 profile-label-blocking = blokování
+profile-label-disable-forwarding-button-2 = Zakázat přeposílání e-mailů pro tuto masku
+profile-label-enable-forwarding-button-2 = Povolit přeposílání e-mailů pro tuto masku
 profile-label-click-to-copy = Klepnutím zkopírujete do schránky
 profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
