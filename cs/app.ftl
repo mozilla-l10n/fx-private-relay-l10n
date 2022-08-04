@@ -355,6 +355,7 @@ whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Aktualizujte nyní a získejte ještě lepší ochranu…
 whatsnew-feature-premium-expansion-description = Aktualizujte nyní a získejte ještě lepší ochranu – vytvářejte neomezený počet e-mailových masek, získejte vlastní e-mailovou subdoménu a mnoho dalšího!
+whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposílaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## Bento Menu
 
