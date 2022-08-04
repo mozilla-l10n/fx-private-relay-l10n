@@ -786,6 +786,11 @@ profile-label-click-to-copy = Klepnutím zkopírujete do schránky
 profile-label-copied = Zkopírováno!
 profile-label-blocked = Blokováno
 profile-label-forwarded = Přeposláno
+profile-label-replies = Odpovědi
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Odstraněno sledovacích prvků
+profile-trackers-removed-tooltip-part1 = Je-li povoleno odstraňování sledovacích prvků, budou z přeposílaných e-mailů odstraněny běžné e-mailové sledovací prvky.
+profile-trackers-removed-tooltip-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-label-cancel = Zrušit
 profile-blocked-copy-2 = Pokud pro tuto masku vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě předtím, než se dostanou do vaší e-mailové schránky.
 profile-forwarded-copy-2 = Pokud vyberete pro tuto masku přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
