@@ -749,10 +749,16 @@ profile-details-collapse = Skrýt podrobnosti o masce
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = Klepnutím zkopírujete masku { $address } do schránky.
+profile-label-edit-2 = Upravit štítek této masky
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Přidat název účtu
+profile-label-save-error = Uložení se nezdařilo, zkuste to prosím znovu.
 profile-label-saved = Popisek uložen!
 profile-label-generate-new-alias-2 = Vygenerovat novou masku
+profile-label-generate-new-alias-menu-random-2 = Náhodná e-mailová maska
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = Maska @{ $subdomain }
 profile-label-delete = Smazat
 profile-label-reset = Obnovit
 # This string is followed by an email address
