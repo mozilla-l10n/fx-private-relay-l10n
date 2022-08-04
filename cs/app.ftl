@@ -731,6 +731,8 @@ faq-question-detect-promotional-answer = Mnoho e-mailů je odesíláno s metadat
 faq-question-disable-trackerremoval-question = Mohu zastavit odstraňování sledovacích prvků z e-mailů?
 faq-question-disable-trackerremoval-answer = Ano. Pokud máte problémy s tím, že e-maily vypadají rozbité, nebo byste rádi přestali odstraňovat sledovací prvky, můžete tuto funkci v nastavení vypnout.
 faq-question-bulk-trackerremoval-question = Mohu odstraňovat sledovací prvky pouze u některých svých e-mailových masek?
+faq-question-bulk-trackerremoval-answer = Odstraňování sledovacích prvků lze zapnout pouze na úrovni účtu – sledovací prvky se odstraňují buď ze všech vašich e-mailů, anebo ze žádného.
+faq-question-trackerremoval-breakage-question = Proč moje e-maily vypadají rozbité?
 
 ## Profile Page (Logged In)
 
