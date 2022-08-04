@@ -355,7 +355,11 @@ whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Aktualizujte nyní a získejte ještě lepší ochranu…
 whatsnew-feature-premium-expansion-description = Aktualizujte nyní a získejte ještě lepší ochranu – vytvářejte neomezený počet e-mailových masek, získejte vlastní e-mailovou subdoménu a mnoho dalšího!
-whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposílaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky…
+whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## Bento Menu
 
@@ -514,7 +518,8 @@ landing-reviews-rating =
     }
 landing-reviews-show-next-button = zobrazit další recenzi
 landing-reviews-show-previous-button = zobrazit předchozí recenzi
-landing-review-user-one-review = Velmi oceňuji tým { -brand-name-mozilla(case: "gen") } za to, že byl tak kreativní a zjednodušil anonymizaci mé e-mailové adresy. Je to skvělé rozšíření, vřele ho doporučuji těm, kteří si zakládají na soukromí!
+landing-review-anonymous-user = Uživatel { -brand-name-firefox(case: "gen") } { $user_id }
+landing-review-user-one-review = Velmi oceňuji tým { -brand-name-mozilla(case: "gen") } za to, že byl tak kreativní a zjednodušil anonymizaci mé e-mailové adresy. Je to skvělé rozšíření, vřele ho doporučuji všem, kteří si zakládají na soukromí!
 landing-review-user-two-review = Jednoduchý nástroj, jak se zbavit nebo vyhnout spamování vaší poštovní schránky.
 landing-review-user-three-review = Miluju tohle rozšíření! Velmi jednoduché, ale výkonné a integrace s prohlížečem je úžasná.
 landing-review-user-four-review-list-1 = Přináší klid na duši při surfování na internetu.
@@ -622,6 +627,7 @@ settings-api-key-description-bolded = Používejte ho pouze u aplikací, kterým
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klepnutím zkopírujete do schránky
 setting-api-key-copied = Zkopírováno!
+setting-tracker-removal-heading = Odstraňování sledovacích prvků
 
 ## FAQ Page
 
