@@ -802,6 +802,11 @@ profile-stat-learn-more = Zjistit více
 profile-stat-learn-more-close = Zavřít
 profile-stat-label-blocked = E-maily blokovány
 profile-stat-label-forwarded = E-maily přeposílány
+profile-stat-label-aliases-used-2 = Používané e-mailové masky
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Odstraněno sledovacích prvků
+profile-stat-label-trackers-learn-more-part1 = Zapnutím odstraňování sledovacích prvků budou z přeposílaných e-mailů odstraňovány běžné e-mailové sledovací prvky.
+profile-stat-label-trackers-learn-more-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-filter-search-placeholder-2 = Vyhledat masku
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
