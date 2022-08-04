@@ -628,6 +628,7 @@ settings-api-key-description-bolded = Používejte ho pouze u aplikací, kterým
 settings-button-copy = Klepnutím zkopírujete do schránky
 setting-api-key-copied = Zkopírováno!
 setting-tracker-removal-heading = Odstraňování sledovacích prvků
+setting-tracker-removal-description = Odstraňovat sledovací prvky ze všech přeposlaných e-mailů
 
 ## FAQ Page
 
