@@ -629,6 +629,8 @@ settings-button-copy = Klepnutím zkopírujete do schránky
 setting-api-key-copied = Zkopírováno!
 setting-tracker-removal-heading = Odstraňování sledovacích prvků
 setting-tracker-removal-description = Odstraňovat sledovací prvky ze všech přeposlaných e-mailů
+setting-tracker-removal-note = { -brand-name-firefox-relay } nyní může z e-mailů přeposlaných přes vaše masky odstranit běžné sledovací prvky.
+setting-tracker-removal-warning = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 
 ## FAQ Page
 
@@ -724,6 +726,8 @@ faq-question-promotional-email-blocking-question = Co je to blokování propaga�
 faq-question-promotional-email-blocking-answer = Předplatitelé { -brand-name-relay-premium(case: "gen") } mohou zapnout blokování propagačních e-mailů. Tato funkce vám bude přeposílat důležité e-maily, jako např. účtenky, obnovení hesla a různá potvrzení, a zároveň bude blokovat marketingové zprávy. Existuje však částečné riziko, že může být zablokována i nějaká důležitá zpráva, a proto doporučujeme, abyste tuto funkci nepoužívali pro velmi důležitá místa, například pro banku. Pokud je e-mail zablokován, nelze ho už získat zpět.
 faq-question-detect-promotional-question = Jak { -brand-name-relay } zjistí, jestli je e-mail propagační nebo ne?
 faq-question-detect-promotional-answer = Mnoho e-mailů je odesíláno s metadaty v záhlaví, která uvádějí, že pocházejí z automatizovaných nástrojů založených na seznamech adres. { -brand-name-firefox-relay } tato data rozpoznává a může tak tyto e-maily blokovat.
+faq-question-disable-trackerremoval-question = Mohu zastavit odstraňování sledovacích prvků z e-mailů?
+faq-question-disable-trackerremoval-answer = Ano. Pokud máte problémy s tím, že e-maily vypadají rozbité, nebo byste rádi přestali odstraňovat sledovací prvky, můžete tuto funkci v nastavení vypnout.
 
 ## Profile Page (Logged In)
 
