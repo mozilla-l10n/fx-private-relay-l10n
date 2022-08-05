@@ -392,7 +392,7 @@ setting-tracker-removal-description = Remove email trackers in all forwarded ema
 setting-tracker-removal-note = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your masks.
 # Deprecated
 setting-tracker-removal-warning = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
-setting-tracker-removal-warning-2 = Important: Removing trackers may cause your email to look broken, because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.
+setting-tracker-removal-warning-2 = Important: Removing trackers may cause your email to look broken because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.
 
 ## FAQ Page
 
@@ -497,7 +497,7 @@ faq-question-bulk-trackerremoval-answer = You can only turn tracker removal on a
 faq-question-trackerremoval-breakage-question = Why do my emails look broken?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images. When the tracker is removed, the email looks like it’s been formatted wrong because images are missing. This can’t be fixed for emails you’ve already received. If this is preventing you from reading your emails properly, turn off tracker removal.
-faq-question-trackerremoval-breakage-answer-2 = Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images and links. When the tracker is removed, the email looks like it’s been formatted wrong because images are missing. This can’t be fixed for emails you’ve already received. If this is preventing you from reading your emails properly, turn off tracker removal.
+faq-question-trackerremoval-breakage-answer-2 = Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images and links. When the tracker is removed, the email looks like it’s been formatted wrong because images are missing. This can’t be fixed for emails you’ve already received. If this is preventing you from reading your emails properly, turn off tracker removal.
 
 ## Profile Page (Logged In)
 
@@ -560,7 +560,7 @@ profile-label-trackers-removed = Trackers Removed
 profile-trackers-removed-tooltip-part1 = With tracker removal enabled, common email trackers will be removed from your forwarded emails.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images.
-profile-trackers-removed-tooltip-part2-2 = <b>Important:</b> Removing trackers may cause your email to look broken, because the trackers are often contained within images and links.
+profile-trackers-removed-tooltip-part2-2 = <b>Important:</b> Removing trackers may cause your email to look broken because the trackers are often contained within images and links.
 profile-label-cancel = Cancel
 profile-blocked-copy-2 = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this mask.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } will send messages to your inbox when you select forwarding for this mask.
@@ -578,7 +578,7 @@ profile-stat-label-trackers-removed = Trackers Removed
 profile-stat-label-trackers-learn-more-part1 = Enabling tracker removal will remove common email trackers from your forwarded emails.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
-profile-stat-label-trackers-learn-more-part2-2 = Important: Removing trackers may cause your email to look broken, because the trackers are often contained within images and links.
+profile-stat-label-trackers-learn-more-part2-2 = Important: Removing trackers may cause your email to look broken because the trackers are often contained within images and links.
 profile-filter-search-placeholder-2 = Search masks
 profile-filter-category-button-label = Filter visible masks
 profile-filter-category-button-tooltip = Filter masks by subdomain and/or whether they are currently blocking incoming email
@@ -863,7 +863,7 @@ trackerreport-trackers-explainer-content-part1 = Email tracking is a common surv
 trackerreport-trackers-explainer-content-part2 = A company or organization will embed a tracker in emails sent to you, usually hidden within an image or a link. When the email is opened, code within the tracker sends data back to the company.
 # Deprecated
 trackerreport-breakage-warning = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images, which will not load if they contain a tracker.
-trackerreport-breakage-warning-2 = Important: Removing trackers may cause your email to look broken, because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.
+trackerreport-breakage-warning-2 = Important: Removing trackers may cause your email to look broken because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.
 trackerreport-faq-heading = Top questions about email trackers
 trackerreport-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 trackerreport-loading = Loading your tracker removal report…
