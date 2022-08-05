@@ -874,6 +874,13 @@ banner-download-install-chrome-extension-cta = Pořiďte si rozšíření { -bra
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
 banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } umožňuje vytvářet e-mailové masky ještě snadněji díky vlastním subdoménám masek a neomezenému počtu masek.
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = Důležitý krok
+banner-register-subdomain-headline-aliases-2 = Získejte pro své masky vlastní subdoménu
+# This string is used in the example subdomain mask. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = vaše-doména
 banner-pack-upgrade-cta = Upgradujte
 
 ## Success Messages
