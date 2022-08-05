@@ -1011,9 +1011,21 @@ onboarding-premium-feature-intro = S { -brand-name-firefox } { -brand-name-relay
 onboarding-premium-control-title = Mít kontrolu nad tím, jaké e-maily budete dostávat
 onboarding-premium-control-description-2 = Sdílejte neomezený počet e-mailových masek, které přeposílají e-maily, které do své e-mailové schránky opravdu chcete dostávat.
 onboarding-premium-domain-title-3 = Používat pro svoje masky vlastní subdoménu:
+onboarding-premium-reply-title-2 = Odpovídat na e-maily bez prozrazení své skutečné adresy
+onboarding-premium-reply-description-2 = Potřebujete odpovídat na e-maily odeslané na masku? Odpovězte jako obvykle – vaše maska bude i nadále chránit vaši e-mailovou adresu.
+onboarding-premium-title-detail = S { -brand-name-firefox-relay-premium(case: "ins") } můžete:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = { $step }. krok z { $max }.
+multi-part-onboarding-premium-welcome-headline = Vítá vás { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
+multi-part-onboarding-premium-welcome-title = Mít kontrolu nad tím, jaké e-maily budete dostávat:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvářet neomezený počet e-mailových masek:
+multi-part-onboarding-premium-welcome-button-start = Začít
 
 ## Report of trackers removed from an email
 
