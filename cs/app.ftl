@@ -1028,6 +1028,13 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvářet neomezený
 multi-part-onboarding-premium-welcome-button-start = Začít
 multi-part-onboarding-premium-extension-get-title = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 multi-part-onboarding-premium-extension-get-description-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") } ještě více usnadňuje používání e-mailových masek.
+multi-part-onboarding-premium-extension-button-download = Získat rozšíření { -brand-name-relay }
+multi-part-onboarding-premium-chrome-extension-get-title = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-google-chrome(case: "acc") }
+# Deprecated
+multi-part-onboarding-premium-chrome-extension-get-description = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání e-mailových aliasů.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání e-mailových masek.
+multi-part-onboarding-premium-chrome-extension-button-download = Získat rozšíření { -brand-name-relay }
+multi-part-onboarding-premium-extension-button-skip = Pokračujte, rozšíření si stáhnu později
 multi-part-onboarding-premium-extension-added = Rozšíření { -brand-name-relay } bylo přidáno!
 multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnku
 
@@ -1038,7 +1045,7 @@ trackerreport-meta-receivedat-heading = Obdržel
 
 ## Modals
 
-modal-rename-alias-saved = Štítek uložen
+modal-rename-alias-saved = Popisek uložen
 modal-delete-headline-2 = Chcete tuto masku trvale smazat?
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
@@ -1048,13 +1055,19 @@ modal-delete-warning-recovery-2-html =
 modal-delete-warning-upgrade-2 = Pokud tuto e-mailovou masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy.
 modal-delete-domain-address-warning-upgrade-2 = Pokud tuto masku používáte k přihlašování na stránkách, na kterých vám záleží, měli byste před jejím smazáním aktualizovat své přihlašovací údaje použitím jiné e-mailové adresy. Jestliže smazanou masku znovu vytvoříte, budou e-maily zaslané na původní masku zase dál přeposílány.
 modal-delete-confirmation-2 = Ano, chci tuto masku smazat.
+modal-domain-register-good-news = Dobré zprávy!
+modal-domain-register-warning-reminder-2 = Pamatujte, že zaregistrovat si můžete pouze jednu subdoménu. Později ji už nebudete moci změnit.
+modal-domain-register-button-2 = Zaregistrovat si subdoménu
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-available = { $subdomain } je k dispozici.
+modal-domain-register-available = { $subdomain } je dostupná!
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozici.
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ano, chci si zaregistrovat subdoménu @{ $subdomain }
 
 ## Evergreen Survey (displayed on the profile page)
 
