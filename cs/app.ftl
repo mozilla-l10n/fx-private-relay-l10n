@@ -872,6 +872,7 @@ banner-download-install-chrome-extension-copy = Rozšíření { -brand-name-fire
 banner-download-install-chrome-extension-copy-2 = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání masek.
 banner-download-install-chrome-extension-cta = Pořiďte si rozšíření { -brand-name-relay }
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } umožňuje vytvářet e-mailové masky ještě snadněji díky vlastním subdoménám masek a neomezenému počtu masek.
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
 banner-pack-upgrade-cta = Upgradujte
 
