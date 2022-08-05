@@ -866,6 +866,11 @@ banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-headline = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-copy-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje používání e-mailových masek.
 banner-download-install-extension-cta = Přidat { -brand-name-relay(case: "acc") } do { -brand-name-firefox(case: "gen") }
+banner-download-install-chrome-extension-headline = Vyzkoušejte { -brand-name-relay(case: "acc") } pro { -brand-name-google-chrome(case: "acc") }
+# Deprecated
+banner-download-install-chrome-extension-copy = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání aliasů.
+banner-download-install-chrome-extension-copy-2 = Rozšíření { -brand-name-firefox-relay } pro { -brand-name-chrome(case: "acc") } ještě více usnadňuje vytváření a používání masek.
+banner-download-install-chrome-extension-cta = Pořiďte si rozšíření { -brand-name-relay }
 banner-upgrade-headline = Upgradovat na { -brand-name-relay-premium }
 banner-upgrade-cta = Upgradovat na { -brand-name-relay-premium }
 banner-pack-upgrade-cta = Upgradujte
