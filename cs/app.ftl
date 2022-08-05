@@ -808,6 +808,7 @@ profile-stat-label-trackers-removed = Odstraněno sledovacích prvků
 profile-stat-label-trackers-learn-more-part1 = Zapnutím odstraňování sledovacích prvků budou z přeposílaných e-mailů odstraňovány běžné e-mailové sledovací prvky.
 profile-stat-label-trackers-learn-more-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-filter-search-placeholder-2 = Vyhledat masku
+profile-filter-category-button-label = Odfiltrovat viditelné masky
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
