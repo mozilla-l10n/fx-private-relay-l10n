@@ -961,6 +961,13 @@ tips-toast-button-expand-label = Zjistit více
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = Vytvoření nové vlastní masky
+modal-custom-alias-picker-warning-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-subdomena.mozmail.com“.
+modal-custom-alias-picker-form-heading-2 = Nebo vytvořte vlastní masku ručně
+modal-custom-alias-picker-form-prefix-label-2 = Zadejte předponu e-mailové masky
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = např. „kafe“
+modal-custom-alias-picker-form-prefix-spaces-warning = V e-mailových maskách nejsou povoleny mezery.
 
 ## Popover explaining how custom masks work
 
