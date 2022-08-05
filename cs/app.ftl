@@ -565,7 +565,7 @@ premium-promo-use-cases-shopping-heading = Nakupování
 premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
 premium-promo-use-cases-social-networks-heading = Sociální sítě
 premium-promo-use-cases-social-networks-body-2 = Chcete lépe chránit svou online identitu při používání sociálních sítí? Pro přihlášení do každé sociální sítě použijte jinou e-mailovou masku a ochraňte svůj skutečný e-mail před zveřejněním na těchto stránkách.
-premium-promo-use-cases-gaming-heading = Hry
+premium-promo-use-cases-gaming-heading = Hraní her
 premium-promo-use-cases-gaming-body-2 = Obáváte se, že se ostatní hráči nebo trollové prostřednictvím vašeho gamertagu a e-mailové adresy dozví, kdo jste? Použijte masku například „online-hry@vase-domena.mozmail.com“, abyste vložili další vrstvu ochrany mezi vaši identitu a hry, které hrajete online.
 premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
@@ -977,15 +977,27 @@ modal-custom-alias-picker-creation-error-2 = Vaši vlastní e-mailovou masku neb
 
 popover-custom-alias-explainer-heading-2 = Jak vytvořit vlastní masku
 popover-custom-alias-explainer-explanation-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-domena.mozmail.com“.
+popover-custom-alias-explainer-generate-button-heading-2 = Ruční vytvoření vlastní masky
+popover-custom-alias-explainer-generate-button-label-2 = Vytvořit vlastní masku
+popover-custom-alias-explainer-close-button-label = Zavřít
+# Checkbox the user can click to adjust the block level of the new mask
+popover-custom-alias-explainer-promotional-block-checkbox = Blokovat propagační e-maily
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Zapnutím blokování propagačních e-mailů zaslaných na vaší masku zabráníte jejich doručování do vaší e-mailové schránky.
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Více informací
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = Vytvoření masky pomocí vlastní subdomény
+tips-custom-alias-content-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-domena.mozmail.com“.
 
 ## Tip about using custom masks
 
+tips-promo-email-blocking-heading = Blokování propagačních e-mailů
+tips-promo-email-blocking-content = S { -brand-name-relay-premium(case: "ins") } můžete zabránit doručování propagačních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
 
 ## Onboarding
 
+onboarding-headline-2 = Vytvoření své první e-mailové masky
 
 ## Premium Onboarding
 
