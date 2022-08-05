@@ -822,6 +822,9 @@ profile-filter-category-option-promo-blocking-masks = Masky blokující propaga�
 profile-filter-category-option-random-masks = Náhodné masky
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Vlastní masky
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Stav odstraňování sledovacích prvků
+profile-indicator-tracker-removal-tooltip = Aktuálně se z e-mailů odstraňují sledovací prvky
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -838,9 +841,12 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuj
 profile-promo-email-blocking-label-promotionals = Blokovat propagační e-maily
 profile-promo-email-blocking-label-none = Blokovat vše
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Nepřeposílá se
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (pouze { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Pro předplatitele { -brand-name-relay-premium(case: "gen") }
+profile-promo-email-blocking-description-promotionals-locked-cta = Upgradovat
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Přidat se na čekací listinu služby { -brand-name-relay-premium }
+profile-promo-email-blocking-description-promotionals-locked-close = Zavřít
 
 ## Banner Messages (displayed on the profile page)
 
