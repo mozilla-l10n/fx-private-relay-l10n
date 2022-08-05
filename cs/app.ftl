@@ -850,6 +850,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Zavřít
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Ne, děkuji
 banner-bounced-headline = Služba { -brand-name-relay } nemohla doručit váš e-mail.
 # Variables:
 #   $username (string) - Username
@@ -860,6 +861,7 @@ banner-bounced-copy =
     Při pokusech o přeposlání e-mailů jsme obdrželi automatickou odpověď <em>{ $bounce_type }</em> “bounce” od poskytovatele vaší e-mailové schránky.
     Tato situace mohla nastat z důvodu, že se { -brand-name-relay } nemůže spojit s poskytovatelem e-mailové schránky, nebo pokud je vaše schránka plná. Zkusíme to znovu dne { $date }.
 banner-download-firefox-headline = { -brand-name-relay } je ještě lepší v kombinaci s { -brand-name-firefox(case: "ins") }
+banner-download-firefox-copy-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje vytváření masek.
 banner-download-firefox-cta = Získejte { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-headline = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 banner-download-install-extension-copy-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox-browser(case: "acc", capitalization: "lower") } ještě více usnadňuje používání e-mailových masek.
