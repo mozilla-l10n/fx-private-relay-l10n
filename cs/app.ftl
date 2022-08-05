@@ -890,7 +890,18 @@ banner-register-subdomain-copy-2 = S vlastní subdoménou můžete sdílet masky
 banner-choose-subdomain-input-placeholder-3 = Vyhledat subdoménu
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Vyhledat
+banner-pack-upgrade-headline-2-html = Upgradujte na <strong>{ -brand-name-firefox-relay-premium(case: "acc") }</strong> a získejte více e-mailových masek
+banner-pack-upgrade-copy-2 = Díky neomezenému počtu e-mailových masek a vaší vlastní e-mailové subdoméně vám { -brand-name-firefox-relay-premium } zajistí na internetu stálou ochranu.
 banner-pack-upgrade-cta = Upgradujte
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Aktualizace zásad ochrany osobních údajů
+banner-label-privacy-notice-update-body = Pro zvýšení spolehlivosti { -brand-name-firefox-relay(case: "gen") } v případě, že e-mail nebude možné doručit, ho dočasně uchováme na našich serverech, dokud nebude doručen. Nikdy ho však nebudeme uchovávat déle než tři dny.
+banner-label-privacy-notice-update-cta = Zobrazit zásady ochrany osobních údajů
+# Data Notification Banner:
+banner-label-data-notification-header = Již brzy v { -brand-name-relay(case: "loc") }
+banner-label-data-notification-cta = Přejít do nastavení
+banner-label-data-notification-header-v2 = Nové funkce
+banner-label-data-notification-body-cta = Zjistit více
 
 ## Success Messages
 
