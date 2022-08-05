@@ -1005,6 +1005,8 @@ onboarding-alias-tip-3-2 = Za použití rozšíření { -brand-name-relay } klep
 ## Premium Onboarding
 
 onboarding-premium-headline = Vítá vás { -brand-name-firefox }{ -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Nyní můžete <strong>mít kontrolu</strong> nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
