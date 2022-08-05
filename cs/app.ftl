@@ -1007,6 +1007,10 @@ onboarding-alias-tip-3-2 = Za použití rozšíření { -brand-name-relay } klep
 onboarding-premium-headline = Vítá vás { -brand-name-firefox }{ -brand-name-relay-premium }
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Nyní můžete <strong>mít kontrolu</strong> nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
+onboarding-premium-feature-intro = S { -brand-name-firefox } { -brand-name-relay-premium(case: "ins") } můžete:
+onboarding-premium-control-title = Mít kontrolu nad tím, jaké e-maily budete dostávat
+onboarding-premium-control-description-2 = Sdílejte neomezený počet e-mailových masek, které přeposílají e-maily, které do své e-mailové schránky opravdu chcete dostávat.
+onboarding-premium-domain-title-3 = Používat pro svoje masky vlastní subdoménu:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
