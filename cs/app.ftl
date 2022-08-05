@@ -944,6 +944,19 @@ error-mask-delete-failed = Masku { $mask } se nepodařilo smazat. Zkuste to pros
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Nápověda a tipy
+tips-header-button-close-label = Zavřít
+tips-footer-link-faq-label = Časté dotazy
+tips-footer-link-faq-tooltip = Často kladené otázky
+tips-footer-link-feedback-label = Zpětná vazba
+tips-footer-link-feedback-tooltip = Poskytnout zpětnou vazbu
+tips-footer-link-support-label = Podpora
+tips-footer-link-support-tooltip = Kontaktovat podporu
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Tip { $nr }
+tips-toast-button-expand-label = Zjistit více
 
 ## Modal for generating a custom mask
 
