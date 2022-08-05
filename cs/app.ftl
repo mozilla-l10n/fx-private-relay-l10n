@@ -809,6 +809,19 @@ profile-stat-label-trackers-learn-more-part1 = Zapnutím odstraňování sledova
 profile-stat-label-trackers-learn-more-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-filter-search-placeholder-2 = Vyhledat masku
 profile-filter-category-button-label = Odfiltrovat viditelné masky
+profile-filter-category-button-tooltip = Filtrování masek podle subdomény a/nebo podle toho, jestli aktuálně blokují příchozí e-maily.
+profile-filter-category-title = Filtrování viditelných masek
+profile-filter-no-results = Zadaným kritériím neodpovídají žádné masky. <clear-button>Vymazat všechny filtry.</clear-button>
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Masky přeposílající e-maily
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Masky blokující e-maily
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Masky blokující propagační e-maily
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Náhodné masky
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Vlastní masky
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
