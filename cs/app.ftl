@@ -1064,10 +1064,23 @@ modal-domain-register-available = { $subdomain } je dostupná!
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozici.
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je dostupná!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ano, chci si zaregistrovat subdoménu @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Ano, chci si zaregistrovat subdoménu <subdomain>{ $subdomain }</subdomain>
+modal-domain-register-success-title = Hotovo!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } je nyní vaše e-mailová subdoména!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je nyní vaše e-mailová subdoména!
+modal-domain-register-success-copy-2 = Nyní můžete vytvářet neomezené množství vlastních e-mailových masek!
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1086,6 +1099,7 @@ survey-option-somewhat-disappointed = Lehké zklamání
 survey-option-very-disappointed = Velké zklamání
 survey-option-very-likely = Určitě ano
 survey-option-not-likely = Spíše ne
+survey-option-dismiss = Zavřít
 
 ## CSAT survey
 
