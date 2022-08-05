@@ -881,6 +881,15 @@ banner-register-subdomain-headline-aliases-2 = Získejte pro své masky vlastní
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = vaše-doména
+# Translate "restaurant" and "yourdomain" in the email address, keeping them
+# lowercase and without spaces to resemble an actual email address.
+#
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+banner-register-subdomain-copy-2 = S vlastní subdoménou můžete sdílet masky, které není třeba před jejich použitím generovat. Potřebujete rezervovat stůl v restauraci? Použijte „restaurace@vaše-doména.{ $mozmail }“. Každá maska používající vaši vlastní subdoménu vám bude následně přeposlána.
+banner-choose-subdomain-input-placeholder-3 = Vyhledat subdoménu
+# This is the “call to action” text on the submit button of subdomain registration form.
+banner-register-subdomain-button-search = Vyhledat
 banner-pack-upgrade-cta = Upgradujte
 
 ## Success Messages
