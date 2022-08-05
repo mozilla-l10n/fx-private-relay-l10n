@@ -927,11 +927,20 @@ success-signed-in-message = Úspěšně jste se přihlásili jako { $username }.
 
 error-premium-cannot-change-subdomain = Svou subdoménu nemůžete změnit
 error-premium-set-subdomain = Pro nastavení subdomény musíte být prémiovým předplatitelem
-error-subdomain-not-created = Subdoménu nelze vytvořit, zkuste nějakou jinou
-error-subdomain-email-not-created = E-mailová adresa se subdoménou nemohla být vytvořena, zkuste nějakou jinou
+error-premium-check-subdomain = Pro ověření subdomény musíte být prémiovým předplatitelem
+error-subdomain-not-created = Subdoménu se nepodařilo vytvořit, zkuste prosím něco jiného
+error-subdomain-email-not-created = E-mailovou adresu se subdoménou se nepodařilo vytvořit, zkuste prosím něco jiného
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
-error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } není dostupná. Zkuste jinou.
+error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } není dostupná. Zkuste prosím jinou.
+error-settings-update = Při aktualizaci nastavení došlo k chybě, zkuste to prosím znovu
+error-mask-create-failed = Masku se nepodařilo vytvořit. Zkuste to prosím znovu.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Údaje masky se nepodařilo aktualizovat. Zkuste to prosím znovu.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Masku { $mask } se nepodařilo smazat. Zkuste to prosím znovu.
 
 ## Tips and tricks at the bottom of the page
 
