@@ -902,9 +902,21 @@ banner-label-data-notification-header = Již brzy v { -brand-name-relay(case: "l
 banner-label-data-notification-cta = Přejít do nastavení
 banner-label-data-notification-header-v2 = Nové funkce
 banner-label-data-notification-body-cta = Zjistit více
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = Chraňte své soukromí, zachraňte internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = Chraňte své soukromí a připojte se k naší misi vybudovat lepší internet, a to vše za { $monthly_price }
+banner-upgrade-loyalist-cta = Získejte větší ochranu
+# Variables:
+# $subdomain (url) - User-set subdomain
+banner-choose-subdomain-description = Můžete si vytvořit libovolnou adresu @{ $subdomain }
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Vaše subdoména @{ $subdomain } byla vytvořena
 success-settings-update = Vaše nastavení bylo aktualizováno.
 success-signed-out-message = Byli jste odhlášeni.
 # Variables:
