@@ -960,6 +960,7 @@ tips-toast-button-expand-label = Zjistit více
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-heading-2 = Vytvoření nové vlastní masky
 
 ## Popover explaining how custom masks work
 
