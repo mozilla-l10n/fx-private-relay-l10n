@@ -968,9 +968,15 @@ modal-custom-alias-picker-form-prefix-label-2 = Zadejte předponu e-mailové mas
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = např. „kafe“
 modal-custom-alias-picker-form-prefix-spaces-warning = V e-mailových maskách nejsou povoleny mezery.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-mailové masky mohou obsahovat pouze malá písmena, čísla a pomlčky a nesmí začínat ani končit pomlčkou.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailové masky mohou obsahovat pouze malá písmena, čísla, tečky a pomlčky a nesmí začínat ani končit tečkou nebo pomlčkou.
+modal-custom-alias-picker-form-submit-label-2 = Vytvořit masku
+modal-custom-alias-picker-creation-error-2 = Vaši vlastní e-mailovou masku nebylo možné vytvořit ručně. Zkuste to prosím znovu nebo na masku pošlete e-mail, abyste ji tím vytvořili.
 
 ## Popover explaining how custom masks work
 
+popover-custom-alias-explainer-heading-2 = Jak vytvořit vlastní masku
+popover-custom-alias-explainer-explanation-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-domena.mozmail.com“.
 
 ## Tip about using custom masks
 
