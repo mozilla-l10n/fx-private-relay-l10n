@@ -1026,9 +1026,15 @@ multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu
 multi-part-onboarding-premium-welcome-title = Mít kontrolu nad tím, jaké e-maily budete dostávat:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvářet neomezený počet e-mailových masek:
 multi-part-onboarding-premium-welcome-button-start = Začít
+multi-part-onboarding-premium-extension-get-title = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
+multi-part-onboarding-premium-extension-get-description-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") } ještě více usnadňuje používání e-mailových masek.
+multi-part-onboarding-premium-extension-added = Rozšíření { -brand-name-relay } bylo přidáno!
+multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnku
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-from-heading = Od
+trackerreport-meta-receivedat-heading = Obdržel
 
 ## Modals
 
