@@ -1042,6 +1042,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnk
 
 trackerreport-meta-from-heading = Od
 trackerreport-meta-receivedat-heading = Obdržel
+trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 
 ## Modals
 
