@@ -997,7 +997,7 @@ tips-promo-email-blocking-content = S { -brand-name-relay-premium(case: "ins") }
 
 ## Onboarding
 
-onboarding-headline-2 = Vytvoření své první e-mailové masky
+onboarding-headline-2 = Vytvořte si svou první e-mailovou masku
 onboarding-alias-tip-1-2 = Klepnutím na tlačítko „Vygenerovat novou masku“ vytvořte svou masku.
 onboarding-alias-tip-2 = Za použití rozšíření { -brand-name-relay } klepněte na ikonu { -brand-name-firefox-relay(case: "gen") }, až se objeví v polích pro zadání e-mailové adresy.
 onboarding-alias-tip-3-2 = Za použití rozšíření { -brand-name-relay } klepněte pravým tlačítkem myši do formulářového pole a zvolte „Vygenerovat novou masku“.
