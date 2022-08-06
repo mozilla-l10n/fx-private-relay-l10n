@@ -1043,6 +1043,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnk
 trackerreport-meta-from-heading = Od
 trackerreport-meta-receivedat-heading = Obdržel
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 
 ## Modals
 
