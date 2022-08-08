@@ -220,6 +220,7 @@ landing-pricing-body-2 = Try { -brand-name-firefox-relay } email masks and start
 landing-pricing-free-price = Free
 landing-pricing-free-feature-1-2 = Up to 5 email masks
 landing-pricing-free-feature-2 = Browser extension
+landing-pricing-free-feature-3 = Email tracker removal
 landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
 landing-pricing-free-cta = Get { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -237,6 +238,7 @@ landing-pricing-premium-feature-3-2 = Your own email subdomain
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Reply to forwarded emails
 landing-pricing-premium-feature-5 = Block promotional emails
+landing-pricing-premium-feature-6 = Email tracker removal
 
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is not currently available in your country. Please share your email to be notified as soon as it is.
 landing-pricing-waitlist-cta = Join Waitlist
@@ -315,17 +317,23 @@ premium-promo-hero-body-2-html = With { -brand-name-firefox-relay-premium }, you
 premium-promo-hero-cta = Upgrade now
 premium-promo-availability-warning = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Switzerland, the UK, and the US.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, Finland, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Sweden, Switzerland, the UK, and the US.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } is available in Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Portugal, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and the United States.
 
 premium-promo-perks-headline = Why upgrade to { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = With { -brand-name-firefox-relay-premium }, you get all the inbox protection and management of { -brand-name-relay }, but with unlimited email masks and your own custom subdomain to make managing your inbox even easier.
 premium-promo-perks-cta-label = Upgrade now
 premium-promo-perks-cta-tooltip = Upgrade to { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = New!
 premium-promo-perks-perk-unlimited-headline-2 = Create unlimited email masks
 premium-promo-perks-perk-unlimited-body-2 = No more five-mask limit: with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox from spammers and online trackers. You can even reply to emails without exposing your true address.
 premium-promo-perks-perk-custom-domain-headline-2 = Choose your own custom subdomain
 premium-promo-perks-perk-custom-domain-body-2 = With a custom subdomain, you can create masks that are easier than ever to remember and share. Need one for restaurant reservations? Use one like food@mydomain.mozmail.com — No need to create the mask beforehand.
 premium-promo-perks-perk-dashboard-headline-2 = Control your masks from the dashboard
 premium-promo-perks-perk-dashboard-body-2 = Manage all your email masks in the easy-to-use dashboard: if you find that one receives unwanted messages, you can block those messages from reaching your inbox.
+premium-promo-perks-perk-block-promotionals-headline = Block promotional emails
+premium-promo-perks-perk-block-promotionals-body = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still receiving emails like receipts or shipping information.
+premium-promo-perks-perk-tracker-blocking-headline = Remove email trackers
+premium-promo-perks-perk-tracker-blocking-body = Now { -brand-name-relay } can help you stop email tracking — your email masks will remove common email trackers from any emails forwarded to you, helping you stay invisible to trackers and advertisers.
 
 premium-promo-use-cases-headline-2 = Use { -brand-name-relay } email masks anywhere
 premium-promo-use-cases-shopping-heading = Shopping
@@ -439,6 +447,7 @@ faq-question-1-answer-b-2-html = If you see a broader problem of unwanted email 
 faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
 faq-question-availability-answer-v2 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, Finland, France, Belgium, Austria, Spain, Italy, Sweden, Switzerland, the Netherlands, and Ireland.
+faq-question-availability-answer-v3 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Portugal, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and the United States.
 
 faq-question-4-question-2 = Can I reply to messages using my { -brand-name-relay } email mask?
 faq-question-4-answer-v4 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those copied on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
