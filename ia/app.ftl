@@ -147,6 +147,7 @@ whatsnew-feature-tracker-removal-heading = Introduction al remotion de traciator
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remover ab le emails inultrate le commun traciatores de email…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
 
 ## Bento Menu
@@ -315,6 +316,7 @@ premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-pre
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
 premium-promo-perks-cta-label = Promover ora
 premium-promo-perks-cta-tooltip = Promover a { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nove!
 premium-promo-perks-perk-unlimited-headline-2 = Crea illimitate mascas email
 premium-promo-perks-perk-unlimited-body-2 = Jammais plus limite de cinque-mascas: con { -brand-name-relay-premium }, tu pote generar quante mascas te besonia pro adjutar a proteger tu cassa de ingresso email ab le spammatores e traciatores online. Tu pote mesmo replicar al emails sin exponer tu ver adresse.
 premium-promo-perks-perk-custom-domain-headline-2 = Elige tu proprie subdominio personal
@@ -381,6 +383,7 @@ setting-api-key-copied = Copiate!
 setting-tracker-removal-heading = Remover traciatores de emails
 setting-tracker-removal-description = Remover traciatores de email in tote le emails inultrate.
 setting-tracker-removal-note = Ora { -brand-name-firefox-relay } pote remover ab le emails inultrate per tu mascas, le traciatores de email commun.
+# Deprecated
 setting-tracker-removal-warning = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
 
 ## FAQ Page
@@ -464,6 +467,7 @@ faq-question-disable-trackerremoval-answer = Si. Si tu ha difficultates con emai
 faq-question-bulk-trackerremoval-question = Pote io remover traciatores solo sur parte de mi mascas email?
 faq-question-bulk-trackerremoval-answer = Tu pote activar le remotion de traciatores solo al nivello de un conto: remover le traciatores de tote o nulle tu emails.
 faq-question-trackerremoval-breakage-question = Perque mi emails pare rupte?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Aliquando le remotion de traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra imagines. Quando le traciator es removite, le email pare que ha essite formattate errate perque imagines manca. Isto non pote esser corrigite pro le emails que tu ha jam recipite. Si isto te impedi le lectura correcte de tu emails, disactiva le remotion de traciatores.
 
 ## Profile Page (Logged In)
@@ -521,6 +525,7 @@ profile-label-replies = Responsas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Traciatores removite
 profile-trackers-removed-tooltip-part1 = Con le remotion de traciatores activate, commun traciatores de email sera removite de tu emails inultrate.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
 profile-label-cancel = Cancellar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste masca.
@@ -537,6 +542,7 @@ profile-stat-label-aliases-used-2 = Mascas email usate
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Traciatores removite
 profile-stat-label-trackers-learn-more-part1 = Activar le remotion de traciatores removera commun traciatores de email de tu emails inultrate.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
@@ -815,6 +821,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } pote ora
 trackerreport-trackers-explainer-heading = Re traciatores de email
 trackerreport-trackers-explainer-content-part1 = Le traciamento de emails es un commun instrumento de surveliantia e publicitate que es mantenite super multe cassas de ingresso. Iste traciatores pote esser usate pro comprender plus re tu comportamento online, tu interesses, e tu activitate email.
 trackerreport-trackers-explainer-content-part2 = Un compania o organisation incorporara un traciator in emails inviate a te, usualmente celate intra un imagine o un ligamine. Quando le email es aperite, le codice intra le traciator invia datos retro al compania.
+# Deprecated
 trackerreport-breakage-warning = Importante: Aliquando le remotion de traciatores pote causar que tu email appare rupte perque le traciatores es sovente continite intra imagines, que non sera cargate si illos contine un traciator.
 trackerreport-faq-heading = Questiones principal re traciatores de email
 trackerreport-faq-cta = Vide altere FAQs re { -brand-name-firefox-relay }
