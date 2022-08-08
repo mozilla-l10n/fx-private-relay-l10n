@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Neue Funktion: Entfernung von E-Mail-
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus weitergeleiteten E-Mails entfernen…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus an Sie weitergeleiteten E-Mails entfernen, sodass Sie für Werbetreibende unsichtbar bleiben.
+whatsnew-feature-tracker-removal-description-2 = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus an Sie weitergeleiteten E-Mails entfernen, sodass Sie für Werbetreibende unsichtbar bleiben. Unter „Einstellungen“ können Sie die Option aktivieren.
 
 ## Bento Menu
 
@@ -220,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Kostenlos
 landing-pricing-free-feature-1-2 = Bis zu fünf Alias-E-Mail-Masken
 landing-pricing-free-feature-2 = Browser-Erweiterung
+landing-pricing-free-feature-3 = Entfernung von E-Mail-Trackern
 landing-pricing-free-description = Probieren Sie { -brand-name-firefox-relay }-Masken aus und schützen Sie Ihr E-Mail-Postfach.
 landing-pricing-free-cta = Hole dir { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -236,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Ihre eigene E-Mail-Subdomain
 landing-pricing-premium-feature-3-subheader = ihreadresse@ihredomain.mozmail.com
 landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
 landing-pricing-premium-feature-5 = Werbe-E-Mails blockieren
+landing-pricing-premium-feature-6 = Entfernung von E-Mail-Trackern
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ist derzeit in Ihrem Land nicht verfügbar. Wenn Sie uns Ihre E-Mail-Adresse mitteilen, benachrichtigen wir Sie, sobald dies der Fall ist.
 landing-pricing-waitlist-cta = Auf Warteliste setzen
 
@@ -315,16 +319,22 @@ premium-promo-hero-body-2-html = Mit { -brand-name-firefox-relay-premium } erhal
 premium-promo-hero-cta = Jetzt upgraden
 premium-promo-availability-warning = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Finnland, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, Schweden, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
 premium-promo-perks-headline = Warum solltest du das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
 premium-promo-perks-lead-2 = Mit { -brand-name-firefox-relay-premium } erhalten Sie den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten E-Mail-Masken und ihrer eigenen benutzerdefinierten Domain, um die Verwaltung Ihres Posteingangs noch einfacher zu machen.
 premium-promo-perks-cta-label = Jetzt upgraden
 premium-promo-perks-cta-tooltip = Mache das Upgrade auf { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Neu!
 premium-promo-perks-perk-unlimited-headline-2 = Unbegrenzt viele E-Mail-Masken erstellen
 premium-promo-perks-perk-unlimited-body-2 = Keine Begrenzung auf fünf E-Mail-Masken mehr: Mit { -brand-name-relay-premium } können Sie so viele E-Mail-Masken generieren, wie Sie benötigen, um Ihren E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Sie können sogar auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben.
 premium-promo-perks-perk-custom-domain-headline-2 = Wählen Sie Ihre eigene benutzerdefinierte Subdomain
 premium-promo-perks-perk-custom-domain-body-2 = Mit einer benutzerdefinierten Domain können Sie Masken erstellen, die Sie sich leichter merken und teilen können. Benötigen Sie eine für Restaurantreservierungen? Verwenden Sie eine wie essen@meinedomain.mozmail.com – Sie müssen die Masken nicht vorher erstellen.
 premium-promo-perks-perk-dashboard-headline-2 = Steuern Sie Ihre Masken von der Übersicht
 premium-promo-perks-perk-dashboard-body-2 = Verwalten Sie alle Ihre Masken in der benutzerfreundlichen Übersicht: Wenn Sie feststellen, dass eine unerwünschte Nachrichten erhält, können Sie verhindern, dass diese Nachrichten Ihren Posteingang erreichen.
+premium-promo-perks-perk-block-promotionals-headline = Werbe-E-Mails blockieren
+premium-promo-perks-perk-block-promotionals-body = Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
+premium-promo-perks-perk-tracker-blocking-headline = E-Mail-Tracker entfernen
+premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kann Ihnen jetzt dabei helfen, E-Mail-Tracking zu stoppen – Ihre E-Mail-Masken entfernen gängige E-Mail-Tracker aus allen an Sie weitergeleiteten E-Mails, sodass Sie für Tracker und Werbetreibende unsichtbar bleiben.
 premium-promo-use-cases-headline-2 = Verwenden Sie überall E-Mail-Masken von { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Einkaufen
 premium-promo-use-cases-shopping-body-2 = Versuchen Sie, sich für Rabatte ohne Spam zu registrieren? Bündeln Sie Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten E-Mail-Masken, wie „mydeals@meinedomain.mozmail.com“.
@@ -385,7 +395,9 @@ setting-api-key-copied = Kopiert
 setting-tracker-removal-heading = E-Mail-Tracker entfernen
 setting-tracker-removal-description = Entfernen Sie E-Mail-Tracker in allen weitergeleiteten E-Mails.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kann jetzt gängige Tracker aus E-Mails entfernen, die über Ihre Masken weitergeleitet werden.
+# Deprecated
 setting-tracker-removal-warning = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
+setting-tracker-removal-warning-2 = Wichtig: Das Entfernen von Trackern kann dazu führen, dass Ihre E-Mail beschädigt aussieht, da Tracker oft in Bildern und Links enthalten sind. Alle E-Mails, die Sie auf diese Weise erhalten, können nicht repariert oder wiederhergestellt werden.
 
 ## FAQ Page
 
@@ -428,6 +440,7 @@ faq-question-1-answer-b-2-html = Wenn Sie feststellst, dass es bei all Ihren Mas
 faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-availability-answer-v2 = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Finnland, Frankreich, Belgien, Österreich, Spanien, Italien, Schweden, der Schweiz, den Niederlanden und Irland verfügbar.
+faq-question-availability-answer-v3 = Kostenloses { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
 faq-question-4-question-2 = Kann ich mit meiner E-Mail-Maske von { -brand-name-relay } auf Nachrichten antworten?
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine ursprüngliche E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn du nicht möchtest, dass deine ursprüngliche E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
@@ -468,7 +481,9 @@ faq-question-disable-trackerremoval-answer = Ja. Wenn Sie Probleme mit fehlerhaf
 faq-question-bulk-trackerremoval-question = Kann ich Tracker nur bei bestimmten E-Mail-Masken entfernen?
 faq-question-bulk-trackerremoval-answer = Sie können die Tracker-Entfernung nur auf Kontoebene aktivieren – entweder werden Tracker aus allen Ihren E-Mails entfernt oder aus keiner von ihnen.
 faq-question-trackerremoval-breakage-question = Warum sehen meine E-Mails beschädigt aus?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken enthalten sind. Wenn der Tracker entfernt wird, sieht die E-Mail so aus, als wäre sie falsch formatiert worden, weil Grafiken fehlen. bei bereits empfangenen E-Mails kann dies nicht mehr korrigiert werden. Wenn Sie Ihre E-Mails deswegen nicht richtig lesen können, deaktivieren Sie die Tracker-Entfernung.
+faq-question-trackerremoval-breakage-answer-2 = Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken und Links enthalten sind. Wenn der Tracker entfernt wird, sieht die E-Mail so aus, als wäre sie falsch formatiert worden, weil Grafiken fehlen. bei bereits empfangenen E-Mails kann dies nicht mehr korrigiert werden. Wenn Sie Ihre E-Mails deswegen nicht richtig lesen können, deaktivieren Sie die Tracker-Entfernung.
 
 ## Profile Page (Logged In)
 
@@ -525,7 +540,9 @@ profile-label-replies = Antworten
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Tracker entfernt
 profile-trackers-removed-tooltip-part1 = Wenn die Tracker-Entfernung aktiviert ist, werden gängige E-Mail-Tracker aus Ihren weitergeleiteten E-Mails entfernt.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
+profile-trackers-removed-tooltip-part2-2 = <b>Wichtig:</b> Das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken und Links enthalten sind.
 profile-label-cancel = Abbrechen
 profile-blocked-copy-2 = { -brand-name-firefox-relay } löscht Nachrichten, bevor sie Ihren Posteingang erreichen, wenn Sie für diese Maske „Blockieren“ auswählen.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } sendet E-Mails an Ihren Posteingang, wenn Sie für diese Maske „Weiterleiten“ auswählen.
@@ -541,7 +558,9 @@ profile-stat-label-aliases-used-2 = Verwendete E-Mail-Masken
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Tracker entfernt
 profile-stat-label-trackers-learn-more-part1 = Wenn Sie die Tracker-Entfernung aktivieren, werden gängige E-Mail-Tracker aus Ihren weitergeleiteten E-Mails entfernt.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
+profile-stat-label-trackers-learn-more-part2-2 = Wichtig: Das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken und Links enthalten sind.
 profile-filter-search-placeholder-2 = Masken durchsuchen
 profile-filter-category-button-label = Sichtbare Masken filtern
 profile-filter-category-button-tooltip = Filtern Sie Masken nach Subdomain und/oder ob sie derzeit eingehende E-Mails blockieren
@@ -819,7 +838,9 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kann jet
 trackerreport-trackers-explainer-heading = Über E-Mail-Tracker
 trackerreport-trackers-explainer-content-part1 = E-Mail-Tracking ist eine gängiges Werkzeug für Überwachung und Werbung, das für viele Posteingänge zum Problem geworden ist. Diese Tracker können verwendet werden, um mehr über Ihr Online-Verhalten, Ihre Interessen und Ihre E-Mail-Aktivitäten zu erfahren.
 trackerreport-trackers-explainer-content-part2 = Ein Unternehmen oder eine Organisation bettet einen Tracker in E-Mails ein, die an Sie gesendet werden, normalerweise versteckt in einer Grafik oder einem Link. Wenn die E-Mail geöffnet wird, sendet der Code im Tracker Daten an das Unternehmen zurück.
+# Deprecated
 trackerreport-breakage-warning = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken enthalten sind, die nicht geladen werden, wenn sie einen Tracker enthalten.
+trackerreport-breakage-warning-2 = Wichtig: Das Entfernen von Trackern kann dazu führen, dass Ihre E-Mail beschädigt aussieht, da Tracker oft in Bildern und Links enthalten sind. Alle E-Mails, die Sie auf diese Weise erhalten, können nicht repariert oder wiederhergestellt werden.
 trackerreport-faq-heading = Die häufigsten Fragen zu E-Mail-Trackern
 trackerreport-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 trackerreport-loading = Ihr Tracker-Entfernungsbericht wird geladen…
