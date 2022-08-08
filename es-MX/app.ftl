@@ -332,6 +332,9 @@ premium-promo-perks-perk-custom-domain-body-2 = Con un subdominio personalizado,
 premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el tablero
 premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras de correo electrónico en el panel fácil de usar: si encuentras que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
 premium-promo-perks-perk-block-promotionals-headline = Bloquear correos electrónicos promocionales
+premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu bandeja de entrada mientras sigues recibiendo correos electrónicos como recibos o información de envío de paquetería.
+premium-promo-perks-perk-tracker-blocking-headline = Eliminar rastreadores de correo electrónico
+premium-promo-perks-perk-tracker-blocking-body = Ahora { -brand-name-relay } puede ayudarte a detener el seguimiento del correo: tus máscaras de correo eliminarán los rastreadores de correo comunes de cualquier correo que se te reenvíe, lo que lo ayudará a mantenerse invisible para los rastreadores y los anunciantes.
 premium-promo-use-cases-headline-2 = Usa correos enmascarados de { -brand-name-relay } donde sea
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = ¿Quieres registrarte para obtener descuentos sin todo el spam? Empaqueta todas tus cuentas de “compra” en un correo enmascarado como “miscompras@midominio.mozmail.com.”
@@ -394,6 +397,7 @@ setting-tracker-removal-description = Elimina los rastreadores de correo electr�
 setting-tracker-removal-note = { -brand-name-firefox-relay } ahora puede eliminar rastreadores comunes de los correos electrónicos reenviados a través de tus máscaras.
 # Deprecated
 setting-tracker-removal-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
+setting-tracker-removal-warning-2 = Importante: la eliminación de rastreadores puede hacer que tu correo electrónico se vea roto porque los rastreadores a menudo se encuentran en imágenes y enlaces. Cualquier correo electrónico que recibas como este no se puede reparar ni recuperar.
 
 ## FAQ Page
 
@@ -436,6 +440,7 @@ faq-question-1-answer-b-2-html = Si ves un problema mayor de correo electrónico
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-availability-answer-v2 = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Finlandia, Francia, Bélgica, Austria, España, Italia, Suecia, Suiza, Países Bajos e Irlanda.
+faq-question-availability-answer-v3 = { -brand-name-relay } gratuito está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
 faq-question-4-question-2 = ¿Puedo responder mensajes usando mi correo enmascarado de { -brand-name-relay }?
 faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a la recepción del correo electrónico. Si agregas un CC o CCO cuando respondes a un correo electrónico, tu dirección de correo electrónico original estará expuesta al destinatario y a los que se hayan copiado en el correo electrónico. Si no deseas que se exponga tu dirección de correo electrónico original, no agregues CC o CCO al responder.
 faq-question-subdomain-characters-question = ¿Qué caracteres puedo usar para crear un subdominio?
@@ -478,6 +483,7 @@ faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación de
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
+faq-question-trackerremoval-breakage-answer-2 = A veces, la eliminación de rastreadores puede hacer que tu correo se vea dañado porque los rastreadores a menudo se encuentran dentro de imágenes y enlaces. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto le impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 
 ## Profile Page (Logged In)
 
@@ -536,6 +542,7 @@ profile-label-trackers-removed = Rastreadores eliminados
 profile-trackers-removed-tooltip-part1 = Con la eliminación de rastreadores habilitada, los rastreadores de correo electrónico comunes se eliminarán de tus correos electrónicos reenviados.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto porque los rastreadores a menudo se encuentran dentro de las imágenes.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> Quitar los rastreadores puede hacer que tu correo electrónico se vea dañado porque los rastreadores a menudo se encuentran dentro de imágenes y enlaces.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -553,6 +560,7 @@ profile-stat-label-trackers-removed = Rastreadores eliminados
 profile-stat-label-trackers-learn-more-part1 = Habilitar la eliminación de rastreadores eliminara los rastreadores de correo electrónico comunes de tus correos electrónicos reenviados.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: Eliminar los rastreadores puede hacer que tu correo electrónico se vea dañado porque los rastreadores a menudo se encuentran dentro de imágenes y enlaces.
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
@@ -832,6 +840,7 @@ trackerreport-trackers-explainer-content-part1 = Los rastreadores en el correo e
 trackerreport-trackers-explainer-content-part2 = Una empresa u organización incorporará un rastreador en los correos electrónicos que te envían, generalmente oculto dentro de una imagen o un enlace. Cuando se abre el correo electrónico, el código dentro del rastreador envía datos a la empresa.
 # Deprecated
 trackerreport-breakage-warning = Importante: A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto porque los rastreadores a menudo están contenidos en imágenes, que no se cargarán si contienen un rastreador.
+trackerreport-breakage-warning-2 = Importante: la eliminación de rastreadores puede hacer que tu correo electrónico se vea roto porque los rastreadores a menudo se encuentran en imágenes y enlaces. Cualquier correo electrónico que recibas como este no se puede reparar ni recuperar.
 trackerreport-faq-heading = Preguntas principales sobre los rastreadores de correo electrónico
 trackerreport-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
 trackerreport-loading = Cargando el informe de eliminación de rastreadores…
