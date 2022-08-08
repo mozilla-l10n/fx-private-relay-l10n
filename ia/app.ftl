@@ -393,6 +393,7 @@ setting-tracker-removal-description = Remover traciatores de email in tote le em
 setting-tracker-removal-note = Ora { -brand-name-firefox-relay } pote remover ab le emails inultrate per tu mascas, le traciatores de email commun.
 # Deprecated
 setting-tracker-removal-warning = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
+setting-tracker-removal-warning-2 = Importante: le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite in imagines e ligamines. Ulle emails que tu recipe assi non pote esser corrigite o remediate.
 
 ## FAQ Page
 
@@ -435,6 +436,7 @@ faq-question-1-answer-b-2-html = Si tu vide un plus ample problema de email inde
 faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapore, Malaysia, Nove Zelanda, Francia, Belgio, Austria, Espania, Italia, Suissa, Hollanda e Irlanda.
 faq-question-availability-answer-v2 = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapur, Malaya, Nove Zelanda, Finlandia, Francia, Belgio, Austria, Espania, Italia, Svedia, Suissa, Hollanda e Irlanda.
+faq-question-availability-answer-v3 = { -brand-name-relay } gratuite es disponibile in le major parte del paises. { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite.
 faq-question-4-question-2 = Pote io responder a messages usante mi masca email de { -brand-name-relay }?
 faq-question-4-answer-v4 = Le usatores de { -brand-name-relay-premium } pote replicar a un e-mail inultrate intra 3 menses de reciper lo. Si tu adde un CC o CCN quando tu replica retro a un e-mail, tu original adresse e-mail sera exponite al destinatario e a illes copiate super le e-mail. Si tu non vole que tu original adresse e-mail sia exponite, non adder CCs o Ccn quando responde.
 faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
@@ -477,6 +479,7 @@ faq-question-bulk-trackerremoval-answer = Tu pote activar le remotion de traciat
 faq-question-trackerremoval-breakage-question = Perque mi emails pare rupte?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Aliquando le remotion de traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra imagines. Quando le traciator es removite, le email pare que ha essite formattate errate perque imagines manca. Isto non pote esser corrigite pro le emails que tu ha jam recipite. Si isto te impedi le lectura correcte de tu emails, disactiva le remotion de traciatores.
+faq-question-trackerremoval-breakage-answer-2 = Aliquando le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite intra imagines e ligamines. Quando le traciator es removite, le email pare formattate errate perque manca imagines. Isto non pote esser corrigite pro le emails que tu ha jam recipite. Si isto te impedi le lectura correcte de tu emails, disactiva le remotion de traciatores.
 
 ## Profile Page (Logged In)
 
@@ -535,6 +538,7 @@ profile-label-trackers-removed = Traciatores removite
 profile-trackers-removed-tooltip-part1 = Con le remotion de traciatores activate, commun traciatores de email sera removite de tu emails inultrate.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite intra imagines e ligamines.
 profile-label-cancel = Cancellar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste masca.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste masca.
@@ -552,6 +556,7 @@ profile-stat-label-trackers-removed = Traciatores removite
 profile-stat-label-trackers-learn-more-part1 = Activar le remotion de traciatores removera commun traciatores de email de tu emails inultrate.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: aliquando remover traciatores pote causar que tu email appare rupte, perque le traciatores es sovente continite intra le imagines.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite intra imagines e ligamines.
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
 profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos actualmente bloca le emails arrivante.
@@ -831,6 +836,7 @@ trackerreport-trackers-explainer-content-part1 = Le traciamento de emails es un 
 trackerreport-trackers-explainer-content-part2 = Un compania o organisation incorporara un traciator in emails inviate a te, usualmente celate intra un imagine o un ligamine. Quando le email es aperite, le codice intra le traciator invia datos retro al compania.
 # Deprecated
 trackerreport-breakage-warning = Importante: Aliquando le remotion de traciatores pote causar que tu email appare rupte perque le traciatores es sovente continite intra imagines, que non sera cargate si illos contine un traciator.
+trackerreport-breakage-warning-2 = Importante: le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite in imagines e ligamines. Ulle emails que tu recipe assi non pote esser corrigite o remediate.
 trackerreport-faq-heading = Questiones principal re traciatores de email
 trackerreport-faq-cta = Vide altere FAQs re { -brand-name-firefox-relay }
 trackerreport-loading = Cargante tu reporto de remotion de traciatores…
