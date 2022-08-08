@@ -149,6 +149,7 @@ whatsnew-feature-tracker-removal-heading = Introduction al remotion de traciator
 whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remover ab le emails inultrate le commun traciatores de email…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
+whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun, adjutante te a remaner invisibile al publicitate, adjutante te a remaner invisibile al publicitate. Activa lo in “Parametros.”
 
 ## Bento Menu
 
@@ -217,6 +218,7 @@ landing-pricing-body-2 = Prova le mascas email de { -brand-name-firefox-relay } 
 landing-pricing-free-price = Libere
 landing-pricing-free-feature-1-2 = Usque 5 mascas e-mail
 landing-pricing-free-feature-2 = Extension de navigator
+landing-pricing-free-feature-3 = Remotion de traciatores de emails
 landing-pricing-free-description = Proba le mascas de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata email.
 landing-pricing-free-cta = Discarga { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -233,6 +235,7 @@ landing-pricing-premium-feature-3-2 = Tu proprie subdominio e-mail
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Replica al e-mails inultrate
 landing-pricing-premium-feature-5 = Blocar e-mails promotional
+landing-pricing-premium-feature-6 = Remotion de traciatores de emails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
 landing-pricing-waitlist-cta = Junge te al lista de attendentia
 
@@ -312,6 +315,7 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu r
 premium-promo-hero-cta = Promover ora
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite
 premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
 premium-promo-perks-cta-label = Promover ora
@@ -323,6 +327,10 @@ premium-promo-perks-perk-custom-domain-headline-2 = Elige tu proprie subdominio 
 premium-promo-perks-perk-custom-domain-body-2 = Con un subdominio personal, tu pote crear mascas que es plus facile que mais a rememorar e compartir. Besonia tu de un pro reservationes de restaurante? Usa un como alimentos@mydomain.mozmail.com — Nulle besonio de crear le alias previemente.
 premium-promo-perks-perk-dashboard-headline-2 = Controla tu mascas ab le pannello de controlo
 premium-promo-perks-perk-dashboard-body-2 = Gere tote tu mascas email in le pannello de controlo facile a usar: si tu trova que un recipe messages indesirate, tu pote blocar ille messages de attinger tu cassa de ingresso.
+premium-promo-perks-perk-block-promotionals-headline = Blocar emails promotional
+premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, tu pote obstruer al emails promotional de attinger tu cassa de ingresso dum ancora recipe emails como quitantias o informationes de expedition.
+premium-promo-perks-perk-tracker-blocking-headline = Remover traciatores de emails
+premium-promo-perks-perk-tracker-blocking-body = Ora { -brand-name-relay } pote adjutar te a stoppar le traciamento per emails: tu mascas email removera commun traciatores de email de ulle emails inultrate a te, e te adjutara a remaner invisibile al traciatores e al publicitarios.
 premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal mascas email personalisate, como “mydeals@mydomain.mozmail.com.”
