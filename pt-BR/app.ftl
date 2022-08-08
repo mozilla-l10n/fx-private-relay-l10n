@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Apresentamos a remoção de rastreado
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes.
+whatsnew-feature-tracker-removal-description-2 = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes. Ative em “Configurações”.
 
 ## Bento Menu
 
@@ -220,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratuito
 landing-pricing-free-feature-1-2 = Até 5 máscaras de email
 landing-pricing-free-feature-2 = Extensão do navegador
+landing-pricing-free-feature-3 = Remoção de rastreadores de email
 landing-pricing-free-description = Experimente as máscaras do { -brand-name-firefox-relay } e comece a proteger a caixa de entrada de seu email.
 landing-pricing-free-cta = Instale o { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -236,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Seu próprio subdomínio de email
 landing-pricing-premium-feature-3-subheader = seuemail@seudominio.mozmail.com
 landing-pricing-premium-feature-4 = Responder a emails encaminhados
 landing-pricing-premium-feature-5 = Bloquear emails promocionais
+landing-pricing-premium-feature-6 = Remoção de rastreadores de email
 landing-pricing-waitlist-description = No momento o { -brand-name-firefox-relay-premium } não está disponível em seu país. Inscreva seu email para ser notificado assim que estiver disponível.
 landing-pricing-waitlist-cta = Entrar na lista de espera
 
@@ -315,10 +319,12 @@ premium-promo-hero-body-2-html = Com o { -brand-name-firefox-relay-premium } voc
 premium-promo-hero-cta = Mude agora para a versão premium
 premium-promo-availability-warning = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e Estados Unidos.
 premium-promo-availability-warning-2 = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, Finlândia, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
+premium-promo-availability-warning-3 = O { -brand-name-relay-premium } está disponível na Áustria, Bélgica, Canadá, Chipre, Estônia, Finlândia, França, Alemanha, Grécia, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Portugal, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
 premium-promo-perks-headline = Por que mudar para o { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Com o { -brand-name-firefox-relay-premium } você tem todo o gerenciamento e proteção de caixa de entrada do { -brand-name-relay }, mas com máscaras de email ilimitadas e seu próprio subdomínio personalizado, facilitando ainda mais o controle de sua caixa de entrada.
 premium-promo-perks-cta-label = Mude agora para a versão premium
 premium-promo-perks-cta-tooltip = Mudar para o { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Novidade!
 premium-promo-perks-perk-unlimited-headline-2 = Crie máscaras de email ilimitadas
 premium-promo-perks-perk-unlimited-body-2 = Chega de limite de máscaras. Com o { -brand-name-relay-premium }, você pode criar quantas  máscaras precisar para ajudar a proteger sua caixa de entrada de spam e rastreadores. Você pode até responder aos emails sem expor seu endereço real.
 premium-promo-perks-perk-custom-domain-headline-2 = Escolha seu próprio subdomínio personalizado
@@ -385,6 +391,7 @@ setting-api-key-copied = Copiado!
 setting-tracker-removal-heading = Remover rastreadores de email
 setting-tracker-removal-description = Remove rastreadores de email em todos os emails encaminhados.
 setting-tracker-removal-note = Agora o { -brand-name-firefox-relay } pode remover rastreadores comuns de emails encaminhados por suas máscaras.
+# Deprecated
 setting-tracker-removal-warning = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 
 ## FAQ Page
@@ -468,6 +475,7 @@ faq-question-disable-trackerremoval-answer = Sim. Caso você tenha problemas com
 faq-question-bulk-trackerremoval-question = Posso remover rastreadores apenas em algumas das minhas máscaras de email?
 faq-question-bulk-trackerremoval-answer = A ativação de remoção de rastreadores é configuração da conta, rastreadores são removidos de todos os seus emails ou de nenhum.
 faq-question-trackerremoval-breakage-question = Por que meus emails parecem errados?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens. Quando um rastreador é removido, o email pode parecer ter sido formatado incorretamente porque faltam imagens. Isso não pode ser corrigido em emails que você já recebeu. Se estiver atrapalhando a leitura de emails, desative a remoção de rastreadores.
 
 ## Profile Page (Logged In)
@@ -525,6 +533,7 @@ profile-label-replies = Respostas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Rastreadores removidos
 profile-trackers-removed-tooltip-part1 = Com a remoção de rastreadores ativada, rastreadores comuns de email são removidos de emails encaminhados a você.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = O { -brand-name-firefox-relay } exclui mensagens antes que cheguem à sua caixa de entrada quando você seleciona bloqueio desta máscara.
@@ -541,6 +550,7 @@ profile-stat-label-aliases-used-2 = Máscaras de email usadas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores removidos
 profile-stat-label-trackers-learn-more-part1 = Ativar a remoção de rastreadores remove rastreadores comuns de emails encaminhados a você.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
@@ -815,6 +825,7 @@ trackerreport-removal-explainer-content = Agora o { -brand-name-firefox-relay } 
 trackerreport-trackers-explainer-heading = Sobre rastreadores de email
 trackerreport-trackers-explainer-content-part1 = O rastreamento de email é uma ferramenta comum de vigilância e publicidade que assumiu o controle de muitas caixas de entrada. Esses rastreadores podem ser usados para entender mais sobre seu comportamento online, seus interesses e sua atividade de email.
 trackerreport-trackers-explainer-content-part2 = Uma empresa ou organização incorpora um rastreador em emails enviados a você, geralmente ocultos em uma imagem ou link. Quando o email é aberto, o código dentro do rastreador envia dados de volta para a empresa.
+# Deprecated
 trackerreport-breakage-warning = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens, que não são carregadas se tiverem um rastreador.
 trackerreport-faq-heading = Principais dúvidas sobre rastreadores de email
 trackerreport-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
