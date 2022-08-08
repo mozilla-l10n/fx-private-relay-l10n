@@ -397,6 +397,7 @@ setting-tracker-removal-description = Remove rastreadores de email em todos os e
 setting-tracker-removal-note = Agora o { -brand-name-firefox-relay } pode remover rastreadores comuns de emails encaminhados por suas máscaras.
 # Deprecated
 setting-tracker-removal-warning = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
+setting-tracker-removal-warning-2 = Importante: A remoção de rastreadores pode atrapalhar a formatação de emails, pois os rastreadores geralmente ficam em imagens e links. Qualquer email que você receber assim não pode ser corrigido nem recuperado.
 
 ## FAQ Page
 
@@ -439,6 +440,7 @@ faq-question-1-answer-b-2-html = Se perceber um problema mais amplo de emails in
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
 faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
 faq-question-availability-answer-v2 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, Finlândia, França, Bélgica, Áustria, Espanha, Itália, Suécia, Suíça, Holanda e Irlanda.
+faq-question-availability-answer-v3 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível na Áustria, Bélgica, Canadá, Chipre, Estônia, Finlândia, França, Alemanha, Grécia, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Portugal, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
 faq-question-4-question-2 = Posso responder a mensagens usando minha máscara de email do { -brand-name-relay }?
 faq-question-4-answer-v4 = Usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder a um email, seu endereço de email original é exposto aos destinatários e aos que recebem cópia. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 faq-question-subdomain-characters-question = Que caracteres posso usar para criar um subdomínio?
@@ -481,6 +483,7 @@ faq-question-bulk-trackerremoval-answer = A ativação de remoção de rastreado
 faq-question-trackerremoval-breakage-question = Por que meus emails parecem errados?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens. Quando um rastreador é removido, o email pode parecer ter sido formatado incorretamente porque faltam imagens. Isso não pode ser corrigido em emails que você já recebeu. Se estiver atrapalhando a leitura de emails, desative a remoção de rastreadores.
+faq-question-trackerremoval-breakage-answer-2 = Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens e links. Quando um rastreador é removido, o email pode parecer ter sido formatado incorretamente porque faltam imagens. Isso não pode ser corrigido em emails que você já recebeu. Se estiver atrapalhando a leitura de emails, desative a remoção de rastreadores.
 
 ## Profile Page (Logged In)
 
@@ -539,6 +542,7 @@ profile-label-trackers-removed = Rastreadores removidos
 profile-trackers-removed-tooltip-part1 = Com a remoção de rastreadores ativada, rastreadores comuns de email são removidos de emails encaminhados a você.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> A remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens e links.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = O { -brand-name-firefox-relay } exclui mensagens antes que cheguem à sua caixa de entrada quando você seleciona bloqueio desta máscara.
 profile-forwarded-copy-2 = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento desta máscara.
@@ -556,6 +560,7 @@ profile-stat-label-trackers-removed = Rastreadores removidos
 profile-stat-label-trackers-learn-more-part1 = Ativar a remoção de rastreadores remove rastreadores comuns de emails encaminhados a você.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: A remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens e links.
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
@@ -831,6 +836,7 @@ trackerreport-trackers-explainer-content-part1 = O rastreamento de email é uma 
 trackerreport-trackers-explainer-content-part2 = Uma empresa ou organização incorpora um rastreador em emails enviados a você, geralmente ocultos em uma imagem ou link. Quando o email é aberto, o código dentro do rastreador envia dados de volta para a empresa.
 # Deprecated
 trackerreport-breakage-warning = Importante: Às vezes, a remoção de rastreadores pode fazer com que um email pareça errado, porque geralmente os rastreadores estão contidos em imagens, que não são carregadas se tiverem um rastreador.
+trackerreport-breakage-warning-2 = Importante: A remoção de rastreadores pode atrapalhar a formatação de emails, pois os rastreadores geralmente ficam em imagens e links. Qualquer email que você receber assim não pode ser corrigido nem recuperado.
 trackerreport-faq-heading = Principais dúvidas sobre rastreadores de email
 trackerreport-faq-cta = Mais perguntas frequentes sobre o { -brand-name-firefox-relay }
 trackerreport-loading = Carregando seu relatório de remoção de rastreadores…
