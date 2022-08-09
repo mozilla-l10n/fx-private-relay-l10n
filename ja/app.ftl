@@ -55,6 +55,7 @@ nav-profile-sign-out-confirm = 本当にログアウトしますか？
 nav-profile-settings = 設定
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } を設定する
 nav-profile-help = ヘルプとサポート
+nav-profile-help-tooltip = { -brand-name-relay } のサポートを表示
 # This is only visible to Premium users.
 nav-profile-contact = お問い合わせ
 # This is only visible to Premium users.
@@ -97,6 +98,7 @@ whatsnew-tab-archive-label = 履歴
 whatsnew-footer-clear-all-label = すべて消去
 whatsnew-footer-back-label = 戻る
 whatsnew-footer-learn-more-label = 詳細情報
+whatsnew-empty-message = 常に { -brand-name-relay } をより良くするために新機能を取り組んでいます。また後でここ確認しに戻ってきてください。
 whatsnew-feature-size-limit-heading = 添付ファイル最大サイズの増加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -140,6 +142,7 @@ how-it-works-step-1-headline = 拡張機能を入手
 
 ## Hero Section
 
+landing-hero-headline-2 = 本当のメールアドレスを保護して、受信トレイを管理しましょう
 
 ## How it works section
 
