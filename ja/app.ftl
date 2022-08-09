@@ -155,9 +155,16 @@ landing-hero-headline-2 = 本当のメールアドレスを保護して、受信
 
 landing-pricing-free-feature-1-2 = 最大 5 つのメールマスク
 landing-pricing-free-feature-2 = ブラウザー拡張機能
+# This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+landing-pricing-free-ribbon = 今すぐ利用可能！
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-premium-price = { $monthly_price }/月
 landing-pricing-premium-feature-1-2 = メールマスク無制限
 landing-pricing-premium-feature-2 = ブラウザー拡張機能
 landing-pricing-premium-feature-3-2 = 自分のメールドメイン利用
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 転送されたメールへの返信
 
 ## Use Cases
@@ -171,15 +178,22 @@ landing-pricing-premium-feature-4 = 転送されたメールへの返信
 
 ## Premium promo page
 
+premium-promo-hero-cta = 今すぐアップグレード
+premium-promo-perks-cta-label = 今すぐアップグレード
 
 ## The Premium waitlist page
 
+waitlist-lead = お住まいの地域で { -brand-name-firefox-relay-premium } が利用可能になったときに通知を受け取りましょう。
 waitlist-control-required = 必須
 waitlist-control-email-label = メールアドレス
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = どこの国に住んでいますか？
 waitlist-control-locale-label = ご希望の言語を選択してください。
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = “{ waitlist-submit-label }” をクリックすると、<a>プライバシーポリシー</a> に同意したものみなします。
+waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefox-relay-premium } の利用についての通知のみに使用されます。
 
 ## Settings page
 
