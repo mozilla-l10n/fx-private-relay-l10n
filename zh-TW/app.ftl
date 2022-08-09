@@ -308,6 +308,7 @@ premium-promo-perks-perk-dashboard-body-2 = 透過簡單好用的儀錶板管理
 premium-promo-perks-perk-block-promotionals-headline = 封鎖行銷郵件
 premium-promo-perks-perk-block-promotionals-body = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除郵件追蹤器
+premium-promo-perks-perk-tracker-blocking-body = 現在起，{ -brand-name-relay } 可幫助您防止透過電子郵件被追蹤 — 轉寄信箱將自動從轉寄給您的信件中移除常見的追蹤器，幫助您確保對追蹤器與廣告商保持隱形。
 premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
 premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
@@ -370,6 +371,7 @@ setting-tracker-removal-description = 移除轉寄郵件當中的電子郵件追
 setting-tracker-removal-note = 現在起，{ -brand-name-firefox-relay } 可移除轉寄郵件當中常見的追蹤器。
 # Deprecated
 setting-tracker-removal-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
+setting-tracker-removal-warning-2 = 重要：移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片與鏈結當中。若郵件已經變得不正常，就無法再恢復或還原。
 
 ## FAQ Page
 
