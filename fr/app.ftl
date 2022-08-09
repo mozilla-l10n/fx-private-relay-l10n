@@ -76,6 +76,7 @@ nav-settings = Paramètres
 nav-support = Aide et assistance
 nav-sign-out = Déconnexion
 nav-contact = Nous contacter
+nav-menu-mobile = Menu mobile
 fx-desktop-2 = { -brand-name-firefox } pour ordinateur
 fx-mobile-2 = { -brand-name-firefox } pour mobile
 
@@ -150,6 +151,7 @@ whatsnew-feature-tracker-removal-heading = Suppression des traqueurs dans les e-
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs.
 
 ## Bento Menu
@@ -320,12 +322,15 @@ premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-pr
 premium-promo-perks-lead-2 = Avec { -brand-name-firefox-relay-premium }, non seulement vous bénéficiez de tous les avantages de la protection et de la gestion de la boîte de réception de { -brand-name-relay }, mais aussi d’un nombre illimité d’alias de messagerie et de votre propre sous-domaine personnalisé pour faciliter comme jamais la gestion de votre boîte de réception.
 premium-promo-perks-cta-label = Mettre à niveau maintenant
 premium-promo-perks-cta-tooltip = Passez à { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nouveau !
 premium-promo-perks-perk-unlimited-headline-2 = Créer un nombre illimité d’alias de messagerie
 premium-promo-perks-perk-unlimited-body-2 = Finie la limite des cinq alias : avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour vous permettre de protéger votre boîte de réception des spammeurs et des traqueurs. Vous pouvez même répondre aux messages sans exposer votre vraie adresse e-mail.
 premium-promo-perks-perk-custom-domain-headline-2 = Choisir son sous-domaine personnalisé
 premium-promo-perks-perk-custom-domain-body-2 = Avec un sous-domaine personnalisé, vous pouvez créer autant d’alias plus faciles que jamais à retenir et partager. Vous en avez besoin d’un pour réserver une table au restaurant ? Utilisez un alias tel que resto@mondomaine.mozmail.com — nul besoin de le créer avant de l’utiliser.
 premium-promo-perks-perk-dashboard-headline-2 = Contrôler les alias depuis le tableau de bord
 premium-promo-perks-perk-dashboard-body-2 = Gérez tous vos alias dans le tableau de bord si pratique : si vous trouvez que l’un d’eux reçoit des messages non sollicités, vous pouvez empêcher ceux-ci d’arriver dans votre boîte de réception.
+premium-promo-perks-perk-block-promotionals-headline = Bloquer les e-mails promotionnels
+premium-promo-perks-perk-tracker-blocking-headline = Supprimer les traqueurs des e-mails
 premium-promo-use-cases-headline-2 = Utiliser partout les alias de messagerie de { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Achats en ligne
 premium-promo-use-cases-shopping-body-2 = Vous essayez de vous inscrire à des promotions sans que cela vous inonde de spams ? Regroupez vos comptes d’« achats en ligne » sous des alias personnalisés uniques, comme « mesoffres@mondomaine.mozmail.com ».
@@ -386,6 +391,7 @@ setting-api-key-copied = Copiée !
 setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
 setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
 setting-tracker-removal-note = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie.
+# Deprecated
 setting-tracker-removal-warning = Important : Parfois, la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans les images.
 
 ## FAQ Page
@@ -469,6 +475,7 @@ faq-question-disable-trackerremoval-answer = Oui. Si vous avez des soucis avec d
 faq-question-bulk-trackerremoval-question = Puis-je supprimer les traqueurs seulement sur certains de mes alias de messagerie ?
 faq-question-bulk-trackerremoval-answer = Vous ne pouvez activer la suppression des traqueurs qu’au niveau du compte — soit les supprimer sur toutes vos adresses e-mail, soit sur aucune.
 faq-question-trackerremoval-breakage-question = Que faire si mes e-mails semblent cassés ?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Quand le traqueur est supprimé, l’e-mail semble être mal formaté car il y manque ces images. Il n’est pas possible de corriger cela pour des e-mails déjà reçus. Si cette fonctionnalité vous empêche de lire correctement vos e-mails, désactivez la suppression des traqueurs.
 
 ## Profile Page (Logged In)
@@ -526,6 +533,7 @@ profile-label-replies = Réponses
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Traqueurs supprimés
 profile-trackers-removed-tooltip-part1 = Avec la suppression des traqueurs activée, les traqueurs d’e-mail courants sont supprimés de vos e-mails transférés.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
 profile-label-cancel = Annuler
 profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
@@ -542,6 +550,7 @@ profile-stat-label-aliases-used-2 = Alias de messagerie utilisés
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Traqueurs supprimés
 profile-stat-label-trackers-learn-more-part1 = Activer la suppression des traqueurs supprime les traqueurs d’e-mail courants de vos messages transférés.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
 profile-filter-search-placeholder-2 = Rechercher des alias
 profile-filter-category-button-label = Filtrer les alias visibles
@@ -812,6 +821,7 @@ trackerreport-removal-explainer-heading = Fonctionnement de la suppression des t
 trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
 trackerreport-faq-heading = Questions les plus fréquentes sur les traqueurs dans les e-mails
 trackerreport-loading = Chargement du rapport de suppression des traqueurs…
+trackerreport-load-error = Une erreur s’est produite lors de la génération du rapport de suppression des traqueurs. Veuillez actualiser la page pour réessayer.
 
 ## Modals
 
