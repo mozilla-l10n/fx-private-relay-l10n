@@ -328,6 +328,7 @@ premium-promo-perks-headline = Зачем переходить на { -brand-nam
 premium-promo-perks-lead-2 = С { -brand-name-firefox-relay-premium } вы получите полную защиту и управление почтовым ящиком от { -brand-name-relay }, но с неограниченным числом псевдонимов электронной почты и собственным поддоменом, который сделает управление входящими ещё проще.
 premium-promo-perks-cta-label = Перейти сейчас
 premium-promo-perks-cta-tooltip = Перейти на { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Новое!
 premium-promo-perks-perk-unlimited-headline-2 = Создавайте неограниченное число псевдонимов электронной почты
 premium-promo-perks-perk-unlimited-body-2 = Больше никакого ограничения в пять псевдонимов: с { -brand-name-relay-premium } вы сможете создавать сколько угодно псевдонимов для защиты своего электронного почтового ящика от спамеров и онлайн-трекеров. Вы даже сможете отвечать на письма, не раскрывая свой настоящий адрес.
 premium-promo-perks-perk-custom-domain-headline-2 = Выбирайте собственный поддомен
