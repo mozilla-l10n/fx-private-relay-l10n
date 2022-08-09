@@ -397,6 +397,7 @@ setting-tracker-removal-description = Az e-mail-követők eltávolítása az ös
 setting-tracker-removal-note = A { -brand-name-firefox-relay } mostantól eltávolíthatja a gyakori nyomkövetőket a maszkokon keresztül továbbított e-mailekből.
 # Deprecated
 setting-tracker-removal-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
+setting-tracker-removal-warning-2 = Fontos: Ha eltávolítja a nyomkövetőket, az e-mailje hibásnak tűnhet, mivel a nyomkövetők gyakran a képekben és a hivatkozásokban találhatók. Az ehhez hasonló e-maileket nem lehet javítani vagy helyreállítani.
 
 ## FAQ Page
 
@@ -439,6 +440,7 @@ faq-question-1-answer-b-2-html = Ha az összes maszkjáról érkező nem kíván
 faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
 faq-question-availability-answer = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svájcban, Hollandiában és Írországban érhető el.
 faq-question-availability-answer-v2 = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Finnországban, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svédországban, Svájcban, Hollandiában és Írországban érhető el.
+faq-question-availability-answer-v3 = Az ingyenes { -brand-name-relay } elérhető a legtöbb országban. A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
 faq-question-4-question-2 = Válaszolhatok az üzenetekre a { -brand-name-relay } e-mail-maszkom használatával?
 faq-question-4-answer-v4 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és a másolatot kapók számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
 faq-question-subdomain-characters-question = Milyen karaktereket használhatok aldomain létrehozásánál?
@@ -481,6 +483,7 @@ faq-question-bulk-trackerremoval-answer = A nyomkövetők eltávolítását csak
 faq-question-trackerremoval-breakage-question = Miért tűnnek hibásnak az e-mailjeim?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Néha a követők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a követők gyakran a képekben találhatók. A nyomkövető eltávolításakor úgy tűnik, hogy az e-mail rosszul lett formázva, mert hiányoznak a képek. Ez nem javítható a már megkapott e-maileknél. Ha ez akadályozza az e-mailek megfelelő olvasását, kapcsolja ki a követők eltávolítását.
+faq-question-trackerremoval-breakage-answer-2 = Néha a követők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a követők gyakran a képekben vagy hivatkozásokban találhatók. A nyomkövető eltávolításakor úgy tűnik, hogy az e-mail rosszul lett formázva, mert hiányoznak a képek. Ez nem javítható a már megkapott e-maileknél. Ha ez akadályozza az e-mailek megfelelő olvasását, kapcsolja ki a követők eltávolítását.
 
 ## Profile Page (Logged In)
 
@@ -539,6 +542,7 @@ profile-label-trackers-removed = Eltávolított követők
 profile-trackers-removed-tooltip-part1 = Ha a követők eltávolítása engedélyezve van, akkor a gyakori e-mail-követők eltávolításra kerülnek a továbbított levelekből.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
+profile-trackers-removed-tooltip-part2-2 = <b>Fontos:</b> A nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran a képekben vagy hivatkozásokban találhatók.
 profile-label-cancel = Mégse
 profile-blocked-copy-2 = Ha a blokkolást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
 profile-forwarded-copy-2 = Ha a továbbítást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } a postaládájába küldi a leveleket.
@@ -556,6 +560,7 @@ profile-stat-label-trackers-removed = Eltávolított követők
 profile-stat-label-trackers-learn-more-part1 = A követők eltávolításának engedélyezése eltávolítja a gyakori e-mail-követőket a továbbított levelekből.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
+profile-stat-label-trackers-learn-more-part2-2 = Fontos: A nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran a képekben vagy hivatkozásokban találhatók
 profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
 profile-filter-category-button-tooltip = Szűrje a maszkokat aldomain szerint vagy aszerint, hogy blokkolják-e a bejövő e-maileket
@@ -835,6 +840,7 @@ trackerreport-trackers-explainer-content-part1 = Az e-mail-követés egy elterje
 trackerreport-trackers-explainer-content-part2 = Egy vállalat vagy szervezet nyomkövetőt ágyaz be az Önnek küldött e-mailekbe, általában egy képbe vagy hivatkozásba rejtve. Az e-mail megnyitásakor a követőben található kód visszaküldi az adatokat a cégnek.
 # Deprecated
 trackerreport-breakage-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók, melyek nem fognak betöltődni, ha követőt tartalmaznak.
+trackerreport-breakage-warning-2 = Fontos: Ha eltávolítja a nyomkövetőket, az e-mailje hibásnak tűnhet, mivel a nyomkövetők gyakran a képekben és a hivatkozásokban találhatók. Az ehhez hasonló e-maileket nem lehet javítani vagy helyreállítani.
 trackerreport-faq-heading = A leggyakoribb kérdések az e-mail-követőkkel kapcsolatban
 trackerreport-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
 trackerreport-loading = A követőeltávolítási jelentés betöltése…
