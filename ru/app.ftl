@@ -732,6 +732,8 @@ onboarding-alias-tip-3-2 = При использовании расширени�
 ## Premium Onboarding
 
 onboarding-premium-headline = Добро пожаловать в { -brand-name-firefox } { -brand-name-relay-premium }
+# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
+onboarding-premium-subheadline-html = Теперь вы можете <strong>контролировать</strong> каждое письмо, которое попадает в ваш почтовый ящик.
 onboarding-premium-feature-intro = C { -brand-name-firefox } { -brand-name-relay-premium } вы можете:
 onboarding-premium-control-title = Контролировать, какие электронные письма получаете
 onboarding-premium-control-description-2 = Использовать неограниченное число псевдонимов электронной почты, которые пересылают действительно нужные письма в ваш почтовый ящик.
@@ -747,6 +749,7 @@ onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы 
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Шаг { $step } из { $max }.
 multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline = Теперь вы можете контролировать каждое письмо, которое попадает в ваш почтовый ящик.
 multi-part-onboarding-premium-welcome-title = Контролируйте, какие электронные письма получаете:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Создавайте неограниченное число псевдонимов электронной почты:
 multi-part-onboarding-premium-welcome-button-start = Приступим
