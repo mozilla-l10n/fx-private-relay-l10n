@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Bemutatjuk az e-mail-követők eltáv
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket a továbbított e-mailekből…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára.
+whatsnew-feature-tracker-removal-description-2 = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára. Kapcsolja be a „Beállításokban”.
 
 ## Bento Menu
 
@@ -220,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Ingyenes
 landing-pricing-free-feature-1-2 = Akár 5 e-mail-maszk
 landing-pricing-free-feature-2 = Böngészőkiegészítő
+landing-pricing-free-feature-3 = E-mail-követő eltávolítása
 landing-pricing-free-description = Próbálja ki a { -brand-name-firefox-relay } maszkokat, és kezdje el a postaládája védelmét.
 landing-pricing-free-cta = { -brand-name-relay } beszerzése
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -236,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Saját e-mail aldomain
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Válasz az átirányított e-mailekre
 landing-pricing-premium-feature-5 = Promóciós e-mailek blokkolása
+landing-pricing-premium-feature-6 = E-mail-követő eltávolítása
 landing-pricing-waitlist-description = A { -brand-name-firefox-relay-premium } jelenleg nem érhető el az Ön országában. Ossza meg e-mail-címét, hogy azonnal értesüljön, ha az lesz.
 landing-pricing-waitlist-cta = Csatlakozás a várólistához
 
@@ -315,16 +319,22 @@ premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segíts
 premium-promo-hero-cta = Frissítsen most
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
+premium-promo-availability-warning-3 = A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 premium-promo-perks-lead-2 = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail-maszkkal és egyéni aldomainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
 premium-promo-perks-cta-label = Frissítsen most
 premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Új
 premium-promo-perks-perk-unlimited-headline-2 = Korlátlan számú e-mail-maszk létrehozása
 premium-promo-perks-perk-unlimited-body-2 = Nincs többé öt maszkos korlát: a { -brand-name-relay-premium } segítségével annyi maszkot állíthat elő, amennyire csak szüksége van, hogy megvédje a postaládáját a kéretlen levelektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
 premium-promo-perks-perk-custom-domain-headline-2 = Válassza ki saját egyéni aldomainjét
 premium-promo-perks-perk-custom-domain-body-2 = Egyéni aldomain segítségével olyan maszkokat hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Használja például a kaja@mydomain.mozmail.com címet – nem szükséges előzetesen létrehoznia a maszkot.
 premium-promo-perks-perk-dashboard-headline-2 = Kezelje a maszkot az irányítópultról
 premium-promo-perks-perk-dashboard-body-2 = Kezelje összes e-mail-maszkját a könnyen használható irányítópulton: ha úgy találja, hogy az egyik nem kívánt üzeneteket kap, letilthatja, hogy ezek az üzenetek ne kerüljenek a beérkező levelei közé.
+premium-promo-perks-perk-block-promotionals-headline = Promóciós e-mailek blokkolása
+premium-promo-perks-perk-block-promotionals-body = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
+premium-promo-perks-perk-tracker-blocking-headline = E-mail-követők eltávolítása
+premium-promo-perks-perk-tracker-blocking-body = Mostantól a { -brand-name-relay } segíthet megállítani az e-mailes nyomkövetést – az e-mail-maszkok eltávolítják a gyakori e-mail-követőket minden Önnek továbbított e-mailből, így láthatatlan marad a nyomkövetők és a hirdetők számára.
 premium-promo-use-cases-headline-2 = Használjon { -brand-name-relay } e-mail-maszkokat bárhol
 premium-promo-use-cases-shopping-heading = Vásárlás
 premium-promo-use-cases-shopping-body-2 = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni e-mail-maszkok alá, például „ajanlataim@mydomain.mozmail.com”.
@@ -385,6 +395,7 @@ setting-api-key-copied = Másolva!
 setting-tracker-removal-heading = E-mail-követők eltávolítása
 setting-tracker-removal-description = Az e-mail-követők eltávolítása az összes továbbított e-mailből.
 setting-tracker-removal-note = A { -brand-name-firefox-relay } mostantól eltávolíthatja a gyakori nyomkövetőket a maszkokon keresztül továbbított e-mailekből.
+# Deprecated
 setting-tracker-removal-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 
 ## FAQ Page
@@ -468,6 +479,7 @@ faq-question-disable-trackerremoval-answer = Igen. Ha problémát okoz, hogy az 
 faq-question-bulk-trackerremoval-question = Eltávolíthatom a nyomkövetőket csak bizonyos e-mail-maszkok esetén?
 faq-question-bulk-trackerremoval-answer = A nyomkövetők eltávolítását csak fiókszinten kapcsolhatja be – vagy eltávolítja a követőket az összes e-mailből, vagy egyikből sem.
 faq-question-trackerremoval-breakage-question = Miért tűnnek hibásnak az e-mailjeim?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Néha a követők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a követők gyakran a képekben találhatók. A nyomkövető eltávolításakor úgy tűnik, hogy az e-mail rosszul lett formázva, mert hiányoznak a képek. Ez nem javítható a már megkapott e-maileknél. Ha ez akadályozza az e-mailek megfelelő olvasását, kapcsolja ki a követők eltávolítását.
 
 ## Profile Page (Logged In)
@@ -525,6 +537,7 @@ profile-label-replies = Válaszok
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Eltávolított követők
 profile-trackers-removed-tooltip-part1 = Ha a követők eltávolítása engedélyezve van, akkor a gyakori e-mail-követők eltávolításra kerülnek a továbbított levelekből.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 profile-label-cancel = Mégse
 profile-blocked-copy-2 = Ha a blokkolást választja ennél a maszknál, akkor a { -brand-name-firefox-relay } még azelőtt törli az üzeneteket, mielőtt azok elérnék a postaládáját.
@@ -541,6 +554,7 @@ profile-stat-label-aliases-used-2 = Használt e-mail-maszkok
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Eltávolított követők
 profile-stat-label-trackers-learn-more-part1 = A követők eltávolításának engedélyezése eltávolítja a gyakori e-mail-követőket a továbbított levelekből.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók.
 profile-filter-search-placeholder-2 = Maszkok keresése
 profile-filter-category-button-label = Látható maszkok szűrése
@@ -819,6 +833,7 @@ trackerreport-removal-explainer-content = A { -brand-name-firefox-relay } mostan
 trackerreport-trackers-explainer-heading = Az e-mail-követőkről
 trackerreport-trackers-explainer-content-part1 = Az e-mail-követés egy elterjedt felügyeleti és hirdetési eszköz, amely sok postafiókot érint. Ezekkel a követőkkel több információ tudható meg az online viselkedéséről, érdeklődési köréről és a levelezési tevékenységéről.
 trackerreport-trackers-explainer-content-part2 = Egy vállalat vagy szervezet nyomkövetőt ágyaz be az Önnek küldött e-mailekbe, általában egy képbe vagy hivatkozásba rejtve. Az e-mail megnyitásakor a követőben található kód visszaküldi az adatokat a cégnek.
+# Deprecated
 trackerreport-breakage-warning = Fontos: Néha a nyomkövetők eltávolítása miatt az e-mail hibásnak tűnhet, mivel a nyomkövetők gyakran képekben találhatók, melyek nem fognak betöltődni, ha követőt tartalmaznak.
 trackerreport-faq-heading = A leggyakoribb kérdések az e-mail-követőkkel kapcsolatban
 trackerreport-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
