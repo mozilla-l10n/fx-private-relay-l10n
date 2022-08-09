@@ -146,6 +146,7 @@ whatsnew-feature-tracker-removal-heading = 推出郵件追蹤器移除功能
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器…
+# Deprecated
 whatsnew-feature-tracker-removal-description = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。
 
 ## Bento Menu
@@ -206,6 +207,7 @@ landing-pricing-body-2 = 試用 { -brand-name-firefox-relay } 來轉寄郵件並
 landing-pricing-free-price = 免費版
 landing-pricing-free-feature-1-2 = 最多 5 組轉寄信箱
 landing-pricing-free-feature-2 = 瀏覽器擴充套件
+landing-pricing-free-feature-3 = 刪除電子郵件追蹤器
 landing-pricing-free-description = 試用 { -brand-name-firefox-relay } 轉寄信箱，保護您實際的信箱收件匣。
 landing-pricing-free-cta = 下載 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -222,6 +224,7 @@ landing-pricing-premium-feature-3-2 = 使用您自己的電子郵件子網域
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 landing-pricing-premium-feature-5 = 封鎖行銷郵件
+landing-pricing-premium-feature-6 = 刪除電子郵件追蹤器
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 在尚未在您的國家推出，可以在下方登記，推出時我們就會通知您。
 landing-pricing-waitlist-cta = 加入排隊名單
 
@@ -293,12 +296,14 @@ premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay
 premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
 premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = 新功能！
 premium-promo-perks-perk-unlimited-headline-2 = 建立無限量的轉寄信箱
 premium-promo-perks-perk-unlimited-body-2 = 不再只能建立五組轉寄信箱：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的轉寄信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
 premium-promo-perks-perk-custom-domain-headline-2 = 使用您自訂的子網域名稱
 premium-promo-perks-perk-custom-domain-body-2 = 使用自訂子網域，可以建立方便好記好分享的轉寄信箱。要預約餐廳嗎？可免事先建立，直接使用 food@mydomain.mozmail.com 登記。
 premium-promo-perks-perk-dashboard-headline-2 = 在儀表板管理您建立的轉寄信箱
 premium-promo-perks-perk-dashboard-body-2 = 透過簡單好用的儀錶板管理您的所有轉寄信箱：發現有哪個信箱開始收到垃圾信時，就可以直接阻絕垃圾信於千里之外。
+premium-promo-perks-perk-block-promotionals-headline = 封鎖行銷郵件
 premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
 premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
@@ -359,6 +364,7 @@ setting-api-key-copied = 已複製！
 setting-tracker-removal-heading = 移除郵件追蹤器
 setting-tracker-removal-description = 移除轉寄郵件當中的電子郵件追蹤器。
 setting-tracker-removal-note = 現在起，{ -brand-name-firefox-relay } 可移除轉寄郵件當中常見的追蹤器。
+# Deprecated
 setting-tracker-removal-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 
 ## FAQ Page
@@ -442,6 +448,7 @@ faq-question-disable-trackerremoval-answer = 可以。如果您發現收到的�
 faq-question-bulk-trackerremoval-question = 我可以只刪除部分轉寄信箱收到的追蹤器嗎？
 faq-question-bulk-trackerremoval-answer = 您只能於帳號層級開關「移除追蹤器」功能，必須將所有收到的郵件當中的追蹤器都移除，或是都保留。
 faq-question-trackerremoval-breakage-question = 為什麼我收到的郵件內容看來怪怪的？
+# Deprecated
 faq-question-trackerremoval-breakage-answer = 有的時候，移除郵件追蹤器可能會造成您的郵件內容看起來不正常，因為通常追蹤器是埋藏於圖片中，當圖片被移除後就會讓郵件內容跑版，或者險是不正常。若您已經收到郵件，這個情況就無法再修正，若這個行為造成您無法正確閱讀郵件，可關閉追蹤器移除功能。
 
 ## Profile Page (Logged In)
@@ -499,6 +506,7 @@ profile-label-replies = 回覆
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = 追蹤器移除數量
 profile-trackers-removed-tooltip-part1 = 開啟「移除追蹤器」功能後，將從轉寄的郵件中移除常見的郵件追蹤器。
+# Deprecated
 profile-trackers-removed-tooltip-part2 = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 對此轉寄信箱選擇封鎖時，{ -brand-name-firefox-relay } 收到郵件就會直接捨棄。
@@ -515,6 +523,7 @@ profile-stat-label-aliases-used-2 = 已用的轉寄信箱
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = 追蹤器移除數量
 profile-stat-label-trackers-learn-more-part1 = 開啟追蹤器移除功能，將從轉寄給您的郵件中移除常見的郵件追蹤器。
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中。
 profile-filter-search-placeholder-2 = 搜尋轉寄信箱
 profile-filter-category-button-label = 過濾可見的轉寄信箱
@@ -785,6 +794,7 @@ trackerreport-removal-explainer-content = 現在起，{ -brand-name-firefox-rela
 trackerreport-trackers-explainer-heading = 關於電子郵件追蹤器
 trackerreport-trackers-explainer-content-part1 = 許多監控與廣告工具會透過郵件追蹤來監控許多收件匣。這些追蹤器可用於更加了解您的上網行為、您的興趣與郵件記錄。
 trackerreport-trackers-explainer-content-part2 = 一間公司或組織，可能會透過在寄送給您的電子郵件中內嵌追蹤器（通常隱藏於圖片或連結之中）。當郵件開啟時，追蹤器內的程式就會執行，並且回傳追蹤資料。
+# Deprecated
 trackerreport-breakage-warning = 重要：有時移除追蹤器可能會造成郵件外觀變得不正常，因為這些追蹤器時常會包含於郵件內的圖片當中，被偵測到為追蹤器後就不會再顯示。
 trackerreport-faq-heading = 關於電子郵件追蹤器的熱門問題
 trackerreport-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
