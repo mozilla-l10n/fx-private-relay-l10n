@@ -157,6 +157,9 @@ landing-how-it-works-headline = 使い方
 landing-how-it-works-body-2 = { -brand-name-relay } メール マスクを実際のメール アドレスの代わりに共有して、メールの受信トレイと個人情報を保護できます。
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } 向け { -brand-name-relay } 拡張機能をダウンロードしてください。
 landing-how-it-works-step-1-body-2 = オンラインでメールアドレスを入力する場所ならどこでも自動的にメールマスクを生成できます。
+landing-how-it-works-step-2-body-2 =
+    ブラウジングしていると、メールアドレスをの入力を要求するサイトに { -brand-name-relay } アイコンが表示されます。
+    これを選択して、@mozmail.com で終わる新しくランダムなアドレスを生成してください。
 
 ## Pricing section
 
@@ -173,6 +176,7 @@ landing-pricing-premium-feature-3-2 = 自分のメールドメイン利用
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 転送されたメールへの返信
+landing-pricing-premium-feature-5 = 広告メールをブロック
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } は、現在お住まいの国では利用できません。利用可能になったらすぐに通知できるようにメールアドレスを登録してください。
 
 ## Use Cases
@@ -205,6 +209,7 @@ premium-promo-hero-cta = 今すぐアップグレード
 premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
 premium-promo-perks-cta-label = 今すぐアップグレード
+premium-promo-perks-perk-block-promotionals-headline = 広告メールをブロック
 premium-promo-use-cases-shopping-heading = ショッピング
 premium-promo-use-cases-social-networks-heading = SNS
 premium-promo-use-cases-gaming-heading = ゲーム
@@ -225,21 +230,62 @@ waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefo
 
 ## Settings page
 
+# This is a label that appears on hover to copy the API key
+settings-button-copy = クリックしてコピー
 
 ## FAQ Page
 
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
 faq-question-availability-question = { -brand-name-relay } はどこで利用できますか?
 faq-question-availability-answer = { -brand-name-relay } は、多くの国で無料で利用できます。 { -brand-name-relay-premium } は、アメリカ、ドイツ、イギリス、カナダ、シンガポール、マレーシア、ニュージーランド、フランス、ベルギー、オーストリア、スペイン、イタリア、スイス、オランダ、アイルランドで利用できます。
 faq-question-4-question-2 = { -brand-name-relay } メールマスクを使用してメッセージに返信できますか?
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>ようこそ、</span> { $email } さん！
+profile-supports-email-forwarding = { -brand-name-firefox-relay } は、最大 { email-size-limit } までのメールの転送 (添付ファイルを含む) をサポートします
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = クリックして { $address } のマスクをコピー
+profile-label-generate-new-alias-2 = 新しいマスクを生成
+profile-label-delete = 削除
+# This string is followed by an email address
+profile-label-forward-emails = 転送元のメールアドレス:
+# This string is followed by date:
+profile-label-created = 作成日:
+profile-label-click-to-copy = クリックしてコピー
+profile-label-blocked = ブロック済み
+profile-label-forwarded = 転送済み
+profile-filter-search-placeholder-2 = マスクを検索
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = どのメールをブロックしますか？
+# Allow/forward all emails sent to a speciic mask
+profile-promo-email-blocking-option-none = なし
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } は、このマスクに転送されたメールをブロックしていません。
+profile-promo-email-blocking-label-none = すべてブロック
 
 ## Banner Messages (displayed on the profile page)
 
+banner-download-install-extension-headline = { -brand-name-firefox } 向け { -brand-name-relay } 拡張機能を入手
+banner-download-install-extension-copy-2 = { -brand-name-firefox-browser } 向け { -brand-name-relay } 拡張機能でメールマスクの使用がさらに簡単になります。
+banner-download-install-extension-cta = { -brand-name-relay } を { -brand-name-firefox } に追加する
+banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } 向け { -brand-name-relay } を試す
+# Deprecated
+banner-download-install-chrome-extension-copy = { -brand-name-chrome } 向け { -brand-name-firefox-relay } 拡張機能でメールマスクの作成や使用がさらに簡単になります。
+banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } 向け { -brand-name-firefox-relay } 拡張機能でメールマスクの作成や使用がさらに簡単になります。
+banner-download-install-chrome-extension-cta = { -brand-name-relay } 拡張機能を入手
+banner-choose-subdomain-input-placeholder-3 = サブドメインを検索
+# This is the “call to action” text on the submit button of subdomain registration form.
+banner-register-subdomain-button-search = 検索
 
 ## Success Messages
 
