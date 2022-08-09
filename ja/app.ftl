@@ -166,6 +166,7 @@ landing-pricing-premium-feature-3-2 = 自分のメールドメイン利用
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 転送されたメールへの返信
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } は、現在お住まいの国では利用できません。利用可能になったらすぐに通知できるようにメールアドレスを登録してください。
 
 ## Use Cases
 
@@ -179,6 +180,8 @@ landing-pricing-premium-feature-4 = 転送されたメールへの返信
 ## Premium promo page
 
 premium-promo-hero-cta = 今すぐアップグレード
+premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
 premium-promo-perks-cta-label = 今すぐアップグレード
 
 ## The Premium waitlist page
@@ -200,6 +203,8 @@ waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefo
 
 ## FAQ Page
 
+faq-question-availability-question = { -brand-name-relay } はどこで利用できますか?
+faq-question-availability-answer = { -brand-name-relay } は、多くの国で無料で利用できます。 { -brand-name-relay-premium } は、アメリカ、ドイツ、イギリス、カナダ、シンガポール、マレーシア、ニュージーランド、フランス、ベルギー、オーストリア、スペイン、イタリア、スイス、オランダ、アイルランドで利用できます。
 faq-question-4-question-2 = { -brand-name-relay } メールマスクを使用してメッセージに返信できますか?
 
 ## Profile Page (Logged In)
