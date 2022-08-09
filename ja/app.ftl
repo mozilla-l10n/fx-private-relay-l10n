@@ -154,7 +154,9 @@ landing-hero-headline-2 = 本当のメールアドレスを保護して、受信
 ## How it works section
 
 landing-how-it-works-headline = 使い方
+landing-how-it-works-body-2 = { -brand-name-relay } メール マスクを実際のメール アドレスの代わりに共有して、メールの受信トレイと個人情報を保護できます。
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } 向け { -brand-name-relay } 拡張機能をダウンロードしてください。
+landing-how-it-works-step-1-body-2 = オンラインでメールアドレスを入力する場所ならどこでも自動的にメールマスクを生成できます。
 
 ## Pricing section
 
