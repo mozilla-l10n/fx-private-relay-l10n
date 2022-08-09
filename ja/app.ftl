@@ -111,6 +111,10 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } は添�
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } は { email-size-limit } までのメールを転送できます...
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } は添付ファイルを含め、{ email-size-limit } までのメールが転送できます。
 whatsnew-feature-sign-back-in-heading = 別名で再ログイン
+whatsnew-feature-forward-some-heading = 宣伝メールのブロック
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = エイリアスはマスクになりました
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } がスウェーデンで利用可能になりました
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } がフィンランドで利用可能になりました
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
@@ -149,6 +153,12 @@ landing-hero-headline-2 = 本当のメールアドレスを保護して、受信
 
 ## Pricing section
 
+landing-pricing-free-feature-1-2 = 最大 5 つのメールマスク
+landing-pricing-free-feature-2 = ブラウザー拡張機能
+landing-pricing-premium-feature-1-2 = メールマスク無制限
+landing-pricing-premium-feature-2 = ブラウザー拡張機能
+landing-pricing-premium-feature-3-2 = 自分のメールドメイン利用
+landing-pricing-premium-feature-4 = 転送されたメールへの返信
 
 ## Use Cases
 
@@ -164,12 +174,19 @@ landing-hero-headline-2 = 本当のメールアドレスを保護して、受信
 
 ## The Premium waitlist page
 
+waitlist-control-required = 必須
+waitlist-control-email-label = メールアドレス
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label = どこの国に住んでいますか？
+waitlist-control-locale-label = ご希望の言語を選択してください。
 
 ## Settings page
 
 
 ## FAQ Page
 
+faq-question-4-question-2 = { -brand-name-relay } メールマスクを使用してメッセージに返信できますか?
 
 ## Profile Page (Logged In)
 
