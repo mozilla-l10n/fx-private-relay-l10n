@@ -140,6 +140,9 @@ bento-button-close-label = メニューを閉じる
 home-hero-cta = ログイン
 how-it-works-headline = 仕組みについて
 how-it-works-step-1-headline = 拡張機能を入手
+how-it-works-step-1-link = { -brand-name-firefox } 向け { -brand-name-relay } 拡張機能をダウンロードしてください。
+how-it-works-step-2-headline-2 = 新しいメールマスクを作成する
+how-it-works-step-3-headline-2 = メールマスクを管理する
 
 # Home Page Version A
 
@@ -150,6 +153,8 @@ landing-hero-headline-2 = 本当のメールアドレスを保護して、受信
 
 ## How it works section
 
+landing-how-it-works-headline = 使い方
+landing-how-it-works-step-1-body-cta = { -brand-name-firefox } 向け { -brand-name-relay } 拡張機能をダウンロードしてください。
 
 ## Pricing section
 
@@ -170,12 +175,27 @@ landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } は
 
 ## Use Cases
 
+landing-use-cases-shopping = ショッピング
+landing-use-cases-social-networks = SNS
+landing-use-cases-gaming = ゲーム
+landing-use-cases-shopping-hero-heading = メールマスクを使ってショッピング
+landing-use-cases-on-the-go = 外出先で
+landing-use-cases-on-the-go-heading = { -brand-name-relay } と外出
+landing-use-cases-signups = ユーザー登録
+landing-use-cases-signups-hero-heading = 心配無用のユーザー登録
 
 ## Landing FAQ Section
 
+landing-faq-headline = { -brand-name-firefox-relay } に関する最もよくある質問
+landing-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = アドオン
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
 
 ## Premium promo page
 
@@ -183,6 +203,9 @@ premium-promo-hero-cta = 今すぐアップグレード
 premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
 premium-promo-perks-cta-label = 今すぐアップグレード
+premium-promo-use-cases-shopping-heading = ショッピング
+premium-promo-use-cases-social-networks-heading = SNS
+premium-promo-use-cases-gaming-heading = ゲーム
 
 ## The Premium waitlist page
 
@@ -248,6 +271,7 @@ faq-question-4-question-2 = { -brand-name-relay } メールマスクを使用し
 
 ## Report of trackers removed from an email
 
+trackerreport-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
 
 ## Modals
 
