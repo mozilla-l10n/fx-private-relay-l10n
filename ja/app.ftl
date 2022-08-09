@@ -268,10 +268,15 @@ profile-filter-search-placeholder-2 = マスクを検索
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = どのメールをブロックしますか？
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotionals = 広告
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = なし
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } は、このマスクに転送されたメールをブロックしていません。
+profile-promo-email-blocking-label-promotionals = 広告をブロック
 profile-promo-email-blocking-label-none = すべてブロック
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } のみ)
+profile-promo-email-blocking-description-promotionals-locked-close = 閉じる
 
 ## Banner Messages (displayed on the profile page)
 
