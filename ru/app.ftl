@@ -844,6 +844,7 @@ survey-option-dismiss = Пропустить
 
 ## CSAT survey
 
+survey-csat-question = Насколько вы довольны работой с { -brand-name-firefox-relay }?
 
 ## VPN Promo Banner
 
