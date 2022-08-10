@@ -78,7 +78,7 @@ nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "geniti
 
 ## Mobile menu text
 
-menu-upgrade-button = Обновить
+menu-upgrade-button = { -brand-name-premium }
 menu-toggle-open = Открыть меню
 menu-toggle-close = Закрыть меню
 nav-dashboard = Панель управления
@@ -823,9 +823,14 @@ modal-domain-register-success-2 = Теперь { $subdomain } — ваш под�
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Теперь <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> — ваш поддомен электронной почты!
+modal-domain-register-success-copy-2 = Теперь вы можете создавать неограниченное число собственных псевдонимов электронной почты!
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Оцените по шкале от 1 до 10, насколько вероятно, что вы порекомендуете { -brand-name-relay } знакомым или коллегам?
+survey-question-2 = Легко ли использовать { -brand-name-relay }?
+survey-question-3 = Доверяете ли вы { -brand-name-relay }?
+survey-question-4 = Насколько просто и понятно представлен { -brand-name-relay }?
 
 ## CSAT survey
 
