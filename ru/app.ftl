@@ -475,7 +475,7 @@ faq-question-detect-promotional-answer = Многие электронные п�
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Добро пожаловать,</span> { $email }!
-profile-supports-email-forwarding = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения).
+profile-supports-email-forwarding = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения)
 profile-promo-upgrade-headline = Переходите на улучшенную версию, чтобы получить ещё больше возможностей.
 profile-promo-upgrade-cta = Перейти на улучшенную версию { -brand-name-relay }
 profile-details-expand = Показать детали псевдонима
@@ -866,9 +866,13 @@ vpn-promo-cta = Получить { -brand-name-mozilla-vpn }
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Это сообщение было переслано с { $display_email } с помощью { $linked_origin }.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } удаляет копии и скрытые копии из ваших ответов. Если вы добавите их снова, ваш настоящий адрес электронной почты будет раскрыт.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов и собственный поддомен электронной почты.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения). Подробнее: { $faq_link }.
 # This entire text is a link
 forwarded-email-footer-2 = Прекратить переадресацию электронных писем и управлять настройками всех псевдонимов можно тут.
 # This entire text is a link
