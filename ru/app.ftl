@@ -831,6 +831,16 @@ survey-question-1 = Оцените по шкале от 1 до 10, наскол�
 survey-question-2 = Легко ли использовать { -brand-name-relay }?
 survey-question-3 = Доверяете ли вы { -brand-name-relay }?
 survey-question-4 = Насколько просто и понятно представлен { -brand-name-relay }?
+survey-question-5 = Как бы вы себя чувствовали, если бы больше не смогли использовать { -brand-name-relay }?
+survey-option-strongly-disagree = Полностью не соглашаюсь
+survey-option-disagree = Не соглашаюсь
+survey-option-unsure = Не знаю
+survey-option-agree = Соглашаюсь
+survey-option-strongly-agree = Полностью соглашаюсь
+survey-option-i-wouldnt-care = Мне всё равно
+survey-option-very-likely = Очень вероятно
+survey-option-not-likely = Маловероятно
+survey-option-dismiss = Пропустить
 
 ## CSAT survey
 
