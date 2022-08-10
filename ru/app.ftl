@@ -844,12 +844,12 @@ survey-option-dismiss = Пропустить
 
 ## CSAT survey
 
-survey-csat-question = Насколько вы довольны работой с { -brand-name-firefox-relay }?
-survey-csat-answer-very-dissatisfied = Она меня совсем не удовлетворяет
-survey-csat-answer-dissatisfied = Она меня не удовлетворяет
+survey-csat-question = Насколько вас удовлетворяет работа { -brand-name-firefox-relay }?
+survey-csat-answer-very-dissatisfied = Совсем не удовлетворяет
+survey-csat-answer-dissatisfied = Не удовлетворяет
 survey-csat-answer-neutral = Не знаю
-survey-csat-answer-satisfied = Она меня удовлетворила
-survey-csat-answer-very-satisfied = Она меня полностью удовлетворила
+survey-csat-answer-satisfied = Удовлетворяет
+survey-csat-answer-very-satisfied = Полностью удовлетворяет
 
 ## VPN Promo Banner
 
