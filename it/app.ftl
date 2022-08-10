@@ -477,6 +477,7 @@ faq-question-bulk-trackerremoval-answer = Puoi attivare la rimozione degli eleme
 faq-question-trackerremoval-breakage-question = Perché le email che ricevo sembrano incomplete o non formattate correttamente?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = A volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno delle immagini. Quando un elemento tracciante viene rimosso, l’email sembra essere stata formattata in modo errato perché mancano le immagini. Questo problema non può essere risolto per le email che hai già ricevuto. Se questo ti impedisce di leggere correttamente le email, disattiva la rimozione degli elementi traccianti.
+faq-question-trackerremoval-breakage-answer-2 = A volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini e link. Quando un elemento tracciante viene rimosso, l’email sembra essere stata formattata in modo errato perché mancano le immagini. Questo problema non può essere risolto per le email che hai già ricevuto. Se questo ti impedisce di leggere correttamente le email, disattiva la rimozione degli elementi traccianti.
 
 ## Profile Page (Logged In)
 
@@ -535,6 +536,7 @@ profile-label-trackers-removed = Elementi traccianti rimossi
 profile-trackers-removed-tooltip-part1 = Quando la rimozione degli elementi traccianti è attiva, gli elementi traccianti più comuni verranno rimossi dalle email inoltrate.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini e link.
 profile-label-cancel = Annulla
 profile-blocked-copy-2 = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
 profile-forwarded-copy-2 = Selezionando l’inoltro per questo alias, { -brand-name-firefox-relay } invierà i messaggi alla tua casella di posta.
@@ -552,6 +554,7 @@ profile-stat-label-trackers-removed = Elementi traccianti rimossi
 profile-stat-label-trackers-learn-more-part1 = L’attivazione della rimozione degli elementi traccianti rimuoverà gli elementi traccianti più comuni dalle email inoltrate.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini e link.
 profile-filter-search-placeholder-2 = Cerca alias
 profile-filter-category-button-label = Filtra gli alias visualizzati
 profile-filter-category-button-tooltip = Filtra gli alias in base al sottodominio e/o se stanno bloccando la posta in arrivo
@@ -827,6 +830,7 @@ trackerreport-trackers-explainer-content-part1 = Il tracciamento delle email è 
 trackerreport-trackers-explainer-content-part2 = Un’azienda o un’organizzazione può incorporare un elemento tracciante nelle email che ti vengono inviate, solitamente nascosto all’interno di un’immagine o di un link. Quando l’email viene aperta, il codice all’interno dell’elemento tracciante invia informazioni all’azienda.
 # Deprecated
 trackerreport-breakage-warning = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini che non verranno caricate.
+trackerreport-breakage-warning-2 = Importante: la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini e link. Le email già ricevute non possono essere corrette o recuperate.
 trackerreport-faq-heading = Principali domande sugli elementi traccianti nelle email
 trackerreport-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
 trackerreport-loading = Caricamento del rapporto sulla rimozione degli elementi traccianti in corso…
