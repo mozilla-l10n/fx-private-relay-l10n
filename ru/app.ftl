@@ -862,6 +862,13 @@ vpn-promo-cta = Получить { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Это сообщение было переслано с { $display_email } с помощью { $linked_origin }.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-2 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов и собственный поддомен электронной почты.
 
 ## Notifications component
 
