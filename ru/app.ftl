@@ -538,7 +538,7 @@ profile-filter-search-placeholder-2 = Поиск псевдонимов
 profile-filter-category-button-label = Отфильтровать видимые псевдонимы
 profile-filter-category-button-tooltip = Отфильтровать псевдонимы по поддомену и/или тому, блокируют ли они сейчас входящую электронную почту
 profile-filter-category-title = Отфильтровать видимые псевдонимы
-profile-filter-no-results = Ни один из псевдонимов не отвечает выбранным критериям. <clear-button>Убрать все фильтры.</clear-button>
+profile-filter-no-results = Ни один из псевдонимов не отвечает выбранным критериям. <clear-button>Сбросить все фильтры.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Псевдонимы с переадресацией
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
