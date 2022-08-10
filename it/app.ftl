@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Nuova funzione per la rimozione degli
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email inoltrate…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti.
+whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti. Attiva l’opzione in “Impostazioni”.
 
 ## Bento Menu
 
@@ -214,6 +216,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Fino a 5 alias di posta elettronica
 landing-pricing-free-feature-2 = Estensione per browser
+landing-pricing-free-feature-3 = Rimozione elementi traccianti dalle email
 landing-pricing-free-description = Prova gli alias { -brand-name-firefox-relay } e inizia a proteggere la tua casella di posta elettronica.
 landing-pricing-free-cta = Ottieni { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -230,6 +233,7 @@ landing-pricing-premium-feature-3-2 = Il tuo sottodominio di posta elettronica p
 landing-pricing-premium-feature-3-subheader = tuaemail@tuodominio.mozmail.com
 landing-pricing-premium-feature-4 = Rispondi ai messaggi inoltrati
 landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
+landing-pricing-premium-feature-6 = Rimozione elementi traccianti dalle email
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } non è attualmente disponibile nel tuo Paese. Puoi fornirci il tuo indirizzo email per ricevere una notifica non appena sarà disponibile.
 landing-pricing-waitlist-cta = Iscriviti alla lista d’attesa
 
@@ -309,16 +313,22 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottie
 premium-promo-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } è disponibile in Austria, Belgio, Canada, Cipro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Portogallo, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-perks-headline = Perché aggiornare a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium } ottieni la stessa protezione e gestione della posta in arrivo di { -brand-name-relay }, ma con alias email illimitati e il tuo sottodominio personalizzato, per rendere la gestione della tua posta in arrivo ancora più facile.
 premium-promo-perks-cta-label = Aggiorna adesso
 premium-promo-perks-cta-tooltip = Aggiorna a { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Novità
 premium-promo-perks-perk-unlimited-headline-2 = Crea alias illimitati
 premium-promo-perks-perk-unlimited-body-2 = Niente più limite di cinque alias: con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam e tracciamento online. Puoi anche rispondere alle email senza rivelare il tuo indirizzo reale.
 premium-promo-perks-perk-custom-domain-headline-2 = Scegli il tuo sottodominio personalizzato
 premium-promo-perks-perk-custom-domain-body-2 = Con un sottodominio personalizzato puoi creare alias più facili da ricordare e condividere. Te ne serve uno per le prenotazioni nei ristoranti? Utilizzane uno come cibo@miodominio.mozmail.com, senza bisogno di creare l’alias in anticipo.
 premium-promo-perks-perk-dashboard-headline-2 = Gestisci i tuoi alias dalla dashboard
 premium-promo-perks-perk-dashboard-body-2 = Gestire tutti i tuoi alias nella dashboard è facile: se scopri che un alias riceve messaggi indesiderati, puoi impedire a quei messaggi di raggiungere la tua casella di posta.
+premium-promo-perks-perk-block-promotionals-headline = Blocco delle email pubblicitarie
+premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua casella di posta e al tempo stesso ricevere le email essenziali come fatture o informazioni su una spedizione.
+premium-promo-perks-perk-tracker-blocking-headline = Rimozione elementi traccianti dalle email
+premium-promo-perks-perk-tracker-blocking-body = Ora { -brand-name-relay } ti permette di bloccare gli elementi traccianti dalle email: i tuoi alias email rimuovono gli elementi traccianti più comuni da tutte le email che ti vengono inoltrate, aiutandoti così a rimanere invisibile agli inserzionisti.
 premium-promo-use-cases-headline-2 = Utilizza gli alias email { -brand-name-relay } ovunque
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body-2 = Vuoi registrarti per gli sconti, ma senza ricevere spam? Raggruppa tutti i tuoi account “shopping” in un alias personalizzato, come “sconti@miodominio.mozmail.com”.
@@ -379,7 +389,9 @@ setting-api-key-copied = Copiato
 setting-tracker-removal-heading = Rimuovere gli elementi traccianti dalle email
 setting-tracker-removal-description = Rimuovi gli elementi traccianti da tutte le email inoltrate.
 setting-tracker-removal-note = { -brand-name-firefox-relay } ora può rimuovere gli elementi traccianti più comuni dalle email inoltrate attraverso i tuoi alias.
+# Deprecated
 setting-tracker-removal-warning = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
+setting-tracker-removal-warning-2 = Importante: la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini e link. Le email già ricevute non possono essere corrette o recuperate.
 
 ## FAQ Page
 
@@ -422,6 +434,7 @@ faq-question-1-answer-b-2-html = Se noti un problema diffuso di posta indesidera
 faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
 faq-question-availability-answer = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda.
 faq-question-availability-answer-v2 = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Finlandia, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Svezia, Paesi Bassi e Irlanda.
+faq-question-availability-answer-v3 = { -brand-name-relay } è disponibile gratuitamente nella maggior parte dei paesi. { -brand-name-relay-premium } è disponibile in Austria, Belgio, Canada, Cipro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Portogallo, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 faq-question-4-question-2 = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 faq-question-4-answer-v4 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
 faq-question-subdomain-characters-question = Quali caratteri si possono utilizzare per creare un sottodominio?
@@ -462,6 +475,7 @@ faq-question-disable-trackerremoval-answer = Sì. Se riscontri problemi con la v
 faq-question-bulk-trackerremoval-question = Posso rimuovere gli elementi traccianti solo per alcuni dei miei alias email?
 faq-question-bulk-trackerremoval-answer = Puoi attivare la rimozione degli elementi traccianti solo a livello di account: gli elementi traccianti verranno rimossi da tutte le tue email o da nessuna.
 faq-question-trackerremoval-breakage-question = Perché le email che ricevo sembrano incomplete o non formattate correttamente?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = A volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno delle immagini. Quando un elemento tracciante viene rimosso, l’email sembra essere stata formattata in modo errato perché mancano le immagini. Questo problema non può essere risolto per le email che hai già ricevuto. Se questo ti impedisce di leggere correttamente le email, disattiva la rimozione degli elementi traccianti.
 
 ## Profile Page (Logged In)
@@ -519,6 +533,7 @@ profile-label-replies = Risposte
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Elementi traccianti rimossi
 profile-trackers-removed-tooltip-part1 = Quando la rimozione degli elementi traccianti è attiva, gli elementi traccianti più comuni verranno rimossi dalle email inoltrate.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
 profile-label-cancel = Annulla
 profile-blocked-copy-2 = Selezionando il blocco per questo alias, { -brand-name-firefox-relay } eliminerà i messaggi prima che possano arrivare alla tua casella di posta.
@@ -535,6 +550,7 @@ profile-stat-label-aliases-used-2 = Alias utilizzati
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Elementi traccianti rimossi
 profile-stat-label-trackers-learn-more-part1 = L’attivazione della rimozione degli elementi traccianti rimuoverà gli elementi traccianti più comuni dalle email inoltrate.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini.
 profile-filter-search-placeholder-2 = Cerca alias
 profile-filter-category-button-label = Filtra gli alias visualizzati
@@ -809,6 +825,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } adesso p
 trackerreport-trackers-explainer-heading = Informazioni sugli elementi traccianti nelle email
 trackerreport-trackers-explainer-content-part1 = Il tracciamento delle email è uno strumento di sorveglianza e pubblicità ormai comune e sta invadendo sempre più caselle di posta. Questi elementi traccianti possono essere utilizzati per comprendere meglio il tuo comportamento online, i tuoi interessi e l’attività della tua casella di posta.
 trackerreport-trackers-explainer-content-part2 = Un’azienda o un’organizzazione può incorporare un elemento tracciante nelle email che ti vengono inviate, solitamente nascosto all’interno di un’immagine o di un link. Quando l’email viene aperta, il codice all’interno dell’elemento tracciante invia informazioni all’azienda.
+# Deprecated
 trackerreport-breakage-warning = Importante: a volte la rimozione degli elementi traccianti può compromettere l’aspetto delle email, perché gli elementi traccianti sono spesso contenuti all’interno di immagini che non verranno caricate.
 trackerreport-faq-heading = Principali domande sugli elementi traccianti nelle email
 trackerreport-faq-cta = Vedi altre domande frequenti su { -brand-name-firefox-relay }
