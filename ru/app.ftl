@@ -850,9 +850,15 @@ survey-csat-answer-dissatisfied = Не удовлетворяет
 survey-csat-answer-neutral = Не знаю
 survey-csat-answer-satisfied = Удовлетворяет
 survey-csat-answer-very-satisfied = Полностью удовлетворяет
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Спасибо за отзыв. Мы хотели бы узнать больше о том, как можем улучшить { -brand-name-relay } для вас. Не могли бы вы принять участие в двухминутном опросе?
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Сэкономьте 50% с годовой подпиской
+vpn-promo-copy = Защитите свои данные в Интернете — выберите подходящий тарифный план VPN.
+vpn-promo-cta = Получить { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
