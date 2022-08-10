@@ -869,6 +869,8 @@ forwarded-email-header-from = Это сообщение было пересла�
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов и собственный поддомен электронной почты.
+# This entire text is a link
+forwarded-email-footer-premium-banner = Перейти на { -brand-name-relay-premium }
 
 ## Notifications component
 
