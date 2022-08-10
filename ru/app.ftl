@@ -798,6 +798,31 @@ modal-delete-domain-address-warning-upgrade-2 =
     измените свой адрес электронной почты в соответствующих аккаунтах на другой перед тем, как удалить этот.
     Если вы заново создадите удалённый псевдоним, электронные письма, отправленные на него, будут по-прежнему пересылаться.
 modal-delete-confirmation-2 = Да, я хочу удалить этот псевдоним.
+modal-domain-register-good-news = Хорошие новости!
+modal-domain-register-warning-reminder-2 = Помните, что вы можете зарегистрировать только один поддомен. Впоследствии его нельзя будет изменить.
+modal-domain-register-button-2 = Зарегистрировать поддомен
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } доступен!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступен!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Да, я хочу зарегистрировать @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Да, я хочу зарегистрировать <subdomain>{ $subdomain }</subdomain>
+modal-domain-register-success-title = Готово!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = Теперь { $subdomain } — ваш поддомен электронной почты!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = Теперь <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> — ваш поддомен электронной почты!
 
 ## Evergreen Survey (displayed on the profile page)
 
