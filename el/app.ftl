@@ -324,6 +324,7 @@ premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -br
 premium-promo-perks-lead-2 = Με το { -brand-name-firefox-relay-premium }, έχετε όλη την προστασία και τη διαχείριση εισερχομένων του { -brand-name-relay }, αλλά με απεριόριστες μάσκες email και τον δικό σας προσαρμοσμένο υποτομέα για ακόμα πιο εύκολη διαχείριση των εισερχομένων σας.
 premium-promo-perks-cta-label = Αναβάθμιση τώρα
 premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Νέο!
 premium-promo-perks-perk-unlimited-headline-2 = Δημιουργία απεριόριστων μασκών email
 premium-promo-perks-perk-unlimited-body-2 = Χωρίς τον περιορισμό των πέντε μασκών: με το { -brand-name-relay-premium }, μπορείτε να έχετε όσες μάσκες χρειάζεστε για την προστασία των εισερχομένων σας από ανεπιθύμητα μηνύματα και διαδικτυακούς ιχνηλάτες. Μπορείτε ακόμα και να απαντήσετε σε email χωρίς να εκτεθεί η πραγματική σας διεύθυνση.
 premium-promo-perks-perk-custom-domain-headline-2 = Επιλέξτε τον δικό σας προσαρμοσμένο υποτομέα
