@@ -331,6 +331,8 @@ premium-promo-perks-perk-custom-domain-headline-2 = Επιλέξτε τον δι
 premium-promo-perks-perk-custom-domain-body-2 = Με έναν προσαρμοσμένο υποτομέα, μπορείτε να δημιουργήσετε μάσκες που μπορείτε να θυμάστε και να μοιράζεστε πιο εύκολα από ποτέ. Χρειάζεστε μία για κρατήσεις σε εστιατόρια; Χρησιμοποιήστε κάτι σαν αυτό: faghto@otomeasmou.mozmail.com — Δεν χρειάζεται να έχετε δημιουργήσει τη μάσκα εκ των προτέρων.
 premium-promo-perks-perk-dashboard-headline-2 = Ελέγξτε τις μάσκες σας από τον πίνακα ελέγχου
 premium-promo-perks-perk-dashboard-body-2 = Διαχειριστείτε όλες τις μάσκες email σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
+premium-promo-perks-perk-block-promotionals-headline = Φραγή διαφημιστικών email
+premium-promo-perks-perk-tracker-blocking-headline = Αφαίρεση ιχνηλατών email
 premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσκες email του { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
 premium-promo-use-cases-shopping-body-2 = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε προσαρμοσμένες μάσκες email, όπως το «prosfores@otomeasmou.mozmail.com».
@@ -884,6 +886,9 @@ forwarded-email-header-premium-banner-2 = Αναβαθμίστε στο { $premi
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = Αφαιρέθηκαν { $nr_blocked_trackers } ιχνηλάτες email
 forwarded-email-trackers-blocked-report = Μάθετε περισσότερα
 # This entire text is a link
 forwarded-email-footer-2 = Διακόψτε την προώθηση email και διαχειριστείτε τις ρυθμίσεις για όλες τις μάσκες εδώ.
