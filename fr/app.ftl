@@ -153,6 +153,7 @@ whatsnew-feature-tracker-removal-heading = Suppression des traqueurs dans les e-
 whatsnew-feature-tracker-removal-snippet = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs.
+whatsnew-feature-tracker-removal-description-2 = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs. Activez l’option depuis la section « Paramètres ».
 
 ## Bento Menu
 
@@ -223,6 +224,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratuit
 landing-pricing-free-feature-1-2 = Jusqu’à 5 alias de messagerie
 landing-pricing-free-feature-2 = Extension de navigateur
+landing-pricing-free-feature-3 = Suppression des traqueurs dans les e-mails
 landing-pricing-free-description = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
 landing-pricing-free-cta = Installer { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -239,6 +241,7 @@ landing-pricing-premium-feature-3-2 = Votre propre sous-domaine de messagerie
 landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
 landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
 landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
+landing-pricing-premium-feature-6 = Suppression des traqueurs dans les e-mails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
 
