@@ -321,6 +321,7 @@ premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vou
 premium-promo-hero-cta = Mettre à niveau maintenant
 premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en Finlande, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour, en Suède et en Suisse.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Belgique, au Canada, à Chypre, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, au Portugal, à Singapour, en Slovaquie, en Slovénie, en Suède, en Suisse et au Royaume-Uni.
 premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-premium } ?
 premium-promo-perks-lead-2 = Avec { -brand-name-firefox-relay-premium }, non seulement vous bénéficiez de tous les avantages de la protection et de la gestion de la boîte de réception de { -brand-name-relay }, mais aussi d’un nombre illimité d’alias de messagerie et de votre propre sous-domaine personnalisé pour faciliter comme jamais la gestion de votre boîte de réception.
 premium-promo-perks-cta-label = Mettre à niveau maintenant
@@ -333,6 +334,7 @@ premium-promo-perks-perk-custom-domain-body-2 = Avec un sous-domaine personnalis
 premium-promo-perks-perk-dashboard-headline-2 = Contrôler les alias depuis le tableau de bord
 premium-promo-perks-perk-dashboard-body-2 = Gérez tous vos alias dans le tableau de bord si pratique : si vous trouvez que l’un d’eux reçoit des messages non sollicités, vous pouvez empêcher ceux-ci d’arriver dans votre boîte de réception.
 premium-promo-perks-perk-block-promotionals-headline = Bloquer les e-mails promotionnels
+premium-promo-perks-perk-block-promotionals-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
 premium-promo-perks-perk-tracker-blocking-headline = Supprimer les traqueurs des e-mails
 premium-promo-use-cases-headline-2 = Utiliser partout les alias de messagerie de { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Achats en ligne
@@ -396,6 +398,7 @@ setting-tracker-removal-description = Supprimez les traqueurs des e-mails transf
 setting-tracker-removal-note = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie.
 # Deprecated
 setting-tracker-removal-warning = Important : Parfois, la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans les images.
+setting-tracker-removal-warning-2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens. Aucun e-mail reçu de la sorte ne peut être corrigé ou restauré.
 
 ## FAQ Page
 
@@ -438,6 +441,7 @@ faq-question-1-answer-b-2-html = Si vous constatez un problème plus général d
 faq-question-availability-question = Où { -brand-name-relay } est-il disponible ?
 faq-question-availability-answer = La version gratuite de { -brand-name-relay } est disponible dans la plupart des pays. { -brand-name-relay-premium } est disponible aux États-Unis, en Allemagne, au Royaume-Uni, au Canada, à Singapour, en Malaisie, en Nouvelle-Zélande, en France, en Belgique, en Autriche, en Espagne, en Italie, en Suisse, aux Pays-Bas et en Irlande.
 faq-question-availability-answer-v2 = La version gratuite de { -brand-name-relay } est disponible dans la plupart des pays. { -brand-name-relay-premium } est disponible aux États-Unis, en Allemagne, au Royaume-Uni, au Canada, à Singapour, en Malaisie, en Nouvelle-Zélande, en Finlande, en France, en Belgique, en Autriche, en Espagne, en Italie, en Suède, en Suisse, aux Pays-Bas et en Irlande.
+faq-question-availability-answer-v3 = La version gratuite de { -brand-name-relay } est disponible dans la plupart des pays. { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Belgique, au Canada, à Chypre, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, au Portugal, à Singapour, en Slovaquie, en Slovénie, en Suède, en Suisse et au Royaume-Uni.
 faq-question-4-question-2 = Puis-je répondre aux messages en utilisant mon alias de messagerie { -brand-name-relay } ?
 faq-question-4-answer-v4 = Les utilisateurs et utilisatrices de { -brand-name-relay-premium } peuvent répondre à un e-mail transféré dans les trois mois suivant sa réception. Si vous ajoutez des destinataires en copie ou en copie cachée lorsque vous répondez à un message, votre adresse électronique originale sera exposée au destinataire principal et à toutes les personnes mises en copie. Si vous ne le souhaitez pas, n’ajoutez personne en copie ou en copie cachée en répondant.
 faq-question-subdomain-characters-question = Quels caractères puis-je utiliser pour créer un sous-domaine ?
@@ -480,6 +484,7 @@ faq-question-bulk-trackerremoval-answer = Vous ne pouvez activer la suppression 
 faq-question-trackerremoval-breakage-question = Que faire si mes e-mails semblent cassés ?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Quand le traqueur est supprimé, l’e-mail semble être mal formaté car il y manque ces images. Il n’est pas possible de corriger cela pour des e-mails déjà reçus. Si cette fonctionnalité vous empêche de lire correctement vos e-mails, désactivez la suppression des traqueurs.
+faq-question-trackerremoval-breakage-answer-2 = Quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens. Quand le traqueur est supprimé, l’e-mail semble être mal formaté car il y manque ces images. Il n’est pas possible de corriger cela pour des e-mails déjà reçus. Si cette fonctionnalité vous empêche de lire correctement vos e-mails, désactivez la suppression des traqueurs.
 
 ## Profile Page (Logged In)
 
@@ -538,6 +543,7 @@ profile-label-trackers-removed = Traqueurs supprimés
 profile-trackers-removed-tooltip-part1 = Avec la suppression des traqueurs activée, les traqueurs d’e-mail courants sont supprimés de vos e-mails transférés.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
+profile-trackers-removed-tooltip-part2-2 = <b>Important :</b> quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens.
 profile-label-cancel = Annuler
 profile-blocked-copy-2 = { -brand-name-firefox-relay } supprimera les messages avant qu’ils n’atteignent votre boîte de réception lorsque vous sélectionnez le blocage pour cet alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enverra les messages dans votre boîte de réception lorsque vous sélectionnez le transfert pour cet alias.
@@ -555,6 +561,7 @@ profile-stat-label-trackers-removed = Traqueurs supprimés
 profile-stat-label-trackers-learn-more-part1 = Activer la suppression des traqueurs supprime les traqueurs d’e-mail courants de vos messages transférés.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images.
+profile-stat-label-trackers-learn-more-part2-2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens.
 profile-filter-search-placeholder-2 = Rechercher des alias
 profile-filter-category-button-label = Filtrer les alias visibles
 profile-filter-category-button-tooltip = Filtrer les alias par sous-domaine et/ou s’ils bloquent actuellement les e-mails entrants
@@ -717,6 +724,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Saisissez le préfixe de l’ali
 modal-custom-alias-picker-form-prefix-placeholder = par exemple, « café »
 modal-custom-alias-picker-form-prefix-spaces-warning = Les espaces ne sont pas autorisées dans les alias de messagerie.
 modal-custom-alias-picker-form-prefix-invalid-warning = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres et des traits d’union, et ne peuvent pas commencer ou se terminer par un trait d’union.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres, des points et des traits d’union, et ne peuvent pas commencer ou se terminer par un point ou un trait d’union.
 modal-custom-alias-picker-form-submit-label-2 = Générer l’alias
 modal-custom-alias-picker-creation-error-2 = Votre alias de messagerie personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
 
@@ -822,7 +830,11 @@ trackerreport-tracker-count =
 trackerreport-confidentiality-notice = Les informations sur les traqueurs et les adresses d’expéditeur affichées dans ce rapport ne sont pas enregistrées par { -brand-name-firefox-relay } et sont uniquement contenues dans les URL de ce rapport. Nous n’enregistrons pas vos e-mails.
 trackerreport-removal-explainer-heading = Fonctionnement de la suppression des traqueurs
 trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
+# Deprecated
+trackerreport-breakage-warning = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Si des images contiennent des traqueurs, elles ne se chargeront pas.
+trackerreport-breakage-warning-2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens. Aucun e-mail reçu de la sorte ne peut être corrigé ou restauré.
 trackerreport-faq-heading = Questions les plus fréquentes sur les traqueurs dans les e-mails
+trackerreport-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-relay }
 trackerreport-loading = Chargement du rapport de suppression des traqueurs…
 trackerreport-load-error = Une erreur s’est produite lors de la génération du rapport de suppression des traqueurs. Veuillez actualiser la page pour réessayer.
 
@@ -917,6 +929,9 @@ forwarded-email-header-premium-banner-2 = Passez à { $premium_link } pour obten
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } traqueurs supprimés dans les emails
 forwarded-email-trackers-blocked-report = En savoir plus
 # This entire text is a link
 forwarded-email-footer-2 = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
