@@ -238,6 +238,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Δωρεάν
 landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
+landing-pricing-free-feature-3 = Αφαίρεση ιχνηλατών email
 landing-pricing-free-description = Δοκιμάστε τις μάσκες του { -brand-name-firefox-relay } και αρχίστε να προστατεύετε τα εισερχόμενά σας.
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -254,6 +255,7 @@ landing-pricing-premium-feature-3-2 = Ο δικός σας υποτομέας em
 landing-pricing-premium-feature-3-subheader = toemailsas@otomeassas.mozmail.com
 landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
 landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
+landing-pricing-premium-feature-6 = Αφαίρεση ιχνηλατών email
 landing-pricing-waitlist-description = Το { -brand-name-firefox-relay-premium } δεν είναι προς το παρόν διαθέσιμο στη χώρα σας. Παρακαλούμε πείτε μας το email σας για να ενημερωθείτε μόλις γίνει.
 landing-pricing-waitlist-cta = Εγγραφή στη λίστα αναμονής
 
@@ -547,6 +549,8 @@ profile-filter-category-option-promo-blocking-masks = Μάσκες φραγής 
 profile-filter-category-option-random-masks = Τυχαίες μάσκες
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Προσαρμοσμένες μάσκες
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Κατάσταση αφαίρεσης ιχνηλατών
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
