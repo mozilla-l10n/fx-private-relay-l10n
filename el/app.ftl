@@ -166,6 +166,7 @@ whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-pr
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
+whatsnew-feature-tracker-removal-heading = Παρουσίαση της αφαίρεσης ιχνηλατών email
 
 ## Bento Menu
 
