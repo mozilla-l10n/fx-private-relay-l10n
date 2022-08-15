@@ -455,6 +455,7 @@ faq-question-1-answer-b-2-html = Если вы видите, что пробле
 faq-question-availability-question = Где доступен { -brand-name-relay }?
 faq-question-availability-answer = Бесплатный { -brand-name-relay } доступен в большинстве стран. { -brand-name-relay-premium } доступен в США, Германии, Великобритании, Канаде, Сингапуре, Малайзии, Новой Зеландии, Франции, Бельгии, Австрии, Испании, Италии, Швейцарии, Нидерландах и Ирландии.
 faq-question-availability-answer-v2 = Бесплатный { -brand-name-relay } доступен в большинстве стран. { -brand-name-relay-premium } доступен в США, Германии, Великобритании, Канаде, Сингапуре, Малайзии, Новой Зеландии, Финляндии, Франции, Бельгии, Австрии, Испании, Италии, Швеции, Швейцарии, Нидерландах и Ирландии.
+faq-question-availability-answer-v3 = Бесплатный { -brand-name-relay } доступен в большинстве стран. { -brand-name-relay-premium } доступен в Австрии, Бельгии, Великобритании, Германии, Греции, Ирландии, Испании, Италии, Канаде, Кипре, Латвии, Литве, Люксембурге, Малайзии, Мальте, Нидерландах, Новой Зеландии, Португалии, Сингапуре, Словакии, Словении, США, Финляндии, Франции, Швейцарии, Швеции и Эстонии.
 faq-question-4-question-2 = Могу ли я отвечать на сообщения с помощью своего псевдонима электронной почты { -brand-name-relay }?
 faq-question-4-answer-v4 = Пользователи { -brand-name-relay-premium } могут отвечать на пересланные электронные письма в течение 3 месяцев после их получения. Если вы добавляете копию или скрытую копию при ответе на письмо, ваш исходный адрес электронной почты будет доступен получателям и тем, кто стоит в копии. Если вы не хотите раскрывать свой адрес электронной почты, не добавляйте копий и скрытых копий при ответе.
 faq-question-subdomain-characters-question = Какие символы я могу использовать для создания поддомена?
@@ -543,6 +544,12 @@ profile-label-copied = Скопировано!
 profile-label-blocked = Заблокировано
 profile-label-forwarded = Переслано
 profile-label-replies = Ответов
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Трекеров удалено
+profile-trackers-removed-tooltip-part1 = Если удаление трекеров включено, распространённые трекеры будут удаляться из пересылаемых вам электронных писем.
+# Deprecated
+profile-trackers-removed-tooltip-part2 = Важно: удаление трекеров может приводить к неправильному отображению электронных писем, потому что трекеры часто содержатся в изображениях.
+profile-trackers-removed-tooltip-part2-2 = <b>Важно:</b> удаление трекеров может приводить к неправильному отображению электронных писем, потому что трекеры часто содержатся в изображениях и ссылках.
 profile-label-cancel = Отмена
 profile-blocked-copy-2 = { -brand-name-firefox-relay } будет удалять сообщения прежде, чем они попадут в ваш почтовый ящик, если вы выберете блокировку для этого псевдонима.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } будет отправлять сообщения в ваш почтовый ящик, если вы выберете переадресацию для этого псевдонима.
@@ -555,6 +562,12 @@ profile-stat-learn-more-close = Закрыть
 profile-stat-label-blocked = Писем заблокировано
 profile-stat-label-forwarded = Писем переслано
 profile-stat-label-aliases-used-2 = Псевдонимов электронной почты использовано
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Трекеров удалено
+profile-stat-label-trackers-learn-more-part1 = Если вы включите удаление трекеров, распространённые трекеры будут удаляться из пересылаемых электронных писем.
+# Deprecated
+profile-stat-label-trackers-learn-more-part2 = Важно: удаление трекеров может приводить к неправильному отображению электронных писем, потому что трекеры часто содержатся в изображениях.
+profile-stat-label-trackers-learn-more-part2-2 = Важно: удаление трекеров может приводить к неправильному отображению электронных писем, потому что трекеры часто содержатся в изображениях и ссылках.
 profile-filter-search-placeholder-2 = Поиск псевдонимов
 profile-filter-category-button-label = Отфильтровать видимые псевдонимы
 profile-filter-category-button-tooltip = Отфильтровать псевдонимы по поддомену и/или тому, блокируют ли они сейчас входящую электронную почту
