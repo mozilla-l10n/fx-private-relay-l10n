@@ -583,6 +583,8 @@ profile-filter-category-option-promo-blocking-masks = Псевдонимы с б
 profile-filter-category-option-random-masks = Случайные псевдонимы
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Пользовательские псевдонимы
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Состояние удаления трекеров
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -814,6 +816,33 @@ multi-part-onboarding-premium-extension-button-dashboard = Перейти на �
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Отчёт { -brand-name-relay } об удалении трекеров
+trackerreport-meta-from-heading = От
+trackerreport-meta-receivedat-heading = Получено
+trackerreport-meta-count-heading = Всего трекеров
+trackerreport-trackers-heading = Трекеров обнаружено
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Домен трекеров
+trackerreport-trackers-count-heading = Число трекеров
+trackerreport-trackers-none = В этом электронном письме трекеров не обнаружено.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] { $count } трекер
+        [few] { $count } трекера
+       *[many] { $count } трекеров
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] { $count } трекер
+        [few] { $count } трекера
+       *[many] { $count } трекеров
+    }
+# Deprecated
+trackerreport-breakage-warning = Важно: удаление трекеров может приводить к неправильному отображению электронных писем, потому что трекеры часто содержатся в изображениях, которые не загружаются, если содержат трекер.
 
 ## Modals
 
