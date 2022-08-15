@@ -409,6 +409,7 @@ settings-button-copy = Нажмите, чтобы скопировать
 setting-api-key-copied = Скопировано!
 setting-tracker-removal-heading = Удаление трекеров
 setting-tracker-removal-description = Удалять трекеры из всех пересылаемых электронных писем.
+setting-tracker-removal-note = Теперь { -brand-name-firefox-relay } может удалять распространённые трекеры из электронных писем, пересылаемых через ваши псевдонимы.
 
 ## FAQ Page
 
