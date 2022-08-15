@@ -495,6 +495,7 @@ faq-question-disable-trackerremoval-question = Могу ли я отключит
 faq-question-disable-trackerremoval-answer = Да, если у вас возникают проблемы с отображением электронных писем или вы просто хотите отключить удаление трекеров, вы можете сделать это в настройках.
 faq-question-bulk-trackerremoval-question = Могу ли я включить удаление трекеров только для некоторых псевдонимов электронной почты?
 faq-question-bulk-trackerremoval-answer = Вы можете включить удаление трекеров только на уровне аккаунта — они или будут удаляться из всех ваших писем, или не будут вообще.
+faq-question-trackerremoval-breakage-question = Почему мои электронные письма отображаются неправильно?
 
 ## Profile Page (Logged In)
 
