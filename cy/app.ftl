@@ -226,7 +226,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Am Ddim
 landing-pricing-free-feature-1-2 = Hyd at 5 e-bost arallenw
 landing-pricing-free-feature-2 = Estyniad porwr
-landing-pricing-free-feature-3 = Tynnu traciwr e-bost
+landing-pricing-free-feature-3 = Tynnu tracwyr e-bost
 landing-pricing-free-description = Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechreuwch ddiogelu eich blwch derbyn e-bost.
 landing-pricing-free-cta = Cael { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -338,7 +338,7 @@ premium-promo-perks-perk-dashboard-body-2 = Rheolwch eich holl e-byst arallenwau
 premium-promo-perks-perk-block-promotionals-headline = Rhwystro e-byst hyrwyddo
 premium-promo-perks-perk-block-promotionals-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 premium-promo-perks-perk-tracker-blocking-headline = Dileu tracwyr e-bost
-premium-promo-perks-perk-tracker-blocking-body = Nawr gall { -brand-name-relay } eich helpu i rwystro tracio e-byst - bydd eich arallenwau  e-bost yn tynnu tracwyr e-bost cyffredin o unrhyw e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i dracwyr a hysbysebwyr.
+premium-promo-perks-perk-tracker-blocking-body = Nawr gall { -brand-name-relay } eich helpu i rwystro tracio e-byst - bydd eich arallenwau e-bost yn tynnu tracwyr e-bost cyffredin o unrhyw e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i dracwyr a hysbysebwyr.
 premium-promo-use-cases-headline-2 = Defnyddiwch e-byst arallenwau { -brand-name-relay } yn unrhyw le
 premium-promo-use-cases-shopping-heading = Siopa
 premium-promo-use-cases-shopping-body-2 = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan e-byst arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
@@ -546,6 +546,7 @@ profile-label-trackers-removed = Tracwyr wedi'u Dileu
 profile-trackers-removed-tooltip-part1 = Gyda thynnu traciwr wedi'i alluogi, bydd tracwyr e-bost cyffredin yn cael eu tynnu o'ch e-byst a anfonwyd ymlaen.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau.
+profile-trackers-removed-tooltip-part2-2 = <b>Pwysig:</b> Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau a dolenni.
 profile-label-cancel = Diddymu
 profile-blocked-copy-2 = Bydd { -brand-name-firefox-relay } yn dileu negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
 profile-forwarded-copy-2 = Bydd { -brand-name-firefox-relay } yn anfon negeseuon cyn y gallan nhw gyrraedd eich blwch derbyn pan fyddwch yn dewis rhwystro ar gyfer yr arallenw hwn.
@@ -563,6 +564,7 @@ profile-stat-label-trackers-removed = Tracwyr wedi'u Dileu
 profile-stat-label-trackers-learn-more-part1 = Bydd galluogi tynnu traciwr yn dileu tracwyr e-bost cyffredin o'ch e-byst a anfonwyd ymlaen.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod  wedi'u torri, oherwydd mae'r tracwyr yn aml wedi'u cynnwys o fewn delweddau.
+profile-stat-label-trackers-learn-more-part2-2 = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri oherwydd bod y tracwyr yn aml wedi'u cynnwys mewn delweddau a dolenni.
 profile-filter-search-placeholder-2 = Chwilio arallenwau
 profile-filter-category-button-label = Hidlo arallenwau gweladwy
 profile-filter-category-button-tooltip = Hidlo arallenwau yn ôl is-barth a/neu a ydyn nhw'n rhwystro e-byst sy'n dod i mewn ar hyn o bryd
@@ -850,6 +852,7 @@ trackerreport-trackers-explainer-content-part1 = Mae traciwr e-bost yn offeryn g
 trackerreport-trackers-explainer-content-part2 = Bydd cwmni neu sefydliad yn mewnosod traciwr mewn e-byst sy'n cael ei anfon atoch, fel arfer wedi'u cuddio o fewn delwedd neu ddolen. Pan fyddwch yn agor yr e-bost, mae cod o fewn y traciwr yn anfon data yn ôl i'r cwmni.
 # Deprecated
 trackerreport-breakage-warning = Pwysig: Weithiau gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel ei fod  wedi ei dorri oherwydd bod y tracwyr yn aml wedi'u cynnwys o fewn delweddau, na fydd yn llwytho os ydyn nhw'n cynnwys traciwr.
+trackerreport-breakage-warning-2 = Pwysig: Gall cael gwared ar dracwyr achosi i'ch e-bost edrych fel eu bod wedi torri oherwydd bod tracwyr yn aml wedi'u cynnwys mewn delweddau a dolenni. Nid oes modd trwsio nac adfer unrhyw e-byst a gewch fel hyn.
 trackerreport-faq-heading = Prif gwestiynau am dracwyr e-bost
 trackerreport-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
 trackerreport-loading = Wrthi'n llwytho eich adroddiad tynnu traciwr…
