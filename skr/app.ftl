@@ -71,6 +71,7 @@ nav-settings = ترتیباں
 nav-support = مدد تے سہارا
 nav-sign-out = سائن آؤٹ
 nav-contact = ساݙے نال رابطہ کرو
+nav-menu-mobile = موبائل مینیو
 fx-desktop-2 = ڈیسک ٹاپ کیتے { -brand-name-firefox }
 fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
