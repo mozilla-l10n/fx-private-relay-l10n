@@ -232,6 +232,7 @@ premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
+premium-promo-perks-pill-new = نواں!
 premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
 premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
 premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
@@ -649,6 +650,7 @@ forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $d
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = کسٹم ای میل سب ڈومین تے بے انت ای میل ماسک گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
+forwarded-email-trackers-blocked-report = ٻیا سِکھو
 # This entire text is a link
 forwarded-email-footer-2 = اتھ سارے ماسکاں کنوں ای میل بھیڄݨ کنوں روکو  تے ترتیباں منیج کرو۔
 # This entire text is a link
