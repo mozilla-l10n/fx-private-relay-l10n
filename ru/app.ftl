@@ -493,6 +493,8 @@ faq-question-detect-promotional-question = Как { -brand-name-relay } опре
 faq-question-detect-promotional-answer = Многие электронные письма содержат заголовочные метаданные, указывающие, что они отправлены с помощью автоматизированных инструментов на основе списков. { -brand-name-firefox-relay } определяет такие данные и блокирует эти письма.
 faq-question-disable-trackerremoval-question = Могу ли я отключить удаление трекеров?
 faq-question-disable-trackerremoval-answer = Да, если у вас возникают проблемы с отображением электронных писем или вы просто хотите отключить удаление трекеров, вы можете сделать это в настройках.
+faq-question-bulk-trackerremoval-question = Могу ли я включить удаление трекеров только для некоторых псевдонимов электронной почты?
+faq-question-bulk-trackerremoval-answer = Вы можете включить удаление трекеров только на уровне аккаунта — они или будут удаляться из всех ваших писем, или не будут вообще.
 
 ## Profile Page (Logged In)
 
