@@ -157,6 +157,14 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Переходите сейчас и получите ещё больше защиты…
 whatsnew-feature-premium-expansion-description = Переходите сейчас и получите ещё больше защиты — создавайте неограниченное число псевдонимов электронной почты, получите собственный поддомен и не только!
+whatsnew-feature-tracker-removal-heading = Представляем удаление трекеров
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Теперь { -brand-name-relay } может удалять распространённые трекеры из пересылаемых электронных писем…
+# Deprecated
+whatsnew-feature-tracker-removal-description = Теперь { -brand-name-relay } может удалять распространённые трекеры из пересылаемых электронных писем, помогая вам оставаться невидимыми для рекламодателей.
+whatsnew-feature-tracker-removal-description-2 = Теперь { -brand-name-relay } может удалять распространённые трекеры из пересылаемых электронных писем, помогая вам оставаться невидимыми для рекламодателей. Включите эту функцию в «Настройках».
 
 ## Bento Menu
 
@@ -229,6 +237,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Бесплатно
 landing-pricing-free-feature-1-2 = До 5 псевдонимов электронной почты
 landing-pricing-free-feature-2 = Расширение для браузера
+landing-pricing-free-feature-3 = Удаление трекеров электронной почты
 landing-pricing-free-description = Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик.
 landing-pricing-free-cta = Получить { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -245,6 +254,7 @@ landing-pricing-premium-feature-3-2 = Собственный поддомен э
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Возможность отвечать на пересланные письма
 landing-pricing-premium-feature-5 = Блокировка рекламных писем
+landing-pricing-premium-feature-6 = Удаление трекеров
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } сейчас не доступен в вашей стране. Пожалуйста, оставьте свою электронную почту, чтобы получить уведомление, как только он появится.
 landing-pricing-waitlist-cta = Присоединиться к списку ожидания
 
