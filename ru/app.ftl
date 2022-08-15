@@ -349,6 +349,7 @@ premium-promo-perks-perk-dashboard-body-2 = Управляйте всеми св
 premium-promo-perks-perk-block-promotionals-headline = Блокируйте рекламные электронные письма
 premium-promo-perks-perk-block-promotionals-body = С { -brand-name-relay-premium } вы можете блокировать рекламные письма, при этом получая такие электронные письма, как квитанции и информацию о доставке.
 premium-promo-perks-perk-tracker-blocking-headline = Удаляйте трекеры из электронных писем
+premium-promo-perks-perk-tracker-blocking-body = Теперь { -brand-name-relay } может помочь вам избавиться от отслеживания в электронной почте — ваши псевдонимы будут удалять распространённые трекеры из всех пересылаемых электронных писем, помогая вам оставаться невидимыми для трекеров и рекламодателей.
 premium-promo-use-cases-headline-2 = Используйте псевдонимы электронной почты { -brand-name-relay } где угодно
 premium-promo-use-cases-shopping-heading = Покупки
 premium-promo-use-cases-shopping-body-2 = Пытаетесь подписаться на скидки без спама? Сгруппируйте все свои аккаунты для покупок под собственными псевдонимами электронной почты, такими как «‎mydeals@mydomain.mozmail.com».
@@ -406,6 +407,8 @@ settings-api-key-description-bolded = Вводите его только в те
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Нажмите, чтобы скопировать
 setting-api-key-copied = Скопировано!
+setting-tracker-removal-heading = Удаление трекеров
+setting-tracker-removal-description = Удалять трекеры из всех пересылаемых электронных писем.
 
 ## FAQ Page
 
