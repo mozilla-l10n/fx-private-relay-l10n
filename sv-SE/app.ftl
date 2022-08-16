@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Introducerar borttagning av e-postsp�
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från vidarebefordrade e-postmeddelanden…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
+whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
 
 ## Bento Menu
 
@@ -220,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Upp till 5 e-postalias
 landing-pricing-free-feature-2 = Webbläsartillägg
+landing-pricing-free-feature-3 = Borttagning av e-postspårare
 landing-pricing-free-description = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -236,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Din egna e-postunderdomän
 landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
 landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
 landing-pricing-premium-feature-5 = Blockera reklammeddelanden
+landing-pricing-premium-feature-6 = Borttagning av e-postspårare
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
 
@@ -315,16 +319,22 @@ premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får 
 premium-promo-hero-cta = Uppgradera nu
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
 premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Ny!
 premium-promo-perks-perk-unlimited-headline-2 = Skapa obegränsat antal e-postalias
 premium-promo-perks-perk-unlimited-body-2 = Ingen gräns på fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
 premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
 premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad underdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa alias i förväg.
 premium-promo-perks-perk-dashboard-headline-2 = Styr dina alias från översikten
 premium-promo-perks-perk-dashboard-body-2 = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
+premium-promo-perks-perk-block-promotionals-headline = Blockera e-postreklam
+premium-promo-perks-perk-block-promotionals-body = Med { -brand-name-relay-premium }, kan du blockera e-postreklam-meddelanden från att nå din inkorg samtidigt som du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
+premium-promo-perks-perk-tracker-blocking-headline = Ta bort e-postspårare
+premium-promo-perks-perk-tracker-blocking-body = Nu kan { -brand-name-relay } hjälpa dig att stoppa e-postspårning – dina e-post alias tar bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för spårare och annonsörer.
 premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
@@ -385,6 +395,7 @@ setting-api-key-copied = Kopierad!
 setting-tracker-removal-heading = Ta bort e-postspårare
 setting-tracker-removal-description = Ta bort e-postspårare i alla vidarebefordrade e-postmeddelanden.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu ta bort vanliga spårare från e-postmeddelanden som vidarebefordras genom dina alias.
+# Deprecated
 setting-tracker-removal-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
 
 ## FAQ Page
@@ -468,6 +479,7 @@ faq-question-disable-trackerremoval-answer = Ja. Om du har problem med att e-pos
 faq-question-bulk-trackerremoval-question = Kan jag ta bort spårare endast från några av mina e-postalias?
 faq-question-bulk-trackerremoval-answer = Du kan bara aktivera borttagning av spårare på kontonivå — det tar antingen bort spårare från alla dina e-postmeddelanden, eller ingen av dem.
 faq-question-trackerremoval-breakage-question = Varför ser mina e-postmeddelanden trasiga ut?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder. När spåraren tas bort ser e-postmeddelandet ut som om det har formaterats fel eftersom bilder saknas. Detta kan inte åtgärdas för e-postmeddelanden du redan har fått. Om detta hindrar dig från att läsa dina e-postmeddelanden ordentligt, stäng av borttagning av spårare.
 
 ## Profile Page (Logged In)
@@ -525,6 +537,7 @@ profile-label-replies = Svar
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Spårare borttagna
 profile-trackers-removed-tooltip-part1 = Med borttagning av spårare aktiverat kommer vanliga e-postspårare att tas bort från dina vidarebefordrade e-postmeddelanden.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder.
 profile-label-cancel = Avbryt
 profile-blocked-copy-2 = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
@@ -541,6 +554,7 @@ profile-stat-label-aliases-used-2 = E-postalias som används
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Spårare borttagna
 profile-stat-label-trackers-learn-more-part1 = Om du aktiverar borttagning av spårare tas vanliga e-postspårare bort från dina vidarebefordrade e-postmeddelanden.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
 profile-filter-search-placeholder-2 = Sök efter e-postalias
 profile-filter-category-button-label = Filtrera synliga e-postalias
@@ -819,6 +833,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kan nu t
 trackerreport-trackers-explainer-heading = Om e-postspårare
 trackerreport-trackers-explainer-content-part1 = E-postspårning är ett vanligt övervaknings- och reklamverktyg som har tagit över många inkorgar. Dessa spårare kan användas för att förstå mer om ditt onlinebeteende, dina intressen och din e-postaktivitet.
 trackerreport-trackers-explainer-content-part2 = Ett företag eller en organisation kommer att bädda in en spårare i e-postmeddelanden som skickas till dig, vanligtvis gömda i en bild eller en länk. När e-postmeddelandet öppnas skickar koden i spåraren data tillbaka till företaget.
+# Deprecated
 trackerreport-breakage-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder, som inte laddas om de innehåller en spårare.
 trackerreport-faq-heading = De vanligaste frågorna om e-postspårare
 trackerreport-faq-cta = Se fler vanliga frågor om { -brand-name-firefox-relay }
