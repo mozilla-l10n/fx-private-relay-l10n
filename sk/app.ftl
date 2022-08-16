@@ -438,7 +438,7 @@ setting-tracker-removal-heading = Odstraňovanie sledovacích prvkov z e-mailov
 setting-tracker-removal-description = Odstraňovať sledovacie prvky zo všetkých preposlaných e-mailov
 setting-tracker-removal-note = { -brand-name-firefox-relay } teraz môže odstrániť bežné sledovacie prvky z e-mailov posielaných ďalej cez vaše masky.
 # Deprecated
-setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 setting-tracker-removal-warning-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Žiadne e-maily, ktoré takto dostanete, sa nedajú opraviť ani obnoviť.
 
 ## FAQ Page
@@ -519,12 +519,12 @@ faq-question-promotional-email-blocking-answer = Predplatitelia { -brand-name-re
 faq-question-detect-promotional-question = Ako { -brand-name-relay } zistí, či je e-mail marketingový alebo nie?
 faq-question-detect-promotional-answer = Mnoho e-mailov sa odosiela s metadátami v hlavičke, ktoré indikujú, že e-mail pochádza z automatizovaných nástrojov založených na zoznamoch adries. { -brand-name-firefox-relay } rozpoznáva tieto údaje hlavičky, aby mohol tieto e-maily zablokovať.
 faq-question-disable-trackerremoval-question = Môžem zastaviť odstraňovanie sledovacích prvkov z e-mailov?
-faq-question-disable-trackerremoval-answer = Áno. Ak máte problémy s e-mailami, ktoré vyzerajú nefunkčné a rozbité, alebo by ste chceli zastaviť odstraňovanie sledovacích prvkov, môžete túto funkciu zakázať v nastaveniach.
+faq-question-disable-trackerremoval-answer = Áno. Ak máte problémy s e-mailami, ktoré vyzerajú nefunkčné, alebo by ste chceli zastaviť odstraňovanie sledovacích prvkov, môžete túto funkciu zakázať v nastaveniach.
 faq-question-bulk-trackerremoval-question = Môžem odstrániť sledovacie prvky iba na niektorých mojich e-mailových maskách?
 faq-question-bulk-trackerremoval-answer = Odstraňovanie sledovacích prvkov môžete zapnúť iba na úrovni účtu – buď odstránia sa sledovacie prvky zo všetkých vašich e-mailov alebo zo žiadneho z nich.
-faq-question-trackerremoval-breakage-question = Prečo moje e-maily vyzerajú rozbité?
+faq-question-trackerremoval-breakage-question = Prečo moje e-maily vyzerajú nefunkčné?
 # Deprecated
-faq-question-trackerremoval-breakage-answer = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčne a rozbite, pretože sledovacie prvky sú často obsiahnuté v obrázkoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
+faq-question-trackerremoval-breakage-answer = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
 faq-question-trackerremoval-breakage-answer-2 = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
 
 ## Profile Page (Logged In)
@@ -583,7 +583,7 @@ profile-label-replies = Odpovede
 profile-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-trackers-removed-tooltip-part1 = Keď je povolené odstraňovanie sledovacích prvkov, bežné sledovacie prvky budú odstraňované z preposielaných e-mailov.
 # Deprecated
-profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-trackers-removed-tooltip-part2-2 = <b>Dôležité:</b> odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch.
 profile-label-cancel = Zrušiť
 profile-blocked-copy-2 = Ak pre túto masku zvolíte blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
@@ -601,8 +601,8 @@ profile-stat-label-aliases-used-2 = Použité e-mailové masky
 profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-stat-label-trackers-learn-more-part1 = Povolenie odstraňovania sledovacích prvkov odstráni bežné sledovacie prvky z preposielaných e-mailov.
 # Deprecated
-profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
-profile-stat-label-trackers-learn-more-part2-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch.
+profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+profile-stat-label-trackers-learn-more-part2-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch.
 profile-filter-search-placeholder-2 = Hľadať v maskách
 profile-filter-category-button-label = Filtrovať viditeľné masky
 profile-filter-category-button-tooltip = Filtrujte masky podľa subdomény a/alebo či práve blokujú prichádzajúce e-maily
@@ -881,7 +881,7 @@ trackerreport-trackers-explainer-heading = O nástrojoch na sledovanie e-mailov
 trackerreport-trackers-explainer-content-part1 = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
 trackerreport-trackers-explainer-content-part2 = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
 # Deprecated
-trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
+trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
 trackerreport-breakage-warning-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Žiadne e-maily, ktoré takto dostanete, sa nedajú opraviť ani obnoviť.
 trackerreport-faq-heading = Najčastejšie otázky o nástrojoch na sledovanie e-mailov
 trackerreport-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
