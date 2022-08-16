@@ -361,7 +361,7 @@ premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium
 premium-promo-hero-cta = Inovovať teraz
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
-premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a Spojených štátoch amerických.
+premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
@@ -439,6 +439,7 @@ setting-tracker-removal-description = Odstraňovať sledovacie prvky zo všetký
 setting-tracker-removal-note = { -brand-name-firefox-relay } teraz môže odstrániť bežné sledovacie prvky z e-mailov posielaných ďalej cez vaše masky.
 # Deprecated
 setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+setting-tracker-removal-warning-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Žiadne e-maily, ktoré takto dostanete, sa nedajú opraviť ani obnoviť.
 
 ## FAQ Page
 
@@ -481,6 +482,7 @@ faq-question-1-answer-b-2-html = Ak vidíte širší problém s nevyžiadanou po
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
 faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
 faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
+faq-question-availability-answer-v3 = Bezplatná verzia { -brand-name-relay } je dostupná vo väčšine krajín. { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
 faq-question-4-question-2 = Môžem odpovedať na správy pomocou svojej e-mailovej masky { -brand-name-relay }?
 faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
@@ -523,6 +525,7 @@ faq-question-bulk-trackerremoval-answer = Odstraňovanie sledovacích prvkov mô
 faq-question-trackerremoval-breakage-question = Prečo moje e-maily vyzerajú rozbité?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčne a rozbite, pretože sledovacie prvky sú často obsiahnuté v obrázkoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
+faq-question-trackerremoval-breakage-answer-2 = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
 
 ## Profile Page (Logged In)
 
@@ -581,6 +584,7 @@ profile-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-trackers-removed-tooltip-part1 = Keď je povolené odstraňovanie sledovacích prvkov, bežné sledovacie prvky budú odstraňované z preposielaných e-mailov.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+profile-trackers-removed-tooltip-part2-2 = <b>Dôležité:</b> odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch.
 profile-label-cancel = Zrušiť
 profile-blocked-copy-2 = Ak pre túto masku zvolíte blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
 profile-forwarded-copy-2 = Keď zvolíte pre túto masku preposielanie, { -brand-name-firefox-relay } bude preposielať na vašu e-mailovú adresu.
@@ -598,6 +602,7 @@ profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-stat-label-trackers-learn-more-part1 = Povolenie odstraňovania sledovacích prvkov odstráni bežné sledovacie prvky z preposielaných e-mailov.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
+profile-stat-label-trackers-learn-more-part2-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch.
 profile-filter-search-placeholder-2 = Hľadať v maskách
 profile-filter-category-button-label = Filtrovať viditeľné masky
 profile-filter-category-button-tooltip = Filtrujte masky podľa subdomény a/alebo či práve blokujú prichádzajúce e-maily
@@ -877,6 +882,7 @@ trackerreport-trackers-explainer-content-part1 = Sledovanie e-mailov je bežný 
 trackerreport-trackers-explainer-content-part2 = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
 # Deprecated
 trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
+trackerreport-breakage-warning-2 = Dôležité: odstránenie sledovacích prvkov môže spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch či odkazoch. Žiadne e-maily, ktoré takto dostanete, sa nedajú opraviť ani obnoviť.
 trackerreport-faq-heading = Najčastejšie otázky o nástrojoch na sledovanie e-mailov
 trackerreport-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
 trackerreport-loading = Načítava sa správa o odstránených sledovacích prvkoch…
