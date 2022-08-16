@@ -397,6 +397,7 @@ setting-tracker-removal-description = Ta bort e-postspårare i alla vidarebeford
 setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu ta bort vanliga spårare från e-postmeddelanden som vidarebefordras genom dina alias.
 # Deprecated
 setting-tracker-removal-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
+setting-tracker-removal-warning-2 = Viktigt: Om du tar bort spårare kan din e-post se trasig ut eftersom spårare ofta finns i bilder och länkar. Alla e-postmeddelanden du får som ser på detta sätt kan inte fixas eller återställas.
 
 ## FAQ Page
 
@@ -439,6 +440,7 @@ faq-question-1-answer-b-2-html = Om du ser ett större problem med oönskad e-po
 faq-question-availability-question = Var är { -brand-name-relay } tillgängligt?
 faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-availability-answer-v2 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Finland, Frankrike, Belgien, Österrike, Spanien, Italien, Sverige, Schweiz, Nederländerna, och Irland.
+faq-question-availability-answer-v3 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
 faq-question-4-question-2 = Kan jag svara på meddelanden med mitt { -brand-name-relay } e-postalias?
 faq-question-4-answer-v4 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagaren och de som kopieras i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
 faq-question-subdomain-characters-question = Vilka tecken kan jag använda för att skapa en underdomän?
@@ -481,6 +483,7 @@ faq-question-bulk-trackerremoval-answer = Du kan bara aktivera borttagning av sp
 faq-question-trackerremoval-breakage-question = Varför ser mina e-postmeddelanden trasiga ut?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder. När spåraren tas bort ser e-postmeddelandet ut som om det har formaterats fel eftersom bilder saknas. Detta kan inte åtgärdas för e-postmeddelanden du redan har fått. Om detta hindrar dig från att läsa dina e-postmeddelanden ordentligt, stäng av borttagning av spårare.
+faq-question-trackerremoval-breakage-answer-2 = Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder och länkar. När spåraren tas bort ser e-postmeddelandet ut som om det har formaterats fel eftersom bilder saknas. Detta kan inte fixas för e-postmeddelanden du redan har fått. Om detta hindrar dig från att läsa dina e-postmeddelanden ordentligt, stäng av borttagning av spårare.
 
 ## Profile Page (Logged In)
 
@@ -539,6 +542,7 @@ profile-label-trackers-removed = Spårare borttagna
 profile-trackers-removed-tooltip-part1 = Med borttagning av spårare aktiverat kommer vanliga e-postspårare att tas bort från dina vidarebefordrade e-postmeddelanden.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder.
+profile-trackers-removed-tooltip-part2-2 = <b>Viktigt:</b> Om du tar bort spårare kan din e-post se trasig ut eftersom spårarna ofta finns i bilder och länkar.
 profile-label-cancel = Avbryt
 profile-blocked-copy-2 = { -brand-name-firefox-relay } tar bort meddelanden innan de når din inkorg när du väljer blockering för detta alias.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
@@ -556,6 +560,7 @@ profile-stat-label-trackers-removed = Spårare borttagna
 profile-stat-label-trackers-learn-more-part1 = Om du aktiverar borttagning av spårare tas vanliga e-postspårare bort från dina vidarebefordrade e-postmeddelanden.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut, eftersom spårarna ofta finns i bilder.
+profile-stat-label-trackers-learn-more-part2-2 = Viktigt: Om du tar bort spårare kan din e-post se trasig ut eftersom spårarna ofta finns i bilder och länkar.
 profile-filter-search-placeholder-2 = Sök efter e-postalias
 profile-filter-category-button-label = Filtrera synliga e-postalias
 profile-filter-category-button-tooltip = Filtrera alias efter underdomän och/eller om de för närvarande blockerar inkommande e-post
@@ -835,6 +840,7 @@ trackerreport-trackers-explainer-content-part1 = E-postspårning är ett vanligt
 trackerreport-trackers-explainer-content-part2 = Ett företag eller en organisation kommer att bädda in en spårare i e-postmeddelanden som skickas till dig, vanligtvis gömda i en bild eller en länk. När e-postmeddelandet öppnas skickar koden i spåraren data tillbaka till företaget.
 # Deprecated
 trackerreport-breakage-warning = Viktigt: Ibland kan borttagning av spårare göra att din e-post ser trasig ut eftersom spårarna ofta finns i bilder, som inte laddas om de innehåller en spårare.
+trackerreport-breakage-warning-2 = Viktigt: Om du tar bort spårare kan din e-post se trasig ut eftersom spårare ofta finns i bilder och länkar. Alla e-postmeddelanden du får som ser ut på detta sätt kan inte fixas eller återställas.
 trackerreport-faq-heading = De vanligaste frågorna om e-postspårare
 trackerreport-faq-cta = Se fler vanliga frågor om { -brand-name-firefox-relay }
 trackerreport-loading = Läser in din borttagningsrapport av spårare…
