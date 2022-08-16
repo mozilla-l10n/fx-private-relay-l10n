@@ -795,6 +795,7 @@ trackerreport-tracker-count =
     }
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 trackerreport-faq-heading = Συνήθεις ερωτήσεις για τους ιχνηλάτες email
+trackerreport-loading = Φόρτωση αναφοράς αφαίρεσης ιχνηλατών…
 
 ## Modals
 
