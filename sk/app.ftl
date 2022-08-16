@@ -189,7 +189,9 @@ whatsnew-feature-tracker-removal-heading = Predstavujeme odstraňovanie sledovac
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov…
+# Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov.
+whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov. Funkciu zapnete v časti “Nastavenia”.
 
 ## Bento Menu
 
@@ -262,6 +264,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Zadarmo
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masiek
 landing-pricing-free-feature-2 = Rozšírenie do prehliadača
+landing-pricing-free-feature-3 = Odstraňovanie sledovacích prvkov z e-mailov
 landing-pricing-free-description = Vyskúšajte masky { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
 landing-pricing-free-cta = Získajte { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -278,6 +281,7 @@ landing-pricing-premium-feature-3-2 = Vaša vlastná e-mailová subdoména
 landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
 landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
 landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
+landing-pricing-premium-feature-6 = Odstraňovanie sledovacích prvkov z e-mailov
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } momentálne nie je vo vašej krajine k dispozícii. Zadajte svoj e-mail, aby ste boli informovaní hneď, ako to bude.
 landing-pricing-waitlist-cta = Pridať sa na zoznam čakateľov
 
@@ -357,16 +361,22 @@ premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium
 premium-promo-hero-cta = Inovovať teraz
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
+premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a Spojených štátoch amerických.
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
 premium-promo-perks-cta-tooltip = Inovovať na { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Novinka!
 premium-promo-perks-perk-unlimited-headline-2 = Vytvárajte neobmedzený počet e-mailových masiek
 premium-promo-perks-perk-unlimited-body-2 = Už žiadny limit piatich masiek: so službou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
 premium-promo-perks-perk-custom-domain-body-2 = S vlastnou subdoménou môžete vytvárať masky, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete masku na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — masku nie je potrebné vytvárať vopred.
 premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky z ovládacieho panela
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
+premium-promo-perks-perk-block-promotionals-headline = Blokovanie marketingových e-mailov
+premium-promo-perks-perk-block-promotionals-body = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e-mailov do vašej schránky a zároveň stále prijímať e-maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
+premium-promo-perks-perk-tracker-blocking-headline = Odstraňovanie sledovacích prvkov z e-mailov
+premium-promo-perks-perk-tracker-blocking-body = Teraz vám { -brand-name-relay } môže pomôcť zastaviť sledovanie e-mailov – vaše e-mailové masky odstránia bežné sledovacie prvky zo všetkých e-mailov, ktoré vám preposielame, čím vám pomôžu zostať neviditeľnými pre sledovačov a inzerentov.
 premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -brand-name-relay } kdekoľvek
 premium-promo-use-cases-shopping-heading = Nakupovanie
 premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými maskami, ako napríklad „mojenakupy@mojadomena.mozmail.com“.
@@ -427,6 +437,7 @@ setting-api-key-copied = Skopírované!
 setting-tracker-removal-heading = Odstraňovanie sledovacích prvkov z e-mailov
 setting-tracker-removal-description = Odstraňovať sledovacie prvky zo všetkých preposlaných e-mailov
 setting-tracker-removal-note = { -brand-name-firefox-relay } teraz môže odstrániť bežné sledovacie prvky z e-mailov posielaných ďalej cez vaše masky.
+# Deprecated
 setting-tracker-removal-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 
 ## FAQ Page
@@ -510,6 +521,7 @@ faq-question-disable-trackerremoval-answer = Áno. Ak máte problémy s e-mailam
 faq-question-bulk-trackerremoval-question = Môžem odstrániť sledovacie prvky iba na niektorých mojich e-mailových maskách?
 faq-question-bulk-trackerremoval-answer = Odstraňovanie sledovacích prvkov môžete zapnúť iba na úrovni účtu – buď odstránia sa sledovacie prvky zo všetkých vašich e-mailov alebo zo žiadneho z nich.
 faq-question-trackerremoval-breakage-question = Prečo moje e-maily vyzerajú rozbité?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčne a rozbite, pretože sledovacie prvky sú často obsiahnuté v obrázkoch. Keď je sledovací prvok odstránený, e-mail vyzerá, že bol nesprávne naformátovaný, pretože chýbajú obrázky. Toto sa nedá opraviť pre e-maily, ktoré ste už dostali. Ak vám to bráni v správnom čítaní e-mailov, vypnite odstraňovanie sledovacie prvkov.
 
 ## Profile Page (Logged In)
@@ -567,6 +579,7 @@ profile-label-replies = Odpovede
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-trackers-removed-tooltip-part1 = Keď je povolené odstraňovanie sledovacích prvkov, bežné sledovacie prvky budú odstraňované z preposielaných e-mailov.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-label-cancel = Zrušiť
 profile-blocked-copy-2 = Ak pre túto masku zvolíte blokovanie, { -brand-name-firefox-relay } odstráni správy ešte predtým ako sa dostanú do vašej doručenej pošty.
@@ -583,6 +596,7 @@ profile-stat-label-aliases-used-2 = Použité e-mailové masky
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
 profile-stat-label-trackers-learn-more-part1 = Povolenie odstraňovania sledovacích prvkov odstráni bežné sledovacie prvky z preposielaných e-mailov.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
 profile-filter-search-placeholder-2 = Hľadať v maskách
 profile-filter-category-button-label = Filtrovať viditeľné masky
@@ -861,6 +875,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } teraz do
 trackerreport-trackers-explainer-heading = O nástrojoch na sledovanie e-mailov
 trackerreport-trackers-explainer-content-part1 = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
 trackerreport-trackers-explainer-content-part2 = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
+# Deprecated
 trackerreport-breakage-warning = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať rozbito, pretože sledovacie prvky sú často obsiahnuté v obrázkoch, ktoré sa však nenačítajú kvôli prítomnosti sledovacieho prvku.
 trackerreport-faq-heading = Najčastejšie otázky o nástrojoch na sledovanie e-mailov
 trackerreport-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
