@@ -167,6 +167,12 @@ whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-pr
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
 whatsnew-feature-tracker-removal-heading = Παρουσίαση της αφαίρεσης ιχνηλατών email
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email…
+# Deprecated
+whatsnew-feature-tracker-removal-description = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές.
 
 ## Bento Menu
 
