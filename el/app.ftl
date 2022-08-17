@@ -470,6 +470,7 @@ faq-question-promotional-email-blocking-answer = Οι συνδρομητές τ�
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
 faq-question-disable-trackerremoval-question = Μπορώ να διακόψω την αφαίρεση ιχνηλατών email;
+faq-question-bulk-trackerremoval-answer = Μπορείτε να ενεργοποιήσετε την αφαίρεση ιχνηλατών μόνο σε επίπεδο λογαριασμού — είτε θα καταργεί τους ιχνηλάτες σε όλα τα email σας είτε σε κανένα από αυτά.
 faq-question-trackerremoval-breakage-question = Γιατί τα email μου δεν προβάλλονται σωστά;
 
 ## Profile Page (Logged In)
