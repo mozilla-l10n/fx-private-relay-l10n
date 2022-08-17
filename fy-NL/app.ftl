@@ -147,7 +147,9 @@ whatsnew-feature-tracker-removal-heading = Nij: ferwiderjen fan e-mailtrackers
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út trochstjoerde e-mailberjochten ferwiderje…
+# Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
+whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders. Skeakelje dit yn yn ‘Ynstellingen’.
 
 ## Bento Menu
 
@@ -315,10 +317,12 @@ premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije
 premium-promo-hero-cta = No opwurdearje
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Finlân, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Sweden, Switserlân, it FK en de FS.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailmaskers en jo eigen oanpaste subdomein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
 premium-promo-perks-cta-label = No opwurdearje
 premium-promo-perks-cta-tooltip = Opwurdearje nei { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nij!
 premium-promo-perks-perk-unlimited-headline-2 = Meitsje ûnbeheinde e-mailmaskers oan
 premium-promo-perks-perk-unlimited-body-2 = Gjin limyt fan fiif maskers mear: mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
 premium-promo-perks-perk-custom-domain-headline-2 = Kies jo eigen oanpaste subdomein
@@ -327,6 +331,9 @@ premium-promo-perks-perk-custom-domain-body-2 =
     In masker nedich foar restaurantreservearringen? Sis gewoanwei iten@jodomein.mozmail.com – Jo hoege it masker net yn it foar te meitsjen.
 premium-promo-perks-perk-dashboard-headline-2 = Behear jo maskers fan it dashboard ôf
 premium-promo-perks-perk-dashboard-body-2 = Behear al jo maskers yn it gebrûksfreonlike dashboerd: as jo merke dat der ien net-winske berjochten ûntfangt, kinne jo foarkomme dat dy berjochten jo Postfek YN berikje.
+premium-promo-perks-perk-block-promotionals-headline = Reklameberjochten blokkearje
+premium-promo-perks-perk-block-promotionals-body = Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke, wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange.
+premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers fuortsmite
 premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
 premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
@@ -389,6 +396,7 @@ setting-api-key-copied = Kopiearre!
 setting-tracker-removal-heading = E-mailtrackers ferwiderje
 setting-tracker-removal-description = E-mailtrackers ferwiderje út alle trochstjoerde e-mailberjochten.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t fia jo maskers trochstjoerd binne ferwiderje.
+# Deprecated
 setting-tracker-removal-warning = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
 
 ## FAQ Page
@@ -472,6 +480,7 @@ faq-question-disable-trackerremoval-answer = Ja. As jo problemen hawwe mei e-mai
 faq-question-bulk-trackerremoval-question = Kin ik trackers allinnich op inkelde fan myn e-mailmaskers ferwiderje?
 faq-question-bulk-trackerremoval-answer = Jo kinne trackerferwidering allinnich ynskeakelje op in accountnivo – it smyt trackers fan al jo e-mailberjochten fuort, of net ien derfan.
 faq-question-trackerremoval-breakage-question = Wêrom sjogge myn e-mailberjochten der net goed út?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Somtiden kin it ferwiderjen fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte. Wannear de tracker ferwidere wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it ferwiderjen fan trackers dan út.
 
 ## Profile Page (Logged In)
@@ -529,6 +538,7 @@ profile-label-replies = Antwurdzje
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = trackers ferwidere
 profile-trackers-removed-tooltip-part1 = As trackerferwidering ynskeakele is, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
@@ -545,6 +555,7 @@ profile-stat-label-aliases-used-2 = Brûkte e-mailmaskers
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = trackers ferwidere
 profile-stat-label-trackers-learn-more-part1 = As jo trackerferwidering ynskeakelje, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
 profile-filter-search-placeholder-2 = Maskers trochsykje
 profile-filter-category-button-label = Sichtbere maskers filterje
@@ -822,6 +833,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kin no f
 trackerreport-trackers-explainer-heading = Oer e-mailtrackers
 trackerreport-trackers-explainer-content-part1 = E-mailtracking is in faaks brûkt helpmiddel foar bewekking en reklame dat gauris werom te finen is yn Postfek YN. Dizze trackers kinne brûkt wurde om mear ynsjoch te krijen yn jo online gedrach, jo ynteressen en jo e-mailaktiviteit.
 trackerreport-trackers-explainer-content-part2 = In bedriuw of organisaasje sil in tracker opnimmen yn e-mailberjochten dy’t nei jo ferstjoerd wurde, meastentiids ferburgen yn in ôfbylding of in keppeling. Wannear’t it e-mailberjocht iepene wurdt, stjoert de koade yn de tracker gegevens werom nei it bedriuw.
+# Deprecated
 trackerreport-breakage-warning = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte, dy’t net laden wurde as se in tracker befetsje.
 trackerreport-faq-heading = Faaks stelde fragen oer e-mailtrackers
 trackerreport-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
@@ -922,6 +934,10 @@ forwarded-email-header-premium-banner-2 = Wurdearje op nei { $premium_link } om 
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-mailtrackers fuortsmiten
+forwarded-email-trackers-blocked-report = Mear ynfo
 # This entire text is a link
 forwarded-email-footer-2 = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle maskers beheare.
 # This entire text is a link
