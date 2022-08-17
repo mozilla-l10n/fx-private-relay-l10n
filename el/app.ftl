@@ -776,9 +776,11 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 
 trackerreport-title = Αναφορά αφαίρεσης ιχνηλατών { -brand-name-relay }
 trackerreport-meta-from-heading = Από
+trackerreport-meta-count-heading = Σύνολο ιχνηλατών
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Τομέας ιχνηλάτη
 trackerreport-trackers-count-heading = Αριθμός ιχνηλατών
+trackerreport-trackers-none = Δεν ανιχνεύθηκαν ιχνηλάτες σε αυτό το email.
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
@@ -793,6 +795,7 @@ trackerreport-tracker-count =
         [one] 1 ιχνηλάτης
        *[other] { $count } ιχνηλάτες
     }
+trackerreport-removal-explainer-heading = Πώς λειτουργεί η αφαίρεση ιχνηλατών
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 trackerreport-faq-heading = Συνήθεις ερωτήσεις για τους ιχνηλάτες email
 trackerreport-loading = Φόρτωση αναφοράς αφαίρεσης ιχνηλατών…
