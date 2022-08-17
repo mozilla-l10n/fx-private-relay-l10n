@@ -147,6 +147,7 @@ whatsnew-feature-tracker-removal-heading = Nieuw: verwijdering van e-mailtracker
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit doorgestuurde e-mailberichten…
+# Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders.
 
 ## Bento Menu
@@ -319,6 +320,7 @@ premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-
 premium-promo-perks-lead-2 = Met { -brand-name-firefox-relay-premium } krijgt u alle bescherming van uw Postvak IN en het beheer van { -brand-name-relay }, maar met onbeperkte e-mailmaskers en uw eigen aangepaste subdomein om het beheren van uw Postvak IN nog eenvoudiger te maken.
 premium-promo-perks-cta-label = Nu upgraden
 premium-promo-perks-cta-tooltip = Upgraden naar { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nieuw!
 premium-promo-perks-perk-unlimited-headline-2 = Maak onbeperkt e-mailmaskers aan
 premium-promo-perks-perk-unlimited-body-2 = Geen limiet van vijf maskers meer: met { -brand-name-relay-premium } kunt u zoveel maskers aanmaken als u nodig hebt om uw Postvak IN te beschermen tegen spammers en online trackers. U kunt zelfs e-mailberichten beantwoorden zonder uw echte adres bekend te maken.
 premium-promo-perks-perk-custom-domain-headline-2 = Kies uw eigen aangepaste subdomein
@@ -327,6 +329,7 @@ premium-promo-perks-perk-custom-domain-body-2 =
     Hebt u er een nodig voor restaurantreserveringen? Gebruik bijvoorbeeld eten@uwdomein.mozmail.com – U hoeft het masker niet vooraf te maken.
 premium-promo-perks-perk-dashboard-headline-2 = Beheer uw maskers vanaf het dashboard
 premium-promo-perks-perk-dashboard-body-2 = Beheer al uw e-mailmaskers in het gebruiksvriendelijke dashboard: als u merkt dat er één ongewenste berichten ontvangt, kunt u voorkomen dat die berichten uw Postvak IN bereiken.
+premium-promo-perks-perk-block-promotionals-headline = Reclameberichten blokkeren
 premium-promo-use-cases-headline-2 = Gebruik e-mailmaskers van { -brand-name-relay } overal
 premium-promo-use-cases-shopping-heading = Winkelen
 premium-promo-use-cases-shopping-body-2 = Probeert u zich aan te melden voor kortingen zonder alle spam? Bundel al uw ‘winkel’-accounts onder unieke aangepaste e-mailmaskers, zoals ‘mijndeals@mijndomein.mozmail.com’.
@@ -389,6 +392,7 @@ setting-api-key-copied = Gekopieerd!
 setting-tracker-removal-heading = E-mailtrackers verwijderen
 setting-tracker-removal-description = E-mailtrackers verwijderen uit alle doorgestuurde e-mailberichten.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu veelgebruikte trackers verwijderen uit e-mailberichten die via uw maskers zijn doorgestuurd.
+# Deprecated
 setting-tracker-removal-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 
 ## FAQ Page
@@ -472,6 +476,7 @@ faq-question-disable-trackerremoval-answer = Ja. Als u problemen hebt met e-mail
 faq-question-bulk-trackerremoval-question = Kan ik trackers alleen op enkele van mijn e-mailmaskers verwijderen?
 faq-question-bulk-trackerremoval-answer = U kunt het verwijderen van trackers alleen op accountniveau inschakelen – het verwijdert trackers uit al uw e-mailberichten of geen ervan.
 faq-question-trackerremoval-breakage-question = Waarom zien mijn e-mailberichten er niet goed uit?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers zich vaak in afbeeldingen bevinden. Wanneer de tracker wordt verwijderd, lijkt het alsof het e-mailbericht verkeerd is opgemaakt, omdat er afbeeldingen ontbreken. Dit kan niet worden opgelost voor e-mailberichten die u al hebt ontvangen. Als u hierdoor uw e-mailberichten niet goed kunt lezen, schakel de verwijdering van trackers dan uit.
 
 ## Profile Page (Logged In)
@@ -529,6 +534,7 @@ profile-label-replies = Antwoorden
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = trackers verwijderd
 profile-trackers-removed-tooltip-part1 = Als trackerverwijdering is ingeschakeld, worden veelgebruikte e-mailtrackers verwijderd uit uw doorgestuurde e-mailberichten.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 profile-label-cancel = Annuleren
 profile-blocked-copy-2 = { -brand-name-firefox-relay } verwijdert berichten voordat ze uw Postvak IN kunnen bereiken wanneer u blokkeren voor dit masker selecteert.
@@ -545,6 +551,7 @@ profile-stat-label-aliases-used-2 = Gebruikte e-mailmaskers
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = trackers verwijderd
 profile-stat-label-trackers-learn-more-part1 = Als u trackerverwijdering inschakelt, worden veelgebruikte e-mailtrackers uit uw doorgestuurde e-mailberichten verwijderd.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
 profile-filter-search-placeholder-2 = Maskers doorzoeken
 profile-filter-category-button-label = Zichtbare maskers filteren
@@ -823,6 +830,7 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kan nu v
 trackerreport-trackers-explainer-heading = Over e-mailtrackers
 trackerreport-trackers-explainer-content-part1 = E-mailtracking is een veelgebruikt hulpmiddel voor bewaking en reclame dat terug te vinden is in menig Postvak IN. Deze trackers kunnen worden gebruikt om meer inzicht te krijgen in uw online gedrag, uw interesses en uw e-mailactiviteit.
 trackerreport-trackers-explainer-content-part2 = Een bedrijf of organisatie zal een tracker opnemen in e-mailberichten die naar u worden verzonden, meestal verborgen in een afbeelding of een koppeling. Wanneer het e-mailbericht wordt geopend, stuurt de code in de tracker gegevens terug naar het bedrijf.
+# Deprecated
 trackerreport-breakage-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten, die niet worden geladen als ze een tracker bevatten.
 trackerreport-faq-heading = Veelgestelde vragen over e-mailtrackers
 trackerreport-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
