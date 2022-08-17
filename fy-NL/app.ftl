@@ -401,6 +401,7 @@ setting-tracker-removal-description = E-mailtrackers ferwiderje út alle trochst
 setting-tracker-removal-note = { -brand-name-firefox-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t fia jo maskers trochstjoerd binne ferwiderje.
 # Deprecated
 setting-tracker-removal-warning = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte.
+setting-tracker-removal-warning-2 = Wichtich: Trackers fuortsmite kin der foar soargje dat jo e-mailberjochten der brutsen útsjen, omdat trackers faak yn ôfbyldingen en keppelingen sitte. Alle e-mailberjochten dy’t jo sa ûntfange kinne net reparearre of weromhelle wurde.
 
 ## FAQ Page
 
@@ -443,6 +444,7 @@ faq-question-1-answer-b-2-html = As jo in breder probleem sjogge fan net-winske 
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
 faq-question-availability-answer-v2 = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapoer, Maleizië, Nij-Seelân, Finlân, Frankryk, België, Eastenryk, Spanje, Italië, Sweden, Switserlân, Nederlân en Ierlân.
+faq-question-availability-answer-v3 = { -brand-name-relay } is fergees beskikber yn de measte lannen. { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
 faq-question-4-question-2 = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-e-mailmasker?
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar alle ûntfangers fan it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
 faq-question-subdomain-characters-question = Hokker tekens kin ik brûke om in subdomein oan te meitsjen?
@@ -485,6 +487,7 @@ faq-question-bulk-trackerremoval-answer = Jo kinne trackerferwidering allinnich 
 faq-question-trackerremoval-breakage-question = Wêrom sjogge myn e-mailberjochten der net goed út?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Somtiden kin it ferwiderjen fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte. Wannear de tracker ferwidere wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it ferwiderjen fan trackers dan út.
+faq-question-trackerremoval-breakage-answer-2 = Somtiden kin it ferwiderjen fan trackers derfoar soargje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen en keppelingen sitte. Wannear de tracker ferwidere wurdt, liket it as oft it e-mailberjocht ferkeard opmakke is, omdat der ôfbyldingen ûntbrekke. Dit kin net oplost wurde foar e-mailberjochten dy’t jo al ûntfongen hawwe. As jo hjirtroch jo e-mailberjochten net goed lêze kinne, skeakelje de it ferwiderjen fan trackers dan út.
 
 ## Profile Page (Logged In)
 
@@ -543,6 +546,7 @@ profile-label-trackers-removed = trackers ferwidere
 profile-trackers-removed-tooltip-part1 = As trackerferwidering ynskeakele is, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
+profile-trackers-removed-tooltip-part2-2 = <b>Wichtich:</b> Somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen en keppelingen sitte.
 profile-label-cancel = Annulearje
 profile-blocked-copy-2 = { -brand-name-firefox-relay } smyt berjochten fuort eardat se jo Postfek YN berikje kinne wannear’t jo blokkearje foar dit masker selektearje.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei jo Postfek YN wannear’t jo trochstjoere foar dit masker selektearje.
@@ -560,6 +564,7 @@ profile-stat-label-trackers-removed = trackers ferwidere
 profile-stat-label-trackers-learn-more-part1 = As jo trackerferwidering ynskeakelje, wurde faaks brûkte e-mailtrackers út jo trochstjoerde e-mailberjochten ferwidere.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen sitte.
+profile-stat-label-trackers-learn-more-part2-2 = Wichtich: Somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faaks yn ôfbyldingen en keppelingen sitte.
 profile-filter-search-placeholder-2 = Maskers trochsykje
 profile-filter-category-button-label = Sichtbere maskers filterje
 profile-filter-category-button-tooltip = Maskers filterje op subdomein en/of oft se op dit stuit ynkommende e-mailberjochten blokkearje
@@ -726,6 +731,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Fier maskerfoarfoegsel yn
 modal-custom-alias-picker-form-prefix-placeholder = byg. ‘kofje’
 modal-custom-alias-picker-form-prefix-spaces-warning = Spaasjes binne net tastien yn e-mailmaskers.
 modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers meie allinnich lytse letters, sifers en keppeltekens befetsje en meie net begjinne of einigje mei in keppelteken.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailmaskers meie allinnich lytse letters, sifers en keppeltekens befetsje en meie net begjinne of einigje mei in punt of in keppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker oanmeitsje
 modal-custom-alias-picker-creation-error-2 = Jo oanpaste masker kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei it masker om dizze oan te meitsjen.
 
@@ -838,6 +844,7 @@ trackerreport-trackers-explainer-content-part1 = E-mailtracking is in faaks brû
 trackerreport-trackers-explainer-content-part2 = In bedriuw of organisaasje sil in tracker opnimmen yn e-mailberjochten dy’t nei jo ferstjoerd wurde, meastentiids ferburgen yn in ôfbylding of in keppeling. Wannear’t it e-mailberjocht iepene wurdt, stjoert de koade yn de tracker gegevens werom nei it bedriuw.
 # Deprecated
 trackerreport-breakage-warning = Wichtich: somtiden kin it ferwiderjen fan trackers feroarsaakje dat jo e-mailberjocht der net goed útsjocht, omdat de trackers faak yn ôfbyldingen sitte, dy’t net laden wurde as se in tracker befetsje.
+trackerreport-breakage-warning-2 = Wichtich: Trackers fuortsmite kin der foar soargje dat jo e-mailberjochten der brutsen útsjen, omdat trackers faak yn ôfbyldingen en keppelingen sitte. Alle e-mailberjochten dy’t jo sa ûntfange kinne net reparearre of weromhelle wurde.
 trackerreport-faq-heading = Faaks stelde fragen oer e-mailtrackers
 trackerreport-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 trackerreport-loading = Jo trackerferwideringsrapport lade…
