@@ -222,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Fergees
 landing-pricing-free-feature-1-2 = Maksimaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserútwreiding
+landing-pricing-free-feature-3 = Ferwiderjen fan e-mailtrackers
 landing-pricing-free-description = Probearje { -brand-name-firefox-relay }-maskers en begjin mei it beskermjen fan jo Postfek YN.
 landing-pricing-free-cta = { -brand-name-relay } downloade
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Jo eigen e-mailsubdomein
 landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
 landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
+landing-pricing-premium-feature-6 = Ferwiderjen fan e-mailtrackers
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is op dit stuit net beskikber yn jo lân. Lit jo e-mailadres efter om berjocht te ûntfangen as it wol beskikber komt.
 landing-pricing-waitlist-cta = Op de wachtlist pleatse
 
@@ -334,6 +336,7 @@ premium-promo-perks-perk-dashboard-body-2 = Behear al jo maskers yn it gebrûksf
 premium-promo-perks-perk-block-promotionals-headline = Reklameberjochten blokkearje
 premium-promo-perks-perk-block-promotionals-body = Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke, wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange.
 premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers fuortsmite
+premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kin jo no helpe mei it ferwiderjen fan e-mailtrackers — jo e-mailmaskers sille gewoane e-mailtrackers út alle e-mailberjochten dy't nei jo trochstjoerd binne ferwiderje, en helpe jo ûnsichtber te bliuwen foar trackers en advertearders.
 premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
 premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
