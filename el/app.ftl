@@ -796,6 +796,7 @@ trackerreport-tracker-count =
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 trackerreport-faq-heading = Συνήθεις ερωτήσεις για τους ιχνηλάτες email
 trackerreport-loading = Φόρτωση αναφοράς αφαίρεσης ιχνηλατών…
+trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημιουργία της αναφοράς αφαίρεσης ιχνηλατών σας. Παρακαλούμε ανανεώστε τη σελίδα για να δοκιμάσετε ξανά.
 
 ## Modals
 
