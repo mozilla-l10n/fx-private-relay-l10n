@@ -295,6 +295,7 @@ landing-use-cases-shopping-hero-heading = Αγορές με τις μάσκες 
 landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε κάτι στο διαδίκτυο και δεν γνωρίζετε ή δεν εμπιστεύεστε απόλυτα το κατάστημα;
 landing-use-cases-on-the-go = Εν κινήσει
 landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Δημιουργήστε άμεσα μια προσαρμοσμένη μάσκα email όπου και αν πάτε!
 landing-use-cases-on-the-go-connect-heading = Σύνδεση εν κινήσει
 landing-use-cases-on-the-go-connect-body = Χρησιμοποιήστε τη μάσκα email σας όταν θέλετε να συνδεθείτε ιδιωτικά στην αγαπημένη σας καφετέρια ή σε δημόσιο Wi-Fi
 landing-use-cases-on-the-go-receipt-heading = Λήψη αποδείξεων email
@@ -401,6 +402,11 @@ setting-label-api-key = Κλειδί API
 settings-button-copy = Κάντε κλικ για αντιγραφή
 setting-api-key-copied = Αντιγράφηκε!
 setting-tracker-removal-heading = Αφαίρεση ιχνηλατών email
+setting-tracker-removal-description = Αφαιρέστε τους ιχνηλάτες email από όλα τα προωθημένα σας email.
+setting-tracker-removal-note = Το { -brand-name-firefox-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα email που προωθούνται μέσω των μασκών σας.
+# Deprecated
+setting-tracker-removal-warning = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
+setting-tracker-removal-warning-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους. Εάν αυτό συμβεί στα email σας, δεν υπάρχει τρόπος επιδιόρθωσης ή ανάκτησης.
 
 ## FAQ Page
 
@@ -479,6 +485,7 @@ faq-question-promotional-email-blocking-answer = Οι συνδρομητές τ�
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
 faq-question-disable-trackerremoval-question = Μπορώ να διακόψω την αφαίρεση ιχνηλατών email;
+faq-question-bulk-trackerremoval-question = Μπορώ να αφαιρέσω ιχνηλάτες μόνο σε ορισμένες από τις μάσκες email μου;
 faq-question-bulk-trackerremoval-answer = Μπορείτε να ενεργοποιήσετε την αφαίρεση ιχνηλατών μόνο σε επίπεδο λογαριασμού — είτε θα καταργεί τους ιχνηλάτες σε όλα τα email σας είτε σε κανένα από αυτά.
 faq-question-trackerremoval-breakage-question = Γιατί τα email μου δεν προβάλλονται σωστά;
 
@@ -534,6 +541,7 @@ profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
 profile-label-replies = Απαντήσεις
+profile-trackers-removed-tooltip-part2-2 = <b>Σημαντικό:</b> Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
 profile-label-cancel = Ακύρωση
 profile-blocked-copy-2 = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτήν τη μάσκα.
 profile-forwarded-copy-2 = Το { -brand-name-firefox-relay } θα στέλνει μηνύματα στα εισερχόμενά σας όταν ενεργοποιήσετε την προώθηση για αυτήν τη μάσκα.
@@ -807,7 +815,11 @@ trackerreport-tracker-count =
     }
 trackerreport-removal-explainer-heading = Πώς λειτουργεί η αφαίρεση ιχνηλατών
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
+# Deprecated
+trackerreport-breakage-warning = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες, οι οποίες ενδέχεται να μην φορτωθούν εάν περιέχουν ιχνηλάτη.
+trackerreport-breakage-warning-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους. Εάν αυτό συμβεί στα email σας, δεν υπάρχει τρόπος επιδιόρθωσης ή ανάκτησης.
 trackerreport-faq-heading = Συνήθεις ερωτήσεις για τους ιχνηλάτες email
+trackerreport-faq-cta = Δείτε περισσότερες συχνές ερωτήσεις για το { -brand-name-firefox-relay }
 trackerreport-loading = Φόρτωση αναφοράς αφαίρεσης ιχνηλατών…
 trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημιουργία της αναφοράς αφαίρεσης ιχνηλατών σας. Παρακαλούμε ανανεώστε τη σελίδα για να δοκιμάσετε ξανά.
 
