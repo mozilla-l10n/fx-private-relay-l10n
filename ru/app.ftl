@@ -508,7 +508,7 @@ profile-label-welcome-html = <span>Добро пожаловать,</span> { $em
 profile-supports-email-forwarding = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения)
 profile-promo-upgrade-headline = Переходите на улучшенную версию, чтобы получить ещё больше возможностей.
 profile-promo-upgrade-cta = Перейти на улучшенную версию { -brand-name-relay }
-profile-details-expand = Показать детали псевдонима
+profile-details-expand = Показать подробности о псевдониме
 profile-details-collapse = Скрыть детали псевдонима
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
 # Variables:
@@ -602,7 +602,7 @@ profile-promo-email-blocking-option-all = Все
 # Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotionals = Рекламные
 # Allow/forward all emails sent to a speciic mask
-profile-promo-email-blocking-option-none = Не блокировать
+profile-promo-email-blocking-option-none = Никакие
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокирует все электронные письма, отправленные на этот псевдоним.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } будет стараться блокировать рекламные электронные письма, при этом пересылая такие письма, как квитанции и информацию о доставке.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не блокирует электронные письма для этого псевдонима.
