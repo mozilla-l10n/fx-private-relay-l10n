@@ -509,7 +509,7 @@ profile-supports-email-forwarding = { -brand-name-firefox-relay } поддерж
 profile-promo-upgrade-headline = Переходите на улучшенную версию, чтобы получить ещё больше возможностей.
 profile-promo-upgrade-cta = Перейти на улучшенную версию { -brand-name-relay }
 profile-details-expand = Показать подробности о псевдониме
-profile-details-collapse = Скрыть детали псевдонима
+profile-details-collapse = Скрыть подробности о псевдониме
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
