@@ -941,7 +941,7 @@ forwarded-email-header-attachment = O { -brand-name-firefox-relay } oferece supo
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } rastreadores de email removidos
 forwarded-email-trackers-blocked-report = Saiba mais
 # This entire text is a link
-forwarded-email-footer-2 = Pare de encaminhar emails e gerencie configurações de todas as máscaras aqui.
+forwarded-email-footer-2 = Parar de encaminhar emails e gerenciar configurações de todas as máscaras.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Mudar para o { -brand-name-relay-premium }
 
