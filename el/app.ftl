@@ -302,8 +302,10 @@ landing-use-cases-on-the-go-connect-body = Χρησιμοποιήστε τη μ�
 landing-use-cases-on-the-go-receipt-heading = Λήψη αποδείξεων email
 landing-use-cases-on-the-go-receipt-body = Μοιραστείτε μια προσαρμοσμένη μάσκα email για τις αποδείξεις αγορών σε καταστήματα, χωρίς να γνωστοποιήσετε το πραγματικό σας email
 landing-use-cases-on-the-go-phone-heading = Χρήση στο τηλέφωνό σας
+landing-use-cases-on-the-go-phone-body = Όπου κι αν βρίσκεστε, δημιουργήστε μια προσαρμοσμένη μάσκα email σε δευτερόλεπτα για οποιαδήποτε χρήση
 landing-use-cases-signups = Εγγραφές
 landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
+landing-use-cases-signups-hero-content1 = Θέλετε να ξεκινήσετε μια νέα συνδρομή, να απαντήσετε σε μια πρόσκληση ή να λάβετε έναν εκπτωτικό κωδικό, χωρίς να «πλημμυρίσουν» τα εισερχόμενά σας με ανεπιθύμητα μηνύματα;
 
 ## Landing FAQ Section
 
@@ -322,6 +324,8 @@ landing-reviews-rating = από 5 ({ $review_count } κριτικές)
 landing-reviews-show-next-button = εμφάνιση επόμενης κριτικής
 landing-reviews-show-previous-button = εμφάνιση προηγούμενης κριτικής
 landing-review-anonymous-user = Χρήστης { -brand-name-firefox } { $user_id }
+landing-review-user-two-review = Απλό εργαλείο για να ξεφορτωθείτε ή να αποφύγετε τα ανεπιθύμητα μηνύματα στο email σας.
+landing-review-user-four-review-list-1 = Χαρίζει ηρεμία κατά την περιήγηση στο διαδίκτυο.
 landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
 
 ## Premium promo page
@@ -346,6 +350,7 @@ premium-promo-perks-perk-custom-domain-body-2 = Με έναν προσαρμοσ
 premium-promo-perks-perk-dashboard-headline-2 = Ελέγξτε τις μάσκες σας από τον πίνακα ελέγχου
 premium-promo-perks-perk-dashboard-body-2 = Διαχειριστείτε όλες τις μάσκες email σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
 premium-promo-perks-perk-block-promotionals-headline = Φραγή διαφημιστικών email
+premium-promo-perks-perk-block-promotionals-body = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
 premium-promo-perks-perk-tracker-blocking-headline = Αφαίρεση ιχνηλατών email
 premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσκες email του { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
@@ -554,6 +559,9 @@ profile-stat-learn-more-close = Κλείσιμο
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used-2 = Μάσκες email σε χρήση
+# Deprecated
+profile-stat-label-trackers-learn-more-part2 = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
+profile-stat-label-trackers-learn-more-part2-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
 profile-filter-search-placeholder-2 = Αναζήτηση μασκών
 profile-filter-category-button-label = Φιλτράρισμα ορατών μασκών
 profile-filter-category-button-tooltip = Φιλτράρισμα μασκών κατά υποτομέα ή/και εάν αποκλείουν εισερχόμενα email
@@ -571,6 +579,7 @@ profile-filter-category-option-random-masks = Τυχαίες μάσκες
 profile-filter-category-option-custom-masks = Προσαρμοσμένες μάσκες
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Κατάσταση αφαίρεσης ιχνηλατών
+profile-indicator-tracker-removal-tooltip = Γίνεται αφαίρεση ιχνηλατών email
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
