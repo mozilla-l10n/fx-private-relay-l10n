@@ -166,6 +166,7 @@ whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-pr
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
+whatsnew-feature-premium-expansion-description = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία — δημιουργήστε απεριόριστες μάσκες email, αποκτήστε έναν προσαρμοσμένο υποτομέα email και πολλά άλλα!
 whatsnew-feature-tracker-removal-heading = Παρουσίαση της αφαίρεσης ιχνηλατών email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -711,6 +712,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Εισαγάγετε πρόθε�
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
+modal-custom-alias-picker-form-prefix-spaces-warning = Δεν επιτρέπονται κενά στις μάσκες email.
 modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 modal-custom-alias-picker-creation-error-2 = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένης μάσκας email. Παρακαλώ δοκιμάστε ξανά ή στείλτε ένα email στη μάσκα για να δημιουργηθεί.
 
