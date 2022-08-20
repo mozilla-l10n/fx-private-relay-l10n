@@ -308,6 +308,7 @@ landing-use-cases-on-the-go-phone-body = Όπου κι αν βρίσκεστε, 
 landing-use-cases-signups = Εγγραφές
 landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
 landing-use-cases-signups-hero-content1 = Θέλετε να ξεκινήσετε μια νέα συνδρομή, να απαντήσετε σε μια πρόσκληση ή να λάβετε έναν εκπτωτικό κωδικό, χωρίς να «πλημμυρίσουν» τα εισερχόμενά σας με ανεπιθύμητα μηνύματα;
+landing-use-cases-signups-hero-content2 = Πριν ολοκληρώσετε την επόμενη εγγραφή, χρησιμοποιήστε μια μάσκα email αντί για την πραγματική σας, ώστε να προστατέψετε τις πληροφορίες σας και να διατηρήσετε τον έλεγχο των εισερχομένων σας.
 
 ## Landing FAQ Section
 
@@ -326,8 +327,11 @@ landing-reviews-rating = από 5 ({ $review_count } κριτικές)
 landing-reviews-show-next-button = εμφάνιση επόμενης κριτικής
 landing-reviews-show-previous-button = εμφάνιση προηγούμενης κριτικής
 landing-review-anonymous-user = Χρήστης { -brand-name-firefox } { $user_id }
+landing-review-user-one-review = Εκτιμώ πολύ την ομάδα της { -brand-name-mozilla }, που είναι τόσο δημιουργική και που απλοποιεί την ανωνυμοποίηση της διεύθυνσης email μου. Αυτή είναι μια εξαιρετική επέκταση, τη συνιστώ ανεπιφύλακτα σε όσους τους απασχολεί το απόρρητό τους!
 landing-review-user-two-review = Απλό εργαλείο για να ξεφορτωθείτε ή να αποφύγετε τα ανεπιθύμητα μηνύματα στο email σας.
+landing-review-user-three-review = Λατρεύω αυτήν την επέκταση! Πολύ απλή, αλλά ισχυρή και η ενσωμάτωση με το πρόγραμμα περιήγησης είναι απίθανη.
 landing-review-user-four-review-list-1 = Χαρίζει ηρεμία κατά την περιήγηση στο διαδίκτυο.
+landing-review-user-four-review-list-3 = Τα δεδομένα εισερχόμενων email είναι ασφαλή στα χέρια του { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
 
 ## Premium promo page
@@ -495,6 +499,7 @@ faq-question-promotional-email-blocking-answer = Οι συνδρομητές τ�
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
 faq-question-disable-trackerremoval-question = Μπορώ να διακόψω την αφαίρεση ιχνηλατών email;
+faq-question-disable-trackerremoval-answer = Ναι. Εάν αντιμετωπίζετε προβλήματα με τα email που φαίνονται κατεστραμμένα ή επιθυμείτε να διακόψετε την αφαίρεση των ιχνηλατών, μπορείτε να απενεργοποιήσετε τη λειτουργία στις ρυθμίσεις.
 faq-question-bulk-trackerremoval-question = Μπορώ να αφαιρέσω ιχνηλάτες μόνο σε ορισμένες από τις μάσκες email μου;
 faq-question-bulk-trackerremoval-answer = Μπορείτε να ενεργοποιήσετε την αφαίρεση ιχνηλατών μόνο σε επίπεδο λογαριασμού — είτε θα καταργεί τους ιχνηλάτες σε όλα τα email σας είτε σε κανένα από αυτά.
 faq-question-trackerremoval-breakage-question = Γιατί τα email μου δεν προβάλλονται σωστά;
