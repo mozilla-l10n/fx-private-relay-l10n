@@ -295,6 +295,7 @@ landing-use-cases-gaming-body-2 =
     Χρησιμοποιήστε μια μάσκα email για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητα και τα παιχνίδια σας.
 landing-use-cases-shopping-hero-heading = Αγορές με τις μάσκες email
 landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε κάτι στο διαδίκτυο και δεν γνωρίζετε ή δεν εμπιστεύεστε απόλυτα το κατάστημα;
+landing-use-cases-shopping-hero-content2 = Χρησιμοποιήστε μια μάσκα email κάθε φορά που κάνετε αγορές στο διαδίκτυο. Λάβετε την επιβεβαίωση στο πραγματικό σας email και απενεργοποιήστε εύκολα τη μάσκα ανά πάσα στιγμή αργότερα.
 landing-use-cases-on-the-go = Εν κινήσει
 landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Δημιουργήστε άμεσα μια προσαρμοσμένη μάσκα email όπου και αν πάτε!
@@ -405,6 +406,8 @@ settings-button-save-label = Αποθήκευση
 settings-button-save-tooltip = Εφαρμογή των επιλεγμένων σας ρυθμίσεων.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Κλειδί API
+settings-api-key-description = Αυτό είναι το κλειδί API σας για το { -brand-name-relay }. Επιτρέπει σε άλλες εφαρμογές την αυτόματη πρόσβαση στον λογαριασμό { -brand-name-relay } σας.
+settings-api-key-description-bolded = Χρησιμοποιήστε το μόνο με εφαρμογές που εμπιστεύεστε για πρόσβαση στον λογαριασμό { -brand-name-relay } σας.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Κάντε κλικ για αντιγραφή
 setting-api-key-copied = Αντιγράφηκε!
@@ -807,6 +810,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 trackerreport-title = Αναφορά αφαίρεσης ιχνηλατών { -brand-name-relay }
 trackerreport-meta-from-heading = Από
 trackerreport-meta-count-heading = Σύνολο ιχνηλατών
+trackerreport-trackers-heading = Ανιχνευμένοι ιχνηλάτες
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Τομέας ιχνηλάτη
 trackerreport-trackers-count-heading = Αριθμός ιχνηλατών
