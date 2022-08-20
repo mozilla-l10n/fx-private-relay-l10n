@@ -78,7 +78,7 @@ nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "geniti
 
 ## Mobile menu text
 
-menu-upgrade-button = { -brand-name-premium }
+menu-upgrade-button = Обновить
 menu-toggle-open = Открыть меню
 menu-toggle-close = Закрыть меню
 nav-dashboard = Панель управления
@@ -593,6 +593,7 @@ profile-filter-category-option-random-masks = Случайные псевдон�
 profile-filter-category-option-custom-masks = Пользовательские псевдонимы
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Состояние удаления трекеров
+profile-indicator-tracker-removal-tooltip = Идёт удаление трекеров электронной почты
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
