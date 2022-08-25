@@ -149,6 +149,7 @@ whatsnew-feature-tracker-removal-heading = Nieuw: verwijdering van e-mailtracker
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit doorgestuurde e-mailberichten…
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders.
+whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders. Schakel dit in in ‘Instellingen’.
 
 ## Bento Menu
 
@@ -316,6 +317,7 @@ premium-promo-hero-body-2-html = Met { -brand-name-firefox-relay-premium } krijg
 premium-promo-hero-cta = Nu upgraden
 premium-promo-availability-warning = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zwitserland, het VK en de VS.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Finland, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zweden, Zwitserland, het VK en de VS.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beschikbaar in Oostenrijk, België, Canada, Cyprus, Estland, Finland, Frankrijk, Duitsland, Griekenland, Ierland, Italië, Letland, Litouwen, Luxemburg, Maleisië, Malta, Nederland, Nieuw-Zeeland, Portugal, Singapore, Slowakije, Slovenië, Spanje, Zweden, Zwitserland, het Verenigd Koninkrijk en de Verenigde Staten.
 premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Met { -brand-name-firefox-relay-premium } krijgt u alle bescherming van uw Postvak IN en het beheer van { -brand-name-relay }, maar met onbeperkte e-mailmaskers en uw eigen aangepaste subdomein om het beheren van uw Postvak IN nog eenvoudiger te maken.
 premium-promo-perks-cta-label = Nu upgraden
