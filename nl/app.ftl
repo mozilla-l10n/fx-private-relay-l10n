@@ -222,6 +222,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Maximaal 5 e-mailmaskers
 landing-pricing-free-feature-2 = Browserextensie
+landing-pricing-free-feature-3 = Verwijdering van e-mailtracker
 landing-pricing-free-description = Probeer { -brand-name-firefox-relay }-maskers en begin met het beschermen van uw Postvak IN.
 landing-pricing-free-cta = { -brand-name-relay } downloaden
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -238,6 +239,7 @@ landing-pricing-premium-feature-3-2 = Uw eigen e-mailsubdomein
 landing-pricing-premium-feature-3-subheader = uwemail@uwdomein.mozmail.com
 landing-pricing-premium-feature-4 = Doorgestuurde e-mailberichten beantwoorden
 landing-pricing-premium-feature-5 = Reclameberichten blokkeren
+landing-pricing-premium-feature-6 = Verwijdering van e-mailtracker
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is momenteel niet beschikbaar in uw land. Laat uw e-mailadres achter om bericht te ontvangen als het wel beschikbaar komt.
 landing-pricing-waitlist-cta = Op de wachtlijst plaatsen
 
@@ -332,6 +334,9 @@ premium-promo-perks-perk-custom-domain-body-2 =
 premium-promo-perks-perk-dashboard-headline-2 = Beheer uw maskers vanaf het dashboard
 premium-promo-perks-perk-dashboard-body-2 = Beheer al uw e-mailmaskers in het gebruiksvriendelijke dashboard: als u merkt dat er één ongewenste berichten ontvangt, kunt u voorkomen dat die berichten uw Postvak IN bereiken.
 premium-promo-perks-perk-block-promotionals-headline = Reclameberichten blokkeren
+premium-promo-perks-perk-block-promotionals-body = Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken, terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
+premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers verwijderen
+premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kan u nu helpen het volgen van e-mail te stoppen — uw e-mailmaskers verwijderen veelvoorkomende e-mailtrackers uit alle e-mailberichten die naar u worden doorgestuurd, zodat u onzichtbaar blijft voor trackers en adverteerders.
 premium-promo-use-cases-headline-2 = Gebruik e-mailmaskers van { -brand-name-relay } overal
 premium-promo-use-cases-shopping-heading = Winkelen
 premium-promo-use-cases-shopping-body-2 = Probeert u zich aan te melden voor kortingen zonder alle spam? Bundel al uw ‘winkel’-accounts onder unieke aangepaste e-mailmaskers, zoals ‘mijndeals@mijndomein.mozmail.com’.
@@ -396,6 +401,7 @@ setting-tracker-removal-description = E-mailtrackers verwijderen uit alle doorge
 setting-tracker-removal-note = { -brand-name-firefox-relay } kan nu veelgebruikte trackers verwijderen uit e-mailberichten die via uw maskers zijn doorgestuurd.
 # Deprecated
 setting-tracker-removal-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
+setting-tracker-removal-warning-2 = Belangrijk: het verwijderen van trackers kan ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen en koppelingen zitten. Elk e-mailbericht dat u op deze manier ontvangt kan niet worden gerepareerd of teruggehaald.
 
 ## FAQ Page
 
@@ -438,6 +444,7 @@ faq-question-1-answer-b-2-html = Als u een breder probleem ziet van ongewenste e
 faq-question-availability-question = Waar is { -brand-name-relay } beschikbaar?
 faq-question-availability-answer = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in de Verenigde Staten, Duitsland, het Verenigd Koninkrijk, Canada, Singapore, Maleisië, Nieuw-Zeeland, Frankrijk, België, Oostenrijk, Spanje, Italië, Zwitserland, Nederland en Ierland.
 faq-question-availability-answer-v2 = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in de Verenigde Staten, Duitsland, het Verenigd Koninkrijk, Canada, Singapore, Maleisië, Nieuw-Zeeland, Finland, Frankrijk, België, Oostenrijk, Spanje, Italië, Zweden, Zwitserland, Nederland en Ierland.
+faq-question-availability-answer-v3 = Gratis { -brand-name-relay } is in de meeste landen beschikbaar. { -brand-name-relay-premium } is beschikbaar in Oostenrijk, België, Canada, Cyprus, Estland, Finland, Frankrijk, Duitsland, Griekenland, Ierland, Italië, Letland, Litouwen, Luxemburg, Maleisië, Malta, Nederland, Nieuw-Zeeland, Portugal, Singapore, Slowakije, Slovenië, Spanje, Zweden, Zwitserland, het Verenigd Koninkrijk en de Verenigde Staten.
 faq-question-4-question-2 = Kan ik berichten beantwoorden met mijn { -brand-name-relay }-e-mailmasker?
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-gebruikers kunnen binnen drie maanden na ontvangst reageren op een doorgestuurd e-mailbericht. Als u een Cc of Bcc toevoegt wanneer u een e-mailbericht beantwoordt, wordt uw oorspronkelijke e-mailadres zichtbaar voor alle ontvangers van het bericht. Als u niet wilt dat uw oorspronkelijke e-mailadres zichtbaar is, voeg dan geen Cc’s of Bcc’s toe bij het beantwoorden.
 faq-question-subdomain-characters-question = Welke tekens kan ik gebruiken om een subdomein aan te maken?
@@ -480,6 +487,7 @@ faq-question-bulk-trackerremoval-answer = U kunt het verwijderen van trackers al
 faq-question-trackerremoval-breakage-question = Waarom zien mijn e-mailberichten er niet goed uit?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = Soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers zich vaak in afbeeldingen bevinden. Wanneer de tracker wordt verwijderd, lijkt het alsof het e-mailbericht verkeerd is opgemaakt, omdat er afbeeldingen ontbreken. Dit kan niet worden opgelost voor e-mailberichten die u al hebt ontvangen. Als u hierdoor uw e-mailberichten niet goed kunt lezen, schakel de verwijdering van trackers dan uit.
+faq-question-trackerremoval-breakage-answer-2 = Soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers zich vaak in afbeeldingen en koppelingen bevinden. Wanneer de tracker wordt verwijderd, lijkt het alsof het e-mailbericht verkeerd is opgemaakt, omdat er afbeeldingen ontbreken. Dit kan niet worden opgelost voor e-mailberichten die u al hebt ontvangen. Als u hierdoor uw e-mailberichten niet goed kunt lezen, schakel de verwijdering van trackers dan uit.
 
 ## Profile Page (Logged In)
 
@@ -538,6 +546,7 @@ profile-label-trackers-removed = trackers verwijderd
 profile-trackers-removed-tooltip-part1 = Als trackerverwijdering is ingeschakeld, worden veelgebruikte e-mailtrackers verwijderd uit uw doorgestuurde e-mailberichten.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
+profile-trackers-removed-tooltip-part2-2 = <b>Belangrijk:</b> het verwijderen van trackers kan ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen en koppelingen zitten.
 profile-label-cancel = Annuleren
 profile-blocked-copy-2 = { -brand-name-firefox-relay } verwijdert berichten voordat ze uw Postvak IN kunnen bereiken wanneer u blokkeren voor dit masker selecteert.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stuurt berichten naar uw Postvak IN wanneer u doorsturen voor dit masker selecteert.
@@ -555,6 +564,7 @@ profile-stat-label-trackers-removed = trackers verwijderd
 profile-stat-label-trackers-learn-more-part1 = Als u trackerverwijdering inschakelt, worden veelgebruikte e-mailtrackers uit uw doorgestuurde e-mailberichten verwijderd.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten.
+profile-stat-label-trackers-learn-more-part2-2 = Belangrijk: het verwijderen van trackers kan ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen en koppelingen zitten.
 profile-filter-search-placeholder-2 = Maskers doorzoeken
 profile-filter-category-button-label = Zichtbare maskers filteren
 profile-filter-category-button-tooltip = Maskers filteren op subdomein en/of of ze momenteel inkomende e-mailberichten blokkeren
@@ -834,6 +844,7 @@ trackerreport-trackers-explainer-content-part1 = E-mailtracking is een veelgebru
 trackerreport-trackers-explainer-content-part2 = Een bedrijf of organisatie zal een tracker opnemen in e-mailberichten die naar u worden verzonden, meestal verborgen in een afbeelding of een koppeling. Wanneer het e-mailbericht wordt geopend, stuurt de code in de tracker gegevens terug naar het bedrijf.
 # Deprecated
 trackerreport-breakage-warning = Belangrijk: soms kan het verwijderen van trackers ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen zitten, die niet worden geladen als ze een tracker bevatten.
+trackerreport-breakage-warning-2 = Belangrijk: het verwijderen van trackers kan ervoor zorgen dat uw e-mailbericht er niet goed uitziet, omdat de trackers vaak in afbeeldingen en koppelingen zitten. Elk e-mailbericht dat u op deze manier ontvangt kan niet worden gerepareerd of teruggehaald.
 trackerreport-faq-heading = Veelgestelde vragen over e-mailtrackers
 trackerreport-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
 trackerreport-loading = Uw trackerverwijderingsrapport laden…
