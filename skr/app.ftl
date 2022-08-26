@@ -222,8 +222,11 @@ landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 
 landing-reviews-add-ons = ایڈ ــ آن
 landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = ماخذ: addons.mozilla.org
 landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
+landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
 
 ## Premium promo page
 
@@ -236,6 +239,8 @@ premium-promo-perks-pill-new = نواں!
 premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
 premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
 premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
+premium-promo-perks-perk-block-promotionals-headline = مشہوری ای میلاں بلاک کرو
+premium-promo-perks-perk-tracker-blocking-headline = سارے ای میل ٹریکر ہٹاؤ
 premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
 premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
