@@ -384,6 +384,8 @@ profile-stat-learn-more-close = بند کرو
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
 profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = ٹریکر ہٹ ڳئے
 profile-filter-search-placeholder-2 = ماسک ڳولو
 profile-filter-category-button-label = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
@@ -582,6 +584,10 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 ## Report of trackers removed from an email
 
 trackerreport-meta-from-heading = کنوں
+trackerreport-meta-count-heading = کلُ ٹریکر
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = ٹریکر ڈومین
+trackerreport-trackers-count-heading = ٹریکراں دی تعداد
 
 ## Modals
 
