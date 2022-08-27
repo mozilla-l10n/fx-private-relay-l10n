@@ -178,6 +178,7 @@ landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_pri
 landing-pricing-free-price = مفت
 landing-pricing-free-feature-1-2 = ٥ تائیں ای میل ماسک
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
+landing-pricing-free-feature-3 = ای میل ٹریکر ہٹاوݨ
 landing-pricing-free-description = { -brand-name-firefox-relay } ماسک ازماؤ تے آپݨے ای میل ابناکس دی حفاظت شروع کرو۔
 landing-pricing-free-cta = { -brand-name-relay } گھنو
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -194,6 +195,7 @@ landing-pricing-premium-feature-3-2 = تہاݙی آپݨی ای میل نکی ڈ�
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
+landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
 
 ## Use Cases
@@ -681,6 +683,9 @@ forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $d
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = کسٹم ای میل سب ڈومین تے بے انت ای میل ماسک گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ای میل ٹریکر ہٹ ڳئے
 forwarded-email-trackers-blocked-report = ٻیا سِکھو
 # This entire text is a link
 forwarded-email-footer-2 = اتھ سارے ماسکاں کنوں ای میل بھیڄݨ کنوں روکو  تے ترتیباں منیج کرو۔
