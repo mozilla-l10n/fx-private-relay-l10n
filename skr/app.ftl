@@ -283,6 +283,7 @@ setting-label-api-key = اے پی آئی کنجی
 # This is a label that appears on hover to copy the API key
 settings-button-copy = نقل کرݨ کیتے کلک کرو
 setting-api-key-copied = نقل تھی ڳیا!
+setting-tracker-removal-heading = ای میل ٹریکر ہٹاؤ
 
 ## FAQ Page
 
