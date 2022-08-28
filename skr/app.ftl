@@ -520,6 +520,7 @@ modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ 
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
+modal-custom-alias-picker-form-prefix-spaces-warning = ای میل ماسکاں وچ خالی جاء دی اجازت کائنی۔
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 
 ## Popover explaining how custom masks work
@@ -587,8 +588,10 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } ٹریکر ہٹاوݨ رپورٹ
 trackerreport-meta-from-heading = کنوں
 trackerreport-meta-count-heading = کلُ ٹریکر
+trackerreport-trackers-heading = ٹریکراں دا سراغ لڳیا
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = ٹریکر ڈومین
 trackerreport-trackers-count-heading = ٹریکراں دی تعداد
@@ -606,6 +609,7 @@ trackerreport-tracker-count =
         [one] ١ ٹریکر
        *[other] { $count } ٹریکر
     }
+trackerreport-removal-explainer-heading = ٹریکر ہٹاوݨ کین٘ویں کم کریندے
 trackerreport-trackers-explainer-heading = ای میل ٹریکراں دا تعارف
 trackerreport-faq-heading = ای میل ٹریکراں بارے اہم سوالات
 trackerreport-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
