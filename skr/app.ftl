@@ -32,6 +32,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+meta-description-2 = { -brand-name-firefox-relay } تہاݙے اصلی ان باکس وچ تہاݙے سنیہے بھیڄݨ واسطے ہک ای میل دا ماسک بنݨیندا ہے۔ آپݨے انلائن کھاتے کوں ہیکر تے غیر ضروری سنہیے کولوں بچاون کیتے انہاں کوں استعمال کرو۔
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
