@@ -824,6 +824,8 @@ multi-part-onboarding-premium-welcome-description-2 = No more five-mask limit: y
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 multi-part-onboarding-premium-get-domain-description-3 = With a custom subdomain, you can create masks without having to generate them beforehand.
     Need one to sign up for a newsletter? Just say “read@customsubdomain.{ $mozmail }”
+multi-part-onboarding-premium-get-domain-description-4 = With a custom subdomain, you can create masks without having to generate them beforehand.
+    Need one to sign up for a newsletter? Just say “read@customsubdomain.{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Register your custom subdomain now:
 multi-part-onboarding-premium-domain-button-skip-2 = Continue, I’ll register my custom subdomain later
 multi-part-onboarding-premium-extension-headline = Block, forward, and reply
