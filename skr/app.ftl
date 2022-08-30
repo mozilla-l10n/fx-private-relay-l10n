@@ -215,6 +215,7 @@ landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
 landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
 landing-use-cases-signups = سائن اپس
+landing-use-cases-signups-hero-heading = بے فکرے سائن اپ
 
 ## Landing FAQ Section
 
