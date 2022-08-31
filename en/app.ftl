@@ -1004,13 +1004,13 @@ offer-countdown-timer-alt =
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Days
-# This is a label displayed on top of a large number representing the number of hours of the remaining time the introductory pricing offer is still valid
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-hours = Hours
-# This is a label displayed on top of a large number representing the number of minutes of the remaining time the introductory pricing offer is still valid
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), hence the abbreviation.
 offer-countdown-timer-minutes = Min.
-# This is a label displayed on top of a large number representing the number of seconds of the remaining time the introductory pricing offer is still valid
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), hence the abbreviation.
 offer-countdown-timer-seconds = Sec.
 
