@@ -614,7 +614,7 @@ banner-bounced-copy =
     Jelenleg nem tudunk e-mail küldeni ide: { $username }.
     Egy <em>{ $bounce_type }</em> „visszapattanást” kaptunk az e-mail-szolgáltatójától, amikor levelet próbáltunk továbbítani Önnek.
     Ez akkor történhet, ha a { -brand-name-relay } nem tudott kapcsolódni az e-mail-szolgáltatójához, vagy ha a postaládája megtelt. Ekkor fogjuk újra megpróbálni: { $date }.
-banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox(case: "instrumental") }
+banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox }szal
 banner-download-firefox-copy-2 = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi a maszkok létrehozását.
 banner-download-firefox-cta = { -brand-name-firefox } beszerzése
 banner-download-install-extension-headline = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
