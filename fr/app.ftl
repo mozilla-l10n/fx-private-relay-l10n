@@ -154,6 +154,8 @@ whatsnew-feature-tracker-removal-snippet = Désormais { -brand-name-relay } peut
 # Deprecated
 whatsnew-feature-tracker-removal-description = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs.
 whatsnew-feature-tracker-removal-description-2 = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs. Activez l’option depuis la section « Paramètres ».
+whatsnew-feature-offer-countdown-heading = Notre offre tarifaire de lancement se termine bientôt !
+whatsnew-feature-offer-countdown-cta = Mettre à niveau maintenant
 
 ## Bento Menu
 
@@ -195,6 +197,8 @@ hero-image-copy-control-html = À présent, <em>vous contrôlez</em> ce qui arri
 
 landing-hero-headline-2 = Protégez votre véritable adresse e-mail pour garder le contrôle de votre boîte de réception
 landing-hero-body-2 = Les alias de messagerie de { -brand-name-firefox-relay } protègent votre véritable adresse d’un affichage public par un transfert automatique des messages vers votre boîte de réception. Désormais, vous pouvez recevoir uniquement les e-mails que vous souhaitez dans votre boîte de réception. Inscrivez-vous avec votre { -brand-name-firefox-account } pour commencer.
+landing-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
+landing-offer-end-hero-cta = Mettre à niveau maintenant
 
 ## How it works section
 
@@ -784,9 +788,6 @@ multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 multi-part-onboarding-premium-get-subdomain = Disposer d’un sous-domaine personnalisé
 multi-part-onboarding-reply-headline = Répondre à vos e-mails
 multi-part-onboarding-premium-welcome-description-2 = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module { -brand-name-relay } pour les créer à la volée.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 = Avec un sous-domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@sousdomaineperso{ $mozmail } ».
 multi-part-onboarding-premium-domain-cta-2 = Enregistrez votre sous-domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip-2 = Continuer, j’enregistrerai mon sous-domaine personnalisé plus tard
 multi-part-onboarding-premium-extension-headline = Bloquez, transférez et répondez
@@ -878,6 +879,9 @@ modal-domain-register-success-2 = { $subdomain } est maintenant votre sous-domai
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est maintenant votre sous-domaine de messagerie !
 modal-domain-register-success-copy-2 = Vous pouvez désormais créer un nombre illimité d’alias de messagerie personnalisés !
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
