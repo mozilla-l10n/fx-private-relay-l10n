@@ -910,6 +910,43 @@ modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-m
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 óra van hátra
+               *[other] { $remaining_hours } óra van hátra
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 1 nap van hátra
+                [1] 1 nap és 1 óra van hátra
+               *[other] 1 nap és { $remaining_hours } óra van hátra
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] { $remaining_days } nap van hátra
+                [1] { $remaining_days } nap és 1 óra van hátra
+               *[other] { $remaining_days } nap és { $remaining_hours } óra van hátra
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = nap
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = óra
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = perc
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = mp.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -959,6 +996,9 @@ forwarded-email-header-cc-notice-2 = A { -brand-name-relay-premium } eltávolít
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú e-mail-maszkhoz és egy egyéni e-mail-aldomainhez jusson.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Bevezető havi árajánlatunk lejár. Frissítsen a { $premium_link }ra.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja. További információkért lásd a { $faq_link } oldalunkat.
 # Variables:
@@ -969,6 +1009,9 @@ forwarded-email-trackers-blocked-report = További tudnivalók
 forwarded-email-footer-2 = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes maszk beállításait.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premium }ra
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }ra, mielőtt bevezető áraink lejárnának.
 
 ## Notifications component
 
