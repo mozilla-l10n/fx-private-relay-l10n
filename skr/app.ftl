@@ -131,6 +131,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
+whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
 whatsnew-feature-offer-countdown-cta = ہݨ اپ گریڈ کرو
 
 ## Bento Menu
