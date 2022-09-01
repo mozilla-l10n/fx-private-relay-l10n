@@ -1028,6 +1028,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } smyt Cc’s e
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Wurdearje op nei { $premium_link } om ûnbeheinde maskers en in oanpast e-mailsubdomein te krijen.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Us moanlikse yntroduksjepriisoanbieding ferrint. Wurdearje op nei { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stipet it trochstjoeren fan e-mailberjochten (ynklusyf bylagen) fan berjochten mei in maksimale grutte fan { email-size-limit }. Sjoch yn ús { $faq_link } foar mear ynfo.
 # Variables:
@@ -1038,6 +1041,9 @@ forwarded-email-trackers-blocked-report = Mear ynfo
 forwarded-email-footer-2 = Hjir kinne jo it trochstjoeren fan e-mail stopsette en de ynstellingen foar alle maskers beheare.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link } eardat ús yntroduksjepriis ferrint.
 
 ## Notifications component
 
