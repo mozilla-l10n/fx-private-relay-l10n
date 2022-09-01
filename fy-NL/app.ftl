@@ -150,6 +150,17 @@ whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks br
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
 whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders. Skeakelje dit yn yn ‘Ynstellingen’.
+whatsnew-feature-offer-countdown-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+whatsnew-feature-offer-countdown-cta = No opwurdearje
 
 ## Bento Menu
 
@@ -193,6 +204,11 @@ landing-hero-headline-2 = Beskermje jo echte e-mailadres om jo Postfek YN te bes
 landing-hero-body-2 =
     { -brand-name-firefox-relay }-e-mailmaskers beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
     No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
+landing-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
+landing-offer-end-hero-cta = No opwurdearje
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 
 ## How it works section
 
@@ -242,6 +258,14 @@ landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
 landing-pricing-premium-feature-6 = Ferwiderjen fan e-mailtrackers
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is op dit stuit net beskikber yn jo lân. Lit jo e-mailadres efter om berjocht te ûntfangen as it wol beskikber komt.
 landing-pricing-waitlist-cta = Op de wachtlist pleatse
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Yntroduksjepriis: ûnbeheinde aliassen foar { $monthly_price } yn ’e moanne
+landing-pricing-offer-end-warning = Dizze aksje ferrint ynkoarten
+landing-pricing-offer-end-cta = No opwurdearje
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 
 ## Use Cases
 
@@ -316,7 +340,15 @@ premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker m
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei { -brand-name-relay-premium } foar mar { $monthly_price } yn de moanne.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo echte e-mailadres.
 premium-promo-hero-cta = No opwurdearje
+premium-promo-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+premium-promo-offer-end-hero-cta = No opwurdearje
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Finlân, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Sweden, Switserlân, it FK en de FS.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
@@ -347,6 +379,14 @@ premium-promo-use-cases-gaming-body-2 =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
     Brûk in masker lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
 premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Yntroduksjepriis: ûnbeheinde maskers foar { $monthly_price } yn ’e moanne
+premium-promo-pricing-offer-end-warning = Dizze aksje ferrint ynkoarten
+premium-promo-pricing-offer-end-cta = No opwurdearje
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 
 ## The Premium waitlist page
 
@@ -670,6 +710,12 @@ banner-upgrade-loyalist-headline-2 = Beskermje jo privacy, rêd it ynternet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Beskermje jo privacy wylst jo meidogge oan ús misje om in better ynternet te bouwen, allegearre foar { $monthly_price }
 banner-upgrade-loyalist-cta = Mear beskerming ûntfange
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Us yntroduksjepriisoanbieding einiget ynkoarten!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+banner-offer-end-cta = No opwurdearje
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
@@ -792,8 +838,8 @@ multi-part-onboarding-premium-get-subdomain = In oanpast subdomein krije
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
 multi-part-onboarding-premium-welcome-description-2 = Gjin limyt foar fiif maskers mear: jo kinne no safolle oanpaste of ferskate maskers generearje as jo nedich binne. Op desktop kinne jo de { -brand-name-relay }-add-on brûke om se daliks oan te meitsjen.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
     Mei in oanpast subdomein kinne jo maskers oanmeitsje sûnder dizze yn it foar oan hoege te meitsjen.
     Hawwe jo der ien nedich om jo oan te melden foar in nijsbrief? Brûk gewoanwei ‘nijsbrief@oanpastsubdomein{ $mozmail }’
 multi-part-onboarding-premium-domain-cta-2 = Registrearje no jo oanpaste subdomein:
@@ -893,6 +939,46 @@ modal-domain-register-success-2 = { $subdomain } is no jo e-mailsubdomein!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is no jo e-mailsubdomein!
 modal-domain-register-success-copy-2 = No kinne jo ûnbeheind oanpaste e-mailmaskers meitsje!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] noch 1 oere
+               *[other] noch { $remaining_hours } oeren
+            }
+        [1]
+            { $remaining_hours ->
+                [0] noch 1 dei
+                [1] noch 1 dei en 1 oere
+               *[other] noch 1 dei en { $remaining_hours } oeren
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] noch { $remaining_days } dagen
+                [1] noch { $remaining_days } dagen en 1 oere
+               *[other] noch { $remaining_days } dagen en { $remaining_hours } oeren
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dagen
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Oeren
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sek.
 
 ## Evergreen Survey (displayed on the profile page)
 
