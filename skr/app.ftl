@@ -200,6 +200,7 @@ landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں د
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
 landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
+landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 
 ## Use Cases
 
