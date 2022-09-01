@@ -941,6 +941,18 @@ modal-domain-register-success-copy-2 = Відтепер ви можете ств
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Днів
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Годин
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Хв
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = C
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -990,6 +1002,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } прибир�
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Передплатіть { $premium_link }, щоб отримати необмежену кількість масок електронної адреси та власний субдомен електронної пошти.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Термін дії нашої початкової місячної цінової пропозиції закінчується. Оновіть до { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }. Докладніше: { $faq_link }.
 # Variables:
@@ -1000,6 +1015,9 @@ forwarded-email-trackers-blocked-report = Докладніше
 forwarded-email-footer-2 = Припинити пересилання електронної пошти та керувати налаштуваннями всіма масками можна тут.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Передплатити { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Оновіть до { $premium_link } перед закінченням терміну дії нашої початкової ціни.
 
 ## Notifications component
 
