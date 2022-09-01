@@ -150,6 +150,17 @@ whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eli
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ahora { -brand-name-relay } puedes eliminar rastreadores de correo electrónico comunes de los correos electrónicos que se te reenvían, ayudando a mantenerte invisible para los anunciantes.
 whatsnew-feature-tracker-removal-description-2 = Ahora { -brand-name-relay } puede eliminar rastreadores de correo electrónico comunes de los correos electrónicos que se te reenvían, lo que lo ayuda a mantenerse invisible para los anunciantes. Actívalo en “Configuración.”
+whatsnew-feature-offer-countdown-heading = ¡Nuestra oferta de precios de introducción finaliza pronto!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado en nuestro…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
+whatsnew-feature-offer-countdown-cta = Actualizar ahora
 
 ## Bento Menu
 
@@ -193,6 +204,11 @@ landing-hero-headline-2 = Protege tu dirección de correo real para ayudar a con
 landing-hero-body-2 =
     Los correos electrónicos enmascarados de { -brand-name-firefox-relay } protegen tu verdadera dirección de correo electrónico de la vista del público y reenvían automáticamente los mensajes a tu verdadera bandeja de entrada.
     Ahora puedes recibir solo los mensajes que quieras en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para empezar.
+landing-offer-end-hero-heading = ¡Nuestra oferta de precios de introducción terminará pronto!
+landing-offer-end-hero-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
 
 ## How it works section
 
@@ -242,6 +258,14 @@ landing-pricing-premium-feature-5 = Bloquear correos con publicidad
 landing-pricing-premium-feature-6 = Eliminación del rastreador de correo electrónico
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } no está disponible actualmente en tu país. Por favor, compártenos tu correo electrónico para que te notifiquemos tan pronto esté disponible.
 landing-pricing-waitlist-cta = Únete a la lista de espera
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
+landing-pricing-offer-end-warning = Esta promoción termina pronto
+landing-pricing-offer-end-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
 
 ## Use Cases
 
@@ -316,7 +340,15 @@ premium-promo-hero-headline = Facilita la protección de tu bandeja de entrada c
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, obtienes correos enmascarados ilimitados que te reenvían solo los correos que quieres a tu verdadera bandeja de entrada. <b>Por tiempo limitado, puedes actualizar a { -brand-name-relay-premium } por solo { $monthly_price } al mes.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, obtienes máscaras de correo electrónico personalizadas ilimitadas que reenvían solo los correos electrónicos que deseas a tu verdadera dirección de correo electrónico.
 premium-promo-hero-cta = Actualizar ahora
+premium-promo-offer-end-hero-heading = ¡Nuestra oferta de precios de introducción terminará pronto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
+premium-promo-offer-end-hero-cta = Actualizar ahora
 premium-promo-availability-warning = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Finlandia, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suecia, Suiza, Reino Unido y Estados Unidos.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
@@ -343,6 +375,14 @@ premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu ide
 premium-promo-use-cases-gaming-heading = Juegos
 premium-promo-use-cases-gaming-body-2 = ¿Preocupado porque otros jugadores o trolls sepan quien eres a través de tu gamertag y dirección de correo electrónico? Usa una máscara como “juegoenlinea@midominio.mozmail.com" para poner mayor protección entre tu identidad y los juegos que disfrutas en línea.
 premium-promo-pricing-free-price = Tu plan gratuito actual
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
+premium-promo-pricing-offer-end-warning = Esta promoción termina pronto
+premium-promo-pricing-offer-end-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
 
 ## The Premium waitlist page
 
@@ -666,6 +706,12 @@ banner-upgrade-loyalist-headline-2 = Protege tu privacidad, salva al Internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu privacidad mientras te unes a nuestra misión para construir un mejor Internet, todo por { $monthly_price }
 banner-upgrade-loyalist-cta = Obtén más protección
+# End of intro pricing countdown banner:
+banner-offer-end-headline = ¡Nuestra oferta de precios de introducción finaliza pronto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
+banner-offer-end-cta = Actualizar ahora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
@@ -788,8 +834,8 @@ multi-part-onboarding-premium-get-subdomain = Conseguir un subdominio personaliz
 multi-part-onboarding-reply-headline = Responder a tus correos
 multi-part-onboarding-premium-welcome-description-2 = No más limitaciones a 5 máscaras: ahora puedes generar tantas máscaras personalizadas y aleatorias como necesites. En el navegador de escritorio, puedes usar el complemento { -brand-name-relay } para crearlo rápidamente.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
     Con un subdominio personalizado, puedes crear máscaras sin generarlas de antemano.
     ¿Necesitas una registrarte a un boletín? Solamente di “leer@subdominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Registra tu subdominio personalizado ahora:
@@ -889,6 +935,9 @@ modal-domain-register-success-2 = ¡{ $subdomain } es ahora tu subdominio de cor
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.¡{ $domain }</domain> ahora tu subdominio de correo electrónico!
 modal-domain-register-success-copy-2 = ¡Ahora puedes crear correos enmascarados personalizados sin límites!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
