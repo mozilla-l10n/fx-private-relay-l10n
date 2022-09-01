@@ -175,6 +175,7 @@ whatsnew-feature-tracker-removal-snippet = Το { -brand-name-relay } μπορε
 # Deprecated
 whatsnew-feature-tracker-removal-description = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές.
 whatsnew-feature-tracker-removal-description-2 = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές. Ενεργοποιήστε το στις «Ρυθμίσεις».
+whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
 
 ## Bento Menu
 
@@ -218,6 +219,7 @@ landing-hero-headline-2 = Προστατέψτε την πραγματική σ�
 landing-hero-body-2 =
     Οι μάσκες email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα μηνύματα στα πραγματικά σας εισερχόμενα. 
     Πλέον μπορείτε να λαμβάνετε μόνο τα μηνύματα που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
+landing-offer-end-hero-cta = Αναβάθμιση τώρα
 
 ## How it works section
 
@@ -267,6 +269,8 @@ landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
 landing-pricing-premium-feature-6 = Αφαίρεση ιχνηλατών email
 landing-pricing-waitlist-description = Το { -brand-name-firefox-relay-premium } δεν είναι προς το παρόν διαθέσιμο στη χώρα σας. Παρακαλούμε πείτε μας το email σας για να ενημερωθείτε μόλις γίνει.
 landing-pricing-waitlist-cta = Εγγραφή στη λίστα αναμονής
+landing-pricing-offer-end-warning = Αυτή η προσφορά λήγει σύντομα
+landing-pricing-offer-end-cta = Αναβάθμιση τώρα
 
 ## Use Cases
 
@@ -341,6 +345,7 @@ premium-promo-hero-headline = Προστατέψτε ευκολότερα τα �
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email. <b>Για περιορισμένο χρονικό διάστημα, μπορείτε να αναβαθμίσετε στο { -brand-name-relay-premium } με μόλις { $monthly_price } τον μήνα.</b>
 premium-promo-hero-cta = Αναβάθμιση τώρα
+premium-promo-offer-end-hero-cta = Αναβάθμιση τώρα
 premium-promo-availability-warning = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-availability-warning-2 = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Φινλανδία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, τη Σουηδία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-availability-warning-3 = Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Πορτογαλία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία και τη Φινλανδία.
@@ -366,6 +371,8 @@ premium-promo-use-cases-social-networks-body-2 = Θέλετε να προστα�
 premium-promo-use-cases-gaming-heading = Παιχνίδια
 premium-promo-use-cases-gaming-body-2 = Ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή τα τρολ, μέσω του ονόματος παίκτη και της διεύθυνσης email σας; Χρησιμοποιήστε μια μάσκα όπως το «paixnidi@otomeasmou.mozmail.com» για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητά σας.
 premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμμά σας
+premium-promo-pricing-offer-end-warning = Αυτή η προσφορά λήγει σύντομα
+premium-promo-pricing-offer-end-cta = Αναβάθμιση τώρα
 
 ## The Premium waitlist page
 
@@ -671,6 +678,7 @@ banner-label-data-notification-cta = Μετάβαση στις ρυθμίσει�
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
 banner-upgrade-loyalist-cta = Περισσότερη προστασία
+banner-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
@@ -790,11 +798,6 @@ multi-part-onboarding-premium-welcome-button-start = Έναρξη
 multi-part-onboarding-premium-get-subdomain = Αποκτήστε έναν προσαρμοσμένο υποτομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 multi-part-onboarding-premium-welcome-description-2 = Χωρίς τον περιορισμό των πέντε μασκών: μπορείτε να έχετε όσες προσαρμοσμένες ή τυχαίες μάσκες χρειάζεστε. Στον υπολογιστή, μπορείτε να χρησιμοποιήσετε το πρόσθετο του { -brand-name-relay } για να τις δημιουργείτε εν κινήσει.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Με έναν προσαρμοσμένο υποτομέα, μπορείτε να αποκτήσετε μάσκες χωρίς να τις έχετε δημιουργήσει εκ των προτέρων. 
-    Θέλετε μία για εγγραφή σε κάποιο ενημερωτικό δελτίο; Χρησιμοποιήστε κάτι όπως το «deltio@prosarmosmenosupotomeas{ $mozmail }»
 multi-part-onboarding-premium-domain-cta-2 = Καταχωρήστε τον δικό σας υποτομέα τώρα:
 multi-part-onboarding-premium-domain-button-skip-2 = Συνέχεια, θα καταχωρήσω τον υποτομέα μου αργότερα
 multi-part-onboarding-premium-extension-headline = Φραγή, προώθηση και απάντηση
@@ -888,6 +891,15 @@ modal-domain-register-success-2 = Το { $subdomain } είναι πλέον ο �
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι πλέον ο υποτομέας email σας!
 modal-domain-register-success-copy-2 = Τώρα μπορείτε να δημιουργήσετε απεριόριστες προσαρμοσμένες μάσκες email!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Ημέρες
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Ώρες
 
 ## Evergreen Survey (displayed on the profile page)
 
