@@ -255,6 +255,7 @@ premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
+premium-promo-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 
 ## The Premium waitlist page
