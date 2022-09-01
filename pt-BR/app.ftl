@@ -150,6 +150,17 @@ whatsnew-feature-tracker-removal-snippet = Agora o { -brand-name-relay } pode re
 # Deprecated
 whatsnew-feature-tracker-removal-description = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes.
 whatsnew-feature-tracker-removal-description-2 = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes. Ative em “Configurações”.
+whatsnew-feature-offer-countdown-heading = Nossa oferta inicial de preço termina em breve!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite máscaras ilimitadas em nosso…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite máscaras ilimitadas com nosso preço mensal de lançamento.
+whatsnew-feature-offer-countdown-cta = Mude agora
 
 ## Bento Menu
 
@@ -193,6 +204,11 @@ landing-hero-headline-2 = Proteja seu endereço de email real para ajudar a cont
 landing-hero-body-2 =
     As máscaras de email do { -brand-name-firefox-relay } protegem seu endereço de email real de ser visto publicamente, encaminhando mensagens automaticamente para sua caixa de entrada real.
     Agora você pode receber apenas as mensagens que quiser em sua caixa de entrada. Inscreva-se com sua { -brand-name-firefox-account } para começar a usar.
+landing-offer-end-hero-heading = Nossa oferta inicial de preço termina em breve!
+landing-offer-end-hero-cta = Mude agora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
 
 ## How it works section
 
@@ -242,6 +258,11 @@ landing-pricing-premium-feature-5 = Bloquear emails promocionais
 landing-pricing-premium-feature-6 = Remoção de rastreadores de email
 landing-pricing-waitlist-description = No momento o { -brand-name-firefox-relay-premium } não está disponível em seu país. Inscreva seu email para ser notificado assim que estiver disponível.
 landing-pricing-waitlist-cta = Entrar na lista de espera
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Preço inicial: máscaras ilimitadas por { $monthly_price } por mês
+landing-pricing-offer-end-warning = Esta promoção expira em breve
+landing-pricing-offer-end-cta = Mude agora
 
 ## Use Cases
 
@@ -783,11 +804,6 @@ multi-part-onboarding-premium-welcome-button-start = Introdução
 multi-part-onboarding-premium-get-subdomain = Tenha um subdomínio personalizado
 multi-part-onboarding-reply-headline = Responder a seus emails
 multi-part-onboarding-premium-welcome-description-2 = Chega de limite de cinco máscaras. Agora você pode gerar quantas máscaras precisar, personalizadas ou aleatórias. No computador, você pode usar a extensão { -brand-name-relay } para criar na hora.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Com um subdomínio personalizado, você pode criar máscaras sem precisar gerar antes. 
-    Precisa de uma para se inscrever em um boletim informativo? Basta informar “leitura@subdominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Registre agora seu subdomínio personalizado:
 multi-part-onboarding-premium-domain-button-skip-2 = Avançar, vou registrar meu subdomínio personalizado mais tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, encaminhar e responder
@@ -885,6 +901,9 @@ modal-domain-register-success-2 = Agora { $subdomain } é seu subdomínio de ema
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Agora <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> é seu subdomínio de emails!
 modal-domain-register-success-copy-2 = Agora você pode criar máscaras de email personalizadas ilimitadas!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
