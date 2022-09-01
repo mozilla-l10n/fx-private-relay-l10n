@@ -580,7 +580,7 @@ profile-label-blocked = Zablokované
 profile-label-forwarded = Preposlané
 profile-label-replies = Odpovede
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
-profile-label-trackers-removed = Počet odstránených sledovacích prvkov
+profile-label-trackers-removed = Odstránené sledovacie prvky
 profile-trackers-removed-tooltip-part1 = Keď je povolené odstraňovanie sledovacích prvkov, bežné sledovacie prvky budú odstraňované z preposielaných e-mailov.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
@@ -598,7 +598,7 @@ profile-stat-label-blocked = Zablokované e-maily
 profile-stat-label-forwarded = Presmerované e-maily
 profile-stat-label-aliases-used-2 = Použité e-mailové masky
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
-profile-stat-label-trackers-removed = Počet odstránených sledovacích prvkov
+profile-stat-label-trackers-removed = Odstránené sledovacie prvky
 profile-stat-label-trackers-learn-more-part1 = Povolenie odstraňovania sledovacích prvkov odstráni bežné sledovacie prvky z preposielaných e-mailov.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Dôležité: odstránenie sledovacích prvkov môže niekedy spôsobiť, že váš e-mail bude vyzerať nefunkčný, pretože sledovacie prvky sú často obsiahnuté v obrázkoch.
@@ -827,11 +827,6 @@ multi-part-onboarding-premium-welcome-button-start = Začíname
 multi-part-onboarding-premium-get-subdomain = Získajte vlastnú subdoménu
 multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
 multi-part-onboarding-premium-welcome-description-2 = Už žiadne obmedzenie na päť masiek: teraz môžete generovať toľko vlastných alebo náhodných masiek, koľko potrebujete. Jednoducho pomocou doplnku { -brand-name-relay }.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    S vlastnou subdoménou môžete vytvárať masky bez toho, aby ste ich museli generovať vopred.
-    Potrebujete masku na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vasasubdomena{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta-2 = Zaregistrujte svoju vlastnú subdoménu teraz:
 multi-part-onboarding-premium-domain-button-skip-2 = Pokračovať, svoju vlastnú subdoménu si zaregistrujem neskôr
 multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
@@ -931,6 +926,9 @@ modal-domain-register-success-2 = { $subdomain } je teraz vašou e-mailovou subd
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je teraz vašou e-mailovou subdoménou!
 modal-domain-register-success-copy-2 = Teraz môžete vytvárať neobmedzené množstvo vlastných e-mailových masiek!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
