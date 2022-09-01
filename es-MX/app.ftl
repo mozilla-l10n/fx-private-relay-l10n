@@ -938,6 +938,43 @@ modal-domain-register-success-copy-2 = ¡Ahora puedes crear correos enmascarados
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 hora restante
+               *[otro] { $remaining_hours } horas restantes
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 1 día restante
+                [1] 1 día y 1 hora restantes
+               *[otro] 1 día y { $remaining_hours } horas restantes
+            }
+       *[otro]
+            { $remaining_hours ->
+                [0] { $remaining_days } días restantes
+                [1] { $remaining_days } días y 1 hora restantes
+               *[otro] { $remaining_days } días y { $remaining_hours } horas restantes
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Días
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Horas
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Seg.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -987,6 +1024,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CCs y
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Actualiza a { $premium_link } para obtener correos enmascarados ilimitados y un subdominio de correo personalizado.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Nuestra oferta de precios mensuales de introducción está por terminar. Actualiza a { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluyendo archivos adjuntos) de hasta { email-size-limit } de tamaño. Para saber más, revisa nuestro { $faq_link }.
 # Variables:
@@ -997,6 +1037,9 @@ forwarded-email-trackers-blocked-report = Saber más
 forwarded-email-footer-2 = Detener el reenvío de correo electrónico y administrar la configuración de todas las máscaras aquí.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } antes de que se acabe nuestro precio de introducción.
 
 ## Notifications component
 
