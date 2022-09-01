@@ -263,6 +263,9 @@ landing-pricing-waitlist-cta = Entrar na lista de espera
 landing-pricing-offer-end-headline = Preço inicial: máscaras ilimitadas por { $monthly_price } por mês
 landing-pricing-offer-end-warning = Esta promoção expira em breve
 landing-pricing-offer-end-cta = Mude agora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
 
 ## Use Cases
 
@@ -337,7 +340,15 @@ premium-promo-hero-headline = Facilite a proteção da sua caixa de entrada com 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Com o { -brand-name-firefox-relay-premium } você pode ter máscaras de email personalizadas ilimitadas, que encaminham apenas os emails que você quiser para seu endereço de email real. <b>Por tempo limitado, você pode mudar para o { -brand-name-relay-premium } por apenas { $monthly_price } por mês.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Com o { -brand-name-firefox-relay-premium }, você tem máscaras de email personalizadas ilimitadas que encaminham apenas os emails que você quer para seu endereço de email verdadeiro.
 premium-promo-hero-cta = Mude agora para a versão premium
+premium-promo-offer-end-hero-heading = Nossa oferta inicial de preço termina em breve!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
+premium-promo-offer-end-hero-cta = Mude agora
 premium-promo-availability-warning = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e Estados Unidos.
 premium-promo-availability-warning-2 = O { -brand-name-relay-premium } está disponível atualmente na Áustria, Bélgica, Canadá, Finlândia, França, Alemanha, Irlanda, Itália, Malásia, Holanda, Nova Zelândia, Cingapura, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
 premium-promo-availability-warning-3 = O { -brand-name-relay-premium } está disponível na Áustria, Bélgica, Canadá, Chipre, Estônia, Finlândia, França, Alemanha, Grécia, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Portugal, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
@@ -364,6 +375,14 @@ premium-promo-use-cases-social-networks-body-2 = Quer proteger melhor sua identi
 premium-promo-use-cases-gaming-heading = Jogos
 premium-promo-use-cases-gaming-body-2 = Preocupado que outros jogadores ou intimidadores descubram quem você é por meio do seu nome no jogo e endereço de email? Use uma máscara como “jogos@meudominio.mozmail.com” para colocar mais uma camada de proteção entre sua identidade e os jogos que você joga online.
 premium-promo-pricing-free-price = Seu plano gratuito atual
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Preço inicial: máscaras ilimitadas por { $monthly_price } por mês
+premium-promo-pricing-offer-end-warning = Esta promoção expira em breve
+premium-promo-pricing-offer-end-cta = Mude agora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
 
 ## The Premium waitlist page
 
@@ -683,6 +702,12 @@ banner-upgrade-loyalist-headline-2 = Proteja sua privacidade, salve a internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteja sua privacidade e se junte à nossa missão de construir uma internet melhor, tudo por { $monthly_price }
 banner-upgrade-loyalist-cta = Tenha mais proteção
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Nossa oferta inicial de preço termina em breve!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite máscaras ilimitadas com nosso preço mensal de lançamento.
+banner-offer-end-cta = Mude agora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $subdomain }
@@ -804,6 +829,11 @@ multi-part-onboarding-premium-welcome-button-start = Introdução
 multi-part-onboarding-premium-get-subdomain = Tenha um subdomínio personalizado
 multi-part-onboarding-reply-headline = Responder a seus emails
 multi-part-onboarding-premium-welcome-description-2 = Chega de limite de cinco máscaras. Agora você pode gerar quantas máscaras precisar, personalizadas ou aleatórias. No computador, você pode usar a extensão { -brand-name-relay } para criar na hora.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Com um subdomínio personalizado, você pode criar máscaras sem precisar gerar antes. 
+    Precisa de uma para se inscrever em um boletim informativo? Basta informar “leitura@subdominiopersonalizado{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Registre agora seu subdomínio personalizado:
 multi-part-onboarding-premium-domain-button-skip-2 = Avançar, vou registrar meu subdomínio personalizado mais tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, encaminhar e responder
@@ -904,6 +934,43 @@ modal-domain-register-success-copy-2 = Agora você pode criar máscaras de email
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] Falta 1 hora
+               *[other] Falta { $remaining_hours } horas
+            }
+        [1]
+            { $remaining_hours ->
+                [0] Falta 1 dia
+                [1] Falta 1 dia e 1 hora
+               *[other] Falta 1 dia e { $remaining_hours } horas
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] Falta { $remaining_days } dias
+                [1] Falta { $remaining_days } dias e 1 hora
+               *[other] Falta { $remaining_days } dias e { $remaining_hours } horas
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dias
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Horas
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Mín
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Seg
 
 ## Evergreen Survey (displayed on the profile page)
 
