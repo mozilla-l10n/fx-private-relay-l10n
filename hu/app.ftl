@@ -11,7 +11,7 @@
 -brand-name-firefox = Firefox
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
--brand-name-relay-premium = Relé Premium
+-brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Firefox böngésző
@@ -150,6 +150,8 @@ whatsnew-feature-tracker-removal-snippet = Mostantól a { -brand-name-relay } el
 # Deprecated
 whatsnew-feature-tracker-removal-description = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára.
 whatsnew-feature-tracker-removal-description-2 = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára. Kapcsolja be a „Beállításokban”.
+whatsnew-feature-offer-countdown-heading = Bevezető árajánlatunk hamarosan lejár.
+whatsnew-feature-offer-countdown-cta = Frissítés most
 
 ## Bento Menu
 
@@ -193,6 +195,8 @@ landing-hero-headline-2 = Védje valódi e-mail-címét, hogy könnyebben kezelj
 landing-hero-body-2 =
     A { -brand-name-firefox-relay } e-mail-maszkok megvédik valódi e-mail-címét a nyilvánossától, és automatikusan továbbítják a leveleket a valódi postaládájába.
     Mostantól csak a kívánt leveleket kapja meg a beérkező levelek között. A kezdéshez regisztráljon { -brand-name-firefox-account }jával.
+landing-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
+landing-offer-end-hero-cta = Frissítés most
 
 ## How it works section
 
@@ -242,6 +246,11 @@ landing-pricing-premium-feature-5 = Promóciós e-mailek blokkolása
 landing-pricing-premium-feature-6 = E-mail-követő eltávolítása
 landing-pricing-waitlist-description = A { -brand-name-firefox-relay-premium } jelenleg nem érhető el az Ön országában. Ossza meg e-mail-címét, hogy azonnal értesüljön, ha az lesz.
 landing-pricing-waitlist-cta = Csatlakozás a várólistához
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
+landing-pricing-offer-end-warning = Ez a promóció hamarosan lejár
+landing-pricing-offer-end-cta = Frissítés most
 
 ## Use Cases
 
@@ -317,6 +326,7 @@ premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { 
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a { -brand-name-relay-premium }ra.</b>
 premium-promo-hero-cta = Frissítsen most
+premium-promo-offer-end-hero-cta = Frissítés most
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-3 = A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
@@ -343,6 +353,11 @@ premium-promo-use-cases-social-networks-body-2 = Szeretné jobban megvédeni onl
 premium-promo-use-cases-gaming-heading = Játék
 premium-promo-use-cases-gaming-body-2 = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan maszkot, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
 premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
+premium-promo-pricing-offer-end-warning = Ez a promóció hamarosan lejár
+premium-promo-pricing-offer-end-cta = Frissítés most
 
 ## The Premium waitlist page
 
@@ -666,6 +681,9 @@ banner-upgrade-loyalist-headline-2 = Védje meg a magánszféráját, mentse meg
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Védje meg a magánszféráját, miközben csatlakozik a küldetésünkhöz, hogy jobb internetet építsünk, mindezt { $monthly_price } összegért
 banner-upgrade-loyalist-cta = Szerezzen nagyobb védelmet
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Bevezető árajánlatunk hamarosan lejár.
+banner-offer-end-cta = Frissítés most
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létrehozhat
@@ -788,8 +806,8 @@ multi-part-onboarding-premium-get-subdomain = Egyéni aldomain beszerzése
 multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 multi-part-onboarding-premium-welcome-description-2 = Nincs többé öt maszkos korlát: mostantól annyi egyéni vagy véletlenszerű maszkot állíthat elő, amennyire csak szüksége van. Asztali számítógépen a { -brand-name-relay } kiegészítővel menet közben is létrehozhatja őket.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
     Egyéni aldomainnel anélkül hozhat létre maszkokat, hogy előzetesen előállította volna.
     Szüksége van egyre, hogy feliratkozzon egy hírlevélre? Csak mondja, hogy „olvasas@sajataldomain{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta-2 = Regisztrálja egyéni aldomainjét most:
@@ -889,6 +907,9 @@ modal-domain-register-success-2 = A(z) { $subdomain } mostantól az Ön e-mail-a
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> mostantól az e-mail-aldomainja.
 modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-mail-maszkot hozhat létre.
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
