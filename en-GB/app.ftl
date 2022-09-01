@@ -1024,6 +1024,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } removes CCs a
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Upgrade to { $premium_link } to get unlimited email masks and a custom email subdomain.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Our intro monthly pricing offer is expiring. Upgrade to { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }.
 # Variables:
@@ -1034,6 +1037,9 @@ forwarded-email-trackers-blocked-report = Learn more
 forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Upgrade to { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } before our intro pricing expires.
 
 ## Notifications component
 
