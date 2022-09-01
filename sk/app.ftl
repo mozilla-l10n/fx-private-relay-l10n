@@ -192,6 +192,17 @@ whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } dokáže odstra
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov.
 whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov. Funkciu zapnete v časti “Nastavenia”.
+whatsnew-feature-offer-countdown-heading = Naša uvádzacia cenová ponuka čoskoro končí!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užite si neobmedzené maskovanie v našom…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si neobmedzené maskovanie za našu uvádzaciu mesačnú cenu.
+whatsnew-feature-offer-countdown-cta = Inovovať teraz
 
 ## Bento Menu
 
@@ -235,6 +246,11 @@ landing-hero-headline-2 = Chráňte svoju skutočnú e-mailovú adresu, aby ste 
 landing-hero-body-2 =
     E-mailové masky služby { -brand-name-firefox-relay } chránia vašu skutočnú e-mailovú adresu pred verejným zobrazením a automaticky preposielajú správy do vašej skutočnej e-mailovej schránky.
     Teraz môžete do doručenej pošty dostávať iba e-maily, ktoré chcete. Ak to chcete skúsiť, zaregistrujte sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
+landing-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
+landing-offer-end-hero-cta = Inovovať teraz
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
 
 ## How it works section
 
@@ -284,6 +300,14 @@ landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
 landing-pricing-premium-feature-6 = Odstraňovanie sledovacích prvkov z e-mailov
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } momentálne nie je vo vašej krajine k dispozícii. Zadajte svoj e-mail, aby ste boli informovaní hneď, ako to bude.
 landing-pricing-waitlist-cta = Pridať sa na zoznam čakateľov
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
+landing-pricing-offer-end-warning = Platnosť tejto promo akcie čoskoro vyprší
+landing-pricing-offer-end-cta = Inovovať teraz
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
 
 ## Use Cases
 
@@ -358,7 +382,15 @@ premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete inovovať na { -brand-name-relay-premium } len za { $monthly_price } mesačne.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu.
 premium-promo-hero-cta = Inovovať teraz
+premium-promo-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+premium-promo-offer-end-hero-cta = Inovovať teraz
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
@@ -385,6 +417,14 @@ premium-promo-use-cases-social-networks-body-2 = Chcete lepšie chrániť svoju 
 premium-promo-use-cases-gaming-heading = Hranie hier
 premium-promo-use-cases-gaming-body-2 = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite masku ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
 premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
+premium-promo-pricing-offer-end-warning = Platnosť tejto promo akcie čoskoro vyprší
+premium-promo-pricing-offer-end-cta = Inovovať teraz
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
 
 ## The Premium waitlist page
 
@@ -706,6 +746,12 @@ banner-upgrade-loyalist-headline-2 = Chráňte svoje súkromie, zachránite inte
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Chráňte svoje súkromie a pripojte sa k našej misii vybudovať lepší internet, to všetko za { $monthly_price }
 banner-upgrade-loyalist-cta = Získajte väčšiu ochranu
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Naša uvádzacia cenová ponuka čoskoro končí!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si neobmedzené maskovanie za našu uvádzaciu mesačnú cenu.
+banner-offer-end-cta = Inovovať teraz
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu @{ $subdomain }
@@ -827,6 +873,11 @@ multi-part-onboarding-premium-welcome-button-start = Začíname
 multi-part-onboarding-premium-get-subdomain = Získajte vlastnú subdoménu
 multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
 multi-part-onboarding-premium-welcome-description-2 = Už žiadne obmedzenie na päť masiek: teraz môžete generovať toľko vlastných alebo náhodných masiek, koľko potrebujete. Jednoducho pomocou doplnku { -brand-name-relay }.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    S vlastnou subdoménou môžete vytvárať masky bez toho, aby ste ich museli generovať vopred.
+    Potrebujete masku na prihlásenie sa na odber noviniek? Stačí zadať “novinky@vasasubdomena.{ $mozmail }”.
 multi-part-onboarding-premium-domain-cta-2 = Zaregistrujte svoju vlastnú subdoménu teraz:
 multi-part-onboarding-premium-domain-button-skip-2 = Pokračovať, svoju vlastnú subdoménu si zaregistrujem neskôr
 multi-part-onboarding-premium-extension-headline = Blokovanie, preposielanie a odpovede
@@ -929,6 +980,53 @@ modal-domain-register-success-copy-2 = Teraz môžete vytvárať neobmedzené mn
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [one] zostáva 1 hodina
+                [few] zostávajú { $remaining_hours } hodiny
+               *[other] zostáva { $remaining_hours } hodín
+            }
+        [one]
+            { $remaining_hours ->
+                [0] zostáva 1 deň
+                [one] zostáva 1 deň a 1 hodina
+                [few] zostáva 1 deň a { $remaining_hours } hodiny
+               *[other] zostáva 1 deň a { $remaining_hours } hodín
+            }
+        [few]
+            { $remaining_hours ->
+                [0] zostávajú { $remaining_days } dni
+                [one] zostávajú { $remaining_days } dni a 1 hodina
+                [few] zostávajú { $remaining_days } dni a { $remaining_hours } hodiny
+               *[other] zostávajú { $remaining_days } dni a { $remaining_hours } hodín
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] zostáva { $remaining_days } dní
+                [one] zostáva { $remaining_days } dní a 1 hodina
+                [few] zostáva { $remaining_days } dní a { $remaining_hours } hodiny
+               *[other] zostáva { $remaining_days } dní a { $remaining_hours } hodín
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dní
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Hod.
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sek.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -978,6 +1076,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje p
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Inovujte na { $premium_link } a získajte neobmedzené množstvo e-mailových masiek a vlastnú e-mailovú subdoménu.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Platnosť našej uvádzacej mesačnej cenovej ponuky čoskoro vyprší. Inovujte na { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje presmerovanie e-mailov (vrátane príloh) do veľkosti { email-size-limit }. Ak sa chcete dozvedieť viac, navštívte stránku { $faq_link }.
 # Variables:
@@ -988,6 +1089,9 @@ forwarded-email-trackers-blocked-report = Ďalšie informácie
 forwarded-email-footer-2 = Tu zastavíte preposielanie e-mailov a môžete spravovať nastavenia pre všetky masky.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Inovujte na { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } skôr, ako uplynie platnosť našich uvádzacích cien.
 
 ## Notifications component
 
