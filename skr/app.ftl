@@ -131,6 +131,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
+whatsnew-feature-offer-countdown-cta = ہݨ اپ گریڈ کرو
 
 ## Bento Menu
 
@@ -164,6 +165,7 @@ hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آن
 ## Hero Section
 
 landing-hero-headline-2 = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
+landing-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 
 ## How it works section
 
@@ -236,6 +238,7 @@ landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
@@ -250,6 +253,7 @@ premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
+premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 
 ## The Premium waitlist page
 
@@ -467,6 +471,7 @@ banner-label-data-notification-body-cta = ٻیا سِکھو
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
+banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
@@ -647,6 +652,21 @@ modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل س�
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ہݨ تہاݙی ای میل سب ڈومین ہے!
 modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای میل ماسک تخلیق کر سڳدے ہو!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = ݙیہاڑے
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = گھنٹے
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = منٹ
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = سیکنڈ
 
 ## Evergreen Survey (displayed on the profile page)
 
