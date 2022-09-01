@@ -248,6 +248,7 @@ landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
 landing-pricing-premium-feature-6 = Suppression des traqueurs dans les e-mails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
+landing-pricing-offer-end-cta = Mettre à niveau maintenant
 
 ## Use Cases
 
@@ -323,6 +324,8 @@ premium-promo-hero-headline = Simplifiez la protection de votre boîte de récep
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à { -brand-name-relay-premium } pour seulement { $monthly_price } par mois.</b>
 premium-promo-hero-cta = Mettre à niveau maintenant
+premium-promo-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
+premium-promo-offer-end-hero-cta = Mettre à niveau maintenant
 premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en Finlande, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour, en Suède et en Suisse.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Belgique, au Canada, à Chypre, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, au Portugal, à Singapour, en Slovaquie, en Slovénie, en Suède, en Suisse et au Royaume-Uni.
@@ -348,6 +351,7 @@ premium-promo-use-cases-social-networks-body-2 = Vous voulez une meilleure prote
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body-2 = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse électronique ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
 premium-promo-pricing-free-price = Votre forfait gratuit actuel
+premium-promo-pricing-offer-end-cta = Mettre à niveau maintenant
 
 ## The Premium waitlist page
 
@@ -667,6 +671,9 @@ banner-upgrade-loyalist-headline-2 = Protégez votre vie privée, sauvez Interne
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protégez votre vie privée tout en rejoignant notre mission pour construire un meilleur Internet, le tout pour { $monthly_price }
 banner-upgrade-loyalist-cta = Obtenez encore plus de protection
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Notre offre tarifaire de lancement se termine bientôt !
+banner-offer-end-cta = Mettre à niveau maintenant
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
@@ -788,6 +795,9 @@ multi-part-onboarding-premium-welcome-button-start = Lancez-vous
 multi-part-onboarding-premium-get-subdomain = Disposer d’un sous-domaine personnalisé
 multi-part-onboarding-reply-headline = Répondre à vos e-mails
 multi-part-onboarding-premium-welcome-description-2 = Finie la limite des cinq alias : vous avez désormais la possibilité de générer autant d’alias, aléatoires ou personnalisés, que nécessaire. Avec un ordinateur, vous pouvez utiliser le module { -brand-name-relay } pour les créer à la volée.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b = Avec un sous-domaine personnalisé, vous pouvez créer des alias sans avoir à les générer au préalable. Vous en avez besoin d’un pour vous inscrire à une newsletter ? Mettez simplement « lire@sousdomaineperso.{ $mozmail } ».
 multi-part-onboarding-premium-domain-cta-2 = Enregistrez votre sous-domaine personnalisé maintenant :
 multi-part-onboarding-premium-domain-button-skip-2 = Continuer, j’enregistrerai mon sous-domaine personnalisé plus tard
 multi-part-onboarding-premium-extension-headline = Bloquez, transférez et répondez
@@ -882,6 +892,18 @@ modal-domain-register-success-copy-2 = Vous pouvez désormais créer un nombre i
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = jours
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = heures
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = s
 
 ## Evergreen Survey (displayed on the profile page)
 
