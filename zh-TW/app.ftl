@@ -149,6 +149,17 @@ whatsnew-feature-tracker-removal-snippet = 現在起，{ -brand-name-relay } 可
 # Deprecated
 whatsnew-feature-tracker-removal-description = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。
 whatsnew-feature-tracker-removal-description-2 = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。可到「設定」頁面中開啟。
+whatsnew-feature-offer-countdown-heading = 上市優惠價即將結束！
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
+whatsnew-feature-offer-countdown-cta = 立刻升級
 
 ## Bento Menu
 
@@ -187,6 +198,11 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 
 landing-hero-headline-2 = 保護您實際的電子郵件地址，並且自行控管收件匣
 landing-hero-body-2 = { -brand-name-firefox-relay } 轉寄信箱會自動轉寄郵件到您實際的電子郵件信箱，並保護該信箱使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可開始使用。
+landing-offer-end-hero-heading = 上市優惠價即將結束！
+landing-offer-end-hero-cta = { "" }
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 
 ## How it works section
 
@@ -228,6 +244,14 @@ landing-pricing-premium-feature-5 = 封鎖行銷郵件
 landing-pricing-premium-feature-6 = 刪除電子郵件追蹤器
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 在尚未在您的國家推出，可以在下方登記，推出時我們就會通知您。
 landing-pricing-waitlist-cta = 加入排隊名單
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
+landing-pricing-offer-end-warning = 本檔促銷活動即將結束
+landing-pricing-offer-end-cta = 立刻升級
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 
 ## Use Cases
 
@@ -291,6 +315,11 @@ premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓�
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件轉寄信箱，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 { -brand-name-relay-premium } 方案。</b>
 premium-promo-hero-cta = 立刻升級
+premium-promo-offer-end-hero-heading = 上市優惠價即將結束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+premium-promo-offer-end-hero-cta = 立刻升級
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
@@ -317,6 +346,11 @@ premium-promo-use-cases-social-networks-body-2 = 想要在使用社群網路時�
 premium-promo-use-cases-gaming-heading = 玩遊戲
 premium-promo-use-cases-gaming-body-2 = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
 premium-promo-pricing-free-price = 您目前的免費方案
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
+premium-promo-pricing-offer-end-warning = 本檔促銷活動即將結束
+premium-promo-pricing-offer-end-cta = 立刻升級
 
 ## The Premium waitlist page
 
@@ -636,6 +670,12 @@ banner-upgrade-loyalist-headline-2 = 保護您的隱私，拯救網際網路
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = 在保護您隱私的同時加入我們的使命，一同打造更好的網路環境，全部只需每月 { $monthly_price }
 banner-upgrade-loyalist-cta = 獲得更多保護
+# End of intro pricing countdown banner:
+banner-offer-end-headline = 上市優惠價即將結束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
+banner-offer-end-cta = 立刻升級
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
@@ -758,8 +798,8 @@ multi-part-onboarding-premium-get-subdomain = 獲得自訂子網域
 multi-part-onboarding-reply-headline = 回覆郵件
 multi-part-onboarding-premium-welcome-description-2 = 不再只能設定五組信箱：您可以無限量隨意產生自訂或隨機轉寄信箱。在桌機上，還可以使用 { -brand-name-relay } 的附加元件隨時建立轉寄信箱。
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 = 透過自訂子網域，不用先產生就能隨時建立轉寄信箱。突然需要一組信箱來訂閱電子報嗎？直接輸入「read@customsubdomain{ $mozmail }」就好
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b = 透過自訂子網域，不用先產生就能隨時建立轉寄信箱。突然需要一組信箱來訂閱電子報嗎？直接輸入「read@customsubdomain{ $mozmail }」就好
 multi-part-onboarding-premium-domain-cta-2 = 現在就註冊您的專屬子網域：
 multi-part-onboarding-premium-domain-button-skip-2 = 先繼續，之後再來註冊子網域
 multi-part-onboarding-premium-extension-headline = 封鎖、轉寄、回覆
@@ -848,6 +888,21 @@ modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = 現在起將使用 <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 做為您的信箱子網域！
 modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的自訂轉寄信箱！
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = 天
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = 小時
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = 分
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = 秒
 
 ## Evergreen Survey (displayed on the profile page)
 
