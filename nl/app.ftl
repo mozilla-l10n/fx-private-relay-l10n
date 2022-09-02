@@ -963,8 +963,8 @@ offer-countdown-timer-alt =
        *[other]
             { $remaining_hours ->
                 [0] nog { $remaining_days } dagen
-                [1] nog { $remaining_days } en 1 uur
-               *[other] nog { $remaining_days } en { $remaining_hours } uur
+                [1] nog { $remaining_days } dagen en 1 uur
+               *[other] nog { $remaining_days } dagen en { $remaining_hours } uur
             }
     }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
