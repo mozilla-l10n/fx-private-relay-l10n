@@ -150,6 +150,8 @@ whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remove
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun, adjutante te a remaner invisibile al publicitate, adjutante te a remaner invisibile al publicitate. Activa lo in “Parametros.”
+whatsnew-feature-offer-countdown-heading = Nostre offerta de compra introductive finira tosto!
+whatsnew-feature-offer-countdown-cta = Promover ora
 
 ## Bento Menu
 
@@ -191,6 +193,7 @@ landing-hero-headline-2 = Protege tu ver adresse e-mail pro adjutar proteger tu 
 landing-hero-body-2 =
     Le mascas email de { -brand-name-firefox-relay } protege tu ver adresse e-mail del vision public, automaticamente inultrante emails a tu ver cassa de ingresso. 
     Ora tu pote reciper solo le emails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
+landing-offer-end-hero-cta = Promover ora
 
 ## How it works section
 
@@ -238,6 +241,7 @@ landing-pricing-premium-feature-5 = Blocar e-mails promotional
 landing-pricing-premium-feature-6 = Remotion de traciatores de emails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
 landing-pricing-waitlist-cta = Junge te al lista de attendentia
+landing-pricing-offer-end-cta = Promover ora
 
 ## Use Cases
 
@@ -313,6 +317,8 @@ premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso co
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate mascas email personal que inultra solo le emails que tu lo vole a tu ver adresse email. <b>Pro un tempore limitate, tu pote promover te a { -brand-name-relay-premium } pro solo { $monthly_price } a mense.</b>
 premium-promo-hero-cta = Promover ora
+premium-promo-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
+premium-promo-offer-end-hero-cta = Promover ora
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite
@@ -339,6 +345,7 @@ premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu ident
 premium-promo-use-cases-gaming-heading = Jocos
 premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
 premium-promo-pricing-free-price = Tu actual plano gratuite
+premium-promo-pricing-offer-end-cta = Promover ora
 
 ## The Premium waitlist page
 
@@ -662,6 +669,9 @@ banner-upgrade-loyalist-headline-2 = Protege tu confidentialitate, reserva inter
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu confidentialitate e adhere al mission pro render internet melior, toto pro { $monthly_price }
 banner-upgrade-loyalist-cta = Obtener plus protection
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Nostre offerta de compra introductive finira tosto!
+banner-offer-end-cta = Promover ora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
@@ -784,8 +794,8 @@ multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
 multi-part-onboarding-premium-welcome-description-2 = Non plus limita te a cinque mascas: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo { -brand-name-relay } pro crear los al volo.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
     Con un subdominio personal, tu pote crear mascas sin previemente deber generar los. 
     Besonia tu de un, pro registrar te a un littera de novas? Solo dice “read@customsubdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Registra ora tu sudominio personal:
@@ -886,6 +896,21 @@ modal-domain-register-success-2 = { $subdomain } es ora tu subdominio email!
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> es ora tu subdominio email!
 modal-domain-register-success-copy-2 = Ora tu pote crear illimitate mascas email personalisate!
 
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dies
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Horas
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sec.
+
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Sur un scala de 1 a 10, quanto es probabile que tu recommenda { -brand-name-relay } a un amico o collega?
@@ -933,6 +958,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } remove CCs e 
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Promove a { $premium_link } pro haber mascas email illimitate e un subdominio email personal.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Nostre offerta de compra mensual introductive va expirar. Promover a { $premium_link }.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } permitte reexpedir messages de e-mail (includite annexos) con un dimension maxime de { email-size-limit }. Pro saper plus, lege nostre { $faq_link }.
