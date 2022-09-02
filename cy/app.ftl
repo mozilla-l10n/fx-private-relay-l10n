@@ -265,7 +265,7 @@ landing-pricing-waitlist-cta = Ymunwch â'r Rhestr Aros
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
-landing-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben yn fuan
+landing-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben cyn bo hir
 landing-pricing-offer-end-cta = Uwchraddiwch nawr
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
@@ -1017,6 +1017,9 @@ forwarded-email-header-cc-notice-2 = Mae { -brand-name-relay-premium } yn tynnu 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Uwchraddiwch i { $premium_link } i gael arallenwau diderfyn ac is-barth e-bost personol.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Mae ein cynnig prisio misol rhagarweiniol yn dod i ben. Uwchraddiwch i { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
 # Variables:
@@ -1027,6 +1030,9 @@ forwarded-email-trackers-blocked-report = Dysgu rhagor
 forwarded-email-footer-2 = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link } cyn i'n pris agoriadol ddod i ben.
 
 ## Notifications component
 
