@@ -193,6 +193,7 @@ landing-hero-headline-2 = Protege tu ver adresse e-mail pro adjutar proteger tu 
 landing-hero-body-2 =
     Le mascas email de { -brand-name-firefox-relay } protege tu ver adresse e-mail del vision public, automaticamente inultrante emails a tu ver cassa de ingresso. 
     Ora tu pote reciper solo le emails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
+landing-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
 landing-offer-end-hero-cta = Promover ora
 
 ## How it works section
@@ -241,6 +242,7 @@ landing-pricing-premium-feature-5 = Blocar e-mails promotional
 landing-pricing-premium-feature-6 = Remotion de traciatores de emails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
 landing-pricing-waitlist-cta = Junge te al lista de attendentia
+landing-pricing-offer-end-warning = Iste promotion va expirar tosto
 landing-pricing-offer-end-cta = Promover ora
 
 ## Use Cases
@@ -345,6 +347,7 @@ premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu ident
 premium-promo-use-cases-gaming-heading = Jocos
 premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
 premium-promo-pricing-free-price = Tu actual plano gratuite
+premium-promo-pricing-offer-end-warning = Iste promotion va expirar tosto
 premium-promo-pricing-offer-end-cta = Promover ora
 
 ## The Premium waitlist page
