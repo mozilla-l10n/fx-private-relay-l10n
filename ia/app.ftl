@@ -151,6 +151,15 @@ whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remove
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun, adjutante te a remaner invisibile al publicitate, adjutante te a remaner invisibile al publicitate. Activa lo in “Parametros.”
 whatsnew-feature-offer-countdown-heading = Nostre offerta de compra introductive finira tosto!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue de mascas illimitate a nostre precio introductive mensual.
 whatsnew-feature-offer-countdown-cta = Promover ora
 
 ## Bento Menu
@@ -195,6 +204,9 @@ landing-hero-body-2 =
     Ora tu pote reciper solo le emails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
 landing-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
 landing-offer-end-hero-cta = Promover ora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 
 ## How it works section
 
@@ -247,6 +259,9 @@ landing-pricing-waitlist-cta = Junge te al lista de attendentia
 landing-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
 landing-pricing-offer-end-warning = Iste promotion va expirar tosto
 landing-pricing-offer-end-cta = Promover ora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 
 ## Use Cases
 
@@ -321,8 +336,14 @@ premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso co
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate mascas email personal que inultra solo le emails que tu lo vole a tu ver adresse email. <b>Pro un tempore limitate, tu pote promover te a { -brand-name-relay-premium } pro solo { $monthly_price } a mense.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, tu obtene illimitate aliases e-mail personal que inultra solo le e-mails que tu vole a tu real adresse e-mail.
 premium-promo-hero-cta = Promover ora
 premium-promo-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 premium-promo-offer-end-hero-cta = Promover ora
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
@@ -350,8 +371,14 @@ premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu ident
 premium-promo-use-cases-gaming-heading = Jocos
 premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
 premium-promo-pricing-free-price = Tu actual plano gratuite
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
 premium-promo-pricing-offer-end-warning = Iste promotion va expirar tosto
 premium-promo-pricing-offer-end-cta = Promover ora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 
 ## The Premium waitlist page
 
@@ -677,6 +704,9 @@ banner-upgrade-loyalist-copy-2 = Protege tu confidentialitate e adhere al missio
 banner-upgrade-loyalist-cta = Obtener plus protection
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Nostre offerta de compra introductive finira tosto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue de mascas illimitate a nostre precio introductive mensual.
 banner-offer-end-cta = Promover ora
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -978,6 +1008,9 @@ forwarded-email-trackers-blocked-report = Pro saper plus
 forwarded-email-footer-2 = Cessar le reexpedition de email e gerer parametros pro tote le mascas.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Promover a { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante que nostre precio introductive expira.
 
 ## Notifications component
 
