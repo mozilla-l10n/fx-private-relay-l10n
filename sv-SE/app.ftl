@@ -150,6 +150,7 @@ whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort 
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
+whatsnew-feature-offer-countdown-cta = Uppgradera nu
 
 ## Bento Menu
 
@@ -193,6 +194,7 @@ landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig a
 landing-hero-body-2 =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
     Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
+landing-offer-end-hero-cta = Uppgradera nu
 
 ## How it works section
 
@@ -242,6 +244,7 @@ landing-pricing-premium-feature-5 = Blockera reklammeddelanden
 landing-pricing-premium-feature-6 = Borttagning av e-postspårare
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
+landing-pricing-offer-end-cta = Uppgradera nu
 
 ## Use Cases
 
@@ -317,6 +320,7 @@ premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -bran
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till { -brand-name-relay-premium } för endast { $monthly_price } i månaden.</b>
 premium-promo-hero-cta = Uppgradera nu
+premium-promo-offer-end-hero-cta = Uppgradera nu
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
@@ -343,6 +347,7 @@ premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onli
 premium-promo-use-cases-gaming-heading = Spel
 premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
 premium-promo-pricing-free-price = Din nuvarande gratisplan
+premium-promo-pricing-offer-end-cta = Uppgradera nu
 
 ## The Premium waitlist page
 
@@ -666,6 +671,7 @@ banner-upgrade-loyalist-headline-2 = Skydda din integritet, rädda internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Skydda din integritet samtidigt som du går med i vårt uppdrag att bygga ett bättre internet, allt för { $monthly_price }
 banner-upgrade-loyalist-cta = Få mer skydd
+banner-offer-end-cta = Uppgradera nu
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
@@ -787,11 +793,6 @@ multi-part-onboarding-premium-welcome-button-start = Kom igång
 multi-part-onboarding-premium-get-subdomain = Skaffa en anpassad underdomän
 multi-part-onboarding-reply-headline = Svara på dina mejl
 multi-part-onboarding-premium-welcome-description-2 = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda tillägget { -brand-name-relay } för att skapa dem när du behöver.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Med en anpassad underdomän kan du skapa alias utan att behöva generera dem i förväg.
-    Behöver du en för att registrera dig för ett nyhetsbrev? Säg bara "read@customsubdomain{ $mozmail }"
 multi-part-onboarding-premium-domain-cta-2 = Registrera din anpassade underdomän nu:
 multi-part-onboarding-premium-domain-button-skip-2 = Fortsätt, jag kommer att registrera min egen underdomän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
@@ -889,6 +890,21 @@ modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är nu din e-postunderdomän!
 modal-domain-register-success-copy-2 = Nu kan du skapa obegränsat antal anpassade e-postalias!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dagar
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Timmar
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sek.
 
 ## Evergreen Survey (displayed on the profile page)
 
