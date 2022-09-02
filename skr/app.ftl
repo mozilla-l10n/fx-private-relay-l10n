@@ -166,6 +166,7 @@ hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آن
 ## Hero Section
 
 landing-hero-headline-2 = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
+landing-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 landing-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 
 ## How it works section
