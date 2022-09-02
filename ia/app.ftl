@@ -242,6 +242,9 @@ landing-pricing-premium-feature-5 = Blocar e-mails promotional
 landing-pricing-premium-feature-6 = Remotion de traciatores de emails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
 landing-pricing-waitlist-cta = Junge te al lista de attendentia
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
 landing-pricing-offer-end-warning = Iste promotion va expirar tosto
 landing-pricing-offer-end-cta = Promover ora
 
