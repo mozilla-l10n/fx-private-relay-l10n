@@ -314,6 +314,9 @@ premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓�
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件轉寄信箱，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 { -brand-name-relay-premium } 方案。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = 透過 { -brand-name-firefox-relay-premium }，您可以獲得無限的自訂轉寄信箱，只將您想要轉寄的郵件轉到您的實際電子郵件信箱。
 premium-promo-hero-cta = 立刻升級
 premium-promo-offer-end-hero-heading = 上市優惠價即將結束！
 # Variables:
