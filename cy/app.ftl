@@ -154,6 +154,17 @@ whatsnew-feature-tracker-removal-snippet = Nawr gall { -brand-name-relay } ddile
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.
 whatsnew-feature-tracker-removal-description-2 = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr. Gallwch ei droi ymlaen yn y “Gosodiadau.”
+whatsnew-feature-offer-countdown-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Mynnwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch arallenwi diderfyn yn ein…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Mynnwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch arallenwi diderfyn yn ein…
+whatsnew-feature-offer-countdown-cta = Uwchraddiwch nawr
 
 ## Bento Menu
 
@@ -197,6 +208,11 @@ landing-hero-headline-2 = Diogelwch eich cyfeiriad e-bost go iawn i helpu rheoli
 landing-hero-body-2 =
     Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
     Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+landing-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
+landing-offer-end-hero-cta = Uwchraddiwch nawr
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
 
 ## How it works section
 
@@ -246,6 +262,14 @@ landing-pricing-premium-feature-5 = Rhwystro e-byst hyrwyddo
 landing-pricing-premium-feature-6 = Tynnu tracwyr e-bost
 landing-pricing-waitlist-description = Nid yw { -brand-name-firefox-relay-premium } ar gael yn eich gwlad ar hyn o bryd. Rhannwch eich e-bost i gael gwybod cyn gynted ag y bo modd.
 landing-pricing-waitlist-cta = Ymunwch â'r Rhestr Aros
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
+landing-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben yn fuan
+landing-pricing-offer-end-cta = Uwchraddiwch nawr
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
 
 ## Use Cases
 
@@ -320,7 +344,15 @@ premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael e-byst arallenwau cyfaddas dirifedi sy'n anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go-iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i { -brand-name-relay-premium } am ddim ond { $monthly_price } y mis.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Gyda { -brand-name-firefox-relay-premium }, byddwch yn cael arallenwau e-bost personol diderfyn sy'n anfon dim ond y negeseuon e-bost rydych chi eu heisiau ymlaen i'ch gwir gyfeiriad e-bost.
 premium-promo-hero-cta = Uwchraddiwch nawr
+premium-promo-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+premium-promo-offer-end-hero-cta = Uwchraddiwch nawr
 premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
 premium-promo-availability-warning-2 = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU a'r UDA.
 premium-promo-availability-warning-3 = Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
@@ -347,6 +379,14 @@ premium-promo-use-cases-social-networks-body-2 = Eisiau diogelu eich hunaniaeth 
 premium-promo-use-cases-gaming-heading = Gemau
 premium-promo-use-cases-gaming-body-2 = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch e-bost arallenw fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
 premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
+premium-promo-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben cyn bo hir
+premium-promo-pricing-offer-end-cta = Uwchraddiwch nawr
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
 
 ## The Premium waitlist page
 
@@ -670,6 +710,12 @@ banner-upgrade-loyalist-headline-2 = Diogelu eich preifatrwydd, achub y rhyngrwy
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Diogelwch eich preifatrwydd wrth ymuno â'r ymgyrch am well rhyngrwyd, i gyd am { $monthly_price }
 banner-upgrade-loyalist-cta = Cael rhagor o ddiogelwch
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm diderfyn am ein pris agoriadol o fis i fis.
+banner-offer-end-cta = Uwchraddiwch nawr
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomain }
@@ -792,10 +838,10 @@ multi-part-onboarding-premium-get-subdomain = Cael is-parth personol
 multi-part-onboarding-reply-headline = Ateb i'ch e-byst
 multi-part-onboarding-premium-welcome-description-2 = Dim mwy o derfyn pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau personol neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn { -brand-name-relay } i'w creu yn ôl yr angen.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Gydag is-barth personol, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
-    Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@parthcyfaddas{ $mozmail }”
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Gydag is-barth cyfaddas, gallwch greu arallenwau heb orfod eu cynhyrchu ymlaen llaw.
+    Angen un i gofrestru ar gyfer cylchlythyr? Dim ond nodi “darllen@customsubdomain{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Cofrestrwch eich is-barth personol nawr:
 multi-part-onboarding-premium-domain-button-skip-2 = Parhau, byddaf yn cofrestru fy is-barth personol yn nes ymlaen
 multi-part-onboarding-premium-extension-headline = Rhwystro, anfon ymlaen, ac ateb
@@ -901,6 +947,27 @@ modal-domain-register-success-2 = { $subdomain } yw eich is-barth e-bost!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>. { $domain }</domain> yw eich is-barth e-bost!
 modal-domain-register-success-copy-2 = Nawr gallwch chi greu arallenwau e-bost personol diderfyn!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt = { $remaining_days } diwrnod a { $remaining_hours } awr ar ôl
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Diwrnod
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Awr
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Mun.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Eil.
 
 ## Evergreen Survey (displayed on the profile page)
 
