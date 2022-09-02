@@ -151,6 +151,15 @@ whatsnew-feature-tracker-removal-snippet = Mostantól a { -brand-name-relay } el
 whatsnew-feature-tracker-removal-description = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára.
 whatsnew-feature-tracker-removal-description-2 = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára. Kapcsolja be a „Beállításokban”.
 whatsnew-feature-offer-countdown-heading = Bevezető árajánlatunk hamarosan lejár.
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást a bevezető havi árunkon.
 whatsnew-feature-offer-countdown-cta = Frissítés most
 
 ## Bento Menu
@@ -197,6 +206,9 @@ landing-hero-body-2 =
     Mostantól csak a kívánt leveleket kapja meg a beérkező levelek között. A kezdéshez regisztráljon { -brand-name-firefox-account }jával.
 landing-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
 landing-offer-end-hero-cta = Frissítés most
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 
 ## How it works section
 
@@ -251,6 +263,9 @@ landing-pricing-waitlist-cta = Csatlakozás a várólistához
 landing-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
 landing-pricing-offer-end-warning = Ez a promóció hamarosan lejár
 landing-pricing-offer-end-cta = Frissítés most
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 
 ## Use Cases
 
@@ -325,7 +340,14 @@ premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a { -brand-name-relay-premium }ra.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = A { -brand-name-firefox-relay-premium }mal korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére.
 premium-promo-hero-cta = Frissítsen most
+premium-promo-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 premium-promo-offer-end-hero-cta = Frissítés most
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
@@ -358,6 +380,9 @@ premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
 premium-promo-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
 premium-promo-pricing-offer-end-warning = Ez a promóció hamarosan lejár
 premium-promo-pricing-offer-end-cta = Frissítés most
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 
 ## The Premium waitlist page
 
@@ -629,7 +654,7 @@ banner-bounced-copy =
     Jelenleg nem tudunk e-mail küldeni ide: { $username }.
     Egy <em>{ $bounce_type }</em> „visszapattanást” kaptunk az e-mail-szolgáltatójától, amikor levelet próbáltunk továbbítani Önnek.
     Ez akkor történhet, ha a { -brand-name-relay } nem tudott kapcsolódni az e-mail-szolgáltatójához, vagy ha a postaládája megtelt. Ekkor fogjuk újra megpróbálni: { $date }.
-banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox }szal
+banner-download-firefox-headline = A { -brand-name-relay } még jobb { -brand-name-firefox(case: "instrumental") }
 banner-download-firefox-copy-2 = A { -brand-name-firefox-browser }höz készült { -brand-name-relay } kiegészítő még egyszerűbbé teszi a maszkok létrehozását.
 banner-download-firefox-cta = { -brand-name-firefox } beszerzése
 banner-download-install-extension-headline = A { -brand-name-firefox }hoz készült { -brand-name-relay } kiegészítő beszerzése
@@ -683,6 +708,9 @@ banner-upgrade-loyalist-copy-2 = Védje meg a magánszféráját, miközben csat
 banner-upgrade-loyalist-cta = Szerezzen nagyobb védelmet
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Bevezető árajánlatunk hamarosan lejár.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást a bevezető havi árunkon.
 banner-offer-end-cta = Frissítés most
 # Variables:
 # $subdomain (url) - User-set subdomain
