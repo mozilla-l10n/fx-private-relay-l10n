@@ -351,6 +351,9 @@ premium-promo-pricing-free-price = 您目前的免費方案
 premium-promo-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
 premium-promo-pricing-offer-end-warning = 本檔促銷活動即將結束
 premium-promo-pricing-offer-end-cta = 立刻升級
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 
 ## The Premium waitlist page
 
@@ -891,6 +894,31 @@ modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的�
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 剩下 1 小時
+               *[other] 剩下 { $remaining_hours } 小時
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 剩下 1 天
+                [1] 剩下 1 天 1 小時
+               *[other] 剩下 1 天 { $remaining_hours } 小時
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] 剩下 { $remaining_days } 天
+                [1] 剩下 { $remaining_days } 天 1 小時
+               *[other] 剩下 { $remaining_days } 天 { $remaining_hours } 小時
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = 天
