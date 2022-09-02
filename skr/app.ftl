@@ -475,6 +475,8 @@ banner-label-data-notification-body-cta = ٻیا سِکھو
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
+# End of intro pricing countdown banner:
+banner-offer-end-headline = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -606,6 +608,7 @@ trackerreport-trackers-heading = ٹریکراں دا سراغ لڳیا
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = ٹریکر ڈومین
 trackerreport-trackers-count-heading = ٹریکراں دی تعداد
+trackerreport-trackers-none = ایں ای میل وچ کوئی ٹریکر کائنی لبھے۔
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
