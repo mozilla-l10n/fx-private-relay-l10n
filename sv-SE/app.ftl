@@ -151,6 +151,12 @@ whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort 
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
 whatsnew-feature-offer-countdown-heading = Vårt intropriserbjudande upphör snart!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt…
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt månatliga introduktionspris.
@@ -198,8 +204,11 @@ landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig a
 landing-hero-body-2 =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
     Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
-landing-offer-end-hero-heading = Vårt intropriserbjudande upphör snart!
+landing-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
 landing-offer-end-hero-cta = Uppgradera nu
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 
 ## How it works section
 
@@ -252,7 +261,11 @@ landing-pricing-waitlist-cta = Ställ dig i väntelistan
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
+landing-pricing-offer-end-warning = Denna kampanj går snart ut
 landing-pricing-offer-end-cta = Uppgradera nu
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 
 ## Use Cases
 
@@ -327,7 +340,14 @@ premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -bran
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till { -brand-name-relay-premium } för endast { $monthly_price } i månaden.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
 premium-promo-hero-cta = Uppgradera nu
+premium-promo-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 premium-promo-offer-end-hero-cta = Uppgradera nu
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
@@ -358,7 +378,11 @@ premium-promo-pricing-free-price = Din nuvarande gratisplan
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
+premium-promo-pricing-offer-end-warning = Denna kampanj går snart ut
 premium-promo-pricing-offer-end-cta = Uppgradera nu
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 
 ## The Premium waitlist page
 
@@ -682,6 +706,11 @@ banner-upgrade-loyalist-headline-2 = Skydda din integritet, rädda internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Skydda din integritet samtidigt som du går med i vårt uppdrag att bygga ett bättre internet, allt för { $monthly_price }
 banner-upgrade-loyalist-cta = Få mer skydd
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Vårt erbjudande till introduktionspris upphör snart!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt månatliga introduktionspris.
 banner-offer-end-cta = Uppgradera nu
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -804,6 +833,11 @@ multi-part-onboarding-premium-welcome-button-start = Kom igång
 multi-part-onboarding-premium-get-subdomain = Skaffa en anpassad underdomän
 multi-part-onboarding-reply-headline = Svara på dina mejl
 multi-part-onboarding-premium-welcome-description-2 = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda tillägget { -brand-name-relay } för att skapa dem när du behöver.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Med en anpassad underdomän kan du skapa alias utan att behöva generera dem i förväg.
+    Behöver du ett för att registrera dig för ett nyhetsbrev? Säg bara "läs@anpassadunderdomän.{ $mozmail }"
 multi-part-onboarding-premium-domain-cta-2 = Registrera din anpassade underdomän nu:
 multi-part-onboarding-premium-domain-button-skip-2 = Fortsätt, jag kommer att registrera min egen underdomän senare
 multi-part-onboarding-premium-extension-headline = Blockera, vidarebefordra och svara
@@ -965,6 +999,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } tar bort kopi
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Uppgradera till { $premium_link } för att få obegränsade e-postalias och en anpassad e-postunderdomän.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Vårt månatliga erbjudande till introduktionspris upphör. Uppgradera till { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek. Mer information finns i vår { $faq_link }.
 # Variables:
@@ -975,6 +1012,9 @@ forwarded-email-trackers-blocked-report = Läs mer
 forwarded-email-footer-2 = Sluta vidarebefordra e-post och hantera inställningar för alla alias här.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link } innan våra introduktionspriser upphör.
 
 ## Notifications component
 
