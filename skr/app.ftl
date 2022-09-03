@@ -340,6 +340,7 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = ہک ݙین٘ہ وچ �
 faq-question-acceptable-use-answer-b-html = سوہݨا، ٻئی ڄاݨکاری کیتے ساݙیاں <a href="{ $url }" { $attrs }>خدمت دیاں شرطاں</a> تے نظرثانی کرو۔
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
 faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘ویں پتہ لڳدے جو ایہ ای میل پروموشنل ہے یا کائناں؟
+faq-question-disable-trackerremoval-question = بھلا میں ای میل ٹریکر ہٹاوݨ روک سڳداں؟
 faq-question-trackerremoval-breakage-question = میݙیاں ای میلاں بھنیاں ترُٹیاں کیوں لڳدن؟
 
 ## Profile Page (Logged In)
