@@ -150,6 +150,7 @@ whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort 
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
+whatsnew-feature-offer-countdown-heading = Vårt intropriserbjudande upphör snart!
 whatsnew-feature-offer-countdown-cta = Uppgradera nu
 
 ## Bento Menu
@@ -244,6 +245,9 @@ landing-pricing-premium-feature-5 = Blockera reklammeddelanden
 landing-pricing-premium-feature-6 = Borttagning av e-postspårare
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
 landing-pricing-offer-end-cta = Uppgradera nu
 
 ## Use Cases
@@ -347,6 +351,9 @@ premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onli
 premium-promo-use-cases-gaming-heading = Spel
 premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
 premium-promo-pricing-free-price = Din nuvarande gratisplan
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
 premium-promo-pricing-offer-end-cta = Uppgradera nu
 
 ## The Premium waitlist page
