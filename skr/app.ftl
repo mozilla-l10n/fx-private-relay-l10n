@@ -610,6 +610,7 @@ multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے 
 
 trackerreport-title = { -brand-name-relay } ٹریکر ہٹاوݨ رپورٹ
 trackerreport-meta-from-heading = کنوں
+trackerreport-meta-receivedat-heading = وصول کرݨ آلا
 trackerreport-meta-count-heading = کلُ ٹریکر
 trackerreport-trackers-heading = ٹریکراں دا سراغ لڳیا
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
