@@ -151,6 +151,9 @@ whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort 
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
 whatsnew-feature-offer-countdown-heading = Vårt intropriserbjudande upphör snart!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt månatliga introduktionspris.
 whatsnew-feature-offer-countdown-cta = Uppgradera nu
 
 ## Bento Menu
@@ -195,6 +198,7 @@ landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig a
 landing-hero-body-2 =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
     Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
+landing-offer-end-hero-heading = Vårt intropriserbjudande upphör snart!
 landing-offer-end-hero-cta = Uppgradera nu
 
 ## How it works section
