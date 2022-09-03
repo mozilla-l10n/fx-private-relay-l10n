@@ -132,6 +132,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
 whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
+whatsnew-feature-offer-countdown-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 whatsnew-feature-offer-countdown-cta = ہݨ اپ گریڈ کرو
 
 ## Bento Menu
@@ -242,6 +243,7 @@ landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
