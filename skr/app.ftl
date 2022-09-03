@@ -203,6 +203,9 @@ landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں د
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
 landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
 landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 
@@ -416,6 +419,7 @@ profile-filter-category-option-promo-blocking-masks = مشہوریاں روکݨ 
 profile-filter-category-option-random-masks = رینڈم ماسک
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = کسٹم ماسک
+profile-indicator-tracker-removal-tooltip = حالیہ ای میل ٹریکر ہٹاوݨ
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
