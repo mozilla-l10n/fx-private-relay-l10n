@@ -175,6 +175,7 @@ whatsnew-feature-tracker-removal-snippet = Το { -brand-name-relay } μπορε
 # Deprecated
 whatsnew-feature-tracker-removal-description = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές.
 whatsnew-feature-tracker-removal-description-2 = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές. Ενεργοποιήστε το στις «Ρυθμίσεις».
+whatsnew-feature-offer-countdown-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
@@ -228,6 +229,7 @@ landing-hero-headline-2 = Προστατέψτε την πραγματική σ�
 landing-hero-body-2 =
     Οι μάσκες email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα μηνύματα στα πραγματικά σας εισερχόμενα. 
     Πλέον μπορείτε να λαμβάνετε μόνο τα μηνύματα που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
+landing-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 landing-offer-end-hero-cta = Αναβάθμιση τώρα
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
@@ -363,6 +365,7 @@ premium-promo-hero-headline = Προστατέψτε ευκολότερα τα �
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email. <b>Για περιορισμένο χρονικό διάστημα, μπορείτε να αναβαθμίσετε στο { -brand-name-relay-premium } με μόλις { $monthly_price } τον μήνα.</b>
 premium-promo-hero-cta = Αναβάθμιση τώρα
+premium-promo-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
@@ -706,6 +709,8 @@ banner-label-data-notification-cta = Μετάβαση στις ρυθμίσει�
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
 banner-upgrade-loyalist-cta = Περισσότερη προστασία
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
