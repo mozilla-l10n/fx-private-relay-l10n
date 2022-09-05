@@ -72,6 +72,9 @@ nav-settings = 设置
 nav-support = 帮助和支持
 nav-sign-out = 退出
 nav-contact = 联系我们
+nav-menu-mobile = 移动菜单
+fx-desktop-2 = { -brand-name-firefox } 桌面版
+fx-mobile-2 = { -brand-name-firefox } 移动版
 
 ## Footer
 
@@ -131,6 +134,15 @@ whatsnew-feature-alias-to-mask-snippet = { -brand-name-firefox-relay }，为邮�
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = { -brand-name-firefox-relay }，为邮箱披上“马甲”，诸多新特性轻松上手。
+whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已在瑞典推出
+whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已在芬兰推出
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
+whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
+whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
+whatsnew-feature-offer-countdown-cta = 立即升级
 
 ## Bento Menu
 
@@ -171,6 +183,8 @@ landing-hero-headline-2 = 保护你的真实邮箱地址，拒绝垃圾邮件侵
 landing-hero-body-2 =
     { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
     从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
+landing-offer-end-hero-heading = 优惠价即将结束！
+landing-offer-end-hero-cta = 立即升级
 
 ## How it works section
 
@@ -214,6 +228,8 @@ landing-pricing-premium-feature-4 = 回复转发的电子邮件
 landing-pricing-premium-feature-5 = 屏蔽营销邮件
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
 landing-pricing-waitlist-cta = 加入预约名单
+landing-pricing-offer-end-warning = 本促销活动即将结束
+landing-pricing-offer-end-cta = 立刻升級
 
 ## Use Cases
 
@@ -248,6 +264,11 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 
 ## Landing Reviews Section
 
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = 来源：addons.mozilla.org
+landing-reviews-show-next-button = 显示下一条评价
+landing-reviews-show-previous-button = 显示上一条评价
 
 ## Premium promo page
 
