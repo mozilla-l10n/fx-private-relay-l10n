@@ -210,6 +210,7 @@ landing-pricing-body-2 = 试用 { -brand-name-firefox-relay } 马甲邮箱保护
 landing-pricing-free-price = 免费
 landing-pricing-free-feature-1-2 = 最多 5 个马甲
 landing-pricing-free-feature-2 = 浏览器扩展
+landing-pricing-free-feature-3 = 移除邮件跟踪器
 landing-pricing-free-description = 试用 { -brand-name-firefox-relay } 马甲邮箱，保护您的收件箱。
 landing-pricing-free-cta = 下载 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -226,6 +227,7 @@ landing-pricing-premium-feature-3-2 = 专属邮箱子域名
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 回复转发的电子邮件
 landing-pricing-premium-feature-5 = 屏蔽营销邮件
+landing-pricing-premium-feature-6 = 移除邮件跟踪器
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
 landing-pricing-waitlist-cta = 加入预约名单
 landing-pricing-offer-end-warning = 本促销活动即将结束
@@ -246,8 +248,10 @@ landing-use-cases-gaming = 游戏
 landing-use-cases-gaming-body-2 = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用马甲邮箱，多一层身份伪装，多一份安全。
 landing-use-cases-shopping-hero-heading = 用马甲邮箱网购
 landing-use-cases-shopping-hero-content1 = 想要网购，但不熟悉或不是很信任商家？
+landing-use-cases-shopping-hero-content2 = 网购就用马甲邮箱。您可将订单邮件转发至真实邮箱，并随时按需关闭马甲的转发功能。
 landing-use-cases-on-the-go = 旅途中
 landing-use-cases-on-the-go-heading = 随时随地使用 { -brand-name-relay }
+landing-use-cases-on-the-go-lead = 随时随地创建自定义马甲邮箱！
 landing-use-cases-on-the-go-connect-heading = 随时随地连接
 landing-use-cases-on-the-go-connect-body = 可使用马甲邮箱登录公共 Wi-Fi，如在您最常去的咖啡厅登录上网时
 landing-use-cases-on-the-go-receipt-heading = 收取电子收据邮件
@@ -256,6 +260,8 @@ landing-use-cases-on-the-go-phone-heading = 在手机上使用
 landing-use-cases-on-the-go-phone-body = 无论您身居何处，只需几秒就可为想做的任何事情创建自定义马甲邮箱
 landing-use-cases-signups = 注册
 landing-use-cases-signups-hero-heading = 注册全无忧
+landing-use-cases-signups-hero-content1 = 想要开始新订阅、回复邀请或获得优惠促销代码，而不让垃圾邮件充斥您的收件箱吗？
+landing-use-cases-signups-hero-content2 = 您在下次注册账号时，可使用马甲邮箱而非真实邮箱，保护您的个人信息并更好地管理收件箱
 
 ## Landing FAQ Section
 
@@ -264,11 +270,17 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = 附加组件
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = 来源：addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = 最高五星（{ $review_count } 条评价）
 landing-reviews-show-next-button = 显示下一条评价
 landing-reviews-show-previous-button = 显示上一条评价
+landing-review-anonymous-user = { -brand-name-firefox } 用户 { $user_id }
+landing-review-user-four-review-list-1 = 上网时让您安心。
 
 ## Premium promo page
 
@@ -277,12 +289,15 @@ premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
 premium-promo-hero-cta = 立即升级
+premium-promo-offer-end-hero-heading = 优惠价即将结束！
+premium-promo-offer-end-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
 premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = 新功能！
 premium-promo-perks-perk-unlimited-headline-2 = 创建无限数量马甲
 premium-promo-perks-perk-unlimited-body-2 = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
 premium-promo-perks-perk-custom-domain-headline-2 = 选择您的自定义子域名
@@ -291,6 +306,8 @@ premium-promo-perks-perk-custom-domain-body-2 =
     想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
 premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
 premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
+premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
+premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
@@ -299,6 +316,7 @@ premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地�
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
 premium-promo-pricing-free-price = 您当前的免费方案
+premium-promo-pricing-offer-end-cta = 立即升级
 
 ## The Premium waitlist page
 
@@ -341,6 +359,11 @@ setting-label-collection-description-2 = 允许 { -brand-name-relay } 收集数�
 setting-label-collection-off-warning-2 = 此数据将允许我们将您的马甲与其所使用网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API 密钥
+# This is a label that appears on hover to copy the API key
+settings-button-copy = 点击复制
+setting-api-key-copied = 已复制！
 
 ## FAQ Page
 
@@ -470,12 +493,15 @@ profile-label-click-to-copy = 点击复制
 profile-label-copied = 已复制！
 profile-label-blocked = 拦截
 profile-label-forwarded = 转发
+profile-label-replies = 回复
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
 profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 若邮件（含附件）大于 { email-size-limit }，将不会向您转发。
 profile-forwarded-note-copy-v2 = 大于 { email-size-limit } 的电子邮件（含附件）将不会被转发。
+profile-stat-learn-more = 详细了解
+profile-stat-learn-more-close = 关闭
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
@@ -571,6 +597,10 @@ banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 banner-label-data-notification-header-v2 = 启用新功能
 banner-label-data-notification-body-cta = 详细了解
+banner-upgrade-loyalist-cta = 获得更多保护
+# End of intro pricing countdown banner:
+banner-offer-end-headline = 优惠价即将结束！
+banner-offer-end-cta = 立即升级
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
@@ -619,6 +649,7 @@ tips-footer-link-support-tooltip = 联系用户支持
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 提示 { $nr }
+tips-toast-button-expand-label = 详细了解
 
 ## Modal for generating a custom mask
 
@@ -705,6 +736,7 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 
 ## Report of trackers removed from an email
 
+trackerreport-trackers-explainer-heading = 关于邮件跟踪器
 
 ## Modals
 
@@ -745,6 +777,18 @@ modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自�
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = 天
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = 小时
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = 分
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = 秒
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -796,10 +840,14 @@ forwarded-email-header-premium-banner-2 = 升级为 { $premium_link }，即享�
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
+forwarded-email-trackers-blocked-report = 详细了解
 # This entire text is a link
 forwarded-email-footer-2 = 点此停止转发邮件或管理马甲设置。
 # This entire text is a link
 forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 { $premium_link }。
 
 ## Notifications component
 
