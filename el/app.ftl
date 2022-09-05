@@ -594,6 +594,8 @@ profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
 profile-label-replies = Απαντήσεις
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Διαγραμμένοι ιχνηλάτες
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
 profile-trackers-removed-tooltip-part2-2 = <b>Σημαντικό:</b> Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
@@ -609,6 +611,9 @@ profile-stat-learn-more-close = Κλείσιμο
 profile-stat-label-blocked = Αποκλεισμένα email
 profile-stat-label-forwarded = Προωθημένα email
 profile-stat-label-aliases-used-2 = Μάσκες email σε χρήση
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Διαγραμμένοι ιχνηλάτες
+profile-stat-label-trackers-learn-more-part1 = Η ενεργοποίηση της αφαίρεσης ιχνηλατών θα καταργήσει τους κοινούς ιχνηλάτες email από τα προωθημένα email σας.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
 profile-stat-label-trackers-learn-more-part2-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
