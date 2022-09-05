@@ -711,6 +711,11 @@ banner-label-data-notification-header = Έρχεται σύντομα στο { -
 banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = Προστατέψτε το απόρρητό σας, σώστε το διαδίκτυο
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = Προστατέψτε το απόρρητό σας ενώ συμμετέχετε στην αποστολή μας για τη δημιουργία ενός καλύτερου διαδικτύου· όλα αυτά με { $monthly_price }
 banner-upgrade-loyalist-cta = Περισσότερη προστασία
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Η προσφορά γνωριμίας μας λήγει σύντομα!
@@ -778,6 +783,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Εισαγάγετε πρόθε�
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = π.χ. «coffee»
 modal-custom-alias-picker-form-prefix-spaces-warning = Δεν επιτρέπονται κενά στις μάσκες email.
+modal-custom-alias-picker-form-prefix-invalid-warning = Οι μάσκες email μπορούν να περιέχουν μόνο πεζά γράμματα, αριθμούς και παύλες και δεν μπορούν να ξεκινούν ή να τελειώνουν με παύλα.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Οι μάσκες email μπορούν να περιέχουν μόνο πεζά γράμματα, αριθμούς, τελείες και παύλες και δεν μπορούν να ξεκινούν ή να τελειώνουν με τελεία ή παύλα.
 modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 modal-custom-alias-picker-creation-error-2 = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένης μάσκας email. Παρακαλώ δοκιμάστε ξανά ή στείλτε ένα email στη μάσκα για να δημιουργηθεί.
 
@@ -837,6 +844,11 @@ multi-part-onboarding-premium-welcome-button-start = Έναρξη
 multi-part-onboarding-premium-get-subdomain = Αποκτήστε έναν προσαρμοσμένο υποτομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 multi-part-onboarding-premium-welcome-description-2 = Χωρίς τον περιορισμό των πέντε μασκών: μπορείτε να έχετε όσες προσαρμοσμένες ή τυχαίες μάσκες χρειάζεστε. Στον υπολογιστή, μπορείτε να χρησιμοποιήσετε το πρόσθετο του { -brand-name-relay } για να τις δημιουργείτε εν κινήσει.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Με έναν προσαρμοσμένο υποτομέα, μπορείτε να αποκτήσετε μάσκες χωρίς να τις έχετε δημιουργήσει εκ των προτέρων. 
+    Θέλετε μία για εγγραφή σε κάποιο ενημερωτικό δελτίο; Χρησιμοποιήστε κάτι όπως το «deltio@prosarmosmenosupotomeas{ $mozmail }»
 multi-part-onboarding-premium-domain-cta-2 = Καταχωρήστε τον δικό σας υποτομέα τώρα:
 multi-part-onboarding-premium-domain-button-skip-2 = Συνέχεια, θα καταχωρήσω τον υποτομέα μου αργότερα
 multi-part-onboarding-premium-extension-headline = Φραγή, προώθηση και απάντηση
@@ -876,6 +888,7 @@ trackerreport-tracker-count =
         [one] 1 ιχνηλάτης
        *[other] { $count } ιχνηλάτες
     }
+trackerreport-confidentiality-notice = Οι πληροφορίες ιχνηλατών και η διεύθυνση αποστολέα που εμφανίζονται σε αυτές τις αναφορές δεν αποθηκεύονται από το { -brand-name-firefox-relay } και περιέχονται μόνο στα URL των αναφορών. Δεν αποθηκεύουμε τα email σας.
 trackerreport-removal-explainer-heading = Πώς λειτουργεί η αφαίρεση ιχνηλατών
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 # Deprecated
@@ -1018,6 +1031,9 @@ forwarded-email-header-cc-notice-2 = Το { -brand-name-relay-premium } αφαι
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Αναβαθμίστε στο { $premium_link } για να λάβετε απεριόριστες μάσκες email και έναν προσαρμοσμένο υποτομέα email.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Η μηνιαία μας τιμή γνωριμίας λήγει. Αναβαθμίστε στο { $premium_link }.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = Το { -brand-name-firefox-relay } υποστηρίζει προώθηση email (καθώς και συνημμένων) έως { email-size-limit }. Για να μάθετε περισσότερα, δείτε τις { $faq_link } μας.
