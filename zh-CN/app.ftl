@@ -62,6 +62,17 @@ nav-profile-contact = 联系我们
 nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
 
+## Mobile menu text
+
+menu-upgrade-button = 升级
+menu-toggle-open = 打开菜单
+menu-toggle-close = 关闭菜单
+nav-dashboard = 面板
+nav-settings = 设置
+nav-support = 帮助和支持
+nav-sign-out = 退出
+nav-contact = 联系我们
+
 ## Footer
 
 nav-footer-privacy = 隐私
@@ -234,6 +245,9 @@ landing-use-cases-signups-hero-heading = 注册全无忧
 
 landing-faq-headline = { -brand-name-firefox-relay } 的常见问题
 landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
+
+## Landing Reviews Section
+
 
 ## Premium promo page
 
@@ -580,6 +594,10 @@ tips-footer-link-feedback-label = 反馈
 tips-footer-link-feedback-tooltip = 提供反馈
 tips-footer-link-support-label = 用户支持
 tips-footer-link-support-tooltip = 联系用户支持
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = 提示 { $nr }
 
 ## Modal for generating a custom mask
 
@@ -649,9 +667,6 @@ multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-get-subdomain = 获取自定义子域名
 multi-part-onboarding-reply-headline = 回复邮件
 multi-part-onboarding-premium-welcome-description-2 = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 { -brand-name-relay } 附加组件随时创建马甲。
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customsubdomain{ $mozmail }”就好
 multi-part-onboarding-premium-domain-cta-2 = 立即注册您的自定义子域名：
 multi-part-onboarding-premium-domain-button-skip-2 = 继续，我以后再注册自定义子域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
@@ -666,6 +681,9 @@ multi-part-onboarding-premium-chrome-extension-button-download = 下载 { -brand
 multi-part-onboarding-premium-extension-button-skip = 继续，我之后再下载扩展
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
 multi-part-onboarding-premium-extension-button-dashboard = 前往面板
+
+## Report of trackers removed from an email
+
 
 ## Modals
 
@@ -704,12 +722,8 @@ modal-domain-register-success-2 = { $subdomain }  现在是您的专属邮箱子
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>  现在是您的专属邮箱子域名！
 modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自定义马甲邮箱！
 
-## The "Help & Tips" area at the bottom of the page
+## Countdown timer (e.g. to count down to pricing increases)
 
-# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
-# Variables
-#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
-tips-switcher-label = 提示 { $nr }
 
 ## Evergreen Survey (displayed on the profile page)
 
