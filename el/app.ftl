@@ -594,6 +594,8 @@ profile-label-copied = Αντιγράφτηκε!
 profile-label-blocked = Αποκλεισμένα
 profile-label-forwarded = Προωθημένα
 profile-label-replies = Απαντήσεις
+# Deprecated
+profile-trackers-removed-tooltip-part2 = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
 profile-trackers-removed-tooltip-part2-2 = <b>Σημαντικό:</b> Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
 profile-label-cancel = Ακύρωση
 profile-blocked-copy-2 = Το { -brand-name-firefox-relay } θα διαγράφει μηνύματα πριν φτάσουν στα εισερχόμενά σας όταν επιλέξετε τον αποκλεισμό για αυτήν τη μάσκα.
@@ -601,6 +603,7 @@ profile-forwarded-copy-2 = Το { -brand-name-firefox-relay } θα στέλνε�
 profile-forwarded-note = Σημείωση:
 profile-forwarded-note-copy = Τα email (μαζί με τα συνημμένα) άνω των { email-size-limit } δεν υποστηρίζονται προς το παρόν και δεν θα προωθούνται.
 profile-forwarded-note-copy-v2 = Τα email (μαζί με τα συνημμένα) μεγαλύτερα από { email-size-limit } δεν θα προωθούνται.
+profile-replies-tooltip = Μπορείτε να απαντάτε στα email που λαμβάνετε μέσω αυτής της μάσκας και το { -brand-name-firefox-relay } θα συνεχίσει να προστατεύει την πραγματική σας διεύθυνση email.
 profile-stat-learn-more = Μάθετε περισσότερα
 profile-stat-learn-more-close = Κλείσιμο
 profile-stat-label-blocked = Αποκλεισμένα email
@@ -930,12 +933,43 @@ modal-domain-register-success-copy-2 = Τώρα μπορείτε να δημιο
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] Απομένει 1 ώρα
+               *[other] Απομένουν { $remaining_hours } ώρες
+            }
+        [1]
+            { $remaining_hours ->
+                [0] Απομένει 1 ημέρα
+                [1] Απομένει 1 ημέρα και 1 ώρα
+               *[other] Απομένει 1 ημέρα και { $remaining_hours } ώρες
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] Απομένουν { $remaining_days } ημέρες
+                [1] Απομένουν { $remaining_days } ημέρες και 1 ώρα
+               *[other] Απομένουν { $remaining_days } ημέρες και { $remaining_hours } ώρες
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Ημέρες
 # This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-hours = Ώρες
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Λεπ.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Δευτ.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -995,6 +1029,9 @@ forwarded-email-trackers-blocked-report = Μάθετε περισσότερα
 forwarded-email-footer-2 = Διακόψτε την προώθηση email και διαχειριστείτε τις ρυθμίσεις για όλες τις μάσκες εδώ.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Αναβάθμιση στο { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση στο { $premium_link } πριν λήξει η τιμή γνωριμίας μας.
 
 ## Notifications component
 
