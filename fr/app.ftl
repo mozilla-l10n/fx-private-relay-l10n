@@ -155,6 +155,15 @@ whatsnew-feature-tracker-removal-snippet = Désormais { -brand-name-relay } peut
 whatsnew-feature-tracker-removal-description = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs.
 whatsnew-feature-tracker-removal-description-2 = Désormais { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux annonceurs. Activez l’option depuis la section « Paramètres ».
 whatsnew-feature-offer-countdown-heading = Notre offre tarifaire de lancement se termine bientôt !
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez d’un nombre illimité d’alias de…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez d’un nombre illimité d’alias de messagerie à un prix promotionnel pour l’arrivée du paiement mensuel.
 whatsnew-feature-offer-countdown-cta = Mettre à niveau maintenant
 
 ## Bento Menu
@@ -248,6 +257,7 @@ landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
 landing-pricing-premium-feature-6 = Suppression des traqueurs dans les e-mails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
+landing-pricing-offer-end-warning = Cette promotion se termine bientôt
 landing-pricing-offer-end-cta = Mettre à niveau maintenant
 
 ## Use Cases
