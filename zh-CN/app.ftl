@@ -308,6 +308,7 @@ premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
 premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
 premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
 premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
+premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
@@ -316,6 +317,7 @@ premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地�
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
 premium-promo-pricing-free-price = 您当前的免费方案
+premium-promo-pricing-offer-end-warning = 本促销活动即将结束
 premium-promo-pricing-offer-end-cta = 立即升级
 
 ## The Premium waitlist page
@@ -364,6 +366,7 @@ setting-label-api-key = API 密钥
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 点击复制
 setting-api-key-copied = 已复制！
+setting-tracker-removal-heading = 移除邮件跟踪器
 
 ## FAQ Page
 
@@ -441,6 +444,7 @@ faq-question-promotional-email-blocking-question = 营销邮件屏蔽是啥？
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 订阅者可以启用营销邮件屏蔽功能。此功能将向您转发消费收据、密码重置和用户确认等重要邮件，并同时屏蔽营销邮件。虽然几率不大，但重要邮件仍有可能被屏蔽，因此我们建议您不要在重要的服务（例如银行）使用此功能。若邮件被屏蔽，将无法恢复。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 faq-question-detect-promotional-answer = 许多邮件发送时包含“头（header）”元数据，以表明其来自基于列表的自动化工具。{ -brand-name-firefox-relay } 能够检测到此头数据，因此可以进行屏蔽。
+faq-question-disable-trackerremoval-question = 我可以停止移除邮件跟踪器吗？
 
 ## Profile Page (Logged In)
 
