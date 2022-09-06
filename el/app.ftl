@@ -364,6 +364,9 @@ premium-promo-hero-headline = Προστατέψτε ευκολότερα τα �
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email. <b>Για περιορισμένο χρονικό διάστημα, μπορείτε να αναβαθμίσετε στο { -brand-name-relay-premium } με μόλις { $monthly_price } τον μήνα.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email.
 premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
@@ -541,6 +544,9 @@ faq-question-disable-trackerremoval-answer = Ναι. Εάν αντιμετωπί
 faq-question-bulk-trackerremoval-question = Μπορώ να αφαιρέσω ιχνηλάτες μόνο σε ορισμένες από τις μάσκες email μου;
 faq-question-bulk-trackerremoval-answer = Μπορείτε να ενεργοποιήσετε την αφαίρεση ιχνηλατών μόνο σε επίπεδο λογαριασμού — είτε θα καταργεί τους ιχνηλάτες σε όλα τα email σας είτε σε κανένα από αυτά.
 faq-question-trackerremoval-breakage-question = Γιατί τα email μου δεν προβάλλονται σωστά;
+# Deprecated
+faq-question-trackerremoval-breakage-answer = Μερικές φορές, η αφαίρεση των ιχνηλατών ενδέχεται να προκαλέσει εσφαλμένη εμφάνιση του email σας, επειδή οι ιχνηλάτες συχνά περιέχονται σε εικόνες. Όταν αφαιρεθεί ο ιχνηλάτης, το email εμφανίζεται με εσφαλμένη μορφοποίηση επειδή λείπουν οι εικόνες. Αυτό δεν μπορεί να διορθωθεί για τα email που έχετε ήδη λάβει. Εάν αυτό εμποδίζει τη σωστή ανάγνωση των email σας, απενεργοποιήστε την αφαίρεση των ιχνηλατών.
+faq-question-trackerremoval-breakage-answer-2 = Μερικές φορές, η αφαίρεση των ιχνηλατών ενδέχεται να προκαλέσει εσφαλμένη εμφάνιση του email σας, επειδή οι ιχνηλάτες συχνά περιέχονται σε εικόνες και συνδέσμους. Όταν αφαιρεθεί ο ιχνηλάτης, το email εμφανίζεται με εσφαλμένη μορφοποίηση επειδή λείπουν οι εικόνες. Αυτό δεν μπορεί να διορθωθεί για τα email που έχετε ήδη λάβει. Εάν αυτό εμποδίζει τη σωστή ανάγνωση των email σας, απενεργοποιήστε την αφαίρεση των ιχνηλατών.
 
 ## Profile Page (Logged In)
 
@@ -896,6 +902,8 @@ trackerreport-tracker-count =
 trackerreport-confidentiality-notice = Οι πληροφορίες ιχνηλατών και η διεύθυνση αποστολέα που εμφανίζονται σε αυτές τις αναφορές δεν αποθηκεύονται από το { -brand-name-firefox-relay } και περιέχονται μόνο στα URL των αναφορών. Δεν αποθηκεύουμε τα email σας.
 trackerreport-removal-explainer-heading = Πώς λειτουργεί η αφαίρεση ιχνηλατών
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
+trackerreport-trackers-explainer-content-part1 = Η καταγραφή email είναι ένα κοινό εργαλείο παρακολούθησης και διαφήμισης που έχει καταλάβει πολλά εισερχόμενα. Αυτοί οι ιχνηλάτες μπορούν να χρησιμοποιηθούν για την καλύτερη κατανόηση της συμπεριφοράς σας στο διαδίκτυο, των ενδιαφερόντων σας και της δραστηριότητάς σας στα email.
+trackerreport-trackers-explainer-content-part2 = Μια εταιρεία ή ένας οργανισμός θα ενσωματώσει έναν ιχνηλάτη στα email που σας στέλνει, συνήθως εντός μιας εικόνας ή ενός συνδέσμου. Όταν ανοίξετε το email, ο κώδικας εντός του ιχνηλάτη στέλνει δεδομένα στην εταιρεία.
 # Deprecated
 trackerreport-breakage-warning = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες, οι οποίες ενδέχεται να μην φορτωθούν εάν περιέχουν ιχνηλάτη.
 trackerreport-breakage-warning-2 = Σημαντικό: Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους. Εάν αυτό συμβεί στα email σας, δεν υπάρχει τρόπος επιδιόρθωσης ή ανάκτησης.
