@@ -938,6 +938,31 @@ modal-domain-register-success-copy-2 = Nu kan du skapa obegränsat antal anpassa
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 timme kvar
+               *[annat] { $remaining_hours } timmar kvar
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 1 dag kvar
+                [1] 1 dag och 1 timme kvar
+               *[annat] 1 dag och { $remaining_hours } timmar kvar
+            }
+       *[annat]
+            { $remaining_hours ->
+                [0] { $remaining_days } dagar kvar
+                [1] { $remaining_days } dagar och 1 timme kvar
+               *[annat] { $remaining_days } dagar och { $remaining_hours } timmar kvar
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Dagar
