@@ -355,6 +355,7 @@ landing-review-user-one-review = Εκτιμώ πολύ την ομάδα της 
 landing-review-user-two-review = Απλό εργαλείο για να ξεφορτωθείτε ή να αποφύγετε τα ανεπιθύμητα μηνύματα στο email σας.
 landing-review-user-three-review = Λατρεύω αυτήν την επέκταση! Πολύ απλή, αλλά ισχυρή και η ενσωμάτωση με το πρόγραμμα περιήγησης είναι απίθανη.
 landing-review-user-four-review-list-1 = Χαρίζει ηρεμία κατά την περιήγηση στο διαδίκτυο.
+landing-review-user-four-review-list-2 = Προστατεύει την ταυτότητα του χρήστη από ιχνηλάτες με τη δημιουργία ψευδωνύμων όταν ο χρήστης δεν θέλει να κοινοποιήσει την πραγματική του διεύθυνση email για διάφορους λόγους.
 landing-review-user-four-review-list-3 = Τα δεδομένα εισερχόμενων email είναι ασφαλή στα χέρια του { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
 
@@ -390,6 +391,7 @@ premium-promo-perks-perk-dashboard-body-2 = Διαχειριστείτε όλε�
 premium-promo-perks-perk-block-promotionals-headline = Φραγή διαφημιστικών email
 premium-promo-perks-perk-block-promotionals-body = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
 premium-promo-perks-perk-tracker-blocking-headline = Αφαίρεση ιχνηλατών email
+premium-promo-perks-perk-tracker-blocking-body = Το { -brand-name-relay } σάς βοηθά πλέον να διακόπτετε την καταγραφή email — οι μάσκες email σας θα αφαιρέσουν τους κοινούς ιχνηλάτες email από τα προωθημένα email, βοηθώντας σας να παραμείνετε αόρατοι σε ιχνηλάτες και διαφημιστές.
 premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσκες email του { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
 premium-promo-use-cases-shopping-body-2 = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε προσαρμοσμένες μάσκες email, όπως το «prosfores@otomeasmou.mozmail.com».
@@ -602,6 +604,7 @@ profile-label-forwarded = Προωθημένα
 profile-label-replies = Απαντήσεις
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Διαγραμμένοι ιχνηλάτες
+profile-trackers-removed-tooltip-part1 = Η ενεργοποίηση της αφαίρεσης ιχνηλατών θα καταργήσει τους κοινούς ιχνηλάτες email από τα προωθημένα email σας.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Σημαντικό: Μερικές φορές, η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες.
 profile-trackers-removed-tooltip-part2-2 = <b>Σημαντικό:</b> Η αφαίρεση των ιχνηλατών μπορεί να εμποδίσει τη σωστή εμφάνιση των email σας, επειδή οι ιχνηλάτες συχνά βρίσκονται μέσα σε εικόνες και συνδέσμους.
@@ -879,6 +882,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στ
 
 trackerreport-title = Αναφορά αφαίρεσης ιχνηλατών { -brand-name-relay }
 trackerreport-meta-from-heading = Από
+trackerreport-meta-receivedat-heading = Ελήφθη από
 trackerreport-meta-count-heading = Σύνολο ιχνηλατών
 trackerreport-trackers-heading = Ανιχνευμένοι ιχνηλάτες
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -901,6 +905,7 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = Οι πληροφορίες ιχνηλατών και η διεύθυνση αποστολέα που εμφανίζονται σε αυτές τις αναφορές δεν αποθηκεύονται από το { -brand-name-firefox-relay } και περιέχονται μόνο στα URL των αναφορών. Δεν αποθηκεύουμε τα email σας.
 trackerreport-removal-explainer-heading = Πώς λειτουργεί η αφαίρεση ιχνηλατών
+trackerreport-removal-explainer-content = Το { -brand-name-firefox-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες από email που προωθούνται μέσω των μασκών email σας. Θα εξακολουθείτε να λαμβάνετε τα email σας, αλλά οι ιχνηλάτες στα προωθημένα email σας θα καταργηθούν, ώστε να μπορείτε να λαμβάνετε τα email σας χωρίς καταγραφή. Για να ενεργοποιήσετε την αφαίρεση ιχνηλατών σε όλες τις μάσκες σας ταυτόχρονα, ενεργοποιήστε την αφαίρεση ιχνηλατών στις ρυθμίσεις και όχι μεμονωμένα για κάθε μάσκα.
 trackerreport-trackers-explainer-heading = Σχετικά με τους ιχνηλάτες email
 trackerreport-trackers-explainer-content-part1 = Η καταγραφή email είναι ένα κοινό εργαλείο παρακολούθησης και διαφήμισης που έχει καταλάβει πολλά εισερχόμενα. Αυτοί οι ιχνηλάτες μπορούν να χρησιμοποιηθούν για την καλύτερη κατανόηση της συμπεριφοράς σας στο διαδίκτυο, των ενδιαφερόντων σας και της δραστηριότητάς σας στα email.
 trackerreport-trackers-explainer-content-part2 = Μια εταιρεία ή ένας οργανισμός θα ενσωματώσει έναν ιχνηλάτη στα email που σας στέλνει, συνήθως εντός μιας εικόνας ή ενός συνδέσμου. Όταν ανοίξετε το email, ο κώδικας εντός του ιχνηλάτη στέλνει δεδομένα στην εταιρεία.
