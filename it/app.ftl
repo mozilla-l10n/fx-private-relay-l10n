@@ -150,6 +150,15 @@ whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } può rimuov
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti. Attiva l’opzione in “Impostazioni”.
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato di alias al nostro prezzo di lancio mensile.
 whatsnew-feature-offer-countdown-cta = Aggiorna adesso
 
 ## Bento Menu
@@ -193,6 +202,9 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 landing-hero-headline-2 = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
 landing-hero-body-2 = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
 landing-offer-end-hero-cta = Aggiorna adesso
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta la massima protezione per la posta elettronica al nostro prezzo di lancio mensile.
 
 ## How it works section
 
@@ -238,8 +250,14 @@ landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
 landing-pricing-premium-feature-6 = Rimozione elementi traccianti dalle email
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } non è attualmente disponibile nel tuo Paese. Puoi fornirci il tuo indirizzo email per ricevere una notifica non appena sarà disponibile.
 landing-pricing-waitlist-cta = Iscriviti alla lista d’attesa
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Prezzo di lancio: alias illimitati per { $monthly_price } al mese
 landing-pricing-offer-end-warning = Questa promozione sta per scadere
 landing-pricing-offer-end-cta = Aggiorna adesso
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta la massima protezione per la posta elettronica al nostro prezzo di lancio mensile.
 
 ## Use Cases
 
@@ -318,6 +336,9 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottie
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale.
 premium-promo-hero-cta = Aggiorna adesso
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta la massima protezione per la posta elettronica al nostro prezzo di lancio mensile.
 premium-promo-offer-end-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
@@ -345,8 +366,14 @@ premium-promo-use-cases-social-networks-body-2 = Vuoi proteggere meglio la tua i
 premium-promo-use-cases-gaming-heading = Giochi
 premium-promo-use-cases-gaming-body-2 = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 premium-promo-pricing-free-price = Il tuo attuale piano gratuito
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Prezzo di lancio: alias illimitati per { $monthly_price } al mese
 premium-promo-pricing-offer-end-warning = Questa promozione sta per scadere
 premium-promo-pricing-offer-end-cta = Aggiorna adesso
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta la massima protezione per la posta elettronica al nostro prezzo di lancio mensile.
 
 ## The Premium waitlist page
 
@@ -666,6 +693,9 @@ banner-upgrade-loyalist-headline-2 = Proteggi la tua privacy, proteggi Internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteggi la tua privacy e allo stesso tempo contribuisci alla realizzazione di un Internet migliore, il tutto per { $monthly_price }
 banner-upgrade-loyalist-cta = Ottieni una maggiore protezione
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato di alias al nostro prezzo di lancio mensile.
 banner-offer-end-cta = Aggiorna adesso
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -990,6 +1020,9 @@ forwarded-email-trackers-blocked-report = Ulteriori informazioni
 forwarded-email-footer-2 = Interrompi l’inoltro delle email e gestisci le impostazioni per tutti gli alias.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Aggiorna a { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Aggiorna a { $premium_link } prima che scada il nostro prezzo di lancio.
 
 ## Notifications component
 
