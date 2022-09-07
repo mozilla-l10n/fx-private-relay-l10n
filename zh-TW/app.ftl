@@ -199,7 +199,6 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 landing-hero-headline-2 = 保護您實際的電子郵件地址，並且自行控管收件匣
 landing-hero-body-2 = { -brand-name-firefox-relay } 轉寄信箱會自動轉寄郵件到您實際的電子郵件信箱，並保護該信箱使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可開始使用。
 landing-offer-end-hero-heading = 上市優惠價即將結束！
-landing-offer-end-hero-cta = { "" }
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
