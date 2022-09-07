@@ -150,6 +150,7 @@ whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } può rimuov
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti. Attiva l’opzione in “Impostazioni”.
+whatsnew-feature-offer-countdown-cta = Aggiorna adesso
 
 ## Bento Menu
 
@@ -191,6 +192,7 @@ hero-image-copy-control-html = Finalmente <em>hai il controllo</em> di ciò che 
 
 landing-hero-headline-2 = Proteggi il tuo indirizzo email reale per un maggior controllo della tua casella di posta
 landing-hero-body-2 = Gli alias { -brand-name-firefox-relay } proteggono il tuo indirizzo email reale, impedendo che sia visibile pubblicamente, e inoltrano le email in modo automatico alla tua casella di posta. Ora puoi finalmente ricevere solo le email che desideri. Registrati con il tuo { -brand-name-firefox-account } per cominciare.
+landing-offer-end-hero-cta = Aggiorna adesso
 
 ## How it works section
 
@@ -236,6 +238,8 @@ landing-pricing-premium-feature-5 = Blocco delle email pubblicitarie
 landing-pricing-premium-feature-6 = Rimozione elementi traccianti dalle email
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } non è attualmente disponibile nel tuo Paese. Puoi fornirci il tuo indirizzo email per ricevere una notifica non appena sarà disponibile.
 landing-pricing-waitlist-cta = Iscriviti alla lista d’attesa
+landing-pricing-offer-end-warning = Questa promozione sta per scadere
+landing-pricing-offer-end-cta = Aggiorna adesso
 
 ## Use Cases
 
@@ -310,7 +314,11 @@ premium-promo-hero-headline = Proteggi la tua casella di posta più facilmente c
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale. <b>Per un periodo di tempo limitato, puoi eseguire l’aggiornamento a { -brand-name-relay-premium } per soli { $monthly_price } al mese.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium } ottieni un numero illimitato di alias email personalizzati, con cui potrai inoltrare solo i messaggi che desideri al tuo indirizzo email reale.
 premium-promo-hero-cta = Aggiorna adesso
+premium-promo-offer-end-hero-cta = Aggiorna adesso
 premium-promo-availability-warning = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } è attualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malesia, Paesi Bassi, Nuova Zelanda, Singapore, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } è disponibile in Austria, Belgio, Canada, Cipro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Portogallo, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
@@ -337,6 +345,8 @@ premium-promo-use-cases-social-networks-body-2 = Vuoi proteggere meglio la tua i
 premium-promo-use-cases-gaming-heading = Giochi
 premium-promo-use-cases-gaming-body-2 = Sei preoccupato che altri giocatori o troll scoprano chi sei tramite il tuo “gamertag” e il tuo indirizzo email? Utilizza un alias come “giochionline@miodominio.mozmail.com” per aggiungere un ulteriore livello di protezione tra la tua identità e i giochi a cui ti piace giocare online.
 premium-promo-pricing-free-price = Il tuo attuale piano gratuito
+premium-promo-pricing-offer-end-warning = Questa promozione sta per scadere
+premium-promo-pricing-offer-end-cta = Aggiorna adesso
 
 ## The Premium waitlist page
 
@@ -656,6 +666,7 @@ banner-upgrade-loyalist-headline-2 = Proteggi la tua privacy, proteggi Internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteggi la tua privacy e allo stesso tempo contribuisci alla realizzazione di un Internet migliore, il tutto per { $monthly_price }
 banner-upgrade-loyalist-cta = Ottieni una maggiore protezione
+banner-offer-end-cta = Aggiorna adesso
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
@@ -778,10 +789,10 @@ multi-part-onboarding-premium-get-subdomain = Ottenere un sottodominio personali
 multi-part-onboarding-reply-headline = Rispondere alle tue email
 multi-part-onboarding-premium-welcome-description-2 = Niente più limite di cinque alias: ora puoi generare tutti gli alias personalizzati o casuali di cui hai bisogno. Su computer desktop puoi utilizzare l’estensione { -brand-name-relay } per crearli sul momento.
 # Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Con un sottodominio personalizzato puoi creare alias senza doverli generare in anticipo. 
-    Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio{ $mozmail }”
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Con un sottodominio personalizzato puoi creare alias senza doverli generare in anticipo.
+    Te ne serve uno per l’iscrizione a una newsletter? Utilizza semplicemente “lettura@miodominio.{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Registra ora il tuo sottodominio personalizzato:
 multi-part-onboarding-premium-domain-button-skip-2 = Continua, registrerò il mio sottodominio personalizzato più tardi
 multi-part-onboarding-premium-extension-headline = Blocca, inoltra e rispondi
@@ -876,6 +887,46 @@ modal-domain-register-success-2 = { $subdomain } è ora il tuo sottodominio di p
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> è ora il tuo sottodominio di posta elettronica.
 modal-domain-register-success-copy-2 = Ora puoi creare illimitati alias personalizzati!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 ora rimanente
+               *[other] { $remaining_hours } ore rimanenti
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 1 giorno rimanente
+                [1] 1 giorno e 1 ora rimanenti
+               *[other] 1 giorno e { $remaining_hours } ore rimanenti
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] { $remaining_days } giorni rimanenti
+                [1] { $remaining_days } giorni e 1 ora rimanenti
+               *[other] { $remaining_days } giorni e { $remaining_hours } ore rimanenti
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Giorni
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Ore
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sec.
 
 ## Evergreen Survey (displayed on the profile page)
 
