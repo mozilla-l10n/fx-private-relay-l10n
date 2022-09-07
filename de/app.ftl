@@ -689,7 +689,7 @@ banner-choose-subdomain-input-placeholder-3 = Subdomain suchen
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-2-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong> erhalten Sie noch mehr Masken.
-banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihren unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
+banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
