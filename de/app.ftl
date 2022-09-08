@@ -221,7 +221,7 @@ landing-how-it-works-step-2-body =
     Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach deiner E-Mail-Adresse fragen.
     Wähle es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
 landing-how-it-works-step-2-body-2 =
-    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites Ihrer E-Mail-Adresse fragen.
+    Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach Ihrer E-Mail-Adresse fragen.
     Wählen Sie es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
 landing-how-it-works-step-3-body-2 =
     Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über die von Ihnen erstellten E-Mail-Masken zu behalten.
