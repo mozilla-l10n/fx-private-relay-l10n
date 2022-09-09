@@ -257,6 +257,9 @@ landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
 landing-pricing-premium-feature-6 = Suppression des traqueurs dans les e-mails
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
 landing-pricing-offer-end-warning = Cette promotion se termine bientôt
 landing-pricing-offer-end-cta = Mettre à niveau maintenant
 
@@ -333,6 +336,9 @@ premium-promo-hero-headline = Simplifiez la protection de votre boîte de récep
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à { -brand-name-relay-premium } pour seulement { $monthly_price } par mois.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui ne transmettent que les e-mails que vous désirez à votre véritable adresse e-mail.
 premium-promo-hero-cta = Mettre à niveau maintenant
 premium-promo-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
 premium-promo-offer-end-hero-cta = Mettre à niveau maintenant
@@ -361,6 +367,7 @@ premium-promo-use-cases-social-networks-body-2 = Vous voulez une meilleure prote
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body-2 = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse électronique ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
 premium-promo-pricing-free-price = Votre forfait gratuit actuel
+premium-promo-pricing-offer-end-warning = Cette promotion se termine bientôt
 premium-promo-pricing-offer-end-cta = Mettre à niveau maintenant
 
 ## The Premium waitlist page
