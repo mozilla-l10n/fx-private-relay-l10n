@@ -935,6 +935,43 @@ modal-domain-register-success-copy-2 = Sekarang Anda dapat membuat topeng email 
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 jam lagi
+               *[other] { $remaining_hours } jam lagi
+            }
+        [1]
+            { $remaining_hours ->
+                [0] 1 hari lagi
+                [1] 1 hari dan 1 jam lagi
+               *[other] 1 hari dan { $remaining_hours } jam lagi
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] { $remaining_days } hari lagi
+                [1] { $remaining_days } hari dan 1 jam lagi
+               *[other] { $remaining_days } hari dan { $remaining_hours } jam lagi
+            }
+    }
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Hari
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Jam
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Mnt.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Dtk.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -984,12 +1021,22 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } menghapus CC 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Tingkatkan ke { $premium_link } untuk mendapatkan topeng tak terhingga dan subdomain surel kustom.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Penawaran harga bulanan intro kami akan berakhir. Tingkatkan versi ke { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } pelacak surel dihapus
+forwarded-email-trackers-blocked-report = Pelajari lebih lanjut
 # This entire text is a link
 forwarded-email-footer-2 = Hentikan penerusan surel dan kelola setelan untuk semua topeng di sini.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Beralih ke { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } sebelum harga perkenalan kami berakhir.
 
 ## Notifications component
 
