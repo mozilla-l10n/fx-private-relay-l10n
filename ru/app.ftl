@@ -802,12 +802,6 @@ multi-part-onboarding-premium-welcome-button-start = Приступим
 multi-part-onboarding-premium-get-subdomain = Получите собственный поддомен
 multi-part-onboarding-reply-headline = Отвечайте на электронные письма
 multi-part-onboarding-premium-welcome-description-2 = Больше никакого ограничения в пять псевдонимов: теперь вы можете создавать сколько угодно собственных или случайных псевдонимов. На компьютере вы можете использовать дополнение { -brand-name-relay }, чтобы создавать их на ходу.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    С собственным поддоменом вы можете использовать псевдонимы, не создавая их
-    заранее.
-    Нужен псевдоним для подписки на новостную рассылку? Просто воспользуйтесь «read@customsubdomain{ $mozmail }»
 multi-part-onboarding-premium-domain-cta-2 = Зарегистрируйте собственный поддомен сейчас:
 multi-part-onboarding-premium-domain-button-skip-2 = Продолжить, я зарегистрирую собственный поддомен позже
 multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
@@ -904,6 +898,21 @@ modal-domain-register-success-2 = Теперь { $subdomain } — ваш под�
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Теперь <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> — ваш поддомен электронной почты!
 modal-domain-register-success-copy-2 = Теперь вы можете создавать неограниченное число собственных псевдонимов электронной почты!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Дней
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Часов
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Мин.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Сек.
 
 ## Evergreen Survey (displayed on the profile page)
 
