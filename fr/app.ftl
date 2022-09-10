@@ -208,6 +208,9 @@ landing-hero-headline-2 = Protégez votre véritable adresse e-mail pour garder 
 landing-hero-body-2 = Les alias de messagerie de { -brand-name-firefox-relay } protègent votre véritable adresse d’un affichage public par un transfert automatique des messages vers votre boîte de réception. Désormais, vous pouvez recevoir uniquement les e-mails que vous souhaitez dans votre boîte de réception. Inscrivez-vous avec votre { -brand-name-firefox-account } pour commencer.
 landing-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
 landing-offer-end-hero-cta = Mettre à niveau maintenant
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
 
 ## How it works section
 
@@ -262,6 +265,9 @@ landing-pricing-waitlist-cta = Rejoindre la liste d’attente
 landing-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
 landing-pricing-offer-end-warning = Cette promotion se termine bientôt
 landing-pricing-offer-end-cta = Mettre à niveau maintenant
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
 
 ## Use Cases
 
@@ -341,6 +347,9 @@ premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vou
 premium-promo-hero-body-3 = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui ne transmettent que les e-mails que vous désirez à votre véritable adresse e-mail.
 premium-promo-hero-cta = Mettre à niveau maintenant
 premium-promo-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
 premium-promo-offer-end-hero-cta = Mettre à niveau maintenant
 premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en Finlande, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour, en Suède et en Suisse.
@@ -367,8 +376,14 @@ premium-promo-use-cases-social-networks-body-2 = Vous voulez une meilleure prote
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body-2 = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse électronique ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
 premium-promo-pricing-free-price = Votre forfait gratuit actuel
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
 premium-promo-pricing-offer-end-warning = Cette promotion se termine bientôt
 premium-promo-pricing-offer-end-cta = Mettre à niveau maintenant
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
 
 ## The Premium waitlist page
 
@@ -690,6 +705,9 @@ banner-upgrade-loyalist-copy-2 = Protégez votre vie privée tout en rejoignant 
 banner-upgrade-loyalist-cta = Obtenez encore plus de protection
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Notre offre tarifaire de lancement se termine bientôt !
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez d’un nombre illimité d’alias de messagerie à un prix promotionnel pour l’arrivée du paiement mensuel.
 banner-offer-end-cta = Mettre à niveau maintenant
 # Variables:
 # $subdomain (url) - User-set subdomain
@@ -970,6 +988,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } supprime les 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Passez à { $premium_link } pour obtenir un nombre illimité d’alias de messagerie et un sous-domaine personnalisé.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Notre prix promotionnel pour l’arrivée du paiement mensuel expire. Passez à { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } prend en charge le transfert d’e-mail (y compris les pièces jointes) pour les messages jusqu’à { email-size-limit }. Pour en savoir plus, consultez notre { $faq_link }.
 # Variables:
@@ -980,6 +1001,9 @@ forwarded-email-trackers-blocked-report = En savoir plus
 forwarded-email-footer-2 = Arrêter le transfert d’e-mails et gérer les paramètres de tous les alias ici.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Passez à { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Passez à { $premium_link } avant que notre prix de lancement n’expire.
 
 ## Notifications component
 
