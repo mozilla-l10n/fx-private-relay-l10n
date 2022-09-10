@@ -876,7 +876,10 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = Les informations sur les traqueurs et les adresses d’expéditeur affichées dans ce rapport ne sont pas enregistrées par { -brand-name-firefox-relay } et sont uniquement contenues dans les URL de ce rapport. Nous n’enregistrons pas vos e-mails.
 trackerreport-removal-explainer-heading = Fonctionnement de la suppression des traqueurs
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie. Vous continuerez à recevoir vos e-mails, mais les traqueurs seront supprimés des e-mails qui vous sont transférés, vous pourrez donc recevoir vos e-mails sans être pisté·e. Pour activer la suppression des traqueurs sur tous vos alias à la fois, activez la suppression des traqueurs dans les paramètres plutôt qu’individuellement pour chaque alias.
 trackerreport-trackers-explainer-heading = À propos des traqueurs dans les e-mails
+trackerreport-trackers-explainer-content-part1 = Le pistage des e-mails est un outil de surveillance et de publicité courant qui a envahi de nombreuses boîtes de réception. Ces traqueurs peuvent être utilisés pour en savoir plus sur votre comportement en ligne, vos intérêts et votre activité de messagerie.
+trackerreport-trackers-explainer-content-part2 = Une entreprise ou une organisation intègre un traqueur dans des e-mails qui vous sont envoyés, habituellement caché dans une image ou un lien. Lorsque l’e-mail est ouvert, le code du traqueur renvoie les données à la société.
 # Deprecated
 trackerreport-breakage-warning = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images. Si des images contiennent des traqueurs, elles ne se chargeront pas.
 trackerreport-breakage-warning-2 = Important : quelquefois la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans des images et des liens. Aucun e-mail reçu de la sorte ne peut être corrigé ou restauré.
