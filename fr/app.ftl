@@ -368,6 +368,7 @@ premium-promo-perks-perk-dashboard-body-2 = Gérez tous vos alias dans le tablea
 premium-promo-perks-perk-block-promotionals-headline = Bloquer les e-mails promotionnels
 premium-promo-perks-perk-block-promotionals-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
 premium-promo-perks-perk-tracker-blocking-headline = Supprimer les traqueurs des e-mails
+premium-promo-perks-perk-tracker-blocking-body = Désormais, { -brand-name-relay } peut vous aider à bloquer le pistage dans les e-mails : vos alias de messagerie supprimeront les outils de pistage courants de tous les e-mails qui vous sont transférés, vous aidant ainsi à rester invisible aux yeux des outils de pistage et des annonceurs.
 premium-promo-use-cases-headline-2 = Utiliser partout les alias de messagerie de { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Achats en ligne
 premium-promo-use-cases-shopping-body-2 = Vous essayez de vous inscrire à des promotions sans que cela vous inonde de spams ? Regroupez vos comptes d’« achats en ligne » sous des alias personnalisés uniques, comme « mesoffres@mondomaine.mozmail.com ».
