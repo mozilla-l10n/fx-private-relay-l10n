@@ -146,7 +146,20 @@ whatsnew-feature-tracker-removal-heading = Memperkenalkan penghapusan pelacak em
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Sekarang { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Sekarang { -brand-name-relay } dapat menghapus pelacak umum dari surel yang diteruskan kepada Anda, membantu Anda tetap tersembunyi oleh pengiklan.
+whatsnew-feature-tracker-removal-description-2 = Kini { -brand-name-relay } dapat menghapus pelacak surel biasa dari surel yang diteruskan kepada Anda, membantu Anda tetap tidak terlihat oleh pengiklan. Aktifkan di "Pengaturan".
+whatsnew-feature-offer-countdown-heading = Penawaran harga perkenalan kami akan segera berakhir!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas di...
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas dengan harga perkenalan untuk langganan per bulan dari kami.
+whatsnew-feature-offer-countdown-cta = Tingkatkan sekarang
 
 ## Bento Menu
 
@@ -190,6 +203,11 @@ landing-hero-headline-2 = Lindungi alamat surel asli Anda untuk membantu kendali
 landing-hero-body-2 =
     Surel topeng { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan pesan ke kotak masuk Anda yang asli.
     Sekarang Anda dapat menerima pesan yang hanya Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk mulai.
+landing-offer-end-hero-heading = Penawaran harga perkenalan kami akan segera berakhir!
+landing-offer-end-hero-cta = Tingkatkan sekarang
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
 
 ## How it works section
 
@@ -219,6 +237,7 @@ landing-pricing-body-2 =
 landing-pricing-free-price = Gratis
 landing-pricing-free-feature-1-2 = Hingga 5 topeng surel
 landing-pricing-free-feature-2 = Ekstensi Peramban
+landing-pricing-free-feature-3 = Penghapusan pelacak surel
 landing-pricing-free-description = Coba topeng { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda.
 landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -235,8 +254,17 @@ landing-pricing-premium-feature-3-2 = Subdomain surel Anda sendiri
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = Balas surel yang diteruskan
 landing-pricing-premium-feature-5 = Blokir surel promosi
+landing-pricing-premium-feature-6 = Penghapusan pelacak surel
 landing-pricing-waitlist-description = Saat ini, { -brand-name-firefox-relay-premium } belum tersedia di negara Anda. Silakan bagikan surel Anda agar dapat dikabari sesegera mungkin.
 landing-pricing-waitlist-cta = Gabung ke Daftar Tunggu
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Harga perkenalan: Topeng tanpa batas untuk { $monthly_price } per bulan
+landing-pricing-offer-end-warning = Promo ini akan segera berakhir
+landing-pricing-offer-end-cta = Tingkatkan sekarang
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
 
 ## Use Cases
 
@@ -311,7 +339,15 @@ premium-promo-hero-headline = Lindungi kotak masuk Anda lebih mudah dengan { -br
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan topeng surel kustom tanpa batas yang meneruskan surel yang diinginkan ke alamat surel Anda yang sebenarnya. <b>Dalam waktu terbatas, Anda dapat meningkatkan ke { -brand-name-relay-premium } dengan hanya { $monthly_price } per bulan.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan topeng surel kustom tanpa batas yang hanya meneruskan surel yang Anda inginkan ke alamat surel Anda yang sebenarnya.
 premium-promo-hero-cta = Tingkatkan sekarang
+premium-promo-offer-end-hero-heading = Penawaran harga perkenalan kami akan segera berakhir!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
+premium-promo-offer-end-hero-cta = Tingkatkan sekarang
 premium-promo-availability-warning = Saat ini, { -brand-name-relay-premium } baru tersedia di Amerika Serikat, Austria, Belanda, Belgia, Britania Raya, Irlandia, Italia, Jerman, Malaysia, Kanada, Perancis, Selandia Baru, Singapura, dan Spanyol.
 premium-promo-availability-warning-2 = Saat ini, { -brand-name-relay-premium } baru tersedia di Amerika Serikat, Austria, Belanda, Belgia, Britania Raya, Irlandia, Italia, Jerman, Malaysia, Kanada, Perancis, Selandia Baru, Singapura, dan Spanyol.
 premium-promo-perks-headline = Mengapa beralih ke { -brand-name-firefox-relay-premium }?
@@ -384,6 +420,7 @@ setting-api-key-copied = Tersalin!
 setting-tracker-removal-heading = Hapus Pelacak Surel
 setting-tracker-removal-description = Hapus pelacak surel di semua surel yang diteruskan.
 setting-tracker-removal-note = { -brand-name-firefox-relay } sekarang dapat menghapus pelacak umum dari surel yang diteruskan melalui topeng Anda.
+# Deprecated
 setting-tracker-removal-warning = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak, karena sering kali pelacak terletak di dalam gambar.
 
 ## FAQ Page
@@ -467,6 +504,7 @@ faq-question-disable-trackerremoval-answer = Ya. Jika mengalami masalah dengan s
 faq-question-bulk-trackerremoval-question = Dapatkah saya menghapus pelacak hanya pada beberapa topeng surel saya?
 faq-question-bulk-trackerremoval-answer = Anda hanya dapat menyalakan penghapus pelacak di tingkat akun — antara menghapus pelacak dari seluruh surel, atau tidak sama sekali.
 faq-question-trackerremoval-breakage-question = Mengapa surel saya terlihat rusak?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Terkadang menghapus pelacak dapat menyebabkan surel Anda terlihat rusak, karena pelacak seringkali terkandung di dalam gambar. Saat pelacak dihapus, format surel terlihat seperti bermasalah karena gambar hilang. Hal ini tidak dapat diperbaiki untuk surel yang telah Anda terima. Jika situasi ini mencegah Anda membaca surel dengan benar, matikan penghapusan pelacak.
 
 ## Profile Page (Logged In)
@@ -524,6 +562,7 @@ profile-label-replies = Balasan
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Pelacak Dihapus
 profile-trackers-removed-tooltip-part1 = Dengan penghapusan pelacak diaktifkan, pelacak surel umum akan dihapus dari surel Anda yang diteruskan.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak karena sering kali pelacak terletak di dalam gambar.
 profile-label-cancel = Batal
 profile-blocked-copy-2 = { -brand-name-firefox-relay } akan menghapus pesan sebelum masuk ke kotak masuk Anda saat Anda memilih memblokir untuk topeng ini.
@@ -540,6 +579,7 @@ profile-stat-label-aliases-used-2 = Topeng surel digunakan
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Pelacak Dihapus
 profile-stat-label-trackers-learn-more-part1 = Mengaktifkan penghapusan pelacak akan menghapus pelacak surel umum dari surel yang diteruskan.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Catatan penting: Terkadang menghapus pelacak bisa membuat surel Anda terlihat rusak, karena sering kali pelacak terletak di dalam gambar.
 profile-filter-search-placeholder-2 = Cari topeng
 profile-filter-category-button-label = Saring topeng yang terlihat
@@ -766,11 +806,6 @@ multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-get-subdomain = Dapatkan subdomain kustom
 multi-part-onboarding-reply-headline = Balas ke surel Anda
 multi-part-onboarding-premium-welcome-description-2 = Tidak ada lagi batasan lima topeng: Anda sekarang dapat membuat topengkustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya { -brand-name-relay } untuk membuatnya saat bepergian.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Dengan subdomain kustom, Anda dapat membuat topeng tanpa harus membuatnya terlebih dahulu.
-    Perlu satu untuk mendaftar buletin? Cukup ucapkan “baca@subdomainkustom{ $mozmail }”
 multi-part-onboarding-premium-domain-cta-2 = Daftarkan subdomain kustom Anda sekarang:
 multi-part-onboarding-premium-domain-button-skip-2 = Lanjutkan, saya akan mendaftarkan subdomain kustom saya nanti
 multi-part-onboarding-premium-extension-headline = Blokir, teruskan, dan balas
@@ -815,6 +850,7 @@ trackerreport-removal-explainer-content = Kini { -brand-name-firefox-relay } dap
 trackerreport-trackers-explainer-heading = Tentang pelacak surel
 trackerreport-trackers-explainer-content-part1 = Pelacakan surel adalah alat pengawasan dan iklan umum yang telah mengambil alih banyak kotak masuk. Pelacak ini dapat digunakan untuk memahami lebih lanjut tentang perilaku daring, minat, dan aktivitas surel Anda.
 trackerreport-trackers-explainer-content-part2 = Perusahaan atau organisasi akan menyematkan pelacak dalam surel yang dikirimkan kepada Anda, biasanya disembunyikan dalam sebuah gambar atau tautan. Saat surel dibuka, kode dalam pelacak akan mengirim data kembali ke perusahaan.
+# Deprecated
 trackerreport-breakage-warning = Catatan penting: Terkadang menghapus pelacak bisa menyebabkan surel
 trackerreport-faq-heading = Pertanyaan teratas tentang pelacak email
 trackerreport-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
@@ -864,6 +900,9 @@ modal-domain-register-success-2 = Kini { $subdomain } adalah subdomain surel And
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Kini, <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> adalah subdomain surel Anda!
 modal-domain-register-success-copy-2 = Sekarang Anda dapat membuat topeng email kustom tanpa batas!
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
