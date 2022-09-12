@@ -293,6 +293,7 @@ premium-promo-offer-end-hero-heading = 优惠价即将结束！
 premium-promo-offer-end-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
@@ -317,6 +318,9 @@ premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地�
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
 premium-promo-pricing-free-price = 您当前的免费方案
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = 介绍价格：每月 { $monthly_price } 即享无限马甲
 premium-promo-pricing-offer-end-warning = 本促销活动即将结束
 premium-promo-pricing-offer-end-cta = 立即升级
 
@@ -409,6 +413,7 @@ faq-question-1-answer-b-2-html = 若您发现来自所有马甲的垃圾邮件�
 faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
 faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v2 = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、芬兰、法国、比利时、奥地利、西班牙、意大利、瑞典、瑞士、荷兰和爱尔兰可用。
+faq-question-availability-answer-v3 = 大多数国家/地区都提供免费的 { -brand-name-relay }。 { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
 faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
@@ -601,6 +606,8 @@ banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 banner-label-data-notification-header-v2 = 启用新功能
 banner-label-data-notification-body-cta = 详细了解
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = 保护您的隐私，拯救互联网
 banner-upgrade-loyalist-cta = 获得更多保护
 # End of intro pricing countdown banner:
 banner-offer-end-headline = 优惠价即将结束！
