@@ -147,7 +147,16 @@ whatsnew-feature-tracker-removal-heading = Presentamos el eliminador de rastread
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Ahora { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando a mantenerte invisible para los anunciantes.
+whatsnew-feature-tracker-removal-description-2 = Ahora { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando a mantenerte invisible para los anunciantes. Actívalo en “Ajustes”.
+whatsnew-feature-offer-countdown-heading = ¡Nuestra oferta de lanzamiento finaliza pronto!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado en nuestro…
 
 ## Bento Menu
 
@@ -387,6 +396,7 @@ setting-api-key-copied = ¡Copiado!
 setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
 setting-tracker-removal-description = Eliminar los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
 setting-tracker-removal-note = { -brand-name-firefox-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados a través de tus máscaras.
+# Deprecated
 setting-tracker-removal-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
 
 ## FAQ Page
@@ -470,6 +480,7 @@ faq-question-disable-trackerremoval-answer = Sí. Si tienes problemas con los co
 faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo en algunas máscaras de correo electrónico?
 faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación del rastreador a nivel de cuenta; eliminar los rastreadores de todos tus correos electrónicos o ninguno de ellos.
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 
 ## Profile Page (Logged In)
@@ -760,11 +771,6 @@ multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
 multi-part-onboarding-premium-welcome-description-2 = No más límite de cinco máscaras: ahora puedes generar tantas máscaras personalizadas o aleatorias como necesites. En el escritorio, puedes usar el complemento { -brand-name-relay } para crearlos sobre la marcha.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (.mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3 =
-    Con un subdominio personalizado, puedes crear máscaras sin tener que generarlas previamente.
-    ¿Necesitas uno para suscribirte a un boletín? Simplemente di "leer@subdominiopersonalizado{ $mozmail }"
 multi-part-onboarding-premium-domain-cta-2 = Registra ahora tu subdominio personalizado:
 multi-part-onboarding-premium-domain-button-skip-2 = Continuar, registraré mi subdominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
@@ -848,6 +854,9 @@ modal-domain-register-success-2 = ¡{ $subdomain } es ahora tu subdominio de cor
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = ¡<subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>es ahora tu subdominio de correo electrónico!
 modal-domain-register-success-copy-2 = Ahora puedes crear un número ilimitado de máscaras de correo electrónico personalizadas.
+
+## Countdown timer (e.g. to count down to pricing increases)
+
 
 ## Evergreen Survey (displayed on the profile page)
 
