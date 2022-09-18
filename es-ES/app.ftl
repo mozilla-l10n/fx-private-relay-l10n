@@ -156,7 +156,11 @@ whatsnew-feature-offer-countdown-heading = ¡Nuestra oferta de lanzamiento final
 # length as the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-whatsnew-feature-offer-countdown-snippet = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado en nuestro…
+whatsnew-feature-offer-countdown-snippet = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio mensual de lanzamiento.
+whatsnew-feature-offer-countdown-cta = Actualizar ahora
 
 ## Bento Menu
 
