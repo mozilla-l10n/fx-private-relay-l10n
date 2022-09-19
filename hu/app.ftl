@@ -296,6 +296,19 @@ plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
 plan-matrix-heading-plan-premium = E-mail-védelem
 plan-matrix-heading-plan-phones = E-mail- és telefonvédelem
 plan-matrix-heading-plan-bundle = VPN-védelem hozzáadása
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-mail-maszkok
+plan-matrix-heading-feature-browser-extension = Böngészőkiegészítő
+plan-matrix-heading-feature-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-heading-feature-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-heading-feature-email-subdomain = E-mail aldomain
+plan-matrix-heading-feature-email-reply = Válasz az átirányított e-mailekre
+plan-matrix-heading-feature-phone-mask = Telefonszámmaszk
+plan-matrix-heading-feature-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } e-mail-maszk
 
 ## Use Cases
 
