@@ -309,6 +309,16 @@ plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } e-mail-maszk
+plan-matrix-feature-list-browser-extension = Böngészőkiegészítő
+plan-matrix-feature-list-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-feature-list-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-feature-list-email-subdomain = E-mail aldomain
+plan-matrix-feature-list-email-reply = Válasz az átirányított e-mailekre
+plan-matrix-feature-list-phone-mask = Telefonszámmaszk
+plan-matrix-feature-list-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Ár
+plan-matrix-feature-count-unlimited = Korlátlan
+plan-matrix-feature-included = Tartalmazza
 
 ## Use Cases
 
