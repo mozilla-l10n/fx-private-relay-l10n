@@ -232,45 +232,119 @@ landing-how-it-works-step-3-body-2 = Sign in to the { -brand-name-relay } dashbo
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Limited-time only: Unlimited email masks for { $monthly_price } per month
+# Deprecated
 landing-pricing-body-2 = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox.
     Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
+# Deprecated
 landing-pricing-free-price = Free
+# Deprecated
 landing-pricing-free-feature-1-2 = Up to 5 email masks
+# Deprecated
 landing-pricing-free-feature-2 = Browser extension
+# Deprecated
 landing-pricing-free-feature-3 = Email tracker removal
+# Deprecated
 landing-pricing-free-description = Try { -brand-name-firefox-relay } masks and start protecting your email inbox.
+# Deprecated
 landing-pricing-free-cta = Get { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Available now!
+# Deprecated
 landing-pricing-free-feature-free = Free
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+# Deprecated
 landing-pricing-premium-price-highlight = Limited time pricing
+# Deprecated
 landing-pricing-premium-feature-1-2 = Unlimited email masks
+# Deprecated
 landing-pricing-premium-feature-2 = Browser extension
+# Deprecated
 landing-pricing-premium-feature-3-2 = Your own email subdomain
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Reply to forwarded emails
+# Deprecated
 landing-pricing-premium-feature-5 = Block promotional emails
+# Deprecated
 landing-pricing-premium-feature-6 = Email tracker removal
 
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is not currently available in your country. Please share your email to be notified as soon as it is.
+# Deprecated
 landing-pricing-waitlist-cta = Join Waitlist
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Introductory price: Unlimited masks for { $monthly_price } per month
+# Deprecated
 landing-pricing-offer-end-warning = This promo is expiring soon
+# Deprecated
 landing-pricing-offer-end-cta = Upgrade now
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Get { -brand-name-relay-premium } before { $end_date } and enjoy premium email protection at our intro month-to-month price.
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+plan-matrix-bundle-offer-content = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox. Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
+plan-matrix-heading-features = Features
+plan-matrix-heading-plan-free = Limited email protection
+plan-matrix-heading-plan-premium = Email protection
+plan-matrix-heading-plan-phones = Email & phone protection
+plan-matrix-heading-plan-bundle = Add VPN protection
+plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email_masks = Email masks
+plan-matrix-heading-feature-browser_extension = Browser extension
+plan-matrix-heading-feature-email_tracker_removal = Remove email trackers
+plan-matrix-heading-feature-promo_email_blocking = Block promotional emails
+plan-matrix-heading-feature-email_subdomain = Email subdomain
+plan-matrix-heading-feature-email_reply = Reply to forwarded emails
+plan-matrix-heading-feature-phone_mask = Phone number mask
+plan-matrix-heading-feature-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email_masks_unlimited = Unlimited email masks
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email_masks = { $mask_limit } email masks
+plan-matrix-feature-list-browser_extension = Browser extension
+plan-matrix-feature-list-email_tracker_removal = Remove email trackers
+plan-matrix-feature-list-promo_email_blocking = Block promotional emails
+plan-matrix-feature-list-email_subdomain = Email subdomain
+plan-matrix-feature-list-email_reply = Reply to forwarded emails
+plan-matrix-feature-list-phone_mask = Phone number mask
+plan-matrix-feature-list-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Price
+plan-matrix-feature-count-unlimited = Unlimited
+plan-matrix-feature-included = Included
+plan-matrix-feature-not-included = Not included
+plan-matrix-price-free = Free
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/month
+plan-matrix-price-period-yearly = Yearly
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Billing yearly
+plan-matrix-price-period-monthly = Monthly
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Save { $percentage }% on regular VPN price
+plan-matrix-pick = Sign Up
+plan-matrix-join-waitlist = Join the Waitlist
 
 ## Use Cases
 
