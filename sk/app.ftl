@@ -271,43 +271,118 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Časovo obmedzené: neobmedzené e-mailové masky za { $monthly_price } mesačne
+# Deprecated
 landing-pricing-body-2 =
     Vyskúšajte e-mailové masky služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
     Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
+# Deprecated
 landing-pricing-free-price = Zadarmo
+# Deprecated
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masiek
+# Deprecated
 landing-pricing-free-feature-2 = Rozšírenie do prehliadača
+# Deprecated
 landing-pricing-free-feature-3 = Odstraňovanie sledovacích prvkov z e-mailov
+# Deprecated
 landing-pricing-free-description = Vyskúšajte masky { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
+# Deprecated
 landing-pricing-free-cta = Získajte { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Teraz dostupné!
+# Deprecated
 landing-pricing-free-feature-free = Zadarmo
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mesačne
+# Deprecated
 landing-pricing-premium-price-highlight = Časovo limitovaná cena
+# Deprecated
 landing-pricing-premium-feature-1-2 = Neobmedzený počet e-mailových masiek
+# Deprecated
 landing-pricing-premium-feature-2 = Rozšírenie do prehliadača
+# Deprecated
 landing-pricing-premium-feature-3-2 = Vaša vlastná e-mailová subdoména
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = vas_email@vasa_domena.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
+# Deprecated
 landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
+# Deprecated
 landing-pricing-premium-feature-6 = Odstraňovanie sledovacích prvkov z e-mailov
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } momentálne nie je vo vašej krajine k dispozícii. Zadajte svoj e-mail, aby ste boli informovaní hneď, ako to bude.
+# Deprecated
 landing-pricing-waitlist-cta = Pridať sa na zoznam čakateľov
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
+# Deprecated
 landing-pricing-offer-end-warning = Platnosť tejto promo akcie čoskoro vyprší
+# Deprecated
 landing-pricing-offer-end-cta = Inovovať teraz
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Len časovo obmedzené: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }$/mesiac*
+plan-matrix-bundle-offer-content =
+    Vyskúšajte e-mailové masky služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
+    Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
+plan-matrix-heading-features = Funkcie
+plan-matrix-heading-plan-free = Obmedzená ochrana e-mailov
+plan-matrix-heading-plan-premium = Ochrana e-mailov
+plan-matrix-heading-plan-phones = Ochrana e-mailu a telefónu
+plan-matrix-heading-plan-bundle = Pridať ochranu VPN
+plan-matrix-heading-plan-bundle-alt = Získajte { -brand-name-relay-premium } a { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-mailové masky
+plan-matrix-heading-feature-browser-extension = Rozšírenie do prehliadača
+plan-matrix-heading-feature-email-tracker-removal = Odstraňovanie sledovacích prvkov z e-mailov
+plan-matrix-heading-feature-promo-email-blocking = Blokovanie marketingových e-mailov
+plan-matrix-heading-feature-email-subdomain = E-mailová subdoména
+plan-matrix-heading-feature-email-reply = Možnosť odpovedať na preposlané e-maily
+plan-matrix-heading-feature-phone-mask = Maska telefónneho čísla
+plan-matrix-heading-feature-vpn = Prístup k <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Neobmedzený počet e-mailových masiek
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = Limit na e-mailové masky: { $mask_limit }
+plan-matrix-feature-list-browser-extension = Rozšírenie do prehliadača
+plan-matrix-feature-list-email-tracker-removal = Odstraňovanie sledovacích prvkov z e-mailov
+plan-matrix-feature-list-promo-email-blocking = Blokovanie marketingových e-mailov
+plan-matrix-feature-list-email-subdomain = E-mailová subdoména
+plan-matrix-feature-list-email-reply = Možnosť odpovedať na preposlané e-maily
+plan-matrix-feature-list-phone-mask = Maska telefónneho čísla
+plan-matrix-feature-list-vpn = Prístup k <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Cena
+plan-matrix-feature-count-unlimited = Neobmedzené
+plan-matrix-feature-included = Zahrnuté
+plan-matrix-feature-not-included = Nie je zahrnuté
+plan-matrix-price-free = Zadarmo
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/mesiac
+plan-matrix-price-period-yearly = Ročne
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Účtovanie ročne
+plan-matrix-price-period-monthly = Mesačne
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Ušetríte { $percentage }% na bežnej cene VPN
+plan-matrix-pick = Zaregistrovať sa
+plan-matrix-join-waitlist = Pridať sa na zoznam čakateľov
 
 ## Use Cases
 
@@ -434,7 +509,9 @@ waitlist-control-required = Vyžadované
 waitlist-control-email-label = Aká je vaša e-mailová adresa?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = vasemeno@example.com
+# Deprecated
 waitlist-control-country-label = V ktorej krajine žijete?
+waitlist-control-country-label-2 = V ktorej krajine alebo regióne žijete?
 waitlist-control-locale-label = Vyberte si vami požadovaný jazyk.
 waitlist-submit-label = Pridať sa na zoznam čakateľov
 # Variables:
