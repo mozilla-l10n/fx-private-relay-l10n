@@ -254,43 +254,79 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Μόνο για περιορισμένο χρονικό διάστημα: απεριόριστες μάσκες email με { $monthly_price } ανά μήνα
+# Deprecated
 landing-pricing-body-2 =
     Δοκιμάστε τις μάσκες email του { -brand-name-firefox-relay } και προστατέψτε τα εισερχόμενά σας.
     Έπειτα, αναβαθμίστε στο { -brand-name-relay-premium } για ακόμα περισσότερη ευελιξία και έλεγχο.
+# Deprecated
 landing-pricing-free-price = Δωρεάν
+# Deprecated
 landing-pricing-free-feature-1-2 = Έως 5 μάσκες email
+# Deprecated
 landing-pricing-free-feature-2 = Επέκταση φυλλομετρητή
+# Deprecated
 landing-pricing-free-feature-3 = Αφαίρεση ιχνηλατών email
+# Deprecated
 landing-pricing-free-description = Δοκιμάστε τις μάσκες του { -brand-name-firefox-relay } και αρχίστε να προστατεύετε τα εισερχόμενά σας.
+# Deprecated
 landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Διαθέσιμο τώρα!
+# Deprecated
 landing-pricing-free-feature-free = Δωρεάν
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/μήνα
+# Deprecated
 landing-pricing-premium-price-highlight = Τιμή περιορισμένου χρόνου
+# Deprecated
 landing-pricing-premium-feature-1-2 = Απεριόριστες μάσκες email
+# Deprecated
 landing-pricing-premium-feature-2 = Επέκταση φυλλομετρητή
+# Deprecated
 landing-pricing-premium-feature-3-2 = Ο δικός σας υποτομέας email
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = toemailsas@otomeassas.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα email
+# Deprecated
 landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
+# Deprecated
 landing-pricing-premium-feature-6 = Αφαίρεση ιχνηλατών email
+# Deprecated
 landing-pricing-waitlist-description = Το { -brand-name-firefox-relay-premium } δεν είναι προς το παρόν διαθέσιμο στη χώρα σας. Παρακαλούμε πείτε μας το email σας για να ενημερωθείτε μόλις γίνει.
+# Deprecated
 landing-pricing-waitlist-cta = Εγγραφή στη λίστα αναμονής
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Τιμή γνωριμίας: Απεριόριστες μάσκες με { $monthly_price } ανά μήνα
+# Deprecated
 landing-pricing-offer-end-warning = Αυτή η προσφορά λήγει σύντομα
+# Deprecated
 landing-pricing-offer-end-cta = Αναβάθμιση τώρα
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
+plan-matrix-heading-plan-premium = Προστασία email
+plan-matrix-heading-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-heading-feature-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-price-free = Δωρεάν
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/μήνα
+plan-matrix-price-period-yearly = Ετησίως
+plan-matrix-price-period-monthly = Μηνιαία
+plan-matrix-pick = Εγγραφή
+plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
 
 ## Use Cases
 
@@ -417,6 +453,7 @@ waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = toonomasas@example.com
+# Deprecated
 waitlist-control-country-label = Σε ποια χώρα κατοικείτε;
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
