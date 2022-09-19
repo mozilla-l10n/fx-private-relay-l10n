@@ -229,43 +229,73 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Csak korlátozott ideig: Korlátlan e-mail-maszkok havi { $monthly_price }-ért
+# Deprecated
 landing-pricing-body-2 =
     Próbálja ki a { -brand-name-firefox-relay } e-mail-maszkokat, és kezdje el megvédeni e-mail postafiókját.
     Ezután frissítsen a { -brand-name-relay-premium } verzióra a még nagyobb rugalmasság és testreszabott irányítás érdekében.
+# Deprecated
 landing-pricing-free-price = Ingyenes
+# Deprecated
 landing-pricing-free-feature-1-2 = Akár 5 e-mail-maszk
+# Deprecated
 landing-pricing-free-feature-2 = Böngészőkiegészítő
+# Deprecated
 landing-pricing-free-feature-3 = E-mail-követő eltávolítása
+# Deprecated
 landing-pricing-free-description = Próbálja ki a { -brand-name-firefox-relay } maszkokat, és kezdje el a postaládája védelmét.
+# Deprecated
 landing-pricing-free-cta = { -brand-name-relay } beszerzése
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Most elérhető!
+# Deprecated
 landing-pricing-free-feature-free = Ingyenes
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/hónap
+# Deprecated
 landing-pricing-premium-price-highlight = Korlátozott idejű árak
+# Deprecated
 landing-pricing-premium-feature-1-2 = Korlátlan számú e-mail-maszk
+# Deprecated
 landing-pricing-premium-feature-2 = Böngészőkiegészítő
+# Deprecated
 landing-pricing-premium-feature-3-2 = Saját e-mail aldomain
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Válasz az átirányított e-mailekre
+# Deprecated
 landing-pricing-premium-feature-5 = Promóciós e-mailek blokkolása
+# Deprecated
 landing-pricing-premium-feature-6 = E-mail-követő eltávolítása
+# Deprecated
 landing-pricing-waitlist-description = A { -brand-name-firefox-relay-premium } jelenleg nem érhető el az Ön országában. Ossza meg e-mail-címét, hogy azonnal értesüljön, ha az lesz.
+# Deprecated
 landing-pricing-waitlist-cta = Csatlakozás a várólistához
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
+# Deprecated
 landing-pricing-offer-end-warning = Ez a promóció hamarosan lejár
+# Deprecated
 landing-pricing-offer-end-cta = Frissítés most
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
+plan-matrix-heading-features = Funkciók
+plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
+plan-matrix-heading-plan-premium = E-mail-védelem
+plan-matrix-heading-plan-phones = E-mail- és telefonvédelem
+plan-matrix-heading-plan-bundle = VPN-védelem hozzáadása
 
 ## Use Cases
 
@@ -392,6 +422,7 @@ waitlist-control-required = Kötelező
 waitlist-control-email-label = Mi az e-mail-címe?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = email@example.com
+# Deprecated
 waitlist-control-country-label = Melyik országban él?
 waitlist-control-locale-label = Válassza ki az előnyben részesített nyelvét.
 waitlist-submit-label = Csatlakozás a várólistához
