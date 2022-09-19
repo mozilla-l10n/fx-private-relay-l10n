@@ -292,6 +292,7 @@ plan-matrix-heading-features = Functionalitates
 plan-matrix-heading-plan-free = Protection de email limitate
 plan-matrix-heading-plan-premium = Protection email
 plan-matrix-heading-plan-phones = Protection email e telephono
+plan-matrix-heading-plan-bundle = Adder protection VPN
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Mascas email
 plan-matrix-heading-feature-browser-extension = Extension del navigator
@@ -301,11 +302,27 @@ plan-matrix-heading-feature-email-subdomain = Subdominio email
 plan-matrix-heading-feature-email-reply = Replica al emails inultrate
 plan-matrix-heading-feature-phone-mask = Masca numero de telephono
 plan-matrix-feature-list-email-masks-unlimited = Mascas email illimitate
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } mascas email
 plan-matrix-feature-list-browser-extension = Extension de navigator
 plan-matrix-feature-list-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-list-promo-email-blocking = Blocar emails promotional
 plan-matrix-feature-list-email-subdomain = Subdominio email
 plan-matrix-feature-list-email-reply = Replica al emails inultrate
+plan-matrix-feature-list-phone-mask = Masca numero de telephono
+plan-matrix-heading-price = Precio
+plan-matrix-feature-count-unlimited = Sin limite
+plan-matrix-feature-included = Includite
+plan-matrix-feature-not-included = Non includite
+plan-matrix-price-free = Gratuite
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/mense
+plan-matrix-price-period-yearly = Annual
+plan-matrix-price-period-monthly = Mensual
+plan-matrix-pick = Inscribe te
+plan-matrix-join-waitlist = Junge te al lista de attendentia
 
 ## Use Cases
 
@@ -434,6 +451,7 @@ waitlist-control-email-label = Qual es tu adresse email?
 waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = In qual pais vive tu?
+waitlist-control-country-label-2 = In qual pais o region vive tu?
 waitlist-control-locale-label = Elige tu lingua preferite.
 waitlist-submit-label = Junge te al lista de attendentia
 # Variables:
