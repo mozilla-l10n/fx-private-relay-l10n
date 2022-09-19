@@ -229,43 +229,118 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Nur für begrenzte Zeit: Unbegrenzte E-Mail-Masken für { $monthly_price } pro Monat
+# Deprecated
 landing-pricing-body-2 =
     Probieren Sie { -brand-name-firefox-relay } E-Mail-Masken aus und schützen Sie Ihren E-Mail-Posteingang.
     Führen Sie dann ein Upgrade auf { -brand-name-relay-premium } durch, um noch mehr Flexibilität und individuelle Steuerung zu erhalten.
+# Deprecated
 landing-pricing-free-price = Kostenlos
+# Deprecated
 landing-pricing-free-feature-1-2 = Bis zu fünf Alias-E-Mail-Masken
+# Deprecated
 landing-pricing-free-feature-2 = Browser-Erweiterung
+# Deprecated
 landing-pricing-free-feature-3 = Entfernung von E-Mail-Trackern
+# Deprecated
 landing-pricing-free-description = Probieren Sie { -brand-name-firefox-relay }-Masken aus und schützen Sie Ihr E-Mail-Postfach.
+# Deprecated
 landing-pricing-free-cta = Hole dir { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Ab sofort verfügbar!
+# Deprecated
 landing-pricing-free-feature-free = Kostenlos
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/Monat
+# Deprecated
 landing-pricing-premium-price-highlight = Zeitlich begrenztes Angebot
+# Deprecated
 landing-pricing-premium-feature-1-2 = Unbegrenzte E-Mail-Masken
+# Deprecated
 landing-pricing-premium-feature-2 = Browser-Erweiterung
+# Deprecated
 landing-pricing-premium-feature-3-2 = Ihre eigene E-Mail-Subdomain
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = ihreadresse@ihredomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
+# Deprecated
 landing-pricing-premium-feature-5 = Werbe-E-Mails blockieren
+# Deprecated
 landing-pricing-premium-feature-6 = Entfernung von E-Mail-Trackern
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ist derzeit in Ihrem Land nicht verfügbar. Wenn Sie uns Ihre E-Mail-Adresse mitteilen, benachrichtigen wir Sie, sobald dies der Fall ist.
+# Deprecated
 landing-pricing-waitlist-cta = Auf Warteliste setzen
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Einführungspreis: Unbegrenzt viele Masken für { $monthly_price } pro Monat
+# Deprecated
 landing-pricing-offer-end-warning = Diese Aktion läuft bald ab
+# Deprecated
 landing-pricing-offer-end-cta = Jetzt upgraden
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie Premium-E-Mail-Schutz zu unserem monatlichen Einführungspreis.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Nur für begrenzte Zeit: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/Monat*
+plan-matrix-bundle-offer-content =
+    Probieren Sie { -brand-name-firefox-relay } E-Mail-Masken aus und schützen Sie Ihren E-Mail-Posteingang.
+    Führen Sie dann ein Upgrade auf { -brand-name-relay-premium } durch, um noch mehr Flexibilität und individuelle Steuerung zu erhalten.
+plan-matrix-heading-features = Funktionen
+plan-matrix-heading-plan-free = Limitierter Schutz für E-Mail-Adressen
+plan-matrix-heading-plan-premium = Schutz für E-Mail-Adressen
+plan-matrix-heading-plan-phones = Schutz für E-Mail-Adressen und Handy
+plan-matrix-heading-plan-bundle = VPN-Schutz hinzufügen
+plan-matrix-heading-plan-bundle-alt = Holen Sie sich { -brand-name-relay-premium } und { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-Mail-Masken
+plan-matrix-heading-feature-browser-extension = Browser-Erweiterung
+plan-matrix-heading-feature-email-tracker-removal = E-Mail-Tracker entfernen
+plan-matrix-heading-feature-promo-email-blocking = Werbe-E-Mails blockieren
+plan-matrix-heading-feature-email-subdomain = E-Mail-Subdomain
+plan-matrix-heading-feature-email-reply = Auf weitergeleitete E-Mails antworten
+plan-matrix-heading-feature-phone-mask = Maske für Handynummern
+plan-matrix-heading-feature-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } E-Mail-Masken
+plan-matrix-feature-list-browser-extension = Browser-Erweiterung
+plan-matrix-feature-list-email-tracker-removal = E-Mail-Tracker entfernen
+plan-matrix-feature-list-promo-email-blocking = Werbe-E-Mails blockieren
+plan-matrix-feature-list-email-subdomain = E-Mail-Subdomain
+plan-matrix-feature-list-email-reply = Auf weitergeleitete E-Mails antworten
+plan-matrix-feature-list-phone-mask = Maske für Handynummern
+plan-matrix-feature-list-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Preis
+plan-matrix-feature-count-unlimited = Unbegrenzt
+plan-matrix-feature-included = Inbegriffen
+plan-matrix-feature-not-included = Nicht inbegriffen
+plan-matrix-price-free = Kostenlos
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/Monat
+plan-matrix-price-period-yearly = Jährlich
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = jährliche Abrechnung
+plan-matrix-price-period-monthly = Monatlich
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Sparen Sie { $percentage } % gegenüber dem regulären VPN-Preis
+plan-matrix-pick = Anmelden
+plan-matrix-join-waitlist = Auf Warteliste setzen
 
 ## Use Cases
 
@@ -392,7 +467,9 @@ waitlist-control-required = Erforderlich
 waitlist-control-email-label = Wie lautet Ihre E-Mail-Adresse?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = ihrname@example.com
+# Deprecated
 waitlist-control-country-label = In welchem Land leben Sie?
+waitlist-control-country-label-2 = In welchen Land oder welcher Region leben Sie?
 waitlist-control-locale-label = Wählen Sie Ihre bevorzugte Sprache aus.
 waitlist-submit-label = Auf Warteliste setzen
 # Variables:
