@@ -231,43 +231,74 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Durée limitée uniquement : nombre illimité d’alias pour { $monthly_price } par mois
+# Deprecated
 landing-pricing-body-2 =
     Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
     Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
+# Deprecated
 landing-pricing-free-price = Gratuit
+# Deprecated
 landing-pricing-free-feature-1-2 = Jusqu’à 5 alias de messagerie
+# Deprecated
 landing-pricing-free-feature-2 = Extension de navigateur
+# Deprecated
 landing-pricing-free-feature-3 = Suppression des traqueurs dans les e-mails
+# Deprecated
 landing-pricing-free-description = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception.
+# Deprecated
 landing-pricing-free-cta = Installer { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Disponible maintenant !
+# Deprecated
 landing-pricing-free-feature-free = Gratuit
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mois
+# Deprecated
 landing-pricing-premium-price-highlight = Offre à durée limitée
+# Deprecated
 landing-pricing-premium-feature-1-2 = Nombre illimité d’alias de messagerie
+# Deprecated
 landing-pricing-premium-feature-2 = Extension de navigateur
+# Deprecated
 landing-pricing-premium-feature-3-2 = Votre propre sous-domaine de messagerie
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = votreemail@votredomaine.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Répondre aux e-mails transférés
+# Deprecated
 landing-pricing-premium-feature-5 = Blocage des e-mails promotionnels
+# Deprecated
 landing-pricing-premium-feature-6 = Suppression des traqueurs dans les e-mails
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } est actuellement indisponible dans votre pays. Saisissez votre adresse e-mail pour recevoir une notification dès qu’il le sera.
+# Deprecated
 landing-pricing-waitlist-cta = Rejoindre la liste d’attente
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
+# Deprecated
 landing-pricing-offer-end-warning = Cette promotion se termine bientôt
+# Deprecated
 landing-pricing-offer-end-cta = Mettre à niveau maintenant
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Durée limitée uniquement : { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price } €/mois*
+plan-matrix-bundle-offer-content = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception. Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
+plan-matrix-heading-features = Fonctionnalités
 
 ## Use Cases
 
@@ -394,6 +425,7 @@ waitlist-control-required = Requis
 waitlist-control-email-label = Quelle est votre adresse email ?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = votrenom@example.com
+# Deprecated
 waitlist-control-country-label = Dans quel pays habitez-vous ?
 waitlist-control-locale-label = Sélectionnez votre langue préférée.
 waitlist-submit-label = Rejoindre la liste d’attente
