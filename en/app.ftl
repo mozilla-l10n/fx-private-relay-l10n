@@ -401,7 +401,9 @@ waitlist-control-required = Required
 waitlist-control-email-label = What is your email address?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = What country do you live in?
+waitlist-control-country-label-2 = What country or region do you live in?
 waitlist-control-locale-label = Select your preferred language.
 waitlist-submit-label = Join the Waitlist
 # Variables:
