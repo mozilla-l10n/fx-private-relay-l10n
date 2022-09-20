@@ -313,6 +313,8 @@ plan-matrix-heading-price = Prix
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mois
+plan-matrix-pick = S’inscrire
+plan-matrix-join-waitlist = Rejoindre la liste d’attente
 
 ## Use Cases
 
@@ -441,6 +443,7 @@ waitlist-control-email-label = Quelle est votre adresse email ?
 waitlist-control-email-placeholder = votrenom@example.com
 # Deprecated
 waitlist-control-country-label = Dans quel pays habitez-vous ?
+waitlist-control-country-label-2 = Dans quel pays ou région habitez-vous ?
 waitlist-control-locale-label = Sélectionnez votre langue préférée.
 waitlist-submit-label = Rejoindre la liste d’attente
 # Variables:
