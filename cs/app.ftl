@@ -361,6 +361,7 @@ whatsnew-feature-tracker-removal-heading = Představujeme možnost odstranění 
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-tracker-removal-snippet = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky…
+# Deprecated
 whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## Bento Menu
@@ -423,31 +424,49 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Časově omezená nabídka: Neomezené e-mailové masky za { $monthly_price } měsíčně
+# Deprecated
 landing-pricing-body-2 =
     Vyzkoušejte e-mailové masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku.
     Poté upgradujte na { -brand-name-relay-premium(case: "acc") } pro ještě větší flexibilitu a přizpůsobené ovládání.
+# Deprecated
 landing-pricing-free-price = Zdarma
+# Deprecated
 landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
+# Deprecated
 landing-pricing-free-feature-2 = Rozšíření do prohlížeče
+# Deprecated
 landing-pricing-free-description = Vyzkoušejte masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku.
+# Deprecated
 landing-pricing-free-cta = Získejte { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Nyní dostupné!
+# Deprecated
 landing-pricing-free-feature-free = Zdarma
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/měsíc
+# Deprecated
 landing-pricing-premium-price-highlight = Časově omezená cena
+# Deprecated
 landing-pricing-premium-feature-1-2 = Neomezený počet e-mailových masek
+# Deprecated
 landing-pricing-premium-feature-2 = Rozšíření do prohlížeče
+# Deprecated
 landing-pricing-premium-feature-3-2 = Vaše vlastní e-mailová subdoména
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = vas-email@vase-domena.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Možnost odpovědět na přeposlané e-maily
+# Deprecated
 landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
+# Deprecated
 landing-pricing-waitlist-description =
     { -brand-name-firefox-relay-premium.gender ->
         [masculine] { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupný. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
@@ -455,6 +474,7 @@ landing-pricing-waitlist-description =
         [neuter] { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupné. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
        *[other] Služba { -brand-name-firefox-relay-premium } teď není ve vaší zemi dostupná. Zadejte svou e-mailovou adresu a dáme vám vědět, jakmile se to změní.
     }
+# Deprecated
 landing-pricing-waitlist-cta = Přidat se na čekací listinu
 
 ## Use Cases
@@ -583,6 +603,7 @@ waitlist-control-required = Povinné
 waitlist-control-email-label = Jaká je vaše e-mailová adresa?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = vase-adresa@example.com
+# Deprecated
 waitlist-control-country-label = V jaké zemi žijete?
 waitlist-control-locale-label = Vyberte svůj preferovaný jazyk.
 waitlist-submit-label = Přidat se na čekací listinu
@@ -632,6 +653,7 @@ setting-api-key-copied = Zkopírováno!
 setting-tracker-removal-heading = Odstraňování sledovacích prvků
 setting-tracker-removal-description = Odstraňovat sledovací prvky ze všech přeposlaných e-mailů
 setting-tracker-removal-note = { -brand-name-firefox-relay } nyní může z e-mailů přeposlaných přes vaše masky odstranit běžné sledovací prvky.
+# Deprecated
 setting-tracker-removal-warning = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 
 ## FAQ Page
@@ -733,6 +755,7 @@ faq-question-disable-trackerremoval-answer = Ano. Pokud máte problémy s tím, 
 faq-question-bulk-trackerremoval-question = Mohu odstraňovat sledovací prvky pouze u některých svých e-mailových masek?
 faq-question-bulk-trackerremoval-answer = Odstraňování sledovacích prvků lze zapnout pouze na úrovni účtu – sledovací prvky se odstraňují buď ze všech vašich e-mailů, anebo ze žádného.
 faq-question-trackerremoval-breakage-question = Proč moje e-maily vypadají rozbité?
+# Deprecated
 faq-question-trackerremoval-breakage-answer = Občas může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích. Po odstranění sledovacího prvku vypadá e-mail jako špatně naformátovaný, protože chybí obrázky. U e-mailů, které jste již obdrželi, toto nelze nijak opravit. Pokud kvůli tomu není možné si e-maily korektně přečíst, vypněte odstraňování sledovacích prvků.
 
 ## Profile Page (Logged In)
@@ -790,6 +813,7 @@ profile-label-replies = Odpovědi
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Odstraněno sledovacích prvků
 profile-trackers-removed-tooltip-part1 = Je-li povoleno odstraňování sledovacích prvků, budou z přeposílaných e-mailů odstraněny běžné e-mailové sledovací prvky.
+# Deprecated
 profile-trackers-removed-tooltip-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-label-cancel = Zrušit
 profile-blocked-copy-2 = Pokud pro tuto masku vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě předtím, než se dostanou do vaší e-mailové schránky.
@@ -806,6 +830,7 @@ profile-stat-label-aliases-used-2 = Používané e-mailové masky
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Odstraněno sledovacích prvků
 profile-stat-label-trackers-learn-more-part1 = Zapnutím odstraňování sledovacích prvků budou z přeposílaných e-mailů odstraňovány běžné e-mailové sledovací prvky.
+# Deprecated
 profile-stat-label-trackers-learn-more-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
 profile-filter-search-placeholder-2 = Vyhledat masku
 profile-filter-category-button-label = Odfiltrovat viditelné masky
@@ -1084,6 +1109,9 @@ modal-domain-register-success-2 = { $subdomain } je nyní vaše e-mailová subdo
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je nyní vaše e-mailová subdoména!
 modal-domain-register-success-copy-2 = Nyní můžete vytvářet neomezené množství vlastních e-mailových masek!
 
+## Countdown timer (e.g. to count down to pricing increases)
+
+
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Na stupnici od 1 do 10, jako moc byste { -brand-name-relay(case: "acc") } doporučili svým přátelům nebo kolegům?
@@ -1114,6 +1142,7 @@ vpn-promo-cta = Získejte { -brand-name-mozilla-vpn(case: "acc") }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+forwarded-email-trackers-blocked-report = Více informací
 
 ## Notifications component
 
