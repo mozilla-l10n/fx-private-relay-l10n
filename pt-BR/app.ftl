@@ -229,43 +229,102 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Apenas por tempo limitado: Máscaras de email ilimitadas por { $monthly_price } mensais
+# Deprecated
 landing-pricing-body-2 =
     Experimente usar máscaras de email do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email.
     Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
+# Deprecated
 landing-pricing-free-price = Gratuito
+# Deprecated
 landing-pricing-free-feature-1-2 = Até 5 máscaras de email
+# Deprecated
 landing-pricing-free-feature-2 = Extensão do navegador
+# Deprecated
 landing-pricing-free-feature-3 = Remoção de rastreadores de email
+# Deprecated
 landing-pricing-free-description = Experimente as máscaras do { -brand-name-firefox-relay } e comece a proteger a caixa de entrada de seu email.
+# Deprecated
 landing-pricing-free-cta = Instale o { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Disponível agora!
+# Deprecated
 landing-pricing-free-feature-free = Gratuito
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mês
+# Deprecated
 landing-pricing-premium-price-highlight = Preços por tempo limitado
+# Deprecated
 landing-pricing-premium-feature-1-2 = Máscaras de email ilimitadas
+# Deprecated
 landing-pricing-premium-feature-2 = Extensão do navegador
+# Deprecated
 landing-pricing-premium-feature-3-2 = Seu próprio subdomínio de email
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = seuemail@seudominio.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Responder a emails encaminhados
+# Deprecated
 landing-pricing-premium-feature-5 = Bloquear emails promocionais
+# Deprecated
 landing-pricing-premium-feature-6 = Remoção de rastreadores de email
+# Deprecated
 landing-pricing-waitlist-description = No momento o { -brand-name-firefox-relay-premium } não está disponível em seu país. Inscreva seu email para ser notificado assim que estiver disponível.
+# Deprecated
 landing-pricing-waitlist-cta = Entrar na lista de espera
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Preço inicial: máscaras ilimitadas por { $monthly_price } por mês
+# Deprecated
 landing-pricing-offer-end-warning = Esta promoção expira em breve
+# Deprecated
 landing-pricing-offer-end-cta = Mude agora
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Apenas por tempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/mês*
+plan-matrix-bundle-offer-content = Experimente usar máscaras de email do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email. Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
+plan-matrix-heading-features = Recursos
+plan-matrix-heading-plan-free = Proteção limitada de email
+plan-matrix-heading-plan-premium = Proteção de email
+plan-matrix-heading-plan-phones = Proteção de email e celular
+plan-matrix-heading-plan-bundle = Adicionar proteção VPN
+plan-matrix-heading-plan-bundle-alt = Tenha o { -brand-name-relay-premium } e o { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Máscaras de email
+plan-matrix-heading-feature-browser-extension = Extensão de navegador
+plan-matrix-heading-feature-email-tracker-removal = Remover rastreadores de email
+plan-matrix-heading-feature-promo-email-blocking = Bloquear emails promocionais
+plan-matrix-heading-feature-email-subdomain = Subdomínio de emails
+plan-matrix-heading-feature-email-reply = Responder a emails encaminhados
+plan-matrix-heading-feature-phone-mask = Máscara de número de celular
+plan-matrix-heading-feature-vpn = Acessar o <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } máscaras de email
+plan-matrix-feature-list-browser-extension = Extensão de navegador
+plan-matrix-feature-list-email-tracker-removal = Remover rastreadores de email
+plan-matrix-feature-list-promo-email-blocking = Bloquear emails promocionais
+plan-matrix-feature-list-email-subdomain = Subdomínio de emails
+plan-matrix-feature-list-email-reply = Responder a emails encaminhados
+plan-matrix-feature-list-phone-mask = Máscara de número de celular
+plan-matrix-feature-list-vpn = Acessar o <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Preço
+plan-matrix-feature-count-unlimited = Ilimitado
+plan-matrix-feature-included = Incluído
 
 ## Use Cases
 
@@ -392,6 +451,7 @@ waitlist-control-required = Obrigatório
 waitlist-control-email-label = Qual é seu endereço de email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = seunome@example.com
+# Deprecated
 waitlist-control-country-label = Em qual país você mora?
 waitlist-control-locale-label = Selecione um idioma.
 waitlist-submit-label = Entrar na lista de espera
