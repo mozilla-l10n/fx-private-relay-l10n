@@ -291,11 +291,17 @@ landing-pricing-offer-end-cta = Frissítés most
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Csak korlátozott ideig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price } $/hónap*
+plan-matrix-bundle-offer-content = Próbálja ki a { -brand-name-firefox-relay } e-mail-maszkokat, és kezdje el megvédeni e-mail postafiókját. Ezután frissítsen a { -brand-name-relay-premium } verzióra a még nagyobb rugalmasság és testreszabott irányítás érdekében.
 plan-matrix-heading-features = Funkciók
 plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
 plan-matrix-heading-plan-premium = E-mail-védelem
 plan-matrix-heading-plan-phones = E-mail- és telefonvédelem
 plan-matrix-heading-plan-bundle = VPN-védelem hozzáadása
+plan-matrix-heading-plan-bundle-alt = Szerezze be a { -brand-name-relay-premium }ot és a { -brand-name-mozilla-vpn(case: "accusative") }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mail-maszkok
 plan-matrix-heading-feature-browser-extension = Böngészőkiegészítő
