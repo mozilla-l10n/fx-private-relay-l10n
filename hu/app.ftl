@@ -325,6 +325,20 @@ plan-matrix-feature-list-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -bra
 plan-matrix-heading-price = Ár
 plan-matrix-feature-count-unlimited = Korlátlan
 plan-matrix-feature-included = Tartalmazza
+plan-matrix-feature-not-included = Nem tartalmazza
+plan-matrix-price-free = Ingyenes
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/hónap
+plan-matrix-price-period-yearly = Évente
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Számlázás évente
+plan-matrix-price-period-monthly = Havi
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Takarítson meg { $percentage }%-ot a VPN szokásos árán
+plan-matrix-pick = Regisztráció
+plan-matrix-join-waitlist = Csatlakozás a várólistához
 
 ## Use Cases
 
@@ -453,6 +467,7 @@ waitlist-control-email-label = Mi az e-mail-címe?
 waitlist-control-email-placeholder = email@example.com
 # Deprecated
 waitlist-control-country-label = Melyik országban él?
+waitlist-control-country-label-2 = Melyik országban vagy régióban él?
 waitlist-control-locale-label = Válassza ki az előnyben részesített nyelvét.
 waitlist-submit-label = Csatlakozás a várólistához
 # Variables:
