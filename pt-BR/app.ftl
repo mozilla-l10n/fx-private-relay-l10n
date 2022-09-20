@@ -325,6 +325,20 @@ plan-matrix-feature-list-vpn = Acessar o <vpn-logo>{ -brand-name-mozilla-vpn }</
 plan-matrix-heading-price = Preço
 plan-matrix-feature-count-unlimited = Ilimitado
 plan-matrix-feature-included = Incluído
+plan-matrix-feature-not-included = Não incluído
+plan-matrix-price-free = Gratuito
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/mês
+plan-matrix-price-period-yearly = Anualmente
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Faturamento anual
+plan-matrix-price-period-monthly = Mensalmente
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Economize { $percentage }% sobre o preço normal da VPN
+plan-matrix-pick = Cadastre-se
+plan-matrix-join-waitlist = Entrar na lista de espera
 
 ## Use Cases
 
@@ -453,6 +467,7 @@ waitlist-control-email-label = Qual é seu endereço de email?
 waitlist-control-email-placeholder = seunome@example.com
 # Deprecated
 waitlist-control-country-label = Em qual país você mora?
+waitlist-control-country-label-2 = Em que país ou região você mora?
 waitlist-control-locale-label = Selecione um idioma.
 waitlist-submit-label = Entrar na lista de espera
 # Variables:
