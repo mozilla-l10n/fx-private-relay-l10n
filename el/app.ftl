@@ -316,14 +316,41 @@ landing-pricing-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
+plan-matrix-heading-features = Δυνατότητες
+plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
+plan-matrix-heading-plan-phones = Προστασία email & τηλεφώνου
+plan-matrix-heading-plan-bundle = Προσθήκη προστασίας VPN
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Μάσκες email
+plan-matrix-heading-feature-browser-extension = Επέκταση φυλλομετρητή
 plan-matrix-heading-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-heading-feature-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-heading-feature-email-subdomain = Υποτομέας email
+plan-matrix-heading-feature-email-reply = Απάντηση σε προωθημένα email
+plan-matrix-heading-feature-phone-mask = Μάσκα αριθμού τηλεφώνου
+plan-matrix-heading-feature-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } μάσκες email
+plan-matrix-feature-list-browser-extension = Επέκταση φυλλομετρητή
+plan-matrix-feature-list-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-feature-list-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-list-email-subdomain = Υποτομέας email
+plan-matrix-feature-list-email-reply = Απάντηση σε προωθημένα email
+plan-matrix-feature-list-phone-mask = Μάσκα αριθμού τηλεφώνου
+plan-matrix-feature-list-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Τιμή
+plan-matrix-feature-included = Περιλαμβάνεται
+plan-matrix-feature-not-included = Δεν περιλαμβάνεται
 plan-matrix-price-free = Δωρεάν
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/μήνα
 plan-matrix-price-period-yearly = Ετησίως
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Ετήσια χρέωση
 plan-matrix-price-period-monthly = Μηνιαία
 plan-matrix-pick = Εγγραφή
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
@@ -455,6 +482,7 @@ waitlist-control-email-label = Ποια είναι η διεύθυνση email �
 waitlist-control-email-placeholder = toonomasas@example.com
 # Deprecated
 waitlist-control-country-label = Σε ποια χώρα κατοικείτε;
+waitlist-control-country-label-2 = Σε ποια χώρα ή περιοχή κατοικείτε;
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
 # Variables:
