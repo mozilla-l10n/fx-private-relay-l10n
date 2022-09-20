@@ -281,6 +281,7 @@ landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }*
+plan-matrix-bundle-offer-content = 試用 { -brand-name-firefox-relay } 來轉寄郵件並開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限量的信箱保護
 plan-matrix-heading-plan-premium = E-mail 保護
@@ -319,6 +320,9 @@ plan-matrix-price-period-yearly = 每年
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = 每年收費
 plan-matrix-price-period-monthly = 每月
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = VPN 原價可再享 { $percentage }% 折扣
 plan-matrix-pick = 註冊
 plan-matrix-join-waitlist = 加入排隊名單
 
