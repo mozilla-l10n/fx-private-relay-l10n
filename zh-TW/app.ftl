@@ -277,12 +277,24 @@ landing-pricing-offer-end-cta = 立刻升級
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }*
 plan-matrix-heading-features = 功能
+plan-matrix-heading-plan-free = 有限量的信箱保護
+plan-matrix-heading-plan-premium = E-mail 保護
+plan-matrix-heading-plan-phones = E-mail 與手機號碼保護
+plan-matrix-heading-plan-bundle = 加入 VPN 保護
 plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = 轉寄信箱
 plan-matrix-heading-feature-browser-extension = 瀏覽器擴充套件
 plan-matrix-heading-feature-email-tracker-removal = 移除郵件追蹤器
 plan-matrix-heading-feature-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-heading-feature-email-subdomain = 信箱子網域
 plan-matrix-heading-feature-email-reply = 回覆轉寄的電子郵件
+plan-matrix-heading-feature-phone-mask = 手機號碼轉接
 plan-matrix-heading-feature-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = 無限量轉寄信箱
 # Variables:
@@ -291,7 +303,9 @@ plan-matrix-feature-list-email-masks = { $mask_limit } 組轉寄信箱
 plan-matrix-feature-list-browser-extension = 瀏覽器擴充套件
 plan-matrix-feature-list-email-tracker-removal = 移除郵件追蹤器
 plan-matrix-feature-list-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-list-email-subdomain = 信箱子網域
 plan-matrix-feature-list-email-reply = 回覆轉寄的電子郵件
+plan-matrix-feature-list-phone-mask = 手機號碼轉接
 plan-matrix-feature-list-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = 價格
 plan-matrix-feature-count-unlimited = 無限制
