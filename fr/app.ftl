@@ -308,11 +308,19 @@ plan-matrix-heading-feature-email-masks = Alias de messagerie
 plan-matrix-heading-feature-browser-extension = Extension de navigateur
 plan-matrix-heading-feature-email-tracker-removal = Supprimer les traqueurs des e-mails
 plan-matrix-heading-feature-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-heading-feature-email-subdomain = Sous-domaine de messagerie
 plan-matrix-heading-feature-email-reply = Répondre aux e-mails transférés
+plan-matrix-heading-feature-phone-mask = Alias de numéro de téléphone
+plan-matrix-heading-feature-vpn = Accès à <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Nombre illimité d’alias de messagerie
 plan-matrix-heading-price = Prix
+plan-matrix-feature-count-unlimited = Illimité
+plan-matrix-price-free = Gratuit
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mois
+plan-matrix-price-period-yearly = Annuel
+plan-matrix-price-period-monthly = Mensuel
 plan-matrix-pick = S’inscrire
 plan-matrix-join-waitlist = Rejoindre la liste d’attente
 
