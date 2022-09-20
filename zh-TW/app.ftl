@@ -279,6 +279,34 @@ landing-pricing-offer-end-cta = 立刻升級
 landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn }
+plan-matrix-heading-feature-browser-extension = 瀏覽器擴充套件
+plan-matrix-heading-feature-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-heading-feature-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-heading-feature-email-reply = 回覆轉寄的電子郵件
+plan-matrix-heading-feature-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = 無限量轉寄信箱
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } 組轉寄信箱
+plan-matrix-feature-list-browser-extension = 瀏覽器擴充套件
+plan-matrix-feature-list-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-feature-list-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-list-email-reply = 回覆轉寄的電子郵件
+plan-matrix-feature-list-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = 價格
+plan-matrix-feature-count-unlimited = 無限制
+plan-matrix-feature-included = 內含
+plan-matrix-feature-not-included = 不含
+plan-matrix-price-free = 免費
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = 每月 { $monthly_price }
+plan-matrix-price-period-yearly = 每年
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = 每年收費
+plan-matrix-price-period-monthly = 每月
+plan-matrix-pick = 註冊
+plan-matrix-join-waitlist = 加入排隊名單
 
 ## Use Cases
 
@@ -395,6 +423,7 @@ waitlist-control-email-label = 您的電子郵件地址是什麼？
 waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = 您生活在哪個國家？
+waitlist-control-country-label-2 = 您生活在哪個國家或地區？
 waitlist-control-locale-label = 選擇想使用的語言。
 waitlist-submit-label = 加入排隊名單
 # Variables:
