@@ -303,6 +303,7 @@ plan-matrix-heading-plan-free = Protection limitée des e-mails
 plan-matrix-heading-plan-premium = Protection des e-mails
 plan-matrix-heading-plan-phones = Protection e-mails et téléphone
 plan-matrix-heading-plan-bundle = Ajouter une protection VPN
+plan-matrix-heading-plan-bundle-alt = Obtenez { -brand-name-relay-premium } et { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Alias de messagerie
 plan-matrix-heading-feature-browser-extension = Extension de navigateur
@@ -313,14 +314,31 @@ plan-matrix-heading-feature-email-reply = Répondre aux e-mails transférés
 plan-matrix-heading-feature-phone-mask = Alias de numéro de téléphone
 plan-matrix-heading-feature-vpn = Accès à <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Nombre illimité d’alias de messagerie
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } alias de messagerie
+plan-matrix-feature-list-browser-extension = Extension de navigateur
+plan-matrix-feature-list-email-tracker-removal = Supprimer les traqueurs des e-mails
+plan-matrix-feature-list-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-feature-list-email-subdomain = Sous-domaine de messagerie
+plan-matrix-feature-list-email-reply = Répondre aux e-mails transférés
+plan-matrix-feature-list-phone-mask = Alias de numéro de téléphone
+plan-matrix-feature-list-vpn = Accès à <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Prix
 plan-matrix-feature-count-unlimited = Illimité
+plan-matrix-feature-included = Inclus
+plan-matrix-feature-not-included = Non inclus
 plan-matrix-price-free = Gratuit
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mois
 plan-matrix-price-period-yearly = Annuel
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Facturation annuelle
 plan-matrix-price-period-monthly = Mensuel
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Économisez { $percentage } % sur le prix VPN normal
 plan-matrix-pick = S’inscrire
 plan-matrix-join-waitlist = Rejoindre la liste d’attente
 
