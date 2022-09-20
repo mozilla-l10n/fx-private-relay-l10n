@@ -233,43 +233,118 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Am amser cyfyngedig: E-byst arallenw dirifedi am { $monthly_price } y mis
+# Deprecated
 landing-pricing-body-2 =
     Rhowch gynnig ar e-byst arallenw { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
     Yna uwchraddiwch i { -brand-name-relay-premium } i gael rhagor o hyblygrwydd a rheolaeth fanylach.
+# Deprecated
 landing-pricing-free-price = Am Ddim
+# Deprecated
 landing-pricing-free-feature-1-2 = Hyd at 5 e-bost arallenw
+# Deprecated
 landing-pricing-free-feature-2 = Estyniad porwr
+# Deprecated
 landing-pricing-free-feature-3 = Tynnu tracwyr e-bost
+# Deprecated
 landing-pricing-free-description = Rhowch gynnig ar arallenwau { -brand-name-firefox-relay } a dechreuwch ddiogelu eich blwch derbyn e-bost.
+# Deprecated
 landing-pricing-free-cta = Cael { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Ar gael nawr!
+# Deprecated
 landing-pricing-free-feature-free = Am Ddim
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mis
+# Deprecated
 landing-pricing-premium-price-highlight = Prisio am gyfnod cyfyngedig
+# Deprecated
 landing-pricing-premium-feature-1-2 = E-byst arallenwau e-bost dirifedi
+# Deprecated
 landing-pricing-premium-feature-2 = Estyniad porwr
+# Deprecated
 landing-pricing-premium-feature-3-2 = Eich is-parth e-bost eich hun
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Ateb e-byst a anfonwyd ymlaen
+# Deprecated
 landing-pricing-premium-feature-5 = Rhwystro e-byst hyrwyddo
+# Deprecated
 landing-pricing-premium-feature-6 = Tynnu tracwyr e-bost
+# Deprecated
 landing-pricing-waitlist-description = Nid yw { -brand-name-firefox-relay-premium } ar gael yn eich gwlad ar hyn o bryd. Rhannwch eich e-bost i gael gwybod cyn gynted ag y bo modd.
+# Deprecated
 landing-pricing-waitlist-cta = Ymunwch â'r Rhestr Aros
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
+# Deprecated
 landing-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben cyn bo hir
+# Deprecated
 landing-pricing-offer-end-cta = Uwchraddiwch nawr
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Am amser cyfyngedig yn unig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+plan-matrix-bundle-offer-content =
+    Rhowch gynnig ar e-byst arallenw { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
+    Yna uwchraddiwch i { -brand-name-relay-premium } i gael rhagor o hyblygrwydd a rheolaeth fanylach.
+plan-matrix-heading-features = Nodweddion
+plan-matrix-heading-plan-free = Diogelwch e-bost cyfyngedig
+plan-matrix-heading-plan-premium = Diogelwch e-bost
+plan-matrix-heading-plan-phones = Diogelwch e-bost a ffôn
+plan-matrix-heading-plan-bundle = Ychwanegwch ddiogelwch VPN
+plan-matrix-heading-plan-bundle-alt = Cael { -brand-name-relay-premium } a { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Arallenwau e-byst
+plan-matrix-heading-feature-browser-extension = Estyniad porwr
+plan-matrix-heading-feature-email-tracker-removal = Dileu tracwyr e-bost
+plan-matrix-heading-feature-promo-email-blocking = Rhwystro e-byst hyrwyddo
+plan-matrix-heading-feature-email-subdomain = Is-barth e-bost
+plan-matrix-heading-feature-email-reply = Ateb e-byst a anfonwyd ymlaen
+plan-matrix-heading-feature-phone-mask = Cuddio rhifau ffôn
+plan-matrix-heading-feature-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = E-byst arallenwau e-bost dirifedi
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } arallenw e-bost
+plan-matrix-feature-list-browser-extension = Estyniad porwr
+plan-matrix-feature-list-email-tracker-removal = Dileu tracwyr e-bost
+plan-matrix-feature-list-promo-email-blocking = Rhwystro e-byst hyrwyddo
+plan-matrix-feature-list-email-subdomain = Is-barth e-bost
+plan-matrix-feature-list-email-reply = Ateb e-byst a anfonwyd ymlaen
+plan-matrix-feature-list-phone-mask = Cuddio rhifau ffôn
+plan-matrix-feature-list-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Pris
+plan-matrix-feature-count-unlimited = Diderfyn
+plan-matrix-feature-included = Yn gynwysedig
+plan-matrix-feature-not-included = Heb ei gynnwys
+plan-matrix-price-free = Am Ddim
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/month
+plan-matrix-price-period-yearly = Blynyddol
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Bilio yn flynyddol
+plan-matrix-price-period-monthly = Yn fisol
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Arbedwch { $percent }% o bris VPN arferol
+plan-matrix-pick = Ymunwch
+plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 
 ## Use Cases
 
@@ -396,7 +471,9 @@ waitlist-control-required = Angenrheidiol
 waitlist-control-email-label = Beth yw eich cyfeiriad e-bost?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = eichenw@example.com
+# Deprecated
 waitlist-control-country-label = Ym mha wlad ydych chi'n byw?
+waitlist-control-country-label-2 = Ym mha wlad neu ranbarth ydych chi'n byw?
 waitlist-control-locale-label = Dewiswch eich iaith.
 waitlist-submit-label = Ymunwch â'r Rhestr Aros
 # Variables:
