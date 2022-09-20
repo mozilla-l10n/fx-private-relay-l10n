@@ -380,7 +380,7 @@ plan-matrix-price-period-yearly-note = Účtovanie ročne
 plan-matrix-price-period-monthly = Mesačne
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
-plan-matrix-price-vpn-discount = Ušetríte { $percentage }% na bežnej cene VPN
+plan-matrix-price-vpn-discount = Ušetríte { $percentage } % na bežnej cene VPN
 plan-matrix-pick = Zaregistrovať sa
 plan-matrix-join-waitlist = Pridať sa na zoznam čakateľov
 
