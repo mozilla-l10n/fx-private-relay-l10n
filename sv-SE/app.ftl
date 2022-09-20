@@ -229,43 +229,69 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Endast för en begränsad tid: Obegränsade alias för { $monthly_price } per månad
+# Deprecated
 landing-pricing-body-2 =
     Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
     Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
+# Deprecated
 landing-pricing-free-price = Gratis
+# Deprecated
 landing-pricing-free-feature-1-2 = Upp till 5 e-postalias
+# Deprecated
 landing-pricing-free-feature-2 = Webbläsartillägg
+# Deprecated
 landing-pricing-free-feature-3 = Borttagning av e-postspårare
+# Deprecated
 landing-pricing-free-description = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg.
+# Deprecated
 landing-pricing-free-cta = Hämta { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Tillgänglig nu!
+# Deprecated
 landing-pricing-free-feature-free = Gratis
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / månad
+# Deprecated
 landing-pricing-premium-price-highlight = Tidsbegränsad prissättning
+# Deprecated
 landing-pricing-premium-feature-1-2 = Obegränsade e-postalias
+# Deprecated
 landing-pricing-premium-feature-2 = Webbläsartillägg
+# Deprecated
 landing-pricing-premium-feature-3-2 = Din egna e-postunderdomän
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = dinepost@dindomän.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
+# Deprecated
 landing-pricing-premium-feature-5 = Blockera reklammeddelanden
+# Deprecated
 landing-pricing-premium-feature-6 = Borttagning av e-postspårare
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
+# Deprecated
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
+# Deprecated
 landing-pricing-offer-end-warning = Denna kampanj går snart ut
+# Deprecated
 landing-pricing-offer-end-cta = Uppgradera nu
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+plan-matrix-heading-price = Pris
 
 ## Use Cases
 
@@ -392,6 +418,7 @@ waitlist-control-required = Krävs
 waitlist-control-email-label = Vad är din e-postadress?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = dittnamn@exempel.se
+# Deprecated
 waitlist-control-country-label = Vilket land bor du i?
 waitlist-control-locale-label = Välj ditt önskade språk.
 waitlist-submit-label = Ställ dig i väntelistan
