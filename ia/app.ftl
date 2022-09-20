@@ -287,12 +287,17 @@ landing-pricing-offer-end-cta = Promover ora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Solo pro tempore limitate: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } a ${ $monthly_price }/mense*
 plan-matrix-bundle-offer-content = Prova le mascas email de { -brand-name-firefox-relay } e comencia a proteger tu cassa de ingresso email. Tunc promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
 plan-matrix-heading-features = Functionalitates
 plan-matrix-heading-plan-free = Protection de email limitate
 plan-matrix-heading-plan-premium = Protection email
 plan-matrix-heading-plan-phones = Protection email e telephono
 plan-matrix-heading-plan-bundle = Adder protection VPN
+plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Mascas email
 plan-matrix-heading-feature-browser-extension = Extension del navigator
@@ -301,6 +306,7 @@ plan-matrix-heading-feature-promo-email-blocking = Blocar emails promotional
 plan-matrix-heading-feature-email-subdomain = Subdominio email
 plan-matrix-heading-feature-email-reply = Replica al emails inultrate
 plan-matrix-heading-feature-phone-mask = Masca numero de telephono
+plan-matrix-heading-feature-vpn = Acceder a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Mascas email illimitate
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
@@ -311,6 +317,7 @@ plan-matrix-feature-list-promo-email-blocking = Blocar emails promotional
 plan-matrix-feature-list-email-subdomain = Subdominio email
 plan-matrix-feature-list-email-reply = Replica al emails inultrate
 plan-matrix-feature-list-phone-mask = Masca numero de telephono
+plan-matrix-feature-list-vpn = Acceder a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Precio
 plan-matrix-feature-count-unlimited = Sin limite
 plan-matrix-feature-included = Includite
@@ -320,7 +327,12 @@ plan-matrix-price-free = Gratuite
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mense
 plan-matrix-price-period-yearly = Annual
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Facturation annual
 plan-matrix-price-period-monthly = Mensual
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Sparnia le { $percentage }% sur le precio regular del VPN
 plan-matrix-pick = Inscribe te
 plan-matrix-join-waitlist = Junge te al lista de attendentia
 
