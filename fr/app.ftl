@@ -299,6 +299,20 @@ landing-pricing-offer-end-body = Souscrivez à { -brand-name-relay-premium } ava
 plan-matrix-bundle-offer-heading = Durée limitée uniquement : { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price } €/mois*
 plan-matrix-bundle-offer-content = Essayez les alias { -brand-name-firefox-relay } et commencez à protéger votre boîte de réception. Passez ensuite à { -brand-name-relay-premium } pour encore plus de flexibilité et un contrôle personnalisé.
 plan-matrix-heading-features = Fonctionnalités
+plan-matrix-heading-plan-free = Protection limitée des e-mails
+plan-matrix-heading-plan-premium = Protection des e-mails
+plan-matrix-heading-plan-phones = Protection e-mails et téléphone
+plan-matrix-heading-plan-bundle = Ajouter une protection VPN
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Alias de messagerie
+plan-matrix-heading-feature-browser-extension = Extension de navigateur
+plan-matrix-heading-feature-email-tracker-removal = Supprimer les traqueurs des e-mails
+plan-matrix-heading-feature-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-heading-feature-email-reply = Répondre aux e-mails transférés
+plan-matrix-heading-price = Prix
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/mois
 
 ## Use Cases
 
