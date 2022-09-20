@@ -217,41 +217,68 @@ landing-how-it-works-step-3-body-2 = 登入 { -brand-name-relay } 即可追蹤�
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = 限時促銷：每月 { $monthly_price } 即可使用無限量轉寄信箱
+# Deprecated
 landing-pricing-body-2 = 試用 { -brand-name-firefox-relay } 來轉寄郵件並開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
+# Deprecated
 landing-pricing-free-price = 免費版
+# Deprecated
 landing-pricing-free-feature-1-2 = 最多 5 組轉寄信箱
+# Deprecated
 landing-pricing-free-feature-2 = 瀏覽器擴充套件
+# Deprecated
 landing-pricing-free-feature-3 = 刪除電子郵件追蹤器
+# Deprecated
 landing-pricing-free-description = 試用 { -brand-name-firefox-relay } 轉寄信箱，保護您實際的信箱收件匣。
+# Deprecated
 landing-pricing-free-cta = 下載 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = 已經推出！
+# Deprecated
 landing-pricing-free-feature-free = 免費
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = 每月 { $monthly_price }
+# Deprecated
 landing-pricing-premium-price-highlight = 限時價格
+# Deprecated
 landing-pricing-premium-feature-1-2 = 無限量轉寄信箱
+# Deprecated
 landing-pricing-premium-feature-2 = 瀏覽器擴充套件
+# Deprecated
 landing-pricing-premium-feature-3-2 = 使用您自己的電子郵件子網域
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
+# Deprecated
 landing-pricing-premium-feature-5 = 封鎖行銷郵件
+# Deprecated
 landing-pricing-premium-feature-6 = 刪除電子郵件追蹤器
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 在尚未在您的國家推出，可以在下方登記，推出時我們就會通知您。
+# Deprecated
 landing-pricing-waitlist-cta = 加入排隊名單
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
+# Deprecated
 landing-pricing-offer-end-warning = 本檔促銷活動即將結束
+# Deprecated
 landing-pricing-offer-end-cta = 立刻升級
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+plan-matrix-heading-features = 功能
+plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn }
 
 ## Use Cases
 
@@ -366,6 +393,7 @@ waitlist-control-required = 必填
 waitlist-control-email-label = 您的電子郵件地址是什麼？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = 您生活在哪個國家？
 waitlist-control-locale-label = 選擇想使用的語言。
 waitlist-submit-label = 加入排隊名單
