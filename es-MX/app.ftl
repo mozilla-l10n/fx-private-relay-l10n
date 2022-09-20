@@ -303,6 +303,7 @@ plan-matrix-heading-feature-email-tracker-removal = Eliminar rastreadores de cor
 plan-matrix-heading-feature-promo-email-blocking = Bloquear correos electrónicos promocionales
 plan-matrix-heading-feature-email-reply = Responder a correos electrónicos reenviados
 plan-matrix-heading-feature-phone-mask = Máscara de número de teléfono
+plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } máscaras de correo electrónico
