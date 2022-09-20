@@ -190,7 +190,7 @@ whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
 ## Bento Menu
 
 bento-button-title = Εφαρμογές και υπηρεσίες { -brand-name-firefox }
-fx-makes-tech = Το { -brand-name-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
+fx-makes-tech = Η τεχνολογία του { -brand-name-firefox } μάχεται για το απόρρητό σας στο διαδίκτυο.
 made-by-mozilla = Από τη { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } για υπολογιστές
 fx-lockwise = { -brand-name-firefox-lockwise }
