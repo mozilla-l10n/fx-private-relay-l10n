@@ -312,6 +312,35 @@ plan-matrix-heading-feature-promo-email-blocking = Reklameberjochten blokkearje
 plan-matrix-heading-feature-email-subdomain = E-mailsubdomein
 plan-matrix-heading-feature-email-reply = Trochstjoerde e-mailberjochten beäntwurdzje
 plan-matrix-heading-feature-phone-mask = Telefoannûmermasker
+plan-matrix-heading-feature-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } e-mailmaskers
+plan-matrix-feature-list-browser-extension = Browserútwreiding
+plan-matrix-feature-list-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-feature-list-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-feature-list-email-subdomain = E-mailsubdomein
+plan-matrix-feature-list-email-reply = Trochstjoerde e-mailberjochten beäntwurdzje
+plan-matrix-feature-list-phone-mask = Telefoannûmermasker
+plan-matrix-feature-list-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Priis
+plan-matrix-feature-count-unlimited = Unbeheind
+plan-matrix-feature-included = Ynbegrepen
+plan-matrix-feature-not-included = Net ynbegrepen
+plan-matrix-price-free = Fergees
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/moanne
+plan-matrix-price-period-yearly = Jierliks
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Jierlikse fakturearing
+plan-matrix-price-period-monthly = Moanliks
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Besparje { $percentage }% op de normale VPN-priis
+plan-matrix-pick = Registrearje
+plan-matrix-join-waitlist = Op de wachtlist pleatse
 
 ## Use Cases
 
@@ -444,6 +473,7 @@ waitlist-control-email-label = Wat is jo e-mailadres?
 waitlist-control-email-placeholder = jonamme@example.com
 # Deprecated
 waitlist-control-country-label = Yn hokker lân wenje jo?
+waitlist-control-country-label-2 = Yn hokker lân of regio wenje jo?
 waitlist-control-locale-label = Selektearje jo foarkartaal
 waitlist-submit-label = Op de wachtlist pleatse
 # Variables:
