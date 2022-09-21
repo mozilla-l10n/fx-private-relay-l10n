@@ -342,7 +342,7 @@ plan-matrix-price-period-yearly-note = Bilio yn flynyddol
 plan-matrix-price-period-monthly = Yn fisol
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
-plan-matrix-price-vpn-discount = Arbedwch { $percent }% o bris VPN arferol
+plan-matrix-price-vpn-discount = Arbedwch { $percentage }% o bris VPN arferol
 plan-matrix-pick = Ymunwch
 plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 
