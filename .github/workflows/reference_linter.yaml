@@ -1,11 +1,15 @@
 name: Lint Reference Files
 on:
   push:
-    paths: ['en/**.ftl' ]
-    branches: [ main ]
+    paths:
+      - 'en/**.ftl'
+    branches:
+      - main
   pull_request:
-    paths: ['en/**.ftl' ]
-    branches: [ main ]
+    paths:
+      - 'en/**.ftl'
+    branches:
+      - main
   workflow_dispatch:
 jobs:
   linter:
