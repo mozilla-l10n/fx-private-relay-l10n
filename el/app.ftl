@@ -321,6 +321,7 @@ plan-matrix-heading-plan-free = Περιορισμένη προστασία emai
 plan-matrix-heading-plan-premium = Προστασία email
 plan-matrix-heading-plan-phones = Προστασία email & τηλεφώνου
 plan-matrix-heading-plan-bundle = Προσθήκη προστασίας VPN
+plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-relay-premium } και { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Μάσκες email
 plan-matrix-heading-feature-browser-extension = Επέκταση φυλλομετρητή
@@ -342,6 +343,7 @@ plan-matrix-feature-list-email-reply = Απάντηση σε προωθημέν�
 plan-matrix-feature-list-phone-mask = Μάσκα αριθμού τηλεφώνου
 plan-matrix-feature-list-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Τιμή
+plan-matrix-feature-count-unlimited = Απεριόριστες
 plan-matrix-feature-included = Περιλαμβάνεται
 plan-matrix-feature-not-included = Δεν περιλαμβάνεται
 plan-matrix-price-free = Δωρεάν
