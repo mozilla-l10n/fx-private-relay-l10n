@@ -316,6 +316,11 @@ landing-pricing-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Μόνο για περιορισμένο χρονικό διάστημα: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/μήνα*
+plan-matrix-bundle-offer-content = Δοκιμάστε τις μάσκες email του { -brand-name-firefox-relay } και προστατέψτε τα εισερχόμενά σας. Έπειτα, αναβαθμίστε στο { -brand-name-relay-premium } για ακόμα περισσότερη ευελιξία και έλεγχο.
 plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
@@ -354,6 +359,9 @@ plan-matrix-price-period-yearly = Ετησίως
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Ετήσια χρέωση
 plan-matrix-price-period-monthly = Μηνιαία
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Εξοικονομήστε { $percentage }% σε σχέση με την κανονική τιμή του VPN
 plan-matrix-pick = Εγγραφή
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
 
