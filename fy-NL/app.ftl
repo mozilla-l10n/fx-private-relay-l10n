@@ -229,43 +229,89 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Tydlik oanbod: ûnbeheinde e-mailmaskers foar { $monthly_price } yn de moanne
+# Deprecated
 landing-pricing-body-2 =
     Probearje { -brand-name-firefox-relay }-e-mailmaskers en begjin mei it beskermjen fan jo Postfek YN.
     Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
+# Deprecated
 landing-pricing-free-price = Fergees
+# Deprecated
 landing-pricing-free-feature-1-2 = Maksimaal 5 e-mailmaskers
+# Deprecated
 landing-pricing-free-feature-2 = Browserútwreiding
+# Deprecated
 landing-pricing-free-feature-3 = Ferwiderjen fan e-mailtrackers
+# Deprecated
 landing-pricing-free-description = Probearje { -brand-name-firefox-relay }-maskers en begjin mei it beskermjen fan jo Postfek YN.
+# Deprecated
 landing-pricing-free-cta = { -brand-name-relay } downloade
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = No beskikber!
+# Deprecated
 landing-pricing-free-feature-free = Fergees
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/maand
+# Deprecated
 landing-pricing-premium-price-highlight = Tydlike prizen
+# Deprecated
 landing-pricing-premium-feature-1-2 = Unbeheinde e-mailmaskers
+# Deprecated
 landing-pricing-premium-feature-2 = Browserútwreiding
+# Deprecated
 landing-pricing-premium-feature-3-2 = Jo eigen e-mailsubdomein
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = joemail@jodomein.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
+# Deprecated
 landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
+# Deprecated
 landing-pricing-premium-feature-6 = Ferwiderjen fan e-mailtrackers
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is op dit stuit net beskikber yn jo lân. Lit jo e-mailadres efter om berjocht te ûntfangen as it wol beskikber komt.
+# Deprecated
 landing-pricing-waitlist-cta = Op de wachtlist pleatse
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Yntroduksjepriis: ûnbeheinde aliassen foar { $monthly_price } yn ’e moanne
+# Deprecated
 landing-pricing-offer-end-warning = Dizze aksje ferrint ynkoarten
+# Deprecated
 landing-pricing-offer-end-cta = No opwurdearje
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Mar tydlik: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } foar €{ $monthly_price }/moanne*
+plan-matrix-bundle-offer-content =
+    Probearje { -brand-name-firefox-relay }-e-mailmaskers en begjin mei it beskermjen fan jo Postfek YN.
+    Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
+plan-matrix-heading-features = Funksjes
+plan-matrix-heading-plan-free = Beheinde e-mailbeskerming
+plan-matrix-heading-plan-premium = E-mailbeskerming
+plan-matrix-heading-plan-phones = E-mail- en telefoanbeskerming
+plan-matrix-heading-plan-bundle = VPN-beskerming tafoegje
+plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-mailmaskers
+plan-matrix-heading-feature-browser-extension = Browserútwreiding
+plan-matrix-heading-feature-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-heading-feature-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-heading-feature-email-subdomain = E-mailsubdomein
+plan-matrix-heading-feature-email-reply = Trochstjoerde e-mailberjochten beäntwurdzje
+plan-matrix-heading-feature-phone-mask = Telefoannûmermasker
 
 ## Use Cases
 
@@ -396,6 +442,7 @@ waitlist-control-required = Fereaske
 waitlist-control-email-label = Wat is jo e-mailadres?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = jonamme@example.com
+# Deprecated
 waitlist-control-country-label = Yn hokker lân wenje jo?
 waitlist-control-locale-label = Selektearje jo foarkartaal
 waitlist-submit-label = Op de wachtlist pleatse
