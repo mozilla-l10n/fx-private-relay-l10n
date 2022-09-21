@@ -291,7 +291,54 @@ landing-pricing-offer-end-cta = Uppgradera nu
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Endast en begränsad tid: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/månad*
+plan-matrix-bundle-offer-content = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg. Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
+plan-matrix-heading-features = Funktioner
+plan-matrix-heading-plan-free = Begränsat e-postskydd
+plan-matrix-heading-plan-premium = E-postskydd
+plan-matrix-heading-plan-phones = E-post och telefonskydd
+plan-matrix-heading-plan-bundle = Lägg till VPN-skydd
+plan-matrix-heading-plan-bundle-alt = Skaffa { -brand-name-relay-premium } och { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-postalias
+plan-matrix-heading-feature-browser-extension = Webbläsartillägg
+plan-matrix-heading-feature-email-tracker-removal = Ta bort e-postspårare
+plan-matrix-heading-feature-promo-email-blocking = Blockera reklammeddelanden
+plan-matrix-heading-feature-email-subdomain = Underdomän för e-post
+plan-matrix-heading-feature-email-reply = Svara på vidarebefordrade mejl
+plan-matrix-heading-feature-phone-mask = Telefonnummeralias
+plan-matrix-heading-feature-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Obegränsade e-postalias
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } e-postalias
+plan-matrix-feature-list-browser-extension = Webbläsartillägg
+plan-matrix-feature-list-email-tracker-removal = Ta bort e-postspårare
+plan-matrix-feature-list-promo-email-blocking = Blockera reklammeddelanden
+plan-matrix-feature-list-email-subdomain = Underdomän för e-post
+plan-matrix-feature-list-email-reply = Svara på vidarebefordrade mejl
+plan-matrix-feature-list-phone-mask = Telefonnummeralias
+plan-matrix-feature-list-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Pris
+plan-matrix-feature-count-unlimited = Obegränsat
+plan-matrix-feature-included = Ingår
+plan-matrix-feature-not-included = Ingår ej
+plan-matrix-price-free = Gratis
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/månad
+plan-matrix-price-period-yearly = Årlig
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Fakturering årligen
+plan-matrix-price-period-monthly = Månadsvis
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Spara { $percentage }% på ordinarie VPN-pris
+plan-matrix-pick = Registrera dig
+plan-matrix-join-waitlist = Ställ dig i väntelistan
 
 ## Use Cases
 
@@ -420,6 +467,7 @@ waitlist-control-email-label = Vad är din e-postadress?
 waitlist-control-email-placeholder = dittnamn@exempel.se
 # Deprecated
 waitlist-control-country-label = Vilket land bor du i?
+waitlist-control-country-label-2 = Vilket land eller region bor du i?
 waitlist-control-locale-label = Välj ditt önskade språk.
 waitlist-submit-label = Ställ dig i väntelistan
 # Variables:
