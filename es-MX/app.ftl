@@ -291,18 +291,26 @@ landing-pricing-offer-end-cta = Actualizar ahora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+plan-matrix-bundle-offer-content = Prueba las máscaras de correo electrónico { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada. Luego actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada
 plan-matrix-heading-plan-premium = Protección de correo electrónico
 plan-matrix-heading-plan-phones = Protección de correo electrónico y teléfono
+plan-matrix-heading-plan-bundle = Añadir protección VPN
 plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Máscaras de correo electrónico
 plan-matrix-heading-feature-browser-extension = Extensión del navegador
 plan-matrix-heading-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-heading-feature-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-heading-feature-email-subdomain = Subdominio de correo electrónico
 plan-matrix-heading-feature-email-reply = Responder a correos electrónicos reenviados
 plan-matrix-heading-feature-phone-mask = Máscara de número de teléfono
+plan-matrix-heading-feature-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
@@ -310,8 +318,10 @@ plan-matrix-feature-list-email-masks = { $mask_limit } máscaras de correo elect
 plan-matrix-feature-list-browser-extension = Extensión del navegador
 plan-matrix-feature-list-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-feature-list-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-list-email-subdomain = Subdominio de correo electrónico
 plan-matrix-feature-list-email-reply = Responder a correos electrónicos reenviados
 plan-matrix-feature-list-phone-mask = Máscara de número de teléfono
+plan-matrix-feature-list-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Precio
 plan-matrix-feature-count-unlimited = Ilimitado
 plan-matrix-feature-included = Incluido
@@ -324,7 +334,11 @@ plan-matrix-price-period-yearly = Anual
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Facturación anual
 plan-matrix-price-period-monthly = Mensual
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Ahorra { $percentage }% sobre el precio normal de VPN
 plan-matrix-pick = Regístrarte
+plan-matrix-join-waitlist = Únete a la lista de espera
 
 ## Use Cases
 
