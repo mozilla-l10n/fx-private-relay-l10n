@@ -230,43 +230,116 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Лише обмежений час: необмежена кількість масок за { $monthly_price } на місяць
+# Deprecated
 landing-pricing-body-2 =
     Спробуйте маски електронної пошти { -brand-name-firefox-relay } і почніть захищати свою поштову скриньку.
     Потім оновіться до { -brand-name-relay-premium } для ще більшої гнучкості та індивідуального керування.
+# Deprecated
 landing-pricing-free-price = Безплатно
+# Deprecated
 landing-pricing-free-feature-1-2 = До 5 масок електронної пошти
+# Deprecated
 landing-pricing-free-feature-2 = Розширення для браузера
+# Deprecated
 landing-pricing-free-feature-3 = Вилучення елементів стеження електронної пошти
+# Deprecated
 landing-pricing-free-description = Спробуйте маски { -brand-name-firefox-relay }і почніть захищати свою електронну скриньку.
+# Deprecated
 landing-pricing-free-cta = Отримати { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Уже доступний!
+# Deprecated
 landing-pricing-free-feature-free = Безплатно
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+# Deprecated
 landing-pricing-premium-price-highlight = Обмежена у часі ціна
+# Deprecated
 landing-pricing-premium-feature-1-2 = Необмежена кількість масок електронної пошти
+# Deprecated
 landing-pricing-premium-feature-2 = Розширення для браузера
+# Deprecated
 landing-pricing-premium-feature-3-2 = Ваш власний субдомен електронної пошти
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Відповідайте на переслані електронні листи
+# Deprecated
 landing-pricing-premium-feature-5 = Блокування промоційних листів
+# Deprecated
 landing-pricing-premium-feature-6 = Вилучення елементів стеження електронної пошти
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } наразі недоступний у вашій країні. Укажіть свою електронну пошту, щоб отримати сповіщення, як тільки він з’явиться.
+# Deprecated
 landing-pricing-waitlist-cta = Долучитися до списку очікування
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Початкова ціна: необмежена кількість масок за { $monthly_price } на місяць
+# Deprecated
 landing-pricing-offer-end-warning = Термін дії цієї промопропозиції незабаром закінчується
+# Deprecated
 landing-pricing-offer-end-cta = Оновити зараз
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Отримайте { -brand-name-relay-premium } до { $end_date } і насолоджуйтеся преміумзахистом електронної пошти за нашою початковою щомісячною ціною.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Лише обмежений час: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/місяць*
+plan-matrix-bundle-offer-content = Спробуйте маски електронної пошти { -brand-name-firefox-relay } і почніть захищати свою поштову скриньку. Потім оновіться до { -brand-name-relay-premium } для ще кращої гнучкості та індивідуального контролю.
+plan-matrix-heading-features = Можливості
+plan-matrix-heading-plan-free = Обмежений захист електронної пошти
+plan-matrix-heading-plan-premium = Захист електронної пошти
+plan-matrix-heading-plan-phones = Захист електронної пошти та телефону
+plan-matrix-heading-plan-bundle = Додайте VPN-захист
+plan-matrix-heading-plan-bundle-alt = Отримати { -brand-name-relay-premium } і { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Маски електронної пошти
+plan-matrix-heading-feature-browser-extension = Розширення для браузера
+plan-matrix-heading-feature-email-tracker-removal = Вилучайте елементи стеження електронної пошти
+plan-matrix-heading-feature-promo-email-blocking = Блокуйте промоційні листи
+plan-matrix-heading-feature-email-subdomain = Субдомен електронної пошти
+plan-matrix-heading-feature-email-reply = Відповідайте на переслані електронні листи
+plan-matrix-heading-feature-phone-mask = Маска номера телефону
+plan-matrix-heading-feature-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Необмежена кількість масок електронної пошти
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } масок електронної пошти
+plan-matrix-feature-list-browser-extension = Розширення для браузера
+plan-matrix-feature-list-email-tracker-removal = Вилучайте елементи стеження електронної пошти
+plan-matrix-feature-list-promo-email-blocking = Блокуйте промоційні листи
+plan-matrix-feature-list-email-subdomain = Субдомен електронної пошти
+plan-matrix-feature-list-email-reply = Відповідайте на переслані електронні листи
+plan-matrix-feature-list-phone-mask = Маска номера телефону
+plan-matrix-feature-list-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Ціна
+plan-matrix-feature-count-unlimited = Необмежено
+plan-matrix-feature-included = Включено
+plan-matrix-feature-not-included = Не включено
+plan-matrix-price-free = Безплатно
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/місяць
+plan-matrix-price-period-yearly = Щороку
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Оплата щорічно
+plan-matrix-price-period-monthly = Щомісяця
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Заощадьте { $percentage }% від звичайної ціни VPN
+plan-matrix-pick = Зареєструватися
+plan-matrix-join-waitlist = Долучитись до списку очікування
 
 ## Use Cases
 
@@ -393,7 +466,9 @@ waitlist-control-required = Обов'язково
 waitlist-control-email-label = Яка ваша електронна адреса?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = В якій країні ви живете?
+waitlist-control-country-label-2 = У якій країні чи регіоні ви живете?
 waitlist-control-locale-label = Виберіть бажану мову.
 waitlist-submit-label = Долучитись до списку очікування
 # Variables:
