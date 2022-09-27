@@ -178,36 +178,72 @@ landing-how-it-works-step-1-body-2 = جہڑے ویلے تساں آن لائن ا
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ، بے انت ای میل ماسک
+# Deprecated
 landing-pricing-free-price = مفت
+# Deprecated
 landing-pricing-free-feature-1-2 = ٥ تائیں ای میل ماسک
+# Deprecated
 landing-pricing-free-feature-2 = براؤزر ایکسٹنشن
+# Deprecated
 landing-pricing-free-feature-3 = ای میل ٹریکر ہٹاوݨ
+# Deprecated
 landing-pricing-free-description = { -brand-name-firefox-relay } ماسک ازماؤ تے آپݨے ای میل ابناکس دی حفاظت شروع کرو۔
+# Deprecated
 landing-pricing-free-cta = { -brand-name-relay } گھنو
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = ہݨ دستیاب ہے!
+# Deprecated
 landing-pricing-free-feature-free = مفت
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/month
+# Deprecated
 landing-pricing-premium-price-highlight = محدود ویلے دی قیمت
+# Deprecated
 landing-pricing-premium-feature-1-2 = بے انت ای میل ماسک
+# Deprecated
 landing-pricing-premium-feature-2 = براؤزر ایکسٹنشن
+# Deprecated
 landing-pricing-premium-feature-3-2 = تہاݙی آپݨی ای میل نکی ڈومین
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
+# Deprecated
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
+# Deprecated
 landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
+# Deprecated
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
+# Deprecated
 landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
+# Deprecated
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = ای میل ماسک
+plan-matrix-heading-feature-browser-extension = براؤزر ایکسٹنشن
+plan-matrix-heading-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-heading-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-heading-feature-email-subdomain = ای میل سب ڈومین
+plan-matrix-heading-feature-email-reply = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
+plan-matrix-heading-feature-phone-mask = فون  نمبر ماسک
+plan-matrix-heading-price = قیمت
+plan-matrix-price-free = مفت
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/مہینہ
+plan-matrix-price-period-yearly = سالانہ
 
 ## Use Cases
 
@@ -272,6 +308,7 @@ waitlist-control-required = ضروری ہے
 waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
