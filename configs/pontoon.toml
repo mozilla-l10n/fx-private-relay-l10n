@@ -1,0 +1,49 @@
+# All files translated by the community by at least some locales should
+# be covered by the [[paths]] in this file.
+
+basepath = ".."
+
+locales = [
+  "cs",
+  "cy",
+  "de",
+  "el",
+  "en",
+  "en-GB",
+  "es-ES",
+  "es-MX",
+  "fr",
+  "fy-NL",
+  "hu",
+  "ia",
+  "id",
+  "it",
+  "ja",
+  "nl",
+  "pt-BR",
+  "ru",
+  "sk",
+  "skr",
+  "sv-SE",
+  "uk",
+  "zh-CN",
+  "zh-TW"
+]
+
+[[paths]]
+    reference = "en/app.ftl"
+    l10n = "{locale}/app.ftl"
+[[paths]]
+    reference = "en/phones.ftl"
+    l10n = "{locale}/phones.ftl"
+    locales = [
+        "es-MX",
+        "fr",
+    ]
+[[paths]]
+    reference = "en/bundle.ftl"
+    l10n = "{locale}/bundle.ftl"
+    locales = [
+        "es-MX",
+        "fr",
+    ]
