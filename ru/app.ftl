@@ -994,6 +994,34 @@ modal-domain-register-success-copy-2 = Теперь вы можете созда
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [one] Остался 1 час
+                [few] Осталось { $remaining_hours } часа
+               *[many] Осталось { $remaining_hours } часов
+            }
+        [1]
+            { $remaining_hours ->
+                [0] Остался 1 день
+                [one] Остался 1 день и 1 час
+                [few] Остался 1 день и { $remaining_hours } часа
+               *[many] Остался 1 день и { $remaining_hours } часов
+            }
+       *[other]
+            { $remaining_hours ->
+                [0] Осталось { $remaining_days } дней
+                [one] Осталось { $remaining_days } дней и 1 час
+                [few] Осталось { $remaining_days } дней и { $remaining_hours } часа
+               *[many] Осталось { $remaining_days } дней и { $remaining_hours } часов
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Дней
