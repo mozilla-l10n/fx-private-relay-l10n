@@ -291,6 +291,53 @@ landing-pricing-offer-end-cta = Actualizar ahora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }€ al mes*
+plan-matrix-bundle-offer-content =
+    Prueba las máscaras de correo electrónico de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo.
+    Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
+plan-matrix-heading-features = Características
+plan-matrix-heading-plan-free = Protección de correo electrónico limitada
+plan-matrix-heading-plan-premium = Protección de correo electrónico
+plan-matrix-heading-plan-phones = Protección de correo electrónico y teléfono
+plan-matrix-heading-plan-bundle = Añadir protección VPN
+plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Máscaras de correo electrónico
+plan-matrix-heading-feature-browser-extension = Extensión del navegador
+plan-matrix-heading-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-heading-feature-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-heading-feature-email-subdomain = Subdominio de correo electrónico
+plan-matrix-heading-feature-email-reply = Responde a correos electrónicos reenviados
+plan-matrix-heading-feature-phone-mask = Máscara de número de teléfono
+plan-matrix-heading-feature-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Máscaras de correo electrónico ilimitadas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } máscaras de correo electrónico
+plan-matrix-feature-list-browser-extension = Extensión del navegador
+plan-matrix-feature-list-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-list-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-feature-list-email-subdomain = Subdominio de correo electrónico
+plan-matrix-feature-list-email-reply = Responde a correos electrónicos reenviados
+plan-matrix-feature-list-phone-mask = Máscara de número de teléfono
+plan-matrix-feature-list-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Precio
+plan-matrix-feature-count-unlimited = Ilimitado
+plan-matrix-feature-included = Incluido
+plan-matrix-feature-not-included = No incluido
+plan-matrix-price-free = Gratis
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/mes
+plan-matrix-price-period-yearly = Anualmente
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Facturación anual
+plan-matrix-price-period-monthly = Mensual
+plan-matrix-pick = Regístrate
+plan-matrix-join-waitlist = Únete a la lista de espera
 
 ## Use Cases
 
@@ -372,6 +419,7 @@ premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-rel
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de tu bandeja de entrada que proporciona { -brand-name-relay }, pero con máscaras de correo electrónico ilimitadas y tu propio subdominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
 premium-promo-perks-cta-label = Actualizar ahora
 premium-promo-perks-cta-tooltip = Actualiza a { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = ¡Nuevo!
 premium-promo-perks-perk-unlimited-headline-2 = Crea máscaras de correo electrónico ilimitadas
 premium-promo-perks-perk-unlimited-body-2 = No más límite de cinco máscaras: con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
 premium-promo-perks-perk-custom-domain-headline-2 = Elige tu propio subdominio personalizado
@@ -380,6 +428,8 @@ premium-promo-perks-perk-custom-domain-body-2 =
     ¿Necesitas una máscara para las reservas de restaurantes? Usa una como comida@tudominio.mozmail.com. No es necesario crear la máscara de antemano.
 premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el panel
 premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras en el panel de fácil uso: si ves que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
+premium-promo-perks-perk-block-promotionals-headline = Bloquear correos promocionales
+premium-promo-perks-perk-tracker-blocking-headline = Eliminar rastreadores de correo electrónico
 premium-promo-use-cases-headline-2 = Utiliza las máscaras de correo de { -brand-name-relay } en cualquier lugar
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo máscaras personalizadas únicas, como “descuentos@midominio.mozmail.com.”
@@ -388,6 +438,11 @@ premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu ide
 premium-promo-use-cases-gaming-heading = Juegos
 premium-promo-use-cases-gaming-body-2 = ¿Te preocupa que otros jugadores o trolls sepan quién eres a través de tu nombre y dirección de correo electrónico? Utiliza una máscara como “juegoenlinea@midominio.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
 premium-promo-pricing-free-price = Tu plan gratuito actual
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
+premium-promo-pricing-offer-end-warning = Esta promoción termina pronto
+premium-promo-pricing-offer-end-cta = Actualizar ahora
 
 ## The Premium waitlist page
 
