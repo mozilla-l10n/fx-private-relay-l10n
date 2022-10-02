@@ -204,6 +204,11 @@ landing-hero-headline-2 = Protege tu dirección de correo electrónico real para
 landing-hero-body-2 =
     Las máscaras de correo electrónico de { -brand-name-firefox-relay } protegen tu dirección de correo electrónico real al impedir que sea visible públicamente, reenviando automáticamente los mensajes a tu bandeja de entrada real.
     Ahora puedes recibir solo los mensajes que desees en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para comenzar.
+landing-offer-end-hero-heading = ¡Nuestra oferta a precio de lanzamiento terminará pronto!
+landing-offer-end-hero-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
 
 ## How it works section
 
@@ -224,33 +229,68 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Solo por tiempo limitado: máscaras de correo electrónico ilimitadas por { $monthly_price } al mes
+# Deprecated
 landing-pricing-body-2 =
     Prueba las máscaras de correo electrónico de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo.
     Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
+# Deprecated
 landing-pricing-free-price = Gratis
+# Deprecated
 landing-pricing-free-feature-1-2 = Hasta 5 máscaras de correo electrónico
+# Deprecated
 landing-pricing-free-feature-2 = Extensión del navegador
+# Deprecated
+landing-pricing-free-feature-3 = Eliminación de rastreadores en el correo electrónico
+# Deprecated
 landing-pricing-free-description = Prueba las máscaras de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo electrónico.
+# Deprecated
 landing-pricing-free-cta = Obtén { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = ¡Disponible ahora!
+# Deprecated
 landing-pricing-free-feature-free = Gratis
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/mes
+# Deprecated
 landing-pricing-premium-price-highlight = Precios válidos por tiempo limitado
+# Deprecated
 landing-pricing-premium-feature-1-2 = Máscaras de correo electrónico ilimitadas
+# Deprecated
 landing-pricing-premium-feature-2 = Extensión del navegador
+# Deprecated
 landing-pricing-premium-feature-3-2 = Tu propio subdominio de correo electrónico
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = tuemail@tudominio.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Responde a correos electrónicos reenviados
+# Deprecated
 landing-pricing-premium-feature-5 = Bloquear correos promocionales
+# Deprecated
+landing-pricing-premium-feature-6 = Eliminación de rastreadores en el correo electrónico
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } no está disponible actualmente en tu país. Por favor, comparte con nosotros tu correo electrónico para que te avisemos en cuanto esté disponible.
+# Deprecated
 landing-pricing-waitlist-cta = Únete a la lista de espera
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
+# Deprecated
+landing-pricing-offer-end-warning = Esta promoción termina pronto
+# Deprecated
+landing-pricing-offer-end-cta = Actualizar ahora
+# Deprecated
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
 
 ## Use Cases
 
@@ -357,6 +397,7 @@ waitlist-control-required = Requerido
 waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = tunombre@example.com
+# Deprecated
 waitlist-control-country-label = ¿En qué país vives?
 waitlist-control-locale-label = Selecciona tu idioma preferido.
 waitlist-submit-label = Únete a la lista de espera
