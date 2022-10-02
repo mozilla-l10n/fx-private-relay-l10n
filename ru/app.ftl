@@ -165,6 +165,8 @@ whatsnew-feature-tracker-removal-snippet = Теперь { -brand-name-relay } м
 # Deprecated
 whatsnew-feature-tracker-removal-description = Теперь { -brand-name-relay } может удалять распространённые трекеры из пересылаемых электронных писем, помогая вам оставаться невидимыми для рекламодателей.
 whatsnew-feature-tracker-removal-description-2 = Теперь { -brand-name-relay } может удалять распространённые трекеры из пересылаемых электронных писем, помогая вам оставаться невидимыми для рекламодателей. Включите эту функцию в «Настройках».
+whatsnew-feature-offer-countdown-heading = Наше начальное ценовое предложение скоро заканчивается!
+whatsnew-feature-offer-countdown-cta = Обновитесь прямо сейчас
 
 ## Bento Menu
 
@@ -208,6 +210,7 @@ landing-hero-headline-2 = Защитите свой настоящий адре�
 landing-hero-body-2 =
     Псевдонимы { -brand-name-firefox-relay } защищают ваш настоящий адрес электронной почты от посторонних, автоматически пересылая письма в ваш настоящий почтовый ящик. 
     Теперь вы будете получать только нужные письма. Зарегистрируйтесь с помощью { -brand-name-firefox-account(case: "genitive") }, чтобы начать.
+landing-offer-end-hero-cta = Обновитесь прямо сейчас
 
 ## How it works section
 
@@ -278,23 +281,39 @@ landing-pricing-premium-feature-6 = Удаление трекеров
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } сейчас не доступен в вашей стране. Пожалуйста, оставьте свою электронную почту, чтобы получить уведомление, как только он появится.
 # Deprecated
 landing-pricing-waitlist-cta = Присоединиться к списку ожидания
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Начальная цена: неограниченное число псевдонимов за { $monthly_price } в месяц
+# Deprecated
+landing-pricing-offer-end-warning = Эта акция скоро закончится
+# Deprecated
+landing-pricing-offer-end-cta = Обновитесь прямо сейчас
 plan-matrix-heading-features = Возможности
+plan-matrix-heading-plan-free = Ограниченная защита электронной почты
 plan-matrix-heading-plan-premium = Защита электронной почты
 plan-matrix-heading-plan-phones = Защита телефона и электронной почты
 plan-matrix-heading-plan-bundle = Добавить защиту VPN
+plan-matrix-heading-plan-bundle-alt = Получите { -brand-name-relay-premium } и { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Псевдонимы электронной почты
 plan-matrix-heading-feature-browser-extension = Расширение для браузера
+plan-matrix-heading-feature-email-tracker-removal = Удаление трекеров из электронных писем
 plan-matrix-heading-feature-promo-email-blocking = Блокировка рекламных писем
 plan-matrix-heading-feature-email-subdomain = Поддомен электронной почты
 plan-matrix-heading-feature-email-reply = Возможность отвечать на пересланные письма
+plan-matrix-heading-feature-phone-mask = Маскировка номера телефона
 plan-matrix-heading-feature-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Неограниченное число псевдонимов электронной почты
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } псевдонимов электронной почты
 plan-matrix-feature-list-browser-extension = Расширение для браузера
+plan-matrix-feature-list-email-tracker-removal = Удаление трекеров из электронных писем
 plan-matrix-feature-list-promo-email-blocking = Блокировка рекламных писем
 plan-matrix-feature-list-email-subdomain = Поддомен электронной почты
 plan-matrix-feature-list-email-reply = Возможность отвечать на пересланные письма
+plan-matrix-feature-list-phone-mask = Маскировка номера телефона
 plan-matrix-feature-list-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Цена
 plan-matrix-feature-count-unlimited = Неограниченно
@@ -304,6 +323,15 @@ plan-matrix-price-free = Бесплатно
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/месяц
+plan-matrix-price-period-yearly = Ежегодно
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = { "" }
+plan-matrix-price-period-monthly = Ежемесячно
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Сэкономьте { $percentage }% по сравнению с обычной ценой на VPN
+plan-matrix-pick = Зарегистрироваться
+plan-matrix-join-waitlist = Присоединиться к списку ожидания
 
 ## Use Cases
 
@@ -379,6 +407,8 @@ premium-promo-hero-headline = Упростите защиту своего по�
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = С { -brand-name-firefox-relay-premium } вы получите неограниченное число собственных псевдонимов электронной почты, которые будут пересылать только нужные вам письма на ваш настоящий адрес. <b>В течение ограниченного времени вы можете перейти на { -brand-name-relay-premium } всего за { $monthly_price } в месяц.</b>
 premium-promo-hero-cta = Перейти сейчас
+premium-promo-offer-end-hero-heading = Наше начальное ценовое предложение скоро заканчивается!
+premium-promo-offer-end-hero-cta = Обновитесь прямо сейчас
 premium-promo-availability-warning = { -brand-name-relay-premium } сейчас доступен в Австрии, Бельгии, Великобритании, Германии, Ирландии, Испании, Италии, Канаде, Малайзии, Нидерландах, Новой Зеландии, Сингапуре, США, Франции и Швейцарии.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } сейчас доступен в Австрии, Бельгии, Великобритании, Германии, Ирландии, Испании, Италии, Канаде, Малайзии, Нидерландах, Новой Зеландии, Сингапуре, США, Финляндии, Франции, Швейцарии и Швеции.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } доступен в Австрии, Бельгии, Великобритании, Германии, Греции, Ирландии, Испании, Италии, Канаде, Кипре, Латвии, Литве, Люксембурге, Малайзии, Мальте, Нидерландах, Новой Зеландии, Португалии, Сингапуре, Словакии, Словении, США, Финляндии, Франции, Швейцарии, Швеции и Эстонии.
@@ -405,6 +435,11 @@ premium-promo-use-cases-social-networks-body-2 = Хотите лучше защ�
 premium-promo-use-cases-gaming-heading = Игры
 premium-promo-use-cases-gaming-body-2 = Беспокоитесь о том, что другие игроки или тролли узнают, кто вы, по вашему тегу и адресу электронной почты? Воспользуйтесь псевдонимом, например, «‎onlinegame@mydomain.mozmail.com», чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
 premium-promo-pricing-free-price = Ваш текущий тарифный план: бесплатный
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Начальная цена: неограниченное число псевдонимов за { $monthly_price } в месяц
+premium-promo-pricing-offer-end-warning = Эта акция скоро закончится
+premium-promo-pricing-offer-end-cta = Обновитесь прямо сейчас
 
 ## The Premium waitlist page
 
@@ -416,6 +451,7 @@ waitlist-control-email-label = Какой у вас адрес электрон�
 waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = В какой стране вы живёте?
+waitlist-control-country-label-2 = В какой стране или регионе вы живете?
 waitlist-control-locale-label = Выберите предпочитаемый язык.
 waitlist-submit-label = Присоединиться к списку ожидания
 # Variables:
@@ -729,6 +765,9 @@ banner-upgrade-loyalist-headline-2 = Защитите свою приватно�
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Защитите свою приватность всего за { $monthly_price }, присоединившись к нашей миссии по созданию лучшего Интернета
 banner-upgrade-loyalist-cta = Получить больше защиты
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Наше начальное ценовое предложение скоро заканчивается!
+banner-offer-end-cta = Обновитесь прямо сейчас
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Вы можете создать любой адрес @{ $subdomain }
@@ -850,6 +889,12 @@ multi-part-onboarding-premium-welcome-button-start = Приступим
 multi-part-onboarding-premium-get-subdomain = Получите собственный поддомен
 multi-part-onboarding-reply-headline = Отвечайте на электронные письма
 multi-part-onboarding-premium-welcome-description-2 = Больше никакого ограничения в пять псевдонимов: теперь вы можете создавать сколько угодно собственных или случайных псевдонимов. На компьютере вы можете использовать дополнение { -brand-name-relay }, чтобы создавать их на ходу.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    С собственным поддоменом вы можете использовать псевдонимы, не создавая их
+    заранее.
+    Нужен псевдоним для подписки на новостную рассылку? Просто воспользуйтесь «read@customsubdomain{ $mozmail }»
 multi-part-onboarding-premium-domain-cta-2 = Зарегистрируйте собственный поддомен сейчас:
 multi-part-onboarding-premium-domain-button-skip-2 = Продолжить, я зарегистрирую собственный поддомен позже
 multi-part-onboarding-premium-extension-headline = Блокируйте, пересылайте и отвечайте
