@@ -210,6 +210,7 @@ landing-hero-headline-2 = Защитите свой настоящий адре�
 landing-hero-body-2 =
     Псевдонимы { -brand-name-firefox-relay } защищают ваш настоящий адрес электронной почты от посторонних, автоматически пересылая письма в ваш настоящий почтовый ящик. 
     Теперь вы будете получать только нужные письма. Зарегистрируйтесь с помощью { -brand-name-firefox-account(case: "genitive") }, чтобы начать.
+landing-offer-end-hero-heading = Наше начальное ценовое предложение скоро заканчивается!
 landing-offer-end-hero-cta = Обновитесь прямо сейчас
 
 ## How it works section
@@ -289,6 +290,11 @@ landing-pricing-offer-end-headline = Начальная цена: неогран
 landing-pricing-offer-end-warning = Эта акция скоро закончится
 # Deprecated
 landing-pricing-offer-end-cta = Обновитесь прямо сейчас
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Только в течение ограниченного времени: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/месяц*
+plan-matrix-bundle-offer-content = Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик. Затем перейдите на { -brand-name-relay-premium } для ещё большей гибкости и индивидуального управления.
 plan-matrix-heading-features = Возможности
 plan-matrix-heading-plan-free = Ограниченная защита электронной почты
 plan-matrix-heading-plan-premium = Защита электронной почты
@@ -1083,6 +1089,9 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } удаляе�
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов и собственный поддомен электронной почты.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Наше начальное ежемесячное ценовое предложение истекает. Обновитесь до { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения). Подробнее: { $faq_link }.
 # Variables:
@@ -1093,6 +1102,9 @@ forwarded-email-trackers-blocked-report = Подробнее
 forwarded-email-footer-2 = Прекратить переадресацию электронных писем и управлять настройками всех псевдонимов можно тут.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Перейти на { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Обновите до { $premium_link } до истечения срока действия начальной цены.
 
 ## Notifications component
 
