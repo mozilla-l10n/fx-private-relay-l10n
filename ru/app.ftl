@@ -228,35 +228,82 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Временное предложение: неограниченное число псевдонимов электронной почты за { $monthly_price } в месяц
+# Deprecated
 landing-pricing-body-2 =
     Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик.
     Затем перейдите на { -brand-name-relay-premium } для ещё большей гибкости и индивидуального управления.
+# Deprecated
 landing-pricing-free-price = Бесплатно
+# Deprecated
 landing-pricing-free-feature-1-2 = До 5 псевдонимов электронной почты
+# Deprecated
 landing-pricing-free-feature-2 = Расширение для браузера
+# Deprecated
 landing-pricing-free-feature-3 = Удаление трекеров
+# Deprecated
 landing-pricing-free-description = Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик.
+# Deprecated
 landing-pricing-free-cta = Получить { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Сейчас доступно!
+# Deprecated
 landing-pricing-free-feature-free = Бесплатно
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/месяц
+# Deprecated
 landing-pricing-premium-price-highlight = Временное предложение
+# Deprecated
 landing-pricing-premium-feature-1-2 = Неограниченное число псевдонимов электронной почты
+# Deprecated
 landing-pricing-premium-feature-2 = Расширение для браузера
+# Deprecated
 landing-pricing-premium-feature-3-2 = Собственный поддомен электронной почты
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Возможность отвечать на пересланные письма
+# Deprecated
 landing-pricing-premium-feature-5 = Блокировка рекламных писем
+# Deprecated
 landing-pricing-premium-feature-6 = Удаление трекеров
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } сейчас не доступен в вашей стране. Пожалуйста, оставьте свою электронную почту, чтобы получить уведомление, как только он появится.
+# Deprecated
 landing-pricing-waitlist-cta = Присоединиться к списку ожидания
+plan-matrix-heading-features = Возможности
+plan-matrix-heading-plan-premium = Защита электронной почты
+plan-matrix-heading-plan-phones = Защита телефона и электронной почты
+plan-matrix-heading-plan-bundle = Добавить защиту VPN
+plan-matrix-heading-feature-browser-extension = Расширение для браузера
+plan-matrix-heading-feature-promo-email-blocking = Блокировка рекламных писем
+plan-matrix-heading-feature-email-subdomain = Поддомен электронной почты
+plan-matrix-heading-feature-email-reply = Возможность отвечать на пересланные письма
+plan-matrix-heading-feature-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Неограниченное число псевдонимов электронной почты
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } псевдонимов электронной почты
+plan-matrix-feature-list-browser-extension = Расширение для браузера
+plan-matrix-feature-list-promo-email-blocking = Блокировка рекламных писем
+plan-matrix-feature-list-email-subdomain = Поддомен электронной почты
+plan-matrix-feature-list-email-reply = Возможность отвечать на пересланные письма
+plan-matrix-feature-list-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Цена
+plan-matrix-feature-count-unlimited = Неограниченно
+plan-matrix-feature-included = Включено
+plan-matrix-feature-not-included = Не включено
+plan-matrix-price-free = Бесплатно
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/месяц
 
 ## Use Cases
 
@@ -367,6 +414,7 @@ waitlist-control-required = Обязательно
 waitlist-control-email-label = Какой у вас адрес электронной почты?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = В какой стране вы живёте?
 waitlist-control-locale-label = Выберите предпочитаемый язык.
 waitlist-submit-label = Присоединиться к списку ожидания
