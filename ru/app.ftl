@@ -346,6 +346,8 @@ plan-matrix-price-free = Бесплатно
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/месяц
 plan-matrix-price-period-yearly = Ежегодно
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Оплата ежегодно
 plan-matrix-price-period-monthly = Ежемесячно
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
