@@ -34,6 +34,9 @@ locales = [
     reference = "en/app.ftl"
     l10n = "{locale}/app.ftl"
 [[paths]]
+    reference = "en/brands.ftl"
+    l10n = "{locale}/brands.ftl"
+[[paths]]
     reference = "en/phones.ftl"
     l10n = "{locale}/phones.ftl"
     locales = [
