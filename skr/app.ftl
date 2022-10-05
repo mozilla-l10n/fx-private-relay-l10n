@@ -231,6 +231,9 @@ landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی �
 # Deprecated
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
+plan-matrix-heading-plan-premium = ای میل حفاظت
+plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
+plan-matrix-heading-plan-bundle = وی پی این حفاظت شامل کرو
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = ای میل ماسک
 plan-matrix-heading-feature-browser-extension = براؤزر ایکسٹنشن
@@ -239,12 +242,23 @@ plan-matrix-heading-feature-promo-email-blocking = مشہوری ای میلاں 
 plan-matrix-heading-feature-email-subdomain = ای میل سب ڈومین
 plan-matrix-heading-feature-email-reply = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 plan-matrix-heading-feature-phone-mask = فون  نمبر ماسک
+plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } ای میل ماسک
+plan-matrix-feature-list-browser-extension = براؤزر ایکسٹنشن
+plan-matrix-feature-list-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-feature-list-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-list-email-subdomain = ای میل سب ڈومین
+plan-matrix-feature-list-email-reply = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
+plan-matrix-feature-list-phone-mask = فون  نمبر ماسک
 plan-matrix-heading-price = قیمت
 plan-matrix-price-free = مفت
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/مہینہ
 plan-matrix-price-period-yearly = سالانہ
+plan-matrix-pick = سائن اپ
 
 ## Use Cases
 
