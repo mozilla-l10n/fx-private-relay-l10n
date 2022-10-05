@@ -230,6 +230,7 @@ landing-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } �
 landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 # Deprecated
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+plan-matrix-heading-plan-free = محدود ای میل حفاظت
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = ای میل ماسک
 plan-matrix-heading-feature-browser-extension = براؤزر ایکسٹنشن
