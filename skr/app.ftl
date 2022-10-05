@@ -258,6 +258,7 @@ plan-matrix-price-free = مفت
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/مہینہ
 plan-matrix-price-period-yearly = سالانہ
+plan-matrix-price-period-monthly = ماہانہ
 plan-matrix-pick = سائن اپ
 
 ## Use Cases
