@@ -1091,6 +1091,9 @@ forwarded-email-trackers-blocked-report = Saber más
 forwarded-email-footer-2 = Aquí puedes detener el reenvío de correo electrónico y administrar la configuración de todas las máscaras.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } antes de que se acabe nuestro precio de lanzamiento.
 
 ## Notifications component
 
