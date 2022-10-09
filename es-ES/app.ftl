@@ -961,6 +961,15 @@ trackerreport-confidentiality-notice = Las informaciones sobre los elementos de 
 trackerreport-removal-explainer-heading = Cómo funciona la eliminación de rastreadores
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } ahora puede eliminar los rastreadores más comunes de tus correos electrónicos reenviados a través de tus máscaras de correo electrónico. Seguirás recibiendo tu correos electrónicos, pero los rastreadores se eliminarán de tus correos reenviados, para que puedas recibir correos sin ser rastreado. Para activar el eliminador de rastreo en todas tus máscaras a la vez, activa el eliminador de rastreo en los ajustes en lugar de hacerlo individualmente para cada máscara.
 trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
+trackerreport-trackers-explainer-content-part1 = Los rastreadores en los correos electrónicos son una herramienta común de vigilancia y publicidad que se ha apoderado de muchas bandejas de entrada. Estos rastreadores se pueden usar para saber más sobre tu comportamiento en línea, tus intereses y tu actividad de correo electrónico.
+trackerreport-trackers-explainer-content-part2 = Una empresa u organización incorporará un rastreador en los correos electrónicos que te envían, generalmente oculto dentro de una imagen o un enlace. Cuando se abre el correo electrónico, el código dentro del rastreador envía datos a la empresa.
+# Deprecated
+trackerreport-breakage-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado  porque los rastreadores a menudo se encuentran dentro de las imágenes, que no se cargarán si contienen un rastreador.
+trackerreport-breakage-warning-2 = Importante: la eliminación de rastreadores puede hacer que tu correo electrónico se vea roto porque los rastreadores a menudo se encuentran en imágenes y enlaces. Cualquier correo electrónico que recibas no se puede reparar ni recuperar.
+trackerreport-faq-heading = Principales preguntas sobre los rastreadores de correo electrónico
+trackerreport-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
+trackerreport-loading = Cargando el informe de eliminación de rastreadores…
+trackerreport-load-error = Se ha producido un error al generar el informe de eliminación de rastreadores. Actualiza la página para volver a intentarlo.
 
 ## Modals
 
@@ -1008,6 +1017,18 @@ modal-domain-register-success-copy-2 = Ahora puedes crear un número ilimitado d
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Días
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Horas
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Seg.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -1057,8 +1078,15 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CC y 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-2 = Cambia a { $premium_link } para obtener máscaras ilimitadas y un subdominio personalizado de correo electrónico.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Nuestra oferta de lanzamiento está a punto de terminar. Actualiza a { $premium_link }.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluidos archivos adjuntos) con un tamaño máximo de { email-size-limit }. Para saber más consulta nuestras { $faq_link }.
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } rastreadores de correo electrónico eliminados
+forwarded-email-trackers-blocked-report = Saber más
 # This entire text is a link
 forwarded-email-footer-2 = Aquí puedes detener el reenvío de correo electrónico y administrar la configuración de todas las máscaras.
 # This entire text is a link
