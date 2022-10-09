@@ -441,7 +441,9 @@ premium-promo-perks-perk-custom-domain-body-2 =
 premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el panel
 premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras en el panel de fácil uso: si ves que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
 premium-promo-perks-perk-block-promotionals-headline = Bloquear correos promocionales
+premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
 premium-promo-perks-perk-tracker-blocking-headline = Eliminar rastreadores de correo electrónico
+premium-promo-perks-perk-tracker-blocking-body = Ahora { -brand-name-relay } puede ayudarte a detener el seguimiento desde el correo: tus máscaras de correo eliminarán los rastreadores de correo comunes de cualquier correo que se te reenvíe, lo que te ayudará a mantenerte invisible para los rastreadores y los anunciantes.
 premium-promo-use-cases-headline-2 = Utiliza las máscaras de correo de { -brand-name-relay } en cualquier lugar
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo máscaras personalizadas únicas, como “descuentos@midominio.mozmail.com.”
@@ -455,6 +457,9 @@ premium-promo-pricing-free-price = Tu plan gratuito actual
 premium-promo-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
 premium-promo-pricing-offer-end-warning = Esta promoción termina pronto
 premium-promo-pricing-offer-end-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
 
 ## The Premium waitlist page
 
@@ -466,6 +471,7 @@ waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
 waitlist-control-email-placeholder = tunombre@example.com
 # Deprecated
 waitlist-control-country-label = ¿En qué país vives?
+waitlist-control-country-label-2 = ¿En qué país o región vives?
 waitlist-control-locale-label = Selecciona tu idioma preferido.
 waitlist-submit-label = Únete a la lista de espera
 # Variables:
@@ -510,6 +516,7 @@ setting-tracker-removal-description = Eliminar los rastreadores de correo electr
 setting-tracker-removal-note = { -brand-name-firefox-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados a través de tus máscaras.
 # Deprecated
 setting-tracker-removal-warning = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
+setting-tracker-removal-warning-2 = Importante: la eliminación de rastreadores puede hacer que tu correo electrónico se vea roto porque los rastreadores a menudo se encuentran en imágenes y enlaces. Cualquier correo electrónico que recibas no se puede reparar ni recuperar.
 
 ## FAQ Page
 
