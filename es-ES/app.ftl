@@ -852,6 +852,7 @@ modal-custom-alias-picker-form-prefix-label-2 = Introduce el prefijo de la másc
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "restaurante"
 modal-custom-alias-picker-form-prefix-spaces-warning = No se permiten espacios en las máscaras de correo electrónico.
 modal-custom-alias-picker-form-prefix-invalid-warning = Las máscaras de correo electrónico solo pueden tener letras minúsculas, números o guiones, y además no pueden comenzar o terminar con un guión.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Las máscaras de correo electrónico solo pueden tener letras minúsculas, números, puntos o guiones, y además no pueden comenzar o terminar con un guión.
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 modal-custom-alias-picker-creation-error-2 = Tu máscara de correo electrónico personalizada no ha podido ser creada manualmente. Por favor, inténtalo de nuevo, o envía un correo electrónico a la máscara para crearla.
 
@@ -911,6 +912,11 @@ multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
 multi-part-onboarding-premium-welcome-description-2 = No más límite de cinco máscaras: ahora puedes generar tantas máscaras personalizadas o aleatorias como necesites. En el escritorio, puedes usar el complemento { -brand-name-relay } para crearlos sobre la marcha.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Con un subdominio personalizado, puedes crear máscaras sin tener que generarlas previamente.
+    ¿Necesitas uno para suscribirte a un boletín? Simplemente di "leer@subdominiopersonalizado{ $mozmail }"
 multi-part-onboarding-premium-domain-cta-2 = Registra ahora tu subdominio personalizado:
 multi-part-onboarding-premium-domain-button-skip-2 = Continuar, registraré mi subdominio personalizado más tarde
 multi-part-onboarding-premium-extension-headline = Bloquear, reenviar y responder
@@ -928,6 +934,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de contro
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Informe de eliminación de rastreadores de { -brand-name-relay }
 trackerreport-meta-from-heading = Remitente
 trackerreport-meta-receivedat-heading = Recibido por
 trackerreport-meta-count-heading = Rastreadores totales
@@ -935,6 +942,7 @@ trackerreport-trackers-heading = Rastreadores detectados
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Dominio del rastreador
 trackerreport-trackers-count-heading = Número de rastreadores
+trackerreport-trackers-none = No se han detectado rastreadores en este correo electrónico.
 # Variables:
 #   $count (number) - Total number of trackers found in an email
 trackerreport-trackers-value =
@@ -949,6 +957,9 @@ trackerreport-tracker-count =
         [one] 1 rastreador
        *[other] { $count } rastreadores
     }
+trackerreport-confidentiality-notice = Las informaciones sobre los elementos de rastreo o de las direcciones mostradas en estos informes no han sido guardadas por { -brand-name-firefox-relay } y solo se incluyen en las URLs del informe. No conservamos tus correos electrónicos.
+trackerreport-removal-explainer-heading = Cómo funciona la eliminación de rastreadores
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } ahora puede eliminar los rastreadores más comunes de tus correos electrónicos reenviados a través de tus máscaras de correo electrónico. Seguirás recibiendo tu correos electrónicos, pero los rastreadores se eliminarán de tus correos reenviados, para que puedas recibir correos sin ser rastreado. Para activar el eliminador de rastreo en todas tus máscaras a la vez, activa el eliminador de rastreo en los ajustes en lugar de hacerlo individualmente para cada máscara.
 trackerreport-trackers-explainer-heading = Acerca de los rastreadores de correo electrónico
 
 ## Modals
