@@ -559,6 +559,7 @@ faq-question-1-answer-b-2-html = Si ves un problema mayor de correo electrónico
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-availability-answer-v2 = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Finlandia, Francia, Bélgica, Austria, España, Italia, Suecia, Suiza, Países Bajos e Irlanda.
+faq-question-availability-answer-v3 = { -brand-name-relay } está disponible gratuitamente en la mayoría de los países. { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
 faq-question-4-question-2 = ¿Puedo responder mensajes usando mi máscara de correo electrónico de { -brand-name-relay }?
 faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a  surecepción. Si añades a alguien en CC o CCO al responder a un correo electrónico, tu dirección de correo electrónico original estará expuesta a los destinatarios y a todos los que reciban el correo electrónico. Si no quieres que se exponga tu dirección de correo electrónico original, no añadas CC o CCO al responder.
 faq-question-subdomain-characters-question = ¿Qué caracteres puedo utilizar para crear un subdominio?
@@ -601,6 +602,7 @@ faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación de
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
 # Deprecated
 faq-question-trackerremoval-breakage-answer = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
+faq-question-trackerremoval-breakage-answer-2 = A veces, la eliminación de rastreadores puede hacer que tu correo electrónico se vea incompleto, porque los rastreadores a menudo se encuentran dentro de las imágenes y enlaces. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto te impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
 
 ## Profile Page (Logged In)
 
@@ -656,6 +658,10 @@ profile-label-forwarded = Reenviado
 profile-label-replies = Respuestas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Rastreadores eliminados
+profile-trackers-removed-tooltip-part1 = Con la eliminación de rastreadores activada, se eliminarán los rastreadores de correo electrónico más comunes de tus correos electrónicos reenviados.
+# Deprecated
+profile-trackers-removed-tooltip-part2 = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado  porque los rastreadores a menudo se encuentran dentro de las imágenes.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> La eliminación de rastreadores puede causar que tu correo electrónico se vea dañado  porque los rastreadores a menudo se encuentran dentro de las imágenes y enlaces.
 profile-label-cancel = Cancelar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes antes que lleguen a tu bandeja de entrada al seleccionar el bloqueo para esta máscara
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
@@ -670,6 +676,10 @@ profile-stat-label-forwarded = Correos electrónicos reenviados
 profile-stat-label-aliases-used-2 = Máscaras de correo utilizadas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores eliminados
+profile-stat-label-trackers-learn-more-part1 = Activar la eliminación de rastreadores eliminará los rastreadores de correo electrónico más comunes de tus correos electrónicos reenviados.
+# Deprecated
+profile-stat-label-trackers-learn-more-part2 = Importante: Algunas veces, la eliminación de rastreadores puede causar que tu correo electrónico se vea dañado, porque los rastreadores a menudo se encuentran dentro de las imágenes.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: La eliminación de rastreadores puede causar que tu correo electrónico se vea dañado porque los rastreadores a menudo se encuentran dentro de las imágenes y enlaces.
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
@@ -685,6 +695,9 @@ profile-filter-category-option-promo-blocking-masks = Máscaras con bloqueo de p
 profile-filter-category-option-random-masks = Máscaras aleatorias
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Máscaras personalizadas
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Estado del eliminador de rastreadores
+profile-indicator-tracker-removal-tooltip = Actualmente eliminando rastreadores de correo electrónico
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -772,6 +785,12 @@ banner-upgrade-loyalist-headline-2 = Protege tu privacidad, salva Internet
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu privacidad mientras te unes a nuestra misión para construir un Internet mejor, todo por { $monthly_price }
 banner-upgrade-loyalist-cta = Obtén más protección
+# End of intro pricing countdown banner:
+banner-offer-end-headline = ¡Nuestra oferta de lanzamiento finaliza pronto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio mensual de lanzamiento.
+banner-offer-end-cta = Actualizar ahora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
@@ -831,6 +850,8 @@ modal-custom-alias-picker-form-prefix-label-2 = Introduce el prefijo de la másc
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = p.ej. "restaurante"
+modal-custom-alias-picker-form-prefix-spaces-warning = No se permiten espacios en las máscaras de correo electrónico.
+modal-custom-alias-picker-form-prefix-invalid-warning = Las máscaras de correo electrónico solo pueden tener letras minúsculas, números o guiones, y además no pueden comenzar o terminar con un guión.
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 modal-custom-alias-picker-creation-error-2 = Tu máscara de correo electrónico personalizada no ha podido ser creada manualmente. Por favor, inténtalo de nuevo, o envía un correo electrónico a la máscara para crearla.
 
