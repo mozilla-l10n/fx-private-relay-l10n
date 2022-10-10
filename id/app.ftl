@@ -300,6 +300,20 @@ plan-matrix-heading-plan-free = Perlindungan surel terbatas
 plan-matrix-heading-plan-premium = Perlindungan surel
 plan-matrix-heading-plan-phones = Perlindungan surel & telepon
 plan-matrix-heading-plan-bundle = Tambahkan perlindungan VPN
+plan-matrix-heading-plan-bundle-alt = Dapatkan { -brand-name-relay-premium } dan { -brand-name-mozilla-vpn }
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = Topeng surel
+plan-matrix-heading-feature-browser-extension = Ekstensi peramban
+plan-matrix-heading-feature-email-tracker-removal = Hapus pelacak surel
+plan-matrix-heading-feature-promo-email-blocking = Blokir surel promosi
+plan-matrix-heading-feature-email-subdomain = Subdomain surel
+plan-matrix-heading-feature-email-reply = Balas surel yang diteruskan
+plan-matrix-heading-feature-phone-mask = Topeng nomor telepon
+plan-matrix-heading-feature-vpn = Akses ke <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Topeng surel tak terbatas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } topeng surel
 
 ## Use Cases
 
