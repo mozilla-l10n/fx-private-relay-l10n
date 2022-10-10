@@ -228,43 +228,78 @@ landing-how-it-works-step-3-body-2 =
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Waktu terbatas: Topeng tidak terbatas seharga { $monthly_price } per bulan
+# Deprecated
 landing-pricing-body-2 =
     Coba topeng surel { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda
     Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
+# Deprecated
 landing-pricing-free-price = Gratis
+# Deprecated
 landing-pricing-free-feature-1-2 = Hingga 5 topeng surel
+# Deprecated
 landing-pricing-free-feature-2 = Ekstensi Peramban
+# Deprecated
 landing-pricing-free-feature-3 = Penghapusan pelacak surel
+# Deprecated
 landing-pricing-free-description = Coba topeng { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda.
+# Deprecated
 landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = Tersedia sekarang!
+# Deprecated
 landing-pricing-free-feature-free = Gratis
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/bulan
+# Deprecated
 landing-pricing-premium-price-highlight = Harga waktu terbatas
+# Deprecated
 landing-pricing-premium-feature-1-2 = Topeng surel tak terbatas
+# Deprecated
 landing-pricing-premium-feature-2 = Ekstensi peramban
+# Deprecated
 landing-pricing-premium-feature-3-2 = Subdomain surel Anda sendiri
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = Balas surel yang diteruskan
+# Deprecated
 landing-pricing-premium-feature-5 = Blokir surel promosi
+# Deprecated
 landing-pricing-premium-feature-6 = Penghapusan pelacak surel
+# Deprecated
 landing-pricing-waitlist-description = Saat ini, { -brand-name-firefox-relay-premium } belum tersedia di negara Anda. Silakan bagikan surel Anda agar dapat dikabari sesegera mungkin.
+# Deprecated
 landing-pricing-waitlist-cta = Gabung ke Daftar Tunggu
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Harga perkenalan: Topeng tanpa batas untuk { $monthly_price } per bulan
+# Deprecated
 landing-pricing-offer-end-warning = Promo ini akan segera berakhir
+# Deprecated
 landing-pricing-offer-end-cta = Tingkatkan sekarang
+# Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Waktu terbatas saja: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+plan-matrix-bundle-offer-content = Coba topeng surel { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda. Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
+plan-matrix-heading-features = Fitur
+plan-matrix-heading-plan-free = Perlindungan surel terbatas
+plan-matrix-heading-plan-premium = Perlindungan surel
+plan-matrix-heading-plan-phones = Perlindungan surel & telepon
+plan-matrix-heading-plan-bundle = Tambahkan perlindungan VPN
 
 ## Use Cases
 
@@ -391,6 +426,7 @@ waitlist-control-required = Diwajibkan
 waitlist-control-email-label = Apa alamat surel Anda?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = namaanda@contoh.com
+# Deprecated
 waitlist-control-country-label = Di negara mana Anda tinggal?
 waitlist-control-locale-label = Pilih bahasa yang Anda inginkan.
 waitlist-submit-label = Gabung ke Daftar Tunggu
