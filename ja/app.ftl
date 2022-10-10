@@ -163,21 +163,38 @@ landing-how-it-works-step-2-body-2 =
 
 ## Pricing section
 
+# Deprecated
+landing-pricing-free-price = 無料
+# Deprecated
 landing-pricing-free-feature-1-2 = 最大 5 つのメールマスク
+# Deprecated
 landing-pricing-free-feature-2 = ブラウザー拡張機能
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = 今すぐ利用可能！
+# Deprecated
+landing-pricing-free-feature-free = 無料
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/月
+# Deprecated
 landing-pricing-premium-feature-1-2 = メールマスク無制限
+# Deprecated
 landing-pricing-premium-feature-2 = ブラウザー拡張機能
+# Deprecated
 landing-pricing-premium-feature-3-2 = 自分のメールドメイン利用
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = 転送されたメールへの返信
+# Deprecated
 landing-pricing-premium-feature-5 = 広告メールをブロック
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } は、現在お住まいの国では利用できません。利用可能になったらすぐに通知できるようにメールアドレスを登録してください。
+plan-matrix-heading-features = 機能
+plan-matrix-price-free = 無料
 
 ## Use Cases
 
@@ -221,6 +238,7 @@ waitlist-control-required = 必須
 waitlist-control-email-label = メールアドレス
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = どこの国に住んでいますか？
 waitlist-control-locale-label = ご希望の言語を選択してください。
 # Variables:
@@ -230,8 +248,11 @@ waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefo
 
 ## Settings page
 
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API キー
 # This is a label that appears on hover to copy the API key
 settings-button-copy = クリックしてコピー
+setting-api-key-copied = コピーしました！
 
 ## FAQ Page
 
@@ -254,6 +275,8 @@ profile-supports-email-forwarding = { -brand-name-firefox-relay } は、最大 {
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = クリックして { $address } のマスクをコピー
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
+profile-label-placeholder = アカウント名を追加
 profile-label-generate-new-alias-2 = 新しいマスクを生成
 profile-label-delete = 削除
 # This string is followed by an email address
@@ -294,6 +317,9 @@ banner-register-subdomain-button-search = 検索
 
 ## Success Messages
 
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = { $username } としてログインしました。
 
 ## Error Messages
 
@@ -327,6 +353,10 @@ banner-register-subdomain-button-search = 検索
 trackerreport-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
 
 ## Modals
+
+modal-delete-confirmation-2 = はい、このマスクを削除します。
+
+## Countdown timer (e.g. to count down to pricing increases)
 
 
 ## Evergreen Survey (displayed on the profile page)
