@@ -328,6 +328,7 @@ waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
 waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو؟
+waitlist-control-country-label-2 = تساں کہڑے ملک یا علاقے وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
