@@ -221,6 +221,8 @@ landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
 # Deprecated
 landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
 # Deprecated
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } تُہاݙے ملک وچ دستیاب کائنی۔ مہربانی کر تے آپݨی ای میل شیئر کرو تا کہ تُہاکوں ایہ  دستیاب تھیوݨ تے ݙسایا ون٘ڄے۔
+# Deprecated
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
 # Deprecated
 # Variables:
