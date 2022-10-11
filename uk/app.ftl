@@ -101,7 +101,7 @@ whatsnew-footer-clear-all-label = Стерти все
 whatsnew-footer-back-label = Назад
 whatsnew-footer-learn-more-label = Докладніше
 whatsnew-empty-message = Обов’язково перегляньте оновлення — ми завжди працюємо над чудовими новими функціями, щоб зробити { -brand-name-relay } ще кращим.
-whatsnew-feature-size-limit-heading = Збільшено розміру вкладення
+whatsnew-feature-size-limit-heading = Збільшено розмір вкладень
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
