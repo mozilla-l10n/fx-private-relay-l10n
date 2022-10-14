@@ -236,6 +236,7 @@ plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
 plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
 plan-matrix-heading-plan-bundle = وی پی این حفاظت شامل کرو
+plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand-name-mozilla-vpn } گھنو
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = ای میل ماسک
 plan-matrix-heading-feature-browser-extension = براؤزر ایکسٹنشن
@@ -262,6 +263,7 @@ plan-matrix-price-monthly = { $monthly_price }/مہینہ
 plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
 plan-matrix-pick = سائن اپ
+plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
 
 ## Use Cases
 
