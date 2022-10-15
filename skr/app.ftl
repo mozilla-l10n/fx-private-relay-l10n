@@ -480,6 +480,8 @@ profile-filter-category-option-promo-blocking-masks = مشہوریاں روکݨ 
 profile-filter-category-option-random-masks = رینڈم ماسک
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = کسٹم ماسک
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = ٹریکر ہٹاوݨ دی حیثیت
 profile-indicator-tracker-removal-tooltip = حالیہ ای میل ٹریکر ہٹاوݨ
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
