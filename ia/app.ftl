@@ -3,38 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox Browser
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox account
-        [uppercase] Firefox Account
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas email que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
+meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas de e-mail que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
-common-link-newtab-alt = (Aperi in un nove scheda)
+common-link-newtab-alt = (Se aperi in un nove scheda)
 
 ## Header
 
@@ -48,7 +22,7 @@ avatar-tooltip = Profilo
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
 nav-profile-sign-up = Inscriber se
-nav-profile-manage-fxa = Gere tu { -brand-name-firefox-account(majusculas: "majusculas") }
+nav-profile-manage-fxa = Gerer tu { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = Clauder session
 nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
 nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
