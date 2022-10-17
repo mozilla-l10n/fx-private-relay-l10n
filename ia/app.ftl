@@ -108,33 +108,33 @@ whatsnew-feature-alias-to-mask-heading = Aliases ora es mascas
 whatsnew-feature-alias-to-mask-snippet = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay }…
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
-whatsnew-feature-alias-to-mask-description = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay } plus facile a usar e aperir le strata a nove functionalitates.
+whatsnew-feature-alias-to-mask-description = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay } plus facile a usar e pro aperir le porta a nove functiones.
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibile in Svedia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibile in Finlandia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-premium-expansion-snippet = Promove ora e obtene ancora plus protection…
-whatsnew-feature-premium-expansion-description = Promove ora e obtene ancora plus protection — crea mascas email illimitate, obtene un subdominio email personal e ancora plus!
-whatsnew-feature-tracker-removal-heading = Introduction al remotion de traciator de email
+whatsnew-feature-premium-expansion-snippet = Actualisa ora e obtene ancora plus protection…
+whatsnew-feature-premium-expansion-description = Actualisa ora e obtene ancora plus protection — crea mascas de e-mail illimitate, obtene un subdominio de e-mail personal e ancora plus!
+whatsnew-feature-tracker-removal-heading = Nove: remotion de traciatores de email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remover ab le emails inultrate le commun traciatores de email…
+whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remover le commun traciatores de email del messages de e-mail reexpedite…
 # Deprecated
-whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun…, adjutante te a remaner invisibile al publicitate.
-whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover ab le emails inultrate a te le traciatores de email commun, adjutante te a remaner invisibile al publicitate, adjutante te a remaner invisibile al publicitate. Activa lo in “Parametros.”
+whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover le commun traciatores de email del messages de e-mail reexpedite a te, adjutante te a remaner invisibile pro le annunciatiores.
+whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover le commun traciatores de email del messages de e-mail reexpedite a te, adjutante te a remaner invisibile pro le annunciatiores. Activa lo in “Parametros.”
 whatsnew-feature-offer-countdown-heading = Nostre offerta de compra introductive finira tosto!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-whatsnew-feature-offer-countdown-snippet = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre…
+whatsnew-feature-offer-countdown-snippet = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un numero illimitate de mascas a nostre…
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-whatsnew-feature-offer-countdown-description = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue de mascas illimitate a nostre precio introductive mensual.
-whatsnew-feature-offer-countdown-cta = Promover ora
+whatsnew-feature-offer-countdown-description = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un numero illimitate de mascas a nostre precio mensual introductive.
+whatsnew-feature-offer-countdown-cta = Actualisar ora
 
 ## Bento Menu
 
@@ -152,17 +152,17 @@ bento-button-close-label = Clauder menu
 ## Home Page
 
 home-hero-cta = Aperir session
-how-it-works-headline = Como functiona illo
-how-it-works-subheadline = Protege tu identitate personal ubique tu usa { -brand-name-firefox-browser }.
+how-it-works-headline = Como functiona
+how-it-works-subheadline = Protege tu identitate personal ubicunque tu usa { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Installa le extension
 how-it-works-step-1-link = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }
-how-it-works-step-1-copy = Elige le icone que appare sur tu barra del instrumentos de { -brand-name-firefox } pro acceder al pagina de authentication. Accede con tu { -brand-name-firefox-account } pro comenciar.
-how-it-works-step-2-headline-2 = Crear un nove masca email
+how-it-works-step-1-copy = Elige le icone que appare sur tu barra de instrumentos de { -brand-name-firefox } pro acceder al pagina de authentication. Aperi session con tu { -brand-name-firefox-account } pro comenciar.
+how-it-works-step-2-headline-2 = Crear un nove masca de e-mail
 how-it-works-step-2-copy =
     Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse de e-mail.
     Selige lo pro generar un nove adresse aleatori que termina in @relay.firefox.com.
     { -brand-name-relay } reexpedira le messages al adresse de e-mail primari associate a tu conto.
-how-it-works-step-3-headline-2 = Gere tu mascas email
+how-it-works-step-3-headline-2 = Gerer tu mascas de e-mail
 hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
 hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
 hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
