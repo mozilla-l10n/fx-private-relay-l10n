@@ -38,7 +38,7 @@ nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: 
 
 ## Mobile menu text
 
-menu-upgrade-button = Actualisar
+menu-upgrade-button = Promover
 menu-toggle-open = Aperir menu
 menu-toggle-close = Clauder menu
 nav-dashboard = Tabuliero
@@ -114,8 +114,8 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-premium-expansion-snippet = Actualisa ora e obtene ancora plus protection…
-whatsnew-feature-premium-expansion-description = Actualisa ora e obtene ancora plus protection — crea mascas de e-mail illimitate, obtene un subdominio de e-mail personal e ancora plus!
+whatsnew-feature-premium-expansion-snippet = Promove ora e obtene ancora plus protection…
+whatsnew-feature-premium-expansion-description = Promove ora e obtene ancora plus protection — crea mascas de e-mail illimitate, obtene un subdominio de e-mail personal e ancora plus!
 whatsnew-feature-tracker-removal-heading = Nove: remotion de traciatores de email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -134,7 +134,7 @@ whatsnew-feature-offer-countdown-snippet = Abona te a { -brand-name-relay-premiu
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un numero illimitate de mascas a nostre precio mensual introductive.
-whatsnew-feature-offer-countdown-cta = Actualisar ora
+whatsnew-feature-offer-countdown-cta = Promover ora
 
 ## Bento Menu
 
@@ -177,7 +177,7 @@ landing-hero-body-2 =
     Le mascas de e-mail de { -brand-name-firefox-relay } rende tu ver adresse de e-mail invisibile pro le publico, reexpediente automaticamente le messages a tu ver cassa de entrata. 
     Ora tu pote reciper solmente le messages que tu vole in tu cassa de entrata. Inscribe te con tu { -brand-name-firefox-account } pro comenciar.
 landing-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
-landing-offer-end-hero-cta = Actualisar ora
+landing-offer-end-hero-cta = Promover ora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-offer-end-hero-content = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un protection avantiate de tu e-mail a nostre precio mensual introductive.
@@ -206,7 +206,7 @@ landing-how-it-works-step-3-body-2 =
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = Solo pro tempore limitate: Mascas de e-mail illimitate pro { $monthly_price } per mense
 # Deprecated
-landing-pricing-body-2 = Prova le mascas de e-mail de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata. Alora actualisa a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
+landing-pricing-body-2 = Prova le mascas de e-mail de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata. Alora promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
 # Deprecated
 landing-pricing-free-price = Gratuite
 # Deprecated
@@ -260,38 +260,38 @@ landing-pricing-offer-end-cta = Promover ora
 # Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-landing-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
+landing-pricing-offer-end-body = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un protection avantiate de tu e-mail a nostre precio mensual introductive.
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Solo pro tempore limitate: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } a ${ $monthly_price }/mense*
-plan-matrix-bundle-offer-content = Prova le mascas email de { -brand-name-firefox-relay } e comencia a proteger tu cassa de ingresso email. Tunc promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
-plan-matrix-heading-features = Functionalitates
-plan-matrix-heading-plan-free = Protection de email limitate
-plan-matrix-heading-plan-premium = Protection email
-plan-matrix-heading-plan-phones = Protection email e telephono
+plan-matrix-bundle-offer-content = Prova le mascas de e-mail de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata. Alora promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
+plan-matrix-heading-features = Functiones
+plan-matrix-heading-plan-free = Protection de e-mail limitate
+plan-matrix-heading-plan-premium = Protection de e-mail
+plan-matrix-heading-plan-phones = Protection de e-mail e de telephono
 plan-matrix-heading-plan-bundle = Adder protection VPN
 plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
-plan-matrix-heading-feature-email-masks = Mascas email
-plan-matrix-heading-feature-browser-extension = Extension del navigator
-plan-matrix-heading-feature-email-tracker-removal = Remover traciatores de emails
-plan-matrix-heading-feature-promo-email-blocking = Blocar emails promotional
-plan-matrix-heading-feature-email-subdomain = Subdominio email
-plan-matrix-heading-feature-email-reply = Replica al emails inultrate
-plan-matrix-heading-feature-phone-mask = Masca numero de telephono
-plan-matrix-heading-feature-vpn = Acceder a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Mascas email illimitate
+plan-matrix-heading-feature-email-masks = Mascas de e-mail
+plan-matrix-heading-feature-browser-extension = Extension de navigator
+plan-matrix-heading-feature-email-tracker-removal = Remover traciatores de e-mail
+plan-matrix-heading-feature-promo-email-blocking = Blocar messages promotional
+plan-matrix-heading-feature-email-subdomain = Subdominio de e-mail
+plan-matrix-heading-feature-email-reply = Responder a messages reexpedite
+plan-matrix-heading-feature-phone-mask = Masca de numero de telephono
+plan-matrix-heading-feature-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-plan-matrix-feature-list-email-masks = { $mask_limit } mascas email
+plan-matrix-feature-list-email-masks = { $mask_limit } mascas de e-mail
 plan-matrix-feature-list-browser-extension = Extension de navigator
 plan-matrix-feature-list-email-tracker-removal = Remover traciatores de emails
-plan-matrix-feature-list-promo-email-blocking = Blocar emails promotional
-plan-matrix-feature-list-email-subdomain = Subdominio email
-plan-matrix-feature-list-email-reply = Replica al emails inultrate
-plan-matrix-feature-list-phone-mask = Masca numero de telephono
-plan-matrix-feature-list-vpn = Acceder a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-promo-email-blocking = Blocar messages promotional
+plan-matrix-feature-list-email-subdomain = Subdominio de e-mail
+plan-matrix-feature-list-email-reply = Responder a messages reexpedite
+plan-matrix-feature-list-phone-mask = Masca de numero de telephono
+plan-matrix-feature-list-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Precio
 plan-matrix-feature-count-unlimited = Sin limite
 plan-matrix-feature-included = Includite
@@ -306,17 +306,17 @@ plan-matrix-price-period-yearly-note = Facturation annual
 plan-matrix-price-period-monthly = Mensual
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
-plan-matrix-price-vpn-discount = Sparnia le { $percentage }% sur le precio regular del VPN
+plan-matrix-price-vpn-discount = Sparnia { $percentage }% sur le precio normal del VPN
 plan-matrix-pick = Inscribe te
-plan-matrix-join-waitlist = Junge te al lista de attendentia
+plan-matrix-join-waitlist = Inscriber te al lista de attender
 
 ## Use Cases
 
 landing-use-cases-heading = Usa { -brand-name-firefox-relay } pro:
 landing-use-cases-shopping = Compras
 landing-use-cases-shopping-body-2 =
-    Compra tu qualcosa de un nove boteca online? Usa un masca email de tu email, quando tu face un compra online. 
-    Nos inultrara le quitantia a tu real adresse email e si tu comencia reciper emails que non te place, solo passa le masca a blocar los.
+    Compra tu qualcosa de un nove boteca in linea? Usa un masca de e-mail in loco de tu ver adresse quando tu face un compra in linea. 
+    Nos reexpedira le quitantia a tu ver adresse de e-mail, e si tu comencia a reciper messages que non te place, simplemente cambia le masca pro blocar los.
 landing-use-cases-social-networks = Retes social
 landing-use-cases-social-networks-body-2 =
     Vole tu proteger melio tu identitate online quando tu usa un rete social? 
