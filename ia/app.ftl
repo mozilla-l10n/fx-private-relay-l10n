@@ -190,69 +190,69 @@ landing-how-it-works-step-1-body-cta = Discarga le extension { -brand-name-relay
 landing-how-it-works-step-1-body-2 = Genera automaticamente mascas de e-mail ubicunque tu insere tu adresse de e-mail in linea.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
-    Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail. 
-    Elige lo pro generar un nove, aleatori adresse que fini in @relay.mozmail.com.
+    Durante que tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse de e-mail. 
+    Selige lo pro generar un nove adresse aleatori que termina in @relay.mozmail.com.
 landing-how-it-works-step-2-body-2 =
-    Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail. 
-    Elige lo pro generar un nove, aleatori adresse que fini in @mozmail.com.
+    Durante que tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse de e-mail. 
+    Selige lo pro generar un nove adresse aleatori que termina in @mozmail.com.
 landing-how-it-works-step-3-body-2 =
-    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del mascas email que tu ha create.
-    Si tu trova que un de istes recipe spam o messages indesirate, tu pote blocar tote le messages o mesmo deler le masca, directemente ab le pannello de controlo.
+    Accede al pannello de controlo de { -brand-name-relay } pro tener tracia del mascas de e-mail que tu ha create.
+    Si tu trova que un de istes recipe spam o messages indesirate, tu pote blocar tote le messages o mesmo deler le masca, directemente desde le pannello de controlo.
 
 ## Pricing section
 
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-headline-2 = Solo pro tempore limitate: aliases illimitate pro { $monthly_price } cata mense
+landing-pricing-headline-2 = Solo pro tempore limitate: Mascas de e-mail illimitate pro { $monthly_price } per mense
 # Deprecated
-landing-pricing-body-2 = Prova le mascas email de { -brand-name-firefox-relay } e comencia a proteger tu cassa de ingresso. Tunc promove a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
+landing-pricing-body-2 = Prova le mascas de e-mail de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata. Alora actualisa a { -brand-name-relay-premium } pro major flexibilitate e controlo personalisate.
 # Deprecated
-landing-pricing-free-price = Libere
+landing-pricing-free-price = Gratuite
 # Deprecated
-landing-pricing-free-feature-1-2 = Usque 5 mascas e-mail
+landing-pricing-free-feature-1-2 = Usque a 5 mascas de e-mail
 # Deprecated
 landing-pricing-free-feature-2 = Extension de navigator
 # Deprecated
-landing-pricing-free-feature-3 = Remotion de traciatores de emails
+landing-pricing-free-feature-3 = Remotion de traciatores de e-mail
 # Deprecated
-landing-pricing-free-description = Proba le mascas de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata email.
+landing-pricing-free-description = Prova le mascas de { -brand-name-firefox-relay } e comencia a proteger tu cassa de entrata de e-mail.
 # Deprecated
-landing-pricing-free-cta = Discarga { -brand-name-relay }
+landing-pricing-free-cta = Obtener { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 # Deprecated
-landing-pricing-free-ribbon = Disponibile hora!
+landing-pricing-free-ribbon = Disponibile ora!
 # Deprecated
 landing-pricing-free-feature-free = Gratuite
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-premium-price = { $monthly_price }/month
+landing-pricing-premium-price = { $monthly_price }/mense
 # Deprecated
 landing-pricing-premium-price-highlight = Precios pro tempore limitate
 # Deprecated
-landing-pricing-premium-feature-1-2 = Mascas e-mail illimitate
+landing-pricing-premium-feature-1-2 = Mascas de e-mail illimitate
 # Deprecated
 landing-pricing-premium-feature-2 = Extension de navigator
 # Deprecated
-landing-pricing-premium-feature-3-2 = Tu proprie subdominio e-mail
+landing-pricing-premium-feature-3-2 = Tu proprie subdominio de e-mail
 # Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
-landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+landing-pricing-premium-feature-3-subheader = tuemail@tudominio.mozmail.com
 # Deprecated
-landing-pricing-premium-feature-4 = Replica al e-mails inultrate
+landing-pricing-premium-feature-4 = Responder a messages reexpedite
 # Deprecated
-landing-pricing-premium-feature-5 = Blocar e-mails promotional
+landing-pricing-premium-feature-5 = Blocar messages promotional
 # Deprecated
-landing-pricing-premium-feature-6 = Remotion de traciatores de emails
+landing-pricing-premium-feature-6 = Remotion de traciatores de e-mail
 # Deprecated
-landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, comparti tu adresse email a fin que nos te notifica si tosto que illo es  disponibile.
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, insere tu adresse email pro reciper un notification si tosto que illo es  disponibile.
 # Deprecated
-landing-pricing-waitlist-cta = Junge te al lista de attendentia
+landing-pricing-waitlist-cta = Inscriber te al lista de attender
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-landing-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
+landing-pricing-offer-end-headline = Precio introductive: Mascas illimitate pro { $monthly_price } per mense
 # Deprecated
 landing-pricing-offer-end-warning = Iste promotion va expirar tosto
 # Deprecated
