@@ -163,8 +163,8 @@ how-it-works-step-2-copy =
     Selige lo pro generar un nove adresse aleatori que termina in @relay.firefox.com.
     { -brand-name-relay } reexpedira le messages al adresse de e-mail primari associate a tu conto.
 how-it-works-step-3-headline-2 = Gerer tu mascas de e-mail
-hero-image-copy-trust = Pote tu mesmo te fider de iste compania con tu personal e-mail?
-hero-image-copy-unique-html = <strong>Usa un unic adresse de relay</strong> pro cata nove conto …
+hero-image-copy-trust = Pote tu fider te a iste interprisa con tu e-mail personal?
+hero-image-copy-unique-html = <strong>Usa un adresse unic de reexpedition</strong> pro cata nove conto …
 hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva in tu cassa de entrata!
 
 # Home Page Version A
@@ -172,22 +172,22 @@ hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva i
 
 ## Hero Section
 
-landing-hero-headline-2 = Protege tu ver adresse e-mail pro adjutar proteger tu cassa de ingresso
+landing-hero-headline-2 = Protege tu ver adresse e-mail pro guardar le controlo sur tu cassa de entrata
 landing-hero-body-2 =
-    Le mascas email de { -brand-name-firefox-relay } protege tu ver adresse e-mail del vision public, automaticamente inultrante emails a tu ver cassa de ingresso. 
-    Ora tu pote reciper solo le emails que tu desira in tu cassa de ingresso. Accede con tu { -brand-name-firefox-account } pro comenciar.
+    Le mascas de e-mail de { -brand-name-firefox-relay } rende tu ver adresse de e-mail invisibile pro le publico, reexpediente automaticamente le messages a tu ver cassa de entrata. 
+    Ora tu pote reciper solmente le messages que tu vole in tu cassa de entrata. Inscribe te con tu { -brand-name-firefox-account } pro comenciar.
 landing-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
-landing-offer-end-hero-cta = Promover ora
+landing-offer-end-hero-cta = Actualisar ora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-landing-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
+landing-offer-end-hero-content = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un protection avantiate de tu e-mail a nostre precio mensual introductive.
 
 ## How it works section
 
-landing-how-it-works-headline = Como functiona illo
-landing-how-it-works-body-2 = Comparti mascas email de { -brand-name-relay }, in vice del tu ver adresse e-mail pro proteger tu cassa de ingresso e tu identitate.
+landing-how-it-works-headline = Como functiona
+landing-how-it-works-body-2 = Divulga le mascas de e-mail de { -brand-name-relay } in loco de tu ver adresse de e-mail pro proteger tu cassa de entrata, assi como tu identitate.
 landing-how-it-works-step-1-body-cta = Discarga le extension { -brand-name-relay } pro { -brand-name-firefox }.
-landing-how-it-works-step-1-body-2 = Genera automaticamente mascas e-mail ubicunque tu insere tu adresse e-mail online.
+landing-how-it-works-step-1-body-2 = Genera automaticamente mascas de e-mail ubicunque tu insere tu adresse de e-mail in linea.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Quando tu naviga, le icone de { -brand-name-relay } apparera ubi le sitos demanda tu adresse e-mail. 
