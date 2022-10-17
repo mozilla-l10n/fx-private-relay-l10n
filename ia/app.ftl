@@ -24,16 +24,16 @@ nav-profile-sign-in = Aperir session
 nav-profile-sign-up = Inscriber se
 nav-profile-manage-fxa = Gerer tu { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-sign-out = Clauder session
-nav-profile-sign-out-relay = Disconnexion de { -brand-name-relay }
-nav-profile-sign-out-confirm = Desira tu vermente disconnecter te?
+nav-profile-sign-out-relay = Clauder session in { -brand-name-relay }
+nav-profile-sign-out-confirm = Es tu secur de voler clauder session?
 nav-profile-settings = Parametros
 nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
-nav-profile-help = Auxilio e supporto
-nav-profile-help-tooltip = Auxilio usator de { -brand-name-relay }
+nav-profile-help = Adjuta e supporto
+nav-profile-help-tooltip = Obtener adjuta pro usar { -brand-name-relay }
 # This is only visible to Premium users.
-nav-profile-contact = Contacta nos
+nav-profile-contact = Contactar nos
 # This is only visible to Premium users.
-nav-profile-contact-tooltip = Contacta nos re { -brand-name-relay-premium }
+nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 
 ## Mobile menu text
@@ -45,7 +45,7 @@ nav-dashboard = Tabuliero
 nav-settings = Parametros
 nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
-nav-contact = Contacta nos
+nav-contact = Contactar nos
 nav-menu-mobile = Menu mobile
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
@@ -54,7 +54,7 @@ fx-mobile-2 = { -brand-name-firefox } pro mobile
 
 nav-footer-privacy = Confidentialitate
 nav-footer-relay-terms = Terminos de uso de { -brand-name-relay }
-nav-footer-legal = Legal
+nav-footer-legal = Juridic
 nav-footer-release-notes = Notas de version
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
@@ -70,33 +70,33 @@ whatsnew-counter-label =
 whatsnew-close-label = Clauder
 whatsnew-tab-new-label = Novas
 whatsnew-tab-archive-label = Chronologia
-whatsnew-footer-clear-all-label = Clarar toto
+whatsnew-footer-clear-all-label = Rader toto
 whatsnew-footer-back-label = Retro
 whatsnew-footer-learn-more-label = Pro saper plus
-whatsnew-empty-message = Controla retro hic, sempre nos labora sur formidabile nove functionalitates pro render mesmo melior { -brand-name-relay }.
-whatsnew-feature-size-limit-heading = Accrescer le dimension del annexo
+whatsnew-empty-message = Reveni tosto – nos sempre labora sur formidabile nove functiones pro render { -brand-name-relay } ancora melior.
+whatsnew-feature-size-limit-heading = Augmento del dimension de annexos
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite…
-whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } pote ora inultrar e-mails usque 25MB, includite annexos.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } pote ora reexpedir messages usque a 25MB, includite…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } pote ora reexpedir messages usque a 25MB, includite annexos.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } pote ora inultrar e-mails usque { email-size-limit }, includite…
-whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } pote ora inultrar e-mails usque { email-size-limit }, includite annexos.
-whatsnew-feature-sign-back-in-heading = Re-accesso per proprie aliases
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } pote ora reexpedir messages usque a { email-size-limit }, includite…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } pote ora reexpedir messages usque a { email-size-limit }, includite annexos.
+whatsnew-feature-sign-back-in-heading = Reaperir session con tu aliases
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
-whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es requirite tu e-mail, aperi…
-whatsnew-feature-sign-back-in-description = Pro aperir session con un alias precedentemente usate, aperi le menu contextual ubi le sito demanda pro tu e-mail. Tu potera eliger le alias e auto-plenar le campo e-mail.
+whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es demandate tu adresse de e-mail, aperi…
+whatsnew-feature-sign-back-in-description = Pro aperir session con un alias anteriormente usate, aperi le menu contextual ubi le sito demanda tu adresse de e-mail. Tu potera seliger le alias e auto-completar le campo de e-mail.
 whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # When translating, please make sure the resulting string is of roughly similar
 # length as the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permitte de blocar solo le e-mails promotional…
-whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solo e-mails promotional inviate a un alias. Tu recipera e-mails como quitantias ma non e-mails de marketing.
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solmente le messages promotional inviate a un alias. Tu recipera messages como quitantias ma non messages de publicitate.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases ora es mascas
