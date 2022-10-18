@@ -16,6 +16,7 @@
 -brand-name-firefox-relay-premium = فائرفوکس رِیلے پریمیئم
 -brand-name-firefox-browser = فائرفوکس براؤزر
 -brand-name-mozilla = موزلّا
+-brand-name-vpn = VPN
 -brand-name-mozilla-vpn = موزلّا وی پی این
 -brand-name-mozilla-privacy-pack = موزلّا رازداری پیک
 -brand-name-firefox-lockwise = فائرفوکس لاک وائز
