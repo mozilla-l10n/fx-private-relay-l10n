@@ -25,6 +25,7 @@
         [prepositional] браузере Firefox
     }
 -brand-name-mozilla = Mozilla
+-brand-name-vpn = VPN
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
