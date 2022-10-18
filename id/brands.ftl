@@ -16,6 +16,7 @@
 -brand-name-firefox-relay-premium = Firefox Relay Premium
 -brand-name-firefox-browser = Peramban Firefox
 -brand-name-mozilla = Mozilla
+-brand-name-vpn = VPN
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Paket Privasi Mozilla
 -brand-name-firefox-lockwise = Firefox Lockwise

@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Peramban Firefox
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Paket Privasi Mozilla
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox account
-        [uppercase] Firefox Account
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -314,6 +288,30 @@ plan-matrix-feature-list-email-masks-unlimited = Topeng surel tak terbatas
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } topeng surel
+plan-matrix-feature-list-browser-extension = Ekstensi peramban
+plan-matrix-feature-list-email-tracker-removal = Hapus pelacak surel
+plan-matrix-feature-list-promo-email-blocking = Blokir surel promosi
+plan-matrix-feature-list-email-subdomain = Subdomain surel
+plan-matrix-feature-list-email-reply = Balas surel yang diteruskan
+plan-matrix-feature-list-phone-mask = Topeng nomor telepon
+plan-matrix-feature-list-vpn = Akses ke <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = Harga
+plan-matrix-feature-count-unlimited = Tak terbatas
+plan-matrix-feature-included = Termasuk
+plan-matrix-feature-not-included = Tidak termasuk
+plan-matrix-price-free = Gratis
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/bulan
+plan-matrix-price-period-yearly = Tahunan
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Tagihan tahunan
+plan-matrix-price-period-monthly = Bulanan
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Hemat { $percentage }% dari harga VPN reguler
+plan-matrix-pick = Daftar
+plan-matrix-join-waitlist = Gabung ke Daftar Tunggu
 
 ## Use Cases
 
@@ -442,6 +440,7 @@ waitlist-control-email-label = Apa alamat surel Anda?
 waitlist-control-email-placeholder = namaanda@contoh.com
 # Deprecated
 waitlist-control-country-label = Di negara mana Anda tinggal?
+waitlist-control-country-label-2 = Di negara atau wilayah mana anda tinggal?
 waitlist-control-locale-label = Pilih bahasa yang Anda inginkan.
 waitlist-submit-label = Gabung ke Daftar Tunggu
 # Variables:
