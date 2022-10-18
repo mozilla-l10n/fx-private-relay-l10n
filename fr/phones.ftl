@@ -6,6 +6,10 @@
 ## Phone Onboarding
 
 phone-onboarding-step1-headline = Ajout des alias de numéro de téléphone
+phone-onboarding-step4-confirm-alt-cancel = Annuler
+phone-onboarding-step4-button-confirm-relay-number = Confirmer
+phone-onboarding-step4-code-success-title = Félicitations !
+phone-onboarding-step4-code-success-cta = Continuer
 
 ## Phone Settings
 
