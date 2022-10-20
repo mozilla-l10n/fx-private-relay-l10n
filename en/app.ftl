@@ -496,6 +496,7 @@ settings-api-key-description-bolded = Only use this with apps that you trust to 
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Click to copy
 setting-api-key-copied = Copied!
+setting-api-key-copied-alt = Click to copy
 setting-tracker-removal-heading = Remove Email Trackers
 setting-tracker-removal-description = Remove email trackers in all forwarded emails.
 setting-tracker-removal-note = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your masks.
