@@ -11,20 +11,40 @@ vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
 ## VPN and Relay Bundle What's New Announcement
 
+# String below is obsolete
 whatsnew-feature-bundle-header = Introducing: { -brand-name-relay } + { -brand-name-vpn } subscription plan
+# String below is obsolete
 whatsnew-feature-bundle-snippet = Upgrade your subscription to get both { -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }…
 # Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+whatsnew-feature-bundle-header-2 = Add { -brand-name-mozilla-vpn } for { $savings } off!
+whatsnew-feature-bundle-snippet-2 = Get a year of { -brand-name-relay-premium } Phone Masking & Email Masking plus { -brand-name-mozilla-vpn }…
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+# String below is obsolete
 whatsnew-feature-bundle-body = Upgrade your subscription to get both { -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn } for { $monthly_price }/month. Save { $savings }!
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-feature-bundle-body-v2 = Get a year of { -brand-name-relay-premium } Phone Masking & Email Masking plus { -brand-name-mozilla-vpn } for { $monthly_price }/month.
 whatsnew-feature-bundle-upgrade-cta = Upgrade now
 
-## VPN and Relay Bundle Banner
+## VPN and Relay Landing Page Bundle Banner
 
 bundle-banner-header = { -brand-name-firefox-relay } with <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 bundle-banner-subheader = Security, reliability and speed — on every device, anywhere you go.
+# String below is obsolete
 bundle-banner-body = Surf, stream, game, and get work done while maintaining your privacy online. Whether you’re traveling, using public Wi-Fi, or simply looking for more online security, we will always put your privacy first.
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-v2 = Surf, stream, game, and get work done while maintaining your privacy online. Now get { $savings } off { -brand-name-mozilla-vpn } by adding it to { -brand-name-firefox-relay }!
+# String below is obsolete
 bundle-banner-1-year-plan = 1 year plan: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
+bundle-banner-1-year-plan-v2 = 1 year plan: <b>{ -brand-name-firefox-relay } Email & Phone Masking + { -brand-name-vpn }</b>
+bundle-banner-plan-header = 1 year plan:
+bundle-banner-plan-modules-email-masking = Email masking
+bundle-banner-plan-modules-phone-masking = Phone masking
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-price-monthly = Monthly: <monthly-price>{ $monthly_price }</monthly-price>
@@ -44,3 +64,13 @@ bundle-feature-one = More than { $num_vpn_servers } servers
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
 bundle-feature-two = More than { $num_vpn_countries } countries
 bundle-feature-three = Fast and secure network
+
+## VPN and Relay Premium Dashboard Upgrade Banner
+
+bundle-banner-dashboard-header = Introducing: { -brand-name-relay } + { -brand-name-vpn } subscription plan
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-dashboard-body = Upgrade your subscription to get both { -brand-name-relay-premium } Phone Masking + { -brand-name-mozilla-vpn } for { $monthly_price }/month. Upgrade now to get { $savings } off { -brand-name-mozilla-vpn }!
+bundle-banner-dashboard-upgrade-cta = Upgrade now
+
