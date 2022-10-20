@@ -42,7 +42,7 @@ bundle-banner-1-year-plan = 1 year plan: <b>{ -brand-name-firefox-relay-premium 
 bundle-banner-1-year-plan-v2 = 1 year plan: <b>{ -brand-name-firefox-relay } Email & Phone Masking + { -brand-name-vpn }</b>
 bundle-banner-plan-header = 1 year plan:
 bundle-banner-plan-modules-email-masking = Email masking
-bundle-banner-plan-modules-email-masking = Phone masking
+bundle-banner-plan-modules-phone-masking = Phone masking
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 
 # Variables:
