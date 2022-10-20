@@ -10,6 +10,7 @@ vpn-relay-go-vpn-body = Protect your connection and online actvitiy
 vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
 ## VPN and Relay Bundle What's New Announcement
+
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 whatsnew-feature-bundle-header = Add { -brand-name-mozilla-vpn } for { $savings } off!
