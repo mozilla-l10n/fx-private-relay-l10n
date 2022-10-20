@@ -10,16 +10,17 @@ vpn-relay-go-vpn-body = Protect your connection and online actvitiy
 vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
 ## VPN and Relay Bundle What's New Announcement
-
-whatsnew-feature-bundle-header = Introducing: { -brand-name-relay } + { -brand-name-vpn } subscription plan
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+whatsnew-feature-bundle-header = Add { -brand-name-mozilla-vpn } for { $savings } off!
 whatsnew-feature-bundle-snippet = Get a year of { -brand-name-relay-premium } Phone Masking & Email Masking plus { -brand-name-mozilla-vpn }…
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
-whatsnew-feature-bundle-body = Upgrade your subscription to get both { -brand-name-relay-premium } Phone Masking + { -brand-name-mozilla-vpn } for { $monthly_price }/month. Upgrade now to get { $savings } off { -brand-name-mozilla-vpn }!
+whatsnew-feature-bundle-body = Get a year of { -brand-name-relay-premium } Phone Masking & Email Masking plus { -brand-name-mozilla-vpn } for { $monthly_price }/month.
 whatsnew-feature-bundle-upgrade-cta = Upgrade now
 
-## VPN and Relay Bundle Banner
+## VPN and Relay Landing Page Bundle Banner
 
 bundle-banner-header = { -brand-name-firefox-relay } with <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 bundle-banner-subheader = Security, reliability and speed — on every device, anywhere you go.
@@ -44,3 +45,13 @@ bundle-feature-one = More than { $num_vpn_servers } servers
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
 bundle-feature-two = More than { $num_vpn_countries } countries
 bundle-feature-three = Fast and secure network
+
+## VPN and Relay Premium Dashboard Upgrade Banner
+
+bundle-banner-dashboard-header = Introducing: { -brand-name-relay } + { -brand-name-vpn } subscription plan
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-dashboard-body = Upgrade your subscription to get both { -brand-name-relay-premium } Phone Masking + { -brand-name-mozilla-vpn } for { $monthly_price }/month. Upgrade now to get { $savings } off { -brand-name-mozilla-vpn }!
+bundle-banner-dashboard-upgrade-cta = Upgrade now
+
