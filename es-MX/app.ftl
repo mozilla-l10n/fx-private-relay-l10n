@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Navegador Firefox
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] cuenta de Firefox
-        [uppercase] Cuenta de Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,7 @@ nav-profile-contact = Contáctanos
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Comunícate con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
+nav-duo-email-mask-alt = Máscaras de correo electrónico
 
 ## Mobile menu text
 
@@ -507,6 +482,7 @@ settings-api-key-description-bolded = Solo úsala con aplicaciones en las que co
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
+setting-api-key-copied-alt = Clic para copiar
 setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
 setting-tracker-removal-description = Elimina los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
 setting-tracker-removal-note = { -brand-name-firefox-relay } ahora puede eliminar rastreadores comunes de los correos electrónicos reenviados a través de tus máscaras.
