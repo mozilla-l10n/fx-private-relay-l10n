@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Navegador Firefox
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Conta Firefox
-        [uppercase] Conta Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,10 @@ nav-profile-contact = Fale conosco
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Entre em contato sobre o { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-phone = Número de celular
+nav-duo-description = Alternar painéis
+nav-duo-email-mask-alt = Máscaras de email
+nav-duo-phone-mask-alt = Máscaras de celular
 
 ## Mobile menu text
 
@@ -507,6 +485,7 @@ settings-api-key-description-bolded = Só use em aplicativos que você confia pa
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clique para copiar
 setting-api-key-copied = Copiado!
+setting-api-key-copied-alt = Clique para copiar
 setting-tracker-removal-heading = Remover rastreadores de email
 setting-tracker-removal-description = Remove rastreadores de email em todos os emails encaminhados.
 setting-tracker-removal-note = Agora o { -brand-name-firefox-relay } pode remover rastreadores comuns de emails encaminhados por suas máscaras.
