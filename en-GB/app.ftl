@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox Browser
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox account
-        [uppercase] Firefox Account
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,10 @@ nav-profile-contact = Contact us
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Get in touch about { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
+nav-phone = Phone Number
+nav-duo-description = Switch dashboards
+nav-duo-email-mask-alt = Email masks
+nav-duo-phone-mask-alt = Phone masks
 
 ## Mobile menu text
 
@@ -507,6 +485,7 @@ settings-api-key-description-bolded = Only use this with apps that you trust to 
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Click to copy
 setting-api-key-copied = Copied!
+setting-api-key-copied-alt = Click to copy
 setting-tracker-removal-heading = Remove Email Trackers
 setting-tracker-removal-description = Remove email trackers in all forwarded emails.
 setting-tracker-removal-note = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your masks.
