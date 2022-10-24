@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox-Browser
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox-Konto
-        [uppercase] Firefox-Konto
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,10 @@ nav-profile-contact = Kontakt
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Kontakt zum Thema { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar von { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-phone = Telefonnummer
+nav-duo-description = Übersicht wechseln
+nav-duo-email-mask-alt = E-Mail-Masken
+nav-duo-phone-mask-alt = Telefonmasken
 
 ## Mobile menu text
 
@@ -509,6 +487,7 @@ settings-api-key-description-bolded = Verwenden Sie dies nur bei Apps, denen Sie
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Zum Kopieren anklicken
 setting-api-key-copied = Kopiert
+setting-api-key-copied-alt = Zum Kopieren anklicken
 setting-tracker-removal-heading = E-Mail-Tracker entfernen
 setting-tracker-removal-description = Entfernen Sie E-Mail-Tracker in allen weitergeleiteten E-Mails.
 setting-tracker-removal-note = { -brand-name-firefox-relay } kann jetzt gängige Tracker aus E-Mails entfernen, die über Ihre Masken weitergeleitet werden.
