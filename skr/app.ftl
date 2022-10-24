@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = فائرفوکس
--brand-name-firefox-relay = فائرفوکس رِیلے
--brand-name-relay = رِیلے
--brand-name-relay-premium = رِیلے پریمیئم
--brand-name-premium = پریمیئم
--brand-name-firefox-relay-premium = فائرفوکس رِیلے پریمیئم
--brand-name-firefox-browser = فائرفوکس براؤزر
--brand-name-mozilla = موزلّا
--brand-name-mozilla-vpn = موزلّا وی پی این
--brand-name-mozilla-privacy-pack = موزلّا رازداری پیک
--brand-name-firefox-lockwise = فائرفوکس لاک وائز
--brand-name-firefox-monitor = فائرفوکس مانیٹر
--brand-name-pocket = پاکٹ
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] فائرفوکس کھاتہ
-        [uppercase] فائرفوکس کھاتہ
-    }
--brand-name-chrome = کروم
--brand-name-google-chrome = گوگل کروم
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -232,6 +206,7 @@ landing-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } �
 landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 # Deprecated
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
 plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
@@ -245,6 +220,7 @@ plan-matrix-heading-feature-promo-email-blocking = مشہوری ای میلاں 
 plan-matrix-heading-feature-email-subdomain = ای میل سب ڈومین
 plan-matrix-heading-feature-email-reply = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 plan-matrix-heading-feature-phone-mask = فون  نمبر ماسک
+plan-matrix-heading-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
@@ -255,12 +231,16 @@ plan-matrix-feature-list-promo-email-blocking = مشہوری ای میلاں ب�
 plan-matrix-feature-list-email-subdomain = ای میل سب ڈومین
 plan-matrix-feature-list-email-reply = پٹھیاں ہوئیاں ای میلاں دا جواب ݙیوو
 plan-matrix-feature-list-phone-mask = فون  نمبر ماسک
+plan-matrix-feature-list-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
 plan-matrix-heading-price = قیمت
+plan-matrix-feature-count-unlimited = بے انت
 plan-matrix-price-free = مفت
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/مہینہ
 plan-matrix-price-period-yearly = سالانہ
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = بلنگ سالانہ
 plan-matrix-price-period-monthly = ماہانہ
 plan-matrix-pick = سائن اپ
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
@@ -698,6 +678,7 @@ trackerreport-removal-explainer-heading = ٹریکر ہٹاوݨ کین٘ویں �
 trackerreport-trackers-explainer-heading = ای میل ٹریکراں دا تعارف
 trackerreport-faq-heading = ای میل ٹریکراں بارے اہم سوالات
 trackerreport-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
+trackerreport-loading = تہاݙے ٹریکر ہݨاوݨ دی رپورٹ لوڈ تھیندی پئی ہے۔۔۔
 
 ## Modals
 
