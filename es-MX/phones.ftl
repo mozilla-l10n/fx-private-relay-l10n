@@ -21,6 +21,15 @@ phone-onboarding-step3-button-edit = Editar número de teléfono verdadero
 phone-onboarding-step3-button-resend = Reenviar el código de verificación
 phone-onboarding-step3-error-cta = Enviar un nuevo código
 phone-onboarding-step3-code-fail-title = Código de verificación incorrecto
+phone-onboarding-step3-code-fail-body = Por favor vuelve a inténtarlo o solicita un nuevo código.
+phone-onboarding-step3-code-success-title = ¡Felicidades!
+phone-onboarding-step3-code-success-subhead-title = ¿Qué sigue?
+phone-onboarding-step4-country = Estados Unidos y Canadá
+phone-onboarding-step4-smiliar-phone = Similar a { $phone_number }
+phone-onboarding-step4-input-search = Ingresar un código de área
+phone-onboarding-step4-confirm-alt-cancel = Cancelar
+phone-onboarding-step4-button-confirm-relay-number = Confirmar
+phone-onboarding-step4-code-success-title = ¡Felicidades!
 phone-onboarding-step4-code-success-cta = Continuar
 
 ## Phone Settings
@@ -28,12 +37,17 @@ phone-onboarding-step4-code-success-cta = Continuar
 
 ## Phone Resend SMS Banner
 
+phone-banner-resend-welcome-sms-title = Consejo rápido
 
 ## Phone What's New
 
+whatsnew-feature-phone-upgrade-cta = Actualizar ahora
 
 ## Phone Dashboard
 
+phone-dashboard-number-copied = ¡Copiado!
+phone-dashboard-sender-table-title-activity = Última actividad
+phone-dashboard-sender-disabled-update-settings = Actualizar ajustes
 phone-dashboard-header-new = Nuevo
 
 ## Phone Banner
