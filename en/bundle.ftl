@@ -37,6 +37,9 @@ bundle-banner-body = Surf, stream, game, and get work done while maintaining you
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-body-v2 = Surf, stream, game, and get work done while maintaining your privacy online. Now get { $savings } off { -brand-name-mozilla-vpn } by adding it to { -brand-name-firefox-relay }!
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-savings-headline = { $savings } off { -brand-name-mozilla-vpn }
 # String below is obsolete
 bundle-banner-1-year-plan = 1 year plan: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
 bundle-banner-1-year-plan-v2 = 1 year plan: <b>{ -brand-name-firefox-relay } Email & Phone Masking + { -brand-name-vpn }</b>
