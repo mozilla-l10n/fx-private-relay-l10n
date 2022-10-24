@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox 瀏覽器
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox 帳號
-        [uppercase] Firefox 帳號
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,10 @@ nav-profile-contact = 聯絡我們
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = 聯絡我們有關 { -brand-name-relay-premium } 的各種事項
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
+nav-phone = 電話號碼
+nav-duo-description = 切換儀錶板
+nav-duo-email-mask-alt = 轉寄信箱
+nav-duo-phone-mask-alt = 虛擬手機號碼轉接
 
 ## Mobile menu text
 
@@ -481,6 +459,7 @@ settings-api-key-description-bolded = 請只在信任可存取您的 { -brand-na
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 點擊複製
 setting-api-key-copied = 已複製！
+setting-api-key-copied-alt = 點擊複製
 setting-tracker-removal-heading = 移除郵件追蹤器
 setting-tracker-removal-description = 移除轉寄郵件當中的電子郵件追蹤器。
 setting-tracker-removal-note = 現在起，{ -brand-name-firefox-relay } 可移除轉寄郵件當中常見的追蹤器。
