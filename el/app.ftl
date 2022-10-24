@@ -3,57 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser =
-    { $case ->
-       *[nominative]
-            { $capitalization ->
-               *[uppercase] Φυλλομετρητής Firefox
-                [lowercase] φυλλομετρητής Firefox
-            }
-        [genitive]
-            { $capitalization ->
-               *[uppercase] Φυλλομετρητή Firefox
-                [lowercase] φυλλομετρητή Firefox
-            }
-    }
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $case ->
-       *[nominative]
-            { $capitalization ->
-               *[lowercase] λογαριασμός Firefox
-                [uppercase] Λογαριασμός Firefox
-            }
-        [genitive]
-            { $capitalization ->
-               *[lowercase] λογαριασμού Firefox
-                [uppercase] Λογαριασμού Firefox
-            }
-        [accusative]
-            { $capitalization ->
-               *[lowercase] λογαριασμό Firefox
-                [uppercase] Λογαριασμό Firefox
-            }
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -86,6 +35,10 @@ nav-profile-contact = Επικοινωνία
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Επικοινωνία σχετικά με το { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
+nav-phone = Αριθμός τηλεφώνου
+nav-duo-description = Εναλλαγή πινάκων
+nav-duo-email-mask-alt = Μάσκες email
+nav-duo-phone-mask-alt = Μάσκες τηλεφώνου
 
 ## Mobile menu text
 
@@ -532,6 +485,7 @@ settings-api-key-description-bolded = Χρησιμοποιήστε το μόνο
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Κάντε κλικ για αντιγραφή
 setting-api-key-copied = Αντιγράφηκε!
+setting-api-key-copied-alt = Κάντε κλικ για αντιγραφή
 setting-tracker-removal-heading = Αφαίρεση ιχνηλατών email
 setting-tracker-removal-description = Αφαιρέστε τους ιχνηλάτες email από όλα τα προωθημένα σας email.
 setting-tracker-removal-note = Το { -brand-name-firefox-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα email που προωθούνται μέσω των μασκών σας.
