@@ -3,46 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser =
-    { $case ->
-       *[nominative] браузер Firefox
-        [nominative_uppercase] Браузер Firefox
-        [genitive] браузера Firefox
-        [dative] браузеру Firefox
-        [accusative] браузер Firefox
-        [instrumental] браузером Firefox
-        [prepositional] браузере Firefox
-    }
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $case ->
-       *[nominative] аккаунт Firefox
-        [nominative_uppercase] Аккаунт Firefox
-        [genitive] аккаунта Firefox
-        [dative] аккаунту Firefox
-        [accusative] аккаунт Firefox
-        [instrumental] аккаунтом Firefox
-        [prepositional] аккаунте Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -75,6 +35,10 @@ nav-profile-contact = Связаться с нами
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Связаться с нами по { -brand-name-relay-premium }
 nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "genitive") }
+nav-phone = Номер телефона
+nav-duo-description = Переключение панелей инструментов
+nav-duo-email-mask-alt = Псевдонимы электронной почты
+nav-duo-phone-mask-alt = Псевдонимы телефонов
 
 ## Mobile menu text
 
@@ -522,6 +486,7 @@ settings-api-key-description-bolded = Вводите его только в те
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Нажмите, чтобы скопировать
 setting-api-key-copied = Скопировано!
+setting-api-key-copied-alt = Нажмите, чтобы скопировать
 setting-tracker-removal-heading = Удаление трекеров
 setting-tracker-removal-description = Удалять трекеры из всех пересылаемых электронных писем.
 setting-tracker-removal-note = Теперь { -brand-name-firefox-relay } может удалять распространённые трекеры из электронных писем, пересылаемых через ваши псевдонимы.
