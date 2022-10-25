@@ -57,6 +57,8 @@ whatsnew-feature-phone-upgrade-cta = Mettre à niveau maintenant
 ## Phone Dashboard
 
 phone-dashboard-number-copied = Copié
+phone-dashboard-forwarding-toggle-enable-label = Transfert activé
+phone-dashboard-forwarding-toggle-enable-tooltip = Transférer les appels et les SMS à votre véritable numéro de téléphone
 phone-dashboard-sender-table-title-sender = Expéditeur
 phone-dashboard-sender-table-title-action = Action
 phone-dashboard-header-new = Nouveau
