@@ -6,6 +6,18 @@
 ## Phone Onboarding
 
 phone-onboarding-step1-headline = Ajout des alias de numéro de téléphone
+phone-onboarding-step1-list-item-1 = Partagez un alias de numéro de téléphone qui transfère les SMS et les appels vers votre numéro.
+phone-onboarding-step1-period-toggle-yearly = Annuel
+phone-onboarding-step1-period-toggle-monthly = Mensuel
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+phone-onboarding-step1-button-price = { $monthly_price } / mois
+phone-onboarding-step1-button-price-note = (Facturé annuellement)
+phone-onboarding-step1-button-cta = Mettre à niveau maintenant
+phone-onboarding-step2-body = Indiquez le numéro de téléphone où vous recevrez vos SMS et appels. Nous enverrons un code à 6 chiffres à ce numéro pour le vérifier.
+phone-onboarding-step2-input-placeholder = Saisissez votre numéro de téléphone
+phone-onboarding-step2-button-cta = Envoyer le code
+phone-onboarding-step2-invalid-number = { $phone_number } n’est pas un numéro valide. Veuillez vérifier et saisir un véritable numéro de téléphone.
 phone-onboarding-step3-input-placeholder = Saisissez le code à 6 chiffres
 phone-onboarding-step3-button-resend = Renvoyer le code de vérification
 phone-onboarding-step3-error-cta = Envoyer un nouveau code
@@ -40,3 +52,6 @@ phone-dashboard-header-new = Nouveau
 phone-banner-pill-new = Nouveau !
 phone-banner-cta-landing = S’inscrire
 phone-banner-cta-user = Mettre à niveau maintenant
+
+## Frequently Asked Questions about Phone plans
+

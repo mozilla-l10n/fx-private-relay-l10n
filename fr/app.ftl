@@ -3,36 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser =
-    { $capitalization ->
-       *[lowercase] navigateur Firefox
-        [uppercase] Navigateur Firefox
-    }
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] compte Firefox
-        [uppercase] Compte Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -65,6 +35,7 @@ nav-profile-contact = Nous contacter
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Nous contacter à propos de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
+nav-phone = Numéro de téléphone
 
 ## Mobile menu text
 
