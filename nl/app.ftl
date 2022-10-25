@@ -36,6 +36,7 @@ nav-profile-contact = Contact
 nav-profile-contact-tooltip = Contact opnemen over { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase") }-avatar
 nav-phone = Telefoonnummer
+nav-duo-description = Van dashboard wisselen
 nav-duo-email-mask-alt = E-mailmaskers
 nav-duo-phone-mask-alt = Telefoonmaskers
 
