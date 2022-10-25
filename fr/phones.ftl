@@ -8,7 +8,9 @@
 phone-onboarding-step1-headline = Ajout des alias de numéro de téléphone
 phone-onboarding-step1-body = Grâce aux alias de numéro de téléphone, vous pouvez créer un alias de numéro de téléphone qui vous aide à protéger votre véritable numéro de téléphone. Partagez-le et recevez des messages et des appels en privé.
 phone-onboarding-step1-list-item-1 = Partagez un alias de numéro de téléphone qui transfère les SMS et les appels vers votre numéro.
+phone-onboarding-step1-list-item-3 = Avec les alias de numéro de téléphone, vous pouvez répondre au dernier SMS que vous avez reçu.
 phone-onboarding-step1-list-item-4 = Actuellement disponible aux États-Unis et au Canada uniquement.
+phone-onboarding-step1-button-label = Mettez à niveau votre abonnement pour bénéficier des alias de numéro de téléphone
 phone-onboarding-step1-period-toggle-yearly = Annuel
 phone-onboarding-step1-period-toggle-monthly = Mensuel
 # Variables:

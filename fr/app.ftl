@@ -36,6 +36,9 @@ nav-profile-contact = Nous contacter
 nav-profile-contact-tooltip = Nous contacter à propos de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar du { -brand-name-firefox-account }
 nav-phone = Numéro de téléphone
+nav-duo-description = Changer de tableau de bord
+nav-duo-email-mask-alt = Alias de messagerie
+nav-duo-phone-mask-alt = Alias de numéro de téléphone
 
 ## Mobile menu text
 
@@ -480,6 +483,7 @@ settings-api-key-description-bolded = Ne l’utilisez qu’avec des applications
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Cliquer pour copier
 setting-api-key-copied = Copiée !
+setting-api-key-copied-alt = Cliquer pour copier
 setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
 setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
 setting-tracker-removal-note = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie.

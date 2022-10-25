@@ -17,6 +17,9 @@ whatsnew-feature-bundle-upgrade-cta = Mettre à niveau maintenant
 
 # String below is obsolete
 bundle-banner-body = Surfez, jouez, travaillez et streamez tout en préservant votre confidentialité sur Internet. Pour tous vos déplacements, lorsque vous utilisez le Wi-Fi public, ou quand vous avez tout simplement besoin de plus de sécurité en ligne, votre confidentialité sera toujours notre priorité.
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-savings-headline = Économisez { $savings } sur { -brand-name-mozilla-vpn }
 bundle-banner-plan-header = Abonnement de 1 an :
 bundle-banner-plan-modules-email-masking = Alias de messagerie
 bundle-banner-plan-modules-phone-masking = Alias de numéro de téléphone
