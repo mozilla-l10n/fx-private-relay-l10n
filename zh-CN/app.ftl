@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox 浏览器
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox 账户
-        [uppercase] Firefox 账户
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,7 @@ nav-profile-contact = 联系我们
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
+nav-duo-phone-mask-alt = 虚拟手机号
 
 ## Mobile menu text
 
@@ -203,35 +178,60 @@ landing-how-it-works-step-3-body-2 = 登录 { -brand-name-relay } 即可总览�
 
 ## Pricing section
 
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = 限时活动：每月 { $monthly_price } 即可获得无限数量马甲
+# Deprecated
 landing-pricing-body-2 = 试用 { -brand-name-firefox-relay } 马甲邮箱保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则可获得更多灵活性和控制选项。
+# Deprecated
 landing-pricing-free-price = 免费
+# Deprecated
 landing-pricing-free-feature-1-2 = 最多 5 个马甲
+# Deprecated
 landing-pricing-free-feature-2 = 浏览器扩展
+# Deprecated
 landing-pricing-free-feature-3 = 移除邮件跟踪器
+# Deprecated
 landing-pricing-free-description = 试用 { -brand-name-firefox-relay } 马甲邮箱，保护您的收件箱。
+# Deprecated
 landing-pricing-free-cta = 下载 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
+# Deprecated
 landing-pricing-free-ribbon = 现已可用！
+# Deprecated
 landing-pricing-free-feature-free = 免费
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price } / 月
+# Deprecated
 landing-pricing-premium-price-highlight = 限时价格
+# Deprecated
 landing-pricing-premium-feature-1-2 = 无限数量马甲
+# Deprecated
 landing-pricing-premium-feature-2 = 浏览器扩展
+# Deprecated
 landing-pricing-premium-feature-3-2 = 专属邮箱子域名
+# Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-premium-feature-4 = 回复转发的电子邮件
+# Deprecated
 landing-pricing-premium-feature-5 = 屏蔽营销邮件
+# Deprecated
 landing-pricing-premium-feature-6 = 移除邮件跟踪器
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
+# Deprecated
 landing-pricing-waitlist-cta = 加入预约名单
+# Deprecated
 landing-pricing-offer-end-warning = 本促销活动即将结束
+# Deprecated
 landing-pricing-offer-end-cta = 立刻升級
+plan-matrix-heading-feature-phone-mask = 虚拟手机号
+plan-matrix-feature-list-phone-mask = 虚拟手机号
 
 ## Use Cases
 
@@ -332,6 +332,7 @@ waitlist-control-required = 必填
 waitlist-control-email-label = 您的电子邮件地址是什么？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = yourname@example.com
+# Deprecated
 waitlist-control-country-label = 您生活在哪个国家/地区？
 waitlist-control-locale-label = 选择您的首选语言。
 waitlist-submit-label = 加入预约名单
