@@ -53,6 +53,7 @@ phone-onboarding-step3-code-success-body = You’re now ready to choose your pho
 phone-onboarding-step3-code-success-subhead-title = What’s next?
 phone-onboarding-step3-code-success-subhead-body = Choose your phone number mask and start using { -brand-name-firefox-relay } to protect your true phone number.
 phone-onboarding-step3-code-success-cta = Search for phone number masks
+phone-onboarding-step3-code-success-cta-2 = Search for masks
 phone-onboarding-step3-loading = Based on your true phone number, { -brand-name-relay } is looking for similar number combinations available to you.
 
 phone-onboarding-step4-country = United States and Canada
