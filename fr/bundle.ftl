@@ -20,8 +20,13 @@ whatsnew-feature-bundle-upgrade-cta = Mettre à niveau maintenant
 
 ## VPN and Relay Landing Page Bundle Banner
 
+bundle-banner-header = { -brand-name-firefox-relay } avec <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+bundle-banner-subheader = Sécurité, fiabilité et rapidité — sur chaque appareil, où que vous alliez.
 # String below is obsolete
 bundle-banner-body = Surfez, jouez, travaillez et streamez tout en préservant votre confidentialité sur Internet. Pour tous vos déplacements, lorsque vous utilisez le Wi-Fi public, ou quand vous avez tout simplement besoin de plus de sécurité en ligne, votre confidentialité sera toujours notre priorité.
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-v2 = Surfez, streamez, jouez et travaillez tout en préservant votre vie privée en ligne. Et désormais, économisez { $save } sur { -brand-name-mozilla-vpn } en l’ajoutant à { -brand-name-firefox-relay } !
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-savings-headline = Économisez { $savings } sur { -brand-name-mozilla-vpn }
