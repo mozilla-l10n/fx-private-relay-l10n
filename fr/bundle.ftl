@@ -18,10 +18,14 @@ whatsnew-feature-bundle-snippet = Mettez à niveau votre abonnement pour obtenir
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 whatsnew-feature-bundle-header-2 = Ajoutez { -brand-name-mozilla-vpn } et économisez { $savings } !
+whatsnew-feature-bundle-snippet-2 = Bénéficiez d’un an d’alias de messagerie et d’alias de numéro de téléphone grâce à { -brand-name-relay-premium } plus { -brand-name-mozilla-vpn }…
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 # String below is obsolete
 whatsnew-feature-bundle-body = Mettez à niveau votre abonnement pour obtenir à la fois { -brand-name-firefox-relay-premium } et { -brand-name-mozilla-vpn } pour { $monthly_price }/mois. Économisez { $savings } !
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-feature-bundle-body-v2 = Bénéficiez d’un an d’alias de messagerie et d’alias de numéro de téléphone grâce à { -brand-name-relay-premium } plus { -brand-name-mozilla-vpn } pour { $monthly_price }/mois.
 whatsnew-feature-bundle-upgrade-cta = Mettre à niveau maintenant
 
 ## VPN and Relay Landing Page Bundle Banner
@@ -38,6 +42,7 @@ bundle-banner-body-v2 = Surfez, streamez, jouez et travaillez tout en préservan
 bundle-banner-savings-headline = Économisez { $savings } sur { -brand-name-mozilla-vpn }
 # String below is obsolete
 bundle-banner-1-year-plan = Forfait d’un an : <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
+bundle-banner-1-year-plan-v2 = Forfait 1 an : <b>Alias de messagerie et de numéro de téléphone { -brand-name-firefox-relay } + { -brand-name-vpn }</b>
 bundle-banner-plan-header = Abonnement de 1 an :
 bundle-banner-plan-modules-email-masking = Alias de messagerie
 bundle-banner-plan-modules-phone-masking = Alias de numéro de téléphone
@@ -45,6 +50,10 @@ bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-price-monthly = Mensuel : <monthly-price>{ $monthly_price }</monthly-price>
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+#   $old_price (string) - the outdated monthly cost (including currency symbol) for a given plan. This value has a strikethrough.
+bundle-price-save-amount = Économisez { $savings } <outdated-price>Habituellement à { $old_price }</outdated-price>
 bundle-banner-alt = { -brand-name-mozilla-vpn } et { -brand-name-relay }
 bundle-banner-cta = Obtenez { -brand-name-mozilla-vpn } + { -brand-name-relay }
 # Variables:

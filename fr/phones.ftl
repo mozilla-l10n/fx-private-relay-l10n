@@ -34,6 +34,8 @@ phone-onboarding-step3-code-fail-title = Code de vérification incorrect
 phone-onboarding-step3-code-fail-body = Veuillez réessayer ou demander un nouveau code.
 phone-onboarding-step3-code-success-title = Félicitations !
 phone-onboarding-step3-code-success-subhead-title = Et après ?
+phone-onboarding-step3-code-success-cta = Rechercher des alias de numéro de téléphone
+phone-onboarding-step3-loading = En fonction de votre véritable numéro de téléphone, { -brand-name-relay } recherche des combinaisons de chiffres similaires disponibles.
 phone-onboarding-step4-country = États-Unis et Canada
 phone-onboarding-step4-smiliar-phone = Similaire au { $phone_number }
 phone-onboarding-step4-input-search = Saisir un indicatif régional
@@ -48,6 +50,7 @@ phone-onboarding-step4-code-success-cta = Continuer
 
 ## Phone Resend SMS Banner
 
+phone-banner-resend-welcome-sms-cta = Renvoyer le SMS de bienvenue
 phone-banner-resend-welcome-sms-title = Conseil rapide
 
 ## Phone What's New
