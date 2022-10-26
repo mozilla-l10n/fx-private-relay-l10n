@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+vpn-relay-welcome-headline = Voici votre nouveau forfait de protection
 vpn-relay-welcome-subheadline = { -brand-name-firefox-relay } + { -brand-name-mozilla-vpn }
 vpn-relay-go-relay-body = Protégez votre boîte de réception et votre numéro de téléphone
 vpn-relay-go-vpn-body = Protégez votre connexion et vos activités en ligne
