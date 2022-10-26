@@ -5,6 +5,7 @@
 vpn-relay-welcome-headline = Voici votre nouveau forfait de protection
 vpn-relay-welcome-subheadline = { -brand-name-firefox-relay } + { -brand-name-mozilla-vpn }
 vpn-relay-go-relay-body = Protégez votre boîte de réception et votre numéro de téléphone
+vpn-relay-go-relay-cta = Utiliser { -brand-name-relay }
 vpn-relay-go-vpn-body = Protégez votre connexion et vos activités en ligne
 vpn-relay-go-vpn-cta = Télécharger { -brand-name-mozilla-vpn }
 
@@ -17,6 +18,10 @@ whatsnew-feature-bundle-snippet = Mettez à niveau votre abonnement pour obtenir
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 whatsnew-feature-bundle-header-2 = Ajoutez { -brand-name-mozilla-vpn } et économisez { $savings } !
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+# String below is obsolete
+whatsnew-feature-bundle-body = Mettez à niveau votre abonnement pour obtenir à la fois { -brand-name-firefox-relay-premium } et { -brand-name-mozilla-vpn } pour { $monthly_price }/mois. Économisez { $savings } !
 whatsnew-feature-bundle-upgrade-cta = Mettre à niveau maintenant
 
 ## VPN and Relay Landing Page Bundle Banner
