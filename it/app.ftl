@@ -3,36 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser =
-    { $capitalization ->
-       *[lowercase] browser Firefox
-        [uppercase] Browser Firefox
-    }
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] account Firefox
-        [uppercase] Account Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -65,6 +35,10 @@ nav-profile-contact = Contatti
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contattaci riguardo a { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
+nav-phone = Numero di telefono
+nav-duo-description = Cambia dashboard
+nav-duo-email-mask-alt = Alias di posta elettronica
+nav-duo-phone-mask-alt = Alias per numeri di telefono
 
 ## Mobile menu text
 
@@ -501,6 +475,7 @@ settings-api-key-description-bolded = Utilizzala solo con applicazioni che ritie
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Fai clic per copiare
 setting-api-key-copied = Copiato
+setting-api-key-copied-alt = Fai clic per copiare
 setting-tracker-removal-heading = Rimuovere gli elementi traccianti dalle email
 setting-tracker-removal-description = Rimuovi gli elementi traccianti da tutte le email inoltrate.
 setting-tracker-removal-note = { -brand-name-firefox-relay } ora può rimuovere gli elementi traccianti più comuni dalle email inoltrate attraverso i tuoi alias.
