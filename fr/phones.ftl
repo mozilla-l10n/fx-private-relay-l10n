@@ -73,16 +73,19 @@ phone-statistics-remaining-texts = SMS restants
 phone-statistics-calls-texts-forwarded = Appels et SMS transférés
 phone-statistics-calls-texts-blocked = Appels et SMS bloqués
 phone-dashboard-metadata-forwarded-to = Transféré à :
+phone-dashboard-metadata-date-created = Date de création :
 phone-dashboard-number-copied = Copié
 phone-dashboard-forwarding-toggle-enable-label = Transfert activé
 phone-dashboard-forwarding-toggle-enable-tooltip = Transférer les appels et les SMS à votre véritable numéro de téléphone
 phone-dashboard-sender-table-title-sender = Expéditeur
 phone-dashboard-sender-table-title-action = Action
+phone-dashboard-sender-empty-body = Vous n’avez pas encore reçu d’appel ni de message !
 phone-dashboard-header-new = Nouveau
 
 ## Phone Banner
 
 phone-banner-pill-new = Nouveau !
+phone-banner-callout = Alias de numéro de téléphone
 phone-banner-cta-landing = S’inscrire
 phone-banner-cta-user = Mettre à niveau maintenant
 # Variables:
