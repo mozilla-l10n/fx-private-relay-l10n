@@ -8,6 +8,7 @@
 phone-onboarding-step1-headline = Ajout des alias de numéro de téléphone
 phone-onboarding-step1-body = Grâce aux alias de numéro de téléphone, vous pouvez créer un alias de numéro de téléphone qui vous aide à protéger votre véritable numéro de téléphone. Partagez-le et recevez des messages et des appels en privé.
 phone-onboarding-step1-list-item-1 = Partagez un alias de numéro de téléphone qui transfère les SMS et les appels vers votre numéro.
+phone-onboarding-step1-list-item-2 = Besoin d’une facture dématérialisée ? Partagez plutôt votre alias de numéro de téléphone.
 phone-onboarding-step1-list-item-3 = Avec les alias de numéro de téléphone, vous pouvez répondre au dernier SMS que vous avez reçu.
 phone-onboarding-step1-list-item-4 = Actuellement disponible aux États-Unis et au Canada uniquement.
 phone-onboarding-step1-button-label = Mettez à niveau votre abonnement pour bénéficier des alias de numéro de téléphone
@@ -67,6 +68,11 @@ whatsnew-feature-phone-upgrade-cta = Mettre à niveau maintenant
 
 ## Phone Dashboard
 
+phone-statistics-remaining-call-minutes = Minutes d’appel restantes
+phone-statistics-remaining-texts = SMS restants
+phone-statistics-calls-texts-forwarded = Appels et SMS transférés
+phone-statistics-calls-texts-blocked = Appels et SMS bloqués
+phone-dashboard-metadata-forwarded-to = Transféré à :
 phone-dashboard-number-copied = Copié
 phone-dashboard-forwarding-toggle-enable-label = Transfert activé
 phone-dashboard-forwarding-toggle-enable-tooltip = Transférer les appels et les SMS à votre véritable numéro de téléphone
