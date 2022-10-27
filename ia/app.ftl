@@ -35,6 +35,9 @@ nav-profile-contact = Contactar nos
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-phone = Numero de telephono
+nav-duo-email-mask-alt = Mascas email
+nav-duo-phone-mask-alt = Mascas de numero de telephono
 
 ## Mobile menu text
 
@@ -477,6 +480,7 @@ settings-api-key-description-bolded = Usa isto solo con apps fidibile pro accede
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clicca pro copiar
 setting-api-key-copied = Copiate!
+setting-api-key-copied-alt = Clicca pro copiar
 setting-tracker-removal-heading = Remover traciatores de emails
 setting-tracker-removal-description = Remover traciatores de email in tote le emails inultrate.
 setting-tracker-removal-note = Ora { -brand-name-firefox-relay } pote remover ab le emails inultrate per tu mascas, le traciatores de email commun.
