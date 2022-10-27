@@ -269,10 +269,15 @@ landing-pricing-offer-end-cta = Mude agora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite a proteção premium de email com nosso preço mensal de lançamento.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Apenas por tempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/mês*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Oferta por tempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/mês*
 plan-matrix-bundle-offer-content = Experimente usar máscaras de email do { -brand-name-firefox-relay } e comece a proteger sua caixa de entrada de email. Depois mude para o { -brand-name-relay-premium } para ter ainda mais flexibilidade e controle personalizado.
 plan-matrix-heading-features = Recursos
 plan-matrix-heading-plan-free = Proteção limitada de email
