@@ -280,6 +280,7 @@ landing-pricing-offer-end-body = Get { -brand-name-relay-premium } before { $end
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+plan-matrix-bundle-offer-heading-2 = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox. Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
 plan-matrix-heading-features = Features
 plan-matrix-heading-plan-free = Limited email protection
