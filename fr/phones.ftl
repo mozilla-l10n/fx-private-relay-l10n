@@ -38,16 +38,21 @@ phone-onboarding-step3-code-success-cta = Rechercher des alias de numéro de té
 phone-onboarding-step3-loading = En fonction de votre véritable numéro de téléphone, { -brand-name-relay } recherche des combinaisons de chiffres similaires disponibles.
 phone-onboarding-step4-country = États-Unis et Canada
 phone-onboarding-step4-body = Ces alias de numéro de téléphone disponibles sont similaires à votre véritable numéro de téléphone.
+phone-onboarding-step4-sub-body = Une fois que vous avez choisi un alias de numéro de téléphone, vous ne pouvez pas en changer.
 phone-onboarding-step4-smiliar-phone = Similaire au { $phone_number }
 phone-onboarding-step4-input-search = Saisir un indicatif régional
 phone-onboarding-step4-button-more-options = Afficher d’autres options
+phone-onboarding-step4-button-register-phone-number = Choisir l’alias de numéro de téléphone
+phone-onboarding-step4-confirm-message = Pour confirmer votre alias de numéro de téléphone, saisissez-le ci-dessous. Il ne pourra pas être modifié ultérieurement.
 phone-onboarding-step4-confirm-alt-cancel = Annuler
 phone-onboarding-step4-button-confirm-relay-number = Confirmer
 phone-onboarding-step4-code-success-title = Félicitations !
 phone-onboarding-step4-code-success-cta = Continuer
+phone-onboarding-step4-results = Aucun résultat trouvé. Veuillez réessayer.
 
 ## Phone Settings
 
+phone-settings-caller-sms-log = Journal des appels et des SMS
 
 ## Phone Resend SMS Banner
 
@@ -56,6 +61,8 @@ phone-banner-resend-welcome-sms-title = Conseil rapide
 
 ## Phone What's New
 
+whatsnew-feature-phone-header = Ajout des alias de numéro de téléphone
+whatsnew-feature-phone-description = Avec les alias de numéro de téléphone, vous pouvez désormais créer un alias de numéro de téléphone qui vous permet de recevoir des SMS et des appels sans révéler votre véritable numéro.
 whatsnew-feature-phone-upgrade-cta = Mettre à niveau maintenant
 
 ## Phone Dashboard
@@ -72,6 +79,10 @@ phone-dashboard-header-new = Nouveau
 phone-banner-pill-new = Nouveau !
 phone-banner-cta-landing = S’inscrire
 phone-banner-cta-user = Mettre à niveau maintenant
+# Variables:
+#   $nr_calls (number) - the number of calls one can make per month
+#   $nr_texts (number) - the number of texts one can send and receive per month
+phone-banner-float-limits = { $nr_calls } minutes d’appel + { $nr_texts } SMS
 
 ## Frequently Asked Questions about Phone plans
 
