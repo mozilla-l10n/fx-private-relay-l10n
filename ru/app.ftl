@@ -270,10 +270,15 @@ landing-pricing-offer-end-cta = Обновитесь прямо сейчас
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Перейдите на { -brand-name-relay-premium } до { $end_date } и наслаждайтесь премиум-защитой электронной почты по нашей начальной ежемесячной цене.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Только в течение ограниченного времени: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/месяц*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Только в течение ограниченного времени: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/месяц*
 plan-matrix-bundle-offer-content = Попробуйте псевдонимы { -brand-name-firefox-relay } и начните защищать свой электронный почтовый ящик. Затем перейдите на { -brand-name-relay-premium } для ещё большей гибкости и индивидуального управления.
 plan-matrix-heading-features = Возможности
 plan-matrix-heading-plan-free = Ограниченная защита электронной почты
