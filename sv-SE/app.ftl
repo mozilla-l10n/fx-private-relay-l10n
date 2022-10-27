@@ -269,10 +269,15 @@ landing-pricing-offer-end-cta = Uppgradera nu
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Endast en begränsad tid: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/månad*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Endast en begränsad tid: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/månad*
 plan-matrix-bundle-offer-content = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg. Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
 plan-matrix-heading-features = Funktioner
 plan-matrix-heading-plan-free = Begränsat e-postskydd
