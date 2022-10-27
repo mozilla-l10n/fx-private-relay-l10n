@@ -37,6 +37,7 @@ phone-onboarding-step3-code-success-subhead-title = Et après ?
 phone-onboarding-step3-code-success-cta = Rechercher des alias de numéro de téléphone
 phone-onboarding-step3-loading = En fonction de votre véritable numéro de téléphone, { -brand-name-relay } recherche des combinaisons de chiffres similaires disponibles.
 phone-onboarding-step4-country = États-Unis et Canada
+phone-onboarding-step4-body = Ces alias de numéro de téléphone disponibles sont similaires à votre véritable numéro de téléphone.
 phone-onboarding-step4-smiliar-phone = Similaire au { $phone_number }
 phone-onboarding-step4-input-search = Saisir un indicatif régional
 phone-onboarding-step4-button-more-options = Afficher d’autres options
