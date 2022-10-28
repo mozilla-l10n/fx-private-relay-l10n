@@ -269,10 +269,15 @@ landing-pricing-offer-end-cta = Nu upgraden
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abonneer u vóór { $end_date } op { -brand-name-relay-premium } en geniet van eersteklas e-mailbescherming tegen onze introductieprijs voor een maandabonnement.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Slechts tijdelijk: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } voor €{ $monthly_price }/maand*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Slechts tijdelijk: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } voor { $monthly_price }/maand*
 plan-matrix-bundle-offer-content = Probeer { -brand-name-firefox-relay }-e-mailmaskers en begin met het beschermen van uw Postvak IN. Upgrade vervolgens naar { -brand-name-relay-premium } voor nog meer flexibiliteit en aanpasbaarheid.
 plan-matrix-heading-features = Functies
 plan-matrix-heading-plan-free = Beperkte e-mailbescherming
