@@ -88,6 +88,7 @@ phone-dashboard-metadata-date-created = Date de création :
 phone-dashboard-number-copied = Copié
 phone-dashboard-forwarding-toggle-enable-label = Transfert activé
 phone-dashboard-forwarding-toggle-enable-tooltip = Transférer les appels et les SMS à votre véritable numéro de téléphone
+phone-dashboard-forwarding-toggle-disable-label = Blocage activé
 phone-dashboard-forwarding-toggle-disable-tooltip = Bloquer les appels et les SMS sur votre alias de numéro de téléphone
 phone-dashboard-forwarding-enabled = { -brand-name-relay } transfère actuellement tous les appels téléphoniques et SMS vers votre véritable numéro de téléphone.
 phone-dashboard-forwarding-blocked = { -brand-name-relay } bloque tous les appels téléphoniques et SMS, vous ne recevrez rien depuis votre alias de numéro de téléphone.
@@ -102,12 +103,16 @@ phone-dashboard-header-new = Nouveau
 
 phone-banner-pill-new = Nouveau !
 phone-banner-callout = Alias de numéro de téléphone
+phone-banner-header = Ajoutez une couche de protection supplémentaire avec les alias de numéro de téléphone
+phone-banner-body = Grâce aux alias de numéro de téléphone, vous pouvez choisir un alias de numéro de téléphone qui protège votre numéro de téléphone. Partagez votre alias de numéro de téléphone pour recevoir et répondre aux appels et aux SMS en privé sans révéler votre véritable numéro de téléphone.
 phone-banner-cta-landing = S’inscrire
 phone-banner-cta-user = Mettre à niveau maintenant
 # Variables:
 #   $nr_calls (number) - the number of calls one can make per month
 #   $nr_texts (number) - the number of texts one can send and receive per month
 phone-banner-float-limits = { $nr_calls } minutes d’appel + { $nr_texts } SMS
+phone-banner-float-replies = Répondez aux SMS en privé
 
 ## Frequently Asked Questions about Phone plans
 
+phone-masking-faq-question-what-is = Qu’est-ce qu’un alias de numéro de téléphone ?
