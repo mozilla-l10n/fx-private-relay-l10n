@@ -269,10 +269,15 @@ landing-pricing-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Μόνο για περιορισμένο χρονικό διάστημα: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/μήνα*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Μόνο για περιορισμένο χρονικό διάστημα: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/μήνα*
 plan-matrix-bundle-offer-content = Δοκιμάστε τις μάσκες email του { -brand-name-firefox-relay } και προστατέψτε τα εισερχόμενά σας. Έπειτα, αναβαθμίστε στο { -brand-name-relay-premium } για ακόμα περισσότερη ευελιξία και έλεγχο.
 plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
