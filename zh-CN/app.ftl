@@ -35,6 +35,7 @@ nav-profile-contact = 联系我们
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
+nav-duo-description = 切换面板
 nav-duo-phone-mask-alt = 虚拟手机号
 
 ## Mobile menu text
@@ -230,8 +231,36 @@ landing-pricing-waitlist-cta = 加入预约名单
 landing-pricing-offer-end-warning = 本促销活动即将结束
 # Deprecated
 landing-pricing-offer-end-cta = 立刻升級
+plan-matrix-heading-features = 功能
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = 马甲邮箱
+plan-matrix-heading-feature-browser-extension = 浏览器扩展
+plan-matrix-heading-feature-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-heading-feature-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-heading-feature-email-subdomain = 子域名邮箱
+plan-matrix-heading-feature-email-reply = 回复转发的电子邮件
 plan-matrix-heading-feature-phone-mask = 虚拟手机号
+plan-matrix-heading-feature-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
+plan-matrix-feature-list-browser-extension = 浏览器扩展
+plan-matrix-feature-list-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-feature-list-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-feature-list-email-subdomain = 子域名邮箱
+plan-matrix-feature-list-email-reply = 回复转发的电子邮件
 plan-matrix-feature-list-phone-mask = 虚拟手机号
+plan-matrix-feature-list-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-price = 价格
+plan-matrix-feature-count-unlimited = 无限制
+plan-matrix-price-free = 免费
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price } / 月
+plan-matrix-price-period-yearly = 每年
+plan-matrix-price-period-monthly = 每月
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = VPN 原价再享 { $percentage }% 折扣
+plan-matrix-join-waitlist = 加入预约名单
 
 ## Use Cases
 
@@ -371,6 +400,7 @@ setting-label-api-key = API 密钥
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 点击复制
 setting-api-key-copied = 已复制！
+setting-api-key-copied-alt = 点击复制
 setting-tracker-removal-heading = 移除邮件跟踪器
 
 ## FAQ Page
