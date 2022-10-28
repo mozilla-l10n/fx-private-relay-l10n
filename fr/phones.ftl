@@ -34,7 +34,9 @@ phone-onboarding-step3-error-cta = Envoyer un nouveau code
 phone-onboarding-step3-code-fail-title = Code de vérification incorrect
 phone-onboarding-step3-code-fail-body = Veuillez réessayer ou demander un nouveau code.
 phone-onboarding-step3-code-success-title = Félicitations !
+phone-onboarding-step3-code-success-body = Vous pouvez désormais choisir votre alias de numéro de téléphone.
 phone-onboarding-step3-code-success-subhead-title = Et après ?
+phone-onboarding-step3-code-success-subhead-body = Choisissez votre alias de numéro de téléphone et commencez à utiliser { -brand-name-firefox-relay } pour protéger votre véritable numéro de téléphone.
 phone-onboarding-step3-code-success-cta = Rechercher des alias de numéro de téléphone
 phone-onboarding-step3-loading = En fonction de votre véritable numéro de téléphone, { -brand-name-relay } recherche des combinaisons de chiffres similaires disponibles.
 phone-onboarding-step4-country = États-Unis et Canada
@@ -46,8 +48,13 @@ phone-onboarding-step4-button-more-options = Afficher d’autres options
 phone-onboarding-step4-button-register-phone-number = Choisir l’alias de numéro de téléphone
 phone-onboarding-step4-confirm-message = Pour confirmer votre alias de numéro de téléphone, saisissez-le ci-dessous. Il ne pourra pas être modifié ultérieurement.
 phone-onboarding-step4-confirm-alt-cancel = Annuler
+phone-onboarding-step4-body-confirm-relay-number = Veuillez confirmer qu’il s’agit de l’alias de numéro de téléphone que vous souhaitez. Il ne peut pas être modifié ultérieurement.
 phone-onboarding-step4-button-confirm-relay-number = Confirmer
 phone-onboarding-step4-code-success-title = Félicitations !
+phone-onboarding-step4-code-success-body = Vous avez choisi votre nouvel alias de numéro de téléphone.
+phone-onboarding-step4-code-success-subhead-title = Et ensuite ?
+phone-onboarding-step4-code-success-subhead-body-p1 = { -brand-name-relay } vous a envoyé un SMS avec une nouvelle fiche de contact par laquelle nous transférerons vos appels et vos messages.
+phone-onboarding-step4-code-success-subhead-body-p2 = Veuillez enregistrer le contact afin de pouvoir identifier vos messages et appels transférés.
 phone-onboarding-step4-code-success-cta = Continuer
 phone-onboarding-step4-results = Aucun résultat trouvé. Veuillez réessayer.
 
@@ -59,10 +66,14 @@ phone-settings-caller-sms-log = Journal des appels et des SMS
 
 phone-banner-resend-welcome-sms-cta = Renvoyer le SMS de bienvenue
 phone-banner-resend-welcome-sms-title = Conseil rapide
+# To clarify the "Can't find it?" at the end: there's a button below this string to resend the message containing this contact (labelled `phone-banner-resend-welcome-sms-cta`, i.e. "Resend welcome text").
+phone-banner-resend-welcome-sms-body = N’oubliez pas d’enregistrer le contact que nous avons partagé avec vous par SMS pour vous aider à identifier les messages transférés par { -brand-name-relay }. Vous ne le trouvez pas ?
+phone-banner-resend-welcome-sms-toast-msg = Le SMS de bienvenue avec votre contact { -brand-name-relay } a été envoyé. Consultez votre application de messagerie.
 
 ## Phone What's New
 
 whatsnew-feature-phone-header = Ajout des alias de numéro de téléphone
+whatsnew-feature-phone-snippet = Avec les alias de numéro de téléphone, vous pouvez désormais créer un alias de numéro de téléphone…
 whatsnew-feature-phone-description = Avec les alias de numéro de téléphone, vous pouvez désormais créer un alias de numéro de téléphone qui vous permet de recevoir des SMS et des appels sans révéler votre véritable numéro.
 whatsnew-feature-phone-upgrade-cta = Mettre à niveau maintenant
 
@@ -77,8 +88,13 @@ phone-dashboard-metadata-date-created = Date de création :
 phone-dashboard-number-copied = Copié
 phone-dashboard-forwarding-toggle-enable-label = Transfert activé
 phone-dashboard-forwarding-toggle-enable-tooltip = Transférer les appels et les SMS à votre véritable numéro de téléphone
+phone-dashboard-forwarding-toggle-disable-tooltip = Bloquer les appels et les SMS sur votre alias de numéro de téléphone
+phone-dashboard-forwarding-enabled = { -brand-name-relay } transfère actuellement tous les appels téléphoniques et SMS vers votre véritable numéro de téléphone.
+phone-dashboard-forwarding-blocked = { -brand-name-relay } bloque tous les appels téléphoniques et SMS, vous ne recevrez rien depuis votre alias de numéro de téléphone.
 phone-dashboard-sender-table-title-sender = Expéditeur
+phone-dashboard-sender-table-title-activity = Dernière activité
 phone-dashboard-sender-table-title-action = Action
+phone-dashboard-sender-disabled-update-settings = Mettre à jour les paramètres
 phone-dashboard-sender-empty-body = Vous n’avez pas encore reçu d’appel ni de message !
 phone-dashboard-header-new = Nouveau
 
