@@ -255,10 +255,15 @@ landing-pricing-offer-end-cta = 立刻升級
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }*
 plan-matrix-bundle-offer-content = 試用 { -brand-name-firefox-relay } 來轉寄郵件並開始保護您的郵件信箱，再升級到 { -brand-name-relay-premium } 讓您操作更靈活，更能自訂控制方式。
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限量的信箱保護
