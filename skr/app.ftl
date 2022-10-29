@@ -35,6 +35,10 @@ nav-profile-contact = ساݙے نال رابطہ کرو
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = { -brand-name-relay-premium } بارے رابطہ وچ راہوو
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
+nav-phone = فون نمبر
+nav-duo-description = سوئچ ڈیش بورڈ
+nav-duo-email-mask-alt = ای میل ماسک
+nav-duo-phone-mask-alt = فون ماسک
 
 ## Mobile menu text
 
@@ -107,6 +111,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
 whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
 whatsnew-feature-offer-countdown-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = { $end_date } توں پہلے { -brand-name-relay-premium } گھنو تے بے انت ماسکنگ دا ساݙے  تے مزے کرو…
 whatsnew-feature-offer-countdown-cta = ہݨ اپ گریڈ کرو
 
 ## Bento Menu
@@ -234,6 +244,8 @@ plan-matrix-feature-list-phone-mask = فون  نمبر ماسک
 plan-matrix-feature-list-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
 plan-matrix-heading-price = قیمت
 plan-matrix-feature-count-unlimited = بے انت
+plan-matrix-feature-included = سمیت
+plan-matrix-feature-not-included = بغیر
 plan-matrix-price-free = مفت
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -242,6 +254,9 @@ plan-matrix-price-period-yearly = سالانہ
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = بلنگ سالانہ
 plan-matrix-price-period-monthly = ماہانہ
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = عام وی پی این دی قیمت تے { $percentage } فیصد بچاو
 plan-matrix-pick = سائن اپ
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
 
@@ -249,6 +264,9 @@ plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
 
 landing-use-cases-heading = کیتے { -brand-name-firefox-relay } ورتو:
 landing-use-cases-shopping = خریداری
+landing-use-cases-shopping-body-2 =
+    ہک نویں آن لائن دوکان توں کچھ گھندے پئے وے؟ آن لاٰئن خریداری کریندے ویلے اپݨی اصل ای میل دی بجائے ای میل ماسک دا استعمال کرو.
+    اساں تہاڈی اصل ای میل تے رسید آڳوں تے بھیڄ ݙیسوں، تے جے تہاکوں ایجھی ای میلاں آوݨ لڳݨ ڄیڑہی تساں پسند نی کریندے، صرف ماسک کوں بلاک تے سوئچ کر چھوڑو۔
 landing-use-cases-social-networks = سماجی نیٹ ورک
 landing-use-cases-offline = آف لائن
 landing-use-cases-access-content = مواد تائیں رسائی کرو
