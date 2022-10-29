@@ -36,6 +36,7 @@ nav-profile-contact = Contactar nos
 nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-phone = Numero de telephono
+nav-duo-description = Mutar pannello de controlo
 nav-duo-email-mask-alt = Mascas email
 nav-duo-phone-mask-alt = Mascas de numero de telephono
 
