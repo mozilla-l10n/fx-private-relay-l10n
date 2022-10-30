@@ -3,32 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Navegador Firefox
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] cuenta de Firefox
-        [uppercase] Cuenta de Firefox
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
@@ -61,6 +35,10 @@ nav-profile-contact = Contacta con nosotros
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contacta con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account }
+nav-phone = Número de teléfono
+nav-duo-description = Cambiar paneles
+nav-duo-email-mask-alt = Máscaras de correo electrónico
+nav-duo-phone-mask-alt = Máscaras de teléfono
 
 ## Mobile menu text
 
@@ -291,10 +269,15 @@ landing-pricing-offer-end-cta = Actualizar ahora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }€ al mes*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price } al mes*
 plan-matrix-bundle-offer-content =
     Prueba las máscaras de correo electrónico de { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada de correo.
     Luego, actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
@@ -511,6 +494,7 @@ settings-api-key-description-bolded = Utilízala solo con aplicaciones en las qu
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Clic para copiar
 setting-api-key-copied = ¡Copiado!
+setting-api-key-copied-alt = Clic para copiar
 setting-tracker-removal-heading = Eliminar rastreadores de correo electrónico
 setting-tracker-removal-description = Eliminar los rastreadores de correo electrónico en todos los correos electrónicos reenviados.
 setting-tracker-removal-note = { -brand-name-firefox-relay } puede eliminar los rastreadores comunes del correo electrónico de los mensajes de correo electrónico reenviados a través de tus máscaras.
