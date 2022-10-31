@@ -273,10 +273,15 @@ landing-pricing-offer-end-cta = Uwchraddiwch nawr
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Am amser cyfyngedig yn unig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Am amser cyfyngedig yn unig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content =
     Rhowch gynnig ar e-byst arallenw { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
     Yna uwchraddiwch i { -brand-name-relay-premium } i gael rhagor o hyblygrwydd a rheolaeth fanylach.
