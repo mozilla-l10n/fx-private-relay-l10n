@@ -270,10 +270,15 @@ landing-pricing-offer-end-cta = Inovovať teraz
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Len časovo obmedzené: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }$/mesiac*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Len časovo obmedzené: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/mesiac*
 plan-matrix-bundle-offer-content =
     Vyskúšajte e-mailové masky služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
     Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
