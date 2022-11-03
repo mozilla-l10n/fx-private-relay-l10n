@@ -74,6 +74,8 @@ phone-onboarding-step4-results = Aucun résultat trouvé. Veuillez réessayer.
 ## Phone Settings
 
 phone-settings-caller-sms-log = Journal des appels et des SMS
+phone-settings-caller-sms-log-description = Autoriser { -brand-name-firefox-relay } à conserver un journal de vos appelants et expéditeurs de SMS.
+phone-settings-caller-sms-log-warning = Si vous décidez de désactiver cette préférence, vous perdrez la possibilité de bloquer et de répondre aux expéditeurs ou aux appelants. Si vous en avez bloqué, ils seront débloqués et votre journal d’appels et d’expéditeurs de SMS existant sera définitivement effacé de votre historique.
 
 ## Phone Resend SMS Banner
 
@@ -129,3 +131,5 @@ phone-banner-float-replies = Répondez aux SMS en privé
 ## Frequently Asked Questions about Phone plans
 
 phone-masking-faq-question-what-is = Qu’est-ce qu’un alias de numéro de téléphone ?
+phone-masking-faq-answer-what-is = Tout comme un alias de messagerie, un alias de numéro de téléphone est un numéro de téléphone qui peut transférer des SMS et des appels à votre véritable numéro de téléphone sans révéler votre véritable numéro à la personne qui vous appelle ou vous envoie des SMS.
+phone-masking-faq-question-where-is = Où les alias de numéro de téléphone sont-ils disponibles ?
