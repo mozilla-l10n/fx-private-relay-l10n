@@ -38,6 +38,7 @@ nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase
 nav-phone = Número de teléfono
 nav-duo-description = Cambiar paneles
 nav-duo-email-mask-alt = Máscaras de correo electrónico
+nav-duo-phone-mask-alt = Máscaras de teléfono
 
 ## Mobile menu text
 
@@ -273,6 +274,10 @@ landing-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del 
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content = Prueba las máscaras de correo electrónico { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada. Luego actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
 plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada

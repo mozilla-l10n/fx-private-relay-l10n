@@ -30,6 +30,7 @@ phone-onboarding-step4-input-search = Ingresar un código de área
 phone-onboarding-step4-confirm-alt-cancel = Cancelar
 phone-onboarding-step4-button-confirm-relay-number = Confirmar
 phone-onboarding-step4-code-success-title = ¡Felicidades!
+phone-onboarding-step4-code-success-subhead-title = ¿Qué sigue?
 phone-onboarding-step4-code-success-cta = Continuar
 
 ## Phone Settings
@@ -59,3 +60,6 @@ phone-banner-cta-user = Actualizar ahora
 #   $nr_texts (number) - the number of texts one can send and receive per month
 phone-banner-float-limits = { $nr_calls } minutos de llamada + { $nr_texts } mensajes de texto
 phone-banner-float-replies = Responder a los mensajes de texto en privado
+
+## Frequently Asked Questions about Phone plans
+
