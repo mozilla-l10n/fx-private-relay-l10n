@@ -826,7 +826,7 @@ banner-phone-masking-promo-advanced-identity-body = Stop trackers and data aggre
 banner-phone-masking-promo-control-receiver-headline = Control who gets your real number
 banner-phone-masking-promo-control-receiver-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
 banner-phone-masking-promo-extra-protection-headline = Get extra protection for your inbox & phone
-banner-phone-masking-promo-control-receiver-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
+banner-phone-masking-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
 banner-phone-masking-promo-cta = Upgrade
 
 ## Success Messages
