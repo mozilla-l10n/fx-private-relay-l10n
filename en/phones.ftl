@@ -153,9 +153,11 @@ phone-masking-faq-answer-can-reply = Yes, you can reply to the last text you rec
 
 phone-masking-faq-question-forwarded-texts = What kinds of texts will be forwarded?
 phone-masking-faq-answer-forwarded-texts = Only SMS text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
+phone-masking-faq-answer-forwarded-texts-2 = Only text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
 
 phone-masking-faq-question-pictures = Can I send or receive pictures via text?
 phone-masking-faq-answer-pictures = No, only SMS text messages can be forwarded or sent as replies.
+phone-masking-faq-answer-pictures-2 = No, only text messages can be forwarded or sent as replies.
 
 phone-masking-faq-question-historical = Can I reply to historical text messages?
 phone-masking-faq-answer-historical = You can’t currently reply to texts you received previously, though this feature is on the way.
@@ -196,3 +198,26 @@ phone-masking-faq-question-data = What kinds of data does { -brand-name-relay } 
 #   $url (url) - link to Firefox Relay's Privacy Policy, i.e. https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 phone-masking-faq-answer-data = Please see the <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay } Privacy Policy</a>.
+
+## Phone Masking Splash Screen
+
+phone-masking-splash-header = Welcome to { -brand-name-relay } Phone Number Masking
+phone-masking-splash-subheading = First, let’s go over how you can maximize your experience.
+phone-masking-splash-continue-btn = Go to dashboard
+
+phone-masking-splash-save-contact-title = Save { -brand-name-relay } as a contact
+phone-masking-splash-save-contact-body = We sent you an text with a contact called “{ -brand-name-firefox-relay }.” Save it to your contacts to help you identify { -brand-name-relay } messages. Can’t find it?
+phone-masking-splash-save-contact-cta = Resend welcome text
+
+phone-masking-splash-replies-title = How to reply to your messages
+phone-masking-splash-replies-body = To reply to the last text you received, simply reply like you normally would. To reply to a previous text, just start your reply with the last 4 digits of that sender’s number. 
+phone-masking-splash-replies-example = Replying to (555) 555-9876
+phone-masking-splash-replies-example-text = 9876 Your message
+
+phone-masking-splash-blocking-title = How to block a sender
+phone-masking-splash-blocking-body = Getting texts you don’t want? You can block any phone number from calling and texting you. Just find the number on your “Callers and text senders” list and select <strong>Block.</strong>
+phone-masking-splash-blocking-example-unblock = Unblock
+phone-masking-splash-blocking-example-block = Block
+phone-masking-splash-blocking-example-date = Today
+
+
