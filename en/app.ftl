@@ -818,16 +818,16 @@ banner-offer-end-cta = Upgrade now
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = You can make up any address @{ $subdomain }
 
-# Phone Masking Promo A/B Test
-banner-phone-masking-promo-stop-spam-headline = Stop spam, robocalls & junk texts
-banner-phone-masking-promo-stop-spam-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
-banner-phone-masking-promo-advanced-identity-headline = Advanced identity protection
-banner-phone-masking-promo-advanced-identity-body = Stop trackers and data aggregators from identifying you via your phone number and email address.
-banner-phone-masking-promo-control-receiver-headline = Control who gets your real number
-banner-phone-masking-promo-control-receiver-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
-banner-phone-masking-promo-extra-protection-headline = Get extra protection for your inbox & phone
-banner-phone-masking-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
-banner-phone-masking-promo-cta = Upgrade
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stop spam, robocalls & junk texts
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
+banner-ab-premium-promo-advanced-identity-headline = Advanced identity protection
+banner-ab-premium-promo-advanced-identity-body = Stop trackers and data aggregators from identifying you via your phone number and email address.
+banner-ab-premium-promo-control-receiver-headline = Control who gets your real number
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
+banner-ab-premium-promo-extra-protection-headline = Get extra protection for your inbox & phone
+banner-ab-premium-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
+banner-ab-premium-promo-cta = Upgrade
 
 ## Success Messages
 
