@@ -153,9 +153,11 @@ phone-masking-faq-answer-can-reply = Yes, you can reply to the last text you rec
 
 phone-masking-faq-question-forwarded-texts = What kinds of texts will be forwarded?
 phone-masking-faq-answer-forwarded-texts = Only SMS text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
+phone-masking-faq-answer-forwarded-texts-2 = Only text messages can be forwarded. MMS texts that include photos, videos, etc. will not be forwarded.
 
 phone-masking-faq-question-pictures = Can I send or receive pictures via text?
 phone-masking-faq-answer-pictures = No, only SMS text messages can be forwarded or sent as replies.
+phone-masking-faq-answer-pictures-2 = No, only text messages can be forwarded or sent as replies.
 
 phone-masking-faq-question-historical = Can I reply to historical text messages?
 phone-masking-faq-answer-historical = You can’t currently reply to texts you received previously, though this feature is on the way.
