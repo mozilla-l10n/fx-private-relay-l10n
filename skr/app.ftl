@@ -110,6 +110,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # length as the English version.
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
 whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-tracker-removal-snippet = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں آڳو بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے…
+# Deprecated
+whatsnew-feature-tracker-removal-description = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں آڳو بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے، تہاکوں مشہوری کرݨ آلے لوگاں تو لکاوݨ سانگو۔
 whatsnew-feature-offer-countdown-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -277,6 +283,7 @@ landing-use-cases-on-the-go = گو تے
 landing-use-cases-on-the-go-heading = { -brand-name-relay } نال گو تے
 landing-use-cases-on-the-go-lead = کہیں وی جاء تے  یا ہر ہک جاء تے تساں ویندے ہو فورن ہک کسٹم ای میل ماسک بݨاؤ!
 landing-use-cases-on-the-go-connect-heading = گو نال کنکٹ تھیوو
+landing-use-cases-on-the-go-connect-body = جئے ویلے تساں آپݨی پسندیدہ کافی دی دکان یا عوامی وائی فائی تے ذاتی طور تے سائن ان تھیو تاں اپݨی ای میل ماسک دا استعمال کرو
 landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
 landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
@@ -795,6 +802,9 @@ forwarded-email-trackers-blocked-report = ٻیا سِکھو
 forwarded-email-footer-2 = اتھ سارے ماسکاں کنوں ای میل بھیڄݨ کنوں روکو  تے ترتیباں منیج کرو۔
 # This entire text is a link
 forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت ختم تھیوݨ توں پہلے { $premium_link } وچ اپ گریڈ تھی ونجو۔
 
 ## Notifications component
 
