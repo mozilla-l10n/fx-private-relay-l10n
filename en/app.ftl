@@ -1148,8 +1148,7 @@ toast-button-close-label = Close notification
 
 # Variables:
 #   $free_tier_limit (string) - Maxmimum email masks created for free account
-# api-error-free-tier-limit = You must be a premium subscriber to make more than { $free_tier_limit } email masks.
-api-error-free-tier-limit = You must be a premium subscriber to make more than 5 email masks.
+api-error-free-tier-limit = You must be a premium subscriber to make more than { $free_tier_limit } email masks.
 api-error-free-tier-no-subdomain-masks = You must be a premium subscriber to create subdomain email masks.
 
 # Variables:
