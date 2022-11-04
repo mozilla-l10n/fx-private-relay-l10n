@@ -35,6 +35,8 @@ nav-profile-contact = Contáctanos
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Comunícate con nosotros acerca de { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
+nav-phone = Número de teléfono
+nav-duo-description = Cambiar paneles
 nav-duo-email-mask-alt = Máscaras de correo electrónico
 
 ## Mobile menu text
@@ -266,6 +268,7 @@ landing-pricing-offer-end-cta = Actualizar ahora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
