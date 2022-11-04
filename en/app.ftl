@@ -1143,3 +1143,17 @@ forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } bef
 ## Notifications component
 
 toast-button-close-label = Close notification
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (string) - Maxmimum email masks created for free account
+# api-error-free-tier-limit = You must be a premium subscriber to make more than { $free_tier_limit } email masks.
+api-error-free-tier-limit = You must be a premium subscriber to make more than 5 email masks.
+api-error-free-tier-no-subdomain-masks = You must be a premium subscriber to create subdomain email masks.
+
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = Domain address "{ $unavailable_address }" could not be created, try using a different value.
+api-error-need-subdomain = You must select a subdomain before creating email address with subdomain.
+api-error-account-is-paused = Your account is on pause.
