@@ -745,6 +745,8 @@ banner-choose-subdomain-input-placeholder-3 = Pesquisar subdomínio
 banner-register-subdomain-button-search = Pesquisar
 banner-pack-upgrade-headline-2-html = Mude para o <strong>{ -brand-name-firefox-relay-premium }</strong> para ter mais máscaras de email
 banner-pack-upgrade-copy-2 = Com máscaras de email ilimitadas e seu próprio subdomínio de emails, o { -brand-name-firefox-relay-premium } ajuda você a se manter protegido online.
+footer-banner-premium-promo-headine = Mude para o <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger seu celular <i>e</i> email
+footer-banner-premium-promo-body = Tenha uma máscara de número de celular, máscaras de email ilimitadas e endereços de email personalizados para criação rápida de máscaras.
 banner-pack-upgrade-cta = Mude agora para a versão premium
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Atualização do aviso de privacidade
@@ -770,6 +772,8 @@ banner-offer-end-cta = Mude agora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $subdomain }
+banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas.
+banner-ab-premium-promo-advanced-identity-headline = Proteção avançada de identidade
 
 ## Success Messages
 
