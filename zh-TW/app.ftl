@@ -744,6 +744,7 @@ banner-offer-end-cta = 立刻升級
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
+banner-ab-premium-promo-cta = 升級
 
 ## Success Messages
 
