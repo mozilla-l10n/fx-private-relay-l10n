@@ -751,6 +751,8 @@ banner-choose-subdomain-input-placeholder-3 = Subdomain suchen
 banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-2-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong> erhalten Sie noch mehr Masken.
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
+footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy und Ihre E-Mail-Adresse
+footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummernmaske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
@@ -776,6 +778,16 @@ banner-offer-end-cta = Jetzt upgraden
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdomain } erstellen
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stoppen Sie Spam, automatische Anrufe und Junk-SMS
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonmaske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
+banner-ab-premium-promo-advanced-identity-headline = Erweiterter Identitätsschutz
+banner-ab-premium-promo-advanced-identity-body = Verhindern Sie, dass Tracker und Datensammler Sie über Ihre Telefonnummer und E-Mail-Adresse identifizieren.
+banner-ab-premium-promo-control-receiver-headline = Kontrollieren Sie, wer Ihre echte Nummer bekommt
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonmaske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
+banner-ab-premium-promo-extra-protection-headline = Holen Sie sich zusätzlichen Schutz für Ihren Posteingang und Ihr Telefon
+banner-ab-premium-promo-extra-protection-body = Erhalten Sie unbegrenzte E-Mail-Masken – plus eine Telefonmaske, um zu kontrollieren, wer Ihre echte Nummer erhält.
+banner-ab-premium-promo-cta = Upgrade
 
 ## Success Messages
 
