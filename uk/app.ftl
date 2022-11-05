@@ -715,10 +715,10 @@ banner-bounced-copy =
     Ми отримали <em>{ $bounce_type }</em> "відмов" від вашого постачальника послуг електронної пошти під час спроби переслати вам електронні листи.
     Це може статися, якщо { -brand-name-relay } не може під'єднатися до вашого постачальника послуг електронної пошти або якщо ваша поштова скринька була заповнена. Ми повторимо спробу { $date }.
 banner-download-firefox-headline = { -brand-name-relay } навіть краще у { -brand-name-firefox }
-banner-download-firefox-copy-2 = Розширення { -brand-name-relay } для { -brand-name-firefox-browser } спрощує створення масок.
+banner-download-firefox-copy-2 = Розширення { -brand-name-relay } для { -brand-name-firefox-browser(case: "gen", capitalization: "lower") } спрощує створення масок.
 banner-download-firefox-cta = Отримати { -brand-name-firefox }
 banner-download-install-extension-headline = Отримати розширення { -brand-name-relay } для { -brand-name-firefox }
-banner-download-install-extension-copy-2 = Розширення { -brand-name-relay } для { -brand-name-firefox-browser } спрощує користування масками.
+banner-download-install-extension-copy-2 = Розширення { -brand-name-relay } для { -brand-name-firefox-browser(case: "gen", capitalization: "lower") } спрощує користування масками.
 banner-download-install-extension-cta = Додати { -brand-name-relay } до { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Спробуйте { -brand-name-relay } для { -brand-name-google-chrome }
 # Deprecated

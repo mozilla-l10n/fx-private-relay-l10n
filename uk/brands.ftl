@@ -14,7 +14,39 @@
 -brand-name-relay-premium = Relay Premium
 -brand-name-premium = Premium
 -brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Браузер Firefox
+-brand-name-firefox-browser =
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Браузер Firefox
+                [lower] браузер Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Браузера Firefox
+                [lower] браузера Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Браузеру Firefox
+                [lower] браузеру Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Браузер Firefox
+                [lower] браузер Firefox
+            }
+        [abl]
+            { $capitalization ->
+               *[upper] Браузером Firefox
+                [lower] браузером Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Браузері Firefox
+                [lower] браузері Firefox
+            }
+    }
 -brand-name-mozilla = Mozilla
 -brand-name-vpn = VPN
 -brand-name-mozilla-vpn = Mozilla VPN
