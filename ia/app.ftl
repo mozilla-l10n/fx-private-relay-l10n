@@ -770,6 +770,7 @@ banner-offer-end-cta = Promover ora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
+banner-ab-premium-promo-cta = Promover
 
 ## Success Messages
 
