@@ -22,7 +22,7 @@ avatar-tooltip = Профіль
 nav-faq = ЧаП
 nav-profile-sign-in = Увійти
 nav-profile-sign-up = Зареєструватися
-nav-profile-manage-fxa = Керувати своїм { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-manage-fxa = Керувати { -brand-name-firefox-account(case: "abl", capitalization: "lower") }
 nav-profile-sign-out = Вийти
 nav-profile-sign-out-relay = Вийти з { -brand-name-relay }
 nav-profile-sign-out-confirm = Ви впевнені, що бажаєте вийти?
@@ -34,7 +34,7 @@ nav-profile-help-tooltip = Отримати допомогу щодо корис
 nav-profile-contact = Зв'язатися з нами
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Зв’язатися щодо { -brand-name-relay-premium }
-nav-profile-image-alt = Аватар для { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt = Аватар для { -brand-name-firefox-account(case: "gen", capitalization: "lower") }
 nav-phone = Номер телефону
 nav-duo-description = Перемкнути інформаційні панелі
 nav-duo-email-mask-alt = Маски електронної пошти
@@ -163,7 +163,7 @@ how-it-works-step-1-headline = Отримати розширення
 how-it-works-step-1-link = Завантажте розширення { -brand-name-relay } для { -brand-name-firefox }.
 how-it-works-step-1-copy =
     Виберіть піктограму, яка з’явиться на панелі інструментів { -brand-name-firefox }, щоб відкрити сторінку входу. 
-    Увійдіть у свій обліковий запис { -brand-name-firefox-account }, щоб розпочати.
+    Увійдіть з використанням свого { -brand-name-firefox-account(case: "gen", capitalization: "lower") }, щоб розпочати.
 how-it-works-step-2-headline-2 = Створіть нову псевдоадресу електронної пошти
 how-it-works-step-2-copy =
     Під час перегляду, на сайтах, які запитуватимуть вашу електронну адресу, з'являтиметься піктограма { -brand-name-relay }.
@@ -182,7 +182,7 @@ hero-image-copy-control-html = Тепер <em>ви контролюєте</em> �
 landing-hero-headline-2 = Захистіть свою справжню електронну адресу, щоб розширити контроль над своєю поштовою скринькою
 landing-hero-body-2 =
     Маски електронної пошти { -brand-name-firefox-relay } захищають вашу справжню електронну адресу від сторонніх, автоматично пересилаючи електронні листи до ваших справжніх вхідних.
-    Тепер ви можете отримувати у свою поштову скриньку лише потрібні вам повідомлення. Щоб розпочати, зареєструйтесь за допомогою свого облікового запису { -brand-name-firefox-account }.
+    Тепер ви можете отримувати у свою поштову скриньку лише потрібні вам повідомлення. Щоб розпочати, зареєструйтесь за допомогою свого { -brand-name-firefox-account(case: "gen", capitalization: "lower") }.
 landing-offer-end-hero-heading = Наша початкова цінова пропозиція скоро закінчується!
 landing-offer-end-hero-cta = Оновити зараз
 # Variables:
@@ -566,7 +566,7 @@ faq-question-acceptable-use-question = Що вважається прийнят�
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } має ті самі <a href="{ $url }" { $attrs }>умови надання послуг, що й усі продукти { -brand-name-mozilla }</a>. Ми маємо політику нетерпимості до користування { -brand-name-relay } у зловмисних цілях, як-от спам, що призводить до припинення дії облікового запису користувача. Ми вживаємо заходів, щоб запобігти порушенням користувачів наших умов такими способами:
-faq-question-acceptable-use-answer-measure-account = Вимагаємо { -brand-name-firefox-account(capitalization: "uppercase") } з підтвердженою адресою електронної пошти
+faq-question-acceptable-use-answer-measure-account = Необхідний { -brand-name-firefox-account(case: "nom", capitalization: "lower") } із підтвердженою адресою електронної пошти
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Вимагається оплата від користувачів за створення понад п'ять масок
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Обмеження кількості масок, які можна створити за один день
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/

@@ -55,9 +55,37 @@
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
 -brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Обліковий запис Firefox
-        [uppercase] Обліковий запис Firefox
+    { $case ->
+       *[nom]
+            { $capitalization ->
+               *[upper] Обліковий запис Firefox
+                [lower] обліковий запис Firefox
+            }
+        [gen]
+            { $capitalization ->
+               *[upper] Облікового запису Firefox
+                [lower] облікового запису Firefox
+            }
+        [dat]
+            { $capitalization ->
+               *[upper] Обліковому запису Firefox
+                [lower] обліковому запису Firefox
+            }
+        [acc]
+            { $capitalization ->
+               *[upper] Обліковий запис Firefox
+                [lower] обліковий запис Firefox
+            }
+        [abl]
+            { $capitalization ->
+               *[upper] Обліковим записом Firefox
+                [lower] обліковим записом Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Обліковому записі Firefox
+                [lower] обліковому записі Firefox
+            }
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome
