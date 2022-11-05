@@ -750,6 +750,8 @@ banner-choose-subdomain-input-placeholder-3 = Шукати субдомен
 banner-register-subdomain-button-search = Пошук
 banner-pack-upgrade-headline-2-html = Оновіться до <strong>{ -brand-name-firefox-relay-premium }</strong>, щоб отримати більше масок електронних адрес
 banner-pack-upgrade-copy-2 = Завдяки необмеженій кількості масок е-пошти та вашому власному субдомену електронної пошти, { -brand-name-firefox-relay-premium } допомагає вам захистити себе в інтернеті.
+footer-banner-premium-promo-headine = Перейдіть на <strong>{ -brand-name-firefox-relay-premium }</strong>, щоб захистити свій телефон <i>та</i> електронну пошту
+footer-banner-premium-promo-body = Отримайте маску номера телефону, необмежену кількість масок електронної пошти та власні адреси електронної пошти для швидкого створення масок.
 banner-pack-upgrade-cta = Оновити зараз
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Оновлення повідомлення про приватність
@@ -775,6 +777,16 @@ banner-offer-end-cta = Оновити зараз
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Ви можете створити будь-яку адресу @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Зупиніть спам, автоматичні виклики та небажані повідомлення
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } надає вам телефонну маску для захисту вашого справжнього номера, а також необмежену кількість масок електронної пошти.
+banner-ab-premium-promo-advanced-identity-headline = Розширений захист особистих даних
+banner-ab-premium-promo-advanced-identity-body = Не дозволяйте елементам стеження та агрегаторам даних ідентифікувати вас за номером телефону та електронною адресою.
+banner-ab-premium-promo-control-receiver-headline = Контролюйте, хто отримає ваш справжній номер
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } надає вам маску номера телефону для захисту вашого справжнього номера, а також необмежену кількість масок електронної пошти.
+banner-ab-premium-promo-extra-protection-headline = Отримайте додатковий захист теки «Вхідні» та телефону
+banner-ab-premium-promo-extra-protection-body = Отримайте необмежену кількість масок електронної пошти, а також маску телефону, щоб контролювати, хто отримає ваш справжній номер.
+banner-ab-premium-promo-cta = Оновити
 
 ## Success Messages
 
