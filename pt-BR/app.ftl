@@ -774,6 +774,12 @@ banner-offer-end-cta = Mude agora
 banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $subdomain }
 banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Proteção avançada de identidade
+banner-ab-premium-promo-advanced-identity-body = Impeça que rastreadores e agregadores de dados identifiquem você pelo seu número de celular e endereço de email.
+banner-ab-premium-promo-control-receiver-headline = Controle quem tem seu número real
+banner-ab-premium-promo-control-receiver-body = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas.
+banner-ab-premium-promo-extra-protection-headline = Tenha proteção extra em seu email e celular
+banner-ab-premium-promo-extra-protection-body = Tenha máscaras de email ilimitadas, além de uma máscara de celular para controlar quem tem seu número real.
+banner-ab-premium-promo-cta = Mudar
 
 ## Success Messages
 
