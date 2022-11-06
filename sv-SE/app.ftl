@@ -749,6 +749,8 @@ banner-choose-subdomain-input-placeholder-3 = Sök underdomän
 banner-register-subdomain-button-search = Sök
 banner-pack-upgrade-headline-2-html = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att få flera e-postalias
 banner-pack-upgrade-copy-2 = Med obegränsade e-postalias och din egen e-postunderdomän hjälper { -brand-name-firefox-relay-premium } dig att hålla dig skyddad online.
+footer-banner-premium-promo-headine = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att skydda din telefon <i>och</i> e-postadress
+footer-banner-premium-promo-body = Få ett telefonnummeralias, obegränsade e-postalias och anpassade e-postadresser för att snabbt skapa alias.
 banner-pack-upgrade-cta = Uppgradera nu
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Uppdatering av sekretesspolicy
@@ -774,6 +776,15 @@ banner-offer-end-cta = Uppgradera nu
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stoppa spam, automatiska samtal och skräppost
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } ger dig ett telefonalias för att skydda ditt riktiga nummer — plus obegränsade e-postalias.
+banner-ab-premium-promo-advanced-identity-headline = Avancerat identitetsskydd
+banner-ab-premium-promo-advanced-identity-body = Stoppa spårare och datainsamlare från att identifiera dig via ditt telefonnummer och din e-postadress.
+banner-ab-premium-promo-control-receiver-headline = Kontrollera vem som får ditt riktiga nummer
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } ger dig ett telefonalias för att skydda ditt riktiga nummer — plus obegränsade e-postalias.
+banner-ab-premium-promo-extra-protection-headline = Få extra skydd för din inkorg och telefon
+banner-ab-premium-promo-extra-protection-body = Få obegränsade e-postalias — plus ett telefonalias för att kontrollera vem som får ditt riktiga nummer.
 banner-ab-premium-promo-cta = Uppgradera
 
 ## Success Messages
