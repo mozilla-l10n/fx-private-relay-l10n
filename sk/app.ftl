@@ -750,6 +750,8 @@ banner-choose-subdomain-input-placeholder-3 = Hľadať subdoménu
 banner-register-subdomain-button-search = Hľadať
 banner-pack-upgrade-headline-2-html = Ak chcete získať viac e-mailových masiek, inovujte na <strong>{ -brand-name-firefox-relay-premium }</strong>
 banner-pack-upgrade-copy-2 = Vďaka neobmedzenému počtu e-mailových masiek a vlastnej e-mailovej subdoméne vám služba { -brand-name-firefox-relay-premium } zaistí ochranu online.
+footer-banner-premium-promo-headine = Inovujte na <strong>{ -brand-name-firefox-relay-premium }</strong>, aby ste ochránili svoj telefón <i>a</i> e-maily
+footer-banner-premium-promo-body = Získajte masku pre vaše telefónne číslo, neobmedzený počet e-mailových masiek a vlastné e-mailové adresy na rýchle vytvorenie masky.
 banner-pack-upgrade-cta = Inovovať teraz
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizácia oznámenia o ochrane osobných údajov
@@ -775,6 +777,16 @@ banner-offer-end-cta = Inovovať teraz
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Zastavte spam, hovory od robotov a nevyžiadané texty
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } vám poskytuje masku telefónneho čísla na ochranu vášho skutočného čísla – plus neobmedzené e-mailové masky.
+banner-ab-premium-promo-advanced-identity-headline = Pokročilá ochrana identity
+banner-ab-premium-promo-advanced-identity-body = Zabráňte sledovačom a agregátorom údajov, aby vás identifikovali prostredníctvom vášho telefónneho čísla a e-mailovej adresy.
+banner-ab-premium-promo-control-receiver-headline = Ovládajte, kto dostane vaše skutočné číslo
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } vám poskytuje masku telefónneho čísla na ochranu vášho skutočného čísla – plus neobmedzené e-mailové masky.
+banner-ab-premium-promo-extra-protection-headline = Získajte dodatočnú ochranu pre svoju e-mailovú schránku a telefón
+banner-ab-premium-promo-extra-protection-body = Získajte neobmedzené množstvo e-mailových masiek – plus masku pre vaše telefónne číslo, aby ste mali kontrolu nad tým, kto dostane vaše skutočné číslo.
+banner-ab-premium-promo-cta = Inovovať
 
 ## Success Messages
 
