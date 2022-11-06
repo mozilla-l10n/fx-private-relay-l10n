@@ -269,10 +269,15 @@ landing-pricing-offer-end-cta = No opwurdearje
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Mar tydlik: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } foar €{ $monthly_price }/moanne*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Mar tydlik: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } foar { $monthly_price }/moanne*
 plan-matrix-bundle-offer-content =
     Probearje { -brand-name-firefox-relay }-e-mailmaskers en begjin mei it beskermjen fan jo Postfek YN.
     Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
@@ -750,6 +755,8 @@ banner-choose-subdomain-input-placeholder-3 = Subdomein sykje
 banner-register-subdomain-button-search = Sykje
 banner-pack-upgrade-headline-2-html = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om mear e-mailmaskers te krijen
 banner-pack-upgrade-copy-2 = Mei ûnbeheinde e-mailmaskers en jo eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } jo online beskerme te bliuwen.
+footer-banner-premium-promo-headine = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om jo telefoan <i>en</i> e-mail te beskermjen
+footer-banner-premium-promo-body = Krij in telefoannûmermasker, ûnbeheinde e-mailmaskers en oanpaste e-mailadressen foar it rap oanmeitsjen fan maskers.
 banner-pack-upgrade-cta = No opwurdearje
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Fernijing privacyferklearring
@@ -775,6 +782,9 @@ banner-offer-end-cta = No opwurdearje
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stopje spam, robocalls en junkteksten
+banner-ab-premium-promo-cta = Opwurdearje
 
 ## Success Messages
 
