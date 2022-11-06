@@ -774,6 +774,7 @@ banner-offer-end-cta = Uppgradera nu
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
+banner-ab-premium-promo-cta = Uppgradera
 
 ## Success Messages
 
