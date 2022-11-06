@@ -772,6 +772,8 @@ banner-offer-end-cta = Mude agora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Impeça spam, telemarketing e mensagens inúteis
 banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Proteção avançada de identidade
 banner-ab-premium-promo-advanced-identity-body = Impeça que rastreadores e agregadores de dados identifiquem você pelo seu número de celular e endereço de email.
