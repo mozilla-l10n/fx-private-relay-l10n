@@ -749,6 +749,8 @@ banner-choose-subdomain-input-placeholder-3 = Search subdomain
 banner-register-subdomain-button-search = Search
 banner-pack-upgrade-headline-2-html = Upgrade to <strong>{ -brand-name-firefox-relay-premium }</strong> to get more email masks
 banner-pack-upgrade-copy-2 = With unlimited email masks and your own email subdomain, { -brand-name-firefox-relay-premium } helps you stay protected online.
+footer-banner-premium-promo-headine = Upgrade to <strong>{ -brand-name-firefox-relay-premium }</strong> to protect your phone <i>and</i> email
+footer-banner-premium-promo-body = Get a phone number mask, unlimited email masks, and custom email addresses for quick mask creation.
 banner-pack-upgrade-cta = Upgrade Now
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Privacy Notice Update
@@ -774,6 +776,16 @@ banner-offer-end-cta = Upgrade now
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = You can make up any address @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stop spam, robocalls & junk texts
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
+banner-ab-premium-promo-advanced-identity-headline = Advanced identity protection
+banner-ab-premium-promo-advanced-identity-body = Stop trackers and data aggregators from identifying you via your phone number and email address.
+banner-ab-premium-promo-control-receiver-headline = Control who gets your real number
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
+banner-ab-premium-promo-extra-protection-headline = Get extra protection for your inbox & phone
+banner-ab-premium-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
+banner-ab-premium-promo-cta = Upgrade
 
 ## Success Messages
 
