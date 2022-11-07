@@ -749,6 +749,8 @@ banner-choose-subdomain-input-placeholder-3 = Aldomain keresése
 banner-register-subdomain-button-search = Keresés
 banner-pack-upgrade-headline-2-html = Frissítsen <strong>{ -brand-name-firefox-relay-premium }ra</strong>, hogy több maszkot kapjon
 banner-pack-upgrade-copy-2 = A korlátlan számú e-mail-maszknak és az egyéni e-mail-aldomainnek köszönhetően, a { -brand-name-firefox-relay-premium } segít megőrizni az online védelmét.
+footer-banner-premium-promo-headine = Frissítsen <strong>{ -brand-name-firefox-relay-premium }ra</strong>, hogy megvédje a telefonját <i>és</i> az e-mail-címét
+footer-banner-premium-promo-body = Szerezzen egy telefonszámmaszkot, korlátlan számú e-mail-maszkot és egyéni e-mail-címeket a maszkok gyors létrehozásához.
 banner-pack-upgrade-cta = Frissítés most
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Adatvédelmi nyilatkozat frissítése
@@ -774,6 +776,16 @@ banner-offer-end-cta = Frissítés most
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létrehozhat
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Állítsa meg a levélszemetet, a robothívásokat és a kéretlen szövegeket
+banner-ab-premium-promo-stop-spam-body = A { -brand-name-relay-premium } telefonmaszkot nyújt, amely megvédi valós számát – plusz korlátlan számú e-mail-maszkot is ad.
+banner-ab-premium-promo-advanced-identity-headline = Fejlett személyazonosság-védelem
+banner-ab-premium-promo-advanced-identity-body = Akadályozza meg, hogy a nyomkövetők és adatgyűjtők azonosítsák Önt a telefonszáma és e-mail-címe alapján.
+banner-ab-premium-promo-control-receiver-headline = Szabályozza, hogy ki kapja meg a valós számát
+banner-ab-premium-promo-control-receiver-body = A { -brand-name-relay-premium } telefonmaszkot nyújt, amely megvédi valós számát – plusz korlátlan számú e-mail-maszkot is ad.
+banner-ab-premium-promo-extra-protection-headline = További védelmet kaphat postaládája és telefonja számára
+banner-ab-premium-promo-extra-protection-body = Szerezzen korlátlan számú e-mail-maszkot – plusz egy telefonmaszkot, amellyel szabályozhatja, hogy ki kapja meg valós számát.
+banner-ab-premium-promo-cta = Frissítés
 
 ## Success Messages
 
