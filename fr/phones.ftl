@@ -141,10 +141,22 @@ phone-masking-faq-question-can-reply = Puis-je répondre aux SMS ?
 phone-masking-faq-answer-can-reply = Oui, vous pouvez répondre au dernier SMS que vous avez reçu. Répondez simplement comme vous le feriez pour n’importe quel SMS.
 phone-masking-faq-question-forwarded-texts = Quels types de SMS seront transférés ?
 phone-masking-faq-answer-forwarded-texts = Seuls les SMS comportant du texte peuvent être transférés. Les MMS contenant des photos, des vidéos, etc. ne seront pas transférés.
+phone-masking-faq-answer-forwarded-texts-2 = Seuls les SMS peuvent être transférés. Les MMS contenant des photos, des vidéos, etc. ne seront pas transférés.
 phone-masking-faq-question-pictures = Puis-je envoyer ou recevoir des photos par SMS ?
 phone-masking-faq-answer-pictures = Non, seuls les messages textuels peuvent être transférés ou envoyés en réponse.
+phone-masking-faq-answer-pictures-2 = Non, seuls les SMS peuvent être transférés ou envoyés en réponse.
 phone-masking-faq-question-historical = Puis-je répondre aux SMS plus anciens ?
 phone-masking-faq-answer-historical = Vous ne pouvez pas répondre aux SMS que vous avez reçus précédemment, bien que cette fonctionnalité soit en cours de développement.
 phone-masking-faq-question-can-i-send = Puis-je envoyer un SMS qui ne soit pas une réponse ?
 phone-masking-faq-answer-can-i-send = Non, vous ne pouvez pas encore envoyer de SMS qui ne sont pas des réponses. Vous pouvez seulement répondre aux SMS transférés.
 phone-masking-faq-question-limit = Y a-t-il une limite au nombre de SMS que je reçois ?
+
+## Phone Masking Splash Screen
+
+phone-masking-splash-save-contact-title = Enregistrez { -brand-name-relay } en tant que contact
+phone-masking-splash-save-contact-cta = Renvoyer le SMS de bienvenue
+phone-masking-splash-replies-title = Comment répondre à vos messages
+phone-masking-splash-blocking-title = Comment bloquer un expéditeur
+phone-masking-splash-blocking-example-unblock = Débloquer
+phone-masking-splash-blocking-example-block = Bloquer
+phone-masking-splash-blocking-example-date = Aujourd’hui
