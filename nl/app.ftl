@@ -786,6 +786,10 @@ banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } geeft u e
 banner-ab-premium-promo-advanced-identity-headline = Geavanceerde identiteitsbescherming
 banner-ab-premium-promo-advanced-identity-body = Voorkom dat trackers en gegevensaggregators u identificeren via uw telefoonnummer en e-mailadres.
 banner-ab-premium-promo-control-receiver-headline = Bepaal wie uw echte nummer krijgt
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } geeft u een telefoonmasker om uw echte nummer te beschermen – plus onbeperkte e-mailmaskers.
+banner-ab-premium-promo-extra-protection-headline = Ontvang extra bescherming voor uw Postvak IN en telefoon
+banner-ab-premium-promo-extra-protection-body = Ontvang onbeperkte e-mailmaskers – plus een telefoonmasker om te bepalen wie uw echte nummer krijgt.
+banner-ab-premium-promo-cta = Upgraden
 
 ## Success Messages
 
