@@ -751,7 +751,7 @@ banner-choose-subdomain-input-placeholder-3 = Subdomain suchen
 banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-2-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong> erhalten Sie noch mehr Masken.
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
-footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy und Ihre E-Mail-Adresse
+footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy <i>und</i> Ihre E-Mail-Adresse
 footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummernmaske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
