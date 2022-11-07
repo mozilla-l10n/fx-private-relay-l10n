@@ -14,7 +14,7 @@ vpn-relay-go-vpn-cta = Descarga { -brand-name-mozilla-vpn }
 # String below is obsolete
 whatsnew-feature-bundle-header = Presentamos: plan de suscripción { -brand-name-relay } + { -brand-name-vpn }
 # String below is obsolete
-whatsnew-feature-bundle-snippet = Actualiza tu suscripción para obtener { -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }...
+whatsnew-feature-bundle-snippet = Actualiza tu suscripción para obtener { -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }…
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 whatsnew-feature-bundle-header-2 = ¡Agrega { -brand-name-mozilla-vpn } para obtener { $savings } de descuento!
