@@ -744,6 +744,7 @@ banner-register-subdomain-button-search = Rechercher
 banner-pack-upgrade-headline-2-html = Passez à <strong>{ -brand-name-firefox-relay-premium }</strong> pour obtenir plus d’alias de messagerie
 banner-pack-upgrade-copy-2 = Avec un nombre d’alias de messagerie illimité et votre propre sous-domaine de messagerie, { -brand-name-firefox-relay-premium } vous aide à rester protégé·e en ligne.
 footer-banner-premium-promo-headine = Passez à <strong>{ -brand-name-firefox-relay-premium }</strong> pour protéger votre numéro de téléphone <i>et</i> votre e-mail
+footer-banner-premium-promo-body = Obtenez un alias de numéro de téléphone, un nombre illimité d’alias de messagerie et des adresses e-mail personnalisées pour une création rapide d’alias.
 banner-pack-upgrade-cta = Mettre à niveau maintenant
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Mise à jour de la politique de confidentialité
@@ -769,9 +770,12 @@ banner-offer-end-cta = Mettre à niveau maintenant
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Bloquez le spam, les appels automatisés et les messages indésirables
 banner-ab-premium-promo-advanced-identity-headline = Protection avancée de l’identité
 banner-ab-premium-promo-advanced-identity-body = Empêchez les traqueurs et les agrégateurs de données de vous identifier via votre numéro de téléphone et votre adresse e-mail.
 banner-ab-premium-promo-control-receiver-headline = Contrôlez qui a accès à votre véritable numéro
+banner-ab-premium-promo-cta = Mettre à niveau
 
 ## Success Messages
 
