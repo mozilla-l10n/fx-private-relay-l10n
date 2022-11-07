@@ -753,6 +753,8 @@ banner-choose-subdomain-input-placeholder-3 = Subdomein zoeken
 banner-register-subdomain-button-search = Zoeken
 banner-pack-upgrade-headline-2-html = Upgrade naar <strong>{ -brand-name-firefox-relay-premium }</strong> om meer e-mailmaskers te verkrijgen
 banner-pack-upgrade-copy-2 = Met onbeperkte e-mailmaskers en uw eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } u online beschermd te blijven.
+footer-banner-premium-promo-headine = Upgrade naar <strong>{ -brand-name-firefox-relay-premium }</strong> om uw telefoon <i>en</i> e-mail te beschermen
+footer-banner-premium-promo-body = Ontvang een telefoonnummermasker, onbeperkte e-mailmaskers en aangepaste e-mailadressen om snel een masker te maken.
 banner-pack-upgrade-cta = Nu upgraden
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Update privacyverklaring
@@ -778,6 +780,12 @@ banner-offer-end-cta = Nu upgraden
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = U kunt elk adres @{ $subdomain } verzinnen
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stop spam, robocalls en ongewenste sms’jes
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } geeft u een telefoonmasker om uw echte nummer te beschermen – plus onbeperkte e-mailmaskers.
+banner-ab-premium-promo-advanced-identity-headline = Geavanceerde identiteitsbescherming
+banner-ab-premium-promo-advanced-identity-body = Voorkom dat trackers en gegevensaggregators u identificeren via uw telefoonnummer en e-mailadres.
+banner-ab-premium-promo-control-receiver-headline = Bepaal wie uw echte nummer krijgt
 
 ## Success Messages
 
