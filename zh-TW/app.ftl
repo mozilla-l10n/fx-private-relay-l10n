@@ -750,8 +750,11 @@ banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信�
 banner-ab-premium-promo-stop-spam-headline = 不再收到垃圾信、自動答錄電話、垃圾簡訊
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 可提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱。
 banner-ab-premium-promo-advanced-identity-headline = 進階身分保護
+banner-ab-premium-promo-advanced-identity-body = 防止追蹤器與資料收集器透過您的手機號碼與信箱找出您。
 banner-ab-premium-promo-control-receiver-headline = 自行控制誰能拿到您的實際電話號碼
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } 可提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱。
 banner-ab-premium-promo-extra-protection-headline = 幫信箱與手機門號再加一道保護
+banner-ab-premium-promo-extra-protection-body = 獲得無限量轉寄信箱，另外還有手機轉接門號，讓您能自行控制誰才能獲得您的實際電話號碼。
 banner-ab-premium-promo-cta = 升級
 
 ## Success Messages
