@@ -1147,12 +1147,12 @@ toast-button-close-label = Close notification
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (string) - Maxmimum email masks created for free account
-api-error-free-tier-limit = You must be a premium subscriber to make more than { $free_tier_limit } email masks.
-api-error-free-tier-no-subdomain-masks = You must be a premium subscriber to create subdomain email masks.
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = You’ve used all { $free_tier_limit } email masks included with your free account. You can reuse an existing mask, but using a unique mask for each account is the most secure option.
+api-error-free-tier-no-subdomain-masks = Your free account does not include custom subdomains for masks. To create custom masks, upgrade to Relay Premium.
 
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
-api-error-address-unavailable = Domain address "{ $unavailable_address }" could not be created, try using a different value.
-api-error-need-subdomain = You must select a subdomain before creating email address with subdomain.
+api-error-address-unavailable = "{ $unavailable_address }" could not be created. Please try again with a different mask name.
+api-error-need-subdomain = Please select a subdomain before creating a custom email address.
 api-error-account-is-paused = Your account is on pause.
