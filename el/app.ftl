@@ -774,6 +774,7 @@ banner-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
+banner-ab-premium-promo-cta = Αναβάθμιση
 
 ## Success Messages
 
