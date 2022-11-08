@@ -772,9 +772,11 @@ banner-offer-end-cta = Mettre à niveau maintenant
 banner-choose-subdomain-description = Vous pouvez créer n’importe quelle adresse @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Bloquez le spam, les appels automatisés et les messages indésirables
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } vous fournit un alias de téléphone pour protéger votre véritable numéro, ainsi qu’un nombre illimité d’alias de messagerie.
 banner-ab-premium-promo-advanced-identity-headline = Protection avancée de l’identité
 banner-ab-premium-promo-advanced-identity-body = Empêchez les traqueurs et les agrégateurs de données de vous identifier via votre numéro de téléphone et votre adresse e-mail.
 banner-ab-premium-promo-control-receiver-headline = Contrôlez qui a accès à votre véritable numéro
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } vous fournit un alias de téléphone pour protéger votre véritable numéro, ainsi qu’un nombre illimité d’alias de messagerie.
 banner-ab-premium-promo-cta = Mettre à niveau
 
 ## Success Messages
