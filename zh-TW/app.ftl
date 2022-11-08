@@ -720,6 +720,7 @@ banner-register-subdomain-button-search = 搜尋
 banner-pack-upgrade-headline-2-html = 升級到 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可產生更多轉寄信箱
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 可透過無限量轉寄信箱與您個人的郵件子網域功能，幫助讓您的上網更受保護。
 footer-banner-premium-promo-headine = 升級到 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可保護您的手機門號<i>與</i>信箱
+footer-banner-premium-promo-body = 獲得手機轉接門號、無限量郵件轉寄信箱，以及能讓您更快建立轉寄信箱的自訂電子郵件地址功能。
 banner-pack-upgrade-cta = 立刻升級
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隱私權公告更新
@@ -747,6 +748,7 @@ banner-offer-end-cta = 立刻升級
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = 不再收到垃圾信、自動答錄電話、垃圾簡訊
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 可提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱。
 banner-ab-premium-promo-advanced-identity-headline = 進階身分保護
 banner-ab-premium-promo-control-receiver-headline = 自行控制誰能拿到您的實際電話號碼
 banner-ab-premium-promo-extra-protection-headline = 幫信箱與手機門號再加一道保護
