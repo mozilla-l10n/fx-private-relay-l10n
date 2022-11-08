@@ -777,6 +777,8 @@ banner-ab-premium-promo-advanced-identity-headline = Protection avancée de l’
 banner-ab-premium-promo-advanced-identity-body = Empêchez les traqueurs et les agrégateurs de données de vous identifier via votre numéro de téléphone et votre adresse e-mail.
 banner-ab-premium-promo-control-receiver-headline = Contrôlez qui a accès à votre véritable numéro
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } vous fournit un alias de téléphone pour protéger votre véritable numéro, ainsi qu’un nombre illimité d’alias de messagerie.
+banner-ab-premium-promo-extra-protection-headline = Obtenez une protection supplémentaire pour votre boîte de réception et votre téléphone
+banner-ab-premium-promo-extra-protection-body = Obtenez un nombre illimité d’alias de messagerie ainsi qu’un alias de téléphone pour contrôler qui a accès à votre véritable numéro.
 banner-ab-premium-promo-cta = Mettre à niveau
 
 ## Success Messages
