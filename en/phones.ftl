@@ -221,4 +221,7 @@ phone-masking-splash-blocking-example-unblock = Unblock
 phone-masking-splash-blocking-example-block = Block
 phone-masking-splash-blocking-example-date = Today
 
+## Tips and tricks at the bottom of the page
 
+tips-multi-replies-heading = Reply to any text with your phone mask
+tips-multi-replies-content = Just start your message with the last 4 digits of that sender’s number.
