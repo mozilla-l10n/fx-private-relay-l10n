@@ -760,6 +760,10 @@ banner-offer-end-cta = Aggiorna adesso
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Blocca spam, chiamate automatiche e messaggi indesiderati
+banner-ab-premium-promo-advanced-identity-headline = Protezione avanzata dell’identità
+banner-ab-premium-promo-advanced-identity-body = Impedisci agli elementi traccianti e agli aggregatori di dati di identificarti tramite il tuo numero di telefono e indirizzo email.
 
 ## Success Messages
 
