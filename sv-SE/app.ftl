@@ -1115,3 +1115,15 @@ forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link 
 ## Notifications component
 
 toast-button-close-label = Stäng meddelande
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Du har använt alla { $free_tier_limit } e-postalias som ingår i ditt gratiskonto. Du kan återanvända ett befintligt alias, men att använda ett unikt alias för varje konto är det säkraste alternativet.
+api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpassade underdomäner för alias. För att skapa anpassade alias, uppgradera till { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = "{ $unavailable_address }" kunde inte skapas. Försök igen med ett annat aliasnamn.
+api-error-need-subdomain = Välj en underdomän innan du skapar en anpassad e-postadress.
+api-error-account-is-paused = Ditt konto är pausat.
