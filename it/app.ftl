@@ -1113,4 +1113,4 @@ api-error-free-tier-no-subdomain-masks = Il tuo account gratuito non include sot
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Non è stato possibile creare “{ $unavailable_address }”. Riprova con un nome differente per l’alias.
 api-error-need-subdomain = Seleziona un sottodominio prima di creare un indirizzo di posta personalizzato.
-api-error-account-is-paused = Il tuo account è in pausa.
+api-error-account-is-paused = Il tuo account è temporaneamente sospeso.
