@@ -736,6 +736,7 @@ banner-register-subdomain-button-search = Cerca
 banner-pack-upgrade-headline-2-html = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy-2 = Con alias illimitati e il tuo sottodominio email personalizzato, { -brand-name-firefox-relay-premium } ti aiuta a rimanere protetto online.
 footer-banner-premium-promo-headine = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per proteggere il tuo telefono e la tua posta elettronica
+footer-banner-premium-promo-body = Ottieni un alias per numeri di telefono, alias di posta elettronica illimitati e indirizzi email personalizzati per creare alias facilmente.
 banner-pack-upgrade-cta = Aggiorna adesso
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aggiornamento dell’informativa sulla privacy
@@ -763,8 +764,13 @@ banner-offer-end-cta = Aggiorna adesso
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Blocca spam, chiamate automatiche e messaggi indesiderati
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } ti offre un alias per numeri di telefono per proteggere il tuo numero reale e alias di posta elettronica illimitati.
 banner-ab-premium-promo-advanced-identity-headline = Protezione avanzata dell’identità
 banner-ab-premium-promo-advanced-identity-body = Impedisci agli elementi traccianti e agli aggregatori di dati di identificarti tramite il tuo numero di telefono e indirizzo email.
+banner-ab-premium-promo-control-receiver-headline = Controlla chi può vedere il tuo numero reale
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } ti offre un alias per numeri di telefono per proteggere il tuo numero reale e alias di posta elettronica illimitati.
+banner-ab-premium-promo-extra-protection-headline = Ottieni una maggiore protezione per la tua casella di posta e il tuo telefono
+banner-ab-premium-promo-extra-protection-body = Ottieni alias di posta elettronica illimitati, più un alias per numeri di telefono per controllare chi può vedere il tuo numero reale.
 banner-ab-premium-promo-cta = Aggiorna
 
 ## Success Messages
@@ -1096,3 +1102,6 @@ forwarded-email-footer-offer-countdown-banner = Aggiorna a { $premium_link } pri
 ## Notifications component
 
 toast-button-close-label = Chiudi notifica
+
+## API error messages
+
