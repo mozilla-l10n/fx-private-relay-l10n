@@ -1074,3 +1074,15 @@ forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束�
 ## Notifications component
 
 toast-button-close-label = 關閉通知
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立獨立的轉寄信箱是最安全的作法。
+api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
+api-error-need-subdomain = 請先選擇子網域才能建立自訂轉寄信箱。
+api-error-account-is-paused = 您的帳號暫停中。
