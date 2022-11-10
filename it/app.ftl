@@ -1108,6 +1108,9 @@ toast-button-close-label = Chiudi notifica
 # Variables:
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Hai utilizzato tutti e { $free_tier_limit } gli alias di posta elettronica inclusi nel tuo account gratuito. Puoi riutilizzare un alias esistente, ma utilizzare un alias univoco per ciascun account è l’opzione più sicura.
+api-error-free-tier-no-subdomain-masks = Il tuo account gratuito non include sottodomini personalizzati per gli alias. Per creare alias personalizzati, aggiorna a { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Non è stato possibile creare “{ $unavailable_address }”. Riprova con un nome differente per l’alias.
+api-error-need-subdomain = Seleziona un sottodominio prima di creare un indirizzo di posta personalizzato.
+api-error-account-is-paused = Il tuo account è in pausa.
