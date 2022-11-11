@@ -1101,3 +1101,7 @@ forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante
 ## Notifications component
 
 toast-button-close-label = Clauder notification
+
+## API error messages
+
+api-error-account-is-paused = Tu conto es in pausa.
