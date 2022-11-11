@@ -93,6 +93,7 @@
         [ins] Mozillou
     }
     .gender = feminine
+-brand-name-vpn = VPN
 -brand-name-mozilla-vpn =
     { $case ->
        *[nom] Mozilla VPN
