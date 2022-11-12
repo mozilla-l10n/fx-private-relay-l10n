@@ -772,6 +772,10 @@ banner-offer-end-cta = Promover ora
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Stoppar SPAM, appellos robot & textos immunditia
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
+banner-ab-premium-promo-advanced-identity-headline = Protection de identitate avantiate
 banner-ab-premium-promo-cta = Promover
 
 ## Success Messages
