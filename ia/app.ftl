@@ -746,6 +746,7 @@ banner-register-subdomain-button-search = Cercar
 banner-pack-upgrade-headline-2-html = Promover a <strong>{ -brand-name-firefox-relay-premium }</strong> pro obtener plus mascas email
 banner-pack-upgrade-copy-2 = Con mascas email illimitate e tu proprie subdominio email, { -brand-name-firefox-relay-premium } te adjuta a restar protegite in linea.
 footer-banner-premium-promo-headine = Promove a <strong>{ -brand-name-firefox-relay-premium }</strong> pro proteger tu telephono <i>e</i> email
+footer-banner-premium-promo-body = Obtene un masca del numero de telephono, illimitate mascas email, e adresses email personalisate pro rapide creation de masca.
 banner-pack-upgrade-cta = Promover ora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
