@@ -779,6 +779,14 @@ banner-offer-end-cta = Обновитесь прямо сейчас
 banner-choose-subdomain-description = Вы можете создать любой адрес @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Остановите спам, автоматические звонки и нежелательные тексты
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } даёт вам псевдоним телефона для защиты вашего реального номера, а также неограниченное число псевдонимов электронной почты.
+banner-ab-premium-promo-advanced-identity-headline = Расширенная защита личности
+banner-ab-premium-promo-advanced-identity-body = Не позволяйте трекерам и сборщикам данных определять вас по номеру телефона и адресу электронной почты.
+banner-ab-premium-promo-control-receiver-headline = Контролируйте, кто получает ваш настоящий номер
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } дает вам псевдоним телефона для защиты вашего реального номера, а также неограниченное количество псевдонимов электронной почты.
+banner-ab-premium-promo-extra-protection-headline = Получите дополнительную защиту для вашего почтового ящика и телефона
+banner-ab-premium-promo-extra-protection-body = Получите неограниченное количество псевдонимов электронной почты, а также псевдоним телефона, чтобы контролировать, кто получает ваш настоящий номер.
+banner-ab-premium-promo-cta = Обновить
 
 ## Success Messages
 
