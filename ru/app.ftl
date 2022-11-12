@@ -19,7 +19,7 @@ nav-home = На главную страницу
 label-open-menu = Открыть меню
 avatar-tooltip = Профиль
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
-nav-faq = ЧЗВ
+nav-faq = ЧАВО
 nav-profile-sign-in = Войти
 nav-profile-sign-up = Зарегистрироваться
 nav-profile-manage-fxa = Управление моим { -brand-name-firefox-account(case: "instrumental") }
@@ -750,6 +750,8 @@ banner-choose-subdomain-input-placeholder-3 = Поиск поддомена
 banner-register-subdomain-button-search = Поиск
 banner-pack-upgrade-headline-2-html = Переходите на <strong>{ -brand-name-firefox-relay-premium }</strong>, чтобы получить больше псевдонимов электронной почты
 banner-pack-upgrade-copy-2 = С неограниченным числом псевдонимов и вашим собственным поддоменом электронной почты { -brand-name-firefox-relay-premium } помогает вам оставаться защищёнными в Интернете.
+footer-banner-premium-promo-headine = Обновите до <strong>{ -brand-name-firefox-relay-premium }</strong>, чтобы защитить свой телефон <i>и</i> электронную почту
+footer-banner-premium-promo-body = Получите псевдоним номера телефона, неограниченное количество псевдонимов электронной почты и настраиваемые адреса электронной почты для быстрого создания псевдонимов.
 banner-pack-upgrade-cta = Перейти сейчас
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Обновление Уведомления о конфиденциальности
@@ -775,6 +777,8 @@ banner-offer-end-cta = Обновитесь прямо сейчас
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Вы можете создать любой адрес @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Остановите спам, автоматические звонки и нежелательные тексты
 
 ## Success Messages
 
@@ -1110,3 +1114,6 @@ forwarded-email-footer-offer-countdown-banner = Обновите до { $premium
 ## Notifications component
 
 toast-button-close-label = Закрыть уведомление
+
+## API error messages
+
