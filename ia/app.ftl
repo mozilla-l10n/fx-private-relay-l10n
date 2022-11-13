@@ -776,6 +776,11 @@ banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
 banner-ab-premium-promo-stop-spam-headline = Stoppar SPAM, appellos robot & textos immunditia
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
 banner-ab-premium-promo-advanced-identity-headline = Protection de identitate avantiate
+banner-ab-premium-promo-advanced-identity-body = Impedi al traciatores e aggregatores de datos de identificar te via tu numero de telephono e adresse email.
+banner-ab-premium-promo-control-receiver-headline = Controla qui obtene tu numero real
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
+banner-ab-premium-promo-extra-protection-headline = Obtene extra protection pro tu cassa de ingresso e tu telephono
+banner-ab-premium-promo-extra-protection-body = Obtene mascas email illimitate, plus un masca de telephono pro controlar qui obtene tu numero real.
 banner-ab-premium-promo-cta = Promover
 
 ## Success Messages
@@ -1109,4 +1114,12 @@ toast-button-close-label = Clauder notification
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Tu ha usate tote le { $free_tier_limit } mascas email includite con tu conto gratuite. Tu pote reusar un masca existente, ma usar un unic masca pro cata conto es le option plus secur.
+api-error-free-tier-no-subdomain-masks = Tu conto gratuite non include sub-dominios personal pro le mascas. Pro crear mascas personalisate, promove a { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” non pote esser create. Retenta con un differente nomine de masca.
+api-error-need-subdomain = Elige un sub-dominio ante crear un adresse email personalisate.
 api-error-account-is-paused = Tu conto es in pausa.
