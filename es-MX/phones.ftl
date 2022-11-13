@@ -63,3 +63,12 @@ phone-banner-float-replies = Responder a los mensajes de texto en privado
 
 ## Frequently Asked Questions about Phone plans
 
+
+## Phone Masking Splash Screen
+
+phone-masking-splash-blocking-example-unblock = Desbloquear
+phone-masking-splash-blocking-example-block = Bloquear
+phone-masking-splash-blocking-example-date = Hoy
+
+## Tips and tricks at the bottom of the page
+
