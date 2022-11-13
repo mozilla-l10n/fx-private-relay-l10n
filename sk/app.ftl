@@ -1128,3 +1128,15 @@ forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } sk
 ## Notifications component
 
 toast-button-close-label = Zavrieť upozornenie
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Použili ste všetky e-mailové masky (celkom { $free_tier_limit }), ktoré sú súčasťou vášho bezplatného účtu. Môžete znova použiť existujúcu masku, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
+api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahŕňa vlastné subdomény pre masky. Ak chcete vytvoriť vlastné masky, inovujte na { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” sa nepodarilo vytvoriť. Skúste to znova s iným názvom masky.
+api-error-need-subdomain = Pred vytvorením vlastnej e-mailovej adresy vyberte subdoménu.
+api-error-account-is-paused = Váš účet je pozastavený.
