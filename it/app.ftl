@@ -735,7 +735,7 @@ banner-choose-subdomain-input-placeholder-3 = Cerca sottodominio
 banner-register-subdomain-button-search = Cerca
 banner-pack-upgrade-headline-2-html = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per ottenere più alias
 banner-pack-upgrade-copy-2 = Con alias illimitati e il tuo sottodominio email personalizzato, { -brand-name-firefox-relay-premium } ti aiuta a rimanere protetto online.
-footer-banner-premium-promo-headine = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per proteggere il tuo telefono e la tua posta elettronica
+footer-banner-premium-promo-headine = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per proteggere il tuo telefono <i>e</i> la tua posta elettronica
 footer-banner-premium-promo-body = Ottieni un alias per numeri di telefono, alias di posta elettronica illimitati e indirizzi email personalizzati per creare alias facilmente.
 banner-pack-upgrade-cta = Aggiorna adesso
 # Privacy Notice update banner:
