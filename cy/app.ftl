@@ -755,6 +755,8 @@ banner-choose-subdomain-input-placeholder-3 = Chwilio is-barth
 banner-register-subdomain-button-search = Chwilio
 banner-pack-upgrade-headline-2-html = Uwchraddiwch i <strong>{ -brand-name-firefox-relay-premium }</strong> i gael rhagor o arallenwau
 banner-pack-upgrade-copy-2 = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
+footer-banner-premium-promo-headine = Uwchraddio i <strong>{ -brand-name-firefox-relay-premium }</strong> i ddiogelu eich ffôn <i>ac</i> e-bost
+footer-banner-premium-promo-body = Sicrhewch rif ffôn cudd, arallenwau e-bost diderfyn, a chyfeiriadau e-bost cyfaddas ar gyfer creu arallenwau'n gyflym.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
@@ -780,6 +782,12 @@ banner-offer-end-cta = Uwchraddiwch nawr
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Atal sbam, galwadau robotaidd a negeseuon testun sbamllyd
+banner-ab-premium-promo-stop-spam-body = Mae { -brand-name-relay-premium } yn rhoi rhif ffôn cudd i chi i ddiogelu eich rhif go iawn - ynghyd ag arallenwau e-bost diderfyn.
+banner-ab-premium-promo-advanced-identity-headline = Diogelwch hunaniaeth uwch
+banner-ab-premium-promo-advanced-identity-body = Atal tracwyr a chydgasgwyr data rhag eich adnabod trwy eich rhif ffôn a'ch cyfeiriad e-bost.
+banner-ab-premium-promo-control-receiver-headline = Rheoli pwy sy'n cael eich rhif go iawn
 
 ## Success Messages
 
@@ -1098,3 +1106,6 @@ forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link }
 ## Notifications component
 
 toast-button-close-label = Cau'r hysbysiad
+
+## API error messages
+
