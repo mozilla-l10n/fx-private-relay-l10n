@@ -755,8 +755,8 @@ banner-choose-subdomain-input-placeholder-3 = Chwilio is-barth
 banner-register-subdomain-button-search = Chwilio
 banner-pack-upgrade-headline-2-html = Uwchraddiwch i <strong>{ -brand-name-firefox-relay-premium }</strong> i gael rhagor o arallenwau
 banner-pack-upgrade-copy-2 = Gydag arallenwau e-bost dirifedi a'ch parth e-bost eich hun, mae { -brand-name-firefox-relay-premium } yn eich helpu i aros yn ddiogel ar-lein.
-footer-banner-premium-promo-headine = Uwchraddio i <strong>{ -brand-name-firefox-relay-premium }</strong> i ddiogelu eich ffôn <i>ac</i> e-bost
-footer-banner-premium-promo-body = Sicrhewch rif ffôn cudd, arallenwau e-bost diderfyn, a chyfeiriadau e-bost cyfaddas ar gyfer creu arallenwau'n gyflym.
+footer-banner-premium-promo-headine = Uwchraddiwch i <strong>{ -brand-name-firefox-relay-premium }</strong> i ddiogelu eich ffôn <i>ac</i> e-bost
+footer-banner-premium-promo-body = Cael rif ffôn cudd, arallenwau e-bost diderfyn, a chyfeiriadau e-bost cyfaddas ar gyfer creu arallenwau'n gyflym.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
@@ -788,6 +788,10 @@ banner-ab-premium-promo-stop-spam-body = Mae { -brand-name-relay-premium } yn rh
 banner-ab-premium-promo-advanced-identity-headline = Diogelwch hunaniaeth uwch
 banner-ab-premium-promo-advanced-identity-body = Atal tracwyr a chydgasgwyr data rhag eich adnabod trwy eich rhif ffôn a'ch cyfeiriad e-bost.
 banner-ab-premium-promo-control-receiver-headline = Rheoli pwy sy'n cael eich rhif go iawn
+banner-ab-premium-promo-control-receiver-body = Mae { -brand-name-relay-premium } yn rhoi rhif ffôn cudd i chi i ddiogelu eich rhif go iawn - ynghyd ag arallenwau e-bost diderfyn.
+banner-ab-premium-promo-extra-protection-headline = Cael diogelwch ychwanegol i'ch blwch derbyn a'ch ffôn
+banner-ab-premium-promo-extra-protection-body = Cael arallenwau e-bost diderfyn - ynghyd â rhif ffôn cudd i reoli pwy sy'n cael eich rhif go iawn.
+banner-ab-premium-promo-cta = Uwchraddio
 
 ## Success Messages
 
@@ -1109,3 +1113,12 @@ toast-button-close-label = Cau'r hysbysiad
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Rydych wedi defnyddio pob un o'r { $free_tier_limit } arallenwau e-bost sydd wedi'u cynnwys yn eich cyfrif rhad ac am ddim. Gallwch ailddefnyddio arallenw sy'n bodoli eisoes, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r dewis mwyaf diogel.
+api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn cynnwys is-barthau personol ar gyfer arallenwau. I greu arallenwau personol, uwchraddiwch i { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.
+api-error-need-subdomain = Dewiswch is-barth cyn creu cyfeiriad e-bost cyfaddas.
+api-error-account-is-paused = Mae eich cyfrif wedi'i oedi.
