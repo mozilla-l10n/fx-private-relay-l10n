@@ -1111,3 +1111,15 @@ forwarded-email-footer-offer-countdown-banner = Mude para o { $premium_link } an
 ## Notifications component
 
 toast-button-close-label = Fechar notificação
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Você usou todas as { $free_tier_limit } máscaras de email incluídas em sua conta gratuita. Você pode reaproveitar uma máscara existente, mas usar uma máscara exclusiva para cada conta é a opção mais segura.
+api-error-free-tier-no-subdomain-masks = Sua conta gratuita não inclui subdomínios personalizados para máscaras. Para criar máscaras personalizadas, mude para o { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” não pôde ser criado. Tente novamente com outro nome de máscara.
+api-error-need-subdomain = Selecione um subdomínio antes de criar um endereço de email personalizado.
+api-error-account-is-paused = Sua conta está em temporariamente suspensa.
