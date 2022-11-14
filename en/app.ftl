@@ -150,6 +150,13 @@ whatsnew-feature-offer-countdown-snippet = Get { -brand-name-relay-premium } bef
 whatsnew-feature-offer-countdown-description = Get { -brand-name-relay-premium } before { $end_date } and enjoy unlimited masking at our intro month-to-month price.
 whatsnew-feature-offer-countdown-cta = Upgrade now
 
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is now available in { -brand-name-firefox } password manager
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# When translating, please make sure the resulting string is of roughly similar
+# length as the English version.
+whatsnew-feature-firefox-integration-snippet = Protecting your email just got easier. Now you can generate…
+whatsnew-feature-firefox-integration-description = Protecting your email just got easier. Now you can generate new { -brand-name-relay } email masks directly from your { -brand-name-firefox } password manager on desktop.
+
 ## Bento Menu
 
 bento-button-title = { -brand-name-firefox } apps and services
