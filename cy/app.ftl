@@ -326,7 +326,7 @@ plan-matrix-price-period-monthly = Yn fisol
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Arbedwch { $percentage }% o bris VPN arferol
-plan-matrix-pick = Ymunwch
+plan-matrix-pick = Ymuno
 plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 
 ## Use Cases
@@ -357,10 +357,10 @@ landing-use-cases-gaming-body-2 =
 landing-use-cases-shopping-hero-heading = Siopa gyda arallenwau e-bost
 landing-use-cases-shopping-hero-content1 = Eisiau prynu rhywbeth ar-lein a ddim yn gyfarwydd nac yn ymddiried yn llwyr yn y siop?
 landing-use-cases-shopping-hero-content2 = Defnyddiwch arallenw e-bost pryd bynnag y byddwch chi'n siopa ar-lein. Anfonwch y cadarnhad i'ch e-bost go iawn, gallwch ddiffodd yr arallenw yn hawdd unrhyw bryd yn y dyfodol.
-landing-use-cases-on-the-go = Wrth Fynd
-landing-use-cases-on-the-go-heading = Wrth fynd gyda { -brand-name-relay }
+landing-use-cases-on-the-go = Ar Daith
+landing-use-cases-on-the-go-heading = Ar daith gyda { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Gwnewch arallenw e-bost personol yn syth yn unrhyw le ac ym mhobman!
-landing-use-cases-on-the-go-connect-heading = Cysylltu wrth fynd
+landing-use-cases-on-the-go-connect-heading = Cysylltu ar daith
 landing-use-cases-on-the-go-connect-body = Defnyddiwch eich arallenw e-bost pan fyddwch chi eisiau mewngofnodi'n breifat i'ch hoff siop goffi neu Wi-Fi cyhoeddus
 landing-use-cases-on-the-go-receipt-heading = Cael derbynebau e-bost
 landing-use-cases-on-the-go-receipt-body = Rhannwch arallenw e-bost personol ar gyfer derbynebau siopa yn y siop a pheidio rhannu'ch e-bost go iawn
