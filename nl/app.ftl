@@ -1119,3 +1119,15 @@ forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } v
 ## Notifications component
 
 toast-button-close-label = Melding sluiten
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = U hebt alle { $free_tier_limit } e-mailmaskers gebruikt die bij uw gratis account zijn inbegrepen. U kunt een bestaand masker hergebruiken, maar het gebruik van een uniek masker voor elke account is de veiligste optie.
+api-error-free-tier-no-subdomain-masks = Uw gratis account bevat geen aangepaste subdomeinen voor maskers. Waardeer op naar { -brand-name-relay-premium } om aangepaste maskers te maken.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = ‘{ $unavailable_address }’ kan niet worden aangemaakt. Probeer het nogmaals met een andere maskernaam.
+api-error-need-subdomain = Selecteer een subdomein voordat u een aangepast e-mailadres aanmaakt.
+api-error-account-is-paused = Uw account is gepauzeerd.
