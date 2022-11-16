@@ -784,6 +784,13 @@ banner-offer-end-cta = No opwurdearje
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stopje spam, robocalls en junkteksten
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo echte nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
+banner-ab-premium-promo-advanced-identity-headline = Avansearre identiteitsbeskerming
+banner-ab-premium-promo-advanced-identity-body = Foarkom dat trackers en gegevensaggregators jo identifisearje fia jo telefoannûmer en e-mailadres.
+banner-ab-premium-promo-control-receiver-headline = Bepaal wa’t jo echte nûmer krijt
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo echte nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
+banner-ab-premium-promo-extra-protection-headline = Untfang ekstra beskerming foar jo Postfek YN en telefoan
+banner-ab-premium-promo-extra-protection-body = Untfang ûnbeheinde e-mailmaskers – plus in telefoanmasker om te bepalen wa’t jo echte nûmer krijt.
 banner-ab-premium-promo-cta = Opwurdearje
 
 ## Success Messages
@@ -1114,3 +1121,15 @@ forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link
 ## Notifications component
 
 toast-button-close-label = Melding slute
+
+## API error messages
+
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Jo hawwe alle { $free_tier_limit } e-mailmaskers brûkt by jo fergese account. Jo kinne in besteand masker opnij brûke, mar it brûken fan in unyk masker foar elke account is de feilichste opsje.
+api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpaste subdomeinen foar maskers. Om oanpaste maskers te meitsjen, kinne jo nei { -brand-name-relay-premium } opwurdearje.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.
+api-error-need-subdomain = Selektearje in subdomein eardat jo in oanpast e-mailadres oanmeitsje.
+api-error-account-is-paused = Jo account is pauzearre!
