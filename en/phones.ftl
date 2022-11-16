@@ -209,6 +209,8 @@ phone-masking-splash-continue-btn = Go to dashboard
 phone-masking-splash-save-contact-title = Save { -brand-name-relay } as a contact
 phone-masking-splash-save-contact-body = We sent you an text with a contact called “{ -brand-name-firefox-relay }.” Save it to your contacts to help you identify { -brand-name-relay } messages. Can’t find it?
 phone-masking-splash-save-contact-cta = Resend welcome text
+phone-masking-splash-save-contact-example = Saving your { -brand-name-relay } Contact
+phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 
 phone-masking-splash-replies-title = How to reply to your messages
 phone-masking-splash-replies-body = To reply to the last text you received, simply reply like you normally would. To reply to a previous text, just start your reply with the last 4 digits of that sender’s number. 
