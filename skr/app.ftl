@@ -334,6 +334,9 @@ premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
 premium-promo-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 
@@ -567,6 +570,7 @@ banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
 banner-ab-premium-promo-advanced-identity-headline = ودھائی سُن٘ڄاݨ حفاظت
+banner-ab-premium-promo-extra-protection-headline = آپݨے انباکس تے فون کیتے وادھوں حفاظت گھنو
 banner-ab-premium-promo-cta = اپ گریڈ
 
 ## Success Messages
@@ -824,3 +828,4 @@ toast-button-close-label = نوٹیفیکیشن بند کرو
 
 ## API error messages
 
+api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
