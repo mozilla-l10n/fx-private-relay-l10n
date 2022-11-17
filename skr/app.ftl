@@ -352,6 +352,9 @@ waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو
 waitlist-control-country-label-2 = تساں کہڑے ملک یا علاقے وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
+# Variables:
+#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
 ## Settings page
