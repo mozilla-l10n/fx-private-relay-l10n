@@ -222,6 +222,15 @@ landing-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } �
 landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 # Deprecated
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
@@ -364,6 +373,7 @@ setting-label-api-key = اے پی آئی کنجی
 # This is a label that appears on hover to copy the API key
 settings-button-copy = نقل کرݨ کیتے کلک کرو
 setting-api-key-copied = نقل تھی ڳیا!
+setting-api-key-copied-alt = نقل کرݨ کیتے کلک کرو
 setting-tracker-removal-heading = ای میل ٹریکر ہٹاؤ
 
 ## FAQ Page
@@ -556,6 +566,8 @@ banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
+banner-ab-premium-promo-advanced-identity-headline = ودھائی سُن٘ڄاݨ حفاظت
+banner-ab-premium-promo-cta = اپ گریڈ
 
 ## Success Messages
 
@@ -809,3 +821,6 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 ## Notifications component
 
 toast-button-close-label = نوٹیفیکیشن بند کرو
+
+## API error messages
+
