@@ -783,7 +783,7 @@ banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } даёт 
 banner-ab-premium-promo-advanced-identity-headline = Расширенная защита личности
 banner-ab-premium-promo-advanced-identity-body = Не позволяйте трекерам и сборщикам данных определять вас по номеру телефона и адресу электронной почты.
 banner-ab-premium-promo-control-receiver-headline = Контролируйте, кто получает ваш настоящий номер
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } дает вам псевдоним телефона для защиты вашего реального номера, а также неограниченное количество псевдонимов электронной почты.
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } даёт вам псевдоним телефона для защиты вашего реального номера, а также неограниченное количество псевдонимов электронной почты.
 banner-ab-premium-promo-extra-protection-headline = Получите дополнительную защиту для вашего почтового ящика и телефона
 banner-ab-premium-promo-extra-protection-body = Получите неограниченное количество псевдонимов электронной почты, а также псевдоним телефона, чтобы контролировать, кто получает ваш настоящий номер.
 banner-ab-premium-promo-cta = Обновить
@@ -1125,3 +1125,12 @@ toast-button-close-label = Закрыть уведомление
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Вы использовали все { $free_tier_limit } псевдонимов электронной почты, включённых в бесплатную учётную запись. Вы можете повторно использовать существующий псевдоним, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным решением.
+api-error-free-tier-no-subdomain-masks = Ваша бесплатная учётная запись не включает настраиваемые поддомены для псевдонимов. Чтобы создавать собственные псевдонимы, перейдите на { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = «{ $unavailable_address }» не может быть создан. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
+api-error-need-subdomain = Пожалуйста, выберите поддомен перед созданием собственного адреса электронной почты.
+api-error-account-is-paused = Ваш аккаунт приостановлен.
