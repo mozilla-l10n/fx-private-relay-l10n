@@ -191,15 +191,40 @@ landing-use-cases-offline = Offline
 landing-use-cases-access-content = Aceder a conteúdos
 landing-use-cases-gaming = Jogos
 landing-use-cases-shopping-hero-heading = Comprar com máscaras de e-mail
+landing-use-cases-shopping-hero-content1 = Quer comprar algo na Internet e não sabe ou não confia totalmente na loja?
+landing-use-cases-on-the-go = Em qualquer lugar
+landing-use-cases-on-the-go-heading = Em qualquer lugar com o { -brand-name-relay }
+landing-use-cases-on-the-go-lead = Crie instantaneamente uma máscara de e-mail personalizada, em qualquer momento e em qualquer lugar onde vá!
+landing-use-cases-on-the-go-connect-heading = Ligue-se em qualquer lugar
+landing-use-cases-on-the-go-receipt-heading = Obtenha comprovativos de e-mail
+landing-use-cases-on-the-go-phone-heading = Utilize no seu telemóvel
+landing-use-cases-signups = Registos
+landing-use-cases-signups-hero-heading = Registos sem preocupações
+landing-use-cases-signups-hero-content1 = Deseja iniciar uma nova subscrição, responder a um convite ou obter um código promocional de desconto sem que o lixo eletrónico inunde a sua caixa de entrada?
+landing-use-cases-signups-hero-content2 = Antes de concluir o seu próximo registo, utilize uma máscara de e-mail em vez do seu e-mail real para proteger a sua informação e manter o controlo sobre a sua caixa de entrada.
 
 ## Landing FAQ Section
 
+landing-faq-headline = Perguntas principais sobre o { -brand-name-firefox-relay }
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = Extras
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Fonte: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = de 5 ({ $review_count } comentários)
+landing-reviews-show-next-button = mostrar comentário seguinte
+landing-reviews-show-previous-button = mostrar comentário anterior
+landing-review-anonymous-user = utilizador { -brand-name-firefox } { $user_id }
 
 ## Premium promo page
 
+premium-promo-hero-cta = Atualizar agora
+premium-promo-offer-end-hero-heading = A nossa oferta de preço de lançamento termina em breve!
+premium-promo-offer-end-hero-cta = Atualizar agora
 
 ## The Premium waitlist page
 
