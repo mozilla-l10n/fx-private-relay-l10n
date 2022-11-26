@@ -749,6 +749,7 @@ banner-choose-subdomain-input-placeholder-3 = Αναζήτηση υποτομέ�
 banner-register-subdomain-button-search = Αναζήτηση
 banner-pack-upgrade-headline-2-html = Αναβαθμίστε στο <strong>{ -brand-name-firefox-relay-premium }</strong> για περισσότερες μάσκες email
 banner-pack-upgrade-copy-2 = Με απεριόριστες μάσκες email και τον δικό σας υποτομέα email, το { -brand-name-firefox-relay-premium } σάς προστατεύει στο διαδίκτυο.
+footer-banner-premium-promo-headine = Αναβαθμίστε στο <strong>{ -brand-name-firefox-relay-premium }</strong> για προστασία τηλεφώνου <i>και</i> email
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Ενημέρωση σημείωσης απορρήτου
@@ -774,6 +775,7 @@ banner-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
+banner-ab-premium-promo-advanced-identity-headline = Προηγμένη προστασία ταυτότητας
 banner-ab-premium-promo-cta = Αναβάθμιση
 
 ## Success Messages
@@ -1105,3 +1107,11 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 ## Notifications component
 
 toast-button-close-label = Κλείσιμο ειδοποίησης
+
+## API error messages
+
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.
+api-error-need-subdomain = Παρακαλώ επιλέξτε έναν υποτομέα πριν από τη δημιουργία προσαρμοσμένης διεύθυνσης email.
+api-error-account-is-paused = Ο λογαριασμός σας έχει τεθεί σε παύση.
