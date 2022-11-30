@@ -775,7 +775,12 @@ banner-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
+banner-ab-premium-promo-stop-spam-body = Το { -brand-name-relay-premium } σάς προσφέρει μια μάσκα τηλεφώνου για να προστατεύσετε τον πραγματικό σας αριθμό, καθώς και απεριόριστες μάσκες email.
 banner-ab-premium-promo-advanced-identity-headline = Προηγμένη προστασία ταυτότητας
+banner-ab-premium-promo-control-receiver-headline = Ελέγξτε ποιος αποκτά τον πραγματικό σας αριθμό
+banner-ab-premium-promo-control-receiver-body = Το { -brand-name-relay-premium } σάς προσφέρει μια μάσκα τηλεφώνου για να προστατεύσετε τον πραγματικό σας αριθμό, καθώς και απεριόριστες μάσκες email.
+banner-ab-premium-promo-extra-protection-headline = Λάβετε επιπλέον προστασία για τα εισερχόμενα και το τηλέφωνό σας
+banner-ab-premium-promo-extra-protection-body = Λάβετε απεριόριστες μάσκες email, καθώς και μια μάσκα τηλεφώνου για να ελέγχετε ποιος αποκτά τον πραγματικό σας αριθμό.
 banner-ab-premium-promo-cta = Αναβάθμιση
 
 ## Success Messages
