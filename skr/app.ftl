@@ -832,3 +832,4 @@ toast-button-close-label = نوٹیفیکیشن بند کرو
 ## API error messages
 
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
+api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
