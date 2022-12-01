@@ -60,6 +60,7 @@ phone-onboarding-step4-smiliar-phone = Similaire au { $phone_number }
 phone-onboarding-step4-input-search = Saisir un indicatif régional
 phone-onboarding-step4-button-more-options = Afficher d’autres options
 phone-onboarding-step4-button-register-phone-number = Choisir l’alias de numéro de téléphone
+phone-onboarding-step4-search-results-body = Les alias de numéro de téléphone sont disponibles en <strong>{ $location }</strong>. Une fois que vous avez choisi un alias de numéro de téléphone, vous ne pouvez pas le modifier.
 phone-onboarding-step4-confirm-message = Pour confirmer votre alias de numéro de téléphone, saisissez-le ci-dessous. Il ne pourra pas être modifié ultérieurement.
 phone-onboarding-step4-confirm-alt-cancel = Annuler
 phone-onboarding-step4-body-confirm-relay-number = Veuillez confirmer qu’il s’agit de l’alias de numéro de téléphone que vous souhaitez. Il ne peut pas être modifié ultérieurement.
@@ -152,15 +153,25 @@ phone-masking-faq-answer-historical = Vous ne pouvez pas répondre aux SMS que v
 phone-masking-faq-question-can-i-send = Puis-je envoyer un SMS qui ne soit pas une réponse ?
 phone-masking-faq-answer-can-i-send = Non, vous ne pouvez pas encore envoyer de SMS qui ne sont pas des réponses. Vous pouvez seulement répondre aux SMS transférés.
 phone-masking-faq-question-limit = Y a-t-il une limite au nombre de SMS que je reçois ?
+phone-masking-faq-question-can-i-call = Puis-je appeler quelqu’un avec mon alias de numéro de téléphone ?
+phone-masking-faq-answer-can-i-call = Non, vous pouvez uniquement répondre à un appel transféré.
+phone-masking-faq-question-can-i-see = Puis-je voir qui m’a envoyé un texto ou m’a appelé ?
 phone-masking-faq-question-can-i-block = Puis-je bloquer un appel ou un SMS ?
 phone-masking-faq-answer-can-i-block = Vous pouvez bloquer tous les transferts d’un numéro en particulier.
 phone-masking-faq-question-spam = Que se passe-t-il si mon alias de numéro de téléphone commence à recevoir du spam ?
 phone-masking-faq-answer-spam = Si vous commencez à recevoir du spam, vous pouvez bloquer les numéros qui vous envoient du spam.
+phone-masking-faq-question-can-i-share = Puis-je partager le numéro qui me transfère les SMS ?
+phone-masking-faq-question-how-i-save-card = Comment enregistrer la fiche de contact de { -brand-name-relay } ?
+phone-masking-faq-question-install-app = Dois-je installer une application pour utiliser l’alias de téléphone de { -brand-name-relay } ?
+phone-masking-faq-answer-install-app = Non, les alias de numéro de téléphone de { -brand-name-relay } fonctionnent avec les applications de SMS et d’appels standard de votre appareil.
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-continue-btn = Accéder au tableau de bord
 phone-masking-splash-save-contact-title = Enregistrez { -brand-name-relay } en tant que contact
+phone-masking-splash-save-contact-body = Nous vous avons envoyé un SMS avec un contact nommé « { -brand-name-firefox-relay } ». Enregistrez-le dans vos contacts pour vous aider à identifier les messages { -brand-name-relay }. Vous ne le trouvez pas ?
 phone-masking-splash-save-contact-cta = Renvoyer le SMS de bienvenue
+phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 phone-masking-splash-replies-title = Comment répondre à vos messages
 phone-masking-splash-blocking-title = Comment bloquer un expéditeur
 phone-masking-splash-blocking-example-unblock = Débloquer

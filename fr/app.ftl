@@ -1104,3 +1104,11 @@ forwarded-email-footer-offer-countdown-banner = Passez à { $premium_link } avan
 ## Notifications component
 
 toast-button-close-label = Fermer la notification
+
+## API error messages
+
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = « { $unavailable_address } » n’a pas pu être créée. Veuillez réessayer avec un nom d’alias différent.
+api-error-need-subdomain = Veuillez sélectionner un sous-domaine avant de créer une adresse e-mail personnalisée.
+api-error-account-is-paused = Votre compte est en pause.
