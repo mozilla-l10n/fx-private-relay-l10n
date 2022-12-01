@@ -152,6 +152,10 @@ phone-masking-faq-answer-historical = Vous ne pouvez pas répondre aux SMS que v
 phone-masking-faq-question-can-i-send = Puis-je envoyer un SMS qui ne soit pas une réponse ?
 phone-masking-faq-answer-can-i-send = Non, vous ne pouvez pas encore envoyer de SMS qui ne sont pas des réponses. Vous pouvez seulement répondre aux SMS transférés.
 phone-masking-faq-question-limit = Y a-t-il une limite au nombre de SMS que je reçois ?
+phone-masking-faq-question-can-i-block = Puis-je bloquer un appel ou un SMS ?
+phone-masking-faq-answer-can-i-block = Vous pouvez bloquer tous les transferts d’un numéro en particulier.
+phone-masking-faq-question-spam = Que se passe-t-il si mon alias de numéro de téléphone commence à recevoir du spam ?
+phone-masking-faq-answer-spam = Si vous commencez à recevoir du spam, vous pouvez bloquer les numéros qui vous envoient du spam.
 
 ## Phone Masking Splash Screen
 
@@ -162,3 +166,6 @@ phone-masking-splash-blocking-title = Comment bloquer un expéditeur
 phone-masking-splash-blocking-example-unblock = Débloquer
 phone-masking-splash-blocking-example-block = Bloquer
 phone-masking-splash-blocking-example-date = Aujourd’hui
+
+## Tips and tricks at the bottom of the page
+
