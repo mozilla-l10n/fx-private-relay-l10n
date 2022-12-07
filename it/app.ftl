@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Pagina iniziale
+nav-email-dashboard = Alias di posta elettronica
+nav-phone-dashboard = Alias per numeri di telefono
 label-open-menu = Apri menu
 avatar-tooltip = Profilo
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,6 +37,7 @@ nav-profile-contact = Contatti
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contattaci riguardo a { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar di { -brand-name-firefox-account }
+# Deprecated
 nav-phone = Numero di telefono
 nav-duo-description = Cambia dashboard
 nav-duo-email-mask-alt = Alias di posta elettronica
@@ -45,6 +48,7 @@ nav-duo-phone-mask-alt = Alias per numeri di telefono
 menu-upgrade-button = Aggiorna
 menu-toggle-open = Apri menu
 menu-toggle-close = Chiudi menu
+# Deprecated
 nav-dashboard = Pannello
 nav-settings = Impostazioni
 nav-support = Guida e supporto
@@ -76,33 +80,28 @@ whatsnew-footer-learn-more-label = Ulteriori informazioni
 whatsnew-empty-message = Tieni d’occhio questo spazio: lavoriamo costantemente su nuove fantastiche funzionalità per rendere { -brand-name-relay } sempre migliore.
 whatsnew-feature-size-limit-heading = Più spazio per gli allegati
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB…
 whatsnew-feature-size-limit-description = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a 25 MB (allegati inclusi).
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a { email-size-limit }…
 whatsnew-feature-size-limit-description-var = Con { -brand-name-firefox-relay } è ora possibile inoltrare email fino a { email-size-limit } (allegati inclusi).
 whatsnew-feature-sign-back-in-heading = Registrati direttamente con i tuoi alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Per creare un nuovo alias quando ti viene richiesta la tua email…
 whatsnew-feature-sign-back-in-description = Per accedere con un alias utilizzato in precedenza, apri il menu contestuale nel campo in cui il sito richiede la tua email. Potrai selezionare l’alias e compilare automaticamente il campo dell’email.
 whatsnew-feature-forward-some-heading = Blocco delle email pubblicitarie
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } ti consente di bloccare solo le email pubblicitarie inviate a un alias. Riceverai email importanti, come ad esempio fatture, ma non email di marketing.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Da “alias” a “mask”
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Nella versione inglese ora gli “alias” vengono chiamati “masks” per rendere { -brand-name-firefox-relay }…
@@ -112,22 +111,19 @@ whatsnew-feature-alias-to-mask-description = Nella versione inglese ora gli “a
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibile in Svezia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibile in Finlandia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Aggiorna adesso per una protezione ancora maggiore…
 whatsnew-feature-premium-expansion-description = Aggiorna adesso per una protezione ancora maggiore. Crea illimitati alias di posta elettronica, ottieni un sottodominio personalizzato per le email e altro ancora.
 whatsnew-feature-tracker-removal-heading = Nuova funzione per la rimozione degli elementi traccianti dalle email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email inoltrate…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile agli inserzionisti. Attiva l’opzione in “Impostazioni”.
 whatsnew-feature-offer-countdown-heading = La nostra offerta al prezzo di lancio finirà presto
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato…
@@ -135,6 +131,11 @@ whatsnew-feature-offer-countdown-snippet = Passa a { -brand-name-relay-premium }
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato di alias al nostro prezzo di lancio mensile.
 whatsnew-feature-offer-countdown-cta = Aggiorna adesso
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } è ora disponibile nel gestore password di { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Proteggere la tua posta elettronica è ancora più semplice. Ora puoi generare…
+whatsnew-feature-firefox-integration-description = Proteggere la tua posta elettronica è ancora più semplice. Ora puoi generare nuovi alias di posta elettronica { -brand-name-relay } direttamente dal gestore password di { -brand-name-firefox } su computer desktop.
 
 ## Bento Menu
 
