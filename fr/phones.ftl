@@ -173,6 +173,7 @@ phone-masking-splash-save-contact-body = Nous vous avons envoyé un SMS avec un 
 phone-masking-splash-save-contact-cta = Renvoyer le SMS de bienvenue
 phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 phone-masking-splash-replies-title = Comment répondre à vos messages
+phone-masking-splash-replies-example-text = 9876 Votre message
 phone-masking-splash-blocking-title = Comment bloquer un expéditeur
 phone-masking-splash-blocking-example-unblock = Débloquer
 phone-masking-splash-blocking-example-block = Bloquer
