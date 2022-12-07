@@ -135,6 +135,11 @@ whatsnew-feature-offer-countdown-snippet = Szerezze be a { -brand-name-relay-pre
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást a bevezető havi árunkon.
 whatsnew-feature-offer-countdown-cta = Frissítés most
+whatsnew-feature-firefox-integration-heading = A { -brand-name-relay } már elérhető a { -brand-name-firefox } jelszókezelőben
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Egyszerűbbé vált az e-mailek védelme. Mostantól közvetlenül…
+whatsnew-feature-firefox-integration-description = Egyszerűbbé vált az e-mailek védelme. Mostantól közvetlenül az asztali { -brand-name-firefox } jelszókezelőjéből állíthat elő új { -brand-name-relay } e-mail-maszkokat.
 
 ## Bento Menu
 
