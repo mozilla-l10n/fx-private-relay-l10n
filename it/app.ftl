@@ -134,8 +134,8 @@ whatsnew-feature-offer-countdown-cta = Aggiorna adesso
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } è ora disponibile nel gestore password di { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-firefox-integration-snippet = Proteggere la tua posta elettronica è ancora più semplice. Ora puoi generare…
-whatsnew-feature-firefox-integration-description = Proteggere la tua posta elettronica è ancora più semplice. Ora puoi generare nuovi alias di posta elettronica { -brand-name-relay } direttamente dal gestore password di { -brand-name-firefox } su computer desktop.
+whatsnew-feature-firefox-integration-snippet = Proteggere la tua posta elettronica è diventato ancora più semplice. Ora puoi generare…
+whatsnew-feature-firefox-integration-description = Proteggere la tua posta elettronica è diventato ancora più semplice. Ora puoi generare nuovi alias di posta elettronica { -brand-name-relay } direttamente dal gestore password di { -brand-name-firefox } in versione desktop.
 
 ## Bento Menu
 
