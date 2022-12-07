@@ -16,6 +16,8 @@ logo-alt= { -brand-name-firefox-relay }
 logo-premium-alt= { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Home
+nav-email-dashboard = Email Masks
+nav-phone-dashboard = Phone Masks
 label-open-menu = Open menu
 avatar-tooltip = Profile
 
@@ -36,6 +38,7 @@ nav-profile-contact = Contact us
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Get in touch about { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
+# Deprecated
 nav-phone = Phone Number
 nav-duo-description = Switch dashboards
 nav-duo-email-mask-alt = Email masks
@@ -46,6 +49,7 @@ nav-duo-phone-mask-alt = Phone masks
 menu-upgrade-button = Upgrade
 menu-toggle-open = Open menu
 menu-toggle-close = Close menu
+# Deprecated
 nav-dashboard = Dashboard
 nav-settings = Settings
 nav-support = Help and Support
