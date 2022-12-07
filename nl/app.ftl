@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Startpagina
+nav-email-dashboard = E-mailmaskers
+nav-phone-dashboard = Telefoonmaskers
 label-open-menu = Menu openen
 avatar-tooltip = Profiel
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,6 +37,7 @@ nav-profile-contact = Contact
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contact opnemen over { -brand-name-relay-premium }
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "lowercase") }-avatar
+# Deprecated
 nav-phone = Telefoonnummer
 nav-duo-description = Van dashboard wisselen
 nav-duo-email-mask-alt = E-mailmaskers
@@ -45,6 +48,7 @@ nav-duo-phone-mask-alt = Telefoonmaskers
 menu-upgrade-button = Upgraden
 menu-toggle-open = Menu openen
 menu-toggle-close = Menu sluiten
+# Deprecated
 nav-dashboard = Dashboard
 nav-settings = Instellingen
 nav-support = Hulp en ondersteuning
@@ -80,33 +84,28 @@ whatsnew-footer-learn-more-label = Meer info
 whatsnew-empty-message = Kom zeker nog eens terug – we werken altijd aan geweldige nieuwe functies om { -brand-name-relay } nog beter te maken.
 whatsnew-feature-size-limit-heading = Verbeterde bijlagegrootte
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu e-mailberichten tot 25 MB doorsturen, inclusief bijlagen.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu e-mailberichten tot { email-size-limit } doorsturen, inclusief…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kan nu e-mailberichten tot { email-size-limit } doorsturen, inclusief bijlagen.
 whatsnew-feature-sign-back-in-heading = Opnieuw aanmelden met uw aliassen
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Als u een nieuwe alias wilt maken wanneer u om uw e-mailadres wordt gevraagd, opent u…
 whatsnew-feature-sign-back-in-description = Om u aan te melden met een eerder gebruikte alias, opent u het contextmenu waar de website om uw e-mailadres vraagt. U kunt de alias selecteren en het e-mailveld automatisch invullen.
 whatsnew-feature-forward-some-heading = Blokkeren van reclameberichten
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren…
 whatsnew-feature-forward-some-description = Met { -brand-name-relay-premium } kunt u alleen reclameberichten blokkeren die naar een alias zijn verzonden. U ontvangt e-mailberichten zoals bonnen, maar geen marketingberichten.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliassen zijn nu maskers
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Hebt u een verandering gezien? We noemen aliassen nu ‘maskers’ om { -brand-name-firefox-relay }…
@@ -116,22 +115,19 @@ whatsnew-feature-alias-to-mask-description = Hebt u een verandering gezien? We n
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } beschikbaar in Zweden
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } beschikbaar in Finland
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Upgrade nu en ontvang nog meer bescherming…
 whatsnew-feature-premium-expansion-description = Upgrade nu en ontvang nog meer bescherming – maak onbeperkt e-mailmaskers aan, ontvang een aangepast e-mailsubdomein en meer!
 whatsnew-feature-tracker-removal-heading = Nieuw: verwijdering van e-mailtrackers
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit doorgestuurde e-mailberichten…
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders.
 whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } kan nu veelgebruikte e-mailtrackers verwijderen uit e-mailberichten die naar u zijn doorgestuurd, waardoor het u helpt onzichtbaar te blijven voor adverteerders. Schakel dit in in ‘Instellingen’.
 whatsnew-feature-offer-countdown-heading = Onze introductieprijsaanbieding loopt binnenkort af!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = Abonneer u vóór { $end_date } op { -brand-name-relay-premium } en geniet van onbeperkt maskeren tegen onze…
@@ -139,6 +135,11 @@ whatsnew-feature-offer-countdown-snippet = Abonneer u vóór { $end_date } op { 
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Abonneer u vóór { $end_date } op { -brand-name-relay-premium } en geniet van onbeperkt maskeren tegen onze introductieprijs voor een maandabonnement.
 whatsnew-feature-offer-countdown-cta = Nu upgraden
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is nu beschikbaar in de { -brand-name-firefox }-wachtwoordenbeheerder
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Het beschermen van uw e-mail is zojuist eenvoudiger geworden. U kunt nu…
+whatsnew-feature-firefox-integration-description = Het beschermen van uw e-mail is zojuist eenvoudiger geworden. U kunt nu nieuwe { -brand-name-relay }-e-mailmaskers rechtstreeks vanuit uw { -brand-name-firefox }-wachtwoordenbeheerder op desktop aanmaken.
 
 ## Bento Menu
 
