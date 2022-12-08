@@ -136,6 +136,10 @@ whatsnew-feature-offer-countdown-snippet = Souscrivez à { -brand-name-relay-pre
 whatsnew-feature-offer-countdown-description = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez d’un nombre illimité d’alias de messagerie à un prix promotionnel pour l’arrivée du paiement mensuel.
 whatsnew-feature-offer-countdown-cta = Mettre à niveau maintenant
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } est maintenant disponible dans le gestionnaire de mots de passe de { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Protéger votre adresse e-mail est encore plus facile. Maintenant, vous pouvez générer…
+whatsnew-feature-firefox-integration-description = Protéger votre adresse e-mail est encore plus facile. Maintenant, vous pouvez générer de nouveaux alias de messagerie { -brand-name-relay } directement depuis le gestionnaire de mots de passe de { -brand-name-firefox } sur ordinateur.
 
 ## Bento Menu
 
