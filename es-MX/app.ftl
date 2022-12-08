@@ -744,6 +744,7 @@ banner-choose-subdomain-input-placeholder-3 = Buscar subdominio
 banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-2-html = Actualizar a <strong>{ -brand-name-firefox-relay-premium }</strong> para obtener correos enmascarados
 banner-pack-upgrade-copy-2 = Con correos enmascarados personalizados y tu subdominio de correo, { -brand-name-firefox-relay-premium } te ayuda a seguir protegido en línea.
+footer-banner-premium-promo-headine = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger tu teléfono <i>y</i> correo electrónico
 banner-pack-upgrade-cta = Actualizar ahora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
@@ -771,8 +772,12 @@ banner-offer-end-cta = Actualizar ahora
 banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Detén el spam, las llamadas automáticas y los mensajes de texto no deseados
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te brinda una máscara de teléfono para proteger tu número real — además de máscaras de correo electrónico ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Protección de identidad avanzada
 banner-ab-premium-promo-control-receiver-headline = Controla quién recibe tu número real
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } te brinda una máscara de teléfono para proteger tu número real, además de máscaras de correo electrónico ilimitadas.
+banner-ab-premium-promo-extra-protection-headline = Obtén protección adicional para tu bandeja de entrada y teléfono
+banner-ab-premium-promo-extra-protection-body = Obtén máscaras de correo electrónico ilimitadas — además de una máscara de teléfono para controlar quién obtiene tu número real.
 banner-ab-premium-promo-cta = Actualizar
 
 ## Success Messages
