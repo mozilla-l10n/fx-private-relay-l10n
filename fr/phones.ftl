@@ -155,6 +155,7 @@ phone-masking-faq-answer-historical = Vous ne pouvez pas répondre aux SMS que v
 phone-masking-faq-question-can-i-send = Puis-je envoyer un SMS qui ne soit pas une réponse ?
 phone-masking-faq-answer-can-i-send = Non, vous ne pouvez pas encore envoyer de SMS qui ne sont pas des réponses. Vous pouvez seulement répondre aux SMS transférés.
 phone-masking-faq-question-limit = Y a-t-il une limite au nombre de SMS que je reçois ?
+phone-masking-faq-answer-limit = Vous pouvez recevoir et répondre jusqu’à 75 SMS par mois au total. Tout SMS supplémentaire envoyé à votre alias de numéro de téléphone ne sera pas transféré à votre véritable numéro. Aucune réponse supplémentaire ne sera envoyée. Le mois se réinitialise à votre date de facturation, pas au 1er jour du mois. Une fois votre mois de facturation écoulé, vous recommencerez à recevoir des SMS.
 phone-masking-faq-answer-call-length = Chaque mois, vous disposez de 50 minutes de conversation. Une fois ces minutes épuisées, vous ne pourrez plus recevoir d’appels transférés avant le mois suivant sur votre cycle de facturation.
 phone-masking-faq-question-can-i-call = Puis-je appeler quelqu’un avec mon alias de numéro de téléphone ?
 phone-masking-faq-answer-can-i-call = Non, vous pouvez uniquement répondre à un appel transféré.
