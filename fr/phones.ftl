@@ -157,6 +157,7 @@ phone-masking-faq-answer-call-length = Chaque mois, vous disposez de 50 minutes
 phone-masking-faq-question-can-i-call = Puis-je appeler quelqu’un avec mon alias de numéro de téléphone ?
 phone-masking-faq-answer-can-i-call = Non, vous pouvez uniquement répondre à un appel transféré.
 phone-masking-faq-question-can-i-see = Puis-je voir qui m’a envoyé un texto ou m’a appelé ?
+phone-masking-faq-answer-can-i-see = Oui, vous pouvez voir le numéro qui vous a envoyé un texto ou vous a appelé. Vous pouvez également désactiver le stockage de ces informations, mais vous perdrez la capacité de répondre ou de bloquer les appels et les SMS de numéros spécifiques.
 phone-masking-faq-question-can-i-block = Puis-je bloquer un appel ou un SMS ?
 phone-masking-faq-answer-can-i-block = Vous pouvez bloquer tous les transferts d’un numéro en particulier.
 phone-masking-faq-question-spam = Que se passe-t-il si mon alias de numéro de téléphone commence à recevoir du spam ?
