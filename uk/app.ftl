@@ -137,6 +137,9 @@ whatsnew-feature-offer-countdown-snippet = Отримайте { -brand-name-rela
 whatsnew-feature-offer-countdown-description = Отримайте { -brand-name-relay-premium } до { $end_date } і насолоджуйтеся необмеженим маскуванням за нашою початковою щомісячною ціною.
 whatsnew-feature-offer-countdown-cta = Оновити зараз
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } відтепер доступний у менеджері паролів { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Захистити свою електронну пошту стало простіше. Тепер ви можете створювати…
 whatsnew-feature-firefox-integration-description = Захистити свою електронну пошту стало простіше. Тепер ви можете створювати нові маски електронної пошти { -brand-name-relay } безпосередньо з менеджера паролів { -brand-name-firefox } на комп’ютері.
 
 ## Bento Menu
