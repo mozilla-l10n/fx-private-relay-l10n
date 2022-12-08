@@ -166,20 +166,30 @@ phone-masking-faq-question-can-i-share = Puis-je partager le numéro qui me tran
 phone-masking-faq-question-how-i-save-card = Comment enregistrer la fiche de contact de { -brand-name-relay } ?
 phone-masking-faq-question-install-app = Dois-je installer une application pour utiliser l’alias de téléphone de { -brand-name-relay } ?
 phone-masking-faq-answer-install-app = Non, les alias de numéro de téléphone de { -brand-name-relay } fonctionnent avec les applications de SMS et d’appels standard de votre appareil.
+#   $url (url) - link to Firefox Relay's Privacy Policy, i.e. https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+phone-masking-faq-answer-data = Veuillez consulter la <a href="{ $url }" { $attrs }>Politique de confidentialité de { -brand-name-firefox-relay }</a>.
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-subheading = Tout d’abord, voyons comment vous pouvez optimiser votre expérience.
 phone-masking-splash-continue-btn = Accéder au tableau de bord
 phone-masking-splash-save-contact-title = Enregistrez { -brand-name-relay } en tant que contact
 phone-masking-splash-save-contact-body = Nous vous avons envoyé un SMS avec un contact nommé « { -brand-name-firefox-relay } ». Enregistrez-le dans vos contacts pour vous aider à identifier les messages { -brand-name-relay }. Vous ne le trouvez pas ?
 phone-masking-splash-save-contact-cta = Renvoyer le SMS de bienvenue
+phone-masking-splash-save-contact-example = Enregistrement de votre contact { -brand-name-relay }
 phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 phone-masking-splash-replies-title = Comment répondre à vos messages
+phone-masking-splash-replies-body = Pour répondre au dernier SMS que vous avez reçu, il vous suffit de répondre comme vous le feriez normalement. Pour répondre à un SMS précédent, il suffit de commencer votre réponse avec les 4 derniers chiffres du numéro de cet expéditeur.
+phone-masking-splash-replies-example = Répondre au (555) 555-9876
 phone-masking-splash-replies-example-text = 9876 Votre message
 phone-masking-splash-blocking-title = Comment bloquer un expéditeur
+phone-masking-splash-blocking-body = Vous recevez des SMS indésirables ? Vous pouvez empêcher n’importe quel numéro de téléphone de vous appeler et de vous envoyer des SMS. Recherchez simplement le numéro dans votre liste « Appels et expéditeurs de SMS » et sélectionnez <strong>Bloquer</strong>.
 phone-masking-splash-blocking-example-unblock = Débloquer
 phone-masking-splash-blocking-example-block = Bloquer
 phone-masking-splash-blocking-example-date = Aujourd’hui
 
 ## Tips and tricks at the bottom of the page
 
+tips-multi-replies-heading = Répondez à n’importe quel SMS avec votre alias de numéro de téléphone
+tips-multi-replies-content = Commencez simplement votre message avec les 4 derniers chiffres du numéro de cet expéditeur.
