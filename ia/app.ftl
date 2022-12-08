@@ -135,6 +135,11 @@ whatsnew-feature-offer-countdown-snippet = Abona te a { -brand-name-relay-premiu
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un numero illimitate de mascas a nostre precio mensual introductive.
 whatsnew-feature-offer-countdown-cta = Promover ora
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } es ora disponibile in le gestor de contrasignos de { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Proteger tu email justo deveniva plus facile. Ora tu pote generar…
+whatsnew-feature-firefox-integration-description = Proteger tu email justo deveniva plus facile. Ora tu pote generar nove mascas email de { -brand-name-relay } directemente del gestor de contrasignos de { -brand-name-firefox } sur scriptorio.
 
 ## Bento Menu
 
