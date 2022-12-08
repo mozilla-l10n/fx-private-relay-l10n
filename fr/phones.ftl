@@ -171,6 +171,7 @@ phone-masking-faq-answer-disable-logging = Oui, vous pouvez désactiver la journ
 phone-masking-faq-question-can-i-share = Puis-je partager le numéro qui me transfère les SMS ?
 phone-masking-faq-answer-can-i-share = Si vous partagez ce numéro, rien ne se passera ; ce numéro n’est pas votre alias de numéro de téléphone. Il s’agit simplement du numéro de contact à partir duquel { -brand-name-relay } transfèrera vos SMS et vos appels.
 phone-masking-faq-question-how-i-save-card = Comment enregistrer la fiche de contact de { -brand-name-relay } ?
+phone-masking-faq-answer-how-i-save-card = Lorsque vous passerez aux alias de numéro de téléphone de { -brand-name-relay }, nous vous enverrons une fiche de contact contenant le numéro à partir duquel vous recevrez les appels et les SMS transférés, semblable à toute fiche de contact qui stocke le numéro de téléphone des personnes qui vous contactent. Sur la plupart des appareils, vous pouvez sélectionner cette fiche de contact et l’enregistrer comme n’importe quel autre contact sur votre téléphone.
 phone-masking-faq-question-install-app = Dois-je installer une application pour utiliser l’alias de téléphone de { -brand-name-relay } ?
 phone-masking-faq-answer-install-app = Non, les alias de numéro de téléphone de { -brand-name-relay } fonctionnent avec les applications de SMS et d’appels standard de votre appareil.
 phone-masking-faq-question-data = Quels types de données les alias de numéro de téléphone { -brand-name-relay } stockent-t-ils ?
