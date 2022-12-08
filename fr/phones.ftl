@@ -156,6 +156,7 @@ phone-masking-faq-question-can-i-send = Puis-je envoyer un SMS qui ne soit pas u
 phone-masking-faq-answer-can-i-send = Non, vous ne pouvez pas encore envoyer de SMS qui ne sont pas des réponses. Vous pouvez seulement répondre aux SMS transférés.
 phone-masking-faq-question-limit = Y a-t-il une limite au nombre de SMS que je reçois ?
 phone-masking-faq-answer-limit = Vous pouvez recevoir et répondre jusqu’à 75 SMS par mois au total. Tout SMS supplémentaire envoyé à votre alias de numéro de téléphone ne sera pas transféré à votre véritable numéro. Aucune réponse supplémentaire ne sera envoyée. Le mois se réinitialise à votre date de facturation, pas au 1er jour du mois. Une fois votre mois de facturation écoulé, vous recommencerez à recevoir des SMS.
+phone-masking-faq-question-call-length = Combien de temps je dispose lorsque je reçois un appel ?
 phone-masking-faq-answer-call-length = Chaque mois, vous disposez de 50 minutes de conversation. Une fois ces minutes épuisées, vous ne pourrez plus recevoir d’appels transférés avant le mois suivant sur votre cycle de facturation.
 phone-masking-faq-question-can-i-call = Puis-je appeler quelqu’un avec mon alias de numéro de téléphone ?
 phone-masking-faq-answer-can-i-call = Non, vous pouvez uniquement répondre à un appel transféré.
@@ -165,10 +166,14 @@ phone-masking-faq-question-can-i-block = Puis-je bloquer un appel ou un SMS ?
 phone-masking-faq-answer-can-i-block = Vous pouvez bloquer tous les transferts d’un numéro en particulier.
 phone-masking-faq-question-spam = Que se passe-t-il si mon alias de numéro de téléphone commence à recevoir du spam ?
 phone-masking-faq-answer-spam = Si vous commencez à recevoir du spam, vous pouvez bloquer les numéros qui vous envoient du spam.
+phone-masking-faq-question-disable-logging = Puis-je désactiver la journalisation des appels ou des expéditeurs de SMS ?
+phone-masking-faq-answer-disable-logging = Oui, vous pouvez désactiver la journalisation des numéros depuis le tableau de bord de { -brand-name-relay }. Cependant, vous ne pourrez plus répondre aux SMS ou bloquer des numéros spécifiques, car le journal nous permet de savoir qui vous a envoyé un SMS.
 phone-masking-faq-question-can-i-share = Puis-je partager le numéro qui me transfère les SMS ?
+phone-masking-faq-answer-can-i-share = Si vous partagez ce numéro, rien ne se passera ; ce numéro n’est pas votre alias de numéro de téléphone. Il s’agit simplement du numéro de contact à partir duquel { -brand-name-relay } transfèrera vos SMS et vos appels.
 phone-masking-faq-question-how-i-save-card = Comment enregistrer la fiche de contact de { -brand-name-relay } ?
 phone-masking-faq-question-install-app = Dois-je installer une application pour utiliser l’alias de téléphone de { -brand-name-relay } ?
 phone-masking-faq-answer-install-app = Non, les alias de numéro de téléphone de { -brand-name-relay } fonctionnent avec les applications de SMS et d’appels standard de votre appareil.
+phone-masking-faq-question-data = Quels types de données les alias de numéro de téléphone { -brand-name-relay } stockent-t-ils ?
 #   $url (url) - link to Firefox Relay's Privacy Policy, i.e. https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 phone-masking-faq-answer-data = Veuillez consulter la <a href="{ $url }" { $attrs }>Politique de confidentialité de { -brand-name-firefox-relay }</a>.
