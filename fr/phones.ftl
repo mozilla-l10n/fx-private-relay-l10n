@@ -181,6 +181,7 @@ phone-masking-faq-answer-data = Veuillez consulter la <a href="{ $url }" { $attr
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-header = Bienvenue sur les alias de numéro de téléphone de { -brand-name-relay }
 phone-masking-splash-subheading = Tout d’abord, voyons comment vous pouvez optimiser votre expérience.
 phone-masking-splash-continue-btn = Accéder au tableau de bord
 phone-masking-splash-save-contact-title = Enregistrez { -brand-name-relay } en tant que contact
