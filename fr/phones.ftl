@@ -219,3 +219,9 @@ sms-error-multiple-number-matches = Échec de l’envoi du message. Plus d’un 
 # Variables
 #   $short_prefix (string) - A four-digit code, such as '1234', that matches the end of a phone number
 sms-error-no-body-after-short-prefix = Échec de l’envoi du message. Veuillez inclure un message après le numéro de téléphone se terminant par { $short_prefix }.
+# Variables
+#   $full_number (string) - A phone number, such as '+13025551234' or '1 (302) 555-1234'
+sms-error-full-number-matches-no-senders = Échec de l’envoi du message. Il n’y a aucun expéditeur précédent dont le numéro de téléphone soit le { $full_number }. Veuillez vérifier le numéro et réessayer.
+# Variables
+#   $full_number (string) - A phone number, such as '+13025551234' or '1 (302) 555-1234'
+sms-error-no-body-after-full-number = Échec de l’envoi du message. Veuillez inclure un message après le numéro de téléphone { $full_number }.
