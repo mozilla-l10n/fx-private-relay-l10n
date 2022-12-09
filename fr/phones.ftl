@@ -203,3 +203,19 @@ phone-masking-splash-blocking-example-date = Aujourd’hui
 
 tips-multi-replies-heading = Répondez à n’importe quel SMS avec votre alias de numéro de téléphone
 tips-multi-replies-content = Commencez simplement votre message avec les 4 derniers chiffres du numéro de cet expéditeur.
+
+## SMS reply error messages
+
+sms-error-no-previous-sender = Échec de l’envoi du message. Vous ne pouvez répondre qu’aux numéros de téléphone qui vous ont envoyé un SMS.
+# Variables
+#   $account_settings_url (string) - The URL of the Relay account settings, to enable logs
+sms-error-no-phone-log = La fonctionnalité de réponse nécessite que { -brand-name-firefox-relay } conserve un journal de vos appels et expéditeurs de SMS. Vous pourrez répondre aux futurs messages en activant « Journal des appels et des SMS » dans les paramètres : { $account_settings_url }
+# Variables
+#   $short_prefix (string) - A four-digit code, such as '1234', that matches the end of a phone number
+sms-error-short-prefix-matches-no-senders = Échec de l’envoi du message. Aucun numéro de téléphone dans cette discussion se termine par { $short_prefix }. Veuillez vérifier le numéro et réessayer.
+# Variables
+#   $short_prefix (string) - A four-digit code, such as '1234', that matches the end of a phone number
+sms-error-multiple-number-matches = Échec de l’envoi du message. Plus d’un numéro de téléphone dans cette discussion se termine par { $short_prefix }. Pour réessayer, commencez votre message par le numéro complet.
+# Variables
+#   $short_prefix (string) - A four-digit code, such as '1234', that matches the end of a phone number
+sms-error-no-body-after-short-prefix = Échec de l’envoi du message. Veuillez inclure un message après le numéro de téléphone se terminant par { $short_prefix }.
