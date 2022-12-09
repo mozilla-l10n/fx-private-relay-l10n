@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = 選單
 nav-home = 首頁
+nav-email-dashboard = 轉寄信箱
+nav-phone-dashboard = 虛擬手機號碼轉接
 label-open-menu = 開啟選單
 avatar-tooltip = 個人資料
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,6 +37,7 @@ nav-profile-contact = 聯絡我們
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = 聯絡我們有關 { -brand-name-relay-premium } 的各種事項
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }大頭照
+# Deprecated
 nav-phone = 電話號碼
 nav-duo-description = 切換儀錶板
 nav-duo-email-mask-alt = 轉寄信箱
@@ -45,6 +48,7 @@ nav-duo-phone-mask-alt = 虛擬手機號碼轉接
 menu-upgrade-button = 升級
 menu-toggle-open = 開啟選單
 menu-toggle-close = 關閉選單
+# Deprecated
 nav-dashboard = 儀錶板
 nav-settings = 設定
 nav-support = 說明與技術支援
@@ -79,33 +83,28 @@ whatsnew-footer-learn-more-label = 了解更多
 whatsnew-empty-message = 請三不五時回來這邊看看 — 我們會持續開發新功能，讓 { -brand-name-relay } 變得更好。
 whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含…
 whatsnew-feature-size-limit-description = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 25 MB（包含附件）
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含…
 whatsnew-feature-size-limit-description-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含附件）
 whatsnew-feature-sign-back-in-heading = 使用您的別名信箱登入網站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = 當網站要求您輸入信箱時，請開啟…
 whatsnew-feature-sign-back-in-description = 要使用先前建立的別名信箱登入網站，請在網站的信箱輸入框當中點擊右鍵選單，然後就可以選擇別名信箱並且自動填入。
 whatsnew-feature-forward-some-heading = 封鎖行銷郵件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但還是會轉寄別名信箱收到的收據、發票等重要郵件。
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 現在起，「別名信箱」更名為「轉寄信箱」了
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }…
@@ -115,22 +114,19 @@ whatsnew-feature-alias-to-mask-description = 注意到變化了嗎？現在起�
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已於瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已於芬蘭推出
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立刻升級，獲得更多保護…
 whatsnew-feature-premium-expansion-description = 立刻升級，獲得更多保護 — 建立無限量的轉寄信箱、設定自訂郵件子網域，還有更多功能！
 whatsnew-feature-tracker-removal-heading = 推出郵件追蹤器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器…
 # Deprecated
 whatsnew-feature-tracker-removal-description = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。
 whatsnew-feature-tracker-removal-description-2 = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。可到「設定」頁面中開啟。
 whatsnew-feature-offer-countdown-heading = 上市優惠價即將結束！
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價…
@@ -138,6 +134,11 @@ whatsnew-feature-offer-countdown-snippet = 於 { $end_date } 前下載 { -brand-
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
 whatsnew-feature-offer-countdown-cta = 立刻升級
+whatsnew-feature-firefox-integration-heading = { -brand-name-firefox } 密碼管理員中已推出 { -brand-name-relay }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = 更簡單就能保護您的信箱。現在您可以直接從…
+whatsnew-feature-firefox-integration-description = 更簡單就能保護您的信箱。現在您可以直接從 { -brand-name-firefox } 桌面版的密碼管理員產生 { -brand-name-relay } 轉寄信箱。
 
 ## Bento Menu
 
