@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Início
+nav-email-dashboard = Máscaras de email
+nav-phone-dashboard = Máscaras de celular
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,6 +37,7 @@ nav-profile-contact = Fale conosco
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Entre em contato sobre o { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
+# Deprecated
 nav-phone = Número de celular
 nav-duo-description = Alternar painéis
 nav-duo-email-mask-alt = Máscaras de email
@@ -45,6 +48,7 @@ nav-duo-phone-mask-alt = Máscaras de celular
 menu-upgrade-button = Mudar de plano
 menu-toggle-open = Abrir menu
 menu-toggle-close = Fechar menu
+# Deprecated
 nav-dashboard = Painel
 nav-settings = Configurações
 nav-support = Ajuda e suporte
@@ -80,33 +84,28 @@ whatsnew-footer-learn-more-label = Saiba mais
 whatsnew-empty-message = Não deixe de voltar a olhar aqui. Estamos sempre trabalhando em excelentes novos recursos para tornar o { -brand-name-relay } ainda melhor.
 whatsnew-feature-size-limit-heading = Aumento no tamanho de anexos
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo…
 whatsnew-feature-size-limit-description = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até 25MB, incluindo anexos.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até { email-size-limit }, incluindo…
 whatsnew-feature-size-limit-description-var = Agora o { -brand-name-firefox-relay } pode encaminhar emails de até { email-size-limit }, incluindo anexos.
 whatsnew-feature-sign-back-in-heading = Cadastre-se novamente com seus endereços de redirecionamento
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Para criar um novo endereço de redirecionamento quando for solicitado seu email, abra…
 whatsnew-feature-sign-back-in-description = Para entrar com um endereço de redirecionamento usado anteriormente, abra o menu de contexto onde o site pede seu email. Você pode selecionar o endereço de redirecionamento a ser preenchido automaticamente no campo de email.
 whatsnew-feature-forward-some-heading = Bloqueio de email promocional
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais…
 whatsnew-feature-forward-some-description = O { -brand-name-relay-premium } permite bloquear apenas emails promocionais enviados a um endereço de redirecionamento. Você receberá emails como recibos, mas não emails de propaganda.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Endereços de redirecionamento agora são máscaras
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Notou uma mudança? Agora estamos chamando endereços de redirecionamento de “máscaras” para tornar o { -brand-name-firefox-relay }…
@@ -116,22 +115,19 @@ whatsnew-feature-alias-to-mask-description = Notou uma mudança? Agora estamos c
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponível na Suécia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponível na Finlândia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Mude agora e obtenha ainda mais proteção…
 whatsnew-feature-premium-expansion-description = Mude agora e obtenha ainda mais proteção. Crie máscaras de email ilimitadas, tenha um subdomínio de email personalizado e muito mais!
 whatsnew-feature-tracker-removal-heading = Apresentamos a remoção de rastreadores de email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes.
 whatsnew-feature-tracker-removal-description-2 = Agora o { -brand-name-relay } pode remover rastreadores comuns de emails encaminhados para você, ajudando a ficar invisível aos anunciantes. Ative em “Configurações”.
 whatsnew-feature-offer-countdown-heading = Nossa oferta inicial de preço termina em breve!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite máscaras ilimitadas em nosso…
