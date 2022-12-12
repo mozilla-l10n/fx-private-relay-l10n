@@ -491,7 +491,7 @@ settings-button-copy = Cliquer pour copier
 setting-api-key-copied = Copiée !
 setting-api-key-copied-alt = Cliquer pour copier
 setting-tracker-removal-heading = Supprimer les traqueurs des e-mails
-setting-tracker-removal-description = Supprimez les traqueurs des e-mails transférés.
+setting-tracker-removal-description = Supprimer les traqueurs des e-mails transférés.
 setting-tracker-removal-note = { -brand-name-firefox-relay } peut désormais supprimer les traqueurs courants des e-mails transférés via vos alias de messagerie.
 # Deprecated
 setting-tracker-removal-warning = Important : Parfois, la suppression des traqueurs peut provoquer des problèmes d’affichage, car les traqueurs sont souvent contenus dans les images.
