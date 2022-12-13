@@ -161,7 +161,9 @@ how-it-works-headline = ایہ کین٘ویں کم کریندے
 how-it-works-subheadline = آپݨی ذاتی سُن٘ڄاݨ دی حفاظت کرو جتھ وی تساں { -brand-name-firefox-browser } ورتو۔
 how-it-works-step-1-headline = ایکسٹنشن گھنو
 how-it-works-step-1-link = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
-how-it-works-step-1-copy = سائن اں ورقے تک رسائی کیتے تہاݙے { -brand-name-firefox } ٹول بار تے ظاہر تھیوݨ والے آئیکن کوں منتخب کرو۔
+how-it-works-step-1-copy =
+    سائن اں ورقے تک رسائی کیتے تہاݙے { -brand-name-firefox } ٹول بار تے ظاہر تھیوݨ والے آئیکان کوں منتخب کرو۔
+    شروع کرݨ کیتے آپݨے { -brand-name-firefox-account } نال سائن ان تھیوو۔
 how-it-works-step-2-headline-2 = نواں ای میل ماسک بݨاؤ
 how-it-works-step-3-headline-2 = آپݨے ای میل ماسک منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
