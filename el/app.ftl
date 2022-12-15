@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Μενού
 nav-home = Αρχική
+nav-email-dashboard = Μάσκες email
+nav-phone-dashboard = Μάσκες τηλεφώνου
 label-open-menu = Άνοιγμα μενού
 avatar-tooltip = Προφίλ
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,6 +37,7 @@ nav-profile-contact = Επικοινωνία
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Επικοινωνία σχετικά με το { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(case: "genitive", capitalization: "lowercase") }
+# Deprecated
 nav-phone = Αριθμός τηλεφώνου
 nav-duo-description = Εναλλαγή πινάκων
 nav-duo-email-mask-alt = Μάσκες email
@@ -45,6 +48,7 @@ nav-duo-phone-mask-alt = Μάσκες τηλεφώνου
 menu-upgrade-button = Αναβάθμιση
 menu-toggle-open = Άνοιγμα μενού
 menu-toggle-close = Κλείσιμο μενού
+# Deprecated
 nav-dashboard = Πίνακας
 nav-settings = Ρυθμίσεις
 nav-support = Βοήθεια και υποστήριξη
@@ -80,33 +84,28 @@ whatsnew-footer-learn-more-label = Μάθετε περισσότερα
 whatsnew-empty-message = Συνεχίστε να έρχεστε εδώ — εργαζόμαστε πάντα πάνω σε νέες, εξαιρετικές λειτουργίες για να κάνουμε καλύτερο το { -brand-name-relay }.
 whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμένων
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως 25MB, μαζί με…
 whatsnew-feature-size-limit-description = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως 25MB, μαζί με τα συνημμένα.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με…
 whatsnew-feature-size-limit-description-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με τα συνημμένα.
 whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Για να δημιουργήσετε ένα νέο ψευδώνυμο όταν σας ζητηθεί το email σας, ανοίξτε…
 whatsnew-feature-sign-back-in-description = Για να συνδεθείτε με ένα ψευδώνυμο που χρησιμοποιήσατε στο παρελθόν, ανοίξτε το μενού επιλογών στο σημείο όπου ο ιστότοπος ζητά το email σας. Θα μπορέσετε να επιλέξετε το ψευδώνυμο και να συμπληρώσετε αυτόματα το πεδίο email.
 whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών email
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = Το { -brand-name-relay-premium } επιτρέπει τη φραγή διαφημιστικών email…
 whatsnew-feature-forward-some-description = Το { -brand-name-relay-premium } σάς επιτρέπει να αποκλείετε τα διαφημιστικά email που αποστέλλονται σε ένα ψευδώνυμο. Θα λαμβάνετε email, όπως αποδείξεις, αλλά όχι διαφημιστικά email.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Τα ψευδώνυμα ονομάζονται πλέον «μάσκες»
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay }…
@@ -116,22 +115,19 @@ whatsnew-feature-alias-to-mask-description = Παρατηρήσατε κάποι
 whatsnew-feature-premium-expansion-sweden-heading = Το { -brand-name-relay-premium } διατίθεται στη Σουηδία
 whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-premium } διατίθεται στη Φινλανδία
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
 whatsnew-feature-premium-expansion-description = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία — δημιουργήστε απεριόριστες μάσκες email, αποκτήστε έναν προσαρμοσμένο υποτομέα email και πολλά άλλα!
 whatsnew-feature-tracker-removal-heading = Παρουσίαση της αφαίρεσης ιχνηλατών email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές.
 whatsnew-feature-tracker-removal-description-2 = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές. Ενεργοποιήστε το στις «Ρυθμίσεις».
 whatsnew-feature-offer-countdown-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη…
@@ -139,6 +135,7 @@ whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
+whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είναι πλέον διαθέσιμο στη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox }
 
 ## Bento Menu
 
