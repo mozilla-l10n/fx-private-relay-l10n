@@ -596,6 +596,7 @@ banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
 banner-ab-premium-promo-advanced-identity-headline = ودھائی سُن٘ڄاݨ حفاظت
+banner-ab-premium-promo-control-receiver-headline = کنٹرول کرو جو تہاݙا اصل نمبر کوݨ گھن سڳدے
 banner-ab-premium-promo-extra-protection-headline = آپݨے انباکس تے فون کیتے وادھوں حفاظت گھنو
 banner-ab-premium-promo-cta = اپ گریڈ
 
