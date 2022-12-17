@@ -17,6 +17,7 @@ logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menú
 nav-home = Inicio
 nav-email-dashboard = Máscaras de correo electrónico
+nav-phone-dashboard = Máscaras de teléfono
 label-open-menu = Abrir menú
 avatar-tooltip = Perfil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -134,6 +135,10 @@ whatsnew-feature-offer-countdown-snippet = Obtén { -brand-name-relay-premium } 
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
 whatsnew-feature-offer-countdown-cta = Actualizar ahora
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ahora está disponible en el administrador de contraseñas de { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Proteger tu correo electrónico ahora es más fácil. Ahora puedes generar…
 
 ## Bento Menu
 
@@ -745,6 +750,7 @@ banner-register-subdomain-button-search = Buscar
 banner-pack-upgrade-headline-2-html = Actualizar a <strong>{ -brand-name-firefox-relay-premium }</strong> para obtener correos enmascarados
 banner-pack-upgrade-copy-2 = Con correos enmascarados personalizados y tu subdominio de correo, { -brand-name-firefox-relay-premium } te ayuda a seguir protegido en línea.
 footer-banner-premium-promo-headine = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger tu teléfono <i>y</i> correo electrónico
+footer-banner-premium-promo-body = Obtén una máscara de número de teléfono, máscaras de correo electrónico ilimitadas y direcciones de correo electrónico personalizados para la creación rápida de máscaras.
 banner-pack-upgrade-cta = Actualizar ahora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
@@ -774,6 +780,7 @@ banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subd
 banner-ab-premium-promo-stop-spam-headline = Detén el spam, las llamadas automáticas y los mensajes de texto no deseados
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te brinda una máscara de teléfono para proteger tu número real — además de máscaras de correo electrónico ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Protección de identidad avanzada
+banner-ab-premium-promo-advanced-identity-body = Evita que los rastreadores y agregadores de datos te identifiquen a través de tu número de teléfono y dirección de correo electrónico.
 banner-ab-premium-promo-control-receiver-headline = Controla quién recibe tu número real
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } te brinda una máscara de teléfono para proteger tu número real, además de máscaras de correo electrónico ilimitadas.
 banner-ab-premium-promo-extra-protection-headline = Obtén protección adicional para tu bandeja de entrada y teléfono
@@ -1084,9 +1091,6 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CCs y BCCs de tus respuestas. Si los vuelves a agregar, tu verdadero correo quedará expuesto.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Actualiza a { $premium_link } para obtener correos enmascarados ilimitados y un subdominio de correo personalizado.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Nuestra oferta de precios mensuales de introducción está por terminar. Actualiza a { $premium_link }.
