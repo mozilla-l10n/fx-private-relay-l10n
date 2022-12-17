@@ -1107,7 +1107,7 @@ forwarded-email-header-from = Táto správa bola preposlaná z adresy { $display
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje polia Kópia a Skrytá kópia z vašich odpovedí. Ak ich znova pridáte, váš skutočný e-mail bude odhalený.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Inovujte na { $premium_link } a získajte neobmedzené množstvo e-mailových masiek a vlastnú e-mailovú subdoménu.
+forwarded-email-header-premium-banner-3 = Inovujte na { $premium_link } a získajte neobmedzené množstvo e-mailových masiek, vlastnú subdoménu a možnosť odpovedať na e-maily.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Platnosť našej uvádzacej mesačnej cenovej ponuky čoskoro vyprší. Inovujte na { $premium_link }.
