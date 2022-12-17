@@ -1101,7 +1101,7 @@ forwarded-email-header-from = Это сообщение было пересла�
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } удаляет копии и скрытые копии из ваших ответов. Если вы добавите их снова, ваш настоящий адрес электронной почты будет раскрыт.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов и собственный поддомен электронной почты.
+forwarded-email-header-premium-banner-3 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов, собственный поддомен и возможность отвечать на электронные письма.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Наше начальное ежемесячное ценовое предложение истекает. Обновитесь до { $premium_link }.
