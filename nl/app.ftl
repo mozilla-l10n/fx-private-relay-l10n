@@ -1098,7 +1098,7 @@ forwarded-email-header-from = Dit bericht is doorgestuurd van { $display_email }
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } verwijdert Cc’s en Bcc’s uit uw antwoorden. Als u ze opnieuw toevoegt, wordt uw echte e-mailadres zichtbaar.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Upgrade naar { $premium_link } om onbeperkte e-mailmaskers en een aangepast e-mailsubdomein te verkrijgen.
+forwarded-email-header-premium-banner-3 = Upgrade naar { $premium_link } om onbeperkte e-mailmaskers, een aangepast e-mailsubdomein en de mogelijkheid om e-mailberichten te beantwoorden te verkrijgen.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Onze maandelijkse introductieprijsaanbieding verloopt. Upgrade naar { $premium_link }.
