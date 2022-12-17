@@ -1094,7 +1094,7 @@ forwarded-email-header-from = Det här meddelandet vidarebefordrades från { $di
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Uppgradera till { $premium_link } för att få obegränsade e-postalias och en anpassad e-postunderdomän.
+forwarded-email-header-premium-banner-3 = Uppgradera till { $premium_link } för att få obegränsade e-postalias, en anpassad underdomän och möjligheten att svara på e-postmeddelanden.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Vårt månatliga erbjudande till introduktionspris upphör. Uppgradera till { $premium_link }.
