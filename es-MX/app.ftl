@@ -139,6 +139,7 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ahora está
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Proteger tu correo electrónico ahora es más fácil. Ahora puedes generar…
+whatsnew-feature-firefox-integration-description = Proteger tu correo electrónico ahora es más fácil. Ahora puedes generar nuevas máscaras de correo electrónico de { -brand-name-relay } desde tu administrador de contraseñas de { -brand-name-firefox } en escritorio.
 
 ## Bento Menu
 
