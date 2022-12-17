@@ -1092,6 +1092,9 @@ vpn-promo-cta = Obtener { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CCs y BCCs de tus respuestas. Si los vuelves a agregar, tu verdadero correo quedará expuesto.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = Actualiza a { $premium_link } para obtener mascaras de correo electrónico ilimitadas, un subdominio personalizado, y la habilidad de responder a los correo electrónicos.
+# Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Nuestra oferta de precios mensuales de introducción está por terminar. Actualiza a { $premium_link }.
 # Variables:
