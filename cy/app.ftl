@@ -1089,7 +1089,7 @@ forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } g
 forwarded-email-header-cc-notice-2 = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Uwchraddiwch i { $premium_link } i gael arallenwau diderfyn ac is-barth e-bost personol.
+forwarded-email-header-premium-banner-3 = Uwchraddiwch i { $premium_link } i gael arallenwau e-bost diderfyn, is-barth personol, a'r gallu i ymateb i e-byst.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Mae ein cynnig prisio misol rhagarweiniol yn dod i ben. Uwchraddiwch i { $premium_link }.
