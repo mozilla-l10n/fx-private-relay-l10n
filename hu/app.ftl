@@ -1094,7 +1094,7 @@ forwarded-email-header-from = Ezt az üzenetet a(z) { $display_email } továbbí
 forwarded-email-header-cc-notice-2 = A { -brand-name-relay-premium } eltávolítja a „Másolatot kap” és „Vakmásolatot kap” mezőket a válaszokból. Ha újra felveszi őket, akkor kikerül a valódi e-mail-címe.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú e-mail-maszkhoz és egy egyéni e-mail-aldomainhez jusson.
+forwarded-email-header-premium-banner-3 = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú e-mail-maszkhoz és egyéni e-mail-aldomainhez jusson, valamint megválaszolhassa a leveleket.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Bevezető havi árajánlatunk lejár. Frissítsen a { $premium_link }ra.
