@@ -19,6 +19,9 @@ whatsnew-feature-bundle-snippet = Actualiza tu suscripción para obtener { -bran
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 whatsnew-feature-bundle-header-2 = ¡Agrega { -brand-name-mozilla-vpn } para obtener { $savings } de descuento!
 whatsnew-feature-bundle-snippet-2 = Obtén un año de { -brand-name-relay-premium } enmascaramiento de teléfono y enmascaramiento de correo electrónico más { -brand-name-mozilla-vpn }…
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+whatsnew-feature-bundle-body-v2 = Obtén un año de { -brand-name-relay-premium } Enmascaramiento de teléfono y enmascaramiento de correo electrónico más { -brand-name-mozilla-vpn } por { $monthly_price }/month.
 whatsnew-feature-bundle-upgrade-cta = Actualizar ahora
 
 ## VPN and Relay Landing Page Bundle Banner
