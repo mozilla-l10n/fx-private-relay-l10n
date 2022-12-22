@@ -1053,7 +1053,7 @@ forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = 升級到 { $premium_link } 即可獲得無限量的轉寄信箱與自訂郵件子網域功能。
+forwarded-email-header-premium-banner-3 = 升級到 { $premium_link } 即可獲得無限量的轉寄信箱、自訂郵件子網域，與透過轉寄信箱回覆郵件的功能。
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = 上市優惠價促銷即將結束。立即升級 { $premium_link }。
