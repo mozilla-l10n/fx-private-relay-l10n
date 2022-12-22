@@ -1083,7 +1083,7 @@ forwarded-email-header-from = Ce message a été transféré depuis { $display_e
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } supprime les destinataires en copie ou en copie cachée de vos réponses. Si vous les ajoutez de nouveau, votre véritable adresse e-mail est exposée.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = Passez à { $premium_link } pour obtenir un nombre illimité d’alias de messagerie et un sous-domaine personnalisé.
+forwarded-email-header-premium-banner-3 = Passez à { $premium_link } pour obtenir un nombre illimité d’alias de messagerie, un sous-domaine de messagerie personnalisé et la possibilité de répondre aux e-mails.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Notre prix promotionnel pour l’arrivée du paiement mensuel expire. Passez à { $premium_link }.
