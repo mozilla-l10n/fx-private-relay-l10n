@@ -29,7 +29,10 @@ whatsnew-feature-bundle-upgrade-cta = Actualizar ahora
 bundle-banner-header = { -brand-name-firefox-relay } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 bundle-banner-subheader = Seguridad, fiabilidad y velocidad — en cada dispositivo, donde quiera que vayas.
 # String below is obsolete
+bundle-banner-body = Navega, transmite, juega y trabaja manteniendo tu privacidad en línea. Ya sea porque estás viajando, usando WiFi público, o simplemente buscando mayor privacidad en línea, siempre le daremos prioridad a tu privacidad.
+# String below is obsolete
 bundle-banner-1-year-plan = Plan de 1 año: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
+bundle-banner-1-year-plan-v2 = Plan de 1 año: <b>{ -brand-name-firefox-relay } Enmascaramiento de correo electrónico y teléfono + { -brand-name-vpn }</b>
 bundle-banner-plan-header = plan de 1 año:
 bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
 bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
