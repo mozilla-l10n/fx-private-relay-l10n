@@ -382,6 +382,7 @@ waitlist-submit-label = تانگھ تندیر نال رلت کرو
 # Variables:
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
+waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
 ## Settings page
