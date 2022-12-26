@@ -247,6 +247,10 @@ landing-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی �
 landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 # Deprecated
 # Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
+# Deprecated
+# Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
@@ -834,9 +838,6 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = کسٹم ای میل سب ڈومین تے بے انت ای میل ماسک گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
 # Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ای میل ٹریکر ہٹ ڳئے
