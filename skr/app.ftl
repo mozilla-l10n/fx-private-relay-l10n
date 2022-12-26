@@ -408,6 +408,7 @@ settings-button-copy = نقل کرݨ کیتے کلک کرو
 setting-api-key-copied = نقل تھی ڳیا!
 setting-api-key-copied-alt = نقل کرݨ کیتے کلک کرو
 setting-tracker-removal-heading = ای میل ٹریکر ہٹاؤ
+setting-tracker-removal-description = فارورڈ تھیاں ساریاں  ای میلاں وچوں ای میل ٹریکر ہٹاؤ۔
 
 ## FAQ Page
 
