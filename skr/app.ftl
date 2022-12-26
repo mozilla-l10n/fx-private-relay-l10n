@@ -421,6 +421,7 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = { -brand-name-relay } ای میل ماسک کیا ہے؟
 faq-question-missing-emails-question-2 = میں آپݨے ای میل ماسکاں  کنوں سنیہے کائنی گھندا پیا
+faq-question-missing-emails-answer-a-2 = کجھ وجوہات ہن جو تہاکوں تہاݙے ماسکاں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
 faq-question-missing-emails-answer-reason-blocked-2 = تہاݙا ای میل فراہم کرݨ آلا تہاݙے ای میل ماسک بلاک کریندا پئے
 faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای میل نال { email-size-limit } کنوں وݙی نتھی ہے
@@ -451,6 +452,7 @@ faq-question-acceptable-use-answer-b-html = سوہݨا، ٻئی ڄاݨکاری �
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
 faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘ویں پتہ لڳدے جو ایہ ای میل پروموشنل ہے یا کائناں؟
 faq-question-disable-trackerremoval-question = بھلا میں ای میل ٹریکر ہٹاوݨ روک سڳداں؟
+faq-question-bulk-trackerremoval-question = بھلا میں آپݨیاں ای میل ماسکاں وچوں صرف کجھ توں ٹریکر ہٹا سڳداں؟
 faq-question-trackerremoval-breakage-question = میݙیاں ای میلاں بھنیاں ترُٹیاں کیوں لڳدن؟
 
 ## Profile Page (Logged In)
