@@ -337,9 +337,14 @@ landing-reviews-add-ons = ایڈ ــ آن
 landing-reviews-logo-title = { -brand-name-firefox-browser }
 # Do not localize addons.mozilla.org
 landing-reviews-details-source = ماخذ: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = 5 ({ $review_count } ریویواں) وچوں
 landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
+landing-review-user-four-review-list-1 = انٹرنیٹ تے سرفنگ نال ذہنی سکون ملدے۔
+landing-review-user-four-review-list-3 = ای میل ڈیٹا { -brand-name-firefox-relay } دے ہتھاں وچ محفوظ ہے۔
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیران کن کم کریندے، ایں کوں ازماؤ!!!
 
 ## Premium promo page
@@ -371,6 +376,7 @@ premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 ## The Premium waitlist page
 
 waitlist-heading = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
+waitlist-lead = اطلاع نامہ گھنو جہڑے ویلے { -brand-name-firefox-relay-premium } تہاݙے علاقے وچ دستیاب ہووے۔
 waitlist-control-required = ضروری ہے
 waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -383,6 +389,7 @@ waitlist-submit-label = تانگھ تندیر نال رلت کرو
 # Variables:
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
+waitlist-privacy-policy-use = تہاݙی معلومات صرف تہاکوں { -brand-name-firefox-relay-premium } دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
@@ -411,6 +418,7 @@ setting-api-key-copied = نقل تھی ڳیا!
 setting-api-key-copied-alt = نقل کرݨ کیتے کلک کرو
 setting-tracker-removal-heading = ای میل ٹریکر ہٹاؤ
 setting-tracker-removal-description = فارورڈ تھیاں ساریاں  ای میلاں وچوں ای میل ٹریکر ہٹاؤ۔
+setting-tracker-removal-note = { -brand-name-firefox-relay } تہاݙے ماسک دے ذریعے فارورڈ تھیاں ای میلاں وچوں عام ٹریکر ہٹا سڳدے۔
 
 ## FAQ Page
 
@@ -846,6 +854,9 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = ساݙی ماہانہ تعارفی قیمت دی پیش کش مکدی پئی ہے۔{ $premium_link } تے اپ گریڈ کرو۔
 # Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ای میل ٹریکر ہٹ ڳئے
