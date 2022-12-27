@@ -390,6 +390,7 @@ waitlist-submit-label = تانگھ تندیر نال رلت کرو
 #  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
 waitlist-privacy-policy-use = تہاݙی معلومات صرف تہاکوں { -brand-name-firefox-relay-premium } دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
+waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک واری تہاݙے علاقے وچ { -brand-name-firefox-relay-premium } دستیاب تھی ون٘ڄے، اساں تہاکوں ای میل کریسوں۔
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
