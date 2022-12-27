@@ -340,6 +340,7 @@ landing-reviews-details-source = ماخذ: addons.mozilla.org
 landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیران کن کم کریندے، ایں کوں ازماؤ!!!
 
 ## Premium promo page
 
