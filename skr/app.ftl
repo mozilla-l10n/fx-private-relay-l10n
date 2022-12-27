@@ -860,5 +860,8 @@ toast-button-close-label = نوٹیفیکیشن بند کرو
 
 ## API error messages
 
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
 api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
