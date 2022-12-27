@@ -523,6 +523,7 @@ profile-stat-label-trackers-removed = ٹریکر ہٹ ڳئے
 profile-filter-search-placeholder-2 = ماسک ڳولو
 profile-filter-category-button-label = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
+profile-filter-no-results = تہاݙے چُݨے ہوئے معیار دے مطابق کوئی ماسک کائنی۔ <clear-button>سارے چھاݨے صاف کرو۔</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = اڳوں تے پٹھݨ آلے ماسک
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
@@ -604,6 +605,8 @@ banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = سپیم، روبو کالاں تے فضول عبارت کوں روکو
 banner-ab-premium-promo-advanced-identity-headline = ودھائی سُن٘ڄاݨ حفاظت
 banner-ab-premium-promo-control-receiver-headline = کنٹرول کرو جو تہاݙا اصل نمبر کوݨ گھن سڳدے
 banner-ab-premium-promo-extra-protection-headline = آپݨے انباکس تے فون کیتے وادھوں حفاظت گھنو
