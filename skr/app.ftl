@@ -420,6 +420,7 @@ settings-button-save-label = محفوظ
 settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = اے پی آئی کنجی
+settings-api-key-description = ایہ تہاݙی { -brand-name-relay } اے پی آئی کنجی ہے۔ ایہ ٻیاں ایپاں کوں ازخود تہاݙے { -brand-name-relay } کھاتے تے رسائی دی اجازت ݙیندی ہے۔
 # This is a label that appears on hover to copy the API key
 settings-button-copy = نقل کرݨ کیتے کلک کرو
 setting-api-key-copied = نقل تھی ڳیا!
@@ -871,6 +872,7 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } BCCs  تے CCs کوں تہاݙے جواباں وچوں ہٹیندی ہے۔ جے تساں انہاں کوں ولدا شامل کریسو تاں تہاݙا اصل ای میل ظاہر تھی ویسی۔
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = ساݙی ماہانہ تعارفی قیمت دی پیش کش مکدی پئی ہے۔{ $premium_link } تے اپ گریڈ کرو۔
