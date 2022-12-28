@@ -352,6 +352,9 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیرا�
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
@@ -610,6 +613,9 @@ banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت ک�
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
 # End of intro pricing countdown banner:
 banner-offer-end-headline = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو  تے اساݙی تعارفی ماہانہ قیمت تے لامحدود ماسکنگ دا لطف چاوو۔
 banner-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 # $subdomain (url) - User-set subdomain
