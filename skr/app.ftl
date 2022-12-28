@@ -343,6 +343,7 @@ landing-reviews-rating = 5 ({ $review_count } ریویواں) وچوں
 landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
+landing-review-user-two-review = آپݨی ای میل آئی ڈی سپیم کنوں بچاوݨ یا چُھٹکارا گِھنّݨ دا سادہ اوزار
 landing-review-user-four-review-list-1 = انٹرنیٹ تے سرفنگ نال ذہنی سکون ملدے۔
 landing-review-user-four-review-list-3 = ای میل ڈیٹا { -brand-name-firefox-relay } دے ہتھاں وچ محفوظ ہے۔
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیران کن کم کریندے، ایں کوں ازماؤ!!!
@@ -375,6 +376,9 @@ premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 premium-promo-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
 premium-promo-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
 premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 
 ## The Premium waitlist page
 
@@ -525,6 +529,8 @@ profile-label-cancel = منسوخ
 profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
+profile-forwarded-note-copy = { email-size-limit } کنوں وݙیاں (بشمول نتھیاں) ای میل حالیہ سہارا تھیاں کائنی تے فارورڈ کائناں تھیسن۔
+profile-forwarded-note-copy-v2 = { email-size-limit } کنوں وݙی (بشمول نتھیاں) ای میل فارورڈ کائناں تھیسی۔
 profile-stat-learn-more = ٻیا سِکھو
 profile-stat-learn-more-close = بند کرو
 profile-stat-label-blocked = بلاک تھیاں ای میلاں
@@ -599,6 +605,7 @@ banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ڳولو
 banner-pack-upgrade-headline-2-html = ٻئے ای میل ماسک گھنݨ کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> تے اپ گریڈ کرو
+footer-banner-premium-promo-headine = آپݨے فون <i>تے</i> ای میل حفاظت کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> اپ گریڈ کرو
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
