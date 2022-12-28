@@ -652,6 +652,9 @@ error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙ�
 error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
 error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = ذیلی ڈومین  @{ $unavailable_subdomain } دستیاب کائنی۔ سوہݨا، کوئی ہک ٻئی ازماؤ۔
 error-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ کرݨ وچ خرابی ہائی، سوہݨا، ولدا کوشش کرو
 error-mask-create-failed = ماسک تخلیق کائنی تھی سڳیا۔ سوہݨا، ولدا کوشش کرو۔
 # This currently appears when a mask label could not be updated,
