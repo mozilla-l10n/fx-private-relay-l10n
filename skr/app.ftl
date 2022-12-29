@@ -480,6 +480,7 @@ faq-question-trackerremoval-breakage-question = میݙیاں ای میلاں ب�
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
+profile-supports-email-forwarding = سائز وچ { email-size-limit } تائیں ای میل (نتھیاں سمیت) اڳوں تے پٹھݨ وچ { -brand-name-firefox-relay } سپورٹ کریندے۔
 profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
 profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-details-expand = ماسک تفصیلاں ݙکھاؤ
