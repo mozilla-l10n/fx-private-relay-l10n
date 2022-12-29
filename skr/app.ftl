@@ -321,6 +321,7 @@ landing-use-cases-on-the-go-lead = کہیں وی جاء تے  یا ہر ہک ج�
 landing-use-cases-on-the-go-connect-heading = گو نال کنکٹ تھیوو
 landing-use-cases-on-the-go-connect-body = جئے ویلے تساں آپݨی پسندیدہ کافی دی دکان یا عوامی وائی فائی تے ذاتی طور تے سائن ان تھیو تاں اپݨی ای میل ماسک دا استعمال کرو
 landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
+landing-use-cases-on-the-go-receipt-body = آپݨاں اصلی ناں شیئر کیتے بغیر ان سٹور خریداری رسیداں کیتے مخصوص ای میل ماسک شیئر کرو
 landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
 landing-use-cases-signups = سائن اپس
@@ -421,6 +422,7 @@ settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیب
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = اے پی آئی کنجی
 settings-api-key-description = ایہ تہاݙی { -brand-name-relay } اے پی آئی کنجی ہے۔ ایہ ٻیاں ایپاں کوں ازخود تہاݙے { -brand-name-relay } کھاتے تے رسائی دی اجازت ݙیندی ہے۔
+settings-api-key-description-bolded = ایں کوں صرف انہاں ایپاں نال ورتو جنہاں تے تہاکوں آپݨے{ -brand-name-relay } کھاتے تے رسائی دا بھروسہ ہے۔
 # This is a label that appears on hover to copy the API key
 settings-button-copy = نقل کرݨ کیتے کلک کرو
 setting-api-key-copied = نقل تھی ڳیا!
