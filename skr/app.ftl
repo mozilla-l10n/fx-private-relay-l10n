@@ -714,6 +714,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 
 onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
+onboarding-alias-tip-2 = { -brand-name-relay } ایکسٹنشن ورتݨ نال { -brand-name-firefox-relay } آئیکان چݨو جہڑے ویلے ایہ ای میل خانے وچ ظاہر تھیوے۔
 
 ## Premium Onboarding
 
@@ -785,6 +786,7 @@ trackerreport-trackers-explainer-heading = ای میل ٹریکراں دا تع�
 trackerreport-faq-heading = ای میل ٹریکراں بارے اہم سوالات
 trackerreport-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 trackerreport-loading = تہاݙے ٹریکر ہݨاوݨ دی رپورٹ لوڈ تھیندی پئی ہے۔۔۔
+trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرݨ کیتے ورقہ ریفریش کرو۔
 
 ## Modals
 
@@ -894,6 +896,7 @@ toast-button-close-label = نوٹیفیکیشن بند کرو
 
 ## API error messages
 
+api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
