@@ -487,13 +487,17 @@ settings-error-save-heading = Settings change failed
 settings-error-save-description = Your changes to settings were not saved due to a connection error. Please try again.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Email mask label function is disabled
+settings-warning-collection-off-heading-3 = Your email mask account names are turned off
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email masks. You can change this in “Settings” under “Data Collection.”
+settings-warning-collection-off-description-3 = { -brand-name-relay } is not currently allowed to label your email masks with the websites where you’ve used them. To change this, enable account names for email maks under “Privacy.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description-2 = Allow { -brand-name-relay } to collect data showing the sites on which your masks are created and used.
+setting-label-collection-description-3 = Enable account names for email masks
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = This data will allow us to label your email masks with the websites where they’re used. If you decide to opt out from this preference, your masks will not be labeled with the websites where they’re used.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } will store the websites where you’ve used your email masks, and label your masks with those websites so you can easily identify them. Turning this off means you won’t be able to see where you’ve used each mask, and your account names will no longer sync between devices.
 settings-button-save-label = Save
 settings-button-save-tooltip = Apply your chosen settings.
 # This is a read-only input where a user can copy their API key to their clipboard
