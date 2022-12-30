@@ -623,6 +623,9 @@ banner-label-data-notification-header-v2 = نویاں خصوصیات فعال ک
 banner-label-data-notification-body-cta = ٻیا سِکھو
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = ہک بہتر انٹرنیٹ اسارݨ کیتے ساݙے مشن وچ شامل تھیندے ہوئے آپݨی رازداری دی حفاظت کرو، سب کجھ { $monthly_price } وچ
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
 # End of intro pricing countdown banner:
 banner-offer-end-headline = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
