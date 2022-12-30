@@ -638,9 +638,12 @@ banner-offer-end-cta = ہݨ اپ گریڈ کرو
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = سپیم، روبو کالاں تے فضول عبارت کوں روکو
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } تہاݙے اصل نمبر دے حفاظت کیتے تہاکوں فون ماسک — تے بے انت ای میل ماسکاں ݙیندے۔
 banner-ab-premium-promo-advanced-identity-headline = ودھائی سُن٘ڄاݨ حفاظت
 banner-ab-premium-promo-control-receiver-headline = کنٹرول کرو جو تہاݙا اصل نمبر کوݨ گھن سڳدے
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } تہاݙے اصل نمبر دے حفاظت کیتے تہاکوں فون ماسک — تے بے انت ای میل ماسکاں ݙیندے۔
 banner-ab-premium-promo-extra-protection-headline = آپݨے انباکس تے فون کیتے وادھوں حفاظت گھنو
+banner-ab-premium-promo-extra-protection-body = بے انت ای میل ماسکاں — تے آپݨے اصل نمبر گھنݨ آلیاں کوں کنٹرول کرݨ کیتے ہک فون ماسک گھنو۔
 banner-ab-premium-promo-cta = اپ گریڈ
 
 ## Success Messages
