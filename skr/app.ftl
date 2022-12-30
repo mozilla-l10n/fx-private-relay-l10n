@@ -726,6 +726,7 @@ tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
 onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
 onboarding-alias-tip-2 = { -brand-name-relay } ایکسٹنشن ورتݨ نال { -brand-name-firefox-relay } آئیکان چݨو جہڑے ویلے ایہ ای میل خانے وچ ظاہر تھیوے۔
+onboarding-alias-tip-3-2 = { -brand-name-relay } ایکسٹنشن ورتیندے ہوئے،  فارم خانے وچ " نواں ماسک جنریٹ کرو" تے سڄا کلک کرو۔
 
 ## Premium Onboarding
 
