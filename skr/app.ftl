@@ -611,6 +611,7 @@ banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
 banner-register-subdomain-button-search = ڳولو
 banner-pack-upgrade-headline-2-html = ٻئے ای میل ماسک گھنݨ کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> تے اپ گریڈ کرو
 footer-banner-premium-promo-headine = آپݨے فون <i>تے</i> ای میل حفاظت کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> اپ گریڈ کرو
+footer-banner-premium-promo-body = فوری ماسک تخیلق کرݨ کیتے مخصوص ای میل پتے، بے انت ای میل ماسکاں تے فون نمبر ماسک گھنو۔
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
@@ -880,8 +881,14 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } گھنو
 forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } BCCs  تے CCs کوں تہاݙے جواباں وچوں ہٹیندی ہے۔ جے تساں انہاں کوں ولدا شامل کریسو تاں تہاݙا اصل ای میل ظاہر تھی ویسی۔
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = بے انت ای میل ماسک، مخصوص  سب ڈومین تے ای میلاں کوں جواب ݙیوݨ دی صلاحیت گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
+# Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = ساݙی ماہانہ تعارفی قیمت دی پیش کش مکدی پئی ہے۔{ $premium_link } تے اپ گریڈ کرو۔
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = سائز وچ { email-size-limit } تائیں ای میل (نتھیاں سمیت) اڳوں تے پٹھݨ وچ { -brand-name-firefox-relay } سپورٹ کریندے۔ ٻیا سکھݨ کیتے ساݙے { $faq_link } دی پڑتال کرو۔
 # Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ای میل ٹریکر ہٹ ڳئے
