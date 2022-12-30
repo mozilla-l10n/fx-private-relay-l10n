@@ -345,6 +345,7 @@ landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
 landing-review-user-two-review = آپݨی ای میل آئی ڈی سپیم کنوں بچاوݨ یا چُھٹکارا گِھنّݨ دا سادہ اوزار
+landing-review-user-three-review = ایں ایکسٹنشن نال پیار کرو! ڈاڈھی سوکھی پر تکڑی ہے تے براؤزر نال شاندار یکجا ہے۔
 landing-review-user-four-review-list-1 = انٹرنیٹ تے سرفنگ نال ذہنی سکون ملدے۔
 landing-review-user-four-review-list-3 = ای میل ڈیٹا { -brand-name-firefox-relay } دے ہتھاں وچ محفوظ ہے۔
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیران کن کم کریندے، ایں کوں ازماؤ!!!
