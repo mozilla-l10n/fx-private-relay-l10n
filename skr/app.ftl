@@ -121,9 +121,9 @@ whatsnew-feature-premium-expansion-description = ہݨ اپ گریڈ کرو  تے
 whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-tracker-removal-snippet = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں آڳو بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے…
+whatsnew-feature-tracker-removal-snippet = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے…
 # Deprecated
-whatsnew-feature-tracker-removal-description = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں آڳو بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے، تہاکوں مشہوری کرݨ آلے لوگاں تو لکاوݨ سانگو۔
+whatsnew-feature-tracker-removal-description = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے، تہاکوں مشہوری کرݨ آلے لوگاں تو لکاوݨ سانگے۔
 whatsnew-feature-tracker-removal-description-2 = ہݨ { -brand-name-relay } تہاکوں بھیڄے ڳئے ای میلز کنوں عام ای میل ٹریکرز کوں ہٹا سڳدا ہے، جیندے نال تہاکوں اشتہار ݙیوݨ والیاں کنوں لُکت اِچ رہݨ وِچ مدد ملدی ہے۔ اینکوں "ترتیب" وِچ آن کرو۔
 whatsnew-feature-offer-countdown-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
@@ -530,7 +530,7 @@ profile-label-forwarded = اڳوں تے پٹھ ݙتا
 profile-label-replies = جواب
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = ٹریکر ہٹ ڳئے
-profile-trackers-removed-tooltip-part1 = ٹریکر ہٹاوݨ کوں فعال کرݨ نال تہاݙیاں فارورڈ ای میلاں وچوں عام ای میل ٹریکر وی ہٹا ݙتے ویسن۔
+profile-trackers-removed-tooltip-part1 = ٹریکر ہٹاوݨ کوں فعال کرݨ نال تہاݙیاں فارورڈتھیاں ای میلاں وچوں عام ای میل ٹریکر وی ہٹا ݙتے ویسن۔
 profile-label-cancel = منسوخ
 profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے بلاک کرݨ چُݨسو تاں تہاݙے ابناکس وچ ون٘ڄݨ کنوں پہلے{ -brand-name-firefox-relay } سنیہے مٹاݙیسی۔
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
@@ -544,6 +544,7 @@ profile-stat-label-forwarded = اڳوں تے پٹھیاں ای میلاں
 profile-stat-label-aliases-used-2 = ورتیل ای میل ماسک
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = ٹریکر ہٹ ڳئے
+profile-stat-label-trackers-learn-more-part1 = ٹریکر ہٹاوݨ کوں فعال کرݨ  تہاݙیاں فارورڈتھیاں ای میلاں وچوں عام ای میل ٹریکر وی ہٹا ݙیسی۔
 profile-filter-search-placeholder-2 = ماسک ڳولو
 profile-filter-category-button-label = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
