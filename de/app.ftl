@@ -1115,6 +1115,19 @@ forwarded-email-footer-premium-banner = Mache das Upgrade auf { -brand-name-rela
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Machen Sie das Upgrade auf { $premium_link }, solange unsere Einführungspreise noch gelten.
 
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Wir haben diese Antwort an { $sender } gesendet. Aber ab sofort werden Ihre Antworten nicht mehr gesendet.
+replies-only-available-with-premium = Das Antworten auf weitergeleitete E-Mails von Ihrer maskierten E-Mail-Adresse ist nur mit { -brand-name-firefox-relay-premium } verfügbar.
+replies-not-included-in-free-account-header = Antworten sind in Ihrem kostenlosen Konto nicht enthalten
+reply-not-sent-header = Ihre Antwort wurde nicht gesendet
+upgrade-to-reply-to-future-emails = Führen Sie jetzt ein Upgrade durch, um Antworten zu senden
+upgrade-for-more-protection = Holen Sie sich das Upgrade mit noch mehr Schutz
+upgrade-to-premium = Machen Sie das Upgrade auf { -brand-name-firefox-relay-premium }
+manage-your-masks = Ihre Masken verwalten
+
 ## Notifications component
 
 toast-button-close-label = Benachrichtigung schließen
