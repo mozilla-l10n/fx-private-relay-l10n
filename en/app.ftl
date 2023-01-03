@@ -490,7 +490,7 @@ settings-warning-collection-off-heading-2 = Email mask label function is disable
 settings-warning-collection-off-heading-3 = Your email mask account names are turned off
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } is not currently allowed to collect the data showing the sites where you’ve generated and used email masks. You can change this in “Settings” under “Data Collection.”
-settings-warning-collection-off-description-3 = { -brand-name-relay } is not currently allowed to label your email masks with the websites where you’ve used them. To change this, enable account names for email maks under “Privacy.”
+settings-warning-collection-off-description-3 = { -brand-name-relay } is not currently allowed to label your email masks with the websites where you’ve used them. To change this, enable account names for email masks under “Privacy.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description-2 = Allow { -brand-name-relay } to collect data showing the sites on which your masks are created and used.
