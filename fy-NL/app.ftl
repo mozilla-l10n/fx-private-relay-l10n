@@ -570,6 +570,7 @@ faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailmaskers, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } sammelet de websites wêr’t jo jo e-mailmaskers brûkt hawwe en labelet jo maskers mei dy websites, sadat jo se maklik identifisearje kinne. Jo kinne jo hjirfoar ôfmelde op jo side Ynstellingen, ûnder Privacy. Hâld der echter rekkening mei dat, as jo dy ynstelling útskeakelje, jo net sjen kinne wêr’t jo elk masker brûkt hawwe en dat jo accountnammen net langer tusken apparaten syngronisearre wurde. Jo fine mear ynformaasje oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>.
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
 faq-question-acceptable-use-question = Wat binne de akseptabele tapassingen fan { -brand-name-relay }?
@@ -1125,6 +1126,16 @@ forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Wy hawwe dit antwurd nei { $sender } stjoerd. Yn de takomst wurde jo antwurden echter net ferstjoerd.
+replies-only-available-with-premium = It beäntwurdzjen fan trochstjoerde e-mailberjochten fan jo maskearre e-mailadres is allinnich beskikber by { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Antwurden binne net ynbegrepen by jo fergese account
+reply-not-sent-header = Jo antwurd is net ferstjoerd
+upgrade-to-reply-to-future-emails = Wurdearje no op om antwurden te ferstjoeren
+upgrade-for-more-protection = Wurdearje op foar mear beskerming
+upgrade-to-premium = Opwurdearje nei { -brand-name-firefox-relay-premium }
+manage-your-masks = Jo maskers beheare
 
 ## Notifications component
 
