@@ -485,6 +485,7 @@ setting-label-collection-description-2 = Engedélyezés a { -brand-name-relay } 
 setting-label-collection-description-3 = Fióknevek engedélyezése az e-mail-maszkokhoz
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Ezek az adatok lehetővé teszik számunkra, hogy felcímkézzük az e-mail-maszkjait azokkal a webhelyekkel, ahol azokat használja. Ha úgy dönt, hogy leiratkozik erről a beállításról, akkor a maszkok nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
+setting-label-collection-off-warning-3 = A { -brand-name-firefox-relay } eltárolja azokat a weboldalakat, ahol az e-mail-maszkokat használta, és a maszkokat felcímkézi ezekkel a weboldalakkal, hogy könnyen azonosítani tudja őket. Ha ezt kikapcsolja, akkor nem láthatja, hogy hol használta az egyes maszkokat, és a fióknevek nem lesznek többé szinkronizálva az eszközök között.
 settings-button-save-label = Mentés
 settings-button-save-tooltip = A kiválasztott beállítások alkalmazása.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -563,6 +564,7 @@ faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkból</a>. Nem kötelező, de megoszthatja az adatait az e-mail-maszkokhoz használt címkéiről és a webhelyekről, hogy biztosíthassuk azt a szolgáltatást és továbbfejleszthessük azt.
+faq-question-8-answer-3-html = A Relay összegyűjti azokat a weboldalakat, amelyeken az e-mail maszkokat használta, és a maszkokat felcímkézi ezekkel a weboldalakkal, hogy könnyen azonosítani tudja őket. Ezt a Beállítások oldalon, az Adatvédelem menüpont alatt tilthatja le. De vegye figyelembe, hogy ha kikapcsolja ezt a beállítást, akkor nem láthatja, hogy hol használta az egyes maszkokat, és a fióknevek nem lesznek többé szinkronizálva az eszközök között. Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkban</a>.
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
 faq-question-email-storage-answer = Abban a ritka esetben, amikor a szolgáltatás nem működik, ideiglenesen tárolhatjuk az e-maileket, amíg el nem tudjuk küldeni azokat. Soha nem tároljuk az e-maileket három napnál hosszabb ideig.
 faq-question-acceptable-use-question = Mik a { -brand-name-relay } elfogadható felhasználási területei?
@@ -1118,6 +1120,16 @@ forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }r
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Elküldtük ezt a választ a(z) { $sender } címre. De a továbbiakban a válaszok nem lesznek elküldve.
+replies-only-available-with-premium = A maszkolt e-mail-címekről továbbított levelekre történő válasz csak a { -brand-name-firefox-relay-premium } használatával érhető el.
+replies-not-included-in-free-account-header = Az ingyenes fiók nem tartalmazza a válaszokat
+reply-not-sent-header = A válasza nem lett elküldve
+upgrade-to-reply-to-future-emails = Frissítsen most a válaszok küldéséhez
+upgrade-for-more-protection = Frissítsen a nagyobb védelem érdekében
+upgrade-to-premium = Frissítés a { -brand-name-firefox-relay-premium }ra
+manage-your-masks = Saját maszkok kezelése
 
 ## Notifications component
 
