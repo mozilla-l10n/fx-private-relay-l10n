@@ -614,6 +614,7 @@ banner-choose-subdomain-input-placeholder-3 = سب ڈومین ڳولو
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ڳولو
 banner-pack-upgrade-headline-2-html = ٻئے ای میل ماسک گھنݨ کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> تے اپ گریڈ کرو
+banner-pack-upgrade-copy-2 = بے انت ای میل ماسکاں تے تہاݙی آپݨی ای میل سب ڈومین نال، آن لائن حفاظت وچ رہوݨ وچ { -brand-name-firefox-relay-premium } تہاݙی مدد کریندے۔
 footer-banner-premium-promo-headine = آپݨے فون <i>تے</i> ای میل حفاظت کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> اپ گریڈ کرو
 footer-banner-premium-promo-body = فوری ماسک تخیلق کرݨ کیتے مخصوص ای میل پتے، بے انت ای میل ماسکاں تے فون نمبر ماسک گھنو۔
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
