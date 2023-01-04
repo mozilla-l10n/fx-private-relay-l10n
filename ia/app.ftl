@@ -471,6 +471,7 @@ settings-error-save-heading = Cambio de parametros fallite
 settings-error-save-description = Tu cambiamentos al parametros non ha essite salvate per un error de connexion. Retenta.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Le function etiquetta del mascas email es disactivate
+settings-warning-collection-off-heading-3 = Le nomines de tu conto pro mascas email es disactivate
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate mascas email. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
