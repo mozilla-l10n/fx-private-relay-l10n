@@ -1127,6 +1127,13 @@ forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } v
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We hebben dit antwoord naar { $sender } gestuurd. In de toekomst worden uw antwoorden echter niet verzonden.
+replies-only-available-with-premium = Het beantwoorden van doorgestuurde e-mailberichten vanuit uw gemaskeerde e-mailadres is alleen beschikbaar bij { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Antwoorden zijn niet inbegrepen bij uw gratis account
+reply-not-sent-header = Uw antwoord is niet verzonden
+upgrade-to-reply-to-future-emails = Upgrade nu om antwoorden te verzenden
+upgrade-for-more-protection = Upgrade voor meer bescherming
+upgrade-to-premium = Upgraden naar { -brand-name-firefox-relay-premium }
+manage-your-masks = Uw maskers beheren
 
 ## Notifications component
 
