@@ -484,11 +484,14 @@ settings-warning-collection-off-heading-2 = Mae swyddogaeth label e-bost arallen
 settings-warning-collection-off-heading-3 = Mae enwau eich cyfrif arallenw e-bost wedi'u diffodd
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio e-bust arallenwau. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
+settings-warning-collection-off-description-3 = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } labelu eich arallenwau e-bost gyda'r gwefannau rydych wedi'u defnyddio. I newid hyn, galluogwch enwau cyfrifon ar gyfer arallenwau e-bost o dan “Preifatrwydd.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Preifatrwydd
 setting-label-collection-description-2 = Caniatáu i { -brand-name-relay } gasglu data sy'n dangos y gwefannau y mae eich e-byst arallenwau'n cael eu creu a'u defnyddio.
+setting-label-collection-description-3 = Galluogi enwau cyfrifon ar gyfer arallenwau e-bost
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Bydd y data hwn yn caniatáu i ni labelu'ch e-byst arallenwau â'r gwefannau lle maen nhw'n cael eu defnyddio. Os penderfynwch eithrio o'r dewis hwn, ni fydd eich e-byst arallenwau'n cael eu labelu gyda'r gwefannau lle maen nhw'n cael eu defnyddio.
+setting-label-collection-off-warning-3 = Bydd { -brand-name-firefox-relay } yn cadw’r gwefannau lle rydych wedi defnyddio’ch arallenwau e-bost, ac yn labelu’ch arallenwau gyda’r gwefannau hynny fel y gallwch eu hadnabod yn hawdd. Mae diffodd hwn yn golygu na fyddwch yn gallu gweld ble rydych chi wedi defnyddio pob arallenw, ac ni fydd enwau eich cyfrif yn cyweddu rhwng dyfeisiau bellach.
 settings-button-save-label = Cadw
 settings-button-save-tooltip = Gosod y gosodiadau o'ch dewis.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -567,6 +570,7 @@ faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasgl
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
+faq-question-8-answer-3-html = Mae { -brand-name-firefox-relay } yn casglu'r gwefannau lle rydych chi wedi defnyddio'ch arallenwau e-bost, ac yn labelu'ch arallenwau gyda'r gwefannau hynny fel y gallwch chi eu hadnabod yn hawdd. Gallwch newid hyn ar eich tudalen Gosodiadau, o dan Preifatrwydd. Ond sylwch, mae diffodd y gosodiad hwn yn golygu na fyddwch chi'n gallu gweld lle rydych chi wedi defnyddio pob arallenw, ac ni fydd enwau eich cyfrif yn cydweddu rhwng dyfeisiau bellach. Gallwch ddysgu ragor am y data y mae { -brand-name-firefox-relay } yn ei gasglu yn ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd</a>.
 faq-question-email-storage-question = A yw { -brand-name-relay } yn cadw fy e-byst?
 faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth wedi torri, byddwn efallai'n cadw eich e-byst dros dro nes ein bod yn gallu eu hanfon. Byddwn ni byth yn cadw'ch e-byst am fwy na thridiau.
 faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-name-relay }?
@@ -1111,6 +1115,16 @@ forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link }
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Rydym wedi anfon yr ateb hwn at { $sender }. Ond yn y dyfodol, ni fydd eich atebion yn cael eu hanfon.
+replies-only-available-with-premium = Dim ond gyda { -brand-name-firefox-relay-premium } y mae ateb i e-byst a anfonwyd ymlaen o'ch arallenwau e-bost ar gael.
+replies-not-included-in-free-account-header = Nid yw atebion wedi'u cynnwys gyda'ch cyfrif rhad ac am ddim
+reply-not-sent-header = Nid yw eich ateb wedi'i anfon
+upgrade-to-reply-to-future-emails = Uwchraddiwch nawr i anfon atebion
+upgrade-for-more-protection = Uwchraddiwch i gael mwy o ddiogelwch
+upgrade-to-premium = Uwchraddiwch i { -brand-name-firefox-relay-premium }
+manage-your-masks = Rheoli eich arallenwau
 
 ## Notifications component
 
