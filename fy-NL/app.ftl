@@ -481,13 +481,17 @@ settings-error-save-heading = Wiziging ynstellingen mislearre
 settings-error-save-description = Jo ynstellingswizigingen binne net bewarre fanwegen in ferbiningsflater. Probearje it opnij.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Labelfunksje foar e-mailmaskers is útskeakele
+settings-warning-collection-off-heading-3 = Jo accountnammen foar e-mailmaskers binne útskeakele
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } mei op dit stuit  gjin gegevens sammelje oer de websites wêr’t jo e-mailmaskers oanmakke hawwe en brûke. Jo kinne dit yn ‘Ynstellingen’ wizigje ûnder ‘Gegevenssamling’.
+settings-warning-collection-off-description-3 = { -brand-name-relay } mei op dit stuit jo e-mailmaskers net labelje mei de websites dêr’t jo se brûkt hawwe. Skeakelje ûnder ‘Privacy’ accountnammen foar e-mailmaskers yn om dit te wizigjen.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description-2 = { -brand-name-relay } tastean om gegevens te sammeljen oer de websites wêrop jo maskers oanmakke en brûkt binne.
+setting-label-collection-description-3 = Accountnamen foar e-mailmaskers ynskeakelje
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Mei dizze gegevens kinne wy jo maskers labelje mei de relevante websites wêr’t se brûkt wurde. As jo beslute dizze foarkar út te skeakeljen, wurde jo maskers net labele mei de websites wêr’t se brûkt wurde.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } bewarret de websites wêr’t jo jo e-mailmaskers brûkt hawwe en labelet jo maskers mei dy websites, sadat jo se maklik identifisearje kinne. As jo dit útskeakelje, kinne jo net sjen wêr’t jo elk masker brûkt hawwe en wurde jo accountnammen net mear tusken apparaten syngronisearre.
 settings-button-save-label = Bewarje
 settings-button-save-tooltip = Jo keazen ynstellingen tapasse.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -1118,6 +1122,9 @@ forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-prem
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link } eardat ús yntroduksjepriis ferrint.
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
