@@ -910,6 +910,11 @@ forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت ختم تھیوݨ توں پہلے { $premium_link } وچ اپ گریڈ تھی ونجو۔
 
+## Email sent to free users who try to reply
+
+replies-not-included-in-free-account-header = تہاݙے مفت کھاتے وچ جواب شامل کائنی
+reply-not-sent-header = تہاݙا جواب کاعنی بھیڄا ڳیا
+
 ## Notifications component
 
 toast-button-close-label = نوٹیفیکیشن بند کرو
