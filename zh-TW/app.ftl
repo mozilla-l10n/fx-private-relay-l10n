@@ -449,11 +449,13 @@ settings-error-save-heading = 設定變更失敗
 settings-error-save-description = 由於連線錯誤，並未儲存您的設定變更，請再試一次。
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = 已停用轉寄信箱標籤功能
+settings-warning-collection-off-heading-3 = 您的轉寄信箱帳號名稱已關閉
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } 目前並未被允許收集您用來產生與使用過轉寄信箱的網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隱私權
 setting-label-collection-description-2 = 允許 { -brand-name-relay } 收集資料，用來顯示轉寄信箱是用於哪些網站的。
+setting-label-collection-description-3 = 啟用轉寄信箱的帳號名稱
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = 此資料讓我們能將您產生的轉寄信箱與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些轉寄信箱被用於哪些網站。
 settings-button-save-label = 儲存
@@ -1071,6 +1073,19 @@ forwarded-email-footer-premium-banner = 升級到 { -brand-name-relay-premium }
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束前升級 { $premium_link }。
+
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = 我們已傳送這封回覆給 { $sender }，但接下來將不會再傳送回覆。
+replies-only-available-with-premium = 僅有 { -brand-name-firefox-relay-premium } 才可以透過轉寄信箱傳送回覆。
+replies-not-included-in-free-account-header = 免費帳戶不含信件回覆功能
+reply-not-sent-header = 並未寄出您的回覆
+upgrade-to-reply-to-future-emails = 現在升級，即可傳送回覆
+upgrade-for-more-protection = 升級後即可獲得更多保護
+upgrade-to-premium = 升級到 { -brand-name-firefox-relay-premium }
+manage-your-masks = 管理您的轉寄信箱
 
 ## Notifications component
 
