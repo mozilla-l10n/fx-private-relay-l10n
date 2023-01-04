@@ -478,9 +478,11 @@ settings-warning-collection-off-heading-2 = Az e-mail-maszkcímke funkció ki va
 settings-warning-collection-off-heading-3 = Az e-mail-maszkok fióknevei ki vannak kapcsolva
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail-maszkokat állított elő és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
+settings-warning-collection-off-description-3 = A { -brand-name-relay } jelenleg nem címkézheti meg az e-mail-maszkokat azokkal a webhelyekkel, ahol azokat használta. Ennek megváltoztatásához engedélyezze a fiókneveket az e-mail-maszkokhoz az „Adatvédelem” részben.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Adatvédelem
 setting-label-collection-description-2 = Engedélyezés a { -brand-name-relay } számára, hogy adatokat gyűjtsön azokról a webhelyekről, amelyeken a maszkokat létrehozta és használja.
+setting-label-collection-description-3 = Fióknevek engedélyezése az e-mail-maszkokhoz
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Ezek az adatok lehetővé teszik számunkra, hogy felcímkézzük az e-mail-maszkjait azokkal a webhelyekkel, ahol azokat használja. Ha úgy dönt, hogy leiratkozik erről a beállításról, akkor a maszkok nem lesznek megjelölve azon webhelyekkel, ahol használja őket.
 settings-button-save-label = Mentés
