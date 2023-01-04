@@ -1104,9 +1104,14 @@ forwarded-email-footer-offer-countdown-banner = Passez à { $premium_link } avan
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Nous avons envoyé cette réponse à { $sender }. Mais à l’avenir, vos réponses ne seront pas envoyées.
 replies-only-available-with-premium = Répondre aux e-mails transférés à partir de votre alias de messagerie n’est possible qu’avec { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Les réponses ne sont pas incluses avec votre compte gratuit
 reply-not-sent-header = Votre réponse n’a pas été envoyée
+upgrade-to-premium = Passer à { -brand-name-firefox-relay-premium }
+manage-your-masks = Gérer vos alias de messagerie
 
 ## Notifications component
 
