@@ -1109,6 +1109,10 @@ forwarded-email-footer-premium-banner = Promover a { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante que nostre precio introductive expira.
 
+## Email sent to free users who try to reply
+
+manage-your-masks = Gere tu mascas
+
 ## Notifications component
 
 toast-button-close-label = Clauder notification
