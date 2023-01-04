@@ -1102,6 +1102,12 @@ forwarded-email-footer-premium-banner = Passez à { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Passez à { $premium_link } avant que notre prix de lancement n’expire.
 
+## Email sent to free users who try to reply
+
+replies-only-available-with-premium = Répondre aux e-mails transférés à partir de votre alias de messagerie n’est possible qu’avec { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Les réponses ne sont pas incluses avec votre compte gratuit
+reply-not-sent-header = Votre réponse n’a pas été envoyée
+
 ## Notifications component
 
 toast-button-close-label = Fermer la notification
