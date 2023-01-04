@@ -416,8 +416,10 @@ settings-error-save-heading = ترتیباں تبدیلی وچ ناکامی تھ
 settings-error-save-description = کنکشن خرابی پاروں ترتیباں وچ تہاݙیاں تبدیلیاں محفوظ کائنی تھیاں۔ سوہݨا، ولدا کوشش کرو۔
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = ای میل ماسک لیبل عمل غیرفعال تھی ڳیا
+settings-warning-collection-off-heading-3 = تہاݙے ای میل ماسک کھاتہ ناں بند تھئی ڳئے ہن
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
+setting-label-collection-description-3 = ای میل ماسکاں کیتے کھاتہ ناں فعال کرو
 settings-button-save-label = محفوظ
 settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔
 # This is a read-only input where a user can copy their API key to their clipboard
