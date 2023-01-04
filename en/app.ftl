@@ -478,8 +478,6 @@ waitlist-submit-label = Join the Waitlist
 waitlist-submit-label-2 = Join the waitlist
 # Deprecated
 waitlist-privacy-policy-agree = By clicking “{ waitlist-submit-label }”, you agree to our <a>Privacy Policy</a>.
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
 waitlist-privacy-policy-agree-2 = By clicking “{ waitlist-submit-label-2 }”, you agree to our <a>Privacy Policy</a>.
 waitlist-privacy-policy-use = Your information will only be used to notify you about { -brand-name-firefox-relay-premium } availability.
 waitlist-privacy-policy-use-phone = Your information will only be used to notify you when phone masking is available in your area.
