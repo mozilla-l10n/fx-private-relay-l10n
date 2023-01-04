@@ -481,6 +481,7 @@ settings-error-save-heading = Methodd newid y gosodiadau
 settings-error-save-description = Nid yw eich newidiadau i'r gosodiadau wedi eu cadw oherwydd gwall cysylltiad. Ceisiwch eto, os gwelwch yn dda.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Mae swyddogaeth label e-bost arallenw wedi'i analluogi
+settings-warning-collection-off-heading-3 = Mae enwau eich cyfrif arallenw e-bost wedi'u diffodd
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Ar hyn o bryd nid oes caniatâd i { -brand-name-relay } gasglu'r data sy'n dangos y gwefannau lle rydych wedi cynhyrchu a defnyddio e-bust arallenwau. Gallwch newid hyn yn y “Gosodiadau” o dan “Casglu Data.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
@@ -1107,6 +1108,9 @@ forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premi
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link } cyn i'n pris agoriadol ddod i ben.
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
