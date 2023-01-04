@@ -479,13 +479,17 @@ settings-error-save-heading = Wijziging instellingen mislukt
 settings-error-save-description = Uw instellingswijzigingen zijn niet opgeslagen vanwege een verbindingsfout. Probeer het opnieuw.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Labelfunctie voor e-mailmaskers is uitgeschakeld
+settings-warning-collection-off-heading-3 = Uw accountnamen voor e-mailmaskers zijn uitgeschakeld
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } mag momenteel geen gegevens verzamelen over de websites waar u e-mailmaskers heeft aangemaakt en gebruikt. U kunt dit in ‘Instellingen’ wijzigen onder ‘Gegevensverzameling’.
+settings-warning-collection-off-description-3 = { -brand-name-relay } mag momenteel uw e-mailmaskers niet labelen met de websites waar u ze hebt gebruikt. Schakel onder ‘Privacy’ accountnamen voor e-mailmaskers in om dit te wijzigen.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
 setting-label-collection-description-2 = { -brand-name-relay } toestaan om gegevens te verzamelen over de websites waarop uw maskers zijn aangemaakt en gebruikt.
+setting-label-collection-description-3 = Accountnamen voor e-mailmaskers inschakelen
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Met deze gegevens kunnen we uw maskers labelen met de relevante websites waar ze worden gebruikt. Als u besluit deze voorkeur uit te schakelen, worden uw maskers niet gelabeld met de websites waar ze worden gebruikt.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } slaat de websites op waar u uw e-mailmaskers hebt gebruikt en labelt uw maskers met die websites, zodat u ze gemakkelijk kunt identificeren. Als u dit uitschakelt, kunt u niet zien waar u elk masker hebt gebruikt en worden uw accountnamen niet meer tussen apparaten gesynchroniseerd.
 settings-button-save-label = Opslaan
 settings-button-save-tooltip = Uw gekozen instellingen toepassen.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -564,6 +568,7 @@ faq-question-8-question = Welke gegevens verzamelt { -brand-name-firefox-relay }
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = U vindt meer info over de gegevens die { -brand-name-firefox-relay } verzamelt in onze <a href="{ $url }" { $attrs }>Privacyverklaring</a>. U kunt optioneel ook gegevens delen over de labels en website die u gebruikt voor uw e-mailmaskers, zodat we u die service kunnen bieden en deze voor u kunnen verbeteren.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } verzamelt de websites waar u uw e-mailmaskers hebt gebruikt en labelt uw maskers met die websites, zodat u ze gemakkelijk kunt identificeren. U kunt zich hiervoor afmelden op uw pagina Instellingen, onder Privacy. Houd er echter rekening mee dat, als u die instelling uitschakelt, u niet kunt zien waar u elk masker hebt gebruikt en dat uw accountnamen niet langer tussen apparaten worden gesynchroniseerd. U vindt meer info over de gegevens die { -brand-name-firefox-relay } verzamelt in onze <a href="{ $url }" { $attrs }>Privacyverklaring</a>.
 faq-question-email-storage-question = Slaat { -brand-name-relay } mijn e-mailberichten op?
 faq-question-email-storage-answer = In het zeldzame geval dat de service niet beschikbaar is, kunnen we uw e-mailberichten tijdelijk opslaan totdat we ze kunnen verzenden. We zullen uw e-mailberichten nooit langer dan drie dagen bewaren.
 faq-question-acceptable-use-question = Wat zijn de acceptabele toepassingen van { -brand-name-relay }?
@@ -1116,6 +1121,12 @@ forwarded-email-footer-premium-banner = Upgraden naar { -brand-name-relay-premiu
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } voordat onze introductieprijs verloopt.
+
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = We hebben dit antwoord naar { $sender } gestuurd. In de toekomst worden uw antwoorden echter niet verzonden.
 
 ## Notifications component
 
