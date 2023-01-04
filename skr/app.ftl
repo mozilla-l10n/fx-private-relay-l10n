@@ -360,6 +360,7 @@ premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی �
 premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-availability-warning-2 = { -brand-name-relay-premium }  فی الحال آسٹریا، بیلجیم، کینیڈا، فن لینڈ، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، ہالینڈ، نیوزی لینڈ، سنگاپور، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے امریکہ وِچ دستیاب ہے۔
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } آسٹریا، بیلجیم، کنیڈا، قبرص، اسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلے، لیٹیویا، لیتھونیا، لیکسم برگ، ملائشیاء، مالٹا، نیدرلینڈ، نیوزی لینڈ، پتگال، سنگاپور، سلاویکیا، سلاونیا، سپین، سویڈن، برطانیہ تے امریکہ وچ دستیاب ہے۔
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
