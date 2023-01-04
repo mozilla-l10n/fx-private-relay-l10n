@@ -567,6 +567,7 @@ faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhro
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>oznámenie o ochrane súkromia</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové masky, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } zhromažďuje webové stránky, na ktorých ste použili svoje e-mailové masky, a označí vaše masky týmito webovými stránkami, aby ste ich mohli ľahko identifikovať. Túto možnosť môžete zrušiť na stránke Nastavenia v časti Ochrana súkromia. Upozorňujeme však, že vypnutie tohto nastavenia znamená, že nebudete môcť vidieť, kde ste jednotlivé masky použili, a názvy vašich účtov sa už nebudú synchronizovať medzi zariadeniami. Viac informácií o údajoch, ktoré { -brand-name-firefox-relay } zhromažďuje, nájdete v našom <a href="{ $url }" { $attrs }>Oznámení o ochrane súkromia</a>.
 faq-question-email-storage-question = Ukladá { -brand-name-relay } moje e-maily?
 faq-question-email-storage-answer = Vo výnimočných prípadoch, keď je služba mimo prevádzky, môžeme dočasne uchovávať vaše e-maily, kým ich nebudeme môcť odoslať. Vaše e-maily nikdy nebudeme uchovávať dlhšie ako tri dni.
 faq-question-acceptable-use-question = Aké sú prijateľné použitia služby { -brand-name-relay }?
@@ -1132,6 +1133,11 @@ forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } sk
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Túto odpoveď sme odoslali odosielateľovi { $sender }. Do budúcna však vaše odpovede nebudú odosielané.
+replies-only-available-with-premium = Odpovedanie na preposlané e-maily z vášho maskovaného e-mailu je k dispozícii iba s { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Odpovede nie sú súčasťou vášho bezplatného účtu
 reply-not-sent-header = Vaša odpoveď nebola odoslaná
 upgrade-to-reply-to-future-emails = Ak chcete odosielať odpovede, inovujte teraz
 upgrade-for-more-protection = Inovujte pre väčšiu ochranu
