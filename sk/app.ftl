@@ -478,13 +478,17 @@ settings-error-save-heading = Zmena nastavení zlyhala
 settings-error-save-description = Vaše zmeny nastavení neboli uložené kvôli chybe pripojenia. Skúste to znova.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Funkcia označenia e-mailovej masky štítkom je deaktivovaná
+settings-warning-collection-off-heading-3 = Názvy účtov pre e-mailové masky sú vypnuté
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } nemá v súčasnosti povolenie zhromažďovať údaje zobrazujúce weby, na ktorých ste vygenerovali a používali e-mailové masky. Môžete to zmeniť v časti “Nastavenia” v časti “Zhromažďovanie údajov”.
+settings-warning-collection-off-description-3 = { -brand-name-relay } momentálne nemá povolené označovať vaše e-mailové masky webovými stránkami, na ktorých ste ich použili. Ak to chcete zmeniť, povoľte názvy účtov pre e-mailové masky v časti Súkromie.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Súkromie
 setting-label-collection-description-2 = Povoliť službe { -brand-name-relay } zhromažďovať údaje o stránkach, na ktorých sú vaše masky vytvárané a používané.
+setting-label-collection-description-3 = Povoliť názvy účtov pre e-mailové masky
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Tieto údaje nám umožnia označiť vaše e-mailové masky webovými stránkami, na ktorých sa používajú. Ak sa rozhodnete zrušiť túto predvoľbu, vaše masky nebudú označené webovými stránkami, na ktorých sa používajú.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } uloží webové stránky, na ktorých ste použili svoje e-mailové masky, a označí vaše masky týmito webovými stránkami, aby ste ich mohli ľahko identifikovať. Vypnutie znamená, že nebudete môcť vidieť, kde ste jednotlivé masky použili, a názvy vašich účtov sa už nebudú medzi zariadeniami synchronizovať.
 settings-button-save-label = Uložiť
 settings-button-save-tooltip = Použiť vami zvolené nastavenia.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -1125,6 +1129,14 @@ forwarded-email-footer-premium-banner = Inovujte na { -brand-name-relay-premium 
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } skôr, ako uplynie platnosť našich uvádzacích cien.
+
+## Email sent to free users who try to reply
+
+reply-not-sent-header = Vaša odpoveď nebola odoslaná
+upgrade-to-reply-to-future-emails = Ak chcete odosielať odpovede, inovujte teraz
+upgrade-for-more-protection = Inovujte pre väčšiu ochranu
+upgrade-to-premium = Inovovať na { -brand-name-firefox-relay-premium }
+manage-your-masks = Spravovať moje masky
 
 ## Notifications component
 
