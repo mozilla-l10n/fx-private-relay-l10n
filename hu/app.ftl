@@ -475,6 +475,7 @@ settings-error-save-heading = A beállítások módosítása sikertelen
 settings-error-save-description = A beállítások módosításai kapcsolati hiba miatt nem lettek elmentve. Próbálja meg újra.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Az e-mail-maszkcímke funkció ki van kapcsolva
+settings-warning-collection-off-heading-3 = Az e-mail-maszkok fióknevei ki vannak kapcsolva
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = A { -brand-name-relay } jelenleg nem gyűjthet adatokat azon webhelyekről, ahol Ön e-mail-maszkokat állított elő és használt. Ezt a „Beállítások” „Adatgyűjtés” részében módosíthatja.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
@@ -1112,6 +1113,9 @@ forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premiu
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }ra, mielőtt bevezető áraink lejárnának.
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
