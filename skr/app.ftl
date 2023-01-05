@@ -766,6 +766,7 @@ modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ 
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
 modal-custom-alias-picker-form-prefix-spaces-warning = ای میل ماسکاں وچ خالی جاء دی اجازت کائنی۔
 modal-custom-alias-picker-form-prefix-invalid-warning = ای میل وچ صرف چھوٹی اے بی سی، عددتےہائفن آ سڳدن۔تے ہائفن شروع تے یا چھیکڑ تے کائنی آسڳدے۔
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = ای میل وچ صرف چھوٹی اے بی سی، عدد، پیریڈتےہائفن آ سڳدن۔تے ہائفن تے پیریڈ شروع تے یا چھیکڑ تے کائنی آسڳدے۔
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 
 ## Popover explaining how custom masks work
