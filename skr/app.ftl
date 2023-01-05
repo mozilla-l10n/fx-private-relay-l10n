@@ -519,6 +519,7 @@ faq-question-4-question-2 = بھلا میں آپݨے { -brand-name-relay } ای 
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-subdomain-characters-answer-v2 = سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
+faq-question-browser-support-answer-2 = جیا، تساں ٻئے براؤزراں تے یا موبائل ڈیوائساں تے آپݨے { -brand-name-relay } ڈیش بورڈ وچ لاگ ان تھی تے سوکھ نال { -brand-name-relay } ماسک جنریٹ کر سڳدے ہو۔
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 faq-question-mozmail-question-2 = میݙے ای میل ماسکاں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
