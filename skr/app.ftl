@@ -765,6 +765,7 @@ modal-custom-alias-picker-form-prefix-label-2 = ای میل ماسک سابقہ 
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = مثال دے طور تے "کافی"
 modal-custom-alias-picker-form-prefix-spaces-warning = ای میل ماسکاں وچ خالی جاء دی اجازت کائنی۔
+modal-custom-alias-picker-form-prefix-invalid-warning = ای میل وچ صرف چھوٹی اے بی سی، عددتےہائفن آ سڳدن۔تے ہائفن شروع تے یا چھیکڑ تے کائنی آسڳدے۔
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 
 ## Popover explaining how custom masks work
@@ -784,6 +785,7 @@ tips-custom-alias-heading-2 = تہاݙی کسٹم سب ڈومین ورت تے م
 ## Tip about using custom masks
 
 tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
+tips-promo-email-blocking-content = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو پر رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول کرݨ دی تہاکوں اجازت ہوسی۔
 
 ## Onboarding
 
