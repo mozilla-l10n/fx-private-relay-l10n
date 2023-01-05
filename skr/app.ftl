@@ -165,6 +165,10 @@ how-it-works-step-1-copy =
     سائن اں ورقے تک رسائی کیتے تہاݙے { -brand-name-firefox } ٹول بار تے ظاہر تھیوݨ والے آئیکان کوں منتخب کرو۔
     شروع کرݨ کیتے آپݨے { -brand-name-firefox-account } نال سائن ان تھیوو۔
 how-it-works-step-2-headline-2 = نواں ای میل ماسک بݨاؤ
+how-it-works-step-2-copy =
+    جیویں تساں براؤز کریسو، { -brand-name-relay } دا آئیکن ظاہر تھیسے جتھاں سائٹاں تہاݙا ای میل پتہ منگسن۔
+    ہک نواں، بے ترتیب پتہ بݨاوݨ کیتے اینکوں منتخب کرو جیڑھا @relay.firefox.com تے ختم تھیندا ہے۔
+    { -brand-name-relay } سنیہاں کوں تہاݙے اکاؤنٹ نال وابستہ بنیادی ای میل پتے تے بھیڄ ݙیسے۔
 how-it-works-step-3-headline-2 = آپݨے ای میل ماسک منیج کرو
 hero-image-copy-trust = بھلا تساں آپݨے ذاتی ای میل نال ایں کمپنی تے بھروسہ کر سڳدے ہو؟
 hero-image-copy-unique-html = ہر نویں کھاتے کیتے<strong>نویکلا رِیلے پتہ ورتو</strong>۔۔۔
@@ -176,6 +180,9 @@ hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آن
 ## Hero Section
 
 landing-hero-headline-2 = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
+landing-hero-body-2 =
+    { -brand-name-firefox-relay } ای میل ماسک تہاݙے حقیقی ای میل ایڈریس کوں عوامی نظر کنوں بچیندے ہن، سنیہاں کوں آپوں ڄاݨ تہاݙے حقیقی ان باکس وِچ اڳوں تے بھیڄ ݙیندے ہن۔
+    ہݨ تساں اپݨے ان باکس وِچ صرف اوہے سنیہے وصول کر سڳدے او جیڑھے تساں چاہندے او۔ شروع کرݨ کیتے اپݨے { -brand-name-firefox-account } دے نال سائن اپ کرو۔
 landing-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 landing-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 # Variables:
@@ -188,6 +195,16 @@ landing-how-it-works-headline = ایہ کین٘ویں کم کریندے
 landing-how-it-works-body-2 = اپݨے ای میل ان باکس دے نال نال اپݨی سنڄاݨ دی حفاظت کے لئے اپݨے حقیقی ای میل ایڈریس دے بجائے { -brand-name-relay } ای میل ماسک دی سانجھ کرو۔
 landing-how-it-works-step-1-body-cta = { -brand-name-firefox } کیتے { -brand-name-relay } ایکسٹینشن ڈاؤن لوڈ کرو۔
 landing-how-it-works-step-1-body-2 = جہڑے ویلے تساں آن لائن اپݨاں ای میل درج کرو تاں آپݨے آپ ای میل ماسک جنریٹ کرو۔
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    جیویں ای تساں براؤز کریسو، { -brand-name-relay } دا آئیکن ظاہر تھیسے جتھاں سائٹاں تہاݙا ای میل پتہ منگسن۔
+    ہک نواں، بے ترتیب پتہ بݨاوݨ کیتے اینکوں منتخب کرو جیڑھا @relay.mozmail.com تے ختم تھیندا ہے۔
+landing-how-it-works-step-2-body-2 =
+    جیویں ای تساں براؤز کریسو، { -brand-name-relay } دا آئیکن ظاہر تھیسے جتھاں سائٹاں تہاݙا ای میل پتہ منگسن۔
+    ہک نواں، بے ترتیب پتہ بݨاوݨ کیتے اینکوں منتخب کرو جیڑھا @mozmail.com تے ختم تھیندا ہے۔
+landing-how-it-works-step-3-body-2 =
+    تساں جیڑھے ای میل ماسک بݨائے ہن انہاں تے نظر رکھݨ کیتے { -brand-name-relay } ڈیش بورڈ وِچ سائن ان تھیوو۔
+    جے تہاکوں معلوم تھیندا ہے جو کہیں کو فضول یا بے بھانوݨے سنیہے وصول تھیندے ہن، تاں تساں ڈیش بورڈ کنوں ای تمام سنیہے بلاک کر سڳدے او یا ماسک کوں وی حذف کر سڳدے او۔
 
 ## Pricing section
 
@@ -195,6 +212,10 @@ landing-how-it-works-step-1-body-2 = جہڑے ویلے تساں آن لائن ا
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-headline-2 = صرف محدود ویلے کیتے: { $monthly_price } فی مہینہ، بے انت ای میل ماسک
+# Deprecated
+landing-pricing-body-2 =
+    { -brand-name-firefox-relay } ای میل ماسک ازماؤ تے اپݨے ای میل ان باکس دی حفاظت شروع کرو۔
+    ول ودھیک لچک تے حسب ضرورت کنٹرول کیتے { -brand-name-relay-premium } وِچ اپ گریڈ کرو۔
 # Deprecated
 landing-pricing-free-price = مفت
 # Deprecated
@@ -258,6 +279,7 @@ plan-matrix-bundle-offer-heading = محدود مدت صرف: { -brand-name-relay
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
+plan-matrix-bundle-offer-content = { -brand-name-firefox-relay } ای میل ماسک ازماؤ تے اپݨے ای میل ان باکس دی حفاظت شروع کرو۔ ودھیک لچک تے حسب ضرورت کنٹرول کیتے { -brand-name-relay-premium } وِچ اب گریڈ کرو۔
 plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
@@ -310,11 +332,26 @@ landing-use-cases-shopping-body-2 =
     ہک نویں آن لائن دوکان توں کچھ گھندے پئے وے؟ آن لاٰئن خریداری کریندے ویلے اپݨی اصل ای میل دی بجائے ای میل ماسک دا استعمال کرو.
     اساں تہاڈی اصل ای میل تے رسید آڳوں تے بھیڄ ݙیسوں، تے جے تہاکوں ایجھی ای میلاں آوݨ لڳݨ ڄیڑہی تساں پسند نی کریندے، صرف ماسک کوں بلاک تے سوئچ کر چھوڑو۔
 landing-use-cases-social-networks = سماجی نیٹ ورک
+landing-use-cases-social-networks-body-2 =
+    سوشل نیٹ ورک استعمال کریندے ویلھے اپݨی آن لائن سنڄاݨ دی بہتر حفاظت کرݨ چاہندے او؟
+    اپݨے حقیقی ای میل کوں سوشل میڈیا تے اپݨی موجودگی نال منسلک کرݨ دی کوشش کریندے پئے او؟ لاگ ان کرݨ کیتے { -brand-name-relay } ماسک دا استعمال کرو تے اپݨے آپ کوں آن لائن محفوظ رکھݨ وِچ مدد کرو۔
 landing-use-cases-offline = آف لائن
+landing-use-cases-offline-body-2 =
+    ای میل دیاں رسیداں حاصل کرݨ کوں ترجیح ݙیندے او، لیکن مارکیٹنگ سپیم کنوں وی بچݨ چاہندے او؟
+    کہیں سٹور وِچ کاغذ دے بغیر رسید حاصل کریندے ویلھے اپݨے ای میل دے بجائے { -brand-name-relay } ماسک استعمال کرو۔
+    اساں تہاݙے حقیقی ای میل ایڈریس تے رسید بھیڄ ݙیسوں، تے جے تہاکوں او ای میلز وصول تھیوݨ لڳ پوون جیڑھیاں تہاکوں نئیں بھاندیاں، تاں بس ای میل فارورڈنگ کوں بند کر ݙیوو۔
 landing-use-cases-access-content = مواد تائیں رسائی کرو
+landing-use-cases-access-content-body-2 =
+    ایں نیوز لیٹر کیتے سائن اپ کرݨ چاہندے او، لیکن بھیڄݨ والے تے بھروسہ نہیں کریندے؟
+    اپݨے حقیقی ای میل ایڈریس دے بجائے ہک ماسک دا استعمال کرو — جے تساں ایں ماسک دے ذریعے ناپسندیدہ ای میلز حاصل کرݨ شروع تھی ویندے او، تاں تھی سڳدا ہے بھیڄݨ والے اونکوں ٻئے مارکیٹرز کوں ویچ ݙتا ہووے، یا ایہ ڈیٹا دی خلاف ورزی وِچ لیک تھی ڳیا ہووے۔
+    اپݨے ان باکس دی حفاظت کیتے بس ماسک کوں آف یا ڈیلیٹ کر ݙیوو۔
 landing-use-cases-gaming = کھیݙݨ
+landing-use-cases-gaming-body-2 =
+    آن لائن گیمنگ کنوں لطف اندوز تھیوو، لیکن اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا بدمعاشاں ایہ ڄاݨݨ کیتے پریشان ہن جو تساں کون او؟
+    اپݨی آن لائن سنڄاݨ تے جیڑھیاں گیماں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے ای میل ماسک دا استعمال کرو۔
 landing-use-cases-shopping-hero-heading = ای میل ماسکاں نال خریداری کرݨ
 landing-use-cases-shopping-hero-content1 = بھلا آنلائن کوئی شئے خریدݨ چاہندے ہو تے دکان کوں نِہوے جاݨدے یا پورا بھروسہ نِہوے کریندے ؟
+landing-use-cases-shopping-hero-content2 = جݙاں وی تساں آن لائن خریداری کرو تاں ای میل ماسک دا استعمال کرو۔ اپݨے اصلی ای میل تے بھیڄی ڳئی تصدیق حاصل کرو تے ول بعد وِچ کہیں وی وقت آسانی نال ماسک کوں بند کر ݙیوو۔
 landing-use-cases-on-the-go = گو تے
 landing-use-cases-on-the-go-heading = { -brand-name-relay } نال گو تے
 landing-use-cases-on-the-go-lead = کہیں وی جاء تے  یا ہر ہک جاء تے تساں ویندے ہو فورن ہک کسٹم ای میل ماسک بݨاؤ!
@@ -326,6 +363,8 @@ landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
 landing-use-cases-signups = سائن اپس
 landing-use-cases-signups-hero-heading = بے فکرے سائن اپ
+landing-use-cases-signups-hero-content1 = ہک نویں سبسکرپشن شروع کرݨ چاہندے او، دعوت نامہ دا جواب ݙیوݨ چاہندے او، یا تہاݙے ان باکس وِچ سپیم دے سیلاب دے بغیر سودے بازی دا پرومو کوڈ حاصل کرݨ چاہندے او؟
+landing-use-cases-signups-hero-content2 = اڳلا سائن اپ مکمل کرݨ کنوں پہلے، اپݨیاں معلومات دی حفاظت تے اپݨے ان باکس تے کنٹرول رکھݨ کیتے اپݨے اصلی دی بجائے ای میل ماسک دا استعمال کرو۔
 
 ## Landing FAQ Section
 
@@ -344,36 +383,54 @@ landing-reviews-rating = 5 ({ $review_count } ریویواں) وچوں
 landing-reviews-show-next-button = اڳلا ریویو ݙکھاؤ
 landing-reviews-show-previous-button = پچھلا ریویو ݙکھاؤ
 landing-review-anonymous-user = { -brand-name-firefox } ورتݨ آلا { $user_id }
+landing-review-user-one-review = میں واقعی { -brand-name-mozilla } ٹیم دی اتنی تخلیقی ہووݨ تے اپݨے ای میل ایڈریس دی گمنامی کوں آسان بݨاوݨ دی تعریف کریندا ہاں۔ ایہ ہک زبردست توسیع ہے، میں رازداری کنوں آگاہ افراد کوں ایندی انتہائی سفارش کریندا ہاں!
 landing-review-user-two-review = آپݨی ای میل آئی ڈی سپیم کنوں بچاوݨ یا چُھٹکارا گِھنّݨ دا سادہ اوزار
 landing-review-user-three-review = ایں ایکسٹنشن نال پیار کرو! ڈاڈھی سوکھی پر تکڑی ہے تے براؤزر نال شاندار یکجا ہے۔
 landing-review-user-four-review-list-1 = انٹرنیٹ تے سرفنگ نال ذہنی سکون ملدے۔
+landing-review-user-four-review-list-2 = عرفی نانواں دی نسل دے ذریعے اپݨی سنڄاݨ کوں ٹریکرز کنوں بچیندا ہے جتھاں کوئی مختلف وجوہات دی بناء تے حقیقی ای میل ایڈریس دا اشتراک نہیں کرݨ چاہندا۔
 landing-review-user-four-review-list-3 = ای میل ڈیٹا { -brand-name-firefox-relay } دے ہتھاں وچ محفوظ ہے۔
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیران کن کم کریندے، ایں کوں ازماؤ!!!
 
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔ <b> محدود وقت کیتے، اساں ماہانہ صرف { $monthly_price } وِچ { -brand-name-relay-premium } وِچ اپ گریڈ کر سڳدے ہیں۔ </b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
 premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
+premium-promo-availability-warning = { -brand-name-relay-premium } فی الحال آسٹریا، بیلجیم، کینیڈا، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، نیدرلینڈز، نیوزی لینڈ، سنگاپور، اسپین، سوئٹزرلینڈ، برطانیہ تے امریکہ وِچ دستیاب ہے۔
 premium-promo-availability-warning-2 = { -brand-name-relay-premium }  فی الحال آسٹریا، بیلجیم، کینیڈا، فن لینڈ، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، ہالینڈ، نیوزی لینڈ، سنگاپور، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے امریکہ وِچ دستیاب ہے۔
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } آسٹریا، بیلجیم، کنیڈا، قبرص، اسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلے، لیٹیویا، لیتھونیا، لیکسم برگ، ملائشیاء، مالٹا، نیدرلینڈ، نیوزی لینڈ، پتگال، سنگاپور، سلاویکیا، سلاونیا، سپین، سویڈن، برطانیہ تے امریکہ وچ دستیاب ہے۔
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
+premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں { -brand-name-relay } دا تمام ان باکس تحفظ تے انتظام ملدا ہے، لیکن لامحدود ای میل ماسک تے تہاݙے اپݨے حسب ضرورت ذیلی ڈومین دے نال تہاݙے ان باکس دا نظم و نسق ٻیا وی آسان تھی ویندا ہے۔
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
 premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
 premium-promo-perks-pill-new = نواں!
 premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
+premium-promo-perks-perk-unlimited-body-2 = ودھیک پنج ماسک دی حد کائنی: { -brand-name-relay-premium } دے نال، تساں اپݨے ای میل ان باکس کوں سپامرز تے آن لائن ٹریکرز کنوں بچاوݨ وِچ مدد کیتے جتنے ماسک تیار کر سڳدے او۔ اتنے تائیں جو تساں اپݨا اصلی پتہ ظاہر کیتے بغیر ای میلز دا جواب ݙے سڳدے او۔
 premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
+premium-promo-perks-perk-custom-domain-body-2 = حسب ضرورت ذیلی ڈومین دے نال، تساں اینجھے ماسک بݨا سڳدے او جیڑھے یاد رکھݨ تے شیئر کرݨ وِچ پہلے کنوں ٻہوں زیادہ آسان ہن۔ ریستوران دے تحفظات کیتے ہک دی ضرورت ہے؟ ہک دا استعمال کرو جیویں food@mydomain.mozmail.com — پہلے کنوں ماسک بݨاوݨ دی ضروری کائنی۔
 premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
+premium-promo-perks-perk-dashboard-body-2 = استعمال وِچ آسان ڈیش بورڈ وِچ اپݨے تمام ای میل ماسک منظم کرو: جے تہاکوں معلوم تھیندا ہے جو کہیں کوں بے بھانوݨے سنیہے وصول تھیندے ہن، تاں تساں انہاں سنیہاں کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او۔
 premium-promo-perks-perk-block-promotionals-headline = مشہوری ای میلاں بلاک کرو
+premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
 premium-promo-perks-perk-tracker-blocking-headline = سارے ای میل ٹریکر ہٹاؤ
+premium-promo-perks-perk-tracker-blocking-body = ہݨ { -brand-name-relay } ای میل ٹریکنگ کوں روکݨ وِچ تہاݙی مدد کر سڳدا ہے — تہاݙے ای میل ماسک تہاکوں بھیڄے ڳئے کہیں وی ای میل کنوں عام ای میل ٹریکرز کوں ہٹا ݙیسن، جیندے نال تہاکوں ٹریکرز تے مشتہرین کیتے اوڈھر رہݨ وِچ مدد ملسے۔
 premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
 premium-promo-use-cases-shopping-heading = خریداری
+premium-promo-use-cases-shopping-body-2 = سبھے سپیم دے بغیر رعایت کیتے سائن اپ کرݨ دی کوشش کریندے پئے ہن؟ اپݨے تمام "شاپنگ" اکاؤنٹس کوں حسب ضرورت ای میل ماسک دے تحت بنڈل کرو، جیویں mydeals@mydomain.mozmail.com۔
 premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
+premium-promo-use-cases-social-networks-body-2 = سوشل نیٹ ورک استعمال کریندے ویلھے اپݨی آن لائن سنڄاݨ دی بہتر حفاظت کرݨ چاہندے او؟ ہر سوشل نیٹ ورک وِچ لاگ ان کرݨ کیتے ہک مختلف ای میل ماسک دا استعمال کرو تے اپݨے حقیقی ای میل کوں انہاں سائٹاں دے سامݨے آوݨ کنوں بچاوݨ وِچ مدد کرو۔
 premium-promo-use-cases-gaming-heading = کھیݙݨ
+premium-promo-use-cases-gaming-body-2 = اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا ٹرول سیکھݨ دے بارے وِچ فکر مند ہو جو تساں کون او؟ اپݨی سنجاݨ تے جیڑھیاں کھیݙاں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے onlinegame@mydomain.mozmail.com جیہاں ماسک استعمال کرو۔
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
