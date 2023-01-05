@@ -512,6 +512,7 @@ faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = { -brand-name-relay } ای میل ماسک کیا ہے؟
+faq-question-what-is-answer-2 = ای میل ماسک نقاب پوش، یا پرائیویٹ، ای میل پتے ہن جیڑھے سنیہاں کوں تہاݙے حقیقی ای میل ایڈریس تے فارورڈ کریندے ہن۔ ایہ ماسک تہاکوں تریاکل دے نال ہک ایڈریس شیئر کرݨ دی اجازت ݙیندے ہن جیڑھا تہاݙے حقیقی ای میل ایڈریس کوں ماسک کریسے تے اوندے اوتے سنیہاں بھیڄیسے۔
 faq-question-missing-emails-question-2 = میں آپݨے ای میل ماسکاں  کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-answer-a-2 = کجھ وجوہات ہن جو تہاکوں تہاݙے ماسکاں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
@@ -520,7 +521,15 @@ faq-question-missing-emails-answer-reason-size = اڳوں تے پٹھی  ای م
 faq-question-missing-emails-answer-reason-not-accepted-2 = ایہ سائٹ ای میل ماسک قبول کائنی کریندی
 faq-question-missing-emails-answer-reason-turned-off-2 = ماسک  اڳوں تے پٹھݨ بند کر ݙتا ہوسی
 faq-question-missing-emails-answer-reason-delay = تہاݙے سنیہے اڳوں تے پٹھݨ کیتے { -brand-name-relay } معمول کنوں ودھ ویلا گھندا پئے۔
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-b-html = جے تساں ہک { -brand-name-relay-premium } صارف او جیڑھے انہاں مسائل وِچوں کہیں دے نال جدوجہد کریندے پئے ہن، تاں برہ مہربانی  <a href="{ $url }" { $attrs }> اساݙی سپورٹ ٹیم نال رابطہ کرو </a>۔
+#   $url (url) - link to the support site
+#   $attrs (string) - specific attributes added to external links
+faq-question-missing-emails-answer-support-site-html = جے تساں انہاں مسئلیاں وِچوں کہیں دے نال تݨ مریندے پئے اوِ تاں براہ مہربانی <a href="{ $url }" { $attrs }> اساݙی سپورٹ سائٹ تے ونڄو </a>۔
 faq-question-use-cases-question-2 = میں { -brand-name-relay } ای میل ماسک کݙݨ ورتاں؟
+faq-question-use-cases-answer-part1-2 = تساں زیاہ تر جاہیں تے { -brand-name-relay } ای میل ماسک استعمال کر سڳدے او جتھاں تساں اپݨا باقاعدہ ای میل پتہ استعمال کریسو۔ اساں انہاں کوں مارکیٹنگ/ معلوماتی ای میلز کیتے سائن اپ کریندے ویلھے استعمال کرݨ دی تجریز ݙیندے او جتھاں تساں ایہ کنٹرول کرݨ چاہسو جو آیا تہاکوں مستقبل وِچ ای میلز وصول تھیون یا نہ تھیون۔
+faq-question-use-cases-answer-part2-2 = جݙاں تہاکوں اپݨی سنڄاݨ دی تصدیق دی ضرورت ہووے تاں انتہائی اہم ای میلز کیتے یا جتھاں تہاکوں اٹیچمنٹ وصول تھیوݨے ہوون، اساں ماسک استعمال کرݨ دی سفارش نہیں کریندے۔ مثال دے طور تے، تساں اپݨے بینک، اپݨے ڈاکٹر، تے اپݨے وکیل دے نال نال کنسرٹ یا فلائٹ بورڈنگ پاس وصول کریندے ویلھے اپݨا حقیقی ای میل پتہ شیئر کرݨ چاہسو۔
 faq-question-2-question-2 = میݙے { -brand-name-relay } ای میل ماسک ایں سائٹ قبول کیوں نیں کیتے؟
 faq-question-1-question = سپیم بارے؟
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
