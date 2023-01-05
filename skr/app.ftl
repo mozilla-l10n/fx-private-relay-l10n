@@ -478,6 +478,7 @@ settings-warning-collection-off-heading-2 = ای میل ماسک لیبل عمل
 settings-warning-collection-off-heading-3 = تہاݙے ای میل ماسک کھاتہ ناں بند تھئی ڳئے ہن
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = رازداری
+setting-label-collection-description-2 = { -brand-name-relay } کوں  سائٹاں، جنہاں تے تہاݙٖے ماسک بݨے ہن تے ورتے ڳئے ہن، ظاہر کرݨ بارے ڈیٹا کٹھا کرݨ دی اجازت ݙیوو۔
 setting-label-collection-description-3 = ای میل ماسکاں کیتے کھاتہ ناں فعال کرو
 settings-button-save-label = محفوظ
 settings-button-save-tooltip = آپݨیاں چُݨیاں ہوئیاں ترتیباں لاڳو کرو۔
@@ -778,6 +779,7 @@ popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جن�
 popover-custom-alias-explainer-close-button-label = بند کرو
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
+popover-custom-alias-explainer-promotional-block-tooltip-2 = مارکیٹنگ ای میلاں کوں آپݨے ان باکس تائیں پہنچݨ کنوں روکݨ کیتے ماسک تے پروموشنل ای میلاں بلاک کرݨ  فعال کرو۔
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = ٻئی ڄاݨکاری
 
 ## Tip about using custom masks
