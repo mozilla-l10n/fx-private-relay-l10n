@@ -474,11 +474,14 @@ settings-warning-collection-off-heading-2 = Le function etiquetta del mascas ema
 settings-warning-collection-off-heading-3 = Le nomines de tu conto pro mascas email es disactivate
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = A { -brand-name-relay } non es actualmente permittite colliger le datos que monstra le sitos ubi tu ha generate e usate mascas email. Tu pote cambiar isto in “Parametros” sub “Collection de datos.”
+settings-warning-collection-off-description-3 = A { -brand-name-relay } non es actualmente permittite de etiquettar tu mascas email con le sitos web ubi tu los ha usate. Pro cambiar isto, activa le Nomines de conto pro mascas email sub “Confidentialitate.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Confidentialitate
 setting-label-collection-description-2 = Permitter a { -brand-name-relay } de colliger datos que monstra le sitos sur le qual tu mascas es create e usate.
+setting-label-collection-description-3 = Activar Nomines de conto pro mascas email
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Iste datos permittera nos de etiquettar tu mascas email con le sitos web ubi illos es usate. Si tu decide exir ab iste preferentia, tu mascas non sera etiquettate con le sitos web ubi illos es usate.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } immagazinara le sitos web ubi tu ha usate tu mascas email, e etiquettara tu mascas con ille sitos web assi que tu pote facilemente identificar los. Disactivar los significa que tu non potera vider ubi tu ha usate cata masca, e tu nomines de conto non se synchronisara plus inter apparatos.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Applicar tu parametros eligite.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -557,6 +560,7 @@ faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu mascas email assi nos pote fornir te ille servicio e meliorar lo pro te.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } collige le sitos web ubi tu ha usate tu mascas email, e etiquetta tu mascas con ille sitos web assi que tu pote facilemente identificar los. Tu pote refusar lo sur tu pagina Parametros, sub Confidentialitate. Ma nota, disactivar iste parametros significa que tu non potera vider ubi tu ha usate cata masca, e tu nomines de conto non se synchronisara plus inter apparatos. Tu pote saper plus re le datos que { -brand-name-firefox-relay } collige in nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>.
 faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
 faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
 faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-name-relay }?
@@ -1112,6 +1116,15 @@ forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Nos ha inviate iste responsa a { $sender }. Ma movente avante, tu responsas non sera inviate.
+replies-only-available-with-premium = Responder a emails inultrate de tu email mascate es solo disponibile con { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Le responsas non es includite con tu conto gratuite
+reply-not-sent-header = Tu responsa non ha essite inviate
+upgrade-to-reply-to-future-emails = Promove ora pro inviar responsas
+upgrade-for-more-protection = Promove pro major protection
+upgrade-to-premium = Promover a { -brand-name-firefox-relay-premium }
 manage-your-masks = Gere tu mascas
 
 ## Notifications component
