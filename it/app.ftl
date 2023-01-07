@@ -1100,6 +1100,16 @@ forwarded-email-footer-premium-banner = Aggiorna a { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Aggiorna a { $premium_link } prima che scada il nostro prezzo di lancio.
 
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Abbiamo inviato questa risposta a { $sender }. Tuttavia, le tue risposte non verranno inviate in futuro.
+reply-not-sent-header = La tua risposta non è stata inviata
+upgrade-to-reply-to-future-emails = Aggiorna adesso per poter rispondere
+upgrade-for-more-protection = Aggiorna adesso per una maggiore protezione
+upgrade-to-premium = Aggiorna a { -brand-name-firefox-relay-premium }
+
 ## Notifications component
 
 toast-button-close-label = Chiudi notifica
