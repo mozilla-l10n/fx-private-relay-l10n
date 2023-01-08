@@ -475,13 +475,17 @@ settings-error-save-heading = Inställningsändringen misslyckades
 settings-error-save-description = Dina ändringar i inställningarna sparades inte på grund av ett anslutningsfel. Var god försök igen.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Etikettfunktionen för e-postalias är inaktiverad
+settings-warning-collection-off-heading-3 = Dina e-postalias för kontonamn är avstängda
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } får för närvarande inte samla in data som visar webbplatserna där du har skapat och använt e-postalias. Du kan ändra detta i "Inställningar" under "Datainsamling".
+settings-warning-collection-off-description-3 = { -brand-name-relay } får för närvarande inte märka dina e-postalias med de webbplatser där du har använt dem. För att ändra detta, aktivera kontonamn för e-postalias under "Integritet".
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Integritet
 setting-label-collection-description-2 = Låt { -brand-name-relay } samla in data som visar webbplatserna där dina alias skapas och används.
+setting-label-collection-description-3 = Aktivera kontonamn för e-postalias
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Med denna data kan vi märka dina e-postalias med webbplatserna där de används. Om du väljer att välja bort denna inställning kommer dina alias inte att märkas med webbplatserna där de används.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } lagrar de webbplatser där du har använt dina e-postalias och märker dina alias med dessa webbplatser så att du enkelt kan identifiera dem. Om du stänger av det här kommer du inte att kunna se var du har använt varje alias, och dina kontonamn kommer inte längre att synkroniseras mellan enheter.
 settings-button-save-label = Spara
 settings-button-save-tooltip = Tillämpa dina valda inställningar.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -560,6 +564,7 @@ faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } samlar in de webbplatser där du har använt dina e-postalias och märker dina alias med dessa webbplatser så att du enkelt kan identifiera dem. Du kan välja bort detta på sidan Inställningar, under Integritet. Men observera att om du stänger av den inställningen kommer du inte att kunna se var du har använt varje alias, och dina kontonamn kommer inte längre att synkroniseras mellan enheter. Du kan läsa mer om den data som { -brand-name-firefox-relay } samlar in i vårt <a href="{ $url }" { $attrs }>sekretessmeddelande</a>.
 faq-question-email-storage-question = Lagrar { -brand-name-relay } mina e-postmeddelanden?
 faq-question-email-storage-answer = Under de sällsynta omständigheter då tjänsten är nere, kan vi tillfälligt lagra dina e-postmeddelanden tills vi kan skicka de. Vi kommer aldrig att lagra dina e-postmeddelanden längre än tre dagar.
 faq-question-acceptable-use-question = Vilka är de acceptabla användningsområdena för { -brand-name-relay }?
@@ -1112,6 +1117,9 @@ forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-prem
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link } innan våra introduktionspriser upphör.
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
