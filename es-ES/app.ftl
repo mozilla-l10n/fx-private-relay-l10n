@@ -479,13 +479,17 @@ settings-error-save-heading = Error al cambiar la configuración
 settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = La función de etiqueta de máscara de correo electrónico está desactivada
+settings-warning-collection-off-heading-3 = Tus nombres de cuenta para máscaras de correo electrónico están desactivados
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Actualmente, { -brand-name-relay } no está autorizado a recopilar los datos relativos a los sitios en los que has generado y utilizado máscaras de correo electrónico. Puedes cambiar esto en “Ajustes” en la sección “Recopilación de datos”.
+settings-warning-collection-off-description-3 = Actualmente, { -brand-name-relay } no puede etiquetar tus máscaras de correo electrónico con los sitios web donde las has usado. Para cambiar esto, activa los nombres de cuenta para máscaras de correo electrónico en “Privacidad”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 setting-label-collection-description-2 = Permitir que { -brand-name-relay } recopile datos que muestren los sitios en los que se crean y utilizan tus máscaras.
+setting-label-collection-description-3 = Activar nombres de cuenta para máscaras de correo electrónico
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar en una futura versión tus máscaras con los sitios web donde se usan. Si decides desactivar esta opción, tus máscaras no se etiquetarán con los sitios web donde se utilizan.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } almacenará los sitios web donde has usado tus máscaras de correo electrónico y etiquetará tus máscaras con esos sitios web para que puedas identificarlas fácilmente. Desactivar esto significa que no podrás ver dónde has usado cada máscara y los nombres de tus cuentas ya no se sincronizarán entre dispositivos.
 settings-button-save-label = Guardar
 settings-button-save-tooltip = Aplicar los ajustes seleccionados.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -564,6 +568,7 @@ faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. También puedes compartir opcionalmente datos sobre las etiquetas y sitios que usas para tus máscaras de correo electrónico para que podamos brindarte ese servicio y mejorarlo para ti.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } recopila los sitios web donde has usado tus máscaras de correo electrónico y etiqueta tus máscaras con esos sitios web para que puedas identificarlas fácilmente. Puedes desactivarlo en tu página de Configuración, en Privacidad. Pero ten en cuenta que desactivar esa configuración significa que no podrás ver dónde has usado cada máscara y los nombres de tus cuentas ya no se sincronizarán entre dispositivos. Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } en nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>.
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En la rara circunstancia en la que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos más de tres días.
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
@@ -1116,6 +1121,19 @@ forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium 
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } antes de que se acabe nuestro precio de lanzamiento.
+
+## Email sent to free users who try to reply
+
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Hemos enviado esta respuesta a { $sender }. Pero en el futuro, tus respuestas no se enviarán.
+replies-only-available-with-premium = Responder a correos electrónicos reenviados desde tu correo electrónico enmascarado solo está disponible con { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Las respuestas no están incluidas en tu cuenta gratuita.
+reply-not-sent-header = Tu respuesta no ha sido enviada
+upgrade-to-reply-to-future-emails = Actualiza ahora para enviar respuestas
+upgrade-for-more-protection = Actualiza ahora para una mayor protección
+upgrade-to-premium = Actualiza a { -brand-name-firefox-relay-premium }
+manage-your-masks = Administra tus máscaras
 
 ## Notifications component
 
