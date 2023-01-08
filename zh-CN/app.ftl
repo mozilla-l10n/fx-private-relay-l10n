@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = 菜单
 nav-home = 主页
+nav-email-dashboard = 马甲邮箱
+nav-phone-dashboard = 虚拟手机号
 label-open-menu = 打开菜单
 avatar-tooltip = 个人资料
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,7 +37,10 @@ nav-profile-contact = 联系我们
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
+# Deprecated
+nav-phone = 电话号码
 nav-duo-description = 切换面板
+nav-duo-email-mask-alt = 马甲邮箱
 nav-duo-phone-mask-alt = 虚拟手机号
 
 ## Mobile menu text
@@ -43,6 +48,7 @@ nav-duo-phone-mask-alt = 虚拟手机号
 menu-upgrade-button = 升级
 menu-toggle-open = 打开菜单
 menu-toggle-close = 关闭菜单
+# Deprecated
 nav-dashboard = 面板
 nav-settings = 设置
 nav-support = 帮助和支持
@@ -77,33 +83,28 @@ whatsnew-footer-learn-more-label = 详细了解
 whatsnew-empty-message = 请常回来看看！我们正不断努力开发更多新功能，让 { -brand-name-relay } 更加强大易用。
 whatsnew-feature-size-limit-heading = 附件容量增加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } 现在可以转发最大 25MB 的电子邮件，包含（…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } 现在可以转发最大 25MB 的电子邮件（包含附件）
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件，包含（…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件（包含附件）。
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = 当网站要求您输入邮箱时，请打开…
 whatsnew-feature-sign-back-in-description = 要使用先前用过的马甲邮箱登录网站，请在网站的邮箱输入框中点击右键菜单，之后选择马甲邮箱并自动填充。
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 🐍 + 👕 = 🐢，📧 + 👕 = Firefox Relay
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = { -brand-name-firefox-relay }，为邮箱披上“马甲”…
@@ -113,8 +114,7 @@ whatsnew-feature-alias-to-mask-description = { -brand-name-firefox-relay }，为
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已在瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已在芬兰推出
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
 whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
@@ -877,9 +877,6 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-2 = 升级为 { $premium_link }，即享不限数量马甲和自定义子域名。
-# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
 forwarded-email-trackers-blocked-report = 详细了解
@@ -891,6 +888,12 @@ forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 { $premium_link }。
 
+## Email sent to free users who try to reply
+
+
 ## Notifications component
 
 toast-button-close-label = 关闭通知
+
+## API error messages
+
