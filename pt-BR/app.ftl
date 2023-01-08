@@ -475,8 +475,10 @@ settings-error-save-heading = Falha na alteração das configurações
 settings-error-save-description = Suas alterações nas configurações não foram salvas devido a um erro de conexão. Tente novamente.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Está desativada a função de rótulos de máscaras
+settings-warning-collection-off-heading-3 = Seus nomes de conta de máscara de email estão desativados
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = O { -brand-name-relay } no momento não tem permissão para coletar os dados que mostram os sites onde você gerou e usou máscaras de email. Você pode alterar isso em “Configurações”, na seção “Coleta de dados”.
+settings-warning-collection-off-description-3 = No momento, o { -brand-name-relay } não tem permissão para rotular suas máscaras de email com os sites onde as usou. Para alterar isso, ative nomes de contas em máscaras de email na seção “Privacidade”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidade
 setting-label-collection-description-2 = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde suas máscaras foram criadas e usadas.
@@ -1108,6 +1110,9 @@ forwarded-email-footer-premium-banner = Mudar para o { -brand-name-relay-premium
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Mude para o { $premium_link } antes que o preço inicial expire.
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
