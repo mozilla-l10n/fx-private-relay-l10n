@@ -564,6 +564,7 @@ faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa suas máscaras de email, para que possamos fornecer e melhorar este serviço para você.
+faq-question-8-answer-3-html = O { -brand-name-firefox-relay } coleta os sites onde você usa suas máscaras de email e rotula suas máscaras com esses sites para que você possa identificar com facilidade. Você pode desativar isso na página de configurações, na seção Privacidade. Mas observe que desativar esta configuração significa que você não poderá ver onde usou cada máscara e seus nomes de conta não serão mais sincronizados entre dispositivos. Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>.
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
 faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -brand-name-relay }?
@@ -1115,6 +1116,9 @@ forwarded-email-footer-offer-countdown-banner = Mude para o { $premium_link } an
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Enviamos esta resposta para { $sender }. Mas, daqui em diante, suas respostas não serão enviadas.
 replies-only-available-with-premium = Responder a emails encaminhados de seu email mascarado só está disponível no { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Enviar respostas não está incluído na sua conta gratuita
 reply-not-sent-header = Sua resposta não foi enviada
