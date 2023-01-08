@@ -482,8 +482,10 @@ settings-warning-collection-off-description-3 = No momento, o { -brand-name-rela
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidade
 setting-label-collection-description-2 = Permitir que o { -brand-name-relay } colete dados que mostram os sites onde suas máscaras foram criadas e usadas.
+setting-label-collection-description-3 = Ativar nomes de conta em máscaras de email
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Esses dados nos permitem rotular suas máscaras de email com os sites onde são usadas. Se você decidir não usar esta preferência, suas máscaras de email não são identificadas com os sites onde são usadas.
+setting-label-collection-off-warning-3 = O { -brand-name-firefox-relay } armazena os sites onde você usa suas máscaras de email e rotula suas máscaras com esses sites para que você identifique com facilidade. Desativar isso significa que você não poderá ver onde usou cada máscara. Seus nomes de contas não serão mais sincronizados entre dispositivos.
 settings-button-save-label = Salvar
 settings-button-save-tooltip = Aplicar as configurações escolhidas
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -1113,6 +1115,13 @@ forwarded-email-footer-offer-countdown-banner = Mude para o { $premium_link } an
 
 ## Email sent to free users who try to reply
 
+replies-only-available-with-premium = Responder a emails encaminhados de seu email mascarado só está disponível no { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Enviar respostas não está incluído na sua conta gratuita
+reply-not-sent-header = Sua resposta não foi enviada
+upgrade-to-reply-to-future-emails = Mude agora para enviar respostas
+upgrade-for-more-protection = Mude para ter mais proteção
+upgrade-to-premium = Mudar para o { -brand-name-firefox-relay-premium }
+manage-your-masks = Gerenciar suas máscaras
 
 ## Notifications component
 
