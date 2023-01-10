@@ -439,7 +439,10 @@ premium-promo-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Junge te al lista de attendentia de { -brand-name-relay-premium }
+waitlist-heading-2 = Junge te al lista de attendentia de { -brand-name-relay-premium }
+# Deprecated
 waitlist-lead = Recipe avisos quando { -brand-name-firefox-relay-premium } sera disponibile pro tu region.
 waitlist-control-required = Necessari
 waitlist-control-email-label = Qual es tu adresse email?
@@ -449,9 +452,10 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = In qual pais vive tu?
 waitlist-control-country-label-2 = In qual pais o region vive tu?
 waitlist-control-locale-label = Elige tu lingua preferite.
+# Deprecated
 waitlist-submit-label = Junge te al lista de attendentia
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Junge te al lista de attendentia
+# Deprecated
 waitlist-privacy-policy-agree = Cliccante sur “{ waitlist-submit-label }”, tu accepta nostre <a>Politica de confidentialitate</a>.
 waitlist-privacy-policy-use = Tu informationes solo sera usate pro notificar te re le disponibilitate de { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
