@@ -1177,7 +1177,9 @@ forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } bef
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We’ve sent this reply to { $sender }. But moving forward, your replies will not be sent.
-
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Your reply was NOT sent to { $sender }.
 replies-only-available-with-premium = Replying to forwarded emails from your masked email is only available with { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Replies are not included with your free account
 reply-not-sent-header = Your reply was not sent
