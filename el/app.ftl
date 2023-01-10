@@ -476,6 +476,7 @@ settings-warning-collection-off-description-2 = Το { -brand-name-relay } δε�
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 setting-label-collection-description-2 = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται οι μάσκες.
+setting-label-collection-description-3 = Ενεργοποίηση ονομάτων λογαριασμών για τις μάσκες email
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στις μάσκες σας με τους ιστοτόπους όπου χρησιμοποιούνται. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, οι μάσκες σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
 settings-button-save-label = Αποθήκευση
@@ -1105,6 +1106,11 @@ forwarded-email-footer-premium-banner = Αναβάθμιση στο { -brand-nam
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση στο { $premium_link } πριν λήξει η τιμή γνωριμίας μας.
+
+## Email sent to free users who try to reply
+
+replies-not-included-in-free-account-header = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει απαντήσεις
+reply-not-sent-header = Η απάντησή σας δεν απεστάλη
 
 ## Notifications component
 
