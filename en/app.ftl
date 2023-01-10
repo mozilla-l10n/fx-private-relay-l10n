@@ -455,8 +455,16 @@ premium-promo-pricing-offer-end-body = Get { -brand-name-relay-premium } before 
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Join the { -brand-name-relay-premium } Waitlist
+waitlist-heading-2 = Join the { -brand-name-relay-premium } waitlist
+waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist 
+waitlist-heading-bundle = Join the waitlist for the { -brand-name-relay } + { -brand-name-vpn } bundle
+# Deprecated
 waitlist-lead = Get notified when { -brand-name-firefox-relay-premium } is available for your region.
+waitlist-lead-2 = We’ll let you know when { -brand-name-relay-premium } is available in your area.
+waitlist-lead-phone = We’ll let you know when phone masking is available in your area.
+waitlist-lead-bundle = We’ll let you know when you can get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn } at a discount in your area.
 waitlist-control-required = Required
 waitlist-control-email-label = What is your email address?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -465,11 +473,15 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = What country do you live in?
 waitlist-control-country-label-2 = What country or region do you live in?
 waitlist-control-locale-label = Select your preferred language.
+# Deprecated
 waitlist-submit-label = Join the Waitlist
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Join the waitlist
+# Deprecated
 waitlist-privacy-policy-agree = By clicking “{ waitlist-submit-label }”, you agree to our <a>Privacy Policy</a>.
+waitlist-privacy-policy-agree-2 = By clicking “{ waitlist-submit-label-2 }”, you agree to our <a>Privacy Policy</a>.
 waitlist-privacy-policy-use = Your information will only be used to notify you about { -brand-name-firefox-relay-premium } availability.
+waitlist-privacy-policy-use-phone = Your information will only be used to notify you when phone masking is available in your area.
+waitlist-privacy-policy-use-bundle = Your information will only be used to notify you about { -brand-name-relay } + { -brand-name-vpn } bundle availability.
 waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
 waitlist-subscribe-error-connection = There was an error adding you to the waitlist. Please check your connection, then try again.
 waitlist-subscribe-error-unknown = There was an error adding you to the waitlist. Please try again.
