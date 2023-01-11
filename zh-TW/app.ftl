@@ -417,8 +417,15 @@ premium-promo-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = 加入 { -brand-name-relay-premium } 候補名單
+waitlist-heading-2 = 加入 { -brand-name-relay-premium } 候補名單
+waitlist-heading-phone = 加入 { -brand-name-relay } 虛擬手機號碼轉接功能候補名單
+waitlist-heading-bundle = 加入 { -brand-name-relay } + { -brand-name-vpn } 套裝候補名單
+# Deprecated
 waitlist-lead = 當 { -brand-name-firefox-relay-premium } 於您的地區推出時通知。
+waitlist-lead-2 = 我們會在 { -brand-name-relay-premium } 於您所在地區推出時通知。
+waitlist-lead-phone = 我們會在虛擬手機號碼轉接功能於您所在地區推出時通知。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的電子郵件地址是什麼？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -427,9 +434,10 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = 您生活在哪個國家？
 waitlist-control-country-label-2 = 您生活在哪個國家或地區？
 waitlist-control-locale-label = 選擇想使用的語言。
+# Deprecated
 waitlist-submit-label = 加入排隊名單
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = 加入候補名單
+# Deprecated
 waitlist-privacy-policy-agree = 點擊「{ waitlist-submit-label }」，代表您同意我們的<a>隱私權保護政策</a>。
 waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
 waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
