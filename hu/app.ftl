@@ -443,7 +443,10 @@ premium-promo-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Csatlakozzon a { -brand-name-relay-premium } várólistához
+waitlist-heading-2 = Csatlakozzon a { -brand-name-relay-premium } várólistához
+# Deprecated
 waitlist-lead = Értesüljön, ha a { -brand-name-firefox-relay-premium } elérhetővé válik a régiójában.
 waitlist-control-required = Kötelező
 waitlist-control-email-label = Mi az e-mail-címe?
@@ -453,9 +456,9 @@ waitlist-control-email-placeholder = email@example.com
 waitlist-control-country-label = Melyik országban él?
 waitlist-control-country-label-2 = Melyik országban vagy régióban él?
 waitlist-control-locale-label = Válassza ki az előnyben részesített nyelvét.
+# Deprecated
 waitlist-submit-label = Csatlakozás a várólistához
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = A „{ waitlist-submit-label }” gombra kattintással elfogadja az <a>Adatvédelmi irányelveinket</a>.
 waitlist-privacy-policy-use = Adatait csak arra használjuk, hogy értesítsük a { -brand-name-firefox-relay-premium } elérhetőségéről.
 waitlist-subscribe-success = Rajta van a listán. Amint a { -brand-name-firefox-relay-premium } elérhetővé válik az Ön régiójában, e-mailt küldünk Önnek.
