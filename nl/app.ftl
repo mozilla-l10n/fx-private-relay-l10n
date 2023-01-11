@@ -451,8 +451,12 @@ premium-promo-pricing-offer-end-body = Abonneer u vóór { $end_date } op { -bra
 waitlist-heading = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
 waitlist-heading-2 = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
 waitlist-heading-phone = Inschrijven voor de { -brand-name-relay }-telefoonmaskeringswachtlijst
+waitlist-heading-bundle = Inschrijven voor de { -brand-name-relay } + { -brand-name-vpn }-bundel
 # Deprecated
 waitlist-lead = Ontvang een bericht wanneer { -brand-name-firefox-relay-premium } beschikbaar is voor uw regio.
+waitlist-lead-2 = We laten het u weten wanneer { -brand-name-relay-premium } beschikbaar is in uw regio.
+waitlist-lead-phone = We laten het u weten wanneer telefoonmaskering beschikbaar is in uw regio.
+waitlist-lead-bundle = We laten het u weten wanneer u { -brand-name-relay-premium } en { -brand-name-mozilla-vpn } met korting kunt krijgen in uw regio.
 waitlist-control-required = Vereist
 waitlist-control-email-label = Wat is uw e-mailadres?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -463,9 +467,13 @@ waitlist-control-country-label-2 = In welk land of welke regio woont u?
 waitlist-control-locale-label = Selecteer uw voorkeurstaal.
 # Deprecated
 waitlist-submit-label = Op de wachtlijst plaatsen
+waitlist-submit-label-2 = Op de wachtlijst plaatsen
 # Deprecated
 waitlist-privacy-policy-agree = Door op ‘{ waitlist-submit-label }’ te klikken, gaat u akkoord met ons <a>Privacybeleid</a>.
+waitlist-privacy-policy-agree-2 = Door op ‘{ waitlist-submit-label-2 }’ te klikken, gaat u akkoord met ons <a>Privacybeleid</a>.
 waitlist-privacy-policy-use = Uw gegevens worden alleen gebruikt om u te berichten over beschikbaarheid van { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Uw gegevens worden alleen gebruikt om u te berichten als telefoonmaskering beschikbaar is in uw regio.
+waitlist-privacy-policy-use-bundle = Uw gegevens worden alleen gebruikt om u te berichten over beschikbaarheid van de { -brand-name-relay } + { -brand-name-vpn }-bundel.
 waitlist-subscribe-success = U staat op de lijst! Zodra { -brand-name-firefox-relay-premium } beschikbaar komt voor uw regio, sturen we u een e-mailbericht.
 waitlist-subscribe-error-connection = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Controleer uw verbinding en probeer het opnieuw.
 waitlist-subscribe-error-unknown = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Probeer het nog eens.
@@ -1131,6 +1139,9 @@ forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } v
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We hebben dit antwoord naar { $sender } gestuurd. In de toekomst worden uw antwoorden echter niet verzonden.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Uw antwoord is NIET verzonden naar { $sender }.
 replies-only-available-with-premium = Het beantwoorden van doorgestuurde e-mailberichten vanuit uw gemaskeerde e-mailadres is alleen beschikbaar bij { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Antwoorden zijn niet inbegrepen bij uw gratis account
 reply-not-sent-header = Uw antwoord is niet verzonden
