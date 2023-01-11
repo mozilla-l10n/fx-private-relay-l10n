@@ -449,8 +449,16 @@ premium-promo-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -br
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Ynskriuwe foar de { -brand-name-relay-premium }-wachtlist
+waitlist-heading-2 = Ynskriuwe foar de { -brand-name-relay-premium }-wachtlist
+waitlist-heading-phone = Ynskriuwe foar de { -brand-name-relay }-telefoanmaskearingswachtlist
+waitlist-heading-bundle = Ynskriuwe foar de { -brand-name-relay } + { -brand-name-vpn }-bondel
+# Deprecated
 waitlist-lead = Untfang in berjocht wannear’t { -brand-name-firefox-relay-premium } beskikber is foar jo regio.
+waitlist-lead-2 = Wy litte jo witte wannear’t { -brand-name-relay-premium } beskikber is yn jo regio.
+waitlist-lead-phone = Wy litte jo witte wannear’t telefoanmaskearing beskikber is yn jo regio.
+waitlist-lead-bundle = Wy litte it jo witte wannear’t jo { -brand-name-relay-premium } en { -brand-name-mozilla-vpn } mei koarting krije kinne yn jo regio.
 waitlist-control-required = Fereaske
 waitlist-control-email-label = Wat is jo e-mailadres?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -459,11 +467,15 @@ waitlist-control-email-placeholder = jonamme@example.com
 waitlist-control-country-label = Yn hokker lân wenje jo?
 waitlist-control-country-label-2 = Yn hokker lân of regio wenje jo?
 waitlist-control-locale-label = Selektearje jo foarkartaal
+# Deprecated
 waitlist-submit-label = Op de wachtlist pleatse
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Op de wachtlist pleatse
+# Deprecated
 waitlist-privacy-policy-agree = Troch op ‘{ waitlist-submit-label }’ te klikken, geane jo akkoard mei ús <a>Privacybelied</a>.
+waitlist-privacy-policy-agree-2 = Troch op ‘{ waitlist-submit-label-2 }’ te klikken, geane jo akkoard mei ús <a>Privacybelied</a>.
 waitlist-privacy-policy-use = Jo gegevens wurde allinnich brûkt om jo te berjochtsjen oer beskikberheid fan { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Jo gegevens wurde allinnich brûkt om jo te berjochtsjen as telefoanmaskearing beskikber is yn jo regio.
+waitlist-privacy-policy-use-bundle = Jo gegevens wurde allinnich brûkt om jo te berjochtsjen oer beskikberheid fan { -brand-name-relay } + { -brand-name-vpn }-bondel.
 waitlist-subscribe-success = Jo steane op de list! Sa gau as { -brand-name-firefox-relay-premium } beskikber komt foar jo regio, stjoere wy jo in e-mailberjocht.
 waitlist-subscribe-error-connection = Der is in flater bard by it pleatsen op de wachtlist. Kontrolearje jo ferbining en probearje it opnij.
 waitlist-subscribe-error-unknown = Der is in flater bard by it pleatsen op de wachtlist. Probearje it nochris.
@@ -1129,6 +1141,9 @@ forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Wy hawwe dit antwurd nei { $sender } stjoerd. Yn de takomst wurde jo antwurden echter net ferstjoerd.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Jo antwurd is NET ferstjoerd nei { $sender }.
 replies-only-available-with-premium = It beäntwurdzjen fan trochstjoerde e-mailberjochten fan jo maskearre e-mailadres is allinnich beskikber by { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Antwurden binne net ynbegrepen by jo fergese account
 reply-not-sent-header = Jo antwurd is net ferstjoerd
