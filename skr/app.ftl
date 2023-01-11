@@ -446,6 +446,7 @@ premium-promo-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-
 # Deprecated
 waitlist-heading = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 waitlist-heading-2 = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
+waitlist-heading-phone = { -brand-name-relay } فون ماسکنگ تانگھ تندیر نال رلت کرو
 # Deprecated
 waitlist-lead = اطلاع نامہ گھنو جہڑے ویلے { -brand-name-firefox-relay-premium } تہاݙے علاقے وچ دستیاب ہووے۔
 waitlist-control-required = ضروری ہے
