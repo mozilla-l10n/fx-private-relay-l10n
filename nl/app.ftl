@@ -447,7 +447,11 @@ premium-promo-pricing-offer-end-body = Abonneer u vóór { $end_date } op { -bra
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
+waitlist-heading-2 = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
+waitlist-heading-phone = Inschrijven voor de { -brand-name-relay }-telefoonmaskeringswachtlijst
+# Deprecated
 waitlist-lead = Ontvang een bericht wanneer { -brand-name-firefox-relay-premium } beschikbaar is voor uw regio.
 waitlist-control-required = Vereist
 waitlist-control-email-label = Wat is uw e-mailadres?
@@ -457,9 +461,9 @@ waitlist-control-email-placeholder = uwnaam@example.com
 waitlist-control-country-label = In welk land woont u?
 waitlist-control-country-label-2 = In welk land of welke regio woont u?
 waitlist-control-locale-label = Selecteer uw voorkeurstaal.
+# Deprecated
 waitlist-submit-label = Op de wachtlijst plaatsen
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = Door op ‘{ waitlist-submit-label }’ te klikken, gaat u akkoord met ons <a>Privacybeleid</a>.
 waitlist-privacy-policy-use = Uw gegevens worden alleen gebruikt om u te berichten over beschikbaarheid van { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = U staat op de lijst! Zodra { -brand-name-firefox-relay-premium } beschikbaar komt voor uw regio, sturen we u een e-mailbericht.
