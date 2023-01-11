@@ -444,8 +444,16 @@ premium-promo-pricing-offer-end-body = Отримайте { -brand-name-relay-pr
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Долучайтеся до списку очікування { -brand-name-relay-premium }
+waitlist-heading-2 = Долучайтеся до списку очікування { -brand-name-relay-premium }
+waitlist-heading-phone = Долучайтеся до списку очікування масок номера телефону { -brand-name-relay } 
+waitlist-heading-bundle = Долучайтеся до списку очікування пакета { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Отримайте сповіщення, коли { -brand-name-firefox-relay-premium } стане доступним для вашого регіону.
+waitlist-lead-2 = Ми повідомимо вас, коли { -brand-name-relay-premium } стане доступним у вашому регіоні.
+waitlist-lead-phone = Ми повідомимо вас, коли у вашому регіоні буде доступне маскування номера телефону.
+waitlist-lead-bundle = Ми повідомимо вас, коли ви зможете отримати { -brand-name-relay-premium } і { -brand-name-mozilla-vpn } зі знижкою у вашому регіоні.
 waitlist-control-required = Обов'язково
 waitlist-control-email-label = Яка ваша електронна адреса?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -454,11 +462,15 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = В якій країні ви живете?
 waitlist-control-country-label-2 = У якій країні чи регіоні ви живете?
 waitlist-control-locale-label = Виберіть бажану мову.
+# Deprecated
 waitlist-submit-label = Долучитись до списку очікування
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Долучитися до списку очікування
+# Deprecated
 waitlist-privacy-policy-agree = Натискаючи «{ waitlist-submit-label }», ви погоджуєтеся з нашою <a>Політикою приватності</a>.
+waitlist-privacy-policy-agree-2 = Натискаючи «{ waitlist-submit-label-2 }», ви погоджуєтеся з нашою <a>Політикою приватності</a>.
 waitlist-privacy-policy-use = Ваші дані використовуватимуться лише для сповіщення про наявність { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Ваші дані використовуватимуться лише для сповіщення, коли у вашому регіоні доступне маскування номера телефону.
+waitlist-privacy-policy-use-bundle = Ваші дані використовуватимуться лише для сповіщення про доступність пакета { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Ви в списку! Щойно { -brand-name-firefox-relay-premium } стане доступним у вашому регіоні, ми надішлемо вам електронний лист.
 waitlist-subscribe-error-connection = Під час додавання вас до списку очікування сталася помилка. Перевірте з’єднання, а потім повторіть спробу.
 waitlist-subscribe-error-unknown = Під час додавання вас до списку очікування сталася помилка. Повторіть спробу.
@@ -1129,6 +1141,9 @@ forwarded-email-footer-offer-countdown-banner = Оновіть до { $premium_l
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Ми надіслали цю відповідь до { $sender }. Але надалі ваші відповіді не надсилатимуться.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Вашу відповідь НЕ надіслано до { $sender }.
 replies-only-available-with-premium = Відповідати на переслані електронні листи з вашої замаскованої електронної пошти можна лише за допомогою { -brand-name-firefox-relay-premium }
 replies-not-included-in-free-account-header = Відповіді не входять до вашого безплатного облікового запису
 reply-not-sent-header = Ваша відповідь не надіслана
