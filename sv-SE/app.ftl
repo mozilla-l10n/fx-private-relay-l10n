@@ -469,6 +469,7 @@ waitlist-privacy-policy-agree = Genom att klicka på "{ waitlist-submit-label }"
 waitlist-privacy-policy-agree-2 = Genom att klicka på "{ waitlist-submit-label-2 }" godkänner du vår <a>sekretesspolicy</a>.
 waitlist-privacy-policy-use = Din information kommer endast att användas för att meddela dig om tillgänglighet för { -brand-name-firefox-relay-premium }.
 waitlist-privacy-policy-use-phone = Din information kommer endast att användas för att meddela dig när telefonmaskering är tillgänglig i ditt område.
+waitlist-privacy-policy-use-bundle = Din information kommer endast att användas för att meddela dig om tillgänglighet för paketet { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Du är på listan! När { -brand-name-firefox-relay-premium } blir tillgänglig för din region skickar vi ett e-postmeddelande till dig.
 waitlist-subscribe-error-connection = Det gick inte att lägga till dig på väntelistan. Kontrollera din anslutning och försök sedan igen.
 waitlist-subscribe-error-unknown = Det gick inte att lägga till dig på väntelistan. Var god försök igen.
@@ -1134,6 +1135,9 @@ forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link 
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Vi har skickat det här svaret till { $sender }. Men fortsättningsvis kommer dina svar inte att skickas.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Ditt svar skickades INTE till { $sender }.
 replies-only-available-with-premium = Att svara på vidarebefordrade e-postmeddelanden från din maskerade e-post är endast tillgängligt med { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Möjligheten att svara ingår inte i ditt gratiskonto
 reply-not-sent-header = Ditt svar skickades inte
