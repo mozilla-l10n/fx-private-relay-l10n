@@ -443,7 +443,10 @@ premium-promo-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
+waitlist-heading-2 = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
+# Deprecated
 waitlist-lead = اطلاع نامہ گھنو جہڑے ویلے { -brand-name-firefox-relay-premium } تہاݙے علاقے وچ دستیاب ہووے۔
 waitlist-control-required = ضروری ہے
 waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
@@ -453,10 +456,12 @@ waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-country-label = تساں کہڑے ملک وچ راہندے ہو؟
 waitlist-control-country-label-2 = تساں کہڑے ملک یا علاقے وچ راہندے ہو؟
 waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
+# Deprecated
 waitlist-submit-label = تانگھ تندیر نال رلت کرو
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = تانگھ تندیر نال رلت کرو
+# Deprecated
 waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
+waitlist-privacy-policy-agree-2 = ”{ waitlist-submit-label-2 }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
 waitlist-privacy-policy-use = تہاݙی معلومات صرف تہاکوں { -brand-name-firefox-relay-premium } دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
 waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک واری تہاݙے علاقے وچ { -brand-name-firefox-relay-premium } دستیاب تھی ون٘ڄے، اساں تہاکوں ای میل کریسوں۔
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
