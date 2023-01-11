@@ -550,6 +550,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些轉寄信箱標籤的資訊（非必要），讓我們為您提供並改善服務。
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } 會收集您曾在哪些網站使用過轉寄信箱的紀錄，並幫信箱加上標籤，讓您可輕鬆確認名稱。您可以在「設定」頁面中的「隱私權」關閉此功能，但請注意：關閉此功能後就無法再看到您曾於哪些網站使用過每轉寄信箱了，且帳號名稱也不會再於裝置間同步。您可以在我們的<a href="{ $url }" { $attrs }>隱私權公告</a>頁面了解 { -brand-name-firefox-relay } 會收集哪些資料。
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合理用途？
