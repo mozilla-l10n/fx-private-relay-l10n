@@ -445,7 +445,12 @@ premium-promo-pricing-offer-end-body = Holen Sie sich { -brand-name-relay-premiu
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
+waitlist-heading-2 = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
+waitlist-heading-phone = Setzen Sie sich auf die Warteliste für { -brand-name-relay }-Telefonmasken
+waitlist-heading-bundle = Setzen Sie sich auf die Warteliste für das Paket { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Lassen Sie sich benachrichtigen, wenn { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-control-required = Erforderlich
 waitlist-control-email-label = Wie lautet Ihre E-Mail-Adresse?
@@ -455,9 +460,9 @@ waitlist-control-email-placeholder = ihrname@example.com
 waitlist-control-country-label = In welchem Land leben Sie?
 waitlist-control-country-label-2 = In welchen Land oder welcher Region leben Sie?
 waitlist-control-locale-label = Wählen Sie Ihre bevorzugte Sprache aus.
+# Deprecated
 waitlist-submit-label = Auf Warteliste setzen
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = Indem Sie auf „{ waitlist-submit-label }“ klicken, stimmen Sie unserer <a>Datenschutzerklärung</a> zu.
 waitlist-privacy-policy-use = Ihre Daten werden nur verwendet, um Sie über die Verfügbarkeit von { -brand-name-firefox-relay-premium } zu informieren.
 waitlist-subscribe-success = Sie stehen auf der Liste! Wir werden Sie per E-Mail informieren, sobald { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
