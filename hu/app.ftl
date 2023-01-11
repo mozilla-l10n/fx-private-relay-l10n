@@ -446,8 +446,13 @@ premium-promo-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium
 # Deprecated
 waitlist-heading = Csatlakozzon a { -brand-name-relay-premium } várólistához
 waitlist-heading-2 = Csatlakozzon a { -brand-name-relay-premium } várólistához
+waitlist-heading-phone = Csatlakozzon a { -brand-name-relay } telefonmaszkolási várólistához
+waitlist-heading-bundle = Csatlakozzon a { -brand-name-relay } + { -brand-name-vpn } csomag várólistájához
 # Deprecated
 waitlist-lead = Értesüljön, ha a { -brand-name-firefox-relay-premium } elérhetővé válik a régiójában.
+waitlist-lead-2 = Értesíteni fogjuk, ha a { -brand-name-relay-premium } elérhető lesz az Ön területén.
+waitlist-lead-phone = Értesíteni fogjuk, ha a telefonmaszkolás elérhető lesz az Ön területén.
+waitlist-lead-bundle = Értesítjük, ha kedvezményesen szerezheti be a { -brand-name-relay-premium }ot és a { -brand-name-mozilla-vpn }-t az Ön területén.
 waitlist-control-required = Kötelező
 waitlist-control-email-label = Mi az e-mail-címe?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -458,9 +463,13 @@ waitlist-control-country-label-2 = Melyik országban vagy régióban él?
 waitlist-control-locale-label = Válassza ki az előnyben részesített nyelvét.
 # Deprecated
 waitlist-submit-label = Csatlakozás a várólistához
+waitlist-submit-label-2 = Csatlakozás a várólistához
 # Deprecated
 waitlist-privacy-policy-agree = A „{ waitlist-submit-label }” gombra kattintással elfogadja az <a>Adatvédelmi irányelveinket</a>.
+waitlist-privacy-policy-agree-2 = A „{ waitlist-submit-label-2 }” gombra kattintással elfogadja az <a>Adatvédelmi irányelveinket</a>.
 waitlist-privacy-policy-use = Adatait csak arra használjuk, hogy értesítsük a { -brand-name-firefox-relay-premium } elérhetőségéről.
+waitlist-privacy-policy-use-phone = Adatait csak arra használjuk, hogy értesítsük a telefonmaszkolás elérhetőségéről az Ön területén.
+waitlist-privacy-policy-use-bundle = Adatait csak arra használjuk, hogy értesítsük a { -brand-name-relay } + { -brand-name-vpn } csomag elérhetőségéről.
 waitlist-subscribe-success = Rajta van a listán. Amint a { -brand-name-firefox-relay-premium } elérhetővé válik az Ön régiójában, e-mailt küldünk Önnek.
 waitlist-subscribe-error-connection = Hiba történt a várólistára való felvétel során. Ellenőrizze az internetkapcsolatát, majd próbálja újra.
 waitlist-subscribe-error-unknown = Hiba történt a várólistára való felvétel során. Próbálja újra.
@@ -1126,6 +1135,9 @@ forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }r
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Elküldtük ezt a választ a(z) { $sender } címre. De a továbbiakban a válaszok nem lesznek elküldve.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = A válasza NEM lett elküldve a következő címre: { $sender }.
 replies-only-available-with-premium = A maszkolt e-mail-címekről továbbított levelekre történő válasz csak a { -brand-name-firefox-relay-premium } használatával érhető el.
 replies-not-included-in-free-account-header = Az ingyenes fiók nem tartalmazza a válaszokat
 reply-not-sent-header = A válasza nem lett elküldve
