@@ -446,8 +446,16 @@ premium-promo-pricing-offer-end-body = Získajte { -brand-name-relay-premium } p
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Pridajte sa do zoznamu čakateľov na { -brand-name-relay-premium }
+waitlist-heading-2 = Pridajte sa do zoznamu čakateľov na { -brand-name-relay-premium }
+waitlist-heading-phone = Pridajte sa do zoznamu čakateľov na maskovanie telefónneho čísla pomocou { -brand-name-relay }
+waitlist-heading-bundle = Pridajte sa do zoznamu čakateľov na balík { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Dáme vám vedieť, keď bude { -brand-name-firefox-relay-premium } k dispozícii pre váš región.
+waitlist-lead-2 = Dáme vám vedieť, keď bude { -brand-name-relay-premium } vo vašej oblasti k dispozícii.
+waitlist-lead-phone = Dáme vám vedieť, keď bude maskovanie telefónneho čísla dostupné vo vašej oblasti.
+waitlist-lead-bundle = Dáme vám vedieť, keď budete môcť získať { -brand-name-relay-premium } a { -brand-name-mozilla-vpn } so zľavou vo vašej oblasti.
 waitlist-control-required = Vyžadované
 waitlist-control-email-label = Aká je vaša e-mailová adresa?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -456,11 +464,15 @@ waitlist-control-email-placeholder = vasemeno@example.com
 waitlist-control-country-label = V ktorej krajine žijete?
 waitlist-control-country-label-2 = V ktorej krajine alebo regióne žijete?
 waitlist-control-locale-label = Vyberte si vami požadovaný jazyk.
+# Deprecated
 waitlist-submit-label = Pridať sa na zoznam čakateľov
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Pridať sa na zoznam čakateľov
+# Deprecated
 waitlist-privacy-policy-agree = Kliknutím na “{ waitlist-submit-label }“ súhlasíte s našimi <a>Zásadami ochrany osobných údajov</a>.
+waitlist-privacy-policy-agree-2 = Kliknutím na “{ waitlist-submit-label-2 }“ súhlasíte s našimi <a>Zásadami ochrany osobných údajov</a>.
 waitlist-privacy-policy-use = Vaše informácie budú použité iba na to, aby sme vás informovali o dostupnosti služby { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Vaše informácie sa použijú iba na to, aby sme vás upozornili, keď bude vo vašej oblasti k dispozícii maskovanie telefónneho čísla.
+waitlist-privacy-policy-use-bundle = Vaše informácie budú použité iba na to, aby sme vás informovali o dostupnosti balíka { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Ste na zozname! Keď bude služba { -brand-name-firefox-relay-premium } dostupná pre váš región, pošleme vám e-mail.
 waitlist-subscribe-error-connection = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Skontrolujte pripojenie a skúste to znova.
 waitlist-subscribe-error-unknown = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Prosím skúste znova.
@@ -1136,6 +1148,9 @@ forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } sk
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Túto odpoveď sme odoslali odosielateľovi { $sender }. Do budúcna však vaše odpovede nebudú odosielané.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Vaša odpoveď NEBOLA odoslaná na adresu { $sender }.
 replies-only-available-with-premium = Odpovedanie na preposlané e-maily z vášho maskovaného e-mailu je k dispozícii iba s { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Odpovede nie sú súčasťou vášho bezplatného účtu
 reply-not-sent-header = Vaša odpoveď nebola odoslaná
