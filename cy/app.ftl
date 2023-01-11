@@ -452,7 +452,7 @@ premium-promo-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn 
 # Deprecated
 waitlist-heading = Ymunwch â Rhestr Aros { -brand-name-relay-premium }
 waitlist-heading-2 = Ymunwch â rhestr aros { -brand-name-relay-premium }
-waitlist-heading-phone = Ymunwch â rhestr aros arallenw ffôn { -brand-name-relay }
+waitlist-heading-phone = Ymunwch â rhestr aros cuddio ffôn { -brand-name-relay }
 waitlist-heading-bundle = Ymunwch â'r rhestr aros ar gyfer pecyn { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Cael gwybod pan fydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal.
@@ -474,6 +474,8 @@ waitlist-submit-label-2 = Ymunwch â'r rhestr aros
 waitlist-privacy-policy-agree = Drwy glicio “{ waitlist-submit-label }”, rydych yn cytuno i'n <a>Polisi Preifatrwydd</a>.
 waitlist-privacy-policy-agree-2 = Drwy glicio “{ waitlist-submit-label-2 }”, rydych yn cytuno i'n <a>Polisi Preifatrwydd</a>.
 waitlist-privacy-policy-use = Dim ond i'ch hysbysu am argaeledd { -brand-name-firefox-relay-premium } y bydd eich manylion yn cael eu defnyddio.
+waitlist-privacy-policy-use-phone = Dim ond i roi gwybod i chi pan fydd cuddio ffôn ar gael yn eich ardal y caiff eich manylion ei ddefnyddio.
+waitlist-privacy-policy-use-bundle = Dim ond i roi gwybod i chi am argaeledd pecyn { -brand-name-relay } + { -brand-name-vpn } y bydd eich manylion yn cael ei ddefnyddio.
 waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal, byddwn yn anfon e-bost atoch.
 waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
 waitlist-subscribe-error-unknown = Bu gwall wrth eich ychwanegu at y rhestr aros. Ceisiwch eto, os gwelwch yn dda.
@@ -1128,6 +1130,9 @@ forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link }
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Rydym wedi anfon yr ateb hwn at { $sender }. Ond yn y dyfodol, ni fydd eich atebion yn cael eu hanfon.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = NID anfonwyd eich ateb at { $sender }.
 replies-only-available-with-premium = Dim ond gyda { -brand-name-firefox-relay-premium } y mae ateb i e-byst a anfonwyd ymlaen o'ch arallenwau e-bost ar gael.
 replies-not-included-in-free-account-header = Nid yw atebion wedi'u cynnwys gyda'ch cyfrif rhad ac am ddim
 reply-not-sent-header = Nid yw eich ateb wedi'i anfon
