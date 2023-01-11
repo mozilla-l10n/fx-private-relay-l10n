@@ -449,8 +449,16 @@ premium-promo-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn 
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Ymunwch â Rhestr Aros { -brand-name-relay-premium }
+waitlist-heading-2 = Ymunwch â rhestr aros { -brand-name-relay-premium }
+waitlist-heading-phone = Ymunwch â rhestr aros arallenw ffôn { -brand-name-relay }
+waitlist-heading-bundle = Ymunwch â'r rhestr aros ar gyfer pecyn { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Cael gwybod pan fydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal.
+waitlist-lead-2 = Byddwn yn rhoi gwybod i chi pan fydd { -brand-name-relay-premium } ar gael yn eich ardal chi.
+waitlist-lead-phone = Byddwn yn rhoi gwybod i chi pan fydd cuddio ffôn ar gael yn eich ardal chi.
+waitlist-lead-bundle = Byddwn yn rhoi gwybod ichi pryd gallwch gael { -brand-name-relay-premium } a { -brand-name-mozilla-vpn } ar ddisgownt yn eich ardal chi.
 waitlist-control-required = Angenrheidiol
 waitlist-control-email-label = Beth yw eich cyfeiriad e-bost?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -459,10 +467,12 @@ waitlist-control-email-placeholder = eichenw@example.com
 waitlist-control-country-label = Ym mha wlad ydych chi'n byw?
 waitlist-control-country-label-2 = Ym mha wlad neu ranbarth ydych chi'n byw?
 waitlist-control-locale-label = Dewiswch eich iaith.
+# Deprecated
 waitlist-submit-label = Ymunwch â'r Rhestr Aros
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Ymunwch â'r rhestr aros
+# Deprecated
 waitlist-privacy-policy-agree = Drwy glicio “{ waitlist-submit-label }”, rydych yn cytuno i'n <a>Polisi Preifatrwydd</a>.
+waitlist-privacy-policy-agree-2 = Drwy glicio “{ waitlist-submit-label-2 }”, rydych yn cytuno i'n <a>Polisi Preifatrwydd</a>.
 waitlist-privacy-policy-use = Dim ond i'ch hysbysu am argaeledd { -brand-name-firefox-relay-premium } y bydd eich manylion yn cael eu defnyddio.
 waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal, byddwn yn anfon e-bost atoch.
 waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
