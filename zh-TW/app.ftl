@@ -426,6 +426,7 @@ waitlist-heading-bundle = 加入 { -brand-name-relay } + { -brand-name-vpn } 套
 waitlist-lead = 當 { -brand-name-firefox-relay-premium } 於您的地區推出時通知。
 waitlist-lead-2 = 我們會在 { -brand-name-relay-premium } 於您所在地區推出時通知。
 waitlist-lead-phone = 我們會在虛擬手機號碼轉接功能於您所在地區推出時通知。
+waitlist-lead-bundle = 我們會在 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn } 套裝折扣，於您所在地區推出時通知。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的電子郵件地址是什麼？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -439,7 +440,10 @@ waitlist-submit-label = 加入排隊名單
 waitlist-submit-label-2 = 加入候補名單
 # Deprecated
 waitlist-privacy-policy-agree = 點擊「{ waitlist-submit-label }」，代表您同意我們的<a>隱私權保護政策</a>。
+waitlist-privacy-policy-agree-2 = 點擊「{ waitlist-submit-label-2 }」，代表您同意我們的<a>隱私權保護政策</a>。
 waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
+waitlist-privacy-policy-use-phone = 您提供的資訊，將只會在虛擬手機號碼轉接功能於您所在地區推出時用來通知您。
+waitlist-privacy-policy-use-bundle = 您提供的資訊，將只會在 { -brand-name-relay } + { -brand-name-vpn } 套裝於您所在地區推出時用來通知您。
 waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
 waitlist-subscribe-error-connection = 將您加入候補名單時遇到錯誤，請確認網路連線是否正常，然後再試一次。
 waitlist-subscribe-error-unknown = 將您加入候補名單時發生錯誤，請再試一次。
@@ -460,12 +464,14 @@ settings-warning-collection-off-heading-2 = 已停用轉寄信箱標籤功能
 settings-warning-collection-off-heading-3 = 您的轉寄信箱帳號名稱已關閉
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } 目前並未被允許收集您用來產生與使用過轉寄信箱的網站資料。您可到「設定」當中的「資料收集」下方調整此設定。
+settings-warning-collection-off-description-3 = { -brand-name-relay } 目前未被允許用來在您使用過的網站來標示轉寄信箱。要變更此行為，請在「隱私權」頁面當中開啟轉寄信箱的帳號名稱功能。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隱私權
 setting-label-collection-description-2 = 允許 { -brand-name-relay } 收集資料，用來顯示轉寄信箱是用於哪些網站的。
 setting-label-collection-description-3 = 啟用轉寄信箱的帳號名稱
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = 此資料讓我們能將您產生的轉寄信箱與網站關聯標示起來。若您決定不開啟此設定，則不會標示這些轉寄信箱被用於哪些網站。
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } 會儲存您曾經使用過轉寄信箱的網站，並自動為您將轉寄信箱加上標籤，讓您可以輕鬆確認信箱名稱。關閉此功能代表您就無法看出曾在哪裡使用過轉寄信箱，且不會再於裝置間同步。
 settings-button-save-label = 儲存
 settings-button-save-tooltip = 套用設定。
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -1087,6 +1093,9 @@ forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束�
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = 我們已傳送這封回覆給 { $sender }，但接下來將不會再傳送回覆。
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = 未將您的回覆傳送給 { $sender }。
 replies-only-available-with-premium = 僅有 { -brand-name-firefox-relay-premium } 才可以透過轉寄信箱傳送回覆。
 replies-not-included-in-free-account-header = 免費帳戶不含信件回覆功能
 reply-not-sent-header = 並未寄出您的回覆
