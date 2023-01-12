@@ -457,6 +457,7 @@ waitlist-submit-label = Junge te al lista de attendentia
 waitlist-submit-label-2 = Junge te al lista de attendentia
 # Deprecated
 waitlist-privacy-policy-agree = Cliccante sur “{ waitlist-submit-label }”, tu accepta nostre <a>Politica de confidentialitate</a>.
+waitlist-privacy-policy-agree-2 = Cliccante sur “{ waitlist-submit-label-2 }”, tu accepta nostre <a>Politica de confidentialitate</a>.
 waitlist-privacy-policy-use = Tu informationes solo sera usate pro notificar te re le disponibilitate de { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
 waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
