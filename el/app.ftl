@@ -439,8 +439,11 @@ premium-promo-pricing-offer-end-body = Αποκτήστε το { -brand-name-rel
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
+# Deprecated
 waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
+waitlist-lead-2 = Θα σας ενημερώσουμε όταν το { -brand-name-relay-premium } είναι διαθέσιμο στην περιοχή σας.
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -449,9 +452,9 @@ waitlist-control-email-placeholder = toonomasas@example.com
 waitlist-control-country-label = Σε ποια χώρα κατοικείτε;
 waitlist-control-country-label-2 = Σε ποια χώρα ή περιοχή κατοικείτε;
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
+# Deprecated
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
