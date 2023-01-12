@@ -24,6 +24,8 @@ phone-onboarding-step3-code-fail-title = Código de verificación incorrecto
 phone-onboarding-step3-code-fail-body = Por favor vuelve a inténtarlo o solicita un nuevo código.
 phone-onboarding-step3-code-success-title = ¡Felicidades!
 phone-onboarding-step3-code-success-subhead-title = ¿Qué sigue?
+phone-onboarding-step3-code-success-cta = Buscar máscaras de número de teléfono
+phone-onboarding-step3-code-success-cta-2 = Buscar máscaras
 phone-onboarding-step4-country = Estados Unidos y Canadá
 phone-onboarding-step4-smiliar-phone = Similar a { $phone_number }
 phone-onboarding-step4-input-search = Ingresar un código de área
@@ -71,4 +73,7 @@ phone-masking-splash-blocking-example-block = Bloquear
 phone-masking-splash-blocking-example-date = Hoy
 
 ## Tips and tricks at the bottom of the page
+
+
+## SMS reply error messages
 

@@ -20,6 +20,10 @@ whatsnew-feature-bundle-snippet = Actualiza tu suscripción para obtener { -bran
 whatsnew-feature-bundle-header-2 = ¡Agrega { -brand-name-mozilla-vpn } para obtener { $savings } de descuento!
 whatsnew-feature-bundle-snippet-2 = Obtén un año de { -brand-name-relay-premium } enmascaramiento de teléfono y enmascaramiento de correo electrónico más { -brand-name-mozilla-vpn }…
 # Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+# String below is obsolete
+whatsnew-feature-bundle-body = Actualiza tu suscripción para obtener { -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn } por { $monthly_price }/mes. ¡Ahorra { $ahorros }!
+# Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 whatsnew-feature-bundle-body-v2 = Obtén un año de { -brand-name-relay-premium } Enmascaramiento de teléfono y enmascaramiento de correo electrónico más { -brand-name-mozilla-vpn } por { $monthly_price }/month.
 whatsnew-feature-bundle-upgrade-cta = Actualizar ahora
@@ -30,6 +34,9 @@ bundle-banner-header = { -brand-name-firefox-relay } con <vpn-logo>{ -brand-name
 bundle-banner-subheader = Seguridad, fiabilidad y velocidad — en cada dispositivo, donde quiera que vayas.
 # String below is obsolete
 bundle-banner-body = Navega, transmite, juega y trabaja manteniendo tu privacidad en línea. Ya sea porque estás viajando, usando WiFi público, o simplemente buscando mayor privacidad en línea, siempre le daremos prioridad a tu privacidad.
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-v2 = Navega, transmite, juega y trabaja mientras mantienes tu privacidad en línea. ¡Ahora obtén { $savings } de { -brand-name-mozilla-vpn } al agregarlo a { -brand-name-firefox-relay }!
 # String below is obsolete
 bundle-banner-1-year-plan = Plan de 1 año: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
 bundle-banner-1-year-plan-v2 = Plan de 1 año: <b>{ -brand-name-firefox-relay } Enmascaramiento de correo electrónico y teléfono + { -brand-name-vpn }</b>
@@ -37,8 +44,14 @@ bundle-banner-plan-header = plan de 1 año:
 bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
 bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-price-monthly = Mensual: <precio-mensual>{ $monthly_price }</precio-mensual>
 bundle-banner-alt = { -brand-name-mozilla-vpn } y { -brand-name-relay }
 bundle-banner-cta = Obtén { -brand-name-mozilla-vpn } + { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee = { $days_guarantee } garantía de devolución de dinero de un día para nuevos suscriptores
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Más de { $num_vpn_servers } servidores
