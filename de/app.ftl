@@ -661,7 +661,7 @@ profile-label-trackers-removed = Tracker entfernt
 profile-trackers-removed-tooltip-part1 = Wenn die Tracker-Entfernung aktiviert ist, werden gängige E-Mail-Tracker aus Ihren weitergeleiteten E-Mails entfernt.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken enthalten sind.
-profile-trackers-removed-tooltip-part2-2 = <b>Wichtig:</b> Das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken und Links enthalten sind.
+profile-trackers-removed-tooltip-part2-2 = <b>Wichtig:</b> Das Entfernen von Trackern kann dazu führen, dass Ihre E-Mail beschädigt erscheint, da die Tracker oft in Grafiken und Links enthalten sind.
 profile-label-cancel = Abbrechen
 profile-blocked-copy-2 = { -brand-name-firefox-relay } löscht Nachrichten, bevor sie Ihren Posteingang erreichen, wenn Sie für diese Maske „Blockieren“ auswählen.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } sendet E-Mails an Ihren Posteingang, wenn Sie für diese Maske „Weiterleiten“ auswählen.
@@ -973,7 +973,7 @@ trackerreport-confidentiality-notice = Tracker-Informationen und Absenderadresse
 trackerreport-removal-explainer-heading = So funktioniert die Tracker-Entfernung
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } kann jetzt gängige Tracker aus E-Mails entfernen, die über Ihre E-Mail-Masken weitergeleitet werden. Sie erhalten Ihre E-Mails weiterhin, aber die Tracker in Ihren weitergeleiteten E-Mails werden entfernt, sodass Sie Ihre E-Mails erhalten können, ohne verfolgt zu werden. Um die Tracker-Entfernung für alle Ihre Masken gleichzeitig zu aktivieren, aktivieren Sie die Tracker-Entfernung in den Einstellungen und nicht einzeln für jede Maske.
 trackerreport-trackers-explainer-heading = Über E-Mail-Tracker
-trackerreport-trackers-explainer-content-part1 = E-Mail-Tracking ist eine gängiges Werkzeug für Überwachung und Werbung, das für viele Posteingänge zum Problem geworden ist. Diese Tracker können verwendet werden, um mehr über Ihr Online-Verhalten, Ihre Interessen und Ihre E-Mail-Aktivitäten zu erfahren.
+trackerreport-trackers-explainer-content-part1 = E-Mail-Tracking ist ein gängiges Werkzeug für Überwachung und Werbung, das für viele Posteingänge zum Problem geworden ist. Diese Tracker können verwendet werden, um mehr über Ihr Online-Verhalten, Ihre Interessen und Ihre E-Mail-Aktivitäten zu erfahren.
 trackerreport-trackers-explainer-content-part2 = Ein Unternehmen oder eine Organisation bettet einen Tracker in E-Mails ein, die an Sie gesendet werden, normalerweise versteckt in einer Grafik oder einem Link. Wenn die E-Mail geöffnet wird, sendet der Code im Tracker Daten an das Unternehmen zurück.
 # Deprecated
 trackerreport-breakage-warning = Wichtig: Manchmal kann das Entfernen von Trackern dazu führen, dass Ihre E-Mail beschädigt aussieht, da die Tracker oft in Grafiken enthalten sind, die nicht geladen werden, wenn sie einen Tracker enthalten.
