@@ -1130,6 +1130,9 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = اساں ایہ جواب { $sender } کول بھیڄ ݙتے۔ پر اڳوں تے ٹورݨ نال تہاݙا جواب کائناں بھیڄیا ویسی۔
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = تہاݙا جواب { $sender } کوں کائناں بھیڄا ڳیا ہائی۔
 replies-only-available-with-premium = آپݨے ماسک تھئے ای میل کنوں اڳوں تے بھیڄیاں ڳیاں ای میلاں کوں جواب ݙیوݨ صرف { -brand-name-firefox-relay-premium } دے نال ہی دستیاب ہے۔
 replies-not-included-in-free-account-header = تہاݙے مفت کھاتے وچ جواب شامل کائنی
 reply-not-sent-header = تہاݙا جواب کاعنی بھیڄا ڳیا
