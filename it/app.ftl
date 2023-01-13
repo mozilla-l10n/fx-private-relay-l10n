@@ -433,7 +433,10 @@ premium-promo-pricing-offer-end-body = Passa a { -brand-name-relay-premium } pri
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
+waitlist-heading-2 = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
+# Deprecated
 waitlist-lead = Ricevi una notifica quando { -brand-name-firefox-relay-premium } sarà disponibile nel tuo Paese.
 waitlist-control-required = Obbligatorio
 waitlist-control-email-label = Qual è il tuo indirizzo email?
@@ -443,9 +446,9 @@ waitlist-control-email-placeholder = iltuonome@example.com
 waitlist-control-country-label = In quale Paese vivi?
 waitlist-control-country-label-2 = In quale Paese o regione vivi?
 waitlist-control-locale-label = Seleziona la lingua che preferisci.
+# Deprecated
 waitlist-submit-label = Iscriviti alla lista d’attesa
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = Facendo clic su “{ waitlist-submit-label }”, accetti la nostra <a>Informativa sulla privacy</a>.
 waitlist-privacy-policy-use = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità di { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
