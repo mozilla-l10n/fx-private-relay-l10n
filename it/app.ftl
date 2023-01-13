@@ -438,6 +438,8 @@ waitlist-heading = Iscriviti alla lista d’attesa per { -brand-name-relay-premi
 waitlist-heading-2 = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
 # Deprecated
 waitlist-lead = Ricevi una notifica quando { -brand-name-firefox-relay-premium } sarà disponibile nel tuo Paese.
+waitlist-lead-2 = Ti avviseremo quando { -brand-name-relay-premium } sarà disponibile nella tua zona.
+waitlist-lead-phone = Ti avviseremo quando gli alias per numeri di telefono saranno disponibili nella tua zona.
 waitlist-control-required = Obbligatorio
 waitlist-control-email-label = Qual è il tuo indirizzo email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -448,9 +450,12 @@ waitlist-control-country-label-2 = In quale Paese o regione vivi?
 waitlist-control-locale-label = Seleziona la lingua che preferisci.
 # Deprecated
 waitlist-submit-label = Iscriviti alla lista d’attesa
+waitlist-submit-label-2 = Iscriviti alla lista d’attesa
 # Deprecated
 waitlist-privacy-policy-agree = Facendo clic su “{ waitlist-submit-label }”, accetti la nostra <a>Informativa sulla privacy</a>.
+waitlist-privacy-policy-agree-2 = Facendo clic su “{ waitlist-submit-label-2 }”, accetti la nostra <a>Informativa sulla privacy</a>.
 waitlist-privacy-policy-use = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità di { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità degli alias per numeri di telefono nella tua zona.
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
@@ -1113,6 +1118,9 @@ forwarded-email-footer-offer-countdown-banner = Aggiorna a { $premium_link } pri
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Abbiamo inviato questa risposta a { $sender }. Tuttavia, le tue risposte non verranno inviate in futuro.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = La tua risposta NON è stata inviata a { $sender }.
 replies-only-available-with-premium = La possibilità di rispondere alle email inoltrate utilizzando il tuo alias è disponibile solo con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = La possibilità di rispondere non è inclusa nel tuo account gratuito
 reply-not-sent-header = La tua risposta non è stata inviata
