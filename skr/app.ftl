@@ -450,6 +450,8 @@ waitlist-heading-phone = { -brand-name-relay } فون ماسکنگ تانگھ ت
 waitlist-heading-bundle = { -brand-name-relay } + { -brand-name-vpn } ٻنڈل کیتے تانگھ تندیر وچ رلت کرو
 # Deprecated
 waitlist-lead = اطلاع نامہ گھنو جہڑے ویلے { -brand-name-firefox-relay-premium } تہاݙے علاقے وچ دستیاب ہووے۔
+waitlist-lead-2 = ڄݙݨ تہاݙے علاقے وچ { -brand-name-relay-premium } دستیاب ہوسی اساں تہاکوں ݙسیسوں۔
+waitlist-lead-phone = ڄݙݨ فون ماسکنگ تہاݙے علاقے وچ دستیاب ہوسی اساں تہاکوں ݙسیسوں۔
 waitlist-control-required = ضروری ہے
 waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -465,6 +467,7 @@ waitlist-submit-label-2 = تانگھ تندیر نال رلت کرو
 waitlist-privacy-policy-agree = ”{ waitlist-submit-label }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
 waitlist-privacy-policy-agree-2 = ”{ waitlist-submit-label-2 }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
 waitlist-privacy-policy-use = تہاݙی معلومات صرف تہاکوں { -brand-name-firefox-relay-premium } دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
+waitlist-privacy-policy-use-bundle = تہاݙی معلومات کوں صرف تہاکوں { -brand-name-relay } + { -brand-name-vpn } ٻنڈل دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
 waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک واری تہاݙے علاقے وچ { -brand-name-firefox-relay-premium } دستیاب تھی ون٘ڄے، اساں تہاکوں ای میل کریسوں۔
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
