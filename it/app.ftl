@@ -436,10 +436,13 @@ premium-promo-pricing-offer-end-body = Passa a { -brand-name-relay-premium } pri
 # Deprecated
 waitlist-heading = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
 waitlist-heading-2 = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
+waitlist-heading-phone = Iscriviti alla lista d’attesa di { -brand-name-relay } per la funzione di alias per numeri di telefono
+waitlist-heading-bundle = Iscriviti alla lista d’attesa per il bundle { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Ricevi una notifica quando { -brand-name-firefox-relay-premium } sarà disponibile nel tuo Paese.
 waitlist-lead-2 = Ti avviseremo quando { -brand-name-relay-premium } sarà disponibile nella tua zona.
 waitlist-lead-phone = Ti avviseremo quando gli alias per numeri di telefono saranno disponibili nella tua zona.
+waitlist-lead-bundle = Ti faremo sapere quando potrai acquistare { -brand-name-relay-premium } e { -brand-name-mozilla-vpn } insieme a un prezzo scontato nella tua zona.
 waitlist-control-required = Obbligatorio
 waitlist-control-email-label = Qual è il tuo indirizzo email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -456,6 +459,7 @@ waitlist-privacy-policy-agree = Facendo clic su “{ waitlist-submit-label }”,
 waitlist-privacy-policy-agree-2 = Facendo clic su “{ waitlist-submit-label-2 }”, accetti la nostra <a>Informativa sulla privacy</a>.
 waitlist-privacy-policy-use = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità di { -brand-name-firefox-relay-premium }.
 waitlist-privacy-policy-use-phone = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità degli alias per numeri di telefono nella tua zona.
+waitlist-privacy-policy-use-bundle = Le tue informazioni saranno utilizzate solo per avvisarti della disponibilità del bundle { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
