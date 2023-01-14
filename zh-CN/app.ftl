@@ -117,6 +117,12 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中去除常见的跟踪器....
+# Deprecated
+whatsnew-feature-tracker-removal-description = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。
+whatsnew-feature-tracker-removal-description-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。可到“设置”中启用。
 whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
 whatsnew-feature-offer-countdown-cta = 立即升级
 
@@ -227,6 +233,10 @@ landing-pricing-premium-feature-6 = 移除邮件跟踪器
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
 # Deprecated
 landing-pricing-waitlist-cta = 加入预约名单
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } 即享无限马甲
 # Deprecated
 landing-pricing-offer-end-warning = 本促销活动即将结束
 # Deprecated
@@ -355,7 +365,9 @@ premium-promo-pricing-offer-end-cta = 立即升级
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = 欢迎加入 { -brand-name-relay-premium } 预约名单
+# Deprecated
 waitlist-lead = 当 { -brand-name-firefox-relay-premium } 可用于您的地区时，将会收到通知。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的电子邮件地址是什么？
@@ -364,9 +376,9 @@ waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = 您生活在哪个国家/地区？
 waitlist-control-locale-label = 选择您的首选语言。
+# Deprecated
 waitlist-submit-label = 加入预约名单
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = 点击“{ waitlist-submit-label }”，即表示您同意我们的<a>隐私政策</a>。
 waitlist-privacy-policy-use = 您的信息将仅用于向您通知 { -brand-name-firefox-relay-premium } 的可用性。
 waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
