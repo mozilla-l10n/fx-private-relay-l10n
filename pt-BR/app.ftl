@@ -468,6 +468,8 @@ waitlist-submit-label-2 = Entrar na lista de espera
 waitlist-privacy-policy-agree = Ao clicar em “{ waitlist-submit-label }”, você concorda com nossa <a>política de privacidade</a>.
 waitlist-privacy-policy-agree-2 = Ao clicar em “{ waitlist-submit-label-2 }”, você concorda com nossa <a>política de privacidade</a>.
 waitlist-privacy-policy-use = Suas informações só serão usadas para te notificar sobre a disponibilidade do { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Suas informações só serão usadas para te notificar quando máscara de celular estiver disponível em sua região.
+waitlist-privacy-policy-use-bundle = Suas informações só serão usadas para te notificar sobre a disponibilidade do pacote { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-firefox-relay-premium } estiver disponível em sua região, enviaremos um email.
 waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
 waitlist-subscribe-error-unknown = Houve um erro ao adicionar você à lista de espera. Tente novamente.
@@ -1129,6 +1131,9 @@ forwarded-email-footer-offer-countdown-banner = Mude para o { $premium_link } an
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Enviamos esta resposta para { $sender }. Mas, daqui em diante, suas respostas não serão enviadas.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Sua resposta NÃO foi enviada para { $sender }.
 replies-only-available-with-premium = Responder a emails encaminhados de seu email mascarado só está disponível no { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Enviar respostas não está incluído na sua conta gratuita
 reply-not-sent-header = Sua resposta não foi enviada
