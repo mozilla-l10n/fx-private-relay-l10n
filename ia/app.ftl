@@ -442,8 +442,13 @@ premium-promo-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand
 # Deprecated
 waitlist-heading = Junge te al lista de attendentia de { -brand-name-relay-premium }
 waitlist-heading-2 = Junge te al lista de attendentia de { -brand-name-relay-premium }
+waitlist-heading-phone = Inscribe te al lista de attender pro mascas de telephono de < { -brand-name-relay }
+waitlist-heading-bundle = Inscribe te al lista de attender pro le pacchetto { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Recipe avisos quando { -brand-name-firefox-relay-premium } sera disponibile pro tu region.
+waitlist-lead-2 = Nos te facera saper quando { -brand-name-relay-premium } sera disponibile in tu area.
+waitlist-lead-phone = Nos te facera saper quando le mascas pro telephono sera disponibile in tu area.
+waitlist-lead-bundle = Nos te facera saper quando tu potera installar { -brand-name-relay-premium } e { -brand-name-mozilla-vpn } con un disconto in tu area.
 waitlist-control-required = Necessari
 waitlist-control-email-label = Qual es tu adresse email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -459,6 +464,8 @@ waitlist-submit-label-2 = Junge te al lista de attendentia
 waitlist-privacy-policy-agree = Cliccante sur “{ waitlist-submit-label }”, tu accepta nostre <a>Politica de confidentialitate</a>.
 waitlist-privacy-policy-agree-2 = Cliccante sur “{ waitlist-submit-label-2 }”, tu accepta nostre <a>Politica de confidentialitate</a>.
 waitlist-privacy-policy-use = Tu informationes solo sera usate pro notificar te re le disponibilitate de { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Tu informationes sera solo usate pro notificar te quando le mascas pro telephono sera disponibile in tu area.
+waitlist-privacy-policy-use-bundle = Tu informationes sera solo usate pro allertar te re le disponibilitate del pacchetto { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
 waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
 waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
@@ -1124,6 +1131,9 @@ forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Nos ha inviate iste responsa a { $sender }. Ma movente avante, tu responsas non sera inviate.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Tu responsa NON ha essite inviate a { $sender }.
 replies-only-available-with-premium = Responder a emails inultrate de tu email mascate es solo disponibile con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Le responsas non es includite con tu conto gratuite
 reply-not-sent-header = Tu responsa non ha essite inviate
