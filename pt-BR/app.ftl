@@ -443,8 +443,16 @@ premium-promo-pricing-offer-end-body = Obtenha o { -brand-name-relay-premium } a
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Entrar na lista de espera do { -brand-name-relay-premium }
+waitlist-heading-2 = Entrar na lista de espera do { -brand-name-relay-premium }
+waitlist-heading-phone = Entrar na lista de espera de máscara de celular do { -brand-name-relay }
+waitlist-heading-bundle = Entrar na lista de espera do pacote { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Seja notificado quando o { -brand-name-firefox-relay-premium } estiver disponível em sua região.
+waitlist-lead-2 = Te avisaremos quando o { -brand-name-relay-premium } estiver disponível em sua região.
+waitlist-lead-phone = Te avisaremos quando máscara de celular estiver disponível em sua região.
+waitlist-lead-bundle = Te avisaremos quando você puder ter { -brand-name-relay-premium } e { -brand-name-mozilla-vpn } com desconto em sua região.
 waitlist-control-required = Obrigatório
 waitlist-control-email-label = Qual é seu endereço de email?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -453,10 +461,12 @@ waitlist-control-email-placeholder = seunome@example.com
 waitlist-control-country-label = Em qual país você mora?
 waitlist-control-country-label-2 = Em que país ou região você mora?
 waitlist-control-locale-label = Selecione um idioma.
+# Deprecated
 waitlist-submit-label = Entrar na lista de espera
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Entrar na lista de espera
+# Deprecated
 waitlist-privacy-policy-agree = Ao clicar em “{ waitlist-submit-label }”, você concorda com nossa <a>política de privacidade</a>.
+waitlist-privacy-policy-agree-2 = Ao clicar em “{ waitlist-submit-label-2 }”, você concorda com nossa <a>política de privacidade</a>.
 waitlist-privacy-policy-use = Suas informações só serão usadas para te notificar sobre a disponibilidade do { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-firefox-relay-premium } estiver disponível em sua região, enviaremos um email.
 waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
