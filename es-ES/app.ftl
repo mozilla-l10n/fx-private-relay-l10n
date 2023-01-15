@@ -455,6 +455,8 @@ waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-n
 # Deprecated
 waitlist-lead = Recibe una notificación cuando { -brand-name-firefox-relay-premium } esté disponible para tu región.
 waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
+waitlist-lead-phone = Te avisaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.
+waitlist-lead-bundle = Te avisaremos cuando puedas obtener { -brand-name-relay-premium } y { -brand-name-mozilla-vpn } con descuento en tu área.
 waitlist-control-required = Requerido
 waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -465,9 +467,13 @@ waitlist-control-country-label-2 = ¿En qué país o región vives?
 waitlist-control-locale-label = Selecciona tu idioma preferido.
 # Deprecated
 waitlist-submit-label = Únete a la lista de espera
+waitlist-submit-label-2 = Únete a la lista de espera
 # Deprecated
 waitlist-privacy-policy-agree = Al hacer clic en “{ waitlist-submit-label }”, aceptas nuestra <a>política de privacidad</a>.
+waitlist-privacy-policy-agree-2 = Al hacer clic en “{ waitlist-submit-label-2 }”, aceptas nuestra <a>política de privacidad</a>.
 waitlist-privacy-policy-use = Tu información será utilizada solamente para avisarte de la disponibilidad de { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Tu información será utilizada solo para avisarte cuando el enmascaramiento de teléfonos esté disponible en tu área.
+waitlist-privacy-policy-use-bundle = Tu información será utilizada solo para avisarte de la disponibilidad del paquete { -brand-name-relay } + { -brand-name-vpn }
 waitlist-subscribe-success = ¡Estás en la lista! Cuando { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
 waitlist-subscribe-error-connection = Ha habido un error al añadirte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
 waitlist-subscribe-error-unknown = Ha habido un error al añadirte a la lista. Vuelve a intentarlo más tarde.
@@ -1133,6 +1139,9 @@ forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } an
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Hemos enviado esta respuesta a { $sender }. Pero en el futuro, tus respuestas no se enviarán.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Tu respuesta NO se ha enviado a { $sender }.
 replies-only-available-with-premium = Responder a correos electrónicos reenviados desde tu correo electrónico enmascarado solo está disponible con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Las respuestas no están incluidas en tu cuenta gratuita.
 reply-not-sent-header = Tu respuesta no ha sido enviada
