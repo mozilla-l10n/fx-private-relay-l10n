@@ -119,7 +119,7 @@ whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护�
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中去除常见的跟踪器....
+whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中去除常见的跟踪器……
 # Deprecated
 whatsnew-feature-tracker-removal-description = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。
 whatsnew-feature-tracker-removal-description-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。可到“设置”中启用。
