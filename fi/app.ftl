@@ -90,9 +90,14 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enemmän suojaa…
 whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
+whatsnew-feature-offer-countdown-cta = Päivitä nyt
 
 ## Bento Menu
 
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Sulje valikko
 
 ## Home Page
@@ -108,9 +113,11 @@ how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
 
 ## Hero Section
 
+landing-offer-end-hero-cta = Päivitä nyt
 
 ## How it works section
 
+landing-how-it-works-headline = Kuinka se toimii
 
 ## Pricing section
 
@@ -130,7 +137,18 @@ landing-pricing-free-feature-free = Ilmainen
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/kk
 # Deprecated
+landing-pricing-premium-feature-1-2 = Rajattomasti sähköpostimaskeja
+# Deprecated
+landing-pricing-premium-feature-2 = Selainlaajennus
+# Deprecated
+landing-pricing-premium-feature-3-2 = Oma sähköpostin aliverkkotunnus
+# Deprecated
+# Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
+landing-pricing-premium-feature-3-subheader = nimi@yourdomain.mozmail.com
+# Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
+# Deprecated
+landing-pricing-offer-end-cta = Päivitä nyt
 plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
 plan-matrix-heading-plan-premium = Sähköpostisuojaus
@@ -141,12 +159,19 @@ plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -
 plan-matrix-heading-feature-email-masks = Sähköpostimaskit
 plan-matrix-heading-feature-browser-extension = Selainlaajennus
 plan-matrix-heading-feature-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-heading-feature-email-subdomain = Sähköpostin aliverkkotunnus
 plan-matrix-heading-feature-phone-mask = Puhelinnumeron maski
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } sähköpostimaskia
 plan-matrix-feature-list-browser-extension = Selainlaajennus
 plan-matrix-feature-list-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-list-phone-mask = Puhelinnumeron maski
+plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>:ää
 plan-matrix-heading-price = Hinta
 plan-matrix-feature-included = Sisältyy
 plan-matrix-feature-not-included = Ei sisälly
+plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## Use Cases
 
@@ -156,9 +181,23 @@ plan-matrix-feature-not-included = Ei sisälly
 
 ## Landing Reviews Section
 
+landing-reviews-add-ons = Lisäosat
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = Lähde: addons.mozilla.org
 
 ## Premium promo page
 
+premium-promo-hero-cta = Päivitä nyt
+premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
+premium-promo-offer-end-hero-cta = Päivitä nyt
+premium-promo-perks-cta-label = Päivitä nyt
+premium-promo-perks-cta-tooltip = Päivitä { -brand-name-firefox-relay-premium }iin
+premium-promo-perks-pill-new = Uutta!
+premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
+premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
+premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
+premium-promo-pricing-offer-end-cta = Päivitä nyt
 
 ## The Premium waitlist page
 
@@ -246,6 +285,10 @@ profile-label-reset = Palauta
 profile-label-apply = Toteuta
 profile-label-skip = Ohita
 profile-label-continue = Jatka
+# This string is followed by an email address
+profile-label-forward-emails = Välitä sähköpostit osoitteeseen:
+# This string is followed by date
+profile-label-first-emailed = Ensimmäinen sähköposti:
 # This string is followed by date:
 profile-label-created = Luotu:
 profile-label-details-show = Näytä yksityiskohdat
@@ -258,6 +301,7 @@ profile-label-replies = Vastauksia
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Seuraimia poistettu
 profile-label-cancel = Peruuta
+profile-forwarded-note = Huomautus:
 profile-stat-learn-more = Lue lisää
 profile-stat-learn-more-close = Sulje
 profile-stat-label-blocked = Sähköposteja estetty
@@ -265,6 +309,9 @@ profile-stat-label-forwarded = Sähköposteja välitetty
 profile-stat-label-aliases-used-2 = Sähköpostimaskeja käytetty
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Seuraimia poistettu
+profile-filter-search-placeholder-2 = Etsi maskeja
+profile-filter-category-button-label = Suodata näkyvät maskit
+profile-filter-category-title = Suodata näkyvät maskit
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Satunnaiset maskit
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -276,6 +323,8 @@ profile-filter-category-option-custom-masks = Mukautetut maskit
 profile-promo-email-blocking-option-all = Kaikki
 profile-promo-email-blocking-label-none = Estä kaikki
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (vain { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = Saatavilla { -brand-name-relay-premium } -tilaajille
 profile-promo-email-blocking-description-promotionals-locked-cta = Päivitä nyt
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Liity { -brand-name-relay-premium } -odotuslistalle
 profile-promo-email-blocking-description-promotionals-locked-close = Sulje
@@ -285,6 +334,11 @@ profile-promo-email-blocking-description-promotionals-locked-close = Sulje
 banner-dismiss = Hylkää
 banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköpostiasi.
 banner-download-firefox-cta = Hanki { -brand-name-firefox }
+banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-name-firefox }iin
+banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
+banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
+banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
+banner-pack-upgrade-cta = Päivitä nyt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
 banner-label-privacy-notice-update-cta = Näytä tietosuojakäytäntö
@@ -293,6 +347,9 @@ banner-label-data-notification-header-v2 = Ota uudet ominaisuudet käyttöön
 banner-label-data-notification-body-cta = Lue lisää
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Suojaa yksityisyyttäsi, pelasta internet
+banner-upgrade-loyalist-cta = Hanki lisää suojaa
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Tutustumishintatarjouksemme päättyy pian!
 banner-offer-end-cta = Päivitä nyt
 
 ## Success Messages
@@ -342,6 +399,7 @@ modal-custom-alias-picker-form-submit-label-2 = Luo maski
 popover-custom-alias-explainer-generate-button-heading-2 = Luo mukautettu maski manuaalisesti
 popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
 popover-custom-alias-explainer-close-button-label = Sulje
+popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 
 ## Tip about using custom masks
 
@@ -378,6 +436,26 @@ multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 
 ## Report of trackers removed from an email
 
+trackerreport-meta-count-heading = Seuraimia yhteensä
+trackerreport-trackers-heading = Seuraimia havaittu
+trackerreport-trackers-count-heading = Seurainten määrä
+trackerreport-trackers-none = Tästä sähköpostista ei löytynyt seuraimia.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 seurain
+       *[other] { $count } seurainta
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 seurain
+       *[other] { $count } seurainta
+    }
+trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
+trackerreport-loading = Ladataan seurainten poistoraporttia…
 
 ## Modals
 
