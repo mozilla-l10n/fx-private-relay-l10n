@@ -5,28 +5,46 @@
 
 ## Meta Data
 
+meta-title = { -brand-name-firefox-relay }
+meta-description-2 = { -brand-name-firefox-relay } tekee helpoksi sähköpostimaskien luomisen, jotka välittävät viestit oikeaan postilaatikkoosi. Käytä maskeja suojataksesi verkkotilisi pahantahtoisilta tahoilta ja viesteiltä, joita et halua.
+# When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
+common-link-newtab-alt = (Avautuu uuteen välilehteen)
 
 ## Header
 
+logo-alt = { -brand-name-firefox-relay }
+logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Valikko
 nav-home = Etusivu
 nav-email-dashboard = Sähköpostimaskit
 nav-phone-dashboard = Puhelinmaskit
 label-open-menu = Avaa valikko
 avatar-tooltip = Profiili
+# FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
+nav-faq = UKK
 nav-profile-sign-in = Kirjaudu sisään
 nav-profile-sign-up = Rekisteröidy
+nav-profile-manage-fxa = Hallitse { -brand-name-firefox-account(capitalization: "uppercase") }äsi
 nav-profile-sign-out = Kirjaudu ulos
+nav-profile-sign-out-relay = Kirjaudu ulos { -brand-name-relay }-palvelusta
 nav-profile-sign-out-confirm = Haluatko varmasti kirjautua ulos?
 nav-profile-settings = Asetukset
+nav-profile-settings-tooltip = Määritä { -brand-name-firefox-relay }
 nav-profile-help = Ohjeet ja tuki
+nav-profile-help-tooltip = Ohjeita { -brand-name-relay }n käyttöön
+# This is only visible to Premium users.
+nav-profile-contact = Ota yhteyttä
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Ota yhteyttä { -brand-name-relay-premium }iin liittyen
 # Deprecated
 nav-phone = Puhelinnumero
+nav-duo-description = Vaihda kojelautoja
 nav-duo-email-mask-alt = Sähköpostimaskit
 nav-duo-phone-mask-alt = Puhelinmaskit
 
 ## Mobile menu text
 
+menu-upgrade-button = Päivitä
 menu-toggle-open = Avaa valikko
 menu-toggle-close = Sulje valikko
 # Deprecated
@@ -36,24 +54,42 @@ nav-support = Ohjeet ja tuki
 nav-sign-out = Kirjaudu ulos
 nav-contact = Ota yhteyttä
 nav-menu-mobile = Mobiilivalikko
+fx-desktop-2 = { -brand-name-firefox } työpöydälle
+fx-mobile-2 = { -brand-name-firefox } mobiililaitteille
 
 ## Footer
 
 nav-footer-privacy = Tietosuoja
+nav-footer-relay-terms = { -brand-name-relay }-käyttöehdot
+nav-footer-legal = Juridiset asiat
 nav-footer-release-notes = Julkaisutiedot
+logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
 ## The new feature announcement area, under the "News" link at the top
 
 whatsnew-trigger-label = Uutiset
+whatsnew-counter-label =
+    { $count ->
+        [one] 1 uusi ilmoitus.
+       *[other] { $count } uutta ilmoitusta.
+    }
 whatsnew-close-label = Sulje
 whatsnew-tab-new-label = Uutiset
 whatsnew-tab-archive-label = Historia
 whatsnew-footer-clear-all-label = Tyhjennä kaikki
 whatsnew-footer-back-label = Edellinen
 whatsnew-footer-learn-more-label = Lue lisää
+whatsnew-feature-size-limit-heading = Liitteiden koon nosto
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Aliakset ovat nyt maskeja
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } saatavilla Ruotsissa
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } saatavilla Suomessa
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enemmän suojaa…
+whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
 
 ## Bento Menu
 
@@ -362,21 +398,50 @@ modal-domain-register-success-2 = { $subdomain } on nyt sähköpostisi aliverkko
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = Onko { -brand-name-relay } helppokäyttöinen?
+survey-question-3 = Onko { -brand-name-relay } mielestäsi luotettava?
+survey-option-strongly-disagree = Vahvasti eri mieltä
+survey-option-disagree = Eri mieltä
+survey-option-unsure = Epävarma
+survey-option-agree = Samaa mieltä
+survey-option-strongly-agree = Vahvasti samaa mieltä
+survey-option-i-wouldnt-care = Ei merkitystä
+survey-option-somewhat-disappointed = Hieman pettynyt
+survey-option-very-disappointed = Hyvin pettynyt
+survey-option-very-likely = Hyvin todennäköisesti
+survey-option-not-likely = Epätodennäköisesti
+survey-option-dismiss = Hylkää
 
 ## CSAT survey
 
+survey-csat-question = Kuinka tyytyväinen olet { -brand-name-firefox-relay } -kokemukseesi?
+survey-csat-answer-very-dissatisfied = Hyvin tyytymätön
+survey-csat-answer-dissatisfied = Tyytymätön
+survey-csat-answer-neutral = Neutraali
+survey-csat-answer-satisfied = Tyytyväinen
+survey-csat-answer-very-satisfied = Hyvin tyytyväinen
 
 ## VPN Promo Banner
 
+vpn-promo-cta = Hanki { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+forwarded-email-trackers-blocked-report = Lue lisää
 
 ## Email sent to free users who try to reply
 
+replies-not-included-in-free-account-header = Vastaukset eivät sisälly ilmaiseen tiliisi
+reply-not-sent-header = Vastaustasi ei lähetetty
+upgrade-to-reply-to-future-emails = Päivitä nyt lähettääksesi vastauksia
+upgrade-for-more-protection = Päivitä saadaksesi lisää suojausta
+upgrade-to-premium = Päivitä { -brand-name-firefox-relay-premium }iin
+manage-your-masks = Hallitse maskeja
 
 ## Notifications component
 
+toast-button-close-label = Sulje ilmoitus
 
 ## API error messages
 
+api-error-account-is-paused = Tilisi on keskeytetty.
