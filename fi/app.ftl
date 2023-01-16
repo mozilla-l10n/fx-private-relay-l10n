@@ -126,6 +126,8 @@ plan-matrix-feature-not-included = Ei sisälly
 
 ## The Premium waitlist page
 
+waitlist-lead-2 = Ilmoitamme, kun { -brand-name-relay-premium } on saatavilla alueellasi.
+waitlist-lead-phone = Ilmoitamme, kun puhelinnumeromaskit ovat saatavilla alueellasi.
 waitlist-control-required = Pakollinen
 waitlist-control-email-label = Mikä on sähköpostiosoitteesi?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -140,12 +142,52 @@ waitlist-submit-label-2 = Liity odotuslistalle
 
 ## Settings page
 
+settings-headline = { -brand-name-relay }-asetukset
+settings-meta-contact-label = Ota yhteyttä
+settings-meta-help-label = Ohjeet ja tuki
+settings-meta-status-label = Palvelun tila
+# This is the heading for the checkbox labelled with `setting-label-collection-description`.
+setting-label-collection-heading-v2 = Tietosuoja
+settings-button-save-label = Tallenna
+settings-button-save-tooltip = Ota valitsemasi asetukset käyttöön.
+# This is a read-only input where a user can copy their API key to their clipboard
+setting-label-api-key = API-avain
+# This is a label that appears on hover to copy the API key
+settings-button-copy = Napsauta kopioidaksesi
+setting-api-key-copied = Kopioitu!
+setting-api-key-copied-alt = Napsauta kopioidaksesi
+setting-tracker-removal-heading = Poista sähköpostin seuraimet
 
 ## FAQ Page
 
+faq-headline = Usein kysytyt kysymykset
+# String used to display the attachment limit, e.g. 10 MB
+# Variables:
+#  $size (number): maximum size for attachments
+#  $unit (string): unit of measurement (e.g. MB for Megabyte)
+email-size-limit = { $size } { $unit }
+faq-question-what-is-question-2 = Mikä on { -brand-name-relay }-sähköpostimaski?
+faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
+faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
+faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
+faq-question-1-question = Entä roskaposti?
+faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
+faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
+faq-question-browser-support-question = Voinko käyttää { -brand-name-relay }-palvelua muilla selaimilla tai mobiililaitteellani?
+faq-question-longevity-question = Mitä tapahtuu, jos Mozilla sulkee { -brand-name-firefox-relay } -palvelun?
+faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay } sähköpostit liitteineen?
+faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
+faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
+faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
 
 ## Profile Page (Logged In)
 
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
+profile-promo-upgrade-cta = Päivitä { -brand-name-relay }
+profile-details-expand = Näytä maskin tiedot
+profile-details-collapse = Piilota maskin tiedot
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
