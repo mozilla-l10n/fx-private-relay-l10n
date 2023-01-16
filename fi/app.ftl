@@ -188,27 +188,124 @@ profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
 profile-promo-upgrade-cta = Päivitä { -brand-name-relay }
 profile-details-expand = Näytä maskin tiedot
 profile-details-collapse = Piilota maskin tiedot
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = Napsauta kopioidaksesi maskin { $address }.
+# On the user's profile page, this text appears for a mask when it doesn't have a label.
+profile-label-placeholder = Lisää tilin nimi
+profile-label-save-error = Tallentaminen epäonnistui, yritä uudelleen.
+profile-label-generate-new-alias-2 = Luo uusi maski
+profile-label-generate-new-alias-menu-random-2 = Satunnainen sähköpostimaski
+# Variables
+#   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
+profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-maski
+profile-label-delete = Poista
+profile-label-upgrade-2 = Hanki rajattomasti sähköpostimaskeja
+profile-label-create-subdomain = Hanki sähköpostin aliverkkotunnus
+profile-label-subdomain = Sähköpostin aliverkkotunnus:
+profile-label-subdomain-tooltip-trigger = Lisätietoja
+profile-label-subdomain-tooltip = Luo yksilöllinen sähköpostin aliverkkotunnus.
+profile-label-reset = Palauta
+profile-label-apply = Toteuta
+profile-label-skip = Ohita
+profile-label-continue = Jatka
+# This string is followed by date:
+profile-label-created = Luotu:
+profile-label-details-show = Näytä yksityiskohdat
+profile-label-details-hide = Piilota yksityiskohdat
+profile-label-click-to-copy = Napsauta kopioidaksesi
+profile-label-copied = Kopioitu!
+profile-label-blocked = Estetty
+profile-label-forwarded = Välitetty
+profile-label-replies = Vastauksia
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = Seuraimia poistettu
+profile-label-cancel = Peruuta
+profile-stat-learn-more = Lue lisää
+profile-stat-learn-more-close = Sulje
+profile-stat-label-blocked = Sähköposteja estetty
+profile-stat-label-forwarded = Sähköposteja välitetty
+profile-stat-label-aliases-used-2 = Sähköpostimaskeja käytetty
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Seuraimia poistettu
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Satunnaiset maskit
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Mukautetut maskit
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+# Block all emails sent to a speciic mask
+profile-promo-email-blocking-option-all = Kaikki
+profile-promo-email-blocking-label-none = Estä kaikki
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-description-promotionals-locked-cta = Päivitä nyt
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Liity { -brand-name-relay-premium } -odotuslistalle
+profile-promo-email-blocking-description-promotionals-locked-close = Sulje
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = Hylkää
+banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköpostiasi.
+banner-download-firefox-cta = Hanki { -brand-name-firefox }
+# Privacy Notice update banner:
+banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
+banner-label-privacy-notice-update-cta = Näytä tietosuojakäytäntö
+banner-label-data-notification-cta = Siirry asetuksiin
+banner-label-data-notification-header-v2 = Ota uudet ominaisuudet käyttöön
+banner-label-data-notification-body-cta = Lue lisää
+# Loyalist Upsell Banner:
+banner-upgrade-loyalist-headline-2 = Suojaa yksityisyyttäsi, pelasta internet
+banner-offer-end-cta = Päivitä nyt
 
 ## Success Messages
 
+success-settings-update = Asetukset on päivitetty
+success-signed-out-message = Olet kirjautunut ulos.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = Kirjauduttu käyttäjänä { $username }.
 
 ## Error Messages
 
+error-premium-cannot-change-subdomain = Et voi vaihtaa aliverkkotunnustasi
+error-premium-set-subdomain = Sinun on oltava premium-tilaaja voidaksesi määrittää aliverkkotunnuksen
+error-mask-create-failed = Maskia ei voitu luoda. Yritä uudelleen.
+# This currently appears when a mask label could not be updated,
+# but in the future it might also appear if other mask data could not be changed.
+error-mask-update-failed = Maskitietoja ei voitu päivittää. Yritä uudelleen.
+# Variables:
+#   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
+error-mask-delete-failed = Maskia { $mask } ei voitu poistaa. Yritä uudelleen.
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Ohjeet ja vinkit
+tips-header-button-close-label = Hylkää
+tips-footer-link-faq-label = UKK
+tips-footer-link-faq-tooltip = Usein kysytyt kysymykset
+tips-footer-link-feedback-label = Palaute
+tips-footer-link-feedback-tooltip = Anna palautetta
+tips-footer-link-support-label = Tuki
+tips-footer-link-support-tooltip = Ota yhteys tukeen
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = Vinkki { $nr }
+tips-toast-button-expand-label = Lue lisää
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-heading-2 = Luo uusi mukautettu maski
+modal-custom-alias-picker-form-prefix-spaces-warning = Sähköpostimaskeissa ei sallita välilyöntejä.
+modal-custom-alias-picker-form-submit-label-2 = Luo maski
 
 ## Popover explaining how custom masks work
 
+popover-custom-alias-explainer-generate-button-heading-2 = Luo mukautettu maski manuaalisesti
+popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
+popover-custom-alias-explainer-close-button-label = Sulje
 
 ## Tip about using custom masks
 
@@ -218,18 +315,47 @@ profile-details-collapse = Piilota maskin tiedot
 
 ## Onboarding
 
+onboarding-headline-2 = Luo ensimmäinen sähköpostimaskisi
 
 ## Premium Onboarding
 
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+# Variables:
+#   $step (number) - Which step the user currently is on
+#   $max (number) - Total number of steps
+multi-part-onboarding-step-counter = Vaihe { $step }/{ $max }.
+multi-part-onboarding-premium-welcome-headline = Tervetuloa { -brand-name-relay-premium }iin
+multi-part-onboarding-premium-welcome-title = Hallitse, mitä sähköposteja saat:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Luo rajattomasti sähköpostimaskeja:
+multi-part-onboarding-premium-welcome-button-start = Aloitetaan
+multi-part-onboarding-premium-get-subdomain = Hanki mukautettu aliverkkotunnus
+multi-part-onboarding-reply-headline = Vastaa sähköposteihisi
+multi-part-onboarding-premium-domain-cta-2 = Rekisteröi mukautettu aliverkkotunnus nyt:
+multi-part-onboarding-premium-domain-button-skip-2 = Jatka, rekisteröin mukautetun aliverkkotunnuksen myöhemmin
+multi-part-onboarding-premium-extension-button-download = Hanki { -brand-name-relay }-laajennus
+multi-part-onboarding-premium-chrome-extension-button-download = Hanki { -brand-name-relay }-laajennus
+multi-part-onboarding-premium-extension-button-skip = Jatka, lataan laajennuksen myöhemmin
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
+multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 
 ## Report of trackers removed from an email
 
 
 ## Modals
 
+modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
+modal-domain-register-good-news = Hyviä uutisia!
+modal-domain-register-button-2 = Rekisteröi aliverkkotunnus
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-available = { $subdomain } on saatavilla!
+modal-domain-register-success-title = Valmista!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } on nyt sähköpostisi aliverkkotunnus!
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
