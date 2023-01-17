@@ -405,6 +405,7 @@ settings-button-save-tooltip = Ota valitsemasi asetukset käyttöön.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-avain
 settings-api-key-description = Tämä on { -brand-name-relay }n rajapinta-avaimesi. Sen avulla muut sovellukset voivat käyttää automaattisesti { -brand-name-relay }-tiliäsi.
+settings-api-key-description-bolded = Käytä tätä vain sellaisten sovellusten kanssa, joihin luotat ja sen myötä annat pääsyn { -brand-name-relay }-tiliisi puolestasi.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Napsauta kopioidaksesi
 setting-api-key-copied = Kopioitu!
@@ -425,6 +426,7 @@ email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Mikä on { -brand-name-relay }-sähköpostimaski?
 faq-question-what-is-answer-2 = Sähköpostimaskit ovat peitettyjä tai yksityisiä sähköpostiosoitteita, jotka välittävät viestit oikeaan sähköpostiosoitteeseesi. Näiden maskien avulla voit jakaa osoitteen kolmansien osapuolten kanssa; maski peittää oikean sähköpostiosoitteesi ja välittää viestit siihen.
 faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
+faq-question-missing-emails-answer-a-2 = On muutamia syitä siihen, miksi et ehkä saa maskien kautta edelleenlähetettyjä sähköposteja. Näitä syitä ovat muun muassa:
 faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
 faq-question-missing-emails-answer-reason-turned-off-2 = Maskin edelleenlähetys saattaa olla pois päältä
@@ -444,6 +446,12 @@ faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay }
 faq-question-unsubscribe-domain-question-2 = Mitä mukautetulle aliverkkotunnukselleni tapahtuu, jos peruutan { -brand-name-relay-premium } -tilauksen?
 faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
 faq-question-email-storage-question = Tallentaako { -brand-name-relay } sähköpostini?
+faq-question-acceptable-use-question = Mitkä ovat { -brand-name-relay }n hyväksyttävät käyttötavat?
+#   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+faq-question-acceptable-use-answer-b-html = Saat lisätietoja tutustumalla <a href="{ $url }" { $attrs }>käyttöehtoihin</a> .
+faq-question-promotional-email-blocking-question = Mitä on mainossähköpostien esto?
+faq-question-detect-promotional-question = Miten { -brand-name-relay } havaitsee, onko sähköposti mainosviesti vai ei?
 faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
 faq-question-disable-trackerremoval-answer = Kyllä. Jos sinulla on ongelmia sähköpostien näyttäessä rikkinäiseltä tai haluat lopettaa seurainten poistamisen, voit poistaa ominaisuuden käytöstä asetuksista.
 faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
@@ -562,6 +570,7 @@ banner-choose-subdomain-input-placeholder-3 = Etsi aliverkkotunnusta
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Etsi
 banner-pack-upgrade-copy-2 = Rajoittamattomalla määrällä sähköpostimaskeja ja omalla sähköpostin aliverkkotunnuksella { -brand-name-firefox-relay-premium } auttaa sinua pysymään suojattuna verkossa.
+footer-banner-premium-promo-headine = Päivitä <strong>{ -brand-name-firefox-relay-premium }</strong>iin suojataksesi puhelintasi <i>ja</i> sähköpostiasi
 banner-pack-upgrade-cta = Päivitä nyt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
@@ -580,6 +589,9 @@ banner-upgrade-loyalist-cta = Hanki lisää suojaa
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Tutustumishintatarjouksemme päättyy pian!
 banner-offer-end-cta = Päivitä nyt
+banner-ab-premium-promo-advanced-identity-headline = Edistynyt henkilöyden suojaus
+banner-ab-premium-promo-control-receiver-headline = Hallitse, kuka saa oikean numerosi
+banner-ab-premium-promo-extra-protection-headline = Lisäsuojaa postilaatikollesi ja puhelimellesi
 banner-ab-premium-promo-cta = Päivitä
 
 ## Success Messages
@@ -661,6 +673,7 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 
 ## Premium Onboarding
 
+onboarding-premium-headline = Tervetuloa { -brand-name-firefox } { -brand-name-relay-premium }iin
 onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
