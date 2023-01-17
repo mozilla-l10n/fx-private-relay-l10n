@@ -270,6 +270,13 @@ landing-reviews-details-source = Lähde: addons.mozilla.org
 # This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
 # Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
 landing-reviews-rating = /5 ({ $review_count } arviota)
+landing-review-user-one-review = Arvostan todella { -brand-name-mozilla }n tiimiä siitä, että he ovat niin luovia ja yksinkertaistaneet sähköpostiosoitteeni anonymisointia. Tämä on loistava laajennus, suosittelen sitä yksityisyydetään välittäville!
+landing-review-user-two-review = Yksinkertainen työkalu, jolla estää sähköpostiosoitteen joutumista roskapostin kohteeksi.
+landing-review-user-three-review = Rakastan tätä laajennusta! Erittäin yksinkertainen, mutta tehokas, ja integrointi selaimen kanssa on upeaa.
+landing-review-user-four-review-list-1 = Antaa mielenrauhaa netissä surffaillessa.
+landing-review-user-four-review-list-2 = Suojaa identiteettiä seuraimilta luomalla aliaksia, jotta todellista sähköpostiosoitetta ei tarvitse jakaa.
+landing-review-user-four-review-list-3 = Sähköpostilaatikon tiedot ovat turvassa { -brand-name-firefox-relay }n hallussa.
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } tekee ihmeitä, kokeile sitä!
 
 ## Premium promo page
 
@@ -293,8 +300,10 @@ premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimas
 premium-promo-perks-perk-unlimited-body-2 = Ei enää viiden maskin rajaa: { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset suojataksesi sähköpostisi roskapostittajilta ja verkon seuraimilta. Voit jopa vastata sähköposteihin paljastamatta oikeaa osoitettasi.
 premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
 premium-promo-perks-perk-custom-domain-body-2 = Mukautetun aliverkkotunnuksen avulla voit luoda maskeja, jotka on helpompi muistaa ja jakaa kuin koskaan. Tarvitsetko yhden maskin ravintolavarauksia varten? Käytä esimerkiksi ruoka@mydomain.mozmail.com — Maskia ei tarvitse luoda etukäteen.
-premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
+premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja hallintapaneelista
+premium-promo-perks-perk-dashboard-body-2 = Hallitse kaikkia sähköpostimaskejasi helppokäyttöisessä hallintapaneelissa: jos huomaat vastaanottavasi ei-toivottuja viestejä, voit estää näitä viestejä pääsemästä postilaatikkoosi.
 premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
+premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
@@ -357,6 +366,7 @@ faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
 faq-question-use-cases-question-2 = Milloin minun pitäisi käyttää { -brand-name-relay }-sähköpostimaskeja?
 faq-question-use-cases-answer-part1-2 = Voit käyttää { -brand-name-relay }-sähköpostimaskeja lähes kaikissa samoissa tilanteissa, joissa käyttäisit tavallista sähköpostiosoitettasi. Suosittelemme maskien käyttöä, kun tilaat markkinointi-/tiedotussähköposteja, jolloin voit halutessasi varmuudella hallita, saatko sähköpostiviestejä jatkossa.
+faq-question-use-cases-answer-part2-2 = Emme suosittele maskien käyttöä, kun tarvitset henkilöytesi vahvistusta, kun viesti on erittäin tärkeä tai niihin viesteihin, joissa sinun on vastaanotettava liitteitä. Haluat mitä luultavimmin jakaa oikean sähköpostiosoitteesi pankkisi, lääkärisi ja asianajajasi kanssa sekä konsertti- tai lentolippuja vastaanottaessa.
 faq-question-1-question = Entä roskaposti?
 faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
 faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
@@ -550,6 +560,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 ## Tip about using custom masks
 
 tips-promo-email-blocking-heading = Estä mainossähköpostit
+tips-promo-email-blocking-content = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 
 ## Onboarding
 
@@ -589,6 +600,7 @@ multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay }n seurainten poistoraportti
 trackerreport-meta-count-heading = Seuraimia yhteensä
 trackerreport-trackers-heading = Seuraimia havaittu
 trackerreport-trackers-count-heading = Seurainten määrä
