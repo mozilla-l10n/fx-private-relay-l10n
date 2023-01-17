@@ -675,6 +675,7 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 
 onboarding-premium-headline = Tervetuloa { -brand-name-firefox } { -brand-name-relay-premium }iin
 onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
+onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
@@ -690,6 +691,7 @@ multi-part-onboarding-premium-get-subdomain = Hanki mukautettu aliverkkotunnus
 multi-part-onboarding-reply-headline = Vastaa sähköposteihisi
 multi-part-onboarding-premium-domain-cta-2 = Rekisteröi mukautettu aliverkkotunnus nyt:
 multi-part-onboarding-premium-domain-button-skip-2 = Jatka, rekisteröin mukautetun aliverkkotunnuksen myöhemmin
+multi-part-onboarding-premium-extension-headline = Estä, lähetä eteenpäin ja vastaa
 multi-part-onboarding-premium-extension-get-title = Hanki { -brand-name-relay }-laajennus { -brand-name-firefox }ille
 multi-part-onboarding-premium-extension-get-description-2 = { -brand-name-relay }-laajennus { -brand-name-firefox }ille tekee sähköpostimaskien käytöstä entistäkin helpompaa.
 multi-part-onboarding-premium-extension-button-download = Hanki { -brand-name-relay }-laajennus
@@ -724,6 +726,9 @@ trackerreport-tracker-count =
        *[other] { $count } seurainta
     }
 trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
+trackerreport-trackers-explainer-heading = Tietoja sähköpostin seuraimista
+trackerreport-trackers-explainer-content-part1 = Sähköpostin seuranta on yleinen valvonta- ja mainontatyökalu, joka on vallannut monia postilaatikoita. Näitä seuraimia voidaan käyttää ymmärtämään enemmän ihmisten verkkokäyttäytymisestä, kiinnostuksen kohteista ja sähköpostitoiminnasta.
+trackerreport-trackers-explainer-content-part2 = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.
 trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
 trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
 trackerreport-loading = Ladataan seurainten poistoraporttia…
@@ -766,6 +771,11 @@ modal-domain-register-success-title = Valmista!
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-success-2 = { $subdomain } on nyt sähköpostisi aliverkkotunnus!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> on nyt sähköpostisi aliverkkotunnus!
+modal-domain-register-success-copy-2 = Nyt voit luoda rajattomasti mukautettuja sähköpostimaskeja!
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
