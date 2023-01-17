@@ -82,6 +82,14 @@ whatsnew-footer-back-label = Takaisin
 whatsnew-footer-learn-more-label = Lue lisää
 whatsnew-empty-message = Muista palata tänne – kehitämme jatkuvasti upeita uusia ominaisuuksia, jotta { -brand-name-relay } olisi entistä parempi.
 whatsnew-feature-size-limit-heading = Liitteiden koon nosto
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköpostiviestejä, joiden koko voi olla jopa 25 megatavua, mukaan lukien…
+whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköpostiviestejä, joiden koko voi olla jopa 25 megatavua, mukaan lukien liitteet.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien…
+whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien liitteet.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliakset ovat nyt maskeja
@@ -93,6 +101,7 @@ whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enem
 whatsnew-feature-premium-expansion-description = Päivitä nyt ja hanki entistä enemmän suojausta – luo rajattomasti sähköpostimaskeja, hanki mukautettu sähköpostin aliverkkotunnus ja paljon muuta!
 whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
 whatsnew-feature-offer-countdown-cta = Päivitä nyt
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } on nyt saatavilla { -brand-name-firefox }-salasanahallinnassa
 
 ## Bento Menu
 
@@ -119,6 +128,7 @@ how-it-works-step-2-copy =
     Napsauta kuvaketta luodaksesi uuden, satunnaisen osoitteen, joka päättyy @relay.firefox.com.
     { -brand-name-relay } välittää viestit tiliisi liitettyyn ensisijaiseen sähköpostiosoitteeseen.
 how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
+hero-image-copy-unique-html = <strong>Käytä yksilöllistä välitysosoitetta</strong> jokaiselle uudelle tilille…
 
 # Home Page Version A
 
@@ -209,6 +219,15 @@ landing-pricing-offer-end-headline = Tutustumishinta: rajoittamaton määrä mas
 landing-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 # Deprecated
 landing-pricing-offer-end-cta = Päivitä nyt
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Vain rajoitetun ajan: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/kk*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Vain rajoitetun ajan: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/kk*
 plan-matrix-bundle-offer-content = Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen. Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
 plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
@@ -337,6 +356,9 @@ premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Tutustumishinta: Rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
 premium-promo-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 premium-promo-pricing-offer-end-cta = Päivitä nyt
 
@@ -372,13 +394,17 @@ settings-meta-help-tooltip = Ohjeita { -brand-name-relay }n käyttöön
 settings-meta-status-label = Palvelun tila
 settings-meta-status-tooltip = Tarkista, ovatko kaikki { -brand-name-relay }-järjestelmät tällä hetkellä toiminnassa.
 settings-error-save-heading = Asetusten muuttaminen epäonnistui
+settings-error-save-description = Asetuksiin tekemiäsi muutoksia ei tallennettu yhteysvirheen vuoksi. Yritä uudelleen.
+settings-warning-collection-off-heading-3 = Sähköpostimaskiesi tilinimet on poistettu käytöstä
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Tietosuoja
+setting-label-collection-description-2 = Salli { -brand-name-relay }n kerätä tietoja sivustoista, joissa luot ja käytät maskeja.
 setting-label-collection-description-3 = Ota tilien nimet käyttöön sähköpostimaskeille
 settings-button-save-label = Tallenna
 settings-button-save-tooltip = Ota valitsemasi asetukset käyttöön.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-avain
+settings-api-key-description = Tämä on { -brand-name-relay }n rajapinta-avaimesi. Sen avulla muut sovellukset voivat käyttää automaattisesti { -brand-name-relay }-tiliäsi.
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Napsauta kopioidaksesi
 setting-api-key-copied = Kopioitu!
