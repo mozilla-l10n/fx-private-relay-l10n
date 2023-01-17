@@ -144,6 +144,10 @@ landing-how-it-works-step-3-body-2 =
 ## Pricing section
 
 # Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-headline-2 = Vain rajoitetun ajan: rajattomasti sähköpostimaskeja hintaan { $monthly_price } kuukaudessa
+# Deprecated
 landing-pricing-body-2 =
     Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen.
     Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
@@ -176,7 +180,13 @@ landing-pricing-premium-feature-3-2 = Oma sähköpostin aliverkkotunnus
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = nimi@yourdomain.mozmail.com
 # Deprecated
+landing-pricing-premium-feature-4 = Vastaa välitettyihin sähköposteihin
+# Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Tutustumishinta: rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
 # Deprecated
 landing-pricing-offer-end-cta = Päivitä nyt
 plan-matrix-bundle-offer-content = Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen. Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
@@ -191,6 +201,7 @@ plan-matrix-heading-feature-email-masks = Sähköpostimaskit
 plan-matrix-heading-feature-browser-extension = Selainlaajennus
 plan-matrix-heading-feature-email-tracker-removal = Poista sähköpostin seuraimet
 plan-matrix-heading-feature-email-subdomain = Sähköpostin aliverkkotunnus
+plan-matrix-heading-feature-email-reply = Vastaa välitettyihin sähköposteihin
 plan-matrix-heading-feature-phone-mask = Puhelinnumeron maski
 plan-matrix-heading-feature-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # Variables:
@@ -198,9 +209,11 @@ plan-matrix-heading-feature-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }<
 plan-matrix-feature-list-email-masks = { $mask_limit } sähköpostimaskia
 plan-matrix-feature-list-browser-extension = Selainlaajennus
 plan-matrix-feature-list-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-list-email-reply = Vastaa välitettyihin sähköposteihin
 plan-matrix-feature-list-phone-mask = Puhelinnumeron maski
 plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Hinta
+plan-matrix-feature-count-unlimited = Rajoittamaton
 plan-matrix-feature-included = Sisältyy
 plan-matrix-feature-not-included = Ei sisälly
 plan-matrix-price-free = Ilmainen
