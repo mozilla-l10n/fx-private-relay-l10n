@@ -78,8 +78,9 @@ whatsnew-close-label = Sulje
 whatsnew-tab-new-label = Uutiset
 whatsnew-tab-archive-label = Historia
 whatsnew-footer-clear-all-label = Tyhjennä kaikki
-whatsnew-footer-back-label = Edellinen
+whatsnew-footer-back-label = Takaisin
 whatsnew-footer-learn-more-label = Lue lisää
+whatsnew-empty-message = Muista palata tänne – kehitämme jatkuvasti upeita uusia ominaisuuksia, jotta { -brand-name-relay } olisi entistä parempi.
 whatsnew-feature-size-limit-heading = Liitteiden koon nosto
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
@@ -89,6 +90,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enemmän suojaa…
+whatsnew-feature-premium-expansion-description = Päivitä nyt ja hanki entistä enemmän suojausta – luo rajattomasti sähköpostimaskeja, hanki mukautettu sähköpostin aliverkkotunnus ja paljon muuta!
 whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
 whatsnew-feature-offer-countdown-cta = Päivitä nyt
 
@@ -314,6 +316,8 @@ settings-button-copy = Napsauta kopioidaksesi
 setting-api-key-copied = Kopioitu!
 setting-api-key-copied-alt = Napsauta kopioidaksesi
 setting-tracker-removal-heading = Poista sähköpostin seuraimet
+# Deprecated
+setting-tracker-removal-warning = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä.
 
 ## FAQ Page
 
@@ -386,8 +390,13 @@ profile-label-forwarded = Välitetty
 profile-label-replies = Vastauksia
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Seuraimia poistettu
+profile-trackers-removed-tooltip-part1 = Kun seurainten poisto on käytössä, yleiset sähköpostiseuraimet poistetaan edelleenlähetetyistä sähköposteistasi.
 profile-label-cancel = Peruuta
+profile-blocked-copy-2 = { -brand-name-firefox-relay } poistaa viestit ennen kuin ne pääsevät postilaatikkoosi, kun valitset eston tälle maskille.
+profile-forwarded-copy-2 = { -brand-name-firefox-relay } lähettää viestit postilaatikkoosi, kun valitset edelleenlähetyksen tälle maskille.
 profile-forwarded-note = Huomautus:
+profile-forwarded-note-copy = Sähköpostiviestejä (mukaan lukien liitteet), jotka ovat suurempia kuin { email-size-limit }, ei tällä hetkellä tueta, eikä niitä lähetetä edelleen.
+profile-forwarded-note-copy-v2 = Sähköpostiviestejä (mukaan lukien liitteet), jotka ovat suurempia kuin { email-size-limit }, ei lähetetä edelleen.
 profile-stat-learn-more = Lue lisää
 profile-stat-learn-more-close = Sulje
 profile-stat-label-blocked = Sähköposteja estetty
@@ -402,6 +411,8 @@ profile-filter-category-title = Suodata näkyvät maskit
 profile-filter-category-option-random-masks = Satunnaiset maskit
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Mukautetut maskit
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Seurainten poiston tila
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -577,6 +588,18 @@ trackerreport-loading = Ladataan seurainten poistoraporttia…
 
 modal-rename-alias-saved = Nimike tallennettu!
 modal-delete-headline-2 = Poistetaanko tämä sähköpostimaski pysyvästi?
+# Variables:
+#   $email (string) - The relay mask (email address) that will be deleted
+modal-delete-warning-recovery-2-html =
+    Kun poistat tämän maskin, sitä ei voi palauttaa.
+    { -brand-name-firefox-relay } ei enää välitä osoitteeseen <strong>{ $email }</strong> lähetettyjä viestejä, mukaan lukien viestejä, joiden avulla voit palauttaa unohdetun salasanan.
+modal-delete-warning-upgrade-2 =
+    Jos käytät tätä sähköpostimaskia kirjautuaksesi sinulle tärkeille sivustoille,
+    sinun tulee päivittää kirjautumistietosi toiseen sähköpostiosoitteeseen ennen tämän maskin poistamista.
+modal-delete-domain-address-warning-upgrade-2 =
+    Jos käytät tätä sähköpostimaskia kirjautuaksesi sinulle tärkeille sivustoille,
+    sinun tulee päivittää kirjautumistietosi toiseen sähköpostiosoitteeseen ennen tämän maskin poistamista.
+    Jos luot poistetun maskin uudelleen, alkuperäiseen maskiin lähetettyjen viestin edelleenlähetystä jatketaan.
 modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
 modal-domain-register-good-news = Hyviä uutisia!
 modal-domain-register-button-2 = Rekisteröi aliverkkotunnus
