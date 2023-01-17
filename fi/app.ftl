@@ -96,7 +96,12 @@ whatsnew-feature-offer-countdown-cta = Päivitä nyt
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox }-tuotteet ja -palvelut
+fx-makes-tech = { -brand-name-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
+made-by-mozilla = { -brand-name-mozilla }lta
+fx-desktop = { -brand-name-firefox-browser } tietokoneille
 fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } mobiililaitteille
 fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
@@ -124,6 +129,7 @@ landing-hero-headline-2 = Suojaa oikeaa sähköpostiosoitettasi, niin saat halli
 landing-hero-body-2 =
     { -brand-name-firefox-relay }n sähköpostimaskit suojaavat todellisen sähköpostiosoitteesi julkista näkyvyyttä. Maskien avulla viestit ohjautuvat automaattisesti oikeaan postilaatikkoosi.
     Nyt voit vastaanottaa vain haluamasi viestit postilaatikkoosi. Aloita rekisteröitymällä { -brand-name-firefox-account }llä.
+landing-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 landing-offer-end-hero-cta = Päivitä nyt
 
 ## How it works section
@@ -175,6 +181,8 @@ landing-pricing-free-feature-free = Ilmainen
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-premium-price = { $monthly_price }/kk
 # Deprecated
+landing-pricing-premium-price-highlight = Rajoitetun ajan hinnoittelu
+# Deprecated
 landing-pricing-premium-feature-1-2 = Rajattomasti sähköpostimaskeja
 # Deprecated
 landing-pricing-premium-feature-2 = Selainlaajennus
@@ -188,6 +196,8 @@ landing-pricing-premium-feature-4 = Vastaa välitettyihin sähköposteihin
 # Deprecated
 landing-pricing-premium-feature-5 = Estä mainossähköpostit
 # Deprecated
+landing-pricing-premium-feature-6 = Sähköpostiseurannan poisto
+# Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ei ole tällä hetkellä saatavilla maassasi. Ole hyvä ja jaa sähköpostiosoitteesi, niin saat ilmoituksen heti kun julkaisu tapahtuu.
 # Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
@@ -195,6 +205,8 @@ landing-pricing-waitlist-cta = Liity odotuslistalle
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 landing-pricing-offer-end-headline = Tutustumishinta: rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
+# Deprecated
+landing-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 # Deprecated
 landing-pricing-offer-end-cta = Päivitä nyt
 plan-matrix-bundle-offer-content = Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen. Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
@@ -236,6 +248,10 @@ plan-matrix-price-period-yearly = Vuosittain
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Laskutus vuosittain
 plan-matrix-price-period-monthly = Kuukausittain
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Säästä { $percentage } % normaalista VPN-hinnasta
+plan-matrix-pick = Rekisteröidy
 plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## Use Cases
@@ -251,6 +267,12 @@ landing-use-cases-shopping-hero-content1 = Haluatko ostaa jotain verkosta, mutta
 landing-use-cases-shopping-hero-content2 = Käytä sähköpostimaskia, kun teet ostoksia verkossa. Saat vahvistuksen oikeaan sähköpostiosoitteeseesi ja voit lopettaa maskin käytön vaivatta milloin tahansa.
 landing-use-cases-on-the-go = Matkalla
 landing-use-cases-on-the-go-lead = Luo heti mukautettu sähköpostimaski missä tahansa oletkin!
+landing-use-cases-on-the-go-connect-heading = Yhdistä liikkeellä ollessasi
+landing-use-cases-on-the-go-connect-body = Käytä sähköpostimaskia, kun haluat kirjautua yksityisesti suosikkikahvilaasi tai muuhun julkiseen wifi-verkkoon
+landing-use-cases-on-the-go-receipt-heading = Vastaanota kuitit sähköpostitse
+landing-use-cases-on-the-go-receipt-body = Jaa mukautettu sähköpostimaski ostosten kuitteja varten jakamatta oikeaa sähköpostiosoitettasi
+landing-use-cases-on-the-go-phone-heading = Käytä puhelimessasi
+landing-use-cases-on-the-go-phone-body = Missä tahansa oletkin, luo mukautettu sähköpostimaski haluamaasi asiaa varten sekunneissa
 landing-use-cases-signups = Rekisteröitymiset
 landing-use-cases-signups-hero-heading = Huolettomat rekisteröitymiset
 landing-use-cases-signups-hero-content1 = Haluatko aloittaa uuden tilauksen, vastata kutsuun tai saada tarjouskoodin ilman, että postilaatikkosi tulvii roskapostia?
@@ -305,6 +327,7 @@ premium-promo-perks-perk-dashboard-body-2 = Hallitse kaikkia sähköpostimaskeja
 premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
 premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
+premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
@@ -444,6 +467,7 @@ profile-stat-label-trackers-removed = Seuraimia poistettu
 profile-filter-search-placeholder-2 = Etsi maskeja
 profile-filter-category-button-label = Suodata näkyvät maskit
 profile-filter-category-title = Suodata näkyvät maskit
+profile-filter-no-results = Yksikään maski ei vastaa valitsemiasi ehtoja. <clear-button>Tyhjennä kaikki suodattimet.</clear-button>
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Satunnaiset maskit
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
