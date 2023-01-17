@@ -339,6 +339,7 @@ faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joista
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
+profile-supports-email-forwarding = { -brand-name-firefox-relay } tukee sähköpostin edelleenlähetystä (mukaan lukien liitteet) sähköpostiviestin ollessa kooltaan enintään { email-size-limit }
 profile-promo-upgrade-cta = Päivitä { -brand-name-relay }
 profile-details-expand = Näytä maskin tiedot
 profile-details-collapse = Piilota maskin tiedot
@@ -416,10 +417,12 @@ banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköposti
 banner-download-firefox-headline = { -brand-name-relay } on entistä parempi { -brand-name-firefox }issa
 banner-download-firefox-cta = Hanki { -brand-name-firefox }
 banner-download-install-extension-headline = Hanki { -brand-name-relay }-laajennus { -brand-name-firefox }ille
+banner-download-install-extension-copy-2 = { -brand-name-relay }-laajennus selaimelle { -brand-name-firefox-browser } tekee sähköpostimaskien käyttämisestä entistäkin helpompaa.
 banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-name-firefox }iin
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
 banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
+banner-pack-upgrade-copy-2 = Rajoittamattomalla määrällä sähköpostimaskeja ja omalla sähköpostin aliverkkotunnuksella { -brand-name-firefox-relay-premium } auttaa sinua pysymään suojattuna verkossa.
 banner-pack-upgrade-cta = Päivitä nyt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
@@ -429,6 +432,9 @@ banner-label-data-notification-header-v2 = Ota uudet ominaisuudet käyttöön
 banner-label-data-notification-body-cta = Lue lisää
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Suojaa yksityisyyttäsi, pelasta internet
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = Suojaa yksityisyyttäsi samalla kun liityt tehtäväämme rakentaa parempi internet, kaikki hintaan { $monthly_price }
 banner-upgrade-loyalist-cta = Hanki lisää suojaa
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Tutustumishintatarjouksemme päättyy pian!
@@ -496,6 +502,8 @@ tips-promo-email-blocking-heading = Estä mainossähköpostit
 
 onboarding-headline-2 = Luo ensimmäinen sähköpostimaskisi
 onboarding-alias-tip-1-2 = Valitse "Luo uusi maski" luodaksesi ensimmäinen sähköpostimaskin.
+onboarding-alias-tip-2 = Käytä { -brand-name-relay }-laajennusta ja valitse { -brand-name-firefox-relay } -kuvake, kun se näkyy sähköpostikentissä.
+onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta hiiren kakkospainikkeella lomakekenttiä ja valitse "Luo uusi maski".
 
 ## Premium Onboarding
 
@@ -604,6 +612,9 @@ survey-csat-answer-dissatisfied = Tyytymätön
 survey-csat-answer-neutral = Neutraali
 survey-csat-answer-satisfied = Tyytyväinen
 survey-csat-answer-very-satisfied = Hyvin tyytyväinen
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Kiitos palautteesta. Haluaisimme ymmärtää nykyistä paremmin, kuinka voimme parantaa { -brand-name-relay }-palvelua. Haluaisitko vastata kahden minuutin kyselyyn?
 
 ## VPN Promo Banner
 
@@ -612,9 +623,14 @@ vpn-promo-cta = Hanki { -brand-name-mozilla-vpn }
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } tukee sähköpostin edelleenlähetystä (mukaan lukien liitteet) sähköpostiviestin ollessa kooltaan enintään { email-size-limit }. Lue lisää { $faq_link }.
+# Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } sähköpostiseurainta poistettu
 forwarded-email-trackers-blocked-report = Lue lisää
+# This entire text is a link
+forwarded-email-footer-premium-banner = Päivitä { -brand-name-relay-premium }iin
 
 ## Email sent to free users who try to reply
 
