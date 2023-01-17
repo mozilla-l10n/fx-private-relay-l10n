@@ -481,6 +481,7 @@ profile-forwarded-copy-2 = { -brand-name-firefox-relay } lähettää viestit pos
 profile-forwarded-note = Huomautus:
 profile-forwarded-note-copy = Sähköpostiviestejä (mukaan lukien liitteet), jotka ovat suurempia kuin { email-size-limit }, ei tällä hetkellä tueta, eikä niitä lähetetä edelleen.
 profile-forwarded-note-copy-v2 = Sähköpostiviestejä (mukaan lukien liitteet), jotka ovat suurempia kuin { email-size-limit }, ei lähetetä edelleen.
+profile-replies-tooltip = Voit vastata tämän maskin kautta saamiisi sähköposteihin, ja { -brand-name-firefox-relay } jatkaa oikean sähköpostiosoitteesi suojaamista.
 profile-stat-learn-more = Lue lisää
 profile-stat-learn-more-close = Sulje
 profile-stat-label-blocked = Sähköposteja estetty
@@ -504,6 +505,8 @@ profile-indicator-tracker-removal-alt = Seurainten poiston tila
 profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
+# Allow/forward all emails sent to a speciic mask
+profile-promo-email-blocking-option-none = Ei mitään
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } yrittää estää mainossähköpostit ja lähettää edelleen sähköpostit, kuten kuitit ja ostosten toimitustiedot.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ei estä mitään sähköposteja tämän maskin kohdalla.
@@ -528,6 +531,7 @@ banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-n
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
 banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
+banner-register-subdomain-headline-aliases-2 = Hanki mukautettu aliverkkotunnus maskeillesi
 banner-choose-subdomain-input-placeholder-3 = Etsi aliverkkotunnusta
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Etsi
@@ -550,9 +554,13 @@ banner-upgrade-loyalist-cta = Hanki lisää suojaa
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Tutustumishintatarjouksemme päättyy pian!
 banner-offer-end-cta = Päivitä nyt
+banner-ab-premium-promo-cta = Päivitä
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = Aliverkkotunnuksesi @{ $subdomain } on luotu
 success-settings-update = Asetukset on päivitetty
 success-signed-out-message = Olet kirjautunut ulos.
 # Variables:
@@ -563,6 +571,11 @@ success-signed-in-message = Kirjauduttu käyttäjänä { $username }.
 
 error-premium-cannot-change-subdomain = Et voi vaihtaa aliverkkotunnustasi
 error-premium-set-subdomain = Sinun on oltava premium-tilaaja voidaksesi määrittää aliverkkotunnuksen
+error-subdomain-not-created = Aliverkkotunnusta ei voitu luoda, kokeile jotain muuta
+# Variables:
+#   $unavailable_subdomain (url) - User-set subdomain that is not allowed
+error-subdomain-not-available-2 = Aliverkkotunnus @{ $unavailable_subdomain } ei ole käytettävissä. Kokeile toista aliverkkotunnusta.
+error-settings-update = Asetusten päivittämisessä tapahtui virhe. Yritä uudelleen
 error-mask-create-failed = Maskia ei voitu luoda. Yritä uudelleen.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
@@ -590,11 +603,13 @@ tips-toast-button-expand-label = Lue lisää
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = Luo uusi mukautettu maski
+modal-custom-alias-picker-form-heading-2 = Tai luo mukautettu maski manuaalisesti
 modal-custom-alias-picker-form-prefix-spaces-warning = Sähköpostimaskeissa ei sallita välilyöntejä.
 modal-custom-alias-picker-form-submit-label-2 = Luo maski
 
 ## Popover explaining how custom masks work
 
+popover-custom-alias-explainer-heading-2 = Kuinka luoda mukautettuja maskeja
 popover-custom-alias-explainer-generate-button-heading-2 = Luo mukautettu maski manuaalisesti
 popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
 popover-custom-alias-explainer-close-button-label = Sulje
@@ -604,6 +619,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = Maskien luominen mukautetun aliverkkotunnuksen avulla
 
 ## Tip about using custom masks
 
@@ -619,6 +635,7 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 
 ## Premium Onboarding
 
+onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
@@ -690,10 +707,21 @@ modal-delete-domain-address-warning-upgrade-2 =
     Jos luot poistetun maskin uudelleen, alkuperäiseen maskiin lähetettyjen viestin edelleenlähetystä jatketaan.
 modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
 modal-domain-register-good-news = Hyviä uutisia!
+modal-domain-register-warning-reminder-2 = Muista, että voit rekisteröidä vain yhden aliverkkotunnuksen. Et voi muuttaa sitä myöhemmin.
 modal-domain-register-button-2 = Rekisteröi aliverkkotunnus
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } on saatavilla!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> on saatavilla!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Kyllä, haluan rekisteröidä aliverkkotunnuksen <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Valmista!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
@@ -717,8 +745,11 @@ offer-countdown-timer-seconds = s
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = Asteikolla 1-10, kuinka todennäköisesti suosittelisit { -brand-name-relay }-palvelua ystävillesi tai työkavereillesi?
 survey-question-2 = Onko { -brand-name-relay } helppokäyttöinen?
 survey-question-3 = Onko { -brand-name-relay } mielestäsi luotettava?
+survey-question-4 = Onko { -brand-name-relay }n esitystapa selkeä ja yksinkertainen?
+survey-question-5 = Miltä sinusta tuntuisi, jos et voisi enää käyttää { -brand-name-relay }-palvelua?
 survey-option-strongly-disagree = Vahvasti eri mieltä
 survey-option-disagree = Eri mieltä
 survey-option-unsure = Epävarma
@@ -745,6 +776,8 @@ survey-csat-followup = Kiitos palautteesta. Haluaisimme ymmärtää nykyistä pa
 
 ## VPN Promo Banner
 
+vpn-promo-headline = Säästä 50 prosenttia koko vuoden tilauksella
+vpn-promo-copy = Suojaa tietojasi verkossa — ja valitse sinulle sopiva VPN-tilaus.
 vpn-promo-cta = Hanki { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
@@ -777,4 +810,8 @@ toast-button-close-label = Sulje ilmoitus
 
 ## API error messages
 
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
+api-error-need-subdomain = Valitse aliverkkotunnus ennen mukautetun sähköpostiosoitteen luomista.
 api-error-account-is-paused = Tilisi on keskeytetty.
