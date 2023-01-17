@@ -293,6 +293,9 @@ landing-reviews-details-source = Lähde: addons.mozilla.org
 # This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
 # Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
 landing-reviews-rating = /5 ({ $review_count } arviota)
+landing-reviews-show-next-button = näytä seuraava arvio
+landing-reviews-show-previous-button = näytä edellinen arvio
+landing-review-anonymous-user = { -brand-name-firefox }-käyttäjä { $user_id }
 landing-review-user-one-review = Arvostan todella { -brand-name-mozilla }n tiimiä siitä, että he ovat niin luovia ja yksinkertaistaneet sähköpostiosoitteeni anonymisointia. Tämä on loistava laajennus, suosittelen sitä yksityisyydetään välittäville!
 landing-review-user-two-review = Yksinkertainen työkalu, jolla estää sähköpostiosoitteen joutumista roskapostin kohteeksi.
 landing-review-user-three-review = Rakastan tätä laajennusta! Erittäin yksinkertainen, mutta tehokas, ja integrointi selaimen kanssa on upeaa.
@@ -329,14 +332,19 @@ premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
 premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
+premium-promo-use-cases-headline-2 = Käytä { -brand-name-relay }-sähköpostimaskeja missä tahansa
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
+premium-promo-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 premium-promo-pricing-offer-end-cta = Päivitä nyt
 
 ## The Premium waitlist page
 
+# Deprecated
+waitlist-heading = Liity { -brand-name-relay-premium } -odotuslistalle
+waitlist-heading-2 = Liity { -brand-name-relay-premium } -odotuslistalle
 waitlist-lead-2 = Ilmoitamme, kun { -brand-name-relay-premium } on saatavilla alueellasi.
 waitlist-lead-phone = Ilmoitamme, kun puhelinnumeromaskit ovat saatavilla alueellasi.
 waitlist-control-required = Pakollinen
@@ -353,13 +361,17 @@ waitlist-submit-label-2 = Liity odotuslistalle
 # Deprecated
 waitlist-privacy-policy-agree = Napsauttamalla “{ waitlist-submit-label }” hyväksyt <a>tietosuojakäytäntömme</a>.
 waitlist-privacy-policy-agree-2 = Napsauttamalla “{ waitlist-submit-label-2 }” hyväksyt <a>tietosuojakäytäntömme</a>.
+waitlist-subscribe-error-unknown = Jonotuslistalle lisättäessä tapahtui virhe. Yritä uudelleen.
 
 ## Settings page
 
 settings-headline = { -brand-name-relay }-asetukset
 settings-meta-contact-label = Ota yhteyttä
 settings-meta-help-label = Ohjeet ja tuki
+settings-meta-help-tooltip = Ohjeita { -brand-name-relay }n käyttöön
 settings-meta-status-label = Palvelun tila
+settings-meta-status-tooltip = Tarkista, ovatko kaikki { -brand-name-relay }-järjestelmät tällä hetkellä toiminnassa.
+settings-error-save-heading = Asetusten muuttaminen epäonnistui
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Tietosuoja
 setting-label-collection-description-3 = Ota tilien nimet käyttöön sähköpostimaskeille
@@ -372,6 +384,7 @@ settings-button-copy = Napsauta kopioidaksesi
 setting-api-key-copied = Kopioitu!
 setting-api-key-copied-alt = Napsauta kopioidaksesi
 setting-tracker-removal-heading = Poista sähköpostin seuraimet
+setting-tracker-removal-description = Poista sähköpostiseuraimet kaikista edelleenlähetetyistä sähköposteista.
 # Deprecated
 setting-tracker-removal-warning = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä.
 
@@ -388,20 +401,27 @@ faq-question-what-is-answer-2 = Sähköpostimaskit ovat peitettyjä tai yksityis
 faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
 faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
+faq-question-missing-emails-answer-reason-turned-off-2 = Maskin edelleenlähetys saattaa olla pois päältä
 faq-question-use-cases-question-2 = Milloin minun pitäisi käyttää { -brand-name-relay }-sähköpostimaskeja?
 faq-question-use-cases-answer-part1-2 = Voit käyttää { -brand-name-relay }-sähköpostimaskeja lähes kaikissa samoissa tilanteissa, joissa käyttäisit tavallista sähköpostiosoitettasi. Suosittelemme maskien käyttöä, kun tilaat markkinointi-/tiedotussähköposteja, jolloin voit halutessasi varmuudella hallita, saatko sähköpostiviestejä jatkossa.
 faq-question-use-cases-answer-part2-2 = Emme suosittele maskien käyttöä, kun tarvitset henkilöytesi vahvistusta, kun viesti on erittäin tärkeä tai niihin viesteihin, joissa sinun on vastaanotettava liitteitä. Haluat mitä luultavimmin jakaa oikean sähköpostiosoitteesi pankkisi, lääkärisi ja asianajajasi kanssa sekä konsertti- tai lentolippuja vastaanottaessa.
+faq-question-2-question-2 = Miksi sivusto ei hyväksy { -brand-name-relay }-sähköpostimaskiani?
 faq-question-1-question = Entä roskaposti?
 faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
+faq-question-4-question-2 = Voinko vastata viesteihin käyttämällä { -brand-name-relay }-sähköpostimaskia?
 faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
 faq-question-browser-support-question = Voinko käyttää { -brand-name-relay }-palvelua muilla selaimilla tai mobiililaitteellani?
 faq-question-browser-support-answer-2 = Kyllä, voit luoda { -brand-name-relay }-maskeja muissa selaimissa tai mobiililaitteissa kirjautumalla sisään { -brand-name-relay }-hallintapaneeliin.
 faq-question-longevity-question = Mitä tapahtuu, jos Mozilla sulkee { -brand-name-firefox-relay } -palvelun?
+faq-question-mozmail-question-2 = Miksi sähköpostimaskini alkoivat käyttää verkkotunnusta “mozmail.com”?
 faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay } sähköpostit liitteineen?
+faq-question-unsubscribe-domain-question-2 = Mitä mukautetulle aliverkkotunnukselleni tapahtuu, jos peruutan { -brand-name-relay-premium } -tilauksen?
 faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
+faq-question-email-storage-question = Tallentaako { -brand-name-relay } sähköpostini?
 faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
 faq-question-disable-trackerremoval-answer = Kyllä. Jos sinulla on ongelmia sähköpostien näyttäessä rikkinäiseltä tai haluat lopettaa seurainten poistamisen, voit poistaa ominaisuuden käytöstä asetuksista.
 faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
+faq-question-trackerremoval-breakage-question = Miksi sähköpostini näyttävät rikkinäisiltä?
 
 ## Profile Page (Logged In)
 
@@ -409,6 +429,7 @@ faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joista
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } tukee sähköpostin edelleenlähetystä (mukaan lukien liitteet) sähköpostiviestin ollessa kooltaan enintään { email-size-limit }
+profile-promo-upgrade-headline = Päivitä saadaksesi entistä enemmän ominaisuuksia.
 profile-promo-upgrade-cta = Päivitä { -brand-name-relay }
 profile-details-expand = Näytä maskin tiedot
 profile-details-collapse = Piilota maskin tiedot
@@ -444,6 +465,8 @@ profile-label-first-emailed = Ensimmäinen sähköposti:
 profile-label-created = Luotu:
 profile-label-details-show = Näytä yksityiskohdat
 profile-label-details-hide = Piilota yksityiskohdat
+# This string is a label for a toggle (on/off) switch
+profile-label-forwarding = edelleenlähetys
 profile-label-click-to-copy = Napsauta kopioidaksesi
 profile-label-copied = Kopioitu!
 profile-label-blocked = Estetty
