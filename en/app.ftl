@@ -1180,6 +1180,9 @@ first-reply-forwarded = We’ve sent this reply to { $sender }. But moving forwa
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded = Your reply was NOT sent to { $sender }.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Your reply was not sent to { $sender }.
 replies-only-available-with-premium = Replying to forwarded emails from your masked email is only available with { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Replies are not included with your free account
 reply-not-sent-header = Your reply was not sent
