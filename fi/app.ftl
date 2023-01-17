@@ -105,6 +105,7 @@ bento-button-close-label = Sulje valikko
 home-hero-cta = Kirjaudu sisään
 how-it-works-headline = Kuinka se toimii
 how-it-works-step-1-headline = Hanki laajennus
+how-it-works-step-1-link = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
 how-it-works-step-2-headline-2 = Luo uusi sähköpostimaski
 how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
 
@@ -113,11 +114,18 @@ how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
 
 ## Hero Section
 
+landing-hero-headline-2 = Suojaa oikeaa sähköpostiosoitettasi, niin saat hallittua postilaatikkoasi aiempaa paremmin
+landing-hero-body-2 =
+    { -brand-name-firefox-relay }n sähköpostimaskit suojaavat todellisen sähköpostiosoitteesi julkista näkyvyyttä. Maskien avulla viestit ohjautuvat automaattisesti oikeaan postilaatikkoosi.
+    Nyt voit vastaanottaa vain haluamasi viestit postilaatikkoosi. Aloita rekisteröitymällä { -brand-name-firefox-account }llä.
 landing-offer-end-hero-cta = Päivitä nyt
 
 ## How it works section
 
 landing-how-it-works-headline = Kuinka se toimii
+landing-how-it-works-body-2 = Jaa { -brand-name-relay }-sähköpostimaskeja oikean sähköpostiosoitteesi sijaan sähköpostisi ja henkilöytesi suojaamiseksi.
+landing-how-it-works-step-1-body-cta = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
+landing-how-it-works-step-1-body-2 = Luo sähköpostimaskeja automaattisesti aina, kun kirjoitat sähköpostiosoitteesi verkossa.
 
 ## Pricing section
 
@@ -333,7 +341,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Sulje
 
 banner-dismiss = Hylkää
 banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköpostiasi.
+banner-download-firefox-headline = { -brand-name-relay } on entistä parempi { -brand-name-firefox }issa
 banner-download-firefox-cta = Hanki { -brand-name-firefox }
+banner-download-install-extension-headline = Hanki { -brand-name-relay }-laajennus { -brand-name-firefox }ille
 banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-name-firefox }iin
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
@@ -428,7 +438,13 @@ multi-part-onboarding-premium-get-subdomain = Hanki mukautettu aliverkkotunnus
 multi-part-onboarding-reply-headline = Vastaa sähköposteihisi
 multi-part-onboarding-premium-domain-cta-2 = Rekisteröi mukautettu aliverkkotunnus nyt:
 multi-part-onboarding-premium-domain-button-skip-2 = Jatka, rekisteröin mukautetun aliverkkotunnuksen myöhemmin
+multi-part-onboarding-premium-extension-get-title = Hanki { -brand-name-relay }-laajennus { -brand-name-firefox }ille
+multi-part-onboarding-premium-extension-get-description-2 = { -brand-name-relay }-laajennus { -brand-name-firefox }ille tekee sähköpostimaskien käytöstä entistäkin helpompaa.
 multi-part-onboarding-premium-extension-button-download = Hanki { -brand-name-relay }-laajennus
+multi-part-onboarding-premium-chrome-extension-get-title = Hanki { -brand-name-relay }-laajennus { -brand-name-google-chrome }lle
+# Deprecated
+multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-firefox-relay } -laajennus { -brand-name-chrome }lle tekee sähköpostialiasten luomisesta ja käyttämisestä entistäkin helpompaa.
+multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-firefox-relay } -laajennus { -brand-name-chrome }lle tekee sähköpostimaskien luomisesta ja käyttämisestä entistäkin helpompaa.
 multi-part-onboarding-premium-chrome-extension-button-download = Hanki { -brand-name-relay }-laajennus
 multi-part-onboarding-premium-extension-button-skip = Jatka, lataan laajennuksen myöhemmin
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
