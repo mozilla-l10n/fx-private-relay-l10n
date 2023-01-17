@@ -90,6 +90,7 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } voi nyt 
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien liitteet.
+whatsnew-feature-forward-some-heading = Mainospostin esto
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliakset ovat nyt maskeja
@@ -287,6 +288,7 @@ landing-use-cases-shopping-hero-heading = Ostokset sähköpostimaskeilla
 landing-use-cases-shopping-hero-content1 = Haluatko ostaa jotain verkosta, mutta et tunne kauppaa entuudestaan tai luota siihen täysin?
 landing-use-cases-shopping-hero-content2 = Käytä sähköpostimaskia, kun teet ostoksia verkossa. Saat vahvistuksen oikeaan sähköpostiosoitteeseesi ja voit lopettaa maskin käytön vaivatta milloin tahansa.
 landing-use-cases-on-the-go = Matkalla
+landing-use-cases-on-the-go-heading = { -brand-name-relay } mukana matkalla
 landing-use-cases-on-the-go-lead = Luo heti mukautettu sähköpostimaski missä tahansa oletkin!
 landing-use-cases-on-the-go-connect-heading = Yhdistä liikkeellä ollessasi
 landing-use-cases-on-the-go-connect-body = Käytä sähköpostimaskia, kun haluat kirjautua yksityisesti suosikkikahvilaasi tai muuhun julkiseen wifi-verkkoon
@@ -538,12 +540,20 @@ profile-stat-label-forwarded = Sähköposteja välitetty
 profile-stat-label-aliases-used-2 = Sähköpostimaskeja käytetty
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Seuraimia poistettu
+profile-stat-label-trackers-learn-more-part1 = Seurainten poistamisen käyttöönotto poistaa yleiset seuraimet edelleenlähetetyistä sähköposteistasi.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä.
 profile-filter-search-placeholder-2 = Etsi maskeja
 profile-filter-category-button-label = Suodata näkyvät maskit
+profile-filter-category-button-tooltip = Suodata maskit aliverkkotunnuksen ja/tai sen mukaan, estävätkö maskit tällä hetkellä saapuvan sähköpostin
 profile-filter-category-title = Suodata näkyvät maskit
 profile-filter-no-results = Yksikään maski ei vastaa valitsemiasi ehtoja. <clear-button>Tyhjennä kaikki suodattimet.</clear-button>
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Edelleenlähettävät maskit
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Estävät maskit
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Mainoksia estävät maskit
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Satunnaiset maskit
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -587,11 +597,13 @@ banner-register-subdomain-headline-aliases-2 = Hanki mukautettu aliverkkotunnus 
 banner-choose-subdomain-input-placeholder-3 = Etsi aliverkkotunnusta
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Etsi
+banner-pack-upgrade-headline-2-html = Päivitä <strong>{ -brand-name-firefox-relay-premium }</strong>iin saadaksesi lisää sähköpostimaskeja
 banner-pack-upgrade-copy-2 = Rajoittamattomalla määrällä sähköpostimaskeja ja omalla sähköpostin aliverkkotunnuksella { -brand-name-firefox-relay-premium } auttaa sinua pysymään suojattuna verkossa.
 footer-banner-premium-promo-headine = Päivitä <strong>{ -brand-name-firefox-relay-premium }</strong>iin suojataksesi puhelintasi <i>ja</i> sähköpostiasi
 banner-pack-upgrade-cta = Päivitä nyt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
+banner-label-privacy-notice-update-body = Parantaaksemme { -brand-name-firefox-relay }n luotettavuutta siinä tapauksessa, että sähköpostia ei voida toimittaa, säilytämme sähköpostin väliaikaisesti palvelimillamme, kunnes se on toimitettu. Emme koskaan säilytä viestejä kolmea päivää pidempään.
 banner-label-privacy-notice-update-cta = Näytä tietosuojakäytäntö
 # Data Notification Banner:
 banner-label-data-notification-header = Tulossa pian { -brand-name-relay }-palveluun
@@ -662,7 +674,9 @@ tips-toast-button-expand-label = Lue lisää
 modal-custom-alias-picker-heading-2 = Luo uusi mukautettu maski
 modal-custom-alias-picker-form-heading-2 = Tai luo mukautettu maski manuaalisesti
 modal-custom-alias-picker-form-prefix-spaces-warning = Sähköpostimaskeissa ei sallita välilyöntejä.
+modal-custom-alias-picker-form-prefix-invalid-warning = Sähköpostimaskit voivat sisältää vain pieniä kirjaimia, numeroita ja tavuviivoja, eivätkä ne saa alkaa tai päättyä tavuviivalla.
 modal-custom-alias-picker-form-submit-label-2 = Luo maski
+modal-custom-alias-picker-creation-error-2 = Mukautettua sähköpostimaskia ei voitu luoda manuaalisesti. Yritä uudelleen tai lähetä maskille sähköposti luodaksesi sen.
 
 ## Popover explaining how custom masks work
 
@@ -693,6 +707,7 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 ## Premium Onboarding
 
 onboarding-premium-headline = Tervetuloa { -brand-name-firefox } { -brand-name-relay-premium }iin
+onboarding-premium-control-title = Hallitse, mitä sähköposteja saat
 onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit:
 
@@ -728,6 +743,8 @@ multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 trackerreport-title = { -brand-name-relay }n seurainten poistoraportti
 trackerreport-meta-count-heading = Seuraimia yhteensä
 trackerreport-trackers-heading = Seuraimia havaittu
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Seuraimen verkkotunnus
 trackerreport-trackers-count-heading = Seurainten määrä
 trackerreport-trackers-none = Tästä sähköpostista ei löytynyt seuraimia.
 # Variables:
@@ -751,6 +768,7 @@ trackerreport-trackers-explainer-content-part2 = Yritys tai organisaatio upottaa
 trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
 trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
 trackerreport-loading = Ladataan seurainten poistoraporttia…
+trackerreport-load-error = Seurainten poistoraporttia luotaessa tapahtui virhe. Päivitä sivu ja yritä uudelleen.
 
 ## Modals
 
