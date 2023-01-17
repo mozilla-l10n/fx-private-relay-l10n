@@ -154,6 +154,8 @@ landing-pricing-body-2 =
 # Deprecated
 landing-pricing-free-price = Ilmainen
 # Deprecated
+landing-pricing-free-feature-1-2 = Enintään 5 sähköpostimaskia
+# Deprecated
 landing-pricing-free-feature-2 = Selainlaajennus
 # Deprecated
 landing-pricing-free-feature-3 = Sähköpostiseurannan poisto
@@ -182,6 +184,8 @@ landing-pricing-premium-feature-3-subheader = nimi@yourdomain.mozmail.com
 # Deprecated
 landing-pricing-premium-feature-4 = Vastaa välitettyihin sähköposteihin
 # Deprecated
+landing-pricing-premium-feature-5 = Estä mainossähköpostit
+# Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
 # Deprecated
 # Variables:
@@ -192,7 +196,7 @@ landing-pricing-offer-end-cta = Päivitä nyt
 plan-matrix-bundle-offer-content = Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen. Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
 plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
-plan-matrix-heading-plan-premium = Sähköpostisuojaus
+plan-matrix-heading-plan-premium = Sähköpostin suojaus
 plan-matrix-heading-plan-phones = Sähköpostin ja puhelimen suojaus
 plan-matrix-heading-plan-bundle = Lisää VPN-suojaus
 plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -brand-name-mozilla-vpn }
@@ -200,15 +204,19 @@ plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -
 plan-matrix-heading-feature-email-masks = Sähköpostimaskit
 plan-matrix-heading-feature-browser-extension = Selainlaajennus
 plan-matrix-heading-feature-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-heading-feature-promo-email-blocking = Estä mainossähköpostit
 plan-matrix-heading-feature-email-subdomain = Sähköpostin aliverkkotunnus
 plan-matrix-heading-feature-email-reply = Vastaa välitettyihin sähköposteihin
 plan-matrix-heading-feature-phone-mask = Puhelinnumeron maski
 plan-matrix-heading-feature-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } sähköpostimaskia
 plan-matrix-feature-list-browser-extension = Selainlaajennus
 plan-matrix-feature-list-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-list-promo-email-blocking = Estä mainossähköpostit
+plan-matrix-feature-list-email-subdomain = Sähköpostin aliverkkotunnus
 plan-matrix-feature-list-email-reply = Vastaa välitettyihin sähköposteihin
 plan-matrix-feature-list-phone-mask = Puhelinnumeron maski
 plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -239,6 +247,7 @@ landing-use-cases-signups-hero-heading = Huolettomat rekisteröitymiset
 ## Landing FAQ Section
 
 landing-faq-headline = Yleisimmät kysymykset { -brand-name-firefox-relay } -palveluun liittyen
+landing-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
 
 ## Landing Reviews Section
 
@@ -258,6 +267,8 @@ premium-promo-perks-pill-new = Uutta!
 premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
 premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
 premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
+premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
+premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-gaming-heading = Pelit
@@ -309,6 +320,7 @@ faq-question-what-is-question-2 = Mikä on { -brand-name-relay }-sähköpostimas
 faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
 faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
+faq-question-use-cases-question-2 = Milloin minun pitäisi käyttää { -brand-name-relay }-sähköpostimaskeja?
 faq-question-1-question = Entä roskaposti?
 faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
 faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
@@ -383,6 +395,7 @@ profile-filter-category-option-custom-masks = Mukautetut maskit
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
 profile-promo-email-blocking-label-none = Estä kaikki
@@ -465,6 +478,8 @@ modal-custom-alias-picker-form-submit-label-2 = Luo maski
 popover-custom-alias-explainer-generate-button-heading-2 = Luo mukautettu maski manuaalisesti
 popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
 popover-custom-alias-explainer-close-button-label = Sulje
+# Checkbox the user can click to adjust the block level of the new mask
+popover-custom-alias-explainer-promotional-block-checkbox = Estä mainossähköpostit
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 
 ## Tip about using custom masks
@@ -472,6 +487,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 
 ## Tip about using custom masks
 
+tips-promo-email-blocking-heading = Estä mainossähköpostit
 
 ## Onboarding
 
@@ -528,6 +544,7 @@ trackerreport-tracker-count =
     }
 trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
 trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
+trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
 trackerreport-loading = Ladataan seurainten poistoraporttia…
 
 ## Modals
@@ -578,6 +595,9 @@ vpn-promo-cta = Hanki { -brand-name-mozilla-vpn }
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } sähköpostiseurainta poistettu
 forwarded-email-trackers-blocked-report = Lue lisää
 
 ## Email sent to free users who try to reply
