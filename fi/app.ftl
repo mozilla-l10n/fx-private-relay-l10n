@@ -292,6 +292,9 @@ waitlist-control-locale-label = Valitse ensisijainen kieli.
 # Deprecated
 waitlist-submit-label = Liity odotuslistalle
 waitlist-submit-label-2 = Liity odotuslistalle
+# Deprecated
+waitlist-privacy-policy-agree = Napsauttamalla “{ waitlist-submit-label }” hyväksyt <a>tietosuojakäytäntömme</a>.
+waitlist-privacy-policy-agree-2 = Napsauttamalla “{ waitlist-submit-label-2 }” hyväksyt <a>tietosuojakäytäntömme</a>.
 
 ## Settings page
 
@@ -301,6 +304,7 @@ settings-meta-help-label = Ohjeet ja tuki
 settings-meta-status-label = Palvelun tila
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Tietosuoja
+setting-label-collection-description-3 = Ota tilien nimet käyttöön sähköpostimaskeille
 settings-button-save-label = Tallenna
 settings-button-save-tooltip = Ota valitsemasi asetukset käyttöön.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -347,9 +351,11 @@ profile-details-collapse = Piilota maskin tiedot
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = Napsauta kopioidaksesi maskin { $address }.
+profile-label-edit-2 = Muokkaa tämän maskin nimikettä
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Lisää tilin nimi
 profile-label-save-error = Tallentaminen epäonnistui, yritä uudelleen.
+profile-label-saved = Nimike tallennettu!
 profile-label-generate-new-alias-2 = Luo uusi maski
 profile-label-generate-new-alias-menu-random-2 = Satunnainen sähköpostimaski
 # Variables
@@ -402,6 +408,9 @@ profile-filter-category-option-custom-masks = Mukautetut maskit
 profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ei estä mitään sähköposteja tämän maskin kohdalla.
+profile-promo-email-blocking-label-promotionals = Estä mainokset
 profile-promo-email-blocking-label-none = Estä kaikki
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (vain { -brand-name-premium })
@@ -422,11 +431,16 @@ banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-n
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
 banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
+banner-choose-subdomain-input-placeholder-3 = Etsi aliverkkotunnusta
+# This is the “call to action” text on the submit button of subdomain registration form.
+banner-register-subdomain-button-search = Etsi
 banner-pack-upgrade-copy-2 = Rajoittamattomalla määrällä sähköpostimaskeja ja omalla sähköpostin aliverkkotunnuksella { -brand-name-firefox-relay-premium } auttaa sinua pysymään suojattuna verkossa.
 banner-pack-upgrade-cta = Päivitä nyt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
 banner-label-privacy-notice-update-cta = Näytä tietosuojakäytäntö
+# Data Notification Banner:
+banner-label-data-notification-header = Tulossa pian { -brand-name-relay }-palveluun
 banner-label-data-notification-cta = Siirry asetuksiin
 banner-label-data-notification-header-v2 = Ota uudet ominaisuudet käyttöön
 banner-label-data-notification-body-cta = Lue lisää
@@ -561,6 +575,8 @@ trackerreport-loading = Ladataan seurainten poistoraporttia…
 
 ## Modals
 
+modal-rename-alias-saved = Nimike tallennettu!
+modal-delete-headline-2 = Poistetaanko tämä sähköpostimaski pysyvästi?
 modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
 modal-domain-register-good-news = Hyviä uutisia!
 modal-domain-register-button-2 = Rekisteröi aliverkkotunnus
@@ -634,6 +650,9 @@ forwarded-email-footer-premium-banner = Päivitä { -brand-name-relay-premium }i
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded = Vastaustasi EI lähetetty vastaanottajalle { $sender }.
 replies-not-included-in-free-account-header = Vastaukset eivät sisälly ilmaiseen tiliisi
 reply-not-sent-header = Vastaustasi ei lähetetty
 upgrade-to-reply-to-future-emails = Päivitä nyt lähettääksesi vastauksia
