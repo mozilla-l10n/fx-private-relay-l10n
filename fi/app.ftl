@@ -105,7 +105,7 @@ bento-button-close-label = Sulje valikko
 ## Home Page
 
 home-hero-cta = Kirjaudu sisään
-how-it-works-headline = Kuinka se toimii
+how-it-works-headline = Näin se toimii
 how-it-works-step-1-headline = Hanki laajennus
 how-it-works-step-1-link = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
 how-it-works-step-2-headline-2 = Luo uusi sähköpostimaski
@@ -128,7 +128,7 @@ landing-offer-end-hero-cta = Päivitä nyt
 
 ## How it works section
 
-landing-how-it-works-headline = Kuinka se toimii
+landing-how-it-works-headline = Näin se toimii
 landing-how-it-works-body-2 = Jaa { -brand-name-relay }-sähköpostimaskeja oikean sähköpostiosoitteesi sijaan sähköpostisi ja henkilöytesi suojaamiseksi.
 landing-how-it-works-step-1-body-cta = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
 landing-how-it-works-step-1-body-2 = Luo sähköpostimaskeja automaattisesti aina, kun kirjoitat sähköpostiosoitteesi verkossa.
@@ -243,10 +243,18 @@ plan-matrix-join-waitlist = Liity odotuslistalle
 landing-use-cases-shopping = Ostokset
 landing-use-cases-social-networks = Sosiaaliset verkostot
 landing-use-cases-gaming = Pelit
+landing-use-cases-gaming-body-2 =
+    Nautitko verkkopelaamisesta, mutta oletko huolissasi siitä, että muut pelaajat tai kiusaajat saavat tietää, kuka olet nimimerkkisi ja sähköpostiosoitteesi kautta?
+    Käytä sähköpostimaskia lisätäksesi yhden suojakerroksen verkkoidentiteettisi ja verkossa pelaamiesi pelien välille.
 landing-use-cases-shopping-hero-heading = Ostokset sähköpostimaskeilla
+landing-use-cases-shopping-hero-content1 = Haluatko ostaa jotain verkosta, mutta et tunne kauppaa entuudestaan tai luota siihen täysin?
+landing-use-cases-shopping-hero-content2 = Käytä sähköpostimaskia, kun teet ostoksia verkossa. Saat vahvistuksen oikeaan sähköpostiosoitteeseesi ja voit lopettaa maskin käytön vaivatta milloin tahansa.
 landing-use-cases-on-the-go = Matkalla
+landing-use-cases-on-the-go-lead = Luo heti mukautettu sähköpostimaski missä tahansa oletkin!
 landing-use-cases-signups = Rekisteröitymiset
 landing-use-cases-signups-hero-heading = Huolettomat rekisteröitymiset
+landing-use-cases-signups-hero-content1 = Haluatko aloittaa uuden tilauksen, vastata kutsuun tai saada tarjouskoodin ilman, että postilaatikkosi tulvii roskapostia?
+landing-use-cases-signups-hero-content2 = Ennen kuin suoritat seuraavan rekisteröitymisen, käytä sähköpostimaskia oikean sähköpostiosoitteesi sijaan tietojesi suojaamiseksi ja postilaatikkosi hallitsemiseksi.
 
 ## Landing FAQ Section
 
@@ -284,11 +292,13 @@ premium-promo-perks-pill-new = Uutta!
 premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
 premium-promo-perks-perk-unlimited-body-2 = Ei enää viiden maskin rajaa: { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset suojataksesi sähköpostisi roskapostittajilta ja verkon seuraimilta. Voit jopa vastata sähköposteihin paljastamatta oikeaa osoitettasi.
 premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
+premium-promo-perks-perk-custom-domain-body-2 = Mukautetun aliverkkotunnuksen avulla voit luoda maskeja, jotka on helpompi muistaa ja jakaa kuin koskaan. Tarvitsetko yhden maskin ravintolavarauksia varten? Käytä esimerkiksi ruoka@mydomain.mozmail.com — Maskia ei tarvitse luoda etukäteen.
 premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
 premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
+premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
 premium-promo-pricing-offer-end-cta = Päivitä nyt
 
@@ -341,14 +351,17 @@ faq-headline = Usein kysytyt kysymykset
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Mikä on { -brand-name-relay }-sähköpostimaski?
+faq-question-what-is-answer-2 = Sähköpostimaskit ovat peitettyjä tai yksityisiä sähköpostiosoitteita, jotka välittävät viestit oikeaan sähköpostiosoitteeseesi. Näiden maskien avulla voit jakaa osoitteen kolmansien osapuolten kanssa; maski peittää oikean sähköpostiosoitteesi ja välittää viestit siihen.
 faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
 faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sivusto ei hyväksy sähköpostimaskeja
 faq-question-use-cases-question-2 = Milloin minun pitäisi käyttää { -brand-name-relay }-sähköpostimaskeja?
+faq-question-use-cases-answer-part1-2 = Voit käyttää { -brand-name-relay }-sähköpostimaskeja lähes kaikissa samoissa tilanteissa, joissa käyttäisit tavallista sähköpostiosoitettasi. Suosittelemme maskien käyttöä, kun tilaat markkinointi-/tiedotussähköposteja, jolloin voit halutessasi varmuudella hallita, saatko sähköpostiviestejä jatkossa.
 faq-question-1-question = Entä roskaposti?
 faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
 faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
 faq-question-browser-support-question = Voinko käyttää { -brand-name-relay }-palvelua muilla selaimilla tai mobiililaitteellani?
+faq-question-browser-support-answer-2 = Kyllä, voit luoda { -brand-name-relay }-maskeja muissa selaimissa tai mobiililaitteissa kirjautumalla sisään { -brand-name-relay }-hallintapaneeliin.
 faq-question-longevity-question = Mitä tapahtuu, jos Mozilla sulkee { -brand-name-firefox-relay } -palvelun?
 faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay } sähköpostit liitteineen?
 faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
