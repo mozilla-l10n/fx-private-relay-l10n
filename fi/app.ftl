@@ -188,6 +188,8 @@ landing-pricing-premium-feature-4 = Vastaa välitettyihin sähköposteihin
 # Deprecated
 landing-pricing-premium-feature-5 = Estä mainossähköpostit
 # Deprecated
+landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ei ole tällä hetkellä saatavilla maassasi. Ole hyvä ja jaa sähköpostiosoitteesi, niin saat ilmoituksen heti kun julkaisu tapahtuu.
+# Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
 # Deprecated
 # Variables:
@@ -264,13 +266,23 @@ landing-reviews-rating = /5 ({ $review_count } arviota)
 ## Premium promo page
 
 premium-promo-hero-headline = Tee postilaatikon suojaamisesta aiempaa helpompaa { -brand-name-firefox-relay-premium }illa
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi. <b>Rajoitetun ajan voit päivittää { -brand-name-relay-premium }iin hintaan { $monthly_price } kuukaudessa.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
 premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 premium-promo-offer-end-hero-cta = Päivitä nyt
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Ruotsissa, Singaporessa, Suomessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
+premium-promo-perks-headline = Miksi päivittää { -brand-name-firefox-relay-premium }iin?
+premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium }illa saat kaiken { -brand-name-relay }n tarjoaman postilaatikon suojauksen ja hallinnan, mutta rajattomalla määrällä sähköpostimaskeja ja oman mukautetun aliverkkotunnuksen, jonka avulla postilaatikon hallinta on entistäkin helpompaa.
 premium-promo-perks-cta-label = Päivitä nyt
 premium-promo-perks-cta-tooltip = Päivitä { -brand-name-firefox-relay-premium }iin
 premium-promo-perks-pill-new = Uutta!
 premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
+premium-promo-perks-perk-unlimited-body-2 = Ei enää viiden maskin rajaa: { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset suojataksesi sähköpostisi roskapostittajilta ja verkon seuraimilta. Voit jopa vastata sähköposteihin paljastamatta oikeaa osoitettasi.
 premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
 premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
 premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
