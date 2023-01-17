@@ -256,6 +256,7 @@ plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## Use Cases
 
+landing-use-cases-heading = { -brand-name-firefox-relay } sopii seuraavanlaiseen käyttöön:
 landing-use-cases-shopping = Ostokset
 landing-use-cases-social-networks = Sosiaaliset verkostot
 landing-use-cases-gaming = Pelit
