@@ -144,9 +144,15 @@ landing-how-it-works-step-3-body-2 =
 ## Pricing section
 
 # Deprecated
+landing-pricing-body-2 =
+    Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen.
+    Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
+# Deprecated
 landing-pricing-free-feature-2 = Selainlaajennus
 # Deprecated
 landing-pricing-free-feature-3 = Sähköpostiseurannan poisto
+# Deprecated
+landing-pricing-free-description = Kokeile { -brand-name-firefox-relay } -maskeja ja aloita sähköpostisi suojaaminen.
 # Deprecated
 landing-pricing-free-cta = Hanki { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
@@ -171,6 +177,7 @@ landing-pricing-premium-feature-3-subheader = nimi@yourdomain.mozmail.com
 landing-pricing-waitlist-cta = Liity odotuslistalle
 # Deprecated
 landing-pricing-offer-end-cta = Päivitä nyt
+plan-matrix-bundle-offer-content = Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen. Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
 plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
 plan-matrix-heading-plan-premium = Sähköpostisuojaus
@@ -197,9 +204,17 @@ plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## Use Cases
 
+landing-use-cases-shopping = Ostokset
+landing-use-cases-social-networks = Sosiaaliset verkostot
+landing-use-cases-gaming = Pelit
+landing-use-cases-shopping-hero-heading = Ostokset sähköpostimaskeilla
+landing-use-cases-on-the-go = Matkalla
+landing-use-cases-signups = Rekisteröitymiset
+landing-use-cases-signups-hero-heading = Huolettomat rekisteröitymiset
 
 ## Landing FAQ Section
 
+landing-faq-headline = Yleisimmät kysymykset { -brand-name-firefox-relay } -palveluun liittyen
 
 ## Landing Reviews Section
 
@@ -219,6 +234,9 @@ premium-promo-perks-pill-new = Uutta!
 premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
 premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
 premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja kojelaudalta
+premium-promo-use-cases-shopping-heading = Ostokset
+premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
+premium-promo-use-cases-gaming-heading = Pelit
 premium-promo-pricing-offer-end-cta = Päivitä nyt
 
 ## The Premium waitlist page
