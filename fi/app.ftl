@@ -263,6 +263,7 @@ landing-reviews-rating = /5 ({ $review_count } arviota)
 
 ## Premium promo page
 
+premium-promo-hero-headline = Tee postilaatikon suojaamisesta aiempaa helpompaa { -brand-name-firefox-relay-premium }illa
 premium-promo-hero-cta = Päivitä nyt
 premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 premium-promo-offer-end-hero-cta = Päivitä nyt
@@ -340,6 +341,7 @@ faq-question-longevity-question = Mitä tapahtuu, jos Mozilla sulkee { -brand-na
 faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay } sähköpostit liitteineen?
 faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
 faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
+faq-question-disable-trackerremoval-answer = Kyllä. Jos sinulla on ongelmia sähköpostien näyttäessä rikkinäiseltä tai haluat lopettaa seurainten poistamisen, voit poistaa ominaisuuden käytöstä asetuksista.
 faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
 
 ## Profile Page (Logged In)
@@ -420,6 +422,7 @@ profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } yrittää estää mainossähköpostit ja lähettää edelleen sähköpostit, kuten kuitit ja ostosten toimitustiedot.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ei estä mitään sähköposteja tämän maskin kohdalla.
 profile-promo-email-blocking-label-promotionals = Estä mainokset
 profile-promo-email-blocking-label-none = Estä kaikki
