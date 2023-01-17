@@ -495,6 +495,7 @@ tips-promo-email-blocking-heading = Estä mainossähköpostit
 ## Onboarding
 
 onboarding-headline-2 = Luo ensimmäinen sähköpostimaskisi
+onboarding-alias-tip-1-2 = Valitse "Luo uusi maski" luodaksesi ensimmäinen sähköpostimaskin.
 
 ## Premium Onboarding
 
