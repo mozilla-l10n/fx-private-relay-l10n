@@ -148,6 +148,8 @@ landing-pricing-body-2 =
     Kokeile { -brand-name-firefox-relay } -sähköpostimaskeja ja aloita sähköpostisi suojaaminen.
     Päivitä sitten { -brand-name-relay-premium }iin saadaksesi entistä enemmän joustavuutta ja mukautettua hallintaa.
 # Deprecated
+landing-pricing-free-price = Ilmainen
+# Deprecated
 landing-pricing-free-feature-2 = Selainlaajennus
 # Deprecated
 landing-pricing-free-feature-3 = Sähköpostiseurannan poisto
@@ -190,16 +192,25 @@ plan-matrix-heading-feature-browser-extension = Selainlaajennus
 plan-matrix-heading-feature-email-tracker-removal = Poista sähköpostin seuraimet
 plan-matrix-heading-feature-email-subdomain = Sähköpostin aliverkkotunnus
 plan-matrix-heading-feature-phone-mask = Puhelinnumeron maski
+plan-matrix-heading-feature-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } sähköpostimaskia
 plan-matrix-feature-list-browser-extension = Selainlaajennus
 plan-matrix-feature-list-email-tracker-removal = Poista sähköpostin seuraimet
 plan-matrix-feature-list-phone-mask = Puhelinnumeron maski
-plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>:ää
+plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Hinta
 plan-matrix-feature-included = Sisältyy
 plan-matrix-feature-not-included = Ei sisälly
+plan-matrix-price-free = Ilmainen
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/kk
+plan-matrix-price-period-yearly = Vuosittain
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Laskutus vuosittain
+plan-matrix-price-period-monthly = Kuukausittain
 plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## Use Cases
@@ -503,6 +514,7 @@ trackerreport-tracker-count =
        *[other] { $count } seurainta
     }
 trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
+trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
 trackerreport-loading = Ladataan seurainten poistoraporttia…
 
 ## Modals
