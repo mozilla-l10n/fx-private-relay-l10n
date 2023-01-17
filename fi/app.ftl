@@ -107,6 +107,10 @@ how-it-works-headline = Kuinka se toimii
 how-it-works-step-1-headline = Hanki laajennus
 how-it-works-step-1-link = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
 how-it-works-step-2-headline-2 = Luo uusi sähköpostimaski
+how-it-works-step-2-copy =
+    Kun selaat, { -brand-name-relay }-kuvake tulee näkyviin sellaiseen kohtaan, missä sivusto pyytää sähköpostiosoitettasi.
+    Napsauta kuvaketta luodaksesi uuden, satunnaisen osoitteen, joka päättyy @relay.firefox.com.
+    { -brand-name-relay } välittää viestit tiliisi liitettyyn ensisijaiseen sähköpostiosoitteeseen.
 how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
 
 # Home Page Version A
@@ -126,6 +130,16 @@ landing-how-it-works-headline = Kuinka se toimii
 landing-how-it-works-body-2 = Jaa { -brand-name-relay }-sähköpostimaskeja oikean sähköpostiosoitteesi sijaan sähköpostisi ja henkilöytesi suojaamiseksi.
 landing-how-it-works-step-1-body-cta = Lataa { -brand-name-relay }-laajennus { -brand-name-firefox }ille.
 landing-how-it-works-step-1-body-2 = Luo sähköpostimaskeja automaattisesti aina, kun kirjoitat sähköpostiosoitteesi verkossa.
+# Do not change '@relay.mozmail.com'
+landing-how-it-works-step-2-body =
+    Kun selaat, { -brand-name-relay }-kuvake tulee näkyviin sellaiseen kohtaan, missä sivusto pyytää sähköpostiosoitettasi.
+    Napsauta kuvaketta luodaksesi uuden, satunnaisen osoitteen, joka päättyy @relay.mozmail.com.
+landing-how-it-works-step-2-body-2 =
+    Kun selaat, { -brand-name-relay }-kuvake tulee näkyviin sellaiseen kohtaan, missä sivusto pyytää sähköpostiosoitettasi.
+    Napsauta kuvaketta luodaksesi uuden, satunnaisen osoitteen, joka päättyy @mozmail.com.
+landing-how-it-works-step-3-body-2 =
+    Kirjaudu sisään { -brand-name-relay }-hallintapaneeliin, niin voit seurata luomiasi sähköpostimaskeja.
+    Jos huomaat johonkin maskiin kohdistuvan roskapostia tai viestejä, joita et toivo, voit estää kaikki viestit tai jopa poistaa maskin suoraan hallintapaneelista.
 
 ## Pricing section
 
