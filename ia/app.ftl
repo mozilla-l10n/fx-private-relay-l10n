@@ -1131,9 +1131,11 @@ forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Nos ha inviate iste responsa a { $sender }. Ma movente avante, tu responsas non sera inviate.
+# Deprecated
+other-reply-not-forwarded = Tu responsa NON ha essite inviate a { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Tu responsa NON ha essite inviate a { $sender }.
+other-reply-not-forwarded-2 = Tu responsa non ha essite inviate a { $sender }.
 replies-only-available-with-premium = Responder a emails inultrate de tu email mascate es solo disponibile con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Le responsas non es includite con tu conto gratuite
 reply-not-sent-header = Tu responsa non ha essite inviate
