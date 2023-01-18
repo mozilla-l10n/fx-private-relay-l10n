@@ -365,6 +365,7 @@ premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seurai
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
 premium-promo-use-cases-headline-2 = Käytä { -brand-name-relay }-sähköpostimaskeja missä tahansa
 premium-promo-use-cases-shopping-heading = Ostokset
+premium-promo-use-cases-shopping-body-2 = Yritätkö rekisteröityä saadaksesi alennuksia, mutta et halua roskapostia? Liitä kaikki "ostotilisi" mukautettujen sähköpostimaskien alle, kuten "ostokset@mydomain.mozmail.com".
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
@@ -804,6 +805,8 @@ trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
 trackerreport-trackers-explainer-heading = Tietoja sähköpostin seuraimista
 trackerreport-trackers-explainer-content-part1 = Sähköpostin seuranta on yleinen valvonta- ja mainontatyökalu, joka on vallannut monia postilaatikoita. Näitä seuraimia voidaan käyttää ymmärtämään enemmän ihmisten verkkokäyttäytymisestä, kiinnostuksen kohteista ja sähköpostitoiminnasta.
 trackerreport-trackers-explainer-content-part2 = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.
+# Deprecated
+trackerreport-breakage-warning = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä, joita ei ladata, jos ne sisältävät seuraimen.
 trackerreport-breakage-warning-2 = Tärkeää: Seurainten poistaminen voi saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvissa ja linkeissä. Maskien kautta vastaanotettuja ei voi korjata tai tai palauttaa alkuperäiseen muotoon.
 trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
 trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
