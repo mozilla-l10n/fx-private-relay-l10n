@@ -458,7 +458,7 @@ premium-promo-pricing-offer-end-body = Get { -brand-name-relay-premium } before 
 # Deprecated
 waitlist-heading = Join the { -brand-name-relay-premium } Waitlist
 waitlist-heading-2 = Join the { -brand-name-relay-premium } waitlist
-waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist 
+waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist
 waitlist-heading-bundle = Join the waitlist for the { -brand-name-relay } + { -brand-name-vpn } bundle
 # Deprecated
 waitlist-lead = Get notified when { -brand-name-firefox-relay-premium } is available for your region.
