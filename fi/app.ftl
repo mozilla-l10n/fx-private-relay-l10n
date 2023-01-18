@@ -436,6 +436,7 @@ setting-tracker-removal-description = Poista sähköpostiseuraimet kaikista edel
 setting-tracker-removal-note = { -brand-name-firefox-relay } voi nyt poistaa yleisiä seuraimia maskien kautta välitetyistä sähköposteista.
 # Deprecated
 setting-tracker-removal-warning = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä.
+setting-tracker-removal-warning-2 = Tärkeää: Seurainten poistaminen voi saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvissa ja linkeissä. Maskien kautta vastaanotettuja ei voi korjata tai tai palauttaa alkuperäiseen muotoon.
 
 ## FAQ Page
 
@@ -624,6 +625,7 @@ banner-download-install-extension-cta = Lisää { -brand-name-relay } { -brand-n
 banner-download-install-chrome-extension-copy-2 = { -brand-name-firefox-relay } -laajennus { -brand-name-chrome }lle tekee sähköpostimaskien luomisesta ja käyttämisestä entistäkin helpompaa.
 banner-download-install-chrome-extension-cta = Hanki { -brand-name-relay }-laajennus
 banner-upgrade-headline = Päivitä { -brand-name-relay-premium }iin
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } tekee sähköpostimaskien luomisesta entistä helpompaa mukautetuilla aliverkkotunnuksilla ja rajattomalla määrällä maskeja.
 banner-upgrade-cta = Päivitä { -brand-name-relay-premium }iin
 banner-register-subdomain-headline-aliases-2 = Hanki mukautettu aliverkkotunnus maskeillesi
 banner-choose-subdomain-input-placeholder-3 = Etsi aliverkkotunnusta
@@ -743,7 +745,9 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 onboarding-premium-headline = Tervetuloa { -brand-name-firefox } { -brand-name-relay-premium }iin
 onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium }illa voit:
 onboarding-premium-control-title = Hallitse, mitä sähköposteja saat
+onboarding-premium-domain-title-3 = Käytä mukautettua aliverkkotunnusta maskien jakamiseen:
 onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
+onboarding-premium-reply-description-2 = Haluatko vastata maskin kautta välitettyyn sähköpostiin? Vastaa tavalliseen tapaan — maski suojaa edelleen sähköpostiosoitettasi.
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit:
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
@@ -800,6 +804,7 @@ trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
 trackerreport-trackers-explainer-heading = Tietoja sähköpostin seuraimista
 trackerreport-trackers-explainer-content-part1 = Sähköpostin seuranta on yleinen valvonta- ja mainontatyökalu, joka on vallannut monia postilaatikoita. Näitä seuraimia voidaan käyttää ymmärtämään enemmän ihmisten verkkokäyttäytymisestä, kiinnostuksen kohteista ja sähköpostitoiminnasta.
 trackerreport-trackers-explainer-content-part2 = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.
+trackerreport-breakage-warning-2 = Tärkeää: Seurainten poistaminen voi saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvissa ja linkeissä. Maskien kautta vastaanotettuja ei voi korjata tai tai palauttaa alkuperäiseen muotoon.
 trackerreport-faq-heading = Yleisimmät kysymykset sähköpostiseuraimiin liittyen
 trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firefox-relay } -palveluun liittyen
 trackerreport-loading = Ladataan seurainten poistoraporttia…
