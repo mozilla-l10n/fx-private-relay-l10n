@@ -1135,9 +1135,11 @@ forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }r
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Elküldtük ezt a választ a(z) { $sender } címre. De a továbbiakban a válaszok nem lesznek elküldve.
+# Deprecated
+other-reply-not-forwarded = A válasza NEM lett elküldve a következő címre: { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = A válasza NEM lett elküldve a következő címre: { $sender }.
+other-reply-not-forwarded-2 = A válasza nem lett elküldve a következő címre: { $sender }.
 replies-only-available-with-premium = A maszkolt e-mail-címekről továbbított levelekre történő válasz csak a { -brand-name-firefox-relay-premium } használatával érhető el.
 replies-not-included-in-free-account-header = Az ingyenes fiók nem tartalmazza a válaszokat
 reply-not-sent-header = A válasza nem lett elküldve
