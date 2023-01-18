@@ -1177,8 +1177,7 @@ forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } bef
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We’ve sent this reply to { $sender }. But moving forward, your replies will not be sent.
-# Variables
-#   $sender (string) - the original sender's email address
+# Deprecated
 other-reply-not-forwarded = Your reply was NOT sent to { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
