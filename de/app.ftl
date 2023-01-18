@@ -1137,9 +1137,11 @@ forwarded-email-footer-offer-countdown-banner = Machen Sie das Upgrade auf { $pr
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Wir haben diese Antwort an { $sender } gesendet. Aber ab sofort werden Ihre Antworten nicht mehr gesendet.
+# Deprecated
+other-reply-not-forwarded = Ihre Antwort wurde NICHT an { $sender } gesendet.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Ihre Antwort wurde NICHT an { $sender } gesendet.
+other-reply-not-forwarded-2 = Ihre Antwort wurde nicht an { $sender } gesendet.
 replies-only-available-with-premium = Das Antworten auf weitergeleitete E-Mails von Ihrer maskierten E-Mail-Adresse ist nur mit { -brand-name-firefox-relay-premium } verfügbar.
 replies-not-included-in-free-account-header = Antworten sind in Ihrem kostenlosen Konto nicht enthalten
 reply-not-sent-header = Ihre Antwort wurde nicht gesendet
