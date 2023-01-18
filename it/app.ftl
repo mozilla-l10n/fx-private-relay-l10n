@@ -1122,9 +1122,11 @@ forwarded-email-footer-offer-countdown-banner = Aggiorna a { $premium_link } pri
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Abbiamo inviato questa risposta a { $sender }. Tuttavia, le tue risposte non verranno inviate in futuro.
+# Deprecated
+other-reply-not-forwarded = La tua risposta NON è stata inviata a { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = La tua risposta NON è stata inviata a { $sender }.
+other-reply-not-forwarded-2 = La tua risposta non è stata inviata a { $sender }.
 replies-only-available-with-premium = La possibilità di rispondere alle email inoltrate utilizzando il tuo alias è disponibile solo con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = La possibilità di rispondere non è inclusa nel tuo account gratuito
 reply-not-sent-header = La tua risposta non è stata inviata
