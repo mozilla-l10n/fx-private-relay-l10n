@@ -102,8 +102,14 @@ whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enem
 whatsnew-feature-premium-expansion-description = Päivitä nyt ja hanki entistä enemmän suojausta – luo rajattomasti sähköpostimaskeja, hanki mukautettu sähköpostin aliverkkotunnus ja paljon muuta!
 whatsnew-feature-tracker-removal-heading = Esittelyssä sähköpostiseurannan poisto
 whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti rajattomasta määrästä maskeja kuukausittaiseen esittelyhintaamme.
 whatsnew-feature-offer-countdown-cta = Päivitä nyt
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } on nyt saatavilla { -brand-name-firefox }-salasanahallinnassa
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Sähköpostisi suojaaminen on nyt aiempaa helpompaa. Nyt voit luoda…
 
 ## Bento Menu
 
@@ -337,6 +343,9 @@ premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } tarjoaa r
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
 premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
 premium-promo-offer-end-hero-cta = Päivitä nyt
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Ruotsissa, Singaporessa, Suomessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
 premium-promo-perks-headline = Miksi päivittää { -brand-name-firefox-relay-premium }iin?
