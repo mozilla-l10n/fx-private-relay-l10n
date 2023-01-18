@@ -494,6 +494,7 @@ faq-question-detect-promotional-question = Miten { -brand-name-relay } havaitsee
 faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
 faq-question-disable-trackerremoval-answer = Kyllä. Jos sinulla on ongelmia sähköpostien näyttäessä rikkinäiseltä tai haluat lopettaa seurainten poistamisen, voit poistaa ominaisuuden käytöstä asetuksista.
 faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
+faq-question-bulk-trackerremoval-answer = Voit ottaa seurainten poistotoiminnon käyttöön vain tilitasolla — se joko poistaa seuraimet kaikista sähköposteistasi tai ei yhdestäkään niistä.
 faq-question-trackerremoval-breakage-question = Miksi sähköpostini näyttävät rikkinäisiltä?
 
 ## Profile Page (Logged In)
@@ -540,6 +541,8 @@ profile-label-details-show = Näytä yksityiskohdat
 profile-label-details-hide = Piilota yksityiskohdat
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = edelleenlähetys
+profile-label-disable-forwarding-button-2 = Poista tämän maskin sähköpostin edelleenlähetys käytöstä
+profile-label-enable-forwarding-button-2 = Ota sähköpostin edelleenlähetys käyttöön tälle maskille
 profile-label-click-to-copy = Napsauta kopioidaksesi
 profile-label-copied = Kopioitu!
 profile-label-blocked = Estetty
@@ -568,6 +571,7 @@ profile-stat-label-trackers-removed = Seuraimia poistettu
 profile-stat-label-trackers-learn-more-part1 = Seurainten poistamisen käyttöönotto poistaa yleiset seuraimet edelleenlähetetyistä sähköposteistasi.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Tärkeää: Joskus seurainten poistaminen saattaa saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvien sisällä.
+profile-stat-label-trackers-learn-more-part2-2 = Tärkeää: Seurainten poistaminen voi saada sähköpostisi näyttämään rikkinäiseltä, koska seuraimet ovat usein kuvissa ja linkeissä.
 profile-filter-search-placeholder-2 = Etsi maskeja
 profile-filter-category-button-label = Suodata näkyvät maskit
 profile-filter-category-button-tooltip = Suodata maskit aliverkkotunnuksen ja/tai sen mukaan, estävätkö maskit tällä hetkellä saapuvan sähköpostin
@@ -591,6 +595,8 @@ profile-indicator-tracker-removal-alt = Seurainten poiston tila
 profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotionals = Mainosviestit
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Ei mitään
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.
@@ -599,6 +605,7 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ei estä
 profile-promo-email-blocking-label-promotionals = Estä mainokset
 profile-promo-email-blocking-label-none = Estä kaikki
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-not-forwarding = Ei edelleenlähetystä
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (vain { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Saatavilla { -brand-name-relay-premium } -tilaajille
 profile-promo-email-blocking-description-promotionals-locked-cta = Päivitä nyt
@@ -648,6 +655,7 @@ banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } antaa sin
 banner-ab-premium-promo-advanced-identity-headline = Edistynyt henkilöyden suojaus
 banner-ab-premium-promo-control-receiver-headline = Hallitse, kuka saa oikean numerosi
 banner-ab-premium-promo-extra-protection-headline = Lisäsuojaa postilaatikollesi ja puhelimellesi
+banner-ab-premium-promo-extra-protection-body = Hanki rajaton määrä sähköpostimaskeja — sekä puhelinnumeron maski, jolla voit hallita, kuka saa oikean numerosi.
 banner-ab-premium-promo-cta = Päivitä
 
 ## Success Messages
@@ -666,6 +674,7 @@ success-signed-in-message = Kirjauduttu käyttäjänä { $username }.
 error-premium-cannot-change-subdomain = Et voi vaihtaa aliverkkotunnustasi
 error-premium-set-subdomain = Sinun on oltava premium-tilaaja voidaksesi määrittää aliverkkotunnuksen
 error-subdomain-not-created = Aliverkkotunnusta ei voitu luoda, kokeile jotain muuta
+error-subdomain-email-not-created = Sähköpostiosoitetta aliverkkotunnuksella ei voitu luoda, kokeile jotain muuta
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Aliverkkotunnus @{ $unavailable_subdomain } ei ole käytettävissä. Kokeile toista aliverkkotunnusta.
@@ -732,6 +741,7 @@ onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta h
 ## Premium Onboarding
 
 onboarding-premium-headline = Tervetuloa { -brand-name-firefox } { -brand-name-relay-premium }iin
+onboarding-premium-feature-intro = { -brand-name-firefox } { -brand-name-relay-premium }illa voit:
 onboarding-premium-control-title = Hallitse, mitä sähköposteja saat
 onboarding-premium-reply-title-2 = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit:
@@ -895,6 +905,12 @@ vpn-promo-cta = Hanki { -brand-name-mozilla-vpn }
 
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } poistaa kopio- ja piilokopiovastaanottajat vastauksistasi. Jos lisäät ne uudelleen, todellinen sähköpostiosoitteesi paljastuu.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = Päivitä { $premium_link }iin, niin saat rajattoman määrän sähköpostimaskeja, mukautetun aliverkkotunnuksen ja mahdollisuuden vastata sähköposteihin.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Kuukausittainen esittelyhintatarjouksemme on päättymässä. Päivitä { $premium_link }iin.
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } tukee sähköpostin edelleenlähetystä (mukaan lukien liitteet) sähköpostiviestin ollessa kooltaan enintään { email-size-limit }. Lue lisää { $faq_link }.
 # Variables:
@@ -902,10 +918,18 @@ forwarded-email-header-attachment = { -brand-name-firefox-relay } tukee sähköp
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } sähköpostiseurainta poistettu
 forwarded-email-trackers-blocked-report = Lue lisää
 # This entire text is a link
+forwarded-email-footer-2 = Lopeta sähköpostin edelleenlähetys ja hallitse kaikkien maskien asetuksia täällä.
+# This entire text is a link
 forwarded-email-footer-premium-banner = Päivitä { -brand-name-relay-premium }iin
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Päivitä { $premium_link }iin, ennen kuin tutustumishintamme vanhenee.
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Olemme lähettäneet tämän vastauksen vastaanottajalle { $sender }. Jatkossa vastauksiasi ei lähetetä.
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded = Vastaustasi EI lähetetty vastaanottajalle { $sender }.
