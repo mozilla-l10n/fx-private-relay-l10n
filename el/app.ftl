@@ -444,6 +444,7 @@ waitlist-heading = Εγγραφή στη λίστα αναμονής του { -b
 # Deprecated
 waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
 waitlist-lead-2 = Θα σας ενημερώσουμε όταν το { -brand-name-relay-premium } είναι διαθέσιμο στην περιοχή σας.
+waitlist-lead-phone = Θα σας ενημερώσουμε όταν η απόκρυψη τηλεφώνου διατεθεί στην περιοχή σας.
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -454,8 +455,10 @@ waitlist-control-country-label-2 = Σε ποια χώρα ή περιοχή κα
 waitlist-control-locale-label = Επιλέξτε την προτιμώμενη γλώσσα σας.
 # Deprecated
 waitlist-submit-label = Εγγραφή στη λίστα αναμονής
+waitlist-submit-label-2 = Εγγραφή στη λίστα αναμονής
 # Deprecated
 waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
+waitlist-privacy-policy-agree-2 = Κάνοντας κλικ στο «{ waitlist-submit-label-2 }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
 waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
@@ -474,6 +477,7 @@ settings-error-save-heading = Αποτυχία αλλαγής ρυθμίσεων
 settings-error-save-description = Οι αλλαγές σας στις ρυθμίσεις δεν αποθηκεύτηκαν λόγω σφάλματος σύνδεσης. Παρακαλώ δοκιμάστε ξανά.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Η λειτουργία ετικέτας μασκών email είναι ανενεργή
+settings-warning-collection-off-heading-3 = Τα ονόματα λογαριασμών των μασκών email σας είναι απενεργοποιημένα
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Το { -brand-name-relay } δεν μπορεί να συλλέξει τα δεδομένα που αναφέρουν τους ιστοτόπους όπου έχετε δημιουργήσει και χρησιμοποιήσει μάσκες email. Μπορείτε να το αλλάξετε αυτό στην ενότητα «Συλλογή δεδομένων» στις «Ρυθμίσεις».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
@@ -1114,6 +1118,7 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 
 replies-not-included-in-free-account-header = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει απαντήσεις
 reply-not-sent-header = Η απάντησή σας δεν απεστάλη
+upgrade-to-premium = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
 
 ## Notifications component
 
