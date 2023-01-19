@@ -1148,9 +1148,11 @@ forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } sk
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Túto odpoveď sme odoslali odosielateľovi { $sender }. Do budúcna však vaše odpovede nebudú odosielané.
+# Deprecated
+other-reply-not-forwarded = Vaša odpoveď NEBOLA odoslaná na adresu { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Vaša odpoveď NEBOLA odoslaná na adresu { $sender }.
+other-reply-not-forwarded-2 = Vaša odpoveď nebola odoslaná na adresu { $sender }.
 replies-only-available-with-premium = Odpovedanie na preposlané e-maily z vášho maskovaného e-mailu je k dispozícii iba s { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Odpovede nie sú súčasťou vášho bezplatného účtu
 reply-not-sent-header = Vaša odpoveď nebola odoslaná
