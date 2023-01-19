@@ -1094,9 +1094,11 @@ forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束�
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = 我們已傳送這封回覆給 { $sender }，但接下來將不會再傳送回覆。
+# Deprecated
+other-reply-not-forwarded = 未將您的回覆傳送給 { $sender }。
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = 未將您的回覆傳送給 { $sender }。
+other-reply-not-forwarded-2 = 未將您的回覆傳送給 { $sender }。
 replies-only-available-with-premium = 僅有 { -brand-name-firefox-relay-premium } 才可以透過轉寄信箱傳送回覆。
 replies-not-included-in-free-account-header = 免費帳戶不含信件回覆功能
 reply-not-sent-header = 並未寄出您的回覆
