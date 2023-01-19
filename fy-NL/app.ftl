@@ -1141,9 +1141,11 @@ forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Wy hawwe dit antwurd nei { $sender } stjoerd. Yn de takomst wurde jo antwurden echter net ferstjoerd.
+# Deprecated
+other-reply-not-forwarded = Jo antwurd is NET ferstjoerd nei { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Jo antwurd is NET ferstjoerd nei { $sender }.
+other-reply-not-forwarded-2 = Jo antwurd is net ferstjoerd nei { $sender }.
 replies-only-available-with-premium = It beäntwurdzjen fan trochstjoerde e-mailberjochten fan jo maskearre e-mailadres is allinnich beskikber by { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Antwurden binne net ynbegrepen by jo fergese account
 reply-not-sent-header = Jo antwurd is net ferstjoerd
