@@ -1130,9 +1130,11 @@ forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link }
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Rydym wedi anfon yr ateb hwn at { $sender }. Ond yn y dyfodol, ni fydd eich atebion yn cael eu hanfon.
+# Deprecated
+other-reply-not-forwarded = NID anfonwyd eich ateb at { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = NID anfonwyd eich ateb at { $sender }.
+other-reply-not-forwarded-2 = Nid anfonwyd eich ateb at { $sender }.
 replies-only-available-with-premium = Dim ond gyda { -brand-name-firefox-relay-premium } y mae ateb i e-byst a anfonwyd ymlaen o'ch arallenwau e-bost ar gael.
 replies-not-included-in-free-account-header = Nid yw atebion wedi'u cynnwys gyda'ch cyfrif rhad ac am ddim
 reply-not-sent-header = Nid yw eich ateb wedi'i anfon
