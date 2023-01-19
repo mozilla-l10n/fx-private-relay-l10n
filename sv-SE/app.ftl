@@ -1135,9 +1135,11 @@ forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link 
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Vi har skickat det här svaret till { $sender }. Men fortsättningsvis kommer dina svar inte att skickas.
+# Deprecated
+other-reply-not-forwarded = Ditt svar skickades INTE till { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Ditt svar skickades INTE till { $sender }.
+other-reply-not-forwarded-2 = Ditt svar skickades inte till { $sender }.
 replies-only-available-with-premium = Att svara på vidarebefordrade e-postmeddelanden från din maskerade e-post är endast tillgängligt med { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Möjligheten att svara ingår inte i ditt gratiskonto
 reply-not-sent-header = Ditt svar skickades inte
