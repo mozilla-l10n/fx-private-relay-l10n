@@ -485,13 +485,17 @@ settings-error-save-heading = Échec de la modification des paramètres
 settings-error-save-description = Vos paramètres n’ont pas pu être enregistrés en raison d’une erreur de connexion. Veuillez réessayer.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = La fonction de nommage des alias de messagerie est désactivée
+settings-warning-collection-off-heading-3 = Les noms de compte de vos alias de messagerie sont désactivés.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } n’est actuellement pas autorisé à collecter les données indiquant les sites sur lesquels vous avez généré et utilisé des alias d’e-mail. Vous pouvez modifier ce choix dans « Paramètres » sous « Collecte de données ».
+settings-warning-collection-off-description-3 = { -brand-name-relay } n’est actuellement pas autorisé à étiqueter vos alias de messagerie par les sites web où vous les avez utilisés. Pour modifier cela, autorisez les noms de compte pour les alias de messagerie dans la rubrique « Vie privée ».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Vie privée
 setting-label-collection-description-2 = Autoriser { -brand-name-relay } à collecter des données indiquant les sites sur lesquels vos alias sont créés et utilisés.
+setting-label-collection-description-3 = Activer les noms de compte pour les alias de messagerie
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Ces données nous permettent de nommer vos alias de messagerie en fonction des sites web où ils sont utilisés. Si vous décidez de refuser cette préférence, vos alias ne seront pas nommés d’après les sites web sur lesquels ils sont utilisés.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } conserve la liste des sites web où vos alias de messagerie ont été utilisés et étiquette avec ces sites web vos alias pour que vous les identifiez facilement. Désactiver cela signifie que vous ne serez plus en mesure de voir où a été utilisé tel alias et que vos noms de compte ne se synchroniseront plus entre vos appareils.
 settings-button-save-label = Enregistrer
 settings-button-save-tooltip = Appliquez les paramètres que vous avez choisis.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -570,6 +574,7 @@ faq-question-8-question = Quelles données { -brand-name-firefox-relay } collect
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Vous pouvez en savoir plus sur les données collectées par { -brand-name-firefox-relay } en consultant notre <a href="{ $url }" { $attrs }>Avis de confidentialité</a>. Vous pouvez également partager de façon facultative des données sur les noms et les sites que vous utilisez pour vos alias de messagerie afin que nous puissions vous fournir ce service et l’améliorer pour vous.
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } dresse la liste des sites web où vous avez utilisé vos alias de messagerie et étiquette avec ces sites web vos alias. Ainsi vous pouvez facilement les identifier. Vous pouvez refuser cela dans la page de vos paramètres, à la rubrique « Vie privée ». Notez bien que désactiver ce paramètre signifie que vous ne serez plus en mesure de voir où vous avez utilisé tel alias, et les noms de vos comptes ne se synchroniseront plus entre vos appareils. Vous pouvez en savoir plus sur les données que { -brand-name-firefox-relay } collecte dans notre <a href="{ $url }" { $attrs }>Politique de confidentialité</a>.
 faq-question-email-storage-question = { -brand-name-relay } conserve-t-il mes e-mails ?
 faq-question-email-storage-answer = Dans les rares cas où le service est en panne, nous pouvons stocker temporairement vos e-mails jusqu’à ce que nous soyons en mesure de les envoyer. Nous ne conserverons jamais vos e-mails plus de trois jours.
 faq-question-acceptable-use-question = Quelles sont les utilisations acceptables de { -brand-name-relay } ?
@@ -1119,9 +1124,16 @@ forwarded-email-footer-offer-countdown-banner = Passez à { $premium_link } avan
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Nous avons envoyé cette réponse à { $sender }. Mais à l’avenir, vos réponses ne seront pas envoyées.
+# Deprecated
+other-reply-not-forwarded = Votre réponse n’a PAS été envoyée à { $sender }.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Votre réponse n’a pas été envoyée à { $sender }.
 replies-only-available-with-premium = Répondre aux e-mails transférés à partir de votre alias de messagerie n’est possible qu’avec { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Les réponses ne sont pas incluses avec votre compte gratuit
 reply-not-sent-header = Votre réponse n’a pas été envoyée
+upgrade-to-reply-to-future-emails = Souscrivez maintenant pour envoyer des réponses
+upgrade-for-more-protection = Souscrivez maintenant pour davantage de protection
 upgrade-to-premium = Passer à { -brand-name-firefox-relay-premium }
 manage-your-masks = Gérer vos alias de messagerie
 

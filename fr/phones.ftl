@@ -21,6 +21,7 @@ phone-onboarding-step1-button-price-note = (Facturé annuellement)
 phone-onboarding-step1-button-cta = Mettre à niveau maintenant
 phone-onboarding-step2-headline = Vérifiez votre véritable numéro de téléphone
 phone-onboarding-step2-body = Indiquez le numéro de téléphone où vous recevrez vos SMS et appels. Nous enverrons un code à 6 chiffres à ce numéro pour le vérifier.
+phone-onboarding-step2-sub-body = Ce numéro de téléphone sera lié à votre compte { -brand-name-firefox-relay } et ne pourra pas être changé.
 phone-onboarding-step2-input-placeholder = Saisissez votre numéro de téléphone
 phone-onboarding-step2-button-cta = Envoyer le code
 phone-onboarding-step2-invalid-number = { $phone_number } n’est pas un numéro valide. Veuillez vérifier et saisir un véritable numéro de téléphone.
