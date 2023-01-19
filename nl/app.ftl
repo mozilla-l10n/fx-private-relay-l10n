@@ -1139,9 +1139,11 @@ forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } v
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We hebben dit antwoord naar { $sender } gestuurd. In de toekomst worden uw antwoorden echter niet verzonden.
+# Deprecated
+other-reply-not-forwarded = Uw antwoord is NIET verzonden naar { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Uw antwoord is NIET verzonden naar { $sender }.
+other-reply-not-forwarded-2 = Uw antwoord is niet verzonden naar { $sender }.
 replies-only-available-with-premium = Het beantwoorden van doorgestuurde e-mailberichten vanuit uw gemaskeerde e-mailadres is alleen beschikbaar bij { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Antwoorden zijn niet inbegrepen bij uw gratis account
 reply-not-sent-header = Uw antwoord is niet verzonden
