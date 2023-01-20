@@ -444,7 +444,8 @@ premium-promo-pricing-offer-end-body = Αποκτήστε το { -brand-name-rel
 
 # Deprecated
 waitlist-heading = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
-waitlist-heading-2 = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
+waitlist-heading-2 = Εγγραφείτε στη λίστα αναμονής για το { -brand-name-relay-premium }
+waitlist-heading-phone = Εγγραφείτε στη λίστα αναμονής για την απόκρυψη τηλεφώνου { -brand-name-relay }
 waitlist-heading-bundle = Εγγραφείτε στη λίστα αναμονής για το πακέτο { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
