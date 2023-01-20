@@ -366,7 +366,7 @@ landing-use-cases-on-the-go-phone-body = Egal wo Sie sind, erstellen Sie in Seku
 landing-use-cases-signups = Registrierung
 landing-use-cases-signups-hero-heading = Sorgenfreies Registrieren
 landing-use-cases-signups-hero-content1 = Möchten Sie ein neues Abonnement abschließen, auf eine Einladung antworten oder einen günstigen Rabatt-Code erhalten, ohne dass Spam Ihren Posteingang überschwemmt?
-landing-use-cases-signups-hero-content2 = Bevor Sie die nächste Registrieren abschließen, verwenden Sie eine E-Mail-Maske anstelle Ihrer echten, um Ihre Daten zu schützen und die Kontrolle über Ihren Posteingang zu behalten
+landing-use-cases-signups-hero-content2 = Bevor Sie die nächste Registrierung abschließen, verwenden Sie eine E-Mail-Maske anstelle Ihrer echten E-Mail-Adresse, um Ihre Daten zu schützen und die Kontrolle über Ihren Posteingang zu behalten
 
 ## Landing FAQ Section
 
