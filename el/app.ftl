@@ -1116,6 +1116,11 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 
 ## Email sent to free users who try to reply
 
+# Deprecated
+other-reply-not-forwarded = Η απάντησή σας ΔΕΝ απεστάλη στο { $sender }.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Η απάντησή σας δεν απεστάλη στο { $sender }.
 replies-not-included-in-free-account-header = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει απαντήσεις
 reply-not-sent-header = Η απάντησή σας δεν απεστάλη
 upgrade-to-premium = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
