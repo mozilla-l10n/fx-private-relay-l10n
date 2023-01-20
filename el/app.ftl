@@ -136,6 +136,9 @@ whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name
 whatsnew-feature-offer-countdown-description = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
 whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είναι πλέον διαθέσιμο στη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Η προστασία του email σας μόλις έγινε πιο εύκολη. Τώρα μπορείτε να δημιουργήσετε…
 
 ## Bento Menu
 
@@ -441,6 +444,8 @@ premium-promo-pricing-offer-end-body = Αποκτήστε το { -brand-name-rel
 
 # Deprecated
 waitlist-heading = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
+waitlist-heading-2 = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
+waitlist-heading-bundle = Εγγραφείτε στη λίστα αναμονής για το πακέτο { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
 waitlist-lead-2 = Θα σας ενημερώσουμε όταν το { -brand-name-relay-premium } είναι διαθέσιμο στην περιοχή σας.
