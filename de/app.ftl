@@ -17,7 +17,7 @@ logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menü
 nav-home = Startseite
 nav-email-dashboard = E-Mail-Masken
-nav-phone-dashboard = Telefonmasken
+nav-phone-dashboard = Telefonnummer-Masken
 label-open-menu = Menü öffnen
 avatar-tooltip = Profil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -41,7 +41,7 @@ nav-profile-image-alt = Avatar von { -brand-name-firefox-account(capitalization:
 nav-phone = Telefonnummer
 nav-duo-description = Übersicht wechseln
 nav-duo-email-mask-alt = E-Mail-Masken
-nav-duo-phone-mask-alt = Telefonmasken
+nav-duo-phone-mask-alt = Telefonnummer-Masken
 
 ## Mobile menu text
 
@@ -181,7 +181,7 @@ hero-image-copy-control-html = Jetzt <em>hast du die Kontrolle darüber</em>, wa
 
 landing-hero-headline-2 = Schützen Sie Ihre echte E-Mail-Adresse, um Ihren Posteingang besser zu kontrollieren.
 landing-hero-body-2 =
-    E-Mail-Masken von { -brand-name-firefox-relay } schützen Ihre eigentliche E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
+    E-Mail-Masken von { -brand-name-firefox-relay } schützen Ihre echte E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
     Jetzt können Sie dafür sorgen, dass nur noch die gewünschten E-Mails in Ihrem Posteingang landen. Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
 landing-offer-end-hero-heading = Unser Angebot zum Einführungspreis endet bald!
 landing-offer-end-hero-cta = Jetzt upgraden
@@ -192,7 +192,7 @@ landing-offer-end-hero-content = Holen Sie sich { -brand-name-relay-premium } vo
 ## How it works section
 
 landing-how-it-works-headline = Wie es funktioniert
-landing-how-it-works-body-2 = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer eigentlichen E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
+landing-how-it-works-body-2 = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
 landing-how-it-works-step-1-body-cta = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
 landing-how-it-works-step-1-body-2 = Erstellen Sie E-Mail-Masken automatisch überall dort, wo Sie Ihre E-Mail-Adresse online eingeben.
 # Do not change '@relay.mozmail.com'
@@ -295,7 +295,7 @@ plan-matrix-heading-feature-email-tracker-removal = E-Mail-Tracker entfernen
 plan-matrix-heading-feature-promo-email-blocking = Werbe-E-Mails blockieren
 plan-matrix-heading-feature-email-subdomain = E-Mail-Subdomain
 plan-matrix-heading-feature-email-reply = Auf weitergeleitete E-Mails antworten
-plan-matrix-heading-feature-phone-mask = Maske für Handynummern
+plan-matrix-heading-feature-phone-mask = Telefonnummer-Maske
 plan-matrix-heading-feature-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
 # Variables:
@@ -306,7 +306,7 @@ plan-matrix-feature-list-email-tracker-removal = E-Mail-Tracker entfernen
 plan-matrix-feature-list-promo-email-blocking = Werbe-E-Mails blockieren
 plan-matrix-feature-list-email-subdomain = E-Mail-Subdomain
 plan-matrix-feature-list-email-reply = Auf weitergeleitete E-Mails antworten
-plan-matrix-feature-list-phone-mask = Maske für Handynummern
+plan-matrix-feature-list-phone-mask = Telefonnummer-Maske
 plan-matrix-feature-list-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Preis
 plan-matrix-feature-count-unlimited = Unbegrenzt
@@ -340,7 +340,7 @@ landing-use-cases-social-networks-body-2 =
 landing-use-cases-offline = Offline
 landing-use-cases-offline-body-2 =
     Bevorzugen Sie E-Mail-Quittungen, möchten aber auch Marketing-Spam vermeiden?
-    Verwenden Sie anstelle Ihrer E-Mail-Adresse eine { -brand-name-relay } -Maske, wenn Sie in einem Geschäft einen papierlosen Beleg erhalten.
+    Verwenden Sie anstelle Ihrer E-Mail-Adresse eine { -brand-name-relay }-Maske, wenn Sie in einem Geschäft einen papierlosen Beleg erhalten.
     Wir leiten die Quittung an Ihre echte E-Mail-Adresse weiter, und wenn Sie unerwünschte E-Mails erhalten, deaktivieren Sie einfach die E-Mail-Weiterleitung.
 landing-use-cases-access-content = Zugriff auf Inhalte
 landing-use-cases-access-content-body-2 =
@@ -453,7 +453,7 @@ waitlist-heading-bundle = Setzen Sie sich auf die Warteliste für das Paket { -b
 # Deprecated
 waitlist-lead = Lassen Sie sich benachrichtigen, wenn { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-lead-2 = Wir benachrichtigen Sie, wenn { -brand-name-relay-premium } in Ihrer Nähe verfügbar ist.
-waitlist-lead-phone = Wir werden Sie informieren, wenn die Telefonmaskierung in Ihrer Nähe verfügbar ist.
+waitlist-lead-phone = Wir werden Sie informieren, wenn die Telefonnummer-Masken in Ihrer Nähe verfügbar sind.
 waitlist-lead-bundle = Wir lassen Sie wissen, wann { -brand-name-relay-premium } und { -brand-name-mozilla-vpn } mit einem Rabatt in Ihrer Nähe erhältlich ist.
 waitlist-control-required = Erforderlich
 waitlist-control-email-label = Wie lautet Ihre E-Mail-Adresse?
@@ -470,7 +470,7 @@ waitlist-submit-label-2 = Auf Warteliste setzen
 waitlist-privacy-policy-agree = Indem Sie auf „{ waitlist-submit-label }“ klicken, stimmen Sie unserer <a>Datenschutzerklärung</a> zu.
 waitlist-privacy-policy-agree-2 = Indem Sie auf „{ waitlist-submit-label-2 }“ klicken, stimmen Sie unserer <a>Datenschutzerklärung</a> zu.
 waitlist-privacy-policy-use = Ihre Daten werden nur verwendet, um Sie über die Verfügbarkeit von { -brand-name-firefox-relay-premium } zu informieren.
-waitlist-privacy-policy-use-phone = Ihre Daten werden nur verwendet, um Sie zu benachrichtigen, wenn Telefonmaskierung in Ihrer Nähe verfügbar ist.
+waitlist-privacy-policy-use-phone = Ihre Daten werden nur verwendet, um Sie zu benachrichtigen, wenn Telefonnummer-Masken in Ihrer Nähe verfügbar sind.
 waitlist-privacy-policy-use-bundle = Ihre Daten werden nur verwendet, um Sie über die Verfügbarkeit des Pakets { -brand-name-relay } + { -brand-name-vpn } zu informieren.
 waitlist-subscribe-success = Sie stehen auf der Liste! Wir werden Sie per E-Mail informieren, sobald { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-subscribe-error-connection = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.
@@ -542,8 +542,8 @@ faq-question-missing-emails-answer-b-html = Wenn du ein { -brand-name-relay-prem
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Wenn du mit einem dieser Probleme zu kämpfen hast, <a href="{ $url }" { $attrs }>besuche bitte unsere Hilfe-Website</a>.
 faq-question-use-cases-question-2 = Wann sollte ich E-Mail-Masken von { -brand-name-relay } verwenden?
-faq-question-use-cases-answer-part1-2 = Sie können die E-Mail-Masken von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre normale E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie  möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
-faq-question-use-cases-answer-part2-2 = Wir empfehlen die Verwendung von E-Mail-Masken nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre eigentliche E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
+faq-question-use-cases-answer-part1-2 = Sie können die E-Mail-Masken von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre echte E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie  möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
+faq-question-use-cases-answer-part2-2 = Wir empfehlen die Verwendung von E-Mail-Masken nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre echte E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
 faq-question-2-question-2 = Warum akzeptiert eine Website meine E-Mail-Maske von { -brand-name-relay } nicht?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -560,7 +560,7 @@ faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in d
 faq-question-availability-answer-v2 = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Finnland, Frankreich, Belgien, Österreich, Spanien, Italien, Schweden, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-availability-answer-v3 = Kostenloses { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
 faq-question-4-question-2 = Kann ich mit meiner E-Mail-Maske von { -brand-name-relay } auf Nachrichten antworten?
-faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine ursprüngliche E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn du nicht möchtest, dass deine ursprüngliche E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
+faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine echte E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn du nicht möchtest, dass deine echte E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
 faq-question-subdomain-characters-answer-v2 = Du kannst nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
@@ -770,7 +770,7 @@ banner-register-subdomain-button-search = Suchen
 banner-pack-upgrade-headline-2-html = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong> erhalten Sie noch mehr Masken.
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen unbegrenzt viele E-Mail-Masken und Ihre eigene E-Mail-Subdomain und schützt Sie so im Internet.
 footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy <i>und</i> Ihre E-Mail-Adresse
-footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummernmaske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
+footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummer-Maske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
@@ -798,13 +798,13 @@ banner-offer-end-cta = Jetzt upgraden
 banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdomain } erstellen
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppen Sie Spam, automatische Anrufe und Junk-SMS
-banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonmaske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
 banner-ab-premium-promo-advanced-identity-headline = Erweiterter Identitätsschutz
 banner-ab-premium-promo-advanced-identity-body = Verhindern Sie, dass Tracker und Datensammler Sie über Ihre Telefonnummer und E-Mail-Adresse identifizieren.
 banner-ab-premium-promo-control-receiver-headline = Kontrollieren Sie, wer Ihre echte Nummer bekommt
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonmaske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
 banner-ab-premium-promo-extra-protection-headline = Holen Sie sich zusätzlichen Schutz für Ihren Posteingang und Ihr Telefon
-banner-ab-premium-promo-extra-protection-body = Erhalten Sie unbegrenzte E-Mail-Masken – plus eine Telefonmaske, um zu kontrollieren, wer Ihre echte Nummer erhält.
+banner-ab-premium-promo-extra-protection-body = Erhalten Sie unbegrenzte E-Mail-Masken – plus eine Telefonnummer-Maske, um zu kontrollieren, wer Ihre echte Nummer erhält.
 banner-ab-premium-promo-cta = Upgrade
 
 ## Success Messages
@@ -906,7 +906,7 @@ onboarding-premium-feature-intro = Mit { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = steuern, welche E-Mails du erhältst
 onboarding-premium-control-description-2 = Sie können unbegrenzt viele Masken teilen, die die gewünschten E-Mails an Ihren Posteingang weiterleiten.
 onboarding-premium-domain-title-3 = Eine benutzerdefinierte Subdomain für Masken verwenden:
-onboarding-premium-reply-title-2 = auf E-Mails antworten, ohne Ihre eigentliche Adresse preiszugeben
+onboarding-premium-reply-title-2 = auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben
 onboarding-premium-reply-description-2 = Müssen Sie auf E-Mails antworten, die an eine Maske gesendet wurden? Antworten Sie einfach wie gewohnt – Ihre Maske schützt Ihre E-Mail-Adresse weiterhin.
 onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } kannst du:
 
