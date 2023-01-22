@@ -1142,9 +1142,11 @@ forwarded-email-footer-offer-countdown-banner = Обновите до { $premium
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Мы отправили этот ответ { $sender }. Но в дальнейшем ваши ответы отправляться не будут.
+# Deprecated
+other-reply-not-forwarded = Ваш ответ НЕ был отправлен { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Ваш ответ НЕ был отправлен { $sender }.
+other-reply-not-forwarded-2 = Ваш ответ не был отправлен { $sender }.
 replies-only-available-with-premium = Отвечать на переадресованные письма с вашего замаскированного адреса электронной почты можно только с помощью { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Возможность отвечать не включена в ваш бесплатный аккаунт
 reply-not-sent-header = Ваш ответ не был отправлен
