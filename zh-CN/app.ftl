@@ -116,6 +116,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
+whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护——创建无限的马甲邮箱、获取自定义电子邮件子域名等！
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -124,7 +125,20 @@ whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以�
 whatsnew-feature-tracker-removal-description = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。
 whatsnew-feature-tracker-removal-description-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。可到“设置”中启用。
 whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# Try to keep this string short, not longer than the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = 在 { $end_date } 之前获得 { -brand-name-relay-premium } 并在我们的…畅享无限的马甲
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，即可以我们的上市优惠价畅享无限马甲。
 whatsnew-feature-offer-countdown-cta = 立即升级
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } 现在可以在 { -brand-name-firefox } 密码管理器中使用
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = 保护您的电子邮件变得更加容易。现在你可以生成……
+whatsnew-feature-firefox-integration-description = 保护您的电子邮件变得更加容易。现在，您可以直接从桌面上的 { -brand-name-firefox } 密码管理器生成新的 { -brand-name-relay } 马甲邮箱。
 
 ## Bento Menu
 
