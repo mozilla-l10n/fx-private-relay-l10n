@@ -255,7 +255,22 @@ landing-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } �
 landing-pricing-offer-end-warning = 本促销活动即将结束
 # Deprecated
 landing-pricing-offer-end-cta = 立刻升級
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = 限时特惠：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 仅售 { $monthly_price } 每月*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = 限时特惠：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 仅售 { $monthly_price } 每月*
+plan-matrix-bundle-offer-content = 试用 { -brand-name-firefox-relay } 马甲邮箱保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则可获得更多灵活性和控制选项。
 plan-matrix-heading-features = 功能
+plan-matrix-heading-plan-free = 有限的电子邮件保护
+plan-matrix-heading-plan-premium = 电子邮件保护
+plan-matrix-heading-plan-phones = 电子邮件和电话保护
+plan-matrix-heading-plan-bundle = 添加 VPN 保护
+plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = 马甲邮箱
 plan-matrix-heading-feature-browser-extension = 浏览器扩展
@@ -266,6 +281,9 @@ plan-matrix-heading-feature-email-reply = 回复转发的电子邮件
 plan-matrix-heading-feature-phone-mask = 虚拟手机号
 plan-matrix-heading-feature-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } 个邮箱马甲
 plan-matrix-feature-list-browser-extension = 浏览器扩展
 plan-matrix-feature-list-email-tracker-removal = 移除邮件跟踪器
 plan-matrix-feature-list-promo-email-blocking = 屏蔽营销邮件
@@ -275,15 +293,20 @@ plan-matrix-feature-list-phone-mask = 虚拟手机号
 plan-matrix-feature-list-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = 价格
 plan-matrix-feature-count-unlimited = 无限制
+plan-matrix-feature-included = 包含
+plan-matrix-feature-not-included = 不含
 plan-matrix-price-free = 免费
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price } / 月
 plan-matrix-price-period-yearly = 每年
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = 按年计费
 plan-matrix-price-period-monthly = 每月
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = VPN 原价再享 { $percentage }% 折扣
+plan-matrix-pick = 注册
 plan-matrix-join-waitlist = 加入预约名单
 
 ## Use Cases
@@ -333,7 +356,13 @@ landing-reviews-rating = 最高五星（{ $review_count } 条评价）
 landing-reviews-show-next-button = 显示下一条评价
 landing-reviews-show-previous-button = 显示上一条评价
 landing-review-anonymous-user = { -brand-name-firefox } 用户 { $user_id }
+landing-review-user-one-review = 非常感谢 { -brand-name-mozilla } 团队，他们真的很有创意，让电子邮件地址能够轻松隐藏起来。这个扩展也是真的好用，强烈推荐给想要保护隐私的人！
+landing-review-user-two-review = 摆脱或避免向您的电子邮件 ID 发送垃圾邮件的简单工具。
+landing-review-user-three-review = 喜欢这个扩展！非常简单但功能强大，与浏览器的集成非常棒。
 landing-review-user-four-review-list-1 = 上网时让您安心。
+landing-review-user-four-review-list-2 = 在各种原因不想共享真实的电子邮件地址的情况下，通过生成马甲来保护自己的身份免受跟踪器的侵害。
+landing-review-user-four-review-list-3 = 电子邮件收件箱数据在 { -brand-name-firefox-relay } 中是安全的。
+landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } 功能超赞，快来试试吧！
 
 ## Premium promo page
 
@@ -341,8 +370,14 @@ premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
 premium-promo-hero-cta = 立即升级
 premium-promo-offer-end-hero-heading = 优惠价即将结束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市特惠价享受高级电子邮件保护。
 premium-promo-offer-end-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
