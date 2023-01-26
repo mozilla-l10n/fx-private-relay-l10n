@@ -452,9 +452,9 @@ waitlist-heading-phone = Setzen Sie sich auf die Warteliste für { -brand-name-r
 waitlist-heading-bundle = Setzen Sie sich auf die Warteliste für das Paket { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Lassen Sie sich benachrichtigen, wenn { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
-waitlist-lead-2 = Wir benachrichtigen Sie, wenn { -brand-name-relay-premium } in Ihrer Nähe verfügbar ist.
-waitlist-lead-phone = Wir werden Sie informieren, wenn die Telefonnummer-Masken in Ihrer Nähe verfügbar sind.
-waitlist-lead-bundle = Wir lassen Sie wissen, wann { -brand-name-relay-premium } und { -brand-name-mozilla-vpn } mit einem Rabatt in Ihrer Nähe erhältlich ist.
+waitlist-lead-2 = Wir benachrichtigen Sie, wenn { -brand-name-relay-premium } in Ihrem Land verfügbar ist.
+waitlist-lead-phone = Wir werden Sie informieren, wenn die Telefonnummer-Masken in Ihrem Land verfügbar sind.
+waitlist-lead-bundle = Wir lassen Sie wissen, wann { -brand-name-relay-premium } und { -brand-name-mozilla-vpn } mit einem Rabatt in Ihrem Land erhältlich sind.
 waitlist-control-required = Erforderlich
 waitlist-control-email-label = Wie lautet Ihre E-Mail-Adresse?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -470,7 +470,7 @@ waitlist-submit-label-2 = Auf Warteliste setzen
 waitlist-privacy-policy-agree = Indem Sie auf „{ waitlist-submit-label }“ klicken, stimmen Sie unserer <a>Datenschutzerklärung</a> zu.
 waitlist-privacy-policy-agree-2 = Indem Sie auf „{ waitlist-submit-label-2 }“ klicken, stimmen Sie unserer <a>Datenschutzerklärung</a> zu.
 waitlist-privacy-policy-use = Ihre Daten werden nur verwendet, um Sie über die Verfügbarkeit von { -brand-name-firefox-relay-premium } zu informieren.
-waitlist-privacy-policy-use-phone = Ihre Daten werden nur verwendet, um Sie zu benachrichtigen, wenn Telefonnummer-Masken in Ihrer Nähe verfügbar sind.
+waitlist-privacy-policy-use-phone = Ihre Daten werden nur verwendet, um Sie zu benachrichtigen, wenn Telefonnummer-Masken in Ihrem Land verfügbar sind.
 waitlist-privacy-policy-use-bundle = Ihre Daten werden nur verwendet, um Sie über die Verfügbarkeit des Pakets { -brand-name-relay } + { -brand-name-vpn } zu informieren.
 waitlist-subscribe-success = Sie stehen auf der Liste! Wir werden Sie per E-Mail informieren, sobald { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-subscribe-error-connection = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.
