@@ -448,7 +448,7 @@ premium-promo-pricing-offer-end-body = Holen Sie sich { -brand-name-relay-premiu
 # Deprecated
 waitlist-heading = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
 waitlist-heading-2 = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
-waitlist-heading-phone = Setzen Sie sich auf die Warteliste für { -brand-name-relay }-Telefonmaskierung
+waitlist-heading-phone = Setzen Sie sich auf die Warteliste für { -brand-name-relay }-Telefonnummer-Maskierung
 waitlist-heading-bundle = Setzen Sie sich auf die Warteliste für das Paket { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Lassen Sie sich benachrichtigen, wenn { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
