@@ -30,17 +30,21 @@ phone-onboarding-step3-code-success-subhead-title = ¿Qué sigue?
 phone-onboarding-step3-code-success-cta = Buscar máscaras de número de teléfono
 phone-onboarding-step3-code-success-cta-2 = Buscar máscaras
 phone-onboarding-step4-country = Estados Unidos y Canadá
+phone-onboarding-step4-sub-body = Una vez que registras una máscara de número de teléfono, no puedes cambiarla.
 phone-onboarding-step4-smiliar-phone = Similar a { $phone_number }
 phone-onboarding-step4-input-search = Ingresar un código de área
+phone-onboarding-step4-button-register-phone-number = Registrar máscara de número de teléfono
 phone-onboarding-step4-confirm-alt-cancel = Cancelar
 phone-onboarding-step4-button-confirm-relay-number = Confirmar
 phone-onboarding-step4-code-success-title = ¡Felicidades!
 phone-onboarding-step4-code-success-subhead-title = ¿Qué sigue?
 phone-onboarding-step4-code-success-cta = Continuar
+phone-onboarding-step4-results = No se encontraron resultados. Inténtalo de nuevo.
 
 ## Phone Settings
 
 phone-settings-caller-sms-log = Registro de llamadas y mensajes de texto
+phone-settings-caller-sms-log-description = Permite que { -brand-name-firefox-relay } mantenga un registro de tus llamadas y remitentes de texto.
 
 ## Phone Resend SMS Banner
 
@@ -48,10 +52,13 @@ phone-banner-resend-welcome-sms-title = Consejo rápido
 
 ## Phone What's New
 
+whatsnew-feature-phone-header = Presentamos el enmascaramiento de números de teléfono
 whatsnew-feature-phone-upgrade-cta = Actualizar ahora
 
 ## Phone Dashboard
 
+phone-statistics-remaining-call-minutes = Minutos de llamadas restantes
+phone-dashboard-metadata-date-created = Fecha de creacion:
 phone-dashboard-number-copied = ¡Copiado!
 phone-dashboard-sender-table-title-activity = Última actividad
 phone-dashboard-sender-disabled-update-settings = Actualizar ajustes
@@ -59,6 +66,8 @@ phone-dashboard-header-new = Nuevo
 
 ## Phone Banner
 
+phone-banner-callout = Enmascaramiento de números de teléfono
+phone-banner-header = Obtén aún más protección con el enmascaramiento de números de teléfono
 phone-banner-cta-landing = Registrarse
 phone-banner-cta-user = Actualizar ahora
 # Variables:
@@ -69,9 +78,12 @@ phone-banner-float-replies = Responder a los mensajes de texto en privado
 
 ## Frequently Asked Questions about Phone plans
 
+phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por mensaje de texto?
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-save-contact-cta = Reenviar texto de bienvenida
+phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 phone-masking-splash-blocking-example-unblock = Desbloquear
 phone-masking-splash-blocking-example-block = Bloquear
 phone-masking-splash-blocking-example-date = Hoy
