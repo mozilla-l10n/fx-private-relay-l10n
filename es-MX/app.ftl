@@ -459,6 +459,7 @@ waitlist-control-country-label-2 = ¿En qué país o región vives?
 waitlist-control-locale-label = Selecciona tu idioma preferido.
 # Deprecated
 waitlist-submit-label = Únete a la lista de espera
+waitlist-submit-label-2 = Únete a la lista de espera
 # Deprecated
 waitlist-privacy-policy-agree = Al hacer clic en “{ waitlist-submit-label }”, aceptas nuestra <a>Política de privacidad</a>.
 waitlist-privacy-policy-use = Tu información solo se utilizará para notificarte sobre la disponibilidad de { -brand-name-firefox-relay-premium }.
@@ -1119,7 +1120,10 @@ forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } an
 
 ## Email sent to free users who try to reply
 
+replies-not-included-in-free-account-header = Las respuestas no están incluidas en tu cuenta gratuita.
 reply-not-sent-header = Tu respuesta no fue enviada
+upgrade-to-reply-to-future-emails = Actualiza ahora para enviar respuestas
+upgrade-for-more-protection = Actualiza para obtener más protección
 upgrade-to-premium = Actualizar a { -brand-name-firefox-relay-premium }
 manage-your-masks = Administra tus máscaras
 

@@ -5,6 +5,7 @@
 
 ## Phone Onboarding
 
+phone-onboarding-step1-headline = Presentamos el enmascaramiento de números de teléfono
 phone-onboarding-step1-period-toggle-yearly = Anual
 phone-onboarding-step1-period-toggle-monthly = Mensual
 # Variables:
@@ -15,10 +16,12 @@ phone-onboarding-step1-button-cta = Actualizar ahora
 phone-onboarding-step2-headline = Verifica tu verdadero número de teléfono
 phone-onboarding-step2-input-placeholder = Ingresa tu número telefónico
 phone-onboarding-step2-button-cta = Enviar código
+phone-onboarding-step3-headline = Verifica tu verdadero número de teléfono
 phone-onboarding-step3-input-placeholder = Ingresa código de 6 dígitos
 phone-onboarding-step3-button-cta = Confirmar mi número de teléfono
 phone-onboarding-step3-button-edit = Editar número de teléfono verdadero
 phone-onboarding-step3-button-resend = Reenviar el código de verificación
+phone-onboarding-step3-error-exipred = Inténtalo de nuevo: el límite de tiempo expiró.
 phone-onboarding-step3-error-cta = Enviar un nuevo código
 phone-onboarding-step3-code-fail-title = Código de verificación incorrecto
 phone-onboarding-step3-code-fail-body = Por favor vuelve a inténtarlo o solicita un nuevo código.
@@ -37,6 +40,7 @@ phone-onboarding-step4-code-success-cta = Continuar
 
 ## Phone Settings
 
+phone-settings-caller-sms-log = Registro de llamadas y mensajes de texto
 
 ## Phone Resend SMS Banner
 
