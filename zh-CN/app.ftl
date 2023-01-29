@@ -485,6 +485,7 @@ setting-tracker-removal-description = 在所有转发的电子邮件中删除电
 setting-tracker-removal-note = { -brand-name-firefox-relay } 现在可以从通过您的马甲转发的电子邮件中删除常见的跟踪器。
 # Deprecated
 setting-tracker-removal-warning = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来受损，因为跟踪器通常包含在图像中。
+setting-tracker-removal-warning-2 = 重要提示：删除跟踪器可能会导致您的邮件看起来不正常，因为跟踪器时常包含在图像和链接中。此类邮件无法修复。
 
 ## FAQ Page
 
@@ -559,7 +560,7 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天内可生�
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
-faq-question-promotional-email-blocking-question = 营销邮件屏蔽是啥？
+faq-question-promotional-email-blocking-question = 营销邮件屏蔽是什么？
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 订阅者可以启用营销邮件屏蔽功能。此功能将向您转发消费收据、密码重置和用户确认等重要邮件，并同时屏蔽营销邮件。虽然几率不大，但重要邮件仍有可能被屏蔽，因此我们建议您不要在重要的服务（例如银行）使用此功能。若邮件被屏蔽，将无法恢复。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 faq-question-detect-promotional-answer = 许多邮件发送时包含“头（header）”元数据，以表明其来自基于列表的自动化工具。{ -brand-name-firefox-relay } 能够检测到此头数据，因此可以进行屏蔽。
@@ -729,6 +730,7 @@ banner-offer-end-cta = 立即升级
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
+banner-ab-premium-promo-control-receiver-headline = 只让您信任的人知道您的真实手机号
 
 ## Success Messages
 
