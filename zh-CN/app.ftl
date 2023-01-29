@@ -181,6 +181,9 @@ landing-hero-body-2 =
     从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
 landing-offer-end-hero-heading = 优惠价即将结束！
 landing-offer-end-hero-cta = 立即升级
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } 并以我们的推荐月价享受高级电子邮件保护。
 
 ## How it works section
 
@@ -255,6 +258,10 @@ landing-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } �
 landing-pricing-offer-end-warning = 本促销活动即将结束
 # Deprecated
 landing-pricing-offer-end-cta = 立刻升級
+# Deprecated
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-name-relay-premium } 并以我们的推荐月价享受高级电子邮件保护。
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -398,6 +405,7 @@ premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现
 premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
 premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
+premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您防止电子邮件跟踪——您的马甲邮箱将从转发给您的任何电子邮件中删除电子邮件中常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
@@ -411,6 +419,9 @@ premium-promo-pricing-free-price = 您当前的免费方案
 premium-promo-pricing-offer-end-headline = 介绍价格：每月 { $monthly_price } 即享无限马甲
 premium-promo-pricing-offer-end-warning = 本促销活动即将结束
 premium-promo-pricing-offer-end-cta = 立即升级
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市优惠价享受高级电子邮件保护。
 
 ## The Premium waitlist page
 
@@ -424,6 +435,7 @@ waitlist-control-email-label = 您的电子邮件地址是什么？
 waitlist-control-email-placeholder = yourname@example.com
 # Deprecated
 waitlist-control-country-label = 您生活在哪个国家/地区？
+waitlist-control-country-label-2 = 您处在哪个国家或地区？
 waitlist-control-locale-label = 选择您的首选语言。
 # Deprecated
 waitlist-submit-label = 加入预约名单
@@ -447,22 +459,32 @@ settings-error-save-heading = 设置保存失败
 settings-error-save-description = 遇到网络问题，设置未能保存，请重试。
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = 已禁用马甲邮箱标签功能
+settings-warning-collection-off-heading-3 = 您的邮箱马甲帐户名称已关闭
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } 当前未被允许收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
+settings-warning-collection-off-description-3 = { -brand-name-relay } 当前不允许使用已用过的网站来标记您的邮箱马甲。要更改此设置，请在“隐私”下为邮箱马甲启用帐户名。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description-2 = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
+setting-label-collection-description-3 = 为邮箱马甲启用帐户名
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = 此数据将允许我们将您的马甲与其所使用网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } 将存储您使用过邮箱马甲的网站，并用这些网站标记您的马甲，以便您轻松识别它们。关闭此功能意味着您将无法看到每个马甲的使用情况，并且您的帐户名称将不再在设备之间同步。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API 密钥
+settings-api-key-description = 这是您的 { -brand-name-relay } API 密钥。它允许其他应用程序自动访问您的 { -brand-name-relay } 帐户。
+settings-api-key-description-bolded = 请仅将其与您信任的应用程序一起使用，以便您访问您的 { -brand-name-relay } 帐户。
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 点击复制
 setting-api-key-copied = 已复制！
 setting-api-key-copied-alt = 点击复制
 setting-tracker-removal-heading = 移除邮件跟踪器
+setting-tracker-removal-description = 在所有转发的电子邮件中删除电子邮件跟踪器。
+setting-tracker-removal-note = { -brand-name-firefox-relay } 现在可以从通过您的马甲转发的电子邮件中删除常见的跟踪器。
+# Deprecated
+setting-tracker-removal-warning = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来受损，因为跟踪器通常包含在图像中。
 
 ## FAQ Page
 
