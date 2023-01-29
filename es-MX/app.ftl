@@ -485,6 +485,7 @@ settings-warning-collection-off-description-2 = { -brand-name-relay } no tiene p
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidad
 setting-label-collection-description-2 = Permitir { -brand-name-relay } recolectar datos mostrando los sitios en donde tus máscaras fueron creadas y usadas.
+setting-label-collection-description-3 = Habilitar nombres de cuenta para máscaras de correo electrónico
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Estos datos nos permitirán etiquetar tus correos enmascarados con los sitios web donde se utilizan. Si decides optar por no participar en esta preferencia, tus máscaras no se etiquetarán con los sitios web donde se usan.
 settings-button-save-label = Guardar
