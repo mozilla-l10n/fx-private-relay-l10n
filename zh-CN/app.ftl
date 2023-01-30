@@ -427,8 +427,14 @@ premium-promo-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-n
 
 # Deprecated
 waitlist-heading = 欢迎加入 { -brand-name-relay-premium } 预约名单
+waitlist-heading-2 = 欢迎加入 { -brand-name-relay-premium } 预约名单
+waitlist-heading-phone = 加入 { -brand-name-relay } 电话马甲预约名单
+waitlist-heading-bundle = 加入 { -brand-name-relay } + { -brand-name-vpn } 捆绑包的预约名单
 # Deprecated
 waitlist-lead = 当 { -brand-name-firefox-relay-premium } 可用于您的地区时，将会收到通知。
+waitlist-lead-2 = 当 { -brand-name-relay-premium } 在您的地区可用时，我们会通知您。
+waitlist-lead-phone = 当您所在地区可以使用电话马甲功能时，我们会通知您。
+waitlist-lead-bundle = 当在您的地区可以用折扣价购买 { -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn } 时，我们会通知您。
 waitlist-control-required = 必填
 waitlist-control-email-label = 您的电子邮件地址是什么？
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -439,9 +445,13 @@ waitlist-control-country-label-2 = 您处在哪个国家或地区？
 waitlist-control-locale-label = 选择您的首选语言。
 # Deprecated
 waitlist-submit-label = 加入预约名单
+waitlist-submit-label-2 = 加入预约名单
 # Deprecated
 waitlist-privacy-policy-agree = 点击“{ waitlist-submit-label }”，即表示您同意我们的<a>隐私政策</a>。
+waitlist-privacy-policy-agree-2 = 点击“{ waitlist-submit-label-2 }”，即表示您同意我们的<a>隐私政策</a>。
 waitlist-privacy-policy-use = 您的信息将仅用于向您通知 { -brand-name-firefox-relay-premium } 的可用性。
+waitlist-privacy-policy-use-phone = 您的信息将仅用于在您所在地区提供电话马甲功能时通知您。
+waitlist-privacy-policy-use-bundle = 您的信息将仅用于通知您有关 { -brand-name-relay } + { -brand-name-vpn } 捆绑包可用性的消息。
 waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
 waitlist-subscribe-error-connection = 加入预约名单时出错，请检查您的网络连接并重试。
 waitlist-subscribe-error-unknown = 加入预约名单时出错，请重试。
@@ -548,6 +558,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } 收集您使用过电子邮件马甲的网站，并用这些网站标记您的马甲，以便您轻松识别它们。您可以在“设置”页面的“隐私”下选择退出此功能。但请注意，关闭该设置意味着您将无法看到每个马甲的使用情况，并且您的帐户名称将不再在设备之间同步。您可以在我们的<a href="{ $url }" { $attrs }>隐私声明</a>中了解有关 { -brand-name-firefox-relay } 收集的数据的更多信息。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
@@ -565,6 +576,13 @@ faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } �
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 faq-question-detect-promotional-answer = 许多邮件发送时包含“头（header）”元数据，以表明其来自基于列表的自动化工具。{ -brand-name-firefox-relay } 能够检测到此头数据，因此可以进行屏蔽。
 faq-question-disable-trackerremoval-question = 我可以停止移除邮件跟踪器吗？
+faq-question-disable-trackerremoval-answer = 是的。如果您对电子邮件看起来受损有顾虑或想要停止删除跟踪器，您可以在设置中禁用该功能。
+faq-question-bulk-trackerremoval-question = 我可以只删除某些马甲邮箱的跟踪器吗？
+faq-question-bulk-trackerremoval-answer = 您只能在帐户级别启用“跟踪器删除”功能——它要么从您的所有电子邮件中删除跟踪器，要么什么都留着。
+faq-question-trackerremoval-breakage-question = 为什么我的电子邮件看起来不正常？
+# Deprecated
+faq-question-trackerremoval-breakage-answer = 有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。删除跟踪器后，电子邮件因为因为缺少图像而导致格式错误。若您已收到此类电子邮件，则无法修复。如果这妨碍到您正常阅读电子邮件，请关闭此功能。
+faq-question-trackerremoval-breakage-answer-2 = 有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。删除跟踪器后，电子邮件因为因为缺少图像而导致格式错误。若您已收到此类电子邮件，则无法修复。如果这妨碍到您正常阅读电子邮件，请关闭此功能。
 
 ## Profile Page (Logged In)
 
@@ -618,6 +636,11 @@ profile-label-copied = 已复制！
 profile-label-blocked = 拦截
 profile-label-forwarded = 转发
 profile-label-replies = 回复
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = 跟踪器已移除
+profile-trackers-removed-tooltip-part1 = 启用跟踪器删除后，将从您转发的电子邮件中删除常见的电子邮件跟踪器。
+# Deprecated
+profile-trackers-removed-tooltip-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
 profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
@@ -629,6 +652,9 @@ profile-stat-learn-more-close = 关闭
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
+# Deprecated
+profile-stat-label-trackers-learn-more-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
+profile-stat-label-trackers-learn-more-part2-2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像和链接中。
 profile-filter-search-placeholder-2 = 搜索马甲
 profile-filter-category-button-label = 过滤可见的马甲邮箱
 profile-filter-category-button-tooltip = 按子域名和/或是否屏蔽收到的邮件过滤马甲邮箱
@@ -644,6 +670,9 @@ profile-filter-category-option-promo-blocking-masks = 屏蔽营销邮件的马�
 profile-filter-category-option-random-masks = 随机马甲
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = 自定义马甲
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = 跟踪器移除状态
+profile-indicator-tracker-removal-tooltip = 目前正在删除电子邮件跟踪器
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
