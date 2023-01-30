@@ -6,6 +6,7 @@
 ## Phone Onboarding
 
 phone-onboarding-step1-headline = Presentamos el enmascaramiento de números de teléfono
+phone-onboarding-step1-list-item-1 = Comparte una máscara de número de teléfono que reenvía mensajes de texto y llamadas a tu número.
 phone-onboarding-step1-period-toggle-yearly = Anual
 phone-onboarding-step1-period-toggle-monthly = Mensual
 # Variables:
@@ -48,6 +49,7 @@ phone-settings-caller-sms-log-description = Permite que { -brand-name-firefox-re
 
 ## Phone Resend SMS Banner
 
+phone-banner-resend-welcome-sms-cta = Reenviar texto de bienvenida
 phone-banner-resend-welcome-sms-title = Consejo rápido
 
 ## Phone What's New
@@ -58,6 +60,7 @@ whatsnew-feature-phone-upgrade-cta = Actualizar ahora
 ## Phone Dashboard
 
 phone-statistics-remaining-call-minutes = Minutos de llamadas restantes
+phone-statistics-remaining-texts = Textos restantes
 phone-dashboard-metadata-date-created = Fecha de creacion:
 phone-dashboard-number-copied = ¡Copiado!
 phone-dashboard-sender-table-title-activity = Última actividad
@@ -82,8 +85,13 @@ phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por men
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-save-contact-title = Guardar { -brand-name-relay } como contacto
 phone-masking-splash-save-contact-cta = Reenviar texto de bienvenida
 phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
+phone-masking-splash-replies-title = Cómo responder a tus mensajes
+phone-masking-splash-replies-example = Respondiendo al (555) 555-9876
+phone-masking-splash-replies-example-text = 9876 Tu mensaje
+phone-masking-splash-blocking-title = Cómo bloquear un remitente
 phone-masking-splash-blocking-example-unblock = Desbloquear
 phone-masking-splash-blocking-example-block = Bloquear
 phone-masking-splash-blocking-example-date = Hoy
