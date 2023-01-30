@@ -740,6 +740,8 @@ banner-choose-subdomain-input-placeholder-3 = 搜索子域名
 banner-register-subdomain-button-search = 搜索
 banner-pack-upgrade-headline-2-html = 升级为 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可获得更多马甲
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
+footer-banner-premium-promo-headine = 升级到 <strong>{ -brand-name-firefox-relay-premium }</strong> 以保护您的手机<i>和</i>电子邮件
+footer-banner-premium-promo-body = 获取电话号码马甲、无限的电子邮件马甲和自定义电子邮件地址以快速创建马甲。
 banner-pack-upgrade-cta = 立即升级
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隐私声明更新
@@ -752,14 +754,29 @@ banner-label-data-notification-header-v2 = 启用新功能
 banner-label-data-notification-body-cta = 详细了解
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = 保护您的隐私，拯救互联网
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+banner-upgrade-loyalist-copy-2 = 在保护您的隐私的同时加入我们构建更好互联网的使命，只需每月 { $monthly_price }
 banner-upgrade-loyalist-cta = 获得更多保护
 # End of intro pricing countdown banner:
 banner-offer-end-headline = 优惠价即将结束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市优惠价享受无限马甲。
 banner-offer-end-cta = 立即升级
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = 阻止垃圾邮件、机器人电话和垃圾短信
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 为您提供电话马甲以保护您的真实号码 — 以及无限的电子邮件马甲。
+banner-ab-premium-promo-advanced-identity-headline = 先进的身份保护
+banner-ab-premium-promo-advanced-identity-body = 阻止跟踪器和数据聚合器通过您的电话号码和电子邮件地址识别您。
 banner-ab-premium-promo-control-receiver-headline = 只让您信任的人知道您的真实手机号
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } 为您提供电话马甲以保护您的真实号码 — 以及无限的电子邮件马甲。
+banner-ab-premium-promo-extra-protection-headline = 为您的收件箱和手机提供额外保护
+banner-ab-premium-promo-extra-protection-body = 获得无限的电子邮件马甲——再加一个电话马甲来控制谁能得到您的真实号码。
+banner-ab-premium-promo-cta = 升级
 
 ## Success Messages
 
@@ -816,6 +833,9 @@ modal-custom-alias-picker-form-prefix-label-2 = 输入马甲邮箱前缀
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder = 例如“coffee”
+modal-custom-alias-picker-form-prefix-spaces-warning = 马甲邮箱中不可以包含空格。
+modal-custom-alias-picker-form-prefix-invalid-warning = 马甲邮箱只能包含小写字母、数字和连字符（-），并且不能以连字符开头或结尾。
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = 马甲邮箱只能包含小写字母、数字、小数点和连字符（-），并且不能以小数点或连字符开头或结尾。
 modal-custom-alias-picker-form-submit-label-2 = 生成马甲
 modal-custom-alias-picker-creation-error-2 = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
 
@@ -875,6 +895,9 @@ multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-get-subdomain = 获取自定义子域名
 multi-part-onboarding-reply-headline = 回复邮件
 multi-part-onboarding-premium-welcome-description-2 = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 { -brand-name-relay } 附加组件随时创建马甲。
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customsubdomain{ $mozmail }”就好
 multi-part-onboarding-premium-domain-cta-2 = 立即注册您的自定义子域名：
 multi-part-onboarding-premium-domain-button-skip-2 = 继续，我以后再注册自定义子域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
@@ -892,6 +915,17 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } 跟踪器移除报告
+trackerreport-meta-from-heading = 发件人
+trackerreport-meta-receivedat-heading = 收件人
+trackerreport-meta-count-heading = 总跟踪器数目
+trackerreport-trackers-heading = 检测到跟踪器数目
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = 跟踪器域名
+trackerreport-trackers-count-heading = 跟踪器数量
+trackerreport-trackers-none = 此电子邮件中未检测到跟踪器。
+trackerreport-confidentiality-notice = 这些报告中显示的跟踪器信息和发件人地址不会由 { -brand-name-firefox-relay } 保存，仅包含在报告 URL 中。我们不保存您的电子邮件。
+trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
 
 ## Modals
