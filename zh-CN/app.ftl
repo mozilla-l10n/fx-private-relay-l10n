@@ -652,6 +652,8 @@ profile-stat-learn-more-close = 关闭
 profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = 个跟踪器已移除
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
 profile-stat-label-trackers-learn-more-part2-2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像和链接中。
