@@ -641,6 +641,7 @@ profile-label-trackers-removed = 跟踪器已移除
 profile-trackers-removed-tooltip-part1 = 启用跟踪器删除后，将从您转发的电子邮件中删除常见的电子邮件跟踪器。
 # Deprecated
 profile-trackers-removed-tooltip-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
+profile-trackers-removed-tooltip-part2-2 = <b>重要提示：</b>删除跟踪器可能会导致电子邮件无法正常显示，因为图片和链接中经常会包含跟踪器。
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
 profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
