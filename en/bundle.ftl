@@ -9,7 +9,7 @@ vpn-relay-go-relay-cta = Go to { -brand-name-relay }
 vpn-relay-go-vpn-body = Protect your connection and online activity
 vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
-# Deprecated
+# Deprecated (moved over to app.ftl)
 ## VPN and Relay Bundle What's New Announcement
 
 # String below is obsolete
