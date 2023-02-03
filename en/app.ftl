@@ -188,14 +188,42 @@ hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arri
 ## Hero Section
 
 landing-hero-headline-2 = Protect your true email address to help control your inbox
+landing-hero-headline-3 = Protect your identity with secure phone and email masking
 landing-hero-body-2 = { -brand-name-firefox-relay } email masks protect your true email address from public view, automatically forwarding messages to your true inbox.
     Now you can receive only the messages you want in your inbox. Sign up with your { -brand-name-firefox-account } to get started.
-
+landing-hero-body-3 = Our secure, easy-to-use email and phone masks help keep your identity private so you can sign up for new accounts anonymously, stop spam texts and 
+    junk calls, and get only the emails you want in your inbox.
+landing-hero-cta = Get started
 landing-offer-end-hero-heading = Our intro pricing offer is ending soon!
 landing-offer-end-hero-cta = Upgrade now
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-offer-end-hero-content = Get { -brand-name-relay-premium } before { $end_date } and enjoy premium email protection at our intro month-to-month price.
+
+## Bundle Banner
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } for { $monthly_price }/month
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } protects you from tracking & surveillance while you’re gaming, online banking, or getting work done. Add it to { -brand-name-firefox-relay } for { $savings } off.
+bundle-banner-plan-header-2 = Your 1-year plan includes:
+bundle-banner-plan-modules-email-masking-2 = Email masking
+bundle-banner-plan-modules-phone-masking-2 = Phone masking
+bundle-banner-plan-modules-mozilla-vpn-2 = { -brand-name-mozilla-vpn }
+bundle-banner-cta-2 = Get { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt-2 = { -brand-name-mozilla-vpn } and { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = { $days_guarantee }-day money-back guarantee for first-time subscribers
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one-2 = More than { $num_vpn_servers } servers
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two-2 = More than { $num_vpn_countries } countries
+bundle-feature-three-2 = Fast and secure network
 
 ## How it works section
 
