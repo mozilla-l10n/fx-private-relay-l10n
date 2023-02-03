@@ -342,7 +342,8 @@ plan-matrix-heading-feature-email-reply-2 = Reply to emails anonymously
 plan-matrix-heading-feature-phone-mask = Phone number mask
 plan-matrix-heading-feature-phone-mask-2 = Phone mask to protect your real phone number
 # Deprecated
-plan-matrix-heading-feature-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-feature-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-feature-vpn-2 = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
