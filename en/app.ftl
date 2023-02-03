@@ -310,12 +310,13 @@ landing-pricing-offer-end-body = Get { -brand-name-relay-premium } before { $end
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
-plan-matrix-bundle-offer-heading = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
+plan-matrix-bundle-offer-heading-3 = Choose a level of protection that’s right for you
+# Deprecated
 plan-matrix-bundle-offer-content = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox. Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+plan-matrix-bundle-offer-content-2 = { -brand-name-firefox-relay } protects your identity and your inbox with unique email masks. Add on even more security with { -brand-name-relay } phone masking, and save { $savings } by adding { -brand-name-vpn } protection.
 plan-matrix-heading-features = Features
 plan-matrix-heading-plan-free = Limited email protection
 plan-matrix-heading-plan-premium = Email protection
@@ -323,25 +324,47 @@ plan-matrix-heading-plan-phones = Email & phone protection
 plan-matrix-heading-plan-bundle = Add VPN protection
 plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+# Deprecated
 plan-matrix-heading-feature-email-masks = Email masks
+plan-matrix-heading-feature-email-masks-2 = Email masks to protect your real email address
+# Deprecated
 plan-matrix-heading-feature-browser-extension = Browser extension
+plan-matrix-heading-feature-browser-extension-2 = Browser extension to use { -brand-name-relay } on any site
 plan-matrix-heading-feature-email-tracker-removal = Remove email trackers
 plan-matrix-heading-feature-promo-email-blocking = Block promotional emails
+# Deprecated
 plan-matrix-heading-feature-email-subdomain = Email subdomain
+plan-matrix-heading-feature-email-subdomain-2 = { -brand-name-relay } email domain to create masks on-the-go
+# Deprecated
 plan-matrix-heading-feature-email-reply = Reply to forwarded emails
+plan-matrix-heading-feature-email-reply-2 = Reply to emails anonymously
+# Deprecated
 plan-matrix-heading-feature-phone-mask = Phone number mask
-plan-matrix-heading-feature-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-heading-feature-phone-mask-2 = Phone mask to protect your real phone number
+# Deprecated
+plan-matrix-heading-feature-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } email masks
+# Deprecated
 plan-matrix-feature-list-browser-extension = Browser extension
+plan-matrix-feature-list-browser-extension-2 = Browser extension to use { -brand-name-relay } on any site
+# Deprecated
 plan-matrix-feature-list-email-tracker-removal = Remove email trackers
 plan-matrix-feature-list-promo-email-blocking = Block promotional emails
+# Deprecated
 plan-matrix-feature-list-email-subdomain = Email subdomain
+plan-matrix-feature-list-email-subdomain-2 = { -brand-name-relay } email domain to create masks on-the-go
+# Deprecated
 plan-matrix-feature-list-email-reply = Reply to forwarded emails
+plan-matrix-feature-list-email-reply-2 = Reply to emails anonymously
+# Deprecated
 plan-matrix-feature-list-phone-mask = Phone number mask
+plan-matrix-feature-list-phone-mask-2 = Phone mask to protect your real phone number
+# Deprecated
 plan-matrix-feature-list-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-vpn-2 = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-heading-price = Price
 plan-matrix-feature-count-unlimited = Unlimited
 plan-matrix-feature-included = Included
@@ -352,12 +375,17 @@ plan-matrix-price-free = Free
 plan-matrix-price-monthly = { $monthly_price }/month
 plan-matrix-price-period-yearly = Yearly
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+# Deprecated
 plan-matrix-price-period-yearly-note = Billing yearly
+plan-matrix-price-period-yearly-note-2 = Billed annually. Tax not included.
 plan-matrix-price-period-monthly = Monthly
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Save { $percentage }% on regular VPN price
+# Deprecated
 plan-matrix-pick = Sign Up
+plan-matrix-upgrade = Upgrade
+plan-matrix-get-relay-cta = Get Relay
 plan-matrix-join-waitlist = Join the Waitlist
 
 ## Use Cases

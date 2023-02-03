@@ -9,6 +9,7 @@ vpn-relay-go-relay-cta = Go to { -brand-name-relay }
 vpn-relay-go-vpn-body = Protect your connection and online activity
 vpn-relay-go-vpn-cta = Download { -brand-name-mozilla-vpn }
 
+# Deprecated
 ## VPN and Relay Bundle What's New Announcement
 
 # String below is obsolete
@@ -28,6 +29,7 @@ whatsnew-feature-bundle-body = Upgrade your subscription to get both { -brand-na
 whatsnew-feature-bundle-body-v2 = Get a year of { -brand-name-relay-premium } Phone Masking & Email Masking plus { -brand-name-mozilla-vpn } for { $monthly_price }/month.
 whatsnew-feature-bundle-upgrade-cta = Upgrade now
 
+#
 ## VPN and Relay Landing Page Bundle Banner
 
 bundle-banner-header = { -brand-name-firefox-relay } with <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
