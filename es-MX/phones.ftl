@@ -8,6 +8,9 @@
 phone-onboarding-step1-headline = Presentamos el enmascaramiento de números de teléfono
 phone-onboarding-step1-body = Con el enmascaramiento de números de teléfono, puedes crear una máscara de número de teléfono que te ayude a proteger tu verdadero número de teléfono. Compártelo, y recibe mensajes y llamadas en privado.
 phone-onboarding-step1-list-item-1 = Comparte una máscara de número de teléfono que reenvía mensajes de texto y llamadas a tu número.
+phone-onboarding-step1-list-item-2 = ¿Necesitas obtener un recibo digital? Comparte tu máscara de número de teléfono en su lugar.
+phone-onboarding-step1-list-item-4 = Actualmente disponible solo en EE. UU. y Canadá.
+phone-onboarding-step1-button-label = Actualiza para obtener enmascaramiento de número de teléfono
 phone-onboarding-step1-period-toggle-yearly = Anual
 phone-onboarding-step1-period-toggle-monthly = Mensual
 # Variables:
@@ -18,6 +21,7 @@ phone-onboarding-step1-button-cta = Actualizar ahora
 phone-onboarding-step2-headline = Verifica tu verdadero número de teléfono
 phone-onboarding-step2-input-placeholder = Ingresa tu número telefónico
 phone-onboarding-step2-button-cta = Enviar código
+phone-onboarding-step2-invalid-number = { $phone_number } no es un número válido. Revisa y proporciona un número de teléfono real.
 phone-onboarding-step3-headline = Verifica tu verdadero número de teléfono
 phone-onboarding-step3-input-placeholder = Ingresa código de 6 dígitos
 phone-onboarding-step3-button-cta = Confirmar mi número de teléfono
@@ -35,10 +39,12 @@ phone-onboarding-step4-country = Estados Unidos y Canadá
 phone-onboarding-step4-sub-body = Una vez que registras una máscara de número de teléfono, no puedes cambiarla.
 phone-onboarding-step4-smiliar-phone = Similar a { $phone_number }
 phone-onboarding-step4-input-search = Ingresar un código de área
+phone-onboarding-step4-button-more-options = Muéstrame otras opciones
 phone-onboarding-step4-button-register-phone-number = Registrar máscara de número de teléfono
 phone-onboarding-step4-confirm-alt-cancel = Cancelar
 phone-onboarding-step4-button-confirm-relay-number = Confirmar
 phone-onboarding-step4-code-success-title = ¡Felicidades!
+phone-onboarding-step4-code-success-body = Has registrado tu nueva máscara de número de teléfono.
 phone-onboarding-step4-code-success-subhead-title = ¿Qué sigue?
 phone-onboarding-step4-code-success-cta = Continuar
 phone-onboarding-step4-results = No se encontraron resultados. Inténtalo de nuevo.
@@ -83,6 +89,7 @@ phone-banner-float-replies = Responder a los mensajes de texto en privado
 ## Frequently Asked Questions about Phone plans
 
 phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por mensaje de texto?
+phone-masking-faq-question-data = ¿Qué tipo de datos almacena el enmascaramiento del teléfono { -brand-name-relay }?
 
 ## Phone Masking Splash Screen
 
