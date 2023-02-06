@@ -85,6 +85,7 @@ phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por men
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-continue-btn = Ir al panel de control
 phone-masking-splash-save-contact-title = Guardar { -brand-name-relay } como contacto
 phone-masking-splash-save-contact-cta = Reenviar texto de bienvenida
 phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
@@ -98,6 +99,7 @@ phone-masking-splash-blocking-example-date = Hoy
 
 ## Tips and tricks at the bottom of the page
 
+tips-multi-replies-heading = Responde a cualquier texto con la máscara de tu teléfono
 
 ## SMS reply error messages
 
