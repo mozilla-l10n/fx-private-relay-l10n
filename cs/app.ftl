@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Nabídka
 nav-home = Domů
+nav-email-dashboard = E-mailové masky
+nav-phone-dashboard = Masky telefonních čísel
 label-open-menu = Otevřít nabídku
 avatar-tooltip = Profil
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
@@ -35,12 +37,18 @@ nav-profile-contact = Kontakt
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Kontaktujte nás ohledně služby { -brand-name-relay-premium }
 nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capitalization: "uppercase") }
+# Deprecated
+nav-phone = Telefonní číslo
+nav-duo-description = Přepnout nástěnku
+nav-duo-email-mask-alt = E-mailové masky
+nav-duo-phone-mask-alt = Masky telefonních čísel
 
 ## Mobile menu text
 
 menu-upgrade-button = Aktualizovat
 menu-toggle-open = Otevřít nabídku
 menu-toggle-close = Zavřít nabídku
+# Deprecated
 nav-dashboard = Nástěnka
 nav-settings = Nastavení
 nav-support = Nápověda a podpora
@@ -83,33 +91,28 @@ whatsnew-empty-message =
     }
 whatsnew-feature-size-limit-heading = Navýšení velikosti příloh
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } nyní může přeposílat e-maily až do velikosti 25 MB, včetně…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } nyní může přeposílat e-maily až do velikosti 25 MB, včetně příloh.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } nyní může přeposílat e-maily s velikostí { email-size-limit }, včetně…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } může nyní přeposílat e-maily s velikostí až do { email-size-limit }, včetně příloh.
 whatsnew-feature-sign-back-in-heading = Znovu se přihlaste pomocí svých aliasů
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Když budete požádáni o váš e-mail, pro vytvoření nového aliasu otevřete…
 whatsnew-feature-sign-back-in-description = Když budete požádání o váš e-mail, pro přihlášení pomocí dříve použitého aliasu otevřete kontextovou nabídku a vybraný alias se automaticky vyplní do pole pro e-mail.
 whatsnew-feature-forward-some-heading = Blokování propagačních e-mailů
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily zasílané na adresu vašeho alias. Budete dostávat e-maily jako jsou potvrzení, ale ne marketingové e-maily.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasy se mění na masky
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Všiml jste si změny? Aliasy jsme ve { -brand-name-firefox-relay(case: "loc") } přejmenovaly na masky…
@@ -119,17 +122,16 @@ whatsnew-feature-alias-to-mask-description = Všiml jste si změny? Aliasy jsme 
 whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } je dostupná ve Švédsku
 whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } je dostupná ve Finsku
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Aktualizujte nyní a získejte ještě lepší ochranu…
 whatsnew-feature-premium-expansion-description = Aktualizujte nyní a získejte ještě lepší ochranu – vytvářejte neomezený počet e-mailových masek, získejte vlastní e-mailovou subdoménu a mnoho dalšího!
 whatsnew-feature-tracker-removal-heading = Představujeme možnost odstranění sledovacích prvků z e-mailů
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
+whatsnew-feature-offer-countdown-cta = Upgradujte
 
 ## Bento Menu
 
@@ -171,6 +173,7 @@ landing-hero-headline-2 = Chraňte svou skutečnou e-mailovou adresu, abyste mě
 landing-hero-body-2 =
     E-mailové masky { -brand-name-firefox-relay } chrání vaši skutečnou e-mailovou adresu před zveřejněním a automaticky přeposílají zprávy do vaší skutečné schránky.
     Nyní budete přijímat pouze zprávy, které chcete mít ve své doručené poště. Začněte registrací pomocí svého { -brand-name-firefox-account(case: "gen", capitalization: "lower") }.
+landing-offer-end-hero-cta = Upgradujte
 
 ## How it works section
 
@@ -243,6 +246,27 @@ landing-pricing-waitlist-description =
     }
 # Deprecated
 landing-pricing-waitlist-cta = Přidat se na čekací listinu
+# Deprecated
+landing-pricing-offer-end-cta = Upgradujte
+plan-matrix-heading-features = Vlastnosti
+# This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
+plan-matrix-heading-feature-email-masks = E-mailové masky
+plan-matrix-heading-feature-browser-extension = Rozšíření do prohlížeče
+plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
+plan-matrix-feature-list-browser-extension = Rozšíření do prohlížeče
+plan-matrix-heading-price = Cena
+plan-matrix-feature-count-unlimited = Neomezené
+plan-matrix-feature-included = Zahrnuté
+plan-matrix-feature-not-included = Není zahrnuté
+plan-matrix-price-free = Zdarma
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/měsíc
+plan-matrix-price-period-yearly = Ročně
+# We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
+plan-matrix-price-period-yearly-note = Roční účtování
+plan-matrix-price-period-monthly = Měsíčně
+plan-matrix-join-waitlist = Přidat se na čekací listinu
 
 ## Use Cases
 
@@ -341,12 +365,14 @@ premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-p
 premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
 premium-promo-perks-cta-label = Upgradujte hned teď
 premium-promo-perks-cta-tooltip = Upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }
+premium-promo-perks-pill-new = Nové!
 premium-promo-perks-perk-unlimited-headline-2 = Vytvářejte neomezený počet e-mailových masek
 premium-promo-perks-perk-unlimited-body-2 = Už žádný limit pěti masek: s { -brand-name-relay-premium(case: "ins") } můžete vygenerovat tolik masek, kolik potřebujete, abyste pomohli ochránit svou e-mailovou schránku před spammery a online sledováním. Můžete dokonce odpovídat na e-maily, aniž byste odhalili svou skutečnou adresu.
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastní subdoménu
 premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete vytvářet masky, které si zapamatujete a sdílíte snadněji než kdy dříve. Potřebujete jednu pro rezervaci v restauraci? Použijte například jidlo@vase-domena.mozmail.com — Není třeba vytvářet masku předem.
 premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
+premium-promo-perks-perk-block-promotionals-headline = Blokování propagačních e-mailů
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
 premium-promo-use-cases-shopping-heading = Nakupování
 premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
@@ -358,7 +384,9 @@ premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Přidat se na čekací listinu služby { -brand-name-relay-premium }
+# Deprecated
 waitlist-lead =
     { -brand-name-firefox-relay-premium.gender ->
         [masculine] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
@@ -373,9 +401,10 @@ waitlist-control-email-placeholder = vase-adresa@example.com
 # Deprecated
 waitlist-control-country-label = V jaké zemi žijete?
 waitlist-control-locale-label = Vyberte svůj preferovaný jazyk.
+# Deprecated
 waitlist-submit-label = Přidat se na čekací listinu
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Přidat se na čekací listinu
+# Deprecated
 waitlist-privacy-policy-agree = Klepnutím na tlačítko „{ waitlist-submit-label }“ souhlasíte s našimi <a>zásadami ochrany osobních údajů</a>.
 waitlist-privacy-policy-use = Vaše údaje budou použity pouze na informování o dostupnosti služby { -brand-name-firefox-relay-premium }.
 waitlist-subscribe-success =
@@ -417,6 +446,7 @@ settings-api-key-description-bolded = Používejte ho pouze u aplikací, kterým
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klepnutím zkopírujete do schránky
 setting-api-key-copied = Zkopírováno!
+setting-api-key-copied-alt = Klepnutím zkopírujete do schránky
 setting-tracker-removal-heading = Odstraňování sledovacích prvků
 setting-tracker-removal-description = Odstraňovat sledovací prvky ze všech přeposlaných e-mailů
 setting-tracker-removal-note = { -brand-name-firefox-relay } nyní může z e-mailů přeposlaných přes vaše masky odstranit běžné sledovací prvky.
@@ -910,6 +940,9 @@ vpn-promo-cta = Získejte { -brand-name-mozilla-vpn(case: "acc") }
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 forwarded-email-trackers-blocked-report = Více informací
+
+## Email sent to free users who try to reply
+
 
 ## Notifications component
 
