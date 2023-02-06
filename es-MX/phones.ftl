@@ -6,6 +6,7 @@
 ## Phone Onboarding
 
 phone-onboarding-step1-headline = Presentamos el enmascaramiento de números de teléfono
+phone-onboarding-step1-body = Con el enmascaramiento de números de teléfono, puedes crear una máscara de número de teléfono que te ayude a proteger tu verdadero número de teléfono. Compártelo, y recibe mensajes y llamadas en privado.
 phone-onboarding-step1-list-item-1 = Comparte una máscara de número de teléfono que reenvía mensajes de texto y llamadas a tu número.
 phone-onboarding-step1-period-toggle-yearly = Anual
 phone-onboarding-step1-period-toggle-monthly = Mensual

@@ -1121,6 +1121,9 @@ forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } an
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Tu respuesta no se envió a { $sender }.
 replies-not-included-in-free-account-header = Las respuestas no están incluidas en tu cuenta gratuita.
 reply-not-sent-header = Tu respuesta no fue enviada
 upgrade-to-reply-to-future-emails = Actualiza ahora para enviar respuestas
