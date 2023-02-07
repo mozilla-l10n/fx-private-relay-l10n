@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 ## HERO SECTION 
+
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body = Our secure, easy-to-use email and phone masks help keep your identity 
     private so you can sign up for new accounts anonymously, stop spam texts and junk calls, and 
@@ -116,7 +117,6 @@ plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular
 plan-matrix-upgrade = Upgrade
 plan-matrix-get-relay-cta = Get Relay
 plan-matrix-join-waitlist = Join the Waitlist
-
 
 ## REVIEWS SECTION
 
