@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body = Our secure, easy-to-use email and phone masks help keep your identity 
@@ -34,7 +33,6 @@ bundle-feature-one-2 = More than { $num_vpn_servers } servers
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
 bundle-feature-two-2 = More than { $num_vpn_countries } countries
 bundle-feature-three-2 = Fast and secure network
-
 
 ## HOW IT WORKS SECTION 
 
@@ -102,7 +100,7 @@ plan-matrix-upgrade = Upgrade
 plan-matrix-get-relay-cta = Get Relay
 plan-matrix-join-waitlist = Join the Waitlist
 
-## LANDING REVIEWS SECTION
+## REVIEWS SECTION
 
 landing-reviews-add-ons = Add-ons
 landing-reviews-logo-title = { -brand-name-firefox-browser }
@@ -156,8 +154,7 @@ highlighted-features-section-remove-trackers-headline = Remove email trackers
 highlighted-features-section-remove-trackers-body = { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping 
     you stay invisible to trackers and advertisers.
 
-
-## LANDING FAQ SECTION
+## FAQ SECTION
 
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
 landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
