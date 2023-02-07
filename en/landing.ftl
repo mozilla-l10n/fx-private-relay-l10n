@@ -2,14 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body = Our secure, easy-to-use email and phone masks help keep your identity 
     private so you can sign up for new accounts anonymously, stop spam texts and junk calls, and 
     get only the emails you want in your inbox.
 hero-section-cta = Get started
-
 
 ## BUNDLE BANNER SECTION
 
@@ -36,7 +34,6 @@ bundle-feature-one-2 = More than { $num_vpn_servers } servers
 bundle-feature-two-2 = More than { $num_vpn_countries } countries
 bundle-feature-three-2 = Fast and secure network
 
-
 ## HOW IT WORKS SECTION 
 
 how-it-works-section-title = How { -brand-name-relay } email & phone masking works
@@ -55,7 +52,6 @@ how-it-works-section-forward-body = Rest assured, senders will never know your r
 
 how-it-works-section-manage-headline = Manage your masks from your { -brand-name-relay } dashboard
 how-it-works-section-manage-body = Sign in to your Relay dashboard to create new masks, label existing masks, and  block calls, texts, or emails from masks that get too much spam.
-
 
 ## PRICING MATRIX SECTION
 
@@ -87,16 +83,14 @@ plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
 
 # Feature Breakdowns Mobile
 
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-plan-matrix-feature-mobile-list-email-masks = { $mask_limit } email masks
-plan-matrix-feature-mobile-list-browser-extension = Browser extension to use { -brand-name-relay } on any site
-plan-matrix-feature-mobile-list-email-tracker-removal = Remove email trackers
-plan-matrix-feature-mobile-list-promo-email-blocking = Block promotional emails
-plan-matrix-feature-mobile-list-email-subdomain = { -brand-name-relay } email domain to create masks on-the-go
-plan-matrix-feature-mobile-list-email-reply = Reply to emails anonymously
-plan-matrix-feature-mobile-list-phone-mask = Phone mask to protect your real phone number
-plan-matrix-feature-mobile-list-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-mobile-email-masks = Email masks
+plan-matrix-feature-mobile-browser-extension = Browser extension
+plan-matrix-feature-mobile-email-tracker-removal = Remove email trackers
+plan-matrix-feature-mobile-promo-email-blocking = Block promotional emails
+plan-matrix-feature-mobile-email-subdomain = { -brand-name-relay } email subdomain
+plan-matrix-feature-mobile-email-reply = Reply to emails anonymously
+plan-matrix-feature-mobile-phone-mask = Protect your real phone number
+plan-matrix-feature-mobile-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -110,11 +104,12 @@ plan-matrix-price-free = Free
 
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-plan-matrix-price-monthly = { $monthly_price }/month
+plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Yearly
+plan-matrix-price-period-monthly = Monthly
 plan-matrix-price-period-yearly-footnote = Billed annually. Tax not included.
 plan-matrix-price-period-monthly-footnote = Billed monthly. Tax not included.
-plan-matrix-price-vpn-discount-promo = <span>Save { $percentage }%</span> on regular { -brand-name-vpn } price
+plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular { -brand-name-vpn } price
 
 # Plan CTAs
 
@@ -142,7 +137,6 @@ landing-review-user-four-review-list-1 = Gives peace of mind when surfing the in
 landing-review-user-four-review-list-2 = Protects ones identity from trackers through generation of aliases where one does not want to share the real email address for various reasons.
 landing-review-user-four-review-list-3 = Email inbox data is safe in the hands of { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works wonders, try it!!!
-
 
 ## HIGHLIGHTED FEATURES SECTION
 
@@ -187,7 +181,6 @@ highlighted-features-section-block-promotions-body = With { -brand-name-relay-pr
 highlighted-features-section-remove-trackers-headline = Remove email trackers
 highlighted-features-section-remove-trackers-body = { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping 
     you stay invisible to trackers and advertisers.
-
 
 ## FAQ SECTION
 
