@@ -52,7 +52,7 @@ how-it-works-section-forward-body = Rest assured, senders will never know your r
 # Item 3
 
 how-it-works-section-manage-headline = Manage your masks from your { -brand-name-relay } dashboard
-how-it-works-section-manage-body = Sign in to your Relay dashboard to create new masks, label existing masks, and  block calls, texts, or emails from masks that get too much spam.
+how-it-works-section-manage-body = Sign in to your { -brand-name-relay } dashboard to create new masks, label existing masks, and  block calls, texts, or emails from masks that get too much spam.
 
 ## PRICING MATRIX SECTION
 
@@ -67,7 +67,7 @@ plan-matrix-heading-features = Features
 plan-matrix-heading-plan-free = Limited email protection
 plan-matrix-heading-plan-premium = Email protection
 plan-matrix-heading-plan-phones = Email & phone protection
-plan-matrix-heading-plan-bundle = Add VPN protection
+plan-matrix-heading-plan-bundle = Add { -brand-name-vpn } protection
 plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
@@ -115,7 +115,7 @@ plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular
 # Plan CTAs
 
 plan-matrix-upgrade = Upgrade
-plan-matrix-get-relay-cta = Get Relay
+plan-matrix-get-relay-cta = Get { -brand-name-relay }
 plan-matrix-join-waitlist = Join the Waitlist
 
 ## REVIEWS SECTION
