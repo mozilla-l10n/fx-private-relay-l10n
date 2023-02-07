@@ -2,12 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 hero-section-title = Protect your identity with secure phone and email masking
 hero-section-body = Our secure, easy-to-use email and phone masks help keep your identity 
     private so you can sign up for new accounts anonymously, stop spam texts and junk calls, and 
     get only the emails you want in your inbox.
 hero-section-cta = Get started
+
 
 ## BUNDLE BANNER SECTION
 
@@ -34,23 +36,33 @@ bundle-feature-one-2 = More than { $num_vpn_servers } servers
 bundle-feature-two-2 = More than { $num_vpn_countries } countries
 bundle-feature-three-2 = Fast and secure network
 
+
 ## HOW IT WORKS SECTION 
 
 how-it-works-section-title = How { -brand-name-relay } email & phone masking works
+
 # Item 1
+
 how-it-works-section-extension-headline = Use { -brand-name-relay } email masks and phone masks everywhere
 how-it-works-section-extension-body = Get secure, random email masks and a unique, masked phone number to use any time a website, app, store, or restaurant asks for your information.
+
 # Item 2
+
 how-it-works-section-forward-headline = We’ll forward emails, phone calls, and texts to you
-how-it-works-section-forward-body = Rest assured senders will never know your real email address or real number. You can even reply to texts and emails without sharing your real identity.
+how-it-works-section-forward-body = Rest assured, senders will never know your real email address or real number. You can even reply to texts and emails without sharing your real identity.
+
 # Item 3
+
 how-it-works-section-manage-headline = Manage your masks from your { -brand-name-relay } dashboard
 how-it-works-section-manage-body = Sign in to your Relay dashboard to create new masks, label existing masks, and  block calls, texts, or emails from masks that get too much spam.
+
 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Choose a level of protection that’s right for you
+
 # Top Row Labels
+
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } protects your identity and your inbox with unique email masks. Add on even more security with { -brand-name-relay } phone masking, and save { $savings } by adding { -brand-name-vpn } protection.
@@ -60,7 +72,9 @@ plan-matrix-heading-plan-premium = Email protection
 plan-matrix-heading-plan-phones = Email & phone protection
 plan-matrix-heading-plan-bundle = Add VPN protection
 plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
+
 # Feature Breakdowns
+
 plan-matrix-feature-email-masks = Email masks to protect your real email address
 plan-matrix-feature-browser-extension = Browser extension to use { -brand-name-relay } on any site
 plan-matrix-feature-email-tracker-removal = Remove email trackers
@@ -70,7 +84,9 @@ plan-matrix-feature-email-reply = Reply to emails anonymously
 plan-matrix-feature-phone-mask = Phone mask to protect your real phone number
 plan-matrix-feature-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
+
 # Feature Breakdowns Mobile
+
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-mobile-list-email-masks = { $mask_limit } email masks
@@ -81,13 +97,17 @@ plan-matrix-feature-mobile-list-email-subdomain = { -brand-name-relay } email do
 plan-matrix-feature-mobile-list-email-reply = Reply to emails anonymously
 plan-matrix-feature-mobile-list-phone-mask = Phone mask to protect your real phone number
 plan-matrix-feature-mobile-list-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+
 # Plan Details
+
 plan-matrix-heading-price = Price
 plan-matrix-feature-count-unlimited = Unlimited
 plan-matrix-feature-included = Included
 plan-matrix-feature-not-included = Not included
 plan-matrix-price-free = Free
+
 # Plan Price
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/month
@@ -95,10 +115,13 @@ plan-matrix-price-period-yearly = Yearly
 plan-matrix-price-period-yearly-footnote = Billed annually. Tax not included.
 plan-matrix-price-period-monthly-footnote = Billed monthly. Tax not included.
 plan-matrix-price-vpn-discount-promo = <span>Save { $percentage }%</span> on regular { -brand-name-vpn } price
+
 # Plan CTAs
+
 plan-matrix-upgrade = Upgrade
 plan-matrix-get-relay-cta = Get Relay
 plan-matrix-join-waitlist = Join the Waitlist
+
 
 ## REVIEWS SECTION
 
@@ -120,39 +143,51 @@ landing-review-user-four-review-list-2 = Protects ones identity from trackers th
 landing-review-user-four-review-list-3 = Email inbox data is safe in the hands of { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works wonders, try it!!!
 
+
 ## HIGHLIGHTED FEATURES SECTION
 
 highlighted-features-section-title = Secure, simple features to help protect your identity
 highlighted-features-section-bottom-title = Protect your identity (and your inbox) with { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Get started
 highlighted-features-section-new-item = New!
+
 # Item 1
+
 highlighted-features-section-unlimited-masks-headline = Create unlimited email masks
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body = Everyone gets { $mask_limit } email masks for free. 
     But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox 
     from spammers, hackers, and online trackers.
+
 # Item 2
+
 highlighted-features-section-masks-on-the-go-headline = Instantly create masks on the go
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-headline-body = { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly 
     create new masks anywhere you are. Simply add any word or phrase before the @ symbol. At a restaurant? Use restaurant@yourdomain.{ $mozmail }. 
     Shopping? Try shop@yourdomain.{ $mozmail }.
+
 # Item 3
+
 highlighted-features-section-replying-headline = Reply to emails & texts anonymously
 highlighted-features-section-replying-body = { -brand-name-relay-premium } lets you respond to emails from your
     masked email account, so senders will never know your real email address. With phone masking, you can reply 
     to texts from your masked phone number to protect your real number. 
+
 # Item 4
+
 highlighted-features-section-block-promotions-headline = Block promotional emails
 highlighted-features-section-block-promotions-body = With { -brand-name-relay-premium }, you can block promotional emails from reaching your 
     inbox while still receiving emails like receipts or shipping information. 
+
 # Item 5
+
 highlighted-features-section-remove-trackers-headline = Remove email trackers
 highlighted-features-section-remove-trackers-body = { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping 
     you stay invisible to trackers and advertisers.
+
 
 ## FAQ SECTION
 
