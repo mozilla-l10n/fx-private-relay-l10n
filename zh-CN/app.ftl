@@ -932,6 +932,10 @@ trackerreport-trackers-none = 此电子邮件中未检测到跟踪器。
 trackerreport-confidentiality-notice = 这些报告中显示的跟踪器信息和发件人地址不会由 { -brand-name-firefox-relay } 保存，仅包含在报告 URL 中。我们不保存您的电子邮件。
 trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
+trackerreport-faq-heading = 关于邮件跟踪器的常见问题
+trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
+trackerreport-loading = 正在加载您的跟踪器移除报告…
+trackerreport-load-error = 生成您的跟踪器删除报告时出错。请刷新页面重试。
 
 ## Modals
 
@@ -1030,8 +1034,14 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = 上市优惠促销即将结束。立即升级到 { $premium_link }。
+# Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } 个电子邮件跟踪器已移除
 forwarded-email-trackers-blocked-report = 详细了解
 # This entire text is a link
 forwarded-email-footer-2 = 点此停止转发邮件或管理马甲设置。
@@ -1043,6 +1053,12 @@ forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 {
 
 ## Email sent to free users who try to reply
 
+replies-not-included-in-free-account-header = 免费账户无法回复邮件
+reply-not-sent-header = 您的回复未发送
+upgrade-to-reply-to-future-emails = 立即升级以发送回复
+upgrade-for-more-protection = 升级以获得更多保护
+upgrade-to-premium = 升级为 { -brand-name-firefox-relay-premium }
+manage-your-masks = 管理马甲
 
 ## Notifications component
 
