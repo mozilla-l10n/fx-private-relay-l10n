@@ -19,21 +19,21 @@ bundle-banner-header-2 = Limited-time only: { -brand-name-relay-premium } + { -b
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-body-3 = { -brand-name-mozilla-vpn } protects you from tracking & surveillance while you’re gaming, online banking, or getting work done. Add it to { -brand-name-firefox-relay } for { $savings } off.
 bundle-banner-plan-header-2 = Your 1-year plan includes:
-bundle-banner-plan-modules-email-masking-2 = Email masking
-bundle-banner-plan-modules-phone-masking-2 = Phone masking
-bundle-banner-plan-modules-mozilla-vpn-2 = { -brand-name-mozilla-vpn }
-bundle-banner-cta-2 = Get { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt-2 = { -brand-name-mozilla-vpn } and { -brand-name-relay }
+bundle-banner-plan-modules-email-masking = Email masking
+bundle-banner-plan-modules-phone-masking = Phone masking
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = Get { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } and { -brand-name-relay }
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = { $days_guarantee }-day money-back guarantee for first-time subscribers
+bundle-banner-money-back-guarantee-2 = { $days_guarantee }-day money back guarantee for first time subscribers
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
-bundle-feature-one-2 = More than { $num_vpn_servers } servers
+bundle-feature-one = More than { $num_vpn_servers } servers
 # Variables:
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
-bundle-feature-two-2 = More than { $num_vpn_countries } countries
-bundle-feature-three-2 = Fast and secure network
+bundle-feature-two = More than { $num_vpn_countries } countries
+bundle-feature-three = Fast and secure network
 
 ## HOW IT WORKS SECTION 
 
