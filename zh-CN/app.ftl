@@ -931,6 +931,7 @@ trackerreport-trackers-count-heading = 跟踪器数量
 trackerreport-trackers-none = 此电子邮件中未检测到跟踪器。
 trackerreport-confidentiality-notice = 这些报告中显示的跟踪器信息和发件人地址不会由 { -brand-name-firefox-relay } 保存，仅包含在报告 URL 中。我们不保存您的电子邮件。
 trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } 现在可以从通过马甲邮箱转发的邮件中移除常见的跟踪器。您依然能够收到邮件，但转发给您的邮件中的跟踪器会被移除，这样您就可以在收取邮件的同事免受跟踪。如需为所有马甲邮箱启用“移除跟踪器”功能，请在设置中启用该功能，而不必逐个设置。
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
 trackerreport-faq-heading = 关于邮件跟踪器的常见问题
 trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
