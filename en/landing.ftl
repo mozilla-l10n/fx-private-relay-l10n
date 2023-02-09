@@ -88,7 +88,7 @@ plan-matrix-feature-mobile-email-masks = Email masks
 plan-matrix-feature-mobile-browser-extension = Browser extension
 plan-matrix-feature-mobile-email-tracker-removal = Remove email trackers
 plan-matrix-feature-mobile-promo-email-blocking = Block promotional emails
-plan-matrix-feature-mobile-email-subdomain = { -brand-name-relay } email subdomain
+plan-matrix-feature-mobile-email-subdomain = Unique { -brand-name-relay } email domain
 plan-matrix-feature-mobile-email-reply = Reply to emails anonymously
 plan-matrix-feature-mobile-phone-mask = Protect your real phone number
 plan-matrix-feature-mobile-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -159,7 +159,7 @@ highlighted-features-section-unlimited-masks-body = Everyone gets { $mask_limit 
 highlighted-features-section-masks-on-the-go-headline = Instantly create masks on the go
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-headline-body = { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly 
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly 
     create new masks anywhere you are. Simply add any word or phrase before the @ symbol. At a restaurant? Use restaurant@yourdomain.{ $mozmail }. 
     Shopping? Try shop@yourdomain.{ $mozmail }.
 
