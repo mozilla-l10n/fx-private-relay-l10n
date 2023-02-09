@@ -67,7 +67,7 @@ plan-matrix-heading-features = Features
 plan-matrix-heading-plan-free = Limited email protection
 plan-matrix-heading-plan-premium = Email protection
 plan-matrix-heading-plan-phones = Email & phone protection
-plan-matrix-heading-plan-bundle = Add { -brand-name-vpn } protection
+plan-matrix-heading-plan-bundle-2 = Add { -brand-name-vpn } protection
 plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
