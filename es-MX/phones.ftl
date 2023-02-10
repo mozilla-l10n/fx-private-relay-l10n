@@ -23,7 +23,7 @@ phone-onboarding-step2-input-placeholder = Ingresa tu número telefónico
 phone-onboarding-step2-button-cta = Enviar código
 phone-onboarding-step2-invalid-number = { $phone_number } no es un número válido. Revisa y proporciona un número de teléfono real.
 phone-onboarding-step3-headline = Verifica tu verdadero número de teléfono
-phone-onboarding-step3-input-placeholder = Ingresa código de 6 dígitos
+phone-onboarding-step3-input-placeholder = Ingresa el código de 6 dígitos
 phone-onboarding-step3-button-cta = Confirmar mi número de teléfono
 phone-onboarding-step3-button-edit = Editar número de teléfono verdadero
 phone-onboarding-step3-button-resend = Reenviar el código de verificación
@@ -89,6 +89,14 @@ phone-banner-float-replies = Responder a los mensajes de texto en privado
 ## Frequently Asked Questions about Phone plans
 
 phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por mensaje de texto?
+phone-masking-faq-answer-historical = Actualmente no puedes responder a los mensajes de texto que recibiste anteriormente, aunque esta función está en camino.
+phone-masking-faq-question-can-i-send = ¿Puedo enviar un mensaje de texto sin responder a uno?
+phone-masking-faq-answer-can-i-send = No, aún no puedes enviar mensajes de texto que no sean respuestas. Solo puedes responder a los mensajes de texto reenviados.
+phone-masking-faq-question-limit = ¿Hay un límite para la cantidad de mensajes de texto que recibo?
+phone-masking-faq-question-call-length = ¿Cuánto tiempo puedo hablar cuando recibo una llamada?
+phone-masking-faq-question-can-i-call = ¿Puedo llamar a alguien con mi máscara de teléfono?
+phone-masking-faq-answer-can-i-call = No, solo puedes atender una llamada reenviada.
+phone-masking-faq-question-can-i-see = ¿Puedo ver quién me envió un mensaje de texto o me llamó?
 phone-masking-faq-question-data = ¿Qué tipo de datos almacena el enmascaramiento del teléfono { -brand-name-relay }?
 
 ## Phone Masking Splash Screen

@@ -41,26 +41,15 @@ bundle-banner-body-v2 = Navega, transmite, juega y trabaja mientras mantienes tu
 bundle-banner-1-year-plan = Plan de 1 año: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
 bundle-banner-1-year-plan-v2 = Plan de 1 año: <b>{ -brand-name-firefox-relay } Enmascaramiento de correo electrónico y teléfono + { -brand-name-vpn }</b>
 bundle-banner-plan-header = plan de 1 año:
-bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
-bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
-bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-price-monthly = Mensual: <monthly-price>{ $monthly_price }</monthly-price>
-bundle-banner-alt = { -brand-name-mozilla-vpn } y { -brand-name-relay }
-bundle-banner-cta = Obtén { -brand-name-mozilla-vpn } + { -brand-name-relay }
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
 bundle-banner-money-back-guarantee = { $days_guarantee } garantía de devolución de dinero de un día para nuevos suscriptores
-# Variables:
-#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
-bundle-feature-one = Más de { $num_vpn_servers } servidores
-# Variables:
-#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
-bundle-feature-two = Más de { $num_vpn_countries } países
-bundle-feature-three = Una red rápida y segura
 
 ## VPN and Relay Premium Dashboard Upgrade Banner
 
 bundle-banner-dashboard-header = Presentamos: plan de suscripción { -brand-name-relay } + { -brand-name-vpn }
 bundle-banner-dashboard-upgrade-cta = Actualizar ahora
+
