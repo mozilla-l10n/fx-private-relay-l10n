@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = Mae { -brand-name-firefox-relay } yn ei gwneud hi'n hawdd creu arallenwau e-bostio, arallenwau sy'n cael eu hanfon ymlaen i'ch blwch derbyn go iawn. Defnyddiwch hwn i ddiogelu eich cyfrifon ar-lein rhag hacwyr a negeseuon digroeso.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Yn agor mewn tab newydd)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = Arallenwau E-byst
 nav-phone-dashboard = Cuddio Ffôn
 label-open-menu = Agor y ddewislen
 avatar-tooltip = Proffil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Cwestiynau Cyffredin
 nav-profile-sign-in = Mewngofnodi
@@ -55,6 +56,7 @@ nav-support = Cymorth a Chefnogaeth
 nav-sign-out = Allgofnodi
 nav-contact = Cysylltwch â ni
 nav-menu-mobile = Dewislen Symudol
+
 fx-desktop-2 = { -brand-name-firefox } y Bwrdd Gwaith
 fx-mobile-2 = { -brand-name-firefox } Symudol
 
@@ -85,7 +87,9 @@ whatsnew-tab-archive-label = Hanes
 whatsnew-footer-clear-all-label = Clirio'r cyfan
 whatsnew-footer-back-label = Nôl
 whatsnew-footer-learn-more-label = Dysgu rhagor
+
 whatsnew-empty-message = Gwnewch yn siŵr eich bod yn dod nôl yma - rydym bob amser yn gweithio ar nodweddion newydd gwych i wneud { -brand-name-relay } hyd yn oed yn well.
+
 whatsnew-feature-size-limit-heading = Cynnydd maint atodiad
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -95,16 +99,19 @@ whatsnew-feature-size-limit-description = Gall { -brand-name-firefox-relay } anf
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at { email-size-limit } ymlaen, gan gynnwys…
 whatsnew-feature-size-limit-description-var = Gall { -brand-name-firefox-relay } nawr anfon e-byst hyd at { email-size-limit } ymlaen, gan gynnwys atodiadau.
+
 whatsnew-feature-sign-back-in-heading = Mewngofnodwch eto gyda'ch arallenwau
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = I greu arallenw newydd pan fydd gofyn am eich e-bost, agorwch…
 whatsnew-feature-sign-back-in-description = I fewngofnodi ag arallenw a ddefnyddiwyd yn flaenorol, agorwch y ddewislen cyd-destun lle mae'r wefan yn gofyn am eich e-bost. Byddwch yn gallu dewis yr arallenw a llenwi'r maes e-bost yn awtomatig.
+
 whatsnew-feature-forward-some-heading = Rhwystro e-byst hyrwyddo
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = Mae { -brand-name-relay-premium } yn caniatáu i chi rwystro dim ond e-byst hyrwyddo…
 whatsnew-feature-forward-some-description = Mae { -brand-name-relay-premium } yn eich galluogi i rwystro dim ond e-byst hyrwyddo a anfonwyd at arallenw. Byddwch yn derbyn e-byst fel derbynebau ond nid e-byst marchnata.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases are now masks
@@ -116,12 +123,14 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
+
 whatsnew-feature-premium-expansion-sweden-heading = Mae { -brand-name-relay-premium } ar gael yn Sweden
 whatsnew-feature-premium-expansion-finland-heading = Mae { -brand-name-relay-premium } ar gael yn y Ffindir
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch…
 whatsnew-feature-premium-expansion-description = Uwchraddiwch nawr a chael hyd yn oed mwy o ddiogelwch - crëwch arallenwau e-bost diderfyn, cael is-barth e-bost personol, a mwy!
+
 whatsnew-feature-tracker-removal-heading = Yn cyflwyno dileu traciwr e-bost
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -129,6 +138,7 @@ whatsnew-feature-tracker-removal-snippet = Nawr gall { -brand-name-relay } ddile
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.
 whatsnew-feature-tracker-removal-description-2 = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr. Gallwch ei droi ymlaen yn y “Gosodiadau.”
+
 whatsnew-feature-offer-countdown-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -139,6 +149,7 @@ whatsnew-feature-offer-countdown-snippet = Mynnwch { -brand-name-relay-premium }
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Mynnwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch arallenwi diderfyn yn ein…
 whatsnew-feature-offer-countdown-cta = Uwchraddiwch nawr
+
 whatsnew-feature-firefox-integration-heading = Mae { -brand-name-relay } yn well fyth yn { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -180,13 +191,13 @@ hero-image-copy-control-html = Nawr <em>chi sydd â rheolaeth</em> o'r hyn sy'n 
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Diogelwch eich cyfeiriad e-bost go iawn i helpu rheoli eich blwch derbyn
 landing-hero-body-2 =
     Mae arallenwau e-bost { -brand-name-firefox-relay } yn diogelu eich cyfeiriad e-bost go iawn o olwg y cyhoedd, gan anfon e-byst yn awtomatig ymlaen i'ch blwch derbyn go iawn.
     Nawr dim ond yr e-byst rydych chi eu heisiau y byddwch yn eu derbyn. Cofrestrwch gyda'ch { -brand-name-firefox-account } i gychwyn arni.
+
 landing-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
 landing-offer-end-hero-cta = Uwchraddiwch nawr
 # Variables:
@@ -237,6 +248,7 @@ landing-pricing-free-cta = Cael { -brand-name-relay }
 landing-pricing-free-ribbon = Ar gael nawr!
 # Deprecated
 landing-pricing-free-feature-free = Am Ddim
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -258,10 +270,12 @@ landing-pricing-premium-feature-4 = Ateb e-byst a anfonwyd ymlaen
 landing-pricing-premium-feature-5 = Rhwystro e-byst hyrwyddo
 # Deprecated
 landing-pricing-premium-feature-6 = Tynnu tracwyr e-bost
+
 # Deprecated
 landing-pricing-waitlist-description = Nid yw { -brand-name-firefox-relay-premium } ar gael yn eich gwlad ar hyn o bryd. Rhannwch eich e-bost i gael gwybod cyn gynted ag y bo modd.
 # Deprecated
 landing-pricing-waitlist-cta = Ymunwch â'r Rhestr Aros
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -274,6 +288,7 @@ landing-pricing-offer-end-cta = Uwchraddiwch nawr
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -286,12 +301,7 @@ plan-matrix-bundle-offer-heading-2 = Am amser cyfyngedig yn unig: { -brand-name-
 plan-matrix-bundle-offer-content =
     Rhowch gynnig ar e-byst arallenw { -brand-name-firefox-relay } a dechrau diogelu blwch derbyn eich e-bost.
     Yna uwchraddiwch i { -brand-name-relay-premium } i gael rhagor o hyblygrwydd a rheolaeth fanylach.
-plan-matrix-heading-features = Nodweddion
-plan-matrix-heading-plan-free = Diogelwch e-bost cyfyngedig
-plan-matrix-heading-plan-premium = Diogelwch e-bost
-plan-matrix-heading-plan-phones = Diogelwch e-bost a ffôn
 plan-matrix-heading-plan-bundle = Ychwanegwch ddiogelwch VPN
-plan-matrix-heading-plan-bundle-alt = Cael { -brand-name-relay-premium } a { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Arallenwau e-byst
 plan-matrix-heading-feature-browser-extension = Estyniad porwr
@@ -301,7 +311,6 @@ plan-matrix-heading-feature-email-subdomain = Is-barth e-bost
 plan-matrix-heading-feature-email-reply = Ateb e-byst a anfonwyd ymlaen
 plan-matrix-heading-feature-phone-mask = Cuddio rhifau ffôn
 plan-matrix-heading-feature-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = E-byst arallenwau e-bost dirifedi
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } arallenw e-bost
@@ -312,15 +321,9 @@ plan-matrix-feature-list-email-subdomain = Is-barth e-bost
 plan-matrix-feature-list-email-reply = Ateb e-byst a anfonwyd ymlaen
 plan-matrix-feature-list-phone-mask = Cuddio rhifau ffôn
 plan-matrix-feature-list-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Pris
-plan-matrix-feature-count-unlimited = Diderfyn
-plan-matrix-feature-included = Yn gynwysedig
-plan-matrix-feature-not-included = Heb ei gynnwys
-plan-matrix-price-free = Am Ddim
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/month
-plan-matrix-price-period-yearly = Blynyddol
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Bilio yn flynyddol
 plan-matrix-price-period-monthly = Yn fisol
@@ -328,7 +331,6 @@ plan-matrix-price-period-monthly = Yn fisol
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Arbedwch { $percentage }% o bris VPN arferol
 plan-matrix-pick = Ymuno
-plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 
 ## Use Cases
 
@@ -355,9 +357,11 @@ landing-use-cases-gaming = Chwarae Gemau
 landing-use-cases-gaming-body-2 =
     Yn mwynhau gemau ar-lein, ond yn poeni am gemwyr neu fwlis eraill yn dod i wybod pwy ydych chi trwy'ch tag gemwr a'ch cyfeiriad e-bost?
     Defnyddiwch e-bost arallenw i roi un haen arall o ddiogelwch rhwng eich hunaniaeth ar-lein a'r gemau rydych chi'n eu chwarae ar-lein.
+
 landing-use-cases-shopping-hero-heading = Siopa gyda arallenwau e-bost
 landing-use-cases-shopping-hero-content1 = Eisiau prynu rhywbeth ar-lein a ddim yn gyfarwydd nac yn ymddiried yn llwyr yn y siop?
 landing-use-cases-shopping-hero-content2 = Defnyddiwch arallenw e-bost pryd bynnag y byddwch chi'n siopa ar-lein. Anfonwch y cadarnhad i'ch e-bost go iawn, gallwch ddiffodd yr arallenw yn hawdd unrhyw bryd yn y dyfodol.
+
 landing-use-cases-on-the-go = Ar Daith
 landing-use-cases-on-the-go-heading = Ar daith gyda { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Gwnewch arallenw e-bost personol yn syth yn unrhyw le ac ym mhobman!
@@ -367,35 +371,11 @@ landing-use-cases-on-the-go-receipt-heading = Cael derbynebau e-bost
 landing-use-cases-on-the-go-receipt-body = Rhannwch arallenw e-bost personol ar gyfer derbynebau siopa yn y siop a pheidio rhannu'ch e-bost go iawn
 landing-use-cases-on-the-go-phone-heading = Ei ddefnyddio ar eich ffôn
 landing-use-cases-on-the-go-phone-body = Does dim gwahaniaeth lle rydych chi, crëwch arllenw e-bost personol mewn eiliadau ar gyfer unrhyw beth rydych chi am ei wneud
+
 landing-use-cases-signups = Cofrestru
 landing-use-cases-signups-hero-heading = Cofrestru'n ddibryder
 landing-use-cases-signups-hero-content1 = Eisiau cychwyn tanysgrifiad newydd, ymateb i wahoddiad, neu gael cod hyrwyddo bargen heb gael sbam yn gorlifo'ch blwch derbyn?
 landing-use-cases-signups-hero-content2 = Cyn i chi gwblhau'r cofrestriad nesaf hwnnw, defnyddiwch arallenw e-bost yn lle'ch un go iawn i ddiogelu eich manylion a chadw rheolaeth dros eich blwch derbyn
-
-## Landing FAQ Section
-
-landing-faq-headline = Y prif gwestiynau am { -brand-name-firefox-relay }
-landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Ychwanegion
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Ffynhonnell: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = allan o 5 ( { $review_count } adolygiad)
-landing-reviews-show-next-button = dangos yr adolygiad nesaf
-landing-reviews-show-previous-button = dangos yr adolygiad blaenorol
-landing-review-anonymous-user = Defnyddiwr { -brand-name-firefox } { $user_id }
-landing-review-user-one-review = Rwy'n gwerthfawrogi'n fawr y tîm { -brand-name-mozilla } am fod mor greadigol a symleiddio'r broses o wneud fy nghyfeiriad e-bost yn ddienw. Mae hwn yn estyniad gwych, rwy'n ei argymell yn fawr i'r rhai sy'n ymwybodol o'u breifatrwydd!
-landing-review-user-two-review = Teclyn syml i gael gwared ar neu osgoi sbamio cyfeiriad eich e-bost.
-landing-review-user-three-review = Caru'r estyniad hwn! Syml iawn ond pwerus ac mae'r integreiddio â'r porwr yn wych.
-landing-review-user-four-review-list-1 = Yn rhoi tawelwch meddwl wrth syrffio'r rhyngrwyd.
-landing-review-user-four-review-list-2 = Yn diogelu hunaniaeth rhywun rhag tracwyr trwy gynhyrchu arallenwau lle nad yw rhywun eisiau rhannu'r cyfeiriad e-bost go iawn am wahanol resymau.
-landing-review-user-four-review-list-3 = Mae data blwch derbyn e-bost yn ddiogel yn nwylo { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = Mae { -brand-name-firefox-relay } yn wych, rhowch gynnig arni!!!
 
 ## Premium promo page
 
@@ -407,14 +387,17 @@ premium-promo-hero-body-2-html = Gyda { -brand-name-firefox-relay-premium }, ryd
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Gyda { -brand-name-firefox-relay-premium }, byddwch yn cael arallenwau e-bost personol diderfyn sy'n anfon dim ond y negeseuon e-bost rydych chi eu heisiau ymlaen i'ch gwir gyfeiriad e-bost.
 premium-promo-hero-cta = Uwchraddiwch nawr
+
 premium-promo-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
 premium-promo-offer-end-hero-cta = Uwchraddiwch nawr
+
 premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
 premium-promo-availability-warning-2 = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU a'r UDA.
 premium-promo-availability-warning-3 = Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
+
 premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag e-byst arallenwau dirifedi a'ch is-parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
 premium-promo-perks-cta-label = Uwchraddiwch nawr
@@ -430,6 +413,7 @@ premium-promo-perks-perk-block-promotionals-headline = Rhwystro e-byst hyrwyddo
 premium-promo-perks-perk-block-promotionals-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 premium-promo-perks-perk-tracker-blocking-headline = Dileu tracwyr e-bost
 premium-promo-perks-perk-tracker-blocking-body = Nawr gall { -brand-name-relay } eich helpu i rwystro tracio e-byst - bydd eich arallenwau e-bost yn tynnu tracwyr e-bost cyffredin o unrhyw e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i dracwyr a hysbysebwyr.
+
 premium-promo-use-cases-headline-2 = Defnyddiwch e-byst arallenwau { -brand-name-relay } yn unrhyw le
 premium-promo-use-cases-shopping-heading = Siopa
 premium-promo-use-cases-shopping-body-2 = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan e-byst arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
@@ -437,7 +421,9 @@ premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
 premium-promo-use-cases-social-networks-body-2 = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch e-byst arallenwau gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn rhy agored ar y gwefannau hynny.
 premium-promo-use-cases-gaming-heading = Gemau
 premium-promo-use-cases-gaming-body-2 = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch e-bost arallenw fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
+
 premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
@@ -524,13 +510,16 @@ setting-tracker-removal-warning-2 = Pwysig: Gall cael gwared ar dracwyr achosi i
 ## FAQ Page
 
 faq-headline = Cwestiynau Cyffredin
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Beth yw e-bost arallenw { -brand-name-relay }?
 faq-question-what-is-answer-2 = Mae e-bost arallenw yn gyfeiriadau e-bost wedi'i guddio sy'n anfon neges i'ch gwir gyfeiriad e-bost. Mae'r e-bost arallenw yn caniatáu i chi rannu cyfeiriad â thrydydd parti sy'n cuddio'ch gwir gyfeiriad e-bost ac yn anfon neges ymlaen ato.
+
 faq-question-missing-emails-question-2 = Nid wyf yn derbyn negeseuon gan fy e-bost arallenw
 faq-question-missing-emails-answer-a-2 = Mae yna rai rhesymau efallai pam nad ydych chi'n derbyn e-byst sy'n cael eu hanfon ymlaen trwy eich e-byst arallenwau. Mae'r rhesymau hyn yn cynnwys:
 faq-question-missing-emails-answer-reason-spam = Mae negeseuon yn mynd i'r sbam
@@ -545,46 +534,60 @@ faq-question-missing-emails-answer-b-html = Os ydych chi'n ddefnyddiwr { -brand-
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Os ydych chi'n cael trafferth gydag unrhyw un o'r materion hyn, ewch <a href="{ $url }" { $attrs }>ewch i'n gwefan gymorth</a>.
+
 faq-question-use-cases-question-2 = Pryd ddylwn i ddefnyddio e-bost arallenw { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Gallwch ddefnyddio arallenwau { -brand-name-relay } yn y rhan fwyaf o leoedd y byddwch chi'n defnyddio'ch cyfeiriad e-bost arferol. Rydym yn argymell eu defnyddio wrth gofrestru ar gyfer e-byst marchnata neu wybodaeth lle efallai yr hoffech reoli a fyddwch yn derbyn e-byst yn y dyfodol ai peidio.
 faq-question-use-cases-answer-part2-2 = Nid ydym yn argymell defnyddio arallenwau pan fydd angen i'ch hunaniaeth gael ei wirio neu ar gyfer e-byst pwysig iawn neu'r rheini lle mae'n rhaid i chi dderbyn atodiadau. Er enghraifft, rydych chi am rannu'ch cyfeiriad e-bost go iawn â'ch banc, eich meddyg a'ch cyfreithiwr, yn ogystal ag wrth dderbyn tocynnau cyngerdd neu bas byrddio awyren.
+
 faq-question-2-question-2 = Pam nad yw'r wefan yn derbyn fy arallenw { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Efallai na fydd rhai gwefannau yn derbyn cyfeiriad e-bost sy'n cynnwys is-barth (@subdomain.mozmail.com) ac mae eraill wedi rhoi'r gorau i dderbyn unrhyw gyfeiriad ac eithrio'r rhai o gyfrifon Gmail, Hotmail neu Yahoo.
+
 faq-question-1-question = Beth am sbam?
 faq-question-1-answer-a-2 = Er nad yw { -brand-name-relay } yn hidlo am sbam, mae ein partner e-bost Amazon SES yn rhwystro sbam a meddalwedd faleisus. Os yw { -brand-name-relay } yn anfon negeseuon nad ydych chi eu heisiau, gallwch ddiweddaru eich gosodiadau { -brand-name-relay } i rwystro negeseuon o'r arallenw sy'n eu hanfon ymlaen.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Os ydych chi'n gweld problem ehangach o e-bost diofyn o'ch holl arallenwau, os gwelwch yn dda <a href="{ $url }" { $attrs }>rhowch wybod i ni</a> fel y gallwn ystyried addasu trothwyon sbam SES ar gyfer y gwasanaeth hwn. Os ydych chi'n adrodd ar rain fel sbam, bydd eich darparwr e-bost yn gweld { -brand-name-relay } fel ffynhonnell y sbam, nid yr anfonwr gwreiddiol.
+
 faq-question-availability-question = Lle mae { -brand-name-relay } ar gael?
 faq-question-availability-answer = Mae { -brand-name-relay } ar gael am ddim yn y mwyafrif o wledydd. Mae { -brand-name-relay-premium } ar gael yn yr Unol Daleithiau, yr Almaen, y Deyrnas Unedig, Canada, Singapore, Malaysia, Seland Newydd, Ffrainc, Gwlad Belg, Awstria, Sbaen, yr Eidal, y Swistir, yr Iseldiroedd ac Iwerddon.
 faq-question-availability-answer-v2 = Mae { -brand-name-relay } ar gael am ddim yn y mwyafrif o wledydd. Mae { -brand-name-relay-premium } ar gael yn yr Unol Daleithiau, yr Almaen, y Deyrnas Unedig, Canada, Singapore, Malaysia, Seland Newydd, Ffrainc, Gwlad Belg, Awstria, Sbaen, yr Eidal, y Swistir, yr Iseldiroedd ac Iwerddon.
 faq-question-availability-answer-v3 = Mae { -brand-name-relay } am ddim ar gael yn y rhan fwyaf o wledydd. Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
+
 faq-question-4-question-2 = Ydw i'n gallu ymateb i negeseuon gan ddefnyddio fy arallenw { -brand-name-relay }?
 faq-question-4-answer-v4 = Gall defnyddwyr { -brand-name-relay-premium } ymateb i e-bost a anfonwyd ymlaen cyn pen 3 mis ar ôl derbyn yr e-bost. Os ychwanegwch CC neu BCC pan fyddwch yn ateb e-bost, bydd eich cyfeiriad e-bost gwreiddiol yn weladwy i'r derbynwyr a'r rhai ar yr e-bost. Os nad ydych am i'ch cyfeiriad e-bost gwreiddiol gael ei ddatgelu, peidiwch ag ychwanegu CC neu BCC wrth ateb.
+
 faq-question-subdomain-characters-question = Pa nodau y gallaf eu defnyddio i greu is-barth?
 faq-question-subdomain-characters-answer-v2 = Dim ond llythrennau bach, rhifau a chysylltnodau y gallwch eu defnyddio i greu is-barth.
+
 faq-question-browser-support-question = A allaf ddefnyddio { -brand-name-relay } ar borwyr eraill neu fy nyfais symudol?
 faq-question-browser-support-answer-2 = Gallwch, gallwch gynhyrchu arallenwau { -brand-name-relay } ar borwyr neu ddyfeisiau symudol eraill dim ond trwy fewngofnodi i'ch bwrdd gwaith { -brand-name-relay }.
+
 faq-question-longevity-question = Beth fydd yn digwydd os bydd Mozilla'n cau gwasanaeth { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Byddwn yn rhoi rhybudd ymlaen llaw i chi bod angen i chi newid cyfeiriad e-bost unrhyw gyfrifon sy'n defnyddio arallenwau { -brand-name-relay }.
+
 faq-question-mozmail-question-2 = Pam mae fy arallenwau wedi dechrau ddefnyddio'r parth “mozmail.com?”
 faq-question-mozmail-answer-2 = Rydym wedi newid o “relay.firefox.com” i “mozmail.com” er mwyn ei gwneud hi'n bosibl cael parth e-bost personol, fel alias@yourdomain.mozmail.com. Mae parthau e-bost personol, sydd ar gael i danysgrifwyr { -brand-name-relay-premium }, hefyd yn gwneud hi'n haws cynhyrchu e-bost arallenwau sy'n hawdd eu cofio nag arallenwau.
+
 faq-question-attachments-question = A fydd { -brand-name-firefox-relay } yn anfon ymlaen e-byst gydag atodiadau?
 faq-question-attachments-answer-v2 = Rydym nawr yn cefnogi anfon atodiadau. Fodd bynnag, mae yna derfyn o { email-size-limit } ar anfon e-bost gan ddefnyddio { -brand-name-relay }. Ni fydd unrhyw e-byst sy'n fwy na { email-size-limit } yn cael eu hanfon ymlaen.
+
 faq-question-unsubscribe-domain-question-2 = Beth sy'n digwydd i'm is-barth personol os byddaf yn dad-danysgrifio o { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Os ydych chi'n israddio o { -brand-name-relay-premium }, byddwch chi'n dal i dderbyn e-byst sy'n cael eu hanfon ymlaen trwy'ch e-bost arallenw personol, ond ni fyddwch yn gallu creu arallenwau newydd gan ddefnyddio'r is-barth hwnnw mwyach. Os oes gennych fwy na phum arallenw i gyd, ni fydd modd i chi greu rhagor. Byddwch hefyd yn colli'r gallu i ateb i negeseuon a fydd yn cael eu hanfon ymlaen. Gallwch ail-danysgrifio i { -brand-name-relay-premium } ac adennill mynediad i'r nodweddion hyn.
+
 faq-question-8-question = Pa ddata mae { -brand-name-firefox-relay } yn ei gasglu?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Gallwch ddysgu rhagor am y data y mae { -brand-name-firefox-relay } yn ei gasglu trwy edrych ar ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd </a>. Rydych hefyd yn gallu rhannu data am y labeli a'r wefan rydych chi'n eu defnyddio ar gyfer eich arallenwau e-bost fel y gallwn ddarparu'r gwasanaeth hwnnw i chi a'i wella i chi.
 faq-question-8-answer-3-html = Mae { -brand-name-firefox-relay } yn casglu'r gwefannau lle rydych chi wedi defnyddio'ch arallenwau e-bost, ac yn labelu'ch arallenwau gyda'r gwefannau hynny fel y gallwch chi eu hadnabod yn hawdd. Gallwch newid hyn ar eich tudalen Gosodiadau, o dan Preifatrwydd. Ond sylwch, mae diffodd y gosodiad hwn yn golygu na fyddwch chi'n gallu gweld lle rydych chi wedi defnyddio pob arallenw, ac ni fydd enwau eich cyfrif yn cydweddu rhwng dyfeisiau bellach. Gallwch ddysgu ragor am y data y mae { -brand-name-firefox-relay } yn ei gasglu yn ein <a href="{ $url }" { $attrs }>Hysbysiad Preifatrwydd</a>.
+
 faq-question-email-storage-question = A yw { -brand-name-relay } yn cadw fy e-byst?
 faq-question-email-storage-answer = O dan yr amgylchiad prin y mae'r gwasanaeth wedi torri, byddwn efallai'n cadw eich e-byst dros dro nes ein bod yn gallu eu hanfon. Byddwn ni byth yn cadw'ch e-byst am fwy na thridiau.
+
 faq-question-acceptable-use-question = Beth yw'r defnydd derbyniol o { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -595,10 +598,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Cyfyngu ar gyfraddau'r
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Darllenwch ein <a href="{ $url }" { $attrs }>Telerau Gwasanaeth</a> am ragor o wybodaeth.
+
 faq-question-promotional-email-blocking-question = Beth yw rhwystro e-byst hyrwyddo?
 faq-question-promotional-email-blocking-answer = Gall tanysgrifwyr { -brand-name-relay-premium } alluogi rhwystro e-byst hyrwyddol. Bydd y nodwedd hon yn anfon e-byst pwysig atoch, fel derbynebau, ailosod cyfrineiriau a chadarnhad tra'n dal i rwystro negeseuon marchnata. Mae yna ychydig o risg y gall negeseuon pwysig gael eu rhwystro o hyd, felly rydyn yn argymell nad ydych yn defnyddio'r nodwedd hon ar gyfer llefydd pwysig iawn fel eich banc. Os yw e-bost yn cael ei rwystro, nid oes modd ei adennill.
 faq-question-detect-promotional-question = Sut mae { -brand-name-relay } yn canfod a yw e-bost yn Hyrwyddol ai peidio?
 faq-question-detect-promotional-answer = Mae llawer o e-byst yn cael eu hanfon gyda “phennyn” metadata i nodi eu bod yn dod o offer awtomataidd ar sail rhestr. Mae { -brand-name-firefox-relay } yn canfod y data pennyn hwn er mwyn rhwystro'r e-byst hyn.
+
 faq-question-disable-trackerremoval-question = A allaf roi'r gorau i ddileu tracwyr e-bost?
 faq-question-disable-trackerremoval-answer = Gallwch. Os ydych chi'n cael trafferth gydag e-byst yn edrych fel eu bod wedi torri neu os hoffech chi roi'r gorau i gael gwared ar dracwyr, gallwch chi analluogi'r nodwedd o fewn y gosodiadau.
 faq-question-bulk-trackerremoval-question = A allaf dynnu tracwyr o ddim ond rhai o fy arallenwau e-bost?
@@ -642,14 +647,18 @@ profile-label-reset = Ailosod
 profile-label-apply = Gosod
 profile-label-skip = Hepgor
 profile-label-continue = Parhau
+
 # This string is followed by an email address
 profile-label-forward-emails = Anfon e-byst ymlaen at:
+
 # This string is followed by date
 profile-label-first-emailed = E-bostiwyd gyntaf:
+
 # This string is followed by date:
 profile-label-created = Crëwyd:
 profile-label-details-show = Dangos Manylion
 profile-label-details-hide = Cuddio Manylion
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = wedi'i anfon ymlaen
 profile-label-blocking = yn rhwystro
@@ -728,7 +737,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Cau
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Cau
+
 banner-bounced-headline = Nid yw { -brand-name-relay } wedi gallu anfon eich e-bost.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -776,30 +787,36 @@ banner-pack-upgrade-copy-2 = Gydag arallenwau e-bost dirifedi a'ch parth e-bost 
 footer-banner-premium-promo-headine = Uwchraddiwch i <strong>{ -brand-name-firefox-relay-premium }</strong> i ddiogelu eich ffôn <i>ac</i> e-bost
 footer-banner-premium-promo-body = Cael rif ffôn cudd, arallenwau e-bost diderfyn, a chyfeiriadau e-bost cyfaddas ar gyfer creu arallenwau'n gyflym.
 banner-pack-upgrade-cta = Uwchraddiwch Nawr
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Diweddariad Hysbysiad Preifatrwydd
 banner-label-privacy-notice-update-body = Er mwyn gwella dibynadwyedd { -brand-name-firefox-relay } os nad ydym yn gallu dosbarthu e-bost, byddwn yn cadw'r e-bost dros dro ar ein gweinyddwyr nes iddo gael ei anfon. Fyddwn ni byth yn ei gadw am fwy na thridiau.
 banner-label-privacy-notice-update-cta = Gweld yr Hysbysiad Preifatrwydd
+
 # Data Notification Banner:
 banner-label-data-notification-header = Yn dod cyn hir i { -brand-name-relay }
 banner-label-data-notification-cta = Mynd i'r Gosodiadau
 banner-label-data-notification-header-v2 = Galluogi nodweddion newydd
 banner-label-data-notification-body-cta = Dysgu Rhagor
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Diogelu eich preifatrwydd, achub y rhyngrwyd
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Diogelwch eich preifatrwydd wrth ymuno â'r ymgyrch am well rhyngrwyd, i gyd am { $monthly_price }
 banner-upgrade-loyalist-cta = Cael rhagor o ddiogelwch
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm diderfyn am ein pris agoriadol o fis i fis.
 banner-offer-end-cta = Uwchraddiwch nawr
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Gallwch greu unrhyw gyfeiriad @{ $subdomain }
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Atal sbam, galwadau robotaidd a negeseuon testun sbamllyd
 banner-ab-premium-promo-stop-spam-body = Mae { -brand-name-relay-premium } yn rhoi rhif ffôn cudd i chi i ddiogelu eich rhif go iawn - ynghyd ag arallenwau e-bost diderfyn.
@@ -927,6 +944,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Crëwch e-byst aralle
 multi-part-onboarding-premium-welcome-button-start = Cychwyn Arni
 multi-part-onboarding-premium-get-subdomain = Cael is-parth personol
 multi-part-onboarding-reply-headline = Ateb i'ch e-byst
+
 multi-part-onboarding-premium-welcome-description-2 = Dim mwy o derfyn pum arallenw: gallwch nawr gynhyrchu cymaint o arallenwau personol neu hap ag sydd eu hangen arnoch. Ar y bwrdd gwaith, gallwch ddefnyddio'r ychwanegyn { -brand-name-relay } i'w creu yn ôl yr angen.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -999,6 +1017,8 @@ trackerreport-load-error = Bu gwall wrth gynhyrchu eich adroddiad tynnu traciwr.
 
 modal-rename-alias-saved = Label wedi’i gadw!
 modal-delete-headline-2 = Dileu'r arallenw hwn yn barhaol?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1015,6 +1035,7 @@ modal-delete-confirmation-2 = Ydw, rwyf am ddileu'r arallenw hwn.
 modal-domain-register-good-news = Newyddion Da!
 modal-domain-register-warning-reminder-2 = Cofiwch, dim ond un is-barth y gallwch chi ei gofrestru. Fyddwch chi ddim yn gallu ei newid yn nes ymlaen.
 modal-domain-register-button-2 = Cofrestru Is-barth
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = Mae { $subdomain } ar gael!
@@ -1022,6 +1043,7 @@ modal-domain-register-available = Mae { $subdomain } ar gael!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain>Mae<domain>. { $domain }</domain> ar gael!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
@@ -1029,6 +1051,7 @@ modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subd
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ydw, rydw i eisiau cofrestru <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Llwyddiant!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1153,6 +1176,7 @@ toast-button-close-label = Cau'r hysbysiad
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Rydych wedi defnyddio pob un o'r { $free_tier_limit } arallenwau e-bost sydd wedi'u cynnwys yn eich cyfrif rhad ac am ddim. Gallwch ailddefnyddio arallenw sy'n bodoli eisoes, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r dewis mwyaf diogel.
 api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn cynnwys is-barthau personol ar gyfer arallenwau. I greu arallenwau personol, uwchraddiwch i { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.

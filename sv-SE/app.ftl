@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Öppnas i en ny flik)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = E-postalias
 nav-phone-dashboard = Telefonalias
 label-open-menu = Öppna meny
 avatar-tooltip = Profil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Vanliga frågor
 nav-profile-sign-in = Logga in
@@ -55,6 +56,7 @@ nav-support = Hjälp och support
 nav-sign-out = Logga ut
 nav-contact = Kontakta oss
 nav-menu-mobile = Meny för mobila enheter
+
 fx-desktop-2 = { -brand-name-firefox } för datorer
 fx-mobile-2 = { -brand-name-firefox } för mobil
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Historik
 whatsnew-footer-clear-all-label = Rensa allt
 whatsnew-footer-back-label = Tillbaka
 whatsnew-footer-learn-more-label = Läs mer
+
 whatsnew-empty-message = Kom gärna tillbaka hit – vi arbetar ständigt med nya fantastiska funktioner för att göra { -brand-name-relay } ännu bättre.
+
 whatsnew-feature-size-limit-heading = Ökning av bilagans storlek
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kan nu v
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kan nu vidarebefordra e-postmeddelanden upp till { email-size-limit }, inklusive bilagor.
+
 whatsnew-feature-sign-back-in-heading = Logga in igen med dina alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = För att skapa ett nytt alias när du blir ombedd att ange din e-post, öppna…
 whatsnew-feature-sign-back-in-description = För att logga in med ett tidigare använt alias, öppna snabbmenyn där webbplatsen ber om din e-post. Du kommer att kunna välja alias och fylla i e-postfältet automatiskt.
+
 whatsnew-feature-forward-some-heading = Blockering av reklammeddelanden
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } låter dig blockera endast reklammeddelanden…
 whatsnew-feature-forward-some-description = Med { -brand-name-relay-premium } kan du endast blockera reklammeddelanden som skickas till ett alias. Du kommer att få e-postmeddelanden som kvitton men inte marknadsföringsmeddelanden.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases are now masks
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } tillgängligt i Sverige
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } tillgängligt i Finland
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Uppgradera nu och få ännu mer skydd…
 whatsnew-feature-premium-expansion-description = Uppgradera nu och få ännu mer skydd — skapa obegränsade e-postalias, få en anpassad e-postdomän och mer!
+
 whatsnew-feature-tracker-removal-heading = Introducerar borttagning av e-postspårare
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = Nu kan { -brand-name-relay } ta bort 
 # Deprecated
 whatsnew-feature-tracker-removal-description = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer.
 whatsnew-feature-tracker-removal-description-2 = Nu kan { -brand-name-relay } ta bort vanliga e-postspårare från e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för annonsörer. Slå på det i "Inställningar".
+
 whatsnew-feature-offer-countdown-heading = Vårt intropriserbjudande upphör snart!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Skaffa { -brand-name-relay-premium } 
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt månatliga introduktionspris.
 whatsnew-feature-offer-countdown-cta = Uppgradera nu
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } är nu tillgänglig i { -brand-name-firefox } lösenordshanterare
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -176,13 +187,13 @@ hero-image-copy-control-html = Nu har du <em>kontroll över</em> vad som kommer 
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Skydda din riktiga e-postadress för att hjälpa dig att kontrollera din inkorg
 landing-hero-body-2 =
     { -brand-name-firefox-relay } e-postalias skyddar din riktiga e-postadress från allmän vy och vidarebefordrar automatiskt e-postmeddelanden till din riktiga inkorg.
     Nu kan du få de e-postmeddelanden du vill ha i din inkorg. Registrera dig med ditt { -brand-name-firefox-account } för att komma igång.
+
 landing-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
 landing-offer-end-hero-cta = Uppgradera nu
 # Variables:
@@ -233,6 +244,7 @@ landing-pricing-free-cta = Hämta { -brand-name-relay }
 landing-pricing-free-ribbon = Tillgänglig nu!
 # Deprecated
 landing-pricing-free-feature-free = Gratis
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -254,10 +266,12 @@ landing-pricing-premium-feature-4 = Svara på vidarebefordrade mejl
 landing-pricing-premium-feature-5 = Blockera reklammeddelanden
 # Deprecated
 landing-pricing-premium-feature-6 = Borttagning av e-postspårare
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } är för närvarande inte tillgängligt i ditt land. Vänligen dela din e-postadress för att bli meddelad så snart det är tillgängligt.
 # Deprecated
 landing-pricing-waitlist-cta = Ställ dig i väntelistan
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,6 +284,7 @@ landing-pricing-offer-end-cta = Uppgradera nu
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -280,12 +295,7 @@ plan-matrix-bundle-offer-heading = Endast en begränsad tid: { -brand-name-relay
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Endast en begränsad tid: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/månad*
 plan-matrix-bundle-offer-content = Prova { -brand-name-firefox-relay } e-postalias och börja skydda din inkorg. Uppgradera sedan till { -brand-name-relay-premium } för ännu mer flexibilitet och anpassad kontroll.
-plan-matrix-heading-features = Funktioner
-plan-matrix-heading-plan-free = Begränsat e-postskydd
-plan-matrix-heading-plan-premium = E-postskydd
-plan-matrix-heading-plan-phones = E-post och telefonskydd
 plan-matrix-heading-plan-bundle = Lägg till VPN-skydd
-plan-matrix-heading-plan-bundle-alt = Skaffa { -brand-name-relay-premium } och { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-postalias
 plan-matrix-heading-feature-browser-extension = Webbläsartillägg
@@ -295,7 +305,6 @@ plan-matrix-heading-feature-email-subdomain = Underdomän för e-post
 plan-matrix-heading-feature-email-reply = Svara på vidarebefordrade mejl
 plan-matrix-heading-feature-phone-mask = Telefonnummeralias
 plan-matrix-heading-feature-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Obegränsade e-postalias
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } e-postalias
@@ -306,15 +315,9 @@ plan-matrix-feature-list-email-subdomain = Underdomän för e-post
 plan-matrix-feature-list-email-reply = Svara på vidarebefordrade mejl
 plan-matrix-feature-list-phone-mask = Telefonnummeralias
 plan-matrix-feature-list-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Pris
-plan-matrix-feature-count-unlimited = Obegränsat
-plan-matrix-feature-included = Ingår
-plan-matrix-feature-not-included = Ingår ej
-plan-matrix-price-free = Gratis
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/månad
-plan-matrix-price-period-yearly = Årlig
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Fakturering årligen
 plan-matrix-price-period-monthly = Månadsvis
@@ -322,7 +325,6 @@ plan-matrix-price-period-monthly = Månadsvis
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Spara { $percentage }% på ordinarie VPN-pris
 plan-matrix-pick = Registrera dig
-plan-matrix-join-waitlist = Ställ dig i väntelistan
 
 ## Use Cases
 
@@ -349,9 +351,11 @@ landing-use-cases-gaming = Spel
 landing-use-cases-gaming-body-2 =
     Gillar du onlinespel, men är du orolig för att andra spelare eller mobbare ska lära dig vem du är genom din gamertagg och e-postadress?
     Använd ett e-postalias för att skapa ytterligare ett lager av skydd mellan din onlineidentitet och de spel du spelar online.
+
 landing-use-cases-shopping-hero-heading = Shopping med e-postalias
 landing-use-cases-shopping-hero-content1 = Vill du köpa något online och inte känner till eller litar helt på butiken?
 landing-use-cases-shopping-hero-content2 = Använd ett e-postalias när du handlar online. Få bekräftelsen skickad till din riktiga e-post och stäng sedan enkelt av alias när som helst senare.
+
 landing-use-cases-on-the-go = På språng
 landing-use-cases-on-the-go-heading = På språng med { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Gör omedelbart ett anpassat e-postalias var som helst och var du än går!
@@ -361,35 +365,11 @@ landing-use-cases-on-the-go-receipt-heading = Få e-postkvitton
 landing-use-cases-on-the-go-receipt-body = Dela ett anpassat e-postalias för shoppingkvitton i butik utan att dela din riktiga e-postadress
 landing-use-cases-on-the-go-phone-heading = Använd på din telefon
 landing-use-cases-on-the-go-phone-body = Oavsett var du är, skapa ett anpassat e-postalias på några sekunder för allt du vill göra
+
 landing-use-cases-signups = Registreringar
 landing-use-cases-signups-hero-heading = Bekymmersfria registreringar
 landing-use-cases-signups-hero-content1 = Vill du starta en ny prenumeration, svara på en inbjudan eller få en fyndkampanjkod utan att skräpposten svämmar över din inkorg?
 landing-use-cases-signups-hero-content2 = Innan du slutför nästa registrering, använd ett e-postalias istället för din riktiga för att skydda din information och behålla kontrollen över din inkorg
-
-## Landing FAQ Section
-
-landing-faq-headline = De vanligaste frågorna om { -brand-name-firefox-relay }
-landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Tillägg
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Källa: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = av 5 ({ $review_count } recensioner)
-landing-reviews-show-next-button = visa nästa recension
-landing-reviews-show-previous-button = visa föregående recension
-landing-review-anonymous-user = { -brand-name-firefox } användare { $user_id }
-landing-review-user-one-review = Jag uppskattar verkligen { -brand-name-mozilla }-teamet för att de är så kreativa och förenklar anonymiseringen av min e-postadress. Det här är ett bra tillägg, jag rekommenderar det starkt till integritetsmedvetna!
-landing-review-user-two-review = Enkelt verktyg för att bli av med eller undvika att spamma ditt e-post-ID.
-landing-review-user-three-review = Älskar detta tillägg! Mycket enkel men kraftfull och integrationen med webbläsaren är underbar.
-landing-review-user-four-review-list-1 = Ger sinnesfrid när du surfar på internet.
-landing-review-user-four-review-list-2 = Skyddar din identitet från spårare genom generering av alias där man av olika anledningar inte vill dela den riktiga e-postadressen.
-landing-review-user-four-review-list-3 = E-postens inkorgsdata är säkra i händerna på { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } gör underverk, prova den!!!
 
 ## Premium promo page
 
@@ -401,14 +381,17 @@ premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får 
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
 premium-promo-hero-cta = Uppgradera nu
+
 premium-promo-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 premium-promo-offer-end-hero-cta = Uppgradera nu
+
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
+
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
@@ -424,6 +407,7 @@ premium-promo-perks-perk-block-promotionals-headline = Blockera e-postreklam
 premium-promo-perks-perk-block-promotionals-body = Med { -brand-name-relay-premium }, kan du blockera e-postreklam-meddelanden från att nå din inkorg samtidigt som du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
 premium-promo-perks-perk-tracker-blocking-headline = Ta bort e-postspårare
 premium-promo-perks-perk-tracker-blocking-body = Nu kan { -brand-name-relay } hjälpa dig att stoppa e-postspårning – dina e-post alias tar bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för spårare och annonsörer.
+
 premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
@@ -431,7 +415,9 @@ premium-promo-use-cases-social-networks-heading = Sociala nätverk
 premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-postalias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
 premium-promo-use-cases-gaming-heading = Spel
 premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
+
 premium-promo-pricing-free-price = Din nuvarande gratisplan
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
@@ -518,13 +504,16 @@ setting-tracker-removal-warning-2 = Viktigt: Om du tar bort spårare kan din e-p
 ## FAQ Page
 
 faq-headline = Vanliga frågor
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Vad är { -brand-name-relay } e-postalias?
 faq-question-what-is-answer-2 = E-postalias är maskerade e-postadresser som vidarebefordrar meddelanden till din riktiga e-postadress. Dessa alias tillåter dig att dela en adress med tredje part som kommer att maskera din riktiga e-postadress och vidarebefordra meddelanden till den.
+
 faq-question-missing-emails-question-2 = Jag får inga meddelanden från mina e-postalias
 faq-question-missing-emails-answer-a-2 = Det finns några anledningar till att du inte får e-postmeddelanden som vidarebefordras via dina alias. Dessa skäl inkluderar:
 faq-question-missing-emails-answer-reason-spam = Meddelanden kommer till spam
@@ -539,46 +528,60 @@ faq-question-missing-emails-answer-b-html = Om du är en { -brand-name-relay-pre
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Om du kämpar med något av dessa problem, <a href="{ $url }" { $attrs }>besök vår supportwebbplats</a>.
+
 faq-question-use-cases-question-2 = När ska jag använda { -brand-name-relay } e-postalias?
 faq-question-use-cases-answer-part1-2 = Du kan använda { -brand-name-relay } e-postalias på de flesta platser där du använder din vanliga e-postadress. Vi rekommenderar att du använder de när du registrerar dig för marknadsförings-/informationsmejl där du kanske vill kontrollera om du får e-postmeddelanden i framtiden eller inte.
 faq-question-use-cases-answer-part2-2 = Vi rekommenderar inte att du använder alias när du behöver din identitet verifierad eller för mycket viktiga e-postmeddelanden eller de där du måste få bilagor. Till exempel ska du dela din riktiga e-postadress med din bank, din läkare och din advokat, såväl som när du tar emot konsert- eller flygbiljetter.
+
 faq-question-2-question-2 = Varför accepterar inte en webbplats mitt { -brand-name-relay } e-postalias?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Vissa webbplatser kanske inte accepterar en e-postadress som innehåller en underdomän (@subdomain.mozmail.com) och andra har slutat acceptera alla adresser förutom de från Gmail-, Hotmail- eller Yahoo-konton.
+
 faq-question-1-question = Hur är det med spam?
 faq-question-1-answer-a-2 = Även om { -brand-name-relay } inte filtrerar bort skräppost, blockerar vår e-postpartner Amazon SES skräppost och skadlig kod. Om { -brand-name-relay } vidarebefordrar meddelanden du inte vill ha kan du uppdatera inställningarna för { -brand-name-relay } för att blockera meddelanden från alias som vidarebefordrar dem.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Om du ser ett större problem med oönskad e-post från alla dina alias, <a href="{ $url }" { $attrs }>rapportera detta till oss</a> så att vi kan överväga att justera SES-tröskelvärden för denna service. Om du rapporterar dessa som skräppost, kommer din e-postleverantör att se { -brand-name-relay } som källan till skräppost, inte den ursprungliga avsändaren.
+
 faq-question-availability-question = Var är { -brand-name-relay } tillgängligt?
 faq-question-availability-answer = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Frankrike, Belgien, Österrike, Spanien, Italien, Schweiz, Nederländerna och Irland.
 faq-question-availability-answer-v2 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i USA, Tyskland, Storbritannien, Kanada, Singapore, Malaysia, Nya Zeeland, Finland, Frankrike, Belgien, Österrike, Spanien, Italien, Sverige, Schweiz, Nederländerna, och Irland.
 faq-question-availability-answer-v3 = Gratis { -brand-name-relay } är tillgängligt i de flesta länder. { -brand-name-relay-premium } är tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
+
 faq-question-4-question-2 = Kan jag svara på meddelanden med mitt { -brand-name-relay } e-postalias?
 faq-question-4-answer-v4 = Användare av { -brand-name-relay-premium } kan svara på ett vidarebefordrat e-postmeddelande inom 3 månader efter att de mottagit e-postmeddelandet. Om du lägger till en kopia eller dold kopia när du svarar tillbaka på ett e-postmeddelande, kommer din ursprungliga e-postadress att exponeras för mottagaren och de som kopieras i e-postmeddelandet. Om du inte vill att din ursprungliga e-postadress ska visas ska du inte lägga till kopior eller dolda kopior när du svarar.
+
 faq-question-subdomain-characters-question = Vilka tecken kan jag använda för att skapa en underdomän?
 faq-question-subdomain-characters-answer-v2 = Du kan bara använda små bokstäver ur engelska alfabetet, siffror och bindestreck för att skapa en underdomän.
+
 faq-question-browser-support-question = Kan jag använda { -brand-name-relay } i andra webbläsare eller på min mobila enhet?
 faq-question-browser-support-answer-2 = Ja, du kan skapa alias för { -brand-name-relay } i andra webbläsare eller mobila enheter genom att logga in på din { -brand-name-relay } översikt.
+
 faq-question-longevity-question = Vad händer om Mozilla stänger av tjänsten { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Vi kommer att meddela dig i förväg att du måste ändra e-postadressen för alla konton som använder { -brand-name-relay } e-postalias.
+
 faq-question-mozmail-question-2 = Varför började mina e-postalias använda domänen "mozmail.com?"
 faq-question-mozmail-answer-2 = Vi bytte från “relay.firefox.com” till “mozmail.com” för att göra det möjligt att få en anpassad e-postunderdomän, till exempel alias@dindomän.mozmail.com. Anpassade e-postunderdomäner, tillgängliga för { -brand-name-relay-premium }-abonnenter, låter dig skapa e-postalias som är enkla att komma ihåg.
+
 faq-question-attachments-question = Kommer { -brand-name-firefox-relay } att vidarebefordra e-postmeddelanden med bilagor?
 faq-question-attachments-answer-v2 = Vi stöder nu vidarebefordran av bilagor. Det finns dock en gräns { email-size-limit } för vidarebefordran av e-post med { -brand-name-relay }. All e-post som är större än { email-size-limit } vidarebefordras inte.
+
 faq-question-unsubscribe-domain-question-2 = Vad händer med min anpassade underdomän om jag avslutar prenumerationen på { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Om du nedgraderar från { -brand-name-relay-premium } får du fortfarande e-postmeddelanden som vidarebefordras via dina anpassade e-postalias, men du kan inte längre skapa nya alias med den underdomänen. Om du har mer än fem alias totalt kommer du inte att kunna skapa fler. Du förlorar också möjligheten att svara på vidarebefordrade meddelanden. Du kan återuppta prenumerationen på { -brand-name-relay-premium } och återfå åtkomst till dessa funktioner.
+
 faq-question-8-question = Vilka data samlar { -brand-name-firefox-relay } in?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Du kan läsa mer om data som { -brand-name-firefox-relay } samlar in genom att titta på vår <a href="{ $url }" { $attrs }>sekretesspolicy</a>. Du kan också eventuellt dela data om etiketterna och webbplatsen du använder för dina e-postalias så att vi kan erbjuda dig den tjänsten och förbättra den åt dig.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } samlar in de webbplatser där du har använt dina e-postalias och märker dina alias med dessa webbplatser så att du enkelt kan identifiera dem. Du kan välja bort detta på sidan Inställningar, under Integritet. Men observera att om du stänger av den inställningen kommer du inte att kunna se var du har använt varje alias, och dina kontonamn kommer inte längre att synkroniseras mellan enheter. Du kan läsa mer om den data som { -brand-name-firefox-relay } samlar in i vårt <a href="{ $url }" { $attrs }>sekretessmeddelande</a>.
+
 faq-question-email-storage-question = Lagrar { -brand-name-relay } mina e-postmeddelanden?
 faq-question-email-storage-answer = Under de sällsynta omständigheter då tjänsten är nere, kan vi tillfälligt lagra dina e-postmeddelanden tills vi kan skicka de. Vi kommer aldrig att lagra dina e-postmeddelanden längre än tre dagar.
+
 faq-question-acceptable-use-question = Vilka är de acceptabla användningsområdena för { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -589,10 +592,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Begränsa antalet alia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Läs våra <a href="{ $url }" { $attrs }>användarvillkor</a> för mer information.
+
 faq-question-promotional-email-blocking-question = Vad är e-postblockering för reklam?
 faq-question-promotional-email-blocking-answer = Prenumeranter på { -brand-name-relay-premium } kan aktivera e-postblockering. Den här funktionen vidarebefordrar viktiga e-postmeddelanden till dig, såsom kvitton, lösenordsåterställning och bekräftelser samtidigt som marknadsföringsmeddelanden blockeras. Det finns en liten risk att ett viktigt meddelande fortfarande kan blockeras, så vi rekommenderar att du inte använder den här funktionen för mycket viktiga platser som din bank. Om ett e-postmeddelande är blockerat kan det inte återställas.
 faq-question-detect-promotional-question = Hur upptäcker { -brand-name-relay } om ett e-postmeddelande är reklam eller inte?
 faq-question-detect-promotional-answer = Många e-postmeddelanden skickas med "header"-metadata för att indikera att de kommer från listbaserade automatiserade verktyg. { -brand-name-firefox-relay } upptäcker denna rubrikdata så att den kan blockera dessa e-postmeddelanden.
+
 faq-question-disable-trackerremoval-question = Kan jag sluta ta bort e-postspårare?
 faq-question-disable-trackerremoval-answer = Ja. Om du har problem med att e-postmeddelanden ser trasiga ut eller vill sluta ta bort spårare kan du inaktivera funktionen i inställningarna.
 faq-question-bulk-trackerremoval-question = Kan jag ta bort spårare endast från några av mina e-postalias?
@@ -636,14 +641,18 @@ profile-label-reset = Återställ
 profile-label-apply = Tillämpa
 profile-label-skip = Hoppa över
 profile-label-continue = Fortsätt
+
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
+
 # This string is followed by date
 profile-label-first-emailed = Första e-posten:
+
 # This string is followed by date:
 profile-label-created = Skapad:
 profile-label-details-show = Visa detaljer
 profile-label-details-hide = Dölj detaljer
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = vidarebefordrar
 profile-label-blocking = blockerar
@@ -722,7 +731,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Stäng
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Ignorera
+
 banner-bounced-headline = { -brand-name-relay } kunde inte leverera din e-post.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -770,30 +781,36 @@ banner-pack-upgrade-copy-2 = Med obegränsade e-postalias och din egen e-postund
 footer-banner-premium-promo-headine = Uppgradera till <strong>{ -brand-name-firefox-relay-premium }</strong> för att skydda din telefon <i>och</i> e-postadress
 footer-banner-premium-promo-body = Få ett telefonnummeralias, obegränsade e-postalias och anpassade e-postadresser för att snabbt skapa alias.
 banner-pack-upgrade-cta = Uppgradera nu
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Uppdatering av sekretesspolicy
 banner-label-privacy-notice-update-body = För att förbättra tillförlitligheten i { -brand-name-firefox-relay } i händelse av att ett e-postmeddelande inte kan levereras, kommer vi tillfälligt att behålla e-postmeddelandet på våra servrar tills det har levererats. Vi kommer aldrig att hålla på det i mer än tre dagar.
 banner-label-privacy-notice-update-cta = Visa sekretesspolicy
+
 # Data Notification Banner:
 banner-label-data-notification-header = Kommer snart till { -brand-name-relay }
 banner-label-data-notification-cta = Gå till inställningar
 banner-label-data-notification-header-v2 = Aktivera nya funktioner
 banner-label-data-notification-body-cta = Läs mer
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Skydda din integritet, rädda internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Skydda din integritet samtidigt som du går med i vårt uppdrag att bygga ett bättre internet, allt för { $monthly_price }
 banner-upgrade-loyalist-cta = Få mer skydd
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Vårt erbjudande till introduktionspris upphör snart!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av obegränsat antal alias till vårt månatliga introduktionspris.
 banner-offer-end-cta = Uppgradera nu
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kan skapa vilken adress som helst @{ $subdomain }
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppa spam, automatiska samtal och skräppost
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } ger dig ett telefonalias för att skydda ditt riktiga nummer — plus obegränsade e-postalias.
@@ -921,6 +938,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Generera obegränsat 
 multi-part-onboarding-premium-welcome-button-start = Kom igång
 multi-part-onboarding-premium-get-subdomain = Skaffa en anpassad underdomän
 multi-part-onboarding-reply-headline = Svara på dina mejl
+
 multi-part-onboarding-premium-welcome-description-2 = Ingen mer gräns för fem alias: du kan nu skapa så många anpassade eller slumpmässiga alias som du behöver. På datorn kan du använda tillägget { -brand-name-relay } för att skapa dem när du behöver.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -985,6 +1003,8 @@ trackerreport-load-error = Det uppstod ett fel när din rapport om borttagning a
 
 modal-rename-alias-saved = Etikett sparad!
 modal-delete-headline-2 = Vill du radera detta e-postalias permanent?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1001,6 +1021,7 @@ modal-delete-confirmation-2 = Ja, jag vill ta bort detta alias.
 modal-domain-register-good-news = Goda nyheter!
 modal-domain-register-warning-reminder-2 = Kom ihåg att du bara kan registrera en underdomän. Du kommer inte att kunna ändra det senare.
 modal-domain-register-button-2 = Registrera underdomän
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } är tillgänglig!
@@ -1008,6 +1029,7 @@ modal-domain-register-available = { $subdomain } är tillgänglig!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är tillgänglig!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
@@ -1015,6 +1037,7 @@ modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdom
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, jag vill registrera <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Lyckades!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1158,6 +1181,7 @@ toast-button-close-label = Stäng meddelande
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Du har använt alla { $free_tier_limit } e-postalias som ingår i ditt gratiskonto. Du kan återanvända ett befintligt alias, men att använda ett unikt alias för varje konto är det säkraste alternativet.
 api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpassade underdomäner för alias. För att skapa anpassade alias, uppgradera till { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" kunde inte skapas. Försök igen med ett annat aliasnamn.

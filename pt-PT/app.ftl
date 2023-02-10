@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilita a criação de máscaras de correio eletrónico que encaminham as suas mensagens para a sua verdadeira caixa de entrada. Utilize-os para proteger as suas contas na Internet contra agentes maliciosos e mensagens indesejadas.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Abre num separador novo)
 
@@ -18,6 +18,7 @@ nav-menu = Menu
 nav-home = Início
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Iniciar sessão
@@ -47,6 +48,7 @@ nav-support = Ajuda e apoio
 nav-sign-out = Terminar sessão
 nav-contact = Contactar-nos
 nav-menu-mobile = Menu para dispositivos móveis
+
 fx-desktop-2 = { -brand-name-firefox } para PC
 fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
@@ -73,6 +75,7 @@ whatsnew-tab-archive-label = Histórico
 whatsnew-footer-clear-all-label = Limpar tudo
 whatsnew-footer-back-label = Voltar
 whatsnew-footer-learn-more-label = Saber mais
+
 whatsnew-feature-offer-countdown-cta = Atualizar agora
 
 ## Bento Menu
@@ -98,7 +101,6 @@ how-it-works-step-1-link = Transferir a extensão { -brand-name-relay } para { -
 how-it-works-step-2-headline-2 = Criar uma nova máscara de e-mail
 
 # Home Page Version A
-
 
 ## Hero Section
 
@@ -126,6 +128,7 @@ landing-pricing-free-cta = Obter o { -brand-name-relay }
 landing-pricing-free-ribbon = Disponível agora!
 # Deprecated
 landing-pricing-free-feature-free = Gratuito
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -145,18 +148,16 @@ landing-pricing-premium-feature-3-subheader = oseuemail@oseudominio.mozmail.com
 landing-pricing-premium-feature-4 = Responder a mensagens reencaminhadas
 # Deprecated
 landing-pricing-premium-feature-5 = Bloquear mensagens promocionais
+
 # Deprecated
 landing-pricing-waitlist-cta = Junte-se à lista de espera
+
 # Deprecated
 landing-pricing-offer-end-warning = Esta promoção expira em breve
 # Deprecated
 landing-pricing-offer-end-cta = Atualizar agora
-plan-matrix-heading-features = Funcionalidades
-plan-matrix-heading-plan-free = Proteção de e-mail limitada
-plan-matrix-heading-plan-premium = Proteção de e-mail
-plan-matrix-heading-plan-phones = Proteção de e-mail e de telefone
+
 plan-matrix-heading-plan-bundle = Adicionar proteção via VPN
-plan-matrix-heading-plan-bundle-alt = Obter o { -brand-name-relay-premium } e a { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Máscaras de e-mail
 plan-matrix-heading-feature-browser-extension = Extensão de navegador
@@ -164,15 +165,9 @@ plan-matrix-heading-feature-email-tracker-removal = Remover rastreadores de e-ma
 plan-matrix-heading-feature-promo-email-blocking = Bloquear mensagens promocionais
 plan-matrix-heading-feature-email-subdomain = Subdomínio de e-mail
 plan-matrix-heading-feature-email-reply = Responder a mensagens reencaminhadas
-plan-matrix-heading-price = Preço
-plan-matrix-feature-count-unlimited = Ilimitado
-plan-matrix-feature-included = Incluído
-plan-matrix-feature-not-included = Não incluído
-plan-matrix-price-free = Gratuito
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mês
-plan-matrix-price-period-yearly = Anualmente
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Faturação anual
 plan-matrix-price-period-monthly = Mensal
@@ -180,7 +175,6 @@ plan-matrix-price-period-monthly = Mensal
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Poupe { $percentage }% no preço habitual da VPN
 plan-matrix-pick = Registar
-plan-matrix-join-waitlist = Junte-se à lista de espera
 
 ## Use Cases
 
@@ -190,50 +184,41 @@ landing-use-cases-social-networks = Redes sociais
 landing-use-cases-offline = Offline
 landing-use-cases-access-content = Aceder a conteúdos
 landing-use-cases-gaming = Jogos
+
 landing-use-cases-shopping-hero-heading = Comprar com máscaras de e-mail
 landing-use-cases-shopping-hero-content1 = Quer comprar algo na Internet e não sabe ou não confia totalmente na loja?
+
 landing-use-cases-on-the-go = Em qualquer lugar
 landing-use-cases-on-the-go-heading = Em qualquer lugar com o { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Crie instantaneamente uma máscara de e-mail personalizada, em qualquer momento e em qualquer lugar onde vá!
 landing-use-cases-on-the-go-connect-heading = Ligue-se em qualquer lugar
 landing-use-cases-on-the-go-receipt-heading = Obtenha comprovativos de e-mail
 landing-use-cases-on-the-go-phone-heading = Utilize no seu telemóvel
+
 landing-use-cases-signups = Registos
 landing-use-cases-signups-hero-heading = Registos sem preocupações
 landing-use-cases-signups-hero-content1 = Deseja iniciar uma nova subscrição, responder a um convite ou obter um código promocional de desconto sem que o lixo eletrónico inunde a sua caixa de entrada?
 landing-use-cases-signups-hero-content2 = Antes de concluir o seu próximo registo, utilize uma máscara de e-mail em vez do seu e-mail real para proteger a sua informação e manter o controlo sobre a sua caixa de entrada.
 
-## Landing FAQ Section
-
-landing-faq-headline = Perguntas principais sobre o { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Extras
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Fonte: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = de 5 ({ $review_count } comentários)
-landing-reviews-show-next-button = mostrar comentário seguinte
-landing-reviews-show-previous-button = mostrar comentário anterior
-landing-review-anonymous-user = utilizador { -brand-name-firefox } { $user_id }
-
 ## Premium promo page
 
 premium-promo-hero-cta = Atualizar agora
+
 premium-promo-offer-end-hero-heading = A nossa oferta de preço de lançamento termina em breve!
 premium-promo-offer-end-hero-cta = Atualizar agora
+
 premium-promo-perks-headline = Porquê atualizar para o { -brand-name-firefox-relay-premium }?
 premium-promo-perks-cta-label = Atualizar agora
 premium-promo-perks-cta-tooltip = Atualizar para o { -brand-name-firefox-relay-premium }
 premium-promo-perks-pill-new = Novo!
 premium-promo-perks-perk-tracker-blocking-headline = Remover rastreadores de e-mail
+
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-social-networks-heading = Redes sociais
 premium-promo-use-cases-gaming-heading = Jogos
+
 premium-promo-pricing-free-price = O seu plano gratuito atual
+
 premium-promo-pricing-offer-end-warning = Esta promoção expira brevemente
 premium-promo-pricing-offer-end-cta = Atualizar agora
 
@@ -273,6 +258,7 @@ setting-tracker-removal-heading = Remover rastreadores de e-mail
 ## FAQ Page
 
 faq-headline = Perguntas frequentes
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -281,66 +267,48 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
-
 ## Mask Promotional Email Blocking (displayed on the profile page)
-
 
 ## Banner Messages (displayed on the profile page)
 
-
 ## Success Messages
-
 
 ## Error Messages
 
-
 ## Tips and tricks at the bottom of the page
-
 
 ## Modal for generating a custom mask
 
-
 ## Popover explaining how custom masks work
 
-
 ## Tip about using custom masks
 
-
 ## Tip about using custom masks
-
 
 ## Onboarding
 
-
 ## Premium Onboarding
-
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
-
 ## Report of trackers removed from an email
-
 
 ## Modals
 
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
-
 ## Evergreen Survey (displayed on the profile page)
-
 
 ## CSAT survey
 
-
 ## VPN Promo Banner
-
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+## Email sent to free users who try to reply
 
 ## Notifications component
-
 
 ## API error messages
 

@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailových masiek, ktoré posielajú vaše správy do vašej skutočnej e-mailovej schránky. Použite ich na ochranu svojich online účtov pred hackermi a nechcenými správami.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Otvorí sa na novej karte)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = E-mailové masky
 nav-phone-dashboard = Masky telefónnych čísiel
 label-open-menu = Otvoriť ponuku
 avatar-tooltip = Profil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Často kladené otázky
 nav-profile-sign-in = Prihlásiť sa
@@ -55,6 +56,7 @@ nav-support = Pomoc a podpora
 nav-sign-out = Odhlásiť sa
 nav-contact = Kontaktujte nás
 nav-menu-mobile = Ponuka pre mobilné zariadenia
+
 fx-desktop-2 = { -brand-name-firefox } pre počítače
 fx-mobile-2 = { -brand-name-firefox } pre mobilné zariadenia
 
@@ -82,7 +84,9 @@ whatsnew-tab-archive-label = História
 whatsnew-footer-clear-all-label = Vymazať všetko
 whatsnew-footer-back-label = Naspäť
 whatsnew-footer-learn-more-label = Ďalšie informácie
+
 whatsnew-empty-message = Nezabudnite sa sem vrátiť – neustále pracujeme na skvelých nových funkciách, aby sme službu { -brand-name-relay } ešte vylepšili.
+
 whatsnew-feature-size-limit-heading = Zväčšenie veľkosti prílohy
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -92,16 +96,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } teraz do
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až { email-size-limit }, vrátane…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } teraz dokáže preposielať e-maily s veľkosťou až { email-size-limit }, vrátane príloh.
+
 whatsnew-feature-sign-back-in-heading = Znova sa prihláste pomocou svojich aliasov
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Ak chcete vytvoriť nový alias, keď sa zobrazí výzva na zadanie e-mailu, otvorte…
 whatsnew-feature-sign-back-in-description = Ak sa chcete prihlásiť pomocou predtým používaného aliasu, v mieste kde stránka požaduje váš e-mail otvorte kontextovú ponuku. Budete si môcť vybrať alias a automaticky vyplniť pole s e-mailom.
+
 whatsnew-feature-forward-some-heading = Blokovanie marketingových e-mailov
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovať len marketingové e-maily odoslané na alias. Budete naďalej dostávať e-maily, ako sú potvrdenia o prečítaní, ale nie marketingové e-maily.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasy sú teraz masky
@@ -113,12 +120,14 @@ whatsnew-feature-alias-to-mask-snippet = Všimli ste si zmenu? Teraz nazývame a
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Všimli ste si zmenu? Teraz nazývame aliasy „masky“, aby sme uľahčili používanie služby { -brand-name-firefox-relay } a otvorili dvere novým funkciám.
+
 whatsnew-feature-premium-expansion-sweden-heading = Služba { -brand-name-relay-premium } je dostupná vo Švédsku
 whatsnew-feature-premium-expansion-finland-heading = Služba { -brand-name-relay-premium } je dostupná vo Fínsku
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Inovujte teraz a získajte ešte väčšiu ochranu…
 whatsnew-feature-premium-expansion-description = Inovujte teraz a získajte ešte väčšiu ochranu – vytvárajte neobmedzené množstvo e-mailových masiek, získajte vlastnú e-mailovú subdoménu a ďalšie!
+
 whatsnew-feature-tracker-removal-heading = Predstavujeme odstraňovanie sledovacích prvkov z e-mailov
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -126,6 +135,7 @@ whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } dokáže odstra
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov.
 whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } dokáže odstraňovať bežné sledovacie prvky z e-mailov, ktoré vám preposielame, čím vám pomôže zostať neviditeľnými pre inzerentov. Funkciu zapnete v časti “Nastavenia”.
+
 whatsnew-feature-offer-countdown-heading = Naša uvádzacia cenová ponuka čoskoro končí!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -136,6 +146,7 @@ whatsnew-feature-offer-countdown-snippet = Získajte { -brand-name-relay-premium
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si neobmedzené maskovanie za našu uvádzaciu mesačnú cenu.
 whatsnew-feature-offer-countdown-cta = Inovovať teraz
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } je teraz k dispozícii v Správcovi hesiel { -brand-name-firefox(case: "gen") }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -177,13 +188,13 @@ hero-image-copy-control-html = Teraz <em>máte pod kontrolou</em>, čo príde do
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Chráňte svoju skutočnú e-mailovú adresu, aby ste mali svoju doručenú poštu pod kontrolou
 landing-hero-body-2 =
     E-mailové masky služby { -brand-name-firefox-relay } chránia vašu skutočnú e-mailovú adresu pred verejným zobrazením a automaticky preposielajú správy do vašej skutočnej e-mailovej schránky.
     Teraz môžete do doručenej pošty dostávať iba e-maily, ktoré chcete. Ak to chcete skúsiť, zaregistrujte sa pomocou svojho { -brand-name-firefox-account(capitalization: "lowercase", case: "gen") }.
+
 landing-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
 landing-offer-end-hero-cta = Inovovať teraz
 # Variables:
@@ -234,6 +245,7 @@ landing-pricing-free-cta = Získajte { -brand-name-relay }
 landing-pricing-free-ribbon = Teraz dostupné!
 # Deprecated
 landing-pricing-free-feature-free = Zadarmo
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -255,10 +267,12 @@ landing-pricing-premium-feature-4 = Možnosť odpovedať na preposlané e-maily
 landing-pricing-premium-feature-5 = Blokovanie marketingových e-mailov
 # Deprecated
 landing-pricing-premium-feature-6 = Odstraňovanie sledovacích prvkov z e-mailov
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } momentálne nie je vo vašej krajine k dispozícii. Zadajte svoj e-mail, aby ste boli informovaní hneď, ako to bude.
 # Deprecated
 landing-pricing-waitlist-cta = Pridať sa na zoznam čakateľov
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -271,6 +285,7 @@ landing-pricing-offer-end-cta = Inovovať teraz
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -283,12 +298,7 @@ plan-matrix-bundle-offer-heading-2 = Len časovo obmedzené: { -brand-name-relay
 plan-matrix-bundle-offer-content =
     Vyskúšajte e-mailové masky služby { -brand-name-firefox-relay } a začnite chrániť svoju e-mailovú schránku.
     Potom inovujte na { -brand-name-relay-premium } pre ešte väčšiu flexibilitu a prispôsobené ovládanie.
-plan-matrix-heading-features = Funkcie
-plan-matrix-heading-plan-free = Obmedzená ochrana e-mailov
-plan-matrix-heading-plan-premium = Ochrana e-mailov
-plan-matrix-heading-plan-phones = Ochrana e-mailu a telefónu
 plan-matrix-heading-plan-bundle = Pridať ochranu VPN
-plan-matrix-heading-plan-bundle-alt = Získajte { -brand-name-relay-premium } a { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mailové masky
 plan-matrix-heading-feature-browser-extension = Rozšírenie do prehliadača
@@ -298,7 +308,6 @@ plan-matrix-heading-feature-email-subdomain = E-mailová subdoména
 plan-matrix-heading-feature-email-reply = Možnosť odpovedať na preposlané e-maily
 plan-matrix-heading-feature-phone-mask = Maska telefónneho čísla
 plan-matrix-heading-feature-vpn = Prístup k <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Neobmedzený počet e-mailových masiek
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = Limit na e-mailové masky: { $mask_limit }
@@ -309,15 +318,9 @@ plan-matrix-feature-list-email-subdomain = E-mailová subdoména
 plan-matrix-feature-list-email-reply = Možnosť odpovedať na preposlané e-maily
 plan-matrix-feature-list-phone-mask = Maska telefónneho čísla
 plan-matrix-feature-list-vpn = Prístup k <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Cena
-plan-matrix-feature-count-unlimited = Neobmedzené
-plan-matrix-feature-included = Zahrnuté
-plan-matrix-feature-not-included = Nie je zahrnuté
-plan-matrix-price-free = Zadarmo
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/mesiac
-plan-matrix-price-period-yearly = Ročne
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Účtovanie ročne
 plan-matrix-price-period-monthly = Mesačne
@@ -325,7 +328,6 @@ plan-matrix-price-period-monthly = Mesačne
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Ušetríte { $percentage } % na bežnej cene VPN
 plan-matrix-pick = Zaregistrovať sa
-plan-matrix-join-waitlist = Pridať sa na zoznam čakateľov
 
 ## Use Cases
 
@@ -352,9 +354,11 @@ landing-use-cases-gaming = Hranie hier
 landing-use-cases-gaming-body-2 =
     Užívate si online hranie, ale obávate sa, že ostatní hráči alebo násilníci zistia, kto ste, prostredníctvom vašej menovky hráča a e-mailovej adresy?
     Použite e-mailovú masku na vloženie ďalšej vrstvy ochrany medzi vašu online identitu a hry, ktoré hráte online.
+
 landing-use-cases-shopping-hero-heading = Nakupovanie s e-mailovými maskami
 landing-use-cases-shopping-hero-content1 = Chcete si niečo kúpiť online a nepoznáte obchod alebo mu úplne nedôverujete?
 landing-use-cases-shopping-hero-content2 = Pri každom online nakupovaní používajte e-mailovú masku. Nechajte si poslať potvrdenie na váš skutočný e-mail a potom masku kedykoľvek jednoducho vypnite.
+
 landing-use-cases-on-the-go = Na cestách
 landing-use-cases-on-the-go-heading = Na cestách s { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Okamžite si vytvorte vlastnú e-mailovú masku kdekoľvek sa nachádzate!
@@ -364,35 +368,11 @@ landing-use-cases-on-the-go-receipt-heading = Získajte e-mailové potvrdenia
 landing-use-cases-on-the-go-receipt-body = Zdieľajte vlastnú e-mailovú masku pre potvrdenia o nákupe v obchode bez odhalenia svojho skutočného e-mailu
 landing-use-cases-on-the-go-phone-heading = Použitie na svojom telefóne
 landing-use-cases-on-the-go-phone-body = Bez ohľadu na to, kde sa nachádzate, vytvorte si za pár sekúnd vlastnú e-mailovú masku pre čokoľvek, čo chcete urobiť
+
 landing-use-cases-signups = Registrácie
 landing-use-cases-signups-hero-heading = Bezstarostné registrácie
 landing-use-cases-signups-hero-content1 = Chcete začať nové predplatné, odpovedať na pozvánku alebo získať výhodný propagačný kód bez toho, aby vašu e-mailovú schránku zaplavovala nevyžiadaná pošta?
 landing-use-cases-signups-hero-content2 = Pred dokončením vašej ďalšej registrácie použite e-mailovú masku namiesto svojej skutočnej adresy, aby ste ochránili svoje informácie a mali kontrolu nad svojou e-mailovou schránkou
-
-## Landing FAQ Section
-
-landing-faq-headline = Najčastejšie otázky o službe { -brand-name-firefox-relay }
-landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Doplnky
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Zdroj: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = z 5 ({ $review_count } recenzií)
-landing-reviews-show-next-button = zobraziť ďalšiu recenziu
-landing-reviews-show-previous-button = zobraziť predchádzajúcu recenziu
-landing-review-anonymous-user = Používateľ { -brand-name-firefox(case: "gen") }  { $user_id }
-landing-review-user-one-review = Naozaj oceňujem tím { -brand-name-mozilla } za to, že bol taký kreatívny a zjednodušil anonymizáciu mojej e-mailovej adresy. Toto je skvelé rozšírenie, vrelo ho odporúčam tým, ktorí si uvedomujú súkromie!
-landing-review-user-two-review = Jednoduchý nástroj, ako sa zbaviť alebo vyhnúť spamovaniu vašej e-mailovej schránky.
-landing-review-user-three-review = Milujtem toto rozšírenie! Veľmi jednoduché, spoľahlivé a pekne integrované do prehliadača.
-landing-review-user-four-review-list-1 = Poskytuje pokoj pri surfovaní na internete.
-landing-review-user-four-review-list-2 = Chráni identitu pred sledovacími prvkami prostredníctvom generovania aliasov, kde z rôznych dôvodov nechcete zdieľať skutočnú e-mailovú adresu.
-landing-review-user-four-review-list-3 = Údaje o e-mailovej schránky sú so službou { -brand-name-firefox-relay } v bezpečí.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } robí zázraky, určite ho vyskúšajte!!!
 
 ## Premium promo page
 
@@ -404,14 +384,17 @@ premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu.
 premium-promo-hero-cta = Inovovať teraz
+
 premium-promo-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
 premium-promo-offer-end-hero-cta = Inovovať teraz
+
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
+
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
@@ -427,6 +410,7 @@ premium-promo-perks-perk-block-promotionals-headline = Blokovanie marketingovýc
 premium-promo-perks-perk-block-promotionals-body = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e-mailov do vašej schránky a zároveň stále prijímať e-maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
 premium-promo-perks-perk-tracker-blocking-headline = Odstraňovanie sledovacích prvkov z e-mailov
 premium-promo-perks-perk-tracker-blocking-body = Teraz vám { -brand-name-relay } môže pomôcť zastaviť sledovanie e-mailov – vaše e-mailové masky odstránia bežné sledovacie prvky zo všetkých e-mailov, ktoré vám preposielame, čím vám pomôžu zostať neviditeľnými pre sledovačov a inzerentov.
+
 premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -brand-name-relay } kdekoľvek
 premium-promo-use-cases-shopping-heading = Nakupovanie
 premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými maskami, ako napríklad „mojenakupy@mojadomena.mozmail.com“.
@@ -434,7 +418,9 @@ premium-promo-use-cases-social-networks-heading = Sociálne siete
 premium-promo-use-cases-social-networks-body-2 = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite inú e-mailovú masku a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
 premium-promo-use-cases-gaming-heading = Hranie hier
 premium-promo-use-cases-gaming-body-2 = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite masku ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
+
 premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
@@ -521,13 +507,16 @@ setting-tracker-removal-warning-2 = Dôležité: odstránenie sledovacích prvko
 ## FAQ Page
 
 faq-headline = Často kladené otázky
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Čo je e-mailová maska služby { -brand-name-relay }?
 faq-question-what-is-answer-2 = E-mailové masky sú maskované e-mailové adresy, ktoré preposielajú správy na vašu skutočnú e-mailovú adresu. Tieto masky vám umožňujú s tretími stranami zdieľať vygenerovanú adresu, čím zamaskujete vašu skutočnú e-mailovú adresu.
+
 faq-question-missing-emails-question-2 = Nedostávam správy z mojich e-mailových masiek
 faq-question-missing-emails-answer-a-2 = Existuje niekoľko dôvodov, prečo nemusíte nedostávať e-maily preposielané cez vaše masky. Medzi tieto dôvody patria:
 faq-question-missing-emails-answer-reason-spam = Správy sa dostávajú do spamu
@@ -542,46 +531,60 @@ faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -br
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Ak ste narazili na ktorýkoľvek z týchto problémov, <a href="{ $url }" { $attrs }>navštívte našu stránku podpory</a>.
+
 faq-question-use-cases-question-2 = Kedy by som mal použiť e-mailové masky služby { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Masky služby { -brand-name-relay } môžete použiť na väčšine miest, kde by ste použili svoju bežnú e-mailovú adresu. Odporúčame ich používať pri registrácii na odber marketingových/informačných e-mailov, kde možno budete chcieť kontrolovať, či budete v budúcnosti dostávať e-maily alebo nie.
 faq-question-use-cases-answer-part2-2 = Neodporúčame používať masky, keď potrebujete overiť svoju identitu alebo pre veľmi dôležité e-maily alebo tie, kde musíte dostávať prílohy. Napríklad by ste chceli zdieľať svoju skutočnú e-mailovú adresu so svojou bankou, lekárom a právnikom, ako aj pri objednávaní lístkov na koncert či palubných lístkov na váš let.
+
 faq-question-2-question-2 = Prečo stránka neprijme moju e-mailovú masku { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Niektoré stránky nemusia akceptovať e-mailovú adresu, ktorá obsahuje subdoménu (@subdomena.mozmail.com) a iné prestali akceptovať všetky adresy mimo adries z účtov Gmail, Hotmail alebo Yahoo.
+
 faq-question-1-question = A čo spam?
 faq-question-1-answer-a-2 = Aj keď { -brand-name-relay } nefiltruje nevyžiadanú poštu, náš e-mailový partner Amazon SES blokuje spam a škodlivý softvér. Ak { -brand-name-relay } preposiela správy, ktoré nechcete, môžete aktualizovať svoje nastavenia tejto služby a zablokovať masky, ktoré ich preposielajú.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich masiek, <a href="{ $url }" { $attrs }> nahláste nám to </a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
+
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
 faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
 faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
 faq-question-availability-answer-v3 = Bezplatná verzia { -brand-name-relay } je dostupná vo väčšine krajín. { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
+
 faq-question-4-question-2 = Môžem odpovedať na správy pomocou svojej e-mailovej masky { -brand-name-relay }?
 faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
+
 faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
 faq-question-subdomain-characters-answer-v2 = Na vytvorenie subdomény môžete použiť iba malé anglické písmená, čísla a pomlčky.
+
 faq-question-browser-support-question = Môžem použiť { -brand-name-relay } v iných prehliadačoch alebo na svojom mobilnom zariadení?
 faq-question-browser-support-answer-2 = Áno, masky služby { -brand-name-relay } môžete vygenerovať v iných prehliadačoch alebo mobilných zariadeniach jednoduchým prihlásením sa do hlavného panela služby { -brand-name-relay }.
+
 faq-question-longevity-question = Čo sa stane, ak { -brand-name-firefox-relay } vypne službu { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Vopred vás upozorníme, že musíte zmeniť e-mailovú adresu vo všetkých účtoch, ktoré používajú masky služby { -brand-name-relay }.
+
 faq-question-mozmail-question-2 = Prečo moje masky začali používať doménu “mozmail.com?”
 faq-question-mozmail-answer-2 = Prešli sme z “relay.firefox.com“ na “mozmail.com”, aby bolo možné získať vlastnú e-mailovú subdoménu, ako napríklad maska@vasadomena.mozmail.com. Vlastné e-mailové subdomény, dostupné pre predplatiteľov služby { -brand-name-relay-premium }, vám umožňujú vytvárať ľahšie zapamätateľné e-mailové masky.
+
 faq-question-attachments-question = Bude { -brand-name-firefox-relay } preposielať e-maily s prílohami?
 faq-question-attachments-answer-v2 = Presmerovanie príloh je podporované. Avšak, pre presmerovanie e-mailov pomocou služby { -brand-name-relay } existuje veľkostný limit { email-size-limit }. E-maily väčšie ako { email-size-limit } nebudú presmerované.
+
 faq-question-unsubscribe-domain-question-2 = Čo sa stane s mojou vlastnou subdoménou, ak zruším službu { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Ak prejdete na nižšiu verziu z { -brand-name-relay-premium }, budete stále dostávať e-maily preposielané prostredníctvom vlastných e-mailových masiek, ale pomocou tejto subdomény už nebudete môcť vytvárať nové masky. Ak máte celkovo viac ako päť masiek, ďalšie už nebudete môcť vytvoriť. Stratíte tiež možnosť odpovedať na preposlané správy. Ak znova prejdete na { -brand-name-relay-premium }, opätovne získate prístup k týmto funkciám.
+
 faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhromažďuje?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>oznámenie o ochrane súkromia</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové masky, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } zhromažďuje webové stránky, na ktorých ste použili svoje e-mailové masky, a označí vaše masky týmito webovými stránkami, aby ste ich mohli ľahko identifikovať. Túto možnosť môžete zrušiť na stránke Nastavenia v časti Ochrana súkromia. Upozorňujeme však, že vypnutie tohto nastavenia znamená, že nebudete môcť vidieť, kde ste jednotlivé masky použili, a názvy vašich účtov sa už nebudú synchronizovať medzi zariadeniami. Viac informácií o údajoch, ktoré { -brand-name-firefox-relay } zhromažďuje, nájdete v našom <a href="{ $url }" { $attrs }>Oznámení o ochrane súkromia</a>.
+
 faq-question-email-storage-question = Ukladá { -brand-name-relay } moje e-maily?
 faq-question-email-storage-answer = Vo výnimočných prípadoch, keď je služba mimo prevádzky, môžeme dočasne uchovávať vaše e-maily, kým ich nebudeme môcť odoslať. Vaše e-maily nikdy nebudeme uchovávať dlhšie ako tri dni.
+
 faq-question-acceptable-use-question = Aké sú prijateľné použitia služby { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -592,10 +595,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Obmedzuje sa počet ma
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Ďalšie informácie nájdete v našich <a href="{ $url }" { $attrs }>Podmienkach používania služby</a>.
+
 faq-question-promotional-email-blocking-question = Čo je blokovanie marketingových e-mailov?
 faq-question-promotional-email-blocking-answer = Predplatitelia { -brand-name-relay-premium } môžu povoliť blokovanie propagačných e-mailov. Táto funkcia vám prepošle dôležité e-maily, ako sú potvrdenia o prečítaní, obnovenia hesla a iné potvrdenia, pričom bude stále blokovať marketingové správy. Existuje mierne riziko, že dôležitá správa môže byť stále zablokovaná, preto vám odporúčame, aby ste túto funkciu nepoužívali na veľmi dôležitých miestach, ako je vaša banka. Ak je e-mail zablokovaný, nie je možné ho obnoviť.
 faq-question-detect-promotional-question = Ako { -brand-name-relay } zistí, či je e-mail marketingový alebo nie?
 faq-question-detect-promotional-answer = Mnoho e-mailov sa odosiela s metadátami v hlavičke, ktoré indikujú, že e-mail pochádza z automatizovaných nástrojov založených na zoznamoch adries. { -brand-name-firefox-relay } rozpoznáva tieto údaje hlavičky, aby mohol tieto e-maily zablokovať.
+
 faq-question-disable-trackerremoval-question = Môžem zastaviť odstraňovanie sledovacích prvkov z e-mailov?
 faq-question-disable-trackerremoval-answer = Áno. Ak máte problémy s e-mailami, ktoré vyzerajú nefunkčné, alebo by ste chceli zastaviť odstraňovanie sledovacích prvkov, môžete túto funkciu zakázať v nastaveniach.
 faq-question-bulk-trackerremoval-question = Môžem odstrániť sledovacie prvky iba na niektorých mojich e-mailových maskách?
@@ -639,14 +644,18 @@ profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
 profile-label-skip = Preskočiť
 profile-label-continue = Pokračovať
+
 # This string is followed by an email address
 profile-label-forward-emails = E-maily preposielať na:
+
 # This string is followed by date
 profile-label-first-emailed = Prvý e-mail odoslaný:
+
 # This string is followed by date:
 profile-label-created = Vytvorený:
 profile-label-details-show = Zobraziť podrobnosti
 profile-label-details-hide = Skryť podrobnosti
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = preposiela sa
 profile-label-blocking = blokuje sa
@@ -725,7 +734,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Zavrieť
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Zavrieť
+
 banner-bounced-headline = { -brand-name-relay } nemôže doručiť váš e-mail.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -771,30 +782,36 @@ banner-pack-upgrade-copy-2 = Vďaka neobmedzenému počtu e-mailových masiek a 
 footer-banner-premium-promo-headine = Inovujte na <strong>{ -brand-name-firefox-relay-premium }</strong>, aby ste ochránili svoj telefón <i>a</i> e-maily
 footer-banner-premium-promo-body = Získajte masku pre vaše telefónne číslo, neobmedzený počet e-mailových masiek a vlastné e-mailové adresy na rýchle vytvorenie masky.
 banner-pack-upgrade-cta = Inovovať teraz
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizácia oznámenia o ochrane osobných údajov
 banner-label-privacy-notice-update-body = Aby sme zvýšili spoľahlivosť služby { -brand-name-firefox-relay } v prípade, že e-mail nebude možné doručiť, dočasne ho ponecháme na našich serveroch, kým nebude doručený. Nikdy to však nebude dlhšie ako tri dni.
 banner-label-privacy-notice-update-cta = Zobraziť oznámenie o ochrane osobných údajov
+
 # Data Notification Banner:
 banner-label-data-notification-header = Už čoskoro v službe { -brand-name-relay }
 banner-label-data-notification-cta = Prejsť do nastavení
 banner-label-data-notification-header-v2 = Povolenie nových funkcií
 banner-label-data-notification-body-cta = Ďalšie informácie
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Chráňte svoje súkromie, zachránite internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Chráňte svoje súkromie a pripojte sa k našej misii vybudovať lepší internet, to všetko za { $monthly_price }
 banner-upgrade-loyalist-cta = Získajte väčšiu ochranu
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Naša uvádzacia cenová ponuka čoskoro končí!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si neobmedzené maskovanie za našu uvádzaciu mesačnú cenu.
 banner-offer-end-cta = Inovovať teraz
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Môžete si vytvoriť ľubovoľnú adresu @{ $subdomain }
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Zastavte spam, hovory od robotov a nevyžiadané texty
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } vám poskytuje masku telefónneho čísla na ochranu vášho skutočného čísla – plus neobmedzené e-mailové masky.
@@ -922,6 +939,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvárajte neobmedze
 multi-part-onboarding-premium-welcome-button-start = Začíname
 multi-part-onboarding-premium-get-subdomain = Získajte vlastnú subdoménu
 multi-part-onboarding-reply-headline = Odpovedajte na svoje e-maily
+
 multi-part-onboarding-premium-welcome-description-2 = Už žiadne obmedzenie na päť masiek: teraz môžete generovať toľko vlastných alebo náhodných masiek, koľko potrebujete. Jednoducho pomocou doplnku { -brand-name-relay }.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -988,6 +1006,8 @@ trackerreport-load-error = Pri generovaní správy o odstránených sledovacích
 
 modal-rename-alias-saved = Štítok uložený!
 modal-delete-headline-2 = Chcete natrvalo odstrániť túto e-mailovú masku?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1004,6 +1024,7 @@ modal-delete-confirmation-2 = Áno, chcem túto masku odstrániť.
 modal-domain-register-good-news = Dobré správy!
 modal-domain-register-warning-reminder-2 = Pamätajte, že môžete zaregistrovať iba jednu subdoménu. Neskôr ju už nebudete môcť zmeniť.
 modal-domain-register-button-2 = Registrovať subdoménu
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } je k dispozícii!
@@ -1011,6 +1032,7 @@ modal-domain-register-available = { $subdomain } je k dispozícii!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozícii!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
@@ -1018,6 +1040,7 @@ modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Áno, chcem si zaregistrovať doménu <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Úspešné!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1171,6 +1194,7 @@ toast-button-close-label = Zavrieť upozornenie
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Použili ste všetky e-mailové masky (celkom { $free_tier_limit }), ktoré sú súčasťou vášho bezplatného účtu. Môžete znova použiť existujúcu masku, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
 api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahŕňa vlastné subdomény pre masky. Ak chcete vytvoriť vlastné masky, inovujte na { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” sa nepodarilo vytvoriť. Skúste to znova s iným názvom masky.

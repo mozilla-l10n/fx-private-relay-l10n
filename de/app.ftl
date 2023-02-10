@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } macht es einfach, E-Mail-Masken zu erstellen, die Ihre Nachrichten an Ihren echten Posteingang weiterleiten. Verwenden Sie sie, um Ihre Online-Konten vor Hackern und unerwünschten Nachrichten zu schützen.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Wird in einem neuen Tab geöffnet)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = E-Mail-Masken
 nav-phone-dashboard = Telefonnummer-Masken
 label-open-menu = Menü öffnen
 avatar-tooltip = Profil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Anmelden
@@ -55,6 +56,7 @@ nav-support = Hilfe und Unterstützung
 nav-sign-out = Abmelden
 nav-contact = Kontakt
 nav-menu-mobile = Handy-Menü
+
 fx-desktop-2 = { -brand-name-firefox } für Desktop-PCs
 fx-mobile-2 = { -brand-name-firefox } für Mobilgeräte
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Chronik
 whatsnew-footer-clear-all-label = Alle löschen
 whatsnew-footer-back-label = Zurück
 whatsnew-footer-learn-more-label = Weitere Informationen
+
 whatsnew-empty-message = Schaue hier immer wieder vorbei – wir arbeiten ständig an tollen neuen Funktionen, um { -brand-name-relay } noch besser zu machen.
+
 whatsnew-feature-size-limit-heading = Vergrößerung der Anhänge
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kann jet
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu { email-size-limit } weiterleiten, einschließlich…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kann jetzt E-Mails bis zu { email-size-limit } weiterleiten, einschließlich Anhängen.
+
 whatsnew-feature-sign-back-in-heading = Melde dich mit deinen Alias-E-Mail-Adressen wieder an
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Um ein neues Alias zu erstellen, wenn du nach deiner E-Mail-Adresse gefragt wirst, öffne …
 whatsnew-feature-sign-back-in-description = Um sich mit einem zuvor verwendeten Alias anzumelden, öffne das Kontextmenü, in dem die Website nach deiner E-Mail-Adresse fragt. Du kannst das Alias auswählen und das E-Mail-Adressfeld so automatisch ausfüllen.
+
 whatsnew-feature-forward-some-heading = Blockieren von Werbe-E-Mails
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } ermöglicht es dir, nur Werbe-E-Mails zu blockieren…
 whatsnew-feature-forward-some-description = Mit { -brand-name-relay-premium } kannst du nur Werbe-E-Mails blockieren, die an ein Alias gesendet werden. Du erhältst E-Mails wie Quittungen, aber keine Marketing-E-Mails.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Alias-E-Mail-Adressen heißen jetzt „Masken“
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = Haben Sie’s gemerkt? Alias-Adressen h
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Haben Sie’s gemerkt? Alias-Adressen heißen jetzt „Masken“, damit { -brand-name-firefox-relay } noch benutzerfreundlicher wird und neue Funktionen einfacher hinzugefügt werden können.
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } in Schweden verfügbar
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } in Finnland verfügbar
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz…
 whatsnew-feature-premium-expansion-description = Machen Sie jetzt das Upgrade und verbessern Sie Ihren Schutz – erstellen Sie unbegrenzt viele E-Mail-Masken, nutzen Sie eine benutzerdefinierte E-Mail-Subdomain und mehr!
+
 whatsnew-feature-tracker-removal-heading = Neue Funktion: Entfernung von E-Mail-Trackern
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = Jetzt kann { -brand-name-relay } gän
 # Deprecated
 whatsnew-feature-tracker-removal-description = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus an Sie weitergeleiteten E-Mails entfernen, sodass Sie für Werbetreibende unsichtbar bleiben.
 whatsnew-feature-tracker-removal-description-2 = Jetzt kann { -brand-name-relay } gängige E-Mail-Tracker aus an Sie weitergeleiteten E-Mails entfernen, sodass Sie für Werbetreibende unsichtbar bleiben. Unter „Einstellungen“ können Sie die Option aktivieren.
+
 whatsnew-feature-offer-countdown-heading = Unser Angebot zum Einführungspreis endet bald!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Holen Sie sich { -brand-name-relay-pr
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie unbegrenzt viele Masken zu unserem monatlichen Einführungspreis.
 whatsnew-feature-offer-countdown-cta = Jetzt upgraden
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ist jetzt im { -brand-name-firefox }-Passwort-Manager verfügbar
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -176,13 +187,13 @@ hero-image-copy-control-html = Jetzt <em>hast du die Kontrolle darüber</em>, wa
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Schützen Sie Ihre echte E-Mail-Adresse, um Ihren Posteingang besser zu kontrollieren.
 landing-hero-body-2 =
     E-Mail-Masken von { -brand-name-firefox-relay } schützen Ihre echte E-Mail-Adresse vor der Öffentlichkeit und leiten E-Mails automatisch an Ihren echten Posteingang weiter.
     Jetzt können Sie dafür sorgen, dass nur noch die gewünschten E-Mails in Ihrem Posteingang landen. Melden Sie sich mit Ihrem { -brand-name-firefox-account } an, um loszulegen.
+
 landing-offer-end-hero-heading = Unser Angebot zum Einführungspreis endet bald!
 landing-offer-end-hero-cta = Jetzt upgraden
 # Variables:
@@ -233,6 +244,7 @@ landing-pricing-free-cta = Hole dir { -brand-name-relay }
 landing-pricing-free-ribbon = Ab sofort verfügbar!
 # Deprecated
 landing-pricing-free-feature-free = Kostenlos
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -254,10 +266,12 @@ landing-pricing-premium-feature-4 = Auf weitergeleitete E-Mails antworten
 landing-pricing-premium-feature-5 = Werbe-E-Mails blockieren
 # Deprecated
 landing-pricing-premium-feature-6 = Entfernung von E-Mail-Trackern
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ist derzeit in Ihrem Land nicht verfügbar. Wenn Sie uns Ihre E-Mail-Adresse mitteilen, benachrichtigen wir Sie, sobald dies der Fall ist.
 # Deprecated
 landing-pricing-waitlist-cta = Auf Warteliste setzen
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,6 +284,7 @@ landing-pricing-offer-end-cta = Jetzt upgraden
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie Premium-E-Mail-Schutz zu unserem monatlichen Einführungspreis.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -282,12 +297,7 @@ plan-matrix-bundle-offer-heading-2 = Nur für begrenzte Zeit: { -brand-name-rela
 plan-matrix-bundle-offer-content =
     Probieren Sie { -brand-name-firefox-relay } E-Mail-Masken aus und schützen Sie Ihren E-Mail-Posteingang.
     Führen Sie dann ein Upgrade auf { -brand-name-relay-premium } durch, um noch mehr Flexibilität und individuelle Steuerung zu erhalten.
-plan-matrix-heading-features = Funktionen
-plan-matrix-heading-plan-free = Limitierter Schutz für E-Mail-Adressen
-plan-matrix-heading-plan-premium = Schutz für E-Mail-Adressen
-plan-matrix-heading-plan-phones = Schutz für E-Mail-Adressen und Handy
 plan-matrix-heading-plan-bundle = VPN-Schutz hinzufügen
-plan-matrix-heading-plan-bundle-alt = Holen Sie sich { -brand-name-relay-premium } und { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-Mail-Masken
 plan-matrix-heading-feature-browser-extension = Browser-Erweiterung
@@ -297,7 +307,6 @@ plan-matrix-heading-feature-email-subdomain = E-Mail-Subdomain
 plan-matrix-heading-feature-email-reply = Auf weitergeleitete E-Mails antworten
 plan-matrix-heading-feature-phone-mask = Telefonnummer-Maske
 plan-matrix-heading-feature-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } E-Mail-Masken
@@ -308,15 +317,9 @@ plan-matrix-feature-list-email-subdomain = E-Mail-Subdomain
 plan-matrix-feature-list-email-reply = Auf weitergeleitete E-Mails antworten
 plan-matrix-feature-list-phone-mask = Telefonnummer-Maske
 plan-matrix-feature-list-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Preis
-plan-matrix-feature-count-unlimited = Unbegrenzt
-plan-matrix-feature-included = Inbegriffen
-plan-matrix-feature-not-included = Nicht inbegriffen
-plan-matrix-price-free = Kostenlos
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/Monat
-plan-matrix-price-period-yearly = Jährlich
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = jährliche Abrechnung
 plan-matrix-price-period-monthly = Monatlich
@@ -324,7 +327,6 @@ plan-matrix-price-period-monthly = Monatlich
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Sparen Sie { $percentage } % gegenüber dem regulären VPN-Preis
 plan-matrix-pick = Anmelden
-plan-matrix-join-waitlist = Auf Warteliste setzen
 
 ## Use Cases
 
@@ -351,9 +353,11 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Genießen Sie Online-Spiele, machen sich aber Sorgen, dass andere Spieler oder Mobber über Ihr Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind?
     Verwenden Sie eine E-Mail-Maske, um eine weitere Schutzebene zwischen Ihrer Online-Identität und den Spielen, die Sie im Internet spielen, zu schaffen.
+
 landing-use-cases-shopping-hero-heading = Einkaufen mit E-Mail-Masken
 landing-use-cases-shopping-hero-content1 = Möchten Sie etwas im Internet kaufen, kennen oder vertrauen dem Verkäufer aber nicht ganz?
 landing-use-cases-shopping-hero-content2 = Verwenden Sie eine E-Mail-Maske, wenn Sie online einkaufen. Lassen Sie sich die Bestätigung an Ihre echte E-Mail-Adresse senden und schalten Sie die Maske später jederzeit einfach aus.
+
 landing-use-cases-on-the-go = Unterwegs
 landing-use-cases-on-the-go-heading = Unterwegs mit { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Erstellen Sie sofort und überall eine benutzerdefinierte E-Mail-Maske!
@@ -363,35 +367,11 @@ landing-use-cases-on-the-go-receipt-heading = Erhalten Sie Quittungen per E-Mail
 landing-use-cases-on-the-go-receipt-body = Geben Sie beim Einkaufen eine benutzerdefinierte E-Mail-Maske für Quittungen an, ohne Ihre echte E-Mail-Adresse preiszugeben
 landing-use-cases-on-the-go-phone-heading = Auf Ihrem Handy verwenden
 landing-use-cases-on-the-go-phone-body = Egal wo Sie sind, erstellen Sie in Sekundenschnelle eine benutzerdefinierte E-Mail-Maske für alles, was Sie tun möchten
+
 landing-use-cases-signups = Registrierung
 landing-use-cases-signups-hero-heading = Sorgenfreies Registrieren
 landing-use-cases-signups-hero-content1 = Möchten Sie ein neues Abonnement abschließen, auf eine Einladung antworten oder einen günstigen Rabatt-Code erhalten, ohne dass Spam Ihren Posteingang überschwemmt?
 landing-use-cases-signups-hero-content2 = Bevor Sie die nächste Registrierung abschließen, verwenden Sie eine E-Mail-Maske anstelle Ihrer echten E-Mail-Adresse, um Ihre Daten zu schützen und die Kontrolle über Ihren Posteingang zu behalten
-
-## Landing FAQ Section
-
-landing-faq-headline = Häufigste Fragen zu { -brand-name-firefox-relay }
-landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Add-ons
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Quelle: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = von 5 ({ $review_count } Bewertungen)
-landing-reviews-show-next-button = Nächste Bewertung anzeigen
-landing-reviews-show-previous-button = Vorherige Bewertung anzeigen
-landing-review-anonymous-user = { -brand-name-firefox }-Nutzer { $user_id }
-landing-review-user-one-review = Ich schätze das Team von { -brand-name-mozilla } sehr dafür, dass es so kreativ ist und die Anonymisierung meiner E-Mail-Adresse vereinfacht hat. Dies ist eine großartige Erweiterung, ich kann sie datenschutzbewussten Personen nur wärmstens empfehlen!
-landing-review-user-two-review = Einfaches Werkzeug, um Ihre E-Mail-ID loszuwerden oder Spam zu vermeiden.
-landing-review-user-three-review = Ich liebe diese Erweiterung! Sehr einfach, aber leistungsstark und die Integration mit dem Browser ist wunderbar.
-landing-review-user-four-review-list-1 = Gibt Sicherheit beim Surfen im Internet.
-landing-review-user-four-review-list-2 = Schützt die eigene Identität vor Trackern durch die Generierung von Aliasnamen, wenn man die echte E-Mail-Adresse aus verschiedenen Gründen nicht weitergeben möchte.
-landing-review-user-four-review-list-3 = E-Mail-Posteingangsdaten sind in den Händen von { -brand-name-firefox-relay } sicher.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } wirkt Wunder, probieren Sie es aus!!!
 
 ## Premium promo page
 
@@ -403,14 +383,17 @@ premium-promo-hero-body-2-html = Mit { -brand-name-firefox-relay-premium } erhal
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mit { -brand-name-firefox-relay-premium } erhalten Sie unbegrenzt viele benutzerdefinierte E-Mail-Masken, die nur die gewünschten E-Mails an Ihre echte E-Mail-Adresse weiterleiten.
 premium-promo-hero-cta = Jetzt upgraden
+
 premium-promo-offer-end-hero-heading = Unser Angebot zum Einführungspreis endet bald!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie Premium-E-Mail-Schutz zu unserem monatlichen Einführungspreis.
 premium-promo-offer-end-hero-cta = Jetzt upgraden
+
 premium-promo-availability-warning = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Finnland, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, Schweden, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
+
 premium-promo-perks-headline = Warum solltest du das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
 premium-promo-perks-lead-2 = Mit { -brand-name-firefox-relay-premium } erhalten Sie den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten E-Mail-Masken und Ihrer eigenen benutzerdefinierten Domain, um die Verwaltung Ihres Posteingangs noch einfacher zu machen.
 premium-promo-perks-cta-label = Jetzt upgraden
@@ -426,6 +409,7 @@ premium-promo-perks-perk-block-promotionals-headline = Werbe-E-Mails blockieren
 premium-promo-perks-perk-block-promotionals-body = Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
 premium-promo-perks-perk-tracker-blocking-headline = E-Mail-Tracker entfernen
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kann Ihnen jetzt dabei helfen, E-Mail-Tracking zu stoppen – Ihre E-Mail-Masken entfernen gängige E-Mail-Tracker aus allen an Sie weitergeleiteten E-Mails, sodass Sie für Tracker und Werbetreibende unsichtbar bleiben.
+
 premium-promo-use-cases-headline-2 = Verwenden Sie überall E-Mail-Masken von { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Einkaufen
 premium-promo-use-cases-shopping-body-2 = Versuchen Sie, sich für Rabatte ohne Spam zu registrieren? Bündeln Sie Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten E-Mail-Masken, wie „mydeals@meinedomain.mozmail.com“.
@@ -433,7 +417,9 @@ premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
 premium-promo-use-cases-social-networks-body-2 = Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwenden Sie eine eigene E-Mail-Maske für jedes soziale Netzwerk und verhindern Sie, dass Ihre echte E-Mail-Adresse diesen Websites bekannt wird.
 premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 = Sie sind besorgt, dass andere Spieler oder Trolle über Ihr Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind? Verwenden Sie eine Maske wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen Ihrer Identität und den Spielen, die Sie online spielen, zu platzieren.
+
 premium-promo-pricing-free-price = Dein aktuelles, kostenloses Modell
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Einführungspreis: Unbegrenzt viele Masken für { $monthly_price } pro Monat
@@ -520,13 +506,16 @@ setting-tracker-removal-warning-2 = Wichtig: Das Entfernen von Trackern kann daz
 ## FAQ Page
 
 faq-headline = Häufig gestellte Fragen
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Was ist eine E-Mail-Maske von { -brand-name-relay }?
 faq-question-what-is-answer-2 = Masken sind maskierte E-Mail-Adressen, die Nachrichten an Ihre echte E-Mail-Adresse weiterleiten. Diese Masken ermöglichen es Ihnen, eine Adresse mit Dritten zu teilen, die Ihre echte E-Mail-Adresse maskiert und Nachrichten an diese weiterleitet.
+
 faq-question-missing-emails-question-2 = Ich erhalte keine Nachrichten von meinen E-Mail-Masken
 faq-question-missing-emails-answer-a-2 = Es gibt einige Gründe, warum Sie möglicherweise keine E-Mails erhalten, die über Ihre Masken weitergeleitet werden. Zu diesen Gründen gehören:
 faq-question-missing-emails-answer-reason-spam = Nachrichten landen im Spam
@@ -541,46 +530,60 @@ faq-question-missing-emails-answer-b-html = Wenn du ein { -brand-name-relay-prem
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Wenn du mit einem dieser Probleme zu kämpfen hast, <a href="{ $url }" { $attrs }>besuche bitte unsere Hilfe-Website</a>.
+
 faq-question-use-cases-question-2 = Wann sollte ich E-Mail-Masken von { -brand-name-relay } verwenden?
 faq-question-use-cases-answer-part1-2 = Sie können die E-Mail-Masken von { -brand-name-relay } an den meisten Orten verwenden, an denen Sie Ihre echte E-Mail-Adresse verwenden würden. Wir empfehlen, sie bei der Anmeldung für Marketing-/Informations-E-Mails zu verwenden, bei denen Sie  möglicherweise kontrollieren möchten, ob Sie in Zukunft E-Mails erhalten oder nicht.
 faq-question-use-cases-answer-part2-2 = Wir empfehlen die Verwendung von E-Mail-Masken nicht, wenn Ihre Identität überprüft werden muss oder für sehr wichtige E-Mails oder solche, bei denen Sie Anhänge erhalten müssen. Sie sollten beispielsweise Ihre echte E-Mail-Adresse Ihrer Bank, Ihrem Arzt und Ihrem Anwalt sowie beim Erhalt von Konzert- oder Flugtickets mitteilen.
+
 faq-question-2-question-2 = Warum akzeptiert eine Website meine E-Mail-Maske von { -brand-name-relay } nicht?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Einige Websites akzeptieren möglicherweise keine E-Mail-Adresse, die eine Subdomain (@subdomain.mozmail.com) enthält, und andere akzeptieren keine Adressen außer denen von Gmail-, Hotmail- oder Yahoo-Konten.
+
 faq-question-1-question = Was ist mit Spam?
 faq-question-1-answer-a-2 = { -brand-name-relay } filtert keinen Spam, aber unser E-Mail-Partner Amazon SES blockiert Spam und Schadsoftware. Wenn { -brand-name-relay } unerwünschte Nachrichten weiterleitet, können Sie Ihre { -brand-name-relay }-Einstellungen ändern, um Nachrichten zu blockieren, die von der Maske weitergeleitet werden.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Wenn Sie feststellst, dass es bei all Ihren Masken ein größeres Problem mit unerwünschten Nachrichten gibt, <a href="{ $url }" { $attrs }>schreiben Sie uns</a>, sodass wir prüfen können, ob wir die SES-Spam-Schwellen für diesen Dienst anpassen können. Wenn Sie diese Nachrichten als Spam melden, erfasst Ihr E-Mail-Anbieter { -brand-name-relay } als Quelle der Spam-Nachrichten, und nicht den ursprünglichen Absender.
+
 faq-question-availability-question = Wo ist { -brand-name-relay } verfügbar?
 faq-question-availability-answer = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Frankreich, Belgien, Österreich, Spanien, Italien, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-availability-answer-v2 = Das kostenlose { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in den USA, Deutschland, Großbritannien, Kanada, Singapur, Malaysia, Neuseeland, Finnland, Frankreich, Belgien, Österreich, Spanien, Italien, Schweden, der Schweiz, den Niederlanden und Irland verfügbar.
 faq-question-availability-answer-v3 = Kostenloses { -brand-name-relay } ist in den meisten Ländern verfügbar. { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
+
 faq-question-4-question-2 = Kann ich mit meiner E-Mail-Maske von { -brand-name-relay } auf Nachrichten antworten?
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhalb von 3 Monaten nach Erhalt der E-Mail auf eine weitergeleitete E-Mail antworten. Wenn du beim Antworten auf eine E-Mail einen Empfänger als Kopie (CC) oder Blindkopie (BCC) hinzufügst, wird deine echte E-Mail-Adresse den Empfängern und denen, die die E-Mail als Kopie erhalten, angezeigt. Wenn du nicht möchtest, dass deine echte E-Mail-Adresse offengelegt wird, füge beim Antworten keine CCs oder BCCs hinzu.
+
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
 faq-question-subdomain-characters-answer-v2 = Du kannst nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
+
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
 faq-question-browser-support-answer-2 = Ja, Sie können Masken von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erstellen, indem Sie sich einfach bei der { -brand-name-relay }-Übersicht anmelden..
+
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 faq-question-longevity-answer-2 = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die E-Mail-Masken von { -brand-name-relay } verwenden.
+
 faq-question-mozmail-question-2 = Warum verwenden meine E-Mail-Masken die Domain „mozmail.com“?
 faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Subdomain wie alias@ihredomain.mozmail.com zu erhalten. Mit benutzerdefinierten E-Mail-Subdomains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, können Sie E-Mail-Masken erstellen, die sich deutlich einfacher merken lassen.
+
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
+
 faq-question-unsubscribe-domain-question-2 = Was passiert mit meiner benutzerdefinierten Subdomain, wenn ich mich von { -brand-name-relay-premium } abmelde?
 faq-question-unsubscribe-domain-answer-2 = Wenn Sie ein Downgrade von { -brand-name-relay-premium } durchführen, erhalten Sie weiterhin E-Mails, die über Ihre benutzerdefinierten E-Mail-Masken weitergeleitet werden, aber Sie können mit dieser Subdomain keine neuen Masken mehr erstellen. Wenn Sie insgesamt mehr als fünf Masken haben, können Sie keine weiteren erstellen. Sie verlieren auch die Möglichkeit, auf weitergeleitete Nachrichten zu antworten. Sie können { -brand-name-relay-premium } erneut abonnieren und wieder auf diese Funktionen zugreifen.
+
 faq-question-8-question = Welche Daten erhebt { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Weitere Informationen zu den von { -brand-name-firefox-relay } gesammelten Daten finden Sie in unserem <a href="{ $url }" { $attrs }>Datenschutzhinweis</a>. Optional können Sie auch Daten zu den Beschriftungen und der Website teilen, die Sie für Ihre E-Mail-Masken verwenden, damit wir Ihnen diesen Dienst anbieten und für Sie verbessern können.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } sammelt die Websites, auf denen Sie Ihre E-Mail-Masken verwendet haben, und kennzeichnet Ihre Masken mit diesen Websites, damit Sie sie leicht identifizieren können. Sie können dies auf Ihrer Einstellungsseite unter Datenschutz deaktivieren. Aber bitte beachten Sie, dass das Deaktivieren dieser Einstellung bedeutet, dass Sie nicht sehen können, wo Sie die einzelnen Masken verwendet haben, und Ihre Kontonamen nicht mehr zwischen Geräten synchronisiert werden. Weitere Informationen zu den Daten, die { -brand-name-firefox-relay } sammelt, finden Sie in unserer <a href="{ $url }" { $attrs }>Datenschutzerklärung</a>.
+
 faq-question-email-storage-question = Speichert { -brand-name-relay } meine E-Mails?
 faq-question-email-storage-answer = In den seltenen Fällen, in denen der Dienst ausfällt, können wir deine E-Mails vorübergehend speichern, bis wir sie senden können. Wir werden deine E-Mails niemals länger als drei Tage speichern.
+
 faq-question-acceptable-use-question = Zu welchem Zweck darf { -brand-name-relay } eingesetzt werden?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -591,10 +594,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = die Anzahl von Masken 
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bitte lese unsere <a href="{ $url }" { $attrs }>Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
+
 faq-question-promotional-email-blocking-question = Was bedeutet das Blockieren von Werbe-E-Mails?
 faq-question-promotional-email-blocking-answer = Abonnenten von { -brand-name-relay-premium } können das Blockieren von Werbe-E-Mails aktivieren. Diese Funktion leitet wichtige E-Mails wie Quittungen, Passwortzurücksetzungen und Bestätigungen weiter, während Werbenachrichten weiterhin blockiert werden. Es besteht ein geringes Risiko, dass eine wichtige Nachricht dennoch blockiert wird, daher empfehlen wir dir, diese Funktion nicht für sehr wichtige Kontakte wie deine Bank zu verwenden. Wenn eine E-Mail blockiert wird, kann sie nicht wiederhergestellt werden.
 faq-question-detect-promotional-question = Wie erkennt { -brand-name-relay }, ob eine E-Mail Werbezwecken dient oder nicht?
 faq-question-detect-promotional-answer = Viele E-Mails werden mit „Kopfzeilen“-Metadaten gesendet, um anzuzeigen, dass sie von listenbasierten automatisierten Werkzeugen stammen. { -brand-name-firefox-relay } erkennt diese Kopfzeilen-Daten, sodass diese E-Mails blockiert werden können.
+
 faq-question-disable-trackerremoval-question = Kann ich die Funktion zum Entfernen der E-Mail-Tracker deaktivieren?
 faq-question-disable-trackerremoval-answer = Ja. Wenn Sie Probleme mit fehlerhaft aussehenden E-Mails haben oder nicht möchten, dass Tracker entfernt werden, können Sie die Funktion in den Einstellungen deaktivieren.
 faq-question-bulk-trackerremoval-question = Kann ich Tracker nur bei bestimmten E-Mail-Masken entfernen?
@@ -638,14 +643,18 @@ profile-label-reset = Zurücksetzen
 profile-label-apply = Anwenden
 profile-label-skip = Überspringen
 profile-label-continue = Weiter
+
 # This string is followed by an email address
 profile-label-forward-emails = E-Mails weiterleiten an:
+
 # This string is followed by date
 profile-label-first-emailed = Erstmals verschickt:
+
 # This string is followed by date:
 profile-label-created = Erstellt:
 profile-label-details-show = Details anzeigen
 profile-label-details-hide = Details ausblenden
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = Weiterleiten
 profile-label-blocking = Blockieren
@@ -724,7 +733,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Schließen
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Zurückweisen
+
 banner-bounced-headline = { -brand-name-relay } konnte deine E-Mail nicht zustellen.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -772,30 +783,36 @@ banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen 
 footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy <i>und</i> Ihre E-Mail-Adresse
 footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummer-Maske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
 banner-label-privacy-notice-update-body = Um die Zuverlässigkeit von { -brand-name-firefox-relay } für den Fall zu verbessern, dass eine E-Mail nicht zugestellt werden kann, speichern wir die E-Mail vorübergehend auf unseren Servern, bis sie zugestellt wurde. Wir speichern die E-Mail nie länger als drei Tage.
 banner-label-privacy-notice-update-cta = Datenschutzhinweis ansehen
+
 # Data Notification Banner:
 banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
 banner-label-data-notification-cta = Einstellungen öffnen
 banner-label-data-notification-header-v2 = Neue Funktionen aktivieren
 banner-label-data-notification-body-cta = Weitere Informationen
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Schützen Sie Ihre Privatsphäre, retten Sie das Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Schützen Sie Ihre Privatsphäre und unterstützen Sie gleichzeitig unsere Mission für ein besseres Internet, alles für { $monthly_price }
 banner-upgrade-loyalist-cta = Holen Sie sich noch mehr Schutz
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Unser Angebot zum Einführungspreis endet bald!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie unbegrenzt viele Masken zu unserem monatlichen Einführungspreis.
 banner-offer-end-cta = Jetzt upgraden
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdomain } erstellen
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppen Sie Spam, automatische Anrufe und Junk-SMS
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
@@ -923,6 +940,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Unbegrenzt viele E-Ma
 multi-part-onboarding-premium-welcome-button-start = Erste Schritte
 multi-part-onboarding-premium-get-subdomain = Eine benutzerdefinierte Subdomain erhalten
 multi-part-onboarding-reply-headline = Auf deine E-Mails antworten
+
 multi-part-onboarding-premium-welcome-description-2 = Keine Begrenzung auf fünf Masken mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Masken generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem { -brand-name-relay }-Add-on nebenbei erstellen.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -987,6 +1005,8 @@ trackerreport-load-error = Beim Erstellen Ihres Tracker-Entfernungsberichts ist 
 
 modal-rename-alias-saved = Beschriftung gespeichert!
 modal-delete-headline-2 = Diese E-Mail-Maske endgültig löschen?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1003,6 +1023,7 @@ modal-delete-confirmation-2 = Ja, ich möchte diese Maske löschen.
 modal-domain-register-good-news = Gute Nachrichten!
 modal-domain-register-warning-reminder-2 = Denken Sie daran, dass Sie nur eine Subdomain registrieren kannst. Sie können sie später nicht mehr ändern.
 modal-domain-register-button-2 = Subdomain registrieren
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } ist verfügbar!
@@ -1010,6 +1031,7 @@ modal-domain-register-available = { $subdomain } ist verfügbar!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist verfügbar!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } registrieren
@@ -1017,6 +1039,7 @@ modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } re
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ich möchte <subdomain>{ $subdomain }</subdomain> registrieren
 modal-domain-register-success-title = Fertig!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1160,6 +1183,7 @@ toast-button-close-label = Benachrichtigung schließen
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Sie haben alle { $free_tier_limit } E-Mail-Masken verwendet, die in Ihrem kostenlosen Konto enthalten sind. Sie können eine vorhandene Maske wiederverwenden, aber die Verwendung einer eindeutigen Maske für jedes Konto ist die sicherste Option.
 api-error-free-tier-no-subdomain-masks = Ihr kostenloses Konto bietet keine benutzerdefinierten Subdomains für Masken. Um benutzerdefinierte Masken zu erstellen, führen Sie ein Upgrade auf { -brand-name-relay-premium } durch.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = „{ $unavailable_address }“ konnte nicht erstellt werden. Bitte versuchen Sie es erneut mit einem anderen Maskennamen.

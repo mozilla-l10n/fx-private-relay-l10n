@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } makket it maklik om e-mailmaskers te meitsjen, dy’t nei jo echte Postfek Yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Iepenet yn in nij ljepblêd)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = E-mailmaskers
 nav-phone-dashboard = Telefoanmaskers
 label-open-menu = Menu iepenje
 avatar-tooltip = Profyl
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Oanmelde
@@ -55,6 +56,7 @@ nav-support = Help en stipe
 nav-sign-out = Ofmelde
 nav-contact = Kontakt
 nav-menu-mobile = Mobyl-menu
+
 fx-desktop-2 = { -brand-name-firefox } foar desktop
 fx-mobile-2 = { -brand-name-firefox } foar mobyl
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Skiednis
 whatsnew-footer-clear-all-label = Alles wiskje
 whatsnew-footer-back-label = Tebek
 whatsnew-footer-learn-more-label = Mear ynfo
+
 whatsnew-empty-message = Kom wis nochris werom – wy wurkje altyd oan geweldige nije funksjes om { -brand-name-relay } noch better te meitsjen.
+
 whatsnew-feature-size-limit-heading = Ferbettere bylagegrutte
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } kin no e
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } kin no e-mailberjochten oant { email-size-limit } trochstjoere, ynklusyf…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } kin no e-mailberjochten oant { email-size-limit } trochstjoere, ynklusyf bylagen.
+
 whatsnew-feature-sign-back-in-heading = Opnij oanmelde mei jo aliassen
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = As jo in nije alias meitsje wolle wannear’t jo om jo e-mailadres frege wurdt, iepenje jo…
 whatsnew-feature-sign-back-in-description = Om jo oan te melden mei in earder brûkte alias, iepenje jo it kontekstmenu wêr’t de website om jo e-mailadres freget. Jo kinne de alias selektearje en it e-mailfjild automatysk ynfolje.
+
 whatsnew-feature-forward-some-heading = Blokkearjen fan reklameberjochten
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = Mei { -brand-name-relay-premium } kinne jo allinnich reklameberjochten blokkearje…
 whatsnew-feature-forward-some-description = Mei { -brand-name-relay-premium } kinne jo allinnich reklameberjochten blokkearje dy’t nei in alias ferstjoerd binne. Jo ûntfange e-mailberjochten lykas bonnen, mar gjin marketingberjochten.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliassen binne no maskers
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = Hawwe jo in feroaring sjoen? Wy neame a
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Hawwe jo in feroaring sjoen? Wy neame aliassen no ‘maskers’ om { -brand-name-firefox-relay } gebrûksfreonliker te meitsjen en nije funksjes mooglik te meitsjen.
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } beskikber yn Sweden
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } beskikber yn Finlân
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Fernij no en ûntfang noch mear beskerming…
 whatsnew-feature-premium-expansion-description = Fernij no en ûntfang noch mear beskerming – meitsje ûnbeheind e-mailmaskers oan, ûntfang in oanpast e-mailsubdomein en mear!
+
 whatsnew-feature-tracker-removal-heading = Nij: ferwiderjen fan e-mailtrackers
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } kin no faaks br
 # Deprecated
 whatsnew-feature-tracker-removal-description = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders.
 whatsnew-feature-tracker-removal-description-2 = { -brand-name-relay } kin no faaks brûkte e-mailtrackers út e-mailberjochten dy’t nei jo trochstjoerd binne ferwiderje, wêrtroch it jo helpt ûnsichtber te bliuwen foar advertearders. Skeakelje dit yn yn ‘Ynstellingen’.
+
 whatsnew-feature-offer-countdown-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Abonnearje jo foar { $end_date } op {
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 whatsnew-feature-offer-countdown-cta = No opwurdearje
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is no beskikber yn de { -brand-name-firefox }-wachtwurdenbehearder
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -176,13 +187,13 @@ hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn 
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
 landing-hero-body-2 =
     { -brand-name-firefox-relay }-e-mailmaskers beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
     No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
+
 landing-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 landing-offer-end-hero-cta = No opwurdearje
 # Variables:
@@ -233,6 +244,7 @@ landing-pricing-free-cta = { -brand-name-relay } downloade
 landing-pricing-free-ribbon = No beskikber!
 # Deprecated
 landing-pricing-free-feature-free = Fergees
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -254,10 +266,12 @@ landing-pricing-premium-feature-4 = Trochstjoerde e-mailberjochten beäntwurdzje
 landing-pricing-premium-feature-5 = Reklameberjochten blokkearje
 # Deprecated
 landing-pricing-premium-feature-6 = Ferwiderjen fan e-mailtrackers
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is op dit stuit net beskikber yn jo lân. Lit jo e-mailadres efter om berjocht te ûntfangen as it wol beskikber komt.
 # Deprecated
 landing-pricing-waitlist-cta = Op de wachtlist pleatse
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,6 +284,7 @@ landing-pricing-offer-end-cta = No opwurdearje
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -282,12 +297,7 @@ plan-matrix-bundle-offer-heading-2 = Mar tydlik: { -brand-name-relay-premium } +
 plan-matrix-bundle-offer-content =
     Probearje { -brand-name-firefox-relay }-e-mailmaskers en begjin mei it beskermjen fan jo Postfek YN.
     Wurdearje dêrnei op nei { -brand-name-relay-premium } foar noch mear fleksibiliteit en oanpasberheid.
-plan-matrix-heading-features = Funksjes
-plan-matrix-heading-plan-free = Beheinde e-mailbeskerming
-plan-matrix-heading-plan-premium = E-mailbeskerming
-plan-matrix-heading-plan-phones = E-mail- en telefoanbeskerming
 plan-matrix-heading-plan-bundle = VPN-beskerming tafoegje
-plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mailmaskers
 plan-matrix-heading-feature-browser-extension = Browserútwreiding
@@ -297,7 +307,6 @@ plan-matrix-heading-feature-email-subdomain = E-mailsubdomein
 plan-matrix-heading-feature-email-reply = Trochstjoerde e-mailberjochten beäntwurdzje
 plan-matrix-heading-feature-phone-mask = Telefoannûmermasker
 plan-matrix-heading-feature-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } e-mailmaskers
@@ -308,15 +317,9 @@ plan-matrix-feature-list-email-subdomain = E-mailsubdomein
 plan-matrix-feature-list-email-reply = Trochstjoerde e-mailberjochten beäntwurdzje
 plan-matrix-feature-list-phone-mask = Telefoannûmermasker
 plan-matrix-feature-list-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Priis
-plan-matrix-feature-count-unlimited = Unbeheind
-plan-matrix-feature-included = Ynbegrepen
-plan-matrix-feature-not-included = Net ynbegrepen
-plan-matrix-price-free = Fergees
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/moanne
-plan-matrix-price-period-yearly = Jierliks
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Jierlikse fakturearing
 plan-matrix-price-period-monthly = Moanliks
@@ -324,7 +327,6 @@ plan-matrix-price-period-monthly = Moanliks
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Besparje { $percentage }% op de normale VPN-priis
 plan-matrix-pick = Registrearje
-plan-matrix-join-waitlist = Op de wachtlist pleatse
 
 ## Use Cases
 
@@ -351,9 +353,11 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Genietsje jo fan online gamen, mar meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa't jo binne fia jo gamertag en e-mailadres?
     Brûk in e-mailmasker om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
+
 landing-use-cases-shopping-hero-heading = Winkelje mei e-mailmaskers
 landing-use-cases-shopping-hero-content1 = Wolle jo wat online keapje en kenne jo de winkel net of fertrouwe jo dizze net folslein?
 landing-use-cases-shopping-hero-content2 = Brûk in e-mailmasker as jo online winkelje. Untfang de befêstiging op jo echte e-mailadres en skeakelje dan it masker letter maklik út.
+
 landing-use-cases-on-the-go = Underweis
 landing-use-cases-on-the-go-heading = Underweis mei { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Meitsje daliks en oeral in oanpast e-mailmasker!
@@ -363,35 +367,11 @@ landing-use-cases-on-the-go-receipt-heading = Untfang ûntfangstbewizen per e-ma
 landing-use-cases-on-the-go-receipt-body = Diel in oanpast e-mailmasker foar kassabonnen yn de winkel sûnder jo echte e-mailadres te dielen
 landing-use-cases-on-the-go-phone-heading = Brûke op jo telefoan
 landing-use-cases-on-the-go-phone-body = Wêr’t jo ek binne, meitsje binnen inkelde sekonden in oanpast e-mailmasker foar alles wat jo dwaan wolle
+
 landing-use-cases-signups = Registraasjes
 landing-use-cases-signups-hero-heading = Soargeleas registrearje
 landing-use-cases-signups-hero-content1 = Wolle jo in nij abonnemint starte, reagearje op in útnûging of in promokoade mei foardiel krije sûnder dat spam jo Postfek YN oerrint?
 landing-use-cases-signups-hero-content2 = Brûk, eardat jo jo folgjende registraasje foltôgje, in e-mailmasker yn stee fan jo echte adres om jo gegevens te beskermjen en kontrôle te hâlden oer jo Postfek YN.
-
-## Landing FAQ Section
-
-landing-faq-headline = Faakstelde fragen oer { -brand-name-firefox-relay }
-landing-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Add-ons
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Boarne: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = fan 5 ({ $review_count } resinsjes)
-landing-reviews-show-next-button = folgjende resinsje toane
-landing-reviews-show-previous-button = foarige resinsje toane
-landing-review-anonymous-user = { -brand-name-firefox }-brûker { $user_id }
-landing-review-user-one-review = Ik wurdearje it { -brand-name-mozilla }-team wurklik foar de kreativiteit en it ferienfâldigjen fan it anonymisearjen fan myn e-mailadres. Dit is in bjusterbaarlike útwreiding, tige oanrekommandearre foar de privacybewuste minsk!
-landing-review-user-two-review = Ienfâldich ark om spam op jo e-mailadres kwyt te reitsjen of te foar te kommen.
-landing-review-user-three-review = Ik mei bot oer dizze útwreiding! Hiel ienfâldich mar krêftich en de yntegraasje mei de browser is prachtich.
-landing-review-user-four-review-list-1 = Jout rêst by it sneupen op it ynternet.
-landing-review-user-four-review-list-2 = Beskermet jo identiteit tsjin folgers troch it oanmeitsjen fan aliassen, wêrby’t jo om ferskate redenen jo echte e-mailadres net diele wolle.
-landing-review-user-four-review-list-3 = E-mailgegevens yn jo Postfek YN binne feilich yn de hannen fan { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wûnderen, probearje it!!!
 
 ## Premium promo page
 
@@ -403,14 +383,17 @@ premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo echte e-mailadres.
 premium-promo-hero-cta = No opwurdearje
+
 premium-promo-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 premium-promo-offer-end-hero-cta = No opwurdearje
+
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Finlân, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Sweden, Switserlân, it FK en de FS.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
+
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailmaskers en jo eigen oanpaste subdomein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
 premium-promo-perks-cta-label = No opwurdearje
@@ -428,6 +411,7 @@ premium-promo-perks-perk-block-promotionals-headline = Reklameberjochten blokkea
 premium-promo-perks-perk-block-promotionals-body = Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke, wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange.
 premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers fuortsmite
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kin jo no helpe mei it ferwiderjen fan e-mailtrackers — jo e-mailmaskers sille gewoane e-mailtrackers út alle e-mailberjochten dy't nei jo trochstjoerd binne ferwiderje, en helpe jo ûnsichtber te bliuwen foar trackers en advertearders.
+
 premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
 premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
@@ -437,7 +421,9 @@ premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
     Brûk in masker lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
+
 premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Yntroduksjepriis: ûnbeheinde maskers foar { $monthly_price } yn ’e moanne
@@ -524,13 +510,16 @@ setting-tracker-removal-warning-2 = Wichtich: Trackers fuortsmite kin der foar s
 ## FAQ Page
 
 faq-headline = Faak stelde fragen
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Wat is in { -brand-name-relay }-e-mailmasker?
 faq-question-what-is-answer-2 = E-mailmaskers binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze maskers kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+
 faq-question-missing-emails-question-2 = Ik ûntfang gjin berjochten fan myn maskers
 faq-question-missing-emails-answer-a-2 = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo maskers trochstjoerd binne, wêrûnder:
 faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
@@ -545,46 +534,60 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
+
 faq-question-use-cases-question-2 = Wannear moat ik { -brand-name-relay }-maskers brûke?
 faq-question-use-cases-answer-part1-2 = Jo kinne { -brand-name-relay }-e-mailmaskers brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
 faq-question-use-cases-answer-part2-2 = Wy rekommandearje it gebrûk fan maskers ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar flechten.
+
 faq-question-2-question-2 = Wêrom akseptearret in website myn e-mailmasker fan { -brand-name-relay } net?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Guon websites akseptearje mooglik gjin e-mailadres mei in subdomein (@subdomein.mozmail.com) en oare akseptearje net alle adressen mear, útsein dy fan Gmail-, Hotmail- of Yahoo-accounts.
+
 faq-question-1-question = Hoe sit it mei spam?
 faq-question-1-answer-a-2 = Hoewol { -brand-name-relay } net filteret op spam, blokkearret ús e-mailpartner Amazon SES wol spam en malware. As { -brand-name-relay } net-winske berjochten trochstjoert, kinne jo jo ynstellingen fan { -brand-name-relay } bywurkje om berjochten te blokkearjen fan it masker dy’t se trochstjoert.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = As jo in breder probleem sjogge fan net-winske e-mail fan al jo maskers, <a href="{ $url }" { $attrs }>meld dit dan oan ús</a> sadat wy oerwage kinne de SES-spamdrompels foar dizze tsjinst oan te passen. As jo dizze as spam melde, sjocht jo e-mailprovider { -brand-name-relay } as de boarne fan spam, net de oarspronklike ôfstjoerder.
+
 faq-question-availability-question = Wêr is { -brand-name-relay } beskikber?
 faq-question-availability-answer = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapore, Maleisië, Nij-Seelân, Frankryk, België, Eastenryk, Spanje, Italië, Switserlân, Nederlân en Ierlân.
 faq-question-availability-answer-v2 = Fergees { -brand-name-relay } is yn de measte lannen beskikber. { -brand-name-relay-premium } is beskikber yn de Ferienige Steaten, Dútslân, it Ferienige Keninkryk, Kanada, Singapoer, Maleizië, Nij-Seelân, Finlân, Frankryk, België, Eastenryk, Spanje, Italië, Sweden, Switserlân, Nederlân en Ierlân.
 faq-question-availability-answer-v3 = { -brand-name-relay } is fergees beskikber yn de measte lannen. { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
+
 faq-question-4-question-2 = Kin ik berjochten beäntwurdzje mei myn { -brand-name-relay }-e-mailmasker?
 faq-question-4-answer-v4 = { -brand-name-relay-premium }-brûkers kinne binnen trije moannen nei ûntfangst reagearje op in trochstjoerd e-mailberjocht. As jo in Cc of Bcc tafoegje wannear’t jo in e-mailberjocht beäntwurdzje, wurdt jo oarspronklike e-mailadres sichtber foar alle ûntfangers fan it berjocht. As jo net wolle dat jo oarspronklike e-mailadres sichtber is, foegje dan gjin Cc’s of Bcc’s ta by it beäntwurdzjen.
+
 faq-question-subdomain-characters-question = Hokker tekens kin ik brûke om in subdomein oan te meitsjen?
 faq-question-subdomain-characters-answer-v2 = Jo kinne allinnich lytse Nederlânske letters, sifers en keppeltekens brûke om in subdomein te meitsjen.
+
 faq-question-browser-support-question = Kin ik { -brand-name-relay } brûke yn oare browsers of myn mobile apparaat?
 faq-question-browser-support-answer-2 = Ja, jo kinne { -brand-name-relay }-maskers generearje yn oare browsers of mobile apparaten troch jo ienfâldichwei oan te melden op jo { -brand-name-relay }-dashboerd.
+
 faq-question-longevity-question = Wat bart der as Mozilla de { -brand-name-firefox-relay }-tsjinst beëiniget?
 faq-question-longevity-answer-2 = Wy litte jo yn it foar witte dat jo it e-mailadres fan accounts dy’t gebrûk meitsje fan { -brand-name-relay }-e-mailmaskers wizigje moat.
+
 faq-question-mozmail-question-2 = Wêrom binne myn maskers begûn it domein ‘mozmail.com’ te brûken?
 faq-question-mozmail-answer-2 = Wy binne oerstapt fan ‘relay.firefox.com’ nei ‘mozmail.com’ om it mooglik te meitsjen in oanpast e-mailsubdomein te krijen, lykas masker@jodomein.mozmail.com. Oanpaste e-mailsubdomeinen, beskikber foar { -brand-name-relay-premium }-abonnees, meitsje jo e-mailmaskers ek folle makliker te ûnthâlden as eigenwillige e-mailmaskers.
+
 faq-question-attachments-question = Stjoert { -brand-name-firefox-relay } e-mailberjochten mei bylagen troch?
 faq-question-attachments-answer-v2 = Wy stypje no it trochstjoeren fan bylagen. Der is echter in limyt fan { email-size-limit } foar it trochstjoeren fan e-mailberjochten mei { -brand-name-relay }. E-mailberjochten dy’t grutter binne as { email-size-limit } wurde net trochstjoerd.
+
 faq-question-unsubscribe-domain-question-2 = Wat bart der mei myn oanpaste subdomein as ik myn abonnemint by { -brand-name-relay-premium } opsis?
 faq-question-unsubscribe-domain-answer-2 = As jo delwurdearje fan { -brand-name-relay-premium }, ûntfange jo noch hieltyd e-mailberjochten dy’t trochstjoerd wurde fia jo oanpaste subdomein, mar kinne jo gjin nije e-mailmaskers mear meitsje mei dat domein. As jo yn totaal mear as fiif maskers hawwe, kinne jo der net mear meitsje. Jo ferlieze ek de mooglikheid om trochstjoerde berjochten te beäntwurdzjen. Jo kinne jo opnij abonnearje op { -brand-name-relay-premium } en wer tagong krije ta dizze funksjes.
+
 faq-question-8-question = Hokker gegevens sammelet { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Jo fine mear ynfo oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>. Jo kinne opsjoneel ek gegevens diele oer de labels en website dy’t jo brûke foar jo e-mailmaskers, sadat wy jo dy tsjinst biede kinne en dizze foar jo ferbetterje kinne.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } sammelet de websites wêr’t jo jo e-mailmaskers brûkt hawwe en labelet jo maskers mei dy websites, sadat jo se maklik identifisearje kinne. Jo kinne jo hjirfoar ôfmelde op jo side Ynstellingen, ûnder Privacy. Hâld der echter rekkening mei dat, as jo dy ynstelling útskeakelje, jo net sjen kinne wêr’t jo elk masker brûkt hawwe en dat jo accountnammen net langer tusken apparaten syngronisearre wurde. Jo fine mear ynformaasje oer de gegevens dy’t { -brand-name-firefox-relay } sammelet yn ús <a href="{ $url }" { $attrs }>Privacyferklearring</a>.
+
 faq-question-email-storage-question = Bewarret { -brand-name-relay } myn e-mailberjochten?
 faq-question-email-storage-answer = Yn it seldsume gefal dat de tsjinst net beskikber is, kinne wy jo e-mailberjochten tydlik bewarje oant wy se ferstjoere kinne. Wy sille jo e-mailberjochten nea langer as trije dagen bewarje.
+
 faq-question-acceptable-use-question = Wat binne de akseptabele tapassingen fan { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -595,10 +598,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = It oantal maskers dat 
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Besjoch ús <a href="{ $url }" { $attrs }>Tsjinstbetingsten</a> foar mear ynformaasje.
+
 faq-question-promotional-email-blocking-question = Wat is blokkearjen fan reklameberjochten?
 faq-question-promotional-email-blocking-answer = Abonnees fan { -brand-name-relay-premium } kinne blokkearjen fan reklameberjochten ynskeakelje. Dizze funksje stjoert jo wichtige e-mailberjochten troch, lykas ûntfangstbewizen, wachtwurdwerinisjalisaasjes en befêstigingen, wylst marketingberjochten noch hieltyd blokkearre wurde. Der is in lytse kâns dat in wichtich berjocht noch hieltyd blokkearre wurdt, dus wy riede jo oan dizze funksje net te brûken foar wichtige plakken, lykas jo bank. As in e-mailberjocht blokkearre wurdt kin it net wersteld wurde.
 faq-question-detect-promotional-question = Hoe detektearret { -brand-name-relay } of in e-mailberjocht reklame is of net?
 faq-question-detect-promotional-answer = In protte e-mailberjochten wurde ferstjoerd met ‘header’-metagegevens dy’t oanjaan dat se ôfkomstich binne fan helpmiddelen dy’t automatysk berjochten ferstjoere. { -brand-name-firefox-relay } detektearret dizze headergegevens, sadat it dizze e-mailberjochten blokkearje kin.
+
 faq-question-disable-trackerremoval-question = Kin ik stopje mei it ferwiderjen fan e-mailtrackers?
 faq-question-disable-trackerremoval-answer = Ja. As jo problemen hawwe mei e-mailberjochten dy’t der net goed útsjogge, of as jo stopje wolle mei it ferwiderjen fan trackers, kinne jo de funksje yn ynstellingen útskeakelje.
 faq-question-bulk-trackerremoval-question = Kin ik trackers allinnich op inkelde fan myn e-mailmaskers ferwiderje?
@@ -642,14 +647,18 @@ profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
 profile-label-skip = Oerslaan
 profile-label-continue = Trochgean
+
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberjochten trochstjoere nei:
+
 # This string is followed by date
 profile-label-first-emailed = Earste kear maild:
+
 # This string is followed by date:
 profile-label-created = Makke:
 profile-label-details-show = Details toane
 profile-label-details-hide = Details ferstopje
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = trochstjoere
 profile-label-blocking = blokkearje
@@ -728,7 +737,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Slute
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Slute
+
 banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -776,30 +787,36 @@ banner-pack-upgrade-copy-2 = Mei ûnbeheinde e-mailmaskers en jo eigen e-mailsub
 footer-banner-premium-promo-headine = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om jo telefoan <i>en</i> e-mail te beskermjen
 footer-banner-premium-promo-body = Krij in telefoannûmermasker, ûnbeheinde e-mailmaskers en oanpaste e-mailadressen foar it rap oanmeitsjen fan maskers.
 banner-pack-upgrade-cta = No opwurdearje
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Fernijing privacyferklearring
 banner-label-privacy-notice-update-body = Om de betrouberheid fan { -brand-name-firefox-relay } te ferbetterjen yn it gefal dat in e-mailberjocht net ôflevere wurde kin, bewarje wy it e-mailberjocht tydlik op ús servers oant it ôflevere is. Wy bewarje it nea langer as trije dagen.
 banner-label-privacy-notice-update-cta = Privacyferklearring besjen
+
 # Data Notification Banner:
 banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
 banner-label-data-notification-cta = Nei Ynstellingen
 banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
 banner-label-data-notification-body-cta = Mear ynfo
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Beskermje jo privacy, rêd it ynternet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Beskermje jo privacy wylst jo meidogge oan ús misje om in better ynternet te bouwen, allegearre foar { $monthly_price }
 banner-upgrade-loyalist-cta = Mear beskerming ûntfange
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Us yntroduksjepriisoanbieding einiget ynkoarten!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 banner-offer-end-cta = No opwurdearje
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stopje spam, robocalls en junkteksten
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo echte nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
@@ -927,6 +944,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Unbeheinde e-mailmask
 multi-part-onboarding-premium-welcome-button-start = Begjinne
 multi-part-onboarding-premium-get-subdomain = In oanpast subdomein krije
 multi-part-onboarding-reply-headline = Antwurdzje op jo e-mailberjochten
+
 multi-part-onboarding-premium-welcome-description-2 = Gjin limyt foar fiif maskers mear: jo kinne no safolle oanpaste of ferskate maskers generearje as jo nedich binne. Op desktop kinne jo de { -brand-name-relay }-add-on brûke om se daliks oan te meitsjen.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -991,6 +1009,8 @@ trackerreport-load-error = Der is in flater bard by it oanmeitsjen fan jo tracke
 
 modal-rename-alias-saved = Label bewarre!
 modal-delete-headline-2 = Dit masker definityf fuortsmite?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1007,6 +1027,7 @@ modal-delete-confirmation-2 = Ja, ik wol dit masker fuortsmite.
 modal-domain-register-good-news = Goed nijs!
 modal-domain-register-warning-reminder-2 = Unthâld dat jo mar ien subdomein registrearje kinne. Jo kinne it letter net mear wizigje.
 modal-domain-register-button-2 = Subdomein registrearje
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beskikber!
@@ -1014,6 +1035,7 @@ modal-domain-register-available = { $subdomain } is beskikber!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is beskikber!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
@@ -1021,6 +1043,7 @@ modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registr
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ik wol <subdomain>{ $subdomain }</subdomain> registrearje
 modal-domain-register-success-title = Slagge!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1164,6 +1187,7 @@ toast-button-close-label = Melding slute
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Jo hawwe alle { $free_tier_limit } e-mailmaskers brûkt by jo fergese account. Jo kinne in besteand masker opnij brûke, mar it brûken fan in unyk masker foar elke account is de feilichste opsje.
 api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpaste subdomeinen foar maskers. Om oanpaste maskers te meitsjen, kinne jo nei { -brand-name-relay-premium } opwurdearje.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.

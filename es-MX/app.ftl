@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilita la creación de correos electrónicos enmascarados que reenvían tus mensajes a tu verdadera bandeja de entrada. Úsalos para proteger tus cuentas en línea de piratas informáticos y mensajes no deseados.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Abrir en una nueva pestaña)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = Máscaras de correo electrónico
 nav-phone-dashboard = Máscaras de teléfono
 label-open-menu = Abrir menú
 avatar-tooltip = Perfil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Preguntas frecuentes
 nav-profile-sign-in = Iniciar sesión
@@ -55,6 +56,7 @@ nav-support = Ayuda y soporte
 nav-sign-out = Salir
 nav-contact = Contáctanos
 nav-menu-mobile = Menú para celular
+
 fx-desktop-2 = { -brand-name-firefox } para Escritorio
 fx-mobile-2 = { -brand-name-firefox } para dispositivo móvil
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Historial
 whatsnew-footer-clear-all-label = Borrar todo
 whatsnew-footer-back-label = Atrás
 whatsnew-footer-learn-more-label = Saber más
+
 whatsnew-empty-message = Asegúrate de volver a consultar aquí — siempre estamos trabajando en funciones nuevas y geniales para hacer que { -brand-name-relay }  sea aún mejor.
+
 whatsnew-feature-size-limit-heading = Aumento del tamaño del archivo adjunto
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } ahora pu
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } ahora puede reenviar correos electrónicos hasta de { email-size-limit }, incluyendo…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } ahora puede reenviar correos electónicos hasta de { email-size-limit }, incluyendo adjuntos.
+
 whatsnew-feature-sign-back-in-heading = Inicia sesión de nuevo con tus alias
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Para crear un nuevo alias cuando se te solicite tu correo electrónico, abre…
 whatsnew-feature-sign-back-in-description = Para iniciar sesión con un alias utilizado anteriormente, abre el menú de contexto donde el sitio solicita tu correo electrónico. Podrás seleccionar el alias y autocompletar el campo de correo electrónico.
+
 whatsnew-feature-forward-some-heading = Bloqueo de correos electrónicos promocionales
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permite bloquear solo correos electrónicos promocionales…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permite bloquear solo los correos electrónicos promocionales enviados a un alias. Recibirás correos electrónicos como recibos, pero no correos electrónicos de marketing.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Los alias ahora son máscaras
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = ¿Notas un cambio? Ahora estamos llaman
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = ¿Notas un cambio? Ahora estamos llamando a los alias “máscaras” para que { -brand-name-firefox-relay } sea más fácil de usar y abra la puerta a nuevas funciones.
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponible en Suecia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponible en Finlandia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Actualiza ahora y obtendrás mucha más protección…
 whatsnew-feature-premium-expansion-description = ¡Actualiza ahora y obtendrás mucha más protección, crea máscaras de correo ilimitadas, obtén un subdominio de correo y más!
+
 whatsnew-feature-tracker-removal-heading = Presentamos el eliminador de rastreadores de correo electrónico
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = Ahora { -brand-name-relay } puede eli
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ahora { -brand-name-relay } puedes eliminar rastreadores de correo electrónico comunes de los correos electrónicos que se te reenvían, ayudando a mantenerte invisible para los anunciantes.
 whatsnew-feature-tracker-removal-description-2 = Ahora { -brand-name-relay } puede eliminar rastreadores de correo electrónico comunes de los correos electrónicos que se te reenvían, lo que lo ayuda a mantenerse invisible para los anunciantes. Actívalo en “Configuración.”
+
 whatsnew-feature-offer-countdown-heading = ¡Nuestra oferta de precios de introducción finaliza pronto!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Obtén { -brand-name-relay-premium } 
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
 whatsnew-feature-offer-countdown-cta = Actualizar ahora
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ahora está disponible en el administrador de contraseñas de { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -176,13 +187,13 @@ hero-image-copy-control-html = ¡Ahora <em>tienes el control</em> de lo que lleg
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Protege tu dirección de correo real para ayudar a controlar tu bandeja de entrada
 landing-hero-body-2 =
     Los correos electrónicos enmascarados de { -brand-name-firefox-relay } protegen tu verdadera dirección de correo electrónico de la vista del público y reenvían automáticamente los mensajes a tu verdadera bandeja de entrada.
     Ahora puedes recibir solo los mensajes que quieras en tu bandeja de entrada. Regístrate con tu { -brand-name-firefox-account } para empezar.
+
 landing-offer-end-hero-heading = ¡Nuestra oferta de precios de introducción terminará pronto!
 landing-offer-end-hero-cta = Actualizar ahora
 # Variables:
@@ -233,6 +244,7 @@ landing-pricing-free-cta = Obtener { -brand-name-relay }
 landing-pricing-free-ribbon = ¡Disponible ahora!
 # Deprecated
 landing-pricing-free-feature-free = Gratis
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -254,10 +266,12 @@ landing-pricing-premium-feature-4 = Responder a correos electrónicos reenviados
 landing-pricing-premium-feature-5 = Bloquear correos con publicidad
 # Deprecated
 landing-pricing-premium-feature-6 = Eliminación del rastreador de correo electrónico
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } no está disponible actualmente en tu país. Por favor, compártenos tu correo electrónico para que te notifiquemos tan pronto esté disponible.
 # Deprecated
 landing-pricing-waitlist-cta = Únete a la lista de espera
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,6 +284,7 @@ landing-pricing-offer-end-cta = Actualizar ahora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -280,12 +295,7 @@ plan-matrix-bundle-offer-heading = Solo por tiempo limitado: { -brand-name-relay
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Solo por tiempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content = Prueba las máscaras de correo electrónico { -brand-name-firefox-relay } y comienza a proteger tu bandeja de entrada. Luego actualiza a { -brand-name-relay-premium } para obtener aún más flexibilidad y control personalizado.
-plan-matrix-heading-features = Características
-plan-matrix-heading-plan-free = Protección de correo electrónico limitada
-plan-matrix-heading-plan-premium = Protección de correo electrónico
-plan-matrix-heading-plan-phones = Protección de correo electrónico y teléfono
 plan-matrix-heading-plan-bundle = Añadir protección VPN
-plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Máscaras de correo electrónico
 plan-matrix-heading-feature-browser-extension = Extensión del navegador
@@ -295,7 +305,6 @@ plan-matrix-heading-feature-email-subdomain = Subdominio de correo electrónico
 plan-matrix-heading-feature-email-reply = Responder a correos electrónicos reenviados
 plan-matrix-heading-feature-phone-mask = Máscara de número de teléfono
 plan-matrix-heading-feature-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } máscaras de correo electrónico
@@ -306,15 +315,9 @@ plan-matrix-feature-list-email-subdomain = Subdominio de correo electrónico
 plan-matrix-feature-list-email-reply = Responder a correos electrónicos reenviados
 plan-matrix-feature-list-phone-mask = Máscara de número de teléfono
 plan-matrix-feature-list-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Precio
-plan-matrix-feature-count-unlimited = Ilimitado
-plan-matrix-feature-included = Incluido
-plan-matrix-feature-not-included = No incluido
-plan-matrix-price-free = Gratis
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/month
-plan-matrix-price-period-yearly = Anual
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Facturación anual
 plan-matrix-price-period-monthly = Mensual
@@ -322,7 +325,6 @@ plan-matrix-price-period-monthly = Mensual
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Ahorra { $percentage }% sobre el precio normal de VPN
 plan-matrix-pick = Regístrarte
-plan-matrix-join-waitlist = Únete a la lista de espera
 
 ## Use Cases
 
@@ -349,9 +351,11 @@ landing-use-cases-gaming = Juegos
 landing-use-cases-gaming-body-2 =
     ¿Disfrutas de los juegos en línea, pero te preocupa que otros jugadores o acosadores sepan quién eres a través de tu gamertag y dirección de correo electrónico?
     Usa una máscara de correo electrónico para poner una capa más de protección entre tu identidad en línea y los juegos que juegas en línea.
+
 landing-use-cases-shopping-hero-heading = Comprar con máscaras de correos electrónicos
 landing-use-cases-shopping-hero-content1 = ¿Quieres comprar algo en línea y no sabes o no confías completamente en la tienda?
 landing-use-cases-shopping-hero-content2 = Usa una máscara de correo electrónico cada vez que compres en línea. Recibe la confirmación de compra enviada a tu correo electrónico real y luego fácilmente desactiva la máscara en cualquier momento.
+
 landing-use-cases-on-the-go = Sobre la marcha
 landing-use-cases-on-the-go-heading = Sobre la marcha con { -brand-name-relay }
 landing-use-cases-on-the-go-lead = ¡Crea rápidamente una máscara de correo personalizada cuando quieras y donde quieras!
@@ -361,35 +365,11 @@ landing-use-cases-on-the-go-receipt-heading = Recibe tus notas de compra por cor
 landing-use-cases-on-the-go-receipt-body = Comparte una máscara de correo personalizada para recibos de compras en la tienda sin compartir tu correo real
 landing-use-cases-on-the-go-phone-heading = Úsalo en tu teléfono
 landing-use-cases-on-the-go-phone-body = No importa dónde estés, crea una máscara de correo electrónico personalizada en segundos para cualquier cosa que desees hacer
+
 landing-use-cases-signups = Registros
 landing-use-cases-signups-hero-heading = Regístrate sin preocupaciones
 landing-use-cases-signups-hero-content1 = ¿Quieres iniciar una nueva suscripción, responder a una invitación u obtener un código de promoción sin que el spam inunde tu bandeja de entrada?
 landing-use-cases-signups-hero-content2 = Antes de completar el próximo registro, usa una máscara de correo en lugar de la real para proteger tu información y mantener el control sobre tu bandeja de entrada.
-
-## Landing FAQ Section
-
-landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
-landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Complementos
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Fuente: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = de 5 ({ $review_count } reseñas)
-landing-reviews-show-next-button = mostrar la próxima reseña
-landing-reviews-show-previous-button = mostrar la reseña anterior
-landing-review-anonymous-user = Usuario { $user_id } de { -brand-name-firefox }
-landing-review-user-one-review = Realmente agradezco al equipo de { -brand-name-mozilla } por ser tan creativo y simplificar el anonimato de mi dirección de correo electrónico. Esta es una gran extensión, ¡la recomiendo totalmente a los amantes de la privacidad!
-landing-review-user-two-review = Herramienta simple para deshacerse o evitar el envío de spam a tu ID de correo electrónico.
-landing-review-user-three-review = ¡Me encanta esta extensión! Muy simple pero potente y la integración con el navegador es maravillosa.
-landing-review-user-four-review-list-1 = Da tranquilidad al navegar por internet.
-landing-review-user-four-review-list-2 = Protege mi identidad de los rastreadores a través de la generación de alias cuando uno no quiere compartir la dirección de correo electrónico real por varias razones.
-landing-review-user-four-review-list-3 = Los datos de la bandeja de entrada están seguros en manos de { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona de maravilla, ¡pruébalo!
 
 ## Premium promo page
 
@@ -401,14 +381,17 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, obti
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, obtienes máscaras de correo electrónico personalizadas ilimitadas que reenvían solo los correos electrónicos que deseas a tu verdadera dirección de correo electrónico.
 premium-promo-hero-cta = Actualizar ahora
+
 premium-promo-offer-end-hero-heading = ¡Nuestra oferta de precios de introducción terminará pronto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta de protección de correo premium a nuestro precio de introducción de mes a mes.
 premium-promo-offer-end-hero-cta = Actualizar ahora
+
 premium-promo-availability-warning = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } está disponible actualmente en Austria, Bélgica, Canadá, Finlandia, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suecia, Suiza, Reino Unido y Estados Unidos.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
+
 premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección en tu bandeja de entrada y organización de { -brand-name-relay }, pero con correos enmascarados ilimitados y un subdominio propio personalizado para que tu administración de bandeja de entrada sea más sencilla.
 premium-promo-perks-cta-label = Actualizar ahora
@@ -424,6 +407,7 @@ premium-promo-perks-perk-block-promotionals-headline = Bloquear correos electró
 premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu bandeja de entrada mientras sigues recibiendo correos electrónicos como recibos o información de envío de paquetería.
 premium-promo-perks-perk-tracker-blocking-headline = Eliminar rastreadores de correo electrónico
 premium-promo-perks-perk-tracker-blocking-body = Ahora { -brand-name-relay } puede ayudarte a detener el seguimiento del correo: tus máscaras de correo eliminarán los rastreadores de correo comunes de cualquier correo que se te reenvíe, lo que lo ayudará a mantenerse invisible para los rastreadores y los anunciantes.
+
 premium-promo-use-cases-headline-2 = Usa correos enmascarados de { -brand-name-relay } donde sea
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = ¿Quieres registrarte para obtener descuentos sin todo el spam? Empaqueta todas tus cuentas de “compra” en un correo enmascarado como “miscompras@midominio.mozmail.com.”
@@ -431,7 +415,9 @@ premium-promo-use-cases-social-networks-heading = Redes sociales
 premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa un correo enmascarado diferente para iniciar sesión en cada red social y ayuda a proteger tu verdadero correo electrónico para que no quede expuesto a esos sitios.
 premium-promo-use-cases-gaming-heading = Juegos
 premium-promo-use-cases-gaming-body-2 = ¿Preocupado porque otros jugadores o trolls sepan quien eres a través de tu gamertag y dirección de correo electrónico? Usa una máscara como “juegoenlinea@midominio.mozmail.com" para poner mayor protección entre tu identidad y los juegos que disfrutas en línea.
+
 premium-promo-pricing-free-price = Tu plan gratuito actual
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
@@ -508,13 +494,16 @@ setting-tracker-removal-warning-2 = Importante: la eliminación de rastreadores 
 ## FAQ Page
 
 faq-headline = Preguntas frecuentes
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = ¿Que es un correo enmascarado de { -brand-name-relay }?
 faq-question-what-is-answer-2 = Las correos enmascarados son direcciones de correo electrónico privadas que reenvían mensajes a tu verdadera dirección de correo electrónico. Estas máscaras te permiten compartir una dirección con terceros que enmascararán tu verdadera dirección de correo electrónico y te reenviarán mensajes.
+
 faq-question-missing-emails-question-2 = No estoy recibiendo mensajes de mis correos enmascarados
 faq-question-missing-emails-answer-a-2 = Hay algunas razones porque las que podrías no estar recibiendo correos reenviados a tus máscaras. Estas razones incluyen:
 faq-question-missing-emails-answer-reason-spam = Los mensajes se convierten en spam
@@ -529,45 +518,59 @@ faq-question-missing-emails-answer-b-html = Si eres un usuario de { -brand-name-
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Si tienes alguno de estos problemas, <a href="{ $url }" { $attrs }>visite nuestro sitio de asistencia</a>.
+
 faq-question-use-cases-question-2 = ¿Cuándo debo usar correos enmascarados de { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Puedes usar correos enmascarados de { -brand-name-relay } en la mayoría de los lugares donde usarías tu dirección de correo electrónico habitual. Recomendamos usarlos cuando te registres para recibir correos electrónicos de marketing/informativos en los que desees controlar si recibirás o no correos electrónicos en el futuro.
 faq-question-use-cases-answer-part2-2 = No recomendamos el uso de máscaras cuando necesites verificar tu identidad o para correos electrónicos muy importantes o en los que debes recibir archivos adjuntos. Por ejemplo, tendrías que compartir tu verdadera dirección de correo con tu banco, médico y abogado, así como cuando recibes boletos de un concierto o un vuelo.
+
 faq-question-2-question-2 = ¿Por qué un sitio no aceptaría mi correo enmascarado de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Es posible que algunos sitios no acepten una dirección de correo electrónico que incluya un subdominio (@subdominio.mozmail.com) y otros han dejado de aceptar todas las direcciones excepto las de las cuentas de Gmail, Hotmail o Yahoo.
+
 faq-question-1-question = ¿Qué pasa con el spam?
 faq-question-1-answer-a-2 = Si bien { -brand-name-relay } no filtra el spam, nuestro socio de correo electrónico Amazon SES bloquea el spam y el malware. Si { -brand-name-relay } reenvía mensajes que no deseas, puedes actualizar tu configuración de { -brand-name-relay } para bloquear los mensajes de la máscara que los reenvía.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Si ves un problema mayor de correo electrónico no deseado de todas sus máscaras, por favor <a href="{ $url }" { $attrs }>infórmanos</a> para que podamos considerar ajustar los umbrales de spam de SES para esto. Si los reporta como spam, tu proveedor de correo electrónico verá { -brand-name-relay } como la fuente del spam, no el remitente original.
+
 faq-question-availability-question = ¿Dónde está disponible { -brand-name-relay }?
 faq-question-availability-answer = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Francia, Bélgica, Austria, España, Italia, Suiza, Países Bajos e Irlanda.
 faq-question-availability-answer-v2 = La versión gratuita de { -brand-name-relay } está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Estados Unidos, Alemania, Reino Unido, Canadá, Singapur, Malasia, Nueva Zelanda, Finlandia, Francia, Bélgica, Austria, España, Italia, Suecia, Suiza, Países Bajos e Irlanda.
 faq-question-availability-answer-v3 = { -brand-name-relay } gratuito está disponible en la mayoría de los países. { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
+
 faq-question-4-question-2 = ¿Puedo responder mensajes usando mi correo enmascarado de { -brand-name-relay }?
 faq-question-4-answer-v4 = Los usuarios de { -brand-name-relay-premium } pueden responder a un correo electrónico reenviado dentro de los 3 meses posteriores a la recepción del correo electrónico. Si agregas un CC o CCO cuando respondes a un correo electrónico, tu dirección de correo electrónico original estará expuesta al destinatario y a los que se hayan copiado en el correo electrónico. Si no deseas que se exponga tu dirección de correo electrónico original, no agregues CC o CCO al responder.
+
 faq-question-subdomain-characters-question = ¿Qué caracteres puedo usar para crear un subdominio?
 faq-question-subdomain-characters-answer-v2 = Solo puedes usar letras minúsculas, números y guiones en inglés para crear un subdominio.
+
 faq-question-browser-support-question = ¿Puedo usar { -brand-name-relay } en otros navegadores o en mi dispositivo móvil?
 faq-question-browser-support-answer-2 = Sí, puedes generar máscaras de { -brand-name-relay } en otros navegadores o dispositivos móviles simplemente al iniciar sesión en tu tablero de { -brand-name-relay }.
+
 faq-question-longevity-question = ¿Qué sucede si Mozilla cierra el servicio { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Te avisaremos con anticipación que necesitas cambiar la dirección de correo electrónico de cualquier cuenta que esté usando máscaras de correo de { -brand-name-relay }.
+
 faq-question-mozmail-question-2 = ¿Por qué mis correos enmascarados comenzaron a usar el dominio “mozmail.com?”
 faq-question-mozmail-answer-2 = Hicimos el cambio de “relay.firefox.com” a “mozmail.com” para poder obtener un subdominio de correo electrónico personalizado, como mascara@tudominio.mozmail.com. Los subdominios de correo electrónico personalizados, disponibles para los suscriptores de { -brand-name-relay-premium }, te permiten generar fácilmente más correos enmascarados.
+
 faq-question-attachments-question = ¿Reenviará { -brand-name-firefox-relay } correos electrónicos con archivos adjuntos?
 faq-question-attachments-answer-v2 = Ahora admitimos el reenvío de archivos adjuntos. Sin embargo, existe un límite de { email-size-limit } para el reenvío de correo electrónico mediante { -brand-name-relay }. Los correos electrónicos que superen el { email-size-limit } no se reenviarán.
+
 faq-question-unsubscribe-domain-question-2 = ¿Qué pasa con mi subdominio personalizado si elimino mi suscripción de { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Si eliminas tu suscripción de { -brand-name-relay-premium }, aún recibirás correos reenviados a través de tus correos enmascarados personalizados, pero no podrás crear más máscaras usando ese subdominio. Si tienes más de cinco máscaras en total, no podrás crear más. También perderás la habilidad de responder mensajes reenviados. Puedes volver a suscribirte a { -brand-name-relay-premium } y obtener acceso de nuevo a esas características.
+
 faq-question-8-question = ¿Qué datos recopila { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Puedes obtener más información sobre los datos que recopila { -brand-name-firefox-relay } consultando nuestro <a href="{ $url }" { $attrs }>Aviso de privacidad</a>. Opcionalmente, también puedes compartir datos sobre las etiquetas y el sitio que utilizas para tus correos enmascarados y así podamos brindarte ese servicio y mejorarlo.
+
 faq-question-email-storage-question = ¿{ -brand-name-relay } almacena mis correos electrónicos?
 faq-question-email-storage-answer = En las raras circunstancias en las que el servicio no funcione, podemos almacenar temporalmente tus correos electrónicos hasta que podamos enviarlos. Nunca almacenaremos tus correos electrónicos por más de tres días.
+
 faq-question-acceptable-use-question = ¿Cuáles son los usos aceptables de { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -578,10 +581,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = La tasa de limite de l
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Por favor, lee nuestros <a href="{ $url }" { $attrs }>Términos de Servicio</a> para más información.
+
 faq-question-promotional-email-blocking-question = ¿Qué es el bloqueo de correo electrónico promocional?
 faq-question-promotional-email-blocking-answer = Los suscriptores de { -brand-name-relay-premium } pueden habilitar el bloqueo de correo electrónico promocional. Esta función te reenviará correos electrónicos importantes, como recibos, restablecimientos de contraseña y confirmaciones, mientras bloquea los mensajes de marketing. Existe un ligero riesgo de que se bloquee un mensaje importante, por lo que te recomendamos que no utilices esta función para lugares muy importantes como tu banco. Si un correo electrónico está bloqueado, no se puede recuperar.
 faq-question-detect-promotional-question = ¿Cómo detecta { -brand-name-relay } si un correo electrónico es promocional o no?
 faq-question-detect-promotional-answer = Muchos correos electrónicos se envían con metadatos de “encabezado” para indicar que provienen de herramientas automatizadas basadas en listas. { -brand-name-firefox-relay } detecta estos datos de encabezado para que pueda bloquear estos correos electrónicos.
+
 faq-question-disable-trackerremoval-question = ¿Puedo detener el eliminador de rastreadores de correo electrónico?
 faq-question-disable-trackerremoval-answer = Sí. Si tienes problemas con los correos electrónicos que parecen incompletos o deseas dejar de eliminar los rastreadores, puedes deshabilitar la función en la configuración.
 faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo en algunas máscaras de correo electrónico?
@@ -625,14 +630,18 @@ profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-skip = Omitir
 profile-label-continue = Continuar
+
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
+
 # This string is followed by date
 profile-label-first-emailed = Fecha del primer mensaje:
+
 # This string is followed by date:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
@@ -711,7 +720,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Descartar
+
 banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -759,30 +770,36 @@ banner-pack-upgrade-copy-2 = Con correos enmascarados personalizados y tu subdom
 footer-banner-premium-promo-headine = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger tu teléfono <i>y</i> correo electrónico
 footer-banner-premium-promo-body = Obtén una máscara de número de teléfono, máscaras de correo electrónico ilimitadas y direcciones de correo electrónico personalizados para la creación rápida de máscaras.
 banner-pack-upgrade-cta = Actualizar ahora
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
 banner-label-privacy-notice-update-body = Para mejorar la confiabilidad de { -brand-name-firefox-relay } en caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se entregue. Nunca lo conservaremos por más de tres días.
 banner-label-privacy-notice-update-cta = Ver aviso de privacidad
+
 # Data Notification Banner:
 banner-label-data-notification-header = Próximamente en { -brand-name-relay }
 banner-label-data-notification-cta = Ir a Ajustes
 banner-label-data-notification-header-v2 = Activar nuevas funciones
 banner-label-data-notification-body-cta = Saber más
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Protege tu privacidad, salva al Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu privacidad mientras te unes a nuestra misión para construir un mejor Internet, todo por { $monthly_price }
 banner-upgrade-loyalist-cta = Obtén más protección
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = ¡Nuestra oferta de precios de introducción finaliza pronto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
 banner-offer-end-cta = Actualizar ahora
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Detén el spam, las llamadas automáticas y los mensajes de texto no deseados
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te brinda una máscara de teléfono para proteger tu número real — además de máscaras de correo electrónico ilimitadas.
@@ -910,6 +927,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Generar correos enmas
 multi-part-onboarding-premium-welcome-button-start = Comenzar
 multi-part-onboarding-premium-get-subdomain = Conseguir un subdominio personalizado
 multi-part-onboarding-reply-headline = Responder a tus correos
+
 multi-part-onboarding-premium-welcome-description-2 = No más limitaciones a 5 máscaras: ahora puedes generar tantas máscaras personalizadas y aleatorias como necesites. En el navegador de escritorio, puedes usar el complemento { -brand-name-relay } para crearlo rápidamente.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -974,6 +992,8 @@ trackerreport-load-error = Se produjo un error al generar el informe de eliminac
 
 modal-rename-alias-saved = ¡Etiqueta guardada!
 modal-delete-headline-2 = ¿Eliminar permanentemente este correo enmascarado?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -990,6 +1010,7 @@ modal-delete-confirmation-2 = Sí, deseo eliminar esta máscara.
 modal-domain-register-good-news = ¡Buenas noticias!
 modal-domain-register-warning-reminder-2 = Recuerda, solamente puedes registrar un subdominio. No serás capaz de cambiarlo después.
 modal-domain-register-button-2 = Registrar subdominio
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = ¡{ $subdomain } está disponible!
@@ -997,6 +1018,7 @@ modal-domain-register-available = ¡{ $subdomain } está disponible!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.¡{ $domain }</domain> está disponible!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
@@ -1004,6 +1026,7 @@ modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomai
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Sí, quiero registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = ¡Correcto!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1138,6 +1161,7 @@ toast-button-close-label = Cerrar notificación
 ## API error messages
 
 api-error-free-tier-no-subdomain-masks = Tu cuenta gratuita no incluye subdominios personalizados para máscaras. Para crear máscaras personalizadas, actualiza a { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = No se pudo crear “{ $unavailable_address }”. Vuelve a intentarlo con un nombre de máscara diferente.

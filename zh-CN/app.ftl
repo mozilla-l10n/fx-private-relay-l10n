@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } 可以轻松创建马甲邮箱，用它收邮件并转发至您的真实邮箱。可用马甲邮箱来保护您的账户，不受黑客和垃圾邮件的侵扰。
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = （在新标签页中打开）
 
@@ -20,6 +20,7 @@ nav-email-dashboard = 马甲邮箱
 nav-phone-dashboard = 虚拟手机号
 label-open-menu = 打开菜单
 avatar-tooltip = 个人资料
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = 常见问题
 nav-profile-sign-in = 登录
@@ -55,6 +56,7 @@ nav-support = 帮助和支持
 nav-sign-out = 退出
 nav-contact = 联系我们
 nav-menu-mobile = 移动菜单
+
 fx-desktop-2 = { -brand-name-firefox } 桌面版
 fx-mobile-2 = { -brand-name-firefox } 移动版
 
@@ -80,7 +82,9 @@ whatsnew-tab-archive-label = 历史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 详细了解
+
 whatsnew-empty-message = 请常回来看看！我们正不断努力开发更多新功能，让 { -brand-name-relay } 更加强大易用。
+
 whatsnew-feature-size-limit-heading = 附件容量增加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -90,16 +94,19 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } 现在�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件，包含（…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件（包含附件）。
+
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = 当网站要求您输入邮箱时，请打开…
 whatsnew-feature-sign-back-in-description = 要使用先前用过的马甲邮箱登录网站，请在网站的邮箱输入框中点击右键菜单，之后选择马甲邮箱并自动填充。
+
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 🐍 + 👕 = 🐢，📧 + 👕 = Firefox Relay
@@ -111,12 +118,14 @@ whatsnew-feature-alias-to-mask-snippet = { -brand-name-firefox-relay }，为邮�
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = { -brand-name-firefox-relay }，为邮箱披上“马甲”，诸多新特性轻松上手。
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已在瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已在芬兰推出
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
 whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护——创建无限的马甲邮箱、获取自定义电子邮件子域名等！
+
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -124,6 +133,7 @@ whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以�
 # Deprecated
 whatsnew-feature-tracker-removal-description = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。
 whatsnew-feature-tracker-removal-description-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。可到“设置”中启用。
+
 whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -134,6 +144,7 @@ whatsnew-feature-offer-countdown-snippet = 在 { $end_date } 之前获得 { -bra
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，即可以我们的上市优惠价畅享无限马甲。
 whatsnew-feature-offer-countdown-cta = 立即升级
+
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } 现在可以在 { -brand-name-firefox } 密码管理器中使用
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -172,13 +183,13 @@ hero-image-copy-control-html = 现在起，<em>您可以自行控制</em>哪些�
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = 保护你的真实邮箱地址，拒绝垃圾邮件侵扰
 landing-hero-body-2 =
     { -brand-name-firefox-relay } 马甲邮箱可自动将邮件转发至您的真实邮箱，从而保护您的真实邮箱地址不被泄露。
     从现在起，把邮箱里那些烦人的“不速之客”统统挡在外面。使用 { -brand-name-firefox-account }注册即可开始使用。
+
 landing-offer-end-hero-heading = 优惠价即将结束！
 landing-offer-end-hero-cta = 立即升级
 # Variables:
@@ -225,6 +236,7 @@ landing-pricing-free-cta = 下载 { -brand-name-relay }
 landing-pricing-free-ribbon = 现已可用！
 # Deprecated
 landing-pricing-free-feature-free = 免费
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -246,10 +258,12 @@ landing-pricing-premium-feature-4 = 回复转发的电子邮件
 landing-pricing-premium-feature-5 = 屏蔽营销邮件
 # Deprecated
 landing-pricing-premium-feature-6 = 移除邮件跟踪器
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 当前在您的国家/地区不可用。您可留下电子邮件地址，在可用时收到通知。
 # Deprecated
 landing-pricing-waitlist-cta = 加入预约名单
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -262,6 +276,7 @@ landing-pricing-offer-end-cta = 立刻升級
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-name-relay-premium } 并以我们的推荐月价享受高级电子邮件保护。
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -272,12 +287,7 @@ plan-matrix-bundle-offer-heading = 限时特惠：{ -brand-name-relay-premium } 
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = 限时特惠：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 仅售 { $monthly_price } 每月*
 plan-matrix-bundle-offer-content = 试用 { -brand-name-firefox-relay } 马甲邮箱保护您的真实邮箱地址。升级为 { -brand-name-relay-premium }，则可获得更多灵活性和控制选项。
-plan-matrix-heading-features = 功能
-plan-matrix-heading-plan-free = 有限的电子邮件保护
-plan-matrix-heading-plan-premium = 电子邮件保护
-plan-matrix-heading-plan-phones = 电子邮件和电话保护
 plan-matrix-heading-plan-bundle = 添加 VPN 保护
-plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = 马甲邮箱
 plan-matrix-heading-feature-browser-extension = 浏览器扩展
@@ -287,7 +297,6 @@ plan-matrix-heading-feature-email-subdomain = 子域名邮箱
 plan-matrix-heading-feature-email-reply = 回复转发的电子邮件
 plan-matrix-heading-feature-phone-mask = 虚拟手机号
 plan-matrix-heading-feature-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } 个邮箱马甲
@@ -298,15 +307,9 @@ plan-matrix-feature-list-email-subdomain = 子域名邮箱
 plan-matrix-feature-list-email-reply = 回复转发的电子邮件
 plan-matrix-feature-list-phone-mask = 虚拟手机号
 plan-matrix-feature-list-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = 价格
-plan-matrix-feature-count-unlimited = 无限制
-plan-matrix-feature-included = 包含
-plan-matrix-feature-not-included = 不含
-plan-matrix-price-free = 免费
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price } / 月
-plan-matrix-price-period-yearly = 每年
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = 按年计费
 plan-matrix-price-period-monthly = 每月
@@ -314,7 +317,6 @@ plan-matrix-price-period-monthly = 每月
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = VPN 原价再享 { $percentage }% 折扣
 plan-matrix-pick = 注册
-plan-matrix-join-waitlist = 加入预约名单
 
 ## Use Cases
 
@@ -329,9 +331,11 @@ landing-use-cases-access-content = 网络读物
 landing-use-cases-access-content-body-2 = 想要订阅某个新闻通讯，但不信任发件人？请使用马甲邮箱。若您开始收到转发的无关电子邮件，则说明发件人可能已将您的马甲邮箱出售给其他营销人员，甚至可能已被公开泄露。此时，只需关闭或删除马甲即可保护您的收件箱。
 landing-use-cases-gaming = 游戏
 landing-use-cases-gaming-body-2 = 爱玩网络游戏，但担心其他玩家或憨批用您的玩家代号或邮箱地址人肉你？请使用马甲邮箱，多一层身份伪装，多一份安全。
+
 landing-use-cases-shopping-hero-heading = 用马甲邮箱网购
 landing-use-cases-shopping-hero-content1 = 想要网购，但不熟悉或不是很信任商家？
 landing-use-cases-shopping-hero-content2 = 网购就用马甲邮箱。您可将订单邮件转发至真实邮箱，并随时按需关闭马甲的转发功能。
+
 landing-use-cases-on-the-go = 旅途中
 landing-use-cases-on-the-go-heading = 随时随地使用 { -brand-name-relay }
 landing-use-cases-on-the-go-lead = 随时随地创建自定义马甲邮箱！
@@ -341,35 +345,11 @@ landing-use-cases-on-the-go-receipt-heading = 收取电子收据邮件
 landing-use-cases-on-the-go-receipt-body = 向商家提供马甲邮箱用于发送电子收据，无需提供真实邮箱
 landing-use-cases-on-the-go-phone-heading = 在手机上使用
 landing-use-cases-on-the-go-phone-body = 无论您身居何处，只需几秒就可为想做的任何事情创建自定义马甲邮箱
+
 landing-use-cases-signups = 注册
 landing-use-cases-signups-hero-heading = 注册全无忧
 landing-use-cases-signups-hero-content1 = 想要开始新订阅、回复邀请或获得优惠促销代码，而不让垃圾邮件充斥您的收件箱吗？
 landing-use-cases-signups-hero-content2 = 您在下次注册账号时，可使用马甲邮箱而非真实邮箱，保护您的个人信息并更好地管理收件箱
-
-## Landing FAQ Section
-
-landing-faq-headline = { -brand-name-firefox-relay } 的常见问题
-landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = 附加组件
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = 来源：addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = 最高五星（{ $review_count } 条评价）
-landing-reviews-show-next-button = 显示下一条评价
-landing-reviews-show-previous-button = 显示上一条评价
-landing-review-anonymous-user = { -brand-name-firefox } 用户 { $user_id }
-landing-review-user-one-review = 非常感谢 { -brand-name-mozilla } 团队，他们真的很有创意，让电子邮件地址能够轻松隐藏起来。这个扩展也是真的好用，强烈推荐给想要保护隐私的人！
-landing-review-user-two-review = 摆脱或避免向您的电子邮件 ID 发送垃圾邮件的简单工具。
-landing-review-user-three-review = 喜欢这个扩展！非常简单但功能强大，与浏览器的集成非常棒。
-landing-review-user-four-review-list-1 = 上网时让您安心。
-landing-review-user-four-review-list-2 = 在各种原因不想共享真实的电子邮件地址的情况下，通过生成马甲来保护自己的身份免受跟踪器的侵害。
-landing-review-user-four-review-list-3 = 电子邮件收件箱数据在 { -brand-name-firefox-relay } 中是安全的。
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } 功能超赞，快来试试吧！
 
 ## Premium promo page
 
@@ -381,14 +361,17 @@ premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
 premium-promo-hero-cta = 立即升级
+
 premium-promo-offer-end-hero-heading = 优惠价即将结束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市特惠价享受高级电子邮件保护。
 premium-promo-offer-end-hero-cta = 立即升级
+
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
@@ -406,6 +389,7 @@ premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
 premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
 premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您防止电子邮件跟踪——您的马甲邮箱将从转发给您的任何电子邮件中删除电子邮件中常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
+
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
@@ -413,7 +397,9 @@ premium-promo-use-cases-social-networks-heading = 社交网络
 premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地保护个人信息？在每个社交平台使用不同的马甲邮箱，可帮助保护您的真实邮箱地址免遭泄露。
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
+
 premium-promo-pricing-free-price = 您当前的免费方案
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = 介绍价格：每月 { $monthly_price } 即享无限马甲
@@ -500,13 +486,16 @@ setting-tracker-removal-warning-2 = 重要提示：删除跟踪器可能会导�
 ## FAQ Page
 
 faq-headline = 常见问题
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = { -brand-name-relay } 马甲邮箱是什么？
 faq-question-what-is-answer-2 = 所谓“马甲邮箱”，就是可以将邮件自动转发至真实邮箱的私人匿名邮箱。您可以放心地向第三方提供这些邮箱地址，掩藏真实邮箱地址。
+
 faq-question-missing-emails-question-2 = 我收不到来自马甲邮箱的消息
 faq-question-missing-emails-answer-a-2 = 收不到马甲邮箱所转发的电子邮件，可能的原因包括：
 faq-question-missing-emails-answer-reason-spam = 消息被归入垃圾邮件文件夹
@@ -521,46 +510,60 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = 若您遇到这些问题，请<a href="{ $url }" { $attrs }>访问我们的用户支持网站</a>。
+
 faq-question-use-cases-question-2 = 何时应该使用 { -brand-name-relay } 马甲邮箱？
 faq-question-use-cases-answer-part1-2 = 您可以在大多数使用常规邮箱地址的地方使用 { -brand-name-relay } 马甲邮箱。我们强烈建议您在订阅营销/新闻电子邮件时使用，如此便可控制将来某个时候是否继续接收。
 faq-question-use-cases-answer-part2-2 = 我们不建议您在身份验证或接收重要邮件时使用马甲邮箱。比如，您最好在与银行、医生、律师沟通，或接收音乐会或航班信息时，提供您的真实邮箱地址。
+
 faq-question-2-question-2 = 为什么某些网站不能使用 { -brand-name-relay } 马甲邮箱？
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = 有些网站可能不接受包含子域（如 @subdomain.mozmail.com）的邮箱地址，而有些网站已停止接受除 Gmail、Hotmail 和 Yahoo 外的所有电子邮件地址。
+
 faq-question-1-question = 那垃圾邮件呢？
 faq-question-1-answer-a-2 = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = 若您发现来自所有马甲的垃圾邮件存在更广泛的问题，请<a href="{ $url }" { $attrs }>向我们报告</a>，以便我们考虑为此调整 SES 垃圾邮件判别标准。若您将这些报告为垃圾邮件，您的邮件服务商会将 { -brand-name-relay } 视为垃圾邮件的来源，而非原始发件人。
+
 faq-question-availability-question = 哪些地方可以使用 { -brand-name-relay }？
 faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v2 = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、芬兰、法国、比利时、奥地利、西班牙、意大利、瑞典、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v3 = 大多数国家/地区都提供免费的 { -brand-name-relay }。 { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
+
 faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
 faq-question-subdomain-characters-answer-v2 = 您只能使用小写英文字母、数字、连字符（-）来创建子域名。
+
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
 faq-question-browser-support-answer-2 = 可以，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
+
 faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
 faq-question-longevity-answer-2 = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站完成换绑。
+
 faq-question-mozmail-question-2 = 为何我的马甲域名变成“mozmail.com”了？
 faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱子域名这一特性，如 mask@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可使用自定义子域名生成更好记的马甲。
+
 faq-question-attachments-question = { -brand-name-firefox-relay } 可以转发含附件的电子邮件吗？
 faq-question-attachments-answer-v2 = 我们的 { -brand-name-relay } 现已支持附件转发功能，但有 { email-size-limit } 的大小限制。任何附件大于 { email-size-limit } 的邮件都不会被转发。
+
 faq-question-unsubscribe-domain-question-2 = 若取消订阅 { -brand-name-relay-premium }，我的自定义子域会怎样？
 faq-question-unsubscribe-domain-answer-2 = 若不再续订 { -brand-name-relay-premium }，您仍能收到之前自定义马甲邮箱转发的电子邮件，但无法再使用该子域名新建马甲。若已有五个以上马甲，则无法创建更多马甲。您也将无法回复转发的消息。重新订阅 { -brand-name-relay-premium } 才可重获这些功能的使用权。
+
 faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } 收集您使用过电子邮件马甲的网站，并用这些网站标记您的马甲，以便您轻松识别它们。您可以在“设置”页面的“隐私”下选择退出此功能。但请注意，关闭该设置意味着您将无法看到每个马甲的使用情况，并且您的帐户名称将不再在设备之间同步。您可以在我们的<a href="{ $url }" { $attrs }>隐私声明</a>中了解有关 { -brand-name-firefox-relay } 收集的数据的更多信息。
+
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
+
 faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -571,10 +574,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天内可生�
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 请阅读我们的<a href="{ $url }" { $attrs }>服务条款</a>以了解更多信息。
+
 faq-question-promotional-email-blocking-question = 营销邮件屏蔽是什么？
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 订阅者可以启用营销邮件屏蔽功能。此功能将向您转发消费收据、密码重置和用户确认等重要邮件，并同时屏蔽营销邮件。虽然几率不大，但重要邮件仍有可能被屏蔽，因此我们建议您不要在重要的服务（例如银行）使用此功能。若邮件被屏蔽，将无法恢复。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何判定是否为营销邮件？
 faq-question-detect-promotional-answer = 许多邮件发送时包含“头（header）”元数据，以表明其来自基于列表的自动化工具。{ -brand-name-firefox-relay } 能够检测到此头数据，因此可以进行屏蔽。
+
 faq-question-disable-trackerremoval-question = 我可以停止移除邮件跟踪器吗？
 faq-question-disable-trackerremoval-answer = 是的。如果您对电子邮件看起来受损有顾虑或想要停止删除跟踪器，您可以在设置中禁用该功能。
 faq-question-bulk-trackerremoval-question = 我可以只删除某些马甲邮箱的跟踪器吗？
@@ -618,14 +623,18 @@ profile-label-reset = 重置
 profile-label-apply = 应用
 profile-label-skip = 跳过
 profile-label-continue = 继续
+
 # This string is followed by an email address
 profile-label-forward-emails = 转发邮件至：
+
 # This string is followed by date
 profile-label-first-emailed = 首次发件于：
+
 # This string is followed by date:
 profile-label-created = 创建于：
 profile-label-details-show = 显示详细信息
 profile-label-details-hide = 隐藏详细信息
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = 转发中
 profile-label-blocking = 拦截中
@@ -704,7 +713,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = 关闭
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = 隐藏
+
 banner-bounced-headline = { -brand-name-relay } 无法发送您的邮件。
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -748,30 +759,36 @@ banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 的无限量�
 footer-banner-premium-promo-headine = 升级到 <strong>{ -brand-name-firefox-relay-premium }</strong> 以保护您的手机<i>和</i>电子邮件
 footer-banner-premium-promo-body = 获取电话号码马甲、无限的电子邮件马甲和自定义电子邮件地址以快速创建马甲。
 banner-pack-upgrade-cta = 立即升级
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隐私声明更新
 banner-label-privacy-notice-update-body = 为了提高 { -brand-name-firefox-relay } 的可靠性，尽可能避免邮件转发失败，我们将在服务器上暂存收到的邮件直到转发成功，但不会超过三天。
 banner-label-privacy-notice-update-cta = 查看隐私声明
+
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } 即将推出
 banner-label-data-notification-cta = 前往设置
 banner-label-data-notification-header-v2 = 启用新功能
 banner-label-data-notification-body-cta = 详细了解
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = 保护您的隐私，拯救互联网
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = 在保护您的隐私的同时加入我们构建更好互联网的使命，只需每月 { $monthly_price }
 banner-upgrade-loyalist-cta = 获得更多保护
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = 优惠价即将结束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市优惠价享受无限马甲。
 banner-offer-end-cta = 立即升级
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = 阻止垃圾邮件、机器人电话和垃圾短信
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 为您提供电话马甲以保护您的真实号码 — 以及无限的电子邮件马甲。
@@ -899,6 +916,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = 生成不限数量的
 multi-part-onboarding-premium-welcome-button-start = 开始使用
 multi-part-onboarding-premium-get-subdomain = 获取自定义子域名
 multi-part-onboarding-reply-headline = 回复邮件
+
 multi-part-onboarding-premium-welcome-description-2 = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 { -brand-name-relay } 附加组件随时创建马甲。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -942,6 +960,8 @@ trackerreport-load-error = 生成您的跟踪器删除报告时出错。请刷�
 
 modal-rename-alias-saved = 标签已保存！
 modal-delete-headline-2 = 确定要永久删除此马甲邮箱吗？
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = 马甲删除后就无法再恢复。{ -brand-name-firefox-relay } 将不再转发邮件至 <strong>{ $email }</strong>（包含让您重置密码的邮件）。
@@ -951,6 +971,7 @@ modal-delete-confirmation-2 = 是的，我要删除此马甲。
 modal-domain-register-good-news = 好消息！
 modal-domain-register-warning-reminder-2 = 请记住，您只能注册一个子域名，且不可更改。
 modal-domain-register-button-2 = 注册子域名
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } 可用！
@@ -958,6 +979,7 @@ modal-domain-register-available = { $subdomain } 可用！
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可用！
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
@@ -965,6 +987,7 @@ modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 是的，我要注册 <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = 成功！
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
