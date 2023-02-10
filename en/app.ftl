@@ -220,7 +220,6 @@ landing-pricing-headline-2 = Limited-time only: Unlimited email masks for { $mon
 # Deprecated
 landing-pricing-body-2 = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox.
     Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
-plan-matrix-heading-plan-bundle = Add VPN protection
 # Deprecated
 landing-pricing-free-price = Free
 # Deprecated
@@ -289,6 +288,7 @@ plan-matrix-bundle-offer-heading = Limited-time only: { -brand-name-relay-premiu
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox. Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
+plan-matrix-heading-plan-bundle = Add VPN protection
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Email masks
 plan-matrix-heading-feature-browser-extension = Browser extension
@@ -299,9 +299,6 @@ plan-matrix-heading-feature-email-reply = Reply to forwarded emails
 plan-matrix-heading-feature-phone-mask = Phone number mask
 plan-matrix-heading-feature-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-plan-matrix-price-monthly = { $monthly_price }/month
-# Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } email masks
 plan-matrix-feature-list-browser-extension = Browser extension
@@ -311,10 +308,12 @@ plan-matrix-feature-list-email-subdomain = Email subdomain
 plan-matrix-feature-list-email-reply = Reply to forwarded emails
 plan-matrix-feature-list-phone-mask = Phone number mask
 plan-matrix-feature-list-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly = { $monthly_price }/month
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Billing yearly
 plan-matrix-price-period-monthly = Monthly
-plan-matrix-price-monthly = { $monthly_price }/month
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Save { $percentage }% on regular VPN price
