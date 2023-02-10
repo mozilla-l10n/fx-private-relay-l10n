@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = A { -brand-name-firefox-relay } megkönnyíti az e-mail-maszkok létrehozását, amelyek a valódi postafiókjába továbbítják az üzeneteit. Használja őket az online fiókjainak védelmére a hackerek és a nem kívánt üzenetek ellen.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Új lapon nyílik meg)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = E-mail-maszkok
 nav-phone-dashboard = Telefonmaszkok
 label-open-menu = Menü megnyitása
 avatar-tooltip = Profil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = GYIK
 nav-profile-sign-in = Bejelentkezés
@@ -55,6 +56,7 @@ nav-support = Súgó és támogatás
 nav-sign-out = Kijelentkezés
 nav-contact = Kapcsolat
 nav-menu-mobile = Mobilos menü
+
 fx-desktop-2 = { -brand-name-firefox } számítógépre
 fx-mobile-2 = { -brand-name-firefox } mobilra
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Előzmények
 whatsnew-footer-clear-all-label = Összes törlése
 whatsnew-footer-back-label = Vissza
 whatsnew-footer-learn-more-label = További tudnivalók
+
 whatsnew-empty-message = Feltétlenül térjen vissza ide – folyamatosan dolgozunk nagyszerű új funkciókon, hogy még jobbá tegyük a { -brand-name-relay } szolgáltatást.
+
 whatsnew-feature-size-limit-heading = Mellékletek méretének növelése
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = A { -brand-name-firefox-relay } mostan
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = A { -brand-name-firefox-relay } mostantól akár { email-size-limit }-os e-maileket is továbbíthat…
 whatsnew-feature-size-limit-description-var = A { -brand-name-firefox-relay } mostantól akár { email-size-limit }-os e-maileket is továbbíthat, beleértve a mellékleteket is.
+
 whatsnew-feature-sign-back-in-heading = Jelentkezzen be újra az álneveivel
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Hogy új álnevet hozzon létre, ha az e-mail-címét kérik, nyissa meg a…
 whatsnew-feature-sign-back-in-description = Ha korábban használt álnévvel jelentkezne be, nyissa meg a helyi menüt, ahol a webhely az Ön e-mail-címét kéri. Kiválaszthatja az álnevet, és automatikusan kitöltheti az e-mail mezőt.
+
 whatsnew-feature-forward-some-heading = Promóciós e-mailek blokkolása
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = A { -brand-name-relay-premium } lehetővé teszi, hogy csak a promóciós e-maileket blokkolja…
 whatsnew-feature-forward-some-description = A { -brand-name-relay-premium } lehetővé teszi, hogy csak az álnévre küldött promóciós leveket tiltsa. Meg fogja kapni például nyugtákat, de marketing e-maileket nem.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Az álnevek most már maszkok
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = Változást vesz észre? Az álneveket 
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Változást vesz észre? Az álneveket most már „maszkoknak” nevezzük, hogy a { -brand-name-firefox-relay } könnyebben használható legyen, és megnyíljon az ajtó az új funkciók előtt.
+
 whatsnew-feature-premium-expansion-sweden-heading = A { -brand-name-relay-premium } elérhető Svédországban
 whatsnew-feature-premium-expansion-finland-heading = A { -brand-name-relay-premium } elérhető Finnországban
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Frissítsen most, és szerezzen még nagyobb védelmet…
 whatsnew-feature-premium-expansion-description = Frissítsen most és szerezzen még nagyobb védelmet – hozzon létre korlátlan számú e-mail-maszkot, kapjon egyéni e-mail-aldomaint és még sok minden mást!
+
 whatsnew-feature-tracker-removal-heading = Bemutatjuk az e-mail-követők eltávolítását
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = Mostantól a { -brand-name-relay } el
 # Deprecated
 whatsnew-feature-tracker-removal-description = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára.
 whatsnew-feature-tracker-removal-description-2 = Mostantól a { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a hirdetők számára. Kapcsolja be a „Beállításokban”.
+
 whatsnew-feature-offer-countdown-heading = Bevezető árajánlatunk hamarosan lejár.
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Szerezze be a { -brand-name-relay-pre
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást a bevezető havi árunkon.
 whatsnew-feature-offer-countdown-cta = Frissítés most
+
 whatsnew-feature-firefox-integration-heading = A { -brand-name-relay } már elérhető a { -brand-name-firefox } jelszókezelőben
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -176,13 +187,13 @@ hero-image-copy-control-html = Most <em>Ön irányítja azt</em>, hogy mi érkez
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Védje valódi e-mail-címét, hogy könnyebben kezelje postaládáját
 landing-hero-body-2 =
     A { -brand-name-firefox-relay } e-mail-maszkok megvédik valódi e-mail-címét a nyilvánossától, és automatikusan továbbítják a leveleket a valódi postaládájába.
     Mostantól csak a kívánt leveleket kapja meg a beérkező levelek között. A kezdéshez regisztráljon { -brand-name-firefox-account }jával.
+
 landing-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
 landing-offer-end-hero-cta = Frissítés most
 # Variables:
@@ -233,6 +244,7 @@ landing-pricing-free-cta = { -brand-name-relay } beszerzése
 landing-pricing-free-ribbon = Most elérhető!
 # Deprecated
 landing-pricing-free-feature-free = Ingyenes
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -254,10 +266,12 @@ landing-pricing-premium-feature-4 = Válasz az átirányított e-mailekre
 landing-pricing-premium-feature-5 = Promóciós e-mailek blokkolása
 # Deprecated
 landing-pricing-premium-feature-6 = E-mail-követő eltávolítása
+
 # Deprecated
 landing-pricing-waitlist-description = A { -brand-name-firefox-relay-premium } jelenleg nem érhető el az Ön országában. Ossza meg e-mail-címét, hogy azonnal értesüljön, ha az lesz.
 # Deprecated
 landing-pricing-waitlist-cta = Csatlakozás a várólistához
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,6 +284,7 @@ landing-pricing-offer-end-cta = Frissítés most
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -280,12 +295,6 @@ plan-matrix-bundle-offer-heading = Csak korlátozott ideig: { -brand-name-relay-
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Csak korlátozott ideig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/hónap*
 plan-matrix-bundle-offer-content = Próbálja ki a { -brand-name-firefox-relay } e-mail-maszkokat, és kezdje el megvédeni e-mail postafiókját. Ezután frissítsen a { -brand-name-relay-premium } verzióra a még nagyobb rugalmasság és testreszabott irányítás érdekében.
-plan-matrix-heading-features = Funkciók
-plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
-plan-matrix-heading-plan-premium = E-mail-védelem
-plan-matrix-heading-plan-phones = E-mail- és telefonvédelem
-plan-matrix-heading-plan-bundle = VPN-védelem hozzáadása
-plan-matrix-heading-plan-bundle-alt = Szerezze be a { -brand-name-relay-premium }ot és a { -brand-name-mozilla-vpn(case: "accusative") }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mail-maszkok
 plan-matrix-heading-feature-browser-extension = Böngészőkiegészítő
@@ -295,7 +304,6 @@ plan-matrix-heading-feature-email-subdomain = E-mail aldomain
 plan-matrix-heading-feature-email-reply = Válasz az átirányított e-mailekre
 plan-matrix-heading-feature-phone-mask = Telefonszámmaszk
 plan-matrix-heading-feature-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } e-mail-maszk
@@ -306,15 +314,6 @@ plan-matrix-feature-list-email-subdomain = E-mail aldomain
 plan-matrix-feature-list-email-reply = Válasz az átirányított e-mailekre
 plan-matrix-feature-list-phone-mask = Telefonszámmaszk
 plan-matrix-feature-list-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Ár
-plan-matrix-feature-count-unlimited = Korlátlan
-plan-matrix-feature-included = Tartalmazza
-plan-matrix-feature-not-included = Nem tartalmazza
-plan-matrix-price-free = Ingyenes
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-plan-matrix-price-monthly = { $monthly_price }/hónap
-plan-matrix-price-period-yearly = Évente
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Számlázás évente
 plan-matrix-price-period-monthly = Havi
@@ -322,7 +321,6 @@ plan-matrix-price-period-monthly = Havi
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Takarítson meg { $percentage }%-ot a VPN szokásos árán
 plan-matrix-pick = Regisztráció
-plan-matrix-join-waitlist = Csatlakozás a várólistához
 
 ## Use Cases
 
@@ -349,9 +347,11 @@ landing-use-cases-gaming = Játék
 landing-use-cases-gaming-body-2 =
     Élvezi az online játékokat, de aggódik amiatt, hogy más játékosok vagy zaklatók megtudják ki Ön a játékoscímkéje és az e-mail-címe alapján?
     Használjon egy e-mail-maszkot, hogy még egy védelmi réteget helyezzen online személyazonossága és az online játszott játékok közé.
+
 landing-use-cases-shopping-hero-heading = Vásárlás e-mail-maszkokkal
 landing-use-cases-shopping-hero-content1 = Szeretne vásárolni valamit az interneten, de nem ismeri az üzletet vagy nem bízik benne teljesen?
 landing-use-cases-shopping-hero-content2 = Használjon e-mail-maszkot, amikor online vásárol. Kapja meg a visszaigazolást a valódi e-mail-címére, majd később bármikor könnyedén kikapcsolhatja a maszkot.
+
 landing-use-cases-on-the-go = Útközben
 landing-use-cases-on-the-go-heading = Útközben a { -brand-name-relay } segítségével
 landing-use-cases-on-the-go-lead = Azonnal készítsen egy egyéni e-mail-maszkot, bárhol is jár.
@@ -361,35 +361,11 @@ landing-use-cases-on-the-go-receipt-heading = Kapjon e-mailes nyugtákat
 landing-use-cases-on-the-go-receipt-body = Ossza meg egyéni e-mail maszkját a bolti vásárlási nyugtákhoz anélkül, hogy megosztaná valódi e-mail-címét
 landing-use-cases-on-the-go-phone-heading = Használja a telefonján
 landing-use-cases-on-the-go-phone-body = Nem számít, hol van, pillanatok alatt hozzon létre egy egyéni e-mail-maszkot bármihez, amihez csak szeretne
+
 landing-use-cases-signups = Regisztrációk
 landing-use-cases-signups-hero-heading = Gondtalan regisztrációk
 landing-use-cases-signups-hero-content1 = Új előfizetést szeretne indítani, válaszolna egy meghívásra, vagy akciós promóciós kódot szeretne kapni anélkül, hogy levélszemét árasztaná el a postaládáját?
 landing-use-cases-signups-hero-content2 = Mielőtt befejezné a következő regisztrációt, használjon egy e-mail maszkot a valódi címe helyett, hogy megvédje adatait és megtartsa a levelesládája feletti irányítást.
-
-## Landing FAQ Section
-
-landing-faq-headline = A leggyakoribb kérdések a { -brand-name-firefox-relay }-jel kapcsolatban
-landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Kiegészítők
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Forrás: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = az 5-ből ({ $review_count } értékelés)
-landing-reviews-show-next-button = következő értékelés megjelenítése
-landing-reviews-show-previous-button = előző értékelés megjelenítése
-landing-review-anonymous-user = { $user_id } számú { -brand-name-firefox }-felhasználó
-landing-review-user-one-review = Nagyra értékelem a { -brand-name-mozilla } csapatát, amiért ilyen kreatívak és leegyszerűsítették az e-mail-címem anonimizálását. Ez egy nagyszerű kiegészítő, nagyon ajánlom azoknak, akik tudatosak az adatvédelmükkel kapcsolatban.
-landing-review-user-two-review = Egyszerű eszköz, amellyel megszabadulhat az e-mail-címére érkező levélszeméttől.
-landing-review-user-three-review = Imádom ezt a kiegészítőt! Nagyon egyszerű, de hatékony, és a böngészővel való integráció csodálatos.
-landing-review-user-four-review-list-1 = Nyugalmat ad internetezés közben.
-landing-review-user-four-review-list-2 = Megvédi személyazonosságát a nyomkövetőktől azáltal, hogy álneveket állít elő azokhoz a webhelyekhez, ahol különféle okok miatt nem akarja megosztani a valódi e-mail-címet.
-landing-review-user-four-review-list-3 = Az e-mail-fiókja adatai biztonságban vannak a { -brand-name-firefox-relay } kezében.
-landing-review-user-four-review-list-4 = A { -brand-name-firefox-relay } csodákat tesz, próbálja ki!
 
 ## Premium promo page
 
@@ -401,14 +377,17 @@ premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segíts
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = A { -brand-name-firefox-relay-premium }mal korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére.
 premium-promo-hero-cta = Frissítsen most
+
 premium-promo-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 premium-promo-offer-end-hero-cta = Frissítés most
+
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-3 = A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
+
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 premium-promo-perks-lead-2 = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail-maszkkal és egyéni aldomainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
 premium-promo-perks-cta-label = Frissítsen most
@@ -424,6 +403,7 @@ premium-promo-perks-perk-block-promotionals-headline = Promóciós e-mailek blok
 premium-promo-perks-perk-block-promotionals-body = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 premium-promo-perks-perk-tracker-blocking-headline = E-mail-követők eltávolítása
 premium-promo-perks-perk-tracker-blocking-body = Mostantól a { -brand-name-relay } segíthet megállítani az e-mailes nyomkövetést – az e-mail-maszkok eltávolítják a gyakori e-mail-követőket minden Önnek továbbított e-mailből, így láthatatlan marad a nyomkövetők és a hirdetők számára.
+
 premium-promo-use-cases-headline-2 = Használjon { -brand-name-relay } e-mail-maszkokat bárhol
 premium-promo-use-cases-shopping-heading = Vásárlás
 premium-promo-use-cases-shopping-body-2 = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni e-mail-maszkok alá, például „ajanlataim@mydomain.mozmail.com”.
@@ -431,7 +411,9 @@ premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
 premium-promo-use-cases-social-networks-body-2 = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő e-mail-maszkot az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
 premium-promo-use-cases-gaming-heading = Játék
 premium-promo-use-cases-gaming-body-2 = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan maszkot, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
+
 premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
@@ -518,13 +500,16 @@ setting-tracker-removal-warning-2 = Fontos: Ha eltávolítja a nyomkövetőket, 
 ## FAQ Page
 
 faq-headline = Gyakran Ismételt Kérdések
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Mi az a { -brand-name-relay } e-mail-maszk?
 faq-question-what-is-answer-2 = Az e-mail-maszkok olyan maszkolt vagy privát e-mail-címek, amelyek a valódi e-mail-címére továbbítják az üzeneteket. Ezek a maszkok lehetővé teszik, hogy úgy ossza meg a címet harmadik felekkel, hogy közben elfedi a valódi e-mail-címét, és oda továbbítja az üzeneteket.
+
 faq-question-missing-emails-question-2 = Nem kapok üzeneteket az e-mail-maszkjaimtól
 faq-question-missing-emails-answer-a-2 = Számos oka lehet annak, hogy miért nem kapja meg a maszkokon keresztül továbbított leveleket. Pár lehetséges ok:
 faq-question-missing-emails-answer-reason-spam = Az üzenetek levélszemétbe kerülnek
@@ -539,46 +524,60 @@ faq-question-missing-emails-answer-b-html = Ha Ön { -brand-name-relay-premium }
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Ha a fenti problémák bármelyikével küzd, akkor <a href="{ $url }" { $attrs }>keresse fel a támogatási webhelyünket</a>.
+
 faq-question-use-cases-question-2 = Mikor használjam a { -brand-name-relay } e-mail-maszkokat?
 faq-question-use-cases-answer-part1-2 = A legtöbb helyen használhatja a { -brand-name-relay } e-mail-maszkokat, ahol a szokásos e-mail-címét használná. Azt javasoljuk, hogy akkor használja őket, amikor olyan marketinges/információs e-mailekre iratkozik fel, ahol esetleg szabályozni szeretné, hogy a jövőben kapjon-e leveleket.
 faq-question-use-cases-answer-part2-2 = Nem javasoljuk a maszkok használatát, ha igazolnia kell személyazonosságát, vagy ha nagyon fontos leveleket vár, vagy akkor, amikor mellékleteket kell fogadnia. Például, a bankjával, orvosával és ügyvédjével a valódi e-mail-címét akarja megosztani, valamint koncertjegyek vagy repülőjegy beszállókártyák átvételekor is azt akarja használni.
+
 faq-question-2-question-2 = Miért nem fogadja el egy webhely a { -brand-name-relay } e-mail-maszkomat?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Előfordulhat, hogy egyes webhelyek nem fogadnak el olyan e-mail címeket, amelyek aldomaint (@subdomain.mozmail.com) tartalmaznak, mások pedig nem fogadnak el minden címet, csak a Gmail-, Hotmail- vagy Yahoo-fiókokból származókat.
+
 faq-question-1-question = Mi a helyzet a kéretlen levelekkel?
 faq-question-1-answer-a-2 = Bár a { -brand-name-relay } nem szűri a levélszemetet, az e-mailes partnerünk, az Amazon SES blokkolja a levélszemetet és a rosszindulatú programokat. Ha a { -brand-name-relay } olyan üzeneteket továbbít, melyeket nem szeretne, akkor frissítheti a { -brand-name-relay } beállításokat, és blokkolhatja az azokat továbbító maszkot.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Ha az összes maszkjáról érkező nem kívánt e-mailek szélesebb körű problémáját tapasztalja, akkor <a href="{ $url }" { $attrs }>jelentse ezt nekünk</a>, hogy megfontolhassuk az SES levélszemét küszöbértékének módosítását erre a szolgáltatásra vonatkozóan. Ha ezeket levélszemétnek jelöli, akkor az e-mail szolgáltatója a { -brand-name-relay }t fogja a levélszemét forrásaként látni, nem pedig az eredeti feladót.
+
 faq-question-availability-question = Hol érhető el a { -brand-name-relay }?
 faq-question-availability-answer = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svájcban, Hollandiában és Írországban érhető el.
 faq-question-availability-answer-v2 = Az ingyenes { -brand-name-relay } a legtöbb országban elérhető. A { -brand-name-relay-premium } az Egyesült Államokban, Németországban, az Egyesült Királyságban, Kanadában, Szingapúrban, Malajziában, Új-Zélandon, Finnországban, Franciaországban, Belgiumban, Ausztriában, Spanyolországban, Olaszországban, Svédországban, Svájcban, Hollandiában és Írországban érhető el.
 faq-question-availability-answer-v3 = Az ingyenes { -brand-name-relay } elérhető a legtöbb országban. A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
+
 faq-question-4-question-2 = Válaszolhatok az üzenetekre a { -brand-name-relay } e-mail-maszkom használatával?
 faq-question-4-answer-v4 = A { -brand-name-relay-premium } felhasználók a továbbított e-mailekre a levél kézbesítésétől számított 3 hónapon belül válaszolhatnak. Ha CC vagy BCC címet ad hozzá, amikor válaszol egy e-mailre, akkor az eredeti e-mail-címe láthatóvá válik a címzett és a másolatot kapók számára. Ha nem szeretné, hogy az eredeti e-mail-címe nyilvánosságra kerüljön, ne adjon hozzá CC vagy BCC címeket válaszadáskor.
+
 faq-question-subdomain-characters-question = Milyen karaktereket használhatok aldomain létrehozásánál?
 faq-question-subdomain-characters-answer-v2 = Aldomain létrehozásához csak kisbetűs angol betűket, számokat és kötőjeleket használhat.
+
 faq-question-browser-support-question = Használhatom a { -brand-name-relay }t más böngészőkön vagy a mobileszközömön?
 faq-question-browser-support-answer-2 = Igen, úgy állíthat elő { -brand-name-relay } maszkokat más böngészőkben vagy mobileszközökön, hogy egyszerűen bejelentkezik a { -brand-name-relay } vezérlőpultjára.
+
 faq-question-longevity-question = Mi történik, ha a Mozilla leállítja a { -brand-name-firefox-relay } szolgáltatást?
 faq-question-longevity-answer-2 = Előzetesen értesíteni fogjuk, hogy meg kell változtatnia minden olyan fiókja e-mail-címét, amely { -brand-name-relay } e-mail-maszkokat használ.
+
 faq-question-mozmail-question-2 = Miért kezdték el az e-mail-maszkjaim a „mozmail.com” domaint használni?
 faq-question-mozmail-answer-2 = Azért váltottunk a „relay.firefox.com”-ról a „mozmail.com”-ra, hogy lehetőség legyen egyéni email aldomain használatára, például erre: maszk@sajatdomain.mozmail.com. Az egyéni e-mail aldomainekkel, melyek a { -brand-name-relay-premium } előfizetők számára érhetők el, könnyebben megjegyezhető e-mail-maszkok állíthatók elő.
+
 faq-question-attachments-question = A { -brand-name-firefox-relay } továbbítja a mellékletekkel rendelkező leveleket?
 faq-question-attachments-answer-v2 = Most már támogatjuk a mellékletek továbbítását. Azonban van egy { email-size-limit }-os korlát az e-mailek a { -brand-name-relay } használatával történő továbbításakor. Az { email-size-limit }-nál nagyobb e-mailek nem lesznek továbbítva.
+
 faq-question-unsubscribe-domain-question-2 = Mi történik az egyéni aldomainemmel, ha lemondom a { -brand-name-relay-premium } szolgáltatást?
 faq-question-unsubscribe-domain-answer-2 = Ha visszavált a { -brand-name-relay-premium }ról, akkor továbbra is meg fogja kapni az egyéni domainról továbbított leveleit, de új maszkokat már nem fog tudni felvenni annál az aldomainnál. Ha összesen több mint öt maszkja van, akkor többet már nem fog tudni létrehozni. Elveszti azt a lehetőséget is, hogy válaszoljon a továbbított levelekre. Újra előfizethet a { -brand-name-relay-premium }ra, hogy visszakapja ezeket a funkciókat.
+
 faq-question-8-question = Milyen adatokat gyűjt a { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkból</a>. Nem kötelező, de megoszthatja az adatait az e-mail-maszkokhoz használt címkéiről és a webhelyekről, hogy biztosíthassuk azt a szolgáltatást és továbbfejleszthessük azt.
 faq-question-8-answer-3-html = A Relay összegyűjti azokat a weboldalakat, amelyeken az e-mail maszkokat használta, és a maszkokat felcímkézi ezekkel a weboldalakkal, hogy könnyen azonosítani tudja őket. Ezt a Beállítások oldalon, az Adatvédelem menüpont alatt tilthatja le. De vegye figyelembe, hogy ha kikapcsolja ezt a beállítást, akkor nem láthatja, hogy hol használta az egyes maszkokat, és a fióknevek nem lesznek többé szinkronizálva az eszközök között. Többet tudhat meg a { -brand-name-firefox-relay } által gyűjtött adatokról az <a href="{ $url }" { $attrs }>Adatvédelmi nyilatkozatunkban</a>.
+
 faq-question-email-storage-question = A { -brand-name-relay } tárolja a leveleimet?
 faq-question-email-storage-answer = Abban a ritka esetben, amikor a szolgáltatás nem működik, ideiglenesen tárolhatjuk az e-maileket, amíg el nem tudjuk küldeni azokat. Soha nem tároljuk az e-maileket három napnál hosszabb ideig.
+
 faq-question-acceptable-use-question = Mik a { -brand-name-relay } elfogadható felhasználási területei?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -589,10 +588,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Korlátozzuk az egy na
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = További információkért tekintse át <a href="{ $url }" { $attrs }>Általános Szerződési Feltételeinket</a>.
+
 faq-question-promotional-email-blocking-question = Mit jelent a promóciós e-mailek blokkolása?
 faq-question-promotional-email-blocking-answer = A { -brand-name-relay-premium } előfizetők engedélyezhetik a promóciós e-mailek blokkolását. Ez a funkció továbbítja Önnek a fontos e-maileket, például a nyugtákat, a jelszó-visszaállításokat és -megerősítéseket, miközben továbbra is blokkolja a marketingüzeneteket. Fennáll a veszélye annak, hogy egy fontos üzenet továbbra is blokkolva marad, ezért azt javasoljuk, hogy ne használja ezt a funkciót nagyon fontos helyeken, például a bankjánál. Ha egy e-mail blokkolva lett, akkor nem lehet helyreállítani.
 faq-question-detect-promotional-question = Hogyan észleli a { -brand-name-relay }, hogy egy e-mail promóciós jellegű-e vagy sem?
 faq-question-detect-promotional-answer = Sok e-mailt „fejléc” metaadatokkal küldenek, jelezve, hogy listaalapú, automatizált eszközöktől származnak. A { -brand-name-firefox-relay } észleli ezeket a fejlécadatokat, így blokkolni tudja ezeket az e-maileket.
+
 faq-question-disable-trackerremoval-question = Leállíthatom az e-mail nyomkövetők eltávolítását?
 faq-question-disable-trackerremoval-answer = Igen. Ha problémát okoz, hogy az e-mailek hibásnak tűnnek, vagy nem szeretné eltávolítani a nyomkövetőket, letilthatja a funkciót a beállításokban.
 faq-question-bulk-trackerremoval-question = Eltávolíthatom a nyomkövetőket csak bizonyos e-mail-maszkok esetén?
@@ -636,14 +637,18 @@ profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-skip = Kihagyás
 profile-label-continue = Folytatás
+
 # This string is followed by an email address
 profile-label-forward-emails = Levelek továbbítása ide:
+
 # This string is followed by date
 profile-label-first-emailed = Első e-mail:
+
 # This string is followed by date:
 profile-label-created = Létrehozva:
 profile-label-details-show = Részletek megjelenítése
 profile-label-details-hide = Részletek elrejtése
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = továbbítás
 profile-label-blocking = blokkolás
@@ -722,7 +727,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Bezárás
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Eltüntetés
+
 banner-bounced-headline = A { -brand-name-relay } nem tudta kézbesíteni a levelet.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -770,30 +777,36 @@ banner-pack-upgrade-copy-2 = A korlátlan számú e-mail-maszknak és az egyéni
 footer-banner-premium-promo-headine = Frissítsen <strong>{ -brand-name-firefox-relay-premium }ra</strong>, hogy megvédje a telefonját <i>és</i> az e-mail-címét
 footer-banner-premium-promo-body = Szerezzen egy telefonszámmaszkot, korlátlan számú e-mail-maszkot és egyéni e-mail-címeket a maszkok gyors létrehozásához.
 banner-pack-upgrade-cta = Frissítés most
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Adatvédelmi nyilatkozat frissítése
 banner-label-privacy-notice-update-body = A { -brand-name-firefox-relay } megbízhatóságának javítása érdekében, arra az esetre, ha egy e-mailt nem sikerül kézbesíteni, az e-mailt ideiglenesen a kiszolgálóinkon tároljuk, amíg az kézbesítésre nem kerül. Soha nem tartjuk meg három napnál tovább.
 banner-label-privacy-notice-update-cta = Adatvédelmi nyilatkozat megtekintése
+
 # Data Notification Banner:
 banner-label-data-notification-header = Hamarosan elérhető a { -brand-name-relay }ben
 banner-label-data-notification-cta = Ugrás a beállításokhoz
 banner-label-data-notification-header-v2 = Új funkciók engedélyezése
 banner-label-data-notification-body-cta = További tudnivalók
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Védje meg a magánszféráját, mentse meg az internetet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Védje meg a magánszféráját, miközben csatlakozik a küldetésünkhöz, hogy jobb internetet építsünk, mindezt { $monthly_price } összegért
 banner-upgrade-loyalist-cta = Szerezzen nagyobb védelmet
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Bevezető árajánlatunk hamarosan lejár.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a korlátlan maszkolást a bevezető havi árunkon.
 banner-offer-end-cta = Frissítés most
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Bármilyen @{ $subdomain } címet létrehozhat
+
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Állítsa meg a levélszemetet, a robothívásokat és a kéretlen szövegeket
 banner-ab-premium-promo-stop-spam-body = A { -brand-name-relay-premium } telefonmaszkot nyújt, amely megvédi valós számát – plusz korlátlan számú e-mail-maszkot is ad.
@@ -921,6 +934,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Korlátlan számú e-
 multi-part-onboarding-premium-welcome-button-start = Kezdő lépések
 multi-part-onboarding-premium-get-subdomain = Egyéni aldomain beszerzése
 multi-part-onboarding-reply-headline = Válaszoljon a leveleire
+
 multi-part-onboarding-premium-welcome-description-2 = Nincs többé öt maszkos korlát: mostantól annyi egyéni vagy véletlenszerű maszkot állíthat elő, amennyire csak szüksége van. Asztali számítógépen a { -brand-name-relay } kiegészítővel menet közben is létrehozhatja őket.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -985,6 +999,8 @@ trackerreport-load-error = Hiba történt a követőeltávolítási jelentés l�
 
 modal-rename-alias-saved = Címke mentve!
 modal-delete-headline-2 = Véglegesen törli ezt az e-mail-maszkot?
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1001,6 +1017,7 @@ modal-delete-confirmation-2 = Igen, törlöm ezt a maszkot.
 modal-domain-register-good-news = Jó hírek!
 modal-domain-register-warning-reminder-2 = Ne feledje, hogy csak egy aldomaint regisztrálhat. Később nem fogja tudni megváltoztatni.
 modal-domain-register-button-2 = Aldomain regisztrálása
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = A(z) { $subdomain } elérhető!
@@ -1008,6 +1025,7 @@ modal-domain-register-available = A(z) { $subdomain } elérhető!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> elérhető.
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdomain }
@@ -1015,6 +1033,7 @@ modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdo
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Igen, szeretném regisztrálni a következőt: <subdomain>{ $subdomain }</subdomain>.
 modal-domain-register-success-title = Sikerült!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1158,6 +1177,7 @@ toast-button-close-label = Értesítés bezárása
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Felhasználta az ingyenes fiókjához tartozó { $free_tier_limit } e-mail-maszk mindegyikét. Újra felhasználhatja a meglévő maszkokat, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
 api-error-free-tier-no-subdomain-masks = Az ingyenes fiókja nem tartalmaz egyéni aldomaineket a maszkokhoz. Egyéni maszkok létrehozásához váltson a { -brand-name-relay-premium } verzióra.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = A(z) „{ $unavailable_address }” nem hozható létre. Próbálja újra egy másik maszknévvel.

@@ -2,37 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Brands
-
-
-# Dev Note: When adding to this section, use this file for naming conventions: https://github.com/mozilla/bedrock/blob/master/l10n/en/brands.ftl
-
--brand-name-firefox = Firefox
--brand-name-firefox-relay = Firefox Relay
--brand-name-relay = Relay
--brand-name-relay-premium = Relay Premium
--brand-name-premium = Premium
--brand-name-firefox-relay-premium = Firefox Relay Premium
--brand-name-firefox-browser = Firefox ブラウザー
--brand-name-mozilla = Mozilla
--brand-name-mozilla-vpn = Mozilla VPN
--brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
--brand-name-firefox-lockwise = Firefox Lockwise
--brand-name-firefox-monitor = Firefox Monitor
--brand-name-pocket = Pocket
--brand-name-firefox-account =
-    { $capitalization ->
-       *[lowercase] Firefox アカウント
-        [uppercase] Firefox アカウント
-    }
--brand-name-chrome = Chrome
--brand-name-google-chrome = Google Chrome
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } ではメールアドレスを隠すためのマスクを簡単に作成し、真の受信トレイへメールを転送します。マスクの使用でハッカーや迷惑メールからオンラインアカウントを保護できます。
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (新しいタブで開く)
 
@@ -44,6 +18,7 @@ nav-menu = メニュー
 nav-home = ホーム
 label-open-menu = メニューを開く
 avatar-tooltip = プロファイル
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = よくある質問
 nav-profile-sign-in = ログイン
@@ -73,6 +48,7 @@ nav-support = ヘルプとサポート
 nav-sign-out = ログアウト
 nav-contact = お問い合わせ
 nav-menu-mobile = モバイル版メニュー
+
 fx-desktop-2 = デスクトップ版 { -brand-name-firefox }
 fx-mobile-2 = モバイル版 { -brand-name-firefox }
 
@@ -98,7 +74,9 @@ whatsnew-tab-archive-label = 履歴
 whatsnew-footer-clear-all-label = すべて消去
 whatsnew-footer-back-label = 戻る
 whatsnew-footer-learn-more-label = 詳細情報
+
 whatsnew-empty-message = 常に { -brand-name-relay } をより良くするために新機能を取り組んでいます。また後でここ確認しに戻ってきてください。
+
 whatsnew-feature-size-limit-heading = 添付ファイル最大サイズの増加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # When translating, please make sure the resulting string is of roughly similar
@@ -110,11 +88,15 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } は添�
 # length as the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } は { email-size-limit } までのメールを転送できます...
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } は添付ファイルを含め、{ email-size-limit } までのメールが転送できます。
+
 whatsnew-feature-sign-back-in-heading = 別名で再ログイン
+
 whatsnew-feature-forward-some-heading = 宣伝メールのブロック
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = エイリアスはマスクになりました
+
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } がスウェーデンで利用可能になりました
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } がフィンランドで利用可能になりました
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
@@ -146,7 +128,6 @@ how-it-works-step-3-headline-2 = メールマスクを管理する
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = 本当のメールアドレスを保護して、受信トレイを管理しましょう
@@ -174,6 +155,7 @@ landing-pricing-free-feature-2 = ブラウザー拡張機能
 landing-pricing-free-ribbon = 今すぐ利用可能！
 # Deprecated
 landing-pricing-free-feature-free = 無料
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -191,42 +173,34 @@ landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
 landing-pricing-premium-feature-4 = 転送されたメールへの返信
 # Deprecated
 landing-pricing-premium-feature-5 = 広告メールをブロック
+
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } は、現在お住まいの国では利用できません。利用可能になったらすぐに通知できるようにメールアドレスを登録してください。
-plan-matrix-heading-features = 機能
-plan-matrix-price-free = 無料
 
 ## Use Cases
 
 landing-use-cases-shopping = ショッピング
 landing-use-cases-social-networks = SNS
 landing-use-cases-gaming = ゲーム
+
 landing-use-cases-shopping-hero-heading = メールマスクを使ってショッピング
+
 landing-use-cases-on-the-go = 外出先で
 landing-use-cases-on-the-go-heading = { -brand-name-relay } と外出
+
 landing-use-cases-signups = ユーザー登録
 landing-use-cases-signups-hero-heading = 心配無用のユーザー登録
-
-## Landing FAQ Section
-
-landing-faq-headline = { -brand-name-firefox-relay } に関する最もよくある質問
-landing-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = アドオン
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
 
 ## Premium promo page
 
 premium-promo-hero-cta = 今すぐアップグレード
+
 premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
+
 premium-promo-perks-cta-label = 今すぐアップグレード
 premium-promo-perks-perk-block-promotionals-headline = 広告メールをブロック
+
 premium-promo-use-cases-shopping-heading = ショッピング
 premium-promo-use-cases-social-networks-heading = SNS
 premium-promo-use-cases-gaming-heading = ゲーム
@@ -273,8 +247,10 @@ setting-api-key-copied = コピーしました！
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-availability-question = { -brand-name-relay } はどこで利用できますか?
 faq-question-availability-answer = { -brand-name-relay } は、多くの国で無料で利用できます。 { -brand-name-relay-premium } は、アメリカ、ドイツ、イギリス、カナダ、シンガポール、マレーシア、ニュージーランド、フランス、ベルギー、オーストリア、スペイン、イタリア、スイス、オランダ、アイルランドで利用できます。
+
 faq-question-4-question-2 = { -brand-name-relay } メールマスクを使用してメッセージに返信できますか?
 
 ## Profile Page (Logged In)
@@ -291,10 +267,13 @@ profile-label-click-to-copy-alt = クリックして { $address } のマスク�
 profile-label-placeholder = アカウント名を追加
 profile-label-generate-new-alias-2 = 新しいマスクを生成
 profile-label-delete = 削除
+
 # This string is followed by an email address
 profile-label-forward-emails = 転送元のメールアドレス:
+
 # This string is followed by date:
 profile-label-created = 作成日:
+
 profile-label-click-to-copy = クリックしてコピー
 profile-label-blocked = ブロック済み
 profile-label-forwarded = 転送済み
@@ -335,30 +314,21 @@ success-signed-in-message = { $username } としてログインしました。
 
 ## Error Messages
 
-
 ## Tips and tricks at the bottom of the page
-
 
 ## Modal for generating a custom mask
 
-
 ## Popover explaining how custom masks work
 
-
 ## Tip about using custom masks
 
-
 ## Tip about using custom masks
-
 
 ## Onboarding
 
-
 ## Premium Onboarding
 
-
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
-
 
 ## Report of trackers removed from an email
 
@@ -366,22 +336,22 @@ trackerreport-faq-cta = { -brand-name-firefox-relay } に関するよくある�
 
 ## Modals
 
+
 modal-delete-confirmation-2 = はい、このマスクを削除します。
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
-
 ## Evergreen Survey (displayed on the profile page)
-
 
 ## CSAT survey
 
-
 ## VPN Promo Banner
-
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+## Email sent to free users who try to reply
 
 ## Notifications component
+
+## API error messages
 
