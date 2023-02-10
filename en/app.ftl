@@ -307,10 +307,6 @@ plan-matrix-feature-list-email-subdomain = Email subdomain
 plan-matrix-feature-list-email-reply = Reply to forwarded emails
 plan-matrix-feature-list-phone-mask = Phone number mask
 plan-matrix-feature-list-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-plan-matrix-price-monthly = { $monthly_price }/month
-plan-matrix-price-period-yearly = Yearly
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Billing yearly
 plan-matrix-price-period-monthly = Monthly
@@ -318,7 +314,6 @@ plan-matrix-price-period-monthly = Monthly
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Save { $percentage }% on regular VPN price
 plan-matrix-pick = Sign Up
-plan-matrix-join-waitlist = Join the Waitlist
 
 ## Use Cases
 
