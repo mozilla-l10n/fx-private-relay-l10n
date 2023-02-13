@@ -306,7 +306,6 @@ plan-matrix-feature-list-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn
 plan-matrix-price-monthly = 每月 { $monthly_price }
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = 每年收費
-plan-matrix-price-period-monthly = 每月
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = VPN 原價可再享 { $percentage }% 折扣

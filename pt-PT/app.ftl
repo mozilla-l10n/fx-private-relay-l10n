@@ -170,7 +170,6 @@ plan-matrix-heading-feature-email-reply = Responder a mensagens reencaminhadas
 plan-matrix-price-monthly = { $monthly_price }/mês
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Faturação anual
-plan-matrix-price-period-monthly = Mensal
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Poupe { $percentage }% no preço habitual da VPN

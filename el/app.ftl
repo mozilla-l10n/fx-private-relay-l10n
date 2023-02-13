@@ -319,7 +319,6 @@ plan-matrix-feature-list-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-m
 plan-matrix-price-monthly = { $monthly_price }/μήνα
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Ετήσια χρέωση
-plan-matrix-price-period-monthly = Μηνιαία
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Εξοικονομήστε { $percentage }% σε σχέση με την κανονική τιμή του VPN

@@ -271,7 +271,6 @@ plan-matrix-feature-list-browser-extension = Rozšíření do prohlížeče
 plan-matrix-price-monthly = { $monthly_price }/měsíc
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Roční účtování
-plan-matrix-price-period-monthly = Měsíčně
 
 ## Use Cases
 

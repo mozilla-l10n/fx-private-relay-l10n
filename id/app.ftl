@@ -308,7 +308,6 @@ plan-matrix-feature-list-vpn = Akses ke <vpn-logo>{ -brand-name-mozilla-vpn }</v
 plan-matrix-price-monthly = { $monthly_price }/bulan
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Tagihan tahunan
-plan-matrix-price-period-monthly = Bulanan
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Hemat { $percentage }% dari harga VPN reguler
