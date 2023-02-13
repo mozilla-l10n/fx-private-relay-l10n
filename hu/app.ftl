@@ -320,7 +320,6 @@ plan-matrix-feature-list-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -bra
 plan-matrix-price-monthly = { $monthly_price }/hónap
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Számlázás évente
-plan-matrix-price-period-monthly = Havi
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Takarítson meg { $percentage }%-ot a VPN szokásos árán

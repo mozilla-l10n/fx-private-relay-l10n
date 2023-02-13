@@ -322,7 +322,6 @@ plan-matrix-feature-list-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</
 plan-matrix-price-monthly = { $monthly_price }/moanne
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Jierlikse fakturearing
-plan-matrix-price-period-monthly = Moanliks
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Besparje { $percentage }% op de normale VPN-priis

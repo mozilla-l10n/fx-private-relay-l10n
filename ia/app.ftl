@@ -316,7 +316,6 @@ plan-matrix-feature-list-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</
 plan-matrix-price-monthly = { $monthly_price }/mense
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Facturation annual
-plan-matrix-price-period-monthly = Mensual
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Sparnia { $percentage }% sur le precio normal del VPN

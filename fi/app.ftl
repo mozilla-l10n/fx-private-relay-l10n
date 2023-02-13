@@ -276,7 +276,6 @@ plan-matrix-feature-list-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vp
 plan-matrix-price-monthly = { $monthly_price }/kk
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Laskutus vuosittain
-plan-matrix-price-period-monthly = Kuukausittain
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Säästä { $percentage } % normaalista VPN-hinnasta
