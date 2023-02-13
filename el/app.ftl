@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = Το { -brand-name-firefox-relay } διευκολύνει τη δημιουργία μασκών email, τα οποία κάνουν προώθηση των μηνυμάτων σας στα πραγματικά σας εισερχόμενα. Χρησιμοποιήστε τις για να προστατέψτε τους λογαριασμούς σας από hackers και ανεπιθύμητα μηνύματα.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Ανοίγει σε νέα καρτέλα)
 
@@ -20,6 +20,7 @@ nav-email-dashboard = Μάσκες email
 nav-phone-dashboard = Μάσκες τηλεφώνου
 label-open-menu = Άνοιγμα μενού
 avatar-tooltip = Προφίλ
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Συχνές ερωτήσεις
 nav-profile-sign-in = Σύνδεση
@@ -55,6 +56,7 @@ nav-support = Βοήθεια και υποστήριξη
 nav-sign-out = Αποσύνδεση
 nav-contact = Επικοινωνία
 nav-menu-mobile = Μενού για κινητές συσκευές
+
 fx-desktop-2 = { -brand-name-firefox } για υπολογιστές
 fx-mobile-2 = { -brand-name-firefox } για κινητά
 
@@ -81,7 +83,9 @@ whatsnew-tab-archive-label = Ιστορικό
 whatsnew-footer-clear-all-label = Απαλοιφή όλων
 whatsnew-footer-back-label = Πίσω
 whatsnew-footer-learn-more-label = Μάθετε περισσότερα
+
 whatsnew-empty-message = Συνεχίστε να έρχεστε εδώ — εργαζόμαστε πάντα πάνω σε νέες, εξαιρετικές λειτουργίες για να κάνουμε καλύτερο το { -brand-name-relay }.
+
 whatsnew-feature-size-limit-heading = Αύξηση μεγέθους συνημμένων
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -91,16 +95,19 @@ whatsnew-feature-size-limit-description = Το { -brand-name-firefox-relay } μ�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με…
 whatsnew-feature-size-limit-description-var = Το { -brand-name-firefox-relay } μπορεί πλέον να προωθεί email μεγέθους έως { email-size-limit }, μαζί με τα συνημμένα.
+
 whatsnew-feature-sign-back-in-heading = Συνδεθείτε ξανά με τα ψευδώνυμά σας
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Για να δημιουργήσετε ένα νέο ψευδώνυμο όταν σας ζητηθεί το email σας, ανοίξτε…
 whatsnew-feature-sign-back-in-description = Για να συνδεθείτε με ένα ψευδώνυμο που χρησιμοποιήσατε στο παρελθόν, ανοίξτε το μενού επιλογών στο σημείο όπου ο ιστότοπος ζητά το email σας. Θα μπορέσετε να επιλέξετε το ψευδώνυμο και να συμπληρώσετε αυτόματα το πεδίο email.
+
 whatsnew-feature-forward-some-heading = Φραγή διαφημιστικών email
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = Το { -brand-name-relay-premium } επιτρέπει τη φραγή διαφημιστικών email…
 whatsnew-feature-forward-some-description = Το { -brand-name-relay-premium } σάς επιτρέπει να αποκλείετε τα διαφημιστικά email που αποστέλλονται σε ένα ψευδώνυμο. Θα λαμβάνετε email, όπως αποδείξεις, αλλά όχι διαφημιστικά email.
+
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Τα ψευδώνυμα ονομάζονται πλέον «μάσκες»
@@ -112,12 +119,14 @@ whatsnew-feature-alias-to-mask-snippet = Παρατηρήσατε κάποια �
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Παρατηρήσατε κάποια αλλαγή; Τα ψευδώνυμα ονομάζονται πλέον «μάσκες» για να γίνει το { -brand-name-firefox-relay } πιο εύχρηστο και ανοικτό σε νέες λειτουργίες.
+
 whatsnew-feature-premium-expansion-sweden-heading = Το { -brand-name-relay-premium } διατίθεται στη Σουηδία
 whatsnew-feature-premium-expansion-finland-heading = Το { -brand-name-relay-premium } διατίθεται στη Φινλανδία
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία…
 whatsnew-feature-premium-expansion-description = Αναβαθμίστε τώρα και λάβετε ακόμα περισσότερη προστασία — δημιουργήστε απεριόριστες μάσκες email, αποκτήστε έναν προσαρμοσμένο υποτομέα email και πολλά άλλα!
+
 whatsnew-feature-tracker-removal-heading = Παρουσίαση της αφαίρεσης ιχνηλατών email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -125,6 +134,7 @@ whatsnew-feature-tracker-removal-snippet = Το { -brand-name-relay } μπορε
 # Deprecated
 whatsnew-feature-tracker-removal-description = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές.
 whatsnew-feature-tracker-removal-description-2 = Το { -brand-name-relay } μπορεί πλέον να αφαιρεί κοινούς ιχνηλάτες email από τα προωθημένα email σας, βοηθώντας σας να παραμείνετε αόρατοι για τους διαφημιστές. Ενεργοποιήστε το στις «Ρυθμίσεις».
+
 whatsnew-feature-offer-countdown-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -135,6 +145,7 @@ whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
+
 whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είναι πλέον διαθέσιμο στη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -175,13 +186,13 @@ hero-image-copy-control-html = Πλέον, μπορείτε να <em>έχετε 
 
 # Home Page Version A
 
-
 ## Hero Section
 
 landing-hero-headline-2 = Προστατέψτε την πραγματική σας διεύθυνση email και ελέγξτε τα εισερχόμενά σας
 landing-hero-body-2 =
     Οι μάσκες email του { -brand-name-firefox-relay } προστατεύουν την πραγματική σας διεύθυνση email από τη δημόσια έκθεση, προωθώντας αυτόματα τα μηνύματα στα πραγματικά σας εισερχόμενα. 
     Πλέον μπορείτε να λαμβάνετε μόνο τα μηνύματα που θέλετε στα εισερχόμενά σας. Εγγραφείτε με τον { -brand-name-firefox-account(case: "accusative", capitalization: "lowercase") } σας για να ξεκινήσετε.
+
 landing-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 landing-offer-end-hero-cta = Αναβάθμιση τώρα
 # Variables:
@@ -232,6 +243,7 @@ landing-pricing-free-cta = Λήψη του { -brand-name-relay }
 landing-pricing-free-ribbon = Διαθέσιμο τώρα!
 # Deprecated
 landing-pricing-free-feature-free = Δωρεάν
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -253,10 +265,12 @@ landing-pricing-premium-feature-4 = Απάντηση σε προωθημένα e
 landing-pricing-premium-feature-5 = Φραγή διαφημιστικών email
 # Deprecated
 landing-pricing-premium-feature-6 = Αφαίρεση ιχνηλατών email
+
 # Deprecated
 landing-pricing-waitlist-description = Το { -brand-name-firefox-relay-premium } δεν είναι προς το παρόν διαθέσιμο στη χώρα σας. Παρακαλούμε πείτε μας το email σας για να ενημερωθείτε μόλις γίνει.
 # Deprecated
 landing-pricing-waitlist-cta = Εγγραφή στη λίστα αναμονής
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -269,6 +283,7 @@ landing-pricing-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
+
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -279,12 +294,7 @@ plan-matrix-bundle-offer-heading = Μόνο για περιορισμένο χρ
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Μόνο για περιορισμένο χρονικό διάστημα: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/μήνα*
 plan-matrix-bundle-offer-content = Δοκιμάστε τις μάσκες email του { -brand-name-firefox-relay } και προστατέψτε τα εισερχόμενά σας. Έπειτα, αναβαθμίστε στο { -brand-name-relay-premium } για ακόμα περισσότερη ευελιξία και έλεγχο.
-plan-matrix-heading-features = Δυνατότητες
-plan-matrix-heading-plan-free = Περιορισμένη προστασία email
-plan-matrix-heading-plan-premium = Προστασία email
-plan-matrix-heading-plan-phones = Προστασία email & τηλεφώνου
 plan-matrix-heading-plan-bundle = Προσθήκη προστασίας VPN
-plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-relay-premium } και { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Μάσκες email
 plan-matrix-heading-feature-browser-extension = Επέκταση φυλλομετρητή
@@ -294,7 +304,6 @@ plan-matrix-heading-feature-email-subdomain = Υποτομέας email
 plan-matrix-heading-feature-email-reply = Απάντηση σε προωθημένα email
 plan-matrix-heading-feature-phone-mask = Μάσκα αριθμού τηλεφώνου
 plan-matrix-heading-feature-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } μάσκες email
@@ -305,23 +314,15 @@ plan-matrix-feature-list-email-subdomain = Υποτομέας email
 plan-matrix-feature-list-email-reply = Απάντηση σε προωθημένα email
 plan-matrix-feature-list-phone-mask = Μάσκα αριθμού τηλεφώνου
 plan-matrix-feature-list-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Τιμή
-plan-matrix-feature-count-unlimited = Απεριόριστες
-plan-matrix-feature-included = Περιλαμβάνεται
-plan-matrix-feature-not-included = Δεν περιλαμβάνεται
-plan-matrix-price-free = Δωρεάν
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/μήνα
-plan-matrix-price-period-yearly = Ετησίως
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Ετήσια χρέωση
-plan-matrix-price-period-monthly = Μηνιαία
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Εξοικονομήστε { $percentage }% σε σχέση με την κανονική τιμή του VPN
 plan-matrix-pick = Εγγραφή
-plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
 
 ## Use Cases
 
@@ -348,9 +349,11 @@ landing-use-cases-gaming = Παιχνίδια
 landing-use-cases-gaming-body-2 =
     Απολαμβάνετε τα διαδικτυακά παιχνίδια, αλλά ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή νταήδες, μέσω του ονόματος παίκτη και της διεύθυνσης email σας;
     Χρησιμοποιήστε μια μάσκα email για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητα και τα παιχνίδια σας.
+
 landing-use-cases-shopping-hero-heading = Αγορές με τις μάσκες email
 landing-use-cases-shopping-hero-content1 = Θέλετε να αγοράσετε κάτι στο διαδίκτυο και δεν γνωρίζετε ή δεν εμπιστεύεστε απόλυτα το κατάστημα;
 landing-use-cases-shopping-hero-content2 = Χρησιμοποιήστε μια μάσκα email κάθε φορά που κάνετε αγορές στο διαδίκτυο. Λάβετε την επιβεβαίωση στο πραγματικό σας email και απενεργοποιήστε εύκολα τη μάσκα ανά πάσα στιγμή αργότερα.
+
 landing-use-cases-on-the-go = Εν κινήσει
 landing-use-cases-on-the-go-heading = Εν κινήσει με το { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Δημιουργήστε άμεσα μια προσαρμοσμένη μάσκα email όπου και αν πάτε!
@@ -360,35 +363,11 @@ landing-use-cases-on-the-go-receipt-heading = Λήψη αποδείξεων emai
 landing-use-cases-on-the-go-receipt-body = Μοιραστείτε μια προσαρμοσμένη μάσκα email για τις αποδείξεις αγορών σε καταστήματα, χωρίς να γνωστοποιήσετε το πραγματικό σας email
 landing-use-cases-on-the-go-phone-heading = Χρήση στο τηλέφωνό σας
 landing-use-cases-on-the-go-phone-body = Όπου κι αν βρίσκεστε, δημιουργήστε μια προσαρμοσμένη μάσκα email σε δευτερόλεπτα για οποιαδήποτε χρήση
+
 landing-use-cases-signups = Εγγραφές
 landing-use-cases-signups-hero-heading = Εγγραφές χωρίς ανησυχία
 landing-use-cases-signups-hero-content1 = Θέλετε να ξεκινήσετε μια νέα συνδρομή, να απαντήσετε σε μια πρόσκληση ή να λάβετε έναν εκπτωτικό κωδικό, χωρίς να «πλημμυρίσουν» τα εισερχόμενά σας με ανεπιθύμητα μηνύματα;
 landing-use-cases-signups-hero-content2 = Πριν ολοκληρώσετε την επόμενη εγγραφή, χρησιμοποιήστε μια μάσκα email αντί για την πραγματική σας, ώστε να προστατέψετε τις πληροφορίες σας και να διατηρήσετε τον έλεγχο των εισερχομένων σας.
-
-## Landing FAQ Section
-
-landing-faq-headline = Συνήθεις ερωτήσεις για το { -brand-name-firefox-relay }
-landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσεις για το { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = - Προσθετα
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Πηγή: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = από 5 ({ $review_count } κριτικές)
-landing-reviews-show-next-button = εμφάνιση επόμενης κριτικής
-landing-reviews-show-previous-button = εμφάνιση προηγούμενης κριτικής
-landing-review-anonymous-user = Χρήστης { -brand-name-firefox } { $user_id }
-landing-review-user-one-review = Εκτιμώ πολύ την ομάδα της { -brand-name-mozilla }, που είναι τόσο δημιουργική και που απλοποιεί την ανωνυμοποίηση της διεύθυνσης email μου. Αυτή είναι μια εξαιρετική επέκταση, τη συνιστώ ανεπιφύλακτα σε όσους τους απασχολεί το απόρρητό τους!
-landing-review-user-two-review = Απλό εργαλείο για να ξεφορτωθείτε ή να αποφύγετε τα ανεπιθύμητα μηνύματα στο email σας.
-landing-review-user-three-review = Λατρεύω αυτήν την επέκταση! Πολύ απλή, αλλά ισχυρή και η ενσωμάτωση με το πρόγραμμα περιήγησης είναι απίθανη.
-landing-review-user-four-review-list-1 = Χαρίζει ηρεμία κατά την περιήγηση στο διαδίκτυο.
-landing-review-user-four-review-list-2 = Προστατεύει την ταυτότητα του χρήστη από ιχνηλάτες με τη δημιουργία ψευδωνύμων όταν ο χρήστης δεν θέλει να κοινοποιήσει την πραγματική του διεύθυνση email για διάφορους λόγους.
-landing-review-user-four-review-list-3 = Τα δεδομένα εισερχόμενων email είναι ασφαλή στα χέρια του { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κάνει θαύματα, δοκιμάστε το!!!
 
 ## Premium promo page
 
@@ -400,14 +379,17 @@ premium-promo-hero-body-2-html = Με το { -brand-name-firefox-relay-premium }
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email.
 premium-promo-hero-cta = Αναβάθμιση τώρα
+
 premium-promo-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
 premium-promo-offer-end-hero-cta = Αναβάθμιση τώρα
+
 premium-promo-availability-warning = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-availability-warning-2 = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Φινλανδία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, τη Σουηδία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
 premium-promo-availability-warning-3 = Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Πορτογαλία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία και τη Φινλανδία.
+
 premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -brand-name-firefox-relay-premium };
 premium-promo-perks-lead-2 = Με το { -brand-name-firefox-relay-premium }, έχετε όλη την προστασία και τη διαχείριση εισερχομένων του { -brand-name-relay }, αλλά με απεριόριστες μάσκες email και τον δικό σας προσαρμοσμένο υποτομέα για ακόμα πιο εύκολη διαχείριση των εισερχομένων σας.
 premium-promo-perks-cta-label = Αναβάθμιση τώρα
@@ -423,6 +405,7 @@ premium-promo-perks-perk-block-promotionals-headline = Φραγή διαφημι
 premium-promo-perks-perk-block-promotionals-body = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
 premium-promo-perks-perk-tracker-blocking-headline = Αφαίρεση ιχνηλατών email
 premium-promo-perks-perk-tracker-blocking-body = Το { -brand-name-relay } σάς βοηθά πλέον να διακόπτετε την καταγραφή email — οι μάσκες email σας θα αφαιρέσουν τους κοινούς ιχνηλάτες email από τα προωθημένα email, βοηθώντας σας να παραμείνετε αόρατοι σε ιχνηλάτες και διαφημιστές.
+
 premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσκες email του { -brand-name-relay } παντού
 premium-promo-use-cases-shopping-heading = Αγορές
 premium-promo-use-cases-shopping-body-2 = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε προσαρμοσμένες μάσκες email, όπως το «prosfores@otomeasmou.mozmail.com».
@@ -430,7 +413,9 @@ premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυ�
 premium-promo-use-cases-social-networks-body-2 = Θέλετε να προστατεύσετε καλύτερα την ηλεκτρονική σας ταυτότητα σε ένα κοινωνικό δίκτυο; Χρησιμοποιήστε μια διαφορετική μάσκα email για να συνδεθείτε σε κάθε κοινωνικό δίκτυο και να αποτρέψετε την έκθεση του πραγματικού σας email σε αυτούς τους ιστοτόπους.
 premium-promo-use-cases-gaming-heading = Παιχνίδια
 premium-promo-use-cases-gaming-body-2 = Ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή τα τρολ, μέσω του ονόματος παίκτη και της διεύθυνσης email σας; Χρησιμοποιήστε μια μάσκα όπως το «paixnidi@otomeasmou.mozmail.com» για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητά σας.
+
 premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμμά σας
+
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Τιμή γνωριμίας: Απεριόριστες μάσκες με { $monthly_price } ανά μήνα
@@ -512,13 +497,16 @@ setting-tracker-removal-warning-2 = Σημαντικό: Η αφαίρεση τω
 ## FAQ Page
 
 faq-headline = Συχνές ερωτήσεις
+
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
+
 faq-question-what-is-question-2 = Τι είναι μια μάσκα email του { -brand-name-relay };
 faq-question-what-is-answer-2 = Οι μάσκες email είναι καλυμμένες διευθύνσεις email που προωθούν μηνύματα στην πραγματική σας διεύθυνση email. Αυτές οι μάσκες σάς επιτρέπουν να μοιραστείτε μια διεύθυνση με τρίτους που θα αποκρύψει το πραγματικό σας email και θα προωθεί μηνύματα σε αυτό.
+
 faq-question-missing-emails-question-2 = Δεν λαμβάνω μηνύματα από τις μάσκες email μου
 faq-question-missing-emails-answer-a-2 = Ακολουθούν μερικοί λόγοι για τους οποίους ενδέχεται να μην λαμβάνετε προωθημένα email από τις μάσκες σας:
 faq-question-missing-emails-answer-reason-spam = Τα μηνύματα πηγαίνουν στα ανεπιθύμητα
@@ -533,45 +521,59 @@ faq-question-missing-emails-answer-b-html = Αν είστε χρήστης το�
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Εάν αντιμετωπίζετε κάποιο από αυτά τα ζητήματα, παρακαλούμε <a href="{ $url }" { $attrs }>επισκεφτείτε τον ιστότοπο υποστήριξης</a>.
+
 faq-question-use-cases-question-2 = Πότε πρέπει να χρησιμοποιώ τις μάσκες email του { -brand-name-relay };
 faq-question-use-cases-answer-part1-2 = Μπορείτε να εισαγάγετε τις μάσκες email του { -brand-name-relay } στα περισσότερα μέρη που θα χρησιμοποιούσατε την κανονική σας διεύθυνση email. Προτείνουμε τη χρήση τους κατά την εγγραφή σας σε διαφημιστικά/ενημερωτικά email, όπου ίσως θελήσετε να επιλέξετε εάν θα λαμβάνετε ή όχι email στο μέλλον.
 faq-question-use-cases-answer-part2-2 = Δεν συνιστούμε τη χρήση μασκών όταν χρειάζεται να επαληθεύσετε την ταυτότητά σας ή για πολύ σημαντικά email ή σε περίπτωση που πρέπει να λαμβάνετε συνημμένα αρχεία. Για παράδειγμα, καλό είναι να δώσετε την πραγματική σας διεύθυνση email στην τράπεζα, τον γιατρό και τον δικηγόρο σας, καθώς και όταν λαμβάνετε εισιτήρια για συναυλίες ή πτήσεις.
+
 faq-question-2-question-2 = Γιατί κάποιοι ιστότοποι δεν αποδέχονται τη μάσκα email μου από το { -brand-name-relay };
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Κάποιοι ιστότοποι ενδέχεται να μην αποδεχτούν μια διεύθυνση email που περιλαμβάνει υποτομέα (@upotomeas.mozmail.com), ενώ άλλοι έχουν σταματήσει να δέχονται όλες τις διευθύνσεις εκτός των λογαριασμών Gmail, Hotmail ή Yahoo.
+
 faq-question-1-question = Τι γίνεται με τα ανεπιθύμητα email;
 faq-question-1-answer-a-2 = Αν και το { -brand-name-relay } δεν φιλτράρει ανεπιθύμητα email, ο συνεργάτης μας Amazon SES αποκλείει ανεπιθύμητα email και κακόβουλο λογισμικό. Αν το { -brand-name-relay } προωθεί μηνύματα που δεν θέλετε, μπορείτε να ενημερώσετε τις ρυθμίσεις του { -brand-name-relay } σας ώστε να αποκλείει μηνύματα από τη μάσκα που τα προωθεί.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Εάν διαπιστώσετε εκτεταμένο πρόβλημα με ανεπιθύμητα email από όλες τις μάσκες σας, <a href="{ $url }" { $attrs }>αναφέρετέ το σε εμάς</a> ώστε να εξετάσουμε το ενδεχόμενο προσαρμογής των ορίων για ανεπιθύμητα μηνύματα SES για αυτήν την υπηρεσία. Εάν τα αναφέρετε ως ανεπιθύμητα, ο πάροχος ηλεκτρονικού ταχυδρομείου σας θα θεωρήσει το { -brand-name-relay } ως πηγή ανεπιθύμητης αλληλογραφίας και όχι τον αρχικό αποστολέα.
+
 faq-question-availability-question = Πού είναι διαθέσιμο το { -brand-name-relay };
 faq-question-availability-answer = Το δωρεάν { -brand-name-relay } διατίθεται σε περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στις ΗΠΑ, τη Γερμανία, το Ηνωμένο Βασίλειο, τον Καναδά, τη Σιγκαπούρη, τη Μαλαισία, τη Νέα Ζηλανδία, τη Γαλλία, το Βέλγιο, την Αυστρία, την Ισπανία, την Ιταλία, την Ελβετία, την Ολλανδία και την Ιρλανδία.
 faq-question-availability-answer-v2 = Το δωρεάν { -brand-name-relay } διατίθεται στις περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Γαλλία, τη Γερμανία, την Ελβετία, τις ΗΠΑ, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, τη Μαλαισία, τη Νέα Ζηλανδία, την Ολλανδία, τη Σιγκαπούρη, τη Σουηδία και τη Φινλανδία.
 faq-question-availability-answer-v3 = Το δωρεάν { -brand-name-relay } διατίθεται στις περισσότερες χώρες. Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Πορτογαλία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία και τη Φινλανδία.
+
 faq-question-4-question-2 = Μπορώ να απαντήσω σε μηνύματα με τη μάσκα email του { -brand-name-relay } μου;
 faq-question-4-answer-v4 = Οι χρήστες του { -brand-name-relay-premium } μπορούν να απαντήσουν σε ένα προωθημένο email εντός 3 μηνών από την παραλαβή του. Αν προσθέσετε κάποιον παραλήπτη κοινοποίησης (CC) ή κρυφής κοινοποίησης (BCC) κατά την απάντηση σε κάποιο email, η αρχική σας διεύθυνση email θα εκτεθεί στον πρώτο παραλήπτη και αυτούς που προσθέσατε. Αν δεν θέλετε να εκτεθεί η αρχική σας διεύθυνση email, μην προσθέσετε CC ή BCC.
+
 faq-question-subdomain-characters-question = Τι χαρακτήρες μπορώ να χρησιμοποιήσω στον υποτομέα;
 faq-question-subdomain-characters-answer-v2 = Μπορείτε να χρησιμοποιήσετε μόνο πεζά αγγλικά γράμματα, αριθμούς και παύλες για τον υποτομέα.
+
 faq-question-browser-support-question = Μπορώ να χρησιμοποιώ το { -brand-name-relay } σε άλλους φυλλομετρητές ή σε κινητές συσκευές;
 faq-question-browser-support-answer-2 = Ναι, μπορείτε να δημιουργήσετε μάσκες { -brand-name-relay } σε άλλα προγράμματα περιήγησης ή κινητές συσκευές κάνοντας απλά σύνδεση στον πίνακα ελέγχου σας στο { -brand-name-relay }.
+
 faq-question-longevity-question = Τι θα γίνει εάν η Mozilla τερματίσει την υπηρεσία { -brand-name-firefox-relay };
 faq-question-longevity-answer-2 = Θα σας ενημερώσουμε εκ των προτέρων ότι πρέπει να αλλάξετε τη διεύθυνση email όλων των λογαριασμών που χρησιμοποιούν μάσκες email του { -brand-name-relay }.
+
 faq-question-mozmail-question-2 = Γιατί οι μάσκες email μου άρχισαν να χρησιμοποιούν τον τομέα «mozmail.com»;
 faq-question-mozmail-answer-2 = Αλλάξαμε το «relay.firefox.com» σε «mozmail.com» για να καταστήσουμε δυνατή την απόκτηση προσαρμοσμένων υποτομέων email, όπως το maska@otomeassas.mozmail.com. Οι προσαρμοσμένοι υποτομείς email, που διατίθενται στους συνδρομητές του { -brand-name-relay-premium }, επιτρέπουν την πιο εύκολη την απομνημόνευση των μασκών email σας σε σχέση με τις τυχαίες μάσκες.
+
 faq-question-attachments-question = Θα προωθεί το { -brand-name-firefox-relay } email με συνημμένα;
 faq-question-attachments-answer-v2 = Πλέον υποστηρίζουμε την προώθηση συνημμένων. Ωστόσο, υπάρχει όριο { email-size-limit } για την προώθηση email μέσω του { -brand-name-relay }. Τυχόν email άνω των { email-size-limit } δεν θα προωθούνται.
+
 faq-question-unsubscribe-domain-question-2 = Τι θα συμβεί στον προσαρμοσμένο υποτομέα μου αν καταργήσω τη συνδρομή στο { -brand-name-relay-premium };
 faq-question-unsubscribe-domain-answer-2 = Εάν ακυρώσετε τη συνδρομή σας στο { -brand-name-relay-premium }, θα συνεχίσετε να λαμβάνετε email μέσω του προσαρμοσμένου σας υποτομέα, αλλά δεν θα μπορείτε πλέον να δημιουργείτε νέες μάσκες με αυτόν. Εάν έχετε περισσότερες από πέντε μάσκες συνολικά, δεν θα μπορείτε να δημιουργήσετε άλλες. Θα χάσετε επίσης τη δυνατότητα απάντησης σε προωθημένα μηνύματα. Μπορείτε να εγγραφείτε ξανά στο { -brand-name-relay-premium } και να αποκτήσετε ξανά πρόσβαση σε αυτές τις λειτουργίες.
+
 faq-question-8-question = Ποια δεδομένα συλλέγει το { -brand-name-firefox-relay };
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Μπορείτε να μάθετε περισσότερα σχετικά με τα δεδομένα που συλλέγει το { -brand-name-firefox-relay }, διαβάζοντας την <a href="{ $url }" { $attrs }>πολιτική απορρήτου</a> μας. Μπορείτε επίσης να μοιραστείτε προαιρετικά δεδομένα σχετικές με τις ετικέτες και τον ιστότοπο που χρησιμοποιείτε για τις μάσκες email σας, προκειμένου να σας παρέχουμε και να βελτιώνουμε αυτήν την υπηρεσία.
+
 faq-question-email-storage-question = Αποθηκεύει το { -brand-name-relay } τα email μου;
 faq-question-email-storage-answer = Στη σπάνια περίπτωση κατά την οποία η υπηρεσία είναι εκτός λειτουργίας, αποθηκεύουμε προσωρινά τα email σας μέχρι να μπορέσουμε να τα στείλουμε. Δεν θα τα αποθηκεύσουμε ποτέ για περισσότερο από τρεις ημέρες.
+
 faq-question-acceptable-use-question = Ποιες είναι οι αποδεκτές χρήσεις του { -brand-name-relay };
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -582,10 +584,12 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Περιορίζοντ
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Παρακαλούμε διαβάστε τους <a href="{ $url }" { $attrs }>Όρους υπηρεσίας</a> μας για περισσότερες πληροφορίες.
+
 faq-question-promotional-email-blocking-question = Τι είναι η φραγή διαφημιστικών email;
 faq-question-promotional-email-blocking-answer = Οι συνδρομητές του { -brand-name-relay-premium } μπορούν να ενεργοποιήσουν τη φραγή των διαφημιστικών email. Αυτή η λειτουργία θα προωθήσει σε εσάς τα σημαντικά email, όπως αποδείξεις, μηνύματα για επαναφορά κωδικών πρόσβασης και επιβεβαιώσεις, ενώ θα αποκλείει τα διαφημιστικά μηνύματα. Υπάρχει ένας μικρός κίνδυνος να αποκλειστεί κάποιο σημαντικό μήνυμα, επομένως σας συνιστούμε να μην χρησιμοποιείτε αυτήν τη λειτουργία για πολύ σημαντικά μέρη, όπως η τράπεζά σας. Εάν αποκλειστεί κάποιο email, δεν μπορεί να ανακτηθεί.
 faq-question-detect-promotional-question = Πώς ανιχνεύει το { -brand-name-relay } εάν ένα email είναι διαφημιστικό;
 faq-question-detect-promotional-answer = Πολλά email αποστέλλονται με μεταδεδομένα «κεφαλίδας» για να υποδείξουν ότι προέρχονται από αυτοματοποιημένα εργαλεία λιστών. Το { -brand-name-firefox-relay } ανιχνεύει αυτά τα δεδομένα κεφαλίδας για να αποκλείσει αυτά τα email.
+
 faq-question-disable-trackerremoval-question = Μπορώ να διακόψω την αφαίρεση ιχνηλατών email;
 faq-question-disable-trackerremoval-answer = Ναι. Εάν αντιμετωπίζετε προβλήματα με τα email που φαίνονται κατεστραμμένα ή επιθυμείτε να διακόψετε την αφαίρεση των ιχνηλατών, μπορείτε να απενεργοποιήσετε τη λειτουργία στις ρυθμίσεις.
 faq-question-bulk-trackerremoval-question = Μπορώ να αφαιρέσω ιχνηλάτες μόνο σε ορισμένες από τις μάσκες email μου;
@@ -629,14 +633,18 @@ profile-label-reset = Επαναφορά
 profile-label-apply = Εφαρμογή
 profile-label-skip = Παράλειψη
 profile-label-continue = Συνέχεια
+
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
+
 # This string is followed by date
 profile-label-first-emailed = Πρώτο email:
+
 # This string is followed by date:
 profile-label-created = Δημιουργία:
 profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
+
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός
@@ -715,7 +723,9 @@ profile-promo-email-blocking-description-promotionals-locked-close = Κλείσ�
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Απόρριψη
+
 banner-bounced-headline = Το { -brand-name-relay } δεν μπόρεσε να παραδώσει το email σας.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -762,30 +772,36 @@ banner-pack-upgrade-headline-2-html = Αναβαθμίστε στο <strong>{ -b
 banner-pack-upgrade-copy-2 = Με απεριόριστες μάσκες email και τον δικό σας υποτομέα email, το { -brand-name-firefox-relay-premium } σάς προστατεύει στο διαδίκτυο.
 footer-banner-premium-promo-headine = Αναβαθμίστε στο <strong>{ -brand-name-firefox-relay-premium }</strong> για προστασία τηλεφώνου <i>και</i> email
 banner-pack-upgrade-cta = Αναβάθμιση τώρα
+
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Ενημέρωση σημείωσης απορρήτου
 banner-label-privacy-notice-update-body = Για τη βελτίωση της αξιοπιστίας του { -brand-name-firefox-relay } σε περίπτωση που δεν μπορεί παραδοθεί κάποιο email, θα το διατηρήσουμε προσωρινά στους διακομιστές μας έως ότου παραδοθεί. Δεν θα το κρατήσουμε ποτέ παραπάνω από τρεις ημέρες.
 banner-label-privacy-notice-update-cta = Προβολή σημείωσης απορρήτου
+
 # Data Notification Banner:
 banner-label-data-notification-header = Έρχεται σύντομα στο { -brand-name-relay }
 banner-label-data-notification-cta = Μετάβαση στις ρυθμίσεις
 banner-label-data-notification-header-v2 = Ενεργοποίηση νέων λειτουργιών
 banner-label-data-notification-body-cta = Μάθετε περισσότερα
+
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Προστατέψτε το απόρρητό σας, σώστε το διαδίκτυο
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Προστατέψτε το απόρρητό σας ενώ συμμετέχετε στην αποστολή μας για τη δημιουργία ενός καλύτερου διαδικτύου· όλα αυτά με { $monthly_price }
 banner-upgrade-loyalist-cta = Περισσότερη προστασία
+
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 banner-offer-end-cta = Αναβάθμιση τώρα
+
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Μπορείτε να δημιουργήσετε οποιαδήποτε διεύθυνση @{ $subdomain }
+
 banner-ab-premium-promo-stop-spam-body = Το { -brand-name-relay-premium } σάς προσφέρει μια μάσκα τηλεφώνου για να προστατεύσετε τον πραγματικό σας αριθμό, καθώς και απεριόριστες μάσκες email.
 banner-ab-premium-promo-advanced-identity-headline = Προηγμένη προστασία ταυτότητας
 banner-ab-premium-promo-control-receiver-headline = Ελέγξτε ποιος αποκτά τον πραγματικό σας αριθμό
@@ -910,6 +926,7 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Δημιουργήσ�
 multi-part-onboarding-premium-welcome-button-start = Έναρξη
 multi-part-onboarding-premium-get-subdomain = Αποκτήστε έναν προσαρμοσμένο υποτομέα
 multi-part-onboarding-reply-headline = Απαντήστε στα email σας
+
 multi-part-onboarding-premium-welcome-description-2 = Χωρίς τον περιορισμό των πέντε μασκών: μπορείτε να έχετε όσες προσαρμοσμένες ή τυχαίες μάσκες χρειάζεστε. Στον υπολογιστή, μπορείτε να χρησιμοποιήσετε το πρόσθετο του { -brand-name-relay } για να τις δημιουργείτε εν κινήσει.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -974,6 +991,8 @@ trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημι�
 
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
 modal-delete-headline-2 = Οριστική διαγραφή μάσκας email;
+
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -991,6 +1010,7 @@ modal-delete-confirmation-2 = Ναι, θέλω να διαγράψω αυτήν 
 modal-domain-register-good-news = Καλά νέα!
 modal-domain-register-warning-reminder-2 = Θυμηθείτε ότι μπορείτε να καταχωρήσετε μόνο έναν υποτομέα. Δεν θα μπορείτε να τον αλλάξετε αργότερα.
 modal-domain-register-button-2 = Καταχώρηση υποτομέα
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = Το { $subdomain } είναι διαθέσιμο!
@@ -998,6 +1018,7 @@ modal-domain-register-available = Το { $subdomain } είναι διαθέσι�
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι διαθέσιμο!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
@@ -1005,6 +1026,7 @@ modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχω
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Επιτυχία!
+
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1141,6 +1163,7 @@ toast-button-close-label = Κλείσιμο ειδοποίησης
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Έχετε χρησιμοποιήσει και τις { $free_tier_limit } μάσκες email που περιλαμβάνονται στον δωρεάν λογαριασμό σας. Μπορείτε να επαναχρησιμοποιήσετε μια υπάρχουσα μάσκα, αλλά η χρήση μιας μοναδικής μάσκας για κάθε λογαριασμό είναι η πιο ασφαλής επιλογή.
 api-error-free-tier-no-subdomain-masks = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει προσαρμοσμένους υποτομείς για μάσκες. Για να δημιουργήσετε προσαρμοσμένες μάσκες, αναβαθμίστε στο { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.

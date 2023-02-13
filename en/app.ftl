@@ -288,12 +288,7 @@ plan-matrix-bundle-offer-heading = Limited-time only: { -brand-name-relay-premiu
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading-2 = Limited-time only: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month*
 plan-matrix-bundle-offer-content = Try { -brand-name-firefox-relay } email masks and start protecting your email inbox. Then upgrade to { -brand-name-relay-premium } for even more flexibility and customized control.
-plan-matrix-heading-features = Features
-plan-matrix-heading-plan-free = Limited email protection
-plan-matrix-heading-plan-premium = Email protection
-plan-matrix-heading-plan-phones = Email & phone protection
 plan-matrix-heading-plan-bundle = Add VPN protection
-plan-matrix-heading-plan-bundle-alt = Get { -brand-name-relay-premium } and { -brand-name-mozilla-vpn }
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Email masks
 plan-matrix-heading-feature-browser-extension = Browser extension
@@ -303,7 +298,6 @@ plan-matrix-heading-feature-email-subdomain = Email subdomain
 plan-matrix-heading-feature-email-reply = Reply to forwarded emails
 plan-matrix-heading-feature-phone-mask = Phone number mask
 plan-matrix-heading-feature-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
 plan-matrix-feature-list-email-masks = { $mask_limit } email masks
@@ -314,23 +308,15 @@ plan-matrix-feature-list-email-subdomain = Email subdomain
 plan-matrix-feature-list-email-reply = Reply to forwarded emails
 plan-matrix-feature-list-phone-mask = Phone number mask
 plan-matrix-feature-list-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-heading-price = Price
-plan-matrix-feature-count-unlimited = Unlimited
-plan-matrix-feature-included = Included
-plan-matrix-feature-not-included = Not included
-plan-matrix-price-free = Free
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/month
-plan-matrix-price-period-yearly = Yearly
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Billing yearly
-plan-matrix-price-period-monthly = Monthly
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
 plan-matrix-price-vpn-discount = Save { $percentage }% on regular VPN price
 plan-matrix-pick = Sign Up
-plan-matrix-join-waitlist = Join the Waitlist
 
 ## Use Cases
 
@@ -371,31 +357,6 @@ landing-use-cases-signups = Signups
 landing-use-cases-signups-hero-heading = Worry-free signups
 landing-use-cases-signups-hero-content1 = Want to start a new subscription, respond to an invitation, or get a bargain promo code without having spam flooding your inbox?
 landing-use-cases-signups-hero-content2 = Before you complete that next signup, use an email mask instead of your real one to protect your info and keep control over your inbox.
-
-## Landing FAQ Section
-
-landing-faq-headline = Top questions about { -brand-name-firefox-relay }
-landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
-
-## Landing Reviews Section
-
-landing-reviews-add-ons = Add-ons
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# Do not localize addons.mozilla.org
-landing-reviews-details-source = Source: addons.mozilla.org
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = out of 5 ({ $review_count } reviews)
-landing-reviews-show-next-button = show next review
-landing-reviews-show-previous-button = show previous review
-landing-review-anonymous-user = { -brand-name-firefox } user { $user_id }
-landing-review-user-one-review = I really appreciate the { -brand-name-mozilla } team for being so creative and simplifying the anonymizing of my email address. This is a great extension, I highly recommend it to the privacy-aware!
-landing-review-user-two-review = Simple tool to get rid of or avoid spamming your email ID.
-landing-review-user-three-review = Love this extension! Very simple but powerful and the integration with the browser is wonderful.
-landing-review-user-four-review-list-1 = Gives peace of mind when surfing the internet.
-landing-review-user-four-review-list-2 = Protects ones identity from trackers through generation of aliases where one does not want to share the real email address for various reasons.
-landing-review-user-four-review-list-3 = Email inbox data is safe in the hands of { -brand-name-firefox-relay }.
-landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works wonders, try it!!!
 
 ## Premium promo page
 

@@ -44,9 +44,6 @@ bundle-banner-savings-headline = Économisez { $savings } sur { -brand-name-mozi
 bundle-banner-1-year-plan = Forfait d’un an : <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
 bundle-banner-1-year-plan-v2 = Forfait 1 an : <b>Alias de messagerie et de numéro de téléphone { -brand-name-firefox-relay } + { -brand-name-vpn }</b>
 bundle-banner-plan-header = Abonnement de 1 an :
-bundle-banner-plan-modules-email-masking = Alias de messagerie
-bundle-banner-plan-modules-phone-masking = Alias de numéro de téléphone
-bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-price-monthly = Mensuel : <monthly-price>{ $monthly_price }</monthly-price>
@@ -54,18 +51,9 @@ bundle-price-monthly = Mensuel : <monthly-price>{ $monthly_price }</monthly-pri
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 #   $old_price (string) - the outdated monthly cost (including currency symbol) for a given plan. This value has a strikethrough.
 bundle-price-save-amount = Économisez { $savings } <outdated-price>Habituellement à { $old_price }</outdated-price>
-bundle-banner-alt = { -brand-name-mozilla-vpn } et { -brand-name-relay }
-bundle-banner-cta = Obtenez { -brand-name-mozilla-vpn } + { -brand-name-relay }
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
 bundle-banner-money-back-guarantee = Garantie satisfait ou remboursé de { $days_guarantee } jours pour les nouveaux abonnés
-# Variables:
-#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
-bundle-feature-one = Plus de { $num_vpn_servers } serveurs
-# Variables:
-#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
-bundle-feature-two = Plus de { $num_vpn_countries } pays
-bundle-feature-three = Réseau rapide et sécurisé
 
 ## VPN and Relay Premium Dashboard Upgrade Banner
 
@@ -75,3 +63,4 @@ bundle-banner-dashboard-header = Nouveau : forfait d’abonnement { -brand-name
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-dashboard-body = Mettez à niveau votre abonnement pour obtenir à la fois l’alias de numéro de téléphone de { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } pour { $monthly_price }/mois. Abonnez-vous maintenant pour bénéficier de { $savings } sur { -brand-name-mozilla-vpn } !
 bundle-banner-dashboard-upgrade-cta = Mettre à niveau maintenant
+
