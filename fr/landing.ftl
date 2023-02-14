@@ -5,6 +5,8 @@
 
 ## HERO SECTION 
 
+hero-section-title = Protégez votre identité avec des alias de messagerie et de numéro de téléphone sécurisés
+hero-section-body = Nos alias de messagerie et de numéro de téléphone sécurisés et faciles à utiliser vous aident à conserver votre identité privée pour que vous puissiez créer de nouveaux comptes de manière anonyme, bloquer les spams et les appels indésirables, et que vous receviez uniquement les e-mails que vous souhaitez dans votre boîte de réception.
 hero-section-cta = Démarrer
 
 ## BUNDLE BANNER SECTION
@@ -12,6 +14,9 @@ hero-section-cta = Démarrer
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Durée limitée uniquement : { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } à { $monthly_price }/mois
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } vous protège du pistage et de la surveillance pendant que vous jouez, effectuez des opérations bancaires en ligne ou travaillez. Ajoutez-le à { -brand-name-firefox-relay } pour bénéficier de { $savings } d’économies.
 bundle-banner-plan-header-2 = Votre forfait d’un an comprend :
 bundle-banner-plan-modules-email-masking = Alias de messagerie
 bundle-banner-plan-modules-phone-masking = Alias de numéro de téléphone
@@ -35,10 +40,13 @@ how-it-works-section-title = Fonctionnement des alias { -brand-name-relay } pour
 
 # Item 1
 
+how-it-works-section-extension-headline = Utilisez partout les alias de messagerie et de numéro de téléphone de { -brand-name-relay }
+how-it-works-section-extension-body = Obtenez des alias de messagerie sûrs et aléatoires et un alias de numéro de téléphone unique à utiliser chaque fois qu’un site web, une application, un magasin ou un restaurant demande vos informations.
 
 # Item 2
 
 how-it-works-section-forward-headline = Nous vous transfèrerons les e-mails, les appels téléphoniques et les SMS
+how-it-works-section-forward-body = Rassurez-vous, les expéditeurs ne connaîtront jamais votre véritable adresse e-mail ou votre véritable numéro. Vous pouvez même répondre aux SMS et aux e-mails sans partager votre véritable identité.
 
 # Item 3
 
@@ -48,6 +56,7 @@ how-it-works-section-manage-body = Connectez-vous à votre tableau de bord { -br
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Choisissez le niveau de protection qui vous convient
+plan-matrix-offer-body = { -brand-name-firefox-relay } protège votre identité et votre boîte de réception avec des alias de messagerie uniques. Ajoutez encore plus de sécurité avec les alias de numéro de téléphone { -brand-name-relay } et économisez { $savings } en ajoutant la protection { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -66,6 +75,7 @@ plan-matrix-feature-email-masks = Alias de messagerie pour protéger votre véri
 plan-matrix-feature-browser-extension = Extension de navigateur pour utiliser { -brand-name-relay } sur n’importe quel site
 plan-matrix-feature-email-tracker-removal = Supprimer les traqueurs des e-mails
 plan-matrix-feature-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-feature-email-subdomain = Domaine de messagerie { -brand-name-relay } pour créer des alias à la volée
 plan-matrix-feature-email-reply = Répondre aux e-mails de manière anonyme
 plan-matrix-feature-phone-mask = Alias de numéro de téléphone pour protéger votre véritable numéro
 plan-matrix-feature-vpn = Protection { -brand-name-vpn } avec <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
