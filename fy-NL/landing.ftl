@@ -2,22 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
+hero-section-title = Beskermje jo identiteit mei feilige telefoan- en e-mailmaskearing
 
 ## BUNDLE BANNER SECTION
 
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funksjes
 plan-matrix-heading-plan-free = Beheinde e-mailbeskerming
 plan-matrix-heading-plan-premium = E-mailbeskerming
@@ -29,6 +40,7 @@ plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en {
 plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -69,15 +81,21 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wû
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
