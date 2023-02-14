@@ -16,6 +16,8 @@ bundle-banner-plan-modules-email-masking = ای میل ماسکنگ
 bundle-banner-plan-modules-phone-masking = فون ماسکنگ
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } گھنو
+bundle-banner-alt = { -brand-name-mozilla-vpn } تے { -brand-name-relay }
+bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 
 ## HOW IT WORKS SECTION 
 
@@ -40,14 +42,21 @@ plan-matrix-heading-features = خاص
 plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
 plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
+plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } حفاظت شامل کرو
 plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand-name-mozilla-vpn } گھنو
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = ای میل ماسکس
+plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
+plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-feature-mobile-promo-email-blocking = مشہوری ای میلاں بلاک کرو
 
 # Plan Details
 
@@ -59,11 +68,16 @@ plan-matrix-price-free = مفت
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
 
 # Plan CTAs
 
+plan-matrix-upgrade = اپ گریڈ
+plan-matrix-get-relay-cta = { -brand-name-relay } گھنو
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
 
 ## REVIEWS SECTION
@@ -88,9 +102,12 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیرا�
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = شروع کرو
+highlighted-features-section-new-item = نواں!
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = بے انت ای میل ماسک تخلیق کرو
 
 # Item 2
 
@@ -100,9 +117,11 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیرا�
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
 
 ## FAQ SECTION
 
