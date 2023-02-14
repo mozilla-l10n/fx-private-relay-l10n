@@ -2,22 +2,32 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
 
 ## BUNDLE BANNER SECTION
 
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
@@ -29,6 +39,7 @@ plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-rela
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -45,6 +56,7 @@ plan-matrix-price-period-monthly = Μηνιαία
 
 # Plan CTAs
 
+plan-matrix-upgrade = Αναβάθμιση
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
 
 ## REVIEWS SECTION
@@ -69,15 +81,21 @@ landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κά
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
