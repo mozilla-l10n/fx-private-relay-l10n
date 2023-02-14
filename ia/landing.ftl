@@ -62,6 +62,7 @@ plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e {
 
 plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-email-reply = Responder anonymemente al emails
 plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -70,6 +71,7 @@ plan-matrix-feature-mobile-email-masks = Mascas email
 plan-matrix-feature-mobile-browser-extension = Extension de navigator
 plan-matrix-feature-mobile-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-mobile-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-mobile-email-reply = Responde anonymemente al emails
 plan-matrix-feature-mobile-phone-mask = Proteger tu numero de telephono real
 plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
