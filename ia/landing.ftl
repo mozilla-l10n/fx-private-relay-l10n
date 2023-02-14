@@ -93,9 +93,11 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } functiona
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
 
 ## FAQ SECTION
 
