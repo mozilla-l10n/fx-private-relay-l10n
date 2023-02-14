@@ -38,9 +38,12 @@ how-it-works-section-title = Fonctionnement des alias { -brand-name-relay } pour
 
 # Item 2
 
+how-it-works-section-forward-headline = Nous vous transfèrerons les e-mails, les appels téléphoniques et les SMS
 
 # Item 3
 
+how-it-works-section-manage-headline = Gérez vos alias depuis votre tableau de bord { -brand-name-relay }
+how-it-works-section-manage-body = Connectez-vous à votre tableau de bord { -brand-name-relay } pour créer de nouveaux alias, étiqueter les alias existants et bloquer les appels, SMS ou e-mails provenant d’alias qui reçoivent trop de spam.
 
 ## PRICING MATRIX SECTION
 
@@ -126,19 +129,34 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } fonctionn
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Des fonctionnalités simples et sécurisées pour protéger votre identité
+highlighted-features-section-bottom-title = Protégez votre identité (et votre boîte de réception) avec { -brand-name-firefox-relay }
+highlighted-features-section-bottom-cta = Commencer
 highlighted-features-section-new-item = Nouveau !
 
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Tout le monde dispose de { $mask_limit } alias de messagerie gratuits.
+    Mais avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour protéger votre boîte de réception contre les spammeurs, les pirates et les traqueurs en ligne.
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Créez instantanément des alias lors de vos déplacements
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } vous propose un domaine de messagerie { -brand-name-relay } unique pour que vous puissiez instantanément
+    créer de nouveaux alias où que vous soyez. Ajoutez simplement n’importe quel mot ou phrase avant le symbole @. Vous allez au restaurant ? Utilisez restaurant@votredomaine.{ $mozmail }.
+    Vous faites des achats ? Essayez magasin@votredomaine.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Répondez aux e-mails et aux SMS de manière anonyme
+highlighted-features-section-replying-body = { -brand-name-relay-premium } vous permet de répondre aux e-mails de votre alias de messagerie, afin que les expéditeurs ne connaissent jamais votre véritable adresse e-mail. Avec les alias de numéro de téléphone, vous pouvez répondre aux SMS de votre alias de numéro de téléphone pour protéger votre véritable numéro.
 
 # Item 4
 
@@ -148,6 +166,7 @@ highlighted-features-section-block-promotions-body = Grâce à { -brand-name-rel
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Supprimer les traqueurs des e-mails
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux yeux des traqueurs et annonceurs.
 
 ## FAQ SECTION
 
