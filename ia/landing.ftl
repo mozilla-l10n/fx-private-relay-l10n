@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-cta = Comenciar
 
 ## BUNDLE BANNER SECTION
 
