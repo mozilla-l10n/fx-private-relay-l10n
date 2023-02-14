@@ -2,22 +2,39 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
+hero-section-cta = 开始使用
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-header-2 = 您的 1 年方案包含：
+bundle-banner-plan-modules-email-masking = 马甲邮箱
+bundle-banner-plan-modules-phone-masking = 虚拟手机号
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = 下载 { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限的电子邮件保护
 plan-matrix-heading-plan-premium = 电子邮件保护
@@ -29,6 +46,7 @@ plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { 
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -69,15 +87,21 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } 功能超
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
