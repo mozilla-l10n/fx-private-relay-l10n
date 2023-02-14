@@ -56,6 +56,7 @@ plan-matrix-price-period-monthly = Mensual
 
 # Plan CTAs
 
+plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Inscriber te al lista de attender
 
 ## REVIEWS SECTION
