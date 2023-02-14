@@ -2,33 +2,71 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-header-2 = 您的年約方案包含：
+bundle-banner-plan-modules-email-masking = 轉寄信箱
+bundle-banner-plan-modules-phone-masking = 虛擬手機號碼轉接
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = 獲得 { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } 及 { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = 針對首次訂購者，提供 { $days_guarantee } 天不滿意退款保重
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = 超過 { $num_vpn_servers } 組伺服器
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = 超過 { $num_vpn_countries } 個國家
+bundle-feature-three = 快速而安全的網路環境
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限量的信箱保護
 plan-matrix-heading-plan-premium = E-mail 保護
 plan-matrix-heading-plan-phones = E-mail 與手機號碼保護
+plan-matrix-heading-plan-bundle-2 = 加上 { -brand-name-vpn } 保護
 plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-feature-promo-email-blocking = 封鎖行銷郵件
 plan-matrix-feature-list-email-masks-unlimited = 無限量轉寄信箱
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = 轉寄信箱
+plan-matrix-feature-mobile-browser-extension = 瀏覽器擴充套件
+plan-matrix-feature-mobile-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-feature-mobile-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-mobile-email-subdomain = 獨特的 { -brand-name-relay } 郵件網域
+plan-matrix-feature-mobile-email-reply = 匿名回覆電子郵件
+plan-matrix-feature-mobile-phone-mask = 保護您的實際電話號碼
+plan-matrix-feature-mobile-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -40,11 +78,19 @@ plan-matrix-price-free = 免費
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = 每月 { $monthly_price }
 plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
+plan-matrix-price-period-yearly-footnote = 每年收費，未稅。
+plan-matrix-price-period-monthly-footnote = 每月收費，未稅。
+plan-matrix-price-vpn-discount-promo = 以 { -brand-name-vpn } 原價再<span>節省 { $savings }</span>
 
 # Plan CTAs
 
+plan-matrix-upgrade = 升級
+plan-matrix-get-relay-cta = 下載 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入排隊名單
 
 ## REVIEWS SECTION
@@ -69,15 +115,28 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works won
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = 開始使用
+highlighted-features-section-new-item = 新功能！
+
 # Item 1
+
+highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
+
 # Item 3
+
+highlighted-features-section-replying-headline = 匿名回覆電子郵件與簡訊
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = 封鎖行銷郵件
+
 # Item 5
+
+highlighted-features-section-remove-trackers-headline = 移除郵件追蹤器
 
 ## FAQ SECTION
 
