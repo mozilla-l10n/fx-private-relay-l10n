@@ -9,6 +9,10 @@ hero-section-cta = Comenciar
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-modules-email-masking = Mascas email
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
+bundle-feature-three = Rete veloce e secur
 
 ## HOW IT WORKS SECTION 
 
