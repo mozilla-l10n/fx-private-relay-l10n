@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas de e-mail que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Se aperi in un nove scheda)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = Mascas email
 nav-phone-dashboard = Mascas de numero de telephono
 label-open-menu = Aperir le menu
 avatar-tooltip = Profilo
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
@@ -56,7 +55,6 @@ nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
 nav-contact = Contactar nos
 nav-menu-mobile = Menu mobile
-
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
 
@@ -83,9 +81,7 @@ whatsnew-tab-archive-label = Chronologia
 whatsnew-footer-clear-all-label = Rader toto
 whatsnew-footer-back-label = Retro
 whatsnew-footer-learn-more-label = Pro saper plus
-
 whatsnew-empty-message = Reveni tosto – nos sempre labora sur formidabile nove functiones pro render { -brand-name-relay } ancora melior.
-
 whatsnew-feature-size-limit-heading = Augmento del dimension de annexos
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -95,19 +91,16 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } pote ora
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } pote ora reexpedir messages usque a { email-size-limit }, includite…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } pote ora reexpedir messages usque a { email-size-limit }, includite annexos.
-
 whatsnew-feature-sign-back-in-heading = Reaperir session con tu aliases
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Pro crear un nove alias quando te es demandate tu adresse de e-mail, aperi…
 whatsnew-feature-sign-back-in-description = Pro aperir session con un alias anteriormente usate, aperi le menu contextual ubi le sito demanda tu adresse de e-mail. Tu potera seliger le alias e auto-completar le campo de e-mail.
-
 whatsnew-feature-forward-some-heading = Blocada de e-mails promotional
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } te permitte de blocar solo le e-mails promotional…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } te permitte de blocar solmente le messages promotional inviate a un alias. Tu recipera messages como quitantias ma non messages de publicitate.
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases ora es mascas
@@ -119,14 +112,12 @@ whatsnew-feature-alias-to-mask-snippet = Nota tu un cambiamento? Ora nos appella
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Nota tu un cambiamento? Ora nos appella le aliases “mascas”, pro render { -brand-name-firefox-relay } plus facile a usar e pro aperir le porta a nove functiones.
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } disponibile in Svedia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } disponibile in Finlandia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Promove ora e obtene ancora plus protection…
 whatsnew-feature-premium-expansion-description = Promove ora e obtene ancora plus protection — crea mascas de e-mail illimitate, obtene un subdominio de e-mail personal e ancora plus!
-
 whatsnew-feature-tracker-removal-heading = Nove: remotion de traciatores de email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -134,7 +125,6 @@ whatsnew-feature-tracker-removal-snippet = Ora { -brand-name-relay } pote remove
 # Deprecated
 whatsnew-feature-tracker-removal-description = Ora { -brand-name-relay } pote remover le commun traciatores de email del messages de e-mail reexpedite a te, adjutante te a remaner invisibile pro le annunciatiores.
 whatsnew-feature-tracker-removal-description-2 = Ora { -brand-name-relay } pote remover le commun traciatores de email del messages de e-mail reexpedite a te, adjutante te a remaner invisibile pro le annunciatiores. Activa lo in “Parametros.”
-
 whatsnew-feature-offer-countdown-heading = Nostre offerta de compra introductive finira tosto!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -145,7 +135,6 @@ whatsnew-feature-offer-countdown-snippet = Abona te a { -brand-name-relay-premiu
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un numero illimitate de mascas a nostre precio mensual introductive.
 whatsnew-feature-offer-countdown-cta = Promover ora
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } es ora disponibile in le gestor de contrasignos de { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -185,13 +174,13 @@ hero-image-copy-control-html = Ora <em>tu ha le controlo</em> de lo que arriva i
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = Protege tu ver adresse e-mail pro guardar le controlo sur tu cassa de entrata
 landing-hero-body-2 =
     Le mascas de e-mail de { -brand-name-firefox-relay } rende tu ver adresse de e-mail invisibile pro le publico, reexpediente automaticamente le messages a tu ver cassa de entrata. 
     Ora tu pote reciper solmente le messages que tu vole in tu cassa de entrata. Inscribe te con tu { -brand-name-firefox-account } pro comenciar.
-
 landing-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
 landing-offer-end-hero-cta = Promover ora
 # Variables:
@@ -240,7 +229,6 @@ landing-pricing-free-cta = Obtener { -brand-name-relay }
 landing-pricing-free-ribbon = Disponibile ora!
 # Deprecated
 landing-pricing-free-feature-free = Gratuite
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -262,12 +250,10 @@ landing-pricing-premium-feature-4 = Responder a messages reexpedite
 landing-pricing-premium-feature-5 = Blocar messages promotional
 # Deprecated
 landing-pricing-premium-feature-6 = Remotion de traciatores de e-mail
-
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } actualmente non es disponibile in tu pais. Per favor, insere tu adresse email pro reciper un notification si tosto que illo es  disponibile.
 # Deprecated
 landing-pricing-waitlist-cta = Inscriber te al lista de attender
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -280,7 +266,6 @@ landing-pricing-offer-end-cta = Promover ora
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Abona te a { -brand-name-relay-premium } ante le { $end_date } e beneficia de un protection avantiate de tu e-mail a nostre precio mensual introductive.
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -346,11 +331,9 @@ landing-use-cases-gaming = Jocos
 landing-use-cases-gaming-body-2 =
     Apprecia tu jocos online, ma es preoccupate que altere jocatores o intimidatores apprende qui tu es per tu etiquetta de jocator e adresse email? 
     Usa un masca email pro poner un altere strato de protection inter tu identitate online e le jocos que tu practica online.
-
 landing-use-cases-shopping-hero-heading = Compras con mascas email
 landing-use-cases-shopping-hero-content1 = Vole tu comprar alco online e non cognosce o non confide plenmente in le boteca?
 landing-use-cases-shopping-hero-content2 = Usa un masca email quandocunque tu compra online. Recipe le confirmation inviate a tu real email e pois facilemente disactiva le masca quando tu lo vole plus tarde.
-
 landing-use-cases-on-the-go = In movimento
 landing-use-cases-on-the-go-heading = Al volo con { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Al instante crea un masca email personalisate ubique tu va!
@@ -360,7 +343,6 @@ landing-use-cases-on-the-go-receipt-heading = Recipe quitantias email
 landing-use-cases-on-the-go-receipt-body = Comparti un masca email personalisate pro quitantias de compras in boteca, sin compartir tu real email
 landing-use-cases-on-the-go-phone-heading = Usa lo sur tu telephono
 landing-use-cases-on-the-go-phone-body = Non importa ubi tu es, crea un masca email personalisate in secundas pro toto lo que tu vole facer
-
 landing-use-cases-signups = Inscriptiones
 landing-use-cases-signups-hero-heading = Registrationes sin anxietate
 landing-use-cases-signups-hero-content1 = Vole tu initiar un nove subscription, responder a un invitation, o reciper un codice de promotion de compras sin que le SPAM inunda tu cassa de ingresso?
@@ -376,17 +358,14 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu r
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, tu obtene illimitate aliases e-mail personal que inultra solo le e-mails que tu vole a tu real adresse e-mail.
 premium-promo-hero-cta = Promover ora
-
 premium-promo-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 premium-promo-offer-end-hero-cta = Promover ora
-
-premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, <t0/>le UK, e le SUA.
+premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite
-
 premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
 premium-promo-perks-cta-label = Promover ora
@@ -402,7 +381,6 @@ premium-promo-perks-perk-block-promotionals-headline = Blocar emails promotional
 premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, tu pote obstruer al emails promotional de attinger tu cassa de ingresso dum ancora recipe emails como quitantias o informationes de expedition.
 premium-promo-perks-perk-tracker-blocking-headline = Remover traciatores de emails
 premium-promo-perks-perk-tracker-blocking-body = Ora { -brand-name-relay } pote adjutar te a stoppar le traciamento per emails: tu mascas email removera commun traciatores de email de ulle emails inultrate a te, e te adjutara a remaner invisibile al traciatores e al publicitarios.
-
 premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal mascas email personalisate, como “mydeals@mydomain.mozmail.com.”
@@ -410,9 +388,7 @@ premium-promo-use-cases-social-networks-heading = Retes social
 premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu identitate online quando tu usa un rete social? Usa un differente masca email pro acceder a cata rete social e adjuta proteger tu ver email de esser exponite a ille sitos.
 premium-promo-use-cases-gaming-heading = Jocos
 premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
-
 premium-promo-pricing-free-price = Tu actual plano gratuite
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
@@ -499,16 +475,13 @@ setting-tracker-removal-warning-2 = Importante: le remotion de traciatores pote 
 ## FAQ Page
 
 faq-headline = Folio a questiones
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = Que es un masca email de { -brand-name-relay }?
 faq-question-what-is-answer-2 = Le mascas email es adresses email mascate, o private, que inultra le messages a tu ver adresse email. Iste mascas te permitte de compartir un adresse con tertie partes que mascarara tu ver adresse email e inultrara le messages a illo.
-
 faq-question-missing-emails-question-2 = Io non recipe messages ab mi mascas email
 faq-question-missing-emails-answer-a-2 = Il ha alcun rationes perque tu pote non reciper emails inultrate per tu mascas. Iste rationes include:
 faq-question-missing-emails-answer-reason-spam = Messages que vade in SPAM
@@ -523,60 +496,46 @@ faq-question-missing-emails-answer-b-html = Si tu es un usator { -brand-name-rel
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Si tu combatte con ulle de iste problemas, <a href="{ $url }" { $attrs }>visita nostre sito de assistentia</a>.
-
 faq-question-use-cases-question-2 = Quando deberea io usar mascas email { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Tu pote usar mascas email { -brand-name-relay } le major parte del casos ubi tu usarea tu regular adresse e-mail. Nos consilia usar los quando tu te inscribe a e-mails de marketing o informative ubi tu poterea voler controlar si tu volera reciper emails in le futuro o non.
 faq-question-use-cases-answer-part2-2 = Nos non recommenda usar mascas email quando te besonia tu identitate verificate o pro emails multo importante o illos ubi tu debe reciper annexos. Per exemplo, tu compartira tu real adresse email con tu banca, tu doctor e tu advocato e quando recipe permissiones de entrata a concerto o volo.
-
 faq-question-2-question-2 = Perque un sito non acceptara mi masca email de { -brand-name-relay }?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Alcun sitos pote non acceptar un adresse email que include un sub-dominio (@subdomain.mozmail.com) e alteres ha cessate de acceptar tote le adresses excepte illos del contos Gmail, Hotmail o Yahoo.
-
 faq-question-1-question = E quanto al spam?
 faq-question-1-answer-a-2 = Ben que { -brand-name-relay } non filtra le spam, nostre partner in email, Amazon SES, bloca spam e malware. Si { -brand-name-relay } reexpedi messages que tu non vole, tu pote actualisar tu parametros de { -brand-name-relay } pro blocar le messages del masca que los inultra.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Si tu vide un plus ample problema de email indesirate ab tote tu mascas, per favor <a href="{ $url }" { $attrs }>reporta lo a nos</a> a fin que nos pote considerar de adjustar le limines de spam de Amazon SES pro iste servicio. Si tu reporta istos como spam, tu fornitor de servicio email considerara { -brand-name-relay }, e non le expeditor original, como le origine del spam.
-
 faq-question-availability-question = Ubi es disponibile { -brand-name-relay }?
 faq-question-availability-answer = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapore, Malaysia, Nove Zelanda, Francia, Belgio, Austria, Espania, Italia, Suissa, Hollanda e Irlanda.
 faq-question-availability-answer-v2 = { -brand-name-relay } es disponibile gratuite in le major parte del paises. { -brand-name-relay-premium } es disponibile in le Statos Unite, Germania, Regno Unite, Canada, Singapur, Malaya, Nove Zelanda, Finlandia, Francia, Belgio, Austria, Espania, Italia, Svedia, Suissa, Hollanda e Irlanda.
 faq-question-availability-answer-v3 = { -brand-name-relay } gratuite es disponibile in le major parte del paises. { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite.
-
 faq-question-4-question-2 = Pote io responder a messages usante mi masca email de { -brand-name-relay }?
 faq-question-4-answer-v4 = Le usatores de { -brand-name-relay-premium } pote replicar a un e-mail inultrate intra 3 menses de reciper lo. Si tu adde un CC o CCN quando tu replica retro a un e-mail, tu original adresse e-mail sera exponite al destinatario e a illes copiate super le e-mail. Si tu non vole que tu original adresse e-mail sia exponite, non adder CCs o Ccn quando responde.
-
 faq-question-subdomain-characters-question = Que characteres pote io usar pro crear un subdominio?
 faq-question-subdomain-characters-answer-v2 = Tu pote solo usar litteras minuscule anglese, numeros, e lineettas pro crear un sub-dominio.
-
 faq-question-browser-support-question = Pote io usar { -brand-name-relay } sur altere navigatores o sur mi apparato mobile?
 faq-question-browser-support-answer-2 = Si, tu pote generar mascas { -brand-name-relay } sur altere navigatores o apparatos mobile simplemente per le accesso a in tu pannello de controlo de { -brand-name-relay }.
-
 faq-question-longevity-question = Que eveni si Mozilla claude le servicio { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Nos in avantia te dara aviso que tu debe cambiar le adresse email de ulle contos que usa mascas email de { -brand-name-relay }.
-
 faq-question-mozmail-question-2 = Perque mi mascas email comenciava usar le dominio “mozmail.com?”
 faq-question-mozmail-answer-2 = Nos passava de “relay.firefox.com” a “mozmail.com” pro render possibile obtener un subdominio email personal, tal como mask@yourdomain.mozmail.com. Le subdominios email personal, disponibile pro le subscriptores de { -brand-name-relay-premium }, te permitte de generar mascas email plus facile a rememorar.
-
 faq-question-attachments-question = Inultrara { -brand-name-firefox-relay } e-mails con annexos?
 faq-question-attachments-answer-v2 = Nos ora supporta le reexpedition de annexos. Totevia, il ha un limite de { email-size-limit } pro le reexpedition de e-mail per { -brand-name-relay }. Messages plus grande de { email-size-limit } non essera reexpedite.
-
 faq-question-unsubscribe-domain-question-2 = Que eveni a mi subdominio personal si io me remove del abonamento de { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Si tu degrada de { -brand-name-relay-premium }, tu recipera ancora emails inultrate a transverso de tu mascas email personal, ma tu non plus potera crear nove mascas per ille subdominio. Si tu ha plus que cinque mascas in total, tu non potera crear ulle plus. Tu alsi perdera le capacitate de replica a messages inultrate. Tu pote re-abonar te a { -brand-name-relay-premium } e reganiar accesso a iste functionalitates.
-
 faq-question-8-question = Que datos collige { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Tu pote apprender altero re le data que { -brand-name-firefox-relay } collige per un reguardo a nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>. Tu pote alsi compartir datos re le etiquettas e le sito que tu usa pro tu mascas email assi nos pote fornir te ille servicio e meliorar lo pro te.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } collige le sitos web ubi tu ha usate tu mascas email, e etiquetta tu mascas con ille sitos web assi que tu pote facilemente identificar los. Tu pote refusar lo sur tu pagina Parametros, sub Confidentialitate. Ma nota, disactivar iste parametros significa que tu non potera vider ubi tu ha usate cata masca, e tu nomines de conto non se synchronisara plus inter apparatos. Tu pote saper plus re le datos que { -brand-name-firefox-relay } collige in nostre <a href="{ $url }" { $attrs }>Aviso de confidentialitate</a>.
-
 faq-question-email-storage-question = An { -brand-name-relay } conserva mi e-mails?
 faq-question-email-storage-answer = Sub le rar circumstantia in le qual le servicio es inactive, nos pote temporarimente immagazinar tu e-mails usque nos pote invia los. Nos jammais conservara tu e-mails pro plus longe que tres dies.
-
 faq-question-acceptable-use-question = Que es le uso acceptabile de { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -587,12 +546,10 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Limitar le numero de m
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Revide nostre <a href="{ $url }" { $attrs }>Terminos de servicio</a> pro altere informationes.
-
 faq-question-promotional-email-blocking-question = Que es le blocada de e-mail promotional?
 faq-question-promotional-email-blocking-answer = Le abonatos de { -brand-name-relay-premium } pote activar le blocada de e-mail promotional. Iste functionalitate te inultrera le e-mails importante, tal como quitantias, reinitialisationes e confirmationes de contrasigno, durante que ancora bloca le messages de marketing. Il ha un leve risco que un importante message pote ancora esser blocate, assi nos consilia que tu non usa iste functionalitate pro sitos multo importante como tu banca. Si un e-mail es blocate, illo non pote esser recovrate.
 faq-question-detect-promotional-question = Como face { -brand-name-relay } a disvelar si un e-mail es Promotional o non?
 faq-question-detect-promotional-answer = Multe e-mails es inviate con metadatos de “testa” pro indicar que illos veni ab applicationes automatisate basate sur lista. { -brand-name-firefox-relay } revela iste datos de testa, assi illo pote blocar iste e-mails.
-
 faq-question-disable-trackerremoval-question = Pote io stoppar le remotion de traciatores de email?
 faq-question-disable-trackerremoval-answer = Si. Si tu ha difficultates con emails al apparentia rupte o volerea stoppar le remotion de traciatores, tu pote disactivar le functionalitate in parametros.
 faq-question-bulk-trackerremoval-question = Pote io remover traciatores solo sur parte de mi mascas email?
@@ -636,18 +593,14 @@ profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 profile-label-skip = Saltar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reexpedir messages a:
-
 # This string is followed by date
 profile-label-first-emailed = Primo inviate per email:
-
 # This string is followed by date:
 profile-label-created = Create:
 profile-label-details-show = Monstrar detalios
 profile-label-details-hide = Celar detalios
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = reexpedir
 profile-label-blocking = blocada
@@ -726,9 +679,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Clauder
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dimitter
-
 banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -776,36 +727,30 @@ banner-pack-upgrade-copy-2 = Con mascas email illimitate e tu proprie subdominio
 footer-banner-premium-promo-headine = Promove a <strong>{ -brand-name-firefox-relay-premium }</strong> pro proteger tu telephono <i>e</i> email
 footer-banner-premium-promo-body = Obtene un masca del numero de telephono, illimitate mascas email, e adresses email personalisate pro rapide creation de masca.
 banner-pack-upgrade-cta = Promover ora
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
 banner-label-privacy-notice-update-body = Pro meliorar le fidabilitate de { -brand-name-firefox-relay } in caso que un e-mail non pote esser livrate, nos temporarimente mantenera le e-mail sur nostre servitores usque illo ha essite livrate. Nos jammais lo tenera in desde plus que tres dies.
 banner-label-privacy-notice-update-cta = Vider le aviso de confidentialitate
-
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-cta = Ir al parametros
 banner-label-data-notification-header-v2 = Activar nove functiones
 banner-label-data-notification-body-cta = Pro saper plus
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Protege tu confidentialitate, reserva internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu confidentialitate e adhere al mission pro render internet melior, toto pro { $monthly_price }
 banner-upgrade-loyalist-cta = Obtener plus protection
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Nostre offerta de compra introductive finira tosto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue de mascas illimitate a nostre precio introductive mensual.
 banner-offer-end-cta = Promover ora
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppar SPAM, appellos robot & textos immunditia
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
@@ -933,7 +878,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Crear illimitate masc
 multi-part-onboarding-premium-welcome-button-start = Comenciar
 multi-part-onboarding-premium-get-subdomain = Obtener un subdominio personal
 multi-part-onboarding-reply-headline = Replicar a tu e-mails
-
 multi-part-onboarding-premium-welcome-description-2 = Non plus limita te a cinque mascas: ora tu pote generar tante aliases personal o aleatori quante te besonia. Sur scriptorio, tu pote usar le additivo { -brand-name-relay } pro crear los al volo.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -998,8 +942,6 @@ trackerreport-load-error = Un error occurreva generante tu reporto de remotion d
 
 modal-rename-alias-saved = Etiquetta salvate!
 modal-delete-headline-2 = Deler permanentemente iste masca email?
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1016,7 +958,6 @@ modal-delete-confirmation-2 = Si, io desira deler iste masca.
 modal-domain-register-good-news = Bon novas!
 modal-domain-register-warning-reminder-2 = Rememora, tu pote registrar solo un subdominio. Tu non potera cambiar lo postea.
 modal-domain-register-button-2 = Registrar subdominio
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } es disponibile!
@@ -1024,7 +965,6 @@ modal-domain-register-available = { $subdomain } es disponibile!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> es disponibile!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomain }
@@ -1032,7 +972,6 @@ modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomai
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Si, io vole registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Successo!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1176,7 +1115,6 @@ toast-button-close-label = Clauder notification
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Tu ha usate tote le { $free_tier_limit } mascas email includite con tu conto gratuite. Tu pote reusar un masca existente, ma usar un unic masca pro cata conto es le option plus secur.
 api-error-free-tier-no-subdomain-masks = Tu conto gratuite non include sub-dominios personal pro le mascas. Pro crear mascas personalisate, promove a { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” non pote esser create. Retenta con un differente nomine de masca.
