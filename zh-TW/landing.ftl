@@ -5,9 +5,13 @@
 
 ## HERO SECTION 
 
+hero-section-cta = 開始使用
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }
 bundle-banner-plan-header-2 = 您的年約方案包含：
 bundle-banner-plan-modules-email-masking = 轉寄信箱
 bundle-banner-plan-modules-phone-masking = 虛擬手機號碼轉接
@@ -30,6 +34,7 @@ bundle-feature-three = 快速而安全的網路環境
 
 # Item 1
 
+how-it-works-section-extension-headline = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱與虛擬轉接門號
 
 # Item 2
 
@@ -39,6 +44,7 @@ bundle-feature-three = 快速而安全的網路環境
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = 選擇適合您的保護等級
 
 # Top Row Labels
 
@@ -53,8 +59,13 @@ plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 {
 
 # Feature Breakdowns
 
+plan-matrix-feature-browser-extension = 讓您在任何網站都能直接使用 { -brand-name-relay } 的瀏覽器擴充套件
 plan-matrix-feature-email-tracker-removal = 移除郵件追蹤器
 plan-matrix-feature-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-email-subdomain = 可隨時產生轉寄信箱的 { -brand-name-relay } 郵件網域
+plan-matrix-feature-email-reply = 匿名回覆電子郵件
+plan-matrix-feature-phone-mask = 保護您實際手機門號的轉接號碼
+plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保護
 plan-matrix-feature-list-email-masks-unlimited = 無限量轉寄信箱
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
