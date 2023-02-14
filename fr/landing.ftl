@@ -130,18 +130,24 @@ highlighted-features-section-new-item = Nouveau !
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Créez instantanément des alias lors de vos déplacements
 
 # Item 3
 
+highlighted-features-section-replying-headline = Répondez aux e-mails et aux SMS de manière anonyme
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Blocage des e-mails promotionnels
+highlighted-features-section-block-promotions-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Supprimer les traqueurs des e-mails
 
 ## FAQ SECTION
 
