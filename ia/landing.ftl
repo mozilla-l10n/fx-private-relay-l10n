@@ -17,6 +17,9 @@ hero-section-cta = Comenciar
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Solo pro tempore limitate: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } pro { $monthly_price }/mense
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } te protege del traciamento e del surveliantia dum tu joca, gere tu banca, o labora online. Adde lo a { -brand-name-firefox-relay } pro sparniar { $savings }.
 bundle-banner-plan-header-2 = Tu plano de un anno include:
 bundle-banner-plan-modules-email-masking = Mascas email
 bundle-banner-plan-modules-phone-masking = Mascas de telephono
