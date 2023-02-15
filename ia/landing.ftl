@@ -44,6 +44,7 @@ how-it-works-section-extension-headline = Usa ubique le mascas email e pro telep
 
 # Item 2
 
+how-it-works-section-forward-headline = Nos inultrara emails, appellos telephonic, e textos pro te
 
 # Item 3
 
