@@ -2,22 +2,53 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
+hero-section-cta = Kezdő lépések
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Csak korlátozott ideig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/hónap
+bundle-banner-plan-header-2 = Az 1 éves előfizetés a következőket tartalmazza:
+bundle-banner-plan-modules-email-masking = E-mail-maszkolás
+bundle-banner-plan-modules-phone-masking = Telefonmaszkolás
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = A { -brand-name-mozilla-vpn } + a { -brand-name-relay } beszerzése
+bundle-banner-alt = { -brand-name-mozilla-vpn } és { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = { $days_guarantee } napos pénzvisszafizetési garancia az első alkalommal előfizetőknek
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Több mint { $num_vpn_servers } kiszolgáló
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Több mint { $num_vpn_countries } ország
+bundle-feature-three = Gyors és biztonságos hálózat
+
 ## HOW IT WORKS SECTION 
+
+how-it-works-section-title = Hogyan működik a { -brand-name-relay } e-mail- és telefonmaszkolása
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funkciók
 plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
 plan-matrix-heading-plan-premium = E-mail-védelem
@@ -29,6 +60,7 @@ plan-matrix-heading-plan-bundle-alt = Szerezze be a { -brand-name-relay-premium 
 plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -69,15 +101,21 @@ landing-review-user-four-review-list-4 = A { -brand-name-firefox-relay } csodák
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
