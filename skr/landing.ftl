@@ -36,6 +36,7 @@ bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 
 # Item 3
 
+how-it-works-section-manage-headline = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 
 ## PRICING MATRIX SECTION
 
@@ -80,6 +81,8 @@ plan-matrix-price-free = مفت
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
+plan-matrix-price-period-yearly-footnote = ٻل سالانہ ہوندے۔ ٹیکس وچ شامل کائنی۔
+plan-matrix-price-period-monthly-footnote = ٻل ماہانہ ہوندے۔ ٹیکس وچ شامل کائنی۔
 
 # Plan CTAs
 
