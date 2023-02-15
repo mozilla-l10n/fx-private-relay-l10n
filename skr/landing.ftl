@@ -17,6 +17,12 @@ bundle-banner-plan-modules-phone-masking = فون ماسکنگ
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } گھنو
 bundle-banner-alt = { -brand-name-mozilla-vpn } تے { -brand-name-relay }
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = { $num_vpn_servers } کنوں ودھ سرور
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = { $num_vpn_countries } کنوں ودھ ملک
 bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 
 ## HOW IT WORKS SECTION 
@@ -57,6 +63,7 @@ plan-matrix-feature-mobile-email-masks = ای میل ماسکس
 plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
 plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-mobile-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-mobile-email-subdomain = نویکلی { -brand-name-relay } ای میل ڈومین
 
 # Plan Details
 
