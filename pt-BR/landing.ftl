@@ -14,22 +14,38 @@ bundle-banner-plan-modules-email-masking = Ocultação de email
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Tenha { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = Garantia de reembolso de { $days_guarantee } dias para quem assina pela primeira vez
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Mais de { $num_vpn_servers } servidores
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Mais de { $num_vpn_countries } países
 bundle-feature-three = Rede rápida e segura
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Como funciona o mascaramento de email e celular do { -brand-name-relay }
 
 # Item 1
 
+how-it-works-section-extension-headline = Use máscaras de email e máscaras de celular do { -brand-name-relay } em qualquer lugar
 
 # Item 2
 
+how-it-works-section-forward-headline = Encaminharemos emails, ligações e mensagens de texto para você
+how-it-works-section-forward-body = Fique tranquilo, os remetentes nunca saberão seu endereço de email real ou seu número de celular real. Você pode até responder a mensagens de texto e emails sem compartilhar sua identidade real.
 
 # Item 3
 
+how-it-works-section-manage-headline = Gerencie suas máscaras no painel do { -brand-name-relay }
+how-it-works-section-manage-body = Entre no seu painel do { -brand-name-relay } para criar máscaras, rotular máscaras existentes e bloquear chamadas, mensagens de texto ou emails de máscaras que recebem spam demais.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Escolha um nível de proteção adequado para você
 
 # Top Row Labels
 
@@ -43,6 +59,8 @@ plan-matrix-heading-plan-bundle-alt = Tenha o { -brand-name-relay-premium } e o 
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de email para proteger seu endereço de email real
+plan-matrix-feature-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-promo-email-blocking = Bloqueio de emails promocionais
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
 
@@ -50,6 +68,7 @@ plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
 
 plan-matrix-feature-mobile-email-masks = Máscaras de email
 plan-matrix-feature-mobile-browser-extension = Extensão de navegador
+plan-matrix-feature-mobile-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-mobile-promo-email-blocking = Bloqueio de emails promocionais
 
 # Plan Details
