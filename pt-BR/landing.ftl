@@ -10,6 +10,9 @@ hero-section-cta = Introdução
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Apenas por tempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } por { $monthly_price }/mês
 bundle-banner-plan-header-2 = Seu plano de 1 ano inclui:
 bundle-banner-plan-modules-email-masking = Ocultação de email
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
@@ -89,6 +92,8 @@ plan-matrix-price-free = Gratuito
 plan-matrix-price-monthly-calculated = { $monthly_price }/mês
 plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensalmente
+plan-matrix-price-period-yearly-footnote = Cobrado anualmente. Impostos não incluídos.
+plan-matrix-price-period-monthly-footnote = Cobrado mensalmente. Impostos não incluídos.
 
 # Plan CTAs
 
