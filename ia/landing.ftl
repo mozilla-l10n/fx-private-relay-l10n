@@ -41,6 +41,7 @@ how-it-works-section-title = Como functiona le mascas email e pro telephono de {
 # Item 1
 
 how-it-works-section-extension-headline = Usa ubique le mascas email e pro telephono de { -brand-name-relay }
+how-it-works-section-extension-body = Recipe mascas email secur e aleatori, e un unic numero de telephono mascate a usar quandocunque un sito web, un app, un boteca, o un restaurante te demanda informationes.
 
 # Item 2
 
