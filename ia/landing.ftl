@@ -27,6 +27,9 @@ bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Discarga { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
 # Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = Reimbursamento garantite pro { $days_guarantee } dies pro le abonatos del prime vice
+# Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Plus que { $num_vpn_servers } servitores
 # Variables:
@@ -72,9 +75,12 @@ plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e {
 # Feature Breakdowns
 
 plan-matrix-feature-email-masks = Mascas email pro proteger tu real adresse email
+plan-matrix-feature-browser-extension = Extension de navigator pro usar { -brand-name-relay } sur omne sitos
 plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-email-subdomain = Dominio email { -brand-name-relay } pro crear mascas al volo
 plan-matrix-feature-email-reply = Responder anonymemente al emails
+plan-matrix-feature-phone-mask = Masca de telephono pro proteger tu real numero de telephono
 plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
