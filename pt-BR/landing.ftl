@@ -70,6 +70,8 @@ plan-matrix-feature-mobile-email-masks = Máscaras de email
 plan-matrix-feature-mobile-browser-extension = Extensão de navegador
 plan-matrix-feature-mobile-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-mobile-promo-email-blocking = Bloqueio de emails promocionais
+plan-matrix-feature-mobile-email-subdomain = Domínio exclusivo de emails do { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Responder a emails anonimamente
 
 # Plan Details
 
@@ -81,11 +83,16 @@ plan-matrix-price-free = Gratuito
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mês
 plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensalmente
 
 # Plan CTAs
 
+plan-matrix-upgrade = Mudar
+plan-matrix-get-relay-cta = Tenha o { -brand-name-relay }
 plan-matrix-join-waitlist = Entrar na lista de espera
 
 ## REVIEWS SECTION
@@ -110,6 +117,7 @@ landing-review-user-four-review-list-4 = O { -brand-name-firefox-relay } funcion
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Recursos simples e seguros para ajudar a proteger sua identidade
 highlighted-features-section-bottom-cta = Introdução
 highlighted-features-section-new-item = Novidade!
 
