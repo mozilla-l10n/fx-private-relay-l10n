@@ -55,6 +55,8 @@ how-it-works-section-manage-body = Accede a tu pannello de controlo de { -brand-
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Elige un nivello de protection que es justo pro te
+plan-matrix-offer-body = { -brand-name-firefox-relay } protege tu identitate e tu cassa de ingresso con mascas email unic. Adde ancora plus securitate con le mascas pro telephono de { -brand-name-relay }, e sparnia { $savings } addente le protection { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -64,10 +66,12 @@ plan-matrix-heading-features = Functiones
 plan-matrix-heading-plan-free = Protection de email limitate
 plan-matrix-heading-plan-premium = Protection email
 plan-matrix-heading-plan-phones = Protection email e telephono
+plan-matrix-heading-plan-bundle-2 = Adder protection { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Mascas email pro proteger tu real adresse email
 plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
 plan-matrix-feature-email-reply = Responder anonymemente al emails
