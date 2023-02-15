@@ -12,6 +12,7 @@ hero-section-cta = شروع کرو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = محدود مدت صرف: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/month کیتے
+bundle-banner-plan-header-2 = تہاݙے ہک سال منصوبے وچ شامل ہن:
 bundle-banner-plan-modules-email-masking = ای میل ماسکنگ
 bundle-banner-plan-modules-phone-masking = فون ماسکنگ
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
