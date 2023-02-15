@@ -48,6 +48,7 @@ how-it-works-section-forward-headline = Nos inultrara emails, appellos telephoni
 
 # Item 3
 
+how-it-works-section-manage-headline = Gere tu mascas ab le pannello de controlo de tu { -brand-name-relay }
 
 ## PRICING MATRIX SECTION
 
