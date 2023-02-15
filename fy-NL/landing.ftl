@@ -6,6 +6,7 @@
 ## HERO SECTION 
 
 hero-section-title = Beskermje jo identiteit mei feilige telefoan- en e-mailmaskearing
+hero-section-cta = Begjinne
 
 ## BUNDLE BANNER SECTION
 
