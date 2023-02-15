@@ -81,6 +81,7 @@ plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
 plan-matrix-feature-email-subdomain = Dominio email { -brand-name-relay } pro crear mascas al volo
 plan-matrix-feature-email-reply = Responder anonymemente al emails
 plan-matrix-feature-phone-mask = Masca de telephono pro proteger tu real numero de telephono
+plan-matrix-feature-vpn = protection { -brand-name-vpn } de <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -89,6 +90,7 @@ plan-matrix-feature-mobile-email-masks = Mascas email
 plan-matrix-feature-mobile-browser-extension = Extension de navigator
 plan-matrix-feature-mobile-email-tracker-removal = Remover traciatores de emails
 plan-matrix-feature-mobile-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-mobile-email-subdomain = Domino email unic { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Responde anonymemente al emails
 plan-matrix-feature-mobile-phone-mask = Proteger tu numero de telephono real
 plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -108,6 +110,9 @@ plan-matrix-price-free = Gratuite
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Annual
 plan-matrix-price-period-monthly = Mensual
+plan-matrix-price-period-yearly-footnote = Facturate annualmente. Taxa non includite.
+plan-matrix-price-period-monthly-footnote = Facturate mensualmente. Taxa non includite.
+plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le precio regular de { -brand-name-vpn }
 
 # Plan CTAs
 
@@ -137,15 +142,30 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } functiona
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Secur e simple functionalitates pro adjutar te a proteger tu identitate
+highlighted-features-section-bottom-title = Protege tu identitate (e tu cassa de ingresso) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenciar
 highlighted-features-section-new-item = Nove!
 
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Quicunque recipe { $mask_limit } mascas email gratuitemente. 
+    Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
+    de spammatores, piratas informatic, e traciatores online.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
+    crear nove mascas ubique tu es. Simplemente adde ulle parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
+    Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
 
 # Item 3
 
