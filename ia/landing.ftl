@@ -8,7 +8,7 @@
 hero-section-title = Protege tu identitate con securitate disguisante telephono e email
 hero-section-body =
     Nostre secur mascas email e de telephono, facile a usar, adjuta a mantener tu identitate 
-    private assi que tu pote inscriber te al nove contos anonymemente, stoppar textos spam e appellos immunditia, e 
+    private assi que tu pote inscriber te al nove contos anonymemente, stoppar SMS spam e appellos immunditia, e 
     reciper solo le emails que tu vole in tu cassa de ingresso.
 hero-section-cta = Comenciar
 
@@ -44,11 +44,13 @@ how-it-works-section-extension-headline = Usa ubique le mascas email e pro telep
 
 # Item 2
 
-how-it-works-section-forward-headline = Nos inultrara emails, appellos telephonic, e textos pro te
+how-it-works-section-forward-headline = Nos inultrara emails, appellos telephonic, e SMS pro te
+how-it-works-section-forward-body = Sta secur, le expeditores jammais sapera tu real adresse email o tu real numero. Tu pote mesmo responder a SMS e emails sin compartir tu real identitate.
 
 # Item 3
 
 how-it-works-section-manage-headline = Gere tu mascas ab le pannello de controlo de tu { -brand-name-relay }
+how-it-works-section-manage-body = Accede a tu pannello de controlo de { -brand-name-relay } pro crear nove mascas, mascas de etiquettas existente, e  blocar appellos, SMS, o emails de mascas que te genera troppo spam.
 
 ## PRICING MATRIX SECTION
 
@@ -136,11 +138,11 @@ highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas e
 
 # Item 3
 
-highlighted-features-section-replying-headline = Responde anonymemente a emails & textos
+highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
 highlighted-features-section-replying-body =
     { -brand-name-relay-premium } te permitte de responder a emails per tu
     conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
-    al textos ab tu numero de telephono disguisate pro proteger tu real numero.
+    al SMS ab tu numero de telephono disguisate pro proteger tu real numero.
 
 # Item 4
 
