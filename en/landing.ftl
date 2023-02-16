@@ -108,13 +108,14 @@ plan-matrix-price-free = Free
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Yearly
 plan-matrix-price-period-monthly = Monthly
-plan-matrix-price-period-yearly-footnote = Billed annually. Tax not included.
-plan-matrix-price-period-monthly-footnote = Billed monthly. Tax not included.
+plan-matrix-price-period-yearly-footnote-1 = Billed annually
+plan-matrix-price-period-monthly-footnote-1 = Billed monthly
 plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular { -brand-name-vpn } price
 
 # Plan CTAs
 
 plan-matrix-upgrade = Upgrade
+plan-matrix-sign-up = Sign Up
 plan-matrix-get-relay-cta = Get { -brand-name-relay }
 plan-matrix-join-waitlist = Join the Waitlist
 
