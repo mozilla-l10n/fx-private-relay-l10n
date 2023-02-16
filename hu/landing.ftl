@@ -5,6 +5,11 @@
 
 ## HERO SECTION 
 
+hero-section-title = Védje személyazonosságát a biztonságos telefon- és e-mail-maszkolással
+hero-section-body =
+    A biztonságos, könnyen használható e-mail- és telefonmaszkjaink segítenek elrejteni személyazonosságát,
+    így névtelenül regisztrálhat új fiókokat, megállíthatja a kéretlen SMS-eket és hívásokat, valamint
+    csak a kívánt leveleket kapja meg a postaládájában.
 hero-section-cta = Kezdő lépések
 
 ## BUNDLE BANNER SECTION
@@ -12,6 +17,9 @@ hero-section-cta = Kezdő lépések
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Csak korlátozott ideig: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/hónap
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = A { -brand-name-mozilla-vpn } megvédi Önt a nyomkövetéstől és a megfigyeléstől játék, online bankolás vagy munkavégzés közben. Adja hozzá a { -brand-name-firefox-relay }hez, és { $savings } kedvezményt kap.
 bundle-banner-plan-header-2 = Az 1 éves előfizetés a következőket tartalmazza:
 bundle-banner-plan-modules-email-masking = E-mail-maszkolás
 bundle-banner-plan-modules-phone-masking = Telefonmaszkolás
@@ -35,15 +43,22 @@ how-it-works-section-title = Hogyan működik a { -brand-name-relay } e-mail- é
 
 # Item 1
 
+how-it-works-section-extension-headline = Használjon { -brand-name-relay } e-mail- és telefonmaszkokat mindenhol
+how-it-works-section-extension-body = Szerezzen be biztonságos, véletlenszerű e-mail-maszkokat és egy egyedi, maszkolt telefonszámot, amelyet bármikor használhat, amikor egy webhely, alkalmazás, üzlet vagy étterem az Ön adatait kéri.
 
 # Item 2
 
+how-it-works-section-forward-headline = Továbbítjuk Önnek a leveleket, telefonhívásokat és az SMS-eket
+how-it-works-section-forward-body = Biztos lehet benne, hogy a feladók soha nem tudják meg az Ön valódi e-mail-címét vagy valódi számát. Akár válaszolhat is az SMS-ekre és a levelekre anélkül, hogy megosztaná valódi személyazonosságát.
 
 # Item 3
 
+how-it-works-section-manage-headline = Kezelje maszkjait a { -brand-name-relay } irányítópultjáról
+how-it-works-section-manage-body = Jelentkezzen be a { -brand-name-relay } irányítópultjára, hogy új maszkokat hozzon létre, címkézze a meglévő maszkokat, és blokkolja a túl sok kéretlen megkeresést kapó maszkokból érkező hívásokat, SMS-eket vagy leveleket.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Válassza ki az Önnek megfelelő védelmi szintet
 
 # Top Row Labels
 
