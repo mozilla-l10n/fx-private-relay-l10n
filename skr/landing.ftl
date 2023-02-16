@@ -20,6 +20,9 @@ bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } گھنو
 bundle-banner-alt = { -brand-name-mozilla-vpn } تے { -brand-name-relay }
 # Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = پہلی واری سبسکرائبراں کیتے { $days_guarantee } ݙین٘ہ رقم واپسی ضمانت
+# Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = { $num_vpn_servers } کنوں ودھ سرور
 # Variables:
@@ -29,9 +32,11 @@ bundle-feature-three = تکھا تے محفوظ نیٹ ورک
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = { -brand-name-relay } ای میل تے فون ماسک کین٘ویں کم کریندے
 
 # Item 1
 
+how-it-works-section-extension-headline = ہر جاء تے { -brand-name-relay } ای میل ماسک  تے فون ماسک ورتو
 
 # Item 2
 
