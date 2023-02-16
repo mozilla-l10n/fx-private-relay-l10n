@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-title = محفوظ فون تے ای میل ماسکنگ نال آپݨی سُن٘ڄاݨ دی حفاظت کرو
 hero-section-cta = شروع کرو
 
 ## BUNDLE BANNER SECTION
@@ -41,6 +42,7 @@ how-it-works-section-manage-headline = آپݨے { -brand-name-relay } ڈیش ب�
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = حفاظت دی سطح چݨو، جہڑا تہاݙا حق ہے
 
 # Top Row Labels
 
@@ -57,6 +59,7 @@ plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand
 
 plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -66,6 +69,9 @@ plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
 plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-mobile-promo-email-blocking = مشہوری ای میلاں بلاک کرو
 plan-matrix-feature-mobile-email-subdomain = نویکلی { -brand-name-relay } ای میل ڈومین
+plan-matrix-feature-mobile-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
+plan-matrix-feature-mobile-phone-mask = آپݨے اصلی فون نمبر دی حفاظت کرو
+plan-matrix-feature-mobile-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
 
 # Plan Details
 
@@ -125,6 +131,7 @@ highlighted-features-section-unlimited-masks-headline = بے انت ای میل 
 
 # Item 3
 
+highlighted-features-section-replying-headline = گمنام دے طور تے ای میلاں تے عبارتاں دا جواب ݙیوو
 
 # Item 4
 
