@@ -40,6 +40,7 @@ how-it-works-section-extension-headline = ہر جاء تے { -brand-name-relay }
 
 # Item 2
 
+how-it-works-section-forward-headline = اساں تہاکوں ای میلاں، فون کالاں تے ٹیکسٹ فارورڈ کریسوں
 
 # Item 3
 
@@ -65,7 +66,9 @@ plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand
 plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
 plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-email-subdomain = آن دی گو تے ماسک تخلیق کرݨ کیتے { -brand-name-relay } ای میل ڈومین
 plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
+plan-matrix-feature-phone-mask = تہاݙے اصلی فون نمبر دی حفاظت کیتے فون ماسک
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
