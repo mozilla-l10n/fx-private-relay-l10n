@@ -9,6 +9,7 @@
 ## BUNDLE BANNER SECTION
 
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-feature-three = Nopea ja turvallinen verkko
 
 ## HOW IT WORKS SECTION 
 
@@ -33,6 +34,7 @@ plan-matrix-heading-features = Ominaisuudet
 plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
 plan-matrix-heading-plan-premium = Sähköpostin suojaus
 plan-matrix-heading-plan-phones = Sähköpostin ja puhelimen suojaus
+plan-matrix-heading-plan-bundle-2 = Lisää { -brand-name-vpn } -suojaus
 plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
@@ -54,11 +56,19 @@ plan-matrix-price-free = Ilmainen
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/kk
 plan-matrix-price-period-yearly = Vuosittain
 plan-matrix-price-period-monthly = Kuukausittain
+plan-matrix-price-period-yearly-footnote-1 = Laskutetaan vuosittain
+plan-matrix-price-period-monthly-footnote-1 = Laskutetaan kuukausittain
 
 # Plan CTAs
 
+plan-matrix-upgrade = Päivitä
+plan-matrix-sign-up = Rekisteröidy
+plan-matrix-get-relay-cta = Hanki { -brand-name-relay }
 plan-matrix-join-waitlist = Liity odotuslistalle
 
 ## REVIEWS SECTION

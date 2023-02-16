@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } tekee helpoksi sähköpostimaskien luomisen, jotka välittävät viestit oikeaan postilaatikkoosi. Käytä maskeja suojataksesi verkkotilisi pahantahtoisilta tahoilta ja viesteiltä, joita et halua.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Avautuu uuteen välilehteen)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = Sähköpostimaskit
 nav-phone-dashboard = Puhelinmaskit
 label-open-menu = Avaa valikko
 avatar-tooltip = Profiili
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = UKK
 nav-profile-sign-in = Kirjaudu sisään
@@ -55,7 +54,6 @@ nav-support = Ohjeet ja tuki
 nav-sign-out = Kirjaudu ulos
 nav-contact = Ota yhteyttä
 nav-menu-mobile = Mobiilivalikko
-
 fx-desktop-2 = { -brand-name-firefox } työpöydälle
 fx-mobile-2 = { -brand-name-firefox } mobiililaitteille
 
@@ -82,9 +80,7 @@ whatsnew-tab-archive-label = Historia
 whatsnew-footer-clear-all-label = Tyhjennä kaikki
 whatsnew-footer-back-label = Takaisin
 whatsnew-footer-learn-more-label = Lue lisää
-
 whatsnew-empty-message = Muista palata tänne – kehitämme jatkuvasti upeita uusia ominaisuuksia, jotta { -brand-name-relay } olisi entistä parempi.
-
 whatsnew-feature-size-limit-heading = Liitteiden koon nosto
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -94,28 +90,22 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } voi nyt 
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien liitteet.
-
 whatsnew-feature-forward-some-heading = Mainospostin esto
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliakset ovat nyt maskeja
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } saatavilla Ruotsissa
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } saatavilla Suomessa
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Päivitä nyt ja saat entistä enemmän suojaa…
 whatsnew-feature-premium-expansion-description = Päivitä nyt ja hanki entistä enemmän suojausta – luo rajattomasti sähköpostimaskeja, hanki mukautettu sähköpostin aliverkkotunnus ja paljon muuta!
-
 whatsnew-feature-tracker-removal-heading = Esittelyssä sähköpostiseurannan poisto
-
 whatsnew-feature-offer-countdown-heading = Tutustumishintatarjouksemme päättyy pian!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti rajattomasta määrästä maskeja kuukausittaiseen esittelyhintaamme.
 whatsnew-feature-offer-countdown-cta = Päivitä nyt
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } on nyt saatavilla { -brand-name-firefox }-salasanahallinnassa
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -150,13 +140,13 @@ hero-image-copy-unique-html = <strong>Käytä yksilöllistä välitysosoitetta</
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = Suojaa oikeaa sähköpostiosoitettasi, niin saat hallittua postilaatikkoasi aiempaa paremmin
 landing-hero-body-2 =
     { -brand-name-firefox-relay }n sähköpostimaskit suojaavat todellisen sähköpostiosoitteesi julkista näkyvyyttä. Maskien avulla viestit ohjautuvat automaattisesti oikeaan postilaatikkoosi.
     Nyt voit vastaanottaa vain haluamasi viestit postilaatikkoosi. Aloita rekisteröitymällä { -brand-name-firefox-account }llä.
-
 landing-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 landing-offer-end-hero-cta = Päivitä nyt
 
@@ -204,7 +194,6 @@ landing-pricing-free-cta = Hanki { -brand-name-relay }
 landing-pricing-free-ribbon = Saatavilla nyt!
 # Deprecated
 landing-pricing-free-feature-free = Ilmainen
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -226,12 +215,10 @@ landing-pricing-premium-feature-4 = Vastaa välitettyihin sähköposteihin
 landing-pricing-premium-feature-5 = Estä mainossähköpostit
 # Deprecated
 landing-pricing-premium-feature-6 = Sähköpostiseurannan poisto
-
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } ei ole tällä hetkellä saatavilla maassasi. Ole hyvä ja jaa sähköpostiosoitteesi, niin saat ilmoituksen heti kun julkaisu tapahtuu.
 # Deprecated
 landing-pricing-waitlist-cta = Liity odotuslistalle
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -240,7 +227,6 @@ landing-pricing-offer-end-headline = Tutustumishinta: rajoittamaton määrä mas
 landing-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 # Deprecated
 landing-pricing-offer-end-cta = Päivitä nyt
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -286,15 +272,14 @@ plan-matrix-pick = Rekisteröidy
 landing-use-cases-heading = { -brand-name-firefox-relay } sopii seuraavanlaiseen käyttöön:
 landing-use-cases-shopping = Ostokset
 landing-use-cases-social-networks = Sosiaaliset verkostot
+landing-use-cases-access-content = Käytä sisältöä
 landing-use-cases-gaming = Pelit
 landing-use-cases-gaming-body-2 =
     Nautitko verkkopelaamisesta, mutta oletko huolissasi siitä, että muut pelaajat tai kiusaajat saavat tietää, kuka olet nimimerkkisi ja sähköpostiosoitteesi kautta?
     Käytä sähköpostimaskia lisätäksesi yhden suojakerroksen verkkoidentiteettisi ja verkossa pelaamiesi pelien välille.
-
 landing-use-cases-shopping-hero-heading = Ostokset sähköpostimaskeilla
 landing-use-cases-shopping-hero-content1 = Haluatko ostaa jotain verkosta, mutta et tunne kauppaa entuudestaan tai luota siihen täysin?
 landing-use-cases-shopping-hero-content2 = Käytä sähköpostimaskia, kun teet ostoksia verkossa. Saat vahvistuksen oikeaan sähköpostiosoitteeseesi ja voit lopettaa maskin käytön vaivatta milloin tahansa.
-
 landing-use-cases-on-the-go = Matkalla
 landing-use-cases-on-the-go-heading = { -brand-name-relay } mukana matkalla
 landing-use-cases-on-the-go-lead = Luo heti mukautettu sähköpostimaski missä tahansa oletkin!
@@ -304,7 +289,6 @@ landing-use-cases-on-the-go-receipt-heading = Vastaanota kuitit sähköpostitse
 landing-use-cases-on-the-go-receipt-body = Jaa mukautettu sähköpostimaski ostosten kuitteja varten jakamatta oikeaa sähköpostiosoitettasi
 landing-use-cases-on-the-go-phone-heading = Käytä puhelimessasi
 landing-use-cases-on-the-go-phone-body = Missä tahansa oletkin, luo mukautettu sähköpostimaski haluamaasi asiaa varten sekunneissa
-
 landing-use-cases-signups = Rekisteröitymiset
 landing-use-cases-signups-hero-heading = Huolettomat rekisteröitymiset
 landing-use-cases-signups-hero-content1 = Haluatko aloittaa uuden tilauksen, vastata kutsuun tai saada tarjouskoodin ilman, että postilaatikkosi tulvii roskapostia?
@@ -320,15 +304,12 @@ premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } tarjoaa r
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
-
 premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
 premium-promo-offer-end-hero-cta = Päivitä nyt
-
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Ruotsissa, Singaporessa, Suomessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
-
 premium-promo-perks-headline = Miksi päivittää { -brand-name-firefox-relay-premium }iin?
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium }illa saat kaiken { -brand-name-relay }n tarjoaman postilaatikon suojauksen ja hallinnan, mutta rajattomalla määrällä sähköpostimaskeja ja oman mukautetun aliverkkotunnuksen, jonka avulla postilaatikon hallinta on entistäkin helpompaa.
 premium-promo-perks-cta-label = Päivitä nyt
@@ -344,16 +325,13 @@ premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
 premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
-
 premium-promo-use-cases-headline-2 = Käytä { -brand-name-relay }-sähköpostimaskeja missä tahansa
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-shopping-body-2 = Yritätkö rekisteröityä saadaksesi alennuksia, mutta et halua roskapostia? Liitä kaikki "ostotilisi" mukautettujen sähköpostimaskien alle, kuten "ostokset@mydomain.mozmail.com".
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
-
 premium-promo-pricing-free-price = Nykyinen ilmainen tilaus
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Tutustumishinta: Rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
@@ -426,16 +404,13 @@ setting-tracker-removal-warning-2 = Tärkeää: Seurainten poistaminen voi saada
 ## FAQ Page
 
 faq-headline = Usein kysytyt kysymykset
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = Mikä on { -brand-name-relay }-sähköpostimaski?
 faq-question-what-is-answer-2 = Sähköpostimaskit ovat peitettyjä tai yksityisiä sähköpostiosoitteita, jotka välittävät viestit oikeaan sähköpostiosoitteeseesi. Näiden maskien avulla voit jakaa osoitteen kolmansien osapuolten kanssa; maski peittää oikean sähköpostiosoitteesi ja välittää viestit siihen.
-
 faq-question-missing-emails-question-2 = En saa viestejä sähköpostimaskeistani
 faq-question-missing-emails-answer-a-2 = On muutamia syitä siihen, miksi et ehkä saa maskien kautta edelleenlähetettyjä sähköposteja. Näitä syitä ovat muun muassa:
 faq-question-missing-emails-answer-reason-spam = Viestit menevät roskapostiin
@@ -450,52 +425,36 @@ faq-question-missing-emails-answer-b-html = Jos olet { -brand-name-relay-premium
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Jos olet kohdannut jonkin näistä ongelmista, <a href="{ $url }" { $attrs }>käy tukisivustollamme</a>.
-
 faq-question-use-cases-question-2 = Milloin minun pitäisi käyttää { -brand-name-relay }-sähköpostimaskeja?
 faq-question-use-cases-answer-part1-2 = Voit käyttää { -brand-name-relay }-sähköpostimaskeja lähes kaikissa samoissa tilanteissa, joissa käyttäisit tavallista sähköpostiosoitettasi. Suosittelemme maskien käyttöä, kun tilaat markkinointi-/tiedotussähköposteja, jolloin voit halutessasi varmuudella hallita, saatko sähköpostiviestejä jatkossa.
 faq-question-use-cases-answer-part2-2 = Emme suosittele maskien käyttöä, kun tarvitset henkilöytesi vahvistusta, kun viesti on erittäin tärkeä tai niihin viesteihin, joissa sinun on vastaanotettava liitteitä. Haluat mitä luultavimmin jakaa oikean sähköpostiosoitteesi pankkisi, lääkärisi ja asianajajasi kanssa sekä konsertti- tai lentolippuja vastaanottaessa.
-
 faq-question-2-question-2 = Miksi sivusto ei hyväksy { -brand-name-relay }-sähköpostimaskiani?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Jotkin sivustot eivät välttämättä hyväksy sähköpostiosoitteita, jotka sisältävät aliverkkotunnuksen (@subdomain.mozmail.com), ja jotkin sivustot ovat lopettaneet kaikkien muiden paitsi Gmail-, Hotmail- tai Yahoo-tilien osoitteiden hyväksymisen.
-
 faq-question-1-question = Entä roskaposti?
 faq-question-1-answer-a-2 = Vaikka { -brand-name-relay } ei suodata roskapostia, sähköpostikumppanimme Amazon SES suodattaa roskapostia ja haittaohjelmia. Jos { -brand-name-relay } lähettää edelleen viestejä, joita et halua, voit päivittää { -brand-name-relay }-asetukset estääksesi maskia välittämästä viestejä.
-
 faq-question-availability-question = Missä { -brand-name-relay } on saatavilla?
-
 faq-question-4-question-2 = Voinko vastata viesteihin käyttämällä { -brand-name-relay }-sähköpostimaskia?
-
 faq-question-subdomain-characters-question = Mitä merkkejä voin käyttää aliverkkotunnuksen luomiseen?
 faq-question-subdomain-characters-answer-v2 = Voit käyttää aliverkkotunnuksen luomiseen vain pieniä englanninkielessä esiintyviä kirjaimia (a-z), numeroita ja tavuviivoja.
-
 faq-question-browser-support-question = Voinko käyttää { -brand-name-relay }-palvelua muilla selaimilla tai mobiililaitteellani?
 faq-question-browser-support-answer-2 = Kyllä, voit luoda { -brand-name-relay }-maskeja muissa selaimissa tai mobiililaitteissa kirjautumalla sisään { -brand-name-relay }-hallintapaneeliin.
-
 faq-question-longevity-question = Mitä tapahtuu, jos Mozilla sulkee { -brand-name-firefox-relay } -palvelun?
 faq-question-longevity-answer-2 = Ilmoitamme sinulle etukäteen, että sinun on vaihdettava kaikkien { -brand-name-relay }-sähköpostimaskeja käyttävien tilien sähköpostiosoitteet.
-
 faq-question-mozmail-question-2 = Miksi sähköpostimaskini alkoivat käyttää verkkotunnusta “mozmail.com”?
-
 faq-question-attachments-question = Välittääkö { -brand-name-firefox-relay } sähköpostit liitteineen?
-
 faq-question-unsubscribe-domain-question-2 = Mitä mukautetulle aliverkkotunnukselleni tapahtuu, jos peruutan { -brand-name-relay-premium } -tilauksen?
-
 faq-question-8-question = Mitä tietoja { -brand-name-firefox-relay } kerää?
-
 faq-question-email-storage-question = Tallentaako { -brand-name-relay } sähköpostini?
 faq-question-email-storage-answer = Harvinaisissa olosuhteissa, jos palvelu ei ole käytettävissä, voimme väliaikaisesti tallentaa sähköpostiviestisi, kunnes voimme lähettää ne. Emme koskaan säilytä sähköpostejasi kolmea päivää pidempään.
-
 faq-question-acceptable-use-question = Mitkä ovat { -brand-name-relay }n hyväksyttävät käyttötavat?
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Saat lisätietoja tutustumalla <a href="{ $url }" { $attrs }>käyttöehtoihin</a> .
-
 faq-question-promotional-email-blocking-question = Mitä on mainossähköpostien esto?
 faq-question-detect-promotional-question = Miten { -brand-name-relay } havaitsee, onko sähköposti mainosviesti vai ei?
-
 faq-question-disable-trackerremoval-question = Voinko lopettaa sähköpostiseurainten poistamisen?
 faq-question-disable-trackerremoval-answer = Kyllä. Jos sinulla on ongelmia sähköpostien näyttäessä rikkinäiseltä tai haluat lopettaa seurainten poistamisen, voit poistaa ominaisuuden käytöstä asetuksista.
 faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joistakin sähköpostimaskeistani?
@@ -536,18 +495,14 @@ profile-label-reset = Palauta
 profile-label-apply = Toteuta
 profile-label-skip = Ohita
 profile-label-continue = Jatka
-
 # This string is followed by an email address
 profile-label-forward-emails = Välitä sähköpostit osoitteeseen:
-
 # This string is followed by date
 profile-label-first-emailed = Ensimmäinen sähköposti:
-
 # This string is followed by date:
 profile-label-created = Luotu:
 profile-label-details-show = Näytä yksityiskohdat
 profile-label-details-hide = Piilota yksityiskohdat
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = edelleenlähetys
 profile-label-disable-forwarding-button-2 = Poista tämän maskin sähköpostin edelleenlähetys käytöstä
@@ -624,9 +579,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Sulje
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Hylkää
-
 banner-bounced-headline = { -brand-name-relay } ei voinut toimittaa sähköpostiasi.
-
 banner-download-firefox-headline = { -brand-name-relay } on entistä parempi { -brand-name-firefox }issa
 banner-download-firefox-cta = Hanki { -brand-name-firefox }
 banner-download-install-extension-headline = Hanki { -brand-name-relay }-laajennus { -brand-name-firefox }ille
@@ -645,29 +598,24 @@ banner-pack-upgrade-headline-2-html = Päivitä <strong>{ -brand-name-firefox-re
 banner-pack-upgrade-copy-2 = Rajoittamattomalla määrällä sähköpostimaskeja ja omalla sähköpostin aliverkkotunnuksella { -brand-name-firefox-relay-premium } auttaa sinua pysymään suojattuna verkossa.
 footer-banner-premium-promo-headine = Päivitä <strong>{ -brand-name-firefox-relay-premium }</strong>iin suojataksesi puhelintasi <i>ja</i> sähköpostiasi
 banner-pack-upgrade-cta = Päivitä nyt
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Tietosuojakäytännön päivitys
 banner-label-privacy-notice-update-body = Parantaaksemme { -brand-name-firefox-relay }n luotettavuutta siinä tapauksessa, että sähköpostia ei voida toimittaa, säilytämme sähköpostin väliaikaisesti palvelimillamme, kunnes se on toimitettu. Emme koskaan säilytä viestejä kolmea päivää pidempään.
 banner-label-privacy-notice-update-cta = Näytä tietosuojakäytäntö
-
 # Data Notification Banner:
 banner-label-data-notification-header = Tulossa pian { -brand-name-relay }-palveluun
 banner-label-data-notification-cta = Siirry asetuksiin
 banner-label-data-notification-header-v2 = Ota uudet ominaisuudet käyttöön
 banner-label-data-notification-body-cta = Lue lisää
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Suojaa yksityisyyttäsi, pelasta internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Suojaa yksityisyyttäsi samalla kun liityt tehtäväämme rakentaa parempi internet, kaikki hintaan { $monthly_price }
 banner-upgrade-loyalist-cta = Hanki lisää suojaa
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Tutustumishintatarjouksemme päättyy pian!
 banner-offer-end-cta = Päivitä nyt
-
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } antaa sinulle puhelinnumeron maskin, joka suojaa todellista numeroasi — sekä rajattomasti sähköpostimaskeja.
 banner-ab-premium-promo-advanced-identity-headline = Edistynyt henkilöyden suojaus
 banner-ab-premium-promo-control-receiver-headline = Hallitse, kuka saa oikean numerosi
@@ -777,7 +725,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Luo rajattomasti säh
 multi-part-onboarding-premium-welcome-button-start = Aloitetaan
 multi-part-onboarding-premium-get-subdomain = Hanki mukautettu aliverkkotunnus
 multi-part-onboarding-reply-headline = Vastaa sähköposteihisi
-
 multi-part-onboarding-premium-domain-cta-2 = Rekisteröi mukautettu aliverkkotunnus nyt:
 multi-part-onboarding-premium-domain-button-skip-2 = Jatka, rekisteröin mukautetun aliverkkotunnuksen myöhemmin
 multi-part-onboarding-premium-extension-headline = Estä, lähetä eteenpäin ja vastaa
@@ -832,8 +779,6 @@ trackerreport-load-error = Seurainten poistoraporttia luotaessa tapahtui virhe. 
 
 modal-rename-alias-saved = Nimike tallennettu!
 modal-delete-headline-2 = Poistetaanko tämä sähköpostimaski pysyvästi?
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -850,7 +795,6 @@ modal-delete-confirmation-2 = Kyllä, haluan poistaa tämän maskin.
 modal-domain-register-good-news = Hyviä uutisia!
 modal-domain-register-warning-reminder-2 = Muista, että voit rekisteröidä vain yhden aliverkkotunnuksen. Et voi muuttaa sitä myöhemmin.
 modal-domain-register-button-2 = Rekisteröi aliverkkotunnus
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } on saatavilla!
@@ -858,7 +802,6 @@ modal-domain-register-available = { $subdomain } on saatavilla!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> on saatavilla!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
@@ -866,7 +809,6 @@ modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliv
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Kyllä, haluan rekisteröidä aliverkkotunnuksen <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Valmista!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -958,9 +900,11 @@ forwarded-email-footer-offer-countdown-banner = Päivitä { $premium_link }iin, 
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = Olemme lähettäneet tämän vastauksen vastaanottajalle { $sender }. Jatkossa vastauksiasi ei lähetetä.
+# Deprecated
+other-reply-not-forwarded = Vastaustasi EI lähetetty vastaanottajalle { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
-other-reply-not-forwarded = Vastaustasi EI lähetetty vastaanottajalle { $sender }.
+other-reply-not-forwarded-2 = Vastaustasi ei lähetetty vastaanottajalle { $sender }.
 replies-not-included-in-free-account-header = Vastaukset eivät sisälly ilmaiseen tiliisi
 reply-not-sent-header = Vastaustasi ei lähetetty
 upgrade-to-reply-to-future-emails = Päivitä nyt lähettääksesi vastauksia
@@ -978,7 +922,6 @@ toast-button-close-label = Sulje ilmoitus
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = Olet käyttänyt kaikki ilmaiseen tiliisi kuuluvat { $free_tier_limit } sähköpostimaskia. Voit käyttää olemassa olevaa maskia uudelleen, mutta yksilöllisen maskin käyttäminen jokaiselle tilille on kaikkein turvallisin vaihtoehto.
 api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettuja aliverkkotunnuksia maskeille. Jos haluat luoda mukautettuja maskeja, päivitä { -brand-name-relay-premium }iin.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
