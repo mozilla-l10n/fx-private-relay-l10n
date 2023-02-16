@@ -57,6 +57,7 @@ plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
 plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
 plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
