@@ -128,6 +128,8 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } حیرا�
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = تہاݙی سُن٘ڄاݨ دی حفاظت دی مدد کیتے محفوظ تے سادہ خصوصیات
+highlighted-features-section-bottom-title = { -brand-name-firefox-relay } نال آپݨی سن٘ڄاݨ (تے آپݨے انباکس) دی حفاظت کرو
 highlighted-features-section-bottom-cta = شروع کرو
 highlighted-features-section-new-item = نواں!
 
@@ -137,6 +139,7 @@ highlighted-features-section-unlimited-masks-headline = بے انت ای میل 
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = گو تے ٹھک پک ماسک تخلیق کرو
 
 # Item 3
 
