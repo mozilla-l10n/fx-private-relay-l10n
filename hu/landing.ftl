@@ -59,6 +59,7 @@ how-it-works-section-manage-body = Jelentkezzen be a { -brand-name-relay } irán
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Válassza ki az Önnek megfelelő védelmi szintet
+plan-matrix-offer-body = A { -brand-name-firefox-relay } egyedi e-mail-maszkokkal védi személyazonosságát és a postaládáját. Növelje tovább a biztonságot a { -brand-name-relay } telefonmaszkolás segítségével, és a { -brand-name-vpn } védelem hozzáadásával takarítson meg ennyit: { $savings }.
 
 # Top Row Labels
 
@@ -68,10 +69,18 @@ plan-matrix-heading-features = Funkciók
 plan-matrix-heading-plan-free = Korlátozott e-mail-védelem
 plan-matrix-heading-plan-premium = E-mail-védelem
 plan-matrix-heading-plan-phones = E-mail- és telefonvédelem
+plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } védelem hozzáadása
 plan-matrix-heading-plan-bundle-alt = Szerezze be a { -brand-name-relay-premium }ot és a { -brand-name-mozilla-vpn(case: "accusative") }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mail-maszkok a valódi e-mail-címének védelmére
+plan-matrix-feature-browser-extension = Böngészőkiegészítő a { -brand-name-relay } használatához bármely webhelyen
+plan-matrix-feature-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-feature-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-feature-email-subdomain = { -brand-name-relay } e-mail-domain maszkok létrehozásához útközben
+plan-matrix-feature-email-reply = Válaszoljon a levelekre névtelenül
+plan-matrix-feature-phone-mask = Telefonmaszk a valódi telefonszámának védelmére
 plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
