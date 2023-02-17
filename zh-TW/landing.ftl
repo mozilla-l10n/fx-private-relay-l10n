@@ -94,13 +94,14 @@ plan-matrix-price-free = 免費
 plan-matrix-price-monthly-calculated = 每月 { $monthly_price }
 plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
-plan-matrix-price-period-yearly-footnote = 每年收費，未稅。
-plan-matrix-price-period-monthly-footnote = 每月收費，未稅。
+plan-matrix-price-period-yearly-footnote-1 = 每年收費
+plan-matrix-price-period-monthly-footnote-1 = 每月收費
 plan-matrix-price-vpn-discount-promo = 以 { -brand-name-vpn } 原價再<span>節省 { $savings }</span>
 
 # Plan CTAs
 
 plan-matrix-upgrade = 升級
+plan-matrix-sign-up = 註冊
 plan-matrix-get-relay-cta = 下載 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入排隊名單
 
