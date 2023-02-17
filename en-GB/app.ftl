@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } makes it easy to create email masks that forward your messages to your true inbox. Use them to protect your online accounts from hackers and unwanted messages.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Opens in a new tab)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = Email Masks
 nav-phone-dashboard = Phone Masks
 label-open-menu = Open menu
 avatar-tooltip = Profile
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = FAQ
 nav-profile-sign-in = Sign In
@@ -56,7 +55,6 @@ nav-support = Help and Support
 nav-sign-out = Sign Out
 nav-contact = Contact Us
 nav-menu-mobile = Mobile Menu
-
 fx-desktop-2 = { -brand-name-firefox } for Desktop
 fx-mobile-2 = { -brand-name-firefox } for Mobile
 
@@ -83,9 +81,7 @@ whatsnew-tab-archive-label = History
 whatsnew-footer-clear-all-label = Clear all
 whatsnew-footer-back-label = Back
 whatsnew-footer-learn-more-label = Learn more
-
 whatsnew-empty-message = Be sure to check back here — we’re always working on great new features to make { -brand-name-relay } even better.
-
 whatsnew-feature-size-limit-heading = Attachment size increase
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -95,19 +91,16 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } can now 
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } can now forward emails up to { email-size-limit }, including…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } can now forward emails up to { email-size-limit }, including attachments.
-
 whatsnew-feature-sign-back-in-heading = Sign back in with your aliases
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = To create a new alias when you’re asked for your email, open…
 whatsnew-feature-sign-back-in-description = To sign in with a previously-used alias, open the context menu where the site asks for your email. You’ll be able to select the alias and auto-fill the email field.
-
 whatsnew-feature-forward-some-heading = Promotional email blocking
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } allows you to block only promotional emails…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } allows you to block only promotional emails sent to an alias. You’ll receive emails like receipts but not marketing emails.
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliases are now masks
@@ -119,14 +112,12 @@ whatsnew-feature-alias-to-mask-snippet = Notice a change? We’re now calling al
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Notice a change? We’re now calling aliases “masks” to make { -brand-name-firefox-relay } easier to use and open the door for new features.
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } available in Sweden
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } available in Finland
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Upgrade now and get even more protection…
 whatsnew-feature-premium-expansion-description = Upgrade now and get even more protection — create unlimited email masks, get a custom email subdomain, and more!
-
 whatsnew-feature-tracker-removal-heading = Introducing email tracker removal
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -134,7 +125,6 @@ whatsnew-feature-tracker-removal-snippet = Now { -brand-name-relay } can remove 
 # Deprecated
 whatsnew-feature-tracker-removal-description = Now { -brand-name-relay } can remove common email trackers from emails forwarded to you, helping you stay invisible to advertisers.
 whatsnew-feature-tracker-removal-description-2 = Now { -brand-name-relay } can remove common email trackers from emails forwarded to you, helping you stay invisible to advertisers. Turn it on in “Settings.”
-
 whatsnew-feature-offer-countdown-heading = Our intro pricing offer ends soon!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -145,7 +135,6 @@ whatsnew-feature-offer-countdown-snippet = Get { -brand-name-relay-premium } bef
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Get { -brand-name-relay-premium } before { $end_date } and enjoy unlimited masking at our intro month-to-month price.
 whatsnew-feature-offer-countdown-cta = Upgrade now
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is now available in { -brand-name-firefox } password manager
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -187,13 +176,13 @@ hero-image-copy-control-html = Now <em>you’re in control</em> of what’s arri
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = Protect your true email address to help control your inbox
 landing-hero-body-2 =
     { -brand-name-firefox-relay } email masks protect your true email address from public view, automatically forwarding messages to your true inbox.
     Now you can receive only the messages you want in your inbox. Sign up with your { -brand-name-firefox-account } to get started.
-
 landing-offer-end-hero-heading = Our intro pricing offer is ending soon!
 landing-offer-end-hero-cta = Upgrade now
 # Variables:
@@ -244,7 +233,6 @@ landing-pricing-free-cta = Get { -brand-name-relay }
 landing-pricing-free-ribbon = Available now!
 # Deprecated
 landing-pricing-free-feature-free = Free
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -266,12 +254,10 @@ landing-pricing-premium-feature-4 = Reply to forwarded emails
 landing-pricing-premium-feature-5 = Block promotional emails
 # Deprecated
 landing-pricing-premium-feature-6 = Email tracker removal
-
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } is not currently available in your country. Please share your email to be notified as soon as it is.
 # Deprecated
 landing-pricing-waitlist-cta = Join Waiting List
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -284,7 +270,6 @@ landing-pricing-offer-end-cta = Upgrade now
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Get { -brand-name-relay-premium } before { $end_date } and enjoy premium email protection at our intro month-to-month price.
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -350,11 +335,9 @@ landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
     Enjoy online gaming, but worried about other gamers or bullies learning who you are through your gamertag and email address?
     Use an email mask to put one more layer of protection between your online identity and the games you play online.
-
 landing-use-cases-shopping-hero-heading = Shopping with email masks
 landing-use-cases-shopping-hero-content1 = Want to buy something online and don’t know or fully trust the shop?
 landing-use-cases-shopping-hero-content2 = Use an email mask whenever you shop online. Get the confirmation sent to your real email and then easily turn the mask off anytime later.
-
 landing-use-cases-on-the-go = On the Go
 landing-use-cases-on-the-go-heading = On the go with { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Instantly make a custom email mask anywhere and everywhere you go!
@@ -364,7 +347,6 @@ landing-use-cases-on-the-go-receipt-heading = Get email receipts
 landing-use-cases-on-the-go-receipt-body = Share a custom email mask for in-store shopping receipts without sharing your real email
 landing-use-cases-on-the-go-phone-heading = Use on your phone
 landing-use-cases-on-the-go-phone-body = No matter where you are create a custom email mask in seconds for anything you want to do
-
 landing-use-cases-signups = Signups
 landing-use-cases-signups-hero-heading = Worry-free signups
 landing-use-cases-signups-hero-content1 = Want to start a new subscription, respond to an invitation, or get a bargain promo code without having spam flooding your inbox?
@@ -380,17 +362,14 @@ premium-promo-hero-body-2-html = With { -brand-name-firefox-relay-premium }, you
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = With { -brand-name-firefox-relay-premium }, you get unlimited custom email masks that forward only the emails you want to your true email address.
 premium-promo-hero-cta = Upgrade now
-
 premium-promo-offer-end-hero-heading = Our intro pricing offer is ending soon!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Get { -brand-name-relay-premium } before { $end_date } and enjoy premium email protection at our intro month-to-month price.
 premium-promo-offer-end-hero-cta = Upgrade now
-
 premium-promo-availability-warning = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Switzerland, the UK, and the US.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is currently available in Austria, Belgium, Canada, Finland, France, Germany, Ireland, Italy, Malaysia, the Netherlands, New Zealand, Singapore, Spain, Sweden, Switzerland, the UK, and the US.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } is available in Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Portugal, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and the United States.
-
 premium-promo-perks-headline = Why upgrade to { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = With { -brand-name-firefox-relay-premium }, you get all the inbox protection and management of { -brand-name-relay }, but with unlimited email masks and your own custom subdomain to make managing your inbox even easier.
 premium-promo-perks-cta-label = Upgrade now
@@ -406,7 +385,6 @@ premium-promo-perks-perk-block-promotionals-headline = Block promotional emails
 premium-promo-perks-perk-block-promotionals-body = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still receiving emails like receipts or shipping information.
 premium-promo-perks-perk-tracker-blocking-headline = Remove email trackers
 premium-promo-perks-perk-tracker-blocking-body = Now { -brand-name-relay } can help you stop email tracking — your email masks will remove common email trackers from any emails forwarded to you, helping you stay invisible to trackers and advertisers.
-
 premium-promo-use-cases-headline-2 = Use { -brand-name-relay } email masks anywhere
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body-2 = Trying to sign up for discounts without all the spam? Bundle all your “shopping” accounts under custom email masks, like “mydeals@mydomain.mozmail.com.”
@@ -414,9 +392,7 @@ premium-promo-use-cases-social-networks-heading = Social Networks
 premium-promo-use-cases-social-networks-body-2 = Want to better protect your online identity when using a social network? Use a different email mask to log in to each social network and help protect your true email from being exposed to those sites.
 premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 = Worried about other gamers or trolls learning who you are through your gamertag and email address? Use a mask like “onlinegame@mydomain.mozmail.com” to put one more layer of protection between your identity and the games you play online.
-
 premium-promo-pricing-free-price = Your current Free plan
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Introductory price: Unlimited masks for { $monthly_price } per month
@@ -503,16 +479,13 @@ setting-tracker-removal-warning-2 = Important: Removing trackers may cause your 
 ## FAQ Page
 
 faq-headline = Frequently Asked Questions
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = What is a { -brand-name-relay } email mask?
 faq-question-what-is-answer-2 = Email masks are masked, or private, email addresses that forward messages to your true email address. These masks allow you to share an address with third parties which will mask your true email address and forward messages to it.
-
 faq-question-missing-emails-question-2 = I’m not getting messages from my email masks
 faq-question-missing-emails-answer-a-2 = There are a few reasons you might not be receiving emails forwarded through your masks. These reasons include:
 faq-question-missing-emails-answer-reason-spam = Messages are going into spam
@@ -527,60 +500,47 @@ faq-question-missing-emails-answer-b-html = If you’re a { -brand-name-relay-pr
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = If you’re struggling with any of these issues, please <a href="{ $url }" { $attrs }>visit our support site</a>.
-
 faq-question-use-cases-question-2 = When should I use { -brand-name-relay } email masks?
 faq-question-use-cases-answer-part1-2 = You can use { -brand-name-relay } email masks most places you’d use your regular email address. We recommend using them when signing up for marketing/informational emails where you may want to control whether or not you receive emails in the future.
 faq-question-use-cases-answer-part2-2 = We don’t recommend using masks when you need your identity verified or for very important emails or those where you must receive attachments. For example, you’d want to share your true email address with your bank, your doctor, and your lawyer, as well as when receiving concert or flight boarding passes.
-
 faq-question-2-question-2 = Why won’t a site accept my { -brand-name-relay } email mask?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Some sites may not accept an email address that includes a subdomain (@subdomain.mozmail.com) and others have stopped accepting all addresses except those from Gmail, Hotmail, or Yahoo accounts.
-
 faq-question-1-question = What about spam?
 faq-question-1-answer-a-2 = While { -brand-name-relay } does not filter for spam, our email partner Amazon SES does block spam and malware. If { -brand-name-relay } forwards messages you don’t want, you can update your { -brand-name-relay } settings to block messages from the mask forwarding them.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = If you see a broader problem of unwanted email from all of your masks, please <a href="{ $url }" { $attrs }>report this to us</a> so we can consider adjusting the SES spam thresholds for this service. If you report these as spam, your email provider will see { -brand-name-relay } as the source of spam, not the original sender.
-
 faq-question-availability-question = Where is { -brand-name-relay } available?
 faq-question-availability-answer = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland.
 faq-question-availability-answer-v2 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, Finland, France, Belgium, Austria, Spain, Italy, Sweden, Switzerland, the Netherlands, and Ireland.
 faq-question-availability-answer-v3 = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } is available in Austria, Belgium, Canada, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Portugal, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and the United States.
-
+faq-question-landing-page-availability = Free { -brand-name-relay } is available in most countries. { -brand-name-relay-premium } email masking is available in the United States, Germany, United Kingdom, Canada, Singapore, Malaysia, New Zealand, France, Belgium, Austria, Spain, Italy, Switzerland, Netherlands, and Ireland. { -brand-name-relay-premium } phone masking is only available in the US and Canada.
 faq-question-4-question-2 = Can I reply to messages using my { -brand-name-relay } email mask?
 faq-question-4-answer-v4 = { -brand-name-relay-premium } users can reply to a forwarded email within 3 months of receiving the email. If you add a CC or BCC when you reply back to an email, your original email address will be exposed to the recipient and those copied on the email. If you do not want your original email address exposed, do not add CCs or BCCs when replying.
-
 faq-question-subdomain-characters-question = What characters can I use to create a subdomain?
 faq-question-subdomain-characters-answer-v2 = You can only use lower-case English letters, numbers, and hyphens to create a subdomain.
-
 faq-question-browser-support-question = Can I use { -brand-name-relay } on other browsers or my mobile device?
 faq-question-browser-support-answer-2 = Yes, you can generate { -brand-name-relay } masks on other browsers or mobile devices simply by logging in to your { -brand-name-relay } dashboard.
-
 faq-question-longevity-question = What happens if ⁨Mozilla⁩ shuts down the ⁨{ -brand-name-firefox-relay } service?
 faq-question-longevity-answer-2 = We will give you advance notice that you need to change the email address of any accounts that are using { -brand-name-relay } email masks.
-
 faq-question-mozmail-question-2 = Why did my email masks start to use the domain “mozmail.com?”
 faq-question-mozmail-answer-2 = We made the switch from “relay.firefox.com” to “mozmail.com” in order to make it possible to get a custom email subdomain, such as mask@yourdomain.mozmail.com. Custom email subdomains, available to { -brand-name-relay-premium } subscribers, allow you to generate easier-to-remember email masks.
-
 faq-question-attachments-question = Will { -brand-name-firefox-relay } forward emails with attachments?
 faq-question-attachments-answer-v2 = We now support attachment forwarding. However, there is a { email-size-limit } limit for email forwarding using { -brand-name-relay }. Any emails larger than { email-size-limit } will not be forwarded.
-
 faq-question-unsubscribe-domain-question-2 = What happens to my custom subdomain if I unsubscribe from { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = If you downgrade from { -brand-name-relay-premium }, you’ll still receive emails forwarded through your custom email masks, but you’ll no longer be able to create new masks using that subdomain. If you have more than five masks in total, you will not be able to create any more. You’ll also lose the ability to reply to forwarded messages. You can resubscribe to { -brand-name-relay-premium } and regain access to these features.
-
 faq-question-8-question = What data does { -brand-name-firefox-relay } collect?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = You can learn more about the data { -brand-name-firefox-relay } collects by taking a look at our <a href="{ $url }" { $attrs }>Privacy Notice</a>. You’re also able to optionally share data about the labels and site you use for your email masks so we can provide you that service and improve it for you.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } collects the web sites where you’ve used your email masks, and labels your masks with those web sites so you can easily identify them. You can opt out of this on your Settings page, under Privacy. But please note, turning that setting off means you won’t be able to see where you’ve used each mask, and your account names will no longer synchronise between devices. You can learn more about the data { -brand-name-firefox-relay } collects in our <a href="{ $url }" { $attrs }>Privacy Notice</a>.
-
 faq-question-email-storage-question = Does { -brand-name-relay } store my emails?
 faq-question-email-storage-answer = Under the rare circumstance in which the service is down, we may temporarily store your emails until we are able to send them. We will never store your emails for longer than three days.
-
 faq-question-acceptable-use-question = What are the acceptable uses of { -brand-name-relay }?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -591,12 +551,10 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Rate-limiting the numb
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Please review our <a href="{ $url }" { $attrs }>Terms of Service</a> for more information.
-
 faq-question-promotional-email-blocking-question = What is promotional email blocking?
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } subscribers can enable promotional email blocking. This feature will forward you important emails, such as receipts, password resets and confirmations while still blocking marketing messages. There is a slight risk that an important message could still be blocked, so we recommend that you not use this feature for very important places like your bank. If an email is blocked, it cannot be recovered.
 faq-question-detect-promotional-question = How does { -brand-name-relay } detect if an email is Promotional or not?
 faq-question-detect-promotional-answer = Many emails are sent with “header” metadata to indicate that they are from list-based automated tools. { -brand-name-firefox-relay } detects this header data so it can block these emails.
-
 faq-question-disable-trackerremoval-question = Can I stop removing email trackers?
 faq-question-disable-trackerremoval-answer = Yes. If you’re having trouble with emails looking broken or would like to stop removing trackers, you can disable the feature in settings.
 faq-question-bulk-trackerremoval-question = Can I remove trackers only on some of my email masks?
@@ -640,18 +598,14 @@ profile-label-reset = Reset
 profile-label-apply = Apply
 profile-label-skip = Skip
 profile-label-continue = Continue
-
 # This string is followed by an email address
 profile-label-forward-emails = Forward emails to:
-
 # This string is followed by date
 profile-label-first-emailed = First emailed:
-
 # This string is followed by date:
 profile-label-created = Created:
 profile-label-details-show = Show Details
 profile-label-details-hide = Hide Details
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = forwarding
 profile-label-blocking = blocking
@@ -730,9 +684,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Close
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dismiss
-
 banner-bounced-headline = { -brand-name-relay } couldn’t deliver your email.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -780,36 +732,30 @@ banner-pack-upgrade-copy-2 = With unlimited email masks and your own email subdo
 footer-banner-premium-promo-headine = Upgrade to <strong>{ -brand-name-firefox-relay-premium }</strong> to protect your phone <i>and</i> email
 footer-banner-premium-promo-body = Get a phone number mask, unlimited email masks, and custom email addresses for quick mask creation.
 banner-pack-upgrade-cta = Upgrade Now
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Privacy Notice Update
 banner-label-privacy-notice-update-body = To improve the reliability of { -brand-name-firefox-relay } in the event that an email can’t be delivered, we will temporarily keep the email on our servers until it has been delivered. We will never hold onto it for more than three days.
 banner-label-privacy-notice-update-cta = View Privacy Notice
-
 # Data Notification Banner:
 banner-label-data-notification-header = Coming soon to { -brand-name-relay }
 banner-label-data-notification-cta = Go to Settings
 banner-label-data-notification-header-v2 = Enable new features
 banner-label-data-notification-body-cta = Learn More
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Protect your privacy, save the internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protect your privacy while joining our mission to build a better internet, all for { $monthly_price }
 banner-upgrade-loyalist-cta = Get more protection
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Our intro pricing offer ends soon!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Get { -brand-name-relay-premium } before { $end_date } and enjoy unlimited masking at our intro month-to-month price.
 banner-offer-end-cta = Upgrade now
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = You can make up any address @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stop spam, robocalls & junk texts
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } gives you a phone mask to protect your real number — plus unlimited email masks.
@@ -937,7 +883,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited em
 multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
 multi-part-onboarding-reply-headline = Reply to your emails
-
 multi-part-onboarding-premium-welcome-description-2 = No more five-mask limit: you can now generate as many custom or random masks as you need. On desktop, you can use the { -brand-name-relay } add-on to create them on the go.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -1002,8 +947,6 @@ trackerreport-load-error = There was an error generating your tracker removal re
 
 modal-rename-alias-saved = Label saved!
 modal-delete-headline-2 = Permanently delete this email mask?
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1020,7 +963,6 @@ modal-delete-confirmation-2 = Yes, I want to delete this mask.
 modal-domain-register-good-news = Good News!
 modal-domain-register-warning-reminder-2 = Remember, you can only register one subdomain. You won’t be able to change it later.
 modal-domain-register-button-2 = Register Subdomain
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is available!
@@ -1028,7 +970,6 @@ modal-domain-register-available = { $subdomain } is available!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is available!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $subdomain }
@@ -1036,7 +977,6 @@ modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $subdom
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Yes, I want to register <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Success!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1180,7 +1120,6 @@ toast-button-close-label = Close notification
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = You’ve used all { $free_tier_limit } email masks included with your free account. You can reuse an existing mask, but using a unique mask for each account is the most secure option.
 api-error-free-tier-no-subdomain-masks = Your free account does not include custom subdomains for masks. To create custom masks, upgrade to { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” could not be created. Please try again with a different mask name.
