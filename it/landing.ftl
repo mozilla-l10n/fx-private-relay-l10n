@@ -38,14 +38,17 @@ bundle-feature-three = Una rete sicura e veloce
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Come funzionano gli alias { -brand-name-relay } per numeri di telefono e posta elettronica
 
 # Item 1
 
+how-it-works-section-extension-headline = Utilizza gli alias { -brand-name-relay } per numeri di telefono e posta elettronica ovunque
 how-it-works-section-extension-body = Ottieni alias di posta elettronica sicuri e casuali e un alias univoco per il tuo numero di telefono da utilizzare ogni volta che siti web, app, negozi o ristoranti richiedono le tue informazioni,
 
 # Item 2
 
 how-it-works-section-forward-headline = Ti inoltreremo email, telefonate e SMS
+how-it-works-section-forward-body = Ti garantiamo che i mittenti non conosceranno mai il tuo indirizzo email o il tuo numero di telefono reali. Puoi persino rispondere agli SMS e alle email senza condividere la tua vera identità.
 
 # Item 3
 
@@ -55,6 +58,7 @@ how-it-works-section-manage-body = Accedi alla dashboard di { -brand-name-relay 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Scegli il livello di protezione più adatto a te
+plan-matrix-offer-body = { -brand-name-firefox-relay } protegge la tua identità e la tua casella di posta con alias univoci. Per una sicurezza ancora maggiore, aggiungi gli alias { -brand-name-relay } per numeri di telefono e risparmia il { $savings } aggiungendo anche la protezione { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -73,6 +77,7 @@ plan-matrix-feature-email-masks = Alias di posta elettronica per proteggere il t
 plan-matrix-feature-browser-extension = Estensione del browser per utilizzare { -brand-name-relay } su qualsiasi sito
 plan-matrix-feature-email-tracker-removal = Rimozione elementi traccianti dalle email
 plan-matrix-feature-promo-email-blocking = Blocco delle email pubblicitarie
+plan-matrix-feature-email-subdomain = Dominio { -brand-name-relay } per creare alias di posta elettronica ovunque ti trovi
 plan-matrix-feature-email-reply = Rispondi alle email in modo anonimo
 plan-matrix-feature-list-email-masks-unlimited = Alias di posta elettronica illimitati
 
