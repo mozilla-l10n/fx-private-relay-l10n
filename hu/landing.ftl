@@ -87,6 +87,13 @@ plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
 plan-matrix-feature-mobile-email-masks = E-mail-maszkok
+plan-matrix-feature-mobile-browser-extension = Böngészőkiegészítő
+plan-matrix-feature-mobile-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-feature-mobile-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-feature-mobile-email-subdomain = Egyedi { -brand-name-relay } e-mail-domain
+plan-matrix-feature-mobile-email-reply = Válaszoljon a levelekre névtelenül
+plan-matrix-feature-mobile-phone-mask = Védje valódi telefonszámát
+plan-matrix-feature-mobile-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -98,11 +105,17 @@ plan-matrix-price-free = Ingyenes
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/hó
 plan-matrix-price-period-yearly = Évente
 plan-matrix-price-period-monthly = Havi
+plan-matrix-price-vpn-discount-promo = <span>{ $savings } megtakarítás</span> a szokásos ({ -brand-name-vpn }) árhoz képest
 
 # Plan CTAs
 
+plan-matrix-upgrade = Frissítés
+plan-matrix-get-relay-cta = { -brand-name-relay } beszerzése
 plan-matrix-join-waitlist = Csatlakozás a várólistához
 
 ## REVIEWS SECTION
