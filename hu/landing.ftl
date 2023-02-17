@@ -81,10 +81,12 @@ plan-matrix-feature-promo-email-blocking = Promóciós e-mailek blokkolása
 plan-matrix-feature-email-subdomain = { -brand-name-relay } e-mail-domain maszkok létrehozásához útközben
 plan-matrix-feature-email-reply = Válaszoljon a levelekre névtelenül
 plan-matrix-feature-phone-mask = Telefonmaszk a valódi telefonszámának védelmére
+plan-matrix-feature-vpn = { -brand-name-vpn }-védelem a következőtől: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = E-mail-maszkok
 
 # Plan Details
 
