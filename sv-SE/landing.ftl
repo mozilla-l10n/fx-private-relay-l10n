@@ -110,13 +110,14 @@ plan-matrix-price-free = Gratis
 plan-matrix-price-monthly-calculated = { $monthly_price }/mån.
 plan-matrix-price-period-yearly = Årlig
 plan-matrix-price-period-monthly = Månadsvis
-plan-matrix-price-period-yearly-footnote = Faktureras årligen. Skatt ingår ej.
-plan-matrix-price-period-monthly-footnote = Faktureras månadsvis. Skatt ingår ej.
+plan-matrix-price-period-yearly-footnote-1 = Faktureras årligen
+plan-matrix-price-period-monthly-footnote-1 = Faktureras månadsvis
 plan-matrix-price-vpn-discount-promo = <span>Spara { $savings }</span> på ordinarie { -brand-name-vpn } pris
 
 # Plan CTAs
 
 plan-matrix-upgrade = Uppgradera
+plan-matrix-sign-up = Registrera dig
 plan-matrix-get-relay-cta = Hämta { -brand-name-relay }
 plan-matrix-join-waitlist = Ställ dig i väntelistan
 
