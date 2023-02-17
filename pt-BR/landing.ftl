@@ -92,12 +92,13 @@ plan-matrix-price-free = Gratuito
 plan-matrix-price-monthly-calculated = { $monthly_price }/mês
 plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensalmente
-plan-matrix-price-period-yearly-footnote = Cobrado anualmente. Impostos não incluídos.
-plan-matrix-price-period-monthly-footnote = Cobrado mensalmente. Impostos não incluídos.
+plan-matrix-price-period-yearly-footnote-1 = Cobrado anualmente
+plan-matrix-price-period-monthly-footnote-1 = Cobrado mensalmente
 
 # Plan CTAs
 
 plan-matrix-upgrade = Mudar
+plan-matrix-sign-up = Criar uma conta
 plan-matrix-get-relay-cta = Tenha o { -brand-name-relay }
 plan-matrix-join-waitlist = Entrar na lista de espera
 
@@ -136,6 +137,7 @@ highlighted-features-section-unlimited-masks-headline = Crie máscaras de email 
 
 # Item 3
 
+highlighted-features-section-replying-headline = Responda a emails e mensagens de texto anonimamente
 
 # Item 4
 
