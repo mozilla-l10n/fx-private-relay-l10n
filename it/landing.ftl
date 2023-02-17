@@ -5,25 +5,46 @@
 
 ## HERO SECTION 
 
+hero-section-cta = Inizia
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Offerta a tempo limitato: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } a { $monthly_price } al mese*
+bundle-banner-plan-header-2 = Il tuo piano annuale include:
+bundle-banner-plan-modules-email-masking = Alias di posta elettronica
+bundle-banner-plan-modules-phone-masking = Alias per numeri di telefono
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = Ottieni { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = Garanzia di rimborso di { $days_guarantee } giorni per i nuovi abbonati
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Più di { $num_vpn_servers } server
+bundle-feature-three = Una rete sicura e veloce
 
 ## HOW IT WORKS SECTION 
 
 
 # Item 1
 
+how-it-works-section-extension-body = Ottieni alias di posta elettronica sicuri e casuali e un alias univoco per il tuo numero di telefono da utilizzare ogni volta che siti web, app, negozi o ristoranti richiedono le tue informazioni,
 
 # Item 2
 
+how-it-works-section-forward-headline = Ti inoltreremo email, telefonate e SMS
 
 # Item 3
 
+how-it-works-section-manage-headline = Gestisci i tuoi alias dalla dashboard di { -brand-name-relay }
+how-it-works-section-manage-body = Accedi alla dashboard di { -brand-name-relay } per creare nuovi alias, contrassegnare gli alias già esistenti e bloccare chiamate, SMS o email provenienti per gli alias che ricevono troppo spam.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Scegli il livello di protezione più adatto a te
 
 # Top Row Labels
 
