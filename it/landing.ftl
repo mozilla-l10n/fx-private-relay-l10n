@@ -54,10 +54,16 @@ plan-matrix-heading-features = Funzionalità
 plan-matrix-heading-plan-free = Protezione email limitata
 plan-matrix-heading-plan-premium = Protezione email
 plan-matrix-heading-plan-phones = Protezione email e telefono
+plan-matrix-heading-plan-bundle-2 = Aggiungi la protezione { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Ottieni { -brand-name-relay-premium } e { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Alias di posta elettronica per proteggere il tuo indirizzo email reale
+plan-matrix-feature-browser-extension = Estensione del browser per utilizzare { -brand-name-relay } su qualsiasi sito
+plan-matrix-feature-email-tracker-removal = Rimozione elementi traccianti dalle email
+plan-matrix-feature-promo-email-blocking = Blocco delle email pubblicitarie
+plan-matrix-feature-email-reply = Rispondi alle email in modo anonimo
 plan-matrix-feature-list-email-masks-unlimited = Alias di posta elettronica illimitati
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
