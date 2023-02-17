@@ -64,6 +64,7 @@ plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand
 # Feature Breakdowns
 
 plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
+plan-matrix-feature-browser-extension = کہیں وی سائٹ تے { -brand-name-relay } ورتݨ کیتے ایکسٹنشن براؤز کرو
 plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
 plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
 plan-matrix-feature-email-subdomain = آن دی گو تے ماسک تخلیق کرݨ کیتے { -brand-name-relay } ای میل ڈومین
@@ -97,12 +98,13 @@ plan-matrix-price-free = مفت
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
-plan-matrix-price-period-yearly-footnote = ٻل سالانہ ہوندے۔ ٹیکس وچ شامل کائنی۔
-plan-matrix-price-period-monthly-footnote = ٻل ماہانہ ہوندے۔ ٹیکس وچ شامل کائنی۔
+plan-matrix-price-period-yearly-footnote-1 = ٻل سالانہ ہوندے
+plan-matrix-price-period-monthly-footnote-1 = ٻل ماہانہ ہوندے
 
 # Plan CTAs
 
 plan-matrix-upgrade = اپ گریڈ
+plan-matrix-sign-up = سائن اپ
 plan-matrix-get-relay-cta = { -brand-name-relay } گھنو
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
 
