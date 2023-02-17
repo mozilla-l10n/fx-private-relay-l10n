@@ -140,9 +140,14 @@ landing-review-user-four-review-list-4 = A { -brand-name-firefox-relay } csodák
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Biztonságos, egyszerű funkciók, amelyek segítenek megvédeni személyazonosságát
+highlighted-features-section-bottom-title = Védje személyazonosságát (és postaládáját) a { -brand-name-firefox-relay } segítségével
+highlighted-features-section-bottom-cta = Kezdő lépések
+highlighted-features-section-new-item = Új!
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
 
 # Item 2
 
