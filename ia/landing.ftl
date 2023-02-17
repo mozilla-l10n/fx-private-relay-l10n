@@ -110,13 +110,14 @@ plan-matrix-price-free = Gratuite
 plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Annual
 plan-matrix-price-period-monthly = Mensual
-plan-matrix-price-period-yearly-footnote = Facturate annualmente. Taxa non includite.
-plan-matrix-price-period-monthly-footnote = Facturate mensualmente. Taxa non includite.
+plan-matrix-price-period-yearly-footnote-1 = Facturate annualmente
+plan-matrix-price-period-monthly-footnote-1 = Facturate mensualmente
 plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le precio regular de { -brand-name-vpn }
 
 # Plan CTAs
 
 plan-matrix-upgrade = Promover
+plan-matrix-sign-up = Inscriber se
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Inscriber te al lista de attender
 
