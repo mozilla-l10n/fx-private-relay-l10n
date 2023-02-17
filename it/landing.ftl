@@ -5,6 +5,10 @@
 
 ## HERO SECTION 
 
+hero-section-title = Proteggi la tua identità con alias sicuri per numeri di telefono e posta elettronica
+hero-section-body =
+    I nostri alias per numeri di telefono e posta elettronica, sicuri e facili da usare, aiutano a mantenere la tua identità privata. Ti permettono di creare nuovi account in modo anonimo, bloccare messaggi spam e chiamate indesiderate, e
+    ricevere solamente le email che desideri nella tua casella di posta.
 hero-section-cta = Inizia
 
 ## BUNDLE BANNER SECTION
@@ -12,6 +16,9 @@ hero-section-cta = Inizia
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Offerta a tempo limitato: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } a { $monthly_price } al mese*
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = Con { -brand-name-mozilla-vpn } sei protetto da tentativi di tracciamento e sorveglianza mentre giochi, fai operazioni bancarie online o svolgi il tuo lavoro. Aggiungilo all’acquisto di { -brand-name-firefox-relay } con uno sconto del { $savings }.
 bundle-banner-plan-header-2 = Il tuo piano annuale include:
 bundle-banner-plan-modules-email-masking = Alias di posta elettronica
 bundle-banner-plan-modules-phone-masking = Alias per numeri di telefono
@@ -24,6 +31,9 @@ bundle-banner-money-back-guarantee-2 = Garanzia di rimborso di { $days_guarantee
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Più di { $num_vpn_servers } server
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Più di { $num_vpn_countries } Paesi
 bundle-feature-three = Una rete sicura e veloce
 
 ## HOW IT WORKS SECTION 
