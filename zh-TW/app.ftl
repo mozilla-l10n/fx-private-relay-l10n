@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } 讓您可輕鬆建立轉寄信箱，使用該地址收信後再轉寄回您實際的信箱。可使用轉寄信箱來保護帳號，不受駭客與垃圾信件的騷擾。
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = （用新分頁開啟）
 
@@ -20,7 +20,6 @@ nav-email-dashboard = 轉寄信箱
 nav-phone-dashboard = 虛擬手機號碼轉接
 label-open-menu = 開啟選單
 avatar-tooltip = 個人資料
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = 常見問題
 nav-profile-sign-in = 登入
@@ -56,7 +55,6 @@ nav-support = 說明與技術支援
 nav-sign-out = 登出
 nav-contact = 聯絡我們
 nav-menu-mobile = 行動選單
-
 fx-desktop-2 = { -brand-name-firefox } 桌面版
 fx-mobile-2 = { -brand-name-firefox } 行動版
 
@@ -82,9 +80,7 @@ whatsnew-tab-archive-label = 歷史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 了解更多
-
 whatsnew-empty-message = 請三不五時回來這邊看看 — 我們會持續開發新功能，讓 { -brand-name-relay } 變得更好。
-
 whatsnew-feature-size-limit-heading = 接受的附件大小增加了
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -94,19 +90,16 @@ whatsnew-feature-size-limit-description = 現在起，{ -brand-name-firefox-rela
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含…
 whatsnew-feature-size-limit-description-var = 現在起，{ -brand-name-firefox-relay } 的郵件轉寄大小上限增加到 { email-size-limit }（包含附件）
-
 whatsnew-feature-sign-back-in-heading = 使用您的別名信箱登入網站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = 當網站要求您輸入信箱時，請開啟…
 whatsnew-feature-sign-back-in-description = 要使用先前建立的別名信箱登入網站，請在網站的信箱輸入框當中點擊右鍵選單，然後就可以選擇別名信箱並且自動填入。
-
 whatsnew-feature-forward-some-heading = 封鎖行銷郵件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 讓您可以只封鎖行銷郵件，但還是會轉寄別名信箱收到的收據、發票等重要郵件。
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 現在起，「別名信箱」更名為「轉寄信箱」了
@@ -118,14 +111,12 @@ whatsnew-feature-alias-to-mask-snippet = 注意到變化了嗎？現在起，我
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = 注意到變化了嗎？現在起，我們將「別名信箱」改稱為「轉寄信箱」來簡化 { -brand-name-firefox-relay }，並且讓新功能更容易上手。
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已於瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已於芬蘭推出
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立刻升級，獲得更多保護…
 whatsnew-feature-premium-expansion-description = 立刻升級，獲得更多保護 — 建立無限量的轉寄信箱、設定自訂郵件子網域，還有更多功能！
-
 whatsnew-feature-tracker-removal-heading = 推出郵件追蹤器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -133,7 +124,6 @@ whatsnew-feature-tracker-removal-snippet = 現在起，{ -brand-name-relay } 可
 # Deprecated
 whatsnew-feature-tracker-removal-description = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。
 whatsnew-feature-tracker-removal-description-2 = 現在起，{ -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被廣告商追蹤。可到「設定」頁面中開啟。
-
 whatsnew-feature-offer-countdown-heading = 上市優惠價即將結束！
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -144,7 +134,6 @@ whatsnew-feature-offer-countdown-snippet = 於 { $end_date } 前下載 { -brand-
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
 whatsnew-feature-offer-countdown-cta = 立刻升級
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-firefox } 密碼管理員中已推出 { -brand-name-relay }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -183,11 +172,11 @@ hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪�
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = 保護您實際的電子郵件地址，並且自行控管收件匣
 landing-hero-body-2 = { -brand-name-firefox-relay } 轉寄信箱會自動轉寄郵件到您實際的電子郵件信箱，並保護該信箱使地址不被公開。現在起，您可以只接收想要的郵件。使用您的 { -brand-name-firefox-account } 註冊即可開始使用。
-
 landing-offer-end-hero-heading = 上市優惠價即將結束！
 landing-offer-end-hero-cta = 立刻升級
 # Variables:
@@ -230,7 +219,6 @@ landing-pricing-free-cta = 下載 { -brand-name-relay }
 landing-pricing-free-ribbon = 已經推出！
 # Deprecated
 landing-pricing-free-feature-free = 免費
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -252,12 +240,10 @@ landing-pricing-premium-feature-4 = 回覆轉發的電子郵件
 landing-pricing-premium-feature-5 = 封鎖行銷郵件
 # Deprecated
 landing-pricing-premium-feature-6 = 刪除電子郵件追蹤器
-
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } 在尚未在您的國家推出，可以在下方登記，推出時我們就會通知您。
 # Deprecated
 landing-pricing-waitlist-cta = 加入排隊名單
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -270,7 +256,6 @@ landing-pricing-offer-end-cta = 立刻升級
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -324,11 +309,9 @@ landing-use-cases-access-content = 開啟網站內容
 landing-use-cases-access-content-body-2 = 想要訂閱某份電子報，但不確定寄件者可不可靠？請使用轉寄信箱訂閱。當您會從該信箱收到不想要的郵件時，就代表寄件者可能已經把您的地址賣給其他廣告商，或是名單已遭外流。只要關閉或刪除轉寄信箱，即可保護您的收件匣。
 landing-use-cases-gaming = 玩遊戲
 landing-use-cases-gaming-body-2 = 愛玩線上遊戲，但擔心其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
-
 landing-use-cases-shopping-hero-heading = 使用轉寄信箱網購
 landing-use-cases-shopping-hero-content1 = 想要在網路上網購，但不是熟悉的店家或無法完全信任這家商店嗎？
 landing-use-cases-shopping-hero-content2 = 在線上購物時使用轉寄信箱消費。可將訂單信轉寄到您的實際信箱並稍後再隨時關閉轉寄。
-
 landing-use-cases-on-the-go = 移動中
 landing-use-cases-on-the-go-heading = 隨時隨地使用 { -brand-name-relay }
 landing-use-cases-on-the-go-lead = 隨時隨地建立自訂的轉寄郵件信箱！
@@ -338,7 +321,6 @@ landing-use-cases-on-the-go-receipt-heading = 接收電子收據信
 landing-use-cases-on-the-go-receipt-body = 將自訂轉寄信箱提供給店家寄送消費收據給您，而無須提供實際信箱
 landing-use-cases-on-the-go-phone-heading = 在手機上使用
 landing-use-cases-on-the-go-phone-body = 不論您在哪裡，只要花幾秒就可以建立自訂轉寄信箱來滿足您的任何需求
-
 landing-use-cases-signups = 註冊
 landing-use-cases-signups-hero-heading = 註冊帳號免煩惱
 landing-use-cases-signups-hero-content1 = 想要開始新訂閱、回覆邀請函或接收折扣碼，但又不想要收到一堆垃圾信嗎？
@@ -354,17 +336,14 @@ premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 透過 { -brand-name-firefox-relay-premium }，您可以獲得無限的自訂轉寄信箱，只將您想要轉寄的郵件轉到您的實際電子郵件信箱。
 premium-promo-hero-cta = 立刻升級
-
 premium-promo-offer-end-hero-heading = 上市優惠價即將結束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 premium-promo-offer-end-hero-cta = 立刻升級
-
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
-
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
@@ -380,7 +359,6 @@ premium-promo-perks-perk-block-promotionals-headline = 封鎖行銷郵件
 premium-promo-perks-perk-block-promotionals-body = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除郵件追蹤器
 premium-promo-perks-perk-tracker-blocking-body = 現在起，{ -brand-name-relay } 可幫助您防止透過電子郵件被追蹤 — 轉寄信箱將自動從轉寄給您的信件中移除常見的追蹤器，幫助您確保對追蹤器與廣告商保持隱形。
-
 premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
 premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
@@ -388,9 +366,7 @@ premium-promo-use-cases-social-networks-heading = 社群網路
 premium-promo-use-cases-social-networks-body-2 = 想要在使用社群網路時更加保護您的線上身分嗎？可使用不同的轉寄信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
 premium-promo-use-cases-gaming-heading = 玩遊戲
 premium-promo-use-cases-gaming-body-2 = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
-
 premium-promo-pricing-free-price = 您目前的免費方案
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
@@ -477,16 +453,13 @@ setting-tracker-removal-warning-2 = 重要：移除追蹤器可能會造成郵�
 ## FAQ Page
 
 faq-headline = 常見問題
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = { -brand-name-relay } 轉寄信箱是什麼？
 faq-question-what-is-answer-2 = 轉寄信箱就是會將收到的郵件轉寄到您的實際信箱的虛擬信箱。您可以將這些別名分享給第三方業者，使他們無法知道您的實際信箱，但還是能夠收到通知郵件。
-
 faq-question-missing-emails-question-2 = 我沒有收到從轉寄信箱轉來的郵件
 faq-question-missing-emails-answer-a-2 = 下列原因可能會造成信件無法轉寄給您：
 faq-question-missing-emails-answer-reason-spam = 訊息掉進垃圾信件匣
@@ -501,60 +474,47 @@ faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premiu
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
-
 faq-question-use-cases-question-2 = 什麼時候該用 { -brand-name-relay } 的虛擬信箱來轉寄郵件？
 faq-question-use-cases-answer-part1-2 = 您可以在大部分要以實際信箱的地方使用 { -brand-name-relay } 轉寄信箱。我們建議您在訂閱電子報，或接收不重要的通知郵件時使用，這樣未來就可以自己決定要不要再收到此類郵件。
 faq-question-use-cases-answer-part2-2 = 我們不建議您使用轉寄信箱來註冊需要用來驗證身分、重要郵件，或是會收到附件的服務。舉例來說，您可能要向銀行、醫院、律師，或是在收門票、機票等服務使用實際信箱。
-
 faq-question-2-question-2 = 為什麼網站不接受我的 { -brand-name-relay } 轉寄信箱？
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = 某些網站可能不接受使用子網域（@subdomain.mozmail.com）的電子郵件信箱，也有一些已經拒絕接收來自 Gmail、Hotmail 或 Yahoo 等大型業者以外的帳號。
-
 faq-question-1-question = 那垃圾信呢？
 faq-question-1-answer-a-2 = { -brand-name-relay } 本身不會過濾垃圾信，但我們的合作夥伴 Amazon SES 還是會封鎖垃圾信跟包含惡意軟體的郵件。若 { -brand-name-relay } 轉發了您不想收到的郵件，可以調整 { -brand-name-relay } 選項，不讓該虛擬信箱繼續轉寄。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = 若您發現更嚴重的問題，例如您所有的轉寄信箱都開始轉寄不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
-
 faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
 faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
 faq-question-availability-answer-v2 = 大部分國家均可使用 { -brand-name-relay } 免費版，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、芬蘭、法國、比利時、奧地利、西班牙、義大利、瑞典、瑞士、荷蘭、愛爾蘭等地推出。
 faq-question-availability-answer-v3 = { -brand-name-relay } 免費版在大多數國家皆能使用。{ -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
-
+faq-question-landing-page-availability = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 郵件轉寄信箱已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。{ -brand-name-relay-premium } 虛擬電話轉接功能則已在美國與加拿大推出。
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 轉寄信箱回信嗎？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
-
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
 faq-question-subdomain-characters-answer-v2 = 您僅可使用小寫英文字母、數字、連字號（-）來建立子網域。
-
 faq-question-browser-support-question = 我可以在其他瀏覽器或行動裝置使用 { -brand-name-relay } 嗎？
 faq-question-browser-support-answer-2 = 可以，您只要登入 { -brand-name-relay } 儀錶板，即可在其他瀏覽器或行動裝置上產生 { -brand-name-relay } 轉寄信箱。
-
 faq-question-longevity-question = ⁨Mozilla⁩ 結束 { -brand-name-firefox-relay } 服務的話要怎麼辦？
 faq-question-longevity-answer-2 = 我們會提前通知您，讓您可到使用 { -brand-name-relay } 轉寄信箱的服務更改登記的信箱。
-
 faq-question-mozmail-question-2 = 為什麼我產生的轉寄信箱開始使用「mozmail.com」網域？
 faq-question-mozmail-answer-2 = 為了讓您可以自訂郵件子網域，我們將別名網域從「relay.firefox.com」更改為「mozmail.com」，例如 mask@yourdomain.mozmail.com。自訂郵件網域功能僅提供給 { -brand-name-relay-premium } 訂閱者，讓您可產生更好記的轉寄信箱。
-
 faq-question-attachments-question = { -brand-name-firefox-relay } 會轉寄含有附件的郵件嗎？
 faq-question-attachments-answer-v2 = 我們現在也支援附件轉寄功能，但 { -brand-name-relay } 有郵件大小限制。{ -brand-name-relay } 不會轉寄超過 { email-size-limit } 的郵件。
-
 faq-question-unsubscribe-domain-question-2 = 如果我取消訂閱 { -brand-name-relay-premium }，我的自訂子網域會發生什麼事？
 faq-question-unsubscribe-domain-answer-2 = 若您從 { -brand-name-relay-premium } 降級回免費版，還是會收到透過自訂轉寄信箱轉寄的郵件，但無法再使用該子網域來建立新轉寄信箱。若您已有超過五組轉寄信箱，將無法再建立新的轉寄信箱。您也將無法再直接回覆收到的轉寄郵件。再次訂閱 { -brand-name-relay-premium } 即可重新獲得這些功能。
-
 faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些轉寄信箱標籤的資訊（非必要），讓我們為您提供並改善服務。
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } 會收集您曾在哪些網站使用過轉寄信箱的紀錄，並幫信箱加上標籤，讓您可輕鬆確認名稱。您可以在「設定」頁面中的「隱私權」關閉此功能，但請注意：關閉此功能後就無法再看到您曾於哪些網站使用過每轉寄信箱了，且帳號名稱也不會再於裝置間同步。您可以在我們的<a href="{ $url }" { $attrs }>隱私權公告</a>頁面了解 { -brand-name-firefox-relay } 會收集哪些資料。
-
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
-
 faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合理用途？
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -565,12 +525,10 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天內可產�
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = 若需更多資訊，請閱讀我們的<a href="{ $url }" { $attrs }>服務條款</a>。
-
 faq-question-promotional-email-blocking-question = 行銷郵件封鎖功能是什麼？
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } 訂閱者可開啟行銷郵件封鎖功能。此功能將會把消費收據、密碼重設信、確認信件等重要信件轉寄給您，但會封鎖所有行銷郵件。還是有些微的可能誤擋到重要郵件，所以我們建議您不要對重要的服務（例如銀行）開啟此功能。若郵件遭到封鎖，將無法救回。
 faq-question-detect-promotional-question = { -brand-name-relay } 如何偵測一封信是不是行銷郵件？
 faq-question-detect-promotional-answer = 許多郵件的標頭上會記載該郵件是使用自動化工具所產生的郵件清單所寄出。{ -brand-name-firefox-relay } 會偵測此標頭資料，並且加以阻擋封鎖。
-
 faq-question-disable-trackerremoval-question = 我可以不收到郵件追蹤器嗎？
 faq-question-disable-trackerremoval-answer = 可以。如果您發現收到的郵件內容異常，或者希望不再移除郵件中的追蹤器，可以到設定當中關閉此功能。
 faq-question-bulk-trackerremoval-question = 我可以只刪除部分轉寄信箱收到的追蹤器嗎？
@@ -614,18 +572,14 @@ profile-label-reset = 重設
 profile-label-apply = 套用
 profile-label-skip = 略過
 profile-label-continue = 繼續
-
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
-
 # This string is followed by date
 profile-label-first-emailed = 首次寄信於：
-
 # This string is followed by date:
 profile-label-created = 建立於：
 profile-label-details-show = 顯示細節
 profile-label-details-hide = 隱藏細節
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = 轉寄中
 profile-label-blocking = 封鎖中
@@ -704,9 +658,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = 關閉
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = 知道了！
-
 banner-bounced-headline = { -brand-name-relay } 無法發送您的郵件。
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -750,36 +702,30 @@ banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 可透過無�
 footer-banner-premium-promo-headine = 升級到 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可保護您的手機門號<i>與</i>信箱
 footer-banner-premium-promo-body = 獲得手機轉接門號、無限量郵件轉寄信箱，以及能讓您更快建立轉寄信箱的自訂電子郵件地址功能。
 banner-pack-upgrade-cta = 立刻升級
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隱私權公告更新
 banner-label-privacy-notice-update-body = 為了加強 { -brand-name-firefox-relay } 的可靠度，降低郵件轉寄失敗的機會，我們將在伺服器上暫存收到的郵件，直到信件成功寄出為止。這個保存時間不會超過三天。
 banner-label-privacy-notice-update-cta = 檢視隱私權公告
-
 # Data Notification Banner:
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
 banner-label-data-notification-cta = 開啟設定
 banner-label-data-notification-header-v2 = 開啟全新功能
 banner-label-data-notification-body-cta = 了解更多
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = 保護您的隱私，拯救網際網路
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = 在保護您隱私的同時加入我們的使命，一同打造更好的網路環境，全部只需每月 { $monthly_price }
 banner-upgrade-loyalist-cta = 獲得更多保護
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = 上市優惠價即將結束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
 banner-offer-end-cta = 立刻升級
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = 不再收到垃圾信、自動答錄電話、垃圾簡訊
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 可提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱。
@@ -907,7 +853,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = 產生無限量轉寄
 multi-part-onboarding-premium-welcome-button-start = 開始使用
 multi-part-onboarding-premium-get-subdomain = 獲得自訂子網域
 multi-part-onboarding-reply-headline = 回覆郵件
-
 multi-part-onboarding-premium-welcome-description-2 = 不再只能設定五組信箱：您可以無限量隨意產生自訂或隨機轉寄信箱。在桌機上，還可以使用 { -brand-name-relay } 的附加元件隨時建立轉寄信箱。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -968,8 +913,6 @@ trackerreport-load-error = 產生您的追蹤器移除報告時發生錯誤，�
 
 modal-rename-alias-saved = 已儲存標籤！
 modal-delete-headline-2 = 確定要永久刪除這組轉寄信箱嗎？
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = 刪除此轉寄信箱後就無法再復原。{ -brand-name-firefox-relay } 將不再轉寄郵件到 <strong>{ $email }</strong>（包含讓您可重設密碼的信件）。
@@ -979,7 +922,6 @@ modal-delete-confirmation-2 = 是的，我確定要刪除這組轉寄信箱。
 modal-domain-register-good-news = 好消息！
 modal-domain-register-warning-reminder-2 = 您只可註冊一個子網域，之後不能再更改。
 modal-domain-register-button-2 = 註冊子網域
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = 可以註冊 { $subdomain }！
@@ -987,7 +929,6 @@ modal-domain-register-available = 可以註冊 { $subdomain }！
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可以使用！
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
@@ -995,7 +936,6 @@ modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 對，我想註冊 <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = 成功！
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1139,7 +1079,6 @@ toast-button-close-label = 關閉通知
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立獨立的轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
