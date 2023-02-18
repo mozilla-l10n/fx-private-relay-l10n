@@ -70,6 +70,7 @@ plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک
 plan-matrix-feature-email-subdomain = آن دی گو تے ماسک تخلیق کرݨ کیتے { -brand-name-relay } ای میل ڈومین
 plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
 plan-matrix-feature-phone-mask = تہاݙے اصلی فون نمبر دی حفاظت کیتے فون ماسک
+plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> کنوں { -brand-name-vpn } حفاظت
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -100,6 +101,7 @@ plan-matrix-price-period-yearly = سالانہ
 plan-matrix-price-period-monthly = ماہانہ
 plan-matrix-price-period-yearly-footnote-1 = ٻل سالانہ ہوندے
 plan-matrix-price-period-monthly-footnote-1 = ٻل ماہانہ ہوندے
+plan-matrix-price-vpn-discount-promo = ریگولر { -brand-name-vpn } قیمت تے <span>{ $savings } بچت کرو</span>
 
 # Plan CTAs
 
