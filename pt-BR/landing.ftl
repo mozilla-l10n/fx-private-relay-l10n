@@ -145,6 +145,8 @@ highlighted-features-section-block-promotions-headline = Bloqueio de emails prom
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Remova rastreadores de email
+highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores comuns de todos os emails encaminhados a você, te ajudando a ficar invisível para rastreadores e anunciantes.
 
 ## FAQ SECTION
 
