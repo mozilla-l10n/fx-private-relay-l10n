@@ -490,7 +490,7 @@ faq-question-2-question-2 = 为什么某些网站不能使用 { -brand-name-rela
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = 有些网站可能不接受包含子域（如 @subdomain.mozmail.com）的邮箱地址，而有些网站已停止接受除 Gmail、Hotmail 和 Yahoo 外的所有电子邮件地址。
-faq-question-1-question = 那垃圾邮件呢？
+faq-question-1-question = 怎么处理垃圾邮件？
 faq-question-1-answer-a-2 = 虽然 { -brand-name-relay } 本身不会过滤垃圾邮件，但我们的合作伙伴 Amazon SES 能够拦截垃圾邮件和包含恶意软件的邮件。若 { -brand-name-relay } 转发了您不想收到的邮件，可以调整 { -brand-name-relay } 设置，不允许该马甲继续转发。
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -506,7 +506,7 @@ faq-question-subdomain-characters-question = 我可以使用哪些字符创建�
 faq-question-subdomain-characters-answer-v2 = 您只能使用小写英文字母、数字、连字符（-）来创建子域名。
 faq-question-browser-support-question = 我可以在其他浏览器或移动设备上使用 { -brand-name-relay } 吗？
 faq-question-browser-support-answer-2 = 可以，登录 { -brand-name-relay } 面板即可在其他浏览器或移动设备上生成 { -brand-name-relay } 马甲。
-faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话要怎么办？
+faq-question-longevity-question = Mozilla 关闭 { -brand-name-firefox-relay } 服务的话怎么办？
 faq-question-longevity-answer-2 = 我们会提前通知您，您需要到所有使用 { -brand-name-relay } 马甲邮箱的网站完成换绑。
 faq-question-mozmail-question-2 = 为何我的马甲域名变成“mozmail.com”了？
 faq-question-mozmail-answer-2 = 之所以从“relay.firefox.com”切换到“mozmail.com”，是为了自定义邮箱子域名这一特性，如 mask@yourdomain.mozmail.com。{ -brand-name-relay-premium } 订阅者可使用自定义子域名生成更好记的马甲。
@@ -598,7 +598,7 @@ profile-label-blocked = 拦截
 profile-label-forwarded = 转发
 profile-label-replies = 回复
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
-profile-label-trackers-removed = 跟踪器已移除
+profile-label-trackers-removed = 移除的跟踪器
 profile-trackers-removed-tooltip-part1 = 启用跟踪器删除后，将从您转发的电子邮件中删除常见的电子邮件跟踪器。
 # Deprecated
 profile-trackers-removed-tooltip-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
@@ -616,7 +616,7 @@ profile-stat-label-blocked = 封邮件已拦截
 profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
-profile-stat-label-trackers-removed = 个跟踪器已移除
+profile-stat-label-trackers-removed = 移除的跟踪器
 profile-stat-label-trackers-learn-more-part1 = 启用“删除跟踪器”功能，邮件跟踪器将从转发给您的邮件中被移除。
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。
