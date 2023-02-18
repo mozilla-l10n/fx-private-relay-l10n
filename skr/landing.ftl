@@ -152,6 +152,9 @@ highlighted-features-section-replying-headline = گمنام دے طور تے ا�
 # Item 4
 
 highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
+highlighted-features-section-block-promotions-body =
+    { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو 
+    جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
 
 # Item 5
 

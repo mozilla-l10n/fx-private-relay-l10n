@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } تہاݙے اصلی ان باکس وچ تہاݙے سنیہے بھیڄݨ واسطے ہک ای میل دا ماسک بنݨیندا ہے۔ آپݨے انلائن کھاتے کوں ہیکر تے غیر ضروری سنہیے کولوں بچاون کیتے انہاں کوں استعمال کرو۔
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = ای میل ماسکس
 nav-phone-dashboard = فون ماسکس
 label-open-menu = مینیو کھولو
 avatar-tooltip = پروفائل
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = عمومی سوالات
 nav-profile-sign-in = سائن ان
@@ -56,7 +55,6 @@ nav-support = مدد تے سہارا
 nav-sign-out = سائن آؤٹ
 nav-contact = ساݙے نال رابطہ کرو
 nav-menu-mobile = موبائل مینیو
-
 fx-desktop-2 = ڈیسک ٹاپ کیتے { -brand-name-firefox }
 fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
@@ -83,9 +81,7 @@ whatsnew-tab-archive-label = تاریخ
 whatsnew-footer-clear-all-label = سارے صاف کرو
 whatsnew-footer-back-label = پچھوں
 whatsnew-footer-learn-more-label = ٻیا سِکھو
-
 whatsnew-empty-message = اتھ ولدا واپس چیک کرݨ یقینی بݨاؤ — اساں  ہمیشاں نویاں خصوصیات تے کم کریندے ہاں تاں جو { -brand-name-relay } بیا چنگا بݨے۔
-
 whatsnew-feature-size-limit-heading = نتھی سائز ودھارا
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -95,19 +91,16 @@ whatsnew-feature-size-limit-description = ہݨ { -brand-name-firefox-relay } ٢�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول ۔۔۔
 whatsnew-feature-size-limit-description-var = ہݨ { -brand-name-firefox-relay }  { email-size-limit } تائیں ای میلاں اڳوں تے پٹھ سڳدے، بشمول نتھیاں۔
-
 whatsnew-feature-sign-back-in-heading = آپݨے عرفی نان٘واں نال ولدا سائن ان تھیوو
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = نواں عرفی ناں خلقݨ کیتے، ڄڈݨ تہاݙے کولوں ای میل دا پُچھیجے تاں، کھولو۔۔۔
 whatsnew-feature-sign-back-in-description = پچھلے استعمال شدہ عرفی ناواں نال سائن ان تھیوݨ واسطے ،منیو کھولو جتھاں سائٹ تہاݙی ای میل پچھسی۔ تساں عرفی ناں چݨݨ تے ای میل  خانے کوں خودبخود بھرݨ دے قابل ہوسو۔
-
 whatsnew-feature-forward-some-heading = مشہوری ای میل بلاک کرݨ
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } تہاکوں صرف پروموشنل ای میلاں بلاک کرݨ دی اجازت ݙینیدی ہے۔۔۔
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } تہاکوں صرف پروموشنل ای میلز کوں بلاک کرݨ دی اجازت ݙیندا ہے جیڑھی عرف کوںبھیڄی ویندی ہے۔ تہاکوں رسیداں جیہاں ای میلز وصول تھیسن لیکن مارکیٹنگ ای میلز کائنا۔
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = عرفی ناں ہݨ ماسک ہن۔
@@ -119,14 +112,12 @@ whatsnew-feature-alias-to-mask-snippet = ہک تبدیلی ݙیکھدو؟ ہݨ �
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = ہک تبدیلی ݙیکھدو؟ ہݨ اساں { -brand-name-firefox-relay } کوں استعمال وِچ آسان بݨاوݨ تے نویں خصوصیت کیتے دروازہ کھولݨ کیتے عرفی نام کو "ماسک" آہدے پئے ہیں۔
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } سویڈن وچ دستیاب ہے
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } فن لینڈ وچ دستیاب ہے
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = ہݨ اپ گریڈ کرو تے ٻئی ودھ حفاظت گھنو۔۔۔
 whatsnew-feature-premium-expansion-description = ہݨ اپ گریڈ کرو  تے ودھیک تحفظ حاصل کرو ۔۔ لامحدود ای میل ماسک بݨاؤ، حسب ضرورت ای میل ذیلی ڈومین حاصل کرو، تے ٻہوں کجھ!
-
 whatsnew-feature-tracker-removal-heading = ای میل ٹریکر ہٹاوݨ دا تعارف
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -134,7 +125,6 @@ whatsnew-feature-tracker-removal-snippet = ہݨ { -brand-name-relay } عام ا�
 # Deprecated
 whatsnew-feature-tracker-removal-description = ہݨ { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ای میلاں وچوں مٹا سڳدا ہے، تہاکوں مشہوری کرݨ آلے لوگاں تو لکاوݨ سانگے۔
 whatsnew-feature-tracker-removal-description-2 = ہݨ { -brand-name-relay } تہاکوں بھیڄے ڳئے ای میلز کنوں عام ای میل ٹریکرز کوں ہٹا سڳدا ہے، جیندے نال تہاکوں اشتہار ݙیوݨ والیاں کنوں لُکت اِچ رہݨ وِچ مدد ملدی ہے۔ اینکوں "ترتیب" وِچ آن کرو۔
-
 whatsnew-feature-offer-countdown-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -145,7 +135,6 @@ whatsnew-feature-offer-countdown-snippet = { $end_date } توں پہلے { -bran
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو  تے اساݙی تعارفی ماہانہ قیمت تے لامحدود ماسکنگ دا لطف چاوو۔
 whatsnew-feature-offer-countdown-cta = ہݨ اپ گریڈ کرو
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ہݨ { -brand-name-firefox } پاس ورڈ مینیجر وِچ دستیاب ہے
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
@@ -187,13 +176,13 @@ hero-image-copy-control-html = جہڑا کجھ تہاݙے انباکس وچ آن
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = آپݨے انباکس کنٹرول کرݨ دی مدد کیتے آپݨے اصلی ای میل پتے دی حفاظت کرو
 landing-hero-body-2 =
     { -brand-name-firefox-relay } ای میل ماسک تہاݙے حقیقی ای میل ایڈریس کوں عوامی نظر کنوں بچیندے ہن، سنیہاں کوں آپوں ڄاݨ تہاݙے حقیقی ان باکس وِچ اڳوں تے بھیڄ ݙیندے ہن۔
     ہݨ تساں اپݨے ان باکس وِچ صرف اوہے سنیہے وصول کر سڳدے او جیڑھے تساں چاہندے او۔ شروع کرݨ کیتے اپݨے { -brand-name-firefox-account } دے نال سائن اپ کرو۔
-
 landing-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 landing-offer-end-hero-cta = ہݨ اپ گریڈ کرو
 # Variables:
@@ -244,7 +233,6 @@ landing-pricing-free-cta = { -brand-name-relay } گھنو
 landing-pricing-free-ribbon = ہݨ دستیاب ہے!
 # Deprecated
 landing-pricing-free-feature-free = مفت
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -266,12 +254,10 @@ landing-pricing-premium-feature-4 = پٹھیاں ہوئیاں ای میلاں د
 landing-pricing-premium-feature-5 = مشہوری ای میلاں بلاک کرو
 # Deprecated
 landing-pricing-premium-feature-6 = ای میل ٹریکر ہٹاوݨ
-
 # Deprecated
 landing-pricing-waitlist-description = { -brand-name-firefox-relay-premium } تُہاݙے ملک وچ دستیاب کائنی۔ مہربانی کر تے آپݨی ای میل شیئر کرو تا کہ تُہاکوں ایہ  دستیاب تھیوݨ تے ݙسایا ون٘ڄے۔
 # Deprecated
 landing-pricing-waitlist-cta = تانگھ تندیر نال رلت کرو
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -284,7 +270,6 @@ landing-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -350,11 +335,9 @@ landing-use-cases-gaming = کھیݙݨ
 landing-use-cases-gaming-body-2 =
     آن لائن گیمنگ کنوں لطف اندوز تھیوو، لیکن اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا بدمعاشاں ایہ ڄاݨݨ کیتے پریشان ہن جو تساں کون او؟
     اپݨی آن لائن سنڄاݨ تے جیڑھیاں گیماں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے ای میل ماسک دا استعمال کرو۔
-
 landing-use-cases-shopping-hero-heading = ای میل ماسکاں نال خریداری کرݨ
 landing-use-cases-shopping-hero-content1 = بھلا آنلائن کوئی شئے خریدݨ چاہندے ہو تے دکان کوں نِہوے جاݨدے یا پورا بھروسہ نِہوے کریندے ؟
 landing-use-cases-shopping-hero-content2 = جݙاں وی تساں آن لائن خریداری کرو تاں ای میل ماسک دا استعمال کرو۔ اپݨے اصلی ای میل تے بھیڄی ڳئی تصدیق حاصل کرو تے ول بعد وِچ کہیں وی وقت آسانی نال ماسک کوں بند کر ݙیوو۔
-
 landing-use-cases-on-the-go = گو تے
 landing-use-cases-on-the-go-heading = { -brand-name-relay } نال گو تے
 landing-use-cases-on-the-go-lead = کہیں وی جاء تے  یا ہر ہک جاء تے تساں ویندے ہو فورن ہک کسٹم ای میل ماسک بݨاؤ!
@@ -364,7 +347,6 @@ landing-use-cases-on-the-go-receipt-heading = ای میل رسیداں گھنو
 landing-use-cases-on-the-go-receipt-body = آپݨاں اصلی ناں شیئر کیتے بغیر ان سٹور خریداری رسیداں کیتے مخصوص ای میل ماسک شیئر کرو
 landing-use-cases-on-the-go-phone-heading = آپݨے فون تے ورتو
 landing-use-cases-on-the-go-phone-body = سائن اپ
-
 landing-use-cases-signups = سائن اپس
 landing-use-cases-signups-hero-heading = بے فکرے سائن اپ
 landing-use-cases-signups-hero-content1 = ہک نویں سبسکرپشن شروع کرݨ چاہندے او، دعوت نامہ دا جواب ݙیوݨ چاہندے او، یا تہاݙے ان باکس وِچ سپیم دے سیلاب دے بغیر سودے بازی دا پرومو کوڈ حاصل کرݨ چاہندے او؟
@@ -380,17 +362,14 @@ premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } دے نا
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
-
 premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
-
 premium-promo-availability-warning = { -brand-name-relay-premium } فی الحال آسٹریا، بیلجیم، کینیڈا، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، نیدرلینڈز، نیوزی لینڈ، سنگاپور، اسپین، سوئٹزرلینڈ، برطانیہ تے امریکہ وِچ دستیاب ہے۔
 premium-promo-availability-warning-2 = { -brand-name-relay-premium }  فی الحال آسٹریا، بیلجیم، کینیڈا، فن لینڈ، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، ہالینڈ، نیوزی لینڈ، سنگاپور، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے امریکہ وِچ دستیاب ہے۔
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } آسٹریا، بیلجیم، کنیڈا، قبرص، اسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلے، لیٹیویا، لیتھونیا، لیکسم برگ، ملائشیاء، مالٹا، نیدرلینڈ، نیوزی لینڈ، پتگال، سنگاپور، سلاویکیا، سلاونیا، سپین، سویڈن، برطانیہ تے امریکہ وچ دستیاب ہے۔
-
 premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں { -brand-name-relay } دا تمام ان باکس تحفظ تے انتظام ملدا ہے، لیکن لامحدود ای میل ماسک تے تہاݙے اپݨے حسب ضرورت ذیلی ڈومین دے نال تہاݙے ان باکس دا نظم و نسق ٻیا وی آسان تھی ویندا ہے۔
 premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
@@ -406,7 +385,6 @@ premium-promo-perks-perk-block-promotionals-headline = مشہوری ای میل�
 premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
 premium-promo-perks-perk-tracker-blocking-headline = سارے ای میل ٹریکر ہٹاؤ
 premium-promo-perks-perk-tracker-blocking-body = ہݨ { -brand-name-relay } ای میل ٹریکنگ کوں روکݨ وِچ تہاݙی مدد کر سڳدا ہے — تہاݙے ای میل ماسک تہاکوں بھیڄے ڳئے کہیں وی ای میل کنوں عام ای میل ٹریکرز کوں ہٹا ݙیسن، جیندے نال تہاکوں ٹریکرز تے مشتہرین کیتے اوڈھر رہݨ وِچ مدد ملسے۔
-
 premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
 premium-promo-use-cases-shopping-heading = خریداری
 premium-promo-use-cases-shopping-body-2 = سبھے سپیم دے بغیر رعایت کیتے سائن اپ کرݨ دی کوشش کریندے پئے ہن؟ اپݨے تمام "شاپنگ" اکاؤنٹس کوں حسب ضرورت ای میل ماسک دے تحت بنڈل کرو، جیویں mydeals@mydomain.mozmail.com۔
@@ -414,9 +392,7 @@ premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
 premium-promo-use-cases-social-networks-body-2 = سوشل نیٹ ورک استعمال کریندے ویلھے اپݨی آن لائن سنڄاݨ دی بہتر حفاظت کرݨ چاہندے او؟ ہر سوشل نیٹ ورک وِچ لاگ ان کرݨ کیتے ہک مختلف ای میل ماسک دا استعمال کرو تے اپݨے حقیقی ای میل کوں انہاں سائٹاں دے سامݨے آوݨ کنوں بچاوݨ وِچ مدد کرو۔
 premium-promo-use-cases-gaming-heading = کھیݙݨ
 premium-promo-use-cases-gaming-body-2 = اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا ٹرول سیکھݨ دے بارے وِچ فکر مند ہو جو تساں کون او؟ اپݨی سنجاݨ تے جیڑھیاں کھیݙاں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے onlinegame@mydomain.mozmail.com جیہاں ماسک استعمال کرو۔
-
 premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
@@ -503,16 +479,13 @@ setting-tracker-removal-warning-2 = اہم: ٹریکرز کوں ہٹاوݨ نا�
 ## FAQ Page
 
 faq-headline = اکثر پچھے ون٘ڄݨ آلے سوالات
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = { -brand-name-relay } ای میل ماسک کیا ہے؟
 faq-question-what-is-answer-2 = ای میل ماسک نقاب پوش، یا پرائیویٹ، ای میل پتے ہن جیڑھے سنیہاں کوں تہاݙے حقیقی ای میل ایڈریس تے فارورڈ کریندے ہن۔ ایہ ماسک تہاکوں تریاکل دے نال ہک ایڈریس شیئر کرݨ دی اجازت ݙیندے ہن جیڑھا تہاݙے حقیقی ای میل ایڈریس کوں ماسک کریسے تے اوندے اوتے سنیہاں بھیڄیسے۔
-
 faq-question-missing-emails-question-2 = میں آپݨے ای میل ماسکاں  کنوں سنیہے کائنی گھندا پیا
 faq-question-missing-emails-answer-a-2 = کجھ وجوہات ہن جو تہاکوں تہاݙے ماسکاں دے ذریعے اڳوں تے پٹھیاں ای میلاں تہاکوں وصول کائنی تھیندی پیاں۔ انہاں وجوہات وچ شامل ہن:
 faq-question-missing-emails-answer-reason-spam = سنیہے سپیم وچ ویندے پئے ہن
@@ -527,60 +500,47 @@ faq-question-missing-emails-answer-b-html = جے تساں ہک { -brand-name-rel
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = جے تساں انہاں مسئلیاں وِچوں کہیں دے نال تݨ مریندے پئے اوِ تاں براہ مہربانی <a href="{ $url }" { $attrs }> اساݙی سپورٹ سائٹ تے ونڄو </a>۔
-
 faq-question-use-cases-question-2 = میں { -brand-name-relay } ای میل ماسک کݙݨ ورتاں؟
 faq-question-use-cases-answer-part1-2 = تساں زیاہ تر جاہیں تے { -brand-name-relay } ای میل ماسک استعمال کر سڳدے او جتھاں تساں اپݨا باقاعدہ ای میل پتہ استعمال کریسو۔ اساں انہاں کوں مارکیٹنگ/ معلوماتی ای میلز کیتے سائن اپ کریندے ویلھے استعمال کرݨ دی تجریز ݙیندے او جتھاں تساں ایہ کنٹرول کرݨ چاہسو جو آیا تہاکوں مستقبل وِچ ای میلز وصول تھیون یا نہ تھیون۔
 faq-question-use-cases-answer-part2-2 = جݙاں تہاکوں اپݨی سنڄاݨ دی تصدیق دی ضرورت ہووے تاں انتہائی اہم ای میلز کیتے یا جتھاں تہاکوں اٹیچمنٹ وصول تھیوݨے ہوون، اساں ماسک استعمال کرݨ دی سفارش نہیں کریندے۔ مثال دے طور تے، تساں اپݨے بینک، اپݨے ڈاکٹر، تے اپݨے وکیل دے نال نال کنسرٹ یا فلائٹ بورڈنگ پاس وصول کریندے ویلھے اپݨا حقیقی ای میل پتہ شیئر کرݨ چاہسو۔
-
 faq-question-2-question-2 = میݙے { -brand-name-relay } ای میل ماسک ایں سائٹ قبول کیوں نیں کیتے؟
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = تھی سڳدا ہے کجھ سائٹاں ہک ای میل ایڈریس کوں قبول نہ کرن جیندے وِچ ذیلی ڈومین (@subdomain.mozmail.com)  شامل ہووے تے ٻنہاں  Gmail, Hotmail, یا Yahoo  اکاؤنٹس دے علاوہ تمام پتیاں کوں قبول کرݨ بند کر ݙتا ہے۔
-
 faq-question-1-question = سپیم بارے؟
 faq-question-1-answer-a-2 = جݙاں جو { -brand-name-relay } سپیم کیتے فلٹر نہیں کریندا، اساݙا ای میل پارٹنر Amazon SES سپیم تے میلویئر کوں بلاک کریندا ہے۔ جے { -brand-name-relay } سنیہاں کوں فارورڈ کریندا ہے جیڑھا تساں نہیں چاہندے، تاں تساں اپݨیاں { -brand-name-relay } ترتیباں کوں اپ ڈیٹ کر سڳدے او تاں جو انہاں کوں فارورڈ کرݨ والے ماسک کنوں سنیہاں کوں بلاک کیتا ونڄ سڳے۔
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = جے تہاکوں اپݨے تمام ماسک کنوں اݨ بھاندے ای میل دا ہک وسیع تر مسئلہ نظر آندا ہے، تاں براہ مہربانی <a href="{ $url }" { $attrs }> اساکوں ایندی اطلاع ݙیوو </a> تاں جو اساں ایندے کیتے  SES سپام دی حد کوں ایڈجسٹ کرݨ تے غور کر سڳوں۔ سروس جے تساں انہاں کوں بطور سپام رپورٹ کریندے او، تاں تہاݙا ای میل فراہم کنندہ { -brand-name-relay } کوں سپام دے ماخذ دے طور تے ݙیکھسے، اصل بھیڄݨ والے کوں کائنا۔
-
 faq-question-availability-question = { -brand-name-relay } کتھ دستیاب ہے؟
 faq-question-availability-answer = مفت { -brand-name-relay } زیادہ تر ملکاں وِچ دستیاب ہے۔ { -brand-name-relay-premium } ریاستہائے متحدہ، جرمنی، برطانیہ، کینیڈا، سنگاپور، ملائیشیا، نیوزی لینڈ، فرانس، بیلجیم، آسٹریا، سپین، اٹلی، سوئٹزرلینڈ، نیدرلینڈز تے آئرلینڈ وِچ دستیاب ہے۔
 faq-question-availability-answer-v2 = مفت { -brand-name-relay } زیادہ تر ملکاں وِچ دستیاب ہے۔ { -brand-name-relay-premium } ریاستہائے متحدہ، جرمنی، برطانیہ، کینیڈا، سنگاپور، ملائیشیا، نیوزی لینڈ، فن لینڈ، فرانس، بیلجیم، آسٹریا، سپین، اٹلی، سویڈن، سوئٹزرلینڈ، نیدرلینڈز  تے آئرلینڈ وِچ دستیاب ہے۔
 faq-question-availability-answer-v3 = مفت { -brand-name-relay } زیادہ تر ملکاں وِچ دستیاب ہے۔ { -brand-name-relay-premium } آسٹریا، بیلجیم، کینیڈا، قبرص، ایسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلی، لٹویا، لتھوانیا، لکسمبرگ، ملائیشیا، مالٹا، نیدرلینڈز، نیوزی لینڈ، پرتگال، سنگاپور، سلوواکیہ، سلووینیا، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے ریاستہائے متحدہ وِچ دستیاب ہے۔
-
+faq-question-landing-page-availability = مفت { -brand-name-relay } زیادہ تر ملکاں وِچ دستیاب ہے۔ { -brand-name-relay-premium } ای میل ماسکنگ { -brand-name-relay-premium }ریاستہائے متحدہ، جرمنی، برطانیہ، کینیڈا، سنگاپور، ملائیشیا، نیوزی لینڈ، فرانس، بیلجیم، آسٹریا، سپین، اٹلی، سوئٹزرلینڈ، نیدرلینڈز تے آئرلینڈ وِچ دستیاب ہے۔ { -brand-name-relay-premium } فون ماسکنگ صرف امریکہ تے کنیڈا وچ دستیاب ہے۔
 faq-question-4-question-2 = بھلا میں آپݨے { -brand-name-relay } ای میل ماسک ورت تے سنیہاں دا جواب ݙے سڳداں؟
 faq-question-4-answer-v4 = { -brand-name-relay-premium } صارفین ای میل وصول تھیوݨ دے 3 مہینے دے اندر فارورڈ ای میل دا جواب ݙے سڳدے ہن۔ جے تساں کہیں ای میل دا جواب ݙیندے ویلھے CC یا BCC شامل کریندے او، تاں تہاݙا اصل ای میل پتہ وصول کنندہ تے ای میل تے کاپی کیت ڳئے لوکاں دے سامݨے آ ویسے۔ جے تساں نہیں چاہندے جو تہاݙا اصل ای میل پتہ ظاہر تھیوے تاں جواب ݙیندے ویلھے CCs یا BCCs شامل نہ کرو۔
-
 faq-question-subdomain-characters-question = سب ڈومین بݨاوݨ کیتے میں کہڑے اکھر ورت سڳداں؟
 faq-question-subdomain-characters-answer-v2 = سب ڈومین خلقݨ کیتے تساں صرف چھوٹی اے بی سی، ہندسے تے ہائفن ورت سڳدے ہو۔
-
 faq-question-browser-support-question = بھلا میں ٻئت براؤزراں تے یا آپݨے موبائل تے { -brand-name-relay } ورت  سڳداں؟
 faq-question-browser-support-answer-2 = جیا، تساں ٻئے براؤزراں تے یا موبائل ڈیوائساں تے آپݨے { -brand-name-relay } ڈیش بورڈ وچ لاگ ان تھی تے سوکھ نال { -brand-name-relay } ماسک جنریٹ کر سڳدے ہو۔
-
 faq-question-longevity-question = جے موزلّا { -brand-name-firefox-relay } خدمت بند کر ݙیندے تاں وت کیا تھیسی؟
 faq-question-longevity-answer-2 = اساں تہاکوں پیشگی اطلاع ݙیسوں جو تہاکوں کہیں اینجھے اکاؤنٹس دا ای میل ایڈریس تبدیل کرݨ دی ضرورت ہے جیڑھے { -brand-name-relay } ای میل ماسک استعمال کریندے پئے ہن۔
-
 faq-question-mozmail-question-2 = میݙے ای میل ماسکاں ڈومین "موزّلا ڈاٹ کام" ورتݨ کیوں شروع کیتی ہے
 faq-question-mozmail-answer-2 = اساں "relay.firefox.com" کنوں "mozmail.com" وِچ سوئچ کیتا ہے تاں جو ہک حسب ضرورت ای میل ذیلی ڈومین حاصل کرݨ ممکن بݨایا ونڄ سڳے، جیویں mask@yourdomain.mozmail.com۔ حسب ضرورت ای میل ذیلی ڈومینز، جیڑھے { -brand-name-relay-premium } سبسکرائبرز کیتے دستیاب ہن، تہاکوں یاد رکھݨ وِچ آسان ای میل ماسک بݨاوݨ دی اجازت دیندے ہن۔
-
 faq-question-attachments-question = بھلا { -brand-name-firefox-relay } نتھیاں نال ای میلاں اڳوں تے پٹھیسی؟
 faq-question-attachments-answer-v2 = ہݨ اساں اٹیچمنٹ فارورڈنگ کوں سپورٹ کریندے ہیں۔ بھل جو، { -brand-name-relay } دا استعمال کریندے ہوئے ای میل فارورڈنگ کیتے ہک { email-size-limit } دی حد ہے۔ { email-size-limit } کنوں وݙی کوئی وی ای میل اڳوں تے نہ بھیڄیاں ویسن۔
-
 faq-question-unsubscribe-domain-question-2 = جے میں { -brand-name-relay-premium } کنوں اݨ سبسکرائب تھینداں تاں میݙی کسٹم  سب ڈومین نال کیا تھیسی؟
 faq-question-unsubscribe-domain-answer-2 = جے تہاکوں { -brand-name-relay-premium } کنوں ڈاؤن گریڈ کریندے ہن، تݙاں وی تہاکوں اپݨے حسب ضرورت ای میل ماسک دے ذریعے اڳوں تے بھیڄیاں ڳئیاں ای میلز وصول تھیسن، لیکن تساں ایں ذیلی ڈومین دا استعمال کریندے ہوئے ودھیک نویں ماسک نہ بݨا سڳسو۔ جے تہاݙے کول کل پنج کنوں زیادہ ماسک ہن تاں تساں ودھیک ماسک نہ بݨا سڳسو۔ تساں اڳوں تے بھیڄے ڳئے سنیہاں دا جواب ݙیوݨ دی اہلیت کنوں وی محروم تھی ویسو۔ تساں { -brand-name-relay-premium } کوں دوبارہ سبسکرائب کر سڳدے او تے انہاں خصوصیات تائیں ولدا رسائی حاصل کر سڳدے او۔
-
 faq-question-8-question = { -brand-name-firefox-relay } کہڑا ڈیٹا کٹھا کریندے؟
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = اساں تہاݙے <a href="{ $url }" { $attrs }> رازداری نوٹس </a> تے ہک نظر مار تے { -brand-name-firefox-relay } دے جمع کردہ ڈیٹا دے بارے ودھیک ڄاݨ سڳدے او۔ تساں اختیاری طور تے انہاں لیبلز تے سائٹ دے بارے ڈیٹا شیئر کرݨ دے قابل وی او جیڑھے تساں اپݨے ای میل ماسک کیتے استعمال کریندے او تاں جو اساں تہاکوں او سروس فراہم کر سڳوں تے تہاݙے کیتے اینکوں بہتر بݨا سڳوں۔
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } انہاں ویب سائٹاں کوں کٹھا کریندا ہے جتھاں تساں اپݨے ای میل ماسک استعمال کیتے ہن، تے اپݨے ماسک کوں انہاں ویب سائٹاں دے نال لیبل لیندا ہے تاں جو تساں آسانی نال انہاں دی سنڄاݨ کر سڳو۔ تساں رازداری دے تحت اپݨیاں ترتیباں دے ورقے تے ایں کنوں آپٹ آؤٹ کر سڳدے او۔ لیکن براہ مہربانی نوٹ کرو، ایں ترتیب کوں آف کرݨ دا مطلب ایہ ہے جو تساں ایہ نہ ݙیکھ سڳسن جو تساں ہر ماسک کتھاں استعمال کیتا ہے، تے تہاݙے اکاؤنٹ دے ناں ہݨ آلات دے درمیان مطابقت پذیر کینا ہوسن۔ تساں اساݙے <a href="{ $url }" { $attrs }> رازداری دے نوٹس </a> وِچ { -brand-name-firefox-relay } دے جمع کردہ ڈیٹا دے بارے وِچ ودھیک ڄاݨ سڳدے او۔
-
 faq-question-email-storage-question = بھلا { -brand-name-relay } میݙیاں ای میلاں ذخیرہ کریندے؟
 faq-question-email-storage-answer = غیر معمولی حالات وِچ جیندے وِچ سروس بند ہے، اساں عارضی طور تے تہاݙے ای میلز کوں اوں وقت تائیں محفوظ کر سڳدے او جے تائیں اساں انہاں کوں بھیڄݨ دے قابل نہ ہووں۔ اساں تہاݙے ای میل کوں کݙاہیں وی ترائے ݙینہہ کنوں زیادہ ذخیرہ نہ کریسوں۔
-
 faq-question-acceptable-use-question = { -brand-name-relay } دے کہڑے  قابل قبول استعمالات ہن؟
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -591,12 +551,10 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = ہک ݙین٘ہ وچ �
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = سوہݨا، ٻئی ڄاݨکاری کیتے ساݙیاں <a href="{ $url }" { $attrs }>خدمت دیاں شرطاں</a> تے نظرثانی کرو۔
-
 faq-question-promotional-email-blocking-question = مشہوری ای میل بلاک کرݨ کیا ہے؟
 faq-question-promotional-email-blocking-answer = { -brand-name-relay-premium } سبسکرائبرز پروموشنل ای میل بلاکنگ کوں فعال کر سڳدے او۔ ایہ فیچر تہاکوں اہم ای میلز، جیویں جو رسیداں، پاس ورڈ ری سیٹ تے تصدیقاں اڳوں تے بھیڄیسے جݙاں جو ہݨ وی مارکیٹنگ دے سنیہاں کوں روکیسے۔ ایں ڳالھ دا تھوڑا جیہاں بھئو ہے جو ہک اہم سنیہے کوں ہݨ وی بلاک کیتا ونڄ سڳدا ہے، لہٰذا اساں تجویز کریندے ہیں جو تساں ایں خصوصیت کوں اپݨے بینک جیویں اہم مقامات کیتے استعمال نہ کرو۔ جے کوئی ای میل بلاک ہے تاں اونکوں بازیافت نہیں کیتا ونڄ سڳدا۔
 faq-question-detect-promotional-question = { -brand-name-relay } کوں کین٘ویں پتہ لڳدے جو ایہ ای میل پروموشنل ہے یا کائناں؟
 faq-question-detect-promotional-answer = ٻہوں ساریاں ای میلز "ہیڈر" میٹا ڈیٹا دے نال بھیڄیاں ویندیاں ہن تاں جو ایہ ظاہر کیتا ونڄ سڳے جو او فہرست تے مبنی خودکار ٹولز دے نال ہن۔ { -brand-name-firefox-relay } ایں ہیڈر ڈیٹا دا پتہ لاتا ہے تاں جو ایہ انہاں ای میلز کوں روک سڳے۔
-
 faq-question-disable-trackerremoval-question = بھلا میں ای میل ٹریکر ہٹاوݨ روک سڳداں؟
 faq-question-disable-trackerremoval-answer = جیا، جے تہاکوں ای میلز ترٹے ہوئے نظر آوݨ وِچ پریشانی تھیندی پئی ہے یا تساں ٹریکرز کوں ہٹاوݨ بند کرݨ چاہندے او تاں تساں ترتیباں وِچ ایں فیچر کوں غیر فعال کر سڳدے او۔
 faq-question-bulk-trackerremoval-question = بھلا میں آپݨیاں ای میل ماسکاں وچوں صرف کجھ توں ٹریکر ہٹا سڳداں؟
@@ -640,18 +598,14 @@ profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
 profile-label-continue = جاری
-
 # This string is followed by an email address
 profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
-
 # This string is followed by date
 profile-label-first-emailed = پہلی ای میل تھئی:
-
 # This string is followed by date:
 profile-label-created = بݨیا:
 profile-label-details-show = تفصیلاں ݙکھاؤ
 profile-label-details-hide = تفصیلاں لُکاؤ
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
@@ -730,9 +684,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = بند کر
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = فارغ کرو
-
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -780,36 +732,30 @@ banner-pack-upgrade-copy-2 = بے انت ای میل ماسکاں تے تہاݙ�
 footer-banner-premium-promo-headine = آپݨے فون <i>تے</i> ای میل حفاظت کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> اپ گریڈ کرو
 footer-banner-premium-promo-body = فوری ماسک تخیلق کرݨ کیتے مخصوص ای میل پتے، بے انت ای میل ماسکاں تے فون نمبر ماسک گھنو۔
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
 banner-label-privacy-notice-update-body = ای میل ڈیلیور نہ تھیوݨ دی صورت وِچ { -brand-name-firefox-relay } دی اعتمادکوں بہتر بݨاوݨ کیتے، اساں عارضی طور تے ای میل کوں اپݨے سرورز تے اوں وقت تائیں رکھیسوں جے تائیں ایہ ڈیلیور ہ تھی ونڄے۔ اساں اینکوں ترائے ݙینہہ کنوں زیادہ کݙاہیں نہ رکھیسو۔
 banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
-
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } تے جلدی آندا پئے
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = ہک بہتر انٹرنیٹ اسارݨ کیتے ساݙے مشن وچ شامل تھیندے ہوئے آپݨی رازداری دی حفاظت کرو، سب کجھ { $monthly_price } وچ
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو  تے اساݙی تعارفی ماہانہ قیمت تے لامحدود ماسکنگ دا لطف چاوو۔
 banner-offer-end-cta = ہݨ اپ گریڈ کرو
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = سپیم، روبو کالاں تے فضول عبارت کوں روکو
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } تہاݙے اصل نمبر دے حفاظت کیتے تہاکوں فون ماسک — تے بے انت ای میل ماسکاں ݙیندے۔
@@ -937,7 +883,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = بے انت ای می
 multi-part-onboarding-premium-welcome-button-start = شروع کرو
 multi-part-onboarding-premium-get-subdomain = کسٹم سب ڈومین گھنو
 multi-part-onboarding-reply-headline = تہاݙی ای میلاں دا جواب
-
 multi-part-onboarding-premium-welcome-description-2 = ودھیک پنج ماسک دی حد کائنی: ہݨ تساں اپݨی ضرورت دے مطابق حسب ضرورت یا بے ترتیب ماسک تیار کر سڳدے او۔ ڈیسک ٹاپ تے، تساں ٹردے پھردے انہاں کوں بݨاوݨ کیتے { -brand-name-relay } ایڈ آن استعمال کر سڳدے او۔
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -1002,8 +947,6 @@ trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خر
 
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
 modal-delete-headline-2 = ایہ ای میل ماسک پکّا پکّا مٹاؤں؟
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -1020,7 +963,6 @@ modal-delete-confirmation-2 = جیا، میں ایہ ماسک مٹاوݨ چاہ�
 modal-domain-register-good-news = خوشخبری!
 modal-domain-register-warning-reminder-2 = یاد رکھو، تساں صرف ہک سب ڈومین رجسٹر کر سڳدے ہو۔ تساں ایں کوں بعد وچ تبدیل کائناں کر سڳسو۔
 modal-domain-register-button-2 = سب ڈومین رجسٹر کرو
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } دستیاب ہے!
@@ -1028,7 +970,6 @@ modal-domain-register-available = { $subdomain } دستیاب ہے!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> دستیاب ہے!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
@@ -1036,7 +977,6 @@ modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ ر
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = جیا، میں  <subdomain>{ $subdomain }</subdomain> رجسٹر کرݨ چاہنداں ہاں
 modal-domain-register-success-title = کامیابی!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1180,7 +1120,6 @@ toast-button-close-label = نوٹیفیکیشن بند کرو
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
 api-error-free-tier-limit = تساں اپݨے مفت اکاؤنٹ دے نال شامل تمام { $free_tier_limit } ای میل ماسک استعمال کر گھدے ہن۔ تساں موجودہ ماسک کوں دوبارہ استعمال کر سڳدے او، لیکن ہر اکاؤنٹ کیتے نویکلے ماسک دا استعمال سبھ توں محفوظ آپشن ہے۔
 api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
