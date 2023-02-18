@@ -156,6 +156,9 @@ highlighted-features-section-block-promotions-headline = مشہوری ای می�
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ساریاں ای میلاں وچوں مٹا سڳدا ہے، 
+    تہاکوں مشہوری کرݨ آلے لوکاں تے ٹریکراں کنوں لکاوݨ سانگے۔
 
 ## FAQ SECTION
 
