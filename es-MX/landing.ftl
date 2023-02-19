@@ -2,7 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
 
 ## BUNDLE BANNER SECTION
 
@@ -21,16 +23,23 @@ bundle-feature-three = Una red rápida y segura
 
 ## HOW IT WORKS SECTION 
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 ## PRICING MATRIX SECTION
 
+
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada
 plan-matrix-heading-plan-premium = Protección de correo electrónico
@@ -42,6 +51,7 @@ plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -
 plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -55,9 +65,12 @@ plan-matrix-price-free = Gratis
 
 plan-matrix-price-period-yearly = Anual
 plan-matrix-price-period-monthly = Mensual
+plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
+plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
 
 # Plan CTAs
 
+plan-matrix-sign-up = Registrarse
 plan-matrix-join-waitlist = Únete a la lista de espera
 
 ## REVIEWS SECTION
@@ -82,15 +95,21 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona 
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
