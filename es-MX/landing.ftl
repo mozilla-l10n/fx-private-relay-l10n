@@ -53,6 +53,8 @@ plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
 plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-mobile-email-reply = Responder correos electrónicos anónimamente
+plan-matrix-feature-mobile-phone-mask = Protege tu número de teléfono verdadero
 plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
@@ -108,15 +110,19 @@ highlighted-features-section-bottom-cta = Comenzar
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Crea máscaras al instante sobre la marcha
 
 # Item 3
 
+highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Bloquear correos electrónicos promocionales
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
 
 ## FAQ SECTION
 
