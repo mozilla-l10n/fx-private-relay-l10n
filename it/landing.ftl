@@ -79,10 +79,20 @@ plan-matrix-feature-email-tracker-removal = Rimozione elementi traccianti dalle 
 plan-matrix-feature-promo-email-blocking = Blocco delle email pubblicitarie
 plan-matrix-feature-email-subdomain = Dominio { -brand-name-relay } per creare alias di posta elettronica ovunque ti trovi
 plan-matrix-feature-email-reply = Rispondi alle email in modo anonimo
+plan-matrix-feature-phone-mask = Alias per numeri di telefono per proteggere il tuo numero reale
+plan-matrix-feature-vpn = Protezione { -brand-name-vpn } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Alias di posta elettronica illimitati
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = Alias di posta elettronica
+plan-matrix-feature-mobile-browser-extension = Estensione per browser
+plan-matrix-feature-mobile-email-tracker-removal = Rimozione elementi traccianti dalle email
+plan-matrix-feature-mobile-promo-email-blocking = Blocco delle email pubblicitarie
+plan-matrix-feature-mobile-email-subdomain = Dominio di posta elettronica { -brand-name-relay } univoco
+plan-matrix-feature-mobile-email-reply = Rispondi alle email in modo anonimo
+plan-matrix-feature-mobile-phone-mask = Proteggi il tuo numero di telefono reale
+plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -94,11 +104,20 @@ plan-matrix-price-free = Gratis
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price } al mese
 plan-matrix-price-period-yearly = Annuale
 plan-matrix-price-period-monthly = Mensile
+plan-matrix-price-period-yearly-footnote-1 = Fatturazione annuale
+plan-matrix-price-period-monthly-footnote-1 = Fatturazione mensile
+plan-matrix-price-vpn-discount-promo = <span>Risparmia il { $savings }</span> sul prezzo normale di { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-upgrade = Aggiorna
+plan-matrix-sign-up = Registrati
+plan-matrix-get-relay-cta = Ottieni { -brand-name-relay }
 plan-matrix-join-waitlist = Iscriviti alla lista d’attesa
 
 ## REVIEWS SECTION
@@ -123,21 +142,29 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } fa miraco
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Funzionalità semplici e sicure per aiutarti a proteggere la tua identità
+highlighted-features-section-bottom-title = Proteggi la tua identità (e la tua casella di posta) con { -brand-name-firefox-relay }
+highlighted-features-section-bottom-cta = Inizia
+highlighted-features-section-new-item = Novità
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Crea alias di posta elettronica illimitati
 
 # Item 2
 
 
 # Item 3
 
+highlighted-features-section-replying-headline = Rispondi alle email e agli SMS in modo anonimo
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Blocco delle email pubblicitarie
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Rimozione elementi traccianti dalle email
 
 ## FAQ SECTION
 
