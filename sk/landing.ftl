@@ -40,15 +40,23 @@ how-it-works-section-title = Ako funguje maskovanie e-mailu a telefónu službou
 
 # Item 1
 
+how-it-works-section-extension-headline = Používajte e-mailové masky a maskovanie telefónneho čísla službou { -brand-name-relay } kdekoľvek
+how-it-works-section-extension-body = Získajte bezpečné, náhodné e-mailové masky a jedinečné maskované telefónne číslo, ktoré môžete použiť kedykoľvek webová stránka, aplikácia, obchod alebo reštaurácia požiada o vaše informácie.
 
 # Item 2
 
+how-it-works-section-forward-headline = My vám budeme preposielať e-maily, telefónne hovory a SMSky
+how-it-works-section-forward-body = Uisťujeme vás, že odosielatelia nikdy nepoznajú vašu skutočnú e-mailovú adresu ani skutočné číslo. Môžete dokonca odpovedať na texty a e-maily bez toho, aby ste zdieľali svoju skutočnú identitu.
 
 # Item 3
 
+how-it-works-section-manage-headline = Spravujte svoje masky na hlavnom paneli služby { -brand-name-relay }
+how-it-works-section-manage-body = Prihláste sa do Nástenky služby { -brand-name-relay } a vytvárajte nové masky, pomenujte existujúce masky a blokujte hovory, textové správy alebo e-maily z masiek, ktoré dostávajú príliš veľa spamu.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Vyberte si úroveň ochrany, ktorá vám vyhovuje
+plan-matrix-offer-body = { -brand-name-firefox-relay } chráni vašu identitu a vašu schránku s doručenou poštou pomocou jedinečných e-mailových masiek. Ešte väčšiu bezpečnosť získate pomocou maskovania telefónu { -brand-name-relay } a ušetrite { $savings } pridaním ochrany pomocou { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -58,10 +66,19 @@ plan-matrix-heading-features = Funkcie
 plan-matrix-heading-plan-free = Obmedzená ochrana e-mailov
 plan-matrix-heading-plan-premium = Ochrana e-mailov
 plan-matrix-heading-plan-phones = Ochrana e-mailu a telefónu
+plan-matrix-heading-plan-bundle-2 = Pridať ochranu pomocou { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Získajte { -brand-name-relay-premium } a { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mailové masky na ochranu vašej skutočnej e-mailovej adresy
+plan-matrix-feature-browser-extension = Rozšírenie do prehliadača na používanie služby { -brand-name-relay } na ľubovoľnej stránke
+plan-matrix-feature-email-tracker-removal = Odstraňovanie sledovacích prvkov z e-mailov
+plan-matrix-feature-promo-email-blocking = Blokovanie marketingových e-mailov
+plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } na vytváranie masiek kdekoľvek sa nachádzate
+plan-matrix-feature-email-reply = Odpovedanie na e-maily anonymne
+plan-matrix-feature-phone-mask = Maskovanie telefónneho čísla na ochranu vášho skutočného telefónneho čísla
+plan-matrix-feature-vpn = Ochrana vďaka { -brand-name-vpn } pomocou <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Neobmedzený počet e-mailových masiek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -71,6 +88,9 @@ plan-matrix-feature-mobile-browser-extension = Rozšírenie do prehliadača
 plan-matrix-feature-mobile-email-tracker-removal = Odstraňovanie sledovacích prvkov z e-mailov
 plan-matrix-feature-mobile-promo-email-blocking = Blokovanie marketingových e-mailov
 plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Odpovedanie na e-maily anonymne
+plan-matrix-feature-mobile-phone-mask = Ochrana skutočného telefónneho čísla
+plan-matrix-feature-mobile-vpn = Prístup k <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -82,11 +102,20 @@ plan-matrix-price-free = Zadarmo
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mesiac.
 plan-matrix-price-period-yearly = Ročne
 plan-matrix-price-period-monthly = Mesačne
+plan-matrix-price-period-yearly-footnote-1 = Účtované ročne
+plan-matrix-price-period-monthly-footnote-1 = Účtované mesačne
+plan-matrix-price-vpn-discount-promo = <span>Ušetrite { $savings }</span> z bežnej ceny { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-upgrade = Inovovať
+plan-matrix-sign-up = Zaregistrovať sa
+plan-matrix-get-relay-cta = Získať { -brand-name-relay }
 plan-matrix-join-waitlist = Pridať sa na zoznam čakateľov
 
 ## REVIEWS SECTION
@@ -111,6 +140,8 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } robí zá
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Bezpečné a jednoduché funkcie na ochranu vašej identity
+highlighted-features-section-bottom-title = Chráňte svoju identitu (a svoju doručenú poštu) pomocou { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Začíname
 highlighted-features-section-new-item = Novinka!
 
