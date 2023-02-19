@@ -548,7 +548,7 @@ faq-question-acceptable-use-question = Aké sú prijateľné použitia služby {
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } má rovnaké <a href="{ $url }" { $attrs }>podmienky používania ako všetky produkty { -brand-name-mozilla(case: "gen") }</a>. Máme zásadu nulovej tolerancie, pokiaľ ide o používanie služby { -brand-name-relay } na škodlivé účely, ako je spam, čo vedie k zrušeniu účtu používateľa. Prijímame opatrenia, aby sme zabránili používateľom porušovať naše podmienky tým, že:
-faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalisation: "lowercase") } s overenou e-mailovou adresou
+faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalization: "lowercase") } s overenou e-mailovou adresou
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Vyžaduje platbu od používateľa za vytvorenie viac ako piatich masiek
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Obmedzuje sa počet masiek, ktoré je možné vygenerovať za jeden deň
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
