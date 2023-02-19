@@ -51,5 +51,8 @@ bundle-banner-money-back-guarantee = { $days_guarantee } garantía de devolució
 ## VPN and Relay Premium Dashboard Upgrade Banner
 
 bundle-banner-dashboard-header = Presentamos: plan de suscripción { -brand-name-relay } + { -brand-name-vpn }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-dashboard-body = Actualiza tu suscripción para obtener { -brand-name-relay-premium } Enmascaramiento de teléfono + { -brand-name-mozilla-vpn } por { $monthly_price }. ¡Actualiza ahora para obtener { $savings } de { -brand-name-mozilla-vpn }!
 bundle-banner-dashboard-upgrade-cta = Actualizar ahora
-

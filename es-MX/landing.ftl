@@ -52,6 +52,8 @@ plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -70,7 +72,9 @@ plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
 
 # Plan CTAs
 
+plan-matrix-upgrade = Mejorar
 plan-matrix-sign-up = Registrarse
+plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Únete a la lista de espera
 
 ## REVIEWS SECTION
@@ -95,6 +99,9 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona 
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Funciones seguras y simples para ayudar a proteger tu identidad
+highlighted-features-section-bottom-title = Protege tu identidad (y tu bandeja de entrada) con { -brand-name-firefox-relay }
+highlighted-features-section-bottom-cta = Comenzar
 
 # Item 1
 
