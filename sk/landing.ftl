@@ -2,22 +2,32 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
 
 ## BUNDLE BANNER SECTION
 
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funkcie
 plan-matrix-heading-plan-free = Obmedzená ochrana e-mailov
 plan-matrix-heading-plan-premium = Ochrana e-mailov
@@ -29,6 +39,7 @@ plan-matrix-heading-plan-bundle-alt = Získajte { -brand-name-relay-premium } a 
 plan-matrix-feature-list-email-masks-unlimited = Neobmedzený počet e-mailových masiek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -69,15 +80,28 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } robí zá
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = Začíname
+highlighted-features-section-new-item = Novinka!
+
 # Item 1
+
+highlighted-features-section-unlimited-masks-headline = Vytvárajte neobmedzený počet e-mailových masiek
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = Každý dostane niekoľko e-mailových masiek zadarmo (celkom { $mask_limit }). Avšak, pomocou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi, hackermi a online sledovačmi.
 
 # Item 2
 
+
 # Item 3
+
+highlighted-features-section-replying-headline = Odpovedajte na e-maily a texty anonymne
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
