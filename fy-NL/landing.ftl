@@ -113,6 +113,7 @@ highlighted-features-section-new-item = Nij!
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Meitsje ûnbeheinde e-mailmaskers oan
 
 # Item 2
 
