@@ -81,10 +81,19 @@ plan-matrix-feature-promo-email-blocking = Rhwystro e-byst hyrwyddo
 plan-matrix-feature-email-subdomain = Parth e-bost { -brand-name-relay } i greu arallenwau ar daith
 plan-matrix-feature-email-reply = Ateb e-byst yn ddienw
 plan-matrix-feature-phone-mask = Cuddio rhif ffôn i ddiogelu eich gwir rif ffôn
+plan-matrix-feature-vpn = Diogelwch { -brand-name-vpn }  gan <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = E-byst arallenwau e-bost dirifedi
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = Arallenwau e-byst
+plan-matrix-feature-mobile-browser-extension = Estyniad porwr
+plan-matrix-feature-mobile-email-tracker-removal = Dileu tracwyr e-bost
+plan-matrix-feature-mobile-promo-email-blocking = Rhwystro e-byst hyrwyddo
+plan-matrix-feature-mobile-email-subdomain = Parth e-bost { -brand-name-relay } unigryw
+plan-matrix-feature-mobile-email-reply = Ateb e-byst yn ddienw
+plan-matrix-feature-mobile-phone-mask = Diogelwch eich rhif ffôn go iawn
+plan-matrix-feature-mobile-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -96,11 +105,20 @@ plan-matrix-price-free = Am Ddim
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Blynyddol
 plan-matrix-price-period-monthly = Yn fisol
+plan-matrix-price-period-yearly-footnote-1 = Bilio blynyddol
+plan-matrix-price-period-monthly-footnote-1 = Bilio misol
+plan-matrix-price-vpn-discount-promo = <span>Arbedwch { $savings }</span> ar bris arferol { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-upgrade = Uwchraddiwch
+plan-matrix-sign-up = Cofrestru
+plan-matrix-get-relay-cta = Cael { -brand-name-relay }
 plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
 
 ## REVIEWS SECTION
