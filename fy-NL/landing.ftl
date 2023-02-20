@@ -10,9 +10,25 @@ hero-section-cta = Begjinne
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-modules-email-masking = E-mailmaskearing
+bundle-banner-plan-modules-phone-masking = Telefoanmaskearing
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = Download { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } en { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = { $days_guarantee }-dagen-jild-weromgarânsje foar nije abonnees
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Mear as { $num_vpn_servers } servers
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Mear as { $num_vpn_servers } lannen
+bundle-feature-three = Fluch en feilich netwurk
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Hoe e-mail- en telefoanmaskearing troch { -brand-name-relay } wurket
 
 # Item 1
 
@@ -42,6 +58,10 @@ plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = E-mailmaskers
+plan-matrix-feature-mobile-browser-extension = Browserútwreiding
+plan-matrix-feature-mobile-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-feature-mobile-promo-email-blocking = Reklameberjochten blokkearje
 
 # Plan Details
 
@@ -53,11 +73,17 @@ plan-matrix-price-free = Fergees
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
 plan-matrix-price-period-yearly = Jierliks
 plan-matrix-price-period-monthly = Moanliks
 
 # Plan CTAs
 
+plan-matrix-upgrade = Opwurdearje
+plan-matrix-sign-up = Registrearje
+plan-matrix-get-relay-cta = { -brand-name-relay } downloade
 plan-matrix-join-waitlist = Op de wachtlist pleatse
 
 ## REVIEWS SECTION
@@ -82,6 +108,8 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wû
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = Begjinne
+highlighted-features-section-new-item = Nij!
 
 # Item 1
 
