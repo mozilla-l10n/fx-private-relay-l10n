@@ -28,7 +28,7 @@ bundle-banner-cta = Cael { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } a { -brand-name-relay }
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = { $days_guarantee }- diwrnod o warant arian yn ôl i'r rhai sy'n tanysgrifio am y tro cyntaf
+bundle-banner-money-back-guarantee-2 = { $days_guarantee }-diwrnod o warant arian yn ôl i'r rhai sy'n tanysgrifio am y tro cyntaf
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Mwy na { $num_vpn_servers } gweinydd
@@ -54,7 +54,7 @@ how-it-works-section-forward-body = Gallwch fod yn dawel eich meddwl, na fydd an
 # Item 3
 
 how-it-works-section-manage-headline = Rheoliwch eich arallenwau a'ch rhifau ffôn cudd o'ch bwrdd rheoli { -brand-name-relay }
-how-it-works-section-manage-body = Mewngofnodwch i'ch bwrdd rheoli { -brand-name-relay } i greu arallenwau newydd, labelu arallenwau cyfredol , a  rhwystro galwadau, negeseuon testun neu e-byst o arallenwau sy'n derbyn gormod o sbam.
+how-it-works-section-manage-body = Mewngofnodwch i'ch bwrdd rheoli { -brand-name-relay } i greu arallenwau newydd, labelu arallenwau cyfredol a  rhwystro galwadau, negeseuon testun neu e-byst o arallenwau sy'n derbyn gormod o sbam.
 
 ## PRICING MATRIX SECTION
 
