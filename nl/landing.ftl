@@ -110,13 +110,14 @@ plan-matrix-price-free = Gratis
 plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
 plan-matrix-price-period-yearly = Jaarlijks
 plan-matrix-price-period-monthly = Maandelijks
-plan-matrix-price-period-yearly-footnote = Jaarlijks gefactureerd. Exclusief btw.
-plan-matrix-price-period-monthly-footnote = Maandelijks gefactureerd. Exclusief btw.
+plan-matrix-price-period-yearly-footnote-1 = Jaarlijks gefactureerd
+plan-matrix-price-period-monthly-footnote-1 = Maandelijks gefactureerd
 plan-matrix-price-vpn-discount-promo = <span>Bespaar { $savings }</span> op de normale prijs van { -brand-name-vpn }
 
 # Plan CTAs
 
 plan-matrix-upgrade = Upgraden
+plan-matrix-sign-up = Registreren
 plan-matrix-get-relay-cta = { -brand-name-relay } downloaden
 plan-matrix-join-waitlist = Op de wachtlijst plaatsen
 
