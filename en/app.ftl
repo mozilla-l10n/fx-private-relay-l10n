@@ -719,7 +719,6 @@ profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waitlist
 profile-promo-email-blocking-description-promotionals-locked-close = Close
 
-
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dismiss
