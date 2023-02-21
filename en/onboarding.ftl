@@ -10,10 +10,8 @@ onboarding-alias-tip-3-2 = Using the { -brand-name-relay } extension, right-clic
 onboarding-premium-headline = Welcome to { -brand-name-firefox } { -brand-name-relay-premium }
 # The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
 onboarding-premium-subheadline-html = Now you can <strong>control</strong> what hits your inbox, one email at a time.
-# Deprecated
 onboarding-premium-feature-intro = With { -brand-name-firefox } { -brand-name-relay-premium } you can:
 onboarding-premium-control-title = Control what emails you get
-# Deprecated
 onboarding-premium-control-description-2 = Share unlimited email masks that forward emails you actually want to your inbox.
 onboarding-premium-domain-title-3 = Use a custom subdomain for sharing masks:
 onboarding-premium-reply-title-2 = Reply to emails without giving away your true address
@@ -26,17 +24,19 @@ onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Step { $step } of { $max }.
-multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 multi-part-onboarding-premium-welcome-title = Control what emails you get:
-# Deprecated
 multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
 multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
 multi-part-onboarding-reply-headline = Reply to your emails
 multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
 
-multi-part-onboarding-premium-welcome-subheadline-3 = Let’s set you up to get the most out of your { -brand-name-premium } account.
+## Refreshed Step 1 Premium Onboarding
+## TODO: Deprecate old migrated strings
+
+multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Let’s set you up to get the most out of your { -brand-name-premium } account.
 multi-part-onboarding-premium-welcome-feature-headline = With { -brand-name-firefox-relay-premium } you get:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unlimited email masks
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Enhance your privacy and security with a unique mask for every site
@@ -47,6 +47,18 @@ multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Contr
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymous replies
 multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Respond to forwarded emails without sharing your real email address
 multi-part-onboarding-premium-welcome-feature-cta = Set up { -brand-name-relay-premium }
+
+## Refreshed Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Get a custom subdomain
+multi-part-onboarding-premium-email-domain-subheadline = Set your unique { -brand-name-relay } email domain
+multi-part-onboarding-premium-email-domain-feature-headline = With a unique { -brand-name-relay } email domain you can:
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-email-domain-feature-body = Select your preferred { -brand-name-relay } email domain, then instantly create new masks by adding any word or phrase before the @ symbol. Shopping? Use shop@yourdomain.{ $mozmail }.
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Search a word or phrase
+multi-part-onboarding-premium-email-domain-feature-input-search = Search
+multi-part-onboarding-premium-email-domain-skip = Skip, I’ll set this up later
 
 multi-part-onboarding-premium-welcome-description-2 = No more five-mask limit: you can now generate as many custom or random masks as you need. On desktop, you can use the { -brand-name-relay } add-on to create them on the go.
 # Variables:
