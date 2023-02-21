@@ -32,8 +32,7 @@ multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
 multi-part-onboarding-reply-headline = Reply to your emails
 multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
 
-## Refreshed Step 1 Premium Onboarding
-## TODO: Deprecate old migrated strings
+## Refreshed Step 1 Premium Onboarding | TODO: Deprecate old migrated strings
 
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Let’s set you up to get the most out of your { -brand-name-premium } account.
