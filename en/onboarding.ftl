@@ -1,3 +1,7 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
 ## Onboarding
 
 onboarding-headline-2 = Create your first email mask
@@ -49,8 +53,7 @@ multi-part-onboarding-premium-welcome-feature-cta = Set up { -brand-name-relay-p
 
 ## Refreshed Step 2 Set Custom Domain
 
-multi-part-onboarding-premium-email-domain-headline = Get a custom subdomain
-multi-part-onboarding-premium-email-domain-subheadline = Set your unique { -brand-name-relay } email domain
+multi-part-onboarding-premium-email-domain-headline = Set your unique { -brand-name-relay } email domain
 multi-part-onboarding-premium-email-domain-feature-headline = With a unique { -brand-name-relay } email domain you can:
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
