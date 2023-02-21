@@ -898,57 +898,6 @@ tips-custom-alias-content-2 = All you need to do is make up and share a unique m
 tips-promo-email-blocking-heading = Block Promotional Emails
 tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
 
-## Onboarding
-
-onboarding-headline-2 = Create your first email mask
-onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
-onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
-onboarding-alias-tip-3-2 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate new mask.”
-
-## Premium Onboarding
-
-onboarding-premium-headline = Welcome to { -brand-name-firefox } { -brand-name-relay-premium }
-# The word "Control" is wrapped in a <strong> HTML tag. This tag is necessary to put a colorful underline underneath the word Control, emphasising it.
-onboarding-premium-subheadline-html = Now you can <strong>control</strong> what hits your inbox, one email at a time.
-onboarding-premium-feature-intro = With { -brand-name-firefox } { -brand-name-relay-premium } you can:
-onboarding-premium-control-title = Control what emails you get
-onboarding-premium-control-description-2 = Share unlimited email masks that forward emails you actually want to your inbox.
-onboarding-premium-domain-title-3 = Use a custom subdomain for sharing masks:
-onboarding-premium-reply-title-2 = Reply to emails without giving away your true address
-onboarding-premium-reply-description-2 = Need to reply to emails sent to a mask? Just reply as normal — your mask will still protect your email address.
-onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you can:
-
-## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
-multi-part-onboarding-step-counter = Step { $step } of { $max }.
-multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
-multi-part-onboarding-premium-welcome-title = Control what emails you get:
-multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
-multi-part-onboarding-premium-welcome-button-start = Get Started
-multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
-multi-part-onboarding-reply-headline = Reply to your emails
-
-multi-part-onboarding-premium-welcome-description-2 = No more five-mask limit: you can now generate as many custom or random masks as you need. On desktop, you can use the { -brand-name-relay } add-on to create them on the go.
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3b = With a custom subdomain, you can create masks without having to generate them beforehand.
-    Need one to sign up for a newsletter? Just say “read@customsubdomain.{ $mozmail }”
-multi-part-onboarding-premium-domain-cta-2 = Register your custom subdomain now:
-multi-part-onboarding-premium-domain-button-skip-2 = Continue, I’ll register my custom subdomain later
-multi-part-onboarding-premium-extension-headline = Block, forward, and reply
-multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-firefox }
-multi-part-onboarding-premium-extension-get-description-2 = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email masks even easier.
-multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
-multi-part-onboarding-premium-chrome-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-google-chrome }
-# Deprecated
-multi-part-onboarding-premium-chrome-extension-get-description = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email aliases even easier.
-multi-part-onboarding-premium-chrome-extension-get-description-2 = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email masks even easier.
-multi-part-onboarding-premium-chrome-extension-button-download = Get { -brand-name-relay } Extension
-multi-part-onboarding-premium-extension-button-skip = Continue, I’ll download the extension later
-
 ## Report of trackers removed from an email
 
 trackerreport-title = { -brand-name-relay } Tracker Removal Report
