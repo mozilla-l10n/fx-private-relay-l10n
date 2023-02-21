@@ -34,7 +34,6 @@ multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited em
 multi-part-onboarding-premium-welcome-button-start = Get Started
 multi-part-onboarding-premium-get-subdomain = Get a custom subdomain
 multi-part-onboarding-reply-headline = Reply to your emails
-multi-part-onboarding-premium-generate-unlimited-title-2 = Generate unlimited email masks:
 
 ## Refreshed Step 1 Premium Onboarding | TODO: Deprecate old migrated strings
 
