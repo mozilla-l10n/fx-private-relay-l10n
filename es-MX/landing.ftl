@@ -5,9 +5,12 @@
 
 ## HERO SECTION 
 
+hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
+hero-section-cta = Comenzar
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-header-2 = Tu plan de 1 año incluye:
 bundle-banner-plan-modules-email-masking = Enmascaramiento de correo electrónico
 bundle-banner-plan-modules-phone-masking = Enmascaramiento de teléfono
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
@@ -23,12 +26,15 @@ bundle-feature-three = Una red rápida y segura
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Cómo funciona el enmascaramiento de correo electrónico y teléfono de { -brand-name-relay }
 
 # Item 1
 
+how-it-works-section-extension-headline = Utiliza máscaras de correos electrónicos y máscaras telefónicas de { -brand-name-relay } en cualquier lugar
 
 # Item 2
 
+how-it-works-section-forward-headline = Te reenviaremos correos electrónicos, llamadas telefónicas y mensajes de texto
 
 # Item 3
 
@@ -52,7 +58,11 @@ plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = Máscaras de correo electrónico
+plan-matrix-feature-mobile-browser-extension = Extensión del navegador
+plan-matrix-feature-mobile-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-mobile-email-subdomain = Dominio de correo electrónico único { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Responder correos electrónicos anónimamente
 plan-matrix-feature-mobile-phone-mask = Protege tu número de teléfono verdadero
 plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -67,6 +77,9 @@ plan-matrix-price-free = Gratis
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mo.
 plan-matrix-price-period-yearly = Anual
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
