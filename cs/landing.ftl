@@ -2,29 +2,44 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
+
 
 ## BUNDLE BANNER SECTION
 
+
 ## HOW IT WORKS SECTION 
+
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 ## PRICING MATRIX SECTION
+
 
 # Top Row Labels
 
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Vlastnosti
+plan-matrix-heading-plan-free = Omezená ochrana e-mailu
+plan-matrix-heading-plan-premium = Ochrana e-mailu
+plan-matrix-heading-plan-phones = Ochrana e-mailu a telefonu
+plan-matrix-heading-plan-bundle-alt = Získejte { -brand-name-relay-premium(case: "acc") } a { -brand-name-mozilla-vpn(case: "acc") }
 
 # Feature Breakdowns
 
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
 
 # Plan Details
 
@@ -70,15 +85,21 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } dělá pr
 
 ## HIGHLIGHTED FEATURES SECTION
 
+
 # Item 1
+
 
 # Item 2
 
+
 # Item 3
+
 
 # Item 4
 
+
 # Item 5
+
 
 ## FAQ SECTION
 
