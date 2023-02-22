@@ -8,6 +8,8 @@
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
 ## HOW IT WORKS SECTION 
 
@@ -36,10 +38,14 @@ plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-rela
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-feature-promo-email-blocking = Φραγή διαφημιστικών email
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
 
 # Plan Details
 
@@ -51,12 +57,19 @@ plan-matrix-price-free = Δωρεάν
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/μήνα
 plan-matrix-price-period-yearly = Ετησίως
 plan-matrix-price-period-monthly = Μηνιαία
+plan-matrix-price-period-yearly-footnote-1 = Ετήσια χρέωση
+plan-matrix-price-period-monthly-footnote-1 = Μηνιαία χρέωση
 
 # Plan CTAs
 
 plan-matrix-upgrade = Αναβάθμιση
+plan-matrix-sign-up = Εγγραφή
+plan-matrix-get-relay-cta = Λήψη του { -brand-name-relay }
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
 
 ## REVIEWS SECTION
@@ -81,21 +94,27 @@ landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κά
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-new-item = Νέο!
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Δημιουργία απεριόριστων μασκών email
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Άμεση δημιουργία μασκών εν κινήσει
 
 # Item 3
 
+highlighted-features-section-replying-headline = Απάντηση σε email και μηνύματα ανώνυμα
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Φραγή διαφημιστικών email
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Αφαίρεση ιχνηλατών email
 
 ## FAQ SECTION
 
