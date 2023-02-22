@@ -44,10 +44,19 @@ plan-matrix-feature-promo-email-blocking = Blokování propagačních e-mailů
 plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
 plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
 plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
+plan-matrix-feature-vpn = Ochrana sítí { -brand-name-vpn } prostřednictvím služby <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = E-mailové masky
+plan-matrix-feature-mobile-browser-extension = Rozšíření do prohlížeče
+plan-matrix-feature-mobile-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-feature-mobile-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Anonymní odpovědi na e-maily
+plan-matrix-feature-mobile-phone-mask = Ochrana vašeho skutečného telefonního čísla
+plan-matrix-feature-mobile-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
