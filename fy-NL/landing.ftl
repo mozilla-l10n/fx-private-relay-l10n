@@ -6,10 +6,17 @@
 ## HERO SECTION 
 
 hero-section-title = Beskermje jo identiteit mei feilige telefoan- en e-mailmaskearing
+hero-section-body =
+    Us feilige, maklik te brûken e-mail- en telefoanmaskers helpe jo identiteit privee te hâlden,
+    sadat jo jo anonym oanmelde kinne foar nije accounts, spamberjochten en net winske oproppen, en
+    allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange.
 hero-section-cta = Begjinne
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Mar tydlik: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } foar { $monthly_price }/moanne*
 bundle-banner-plan-modules-email-masking = E-mailmaskearing
 bundle-banner-plan-modules-phone-masking = Telefoanmaskearing
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
