@@ -111,6 +111,8 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } dělá pr
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Bezpečné a jednoduché funkce, které pomáhají chránit vaši identitu
+highlighted-features-section-bottom-title = Chraňte svou identitu (a svou e-mailovou schránku) pomocí služby { -brand-name-firefox-relay }
 
 # Item 1
 
