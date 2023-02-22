@@ -42,6 +42,8 @@ plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použ
 plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
 plan-matrix-feature-promo-email-blocking = Blokování propagačních e-mailů
 plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
+plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
+plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
