@@ -17,6 +17,10 @@ hero-section-cta = Begjinne
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Mar tydlik: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } foar { $monthly_price }/moanne*
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } beskermet jo tsjin folgjen en tafersjoch wylst jo game, online bankiere of wurkje. Foegje it ta oan { -brand-name-firefox-relay } foar { $savings } koarting.
+bundle-banner-plan-header-2 = Jo 1-jierrige abonnemint omfettet:
 bundle-banner-plan-modules-email-masking = E-mailmaskearing
 bundle-banner-plan-modules-phone-masking = Telefoanmaskearing
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
@@ -39,6 +43,7 @@ how-it-works-section-title = Hoe e-mail- en telefoanmaskearing troch { -brand-na
 
 # Item 1
 
+how-it-works-section-extension-headline = Brûk e-mail- en telefoanmaskers fan { -brand-name-relay } oeral
 
 # Item 2
 
