@@ -68,11 +68,20 @@ plan-matrix-price-free = Zdarma
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/měsíc
 plan-matrix-price-period-yearly = Ročně
 plan-matrix-price-period-monthly = Měsíčně
+plan-matrix-price-period-yearly-footnote-1 = Účtováno ročně
+plan-matrix-price-period-monthly-footnote-1 = Účtováno měsíčně
+plan-matrix-price-vpn-discount-promo = <span>Ušetřete { $savings }</span> z bežné ceny sítě { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-upgrade = Aktualizovat
+plan-matrix-sign-up = Zaregistrovat se
+plan-matrix-get-relay-cta = Získat { -brand-name-relay }
 plan-matrix-join-waitlist = Přidat se na čekací listinu
 
 ## REVIEWS SECTION
