@@ -66,6 +66,8 @@ plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en {
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-feature-promo-email-blocking = Reklameberjochten blokkearje
 plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -138,6 +140,7 @@ highlighted-features-section-unlimited-masks-headline = Meitsje ûnbeheinde e-ma
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = E-mailtrackers fuortsmite
 
 ## FAQ SECTION
 
