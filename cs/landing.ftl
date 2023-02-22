@@ -32,10 +32,16 @@ plan-matrix-heading-features = Vlastnosti
 plan-matrix-heading-plan-free = Omezená ochrana e-mailu
 plan-matrix-heading-plan-premium = Ochrana e-mailu
 plan-matrix-heading-plan-phones = Ochrana e-mailu a telefonu
+plan-matrix-heading-plan-bundle-2 = Přidaná ochrana sítí { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Získejte { -brand-name-relay-premium(case: "acc") } a { -brand-name-mozilla-vpn(case: "acc") }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mailové masky pro ochranu vaší skutečné e-mailové adresy
+plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použití služby { -brand-name-relay } na libovolném webu
+plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-feature-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
