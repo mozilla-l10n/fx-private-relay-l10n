@@ -211,6 +211,8 @@ landing-pricing-free-feature-1-2 = Až 5 e-mailových masek
 # Deprecated
 landing-pricing-free-feature-2 = Rozšíření do prohlížeče
 # Deprecated
+landing-pricing-free-feature-3 = Odstraňování sledovacích prvků z e-mailů
+# Deprecated
 landing-pricing-free-description = Vyzkoušejte masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku.
 # Deprecated
 landing-pricing-free-cta = Získejte { -brand-name-relay }
@@ -238,6 +240,8 @@ landing-pricing-premium-feature-3-subheader = vas-email@vase-domena.mozmail.com
 landing-pricing-premium-feature-4 = Možnost odpovědět na přeposlané e-maily
 # Deprecated
 landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
+# Deprecated
+landing-pricing-premium-feature-6 = Odstraňování sledovacích prvků z e-mailů
 # Deprecated
 landing-pricing-waitlist-description =
     { -brand-name-firefox-relay-premium.gender ->
