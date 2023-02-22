@@ -34,7 +34,7 @@ bundle-banner-money-back-guarantee-2 = { $days_guarantee }-dagen-jild-weromgarâ
 bundle-feature-one = Mear as { $num_vpn_servers } servers
 # Variables:
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
-bundle-feature-two = Mear as { $num_vpn_servers } lannen
+bundle-feature-two = Mear as { $num_vpn_countries } lannen
 bundle-feature-three = Fluch en feilich netwurk
 
 ## HOW IT WORKS SECTION 
