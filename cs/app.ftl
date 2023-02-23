@@ -430,6 +430,7 @@ premium-promo-pricing-offer-end-body = Pořiďte si { -brand-name-relay-premium(
 # Deprecated
 waitlist-heading = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 waitlist-heading-2 = Přidat se na čekací listinu služby { -brand-name-relay-premium }
+waitlist-heading-phone = Přidat se na čekací listinu pro maskování telefonu službou { -brand-name-relay }
 # Deprecated
 waitlist-lead =
     { -brand-name-firefox-relay-premium.gender ->
