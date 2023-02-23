@@ -253,7 +253,22 @@ landing-pricing-waitlist-description =
 # Deprecated
 landing-pricing-waitlist-cta = Přidat se na čekací listinu
 # Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+landing-pricing-offer-end-headline = Zaváděcí cena: Neomezený počet masek za { $monthly_price } měsíčně
+# Deprecated
+landing-pricing-offer-end-warning = Tato promoakce brzy skončí
+# Deprecated
 landing-pricing-offer-end-cta = Upgradujte
+# Deprecated
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-pricing-offer-end-body = Získejte { -brand-name-relay-premium(case: "acc") } do { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
+# Deprecated
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading = Časově omezeno: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/měsíc*
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mailové masky
 plan-matrix-heading-feature-browser-extension = Rozšíření do prohlížeče
