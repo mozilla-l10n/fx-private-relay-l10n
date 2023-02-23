@@ -41,6 +41,9 @@ how-it-works-section-extension-headline = ہر جاء تے { -brand-name-relay }
 # Item 2
 
 how-it-works-section-forward-headline = اساں تہاکوں ای میلاں، فون کالاں تے ٹیکسٹ فارورڈ کریسوں
+how-it-works-section-forward-body =
+    یقین رکھو، بھیڄݨ آلیاں کوں کݙاہیں وی تہاݙا اصلی ای میل پتہ یا اصلی نمبر دا پتہ کائناں لڳسی۔ 
+     تے تساں آپݨی اصلی سن٘ڄاݨ ݙسے بغیر ٹیکسٹ تے ای میلاں دا جواب وی ݙے سڳدے ہو۔
 
 # Item 3
 
