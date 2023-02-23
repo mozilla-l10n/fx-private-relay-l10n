@@ -6,6 +6,7 @@
 ## HERO SECTION 
 
 hero-section-title = Proteja sua identidade com mascaramento seguro de celular e email
+hero-section-body = Nossas máscaras de email e celular, seguras e fáceis de usar, ajudam a manter a privacidade da sua identidade para que você possa se inscrever em novas contas anonimamente, impedir mensagens de spam e chamadas indesejadas e receber apenas os emails que quiser.
 hero-section-cta = Introdução
 
 ## BUNDLE BANNER SECTION
@@ -13,8 +14,12 @@ hero-section-cta = Introdução
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Apenas por tempo limitado: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } por { $monthly_price }/mês
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = O { -brand-name-mozilla-vpn } te protege contra rastreamento e vigilância enquanto você joga, faz transações bancárias online ou trabalha. Adicione ao { -brand-name-firefox-relay } para economizar { $savings }.
 bundle-banner-plan-header-2 = Seu plano de 1 ano inclui:
 bundle-banner-plan-modules-email-masking = Ocultação de email
+bundle-banner-plan-modules-phone-masking = Ocultação de nº de celular
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Tenha { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
