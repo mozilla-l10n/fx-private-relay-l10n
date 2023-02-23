@@ -278,12 +278,31 @@ plan-matrix-heading-plan-bundle = Přidat ochranu sítí VPN
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mailové masky
 plan-matrix-heading-feature-browser-extension = Rozšíření do prohlížeče
+plan-matrix-heading-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-heading-feature-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-heading-feature-email-subdomain = E-mailová subdoména
+plan-matrix-heading-feature-email-reply = Možnost odpovědět na přeposlané e-maily
+plan-matrix-heading-feature-phone-mask = Maska telefonního čísla
+plan-matrix-heading-feature-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+plan-matrix-feature-list-email-masks = { $mask_limit } e-mailových masek
 plan-matrix-feature-list-browser-extension = Rozšíření do prohlížeče
+plan-matrix-feature-list-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-feature-list-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-list-email-subdomain = E-mailová subdoména
+plan-matrix-feature-list-email-reply = Možnost odpovědět na přeposlané e-maily
+plan-matrix-feature-list-phone-mask = Maska telefonního čísla
+plan-matrix-feature-list-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 plan-matrix-price-monthly = { $monthly_price }/měsíc
 # We're showing a monthly price to make it easier to compare, but with an asterisk noting that it'll be billed yearly
 plan-matrix-price-period-yearly-note = Roční účtování
+# Variables:
+#   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
+plan-matrix-price-vpn-discount = Ušetřete { $procentage }% z běžné ceny sítě VPN
+plan-matrix-pick = Zaregistrovat se
 
 ## Use Cases
 
@@ -333,6 +352,9 @@ premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomoc
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-2-html = S { -brand-name-firefox-relay-premium(case: "ins") } získáte neomezený počet vlastních e-mailových masek, které přeposílají pouze e-maily, které chcete, na vaši skutečnou e-mailovou adresu. <b>Po omezenou dobu můžete upgradovat na { -brand-name-relay-premium(case: "acc") } jen za { $monthly_price } měsíčně.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Se službou { -brand-name-firefox-relay-premium } získáte neomezený počet vlastních e-mailových masek, které na vaši skutečnou e-mailovou adresu přeposílají pouze ty e-maily, které chcete.
 premium-promo-hero-cta = Upgradujte hned teď
 premium-promo-availability-warning =
     { -brand-name-relay-premium.gender ->
