@@ -133,7 +133,20 @@ whatsnew-feature-tracker-removal-snippet = Nyní { -brand-name-relay } umí z p�
 whatsnew-feature-tracker-removal-description = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 whatsnew-feature-tracker-removal-description-2 = Nyní { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní. Zapnout to je možno v nastavení.
 whatsnew-feature-offer-countdown-heading = Naše zaváděcí cenová nabídka brzy končí!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# Try to keep this string short, not longer than the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si neomezené maskování…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si neomezené maskování za naši zaváděcí měsíční cenu.
 whatsnew-feature-offer-countdown-cta = Upgradujte
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } je nyní k dispozici ve správci hesel { -brand-name-firefox(case: "gen") }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat…
+whatsnew-feature-firefox-integration-description = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat nové e-mailové masky { -brand-name-relay } přímo ze správce hesel { -brand-name-firefox(case: "gen") } ve vašem počítači.
 
 ## Bento Menu
 
@@ -175,7 +188,11 @@ landing-hero-headline-2 = Chraňte svou skutečnou e-mailovou adresu, abyste mě
 landing-hero-body-2 =
     E-mailové masky { -brand-name-firefox-relay } chrání vaši skutečnou e-mailovou adresu před zveřejněním a automaticky přeposílají zprávy do vaší skutečné schránky.
     Nyní budete přijímat pouze zprávy, které chcete mít ve své doručené poště. Začněte registrací pomocí svého { -brand-name-firefox-account(case: "gen", capitalization: "lower") }.
+landing-offer-end-hero-heading = Naše zaváděcí cenová nabídka brzy končí!
 landing-offer-end-hero-cta = Upgradujte
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+landing-offer-end-hero-content = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiovou ochranu e-mailu za naši zaváděcí měsíční cenu.
 
 ## How it works section
 
@@ -263,7 +280,7 @@ landing-pricing-offer-end-cta = Upgradujte
 # Deprecated
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-landing-pricing-offer-end-body = Získejte { -brand-name-relay-premium(case: "acc") } do { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
+landing-pricing-offer-end-body = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
@@ -359,7 +376,7 @@ premium-promo-hero-cta = Upgradujte hned teď
 premium-promo-offer-end-hero-heading = Naše zaváděcí cenová nabídka brzy končí!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Získejte { -brand-name-relay-premium(case: "acc") } do { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
+premium-promo-offer-end-hero-content = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
 premium-promo-offer-end-hero-cta = Upgradujte hned teď
 premium-promo-availability-warning =
     { -brand-name-relay-premium.gender ->
@@ -399,11 +416,20 @@ premium-promo-use-cases-social-networks-body-2 = Chcete lépe chránit svou onli
 premium-promo-use-cases-gaming-heading = Hraní her
 premium-promo-use-cases-gaming-body-2 = Obáváte se, že se ostatní hráči nebo trollové prostřednictvím vašeho gamertagu a e-mailové adresy dozví, kdo jste? Použijte masku například „online-hry@vase-domena.mozmail.com“, abyste vložili další vrstvu ochrany mezi vaši identitu a hry, které hrajete online.
 premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Zaváděcí cena: Neomezený počet masek za { $monthly_price } měsíčně
+premium-promo-pricing-offer-end-warning = Tato promoakce brzy skončí
+premium-promo-pricing-offer-end-cta = Upgradujte hned teď
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiovou ochranu e-mailu za naši zaváděcí měsíční cenu.
 
 ## The Premium waitlist page
 
 # Deprecated
 waitlist-heading = Přidat se na čekací listinu služby { -brand-name-relay-premium }
+waitlist-heading-2 = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 # Deprecated
 waitlist-lead =
     { -brand-name-firefox-relay-premium.gender ->
