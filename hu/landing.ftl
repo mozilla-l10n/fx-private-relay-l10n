@@ -110,11 +110,14 @@ plan-matrix-price-free = Ingyenes
 plan-matrix-price-monthly-calculated = { $monthly_price }/hó
 plan-matrix-price-period-yearly = Évente
 plan-matrix-price-period-monthly = Havi
+plan-matrix-price-period-yearly-footnote-1 = Éves számlázás
+plan-matrix-price-period-monthly-footnote-1 = Havi számlázás
 plan-matrix-price-vpn-discount-promo = <span>{ $savings } megtakarítás</span> a szokásos ({ -brand-name-vpn }) árhoz képest
 
 # Plan CTAs
 
 plan-matrix-upgrade = Frissítés
+plan-matrix-sign-up = Regisztráció
 plan-matrix-get-relay-cta = { -brand-name-relay } beszerzése
 plan-matrix-join-waitlist = Csatlakozás a várólistához
 
@@ -148,18 +151,32 @@ highlighted-features-section-new-item = Új!
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Mindenki ingyenesen kap { $mask_limit } e-mail-maszkot.
+    A { -brand-name-relay-premium } segítségével azonban annyi maszkot hozhat létre, amennyire csak szüksége van a postaládája
+    spammerektől, hackerektől és online nyomkövetőktől történő megvédéséhez.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Azonnal készítsen maszkokat útközben
 
 # Item 3
 
+highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Blokkolja a promóciós leveleket
+highlighted-features-section-block-promotions-body =
+    A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
+    miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = E-mail-követők eltávolítása
+highlighted-features-section-remove-trackers-body = A { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a követők és a hirdetők számára.
 
 ## FAQ SECTION
 
