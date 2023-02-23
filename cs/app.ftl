@@ -456,7 +456,10 @@ waitlist-submit-label = Přidat se na čekací listinu
 waitlist-submit-label-2 = Přidat se na čekací listinu
 # Deprecated
 waitlist-privacy-policy-agree = Klepnutím na tlačítko „{ waitlist-submit-label }“ souhlasíte s našimi <a>zásadami ochrany osobních údajů</a>.
+waitlist-privacy-policy-agree-2 = Klepnutím na tlačítko „{ waitlist-submit-label-2 }“ souhlasíte s našimi <a>zásadami ochrany osobních údajů</a>.
 waitlist-privacy-policy-use = Vaše údaje budou použity pouze na informování o dostupnosti služby { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Vaše údaje budou použity pouze na informování o dostupnosti maskování telefonu ve vaší oblasti.
+waitlist-privacy-policy-use-bundle = Vaše údaje budou použity pouze na informování o dostupnosti balíku služeb { -brand-name-relay } + { -brand-name-vpn }
 waitlist-subscribe-success =
     { -brand-name-firefox-relay-premium.gender ->
         [masculine] Máme vás na seznamu a dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupný.
