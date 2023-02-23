@@ -486,9 +486,11 @@ settings-warning-collection-off-heading-2 = Funkce opatření e-mailové masky p
 settings-warning-collection-off-heading-3 = Názvy účtů pro e-mailové masky jsou vypnuté
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } nemá nyní povoleno shromažďovat data zobrazující weby, na kterých jste vygenerovali a použili e-mailové masky. Toto můžete změnit v „Nastavení“ v části „Shromažďování dat“.
+settings-warning-collection-off-description-3 = Služba { -brand-name-relay } momentálně nemá povoleno opatřovat vaše e-mailové masky popiskami udávající weby, na kterých jste je použili. Chcete-li to změnit, povolte názvy účtů pro e-mailové masky v části „Soukromí“.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Soukromí
 setting-label-collection-description-2 = Povolit { -brand-name-relay(case: "dat") } shromažďovat data o stránkách, na kterých jsou vytvořeny a používány vaše masky.
+setting-label-collection-description-3 = Povolit názvy účtů pro e-mailové masky
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Tyto údaje nám umožní opatřit vaše e-mailové masky popisky udávající weby, na kterých jsou používány. Pokud se rozhodnete ponechat tuto předvolbu nezaškrtnutou, nebudou vaše masky opatřeny popisky udávající weby, na nichž jsou používány.
 settings-button-save-label = Uložit
