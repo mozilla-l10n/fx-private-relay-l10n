@@ -665,8 +665,10 @@ profile-indicator-tracker-removal-tooltip = Зараз вилучається с
 profile-promo-email-blocking-title = Які електронні листи ви хочете заблокувати?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Усі
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Промоційні
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Промоції
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Не блокувати
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокує всі електронні листи, надіслані на цю маску.
