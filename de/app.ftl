@@ -666,8 +666,10 @@ profile-indicator-tracker-removal-tooltip = Derzeit werden E-Mail-Tracker entfer
 profile-promo-email-blocking-title = Welche E-Mails möchtest du blockieren?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Alle
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Werbung
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Werbung
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Keine
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blockiert alle E-Mails, die an diese Maske gesendet werden.
