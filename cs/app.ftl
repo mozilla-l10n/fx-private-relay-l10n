@@ -431,6 +431,7 @@ premium-promo-pricing-offer-end-body = Pořiďte si { -brand-name-relay-premium(
 waitlist-heading = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 waitlist-heading-2 = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 waitlist-heading-phone = Přidat se na čekací listinu pro maskování telefonu službou { -brand-name-relay }
+waitlist-heading-bundle = Přidat se na čekací listinu pro balík služeb { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead =
     { -brand-name-firefox-relay-premium.gender ->
