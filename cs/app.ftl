@@ -493,6 +493,7 @@ setting-label-collection-description-2 = Povolit { -brand-name-relay(case: "dat"
 setting-label-collection-description-3 = Povolit názvy účtů pro e-mailové masky
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Tyto údaje nám umožní opatřit vaše e-mailové masky popisky udávající weby, na kterých jsou používány. Pokud se rozhodnete ponechat tuto předvolbu nezaškrtnutou, nebudou vaše masky opatřeny popisky udávající weby, na nichž jsou používány.
+setting-label-collection-off-warning-3 = Služba { -brand-name-firefox-relay } si bude ukládat weby, na kterých jste použili své e-mailové masky, a tyto masky opatří popisky udávající dané weby, abyste je mohli snadno identifikovat. Vypnutí této funkce znamená, že nebudete moci zjistit, kde jste jednotlivé masky použili, a názvy vašich účtů se již nebudou synchronizovat mezi zařízeními.
 settings-button-save-label = Uložit
 settings-button-save-tooltip = Použijte zvolená nastavení.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -508,6 +509,7 @@ setting-tracker-removal-description = Odstraňovat sledovací prvky ze všech p�
 setting-tracker-removal-note = { -brand-name-firefox-relay } nyní může z e-mailů přeposlaných přes vaše masky odstranit běžné sledovací prvky.
 # Deprecated
 setting-tracker-removal-warning = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
+setting-tracker-removal-warning-2 = Důležité: Odstranění sledovacích prvků může způsobit, že váš e-mail bude vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech. Takto obdržené e-maily nelze opravit ani obnovit.
 
 ## FAQ Page
 
