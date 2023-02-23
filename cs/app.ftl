@@ -269,6 +269,12 @@ landing-pricing-offer-end-body = Získejte { -brand-name-relay-premium(case: "ac
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Časově omezeno: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/měsíc*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Časově omezeno: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/měsíc*
+plan-matrix-bundle-offer-content = Vyzkoušejte e-mailové masky { -brand-name-firefox-relay } a začněte chránit svou e-mailovou schránku. Poté upgradujte na { -brand-name-relay-premium(case: "acc") } pro ještě větší flexibilitu a přizpůsobené ovládání.
+plan-matrix-heading-plan-bundle = Přidat ochranu sítí VPN
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = E-mailové masky
 plan-matrix-heading-feature-browser-extension = Rozšíření do prohlížeče
