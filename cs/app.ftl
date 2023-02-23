@@ -390,6 +390,7 @@ premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové m
 premium-promo-perks-perk-block-promotionals-headline = Blokování propagačních e-mailů
 premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete zabránit doručování propagačních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
 premium-promo-perks-perk-tracker-blocking-headline = Odstraňování sledovacích prvků z e-mailů
+premium-promo-perks-perk-tracker-blocking-body = Nyní vám služba { -brand-name-relay } může pomoci zastavit sledování e-mailů – vaše e-mailové masky odstraní běžné sledovací prvky ze všech e-mailů, které vám budou přeposlány, a vy tak zůstanete neviditelní pro sledující subjekty a inzerenty.
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
 premium-promo-use-cases-shopping-heading = Nakupování
 premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
@@ -670,7 +671,7 @@ profile-indicator-tracker-removal-tooltip = Aktuálně se z e-mailů odstraňuj�
 profile-promo-email-blocking-title = Jaké e-maily chcete blokovat?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Všechny
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Propagační
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Žádné
