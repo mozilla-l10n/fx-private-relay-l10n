@@ -482,7 +482,8 @@ settings-meta-status-tooltip = Zkontrolujte, zda jsou teď všechny systémy { -
 settings-error-save-heading = Nastavení se nepodařilo změnit
 settings-error-save-description = Vaše změny nastavení nebyly uloženy kvůli chybě připojení. Zkuste to prosím znovu.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = Funkce označení masky e-mailu je zakázána
+settings-warning-collection-off-heading-2 = Funkce opatření e-mailové masky popiskem je zakázána
+settings-warning-collection-off-heading-3 = Názvy účtů pro e-mailové masky jsou vypnuté
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } nemá nyní povoleno shromažďovat data zobrazující weby, na kterých jste vygenerovali a použili e-mailové masky. Toto můžete změnit v „Nastavení“ v části „Shromažďování dat“.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
