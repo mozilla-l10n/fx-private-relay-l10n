@@ -654,8 +654,10 @@ profile-indicator-tracker-removal-tooltip = Attualmente vengono rimossi gli elem
 profile-promo-email-blocking-title = Quali email vuoi bloccare?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Tutte
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Pubblicitarie
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promozioni
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Nessuna
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } sta bloccando tutte le email inviate a questo alias.
