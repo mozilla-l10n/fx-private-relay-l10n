@@ -356,6 +356,11 @@ premium-promo-hero-body-2-html = S { -brand-name-firefox-relay-premium(case: "in
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Se službou { -brand-name-firefox-relay-premium } získáte neomezený počet vlastních e-mailových masek, které na vaši skutečnou e-mailovou adresu přeposílají pouze ty e-maily, které chcete.
 premium-promo-hero-cta = Upgradujte hned teď
+premium-promo-offer-end-hero-heading = Naše zaváděcí cenová nabídka brzy končí!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Získejte { -brand-name-relay-premium(case: "acc") } do { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
+premium-promo-offer-end-hero-cta = Upgradujte hned teď
 premium-promo-availability-warning =
     { -brand-name-relay-premium.gender ->
         [masculine] { -brand-name-relay-premium } je momentálně dostupný v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
@@ -370,6 +375,7 @@ premium-promo-availability-warning-2 =
         [neuter] { -brand-name-relay-premium } je momentálně dostupné v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
        *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
     }
+premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je dostupná v Belgii, Estonsku, Finsku, Francii, Irsku, Itálii, Kanadě, Kypru, Litvě, Lotyšsku, Lucembursku, Malajsii, Maltě, Německu, Nizozemsku, na Novém Zélandu, v Portugalsku, Rakousku, Řecku, Singapuru, Slovensku, Slovinsku, Spojeném království, Španělsku, Švédsku, Švýcarsku a Spojených státech.
 premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
 premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
 premium-promo-perks-cta-label = Upgradujte hned teď
@@ -382,6 +388,8 @@ premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete 
 premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
 premium-promo-perks-perk-block-promotionals-headline = Blokování propagačních e-mailů
+premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete zabránit doručování propagačních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
+premium-promo-perks-perk-tracker-blocking-headline = Odstraňování sledovacích prvků z e-mailů
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
 premium-promo-use-cases-shopping-heading = Nakupování
 premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
