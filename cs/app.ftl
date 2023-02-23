@@ -440,12 +440,16 @@ waitlist-lead =
         [neuter] Dáme vám vědět, až pro vás bude { -brand-name-firefox-relay-premium } dostupné.
        *[other] Dáme vám vědět, až pro vás bude služba { -brand-name-firefox-relay-premium } dostupná.
     }
+waitlist-lead-2 = Dáme vám vědět, až bude služba { -brand-name-relay-premium } dostupná ve vaší oblasti.
+waitlist-lead-phone = Dáme vám vědět, až bude maskování telefonu dostupné ve vaší oblasti.
+waitlist-lead-bundle = Dáme vám vědět, až budete moci služby { -brand-name-relay-premium } a { -brand-name-mozilla-vpn } získat ve vaší oblasti se slevou.
 waitlist-control-required = Povinné
 waitlist-control-email-label = Jaká je vaše e-mailová adresa?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
 waitlist-control-email-placeholder = vase-adresa@example.com
 # Deprecated
 waitlist-control-country-label = V jaké zemi žijete?
+waitlist-control-country-label-2 = V jaké zemi žijete?
 waitlist-control-locale-label = Vyberte svůj preferovaný jazyk.
 # Deprecated
 waitlist-submit-label = Přidat se na čekací listinu
