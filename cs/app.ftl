@@ -489,7 +489,7 @@ settings-warning-collection-off-description-2 = { -brand-name-relay } nemá nyn�
 setting-label-collection-heading-v2 = Soukromí
 setting-label-collection-description-2 = Povolit { -brand-name-relay(case: "dat") } shromažďovat data o stránkách, na kterých jsou vytvořeny a používány vaše masky.
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning-2 = Tyto údaje nám umožní propojit vaše e-mailové masky s webovými stránkami, kde se používají. Pokud se rozhodnete tuto předvolbu zrušit, vaše masky nebudou propojeny s webovými stránkami, kde se používají.
+setting-label-collection-off-warning-2 = Tyto údaje nám umožní opatřit vaše e-mailové masky popisky udávající weby, na kterých jsou používány. Pokud se rozhodnete ponechat tuto předvolbu nezaškrtnutou, nebudou vaše masky opatřeny popisky udávající weby, na nichž jsou používány.
 settings-button-save-label = Uložit
 settings-button-save-tooltip = Použijte zvolená nastavení.
 # This is a read-only input where a user can copy their API key to their clipboard
