@@ -41,6 +41,7 @@ how-it-works-section-title = Como funciona o mascaramento de email e celular do 
 # Item 1
 
 how-it-works-section-extension-headline = Use máscaras de email e máscaras de celular do { -brand-name-relay } em qualquer lugar
+how-it-works-section-extension-body = Obtenha máscaras de email seguras e aleatórias e um número de celular mascarado exclusivo para usar sempre que um site, aplicativo, loja ou restaurante solicitar suas informações.
 
 # Item 2
 
