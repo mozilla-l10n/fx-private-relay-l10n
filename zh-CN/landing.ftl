@@ -106,9 +106,15 @@ plan-matrix-price-free = 免费
 plan-matrix-price-monthly-calculated = 每月 { $monthly_price }
 plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
+plan-matrix-price-period-yearly-footnote-1 = 按年收费
+plan-matrix-price-period-monthly-footnote-1 = 按月收费
+plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <span>优惠 { $savings }</span>
 
 # Plan CTAs
 
+plan-matrix-upgrade = 升级
+plan-matrix-sign-up = 注册
+plan-matrix-get-relay-cta = 下载 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入预约名单
 
 ## REVIEWS SECTION
@@ -133,9 +139,14 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } 功能超
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = 简单而安全地功能，保护您的身份信息
+highlighted-features-section-bottom-title = 使用 { -brand-name-firefox-relay } 保护您的身份信息和收件箱
+highlighted-features-section-bottom-cta = 开始使用
+highlighted-features-section-new-item = 新功能！
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
 
 # Item 2
 

@@ -377,7 +377,7 @@ premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家�
 premium-promo-pricing-free-price = 您当前的免费方案
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = 介绍价格：每月 { $monthly_price } 即享无限马甲
+premium-promo-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } 即享无限马甲
 premium-promo-pricing-offer-end-warning = 本促销活动即将结束
 premium-promo-pricing-offer-end-cta = 立即升级
 # Variables:
