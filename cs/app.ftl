@@ -318,7 +318,7 @@ plan-matrix-price-monthly = { $monthly_price }/měsíc
 plan-matrix-price-period-yearly-note = Roční účtování
 # Variables:
 #   $percentage (number) - how many percent discount this plan gets subscribers on the regular Mozilla VPN price
-plan-matrix-price-vpn-discount = Ušetřete { $procentage }% z běžné ceny sítě VPN
+plan-matrix-price-vpn-discount = Ušetřete { $percentage }% z běžné ceny sítě VPN
 plan-matrix-pick = Zaregistrovat se
 
 ## Use Cases
