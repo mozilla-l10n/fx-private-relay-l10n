@@ -56,6 +56,7 @@ how-it-works-section-manage-body = Entre no seu painel do { -brand-name-relay } 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Escolha um nível de proteção adequado para você
+plan-matrix-offer-body = O { -brand-name-firefox-relay } protege sua identidade e sua caixa de entrada com máscaras de email exclusivas. Adicione ainda mais segurança com o mascaramento de celular do { -brand-name-relay } e economize { $savings } adicionando a proteção do { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -65,13 +66,19 @@ plan-matrix-heading-features = Recursos
 plan-matrix-heading-plan-free = Proteção limitada de email
 plan-matrix-heading-plan-premium = Proteção de email
 plan-matrix-heading-plan-phones = Proteção de email e celular
+plan-matrix-heading-plan-bundle-2 = Adicionar proteção do { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Tenha o { -brand-name-relay-premium } e o { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
 plan-matrix-feature-email-masks = Máscaras de email para proteger seu endereço de email real
+plan-matrix-feature-browser-extension = Extensão de navegador para usar o { -brand-name-relay } em qualquer site
 plan-matrix-feature-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-promo-email-blocking = Bloqueio de emails promocionais
+plan-matrix-feature-email-subdomain = Domínio de email do { -brand-name-relay } para criar máscaras em qualquer lugar
+plan-matrix-feature-email-reply = Responder a emails anonimamente
+plan-matrix-feature-phone-mask = Máscara de celular para proteger seu número real
+plan-matrix-feature-vpn = Proteção do { -brand-name-vpn } da <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -82,6 +89,7 @@ plan-matrix-feature-mobile-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-mobile-promo-email-blocking = Bloqueio de emails promocionais
 plan-matrix-feature-mobile-email-subdomain = Domínio exclusivo de emails do { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Responder a emails anonimamente
+plan-matrix-feature-mobile-phone-mask = Proteja seu número de celular real
 
 # Plan Details
 
