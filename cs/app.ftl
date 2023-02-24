@@ -103,11 +103,11 @@ whatsnew-feature-sign-back-in-heading = Znovu se přihlaste pomocí svých alias
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Když budete požádáni o váš e-mail, pro vytvoření nového aliasu otevřete…
 whatsnew-feature-sign-back-in-description = Když budete požádání o váš e-mail, pro přihlášení pomocí dříve použitého aliasu otevřete kontextovou nabídku a vybraný alias se automaticky vyplní do pole pro e-mail.
-whatsnew-feature-forward-some-heading = Blokování propagačních e-mailů
+whatsnew-feature-forward-some-heading = Blokování reklamních e-mailů
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily…
-whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovat pouze propagační e-maily zasílané na adresu vašeho alias. Budete dostávat e-maily jako jsou potvrzení, ale ne marketingové e-maily.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } vám umožňuje blokovat pouze reklamní e-maily…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } vám umožňuje blokovat pouze reklamní e-maily zasílané na adresu vašeho aliasu. Budete dostávat e-maily jako jsou potvrzení, ale ne marketingové e-maily.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Aliasy se mění na masky
@@ -256,7 +256,7 @@ landing-pricing-premium-feature-3-subheader = vas-email@vase-domena.mozmail.com
 # Deprecated
 landing-pricing-premium-feature-4 = Možnost odpovědět na přeposlané e-maily
 # Deprecated
-landing-pricing-premium-feature-5 = Blokování propagačních e-mailů
+landing-pricing-premium-feature-5 = Blokování reklamních e-mailů
 # Deprecated
 landing-pricing-premium-feature-6 = Odstraňování sledovacích prvků z e-mailů
 # Deprecated
@@ -296,7 +296,7 @@ plan-matrix-heading-plan-bundle = Přidat ochranu sítí VPN
 plan-matrix-heading-feature-email-masks = E-mailové masky
 plan-matrix-heading-feature-browser-extension = Rozšíření do prohlížeče
 plan-matrix-heading-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-heading-feature-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-heading-feature-promo-email-blocking = Blokování reklamních e-mailů
 plan-matrix-heading-feature-email-subdomain = E-mailová subdoména
 plan-matrix-heading-feature-email-reply = Možnost odpovědět na přeposlané e-maily
 plan-matrix-heading-feature-phone-mask = Maska telefonního čísla
@@ -306,7 +306,7 @@ plan-matrix-heading-feature-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozi
 plan-matrix-feature-list-email-masks = { $mask_limit } e-mailových masek
 plan-matrix-feature-list-browser-extension = Rozšíření do prohlížeče
 plan-matrix-feature-list-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-list-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-list-promo-email-blocking = Blokování reklamních e-mailů
 plan-matrix-feature-list-email-subdomain = E-mailová subdoména
 plan-matrix-feature-list-email-reply = Možnost odpovědět na přeposlané e-maily
 plan-matrix-feature-list-phone-mask = Maska telefonního čísla
@@ -404,8 +404,8 @@ premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastní subdomé
 premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete vytvářet masky, které si zapamatujete a sdílíte snadněji než kdy dříve. Potřebujete jednu pro rezervaci v restauraci? Použijte například jidlo@vase-domena.mozmail.com — Není třeba vytvářet masku předem.
 premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
-premium-promo-perks-perk-block-promotionals-headline = Blokování propagačních e-mailů
-premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete zabránit doručování propagačních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
+premium-promo-perks-perk-block-promotionals-headline = Blokování reklamních e-mailů
+premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete zabránit doručování reklamních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
 premium-promo-perks-perk-tracker-blocking-headline = Odstraňování sledovacích prvků z e-mailů
 premium-promo-perks-perk-tracker-blocking-body = Nyní vám služba { -brand-name-relay } může pomoci zastavit sledování e-mailů – vaše e-mailové masky odstraní běžné sledovací prvky ze všech e-mailů, které vám budou přeposlány, a vy tak zůstanete neviditelní pro sledující subjekty a inzerenty.
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
