@@ -44,6 +44,7 @@ how-it-works-section-forward-headline = 我們會將收到的電子郵件、來�
 
 # Item 3
 
+how-it-works-section-manage-headline = 在 { -brand-name-relay } 儀錶板管理您的轉寄信箱
 
 ## PRICING MATRIX SECTION
 
@@ -131,6 +132,8 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } works won
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = 簡單又安全就能幫助保護您身分資料的功能
+highlighted-features-section-bottom-title = 使用 { -brand-name-firefox-relay } 保護您的個人身分資料（與信件匣）
 highlighted-features-section-bottom-cta = 開始使用
 highlighted-features-section-new-item = 新功能！
 
