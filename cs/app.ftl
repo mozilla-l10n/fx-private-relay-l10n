@@ -796,6 +796,12 @@ banner-upgrade-loyalist-headline-2 = Chraňte své soukromí, zachraňte interne
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Chraňte své soukromí a připojte se k naší misi vybudovat lepší internet, a to vše za { $monthly_price }
 banner-upgrade-loyalist-cta = Získejte větší ochranu
+# End of intro pricing countdown banner:
+banner-offer-end-headline = Naše zaváděcí cenová nabídka brzy končí!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+banner-offer-end-copy = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si neomezené maskování za naši zaváděcí měsíční cenu.
+banner-offer-end-cta = Upgradujte hned teď
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Můžete si vytvořit libovolnou adresu @{ $subdomain }
