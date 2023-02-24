@@ -500,6 +500,7 @@ faq-question-availability-question = 哪些地方可以使用 { -brand-name-rela
 faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v2 = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、芬兰、法国、比利时、奥地利、西班牙、意大利、瑞典、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v3 = 大多数国家/地区都提供免费的 { -brand-name-relay }。 { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+faq-question-landing-page-availability = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 马甲邮箱则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。
 faq-question-subdomain-characters-question = 我可以使用哪些字符创建子域名？
@@ -645,8 +646,10 @@ profile-indicator-tracker-removal-tooltip = 目前正在删除电子邮件跟踪
 profile-promo-email-blocking-title = 您想要屏蔽哪些类型的邮件？
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = 全部
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = 营销邮件
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = 营销邮件
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = 无
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 将屏蔽所有发送至此马甲邮箱的邮件。
@@ -890,10 +893,23 @@ trackerreport-trackers-heading = 检测到跟踪器数目
 trackerreport-trackers-tracker-heading = 跟踪器域名
 trackerreport-trackers-count-heading = 跟踪器数量
 trackerreport-trackers-none = 此电子邮件中未检测到跟踪器。
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+       *[other] { $count } 个跟踪器
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+       *[other] { $count } 个跟踪器
+    }
 trackerreport-confidentiality-notice = 这些报告中显示的跟踪器信息和发件人地址不会由 { -brand-name-firefox-relay } 保存，仅包含在报告 URL 中。我们不保存您的电子邮件。
 trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } 现在可以从通过马甲邮箱转发的邮件中移除常见的跟踪器。您依然能够收到转发的邮件，但其包含的跟踪器会被移除，这样您就可以不受跟踪地收取邮件。如需为所有马甲邮箱启用“移除跟踪器”功能，可在设置中启用该功能，而不必逐个设置。
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
+trackerreport-trackers-explainer-content-part1 = 电子邮件跟踪是常见的监视和广告工具，许多邮箱饱受其侵扰。这些跟踪器可用于更多地了解您的上网行为、兴趣爱好和电子邮件活动。
 trackerreport-faq-heading = 关于邮件跟踪器的常见问题
 trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 trackerreport-loading = 正在加载您的跟踪器移除报告…
