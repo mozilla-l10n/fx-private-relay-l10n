@@ -589,6 +589,7 @@ faq-question-8-question = Jaké údaje { -brand-name-firefox-relay } shromažďu
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Bližší informace o údajích, které { -brand-name-firefox-relay } shromažďuje, naleznete v našem <a href="{ $url }" { $attrs }>Oznámení o ochraně osobních údajů</a>. Volitelně také můžete sdílet údaje o popiscích a webu, který používáte pro své e-mailové masky, abychom vám mohli tuto službu poskytovat a vylepšovat ji.
+faq-question-8-answer-3-html = Služba { -brand-name-firefox-relay } shromažďuje weby, na kterých jste použili e-mailové masky, a opatřuje masky popisky udávající dané weby, abyste je mohli snadno identifikovat. Tuto funkci můžete vypnout na stránce Nastavení v části Soukromí. Mějte však na paměti, že vypnutí tohoto nastavení znamená, že nebudete moci zjistit, kde jste použili jednotlivé masky, a názvy vašich účtů se již nebudou synchronizovat mezi zařízeními. Více informací o údajích, které { -brand-name-firefox-relay } shromažďuje, se dozvíte v našem <a href="{ $url }" { $attrs }>Oznámení o ochraně osobních údajů</a>.
 faq-question-email-storage-question = Uchovává si { -brand-name-relay } mé e-maily?
 faq-question-email-storage-answer = Ve výjimečných případech, kdy je služba mimo provoz, si můžeme vaše e-maily dočasně uchovávat, dokud je nebudeme moci odeslat. Vaše e-maily si nikdy neuchováváme déle než tři dny.
 faq-question-acceptable-use-question = Jaká jsou přijatelná použití { -brand-name-relay(case: "gen") }?
@@ -671,6 +672,7 @@ profile-label-trackers-removed = Odstraněno sledovacích prvků
 profile-trackers-removed-tooltip-part1 = Je-li povoleno odstraňování sledovacích prvků, budou z přeposílaných e-mailů odstraněny běžné e-mailové sledovací prvky.
 # Deprecated
 profile-trackers-removed-tooltip-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
+profile-trackers-removed-tooltip-part2-2 = <b>Důležité:</b> Odstranění sledovacích prvků může způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech.
 profile-label-cancel = Zrušit
 profile-blocked-copy-2 = Pokud pro tuto masku vyberete blokování, { -brand-name-firefox-relay } smaže zprávy ještě předtím, než se dostanou do vaší e-mailové schránky.
 profile-forwarded-copy-2 = Pokud vyberete pro tuto masku přeposílání, { -brand-name-firefox-relay } bude zprávy přeposílat do vaší e-mailové schránky.
@@ -688,6 +690,7 @@ profile-stat-label-trackers-removed = Odstraněno sledovacích prvků
 profile-stat-label-trackers-learn-more-part1 = Zapnutím odstraňování sledovacích prvků budou z přeposílaných e-mailů odstraňovány běžné e-mailové sledovací prvky.
 # Deprecated
 profile-stat-label-trackers-learn-more-part2 = Důležité: Někdy může odstranění sledovacích prvků způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích.
+profile-stat-label-trackers-learn-more-part2-2 = Důležité: Odstranění sledovacích prvků může způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech.
 profile-filter-search-placeholder-2 = Vyhledat masku
 profile-filter-category-button-label = Odfiltrovat viditelné masky
 profile-filter-category-button-tooltip = Filtrování masek podle subdomény a/nebo podle toho, jestli aktuálně blokují příchozí e-maily.
