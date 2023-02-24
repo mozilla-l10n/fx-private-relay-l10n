@@ -14,24 +14,43 @@ hero-section-cta = 开始使用
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = 限时特惠：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 仅售 { $monthly_price } 每月
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } 可在您畅玩游戏、办理业务、完成工作时，保护您免受跟踪和监视。与 { -brand-name-firefox-relay } 一同订阅，立享 { $savings } 折扣。
 bundle-banner-plan-header-2 = 您的 1 年方案包含：
 bundle-banner-plan-modules-email-masking = 马甲邮箱
 bundle-banner-plan-modules-phone-masking = 虚拟手机号
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = 下载 { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = 新订阅者可享 { $days_guarantee } 天退款保证
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = { $num_vpn_servers } 余台服务器
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = { $num_vpn_countries } 余个国家和地区
+bundle-feature-three = 快速且安全的网络
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = { -brand-name-relay } 马甲邮箱和虚拟手机号是怎样工作的
 
 # Item 1
 
+how-it-works-section-extension-headline = 随时随地使用 { -brand-name-relay } 马甲邮箱和虚拟手机号
+how-it-works-section-extension-body = 获取安全、随机的马甲邮箱及独一无二的虚拟手机号，随时在网站、应用、商店、餐厅要求您提供个人信息时使用。
 
 # Item 2
 
+how-it-works-section-forward-headline = 我们会将邮件、电话和短信转发或转移给你
+how-it-works-section-forward-body = 请放心，发送消息的人永远不会知道您的真实邮件地址和电话号码，您也可以在不透露真实身份的情况下回复短信和邮件。
 
 # Item 3
 
+how-it-works-section-manage-headline = 在 { -brand-name-relay } 面板管理您的马甲
 
 ## PRICING MATRIX SECTION
 
