@@ -664,8 +664,10 @@ profile-indicator-tracker-removal-tooltip = Tar för närvarande bort e-postspå
 profile-promo-email-blocking-title = Vilka e-postmeddelanden vill du blockera?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Alla
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Reklam
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Reklamerbjudanden
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Inga
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blockerar alla e-post som skickas till detta e-postalias.
