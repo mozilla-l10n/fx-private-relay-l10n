@@ -40,7 +40,7 @@ plan-matrix-heading-plan-bundle-alt = Získejte { -brand-name-relay-premium(case
 plan-matrix-feature-email-masks = E-mailové masky pro ochranu vaší skutečné e-mailové adresy
 plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použití služby { -brand-name-relay } na libovolném webu
 plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-promo-email-blocking = Blokování reklamních e-mailů
 plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
 plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
 plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
@@ -52,7 +52,7 @@ plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových 
 plan-matrix-feature-mobile-email-masks = E-mailové masky
 plan-matrix-feature-mobile-browser-extension = Rozšíření do prohlížeče
 plan-matrix-feature-mobile-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-mobile-promo-email-blocking = Blokování propagačních e-mailů
+plan-matrix-feature-mobile-promo-email-blocking = Blokování reklamních e-mailů
 plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Anonymní odpovědi na e-maily
 plan-matrix-feature-mobile-phone-mask = Ochrana vašeho skutečného telefonního čísla
@@ -128,6 +128,8 @@ highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený 
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
+highlighted-features-section-block-promotions-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
 
 # Item 5
 

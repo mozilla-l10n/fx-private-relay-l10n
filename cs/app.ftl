@@ -716,13 +716,15 @@ profile-promo-email-blocking-title = Jaké e-maily chcete blokovat?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Všechny
 # Deprecated
-profile-promo-email-blocking-option-promotionals = Propagační
+profile-promo-email-blocking-option-promotionals = Reklamní
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Reklamní
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Žádné
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všechny e-maily odeslané na tuto masku.
-profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat propagační e-maily, zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat reklamní e-maily, zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žádné e-maily odeslané na tuto masku.
-profile-promo-email-blocking-label-promotionals = Blokovat propagační e-maily
+profile-promo-email-blocking-label-promotionals = Blokovat reklamy
 profile-promo-email-blocking-label-none = Blokovat vše
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Nepřeposílá se
@@ -776,6 +778,7 @@ banner-choose-subdomain-input-placeholder-3 = Vyhledat subdoménu
 banner-register-subdomain-button-search = Vyhledat
 banner-pack-upgrade-headline-2-html = Upgradujte na <strong>{ -brand-name-firefox-relay-premium(case: "acc") }</strong> a získejte více e-mailových masek
 banner-pack-upgrade-copy-2 = Díky neomezenému počtu e-mailových masek a vaší vlastní e-mailové subdoméně vám { -brand-name-firefox-relay-premium } zajistí na internetu stálou ochranu.
+footer-banner-premium-promo-headine = Upgradujte na <strong>{ -brand-name-firefox-relay-premium }</strong>, abyste ochránili svůj telefon <i>a</i> e-mail.
 banner-pack-upgrade-cta = Upgradujte
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizace zásad ochrany osobních údajů
@@ -865,8 +868,8 @@ popover-custom-alias-explainer-generate-button-heading-2 = Ruční vytvoření v
 popover-custom-alias-explainer-generate-button-label-2 = Vytvořit vlastní masku
 popover-custom-alias-explainer-close-button-label = Zavřít
 # Checkbox the user can click to adjust the block level of the new mask
-popover-custom-alias-explainer-promotional-block-checkbox = Blokovat propagační e-maily
-popover-custom-alias-explainer-promotional-block-tooltip-2 = Zapnutím blokování propagačních e-mailů zaslaných na vaší masku zabráníte jejich doručování do vaší e-mailové schránky.
+popover-custom-alias-explainer-promotional-block-checkbox = Blokovat reklamní e-maily
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Zapnutím blokování reklamních e-mailů zaslaných na vaší masku zabráníte jejich doručování do vaší e-mailové schránky.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Více informací
 
 ## Tip about using custom masks
@@ -876,8 +879,8 @@ tips-custom-alias-content-2 = Vše, co musíte udělat, je vymyslet a sdílet je
 
 ## Tip about using custom masks
 
-tips-promo-email-blocking-heading = Blokování propagačních e-mailů
-tips-promo-email-blocking-content = S { -brand-name-relay-premium(case: "ins") } můžete zabránit doručování propagačních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
+tips-promo-email-blocking-heading = Blokování reklamních e-mailů
+tips-promo-email-blocking-content = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
 
 ## Onboarding
 
