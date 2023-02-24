@@ -955,8 +955,14 @@ multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnk
 
 ## Report of trackers removed from an email
 
+trackerreport-title = Hlášení služby { -brand-name-relay } o odstraněných sledovacích prvcích
 trackerreport-meta-from-heading = Od
 trackerreport-meta-receivedat-heading = Obdržel
+trackerreport-meta-count-heading = Celkem sledovacích prvků
+trackerreport-trackers-heading = Zjištěno sledovacích prvků
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Doména sledovacího prvku
+trackerreport-trackers-count-heading = Počet sledovacích prvků
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 
