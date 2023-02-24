@@ -812,6 +812,9 @@ banner-ab-premium-promo-advanced-identity-headline = Pokročilá ochrana identit
 banner-ab-premium-promo-advanced-identity-body = Zabraňte sledovacím subjektům a agregátorům dat, aby vás identifikovali prostřednictvím vašeho telefonního čísla a e-mailové adresy.
 banner-ab-premium-promo-control-receiver-headline = Mějte pod kontrolou, kdo dostane vaše skutečné číslo
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } vám poskytuje telefonní masku, která ochrání vaše skutečné číslo – plus neomezený počet e-mailových masek.
+banner-ab-premium-promo-extra-protection-headline = Získejte dodatečnou ochranu e-mailové schránky a telefonu
+banner-ab-premium-promo-extra-protection-body = Získejte neomezený počet e-mailových masek – plus telefonní masku, abyste měli pod kontrolou, kdo dostane vaše skutečné číslo.
+banner-ab-premium-promo-cta = Upgradovat
 
 ## Success Messages
 
@@ -927,6 +930,7 @@ multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu
 multi-part-onboarding-premium-welcome-title = Mít kontrolu nad tím, jaké e-maily budete dostávat:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvářet neomezený počet e-mailových masek:
 multi-part-onboarding-premium-welcome-button-start = Začít
+multi-part-onboarding-premium-get-subdomain = Získejte vlastní subdoménu
 multi-part-onboarding-premium-extension-get-title = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 multi-part-onboarding-premium-extension-get-description-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") } ještě více usnadňuje používání e-mailových masek.
 multi-part-onboarding-premium-extension-button-download = Získat rozšíření { -brand-name-relay }
