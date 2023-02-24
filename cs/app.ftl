@@ -779,6 +779,7 @@ banner-register-subdomain-button-search = Vyhledat
 banner-pack-upgrade-headline-2-html = Upgradujte na <strong>{ -brand-name-firefox-relay-premium(case: "acc") }</strong> a získejte více e-mailových masek
 banner-pack-upgrade-copy-2 = Díky neomezenému počtu e-mailových masek a vaší vlastní e-mailové subdoméně vám { -brand-name-firefox-relay-premium } zajistí na internetu stálou ochranu.
 footer-banner-premium-promo-headine = Upgradujte na <strong>{ -brand-name-firefox-relay-premium }</strong>, abyste ochránili svůj telefon <i>a</i> e-mail.
+footer-banner-premium-promo-body = Získejte masku telefonního čísla, neomezený počet e-mailových masek a vlastní e-mailové adresy pro rychlé vytvoření masky.
 banner-pack-upgrade-cta = Upgradujte
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizace zásad ochrany osobních údajů
