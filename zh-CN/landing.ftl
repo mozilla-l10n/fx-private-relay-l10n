@@ -51,9 +51,12 @@ how-it-works-section-forward-body = 请放心，发送消息的人永远不会�
 # Item 3
 
 how-it-works-section-manage-headline = 在 { -brand-name-relay } 面板管理您的马甲
+how-it-works-section-manage-body = 登录您的 { -brand-name-relay } 面板即可创建新马甲和虚拟手机号、为现有马甲和虚拟手机号添加备注，也可以在某个马甲或虚拟手机号收到太多骚扰电话、垃圾信息和邮件时将其关闭。
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = 选择适合您的保护级别
+plan-matrix-offer-body = { -brand-name-firefox-relay } 通过使用独一无二的马甲来保护您的身份信息和收件箱，同时提供 { -brand-name-relay } 虚拟手机号，保护更全面。继续添加 { -brand-name-vpn } 保护可享 { $savings } 优惠。
 
 # Top Row Labels
 
@@ -63,14 +66,30 @@ plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限的电子邮件保护
 plan-matrix-heading-plan-premium = 电子邮件保护
 plan-matrix-heading-plan-phones = 电子邮件和电话保护
+plan-matrix-heading-plan-bundle-2 = 添加 { -brand-name-vpn } 保护
 plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = 马甲邮箱可保护您的真实邮箱
+plan-matrix-feature-browser-extension = 安装扩展即可在所有网站上使用 { -brand-name-relay }
+plan-matrix-feature-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-feature-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-feature-email-reply = 匿名回复邮件
+plan-matrix-feature-phone-mask = 虚拟手机号服务，保护您的真实号码不泄露
+plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保护
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = 马甲邮箱
+plan-matrix-feature-mobile-browser-extension = 浏览器扩展
+plan-matrix-feature-mobile-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-feature-mobile-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-feature-mobile-email-subdomain = 独一无二的 { -brand-name-relay } 邮箱域名
+plan-matrix-feature-mobile-email-reply = 匿名回复邮件
+plan-matrix-feature-mobile-phone-mask = 保护您的真实电话号码
+plan-matrix-feature-mobile-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -82,6 +101,9 @@ plan-matrix-price-free = 免费
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = 每月 { $monthly_price }
 plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
 
