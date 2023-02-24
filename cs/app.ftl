@@ -933,6 +933,14 @@ multi-part-onboarding-premium-welcome-button-start = Začít
 multi-part-onboarding-premium-get-subdomain = Získejte vlastní subdoménu
 multi-part-onboarding-reply-headline = Odpovídejte na e-maily
 multi-part-onboarding-premium-welcome-description-2 = Už žádné omezení na pět masek: nyní si můžete vygenerovat tolik vlastních nebo náhodných masek, kolik potřebujete. Na počítači je můžete vytvářet i na cestách pomocí doplňku { -brand-name-relay }.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+multi-part-onboarding-premium-get-domain-description-3b =
+    Pomocí vlastní subdomény můžete vytvářet masky bez toho, abyste je museli napřed vygenerovat.
+    Potřebujete masku na přihlášení se k odběru zpravodaje? Stačí uvést "zpravodaj@vasesubdomena.{ $mozmail }".
+multi-part-onboarding-premium-domain-cta-2 = Zaregistrujte si vlastní subdoménu nyní:
+multi-part-onboarding-premium-domain-button-skip-2 = Pokračovat, vlastní subdoménu si zaregistruji později
+multi-part-onboarding-premium-extension-headline = Blokujte, přeposílejte a odpovídejte
 multi-part-onboarding-premium-extension-get-title = Pořiďte si rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") }
 multi-part-onboarding-premium-extension-get-description-2 = Rozšíření { -brand-name-relay } pro { -brand-name-firefox(case: "acc") } ještě více usnadňuje používání e-mailových masek.
 multi-part-onboarding-premium-extension-button-download = Získat rozšíření { -brand-name-relay }
