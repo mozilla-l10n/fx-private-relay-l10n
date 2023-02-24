@@ -1042,6 +1042,9 @@ vpn-promo-cta = 下载 { -brand-name-mozilla-vpn }
 forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = 升级为 { $premium_link }，即享无限数量马甲、自定义子域名，还能回复邮件。
+# Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = 上市优惠促销即将结束。立即升级到 { $premium_link }。
 # Variables:
@@ -1061,11 +1064,15 @@ forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 {
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = 我们已将此回复发送给 { $sender }。但以后将不再发送回复。
 # Deprecated
 other-reply-not-forwarded = 您的回复未送达 { $sender }。
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = 您的回复未送达 { $sender }。
+replies-only-available-with-premium = 回复马甲邮箱转发的邮件为 { -brand-name-firefox-relay-premium } 专享功能。
 replies-not-included-in-free-account-header = 免费账户无法回复邮件
 reply-not-sent-header = 您的回复未发送
 upgrade-to-reply-to-future-emails = 立即升级以发送回复
@@ -1079,3 +1086,12 @@ toast-button-close-label = 关闭通知
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = 您已用完免费账户中的所有 { $free_tier_limit } 个马甲。您可以重复使用现有马甲，但为每个账户使用唯一的马甲最为安全。
+api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。
+api-error-need-subdomain = 请在创建自定义电子邮件地址前先选择一个子域名。
+api-error-account-is-paused = 您的账户已暂停。
