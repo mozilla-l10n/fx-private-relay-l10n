@@ -405,7 +405,7 @@ premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete 
 premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
 premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
 premium-promo-perks-perk-block-promotionals-headline = Blokování reklamních e-mailů
-premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete zabránit doručování reklamních e-mailů do vaší e-mailové schránky, zatímco další e-maily jako údaje o platbách nebo doručování zásilek stále dostanete.
+premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
 premium-promo-perks-perk-tracker-blocking-headline = Odstraňování sledovacích prvků z e-mailů
 premium-promo-perks-perk-tracker-blocking-body = Nyní vám služba { -brand-name-relay } může pomoci zastavit sledování e-mailů – vaše e-mailové masky odstraní běžné sledovací prvky ze všech e-mailů, které vám budou přeposlány, a vy tak zůstanete neviditelní pro sledující subjekty a inzerenty.
 premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
@@ -602,7 +602,7 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Omezujeme počet masek
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Další informace naleznete v našich <a href="{ $url }" { $attrs }>podmínkách používání služby</a>.
-faq-question-promotional-email-blocking-question = Co je to blokování propagačních e-mailů?
+faq-question-promotional-email-blocking-question = Co je to blokování reklamních e-mailů?
 faq-question-promotional-email-blocking-answer = Předplatitelé { -brand-name-relay-premium(case: "gen") } mohou zapnout blokování propagačních e-mailů. Tato funkce vám bude přeposílat důležité e-maily, jako např. účtenky, obnovení hesla a různá potvrzení, a zároveň bude blokovat marketingové zprávy. Existuje však částečné riziko, že může být zablokována i nějaká důležitá zpráva, a proto doporučujeme, abyste tuto funkci nepoužívali pro velmi důležitá místa, například pro banku. Pokud je e-mail zablokován, nelze ho už získat zpět.
 faq-question-detect-promotional-question = Jak { -brand-name-relay } zjistí, jestli je e-mail propagační nebo ne?
 faq-question-detect-promotional-answer = Mnoho e-mailů je odesíláno s metadaty v záhlaví, která uvádějí, že pocházejí z automatizovaných nástrojů založených na seznamech adres. { -brand-name-firefox-relay } tato data rozpoznává a může tak tyto e-maily blokovat.
