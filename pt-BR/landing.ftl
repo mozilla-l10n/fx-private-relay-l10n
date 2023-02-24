@@ -66,7 +66,7 @@ plan-matrix-heading-features = Recursos
 plan-matrix-heading-plan-free = Proteção limitada de email
 plan-matrix-heading-plan-premium = Proteção de email
 plan-matrix-heading-plan-phones = Proteção de email e celular
-plan-matrix-heading-plan-bundle-2 = Adicionar proteção do { -brand-name-vpn }
+plan-matrix-heading-plan-bundle-2 = Adicione proteção do { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Tenha o { -brand-name-relay-premium } e o { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
@@ -76,7 +76,7 @@ plan-matrix-feature-browser-extension = Extensão de navegador para usar o { -br
 plan-matrix-feature-email-tracker-removal = Remover rastreadores de email
 plan-matrix-feature-promo-email-blocking = Bloqueio de emails promocionais
 plan-matrix-feature-email-subdomain = Domínio de email do { -brand-name-relay } para criar máscaras em qualquer lugar
-plan-matrix-feature-email-reply = Responder a emails anonimamente
+plan-matrix-feature-email-reply = Responda a emails anonimamente
 plan-matrix-feature-phone-mask = Máscara de celular para proteger seu número real
 plan-matrix-feature-vpn = Proteção do { -brand-name-vpn } da <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
@@ -90,6 +90,7 @@ plan-matrix-feature-mobile-promo-email-blocking = Bloqueio de emails promocionai
 plan-matrix-feature-mobile-email-subdomain = Domínio exclusivo de emails do { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Responder a emails anonimamente
 plan-matrix-feature-mobile-phone-mask = Proteja seu número de celular real
+plan-matrix-feature-mobile-vpn = Acesse o <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -108,6 +109,7 @@ plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensalmente
 plan-matrix-price-period-yearly-footnote-1 = Cobrado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Cobrado mensalmente
+plan-matrix-price-vpn-discount-promo = <span>Economize { $savings }</span> do preço normal do { -brand-name-vpn }
 
 # Plan CTAs
 
@@ -139,15 +141,27 @@ landing-review-user-four-review-list-4 = O { -brand-name-firefox-relay } funcion
 ## HIGHLIGHTED FEATURES SECTION
 
 highlighted-features-section-title = Recursos simples e seguros para ajudar a proteger sua identidade
+highlighted-features-section-bottom-title = Proteja sua identidade (e sua caixa de entrada) com o { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Introdução
 highlighted-features-section-new-item = Novidade!
 
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crie máscaras de email ilimitadas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Todos podem ter { $mask_limit } máscaras de email gratuitamente.
+    Mas com o { -brand-name-relay-premium }, você pode gerar quantas máscaras precisar para ajudar a proteger sua caixa de entrada de email contra spam, hackers e rastreadores online.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    O { -brand-name-relay-premium } oferece um domínio de email exclusivo do { -brand-name-relay } para que você possa criar novas máscaras instantaneamente, onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Em um restaurante? Use restaurante@seudominio.{ $mozmail }.
+    Fazendo compras? Experimente compras@seudominio.{ $mozmail }.
 
 # Item 3
 
