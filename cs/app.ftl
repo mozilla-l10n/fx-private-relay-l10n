@@ -963,6 +963,25 @@ trackerreport-trackers-heading = Zjištěno sledovacích prvků
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Doména sledovacího prvku
 trackerreport-trackers-count-heading = Počet sledovacích prvků
+trackerreport-trackers-none = V tomto e-mailu nebyly zjištěny žádné sledovací prvky.
+# Variables:
+#   $count (number) - Total number of trackers found in an email
+trackerreport-trackers-value =
+    { $count ->
+        [one] 1 sledovací prvek
+        [few] { $count } sledovací prvky
+        [many] { $count } sledovacích prvků
+       *[other] { $count } sledovacích prvků
+    }
+# Variables:
+#   $count (number) - Total number of trackers in an email served from $tracker
+trackerreport-tracker-count =
+    { $count ->
+        [one] 1 sledovací prvek
+        [few] { $count } sledovací prvky
+        [many] { $count } sledovacích prvků
+       *[other] { $count } sledovacích prvků
+    }
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 
