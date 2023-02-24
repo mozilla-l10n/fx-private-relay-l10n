@@ -805,6 +805,8 @@ banner-offer-end-cta = Upgradujte hned teď
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Můžete si vytvořit libovolnou adresu @{ $subdomain }
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Zastavte spam, telefonáty od automatů a nevyžádané SMS
 
 ## Success Messages
 
