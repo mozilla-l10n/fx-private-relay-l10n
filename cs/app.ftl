@@ -807,6 +807,11 @@ banner-offer-end-cta = Upgradujte hned teď
 banner-choose-subdomain-description = Můžete si vytvořit libovolnou adresu @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Zastavte spam, telefonáty od automatů a nevyžádané SMS
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } vám poskytuje telefonní masku, která ochrání vaše skutečné číslo – plus neomezený počet e-mailových masek.
+banner-ab-premium-promo-advanced-identity-headline = Pokročilá ochrana identity
+banner-ab-premium-promo-advanced-identity-body = Zabraňte sledovacím subjektům a agregátorům dat, aby vás identifikovali prostřednictvím vašeho telefonního čísla a e-mailové adresy.
+banner-ab-premium-promo-control-receiver-headline = Mějte pod kontrolou, kdo dostane vaše skutečné číslo
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } vám poskytuje telefonní masku, která ochrání vaše skutečné číslo – plus neomezený počet e-mailových masek.
 
 ## Success Messages
 
