@@ -116,7 +116,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
-whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护——创建无限的马甲邮箱、获取自定义电子邮件子域名等！
+whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护，包括创建无限的马甲邮箱、获取自定义电子邮件子域名等！
 whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -910,6 +910,10 @@ trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } 现在可以从通过马甲邮箱转发的邮件中移除常见的跟踪器。您依然能够收到转发的邮件，但其包含的跟踪器会被移除，这样您就可以不受跟踪地收取邮件。如需为所有马甲邮箱启用“移除跟踪器”功能，可在设置中启用该功能，而不必逐个设置。
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
 trackerreport-trackers-explainer-content-part1 = 电子邮件跟踪是常见的监视和广告工具，许多邮箱饱受其侵扰。这些跟踪器可用于更多地了解您的上网行为、兴趣爱好和电子邮件活动。
+trackerreport-trackers-explainer-content-part2 = 一些公司或组织会在发送给您的电子邮件中嵌入跟踪器（通常隐藏在图像或链接中）。打开电子邮件后，跟踪器中的代码就会执行，并回传数据。
+# Deprecated
+trackerreport-breakage-warning = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中，这些图像会因包含跟踪器而不被加载。
+trackerreport-breakage-warning-2 = 重要提示：删除跟踪器可能会导致您的邮件看起来不正常，因为跟踪器时常包含在图像和链接中。此类邮件无法修复。
 trackerreport-faq-heading = 关于邮件跟踪器的常见问题
 trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 trackerreport-loading = 正在加载您的跟踪器移除报告…
@@ -954,6 +958,32 @@ modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自�
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 剩余 1 小时
+                [0] { "" }
+               *[other] 剩余 { $remaining_hours } 小时
+            }
+        [1]
+            { $remaining_hours ->
+                [1] 剩余 1 天 1 小时
+                [0] 剩余 1 天
+               *[other] 剩余 1 天 { $remaining_hours } 小时
+            }
+       *[other]
+            { $remaining_hours ->
+                [1] 剩余 { $remaining_days } 天 1 小时
+                [0] 剩余 { $remaining_days } 天
+               *[other] 剩余 { $remaining_days } 天 { $remaining_hours } 小时
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = 天
