@@ -638,8 +638,10 @@ profile-indicator-tracker-removal-tooltip = 目前會移除郵件追蹤器
 profile-promo-email-blocking-title = 您想要封鎖哪些類型的郵件？
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = 全部
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = 行銷郵件
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = 行銷郵件
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = 無
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 將封鎖所有寄到此轉寄信箱的郵件。

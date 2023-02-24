@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
 hero-section-cta = 開始使用
 
 ## BUNDLE BANNER SECTION
@@ -31,6 +32,7 @@ bundle-feature-three = 快速而安全的網路環境
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = { -brand-name-relay } 轉寄信箱與虛擬電話號碼的原理是什麼
 
 # Item 1
 
@@ -38,6 +40,7 @@ how-it-works-section-extension-headline = 隨時隨地都能使用 { -brand-name
 
 # Item 2
 
+how-it-works-section-forward-headline = 我們會將收到的電子郵件、來電、簡訊轉寄給您
 
 # Item 3
 
@@ -59,6 +62,7 @@ plan-matrix-heading-plan-bundle-alt = 獲得 { -brand-name-relay-premium } 與 {
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = 透過電子郵件轉寄信箱來保護您的實際信箱
 plan-matrix-feature-browser-extension = 讓您在任何網站都能直接使用 { -brand-name-relay } 的瀏覽器擴充套件
 plan-matrix-feature-email-tracker-removal = 移除郵件追蹤器
 plan-matrix-feature-promo-email-blocking = 封鎖行銷郵件
