@@ -147,9 +147,24 @@ highlighted-features-section-new-item = 新功能！
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    所有人都可免费获得 { $mask_limit } 个马甲邮箱。
+    不过订阅 { -brand-name-relay-premium } 后，就可以根据需要生成无限量的马甲来保护您的收件箱
+    免受垃圾邮件、不法分子和网络跟踪器的侵扰。
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } 提供独一无二的 { -brand-name-relay } 邮箱域名，
+    您可以随时随地创建新马甲，
+    只需往 @ 符号前添加字符就能生成马甲。
+    在餐厅吃饭？那就用 canting@<你的域名>.{ $mozmail }。
+    在商场购物？那就用 shangchang@<你的域名>.{ $mozmail }。
 
 # Item 3
 
