@@ -667,8 +667,10 @@ profile-indicator-tracker-removal-tooltip = Momentálne sa odstraňujú sledovac
 profile-promo-email-blocking-title = Aké e-maily chcete blokovať?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Všetky
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Marketingové
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Propagačné akcie
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Žiadne
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všetky e-maily odoslané na túto masku.
