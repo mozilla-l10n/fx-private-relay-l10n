@@ -664,8 +664,10 @@ profile-indicator-tracker-removal-tooltip = حالیہ ای میل ٹریکر ہ
 profile-promo-email-blocking-title = تساں کہڑیاں ای میلاں بلاک کرݨ چاہندے ہو؟
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = سارے
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = پروموشنل
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = پرموشناں
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = کوئی وی کائنی
 profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
