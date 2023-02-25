@@ -31,7 +31,7 @@ bundle-banner-money-back-guarantee-2 = 新订阅者可享 { $days_guarantee } �
 bundle-feature-one = { $num_vpn_servers } 余台服务器
 # Variables:
 #   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
-bundle-feature-two = { $num_vpn_countries } 余个国家和地区
+bundle-feature-two = { $num_vpn_countries } 余个国家/地区
 bundle-feature-three = 快速且安全的网络
 
 ## HOW IT WORKS SECTION 
