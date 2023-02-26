@@ -71,8 +71,11 @@ plan-matrix-heading-plan-bundle-alt = Получите { -brand-name-relay-premi
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Маски электронной почты для защиты вашего реального адреса электронной почты
+plan-matrix-feature-browser-extension = Расширение браузера для использования { -brand-name-relay } на любом сайте.
 plan-matrix-feature-email-tracker-removal = Удаление трекеров из электронных писем
 plan-matrix-feature-promo-email-blocking = Блокировка рекламных писем
+plan-matrix-feature-email-subdomain = Домен электронной почты { -brand-name-relay } для создания масок на лету
 plan-matrix-feature-email-reply = Отвечайте на письма анонимно
 plan-matrix-feature-phone-mask = Маскирование номера телефона для защиты вашего настоящего номера телефона
 plan-matrix-feature-vpn = { -brand-name-vpn } защита от <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>.
@@ -83,6 +86,11 @@ plan-matrix-feature-list-email-masks-unlimited = Неограниченное ч
 plan-matrix-feature-mobile-email-masks = Псевдонимы электронной почты
 plan-matrix-feature-mobile-browser-extension = Расширение для браузера
 plan-matrix-feature-mobile-email-tracker-removal = Удаление трекеров из электронных писем
+plan-matrix-feature-mobile-promo-email-blocking = Блокировка рекламных писем
+plan-matrix-feature-mobile-email-subdomain = Уникальный домен электронной почты { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Отвечайте на письма анонимно
+plan-matrix-feature-mobile-phone-mask = Защитите свой реальный номер телефона
+plan-matrix-feature-mobile-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -94,11 +102,20 @@ plan-matrix-price-free = Бесплатно
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/мес.
 plan-matrix-price-period-yearly = Ежегодно
 plan-matrix-price-period-monthly = Ежемесячно
+plan-matrix-price-period-yearly-footnote-1 = Ежегодная оплата
+plan-matrix-price-period-monthly-footnote-1 = Ежемесячная оплата
+plan-matrix-price-vpn-discount-promo = <span>Сэкономьте { $savings }</span> от обычной цены за { -brand-name-vpn }
 
 # Plan CTAs
 
+plan-matrix-upgrade = Обновить
+plan-matrix-sign-up = Зарегистрироваться
+plan-matrix-get-relay-cta = Получить { -brand-name-relay }
 plan-matrix-join-waitlist = Присоединиться к списку ожидания
 
 ## REVIEWS SECTION
@@ -123,21 +140,32 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } твор�
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Безопасные и простые функции для защиты вашей личности
+highlighted-features-section-bottom-title = Защитите свою личность (и свой почтовый ящик) с помощью { -brand-name-firefox-relay }
+highlighted-features-section-bottom-cta = Начало работы
+highlighted-features-section-new-item = Новинка!
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Создавайте неограниченное число псевдонимов электронной почты
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Мгновенно создавайте псевдонимы на лету
 
 # Item 3
 
+highlighted-features-section-replying-headline = Отвечайте на электронные письма и тексты анонимно
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Блокировка рекламных писем
+highlighted-features-section-block-promotions-body = С { -brand-name-relay-premium } вы можете блокировать рекламные письма, при этом получая такие электронные письма, как квитанции и информацию о доставке.
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Удаление трекеров из электронных писем
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } может удалять распространённые трекеры из всех пересылаемых электронных писем, помогая вам оставаться невидимыми для трекеров и рекламодателей.
 
 ## FAQ SECTION
 
