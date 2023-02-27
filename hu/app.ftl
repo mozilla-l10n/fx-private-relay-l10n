@@ -664,8 +664,10 @@ profile-indicator-tracker-removal-tooltip = Jelenleg eltávolításra kerülnek 
 profile-promo-email-blocking-title = Milyen e-maileket szeretne letiltani?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Az összeset
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = A promóciósakat
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promóciók
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Semelyiket
 profile-promo-email-blocking-description-all-2 = A { -brand-name-relay } blokkol minden, az erre a maszkra küldött e-mailt.
