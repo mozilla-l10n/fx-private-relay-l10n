@@ -670,8 +670,10 @@ profile-indicator-tracker-removal-tooltip = Wrthi'n tynnu tracwyr e-bost
 profile-promo-email-blocking-title = Pa e-byst ydych chi am eu rhwystro?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Y Cyfan
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Hyrwyddol
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Hyrwyddiadau
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Dim
 profile-promo-email-blocking-description-all-2 = Mae { -brand-name-relay } yn rhwystro pob e-bost sy'n cael eu hanfon at yr arallenw hwn.
