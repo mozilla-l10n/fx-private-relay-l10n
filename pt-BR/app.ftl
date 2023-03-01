@@ -64,6 +64,7 @@ nav-footer-privacy = Privacidade
 nav-footer-relay-terms = Termos do { -brand-name-relay }
 nav-footer-legal = Jurídico
 nav-footer-release-notes = Notas de atualização
+nav-footer-stock-photo-legal = As fotografias desta página são obtidas de iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logotipo do GitHub
 
