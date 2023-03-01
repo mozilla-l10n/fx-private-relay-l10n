@@ -662,14 +662,16 @@ profile-indicator-tracker-removal-tooltip = Supprime les traqueurs des e-mails
 profile-promo-email-blocking-title = Quels e-mails voulez-vous bloquer ?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Tous
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Promotionnels
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = E-mails promotionnels
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Aucun
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bloque tous les e-mails envoyés à cet alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tente de bloquer les e-mails promotionnels tout en transférant les messages tels que les reçus et les avis d’expédition.
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ne bloque aucun e-mail envoyé à cet alias.
-profile-promo-email-blocking-label-promotionals = Bloquer les promotions
+profile-promo-email-blocking-label-promotionals = Bloquer les e-mails promotionnels
 profile-promo-email-blocking-label-none = Tout bloquer
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ne pas transférer
