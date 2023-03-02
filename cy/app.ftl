@@ -64,6 +64,7 @@ nav-footer-privacy = Preifatrwydd
 nav-footer-relay-terms = Amodau { -brand-name-relay }
 nav-footer-legal = Cyfreithiol
 nav-footer-release-notes = Nodiadau Rhyddhau
+nav-footer-stock-photo-legal = Daw'r ffotograffau ar y dudalen hon o iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
