@@ -64,6 +64,7 @@ nav-footer-privacy = 隱私權
 nav-footer-relay-terms = { -brand-name-relay } 使用條款
 nav-footer-legal = 法律資訊
 nav-footer-release-notes = 新鮮事
+nav-footer-stock-photo-legal = 此頁面上的相片取自 iStock，© iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub 圖示
 
