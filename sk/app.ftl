@@ -64,6 +64,7 @@ nav-footer-privacy = Súkromie
 nav-footer-relay-terms = Podmienky používania služby { -brand-name-relay }
 nav-footer-legal = Právne informácie
 nav-footer-release-notes = Poznámky k vydaniu
+nav-footer-stock-photo-legal = Zdrojom fotografií na tejto stránke je iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
 
