@@ -179,10 +179,16 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Bloquear correos promocionales
+highlighted-features-section-block-promotions-body =
+    Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu
+    bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando 
+    a mantenerte invisible para rastreadores y anunciantes.
 
 ## FAQ SECTION
 
