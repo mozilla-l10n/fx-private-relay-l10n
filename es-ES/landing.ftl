@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
 hero-section-cta = Comenzar
 
 ## BUNDLE BANNER SECTION
