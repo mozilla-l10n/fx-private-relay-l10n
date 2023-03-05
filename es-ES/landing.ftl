@@ -54,9 +54,12 @@ how-it-works-section-forward-body = Puedes estar seguro de que los remitentes nu
 # Item 3
 
 how-it-works-section-manage-headline = Administra tus máscaras desde tu panel de { -brand-name-relay }
+how-it-works-section-manage-body = Inicia sesión en tu panel de { -brand-name-relay } para crear máscaras nuevas, etiquetar máscaras existentes y bloquear llamadas, mensajes de texto o correos electrónicos de máscaras que reciben demasiado spam.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Elije el nivel de protección que más te conviene
+plan-matrix-offer-body = { -brand-name-firefox-relay } protege tu identidad y tu bandeja de entrada con máscaras de correo electrónico únicas. Añade aún más seguridad con el enmascaramiento de teléfono { -brand-name-relay } y ahorra { $savings } al añadir la protección { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -66,12 +69,19 @@ plan-matrix-heading-features = Características
 plan-matrix-heading-plan-free = Protección de correo electrónico limitada
 plan-matrix-heading-plan-premium = Protección de correo electrónico
 plan-matrix-heading-plan-phones = Protección de correo electrónico y teléfono
+plan-matrix-heading-plan-bundle-2 = Añadir la protección { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de correo electrónico para proteger tu dirección de correo electrónico real
+plan-matrix-feature-browser-extension = Extensión de navegador para usar { -brand-name-relay } en cualquier sitio
 plan-matrix-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-feature-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-feature-email-subdomain = Dominio de correo electrónico { -brand-name-relay }  para crear máscaras sobre la marcha
+plan-matrix-feature-email-reply = Responder correos electrónicos de forma anónima
+plan-matrix-feature-phone-mask = Enmascaramiento de números de teléfono para proteger tu número real
+plan-matrix-feature-vpn = Protección { -brand-name-vpn } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de correo electrónico ilimitadas
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -80,7 +90,10 @@ plan-matrix-feature-mobile-email-masks = Máscaras de correo electrónico
 plan-matrix-feature-mobile-browser-extension = Extensión del navegador
 plan-matrix-feature-mobile-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-feature-mobile-email-subdomain = Dominio de correo electrónico único { -brand-name-relay }
 plan-matrix-feature-mobile-email-reply = Responder correos electrónicos de forma anónima
+plan-matrix-feature-mobile-phone-mask = Protege tu número de teléfono real
+plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -92,10 +105,14 @@ plan-matrix-price-free = Gratis
 
 # Plan Price
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+plan-matrix-price-monthly-calculated = { $monthly_price }/mes
 plan-matrix-price-period-yearly = Anualmente
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
+plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el precio habitual de { -brand-name-vpn }
 
 # Plan CTAs
 
@@ -126,18 +143,38 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona 
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Funciones seguras y simples para ayudar a proteger tu identidad
+highlighted-features-section-bottom-title = Protege tu identidad (y tu bandeja de entrada) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenzar
 highlighted-features-section-new-item = ¡Nuevo!
 
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Crea máscaras de correo electrónico ilimitadas
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Todo el mundo recibe { $mask_limit } máscaras de correo electrónico de forma gratuita.
+    Pero con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada
+    de spammers, piratas informáticos y rastreadores en línea.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Crea máscaras instantáneamente
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } te ofrece un dominio de correo electrónico exclusivo de { -brand-name-relay } para que puedas
+    crear nuevas máscaras dondequiera que estés. Simplemente añade cualquier palabra o frase antes del símbolo @. ¿En un restaurante? Usa restaurante@tudominio.{ $mozmail }.
+    ¿De compras? Prueba shop@tudominio.{ $mozmail }.
 
 # Item 3
 
+highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
+highlighted-features-section-replying-body =
+    { -brand-name-relay-premium } te permite responder correos electrónicos de tu
+    cuenta de correo electrónico enmascarada, por lo que los remitentes nunca sabrán tu dirección de correo electrónico real. Con el enmascaramiento del teléfono, puedes responder
+    a mensajes de texto desde tu número de teléfono enmascarado para proteger tu número real.
 
 # Item 4
 
