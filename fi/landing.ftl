@@ -46,12 +46,15 @@ how-it-works-section-title = Miten { -brand-name-relay }n sähköposti- ja puhel
 
 # Item 2
 
+how-it-works-section-forward-headline = Välitämme sinulle sähköpostit, puhelut ja tekstiviestit
 
 # Item 3
 
+how-it-works-section-manage-headline = Hallitse maskeja { -brand-name-relay }-hallintapaneelista
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Valitse sinulle sopiva suojaustaso
 
 # Top Row Labels
 
@@ -67,8 +70,13 @@ plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -
 # Feature Breakdowns
 
 plan-matrix-feature-email-masks = Sähköpostimaskit suojaavat oikeaa sähköpostiosoitettasi
+plan-matrix-feature-browser-extension = Selainlaajennus { -brand-name-relay }n käyttämiseksi millä tahansa sivulla
 plan-matrix-feature-email-tracker-removal = Poista sähköpostin seuraimet
 plan-matrix-feature-promo-email-blocking = Estä mainossähköpostit
+plan-matrix-feature-email-subdomain = { -brand-name-relay }n sähköpostiverkkotunnus luodaksesi maskeja milloin tahansa
+plan-matrix-feature-email-reply = Vastaa sähköposteihin anonyymisti
+plan-matrix-feature-phone-mask = Puhelinnumeron peittäminen todellisen puhelinnumerosi suojaamiseksi
+plan-matrix-feature-vpn = { -brand-name-vpn }-suojaus käyttäen <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
