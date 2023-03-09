@@ -179,10 +179,16 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Reklameberjochten blokkearje
+highlighted-features-section-block-promotions-body =
+    Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke,
+    wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange kinne.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = E-mailtrackers fuortsmite
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } kin faaks brûkte e-mailtrackers fuortsmite út e-mailberjochten dy’t nei jo trochstjoerd binne,
+    wêrtroch it jo helpt ûnsichtber te bliuwen foar trackers en advertearders.
 
 ## FAQ SECTION
 
