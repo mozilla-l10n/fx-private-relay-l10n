@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-title = Suojaa henkilöyttäsi asettamalla puhelinnumerollesi ja sähköpostiosoitteellesi maski
 
 ## BUNDLE BANNER SECTION
 
