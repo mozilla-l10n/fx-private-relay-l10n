@@ -32,14 +32,38 @@ locales = [
 ]
 
 [[paths]]
-    reference = "en/app.ftl"
-    l10n = "{locale}/app.ftl"
-[[paths]]
     reference = "en/landing.ftl"
     l10n = "{locale}/landing.ftl"
 [[paths]]
+    reference = "en/onboarding.ftl"
+    l10n = "{locale}/onboarding.ftl"
+[[paths]]
     reference = "en/brands.ftl"
     l10n = "{locale}/brands.ftl"
+[[paths]]
+    reference = "en/profile.ftl"
+    l10n = "{locale}/profile.ftl"
+[[paths]]
+    reference = "en/faq.ftl"
+    l10n = "{locale}/faq.ftl"
+[[paths]]
+    reference = "en/layout.ftl"
+    l10n = "{locale}/layout.ftl"
+[[paths]]
+    reference = "en/modals.ftl"
+    l10n = "{locale}/modals.ftl"
+[[paths]]
+    reference = "en/banners.ftl"
+    l10n = "{locale}/banners.ftl"
+[[paths]]
+    reference = "en/settings.ftl"
+    l10n = "{locale}/settings.ftl"
+[[paths]]
+    reference = "en/misc.ftl"
+    l10n = "{locale}/misc.ftl"
+[[paths]]
+    reference = "en/news.ftl"
+    l10n = "{locale}/news.ftl"
 [[paths]]
     reference = "en/phones.ftl"
     l10n = "{locale}/phones.ftl"

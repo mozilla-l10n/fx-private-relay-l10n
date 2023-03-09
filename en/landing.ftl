@@ -187,3 +187,20 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } can re
 
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
 landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
+
+## PREMIUM PAGE
+
+premium-promo-hero-headline = Make protecting your inbox easier with { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = With { -brand-name-firefox-relay-premium }, you get unlimited custom email masks that forward only the emails you want to your true email address. <b>For a limited time, you can upgrade to { -brand-name-relay-premium } for only { $monthly_price } a month.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = With { -brand-name-firefox-relay-premium }, you get unlimited custom email masks that forward only the emails you want to your true email address.
+premium-promo-hero-cta = Upgrade now
+
+premium-promo-offer-end-hero-heading = Our intro pricing offer is ending soon!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Get { -brand-name-relay-premium } before { $end_date } and enjoy premium email protection at our intro month-to-month price.
+premium-promo-offer-end-hero-cta = Upgrade now

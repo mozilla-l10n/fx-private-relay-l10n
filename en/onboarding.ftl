@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## This page contains all onboarding strings, premium, non-premium.
+
 ## Onboarding
 
 onboarding-headline-2 = Create your first email mask
@@ -73,8 +75,6 @@ multi-part-onboarding-premium-extension-get-title = Get the { -brand-name-relay 
 multi-part-onboarding-premium-extension-get-description-2 = The { -brand-name-relay } extension for { -brand-name-firefox } makes using email masks even easier.
 multi-part-onboarding-premium-extension-button-download = Get { -brand-name-relay } Extension
 multi-part-onboarding-premium-chrome-extension-get-title = Get the { -brand-name-relay } extension for { -brand-name-google-chrome }
-# Deprecated
-multi-part-onboarding-premium-chrome-extension-get-description = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email aliases even easier.
 multi-part-onboarding-premium-chrome-extension-get-description-2 = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using email masks even easier.
 multi-part-onboarding-premium-chrome-extension-button-download = Get { -brand-name-relay } Extension
 multi-part-onboarding-premium-extension-button-skip = Continue, I’ll download the extension later

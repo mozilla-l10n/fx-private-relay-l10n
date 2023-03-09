@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+## This page contains strings within modals.
+
 ## Modals
 
 ## Refreshed Custom Subdomain Modal | TODO: Deprecate old migrated strings
@@ -44,7 +46,7 @@ modal-domain-register-good-news = Good News!
 modal-domain-register-warning-reminder-2 = Remember, you can only register one subdomain. You won’t be able to change it later.
 modal-domain-register-button-2 = Register Subdomain
 
-## Deprecate old subdomain modal
+## TODO: Deprecate old subdomain modal
 
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -65,3 +67,18 @@ modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is now your email subdomain!
 modal-domain-register-success-copy-2 = Now you can create unlimited custom email masks!
+
+## Modal for generating a custom mask
+
+modal-custom-alias-picker-heading-2 = Create a new custom mask
+modal-custom-alias-picker-warning-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customsubdomain.mozmail.com” next time you shop online, for example.
+modal-custom-alias-picker-form-heading-2 = Or, create a custom mask manually
+modal-custom-alias-picker-form-prefix-label-2 = Enter email mask prefix
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = e.g. “coffee”
+modal-custom-alias-picker-form-prefix-spaces-warning = Spaces are not allowed in email masks.
+modal-custom-alias-picker-form-prefix-invalid-warning = Email masks can only contain lowercase letters, numbers, and hyphens, and may not start or end with a hyphen.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = Email masks can only contain lowercase letters, numbers, periods, and hyphens, and may not start or end with a period or hyphen.
+modal-custom-alias-picker-form-submit-label-2 = Generate mask
+modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
