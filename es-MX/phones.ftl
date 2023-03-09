@@ -91,6 +91,8 @@ phone-banner-float-replies = Responder a los mensajes de texto en privado
 
 ## Frequently Asked Questions about Phone plans
 
+phone-masking-faq-question-what-is = ¿Qué es una máscara de número de teléfono?
+phone-masking-faq-question-where-is = ¿Dónde está disponible el enmascaramiento de teléfono?
 phone-masking-faq-question-pictures = ¿Puedo enviar o recibir imágenes por mensaje de texto?
 phone-masking-faq-answer-historical = Actualmente no puedes responder a los mensajes de texto que recibiste anteriormente, aunque esta función está en camino.
 phone-masking-faq-question-can-i-send = ¿Puedo enviar un mensaje de texto sin responder a uno?
@@ -101,12 +103,18 @@ phone-masking-faq-question-can-i-call = ¿Puedo llamar a alguien con mi máscara
 phone-masking-faq-answer-can-i-call = No, solo puedes atender una llamada reenviada.
 phone-masking-faq-question-can-i-see = ¿Puedo ver quién me envió un mensaje de texto o me llamó?
 phone-masking-faq-question-data = ¿Qué tipo de datos almacena el enmascaramiento del teléfono { -brand-name-relay }?
+#   $url (url) - link to Firefox Relay's Privacy Policy, i.e. https://www.mozilla.org/privacy/firefox-relay/
+#   $attrs (string) - specific attributes added to external links
+phone-masking-faq-answer-data = Por favor revisa la <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay } Política de privacidad</a>.
 
 ## Phone Masking Splash Screen
 
+phone-masking-splash-header = Te damos la bienvenida al enmascaramiento de números de teléfono de { -brand-name-relay }
+phone-masking-splash-subheading = Primero, repasemos cómo puedes maximizar su experiencia.
 phone-masking-splash-continue-btn = Ir al panel de control
 phone-masking-splash-save-contact-title = Guardar { -brand-name-relay } como contacto
 phone-masking-splash-save-contact-cta = Reenviar texto de bienvenida
+phone-masking-splash-save-contact-example = Guardando tu contacto de { -brand-name-relay }
 phone-masking-splash-save-contact-example-text = { -brand-name-firefox-relay }
 phone-masking-splash-replies-title = Cómo responder a tus mensajes
 phone-masking-splash-replies-example = Respondiendo al (555) 555-9876

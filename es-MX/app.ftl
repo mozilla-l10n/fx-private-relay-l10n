@@ -409,8 +409,11 @@ premium-promo-pricing-offer-end-body = Obtén { -brand-name-relay-premium } ante
 waitlist-heading = Únete a la lista de espera de { -brand-name-relay-premium }
 waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
 waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay } 
+waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
 # Deprecated
 waitlist-lead = Recibe una notificación cuando { -brand-name-firefox-relay-premium } esté disponible para tu región.
+waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
+waitlist-lead-phone = Te informaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.
 waitlist-control-required = Requerido
 waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -425,6 +428,7 @@ waitlist-submit-label-2 = Únete a la lista de espera
 # Deprecated
 waitlist-privacy-policy-agree = Al hacer clic en “{ waitlist-submit-label }”, aceptas nuestra <a>Política de privacidad</a>.
 waitlist-privacy-policy-use = Tu información solo se utilizará para notificarte sobre la disponibilidad de { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Tu información solo se utilizará para notificarte cuando el enmascaramiento de teléfonos esté disponible en tu área.
 waitlist-subscribe-success = ¡Estás en la lista! Una vez que { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
 waitlist-subscribe-error-connection = Hubo un error al agregarte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
 waitlist-subscribe-error-unknown = Hubo un error al agregarte a la lista de espera. Por favor, inténtalo de nuevo.
@@ -442,6 +446,7 @@ settings-error-save-heading = Error al cambiar la configuración
 settings-error-save-description = Tus cambios en la configuración no se guardaron debido a un error de conexión. Inténtalo de nuevo.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = La función de etiqueta de correo enmascarado está deshabilitada
+settings-warning-collection-off-heading-3 = Tus nombres de cuenta de máscara de correo electrónico están desactivados
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } no tiene permitido actualmente recolectar datos mostrando los sitios donde generaste y usaste correos enmascarados. Puedes cambiar esto en “Configuración” bajo “Colección de datos.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
