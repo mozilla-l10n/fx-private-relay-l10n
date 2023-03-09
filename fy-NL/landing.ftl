@@ -44,9 +44,11 @@ how-it-works-section-title = Hoe e-mail- en telefoanmaskearing troch { -brand-na
 # Item 1
 
 how-it-works-section-extension-headline = Brûk e-mail- en telefoanmaskers fan { -brand-name-relay } oeral
+how-it-works-section-extension-body = Untfang feilige, willekeurige e-mailmaskers en in unyk, maskearre telefoannûmer dat jo brûke kinne wannear’t in website, app, winkel of restaurant om jo gegevens freget.
 
 # Item 2
 
+how-it-works-section-forward-headline = Wy stjoere e-mailberjochten, telefoantsjes en sms’kes nei jo troch
 
 # Item 3
 

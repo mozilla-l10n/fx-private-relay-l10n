@@ -64,6 +64,7 @@ nav-footer-privacy = Privacy
 nav-footer-relay-terms = { -brand-name-relay }-betingsten
 nav-footer-legal = Juridysk
 nav-footer-release-notes = Utjefteopmerkingen
+nav-footer-stock-photo-legal = Foto’s op dizze side binne ôfkomstich fan iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
@@ -670,8 +671,10 @@ profile-indicator-tracker-removal-tooltip = E-mailtrackers wurde op dit stuit fe
 profile-promo-email-blocking-title = Hokker e-mailberjochten wolle jo blokkearje?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Alle
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Reklame
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Reklames
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Gjin
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokkearret alle e-mailberjochten dy’t nei dit masker ferstjoerd wurde.
