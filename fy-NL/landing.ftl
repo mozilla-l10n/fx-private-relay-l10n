@@ -161,12 +161,24 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Meitsje ûnderweis daliks maskers
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } jout jo in unyk { -brand-name-relay } e-maildomein, sadat jo daliks
+    nije maskers oanmeitsje kinne, oeral wêr’t jo binne. Foegje gewoanwei elk wurd of wudgroep ta foar it @-teken. Yn in restaurant? Brûk restaurant@jodomein.{ $mozmail }.
+    Winkelje? Probearje winkel@jodomein.{ $mozmail }.
 
 # Item 3
 
+highlighted-features-section-replying-headline = Beäntwurdzje anonym e-mailberjochten en sms’kes
+highlighted-features-section-replying-body =
+    Mei { -brand-name-relay-premium } kinne jo reagearje op e-mailberjochten fan jo
+    maskearre e-mailaccount út, sadat ôfstjoerders nea jo echte e-mailadres kenne sille. Mei telefoanmaskearring kinne jo antwurdzje
+    op sms’kes fan jo maskearre telefoannûmer ôf, om jo wiere nûmer te beskermjen.
 
 # Item 4
 
+highlighted-features-section-block-promotions-headline = Reklameberjochten blokkearje
 
 # Item 5
 
