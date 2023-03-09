@@ -6,14 +6,24 @@
 ## HERO SECTION 
 
 hero-section-title = Suojaa henkilöyttäsi asettamalla puhelinnumerollesi ja sähköpostiosoitteellesi maski
+hero-section-body =
+    Turvalliset, helppokäyttöiset sähköposti- ja puhelinmaskit auttavat pitämään henkilöytesi
+    suojassa. Voit rekisteröidä uusia tilejä anonyymisti, estää puhelinmyynnin ja
+    vastaanottaa vain haluamasi sähköpostit postilaatikkoosi.
+hero-section-cta = Aloitetaan
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Vain rajoitetun ajan: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } hintaan { $monthly_price }/kk
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-alt = { -brand-name-mozilla-vpn } ja { -brand-name-relay }
 bundle-feature-three = Nopea ja turvallinen verkko
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Miten { -brand-name-relay }n sähköposti- ja puhelinmaskit toimivat
 
 # Item 1
 
@@ -46,6 +56,8 @@ plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskej
 
 plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
 plan-matrix-feature-mobile-browser-extension = Selainlaajennus
+plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
+plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
 
 # Plan Details
 
@@ -94,6 +106,10 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } tekee ihm
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Turvallisia ja yksinkertaisia ominaisuuksia henkilöytesi suojaamiseksi
+highlighted-features-section-bottom-title = Suojaa henkilöytesi (ja postilaatikkosi) { -brand-name-firefox-relay } -palvelua käyttäen
+highlighted-features-section-bottom-cta = Aloitetaan
+highlighted-features-section-new-item = Uutta!
 
 # Item 1
 
