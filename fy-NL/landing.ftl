@@ -110,7 +110,9 @@ plan-matrix-price-free = Fergees
 plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
 plan-matrix-price-period-yearly = Jierliks
 plan-matrix-price-period-monthly = Moanliks
-plan-matrix-price-period-yearly-footnote-1 = Jierliks faktuearre
+plan-matrix-price-period-yearly-footnote-1 = Jierliks fakturearre
+plan-matrix-price-period-monthly-footnote-1 = Moanlikse fakturearre
+plan-matrix-price-vpn-discount-promo = <span>Besparje { $savings }</span> op de normale priis fan { -brand-name-vpn }
 
 # Plan CTAs
 
@@ -141,15 +143,24 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wû
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-title = Feilige, ienfâldige funksjes om jo identiteit te helpen beskermjen
+highlighted-features-section-bottom-title = Beskermje jo identiteit (en jo Postfek YN) mei { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Begjinne
 highlighted-features-section-new-item = Nij!
 
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Meitsje ûnbeheinde e-mailmaskers oan
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Elkenien ûntfangt fergees { $mask_limit } e-mailmaskers.
+    Mar mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen
+    tsjin spammers, hackers en online trackers.
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Meitsje ûnderweis daliks maskers
 
 # Item 3
 
