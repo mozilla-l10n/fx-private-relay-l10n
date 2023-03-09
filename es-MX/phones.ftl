@@ -68,6 +68,7 @@ whatsnew-feature-phone-upgrade-cta = Actualizar ahora
 
 phone-statistics-remaining-call-minutes = Minutos de llamadas restantes
 phone-statistics-remaining-texts = Textos restantes
+phone-statistics-calls-texts-blocked = Llamadas y mensajes de texto bloqueados
 phone-dashboard-metadata-date-created = Fecha de creacion:
 phone-dashboard-number-copied = ¡Copiado!
 phone-dashboard-forwarding-toggle-disable-label = Bloqueo

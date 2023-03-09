@@ -64,6 +64,7 @@ nav-footer-privacy = Privacidad
 nav-footer-relay-terms = Términos de { -brand-name-relay }
 nav-footer-legal = Legal
 nav-footer-release-notes = Notas de la versión
+nav-footer-stock-photo-legal = Las fotografías de esta página provienen de iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo de GitHub
 
@@ -652,8 +653,10 @@ profile-indicator-tracker-removal-tooltip = Actualmente eliminando rastreadores 
 profile-promo-email-blocking-title = ¿Qué correos electrónicos quieres bloquear?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Todos
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Promocionales
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promociones
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Ninguno
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } está bloqueando todos los correos enviados a esta máscara.

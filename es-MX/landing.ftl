@@ -54,6 +54,10 @@ plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -
 
 # Feature Breakdowns
 
+plan-matrix-feature-browser-extension = Extensión de navegador para usar { -brand-name-relay } en cualquier sitio
+plan-matrix-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-email-reply = Responder correos electrónicos de forma anónima
 plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -120,6 +124,7 @@ highlighted-features-section-bottom-cta = Comenzar
 
 # Item 1
 
+highlighted-features-section-unlimited-masks-headline = Crear correos enmascarados ilimitados
 
 # Item 2
 
