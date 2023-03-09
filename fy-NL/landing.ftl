@@ -49,12 +49,17 @@ how-it-works-section-extension-body = Untfang feilige, willekeurige e-mailmasker
 # Item 2
 
 how-it-works-section-forward-headline = Wy stjoere e-mailberjochten, telefoantsjes en sms’kes nei jo troch
+how-it-works-section-forward-body = Wês gerêst, ôfstjoerders sille nea jo echte e-mailadres of echte nûmer witte. Jo kinne sels sms’kes en e-mailberjochten beäntwurdzje sûnder jo echte identiteit te dielen.
 
 # Item 3
 
+how-it-works-section-manage-headline = Behear jo maskers fan jo { -brand-name-relay }-dashboerd ôf
+how-it-works-section-manage-body = Meld jo oan by jo { -brand-name-relay }-dashboerd om nije maskers oan te meitsjen, besteande maskers te labeljen en oproppen, sms’kes of e-mailberjochten te blokkearjen fan maskers dy’t tefolle spam ûntfange.
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Kies in beskermingnivo dat by jo past
+plan-matrix-offer-body = { -brand-name-firefox-relay } beskermet jo identiteit en jo Postfek YN mei unike e-mailmaskers. Foegje noch mear befeiliging ta mei { -brand-name-relay }-telefoanmaskearring, en besparje { $savings } troch { -brand-name-vpn }-beskerming ta te foegjen.
 
 # Top Row Labels
 
@@ -64,12 +69,19 @@ plan-matrix-heading-features = Funksjes
 plan-matrix-heading-plan-free = Beheinde e-mailbeskerming
 plan-matrix-heading-plan-premium = E-mailbeskerming
 plan-matrix-heading-plan-phones = E-mail- en telefoanbeskerming
+plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn }-beskerming tafoegje
 plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mailmaskers om jo echte e-mailadres te beskermjen
+plan-matrix-feature-browser-extension = Browserútwreiding om { -brand-name-relay } op elke website te brûken
 plan-matrix-feature-email-tracker-removal = E-mailtrackers fuortsmite
 plan-matrix-feature-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-feature-email-subdomain = { -brand-name-relay }-e-maildomein om ûnderweis maskers te meitsjen
+plan-matrix-feature-email-reply = Beäntwurdzje e-mailberjochten anonym
+plan-matrix-feature-phone-mask = Telefoanmasker om jo wiere telefoannûmer te beskermjen
+plan-matrix-feature-vpn = { -brand-name-vpn }-beskerming fan <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -78,6 +90,10 @@ plan-matrix-feature-mobile-email-masks = E-mailmaskers
 plan-matrix-feature-mobile-browser-extension = Browserútwreiding
 plan-matrix-feature-mobile-email-tracker-removal = E-mailtrackers fuortsmite
 plan-matrix-feature-mobile-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-feature-mobile-email-subdomain = Unyk { -brand-name-relay }-e-maildomein
+plan-matrix-feature-mobile-email-reply = Beäntwurdzje e-mailberjochten anonym
+plan-matrix-feature-mobile-phone-mask = Beskermje jo wiere telefoannûmer
+plan-matrix-feature-mobile-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -94,6 +110,7 @@ plan-matrix-price-free = Fergees
 plan-matrix-price-monthly-calculated = { $monthly_price }/mnd.
 plan-matrix-price-period-yearly = Jierliks
 plan-matrix-price-period-monthly = Moanliks
+plan-matrix-price-period-yearly-footnote-1 = Jierliks faktuearre
 
 # Plan CTAs
 
