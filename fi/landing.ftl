@@ -66,12 +66,17 @@ plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Sähköpostimaskit suojaavat oikeaa sähköpostiosoitettasi
+plan-matrix-feature-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-promo-email-blocking = Estä mainossähköpostit
 plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
 plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
 plan-matrix-feature-mobile-browser-extension = Selainlaajennus
+plan-matrix-feature-mobile-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-mobile-promo-email-blocking = Estä mainossähköpostit
 plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
 plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
 plan-matrix-feature-mobile-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -134,6 +139,7 @@ highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähkö
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
 
 # Item 3
 
@@ -142,10 +148,16 @@ highlighted-features-section-replying-headline = Vastaa sähköposteihin ja teks
 # Item 4
 
 highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
+highlighted-features-section-block-promotions-body =
+    { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
+    mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
+    sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.
 
 ## FAQ SECTION
 
