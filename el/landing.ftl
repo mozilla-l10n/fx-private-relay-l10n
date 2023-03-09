@@ -44,6 +44,7 @@ plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσ
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+plan-matrix-feature-mobile-email-masks = Μάσκες email
 plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
 
