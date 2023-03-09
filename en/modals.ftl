@@ -8,28 +8,27 @@
 
 ## Refreshed Custom Subdomain Modal | TODO: Deprecate old migrated strings
 
-modal-email-domain-modal-good-news = Good news!
+modal-email-domain-good-news = Good news!
 # Variables:
-#   $custom-domain-full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is available
-modal-email-domain-available = <p>{ $custom-domain-full }</p> is available
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> is available
+modal-email-domain-available-body = You can only register one unique { -brand-name-relay } email domain. <p>You won’t be able to change this later.</p>
 # Variables:
-#   $custom-domain-name (string) - This is the custom domain name the user wants to use for custom domain-based relay addresses. E.g. Yes, I want to register @customdomain.
-modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $custom-domain-name }
+#   $custom_domain_name (string) - This is the custom domain name the user wants to use for custom domain-based relay addresses. E.g. Yes, I want to register @customdomain.
+modal-domain-register-confirmation-checkbox = Yes, I want to register @{ $custom_domain_name }
 modal-email-domain-cancel = Cancel
 modal-email-domain-register = Register
 modal-domain-register-success-title = Success!
 # Variables:
-#   $custom-domain-full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-subheadline = { $custom-domain-full } <p>is now your unique { -brand-name-relay } email domain!</p>
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = { $custom_domain_full } <p>is now your { -brand-name-relay } email domain!</p>
 modal-email-domain-success-headline-on-the-go- = Use this to generate new { -brand-name-relay } masks on-the-go
 modal-email-domain-success-body-on-the-go =  No need to sign into { -brand-name-relay } to create a new mask. 
 modal-email-domain-success-headline-any-word = Create unlimited masks by adding any word or phrase
 # Variables:
-#   $custom-domain-name (string) - This is the custom domain name the user wants to use for custom domain-based relay addresses. E.g. Yes, I want to register @customdomain.
-modal-email-domain-success-body-any-word = At a restaurant? Use restaurant@{ $custom-domain-name }.mozmail.com. Shopping? Use store@{ $custom-domain-name }.mozmail.com.
+#   $custom_domain_name (string) - This is the custom domain name the user wants to use for custom domain-based relay addresses. E.g. Yes, I want to register @customdomain.
+modal-email-domain-success-body-any-word = At a restaurant? Use restaurant@{ $custom_domain_name }.mozmail.com. Shopping? Use store@{ $custom_domain_name }.mozmail.com.
 modal-email-domain-success-continue = Continue
-
-## Delete mask confirmation modal
 
 modal-delete-headline-2 = Permanently delete this email mask?
 # Variables:

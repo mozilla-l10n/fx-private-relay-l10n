@@ -56,6 +56,12 @@ popover-custom-alias-explainer-close-button-label = Close
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = More info
+tooltip-email-domain-explanation-part-one = This valuable feature of your Relay Premium account lets you choose a unique Relay email domain that you can use to create unlimited, custom Relay masks on the go.  
+tooltip-email-domain-explanation-part-two = There’s no need to sign into Relay to generate a new mask; Simply add any word or phrase before the @ symbol of your Relay email domain to instantly create a new mask anywhere you are. 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = At a restaurant? Use restaurant@yourdomain.{ $mozmail }. <p>Shopping? Try shop@yourdomain.{ $mozmail }</p>
 
 ## Tip about using custom masks
 

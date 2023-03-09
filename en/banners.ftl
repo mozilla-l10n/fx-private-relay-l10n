@@ -24,8 +24,6 @@ banner-download-install-extension-headline = Get the { -brand-name-relay } exten
 banner-download-install-extension-copy-2 = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email masks even easier.
 banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Try { -brand-name-relay } for { -brand-name-google-chrome }
-# Deprecated
-banner-download-install-chrome-extension-copy = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using aliases even easier.
 banner-download-install-chrome-extension-copy-2 = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using masks even easier.
 banner-download-install-chrome-extension-cta = Get the { -brand-name-relay } extension
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
@@ -33,6 +31,9 @@ banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } makes creating ema
 banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action step
+
+## Deprecate old subdomain banner
+
 banner-register-subdomain-headline-aliases-2 = Get a custom subdomain for your masks
 # This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
@@ -56,6 +57,25 @@ banner-pack-upgrade-copy-2 = With unlimited email masks and your own email subdo
 footer-banner-premium-promo-headine = Upgrade to <strong>{ -brand-name-firefox-relay-premium }</strong> to protect your phone <i>and</i> email
 footer-banner-premium-promo-body = Get a phone number mask, unlimited email masks, and custom email addresses for quick mask creation.
 banner-pack-upgrade-cta = Upgrade Now
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Action needed
+banner-set-email-domain-headline = Set your unique { -brand-name-relay } email domain
+banner-set-email-domain-step-one-headline = Select your preferred { -brand-name-relay } email domain
+banner-set-email-domain-step-one-body = It's part of your email after the @ symbol.
+banner-set-email-domain-step-two-headline = Use it to instantly create custom { -brand-name-relay } masks
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Just add a word or phrase before the @ symbol. Shopping? Use shop@yourdomain.{ $mozmail }.
+banner-set-email-domain-input-placeholder = Search a word or phrase
+banner-set-email-domain-input-search = Search
+# This string is used in the example subdomain mask. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = yourdomain
+banner-set-email-domain-learn-more = Learn more
 
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Privacy Notice Update
