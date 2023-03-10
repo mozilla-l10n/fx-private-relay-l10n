@@ -6,7 +6,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description-2 = { -brand-name-firefox-relay } makket it maklik om e-mailmaskers te meitsjen, dy’t nei jo echte Postfek Yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
+meta-description-2 = { -brand-name-firefox-relay } makket it maklik om e-mailmaskers te meitsjen, dy’t nei jo wiere Postfek Yn trochstjoerd wurde. Brûk it om jo online accounts te beskermjen tsjin hackers en net-winske berjochten.
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Iepenet yn in nij ljepblêd)
 
@@ -180,9 +180,9 @@ hero-image-copy-control-html = No <em>hawwe jo de kontrôle</em> oer wat der yn 
 
 ## Hero Section
 
-landing-hero-headline-2 = Beskermje jo echte e-mailadres om jo Postfek YN te beskermjen
+landing-hero-headline-2 = Beskermje jo wiere e-mailadres om jo Postfek YN te beskermjen
 landing-hero-body-2 =
-    { -brand-name-firefox-relay }-e-mailmaskers beskermje jo echte e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo echte Postfek YN.
+    { -brand-name-firefox-relay }-e-mailmaskers beskermje jo wiere e-mailadres tsjin iepenbiere werjefte en stjoere e-mailberjochten automatysk troch nei jo wiere Postfek YN.
     No kinne jo allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange. Skriuw jo yn mei jo { -brand-name-firefox-account } om oan de slach te gean.
 landing-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 landing-offer-end-hero-cta = No opwurdearje
@@ -193,7 +193,7 @@ landing-offer-end-hero-content = Abonnearje jo foar { $end_date } op { -brand-na
 ## How it works section
 
 landing-how-it-works-headline = Hoe’t it wurket
-landing-how-it-works-body-2 = Diel { -brand-name-relay }-e-mailmaskers yn stee fan jo echte e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
+landing-how-it-works-body-2 = Diel { -brand-name-relay }-e-mailmaskers yn stee fan jo wiere e-mailadres om jo Postfek YN en jo identiteit te beskermjen.
 landing-how-it-works-step-1-body-cta = Download de { -brand-name-relay }-útwreiding foar { -brand-name-firefox }.
 landing-how-it-works-step-1-body-2 = Generearje automatysk e-mailmaskers wêr’t jo jo e-mailadres online ynfiere.
 # Do not change '@relay.mozmail.com'
@@ -318,21 +318,21 @@ plan-matrix-pick = Registrearje
 landing-use-cases-heading = Brûk { -brand-name-firefox-relay } foar:
 landing-use-cases-shopping = Winkelje
 landing-use-cases-shopping-body-2 =
-    Wat keapje yn in nije webshop? Brûk in e-mailmasker yn stee fan jo echte e-mailadres wannear’t jo in online oankeap dogge.
-    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
+    Wat keapje yn in nije webshop? Brûk in e-mailmasker yn stee fan jo wiere e-mailadres wannear’t jo in online oankeap dogge.
+    Wy stjoere it ûntfangstbewiis troch nei jo wiere e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-social-networks = Sosjale netwurken
 landing-use-cases-social-networks-body-2 =
     Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk?
-    Probearje jo foar te kommen dat jo echte e-mailadres keppele wurdt oan jo oanwêzichheid op sosjale media? Brûk in { -brand-name-relay }-masker om oan te melden en help josels online te beskermjen.
+    Probearje jo foar te kommen dat jo wiere e-mailadres keppele wurdt oan jo oanwêzichheid op sosjale media? Brûk in { -brand-name-relay }-masker om oan te melden en help josels online te beskermjen.
 landing-use-cases-offline = Offline
 landing-use-cases-offline-body-2 =
     Untfange jo leaver e-mailbefêstigingen, mar wolle jo ek marketingspam mije?
     Brûk in { -brand-name-relay }-masker yn stee fan jo e-mailadres wannear’t jo in papierleas ûntfangstbewiis yn in winkel ûntfange.
-    Wy stjoere it ûntfangstbewiis troch nei jo echte e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
+    Wy stjoere it ûntfangstbewiis troch nei jo wiere e-mailadres, en as jo net-winske e-mailberjochten begjinne te ûntfangen, skeakelje jo it trochstjoeren fan e-mail gewoanwei út.
 landing-use-cases-access-content = Tagong ta ynhâld
 landing-use-cases-access-content-body-2 =
     Wolle jo jo oanmelde foar dy nijsbrief, mar fertrouwe jo de ôfstjoerder net?
-    Brûk in masker yn stee fan jo echte adres – as jo net-winske e-mailberjochten fia dat masker krije, hat de ôfstjoerder jo masker mooglik oan oaren ferkocht of is it mooglik sels lekt by in datalek.
+    Brûk in masker yn stee fan jo wiere adres – as jo net-winske e-mailberjochten fia dat masker krije, hat de ôfstjoerder jo masker mooglik oan oaren ferkocht of is it mooglik sels lekt by in datalek.
     Skeakelje it masker gewoanwei út of smyt it fuort om jo Postfek YN te beskermjen.
 landing-use-cases-gaming = Gaming
 landing-use-cases-gaming-body-2 =
@@ -340,30 +340,30 @@ landing-use-cases-gaming-body-2 =
     Brûk in e-mailmasker om in ekstra beskermingslaach te pleatsen tusken jo online-identiteit en de games dy’t jo online spylje.
 landing-use-cases-shopping-hero-heading = Winkelje mei e-mailmaskers
 landing-use-cases-shopping-hero-content1 = Wolle jo wat online keapje en kenne jo de winkel net of fertrouwe jo dizze net folslein?
-landing-use-cases-shopping-hero-content2 = Brûk in e-mailmasker as jo online winkelje. Untfang de befêstiging op jo echte e-mailadres en skeakelje dan it masker letter maklik út.
+landing-use-cases-shopping-hero-content2 = Brûk in e-mailmasker as jo online winkelje. Untfang de befêstiging op jo wiere e-mailadres en skeakelje dan it masker letter maklik út.
 landing-use-cases-on-the-go = Underweis
 landing-use-cases-on-the-go-heading = Underweis mei { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Meitsje daliks en oeral in oanpast e-mailmasker!
 landing-use-cases-on-the-go-connect-heading = Underweis ferbining meitsje
 landing-use-cases-on-the-go-connect-body = Brûk jo e-mailmasker wannear’t jo jo privee oanmelde wolle by jo favorite hoarekagelegenheid of iepenbiere wifi
 landing-use-cases-on-the-go-receipt-heading = Untfang ûntfangstbewizen per e-mail
-landing-use-cases-on-the-go-receipt-body = Diel in oanpast e-mailmasker foar kassabonnen yn de winkel sûnder jo echte e-mailadres te dielen
+landing-use-cases-on-the-go-receipt-body = Diel in oanpast e-mailmasker foar kassabonnen yn de winkel sûnder jo wiere e-mailadres te dielen
 landing-use-cases-on-the-go-phone-heading = Brûke op jo telefoan
 landing-use-cases-on-the-go-phone-body = Wêr’t jo ek binne, meitsje binnen inkelde sekonden in oanpast e-mailmasker foar alles wat jo dwaan wolle
 landing-use-cases-signups = Registraasjes
 landing-use-cases-signups-hero-heading = Soargeleas registrearje
 landing-use-cases-signups-hero-content1 = Wolle jo in nij abonnemint starte, reagearje op in útnûging of in promokoade mei foardiel krije sûnder dat spam jo Postfek YN oerrint?
-landing-use-cases-signups-hero-content2 = Brûk, eardat jo jo folgjende registraasje foltôgje, in e-mailmasker yn stee fan jo echte adres om jo gegevens te beskermjen en kontrôle te hâlden oer jo Postfek YN.
+landing-use-cases-signups-hero-content2 = Brûk, eardat jo jo folgjende registraasje foltôgje, in e-mailmasker yn stee fan jo wiere adres om jo gegevens te beskermjen en kontrôle te hâlden oer jo Postfek YN.
 
 ## Premium promo page
 
 premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker mei { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich winske e-mailberjochten trochstjoere nei jo echte e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei { -brand-name-relay-premium } foar mar { $monthly_price } yn de moanne.</b>
+premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich winske e-mailberjochten trochstjoere nei jo wiere e-mailadres. <b>Jo kinne wylst in beheinde tiid opwurdearje nei { -brand-name-relay-premium } foar mar { $monthly_price } yn de moanne.</b>
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo echte e-mailadres.
+premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo wiere e-mailadres.
 premium-promo-hero-cta = No opwurdearje
 premium-promo-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 # Variables:
@@ -379,7 +379,7 @@ premium-promo-perks-cta-label = No opwurdearje
 premium-promo-perks-cta-tooltip = Opwurdearje nei { -brand-name-firefox-relay-premium }
 premium-promo-perks-pill-new = Nij!
 premium-promo-perks-perk-unlimited-headline-2 = Meitsje ûnbeheinde e-mailmaskers oan
-premium-promo-perks-perk-unlimited-body-2 = Gjin limyt fan fiif maskers mear: mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo echte adres bekend te meitsjen.
+premium-promo-perks-perk-unlimited-body-2 = Gjin limyt fan fiif maskers mear: mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen tsjin spammers en online trackers. Jo kinne sels e-mailberjochten beäntwurdzje sûnder jo wiere adres bekend te meitsjen.
 premium-promo-perks-perk-custom-domain-headline-2 = Kies jo eigen oanpaste subdomein
 premium-promo-perks-perk-custom-domain-body-2 =
     Mei in oanpast subdomein kinne jo maskers meitsje dy’t makliker as ea te ûnthâlden en te dielen binne.
@@ -394,7 +394,7 @@ premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay
 premium-promo-use-cases-shopping-heading = Winkelje
 premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
 premium-promo-use-cases-social-networks-heading = Sosjale netwurken
-premium-promo-use-cases-social-networks-body-2 = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oar e-mailmasker om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo echte e-mailadres sichtber is foar dy websites.
+premium-promo-use-cases-social-networks-body-2 = Wolle jo jo online identiteit better beskermje by it gebrûk fan in sosjaal netwurk? Brûk in oar e-mailmasker om foar elke oanmelding by in sosjaal netwurk om te helpen foar te kommen dat jo wiere e-mailadres sichtber is foar dy websites.
 premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
@@ -492,7 +492,7 @@ faq-headline = Faak stelde fragen
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = Wat is in { -brand-name-relay }-e-mailmasker?
-faq-question-what-is-answer-2 = E-mailmaskers binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo echte e-mailadres. Mei dizze maskers kinne jo in adres diele mei tredden, wêrtroch jo echte e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
+faq-question-what-is-answer-2 = E-mailmaskers binne maskearre e-mailadressen dy’t berjochten trochstjoere nei jo wiere e-mailadres. Mei dizze maskers kinne jo in adres diele mei tredden, wêrtroch jo wiere e-mailadres maskearre wurdt en berjochten dêrnei ta trochstjoerd wurde.
 faq-question-missing-emails-question-2 = Ik ûntfang gjin berjochten fan myn maskers
 faq-question-missing-emails-answer-a-2 = Der kinne in pear redenen wêze wêrom jo gjin e-mailberjochten ûntfange dy’t fia jo maskers trochstjoerd binne, wêrûnder:
 faq-question-missing-emails-answer-reason-spam = Berjochten wurde as net-winske sjoen
@@ -509,7 +509,7 @@ faq-question-missing-emails-answer-b-html = As jo in { -brand-name-relay-premium
 faq-question-missing-emails-answer-support-site-html = As jo mei ien fan dizze problemen wrakselje, <a href="{ $url }" { $attrs }>besykje ús stipewebsite</a>.
 faq-question-use-cases-question-2 = Wannear moat ik { -brand-name-relay }-maskers brûke?
 faq-question-use-cases-answer-part1-2 = Jo kinne { -brand-name-relay }-e-mailmaskers brûke op de measte plakken wêr’t jo jo normale e-mailadres brûke soene. Wy rekommandearje jo oan se te brûken wannear’t jo jo oanmelde foar marketing-/ynformative e-mailberjochten, wêrby’t jo miskien bepale wol oft jo yn de takomst e-mailberjochten ûntfange bliuwe wolle.
-faq-question-use-cases-answer-part2-2 = Wy rekommandearje it gebrûk fan maskers ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo echte e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar flechten.
+faq-question-use-cases-answer-part2-2 = Wy rekommandearje it gebrûk fan maskers ôf wannear’t jo jo identiteit ferifiearje moatte of foar hiel wichtige e-mailberjochten of berjochten wêrby’t jo bylagen ûntfange moatte. Jo wolle bygelyks jo wiere e-mailadres diele mei jo bank, jo dokter en jo advokaat, en ek by it ûntfangen fan konsertkaartsjes of ynstapkaarten foar flechten.
 faq-question-2-question-2 = Wêrom akseptearret in website myn e-mailmasker fan { -brand-name-relay } net?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
@@ -635,7 +635,7 @@ profile-forwarded-copy-2 = { -brand-name-firefox-relay } stjoert berjochten nei 
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde op dit stuit net stipe en wurde net trochstjoerd.
 profile-forwarded-note-copy-v2 = E-mailberjochten (ynklusyf bylagen) grutter as { email-size-limit } wurde net trochstjoerd.
-profile-replies-tooltip = Jo kinne fia dit masker ûntfongen e-mailberjochten beäntwurdzje en { -brand-name-firefox-relay } sil jo echte e-mailadres beskermje bliuwe.
+profile-replies-tooltip = Jo kinne fia dit masker ûntfongen e-mailberjochten beäntwurdzje en { -brand-name-firefox-relay } sil jo wiere e-mailadres beskermje bliuwe.
 profile-stat-learn-more = Mear ynfo
 profile-stat-learn-more-close = Slute
 profile-stat-label-blocked = E-mailberjochten blokkearre
@@ -767,13 +767,13 @@ banner-offer-end-cta = No opwurdearje
 banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stopje spam, robocalls en junkteksten
-banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo echte nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo wiere nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
 banner-ab-premium-promo-advanced-identity-headline = Avansearre identiteitsbeskerming
 banner-ab-premium-promo-advanced-identity-body = Foarkom dat trackers en gegevensaggregators jo identifisearje fia jo telefoannûmer en e-mailadres.
-banner-ab-premium-promo-control-receiver-headline = Bepaal wa’t jo echte nûmer krijt
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo echte nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
+banner-ab-premium-promo-control-receiver-headline = Bepaal wa’t jo wiere nûmer krijt
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo wiere nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
 banner-ab-premium-promo-extra-protection-headline = Untfang ekstra beskerming foar jo Postfek YN en telefoan
-banner-ab-premium-promo-extra-protection-body = Untfang ûnbeheinde e-mailmaskers – plus in telefoanmasker om te bepalen wa’t jo echte nûmer krijt.
+banner-ab-premium-promo-extra-protection-body = Untfang ûnbeheinde e-mailmaskers – plus in telefoanmasker om te bepalen wa’t jo wiere nûmer kriget.
 banner-ab-premium-promo-cta = Opwurdearje
 
 ## Success Messages
@@ -875,7 +875,7 @@ onboarding-premium-feature-intro = Mei { -brand-name-firefox } { -brand-name-rel
 onboarding-premium-control-title = Bepale hokker e-mailberjochten jo ûntfange
 onboarding-premium-control-description-2 = Unbeheind e-mailmaskers diele dy’t de berjochten dy’t jo echt ûntfange wolle nei jo Postfek YN trochstjoere.
 onboarding-premium-domain-title-3 = In oanpast subdomein brûke foar it dielen fan maskers:
-onboarding-premium-reply-title-2 = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
+onboarding-premium-reply-title-2 = Antwurdzje op e-mailberjochten sûnder jo wiere adres fuort te jaan
 onboarding-premium-reply-description-2 = Moatte jo e-mailberjochten dy’t nei in masker stjoerd binne beäntwurdzje? Beäntwurdzje gewoan as altyd – jo masker beskermet jo e-mailadres noch hieltyd.
 onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinne jo:
 
@@ -1079,7 +1079,7 @@ vpn-promo-cta = { -brand-name-mozilla-vpn } downloade
 #   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
 #   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
 forwarded-email-header-from = Dit berjocht is trochstjoerd fan { $display_email } troch { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo echte e-mailadres sichtber.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } smyt Cc’s en Bcc’s út jo antwurden fuort. As jo se opnij tafoegje, wurdt jo wiere e-mailadres sichtber.
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-3 = Wurdearje op nei { $premium_link } om ûnbeheinde maskers. in oanpast e-mailsubdomein en de mooglikheid om e-mailberjochten te beäntwurdzjen te krijen.

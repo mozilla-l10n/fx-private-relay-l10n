@@ -49,7 +49,7 @@ how-it-works-section-extension-body = Untfang feilige, willekeurige e-mailmasker
 # Item 2
 
 how-it-works-section-forward-headline = Wy stjoere e-mailberjochten, telefoantsjes en sms’kes nei jo troch
-how-it-works-section-forward-body = Wês gerêst, ôfstjoerders sille nea jo echte e-mailadres of echte nûmer witte. Jo kinne sels sms’kes en e-mailberjochten beäntwurdzje sûnder jo echte identiteit te dielen.
+how-it-works-section-forward-body = Wês gerêst, ôfstjoerders sille nea jo wiere e-mailadres of echte nûmer witte. Jo kinne sels sms’kes en e-mailberjochten beäntwurdzje sûnder jo wiere identiteit te dielen.
 
 # Item 3
 
@@ -74,7 +74,7 @@ plan-matrix-heading-plan-bundle-alt = Untfang { -brand-name-relay-premium } en {
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = E-mailmaskers om jo echte e-mailadres te beskermjen
+plan-matrix-feature-email-masks = E-mailmaskers om jo wiere e-mailadres te beskermjen
 plan-matrix-feature-browser-extension = Browserútwreiding om { -brand-name-relay } op elke website te brûken
 plan-matrix-feature-email-tracker-removal = E-mailtrackers fuortsmite
 plan-matrix-feature-promo-email-blocking = Reklameberjochten blokkearje
@@ -137,7 +137,7 @@ landing-review-user-one-review = Ik wurdearje it { -brand-name-mozilla }-team wu
 landing-review-user-two-review = Ienfâldich ark om spam op jo e-mailadres kwyt te reitsjen of te foar te kommen.
 landing-review-user-three-review = Ik mei bot oer dizze útwreiding! Hiel ienfâldich mar krêftich en de yntegraasje mei de browser is prachtich.
 landing-review-user-four-review-list-1 = Jout rêst by it sneupen op it ynternet.
-landing-review-user-four-review-list-2 = Beskermet jo identiteit tsjin folgers troch it oanmeitsjen fan aliassen, wêrby’t jo om ferskate redenen jo echte e-mailadres net diele wolle.
+landing-review-user-four-review-list-2 = Beskermet jo identiteit tsjin folgers troch it oanmeitsjen fan aliassen, wêrby’t jo om ferskate redenen jo wiere e-mailadres net diele wolle.
 landing-review-user-four-review-list-3 = E-mailgegevens yn jo Postfek YN binne feilich yn de hannen fan { -brand-name-firefox-relay }.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } docht wûnderen, probearje it!!!
 
@@ -173,7 +173,7 @@ highlighted-features-section-masks-on-the-go-body =
 highlighted-features-section-replying-headline = Beäntwurdzje anonym e-mailberjochten en sms’kes
 highlighted-features-section-replying-body =
     Mei { -brand-name-relay-premium } kinne jo reagearje op e-mailberjochten fan jo
-    maskearre e-mailaccount út, sadat ôfstjoerders nea jo echte e-mailadres kenne sille. Mei telefoanmaskearring kinne jo antwurdzje
+    maskearre e-mailaccount út, sadat ôfstjoerders nea jo wiere e-mailadres kenne sille. Mei telefoanmaskearring kinne jo antwurdzje
     op sms’kes fan jo maskearre telefoannûmer ôf, om jo wiere nûmer te beskermjen.
 
 # Item 4
