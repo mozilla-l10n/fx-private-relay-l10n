@@ -161,6 +161,9 @@ how-it-works-headline = Como é que funciona
 how-it-works-subheadline = Proteja a sua identidade pessoal onde quer que utilize o { -brand-name-firefox-browser }.
 how-it-works-step-1-headline = Obter a extensão
 how-it-works-step-1-link = Transferir a extensão { -brand-name-relay } para { -brand-name-firefox }.
+how-it-works-step-1-copy =
+    Selecione o ícone que aparece na barra de ferramentas do { -brand-name-firefox } para aceder à página de autenticação.
+    Inicie sessão com a sua { -brand-name-firefox-account } para começar.
 how-it-works-step-2-headline-2 = Criar uma nova máscara de e-mail
 
 # Home Page Version A
