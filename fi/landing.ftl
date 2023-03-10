@@ -48,10 +48,12 @@ how-it-works-section-extension-headline = Käytä { -brand-name-relay }-maskeja 
 # Item 2
 
 how-it-works-section-forward-headline = Välitämme sinulle sähköpostit, puhelut ja tekstiviestit
+how-it-works-section-forward-body = Voit olla varma, että lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi tai oikeaa numeroasi. Voit jopa vastata tekstiviesteihin ja sähköposteihin jakamatta todellista henkilöyttäsi.
 
 # Item 3
 
 how-it-works-section-manage-headline = Hallitse maskeja { -brand-name-relay }-hallintapaneelista
+how-it-works-section-manage-body = Kirjaudu { -brand-name-relay }-hallintapaneeliin luodaksesi uusia maskeja, nimetäksesi olemassa olevia maskeja ja estääksesi puhelut, tekstiviestit tai sähköpostit maskeista, jotka saavat liikaa roskapostia.
 
 ## PRICING MATRIX SECTION
 
