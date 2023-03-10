@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } facilita a criação de máscaras de correio eletrónico que encaminham as suas mensagens para a sua verdadeira caixa de entrada. Utilize-os para proteger as suas contas na Internet contra agentes maliciosos e mensagens indesejadas.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Abre num separador novo)
 
@@ -16,9 +16,10 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Início
+nav-email-dashboard = Máscaras de e-mail
+nav-phone-dashboard = Máscaras de telefone
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Iniciar sessão
@@ -33,22 +34,27 @@ nav-profile-help = Ajuda e apoio
 nav-profile-help-tooltip = Obter ajuda na utilização do { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Contacte-nos
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = Entre em contacto sobre o { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
+# Deprecated
 nav-phone = Número de telefone
 nav-duo-description = Mudar painéis
+nav-duo-email-mask-alt = Máscaras de e-mail
+nav-duo-phone-mask-alt = Máscaras de telefone
 
 ## Mobile menu text
 
 menu-upgrade-button = Atualizar
 menu-toggle-open = Abrir menu
 menu-toggle-close = Fechar menu
+# Deprecated
 nav-dashboard = Painel
 nav-settings = Definições
 nav-support = Ajuda e apoio
 nav-sign-out = Terminar sessão
 nav-contact = Contactar-nos
 nav-menu-mobile = Menu para dispositivos móveis
-
 fx-desktop-2 = { -brand-name-firefox } para PC
 fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
@@ -58,6 +64,7 @@ nav-footer-privacy = Privacidade
 nav-footer-relay-terms = { -brand-name-relay } Termos
 nav-footer-legal = Informação legal
 nav-footer-release-notes = Notas de lançamento
+nav-footer-stock-photo-legal = As fotografias nesta página são provenientes de iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logótipo do GitHub
 
@@ -75,7 +82,42 @@ whatsnew-tab-archive-label = Histórico
 whatsnew-footer-clear-all-label = Limpar tudo
 whatsnew-footer-back-label = Voltar
 whatsnew-footer-learn-more-label = Saber mais
-
+whatsnew-feature-size-limit-heading = Aumento do tamanho dos anexos
+# A preview of the full content of `whatsnew-feature-size-limit-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet = O { -brand-name-firefox-relay } agora pode encaminhar mensagens até 25 MB, incluindo…
+whatsnew-feature-size-limit-description = O { -brand-name-firefox-relay } agora pode encaminhar mensagens até 25 MB, incluindo os anexos.
+# A preview of the full content of `whatsnew-feature-size-limit-description-var`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-size-limit-snippet-var = O { -brand-name-firefox-relay } agora pode encaminhar mensagens até { email-size-limit }, incluindo…
+whatsnew-feature-size-limit-description-var = O { -brand-name-firefox-relay } agora pode encaminhar mensagens até { email-size-limit }, incluindo os anexos.
+whatsnew-feature-sign-back-in-heading = Volte a autenticar-se com o seu pseudónimo
+# A preview of the full content of `whatsnew-feature-sign-back-in-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-sign-back-in-snippet = Para criar um novo pseudónimo quando lhe for solicitado o seu e-mail, abra...
+whatsnew-feature-sign-back-in-description = Para iniciar a sessão com um pseudónimo utilizado anteriormente, abra o menu de contexto onde o site solicita o seu e-mail. Poderá selecionar o pseudónimo e preencher automaticamente o campo do e-mail.
+whatsnew-feature-forward-some-heading = Bloqueio de mensagens promocionais
+# A preview of the full content of `whatsnew-feature-forward-some-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-forward-some-snippet = O { -brand-name-relay-premium } permite-lhe bloquear apenas mensagens promocionais…
+whatsnew-feature-forward-some-description = O { -brand-name-relay-premium } permite-lhe bloquear apenas as mensagens promocionais enviadas para um pseudónimo. Irá receber e-mails tais como recibos, mas não mensagens de marketing.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-heading = Os pseudónimos agora são máscaras
+# A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
+# Try to keep this string short, not longer than the English version.
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-snippet = Apercebeu-se de uma alteração? Nós agora estamos a denominar os pseudónimos de “máscaras” para tornar o { -brand-name-firefox-relay }…
+# Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
+# Thus, if your locale did not make this change, please keep the English version.
+whatsnew-feature-alias-to-mask-description = Apercebeu-se de uma alteração? Nós agora estamos a denominar os pseudónimos de “máscaras” para tornar a utilização do { -brand-name-firefox-relay } mais fácil e abrir as portas para novas funcionalidades.
+whatsnew-feature-premium-expansion-sweden-heading = O { -brand-name-relay-premium } está disponível na Suécia
+whatsnew-feature-premium-expansion-finland-heading = O { -brand-name-relay-premium } está disponível na Finlândia
+# A preview of the full content of `whatsnew-feature-premium-expansion-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-snippet = Atualize agora e obtenha ainda mais proteção…
+whatsnew-feature-premium-expansion-description = Atualize agora e obtenha ainda mais proteção — crie máscaras de correio eletrónico ilimitadas, obtenha um subdomínio de correio eletrónico personalizado, e muito mais!
 whatsnew-feature-offer-countdown-cta = Atualizar agora
 
 ## Bento Menu
@@ -101,6 +143,7 @@ how-it-works-step-1-link = Transferir a extensão { -brand-name-relay } para { -
 how-it-works-step-2-headline-2 = Criar uma nova máscara de e-mail
 
 # Home Page Version A
+
 
 ## Hero Section
 
@@ -128,7 +171,6 @@ landing-pricing-free-cta = Obter o { -brand-name-relay }
 landing-pricing-free-ribbon = Disponível agora!
 # Deprecated
 landing-pricing-free-feature-free = Gratuito
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -148,15 +190,12 @@ landing-pricing-premium-feature-3-subheader = oseuemail@oseudominio.mozmail.com
 landing-pricing-premium-feature-4 = Responder a mensagens reencaminhadas
 # Deprecated
 landing-pricing-premium-feature-5 = Bloquear mensagens promocionais
-
 # Deprecated
 landing-pricing-waitlist-cta = Junte-se à lista de espera
-
 # Deprecated
 landing-pricing-offer-end-warning = Esta promoção expira em breve
 # Deprecated
 landing-pricing-offer-end-cta = Atualizar agora
-
 plan-matrix-heading-plan-bundle = Adicionar proteção via VPN
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
 plan-matrix-heading-feature-email-masks = Máscaras de e-mail
@@ -183,17 +222,14 @@ landing-use-cases-social-networks = Redes sociais
 landing-use-cases-offline = Offline
 landing-use-cases-access-content = Aceder a conteúdos
 landing-use-cases-gaming = Jogos
-
 landing-use-cases-shopping-hero-heading = Comprar com máscaras de e-mail
 landing-use-cases-shopping-hero-content1 = Quer comprar algo na Internet e não sabe ou não confia totalmente na loja?
-
 landing-use-cases-on-the-go = Em qualquer lugar
 landing-use-cases-on-the-go-heading = Em qualquer lugar com o { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Crie instantaneamente uma máscara de e-mail personalizada, em qualquer momento e em qualquer lugar onde vá!
 landing-use-cases-on-the-go-connect-heading = Ligue-se em qualquer lugar
 landing-use-cases-on-the-go-receipt-heading = Obtenha comprovativos de e-mail
 landing-use-cases-on-the-go-phone-heading = Utilize no seu telemóvel
-
 landing-use-cases-signups = Registos
 landing-use-cases-signups-hero-heading = Registos sem preocupações
 landing-use-cases-signups-hero-content1 = Deseja iniciar uma nova subscrição, responder a um convite ou obter um código promocional de desconto sem que o lixo eletrónico inunde a sua caixa de entrada?
@@ -202,22 +238,17 @@ landing-use-cases-signups-hero-content2 = Antes de concluir o seu próximo regis
 ## Premium promo page
 
 premium-promo-hero-cta = Atualizar agora
-
 premium-promo-offer-end-hero-heading = A nossa oferta de preço de lançamento termina em breve!
 premium-promo-offer-end-hero-cta = Atualizar agora
-
 premium-promo-perks-headline = Porquê atualizar para o { -brand-name-firefox-relay-premium }?
 premium-promo-perks-cta-label = Atualizar agora
 premium-promo-perks-cta-tooltip = Atualizar para o { -brand-name-firefox-relay-premium }
 premium-promo-perks-pill-new = Novo!
 premium-promo-perks-perk-tracker-blocking-headline = Remover rastreadores de e-mail
-
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-social-networks-heading = Redes sociais
 premium-promo-use-cases-gaming-heading = Jogos
-
 premium-promo-pricing-free-price = O seu plano gratuito atual
-
 premium-promo-pricing-offer-end-warning = Esta promoção expira brevemente
 premium-promo-pricing-offer-end-cta = Atualizar agora
 
@@ -231,9 +262,9 @@ waitlist-control-email-placeholder = oseunome@example.com
 waitlist-control-country-label = Em que país reside?
 waitlist-control-country-label-2 = Em que país ou região reside?
 waitlist-control-locale-label = Selecione o seu idioma preferencial.
+# Deprecated
 waitlist-submit-label = Junte-se à lista de espera
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+# Deprecated
 waitlist-privacy-policy-agree = Ao clicar em “{ waitlist-submit-label }”, concorda com a nossa <a>política de privacidade</a>.
 
 ## Settings page
@@ -257,7 +288,6 @@ setting-tracker-removal-heading = Remover rastreadores de e-mail
 ## FAQ Page
 
 faq-headline = Perguntas frequentes
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
@@ -266,48 +296,69 @@ email-size-limit = { $size } { $unit }
 
 ## Profile Page (Logged In)
 
+
 ## Mask Promotional Email Blocking (displayed on the profile page)
+
 
 ## Banner Messages (displayed on the profile page)
 
+
 ## Success Messages
+
 
 ## Error Messages
 
+
 ## Tips and tricks at the bottom of the page
+
 
 ## Modal for generating a custom mask
 
+
 ## Popover explaining how custom masks work
 
-## Tip about using custom masks
 
 ## Tip about using custom masks
+
+
+## Tip about using custom masks
+
 
 ## Onboarding
 
+
 ## Premium Onboarding
+
 
 ## Multi-part Premium Onboarding - This is a walk-through onboarding expereince
 
+
 ## Report of trackers removed from an email
+
 
 ## Modals
 
 
 ## Countdown timer (e.g. to count down to pricing increases)
 
+
 ## Evergreen Survey (displayed on the profile page)
+
 
 ## CSAT survey
 
+
 ## VPN Promo Banner
+
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+
 ## Email sent to free users who try to reply
 
+
 ## Notifications component
+
 
 ## API error messages
 
