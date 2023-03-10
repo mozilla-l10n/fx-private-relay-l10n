@@ -43,6 +43,7 @@ how-it-works-section-title = Miten { -brand-name-relay }n sähköposti- ja puhel
 
 # Item 1
 
+how-it-works-section-extension-headline = Käytä { -brand-name-relay }-maskeja sähköpostiosoitteille ja puhelinnumeroille missä tahansa
 
 # Item 2
 
@@ -85,6 +86,7 @@ plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
 plan-matrix-feature-mobile-browser-extension = Selainlaajennus
 plan-matrix-feature-mobile-email-tracker-removal = Poista sähköpostin seuraimet
 plan-matrix-feature-mobile-promo-email-blocking = Estä mainossähköpostit
+plan-matrix-feature-mobile-email-subdomain = Yksilöllinen { -brand-name-relay }-verkkotunnus sähköpostille
 plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
 plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
 plan-matrix-feature-mobile-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
