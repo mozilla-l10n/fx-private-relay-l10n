@@ -118,7 +118,28 @@ whatsnew-feature-premium-expansion-finland-heading = O { -brand-name-relay-premi
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Atualize agora e obtenha ainda mais proteção…
 whatsnew-feature-premium-expansion-description = Atualize agora e obtenha ainda mais proteção — crie máscaras de correio eletrónico ilimitadas, obtenha um subdomínio de correio eletrónico personalizado, e muito mais!
+whatsnew-feature-tracker-removal-heading = A apresentar a remoção de rastreadores em e-mails
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-tracker-removal-snippet = Agora, o { -brand-name-relay } pode remover rastreadores frequentes em e-mails de mensagens reencaminhadas…
+# Deprecated
+whatsnew-feature-tracker-removal-description = Agora, o { -brand-name-relay } pode remover rastreadores frequentes em e-mails de mensagens reencaminhadas para si, ajudando a que possa permanecer invisível para anunciantes.
+whatsnew-feature-tracker-removal-description-2 = Agora, o { -brand-name-relay } pode remover rastreadores frequentes em e-mails de mensagens reencaminhadas para si, ajudando a que possa permanecer invisível para anunciantes. Ative nas “Definições”
+whatsnew-feature-offer-countdown-heading = A nossa oferta de preço de lançamento termina brevemente!
+# A preview of the full content of `whatsnew-feature-offer-countdown-description`.
+# Try to keep this string short, not longer than the English version.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-snippet = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e desfrute de máscaras ilimitadas na nossa…
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+whatsnew-feature-offer-countdown-description = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e desfrute de máscaras ilimitadas ao nosso preço mensal de lançamento.
 whatsnew-feature-offer-countdown-cta = Atualizar agora
+whatsnew-feature-firefox-integration-heading = O { -brand-name-relay } está agora disponível no gestor de palavras-passe do { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Proteger o seu correio eletrónico tornou-se mais fácil. Agora pode gerar…
+whatsnew-feature-firefox-integration-description = Proteger o seu correio eletrónico tornou-se mais fácil. Agora pode gerar novas máscaras de correio eletrónico no { -brand-name-relay } diretamente do seu gestor de palavras-passe do { -brand-name-firefox } no computador.
 
 ## Bento Menu
 
