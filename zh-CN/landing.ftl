@@ -140,7 +140,7 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } 功能超
 
 ## HIGHLIGHTED FEATURES SECTION
 
-highlighted-features-section-title = 简单而安全地功能，保护您的身份信息
+highlighted-features-section-title = 简单而安全的功能，保护您的身份信息
 highlighted-features-section-bottom-title = 使用 { -brand-name-firefox-relay } 保护您的身份信息和收件箱
 highlighted-features-section-bottom-cta = 开始使用
 highlighted-features-section-new-item = 新功能！
@@ -164,7 +164,8 @@ highlighted-features-section-masks-on-the-go-body =
     { -brand-name-relay-premium } 提供独一无二的 { -brand-name-relay } 邮箱域名，
     您可以随时创建新的马甲。
     只需在 @ 符号前添加字符就能生成马甲。
-    在餐厅吃饭？那就用 canting@<你的域名>.{ $mozmail }。
+    在餐厅吃饭？可以用 canting@<你的域名>.{ $mozmail }。
+    在商场购物？那就用 shangchang@<您的域名>.{ $mozmail }。
 
 # Item 3
 
