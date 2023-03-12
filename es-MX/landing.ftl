@@ -54,6 +54,7 @@ plan-matrix-heading-plan-bundle-alt = Obtén { -brand-name-relay-premium } y { -
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de correo electrónico para proteger tu dirección de correo electrónico real.
 plan-matrix-feature-browser-extension = Extensión de navegador para usar { -brand-name-relay } en cualquier sitio
 plan-matrix-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
 plan-matrix-feature-promo-email-blocking = Bloquear correos electrónicos promocionales
@@ -88,6 +89,7 @@ plan-matrix-price-period-yearly = Anual
 plan-matrix-price-period-monthly = Mensual
 plan-matrix-price-period-yearly-footnote-1 = Facturado anualmente
 plan-matrix-price-period-monthly-footnote-1 = Facturado mensualmente
+plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el precio normal de { -brand-name-vpn }
 
 # Plan CTAs
 
