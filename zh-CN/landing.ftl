@@ -45,7 +45,7 @@ how-it-works-section-extension-body = 获取安全、随机的马甲邮箱及独
 
 # Item 2
 
-how-it-works-section-forward-headline = 我们会将邮件、电话和短信转发或转移给你
+how-it-works-section-forward-headline = 我们会将邮件、电话和短信转发或转移给您
 how-it-works-section-forward-body = 请放心，发送消息的人永远不会知道您的真实邮件地址和电话号码，您也可以在不透露真实身份的情况下回复短信和邮件。
 
 # Item 3
@@ -71,8 +71,8 @@ plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { 
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = 马甲邮箱可保护您的真实邮箱
-plan-matrix-feature-browser-extension = 安装扩展即可在所有网站上使用 { -brand-name-relay }
+plan-matrix-feature-email-masks = 可保护您的真实邮箱的马甲邮箱
+plan-matrix-feature-browser-extension = 可在所有网站上使用 { -brand-name-relay } 的扩展
 plan-matrix-feature-email-tracker-removal = 移除邮件跟踪器
 plan-matrix-feature-promo-email-blocking = 屏蔽营销邮件
 plan-matrix-feature-email-subdomain = 使用 { -brand-name-relay } 邮箱域名随时创建马甲
