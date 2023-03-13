@@ -94,7 +94,7 @@ whatsnew-feature-size-limit-description-var = O { -brand-name-firefox-relay } ag
 whatsnew-feature-sign-back-in-heading = Volte a autenticar-se com o seu pseudónimo
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-sign-back-in-snippet = Para criar um novo pseudónimo quando lhe for solicitado o seu e-mail, abra...
+whatsnew-feature-sign-back-in-snippet = Para criar um novo pseudónimo quando lhe for solicitado o seu e-mail, abra…
 whatsnew-feature-sign-back-in-description = Para iniciar a sessão com um pseudónimo utilizado anteriormente, abra o menu de contexto onde o site solicita o seu e-mail. Poderá selecionar o pseudónimo e preencher automaticamente o campo do e-mail.
 whatsnew-feature-forward-some-heading = Bloqueio de mensagens promocionais
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
