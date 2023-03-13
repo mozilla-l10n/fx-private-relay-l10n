@@ -64,6 +64,7 @@ nav-footer-privacy = Adatvédelem
 nav-footer-relay-terms = { -brand-name-relay } feltételei
 nav-footer-legal = Jogi információk
 nav-footer-release-notes = Kiadási megjegyzések
+nav-footer-stock-photo-legal = Az oldalon található fényképek az iStocktól származnak, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logó
 
