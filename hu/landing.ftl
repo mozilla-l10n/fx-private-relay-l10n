@@ -161,6 +161,12 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Azonnal készítsen maszkokat útközben
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
+    létrehozhat új maszkokat, bárhol is legyen. Egyszerűen adjon hozzá bármilyen szót vagy kifejezést a @ szimbólum elé. Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet.
+    Bevásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.
 
 # Item 3
 
