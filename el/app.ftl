@@ -428,6 +428,8 @@ waitlist-submit-label-2 = Εγγραφή στη λίστα αναμονής
 waitlist-privacy-policy-agree = Κάνοντας κλικ στο «{ waitlist-submit-label }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-agree-2 = Κάνοντας κλικ στο «{ waitlist-submit-label-2 }», συμφωνείτε με την <a>Πολιτική απορρήτου</a> μας.
 waitlist-privacy-policy-use = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για να ειδοποιηθείτε όταν η απόκρυψη τηλεφώνουν είναι διαθέσιμη στην περιοχή σας.
+waitlist-privacy-policy-use-bundle = Τα στοιχεία σας θα χρησιμοποιηθούν αποκλειστικά για την ενημέρωσή σας σχετικά με τη διαθεσιμότητα του πακέτου { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
 waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
 waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
@@ -659,6 +661,8 @@ profile-promo-email-blocking-title = Ποια email θέλετε να αποκλ
 profile-promo-email-blocking-option-all = Όλα
 # Deprecated
 profile-promo-email-blocking-option-promotionals = Διαφημιστικά
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Διαφημίσεις
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Κανένα
 profile-promo-email-blocking-description-all-2 = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτήν τη μάσκα.
@@ -1089,9 +1093,13 @@ other-reply-not-forwarded = Η απάντησή σας ΔΕΝ απεστάλη �
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Η απάντησή σας δεν απεστάλη στο { $sender }.
+replies-only-available-with-premium = Η απάντηση σε προωθημένα email από τη μάσκα email σας είναι διαθέσιμη μόνο στο { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει απαντήσεις
 reply-not-sent-header = Η απάντησή σας δεν απεστάλη
+upgrade-to-reply-to-future-emails = Κάντε αναβάθμιση τώρα για αποστολή απαντήσεων
+upgrade-for-more-protection = Κάντε αναβάθμιση για περισσότερη προστασία
 upgrade-to-premium = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
+manage-your-masks = Διαχειριστείτε τις μάσκες σας
 
 ## Notifications component
 

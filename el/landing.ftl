@@ -5,10 +5,25 @@
 
 ## HERO SECTION 
 
+hero-section-cta = Έναρξη
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Μόνο για περιορισμένο χρονικό διάστημα: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } με { $monthly_price }/μήνα
+bundle-banner-plan-header-2 = Το πρόγραμμα ενός έτους περιλαμβάνει:
+bundle-banner-plan-modules-email-masking = Απόκρυψη email
+bundle-banner-plan-modules-phone-masking = Απόκρυψη τηλεφώνου
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = Απόκτηση των { -brand-name-mozilla-vpn } + { -brand-name-relay }
+bundle-banner-alt = { -brand-name-mozilla-vpn } και { -brand-name-relay }
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Περισσότεροι από { $num_vpn_servers } διακομιστές
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Περισσότερες από { $num_vpn_countries } χώρες
 bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
 ## HOW IT WORKS SECTION 
@@ -40,11 +55,14 @@ plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-rela
 
 plan-matrix-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-feature-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-email-reply = Απάντηση σε email ανώνυμα
+plan-matrix-feature-phone-mask = Μάσκα τηλεφώνου για την προστασία του πραγματικού αριθμού τηλεφώνου σας
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
 plan-matrix-feature-mobile-email-masks = Μάσκες email
+plan-matrix-feature-mobile-browser-extension = Επέκταση φυλλομετρητή
 plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
 
@@ -95,6 +113,7 @@ landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κά
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = Έναρξη
 highlighted-features-section-new-item = Νέο!
 
 # Item 1
