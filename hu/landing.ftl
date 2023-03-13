@@ -171,6 +171,10 @@ highlighted-features-section-masks-on-the-go-body =
 # Item 3
 
 highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
+highlighted-features-section-replying-body =
+    A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
+    a maszkolt e-mail-fiókjából, így a feladók soha nem tudják meg az Ön valódi e-mail-címét. A telefonmaszkolással
+    válaszolhat a maszkolt telefonszámról érkező SMS-ekre, hogy megvédje a valódi számát.
 
 # Item 4
 
