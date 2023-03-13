@@ -47,7 +47,7 @@ bundle-price-monthly = Mensual: <monthly-price>{ $monthly_price }</monthly-price
 # Variables:
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 #   $old_price (string) - the outdated monthly cost (including currency symbol) for a given plan. This value has a strikethrough.
-bundle-price-save-amount = Ahorra { $savings } <precio-anterior>Normalmente { $old_price }</precio-anterior>
+bundle-price-save-amount = Ahorra { $savings } <outdated-price>Normalmente { $old_price }</outdated-price>
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
 bundle-banner-money-back-guarantee = { $days_guarantee } garantía de devolución de dinero de un día para nuevos suscriptores
