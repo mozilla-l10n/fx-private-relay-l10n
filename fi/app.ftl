@@ -63,6 +63,7 @@ nav-footer-privacy = Tietosuoja
 nav-footer-relay-terms = { -brand-name-relay }-käyttöehdot
 nav-footer-legal = Juridiset asiat
 nav-footer-release-notes = Julkaisutiedot
+nav-footer-stock-photo-legal = Tämän sivun valokuvat ovat peräisin iStockista, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub-logo
 
@@ -559,7 +560,7 @@ profile-indicator-tracker-removal-alt = Seurainten poiston tila
 profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Mainosviestit
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Ei mitään
