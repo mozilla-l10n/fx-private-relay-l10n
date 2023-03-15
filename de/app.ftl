@@ -136,11 +136,11 @@ whatsnew-feature-offer-countdown-snippet = Holen Sie sich { -brand-name-relay-pr
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie unbegrenzt viele Masken zu unserem monatlichen Einführungspreis.
 whatsnew-feature-offer-countdown-cta = Jetzt upgraden
-whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ist jetzt im { -brand-name-firefox }-Passwort-Manager verfügbar
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ist jetzt in der { -brand-name-firefox }-Passwortverwaltung verfügbar
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Schützen Sie Ihre E-Mails noch einfacher. Erzeugen Sie…
-whatsnew-feature-firefox-integration-description = Schützen Sie Ihre E-Mails noch einfacher. Erzeugen Sie neue { -brand-name-relay }-E-Mail-Masken direkt aus Ihrem { -brand-name-firefox }-Passwort-Manager auf dem Desktop-Computer.
+whatsnew-feature-firefox-integration-description = Schützen Sie Ihre E-Mails noch einfacher. Erzeugen Sie neue { -brand-name-relay }-E-Mail-Masken direkt aus Ihrer { -brand-name-firefox }-Passwortverwaltung auf dem Desktop-Computer.
 
 ## Bento Menu
 
