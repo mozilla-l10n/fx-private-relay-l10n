@@ -155,7 +155,7 @@ highlighted-features-section-unlimited-masks-headline = Unbegrenzt viele E-Mail-
 #   $mask_limit (number) - the number of masks included with a particular plan
 highlighted-features-section-unlimited-masks-body =
     Jeder erhält kostenlos { $mask_limit } E-Mail-Masken.
-    Aber mit { -brand-name-relay-premium } können Sie so viele Masken generieren, wie Sie zum Schutz Ihres E-Mail-Posteingangs 
+    Aber mit { -brand-name-relay-premium } können Sie so viele Masken erzeugen, wie Sie zum Schutz Ihres E-Mail-Posteingangs 
     vor Spammern, Hackern und Online-Trackern benötigen.
 
 # Item 2

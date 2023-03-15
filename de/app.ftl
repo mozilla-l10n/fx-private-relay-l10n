@@ -139,8 +139,8 @@ whatsnew-feature-offer-countdown-cta = Jetzt upgraden
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ist jetzt im { -brand-name-firefox }-Passwort-Manager verfügbar
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-firefox-integration-snippet = Schützen Sie Ihre E-Mails noch einfacher. Generieren Sie…
-whatsnew-feature-firefox-integration-description = Schützen Sie Ihre E-Mails noch einfacher. Generieren Sie neue { -brand-name-relay }-E-Mail-Masken direkt aus Ihrem { -brand-name-firefox }-Passwort-Manager auf dem Desktop-Computer.
+whatsnew-feature-firefox-integration-snippet = Schützen Sie Ihre E-Mails noch einfacher. Erzeugen Sie…
+whatsnew-feature-firefox-integration-description = Schützen Sie Ihre E-Mails noch einfacher. Erzeugen Sie neue { -brand-name-relay }-E-Mail-Masken direkt aus Ihrem { -brand-name-firefox }-Passwort-Manager auf dem Desktop-Computer.
 
 ## Bento Menu
 
@@ -168,7 +168,7 @@ how-it-works-step-1-copy =
 how-it-works-step-2-headline-2 = Eine neue E-Mail-Maske erstellen
 how-it-works-step-2-copy =
     Beim Surfen erscheint das { -brand-name-relay }-Symbol dort, wo nach deiner E-Mail-Adresse gefragt wird.
-    Wähle es aus, um eine neue, zufällige E-Mail-Adresse zu erstellen, die auf @mozmail.com endet.
+    Wähle es aus, um eine neue, zufällige E-Mail-Adresse zu erzeugen, die auf @mozmail.com endet.
     { -brand-name-relay } leitet Nachrichten an deine Haupt-E-Mail-Adresse weiter, die mit deinem Konto verknüpft ist.
 how-it-works-step-3-headline-2 = Verwalten Sie Ihre E-Mail-Masken
 hero-image-copy-trust = Kannst du dieser Firma überhaupt deine persönliche E-Mail-Adresse anvertrauen?
@@ -195,14 +195,14 @@ landing-offer-end-hero-content = Holen Sie sich { -brand-name-relay-premium } vo
 landing-how-it-works-headline = Wie es funktioniert
 landing-how-it-works-body-2 = Teilen Sie Alias-E-Mail-Adressen von { -brand-name-relay } anstelle Ihrer echten E-Mail-Adresse, um Ihren E-Mail-Posteingang sowie Ihre Identität zu schützen.
 landing-how-it-works-step-1-body-cta = Lade dir die { -brand-name-relay }-Erweiterung für { -brand-name-firefox } herunter.
-landing-how-it-works-step-1-body-2 = Erstellen Sie E-Mail-Masken automatisch überall dort, wo Sie Ihre E-Mail-Adresse online eingeben.
+landing-how-it-works-step-1-body-2 = Erzeugen Sie E-Mail-Masken automatisch überall dort, wo Sie Ihre E-Mail-Adresse online eingeben.
 # Do not change '@relay.mozmail.com'
 landing-how-it-works-step-2-body =
     Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach deiner E-Mail-Adresse fragen.
-    Wähle es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
+    Wähle es aus, um eine neue, zufällige Adresse zu erzeugen, die auf @mozmail.com endet.
 landing-how-it-works-step-2-body-2 =
     Beim Surfen wird das Symbol von { -brand-name-relay } angezeigt, wenn Websites nach Ihrer E-Mail-Adresse fragen.
-    Wählen Sie es aus, um eine neue, zufällige Adresse zu erstellen, die auf @mozmail.com endet.
+    Wählen Sie es aus, um eine neue, zufällige Adresse zu erzeugen, die auf @mozmail.com endet.
 landing-how-it-works-step-3-body-2 =
     Melden Sie sich bei der { -brand-name-relay }-Übersicht an, um den Überblick über die von Ihnen erstellten E-Mail-Masken zu behalten.
     Wenn Sie feststellen, dass eine davon Spam oder unerwünschte Nachrichten erhält, können Sie direkt aus der Übersicht alle Nachrichten blockieren oder sogar die Maske löschen.
@@ -379,7 +379,7 @@ premium-promo-perks-cta-label = Jetzt upgraden
 premium-promo-perks-cta-tooltip = Mache das Upgrade auf { -brand-name-firefox-relay-premium }
 premium-promo-perks-pill-new = Neu!
 premium-promo-perks-perk-unlimited-headline-2 = Unbegrenzt viele E-Mail-Masken erstellen
-premium-promo-perks-perk-unlimited-body-2 = Keine Begrenzung auf fünf E-Mail-Masken mehr: Mit { -brand-name-relay-premium } können Sie so viele E-Mail-Masken generieren, wie Sie benötigen, um Ihren E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Sie können sogar auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben.
+premium-promo-perks-perk-unlimited-body-2 = Keine Begrenzung auf fünf E-Mail-Masken mehr: Mit { -brand-name-relay-premium } können Sie so viele E-Mail-Masken erzeugen, wie Sie benötigen, um Ihren E-Mail-Posteingang vor Spammern und Online-Trackern zu schützen. Sie können sogar auf E-Mails antworten, ohne Ihre echte Adresse preiszugeben.
 premium-promo-perks-perk-custom-domain-headline-2 = Wählen Sie Ihre eigene benutzerdefinierte Subdomain
 premium-promo-perks-perk-custom-domain-body-2 = Mit einer benutzerdefinierten Domain können Sie Masken erstellen, die Sie sich leichter merken und teilen können. Benötigen Sie eine für Restaurantreservierungen? Verwenden Sie eine wie essen@meinedomain.mozmail.com – Sie müssen die Masken nicht vorher erstellen.
 premium-promo-perks-perk-dashboard-headline-2 = Steuern Sie Ihre Masken von der Übersicht
@@ -453,7 +453,7 @@ settings-error-save-description = Deine Änderungen an den Einstellungen wurden 
 settings-warning-collection-off-heading-2 = Funktion „Beschriftung von E-Mail-Masken“ ist deaktiviert
 settings-warning-collection-off-heading-3 = Die Kontonamen Ihrer E-Mail-Maske sind deaktiviert
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen Sie E-Mail-Masken erstellt und verwendet haben. Dies können Sie in den „Einstellungen“ unter „Datenerfassung“ ändern.
+settings-warning-collection-off-description-2 = { -brand-name-relay } ist derzeit nicht berechtigt, die Daten zu den Websites zu erfassen, auf denen Sie E-Mail-Masken erzeugt und verwendet haben. Dies können Sie in den „Einstellungen“ unter „Datenerfassung“ ändern.
 settings-warning-collection-off-description-3 = { -brand-name-relay } darf Ihre E-Mail-Masken derzeit nicht mit den Websites kennzeichnen, auf denen Sie sie verwendet haben. Um dies zu ändern, aktivieren Sie die Kontonamen für E-Mail-Masken unter „Datenschutz“.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Datenschutz
@@ -527,11 +527,11 @@ faq-question-4-answer-v4 = { -brand-name-relay-premium }-Nutzer können innerhal
 faq-question-subdomain-characters-question = Welche Zeichen kann ich verwenden, um eine Subdomain zu erstellen?
 faq-question-subdomain-characters-answer-v2 = Du kannst nur englische Kleinbuchstaben, Zahlen und Bindestriche verwenden, um eine Subdomain zu erstellen.
 faq-question-browser-support-question = Kann ich { -brand-name-relay } in anderen Browsern oder auf meinem Mobilgerät verwenden?
-faq-question-browser-support-answer-2 = Ja, Sie können Masken von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erstellen, indem Sie sich einfach bei der { -brand-name-relay }-Übersicht anmelden..
+faq-question-browser-support-answer-2 = Ja, Sie können Masken von { -brand-name-relay } auf anderen Browsern oder Mobilgeräten erzeugen, indem Sie sich einfach bei der { -brand-name-relay }-Übersicht anmelden..
 faq-question-longevity-question = Was passiert, wenn Mozilla den Dienst { -brand-name-firefox-relay } einstellt?
 faq-question-longevity-answer-2 = Wir werden Sie im Voraus darüber informieren, dass Sie die E-Mail-Adresse aller Konten ändern müssen, die E-Mail-Masken von { -brand-name-relay } verwenden.
 faq-question-mozmail-question-2 = Warum verwenden meine E-Mail-Masken die Domain „mozmail.com“?
-faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Subdomain wie alias@ihredomain.mozmail.com zu erhalten. Mit benutzerdefinierten E-Mail-Subdomains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, können Sie E-Mail-Masken erstellen, die sich deutlich einfacher merken lassen.
+faq-question-mozmail-answer-2 = Wir haben die Umstellung von „relay.firefox.com“ auf „mozmail.com“ vorgenommen, um eine benutzerdefinierte E-Mail-Subdomain wie alias@ihredomain.mozmail.com zu erhalten. Mit benutzerdefinierten E-Mail-Subdomains, die { -brand-name-relay-premium }-Abonnenten zur Verfügung stehen, können Sie E-Mail-Masken erzeugen, die sich deutlich einfacher merken lassen.
 faq-question-attachments-question = Leitet { -brand-name-firefox-relay } E-Mails mit Anhang weiter?
 faq-question-attachments-answer-v2 = Wir unterstützen jetzt die Weiterleitung von Anhängen. Es gibt jedoch eine Begrenzung von { email-size-limit } für die E-Mail-Weiterleitung mit { -brand-name-relay }. Alle E-Mails, die größer als { email-size-limit } sind, werden nicht weitergeleitet.
 faq-question-unsubscribe-domain-question-2 = Was passiert mit meiner benutzerdefinierten Subdomain, wenn ich mich von { -brand-name-relay-premium } abmelde?
@@ -550,7 +550,7 @@ faq-question-acceptable-use-question = Zu welchem Zweck darf { -brand-name-relay
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } hat dieselben <a href="{ $url }" { $attrs }>Nutzungsbedingungen wie alle { -brand-name-mozilla }-Produkte</a>. Wir haben eine Null-Toleranz-Richtlinie, wenn es darum geht, { -brand-name-relay } für böswillige Zwecke wie Spam zu verwenden, was zur Kündigung eines Benutzerkontos führt. Wir ergreifen Maßnahmen, um Benutzer daran zu hindern, gegen unsere Bedingungen zu verstoßen, indem wir:
 faq-question-acceptable-use-answer-measure-account = ein { -brand-name-firefox-account(capitalization: "uppercase") } mit einer verifizierten E-Mail-Adresse verlangen
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = die Erstellung von mehr als fünf Masken nur gegen Bezahlung zulassen
-faq-question-acceptable-use-answer-measure-rate-limit-2 = die Anzahl von Masken begrenzen, die an einem Tag generiert werden können
+faq-question-acceptable-use-answer-measure-rate-limit-2 = die Anzahl von Masken begrenzen, die an einem Tag erzeugen werden können
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Bitte lese unsere <a href="{ $url }" { $attrs }>Nutzungsbedingungen</a>, um weitere Informationen zu erhalten.
@@ -725,7 +725,7 @@ banner-register-subdomain-example-address = deinedomain
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
-    Mit einer benutzerdefinierten Subdomain können können Sie Masken freigeben, die nicht erstellt werden müssen,
+    Mit einer benutzerdefinierten Subdomain können können Sie Masken freigeben, die nicht erzeugt werden müssen,
     bevor Sie sie verwenden. Benötigen Sie eine Maske für eine Reservierung? Geben Sie dem Restaurant die Adresse
     „restaurant@ihredomain.{ $mozmail }“. Jede Maske,
     die Ihre benutzerdefinierte Subdomain verwendet, wird an Sie weitergeleitet.
@@ -821,7 +821,7 @@ tips-toast-button-expand-label = Weitere Informationen
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = Neue benutzerdefinierte Maske erstellen
-modal-custom-alias-picker-warning-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+modal-custom-alias-picker-warning-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 modal-custom-alias-picker-form-heading-2 = Oder erstellen Sie manuell eine benutzerdefiniertes Maske
 modal-custom-alias-picker-form-prefix-label-2 = Präfix für E-Mail-Maske eingeben
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -836,8 +836,8 @@ modal-custom-alias-picker-creation-error-2 = Ihre benutzerdefinierte Maske konnt
 ## Popover explaining how custom masks work
 
 popover-custom-alias-explainer-heading-2 = So erstellen Sie benutzerdefinierte Masken
-popover-custom-alias-explainer-explanation-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
-popover-custom-alias-explainer-generate-button-heading-2 = Benutzerdefinierte Maske manuell erstellen
+popover-custom-alias-explainer-explanation-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+popover-custom-alias-explainer-generate-button-heading-2 = Benutzerdefinierte Maske manuell erzeugen
 popover-custom-alias-explainer-generate-button-label-2 = Benutzerdefinierte Maske erzeugen
 popover-custom-alias-explainer-close-button-label = Schließen
 # Checkbox the user can click to adjust the block level of the new mask
@@ -848,7 +848,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Weitere Infor
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = Erstellen von Masken mit Ihrer benutzerdefinierten Subdomain
-tips-custom-alias-content-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch generiert. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
+tips-custom-alias-content-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 
 ## Tip about using custom masks
 
@@ -858,9 +858,9 @@ tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } kannst du 
 ## Onboarding
 
 onboarding-headline-2 = Erstellen Sie Ihre erste E-Mail-Maske
-onboarding-alias-tip-1-2 = Wählen Sie „Neue Maske erstellen“, um Ihre erste E-Mail-Maske zu erstellen
+onboarding-alias-tip-1-2 = Wählen Sie „Neue Maske erzeugen“, um Ihre erste E-Mail-Maske zu erstellen
 onboarding-alias-tip-2 = Wähle mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
-onboarding-alias-tip-3-2 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Maske erstellen“.
+onboarding-alias-tip-3-2 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Maske erzeugen“.
 
 ## Premium Onboarding
 
@@ -884,11 +884,11 @@ multi-part-onboarding-step-counter = Schritt { $step } von { $max }.
 multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jetzt kannst du E-Mail für E-Mail steuern, was in deinem Posteingang landet.
 multi-part-onboarding-premium-welcome-title = Steuere, welche E-Mails du erhältst:
-multi-part-onboarding-premium-generate-unlimited-title-2 = Unbegrenzt viele E-Mail-Masken erstellen:
+multi-part-onboarding-premium-generate-unlimited-title-2 = Unbegrenzt viele E-Mail-Masken erzeugen:
 multi-part-onboarding-premium-welcome-button-start = Erste Schritte
 multi-part-onboarding-premium-get-subdomain = Eine benutzerdefinierte Subdomain erhalten
 multi-part-onboarding-reply-headline = Auf deine E-Mails antworten
-multi-part-onboarding-premium-welcome-description-2 = Keine Begrenzung auf fünf Masken mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Masken generieren, wie Sie benötigen. Auf dem PC können Sie diese mit dem { -brand-name-relay }-Add-on nebenbei erstellen.
+multi-part-onboarding-premium-welcome-description-2 = Keine Begrenzung auf fünf Masken mehr: Sie können jetzt so viele benutzerdefinierte oder zufällige Masken erzeugen, wie Sie benötigen. Auf dem PC können Sie diese mit dem { -brand-name-relay }-Add-on nebenbei erstellen.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 multi-part-onboarding-premium-get-domain-description-3b =
