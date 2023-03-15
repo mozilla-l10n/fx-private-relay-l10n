@@ -33,3 +33,7 @@ ID02:
     exclusions:
         messages: []
         files: []
+PS01:
+    disabled: false
+VC01:
+    disabled: false
