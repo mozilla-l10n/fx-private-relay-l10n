@@ -140,6 +140,7 @@ whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είν
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Η προστασία του email σας μόλις έγινε πιο εύκολη. Τώρα μπορείτε να δημιουργήσετε…
+whatsnew-feature-firefox-integration-description = Η προστασία του email σας μόλις έγινε πιο εύκολη. Μπορείτε πλέον να δημιουργείτε νέες μάσκες email με το { -brand-name-relay }, απευθείας από τη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox } στον υπολογιστή σας.
 
 ## Bento Menu
 
@@ -413,6 +414,7 @@ waitlist-heading-bundle = Εγγραφείτε στη λίστα αναμονή�
 waitlist-lead = Ενημερωθείτε όταν το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας.
 waitlist-lead-2 = Θα σας ενημερώσουμε όταν το { -brand-name-relay-premium } είναι διαθέσιμο στην περιοχή σας.
 waitlist-lead-phone = Θα σας ενημερώσουμε όταν η απόκρυψη τηλεφώνου διατεθεί στην περιοχή σας.
+waitlist-lead-bundle = Θα σας ενημερώσουμε μόλις μπορέσετε να αποκτήσετε το { -brand-name-relay-premium } και το { -brand-name-mozilla-vpn } με έκπτωση, στην περιοχή σας.
 waitlist-control-required = Απαιτείται
 waitlist-control-email-label = Ποια είναι η διεύθυνση email σας;
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
