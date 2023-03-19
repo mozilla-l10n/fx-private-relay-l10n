@@ -20,6 +20,9 @@ bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Απόκτηση των { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } και { -brand-name-relay }
 # Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = Εγγύηση επιστροφής χρημάτων { $days_guarantee } ημερών για νέους συνδρομητές
+# Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Περισσότεροι από { $num_vpn_servers } διακομιστές
 # Variables:
@@ -29,6 +32,7 @@ bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Πώς λειτουργεί η απόκρυψη email και τηλεφώνου του { -brand-name-relay }
 
 # Item 1
 
@@ -36,6 +40,7 @@ how-it-works-section-extension-headline = Χρησιμοποιήστε τις μ
 
 # Item 2
 
+how-it-works-section-forward-headline = Θα προωθούμε τα email, τις κλήσεις και τα μηνύματα σε εσάς
 
 # Item 3
 
@@ -57,10 +62,13 @@ plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-rela
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Μάσκες email για την προστασία της πραγματικής σας διεύθυνσης email
 plan-matrix-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-feature-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-email-subdomain = Τομέας email { -brand-name-relay } για τη δημιουργία μασκών εν κινήσει
 plan-matrix-feature-email-reply = Απάντηση σε email ανώνυμα
 plan-matrix-feature-phone-mask = Μάσκα τηλεφώνου για την προστασία του πραγματικού αριθμού τηλεφώνου σας
+plan-matrix-feature-vpn = Προστασία { -brand-name-vpn } από το <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
@@ -69,6 +77,9 @@ plan-matrix-feature-mobile-email-masks = Μάσκες email
 plan-matrix-feature-mobile-browser-extension = Επέκταση φυλλομετρητή
 plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
 plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-mobile-email-subdomain = Μοναδικός τομέας email { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Απάντηση σε email ανώνυμα
+plan-matrix-feature-mobile-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
