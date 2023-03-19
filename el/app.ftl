@@ -1093,6 +1093,9 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Έχουμε στείλει αυτήν την απάντηση στο { $sender }. Αλλά από εδώ και στο εξής, δεν θα γίνεται αποστολή των απαντήσεών σας.
 # Deprecated
 other-reply-not-forwarded = Η απάντησή σας ΔΕΝ απεστάλη στο { $sender }.
 # Variables

@@ -5,6 +5,7 @@
 
 ## HERO SECTION 
 
+hero-section-title = Προστασία της ταυτότητάς σας με ασφαλή απόκρυψη τηλεφώνου και email
 hero-section-cta = Έναρξη
 
 ## BUNDLE BANNER SECTION
@@ -31,6 +32,7 @@ bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
 # Item 1
 
+how-it-works-section-extension-headline = Χρησιμοποιήστε τις μάσκες email και τηλεφώνου του { -brand-name-relay } παντού
 
 # Item 2
 
@@ -40,6 +42,7 @@ bundle-feature-three = Γρήγορο και ασφαλές δίκτυο
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Επιλέξτε το κατάλληλο επίπεδο προστασίας για εσάς
 
 # Top Row Labels
 
@@ -49,6 +52,7 @@ plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
 plan-matrix-heading-plan-phones = Προστασία email & τηλεφώνου
+plan-matrix-heading-plan-bundle-2 = Προσθήκη προστασίας { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-relay-premium } και { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
