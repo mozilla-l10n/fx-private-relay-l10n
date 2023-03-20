@@ -1172,7 +1172,6 @@ api-error-address-unavailable = “{ $unavailable_address }” could not be crea
 api-error-need-subdomain = Please select a subdomain before creating a custom email address.
 api-error-account-is-paused = Your account is on pause.
 
-
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
