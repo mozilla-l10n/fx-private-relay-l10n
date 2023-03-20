@@ -1254,7 +1254,7 @@ modal-email-domain-success-body-on-the-go =  No need to sign into { -brand-name-
 modal-email-domain-success-headline-any-word = Create unlimited masks by adding any word or phrase
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-body-any-word = At a restaurant? Use restaurant{ $custom_domain_full }. Shopping? Use store{ $custom_domain_full }.
+modal-email-domain-success-body-any-word = Shopping? Use store{ $custom_domain_full }.
 modal-email-domain-success-continue = Continue
 
 tooltip-email-domain-explanation-part-one = This valuable feature of your { -brand-name-relay-premium } account lets you choose a unique { -brand-name-relay } email domain that you can use to create unlimited, custom { -brand-name-relay } masks on the go.  
