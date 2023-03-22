@@ -1108,19 +1108,39 @@ multi-part-onboarding-premium-email-domain-added = 您的電子郵件網域：
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = 新增 { -brand-name-relay } 擴充套件
+multi-part-onboarding-premium-add-extension-feature-headline = 使用 { -brand-name-relay } 擴充套件，您可以：
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = 在任何網站都能直接建立 { -brand-name-relay } 轉寄信箱
+multi-part-onboarding-premium-add-extension-feature-body = 您可以在任何會向您詢問電子郵件信箱的網站使用 { -brand-name-relay } 擴充套件產生新的轉寄信箱 — 只要尋找 { -brand-name-relay } 圖示即可。
 multi-part-onboarding-premium-add-extension-feature-cta = 新增 { -brand-name-relay } 擴充套件
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
 multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
+multi-part-onboarding-skip = 先跳過，之後再設定
+multi-part-onboarding-skip-download-extension = 先跳過，我之後再下載擴充套件
+multi-part-onboarding-continue = 繼續
 
 ## Set domain banner
 
+banner-set-email-domain-input-placeholder-label = 搜尋電子郵件網域
+banner-set-email-domain-input-placeholder = 搜尋文字或詞彙
+banner-set-email-domain-input-search = 搜尋
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = yourdomain
+banner-set-email-domain-learn-more = 了解更多
+modal-email-domain-good-news = 好消息！
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> 可以使用
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
+modal-email-domain-cancel = 取消
+modal-email-domain-register = 註冊
+modal-email-domain-success-continue = 繼續
 
 ## Update reply description onboarding step
 
