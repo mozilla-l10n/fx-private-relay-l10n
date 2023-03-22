@@ -878,7 +878,6 @@ onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } نال �
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = { $max } دا { $step } قدم
-multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-subheadline = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں کنٹرول کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 multi-part-onboarding-premium-welcome-title = تساں کہڑیاں ای میلاں گھندے ہو کنٹرول کرو:
 multi-part-onboarding-premium-generate-unlimited-title-2 = بے انت ای میل ماسک جنریٹ کرو:
@@ -903,8 +902,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-c
 multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } کیتے { -brand-name-firefox-relay } ایکسٹنشن ای میل ماسک بݨاوݨ تے ورتݨ کوں ݙاڈھا سوکھا کریندی ہے۔
 multi-part-onboarding-premium-chrome-extension-button-download = { -brand-name-relay } ایکسٹنشن گھنو
 multi-part-onboarding-premium-extension-button-skip = جاری رکھو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
-multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
-multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
 
 ## Report of trackers removed from an email
 
@@ -972,9 +969,6 @@ modal-domain-register-available = { $subdomain } دستیاب ہے!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> دستیاب ہے!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = جیا، میں  <subdomain>{ $subdomain }</subdomain> رجسٹر کرݨ چاہنداں ہاں
@@ -1127,3 +1121,39 @@ api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ما�
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
 api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } قائم کرو
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = ہک لفظ یا ترکیب ڳولو
+multi-part-onboarding-premium-email-domain-feature-input-search = ڳولو
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = تہاݙی ڈومین
+multi-part-onboarding-premium-email-domain-added = تہاݙی ای میل ڈومین:
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
+multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
+multi-part-onboarding-continue = جاری
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = عمل ضروری ہے
+banner-set-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
+
+## Update reply description onboarding step
+
