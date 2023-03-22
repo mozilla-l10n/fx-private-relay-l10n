@@ -36,7 +36,7 @@ bundle-feature-three = 快速且安全的网络
 
 ## HOW IT WORKS SECTION 
 
-how-it-works-section-title = { -brand-name-relay } 马甲邮箱和虚拟手机号是怎样工作的
+how-it-works-section-title = { -brand-name-relay } 马甲邮箱和虚拟手机号的使用方式
 
 # Item 1
 
@@ -77,7 +77,7 @@ plan-matrix-feature-email-tracker-removal = 移除邮件跟踪器
 plan-matrix-feature-promo-email-blocking = 屏蔽营销邮件
 plan-matrix-feature-email-subdomain = 使用 { -brand-name-relay } 邮箱域名随时创建马甲
 plan-matrix-feature-email-reply = 匿名回复邮件
-plan-matrix-feature-phone-mask = 虚拟手机号服务，保护您的真实号码不泄露
+plan-matrix-feature-phone-mask = 可保护您的真实号码的虚拟手机号
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保护
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 
@@ -130,7 +130,7 @@ landing-reviews-rating = 最高五星（{ $review_count } 条评价）
 landing-reviews-show-next-button = 显示下一条评价
 landing-reviews-show-previous-button = 显示上一条评价
 landing-review-anonymous-user = { -brand-name-firefox } 用户 { $user_id }
-landing-review-user-one-review = 非常感谢 { -brand-name-mozilla } 团队，他们真的很有创意，让电子邮件地址能够轻松隐藏起来。这个扩展也是真的好用，强烈推荐给想要保护隐私的人！
+landing-review-user-one-review = 非常感谢 { -brand-name-mozilla } 团队，他们真的很有创意，让电子邮件地址能够轻松隐藏起来。这个扩展也确实好用，想要保护隐私的朋友别错过！
 landing-review-user-two-review = 摆脱或避免向您的电子邮件 ID 发送垃圾邮件的简单工具。
 landing-review-user-three-review = 喜欢这个扩展！非常简单但功能强大，与浏览器的集成非常棒。
 landing-review-user-four-review-list-1 = 上网时让您安心。
@@ -165,7 +165,7 @@ highlighted-features-section-masks-on-the-go-body =
     您可以随时创建新的马甲。
     只需在 @ 符号前添加字符就能生成马甲。
     在餐厅吃饭？可以用 canting@<你的域名>.{ $mozmail }。
-    在商场购物？那就用 shangchang@<您的域名>.{ $mozmail }。
+    在商场购物？那就用 shangchang@<你的域名>.{ $mozmail }。
 
 # Item 3
 
