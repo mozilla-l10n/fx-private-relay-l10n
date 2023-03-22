@@ -1125,6 +1125,8 @@ multi-part-onboarding-premium-welcome-headline = Benvenite a { -brand-name-relay
 multi-part-onboarding-premium-welcome-feature-headline = Con { -brand-name-firefox-relay-premium } tu obtene:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Mascas email illimitate
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Responsas anonyme
+multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
@@ -1141,6 +1143,9 @@ multi-part-onboarding-premium-email-domain-added = Tu dominio email:
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = Adder le extension { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Con le extension { -brand-name-relay }, tu pote:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Crear nove mascas { -brand-name-relay } ab ulle sito web
+multi-part-onboarding-premium-add-extension-feature-cta = Adder le extension { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
@@ -1152,6 +1157,8 @@ multi-part-onboarding-continue = Continuar
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = Action necessari
+banner-set-email-domain-headline = Configurar tu domino email { -brand-name-relay } unic
+banner-set-email-domain-input-placeholder = Cercar un parola o phrase
 banner-set-email-domain-input-search = Cercar
 # This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
 # and without spaces, to resemble an actual email address, and make sure it’s
@@ -1159,6 +1166,9 @@ banner-set-email-domain-input-search = Cercar
 banner-set-email-domain-placeholder = tudominio
 banner-set-email-domain-learn-more = Pro saper plus
 modal-email-domain-good-news = Bon novas!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> es disponibile
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomain }
