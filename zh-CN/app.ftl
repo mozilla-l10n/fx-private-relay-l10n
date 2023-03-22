@@ -739,11 +739,11 @@ banner-offer-end-cta = 立即升级
 banner-choose-subdomain-description = 您可以使用任意前缀 @{ $subdomain }
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = 阻止垃圾邮件、机器人电话和垃圾短信
-banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 为您提供电话马甲以保护您的真实号码 — 以及无限的电子邮件马甲。
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 为您提供虚拟手机号以保护您的真实手机号，还可创建无限量的马甲邮箱。
 banner-ab-premium-promo-advanced-identity-headline = 先进的身份保护
 banner-ab-premium-promo-advanced-identity-body = 阻止跟踪器和数据聚合器通过您的电话号码和电子邮件地址识别您。
 banner-ab-premium-promo-control-receiver-headline = 只让您信任的人知道您的真实手机号
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } 为您提供电话马甲以保护您的真实号码 — 以及无限的电子邮件马甲。
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } 虚拟手机号以保护您的真实手机号，还可创建无限量的马甲邮箱。
 banner-ab-premium-promo-extra-protection-headline = 为您的收件箱和手机提供额外保护
 banner-ab-premium-promo-extra-protection-body = 获得无限的电子邮件马甲——再加一个电话马甲来控制谁能得到您的真实号码。
 banner-ab-premium-promo-cta = 升级
