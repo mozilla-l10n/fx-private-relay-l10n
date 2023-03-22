@@ -1142,6 +1142,7 @@ multi-part-onboarding-premium-email-domain-added = تہاݙی ای میل ڈوم
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = { -brand-name-relay } ایکسٹنشن شامل کرو
+multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } ایکسٹنشن شامل کرو
 
 ## Step 3 Relay Extension Added
 
@@ -1165,6 +1166,8 @@ modal-email-domain-good-news = خوشخبری!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
+modal-email-domain-cancel = منسوخ
+modal-email-domain-register = رجسٹر کرو
 
 ## Update reply description onboarding step
 
