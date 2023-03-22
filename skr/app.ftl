@@ -1151,6 +1151,15 @@ multi-part-onboarding-continue = جاری
 
 banner-set-email-domain-headline-action-needed = عمل ضروری ہے
 banner-set-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+banner-set-email-domain-input-placeholder-label = ای میل ڈومین ڳولو
+banner-set-email-domain-input-placeholder = ہک لفظ یا ترکیب ڳولو
+banner-set-email-domain-input-search = ڳولو
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = تہاݙی ڈومین
+banner-set-email-domain-learn-more = ٻیا سِکھو
+modal-email-domain-good-news = خوشخبری!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
