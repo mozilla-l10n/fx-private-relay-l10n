@@ -1149,9 +1149,23 @@ multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium 
 multi-part-onboarding-premium-email-domain-headline = Stel jo unike { -brand-name-relay }-e-maildomein yn
 multi-part-onboarding-premium-email-domain-feature-headline = Mei in unyk { -brand-name-relay }-e-maildomein kinne jo:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Underweis daliks maskers oanmeitsje
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Selektearje it { -brand-name-relay }-e-maildomein fan jo foarkar en meitsje dernei daliks nije maskers troch in wurd of wurdgroep ta te foegjen foar it @-symboal. <p>Winkelje? Brûk winkel@jodomein.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sykje nei in wurd of sin
+multi-part-onboarding-premium-email-domain-feature-input-search = Sykje
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = jodomein
+multi-part-onboarding-premium-email-domain-added = Jo e-maildomein:
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Foegje de { -brand-name-relay }-útwreiding ta
+multi-part-onboarding-premium-add-extension-feature-headline = Mei de { -brand-name-relay }-útwreiding kinne jo:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Nije { -brand-name-relay }-maskers fan elke website ôf oanmeitsje
 
 ## Step 3 Relay Extension Added
 
