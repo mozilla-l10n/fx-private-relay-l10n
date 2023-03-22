@@ -1176,9 +1176,50 @@ multi-part-onboarding-continue = Weiter
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Handlungsbedarf
+banner-set-email-domain-headline = Legen Sie Ihre eindeutige { -brand-name-relay }-E-Mail-Domain fest
+banner-set-email-domain-step-one-headline = Wählen Sie Ihre bevorzugte { -brand-name-relay }-E-Mail-Domain aus
+banner-set-email-domain-step-one-body = Es ist der Teil Ihrer E-Mail-Adresse nach dem @-Symbol.
+banner-set-email-domain-step-two-headline = Verwenden Sie es, um sofort benutzerdefinierte { -brand-name-relay }-Masken zu erstellen
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Fügen Sie einfach ein Wort oder einen Satz vor dem @-Symbol ein. Einkaufen? Verwenden Sie shop@ihredomain.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Suchen Sie eine E-Mail-Domain
+banner-set-email-domain-input-placeholder = Ein Wort oder einen Satz suchen
+banner-set-email-domain-input-search = Suchen
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = ihredomain
+banner-set-email-domain-learn-more = Weitere Informationen
+modal-email-domain-good-news = Gute Nachrichten!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> ist verfügbar
+modal-email-domain-available-body = Sie können nur eine eindeutige { -brand-name-relay }-E-Mail-Domain registrieren. <p>Sie können dies später nicht mehr ändern.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } registrieren
+modal-email-domain-cancel = Abbrechen
+modal-email-domain-register = Registrieren
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> ist jetzt Ihre { -brand-name-relay }-E-Mail-Domain!
+modal-email-domain-success-headline-on-the-go = Verwenden Sie dies, um unterwegs neue { -brand-name-relay }-Masken zu erzeugen
+modal-email-domain-success-body-on-the-go = Sie müssen sich nicht bei { -brand-name-relay } anmelden, um eine neue Maske zu erstellen.
+modal-email-domain-success-headline-any-word = Erstellen Sie unbegrenzte Masken, indem Sie ein beliebiges Wort oder einen Satz hinzufügen
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Einkaufen? Verwenden Sie store{ $custom_domain_full }.
+modal-email-domain-success-continue = Weiter
+tooltip-email-domain-explanation-part-one = Mit dieser wertvollen Funktion Ihres { -brand-name-relay-premium }-Kontos können Sie eine eindeutige { -brand-name-relay }-E-Mail-Domain auswählen, die Sie verwenden können, um unterwegs unbegrenzt benutzerdefinierte { -brand-name-relay }-Masken zu erstellen.
+tooltip-email-domain-explanation-part-two = Es ist nicht erforderlich, sich bei { -brand-name-relay } anzumelden, um eine neue Maske zu erzeugen. Fügen Sie einfach ein beliebiges Wort oder einen Satz vor dem @-Symbol Ihrer { -brand-name-relay }-E-Mail-Domain hinzu, um sofort eine neue Maske zu erstellen, wo immer Sie sind.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = In einem Restaurant? Verwenden Sie restaurant@ihredomain.{ $mozmail }. <p>Einkaufen? Versuchen Sie es mit shop@ihredomain.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Antworten Sie auf E-Mails, ohne Ihre echte Adresse preiszugeben:
