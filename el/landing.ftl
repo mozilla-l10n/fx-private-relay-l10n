@@ -128,6 +128,7 @@ landing-review-user-four-review-list-4 = Το { -brand-name-firefox-relay } κά
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-title = Προστατέψτε την ταυτότητά σας (και τα εισερχόμενά σας) με το { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Έναρξη
 highlighted-features-section-new-item = Νέο!
 

@@ -875,7 +875,6 @@ onboarding-premium-title-detail = Με το { -brand-name-firefox-relay-premium 
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Βήμα { $step } από { $max }.
-multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Πλέον, μπορείτε να ελέγχετε τα εισερχόμενά σας, ένα email κάθε φορά.
 multi-part-onboarding-premium-welcome-title = Ελέγξετε ποια email θα λαμβάνετε:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Δημιουργήστε απεριόριστες μάσκες email:
@@ -900,8 +899,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Η επέκτα
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Η επέκταση { -brand-name-firefox-relay } για το { -brand-name-chrome } κάνει ακόμα ευκολότερη τη χρήση μασκών email.
 multi-part-onboarding-premium-chrome-extension-button-download = Λήψη της επέκτασης { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Συνέχεια, θα κάνω λήψη της επέκτασης αργότερα
-multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
-multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
 
 ## Report of trackers removed from an email
 
@@ -970,9 +967,6 @@ modal-domain-register-available = Το { $subdomain } είναι διαθέσι�
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι διαθέσιμο!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ναι, θέλω να καταχωρήσω το <subdomain>{ $subdomain }</subdomain>
@@ -1125,3 +1119,42 @@ api-error-free-tier-no-subdomain-masks = Ο δωρεάν λογαριασμός 
 api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.
 api-error-need-subdomain = Παρακαλώ επιλέξτε έναν υποτομέα πριν από τη δημιουργία προσαρμοσμένης διεύθυνσης email.
 api-error-account-is-paused = Ο λογαριασμός σας έχει τεθεί σε παύση.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline = Με το { -brand-name-firefox-relay-premium }, έχετε:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Απεριόριστες μάσκες email
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Ανώνυμες απαντήσεις
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-feature-input-search = Αναζήτηση
+multi-part-onboarding-premium-email-domain-added = Ο τομέας email σας:
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
+multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
+multi-part-onboarding-continue = Συνέχεια
+
+## Set domain banner
+
+banner-set-email-domain-input-search = Αναζήτηση
+banner-set-email-domain-learn-more = Μάθετε περισσότερα
+modal-email-domain-good-news = Καλά νέα!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = Το <p>{ $custom_domain_full }</p> είναι διαθέσιμο
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
+modal-email-domain-cancel = Ακύρωση
+modal-email-domain-register = Εγγραφή
+modal-email-domain-success-continue = Συνέχεια
+
+## Update reply description onboarding step
+
