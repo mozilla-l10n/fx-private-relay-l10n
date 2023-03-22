@@ -885,7 +885,6 @@ onboarding-premium-title-detail = Mei { -brand-name-firefox-relay-premium } kinn
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Stap { $step } fan { $max }.
-multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 multi-part-onboarding-premium-welcome-title = Bepale hokker e-mailberjochten jo ûntfange:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Unbeheinde e-mailmaskers oanmeitsje:
@@ -910,8 +909,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = De { -brand-nam
 multi-part-onboarding-premium-chrome-extension-get-description-2 = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan e-mailmaskers noch ienfâldiger.
 multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-name-relay }-útwreiding downloade
 multi-part-onboarding-premium-extension-button-skip = Trochgean, ik download de útwreiding letter
-multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
-multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
 
 ## Report of trackers removed from an email
 
@@ -979,9 +976,6 @@ modal-domain-register-available = { $subdomain } is beskikber!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is beskikber!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ik wol <subdomain>{ $subdomain }</subdomain> registrearje
@@ -1134,3 +1128,41 @@ api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpas
 api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.
 api-error-need-subdomain = Selektearje in subdomein eardat jo in oanpast e-mailadres oanmeitsje.
 api-error-account-is-paused = Jo account is pauzearre!
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Litte wy derfoar soargje dat jo it measte út jo { -brand-name-premium }-account helje.
+multi-part-onboarding-premium-welcome-feature-headline = Mei { -brand-name-firefox-relay-premium } ûntange jo:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unbeheinde e-mailmaskers
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Ferbetterje jo privacy en feilichheid mei in unyk masker foar elke website
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Meitsje ûnderweis daliks maskers
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Untfang in unyk { -brand-name-relay } e-maildomein om daliks in maklik te ûnthâlden masker te meitsjen
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Oanpaste betsjinningseleminten foar jo Postfek YN
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Behear it type e-mailberjochten dat trochstjoerd wurdt nei jo Postfek YN
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonime antwurden
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Reagearje op trochstjoerde e-mailberjochten sûnder jo echte e-mailadres te dielen
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } ynstelle
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Stel jo unike { -brand-name-relay }-e-maildomein yn
+multi-part-onboarding-premium-email-domain-feature-headline = Mei in unyk { -brand-name-relay }-e-maildomein kinne jo:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Underweis daliks maskers oanmeitsje
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
+multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
+
+## Update reply description onboarding step
+
