@@ -1085,10 +1085,12 @@ api-error-account-is-paused = 您的帳號暫停中。
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = 讓我們一起來了解如何完整使用您的 { -brand-name-premium } 帳號。
 multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信相，加強您的隱私權與安全性
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 獲得獨特的 { -brand-name-relay } 電子郵件網域，讓您可即時產生易記好用的轉寄信箱
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 自行控制要轉寄哪些電子郵件到您的收件匣
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
