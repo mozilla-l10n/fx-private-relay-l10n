@@ -849,7 +849,6 @@ onboarding-premium-title-detail = 透過 { -brand-name-firefox-relay-premium }�
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = 第 { $step } 步，共 { $max } 步。
-multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封郵件自行控制哪些能進到信件匣。
 multi-part-onboarding-premium-welcome-title = 自行控制要收到哪些郵件：
 multi-part-onboarding-premium-generate-unlimited-title-2 = 產生無限量轉寄信箱：
@@ -872,8 +871,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-c
 multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } 的 { -brand-name-firefox-relay } 擴充功能，讓您更簡單就能建立與使用轉寄信箱。
 multi-part-onboarding-premium-chrome-extension-button-download = 下載 { -brand-name-relay } 擴充套件
 multi-part-onboarding-premium-extension-button-skip = 先繼續，我之後再下載
-multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
-multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
 
 ## Report of trackers removed from an email
 
@@ -932,9 +929,6 @@ modal-domain-register-available = 可以註冊 { $subdomain }！
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可以使用！
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 對，我想註冊 <subdomain>{ $subdomain }</subdomain>
@@ -1087,3 +1081,28 @@ api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
 api-error-need-subdomain = 請先選擇子網域才能建立自訂轉寄信箱。
 api-error-account-is-paused = 您的帳號暫停中。
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
+
+## Step 2 Set Custom Domain
+
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
+multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
+
+## Update reply description onboarding step
+
