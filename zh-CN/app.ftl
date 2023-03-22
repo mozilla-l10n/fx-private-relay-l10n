@@ -857,7 +857,6 @@ onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享�
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = 第 { $step } / { $max } 步。
-multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
 multi-part-onboarding-premium-welcome-title = 自行控制要收取哪些邮件：
 multi-part-onboarding-premium-generate-unlimited-title-2 = 生成不限数量的马甲邮箱：
@@ -880,8 +879,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-c
 multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-chrome } 上的 { -brand-name-firefox-relay } 扩展，让创建和使用马甲邮箱更简单。
 multi-part-onboarding-premium-chrome-extension-button-download = 下载 { -brand-name-relay } 扩展
 multi-part-onboarding-premium-extension-button-skip = 继续，我之后再下载扩展
-multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
-multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 
 ## Report of trackers removed from an email
 
@@ -940,9 +937,6 @@ modal-domain-register-available = { $subdomain } 可用！
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 可用！
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = 是的，我要注册 <subdomain>{ $subdomain }</subdomain>
@@ -1096,3 +1090,30 @@ api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的
 api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。
 api-error-need-subdomain = 请在创建自定义电子邮件地址前先选择一个子域名。
 api-error-account-is-paused = 您的账户已暂停。
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = 我们将引导您完成设置，解锁 { -brand-name-premium } 账户完整体验。
+multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium } 可享：
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 无限数量马甲
+
+## Step 2 Set Custom Domain
+
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
+multi-part-onboarding-premium-extension-button-dashboard = 前往面板
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
+
+## Update reply description onboarding step
+
