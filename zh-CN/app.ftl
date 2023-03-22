@@ -1094,8 +1094,6 @@ api-error-account-is-paused = 您的账户已暂停。
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
-multi-part-onboarding-premium-welcome-subheadline-2 = 我们将引导您完成设置，解锁 { -brand-name-premium } 账户完整体验。
-multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium } 可享：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 无限数量马甲
 
 ## Step 2 Set Custom Domain
