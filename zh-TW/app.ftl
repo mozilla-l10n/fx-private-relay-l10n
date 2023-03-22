@@ -1088,6 +1088,7 @@ multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-rela
 multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
 multi-part-onboarding-premium-welcome-feature-cta = 設定 { -brand-name-relay-premium }
 
@@ -1107,6 +1108,8 @@ multi-part-onboarding-premium-email-domain-added = 您的電子郵件網域：
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = 新增 { -brand-name-relay } 擴充套件
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = 在任何網站都能直接建立 { -brand-name-relay } 轉寄信箱
+multi-part-onboarding-premium-add-extension-feature-cta = 新增 { -brand-name-relay } 擴充套件
 
 ## Step 3 Relay Extension Added
 
