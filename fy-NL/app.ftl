@@ -1201,9 +1201,29 @@ modal-email-domain-good-news = Goed nijs!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> is beskikber
+modal-email-domain-available-body = Jo kinne mar ien unyk { -brand-name-relay }-e-maildomein registrearje. <p>Jo kinne dit letter net wizigje.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
+modal-email-domain-cancel = Annulearje
+modal-email-domain-register = Registrearje
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> is no jo { -brand-name-relay }-e-maildomein!
+modal-email-domain-success-headline-on-the-go = Brûk dit om ûnderweis nije { -brand-name-relay }-maskers te oan te meitsjen
+modal-email-domain-success-body-on-the-go = Jo hoege jo net oan te melden by { -brand-name-relay } om in nij masker oan te meitsjen.
+modal-email-domain-success-headline-any-word = Meitsje ûnbeheind maskers oan troch elk wurd of wurdgroep ta te foegjen
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Winkelje? Brûk winkel{ $custom_domain_full }.
+modal-email-domain-success-continue = Trochgean
+tooltip-email-domain-explanation-part-one = Mei dizze weardefolle funksje fan jo { -brand-name-relay-premium }-account kinne jo in unyk { -brand-name-relay }-e-maildomein kieze dat jo brûke kinne om ûnderweis ûnbeheinde, oanpaste { -brand-name-relay }-maskers oan te meitsjen.
+tooltip-email-domain-explanation-part-two = Jo hoege jo net oan te melden by { -brand-name-relay } om in nij masker oan te meitsjen; foegje gewoan in wurd of wurdgroep ta foar it @-symboal fan jo { -brand-name-relay }-e-maildomein om daliks in nij masker te meitsjen, wêr’t jo ek binne.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Yn in restaurant? Brûk restaurant@jodomein.{ $mozmail }. <p>Oan it winkeljen? Probearje winkel@jodomein.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Antwurdzje op e-mailberjochten sûnder jo echte adres fuort te jaan
