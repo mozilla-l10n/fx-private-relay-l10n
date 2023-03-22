@@ -1128,6 +1128,7 @@ multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = M
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Meliora tu confidentialitate e securitate con un unic masca pro cata sito
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtene un domino email { -brand-name-relay } unic pro creation instantanee de mascas, facile-a-memorar
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalisate del cassa de ingresso
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Responsas anonyme
 multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-relay-premium }
 
@@ -1136,6 +1137,7 @@ multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-rel
 multi-part-onboarding-premium-email-domain-headline = Configurar tu domino email unic { -brand-name-relay }
 multi-part-onboarding-premium-email-domain-feature-headline = Con un domino email { -brand-name-relay } unic, tu pote
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Cercar un parola o phrase
 multi-part-onboarding-premium-email-domain-feature-input-search = Cercar
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
