@@ -1166,14 +1166,41 @@ multi-part-onboarding-premium-email-domain-added = Jo e-maildomein:
 multi-part-onboarding-premium-add-extension-headline = Foegje de { -brand-name-relay }-útwreiding ta
 multi-part-onboarding-premium-add-extension-feature-headline = Mei de { -brand-name-relay }-útwreiding kinne jo:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Nije { -brand-name-relay }-maskers fan elke website ôf oanmeitsje
+multi-part-onboarding-premium-add-extension-feature-body = Mei de { -brand-name-relay }-útwreiding kinne jo daliks nije maskers meitsje wannear’t websites om jo e-mailadres freegje – sykje gewoan nei it { -brand-name-relay }-piktogram.
+multi-part-onboarding-premium-add-extension-feature-cta = De { -brand-name-relay }-útwreiding tafoegje
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-útwreiding tafoege!
+multi-part-onboarding-premium-added-extension-body = Jo hoege jo net langer oan te melden by { -brand-name-relay } om in nij masker te meitsjen – sykje gewoan nei it Relay-piktogram wannear’t websites om jo e-mailadres freegje.
 multi-part-onboarding-premium-extension-button-dashboard = Nei it dashboerd
+multi-part-onboarding-skip = Oerslaan, ik stel dit letter yn
+multi-part-onboarding-skip-download-extension = Oerslaan, ik download de útwreiding letter
+multi-part-onboarding-continue = Trochgean
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Aksje nedich
+banner-set-email-domain-headline = Stel jo unike { -brand-name-relay }-e-maildomein yn
+banner-set-email-domain-step-one-headline = Selektearje it { -brand-name-relay }-e-maildomein fan jo foarkar
+banner-set-email-domain-step-one-body = Dit is part fan jo e-mailadres efter it @-symboal.
+banner-set-email-domain-step-two-headline = Brûk it om daliks oanpaste { -brand-name-relay }-maskers oan te meitsjen
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Foegje gewoan in wurd of wurdgroep ta foar it @-symboal. Winkelje? Brûk winkel@jodomein.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = In e-maildomein sykje
+banner-set-email-domain-input-placeholder = In wurd of sin sykje
+banner-set-email-domain-input-search = Sykje
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = jodomein
+banner-set-email-domain-learn-more = Mear ynfo
+modal-email-domain-good-news = Goed nijs!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> is beskikber
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ja, ik wol @{ $subdomain } registrearje
