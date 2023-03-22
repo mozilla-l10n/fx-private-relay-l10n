@@ -720,7 +720,6 @@ onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Vaihe { $step }/{ $max }.
-multi-part-onboarding-premium-welcome-headline = Tervetuloa { -brand-name-relay-premium }iin
 multi-part-onboarding-premium-welcome-title = Hallitse, mitä sähköposteja saat:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Luo rajattomasti sähköpostimaskeja:
 multi-part-onboarding-premium-welcome-button-start = Aloitetaan
@@ -738,8 +737,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = { -brand-name-f
 multi-part-onboarding-premium-chrome-extension-get-description-2 = { -brand-name-firefox-relay } -laajennus { -brand-name-chrome }lle tekee sähköpostimaskien luomisesta ja käyttämisestä entistäkin helpompaa.
 multi-part-onboarding-premium-chrome-extension-button-download = Hanki { -brand-name-relay }-laajennus
 multi-part-onboarding-premium-extension-button-skip = Jatka, lataan laajennuksen myöhemmin
-multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
-multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 
 ## Report of trackers removed from an email
 
@@ -803,9 +800,6 @@ modal-domain-register-available = { $subdomain } on saatavilla!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> on saatavilla!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Kyllä, haluan rekisteröidä aliverkkotunnuksen <subdomain>{ $subdomain }</subdomain>
@@ -928,3 +922,39 @@ api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettu
 api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
 api-error-need-subdomain = Valitse aliverkkotunnus ennen mukautetun sähköpostiosoitteen luomista.
 api-error-account-is-paused = Tilisi on keskeytetty.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Tervetuloa { -brand-name-relay-premium }iin
+multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium }illa saat:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Rajattomasti sähköpostimaskeja
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyymit vastaukset
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Vastaa edelleenlähetettyihin sähköposteihin jakamatta oikeaa sähköpostiosoitettasi
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Hae sanaa tai lausetta
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-feature-cta = Lisää { -brand-name-relay }-laajennus
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
+multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
+multi-part-onboarding-skip-download-extension = Ohita, lataan laajennuksen myöhemmin
+multi-part-onboarding-continue = Jatka
+
+## Set domain banner
+
+banner-set-email-domain-input-placeholder = Hae sanaa tai lausetta
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
+modal-email-domain-cancel = Peruuta
+modal-email-domain-success-continue = Jatka
+
+## Update reply description onboarding step
+
+multi-part-onboarding-premium-reply-description = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
