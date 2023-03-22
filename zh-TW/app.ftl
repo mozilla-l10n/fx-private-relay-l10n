@@ -1087,9 +1087,12 @@ api-error-account-is-paused = 您的帳號暫停中。
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信相，加強您的隱私權與安全性
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 自行控制要轉寄哪些電子郵件到您的收件匣
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 不用透露您的實際電子郵件地址，就能回覆轉寄的郵件
 multi-part-onboarding-premium-welcome-feature-cta = 設定 { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
@@ -1097,6 +1100,10 @@ multi-part-onboarding-premium-welcome-feature-cta = 設定 { -brand-name-relay-p
 multi-part-onboarding-premium-email-domain-headline = 設定您的獨特 { -brand-name-relay } 郵件網域
 multi-part-onboarding-premium-email-domain-feature-headline = 使用獨特的 { -brand-name-relay } 郵件網域，可以：
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = 選擇您想要使用 { -brand-name-relay } 電子郵件網域，然後就可輸入任何要放在 @ 符號前的詞彙，立即產生新轉寄信箱。<p>線上購物嗎？可用 shop@yourdomain.{ $mozmail }。</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = 搜尋文字或詞彙
 multi-part-onboarding-premium-email-domain-feature-input-search = 搜尋
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -1158,6 +1165,11 @@ modal-email-domain-success-headline-any-word = 隨意使用不同詞彙，就可
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = 線上購物嗎？可用 store{ $custom_domain_full }。
 modal-email-domain-success-continue = 繼續
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = 在餐廳吃飯嗎？可以使用 restaurant@yourdomain.{ $mozmail }。<p>線上購物嗎？可用  Try shop@yourdomain.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = 不用給出實際信箱，就能回覆郵件
