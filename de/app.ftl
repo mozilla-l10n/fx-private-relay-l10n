@@ -881,7 +881,6 @@ onboarding-premium-title-detail = Mit { -brand-name-firefox-relay-premium } kann
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Schritt { $step } von { $max }.
-multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Jetzt kannst du E-Mail für E-Mail steuern, was in deinem Posteingang landet.
 multi-part-onboarding-premium-welcome-title = Steuere, welche E-Mails du erhältst:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Unbegrenzt viele E-Mail-Masken erzeugen:
@@ -906,8 +905,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Die { -brand-na
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Die { -brand-name-firefox-relay }-Erweiterung für { -brand-name-chrome } macht die Erzeugung und Verwendung von E-Mail-Masken noch einfacher.
 multi-part-onboarding-premium-chrome-extension-button-download = Holen Sie sich die { -brand-name-relay }-Erweiterung
 multi-part-onboarding-premium-extension-button-skip = Weiter, ich lade die Erweiterung später herunter
-multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
-multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
 
 ## Report of trackers removed from an email
 
@@ -975,9 +972,6 @@ modal-domain-register-available = { $subdomain } ist verfügbar!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist verfügbar!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } registrieren
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ich möchte <subdomain>{ $subdomain }</subdomain> registrieren
@@ -1130,3 +1124,61 @@ api-error-free-tier-no-subdomain-masks = Ihr kostenloses Konto bietet keine benu
 api-error-address-unavailable = „{ $unavailable_address }“ konnte nicht erstellt werden. Bitte versuchen Sie es erneut mit einem anderen Maskennamen.
 api-error-need-subdomain = Bitte wählen Sie eine Subdomain aus, bevor Sie eine benutzerdefinierte E-Mail-Adresse erstellen.
 api-error-account-is-paused = Ihr Konto ist pausiert.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Willkommen bei { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Wir machen Sie startklar, um das Beste aus Ihrem { -brand-name-premium }-Konto herauszuholen.
+multi-part-onboarding-premium-welcome-feature-headline = Mit { -brand-name-firefox-relay-premium } erhalten Sie:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unbegrenzte E-Mail-Masken
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Verbessern Sie Ihre Privatsphäre und Sicherheit mit einer einzigartigen Maske für jede Website
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Erstellen Sie unterwegs sofort Masken
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Holen Sie sich eine einzigartige { -brand-name-relay }-E-Mail-Domain, um sofort leicht zu merkende Masken zu erstellen
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Benutzerdefinierte Posteingangssteuerung
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Steuern Sie die Art der E-Mails, die an Ihren Posteingang weitergeleitet werden
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyme Antworten
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Antworten Sie auf weitergeleitete E-Mails, ohne Ihre echte E-Mail-Adresse weiterzugeben
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } einrichten
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Legen Sie Ihre eindeutige { -brand-name-relay }-E-Mail-Domain fest
+multi-part-onboarding-premium-email-domain-feature-headline = Mit einer eindeutigen { -brand-name-relay }-E-Mail-Domain können Sie:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = unterwegs sofort Masken erstellen
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Wählen Sie Ihre bevorzugte { -brand-name-relay }-E-Mail-Domain aus und erstellen Sie dann sofort neue Masken, indem Sie ein beliebiges Wort oder einen Satz vor dem @-Symbol hinzufügen. <p>Einkaufen? Verwenden Sie shop@ihredomain.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Ein Wort oder einen Satz suchen
+multi-part-onboarding-premium-email-domain-feature-input-search = Suchen
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = ihredomain
+multi-part-onboarding-premium-email-domain-added = Ihre E-Mail-Domain:
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Holen Sie sich die { -brand-name-relay }-Erweiterung
+multi-part-onboarding-premium-add-extension-feature-headline = Mit der { -brand-name-relay }-Erweiterung können Sie:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = neue { -brand-name-relay }-Masken von beliebigen Websites erstellen
+multi-part-onboarding-premium-add-extension-feature-body = Mit der { -brand-name-relay }-Erweiterung können Sie sofort neue Masken erstellen, wenn Websites nach Ihrer E-Mail-Adresse fragen – suchen Sie einfach nach dem Symbol { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Holen Sie sich die { -brand-name-relay }-Erweiterung
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-Erweiterung installiert!
+multi-part-onboarding-premium-added-extension-body = Sie müssen sich nicht mehr bei { -brand-name-relay } anmelden, um eine neue Maske zu erstellen – suchen Sie einfach nach dem Relay-Symbol, wenn Websites nach Ihrer E-Mail-Adresse fragen.
+multi-part-onboarding-premium-extension-button-dashboard = Zur Übersicht
+multi-part-onboarding-skip = Überspringen, ich richte das später ein
+multi-part-onboarding-skip-download-extension = Überspringen, ich lade die Erweiterung später herunter
+multi-part-onboarding-continue = Weiter
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, ich möchte @{ $subdomain } registrieren
+
+## Update reply description onboarding step
+
