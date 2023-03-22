@@ -139,7 +139,7 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } 现在可�
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = 保护您的电子邮件变得更加容易。现在你可以生成……
-whatsnew-feature-firefox-integration-description = 保护您的电子邮件变得更加容易。现在，您可以直接从桌面上的 { -brand-name-firefox } 密码管理器生成新的 { -brand-name-relay } 马甲邮箱。
+whatsnew-feature-firefox-integration-description = 保护邮箱更加方便了。现在，您可以直接从桌面版 { -brand-name-firefox } 中的密码管理器生成新 { -brand-name-relay } 马甲邮箱。
 
 ## Bento Menu
 
