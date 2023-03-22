@@ -21,7 +21,7 @@ bundle-banner-plan-header-2 = 您的 1 年方案包含：
 bundle-banner-plan-modules-email-masking = 马甲邮箱
 bundle-banner-plan-modules-phone-masking = 虚拟手机号
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
-bundle-banner-cta = 下载 { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
+bundle-banner-cta = 获取 { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
@@ -115,7 +115,7 @@ plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <s
 
 plan-matrix-upgrade = 升级
 plan-matrix-sign-up = 注册
-plan-matrix-get-relay-cta = 下载 { -brand-name-relay }
+plan-matrix-get-relay-cta = 获取 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入预约名单
 
 ## REVIEWS SECTION

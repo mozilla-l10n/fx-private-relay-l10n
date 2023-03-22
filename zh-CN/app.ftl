@@ -118,7 +118,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
 whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护，包括创建无限的马甲邮箱、获取自定义电子邮件子域名等！
-whatsnew-feature-tracker-removal-heading = 推出邮件跟踪器移除功能
+whatsnew-feature-tracker-removal-heading = 来试试邮件跟踪器移除功能吧
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中去除常见的跟踪器……
@@ -220,7 +220,7 @@ landing-pricing-free-feature-3 = 移除邮件跟踪器
 # Deprecated
 landing-pricing-free-description = 试用 { -brand-name-firefox-relay } 马甲邮箱，保护您的收件箱。
 # Deprecated
-landing-pricing-free-cta = 下载 { -brand-name-relay }
+landing-pricing-free-cta = 获取 { -brand-name-relay }
 # This is shown on the overview of the free plan for people who in countries in which Premium is not yet available
 # Deprecated
 landing-pricing-free-ribbon = 现已可用！
