@@ -883,7 +883,6 @@ onboarding-premium-title-detail = Met { -brand-name-firefox-relay-premium } kunt
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Stap { $step } van { $max }.
-multi-part-onboarding-premium-welcome-headline = Welkom bij { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = U kunt nu bepalen wat er in uw Postvak IN belandt, één e-mailbericht tegelijk.
 multi-part-onboarding-premium-welcome-title = Bepalen welke e-mailberichten u ontvangt:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Onbeperkte e-mailmaskers aanmaken:
@@ -908,8 +907,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = De { -brand-nam
 multi-part-onboarding-premium-chrome-extension-get-description-2 = De { -brand-name-firefox-relay }-extensie voor { -brand-name-chrome } maakt het gebruik van e-mailmaskers nog eenvoudiger.
 multi-part-onboarding-premium-chrome-extension-button-download = De { -brand-name-relay }-extensie downloaden
 multi-part-onboarding-premium-extension-button-skip = Doorgaan, ik download de extensie later
-multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
-multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
 
 ## Report of trackers removed from an email
 
@@ -977,9 +974,6 @@ modal-domain-register-available = { $subdomain } is beschikbaar!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is beschikbaar!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ja, ik wil @{ $subdomain } registreren
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ik wil <subdomain>{ $subdomain }</subdomain> registreren
@@ -1132,3 +1126,102 @@ api-error-free-tier-no-subdomain-masks = Uw gratis account bevat geen aangepaste
 api-error-address-unavailable = ‘{ $unavailable_address }’ kan niet worden aangemaakt. Probeer het nogmaals met een andere maskernaam.
 api-error-need-subdomain = Selecteer een subdomein voordat u een aangepast e-mailadres aanmaakt.
 api-error-account-is-paused = Uw account is gepauzeerd.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Welkom bij { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Laten we ervoor zorgen dat u het meeste uit uw { -brand-name-premium }-account haalt.
+multi-part-onboarding-premium-welcome-feature-headline = Met { -brand-name-firefox-relay-premium } ontvangt u:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Onbeperkte e-mailmaskers
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Verbeter uw privacy en veiligheid met een uniek masker voor elke website
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Maak onderweg direct maskers
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Ontvang een uniek { -brand-name-relay }-e-maildomein, om direct een gemakkelijk te onthouden masker te maken
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Aangepaste bedieningselementen voor uw Postvak IN
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Beheer het type e-mailberichten dat wordt doorgestuurd naar uw Postvak IN
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonieme antwoorden
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Reageer op doorgestuurde e-mailberichten zonder uw echte e-mailadres te delen
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } instellen
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Stel uw unieke { -brand-name-relay }-e-maildomein in
+multi-part-onboarding-premium-email-domain-feature-headline = Met een uniek { -brand-name-relay }-e-maildomein kunt u:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Onderweg direct maskers aanmaken
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Selecteer het { -brand-name-relay }-e-maildomein van uw voorkeur en maak vervolgens direct nieuwe maskers door een woord of woordgroep toe te voegen voor het @-symbool. <p>Winkelen? Gebruik winkel@uwdomein.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Zoeken naar een woord of zin
+multi-part-onboarding-premium-email-domain-feature-input-search = Zoeken
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = uwdomein
+multi-part-onboarding-premium-email-domain-added = Uw e-maildomein:
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Voeg de { -brand-name-relay }-extensie toe
+multi-part-onboarding-premium-add-extension-feature-headline = Met de { -brand-name-relay }-extensie kunt u:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Nieuwe { -brand-name-relay }-maskers vanaf elke website aanmaken
+multi-part-onboarding-premium-add-extension-feature-body = Met de { -brand-name-relay }-extensie kunt u direct nieuwe maskers maken wanneer websites om uw e-mailadres vragen – zoek gewoon naar het { -brand-name-relay }-pictogram.
+multi-part-onboarding-premium-add-extension-feature-cta = De { -brand-name-relay }-extensie toevoegen
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
+multi-part-onboarding-premium-added-extension-body = U hoeft niet langer aan te melden bij { -brand-name-relay } om een nieuw masker aan te maken – zoek gewoon naar het Relay-pictogram wanneer websites om uw e-mailadres vragen.
+multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
+multi-part-onboarding-skip = Overslaan, ik stel dit later in
+multi-part-onboarding-skip-download-extension = Overslaan, ik download de extensie later
+multi-part-onboarding-continue = Doorgaan
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Actie nodig
+banner-set-email-domain-headline = Stel uw unieke { -brand-name-relay }-e-maildomein in
+banner-set-email-domain-step-one-headline = Selecteer het { -brand-name-relay }-e-maildomein van uw voorkeur
+banner-set-email-domain-step-one-body = Deze maakt deel uit van uw e-mailadres achter het @-symbool.
+banner-set-email-domain-step-two-headline = Gebruik het om direct aangepaste { -brand-name-relay }-maskers aan te maken
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Voeg gewoon een woord of woordgroep toe voor het @-symbool. Winkelen? Gebruik winkel@uwdomein.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Een e-maildomein zoeken
+banner-set-email-domain-input-placeholder = Een woord of zin zoeken
+banner-set-email-domain-input-search = Zoeken
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = uwdomein
+banner-set-email-domain-learn-more = Meer info
+modal-email-domain-good-news = Goed nieuws!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> is beschikbaar
+modal-email-domain-available-body = U kunt slechts één uniek { -brand-name-relay }-e-maildomein registreren. <p>U kunt dit later niet meer wijzigen.</p>
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, ik wil @{ $subdomain } registreren
+modal-email-domain-cancel = Annuleren
+modal-email-domain-register = Registreren
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> is nu uw { -brand-name-relay }-e-maildomein!
+modal-email-domain-success-headline-on-the-go = Gebruik dit om onderweg nieuwe { -brand-name-relay }-maskers aan te maken
+modal-email-domain-success-body-on-the-go = U hoeft zich niet aan te melden bij { -brand-name-relay } om een nieuw masker aan te maken.
+modal-email-domain-success-headline-any-word = Maak onbeperkt maskers aan door een woord of woordgroep toe te voegen
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Winkelen? Gebruik winkel{ $custom_domain_full }.
+modal-email-domain-success-continue = Doorgaan
+tooltip-email-domain-explanation-part-one = Met deze waardevolle functie van uw { -brand-name-relay-premium }-account kunt u een uniek { -brand-name-relay }-e-maildomein kiezen dat u kunt gebruiken om onderweg onbeperkte, aangepaste { -brand-name-relay }-maskers te maken.
+tooltip-email-domain-explanation-part-two = U hoeft zich niet aan te melden bij { -brand-name-relay } om een nieuw masker aan te maken; voeg gewoon een woord of woordgroep toe vóór het @-symbool van uw { -brand-name-relay }-e-maildomein om direct een nieuw masker te maken, waar u ook bent.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = In een restaurant? Gebruik restaurant@uwdomein.{ $mozmail }. <p>Aan het winkelen? Probeer winkel@uwdomein.{ $mozmail }</p>
+
+## Update reply description onboarding step
+
+multi-part-onboarding-premium-reply-description = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
