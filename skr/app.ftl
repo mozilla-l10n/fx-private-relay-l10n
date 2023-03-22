@@ -1125,6 +1125,7 @@ api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = بے انت ای میل ماسک
 multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } قائم کرو
 
 ## Step 2 Set Custom Domain
@@ -1140,6 +1141,7 @@ multi-part-onboarding-premium-email-domain-added = تہاݙی ای میل ڈوم
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = { -brand-name-relay } ایکسٹنشن شامل کرو
 
 ## Step 3 Relay Extension Added
 
