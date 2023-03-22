@@ -879,7 +879,6 @@ onboarding-premium-title-detail = Med { -brand-name-firefox-relay-premium } kan 
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Steg { $step } av { $max }.
-multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamnar i din inkorg, ett e-postmeddelande i taget.
 multi-part-onboarding-premium-welcome-title = Kontrollera vilka e-postmeddelanden du får:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Generera obegränsat med e-postalias:
@@ -904,8 +903,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Tillägget { -b
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Tillägget { -brand-name-firefox-relay } för { -brand-name-chrome } gör det ännu enklare att skapa och använda e-postalias.
 multi-part-onboarding-premium-chrome-extension-button-download = Hämta tillägget { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Fortsätt, jag laddar ner tillägget senare
-multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
-multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
 
 ## Report of trackers removed from an email
 
@@ -973,9 +970,6 @@ modal-domain-register-available = { $subdomain } är tillgänglig!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är tillgänglig!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, jag vill registrera <subdomain>{ $subdomain }</subdomain>
@@ -1128,3 +1122,64 @@ api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpass
 api-error-address-unavailable = "{ $unavailable_address }" kunde inte skapas. Försök igen med ett annat aliasnamn.
 api-error-need-subdomain = Välj en underdomän innan du skapar en anpassad e-postadress.
 api-error-account-is-paused = Ditt konto är pausat.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Obegränsade e-postalias
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Förbättra din integritet och säkerhet med ett unikt alias för varje webbplats
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Skapa omedelbart alias när du är på språng
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sök efter ett ord eller en fras
+multi-part-onboarding-premium-email-domain-feature-input-search = Sök
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = dindomän
+multi-part-onboarding-premium-email-domain-added = Din e-postdomän:
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
+multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
+multi-part-onboarding-continue = Fortsätt
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Åtgärd behövs
+banner-set-email-domain-input-placeholder-label = Sök efter en e-postdomän
+banner-set-email-domain-input-placeholder = Sök efter ett ord eller en fras
+banner-set-email-domain-input-search = Sök
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = dindomän
+banner-set-email-domain-learn-more = Läs mer
+modal-email-domain-good-news = Goda nyheter!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> är tillgänglig
+modal-email-domain-available-body = Du kan bara registrera en unik { -brand-name-relay } e-postdomän. <p>Du kommer inte att kunna ändra detta senare.</p>
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ja, jag vill registrera @{ $subdomain }
+modal-email-domain-cancel = Avbryt
+modal-email-domain-register = Registrera
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> är nu din e-postdomän för { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Använd detta för att generera nya { -brand-name-relay }-alias på språng
+modal-email-domain-success-body-on-the-go = Du behöver inte logga in på { -brand-name-relay } för att skapa ett nytt alias.
+modal-email-domain-success-headline-any-word = Skapa obegränsat med alias genom att lägga till vilket ord eller en fras som helst
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Handla? Använd butik { $custom_domain_full }.
+modal-email-domain-success-continue = Fortsätt
+
+## Update reply description onboarding step
+
