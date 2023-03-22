@@ -137,6 +137,7 @@ how-it-works-step-2-copy =
     Napsauta kuvaketta luodaksesi uuden, satunnaisen osoitteen, joka päättyy @relay.firefox.com.
     { -brand-name-relay } välittää viestit tiliisi liitettyyn ensisijaiseen sähköpostiosoitteeseen.
 how-it-works-step-3-headline-2 = Hallinnoi sähköpostimaskeja
+hero-image-copy-trust = Voitko edes luottaa tähän yritykseen antamalla henkilökohtaisen sähköpostiosoitteesi?
 hero-image-copy-unique-html = <strong>Käytä yksilöllistä välitysosoitetta</strong> jokaiselle uudelle tilille…
 
 # Home Page Version A
@@ -554,6 +555,7 @@ profile-filter-category-option-random-masks = Satunnaiset maskit
 profile-filter-category-option-custom-masks = Mukautetut maskit
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Seurainten poiston tila
+profile-indicator-tracker-removal-tooltip = Tällä hetkellä poistetaan sähköpostin seuraimet
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -673,6 +675,10 @@ tips-toast-button-expand-label = Lue lisää
 
 modal-custom-alias-picker-heading-2 = Luo uusi mukautettu maski
 modal-custom-alias-picker-form-heading-2 = Tai luo mukautettu maski manuaalisesti
+modal-custom-alias-picker-form-prefix-label-2 = Anna sähköpostimaskin etuliite
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder = esim. "kahvi"
 modal-custom-alias-picker-form-prefix-spaces-warning = Sähköpostimaskeissa ei sallita välilyöntejä.
 modal-custom-alias-picker-form-prefix-invalid-warning = Sähköpostimaskit voivat sisältää vain pieniä kirjaimia, numeroita ja tavuviivoja, eivätkä ne saa alkaa tai päättyä tavuviivalla.
 modal-custom-alias-picker-form-submit-label-2 = Luo maski
@@ -928,15 +934,21 @@ api-error-account-is-paused = Tilisi on keskeytetty.
 multi-part-onboarding-premium-welcome-headline = Tervetuloa { -brand-name-relay-premium }iin
 multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium }illa saat:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Rajattomasti sähköpostimaskeja
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Paranna yksityisyyttäsi ja turvallisuuttasi yksilöllisellä maskilla jokaiselle sivustolle
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Luo maskeja heti tarpeen vaatiessa
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyymit vastaukset
 multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Vastaa edelleenlähetettyihin sähköposteihin jakamatta oikeaa sähköpostiosoitettasi
+multi-part-onboarding-premium-welcome-feature-cta = Määritä { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Luo maskeja heti tarpeen vaatiessa
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Hae sanaa tai lausetta
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Lisää { -brand-name-relay }-laajennus
+multi-part-onboarding-premium-add-extension-feature-headline = { -brand-name-relay }-laajennuksella voit:
 multi-part-onboarding-premium-add-extension-feature-cta = Lisää { -brand-name-relay }-laajennus
 
 ## Step 3 Relay Extension Added
@@ -949,10 +961,16 @@ multi-part-onboarding-continue = Jatka
 ## Set domain banner
 
 banner-set-email-domain-input-placeholder = Hae sanaa tai lausetta
+banner-set-email-domain-learn-more = Lue lisää
+modal-email-domain-good-news = Hyviä uutisia!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> on saatavilla
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
 modal-email-domain-cancel = Peruuta
+modal-email-domain-register = Rekisteröi
 modal-email-domain-success-continue = Jatka
 
 ## Update reply description onboarding step

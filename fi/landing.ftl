@@ -44,6 +44,7 @@ how-it-works-section-title = Miten { -brand-name-relay }n sähköposti- ja puhel
 # Item 1
 
 how-it-works-section-extension-headline = Käytä { -brand-name-relay }-maskeja sähköpostiosoitteille ja puhelinnumeroille missä tahansa
+how-it-works-section-extension-body = Hanki turvalliset, satunnaiset sähköpostimaskit ja yksilöllinen, peitetty puhelinnumero, jota voit käyttää aina, kun verkkosivusto, sovellus, kauppa tai ravintola pyytää tietojasi.
 
 # Item 2
 
@@ -58,6 +59,7 @@ how-it-works-section-manage-body = Kirjaudu { -brand-name-relay }-hallintapaneel
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Valitse sinulle sopiva suojaustaso
+plan-matrix-offer-body = { -brand-name-firefox-relay } suojaa henkilöyttäsi ja postilaatikkoasi yksilöllisillä sähköpostimaskeilla. Hanki lisää turvallisuutta { -brand-name-relay }n puhelinmaskeilla ja säästä { $savings } lisäämällä { -brand-name-vpn }-suojaus.
 
 # Top Row Labels
 
@@ -148,6 +150,12 @@ highlighted-features-section-new-item = Uutta!
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
+    { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
+    roskapostittajilta, hakkereilta ja seuraimilta.
 
 # Item 2
 
