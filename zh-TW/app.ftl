@@ -1123,6 +1123,14 @@ multi-part-onboarding-continue = 繼續
 
 ## Set domain banner
 
+banner-set-email-domain-headline = 設定您的獨特 { -brand-name-relay } 郵件網域
+banner-set-email-domain-step-one-headline = 選擇您想要使用的 { -brand-name-relay } 郵件網域
+banner-set-email-domain-step-one-body = 是您的電子郵件地址中，@ 符號的後面。
+banner-set-email-domain-step-two-headline = 可使用它來即時建立自訂 { -brand-name-relay } 轉寄信箱
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = 只要把一個英文字放到 @ 符號前。線上購物嗎？可用 shop@yourdomain.{ $mozmail }。
 banner-set-email-domain-input-placeholder-label = 搜尋電子郵件網域
 banner-set-email-domain-input-placeholder = 搜尋文字或詞彙
 banner-set-email-domain-input-search = 搜尋
@@ -1140,6 +1148,15 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> 可以使用
 modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
 modal-email-domain-cancel = 取消
 modal-email-domain-register = 註冊
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = 您的 { -brand-name-relay } 電子郵件網域已改為 <p>{ $custom_domain_full }</p>！
+modal-email-domain-success-headline-on-the-go = 使用此網域隨身產生新的 { -brand-name-relay } 轉寄信箱
+modal-email-domain-success-body-on-the-go = 不須登入 { -brand-name-relay } 也可產生新的轉寄信箱。
+modal-email-domain-success-headline-any-word = 隨意使用不同詞彙，就可以無限產生轉寄信箱
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = 線上購物嗎？可用 store{ $custom_domain_full }。
 modal-email-domain-success-continue = 繼續
 
 ## Update reply description onboarding step
