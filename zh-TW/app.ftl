@@ -1085,13 +1085,28 @@ api-error-account-is-paused = 您的帳號暫停中。
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
+multi-part-onboarding-premium-welcome-feature-cta = 設定 { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = 設定您的獨特 { -brand-name-relay } 郵件網域
+multi-part-onboarding-premium-email-domain-feature-headline = 使用獨特的 { -brand-name-relay } 郵件網域，可以：
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = 搜尋文字或詞彙
+multi-part-onboarding-premium-email-domain-feature-input-search = 搜尋
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = yourdomain
+multi-part-onboarding-premium-email-domain-added = 您的電子郵件網域：
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = 新增 { -brand-name-relay } 擴充套件
 
 ## Step 3 Relay Extension Added
 
