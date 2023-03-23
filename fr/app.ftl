@@ -1118,6 +1118,9 @@ multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-re
 multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-firefox-relay-premium }, vous obtenez :
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Créez instantanément des alias lors de vos déplacements
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Contrôles personnalisés de la boîte de réception
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Contrôlez quels types d’e-mails sont transférés dans votre boîte de réception
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Réponses anonymes
 multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Répondez aux e-mails transférés sans partager votre véritable adresse e-mail
 multi-part-onboarding-premium-welcome-feature-cta = Configurer { -brand-name-relay-premium }
@@ -1172,6 +1175,14 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> est disponible
 modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
 modal-email-domain-cancel = Annuler
 modal-email-domain-register = Enregistrer
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> est désormais votre domaine de messagerie { -brand-name-relay } !
+modal-email-domain-success-headline-on-the-go = Utilisez ce domaine pour générer de nouveaux alias { -brand-name-relay } en déplacement
+modal-email-domain-success-body-on-the-go = Pas besoin de se connecter à { -brand-name-relay } pour créer un nouvel alias.
+modal-email-domain-success-headline-any-word = Créez un nombre illimité d’alias en ajoutant n’importe quel mot ou expression
+modal-email-domain-success-continue = Continuer
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Répondre aux e-mails sans révéler votre véritable adresse
