@@ -710,7 +710,7 @@ banner-choose-subdomain-input-placeholder-3 = 搜索子域名
 banner-register-subdomain-button-search = 搜索
 banner-pack-upgrade-headline-2-html = 升级为 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可获得更多马甲
 banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 的无限量马甲邮箱 + 个人邮箱子域名，助力您的在线安全。
-footer-banner-premium-promo-headine = 升级到 <strong>{ -brand-name-firefox-relay-premium }</strong> 以保护您的手机<i>和</i>电子邮件
+footer-banner-premium-promo-headine = 升级到 <strong>{ -brand-name-firefox-relay-premium }</strong>，除保护您的邮箱外更可保护手机号
 footer-banner-premium-promo-body = 获取电话号码马甲、无限的电子邮件马甲和自定义电子邮件地址以快速创建马甲。
 banner-pack-upgrade-cta = 立即升级
 # Privacy Notice update banner:
