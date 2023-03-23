@@ -873,7 +873,6 @@ onboarding-premium-title-detail = Avec { -brand-name-firefox-relay-premium }, vo
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Étape { $step } sur { $max }.
-multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Vous pouvez désormais contrôler ce qui arrive dans votre boîte de réception, un e-mail à la fois.
 multi-part-onboarding-premium-welcome-title = Contrôlez les e-mails que vous recevez :
 multi-part-onboarding-premium-generate-unlimited-title-2 = Générer un nombre illimité d’alias de messagerie :
@@ -896,8 +895,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = L’extension {
 multi-part-onboarding-premium-chrome-extension-get-description-2 = L’extension { -brand-name-firefox-relay } pour { -brand-name-chrome } facilite la création et l’utilisation d’alias de messagerie.
 multi-part-onboarding-premium-chrome-extension-button-download = Installer l’extension { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Continuer, je téléchargerai l’extension plus tard
-multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
-multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
 
 ## Report of trackers removed from an email
 
@@ -962,9 +959,6 @@ modal-domain-register-available = { $subdomain } est disponible !
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est disponible !
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Oui, je souhaite enregistrer <subdomain>{ $subdomain }</subdomain>
@@ -1117,3 +1111,29 @@ api-error-free-tier-no-subdomain-masks = Votre compte gratuit n’inclut pas de 
 api-error-address-unavailable = « { $unavailable_address } » n’a pas pu être créée. Veuillez réessayer avec un nom d’alias différent.
 api-error-need-subdomain = Veuillez sélectionner un sous-domaine avant de créer une adresse e-mail personnalisée.
 api-error-account-is-paused = Votre compte est en pause.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-firefox-relay-premium }, vous obtenez :
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = un nombre illimité d’alias de messagerie
+
+## Step 2 Set Custom Domain
+
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
+multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
+
+## Update reply description onboarding step
+
