@@ -1140,6 +1140,12 @@ multi-part-onboarding-premium-welcome-feature-cta = Konfigurera { -brand-name-re
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Ställ in din unika { -brand-name-relay } e-postdomän
+multi-part-onboarding-premium-email-domain-feature-headline = Med en unik e-postdomän { -brand-name-relay } kan du:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Skapa omedelbart alias när du är på språng
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Välj din föredragna e-postdomän { -brand-name-relay } och skapa sedan omedelbart nya alias genom att lägga till ett ord eller en fras före @-symbolen. <p>Shoppar du? Använd handla@dindomän.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sök efter ett ord eller en fras
 multi-part-onboarding-premium-email-domain-feature-input-search = Sök
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -1150,16 +1156,32 @@ multi-part-onboarding-premium-email-domain-added = Din e-postdomän:
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Lägg till tillägget { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Med tillägget { -brand-name-relay } kan du:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Skapa nya { -brand-name-relay }-alias från vilken webbplats som helst
+multi-part-onboarding-premium-add-extension-feature-body = Tillägget { -brand-name-relay } låter dig omedelbart skapa nya alias när webbplatser ber om din e-postadress — leta bara efter ikonen { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Lägg till tillägget { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Tillägget { -brand-name-relay } har lagts till!
+multi-part-onboarding-premium-added-extension-body = Du behöver inte längre logga in på { -brand-name-relay } för att skapa ett nytt alias — leta bara efter Relay-ikonen när webbplatser ber om din e-postadress.
 multi-part-onboarding-premium-extension-button-dashboard = Gå till översikten
+multi-part-onboarding-skip = Hoppa över, jag ställer in det här senare
+multi-part-onboarding-skip-download-extension = Hoppa över, jag laddar ner tillägget senare
 multi-part-onboarding-continue = Fortsätt
 
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = Åtgärd behövs
+banner-set-email-domain-headline = Ställ in din unika { -brand-name-relay } e-postdomän
+banner-set-email-domain-step-one-headline = Välj önskad e-postdomän för { -brand-name-relay }
+banner-set-email-domain-step-one-body = Den är en del av din e-post efter @-symbolen.
+banner-set-email-domain-step-two-headline = Använd den för att omedelbart skapa anpassade { -brand-name-relay }-alias
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Lägg bara till ett ord eller en fras före @-symbolen. Handla? Använd handla@dindomän.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Sök efter en e-postdomän
 banner-set-email-domain-input-placeholder = Sök efter ett ord eller en fras
 banner-set-email-domain-input-search = Sök
