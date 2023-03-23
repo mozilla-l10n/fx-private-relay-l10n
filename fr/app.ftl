@@ -1116,24 +1116,62 @@ api-error-account-is-paused = Votre compte est en pause.
 
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-firefox-relay-premium }, vous obtenez :
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = un nombre illimité d’alias de messagerie
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Réponses anonymes
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Répondez aux e-mails transférés sans partager votre véritable adresse e-mail
+multi-part-onboarding-premium-welcome-feature-cta = Configurer { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = Définissez votre domaine de messagerie { -brand-name-relay } unique
+multi-part-onboarding-premium-email-domain-feature-headline = Avec un domaine de messagerie { -brand-name-relay } unique, vous pouvez :
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Rechercher un mot ou une expression
+multi-part-onboarding-premium-email-domain-feature-input-search = Rechercher
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = votredomaine
+multi-part-onboarding-premium-email-domain-added = Votre domaine de messagerie :
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Ajouter l’extension { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Avec l’extension { -brand-name-relay }, vous pouvez :
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Créer de nouveaux alias { -brand-name-relay } depuis n’importe quel site web
+multi-part-onboarding-premium-add-extension-feature-cta = Ajouter l’extension { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
 multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
+multi-part-onboarding-skip = Ignorer, je configurerai ceci plus tard
+multi-part-onboarding-skip-download-extension = Ignorer, je téléchargerai l’extension plus tard
+multi-part-onboarding-continue = Continuer
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Action nécessaire
+banner-set-email-domain-headline = Définissez votre domaine de messagerie { -brand-name-relay } unique
+banner-set-email-domain-step-one-headline = Sélectionnez votre domaine de messagerie { -brand-name-relay } préféré
+banner-set-email-domain-step-two-headline = Utilisez-le pour créer instantanément des alias { -brand-name-relay } personnalisés
+banner-set-email-domain-input-placeholder-label = Rechercher un domaine de messagerie
+banner-set-email-domain-input-placeholder = Rechercher un mot ou une expression
+banner-set-email-domain-input-search = Rechercher
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = votredomaine
+banner-set-email-domain-learn-more = En savoir plus
+modal-email-domain-good-news = Bonne nouvelle !
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> est disponible
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
+modal-email-domain-cancel = Annuler
+modal-email-domain-register = Enregistrer
 
 ## Update reply description onboarding step
 
