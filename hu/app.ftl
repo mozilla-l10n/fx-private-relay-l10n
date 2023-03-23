@@ -879,7 +879,6 @@ onboarding-premium-title-detail = A { -brand-name-firefox-relay-premium }mal a k
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = { $step }. / { $max } lépés
-multi-part-onboarding-premium-welcome-headline = Üdvözli a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Mostantól e-mail-címenként szabályozhatja, hogy mi kerüljön a postaládájába.
 multi-part-onboarding-premium-welcome-title = Szabályozhatja, hogy milyen e-maileket kapjon:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Korlátlan számú e-mail-maszk előállítása:
@@ -904,8 +903,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = A { -brand-name
 multi-part-onboarding-premium-chrome-extension-get-description-2 = A { -brand-name-chrome }-hoz készült { -brand-name-firefox-relay } kiegészítő még könnyebbé teszi az e-mail-maszkok létrehozását és használatát.
 multi-part-onboarding-premium-chrome-extension-button-download = A { -brand-name-relay } kiegészítő beszerzése
 multi-part-onboarding-premium-extension-button-skip = Folytatás, később töltöm le a kiegészítőt
-multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
-multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
 
 ## Report of trackers removed from an email
 
@@ -973,9 +970,6 @@ modal-domain-register-available = A(z) { $subdomain } elérhető!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> elérhető.
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Igen, szeretném regisztrálni a következőt: <subdomain>{ $subdomain }</subdomain>.
@@ -1128,3 +1122,99 @@ api-error-free-tier-no-subdomain-masks = Az ingyenes fiókja nem tartalmaz egyé
 api-error-address-unavailable = A(z) „{ $unavailable_address }” nem hozható létre. Próbálja újra egy másik maszknévvel.
 api-error-need-subdomain = Válasszon egy aldomaint, mielőtt egyéni e-mail-címet hozna létre.
 api-error-account-is-paused = A fiókja szünetel.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Üdvözli a { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Állítsuk be a dolgokat, hogy a lehető legtöbbet hozza ki a { -brand-name-premium } fiókjából.
+multi-part-onboarding-premium-welcome-feature-headline = A { -brand-name-firefox-relay-premium }mal a következőket kapja:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Korlátlan számú e-mail-maszk
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Fokozza adatvédelmét és biztonságát egy egyedi maszkkal minden webhelynél
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Azonnal készítsen maszkokat útközben
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Szerezzen egyedi { -brand-name-relay } e-mail-domaint az azonnali, könnyen megjegyezhető maszkok létrehozásához
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Névtelen válaszok
+multi-part-onboarding-premium-welcome-feature-cta = A { -brand-name-relay-premium } beállítása
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Állítsa be egyedi { -brand-name-relay } e-mail-domainjét
+multi-part-onboarding-premium-email-domain-feature-headline = Egy egyedi { -brand-name-relay } e-mail-domainnel a következőket teheti:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Azonnali maszkkészítés útközben
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Válassza ki a kívánt { -brand-name-relay } e-mail-domaint, majd azonnal hozzon létre új maszkokat úgy, hogy tetszőleges szót vagy kifejezést ad meg a @ szimbólum előtt. <p>Vásárlás? Használja a bolt@sajatdomain.{ $mozmail } címet.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Keressen egy szót vagy kifejezést
+multi-part-onboarding-premium-email-domain-feature-input-search = Keresés
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = sajatdomain
+multi-part-onboarding-premium-email-domain-added = A saját e-mail-domainje
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = A { -brand-name-relay } kiegészítő beszerzése
+multi-part-onboarding-premium-add-extension-feature-headline = A { -brand-name-relay } kiegészítővel a következőket teheti:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Új { -brand-name-relay } maszkok létrehozása bármely webhelyről
+multi-part-onboarding-premium-add-extension-feature-body = A { -brand-name-relay } kiegészítő lehetővé teszi, hogy azonnal új maszkokat hozzon létre, amikor a webhelyek az Ön e-mail-címét kérik – csak keresse a { -brand-name-relay } ikont.
+multi-part-onboarding-premium-add-extension-feature-cta = Adja hozzá a { -brand-name-relay } kiegészítőt
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
+multi-part-onboarding-premium-added-extension-body = Többé nem kell bejelentkeznie a { -brand-name-relay } szolgáltatásba, hogy új maszkot hozzon létre – csak keresse a Relay ikont, amikor a webhelyek az Ön e-mail-címét kérik.
+multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
+multi-part-onboarding-skip = Kihagyás, beállítás később
+multi-part-onboarding-skip-download-extension = Kihagyás, a kiegészítő letöltése később
+multi-part-onboarding-continue = Folytatás
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Intézkedés szükséges
+banner-set-email-domain-headline = Állítsa be egyedi { -brand-name-relay } e-mail-domainjét
+banner-set-email-domain-step-one-headline = Válassza ki az előnyben részesített { -brand-name-relay } e-mail-domainjét
+banner-set-email-domain-step-one-body = Ez az e-mail-címének @ utáni része
+banner-set-email-domain-step-two-headline = Használja az egyéni { -brand-name-relay } maszkok azonnali létrehozásához
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Csak adjon meg egy szót vagy kifejezést a @ szimbólum előtt. Bevásárlás? Használja a bolt@sajatdomaint.{ $mozmail } címet.
+banner-set-email-domain-input-placeholder-label = E-mail-domain keresése
+banner-set-email-domain-input-placeholder = Keressen egy szót vagy kifejezést
+banner-set-email-domain-input-search = Keresés
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = sajatdomain
+banner-set-email-domain-learn-more = További tudnivalók
+modal-email-domain-good-news = Jó hírek!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = A(z) <p>{ $custom_domain_full }</p> elérhető
+modal-email-domain-available-body = Csak egy egyedi { -brand-name-relay } e-mail-domaint regisztrálhat. <p>Ezt később nem fogja tudja módosítani.</p>
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Igen, regisztrálom ezt: @{ $subdomain }
+modal-email-domain-cancel = Mégse
+modal-email-domain-register = Regisztráció
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = A(z) <p>{ $custom_domain_full }</p> mostantól az Ön { -brand-name-relay } e-mail-domainje!
+modal-email-domain-success-headline-on-the-go = Használja ezt új { -brand-name-relay } maszkok létrehozásához útközben
+modal-email-domain-success-body-on-the-go = Új maszk létrehozásához nem kell bejelentkeznie a { -brand-name-relay }be.
+modal-email-domain-success-headline-any-word = Hozzon létre korlátlan számú maszkot bármilyen szó vagy kifejezés hozzáadásával
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Bevásárlás? Használja a bolt{ $custom_domain_full } címet.
+modal-email-domain-success-continue = Folytatás
+tooltip-email-domain-explanation-part-one = A { -brand-name-relay-premium } fiókjának ezen értékes funkciója lehetővé teszi, hogy egyedi { -brand-name-relay } e-mail-domaint válasszon, amellyel korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre útközben.
+tooltip-email-domain-explanation-part-two = Új maszk létrehozásához nem szükséges bejelentkezni a { -brand-name-relay }be; Egyszerűen adjon hozzá bármilyen szót vagy kifejezést { -brand-name-relay } e-mail-domainjének @ szimbóluma elé, hogy azonnal létrehozzon egy új maszkot, bárhol is legyen.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet. <p>Vásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.</p>
+
+## Update reply description onboarding step
+
+multi-part-onboarding-premium-reply-description = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
