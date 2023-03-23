@@ -625,6 +625,8 @@ profile-label-delete = Delete
 profile-label-upgrade-2 = Get unlimited email masks
 profile-label-create-subdomain = Get your email subdomain
 profile-label-subdomain = Email Subdomain:
+profile-label-custom-domain = Your { -brand-name-relay } email domain:
+profile-label-set-your-custom-domain = Set your unique { -brand-name-relay } email domain
 profile-label-subdomain-tooltip-trigger = More info
 profile-label-subdomain-tooltip = Create your unique email subdomain.
 profile-label-reset = Reset
@@ -1267,3 +1269,4 @@ tooltip-email-domain-explanation-part-three = At a restaurant? Use restaurant@yo
 ## Update reply description onboarding step
 
 multi-part-onboarding-premium-reply-description = Reply to emails without giving away your real address
+
