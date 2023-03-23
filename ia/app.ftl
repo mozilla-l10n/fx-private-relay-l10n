@@ -1129,7 +1129,9 @@ multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Melio
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtene un domino email { -brand-name-relay } unic pro creation instantanee de mascas, facile-a-memorar
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalisate del cassa de ingresso
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controla le typo de emails inultrate a tu cassa de ingresso
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Responsas anonyme
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Responde a emails inultrate sin compartir tu real adresse email
 multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
@@ -1137,6 +1139,10 @@ multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-rel
 multi-part-onboarding-premium-email-domain-headline = Configurar tu domino email unic { -brand-name-relay }
 multi-part-onboarding-premium-email-domain-feature-headline = Con un domino email { -brand-name-relay } unic, tu pote
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Elige tu dominio email preferite de { -brand-name-relay }, pois crea instantaneemente nove mascas addente ulle parola o expression ante le symbolo @. <p>Compras? Usa boteca@tu_dominio.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Cercar un parola o phrase
 multi-part-onboarding-premium-email-domain-feature-input-search = Cercar
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -1150,12 +1156,15 @@ multi-part-onboarding-premium-email-domain-added = Tu dominio email:
 multi-part-onboarding-premium-add-extension-headline = Adder le extension { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Con le extension { -brand-name-relay }, tu pote:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Crear nove mascas { -brand-name-relay } ab ulle sito web
+multi-part-onboarding-premium-add-extension-feature-body = Le extension { -brand-name-relay } te permitte de crear instantaneemente nove mascas quandocunque le sitos web quere tu adresse email, justo cerca le icone de { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Adder le extension { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
+multi-part-onboarding-premium-added-extension-body = Tu non besoniara plus de acceder a { -brand-name-relay } pro generar un nove masca, justo cerca le icone de Relay quando le sitos web quere tu adresse email.
 multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de controlo
+multi-part-onboarding-skip = Saltar, io lo definira plus tarde
 multi-part-onboarding-skip-download-extension = Saltar, io discargara plus tarde le extension
 multi-part-onboarding-continue = Continuar
 
@@ -1163,6 +1172,14 @@ multi-part-onboarding-continue = Continuar
 
 banner-set-email-domain-headline-action-needed = Action necessari
 banner-set-email-domain-headline = Configurar tu domino email { -brand-name-relay } unic
+banner-set-email-domain-step-one-headline = Elige tu preferite dominio email de { -brand-name-relay }
+banner-set-email-domain-step-one-body = Illo es le parte de tu adresse email post le symbolo @.
+banner-set-email-domain-step-two-headline = Usa lo pro crear instantaneemente mascas de { -brand-name-relay } personal
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Justo adde un parola o expression ante le symbolo @. Compras? Usa boteca@tu_dominio.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Cerca un dominio email
 banner-set-email-domain-input-placeholder = Cercar un parola o phrase
 banner-set-email-domain-input-search = Cercar
 # This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
@@ -1174,12 +1191,28 @@ modal-email-domain-good-news = Bon novas!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> es disponibile
+modal-email-domain-available-body = Tu pote solo registrar un domino email de { -brand-name-relay } exclusive. <p>Tu non potera cambiar lo plus tarde.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Si, io vole registrar @{ $subdomain }
 modal-email-domain-cancel = Cancellar
 modal-email-domain-register = Registrar
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> es ora tu dominio email de { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Usa lo pro generar nove mascas de { -brand-name-relay } al volo
+modal-email-domain-success-body-on-the-go = Nulle besonio de acceder a { -brand-name-relay } pro crear un nove masca.
+modal-email-domain-success-headline-any-word = Crea mascas illimitate addente ulle parola o expression
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Compras? Usa boteca{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuar
+tooltip-email-domain-explanation-part-one = Iste preciose functionalitate de tu conto { -brand-name-relay-premium } te permitte de eliger un exclusive domino email { -brand-name-relay } que tu pote usar pro crear illimitate, mascas { -brand-name-relay } personalisate, al volo.
+tooltip-email-domain-explanation-part-two = Il ha nulle besonio de acceder a { -brand-name-relay } pro generar un nove masca; Simplemente adde ulle parola o expression ante le symbolo @ de tu dominio email { -brand-name-relay } pro crear instantaneemente un nove masca ubique tu es.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = A un restaurante? Usa restaurante@tu_dominio.{ $mozmail }. <p>Compras? Prova boteca@tu_dominio.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
