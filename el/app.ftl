@@ -1160,6 +1160,10 @@ banner-set-email-domain-headline-action-needed = Απαιτείται ενέργ
 banner-set-email-domain-headline = Ορίσετε έναν μοναδικό τομέα email στο { -brand-name-relay }
 banner-set-email-domain-step-one-headline = Επιλέξετε τον επιθυμητό σας τομέα email από το { -brand-name-relay }
 banner-set-email-domain-step-one-body = Είναι μέρος του email σας μετά το σύμβολο «@».
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Προσθέστε απλώς μια λέξη ή φράση πριν από το σύμβολο «@». Κάνετε αγορές; Χρησιμοποιήστε το katasthma@otomeassas.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Αναζήτηση τομέα email
 banner-set-email-domain-input-placeholder = Αναζήτηση λέξης ή φράσης
 banner-set-email-domain-input-search = Αναζήτηση
@@ -1184,6 +1188,10 @@ modal-email-domain-success-subheadline = Το <p>{ $custom_domain_full }</p> ε�
 modal-email-domain-success-headline-on-the-go = Χρησιμοποιήστε τον για δημιουργία νέων μασκών { -brand-name-relay } εν κινήσει
 modal-email-domain-success-headline-any-word = Δημιουργήστε απεριόριστες μάσκες προσθέτοντας οποιαδήποτε λέξη ή φράση
 modal-email-domain-success-continue = Συνέχεια
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Είστε σε κάποιο εστιατόριο; Χρησιμοποιήστε το estiatorio@otomeassas.{ $mozmail }. <p>Κάνετε αγορές; Δοκιμάστε το katasthma@otomeassas.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
