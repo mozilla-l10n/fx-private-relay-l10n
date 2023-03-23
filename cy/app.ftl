@@ -1129,23 +1129,83 @@ multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Cael parth e-bost { -brand-name-relay } unigryw ar gyfer creu masgiau ar unwaith, hawdd eu cofio
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Rheolaethau blwch derbyn cyfaddasedig
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Rheolwch y math o e-byst sy'n cael eu hanfon ymlaen i'ch blwch derbyn
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Atebion dienw
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Atebwch negeseuon e-bost a anfonwyd ymlaen heb rannu eich cyfeiriad e-bost go iawn
+multi-part-onboarding-premium-welcome-feature-cta = Gosod { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = Gosodwch eich parth e-bost { -brand-name-relay } unigryw
+multi-part-onboarding-premium-email-domain-feature-headline = Gyda pharth e-bost { -brand-name-relay } unigryw, gallwch:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Creu masgiau wrth fynd, ar unwaith
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Dewis y parth e-bost { -brand-name-relay } sydd orau gennych, yna crëu arallenwau newydd ar unwaith drwy ychwanegu unrhyw air neu ymadrodd cyn y symbol @. <p>Siopa? Defnyddiwch siop@eichparth.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Chwiliwch air neu ymadrodd
+multi-part-onboarding-premium-email-domain-feature-input-search = Chwilio
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = eichparth
+multi-part-onboarding-premium-email-domain-added = Eich parth e-bost:
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Ychwanegwch yr estyniad { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Gyda'r estyniad { -brand-name-relay }, gallwch:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Crëwch arallenwau { -brand-name-relay } newydd o unrhyw wefan
+multi-part-onboarding-premium-add-extension-feature-body = Mae'r estyniad { -brand-name-relay } yn gadael i chi greu arallenwau newydd ar unwaith pryd bynnag y bydd gwefannau'n gofyn am eich cyfeiriad e-bost — edrychwch am eicon { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Ychwanegwch estyniad { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Wedi ychwanegu estyniad { -brand-name-relay }!
+multi-part-onboarding-premium-added-extension-body = Bydd dim angen i chi fewngofnodi i { -brand-name-relay } bellach i gynhyrchu arallenw newydd - chwiliwch am yr eicon Relay pan fydd gwefannau'n gofyn am eich cyfeiriad e-bost.
 multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
+multi-part-onboarding-skip = Hepgor, byddaf yn ei osod yn nes ymlaen
+multi-part-onboarding-skip-download-extension = Hepgor, byddaf yn llwytho'r estyniad i lawr yn nes ymlaen
+multi-part-onboarding-continue = Parhau
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Angen gweithredu
+banner-set-email-domain-headline = Gosodwch eich parth e-bost { -brand-name-relay } unigryw
+banner-set-email-domain-step-one-headline = Dewiswch y parth e-bost { -brand-name-relay } sydd orau gennych
+banner-set-email-domain-step-one-body = Mae'n rhan o'ch e-bost ar ôl y symbol @.
+banner-set-email-domain-step-two-headline = Defnyddiwch ef i greu arallenwau { -brand-name-relay } cyfaddas ar unwaith
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Ychwanegwch air neu ymadrodd cyn y symbol @. Siopa? Defnyddiwch siop@eichparth.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Chwilio parth e-bost
+banner-set-email-domain-input-placeholder = Chwilio gair neu ymadrodd
+banner-set-email-domain-input-search = Chwilio
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = eichparth
+banner-set-email-domain-learn-more = Dysgu rhagor
+modal-email-domain-good-news = Newyddion da!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = Mae <p>{ $custom_domain_full }</p> ar gael
+modal-email-domain-available-body = Dim ond un parth e-bost { -brand-name-relay } unigryw y gallwch ei gofrestru. <p>Fyddwch chi ddim yn gallu newid hwn yn nes ymlaen.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
+modal-email-domain-cancel = Diddymu
+modal-email-domain-register = Cofrestru
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> yw eich parth e-bost { -brand-name-relay } bellach!
+modal-email-domain-success-headline-on-the-go = Defnyddiwch hwn i gynhyrchu arallenwau { -brand-name-relay } newydd wrth fynd
+modal-email-domain-success-body-on-the-go = Does dim angen mewngofnodi i { -brand-name-relay } i greu arallenw newydd.
+modal-email-domain-success-headline-any-word = Crëwch arallenwau diddiwedd trwy ychwanegu unrhyw air neu ymadrodd
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Siopa? Defnyddiwch siop { $custom_domain_full }.
+modal-email-domain-success-continue = Parhau
 
 ## Update reply description onboarding step
 
