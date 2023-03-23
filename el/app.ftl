@@ -1129,31 +1129,60 @@ multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Αν�
 
 ## Step 2 Set Custom Domain
 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Επιλέξτε τον προτιμώμενό σας τομέα email στο { -brand-name-relay } και δημιουργήστε άμεσα νέες μάσκες προσθέτοντας οποιαδήποτε λέξη ή φράση πριν από το σύμβολο «@». <p>Κάνετε αγορές; Χρησιμοποιήστε το katasthma@otomeassas.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-search = Αναζήτηση
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = otomeassas
 multi-part-onboarding-premium-email-domain-added = Ο τομέας email σας:
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-feature-headline = Με την επέκταση του { -brand-name-relay }, μπορείτε να:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Δημιουργήσετε νέες μάσκες { -brand-name-relay } από οποιονδήποτε ιστότοπο
+multi-part-onboarding-premium-add-extension-feature-cta = Προσθέσετε την επέκταση του { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
 multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
+multi-part-onboarding-skip = Παράλειψη, θα το ρυθμίσω αργότερα
+multi-part-onboarding-skip-download-extension = Παράλειψη, θα κάνω λήψη της επέκτασης αργότερα
 multi-part-onboarding-continue = Συνέχεια
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Απαιτείται ενέργεια
+banner-set-email-domain-headline = Ορίσετε έναν μοναδικό τομέα email στο { -brand-name-relay }
+banner-set-email-domain-step-one-headline = Επιλέξετε τον επιθυμητό σας τομέα email από το { -brand-name-relay }
+banner-set-email-domain-step-one-body = Είναι μέρος του email σας μετά το σύμβολο «@».
+banner-set-email-domain-input-placeholder-label = Αναζήτηση τομέα email
+banner-set-email-domain-input-placeholder = Αναζήτηση λέξης ή φράσης
 banner-set-email-domain-input-search = Αναζήτηση
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = otomeassas
 banner-set-email-domain-learn-more = Μάθετε περισσότερα
 modal-email-domain-good-news = Καλά νέα!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = Το <p>{ $custom_domain_full }</p> είναι διαθέσιμο
+modal-email-domain-available-body = Μπορείτε να καταχωρήσετε μόνο έναν μοναδικό τομέα email στο { -brand-name-relay }. <p>Δεν θα μπορείτε να τον αλλάξετε αργότερα.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ναι, θέλω να καταχωρήσω το @{ $subdomain }
 modal-email-domain-cancel = Ακύρωση
 modal-email-domain-register = Εγγραφή
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = Το <p>{ $custom_domain_full }</p> είναι πλέον ο τομέας email σας στο { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Χρησιμοποιήστε τον για δημιουργία νέων μασκών { -brand-name-relay } εν κινήσει
+modal-email-domain-success-headline-any-word = Δημιουργήστε απεριόριστες μάσκες προσθέτοντας οποιαδήποτε λέξη ή φράση
 modal-email-domain-success-continue = Συνέχεια
 
 ## Update reply description onboarding step
