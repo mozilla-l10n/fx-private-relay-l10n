@@ -1207,6 +1207,12 @@ modal-email-domain-success-headline-any-word = Crëwch arallenwau diddiwedd trwy
 modal-email-domain-success-body-any-word = Siopa? Defnyddiwch siop { $custom_domain_full }.
 modal-email-domain-success-continue = Parhau
 tooltip-email-domain-explanation-part-one = Mae'r nodwedd werthfawr hon o'ch cyfrif { -brand-name-relay-premium } yn gadael i chi ddewis parth e-bost { -brand-name-relay } unigryw y gallwch ei ddefnyddio i greu arallenwau { -brand-name-relay } anghyfyngedig ac unigryw ar yr ewch.
+tooltip-email-domain-explanation-part-two = Does dim angen mewngofnodi i { -brand-name-relay } i gynhyrchu arallenw newydd; Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn symbol @ eich parth e-bost { -brand-name-relay } er mwyn creu arallenw ar unwaith, lle bynnag rydych chi.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Mewn bwyty? Defnyddiwch restaurant@eichparth.{ $mozmail }. <p>Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Atebwch e-byst heb ddatgelu eich cyfeiriad go iawn:
