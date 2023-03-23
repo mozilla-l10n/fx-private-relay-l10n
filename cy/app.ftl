@@ -885,7 +885,6 @@ onboarding-premium-title-detail = Gyda { -brand-name-firefox-relay-premium } gal
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Cam { $step } o { $max }.
-multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'n taro'ch blwch derbyn, un e-bost ar y tro.
 multi-part-onboarding-premium-welcome-title = Rheolwch pa e-byst rydych yn eu derbyn:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Crëwch e-byst arallenwau diderfyn:
@@ -910,8 +909,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Mae'r estyniad 
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Mae'r estyniad { -brand-name-firefox-relay } ar gyfer { -brand-name-chrome } yn gwneud creu a defnyddio arallenwau e-byst hyd yn oed yn haws.
 multi-part-onboarding-premium-chrome-extension-button-download = Cael Estyniad { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Parhau, byddaf yn llwytho'r estyniad i lawr yn nes ymlaen
-multi-part-onboarding-premium-extension-added = Wedi ychwanegu estyniad { -brand-name-relay }!
-multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
 
 ## Report of trackers removed from an email
 
@@ -987,9 +984,6 @@ modal-domain-register-available = Mae { $subdomain } ar gael!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain>Mae<domain>. { $domain }</domain> ar gael!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ydw, rydw i eisiau cofrestru <subdomain>{ $subdomain }</subdomain>
@@ -1123,3 +1117,35 @@ api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn c
 api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.
 api-error-need-subdomain = Dewiswch is-barth cyn creu cyfeiriad e-bost cyfaddas.
 api-error-account-is-paused = Mae eich cyfrif wedi'i oedi.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Gadewch i ni eich gosod er mwyn i chi gael y gorau o'ch cyfrif { -brand-name-premium }.
+multi-part-onboarding-premium-welcome-feature-headline = Gyda { -brand-name-firefox-relay-premium }, cewch:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = E-byst arallenwau e-bost diderfyn
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Gwella'ch preifatrwydd a'ch diogelwch gydag arallenw unigryw ar gyfer pob gwefan
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creu masgiau wrth fynd, ar unwaith
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Cael parth e-bost { -brand-name-relay } unigryw ar gyfer creu masgiau ar unwaith, hawdd eu cofio
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Rheolaethau blwch derbyn cyfaddasedig
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Rheolwch y math o e-byst sy'n cael eu hanfon ymlaen i'ch blwch derbyn
+
+## Step 2 Set Custom Domain
+
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Wedi ychwanegu estyniad { -brand-name-relay }!
+multi-part-onboarding-premium-extension-button-dashboard = Mynd i'r Bwrdd Gwaith
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ydw, rwy eisiau cofrestru @{ $subdomain }
+
+## Update reply description onboarding step
+
