@@ -1126,12 +1126,20 @@ api-error-account-is-paused = Ditt konto är pausat.
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-feature-headline = Med { -brand-name-firefox-relay-premium } får du:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Obegränsade e-postalias
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Förbättra din integritet och säkerhet med ett unikt alias för varje webbplats
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Skapa omedelbart alias när du är på språng
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Skaffa en unik { -brand-name-relay } e-postdomän för att omedelbart skapa ett alias som är lätt att komma ihåg
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Anpassade inkorgskontroller
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kontrollera vilken typ av e-postmeddelanden som vidarebefordras till din inkorg
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyma svar
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Svara på vidarebefordrade e-postmeddelanden utan att dela din riktiga e-postadress
+multi-part-onboarding-premium-welcome-feature-cta = Konfigurera { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = Ställ in din unika { -brand-name-relay } e-postdomän
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sök efter ett ord eller en fras
 multi-part-onboarding-premium-email-domain-feature-input-search = Sök
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
