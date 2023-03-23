@@ -1126,9 +1126,12 @@ multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στ�
 multi-part-onboarding-premium-welcome-feature-headline = Με το { -brand-name-firefox-relay-premium }, έχετε:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Απεριόριστες μάσκες email
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Ανώνυμες απαντήσεις
+multi-part-onboarding-premium-welcome-feature-cta = Ρύθμιση του { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-feature-headline = Με έναν μοναδικό τομέα email από το { -brand-name-relay }, μπορείτε να:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Δημιουργείτε άμεσα μάσκες εν κινήσει
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
