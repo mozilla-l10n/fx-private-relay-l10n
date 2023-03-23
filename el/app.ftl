@@ -1125,6 +1125,7 @@ api-error-account-is-paused = Ο λογαριασμός σας έχει τεθε
 multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-feature-headline = Με το { -brand-name-firefox-relay-premium }, έχετε:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Απεριόριστες μάσκες email
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Άμεση δημιουργία μασκών εν κινήσει
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Ανώνυμες απαντήσεις
 multi-part-onboarding-premium-welcome-feature-cta = Ρύθμιση του { -brand-name-relay-premium }
 
@@ -1198,3 +1199,4 @@ tooltip-email-domain-explanation-part-three = Είστε σε κάποιο εσ�
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
