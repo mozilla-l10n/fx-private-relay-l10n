@@ -1206,6 +1206,7 @@ modal-email-domain-success-headline-any-word = Crëwch arallenwau diddiwedd trwy
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Siopa? Defnyddiwch siop { $custom_domain_full }.
 modal-email-domain-success-continue = Parhau
+tooltip-email-domain-explanation-part-one = Mae'r nodwedd werthfawr hon o'ch cyfrif { -brand-name-relay-premium } yn gadael i chi ddewis parth e-bost { -brand-name-relay } unigryw y gallwch ei ddefnyddio i greu arallenwau { -brand-name-relay } anghyfyngedig ac unigryw ar yr ewch.
 
 ## Update reply description onboarding step
 
