@@ -1118,7 +1118,7 @@ multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-re
 multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-firefox-relay-premium }, vous obtenez :
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Créez instantanément des alias lors de vos déplacements
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Créer instantanément des alias lors de vos déplacements
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Contrôles personnalisés de la boîte de réception
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Contrôlez quels types d’e-mails sont transférés dans votre boîte de réception
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Réponses anonymes
@@ -1129,6 +1129,7 @@ multi-part-onboarding-premium-welcome-feature-cta = Configurer { -brand-name-rel
 
 multi-part-onboarding-premium-email-domain-headline = Définissez votre domaine de messagerie { -brand-name-relay } unique
 multi-part-onboarding-premium-email-domain-feature-headline = Avec un domaine de messagerie { -brand-name-relay } unique, vous pouvez :
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Créer instantanément des alias lors de vos déplacements
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Rechercher un mot ou une expression
 multi-part-onboarding-premium-email-domain-feature-input-search = Rechercher
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -1181,7 +1182,14 @@ modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> est dés
 modal-email-domain-success-headline-on-the-go = Utilisez ce domaine pour générer de nouveaux alias { -brand-name-relay } en déplacement
 modal-email-domain-success-body-on-the-go = Pas besoin de se connecter à { -brand-name-relay } pour créer un nouvel alias.
 modal-email-domain-success-headline-any-word = Créez un nombre illimité d’alias en ajoutant n’importe quel mot ou expression
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Vous faites des achats ? Utilisez magasin{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuer
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Vous êtes au restaurant ? Utilisez restaurant@votredomaine.{ $mozmail }. <p>Vous faites des achats ? Essayez magasin@votredomaine.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
