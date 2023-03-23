@@ -1123,9 +1123,9 @@ api-error-account-is-paused = Mae eich cyfrif wedi'i oedi.
 multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Gadewch i ni eich gosod er mwyn i chi gael y gorau o'ch cyfrif { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Gyda { -brand-name-firefox-relay-premium }, cewch:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = E-byst arallenwau e-bost diderfyn
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = E-byst arallenwau e-bost diddiwedd
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Gwella'ch preifatrwydd a'ch diogelwch gydag arallenw unigryw ar gyfer pob gwefan
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creu masgiau wrth fynd, ar unwaith
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creu masgiau ar unwaith, lle bynag rydych chi
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Cael parth e-bost { -brand-name-relay } unigryw ar gyfer creu masgiau ar unwaith, hawdd eu cofio
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Rheolaethau blwch derbyn cyfaddasedig
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Rheolwch y math o e-byst sy'n cael eu hanfon ymlaen i'ch blwch derbyn
@@ -1141,7 +1141,7 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Cre
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-multi-part-onboarding-premium-email-domain-feature-body = Dewis y parth e-bost { -brand-name-relay } sydd orau gennych, yna crëu arallenwau newydd ar unwaith drwy ychwanegu unrhyw air neu ymadrodd cyn y symbol @. <p>Siopa? Defnyddiwch siop@eichparth.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-body = Dewiswch y parth e-bost { -brand-name-relay } sydd orau gennych, yna crëu arallenwau newydd ar unwaith drwy ychwanegu unrhyw air neu ymadrodd cyn y symbol @. <p>Siopa? Defnyddiwch siop@eichparth.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Chwiliwch air neu ymadrodd
 multi-part-onboarding-premium-email-domain-feature-input-search = Chwilio
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
