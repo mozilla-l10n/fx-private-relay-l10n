@@ -168,7 +168,7 @@ how-it-works-step-2-headline-2 = 建立新轉寄信箱
 how-it-works-step-2-copy = 當您上網時，{ -brand-name-relay } 圖示會出現在網站請您填寫電子郵件地址的欄位。選擇該圖示即可產生一組以 @relay.firefox.com 結尾的全新隨機信箱。{ -brand-name-relay } 將轉寄郵件到您帳號所綁定的主要電子郵件地址。
 how-it-works-step-3-headline-2 = 管理您的轉寄信箱
 hero-image-copy-trust = 拿自己的私人信箱來註冊網站帳號，安心嗎？
-hero-image-copy-unique-html = 在各個不同帳號<strong>使用獨一無二的轉寄信箱</strong>…
+hero-image-copy-unique-html = 在各個不同帳號<strong>使用專屬轉寄信箱</strong>…
 hero-image-copy-control-html = 現在起，<em>您可以自行控制</em>有哪些郵件可以直達您的收件匣！
 
 # Home Page Version A
@@ -567,6 +567,8 @@ profile-label-delete = 刪除
 profile-label-upgrade-2 = 取得無限量轉寄信箱
 profile-label-create-subdomain = 取得您的郵件子網域
 profile-label-subdomain = 信箱子網域：
+profile-label-custom-domain = 您的 { -brand-name-relay } 郵件網域：
+profile-label-set-your-custom-domain = 設定您的 { -brand-name-relay } 專屬郵件網域
 profile-label-subdomain-tooltip-trigger = 更多資訊
 profile-label-subdomain-tooltip = 建立專屬您的子網域信箱。
 profile-label-reset = 重設
@@ -789,7 +791,7 @@ tips-toast-button-expand-label = 了解更多
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = 建立新自訂轉寄信箱
-modal-custom-alias-picker-warning-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
+modal-custom-alias-picker-warning-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 modal-custom-alias-picker-form-heading-2 = 或者手動建立自訂轉寄信箱
 modal-custom-alias-picker-form-prefix-label-2 = 輸入轉寄信箱前綴
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
@@ -804,7 +806,7 @@ modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉�
 ## Popover explaining how custom masks work
 
 popover-custom-alias-explainer-heading-2 = 如何建立自訂轉寄信箱
-popover-custom-alias-explainer-explanation-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customdomain.mozmail.com」就會自動產生。
+popover-custom-alias-explainer-explanation-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customdomain.mozmail.com」就會自動產生。
 popover-custom-alias-explainer-generate-button-heading-2 = 手動建立自訂轉寄信箱
 popover-custom-alias-explainer-generate-button-label-2 = 建立自訂轉寄信箱
 popover-custom-alias-explainer-close-button-label = 關閉
@@ -816,7 +818,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = 更多資訊
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = 使用您的自訂子網域來建立轉寄信箱
-tips-custom-alias-content-2 = 您只要想一組獨特而使用您自訂子網域名稱的轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
+tips-custom-alias-content-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 
 ## Tip about using custom masks
 
@@ -1074,7 +1076,7 @@ toast-button-close-label = 關閉通知
 
 # Variables:
 #   $free_tier_limit (number) - Maxmimum email masks created for free account
-api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立獨立的轉寄信箱是最安全的作法。
+api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立專屬轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
@@ -1088,7 +1090,7 @@ multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-rela
 multi-part-onboarding-premium-welcome-subheadline-2 = 讓我們一起來了解如何完整使用您的 { -brand-name-premium } 帳號。
 multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信相，加強您的隱私權與安全性
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信箱，加強您的隱私權與安全性
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 獲得獨特的 { -brand-name-relay } 電子郵件網域，讓您可即時產生易記好用的轉寄信箱
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
@@ -1152,6 +1154,7 @@ modal-email-domain-good-news = 好消息！
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> 可以使用
+modal-email-domain-available-body = 您只能註冊一組 { -brand-name-relay } 專屬郵件網域，<p>之後無法再更改。</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 好，我要註冊 @{ $subdomain }
@@ -1167,6 +1170,7 @@ modal-email-domain-success-headline-any-word = 隨意使用不同詞彙，就可
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = 線上購物嗎？可用 store{ $custom_domain_full }。
 modal-email-domain-success-continue = 繼續
+tooltip-email-domain-explanation-title = 關於您的獨特 { -brand-name-relay } 郵件網域
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
