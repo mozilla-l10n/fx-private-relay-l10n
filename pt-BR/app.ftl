@@ -1141,6 +1141,10 @@ multi-part-onboarding-premium-welcome-feature-cta = Configurar o { -brand-name-r
 multi-part-onboarding-premium-email-domain-headline = Defina seu domínio exclusivo de emails do { -brand-name-relay }
 multi-part-onboarding-premium-email-domain-feature-headline = Com um domínio exclusivo de emails do { -brand-name-relay }, você pode:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Criar máscaras imediatamente em qualquer lugar
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Selecione seu domínio preferido de emails do { -brand-name-relay } e crie imediatamente novas máscaras, adicionando qualquer palavra ou frase antes do símbolo @. <p>Fazendo compras? Use nomedaloja@seudominio.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Pesquise uma palavra ou frase
 multi-part-onboarding-premium-email-domain-feature-input-search = Pesquisar
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
