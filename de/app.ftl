@@ -595,6 +595,8 @@ profile-label-delete = Löschen
 profile-label-upgrade-2 = Unbegrenzt viele E-Mail-Masken erhalten
 profile-label-create-subdomain = Holen Sie sich Ihre E-Mail-Subdomain
 profile-label-subdomain = E-Mail-Subdomain:
+profile-label-custom-domain = Ihre { -brand-name-relay }-E-Mail-Domain:
+profile-label-set-your-custom-domain = Legen Sie Ihre eindeutige { -brand-name-relay }-E-Mail-Domain fest
 profile-label-subdomain-tooltip-trigger = Weitere Informationen
 profile-label-subdomain-tooltip = Erstellen Sie Ihre einzigartige E-Mail-Subdomain.
 profile-label-reset = Zurücksetzen
@@ -1213,6 +1215,7 @@ modal-email-domain-success-headline-any-word = Erstellen Sie unbegrenzte Masken,
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Einkaufen? Verwenden Sie store{ $custom_domain_full }.
 modal-email-domain-success-continue = Weiter
+tooltip-email-domain-explanation-title = Über Ihre eindeutige { -brand-name-relay }-E-Mail-Domain
 tooltip-email-domain-explanation-part-one = Mit dieser wertvollen Funktion Ihres { -brand-name-relay-premium }-Kontos können Sie eine eindeutige { -brand-name-relay }-E-Mail-Domain auswählen, die Sie verwenden können, um unterwegs unbegrenzt benutzerdefinierte { -brand-name-relay }-Masken zu erstellen.
 tooltip-email-domain-explanation-part-two = Es ist nicht erforderlich, sich bei { -brand-name-relay } anzumelden, um eine neue Maske zu erzeugen. Fügen Sie einfach ein beliebiges Wort oder einen Satz vor dem @-Symbol Ihrer { -brand-name-relay }-E-Mail-Domain hinzu, um sofort eine neue Maske zu erstellen, wo immer Sie sind.
 # Variables:
