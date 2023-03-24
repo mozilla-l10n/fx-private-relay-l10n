@@ -160,8 +160,8 @@ highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantan
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body =
-    O { -brand-name-relay-premium } oferece um domínio de email exclusivo do { -brand-name-relay } para que você possa criar novas máscaras instantaneamente, onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Em um restaurante? Use restaurante@seudominio.{ $mozmail }.
-    Fazendo compras? Experimente compras@seudominio.{ $mozmail }.
+    O { -brand-name-relay-premium } oferece um domínio de email exclusivo do { -brand-name-relay } para que você possa criar novas máscaras instantaneamente, onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Em um restaurante? Use nomedorestaurante@seudominio.{ $mozmail }.
+    Fazendo compras? Experimente nomedaloja@seudominio.{ $mozmail }.
 
 # Item 3
 

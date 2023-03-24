@@ -822,7 +822,7 @@ modal-custom-alias-picker-form-heading-2 = Ou crie uma máscara personalizada ma
 modal-custom-alias-picker-form-prefix-label-2 = Digite o prefixo da máscara de email
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "lojas"
+modal-custom-alias-picker-form-prefix-placeholder = por exemplo, "nomedaloja"
 modal-custom-alias-picker-form-prefix-spaces-warning = Não são permitidos espaços em máscaras de email.
 modal-custom-alias-picker-form-prefix-invalid-warning = Máscaras de email só podem conter letras minúsculas, números e traços e não podem começar nem terminar com um traço.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Máscaras de email só podem conter letras minúsculas, números, pontos e traços e não podem começar nem terminar com um ponto ou traço.
@@ -1158,11 +1158,13 @@ multi-part-onboarding-premium-email-domain-added = Seu domínio de emails:
 multi-part-onboarding-premium-add-extension-headline = Adicione a extensão do { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Com a extensão do { -brand-name-relay }, você pode:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Criar novas máscaras do { -brand-name-relay } em qualquer site
+multi-part-onboarding-premium-add-extension-feature-body = A extensão do { -brand-name-relay } permite criar imediatamente novas máscaras sempre que um site solicitar seu endereço de email, basta usar o ícone do { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Adicionar a extensão do { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Extensão { -brand-name-relay } adicionada!
+multi-part-onboarding-premium-added-extension-body = Você não precisará mais entrar no { -brand-name-relay } para gerar uma nova máscara, basta usar o ícone do Relay quando um site solicitar seu endereço de email.
 multi-part-onboarding-premium-extension-button-dashboard = Ir para o painel
 multi-part-onboarding-skip = Pular, vou configurar isso mais tarde
 multi-part-onboarding-skip-download-extension = Pular, vou baixar a extensão mais tarde
@@ -1175,6 +1177,10 @@ banner-set-email-domain-headline = Defina seu domínio exclusivo de emails do { 
 banner-set-email-domain-step-one-headline = Selecione seu domínio preferido de emails do { -brand-name-relay }
 banner-set-email-domain-step-one-body = Faz parte do seu email, após o símbolo @.
 banner-set-email-domain-step-two-headline = Use para criar imediatamente máscaras personalizadas do { -brand-name-relay }
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Basta adicionar uma palavra ou frase antes do símbolo @. Fazendo compras? Use nomedaloja@seudominio.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Pesquisar um domínio de email
 banner-set-email-domain-input-placeholder = Pesquise uma palavra ou frase
 banner-set-email-domain-input-search = Pesquisar
@@ -1203,6 +1209,14 @@ modal-email-domain-success-headline-any-word = Crie máscaras ilimitadas adicion
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Fazendo compras? Use nomedaloja{ $custom_domain_full }.
 modal-email-domain-success-continue = Avançar
+tooltip-email-domain-explanation-title = Informações sobre seu domínio exclusivo de emails do { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Este valioso recurso de sua conta { -brand-name-relay-premium } permite escolher um domínio exclusivo de emails do { -brand-name-relay }, para criar ilimitadas máscaras personalizadas do { -brand-name-relay } nos próprios sites onde for usar.
+tooltip-email-domain-explanation-part-two = Não precisa entrar no { -brand-name-relay } para gerar uma nova máscara. Basta adicionar qualquer palavra ou frase antes do símbolo @ do seu domínio de emails do { -brand-name-relay } para criar imediatamente uma nova máscara em qualquer lugar que esteja.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Em um restaurante? Use nomedorestaurante@seudominio.{ $mozmail }. <p>Fazendo compras? Experimente nomedaloja@seudominio.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Responder a mensagens sem revelar seu endereço de email real
