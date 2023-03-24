@@ -589,6 +589,8 @@ profile-label-delete = Deler
 profile-label-upgrade-2 = Obtener mascas e-mail illimitate
 profile-label-create-subdomain = Obtene tu subdominio e-mail
 profile-label-subdomain = Subdominio email:
+profile-label-custom-domain = Tu domino email { -brand-name-relay }
+profile-label-set-your-custom-domain = Configura tu domino email { -brand-name-relay } unic
 profile-label-subdomain-tooltip-trigger = Plus de informationes
 profile-label-subdomain-tooltip = Crea tu unic subdominio email.
 profile-label-reset = Reinitialisar
@@ -1207,6 +1209,7 @@ modal-email-domain-success-headline-any-word = Crea mascas illimitate addente ul
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Compras? Usa boteca{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuar
+tooltip-email-domain-explanation-title = Re tu domino email { -brand-name-relay } unic
 tooltip-email-domain-explanation-part-one = Iste preciose functionalitate de tu conto { -brand-name-relay-premium } te permitte de eliger un exclusive domino email { -brand-name-relay } que tu pote usar pro crear illimitate, mascas { -brand-name-relay } personalisate, al volo.
 tooltip-email-domain-explanation-part-two = Il ha nulle besonio de acceder a { -brand-name-relay } pro generar un nove masca; Simplemente adde ulle parola o expression ante le symbolo @ de tu dominio email { -brand-name-relay } pro crear instantaneemente un nove masca ubique tu es.
 # Variables:
