@@ -1217,6 +1217,7 @@ modal-email-domain-success-headline-any-word = Maak onbeperkt maskers aan door e
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Winkelen? Gebruik winkel{ $custom_domain_full }.
 modal-email-domain-success-continue = Doorgaan
+tooltip-email-domain-explanation-title = Over uw unieke { -brand-name-relay }-e-maildomein
 tooltip-email-domain-explanation-part-one = Met deze waardevolle functie van uw { -brand-name-relay-premium }-account kunt u een uniek { -brand-name-relay }-e-maildomein kiezen dat u kunt gebruiken om onderweg onbeperkte, aangepaste { -brand-name-relay }-maskers te maken.
 tooltip-email-domain-explanation-part-two = U hoeft zich niet aan te melden bij { -brand-name-relay } om een nieuw masker aan te maken; voeg gewoon een woord of woordgroep toe vóór het @-symbool van uw { -brand-name-relay }-e-maildomein om direct een nieuw masker te maken, waar u ook bent.
 # Variables:
