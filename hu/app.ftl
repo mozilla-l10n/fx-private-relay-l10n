@@ -593,6 +593,8 @@ profile-label-delete = Törlés
 profile-label-upgrade-2 = Korlátlan számú e-mail-maszk szerzése
 profile-label-create-subdomain = Szerezzen saját e-mail aldomaint
 profile-label-subdomain = E-mail aldomain:
+profile-label-custom-domain = A saját { -brand-name-relay } e-mail-domainje:
+profile-label-set-your-custom-domain = Állítsa be egyedi { -brand-name-relay } e-mail-domainjét
 profile-label-subdomain-tooltip-trigger = További információk
 profile-label-subdomain-tooltip = Hozza létre egyedi e-mail aldomainjét.
 profile-label-reset = Visszaállítás
@@ -1211,6 +1213,7 @@ modal-email-domain-success-headline-any-word = Hozzon létre korlátlan számú 
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Bevásárlás? Használja a bolt{ $custom_domain_full } címet.
 modal-email-domain-success-continue = Folytatás
+tooltip-email-domain-explanation-title = Az Ön egyedi { -brand-name-relay } e-mail domainjének névjegye
 tooltip-email-domain-explanation-part-one = A { -brand-name-relay-premium } fiókjának ezen értékes funkciója lehetővé teszi, hogy egyedi { -brand-name-relay } e-mail-domaint válasszon, amellyel korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre útközben.
 tooltip-email-domain-explanation-part-two = Új maszk létrehozásához nem szükséges bejelentkezni a { -brand-name-relay }be; Egyszerűen adjon hozzá bármilyen szót vagy kifejezést { -brand-name-relay } e-mail-domainjének @ szimbóluma elé, hogy azonnal létrehozzon egy új maszkot, bárhol is legyen.
 # Variables:
