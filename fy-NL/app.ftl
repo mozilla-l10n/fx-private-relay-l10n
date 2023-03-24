@@ -599,6 +599,8 @@ profile-label-delete = Fuortsmite
 profile-label-upgrade-2 = Unbeheinde e-mailmaskers krije
 profile-label-create-subdomain = Jo e-mailsubdomein krije
 profile-label-subdomain = E-mailsubdomein:
+profile-label-custom-domain = Jo { -brand-name-relay }-e-maildomein:
+profile-label-set-your-custom-domain = Stel jo unike { -brand-name-relay }-e-maildomein yn
 profile-label-subdomain-tooltip-trigger = Mear ynfo
 profile-label-subdomain-tooltip = Meitsje jo unike e-mailsubdomein oan.
 profile-label-reset = Opnij inisjalisearje
@@ -1217,6 +1219,7 @@ modal-email-domain-success-headline-any-word = Meitsje ûnbeheind maskers oan tr
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Winkelje? Brûk winkel{ $custom_domain_full }.
 modal-email-domain-success-continue = Trochgean
+tooltip-email-domain-explanation-title = Oer jo unike { -brand-name-relay }-e-maildomein
 tooltip-email-domain-explanation-part-one = Mei dizze weardefolle funksje fan jo { -brand-name-relay-premium }-account kinne jo in unyk { -brand-name-relay }-e-maildomein kieze dat jo brûke kinne om ûnderweis ûnbeheinde, oanpaste { -brand-name-relay }-maskers oan te meitsjen.
 tooltip-email-domain-explanation-part-two = Jo hoege jo net oan te melden by { -brand-name-relay } om in nij masker oan te meitsjen; foegje gewoan in wurd of wurdgroep ta foar it @-symboal fan jo { -brand-name-relay }-e-maildomein om daliks in nij masker te meitsjen, wêr’t jo ek binne.
 # Variables:
