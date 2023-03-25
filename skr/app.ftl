@@ -592,6 +592,8 @@ profile-label-delete = مٹاؤ
 profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
 profile-label-create-subdomain = آپݨی ای میل سب ڈومین گھنو
 profile-label-subdomain = ای میل سب ڈومین:
+profile-label-custom-domain = تہاݙی { -brand-name-relay } ای میل ڈومین:
+profile-label-set-your-custom-domain = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
 profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
 profile-label-subdomain-tooltip = آپݨی نویکلی ای میل سب ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
@@ -1168,6 +1170,7 @@ modal-email-domain-good-news = خوشخبری!
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 modal-email-domain-cancel = منسوخ
 modal-email-domain-register = رجسٹر کرو
+modal-email-domain-success-continue = جاری
 
 ## Update reply description onboarding step
 
