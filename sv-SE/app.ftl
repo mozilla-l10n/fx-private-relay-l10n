@@ -593,6 +593,8 @@ profile-label-delete = Ta bort
 profile-label-upgrade-2 = Få obegränsade e-postalias
 profile-label-create-subdomain = Skaffa din e-postunderdomän
 profile-label-subdomain = E-postunderdomän:
+profile-label-custom-domain = Din { -brand-name-relay } e-postdomän:
+profile-label-set-your-custom-domain = Ställ in din unika { -brand-name-relay } e-postdomän
 profile-label-subdomain-tooltip-trigger = Mer information
 profile-label-subdomain-tooltip = Skapa din unika underdomän för e-post.
 profile-label-reset = Återställ
@@ -1126,6 +1128,7 @@ api-error-account-is-paused = Ditt konto är pausat.
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Låt oss hjälpa dig att få ut det mesta av ditt { -brand-name-premium }-konto.
 multi-part-onboarding-premium-welcome-feature-headline = Med { -brand-name-firefox-relay-premium } får du:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Obegränsade e-postalias
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Förbättra din integritet och säkerhet med ett unikt alias för varje webbplats
@@ -1210,6 +1213,14 @@ modal-email-domain-success-headline-any-word = Skapa obegränsat med alias genom
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Handla? Använd butik { $custom_domain_full }.
 modal-email-domain-success-continue = Fortsätt
+tooltip-email-domain-explanation-title = Om din unika { -brand-name-relay } e-postdomän
+tooltip-email-domain-explanation-part-one = Denna värdefulla funktion i ditt { -brand-name-relay-premium }-konto låter dig välja en unik { -brand-name-relay } e-postdomän som du kan använda för att skapa obegränsade, anpassade { -brand-name-relay }-alias på språng.
+tooltip-email-domain-explanation-part-two = Det finns ingen anledning att logga in på { -brand-name-relay } för att skapa ett nytt alias; Lägg bara till vilket ord eller en fras som helst före @-symbolen för din { -brand-name-relay } e-postdomän för att direkt skapa ett nytt alias var du än befinner dig.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Vid en restaurang? Använd restaurang@dindomän.{ $mozmail }. <p>Shoppar du? Prova handla@dindomän.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Svara på e-postmeddelanden utan att ge bort din riktiga adress
