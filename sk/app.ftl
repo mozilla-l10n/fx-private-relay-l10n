@@ -596,6 +596,8 @@ profile-label-delete = Odstrániť
 profile-label-upgrade-2 = Získajte neobmedzené množstvo e-mailových masiek
 profile-label-create-subdomain = Získajte svoju e-mailovú subdoménu
 profile-label-subdomain = E-mailová subdoména:
+profile-label-custom-domain = Vaša e-mailová doména služby { -brand-name-relay }:
+profile-label-set-your-custom-domain = Nastavte svoju jedinečnú e-mailovú doménu { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Ďalšie informácie
 profile-label-subdomain-tooltip = Vytvorte si svoju jedinečnú e-mailovú subdoménu.
 profile-label-reset = Obnoviť na predvolenú hodnotu
@@ -880,7 +882,6 @@ onboarding-premium-title-detail = So službou { -brand-name-firefox-relay-premiu
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Krok { $step } z { $max }.
-multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Teraz môžete mať kontrolu nad tým, čo sa dostane do vašej e-mailovej schránky, jeden e-mail po druhom.
 multi-part-onboarding-premium-welcome-title = Majte kontrolu nad tým, aké e-maily budete dostávať:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Vytvárajte neobmedzený počet e-mailových masiek:
@@ -905,8 +906,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Rozšírenie { 
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Rozšírenie { -brand-name-firefox-relay } pre { -brand-name-chrome } ešte viac zjednodušuje vytváranie a používanie e-mailových masiek.
 multi-part-onboarding-premium-chrome-extension-button-download = Získajte rozšírenie { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Pokračovať, rozšírenie si stiahnem neskôr
-multi-part-onboarding-premium-extension-added = Rozšírenie { -brand-name-relay } bolo pridané!
-multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
 
 ## Report of trackers removed from an email
 
@@ -976,9 +975,6 @@ modal-domain-register-available = { $subdomain } je k dispozícii!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je k dispozícii!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Áno, chcem si zaregistrovať doménu <subdomain>{ $subdomain }</subdomain>
@@ -1141,3 +1137,57 @@ api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahŕňa vlas
 api-error-address-unavailable = “{ $unavailable_address }” sa nepodarilo vytvoriť. Skúste to znova s iným názvom masky.
 api-error-need-subdomain = Pred vytvorením vlastnej e-mailovej adresy vyberte subdoménu.
 api-error-account-is-paused = Váš účet je pozastavený.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Poďme službu nastaviť tak, aby ste zo svojho účtu { -brand-name-premium } vyťažili maximum.
+multi-part-onboarding-premium-welcome-feature-headline = So službou { -brand-name-firefox-relay-premium } získavate:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neobmedzený počet e-mailových masiek
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvýšte svoje súkromie a bezpečnosť pomocou jedinečnej masky pre každú stránku
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváranie masiek nech ste kdekoľvek
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Získajte jedinečnú e-mailovú doménu { -brand-name-relay } na okamžité vytvorenie vlastnej ľahko zapamätateľnej masky
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavenia pre schránku doručenej pošty
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e-mailov, ktoré sa preposielajú do vašej doručenej pošty
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymné odpovede
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovedajte na preposlané e-maily bez zdieľania svojej skutočnej e-mailovej adresy
+multi-part-onboarding-premium-welcome-feature-cta = Nastaviť { -brand-name-relay-premium }
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Nastavte svoju jedinečnú e-mailovú doménu { -brand-name-relay }
+multi-part-onboarding-premium-email-domain-feature-headline = S jedinečnou e-mailovou doménou { -brand-name-relay } môžete:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Okamžite vytvárať masky nech ste kdekoľvek
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Vyberte si preferovanú e-mailovú doménu služby { -brand-name-relay } a potom okamžite vytvárajte nové masky pridaním ľubovoľného slova alebo frázy pred symbol @. <p>Nakupujete? Použite obchod@vasadomena.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Vyhľadajte slovo alebo frázu
+multi-part-onboarding-premium-email-domain-feature-input-search = Hľadať
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = vasa_domena
+multi-part-onboarding-premium-email-domain-added = Vaša e-mailová doména:
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Pridajte si rozšírenie { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Pomocou rozšírenia { -brand-name-relay } môžete:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Vytvárať nové masky { -brand-name-relay } z ľubovoľnej webovej stránky
+multi-part-onboarding-premium-add-extension-feature-body = Rozšírenie { -brand-name-relay } vám umožňuje okamžite vytvárať nové masky vždy, keď webové stránky požiadajú o vašu e-mailovú adresu – stačí vyhľadať ikonu { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Pridať rozšírenie { -brand-name-relay }
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Rozšírenie { -brand-name-relay } bolo pridané!
+multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
+
+## Update reply description onboarding step
+
