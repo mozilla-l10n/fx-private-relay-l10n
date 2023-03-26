@@ -246,7 +246,7 @@ landing-pricing-premium-feature-1-2 = Необмежена кількість м
 # Deprecated
 landing-pricing-premium-feature-2 = Розширення для браузера
 # Deprecated
-landing-pricing-premium-feature-3-2 = Ваш власний субдомен електронної пошти
+landing-pricing-premium-feature-3-2 = Ваш власний піддомен електронної пошти
 # Deprecated
 # Only localize 'youremail' and 'yourdomain'. Do not change 'mozmail.com'
 landing-pricing-premium-feature-3-subheader = youremail@yourdomain.mozmail.com
@@ -288,7 +288,7 @@ plan-matrix-heading-feature-email-masks = Маски електронної по
 plan-matrix-heading-feature-browser-extension = Розширення для браузера
 plan-matrix-heading-feature-email-tracker-removal = Вилучайте елементи стеження електронної пошти
 plan-matrix-heading-feature-promo-email-blocking = Блокуйте промоційні листи
-plan-matrix-heading-feature-email-subdomain = Субдомен електронної пошти
+plan-matrix-heading-feature-email-subdomain = Піддомен електронної пошти
 plan-matrix-heading-feature-email-reply = Відповідайте на переслані електронні листи
 plan-matrix-heading-feature-phone-mask = Маска номера телефону
 plan-matrix-heading-feature-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -298,7 +298,7 @@ plan-matrix-feature-list-email-masks = { $mask_limit } масок електро
 plan-matrix-feature-list-browser-extension = Розширення для браузера
 plan-matrix-feature-list-email-tracker-removal = Вилучайте елементи стеження електронної пошти
 plan-matrix-feature-list-promo-email-blocking = Блокуйте промоційні листи
-plan-matrix-feature-list-email-subdomain = Субдомен електронної пошти
+plan-matrix-feature-list-email-subdomain = Піддомен електронної пошти
 plan-matrix-feature-list-email-reply = Відповідайте на переслані електронні листи
 plan-matrix-feature-list-phone-mask = Маска номера телефону
 plan-matrix-feature-list-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -331,7 +331,7 @@ landing-use-cases-offline-body-2 =
 landing-use-cases-access-content = Доступ до вмісту
 landing-use-cases-access-content-body-2 =
     Хочете підписатися на цю розсилку, але не довіряєте відправнику?
-    Використовуйте маску замість своєї справжньої адреси електронної пошти — якщо ви починаєте отримувати небажані електронні листи через цю маску, відправник, можливо, продав вашу псевдоадресу іншим маркетологам, або він навіть міг зазнати витоку даних.
+    Використовуйте маску замість своєї справжньої адреси електронної пошти – якщо ви починаєте отримувати небажані електронні листи через цю маску, відправник, можливо, продав вашу псевдоадресу іншим маркетологам, або він навіть міг зазнати витоку даних.
     Просто вимкніть або видаліть маску, щоб захистити свою електронну поштову скриньку.
 landing-use-cases-gaming = Ігри
 landing-use-cases-gaming-body-2 =
