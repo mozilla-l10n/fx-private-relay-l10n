@@ -880,7 +880,6 @@ onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы 
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Шаг { $step } из { $max }.
-multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Теперь вы можете контролировать каждое письмо, которое попадает в ваш почтовый ящик.
 multi-part-onboarding-premium-welcome-title = Контролируйте, какие электронные письма получаете:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Создавайте неограниченное число псевдонимов электронной почты:
@@ -906,8 +905,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Расшире�
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Расширение { -brand-name-firefox-relay } для { -brand-name-chrome } делает создание и использование псевдонимов электронной почты ещё проще.
 multi-part-onboarding-premium-chrome-extension-button-download = Получить расширение { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Продолжить, я загружу расширение позже
-multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
-multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
 
 ## Report of trackers removed from an email
 
@@ -977,9 +974,6 @@ modal-domain-register-available = { $subdomain } доступен!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступен!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Да, я хочу зарегистрировать @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Да, я хочу зарегистрировать <subdomain>{ $subdomain }</subdomain>
@@ -1135,3 +1129,30 @@ api-error-free-tier-no-subdomain-masks = Ваша бесплатная учёт�
 api-error-address-unavailable = «{ $unavailable_address }» не может быть создан. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
 api-error-need-subdomain = Пожалуйста, выберите поддомен перед созданием собственного адреса электронной почты.
 api-error-account-is-paused = Ваш аккаунт приостановлен.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Давайте настроим всё так, чтобы вы могли максимально эффективно использовать свой аккаунт { -brand-name-premium }.
+multi-part-onboarding-premium-welcome-feature-headline = С { -brand-name-firefox-relay-premium } вы получаете:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Неограниченное число псевдонимов электронной почты
+
+## Step 2 Set Custom Domain
+
+
+## Step 3 Add Relay Extension
+
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
+multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
+
+## Set domain banner
+
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Да, я хочу зарегистрировать @{ $subdomain }
+
+## Update reply description onboarding step
+
