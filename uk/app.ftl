@@ -1187,9 +1187,27 @@ banner-set-email-domain-headline = Налаштуйте унікальний д�
 banner-set-email-domain-step-one-headline = Оберіть бажаний домен електронної пошти { -brand-name-relay }
 banner-set-email-domain-step-one-body = Це частина вашої адреси електронної пошти після символу @.
 banner-set-email-domain-step-two-headline = Використовуйте його для миттєвого створення власних масок { -brand-name-relay }
+banner-set-email-domain-input-placeholder-label = Шукати домен електронної пошти
+banner-set-email-domain-input-placeholder = Шукати слово чи фразу
+banner-set-email-domain-input-search = Пошук
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = вашдомен
+banner-set-email-domain-learn-more = Докладніше
+modal-email-domain-good-news = Гарні новини!
+modal-email-domain-available-body = Ви можете зареєструвати лише один унікальний домен електронної пошти { -brand-name-relay }. <p>Ви не зможете змінити це пізніше.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Так, я хочу зареєструвати @{ $subdomain }
+modal-email-domain-cancel = Скасувати
+modal-email-domain-register = Зареєструватися
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> відтепер ваш домен електронної пошти { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Використовуйте це, щоб миттєво генерувати нові маски { -brand-name-relay }
+modal-email-domain-success-body-on-the-go = Не потрібно входити у { -brand-name-relay }, щоб створити нову маску.
+modal-email-domain-success-headline-any-word = Створюйте необмежену кількість масок, додаючи будь-яке слово чи фразу
 
 ## Update reply description onboarding step
 
