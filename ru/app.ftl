@@ -594,6 +594,8 @@ profile-label-delete = Удалить
 profile-label-upgrade-2 = Получите неограниченное число псевдонимов электронной почты
 profile-label-create-subdomain = Получите собственный поддомен электронной почты
 profile-label-subdomain = Поддомен электронной почты:
+profile-label-custom-domain = Ваш домен электронной почты { -brand-name-relay }:
+profile-label-set-your-custom-domain = Установите свой уникальный домен электронной почты { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Подробнее
 profile-label-subdomain-tooltip = Создайте свой уникальный поддомен электронной почты.
 profile-label-reset = Сбросить
@@ -1136,23 +1138,96 @@ multi-part-onboarding-premium-welcome-headline = Добро пожаловать
 multi-part-onboarding-premium-welcome-subheadline-2 = Давайте настроим всё так, чтобы вы могли максимально эффективно использовать свой аккаунт { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = С { -brand-name-firefox-relay-premium } вы получаете:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Неограниченное число псевдонимов электронной почты
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Повышаете свою приватность и безопасность с помощью уникального псевдонима для каждого сайта.
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Можете мгновенно на ходу создавать псевдонимы
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Получаете уникальный домен электронной почты { -brand-name-relay } для мгновенного создания легко запоминающегося псевдонима.
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Настраиваемое управление входящими письмами
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Управление типами писем, которые пересылаются в ваш почтовый ящик
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонимные ответы
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Возможность отвечать на пересылаемые письма, без раскрытия настоящего адреса электронной почты
+multi-part-onboarding-premium-welcome-feature-cta = Настройте { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = Установите свой уникальный домен электронной почты { -brand-name-relay }
+multi-part-onboarding-premium-email-domain-feature-headline = С уникальным доменом электронной почты { -brand-name-relay } вы можете:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Мгновенно создавать псевдонимы на ходу
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Выберите предпочитаемый домен электронной почты { -brand-name-relay }, а затем мгновенно создавайте новые псевдонимы, добавляя любое слово или фразу перед символом @. <p>Покупки? Используйте магазин@вашдомен.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Поиск слова или фразы
+multi-part-onboarding-premium-email-domain-feature-input-search = Поиск
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = вашдомен
+multi-part-onboarding-premium-email-domain-added = Ваш почтовый домен:
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Добавьте расширение { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = С расширением { -brand-name-relay } вы можете:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Создавать новые псевдонимы { -brand-name-relay } с любого веб-сайта.
+multi-part-onboarding-premium-add-extension-feature-body = Расширение{ -brand-name-relay } позволяет мгновенно создавать новые псевдонимы всякий раз, когда веб-сайты запрашивают ваш адрес электронной почты — просто найдите значок { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Добавьте расширение { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
+multi-part-onboarding-premium-added-extension-body = Вам больше не нужно входить в { -brand-name-relay }, чтобы создать новый псевдоним — просто найдите значок Relay, когда веб-сайты запросят ваш адрес электронной почты.
 multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
+multi-part-onboarding-skip = Пропустить, я настрою это позже
+multi-part-onboarding-skip-download-extension = Пропустить, я скачаю расширение позже
+multi-part-onboarding-continue = Продолжить
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Требуется действие
+banner-set-email-domain-headline = Настройте свой уникальный домен электронной почты { -brand-name-relay }
+banner-set-email-domain-step-one-headline = Выберите предпочитаемый домен электронной почты { -brand-name-relay }
+banner-set-email-domain-step-one-body = Это часть вашего адреса электронной почты после символа @.
+banner-set-email-domain-step-two-headline = Используйте его для мгновенного создания пользовательских псевдонимов { -brand-name-relay }
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Просто добавьте слово или фразу перед символом @. Покупка товаров? Используйте магазин@вашдомен.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Поиск домена электронной почты
+banner-set-email-domain-input-placeholder = Поиск слова или фразы
+banner-set-email-domain-input-search = Поиск
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = вашдомен
+banner-set-email-domain-learn-more = Узнать больше
+modal-email-domain-good-news = Хорошие новости!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> доступен
+modal-email-domain-available-body = Вы можете зарегистрировать только один уникальный почтовый домен { -brand-name-relay }. <p>Вы не сможете изменить его позже.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Да, я хочу зарегистрировать @{ $subdomain }
+modal-email-domain-cancel = Отмена
+modal-email-domain-register = Регистрация
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> теперь является вашим доменом электронной почты { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Используйте его для создания новых псевдонимов { -brand-name-relay } на ходу
+modal-email-domain-success-body-on-the-go = Нет необходимости входить в { -brand-name-relay }, чтобы создать новый псевдоним.
+modal-email-domain-success-headline-any-word = Создавайте неограниченное количество псевдонимов, добавляя любое слово или фразу
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Покупка товаров? Используйте магазин{ $custom_domain_full }.
+modal-email-domain-success-continue = Продолжить
+tooltip-email-domain-explanation-title = О вашем уникальном доменt электронной почты { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Эта ценная функция вашего аккаунта { -brand-name-relay-premium } позволяет вам выбрать уникальный домен электронной почты { -brand-name-relay }, который вы можете использовать для создания неограниченного количества пользовательских псевдонимов { -brand-name-relay } на ходу.
+tooltip-email-domain-explanation-part-two = Нет необходимости входить в { -brand-name-relay }, чтобы создать новый псевдоним; Просто добавьте любое слово или фразу перед символом @ вашего домена электронной почты { -brand-name-relay }, чтобы мгновенно создать новый псевдоним, где бы вы ни находились.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = В ресторане? Используйте ресторан@вашдомен.{ $mozmail }. <p>Покупки? Попробуйте магазин@вашдомен.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Отвечайте на электронные письма, не сообщая свой настоящий адрес
