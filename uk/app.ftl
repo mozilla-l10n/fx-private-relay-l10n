@@ -83,7 +83,7 @@ whatsnew-tab-archive-label = Історія
 whatsnew-footer-clear-all-label = Стерти все
 whatsnew-footer-back-label = Назад
 whatsnew-footer-learn-more-label = Докладніше
-whatsnew-empty-message = Обов’язково перегляньте оновлення — ми завжди працюємо над чудовими новими функціями, щоб зробити { -brand-name-relay } ще кращим.
+whatsnew-empty-message = Обов’язково перегляньте оновлення – ми завжди працюємо над чудовими новими функціями, щоб зробити { -brand-name-relay } ще кращим.
 whatsnew-feature-size-limit-heading = Збільшено розмір вкладень
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -119,7 +119,7 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Оновіть зараз і отримайте ще більше захисту…
-whatsnew-feature-premium-expansion-description = Оновіть зараз і отримайте ще більше захисту — створюйте необмежену кількість масок електронної пошти, отримайте власний субдомен електронної пошти та багато іншого!
+whatsnew-feature-premium-expansion-description = Оновіть зараз і отримайте ще більше захисту – створюйте необмежену кількість масок електронної пошти, отримайте власний піддомен електронної пошти та багато іншого!
 whatsnew-feature-tracker-removal-heading = Представляємо засіб усунення стеження для електронної пошти
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
@@ -146,7 +146,7 @@ whatsnew-feature-firefox-integration-description = Захистити свою �
 ## Bento Menu
 
 bento-button-title = Програми та служби { -brand-name-firefox }
-fx-makes-tech = { -brand-name-firefox } — це технологія, яка захищає вашу приватність у мережі.
+fx-makes-tech = { -brand-name-firefox } – це технологія, яка захищає вашу приватність у мережі.
 made-by-mozilla = Створено у { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } для комп'ютера
 fx-lockwise = { -brand-name-firefox-lockwise }
@@ -594,6 +594,8 @@ profile-label-delete = Видалити
 profile-label-upgrade-2 = Отримати необмежену кількість масок електронної пошти
 profile-label-create-subdomain = Отримати субдомен електронної пошти
 profile-label-subdomain = Субдомен електронної пошти:
+profile-label-custom-domain = Ваш домен електронної пошти { -brand-name-relay }:
+profile-label-set-your-custom-domain = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Докладніше
 profile-label-subdomain-tooltip = Створити свій унікальний субдомен електронної пошти.
 profile-label-reset = Скинути
@@ -880,7 +882,6 @@ onboarding-premium-title-detail = За допомогою { -brand-name-firefox-
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Крок { $step } із { $max }.
-multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Тепер ви можете контролювати, що саме потрапляє у вашу поштову скриньку, по одному листу за раз.
 multi-part-onboarding-premium-welcome-title = Контролюйте, які листи ви отримуєте:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Створюйте необмежену кількість масок адрес електронної пошти
@@ -905,8 +906,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Розшире�
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Розширення { -brand-name-firefox-relay } для { -brand-name-chrome } робить створення та користування масками електронної адреси ще простішим.
 multi-part-onboarding-premium-chrome-extension-button-download = Отримати розширення { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Продовжити, я завантажу розширення пізніше
-multi-part-onboarding-premium-extension-added = Розширення { -brand-name-relay } додано!
-multi-part-onboarding-premium-extension-button-dashboard = Перейти до панелі стану
 
 ## Report of trackers removed from an email
 
@@ -976,9 +975,6 @@ modal-domain-register-available = { $subdomain } доступний!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступний!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Так, я хочу зареєструвати @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Так, я хочу зареєструвати <subdomain>{ $subdomain }</subdomain>
@@ -1134,3 +1130,66 @@ api-error-free-tier-no-subdomain-masks = Ваш безплатний облік�
 api-error-address-unavailable = Неможливо створити “{ $unavailable_address }”. Спробуйте вжити іншу назву маски.
 api-error-need-subdomain = Перш ніж створювати власну адресу електронної пошти, оберіть піддомен.
 api-error-account-is-paused = Ваш обліковий запис призупинено.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Налаштуймо все для найкращої роботи вашого облікового запису { -brand-name-premium }.
+multi-part-onboarding-premium-welcome-feature-headline = З { -brand-name-firefox-relay-premium } ви отримаєте:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Необмежена кількість масок електронної пошти
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Вдоскональте свою приватність і безпеку за допомогою унікальних масок для кожного вебсайту
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Миттєво створюйте маски
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Отримайте унікальний домен електронної пошти { -brand-name-relay }, щоб миттєво створювати маски, які легко запам'ятати
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Керування власною поштовою скринькою
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Керуйте типом електронних листів, які пересилаються на вашу поштову скриньку
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонімні відповіді
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Відповідайте на переслані листи, не розкриваючи свою справжню адресу електронної пошти
+multi-part-onboarding-premium-welcome-feature-cta = Налаштувати { -brand-name-relay-premium }
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
+multi-part-onboarding-premium-email-domain-feature-headline = З унікальним доменом електронної пошти { -brand-name-relay } ви зможете:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Миттєво створюйте маски
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Оберіть бажаний домен електронної пошти { -brand-name-relay }, а потім миттєво створюйте нові маски, додаючи будь-яке слово чи фразу перед символом @. <p>Наприклад, для покупок використовуйте shop@вашдомен.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Шукайте слово чи фразу
+multi-part-onboarding-premium-email-domain-feature-input-search = Пошук
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = вашдомен
+multi-part-onboarding-premium-email-domain-added = Ваш домен електронної пошти:
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Додайте розширення { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = З розширенням { -brand-name-relay } ви зможете:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Створюйте нові маски { -brand-name-relay } з будь-якого вебсайту
+multi-part-onboarding-premium-add-extension-feature-body = Розширення { -brand-name-relay } дає змогу миттєво створювати нові маски, коли вебсайти запитують вашу адресу е-пошти – просто погляньте на піктограму { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Додайте розширення { -brand-name-relay }
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Розширення { -brand-name-relay } додано!
+multi-part-onboarding-premium-added-extension-body = Вам більше не доведеться виконувати вхід у { -brand-name-relay }, щоб згенерувати нову маску – просто погляньте на піктограму Relay, коли вебсайти запитують вашу адресу е-пошти.
+multi-part-onboarding-premium-extension-button-dashboard = Перейти до панелі стану
+multi-part-onboarding-skip = Пропустити, я налаштую згодом
+multi-part-onboarding-skip-download-extension = Пропустити, я завантажу розширення згодом
+multi-part-onboarding-continue = Продовжити
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Потрібна дія
+banner-set-email-domain-headline = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
+banner-set-email-domain-step-one-headline = Оберіть бажаний домен електронної пошти { -brand-name-relay }
+banner-set-email-domain-step-one-body = Це частина вашої адреси електронної пошти після символу @.
+banner-set-email-domain-step-two-headline = Використовуйте його для миттєвого створення власних масок { -brand-name-relay }
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Так, я хочу зареєструвати @{ $subdomain }
+
+## Update reply description onboarding step
+
