@@ -1208,6 +1208,15 @@ modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> відт
 modal-email-domain-success-headline-on-the-go = Використовуйте це, щоб миттєво генерувати нові маски { -brand-name-relay }
 modal-email-domain-success-body-on-the-go = Не потрібно входити у { -brand-name-relay }, щоб створити нову маску.
 modal-email-domain-success-headline-any-word = Створюйте необмежену кількість масок, додаючи будь-яке слово чи фразу
+modal-email-domain-success-continue = Продовжити
+tooltip-email-domain-explanation-title = Про унікальний домен електронної пошти { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Ця корисна функція вашого облікового запису { -brand-name-relay-premium } дає вам змогу вибрати унікальний домен електронної пошти { -brand-name-relay }, який ви можете використовувати для миттєвого створення необмеженої кількості спеціальних масок { -brand-name-relay }.
+tooltip-email-domain-explanation-part-two = Немає потреби входити в { -brand-name-relay }, щоб створити нову маску; Просто додайте будь-яке слово чи фразу перед символом @ вашого домену електронної пошти { -brand-name-relay }, щоб миттєво створити нову маску, де б ви не були.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = У ресторані? Використовуйте ресторан@вашдомен.{ $mozmail }. <p>Шопінг? Спробуйте магазин@вашдомен.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Відповідайте на електронні листи, не повідомляючи своєї справжньої адреси
