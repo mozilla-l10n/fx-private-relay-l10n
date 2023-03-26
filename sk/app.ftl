@@ -1181,13 +1181,59 @@ multi-part-onboarding-premium-add-extension-feature-cta = Pridať rozšírenie {
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Rozšírenie { -brand-name-relay } bolo pridané!
+multi-part-onboarding-premium-added-extension-body = Na vygenerovanie novej masky sa už nebudete musieť prihlasovať do služby { -brand-name-relay } – keď webové stránky požiadajú o vašu e-mailovú adresu, hľadajte ikonu Relay.
 multi-part-onboarding-premium-extension-button-dashboard = Prejsť na nástenku
+multi-part-onboarding-skip = Preskočiť, nastavím to neskôr
+multi-part-onboarding-skip-download-extension = Preskočiť, rozšírenie si stiahnem neskôr
+multi-part-onboarding-continue = Pokračovať
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Vyžaduje sa akcia
+banner-set-email-domain-headline = Nastavte svoju jedinečnú e-mailovú doménu { -brand-name-relay }
+banner-set-email-domain-step-one-headline = Vyberte preferovanú e-mailovú doménu { -brand-name-relay }
+banner-set-email-domain-step-one-body = Je súčasťou vášho e-mailu za symbolom @.
+banner-set-email-domain-step-two-headline = Použite ho na okamžité vytváranie vlastných masiek služby { -brand-name-relay }
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Stačí pridať slovo alebo frázu pred symbol @. Nakupujete? Použite napríklad obchod@vasadomena.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Vyhľadať e-mailovú doménu
+banner-set-email-domain-input-placeholder = Vyhľadajte slovo alebo frázu
+banner-set-email-domain-input-search = Hľadať
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = vasa_domena
+banner-set-email-domain-learn-more = Ďalšie informácie
+modal-email-domain-good-news = Dobré správy!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = Doména <p>{ $custom_domain_full }</p> je k dispozícii
+modal-email-domain-available-body = Môžete si zaregistrovať iba jednu jedinečnú e-mailovú doménu { -brand-name-relay }. <p>Neskôr ju už nebudete môcť zmeniť.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Áno, chcem zaregistrovať doménu @{ $subdomain }
+modal-email-domain-cancel = Zrušiť
+modal-email-domain-register = Registrovať
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> je teraz vašou e-mailovou doménou { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Použite ju na generovanie nových masiek { -brand-name-relay }, nech ste kdekoľvek
+modal-email-domain-success-body-on-the-go = Na vytvorenie novej masky sa nemusíte prihlásiť do { -brand-name-relay }.
+modal-email-domain-success-headline-any-word = Neobmedzené masky vytvoríte pridaním akéhokoľvek slova alebo frázy
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Nakupujete? Použite obchod{ $custom_domain_full }.
+modal-email-domain-success-continue = Pokračovať
+tooltip-email-domain-explanation-title = O vašej jedinečnej e-mailovej doméne { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Táto cenná funkcia vášho účtu { -brand-name-relay-premium } vám umožňuje vybrať si jedinečnú e-mailovú doménu { -brand-name-relay }, ktorú môžete použiť na vytváranie neobmedzených vlastných masiek { -brand-name-relay }, nech ste kdekoľvek.
+tooltip-email-domain-explanation-part-two = Na vygenerovanie novej masky sa nemusíte prihlasovať do služby { -brand-name-relay }. Jednoducho pridajte akékoľvek slovo alebo frázu pred symbol @ vašej e-mailovej domény { -brand-name-relay } a okamžite vytvoríte novú masku, nech ste kdekoľvek.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Ste v reštaurácii? Použite restauracia@vasadomena.{ $mozmail }. <p>Nakupujete? Skúste obchod@vasadomena.{ $mozmail }</p>
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = Odpovedajte na e-maily bez uvedenia svojej skutočnej adresy
