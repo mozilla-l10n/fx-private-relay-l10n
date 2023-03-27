@@ -6,7 +6,7 @@
 ## enough to have its own dedicated file. Include temporary features, subpages containing
 ## only a few strings, etc.
 
-## The Premium waitlist page
+### The Premium waitlist page
 
 waitlist-heading-2 = Join the { -brand-name-relay-premium } waitlist
 waitlist-heading-phone = Join the { -brand-name-relay } phone masking waitlist
@@ -73,7 +73,6 @@ tips-custom-alias-content-2 = All you need to do is make up and share a unique m
 
 tips-promo-email-blocking-heading = Block Promotional Emails
 tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
-
 
 ## Report of trackers removed from an email
 

@@ -3,8 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 ## This page contains strings for all banners.
-
-## Banner Messages (displayed on the profile page)
+# Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dismiss
 
@@ -32,7 +31,7 @@ banner-upgrade-cta = Upgrade to { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action step
 
-## Deprecate old subdomain banner
+# Deprecate old subdomain banner
 
 banner-register-subdomain-headline-aliases-2 = Get a custom subdomain for your masks
 # This string is used in the example subdomain mask. Keep it lowercase and
@@ -58,7 +57,7 @@ footer-banner-premium-promo-headine = Upgrade to <strong>{ -brand-name-firefox-r
 footer-banner-premium-promo-body = Get a phone number mask, unlimited email masks, and custom email addresses for quick mask creation.
 banner-pack-upgrade-cta = Upgrade Now
 
-## Set domain banner
+# Set domain banner
 
 banner-set-email-domain-headline-action-needed = Action needed
 banner-set-email-domain-headline = Set your unique { -brand-name-relay } email domain
@@ -118,7 +117,7 @@ banner-ab-premium-promo-extra-protection-headline = Get extra protection for you
 banner-ab-premium-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
 banner-ab-premium-promo-cta = Upgrade
 
-## VPN Promo Banner
+# VPN Promo Banner
 
 vpn-promo-headline = Save 50% with a full year subscription
 vpn-promo-copy = Protect your online data and choose a VPN subscription plan that works for you.

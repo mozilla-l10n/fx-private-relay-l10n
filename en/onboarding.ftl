@@ -56,7 +56,6 @@ multi-part-onboarding-continue = Continue
 
 multi-part-onboarding-premium-reply-description = Reply to emails without giving away your real address
 
-
 ## TODO: Deprecate old onboarding strings 
 
 ## Onboarding

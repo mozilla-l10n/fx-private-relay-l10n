@@ -2,9 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## This page contains strings in the user's logged in profile.
-
-## Profile Page
+### This page contains strings in the user's logged in profile.
 
 # Variables:
 #   $email (string) - User email address
@@ -152,3 +150,4 @@ error-mask-update-failed = The mask data could not be updated. Please try again.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
 error-mask-delete-failed = The mask { $mask } could not be deleted. Please try again.
+
