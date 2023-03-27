@@ -8,7 +8,7 @@
 
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Let’s set you up to get the most out of your { -brand-name-premium } account.
-multi-part-onboarding-premium-welcome-feature-headline = With { -brand-name-firefox-relay-premium } you get:
+multi-part-onboarding-premium-welcome-feature-headline = With { -brand-name-firefox-relay-premium }, you get:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unlimited email masks
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Enhance your privacy and security with a unique mask for every site
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Instantly create masks on-the-go
@@ -22,15 +22,15 @@ multi-part-onboarding-premium-welcome-feature-cta = Set up { -brand-name-relay-p
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Set your unique { -brand-name-relay } email domain
-multi-part-onboarding-premium-email-domain-feature-headline = With a unique { -brand-name-relay } email domain you can:
+multi-part-onboarding-premium-email-domain-feature-headline = With a unique { -brand-name-relay } email domain, you can:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Instantly create masks on-the-go
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-# "yourdomain" is used as an example custom domain. Keep it lowercase without space, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Select your preferred { -brand-name-relay } email domain, then instantly create new masks by adding any word or phrase before the @ symbol. <p>Shopping? Use shop@yourdomain.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Search a word or phrase
 multi-part-onboarding-premium-email-domain-feature-input-search = Search
-# This string is used in the example subdomain mask. Keep it lowercase and
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 multi-part-onboarding-premium-email-domain-placeholder = yourdomain
@@ -39,7 +39,7 @@ multi-part-onboarding-premium-email-domain-added = Your email domain:
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = Add the { -brand-name-relay } extension
-multi-part-onboarding-premium-add-extension-feature-headline = With the { -brand-name-relay } extension you can: 
+multi-part-onboarding-premium-add-extension-feature-headline = With the { -brand-name-relay } extension, you can: 
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Create new { -brand-name-relay } masks from any website
 multi-part-onboarding-premium-add-extension-feature-body = The { -brand-name-relay } extension lets you instantly create new masks whenever websites ask for your email address — just look for the { -brand-name-relay } icon.
 multi-part-onboarding-premium-add-extension-feature-cta = Add { -brand-name-relay } extension
@@ -53,6 +53,9 @@ multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
 multi-part-onboarding-skip = Skip, I’ll set this up later
 multi-part-onboarding-skip-download-extension = Skip, I’ll download the extension later
 multi-part-onboarding-continue = Continue
+
+multi-part-onboarding-premium-reply-description = Reply to emails without giving away your real address
+
 
 ## TODO: Deprecate old onboarding strings 
 

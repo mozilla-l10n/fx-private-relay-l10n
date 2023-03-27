@@ -63,16 +63,17 @@ banner-pack-upgrade-cta = Upgrade Now
 banner-set-email-domain-headline-action-needed = Action needed
 banner-set-email-domain-headline = Set your unique { -brand-name-relay } email domain
 banner-set-email-domain-step-one-headline = Select your preferred { -brand-name-relay } email domain
-banner-set-email-domain-step-one-body = It's part of your email after the @ symbol.
+banner-set-email-domain-step-one-body = It’s part of your email after the @ symbol.
 banner-set-email-domain-step-two-headline = Use it to instantly create custom { -brand-name-relay } masks
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-# "yourdomain" is used as an example custom domain. Keep it lowercase without space, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 banner-set-email-domain-step-two-body = Just add a word or phrase before the @ symbol. Shopping? Use shop@yourdomain.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Search an email domain
 banner-set-email-domain-input-placeholder = Search a word or phrase
 banner-set-email-domain-input-search = Search
-# This string is used in the example subdomain mask. Keep it lowercase and
-# without spaces, to resemble an actual email address, and make sure it’s
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = yourdomain
 banner-set-email-domain-learn-more = Learn more
