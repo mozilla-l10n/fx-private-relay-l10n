@@ -1187,6 +1187,10 @@ banner-set-email-domain-headline = Налаштуйте унікальний д�
 banner-set-email-domain-step-one-headline = Оберіть бажаний домен електронної пошти { -brand-name-relay }
 banner-set-email-domain-step-one-body = Це частина вашої адреси електронної пошти після символу @.
 banner-set-email-domain-step-two-headline = Використовуйте його для миттєвого створення власних масок { -brand-name-relay }
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Просто додайте слово або фразу перед символом @. Наприклад, для покупок використовуйте shop@вашдомен.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Шукати домен електронної пошти
 banner-set-email-domain-input-placeholder = Шукати слово чи фразу
 banner-set-email-domain-input-search = Пошук
@@ -1196,6 +1200,9 @@ banner-set-email-domain-input-search = Пошук
 banner-set-email-domain-placeholder = вашдомен
 banner-set-email-domain-learn-more = Докладніше
 modal-email-domain-good-news = Гарні новини!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> доступний
 modal-email-domain-available-body = Ви можете зареєструвати лише один унікальний домен електронної пошти { -brand-name-relay }. <p>Ви не зможете змінити це пізніше.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1208,6 +1215,9 @@ modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> відт
 modal-email-domain-success-headline-on-the-go = Використовуйте це, щоб миттєво генерувати нові маски { -brand-name-relay }
 modal-email-domain-success-body-on-the-go = Не потрібно входити у { -brand-name-relay }, щоб створити нову маску.
 modal-email-domain-success-headline-any-word = Створюйте необмежену кількість масок, додаючи будь-яке слово чи фразу
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Наприклад, для покупок використовуйте магазин{ $custom_domain_full }.
 modal-email-domain-success-continue = Продовжити
 tooltip-email-domain-explanation-title = Про унікальний домен електронної пошти { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Ця корисна функція вашого облікового запису { -brand-name-relay-premium } дає вам змогу вибрати унікальний домен електронної пошти { -brand-name-relay }, який ви можете використовувати для миттєвого створення необмеженої кількості спеціальних масок { -brand-name-relay }.
