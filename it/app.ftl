@@ -1119,6 +1119,7 @@ multi-part-onboarding-premium-welcome-subheadline-2 = Comincia la configurazione
 multi-part-onboarding-premium-welcome-feature-headline = Con { -brand-name-firefox-relay-premium } ottieni:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Alias di posta elettronica illimitati
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Migliora la tua privacy e sicurezza con un alias univoco per ogni sito
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creazione di alias al volo
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Ottieni un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo alias facili da ricordare
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlli personalizzati per la posta in arrivo
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controlla che tipo di email vengono inoltrate alla tua casella di posta
@@ -1130,6 +1131,7 @@ multi-part-onboarding-premium-welcome-feature-cta = Configura { -brand-name-rela
 
 multi-part-onboarding-premium-email-domain-headline = Imposta il tuo dominio di posta elettronica { -brand-name-relay } univoco
 multi-part-onboarding-premium-email-domain-feature-headline = Con un dominio di posta elettronica { -brand-name-relay } univoco puoi:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Creare alias al volo
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
@@ -1140,11 +1142,13 @@ multi-part-onboarding-premium-email-domain-feature-input-search = Cerca
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 multi-part-onboarding-premium-email-domain-placeholder = tuodominio
+multi-part-onboarding-premium-email-domain-added = Il tuo dominio di posta elettronica:
 
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = Aggiungi l’estensione { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Con l’estensione { -brand-name-relay } puoi:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Creare nuovi alias { -brand-name-relay } da qualsiasi sito web
 multi-part-onboarding-premium-add-extension-feature-body = L’estensione { -brand-name-relay } ti consente di creare al volo nuovi alias ogni volta che un sito web richiede il tuo indirizzo email: devi solo cercare l’icona { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Aggiungi l’estensione { -brand-name-relay }
 
@@ -1153,14 +1157,21 @@ multi-part-onboarding-premium-add-extension-feature-cta = Aggiungi l’estension
 multi-part-onboarding-premium-extension-added = Estensione { -brand-name-relay } installata.
 multi-part-onboarding-premium-added-extension-body = Non sarà più necessario accedere a { -brand-name-relay } per generare un nuovo alias: cerca l’icona Relay quando un sito web richiede il tuo indirizzo email.
 multi-part-onboarding-premium-extension-button-dashboard = Vai alla dashboard
+multi-part-onboarding-skip = Salta, lo configurerò più tardi.
+multi-part-onboarding-skip-download-extension = Salta, scaricherò l’estensione più tardi.
 multi-part-onboarding-continue = Continua
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Richiede la tua attenzione
 banner-set-email-domain-headline = Imposta il tuo dominio di posta elettronica { -brand-name-relay } univoco
 banner-set-email-domain-step-one-headline = Seleziona il dominio di posta elettronica { -brand-name-relay } che preferisci
 banner-set-email-domain-step-one-body = È la parte della tua email dopo il simbolo @.
 banner-set-email-domain-step-two-headline = Utilizzalo per creare al volo alias { -brand-name-relay } personalizzati
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Aggiungi semplicemente una parola o una frase prima del simbolo @. Stai facendo acquisti? Prova con shop@tuodominio.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Cerca un dominio di posta elettronica
 banner-set-email-domain-input-placeholder = Cerca una parola o una frase
 banner-set-email-domain-input-search = Cerca
@@ -1173,10 +1184,12 @@ modal-email-domain-good-news = Buone notizie!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> è disponibile
+modal-email-domain-available-body = Puoi registrare un solo dominio di posta elettronica { -brand-name-relay } univoco. <p>Non potrai modificare questa impostazione in futuro.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sì, voglio registrare @{ $subdomain }
 modal-email-domain-cancel = Annulla
+modal-email-domain-register = Registra
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> è ora il tuo dominio di posta elettronica { -brand-name-relay }!
