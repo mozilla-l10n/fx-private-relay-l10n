@@ -1117,6 +1117,7 @@ api-error-account-is-paused = Votre compte est en pause.
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Bienvenue dans { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Commencez la configuration pour tirer le meilleur parti de votre compte { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-firefox-relay-premium }, vous obtenez :
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
