@@ -4,8 +4,6 @@
 
 ## Profile Page (Logged In)
 
-## Onboarding
-
 onboarding-headline-2 = Create your first email mask
 onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
 onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
@@ -70,8 +68,6 @@ profile-label-replies = Replies
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Trackers Removed
 profile-trackers-removed-tooltip-part1 = With tracker removal enabled, common email trackers will be removed from your forwarded emails.
-# Deprecated
-profile-trackers-removed-tooltip-part2 = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images.
 profile-trackers-removed-tooltip-part2-2 = <b>Important:</b> Removing trackers may cause your email to look broken because the trackers are often contained within images and links.
 profile-label-cancel = Cancel
 profile-blocked-copy-2 = { -brand-name-firefox-relay } will delete messages before they can reach your inbox when you select blocking for this mask.
@@ -88,8 +84,6 @@ profile-stat-label-aliases-used-2 = Email masks used
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Trackers Removed
 profile-stat-label-trackers-learn-more-part1 = Enabling tracker removal will remove common email trackers from your forwarded emails.
-# Deprecated
-profile-stat-label-trackers-learn-more-part2 = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
 profile-stat-label-trackers-learn-more-part2-2 = Important: Removing trackers may cause your email to look broken because the trackers are often contained within images and links.
 profile-filter-search-placeholder-2 = Search masks
 profile-filter-category-button-label = Filter visible masks
@@ -115,8 +109,6 @@ profile-indicator-tracker-removal-tooltip = Currently removing email trackers
 profile-promo-email-blocking-title = What emails do you want to block?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = All
-# Deprecated
-profile-promo-email-blocking-option-promotionals = Promotionals
 # Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotions = Promotions
 # Allow/forward all emails sent to a speciic mask
