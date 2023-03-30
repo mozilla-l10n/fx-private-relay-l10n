@@ -105,8 +105,6 @@ trackerreport-removal-explainer-content = { -brand-name-firefox-relay } can now 
 trackerreport-trackers-explainer-heading = About email trackers
 trackerreport-trackers-explainer-content-part1 = Email tracking is a common surveillance and advertising tool that has taken over many inboxes. These trackers can be used to understand more about your online behavior, your interests, and your email activity.
 trackerreport-trackers-explainer-content-part2 = A company or organization will embed a tracker in emails sent to you, usually hidden within an image or a link. When the email is opened, code within the tracker sends data back to the company.
-# Deprecated
-trackerreport-breakage-warning = Important: Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images, which will not load if they contain a tracker.
 trackerreport-breakage-warning-2 = Important: Removing trackers may cause your email to look broken because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.
 trackerreport-faq-heading = Top questions about email trackers
 trackerreport-faq-cta = See more FAQs about { -brand-name-firefox-relay }
@@ -214,8 +212,6 @@ forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } bef
 # Variables
 #   $sender (string) - the original sender's email address
 first-reply-forwarded = We’ve sent this reply to { $sender }. But moving forward, your replies will not be sent.
-# Deprecated
-other-reply-not-forwarded = Your reply was NOT sent to { $sender }.
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Your reply was not sent to { $sender }.

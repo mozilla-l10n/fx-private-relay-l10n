@@ -22,8 +22,6 @@ banner-download-install-extension-headline = Get the { -brand-name-relay } exten
 banner-download-install-extension-copy-2 = The { -brand-name-relay } extension for { -brand-name-firefox-browser } makes using email masks even easier.
 banner-download-install-extension-cta = Add { -brand-name-relay } to { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Try { -brand-name-relay } for { -brand-name-google-chrome }
-# Deprecated
-banner-download-install-chrome-extension-copy = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using aliases even easier.
 banner-download-install-chrome-extension-copy-2 = The { -brand-name-firefox-relay } extension for { -brand-name-chrome } makes creating and using masks even easier.
 banner-download-install-chrome-extension-cta = Get the { -brand-name-relay } extension
 banner-upgrade-headline = Upgrade to { -brand-name-relay-premium }
@@ -94,46 +92,6 @@ banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gi
 banner-ab-premium-promo-extra-protection-headline = Get extra protection for your inbox & phone
 banner-ab-premium-promo-extra-protection-body = Get unlimited email masks — plus a phone mask to control who gets your real number.
 banner-ab-premium-promo-cta = Upgrade
-
-modal-rename-alias-saved = Label saved!
-modal-delete-headline-2 = Permanently delete this email mask?
-
-# Variables:
-#   $email (string) - The relay mask (email address) that will be deleted
-modal-delete-warning-recovery-2-html = Once you delete this mask, it cannot be recovered.
-    { -brand-name-firefox-relay } will no longer forward messages sent to <strong>{ $email }</strong>, including messages that allow you to reset lost passwords.
-modal-delete-warning-upgrade-2 = If you use this email mask to log in to sites you care about,
-    you should update your login with a different email address before you delete this one.
-modal-delete-domain-address-warning-upgrade-2 = If you use this mask to log in to sites you care about,
-    you should update your login with a different email address before you delete this one.
-    If you recreate a deleted mask, emails sent to the original mask will continue to be forwarded.
-modal-delete-confirmation-2 = Yes, I want to delete this mask.
-modal-domain-register-good-news = Good News!
-modal-domain-register-warning-reminder-2 = Remember, you can only register one subdomain. You won’t be able to change it later.
-modal-domain-register-button-2 = Register Subdomain
-
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-available = { $subdomain } is available!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is available!
-
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-modal-domain-register-confirmation-checkbox-2 = Yes, I want to register <subdomain>{ $subdomain }</subdomain>
-modal-domain-register-success-title = Success!
-
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use
-#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is now your email subdomain!
-modal-domain-register-success-copy-2 = Now you can create unlimited custom email masks!
 
 ## Set domain banner
 

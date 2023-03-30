@@ -39,6 +39,4 @@ setting-api-key-copied-alt = Click to copy
 setting-tracker-removal-heading = Remove Email Trackers
 setting-tracker-removal-description = Remove email trackers in all forwarded emails.
 setting-tracker-removal-note = { -brand-name-firefox-relay } can now remove common trackers from emails forwarded through your masks.
-# Deprecated
-setting-tracker-removal-warning = Important: Sometimes removing trackers may cause your email to look broken, because the trackers are often contained within images.
 setting-tracker-removal-warning-2 = Important: Removing trackers may cause your email to look broken because trackers are often contained in images and links. Any emails you receive like this cannot be fixed or recovered.

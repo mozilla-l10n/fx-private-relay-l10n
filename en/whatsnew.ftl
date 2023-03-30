@@ -62,8 +62,6 @@ whatsnew-feature-tracker-removal-heading = Introducing email tracker removal
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Now { -brand-name-relay } can remove common email trackers from emails forwarded…
-# Deprecated
-whatsnew-feature-tracker-removal-description = Now { -brand-name-relay } can remove common email trackers from emails forwarded to you, helping you stay invisible to advertisers.
 whatsnew-feature-tracker-removal-description-2 = Now { -brand-name-relay } can remove common email trackers from emails forwarded to you, helping you stay invisible to advertisers. Turn it on in “Settings.”
 
 whatsnew-feature-offer-countdown-heading = Our intro pricing offer ends soon!
