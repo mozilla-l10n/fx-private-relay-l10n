@@ -591,6 +591,8 @@ profile-label-delete = Supprimer
 profile-label-upgrade-2 = Obtenir un nombre illimité d’alias de messagerie
 profile-label-create-subdomain = Obtenez votre sous-domaine de messagerie
 profile-label-subdomain = Sous-domaine de messagerie :
+profile-label-custom-domain = Votre domaine de messagerie { -brand-name-relay } :
+profile-label-set-your-custom-domain = Définissez votre domaine de messagerie { -brand-name-relay } unique
 profile-label-subdomain-tooltip-trigger = Plus d’infos
 profile-label-subdomain-tooltip = Créez votre sous-domaine de messagerie unique.
 profile-label-reset = Réinitialiser
@@ -1119,6 +1121,7 @@ multi-part-onboarding-premium-welcome-feature-headline = Avec { -brand-name-fire
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Créer instantanément des alias lors de vos déplacements
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtenez un domaine de messagerie { -brand-name-relay } unique pour une création d’alias instantanée et facile à retenir
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Contrôles personnalisés de la boîte de réception
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Contrôlez quels types d’e-mails sont transférés dans votre boîte de réception
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Réponses anonymes
@@ -1130,6 +1133,10 @@ multi-part-onboarding-premium-welcome-feature-cta = Configurer { -brand-name-rel
 multi-part-onboarding-premium-email-domain-headline = Définissez votre domaine de messagerie { -brand-name-relay } unique
 multi-part-onboarding-premium-email-domain-feature-headline = Avec un domaine de messagerie { -brand-name-relay } unique, vous pouvez :
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Créer instantanément des alias lors de vos déplacements
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Sélectionnez votre domaine de messagerie { -brand-name-relay } préféré, puis créez instantanément de nouveaux alias en ajoutant n’importe quel mot ou expression avant le symbole @. <p>Vous faites des achats ? Utilisez boutique@votredomaine.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Rechercher un mot ou une expression
 multi-part-onboarding-premium-email-domain-feature-input-search = Rechercher
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
