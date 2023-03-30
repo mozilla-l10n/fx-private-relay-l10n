@@ -1150,11 +1150,13 @@ multi-part-onboarding-premium-email-domain-added = Votre domaine de messagerie 
 multi-part-onboarding-premium-add-extension-headline = Ajouter l’extension { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Avec l’extension { -brand-name-relay }, vous pouvez :
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Créer de nouveaux alias { -brand-name-relay } depuis n’importe quel site web
+multi-part-onboarding-premium-add-extension-feature-body = L’extension { -brand-name-relay } vous permet de créer instantanément de nouveaux alias chaque fois que des sites web vous demandent votre adresse e-mail — recherchez simplement l’icône { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Ajouter l’extension { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } ajoutée !
+multi-part-onboarding-premium-added-extension-body = Vous n’aurez plus besoin de vous connecter à { -brand-name-relay } pour générer un nouvel alias : recherchez simplement l’icône Relay lorsque les sites web vous demandent votre adresse e-mail.
 multi-part-onboarding-premium-extension-button-dashboard = Accéder au tableau de bord
 multi-part-onboarding-skip = Ignorer, je configurerai ceci plus tard
 multi-part-onboarding-skip-download-extension = Ignorer, je téléchargerai l’extension plus tard
@@ -1165,7 +1167,12 @@ multi-part-onboarding-continue = Continuer
 banner-set-email-domain-headline-action-needed = Action nécessaire
 banner-set-email-domain-headline = Définissez votre domaine de messagerie { -brand-name-relay } unique
 banner-set-email-domain-step-one-headline = Sélectionnez votre domaine de messagerie { -brand-name-relay } préféré
+banner-set-email-domain-step-one-body = Il constitue une partie de votre adresse e-mail après le symbole @.
 banner-set-email-domain-step-two-headline = Utilisez-le pour créer instantanément des alias { -brand-name-relay } personnalisés
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Ajoutez simplement un mot ou une expression avant le symbole @. Vous faites des achats ? Utilisez boutique@votredomaine.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Rechercher un domaine de messagerie
 banner-set-email-domain-input-placeholder = Rechercher un mot ou une expression
 banner-set-email-domain-input-search = Rechercher
@@ -1178,6 +1185,7 @@ modal-email-domain-good-news = Bonne nouvelle !
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> est disponible
+modal-email-domain-available-body = Vous ne pouvez enregistrer qu’un seul domaine de messagerie { -brand-name-relay }. <p>Vous ne pourrez pas en changer plus tard.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Oui, je veux enregistrer @{ $subdomain }
@@ -1193,6 +1201,7 @@ modal-email-domain-success-headline-any-word = Créez un nombre illimité d’al
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Vous faites des achats ? Utilisez magasin{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuer
+tooltip-email-domain-explanation-title = À propos de votre domaine de messagerie { -brand-name-relay } unique
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
