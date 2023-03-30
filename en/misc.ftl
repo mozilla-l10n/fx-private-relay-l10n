@@ -150,7 +150,6 @@ offer-countdown-timer-minutes = Min.
 # There's not much room for this (about five characters), hence the abbreviation.
 offer-countdown-timer-seconds = Sec.
 
-
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = On a scale from 1-10, how likely are you to recommend { -brand-name-relay } to a friend or colleague?
