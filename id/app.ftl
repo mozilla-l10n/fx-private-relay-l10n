@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } mempermudah pembuatan topeng surel yang meneruskan pesan ke kotak masuk asli Anda. Gunakan untuk melindungi akun daring Anda dari peretas dan pesan yang tidak diinginkan.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Buka di tab baru)
 
@@ -16,9 +16,10 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Beranda
+nav-email-dashboard = Topeng Email
+nav-phone-dashboard = Topeng Telepon
 label-open-menu = Buka menu
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Tanya Jawab
 nav-profile-sign-in = Masuk
@@ -36,19 +37,24 @@ nav-profile-contact = Hubungi kami
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Hubungi kami tentang { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "uppercase") }
+# Deprecated
+nav-phone = Nomor Telepon
+nav-duo-description = Ganti dasbor
+nav-duo-email-mask-alt = Topeng surel
+nav-duo-phone-mask-alt = Topeng telepon
 
 ## Mobile menu text
 
 menu-upgrade-button = Perbarui
 menu-toggle-open = Buka menu
 menu-toggle-close = Tutup menu
+# Deprecated
 nav-dashboard = Dasbor
 nav-settings = Pengaturan
 nav-support = Bantuan dan Dukungan
 nav-sign-out = Keluar
 nav-contact = Hubungi Kami
 nav-menu-mobile = Menu Seluler
-
 fx-desktop-2 = { -brand-name-firefox } untuk Desktop
 fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 
@@ -58,6 +64,7 @@ nav-footer-privacy = Privasi
 nav-footer-relay-terms = Ketentuan { -brand-name-relay }
 nav-footer-legal = Legal
 nav-footer-release-notes = Catatan Rilis
+nav-footer-stock-photo-legal = Foto-foto di laman ini bersumber dari iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 
@@ -74,69 +81,53 @@ whatsnew-tab-archive-label = Riwayat
 whatsnew-footer-clear-all-label = Bersihkan semua
 whatsnew-footer-back-label = Kembali
 whatsnew-footer-learn-more-label = Pelajari lebih lanjut
-
 whatsnew-empty-message = Pastikan untuk cek kembali di sini — kami selalu mengerjakan fitur baru yang luar biasa untuk membuat { -brand-name-relay } lebih baik.
-
 whatsnew-feature-size-limit-heading = Ukuran lampiran meningkat
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet = { -brand-name-firefox-relay } dapat menerukan surel hingga 25MB, termasuk…
 whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } dapat menerukan surel hingga 25MB, termasuk lampiran.
 # A preview of the full content of `whatsnew-feature-size-limit-description-var`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } dapat menerukan surel hingga { email-size-limit }, termasuk…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } dapat menerukan surel hingga { email-size-limit }, termasuk lampiran.
-
 whatsnew-feature-sign-back-in-heading = Masuk kembali dengan alias Anda
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Untuk membuat alias baru saat Anda diminta alamat surel, buka…
 whatsnew-feature-sign-back-in-description = Untuk masuk dengan alias yang sebelumnya digunakan, buka menu konteks di mana situs meminta surel Anda. Anda akan dapat memilih alias dan otomatis mengisi isian surel.
-
 whatsnew-feature-forward-some-heading = Pemblokiran surel promosi
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } memungkinkan Anda untuk hanya memblokir surel promosi yang dikirim ke alias. Anda akan menerima surel berbentuk tanda terima, bukan surel pemasaran.
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Kini, alias berubah jadi topeng
 # A preview of the full content of `whatsnew-feature-alias-to-mask-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-snippet = Terasa ada yang berubah? Kami sekarang menyebut alias menjadi "topeng" untuk membuat { -brand-name-firefox-relay }…
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = Terasa ada yang berubah? Kami sekarang menyebut alias menjadi "topeng" untuk membuat { -brand-name-firefox-relay } lebih mudah untuk digunakan dan membuka pintu untuk fitur-fitur baru.
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } tersedia di Swedia
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } tersedia di Finlandia
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = Tingkatkan sekarang dan dapatkan perlindungan lebih…
 whatsnew-feature-premium-expansion-description = Tingkatkan sekarang dan dapatkan perlindungan lebih — buat topeng surel tanpa batas, dapatkan subdomain surel kustom, dan banyak lagi!
-
 whatsnew-feature-tracker-removal-heading = Memperkenalkan penghapusan pelacak email
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 whatsnew-feature-tracker-removal-snippet = Sekarang { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan…
 # Deprecated
 whatsnew-feature-tracker-removal-description = Sekarang { -brand-name-relay } dapat menghapus pelacak umum dari surel yang diteruskan kepada Anda, membantu Anda tetap tersembunyi oleh pengiklan.
 whatsnew-feature-tracker-removal-description-2 = Kini { -brand-name-relay } dapat menghapus pelacak surel biasa dari surel yang diteruskan kepada Anda, membantu Anda tetap tidak terlihat oleh pengiklan. Aktifkan di "Pengaturan".
-
 whatsnew-feature-offer-countdown-heading = Penawaran harga perkenalan kami akan segera berakhir!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
-# When translating, please make sure the resulting string is of roughly similar
-# length as the English version.
+# Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-snippet = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas di…
@@ -144,6 +135,11 @@ whatsnew-feature-offer-countdown-snippet = Dapatkan { -brand-name-relay-premium 
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas dengan harga perkenalan untuk langganan per bulan dari kami.
 whatsnew-feature-offer-countdown-cta = Tingkatkan sekarang
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } sekarang tersedia di pengelola kata sandi { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat menghasilkan…
+whatsnew-feature-firefox-integration-description = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat membuat topeng surel { -brand-name-relay } baru langsung dari pengelola kata sandi { -brand-name-firefox } Anda di desktop.
 
 ## Bento Menu
 
@@ -180,13 +176,13 @@ hero-image-copy-control-html = Sekarang <em>Anda memegang kendali</em> atas apa 
 
 # Home Page Version A
 
+
 ## Hero Section
 
 landing-hero-headline-2 = Lindungi alamat surel asli Anda untuk membantu kendalikan kotak masuk Anda
 landing-hero-body-2 =
     Surel topeng { -brand-name-firefox-relay } melindungi alamat surel asli Anda dari publik, secara otomatis meneruskan pesan ke kotak masuk Anda yang asli.
     Sekarang Anda dapat menerima pesan yang hanya Anda inginkan. Daftar dengan { -brand-name-firefox-account } Anda untuk mulai.
-
 landing-offer-end-hero-heading = Penawaran harga perkenalan kami akan segera berakhir!
 landing-offer-end-hero-cta = Tingkatkan sekarang
 # Variables:
@@ -237,7 +233,6 @@ landing-pricing-free-cta = Dapatkan { -brand-name-relay }
 landing-pricing-free-ribbon = Tersedia sekarang!
 # Deprecated
 landing-pricing-free-feature-free = Gratis
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -259,12 +254,10 @@ landing-pricing-premium-feature-4 = Balas surel yang diteruskan
 landing-pricing-premium-feature-5 = Blokir surel promosi
 # Deprecated
 landing-pricing-premium-feature-6 = Penghapusan pelacak surel
-
 # Deprecated
 landing-pricing-waitlist-description = Saat ini, { -brand-name-firefox-relay-premium } belum tersedia di negara Anda. Silakan bagikan surel Anda agar dapat dikabari sesegera mungkin.
 # Deprecated
 landing-pricing-waitlist-cta = Gabung ke Daftar Tunggu
-
 # Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
@@ -277,11 +270,15 @@ landing-pricing-offer-end-cta = Tingkatkan sekarang
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 landing-pricing-offer-end-body = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
-
+# Deprecated
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 # Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
 plan-matrix-bundle-offer-heading = Waktu terbatas saja: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } ${ $monthly_price }/month*
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+# Please preserve the asterisk (*) following the price; it indicates that the price is billed yearly.
+plan-matrix-bundle-offer-heading-2 = Waktu terbatas: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } { $monthly_price }/bulan*
 plan-matrix-bundle-offer-content = Coba topeng surel { -brand-name-firefox-relay } dan mulai lindungi kotak masuk surel Anda. Kemudian tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan fleksibilitas lebih dan pengendalian khusus.
 plan-matrix-heading-plan-bundle = Tambahkan perlindungan VPN
 # This heading accompanies the number of email masks available in each plan (i.e. 5 for free plans, unlimited otherwise)
@@ -338,11 +335,9 @@ landing-use-cases-gaming = Ranah Gim
 landing-use-cases-gaming-body-2 =
     Suka permainan daring namun khawatir terhadap pemain atau perudung lain yang mengetahui siapa Anda melalui tag pemain dan alamat surel Anda?
     Gunakan topeng surel untuk proteksi lapisan tambahan antara identitas daring dan permainan yang Anda mainkan secara daring.
-
 landing-use-cases-shopping-hero-heading = Berbelanja dengan topeng surel
 landing-use-cases-shopping-hero-content1 = Ingin membeli sesuatu secara daring dan tidak tahu atau tidak percaya sepenuhnya dengan tokonya?
 landing-use-cases-shopping-hero-content2 = Gunakan topeng surel kapan saat Anda berbelanja daring. Dapatkan pesan konfirmasi dikirim ke surel Anda yang sebenarnya dan kemudian matikan topeng kapan saja suatu saat.
-
 landing-use-cases-on-the-go = Dalam Perjalanan
 landing-use-cases-on-the-go-heading = Saat bepergian dengan { -brand-name-relay }
 landing-use-cases-on-the-go-lead = Langsung buat topeng surel kustom di mana saja dan ke mana pun saat Anda bepergian!
@@ -352,7 +347,6 @@ landing-use-cases-on-the-go-receipt-heading = Dapatkan tanda terima surel
 landing-use-cases-on-the-go-receipt-body = Bagikan topeng surel kustom untuk tanda terima belanja tanpa membagikan surel asli Anda
 landing-use-cases-on-the-go-phone-heading = Gunakan di ponsel Anda
 landing-use-cases-on-the-go-phone-body = Di mana pun Anda berada, buat topeng surel kustom dalam hitungan detik untuk apa pun yang ingin Anda lakukan
-
 landing-use-cases-signups = Pendaftaran
 landing-use-cases-signups-hero-heading = Pendaftaran bebas khawatir
 landing-use-cases-signups-hero-content1 = Ingin memulai langganan baru, merespon undangan, atau mendapatkan kode promo tawar-menawar tanpa spam membanjiri kotak masuk Anda?
@@ -368,17 +362,14 @@ premium-promo-hero-body-2-html = Dengan { -brand-name-firefox-relay-premium }, A
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan topeng surel kustom tanpa batas yang hanya meneruskan surel yang Anda inginkan ke alamat surel Anda yang sebenarnya.
 premium-promo-hero-cta = Tingkatkan sekarang
-
 premium-promo-offer-end-hero-heading = Penawaran harga perkenalan kami akan segera berakhir!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati perlindungan surel premium dengan harga perkenalan untuk langganan per bulan dari kami.
 premium-promo-offer-end-hero-cta = Tingkatkan sekarang
-
 premium-promo-availability-warning = Saat ini, { -brand-name-relay-premium } baru tersedia di Amerika Serikat, Austria, Belanda, Belgia, Britania Raya, Irlandia, Italia, Jerman, Malaysia, Kanada, Perancis, Selandia Baru, Singapura, dan Spanyol.
 premium-promo-availability-warning-2 = Saat ini, { -brand-name-relay-premium } baru tersedia di Amerika Serikat, Austria, Belanda, Belgia, Britania Raya, Irlandia, Italia, Jerman, Malaysia, Kanada, Perancis, Selandia Baru, Singapura, dan Spanyol.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } tersedia di Amerika Serikat, Austria, Belanda, Belgia, Estonia, Finlandia, Inggris, Irlandia, Italia, Jerman, Kanada, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Portugal, Prancis, Selandia Baru, Siprus, Singapura, Slovakia, Spanyol, Swedia, Swiss, dan Yunani.
-
 premium-promo-perks-headline = Mengapa beralih ke { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan semua fitur pengelolaan dan perlindungan kotak masuk dari { -brand-name-relay }, namun dilengkapi dengan topeng surel tanpa batas dan subdomain kustom Anda sendiri untuk memudahkan pengelolaan kotak masuk Anda.
 premium-promo-perks-cta-label = Tingkatkan sekarang
@@ -394,7 +385,6 @@ premium-promo-perks-perk-block-promotionals-headline = Blokir surel promosi
 premium-promo-perks-perk-block-promotionals-body = Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi dari mencapai kotak masuk saat masih menerima surel seperti tanda terima atau informasi pengiriman.
 premium-promo-perks-perk-tracker-blocking-headline = Hapus pelacak surel
 premium-promo-perks-perk-tracker-blocking-body = Kini { -brand-name-relay } dapat membantu Anda menghentikan pelacakan surel — masker surel Anda akan menghapus pelacak surel biasa dari surel yang diteruskan kepada Anda, membantu Anda tetap tidak terlihat oleh pelacak dan pengiklan.
-
 premium-promo-use-cases-headline-2 = Gunakan topeng surel { -brand-name-relay } di mana saja
 premium-promo-use-cases-shopping-heading = Belanja
 premium-promo-use-cases-shopping-body-2 = Coba daftar diskon tanpa kena spam? Gabungkan semua akun "belanja" Anda dengan topeng kustom unik, seperti “mydeals@mydomain.mozmail.com.”
@@ -402,9 +392,7 @@ premium-promo-use-cases-social-networks-heading = Jejaring Sosial
 premium-promo-use-cases-social-networks-body-2 = Ingin melindungi identitas daring Anda lebih baik ketika menggunakan jejaring sosial? Gunakan topeng yang berbeda untuk masuk ke setiap media sosial dan lindungi surel asli Anda terungkap oleh situs-situs tersebut.
 premium-promo-use-cases-gaming-heading = Ranah Gim
 premium-promo-use-cases-gaming-body-2 = Khawatir tentang gamer atau pengusil lainnya mengetahui siapa Anda melalui tag pemain atau alamat surel? Gunakan topeng seperti “onlinegame@mydomain.mozmail.com” untuk menambahkan satu lapisan perlindungan tambahan antara identitas Anda dengan permainan daring yang Anda mainkan.
-
 premium-promo-pricing-free-price = Paket Gratis Anda saat ini
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Harga perkenalan: Topeng tanpa batas untuk { $monthly_price } per bulan
@@ -416,8 +404,16 @@ premium-promo-pricing-offer-end-body = Dapatkan { -brand-name-relay-premium } se
 
 ## The Premium waitlist page
 
+# Deprecated
 waitlist-heading = Bergabung ke Daftar Tunggu { -brand-name-relay-premium }
+waitlist-heading-2 = Bergabunglah ke daftar tunggu { -brand-name-relay-premium }
+waitlist-heading-phone = Bergabunglah dalam daftar tunggu penyamaran ponsel { -brand-name-relay }
+waitlist-heading-bundle = Bergabunglah dalam daftar tunggu untuk bundel { -brand-name-relay } + { -brand-name-vpn }
+# Deprecated
 waitlist-lead = Dapatkan pemberitahuan jika { -brand-name-firefox-relay-premium } tersedia untuk wilayah Anda.
+waitlist-lead-2 = Kami akan memberi tahu Anda saat { -brand-name-relay-premium } tersedia di wilayah Anda.
+waitlist-lead-phone = Kami akan memberi tahu Anda saat penyembunyian ponsel tersedia di wilayah Anda.
+waitlist-lead-bundle = Kami akan memberi tahu Anda kapan Anda bisa mendapatkan { -brand-name-relay-premium } dan { -brand-name-mozilla-vpn } dengan diskon di wilayah Anda.
 waitlist-control-required = Diwajibkan
 waitlist-control-email-label = Apa alamat surel Anda?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -426,11 +422,15 @@ waitlist-control-email-placeholder = namaanda@contoh.com
 waitlist-control-country-label = Di negara mana Anda tinggal?
 waitlist-control-country-label-2 = Di negara atau wilayah mana anda tinggal?
 waitlist-control-locale-label = Pilih bahasa yang Anda inginkan.
+# Deprecated
 waitlist-submit-label = Gabung ke Daftar Tunggu
-# Variables:
-#  $joinButtonLabel (string): the value of waitlist-submit-label
+waitlist-submit-label-2 = Bergabunglah dalam daftar tunggu
+# Deprecated
 waitlist-privacy-policy-agree = Dengan mengeklik "{ waitlist-submit-label }", berarti Anda menyetujui <a>Kebijakan Privasi</a> kami.
+waitlist-privacy-policy-agree-2 = Dengan mengeklik “{ waitlist-submit-label-2 }”, Anda menyetujui <a>Kebijakan Privasi</a> kami.
 waitlist-privacy-policy-use = Informasi Anda hanya akan digunakan untuk memberitahukan tentang ketersediaan { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Informasi Anda hanya akan digunakan untuk memberi tahu Anda saat penyamaran telepon tersedia di wilayah Anda.
+waitlist-privacy-policy-use-bundle = Informasi Anda hanya akan digunakan untuk memberi tahu Anda tentang ketersediaan bundel { -brand-name-relay } + { -brand-name-vpn }.
 waitlist-subscribe-success = Anda masuk ke dalam daftar! Setelah { -brand-name-firefox-relay-premium } tersedia untuk wilayah Anda, kami akan mengirim surel kepada Anda.
 waitlist-subscribe-error-connection = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Periksa sambungan Anda, lalu coba lagi.
 waitlist-subscribe-error-unknown = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Silakan coba lagi.
@@ -448,13 +448,17 @@ settings-error-save-heading = Perubahan pengaturan gagal
 settings-error-save-description = Perubahan pengaturan Anda tidak tersimpan dikarenakan koneksi bermasalah. Silakan coba lagi.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = Fungsi label topeng surel dinonaktifkan
+settings-warning-collection-off-heading-3 = Nama akun topeng surel Anda dimatikan
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Saat ini { -brand-name-relay } tidak diizinkan untuk mengumpulkan data yang menunjukkan situs di mana Anda membuat topeng surel. Anda dapat mengubahnya di “Pengaturan” dalam “Pengumpulan Data.”
+settings-warning-collection-off-description-3 = { -brand-name-relay } saat ini tidak diizinkan untuk melabeli topeng surel Anda dengan situs web tempat Anda menggunakannya. Untuk mengubahnya, aktifkan nama akun untuk topeng surel di bawah “Privasi.”
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privasi
 setting-label-collection-description-2 = Izinkan { -brand-name-relay } mengumpulkan data yang menunjukkan situs tempat topeng Anda dibuat dan digunakan.
+setting-label-collection-description-3 = Aktifkan nama akun untuk topeng surel
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Data ini akan memungkinkan kami untuk memberi label pada topeng Anda dengan situs web yang menggunakannya. Jika Anda memutuskan tidak ikut dengan preferensi ini, topeng Anda tidak akan diberi label dengan situs web di mana topeng digunakan.
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } akan menyimpan situs web tempat Anda menggunakan topeng surel Anda, dan memberi label topeng Anda dengan situs web tersebut sehingga Anda dapat dengan mudah mengidentifikasinya. Menonaktifkan ini berarti Anda tidak akan dapat melihat di mana Anda telah menggunakan setiap topeng, dan nama akun Anda tidak akan lagi disinkronkan antar perangkat.
 settings-button-save-label = Simpan
 settings-button-save-tooltip = Terapkan pengaturan yang Anda pilih.
 # This is a read-only input where a user can copy their API key to their clipboard
@@ -464,6 +468,7 @@ settings-api-key-description-bolded = Hanya gunakan ini dengan aplikasi yang And
 # This is a label that appears on hover to copy the API key
 settings-button-copy = Klik untuk menyalin
 setting-api-key-copied = Tersalin!
+setting-api-key-copied-alt = Klik untuk menyalin
 setting-tracker-removal-heading = Hapus Pelacak Surel
 setting-tracker-removal-description = Hapus pelacak surel di semua surel yang diteruskan.
 setting-tracker-removal-note = { -brand-name-firefox-relay } sekarang dapat menghapus pelacak umum dari surel yang diteruskan melalui topeng Anda.
@@ -474,16 +479,13 @@ setting-tracker-removal-warning-2 = Penting: Menghapus pelacak dapat menyebabkan
 ## FAQ Page
 
 faq-headline = Pertanyaan yang Sering Diajukan (FAQ)
-
 # String used to display the attachment limit, e.g. 10 MB
 # Variables:
 #  $size (number): maximum size for attachments
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
-
 faq-question-what-is-question-2 = Apa itu topeng surel { -brand-name-relay }?
 faq-question-what-is-answer-2 = Topeng surel adalah alamat surel tersamar, atau privat, yang meneruskan pesan ke alamat surel Anda yang sebenarnya. Topeng ini memungkinkan Anda untuk berbagi alamat dengan pihak ketiga yang akan menutupi alamat surel Anda yang sebenarnya dan meneruskan pesan ke sana.
-
 faq-question-missing-emails-question-2 = Saya tidak menerima pesan dari topeng surel saya
 faq-question-missing-emails-answer-a-2 = Ada beberapa alasan mengapa Anda mungkin tidak menerima surel yang diteruskan melalui topeng Anda. Berikut beberapa alasannya:
 faq-question-missing-emails-answer-reason-spam = Pesan masuk ke spam
@@ -498,59 +500,47 @@ faq-question-missing-emails-answer-b-html = Jika Anda pengguna { -brand-name-rel
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Jika Anda kesulitan mengatasi masalah ini, silakan <a href="{ $url }" { $attrs }>kunjungi situs dukungan kami</a>.
-
 faq-question-use-cases-question-2 = Kapan saya harus menggunakan topeng surel { -brand-name-relay }?
 faq-question-use-cases-answer-part1-2 = Anda dapat menggunakan topeng surel { -brand-name-relay } pada sebagian besar tempat yang menggunakan alamat surel biasa Anda. Kami merekomendasikan untuk menggunakannya saat mendaftar untuk surel pemasaran/informasi di mana Anda mungkin ingin mengatur apakah Anda menerima surel di masa mendatang.
 faq-question-use-cases-answer-part2-2 = Kami tidak menyarankan menggunakan topeng saat Anda memerlukan identitas Anda diverifikasi atau untuk surel yang sangat penting atau surel yang Anda harus menerima lampiran. Misalnya, Anda ingin membagikan alamat surel asli Anda dengan bank, dokter, dan pengacara Anda, serta saat menerima tiket masuk konser atau penerbangan.
-
 faq-question-2-question-2 = Mengapa ada situs yang tidak menerima topeng surel { -brand-name-relay } saya?
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-2-answer-v4 = Beberapa situs mungkin tidak menerima alamat surel yang menyertakan subdomain (@subdomain.mozmail.com) dan yang lain telah berhenti menerima semua alamat kecuali akun Gmail, Hotmail, atau Yahoo.
-
 faq-question-1-question = Bagaimana dengan spam?
 faq-question-1-answer-a-2 = Meskipun { -brand-name-relay } tidak memfilter spam, mitra surel kami Amazon SES memblokir spam dan malware. Jika { -brand-name-relay } meneruskan pesan yang tidak Anda inginkan, Anda dapat memperbarui setelan { -brand-name-relay } untuk memblokir pesan agar tidak diteruskan.
 # Variables:
 #   $url (url) - https://addons.mozilla.org/firefox/addon/private-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Jika Anda melihat masalah yang lebih luas dari semua topeng yang tidak diinginkan, silakan <a href="{ $url }" { $attrs }>laporkan kepada kami</a> sehingga kami dapat mempertimbangkan untuk menyesuaikan ambang spam SES untuk layanan ini. Jika Anda melaporkannya sebagai spam, penyedia layanan surel Anda akan melihat { -brand-name-relay } sebagai sumber spam, bukan pengirim asli.
-
 faq-question-availability-question = Di mana { -brand-name-relay } tersedia?
 faq-question-availability-answer = { -brand-name-relay } gratis tersedia di sebagian besar negara. { -brand-name-relay-premium } tersedia di Amerika Serikat, Jerman, Inggris Raya, Kanada, Singapura, Malaysia, Selandia Baru, Prancis, Belgia, Austria, Spanyol, Italia, Swiss, Belanda, dan Irlandia.
 faq-question-availability-answer-v2 = { -brand-name-relay } gratis tersedia di sebagian besar negara. { -brand-name-relay-premium } tersedia di Amerika Serikat, Jerman, Inggris Raya, Kanada, Singapura, Malaysia, Selandia Baru, Prancis, Belgia, Austria, Spanyol, Italia, Swiss, Belanda, dan Irlandia.
 faq-question-availability-answer-v3 = { -brand-name-relay } gratis tersedia di kebanyakan negara. { -brand-name-relay-premium } tersedia di Austria, Belgia, Kanada, Siprus, Estonia, Finlandia, Prancis, Jerman, Yunani, Irlandia, Italia, Latvia, Lithuania, Lithuania, Malaysia, Malta, Belanda, Selandia Baru, Portugal, Singapura, Slovakia, Spanyol, Swedia, Swiss, Inggris, dan Amerika Serikat.
-
+faq-question-landing-page-availability = { -brand-name-relay } gratis tersedia di sebagian besar negara. Penyembunyian surel { -brand-name-relay-premium } tersedia di Amerika Serikat, Jerman, Inggris, Kanada, Singapura, Malaysia, Selandia Baru, Prancis, Belgia, Austria, Spanyol, Italia, Swiss, Belanda, dan Irlandia. Penyamaran ponsel { -brand-name-relay-premium } hanya tersedia di AS dan Kanada.
 faq-question-4-question-2 = Dapatkah saya membalas pesan menggunakan topeng surel { -brand-name-relay } saya?
 faq-question-4-answer-v4 = Pengguna { -brand-name-relay-premium } dapat membalas surel yang diteruskan dalam waktu 3 bulan setelah menerima surel. Jika Anda menambahkan CC atau BCC saat membalas surel, alamat surel asli Anda akan diperlihatkan kepada penerima dan orang-orang yang mendapat tembusan surel tersebut. Jika Anda tidak ingin alamat surel asli Anda terekspos, jangan tambahkan CC atau BCC saat membalas.
-
 faq-question-subdomain-characters-question = Karakter apa yang dapat saya gunakan untuk membuat subdomain?
 faq-question-subdomain-characters-answer-v2 = Anda hanya dapat menggunakan huruf kecil, angka, dan tanda hubung bahasa Inggris untuk membuat subdomain.
-
 faq-question-browser-support-question = Dapatkah saya menggunakan { -brand-name-relay } di peramban lain atau perangkat seluler saya?
 faq-question-browser-support-answer-2 = Ya, Anda dapat membuat topeng { -brand-name-relay } di peramban atau perangkat seluler lain hanya dengan masuk ke dasbor { -brand-name-relay } Anda.
-
 faq-question-longevity-question = Apa yang terjadi jika Mozilla menghentikan layanan { -brand-name-firefox-relay }?
 faq-question-longevity-answer-2 = Kami akan memberi tahu Anda lebih awal jika Anda perlu mengubah alamat surel dari setiap akun yang menggunakan topeng { -brand-name-relay }.
-
 faq-question-mozmail-question-2 = Mengapa topeng saya menggunakan domain “mozmail.com?”
 faq-question-mozmail-answer-2 = Kami beralih dari “relay.firefox.com” ke “mozmail.com” untuk memungkinkan mendapatkan subdomain surel kustom, seperti mask@domainanda.mozmail.com. Subdomain surel khusus, tersedia untuk pelanggan { -brand-name-relay-premium }, juga membuat topeng surel Anda lebih mudah diingat daripada topeng acak.
-
 faq-question-attachments-question = Apakah { -brand-name-firefox-relay } akan meneruskan surel dengan lampiran?
 faq-question-attachments-answer-v2 = Sekarang kami mendukung penerusan lampiran. Namun, ada batas { email-size-limit } untuk penerusan surel menggunakan { -brand-name-relay }. Surel apapun yang lebih besar dari { email-size-limit } tidak akan diteruskan.
-
 faq-question-unsubscribe-domain-question-2 = Apa yang terjadi pada subdomain kustom saya jika saya berhenti berlangganan dari { -brand-name-relay-premium }?
 faq-question-unsubscribe-domain-answer-2 = Jika Anda berhenti berlangganan { -brand-name-relay-premium }, Anda masih akan menerima surel yang diteruskan melalui subdomain khusus, tetapi Anda tidak dapat lagi membuat topeng baru menggunakan subdomain tersebut. Jika Anda memiliki lebih dari lima topeng secara total, Anda tidak akan dapat membuat lagi. Anda juga tidak bisa membalas pesan yang diteruskan. Anda dapat berlangganan kembali ke { -brand-name-relay-premium } dan mengembalikan akses ke fitur-fitur tersebut.
-
 faq-question-8-question = Data apa saja yang dikumpulkan oleh { -brand-name-firefox-relay }?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = Anda dapat mempelajari lebih lanjut mengenai data yang dikumpulkan { -brand-name-firefox-relay } dengan melihat <a href="{ $url }" { $attrs }>Pemberitahuan Privasi</a> kami. Anda juga dapat secara opsional membagikan data tentang label dan situs yang Anda gunakan untuk topeng surel Anda sehingga kami dapat menyediakan layanan dan meningkatkannya untuk Anda.
-
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } mengumpulkan situs web tempat Anda menggunakan topeng surel Anda, dan memberi label topeng Anda dengan situs web tersebut sehingga Anda dapat dengan mudah mengidentifikasinya. Anda dapat menyisih dari ini di laman Pengaturan Anda, di bawah Privasi. Namun harap dicatat, mematikan pengaturan itu berarti Anda tidak akan dapat melihat di mana Anda telah menggunakan setiap topeng, dan nama akun Anda tidak akan lagi disinkronkan antar perangkat. Anda dapat mempelajari lebih lanjut tentang data yang dikumpulkan { -brand-name-firefox-relay } di <a href="{ $url }" { $attrs }>Pemberitahuan Privasi</a> kami.
 faq-question-email-storage-question = Apakah { -brand-name-relay } menyimpan surel saya?
 faq-question-email-storage-answer = Dalam keadaan yang jarang terjadi di mana layanan sedang tidak aktif, kami dapat menyimpan surel Anda untuk sementara sampai kami dapat mengirimkannya. Kami tidak akan pernah menyimpan surel Anda lebih dari tiga hari.
-
 faq-question-acceptable-use-question = Apa saja penggunaan { -brand-name-relay } yang dapat diterima?
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
@@ -561,12 +551,10 @@ faq-question-acceptable-use-answer-measure-rate-limit-2 = Pembatasan tingkat jum
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-b-html = Harap tinjau <a href="{ $url }" { $attrs }>Persyaratan Layanan</a> kami untuk informasi lebih lanjut.
-
 faq-question-promotional-email-blocking-question = Apa itu pemblokiran surel promosi?
 faq-question-promotional-email-blocking-answer = Pelanggan { -brand-name-relay-premium } dapat mengaktifkan pemblokiran surel promosi. Fitur ini akan meneruskan surel penting kepada Anda, seperti tanda terima, penyetelan ulang kata sandi, dan surel konfirmasi sambil tetap memblokir pesan pemasaran. Ada sedikit risiko bahwa pesan penting masih dapat diblokir, jadi sebaiknya Anda tidak menggunakan fitur ini untuk tempat yang sangat penting seperti bank Anda. Jika diblokir, surel tidak dapat dipulihkan.
 faq-question-detect-promotional-question = Bagaimana cara { -brand-name-relay } mendeteksi apakah surel bersifat Promosi atau tidak?
 faq-question-detect-promotional-answer = Banyak surel yang dikirim dengan metadata "header" untuk mengindikasikan bahwa surel tersebut berasal dari alat otomatis berbasis daftar. { -brand-name-firefox-relay } mendeteksi data header ini sehingga dapat memblokir email ini.
-
 faq-question-disable-trackerremoval-question = Dapatkah saya berhenti menghapus pelacak surel?
 faq-question-disable-trackerremoval-answer = Ya. Jika mengalami masalah dengan surel yang tampak rusak atau ingin berhenti menghapus pelacak, Anda dapat menonaktifkan fitur pada pengaturan.
 faq-question-bulk-trackerremoval-question = Dapatkah saya menghapus pelacak hanya pada beberapa topeng surel saya?
@@ -604,24 +592,22 @@ profile-label-delete = Hapus
 profile-label-upgrade-2 = Dapatkan topeng surel tak terbatas
 profile-label-create-subdomain = Dapatkan subdomain surel Anda
 profile-label-subdomain = Subdomain Surel:
+profile-label-custom-domain = Domain surel { -brand-name-relay } Anda:
+profile-label-set-your-custom-domain = Setel domain surel { -brand-name-relay } unik Anda
 profile-label-subdomain-tooltip-trigger = Informasi lebih lanjut
 profile-label-subdomain-tooltip = Buat subdomain surel unik Anda.
 profile-label-reset = Setel Ulang
 profile-label-apply = Terapkan
 profile-label-skip = Lewati
 profile-label-continue = Lanjutkan
-
 # This string is followed by an email address
 profile-label-forward-emails = Teruskan surel ke:
-
 # This string is followed by date
 profile-label-first-emailed = Pertama dikirimkan:
-
 # This string is followed by date:
 profile-label-created = Dibuat:
 profile-label-details-show = Tampilkan Detail
 profile-label-details-hide = Sembunyikan Detail
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = meneruskan
 profile-label-blocking = memblokir
@@ -680,8 +666,10 @@ profile-indicator-tracker-removal-tooltip = Saat ini menghapus pelacak surel
 profile-promo-email-blocking-title = Surel apa yang ingin Anda blokir?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Semua
-# Block promotional emails sent to a speciic mask
+# Deprecated
 profile-promo-email-blocking-option-promotionals = Promosi
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promosi
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Tidak ada
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } memblokir semua surel yang masuk ke topeng ini.
@@ -700,9 +688,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Tutup
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Tutup
-
 banner-bounced-headline = { -brand-name-relay } tidak dapat mengirimkan surel Anda.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -747,36 +733,43 @@ banner-choose-subdomain-input-placeholder-3 = Cari subdomain
 banner-register-subdomain-button-search = Cari
 banner-pack-upgrade-headline-2-html = Beralih ke <strong>{ -brand-name-firefox-relay-premium }</strong> untuk mendapatkan lebih banyak topeng
 banner-pack-upgrade-copy-2 = Dengan topeng surel tak terhingga dan subdomain surel Anda sendiri, { -brand-name-firefox-relay-premium } membantu Anda tetap terlindungi saat berselancar.
+footer-banner-premium-promo-headine = Tingkatkan ke <strong>{ -brand-name-firefox-relay-premium }</strong> untuk melindungi ponsel Anda <i>dan</i> email
+footer-banner-premium-promo-body = Dapatkan topeng nomor telepon, topeng surel tak terbatas, dan alamat surel khusus untuk pembuatan topeng cepat.
 banner-pack-upgrade-cta = Beralih sekarang
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Pembaruan Perberitahuan Privasi
 banner-label-privacy-notice-update-body = Untuk meningkatkan keandalan { -brand-name-firefox-relay } pada saat surel tidak dapat dikirim, kami akan menjaga surel pada peladen kami sementara hingga dikirimkan. Kami tidak akan pernah menahannya selama lebih dari tiga hari.
 banner-label-privacy-notice-update-cta = Lihat Pemberitahuan Privasi
-
 # Data Notification Banner:
 banner-label-data-notification-header = Segera hadir di { -brand-name-relay }
 banner-label-data-notification-cta = Buka Pengaturan
 banner-label-data-notification-header-v2 = Aktifkan fitur baru
 banner-label-data-notification-body-cta = Pelajari lebih lanjut
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Lindungi privasi Anda, selamatkan internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Lindungi privasi Anda sekaligus bergabung dengan misi kami untuk membangun Internet yang lebih baik, dengan harga { $monthly_price }
 banner-upgrade-loyalist-cta = Dapatkan perlindungan lebih
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Penawaran harga perkenalan kami akan segera berakhir!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas dengan harga perkenalan untuk langganan per bulan dari kami.
 banner-offer-end-cta = Tingkatkan sekarang
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Anda dapat membuat alamat @{ $subdomain } apa pun
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Hentikan spam, robocall & teks sampah
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } memberi Anda topeng telepon untuk melindungi nomor asli Anda — ditambah topeng email tanpa batas.
+banner-ab-premium-promo-advanced-identity-headline = Perlindungan identitas tingkat lanjut
+banner-ab-premium-promo-advanced-identity-body = Hentikan pelacak dan pengumpul data agar tidak mengidentifikasi Anda melalui nomor telepon dan alamat surel Anda.
+banner-ab-premium-promo-control-receiver-headline = Kendalikan siapa yang mendapatkan nomor asli Anda
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } memberi Anda topeng telepon untuk melindungi nomor asli Anda — ditambah topeng email tanpa batas.
+banner-ab-premium-promo-extra-protection-headline = Dapatkan perlindungan ekstra untuk kotak masuk & ponsel Anda
+banner-ab-premium-promo-extra-protection-body = Dapatkan topeng surel tanpa batas — plus topeng telepon untuk mengontrol siapa yang mendapatkan nomor asli Anda.
+banner-ab-premium-promo-cta = Perbarui
 
 ## Success Messages
 
@@ -887,14 +880,12 @@ onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } A
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Langkah { $step } dari { $max }
-multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol apa yang masuk ke kotak masuk, satu surel sekaligus.
 multi-part-onboarding-premium-welcome-title = Kendalikan surel apa yang Anda dapatkan:
 multi-part-onboarding-premium-generate-unlimited-title-2 = Buat topeng surel tak terhingga:
 multi-part-onboarding-premium-welcome-button-start = Memulai
 multi-part-onboarding-premium-get-subdomain = Dapatkan subdomain kustom
 multi-part-onboarding-reply-headline = Balas ke surel Anda
-
 multi-part-onboarding-premium-welcome-description-2 = Tidak ada lagi batasan lima topeng: Anda sekarang dapat membuat topengkustom atau acak sebanyak yang Anda butuhkan. Di desktop, Anda dapat menggunakan pengaya { -brand-name-relay } untuk membuatnya saat bepergian.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
@@ -913,8 +904,6 @@ multi-part-onboarding-premium-chrome-extension-get-description = Ekstensi { -bra
 multi-part-onboarding-premium-chrome-extension-get-description-2 = Ekstensi { -brand-name-firefox-relay } untuk { -brand-name-chrome } memudahkan pembuatan dan penggunaan topeng surel.
 multi-part-onboarding-premium-chrome-extension-button-download = Dapatkan Ekstensi { -brand-name-relay }
 multi-part-onboarding-premium-extension-button-skip = Lanjutkan, saya akan mengunduh ekstensi nanti
-multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
-multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
 
 ## Report of trackers removed from an email
 
@@ -957,8 +946,6 @@ trackerreport-load-error = Terjadi kesalahan saat membuat laporan penghapusan pe
 
 modal-rename-alias-saved = Label disimpan!
 modal-delete-headline-2 = Hapus topeng surel ini secara permanen?
-
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -975,7 +962,6 @@ modal-delete-confirmation-2 = Ya, saya ingin menghapus topeng ini.
 modal-domain-register-good-news = Kabar Baik!
 modal-domain-register-warning-reminder-2 = Ingat, Anda hanya dapat mendaftarkan satu subdomain. Anda tidak akan dapat mengubahnya nanti.
 modal-domain-register-button-2 = Daftarkan Subdomain
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } tersedia!
@@ -983,15 +969,10 @@ modal-domain-register-available = { $subdomain } tersedia!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> tersedia!
-
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-confirmation-checkbox = Ya, saya ingin mendaftarkan @{ $subdomain }
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ya, saya ingin mendaftarkan <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Sukses!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
@@ -1087,6 +1068,9 @@ vpn-promo-cta = Dapatkan { -brand-name-mozilla-vpn }
 forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel asli Anda akan diketahui.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = Tingkatkan ke { $premium_link } untuk mendapatkan topeng surel tanpa batas, subdomain khusus, dan kemampuan untuk membalas surel.
+# Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Penawaran harga bulanan intro kami akan berakhir. Tingkatkan versi ke { $premium_link }.
 # Variables:
@@ -1106,9 +1090,134 @@ forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } 
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Kami telah mengirim balasan ini ke { $sender }. Namun selanjutnya, balasan Anda tidak akan dikirim.
+# Deprecated
+other-reply-not-forwarded = Balasan Anda TIDAK dikirim ke { $sender }.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Balasan Anda tidak dikirim ke { $sender }.
+replies-only-available-with-premium = Membalas surel yang diteruskan dari surel bertopeng Anda hanya tersedia dengan { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Balasan tidak disertakan dengan akun gratis Anda
+reply-not-sent-header = Balasan Anda tidak terkirim
+upgrade-to-reply-to-future-emails = Tingkatkan sekarang untuk mengirim balasan
+upgrade-for-more-protection = Tingkatkan untuk perlindungan lebih lanjut
+upgrade-to-premium = Tingkatkan ke { -brand-name-firefox-relay-premium }
+manage-your-masks = Kelola topeng Anda
+
 ## Notifications component
 
 toast-button-close-label = Tutup notifikasi
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Anda telah menggunakan semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
+api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain kustom untuk topeng. Untuk membuat topeng kustom, tingkatkan ke { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.
+api-error-need-subdomain = Pilih subdomain sebelum membuat alamat surel khusus.
+api-error-account-is-paused = Akun Anda sedang dijeda.
+
+## Step 1 Premium Onboarding
+
+multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Mari siapkan Anda untuk mendapatkan hasil maksimal dari akun { -brand-name-premium } Anda.
+multi-part-onboarding-premium-welcome-feature-headline = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Topeng surel tak terbatas
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Tingkatkan privasi dan keamanan Anda dengan topeng unik untuk setiap situs
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Buat topeng secara instan saat bepergian
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Dapatkan domain surel { -brand-name-relay } unik untuk pembuatan topeng yang instan dan mudah diingat
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Kontrol kotak masuk khusus
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kendalikan jenis surel yang diteruskan ke kotak masuk Anda
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Balasan anonim
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Balas surel yang diteruskan tanpa membagikan alamat surel asli Anda
+multi-part-onboarding-premium-welcome-feature-cta = Siapkan { -brand-name-relay-premium }
+
+## Step 2 Set Custom Domain
+
+multi-part-onboarding-premium-email-domain-headline = Setel domain surel { -brand-name-relay } unik Anda
+multi-part-onboarding-premium-email-domain-feature-headline = Dengan domain surel { -brand-name-relay } yang unik, Anda dapat:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Buat topeng secara instan saat bepergian
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Pilih domain surel { -brand-name-relay } pilihan Anda, lalu langsung buat topeng baru dengan menambahkan kata atau frasa apa pun sebelum simbol @. <p>Belanja? Gunakan shop@yourdomain.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Cari kata atau frasa
+multi-part-onboarding-premium-email-domain-feature-input-search = Cari
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = domainanda
+multi-part-onboarding-premium-email-domain-added = Domain surel Anda:
+
+## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Tambahkan ekstensi { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Dengan ekstensi { -brand-name-relay }, Anda dapat:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Buat topeng { -brand-name-relay } baru dari situs web mana pun
+multi-part-onboarding-premium-add-extension-feature-body = Ekstensi { -brand-name-relay } memungkinkan Anda membuat topeng baru secara instan setiap kali situs web meminta alamat surel Anda — cukup cari ikon { -brand-name-relay }.
+multi-part-onboarding-premium-add-extension-feature-cta = Tambahkan ekstensi { -brand-name-relay }
+
+## Step 3 Relay Extension Added
+
+multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
+multi-part-onboarding-premium-added-extension-body = Anda tidak perlu lagi masuk ke { -brand-name-relay } untuk membuat topeng baru — cukup cari ikon Relay saat situs web meminta alamat surel Anda.
+multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
+multi-part-onboarding-skip = Lewati, saya akan mengaturnya nanti
+multi-part-onboarding-skip-download-extension = Lewati, saya akan mengunduh ekstensi nanti
+multi-part-onboarding-continue = Lanjutkan
+
+## Set domain banner
+
+banner-set-email-domain-headline-action-needed = Diperlukan tindakan
+banner-set-email-domain-headline = Setel domain surel { -brand-name-relay } unik Anda
+banner-set-email-domain-step-one-headline = Pilih domain surel { -brand-name-relay } pilihan Anda
+banner-set-email-domain-step-one-body = Ini adalah bagian dari surel Anda setelah simbol @.
+banner-set-email-domain-step-two-headline = Gunakan untuk membuat topeng { -brand-name-relay } kustom secara instan
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = Cukup tambahkan kata atau frasa sebelum simbol @. Belanja? Gunakan shop@yourdomain.{ $mozmail }.
+banner-set-email-domain-input-placeholder-label = Cari domain surel
+banner-set-email-domain-input-placeholder = Cari kata atau frasa
+banner-set-email-domain-input-search = Cari
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = domainanda
+banner-set-email-domain-learn-more = Pelajari lebih lanjut
+modal-email-domain-good-news = Kabar baik!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> tersedia
+modal-email-domain-available-body = Anda hanya dapat mendaftarkan satu domain surel { -brand-name-relay } yang unik. <p>Anda tidak akan dapat mengubahnya nanti.</p>
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Ya, saya ingin mendaftarkan @{ $subdomain }
+modal-email-domain-cancel = Batal
+modal-email-domain-register = Daftar
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> sekarang menjadi domain surel { -brand-name-relay } Anda!
+modal-email-domain-success-headline-on-the-go = Gunakan ini untuk membuat topeng { -brand-name-relay } baru saat bepergian
+modal-email-domain-success-body-on-the-go = Tidak perlu masuk ke { -brand-name-relay } untuk membuat topeng baru.
+modal-email-domain-success-headline-any-word = Buat topeng tanpa batas dengan menambahkan kata atau frasa apa pun
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Belanja? Gunakan toko{ $custom_domain_full }.
+modal-email-domain-success-continue = Lanjutkan
+tooltip-email-domain-explanation-title = Tentang Domain Email { -brand-name-relay } unik Anda
+tooltip-email-domain-explanation-part-one = Fitur berharga dari akun { -brand-name-relay-premium } Anda ini memungkinkan Anda memilih domain surel { -brand-name-relay } unik yang dapat Anda gunakan untuk membuat topeng { -brand-name-relay } kustom tanpa batas di perjalanan.
+tooltip-email-domain-explanation-part-two = Tidak perlu masuk ke { -brand-name-relay } untuk membuat topeng baru; Cukup tambahkan kata atau frasa sebelum simbol @ dari domain surel { -brand-name-relay } Anda untuk membuat topeng baru secara instan di mana pun Anda berada.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Di restoran? Gunakan restaurant@yourdomain.{ $mozmail }. <p>Belanja? Coba shop@yourdomain.{ $mozmail }</p>
+
+## Update reply description onboarding step
+
+multi-part-onboarding-premium-reply-description = Balas surel tanpa memberikan alamat asli Anda
