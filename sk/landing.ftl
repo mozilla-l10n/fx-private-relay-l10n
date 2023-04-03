@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Chráňte svoju identitu pomocou bezpečného maskovania telefónu a e-mailu
@@ -178,3 +177,82 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } môže
 
 landing-faq-headline = Najčastejšie otázky o službe { -brand-name-firefox-relay }
 landing-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Uľahčite si ochranu doručenej pošty pomocou { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu. <b>Po obmedzenú dobu môžete inovovať na { -brand-name-relay-premium } len za { $monthly_price } mesačne.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu.
+premium-promo-hero-cta = Inovovať teraz
+
+premium-promo-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+premium-promo-offer-end-hero-cta = Inovovať teraz
+
+premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
+premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
+
+premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
+premium-promo-perks-cta-label = Inovovať teraz
+premium-promo-perks-cta-tooltip = Inovovať na { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Novinka!
+premium-promo-perks-perk-unlimited-headline-2 = Vytvárajte neobmedzený počet e-mailových masiek
+premium-promo-perks-perk-unlimited-body-2 = Už žiadny limit piatich masiek: so službou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
+premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
+premium-promo-perks-perk-custom-domain-body-2 = S vlastnou subdoménou môžete vytvárať masky, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete masku na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — masku nie je potrebné vytvárať vopred.
+premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky z ovládacieho panela
+premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
+premium-promo-perks-perk-block-promotionals-headline = Blokovanie marketingových e-mailov
+premium-promo-perks-perk-block-promotionals-body = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e-mailov do vašej schránky a zároveň stále prijímať e-maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
+premium-promo-perks-perk-tracker-blocking-headline = Odstraňovanie sledovacích prvkov z e-mailov
+premium-promo-perks-perk-tracker-blocking-body = Teraz vám { -brand-name-relay } môže pomôcť zastaviť sledovanie e-mailov – vaše e-mailové masky odstránia bežné sledovacie prvky zo všetkých e-mailov, ktoré vám preposielame, čím vám pomôžu zostať neviditeľnými pre sledovačov a inzerentov.
+
+premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -brand-name-relay } kdekoľvek
+premium-promo-use-cases-shopping-heading = Nakupovanie
+premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými maskami, ako napríklad „mojenakupy@mojadomena.mozmail.com“.
+premium-promo-use-cases-social-networks-heading = Sociálne siete
+premium-promo-use-cases-social-networks-body-2 = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite inú e-mailovú masku a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
+premium-promo-use-cases-gaming-heading = Hranie hier
+premium-promo-use-cases-gaming-body-2 = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite masku ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
+
+premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
+premium-promo-pricing-offer-end-warning = Platnosť tejto promo akcie čoskoro vyprší
+premium-promo-pricing-offer-end-cta = Inovovať teraz
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Pridajte sa do zoznamu čakateľov na { -brand-name-relay-premium }
+waitlist-heading-phone = Pridajte sa do zoznamu čakateľov na maskovanie telefónneho čísla pomocou { -brand-name-relay }
+waitlist-heading-bundle = Pridajte sa do zoznamu čakateľov na balík { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Dáme vám vedieť, keď bude { -brand-name-relay-premium } vo vašej oblasti k dispozícii.
+waitlist-lead-phone = Dáme vám vedieť, keď bude maskovanie telefónneho čísla dostupné vo vašej oblasti.
+waitlist-lead-bundle = Dáme vám vedieť, keď budete môcť získať { -brand-name-relay-premium } a { -brand-name-mozilla-vpn } so zľavou vo vašej oblasti.
+waitlist-control-required = Vyžadované
+waitlist-control-email-label = Aká je vaša e-mailová adresa?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = vasemeno@example.com
+waitlist-control-country-label-2 = V ktorej krajine alebo regióne žijete?
+waitlist-control-locale-label = Vyberte si vami požadovaný jazyk.
+waitlist-submit-label-2 = Pridať sa na zoznam čakateľov
+waitlist-privacy-policy-agree-2 = Kliknutím na “{ waitlist-submit-label-2 }“ súhlasíte s našimi <a>Zásadami ochrany osobných údajov</a>.
+waitlist-privacy-policy-use = Vaše informácie budú použité iba na to, aby sme vás informovali o dostupnosti služby { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Vaše informácie sa použijú iba na to, aby sme vás upozornili, keď bude vo vašej oblasti k dispozícii maskovanie telefónneho čísla.
+waitlist-privacy-policy-use-bundle = Vaše informácie budú použité iba na to, aby sme vás informovali o dostupnosti balíka { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Ste na zozname! Keď bude služba { -brand-name-firefox-relay-premium } dostupná pre váš región, pošleme vám e-mail.
+waitlist-subscribe-error-connection = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Skontrolujte pripojenie a skúste to znova.
+waitlist-subscribe-error-unknown = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Prosím skúste znova.

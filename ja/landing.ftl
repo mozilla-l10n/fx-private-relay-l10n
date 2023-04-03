@@ -56,3 +56,26 @@ landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
 
 landing-faq-headline = { -brand-name-firefox-relay } に関する最もよくある質問
 landing-faq-cta = { -brand-name-firefox-relay } に関するよくある質問をもっと見る
+
+## Premium promo page
+
+premium-promo-hero-cta = 今すぐアップグレード
+
+premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
+
+premium-promo-perks-cta-label = 今すぐアップグレード
+premium-promo-perks-perk-block-promotionals-headline = 広告メールをブロック
+
+premium-promo-use-cases-shopping-heading = ショッピング
+premium-promo-use-cases-social-networks-heading = SNS
+premium-promo-use-cases-gaming-heading = ゲーム
+
+## The Premium waitlist page
+
+waitlist-control-required = 必須
+waitlist-control-email-label = メールアドレス
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-locale-label = ご希望の言語を選択してください。
+waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefox-relay-premium } の利用についての通知のみに使用されます。
