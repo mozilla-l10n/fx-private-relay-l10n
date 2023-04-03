@@ -36,7 +36,7 @@ banner-register-subdomain-headline-aliases-2 = Get a custom subdomain for your m
 banner-register-subdomain-example-address = yourdomain
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
