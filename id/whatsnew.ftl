@@ -82,3 +82,8 @@ whatsnew-feature-offer-countdown-snippet = Dapatkan { -brand-name-relay-premium 
 whatsnew-feature-offer-countdown-description = Dapatkan { -brand-name-relay-premium } sebelum { $end_date } dan nikmati topeng tanpa batas dengan harga perkenalan untuk langganan per bulan dari kami.
 whatsnew-feature-offer-countdown-cta = Tingkatkan sekarang
 
+whatsnew-feature-firefox-integration-heading = { -brand-name-relay } sekarang tersedia di pengelola kata sandi { -brand-name-firefox }
+# A preview of the full content of `whatsnew-feature-firefox-integration-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-firefox-integration-snippet = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat menghasilkan…
+whatsnew-feature-firefox-integration-description = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat membuat topeng surel { -brand-name-relay } baru langsung dari pengelola kata sandi { -brand-name-firefox } Anda di desktop.

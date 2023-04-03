@@ -16,6 +16,8 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Menu
 nav-home = Beranda
+nav-email-dashboard = Topeng Email
+nav-phone-dashboard = Topeng Telepon
 label-open-menu = Buka menu
 avatar-tooltip = Profil
 
@@ -36,6 +38,9 @@ nav-profile-contact = Hubungi kami
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Hubungi kami tentang { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-duo-description = Ganti dasbor
+nav-duo-email-mask-alt = Topeng surel
+nav-duo-phone-mask-alt = Topeng telepon
 
 ## Mobile menu text
 
@@ -57,6 +62,7 @@ nav-footer-privacy = Privasi
 nav-footer-relay-terms = Ketentuan { -brand-name-relay }
 nav-footer-legal = Legal
 nav-footer-release-notes = Catatan Rilis
+nav-footer-stock-photo-legal = Foto-foto di laman ini bersumber dari iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHub
 

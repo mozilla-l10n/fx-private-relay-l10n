@@ -95,6 +95,7 @@ banner-ab-premium-promo-cta = 升級
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = 需要採取行動
 banner-set-email-domain-headline = 設定您的獨特 { -brand-name-relay } 郵件網域
 banner-set-email-domain-step-one-headline = 選擇您想要使用的 { -brand-name-relay } 郵件網域
 banner-set-email-domain-step-one-body = 是您的電子郵件地址中，@ 符號的後面。
@@ -134,6 +135,8 @@ modal-email-domain-success-body-any-word = 線上購物嗎？可用 store{ $cust
 modal-email-domain-success-continue = 繼續
 
 tooltip-email-domain-explanation-title = 關於您的獨特 { -brand-name-relay } 郵件網域
+tooltip-email-domain-explanation-part-one = { -brand-name-relay-premium } 帳號的這個超有價值功能讓您可以選擇一個獨特的 { -brand-name-relay } 郵件網域並用來建立無限量、自訂 { -brand-name-relay } 轉寄信箱。開始了
+tooltip-email-domain-explanation-part-two = 無須登入 { -brand-name-relay } 即可產生新轉寄信箱只要在 { -brand-name-relay } 郵件網域的 @ 符號前加入任何字或詞組即可隨時隨地建立新轉寄信箱。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
