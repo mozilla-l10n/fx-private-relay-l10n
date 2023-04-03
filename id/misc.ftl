@@ -188,6 +188,9 @@ survey-csat-followup = Terima kasih atas tanggapan Anda. Kami ingin mempelajari 
 forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel asli Anda akan diketahui.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = Tingkatkan ke { $premium_link } untuk mendapatkan topeng surel tanpa batas, subdomain khusus, dan kemampuan untuk membalas surel.
+# Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-header-offer-countdown-banner = Penawaran harga bulanan intro kami akan berakhir. Tingkatkan versi ke { $premium_link }.
 # Variables:
@@ -207,5 +210,29 @@ forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } 
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Kami telah mengirim balasan ini ke { $sender }. Namun selanjutnya, balasan Anda tidak akan dikirim.
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Balasan Anda tidak dikirim ke { $sender }.
+replies-only-available-with-premium = Membalas surel yang diteruskan dari surel bertopeng Anda hanya tersedia dengan { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Balasan tidak disertakan dengan akun gratis Anda
+reply-not-sent-header = Balasan Anda tidak terkirim
+upgrade-to-reply-to-future-emails = Tingkatkan sekarang untuk mengirim balasan
+upgrade-for-more-protection = Tingkatkan untuk perlindungan lebih lanjut
+upgrade-to-premium = Tingkatkan ke { -brand-name-firefox-relay-premium }
+manage-your-masks = Kelola topeng Anda
+
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maxmimum email masks created for free account
+api-error-free-tier-limit = Anda telah menggunakan semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
+api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain kustom untuk topeng. Untuk membuat topeng kustom, tingkatkan ke { -brand-name-relay-premium }.
+
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.
+api-error-need-subdomain = Pilih subdomain sebelum membuat alamat surel khusus.
+api-error-account-is-paused = Akun Anda sedang dijeda.

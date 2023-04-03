@@ -35,6 +35,8 @@ profile-label-delete = Hapus
 profile-label-upgrade-2 = Dapatkan topeng surel tak terbatas
 profile-label-create-subdomain = Dapatkan subdomain surel Anda
 profile-label-subdomain = Subdomain Surel:
+profile-label-custom-domain = Domain surel { -brand-name-relay } Anda:
+profile-label-set-your-custom-domain = Setel domain surel { -brand-name-relay } unik Anda
 profile-label-subdomain-tooltip-trigger = Informasi lebih lanjut
 profile-label-subdomain-tooltip = Buat subdomain surel unik Anda.
 profile-label-reset = Setel Ulang
@@ -107,6 +109,8 @@ profile-indicator-tracker-removal-tooltip = Saat ini menghapus pelacak surel
 profile-promo-email-blocking-title = Surel apa yang ingin Anda blokir?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Semua
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Promosi
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Tidak ada
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } memblokir semua surel yang masuk ke topeng ini.

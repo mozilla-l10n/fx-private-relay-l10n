@@ -46,6 +46,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = 新增 { -brand-name-r
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = 已安裝 { -brand-name-relay } 擴充套件！
+multi-part-onboarding-premium-added-extension-body = 不再需要登入 { -brand-name-relay } 才能產生新的轉寄信箱只要當網站要求您提供信箱時畫面當中就會出現 Relay 圖示。
 
 multi-part-onboarding-premium-extension-button-dashboard = 前往儀錶板
 multi-part-onboarding-skip = 先跳過，之後再設定
