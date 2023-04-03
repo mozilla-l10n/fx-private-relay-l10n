@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Protege tu identidad con enmascaramiento seguro de correo electrónico y teléfono
@@ -194,3 +193,84 @@ highlighted-features-section-remove-trackers-body =
 
 landing-faq-headline = Principales preguntas sobre { -brand-name-firefox-relay }
 landing-faq-cta = Ver más preguntas frecuentes sobre { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Simplifica la protección de tu bandeja de entrada con { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, obtienes máscaras ilimitadas de correo electrónico personalizado que reenvían solo los correos electrónicos que deseas a tu dirección de correo electrónico real. <b>Por tiempo limitado, puedes actualizar a { -brand-name-relay-premium } por solo { $monthly_price } al mes.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, obtienes máscaras de correo electrónico personalizadas ilimitadas que reenvían solo los correos electrónicos que deseas a tu verdadera dirección de correo electrónico.
+premium-promo-hero-cta = Actualizar ahora
+
+premium-promo-offer-end-hero-heading = ¡Nuestra oferta a precio de lanzamiento terminará pronto!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
+premium-promo-offer-end-hero-cta = Actualizar ahora
+
+premium-promo-availability-warning = { -brand-name-relay-premium } está actualmente disponible en Austria, Bélgica, Canadá, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suiza, Reino Unido y Estados Unidos.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } está actualmente disponible en Austria, Bélgica, Canadá, Finlandia, Francia, Alemania, Irlanda, Italia, Malasia, Países Bajos, Nueva Zelanda, Singapur, España, Suecia, Suiza, Reino Unido y Estados Unidos.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } está disponible en Austria, Bélgica, Canadá, Chipre, Estonia, Finlandia, Francia, Alemania, Grecia, Irlanda, Italia, Letonia, Lituania, Luxemburgo, Malasia, Malta, Países Bajos, Nueva Zelanda, Portugal, Singapur, Eslovaquia, Eslovenia, España, Suecia, Suiza, Reino Unido y Estados Unidos.
+
+premium-promo-perks-headline = ¿Por qué actualizar a { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, obtienes toda la protección y gestión de tu bandeja de entrada que proporciona { -brand-name-relay }, pero con máscaras de correo electrónico ilimitadas y tu propio subdominio personalizado para que la administración de tu bandeja de entrada sea aún más fácil.
+premium-promo-perks-cta-label = Actualizar ahora
+premium-promo-perks-cta-tooltip = Actualiza a { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = ¡Nuevo!
+premium-promo-perks-perk-unlimited-headline-2 = Crea máscaras de correo electrónico ilimitadas
+premium-promo-perks-perk-unlimited-body-2 = No más límite de cinco máscaras: con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada de spam y rastreadores en línea. Incluso puedes responder a correos electrónicos sin exponer tu dirección real.
+premium-promo-perks-perk-custom-domain-headline-2 = Elige tu propio subdominio personalizado
+premium-promo-perks-perk-custom-domain-body-2 =
+    Con un subdominio personalizado, puedes crear máscaras que son más fáciles de recordar y compartir.
+    ¿Necesitas una máscara para las reservas de restaurantes? Usa una como comida@tudominio.mozmail.com. No es necesario crear la máscara de antemano.
+premium-promo-perks-perk-dashboard-headline-2 = Controla tus máscaras desde el panel
+premium-promo-perks-perk-dashboard-body-2 = Administra todas tus máscaras en el panel de fácil uso: si ves que una recibe mensajes no deseados, puedes bloquear esos mensajes para que no lleguen a tu bandeja de entrada.
+premium-promo-perks-perk-block-promotionals-headline = Bloquear correos promocionales
+premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
+premium-promo-perks-perk-tracker-blocking-headline = Eliminar rastreadores de correo electrónico
+premium-promo-perks-perk-tracker-blocking-body = Ahora { -brand-name-relay } puede ayudarte a detener el seguimiento desde el correo: tus máscaras de correo eliminarán los rastreadores de correo comunes de cualquier correo que se te reenvíe, lo que te ayudará a mantenerte invisible para los rastreadores y los anunciantes.
+
+premium-promo-use-cases-headline-2 = Utiliza las máscaras de correo de { -brand-name-relay } en cualquier lugar
+premium-promo-use-cases-shopping-heading = Compras
+premium-promo-use-cases-shopping-body-2 = ¿Estás intentando registrarte para obtener descuentos sin recibir spam? Agrupa todas tus cuentas de “compras” bajo máscaras personalizadas únicas, como “descuentos@midominio.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Redes sociales
+premium-promo-use-cases-social-networks-body-2 = ¿Quieres proteger mejor tu identidad en línea cuando usas una red social? Usa una máscara diferente para iniciar sesión en cada red social y así ayudar a proteger tu verdadero correo electrónico evitando exponerlo en estos sitios.
+premium-promo-use-cases-gaming-heading = Juegos
+premium-promo-use-cases-gaming-body-2 = ¿Te preocupa que otros jugadores o trolls sepan quién eres a través de tu nombre y dirección de correo electrónico? Utiliza una máscara como “juegoenlinea@midominio.mozmail.com” para poner una capa más de protección entre tu identidad y los juegos que juegas en línea.
+
+premium-promo-pricing-free-price = Tu plan gratuito actual
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Precio de lanzamiento: mascaras ilimitadas por { $monthly_price } al mes
+premium-promo-pricing-offer-end-warning = Esta promoción termina pronto
+premium-promo-pricing-offer-end-cta = Actualizar ahora
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta protección premium de correo a nuestro precio mensual de lanzamiento.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Únete a la lista de espera de { -brand-name-relay-premium }
+waitlist-heading-phone = Únete a la lista de espera de enmascaramiento de teléfonos de { -brand-name-relay } 
+waitlist-heading-bundle = Únete a la lista de espera para el paquete { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Te informaremos cuando { -brand-name-relay-premium } esté disponible en tu área.
+waitlist-lead-phone = Te avisaremos cuando el enmascaramiento de teléfonos esté disponible en tu área.
+waitlist-lead-bundle = Te avisaremos cuando puedas obtener { -brand-name-relay-premium } y { -brand-name-mozilla-vpn } con descuento en tu área.
+waitlist-control-required = Requerido
+waitlist-control-email-label = ¿Cuál es tu dirección de correo electrónico?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = tunombre@example.com
+waitlist-control-country-label-2 = ¿En qué país o región vives?
+waitlist-control-locale-label = Selecciona tu idioma preferido.
+waitlist-submit-label-2 = Únete a la lista de espera
+waitlist-privacy-policy-agree-2 = Al hacer clic en “{ waitlist-submit-label-2 }”, aceptas nuestra <a>política de privacidad</a>.
+waitlist-privacy-policy-use = Tu información será utilizada solamente para avisarte de la disponibilidad de { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Tu información será utilizada solo para avisarte cuando el enmascaramiento de teléfonos esté disponible en tu área.
+waitlist-privacy-policy-use-bundle = Tu información será utilizada solo para avisarte de la disponibilidad del paquete { -brand-name-relay } + { -brand-name-vpn }
+waitlist-subscribe-success = ¡Estás en la lista! Cuando { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
+waitlist-subscribe-error-connection = Ha habido un error al añadirte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
+waitlist-subscribe-error-unknown = Ha habido un error al añadirte a la lista. Vuelve a intentarlo más tarde.

@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Skydda din identitet med säkra telefon- och e-postalias
@@ -194,3 +193,82 @@ highlighted-features-section-remove-trackers-body =
 
 landing-faq-headline = De vanligaste frågorna om { -brand-name-firefox-relay }
 landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till { -brand-name-relay-premium } för endast { $monthly_price } i månaden.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
+premium-promo-hero-cta = Uppgradera nu
+
+premium-promo-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+premium-promo-offer-end-hero-cta = Uppgradera nu
+
+premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
+
+premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
+premium-promo-perks-cta-label = Uppgradera nu
+premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Ny!
+premium-promo-perks-perk-unlimited-headline-2 = Skapa obegränsat antal e-postalias
+premium-promo-perks-perk-unlimited-body-2 = Ingen gräns på fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
+premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
+premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad underdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa alias i förväg.
+premium-promo-perks-perk-dashboard-headline-2 = Styr dina alias från översikten
+premium-promo-perks-perk-dashboard-body-2 = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
+premium-promo-perks-perk-block-promotionals-headline = Blockera e-postreklam
+premium-promo-perks-perk-block-promotionals-body = Med { -brand-name-relay-premium }, kan du blockera e-postreklam-meddelanden från att nå din inkorg samtidigt som du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
+premium-promo-perks-perk-tracker-blocking-headline = Ta bort e-postspårare
+premium-promo-perks-perk-tracker-blocking-body = Nu kan { -brand-name-relay } hjälpa dig att stoppa e-postspårning – dina e-post alias tar bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för spårare och annonsörer.
+
+premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
+premium-promo-use-cases-shopping-heading = Shopping
+premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
+premium-promo-use-cases-social-networks-heading = Sociala nätverk
+premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-postalias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
+premium-promo-use-cases-gaming-heading = Spel
+premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
+
+premium-promo-pricing-free-price = Din nuvarande gratisplan
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
+premium-promo-pricing-offer-end-warning = Denna kampanj går snart ut
+premium-promo-pricing-offer-end-cta = Uppgradera nu
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Ställ dig i väntelistan för { -brand-name-relay-premium }
+waitlist-heading-phone = Gå med i väntelistan för { -brand-name-relay } telefonmaskering
+waitlist-heading-bundle = Gå med i väntelistan för paketet { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Vi meddelar dig när { -brand-name-relay-premium } är tillgänglig i ditt område.
+waitlist-lead-phone = Vi meddelar dig när telefonmaskering är tillgänglig i ditt område.
+waitlist-lead-bundle = Vi meddelar dig när du kan få { -brand-name-relay-premium } och { -brand-name-mozilla-vpn } till rabatterat pris i ditt område.
+waitlist-control-required = Krävs
+waitlist-control-email-label = Vad är din e-postadress?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = dittnamn@exempel.se
+waitlist-control-country-label-2 = Vilket land eller region bor du i?
+waitlist-control-locale-label = Välj ditt önskade språk.
+waitlist-submit-label-2 = Ställ dig i väntelistan
+waitlist-privacy-policy-agree-2 = Genom att klicka på "{ waitlist-submit-label-2 }" godkänner du vår <a>sekretesspolicy</a>.
+waitlist-privacy-policy-use = Din information kommer endast att användas för att meddela dig om tillgänglighet för { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Din information kommer endast att användas för att meddela dig när telefonmaskering är tillgänglig i ditt område.
+waitlist-privacy-policy-use-bundle = Din information kommer endast att användas för att meddela dig om tillgänglighet för paketet { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Du är på listan! När { -brand-name-firefox-relay-premium } blir tillgänglig för din region skickar vi ett e-postmeddelande till dig.
+waitlist-subscribe-error-connection = Det gick inte att lägga till dig på väntelistan. Kontrollera din anslutning och försök sedan igen.
+waitlist-subscribe-error-unknown = Det gick inte att lägga till dig på väntelistan. Var god försök igen.

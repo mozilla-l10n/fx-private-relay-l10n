@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Védje személyazonosságát a biztonságos telefon- és e-mail-maszkolással
@@ -192,3 +191,82 @@ highlighted-features-section-remove-trackers-body = A { -brand-name-relay } el t
 
 landing-faq-headline = A leggyakoribb kérdések a { -brand-name-firefox-relay }-jel kapcsolatban
 landing-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcsolatban
+
+## Premium promo page
+
+premium-promo-hero-headline = Tegye egyszerűbbé a postafiókja védelmét a { -brand-name-firefox-relay-premium } segítségével
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segítségével korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére. <b>Korlátozott ideig, csak havi { $monthly_price }-ért frissíthet a { -brand-name-relay-premium }ra.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = A { -brand-name-firefox-relay-premium }mal korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére.
+premium-promo-hero-cta = Frissítsen most
+
+premium-promo-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
+premium-promo-offer-end-hero-cta = Frissítés most
+
+premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
+premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
+premium-promo-availability-warning-3 = A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
+
+premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
+premium-promo-perks-lead-2 = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail-maszkkal és egyéni aldomainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
+premium-promo-perks-cta-label = Frissítsen most
+premium-promo-perks-cta-tooltip = Frissítés erre: { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Új
+premium-promo-perks-perk-unlimited-headline-2 = Korlátlan számú e-mail-maszk létrehozása
+premium-promo-perks-perk-unlimited-body-2 = Nincs többé öt maszkos korlát: a { -brand-name-relay-premium } segítségével annyi maszkot állíthat elő, amennyire csak szüksége van, hogy megvédje a postaládáját a kéretlen levelektől és az online nyomkövetőktől. Még az e-mailekre is válaszolhat anélkül, hogy felfedné valódi címét.
+premium-promo-perks-perk-custom-domain-headline-2 = Válassza ki saját egyéni aldomainjét
+premium-promo-perks-perk-custom-domain-body-2 = Egyéni aldomain segítségével olyan maszkokat hozhat létre, amelyeket minden eddiginél könnyebben megjegyezhet és megoszthat. Kell egy az éttermi foglalásokhoz? Használja például a kaja@mydomain.mozmail.com címet – nem szükséges előzetesen létrehoznia a maszkot.
+premium-promo-perks-perk-dashboard-headline-2 = Kezelje a maszkot az irányítópultról
+premium-promo-perks-perk-dashboard-body-2 = Kezelje összes e-mail-maszkját a könnyen használható irányítópulton: ha úgy találja, hogy az egyik nem kívánt üzeneteket kap, letilthatja, hogy ezek az üzenetek ne kerüljenek a beérkező levelei közé.
+premium-promo-perks-perk-block-promotionals-headline = Promóciós e-mailek blokkolása
+premium-promo-perks-perk-block-promotionals-body = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
+premium-promo-perks-perk-tracker-blocking-headline = E-mail-követők eltávolítása
+premium-promo-perks-perk-tracker-blocking-body = Mostantól a { -brand-name-relay } segíthet megállítani az e-mailes nyomkövetést – az e-mail-maszkok eltávolítják a gyakori e-mail-követőket minden Önnek továbbított e-mailből, így láthatatlan marad a nyomkövetők és a hirdetők számára.
+
+premium-promo-use-cases-headline-2 = Használjon { -brand-name-relay } e-mail-maszkokat bárhol
+premium-promo-use-cases-shopping-heading = Vásárlás
+premium-promo-use-cases-shopping-body-2 = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni e-mail-maszkok alá, például „ajanlataim@mydomain.mozmail.com”.
+premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
+premium-promo-use-cases-social-networks-body-2 = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő e-mail-maszkot az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
+premium-promo-use-cases-gaming-heading = Játék
+premium-promo-use-cases-gaming-body-2 = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan maszkot, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
+
+premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért
+premium-promo-pricing-offer-end-warning = Ez a promóció hamarosan lejár
+premium-promo-pricing-offer-end-cta = Frissítés most
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Csatlakozzon a { -brand-name-relay-premium } várólistához
+waitlist-heading-phone = Csatlakozzon a { -brand-name-relay } telefonmaszkolási várólistához
+waitlist-heading-bundle = Csatlakozzon a { -brand-name-relay } + { -brand-name-vpn } csomag várólistájához
+waitlist-lead-2 = Értesíteni fogjuk, ha a { -brand-name-relay-premium } elérhető lesz az Ön területén.
+waitlist-lead-phone = Értesíteni fogjuk, ha a telefonmaszkolás elérhető lesz az Ön területén.
+waitlist-lead-bundle = Értesítjük, ha kedvezményesen szerezheti be a { -brand-name-relay-premium }ot és a { -brand-name-mozilla-vpn }-t az Ön területén.
+waitlist-control-required = Kötelező
+waitlist-control-email-label = Mi az e-mail-címe?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = email@example.com
+waitlist-control-country-label-2 = Melyik országban vagy régióban él?
+waitlist-control-locale-label = Válassza ki az előnyben részesített nyelvét.
+waitlist-submit-label-2 = Csatlakozás a várólistához
+waitlist-privacy-policy-agree-2 = A „{ waitlist-submit-label-2 }” gombra kattintással elfogadja az <a>Adatvédelmi irányelveinket</a>.
+waitlist-privacy-policy-use = Adatait csak arra használjuk, hogy értesítsük a { -brand-name-firefox-relay-premium } elérhetőségéről.
+waitlist-privacy-policy-use-phone = Adatait csak arra használjuk, hogy értesítsük a telefonmaszkolás elérhetőségéről az Ön területén.
+waitlist-privacy-policy-use-bundle = Adatait csak arra használjuk, hogy értesítsük a { -brand-name-relay } + { -brand-name-vpn } csomag elérhetőségéről.
+waitlist-subscribe-success = Rajta van a listán. Amint a { -brand-name-firefox-relay-premium } elérhetővé válik az Ön régiójában, e-mailt küldünk Önnek.
+waitlist-subscribe-error-connection = Hiba történt a várólistára való felvétel során. Ellenőrizze az internetkapcsolatát, majd próbálja újra.
+waitlist-subscribe-error-unknown = Hiba történt a várólistára való felvétel során. Próbálja újra.

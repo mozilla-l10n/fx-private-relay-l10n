@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Bescherm uw identiteit met veilige telefoon- en e-mailmaskering
@@ -194,3 +193,86 @@ highlighted-features-section-remove-trackers-body =
 
 landing-faq-headline = Veelgestelde vragen over { -brand-name-firefox-relay }
 landing-faq-cta = Meer FAQ over { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Maak het beschermen van uw Postvak IN gemakkelijker met { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Met { -brand-name-firefox-relay-premium } krijgt u onbeperkt aangepaste e-mailmaskers die alleen gewenste e-mailberichten doorsturen naar uw echte e-mailadres. <b>U kunt gedurende een beperkte tijd upgraden naar { -brand-name-relay-premium } voor slechts { $monthly_price } per maand.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Met { -brand-name-firefox-relay-premium } krijgt u onbeperkt aangepaste e-mailmaskers die alleen de gewenste e-mailberichten doorsturen naar uw echte e-mailadres.
+premium-promo-hero-cta = Nu upgraden
+
+premium-promo-offer-end-hero-heading = Onze introductieprijsaanbieding loopt binnenkort af!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Abonneer u vóór { $end_date } op { -brand-name-relay-premium } en geniet van eersteklas e-mailbescherming tegen onze introductieprijs voor een maandabonnement.
+premium-promo-offer-end-hero-cta = Nu upgraden
+
+premium-promo-availability-warning = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zwitserland, het VK en de VS.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } is momenteel beschikbaar in Oostenrijk, België, Canada, Finland, Frankrijk, Duitsland, Ierland, Italië, Maleisië, Nederland, Nieuw-Zeeland, Singapore, Spanje, Zweden, Zwitserland, het VK en de VS.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beschikbaar in Oostenrijk, België, Canada, Cyprus, Estland, Finland, Frankrijk, Duitsland, Griekenland, Ierland, Italië, Letland, Litouwen, Luxemburg, Maleisië, Malta, Nederland, Nieuw-Zeeland, Portugal, Singapore, Slowakije, Slovenië, Spanje, Zweden, Zwitserland, het Verenigd Koninkrijk en de Verenigde Staten.
+
+premium-promo-perks-headline = Waarom upgraden naar { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = Met { -brand-name-firefox-relay-premium } krijgt u alle bescherming van uw Postvak IN en het beheer van { -brand-name-relay }, maar met onbeperkte e-mailmaskers en uw eigen aangepaste subdomein om het beheren van uw Postvak IN nog eenvoudiger te maken.
+premium-promo-perks-cta-label = Nu upgraden
+premium-promo-perks-cta-tooltip = Upgraden naar { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nieuw!
+premium-promo-perks-perk-unlimited-headline-2 = Maak onbeperkt e-mailmaskers aan
+premium-promo-perks-perk-unlimited-body-2 = Geen limiet van vijf maskers meer: met { -brand-name-relay-premium } kunt u zoveel maskers aanmaken als u nodig hebt om uw Postvak IN te beschermen tegen spammers en online trackers. U kunt zelfs e-mailberichten beantwoorden zonder uw echte adres bekend te maken.
+premium-promo-perks-perk-custom-domain-headline-2 = Kies uw eigen aangepaste subdomein
+premium-promo-perks-perk-custom-domain-body-2 =
+    Met een aangepast subdomein kunt u maskers maken die gemakkelijker dan ooit te onthouden en te delen zijn.
+    Hebt u er een nodig voor restaurantreserveringen? Gebruik bijvoorbeeld eten@uwdomein.mozmail.com – U hoeft het masker niet vooraf te maken.
+premium-promo-perks-perk-dashboard-headline-2 = Beheer uw maskers vanaf het dashboard
+premium-promo-perks-perk-dashboard-body-2 = Beheer al uw e-mailmaskers in het gebruiksvriendelijke dashboard: als u merkt dat er één ongewenste berichten ontvangt, kunt u voorkomen dat die berichten uw Postvak IN bereiken.
+premium-promo-perks-perk-block-promotionals-headline = Reclameberichten blokkeren
+premium-promo-perks-perk-block-promotionals-body = Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken, terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
+premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers verwijderen
+premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kan u nu helpen het volgen van e-mail te stoppen — uw e-mailmaskers verwijderen veelvoorkomende e-mailtrackers uit alle e-mailberichten die naar u worden doorgestuurd, zodat u onzichtbaar blijft voor trackers en adverteerders.
+
+premium-promo-use-cases-headline-2 = Gebruik e-mailmaskers van { -brand-name-relay } overal
+premium-promo-use-cases-shopping-heading = Winkelen
+premium-promo-use-cases-shopping-body-2 = Probeert u zich aan te melden voor kortingen zonder alle spam? Bundel al uw ‘winkel’-accounts onder unieke aangepaste e-mailmaskers, zoals ‘mijndeals@mijndomein.mozmail.com’.
+premium-promo-use-cases-social-networks-heading = Sociale netwerken
+premium-promo-use-cases-social-networks-body-2 = Wilt u uw online identiteit beter beschermen bij het gebruik van een sociaal netwerk? Gebruik een ander e-mailmasker om voor elke aanmelding bij een sociaal netwerk om te helpen voorkomen dat uw echte e-mailadres zichtbaar is voor die websites.
+premium-promo-use-cases-gaming-heading = Gaming
+premium-promo-use-cases-gaming-body-2 =
+    Maakt u zich zorgen dat andere gamers of pestkoppen erachter komen wie u bent via uw gamertag en e-mailadres?
+    Gebruik een masker zoals ‘onlinegame@mijndomein.mozmail.com’ om een extra beschermingslaag te plaatsen tussen uw identiteit en de games die u online speelt.
+
+premium-promo-pricing-free-price = Uw huidige gratis abonnement
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Introductieprijs: onbeperkte maskers voor { $monthly_price } per maand
+premium-promo-pricing-offer-end-warning = Deze actie verloopt binnenkort
+premium-promo-pricing-offer-end-cta = Nu upgraden
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Abonneer u vóór { $end_date } op { -brand-name-relay-premium } en geniet van eersteklas e-mailbescherming tegen onze introductieprijs voor een maandabonnement.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
+waitlist-heading-phone = Inschrijven voor de { -brand-name-relay }-telefoonmaskeringswachtlijst
+waitlist-heading-bundle = Inschrijven voor de { -brand-name-relay } + { -brand-name-vpn }-bundel
+waitlist-lead-2 = We laten het u weten wanneer { -brand-name-relay-premium } beschikbaar is in uw regio.
+waitlist-lead-phone = We laten het u weten wanneer telefoonmaskering beschikbaar is in uw regio.
+waitlist-lead-bundle = We laten het u weten wanneer u { -brand-name-relay-premium } en { -brand-name-mozilla-vpn } met korting kunt krijgen in uw regio.
+waitlist-control-required = Vereist
+waitlist-control-email-label = Wat is uw e-mailadres?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = uwnaam@example.com
+waitlist-control-country-label-2 = In welk land of welke regio woont u?
+waitlist-control-locale-label = Selecteer uw voorkeurstaal.
+waitlist-submit-label-2 = Op de wachtlijst plaatsen
+waitlist-privacy-policy-agree-2 = Door op ‘{ waitlist-submit-label-2 }’ te klikken, gaat u akkoord met ons <a>Privacybeleid</a>.
+waitlist-privacy-policy-use = Uw gegevens worden alleen gebruikt om u te berichten over beschikbaarheid van { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Uw gegevens worden alleen gebruikt om u te berichten als telefoonmaskering beschikbaar is in uw regio.
+waitlist-privacy-policy-use-bundle = Uw gegevens worden alleen gebruikt om u te berichten over beschikbaarheid van de { -brand-name-relay } + { -brand-name-vpn }-bundel.
+waitlist-subscribe-success = U staat op de lijst! Zodra { -brand-name-firefox-relay-premium } beschikbaar komt voor uw regio, sturen we u een e-mailbericht.
+waitlist-subscribe-error-connection = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Controleer uw verbinding en probeer het opnieuw.
+waitlist-subscribe-error-unknown = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Probeer het nog eens.
