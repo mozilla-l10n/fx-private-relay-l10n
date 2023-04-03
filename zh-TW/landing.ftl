@@ -17,9 +17,6 @@ hero-section-cta = 開始使用
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
-bundle-banner-body-3 = { -brand-name-mozilla-vpn } 保護您在玩遊戲、上網時或完成工作時不受追踪和監控。加入 { -brand-name-firefox-relay } 即可享 { $havings } 折扣。
 bundle-banner-plan-header-2 = 您的年約方案包含：
 bundle-banner-plan-modules-email-masking = 轉寄信箱
 bundle-banner-plan-modules-phone-masking = 虛擬手機號碼轉接
@@ -59,7 +56,6 @@ how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板�
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = 選擇適合您的保護等級
-plan-matrix-offer-body = { -brand-name-firefox-relay } 用獨特的轉寄信箱來保護您的個人身分與收件匣。使用 { -brand-name-relay } 虛擬電話轉接功能讓安全性更上一層樓並透過 { -brand-name-vpn } 保護功能更省下 { $having }。
 
 # Top Row Labels
 
