@@ -1153,12 +1153,14 @@ multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } 
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
+multi-part-onboarding-skip-download-extension = چھوڑو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-continue = جاری
 
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = عمل ضروری ہے
 banner-set-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+banner-set-email-domain-step-one-headline = آپݨی ترجیحی { -brand-name-relay } ای میل ڈومین چݨو
 banner-set-email-domain-input-placeholder-label = ای میل ڈومین ڳولو
 banner-set-email-domain-input-placeholder = ہک لفظ یا ترکیب ڳولو
 banner-set-email-domain-input-search = ڳولو
@@ -1176,6 +1178,9 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> دستیاب ہے
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 modal-email-domain-cancel = منسوخ
 modal-email-domain-register = رجسٹر کرو
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
 modal-email-domain-success-continue = جاری
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے
 
