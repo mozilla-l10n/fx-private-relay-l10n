@@ -6,10 +6,7 @@
 ## HERO SECTION 
 
 hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
-hero-section-body =
-    安全、簡單使用的轉寄信箱與手機號碼轉寄信箱可幫助您隱藏您的身分
-    這樣您就可以匿名地註冊新帳號、停止收到垃圾信與垃圾電話、
-    只寄出想要的信件在收件匣中。
+hero-section-body = 我們安全、好用的轉寄信箱與手機轉接號碼，可幫助您保護身分隱私、匿名地註冊新帳號、停止收到垃圾信與垃圾電話，並且只在收件匣中收到想收的信件。
 hero-section-cta = 開始使用
 
 ## BUNDLE BANNER SECTION
@@ -41,17 +38,17 @@ how-it-works-section-title = { -brand-name-relay } 轉寄信箱與虛擬電話�
 # Item 1
 
 how-it-works-section-extension-headline = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱與虛擬轉接門號
-how-it-works-section-extension-body = 獲得安全、隨機的轉寄信箱與獨特的被轉寄信箱號碼任何時候只要網站、應用程式、商店或餐廳要求您提供資訊時就可以使用。
+how-it-works-section-extension-body = 獲得安全、隨機的轉寄信箱與獨特的手機虛擬轉接門號，讓您隨時隨地能提供給任何網站、應用程式、商店或餐廳。
 
 # Item 2
 
 how-it-works-section-forward-headline = 我們會將收到的電子郵件、來電、簡訊轉寄給您
-how-it-works-section-forward-body = 請放心寄件者永遠不會知道您的實際電子郵件地址或實際電話號碼。您甚至可以不透露實際身分回覆簡訊與郵件。
+how-it-works-section-forward-body = 請放心，寄件者永遠不會知道您的實際電子郵件地址或電話號碼。您甚至還可以不用透露實際身分，就能回覆簡訊與郵件。
 
 # Item 3
 
 how-it-works-section-manage-headline = 在 { -brand-name-relay } 儀錶板管理您的轉寄信箱
-how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板即可建立新的轉寄信箱、為現有的轉寄信箱加上標籤、封鎖來自轉寄信箱的來電、簡訊或郵件。
+how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板即可建立新的轉寄信箱、為現有的轉寄信箱加上標籤、如果轉寄信箱收到太多垃圾電話、簡訊或郵件，也可以直接封鎖。
 
 ## PRICING MATRIX SECTION
 
@@ -149,20 +146,14 @@ highlighted-features-section-new-item = 新功能！
 highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    人人都能免費獲得 { $mask_limit } 組轉寄信箱。
-    但透過 { -brand-name-relay-premium }您可以隨意產生轉寄信箱來保護您的收件匣
-    來自垃圾郵件發送者、駭客、線上追踪器。
+highlighted-features-section-unlimited-masks-body = 人人都能免費獲得 { $mask_limit } 組轉寄信箱。但透過 { -brand-name-relay-premium }，您可以隨意產生無限組轉寄信箱來保護您的收件匣，不受垃圾郵件發送者、駭客、線上追蹤器侵害。
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } 為您提供獨特的 { -brand-name-relay } 郵件網域讓您
-    隨時隨地都能建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。在餐廳使用restaurant@yourdomain。{ $mozmail }。
-    購物試試shop@yourdomain.{ $mozmail }。
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } 讓您可以設定專屬 { -brand-name-relay } 郵件網域，讓您能隨時隨地建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。想預約餐廳？可以使用 restaurant@yourdomain.{ $mozmail }。買東西？可以使用 shop@yourdomain.{ $mozmail }。
 
 # Item 3
 
