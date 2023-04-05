@@ -1146,6 +1146,7 @@ multi-part-onboarding-premium-email-domain-added = تہاݙی ای میل ڈوم
 ## Step 3 Add Relay Extension
 
 multi-part-onboarding-premium-add-extension-headline = { -brand-name-relay } ایکسٹنشن شامل کرو
+multi-part-onboarding-premium-add-extension-feature-headline = { -brand-name-relay } ایکسٹنشن نال تساں کر سڳدے ہو:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = کہیں ویب سائٹ کنوں نویں { -brand-name-relay } ماسک بݨاؤ
 multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } ایکسٹنشن شامل کرو
 
