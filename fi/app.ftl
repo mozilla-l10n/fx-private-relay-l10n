@@ -363,6 +363,7 @@ waitlist-submit-label-2 = Liity odotuslistalle
 # Deprecated
 waitlist-privacy-policy-agree = Napsauttamalla “{ waitlist-submit-label }” hyväksyt <a>tietosuojakäytäntömme</a>.
 waitlist-privacy-policy-agree-2 = Napsauttamalla “{ waitlist-submit-label-2 }” hyväksyt <a>tietosuojakäytäntömme</a>.
+waitlist-privacy-policy-use = Tietojasi käytetään vain { -brand-name-firefox-relay-premium }in saatavuudesta ilmoittamiseen.
 waitlist-privacy-policy-use-phone = Tietojasi käytetään vain ilmoitukseen, kun puhelinnumeron maski on saatavilla alueellasi.
 waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-premium } tulee saataville alueellasi, lähetämme sinulle sähköpostia.
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.
@@ -955,6 +956,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = Lisää { -brand-name-
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
 multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
+multi-part-onboarding-skip = Ohita, määritän tämän myöhemmin
 multi-part-onboarding-skip-download-extension = Ohita, lataan laajennuksen myöhemmin
 multi-part-onboarding-continue = Jatka
 
