@@ -1125,17 +1125,33 @@ multi-part-onboarding-premium-email-domain-added = Tu dominio de correo electró
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = Agrega la extensión { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Con la extensión { -brand-name-relay }, puedes:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Crear nuevas máscaras { -brand-name-relay } desde cualquier sitio web
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = ¡Extensión { -brand-name-relay } agregada!
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
+multi-part-onboarding-skip = Omitir, configurar esto más tarde
+multi-part-onboarding-skip-download-extension = Omitir, descargar la extensión más tarde
+multi-part-onboarding-continue = Continuar
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Acción requerida
+banner-set-email-domain-input-search = Buscar
+banner-set-email-domain-learn-more = Saber más
+modal-email-domain-good-news = ¡Buenas noticias!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> está disponible
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+modal-email-domain-cancel = Cancelar
+modal-email-domain-register = Registrar
+modal-email-domain-success-continue = Continuar
 
 ## Update reply description onboarding step
 
