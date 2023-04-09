@@ -285,7 +285,7 @@ plan-matrix-heading-feature-phone-mask = 虚拟手机号
 plan-matrix-heading-feature-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-plan-matrix-feature-list-email-masks = { $mask_limit } 个邮箱马甲
+plan-matrix-feature-list-email-masks = { $mask_limit } 个马甲邮箱
 plan-matrix-feature-list-browser-extension = 浏览器扩展
 plan-matrix-feature-list-email-tracker-removal = 移除邮件跟踪器
 plan-matrix-feature-list-promo-email-blocking = 屏蔽营销邮件
@@ -341,7 +341,7 @@ premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更
 premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
+premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium } 可获得无限量自定义马甲邮箱，马甲邮箱只会把您需要的邮件转发到您的真实邮箱。
 premium-promo-hero-cta = 立即升级
 premium-promo-offer-end-hero-heading = 优惠价即将结束！
 # Variables:
@@ -541,7 +541,7 @@ faq-question-detect-promotional-answer = 许多邮件发送时包含“头（hea
 faq-question-disable-trackerremoval-question = 我可以停止移除邮件跟踪器吗？
 faq-question-disable-trackerremoval-answer = 是的。如果您对电子邮件看起来受损有顾虑或想要停止删除跟踪器，您可以在设置中禁用该功能。
 faq-question-bulk-trackerremoval-question = 我可以只删除某些马甲邮箱的跟踪器吗？
-faq-question-bulk-trackerremoval-answer = 您只能在帐户级别启用“跟踪器删除”功能——它要么从您的所有电子邮件中删除跟踪器，要么什么都留着。
+faq-question-bulk-trackerremoval-answer = 您只能在账户层面上开启“移除跟踪器”功能，即只能在“移除所有邮箱中的跟踪器”和“不移除任何邮箱中的跟踪器“中选择。
 faq-question-trackerremoval-breakage-question = 为什么我的电子邮件看起来不正常？
 # Deprecated
 faq-question-trackerremoval-breakage-answer = 有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。删除跟踪器后，电子邮件因为因为缺少图像而导致格式错误。若您已收到此类电子邮件，则无法修复。如果这妨碍到您正常阅读电子邮件，请关闭此功能。
@@ -1112,6 +1112,8 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
+modal-email-domain-success-continue = 继续
+tooltip-email-domain-explanation-title = 关于您专属的 { -brand-name-relay } 邮箱域名
 
 ## Update reply description onboarding step
 
