@@ -866,7 +866,7 @@ multi-part-onboarding-reply-headline = 回复邮件
 multi-part-onboarding-premium-welcome-description-2 = 突破 5 个马甲的数量限制：您可以生成任意数量的自定义或随机马甲。在桌面端，则可以使用 { -brand-name-relay } 附加组件随时创建马甲。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-multi-part-onboarding-premium-get-domain-description-3b = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@customsubdomain{ $mozmail }”就好
+multi-part-onboarding-premium-get-domain-description-3b = 向外提供马甲邮箱时，无需事先生成。要订阅新闻通讯？报“read@<自定义域名>.{ $mozmail }”就好
 multi-part-onboarding-premium-domain-cta-2 = 立即注册您的自定义子域名：
 multi-part-onboarding-premium-domain-button-skip-2 = 继续，我以后再注册自定义子域名
 multi-part-onboarding-premium-extension-headline = 屏蔽、转发、回复
