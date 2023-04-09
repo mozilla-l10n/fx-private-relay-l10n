@@ -434,7 +434,7 @@ settings-warning-collection-off-heading-2 = 已禁用马甲邮箱标签功能
 settings-warning-collection-off-heading-3 = 您的马甲邮箱“账户名称”功能已关闭
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } 当前未被允许收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
-settings-warning-collection-off-description-3 = { -brand-name-relay } 当前不允许使用已用过的网站来标记您的邮箱马甲。要更改此设置，请在“隐私”下为邮箱马甲启用帐户名。
+settings-warning-collection-off-description-3 = 当前未允许 { -brand-name-relay } 以使用过马甲邮箱的网站为名称标记您的马甲邮箱。如需更改此设置，请在“隐私”下为马甲邮箱启用账户名称。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description-2 = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
@@ -446,8 +446,8 @@ settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API 密钥
-settings-api-key-description = 这是您的 { -brand-name-relay } API 密钥。它允许其他应用程序自动访问您的 { -brand-name-relay } 帐户。
-settings-api-key-description-bolded = 请仅将其与您信任的应用程序一起使用，以便您访问您的 { -brand-name-relay } 帐户。
+settings-api-key-description = 这是您的 { -brand-name-relay } API 密钥。它允许其他应用程序自动访问您的 { -brand-name-relay } 账户。
+settings-api-key-description-bolded = 请仅将其与您信任的应用一起使用，以便您访问您的 { -brand-name-relay } 账户。
 # This is a label that appears on hover to copy the API key
 settings-button-copy = 点击复制
 setting-api-key-copied = 已复制！
@@ -521,7 +521,7 @@ faq-question-8-question = { -brand-name-firefox-relay } 会收集哪些数据？
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
 faq-question-8-answer-2-html = 您可阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解 { -brand-name-firefox-relay } 会收集哪些数据。您也可选择与我们共享各个网站使用马甲邮箱及其标签的数据，以便我们为您提供服务并不断改进。
-faq-question-8-answer-3-html = { -brand-name-firefox-relay } 收集您使用过电子邮件马甲的网站，并用这些网站标记您的马甲，以便您轻松识别它们。您可以在“设置”页面的“隐私”下选择退出此功能。但请注意，关闭该设置意味着您将无法看到每个马甲的使用情况，并且您的帐户名称将不再在设备之间同步。您可以在我们的<a href="{ $url }" { $attrs }>隐私声明</a>中了解有关 { -brand-name-firefox-relay } 收集的数据的更多信息。
+faq-question-8-answer-3-html = { -brand-name-firefox-relay } 收集您使用过马甲邮箱的网站，并以这些网站标记您的马甲，方便您区分。您可以在“设置”页面的“隐私”分类下选择关闭此功能。但请注意，关闭此功能后，您将无法看到马甲在何处使用过，并且您的账户名称将不再在设备之间同步。您可以阅读我们的<a href="{ $url }" { $attrs }>隐私声明</a>了解有关 { -brand-name-firefox-relay } 收集的数据的更多信息。
 faq-question-email-storage-question = { -brand-name-relay } 会存储我的邮件吗？
 faq-question-email-storage-answer = 在服务中断的罕见情况下，我们会暂存收到的邮件直到转发成功，但不会超过三天。
 faq-question-acceptable-use-question = { -brand-name-relay } 的可接受用途有哪些？
