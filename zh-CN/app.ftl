@@ -431,17 +431,17 @@ settings-error-save-heading = 设置保存失败
 settings-error-save-description = 遇到网络问题，设置未能保存，请重试。
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = 已禁用马甲邮箱标签功能
-settings-warning-collection-off-heading-3 = 您的邮箱马甲帐户名称已关闭
+settings-warning-collection-off-heading-3 = 您的马甲邮箱“账户名称”功能已关闭
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = { -brand-name-relay } 当前未被允许收集用于显示各个马甲分别使用在哪些网站的数据。您可在“数据收集”下的“设置”中进行更改。
 settings-warning-collection-off-description-3 = { -brand-name-relay } 当前不允许使用已用过的网站来标记您的邮箱马甲。要更改此设置，请在“隐私”下为邮箱马甲启用帐户名。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = 隐私
 setting-label-collection-description-2 = 允许 { -brand-name-relay } 收集数据，用于显示各个马甲分别使用在哪些网站。
-setting-label-collection-description-3 = 为邮箱马甲启用帐户名
+setting-label-collection-description-3 = 为马甲邮箱启用账户名称
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = 此数据将允许我们将您的马甲与其所使用网站进行关联标记。若您决定退出此选项，则不会标记马甲被用于哪些网站。
-setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } 将存储您使用过邮箱马甲的网站，并用这些网站标记您的马甲，以便您轻松识别它们。关闭此功能意味着您将无法看到每个马甲的使用情况，并且您的帐户名称将不再在设备之间同步。
+setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } 将存储您使用过马甲邮箱的网站，并以这些网站标记您的马甲，方便您分辨。关闭此功能后，您将无法看到马甲在何处使用过，并且您的账户名称也将不再在设备之间同步。
 settings-button-save-label = 保存
 settings-button-save-tooltip = 应用您所做的设置。
 # This is a read-only input where a user can copy their API key to their clipboard
