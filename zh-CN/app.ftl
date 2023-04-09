@@ -361,7 +361,7 @@ premium-promo-perks-perk-unlimited-body-2 = 突破 5 个马甲的数量限制：
 premium-promo-perks-perk-custom-domain-headline-2 = 选择您的自定义子域名
 premium-promo-perks-perk-custom-domain-body-2 =
     借助自定义子域名功能，可创建比以往更好记和分享的马甲。
-    想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
+    想在预订餐厅时用马甲邮箱？直接使用“canting@<你的域名>.mozmail.com”就好，无需事先创建。
 premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
 premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
 premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
@@ -1112,8 +1112,6 @@ multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
-modal-email-domain-success-continue = 继续
-tooltip-email-domain-explanation-title = 关于您专属的 { -brand-name-relay } 邮箱域名
 
 ## Update reply description onboarding step
 
