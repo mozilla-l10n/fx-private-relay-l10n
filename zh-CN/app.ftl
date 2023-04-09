@@ -575,6 +575,8 @@ profile-label-delete = 删除
 profile-label-upgrade-2 = 获得无限量马甲
 profile-label-create-subdomain = 获取您的子域名邮箱
 profile-label-subdomain = 子域名邮箱：
+profile-label-custom-domain = 您的 { -brand-name-relay } 邮箱域名：
+profile-label-set-your-custom-domain = 设置您专属的 { -brand-name-relay } 邮箱域名
 profile-label-subdomain-tooltip-trigger = 更多信息
 profile-label-subdomain-tooltip = 创建您专属的子域名邮箱。
 profile-label-reset = 重置
@@ -1094,13 +1096,38 @@ api-error-account-is-paused = 您的账户已暂停。
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = 我们将引导您完成设置，解锁 { -brand-name-premium } 账户完整体验。
+multi-part-onboarding-premium-welcome-feature-headline = 使用 { -brand-name-firefox-relay-premium } 即可
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 无限数量马甲
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 为不同网站使用不同马甲，隐私与安全更上一层楼
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 随时随地创建马甲
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 您可选择一个专属 { -brand-name-relay } 邮箱域名，随时随地创建好记的马甲
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 您的收件箱您做主
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 掌控转发到您收件箱的邮件类型
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回复
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 无需暴露真实邮箱地址也能回复转发的邮件
+multi-part-onboarding-premium-welcome-feature-cta = 设置 { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-headline = 设置您专属的 { -brand-name-relay } 邮箱域名
+multi-part-onboarding-premium-email-domain-feature-headline = 您可以使用专属的 { -brand-name-relay } 邮箱域名来
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = 随时随地创建马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = 取一个您喜欢的 { -brand-name-relay } 邮箱域名，然后在 @ 符号前添加字符，即可生成新马甲。<p>例如购物时，可以使用 shop@<你的域名>.{ $mozmail }。</p>
+multi-part-onboarding-premium-email-domain-feature-input-search = 搜索
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = 你的域名
+multi-part-onboarding-premium-email-domain-added = 您的邮箱域名：
 
 ## Step 3 Add Relay Extension
 
+multi-part-onboarding-premium-add-extension-headline = 添加 { -brand-name-relay } 扩展
+multi-part-onboarding-premium-add-extension-feature-headline = 您可以使用 { -brand-name-relay } 扩展来
 
 ## Step 3 Relay Extension Added
 
