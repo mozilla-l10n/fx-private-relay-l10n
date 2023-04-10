@@ -541,7 +541,7 @@ faq-question-detect-promotional-answer = 许多邮件发送时包含“头（hea
 faq-question-disable-trackerremoval-question = 我可以停止移除邮件跟踪器吗？
 faq-question-disable-trackerremoval-answer = 是的。如果您对电子邮件看起来受损有顾虑或想要停止删除跟踪器，您可以在设置中禁用该功能。
 faq-question-bulk-trackerremoval-question = 我可以只删除某些马甲邮箱的跟踪器吗？
-faq-question-bulk-trackerremoval-answer = 您只能在账户层面上开启“移除跟踪器”功能，即只能在“移除所有邮箱中的跟踪器”和“不移除任何邮箱中的跟踪器“中选择。
+faq-question-bulk-trackerremoval-answer = 您只能在账户层级上开启“移除跟踪器”功能，即只能在“所有邮箱都移除”和“所有邮箱都不移除”中选择。
 faq-question-trackerremoval-breakage-question = 为什么我的电子邮件看起来不正常？
 # Deprecated
 faq-question-trackerremoval-breakage-answer = 有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。删除跟踪器后，电子邮件因为因为缺少图像而导致格式错误。若您已收到此类电子邮件，则无法修复。如果这妨碍到您正常阅读电子邮件，请关闭此功能。
