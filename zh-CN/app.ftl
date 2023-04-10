@@ -1163,7 +1163,7 @@ modal-email-domain-good-news = 很好！
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> 可以使用
-modal-email-domain-available-body = 您只能注册一个专属 { -brand-name-relay } 邮箱域名，确定后将无法更改。
+modal-email-domain-available-body = 您只能注册一个专属 { -brand-name-relay } 邮箱域名，<p>确定后将无法更改。</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
