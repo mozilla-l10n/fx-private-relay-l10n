@@ -1135,6 +1135,8 @@ multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium 
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+multi-part-onboarding-premium-email-domain-feature-headline = نویکلی { -brand-name-relay } ای میل ڈومین نال، تساں کر سڳدے ہو:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = گو تے فوری طور تے ماسک بݨاؤ
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = ہک لفظ یا ترکیب ڳولو
 multi-part-onboarding-premium-email-domain-feature-input-search = ڳولو
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
