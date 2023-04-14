@@ -1129,6 +1129,7 @@ api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium } نال، تہاکوں ملسی:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = بے انت ای میل ماسک
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = گو تے فوری طور تے ماسک بݨاؤ
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = گمنام جواب
 multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } قائم کرو
 
@@ -1183,9 +1184,13 @@ modal-email-domain-cancel = منسوخ
 modal-email-domain-register = رجسٹر کرو
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> ہݨ تہاݙی { -brand-name-relay } ای میل ڈومین ہے!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
 modal-email-domain-success-continue = جاری
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے
 
 ## Update reply description onboarding step
 
+multi-part-onboarding-premium-reply-description = آپݨاں اصل پتہ ݙسے بغیر ای میلاں دا جواب ݙیوو
