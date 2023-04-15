@@ -64,6 +64,7 @@ nav-footer-privacy = رازداری
 nav-footer-relay-terms = { -brand-name-relay } ٹرماں
 nav-footer-legal = قنونی
 nav-footer-release-notes = ریلیز نوٹس
+nav-footer-stock-photo-legal = ایں ورقے دے فوٹواں دا ماخذ  iStock, © iStockPhoto.com ہے
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub لوگو
 
@@ -1166,6 +1167,7 @@ multi-part-onboarding-continue = جاری
 banner-set-email-domain-headline-action-needed = عمل ضروری ہے
 banner-set-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
 banner-set-email-domain-step-one-headline = آپݨی ترجیحی { -brand-name-relay } ای میل ڈومین چݨو
+banner-set-email-domain-step-one-body = ایہ @ علامت دے بعد تہاݙے ای میل دا حصہ ہے۔
 banner-set-email-domain-input-placeholder-label = ای میل ڈومین ڳولو
 banner-set-email-domain-input-placeholder = ہک لفظ یا ترکیب ڳولو
 banner-set-email-domain-input-search = ڳولو
