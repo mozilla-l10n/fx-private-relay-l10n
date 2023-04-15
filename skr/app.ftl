@@ -1157,6 +1157,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } 
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } ایکسٹنشن شامل تھئی!
 multi-part-onboarding-premium-extension-button-dashboard = ڈیش بورڈ تے ون٘ڄو
+multi-part-onboarding-skip = چھوڑ ون٘ڄو، میں ایہ بعد وچ قائم کریساں
 multi-part-onboarding-skip-download-extension = چھوڑو، میں ایکسٹنشن بعد وچ ڈاؤن لوڈ کریساں
 multi-part-onboarding-continue = جاری
 
@@ -1185,6 +1186,8 @@ modal-email-domain-register = رجسٹر کرو
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> ہݨ تہاݙی { -brand-name-relay } ای میل ڈومین ہے!
+modal-email-domain-success-body-on-the-go = نواں ماسک تخلیق کرݨ کیتے { -brand-name-relay } وچ سائن ان تھیوݨ دی کوئی لوڑ کائنی۔
+modal-email-domain-success-headline-any-word = کوئی لفظ یا ترکیب شامل کرݨ نال نے انت ماسک تخلیق کرو
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
