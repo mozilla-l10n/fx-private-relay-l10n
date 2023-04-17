@@ -246,6 +246,7 @@ waitlist-control-country-label-2 = Missä maassa tai alueella asut?
 waitlist-control-locale-label = Valitse ensisijainen kieli.
 waitlist-submit-label-2 = Liity odotuslistalle
 waitlist-privacy-policy-agree-2 = Napsauttamalla “{ waitlist-submit-label-2 }” hyväksyt <a>tietosuojakäytäntömme</a>.
+waitlist-privacy-policy-use = Tietojasi käytetään vain { -brand-name-firefox-relay-premium }in saatavuudesta ilmoittamiseen.
 waitlist-privacy-policy-use-phone = Tietojasi käytetään vain ilmoitukseen, kun puhelinnumeron maski on saatavilla alueellasi.
 waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-premium } tulee saataville alueellasi, lähetämme sinulle sähköpostia.
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.

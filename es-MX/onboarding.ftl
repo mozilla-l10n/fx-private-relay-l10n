@@ -9,13 +9,28 @@ multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo qu
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Buscar una palabra o frase
+multi-part-onboarding-premium-email-domain-feature-input-search = Buscar
+# This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+multi-part-onboarding-premium-email-domain-placeholder = tudominio
+multi-part-onboarding-premium-email-domain-added = Tu dominio de correo electrónico:
+
 ## Step 3 Add Relay Extension
+
+multi-part-onboarding-premium-add-extension-headline = Agrega la extensión { -brand-name-relay }
+multi-part-onboarding-premium-add-extension-feature-headline = Con la extensión { -brand-name-relay }, puedes:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Crear nuevas máscaras { -brand-name-relay } desde cualquier sitio web
 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = ¡Extensión { -brand-name-relay } agregada!
 
 multi-part-onboarding-premium-extension-button-dashboard = Ir al panel de control
+multi-part-onboarding-skip = Omitir, configurar esto más tarde
+multi-part-onboarding-skip-download-extension = Omitir, descargar la extensión más tarde
+multi-part-onboarding-continue = Continuar
 
 ## Step 3 Mobile Reply to Emails
 

@@ -95,7 +95,48 @@ banner-ab-premium-promo-cta = 升级
 
 ## Set domain banner
 
+banner-set-email-domain-headline = 设置您专属的 { -brand-name-relay } 邮箱域名
+banner-set-email-domain-step-one-headline = 取一个您喜欢的 { -brand-name-relay } 邮箱域名
+banner-set-email-domain-step-one-body = 这是您邮箱地址中 @ 符号后面的部分。
+banner-set-email-domain-step-two-headline = 可用它随时创建自定义 { -brand-name-relay } 马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = 在 @ 符号前添加字符即可。例如购物时，可以使用 shop@<你的域名>.{ $mozmail }。
+banner-set-email-domain-input-placeholder-label = 搜索邮箱域名
+banner-set-email-domain-input-placeholder = 搜索邮箱名称（@ 符号前的部分）
+banner-set-email-domain-input-search = 搜索
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = 你的域名
+banner-set-email-domain-learn-more = 详细了解
+
+modal-email-domain-good-news = 很好！
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> 可以使用
+modal-email-domain-available-body = 您只能注册一个专属 { -brand-name-relay } 邮箱域名，<p>确定后将无法更改。</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = 是的，我要注册 { $subdomain }
+modal-email-domain-cancel = 取消
+modal-email-domain-register = 注册
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> 现在是属于您的 { -brand-name-relay } 邮箱地址了！
+modal-email-domain-success-headline-on-the-go = 可用它来随时创建新的 { -brand-name-relay } 马甲
+modal-email-domain-success-body-on-the-go = 无需登录 { -brand-name-relay } 即可创建新马甲。
+modal-email-domain-success-headline-any-word = 随心为邮箱命名，马甲数量无限制
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = 例如购物时，可以使用 store{ $custom_domain_full }。
+modal-email-domain-success-continue = 继续
 
+tooltip-email-domain-explanation-title = 关于您专属的 { -brand-name-relay } 邮箱域名
+tooltip-email-domain-explanation-part-one = 您可以使用 { -brand-name-relay-premium } 账户的这项实用功能来选择一个专属的 { -brand-name-relay } 邮箱域名，用于随时随地创建自定义 { -brand-name-relay } 马甲，数量不设限。
+tooltip-email-domain-explanation-part-two = 无论在哪，都可以立即生成新马甲。只需随手在您 { -brand-name-relay } 邮箱域名的 @ 符号前添加字符即可，而不必事先登录 { -brand-name-relay }。
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = 要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。<p>要购物？那就用 shop@<你的域名>.{ $mozmail }。</p>

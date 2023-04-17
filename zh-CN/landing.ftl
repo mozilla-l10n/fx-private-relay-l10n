@@ -86,7 +86,7 @@ plan-matrix-feature-mobile-email-masks = 马甲邮箱
 plan-matrix-feature-mobile-browser-extension = 浏览器扩展
 plan-matrix-feature-mobile-email-tracker-removal = 移除邮件跟踪器
 plan-matrix-feature-mobile-promo-email-blocking = 屏蔽营销邮件
-plan-matrix-feature-mobile-email-subdomain = 独一无二的 { -brand-name-relay } 邮箱域名
+plan-matrix-feature-mobile-email-subdomain = 专属的 { -brand-name-relay } 邮箱域名
 plan-matrix-feature-mobile-email-reply = 匿名回复邮件
 plan-matrix-feature-mobile-phone-mask = 保护您的真实电话号码
 plan-matrix-feature-mobile-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
@@ -159,12 +159,7 @@ highlighted-features-section-unlimited-masks-body =
 highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } 提供独一无二的 { -brand-name-relay } 邮箱域名，
-    您可以随时创建新的马甲。
-    只需在 @ 符号前添加字符就能生成马甲。
-    在餐厅吃饭？可以用 canting@<你的域名>.{ $mozmail }。
-    在商场购物？那就用 shangchang@<你的域名>.{ $mozmail }。
+highlighted-features-section-masks-on-the-go-body = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 

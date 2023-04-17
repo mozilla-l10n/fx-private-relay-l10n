@@ -99,7 +99,18 @@ banner-ab-premium-promo-cta = Actualizar
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Acción requerida
+banner-set-email-domain-input-search = Buscar
+banner-set-email-domain-learn-more = Saber más
+
+modal-email-domain-good-news = ¡Buenas noticias!
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> está disponible
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Sí, quiero registrar @{ $subdomain }
+modal-email-domain-cancel = Cancelar
+modal-email-domain-register = Registrar
+modal-email-domain-success-continue = Continuar
 

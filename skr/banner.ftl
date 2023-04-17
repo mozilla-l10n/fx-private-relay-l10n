@@ -101,6 +101,8 @@ banner-ab-premium-promo-cta = اپ گریڈ
 
 banner-set-email-domain-headline-action-needed = عمل ضروری ہے
 banner-set-email-domain-headline = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
+banner-set-email-domain-step-one-headline = آپݨی ترجیحی { -brand-name-relay } ای میل ڈومین چݨو
+banner-set-email-domain-step-one-body = ایہ @ علامت دے بعد تہاݙے ای میل دا حصہ ہے۔
 banner-set-email-domain-input-placeholder-label = ای میل ڈومین ڳولو
 banner-set-email-domain-input-placeholder = ہک لفظ یا ترکیب ڳولو
 banner-set-email-domain-input-search = ڳولو
@@ -112,10 +114,21 @@ banner-set-email-domain-learn-more = ٻیا سِکھو
 
 modal-email-domain-good-news = خوشخبری!
 # Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
+modal-email-domain-available = <p>{ $custom_domain_full }</p> دستیاب ہے
+# Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = جیا، میں { $subdomain }@ رجسٹر کرواوݨ چاہنداں
 modal-email-domain-cancel = منسوخ
 modal-email-domain-register = رجسٹر کرو
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> ہݨ تہاݙی { -brand-name-relay } ای میل ڈومین ہے!
+modal-email-domain-success-body-on-the-go = نواں ماسک تخلیق کرݨ کیتے { -brand-name-relay } وچ سائن ان تھیوݨ دی کوئی لوڑ کائنی۔
+modal-email-domain-success-headline-any-word = کوئی لفظ یا ترکیب شامل کرݨ نال نے انت ماسک تخلیق کرو
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
 modal-email-domain-success-continue = جاری
 
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے

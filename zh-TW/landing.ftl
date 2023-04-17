@@ -5,10 +5,7 @@
 ## HERO SECTION 
 
 hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
-hero-section-body =
-    安全、簡單使用的轉寄信箱與手機號碼轉寄信箱可幫助您隱藏您的身分
-    這樣您就可以匿名地註冊新帳號、停止收到垃圾信與垃圾電話、
-    只寄出想要的信件在收件匣中。
+hero-section-body = 我們安全、好用的轉寄信箱與手機轉接號碼，可幫助您保護身分隱私、匿名地註冊新帳號、停止收到垃圾信與垃圾電話，並且只在收件匣中收到想收的信件。
 hero-section-cta = 開始使用
 
 ## BUNDLE BANNER SECTION
@@ -16,6 +13,9 @@ hero-section-cta = 開始使用
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = 限時特價：{ -brand-name-relay-premium } + { -brand-name-mozilla-vpn } 只要每月 { $monthly_price }
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } 保護您在玩遊戲、上網時或完成工作時不受追蹤與監控。與 { -brand-name-firefox-relay } 一同訂購，可享 { $savings } 折扣。
 bundle-banner-plan-header-2 = 您的年約方案包含：
 bundle-banner-plan-modules-email-masking = 轉寄信箱
 bundle-banner-plan-modules-phone-masking = 虛擬手機號碼轉接
@@ -40,21 +40,22 @@ how-it-works-section-title = { -brand-name-relay } 轉寄信箱與虛擬電話�
 # Item 1
 
 how-it-works-section-extension-headline = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱與虛擬轉接門號
-how-it-works-section-extension-body = 獲得安全、隨機的轉寄信箱與獨特的被轉寄信箱號碼任何時候只要網站、應用程式、商店或餐廳要求您提供資訊時就可以使用。
+how-it-works-section-extension-body = 獲得安全、隨機的轉寄信箱與獨特的手機虛擬轉接門號，讓您隨時隨地能提供給任何網站、應用程式、商店或餐廳。
 
 # Item 2
 
 how-it-works-section-forward-headline = 我們會將收到的電子郵件、來電、簡訊轉寄給您
-how-it-works-section-forward-body = 請放心寄件者永遠不會知道您的實際電子郵件地址或實際電話號碼。您甚至可以不透露實際身分回覆簡訊與郵件。
+how-it-works-section-forward-body = 請放心，寄件者永遠不會知道您的實際電子郵件地址或電話號碼。您甚至還可以不用透露實際身分，就能回覆簡訊與郵件。
 
 # Item 3
 
 how-it-works-section-manage-headline = 在 { -brand-name-relay } 儀錶板管理您的轉寄信箱
-how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板即可建立新的轉寄信箱、為現有的轉寄信箱加上標籤、封鎖來自轉寄信箱的來電、簡訊或郵件。
+how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板即可建立新的轉寄信箱、為現有的轉寄信箱加上標籤、如果轉寄信箱收到太多垃圾電話、簡訊或郵件，也可以直接封鎖。
 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = 選擇適合您的保護等級
+plan-matrix-offer-body = { -brand-name-firefox-relay } 用獨特的轉寄信箱來保護您的個人身分與信件匣。{ -brand-name-relay } 虛擬電話轉接功能讓安全性更上一層樓，加購 { -brand-name-vpn } 保護功能，可享 { $savings } 折扣。
 
 # Top Row Labels
 
@@ -148,42 +149,29 @@ highlighted-features-section-new-item = 新功能！
 highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
 # Variables:
 #   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    人人都能免費獲得 { $mask_limit } 組轉寄信箱。
-    但透過 { -brand-name-relay-premium }您可以隨意產生轉寄信箱來保護您的收件匣
-    來自垃圾郵件發送者、駭客、線上追踪器。
+highlighted-features-section-unlimited-masks-body = 人人都能免費獲得 { $mask_limit } 組轉寄信箱。但透過 { -brand-name-relay-premium }，您可以隨意產生無限組轉寄信箱來保護您的收件匣，不受垃圾郵件發送者、駭客、線上追蹤器侵害。
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } 為您提供獨特的 { -brand-name-relay } 郵件網域讓您
-    隨時隨地都能建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。在餐廳使用restaurant@yourdomain。{ $mozmail }。
-    購物試試shop@yourdomain.{ $mozmail }。
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } 讓您可以設定專屬 { -brand-name-relay } 郵件網域，讓您能隨時隨地建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。想預約餐廳？可以使用 restaurant@yourdomain.{ $mozmail }。買東西？可以使用 shop@yourdomain.{ $mozmail }。
 
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回覆電子郵件與簡訊
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } 讓您可以從
-    隱藏郵件帳號讓寄件者永遠不會知道您的實際信箱。透過虛擬手機號碼轉接功能您可以直接回覆
-    使用您被轉接的手機號碼來收發簡訊以保護您的實際號碼。
+highlighted-features-section-replying-body = { -brand-name-relay-premium } 讓您可以直接從轉寄信箱回信，寄件者永遠無法知道您的實際信箱。您也可以直接回覆透過虛擬手機號碼轉接功能接收到的簡訊，以保護您的實際號碼。
 
 # Item 4
 
 highlighted-features-section-block-promotions-headline = 封鎖行銷郵件
-highlighted-features-section-block-promotions-body =
-    透過 { -brand-name-relay-premium } 就可以封鎖行銷郵件直達
-    收據、訂單出貨通知等重要郵件。
+highlighted-features-section-block-promotions-body = 透過 { -brand-name-relay-premium }，您可以封鎖行銷郵件，同時確保收據、訂單出貨通知等重要郵件能夠直達信件匣。
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = 移除郵件追蹤器
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } 可移除轉寄給您的郵件當中常見的追踪器
-    您對追踪器與廣告商保持隱形。
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被追蹤器與廣告商追蹤。
 
 ## FAQ SECTION
 
