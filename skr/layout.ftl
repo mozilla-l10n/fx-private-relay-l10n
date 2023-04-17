@@ -62,6 +62,7 @@ nav-footer-privacy = رازداری
 nav-footer-relay-terms = { -brand-name-relay } ٹرماں
 nav-footer-legal = قنونی
 nav-footer-release-notes = ریلیز نوٹس
+nav-footer-stock-photo-legal = ایں ورقے دے فوٹواں دا ماخذ  iStock, © iStockPhoto.com ہے
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub لوگو
 

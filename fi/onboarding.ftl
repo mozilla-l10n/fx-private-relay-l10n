@@ -29,6 +29,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = Lisää { -brand-name-
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
 
 multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
+multi-part-onboarding-skip = Ohita, määritän tämän myöhemmin
 multi-part-onboarding-skip-download-extension = Ohita, lataan laajennuksen myöhemmin
 multi-part-onboarding-continue = Jatka
 
