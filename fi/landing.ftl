@@ -111,6 +111,7 @@ plan-matrix-price-period-yearly = Vuosittain
 plan-matrix-price-period-monthly = Kuukausittain
 plan-matrix-price-period-yearly-footnote-1 = Laskutetaan vuosittain
 plan-matrix-price-period-monthly-footnote-1 = Laskutetaan kuukausittain
+plan-matrix-price-vpn-discount-promo = <span>Säästä { $savings }</span> { -brand-name-vpn }:n normaalista hinnasta
 
 # Plan CTAs
 
@@ -159,10 +160,20 @@ highlighted-features-section-unlimited-masks-body =
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
+    luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
+    Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
+highlighted-features-section-replying-body =
+    { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
+    peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
+    tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
 
 # Item 4
 
