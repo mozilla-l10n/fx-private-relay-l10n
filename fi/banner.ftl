@@ -73,5 +73,12 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> on saatavilla
 modal-domain-register-confirmation-checkbox = Kyllä, haluan rekisteröidä aliverkkotunnuksen @{ $subdomain }
 modal-email-domain-cancel = Peruuta
 modal-email-domain-register = Rekisteröi
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Ostoksilla? Käytä kauppa{ $custom_domain_full }.
 modal-email-domain-success-continue = Jatka
 
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }. <p>Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }</p>
