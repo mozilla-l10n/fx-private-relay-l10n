@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Защитите свою личность с помощью безопасного маскирования телефона и псевдонимов электронной почты
@@ -189,3 +188,82 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } мож
 
 landing-faq-headline = Самые популярные вопросы о { -brand-name-firefox-relay }
 landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Упростите защиту своего почтового ящика с { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = С { -brand-name-firefox-relay-premium } вы получите неограниченное число собственных псевдонимов электронной почты, которые будут пересылать только нужные вам письма на ваш настоящий адрес. <b>В течение ограниченного времени вы можете перейти на { -brand-name-relay-premium } всего за { $monthly_price } в месяц.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = С { -brand-name-firefox-relay-premium } вы получаете неограниченное число настраиваемых псевдонимов электронной почты, которые пересылают только те электронные письма, которые вы хотите, на ваш настоящий адрес электронной почты.
+premium-promo-hero-cta = Перейти сейчас
+
+premium-promo-offer-end-hero-heading = Наше начальное ценовое предложение скоро заканчивается!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Перейдите на { -brand-name-relay-premium } до { $end_date } и наслаждайтесь премиум-защитой электронной почты по нашей начальной ежемесячной цене.
+premium-promo-offer-end-hero-cta = Обновитесь прямо сейчас
+
+premium-promo-availability-warning = { -brand-name-relay-premium } сейчас доступен в Австрии, Бельгии, Великобритании, Германии, Ирландии, Испании, Италии, Канаде, Малайзии, Нидерландах, Новой Зеландии, Сингапуре, США, Франции и Швейцарии.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } сейчас доступен в Австрии, Бельгии, Великобритании, Германии, Ирландии, Испании, Италии, Канаде, Малайзии, Нидерландах, Новой Зеландии, Сингапуре, США, Финляндии, Франции, Швейцарии и Швеции.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } доступен в Австрии, Бельгии, Великобритании, Германии, Греции, Ирландии, Испании, Италии, Канаде, Кипре, Латвии, Литве, Люксембурге, Малайзии, Мальте, Нидерландах, Новой Зеландии, Португалии, Сингапуре, Словакии, Словении, США, Финляндии, Франции, Швейцарии, Швеции и Эстонии.
+
+premium-promo-perks-headline = Зачем переходить на { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = С { -brand-name-firefox-relay-premium } вы получите полную защиту и управление почтовым ящиком от { -brand-name-relay }, но с неограниченным числом псевдонимов электронной почты и собственным поддоменом, который сделает управление входящими ещё проще.
+premium-promo-perks-cta-label = Перейти сейчас
+premium-promo-perks-cta-tooltip = Перейти на { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Новое!
+premium-promo-perks-perk-unlimited-headline-2 = Создавайте неограниченное число псевдонимов электронной почты
+premium-promo-perks-perk-unlimited-body-2 = Больше никакого ограничения в пять псевдонимов: с { -brand-name-relay-premium } вы сможете создавать сколько угодно псевдонимов для защиты своего электронного почтового ящика от спамеров и онлайн-трекеров. Вы даже сможете отвечать на письма, не раскрывая свой настоящий адрес.
+premium-promo-perks-perk-custom-domain-headline-2 = Выбирайте собственный поддомен
+premium-promo-perks-perk-custom-domain-body-2 = С собственным поддоменом вы сможете создавать псевдонимы, которые проще запоминать и использовать. Нужен псевдоним для бронирования ресторанов? Воспользуйтесь, например, food@mydomain.mozmail.com — не нужно создавать его заранее.
+premium-promo-perks-perk-dashboard-headline-2 = Контролируйте псевдонимы на панели управления
+premium-promo-perks-perk-dashboard-body-2 = Управляйте всеми своими псевдонимами со специальной удобной панели: если вы обнаружите, что на один из них приходят нежелательные сообщения, вы сможете заблокировать их, и они больше не попадут в ваш почтовый ящик.
+premium-promo-perks-perk-block-promotionals-headline = Блокируйте рекламные электронные письма
+premium-promo-perks-perk-block-promotionals-body = С { -brand-name-relay-premium } вы можете блокировать рекламные письма, при этом получая такие электронные письма, как квитанции и информацию о доставке.
+premium-promo-perks-perk-tracker-blocking-headline = Удаляйте трекеры из электронных писем
+premium-promo-perks-perk-tracker-blocking-body = Теперь { -brand-name-relay } может помочь вам избавиться от отслеживания в электронной почте — ваши псевдонимы будут удалять распространённые трекеры из всех пересылаемых электронных писем, помогая вам оставаться невидимыми для трекеров и рекламодателей.
+
+premium-promo-use-cases-headline-2 = Используйте псевдонимы электронной почты { -brand-name-relay } где угодно
+premium-promo-use-cases-shopping-heading = Покупки
+premium-promo-use-cases-shopping-body-2 = Пытаетесь подписаться на скидки без спама? Сгруппируйте все свои аккаунты для покупок под собственными псевдонимами электронной почты, такими как «‎mydeals@mydomain.mozmail.com».
+premium-promo-use-cases-social-networks-heading = Социальные сети
+premium-promo-use-cases-social-networks-body-2 = Хотите лучше защитить свою личность в Интернете во время использования социальной сети? Воспользуйтесь разными псевдонимами электронной почты для входа в каждую социальную сеть и не раскрывайте свою настоящую электронную почту этим сайтам.
+premium-promo-use-cases-gaming-heading = Игры
+premium-promo-use-cases-gaming-body-2 = Беспокоитесь о том, что другие игроки или тролли узнают, кто вы, по вашему тегу и адресу электронной почты? Воспользуйтесь псевдонимом, например, «‎onlinegame@mydomain.mozmail.com», чтобы добавить ещё один уровень защиты между своей личностью в Интернете и играми, в которые вы играете онлайн.
+
+premium-promo-pricing-free-price = Ваш текущий тарифный план: бесплатный
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Начальная цена: неограниченное число псевдонимов за { $monthly_price } в месяц
+premium-promo-pricing-offer-end-warning = Эта акция скоро закончится
+premium-promo-pricing-offer-end-cta = Обновитесь прямо сейчас
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Перейдите на { -brand-name-relay-premium } до { $end_date } и наслаждайтесь премиум-защитой электронной почты по нашей начальной ежемесячной цене.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Присоединяйтесь к списку ожидания { -brand-name-relay-premium }
+waitlist-heading-phone = Присоединяйтесь к списку ожидания маскирования телефона { -brand-name-relay }
+waitlist-heading-bundle = Присоединяйтесь к списку ожидания пакета { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Мы сообщим вам, когда { -brand-name-relay-premium } будет доступен в вашем регионе.
+waitlist-lead-phone = Мы сообщим вам, когда маскирование телефона станет доступным в вашем регионе.
+waitlist-lead-bundle = Мы сообщим вам, когда вы сможете получить { -brand-name-relay-premium } и { -brand-name-mozilla-vpn } со скидкой в вашем регионе.
+waitlist-control-required = Обязательно
+waitlist-control-email-label = Какой у вас адрес электронной почты?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label-2 = В какой стране или регионе вы живете?
+waitlist-control-locale-label = Выберите предпочитаемый язык.
+waitlist-submit-label-2 = Присоединяйтесь к списку ожидания
+waitlist-privacy-policy-agree-2 = Нажимая «{ waitlist-submit-label-2 }», вы соглашаетесь с нашей <a>Политикой конфиденциальности</a>.
+waitlist-privacy-policy-use = Предоставленная информация будет использована только для уведомления вас о доступности { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Ваша информация будет использоваться только для уведомления вас, когда маскирование телефона будет доступно в вашем регионе.
+waitlist-privacy-policy-use-bundle = Ваша информация будет использоваться только для уведомления о доступности пакета { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Вы в списке! Как только { -brand-name-firefox-relay-premium } станет доступным для вашего региона, ми уведомим вас об этом по электронной почте.
+waitlist-subscribe-error-connection = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, проверьте своё соединение и попробуйте ещё раз.
+waitlist-subscribe-error-unknown = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, попробуйте ещё раз.

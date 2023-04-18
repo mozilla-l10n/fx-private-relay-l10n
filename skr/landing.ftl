@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = محفوظ فون تے ای میل ماسکنگ نال آپݨی سُن٘ڄاݨ دی حفاظت کرو
@@ -174,3 +173,82 @@ highlighted-features-section-remove-trackers-body =
 
 landing-faq-headline = { -brand-name-firefox-relay } بارے اہم سوالات
 landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
+
+## Premium promo page
+
+premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔ <b> محدود وقت کیتے، اساں ماہانہ صرف { $monthly_price } وِچ { -brand-name-relay-premium } وِچ اپ گریڈ کر سڳدے ہیں۔ </b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔
+premium-promo-hero-cta = ہݨ اپ گریڈ کرو
+
+premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
+premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
+
+premium-promo-availability-warning = { -brand-name-relay-premium } فی الحال آسٹریا، بیلجیم، کینیڈا، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، نیدرلینڈز، نیوزی لینڈ، سنگاپور، اسپین، سوئٹزرلینڈ، برطانیہ تے امریکہ وِچ دستیاب ہے۔
+premium-promo-availability-warning-2 = { -brand-name-relay-premium }  فی الحال آسٹریا، بیلجیم، کینیڈا، فن لینڈ، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، ہالینڈ، نیوزی لینڈ، سنگاپور، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے امریکہ وِچ دستیاب ہے۔
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } آسٹریا، بیلجیم، کنیڈا، قبرص، اسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلے، لیٹیویا، لیتھونیا، لیکسم برگ، ملائشیاء، مالٹا، نیدرلینڈ، نیوزی لینڈ، پتگال، سنگاپور، سلاویکیا، سلاونیا، سپین، سویڈن، برطانیہ تے امریکہ وچ دستیاب ہے۔
+
+premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
+premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں { -brand-name-relay } دا تمام ان باکس تحفظ تے انتظام ملدا ہے، لیکن لامحدود ای میل ماسک تے تہاݙے اپݨے حسب ضرورت ذیلی ڈومین دے نال تہاݙے ان باکس دا نظم و نسق ٻیا وی آسان تھی ویندا ہے۔
+premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
+premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
+premium-promo-perks-pill-new = نواں!
+premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
+premium-promo-perks-perk-unlimited-body-2 = ودھیک پنج ماسک دی حد کائنی: { -brand-name-relay-premium } دے نال، تساں اپݨے ای میل ان باکس کوں سپامرز تے آن لائن ٹریکرز کنوں بچاوݨ وِچ مدد کیتے جتنے ماسک تیار کر سڳدے او۔ اتنے تائیں جو تساں اپݨا اصلی پتہ ظاہر کیتے بغیر ای میلز دا جواب ݙے سڳدے او۔
+premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
+premium-promo-perks-perk-custom-domain-body-2 = حسب ضرورت ذیلی ڈومین دے نال، تساں اینجھے ماسک بݨا سڳدے او جیڑھے یاد رکھݨ تے شیئر کرݨ وِچ پہلے کنوں ٻہوں زیادہ آسان ہن۔ ریستوران دے تحفظات کیتے ہک دی ضرورت ہے؟ ہک دا استعمال کرو جیویں food@mydomain.mozmail.com — پہلے کنوں ماسک بݨاوݨ دی ضروری کائنی۔
+premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
+premium-promo-perks-perk-dashboard-body-2 = استعمال وِچ آسان ڈیش بورڈ وِچ اپݨے تمام ای میل ماسک منظم کرو: جے تہاکوں معلوم تھیندا ہے جو کہیں کوں بے بھانوݨے سنیہے وصول تھیندے ہن، تاں تساں انہاں سنیہاں کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او۔
+premium-promo-perks-perk-block-promotionals-headline = مشہوری ای میلاں بلاک کرو
+premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
+premium-promo-perks-perk-tracker-blocking-headline = سارے ای میل ٹریکر ہٹاؤ
+premium-promo-perks-perk-tracker-blocking-body = ہݨ { -brand-name-relay } ای میل ٹریکنگ کوں روکݨ وِچ تہاݙی مدد کر سڳدا ہے — تہاݙے ای میل ماسک تہاکوں بھیڄے ڳئے کہیں وی ای میل کنوں عام ای میل ٹریکرز کوں ہٹا ݙیسن، جیندے نال تہاکوں ٹریکرز تے مشتہرین کیتے اوڈھر رہݨ وِچ مدد ملسے۔
+
+premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
+premium-promo-use-cases-shopping-heading = خریداری
+premium-promo-use-cases-shopping-body-2 = سبھے سپیم دے بغیر رعایت کیتے سائن اپ کرݨ دی کوشش کریندے پئے ہن؟ اپݨے تمام "شاپنگ" اکاؤنٹس کوں حسب ضرورت ای میل ماسک دے تحت بنڈل کرو، جیویں mydeals@mydomain.mozmail.com۔
+premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
+premium-promo-use-cases-social-networks-body-2 = سوشل نیٹ ورک استعمال کریندے ویلھے اپݨی آن لائن سنڄاݨ دی بہتر حفاظت کرݨ چاہندے او؟ ہر سوشل نیٹ ورک وِچ لاگ ان کرݨ کیتے ہک مختلف ای میل ماسک دا استعمال کرو تے اپݨے حقیقی ای میل کوں انہاں سائٹاں دے سامݨے آوݨ کنوں بچاوݨ وِچ مدد کرو۔
+premium-promo-use-cases-gaming-heading = کھیݙݨ
+premium-promo-use-cases-gaming-body-2 = اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا ٹرول سیکھݨ دے بارے وِچ فکر مند ہو جو تساں کون او؟ اپݨی سنجاݨ تے جیڑھیاں کھیݙاں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے onlinegame@mydomain.mozmail.com جیہاں ماسک استعمال کرو۔
+
+premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
+premium-promo-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
+premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
+
+## The Premium waitlist page
+
+waitlist-heading-2 = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
+waitlist-heading-phone = { -brand-name-relay } فون ماسکنگ تانگھ تندیر نال رلت کرو
+waitlist-heading-bundle = { -brand-name-relay } + { -brand-name-vpn } ٻنڈل کیتے تانگھ تندیر وچ رلت کرو
+waitlist-lead-2 = ڄݙݨ تہاݙے علاقے وچ { -brand-name-relay-premium } دستیاب ہوسی اساں تہاکوں ݙسیسوں۔
+waitlist-lead-phone = ڄݙݨ فون ماسکنگ تہاݙے علاقے وچ دستیاب ہوسی اساں تہاکوں ݙسیسوں۔
+waitlist-lead-bundle = تساں جہڑے ویلے آپݨے علاقے وچ { -brand-name-relay-premium } تے { -brand-name-mozilla-vpn } رعایت نال گھن سڳسو اساں تہاکوں ݙسیسوں۔
+waitlist-control-required = ضروری ہے
+waitlist-control-email-label = تہاݙا ای میل پتہ کیا ہے؟
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label-2 = تساں کہڑے ملک یا علاقے وچ راہندے ہو؟
+waitlist-control-locale-label = آپݨی ترجیحی زبان چݨو۔
+waitlist-submit-label-2 = تانگھ تندیر نال رلت کرو
+waitlist-privacy-policy-agree-2 = ”{ waitlist-submit-label-2 }“ تے کلک کرݨ نال، تساں ساݙی <a>رازداری پالیسی</a> نال متفق ہوسو۔
+waitlist-privacy-policy-use = تہاݙی معلومات صرف تہاکوں { -brand-name-firefox-relay-premium } دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
+waitlist-privacy-policy-use-phone = تہاݙی معلومات کوں صرف تہاکوں تہاݙے علاقے وچ  فون ماسکنگ دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
+waitlist-privacy-policy-use-bundle = تہاݙی معلومات کوں صرف تہاکوں { -brand-name-relay } + { -brand-name-vpn } ٻنڈل دی دستیابی بارے اطلاع ݙیوݨ کیتے ورتیا ویسی۔
+waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک واری تہاݙے علاقے وچ { -brand-name-firefox-relay-premium } دستیاب تھی ون٘ڄے، اساں تہاکوں ای میل کریسوں۔
+waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
+waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔

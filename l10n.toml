@@ -32,14 +32,36 @@ locales = [
 ]
 
 [[paths]]
-    reference = "en/app.ftl"
-    l10n = "{locale}/app.ftl"
+    reference = "en/banner.ftl"
+    l10n = "{locale}/banner.ftl"
+[[paths]]
+    reference = "en/brands.ftl"
+    l10n = "{locale}/brands.ftl"
+[[paths]]
+    reference = "en/bundle.ftl"
+    l10n = "{locale}/bundle.ftl"
+    locales = [
+        "es-MX",
+        "fr",
+    ]
+[[paths]]
+    reference = "en/faq.ftl"
+    l10n = "{locale}/faq.ftl"
 [[paths]]
     reference = "en/landing.ftl"
     l10n = "{locale}/landing.ftl"
 [[paths]]
-    reference = "en/brands.ftl"
-    l10n = "{locale}/brands.ftl"
+    reference = "en/layout.ftl"
+    l10n = "{locale}/layout.ftl"
+[[paths]]
+    reference = "en/misc.ftl"
+    l10n = "{locale}/misc.ftl"
+[[paths]]
+    reference = "en/modals.ftl"
+    l10n = "{locale}/modals.ftl"
+[[paths]]
+    reference = "en/onboarding.ftl"
+    l10n = "{locale}/onboarding.ftl"
 [[paths]]
     reference = "en/phones.ftl"
     l10n = "{locale}/phones.ftl"
@@ -48,9 +70,13 @@ locales = [
         "fr",
     ]
 [[paths]]
-    reference = "en/bundle.ftl"
-    l10n = "{locale}/bundle.ftl"
-    locales = [
-        "es-MX",
-        "fr",
-    ]
+    reference = "en/profile.ftl"
+    l10n = "{locale}/profile.ftl"
+[[paths]]
+    reference = "en/settings.ftl"
+    l10n = "{locale}/settings.ftl"
+[[paths]]
+    reference = "en/whatsnew.ftl"
+    l10n = "{locale}/whatsnew.ftl"
+
+

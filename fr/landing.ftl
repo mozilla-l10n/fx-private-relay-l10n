@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Protégez votre identité avec des alias de messagerie et de numéro de téléphone sécurisés
@@ -183,3 +182,82 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } peut s
 
 landing-faq-headline = Questions les plus fréquentes sur { -brand-name-firefox-relay }
 landing-faq-cta = Voir plus de questions fréquentes sur { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Simplifiez la protection de votre boîte de réception grâce à { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui transfèrent uniquement les e-mails souhaités vers votre véritable adresse. <b>Pendant une durée limitée, vous pouvez passer à { -brand-name-relay-premium } pour seulement { $monthly_price } par mois.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui ne transmettent que les e-mails que vous désirez à votre véritable adresse e-mail.
+premium-promo-hero-cta = Mettre à niveau maintenant
+
+premium-promo-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
+premium-promo-offer-end-hero-cta = Mettre à niveau maintenant
+
+premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en Finlande, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour, en Suède et en Suisse.
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Belgique, au Canada, à Chypre, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, au Portugal, à Singapour, en Slovaquie, en Slovénie, en Suède, en Suisse et au Royaume-Uni.
+
+premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-premium } ?
+premium-promo-perks-lead-2 = Avec { -brand-name-firefox-relay-premium }, non seulement vous bénéficiez de tous les avantages de la protection et de la gestion de la boîte de réception de { -brand-name-relay }, mais aussi d’un nombre illimité d’alias de messagerie et de votre propre sous-domaine personnalisé pour faciliter comme jamais la gestion de votre boîte de réception.
+premium-promo-perks-cta-label = Mettre à niveau maintenant
+premium-promo-perks-cta-tooltip = Passez à { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Nouveau !
+premium-promo-perks-perk-unlimited-headline-2 = Créer un nombre illimité d’alias de messagerie
+premium-promo-perks-perk-unlimited-body-2 = Finie la limite des cinq alias : avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour vous permettre de protéger votre boîte de réception des spammeurs et des traqueurs. Vous pouvez même répondre aux messages sans exposer votre vraie adresse e-mail.
+premium-promo-perks-perk-custom-domain-headline-2 = Choisir son sous-domaine personnalisé
+premium-promo-perks-perk-custom-domain-body-2 = Avec un sous-domaine personnalisé, vous pouvez créer autant d’alias plus faciles que jamais à retenir et partager. Vous en avez besoin d’un pour réserver une table au restaurant ? Utilisez un alias tel que resto@mondomaine.mozmail.com — nul besoin de le créer avant de l’utiliser.
+premium-promo-perks-perk-dashboard-headline-2 = Contrôler les alias depuis le tableau de bord
+premium-promo-perks-perk-dashboard-body-2 = Gérez tous vos alias dans le tableau de bord si pratique : si vous trouvez que l’un d’eux reçoit des messages non sollicités, vous pouvez empêcher ceux-ci d’arriver dans votre boîte de réception.
+premium-promo-perks-perk-block-promotionals-headline = Bloquer les e-mails promotionnels
+premium-promo-perks-perk-block-promotionals-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
+premium-promo-perks-perk-tracker-blocking-headline = Supprimer les traqueurs des e-mails
+premium-promo-perks-perk-tracker-blocking-body = Désormais, { -brand-name-relay } peut vous aider à bloquer le pistage dans les e-mails : vos alias de messagerie supprimeront les outils de pistage courants de tous les e-mails qui vous sont transférés, vous aidant ainsi à rester invisible aux yeux des outils de pistage et des annonceurs.
+
+premium-promo-use-cases-headline-2 = Utiliser partout les alias de messagerie de { -brand-name-relay }
+premium-promo-use-cases-shopping-heading = Achats en ligne
+premium-promo-use-cases-shopping-body-2 = Vous essayez de vous inscrire à des promotions sans que cela vous inonde de spams ? Regroupez vos comptes d’« achats en ligne » sous des alias personnalisés uniques, comme « mesoffres@mondomaine.mozmail.com ».
+premium-promo-use-cases-social-networks-heading = Réseaux sociaux
+premium-promo-use-cases-social-networks-body-2 = Vous voulez une meilleure protection de votre identité en ligne quand vous utilisez un réseau social ? Utilisez un alias de messagerie différent pour la connexion à chaque réseau social et protégez ainsi votre véritable adresse e-mail du regard de ces sites.
+premium-promo-use-cases-gaming-heading = Jeux
+premium-promo-use-cases-gaming-body-2 = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse e-mail ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
+
+premium-promo-pricing-free-price = Votre forfait gratuit actuel
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
+premium-promo-pricing-offer-end-warning = Cette promotion se termine bientôt
+premium-promo-pricing-offer-end-cta = Mettre à niveau maintenant
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Rejoignez la liste d’attente de { -brand-name-relay-premium }
+waitlist-heading-phone = Rejoignez la liste d’attente des alias de numéro de téléphone de { -brand-name-relay }
+waitlist-heading-bundle = Rejoignez la liste d’attente pour le pack { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Nous vous informerons lorsque { -brand-name-relay-premium } sera disponible dans votre région.
+waitlist-lead-phone = Nous vous informerons lorsque les alias de numéro de téléphone seront disponibles dans votre région.
+waitlist-lead-bundle = Nous vous ferons savoir quand vous pourrez obtenir { -brand-name-relay-premium } et { -brand-name-mozilla-vpn } à prix réduit dans votre région.
+waitlist-control-required = Requis
+waitlist-control-email-label = Quelle est votre adresse email ?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = votrenom@example.com
+waitlist-control-country-label-2 = Dans quel pays ou région habitez-vous ?
+waitlist-control-locale-label = Sélectionnez votre langue préférée.
+waitlist-submit-label-2 = Rejoindre la liste d’attente
+waitlist-privacy-policy-agree-2 = En cliquant sur « { waitlist-submit-label-2 } », vous acceptez notre <a>Politique de confidentialité</a>.
+waitlist-privacy-policy-use = Vos informations ne seront utilisées que pour vous informer de la disponibilité de { -brand-name-firefox-relay-premium }.
+waitlist-privacy-policy-use-phone = Vos informations ne seront utilisées que pour vous informer de la disponibilité des alias de numéro de téléphone.
+waitlist-privacy-policy-use-bundle = Vos informations ne seront utilisées que pour vous informer de la disponibilité du pack { -brand-name-relay } + { -brand-name-vpn }.
+waitlist-subscribe-success = Vous êtes sur la liste ! Une fois que { -brand-name-firefox-relay-premium } sera disponible pour votre région, nous vous enverrons un e-mail.
+waitlist-subscribe-error-connection = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez vérifier votre connexion, puis réessayer.
+waitlist-subscribe-error-unknown = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez réessayer.

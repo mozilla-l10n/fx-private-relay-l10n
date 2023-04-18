@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = Diogelwch eich hunaniaeth trwy guddio rhif ffôn ac e-bost diogel
@@ -190,3 +189,82 @@ highlighted-features-section-remove-trackers-body = Nawr gall { -brand-name-rela
 
 landing-faq-headline = Y prif gwestiynau am { -brand-name-firefox-relay }
 landing-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-relay }
+
+## Premium promo page
+
+premium-promo-hero-headline = Gwnewch diogelu eich blwch derbyn yn haws gyda { -brand-name-firefox-relay-premium }
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael e-byst arallenwau cyfaddas dirifedi sy'n anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch cyfeiriad e-bost go-iawn. <b>Am gyfnod cyfyngedig, gallwch uwchraddio i { -brand-name-relay-premium } am ddim ond { $monthly_price } y mis.</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = Gyda { -brand-name-firefox-relay-premium }, byddwch yn cael arallenwau e-bost personol diderfyn sy'n anfon dim ond y negeseuon e-bost rydych chi eu heisiau ymlaen i'ch gwir gyfeiriad e-bost.
+premium-promo-hero-cta = Uwchraddiwch nawr
+
+premium-promo-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+premium-promo-offer-end-hero-cta = Uwchraddiwch nawr
+
+premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
+premium-promo-availability-warning-2 = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU a'r UDA.
+premium-promo-availability-warning-3 = Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
+
+premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
+premium-promo-perks-lead-2 = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag e-byst arallenwau dirifedi a'ch is-parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
+premium-promo-perks-cta-label = Uwchraddiwch nawr
+premium-promo-perks-cta-tooltip = Uwchraddiwch i { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = Newydd!
+premium-promo-perks-perk-unlimited-headline-2 = Crëwch e-byst arallenwau dirifedi
+premium-promo-perks-perk-unlimited-body-2 = Dim rhagor o gyfyngiad pum e-bost arallenw: gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o e-byst arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-byst rhag sbamwyr a thracwyr ar-lein. Gallwch hyd yn oed ateb e-byst heb ddatgelu eich cyfeiriad go iawn.
+premium-promo-perks-perk-custom-domain-headline-2 = Dewiswch eich is-barth cyfaddas eich hun
+premium-promo-perks-perk-custom-domain-body-2 = Gydag is-barth cyfaddas, gallwch greu e-byst arallenwau sy'n haws nag erioed i'w cofio a'u rhannu. Angen un ar gyfer archebion bwyty? Defnyddiwch un fel bwyd@fymharth.mozmail.com - Does dim rhaid creu'r arallenw ymlaen llaw.
+premium-promo-perks-perk-dashboard-headline-2 = Rheolwch eich e-byst arallenwau o'r bwrdd gwaith
+premium-promo-perks-perk-dashboard-body-2 = Rheolwch eich holl e-byst arallenwau yn y bwrdd gwaith hawdd ei ddefnyddio: os gwelwch fod un yn derbyn negeseuon diofyn, gallwch rwystro'r negeseuon hynny rhag cyrraedd eich blwch derbyn.
+premium-promo-perks-perk-block-promotionals-headline = Rhwystro e-byst hyrwyddo
+premium-promo-perks-perk-block-promotionals-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
+premium-promo-perks-perk-tracker-blocking-headline = Dileu tracwyr e-bost
+premium-promo-perks-perk-tracker-blocking-body = Nawr gall { -brand-name-relay } eich helpu i rwystro tracio e-byst - bydd eich arallenwau e-bost yn tynnu tracwyr e-bost cyffredin o unrhyw e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i dracwyr a hysbysebwyr.
+
+premium-promo-use-cases-headline-2 = Defnyddiwch e-byst arallenwau { -brand-name-relay } yn unrhyw le
+premium-promo-use-cases-shopping-heading = Siopa
+premium-promo-use-cases-shopping-body-2 = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan e-byst arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
+premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
+premium-promo-use-cases-social-networks-body-2 = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch e-byst arallenwau gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn rhy agored ar y gwefannau hynny.
+premium-promo-use-cases-gaming-heading = Gemau
+premium-promo-use-cases-gaming-body-2 = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch e-bost arallenw fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
+
+premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
+premium-promo-pricing-offer-end-warning = Mae'r hyrwyddiad hwn yn dod i ben cyn bo hir
+premium-promo-pricing-offer-end-cta = Uwchraddiwch nawr
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
+
+## The Premium waitlist page
+
+waitlist-heading-2 = Ymunwch â rhestr aros { -brand-name-relay-premium }
+waitlist-heading-phone = Ymunwch â rhestr aros cuddio ffôn { -brand-name-relay }
+waitlist-heading-bundle = Ymunwch â'r rhestr aros ar gyfer pecyn { -brand-name-relay } + { -brand-name-vpn }
+waitlist-lead-2 = Byddwn yn rhoi gwybod i chi pan fydd { -brand-name-relay-premium } ar gael yn eich ardal chi.
+waitlist-lead-phone = Byddwn yn rhoi gwybod i chi pan fydd cuddio ffôn ar gael yn eich ardal chi.
+waitlist-lead-bundle = Byddwn yn rhoi gwybod ichi pryd gallwch gael { -brand-name-relay-premium } a { -brand-name-mozilla-vpn } ar ddisgownt yn eich ardal chi.
+waitlist-control-required = Angenrheidiol
+waitlist-control-email-label = Beth yw eich cyfeiriad e-bost?
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = eichenw@example.com
+waitlist-control-country-label-2 = Ym mha wlad neu ranbarth ydych chi'n byw?
+waitlist-control-locale-label = Dewiswch eich iaith.
+waitlist-submit-label-2 = Ymunwch â'r rhestr aros
+waitlist-privacy-policy-agree-2 = Drwy glicio “{ waitlist-submit-label-2 }”, rydych yn cytuno i'n <a>Polisi Preifatrwydd</a>.
+waitlist-privacy-policy-use = Dim ond i'ch hysbysu am argaeledd { -brand-name-firefox-relay-premium } y bydd eich manylion yn cael eu defnyddio.
+waitlist-privacy-policy-use-phone = Dim ond i roi gwybod i chi pan fydd cuddio ffôn ar gael yn eich ardal y caiff eich manylion ei ddefnyddio.
+waitlist-privacy-policy-use-bundle = Dim ond i roi gwybod i chi am argaeledd pecyn { -brand-name-relay } + { -brand-name-vpn } y bydd eich manylion yn cael ei ddefnyddio.
+waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal, byddwn yn anfon e-bost atoch.
+waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
+waitlist-subscribe-error-unknown = Bu gwall wrth eich ychwanegu at y rhestr aros. Ceisiwch eto, os gwelwch yn dda.

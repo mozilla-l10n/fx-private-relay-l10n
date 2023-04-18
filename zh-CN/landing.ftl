@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = 使用虚拟手机号和马甲邮箱，保护您的身份信息
@@ -188,3 +187,84 @@ highlighted-features-section-remove-trackers-body =
 
 landing-faq-headline = { -brand-name-firefox-relay } 的常见问题
 landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
+
+## Premium promo page
+
+premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
+premium-promo-hero-cta = 立即升级
+
+premium-promo-offer-end-hero-heading = 优惠价即将结束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市特惠价享受高级电子邮件保护。
+premium-promo-offer-end-hero-cta = 立即升级
+
+premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+
+premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
+premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
+premium-promo-perks-cta-label = 立即升级
+premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = 新功能！
+premium-promo-perks-perk-unlimited-headline-2 = 创建无限数量马甲
+premium-promo-perks-perk-unlimited-body-2 = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
+premium-promo-perks-perk-custom-domain-headline-2 = 选择您的自定义子域名
+premium-promo-perks-perk-custom-domain-body-2 =
+    借助自定义子域名功能，可创建比以往更好记和分享的马甲。
+    想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
+premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
+premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
+premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
+premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
+premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
+premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您防止电子邮件跟踪——您的马甲邮箱将从转发给您的任何电子邮件中删除电子邮件中常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
+
+premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
+premium-promo-use-cases-shopping-heading = 网购
+premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
+premium-promo-use-cases-social-networks-heading = 社交网络
+premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地保护个人信息？在每个社交平台使用不同的马甲邮箱，可帮助保护您的真实邮箱地址免遭泄露。
+premium-promo-use-cases-gaming-heading = 游戏
+premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
+
+premium-promo-pricing-free-price = 您当前的免费方案
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } 即享无限马甲
+premium-promo-pricing-offer-end-warning = 本促销活动即将结束
+premium-promo-pricing-offer-end-cta = 立即升级
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市优惠价享受高级电子邮件保护。
+
+## The Premium waitlist page
+
+waitlist-heading-2 = 欢迎加入 { -brand-name-relay-premium } 预约名单
+waitlist-heading-phone = 加入 { -brand-name-relay } 电话马甲预约名单
+waitlist-heading-bundle = 加入 { -brand-name-relay } + { -brand-name-vpn } 捆绑包的预约名单
+waitlist-lead-2 = 当 { -brand-name-relay-premium } 在您的地区可用时，我们会通知您。
+waitlist-lead-phone = 当您所在地区可以使用电话马甲功能时，我们会通知您。
+waitlist-lead-bundle = 当在您的地区可以用折扣价购买 { -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn } 时，我们会通知您。
+waitlist-control-required = 必填
+waitlist-control-email-label = 您的电子邮件地址是什么？
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label-2 = 您处在哪个国家或地区？
+waitlist-control-locale-label = 选择您的首选语言。
+waitlist-submit-label-2 = 加入预约名单
+waitlist-privacy-policy-agree-2 = 点击“{ waitlist-submit-label-2 }”，即表示您同意我们的<a>隐私政策</a>。
+waitlist-privacy-policy-use = 您的信息将仅用于向您通知 { -brand-name-firefox-relay-premium } 的可用性。
+waitlist-privacy-policy-use-phone = 您的信息将仅用于在您所在地区提供电话马甲功能时通知您。
+waitlist-privacy-policy-use-bundle = 您的信息将仅用于通知您有关 { -brand-name-relay } + { -brand-name-vpn } 捆绑包可用性的消息。
+waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
+waitlist-subscribe-error-connection = 加入预约名单时出错，请检查您的网络连接并重试。
+waitlist-subscribe-error-unknown = 加入预约名单时出错，请重试。

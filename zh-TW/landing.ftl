@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## HERO SECTION 
 
 hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
@@ -178,3 +177,82 @@ highlighted-features-section-remove-trackers-body = { -brand-name-relay } 可移
 
 landing-faq-headline = { -brand-name-firefox-relay } 的熱門問題
 landing-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
+
+## Premium promo page
+
+premium-promo-hero-headline = 使用 { -brand-name-firefox-relay-premium } 讓保護您的收件匣變得更簡單
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，可以獲得無限量的自訂郵件轉寄信箱，只把您想要的郵件轉寄到您的實際信箱。<b>限時特價：每月僅需 { $monthly_price } 即可升級至 { -brand-name-relay-premium } 方案。</b>
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-hero-body-3 = 透過 { -brand-name-firefox-relay-premium }，您可以獲得無限的自訂轉寄信箱，只將您想要轉寄的郵件轉到您的實際電子郵件信箱。
+premium-promo-hero-cta = 立刻升級
+
+premium-promo-offer-end-hero-heading = 上市優惠價即將結束！
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+premium-promo-offer-end-hero-cta = 立刻升級
+
+premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
+premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
+premium-promo-availability-warning-3 = { -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
+
+premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
+premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
+premium-promo-perks-cta-label = 立刻升級
+premium-promo-perks-cta-tooltip = 升級到 { -brand-name-firefox-relay-premium }
+premium-promo-perks-pill-new = 新功能！
+premium-promo-perks-perk-unlimited-headline-2 = 建立無限量的轉寄信箱
+premium-promo-perks-perk-unlimited-body-2 = 不再只能建立五組轉寄信箱：升級到 { -brand-name-relay-premium }，就可以隨意產生保護您不受到垃圾信與網路追蹤器騷擾的轉寄信箱，數量不限；甚至還可以在隱藏實際電子郵件地址的情況下回覆郵件。
+premium-promo-perks-perk-custom-domain-headline-2 = 使用您自訂的子網域名稱
+premium-promo-perks-perk-custom-domain-body-2 = 使用自訂子網域，可以建立方便好記好分享的轉寄信箱。要預約餐廳嗎？可免事先建立，直接使用 food@mydomain.mozmail.com 登記。
+premium-promo-perks-perk-dashboard-headline-2 = 在儀表板管理您建立的轉寄信箱
+premium-promo-perks-perk-dashboard-body-2 = 透過簡單好用的儀錶板管理您的所有轉寄信箱：發現有哪個信箱開始收到垃圾信時，就可以直接阻絕垃圾信於千里之外。
+premium-promo-perks-perk-block-promotionals-headline = 封鎖行銷郵件
+premium-promo-perks-perk-block-promotionals-body = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
+premium-promo-perks-perk-tracker-blocking-headline = 移除郵件追蹤器
+premium-promo-perks-perk-tracker-blocking-body = 現在起，{ -brand-name-relay } 可幫助您防止透過電子郵件被追蹤 — 轉寄信箱將自動從轉寄給您的信件中移除常見的追蹤器，幫助您確保對追蹤器與廣告商保持隱形。
+
+premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
+premium-promo-use-cases-shopping-heading = 線上購物
+premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
+premium-promo-use-cases-social-networks-heading = 社群網路
+premium-promo-use-cases-social-networks-body-2 = 想要在使用社群網路時更加保護您的線上身分嗎？可使用不同的轉寄信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
+premium-promo-use-cases-gaming-heading = 玩遊戲
+premium-promo-use-cases-gaming-body-2 = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
+
+premium-promo-pricing-free-price = 您目前的免費方案
+
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
+premium-promo-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名
+premium-promo-pricing-offer-end-warning = 本檔促銷活動即將結束
+premium-promo-pricing-offer-end-cta = 立刻升級
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
+
+## The Premium waitlist page
+
+waitlist-heading-2 = 加入 { -brand-name-relay-premium } 候補名單
+waitlist-heading-phone = 加入 { -brand-name-relay } 虛擬手機號碼轉接功能候補名單
+waitlist-heading-bundle = 加入 { -brand-name-relay } + { -brand-name-vpn } 套裝候補名單
+waitlist-lead-2 = 我們會在 { -brand-name-relay-premium } 於您所在地區推出時通知。
+waitlist-lead-phone = 我們會在虛擬手機號碼轉接功能於您所在地區推出時通知。
+waitlist-lead-bundle = 我們會在 { -brand-name-relay-premium } 與 { -brand-name-mozilla-vpn } 套裝折扣，於您所在地區推出時通知。
+waitlist-control-required = 必填
+waitlist-control-email-label = 您的電子郵件地址是什麼？
+# Please only translate `yourname`; example.com is an actual example domain that is safe to use.
+waitlist-control-email-placeholder = yourname@example.com
+waitlist-control-country-label-2 = 您生活在哪個國家或地區？
+waitlist-control-locale-label = 選擇想使用的語言。
+waitlist-submit-label-2 = 加入候補名單
+waitlist-privacy-policy-agree-2 = 點擊「{ waitlist-submit-label-2 }」，代表您同意我們的<a>隱私權保護政策</a>。
+waitlist-privacy-policy-use = 您提供的資訊，只會用來向您通知 { -brand-name-firefox-relay-premium } 產品推出資訊。
+waitlist-privacy-policy-use-phone = 您提供的資訊，將只會在虛擬手機號碼轉接功能於您所在地區推出時用來通知您。
+waitlist-privacy-policy-use-bundle = 您提供的資訊，將只會在 { -brand-name-relay } + { -brand-name-vpn } 套裝於您所在地區推出時用來通知您。
+waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
+waitlist-subscribe-error-connection = 將您加入候補名單時遇到錯誤，請確認網路連線是否正常，然後再試一次。
+waitlist-subscribe-error-unknown = 將您加入候補名單時發生錯誤，請再試一次。
