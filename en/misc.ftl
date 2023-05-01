@@ -124,9 +124,6 @@ contains-tracker-warning-title = Would you still like to view the link?
 contains-tracker-warning-description = Warning: Clicking on this link will send information about you back to the sender
 contains-tracker-warning-view-link-cta = Yes, view link
 contains-tracker-faq-section-title = Frequently asked questions about email trackers
-faq-question-define-tracker-question = What are email trackers?
-faq-question-define-tracker-answer-partone = Email tracking is a common surveillance and advertising tool that has taken over many inboxes. These trackers can be used to understand more about your online behavior, your interests, and your email activity.
-faq-question-define-tracker-answer-parttwo = A company or organization will embed a tracker in emails sent to you, usually hidden within an image or a link. When the email is opened, code within the tracker sends data back to the company.
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
