@@ -107,3 +107,7 @@ faq-question-bulk-trackerremoval-question = Can I remove trackers only on some o
 faq-question-bulk-trackerremoval-answer = You can only turn tracker removal on at an account level — it either removes trackers from all of your emails, or none of them.
 faq-question-trackerremoval-breakage-question = Why do my emails look broken?
 faq-question-trackerremoval-breakage-answer-2 = Sometimes removing trackers may cause your email to look broken because the trackers are often contained within images and links. When the tracker is removed, the email looks like it’s been formatted wrong because images are missing. This can’t be fixed for emails you’ve already received. If this is preventing you from reading your emails properly, turn off tracker removal.
+
+faq-question-define-tracker-question = What are email trackers?
+faq-question-define-tracker-answer-partone = Email tracking is a common surveillance and advertising tool that has taken over many inboxes. These trackers can be used to understand more about your online behavior, your interests, and your email activity.
+faq-question-define-tracker-answer-parttwo = A company or organization will embed a tracker in emails sent to you, usually hidden within an image or a link. When the email is opened, code within the tracker sends data back to the company.
