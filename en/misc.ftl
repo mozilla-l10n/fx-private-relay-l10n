@@ -111,7 +111,19 @@ trackerreport-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 trackerreport-loading = Loading your tracker removal report…
 trackerreport-load-error = There was an error generating your tracker removal report. Please refresh the page to try again.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
+
+contains-tracker-title = This link or image contains a tracker
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = Email trackers are surveillance tools that companies embed in emails to track your
+    online behavior. To protect your privacy, we removed this tracker from the email sent 
+    by <u>{ $sender }</u> on { $datetime }. 
+contains-tracker-warning-title = Would you still like to view the link?
+contains-tracker-warning-description = Warning: Clicking on this link will send information about you back to the sender
+contains-tracker-warning-view-link-cta = Yes, view link
+contains-tracker-faq-section-title = Frequently asked questions about email trackers
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
