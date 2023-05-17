@@ -60,6 +60,8 @@ how-it-works-section-manage-body = Sign in to your { -brand-name-relay } dashboa
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Choose a level of protection that’s right for you
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } protects your identity and your inbox with unique email masks. Add on even more security with { -brand-name-relay } phone masking, and save { $savings } by adding { -brand-name-vpn } protection.
 
 # Top Row Labels
