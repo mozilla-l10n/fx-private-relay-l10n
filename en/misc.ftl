@@ -191,6 +191,7 @@ survey-csat-answer-very-satisfied = Very Satisfied
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Thank you for your feedback. We would like to learn more about how we can improve { -brand-name-relay } for you, would you be willing to take a two-minute survey?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
