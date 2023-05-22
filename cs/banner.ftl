@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Ne, děkuji
-
 banner-bounced-headline = Služba { -brand-name-relay } nemohla doručit váš e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = Získejte pro své masky vlastní
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = vaše-doména
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = S vlastní subdoménou můžete sdílet masky, které není třeba před jejich použitím generovat. Potřebujete rezervovat stůl v restauraci? Použijte „restaurace@vaše-doména.{ $mozmail }“. Každá maska používající vaši vlastní subdoménu vám bude následně přeposlána.
@@ -52,36 +49,30 @@ banner-pack-upgrade-copy-2 = Díky neomezenému počtu e-mailových masek a vaš
 footer-banner-premium-promo-headine = Upgradujte na <strong>{ -brand-name-firefox-relay-premium }</strong>, abyste ochránili svůj telefon <i>a</i> e-mail.
 footer-banner-premium-promo-body = Získejte masku telefonního čísla, neomezený počet e-mailových masek a vlastní e-mailové adresy pro rychlé vytvoření masky.
 banner-pack-upgrade-cta = Upgradujte
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualizace zásad ochrany osobních údajů
 banner-label-privacy-notice-update-body = Pro zvýšení spolehlivosti { -brand-name-firefox-relay(case: "gen") } v případě, že e-mail nebude možné doručit, ho dočasně uchováme na našich serverech, dokud nebude doručen. Nikdy ho však nebudeme uchovávat déle než tři dny.
 banner-label-privacy-notice-update-cta = Zobrazit zásady ochrany osobních údajů
-
 # Data Notification Banner:
 banner-label-data-notification-header = Již brzy v { -brand-name-relay(case: "loc") }
 banner-label-data-notification-cta = Přejít do nastavení
 banner-label-data-notification-header-v2 = Nové funkce
 banner-label-data-notification-body-cta = Zjistit více
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Chraňte své soukromí, zachraňte internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Chraňte své soukromí a připojte se k naší misi vybudovat lepší internet, a to vše za { $monthly_price }
 banner-upgrade-loyalist-cta = Získejte větší ochranu
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Naše zaváděcí cenová nabídka brzy končí!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si neomezené maskování za naši zaváděcí měsíční cenu.
 banner-offer-end-cta = Upgradujte hned teď
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Můžete si vytvořit libovolnou adresu @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Zastavte spam, telefonáty od automatů a nevyžádané SMS
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } vám poskytuje telefonní masku, která ochrání vaše skutečné číslo – plus neomezený počet e-mailových masek.
@@ -95,7 +86,18 @@ banner-ab-premium-promo-cta = Upgradovat
 
 ## Set domain banner
 
+banner-set-email-domain-headline-action-needed = Vyžadována akce
+banner-set-email-domain-headline = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
+banner-set-email-domain-input-search = Vyhledávání
+# This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
+# and without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-set-email-domain-placeholder = vaše-doména
+banner-set-email-domain-learn-more = Zjistěte více
+modal-email-domain-good-news = Dobré zprávy!
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Ano, chci si zaregistrovat subdoménu @{ $subdomain }
-
+modal-email-domain-cancel = Zrušit
+modal-email-domain-register = Registrace
+modal-email-domain-success-continue = Pokračovat

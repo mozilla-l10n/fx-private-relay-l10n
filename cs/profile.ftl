@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Vytvořte si svou první e-mailovou masku
 onboarding-alias-tip-1-2 = Klepnutím na tlačítko „Vygenerovat novou masku“ vytvořte svou masku.
 onboarding-alias-tip-2 = Za použití rozšíření { -brand-name-relay } klepněte na ikonu { -brand-name-firefox-relay(case: "gen") }, až se objeví v polích pro zadání e-mailové adresy.
 onboarding-alias-tip-3-2 = Za použití rozšíření { -brand-name-relay } klepněte pravým tlačítkem myši do formulářového pole a zvolte „Vygenerovat novou masku“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vítejte,</span> { $email }!
@@ -35,24 +35,22 @@ profile-label-delete = Smazat
 profile-label-upgrade-2 = Získejte neomezený počet e-mailových masek
 profile-label-create-subdomain = Získejte vlastní e-mailovou subdoménu
 profile-label-subdomain = E-mailová subdoména:
+profile-label-custom-domain = Vaše e-mailová doména { -brand-name-relay }:
+profile-label-set-your-custom-domain = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Více informací
 profile-label-subdomain-tooltip = Vytvoří vaši jedinečnou e-mailovou subdoménu.
 profile-label-reset = Obnovit
 profile-label-apply = Použít
 profile-label-skip = Přeskočit
 profile-label-continue = Pokračovat
-
 # This string is followed by an email address
 profile-label-forward-emails = Přeposílat e-maily na:
-
 # This string is followed by date
 profile-label-first-emailed = První e-mail:
-
 # This string is followed by date:
 profile-label-created = Vytvořeno:
 profile-label-details-show = Zobrazit podrobnosti
 profile-label-details-hide = Skrýt podrobnosti
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = přeposílání
 profile-label-blocking = blokování

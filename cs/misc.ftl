@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -106,7 +107,20 @@ trackerreport-tracker-count =
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
+
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = Dní
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = Hod.
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = Min.
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = Sek.
 
 ## Evergreen Survey (displayed on the profile page)
 
@@ -129,11 +143,29 @@ survey-option-dismiss = Zavřít
 
 ## CSAT survey
 
+survey-csat-answer-very-dissatisfied = Velmi nespokojený
+survey-csat-answer-dissatisfied = Nespokojený
+survey-csat-answer-neutral = Neutrální
+survey-csat-answer-satisfied = Spokojený
+survey-csat-answer-very-satisfied = Velmi spokojený
+
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 forwarded-email-trackers-blocked-report = Více informací
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
+
+reply-not-sent-header = Vaše odpověď nebyla odeslána
+manage-your-masks = Spravovat moje masky
+
+## Email sent to first time free users
+
 
 ## API error messages
 
+api-error-account-is-paused = Váš účet je pozastavený.

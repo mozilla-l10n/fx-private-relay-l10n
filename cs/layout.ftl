@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } usnadňuje vytváření e-mailových masek, které přeposílají e-maily do vaší skutečné schránky. Použijte je k ochraně svých online účtů před hackery a nevyžádanou poštou.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Otevře se v novém panelu)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = E-mailové masky
 nav-phone-dashboard = Masky telefonních čísel
 label-open-menu = Otevřít nabídku
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Často kladené dotazy
 nav-profile-sign-in = Přihlásit se
@@ -52,7 +51,6 @@ nav-support = Nápověda a podpora
 nav-sign-out = Odhlásit se
 nav-contact = Kontakt
 nav-menu-mobile = Nabídka pro mobily
-
 fx-desktop-2 = { -brand-name-firefox } pro počítač
 fx-mobile-2 = { -brand-name-firefox } pro mobily
 
@@ -62,6 +60,7 @@ nav-footer-privacy = Ochrana osobních údajů
 nav-footer-relay-terms = Podmínky používání služby { -brand-name-relay }
 nav-footer-legal = Právní informace
 nav-footer-release-notes = Poznámky k vydání
+nav-footer-stock-photo-legal = Fotografie na této stránce pochází z iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = Logo GitHubu
 
@@ -77,4 +76,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Zavřít nabídku
-
