@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Створіть свою першу маску адреси електронної пошти
-onboarding-alias-tip-1-2 = Виберіть “Створити нову маску”, щоб створити свою першу маску електронної адреси
+onboarding-alias-tip-1-2 = Виберіть “Згенерувати нову маску”, щоб створити свою першу маску електронної адреси
 onboarding-alias-tip-2 = Використовуючи розширення { -brand-name-relay }, виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться в полях електронної пошти.
-onboarding-alias-tip-3-2 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Створити нову маску.”
-
+onboarding-alias-tip-3-2 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Згенерувати нову маску.”
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Вітаємо,</span> { $email }!
@@ -26,7 +26,7 @@ profile-label-edit-2 = Змінити мітку для цієї маски
 profile-label-placeholder = Додайте назву облікового запису
 profile-label-save-error = Не вдалося зберегти. Повторіть спробу.
 profile-label-saved = Мітку збережено!
-profile-label-generate-new-alias-2 = Створити нову маску
+profile-label-generate-new-alias-2 = Згенерувати нову маску
 profile-label-generate-new-alias-menu-random-2 = Випадкова маска електронної пошти
 # Variables
 #   $subdomain (string) - The user's custom subdomain, if any, e.g. `@eduardofeo`.
@@ -43,18 +43,14 @@ profile-label-reset = Скинути
 profile-label-apply = Застосувати
 profile-label-skip = Пропустити
 profile-label-continue = Продовжити
-
 # This string is followed by an email address
 profile-label-forward-emails = Пересилати електронні листи на адресу:
-
 # This string is followed by date
 profile-label-first-emailed = Перший електронний лист:
-
 # This string is followed by date:
 profile-label-created = Створено:
 profile-label-details-show = Показати подробиці
 profile-label-details-hide = Сховати подробиці
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = пересилання
 profile-label-blocking = блокування

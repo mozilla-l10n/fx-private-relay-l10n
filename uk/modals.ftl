@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = Створіть нову власну маску
@@ -14,12 +15,10 @@ modal-custom-alias-picker-form-prefix-placeholder = напр. «coffee»
 modal-custom-alias-picker-form-prefix-spaces-warning = Пробіли в масках електронної пошти не допускаються.
 modal-custom-alias-picker-form-prefix-invalid-warning = Маски електронної пошти можуть містити лише малі літери, цифри та дефіси й не можуть починатися чи закінчуватися дефісом.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Маски електронної пошти можуть містити лише малі букви, цифри, крапки та дефіси й не можуть починатися чи закінчуватися крапкою або дефісом.
-modal-custom-alias-picker-form-submit-label-2 = Створити маску
+modal-custom-alias-picker-form-submit-label-2 = Згенерувати маску
 modal-custom-alias-picker-creation-error-2 = Не вдалося створити власну маску електронної адреси вручну. Спробуйте ще раз або надішліть електронний лист на маску, щоб створити її.
-
 modal-rename-alias-saved = Мітку збережено!
 modal-delete-headline-2 = Видалити цю маску електронної пошти назавжди?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -36,7 +35,6 @@ modal-delete-confirmation-2 = Так, я хочу видалити цю маск
 modal-domain-register-good-news = Гарні новини!
 modal-domain-register-warning-reminder-2 = Пам’ятайте, що ви можете зареєструвати лише один піддомен. Ви не зможете змінити його пізніше.
 modal-domain-register-button-2 = Зареєструвати піддомен
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } доступний!
@@ -44,12 +42,10 @@ modal-domain-register-available = { $subdomain } доступний!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступний!
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Так, я хочу зареєструвати <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Готово!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.

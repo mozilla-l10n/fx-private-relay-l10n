@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -56,8 +57,8 @@ tips-toast-button-expand-label = Докладніше
 
 popover-custom-alias-explainer-heading-2 = Як створювати власні маски
 popover-custom-alias-explainer-explanation-2 = Усе що вам потрібно зробити, це створити й поділитися унікальною маскою, яка використовує ваш власний субдомен – маску буде згенеровано автоматично. Спробуйте, наприклад, “shop@вашдомен.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
-popover-custom-alias-explainer-generate-button-heading-2 = Створити власну маску вручну
-popover-custom-alias-explainer-generate-button-label-2 = Створити власну маску
+popover-custom-alias-explainer-generate-button-heading-2 = Згенерувати власну маску вручну
+popover-custom-alias-explainer-generate-button-label-2 = Згенерувати власну маску
 popover-custom-alias-explainer-close-button-label = Закрити
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
@@ -113,7 +114,7 @@ trackerreport-faq-cta = Перегляньте інші поширені зап�
 trackerreport-loading = Завантаження звіту про вилучення стеження…
 trackerreport-load-error = Під час створення вашого звіту про вилучення стеження сталася помилка. Будь ласка, оновіть сторінку, щоб спробувати знову.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -187,6 +188,7 @@ survey-csat-answer-very-satisfied = Дуже задоволені
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Спасибі за ваш відгук. Ми хотіли б дізнатися більше, як ми можемо вдосконалити { -brand-name-relay } для вас. Чи готові ви взяти участь у двохвилинному опитуванні?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -215,6 +217,10 @@ forwarded-email-footer-premium-banner = Передплатити { -brand-name-r
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Оновіть до { $premium_link } перед закінченням терміну дії нашої початкової ціни.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -231,13 +237,15 @@ upgrade-for-more-protection = Покращте для надійнішого з�
 upgrade-to-premium = Покращити до { -brand-name-firefox-relay-premium }
 manage-your-masks = Керувати своїми масками
 
+## Email sent to first time free users
+
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Ви використали всі { $free_tier_limit } масок електронної пошти, доступні у вашому безплатному обліковому записі. Можна скористатися вже наявною маскою, але найбезпечнішим способом є використання унікальної маски для кожного облікового запису.
 api-error-free-tier-no-subdomain-masks = Ваш безплатний обліковий запис не включає власні піддомени для масок. Щоб створювати власні маски, передплатіть { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Неможливо створити “{ $unavailable_address }”. Спробуйте вжити іншу назву маски.

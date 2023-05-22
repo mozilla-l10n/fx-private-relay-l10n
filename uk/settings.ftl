@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Settings page
 
 settings-headline = Налаштування { -brand-name-relay }
@@ -17,7 +18,7 @@ settings-error-save-description = Ваші зміни в налаштуванн�
 settings-warning-collection-off-heading-2 = Функцію міток масок адрес електронної пошти вимкнено
 settings-warning-collection-off-heading-3 = Ваші імена облікових записів масок електронної пошти вимкнено
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви створювали та використовували маски адрес електронної пошти. Ви можете змінити це в «Налаштуваннях» у розділі «Збір даних».
+settings-warning-collection-off-description-2 = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви генерували та використовували маски адрес електронної пошти. Ви можете змінити це в “Налаштуваннях” у розділі “Збір даних.”
 settings-warning-collection-off-description-3 = { -brand-name-relay } наразі не має права позначати ваші маски електронної пошти назвами вебсайтів, на яких ви їх використовували. Щоб змінити це, увімкніть імена облікових записів для масок електронної пошти в розділі «Приватність».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватність

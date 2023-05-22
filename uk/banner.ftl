@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Відхилити
-
 banner-bounced-headline = { -brand-name-relay } не може доставити вашу електронну пошту.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,16 +34,14 @@ banner-register-subdomain-headline-aliases-2 = Отримайте користу
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = вашдомен
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
-    За допомогою власного піддомену ви можете ділитися масками, які не потрібно створювати
+    За допомогою власного піддомену ви можете ділитися масками, які не потрібно генерувати
     перед використанням. Потрібна адреса для бронювання? Назвіть
     “restaurant@вашдомен.{ $mozmail }” для ресторану. Будь-яка псевдоадреса із використанням вашого
     власного піддомену буде перенаправлена вам.
@@ -56,36 +53,30 @@ banner-pack-upgrade-copy-2 = Завдяки необмеженій кілько�
 footer-banner-premium-promo-headine = Перейдіть на <strong>{ -brand-name-firefox-relay-premium }</strong>, щоб захистити свій телефон <i>та</i> електронну пошту
 footer-banner-premium-promo-body = Отримайте маску номера телефону, необмежену кількість масок електронної пошти та власні адреси електронної пошти для швидкого створення масок.
 banner-pack-upgrade-cta = Оновити зараз
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Оновлення повідомлення про приватність
 banner-label-privacy-notice-update-body = Щоб підвищити надійність { -brand-name-firefox-relay } у разі неможливості доставлення електронного листа, ми тимчасово зберігатимемо електронну пошту на наших серверах, доки вона не буде доставлена. Ми ніколи не протримаємо його більше ніж три дні.
 banner-label-privacy-notice-update-cta = Переглянути повідомлення про приватності
-
 # Data Notification Banner:
 banner-label-data-notification-header = Незабаром у { -brand-name-relay }
 banner-label-data-notification-cta = Перейти до налаштувань
 banner-label-data-notification-header-v2 = Увімкнути нові функції
 banner-label-data-notification-body-cta = Докладніше
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Захистіть свою приватність, врятуйте Інтернет
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Захистіть свою приватність, приєднавшись до нашої місії побудови кращого Інтернету, усього за { $monthly_price }
 banner-upgrade-loyalist-cta = Отримайте більше захисту
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Наша початкова цінова пропозиція скоро закінчиться!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Отримайте { -brand-name-relay-premium } до { $end_date } і насолоджуйтеся необмеженим маскуванням за нашою початковою щомісячною ціною.
 banner-offer-end-cta = Оновити зараз
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Ви можете створити будь-яку адресу @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Зупиніть спам, автоматичні виклики та небажані повідомлення
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } надає вам телефонну маску для захисту вашого справжнього номера, а також необмежену кількість масок електронної пошти.
@@ -116,7 +107,6 @@ banner-set-email-domain-input-search = Пошук
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = вашдомен
 banner-set-email-domain-learn-more = Докладніше
-
 modal-email-domain-good-news = Гарні новини!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -137,10 +127,9 @@ modal-email-domain-success-headline-any-word = Створюйте необмеж
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Наприклад, для покупок використовуйте магазин{ $custom_domain_full }.
 modal-email-domain-success-continue = Продовжити
-
 tooltip-email-domain-explanation-title = Про унікальний домен електронної пошти { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Ця корисна функція вашого облікового запису { -brand-name-relay-premium } дає вам змогу вибрати унікальний домен електронної пошти { -brand-name-relay }, який ви можете використовувати для миттєвого створення необмеженої кількості спеціальних масок { -brand-name-relay }.
-tooltip-email-domain-explanation-part-two = Немає потреби входити в { -brand-name-relay }, щоб створити нову маску; Просто додайте будь-яке слово чи фразу перед символом @ вашого домену електронної пошти { -brand-name-relay }, щоб миттєво створити нову маску, де б ви не були.
+tooltip-email-domain-explanation-part-two = Немає потреби входити в { -brand-name-relay }, щоб згенерувати нову маску; Просто додайте будь-яке слово чи фразу перед символом @ вашого домену електронної пошти { -brand-name-relay }, щоб миттєво створити нову маску, де б ви не були.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
