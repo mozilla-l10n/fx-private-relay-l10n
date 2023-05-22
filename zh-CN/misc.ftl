@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -109,7 +110,7 @@ trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 trackerreport-loading = 正在加载您的跟踪器移除报告…
 trackerreport-load-error = 生成您的跟踪器删除报告时出错。请刷新页面重试。
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -120,21 +121,21 @@ offer-countdown-timer-alt =
     { $remaining_days ->
         [0]
             { $remaining_hours ->
-                [1] 剩余 1 小时
+                [1] 剩下 1 小时
                 [0] { "" }
-               *[other] 剩余 { $remaining_hours } 小时
+               *[other] 剩下 { $remaining_hours } 小时
             }
         [1]
             { $remaining_hours ->
-                [1] 剩余 1 天 1 小时
-                [0] 剩余 1 天
-               *[other] 剩余 1 天 { $remaining_hours } 小时
+                [1] 剩下 1 天 1 小时
+                [0] 剩下 1 天
+               *[other] 剩下 1 天 { $remaining_hours } 小时
             }
        *[other]
             { $remaining_hours ->
-                [1] 剩余 { $remaining_days } 天 1 小时
-                [0] 剩余 { $remaining_days } 天
-               *[other] 剩余 { $remaining_days } 天 { $remaining_hours } 小时
+                [1] 剩下 { $remaining_days } 天 1 小时
+                [0] 剩下 { $remaining_days } 天
+               *[other] 剩下 { $remaining_days } 天 { $remaining_hours } 小时
             }
     }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
@@ -181,6 +182,7 @@ survey-csat-answer-very-satisfied = 非常满意
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = 感谢您的反馈。我们想要了解如何为您改进 { -brand-name-relay }。您愿意花两分钟做个小调查吗？
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -209,6 +211,10 @@ forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 { $premium_link }。
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -225,13 +231,15 @@ upgrade-for-more-protection = 升级以获得更多保护
 upgrade-to-premium = 升级为 { -brand-name-firefox-relay-premium }
 manage-your-masks = 管理马甲
 
+## Email sent to first time free users
+
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已用完免费账户中的所有 { $free_tier_limit } 个马甲。您可以重复使用现有马甲，但为每个账户使用唯一的马甲最为安全。
 api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。

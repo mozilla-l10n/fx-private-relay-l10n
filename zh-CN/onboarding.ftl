@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
@@ -27,6 +28,7 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = 随
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = 取一个您喜欢的 { -brand-name-relay } 邮箱域名，然后在 @ 符号前添加字符，即可生成新马甲。<p>例如购物时，可以使用 shop@<你的域名>.{ $mozmail }。</p>
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = 搜索字词
 multi-part-onboarding-premium-email-domain-feature-input-search = 搜索
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
@@ -46,7 +48,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = 添加 { -brand-name-r
 
 multi-part-onboarding-premium-extension-added = 已安装 { -brand-name-relay } 扩展！
 multi-part-onboarding-premium-added-extension-body = 在网站要求您提供邮箱地址时，点击 Relay 图标即可轻松生成新马甲，免去事先登录 { -brand-name-relay } 的麻烦。
-
 multi-part-onboarding-premium-extension-button-dashboard = 前往面板
 multi-part-onboarding-skip = 以后再完成设置
 multi-part-onboarding-skip-download-extension = 以后再下载
@@ -58,8 +59,4 @@ multi-part-onboarding-reply-headline = 回复邮件
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } 可享：
 onboarding-premium-reply-description-2 = 需回复发送给马甲邮箱的邮件？照常回复即可——您的真实邮箱地址依然受到保护。
 multi-part-onboarding-premium-reply-description = 无需暴露真实邮箱地址也能回复邮件
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = 第 { $step } / { $max } 步。
