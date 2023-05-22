@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } rende facile crear mascas de e-mail que reexpedi le messages a tu ver cassa de entrata. Usa los pro proteger tu contos in linea contra piratas informatic e messages indesirate.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Se aperi in un nove scheda)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = Mascas email
 nav-phone-dashboard = Mascas de numero de telephono
 label-open-menu = Aperir le menu
 avatar-tooltip = Profilo
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
@@ -34,9 +33,9 @@ nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-help = Adjuta e supporto
 nav-profile-help-tooltip = Obtener adjuta pro usar { -brand-name-relay }
 # This is only visible to Premium users.
-nav-profile-contact = Contactar nos
+nav-profile-contact = Continger nos
 # This is only visible to Premium users.
-nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
+nav-profile-contact-tooltip = Continger nos sur { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-duo-description = Mutar pannello de controlo
 nav-duo-email-mask-alt = Mascas email
@@ -50,9 +49,8 @@ menu-toggle-close = Clauder menu
 nav-settings = Parametros
 nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
-nav-contact = Contactar nos
+nav-contact = Continger nos
 nav-menu-mobile = Menu mobile
-
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
 
@@ -78,4 +76,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Clauder menu
-

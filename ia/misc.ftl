@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -45,7 +46,7 @@ tips-footer-link-faq-tooltip = Folio a questiones
 tips-footer-link-feedback-label = Reaction
 tips-footer-link-feedback-tooltip = Da tu opinion
 tips-footer-link-support-label = Supporto
-tips-footer-link-support-tooltip = Contactar supporto
+tips-footer-link-support-tooltip = Continger supporto
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
@@ -111,7 +112,7 @@ trackerreport-faq-cta = Vide altere FAQs re { -brand-name-firefox-relay }
 trackerreport-loading = Cargante tu reporto de remotion de traciatores…
 trackerreport-load-error = Un error occurreva generante tu reporto de remotion de traciatores. Actualisa le pagina pro retentar.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -182,6 +183,7 @@ survey-csat-answer-very-satisfied = Absolutemente satisfacite
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Gratias pro vostre commentario. A nos placerea saper plus re como nos poterea meliorar { -brand-name-relay } pro te, vole tu acceptar un questionario de duo minutas?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +212,10 @@ forwarded-email-footer-premium-banner = Promover a { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante que nostre precio introductive expira.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +232,15 @@ upgrade-for-more-protection = Promove pro major protection
 upgrade-to-premium = Promover a { -brand-name-firefox-relay-premium }
 manage-your-masks = Gere tu mascas
 
+## Email sent to first time free users
+
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Tu ha usate tote le { $free_tier_limit } mascas email includite con tu conto gratuite. Tu pote reusar un masca existente, ma usar un unic masca pro cata conto es le option plus secur.
 api-error-free-tier-no-subdomain-masks = Tu conto gratuite non include sub-dominios personal pro le mascas. Pro crear mascas personalisate, promove a { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” non pote esser create. Retenta con un differente nomine de masca.

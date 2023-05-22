@@ -2,11 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Settings page
 
 settings-headline = Parametros de { -brand-name-relay }
-settings-meta-contact-label = Contacta nos
-settings-meta-contact-tooltip = Contacta nos re { -brand-name-relay }
+settings-meta-contact-label = Continge nos
+settings-meta-contact-tooltip = Continge nos re { -brand-name-relay }
 settings-meta-help-label = Auxilio e supporto
 settings-meta-help-tooltip = Auxilio usator de { -brand-name-relay }
 settings-meta-status-label = Stato del servicio
