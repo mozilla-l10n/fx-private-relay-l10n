@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Buat topeng surel Anda yang pertama
 onboarding-alias-tip-1-2 = Pilih “Buat topeng baru” untuk membuat topeng surel Anda yang pertama.
 onboarding-alias-tip-2 = Dengan menggunakan ekstensi { -brand-name-relay }, pilih ikon { -brand-name-firefox-relay } ketika muncul di bidang surel.
 onboarding-alias-tip-3-2 = Dengan menggunakan ekstensi { -brand-name-relay }, klik kanan pada bidang formulir dan pilih "Buat Topeng Baru."
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Selamat datang,</span> { $email }!
@@ -43,18 +43,14 @@ profile-label-reset = Setel Ulang
 profile-label-apply = Terapkan
 profile-label-skip = Lewati
 profile-label-continue = Lanjutkan
-
 # This string is followed by an email address
 profile-label-forward-emails = Teruskan surel ke:
-
 # This string is followed by date
 profile-label-first-emailed = Pertama dikirimkan:
-
 # This string is followed by date:
 profile-label-created = Dibuat:
 profile-label-details-show = Tampilkan Detail
 profile-label-details-hide = Sembunyikan Detail
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = meneruskan
 profile-label-blocking = memblokir

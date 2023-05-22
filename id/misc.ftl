@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -109,7 +110,7 @@ trackerreport-faq-cta = Lihat FAQ lainnya seputar { -brand-name-firefox-relay }
 trackerreport-loading = Memuat laporan penghapusan pelacak Anda…
 trackerreport-load-error = Terjadi kesalahan saat membuat laporan penghapusan pelacak Anda. Segarkan laman untuk mencoba lagi.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -180,6 +181,7 @@ survey-csat-answer-very-satisfied = Sangat Puas
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Terima kasih atas tanggapan Anda. Kami ingin mempelajari lebih lanjut tentang bagaimana kami dapat meningkatkan { -brand-name-relay } untuk Anda, apakah Anda bersedia mengikuti survei dua menit?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -208,6 +210,10 @@ forwarded-email-footer-premium-banner = Beralih ke { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } sebelum harga perkenalan kami berakhir.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -217,20 +223,22 @@ first-reply-forwarded = Kami telah mengirim balasan ini ke { $sender }. Namun se
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Balasan Anda tidak dikirim ke { $sender }.
 replies-only-available-with-premium = Membalas surel yang diteruskan dari surel bertopeng Anda hanya tersedia dengan { -brand-name-firefox-relay-premium }.
-replies-not-included-in-free-account-header = Balasan tidak disertakan dengan akun gratis Anda
+replies-not-included-in-free-account-header = Fitur pengiriman balasan tidak disertakan dengan akun gratis Anda
 reply-not-sent-header = Balasan Anda tidak terkirim
 upgrade-to-reply-to-future-emails = Tingkatkan sekarang untuk mengirim balasan
 upgrade-for-more-protection = Tingkatkan untuk perlindungan lebih lanjut
 upgrade-to-premium = Tingkatkan ke { -brand-name-firefox-relay-premium }
 manage-your-masks = Kelola topeng Anda
 
+## Email sent to first time free users
+
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
-api-error-free-tier-limit = Anda telah menggunakan semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
-api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain kustom untuk topeng. Untuk membuat topeng kustom, tingkatkan ke { -brand-name-relay-premium }.
-
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+api-error-free-tier-limit = Anda telah menggunakan jatah semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
+api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain khusus untuk topeng. Untuk membuat topeng khusus , tingkatkan ke { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.

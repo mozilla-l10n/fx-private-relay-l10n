@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
@@ -22,11 +23,11 @@ multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol a
 
 multi-part-onboarding-premium-email-domain-headline = Setel domain surel { -brand-name-relay } unik Anda
 multi-part-onboarding-premium-email-domain-feature-headline = Dengan domain surel { -brand-name-relay } yang unik, Anda dapat:
-multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Buat topeng secara instan saat bepergian
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Buat topeng secara instan kapan saja
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-multi-part-onboarding-premium-email-domain-feature-body = Pilih domain surel { -brand-name-relay } pilihan Anda, lalu langsung buat topeng baru dengan menambahkan kata atau frasa apa pun sebelum simbol @. <p>Belanja? Gunakan shop@yourdomain.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-body = Pilih domain surel { -brand-name-relay } pilihan Anda, lalu langsung buat topeng baru dengan menambahkan kata atau frasa apa pun sebelum simbol @. <p>Belanja? Gunakan shop@domainanda.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Cari kata atau frasa
 multi-part-onboarding-premium-email-domain-feature-input-search = Cari
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -39,7 +40,7 @@ multi-part-onboarding-premium-email-domain-added = Domain surel Anda:
 
 multi-part-onboarding-premium-add-extension-headline = Tambahkan ekstensi { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Dengan ekstensi { -brand-name-relay }, Anda dapat:
-multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Buat topeng { -brand-name-relay } baru dari situs web mana pun
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Buat topeng { -brand-name-relay } baru dari situs web apa saja
 multi-part-onboarding-premium-add-extension-feature-body = Ekstensi { -brand-name-relay } memungkinkan Anda membuat topeng baru secara instan setiap kali situs web meminta alamat surel Anda — cukup cari ikon { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Tambahkan ekstensi { -brand-name-relay }
 
@@ -47,7 +48,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Tambahkan ekstensi { -
 
 multi-part-onboarding-premium-extension-added = Ekstensi { -brand-name-relay } ditambahkan!
 multi-part-onboarding-premium-added-extension-body = Anda tidak perlu lagi masuk ke { -brand-name-relay } untuk membuat topeng baru — cukup cari ikon Relay saat situs web meminta alamat surel Anda.
-
 multi-part-onboarding-premium-extension-button-dashboard = Buka Dasbor
 multi-part-onboarding-skip = Lewati, saya akan mengaturnya nanti
 multi-part-onboarding-skip-download-extension = Lewati, saya akan mengunduh ekstensi nanti
@@ -59,8 +59,4 @@ multi-part-onboarding-reply-headline = Balas ke surel Anda
 onboarding-premium-title-detail = Dengan { -brand-name-firefox-relay-premium } Anda dapat:
 onboarding-premium-reply-description-2 = Perlu membalas surel yang dikirim ke topeng? Cukup balas seperti biasa — topeng Anda akan tetap melindungi alamat surel Anda.
 multi-part-onboarding-premium-reply-description = Balas surel tanpa memberikan alamat asli Anda
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Langkah { $step } dari { $max }
