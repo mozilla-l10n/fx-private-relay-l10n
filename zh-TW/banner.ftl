@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = 知道了！
-
 banner-bounced-headline = { -brand-name-relay } 無法發送您的郵件。
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = 使用您想要的子網域名稱
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = yourdomain
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = 使用自訂子網域功能，不需要事先產生轉寄信箱就可以直接填入表單。要訂餐廳嗎？把「restaurant@yourdomain.{ $mozmail }」這個地址提供給餐廳就可以了。任何使用您自訂信箱的信件都會直接轉寄給您。
@@ -52,36 +49,30 @@ banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } 可透過無�
 footer-banner-premium-promo-headine = 升級到 <strong>{ -brand-name-firefox-relay-premium }</strong> 即可保護您的手機門號<i>與</i>信箱
 footer-banner-premium-promo-body = 獲得手機轉接門號、無限量郵件轉寄信箱，以及能讓您更快建立轉寄信箱的自訂電子郵件地址功能。
 banner-pack-upgrade-cta = 立刻升級
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = 隱私權公告更新
 banner-label-privacy-notice-update-body = 為了加強 { -brand-name-firefox-relay } 的可靠度，降低郵件轉寄失敗的機會，我們將在伺服器上暫存收到的郵件，直到信件成功寄出為止。這個保存時間不會超過三天。
 banner-label-privacy-notice-update-cta = 檢視隱私權公告
-
 # Data Notification Banner:
 banner-label-data-notification-header = 即將新增到 { -brand-name-relay } 的功能
 banner-label-data-notification-cta = 開啟設定
 banner-label-data-notification-header-v2 = 開啟全新功能
 banner-label-data-notification-body-cta = 了解更多
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = 保護您的隱私，拯救網際網路
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = 在保護您隱私的同時加入我們的使命，一同打造更好的網路環境，全部只需每月 { $monthly_price }
 banner-upgrade-loyalist-cta = 獲得更多保護
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = 上市優惠價即將結束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得無限量轉寄信箱服務。
 banner-offer-end-cta = 立刻升級
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = 您可使用任何 @{ $subdomain } 的信箱帳號
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = 不再收到垃圾信、自動答錄電話、垃圾簡訊
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } 可提供您虛擬轉接門號，以幫助保護您實際的手機號碼，另外還有無限量的轉寄信箱。
@@ -112,7 +103,6 @@ banner-set-email-domain-input-search = 搜尋
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = yourdomain
 banner-set-email-domain-learn-more = 了解更多
-
 modal-email-domain-good-news = 好消息！
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -133,10 +123,9 @@ modal-email-domain-success-headline-any-word = 隨意使用不同詞彙，就可
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = 線上購物嗎？可用 store{ $custom_domain_full }。
 modal-email-domain-success-continue = 繼續
-
 tooltip-email-domain-explanation-title = 關於您的獨特 { -brand-name-relay } 郵件網域
-tooltip-email-domain-explanation-part-one = { -brand-name-relay-premium } 帳號的這個超有價值功能讓您可以選擇一個獨特的 { -brand-name-relay } 郵件網域並用來建立無限量、自訂 { -brand-name-relay } 轉寄信箱。開始了
-tooltip-email-domain-explanation-part-two = 無須登入 { -brand-name-relay } 即可產生新轉寄信箱只要在 { -brand-name-relay } 郵件網域的 @ 符號前加入任何字或詞組即可隨時隨地建立新轉寄信箱。
+tooltip-email-domain-explanation-part-one = { -brand-name-relay-premium } 帳號的划算功能，讓您可以設定專屬的 { -brand-name-relay } 郵件網域，用來建立無限量、自訂 { -brand-name-relay } 轉寄信箱。
+tooltip-email-domain-explanation-part-two = 無須登入 { -brand-name-relay } 即可產生新的轉寄信箱。只要在 { -brand-name-relay } 郵件網域的 @ 符號前加入任何字詞，即可隨時隨地建立新的轉寄信箱。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
