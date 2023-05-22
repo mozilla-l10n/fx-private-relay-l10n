@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } tekee helpoksi sähköpostimaskien luomisen, jotka välittävät viestit oikeaan postilaatikkoosi. Käytä maskeja suojataksesi verkkotilisi pahantahtoisilta tahoilta ja viesteiltä, joita et halua.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Avautuu uuteen välilehteen)
 
@@ -20,7 +20,6 @@ nav-email-dashboard = Sähköpostimaskit
 nav-phone-dashboard = Puhelinmaskit
 label-open-menu = Avaa valikko
 avatar-tooltip = Profiili
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = UKK
 nav-profile-sign-in = Kirjaudu sisään
@@ -37,6 +36,7 @@ nav-profile-help-tooltip = Ohjeita { -brand-name-relay }n käyttöön
 nav-profile-contact = Ota yhteyttä
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Ota yhteyttä { -brand-name-relay-premium }iin liittyen
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }in profiilikuva
 nav-duo-description = Vaihda kojelautoja
 nav-duo-email-mask-alt = Sähköpostimaskit
 nav-duo-phone-mask-alt = Puhelinmaskit
@@ -51,7 +51,6 @@ nav-support = Ohjeet ja tuki
 nav-sign-out = Kirjaudu ulos
 nav-contact = Ota yhteyttä
 nav-menu-mobile = Mobiilivalikko
-
 fx-desktop-2 = { -brand-name-firefox } työpöydälle
 fx-mobile-2 = { -brand-name-firefox } mobiililaitteille
 
@@ -77,4 +76,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Sulje valikko
-

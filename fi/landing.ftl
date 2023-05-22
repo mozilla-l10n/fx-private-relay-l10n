@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Suojaa henkilöyttäsi asettamalla puhelinnumerollesi ja sähköpostiosoitteellesi maski
@@ -58,6 +59,8 @@ how-it-works-section-manage-body = Kirjaudu { -brand-name-relay }-hallintapaneel
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Valitse sinulle sopiva suojaustaso
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } suojaa henkilöyttäsi ja postilaatikkoasi yksilöllisillä sähköpostimaskeilla. Hanki lisää turvallisuutta { -brand-name-relay }n puhelinmaskeilla ja säästä { $savings } lisäämällä { -brand-name-vpn }-suojaus.
 
 # Top Row Labels
@@ -204,15 +207,13 @@ premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } tarjoaa r
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
-
 premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
 premium-promo-offer-end-hero-cta = Päivitä nyt
-
+premium-promo-availability-warning = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Singaporessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Ruotsissa, Singaporessa, Suomessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
-
 premium-promo-perks-headline = Miksi päivittää { -brand-name-firefox-relay-premium }iin?
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium }illa saat kaiken { -brand-name-relay }n tarjoaman postilaatikon suojauksen ja hallinnan, mutta rajattomalla määrällä sähköpostimaskeja ja oman mukautetun aliverkkotunnuksen, jonka avulla postilaatikon hallinta on entistäkin helpompaa.
 premium-promo-perks-cta-label = Päivitä nyt
@@ -228,27 +229,30 @@ premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
 premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
-
 premium-promo-use-cases-headline-2 = Käytä { -brand-name-relay }-sähköpostimaskeja missä tahansa
 premium-promo-use-cases-shopping-heading = Ostokset
 premium-promo-use-cases-shopping-body-2 = Yritätkö rekisteröityä saadaksesi alennuksia, mutta et halua roskapostia? Liitä kaikki "ostotilisi" mukautettujen sähköpostimaskien alle, kuten "ostokset@mydomain.mozmail.com".
 premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
 premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
 premium-promo-use-cases-gaming-heading = Pelit
-
 premium-promo-pricing-free-price = Nykyinen ilmainen tilaus
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Tutustumishinta: Rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
 premium-promo-pricing-offer-end-warning = Tämä tarjous vanhenee pian
 premium-promo-pricing-offer-end-cta = Päivitä nyt
+# Variables:
+#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
+premium-promo-pricing-offer-end-body = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
 
 ## The Premium waitlist page
 
 waitlist-heading-2 = Liity { -brand-name-relay-premium } -odotuslistalle
+waitlist-heading-phone = Liity { -brand-name-relay }-puhelinmaskin odotuslistalle
+waitlist-heading-bundle = Liity { -brand-name-relay } + { -brand-name-vpn } -paketin jonotuslistalle
 waitlist-lead-2 = Ilmoitamme, kun { -brand-name-relay-premium } on saatavilla alueellasi.
 waitlist-lead-phone = Ilmoitamme, kun puhelinnumeromaskit ovat saatavilla alueellasi.
+waitlist-lead-bundle = Ilmoitamme, kun sinun on mahdollista saada { -brand-name-relay-premium } ja { -brand-name-mozilla-vpn } alennuksella alueellasi.
 waitlist-control-required = Pakollinen
 waitlist-control-email-label = Mikä on sähköpostiosoitteesi?
 # Please only translate `yourname`; example.com is an actual example domain that is safe to use.
@@ -259,6 +263,7 @@ waitlist-submit-label-2 = Liity odotuslistalle
 waitlist-privacy-policy-agree-2 = Napsauttamalla “{ waitlist-submit-label-2 }” hyväksyt <a>tietosuojakäytäntömme</a>.
 waitlist-privacy-policy-use = Tietojasi käytetään vain { -brand-name-firefox-relay-premium }in saatavuudesta ilmoittamiseen.
 waitlist-privacy-policy-use-phone = Tietojasi käytetään vain ilmoitukseen, kun puhelinnumeron maski on saatavilla alueellasi.
+waitlist-privacy-policy-use-bundle = Tietojasi käytetään vain { -brand-name-relay } + { -brand-name-vpn } -paketin saatavuudesta ilmoittamiseen.
 waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-premium } tulee saataville alueellasi, lähetämme sinulle sähköpostia.
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.
 waitlist-subscribe-error-unknown = Jonotuslistalle lisättäessä tapahtui virhe. Yritä uudelleen.

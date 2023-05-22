@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Luo ensimmäinen sähköpostimaskisi
 onboarding-alias-tip-1-2 = Valitse "Luo uusi maski" luodaksesi ensimmäinen sähköpostimaskin.
 onboarding-alias-tip-2 = Käytä { -brand-name-relay }-laajennusta ja valitse { -brand-name-firefox-relay } -kuvake, kun se näkyy sähköpostikentissä.
 onboarding-alias-tip-3-2 = Käytä { -brand-name-relay }-laajennusta, napsauta hiiren kakkospainikkeella lomakekenttiä ja valitse "Luo uusi maski".
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Tervetuloa,</span> { $email }!
@@ -35,26 +35,25 @@ profile-label-delete = Poista
 profile-label-upgrade-2 = Hanki rajattomasti sähköpostimaskeja
 profile-label-create-subdomain = Hanki sähköpostin aliverkkotunnus
 profile-label-subdomain = Sähköpostin aliverkkotunnus:
+profile-label-custom-domain = { -brand-name-relay }-sähköpostiverkkotunnuksesi:
+profile-label-set-your-custom-domain = Aseta yksilöllinen { -brand-name-relay }-sähköpostiverkkotunnus
 profile-label-subdomain-tooltip-trigger = Lisätietoja
 profile-label-subdomain-tooltip = Luo yksilöllinen sähköpostin aliverkkotunnus.
 profile-label-reset = Palauta
 profile-label-apply = Toteuta
 profile-label-skip = Ohita
 profile-label-continue = Jatka
-
 # This string is followed by an email address
 profile-label-forward-emails = Välitä sähköpostit osoitteeseen:
-
 # This string is followed by date
 profile-label-first-emailed = Ensimmäinen sähköposti:
-
 # This string is followed by date:
 profile-label-created = Luotu:
 profile-label-details-show = Näytä yksityiskohdat
 profile-label-details-hide = Piilota yksityiskohdat
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = edelleenlähetys
+profile-label-blocking = estetään
 profile-label-disable-forwarding-button-2 = Poista tämän maskin sähköpostin edelleenlähetys käytöstä
 profile-label-enable-forwarding-button-2 = Ota sähköpostin edelleenlähetys käyttöön tälle maskille
 profile-label-click-to-copy = Napsauta kopioidaksesi
@@ -106,6 +105,8 @@ profile-indicator-tracker-removal-tooltip = Tällä hetkellä poistetaan sähkö
 profile-promo-email-blocking-title = Mitkä sähköpostit haluat estää?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Kaikki
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Mainosviestit
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Ei mitään
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.

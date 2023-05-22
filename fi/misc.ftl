@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -17,6 +18,7 @@ success-signed-in-message = Kirjauduttu käyttäjänä { $username }.
 
 error-premium-cannot-change-subdomain = Et voi vaihtaa aliverkkotunnustasi
 error-premium-set-subdomain = Sinun on oltava premium-tilaaja voidaksesi määrittää aliverkkotunnuksen
+error-premium-check-subdomain = Sinun on oltava premium-tilaaja voidaksesi tarkistaa aliverkkotunnuksen
 error-subdomain-not-created = Aliverkkotunnusta ei voitu luoda, kokeile jotain muuta
 error-subdomain-email-not-created = Sähköpostiosoitetta aliverkkotunnuksella ei voitu luoda, kokeile jotain muuta
 # Variables:
@@ -73,6 +75,8 @@ tips-promo-email-blocking-content = { -brand-name-relay-premium }illa voit estä
 ## Report of trackers removed from an email
 
 trackerreport-title = { -brand-name-relay }n seurainten poistoraportti
+trackerreport-meta-from-heading = Lähettäjä
+trackerreport-meta-receivedat-heading = Vastaanottanut
 trackerreport-meta-count-heading = Seuraimia yhteensä
 trackerreport-trackers-heading = Seuraimia havaittu
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
@@ -94,6 +98,7 @@ trackerreport-tracker-count =
        *[other] { $count } seurainta
     }
 trackerreport-removal-explainer-heading = Kuinka seurannan poisto toimii
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } voi nyt poistaa yleiset seuraimet sähköpostimaskien kautta edelleenlähetetyistä sähköposteista. Saat edelleen sähköpostisi, mutta edelleenlähetettyjen sähköpostiviestien seuraimet poistetaan, joten voit saada sähköpostisi ilman, että sinua seurataan. Jos haluat ottaa seurainten poiston käyttöön kaikissa maskeissasi kerralla, ota seurainten poisto käyttöön asetuksissa sen sijaan, että asetat sen käyttöön erikseen jokaiselle maskille.
 trackerreport-trackers-explainer-heading = Tietoja sähköpostin seuraimista
 trackerreport-trackers-explainer-content-part1 = Sähköpostin seuranta on yleinen valvonta- ja mainontatyökalu, joka on vallannut monia postilaatikoita. Näitä seuraimia voidaan käyttää ymmärtämään enemmän ihmisten verkkokäyttäytymisestä, kiinnostuksen kohteista ja sähköpostitoiminnasta.
 trackerreport-trackers-explainer-content-part2 = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.
@@ -103,7 +108,7 @@ trackerreport-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name
 trackerreport-loading = Ladataan seurainten poistoraporttia…
 trackerreport-load-error = Seurainten poistoraporttia luotaessa tapahtui virhe. Päivitä sivu ja yritä uudelleen.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
@@ -149,6 +154,7 @@ survey-csat-answer-very-satisfied = Hyvin tyytyväinen
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Kiitos palautteesta. Haluaisimme ymmärtää nykyistä paremmin, kuinka voimme parantaa { -brand-name-relay }-palvelua. Haluaisitko vastata kahden minuutin kyselyyn?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } poistaa kopio- ja piilokopiovastaanottajat vastauksistasi. Jos lisäät ne uudelleen, todellinen sähköpostiosoitteesi paljastuu.
@@ -173,6 +179,10 @@ forwarded-email-footer-premium-banner = Päivitä { -brand-name-relay-premium }i
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Päivitä { $premium_link }iin, ennen kuin tutustumishintamme vanhenee.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -181,6 +191,7 @@ first-reply-forwarded = Olemme lähettäneet tämän vastauksen vastaanottajalle
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Vastaustasi ei lähetetty vastaanottajalle { $sender }.
+replies-only-available-with-premium = Edelleenlähetettyihin sähköposteihin vastaaminen maskisähköpostista on käytettävissä vain { -brand-name-firefox-relay-premium }issa.
 replies-not-included-in-free-account-header = Vastaukset eivät sisälly ilmaiseen tiliisi
 reply-not-sent-header = Vastaustasi ei lähetetty
 upgrade-to-reply-to-future-emails = Päivitä nyt lähettääksesi vastauksia
@@ -188,13 +199,15 @@ upgrade-for-more-protection = Päivitä saadaksesi lisää suojausta
 upgrade-to-premium = Päivitä { -brand-name-firefox-relay-premium }iin
 manage-your-masks = Hallitse maskeja
 
+## Email sent to first time free users
+
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Olet käyttänyt kaikki ilmaiseen tiliisi kuuluvat { $free_tier_limit } sähköpostimaskia. Voit käyttää olemassa olevaa maskia uudelleen, mutta yksilöllisen maskin käyttäminen jokaiselle tilille on kaikkein turvallisin vaihtoehto.
 api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettuja aliverkkotunnuksia maskeille. Jos haluat luoda mukautettuja maskeja, päivitä { -brand-name-relay-premium }iin.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
