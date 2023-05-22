@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Δημιουργήστε την πρώτη σας μάσκα email
 onboarding-alias-tip-1-2 = Επιλέξτε «Δημιουργία νέας μάσκας» για να δημιουργήσετε την πρώτη μάσκα email σας.
 onboarding-alias-tip-2 = Με την επέκταση { -brand-name-relay }, επιλέξτε το εικονίδιο του { -brand-name-firefox-relay } όταν εμφανιστεί σε πεδία email.
 onboarding-alias-tip-3-2 = Με την επέκταση { -brand-name-relay }, κάντε δεξί κλικ σε πεδία φορμών και επιλέξτε «Δημιουργία νέας μάσκας».
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Καλώς ορίσατε,</span> { $email }!
@@ -35,25 +35,22 @@ profile-label-delete = Διαγραφή
 profile-label-upgrade-2 = Απόκτηση απεριόριστων μασκών email
 profile-label-create-subdomain = Αποκτήστε τον υποτομέα email σας
 profile-label-subdomain = Υποτομέας email:
-profile-label-set-your-custom-domain = Ορίσετε έναν μοναδικό τομέα email στο { -brand-name-relay }
+profile-label-custom-domain = Ο τομέας email σας στο { -brand-name-relay }:
+profile-label-set-your-custom-domain = Ορισμός μοναδικού τομέα email στο { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Περισσότερες πληροφορίες
 profile-label-subdomain-tooltip = Δημιουργήστε τον μοναδικό υποτομέα email σας.
 profile-label-reset = Επαναφορά
 profile-label-apply = Εφαρμογή
 profile-label-skip = Παράλειψη
 profile-label-continue = Συνέχεια
-
 # This string is followed by an email address
 profile-label-forward-emails = Προώθηση email στο:
-
 # This string is followed by date
 profile-label-first-emailed = Πρώτο email:
-
 # This string is followed by date:
 profile-label-created = Δημιουργία:
 profile-label-details-show = Εμφάνιση λεπτομερειών
 profile-label-details-hide = Απόκρυψη λεπτομερειών
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = προώθηση
 profile-label-blocking = αποκλεισμός

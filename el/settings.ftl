@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Settings page
 
 settings-headline = Ρυθμίσεις { -brand-name-relay }
@@ -18,12 +19,14 @@ settings-warning-collection-off-heading-2 = Η λειτουργία ετικέτ
 settings-warning-collection-off-heading-3 = Τα ονόματα λογαριασμών των μασκών email σας είναι απενεργοποιημένα
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-description-2 = Το { -brand-name-relay } δεν μπορεί να συλλέξει τα δεδομένα που αναφέρουν τους ιστοτόπους όπου έχετε δημιουργήσει και χρησιμοποιήσει μάσκες email. Μπορείτε να το αλλάξετε αυτό στην ενότητα «Συλλογή δεδομένων» στις «Ρυθμίσεις».
+settings-warning-collection-off-description-3 = Το { -brand-name-relay } δεν έχει προς το παρόν το δικαίωμα να ονομάζει τις μάσκες email σας με τα ονόματα των ιστοτόπων όπου τις έχετε χρησιμοποιήσει. Για να το αλλάξετε αυτό, ενεργοποιήστε τα ονόματα λογαριασμών για τις μάσκες email στην ενότητα «Απόρρητο».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Απόρρητο
 setting-label-collection-description-2 = Να επιτρέπεται στο { -brand-name-relay } η συλλογή δεδομένων για ιστοτόπους όπου δημιουργούνται και χρησιμοποιούνται οι μάσκες.
 setting-label-collection-description-3 = Ενεργοποίηση ονομάτων λογαριασμών για τις μάσκες email
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Αυτά τα δεδομένα θα μας επιτρέψουν να προσθέσουμε ετικέτες στις μάσκες σας με τους ιστοτόπους όπου χρησιμοποιούνται. Αν αποφασίσετε να απενεργοποιήσετε αυτήν την προτίμηση, οι μάσκες σας δεν θα έχουν ετικέτα με τους ιστοτόπους όπου χρησιμοποιούνται.
+setting-label-collection-off-warning-3 = Το { -brand-name-firefox-relay } θα αποθηκεύει τους ιστοτόπους στους οποίους έχετε χρησιμοποιήσει τις μάσκες email σας και θα ορίζει τα ονόματά τους ως ετικέτες των μασκών, ώστε να μπορείτε εύκολα να τις αναγνωρίζετε. Η απενεργοποίηση αυτής της λειτουργίας σημαίνει ότι δεν θα μπορείτε να δείτε πού χρησιμοποιήσατε κάθε μάσκα και τα ονόματα των λογαριασμών σας δεν θα συγχρονίζονται μεταξύ των συσκευών.
 settings-button-save-label = Αποθήκευση
 settings-button-save-tooltip = Εφαρμογή των επιλεγμένων σας ρυθμίσεων.
 # This is a read-only input where a user can copy their API key to their clipboard
