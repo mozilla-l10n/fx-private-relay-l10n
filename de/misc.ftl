@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -111,8 +112,19 @@ trackerreport-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 trackerreport-loading = Ihr Tracker-Entfernungsbericht wird geladen…
 trackerreport-load-error = Beim Erstellen Ihres Tracker-Entfernungsberichts ist ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite, um es erneut zu versuchen.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = Dieser Link oder diese Grafik enthält einen Tracker
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    E-Mail-Tracker sind Überwachungswerkzeuge, die Unternehmen in E-Mails einbetten, um Ihre
+    Online-Verhalten. Um Ihre Privatsphäre zu schützen, haben wir diese Tracker aus der von <u>{ $sender }</u> am { $datetime } gesendeten E-Mail entfernt.
+contains-tracker-warning-title = Soll der Link trotzdem aufgerufen werden?
+contains-tracker-warning-description = Warnung: Durch Klicken auf diesen Link werden Informationen über Sie an den Absender zurückgesendet
+contains-tracker-warning-view-link-cta = Ja, Link aufrufen
+contains-tracker-faq-section-title = Häufig gestellte Fragen zu E-Mail-Trackern
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -182,6 +194,7 @@ survey-csat-answer-very-satisfied = Sehr zufrieden
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Danke für deine Rückmeldung. Wir würden gerne mehr darüber erfahren, wie wir { -brand-name-relay } in deinem Sinne verbessern können. Wärst du bereit, an einer zweiminütigen Umfrage teilzunehmen?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +223,35 @@ forwarded-email-footer-premium-banner = Mache das Upgrade auf { -brand-name-rela
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Machen Sie das Upgrade auf { $premium_link }, solange unsere Einführungspreise noch gelten.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Holen Sie sich das Upgrade mit noch mehr Schutz
+relay-email-manage-this-mask = Diese Maske verwalten
+relay-email-your-dashboard = Ihre Übersicht
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = von <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = von <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Weitergeleitet von <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] Ein E-Mail-Tracker entfernt
+       *[other] { $number } E-Mail-Tracker entfernt
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +268,55 @@ upgrade-for-more-protection = Holen Sie sich das Upgrade mit noch mehr Schutz
 upgrade-to-premium = Machen Sie das Upgrade auf { -brand-name-firefox-relay-premium }
 manage-your-masks = Ihre Masken verwalten
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Willkommen bei { -brand-name-firefox-relay }
+first-time-user-email-preheader = E-Mail-Maskierung zum Schutz Ihrer Identität
+first-time-user-email-welcome-subhead = Ihre E-Mail-Adresse kann dazu verwendet werden, Sie im Internet zu verfolgen – wir helfen Ihnen dabei, dem Problem ein Ende zu setzen.
+first-time-user-email-hero-primary-text = Als { -brand-name-firefox }-Nutzer erhalten Sie fünf E-Mail-Masken kostenlos. Verwenden Sie sie, um Ihre echte E-Mail-Adresse zu verbergen, Ihre Identität zu schützen und nur die gewünschten E-Mails an Ihren Posteingang weiterzuleiten.
+first-time-user-email-hero-secondary-text = Verwalten Sie alle Ihre Masken über Ihre { -brand-name-relay }-Übersicht.
+first-time-user-email-hero-cta = Ihre Übersicht anzeigen
+first-time-user-email-how-title = So funktioniert { -brand-name-relay }
+first-time-user-email-how-item-1-header = Verwenden Sie eine { -brand-name-relay }-Maske statt Ihrer richtigen E-Mail-Adresse, egal wo es nötig ist
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Erstellen Sie Masken direkt in { -brand-name-firefox }, mit dem <a href="{ $url }" { $attrs }>{ -brand-name-relay }-Add-on</a> oder auf Ihrer { -brand-name-relay }-Übersicht.
+first-time-user-email-how-item-1-subhead-text = Erstellen Sie Masken direkt in { -brand-name-firefox }, mit dem { -brand-name-relay }-Add-on  oder auf Ihrer { -brand-name-relay }-Übersicht.
+first-time-user-email-how-item-2-header = Wir leiten alle E-Mails an Ihren Posteingang weiter
+first-time-user-email-how-item-2-subhead = Absender sehen nie Ihre echte Adresse und Sie können E-Mails jederzeit blockieren.
+first-time-user-email-how-item-3-header = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übesicht
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Melden Sie sich an</a>, um neue Masken zu erstellen, Ihre Masken zu beschriften und Masken zu löschen, die Spam erhalten.
+first-time-user-email-how-item-3-subhead-text = Melden Sie sich an, um neue Masken zu erstellen, Ihre Masken zu beschriften und Masken zu löschen, die Spam erhalten.
+first-time-user-email-extra-protection-inbox-title = Zusätzlicher Schutz für Ihren Posteingang
+first-time-user-email-extra-protection-inbox-phone-title = Zusätzlicher Schutz für Ihren Posteingang und Ihr Handy
+first-time-user-email-extra-protection-inbox-subhead = Machen Sie das Upgrade auf { -brand-name-relay-premium } und erhalten unbegrenzt viele E-Mail-Masken, eine benutzerdefinierte { -brand-name-relay }-Domain und benutzerdefinierte Posteingangseinstellungen.
+first-time-user-email-extra-protection-inbox-phone-subhead = Mit einem Upgrade auf { -brand-name-relay-premium } erhalten Sie unbegrenzt viele E-Mail-Masken – plus eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer.
+first-time-user-email-extra-protection-cta = Holen Sie sich { -brand-name-relay-premium }
+first-time-user-email-questions-title = Haben Sie Fragen zu { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Unser <a href="{ $url }" { $attrs }>Hilfe-Team</a> unterstützt Sie gerne.
+first-time-user-email-questions-subhead-text = Unser Hilfe-Team unterstützt Sie gerne.
+first-time-user-email-footer-text-1 = Sie erhalten diese automatisierte E-Mail als Abonnent von { -brand-name-firefox-relay }, der { -brand-name-relay } zum ersten Mal verwendet hat. Wenn Sie die E-Mail irrtümlich erhalten haben, müssen Sie nichts tun.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Weitere Informationen erhalten Sie bei der <a href="{ $url }" { $attrs }>{ -brand-name-mozilla }-Hilfe</a>.
+first-time-user-email-footer-text-2-text = Weitere Informationen erhalten Sie bei der { -brand-name-mozilla }-Hilfe.
+first-time-user-email-footer-text-legal = Rechtliches
+first-time-user-email-footer-text-privacy = Nutzungsbedingungen und Datenschutz
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Sie haben alle { $free_tier_limit } E-Mail-Masken verwendet, die in Ihrem kostenlosen Konto enthalten sind. Sie können eine vorhandene Maske wiederverwenden, aber die Verwendung einer eindeutigen Maske für jedes Konto ist die sicherste Option.
 api-error-free-tier-no-subdomain-masks = Ihr kostenloses Konto bietet keine benutzerdefinierten Subdomains für Masken. Um benutzerdefinierte Masken zu erstellen, führen Sie ein Upgrade auf { -brand-name-relay-premium } durch.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = „{ $unavailable_address }“ konnte nicht erstellt werden. Bitte versuchen Sie es erneut mit einem anderen Maskennamen.

@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Schützen Sie Ihre Identität mit sicherer Telefonnummer- und E-Mail-Maskierung
@@ -10,6 +11,9 @@ hero-section-body =
     damit Sie anonym neue Konten erstellen können, Spam-Texte und Werbeanrufe stoppen 
     und nur die gewünschten E-Mails erhalten.
 hero-section-cta = Erste Schritte
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Bekannt aus
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Melden Sie sich bei Ihrer { -brand-name-relay
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Wählen Sie das für Sie passende Schutzniveau
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } schützt Ihre Identität und Ihren Posteingang mit einzigartigen E-Mail-Masken. Die Telefonnummer-Masken von { -brand-name-relay } bieten Ihnen noch mehr Sicherheit. Außerdem sparen Sie { $savings }, wenn Sie den { -brand-name-vpn }-Schutz hinzufügen.
 
 # Top Row Labels
@@ -204,17 +210,14 @@ premium-promo-hero-body-2-html = Mit { -brand-name-firefox-relay-premium } erhal
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mit { -brand-name-firefox-relay-premium } erhalten Sie unbegrenzt viele benutzerdefinierte E-Mail-Masken, die nur die gewünschten E-Mails an Ihre echte E-Mail-Adresse weiterleiten.
 premium-promo-hero-cta = Jetzt upgraden
-
 premium-promo-offer-end-hero-heading = Unser Angebot zum Einführungspreis endet bald!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie Premium-E-Mail-Schutz zu unserem monatlichen Einführungspreis.
 premium-promo-offer-end-hero-cta = Jetzt upgraden
-
 premium-promo-availability-warning = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } ist derzeit in Österreich, Belgien, Kanada, Frankreich, Finnland, Deutschland, Irland, Italien, Malaysia, den Niederlanden, Neuseeland, Singapur, Spanien, Schweden, der Schweiz, dem Vereinigten Königreich und den USA verfügbar.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } ist in Österreich, Belgien, Kanada, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Portugal, Singapur, Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigtes Königreich und den Vereinigten Staaten verfügbar.
-
 premium-promo-perks-headline = Warum solltest du das Upgrade auf { -brand-name-firefox-relay-premium } durchführen?
 premium-promo-perks-lead-2 = Mit { -brand-name-firefox-relay-premium } erhalten Sie den gesamten Schutz für den Posteingang und die gesamte Verwaltung von { -brand-name-relay }, jedoch mit unbegrenzten E-Mail-Masken und Ihrer eigenen benutzerdefinierten Domain, um die Verwaltung Ihres Posteingangs noch einfacher zu machen.
 premium-promo-perks-cta-label = Jetzt upgraden
@@ -230,7 +233,6 @@ premium-promo-perks-perk-block-promotionals-headline = Werbe-E-Mails blockieren
 premium-promo-perks-perk-block-promotionals-body = Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
 premium-promo-perks-perk-tracker-blocking-headline = E-Mail-Tracker entfernen
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kann Ihnen jetzt dabei helfen, E-Mail-Tracking zu stoppen – Ihre E-Mail-Masken entfernen gängige E-Mail-Tracker aus allen an Sie weitergeleiteten E-Mails, sodass Sie für Tracker und Werbetreibende unsichtbar bleiben.
-
 premium-promo-use-cases-headline-2 = Verwenden Sie überall E-Mail-Masken von { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Einkaufen
 premium-promo-use-cases-shopping-body-2 = Versuchen Sie, sich für Rabatte ohne Spam zu registrieren? Bündeln Sie Ihre „Einkaufs“-Konten unter einzigartigen benutzerdefinierten E-Mail-Masken, wie „mydeals@meinedomain.mozmail.com“.
@@ -238,9 +240,7 @@ premium-promo-use-cases-social-networks-heading = Soziale Netzwerke
 premium-promo-use-cases-social-networks-body-2 = Möchten Sie Ihre Online-Identität bei der Nutzung eines sozialen Netzwerks besser schützen? Verwenden Sie eine eigene E-Mail-Maske für jedes soziale Netzwerk und verhindern Sie, dass Ihre echte E-Mail-Adresse diesen Websites bekannt wird.
 premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 = Sie sind besorgt, dass andere Spieler oder Trolle über Ihr Gamertag und Ihre E-Mail-Adresse erfahren, wer Sie sind? Verwenden Sie eine Maske wie „onlinespiel@meinedomain.mozmail.com“, um eine weitere Schutzebene zwischen Ihrer Identität und den Spielen, die Sie online spielen, zu platzieren.
-
 premium-promo-pricing-free-price = Dein aktuelles, kostenloses Modell
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Einführungspreis: Unbegrenzt viele Masken für { $monthly_price } pro Monat
