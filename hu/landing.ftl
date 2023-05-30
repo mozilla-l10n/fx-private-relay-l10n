@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Védje személyazonosságát a biztonságos telefon- és e-mail-maszkolással
@@ -10,6 +11,9 @@ hero-section-body =
     így névtelenül regisztrálhat új fiókokat, megállíthatja a kéretlen SMS-eket és hívásokat, valamint
     csak a kívánt leveleket kapja meg a postaládájában.
 hero-section-cta = Kezdő lépések
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = A sajtóban
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Jelentkezzen be a { -brand-name-relay } irán
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Válassza ki az Önnek megfelelő védelmi szintet
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = A { -brand-name-firefox-relay } egyedi e-mail-maszkokkal védi személyazonosságát és a postaládáját. Növelje tovább a biztonságot a { -brand-name-relay } telefonmaszkolás segítségével, és a { -brand-name-vpn } védelem hozzáadásával takarítson meg ennyit: { $savings }.
 
 # Top Row Labels
@@ -77,8 +83,8 @@ plan-matrix-feature-email-masks = E-mail-maszkok a valódi e-mail-címének véd
 plan-matrix-feature-browser-extension = Böngészőkiegészítő a { -brand-name-relay } használatához bármely webhelyen
 plan-matrix-feature-email-tracker-removal = E-mail-követők eltávolítása
 plan-matrix-feature-promo-email-blocking = Promóciós e-mailek blokkolása
-plan-matrix-feature-email-subdomain = { -brand-name-relay } e-mail-domain maszkok létrehozásához útközben
-plan-matrix-feature-email-reply = Válaszoljon a levelekre névtelenül
+plan-matrix-feature-email-subdomain = { -brand-name-relay } e-mail-domain maszkok létrehozása útközben
+plan-matrix-feature-email-reply = Válasz a levelekre névtelenül
 plan-matrix-feature-phone-mask = Telefonmaszk a valódi telefonszámának védelmére
 plan-matrix-feature-vpn = { -brand-name-vpn }-védelem a következőtől: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
@@ -90,7 +96,7 @@ plan-matrix-feature-mobile-browser-extension = Böngészőkiegészítő
 plan-matrix-feature-mobile-email-tracker-removal = E-mail-követők eltávolítása
 plan-matrix-feature-mobile-promo-email-blocking = Promóciós e-mailek blokkolása
 plan-matrix-feature-mobile-email-subdomain = Egyedi { -brand-name-relay } e-mail-domain
-plan-matrix-feature-mobile-email-reply = Válaszoljon a levelekre névtelenül
+plan-matrix-feature-mobile-email-reply = Válasz a levelekre névtelenül
 plan-matrix-feature-mobile-phone-mask = Védje valódi telefonszámát
 plan-matrix-feature-mobile-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
@@ -159,7 +165,7 @@ highlighted-features-section-unlimited-masks-body =
 
 # Item 2
 
-highlighted-features-section-masks-on-the-go-headline = Azonnal készítsen maszkokat útközben
+highlighted-features-section-masks-on-the-go-headline = Maszkok azonnali készítése útközben
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body =
@@ -202,17 +208,14 @@ premium-promo-hero-body-2-html = A { -brand-name-firefox-relay-premium } segíts
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = A { -brand-name-firefox-relay-premium }mal korlátlan számú egyéni e-mail-maszkot kap, amelyek csak a kívánt e-maileket továbbítják a valódi e-mail-címére.
 premium-promo-hero-cta = Frissítsen most
-
 premium-promo-offer-end-hero-heading = Bevezető árajánlatunk hamarosan lejár.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Szerezze be a { -brand-name-relay-premium }ot { $end_date } előtt, és élvezze a prémium e-mail-védelmet a bevezető havi árunkon.
 premium-promo-offer-end-hero-cta = Frissítés most
-
 premium-promo-availability-warning = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-2 = A { -brand-name-relay-premium } jelenleg Ausztriában, Belgiumban, Kanadában, Finnországban, Franciaországban, Németországban, Írországban, Malajziában, Hollandiában, Új-Zélandon, Szingapúrban, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Amerikai Egyesült Államokban érhető el.
 premium-promo-availability-warning-3 = A { -brand-name-relay-premium } Ausztriában, Belgiumban, Kanadában, Cipruson, Észtországban, Finnországban, Franciaországban, Németországban, Görögországban, Írországban, Olaszországban, Lettországban, Litvániában, Luxemburgban, Malajziában, Máltán, Hollandiában, Új-Zélandon, Portugáliában, Szingapúrban, Szlovákiában, Szlovéniában, Spanyolországban, Svédországban, Svájcban, az Egyesült Királyságban és az Egyesült Államokban érhető el.
-
 premium-promo-perks-headline = Miért érdemes frissíteni a { -brand-name-firefox-relay-premium } verzióra?
 premium-promo-perks-lead-2 = A { -brand-name-firefox-relay-premium } segítségével megkapja a { -brand-name-relay } teljes postafiók-védelmét és kezelését, de korlátlan számú e-mail-maszkkal és egyéni aldomainnel, hogy a beérkező levelek kezelése még egyszerűbb legyen.
 premium-promo-perks-cta-label = Frissítsen most
@@ -228,7 +231,6 @@ premium-promo-perks-perk-block-promotionals-headline = Promóciós e-mailek blok
 premium-promo-perks-perk-block-promotionals-body = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
 premium-promo-perks-perk-tracker-blocking-headline = E-mail-követők eltávolítása
 premium-promo-perks-perk-tracker-blocking-body = Mostantól a { -brand-name-relay } segíthet megállítani az e-mailes nyomkövetést – az e-mail-maszkok eltávolítják a gyakori e-mail-követőket minden Önnek továbbított e-mailből, így láthatatlan marad a nyomkövetők és a hirdetők számára.
-
 premium-promo-use-cases-headline-2 = Használjon { -brand-name-relay } e-mail-maszkokat bárhol
 premium-promo-use-cases-shopping-heading = Vásárlás
 premium-promo-use-cases-shopping-body-2 = A levélszemetek nélkül próbál feliratkozni kedvezményekre? Csoportosítsa az összes „bevásárlási” fiókját egyéni e-mail-maszkok alá, például „ajanlataim@mydomain.mozmail.com”.
@@ -236,9 +238,7 @@ premium-promo-use-cases-social-networks-heading = Közösségi hálózatok
 premium-promo-use-cases-social-networks-body-2 = Szeretné jobban megvédeni online személyazonosságát egy közösségi hálózat használatakor? Használjon eltérő e-mail-maszkot az egyes közösségi hálózatokba való bejelentkezéshez, és segítsen megvédeni valódi e-mailjeit attól, hogy ezek a webhelyek felfedjék.
 premium-promo-use-cases-gaming-heading = Játék
 premium-promo-use-cases-gaming-body-2 = Aggódik amiatt, hogy más játékosok vagy trollok megtudják, ki Ön a játékoscímkéje és az e-mail-címe alapján? Használjon olyan maszkot, mint az „onlinejatek@mydomain.mozmail.com”, hogy még egy védelmi réteget helyezzen személyazonossága és az online játékok közé.
-
 premium-promo-pricing-free-price = Jelenlegi ingyenes csomagja
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Bevezető ár: Korlátlan álnevek havi { $monthly_price }-ért

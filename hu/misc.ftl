@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -111,8 +112,17 @@ trackerreport-faq-cta = További GYIK a { -brand-name-firefox-relay }-jel kapcso
 trackerreport-loading = A követőeltávolítási jelentés betöltése…
 trackerreport-load-error = Hiba történt a követőeltávolítási jelentés létrehozásakor. Frissítse az oldalt az újrapróbálkozáshoz.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = Ez a hivatkozás vagy kép követőt tartalmaz
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = Az e-mail-követők olyan megfigyelő eszközök, amelyeket a cégek e-mailekbe ágyaznak, hogy nyomon követhessék az online viselkedését. Az adatvédelme érdekében eltávolítottuk ezt a nyomkövetőt a(z) <u>{ $sender }</u> által küldött e-mailből, ekkor: { $datetime }.
+contains-tracker-warning-title = Továbbra is meg akarja nézni a hivatkozást?
+contains-tracker-warning-description = Figyelmeztetés: A hivatkozásra kattintás információkat küld vissza Önről a feladónak
+contains-tracker-warning-view-link-cta = Igen, hivatkozás megtekintése
+contains-tracker-faq-section-title = Gyakran ismételt kérdések az e-mail-követőkről
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -182,6 +192,7 @@ survey-csat-answer-very-satisfied = Nagyon elégedett
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Köszönjük a visszajelzést. Szeretnénk többet megtudni arról, hogyan javíthatjuk a { -brand-name-relay } szolgáltatáson az Ön számára. Hajlandó lenne kitölteni egy kétperces felmérést?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +221,35 @@ forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premiu
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }ra, mielőtt bevezető áraink lejárnának.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Frissítsen a nagyobb védelem érdekében
+relay-email-manage-this-mask = A maszk kezelése
+relay-email-your-dashboard = Saját irányítópult
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = készítette: <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = készítette: <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Továbbítva innen: <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 e-mail-követő eltávolítva
+       *[other] { $number } e-mail-követő eltávolítva
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +266,55 @@ upgrade-for-more-protection = Frissítsen a nagyobb védelem érdekében
 upgrade-to-premium = Frissítés a { -brand-name-firefox-relay-premium }ra
 manage-your-masks = Saját maszkok kezelése
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Üdvözli a { -brand-name-firefox-relay }
+first-time-user-email-preheader = E-mail-maszkolás a személyazonossága védelme érdekében
+first-time-user-email-welcome-subhead = Az e-mail-címe felhasználható arra, hogy kövessék online – azért vagyunk itt, hogy segítsünk véget vetni ennek.
+first-time-user-email-hero-primary-text = { -brand-name-firefox }-felhasználóként 5 ingyenes e-mail-maszkot kap. Használja őket a valódi e-mail-címének elrejtésére, személyazonosságának védelmére, és csak a kívánt levelek továbbítására a postaládájába.
+first-time-user-email-hero-secondary-text = Kezelje az összes maszkját a { -brand-name-relay } irányítópultjáról.
+first-time-user-email-hero-cta = Saját irányítópult megtekintése
+first-time-user-email-how-title = Hogyan működik a { -brand-name-relay }
+first-time-user-email-how-item-1-header = Használjon { -brand-name-relay } maszkot a valódi e-mail-címe helyett mindenhol
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox }ban, a <a href="{ $url }" { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpultján.
+first-time-user-email-how-item-1-subhead-text = Hozzon létre maszkokat közvetlenül a { -brand-name-firefox }ban, a { -brand-name-relay } kiegészítővel, vagy a { -brand-name-relay } irányítópultján.
+first-time-user-email-how-item-2-header = Az összes e-mailt a postafiókjába továbbítjuk
+first-time-user-email-how-item-2-subhead = A feladók sosem fogják látni a valódi címét, és bármikor letilthatja a leveleket.
+first-time-user-email-how-item-3-header = Kezelje maszkjait a { -brand-name-relay } irányítópultjáról
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Jelentkezzen be</a>, hogy új maszkokat hozzon létre, címkézze a maszkokat, és törölje a levélszemetet kapó maszkokat.
+first-time-user-email-how-item-3-subhead-text = Jelentkezzen be új maszkok létrehozásához, a maszkok címkézéséhez, és a levélszemetet kapó maszkok törléséhez.
+first-time-user-email-extra-protection-inbox-title = Extra védelem a postafiókja számára
+first-time-user-email-extra-protection-inbox-phone-title = Extra védelem a postafiókja és a telefonja számára
+first-time-user-email-extra-protection-inbox-subhead = Frissítsen a { -brand-name-relay-premium }ra, hogy korlátlan e-mail-maszkhoz, egyéni { -brand-name-relay } domainhez és egyéni postafiók-vezérléshez jusson.
+first-time-user-email-extra-protection-inbox-phone-subhead = Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkokért – plusz egy telefonmaszkért, amely megvédi a valós telefonszámát.
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } beszerzése
+first-time-user-email-questions-title = Kérdése van a { -brand-name-firefox-relay }-jel kapcsolatban?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = A <a href="{ $url }" { $attrs }>támogatási csapatunk</a> itt van, hogy segítsen.
+first-time-user-email-questions-subhead-text = A támogatási csapatunk itt van, hogy segítsen.
+first-time-user-email-footer-text-1 = Ezt az automatikus e-mailt a { -brand-name-firefox-relay } előfizetőjeként kapja, mert először használta a { -brand-name-relay }t. Ha tévedésből kapta, nincs teendője.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = További információkért keresse fel a <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Támogatást</a>.
+first-time-user-email-footer-text-2-text = További információkért keresse fel a { -brand-name-mozilla } Támogatást.
+first-time-user-email-footer-text-legal = Jogi információk
+first-time-user-email-footer-text-privacy = Feltételek és adatvédelem
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Felhasználta az ingyenes fiókjához tartozó { $free_tier_limit } e-mail-maszk mindegyikét. Újra felhasználhatja a meglévő maszkokat, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
 api-error-free-tier-no-subdomain-masks = Az ingyenes fiókja nem tartalmaz egyéni aldomaineket a maszkokhoz. Egyéni maszkok létrehozásához váltson a { -brand-name-relay-premium } verzióra.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = A(z) „{ $unavailable_address }” nem hozható létre. Próbálja újra egy másik maszknévvel.
