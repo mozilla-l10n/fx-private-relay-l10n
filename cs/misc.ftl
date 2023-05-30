@@ -106,9 +106,20 @@ trackerreport-tracker-count =
     }
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
+trackerreport-trackers-explainer-heading = O sledovacích prvcích v e-mailech
+trackerreport-breakage-warning-2 = Důležité: Odstranění sledovacích prvků může způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech. Takto obdržené e-maily nelze opravit ani obnovit.
+trackerreport-faq-heading = Nejčastější otázky o nástrojích na sledování e-mailů
+trackerreport-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(case: "dat") }
+trackerreport-loading = Načítá se report o odstraněných sledovacích prvcích…
+trackerreport-load-error = Při generování reportu o odstraněných sledovacích prvcích nastala chyba. Obnovte stránku a zkuste to znovu.
 
 ## Tracker warning page
 
+contains-tracker-title = Tento odkaz nebo obrázek obsahuje sledovací prvek
+contains-tracker-warning-title = Chcete přesto zobrazit odkaz?
+contains-tracker-warning-description = Upozornění: Klepnutím na tento odkaz odešlete informaci o vás zpět odesílateli
+contains-tracker-warning-view-link-cta = Ano, zobrazit odkaz
+contains-tracker-faq-section-title = Často kladené otázky o sledovacích prvcích v e-mailech
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Dní
@@ -143,6 +154,7 @@ survey-option-dismiss = Zavřít
 
 ## CSAT survey
 
+survey-csat-question = Jak jste spokojen(á) se službou { -brand-name-firefox-relay }?
 survey-csat-answer-very-dissatisfied = Velmi nespokojený
 survey-csat-answer-dissatisfied = Nespokojený
 survey-csat-answer-neutral = Neutrální
@@ -152,19 +164,78 @@ survey-csat-answer-very-satisfied = Velmi spokojený
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = Odebrané sledovací prvky: { $nr_blocked_trackers }
 forwarded-email-trackers-blocked-report = Více informací
+# This entire text is a link
+forwarded-email-footer-premium-banner = Upgradovat na { -brand-name-relay-premium }
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Upgradujte na { $premium_link } před vypršením zaváděcí ceny.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Upgradujte pro větší ochranu
+relay-email-manage-this-mask = Spravovat tuto masku
+relay-email-your-dashboard = Vaše nástěnka
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = Přináší <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = Přináší <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Přeposlané z <a href="{ $url }" { $attrs }>{ $email_address }</a>
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+other-reply-not-forwarded-2 = Vaše odpověď nebyla odeslána na adresu { $sender }.
+replies-only-available-with-premium = Odpovídání na přeposlané e-maily z vašeho maskovaného e-mailu je k dispozici pouze s { -brand-name-firefox-relay-premium }.
+replies-not-included-in-free-account-header = Odpovědi nejsou součástí vašeho bezplatného účtu
 reply-not-sent-header = Vaše odpověď nebyla odeslána
+upgrade-to-reply-to-future-emails = Pokud chcete odesílat odpovědi, upgradujte
+upgrade-for-more-protection = Upgradujte pro větší ochranu
+upgrade-to-premium = Upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }
 manage-your-masks = Spravovat moje masky
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Vítá vás { -brand-name-firefox-relay }
+first-time-user-email-preheader = Maskování e-mailů pro ochranu vaší identity
+first-time-user-email-welcome-subhead = Vaši e-mailovou adresu lze použít ke sledování online – jsme tu, abychom vám pomohli s tím skoncovat.
+first-time-user-email-hero-primary-text = Jako uživatel { -brand-name-firefox } získáte 5 e-mailových masek zdarma. Použijte je ke skrytí vaší skutečné e-mailové adresy, ochraně vaší identity a přeposílání pouze e-mailů, které chcete, do vaší schránky.
+first-time-user-email-hero-secondary-text = Spravujte všechny své masky z nástěnky { -brand-name-relay }
+first-time-user-email-hero-cta = Zobrazit moji nástěnku
+first-time-user-email-how-title = Jak { -brand-name-relay } funguje
+first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
+first-time-user-email-how-item-3-header = Spravujte své masky z nástěnky { -brand-name-relay }
+first-time-user-email-extra-protection-inbox-title = Extra ochrana pro vaši e-mailovou schránku
+first-time-user-email-extra-protection-inbox-phone-title = Extra ochrana pro vaši e-mailovou schránku a telefon
+first-time-user-email-extra-protection-cta = Získejte { -brand-name-relay-premium }
+first-time-user-email-questions-title = Máte otázky týkající se { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Náš <a href="{ $url }" { $attrs }>tým podpory</a> je tu, aby vám pomohl.
+first-time-user-email-questions-subhead-text = Náš tým podpory je tu, aby vám pomohl.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Další informace naleznete na stránkách <a href="{ $url }" { $attrs }>podpory { -brand-name-mozilla(case: "gen") }</a>.
+first-time-user-email-footer-text-2-text = Pro více informací navštivte podporu { -brand-name-mozilla(case: "gen") }.
+first-time-user-email-footer-text-legal = Právní informace
+first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 
 ## API error messages
 

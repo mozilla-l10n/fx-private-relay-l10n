@@ -8,31 +8,53 @@
 hero-section-title = Chránit svou identitu pomocí bezpečného maskování telefonu a e-mailu
 hero-section-body = Naše bezpečné a snadno použitelné e-mailové a telefonní masky pomáhají uchovat vaši identitu v bezpečí, takže si můžete anonymně zaregistrovat nové účty, zastavit SMS zprávy či nevyžádané hovory a do své doručené pošty dostávat pouze e-maily, které chcete.
 hero-section-cta = Začít
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Jak se objevilo v
 
 ## BUNDLE BANNER SECTION
 
+# Variables:
+#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
+bundle-banner-header-2 = Časově omezeno: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } za { $monthly_price }/měsíc
 bundle-banner-plan-header-2 = Váš 1letý plán zahrnuje:
 bundle-banner-plan-modules-email-masking = Zamaskování e-mailové adresy
 bundle-banner-plan-modules-phone-masking = Zamaskování telefonního čísla
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = Získejte { -brand-name-mozilla-vpn } + { -brand-name-relay }
 bundle-banner-alt = { -brand-name-mozilla-vpn } a { -brand-name-relay }
+# Variables:
+#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
+bundle-banner-money-back-guarantee-2 = { $days_guarantee }denní záruka vrácení peněz pro nové předplatitele
+# Variables:
+#   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
+bundle-feature-one = Více než { $num_vpn_servers } serverů
+# Variables:
+#   $num_vpn_countries (string) - the number of VPN available countries. Examples: 30, 40, 50
+bundle-feature-two = Více než { $num_vpn_countries } zemí
 bundle-feature-three = Rychlá a bezpečná síť
 
 ## HOW IT WORKS SECTION 
 
+how-it-works-section-title = Jak funguje maskování e-mailů a telefonů službou { -brand-name-relay }
 
 # Item 1
 
+how-it-works-section-extension-headline = Používejte e-mailové masky a maskování telefonního čísla službou { -brand-name-relay } kdekoliv
+how-it-works-section-extension-body = Získejte bezpečné, náhodné e-mailové masky a jedinečné maskované telefonní číslo, které můžete použít, kdykoli vás web, aplikace, obchod nebo restaurace požádá o vaše informace.
 
 # Item 2
 
 how-it-works-section-forward-headline = Budeme vám přeposílat e-maily, telefonní hovory a textové zprávy.
+how-it-works-section-forward-body = Ujišťujeme vás, že odesílatelé nikdy nezjistí vaši skutečnou e-mailovou adresu nebo skutečné číslo. Můžete dokonce odpovídat na SMS a e-maily, aniž byste sdíleli svou skutečnou identitu.
 
 # Item 3
 
+how-it-works-section-manage-headline = Spravujte své masky z nástěnky { -brand-name-relay }
 
 ## PRICING MATRIX SECTION
 
+plan-matrix-offer-title = Vyberte si úroveň ochrany, která vám vyhovuje
 
 # Top Row Labels
 
@@ -132,9 +154,11 @@ highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený 
 
 # Item 2
 
+highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
 
 # Item 3
 
+highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
 
 # Item 4
 
@@ -143,6 +167,7 @@ highlighted-features-section-block-promotions-body = Se službou { -brand-name-r
 
 # Item 5
 
+highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
 
 ## FAQ SECTION
 
