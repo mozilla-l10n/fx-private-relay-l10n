@@ -2,11 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Protégez votre identité avec des alias de messagerie et de numéro de téléphone sécurisés
 hero-section-body = Nos alias de messagerie et de numéro de téléphone sécurisés et faciles à utiliser vous aident à conserver votre identité privée pour que vous puissiez créer de nouveaux comptes de manière anonyme, bloquer les spams et les appels indésirables, et que vous receviez uniquement les e-mails que vous souhaitez dans votre boîte de réception.
 hero-section-cta = Démarrer
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Tels que vu dans
 
 ## BUNDLE BANNER SECTION
 
@@ -55,6 +59,8 @@ how-it-works-section-manage-body = Connectez-vous à votre tableau de bord { -br
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Choisissez le niveau de protection qui vous convient
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } protège votre identité et votre boîte de réception avec des alias de messagerie uniques. Ajoutez encore plus de sécurité avec les alias de numéro de téléphone { -brand-name-relay } et économisez { $savings } en ajoutant la protection { -brand-name-vpn }.
 
 # Top Row Labels
@@ -193,17 +199,14 @@ premium-promo-hero-body-2-html = Avec { -brand-name-firefox-relay-premium }, vou
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Avec { -brand-name-firefox-relay-premium }, vous obtenez un nombre illimité d’alias de messagerie personnalisés qui ne transmettent que les e-mails que vous désirez à votre véritable adresse e-mail.
 premium-promo-hero-cta = Mettre à niveau maintenant
-
 premium-promo-offer-end-hero-heading = Notre offre tarifaire de lancement se termine bientôt !
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Souscrivez à { -brand-name-relay-premium } avant le { $end_date } et profitez de notre protection d’e-mail premium à un prix promotionnel pour l’arrivée du paiement mensuel.
 premium-promo-offer-end-hero-cta = Mettre à niveau maintenant
-
 premium-promo-availability-warning = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour et en Suisse.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } est actuellement disponible en Allemagne, en Autriche, en Belgique, au Canada, en Espagne, aux États-Unis, en Finlande, en France, en Irlande, en Italie, en Malaisie, en Nouvelle-Zélande, aux Pays-Bas, au Royaume-Uni, à Singapour, en Suède et en Suisse.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } est disponible en Allemagne, en Autriche, en Belgique, au Canada, à Chypre, en Espagne, en Estonie, aux États-Unis, en Finlande, en France, en Grèce, en Irlande, en Italie, en Lettonie, en Lituanie, au Luxembourg, en Malaisie, à Malte, en Nouvelle-Zélande, aux Pays-Bas, au Portugal, à Singapour, en Slovaquie, en Slovénie, en Suède, en Suisse et au Royaume-Uni.
-
 premium-promo-perks-headline = Pourquoi passer à { -brand-name-firefox-relay-premium } ?
 premium-promo-perks-lead-2 = Avec { -brand-name-firefox-relay-premium }, non seulement vous bénéficiez de tous les avantages de la protection et de la gestion de la boîte de réception de { -brand-name-relay }, mais aussi d’un nombre illimité d’alias de messagerie et de votre propre sous-domaine personnalisé pour faciliter comme jamais la gestion de votre boîte de réception.
 premium-promo-perks-cta-label = Mettre à niveau maintenant
@@ -219,7 +222,6 @@ premium-promo-perks-perk-block-promotionals-headline = Bloquer les e-mails promo
 premium-promo-perks-perk-block-promotionals-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
 premium-promo-perks-perk-tracker-blocking-headline = Supprimer les traqueurs des e-mails
 premium-promo-perks-perk-tracker-blocking-body = Désormais, { -brand-name-relay } peut vous aider à bloquer le pistage dans les e-mails : vos alias de messagerie supprimeront les outils de pistage courants de tous les e-mails qui vous sont transférés, vous aidant ainsi à rester invisible aux yeux des outils de pistage et des annonceurs.
-
 premium-promo-use-cases-headline-2 = Utiliser partout les alias de messagerie de { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Achats en ligne
 premium-promo-use-cases-shopping-body-2 = Vous essayez de vous inscrire à des promotions sans que cela vous inonde de spams ? Regroupez vos comptes d’« achats en ligne » sous des alias personnalisés uniques, comme « mesoffres@mondomaine.mozmail.com ».
@@ -227,9 +229,7 @@ premium-promo-use-cases-social-networks-heading = Réseaux sociaux
 premium-promo-use-cases-social-networks-body-2 = Vous voulez une meilleure protection de votre identité en ligne quand vous utilisez un réseau social ? Utilisez un alias de messagerie différent pour la connexion à chaque réseau social et protégez ainsi votre véritable adresse e-mail du regard de ces sites.
 premium-promo-use-cases-gaming-heading = Jeux
 premium-promo-use-cases-gaming-body-2 = Vous redoutez que d’autres joueurs ou des trolls sachent qui vous êtes grâce à votre gamertag et votre adresse e-mail ? Utilisez un alias tel « jeuenligne@mondomaine.mozmail.com » pour ajouter un niveau de protection entre votre identité et les jeux que vous pratiquez en ligne.
-
 premium-promo-pricing-free-price = Votre forfait gratuit actuel
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Prix de lancement : nombre illimité d’alias pour { $monthly_price } par mois
