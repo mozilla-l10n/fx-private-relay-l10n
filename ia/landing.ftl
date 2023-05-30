@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Protege tu identitate con securitate disguisante telephono e email
@@ -10,6 +11,9 @@ hero-section-body =
     private assi que tu pote inscriber te al nove contos anonymemente, stoppar SMS spam e appellos immunditia, e 
     reciper solo le emails que tu vole in tu cassa de ingresso.
 hero-section-cta = Comenciar
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Como vidite in
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Accede a tu pannello de controlo de { -brand-
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Elige un nivello de protection que es justo pro te
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } protege tu identitate e tu cassa de ingresso con mascas email unic. Adde ancora plus securitate con le mascas pro telephono de { -brand-name-relay }, e sparnia { $savings } addente le protection { -brand-name-vpn }.
 
 # Top Row Labels
@@ -204,17 +210,14 @@ premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu r
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, tu obtene illimitate aliases e-mail personal que inultra solo le e-mails que tu vole a tu real adresse e-mail.
 premium-promo-hero-cta = Promover ora
-
 premium-promo-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 premium-promo-offer-end-hero-cta = Promover ora
-
 premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, le UK, e le SUA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite
-
 premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
 premium-promo-perks-cta-label = Promover ora
@@ -230,7 +233,6 @@ premium-promo-perks-perk-block-promotionals-headline = Blocar emails promotional
 premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, tu pote obstruer al emails promotional de attinger tu cassa de ingresso dum ancora recipe emails como quitantias o informationes de expedition.
 premium-promo-perks-perk-tracker-blocking-headline = Remover traciatores de emails
 premium-promo-perks-perk-tracker-blocking-body = Ora { -brand-name-relay } pote adjutar te a stoppar le traciamento per emails: tu mascas email removera commun traciatores de email de ulle emails inultrate a te, e te adjutara a remaner invisibile al traciatores e al publicitarios.
-
 premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay }
 premium-promo-use-cases-shopping-heading = Compras
 premium-promo-use-cases-shopping-body-2 = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal mascas email personalisate, como “mydeals@mydomain.mozmail.com.”
@@ -238,9 +240,7 @@ premium-promo-use-cases-social-networks-heading = Retes social
 premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu identitate online quando tu usa un rete social? Usa un differente masca email pro acceder a cata rete social e adjuta proteger tu ver email de esser exponite a ille sitos.
 premium-promo-use-cases-gaming-heading = Jocos
 premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
-
 premium-promo-pricing-free-price = Tu actual plano gratuite
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense

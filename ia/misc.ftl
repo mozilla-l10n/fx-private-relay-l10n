@@ -114,6 +114,18 @@ trackerreport-load-error = Un error occurreva generante tu reporto de remotion d
 
 ## Tracker warning page
 
+contains-tracker-title = Iste ligamine o imagine contine un traciator
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Le traciatores de email es applicationes de surveliantia que le companias incorpora in emails pro traciar tu
+    comportamento online. Pro proteger tu confidentialitate, nos removeva iste traciator ab le email inviate 
+    per <u>{ $sender }</u> le { $datetime }.
+contains-tracker-warning-title = Vole tu ancora vider le ligamine?
+contains-tracker-warning-description = ATTENTION: si tu clicca sur iste ligamine, tu inviara informationes re te, retro al expeditor
+contains-tracker-warning-view-link-cta = Si, vider ligamine
+contains-tracker-faq-section-title = Folio a questiones re traciatores de email
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -215,6 +227,31 @@ forwarded-email-footer-offer-countdown-banner = Promove a { $premium_link } ante
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Promove pro major protection
+relay-email-manage-this-mask = Gerer iste masca
+relay-email-your-dashboard = Tu pannello de controlo
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = per <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = per <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Inultrate de <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 traciator de email removite
+       *[other] { $number } traciatores de email removite
+    }
 
 ## Email sent to free users who try to reply
 
@@ -234,6 +271,46 @@ manage-your-masks = Gere tu mascas
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Benvenite in { -brand-name-firefox-relay }
+first-time-user-email-preheader = Email mascate pro proteger tu identitate
+first-time-user-email-welcome-subhead = Tu adresse email pote esser usate pro traciar te online, nos es ci pro adjutar a poner fin a illo.
+first-time-user-email-hero-primary-text = Como usator de { -brand-name-firefox }, tu recipe 5 mascas email gratuitemente. Usa los pro celar tu real adresse email, proteger tu identitate, e inultrar solo le emails que tu vole a tu cassa de ingresso.
+first-time-user-email-hero-secondary-text = Gere tote tu mascas ab le pannello de controlo de tu { -brand-name-relay }
+first-time-user-email-hero-cta = Vide tu pannello de controlo
+first-time-user-email-how-title = Como functiona { -brand-name-relay }
+first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Crea mascas directemente sur { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o sur tu pannello de controlo de { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Crea mascas directemente sur { -brand-name-firefox }, con le additivo de { -brand-name-relay }, o sur tu pannello de controlo de { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Nos inultrara tote le emails a tu cassa de ingresso
+first-time-user-email-how-item-2-subhead = Le expeditores jammais videra tu adresse real, e tu pote blocar le emails quandocunque.
+first-time-user-email-how-item-3-header = Gere tu mascas ab le pannello de controlo de tu { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Accede</a> pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
+first-time-user-email-how-item-3-subhead-text = Accede pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
+first-time-user-email-extra-protection-inbox-title = Extra protection pro tu cassa de ingresso
+first-time-user-email-extra-protection-inbox-phone-title = Extra protection pro tu cassa de ingresso e telephono
+first-time-user-email-extra-protection-inbox-subhead = Promove a { -brand-name-relay-premium } pro obtener illimitate mascas email, un dominio personal de { -brand-name-relay }, e controlos personalisate pro le cassa de ingresso.
+first-time-user-email-extra-protection-inbox-phone-subhead = Promove a { -brand-name-relay-premium } pro illimitate mascas email, plus un masca de telephono pro proteger tu numero real.
+first-time-user-email-extra-protection-cta = Abona te a { -brand-name-relay-premium }
+first-time-user-email-questions-title = Questiones re { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Nostre <a href="{ $url }" { $attrs }>equipa de assistentia</a> es ci pro adjutar.
+first-time-user-email-questions-subhead-text = Nostre equipa de assistentia es ci pro adjutar.
+first-time-user-email-footer-text-1 = Tu recipe iste email automatisate como abonato de { -brand-name-firefox-relay } qui usava { -brand-name-relay } per le prime vice. Si tu ha recipite illo per error, nulle action es necesse.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Pro altere informationes, visita <a href="{ $url }" { $attrs }>assistentia de { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Pro altere informationes, visita le assistentia de { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Legal
+first-time-user-email-footer-text-privacy = Terminos & confidentialitate
 
 ## API error messages
 
