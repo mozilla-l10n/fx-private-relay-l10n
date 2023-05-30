@@ -63,3 +63,4 @@ faq-question-bulk-trackerremoval-question = Voinko poistaa seuraimet vain joista
 faq-question-bulk-trackerremoval-answer = Voit ottaa seurainten poistotoiminnon käyttöön vain tilitasolla — se joko poistaa seuraimet kaikista sähköposteistasi tai ei yhdestäkään niistä.
 faq-question-trackerremoval-breakage-question = Miksi sähköpostini näyttävät rikkinäisiltä?
 faq-question-trackerremoval-breakage-answer-2 = Joskus seurainten poistaminen voi saada sähköpostiviestisi näyttämään rikkoutuneelta, koska seuraimet ovat usein kuvissa ja linkeissä. Kun seurain poistetaan, sähköposti näyttää siltä, että se on muotoiltu väärin, koska kuvia puuttuu. Tätä ei voida korjata jo vastaanottamiesi sähköpostien osalta. Jos tämä estää sinua lukemasta sähköpostejasi oikein, kytke seurainten poisto pois päältä.
+faq-question-define-tracker-question = Mitä sähköpostiseuraimet ovat?

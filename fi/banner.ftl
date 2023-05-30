@@ -69,6 +69,7 @@ banner-ab-premium-promo-cta = Päivitä
 banner-set-email-domain-headline = Aseta yksilöllinen { -brand-name-relay }-sähköpostiverkkotunnus
 banner-set-email-domain-step-one-headline = Valitse haluamasi { -brand-name-relay }-sähköpostiverkkotunnus
 banner-set-email-domain-step-one-body = Se on osa sähköpostiosoitettasi @-merkin jälkeen.
+banner-set-email-domain-step-two-headline = Käytä sitä luodaksesi välittömästi mukautettuja { -brand-name-relay }-maskeja
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com

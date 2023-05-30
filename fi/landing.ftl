@@ -11,6 +11,9 @@ hero-section-body =
     suojassa. Voit rekisteröidä uusia tilejä anonyymisti, estää puhelinmyynnin ja
     vastaanottaa vain haluamasi sähköpostit postilaatikkoosi.
 hero-section-cta = Aloitetaan
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Valokeilassa
 
 ## BUNDLE BANNER SECTION
 

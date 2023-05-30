@@ -61,6 +61,7 @@ popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
 popover-custom-alias-explainer-close-button-label = Sulje
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Estä mainossähköpostit
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Ota käyttöön "Estä mainossähköpostit" maskissa estääksesi markkinointisähköpostien saapumisen postilaatikkoosi.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 
 ## Tip about using custom masks
@@ -110,6 +111,18 @@ trackerreport-load-error = Seurainten poistoraporttia luotaessa tapahtui virhe. 
 
 ## Tracker warning page
 
+contains-tracker-title = Tämä linkki tai kuva sisältää seuraimen
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Sähköpostiseuraimet ovat valvontatyökaluja, joita yritykset upottavat sähköposteihin seuratakseen
+    toimintaasi verkossa. Yksityisyytesi suojaamiseksi poistimme tämän seuraimen sähköpostiviestistä,
+    jonka lähetti <u>{ $sender }</u> { $datetime }.
+contains-tracker-warning-title = Haluatko silti nähdä linkin?
+contains-tracker-warning-description = Varoitus: Tämän linkin napsauttaminen lähettää tietoa sinusta lähettäjälle
+contains-tracker-warning-view-link-cta = Kyllä, näytä linkki
+contains-tracker-faq-section-title = Usein kysyttyjä kysymyksiä sähköpostiseuraimista
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = pv
@@ -182,6 +195,21 @@ forwarded-email-footer-offer-countdown-banner = Päivitä { $premium_link }iin, 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Päivitä saadaksesi lisää suojausta
+relay-email-manage-this-mask = Hallinnoi tätä maskia
+relay-email-your-dashboard = Hallintapaneelisi
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Välitetty osoitteesta <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 sähköpostiseurain poistettu
+       *[other] { $number } sähköpostiseurainta poistettu
+    }
 
 ## Email sent to free users who try to reply
 
@@ -201,6 +229,45 @@ manage-your-masks = Hallitse maskeja
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Tervetuloa { -brand-name-firefox-relay } -palveluun
+first-time-user-email-welcome-subhead = Sähköpostiosoitettasi voidaan käyttää seuraamiseesi verkossa – autamme sinua laittamaan pisteen sille.
+first-time-user-email-hero-primary-text = { -brand-name-firefox }-käyttäjänä saat viisi sähköpostimaskia ilmaiseksi. Niiden avulla voit piilottaa oikean sähköpostiosoitteesi, suojata henkilöyttäsi ja välittääksesi vain haluamasi sähköpostit postilaatikkoosi.
+first-time-user-email-hero-secondary-text = Hallitse kaikkia maskejasi { -brand-name-relay }-hallintapaneelista.
+first-time-user-email-hero-cta = Näytä hallintapaneeli
+first-time-user-email-how-title = Miten { -brand-name-relay } toimii
+first-time-user-email-how-item-1-header = Käytä { -brand-name-relay }-maskia oikean sähköpostiosoitteesi sijaan kaikkialla
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Luo maskeja suoraan { -brand-name-firefox }issa <a href="{ $url }" { $attrs }>{ -brand-name-relay }-lisäosalla</a>, tai { -brand-name-relay }-hallintapaneelista.
+first-time-user-email-how-item-1-subhead-text = Luo maskeja suoraan { -brand-name-firefox }issa { -brand-name-relay }-lisäosalla, tai { -brand-name-relay }-hallintapaneelista.
+first-time-user-email-how-item-2-header = Lähetämme edelleen kaikki sähköpostiviestit osoitteeseesi
+first-time-user-email-how-item-2-subhead = Lähettäjät eivät koskaan näe oikeaa osoitettasi, ja voit estää sähköpostit milloin tahansa.
+first-time-user-email-how-item-3-header = Hallitse maskeja { -brand-name-relay }-hallintapaneelista
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Kirjaudu sisään</a> luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
+first-time-user-email-how-item-3-subhead-text = Kirjaudu sisään luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
+first-time-user-email-extra-protection-inbox-title = Lisäsuojausta postilaatikollesi
+first-time-user-email-extra-protection-inbox-phone-title = Lisäsuojausta postilaatikollesi ja puhelimellesi
+first-time-user-email-extra-protection-inbox-subhead = Päivitä { -brand-name-relay-premium }iin, niin saat rajattomasti sähköpostimaskeja, mukautetun { -brand-name-relay }-verkkotunnuksen ja mukautetun postilaatikon hallinnan.
+first-time-user-email-extra-protection-inbox-phone-subhead = Päivitä { -brand-name-relay-premium }iin, niin saat rajattomasti sähköpostimaskeja – sekä oikeaa puhelinnumeroasi suojaavan maskin.
+first-time-user-email-extra-protection-cta = Hanki { -brand-name-relay-premium }
+first-time-user-email-questions-title = Onko sinulla kysymyksiä { -brand-name-firefox-relay } -palvelua koskien?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Tukitiimimme</a> on valmiina auttamaan.
+first-time-user-email-questions-subhead-text = Tukitiimimme on valmiina auttamaan.
+first-time-user-email-footer-text-1 = Saat tämän automaattisen sähköpostin { -brand-name-firefox-relay } -palvelun tilaajana, joka käytti { -brand-name-relay }-palvelua ensimmäistä kertaa. Jos sait viestin virheellisesti, sinun ei tarvitse tehdä mitään.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Lisätietoja saat <a href="{ $url }" { $attrs }>{ -brand-name-mozilla }-tuesta</a>.
+first-time-user-email-footer-text-2-text = Lisätietoja saat { -brand-name-mozilla }-tuesta.
+first-time-user-email-footer-text-legal = Juridiset asiat
+first-time-user-email-footer-text-privacy = Ehdot ja tietosuoja
 
 ## API error messages
 
