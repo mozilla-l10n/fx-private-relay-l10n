@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = 创建您的第一个马甲邮箱
 onboarding-alias-tip-1-2 = 点击“生成新马甲”创建您的第一个马甲邮箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
 onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新马甲”。
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
@@ -43,18 +43,14 @@ profile-label-reset = 重置
 profile-label-apply = 应用
 profile-label-skip = 跳过
 profile-label-continue = 继续
-
 # This string is followed by an email address
 profile-label-forward-emails = 转发邮件至：
-
 # This string is followed by date
 profile-label-first-emailed = 首次发件于：
-
 # This string is followed by date:
 profile-label-created = 创建于：
 profile-label-details-show = 显示详细信息
 profile-label-details-hide = 隐藏详细信息
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = 转发中
 profile-label-blocking = 拦截中
@@ -67,8 +63,8 @@ profile-label-forwarded = 转发
 profile-label-replies = 回复
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = 移除的跟踪器
-profile-trackers-removed-tooltip-part1 = 启用跟踪器删除后，将从您转发的电子邮件中删除常见的电子邮件跟踪器。
-profile-trackers-removed-tooltip-part2-2 = <b>重要提示：</b>删除跟踪器可能会导致电子邮件无法正常显示，因为图片和链接中经常会包含跟踪器。
+profile-trackers-removed-tooltip-part1 = 启用“移除跟踪器”后，将从转发给您的邮件中移除常见的邮件跟踪器。
+profile-trackers-removed-tooltip-part2-2 = <b>重要提示：</b>移除跟踪器可能会导致电子邮件无法正常显示，因为跟踪器时常包含在图片和链接中。
 profile-label-cancel = 取消
 profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay } 收到邮件就会直接丢弃。
 profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
@@ -83,8 +79,8 @@ profile-stat-label-forwarded = 封邮件已转发
 profile-stat-label-aliases-used-2 = 已用的马甲邮箱
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = 移除的跟踪器
-profile-stat-label-trackers-learn-more-part1 = 启用“删除跟踪器”功能，邮件跟踪器将从转发给您的邮件中被移除。
-profile-stat-label-trackers-learn-more-part2-2 = 重要提示：有时删除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像和链接中。
+profile-stat-label-trackers-learn-more-part1 = 启用“移除跟踪器”功能后，邮件跟踪器将从转发给您的邮件中被移除。
+profile-stat-label-trackers-learn-more-part2-2 = 重要提示：有时移除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像和链接中。
 profile-filter-search-placeholder-2 = 搜索马甲
 profile-filter-category-button-label = 过滤可见的马甲邮箱
 profile-filter-category-button-tooltip = 按子域名和/或是否屏蔽收到的邮件过滤马甲邮箱
@@ -102,7 +98,7 @@ profile-filter-category-option-random-masks = 随机马甲
 profile-filter-category-option-custom-masks = 自定义马甲
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = 跟踪器移除状态
-profile-indicator-tracker-removal-tooltip = 目前正在删除电子邮件跟踪器
+profile-indicator-tracker-removal-tooltip = 已启用“移除跟踪器”
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 

@@ -99,19 +99,23 @@ trackerreport-tracker-count =
        *[other] { $count } 个跟踪器
     }
 trackerreport-confidentiality-notice = 这些报告中显示的跟踪器信息和发件人地址不会由 { -brand-name-firefox-relay } 保存，仅包含在报告 URL 中。我们不保存您的电子邮件。
-trackerreport-removal-explainer-heading = 跟踪器删除的工作原理
+trackerreport-removal-explainer-heading = 移除跟踪器的工作原理
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } 现在可以从通过马甲邮箱转发的邮件中移除常见的跟踪器。您依然能够收到转发的邮件，但其包含的跟踪器会被移除，这样您就可以不受跟踪地收取邮件。如需为所有马甲邮箱启用“移除跟踪器”功能，可在设置中启用该功能，而不必逐个设置。
 trackerreport-trackers-explainer-heading = 关于邮件跟踪器
 trackerreport-trackers-explainer-content-part1 = 电子邮件跟踪是常见的监视和广告工具，许多邮箱饱受其侵扰。这些跟踪器可用于更多地了解您的上网行为、兴趣爱好和电子邮件活动。
 trackerreport-trackers-explainer-content-part2 = 一些公司或组织会在发送给您的电子邮件中嵌入跟踪器（通常隐藏在图像或链接中）。打开电子邮件后，跟踪器中的代码就会执行，并回传数据。
-trackerreport-breakage-warning-2 = 重要提示：删除跟踪器可能会导致您的邮件看起来不正常，因为跟踪器时常包含在图像和链接中。此类邮件无法修复。
+trackerreport-breakage-warning-2 = 重要提示：移除跟踪器可能会导致您的邮件看起来不正常，因为跟踪器时常包含在图像和链接中。此类邮件无法修复。
 trackerreport-faq-heading = 关于邮件跟踪器的常见问题
 trackerreport-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 trackerreport-loading = 正在加载您的跟踪器移除报告…
-trackerreport-load-error = 生成您的跟踪器删除报告时出错。请刷新页面重试。
+trackerreport-load-error = 生成您的跟踪器移除报告时出错，请刷新页面重试。
 
 ## Tracker warning page
 
+contains-tracker-title = 此连接或图像包含跟踪器
+contains-tracker-warning-title = 仍要打开此链接吗？
+contains-tracker-warning-description = 警告：打开此链接后，与您关联的信息将被回传给发件人
+contains-tracker-warning-view-link-cta = 仍要打开
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -233,6 +237,7 @@ manage-your-masks = 管理马甲
 
 ## Email sent to first time free users
 
+first-time-user-email-footer-text-privacy = 条款和隐私
 
 ## API error messages
 

@@ -2,11 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = 使用虚拟手机号和马甲邮箱，保护您的身份信息
 hero-section-body = 我们安全易用的马甲邮箱和虚拟手机号可帮助您保护自己的身份隐私。使用此服务来匿名创建账户，免受垃圾短信和骚扰电话侵扰，让收件箱重归宁静。
 hero-section-cta = 开始使用
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = 曾受媒体推介
 
 ## BUNDLE BANNER SECTION
 
@@ -55,6 +59,8 @@ how-it-works-section-manage-body = 登录您的 { -brand-name-relay } 面板即�
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = 选择适合您的保护级别
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } 通过使用独一无二的马甲来保护您的身份信息和收件箱，同时提供 { -brand-name-relay } 虚拟手机号，保护更全面。继续添加 { -brand-name-vpn } 保护可享 { $savings } 优惠。
 
 # Top Row Labels
@@ -198,17 +204,14 @@ premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
 premium-promo-hero-cta = 立即升级
-
 premium-promo-offer-end-hero-heading = 优惠价即将结束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市特惠价享受高级电子邮件保护。
 premium-promo-offer-end-hero-cta = 立即升级
-
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
-
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
@@ -225,8 +228,7 @@ premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现
 premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
 premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
-premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您防止电子邮件跟踪——您的马甲邮箱将从转发给您的任何电子邮件中删除电子邮件中常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
-
+premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您阻挡电子邮件跟踪——您的马甲邮箱将从转发给您的所有电子邮件中移除常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
 premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
 premium-promo-use-cases-shopping-heading = 网购
 premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
@@ -234,9 +236,7 @@ premium-promo-use-cases-social-networks-heading = 社交网络
 premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地保护个人信息？在每个社交平台使用不同的马甲邮箱，可帮助保护您的真实邮箱地址免遭泄露。
 premium-promo-use-cases-gaming-heading = 游戏
 premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
-
 premium-promo-pricing-free-price = 您当前的免费方案
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } 即享无限马甲

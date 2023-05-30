@@ -13,9 +13,7 @@ whatsnew-tab-archive-label = 历史
 whatsnew-footer-clear-all-label = 全部清除
 whatsnew-footer-back-label = 返回
 whatsnew-footer-learn-more-label = 详细了解
-
 whatsnew-empty-message = 请常回来看看！我们正不断努力开发更多新功能，让 { -brand-name-relay } 更加强大易用。
-
 whatsnew-feature-size-limit-heading = 附件容量增加
 # A preview of the full content of `whatsnew-feature-size-limit-description`.
 # Try to keep this string short, not longer than the English version.
@@ -25,19 +23,16 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } 现在�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件，包含（…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } 现在可以转发最大 { email-size-limit } 的电子邮件（包含附件）。
-
 whatsnew-feature-sign-back-in-heading = 用您的马甲邮箱登录网站
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = 当网站要求您输入邮箱时，请打开…
 whatsnew-feature-sign-back-in-description = 要使用先前用过的马甲邮箱登录网站，请在网站的邮箱输入框中点击右键菜单，之后选择马甲邮箱并自动填充。
-
 whatsnew-feature-forward-some-heading = 屏蔽营销邮件
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } 允许您只屏蔽营销邮件…
 whatsnew-feature-forward-some-description = { -brand-name-relay-premium } 允许您只屏蔽营销邮件，收据、发票等重要邮件仍可正常收取。
-
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = 🐍 + 👕 = 🐢，📧 + 👕 = Firefox Relay
@@ -49,20 +44,17 @@ whatsnew-feature-alias-to-mask-snippet = { -brand-name-firefox-relay }，为邮�
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-description = { -brand-name-firefox-relay }，为邮箱披上“马甲”，诸多新特性轻松上手。
-
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } 已在瑞典推出
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } 已在芬兰推出
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 立即升级，获得更多保护…
 whatsnew-feature-premium-expansion-description = 立即升级并获得更多保护，包括创建无限的马甲邮箱、获取自定义电子邮件子域名等！
-
 whatsnew-feature-tracker-removal-heading = 来试试邮件跟踪器移除功能吧
 # A preview of the full content of `whatsnew-feature-tracker-removal-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中去除常见的跟踪器……
+whatsnew-feature-tracker-removal-snippet = 现在 { -brand-name-relay } 可以从转发的电子邮件中移除常见的跟踪器…
 whatsnew-feature-tracker-removal-description-2 = 现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，帮助您免受广告商窥视。可到“设置”中启用。
-
 whatsnew-feature-offer-countdown-heading = 优惠价即将结束！
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.
@@ -73,7 +65,6 @@ whatsnew-feature-offer-countdown-snippet = 在 { $end_date } 之前获得 { -bra
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，即可以我们的上市优惠价畅享无限马甲。
 whatsnew-feature-offer-countdown-cta = 立即升级
-
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } 现在可以在 { -brand-name-firefox } 密码管理器中使用
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
