@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Skydda din identitet med säkra telefon- och e-postalias
@@ -10,6 +11,9 @@ hero-section-body =
     privat så att du kan registrera dig för nya konton anonymt, stoppa spam-sms och skräpsamtal och
     få bara de e-postmeddelanden du vill ha i din inkorg.
 hero-section-cta = Kom igång
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Som setts i
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Logga in på din { -brand-name-relay } instru
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Välj en skyddsnivå som är rätt för dig
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } skyddar din identitet och din inkorg med unika e-postalias. Lägg till ännu mer säkerhet med { -brand-name-relay } telefonalias och spara { $savings } genom att lägga till { -brand-name-vpn }-skydd.
 
 # Top Row Labels
@@ -204,17 +210,14 @@ premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får 
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
 premium-promo-hero-cta = Uppgradera nu
-
 premium-promo-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 premium-promo-offer-end-hero-cta = Uppgradera nu
-
 premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
-
 premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
 premium-promo-perks-cta-label = Uppgradera nu
@@ -230,7 +233,6 @@ premium-promo-perks-perk-block-promotionals-headline = Blockera e-postreklam
 premium-promo-perks-perk-block-promotionals-body = Med { -brand-name-relay-premium }, kan du blockera e-postreklam-meddelanden från att nå din inkorg samtidigt som du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
 premium-promo-perks-perk-tracker-blocking-headline = Ta bort e-postspårare
 premium-promo-perks-perk-tracker-blocking-body = Nu kan { -brand-name-relay } hjälpa dig att stoppa e-postspårning – dina e-post alias tar bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för spårare och annonsörer.
-
 premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
 premium-promo-use-cases-shopping-heading = Shopping
 premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
@@ -238,9 +240,7 @@ premium-promo-use-cases-social-networks-heading = Sociala nätverk
 premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-postalias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
 premium-promo-use-cases-gaming-heading = Spel
 premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
-
 premium-promo-pricing-free-price = Din nuvarande gratisplan
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
