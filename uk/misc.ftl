@@ -116,6 +116,18 @@ trackerreport-load-error = Під час створення вашого зві�
 
 ## Tracker warning page
 
+contains-tracker-title = Це посилання або зображення містить елемент стеження
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Елементи стеження електронної пошти – це інструменти спостереження, які компанії вбудовують в електронні листи для відстеження
+    онлайн-поведінки. Щоб захистити вашу приватність, ми видалили цей елемент стеження з надісланого електронного листа
+    від <u>{ $sender }</u> { $datetime }.
+contains-tracker-warning-title = Усе одно хочете переглянути посилання?
+contains-tracker-warning-description = Попередження: клацнувши це посилання, ви надішлете відправнику інформацію про себе
+contains-tracker-warning-view-link-cta = Так, переглянути посилання
+contains-tracker-faq-section-title = Поширені запитання про елементи стеження електронної пошти
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -220,6 +232,32 @@ forwarded-email-footer-offer-countdown-banner = Оновіть до { $premium_l
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Покращте для надійнішого захисту
+relay-email-manage-this-mask = Керувати цією маскою
+relay-email-your-dashboard = Ваша панель керування
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = від <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = від <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Переслано з <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 елемент стеження електронної пошти вилучено
+        [few] { $number } елементи стеження електронної пошти вилучено
+       *[many] { $number } елементів стеження електронної пошти вилучено
+    }
 
 ## Email sent to free users who try to reply
 
@@ -239,6 +277,46 @@ manage-your-masks = Керувати своїми масками
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Вітаємо у { -brand-name-firefox-relay }
+first-time-user-email-preheader = Маскування електронної пошти для захисту вашої особистості
+first-time-user-email-welcome-subhead = Вашу адресу електронної пошти можна використовувати для онлайн-стеження за вами — ми тут, щоб допомогти покласти цьому край.
+first-time-user-email-hero-primary-text = Як користувач { -brand-name-firefox }, ви отримуєте 5 електронних масок безплатно. Використовуйте їх, щоб приховати свою справжню адресу електронної пошти, захистити свою особистість і пересилати до теки «Вхідні» лише ті листи, які вам потрібні.
+first-time-user-email-hero-secondary-text = Керуйте всіма своїми масками з панелі керування { -brand-name-relay }
+first-time-user-email-hero-cta = Перегляньте свою панель керування
+first-time-user-email-how-title = Як працює { -brand-name-relay }
+first-time-user-email-how-item-1-header = Використовуйте маски адрес електронної пошти { -brand-name-relay } замість справжньої адреси електронної пошти будь-де
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Створюйте маски безпосередньо у { -brand-name-firefox } за допомогою додатка <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> або на панелі керування { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Створюйте маски безпосередньо у { -brand-name-firefox } за допомогою додатка { -brand-name-relay } або на панелі керування { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Ми пересилатимемо всі листи до ваших вхідних
+first-time-user-email-how-item-2-subhead = Відправники ніколи не побачать вашої справжньої адреси, і ви можете будь-коли заблокувати електронні листи.
+first-time-user-email-how-item-3-header = Керуйте своїми масками з панелі керування { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Увійдіть</a>, щоб створювати нові маски, позначати свої маски та видаляти маски, на які надходить спам.
+first-time-user-email-how-item-3-subhead-text = Увійдіть, щоб створювати нові маски, позначати свої маски та видаляти маски, на які надходить спам.
+first-time-user-email-extra-protection-inbox-title = Додатковий захист для вашої скриньки
+first-time-user-email-extra-protection-inbox-phone-title = Додатковий захист для вашої поштової скриньки та телефону
+first-time-user-email-extra-protection-inbox-subhead = Передплатіть { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти, власний домен { -brand-name-relay } і спеціальні елементи керування вхідними.
+first-time-user-email-extra-protection-inbox-phone-subhead = Передплатіть { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти — плюс маску номера телефону, щоб захистити ваш справжній номер.
+first-time-user-email-extra-protection-cta = Отримайте { -brand-name-relay-premium }
+first-time-user-email-questions-title = Маєте запитання про { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Наша <a href="{ $url }" { $attrs }>команда підтримки</a> тут, щоб допомогти.
+first-time-user-email-questions-subhead-text = Наша команда підтримки тут, щоб допомогти.
+first-time-user-email-footer-text-1 = Ви отримали цей автоматичний електронний лист як передплатник { -brand-name-firefox-relay } після першого користування { -brand-name-relay }. Якщо ви отримали його помилково, нічого робити не потрібно.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Для отримання додаткової інформації відвідайте <a href="{ $url }" { $attrs }>Підтримку { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Для отримання додаткової інформації відвідайте підтримку { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Правові положення
+first-time-user-email-footer-text-privacy = Умови та приватність
 
 ## API error messages
 

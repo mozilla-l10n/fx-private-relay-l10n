@@ -11,6 +11,9 @@ hero-section-body =
     зберегти приватність вашої особистості, щоб ви могли анонімно реєструвати нові облікові записи,
     зупиняти спам і небажані виклики, а також отримувати лише потрібні електронні листи.
 hero-section-cta = Розпочати
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Як видно у
 
 ## BUNDLE BANNER SECTION
 
