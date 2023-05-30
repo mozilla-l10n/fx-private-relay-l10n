@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -113,8 +114,17 @@ trackerreport-faq-cta = Pozrite si ďalšie časté otázky o službe { -brand-n
 trackerreport-loading = Načítava sa správa o odstránených sledovacích prvkoch…
 trackerreport-load-error = Pri generovaní správy o odstránených sledovacích prvkoch sa vyskytla chyba. Obnovte stránku a skúste to znova.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = Tento odkaz alebo obrázok obsahuje sledovací prvok
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = E-mailové sledovacie prvky sú nástroje na sledovanie, ktoré spoločnosti vkladajú do e-mailov, aby mohli sledovať vaše online správanie. Aby sme ochránili vaše súkromie, odstránili sme tento sledovací prvok z e-mailu odoslaného dňa { $datetime } odosielateľom <u>{ $sender }</u>.
+contains-tracker-warning-title = Napriek tomu by ste chceli zobraziť odkaz?
+contains-tracker-warning-description = Upozornenie: kliknutím na tento odkaz odošlete informácie o vás späť odosielateľovi
+contains-tracker-warning-view-link-cta = Áno, zobraziť odkaz
+contains-tracker-faq-section-title = Často kladené otázky o sledovacích prvkoch v e-mailoch
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -194,6 +204,7 @@ survey-csat-answer-very-satisfied = veľmi spokojný
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Ďakujeme vám za vašu reakciu. Radi by sme sa dozvedeli viac o tom, ako pre vás môžeme zlepšiť službu { -brand-name-relay }. Boli by ste ochotní zúčastniť sa dvojminútového prieskumu?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -222,6 +233,37 @@ forwarded-email-footer-premium-banner = Inovujte na { -brand-name-relay-premium 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Inovujte na { $premium_link } skôr, ako uplynie platnosť našich uvádzacích cien.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Inovujte pre väčšiu ochranu
+relay-email-manage-this-mask = Spravovať túto masku
+relay-email-your-dashboard = Vaša nástenka
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = Prináša <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = Prináša <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Preposlané z <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 sledovací prvok odstránený
+        [few] { $number } sledovacie prvky odstránené
+        [many] { $number } sledovacích prvkov odstránených
+       *[other] { $number } sledovacích prvkov odstránených
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -238,13 +280,55 @@ upgrade-for-more-protection = Inovujte pre väčšiu ochranu
 upgrade-to-premium = Inovovať na { -brand-name-firefox-relay-premium }
 manage-your-masks = Spravovať moje masky
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Víta vás { -brand-name-firefox-relay }
+first-time-user-email-preheader = Maskovanie e-mailov na ochranu vašej identity
+first-time-user-email-welcome-subhead = Vašu e-mailovú adresu možno použiť na sledovanie online – sme tu, aby sme vám pomohli skoncovať s tým.
+first-time-user-email-hero-primary-text = Ako používateľ { -brand-name-firefox(case: "gen") } získate 5 e-mailových masiek zadarmo. Použite ich na skrytie vašej skutočnej e-mailovej adresy, ochranu vašej identity a preposielanie iba tých e-mailov, ktoré chcete vidieť vo vašej schránke doručenej pošty.
+first-time-user-email-hero-secondary-text = Spravujte všetky svoje masky z nástenky služby { -brand-name-relay }.
+first-time-user-email-hero-cta = Zobraziť moju nástenku
+first-time-user-email-how-title = Ako { -brand-name-relay } funguje
+first-time-user-email-how-item-1-header = Používajte masku služby { -brand-name-relay } namiesto svojho skutočného e-mailu, kdekoľvek
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Masky si môžete vytvárať priamo vo { -brand-name-firefox(case: "loc") } pomocou <a href="{ $url }" { $attrs }>doplnku { -brand-name-relay }</a> alebo pomocou vašej Nástenky služby { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Masky si môžete vytvárať priamo vo { -brand-name-firefox(case: "loc") } pomocou doplnku { -brand-name-relay } alebo pomocou vašej Nástenky služby { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Všetky e-maily prepošleme do vašej e-mailovej schránky
+first-time-user-email-how-item-2-subhead = Odosielatelia nikdy neuvidia vašu skutočnú adresu a e-maily môžete kedykoľvek zablokovať.
+first-time-user-email-how-item-3-header = Spravujte svoje masky na Nástenke služby { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Prihláste sa</a> a vytvorte si nové masky, pomenujte svoje existujúce masky či odstráňte masky, cez ktoré dostávate nevyžiadanú poštu.
+first-time-user-email-how-item-3-subhead-text = Prihláste sa a vytvorte si nové masky, pomenujte svoje existujúce masky či odstráňte masky, cez ktoré dostávate nevyžiadanú poštu.
+first-time-user-email-extra-protection-inbox-title = Extra ochrana pre vašu e-mailovú schránku
+first-time-user-email-extra-protection-inbox-phone-title = Extra ochrana pre vašu e-mailovú schránku a telefón
+first-time-user-email-extra-protection-inbox-subhead = Inovujte na { -brand-name-relay-premium } a získajte neobmedzené e-mailové masky, vlastnú doménu { -brand-name-relay } a vlastné nastavenia pre doručovanie pošty.
+first-time-user-email-extra-protection-inbox-phone-subhead = Inovujte na { -brand-name-relay-premium } a získajte neobmedzené e-mailové masky – plus masku telefónu na ochranu vášho skutočného telefónneho čísla.
+first-time-user-email-extra-protection-cta = Získajte { -brand-name-relay-premium }
+first-time-user-email-questions-title = Máte otázky týkajúce sa { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Náš <a href="{ $url }" { $attrs }>tím podpory</a> je tu, aby vám pomohol.
+first-time-user-email-questions-subhead-text = Náš tím podpory je tu, aby vám pomohol.
+first-time-user-email-footer-text-1 = Tento automatický e-mail dostávate ako predplatiteľ služby { -brand-name-firefox-relay }, ktorý { -brand-name-relay } prvýkrát použil. Ak ste ho dostali omylom, nevyžaduje sa žiadna akcia.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Ďalšie informácie nájdete na stránkach <a href="{ $url }" { $attrs }>Podpory { -brand-name-mozilla(case: "gen") }</a>.
+first-time-user-email-footer-text-2-text = Ďalšie informácie nájdete na stránkach Podpory { -brand-name-mozilla(case: "gen") }.
+first-time-user-email-footer-text-legal = Právne informácie
+first-time-user-email-footer-text-privacy = Podmienky a ochrana osobných údajov
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Použili ste všetky e-mailové masky (celkom { $free_tier_limit }), ktoré sú súčasťou vášho bezplatného účtu. Môžete znova použiť existujúcu masku, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
 api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahŕňa vlastné subdomény pre masky. Ak chcete vytvoriť vlastné masky, inovujte na { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” sa nepodarilo vytvoriť. Skúste to znova s iným názvom masky.

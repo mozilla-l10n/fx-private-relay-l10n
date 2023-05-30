@@ -2,11 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Chráňte svoju identitu pomocou bezpečného maskovania telefónu a e-mailu
 hero-section-body = Naše bezpečné a ľahko použiteľné e-mailové a telefónne masky pomáhajú zachovať vašu identitu v bezpečí, takže si môžete anonymne zaregistrovať nové účty, zastaviť spamové SMSky a nevyžiadané hovory a do svojej doručenej pošty dostávať iba e-maily, ktoré chcete.
 hero-section-cta = Začíname
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Ako sa objavilo v
 
 ## BUNDLE BANNER SECTION
 
@@ -49,12 +53,14 @@ how-it-works-section-forward-body = Uisťujeme vás, že odosielatelia nikdy nep
 
 # Item 3
 
-how-it-works-section-manage-headline = Spravujte svoje masky na hlavnom paneli služby { -brand-name-relay }
+how-it-works-section-manage-headline = Spravujte svoje masky na Nástenke služby { -brand-name-relay }
 how-it-works-section-manage-body = Prihláste sa do Nástenky služby { -brand-name-relay } a vytvárajte nové masky, pomenujte existujúce masky a blokujte hovory, textové správy alebo e-maily z masiek, ktoré dostávajú príliš veľa spamu.
 
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Vyberte si úroveň ochrany, ktorá vám vyhovuje
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } chráni vašu identitu a vašu schránku s doručenou poštou pomocou jedinečných e-mailových masiek. Ešte väčšiu bezpečnosť získate pomocou maskovania telefónu { -brand-name-relay } a ušetrite { $savings } pridaním ochrany pomocou { -brand-name-vpn }.
 
 # Top Row Labels
@@ -188,17 +194,14 @@ premium-promo-hero-body-2-html = So službou { -brand-name-firefox-relay-premium
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = So službou { -brand-name-firefox-relay-premium } získate neobmedzené množstvo vlastných e-mailových masiek, ktoré preposielajú iba tie e-maily, ktoré chcete, na vašu skutočnú e-mailovú adresu.
 premium-promo-hero-cta = Inovovať teraz
-
 premium-promo-offer-end-hero-heading = Naša uvádzacia cenová ponuka čoskoro končí!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Získajte { -brand-name-relay-premium } pred dátumom { $end_date } a užívajte si prémiovú ochranu e-mailov za našu uvádzaciu mesačnú cenu.
 premium-promo-offer-end-hero-cta = Inovovať teraz
-
 premium-promo-availability-warning = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } je momentálne k dispozícii v Rakúsku, Belgicku, Kanade, Fínsku, Francúzsku, Nemecku, Írsku, Taliansku, Malajzii, Holandsku, Singapure, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii, USA a na Novom Zélande.
 premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
-
 premium-promo-perks-headline = Prečo inovovať na { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = So službou { -brand-name-firefox-relay-premium } získate všetku ochranu a správu doručenej pošty služby { -brand-name-relay }, ale s neobmedzeným počtom e-mailových masiek a vašou vlastnou subdoménou, aby bola správa doručenej pošty ešte jednoduchšia.
 premium-promo-perks-cta-label = Inovovať teraz
@@ -208,13 +211,12 @@ premium-promo-perks-perk-unlimited-headline-2 = Vytvárajte neobmedzený počet 
 premium-promo-perks-perk-unlimited-body-2 = Už žiadny limit piatich masiek: so službou { -brand-name-relay-premium } môžete vygenerovať toľko masiek, koľko potrebujete, aby ste ochránili svoju e-mailovú schránku pred spamermi a online sledovačmi. Môžete dokonca odpovedať na e-maily bez toho, aby ste odhalili svoju skutočnú adresu.
 premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastnú subdoménu
 premium-promo-perks-perk-custom-domain-body-2 = S vlastnou subdoménou môžete vytvárať masky, ktoré sa dajú ľahšie zapamätať a zdieľať. Potrebujete masku na rezervácie v reštaurácii? Použite napríklad restauracia@mojadomena.mozmail.com — masku nie je potrebné vytvárať vopred.
-premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky z ovládacieho panela
-premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchom ovládacom paneli: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
+premium-promo-perks-perk-dashboard-headline-2 = Spravujte svoje masky zo svojej Nástenky
+premium-promo-perks-perk-dashboard-body-2 = Spravujte všetky svoje e-mailové masky na jednoduchej Nástenke: ak zistíte, že niektorý z nich dostáva nechcené správy, môžete nastaviť, aby sa tieto správy nedostali do vašej doručenej pošty.
 premium-promo-perks-perk-block-promotionals-headline = Blokovanie marketingových e-mailov
 premium-promo-perks-perk-block-promotionals-body = So službou { -brand-name-relay-premium } môžete blokovať doručovanie marketingových e-mailov do vašej schránky a zároveň stále prijímať e-maily, ako sú potvrdenia alebo informácie o dodaní vašich objednávok.
 premium-promo-perks-perk-tracker-blocking-headline = Odstraňovanie sledovacích prvkov z e-mailov
 premium-promo-perks-perk-tracker-blocking-body = Teraz vám { -brand-name-relay } môže pomôcť zastaviť sledovanie e-mailov – vaše e-mailové masky odstránia bežné sledovacie prvky zo všetkých e-mailov, ktoré vám preposielame, čím vám pomôžu zostať neviditeľnými pre sledovačov a inzerentov.
-
 premium-promo-use-cases-headline-2 = Používajte e-mailové masky služby { -brand-name-relay } kdekoľvek
 premium-promo-use-cases-shopping-heading = Nakupovanie
 premium-promo-use-cases-shopping-body-2 = Pokúšate sa prihlásiť na odber zliav bez všetkého spamu? Spojte všetky svoje “nákupné” účty pod jedinečnými vlastnými maskami, ako napríklad „mojenakupy@mojadomena.mozmail.com“.
@@ -222,9 +224,7 @@ premium-promo-use-cases-social-networks-heading = Sociálne siete
 premium-promo-use-cases-social-networks-body-2 = Chcete lepšie chrániť svoju online identitu pri používaní sociálnych sietí? Na prihlásenie do každej sociálnej siete použite inú e-mailovú masku a pomôžte tak chrániť svoj skutočný e-mail pred vystavením na týchto stránkach.
 premium-promo-use-cases-gaming-heading = Hranie hier
 premium-promo-use-cases-gaming-body-2 = Máte obavy z toho, že sa ostatní hráči alebo trolovia dozvedia, kto ste, prostredníctvom vášho gamertagu a e-mailovej adresy? Použite masku ako “onlinehra@mojadomena.mozmail.com” na vloženie ďalšej vrstvy ochrany medzi vašu identitu a hry, ktoré hráte online.
-
 premium-promo-pricing-free-price = Váš aktuálny bezplatný plán
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Uvádzacia cena: neobmedzené masky za { $monthly_price } mesačne
