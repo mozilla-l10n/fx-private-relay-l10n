@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -111,8 +112,19 @@ trackerreport-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 trackerreport-loading = Jo trackerferwideringsrapport lade…
 trackerreport-load-error = Der is in flater bard by it oanmeitsjen fan jo trackerferwideringsrapport. Fernij de side om it opnij te probearjen.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = Dizze keppeling of ôfbylding befettet in tracker
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    E-mailtrackers binne folchhelpmiddelen dy’t bedriuwen yn e-mailberjochten ynslute om jo
+    online gedrach te folgjen. Om jo privacy te beskermjen, hawwe wy dizze tracker út it e-mailberjocht dat is ferstjoerd troch <u>{ $sender }</u> op { $datetime } fuortsmiten.
+contains-tracker-warning-title = Wolle jo de keppeling noch hieltyd besjen?
+contains-tracker-warning-description = Warskôging: as jo op de keppeling klikke, wurde gegevens oer jo weromstjoerd nei de ôfstjoerder
+contains-tracker-warning-view-link-cta = Ja, keppeling besjen
+contains-tracker-faq-section-title = Faak stelde fragen oer e-mailtrackers
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -182,6 +194,7 @@ survey-csat-answer-very-satisfied = Tige tefreden
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Tank foar jo kommentaar. Wy wolle graach mear witte oer hoe’t wy { -brand-name-relay } foar jo ferbetterje kinne, soene jo in enkête fan twa minuten ynfolje wolle?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +223,35 @@ forwarded-email-footer-premium-banner = Opwurdearje nei { -brand-name-relay-prem
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Wurdearje op nei { $premium_link } eardat ús yntroduksjepriis ferrint.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Wurdearje op foar mear beskerming
+relay-email-manage-this-mask = Dit masker beheare
+relay-email-your-dashboard = Jo dashboerd
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = troch <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = troch <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Trochstjoerd fan <a href="{ $url }" { $attrs }>{ $email_address }</a> ôf
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 e-mailtracker fuortsmiten
+       *[other] { $number } e-mailtrackers fuortsmiten
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +268,55 @@ upgrade-for-more-protection = Wurdearje op foar mear beskerming
 upgrade-to-premium = Opwurdearje nei { -brand-name-firefox-relay-premium }
 manage-your-masks = Jo maskers beheare
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Wolkom by { -brand-name-firefox-relay }
+first-time-user-email-preheader = E-mailmaskearring om jo identiteit te beskermjen
+first-time-user-email-welcome-subhead = Jo e-mailadres kin brûkt wurde om jo online te folgjen – wy binne hjir om der in ein oan te meitsjen.
+first-time-user-email-hero-primary-text = As brûker fan { -brand-name-firefox } krije jo 5 e-mailmaskers fergees. Brûk se om jo echte e-mailadres te ferbergjen, jo identiteit te beskermjen en allinnich jo winske e-mailberjochten nei jo Postfek YN troch te stjoeren.
+first-time-user-email-hero-secondary-text = Behear al jo maskers fan jo { -brand-name-relay }-dashboerd ôf
+first-time-user-email-hero-cta = Besjoch jo dashboerd
+first-time-user-email-how-title = Hoe { -brand-name-relay } wurket
+first-time-user-email-how-item-1-header = Brûk oeral in { -brand-name-relay }-masker yn stee fan jo wiere e-mailadres
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Meitsje maskers streekrjocht yn { -brand-name-firefox }, mei de <a href="{ $url }" { $attrs }>{ -brand-name-relay }-add-on</a>, of op jo { -brand-name-relay }-dashboerd.
+first-time-user-email-how-item-1-subhead-text = Meitsje maskers streekrjocht yn { -brand-name-firefox }, mei de { -brand-name-relay }-add-on, of op jo { -brand-name-relay }-dashboerd.
+first-time-user-email-how-item-2-header = Wy stjoere alle e-mailberjochten troch nei jo Postfek YN
+first-time-user-email-how-item-2-subhead = Ofstjoerders sille nea jo wiere adres sjen en jo kinne e-mailberjochten op elk winske momint blokkearje.
+first-time-user-email-how-item-3-header = Behear jo maskers fan jo { -brand-name-relay }-dashboerd ôf
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Meld jo oan</a> om nije maskers te meitsjen, jo maskers te labeljen en maskers dy’t spam ûntfange fuort te smiten.
+first-time-user-email-how-item-3-subhead-text = Meld jo oan om nije maskers te meitsjen, jo maskers te labeljen en maskers dy’t spam ûntfange fuort te smiten.
+first-time-user-email-extra-protection-inbox-title = Ekstra beskerming foar jo Postfek YN
+first-time-user-email-extra-protection-inbox-phone-title = Ekstra beskerming foar jo Postfek YN en telefoan
+first-time-user-email-extra-protection-inbox-subhead = Wurdearje op nei { -brand-name-relay-premium } foar ûnbeheinde e-mailmaskers, in oanpast { -brand-name-relay }-domein en mear kontrôle oer jo Postfek YN.
+first-time-user-email-extra-protection-inbox-phone-subhead = Wurdearje op nei { -brand-name-relay-premium } foar ûnbeheinde e-mailmaskers – plus in telefoanmasker om jo wiere nûmer te beskermjen.
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } downloade
+first-time-user-email-questions-title = Fragen oer { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Us <a href="{ $url }" { $attrs }>stipeteam</a> stiet ree om te helpen.
+first-time-user-email-questions-subhead-text = Us stipeteam stiet ree om te helpen.
+first-time-user-email-footer-text-1 = Jo ûntfange dit automatyske e-mailberjocht as abonnee fan { -brand-name-firefox-relay } dy’t { -brand-name-relay } foar it earst brûkte. As jo it mei fersin ûntfongen hawwe, is gjin aksje nedich.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Besykje foar mear ynformaasje <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Support</a>.
+first-time-user-email-footer-text-2-text = Besykje foar mear ynformaasje { -brand-name-mozilla } Support:
+first-time-user-email-footer-text-legal = Juridysk
+first-time-user-email-footer-text-privacy = Betingsten en privacy
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Jo hawwe alle { $free_tier_limit } e-mailmaskers brûkt by jo fergese account. Jo kinne in besteand masker opnij brûke, mar it brûken fan in unyk masker foar elke account is de feilichste opsje.
 api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpaste subdomeinen foar maskers. Om oanpaste maskers te meitsjen, kinne jo nei { -brand-name-relay-premium } opwurdearje.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.

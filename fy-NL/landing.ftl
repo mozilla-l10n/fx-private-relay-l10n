@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Beskermje jo identiteit mei feilige telefoan- en e-mailmaskearing
@@ -10,6 +11,9 @@ hero-section-body =
     sadat jo jo anonym oanmelde kinne foar nije accounts, spamberjochten en net winske oproppen, en
     allinnich de e-mailberjochten dy’t jo wolle yn jo Postfek YN ûntfange.
 hero-section-cta = Begjinne
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = As sjoen yn
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Meld jo oan by jo { -brand-name-relay }-dashb
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Kies in beskermingnivo dat by jo past
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } beskermet jo identiteit en jo Postfek YN mei unike e-mailmaskers. Foegje noch mear befeiliging ta mei { -brand-name-relay }-telefoanmaskearring, en besparje { $savings } troch { -brand-name-vpn }-beskerming ta te foegjen.
 
 # Top Row Labels
@@ -204,17 +210,14 @@ premium-promo-hero-body-2-html = Mei { -brand-name-firefox-relay-premium } krije
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo wiere e-mailadres.
 premium-promo-hero-cta = No opwurdearje
-
 premium-promo-offer-end-hero-heading = Us yntroduksjepriisoanbieding einiget ynkoarten!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan earsteklas e-mailbeskerming tsjin ús yntroduksjepriis foar in moanne-abonnemint.
 premium-promo-offer-end-hero-cta = No opwurdearje
-
 premium-promo-availability-warning = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Switserlân, it FK en de FS.
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } is op dit stuit beskikber yn Eastenryk, België, Kanada, Finlân, Frankryk, Dútslân, Ierlân, Italië, Maleizje, Nederlân, Nij-Seelân, Singapore, Spanje, Sweden, Switserlân, it FK en de FS.
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } is beskikber yn Eastenryk, België, Kanada, Syprus, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Portugal, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
-
 premium-promo-perks-headline = Wêrom opwurdearje nei { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Mei { -brand-name-firefox-relay-premium } krije jo alle beskerming fan jo Postfek YN en it behear fan { -brand-name-relay }, mar mei ûnbeheinde e-mailmaskers en jo eigen oanpaste subdomein om it behearen fan jo Postfek YN noch ienfâldiger te meitsjen.
 premium-promo-perks-cta-label = No opwurdearje
@@ -232,7 +235,6 @@ premium-promo-perks-perk-block-promotionals-headline = Reklameberjochten blokkea
 premium-promo-perks-perk-block-promotionals-body = Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke, wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange.
 premium-promo-perks-perk-tracker-blocking-headline = E-mailtrackers fuortsmite
 premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } kin jo no helpe mei it ferwiderjen fan e-mailtrackers — jo e-mailmaskers sille gewoane e-mailtrackers út alle e-mailberjochten dy't nei jo trochstjoerd binne ferwiderje, en helpe jo ûnsichtber te bliuwen foar trackers en advertearders.
-
 premium-promo-use-cases-headline-2 = Brûk e-mailmaskers fan { -brand-name-relay } oeral
 premium-promo-use-cases-shopping-heading = Winkelje
 premium-promo-use-cases-shopping-body-2 = Probearje jo jo oan te melden foar koartingen sûnder alle spam? Bondelje al jo ‘winkel’-accounts ûnder unike oanpaste maskers, lykas ‘myndeals@myndomein.mozmail.com’.
@@ -242,9 +244,7 @@ premium-promo-use-cases-gaming-heading = Gaming
 premium-promo-use-cases-gaming-body-2 =
     Meitsje jo jo soargen dat oare gamers of pestkoppen derefter komme wa’t jo binne fia jo gamertag en e-mailadres?
     Brûk in masker lykas ‘onlinegame@myndomein.mozmail.com’ om in ekstra beskermingslaach te pleatsen tusken jo identiteit en de games dy’t jo online spylje.
-
 premium-promo-pricing-free-price = Jo aktuele fergese abonnemint
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Yntroduksjepriis: ûnbeheinde maskers foar { $monthly_price } yn ’e moanne
