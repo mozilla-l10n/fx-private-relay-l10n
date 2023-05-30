@@ -88,3 +88,6 @@ faq-question-bulk-trackerremoval-question = Dapatkah saya menghapus pelacak hany
 faq-question-bulk-trackerremoval-answer = Anda hanya dapat menyalakan penghapus pelacak di tingkat akun — antara menghapus pelacak dari seluruh surel, atau tidak sama sekali.
 faq-question-trackerremoval-breakage-question = Mengapa surel saya terlihat rusak?
 faq-question-trackerremoval-breakage-answer-2 = Terkadang menghapus pelacak dapat menyebabkan surel Anda terlihat rusak, karena pelacak seringkali terkandung di dalam gambar dan tautan. Saat pelacak dihapus, format surel terlihat seperti bermasalah karena gambar hilang. Hal ini tidak dapat diperbaiki untuk surel yang telah Anda terima. Jika situasi ini mencegah Anda membaca surel dengan benar, matikan penghapusan pelacak.
+faq-question-define-tracker-question = Apa itu pelacak surel?
+faq-question-define-tracker-answer-partone = Pelacakan surel adalah alat pengawasan dan iklan umum yang telah mengambil alih banyak kotak masuk. Pelacak ini dapat digunakan untuk memahami lebih lanjut tentang perilaku daring, minat, dan aktivitas surel Anda.
+faq-question-define-tracker-answer-parttwo = Perusahaan atau organisasi akan menyematkan pelacak dalam surel yang dikirimkan kepada Anda, biasanya disembunyikan dalam sebuah gambar atau tautan. Saat surel dibuka, kode dalam pelacak akan mengirim data kembali ke perusahaan.

@@ -11,6 +11,9 @@ hero-section-body =
     pribadi sehingga Anda dapat mendaftar untuk akun baru secara anonim, menghentikan teks spam dan panggilan sampah, dan
     dapatkan hanya surel yang diinginkan di kotak masuk Anda.
 hero-section-cta = Mulai
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Seperti yang terlihat pada
 
 ## BUNDLE BANNER SECTION
 

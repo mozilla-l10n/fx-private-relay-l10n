@@ -112,6 +112,15 @@ trackerreport-load-error = Terjadi kesalahan saat membuat laporan penghapusan pe
 
 ## Tracker warning page
 
+contains-tracker-title = Tautan atau gambar ini mengandung pelacak
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = Pelacak surel adalah alat pengawasan yang disematkan perusahaan dalam surel untuk melacak perilaku daring Anda. Untuk melindungi privasi Anda, kami menghapus pelacak ini dari surel yang dikirim oleh <u>{ $sender }</u> pada { $datetime }.
+contains-tracker-warning-title = Apakah Anda masih ingin melihat tautannya?
+contains-tracker-warning-description = Peringatan: Mengklik tautan ini akan mengirim informasi tentang Anda kembali ke pengirim
+contains-tracker-warning-view-link-cta = Ya, lihat tautan
+contains-tracker-faq-section-title = Pertanyaan yang sering diajukan tentang pelacak surel
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -213,6 +222,30 @@ forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Tingkatkan untuk perlindungan lebih lanjut
+relay-email-manage-this-mask = Kelola topeng ini
+relay-email-your-dashboard = Dasbor Anda
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = oleh <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = oleh <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Diteruskan dari <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+       *[other] { $number } pelacak surel dihapus
+    }
 
 ## Email sent to free users who try to reply
 
@@ -232,6 +265,46 @@ manage-your-masks = Kelola topeng Anda
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = Selamat datang di { -brand-name-firefox-relay }
+first-time-user-email-preheader = Penyembunyian surel untuk melindungi identitas Anda
+first-time-user-email-welcome-subhead = Alamat surel Anda dapat digunakan untuk melacak Anda daring — kami di sini untuk membantu mengakhirinya.
+first-time-user-email-hero-primary-text = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan 5 topeng surel gratis. Gunakan mereka untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang Anda inginkan ke kotak masuk Anda.
+first-time-user-email-hero-secondary-text = Kelola semua topeng Anda dari dasbor { -brand-name-relay } Anda.
+first-time-user-email-hero-cta = Lihat dasbor Anda
+first-time-user-email-how-title = Cara kerja { -brand-name-relay }
+first-time-user-email-how-item-1-header = Gunakan topeng { -brand-name-relay } alih-alih surel asli Anda, di mana saja
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Buat topeng langsung di { -brand-name-firefox }, dengan pengaya <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, atau di { -brand-name-relay } dasbor.
+first-time-user-email-how-item-1-subhead-text = Buat topeng langsung di { -brand-name-firefox }, dengan pengaya { -brand-name-relay }, atau di dasbor { -brand-name-relay } Anda.
+first-time-user-email-how-item-2-header = Kami akan meneruskan semua surel ke kotak masuk Anda
+first-time-user-email-how-item-2-subhead = Pengirim tidak akan pernah melihat alamat asli Anda, dan Anda dapat memblokir surel kapan saja.
+first-time-user-email-how-item-3-header = Kelola topeng Anda dari dasbor { -brand-name-relay } Anda
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Masuk</a> untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
+first-time-user-email-how-item-3-subhead-text = Masuk untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
+first-time-user-email-extra-protection-inbox-title = Perlindungan ekstra untuk kotak masuk Anda
+first-time-user-email-extra-protection-inbox-phone-title = Perlindungan ekstra untuk kotak masuk dan ponsel Anda
+first-time-user-email-extra-protection-inbox-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas, domain { -brand-name-relay } khusus, dan kontrol kotak masuk khusus.
+first-time-user-email-extra-protection-inbox-phone-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk topeng surel tanpa batas — ditambah topeng telepon untuk melindungi nomor asli Anda.
+first-time-user-email-extra-protection-cta = Dapatkan { -brand-name-relay-premium }
+first-time-user-email-questions-title = Ada pertanyaan tentang { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Tim dukungan</a> kami siap membantu.
+first-time-user-email-questions-subhead-text = Tim dukungan kami siap membantu.
+first-time-user-email-footer-text-1 = Anda menerima surel otomatis ini sebagai pelanggan { -brand-name-firefox-relay } yang menggunakan { -brand-name-relay } untuk pertama kalinya. Jika Anda menerimanya karena kesalahan, tidak ada tindakan yang diperlukan.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Untuk informasi lebih lanjut, silakan kunjungi <a href="{ $url }" { $attrs }> Dukungan { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Untuk informasi lebih lanjut, silakan kunjungi Dukungan { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Legal
+first-time-user-email-footer-text-privacy = Syarat & Privasi
 
 ## API error messages
 
