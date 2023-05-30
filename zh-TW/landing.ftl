@@ -2,11 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = 透過安全的郵件轉寄信箱與虛擬電話轉接功能來保護您的身分資料
 hero-section-body = 我們安全、好用的轉寄信箱與手機轉接號碼，可幫助您保護身分隱私、匿名地註冊新帳號、停止收到垃圾信與垃圾電話，並且只在收件匣中收到想收的信件。
 hero-section-cta = 開始使用
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = 如
 
 ## BUNDLE BANNER SECTION
 
@@ -55,6 +59,8 @@ how-it-works-section-manage-body = 登入您的 { -brand-name-relay } 儀表板�
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = 選擇適合您的保護等級
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = { -brand-name-firefox-relay } 用獨特的轉寄信箱來保護您的個人身分與信件匣。{ -brand-name-relay } 虛擬電話轉接功能讓安全性更上一層樓，加購 { -brand-name-vpn } 保護功能，可享 { $savings } 折扣。
 
 # Top Row Labels
@@ -188,17 +194,14 @@ premium-promo-hero-body-2-html = 訂購 { -brand-name-firefox-relay-premium }，
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 透過 { -brand-name-firefox-relay-premium }，您可以獲得無限的自訂轉寄信箱，只將您想要轉寄的郵件轉到您的實際電子郵件信箱。
 premium-promo-hero-cta = 立刻升級
-
 premium-promo-offer-end-hero-heading = 上市優惠價即將結束！
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = 於 { $end_date } 前下載 { -brand-name-relay-premium }，即可以上市優惠價獲得進階版郵件保護服務。
 premium-promo-offer-end-hero-cta = 立刻升級
-
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
-
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
@@ -214,7 +217,6 @@ premium-promo-perks-perk-block-promotionals-headline = 封鎖行銷郵件
 premium-promo-perks-perk-block-promotionals-body = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 premium-promo-perks-perk-tracker-blocking-headline = 移除郵件追蹤器
 premium-promo-perks-perk-tracker-blocking-body = 現在起，{ -brand-name-relay } 可幫助您防止透過電子郵件被追蹤 — 轉寄信箱將自動從轉寄給您的信件中移除常見的追蹤器，幫助您確保對追蹤器與廣告商保持隱形。
-
 premium-promo-use-cases-headline-2 = 隨時隨地都能使用 { -brand-name-relay } 轉寄信箱
 premium-promo-use-cases-shopping-heading = 線上購物
 premium-promo-use-cases-shopping-body-2 = 想要收到折價券，但不想要收到垃圾信嗎？可以在不同的購物網站使用不同的轉寄信箱，例如「mydeals@mydomain.mozmail.com」。
@@ -222,9 +224,7 @@ premium-promo-use-cases-social-networks-heading = 社群網路
 premium-promo-use-cases-social-networks-body-2 = 想要在使用社群網路時更加保護您的線上身分嗎？可使用不同的轉寄信箱登入不同的小號，避免這些網站知道您實際的信箱帳號。
 premium-promo-use-cases-gaming-heading = 玩遊戲
 premium-promo-use-cases-gaming-body-2 = 擔心線上遊戲的其他玩家或者網路惡霸透過您的遊戲代號或信箱發現你是誰嗎？使用如「onlinegame@mydomain.mozmail.com」的轉寄信箱，就可在自己的線上身份與遊玩的遊戲之間再加上一道保護。
-
 premium-promo-pricing-free-price = 您目前的免費方案
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = 上市優惠：每月 { $monthly_price } 即可使用無限量別名

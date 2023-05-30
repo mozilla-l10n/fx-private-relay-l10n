@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -109,8 +110,17 @@ trackerreport-faq-cta = 了解 { -brand-name-firefox-relay } 的常見問題
 trackerreport-loading = 正在載入您的追蹤器移除報告…
 trackerreport-load-error = 產生您的追蹤器移除報告時發生錯誤，請重新整理頁面再試一次。
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = 此鏈結或圖片包含追蹤器
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = 電子郵件追踪器是企業嵌入到電子郵件中以追踪您的上網行為的監控工具。為了保護您的隱私我們已從 <u>{ $sender }</u> 於 { $datetime } 寄出的郵件移除此追踪器。
+contains-tracker-warning-title = 您還想要檢視鏈結嗎？
+contains-tracker-warning-description = 警告：點擊此鏈結，會將您的資訊傳送回給寄件者
+contains-tracker-warning-view-link-cta = 好，檢視鏈結
+contains-tracker-faq-section-title = 關於電子郵件追蹤器的常見問題
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -180,6 +190,7 @@ survey-csat-answer-very-satisfied = 非常滿意
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = 感謝您提供意見回饋，我們想更加了解要如何為您改進 { -brand-name-relay }，方便做個兩分鐘意見調查嗎？
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -208,6 +219,34 @@ forwarded-email-footer-premium-banner = 升級到 { -brand-name-relay-premium }
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束前升級 { $premium_link }。
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = 升級後即可獲得更多保護
+relay-email-manage-this-mask = 管理此轉寄信箱
+relay-email-your-dashboard = 您的儀表板
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = 由 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a> 提供
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = 由 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a> 提供
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = 轉寄自 <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+       *[other] 已移除 { $number } 組電子郵件追蹤器
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -224,13 +263,55 @@ upgrade-for-more-protection = 升級後即可獲得更多保護
 upgrade-to-premium = 升級到 { -brand-name-firefox-relay-premium }
 manage-your-masks = 管理您的轉寄信箱
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = 歡迎使用 { -brand-name-firefox-relay }
+first-time-user-email-preheader = 透過轉寄信箱來保護您的身分
+first-time-user-email-welcome-subhead = 您的電子郵件地址可能會被用來在網路上追踪您 — 我們可讓我們協助您杜絕此類行為。
+first-time-user-email-hero-primary-text = { -brand-name-firefox } 使用者可免費獲得 5 組轉寄信箱。您可以使用它們來隱藏您實際的電子郵件地址、保護身分資訊，只把想要的郵件轉寄回您的實際信箱。
+first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 儀表板管理您的所有轉寄信箱。
+first-time-user-email-hero-cta = 檢視儀表板
+first-time-user-email-how-title = { -brand-name-relay } 的運作原理
+first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-relay } 轉寄信箱，不使用您的實際信箱。
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = 直接在 { -brand-name-firefox } 使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加元件</a>或您的 { -brand-name-relay } 儀表板建立轉寄信箱。
+first-time-user-email-how-item-1-subhead-text = 直接在 { -brand-name-firefox } 上透過 { -brand-name-relay } 附加元件或 { -brand-name-relay } 儀表板建立轉寄信箱。
+first-time-user-email-how-item-2-header = 我們會將所有郵件轉寄到您的信箱
+first-time-user-email-how-item-2-subhead = 寄件者不會看到您的實際信箱而且您也可以隨時封鎖郵件。
+first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 儀表板管理您的轉寄信箱
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登入</a>即可建立轉寄信箱、為您的轉寄信箱加上標籤並刪除會收到垃圾信的轉寄信箱。
+first-time-user-email-how-item-3-subhead-text = 登入以建立新轉寄信箱、為您的轉寄信箱加上標籤並刪除會收到垃圾信的轉寄信箱。
+first-time-user-email-extra-protection-inbox-title = 為您的信箱提供額外保護
+first-time-user-email-extra-protection-inbox-phone-title = 為您的信箱與手機門號再加一道保護
+first-time-user-email-extra-protection-inbox-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱、自訂 { -brand-name-relay } 網域以及自訂的收件匣控制功能。
+first-time-user-email-extra-protection-inbox-phone-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱還有手機轉接功能可保護您的實際電話號碼。
+first-time-user-email-extra-protection-cta = 下載 { -brand-name-relay-premium }
+first-time-user-email-questions-title = 有 { -brand-name-firefox-relay } 相關問題嗎？
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = 我們的<a href="{ $url }" { $attrs }>技術支援團隊</a>在此為您服務。
+first-time-user-email-questions-subhead-text = 我們的技術支援團隊在此為您服務。
+first-time-user-email-footer-text-1 = 您會以第一次使用 { -brand-name-relay } 的 { -brand-name-firefox-relay } 訂閱者的身分收到這封自動寄出的郵件。若您錯誤地收到此金鑰不必做任何事。
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = 若需更多資訊，請造訪 <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } 技術支援站</a>。
+first-time-user-email-footer-text-2-text = 若需更多資訊，請造訪 { -brand-name-mozilla } 技術支援站。
+first-time-user-email-footer-text-legal = 法律資訊
+first-time-user-email-footer-text-privacy = 使用條款及隱私權
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立專屬轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
