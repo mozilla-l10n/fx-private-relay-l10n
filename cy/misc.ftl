@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -119,8 +120,20 @@ trackerreport-faq-cta = Gweld rhagor o gwestiynnau am { -brand-name-firefox-rela
 trackerreport-loading = Wrthi'n llwytho eich adroddiad tynnu traciwr…
 trackerreport-load-error = Bu gwall wrth gynhyrchu eich adroddiad tynnu traciwr. Ail-lwythwch y dudalen i geisio eto.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-title = Mae'r ddolen neu'r ddelwedd hon yn cynnwys traciwr
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Offer gwyliadwriaeth yw tracwyr e-byst y mae cwmnïau'n eu hymgorffori mewn e-byst i dracio'ch e-byst
+    ymddygiad ar-lein. Er mwyn diogelu eich preifatrwydd, rydym wedi tynnu'r traciwr hwn o'r e-bost a anfonwyd
+    gan <u>{ $sender }</u> ar { $datetime }.
+contains-tracker-warning-title = Hoffech chi dal weld y ddolen?
+contains-tracker-warning-description = Rhybudd: Bydd clicio ar y ddolen hon yn anfon gwybodaeth amdanoch chi yn ôl at yr anfonwr
+contains-tracker-warning-view-link-cta = Ie, gweld y ddolen
+contains-tracker-faq-section-title = Cwestiynau cyffredin am dracwyr e-byst
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -171,6 +184,7 @@ survey-csat-answer-very-satisfied = Bodlon Iawn
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Diolch i chi am eich adborth. Hoffem ddysgu ragor am sut y gallwn ni wella { -brand-name-relay } ar eich cyfer chi. A fyddech chi'n fodlon cynnal arolwg dwy funud?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -199,6 +213,39 @@ forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premi
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link } cyn i'n pris agoriadol ddod i ben.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Uwchraddiwch i gael mwy o ddiogelwch
+relay-email-manage-this-mask = Rheoli'r arallenw hwn
+relay-email-your-dashboard = Eich dangosfwrdd
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = gan <a href = " { $url } " { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = gan <a href = " { $url } " { $attrs }> { -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Wedi'i anfon ymlaen o <a href = " { $url } " { $attrs }> { $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [zero] 0 tracwyr e-bost wedi'u tynnu
+        [one] 1 traciwr e-bost wedi'i dynnu
+        [two] { $number } draciwr e-bost wedi'u tynnu
+        [few] { $number } traciwr e-bost wedi'u tynnu
+        [many] { $number } thraciwr e-bost wedi'u tynnu
+       *[other] { $number } traciwr e-bost wedi'u tynnu
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -215,13 +262,19 @@ upgrade-for-more-protection = Uwchraddiwch i gael mwy o ddiogelwch
 upgrade-to-premium = Uwchraddiwch i { -brand-name-firefox-relay-premium }
 manage-your-masks = Rheoli eich arallenwau
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Croeso i { -brand-name-firefox-relay }
+first-time-user-email-preheader = Cuddio cyfeiriadau e-bost i ddiogelu eich hunaniaeth
+first-time-user-email-welcome-subhead = Mae modd defnyddio'ch cyfeiriad e-bost i'ch tracio ar-lein - rydyn ni yma i helpu i roi diwedd ar hyn.
+first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Rydych wedi defnyddio pob un o'r { $free_tier_limit } arallenwau e-bost sydd wedi'u cynnwys yn eich cyfrif rhad ac am ddim. Gallwch ailddefnyddio arallenw sy'n bodoli eisoes, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r dewis mwyaf diogel.
 api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn cynnwys is-barthau personol ar gyfer arallenwau. I greu arallenwau personol, uwchraddiwch i { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.

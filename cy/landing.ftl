@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## HERO SECTION 
 
 hero-section-title = Diogelwch eich hunaniaeth trwy guddio rhif ffôn ac e-bost diogel
@@ -10,6 +11,9 @@ hero-section-body =
     yn breifat fel y gallwch gofrestru ar gyfer cyfrifon newydd yn ddienw, atal negeseuon testun sbam a galwadau sothach, a
     chael dim ond yr e-byst rydych chi eu heisiau yn eich blwch derbyn.
 hero-section-cta = Cychwyn arni
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Fel wedi'i weld yn
 
 ## BUNDLE BANNER SECTION
 
@@ -58,6 +62,8 @@ how-it-works-section-manage-body = Mewngofnodwch i'ch bwrdd rheoli { -brand-name
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Dewiswch lefel o ddiogelwch sy'n iawn i chi
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-offer-body = Mae { -brand-name-firefox-relay } yn diogelu eich hunaniaeth a'ch blwch derbyn gydag arallenwau e-bost unigryw. Ychwanegwch hyd yn oed mwy o ddiogelwch gyda chuddio rhifau ffôn { -brand-name-relay }, ac arbed { $savings } drwy ychwanegu diogelwch { -brand-name-vpn }.
 
 # Top Row Labels
@@ -200,17 +206,14 @@ premium-promo-hero-body-2-html = Gyda { -brand-name-firefox-relay-premium }, ryd
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Gyda { -brand-name-firefox-relay-premium }, byddwch yn cael arallenwau e-bost personol diderfyn sy'n anfon dim ond y negeseuon e-bost rydych chi eu heisiau ymlaen i'ch gwir gyfeiriad e-bost.
 premium-promo-hero-cta = Uwchraddiwch nawr
-
 premium-promo-offer-end-hero-heading = Mae ein cynnig prisio agoriadol yn dod i ben cyn bo hir!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 premium-promo-offer-end-hero-content = Mynwch { -brand-name-relay-premium } cyn { $end_date } a mwynhewch diogelwch e-bost premiwm am ein pris agoriadol o fis i fis.
 premium-promo-offer-end-hero-cta = Uwchraddiwch nawr
-
 premium-promo-availability-warning = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU, a'r UD.
 premium-promo-availability-warning-2 = Mae { -brand-name-relay-premium } ar gael ar hyn o bryd yn Awstria, Gwlad Belg, Canada, Ffrainc, yr Almaen, Iwerddon, yr Eidal, Malaysia, yr Iseldiroedd, Seland Newydd, Singapore, Sbaen, y Swistir, y DU a'r UDA.
 premium-promo-availability-warning-3 = Mae { -brand-name-relay-premium } ar gael yn Awstria, Gwlad Belg, Canada, Cyprus, Estonia, y Ffindir, Ffrainc, yr Almaen, Gwlad Groeg, Iwerddon, yr Eidal, Latfia, Lithuania, Lwcsembwrg, Malaysia, Malta, yr Iseldiroedd, Seland Newydd, Portiwgal, Singapôr, Slofacia, Slofenia, Sbaen, Sweden, y Swistir, y Deyrnas Unedig, a'r Unol Daleithiau.
-
 premium-promo-perks-headline = Pam uwchraddio i { -brand-name-firefox-relay-premium }?
 premium-promo-perks-lead-2 = Gyda { -brand-name-firefox-relay-premium }, rydych chi'n cael holl ddiogelwch a rheolaeth { -brand-name-relay }, ond gydag e-byst arallenwau dirifedi a'ch is-parth cyfaddas eich hun i wneud rheoli eich blwch derbyn yn haws fyth.
 premium-promo-perks-cta-label = Uwchraddiwch nawr
@@ -226,7 +229,6 @@ premium-promo-perks-perk-block-promotionals-headline = Rhwystro e-byst hyrwyddo
 premium-promo-perks-perk-block-promotionals-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 premium-promo-perks-perk-tracker-blocking-headline = Dileu tracwyr e-bost
 premium-promo-perks-perk-tracker-blocking-body = Nawr gall { -brand-name-relay } eich helpu i rwystro tracio e-byst - bydd eich arallenwau e-bost yn tynnu tracwyr e-bost cyffredin o unrhyw e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i dracwyr a hysbysebwyr.
-
 premium-promo-use-cases-headline-2 = Defnyddiwch e-byst arallenwau { -brand-name-relay } yn unrhyw le
 premium-promo-use-cases-shopping-heading = Siopa
 premium-promo-use-cases-shopping-body-2 = Yn ceisio cofrestru ar gyfer gostyngiadau heb yr holl sbam? Casglwch eich holl gyfrifon “siopa” o dan e-byst arallenwau unigryw, fel “prynu@fymharth.mozmail.com.”
@@ -234,9 +236,7 @@ premium-promo-use-cases-social-networks-heading = Rhwydweithiau Cymdeithasol
 premium-promo-use-cases-social-networks-body-2 = Eisiau diogelu eich hunaniaeth ar-lein yn well wrth ddefnyddio rhwydwaith cymdeithasol? Defnyddiwch e-byst arallenwau gwahanol i fewngofnodi i bob rhwydwaith cymdeithasol a helpu i ddiogelu eich gwir e-bost rhag bod yn rhy agored ar y gwefannau hynny.
 premium-promo-use-cases-gaming-heading = Gemau
 premium-promo-use-cases-gaming-body-2 = Yn poeni am gemwyr neu troliau eraill yn dod i wybod pwy ydych chi trwy eich tag gemiwr a'ch cyfeiriad e-bost? Defnyddiwch e-bost arallenw fel “gemau@fymharth.mozmail.com” i roi un haen arall o ddiogelwch rhwng eich hunaniaeth a'r gemau rydych chi'n eu chwarae ar-lein.
-
 premium-promo-pricing-free-price = Eich cynllun Am Ddim cyfredol
-
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-pricing-offer-end-headline = Pris agoriadol: Arallenwau diderfyn am { $monthly_price } y mis
