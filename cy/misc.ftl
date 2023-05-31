@@ -280,6 +280,22 @@ first-time-user-email-how-item-1-subhead-text = Crëwch arallenwau yn syth ar { 
 first-time-user-email-how-item-2-header = Byddwn yn anfon pob e-bost ymlaen i'ch blwch derbyn
 first-time-user-email-how-item-2-subhead = Bydd anfonwyr byth yn gweld eich cyfeiriad go iawn, a gallwch rwystro e-byst unrhyw bryd.
 first-time-user-email-how-item-3-header = Rheolwch eich arallenwau o'ch bwrdd rheoli { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href = " { $url } " { $attrs }>Mewngofnodwch</a> i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
+first-time-user-email-how-item-3-subhead-text = Mewngofnodwch i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
+first-time-user-email-extra-protection-inbox-title = Diogelwch ychwanegol i'ch blwch derbyn
+first-time-user-email-extra-protection-inbox-phone-title = Diogelwch ychwanegol i'ch blwch derbyn a'ch ffôn
+first-time-user-email-extra-protection-inbox-subhead = Uwchraddiwch i { -brand-name-relay-premium } i gael arallenwau e-bost diddiwedd, parth { -brand-name-relay } cyfaddas, a rheolyddion blwch derbyn cyfaddas.
+first-time-user-email-extra-protection-inbox-phone-subhead = Uwchraddiwch i { -brand-name-relay-premium } ar gyfer arallewau e-bost diderfyn - ynghyd â rhif ffôn cudd i ddiogelu eich rhif go iawn.
+first-time-user-email-extra-protection-cta = Cael { -brand-name-relay-premium }
+first-time-user-email-questions-title = Cwestiynau am { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Mae ein <a href="{ $url }" { $attrs }>tîm cymorth</a> yma i'ch helpu.
+first-time-user-email-questions-subhead-text = Mae ein tîm cymorth yma i'ch helpu.
 
 ## API error messages
 
