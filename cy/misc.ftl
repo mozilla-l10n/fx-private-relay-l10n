@@ -127,10 +127,10 @@ contains-tracker-title = Mae'r ddolen neu'r ddelwedd hon yn cynnwys traciwr
 #   $sender (string) - Sender of the email, e.g. person@email.com
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
 contains-tracker-description =
-    Offer gwyliadwriaeth yw tracwyr e-byst y mae cwmnïau'n eu hymgorffori mewn e-byst i dracio'ch e-byst
-    ymddygiad ar-lein. Er mwyn diogelu eich preifatrwydd, rydym wedi tynnu'r traciwr hwn o'r e-bost a anfonwyd
-    gan <u>{ $sender }</u> ar { $datetime }.
-contains-tracker-warning-title = Hoffech chi dal weld y ddolen?
+    Offer gwyliadwriaeth yw tracwyr e-byst y mae cwmnïau'n eu mewnblannu i e-byst i dracio'ch ymddygiad
+    ar-lein. Er mwyn diogelu eich preifatrwydd, rydym wedi tynnu'r traciwr hwn o'r e-bost
+    a anfonwyd gan <u>{ $sender }</u> ar { $datetime }.
+contains-tracker-warning-title = Hoffech chi dal i weld y ddolen?
 contains-tracker-warning-description = Rhybudd: Bydd clicio ar y ddolen hon yn anfon gwybodaeth amdanoch chi yn ôl at yr anfonwr
 contains-tracker-warning-view-link-cta = Ie, gweld y ddolen
 contains-tracker-faq-section-title = Cwestiynau cyffredin am dracwyr e-byst
@@ -218,7 +218,7 @@ forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link }
 
 relay-email-upgrade-for-more-protection = Uwchraddiwch i gael mwy o ddiogelwch
 relay-email-manage-this-mask = Rheoli'r arallenw hwn
-relay-email-your-dashboard = Eich dangosfwrdd
+relay-email-your-dashboard = Eich bwrdd rheoli
 # The byline for the premium email header that reads "by Firefox Relay Premium".
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
@@ -267,8 +267,8 @@ manage-your-masks = Rheoli eich arallenwau
 first-time-user-email-welcome = Croeso i { -brand-name-firefox-relay }
 first-time-user-email-preheader = Cuddio cyfeiriadau e-bost i ddiogelu eich hunaniaeth
 first-time-user-email-welcome-subhead = Mae modd defnyddio'ch cyfeiriad e-bost i'ch tracio ar-lein - rydyn ni yma i helpu i roi diwedd ar hyn.
-first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
-first-time-user-email-hero-secondary-text = Rheoli'ch holl arallenwau o'ch bwrd rheoli { -brand-name-relay }.
+first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
+first-time-user-email-hero-secondary-text = Rheolwch eich holl arallenwau o'ch bwrd rheoli { -brand-name-relay }.
 first-time-user-email-hero-cta = Gweld eich bwrdd rheoli
 first-time-user-email-how-title = Sut mae { -brand-name-relay } yn gweithio
 first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost go iawn, ym mhobman
@@ -278,7 +278,7 @@ first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-rel
 first-time-user-email-how-item-1-subhead-html = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn <a href = " { $url } " { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
 first-time-user-email-how-item-1-subhead-text = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn { -brand-name-relay }, neu ar eich bwrdd rheoli { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Byddwn yn anfon pob e-bost ymlaen i'ch blwch derbyn
-first-time-user-email-how-item-2-subhead = Bydd anfonwyr byth yn gweld eich cyfeiriad go iawn, a gallwch rwystro e-byst unrhyw bryd.
+first-time-user-email-how-item-2-subhead = Bydd anfonwyr byth yn gweld eich cyfeiriad go iawn, a gallwch rwystro e-byst ar unrhyw bryd.
 first-time-user-email-how-item-3-header = Rheolwch eich arallenwau o'ch bwrdd rheoli { -brand-name-relay }
 # Variables
 #   $url (string) - URL of the dashboard
@@ -296,6 +296,14 @@ first-time-user-email-questions-title = Cwestiynau am { -brand-name-firefox-rela
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Mae ein <a href="{ $url }" { $attrs }>tîm cymorth</a> yma i'ch helpu.
 first-time-user-email-questions-subhead-text = Mae ein tîm cymorth yma i'ch helpu.
+first-time-user-email-footer-text-1 = Rydych yn derbyn yr e-bost awtomataidd hwn fel tanysgrifiwr { -brand-name-firefox-relay } sydd wedi ddefnyddio { -brand-name-relay } am y tro cyntaf. Os ydych wedi ei dderbyn ar gam, nid oes angen gweithredu.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Am ragor o wybodaeth, ewch i <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Cefnogaeth</a>.
+first-time-user-email-footer-text-2-text = Am ragor o wybodaeth, ewch i Cymorth { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Cyfreithiol
+first-time-user-email-footer-text-privacy = Amodau a Phreifatrwydd
 
 ## API error messages
 
