@@ -268,6 +268,16 @@ first-time-user-email-welcome = Croeso i { -brand-name-firefox-relay }
 first-time-user-email-preheader = Cuddio cyfeiriadau e-bost i ddiogelu eich hunaniaeth
 first-time-user-email-welcome-subhead = Mae modd defnyddio'ch cyfeiriad e-bost i'ch tracio ar-lein - rydyn ni yma i helpu i roi diwedd ar hyn.
 first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
+first-time-user-email-hero-secondary-text = Rheoli'ch holl arallenwau o'ch bwrd rheoli { -brand-name-relay }.
+first-time-user-email-hero-cta = Gweld eich bwrdd rheoli
+first-time-user-email-how-title = Sut mae { -brand-name-relay } yn gweithio
+first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost go iawn, ym mhobman
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn <a href = " { $url } " { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
+first-time-user-email-how-item-1-subhead-text = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn { -brand-name-relay }, neu ar eich bwrdd rheoli { -brand-name-relay }.
+first-time-user-email-how-item-2-header = Byddwn yn anfon pob e-bost ymlaen i'ch blwch derbyn
 
 ## API error messages
 
