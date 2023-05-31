@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -113,8 +114,12 @@ trackerreport-faq-cta = Посмотрите другие ЧЗВ о { -brand-nam
 trackerreport-loading = Загрузка отчёта об удалении трекеров…
 trackerreport-load-error = При создании отчёта об удалении трекеров произошла ошибка. Пожалуйста, обновите страницу, чтобы попробовать снова.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
+contains-tracker-warning-title = Вы все еще хотите просмотреть ссылку?
+contains-tracker-warning-description = Предупреждение: При щелчке по этой ссылке информация о вас будет отправлена обратно отправителю.
+contains-tracker-warning-view-link-cta = Да, просмотреть ссылку
+contains-tracker-faq-section-title = Часто задаваемые вопросы о трекерах электронной почты
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -187,6 +192,7 @@ survey-csat-answer-very-satisfied = Полностью удовлетворяе�
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Спасибо за отзыв. Мы хотели бы узнать больше о том, как можем улучшить { -brand-name-relay } для вас. Не могли бы вы принять участие в двухминутном опросе?
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -215,6 +221,36 @@ forwarded-email-footer-premium-banner = Перейти на { -brand-name-relay-
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Обновите до { $premium_link } до истечения срока действия начальной цены.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-upgrade-for-more-protection = Обновите для большей защиты
+relay-email-manage-this-mask = Управление этим псевдонимом
+relay-email-your-dashboard = Ваша панель управления
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = от <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = от <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Переслано из <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] { $number } почтовый трекер удалён
+        [few] { $number } почтовых трекера удалено
+       *[many] { $number } почтовых трекеров удалено
+    }
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -231,13 +267,30 @@ upgrade-for-more-protection = Перейдите для большей защи�
 upgrade-to-premium = Перейти на { -brand-name-firefox-relay-premium }
 manage-your-masks = Управление вашими псевдонимами
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Добро пожаловать в { -brand-name-firefox-relay }
+first-time-user-email-extra-protection-cta = Получить { -brand-name-relay-premium }
+first-time-user-email-questions-title = Есть вопросы о { -brand-name-firefox-relay }?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Наша <a href="{ $url }" { $attrs }>служба поддержки</a> готова помочь.
+first-time-user-email-questions-subhead-text = Наша служба поддержки готова помочь.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Для получения дополнительной информации посетите <a href="{ $url }" { $attrs }>Поддержку { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Для получения дополнительной информации посетите страницу Поддержки { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Юридическая информация
+first-time-user-email-footer-text-privacy = Условия и конфиденциальность
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Вы использовали все { $free_tier_limit } псевдонимов электронной почты, включённых в бесплатную учётную запись. Вы можете повторно использовать существующий псевдоним, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным решением.
 api-error-free-tier-no-subdomain-masks = Ваша бесплатная учётная запись не включает настраиваемые поддомены для псевдонимов. Чтобы создавать собственные псевдонимы, перейдите на { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = «{ $unavailable_address }» не может быть создан. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
