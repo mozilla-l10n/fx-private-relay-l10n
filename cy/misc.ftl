@@ -278,6 +278,8 @@ first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-rel
 first-time-user-email-how-item-1-subhead-html = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn <a href = " { $url } " { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
 first-time-user-email-how-item-1-subhead-text = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn { -brand-name-relay }, neu ar eich bwrdd rheoli { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Byddwn yn anfon pob e-bost ymlaen i'ch blwch derbyn
+first-time-user-email-how-item-2-subhead = Bydd anfonwyr byth yn gweld eich cyfeiriad go iawn, a gallwch rwystro e-byst unrhyw bryd.
+first-time-user-email-how-item-3-header = Rheolwch eich arallenwau o'ch bwrdd rheoli { -brand-name-relay }
 
 ## API error messages
 
