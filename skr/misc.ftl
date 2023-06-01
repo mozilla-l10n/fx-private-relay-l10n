@@ -114,6 +114,7 @@ trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خر
 
 ## Tracker warning page
 
+contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
