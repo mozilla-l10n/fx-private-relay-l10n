@@ -10,7 +10,7 @@ hero-section-body = Nos alias de messagerie et de numéro de téléphone sécuri
 hero-section-cta = Démarrer
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
-hero-section-social-proof = Tels que vu dans
+hero-section-social-proof = Tel que vu dans 
 
 ## BUNDLE BANNER SECTION
 
