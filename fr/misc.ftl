@@ -118,7 +118,7 @@ contains-tracker-title = Ce lien ou cette image contient un traqueur
 # Variables:
 #   $sender (string) - Sender of the email, e.g. person@email.com
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
-contains-tracker-description = Les traqueurs dans les e-mails sont des outils de surveillance que les entreprises intègrent dans les e-mails pour pister votre comportement en ligne. Pour protéger votre vie privée, nous avons retiré ce traqueur du courriel envoyé par <u>{ $sender }</u> le { $datetime }.
+contains-tracker-description = Les traqueurs dans les e-mails sont des outils de surveillance que les entreprises intègrent dans les e-mails pour pister votre comportement en ligne. Pour protéger votre vie privée, nous avons retiré ce traqueur de l’e-mail envoyé par <u>{ $sender }</u> le { $datetime }.
 contains-tracker-warning-title = Voulez-vous toujours afficher le lien ?
 contains-tracker-warning-description = Attention : un clic sur ce lien renvoie les informations vous concernant à l’expéditeur
 contains-tracker-warning-view-link-cta = Oui, voir le lien
