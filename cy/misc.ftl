@@ -223,17 +223,17 @@ relay-email-your-dashboard = Eich bwrdd rheoli
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-premium-byline-html = gan <a href = " { $url } " { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+relay-email-premium-byline-html = gan <a href = "{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
 # The byline for the email header that reads "by Firefox Relay"
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-byline-html = gan <a href = " { $url } " { $attrs }> { -brand-name-firefox-relay }</a>
+relay-email-byline-html = gan <a href = "{ $url }" { $attrs }> { -brand-name-firefox-relay }</a>
 # The link to manage this Relay mask
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-forwarded-from-html = Wedi'i anfon ymlaen o <a href = " { $url } " { $attrs }> { $email_address }</a>
+relay-email-forwarded-from-html = Wedi'i anfon ymlaen o <a href = "{ $url }" { $attrs }> { $email_address }</a>
 # Variables:
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed =
@@ -275,7 +275,7 @@ first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-rel
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-1-subhead-html = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn <a href = " { $url } " { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
+first-time-user-email-how-item-1-subhead-html = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn <a href = "{ $url }" { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
 first-time-user-email-how-item-1-subhead-text = Crëwch arallenwau yn syth ar { -brand-name-firefox } , gyda'r ychwanegyn { -brand-name-relay }, neu ar eich bwrdd rheoli { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Byddwn yn anfon pob e-bost ymlaen i'ch blwch derbyn
 first-time-user-email-how-item-2-subhead = Bydd anfonwyr byth yn gweld eich cyfeiriad go iawn, a gallwch rwystro e-byst ar unrhyw bryd.
@@ -283,7 +283,7 @@ first-time-user-email-how-item-3-header = Rheolwch eich arallenwau o'ch bwrdd rh
 # Variables
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-3-subhead-html = <a href = " { $url } " { $attrs }>Mewngofnodwch</a> i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
+first-time-user-email-how-item-3-subhead-html = <a href = "{ $url }" { $attrs }>Mewngofnodwch</a> i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
 first-time-user-email-how-item-3-subhead-text = Mewngofnodwch i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
 first-time-user-email-extra-protection-inbox-title = Diogelwch ychwanegol i'ch blwch derbyn
 first-time-user-email-extra-protection-inbox-phone-title = Diogelwch ychwanegol i'ch blwch derbyn a'ch ffôn
