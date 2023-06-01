@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -111,7 +112,7 @@ trackerreport-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙی�
 trackerreport-loading = تہاݙے ٹریکر ہݨاوݨ دی رپورٹ لوڈ تھیندی پئی ہے۔۔۔
 trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرݨ کیتے ورقہ ریفریش کرو۔
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -182,6 +183,7 @@ survey-csat-answer-very-satisfied = ݙاڈھا تسلی بخش
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = تہاݙے تبصرے دا شکریہ، اساں ایں بارے ودھیک ڄاݨݨ چاہسو جو اساں تہاݙے کیتے { -brand-name-relay } کوں کیویں بہتر بݨا سڳدے ہیں، کیا تساں ݙو منٹ دا سروے کرݨ کیتے تیار ہوسو؟
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +212,10 @@ forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ 
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت ختم تھیوݨ توں پہلے { $premium_link } وچ اپ گریڈ تھی ونجو۔
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +232,18 @@ upgrade-for-more-protection = ودھیک حفاظت کیتے اپ گریڈ کر�
 upgrade-to-premium = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
 manage-your-masks = آپݨے ماسک منظم کرو
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم اللہ
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
+first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = تساں اپݨے مفت اکاؤنٹ دے نال شامل تمام { $free_tier_limit } ای میل ماسک استعمال کر گھدے ہن۔ تساں موجودہ ماسک کوں دوبارہ استعمال کر سڳدے او، لیکن ہر اکاؤنٹ کیتے نویکلے ماسک دا استعمال سبھ توں محفوظ آپشن ہے۔
 api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
