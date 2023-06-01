@@ -117,9 +117,9 @@ contains-tracker-title = Tautan atau gambar ini mengandung pelacak
 #   $sender (string) - Sender of the email, e.g. person@email.com
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
 contains-tracker-description = Pelacak surel adalah alat pengawasan yang disematkan perusahaan dalam surel untuk melacak perilaku daring Anda. Untuk melindungi privasi Anda, kami menghapus pelacak ini dari surel yang dikirim oleh <u>{ $sender }</u> pada { $datetime }.
-contains-tracker-warning-title = Apakah Anda masih ingin melihat tautannya?
-contains-tracker-warning-description = Peringatan: Mengklik tautan ini akan mengirim informasi tentang Anda kembali ke pengirim
-contains-tracker-warning-view-link-cta = Ya, lihat tautan
+contains-tracker-warning-title = Apakah Anda masih ingin membuka tautannya?
+contains-tracker-warning-description = Peringatan: Mengklik tautan ini akan mengirim informasi tentang Anda ke pengirim
+contains-tracker-warning-view-link-cta = Ya, buka tautan
 contains-tracker-faq-section-title = Pertanyaan yang sering diajukan tentang pelacak surel
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -267,8 +267,8 @@ manage-your-masks = Kelola topeng Anda
 
 first-time-user-email-welcome = Selamat datang di { -brand-name-firefox-relay }
 first-time-user-email-preheader = Penyembunyian surel untuk melindungi identitas Anda
-first-time-user-email-welcome-subhead = Alamat surel Anda dapat digunakan untuk melacak Anda daring — kami di sini untuk membantu mengakhirinya.
-first-time-user-email-hero-primary-text = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan 5 topeng surel gratis. Gunakan mereka untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang Anda inginkan ke kotak masuk Anda.
+first-time-user-email-welcome-subhead = Alamat surel Anda dapat digunakan untuk melacak Anda secara daring — kami hadir untuk membantu mengakhirinya.
+first-time-user-email-hero-primary-text = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan 5 topeng surel gratis. Gunakan topeng tersebut untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang diinginkan ke kotak masuk Anda.
 first-time-user-email-hero-secondary-text = Kelola semua topeng Anda dari dasbor { -brand-name-relay } Anda.
 first-time-user-email-hero-cta = Lihat dasbor Anda
 first-time-user-email-how-title = Cara kerja { -brand-name-relay }
@@ -276,7 +276,7 @@ first-time-user-email-how-item-1-header = Gunakan topeng { -brand-name-relay } a
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-1-subhead-html = Buat topeng langsung di { -brand-name-firefox }, dengan pengaya <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, atau di { -brand-name-relay } dasbor.
+first-time-user-email-how-item-1-subhead-html = Buat topeng langsung di { -brand-name-firefox }, dengan pengaya <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a>, atau di dasbor { -brand-name-relay }.
 first-time-user-email-how-item-1-subhead-text = Buat topeng langsung di { -brand-name-firefox }, dengan pengaya { -brand-name-relay }, atau di dasbor { -brand-name-relay } Anda.
 first-time-user-email-how-item-2-header = Kami akan meneruskan semua surel ke kotak masuk Anda
 first-time-user-email-how-item-2-subhead = Pengirim tidak akan pernah melihat alamat asli Anda, dan Anda dapat memblokir surel kapan saja.
@@ -289,9 +289,9 @@ first-time-user-email-how-item-3-subhead-text = Masuk untuk membuat topeng baru,
 first-time-user-email-extra-protection-inbox-title = Perlindungan ekstra untuk kotak masuk Anda
 first-time-user-email-extra-protection-inbox-phone-title = Perlindungan ekstra untuk kotak masuk dan ponsel Anda
 first-time-user-email-extra-protection-inbox-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas, domain { -brand-name-relay } khusus, dan kontrol kotak masuk khusus.
-first-time-user-email-extra-protection-inbox-phone-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk topeng surel tanpa batas — ditambah topeng telepon untuk melindungi nomor asli Anda.
+first-time-user-email-extra-protection-inbox-phone-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas — ditambah topeng telepon untuk melindungi nomor asli Anda.
 first-time-user-email-extra-protection-cta = Dapatkan { -brand-name-relay-premium }
-first-time-user-email-questions-title = Ada pertanyaan tentang { -brand-name-firefox-relay }?
+first-time-user-email-questions-title = Punya pertanyaan tentang { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
@@ -301,10 +301,10 @@ first-time-user-email-footer-text-1 = Anda menerima surel otomatis ini sebagai p
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
-first-time-user-email-footer-text-2-html = Untuk informasi lebih lanjut, silakan kunjungi <a href="{ $url }" { $attrs }> Dukungan { -brand-name-mozilla }</a>.
-first-time-user-email-footer-text-2-text = Untuk informasi lebih lanjut, silakan kunjungi Dukungan { -brand-name-mozilla }.
-first-time-user-email-footer-text-legal = Legal
-first-time-user-email-footer-text-privacy = Syarat & Privasi
+first-time-user-email-footer-text-2-html = Untuk informasi lebih lanjut, kunjungi <a href="{ $url }" { $attrs }>Dukungan { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Untuk informasi lebih lanjut, kunjungi Dukungan { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Pernyataan Hukum
+first-time-user-email-footer-text-privacy = Ketentuan dan Privasi
 
 ## API error messages
 

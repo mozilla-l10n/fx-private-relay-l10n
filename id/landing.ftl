@@ -13,7 +13,7 @@ hero-section-body =
 hero-section-cta = Mulai
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
-hero-section-social-proof = Seperti yang terlihat pada
+hero-section-social-proof = Tampil di
 
 ## BUNDLE BANNER SECTION
 
