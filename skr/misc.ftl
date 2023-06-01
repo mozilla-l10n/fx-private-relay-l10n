@@ -215,6 +215,8 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-manage-this-mask = ایہ ماسک منظم کرو
+relay-email-your-dashboard = تہاݙا ڈیش بورڈ
 
 ## Email sent to free users who try to reply
 
@@ -235,8 +237,11 @@ manage-your-masks = آپݨے ماسک منظم کرو
 ## Email sent to first time free users
 
 first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم اللہ
+first-time-user-email-hero-cta = آپݨاں ڈیش بورڈ ݙیکھو
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
+first-time-user-email-footer-text-legal = قنونی
+first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 
 ## API error messages
 
