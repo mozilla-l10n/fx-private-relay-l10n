@@ -271,7 +271,7 @@ manage-your-masks = Gérer vos alias de messagerie
 first-time-user-email-welcome = Bienvenue sur { -brand-name-firefox-relay }
 first-time-user-email-preheader = Utilisez des alias de messagerie pour protéger votre identité
 first-time-user-email-welcome-subhead = Votre adresse e-mail peut être utilisée pour vous pister en ligne — nous sommes là pour vous aider à y mettre un terme.
-first-time-user-email-hero-primary-text = En tant qu’utilisateur de { -brand-name-firefox }, vous obtenez 5 alias de messagerie gratuits. Utilisez-les pour masquer votre véritable adresse e-mail, protéger votre identité et transférer uniquement les e-mails que vous souhaitez vers votre boîte de réception.
+first-time-user-email-hero-primary-text = En tant qu’utilisateur de { -brand-name-firefox }, vous disposez de 5 alias de messagerie gratuits. Utilisez-les pour masquer votre véritable adresse e-mail, protéger votre identité et transférer uniquement les e-mails que vous souhaitez vers votre boîte de réception.
 first-time-user-email-hero-secondary-text = Gérez tous vos alias depuis votre tableau de bord { -brand-name-relay }.
 first-time-user-email-hero-cta = Afficher votre tableau de bord
 first-time-user-email-how-title = Fonctionnement de { -brand-name-relay }
@@ -280,7 +280,7 @@ first-time-user-email-how-item-1-header = Utilisez un alias { -brand-name-relay 
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-1-subhead-html = Créez des alias directement depuis { -brand-name-firefox }, avec le <a href="{ $url }" { $attrs }>module complémentaire de { -brand-name-relay }</a>, ou depuis le tableau de bord de { -brand-name-relay }.
-first-time-user-email-how-item-1-subhead-text = Créez des alias directement sur { -brand-name-firefox }, avec le module complémentaire { -brand-name-relay }, ou sur votre tableau de bord { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Créez des alias directement sur { -brand-name-firefox }, avec le module complémentaire { -brand-name-relay }, ou depuis votre tableau de bord { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Nous transférerons tous les messages dans votre boîte de réception
 first-time-user-email-how-item-2-subhead = Les expéditeurs ne verront jamais votre véritable adresse et vous pouvez bloquer les e-mails à tout moment.
 first-time-user-email-how-item-3-header = Gérez vos alias depuis votre tableau de bord { -brand-name-relay }
@@ -288,19 +288,19 @@ first-time-user-email-how-item-3-header = Gérez vos alias depuis votre tableau 
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Connectez-vous</a> pour créer de nouveaux alias, nommer vos alias et supprimer les alias qui reçoivent du spam.
-first-time-user-email-how-item-3-subhead-text = Connectez-vous pour créer de nouveaux alias, attribuer des noms à vos alias et supprimer ceux qui reçoivent du spam.
+first-time-user-email-how-item-3-subhead-text = Connectez-vous pour créer de nouveaux alias, nommer vos alias et supprimer les alias qui reçoivent du spam.
 first-time-user-email-extra-protection-inbox-title = Une protection supplémentaire pour votre boîte de réception
 first-time-user-email-extra-protection-inbox-phone-title = Protection supplémentaire pour votre boîte de réception et votre téléphone
 first-time-user-email-extra-protection-inbox-subhead = Passez à { -brand-name-relay-premium } pour obtenir un nombre illimité d’alias de messagerie, un domaine { -brand-name-relay } personnalisé et des contrôles de boîte de réception personnalisés.
-first-time-user-email-extra-protection-inbox-phone-subhead = Passez à { -brand-name-relay-premium } pour un nombre illimité d’alias de messagerie, plus un alias de téléphone pour protéger votre véritable numéro.
+first-time-user-email-extra-protection-inbox-phone-subhead = Passez à { -brand-name-relay-premium } pour obtenir un nombre illimité d’alias de messagerie, plus un alias de numéro de téléphone pour protéger votre véritable numéro.
 first-time-user-email-extra-protection-cta = Obtenir { -brand-name-relay-premium }
-first-time-user-email-questions-title = Des questions sur { -brand-name-firefox-relay } ?
+first-time-user-email-questions-title = Des questions à propos de { -brand-name-firefox-relay } ?
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Notre <a href="{ $url }" { $attrs }>équipe d’assistance</a> est là pour vous aider.
 first-time-user-email-questions-subhead-text = Notre équipe d’assistance est là pour vous aider.
-first-time-user-email-footer-text-1 = Vous recevez cet e-mail automatique en tant qu’abonné de { -brand-name-firefox-relay } qui a utilisé { -brand-name-relay } pour la première fois. Si vous l’avez reçu par erreur, aucune action n’est requise.
+first-time-user-email-footer-text-1 = Vous recevez cet e-mail automatique car vous détenez un abonnement { -brand-name-firefox-relay } et avez utilisé { -brand-name-relay } pour la première fois. Si vous l’avez reçu par erreur, aucune action n’est requise.
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
