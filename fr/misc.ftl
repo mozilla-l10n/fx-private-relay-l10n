@@ -120,7 +120,7 @@ contains-tracker-title = Ce lien ou cette image contient un traqueur
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
 contains-tracker-description = Les traqueurs dans les e-mails sont des outils de surveillance que les entreprises intègrent dans les e-mails pour pister votre comportement en ligne. Pour protéger votre vie privée, nous avons retiré ce traqueur de l’e-mail envoyé par <u>{ $sender }</u> le { $datetime }.
 contains-tracker-warning-title = Voulez-vous toujours afficher le lien ?
-contains-tracker-warning-description = Attention : un clic sur ce lien renvoie les informations vous concernant à l’expéditeur
+contains-tracker-warning-description = Attention : un clic sur ce lien enverra des informations vous concernant à l’expéditeur
 contains-tracker-warning-view-link-cta = Oui, voir le lien
 contains-tracker-faq-section-title = Questions fréquentes sur les traqueurs dans les e-mails
 # Time remaining until Relay Premium's introductory pricing is no longer available.
@@ -246,8 +246,8 @@ relay-email-forwarded-from-html = Transféré depuis <a href="{ $url }" { $attrs
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed =
     { $number ->
-        [one] 1 traqueur d’adresse e-mail supprimé
-       *[other] { $number } traqueurs supprimés dans les e-mails
+        [one] { $number } traqueur d’e-mail supprimé
+       *[other] { $number } traqueurs d’e-mail supprimés
     }
 
 ## Email sent to free users who try to reply
@@ -270,7 +270,7 @@ manage-your-masks = Gérer vos alias de messagerie
 
 first-time-user-email-welcome = Bienvenue sur { -brand-name-firefox-relay }
 first-time-user-email-preheader = Utilisez des alias de messagerie pour protéger votre identité
-first-time-user-email-welcome-subhead = Votre adresse électronique peut être utilisée pour vous pister en ligne — nous sommes là pour vous aider à y mettre un terme.
+first-time-user-email-welcome-subhead = Votre adresse e-mail peut être utilisée pour vous pister en ligne — nous sommes là pour vous aider à y mettre un terme.
 first-time-user-email-hero-primary-text = En tant qu’utilisateur de { -brand-name-firefox }, vous obtenez 5 alias de messagerie gratuits. Utilisez-les pour masquer votre véritable adresse e-mail, protéger votre identité et transférer uniquement les e-mails que vous souhaitez vers votre boîte de réception.
 first-time-user-email-hero-secondary-text = Gérez tous vos alias depuis votre tableau de bord { -brand-name-relay }.
 first-time-user-email-hero-cta = Afficher votre tableau de bord
