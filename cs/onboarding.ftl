@@ -10,6 +10,8 @@ multi-part-onboarding-premium-welcome-feature-headline = Se službou { -brand-na
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neomezený počet e-mailových masek
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvyšte své soukromí a bezpečnost pomocí jedinečné masky pro každou stránku
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavení pro schránku doručené pošty
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e-mailů, které se budou přeposílat do vaší doručené pošty
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymní odpovědi
 multi-part-onboarding-premium-welcome-feature-cta = Nastavit { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
@@ -17,6 +19,8 @@ multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Vyhledat slovo nebo frázi
 multi-part-onboarding-premium-email-domain-feature-input-search = Hledat
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s

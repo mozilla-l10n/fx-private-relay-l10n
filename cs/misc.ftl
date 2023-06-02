@@ -222,8 +222,15 @@ first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay
 first-time-user-email-how-item-2-header = Všechny e-maily přepošleme do vaší e-mailové schránky
 first-time-user-email-how-item-2-subhead = Odesílatelé nikdy neuvidí vaši skutečnou adresu a e-maily můžete kdykoliv zablokovat.
 first-time-user-email-how-item-3-header = Spravujte své masky z nástěnky { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Přihlaste se</a> a vytvořte si nové masky, pojmenujte si ty existující a odstraňte masky, přes které dostáváte nevyžádanou poštu.
+first-time-user-email-how-item-3-subhead-text = Přihlaste se a vytvořte si nové masky, pojmenujte ty existující a odstraňte masky, přes které dostáváte nevyžádanou poštu.
 first-time-user-email-extra-protection-inbox-title = Extra ochrana pro vaši e-mailovou schránku
 first-time-user-email-extra-protection-inbox-phone-title = Extra ochrana pro vaši e-mailovou schránku a telefon
+first-time-user-email-extra-protection-inbox-subhead = Přejděte na { -brand-name-relay-premium } a získejte neomezené množství e-mailových masek, vlastní doménu { -brand-name-relay } a vlastní nastavení pro doručování pošty.
+first-time-user-email-extra-protection-inbox-phone-subhead = Přejděte na { -brand-name-relay-premium } a získejte neomezené množství e-mailových masek — plus masku telefonu, která ochrání vaše skutečné telefonní číslo.
 first-time-user-email-extra-protection-cta = Získejte { -brand-name-relay-premium }
 first-time-user-email-questions-title = Máte otázky týkající se { -brand-name-firefox-relay }?
 # Variables
@@ -241,4 +248,5 @@ first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 
 ## API error messages
 
+api-error-need-subdomain = Před vytvořením vlastní e-mailové adresy vyberte subdoménu.
 api-error-account-is-paused = Váš účet je pozastavený.
