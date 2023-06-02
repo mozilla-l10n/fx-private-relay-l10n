@@ -120,6 +120,7 @@ contains-tracker-title = Questo link o immagine contiene un elemento tracciante
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
 contains-tracker-description = Gli elementi traccianti nelle email sono strumenti di sorveglianza che le aziende incorporano nei messaggi per tracciare il tuo comportamento online. Per proteggere la tua privacy, abbiamo rimosso questo elemento tracciante dall’email inviata da <u>{ $sender }</u> il { $datetime }.
 contains-tracker-warning-title = Vuoi comunque visualizzare il link?
+contains-tracker-warning-description = Attenzione: facendo clic su questo link il mittente riceverà informazioni su di te
 contains-tracker-warning-view-link-cta = Sì, visualizza il link
 contains-tracker-faq-section-title = Domande frequenti sugli elementi traccianti nelle email
 # Time remaining until Relay Premium's introductory pricing is no longer available.
@@ -279,9 +280,19 @@ first-time-user-email-hero-secondary-text = Gestisci tutti i tuoi alias dalla da
 first-time-user-email-hero-cta = Visualizza la dashboard
 first-time-user-email-how-title = Come funziona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utilizza un alias { -brand-name-relay } invece del tuo indirizzo email reale, ovunque
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Crea alias direttamente in { -brand-name-firefox } con il <a href="{ $url }" { $attrs }>componente aggiuntivo { -brand-name-relay }</a> o nella dashboard di { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Crea alias direttamente in { -brand-name-firefox } con il componente aggiuntivo { -brand-name-relay } o nella dashboard di { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Inoltreremo tutte le email alla tua casella di posta
 first-time-user-email-how-item-2-subhead = I mittenti non vedranno mai il tuo indirizzo reale e potrai bloccare le email in qualsiasi momento.
 first-time-user-email-how-item-3-header = Gestisci i tuoi alias dalla dashboard di { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Accedi</a> per creare nuovi alias, contrassegnare gli alias già esistenti ed eliminare quelli che ricevono spam.
+first-time-user-email-how-item-3-subhead-text = Accedi per creare nuovi alias, contrassegnare gli alias già esistenti ed eliminare quelli che ricevono spam.
 first-time-user-email-extra-protection-inbox-title = Protezione aggiuntiva per la tua casella di posta
 first-time-user-email-extra-protection-inbox-phone-title = Protezione aggiuntiva per la tua casella di posta e il tuo telefono
 first-time-user-email-extra-protection-inbox-subhead = Aggiorna a { -brand-name-relay-premium } per ottenere alias illimitati, un dominio { -brand-name-relay } personalizzato e controlli personalizzati per la posta in arrivo.
@@ -293,6 +304,12 @@ first-time-user-email-questions-title = Hai delle domande su { -brand-name-firef
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Il nostro <a href="{ $url }" { $attrs }>team di supporto</a> è qui per aiutarti.
 first-time-user-email-questions-subhead-text = Il nostro team di supporto è qui per aiutarti.
+first-time-user-email-footer-text-1 = Hai ricevuto questa email automatica in qualità di utente abbonato a { -brand-name-firefox-relay } che ha utilizzato { -brand-name-relay } per la prima volta. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Per ulteriori informazioni, visita il sito di <a href="{ $url }" { $attrs }>supporto { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Per ulteriori informazioni, visita il sito di supporto { -brand-name-mozilla }.
 first-time-user-email-footer-text-legal = Note legali
 first-time-user-email-footer-text-privacy = Termini di utilizzo e privacy
 
