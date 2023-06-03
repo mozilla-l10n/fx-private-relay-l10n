@@ -88,3 +88,6 @@ faq-question-bulk-trackerremoval-question = 我可以只移除某些马甲邮箱
 faq-question-bulk-trackerremoval-answer = 您只能在账户层级上开启“移除跟踪器”功能，即只能在“所有邮箱都移除”和“所有邮箱都不移除”中选择。
 faq-question-trackerremoval-breakage-question = 为什么我的电子邮件看起来不正常？
 faq-question-trackerremoval-breakage-answer-2 = 有时移除跟踪器可能会导致您的电子邮件看起来不正常，因为跟踪器时常包含在图像中。移除跟踪器后，电子邮件因为因为缺少图像而导致格式错误。若您已收到此类电子邮件，则无法修复。如果这妨碍到您正常阅读电子邮件，请关闭此功能。
+faq-question-define-tracker-question = 什么是邮件跟踪器？
+faq-question-define-tracker-answer-partone = 电子邮件跟踪是常见的监视和广告工具，许多邮箱饱受其侵扰。这些跟踪器可用于更多地了解您的上网行为、兴趣爱好和电子邮件活动。
+faq-question-define-tracker-answer-parttwo = 一些公司或组织会在发送给您的电子邮件中嵌入跟踪器（通常隐藏在图像或链接中）。打开电子邮件后，跟踪器中的代码就会执行，并回传数据。

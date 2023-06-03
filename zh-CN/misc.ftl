@@ -116,6 +116,7 @@ contains-tracker-title = 此连接或图像包含跟踪器
 contains-tracker-warning-title = 仍要打开此链接吗？
 contains-tracker-warning-description = 警告：打开此链接后，与您关联的信息将被回传给发件人
 contains-tracker-warning-view-link-cta = 仍要打开
+contains-tracker-faq-section-title = 有关电子邮件跟踪器的常见问题
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -218,6 +219,7 @@ forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 {
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = 升级以获得更多保护
 
 ## Email sent to free users who try to reply
 
