@@ -6,6 +6,7 @@
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Vítá vás { -brand-name-relay-premium }
+multi-part-onboarding-premium-welcome-subheadline-2 = Pojďme nastavit službu tak, abyste ze svého účtu { -brand-name-premium } vytěžili maximum.
 multi-part-onboarding-premium-welcome-feature-headline = Se službou { -brand-name-firefox-relay-premium } získáváte:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neomezený počet e-mailových masek
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvyšte své soukromí a bezpečnost pomocí jedinečné masky pro každou stránku
@@ -19,6 +20,7 @@ multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
+multi-part-onboarding-premium-email-domain-feature-headline = S jedinečnou e-mailovou doménou { -brand-name-relay } můžete:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Vyhledat slovo nebo frázi
 multi-part-onboarding-premium-email-domain-feature-input-search = Hledat
@@ -32,6 +34,7 @@ multi-part-onboarding-premium-email-domain-added = Vaše e-mailová doména:
 
 multi-part-onboarding-premium-add-extension-headline = Přidejte si rozšíření { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Pomocí rozšíření { -brand-name-relay } můžete:
+multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Vytvářet nové masky { -brand-name-relay } z libovolné webové stránky
 multi-part-onboarding-premium-add-extension-feature-cta = Přidat rozšíření { -brand-name-relay }
 
 ## Step 3 Relay Extension Added

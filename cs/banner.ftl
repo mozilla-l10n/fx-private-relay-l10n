@@ -124,6 +124,7 @@ modal-email-domain-success-headline-any-word = Vytvořte neomezené množství m
 modal-email-domain-success-body-any-word = Nakupování? Použijte obchod{ $custom_domain_full }.
 modal-email-domain-success-continue = Pokračovat
 tooltip-email-domain-explanation-title = O vaší jedinečné e-mailové doméně { -brand-name-relay }
+tooltip-email-domain-explanation-part-one = Tato cenná funkce vašeho účtu { -brand-name-relay-premium } vám umožňuje vybrat si jedinečnou e-mailovou doménu { -brand-name-relay }, kterou můžete použít k vytváření neomezených vlastních masek { -brand-name-relay }, ať jste kdekoliv.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com

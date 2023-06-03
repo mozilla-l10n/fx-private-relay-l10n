@@ -248,5 +248,9 @@ first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 
 ## API error messages
 
+api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlastní subdomény pro masky. Pokud chcete vlastní masky, aktualizujte na { -brand-name-relay-premium }.
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” se nepodařilo vytvořit. Zkuste to znovu s jiným názvem masky.
 api-error-need-subdomain = Před vytvořením vlastní e-mailové adresy vyberte subdoménu.
 api-error-account-is-paused = Váš účet je pozastavený.
