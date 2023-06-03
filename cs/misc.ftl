@@ -169,6 +169,8 @@ survey-csat-answer-very-satisfied = Velmi spokojený
 forwarded-email-trackers-blocked-count = Odebrané sledovací prvky: { $nr_blocked_trackers }
 forwarded-email-trackers-blocked-report = Více informací
 # This entire text is a link
+forwarded-email-footer-2 = Zde zastavíte přeposílání e-mailů a můžete zde spravovat nastavení pro všechny masky.
+# This entire text is a link
 forwarded-email-footer-premium-banner = Upgradovat na { -brand-name-relay-premium }
 # Variables:
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>

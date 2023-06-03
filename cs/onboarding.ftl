@@ -15,6 +15,7 @@ multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Zís
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavení pro schránku doručené pošty
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e-mailů, které se budou přeposílat do vaší doručené pošty
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymní odpovědi
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovídejte na přeposlané e-maily bez sdílení své skutečné e-mailové adresy
 multi-part-onboarding-premium-welcome-feature-cta = Nastavit { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
 
