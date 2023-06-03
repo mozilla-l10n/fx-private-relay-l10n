@@ -220,6 +220,25 @@ forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 {
 ## January 2023 redesign
 
 relay-email-upgrade-for-more-protection = 升级以获得更多保护
+relay-email-your-dashboard = 你的控制面板
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = 通过 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = 通过 <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = 从 <a href="{ $url }" { $attrs }>{ $email_address }</a> 转发
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed = { $number } 个电子邮件跟踪器已删除
 
 ## Email sent to free users who try to reply
 
@@ -239,6 +258,9 @@ manage-your-masks = 管理马甲
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = 欢迎来到 { -brand-name-firefox-relay }
+first-time-user-email-how-item-2-header = 我们将转发所有邮件至您的收件箱。
+first-time-user-email-how-item-2-subhead = 发件人永远无法看到您的真实地址，您也可以随时屏蔽邮件。
 first-time-user-email-footer-text-privacy = 条款和隐私
 
 ## API error messages
