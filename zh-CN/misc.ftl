@@ -113,6 +113,10 @@ trackerreport-load-error = 生成您的跟踪器移除报告时出错，请刷�
 ## Tracker warning page
 
 contains-tracker-title = 此连接或图像包含跟踪器
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description = 电子邮件跟踪器是某些公司嵌入在电子邮件中的监视工具，以跟踪您的上网行为。为了保护您的隐私，我们从由 <u>{ $sender }</u> 在 { $datetime } 发送的电子邮件中删除了此跟踪器。
 contains-tracker-warning-title = 仍要打开此链接吗？
 contains-tracker-warning-description = 警告：打开此链接后，与您关联的信息将被回传给发件人
 contains-tracker-warning-view-link-cta = 仍要打开
@@ -220,6 +224,7 @@ forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 {
 ## January 2023 redesign
 
 relay-email-upgrade-for-more-protection = 升级以获得更多保护
+relay-email-manage-this-mask = 管理马甲
 relay-email-your-dashboard = 你的控制面板
 # The byline for the premium email header that reads "by Firefox Relay Premium".
 # Variables:
@@ -259,8 +264,44 @@ manage-your-masks = 管理马甲
 ## Email sent to first time free users
 
 first-time-user-email-welcome = 欢迎来到 { -brand-name-firefox-relay }
+first-time-user-email-preheader = 使用邮箱马甲以保护您的身份
+first-time-user-email-welcome-subhead = 您的电子邮件地址可能会被用于在线跟踪您——我们帮您杜绝这种情况。
+first-time-user-email-hero-primary-text = 作为 { -brand-name-firefox } 用户，您可以免费获得 5 个邮箱马甲。请使用它们来隐藏您的真实电子邮件地址，保护您的身份，并仅将您需要的电子邮件转发到您的收件箱。
+first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 控制面板管理您的所有马甲。
+first-time-user-email-hero-cta = 查看您的控制面板
+first-time-user-email-how-title = { -brand-name-relay } 如何工作
+first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 邮箱马甲代替真实的电子邮件
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = 使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加组件</a>，或在 { -brand-name-relay } 控制面板上直接在 { -brand-name-firefox } 上创建马甲。
+first-time-user-email-how-item-1-subhead-text = 使用 { -brand-name-relay } 附加组件或在 { -brand-name-relay } 控制面板上直接在 { -brand-name-firefox } 上创建马甲。
 first-time-user-email-how-item-2-header = 我们将转发所有邮件至您的收件箱。
 first-time-user-email-how-item-2-subhead = 发件人永远无法看到您的真实地址，您也可以随时屏蔽邮件。
+first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 面板管理您的马甲
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登录</a>以创建新马甲、标记马甲以及删除收到垃圾邮件的马甲。
+first-time-user-email-how-item-3-subhead-text = 登录以创建新马甲、标记您马甲以及删除收到垃圾邮件的马甲。
+first-time-user-email-extra-protection-inbox-title = 为您的收件箱提供额外保护
+first-time-user-email-extra-protection-inbox-phone-title = 为您的收件箱和手机提供额外保护
+first-time-user-email-extra-protection-inbox-subhead = 升级到 { -brand-name-relay-premium } 以获得无限的邮箱马甲、自定义 { -brand-name-relay } 域名和自定义收件箱控件。
+first-time-user-email-extra-protection-inbox-phone-subhead = 升级到 { -brand-name-relay-premium } 以获得无限的邮箱马甲 - 加上电话马甲来保护您的真实号码。
+first-time-user-email-extra-protection-cta = 获取 { -brand-name-relay-premium }
+first-time-user-email-questions-title = 关于 { -brand-name-firefox-relay } 的问题？
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = 我们的<a href="{ $url }" { $attrs }>支持团队</a>随时为您提供帮助。
+first-time-user-email-questions-subhead-text = 我们的支持团队随时为您提供帮助。
+first-time-user-email-footer-text-1 = 您作为 { -brand-name-firefox-relay } 的订阅者收到这封自动发送的电子邮件，这是您第一次使用 { -brand-name-relay }。如果您误收到此邮件，则请忽略它。
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = 如需更多信息，请访问<a href="{ $url }" { $attrs }>{ -brand-name-mozilla } 支持</a>。
+first-time-user-email-footer-text-2-text = 如需更多信息，请访问 { -brand-name-mozilla } 支持。
+first-time-user-email-footer-text-legal = 法律条款
 first-time-user-email-footer-text-privacy = 条款和隐私
 
 ## API error messages
