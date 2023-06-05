@@ -80,3 +80,10 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is now avai
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Protecting your email just got easier. Now you can generate…
 whatsnew-feature-firefox-integration-description = Protecting your email just got easier. Now you can generate new { -brand-name-relay } email masks directly from your { -brand-name-firefox } password manager on desktop.
+
+whatsnew-feature-mailing-list-heading = Get help protecting your privacy
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = It’s not easy to keep up with the latest privacy and security tips…
+whatsnew-feature-mailing-list-description = It’s not easy to keep up with the latest privacy and security tips and habits. So we started a newsletter to help you make your online life more secure.
+whatsnew-feature-mailing-list-cta = Subscribe to the newsletter
