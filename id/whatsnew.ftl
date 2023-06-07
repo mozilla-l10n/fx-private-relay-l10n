@@ -70,3 +70,9 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } sekarang te
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat menghasilkan…
 whatsnew-feature-firefox-integration-description = Melindungi surel Anda kini semakin mudah. Sekarang Anda dapat membuat topeng surel { -brand-name-relay } baru langsung dari pengelola kata sandi { -brand-name-firefox } Anda di desktop.
+whatsnew-feature-mailing-list-heading = Dapatkan bantuan untuk melindungi privasi Anda
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Tidak mudah untuk mengikuti tips privasi dan keamanan terbaru…
+whatsnew-feature-mailing-list-description = Tidak mudah untuk mengikuti tip dan kebiasaan privasi dan keamanan terbaru. Jadi kami memulai nawala untuk membantu Anda membuat kehidupan daring Anda lebih aman.
+whatsnew-feature-mailing-list-cta = Berlangganan nawala
