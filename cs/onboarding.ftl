@@ -42,6 +42,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = Přidat rozšíření 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = Rozšíření { -brand-name-relay } bylo přidáno!
+multi-part-onboarding-premium-added-extension-body = Chcete-li vygenerovat novou masku, již se nebudete muset přihlašovat do služby { -brand-name-relay } – když webové stránky požádají o vaši e-mailovou adresu, hledejte ikonu Relay.
 multi-part-onboarding-premium-extension-button-dashboard = Přejít na nástěnku
 multi-part-onboarding-skip = Přeskočit, nastavím později
 multi-part-onboarding-skip-download-extension = Přeskočit, rozšíření si stáhnu později
