@@ -10,7 +10,7 @@ hero-section-body = 我們安全、好用的轉寄信箱與手機轉接號碼，
 hero-section-cta = 開始使用
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
-hero-section-social-proof = 如
+hero-section-social-proof = 出現於
 
 ## BUNDLE BANNER SECTION
 

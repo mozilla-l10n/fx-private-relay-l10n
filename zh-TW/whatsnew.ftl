@@ -70,9 +70,9 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-firefox } 密碼管
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = 更簡單就能保護您的信箱。現在您可以直接從…
 whatsnew-feature-firefox-integration-description = 更簡單就能保護您的信箱。現在您可以直接從 { -brand-name-firefox } 桌面版的密碼管理員產生 { -brand-name-relay } 轉寄信箱。
-whatsnew-feature-mailing-list-heading = 取得隱私保護
+whatsnew-feature-mailing-list-heading = 獲得保護隱私的協助
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-mailing-list-snippet = 了解隱私權與安全性小秘訣並不簡單…
+whatsnew-feature-mailing-list-snippet = 要隨時獲得最新的隱私權與安全性秘訣並不簡單…
 whatsnew-feature-mailing-list-description = 了解最新的隱私與安全性小秘訣與使用習慣並不簡單。因此我們發行了電子報幫助您讓線上生活更安全。
 whatsnew-feature-mailing-list-cta = 訂閱電子報

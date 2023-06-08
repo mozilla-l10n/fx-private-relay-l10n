@@ -116,7 +116,7 @@ contains-tracker-title = 此鏈結或圖片包含追蹤器
 # Variables:
 #   $sender (string) - Sender of the email, e.g. person@email.com
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
-contains-tracker-description = 電子郵件追踪器是企業嵌入到電子郵件中以追踪您的上網行為的監控工具。為了保護您的隱私我們已從 <u>{ $sender }</u> 於 { $datetime } 寄出的郵件移除此追踪器。
+contains-tracker-description = 企業會將電子郵件追蹤器嵌入到信件中，用來追蹤您的上網行為。為了保護您的隱私，我們已從 <u>{ $sender }</u> 於 { $datetime } 寄出的郵件移除此追蹤器。
 contains-tracker-warning-title = 您還想要檢視鏈結嗎？
 contains-tracker-warning-description = 警告：點擊此鏈結，會將您的資訊傳送回給寄件者
 contains-tracker-warning-view-link-cta = 好，檢視鏈結
@@ -267,7 +267,7 @@ manage-your-masks = 管理您的轉寄信箱
 
 first-time-user-email-welcome = 歡迎使用 { -brand-name-firefox-relay }
 first-time-user-email-preheader = 透過轉寄信箱來保護您的身分
-first-time-user-email-welcome-subhead = 您的電子郵件地址可能會被用來在網路上追踪您 — 我們可讓我們協助您杜絕此類行為。
+first-time-user-email-welcome-subhead = 您的電子郵件地址可能會被用來在網路上追蹤您 — 我們可協助您避免此類行為。
 first-time-user-email-hero-primary-text = { -brand-name-firefox } 使用者可免費獲得 5 組轉寄信箱。您可以使用它們來隱藏您實際的電子郵件地址、保護身分資訊，只把想要的郵件轉寄回您的實際信箱。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 儀表板管理您的所有轉寄信箱。
 first-time-user-email-hero-cta = 檢視儀表板
@@ -279,13 +279,13 @@ first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-re
 first-time-user-email-how-item-1-subhead-html = 直接在 { -brand-name-firefox } 使用 <a href="{ $url }" { $attrs }>{ -brand-name-relay } 附加元件</a>或您的 { -brand-name-relay } 儀表板建立轉寄信箱。
 first-time-user-email-how-item-1-subhead-text = 直接在 { -brand-name-firefox } 上透過 { -brand-name-relay } 附加元件或 { -brand-name-relay } 儀表板建立轉寄信箱。
 first-time-user-email-how-item-2-header = 我們會將所有郵件轉寄到您的信箱
-first-time-user-email-how-item-2-subhead = 寄件者不會看到您的實際信箱而且您也可以隨時封鎖郵件。
+first-time-user-email-how-item-2-subhead = 寄件者不會看到您的實際信箱，您也可以隨時封鎖郵件。
 first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 儀表板管理您的轉寄信箱
 # Variables
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登入</a>即可建立轉寄信箱、為您的轉寄信箱加上標籤並刪除會收到垃圾信的轉寄信箱。
-first-time-user-email-how-item-3-subhead-text = 登入以建立新轉寄信箱、為您的轉寄信箱加上標籤並刪除會收到垃圾信的轉寄信箱。
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登入</a>後即可建立轉寄信箱、為您的轉寄信箱加上標籤，或刪除會收到垃圾信的轉寄信箱。
+first-time-user-email-how-item-3-subhead-text = 登入後即可建立轉寄信箱、為轉寄信箱加上標籤，或是刪除收到垃圾信的轉寄信箱。
 first-time-user-email-extra-protection-inbox-title = 為您的信箱提供額外保護
 first-time-user-email-extra-protection-inbox-phone-title = 為您的信箱與手機門號再加一道保護
 first-time-user-email-extra-protection-inbox-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱、自訂 { -brand-name-relay } 網域以及自訂的收件匣控制功能。
