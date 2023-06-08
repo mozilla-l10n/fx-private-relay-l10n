@@ -76,4 +76,4 @@ whatsnew-feature-mailing-list-heading = Obtenez de l’aide pour protéger votre
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-mailing-list-snippet = Pas facile de se tenir au courant des dernières astuces en matière de confidentialité et de sécurité…
 whatsnew-feature-mailing-list-description = Il n’est pas facile de se tenir au courant des derniers conseils et habitudes en matière de confidentialité et de sécurité. Nous avons donc lancé une lettre d’information pour vous aider à sécuriser votre vie numérique.
-whatsnew-feature-mailing-list-cta = Abonnez-vous à la lettre d'information
+whatsnew-feature-mailing-list-cta = Abonnez-vous à la newsletter
