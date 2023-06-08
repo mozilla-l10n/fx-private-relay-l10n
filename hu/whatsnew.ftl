@@ -71,9 +71,9 @@ whatsnew-feature-firefox-integration-heading = A { -brand-name-relay } már elé
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Egyszerűbbé vált az e-mailek védelme. Mostantól közvetlenül…
 whatsnew-feature-firefox-integration-description = Egyszerűbbé vált az e-mailek védelme. Mostantól közvetlenül az asztali { -brand-name-firefox } jelszókezelőjéből állíthat elő új { -brand-name-relay } e-mail-maszkokat.
-whatsnew-feature-mailing-list-heading = Kérjen segítséget az adatvédelméhez
+whatsnew-feature-mailing-list-heading = Kapjon segítséget az adatvédelméhez
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-mailing-list-snippet = Nem könnyű lépést tartani a legújabb adatvédelmi és biztonsági tippekkel…
 whatsnew-feature-mailing-list-description = Nem könnyű lépést tartani a legújabb adatvédelmi és biztonsági tippekkel és szokásokkal. Ezért indítottunk egy hírlevelet, hogy segítsük biztonságosabbá tenni az online életét.
-whatsnew-feature-mailing-list-cta = Iratkozzon fel a hírlevélre
+whatsnew-feature-mailing-list-cta = Feliratkozás a hírlevélre
