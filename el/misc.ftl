@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Success Messages
 
 # Variables:
@@ -111,7 +112,7 @@ trackerreport-faq-cta = Δείτε περισσότερες συχνές ερω�
 trackerreport-loading = Φόρτωση αναφοράς αφαίρεσης ιχνηλατών…
 trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημιουργία της αναφοράς αφαίρεσης ιχνηλατών σας. Παρακαλούμε ανανεώστε τη σελίδα για να δοκιμάσετε ξανά.
 
-## Countdown timer (e.g. to count down to pricing increases)
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -182,6 +183,7 @@ survey-csat-answer-very-satisfied = Πολύ ικανοποιητική
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Ευχαριστούμε για τα σχόλιά σας. Επιθυμούμε να μάθουμε περισσότερα σχετικά με το πώς μπορούμε να βελτιώσουμε το { -brand-name-relay } για εσάς, θα θέλατε να συμμετάσχετε σε μια έρευνα δύο λεπτών;
 
+## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
@@ -210,6 +212,21 @@ forwarded-email-footer-premium-banner = Αναβάθμιση στο { -brand-nam
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
 forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση στο { $premium_link } πριν λήξει η τιμή γνωριμίας μας.
 
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
+
+relay-email-your-dashboard = Ο πίνακας ελέγχου σας
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = από το <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a>
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = από το <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+
 ## Email sent to free users who try to reply
 
 # Variables
@@ -226,13 +243,16 @@ upgrade-for-more-protection = Κάντε αναβάθμιση για περισ�
 upgrade-to-premium = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
 manage-your-masks = Διαχειριστείτε τις μάσκες σας
 
+## Email sent to first time free users
+
+first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
+
 ## API error messages
 
 # Variables:
-#   $free_tier_limit (number) - Maxmimum email masks created for free account
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Έχετε χρησιμοποιήσει και τις { $free_tier_limit } μάσκες email που περιλαμβάνονται στον δωρεάν λογαριασμό σας. Μπορείτε να επαναχρησιμοποιήσετε μια υπάρχουσα μάσκα, αλλά η χρήση μιας μοναδικής μάσκας για κάθε λογαριασμό είναι η πιο ασφαλής επιλογή.
 api-error-free-tier-no-subdomain-masks = Ο δωρεάν λογαριασμός σας δεν περιλαμβάνει προσαρμοσμένους υποτομείς για μάσκες. Για να δημιουργήσετε προσαρμοσμένες μάσκες, αναβαθμίστε στο { -brand-name-relay-premium }.
-
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.
