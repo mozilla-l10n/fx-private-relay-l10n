@@ -89,5 +89,5 @@ faq-question-bulk-trackerremoval-answer = 您只能於帳號層級開關「移�
 faq-question-trackerremoval-breakage-question = 為什麼我收到的郵件內容看來怪怪的？
 faq-question-trackerremoval-breakage-answer-2 = 有的時候，移除郵件追蹤器可能會造成您的郵件內容看起來不正常，因為通常追蹤器是埋藏於圖片或鏈結中，當圖片被移除後就會讓郵件內容跑版，或者險是不正常。若您已經收到郵件，這個情況就無法再修正，若這個行為造成您無法正確閱讀郵件，可關閉追蹤器移除功能。
 faq-question-define-tracker-question = 什麼是郵件追蹤器？
-faq-question-define-tracker-answer-partone = 許多監控與廣告工具會透過郵件追蹤來監控許多收件匣。這些追蹤器可用於更加了解您的上網行為、您的興趣與郵件記錄。
-faq-question-define-tracker-answer-parttwo = 一間公司或組織，可能會透過在寄送給您的電子郵件中內嵌追蹤器（通常隱藏於圖片或連結之中）。當郵件開啟時，追蹤器內的程式就會執行，並且回傳追蹤資料。
+faq-question-define-tracker-answer-partone = 監控與廣告工具會透過郵件追蹤功能來監控許多信箱。這些追蹤器會用來更加了解您的上網行為、您的興趣與郵件記錄。
+faq-question-define-tracker-answer-parttwo = 一間公司或組織，可能會透過在寄送給您的電子郵件中嵌入追蹤器（通常隱藏於圖片或鏈結之中）。當郵件開啟時，追蹤器內的程式就會執行，並且回傳追蹤資料。
