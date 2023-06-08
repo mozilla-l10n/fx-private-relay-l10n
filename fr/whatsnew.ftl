@@ -74,6 +74,6 @@ whatsnew-feature-firefox-integration-description = Protéger votre adresse e-mai
 whatsnew-feature-mailing-list-heading = Obtenez de l’aide pour protéger votre vie privée
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-mailing-list-snippet = Pas facile de se tenir au courant des dernières astuces en matière de confidentialité et de sécurité…
-whatsnew-feature-mailing-list-description = Il n’est pas facile de se tenir au courant des derniers conseils et habitudes en matière de confidentialité et de sécurité. Nous avons donc lancé une lettre d’information pour vous aider à sécuriser votre vie numérique.
+whatsnew-feature-mailing-list-snippet = Il n’est pas facile de rester au courant des derniers conseils…
+whatsnew-feature-mailing-list-description = Il n’est pas facile de rester au courant des derniers conseils et réflexes à avoir en matière de confidentialité et de sécurité. Nous avons donc lancé une newsletter pour vous aider à rendre votre vie numérique plus sûre.
 whatsnew-feature-mailing-list-cta = Abonnez-vous à la newsletter
