@@ -288,8 +288,8 @@ first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>�
 first-time-user-email-how-item-3-subhead-text = 登入後即可建立轉寄信箱、為轉寄信箱加上標籤，或是刪除收到垃圾信的轉寄信箱。
 first-time-user-email-extra-protection-inbox-title = 為您的信箱提供額外保護
 first-time-user-email-extra-protection-inbox-phone-title = 為您的信箱與手機門號再加一道保護
-first-time-user-email-extra-protection-inbox-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱、自訂 { -brand-name-relay } 網域以及自訂的收件匣控制功能。
-first-time-user-email-extra-protection-inbox-phone-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱還有手機轉接功能可保護您的實際電話號碼。
+first-time-user-email-extra-protection-inbox-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱、自訂 { -brand-name-relay } 網域以及自訂收件匣控制功能。
+first-time-user-email-extra-protection-inbox-phone-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱，與能保護您實際手機號碼的轉接門號。
 first-time-user-email-extra-protection-cta = 下載 { -brand-name-relay-premium }
 first-time-user-email-questions-title = 有 { -brand-name-firefox-relay } 相關問題嗎？
 # Variables
@@ -297,7 +297,7 @@ first-time-user-email-questions-title = 有 { -brand-name-firefox-relay } 相關
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = 我們的<a href="{ $url }" { $attrs }>技術支援團隊</a>在此為您服務。
 first-time-user-email-questions-subhead-text = 我們的技術支援團隊在此為您服務。
-first-time-user-email-footer-text-1 = 您會以第一次使用 { -brand-name-relay } 的 { -brand-name-firefox-relay } 訂閱者的身分收到這封自動寄出的郵件。若您錯誤地收到此金鑰不必做任何事。
+first-time-user-email-footer-text-1 = 您會收到這封自動寄出的郵件，是因為您是第一次使用 { -brand-name-relay } 的 { -brand-name-firefox-relay } 訂閱者。若意外收到本郵件可直接忽略。
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link

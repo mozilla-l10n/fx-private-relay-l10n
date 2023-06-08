@@ -74,5 +74,5 @@ whatsnew-feature-mailing-list-heading = 獲得保護隱私的協助
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-mailing-list-snippet = 要隨時獲得最新的隱私權與安全性秘訣並不簡單…
-whatsnew-feature-mailing-list-description = 了解最新的隱私與安全性小秘訣與使用習慣並不簡單。因此我們發行了電子報幫助您讓線上生活更安全。
+whatsnew-feature-mailing-list-description = 要隨時獲得最新的隱私權與安全性秘訣並不簡單，我們發行了電子報協助您讓線上生活更安全。
 whatsnew-feature-mailing-list-cta = 訂閱電子報
