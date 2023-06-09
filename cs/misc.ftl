@@ -165,6 +165,14 @@ survey-csat-answer-very-satisfied = Velmi spokojený
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
+#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Tato zpráva byla přeposlána z adresy { $display_email } službou { $linked_origin }.
+forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje pole Kopie a Skrytá kopie z vašich odpovědí. Pokud je znovu přidáte, váš skutečný e-mail bude odhalený.
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
+forwarded-email-header-premium-banner-3 = Aktualizujte na { $premium_link } a získejte neomezené množství e-mailových masek, vlastní subdoménu a možnost odpovídat na e-maily.
+# Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = Odebrané sledovací prvky: { $nr_blocked_trackers }
 forwarded-email-trackers-blocked-report = Více informací
