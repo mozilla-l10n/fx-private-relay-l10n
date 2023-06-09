@@ -79,3 +79,4 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } je nyní k 
 whatsnew-feature-firefox-integration-snippet = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat…
 whatsnew-feature-firefox-integration-description = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat nové e-mailové masky { -brand-name-relay } přímo ze správce hesel { -brand-name-firefox(case: "gen") } ve vašem počítači.
 whatsnew-feature-mailing-list-heading = Získejte pomoc s ochranou vašeho soukromí
+whatsnew-feature-mailing-list-cta = Odběr zpravodaje
