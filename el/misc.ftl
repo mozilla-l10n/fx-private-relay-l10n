@@ -226,6 +226,11 @@ relay-email-premium-byline-html = από το <a href="{ $url }" { $attrs }>{ -b
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
 relay-email-byline-html = από το <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a>
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = Προωθήθηκε από το <a href="{ $url }" { $attrs }>{ $email_address }</a>
 
 ## Email sent to free users who try to reply
 
@@ -246,6 +251,13 @@ manage-your-masks = Διαχειριστείτε τις μάσκες σας
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
+first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
+first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = Η <a href="{ $url }" { $attrs }>ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
+first-time-user-email-questions-subhead-text = Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει.
 
 ## API error messages
 
