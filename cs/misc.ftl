@@ -173,6 +173,12 @@ forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje p
 #   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
 forwarded-email-header-premium-banner-3 = Aktualizujte na { $premium_link } a získejte neomezené množství e-mailových masek, vlastní subdoménu a možnost odpovídat na e-maily.
 # Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-header-offer-countdown-banner = Platnost naší úvodní měsíční cenové nabídky brzy vyprší. Aktualizujte na { $premium_link }.
+# Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje přeposílání e-mailů (včetně příloh) až do velikosti { email-size-limit }. Pro další informace se podívejte na { $faq_link }.
+# Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = Odebrané sledovací prvky: { $nr_blocked_trackers }
 forwarded-email-trackers-blocked-report = Více informací
