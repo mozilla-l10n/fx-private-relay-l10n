@@ -72,3 +72,9 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } відте�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Захистити свою електронну пошту стало простіше. Тепер ви можете згенерувати…
 whatsnew-feature-firefox-integration-description = Захистити свою електронну пошту стало простіше. Тепер ви можете генерувати нові маски електронної пошти { -brand-name-relay } безпосередньо з менеджера паролів { -brand-name-firefox } на комп’ютері.
+whatsnew-feature-mailing-list-heading = Отримайте допомогу щодо захисту вашої приватності
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Непросто стежити за останніми порадами щодо приватності та безпеки…
+whatsnew-feature-mailing-list-description = Непросто стежити за останніми порадами та звичками щодо приватності. Тому, ми створили інформаційний бюлетень, щоб допомогти вам зробити ваше онлайн-життя безпечнішим.
+whatsnew-feature-mailing-list-cta = Підписатися
