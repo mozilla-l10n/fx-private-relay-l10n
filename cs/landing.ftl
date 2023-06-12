@@ -17,6 +17,9 @@ hero-section-social-proof = Jak se objevilo v
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
 bundle-banner-header-2 = Časově omezeno: { -brand-name-relay-premium } + { -brand-name-mozilla-vpn } za { $monthly_price }/měsíc
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
+bundle-banner-body-3 = { -brand-name-mozilla-vpn } vás chrání před sledováním během hraní her, práce s online bankovnictvím nebo při práci. Přidejte si ji k { -brand-name-firefox-relay } a získejte tak slevu { $savings }.
 bundle-banner-plan-header-2 = Váš 1letý plán zahrnuje:
 bundle-banner-plan-modules-email-masking = Zamaskování e-mailové adresy
 bundle-banner-plan-modules-phone-masking = Zamaskování telefonního čísla
