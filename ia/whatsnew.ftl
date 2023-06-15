@@ -72,4 +72,7 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } es ora disp
 whatsnew-feature-firefox-integration-snippet = Proteger tu email justo deveniva plus facile. Ora tu pote generar…
 whatsnew-feature-firefox-integration-description = Proteger tu email justo deveniva plus facile. Ora tu pote generar nove mascas email de { -brand-name-relay } directemente del gestor de contrasignos de { -brand-name-firefox } sur scriptorio.
 whatsnew-feature-mailing-list-heading = Haber auxilio pro proteger le confidentialitate
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Il non es facile sequer le suggestiones de privacitate e securitate le plus recente…
 whatsnew-feature-mailing-list-cta = Abona te al littera de novas
