@@ -74,6 +74,6 @@ whatsnew-feature-firefox-integration-description = Proteger tu correo electróni
 whatsnew-feature-mailing-list-heading = Obtén ayuda para proteger tu privacidad
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-mailing-list-snippet = No es fácil mantenerse al día con los últimos consejos de privacidad y seguridad...
+whatsnew-feature-mailing-list-snippet = No es fácil mantenerse al día con los últimos consejos de privacidad y seguridad…
 whatsnew-feature-mailing-list-description = No es fácil mantenerse al día con los últimos consejos y hábitos de privacidad y seguridad. Así que comenzamos un boletín para ayudarte a conseguir que tu vida en línea sea más segura.
 whatsnew-feature-mailing-list-cta = Suscríbete al boletín
