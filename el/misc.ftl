@@ -39,7 +39,7 @@ toast-button-close-label = Κλείσιμο ειδοποίησης
 
 ## Tips and tricks at the bottom of the page
 
-tips-header-title = Βοήθεια & συμβουλές
+tips-header-title = Βοήθεια και συμβουλές
 tips-header-button-close-label = Απόρριψη
 tips-footer-link-faq-label = Συχνές ερωτήσεις
 tips-footer-link-faq-tooltip = Συχνές ερωτήσεις

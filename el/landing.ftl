@@ -70,7 +70,7 @@ plan-matrix-offer-body = Το { -brand-name-firefox-relay } προστατεύε
 plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
-plan-matrix-heading-plan-phones = Προστασία email & τηλεφώνου
+plan-matrix-heading-plan-phones = Προστασία email και τηλεφώνου
 plan-matrix-heading-plan-bundle-2 = Προσθήκη προστασίας { -brand-name-vpn }
 plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-relay-premium } και { -brand-name-mozilla-vpn }
 
