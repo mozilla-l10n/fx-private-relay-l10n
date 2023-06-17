@@ -114,6 +114,8 @@ trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημι�
 
 ## Tracker warning page
 
+contains-tracker-title = Αυτός ο σύνδεσμος ή η εικόνα περιέχει ιχνηλάτη
+contains-tracker-warning-title = Θέλετε ακόμα να δείτε τον σύνδεσμο;
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -258,6 +260,8 @@ first-time-user-email-questions-title = Έχετε απορίες για το { 
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Η <a href="{ $url }" { $attrs }>ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 first-time-user-email-questions-subhead-text = Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει.
+first-time-user-email-footer-text-legal = Νομικά
+first-time-user-email-footer-text-privacy = Όροι και απόρρητο
 
 ## API error messages
 
