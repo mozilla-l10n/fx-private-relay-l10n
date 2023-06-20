@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Kapjon segítséget az adatvédelméhez
 whatsnew-feature-mailing-list-snippet = Nem könnyű lépést tartani a legújabb adatvédelmi és biztonsági tippekkel…
 whatsnew-feature-mailing-list-description = Nem könnyű lépést tartani a legújabb adatvédelmi és biztonsági tippekkel és szokásokkal. Ezért indítottunk egy hírlevelet, hogy segítsük biztonságosabbá tenni az online életét.
 whatsnew-feature-mailing-list-cta = Feliratkozás a hírlevélre
+whatsnew-feature-premium-expansion-eu-heading = Most már korlátlan számú maszk érhető el
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = A { -brand-name-firefox-relay-premium } már elérhető az országában…
+whatsnew-feature-premium-expansion-eu-description = A { -brand-name-firefox-relay-premium } már elérhető az országában. Védje meg a postaládáját a korlátlan számú e-mail-maszkkal, és kapjon egy egyedi { -brand-name-relay } e-mail domaint, hogy egyszerű és biztonságos legyen a maszkok létrehozása útközben.
+whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } beszerzése
