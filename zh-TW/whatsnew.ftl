@@ -76,3 +76,9 @@ whatsnew-feature-mailing-list-heading = 獲得保護隱私的協助
 whatsnew-feature-mailing-list-snippet = 要隨時獲得最新的隱私權與安全性秘訣並不簡單…
 whatsnew-feature-mailing-list-description = 要隨時獲得最新的隱私權與安全性秘訣並不簡單，我們發行了電子報協助您讓線上生活更安全。
 whatsnew-feature-mailing-list-cta = 訂閱電子報
+whatsnew-feature-premium-expansion-eu-heading = 現在可以使用無限量轉寄信箱
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } 已在您的國家推出…
+whatsnew-feature-premium-expansion-eu-description = 已在您所在的國家推出 { -brand-name-firefox-relay-premium } 版本。設定無限量的轉寄信箱保護您的收件匣也獲得獨特的 { -brand-name-relay } 郵件網域讓建立轉寄信箱變得簡單又安全。
+whatsnew-feature-premium-expansion-eu-cta = 下載 { -brand-name-relay-premium }
