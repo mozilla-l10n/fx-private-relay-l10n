@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Obtenez de l’aide pour protéger votre
 whatsnew-feature-mailing-list-snippet = Il n’est pas facile de rester au courant des derniers conseils…
 whatsnew-feature-mailing-list-description = Il n’est pas facile de rester au courant des derniers conseils et réflexes à avoir en matière de confidentialité et de sécurité. Nous avons donc lancé une newsletter pour vous aider à rendre votre vie numérique plus sûre.
 whatsnew-feature-mailing-list-cta = Abonnez-vous à la newsletter
+whatsnew-feature-premium-expansion-eu-heading = Nombre illimité d’alias maintenant disponibles
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } est désormais disponible dans votre pays…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } est désormais disponible dans votre pays. Protégez votre boîte de réception avec un nombre illimité d’alias de messagerie et obtenez un domaine de messagerie { -brand-name-relay } unique pour faciliter et sécuriser la création d’alias à la volée.
+whatsnew-feature-premium-expansion-eu-cta = Obtenir { -brand-name-relay-premium }
