@@ -73,3 +73,9 @@ whatsnew-feature-mailing-list-heading = Un aiuto per proteggere la tua privacy
 whatsnew-feature-mailing-list-snippet = Non è facile rimanere al passo con gli ultimi consigli e tendenze in materia di privacy e sicurezza…
 whatsnew-feature-mailing-list-description = Non è facile rimanere al passo con gli ultimi consigli e tendenze in materia di privacy e sicurezza. Per questo motivo abbiamo creato una newsletter per aiutarti a rendere più sicura la tua vita online.
 whatsnew-feature-mailing-list-cta = Iscriviti alla newsletter
+whatsnew-feature-premium-expansion-eu-heading = Alias illimitati ora disponibili
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } è ora disponibile nel tuo Paese…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } è ora disponibile nel tuo Paese. Proteggi la tua casella di posta con un numero illimitato di alias e ottieni un dominio di posta elettronica { -brand-name-relay } univoco per rendere la creazione di alias facile e sicura, ovunque ti trovi.
+whatsnew-feature-premium-expansion-eu-cta = Ottieni { -brand-name-relay-premium }
