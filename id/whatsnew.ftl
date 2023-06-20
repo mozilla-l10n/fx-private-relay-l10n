@@ -76,3 +76,9 @@ whatsnew-feature-mailing-list-heading = Dapatkan bantuan untuk melindungi privas
 whatsnew-feature-mailing-list-snippet = Tidak mudah untuk mengikuti tips privasi dan keamanan terbaru…
 whatsnew-feature-mailing-list-description = Tidak mudah untuk mengikuti tip dan kebiasaan privasi dan keamanan terbaru. Jadi kami memulai nawala untuk membantu Anda membuat kehidupan daring Anda lebih aman.
 whatsnew-feature-mailing-list-cta = Berlangganan nawala
+whatsnew-feature-premium-expansion-eu-heading = Topeng tak terbatas sekarang tersedia
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } kini tersedia di negara Anda…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } kini tersedia di negara Anda. Lindungi kotak masuk Anda dengan topeng surel tanpa batas, dan dapatkan domain surel { -brand-name-relay } yang unik untuk membuat pembuatan topeng di mana saja menjadi mudah dan aman.
+whatsnew-feature-premium-expansion-eu-cta = Dapatkan { -brand-name-relay-premium }
