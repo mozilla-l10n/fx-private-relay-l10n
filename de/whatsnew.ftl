@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Holen Sie sich Hilfe beim Schutz Ihrer P
 whatsnew-feature-mailing-list-snippet = Es ist nicht einfach, mit den neuesten Datenschutz- und Sicherheitstipps Schritt zu halten…
 whatsnew-feature-mailing-list-description = Es ist nicht einfach, mit den neuesten Tipps und Gewohnheiten zu Datenschutz und Sicherheit Schritt zu halten. Also haben wir einen Newsletter gestartet, um Ihnen zu helfen, Ihr Online-Leben sicherer zu machen.
 whatsnew-feature-mailing-list-cta = Newsletter abonnieren
+whatsnew-feature-premium-expansion-eu-heading = Unbegrenzt viele Masken jetzt verfügbar
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ist jetzt in Ihrem Land verfügbar…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } ist jetzt in Ihrem Land verfügbar. Schützen Sie Ihren Posteingang mit unbegrenzt vielen E-Mail-Masken und holen Sie sich eine einzigartige { -brand-name-relay }-E-Mail-Domain, mit der die Erstellung von Masken unterwegs einfach und sicher ist.
+whatsnew-feature-premium-expansion-eu-cta = Holen Sie sich { -brand-name-relay-premium }
