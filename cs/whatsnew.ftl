@@ -79,4 +79,12 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } je nyní k 
 whatsnew-feature-firefox-integration-snippet = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat…
 whatsnew-feature-firefox-integration-description = Ochrana vašeho e-mailu je nyní snazší. Nyní si můžete vygenerovat nové e-mailové masky { -brand-name-relay } přímo ze správce hesel { -brand-name-firefox(case: "gen") } ve vašem počítači.
 whatsnew-feature-mailing-list-heading = Získejte pomoc s ochranou vašeho soukromí
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Není snadné držet krok s nejnovějšími tipy na ochranu soukromí a zabezpečení…
 whatsnew-feature-mailing-list-cta = Odběr zpravodaje
+whatsnew-feature-premium-expansion-eu-heading = Nyní je dostupný neomezený počet masek
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = Služba { -brand-name-firefox-relay-premium } je nyní dostupná ve vaší zemi…
+whatsnew-feature-premium-expansion-eu-cta = Získejte { -brand-name-relay-premium }
