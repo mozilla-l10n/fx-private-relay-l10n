@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Ontvang hulp bij het beschermen van uw p
 whatsnew-feature-mailing-list-snippet = Het is niet eenvoudig om bij te blijven bij de nieuwste privacy- en beveiligingstips…
 whatsnew-feature-mailing-list-description = Het is niet eenvoudig om bij te blijven bij de nieuwste privacy- en beveiligingstips en -gewoonten. Daarom zijn we een nieuwsbrief gestart om u te helpen uw online leven veiliger te maken.
 whatsnew-feature-mailing-list-cta = Abonneren op de nieuwsbrief
+whatsnew-feature-premium-expansion-eu-heading = Onbeperkte maskers nu beschikbaar
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is nu beschikbaar in uw land…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } is nu beschikbaar in uw land. Bescherm uw Postvak IN met onbeperkte e-mailmaskers en ontvang een uniek { -brand-name-relay }-e-maildomein om het aanmaken van maskers onderweg eenvoudig en veilig te maken.
+whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } verkrijgen
