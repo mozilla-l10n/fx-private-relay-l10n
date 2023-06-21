@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Untfang help by it beskermjen fan jo pri
 whatsnew-feature-mailing-list-snippet = It is net ienfâldich om by te bliuwen by de nijste privacy- en befeiligingstips…
 whatsnew-feature-mailing-list-description = It is net ienfâldich om by te bliuwen by de nijste privacy- en befeiligingstips en -gewoanten. Dêrom binne wy in nijsbrief start om jo te helpen jo online libben feiliger te meitsjen.
 whatsnew-feature-mailing-list-cta = Abonnearje op de nijsbrief
+whatsnew-feature-premium-expansion-eu-heading = Unbeheinde maskers no beskikber
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is no beskikber yn jo lân…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } is no beskikber yn jo lân. Beskermje jo Postfek YN mei ûnbeheinde e-mailmaskers, en ûntfang in unyk { -brand-name-relay }-e-maildomein om it meitsjen fan maskers ûnderweis maklik en feilich te meitsjen.
+whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } krije
