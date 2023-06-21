@@ -77,3 +77,9 @@ whatsnew-feature-mailing-list-heading = Få hjälp med att skydda din integritet
 whatsnew-feature-mailing-list-snippet = Det är inte lätt att hålla jämna steg med de senaste sekretess- och säkerhetstipsen…
 whatsnew-feature-mailing-list-description = Det är inte lätt att hålla jämna steg med de senaste sekretess- och säkerhetstipsen och vanorna. Så vi startade ett nyhetsbrev för att hjälpa dig att göra ditt onlineliv säkrare.
 whatsnew-feature-mailing-list-cta = Prenumerera på nyhetsbrevet
+whatsnew-feature-premium-expansion-eu-heading = Obegränsat med alias nu tillgängligt
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } är nu tillgängligt i ditt land…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } är nu tillgängligt i ditt land. Skydda din inkorg med obegränsade e-postalias och få en unik { -brand-name-relay } e-postdomän för att göra det enkelt och säkert att skapa alias när du är på språng.
+whatsnew-feature-premium-expansion-eu-cta = Skaffa { -brand-name-relay-premium }
