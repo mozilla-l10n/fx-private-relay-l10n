@@ -78,3 +78,9 @@ whatsnew-feature-mailing-list-heading = Отримайте допомогу що
 whatsnew-feature-mailing-list-snippet = Непросто стежити за останніми порадами щодо приватності та безпеки…
 whatsnew-feature-mailing-list-description = Непросто стежити за останніми порадами та звичками щодо приватності. Тому, ми створили інформаційний бюлетень, щоб допомогти вам зробити ваше онлайн-життя безпечнішим.
 whatsnew-feature-mailing-list-cta = Підписатися
+whatsnew-feature-premium-expansion-eu-heading = Відтепер доступна необмежена кількість масок
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } відтепер доступний у вашій країні…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } відтепер доступний у вашій країні. Захистіть свою поштову скриньку за допомогою необмеженої кількості масок електронної пошти та отримайте унікальний домен електронної пошти { -brand-name-relay }, щоб легко та безпечно створювати маски на ходу.
+whatsnew-feature-premium-expansion-eu-cta = Отримайте { -brand-name-relay-premium }
