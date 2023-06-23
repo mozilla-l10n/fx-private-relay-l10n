@@ -216,6 +216,7 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = ودھیک حفاظت کیتے اپ گریڈ کرو
 relay-email-manage-this-mask = ایہ ماسک منظم کرو
 relay-email-your-dashboard = تہاݙا ڈیش بورڈ
 
