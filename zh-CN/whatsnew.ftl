@@ -76,3 +76,9 @@ whatsnew-feature-mailing-list-heading = 获得保护隐私的相关帮助
 whatsnew-feature-mailing-list-snippet = 紧跟最新的隐私和安全建议并不容易……
 whatsnew-feature-mailing-list-description = 紧跟最新的隐私和安全建议和习惯并不容易。因此，我们会发布一份邮件新闻，帮您保持更安全的在线生活。
 whatsnew-feature-mailing-list-cta = 订阅邮件新闻
+whatsnew-feature-premium-expansion-eu-heading = 无限量马甲登场
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } 已在您的地区推出…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } 已在您的地区推出。订阅后，即可用无限量的马甲来保护自己的收件箱，还能获得专属 { -brand-name-relay } 邮箱域名，让您随时随地、安全便捷地创建马甲。
+whatsnew-feature-premium-expansion-eu-cta = 订阅 { -brand-name-relay-premium }
