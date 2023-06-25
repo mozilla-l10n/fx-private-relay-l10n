@@ -211,9 +211,21 @@ relay-email-byline-html = Přináší <a href="{ $url }" { $attrs }>{ -brand-nam
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
 relay-email-forwarded-from-html = Přeposlané z <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 odebraný sledovací prvek
+        [few] { $number } odebrané sledovací prvky
+        [many] { $number } odebraných sledovacích prvků
+       *[other] { $number } odebraných sledovacích prvků
+    }
 
 ## Email sent to free users who try to reply
 
+# Variables
+#   $sender (string) - the original sender's email address
+first-reply-forwarded = Tuto odpověď jsme zaslali uživateli { $sender }. Do budoucna však vaše odpovědi nebudou odesílané.
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Vaše odpověď nebyla odeslána na adresu { $sender }.
