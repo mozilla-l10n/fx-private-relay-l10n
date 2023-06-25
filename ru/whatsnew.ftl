@@ -79,3 +79,8 @@ whatsnew-feature-mailing-list-snippet = Нелегко быть в курсе п
 whatsnew-feature-mailing-list-description = Следить за последними советами и практиками в области конфиденциальности и безопасности непросто. Поэтому мы запустили информационный бюллетень, чтобы помочь вам сделать вашу жизнь в Интернете более безопасной.
 whatsnew-feature-mailing-list-cta = Подпишитесь на новостную рассылку
 whatsnew-feature-premium-expansion-eu-heading = Теперь доступно неограниченное количество псевдонимов
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } теперь доступен в вашей стране…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } теперь доступен в вашей стране. Защитите свой почтовый ящик с помощью неограниченного количества псевдонимов электронной почты и получите уникальный домен электронной почты { -brand-name-relay }, чтобы сделать создание псевдонимов на ходу простым и безопасным.
+whatsnew-feature-premium-expansion-eu-cta = Получить { -brand-name-relay-premium }
