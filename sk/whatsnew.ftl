@@ -78,3 +78,9 @@ whatsnew-feature-mailing-list-heading = Získajte pomoc s ochranou vášho súkr
 whatsnew-feature-mailing-list-snippet = Nie je ľahké držať krok s najnovšími tipmi a trikmi na ochranu súkromia…
 whatsnew-feature-mailing-list-description = Nie je ľahké držať krok s najnovšími tipmi a trikmi na ochranu súkromia a celkovo bezpečnosti. Preto sme spustili newsletter, ktorý vám pomôže urobiť váš online život bezpečnejším.
 whatsnew-feature-mailing-list-cta = Prihláste sa na odber newslettra
+whatsnew-feature-premium-expansion-eu-heading = Teraz je k dispozícii neobmedzené množstvo masiek
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } je už k dispozícii aj vo vašej krajine...
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } je teraz k dispozícii vo vašej krajine. Chráňte svoju doručenú poštu vďaka neobmedzenému počtu e-mailových masiek a získajte jedinečnú e-mailovú doménu služby { -brand-name-relay }, vďaka ktorej bude vytváranie masiek ešte jednoduchšie a bezpečnejšie.
+whatsnew-feature-premium-expansion-eu-cta = Získajte { -brand-name-relay-premium }
