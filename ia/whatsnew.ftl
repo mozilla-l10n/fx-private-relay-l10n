@@ -77,3 +77,4 @@ whatsnew-feature-mailing-list-heading = Haber auxilio pro proteger le confidenti
 whatsnew-feature-mailing-list-snippet = Il non es facile sequer le suggestiones de privacitate e securitate le plus recente…
 whatsnew-feature-mailing-list-description = Il non es facile sequer le suggestiones e habitos de privacitate e securitate le plus recente. Pro illo nos  ha lanciate un bulletin de novas pro facer tu vita in linea devenir plus secur.
 whatsnew-feature-mailing-list-cta = Abona te al littera de novas
+whatsnew-feature-premium-expansion-eu-cta = Abona te a { -brand-name-relay-premium }
