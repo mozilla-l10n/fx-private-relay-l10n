@@ -171,6 +171,7 @@ highlighted-features-section-block-promotions-body = Se službou { -brand-name-r
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## FAQ SECTION
 

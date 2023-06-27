@@ -87,4 +87,5 @@ whatsnew-feature-premium-expansion-eu-heading = Nyní je dostupný neomezený po
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = Služba { -brand-name-firefox-relay-premium } je nyní dostupná ve vaší zemi…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } je nyní k dispozici ve vaší zemi. Chraňte svou doručenou poštu neomezeným počtem e-mailových masek a získejte jedinečnou e-mailovou doménu služby { -brand-name-relay }, díky které bude vytváření masek na cestách snadné a bezpečné.
 whatsnew-feature-premium-expansion-eu-cta = Získejte { -brand-name-relay-premium }
