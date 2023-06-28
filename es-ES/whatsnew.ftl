@@ -80,6 +80,6 @@ whatsnew-feature-mailing-list-cta = Suscríbete al boletín
 whatsnew-feature-premium-expansion-eu-heading = Máscaras ilimitadas ahora disponibles
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ya está disponible en tu país...
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ya está disponible en tu país…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } ya está disponible en tu país. Protege tu bandeja de entrada con máscaras de correo electrónico ilimitadas y obtén un dominio de correo electrónico único de { -brand-name-relay } para que la creación de máscaras sobre la marcha sea fácil y segura.
 whatsnew-feature-premium-expansion-eu-cta = Obtén { -brand-name-relay-premium }
