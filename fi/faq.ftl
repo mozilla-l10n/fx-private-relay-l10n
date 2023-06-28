@@ -64,3 +64,4 @@ faq-question-bulk-trackerremoval-answer = Voit ottaa seurainten poistotoiminnon 
 faq-question-trackerremoval-breakage-question = Miksi sähköpostini näyttävät rikkinäisiltä?
 faq-question-trackerremoval-breakage-answer-2 = Joskus seurainten poistaminen voi saada sähköpostiviestisi näyttämään rikkoutuneelta, koska seuraimet ovat usein kuvissa ja linkeissä. Kun seurain poistetaan, sähköposti näyttää siltä, että se on muotoiltu väärin, koska kuvia puuttuu. Tätä ei voida korjata jo vastaanottamiesi sähköpostien osalta. Jos tämä estää sinua lukemasta sähköpostejasi oikein, kytke seurainten poisto pois päältä.
 faq-question-define-tracker-question = Mitä sähköpostiseuraimet ovat?
+faq-question-define-tracker-answer-parttwo = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.

@@ -24,6 +24,7 @@ whatsnew-feature-size-limit-description = { -brand-name-firefox-relay } voi nyt 
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-size-limit-snippet-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien…
 whatsnew-feature-size-limit-description-var = { -brand-name-firefox-relay } voi nyt lähettää edelleen sähköposteja, joiden koko voi olla jopa { email-size-limit }, mukaan lukien liitteet.
+whatsnew-feature-sign-back-in-heading = Kirjaudu takaisin sisään aliaksillasi
 whatsnew-feature-forward-some-heading = Mainospostin esto
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
@@ -51,3 +52,13 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } on nyt saat
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Sähköpostisi suojaaminen on nyt aiempaa helpompaa. Nyt voit luoda…
 whatsnew-feature-firefox-integration-description = Sähköpostisi suojaaminen on nyt helpompaa kuin koskaan. Voit luoda uusia { -brand-name-relay }-sähköpostimaskeja suoraan { -brand-name-firefox }in salasanojen hallinnasta työpöydällä.
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Ei ole helppoa seurata uusimpia tietosuoja- ja turvavinkkejä…
+whatsnew-feature-mailing-list-cta = Tilaa uutiskirje
+whatsnew-feature-premium-expansion-eu-heading = Nyt saatavilla rajattomasti maskeja
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is now available in your country…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } on nyt saatavilla maassasi. Suojaa postilaatikkosi rajattomilla sähköpostimaskeilla ja hanki ainutlaatuinen { -brand-name-relay }-sähköpostiverkkotunnus, joka tekee maskien luomisesta liikkeellä ollessa helppoa ja turvallista.
+whatsnew-feature-premium-expansion-eu-cta = Hanki { -brand-name-relay-premium }
