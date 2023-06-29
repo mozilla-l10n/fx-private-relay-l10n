@@ -174,7 +174,7 @@ highlighted-features-section-masks-on-the-go-body =
 
 highlighted-features-section-replying-headline = Απάντηση σε email και μηνύματα ανώνυμα
 highlighted-features-section-replying-body =
-    Το { -brand-name-relay-premium } σάς επιτρέπει να απαντάτε σε email μέσω των μασκών email σας, ώστε να μην
+    Το { -brand-name-relay-premium } σάς επιτρέπει να απαντάτε σε email μέσω των μασκών email σας, ώστε να μη
     μάθουν ποτέ οι αποστολείς την πραγματική σας διεύθυνση email. Με την απόκρυψη τηλεφώνου, μπορείτε να
     απαντάτε σε μηνύματα μέσω της μάσκας αριθμού τηλεφώνου για την προστασία του πραγματικού σας αριθμού.
 
