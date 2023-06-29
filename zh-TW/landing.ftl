@@ -202,6 +202,7 @@ premium-promo-offer-end-hero-cta = 立刻升級
 premium-promo-availability-warning = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞士、英國和美國推出。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 目前已在奧地利、比利時、加拿大、芬蘭、法國、德國、愛爾蘭、義大利、馬來西亞、荷蘭、紐西蘭、新加坡、西班牙、瑞典、瑞士、英國和美國推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
+premium-promo-availability-warning-4 = { -brand-name-relay-premium } 已在奧地利、保加利亞、比利時、加拿大、克羅埃西亞、賽普勒斯、捷克、丹麥、愛沙尼亞、芬蘭、法國、德國、希臘、匈牙利、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、波蘭、葡萄牙、羅馬尼亞、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國。
 premium-promo-perks-headline = 為什麼要升級到 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = 升級到 { -brand-name-firefox-relay-premium }，可以獲得完整的收件匣保護與 { -brand-name-relay } 管理功能，還可建立無限量轉寄信箱，並設定您專屬的自訂網域，讓管理收件匣更輕鬆方便。
 premium-promo-perks-cta-label = 立刻升級
