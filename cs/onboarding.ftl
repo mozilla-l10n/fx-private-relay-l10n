@@ -37,6 +37,7 @@ multi-part-onboarding-premium-email-domain-added = Vaše e-mailová doména:
 multi-part-onboarding-premium-add-extension-headline = Přidejte si rozšíření { -brand-name-relay }
 multi-part-onboarding-premium-add-extension-feature-headline = Pomocí rozšíření { -brand-name-relay } můžete:
 multi-part-onboarding-premium-add-extension-feature-headline-create-any-site = Vytvářet nové masky { -brand-name-relay } z libovolné webové stránky
+multi-part-onboarding-premium-add-extension-feature-body = Rozšíření { -brand-name-relay } vám umožňuje okamžitě vytvářet nové masky, kdykoli vás webové stránky požádají o vaši e-mailovou adresu – stačí hledat ikonu { -brand-name-relay }.
 multi-part-onboarding-premium-add-extension-feature-cta = Přidat rozšíření { -brand-name-relay }
 
 ## Step 3 Relay Extension Added
