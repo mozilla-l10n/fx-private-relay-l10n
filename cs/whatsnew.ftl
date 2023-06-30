@@ -82,6 +82,7 @@ whatsnew-feature-mailing-list-heading = Získejte pomoc s ochranou vašeho soukr
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-mailing-list-snippet = Není snadné držet krok s nejnovějšími tipy na ochranu soukromí a zabezpečení…
+whatsnew-feature-mailing-list-description = Není snadné držet krok s nejnovějšími tipy a návyky v oblasti ochrany soukromí a zabezpečení. Spustili jsme proto zpravodaj, který vám pomůže zajistit váš online život bezpečnější.
 whatsnew-feature-mailing-list-cta = Odběr zpravodaje
 whatsnew-feature-premium-expansion-eu-heading = Nyní je dostupný neomezený počet masek
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.

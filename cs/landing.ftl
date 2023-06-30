@@ -58,6 +58,9 @@ how-it-works-section-manage-headline = Spravujte své masky z nástěnky { -bran
 ## PRICING MATRIX SECTION
 
 plan-matrix-offer-title = Vyberte si úroveň ochrany, která vám vyhovuje
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
+plan-matrix-offer-body = Služba { -brand-name-firefox-relay } chrání vaši identitu a schránku s doručenou poštou pomocí jedinečných e-mailových masek. Ještě větší bezpečnost získáte pomocí maskování telefonu službou { -brand-name-relay } a ušetříte { $savings } přidáním ochrany pomocí { -brand-name-vpn }.
 
 # Top Row Labels
 
@@ -154,6 +157,9 @@ highlighted-features-section-new-item = Novinka!
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = Každý dostane několik e-mailových masek zdarma (celkem { $mask_limit }). Ale pomocí { -brand-name-relay-premium } můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svoji e-mailovou schránku před odesílateli nevyžádané pošty, hackery a sledováním pomocí sledovacích prvků.
 
 # Item 2
 
@@ -208,6 +214,7 @@ premium-promo-availability-warning-2 =
        *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
     }
 premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je dostupná v Belgii, Estonsku, Finsku, Francii, Irsku, Itálii, Kanadě, Kypru, Litvě, Lotyšsku, Lucembursku, Malajsii, Maltě, Německu, Nizozemsku, na Novém Zélandu, v Portugalsku, Rakousku, Řecku, Singapuru, Slovensku, Slovinsku, Spojeném království, Španělsku, Švédsku, Švýcarsku a Spojených státech.
+premium-promo-availability-warning-4 = Služba { -brand-name-relay-premium } je k dispozici v Rakousku, Bulharsku, Belgii, Kanadě, Chorvatsku, Kypru, České republice, Dánsku, Estonsku, Finsku, Francii, Německu, Řecku, Maďarsku, Irsku, Itálii, Lotyšsku, Litvě, Lucembursko, Malajsie, Malta, Nizozemsko, Nový Zéland, Polsko, Portugalsko, Rumunsko, Singapur, Slovensko, Slovinsko, Španělsko, Švédsko, Švýcarsko, Spojené království a Spojené státy americké.
 premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
 premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
 premium-promo-perks-cta-label = Upgradujte hned teď

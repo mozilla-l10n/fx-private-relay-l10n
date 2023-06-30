@@ -114,3 +114,4 @@ faq-question-bulk-trackerremoval-answer = Odstraňování sledovacích prvků lz
 faq-question-trackerremoval-breakage-question = Proč moje e-maily vypadají jako rozbité?
 faq-question-trackerremoval-breakage-answer-2 = Občas může odstranění sledovacích prvků způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech. Po odstranění sledovacího prvku vypadá e-mail jako špatně naformátovaný, protože chybí obrázky. U e-mailů, které jste již obdrželi, toto nelze nijak opravit. Pokud kvůli tomu není možné si e-maily korektně přečíst, vypněte odstraňování sledovacích prvků.
 faq-question-define-tracker-question = Co jsou sledovací prvky v e-mailech?
+faq-question-define-tracker-answer-parttwo = Společnost nebo organizace vkládají sledovací prvky do e-mailů, které vám posílají, obvykle skrytě do obrázků nebo odkazů. Po otevření e-mailu kód sledovacího prvku odešle údaje zpět dané společnosti.
