@@ -116,6 +116,8 @@ trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημι�
 
 contains-tracker-title = Αυτός ο σύνδεσμος ή η εικόνα περιέχει ιχνηλάτη
 contains-tracker-warning-title = Θέλετε ακόμα να δείτε τον σύνδεσμο;
+contains-tracker-warning-view-link-cta = Ναι, εμφάνιση συνδέσμου
+contains-tracker-faq-section-title = Συχνές ερωτήσεις σχετικά με τους ιχνηλάτες email
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -233,6 +235,13 @@ relay-email-byline-html = από το <a href="{ $url }" { $attrs }>{ -brand-nam
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
 relay-email-forwarded-from-html = Προωθήθηκε από το <a href="{ $url }" { $attrs }>{ $email_address }</a>
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] Αφαιρέθηκε 1 ιχνηλάτης email
+       *[other] Αφαιρέθηκαν { $number } ιχνηλάτες email
+    }
 
 ## Email sent to free users who try to reply
 
@@ -254,6 +263,7 @@ manage-your-masks = Διαχειριστείτε τις μάσκες σας
 
 first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
+first-time-user-email-how-item-2-header = Θα προωθήσουμε όλα τα email στα εισερχόμενά σας
 first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
 # Variables
 #   $url (string) - URL of the support team website
