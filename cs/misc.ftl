@@ -107,6 +107,7 @@ trackerreport-tracker-count =
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 trackerreport-trackers-explainer-heading = O sledovacích prvcích v e-mailech
+trackerreport-trackers-explainer-content-part1 = Sledování e-mailů je běžný sledovací a reklamní nástroj, který ovládl mnoho e-mailových schránek. Pomocí těchto sledovacích prvků lze zjistit více o vašem chování na internetu, vašich zájmech a vaší e-mailové aktivitě.
 trackerreport-breakage-warning-2 = Důležité: Odstranění sledovacích prvků může způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech. Takto obdržené e-maily nelze opravit ani obnovit.
 trackerreport-faq-heading = Nejčastější otázky o nástrojích na sledování e-mailů
 trackerreport-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(case: "dat") }
