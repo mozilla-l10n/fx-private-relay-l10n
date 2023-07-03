@@ -81,5 +81,5 @@ whatsnew-feature-premium-expansion-eu-heading = Most már korlátlan számú mas
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = A { -brand-name-firefox-relay-premium } már elérhető az országában…
-whatsnew-feature-premium-expansion-eu-description = A { -brand-name-firefox-relay-premium } már elérhető az országában. Védje meg a postaládáját a korlátlan számú e-mail-maszkkal, és kapjon egy egyedi { -brand-name-relay } e-mail domaint, hogy egyszerű és biztonságos legyen a maszkok létrehozása útközben.
+whatsnew-feature-premium-expansion-eu-description = A { -brand-name-firefox-relay-premium } mostantól elérhető az országában. Védje meg a postaládáját a korlátlan számú e-mail-maszkokkal, és kapjon egy egyedi { -brand-name-relay } e-mail-domaint, hogy a maszkok menet közbeni létrehozása egyszerű és biztonságos legyen.
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } beszerzése
