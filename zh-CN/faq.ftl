@@ -45,6 +45,7 @@ faq-question-availability-question = 哪些地方可以使用 { -brand-name-rela
 faq-question-availability-answer = 绝大多数国家/地区都可使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v2 = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、芬兰、法国、比利时、奥地利、西班牙、意大利、瑞典、瑞士、荷兰和爱尔兰可用。
 faq-question-availability-answer-v3 = 大多数国家/地区都提供免费的 { -brand-name-relay }。 { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+faq-question-availability-answer-v4 = 大多数国家/地区都提供免费的 { -brand-name-relay }。 { -brand-name-relay-premium } 可用于奥地利、保加利亚、比利时、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
 faq-question-landing-page-availability = 绝大多数国家/地区都可以使用免费版 { -brand-name-relay }。{ -brand-name-relay-premium } 马甲邮箱则在美国、德国、英国、加拿大、新加坡、马来西亚、新西兰、法国、比利时、奥地利、西班牙、意大利、瑞士、荷兰和爱尔兰可用。
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 马甲回邮件吗？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 用户可在收到转发的邮件后三个月内进行回复。若您在回复邮件时添加抄送或密送，原始邮箱地址将会暴露给邮件中的收件人。若您不想暴露原始发件地址，请勿在回复时添加抄送或密送。

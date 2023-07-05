@@ -212,6 +212,7 @@ premium-promo-offer-end-hero-cta = 立即升级
 premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
 premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
 premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
+premium-promo-availability-warning-4 = { -brand-name-relay-premium } 可用于奥地利、保加利亚、比利时、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
 premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
 premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
 premium-promo-perks-cta-label = 立即升级
