@@ -248,6 +248,7 @@ first-time-user-email-hero-secondary-text = Spravujte všechny své masky z nás
 first-time-user-email-hero-cta = Zobrazit moji nástěnku
 first-time-user-email-how-title = Jak { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
+first-time-user-email-how-item-1-subhead-text = Masky můžete vytvářet přímo ve { -brand-name-firefox(case: "gen") }, pomocí doplňku { -brand-name-relay } nebo nástěnky služby { -brand-name-relay } .
 first-time-user-email-how-item-2-header = Všechny e-maily přepošleme do vaší e-mailové schránky
 first-time-user-email-how-item-2-subhead = Odesílatelé nikdy neuvidí vaši skutečnou adresu a e-maily můžete kdykoliv zablokovat.
 first-time-user-email-how-item-3-header = Spravujte své masky z nástěnky { -brand-name-relay }
@@ -277,6 +278,9 @@ first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 
 ## API error messages
 
+# Variables:
+#   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
+api-error-free-tier-limit = Využili jste všech { $free_tier_limit } e-mailových masek, které jsou součástí vašeho bezplatného účtu. Můžete znovu použít stávající masku, ale použití jedinečné masky pro každý účet je nejbezpečnější možností.
 api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlastní subdomény pro masky. Pokud chcete vlastní masky, aktualizujte na { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
