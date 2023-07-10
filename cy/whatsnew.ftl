@@ -81,3 +81,9 @@ whatsnew-feature-mailing-list-heading = Cael cymorth i ddiogelu eich preifatrwyd
 whatsnew-feature-mailing-list-snippet = Dyw hi ddim yn hawdd cadw i fyny â'r awgrymiadau preifatrwydd a diogelwch diweddaraf…
 whatsnew-feature-mailing-list-description = Dyw hi ddim yn hawdd cadw i fyny â'r awgrymiadau a'r arferion preifatrwydd a diogelwch diweddaraf. Felly rydym wedi dechrau cylchlythyr i'ch helpu i wneud eich bywyd ar-lein yn fwy diogel.
 whatsnew-feature-mailing-list-cta = Tanysgrifiwch i'r cylchlythyr
+whatsnew-feature-premium-expansion-eu-heading = Arallenwau diderfyn ar gael nawr
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = Mae { -brand-name-firefox-relay-premium } bellach ar gael yn eich gwlad…
+whatsnew-feature-premium-expansion-eu-description = Mae { -brand-name-firefox-relay-premium } bellach ar gael yn eich gwlad. Diogelwch eich blwch derbyn gydag arallenwau e-bost diderfyn, a chael parth e-bost { -brand-name-relay } unigryw i wneud creu arallenwau wrth fynd yn hawdd ac yn ddiogel.
+whatsnew-feature-premium-expansion-eu-cta = Cael { -brand-name-relay-premium }
