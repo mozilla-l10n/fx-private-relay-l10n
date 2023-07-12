@@ -219,6 +219,13 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 relay-email-upgrade-for-more-protection = ودھیک حفاظت کیتے اپ گریڈ کرو
 relay-email-manage-this-mask = ایہ ماسک منظم کرو
 relay-email-your-dashboard = تہاݙا ڈیش بورڈ
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 ای میل ٹریکر ہٹ ڳیا
+       *[other] { $number } ای میل ٹریکر ہٹ ڳئے
+    }
 
 ## Email sent to free users who try to reply
 
