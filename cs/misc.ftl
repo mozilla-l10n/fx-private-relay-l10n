@@ -161,6 +161,9 @@ survey-csat-answer-dissatisfied = Nespokojený
 survey-csat-answer-neutral = Neutrální
 survey-csat-answer-satisfied = Spokojený
 survey-csat-answer-very-satisfied = Velmi spokojený
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Děkujeme za vaši zpětnou vazbu. Rádi bychom se dozvěděli více o tom, jak pro vás můžeme službu { -brand-name-relay } zlepšit. Byli byste ochotni vyplnit dvouminutový dotazník?
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
@@ -248,6 +251,10 @@ first-time-user-email-hero-secondary-text = Spravujte všechny své masky z nás
 first-time-user-email-hero-cta = Zobrazit moji nástěnku
 first-time-user-email-how-title = Jak { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Masky můžete vytvářet přímo ve { -brand-name-firefox(case: "gen") } pomocí <a href="{ $url }" { $attrs }>doplňku { -brand-name-relay }</a> nebo na nástěnce služby { -brand-name-relay } .
 first-time-user-email-how-item-1-subhead-text = Masky můžete vytvářet přímo ve { -brand-name-firefox(case: "gen") }, pomocí doplňku { -brand-name-relay } nebo nástěnky služby { -brand-name-relay } .
 first-time-user-email-how-item-2-header = Všechny e-maily přepošleme do vaší e-mailové schránky
 first-time-user-email-how-item-2-subhead = Odesílatelé nikdy neuvidí vaši skutečnou adresu a e-maily můžete kdykoliv zablokovat.
