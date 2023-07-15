@@ -108,6 +108,7 @@ trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvk�
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 trackerreport-trackers-explainer-heading = O sledovacích prvcích v e-mailech
 trackerreport-trackers-explainer-content-part1 = Sledování e-mailů je běžný sledovací a reklamní nástroj, který ovládl mnoho e-mailových schránek. Pomocí těchto sledovacích prvků lze zjistit více o vašem chování na internetu, vašich zájmech a vaší e-mailové aktivitě.
+trackerreport-trackers-explainer-content-part2 = Společnost nebo organizace vkládají sledovací prvky do e-mailů, které vám posílají, obvykle skrytě do obrázků nebo odkazů. Po otevření e-mailu kód sledovacího prvku odešle údaje zpět dané společnosti.
 trackerreport-breakage-warning-2 = Důležité: Odstranění sledovacích prvků může způsobit, že bude e-mail vypadat jako rozbitý, protože sledovací prvky jsou často obsaženy v obrázcích a odkazech. Takto obdržené e-maily nelze opravit ani obnovit.
 trackerreport-faq-heading = Nejčastější otázky o nástrojích na sledování e-mailů
 trackerreport-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(case: "dat") }
@@ -117,6 +118,13 @@ trackerreport-load-error = Při generování reportu o odstraněných sledovací
 ## Tracker warning page
 
 contains-tracker-title = Tento odkaz nebo obrázek obsahuje sledovací prvek
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    Sledovače e-mailů jsou sledovací nástroje, které společnosti vkládají do e-mailů, aby sledovaly vaše
+    online chování. V zájmu ochrany vašeho soukromí jsme tento sledovač ze zaslaného e-mailu odstranili.
+    <u>{ $sender }</u> dne { $datetime }.
 contains-tracker-warning-title = Chcete přesto zobrazit odkaz?
 contains-tracker-warning-description = Upozornění: Klepnutím na tento odkaz odešlete informaci o vás zpět odesílateli
 contains-tracker-warning-view-link-cta = Ano, zobrazit odkaz
