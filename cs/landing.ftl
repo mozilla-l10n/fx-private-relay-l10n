@@ -54,6 +54,7 @@ how-it-works-section-forward-body = Ujišťujeme vás, že odesílatelé nikdy n
 # Item 3
 
 how-it-works-section-manage-headline = Spravujte své masky z nástěnky { -brand-name-relay }
+how-it-works-section-manage-body = Přihlaste se do nástěnky služby { -brand-name-relay } a vytvářejte nové masky, označujte stávající masky a blokujte hovory, zprávy nebo e-maily z masek, které dostávají příliš mnoho spamu.
 
 ## PRICING MATRIX SECTION
 
@@ -164,10 +165,18 @@ highlighted-features-section-unlimited-masks-body = Každý dostane několik e-m
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
+    Nakupujete? Zkuste nakup@vasedomena.{ $mozmail }.
 
 # Item 3
 
 highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
+highlighted-features-section-replying-body =
+    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
+    maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
 
 # Item 4
 
