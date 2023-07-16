@@ -71,6 +71,9 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ہݨ { -bra
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = اپݨے ای میل دی حفاظت کرݨ ہݨ آسان تھی ڳیا ہے۔ ہݨ تساں بݨا سڳدے او …
 whatsnew-feature-firefox-integration-description = اپݨے ای میل دی حفاظت کرݨ ہݨ آسان تھی ڳیا ہے۔ ہݨ تساں ڈیسک ٹاپ تے اپݨے { -brand-name-firefox } پاس ورڈ مینیجر کنوں براہ راست نویں { -brand-name-relay } ای میل ماسک بݨا سڳدے او۔
+whatsnew-feature-mailing-list-heading = آپݨی رازداری دی حفاظت کیتے مدد گھنو
+whatsnew-feature-mailing-list-cta = خبرنامہ سبسکرائب کرو
+whatsnew-feature-premium-expansion-eu-heading = ہݨ بے شمار ماسک دستیاب ہن
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ہݨ تہاݙے ملک وچ دستیاب ہے۔۔۔
