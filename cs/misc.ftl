@@ -129,6 +129,68 @@ contains-tracker-warning-title = Chcete přesto zobrazit odkaz?
 contains-tracker-warning-description = Upozornění: Klepnutím na tento odkaz odešlete informaci o vás zpět odesílateli
 contains-tracker-warning-view-link-cta = Ano, zobrazit odkaz
 contains-tracker-faq-section-title = Často kladené otázky o sledovacích prvcích v e-mailech
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] zbývá jedna hodina
+                [0] { "" }
+                [one] zbývá jedna hodina
+                [few] zbývají { $remaining_hours } hodiny
+                [many] zbývá { $remaining_hours } hodin
+               *[other] zbývá { $remaining_hours } hodin
+            }
+        [1]
+            { $remaining_hours ->
+                [1] zbývá jeden den a jedna hodina
+                [0] zbývá jeden den
+                [one] zbývá jeden den a jedna hodina
+                [few] zbývá jeden den a { $remaining_hours } hodiny
+                [many] zbývá jeden den a { $remaining_hours } hodin
+               *[other] zbývá jeden den a { $remaining_hours } hodin
+            }
+        [one]
+            { $remaining_hours ->
+                [1] zbývá jeden den a jedna hodina
+                [0] zbývá jeden den
+                [one] zbývá jeden den a jedna hodina
+                [few] zbývá jeden den a { $remaining_hours } hodiny
+                [many] zbývá jeden den a { $remaining_hours } hodin
+               *[other] zbývá jeden den a { $remaining_hours } hodin
+            }
+        [few]
+            { $remaining_hours ->
+                [1] zbývají { $remaining_days } dny a jedna hodina
+                [0] zbývají { $remaining_days } dny
+                [one] zbývají { $remaining_days } dny a jedna hodina
+                [few] zbývají { $remaining_days } dny a { $remaining_hours } hodiny
+                [many] zbývají { $remaining_days } dny a { $remaining_hours } hodin
+               *[other] zbývají { $remaining_days } dny a { $remaining_hours } hodin
+            }
+        [many]
+            { $remaining_hours ->
+                [1] zbývá { $remaining_days } dní a jedna hodina
+                [0] zbývá { $remaining_days } dní
+                [one] zbývá { $remaining_days } dní a jedna hodina
+                [few] zbývá { $remaining_days } dní a { $remaining_hours } hodiny
+                [many] zbývá { $remaining_days } dní a { $remaining_hours } hodin
+               *[other] zbývá { $remaining_days } dní a { $remaining_hours } hodin
+            }
+       *[other]
+            { $remaining_hours ->
+                [1] zbývá { $remaining_days } dní a jedna hodina
+                [0] zbývá { $remaining_days } dní
+                [one] zbývá { $remaining_days } dní a jedna hodina
+                [few] zbývá { $remaining_days } dní a { $remaining_hours } hodiny
+                [many] zbývá { $remaining_days } dní a { $remaining_hours } hodin
+               *[other] zbývá { $remaining_days } dní a { $remaining_hours } hodin
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Dní
