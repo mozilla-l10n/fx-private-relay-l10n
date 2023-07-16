@@ -219,6 +219,21 @@ forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت �
 relay-email-upgrade-for-more-protection = ودھیک حفاظت کیتے اپ گریڈ کرو
 relay-email-manage-this-mask = ایہ ماسک منظم کرو
 relay-email-your-dashboard = تہاݙا ڈیش بورڈ
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a> ولوں
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a> ولوں
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = <a href="{ $url }" { $attrs }>{ $email_address }</a> کنوں فارورڈ تھیا
 # Variables:
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed =
