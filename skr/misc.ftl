@@ -261,8 +261,11 @@ manage-your-masks = آپݨے ماسک منظم کرو
 ## Email sent to first time free users
 
 first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم اللہ
+first-time-user-email-preheader = تہاݙی سُن٘ڄاݨ دی حفاظت کیتے ای میل ماسکنگ
+first-time-user-email-hero-secondary-text = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے سارے ماسک منیج کرو۔
 first-time-user-email-hero-cta = آپݨاں ڈیش بورڈ ݙیکھو
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
+first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
