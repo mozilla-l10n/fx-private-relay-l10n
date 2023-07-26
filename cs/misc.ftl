@@ -104,6 +104,7 @@ trackerreport-tracker-count =
         [many] { $count } sledovacích prvků
        *[other] { $count } sledovacích prvků
     }
+trackerreport-confidentiality-notice = Informace o sledovacích prvcích a adresy odesílatelů v těchto reportech nejsou službou { -brand-name-firefox-relay } ukládány a nachází se pouze v těchto přehledech. Vaše e-maily neukládáme.
 trackerreport-removal-explainer-heading = Jak odstraňování sledovacích prvků funguje
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } nyní umí z e-mailů přeposílaných prostřednictvím e-mailových masek odstranit běžné sledovací prvky. E-maily budete stále dostávat, ale sledovací prvky v přeposlaných e-mailech budou odstraněné, takže své e-maily můžete dostávat bez toho, abyste byli sledováni. Chcete-li zapnout odstraňování sledovacích prvků u všech masek najednou, zapněte odstraňování sledovacích prvků v nastavení a nikoli jednotlivě pro každou masku zvlášť.
 trackerreport-trackers-explainer-heading = O sledovacích prvcích v e-mailech
@@ -345,6 +346,7 @@ first-time-user-email-questions-title = Máte otázky týkající se { -brand-na
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Náš <a href="{ $url }" { $attrs }>tým podpory</a> je tu, aby vám pomohl.
 first-time-user-email-questions-subhead-text = Náš tým podpory je tu, aby vám pomohl.
+first-time-user-email-footer-text-1 = Tento automatický e-mail dostáváte jako odběratel { -brand-name-firefox-relay }, který poprvé použil { -brand-name-relay }. Pokud jste jej obdrželi omylem, není třeba podnikat žádné kroky.
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link

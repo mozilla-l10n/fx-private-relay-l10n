@@ -24,6 +24,10 @@ multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu
 multi-part-onboarding-premium-email-domain-headline = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
 multi-part-onboarding-premium-email-domain-feature-headline = S jedinečnou e-mailovou doménou { -brand-name-relay } můžete:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+multi-part-onboarding-premium-email-domain-feature-body = Vyberte preferovanou e-mailovou doménu služby { -brand-name-relay }, a poté okamžitě vytvořte nové masky přidáním libovolného slova nebo fráze před symbol @. <p>Nakupujete? Použijte obchod@vasedomena.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Vyhledat slovo nebo frázi
 multi-part-onboarding-premium-email-domain-feature-input-search = Hledat
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
