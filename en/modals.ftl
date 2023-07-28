@@ -4,10 +4,10 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-heading-2 = Create a new custom mask
-modal-custom-alias-picker-form-prefix-label-2 = Enter the text that goes before the @ symbol:
+modal-custom-alias-picker-heading-v3 = Create a new custom mask
+modal-custom-alias-picker-form-prefix-label-v3 = Enter the text that goes before the @ symbol:
 modal-custom-alias-picker-form-prefix-placeholder = @customdomain.mozmail.com 
-modal-custom-alias-picker-tip-2 = Tip: To create a custom mask anytime, make it up on the spot. If you use your Relay domain, it’ll work, even if you didn’t generate it here first.
+modal-custom-alias-picker-tip-v3 = Tip: To create a custom mask anytime, make it up on the spot. If you use your Relay domain, it’ll work, even if you didn’t generate it here first.
 
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
