@@ -52,6 +52,13 @@ tips-footer-link-support-tooltip = Contact support
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Learn more
 
+## Popover explaining how custom masks work
+
+popover-custom-alias-explainer-heading-2 = How to create custom masks
+popover-custom-alias-explainer-explanation-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
+popover-custom-alias-explainer-generate-button-heading-2 = Generate a custom mask manually
+popover-custom-alias-explainer-generate-button-label-2 = Generate custom mask
+popover-custom-alias-explainer-close-button-label = Close
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
