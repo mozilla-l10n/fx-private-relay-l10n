@@ -5,7 +5,7 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-tip = 提示：要随时创建自定义马甲，请当场制作。如果您使用您的 { -brand-name-relay } 域名，即使您没有预先生成，它也能用。
+modal-custom-alias-picker-tip = 提示：您可以在需要时随手创建自定义马甲。如果您使用自己的 { -brand-name-relay } 域名，那么可以在输入邮箱地址时随手创建马甲，而不必预先在此处生成。
 modal-custom-alias-picker-heading-2 = 新建自定义马甲
 modal-custom-alias-picker-warning-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customsubdomain.mozmail.com”，这个马甲即会自动生成。
 modal-custom-alias-picker-form-heading-2 = 或手动创建自定义马甲
