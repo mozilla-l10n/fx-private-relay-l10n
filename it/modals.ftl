@@ -5,6 +5,7 @@
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Suggerimento: per creare un alias personalizzato in qualsiasi momento, inventalo al volo. Se utilizzi il tuo dominio { -brand-name-relay }, funzionerà anche senza bisogno di generarlo in anticipo.
 modal-custom-alias-picker-heading-2 = Crea un nuovo alias personalizzato
 modal-custom-alias-picker-warning-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
 modal-custom-alias-picker-form-heading-2 = Oppure crea manualmente un alias personalizzato
