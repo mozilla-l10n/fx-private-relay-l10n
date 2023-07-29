@@ -5,13 +5,14 @@
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Порада: Миттєво створюйте власні маски коли завгодно. Якщо ви користуєтеся власним доменом { -brand-name-relay }, він працюватиме навіть якщо ви попередньо не згенерували маску тут.
 modal-custom-alias-picker-heading-2 = Створіть нову власну маску
 modal-custom-alias-picker-warning-2 = Усе що вам потрібно зробити, це створити й поділитися унікальною маскою, яка використовує ваш власний піддомен – маску буде згенеровано автоматично. Спробуйте, наприклад, “shop@вашдомен.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 modal-custom-alias-picker-form-heading-2 = Або створіть власну маску вручну
-modal-custom-alias-picker-form-prefix-label-2 = Введіть префікс маски адреси електронної пошти
+modal-custom-alias-picker-form-prefix-label-3 = Введіть текст перед символом @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = напр. «coffee»
+modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Пробіли в масках електронної пошти не допускаються.
 modal-custom-alias-picker-form-prefix-invalid-warning = Маски електронної пошти можуть містити лише малі літери, цифри та дефіси й не можуть починатися чи закінчуватися дефісом.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Маски електронної пошти можуть містити лише малі букви, цифри, крапки та дефіси й не можуть починатися чи закінчуватися крапкою або дефісом.
