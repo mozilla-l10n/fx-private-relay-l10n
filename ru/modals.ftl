@@ -2,24 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Совет: чтобы создать настраиваемый псевдоним в любое время, создайте его на месте. Если вы используете свой домен { -brand-name-relay }, псевдоним будет работать, даже если вы не создали его здесь заранее.
 modal-custom-alias-picker-heading-2 = Создайте новый собственный псевдоним
 modal-custom-alias-picker-warning-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customsubdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
 modal-custom-alias-picker-form-heading-2 = Или создайте собственный псевдоним вручную
-modal-custom-alias-picker-form-prefix-label-2 = Введите префикс псевдонима электронной почты
+modal-custom-alias-picker-form-prefix-label-3 = Введите текст перед символом @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = например, «coffee»
+modal-custom-alias-picker-form-prefix-placeholder-2 = @вашдомен.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = В псевдонимах электронной почты нельзя использовать пробелы.
 modal-custom-alias-picker-form-prefix-invalid-warning = Псевдонимы электронной почты могут содержать только строчные буквы, цифры и дефисы, при этом не начинаясь и не оканчиваясь дефисом.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Псевдонимы электронной почты могут содержать только строчные буквы, цифры и дефисы, при этом не начинаясь и не оканчиваясь точкой или дефисом.
 modal-custom-alias-picker-form-submit-label-2 = Создать псевдоним
 modal-custom-alias-picker-creation-error-2 = Не удалось создать пользовательский псевдоним электронной почты вручную. Пожалуйста, попробуйте ещё раз или отправьте письмо на этот псевдоним, чтобы создать его.
-
 modal-rename-alias-saved = Метка сохранена!
 modal-delete-headline-2 = Удалить этот псевдоним электронной почты навсегда?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -36,7 +36,6 @@ modal-delete-confirmation-2 = Да, я хочу удалить этот псев
 modal-domain-register-good-news = Хорошие новости!
 modal-domain-register-warning-reminder-2 = Помните, что вы можете зарегистрировать только один поддомен. Впоследствии его нельзя будет изменить.
 modal-domain-register-button-2 = Зарегистрировать поддомен
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } доступен!
@@ -44,12 +43,10 @@ modal-domain-register-available = { $subdomain } доступен!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> доступен!
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Да, я хочу зарегистрировать <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Готово!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
