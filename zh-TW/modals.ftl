@@ -5,11 +5,11 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-tip = 小秘訣: 若您想要隨時建立自訂轉寄信箱請到網站修改。若您使用 { -brand-name-relay } 網域即使沒有在此產生也可以使用。
+modal-custom-alias-picker-tip = 小秘訣：隨時輸入一段文字即可建立自訂轉寄信箱。就算沒有在這邊先產生帳號，也可以直接使用自己的 { -brand-name-relay } 網域來隨機產生。
 modal-custom-alias-picker-heading-2 = 建立新自訂轉寄信箱
 modal-custom-alias-picker-warning-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 modal-custom-alias-picker-form-heading-2 = 或者手動建立自訂轉寄信箱
-modal-custom-alias-picker-form-prefix-label-3 = 輸入 @ 符號前面的文字:
+modal-custom-alias-picker-form-prefix-label-3 = 輸入 @ 符號前面的文字：
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
