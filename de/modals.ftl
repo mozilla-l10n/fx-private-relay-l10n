@@ -2,24 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Tipp: Um jederzeit eine benutzerdefinierte Maske zu erstellen, erfinden Sie sie an Ort und Stelle. Wenn Sie Ihre { -brand-name-relay }-Domain verwenden, funktioniert die Maske, auch wenn Sie sie nicht zuerst hier erzeugt haben.
 modal-custom-alias-picker-heading-2 = Neue benutzerdefinierte Maske erstellen
 modal-custom-alias-picker-warning-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Domain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 modal-custom-alias-picker-form-heading-2 = Oder erstellen Sie manuell eine benutzerdefiniertes Maske
-modal-custom-alias-picker-form-prefix-label-2 = Präfix für E-Mail-Maske eingeben
+modal-custom-alias-picker-form-prefix-label-3 = Geben Sie den Text vor dem @-Symbol ein:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = z.B. „Kaffee“
+modal-custom-alias-picker-form-prefix-placeholder-2 = @benutzerdefiniertedomain.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Leerzeichen sind in E-Mail-Masken nicht erlaubt.
 modal-custom-alias-picker-form-prefix-invalid-warning = E-Mail-Masken dürfen nur Kleinbuchstaben, Zahlen und Bindestriche enthalten und dürfen nicht mit einem Bindestrich beginnen oder enden.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-Mail-Masken dürfen nur Kleinbuchstaben, Zahlen Punkte und Bindestriche enthalten und dürfen nicht mit einem Punkt oder Bindestrich beginnen oder enden.
 modal-custom-alias-picker-form-submit-label-2 = Maske erzeugen
 modal-custom-alias-picker-creation-error-2 = Ihre benutzerdefinierte Maske konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Maske, um sie zu erstellen.
-
 modal-rename-alias-saved = Beschriftung gespeichert!
 modal-delete-headline-2 = Diese E-Mail-Maske endgültig löschen?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -36,7 +36,6 @@ modal-delete-confirmation-2 = Ja, ich möchte diese Maske löschen.
 modal-domain-register-good-news = Gute Nachrichten!
 modal-domain-register-warning-reminder-2 = Denken Sie daran, dass Sie nur eine Subdomain registrieren kannst. Sie können sie später nicht mehr ändern.
 modal-domain-register-button-2 = Subdomain registrieren
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } ist verfügbar!
@@ -44,12 +43,10 @@ modal-domain-register-available = { $subdomain } ist verfügbar!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist verfügbar!
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ich möchte <subdomain>{ $subdomain }</subdomain> registrieren
 modal-domain-register-success-title = Fertig!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
