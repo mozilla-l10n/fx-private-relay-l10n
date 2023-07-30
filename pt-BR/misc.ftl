@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Entre em contato com o suporte
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Dica { $nr }
 tips-toast-button-expand-label = Saiba mais
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Como criar máscaras personalizadas
-popover-custom-alias-explainer-explanation-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
-popover-custom-alias-explainer-generate-button-heading-2 = Gerar uma máscara personalizada manualmente
-popover-custom-alias-explainer-generate-button-label-2 = Gerar máscara personalizada
-popover-custom-alias-explainer-close-button-label = Fechar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear emails promocionais
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative o bloqueio de emails promocionais em uma máscara para impedir que emails de marketing cheguem à sua caixa de entrada.
@@ -68,7 +60,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mais informa�
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = Como criar máscaras usando seu subdomínio personalizado
-tips-custom-alias-content-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
+tips-custom-alias-content-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “nomedaloja@dominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
 
 ## Tip about using custom masks
 

@@ -10,6 +10,9 @@ modal-custom-alias-picker-heading-2 = Criar máscara personalizada
 modal-custom-alias-picker-warning-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@subdominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
 modal-custom-alias-picker-form-heading-2 = Ou crie uma máscara personalizada manualmente
 modal-custom-alias-picker-form-prefix-label-3 = Digite o texto que vem antes do símbolo @:
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder-2 = @dominiopersonalizado.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Não são permitidos espaços em máscaras de email.
 modal-custom-alias-picker-form-prefix-invalid-warning = Máscaras de email só podem conter letras minúsculas, números e traços e não podem começar nem terminar com um traço.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Máscaras de email só podem conter letras minúsculas, números, pontos e traços e não podem começar nem terminar com um ponto ou traço.
