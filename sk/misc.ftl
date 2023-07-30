@@ -25,13 +25,13 @@ error-subdomain-email-not-created = E-mailovú adresu so subdoménou sa nepodari
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } nie je k dispozícii. Skúste inú.
 error-settings-update = Pri aktualizácii nastavení sa vyskytla chyba, skúste to znova
-error-mask-create-failed = Masku nebolo možné vytvoriť. Prosím skúste znova.
+error-mask-create-failed = Masku nebolo možné vytvoriť. Prosím skúste to znova.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
-error-mask-update-failed = Údaje masky sa nepodarilo aktualizovať. Prosím skúste znova.
+error-mask-update-failed = Údaje masky sa nepodarilo aktualizovať. Prosím skúste to znova.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
-error-mask-delete-failed = Masku { $mask } nebolo možné odstrániť. Prosím skúste znova.
+error-mask-delete-failed = Masku { $mask } nebolo možné odstrániť. Prosím skúste to znova.
 
 ## Notifications component
 
@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kontaktovať podporu
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Ďalšie informácie
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Ako vytvárať vlastné masky
-popover-custom-alias-explainer-explanation-2 = Všetko, čo musíte urobiť, je vytvoriť a zdieľať jedinečnú masku, ktorý používa vašu vlastnú subdoménu – maska sa vygeneruje automaticky. Keď budete nabudúce nakupovať cez internet, skúste zadať napríklad “nakupy@vlastnadomena.mozmail.com”.
-popover-custom-alias-explainer-generate-button-heading-2 = Manuálne vytvorenie vlastnej masky
-popover-custom-alias-explainer-generate-button-label-2 = Vytvoriť vlastnú e-mailovú masku
-popover-custom-alias-explainer-close-button-label = Zavrieť
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovať marketingové e-maily
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Povoľte možnosť Blokovať marketingové e-maily na maske, aby ste zabránili tomu, aby sa marketingové e-maily dostávali do vašej doručenej pošty.
