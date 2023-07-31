@@ -5,14 +5,14 @@
 
 ## Modal for generating a custom mask
 
-modal-custom-alias-picker-tip = Astuce : pour créer un alias personnalisé à tout moment, modifiez-le immédiatement. Si vous utilisez votre domaine { -brand-name-relay }, cela fonctionnera, même si vous ne l’avez pas généré au préalable ici.
+modal-custom-alias-picker-tip = Astuce : pour créer un alias personnalisé à tout moment, inventez-en un à la volée. Si vous utilisez votre domaine { -brand-name-relay }, il fonctionnera, même si vous ne l’avez pas généré au préalable ici.
 modal-custom-alias-picker-heading-2 = Créer un nouvel alias personnalisé
 modal-custom-alias-picker-warning-2 = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre sous-domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@monsousdomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
 modal-custom-alias-picker-form-heading-2 = Ou créez manuellement un alias personnalisé
 modal-custom-alias-picker-form-prefix-label-3 = Saisissez le texte qui doit précéder le symbole @ :
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
+modal-custom-alias-picker-form-prefix-placeholder-2 = @domainepersonnalisé.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Les espaces ne sont pas autorisées dans les alias de messagerie.
 modal-custom-alias-picker-form-prefix-invalid-warning = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres et des traits d’union, et ne peuvent pas commencer ou se terminer par un trait d’union.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres, des points et des traits d’union, et ne peuvent pas commencer ou se terminer par un point ou un trait d’union.
