@@ -5,6 +5,7 @@
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Consilio: pro crear un masca personal quando tu lo vole, inventa lo al volo. Si tu usa tu dominio { -brand-name-relay }, illo functionara, mesmo si tu primo non lo generava ci.
 modal-custom-alias-picker-heading-2 = Crear un nove masca personalisate
 modal-custom-alias-picker-warning-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
 modal-custom-alias-picker-form-heading-2 = O, crea manualmente un masca personal
