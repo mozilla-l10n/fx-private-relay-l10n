@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Επικοινωνία με την υποστ
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Συμβουλή { $nr }
 tips-toast-button-expand-label = Μάθετε περισσότερα
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Τρόπος δημιουργίας προσαρμοσμένων μασκών
-popover-custom-alias-explainer-explanation-2 = Χρειάζεται μόνο να δημιουργήσετε και να μοιραστείτε μια μοναδική μάσκα που να χρησιμοποιεί τον προσαρμοσμένο υποτομέα σας — η μάσκα θα δημιουργηθεί αυτόματα. Δοκιμάστε για παράδειγμα το «katasthma@onomatomea.mozmail.com» την επόμενη φορά που θα κάνετε αγορές στο διαδίκτυο.
-popover-custom-alias-explainer-generate-button-heading-2 = Χειροκίνητη δημιουργία μάσκας
-popover-custom-alias-explainer-generate-button-label-2 = Δημιουργία προσαρμοσμένης μάσκας
-popover-custom-alias-explainer-close-button-label = Κλείσιμο
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Φραγή διαφημιστικών email
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ενεργοποιήστε τη Φραγή διαφημιστικών email σε μια μάσκα για να διακόψετε την αποστολή τους στα εισερχόμενά σας.
@@ -264,6 +256,7 @@ manage-your-masks = Διαχειριστείτε τις μάσκες σας
 first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
 first-time-user-email-how-item-2-header = Θα προωθήσουμε όλα τα email στα εισερχόμενά σας
+first-time-user-email-extra-protection-cta = Αποκτήστε το { -brand-name-relay-premium }
 first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
 # Variables
 #   $url (string) - URL of the support team website
