@@ -9,6 +9,10 @@ modal-custom-alias-picker-tip = Awgrym: I greu arallenw cyfaddas crewch un yn sy
 modal-custom-alias-picker-heading-2 = Crëwch arallenw personol newydd
 modal-custom-alias-picker-warning-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth cyfaddas - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 modal-custom-alias-picker-form-heading-2 = Neu, crëwch arallenw personol â llaw
+modal-custom-alias-picker-form-prefix-label-3 = Rhowch y testun sy'n mynd cyn y symbol @:
+# This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
+# as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
+modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Nid oes caniatâd i fylchau mewn arallenwau
 modal-custom-alias-picker-form-prefix-invalid-warning = Dim ond llythrennau bach, rhifau a chysylltiadau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chysylltnod.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Dim ond llythrennau bach, rhifau, cyfnodau a chysylltnodau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chyfnod na chysylltnod.
