@@ -45,12 +45,6 @@ locales = [
         "fr",
     ]
 [[paths]]
-    reference = "en/faq.ftl"
-    l10n = "{locale}/faq.ftl"
-[[paths]]
-    reference = "en/landing.ftl"
-    l10n = "{locale}/landing.ftl"
-[[paths]]
     reference = "en/layout.ftl"
     l10n = "{locale}/layout.ftl"
 [[paths]]
