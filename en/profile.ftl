@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Get unlimited email masks
 profile-label-create-subdomain = Get your email subdomain
 profile-label-subdomain = Email Subdomain:
 profile-label-custom-domain = Your { -brand-name-relay } email domain:
+# Deprecated
 profile-label-set-your-custom-domain = Set your unique { -brand-name-relay } email domain
 profile-label-subdomain-tooltip-trigger = More info
 profile-label-subdomain-tooltip = Create your unique email subdomain.
