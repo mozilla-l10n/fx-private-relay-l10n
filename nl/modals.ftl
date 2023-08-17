@@ -2,24 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = Tip: als u op elk moment een aangepast masker wilt maken, verzin dat dan ter plekke. Als u uw { -brand-name-relay }-domein gebruikt, werkt het, zelfs als u het hier niet eerst heeft aangemaakt.
 modal-custom-alias-picker-heading-2 = Een nieuwe aangepast masker aanmaken
 modal-custom-alias-picker-warning-2 = Het enige dat u hoeft te doen, is een uniek masker bedenken en delen dat uw aangepaste domein gebruikt – het masker wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastsubdomein.mozmail.com”.
 modal-custom-alias-picker-form-heading-2 = Of maak handmatig een aangepast masker
-modal-custom-alias-picker-form-prefix-label-2 = Voer maskervoorvoegsel in
+modal-custom-alias-picker-form-prefix-label-3 = Voer de tekst in die voor het @-teken komt:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = b.v. ‘koffie’
+modal-custom-alias-picker-form-prefix-placeholder-2 = @aangepastdomein.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Spaties zijn niet toegestaan in e-mailmaskers.
 modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers mogen alleen kleine letters, cijfers en koppeltekens bevatten en mogen niet beginnen of eindigen met een koppelteken.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailmaskers mogen alleen kleine letters, cijfers, punten en koppeltekens bevatten en mogen niet beginnen of eindigen met een punt of een koppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker aanmaken
 modal-custom-alias-picker-creation-error-2 = Uw aangepaste masker kan niet handmatig worden gemaakt. Probeer het opnieuw of stuur een e-mailbericht naar het masker om het aan te maken.
-
 modal-rename-alias-saved = Label opgeslagen!
 modal-delete-headline-2 = Dit masker definitief verwijderen?
-
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -36,7 +36,6 @@ modal-delete-confirmation-2 = Ja, ik wil dit masker verwijderen.
 modal-domain-register-good-news = Goed nieuws!
 modal-domain-register-warning-reminder-2 = Onthoud dat u slechts één subdomein kunt registreren. U kunt het later niet meer wijzigen.
 modal-domain-register-button-2 = Subdomein registreren
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } is beschikbaar!
@@ -44,12 +43,10 @@ modal-domain-register-available = { $subdomain } is beschikbaar!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is beschikbaar!
-
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Ja, ik wil <subdomain>{ $subdomain }</subdomain> registreren
 modal-domain-register-success-title = Gelukt!
-
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use
 #   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
