@@ -125,3 +125,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Available t
 profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waitlist
 profile-promo-email-blocking-description-promotionals-locked-close = Close
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = You’ve used all { $limit } masks. You can reuse them, but using a unique mask for each account is the most secure option.
+profile-maxed-aliases-with-phone-header = Maximize your email and phone protection
+profile-maxed-aliases-without-phone-header = Maximize your { -brand-name-relay } email protection
+profile-maxed-aliases-with-phone-description = You’ve hit your { $limit }-mask limit on your free { -brand-name-relay } account. Upgrade to { -brand-name-relay-premium } for unlimited email masks, plus the ability to protect your phone number.
+profile-maxed-aliases-without-phone-description = You’ve hit your { $limit }-mask limit on your free { -brand-name-relay } account. Upgrade to { -brand-name-relay-premium } for unlimited email masks.
+profile-maxed-aliases-cta = Upgrade to { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Get your own email domain with { -brand-name-premium }
