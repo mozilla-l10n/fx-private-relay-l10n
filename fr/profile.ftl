@@ -128,10 +128,10 @@ profile-promo-email-blocking-description-promotionals-locked-close = Fermer
 # Mask limit has been reached. 
 # Variables:
 # $limit (number) - the current limit of free masks you can create.
-profile-maxed-aliases-tooltip = Vous avez utilisé les { $limit } alias. Vous pouvez les réutiliser, mais utiliser un alias unique pour chaque compte est l’option la plus sûre.
-profile-maxed-aliases-with-phone-header = Optimisez la protection de votre téléphone et de votre messagerie électronique
+profile-maxed-aliases-tooltip = Vous avez utilisé les { $limit } alias. Vous pouvez les réutiliser, mais se servir d’un alias unique pour chaque compte est l’option la plus sûre.
+profile-maxed-aliases-with-phone-header = Optimisez la protection de votre téléphone et de vos e-mails
 profile-maxed-aliases-without-phone-header = Optimisez la protection de vos e-mails avec { -brand-name-relay }
-profile-maxed-aliases-with-phone-description = Vous avez atteint la limite d’alias { $limit } de votre compte gratuit { -brand-name-relay }. Passez à { -brand-name-relay-premium } pour un nombre illimité d’alias de messagerie, et la possibilité de protéger votre numéro de téléphone.
-profile-maxed-aliases-without-phone-description = Vous avez atteint la limite d’alias { $limit } de votre compte gratuit { -brand-name-relay }. Passez à { -brand-name-relay-premium } pour un nombre illimité d’alias de messagerie.
+profile-maxed-aliases-with-phone-description = Vous avez atteint la limite des { $limit } alias de votre compte { -brand-name-relay } gratuit. Passez à { -brand-name-relay-premium } pour disposer d’un nombre illimité d’alias de messagerie et de la possibilité de protéger votre numéro de téléphone.
+profile-maxed-aliases-without-phone-description = Vous avez atteint la limite des { $limit } alias de votre compte { -brand-name-relay } gratuit. Passez à { -brand-name-relay-premium } pour disposer d’un nombre illimité d’alias de messagerie.
 profile-maxed-aliases-cta = Passer à { -brand-name-premium }
-profile-label-set-your-custom-domain-free-user = Obtenez votre propre domaine de messagerie avec { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Disposez de votre propre domaine de messagerie avec { -brand-name-premium }
