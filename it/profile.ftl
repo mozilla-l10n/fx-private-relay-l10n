@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Crea il tuo primo alias di posta elettronica
 onboarding-alias-tip-1-2 = Fai clic sul pulsante “Genera nuovo alias” per creare il tuo primo alias di posta elettronica.
 onboarding-alias-tip-2 = Con l’estensione { -brand-name-relay } installata, seleziona l’icona di { -brand-name-firefox-relay } quando appare nei campi email.
 onboarding-alias-tip-3-2 = Con l’estensione { -brand-name-relay } installata, fai clic con il tasto destro del mouse sui campi del modulo e seleziona “Genera nuovo alias”.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Ciao,</span> { $email }.
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Ottieni alias di posta elettronica illimitati
 profile-label-create-subdomain = Ottieni il tuo sottodominio email
 profile-label-subdomain = Sottodominio email:
 profile-label-custom-domain = Il tuo dominio di posta elettronica { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Imposta il tuo dominio di posta elettronica { -brand-name-relay } univoco
 profile-label-subdomain-tooltip-trigger = Altre informazioni
 profile-label-subdomain-tooltip = Crea il tuo sottodominio email univoco.
@@ -43,18 +44,14 @@ profile-label-reset = Ripristina
 profile-label-apply = Applica
 profile-label-skip = Ignora
 profile-label-continue = Continua
-
 # This string is followed by an email address
 profile-label-forward-emails = Inoltra messaggi a:
-
 # This string is followed by date
 profile-label-first-emailed = Data primo invio:
-
 # This string is followed by date:
 profile-label-created = Data creazione:
 profile-label-details-show = Mostra dettagli
 profile-label-details-hide = Nascondi dettagli
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = inoltro attivo
 profile-label-blocking = inoltro bloccato
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Disponibile
 profile-promo-email-blocking-description-promotionals-locked-cta = Aggiorna adesso
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Iscriviti alla lista d’attesa per { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Chiudi
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Hai utilizzato tutti gli alias disponibili ({ $limit }). Puoi riutilizzarli, ma utilizzare un alias univoco per ogni account è l’opzione più sicura.
+profile-maxed-aliases-with-phone-header = Ottimizza la protezione della tua email e del tuo telefono
+profile-maxed-aliases-without-phone-header = Ottimizza la protezione della tua email { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Hai raggiunto il limite di { $limit } alias per il tuo account gratuito { -brand-name-relay }. Passa a { -brand-name-relay-premium } per un numero illimitato di alias email, oltre alla possibilità di proteggere il tuo numero di telefono.
+profile-maxed-aliases-without-phone-description = Hai raggiunto il limite di { $limit } alias per il tuo account gratuito { -brand-name-relay }. Passa a { -brand-name-relay-premium } per un numero illimitato di alias email.
+profile-maxed-aliases-cta = Passa a { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Ottieni il tuo dominio email con { -brand-name-premium }
