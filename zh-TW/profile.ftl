@@ -128,10 +128,10 @@ profile-promo-email-blocking-description-promotionals-locked-close = 關閉
 # Mask limit has been reached. 
 # Variables:
 # $limit (number) - the current limit of free masks you can create.
-profile-maxed-aliases-tooltip = 您已使用全部 { $limit } 轉寄信箱。您可以重複使用它們但為每個帳號設定不同的轉寄信箱是最安全的方式。
+profile-maxed-aliases-tooltip = 您已用完全部 { $limit } 組轉寄信箱。可以重複使用它們，但為每個帳號設定不同的轉寄信箱最安全。
 profile-maxed-aliases-with-phone-header = 最大程度地保護您的 E-Mail 與手機號碼
-profile-maxed-aliases-without-phone-header = 加強您 { -brand-name-relay } 的郵件保護
-profile-maxed-aliases-with-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit }-mask 數量已達 { -brand-name-relay } 數量上限。升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱與保護您手機號碼的功能。
-profile-maxed-aliases-without-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit }-mask 數量已達 { -brand-name-relay } 數量上限。升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱。
+profile-maxed-aliases-without-phone-header = 最大化您的 { -brand-name-relay } 的郵件保護
+profile-maxed-aliases-with-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit } 組轉寄信箱數量已達 { -brand-name-relay } 的上限。請升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱與手機號碼保護功能。
+profile-maxed-aliases-without-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit } 組轉寄信箱數量已達 { -brand-name-relay } 的上限。請升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱。
 profile-maxed-aliases-cta = 升級到 { -brand-name-premium }
-profile-label-set-your-custom-domain-free-user = 使用 { -brand-name-premium } 取得您自己的郵件網域
+profile-label-set-your-custom-domain-free-user = 在  { -brand-name-premium } 使用您自己的郵件網域
