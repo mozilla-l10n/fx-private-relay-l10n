@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Uw eerste e-mailmasker aanmaken
 onboarding-alias-tip-1-2 = Selecteer ‘Nieuw masker aanmaken’ om uw eerste e-mailmasker aan te maken.
 onboarding-alias-tip-2 = Selecteer als u de { -brand-name-relay }-extensie gebruikt het { -brand-name-firefox-relay }-pictogram wanneer dit in e-mailvelden verschijnt.
 onboarding-alias-tip-3-2 = Klik als u de { -brand-name-relay }-extensie gebruikt met de rechtermuisknop op formuliervelden en selecteer ‘Nieuw masker aanmaken’.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Welkom,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Onbeperkte e-mailmaskers verkrijgen
 profile-label-create-subdomain = Uw e-mailsubdomein verkrijgen
 profile-label-subdomain = E-mailsubdomein:
 profile-label-custom-domain = Uw { -brand-name-relay }-e-maildomein:
+# Deprecated
 profile-label-set-your-custom-domain = Stel uw unieke { -brand-name-relay }-e-maildomein in
 profile-label-subdomain-tooltip-trigger = Meer info
 profile-label-subdomain-tooltip = Maak uw unieke e-mailsubdomein aan.
@@ -43,18 +44,14 @@ profile-label-reset = Herinitialiseren
 profile-label-apply = Toepassen
 profile-label-skip = Overslaan
 profile-label-continue = Doorgaan
-
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberichten doorsturen naar:
-
 # This string is followed by date
 profile-label-first-emailed = Eerste keer gemaild:
-
 # This string is followed by date:
 profile-label-created = Gemaakt:
 profile-label-details-show = Details tonen
 profile-label-details-hide = Details verbergen
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = doorsturen
 profile-label-blocking = blokkeren
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Beschikbaar
 profile-promo-email-blocking-description-promotionals-locked-cta = Nu upgraden
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Inschrijven voor de { -brand-name-relay-premium }-wachtlijst
 profile-promo-email-blocking-description-promotionals-locked-close = Sluiten
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = U hebt alle { $limit } maskers gebruikt. U kunt ze opnieuw gebruiken, maar het gebruik van een uniek masker voor elke account is de veiligste optie.
+profile-maxed-aliases-with-phone-header = Maximaliseer uw e-mail- en telefoonbeveiliging
+profile-maxed-aliases-without-phone-header = Maximaliseer uw { -brand-name-relay }-e-mailbeveiliging
+profile-maxed-aliases-with-phone-description = U hebt de grens van { $limit } maskers op uw gratis { -brand-name-relay }-account bereikt. Upgrade naar { -brand-name-relay-premium } voor onbeperkte e-mailmaskers, plus de mogelijkheid om uw telefoonnummer te beschermen.
+profile-maxed-aliases-without-phone-description = U hebt de grens van { $limit } maskers op uw gratis { -brand-name-relay }-account bereikt. Upgrade naar { -brand-name-relay-premium } voor onbeperkte e-mailmaskers.
+profile-maxed-aliases-cta = Upgraden naar { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Ontvang uw eigen e-maildomein met { -brand-name-premium }
