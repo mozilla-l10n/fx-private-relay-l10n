@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = 建立您的第一組轉寄信箱
 onboarding-alias-tip-1-2 = 點擊「產生新轉寄信箱」來建立您的第一組轉寄信箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 擴充套件，當郵件欄位顯示 { -brand-name-firefox-relay } 圖示時，選擇該圖示。
 onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 擴充套件，對表單欄位按右鍵，然後選擇「建立新轉寄信箱」。
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>歡迎，</span>{ $email }！
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = 取得無限量轉寄信箱
 profile-label-create-subdomain = 取得您的郵件子網域
 profile-label-subdomain = 信箱子網域：
 profile-label-custom-domain = 您的 { -brand-name-relay } 郵件網域：
+# Deprecated
 profile-label-set-your-custom-domain = 設定您的 { -brand-name-relay } 專屬郵件網域
 profile-label-subdomain-tooltip-trigger = 更多資訊
 profile-label-subdomain-tooltip = 建立專屬您的子網域信箱。
@@ -43,18 +44,14 @@ profile-label-reset = 重設
 profile-label-apply = 套用
 profile-label-skip = 略過
 profile-label-continue = 繼續
-
 # This string is followed by an email address
 profile-label-forward-emails = 轉寄郵件到：
-
 # This string is followed by date
 profile-label-first-emailed = 首次寄信於：
-
 # This string is followed by date:
 profile-label-created = 建立於：
 profile-label-details-show = 顯示細節
 profile-label-details-hide = 隱藏細節
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = 轉寄中
 profile-label-blocking = 封鎖中
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = 僅提供 {
 profile-promo-email-blocking-description-promotionals-locked-cta = 立刻升級
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 加入 { -brand-name-relay-premium } 候補名單
 profile-promo-email-blocking-description-promotionals-locked-close = 關閉
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = 您已使用全部 { $limit } 轉寄信箱。您可以重複使用它們但為每個帳號設定不同的轉寄信箱是最安全的方式。
+profile-maxed-aliases-with-phone-header = 最大程度地保護您的 E-Mail 與手機號碼
+profile-maxed-aliases-without-phone-header = 加強您 { -brand-name-relay } 的郵件保護
+profile-maxed-aliases-with-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit }-mask 數量已達 { -brand-name-relay } 數量上限。升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱與保護您手機號碼的功能。
+profile-maxed-aliases-without-phone-description = 您的免費 { -brand-name-relay } 帳號中的 { $limit }-mask 數量已達 { -brand-name-relay } 數量上限。升級到 { -brand-name-relay-premium } 即可獲得無限量轉寄信箱。
+profile-maxed-aliases-cta = 升級到 { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = 使用 { -brand-name-premium } 取得您自己的郵件網域
