@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Hozza létre az első e-mail-maszkját
 onboarding-alias-tip-1-2 = Válassza az „Új maszk előállítása” lehetőséget az első maszkja létrehozásához.
 onboarding-alias-tip-2 = Használja a { -brand-name-relay } kiegészítőt, válassza a { -brand-name-firefox-relay } ikont, ha megjelenik az e-mail mezőkben.
 onboarding-alias-tip-3-2 = Használja a { -brand-name-relay } kiegészítőt, kattintson jobb gombbal egy űrlapmezőre, és válassza az „Új maszk előállítása” lehetőséget.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Üdvözöljük,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Korlátlan számú e-mail-maszk szerzése
 profile-label-create-subdomain = Szerezzen saját e-mail aldomaint
 profile-label-subdomain = E-mail aldomain:
 profile-label-custom-domain = A saját { -brand-name-relay } e-mail-domainje:
+# Deprecated
 profile-label-set-your-custom-domain = Állítsa be egyedi { -brand-name-relay } e-mail-domainjét
 profile-label-subdomain-tooltip-trigger = További információk
 profile-label-subdomain-tooltip = Hozza létre egyedi e-mail aldomainjét.
@@ -43,18 +44,14 @@ profile-label-reset = Visszaállítás
 profile-label-apply = Alkalmaz
 profile-label-skip = Kihagyás
 profile-label-continue = Folytatás
-
 # This string is followed by an email address
 profile-label-forward-emails = Levelek továbbítása ide:
-
 # This string is followed by date
 profile-label-first-emailed = Első e-mail:
-
 # This string is followed by date:
 profile-label-created = Létrehozva:
 profile-label-details-show = Részletek megjelenítése
 profile-label-details-hide = Részletek elrejtése
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = továbbítás
 profile-label-blocking = blokkolás
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = A { -brand-
 profile-promo-email-blocking-description-promotionals-locked-cta = Frissítés most
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Csatlakozzon a { -brand-name-relay-premium } várólistához
 profile-promo-email-blocking-description-promotionals-locked-close = Bezárás
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Használta mind a(z) { $limit } maszkot. Újra felhasználhatja őket, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
+profile-maxed-aliases-with-phone-header = Maximalizálja e-mail és telefonja védelmét
+profile-maxed-aliases-without-phone-header = Maximalizálja a { -brand-name-relay } e-mail védelmét
+profile-maxed-aliases-with-phone-description = Elérte a { $limit }-maszk korlátját az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkokért, valamint a telefonszáma védelméért.
+profile-maxed-aliases-without-phone-description = Elérte a { $limit }-maszk korlátját az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkért.
+profile-maxed-aliases-cta = Frissítés a { -brand-name-premium }ra
+profile-label-set-your-custom-domain-free-user = Szerezze be saját e-mail domainjét a { -brand-name-premium } segítségével
