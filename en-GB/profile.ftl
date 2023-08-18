@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Create your first email mask
 onboarding-alias-tip-1-2 = Select “Generate new mask” to create your first email mask.
 onboarding-alias-tip-2 = Using the { -brand-name-relay } extension, select the { -brand-name-firefox-relay } icon when it appears in email fields.
 onboarding-alias-tip-3-2 = Using the { -brand-name-relay } extension, right-click on form fields and select “Generate new mask.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Welcome,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Get unlimited email masks
 profile-label-create-subdomain = Get your email subdomain
 profile-label-subdomain = Email Subdomain:
 profile-label-custom-domain = Your { -brand-name-relay } email domain:
+# Deprecated
 profile-label-set-your-custom-domain = Set your unique { -brand-name-relay } email domain
 profile-label-subdomain-tooltip-trigger = More info
 profile-label-subdomain-tooltip = Create your unique email subdomain.
@@ -43,18 +44,14 @@ profile-label-reset = Reset
 profile-label-apply = Apply
 profile-label-skip = Skip
 profile-label-continue = Continue
-
 # This string is followed by an email address
 profile-label-forward-emails = Forward emails to:
-
 # This string is followed by date
 profile-label-first-emailed = First emailed:
-
 # This string is followed by date:
 profile-label-created = Created:
 profile-label-details-show = Show Details
 profile-label-details-hide = Hide Details
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = forwarding
 profile-label-blocking = blocking
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Available t
 profile-promo-email-blocking-description-promotionals-locked-cta = Upgrade now
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Join the { -brand-name-relay-premium } waiting list
 profile-promo-email-blocking-description-promotionals-locked-close = Close
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = You’ve used all { $limit } masks. You can reuse them, but using a unique mask for each account is the most secure option.
+profile-maxed-aliases-with-phone-header = Maximise your email and phone protection
+profile-maxed-aliases-without-phone-header = Maximise your { -brand-name-relay } email protection
+profile-maxed-aliases-with-phone-description = You’ve hit your { $limit }-mask limit on your free { -brand-name-relay } account. Upgrade to { -brand-name-relay-premium } for unlimited email masks, plus the ability to protect your phone number.
+profile-maxed-aliases-without-phone-description = You’ve hit your { $limit }-mask limit on your free { -brand-name-relay } account. Upgrade to { -brand-name-relay-premium } for unlimited email masks.
+profile-maxed-aliases-cta = Upgrade to { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Get your own email domain with { -brand-name-premium }
