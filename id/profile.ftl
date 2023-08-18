@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Dapatkan topeng surel tak terbatas
 profile-label-create-subdomain = Dapatkan subdomain surel Anda
 profile-label-subdomain = Subdomain Surel:
 profile-label-custom-domain = Domain surel { -brand-name-relay } Anda:
+# Deprecated
 profile-label-set-your-custom-domain = Setel domain surel { -brand-name-relay } unik Anda
 profile-label-subdomain-tooltip-trigger = Informasi lebih lanjut
 profile-label-subdomain-tooltip = Buat subdomain surel unik Anda.
@@ -121,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Tersedia un
 profile-promo-email-blocking-description-promotionals-locked-cta = Tingkatkan sekarang
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Bergabunglah ke daftar tunggu { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Tutup
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Anda telah menggunakan seluruh { $limit } topeng. Anda dapat menggunakannya kembali, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
+profile-maxed-aliases-with-phone-header = Maksimalkan perlindungan surel dan telepon Anda
+profile-maxed-aliases-without-phone-header = Maksimalkan perlindungan surel { -brand-name-relay } Anda
+profile-maxed-aliases-with-phone-description = Anda telah mencapai batas { $limit }-mask pada akun { -brand-name-relay } gratis Anda. Tingkatkan ke { -brand-name-relay-premium } untuk topeng surel tanpa batas, ditambah kemampuan untuk melindungi nomor telepon Anda.
+profile-maxed-aliases-without-phone-description = Anda telah mencapai batas { $limit }-mask pada akun { -brand-name-relay } gratis Anda. Tingkatkan ke { -brand-name-relay-premium } untuk topeng surel tanpa batas.
+profile-maxed-aliases-cta = Tingkatkan ke { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Dapatkan domain surel Anda sendiri dengan { -brand-name-premium }
