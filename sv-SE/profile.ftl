@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Skapa ditt första e-postalias
 onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt första e-postalias.
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
 onboarding-alias-tip-3-2 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span> Välkommen,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Få obegränsade e-postalias
 profile-label-create-subdomain = Skaffa din e-postunderdomän
 profile-label-subdomain = E-postunderdomän:
 profile-label-custom-domain = Din { -brand-name-relay } e-postdomän:
+# Deprecated
 profile-label-set-your-custom-domain = Ställ in din unika { -brand-name-relay } e-postdomän
 profile-label-subdomain-tooltip-trigger = Mer information
 profile-label-subdomain-tooltip = Skapa din unika underdomän för e-post.
@@ -43,18 +44,14 @@ profile-label-reset = Återställ
 profile-label-apply = Tillämpa
 profile-label-skip = Hoppa över
 profile-label-continue = Fortsätt
-
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
-
 # This string is followed by date
 profile-label-first-emailed = Första e-posten:
-
 # This string is followed by date:
 profile-label-created = Skapad:
 profile-label-details-show = Visa detaljer
 profile-label-details-hide = Dölj detaljer
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = vidarebefordrar
 profile-label-blocking = blockerar
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Tillgängli
 profile-promo-email-blocking-description-promotionals-locked-cta = Uppgradera nu
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ställ dig i väntelistan för { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Stäng
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Du har använt alla { $limit } alias. Du kan återanvända dem, men att använda ett unikt alias för varje konto är det säkraste alternativet.
+profile-maxed-aliases-with-phone-header = Maximera ditt e-post- och telefonskydd
+profile-maxed-aliases-without-phone-header = Maximera ditt e-postskydd med { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Du har nått din gräns på { $limit } alias på ditt kostnadsfria { -brand-name-relay }-konto. Uppgradera till { -brand-name-relay-premium } för obegränsade e-postalias, plus möjligheten att skydda ditt telefonnummer.
+profile-maxed-aliases-without-phone-description = Du har nått din gräns på { $limit } alias på ditt kostnadsfria { -brand-name-relay }-konto. Uppgradera till { -brand-name-relay-premium } för obegränsade e-postalias.
+profile-maxed-aliases-cta = Uppgradera till { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Skaffa din egen e-postdomän med { -brand-name-premium }
