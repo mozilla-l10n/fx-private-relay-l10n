@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Отримати необмежену кількіст
 profile-label-create-subdomain = Отримайте свій піддомен електронної пошти
 profile-label-subdomain = Піддомен електронної пошти:
 profile-label-custom-domain = Ваш домен електронної пошти { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Докладніше
 profile-label-subdomain-tooltip = Створіть свій унікальний піддомен електронної пошти.
@@ -121,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Досту�
 profile-promo-email-blocking-description-promotionals-locked-cta = Оновити зараз
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Долучайтеся до списку очікування { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Закрити
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Ви використали всі { $limit } масок. Ви можете використовувати їх повторно, але найбезпечніший варіант – використовувати унікальну маску для кожного облікового запису.
+profile-maxed-aliases-with-phone-header = Максимально захистіть свою електронну пошту та телефон
+profile-maxed-aliases-without-phone-header = Максимально захистіть свою електронну пошту { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Ви досягли ліміту { $limit } масок у своєму безплатному обліковому записі { -brand-name-relay }. Перейдіть на { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти, а також можливість захистити свій номер телефону.
+profile-maxed-aliases-without-phone-description = Ви досягли ліміту { $limit } масок у своєму безплатному обліковому записі { -brand-name-relay }. Перейдіть на { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти.
+profile-maxed-aliases-cta = Передплатити { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Отримайте власний домен електронної пошти з { -brand-name-premium }
