@@ -52,6 +52,7 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } on nyt saat
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Sähköpostisi suojaaminen on nyt aiempaa helpompaa. Nyt voit luoda…
 whatsnew-feature-firefox-integration-description = Sähköpostisi suojaaminen on nyt helpompaa kuin koskaan. Voit luoda uusia { -brand-name-relay }-sähköpostimaskeja suoraan { -brand-name-firefox }in salasanojen hallinnasta työpöydällä.
+whatsnew-feature-mailing-list-heading = Apua yksityisyytesi suojaamiseen
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-mailing-list-snippet = Ei ole helppoa seurata uusimpia tietosuoja- ja turvavinkkejä…

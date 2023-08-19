@@ -8,10 +8,10 @@
 modal-custom-alias-picker-heading-2 = Luo uusi mukautettu maski
 modal-custom-alias-picker-warning-2 = Sinun tarvitsee vain luoda ja jakaa yksilöllinen maski, joka käyttää mukautettua aliverkkotunnustasi – maski luodaan automaattisesti. Kokeile esimerkiksi “kauppa@customsubdomain.mozmail.com” seuraavan kerran, kun teet ostoksia verkossa.
 modal-custom-alias-picker-form-heading-2 = Tai luo mukautettu maski manuaalisesti
-modal-custom-alias-picker-form-prefix-label-2 = Anna sähköpostimaskin etuliite
+modal-custom-alias-picker-form-prefix-label-3 = Kirjoita teksti, joka tulee @-merkin eteen:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
-modal-custom-alias-picker-form-prefix-placeholder = esim. "kahvi"
+modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = Sähköpostimaskeissa ei sallita välilyöntejä.
 modal-custom-alias-picker-form-prefix-invalid-warning = Sähköpostimaskit voivat sisältää vain pieniä kirjaimia, numeroita ja tavuviivoja, eivätkä ne saa alkaa tai päättyä tavuviivalla.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Sähköpostimaskit voivat sisältää vain pieniä kirjaimia, numeroita, pisteitä ja tavuviivoja, eivätkä ne saa alkaa tai päättyä pisteellä tai tavuviivalla.
