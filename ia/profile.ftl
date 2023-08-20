@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Crea tu prime masca email
 onboarding-alias-tip-1-2 = Elige “Generar nove masca” pro crear tu prime masca.
 onboarding-alias-tip-2 = Usante le extension le { -brand-name-relay }, elige le icone { -brand-name-firefox-relay } quando illo appare in campos de e-mail.
 onboarding-alias-tip-3-2 = Usante le extension { -brand-name-relay }, clicca dextre sur le campos del formulario e elige “Generar nove masca.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Benvenite,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Obtener mascas e-mail illimitate
 profile-label-create-subdomain = Obtene tu subdominio e-mail
 profile-label-subdomain = Subdominio email:
 profile-label-custom-domain = Tu domino email { -brand-name-relay }
+# Deprecated
 profile-label-set-your-custom-domain = Configura tu domino email { -brand-name-relay } unic
 profile-label-subdomain-tooltip-trigger = Plus de informationes
 profile-label-subdomain-tooltip = Crea tu unic subdominio email.
@@ -43,18 +44,14 @@ profile-label-reset = Reinitialisar
 profile-label-apply = Applicar
 profile-label-skip = Saltar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reexpedir messages a:
-
 # This string is followed by date
 profile-label-first-emailed = Primo inviate per email:
-
 # This string is followed by date:
 profile-label-created = Create:
 profile-label-details-show = Monstrar detalios
 profile-label-details-hide = Celar detalios
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = reexpedir
 profile-label-blocking = blocada
@@ -125,3 +122,7 @@ profile-promo-email-blocking-description-promotionals-locked-label = Disponibile
 profile-promo-email-blocking-description-promotionals-locked-cta = Promover ora
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Junge te al lista de attendentia de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Clauder
+
+## 5 Mask Upsell (displayed on the profile page)
+
+profile-maxed-aliases-cta = Promover a { -brand-name-premium }
