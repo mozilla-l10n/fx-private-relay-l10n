@@ -128,10 +128,10 @@ profile-promo-email-blocking-description-promotionals-locked-close = Bezárás
 # Mask limit has been reached. 
 # Variables:
 # $limit (number) - the current limit of free masks you can create.
-profile-maxed-aliases-tooltip = Használta mind a(z) { $limit } maszkot. Újra felhasználhatja őket, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
-profile-maxed-aliases-with-phone-header = Maximalizálja e-mail és telefonja védelmét
-profile-maxed-aliases-without-phone-header = Maximalizálja a { -brand-name-relay } e-mail védelmét
-profile-maxed-aliases-with-phone-description = Elérte a { $limit }-maszk korlátját az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkokért, valamint a telefonszáma védelméért.
-profile-maxed-aliases-without-phone-description = Elérte a { $limit }-maszk korlátját az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkért.
+profile-maxed-aliases-tooltip = Felhasználta mind az { $limit } maszkot. Újra felhasználhatja őket, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
+profile-maxed-aliases-with-phone-header = Maximalizálja a postafiókja és telefonja védelmét
+profile-maxed-aliases-without-phone-header = Maximalizálja a { -brand-name-relay } e-mail-védelmét
+profile-maxed-aliases-with-phone-description = Elérte az { $limit } maszkos korlátot az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan számú e-mail-maszkokért, valamint a telefonszáma védelméért.
+profile-maxed-aliases-without-phone-description = Elérte az { $limit } maszkos korlátot az ingyenes { -brand-name-relay } fiókjában. Frissítsen a { -brand-name-relay-premium }ra a korlátlan számú e-mail-maszkokért.
 profile-maxed-aliases-cta = Frissítés a { -brand-name-premium }ra
-profile-label-set-your-custom-domain-free-user = Szerezze be saját e-mail domainjét a { -brand-name-premium } segítségével
+profile-label-set-your-custom-domain-free-user = Szerezzen saját e-mail-domaint a { -brand-name-premium } segítségével
