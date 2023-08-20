@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Získejte neomezený počet e-mailových masek
 profile-label-create-subdomain = Získejte vlastní e-mailovou subdoménu
 profile-label-subdomain = E-mailová subdoména:
 profile-label-custom-domain = Vaše e-mailová doména { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Nastavte si jedinečnou e-mailovou doménu { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Více informací
 profile-label-subdomain-tooltip = Vytvoří vaši jedinečnou e-mailovou subdoménu.
@@ -121,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Pro předpl
 profile-promo-email-blocking-description-promotionals-locked-cta = Upgradovat
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Přidat se na čekací listinu služby { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Zavřít
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Použili jste všech { $limit } masek. Můžete je použít opakovaně, ale použití jedinečné masky pro každý účet je nejbezpečnější možností.
+profile-maxed-aliases-with-phone-header = Maximalizujte ochranu svého e-mailu a telefonu
+profile-maxed-aliases-without-phone-header = Maximalizujte e-mailovou ochranu své služby { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Na svém bezplatném účtu { -brand-name-relay } jste dosáhli limitu { $limit } masek. Přejděte na { -brand-name-relay-premium } a získejte neomezený počet e-mailových masek a možnost chránit své telefonní číslo.
+profile-maxed-aliases-without-phone-description = Na svém bezplatném účtu { -brand-name-relay } jste dosáhli limitu { $limit } masek. Pro neomezený počet e-mailových masek přejděte na { -brand-name-relay-premium }.
+profile-maxed-aliases-cta = Upgrade na { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Získejte vlastní e-mailovou doménu pomocí { -brand-name-premium }
