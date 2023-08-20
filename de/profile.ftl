@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Erstellen Sie Ihre erste E-Mail-Maske
 onboarding-alias-tip-1-2 = Wählen Sie „Neue Maske erzeugen“, um Ihre erste E-Mail-Maske zu erstellen
 onboarding-alias-tip-2 = Wähle mit der Erweiterung { -brand-name-relay } das Symbol { -brand-name-firefox-relay } aus, wenn es in E-Mail-Adressfeldern angezeigt wird.
 onboarding-alias-tip-3-2 = Klicken Sie mit der Erweiterung { -brand-name-relay } mit der rechten Maustaste auf Formularfelder und wählen Sie „Neue Maske erzeugen“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Willkommen</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Unbegrenzt viele E-Mail-Masken erhalten
 profile-label-create-subdomain = Holen Sie sich Ihre E-Mail-Subdomain
 profile-label-subdomain = E-Mail-Subdomain:
 profile-label-custom-domain = Ihre { -brand-name-relay }-E-Mail-Domain:
+# Deprecated
 profile-label-set-your-custom-domain = Legen Sie Ihre eindeutige { -brand-name-relay }-E-Mail-Domain fest
 profile-label-subdomain-tooltip-trigger = Weitere Informationen
 profile-label-subdomain-tooltip = Erstellen Sie Ihre einzigartige E-Mail-Subdomain.
@@ -43,18 +44,14 @@ profile-label-reset = Zurücksetzen
 profile-label-apply = Anwenden
 profile-label-skip = Überspringen
 profile-label-continue = Weiter
-
 # This string is followed by an email address
 profile-label-forward-emails = E-Mails weiterleiten an:
-
 # This string is followed by date
 profile-label-first-emailed = Erstmals verschickt:
-
 # This string is followed by date:
 profile-label-created = Erstellt:
 profile-label-details-show = Details anzeigen
 profile-label-details-hide = Details ausblenden
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = Weiterleiten
 profile-label-blocking = Blockieren
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Verfügbar 
 profile-promo-email-blocking-description-promotionals-locked-cta = Jetzt upgraden
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Setzen Sie sich auf die { -brand-name-relay-premium }-Warteliste
 profile-promo-email-blocking-description-promotionals-locked-close = Schließen
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Sie haben alle { $limit } Masken aufgebraucht. Sie können sie wiederverwenden, aber die Verwendung einer eindeutigen Maske für jedes Konto ist die sicherste Option.
+profile-maxed-aliases-with-phone-header = Maximieren Sie den Schutz Ihrer E-Mail-Adresse und Ihres Telefons
+profile-maxed-aliases-without-phone-header = Maximieren Sie Ihren E-Mail-Schutz von mit { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Sie haben das Limit für { $limit }-Masken in Ihrem kostenlosen { -brand-name-relay }-Konto erreicht. Mit einem Upgrade auf { -brand-name-relay-premium } erhalten Sie unbegrenzt viele E-Mail-Masken und die Möglichkeit, Ihre Telefonnummer zu schützen.
+profile-maxed-aliases-without-phone-description = Sie haben das Limit für { $limit }-Masken in Ihrem kostenlosen { -brand-name-relay }-Konto erreicht. Mit einem Upgrade auf { -brand-name-relay-premium } erhalten Sie unbegrenzt viele E-Mail-Masken.
+profile-maxed-aliases-cta = Machen Sie das Upgrade auf { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Holen Sie sich Ihre eigene E-Mail-Domain mit { -brand-name-premium }
