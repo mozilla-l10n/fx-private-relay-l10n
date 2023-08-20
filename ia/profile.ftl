@@ -125,4 +125,13 @@ profile-promo-email-blocking-description-promotionals-locked-close = Clauder
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Tu ha usate tote le { $limit } mascas. Tu pote reusar los, ma usar un sol masca pro cata conto es le option plus secur.
+profile-maxed-aliases-with-phone-header = Maximisa tu protection de email e telephono
+profile-maxed-aliases-without-phone-header = Maximisa tu protection de email { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Tu ha attingite tu limite de { $limit } mascas sur tu conto { -brand-name-relay } gratuite. Promove a { -brand-name-relay-premium } pro illimitate mascas email, plus le capacitate de proteger tu numero de telephono.
+profile-maxed-aliases-without-phone-description = Tu ha attingite tu limite de { $limit } mascas sur tu conto { -brand-name-relay } gratuite. Promove a { -brand-name-relay-premium } pro illimitate mascas email.
 profile-maxed-aliases-cta = Promover a { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Obtene tu proprie dominio email con { -brand-name-premium }
