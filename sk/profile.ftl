@@ -131,3 +131,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Zavrieť
 profile-maxed-aliases-tooltip = Použili ste všetkých { $limit } masiek. Môžete ich použiť opakovane, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
 profile-maxed-aliases-with-phone-header = Maximalizujte ochranu svojho e-mailu a telefónu
 profile-maxed-aliases-without-phone-header = Maximalizujte ochranu svojho e-mailu pomocou služby { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Dosiahli ste svoj limit { $limit } masiek na svojom bezplatnom účte { -brand-name-relay }. Inovujte na { -brand-name-relay-premium } a získajte neobmedzené množstvo e-mailových masiek a navyše možnosť chrániť svoje telefónne číslo.
+profile-maxed-aliases-without-phone-description = Dosiahli ste svoj limit { $limit } masiek na svojom bezplatnom účte { -brand-name-relay }. Inovujte na { -brand-name-relay-premium } a získajte neobmedzené množstvo e-mailových masiek.
+profile-maxed-aliases-cta = Inovujte na { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Získajte svoju vlastnú e-mailovú doménu so službou { -brand-name-premium }
