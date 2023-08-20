@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Vytvorte si svoju prvú e-mailovú masku
 onboarding-alias-tip-1-2 = Kliknutím na „Vytvoriť novú e-mailovú masku“ vytvorte svoju prvú masku.
 onboarding-alias-tip-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite na ikonu { -brand-name-firefox-relay }, ktorá sa zobrazí v poliach pre e-mailovú adresu.
 onboarding-alias-tip-3-2 = Ak používate rozšírenie { -brand-name-relay }, kliknite pravým tlačidlom myši na polia formulára a vyberte možnosť „Vytvoriť novú e-mailovú masku“.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Vitajte,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Získajte neobmedzené množstvo e-mailových masiek
 profile-label-create-subdomain = Získajte svoju e-mailovú subdoménu
 profile-label-subdomain = E-mailová subdoména:
 profile-label-custom-domain = Vaša e-mailová doména služby { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Nastavte svoju jedinečnú e-mailovú doménu { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Ďalšie informácie
 profile-label-subdomain-tooltip = Vytvorte si svoju jedinečnú e-mailovú subdoménu.
@@ -43,18 +44,14 @@ profile-label-reset = Obnoviť na predvolenú hodnotu
 profile-label-apply = Použiť
 profile-label-skip = Preskočiť
 profile-label-continue = Pokračovať
-
 # This string is followed by an email address
 profile-label-forward-emails = E-maily preposielať na:
-
 # This string is followed by date
 profile-label-first-emailed = Prvý e-mail odoslaný:
-
 # This string is followed by date:
 profile-label-created = Vytvorený:
 profile-label-details-show = Zobraziť podrobnosti
 profile-label-details-hide = Skryť podrobnosti
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = preposiela sa
 profile-label-blocking = blokuje sa
@@ -125,3 +122,12 @@ profile-promo-email-blocking-description-promotionals-locked-label = Dostupné p
 profile-promo-email-blocking-description-promotionals-locked-cta = Inovovať teraz
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Pridajte sa do zoznamu čakateľov na { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Zavrieť
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Použili ste všetkých { $limit } masiek. Môžete ich použiť opakovane, ale použitie jedinečnej masky pre každý účet je najbezpečnejšia možnosť.
+profile-maxed-aliases-with-phone-header = Maximalizujte ochranu svojho e-mailu a telefónu
+profile-maxed-aliases-without-phone-header = Maximalizujte ochranu svojho e-mailu pomocou služby { -brand-name-relay }
