@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Jo earste e-mailmasker oanmeitsje
 onboarding-alias-tip-1-2 = Selektearje ‘Nij masker oanmeitsje’ om jo earste e-mailmasker oan te meitsjen
 onboarding-alias-tip-2 = Selektearje as jo de { -brand-name-relay }-útwreiding brûke it { -brand-name-firefox-relay }-piktogram wannear’t dit yn e-mailfjilden ferskynt.
 onboarding-alias-tip-3-2 = Klik as jo de { -brand-name-relay }-útwreiding brûke mei de rjochtermûsknop op formulierfjilden en selektearje ‘Nij masker oanmeitsje’.
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Wolkom,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Unbeheinde e-mailmaskers krije
 profile-label-create-subdomain = Jo e-mailsubdomein krije
 profile-label-subdomain = E-mailsubdomein:
 profile-label-custom-domain = Jo { -brand-name-relay }-e-maildomein:
+# Deprecated
 profile-label-set-your-custom-domain = Stel jo unike { -brand-name-relay }-e-maildomein yn
 profile-label-subdomain-tooltip-trigger = Mear ynfo
 profile-label-subdomain-tooltip = Meitsje jo unike e-mailsubdomein oan.
@@ -43,18 +44,14 @@ profile-label-reset = Opnij inisjalisearje
 profile-label-apply = Tapasse
 profile-label-skip = Oerslaan
 profile-label-continue = Trochgean
-
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberjochten trochstjoere nei:
-
 # This string is followed by date
 profile-label-first-emailed = Earste kear maild:
-
 # This string is followed by date:
 profile-label-created = Makke:
 profile-label-details-show = Details toane
 profile-label-details-hide = Details ferstopje
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = trochstjoere
 profile-label-blocking = blokkearje
@@ -125,3 +122,8 @@ profile-promo-email-blocking-description-promotionals-locked-label = Beskikber f
 profile-promo-email-blocking-description-promotionals-locked-cta = No opwurdearje
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ynskriuwe foar de { -brand-name-relay-premium }-wachtlist
 profile-promo-email-blocking-description-promotionals-locked-close = Slute
+
+## 5 Mask Upsell (displayed on the profile page)
+
+profile-maxed-aliases-cta = Opwurdearje nei { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Untfang jo eigen e-maildomein mei { -brand-name-premium }
