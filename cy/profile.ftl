@@ -130,3 +130,8 @@ profile-promo-email-blocking-description-promotionals-locked-close = Cau
 # $limit (number) - the current limit of free masks you can create.
 profile-maxed-aliases-tooltip = Rydych chi wedi defnyddio pob un o'r { $limit } arallenw. Gallwch eu hailddefnyddio, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r opsiwn mwyaf diogel.
 profile-maxed-aliases-with-phone-header = Gwnewch y mwyaf o'ch diogelwch e-bost a ffôn
+profile-maxed-aliases-without-phone-header = Gwnewch y mwyaf o'ch diogelwch e-bost { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Rydych chi wedi cyrraedd eich terfyn o { $limit } arallenw ar eich cyfrif { -brand-name-relay } rhad ac am ddim. Uwchraddiwch i { -brand-name-relay-premium } am arallenwau e-bost diderfyn, ynghyd â'r gallu i ddiogelu eich rhif ffôn.
+profile-maxed-aliases-without-phone-description = Rydych chi wedi cyrraedd eich terfyn o { $limit } arallenw ar eich cyfrif { -brand-name-relay } rhad ac am ddim. Uwchraddiwch i { -brand-name-relay-premium } am arallenwau e-bost diderfyn.
+profile-maxed-aliases-cta = Uwchraddiwch i { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Cael eich parth e-bost eich hun gyda { -brand-name-premium }
