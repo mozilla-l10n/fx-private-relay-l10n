@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Creu eich arallenw e-bost cyntaf
 onboarding-alias-tip-1-2 = Dewiswch “Cynhyrchu arallenw newydd” i greu eich arallenw cyntaf.
 onboarding-alias-tip-2 = Gan ddefnyddio'r estyniad { -brand-name-relay }, dewiswch yr eicon { -brand-name-firefox-relay } pan fydd yn ymddangos mewn meysydd e-bost.
 onboarding-alias-tip-3-2 = Gan ddefnyddio’r estyniad { -brand-name-relay }, de-gliciwch ar faes y  ffurflen a dewis “Cynhyrchu arallenw newydd.”
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Croeso,</span> { $email }
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Cael arallenwau diderfyn
 profile-label-create-subdomain = Cael eich is-barth e-bost
 profile-label-subdomain = Is-barth E-bost:
 profile-label-custom-domain = Eich parth e-bost { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Gosodwch eich parth e-bost { -brand-name-relay } unigryw
 profile-label-subdomain-tooltip-trigger = Rhagor o wybodaeth
 profile-label-subdomain-tooltip = Crëwch eich is-barth e-bost unigryw.
@@ -43,18 +44,14 @@ profile-label-reset = Ailosod
 profile-label-apply = Gosod
 profile-label-skip = Hepgor
 profile-label-continue = Parhau
-
 # This string is followed by an email address
 profile-label-forward-emails = Anfon e-byst ymlaen at:
-
 # This string is followed by date
 profile-label-first-emailed = E-bostiwyd gyntaf:
-
 # This string is followed by date:
 profile-label-created = Crëwyd:
 profile-label-details-show = Dangos Manylion
 profile-label-details-hide = Cuddio Manylion
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = wedi'i anfon ymlaen
 profile-label-blocking = yn rhwystro
@@ -125,3 +122,11 @@ profile-promo-email-blocking-description-promotionals-locked-label = Ar gael i d
 profile-promo-email-blocking-description-promotionals-locked-cta = Uwchraddiwch nawr
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Ymunwch â rhestr aros { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Cau
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Rydych chi wedi defnyddio pob un o'r { $limit } arallenw. Gallwch eu hailddefnyddio, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r opsiwn mwyaf diogel.
+profile-maxed-aliases-with-phone-header = Gwnewch y mwyaf o'ch diogelwch e-bost a ffôn
