@@ -211,6 +211,7 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Κάντε αναβάθμιση για περισσότερη προστασία
 relay-email-your-dashboard = Ο πίνακας ελέγχου σας
 # The byline for the premium email header that reads "by Firefox Relay Premium".
 # Variables:
@@ -256,6 +257,8 @@ manage-your-masks = Διαχειριστείτε τις μάσκες σας
 first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
 first-time-user-email-how-item-2-header = Θα προωθήσουμε όλα τα email στα εισερχόμενά σας
+first-time-user-email-extra-protection-inbox-title = Επιπλέον προστασία για τα εισερχόμενα σας
+first-time-user-email-extra-protection-inbox-phone-title = Επιπλέον προστασία για τα εισερχόμενα και το τηλέφωνό σας
 first-time-user-email-extra-protection-cta = Αποκτήστε το { -brand-name-relay-premium }
 first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
 # Variables

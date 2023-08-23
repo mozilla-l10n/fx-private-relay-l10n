@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Απόκτηση απεριόριστων μασκών
 profile-label-create-subdomain = Αποκτήστε τον υποτομέα email σας
 profile-label-subdomain = Υποτομέας email:
 profile-label-custom-domain = Ο τομέας email σας στο { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Ορισμός μοναδικού τομέα email στο { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Περισσότερες πληροφορίες
 profile-label-subdomain-tooltip = Δημιουργήστε τον μοναδικό υποτομέα email σας.
@@ -121,3 +122,7 @@ profile-promo-email-blocking-description-promotionals-locked-label = Διαθέ�
 profile-promo-email-blocking-description-promotionals-locked-cta = Αναβάθμιση τώρα
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Εγγραφή στη λίστα αναμονής του { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Κλείσιμο
+
+## 5 Mask Upsell (displayed on the profile page)
+
+profile-maxed-aliases-cta = Αναβάθμιση στο { -brand-name-premium }
