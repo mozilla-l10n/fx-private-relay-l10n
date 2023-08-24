@@ -36,6 +36,7 @@ profile-label-upgrade-2 = 获得无限量马甲
 profile-label-create-subdomain = 获取您的子域名邮箱
 profile-label-subdomain = 子域名邮箱：
 profile-label-custom-domain = 您的 { -brand-name-relay } 邮箱域名：
+# Deprecated
 profile-label-set-your-custom-domain = 设置您专属的 { -brand-name-relay } 邮箱域名
 profile-label-subdomain-tooltip-trigger = 更多信息
 profile-label-subdomain-tooltip = 创建您专属的子域名邮箱。
@@ -121,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = { -brand-na
 profile-promo-email-blocking-description-promotionals-locked-cta = 立即升级
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 欢迎加入 { -brand-name-relay-premium } 预约名单
 profile-promo-email-blocking-description-promotionals-locked-close = 关闭
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = { $limit } 个马甲已全部使用。您可以选择重复使用，但为不同账户使用不同马甲会更加安全。
+profile-maxed-aliases-with-phone-header = 享受全套邮箱和手机号保护
+profile-maxed-aliases-without-phone-header = 享受全套 { -brand-name-relay } 邮箱防护
+profile-maxed-aliases-with-phone-description = 您的免费 { -brand-name-relay } 账户已达 { $limit } 个马甲上限。升级到 { -brand-name-relay-premium } 即享无限量马甲邮箱，还可添加手机号保护。
+profile-maxed-aliases-without-phone-description = 您的免费 { -brand-name-relay } 账户已达 { $limit } 个马甲上限。升级到 { -brand-name-relay-premium } 即享无限量马甲邮箱。
+profile-maxed-aliases-cta = 升级到 { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = 升级到 { -brand-name-premium }，获取专属邮箱域名
