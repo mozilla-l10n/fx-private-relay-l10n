@@ -125,5 +125,13 @@ profile-promo-email-blocking-description-promotionals-locked-close = Slute
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Jo hawwe alle { $limit } maskers brûkt. Jo kinne se opnij brûke, mar it gebrûk fan in unyk masker foar elke account is de feilichste opsje.
+profile-maxed-aliases-with-phone-header = Maksimalisearje jo e-mail- en telefoanbefeiliging
+profile-maxed-aliases-without-phone-header = Maksimalisearje jo { -brand-name-relay }-e-mailbefeiliging
+profile-maxed-aliases-with-phone-description = Jo hawwe de grins fan { $limit } maskers op jo fergeze { -brand-name-relay }-account berikt. Wurdearje op nei { -brand-name-relay-premium } foar ûnbeheinde e-mailmaskers, plus de mooglikheid om jo telefoannûmer te beskermjen.
+profile-maxed-aliases-without-phone-description = Jo hawwe de grins fan { $limit } maskers op jo fergeze { -brand-name-relay }-account berikt. Wurdearje op nei { -brand-name-relay-premium } foar ûnbeheinde e-mailmaskers.
 profile-maxed-aliases-cta = Opwurdearje nei { -brand-name-premium }
 profile-label-set-your-custom-domain-free-user = Untfang jo eigen e-maildomein mei { -brand-name-premium }
