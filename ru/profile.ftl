@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Создайте свой первый псевдоним электронной почты
 onboarding-alias-tip-1-2 = Выберите «Создать новый псевдоним», чтобы создать свой первый псевдоним электронной почты.
 onboarding-alias-tip-2 = При использовании расширения { -brand-name-relay } выберите значок { -brand-name-firefox-relay }, когда он появится в поле для ввода электронной почты.
 onboarding-alias-tip-3-2 = При использовании расширения { -brand-name-relay } щёлкните правой кнопкой мыши по полю формы и выберите «Создать новый псевдоним».
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Добро пожаловать,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Получите неограниченное числ
 profile-label-create-subdomain = Получите собственный поддомен электронной почты
 profile-label-subdomain = Поддомен электронной почты:
 profile-label-custom-domain = Ваш домен электронной почты { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Установите свой уникальный домен электронной почты { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Подробнее
 profile-label-subdomain-tooltip = Создайте свой уникальный поддомен электронной почты.
@@ -43,18 +44,14 @@ profile-label-reset = Сбросить
 profile-label-apply = Применить
 profile-label-skip = Пропустить
 profile-label-continue = Продолжить
-
 # This string is followed by an email address
 profile-label-forward-emails = Пересылать письма на:
-
 # This string is followed by date
 profile-label-first-emailed = Первое письмо:
-
 # This string is followed by date:
 profile-label-created = Создан:
 profile-label-details-show = Показать подробности
 profile-label-details-hide = Скрыть подробности
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = переадресация
 profile-label-blocking = блокировка
@@ -125,3 +122,16 @@ profile-promo-email-blocking-description-promotionals-locked-label = Досту�
 profile-promo-email-blocking-description-promotionals-locked-cta = Перейти сейчас
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Присоединиться к списку ожидания { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Закрыть
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Вы использовали все { $limit } псевдонимов. Вы можете использовать их повторно, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным вариантом.
+profile-maxed-aliases-with-phone-header = Усильте до максимума защиту вашего телефона и электронной почты
+profile-maxed-aliases-without-phone-header = Усильте до максимума защиту вашей электронной почты с { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Вы достигли своего лимита в { $limit } псевдонимов для вашего бесплатной учётной записи { -brand-name-relay }. Перейдите на { -brand-name-relay-premium } для получения безлимитных псевдонимов электронной почты, а также возможности защитить свой номер телефона.
+profile-maxed-aliases-without-phone-description = Вы достигли своего лимита в { $limit } псевдонимов для вашего бесплатной учётной записи { -brand-name-relay }. Перейдите на { -brand-name-relay-premium } для получения безлимитных псевдонимов электронной почты.
+profile-maxed-aliases-cta = Перейти на { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Получите свой собственный домен электронной почты с { -brand-name-premium }
