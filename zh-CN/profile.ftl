@@ -120,7 +120,7 @@ profile-promo-email-blocking-label-not-forwarding = 不转发
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = （限 { -brand-name-premium }）
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } 订阅者可用
 profile-promo-email-blocking-description-promotionals-locked-cta = 立即升级
-profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 欢迎加入 { -brand-name-relay-premium } 预约名单
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = 预约 { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = 关闭
 
 ## 5 Mask Upsell (displayed on the profile page)
