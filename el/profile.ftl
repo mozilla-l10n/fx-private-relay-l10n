@@ -125,6 +125,13 @@ profile-promo-email-blocking-description-promotionals-locked-close = Κλείσ�
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Έχετε χρησιμοποιήσει και τις { $limit } μάσκες σας. Μπορείτε να τις επαναχρησιμοποιήσετε, αλλά η χρήση μιας μοναδικής μάσκας για κάθε λογαριασμό είναι η πιο ασφαλής επιλογή.
 profile-maxed-aliases-with-phone-header = Μεγιστοποιήστε την προστασία του email και του τηλεφώνου σας
+profile-maxed-aliases-without-phone-header = Μεγιστοποιήστε την προστασία του email σας με το { -brand-name-relay }
+profile-maxed-aliases-with-phone-description = Έχετε φτάσει το όριο των { $limit } μασκών του δωρεάν λογαριασμού σας στο { -brand-name-relay }. Κάντε αναβάθμιση στο { -brand-name-relay-premium } για απεριόριστες μάσκες email, καθώς και τη δυνατότητα προστασίας του αριθμού τηλεφώνου σας.
+profile-maxed-aliases-without-phone-description = Έχετε φτάσει το όριο των { $limit } μασκών του δωρεάν λογαριασμού σας στο { -brand-name-relay }. Κάντε αναβάθμιση στο { -brand-name-relay-premium } για απεριόριστες μάσκες email.
 profile-maxed-aliases-cta = Αναβάθμιση στο { -brand-name-premium }
 profile-label-set-your-custom-domain-free-user = Αποκτήστε τον δικό σας τομέα email με το { -brand-name-premium }
