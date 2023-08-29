@@ -125,4 +125,6 @@ profile-promo-email-blocking-description-promotionals-locked-close = Κλείσ�
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+profile-maxed-aliases-with-phone-header = Μεγιστοποιήστε την προστασία του email και του τηλεφώνου σας
 profile-maxed-aliases-cta = Αναβάθμιση στο { -brand-name-premium }
+profile-label-set-your-custom-domain-free-user = Αποκτήστε τον δικό σας τομέα email με το { -brand-name-premium }

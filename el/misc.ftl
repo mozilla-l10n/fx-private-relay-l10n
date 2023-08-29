@@ -108,6 +108,7 @@ trackerreport-load-error = Προέκυψε σφάλμα κατά τη δημι�
 
 contains-tracker-title = Αυτός ο σύνδεσμος ή η εικόνα περιέχει ιχνηλάτη
 contains-tracker-warning-title = Θέλετε ακόμα να δείτε τον σύνδεσμο;
+contains-tracker-warning-description = Προειδοποίηση: Εάν κάνετε κλικ σε αυτόν τον σύνδεσμο, οι πληροφορίες σας θα σταλούν στον αποστολέα
 contains-tracker-warning-view-link-cta = Ναι, εμφάνιση συνδέσμου
 contains-tracker-faq-section-title = Συχνές ερωτήσεις σχετικά με τους ιχνηλάτες email
 # Time remaining until Relay Premium's introductory pricing is no longer available.
@@ -212,6 +213,7 @@ forwarded-email-footer-offer-countdown-banner = Κάντε αναβάθμιση 
 ## January 2023 redesign
 
 relay-email-upgrade-for-more-protection = Κάντε αναβάθμιση για περισσότερη προστασία
+relay-email-manage-this-mask = Διαχείριση αυτής της μάσκας
 relay-email-your-dashboard = Ο πίνακας ελέγχου σας
 # The byline for the premium email header that reads "by Firefox Relay Premium".
 # Variables:
@@ -255,10 +257,29 @@ manage-your-masks = Διαχειριστείτε τις μάσκες σας
 ## Email sent to first time free users
 
 first-time-user-email-welcome = Καλώς ορίσατε στο { -brand-name-firefox-relay }
+first-time-user-email-preheader = Απόκρυψη email για την προστασία της ταυτότητάς σας
+first-time-user-email-hero-primary-text = Ως χρήστης του { -brand-name-firefox }, λαμβάνετε δωρεάν 5 μάσκες email. Χρησιμοποιήστε τις για να αποκρύψετε την πραγματική σας διεύθυνση email, να προστατέψετε την ταυτότητά σας και να προωθήσετε μόνο τα email που θέλετε στα εισερχόμενα σας.
+first-time-user-email-hero-secondary-text = Διαχειριστείτε όλες τις μάσκες σας από τον πίνακα ελέγχου του { -brand-name-relay }.
+first-time-user-email-hero-cta = Προβολή του πίνακα ελέγχου σας
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
+first-time-user-email-how-item-1-header = Χρησιμοποιήστε μια μάσκα { -brand-name-relay } αντί για το πραγματικό σας email, παντού
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Δημιουργήστε μάσκες απευθείας από το { -brand-name-firefox }, με το πρόσθετο <a href="{ $url }" { $attrs }>{ -brand-name-relay }</a> ή από τον πίνακα ελέγχου του { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Δημιουργήστε μάσκες απευθείας από το { -brand-name-firefox }, με το πρόσθετο { -brand-name-relay } ή από τον πίνακα ελέγχου του { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Θα προωθήσουμε όλα τα email στα εισερχόμενά σας
+first-time-user-email-how-item-2-subhead = Οι αποστολείς δεν θα δουν ποτέ την πραγματική διεύθυνσή σας και μπορείτε να αποκλείσετε τα email ανά πάσα στιγμή.
+first-time-user-email-how-item-3-header = Διαχειριστείτε τις μάσκες σας από τον πίνακα ελέγχου του { -brand-name-relay }
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Συνδεθείτε </a> για να δημιουργήσετε νέες μάσκες, να ορίσετε ετικέτες για τις μάσκες σας και να διαγράψετε μάσκες που λαμβάνουν ανεπιθύμητα μηνύματα.
+first-time-user-email-how-item-3-subhead-text = Συνδεθείτε για να δημιουργήσετε νέες μάσκες, να ορίσετε ετικέτες για τις μάσκες σας και να διαγράψετε μάσκες που λαμβάνουν ανεπιθύμητα μηνύματα.
 first-time-user-email-extra-protection-inbox-title = Επιπλέον προστασία για τα εισερχόμενα σας
 first-time-user-email-extra-protection-inbox-phone-title = Επιπλέον προστασία για τα εισερχόμενα και το τηλέφωνό σας
+first-time-user-email-extra-protection-inbox-subhead = Κάντε αναβάθμιση στο { -brand-name-relay-premium } για να έχετε απεριόριστες μάσκες email, ένα προσαρμοσμένο όνομα τομέα στο { -brand-name-relay } και προσαρμοσμένα στοιχεία ελέγχου εισερχομένων.
+first-time-user-email-extra-protection-inbox-phone-subhead = Κάντε αναβάθμιση στο { -brand-name-relay-premium } για απεριόριστες μάσκες email, καθώς και μία μάσκα τηλεφώνου για την προστασία του πραγματικού σας αριθμού.
 first-time-user-email-extra-protection-cta = Αποκτήστε το { -brand-name-relay-premium }
 first-time-user-email-questions-title = Έχετε απορίες για το { -brand-name-firefox-relay };
 # Variables
@@ -266,6 +287,11 @@ first-time-user-email-questions-title = Έχετε απορίες για το { 
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = Η <a href="{ $url }" { $attrs }>ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 first-time-user-email-questions-subhead-text = Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Για περισσότερες πληροφορίες, παρακαλούμε επισκεφτείτε την <a href="{ $url }" { $attrs }>Υποστήριξη { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Για περισσότερες πληροφορίες, παρακαλούμε επισκεφτείτε την Υποστήριξη { -brand-name-mozilla }.
 first-time-user-email-footer-text-legal = Νομικά
 first-time-user-email-footer-text-privacy = Όροι και απόρρητο
 

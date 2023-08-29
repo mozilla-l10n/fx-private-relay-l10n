@@ -71,6 +71,11 @@ whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είν
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Η προστασία του email σας μόλις έγινε πιο εύκολη. Τώρα μπορείτε να δημιουργήσετε…
 whatsnew-feature-firefox-integration-description = Η προστασία του email σας μόλις έγινε πιο εύκολη. Μπορείτε πλέον να δημιουργείτε νέες μάσκες email με το { -brand-name-relay }, απευθείας από τη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox } στον υπολογιστή σας.
+whatsnew-feature-mailing-list-heading = Λάβετε βοήθεια με την προστασία του απορρήτου σας
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = Δεν είναι εύκολο να παρακολουθείτε τις πιο πρόσφατες συμβουλές απορρήτου και ασφάλειας…
+whatsnew-feature-mailing-list-description = Δεν είναι εύκολο να παρακολουθείτε τις πιο πρόσφατες συμβουλές απορρήτου και ασφάλειας. Για τον λόγο αυτό, δημιουργήσαμε ένα ενημερωτικό δελτίο για να σας βοηθήσουμε να κάνετε τη διαδικτυακή σας ζωή πιο ασφαλή.
 whatsnew-feature-mailing-list-cta = Εγγραφή στο ενημερωτικό δελτίο
 whatsnew-feature-premium-expansion-eu-heading = Απεριόριστες μάσκες τώρα διαθέσιμες
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
