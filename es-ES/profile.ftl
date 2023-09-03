@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = Crear tu primera máscara de correo electrónico
 onboarding-alias-tip-1-2 = Selecciona "Generar nueva máscara" para crear tu primera máscara de correo electrónico.
 onboarding-alias-tip-2 = Con la extensión { -brand-name-relay }, selecciona el icono de { -brand-name-firefox-relay } cuando aparezca en los campos de correo electrónico.
 onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con el botón derecho en los campos del formulario y selecciona "Generar nueva máscara".
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = Obtenga máscaras de correo ilimitadas
 profile-label-create-subdomain = Consigue tu subdominio de correo
 profile-label-subdomain = Subdominio de correo electrónico:
 profile-label-custom-domain = Tu dominio de correo electrónico { -brand-name-relay }:
+# Deprecated
 profile-label-set-your-custom-domain = Define tu dominio de correo electrónico único { -brand-name-relay }
 profile-label-subdomain-tooltip-trigger = Más información
 profile-label-subdomain-tooltip = Crea tu subdominio de correo electrónico único.
@@ -43,18 +44,14 @@ profile-label-reset = Restablecer
 profile-label-apply = Aplicar
 profile-label-skip = Saltar
 profile-label-continue = Continuar
-
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
-
 # This string is followed by date
 profile-label-first-emailed = Fecha del primer mensaje:
-
 # This string is followed by date:
 profile-label-created = Creado:
 profile-label-details-show = Mostrar detalles
 profile-label-details-hide = Ocultar detalles
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = reenviando
 profile-label-blocking = bloqueando
@@ -125,3 +122,12 @@ profile-promo-email-blocking-description-promotionals-locked-label = Disponible 
 profile-promo-email-blocking-description-promotionals-locked-cta = Actualizar ahora
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Únete a la lista de espera de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
+
+## 5 Mask Upsell (displayed on the profile page)
+
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = Has usado todas las máscaras disponibles ({ $limit }). Puedes reutilizarlas, pero usar una máscara única para cada cuenta es la opción más segura.
+profile-maxed-aliases-with-phone-header = Maximiza la protección de tu correo electrónico y teléfono
+profile-maxed-aliases-without-phone-header = Maximiza tu protección de correo electrónico { -brand-name-relay }
