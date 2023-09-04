@@ -46,20 +46,12 @@ tips-footer-link-faq-tooltip = Folio a questiones
 tips-footer-link-feedback-label = Reaction
 tips-footer-link-feedback-tooltip = Da tu opinion
 tips-footer-link-support-label = Supporto
-tips-footer-link-support-tooltip = Continger supporto
+tips-footer-link-support-tooltip = Contactar assistentia
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Suggestion { $nr }
 tips-toast-button-expand-label = Pro saper plus
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Como crear mascas personalisate
-popover-custom-alias-explainer-explanation-2 = Toto lo que tu debe facer es crear e compartir un unic masca que usa tu subdominio personal, le masca sera generate automaticamente. Per exemplo proba “shop@customsubdomain.mozmail.com” le proxime vice que tu compra online.
-popover-custom-alias-explainer-generate-button-heading-2 = Genera manualmente un masca personal
-popover-custom-alias-explainer-generate-button-label-2 = Generar masca personalisate
-popover-custom-alias-explainer-close-button-label = Clauder
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activar le blocada de emails promotional sur un masca pro stoppar emails de marketing que attinge tu cassa de ingresso.

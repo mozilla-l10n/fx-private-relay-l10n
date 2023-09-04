@@ -6,8 +6,8 @@
 ## Settings page
 
 settings-headline = Parametros de { -brand-name-relay }
-settings-meta-contact-label = Continge nos
-settings-meta-contact-tooltip = Continge nos re { -brand-name-relay }
+settings-meta-contact-label = Contactar nos
+settings-meta-contact-tooltip = Entra in contacto sur { -brand-name-relay }
 settings-meta-help-label = Auxilio e supporto
 settings-meta-help-tooltip = Auxilio usator de { -brand-name-relay }
 settings-meta-status-label = Stato del servicio

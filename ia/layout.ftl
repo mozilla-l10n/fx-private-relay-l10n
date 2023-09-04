@@ -33,9 +33,9 @@ nav-profile-settings-tooltip = Configurar { -brand-name-firefox-relay }
 nav-profile-help = Adjuta e supporto
 nav-profile-help-tooltip = Obtener adjuta pro usar { -brand-name-relay }
 # This is only visible to Premium users.
-nav-profile-contact = Continger nos
+nav-profile-contact = Contactar nos
 # This is only visible to Premium users.
-nav-profile-contact-tooltip = Continger nos sur { -brand-name-relay-premium }
+nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-duo-description = Mutar pannello de controlo
 nav-duo-email-mask-alt = Mascas email
@@ -49,7 +49,7 @@ menu-toggle-close = Clauder menu
 nav-settings = Parametros
 nav-support = Adjuta e assistentia
 nav-sign-out = Clauder session
-nav-contact = Continger nos
+nav-contact = Contactar nos
 nav-menu-mobile = Menu mobile
 fx-desktop-2 = { -brand-name-firefox } pro scriptorio
 fx-mobile-2 = { -brand-name-firefox } pro mobile
