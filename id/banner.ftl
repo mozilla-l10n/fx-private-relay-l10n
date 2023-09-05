@@ -130,6 +130,8 @@ modal-email-domain-success-continue = Lanjutkan
 tooltip-email-domain-explanation-title = Tentang Domain Email { -brand-name-relay } unik Anda
 tooltip-email-domain-explanation-part-one = Fitur berharga dari akun { -brand-name-relay-premium } Anda ini memungkinkan Anda memilih domain surel { -brand-name-relay } unik yang dapat digunakan untuk membuat topeng { -brand-name-relay } khusus tanpa batas di mana saja.
 tooltip-email-domain-explanation-part-two = Tidak perlu masuk ke { -brand-name-relay } untuk membuat topeng baru; Cukup tambahkan kata atau frasa sebelum simbol @ dari domain surel { -brand-name-relay } Anda untuk membuat topeng baru secara instan di mana pun Anda berada.
+tooltip-email-domain-explanation-title-free = Dapatkan domain surel { -brand-name-relay } Anda sendiri
+tooltip-email-domain-explanation-part-one-free = Dengan { -brand-name-premium }, Anda dapat membuat topeng kustom { -brand-name-relay } tanpa batas saat bepergian menggunakan domain surel { -brand-name-relay } yang unik — Anda bahkan tidak perlu membuatnya mereka di sini dulu.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
