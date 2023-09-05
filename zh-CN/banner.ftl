@@ -126,6 +126,8 @@ modal-email-domain-success-continue = 继续
 tooltip-email-domain-explanation-title = 关于您专属的 { -brand-name-relay } 邮箱域名
 tooltip-email-domain-explanation-part-one = 您可以使用 { -brand-name-relay-premium } 账户的这项实用功能来选择一个专属的 { -brand-name-relay } 邮箱域名，用于随时随地创建自定义 { -brand-name-relay } 马甲，数量不设限。
 tooltip-email-domain-explanation-part-two = 无论在哪，都可以立即生成新马甲。只需随手在您 { -brand-name-relay } 邮箱域名的 @ 符号前添加字符即可，而不必事先登录 { -brand-name-relay }。
+tooltip-email-domain-explanation-title-free = 获取您的 { -brand-name-relay } 邮箱域名
+tooltip-email-domain-explanation-part-one-free = 订阅 { -brand-name-premium }只需使用专属的 { -brand-name-relay } 邮箱域名即可随时创建无限量的自定义 { -brand-name-relay } 马甲他们先进来。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
