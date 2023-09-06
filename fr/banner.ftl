@@ -127,7 +127,7 @@ tooltip-email-domain-explanation-title = À propos de votre domaine de messageri
 tooltip-email-domain-explanation-part-one = Cette fonctionnalité intéressante de votre compte { -brand-name-relay-premium } vous permet de choisir un domaine de messagerie { -brand-name-relay } unique que vous pouvez utiliser pour créer un nombre illimité d’alias { -brand-name-relay } personnalisés à la volée.
 tooltip-email-domain-explanation-part-two = Vous n’avez pas besoin de vous connecter à { -brand-name-relay } pour générer un nouvel alias ; ajoutez simplement n’importe quel mot ou expression avant le symbole @ de votre domaine de messagerie { -brand-name-relay } pour créer instantanément un nouvel alias, où que vous soyez.
 tooltip-email-domain-explanation-title-free = Obtenez votre propre domaine de messagerie { -brand-name-relay }
-tooltip-email-domain-explanation-part-one-free = Avec { -brand-name-premium }, vous pouvez créer un nombre illimité et personnalisé d’alias { -brand-name-relay } à la volée en utilisant un domaine de messagerie { -brand-name-relay } unique — vous n’aurez même pas à générer les ici d’abord.
+tooltip-email-domain-explanation-part-one-free = Avec { -brand-name-premium }, vous pouvez créer un nombre illimité d’alias { -brand-name-relay } personnalisés à la volée en utilisant un domaine de messagerie { -brand-name-relay } unique ; vous n’aurez même pas à les générer ici au préalable.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
