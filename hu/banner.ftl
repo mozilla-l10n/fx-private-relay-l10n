@@ -130,8 +130,8 @@ modal-email-domain-success-continue = Folytatás
 tooltip-email-domain-explanation-title = Az Ön egyedi { -brand-name-relay } e-mail domainjének névjegye
 tooltip-email-domain-explanation-part-one = A { -brand-name-relay-premium } fiókjának ezen értékes funkciója lehetővé teszi, hogy egyedi { -brand-name-relay } e-mail-domaint válasszon, amellyel korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre útközben.
 tooltip-email-domain-explanation-part-two = Új maszk létrehozásához nem szükséges bejelentkezni a { -brand-name-relay }be; Egyszerűen adjon hozzá bármilyen szót vagy kifejezést { -brand-name-relay } e-mail-domainjének @ szimbóluma elé, hogy azonnal létrehozzon egy új maszkot, bárhol is legyen.
-tooltip-email-domain-explanation-title-free = Szerezze be a saját { -brand-name-relay } e-mail domainjét
-tooltip-email-domain-explanation-part-one-free = A { -brand-name-premium }mal korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre menet közben is, egyedi { -brand-name-relay } e-mail-domain használatával – Önnek nem is kell létrehoznia ők itt először.
+tooltip-email-domain-explanation-title-free = Szerezze be a saját { -brand-name-relay } e-mail-domainjét
+tooltip-email-domain-explanation-part-one-free = A { -brand-name-premium }mal korlátlan számú egyéni { -brand-name-relay } maszkot hozhat létre menet közben is, egyedi { -brand-name-relay } e-mail-domain használatával – Önnek nem is kell létrehoznia őket itt először.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
