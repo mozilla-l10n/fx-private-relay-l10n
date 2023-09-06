@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Dimitter
-
 banner-bounced-headline = { -brand-name-relay } non poteva livrar tu e-mail.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = Obtene un subdominio personalisat
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tudominio
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -56,36 +53,30 @@ banner-pack-upgrade-copy-2 = Con mascas email illimitate e tu proprie subdominio
 footer-banner-premium-promo-headine = Promove a <strong>{ -brand-name-firefox-relay-premium }</strong> pro proteger tu telephono <i>e</i> email
 footer-banner-premium-promo-body = Obtene un masca del numero de telephono, illimitate mascas email, e adresses email personalisate pro rapide creation de masca.
 banner-pack-upgrade-cta = Promover ora
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
 banner-label-privacy-notice-update-body = Pro meliorar le fidabilitate de { -brand-name-firefox-relay } in caso que un e-mail non pote esser livrate, nos temporarimente mantenera le e-mail sur nostre servitores usque illo ha essite livrate. Nos jammais lo tenera in desde plus que tres dies.
 banner-label-privacy-notice-update-cta = Vider le aviso de confidentialitate
-
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }
 banner-label-data-notification-cta = Ir al parametros
 banner-label-data-notification-header-v2 = Activar nove functiones
 banner-label-data-notification-body-cta = Pro saper plus
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Protege tu confidentialitate, reserva internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Protege tu confidentialitate e adhere al mission pro render internet melior, toto pro { $monthly_price }
 banner-upgrade-loyalist-cta = Obtener plus protection
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Nostre offerta de compra introductive finira tosto!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue de mascas illimitate a nostre precio introductive mensual.
 banner-offer-end-cta = Promover ora
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Tu pote crear ulle adresse @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppar SPAM, appellos robot & textos immunditia
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
@@ -116,7 +107,6 @@ banner-set-email-domain-input-search = Cercar
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = tudominio
 banner-set-email-domain-learn-more = Pro saper plus
-
 modal-email-domain-good-news = Bon novas!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -137,10 +127,10 @@ modal-email-domain-success-headline-any-word = Crea mascas illimitate addente ul
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Compras? Usa boteca{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuar
-
 tooltip-email-domain-explanation-title = Re tu domino email { -brand-name-relay } unic
 tooltip-email-domain-explanation-part-one = Iste preciose functionalitate de tu conto { -brand-name-relay-premium } te permitte de eliger un exclusive domino email { -brand-name-relay } que tu pote usar pro crear illimitate, mascas { -brand-name-relay } personalisate, al volo.
 tooltip-email-domain-explanation-part-two = Il ha nulle besonio de acceder a { -brand-name-relay } pro generar un nove masca; Simplemente adde ulle parola o expression ante le symbolo @ de tu dominio email { -brand-name-relay } pro crear instantaneemente un nove masca ubique tu es.
+tooltip-email-domain-explanation-title-free = Obtene tu proprie dominio email { -brand-name-relay }
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
