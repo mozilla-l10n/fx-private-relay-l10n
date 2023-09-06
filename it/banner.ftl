@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Chiudi
-
 banner-bounced-headline = { -brand-name-relay } non è riuscito a consegnare la tua email.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = Ottieni un sottodominio personali
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = tuodominio
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = Con un sottodominio personalizzato puoi condividere alias senza bisogno di generarli in anticipo. Ti serve un alias per una prenotazione? Dai l’indirizzo “ristorante@miodominio.{ $mozmail }” al ristorante. Qualsiasi alias che utilizzi il tuo sottodominio personalizzato ti verrà inoltrato automaticamente.
@@ -52,36 +49,30 @@ banner-pack-upgrade-copy-2 = Con alias illimitati e il tuo sottodominio email pe
 footer-banner-premium-promo-headine = Aggiorna a <strong>{ -brand-name-firefox-relay-premium }</strong> per proteggere il tuo telefono <i>e</i> la tua posta elettronica
 footer-banner-premium-promo-body = Ottieni un alias per numeri di telefono, alias di posta elettronica illimitati e indirizzi email personalizzati per creare alias facilmente.
 banner-pack-upgrade-cta = Aggiorna adesso
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aggiornamento dell’informativa sulla privacy
 banner-label-privacy-notice-update-body = Per garantire l’affidabilità di { -brand-name-firefox-relay }, nel caso in cui ci siano problemi con la consegna di un’email, la conserveremo temporaneamente sui nostri server fino a quando non sarà stata consegnata. L’email non verrà mai conservata per più di tre giorni.
 banner-label-privacy-notice-update-cta = Visualizza informativa sulla privacy
-
 # Data Notification Banner:
 banner-label-data-notification-header = Disponibile a breve su { -brand-name-relay }
 banner-label-data-notification-cta = Vai alle impostazioni
 banner-label-data-notification-header-v2 = Attiva nuove funzioni
 banner-label-data-notification-body-cta = Ulteriori informazioni
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Proteggi la tua privacy, proteggi Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteggi la tua privacy e allo stesso tempo contribuisci alla realizzazione di un Internet migliore, il tutto per { $monthly_price }
 banner-upgrade-loyalist-cta = Ottieni una maggiore protezione
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = La nostra offerta al prezzo di lancio finirà presto
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Passa a { -brand-name-relay-premium } prima del { $end_date } e sfrutta un numero illimitato di alias al nostro prezzo di lancio mensile.
 banner-offer-end-cta = Aggiorna adesso
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Puoi creare qualsiasi indirizzo @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Blocca spam, chiamate automatiche e messaggi indesiderati
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } ti offre un alias per numeri di telefono per proteggere il tuo numero reale e alias di posta elettronica illimitati.
@@ -112,7 +103,6 @@ banner-set-email-domain-input-search = Cerca
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = tuodominio
 banner-set-email-domain-learn-more = Ulteriori informazioni
-
 modal-email-domain-good-news = Buone notizie!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -133,10 +123,11 @@ modal-email-domain-success-headline-any-word = Crea alias illimitati aggiungendo
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Stai facendo acquisti? Prova con shop{ $custom_domain_full }.
 modal-email-domain-success-continue = Continua
-
 tooltip-email-domain-explanation-title = Informazioni sul tuo dominio di posta elettronica { -brand-name-relay } univoco
 tooltip-email-domain-explanation-part-one = Questa preziosa funzionalità del tuo account { -brand-name-relay-premium } ti consente di scegliere un dominio di posta elettronica { -brand-name-relay } univoco che puoi utilizzare per creare al volo illimitati alias { -brand-name-relay } personalizzati.
 tooltip-email-domain-explanation-part-two = Non è necessario accedere a { -brand-name-relay } per generare un nuovo alias: aggiungi semplicemente una parola o una frase prima del simbolo @ del tuo dominio di posta elettronica { -brand-name-relay } per creare al volo un nuovo alias ovunque ti trovi.
+tooltip-email-domain-explanation-title-free = Ottieni il tuo dominio di posta elettronica { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = Con { -brand-name-premium } puoi creare alias { -brand-name-relay } illimitati e personalizzati, ovunque ti trovi,  utilizzando un dominio email { -brand-name-relay } univoco, senza bisogno di generarli in anticipo.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
