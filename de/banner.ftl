@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Zurückweisen
-
 banner-bounced-headline = { -brand-name-relay } konnte deine E-Mail nicht zustellen.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = Holen Sie sich eine benutzerdefin
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = deinedomain
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -56,36 +53,30 @@ banner-pack-upgrade-copy-2 = { -brand-name-firefox-relay-premium } bietet Ihnen 
 footer-banner-premium-promo-headine = Mit einem Upgrade auf <strong>{ -brand-name-firefox-relay-premium }</strong>, schützen Sie Ihr Handy <i>und</i> Ihre E-Mail-Adresse
 footer-banner-premium-promo-body = Holen Sie sich eine Telefonnummer-Maske, unbegrenzte E-Mail-Masken und benutzerdefinierte E-Mail-Adressen für die schnelle Maskenerstellung.
 banner-pack-upgrade-cta = Jetzt Upgrade ausführen
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Aktualisierung des Datenschutzhinweises
 banner-label-privacy-notice-update-body = Um die Zuverlässigkeit von { -brand-name-firefox-relay } für den Fall zu verbessern, dass eine E-Mail nicht zugestellt werden kann, speichern wir die E-Mail vorübergehend auf unseren Servern, bis sie zugestellt wurde. Wir speichern die E-Mail nie länger als drei Tage.
 banner-label-privacy-notice-update-cta = Datenschutzhinweis ansehen
-
 # Data Notification Banner:
 banner-label-data-notification-header = In Kürze bei { -brand-name-relay }
 banner-label-data-notification-cta = Einstellungen öffnen
 banner-label-data-notification-header-v2 = Neue Funktionen aktivieren
 banner-label-data-notification-body-cta = Weitere Informationen
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Schützen Sie Ihre Privatsphäre, retten Sie das Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Schützen Sie Ihre Privatsphäre und unterstützen Sie gleichzeitig unsere Mission für ein besseres Internet, alles für { $monthly_price }
 banner-upgrade-loyalist-cta = Holen Sie sich noch mehr Schutz
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Unser Angebot zum Einführungspreis endet bald!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Holen Sie sich { -brand-name-relay-premium } vor dem { $end_date } und genießen Sie unbegrenzt viele Masken zu unserem monatlichen Einführungspreis.
 banner-offer-end-cta = Jetzt upgraden
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Du kannst beliebige Adressen mit @{ $subdomain } erstellen
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Stoppen Sie Spam, automatische Anrufe und Junk-SMS
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken.
@@ -116,7 +107,6 @@ banner-set-email-domain-input-search = Suchen
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = ihredomain
 banner-set-email-domain-learn-more = Weitere Informationen
-
 modal-email-domain-good-news = Gute Nachrichten!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -137,10 +127,11 @@ modal-email-domain-success-headline-any-word = Erstellen Sie unbegrenzte Masken,
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Einkaufen? Verwenden Sie store{ $custom_domain_full }.
 modal-email-domain-success-continue = Weiter
-
 tooltip-email-domain-explanation-title = Über Ihre eindeutige { -brand-name-relay }-E-Mail-Domain
 tooltip-email-domain-explanation-part-one = Mit dieser wertvollen Funktion Ihres { -brand-name-relay-premium }-Kontos können Sie eine eindeutige { -brand-name-relay }-E-Mail-Domain auswählen, die Sie verwenden können, um unterwegs unbegrenzt benutzerdefinierte { -brand-name-relay }-Masken zu erstellen.
 tooltip-email-domain-explanation-part-two = Es ist nicht erforderlich, sich bei { -brand-name-relay } anzumelden, um eine neue Maske zu erzeugen. Fügen Sie einfach ein beliebiges Wort oder einen Satz vor dem @-Symbol Ihrer { -brand-name-relay }-E-Mail-Domain hinzu, um sofort eine neue Maske zu erstellen, wo immer Sie sind.
+tooltip-email-domain-explanation-title-free = Holen Sie sich Ihre eigene { -brand-name-relay }-E-Mail-Domain
+tooltip-email-domain-explanation-part-one-free = Mit { -brand-name-premium } können Sie unterwegs unbegrenzt benutzerdefinierte { -brand-name-relay }-Masken erstellen und dabei eine einzigartige { -brand-name-relay }-E-Mail-Domain verwenden – Sie müssen sie hier auch nicht vorab erzeugen.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
