@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Descartar
-
 banner-bounced-headline = O { -brand-name-relay } não conseguiu enviar seu email.
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = Tenha um subdomínio personalizad
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = seudominio
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 = Com um subdomínio personalizado, você pode compartilhar máscaras que não precisam ser geradas antes de usar. Precisa de uma para fazer uma reserva? Informe “hotel@seudomínio.{ $mozmail }” para o hotel. Qualquer máscara que tenha seu subdomínio personalizado encaminha mensagens para você.
@@ -52,36 +49,30 @@ banner-pack-upgrade-copy-2 = Com máscaras de email ilimitadas e seu próprio su
 footer-banner-premium-promo-headine = Mude para o <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger seu celular <i>e</i> email
 footer-banner-premium-promo-body = Tenha uma máscara de número de celular, máscaras de email ilimitadas e endereços de email personalizados para criação rápida de máscaras.
 banner-pack-upgrade-cta = Mude agora para a versão premium
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Atualização do aviso de privacidade
 banner-label-privacy-notice-update-body = Para melhorar a confiabilidade do { -brand-name-firefox-relay } no caso de não conseguir entregar um email, ele será mantido em nossos servidores temporariamente até que seja entregue. Nunca iremos manter por mais de três dias.
 banner-label-privacy-notice-update-cta = Ver aviso de privacidade
-
 # Data Notification Banner:
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
 banner-label-data-notification-cta = Ir para configurações
 banner-label-data-notification-header-v2 = Ativar novos recursos
 banner-label-data-notification-body-cta = Saiba mais
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Proteja sua privacidade, salve a internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteja sua privacidade e se junte à nossa missão de construir uma internet melhor, tudo por { $monthly_price }
 banner-upgrade-loyalist-cta = Tenha mais proteção
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = Nossa oferta inicial de preço termina em breve!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = Obtenha o { -brand-name-relay-premium } antes de { $end_date } e aproveite máscaras ilimitadas com nosso preço mensal de lançamento.
 banner-offer-end-cta = Mude agora
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Você pode criar qualquer endereço @{ $subdomain }
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = Impeça spam, telemarketing e mensagens inúteis
 banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de celular para proteger seu número real, além de máscaras de email ilimitadas.
@@ -112,7 +103,6 @@ banner-set-email-domain-input-search = Pesquisar
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = seudominio
 banner-set-email-domain-learn-more = Saiba mais
-
 modal-email-domain-good-news = Boa notícia!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -133,10 +123,10 @@ modal-email-domain-success-headline-any-word = Crie máscaras ilimitadas adicion
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Fazendo compras? Use nomedaloja{ $custom_domain_full }.
 modal-email-domain-success-continue = Avançar
-
 tooltip-email-domain-explanation-title = Informações sobre seu domínio exclusivo de emails do { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Este valioso recurso de sua conta { -brand-name-relay-premium } permite escolher um domínio exclusivo de emails do { -brand-name-relay }, para criar ilimitadas máscaras personalizadas do { -brand-name-relay } nos próprios sites onde for usar.
 tooltip-email-domain-explanation-part-two = Não precisa entrar no { -brand-name-relay } para gerar uma nova máscara. Basta adicionar qualquer palavra ou frase antes do símbolo @ do seu domínio de emails do { -brand-name-relay } para criar imediatamente uma nova máscara em qualquer lugar que esteja.
+tooltip-email-domain-explanation-title-free = Tenha seu próprio domínio de emails do { -brand-name-relay }
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
