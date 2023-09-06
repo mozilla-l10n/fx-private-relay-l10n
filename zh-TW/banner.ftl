@@ -127,7 +127,7 @@ tooltip-email-domain-explanation-title = 關於您的獨特 { -brand-name-relay 
 tooltip-email-domain-explanation-part-one = { -brand-name-relay-premium } 帳號的划算功能，讓您可以設定專屬的 { -brand-name-relay } 郵件網域，用來建立無限量、自訂 { -brand-name-relay } 轉寄信箱。
 tooltip-email-domain-explanation-part-two = 無須登入 { -brand-name-relay } 即可產生新的轉寄信箱。只要在 { -brand-name-relay } 郵件網域的 @ 符號前加入任何字詞，即可隨時隨地建立新的轉寄信箱。
 tooltip-email-domain-explanation-title-free = 使用您自己的 { -brand-name-relay } 郵件網域
-tooltip-email-domain-explanation-part-one-free = 透過 { -brand-name-premium }讓您可以使用獨特的 { -brand-name-relay } 郵件網域隨時隨地建立無限量的自訂 { -brand-name-relay } 轉寄信箱先在此。
+tooltip-email-domain-explanation-part-one-free = 透過 { -brand-name-premium }，您可以隨時隨地使用 { -brand-name-relay } 自訂網域建立無限量、自訂的 { -brand-name-relay } 轉寄信箱，不用在此先產生。
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
