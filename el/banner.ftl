@@ -130,6 +130,8 @@ modal-email-domain-success-continue = Συνέχεια
 tooltip-email-domain-explanation-title = Σχετικά με τον μοναδικό τομέα email σας στο { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Με αυτήν την πολύτιμη λειτουργία του λογαριασμού σας στο { -brand-name-relay-premium }, μπορείτε να επιλέξτε έναν μοναδικό τομέα email στο { -brand-name-relay }, τον οποίο μπορείτε να χρησιμοποιήσετε για τη δημιουργία απεριόριστων, προσαρμοσμένων μασκών { -brand-name-relay } εν κινήσει.
 tooltip-email-domain-explanation-part-two = Δεν χρειάζεται να συνδεθείτε στο { -brand-name-relay } για να δημιουργήσετε μια νέα μάσκα. Προσθέστε απλώς οποιαδήποτε λέξη ή φράση πριν από το σύμβολο «@» του τομέα email σας στο { -brand-name-relay } για να δημιουργηθεί αμέσως μια νέα μάσκα, όπου κι αν βρίσκεστε.
+tooltip-email-domain-explanation-title-free = Αποκτήστε τον δικό σας τομέα email στο { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = Με το { -brand-name-premium }, μπορείτε να δημιουργήσετε απεριόριστες, προσαρμοσμένες μάσκες { -brand-name-relay } εν κινήσει, χρησιμοποιώντας έναν μοναδικό τομέα email του { -brand-name-relay } — δεν θα χρειαστεί καν να τις δημιουργήσετε εκ των προτέρων.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
