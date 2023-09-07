@@ -131,6 +131,7 @@ tooltip-email-domain-explanation-title = О вашем уникальном до
 tooltip-email-domain-explanation-part-one = Эта ценная функция вашего аккаунта { -brand-name-relay-premium } позволяет вам выбрать уникальный домен электронной почты { -brand-name-relay }, который вы можете использовать для создания неограниченного количества пользовательских псевдонимов { -brand-name-relay } на ходу.
 tooltip-email-domain-explanation-part-two = Нет необходимости входить в { -brand-name-relay }, чтобы создать новый псевдоним; Просто добавьте любое слово или фразу перед символом @ вашего домена электронной почты { -brand-name-relay }, чтобы мгновенно создать новый псевдоним, где бы вы ни находились.
 tooltip-email-domain-explanation-title-free = Получите свой собственный домен электронной почты { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = С помощью { -brand-name-premium } вы можете создавать неограниченное количество пользовательских псевдонимов { -brand-name-relay } на ходу, используя уникальный домен электронной почты { -brand-name-relay } — вам даже не придется перед этим их создавать.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
