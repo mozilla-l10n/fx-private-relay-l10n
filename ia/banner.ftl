@@ -131,6 +131,7 @@ tooltip-email-domain-explanation-title = Re tu domino email { -brand-name-relay 
 tooltip-email-domain-explanation-part-one = Iste preciose functionalitate de tu conto { -brand-name-relay-premium } te permitte de eliger un exclusive domino email { -brand-name-relay } que tu pote usar pro crear illimitate, mascas { -brand-name-relay } personalisate, al volo.
 tooltip-email-domain-explanation-part-two = Il ha nulle besonio de acceder a { -brand-name-relay } pro generar un nove masca; Simplemente adde ulle parola o expression ante le symbolo @ de tu dominio email { -brand-name-relay } pro crear instantaneemente un nove masca ubique tu es.
 tooltip-email-domain-explanation-title-free = Obtene tu proprie dominio email { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = Con { -brand-name-premium }, tu pote crear al volo illimitate mascas de { -brand-name-relay } personal, per un sol dominio email { -brand-name-relay }, tu non debe mesmo generar los ci antea.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
