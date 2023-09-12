@@ -130,6 +130,8 @@ modal-email-domain-success-continue = Продовжити
 tooltip-email-domain-explanation-title = Про унікальний домен електронної пошти { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Ця корисна функція вашого облікового запису { -brand-name-relay-premium } дає вам змогу вибрати унікальний домен електронної пошти { -brand-name-relay }, який ви можете використовувати для миттєвого створення необмеженої кількості спеціальних масок { -brand-name-relay }.
 tooltip-email-domain-explanation-part-two = Немає потреби входити в { -brand-name-relay }, щоб згенерувати нову маску; Просто додайте будь-яке слово чи фразу перед символом @ вашого домену електронної пошти { -brand-name-relay }, щоб миттєво створити нову маску, де б ви не були.
+tooltip-email-domain-explanation-title-free = Отримайте власний домен електронної пошти { -brand-name-relay }
+tooltip-email-domain-explanation-part-one-free = З { -brand-name-premium } ви можете створювати необмежену кількість спеціальних масок { -brand-name-relay } на ходу, використовуючи унікальний домен електронної пошти { -brand-name-relay } — вам навіть не потрібно буде їх попередньо генерувати тут.
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
