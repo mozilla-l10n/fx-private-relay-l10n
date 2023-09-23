@@ -281,7 +281,7 @@ first-time-user-email-extra-protection-inbox-phone-title = 为您的收件箱和
 first-time-user-email-extra-protection-inbox-subhead = 升级到 { -brand-name-relay-premium } 以获得无限的邮箱马甲、自定义 { -brand-name-relay } 域名和自定义收件箱控件。
 first-time-user-email-extra-protection-inbox-phone-subhead = 升级到 { -brand-name-relay-premium } 即可获得无限量马甲邮箱，还能使用虚拟手机号来保护您的真实手机号。
 first-time-user-email-extra-protection-cta = 获取 { -brand-name-relay-premium }
-first-time-user-email-questions-title = 关于 { -brand-name-firefox-relay } 的问题？
+first-time-user-email-questions-title = 有关于 { -brand-name-firefox-relay } 的问题？
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
