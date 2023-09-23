@@ -300,7 +300,7 @@ first-time-user-email-footer-text-privacy = 条款和隐私
 
 # Variables:
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
-api-error-free-tier-limit = 您已用尽免费账户所能创建的 { $free_tier_limit } 个马甲邮箱。您可以重复使用现有马甲，但为每个账户使用唯一的马甲最为安全。
+api-error-free-tier-limit = 您已用尽免费账户所能创建的 { $free_tier_limit } 个马甲邮箱。您可以重复使用现有马甲，但为不同账户使用不同马甲最为安全。
 api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed

@@ -128,7 +128,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = 关闭
 # Mask limit has been reached. 
 # Variables:
 # $limit (number) - the current limit of free masks you can create.
-profile-maxed-aliases-tooltip = { $limit } 个马甲已全部使用。您可以选择重复使用，但为不同账户使用不同马甲会更加安全。
+profile-maxed-aliases-tooltip = { $limit } 个马甲已用完。您可以选择重复使用，但为不同账户使用不同马甲最为安全。
 profile-maxed-aliases-with-phone-header = 享受全套邮箱和手机号保护
 profile-maxed-aliases-without-phone-header = 享受全套 { -brand-name-relay } 邮箱防护
 profile-maxed-aliases-with-phone-description = 您的免费 { -brand-name-relay } 账户已达 { $limit } 个马甲上限。升级到 { -brand-name-relay-premium } 即享无限量马甲邮箱，还可添加手机号保护。
