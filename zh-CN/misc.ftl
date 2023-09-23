@@ -259,10 +259,10 @@ first-time-user-email-welcome = 欢迎来到 { -brand-name-firefox-relay }
 first-time-user-email-preheader = 使用邮箱马甲以保护您的身份
 first-time-user-email-welcome-subhead = 您的电子邮件地址可能会被用于在线跟踪您——我们帮您杜绝这种情况。
 first-time-user-email-hero-primary-text = 作为 { -brand-name-firefox } 用户，您可以免费获得 5 个邮箱马甲。请使用它们来隐藏您的真实电子邮件地址，保护您的身份，并仅将您需要的电子邮件转发到您的收件箱。
-first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 控制面板管理您的所有马甲。
+first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 面板管理您的所有马甲。
 first-time-user-email-hero-cta = 查看您的控制面板
 first-time-user-email-how-title = { -brand-name-relay } 如何工作
-first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 邮箱马甲代替真实的电子邮件
+first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 马甲邮箱，不必交出真实邮箱地址
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
@@ -275,7 +275,7 @@ first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 面板管理
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登录</a>以创建新马甲、标记马甲以及删除收到垃圾邮件的马甲。
-first-time-user-email-how-item-3-subhead-text = 登录以创建新马甲、标记您马甲以及删除收到垃圾邮件的马甲。
+first-time-user-email-how-item-3-subhead-text = 登录以创建新马甲、为马甲添加标签，以及删除收到垃圾邮件的马甲。
 first-time-user-email-extra-protection-inbox-title = 为您的收件箱提供额外保护
 first-time-user-email-extra-protection-inbox-phone-title = 为您的收件箱和手机提供额外保护
 first-time-user-email-extra-protection-inbox-subhead = 升级到 { -brand-name-relay-premium } 以获得无限的邮箱马甲、自定义 { -brand-name-relay } 域名和自定义收件箱控件。
