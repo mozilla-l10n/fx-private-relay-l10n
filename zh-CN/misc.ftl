@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = 联系用户支持
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 提示 { $nr }
 tips-toast-button-expand-label = 详细了解
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = 如何创建自定义马甲
-popover-custom-alias-explainer-explanation-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customdomain.mozmail.com”，这个马甲即会自动生成。
-popover-custom-alias-explainer-generate-button-heading-2 = 手动生成自定义马甲
-popover-custom-alias-explainer-generate-button-label-2 = 生成自定义马甲
-popover-custom-alias-explainer-close-button-label = 关闭
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
@@ -308,7 +300,7 @@ first-time-user-email-footer-text-privacy = 条款和隐私
 
 # Variables:
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
-api-error-free-tier-limit = 您已用完免费账户中的所有 { $free_tier_limit } 个马甲。您可以重复使用现有马甲，但为每个账户使用唯一的马甲最为安全。
+api-error-free-tier-limit = 您已用尽免费账户所能创建的 { $free_tier_limit } 个马甲邮箱。您可以重复使用现有马甲，但为每个账户使用唯一的马甲最为安全。
 api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
