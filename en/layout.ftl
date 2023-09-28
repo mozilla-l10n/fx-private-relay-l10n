@@ -27,7 +27,7 @@ nav-profile-sign-in = Sign In
 nav-profile-sign-up = Sign Up
 # Deprecated
 nav-profile-manage-fxa = Manage your { -brand-name-firefox-account(capitalization: "uppercase") }
-nav-profile-manage-fxa-v2 = Manage your { -brand-name-mozilla-account(capitalization: "uppercase") }
+nav-profile-manage-fxa-v2 = Manage your account
 nav-profile-sign-out = Sign Out
 nav-profile-sign-out-relay = Sign Out of { -brand-name-relay }
 nav-profile-sign-out-confirm = Are you sure you want to sign out?
@@ -41,7 +41,7 @@ nav-profile-contact = Contact us
 nav-profile-contact-tooltip = Get in touch about { -brand-name-relay-premium }
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } Avatar
-nav-profile-image-alt-v2 = { -brand-name-mozilla-account(capitalization: "uppercase") } Avatar
+nav-profile-image-alt-v2 = account avatar
 nav-duo-description = Switch dashboards
 nav-duo-email-mask-alt = Email masks
 nav-duo-phone-mask-alt = Phone masks
