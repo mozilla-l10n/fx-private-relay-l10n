@@ -25,6 +25,6 @@
     { $capitalization ->
        *[lowercase] Firefox account
         [uppercase] Firefox Account
-    }    
+    }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome

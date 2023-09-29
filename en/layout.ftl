@@ -27,7 +27,7 @@ nav-profile-sign-in = Sign In
 nav-profile-sign-up = Sign Up
 # Deprecated
 nav-profile-manage-fxa = Manage your { -brand-name-firefox-account(capitalization: "uppercase") }
-nav-profile-manage-fxa-v2 = Manage your account
+nav-profile-manage-account = Manage your account
 nav-profile-sign-out = Sign Out
 nav-profile-sign-out-relay = Sign Out of { -brand-name-relay }
 nav-profile-sign-out-confirm = Are you sure you want to sign out?
