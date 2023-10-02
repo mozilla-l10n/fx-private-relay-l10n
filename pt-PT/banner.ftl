@@ -11,7 +11,7 @@ banner-bounced-headline = O { -brand-name-relay } não conseguiu entregar o seu 
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
 #   $date (string) - A date for the next time the services tries to resend the email
-banner-bounced-copy = Atualmente, não podemos enviar email para { $username }. Recebemos uma “rejeição” <em>{ $bounce_type }</em> do seu fornecedor de e-mail ao tentar encaminhar mensagens para si. Isto pode acontecer se o { -brand-name-relay } não conseguiu ligar-se ao seu fornecedor de e-mail ou se a sua caixa de correio estava cheia. Vamos tentar novamente a { $date }.
+banner-bounced-copy = Atualmente, não podemos enviar um email para { $username }. Recebemos uma “rejeição” <em>{ $bounce_type }</em> do seu fornecedor de email ao tentar encaminhar mensagens para si. Isto pode acontecer se o { -brand-name-relay } não conseguiu ligar-se ao seu fornecedor de email ou se a sua caixa de correio estava cheia. Vamos tentar novamente a { $date }.
 banner-download-firefox-headline = { -brand-name-relay } é ainda melhor no { -brand-name-firefox }
 banner-download-firefox-copy-2 = A extensão { -brand-name-relay } para o { -brand-name-firefox-browser } torna a criação de máscaras ainda mais fácil.
 banner-download-firefox-cta = Obter o { -brand-name-firefox }
