@@ -16,13 +16,13 @@ banner-download-firefox-headline = { -brand-name-relay } é ainda melhor no { -b
 banner-download-firefox-copy-2 = A extensão { -brand-name-relay } para o { -brand-name-firefox-browser } torna a criação de máscaras ainda mais fácil.
 banner-download-firefox-cta = Obter o { -brand-name-firefox }
 banner-download-install-extension-headline = Obtenha a extensão { -brand-name-relay } para o { -brand-name-firefox }
-banner-download-install-extension-copy-2 = A extensão { -brand-name-relay } para o { -brand-name-firefox-browser } torna a utilização de máscaras de e-mail ainda mais fácil.
+banner-download-install-extension-copy-2 = A extensão { -brand-name-relay } para o { -brand-name-firefox-browser } torna a utilização de máscaras de email ainda mais fácil.
 banner-download-install-extension-cta = Adicionar o { -brand-name-relay } ao { -brand-name-firefox }
 banner-download-install-chrome-extension-headline = Experimente o { -brand-name-relay } para o { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy-2 = A extensão { -brand-name-firefox-relay } para o { -brand-name-chrome } torna a criação e utilização de máscaras ainda mais fácil.
 banner-download-install-chrome-extension-cta = Obtenha a extensão { -brand-name-relay }
 banner-upgrade-headline = Atualizar para o { -brand-name-relay-premium }
-banner-upgrade-copy-2 = O { -brand-name-firefox-relay-premium } torna a criação de máscaras de correio eletrónico ainda mais fácil, com subdomínios de máscaras personalizadas e máscaras ilimitadas.
+banner-upgrade-copy-2 = O { -brand-name-firefox-relay-premium } torna a criação de máscaras de email ainda mais fácil, com subdomínios de máscaras personalizadas e máscaras ilimitadas.
 banner-upgrade-cta = Atualizar para o { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Passo da ação
@@ -37,11 +37,11 @@ banner-register-subdomain-example-address = oseudomínio
 
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-banner-register-subdomain-copy-2 = Com um subdomínio personalizado, pode partilhar máscaras que não necessitam de ser geradas antes de as utilizar. Precisa de um para uma reserva? Dê “restaurante@oseudomínio.{ $mozmail }” ao menu. Qualquer máscara que utilize o seu subdomínio personalizado será reencaminhada para si.
+banner-register-subdomain-copy-2 = Com um subdomínio personalizado, pode partilhar máscaras que não necessitam de ser geradas antes de as utilizar. Precisa de um para uma reserva? Dê “restaurante@oseudomínio.{ $mozmail }” ao restaurante. Qualquer máscara que utilize o seu subdomínio personalizado será reencaminhada para si.
 banner-choose-subdomain-input-placeholder-3 = Pesquisar subdomínio
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Pesquisar
-banner-pack-upgrade-headline-2-html = Atualize para o <strong>{ -brand-name-firefox-relay-premium }</strong> para obter mais máscaras de e-mail
+banner-pack-upgrade-headline-2-html = Atualize para o <strong>{ -brand-name-firefox-relay-premium }</strong> para obter mais máscaras de email
 banner-pack-upgrade-copy-2 = Com máscaras de e-mail ilimitadas e o seu próprio subdomínio de e-mail, o { -brand-name-firefox-relay-premium } ajuda-o a manter-se protegido na Internet.
 footer-banner-premium-promo-headine = Atualize para o <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger o seu telefone <i>e</i> e-mail
 footer-banner-premium-promo-body = Obtenha uma máscara de número de telefone, máscaras de e-mail ilimitadas e endereços de e-mail personalizados para a criação rápida de máscaras.
@@ -56,7 +56,7 @@ banner-label-data-notification-cta = Ir para as Definições
 banner-label-data-notification-header-v2 = Ativar novas funcionalidades
 banner-label-data-notification-body-cta = Saber mais
 # Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline-2 = Proteja a sua privacidade, guarde a Internet
+banner-upgrade-loyalist-headline-2 = Proteja a sua privacidade, salve a Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = Proteja a sua privacidade enquanto se juntar à nossa missão para construir uma Internet melhor, tudo por { $monthly_price }
