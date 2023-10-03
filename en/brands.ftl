@@ -20,6 +20,7 @@
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
+# Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
        *[lowercase] Firefox account
