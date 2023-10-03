@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = O { -brand-name-firefox-relay } facilita criar máscaras de email, que encaminham mensagens para sua caixa de entrada real. Use para proteger suas contas online de hackers e mensagens indesejadas.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (abre em uma nova aba)
 
@@ -20,12 +20,13 @@ nav-email-dashboard = Máscaras de email
 nav-phone-dashboard = Máscaras de celular
 label-open-menu = Abrir menu
 avatar-tooltip = Perfil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Perguntas frequentes
 nav-profile-sign-in = Entrar
 nav-profile-sign-up = Criar uma conta
+# Deprecated
 nav-profile-manage-fxa = Gerenciar sua { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-manage-account = Gerenciar sua conta
 nav-profile-sign-out = Sair
 nav-profile-sign-out-relay = Sair do { -brand-name-relay }
 nav-profile-sign-out-confirm = Tem certeza que quer sair?
@@ -37,7 +38,9 @@ nav-profile-help-tooltip = Obtenha ajuda sobre como usar o { -brand-name-relay }
 nav-profile-contact = Fale conosco
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Entre em contato sobre o { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Avatar da { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt-v2 = avatar da conta
 nav-duo-description = Alternar painéis
 nav-duo-email-mask-alt = Máscaras de email
 nav-duo-phone-mask-alt = Máscaras de celular
@@ -52,7 +55,6 @@ nav-support = Ajuda e suporte
 nav-sign-out = Sair
 nav-contact = Fale conosco
 nav-menu-mobile = Menu de celular
-
 fx-desktop-2 = { -brand-name-firefox } para computador
 fx-mobile-2 = { -brand-name-firefox } para dispositivos móveis
 
@@ -78,4 +80,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Fechar menu
-
