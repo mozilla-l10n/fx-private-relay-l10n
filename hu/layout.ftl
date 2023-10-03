@@ -40,7 +40,7 @@ nav-profile-contact = Kapcsolat
 nav-profile-contact-tooltip = Lépjen kapcsolatba velünk a { -brand-name-relay-premium } ügyében
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account } profilkép
-nav-profile-image-alt-v2 = avatárral
+nav-profile-image-alt-v2 = fiók profilképe
 nav-duo-description = Műszerfal váltása
 nav-duo-email-mask-alt = E-mail-maszkok
 nav-duo-phone-mask-alt = Telefonmaszkok
