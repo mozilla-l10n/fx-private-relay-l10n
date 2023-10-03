@@ -24,7 +24,9 @@ avatar-tooltip = Profil
 nav-faq = Tanya Jawab
 nav-profile-sign-in = Masuk
 nav-profile-sign-up = Daftar
+# Deprecated
 nav-profile-manage-fxa = Kelola { -brand-name-firefox-account(capitalization: "uppercase") } Anda
+nav-profile-manage-account = Kelola akun Anda
 nav-profile-sign-out = Keluar
 nav-profile-sign-out-relay = Keluar dari { -brand-name-relay }
 nav-profile-sign-out-confirm = Anda yakin ingin keluar?
@@ -36,7 +38,9 @@ nav-profile-help-tooltip = Dapatkan bantuan menggunakan { -brand-name-relay }
 nav-profile-contact = Hubungi kami
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Hubungi kami tentang { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Avatar { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt-v2 = avatar akun
 nav-duo-description = Ganti dasbor
 nav-duo-email-mask-alt = Topeng surel
 nav-duo-phone-mask-alt = Topeng telepon
