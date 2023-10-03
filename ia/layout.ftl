@@ -24,7 +24,9 @@ avatar-tooltip = Profilo
 nav-faq = Folio a questiones
 nav-profile-sign-in = Aperir session
 nav-profile-sign-up = Inscriber se
+# Deprecated
 nav-profile-manage-fxa = Gerer tu { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-manage-account = Gere tu conto
 nav-profile-sign-out = Clauder session
 nav-profile-sign-out-relay = Clauder session in { -brand-name-relay }
 nav-profile-sign-out-confirm = Es tu secur de voler clauder session?
@@ -36,7 +38,9 @@ nav-profile-help-tooltip = Obtener adjuta pro usar { -brand-name-relay }
 nav-profile-contact = Contactar nos
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Contactar nos sur { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Avatar de { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt-v2 = avatar del conto
 nav-duo-description = Mutar pannello de controlo
 nav-duo-email-mask-alt = Mascas email
 nav-duo-phone-mask-alt = Mascas de numero de telephono
