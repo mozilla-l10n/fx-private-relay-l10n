@@ -24,7 +24,9 @@ avatar-tooltip = Profil
 nav-faq = Často kladené dotazy
 nav-profile-sign-in = Přihlásit se
 nav-profile-sign-up = Registrace
+# Deprecated
 nav-profile-manage-fxa = Správa { -brand-name-firefox-account(case: "gen", capitalization: "lower") }
+nav-profile-manage-account = Správa účtu
 nav-profile-sign-out = Odhlásit se
 nav-profile-sign-out-relay = Odhlásit se z { -brand-name-relay(case: "gen") }
 nav-profile-sign-out-confirm = Opravdu se chcete odhlásit?
@@ -36,7 +38,9 @@ nav-profile-help-tooltip = Získat pomoc s používáním služby { -brand-name-
 nav-profile-contact = Kontakt
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Kontaktujte nás ohledně služby { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Profilový obrázek - { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt-v2 = avatar účtu
 nav-duo-description = Přepnout nástěnku
 nav-duo-email-mask-alt = E-mailové masky
 nav-duo-phone-mask-alt = Masky telefonních čísel
