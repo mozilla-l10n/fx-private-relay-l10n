@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } gör det enkelt att skapa e-postalias som vidarebefordrar dina meddelanden till din riktiga inkorg. Använd dem för att skydda dina onlinekonton från hackare och oönskade meddelanden.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Öppnas i en ny flik)
 
@@ -20,12 +20,13 @@ nav-email-dashboard = E-postalias
 nav-phone-dashboard = Telefonalias
 label-open-menu = Öppna meny
 avatar-tooltip = Profil
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Vanliga frågor
 nav-profile-sign-in = Logga in
 nav-profile-sign-up = Registrera dig
+# Deprecated
 nav-profile-manage-fxa = Hantera ditt { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-manage-account = Hantera ditt konto
 nav-profile-sign-out = Logga ut
 nav-profile-sign-out-relay = Logga ut från { -brand-name-relay }
 nav-profile-sign-out-confirm = Är du säker på att du vill logga ut?
@@ -37,7 +38,9 @@ nav-profile-help-tooltip = Få hjälp med att använda { -brand-name-relay }
 nav-profile-contact = Kontakta oss
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Kontakta oss om { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Avatar för { -brand-name-firefox-account(capitalization: "uppercase") }
+nav-profile-image-alt-v2 = kontoavatar
 nav-duo-description = Byt översikter
 nav-duo-email-mask-alt = E-postalias
 nav-duo-phone-mask-alt = Telefonalias
@@ -52,7 +55,6 @@ nav-support = Hjälp och support
 nav-sign-out = Logga ut
 nav-contact = Kontakta oss
 nav-menu-mobile = Meny för mobila enheter
-
 fx-desktop-2 = { -brand-name-firefox } för datorer
 fx-mobile-2 = { -brand-name-firefox } för mobil
 
@@ -78,4 +80,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Stäng meny
-
