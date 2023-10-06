@@ -268,6 +268,7 @@ first-time-user-email-hero-secondary-text = Manage all your masks from your { -b
 first-time-user-email-hero-cta = View your dashboard
 
 ## Email sent to people onboarding that receive their first forwarded email.
+
 our-promise-header = Our promise to you
 our-promise-content = { -brand-name-relay } email masks forward to your email inbox any messages sent to that email mask—without revealing your real email address to the sender.
 what-can-you-do-with-relay-title = What can you do with { -brand-name-firefox-relay }?
