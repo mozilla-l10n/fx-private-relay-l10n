@@ -40,7 +40,7 @@ nav-profile-contact = 联系我们
 nav-profile-contact-tooltip = 沟通 { -brand-name-relay-premium } 的有关事项
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }头像
-nav-profile-image-alt-v2 = 头像
+nav-profile-image-alt-v2 = 账户头像
 nav-duo-description = 切换面板
 nav-duo-email-mask-alt = 马甲邮箱
 nav-duo-phone-mask-alt = 虚拟手机号
