@@ -55,7 +55,7 @@ footer-banner-premium-promo-body = Obtene un masca del numero de telephono, illi
 banner-pack-upgrade-cta = Promover ora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Actualisation del advertentia de confidentialitate
-banner-label-privacy-notice-update-body = Pro meliorar le fidabilitate de { -brand-name-firefox-relay } in caso que un e-mail non pote esser livrate, nos temporarimente mantenera le e-mail sur nostre servitores usque illo ha essite livrate. Nos jammais lo tenera in desde plus que tres dies.
+banner-label-privacy-notice-update-body = Pro meliorar le soliditate de { -brand-name-firefox-relay } in caso que un e-mail non pote esser livrate, nos temporarimente mantenera le message de e-mail sur nostre servitores usque illo ha essite livrate. Nos non lo retenera jammais plus de tres dies.
 banner-label-privacy-notice-update-cta = Vider le aviso de confidentialitate
 # Data Notification Banner:
 banner-label-data-notification-header = A venir tosto a { -brand-name-relay }

@@ -277,7 +277,7 @@ first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in 
 first-time-user-email-how-item-1-subhead-html = Crea mascas directemente sur { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o sur tu pannello de controlo de { -brand-name-relay }.
 first-time-user-email-how-item-1-subhead-text = Crea mascas directemente sur { -brand-name-firefox }, con le additivo de { -brand-name-relay }, o sur tu pannello de controlo de { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Nos inultrara tote le emails a tu cassa de ingresso
-first-time-user-email-how-item-2-subhead = Le expeditores jammais videra tu adresse real, e tu pote blocar le emails quandocunque.
+first-time-user-email-how-item-2-subhead = Le expeditores non videra jammais tu adresse real, e tu pote blocar messages quando tu vole.
 first-time-user-email-how-item-3-header = Gere tu mascas ab le pannello de controlo de tu { -brand-name-relay }
 # Variables
 #   $url (string) - URL of the dashboard
