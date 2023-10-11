@@ -280,6 +280,10 @@ what-can-you-do-with-relay-point-one = E-mailberjochten ûntfange sûnder jo ech
 what-can-you-do-with-relay-point-one-subpoint-html = Diel gewoan in e-mailmasker. E-mailmaskers sille e-mailberjochten trochstjoere nei jo Postfek YN. Jo kinne maskers daliks oanmeitsje yn { -brand-name-firefox }, mei de <a { $attrs }>{ -brand-name-relay }-útwreiding</a>, of op jo { -brand-name-relay }-dashboerd .
 what-can-you-do-with-relay-point-two = Foarkomme dat websites en spammers ienfâldich folgje wa’t jo binne
 what-can-you-do-with-relay-point-two-subpoint = E-mailtrackers binne tsjintwurdich oeral. { -brand-name-relay }-e-mailmaskers helpe jo om se yn it tsjuster taaste te litten.
+what-can-you-do-with-relay-point-three = Foarkomme dat spam jo Postfek YN berikt en sels maskers folslein útskeakelje
+what-can-you-do-with-relay-point-three-subpoint = Op it { -brand-name-relay }-dashboerd kinne jo maskers oanmeitsje, se labelje om oan te jaan wêr’t jo se brûke, spamblokkearring ynskeakelje en maskers fuortsmite dy’t jo net mear brûke wolle.
+forwarded-email-hero-header = Jo hawwe jo earste trochstjoerde e-mailberjocht ûntfongen!
+forwarded-email-hero-desc = Sjogge jo dy koptekst? Dizze ferskynt by alle e-mailberjochten dy’t troch { -brand-name-relay }-maskers trochstjoerd wurde.
 first-time-user-email-how-title = Hoe { -brand-name-relay } wurket
 first-time-user-email-how-item-1-header = Brûk oeral in { -brand-name-relay }-masker yn stee fan jo wiere e-mailadres
 # Variables
