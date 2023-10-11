@@ -269,6 +269,11 @@ first-time-user-email-welcome-subhead = Tu adresse email pote esser usate pro tr
 first-time-user-email-hero-primary-text = Como usator de { -brand-name-firefox }, tu recipe 5 mascas email gratuitemente. Usa los pro celar tu real adresse email, proteger tu identitate, e inultrar solo le emails que tu vole a tu cassa de ingresso.
 first-time-user-email-hero-secondary-text = Gere tote tu mascas ab le pannello de controlo de tu { -brand-name-relay }
 first-time-user-email-hero-cta = Vide tu pannello de controlo
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Nostre promissa a te
+what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-relay }?
 first-time-user-email-how-title = Como functiona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
 # Variables
