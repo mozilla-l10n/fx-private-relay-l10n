@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kontakt opnimme
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Mear ynfo
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Oanpaste maskers meitsje
-popover-custom-alias-explainer-explanation-2 = It iennige dat jo hoege te dwaan, is in unyk masker betinke en diele dy’t jo oanpaste domein brûkt – it masker wurdt automatysk oanmakke. Probearje bygelyks de folgjende kear dat jo online winkelje ‘winkel@oanpastsubdomein.mozmail.com’.
-popover-custom-alias-explainer-generate-button-heading-2 = Hânmjittich in oanpast masker oanmeitsje
-popover-custom-alias-explainer-generate-button-label-2 = Oanpast masker oanmeitsje
-popover-custom-alias-explainer-close-button-label = Slute
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reklameberjochten blokkearje
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Skeakelje Reklameberjochten blokkearje yn foar in masker om foar te kommen dat marketingberjochten jo Postfek YN berikke.
@@ -276,6 +268,10 @@ first-time-user-email-welcome-subhead = Jo e-mailadres kin brûkt wurde om jo on
 first-time-user-email-hero-primary-text = As brûker fan { -brand-name-firefox } krije jo 5 e-mailmaskers fergees. Brûk se om jo echte e-mailadres te ferbergjen, jo identiteit te beskermjen en allinnich jo winske e-mailberjochten nei jo Postfek YN troch te stjoeren.
 first-time-user-email-hero-secondary-text = Behear al jo maskers fan jo { -brand-name-relay }-dashboerd ôf
 first-time-user-email-hero-cta = Besjoch jo dashboerd
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Us belofte oan jo
 first-time-user-email-how-title = Hoe { -brand-name-relay } wurket
 first-time-user-email-how-item-1-header = Brûk oeral in { -brand-name-relay }-masker yn stee fan jo wiere e-mailadres
 # Variables
