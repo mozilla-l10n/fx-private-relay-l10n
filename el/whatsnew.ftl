@@ -61,10 +61,10 @@ whatsnew-feature-offer-countdown-heading = Η προσφορά γνωριμία�
 # Try to keep this string short, not longer than the English version.
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη…
+whatsnew-feature-offer-countdown-snippet = Αποκτήστε το { -brand-name-relay-premium } πριν από τις { $end_date } και απολαύστε απεριόριστες μάσκες στη…
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-whatsnew-feature-offer-countdown-description = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
+whatsnew-feature-offer-countdown-description = Αποκτήστε το { -brand-name-relay-premium } πριν από τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 whatsnew-feature-offer-countdown-cta = Αναβάθμιση τώρα
 whatsnew-feature-firefox-integration-heading = Το { -brand-name-relay } είναι πλέον διαθέσιμο στη Διαχείριση κωδικών πρόσβασης του { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.

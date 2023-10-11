@@ -72,7 +72,7 @@ banner-upgrade-loyalist-cta = Περισσότερη προστασία
 banner-offer-end-headline = Η προσφορά γνωριμίας μας λήγει σύντομα!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-banner-offer-end-copy = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
+banner-offer-end-copy = Αποκτήστε το { -brand-name-relay-premium } πριν από τις { $end_date } και απολαύστε απεριόριστες μάσκες στη μηνιαία τιμή γνωριμίας μας.
 banner-offer-end-cta = Αναβάθμιση τώρα
 # Variables:
 # $subdomain (url) - User-set subdomain

@@ -269,6 +269,14 @@ first-time-user-email-welcome-subhead = Η διεύθυνση email σας μπ�
 first-time-user-email-hero-primary-text = Ως χρήστης του { -brand-name-firefox }, λαμβάνετε δωρεάν 5 μάσκες email. Χρησιμοποιήστε τις για να αποκρύψετε την πραγματική σας διεύθυνση email, να προστατέψετε την ταυτότητά σας και να προωθήσετε μόνο τα email που θέλετε στα εισερχόμενα σας.
 first-time-user-email-hero-secondary-text = Διαχειριστείτε όλες τις μάσκες σας από τον πίνακα ελέγχου του { -brand-name-relay }.
 first-time-user-email-hero-cta = Προβολή του πίνακα ελέγχου σας
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Η υπόσχεσή μας προς εσάς
+what-can-you-do-with-relay-title = Τι μπορείτε να κάνετε με το { -brand-name-firefox-relay };
+what-can-you-do-with-relay-point-three-subpoint = Στον πίνακα ελέγχου του { -brand-name-relay }, μπορείτε να δημιουργήσετε μάσκες, να τους προσθέσετε ετικέτες για να σημειώσετε πού τις χρησιμοποιείτε, να ενεργοποιήσετε τη φραγή ανεπιθύμητων μηνυμάτων και να διαγράψετε όσες μάσκες δεν χρειάζεστε πλέον.
+forwarded-email-hero-header = Λάβατε το πρώτο σας προωθημένο email!
+forwarded-email-hero-desc = Βλέπετε αυτήν την κεφαλίδα; Θα εμφανίζεται σε όλα τα email που προωθούνται από τις μάσκες του { -brand-name-relay }.
 first-time-user-email-how-title = Πώς λειτουργεί το { -brand-name-relay }
 first-time-user-email-how-item-1-header = Χρησιμοποιήστε μια μάσκα { -brand-name-relay } αντί για το πραγματικό σας email, παντού
 # Variables
