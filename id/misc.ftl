@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kontak dukungan
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Kiat { $nr }
 tips-toast-button-expand-label = Pelajari lebih lanjut
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Cara membuat topeng kustom
-popover-custom-alias-explainer-explanation-2 = Yang perlu Anda lakukan hanyalah membuat dan membagikan topeng unik yang menggunakan subdomain kustom Anda — topeng akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
-popover-custom-alias-explainer-generate-button-heading-2 = Buat topeng kustom secara manual
-popover-custom-alias-explainer-generate-button-label-2 = Buat topeng kustom
-popover-custom-alias-explainer-close-button-label = Tutup
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokir surel promosi
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktifkan Pemblokiran Surel Promosi pada topeng untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
@@ -271,6 +263,22 @@ first-time-user-email-welcome-subhead = Alamat surel Anda dapat digunakan untuk 
 first-time-user-email-hero-primary-text = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan 5 topeng surel gratis. Gunakan topeng tersebut untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang diinginkan ke kotak masuk Anda.
 first-time-user-email-hero-secondary-text = Kelola semua topeng Anda dari dasbor { -brand-name-relay } Anda.
 first-time-user-email-hero-cta = Lihat dasbor Anda
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Janji kami untuk Anda
+our-promise-content = { -brand-name-relay } topeng surel meneruskan ke kotak masuk surel Anda pesan apa pun yang dikirim ke topeng surel itu — tanpa mengungkapkan alamat surel asli Anda kepada pengirim.
+what-can-you-do-with-relay-title = Apa yang dapat Anda lakukan dengan { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Dapatkan surel tanpa mengungkapkan alamat surel asli Anda kepada pengirim
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Cukup bagikan topeng surel saja. Masker surel akan meneruskan surel ke kotak masuk Anda. Anda dapat membuat topeng secara langsung di { -brand-name-firefox }, dengan ekstensi <a { $attrs }>{ -brand-name-relay }</a>, atau di dasbor { -brand-name-relay } Anda .
+what-can-you-do-with-relay-point-two = Jauhkan situs web dan spammer agar tidak mudah melacak siapa Anda
+what-can-you-do-with-relay-point-two-subpoint = Pelacak surel ada di mana-mana akhir-akhir ini. Masker surel { -brand-name-relay } membantu Anda membuat mereka menebak-nebak.
+what-can-you-do-with-relay-point-three = Blokir spam agar tidak masuk ke kotak masuk Anda, dan bahkan matikan topeng sepenuhnya
+what-can-you-do-with-relay-point-three-subpoint = Di dasbor { -brand-name-relay }, Anda dapat membuat topeng, memberi label untuk mencatat di mana Anda menggunakannya, mengaktifkan pemblokiran spam, dan menghapus yang tidak Anda inginkan lagi.
+forwarded-email-hero-header = Anda mendapatkan surel pertama yang diteruskan!
+forwarded-email-hero-desc = Lihat tajuk itu? Ini akan muncul di semua surel yang diteruskan oleh topeng { -brand-name-relay }.
 first-time-user-email-how-title = Cara kerja { -brand-name-relay }
 first-time-user-email-how-item-1-header = Gunakan topeng { -brand-name-relay } alih-alih surel asli Anda, di mana saja
 # Variables
