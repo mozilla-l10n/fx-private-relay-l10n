@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = { $nr }. tipp
 tips-toast-button-expand-label = További tudnivalók
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Hogyan hozzon létre egyéni maszkokat
-popover-custom-alias-explainer-explanation-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenidomain.mozmail.com” címet legközelebb, amikor online vásárol.
-popover-custom-alias-explainer-generate-button-heading-2 = Egyéni maszk létrehozása kézileg
-popover-custom-alias-explainer-generate-button-label-2 = Egyéni maszk előállítása
-popover-custom-alias-explainer-close-button-label = Bezárás
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Promóciós e-mailek letiltása
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Engedélyezze a Promóciós e-mailek letiltását egy maszkon, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
@@ -274,6 +266,22 @@ first-time-user-email-welcome-subhead = Az e-mail-címe felhasználható arra, h
 first-time-user-email-hero-primary-text = { -brand-name-firefox }-felhasználóként 5 ingyenes e-mail-maszkot kap. Használja őket a valódi e-mail-címének elrejtésére, személyazonosságának védelmére, és csak a kívánt levelek továbbítására a postaládájába.
 first-time-user-email-hero-secondary-text = Kezelje az összes maszkját a { -brand-name-relay } irányítópultjáról.
 first-time-user-email-hero-cta = Saját irányítópult megtekintése
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Az Önnek küldött ígéretünk
+our-promise-content = A { -brand-name-relay } e-mail-maszkok a beérkezett üzenetek mappájába továbbítják az ebbe az e-mail-maszkba küldött üzeneteket – anélkül, hogy felfednék a valódi e-mail-címét a feladónak.
+what-can-you-do-with-relay-title = Mit tehet a { -brand-name-firefox-relay }del?
+what-can-you-do-with-relay-point-one = Kapjon e-maileket anélkül, hogy felfedné a valódi e-mail-címét a feladókkal
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }on hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpulton olvasható.
+what-can-you-do-with-relay-point-two = Tartsa meg a webhelyeket és a spammereket attól, hogy könnyen nyomon kövessék, ki Ön
+what-can-you-do-with-relay-point-two-subpoint = Az e-mail-követők manapság mindenhol vannak. A { -brand-name-relay } e-mail-maszkok segítenek abban, hogy ne találgassanak.
+what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne érje el a Beérkezett üzenetek mappáját, sőt, kapcsolja ki teljesen a maszkokat
+what-can-you-do-with-relay-point-three-subpoint = A { -brand-name-relay } irányítópulton maszkokat hozhat létre, címkézheti őket, hogy hol használja, bekapcsolhatja a levélszemét-blokkolást, és törölheti azokat, amelyeket már nem szeretne.
+forwarded-email-hero-header = Megkapta az első továbbított e-mailt!
+forwarded-email-hero-desc = Látja ezt a fejlécet? Meg fog jelenni az összes { -brand-name-relay }-maszkok által továbbított e-mailen.
 first-time-user-email-how-title = Hogyan működik a { -brand-name-relay }
 first-time-user-email-how-item-1-header = Használjon { -brand-name-relay } maszkot a valódi e-mail-címe helyett mindenhol
 # Variables
