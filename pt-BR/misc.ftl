@@ -277,6 +277,7 @@ what-can-you-do-with-relay-point-one = Receba emails sem revelar seu endereço d
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = Basta compartilhar uma máscara de email. Máscaras de email encaminham emails para sua caixa de entrada. Você pode criar máscaras diretamente no { -brand-name-firefox }, com a <a { $attrs }>{ -brand-name-relay } extensão</a>, ou no painel do { -brand-name-relay } .
 what-can-you-do-with-relay-point-two = Evite que sites e spammers rastreiem facilmente quem você é
+what-can-you-do-with-relay-point-two-subpoint = Atualmente, rastreadores de email estão por toda parte. Máscaras de email do { -brand-name-relay } ajudam você a permanecer oculto.
 what-can-you-do-with-relay-point-three = Impeça que spam chegue à sua caixa de entrada e até mesmo desative máscaras completamente
 what-can-you-do-with-relay-point-three-subpoint = No painel do { -brand-name-relay }, você pode criar máscaras, rotular para indicar onde você as usa, ativar o bloqueio de spam e excluir as que você não quer mais.
 forwarded-email-hero-header = Você recebeu seu primeiro email encaminhado!
