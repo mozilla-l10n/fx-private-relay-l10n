@@ -269,9 +269,12 @@ first-time-user-email-hero-cta = Veja seu painel
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-content = Máscaras de email do { -brand-name-relay } encaminham para sua caixa de entrada de email todas as mensagens enviadas para tais máscara de email, sem revelar seu endereço de email real ao remetente.
 what-can-you-do-with-relay-title = O que você pode fazer com o { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Receba emails sem revelar seu endereço de email real aos remetentes
+what-can-you-do-with-relay-point-two = Evite que sites e spammers rastreiem facilmente quem você é
 forwarded-email-hero-header = Você recebeu seu primeiro email encaminhado!
+forwarded-email-hero-desc = Notou esse cabeçalho? Ele aparece em todos os emails encaminhados pelas máscaras do { -brand-name-relay }.
 first-time-user-email-how-title = Como o { -brand-name-relay } funciona
 first-time-user-email-how-item-1-header = Use uma máscara do { -brand-name-relay } em vez de seu email real, em qualquer lugar
 # Variables
