@@ -42,13 +42,13 @@ banner-choose-subdomain-input-placeholder-3 = Pesquisar subdomínio
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Pesquisar
 banner-pack-upgrade-headline-2-html = Atualize para o <strong>{ -brand-name-firefox-relay-premium }</strong> para obter mais máscaras de email
-banner-pack-upgrade-copy-2 = Com máscaras de e-mail ilimitadas e o seu próprio subdomínio de e-mail, o { -brand-name-firefox-relay-premium } ajuda-o a manter-se protegido na Internet.
+banner-pack-upgrade-copy-2 = Com máscaras de e-mail ilimitadas e o seu próprio subdomínio de e-mail, o { -brand-name-firefox-relay-premium } irá a ajudar a manter-se protegido na Internet.
 footer-banner-premium-promo-headine = Atualize para o <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger o seu telefone <i>e</i> e-mail
 footer-banner-premium-promo-body = Obtenha uma máscara de número de telefone, máscaras de e-mail ilimitadas e endereços de e-mail personalizados para a criação rápida de máscaras.
 banner-pack-upgrade-cta = Atualizar agora
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Atualização da informação de privacidade
-banner-label-privacy-notice-update-body = Para melhorar a confiabilidade do { -brand-name-firefox-relay } no evento de um email não poder ser entregue, iremos manter temporariamente o email nos nossos servidores até que este seja entregue. Nunca o reteremos por mais do que três dias.
+banner-label-privacy-notice-update-body = Para melhorar a confiabilidade do { -brand-name-firefox-relay } no evento de não ser possível entregar um e-mail, iremos manter temporariamente o e-mail nos nossos servidores até que este seja entregue. O mesmo nunca será retido por mais do que três dias.
 banner-label-privacy-notice-update-cta = Ver informação de privacidade
 # Data Notification Banner:
 banner-label-data-notification-header = Em breve no { -brand-name-relay }
@@ -59,7 +59,7 @@ banner-label-data-notification-body-cta = Saber mais
 banner-upgrade-loyalist-headline-2 = Proteja a sua privacidade, salve a Internet
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy-2 = Proteja a sua privacidade enquanto se juntar à nossa missão para construir uma Internet melhor, tudo por { $monthly_price }
+banner-upgrade-loyalist-copy-2 = Proteja a sua privacidade enquanto se junta à nossa missão para construir uma Internet melhor. Tudo por { $monthly_price }
 banner-upgrade-loyalist-cta = Obtenha mais proteção
 # End of intro pricing countdown banner:
 banner-offer-end-headline = A nossa oferta de preço de lançamento termina brevemente!
@@ -71,8 +71,8 @@ banner-offer-end-cta = Atualizar agora
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = Pode criar qualquer endereço @{ $subdomain }
 # Relay Premium Promo A/B Test
-banner-ab-premium-promo-stop-spam-headline = Pare com o spam, chamadas automáticas e mensagens de lixo eletrónico
-banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de telefone para proteger o seu número real — mais máscaras de e-mail ilimitadas.
+banner-ab-premium-promo-stop-spam-headline = Pare o spam, chamadas automatizadas e mensagens de lixo eletrónico
+banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de telefone para proteger o seu número real — e ainda máscaras de e-mail ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Proteção avançada de identidade
 banner-ab-premium-promo-advanced-identity-body = Impeça que rastreadores e agregadores de dados o identifiquem através do seu número de telefone e endereço de e-mail.
 banner-ab-premium-promo-control-receiver-headline = Controle quem recebe o seu número real
