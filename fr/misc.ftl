@@ -277,7 +277,6 @@ what-can-you-do-with-relay-point-one = Recevez des messages sans révéler votre
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = Partagez simplement un alias de messagerie. Les alias de messagerie transféreront les messages vers votre boîte de réception. Vous pouvez créer des alias directement sur { -brand-name-firefox }, avec l’<a { $attrs }>extension { -brand-name-relay }</a>, ou sur votre tableau de bord { -brand-name-relay } .
 what-can-you-do-with-relay-point-two = Empêchez les sites web et les spammeurs de vous pister facilement
-what-can-you-do-with-relay-point-two-subpoint = Les traqueurs des e-mails sont partout ces jours-ci. Les alias de messagerie { -brand-name-relay } vous aident à les empêcher de deviner.
 what-can-you-do-with-relay-point-three = Empêchez les messages de spam d’arriver dans votre boîte de réception et désactivez même complètement les alias
 what-can-you-do-with-relay-point-three-subpoint = Sur le tableau de bord de { -brand-name-relay }, vous pouvez créer des alias, les étiqueter pour noter où vous les utilisez, activer le blocage des spams et supprimer ceux que vous ne voulez plus.
 forwarded-email-hero-header = Vous avez reçu votre premier e-mail transféré !
