@@ -272,6 +272,14 @@ first-time-user-email-hero-cta = Besjoch jo dashboerd
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Us belofte oan jo
+our-promise-content = E-mailmaskers fan { -brand-name-relay } stjoere alle berjochten dy’t nei dat masker ferstjoerd binne nei jo Postfek YN – sûnder jo echte e-mailadres oan de ôfstjoerder priis te jaan.
+what-can-you-do-with-relay-title = Wat kinne jo dwaan mei { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = E-mailberjochten ûntfange sûnder jo echte e-mailadres oan ôfstjoerders te ûntbleatsjen
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Diel gewoan in e-mailmasker. E-mailmaskers sille e-mailberjochten trochstjoere nei jo Postfek YN. Jo kinne maskers daliks oanmeitsje yn { -brand-name-firefox }, mei de <a { $attrs }>{ -brand-name-relay }-útwreiding</a>, of op jo { -brand-name-relay }-dashboerd .
+what-can-you-do-with-relay-point-two = Foarkomme dat websites en spammers ienfâldich folgje wa’t jo binne
+what-can-you-do-with-relay-point-two-subpoint = E-mailtrackers binne tsjintwurdich oeral. { -brand-name-relay }-e-mailmaskers helpe jo om se yn it tsjuster taaste te litten.
 first-time-user-email-how-title = Hoe { -brand-name-relay } wurket
 first-time-user-email-how-item-1-header = Brûk oeral in { -brand-name-relay }-masker yn stee fan jo wiere e-mailadres
 # Variables
