@@ -261,6 +261,22 @@ first-time-user-email-welcome-subhead = 您的电子邮件地址可能会被用�
 first-time-user-email-hero-primary-text = 作为 { -brand-name-firefox } 用户，您可以免费获得 5 个邮箱马甲。请使用它们来隐藏您的真实电子邮件地址，保护您的身份，并仅将您需要的电子邮件转发到您的收件箱。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 面板管理您的所有马甲。
 first-time-user-email-hero-cta = 查看您的控制面板
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = 我们对您的承诺
+our-promise-content = { -brand-name-relay } 马甲邮箱可转发发送给马甲邮箱的任何邮件避免向发件人泄露您的真实邮箱地址。
+what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 有什么功能
+what-can-you-do-with-relay-point-one = 无需向发件人透露真实邮箱地址也可接收邮件
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = 只需提供马甲邮箱即可。马甲邮箱会将邮件转发至您的收件箱。您可以使用 <a { $attrs }> { -brand-name-relay }扩展</a>在 { -brand-name-relay } 上直接在{ -brand-name-firefox } -brand { -brand-name-relay }面板上创建马甲。修改这些设置。
+what-can-you-do-with-relay-point-two = 阻止网站和垃圾发送者轻易跟踪您是谁
+what-can-you-do-with-relay-point-two-subpoint = 近来电子邮件跟踪器无处不在。 { -brand-name-relay } 马甲邮箱助您防范不已。
+what-can-you-do-with-relay-point-three = 阻止垃圾邮件到达您的收件箱甚至完全关闭马甲
+what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 面板上您可以创建马甲、为它们添加标签以注明将其用于何处、开启垃圾邮件拦截以及删除不再需要的马甲。
+forwarded-email-hero-header = 您收到了第一封转发给您的邮件
+forwarded-email-hero-desc = 看到那个标题了吗它将出现在 { -brand-name-relay } Masks 转发的所有电子邮件上。
 first-time-user-email-how-title = { -brand-name-relay } 如何工作
 first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 马甲邮箱，不必交出真实邮箱地址
 # Variables
