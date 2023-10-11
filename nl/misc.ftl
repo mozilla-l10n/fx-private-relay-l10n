@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Contact opnemen
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Meer info
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Aangepaste maskers maken
-popover-custom-alias-explainer-explanation-2 = Het enige dat u hoeft te doen, is een uniek masker bedenken en delen dat uw aangepaste domein gebruikt – het masker wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
-popover-custom-alias-explainer-generate-button-heading-2 = Handmatig een aangepast masker aanmaken
-popover-custom-alias-explainer-generate-button-label-2 = Aangepast masker aanmaken
-popover-custom-alias-explainer-close-button-label = Sluiten
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reclameberichten blokkeren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Schakel Reclameberichten blokkeren in voor een masker om te voorkomen dat marketingberichten uw Postvak IN bereiken.
@@ -276,6 +268,22 @@ first-time-user-email-welcome-subhead = Uw e-mailadres kan worden gebruikt om u 
 first-time-user-email-hero-primary-text = Als gebruiker van { -brand-name-firefox } krijgt u 5 e-mailmaskers gratis. Gebruik ze om uw echte e-mailadres te verbergen, uw identiteit te beschermen en alleen uw gewenste e-mailberichten door te sturen naar uw Postvak IN.
 first-time-user-email-hero-secondary-text = Beheer al uw maskers vanaf uw { -brand-name-relay }-dashboard
 first-time-user-email-hero-cta = Bekijk uw dashboard
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Onze belofte aan u
+our-promise-content = E-mailmaskers van { -brand-name-relay } sturen alle berichten die naar dat masker zijn verzonden naar uw Postvak IN – zonder uw echte e-mailadres aan de afzender prijs te geven.
+what-can-you-do-with-relay-title = Wat kunt u doen met { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = E-mailberichten ontvangen zonder uw echte e-mailadres aan afzenders te onthullen
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Deel gewoon een e-mailmasker. E-mailmaskers sturen e-mailberichten door naar uw Postvak IN. U kunt maskers rechtstreeks in { -brand-name-firefox } aanmaken, met de <a { $attrs }>{ -brand-name-relay }-extensie</a>, of op uw { -brand-name-relay }-dashboard .
+what-can-you-do-with-relay-point-two = Voorkomen dat websites en spammers eenvoudig volgen wie u bent
+what-can-you-do-with-relay-point-two-subpoint = E-mailtrackers zijn tegenwoordig overal. { -brand-name-relay }-e-mailmaskers helpen u om ze in het duister te laten tasten.
+what-can-you-do-with-relay-point-three = Voorkomen dat spam uw Postvak IN bereikt en zelfs maskers volledig uitschakelen
+what-can-you-do-with-relay-point-three-subpoint = Op het { -brand-name-relay }-dashboard kunt u maskers aanmaken, ze labelen om aan te geven waar u ze gebruikt, spamblokkering inschakelen en maskers verwijderen die u niet meer wilt gebruiken.
+forwarded-email-hero-header = U hebt uw eerste doorgestuurde e-mailbericht ontvangen!
+forwarded-email-hero-desc = Ziet u die koptekst? Deze verschijnt bij alle e-mailberichten die door { -brand-name-relay }-maskers worden doorgestuurd.
 first-time-user-email-how-title = Hoe { -brand-name-relay } werkt
 first-time-user-email-how-item-1-header = Gebruik overal een { -brand-name-relay }-masker in plaats van uw echte e-mailadres
 # Variables
