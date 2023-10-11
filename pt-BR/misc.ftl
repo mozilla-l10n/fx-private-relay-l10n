@@ -266,6 +266,12 @@ first-time-user-email-welcome-subhead = Seu endereço de email pode ser usado pa
 first-time-user-email-hero-primary-text = Como usuário do { -brand-name-firefox }, você recebe 5 máscaras de email gratuitamente. Use para ocultar seu endereço de email real, proteger sua identidade e encaminhar apenas as mensagens que quiser para sua caixa de entrada.
 first-time-user-email-hero-secondary-text = Gerencie todas as suas máscaras no painel do { -brand-name-relay }.
 first-time-user-email-hero-cta = Veja seu painel
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+what-can-you-do-with-relay-title = O que você pode fazer com o { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Receba emails sem revelar seu endereço de email real aos remetentes
+forwarded-email-hero-header = Você recebeu seu primeiro email encaminhado!
 first-time-user-email-how-title = Como o { -brand-name-relay } funciona
 first-time-user-email-how-item-1-header = Use uma máscara do { -brand-name-relay } em vez de seu email real, em qualquer lugar
 # Variables
