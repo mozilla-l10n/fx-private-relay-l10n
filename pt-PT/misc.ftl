@@ -276,6 +276,22 @@ first-time-user-email-welcome-subhead = O seu endereço de e-mail pode ser utili
 first-time-user-email-hero-primary-text = Como utilizador do { -brand-name-firefox }, tem 5 máscaras de correio eletrónico gratuitas. Utilize-os para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que pretende para a sua caixa de entrada.
 first-time-user-email-hero-secondary-text = Faça a gestão de todas as suas máscaras a partir do seu painel do { -brand-name-relay }.
 first-time-user-email-hero-cta = Ver o seu painel
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = A nossa promessa para si
+our-promise-content = As máscaras de e-mail do { -brand-name-relay } encaminham para a sua caixa de entrada de correio eletrónico quaisquer mensagens enviadas para essa máscara de e-mail — sem revelar o seu endereço de e-mail real ao remetente.
+what-can-you-do-with-relay-title = O que pode fazer com o { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Obtenha e-mails sem revelar o seu endereço de e-mail real aos remetentes
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Em vez disso, apenas partilhe uma máscara de e-mail. As máscaras de e-mail irão encaminhar mensagens para a sua caixa de entrada. Pode criar máscaras diretamente no { -brand-name-firefox }, com a <a { $attrs }>extensão { -brand-name-relay }</a>, ou no seu painel de { -brand-name-relay } .
+what-can-you-do-with-relay-point-two = Impeça que os sites e os remetentes de spam monitorizem facilmente quem é
+what-can-you-do-with-relay-point-two-subpoint = Os rastreadores de e-mail estão por todo o lado atualmente. As máscaras de e-mail do { -brand-name-relay } ajudam-no a mantê-los a adivinhar.
+what-can-you-do-with-relay-point-three = Impeça o spam de chegar à sua caixa de entrada e até desative as máscaras completamente
+what-can-you-do-with-relay-point-three-subpoint = No painel do { -brand-name-relay }, pode criar máscaras, etiquetar as mesmas para indicar onde as utiliza, ativar o bloqueio de spam e eliminar as que já não queira.
+forwarded-email-hero-header = Recebeu o seu primeiro email encaminhado!
+forwarded-email-hero-desc = Vê esse cabeçalho? Irá aparecer em todos os e-mails encaminhados por máscaras { -brand-name-relay }.
 first-time-user-email-how-title = Como é que o { -brand-name-relay } funciona
 first-time-user-email-how-item-1-header = Utilize uma máscara { -brand-name-relay } em vez do seu e-mail real, em todo o lado
 # Variables
