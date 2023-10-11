@@ -270,9 +270,9 @@ first-time-user-email-hero-cta = Afficher votre tableau de bord
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Ce que nous vous promettons
-our-promise-content = { -brand-name-relay } transfère les alias de messagerie vers votre boîte de réception tous les messages envoyés à cet alias de messagerie, sans révéler votre véritable adresse e-mail à l’expéditeur.
+our-promise-content = Les alias de messagerie { -brand-name-relay } transfèrent vers votre boîte de réception tous les messages envoyés à cet alias de messagerie, sans révéler votre véritable adresse e-mail à l’expéditeur.
 what-can-you-do-with-relay-title = Que pouvez-vous faire avec { -brand-name-firefox-relay } ?
-what-can-you-do-with-relay-point-one = Recevez des messages sans révéler votre véritable adresse aux expéditeurs
+what-can-you-do-with-relay-point-one = Recevez des messages sans révéler votre véritable adresse e-mail aux expéditeurs
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = Partagez simplement un alias de messagerie. Les alias de messagerie transféreront les messages vers votre boîte de réception. Vous pouvez créer des alias directement sur { -brand-name-firefox }, avec l’<a { $attrs }>extension { -brand-name-relay }</a>, ou sur votre tableau de bord { -brand-name-relay } .
