@@ -24,7 +24,9 @@ avatar-tooltip = Profiili
 nav-faq = UKK
 nav-profile-sign-in = Kirjaudu sisään
 nav-profile-sign-up = Rekisteröidy
+# Deprecated
 nav-profile-manage-fxa = Hallitse { -brand-name-firefox-account(capitalization: "uppercase") }äsi
+nav-profile-manage-account = Hallinnoi tiliä
 nav-profile-sign-out = Kirjaudu ulos
 nav-profile-sign-out-relay = Kirjaudu ulos { -brand-name-relay }-palvelusta
 nav-profile-sign-out-confirm = Haluatko varmasti kirjautua ulos?
@@ -36,7 +38,9 @@ nav-profile-help-tooltip = Ohjeita { -brand-name-relay }n käyttöön
 nav-profile-contact = Ota yhteyttä
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Ota yhteyttä { -brand-name-relay-premium }iin liittyen
+# Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") }in profiilikuva
+nav-profile-image-alt-v2 = tilin avatar-kuva
 nav-duo-description = Vaihda kojelautoja
 nav-duo-email-mask-alt = Sähköpostimaskit
 nav-duo-phone-mask-alt = Puhelinmaskit
