@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Contacter l’assistance
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Astuce { $nr }
 tips-toast-button-expand-label = En savoir plus
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Comment créer des alias personnalisés
-popover-custom-alias-explainer-explanation-2 = Tout ce que vous avez à faire est de créer et de partager un alias unique qui utilise votre sous-domaine personnalisé — l’alias sera généré automatiquement. Essayez « marchand@mondomaine.mozmail.com » la prochaine fois que vous effectuez des achats en ligne, par exemple.
-popover-custom-alias-explainer-generate-button-heading-2 = Générer un alias personnalisé manuellement
-popover-custom-alias-explainer-generate-button-label-2 = Générer un alias personnalisé
-popover-custom-alias-explainer-close-button-label = Fermer
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquer les e-mails promotionnels
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activez le blocage des e-mails promotionnels pour un alias afin d’empêcher la réception des messages des campagnes publicitaires dans votre boîte de réception.
@@ -274,6 +266,22 @@ first-time-user-email-welcome-subhead = Votre adresse e-mail peut être utilisé
 first-time-user-email-hero-primary-text = En tant qu’utilisateur de { -brand-name-firefox }, vous disposez de 5 alias de messagerie gratuits. Utilisez-les pour masquer votre véritable adresse e-mail, protéger votre identité et transférer uniquement les e-mails que vous souhaitez vers votre boîte de réception.
 first-time-user-email-hero-secondary-text = Gérez tous vos alias depuis votre tableau de bord { -brand-name-relay }.
 first-time-user-email-hero-cta = Afficher votre tableau de bord
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Ce que nous vous promettons
+our-promise-content = { -brand-name-relay } transfère les alias de messagerie vers votre boîte de réception tous les messages envoyés à cet alias de messagerie, sans révéler votre véritable adresse e-mail à l’expéditeur.
+what-can-you-do-with-relay-title = Que pouvez-vous faire avec { -brand-name-firefox-relay } ?
+what-can-you-do-with-relay-point-one = Recevez des messages sans révéler votre véritable adresse aux expéditeurs
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Partagez simplement un alias de messagerie. Les alias de messagerie transféreront les messages vers votre boîte de réception. Vous pouvez créer des alias directement sur { -brand-name-firefox }, avec l’<a { $attrs }>extension { -brand-name-relay }</a>, ou sur votre tableau de bord { -brand-name-relay } .
+what-can-you-do-with-relay-point-two = Empêchez les sites web et les spammeurs de vous pister facilement
+what-can-you-do-with-relay-point-two-subpoint = Les traqueurs des e-mails sont partout ces jours-ci. Les alias de messagerie { -brand-name-relay } vous aident à les empêcher de deviner.
+what-can-you-do-with-relay-point-three = Empêchez les messages de spam d’arriver dans votre boîte de réception et désactivez même complètement les alias
+what-can-you-do-with-relay-point-three-subpoint = Sur le tableau de bord de { -brand-name-relay }, vous pouvez créer des alias, les étiqueter pour noter où vous les utilisez, activer le blocage des spams et supprimer ceux que vous ne voulez plus.
+forwarded-email-hero-header = Vous avez reçu votre premier e-mail transféré !
+forwarded-email-hero-desc = Vous voyez cet en-tête ? Il apparaîtra sur tous les e-mails transférés par { -brand-name-relay }.
 first-time-user-email-how-title = Fonctionnement de { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utilisez un alias { -brand-name-relay } à la place de votre véritable adresse e-mail, partout
 # Variables
