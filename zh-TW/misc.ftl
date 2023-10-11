@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = 聯絡支援團隊
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 秘訣 { $nr }
 tips-toast-button-expand-label = 了解更多
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = 如何建立自訂轉寄信箱
-popover-custom-alias-explainer-explanation-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customdomain.mozmail.com」就會自動產生。
-popover-custom-alias-explainer-generate-button-heading-2 = 手動建立自訂轉寄信箱
-popover-custom-alias-explainer-generate-button-label-2 = 建立自訂轉寄信箱
-popover-custom-alias-explainer-close-button-label = 關閉
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
@@ -271,6 +263,22 @@ first-time-user-email-welcome-subhead = 您的電子郵件地址可能會被用�
 first-time-user-email-hero-primary-text = { -brand-name-firefox } 使用者可免費獲得 5 組轉寄信箱。您可以使用它們來隱藏您實際的電子郵件地址、保護身分資訊，只把想要的郵件轉寄回您的實際信箱。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 儀表板管理您的所有轉寄信箱。
 first-time-user-email-hero-cta = 檢視儀表板
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = 我們對您的承諾
+our-promise-content = { -brand-name-relay } 轉寄信箱會將所有透過該轉寄信箱收到的郵件轉寄到您的收件匣 — 不用告訴寄件者您的實際信箱。
+what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 能做什麼
+what-can-you-do-with-relay-point-one = 不用告訴寄件者您實際的電子郵件地址就能直接收到郵件
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = 直接分享轉寄信箱即可。使用轉寄信箱來轉寄郵件到您的收件匣。您可以直接在 { -brand-name-firefox } 上使用 <a { $attrs }>{ -brand-name-relay } 擴充套件</a>或是 { -brand-name-relay } 儀表板建立轉寄信箱的更多資訊。
+what-can-you-do-with-relay-point-two = 防止網站讓垃圾郵件製造者追踪到您
+what-can-you-do-with-relay-point-two-subpoint = 現在的電子郵件追踪器比比皆是。 { -brand-name-relay } 的轉寄信箱可幫助您不讓他們猜測。
+what-can-you-do-with-relay-point-three = 完全封鎖垃圾信甚至完全關閉轉寄信箱
+what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 儀表板您可以建立轉寄信箱、為轉寄信箱加上標籤以記下在哪裡使用、開啟垃圾信封鎖功能以及刪除任何不再想要的轉寄信箱。
+forwarded-email-hero-header = 您收到了第一封轉寄的郵件
+forwarded-email-hero-desc = 看到這個檔頭了嗎將在所有使用 { -brand-name-relay } 轉寄的郵件中顯示。
 first-time-user-email-how-title = { -brand-name-relay } 的運作原理
 first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-relay } 轉寄信箱，不使用您的實際信箱。
 # Variables
