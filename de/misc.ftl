@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Hilfe kontaktieren
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tipp { $nr }
 tips-toast-button-expand-label = Weitere Informationen
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = So erstellen Sie benutzerdefinierte Masken
-popover-custom-alias-explainer-explanation-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
-popover-custom-alias-explainer-generate-button-heading-2 = Benutzerdefinierte Maske manuell erzeugen
-popover-custom-alias-explainer-generate-button-label-2 = Benutzerdefinierte Maske erzeugen
-popover-custom-alias-explainer-close-button-label = Schließen
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivieren Sie bei einer Maske die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
@@ -276,6 +268,22 @@ first-time-user-email-welcome-subhead = Ihre E-Mail-Adresse kann dazu verwendet 
 first-time-user-email-hero-primary-text = Als { -brand-name-firefox }-Nutzer erhalten Sie fünf E-Mail-Masken kostenlos. Verwenden Sie sie, um Ihre echte E-Mail-Adresse zu verbergen, Ihre Identität zu schützen und nur die gewünschten E-Mails an Ihren Posteingang weiterzuleiten.
 first-time-user-email-hero-secondary-text = Verwalten Sie alle Ihre Masken über Ihre { -brand-name-relay }-Übersicht.
 first-time-user-email-hero-cta = Ihre Übersicht anzeigen
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Unser Versprechen an Sie
+our-promise-content = E-Mail-Masken von { -brand-name-relay } leiten alle an diese E-Mail-Maske gesendeten Nachrichten an Ihren E-Mail-Posteingang weiter – ohne Ihre echte E-Mail-Adresse gegenüber dem Absender preiszugeben.
+what-can-you-do-with-relay-title = Was ist mit { -brand-name-firefox-relay } möglich?
+what-can-you-do-with-relay-point-one = Erhalten Sie E-Mails, ohne Ihre echte E-Mail-Adresse an die Absender preiszugeben
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Teilen Sie stattdessen einfach eine E-Mail-Maske. E-Mail-Masken leiten E-Mails an Ihren Posteingang weiter. Sie können Masken direkt in { -brand-name-firefox }, mit der <a { $attrs }>{ -brand-name-relay }-Erweiterung</a> oder in Ihrer { -brand-name-relay }-Übersicht erstellen .
+what-can-you-do-with-relay-point-two = Verhindern Sie, dass Websites und Spammer auf einfache Weise verfolgen, wer Sie sind
+what-can-you-do-with-relay-point-two-subpoint = E-Mail-Tracker sind heutzutage überall. E-Mail-Masken von { -brand-name-relay } helfen Ihnen, im Verborgenen zu bleiben.
+what-can-you-do-with-relay-point-three = Verhindern Sie, dass Spam Ihren Posteingang erreicht und schalten Sie Masken sogar komplett aus
+what-can-you-do-with-relay-point-three-subpoint = In der { -brand-name-relay }-Übersicht können Sie Masken erstellen, sie beschriften, um sich zu merken, wo Sie sie verwenden, den Spam-Block aktivieren und nicht mehr benötigte Masken löschen.
+forwarded-email-hero-header = Sie haben Ihre erste weitergeleitete E-Mail erhalten!
+forwarded-email-hero-desc = Sehen Sie die Kopfzeile? Er erscheint in allen E-Mails, die von { -brand-name-relay }-Masken weitergeleitet werden.
 first-time-user-email-how-title = So funktioniert { -brand-name-relay }
 first-time-user-email-how-item-1-header = Verwenden Sie eine { -brand-name-relay }-Maske statt Ihrer richtigen E-Mail-Adresse, egal wo es nötig ist
 # Variables
