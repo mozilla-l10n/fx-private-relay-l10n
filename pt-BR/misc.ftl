@@ -269,10 +269,16 @@ first-time-user-email-hero-cta = Veja seu painel
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-header = Nossa promessa para você
 our-promise-content = Máscaras de email do { -brand-name-relay } encaminham para sua caixa de entrada de email todas as mensagens enviadas para tais máscara de email, sem revelar seu endereço de email real ao remetente.
 what-can-you-do-with-relay-title = O que você pode fazer com o { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Receba emails sem revelar seu endereço de email real aos remetentes
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Basta compartilhar uma máscara de email. Máscaras de email encaminham emails para sua caixa de entrada. Você pode criar máscaras diretamente no { -brand-name-firefox }, com a <a { $attrs }>{ -brand-name-relay } extensão</a>, ou no painel do { -brand-name-relay } .
 what-can-you-do-with-relay-point-two = Evite que sites e spammers rastreiem facilmente quem você é
+what-can-you-do-with-relay-point-three = Impeça que spam chegue à sua caixa de entrada e até mesmo desative máscaras completamente
+what-can-you-do-with-relay-point-three-subpoint = No painel do { -brand-name-relay }, você pode criar máscaras, rotular para indicar onde você as usa, ativar o bloqueio de spam e excluir as que você não quer mais.
 forwarded-email-hero-header = Você recebeu seu primeiro email encaminhado!
 forwarded-email-hero-desc = Notou esse cabeçalho? Ele aparece em todos os emails encaminhados pelas máscaras do { -brand-name-relay }.
 first-time-user-email-how-title = Como o { -brand-name-relay } funciona
