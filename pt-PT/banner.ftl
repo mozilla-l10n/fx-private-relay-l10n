@@ -74,7 +74,7 @@ banner-choose-subdomain-description = Pode criar qualquer endereço @{ $subdomai
 banner-ab-premium-promo-stop-spam-headline = Pare o spam, chamadas automatizadas e mensagens de lixo eletrónico
 banner-ab-premium-promo-stop-spam-body = O { -brand-name-relay-premium } oferece uma máscara de telefone para proteger o seu número real — e ainda máscaras de e-mail ilimitadas.
 banner-ab-premium-promo-advanced-identity-headline = Proteção avançada de identidade
-banner-ab-premium-promo-advanced-identity-body = Impeça que rastreadores e agregadores de dados o identifiquem através do seu número de telefone e endereço de e-mail.
+banner-ab-premium-promo-advanced-identity-body = Impeça a sua identificação por rastreadores e agregadores de dados através do seu número de telefone e endereço de e-mail.
 banner-ab-premium-promo-control-receiver-headline = Controle quem recebe o seu número real
 banner-ab-premium-promo-control-receiver-body = O { -brand-name-relay-premium } oferece uma máscara de telefone para proteger o seu número real — mais máscaras de e-mail ilimitadas.
 banner-ab-premium-promo-extra-protection-headline = Obtenha proteção extra para a sua caixa de entrada e telefone
@@ -91,7 +91,7 @@ banner-set-email-domain-step-two-headline = Utilize-o para criar instantaneament
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-banner-set-email-domain-step-two-body = Basta adicionar uma palavra ou frase antes do símbolo @. Compras? Utilizar loja@oseudomínio.{ $mozmail }.
+banner-set-email-domain-step-two-body = Basta adicionar uma palavra ou frase antes do símbolo @. Compras? Utilize loja@oseudomínio.{ $mozmail }.
 banner-set-email-domain-input-placeholder-label = Pesquisar num domínio de e-mail
 banner-set-email-domain-input-placeholder = Pesquisar uma palavra ou frase
 banner-set-email-domain-input-search = Pesquisar
@@ -112,15 +112,15 @@ modal-email-domain-cancel = Cancelar
 modal-email-domain-register = Registar
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> é agora o seu domínio de e-mail { -brand-name-relay }!
-modal-email-domain-success-headline-on-the-go = Utilize isto para gerar novas máscaras { -brand-name-relay } em qualquer lugar
-modal-email-domain-success-body-on-the-go = Não precisa de iniciar sessão em { -brand-name-relay } para criar uma nova máscara.
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> é agora o seu domínio de e-mail do { -brand-name-relay }!
+modal-email-domain-success-headline-on-the-go = Utilize isto para gerar novas máscaras { -brand-name-relay } em qualquer sítio
+modal-email-domain-success-body-on-the-go = Não precisa de iniciar sessão no { -brand-name-relay } para criar uma nova máscara.
 modal-email-domain-success-headline-any-word = Crie máscaras ilimitadas ao adicionar qualquer palavra ou frase
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
-modal-email-domain-success-body-any-word = Compras? Utilizar a loja{ $custom_domain_full }.
+modal-email-domain-success-body-any-word = Compras? Utilize loja{ $custom_domain_full }.
 modal-email-domain-success-continue = Continuar
-tooltip-email-domain-explanation-title = Acerca do seu domínio de e-mail { -brand-name-relay } único
+tooltip-email-domain-explanation-title = Sobre o seu domínio de e-mail { -brand-name-relay } único
 tooltip-email-domain-explanation-part-one = Esta funcionalidade valiosa da sua conta { -brand-name-relay-premium } permite-lhe escolher um domínio de e-mail { -brand-name-relay } único que pode utilizar para criar máscaras { -brand-name-relay } ilimitadas e personalizadas em o ir.
 tooltip-email-domain-explanation-part-two = Não é necessário iniciar sessão no { -brand-name-relay } para gerar uma nova máscara; Simplesmente adicione qualquer palavra ou frase antes do símbolo @ do seu domínio de e-mail { -brand-name-relay } para criar instantaneamente uma nova máscara em qualquer lugar que esteja.
 tooltip-email-domain-explanation-title-free = Obtenha o seu próprio domínio de e-mail { -brand-name-relay }
