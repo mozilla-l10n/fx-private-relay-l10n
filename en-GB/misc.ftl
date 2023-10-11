@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Contact support
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Learn more
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = How to create custom masks
-popover-custom-alias-explainer-explanation-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
-popover-custom-alias-explainer-generate-button-heading-2 = Generate a custom mask manually
-popover-custom-alias-explainer-generate-button-label-2 = Generate custom mask
-popover-custom-alias-explainer-close-button-label = Close
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Block promotional emails
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Enable Block Promotional Emails on a mask to stop marketing emails from reaching your inbox.
@@ -277,6 +269,22 @@ first-time-user-email-welcome-subhead = Your email address can be used to track 
 first-time-user-email-hero-primary-text = As a { -brand-name-firefox } user, you get 5 email masks for free. Use them to hide your real email address, protect your identity, and forward only the emails you want to your inbox.
 first-time-user-email-hero-secondary-text = Manage all your masks from your { -brand-name-relay } dashboard.
 first-time-user-email-hero-cta = View your dashboard
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Our promise to you
+our-promise-content = { -brand-name-relay } email masks forward to your email inbox any messages sent to that email mask — without revealing your real email address to the sender.
+what-can-you-do-with-relay-title = What can you do with { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Get emails without revealing your real email address to senders
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Just share an email mask instead. Email masks will forward emails to your inbox. You can create masks directly on { -brand-name-firefox }, with the <a { $attrs }>{ -brand-name-relay } extension</a>, or on your { -brand-name-relay } dashboard.
+what-can-you-do-with-relay-point-two = Keep web sites and spammers from easily tracking who you are
+what-can-you-do-with-relay-point-two-subpoint = Email trackers are everywhere these days. { -brand-name-relay } email masks help you to keep them guessing.
+what-can-you-do-with-relay-point-three = Block spam from reaching your inbox, and even turn masks off completely
+what-can-you-do-with-relay-point-three-subpoint = On the { -brand-name-relay } dashboard, you can create masks, label them to note where you use them, turn on spam blocking, and delete any you no longer want.
+forwarded-email-hero-header = You got your first forwarded email!
+forwarded-email-hero-desc = See that header? It will appear on all emails forwarded by { -brand-name-relay } masks.
 first-time-user-email-how-title = How { -brand-name-relay } works
 first-time-user-email-how-item-1-header = Use a { -brand-name-relay } mask instead of your real email, everywhere
 # Variables
