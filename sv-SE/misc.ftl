@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kontakta supporten
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tips { $nr }
 tips-toast-button-expand-label = Läs mer
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Hur man skapar anpassade alias
-popover-custom-alias-explainer-explanation-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade underdomän — ett alias kommer att genereras automatiskt. Prova "shop@customdomain.mozmail.com" nästa gång du handlar online, till exempel.
-popover-custom-alias-explainer-generate-button-heading-2 = Skapa ett anpassat alias manuellt
-popover-custom-alias-explainer-generate-button-label-2 = Skapa anpassat alias
-popover-custom-alias-explainer-close-button-label = Stäng
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blockera reklammeddelanden
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivera Blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
@@ -277,6 +269,10 @@ first-time-user-email-welcome-subhead = Din e-postadress kan användas för att 
 first-time-user-email-hero-primary-text = Som användare av { -brand-name-firefox } får du 5 e-postalias gratis. Använd dem för att dölja din riktiga e-postadress, skydda din identitet och vidarebefordra endast de e-postmeddelanden du vill ha till din inkorg.
 first-time-user-email-hero-secondary-text = Hantera alla dina alias från översikten i { -brand-name-relay }.
 first-time-user-email-hero-cta = Visa din översikt
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Vårt löfte till dig
 first-time-user-email-how-title = Hur { -brand-name-relay } fungerar
 first-time-user-email-how-item-1-header = Använd ett { -brand-name-relay }-alias istället för din riktiga e-post, överallt
 # Variables
