@@ -273,6 +273,18 @@ first-time-user-email-hero-cta = Visa din översikt
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Vårt löfte till dig
+our-promise-content = { -brand-name-relay } e-postalias vidarebefordrar alla meddelanden till din inkorg som skickas till det e-postaliaset — utan att avslöja din riktiga e-postadress för avsändaren.
+what-can-you-do-with-relay-title = Vad kan du göra med { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Få e-postmeddelanden utan att avslöja din riktiga e-postadress för avsändare
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Dela bara ett e-postalias istället. E-postalias vidarebefordrar e-postmeddelanden till din inkorg. Du kan alias direkt på { -brand-name-firefox }, med <a { $attrs }>{ -brand-name-relay }-tillägget</a> eller på din instrumentpanel för { -brand-name-relay } .
+what-can-you-do-with-relay-point-two = Se till att webbplatser och spammare inte enkelt kan spåra vem du är
+what-can-you-do-with-relay-point-two-subpoint = E-postspårare finns överallt nuförtiden. { -brand-name-relay } e-postalias gör det svårare för dem.
+what-can-you-do-with-relay-point-three = Blockera spam från att nå din inkorg och stäng till och med av alias helt
+what-can-you-do-with-relay-point-three-subpoint = På instrumentpanelen för { -brand-name-relay } kan du skapa alias, märka dem för att notera var du använder dem, aktivera spamblockering och ta bort alla du inte längre vill ha.
+forwarded-email-hero-header = Du fick ditt första vidarebefordrade e-postmeddelande!
+forwarded-email-hero-desc = Ser du den där rubriken? Det kommer att visas på alla e-postmeddelanden som vidarebefordras av { -brand-name-relay } alias.
 first-time-user-email-how-title = Hur { -brand-name-relay } fungerar
 first-time-user-email-how-item-1-header = Använd ett { -brand-name-relay }-alias istället för din riktiga e-post, överallt
 # Variables
