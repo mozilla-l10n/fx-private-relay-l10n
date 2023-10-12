@@ -267,18 +267,18 @@ first-time-user-email-hero-cta = 檢視儀表板
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = 我們對您承諾
-our-promise-content = { -brand-name-relay } 轉寄信箱會將所有透過該轉寄信箱收到的郵件轉寄到您的收件匣 — 不用告訴寄件者您的實際信箱。
+our-promise-content = { -brand-name-relay } 轉寄信箱會將所有寄到該地址的郵件，轉寄到您的信箱 — 不用告訴寄件者您的實際地址。
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 能用來做什麼？
 what-can-you-do-with-relay-point-one = 不用揭露您實際的電子郵件地址就能收到郵件
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = 直接分享轉寄信箱即可。使用轉寄信箱來轉寄郵件到您的收件匣。您可以直接在 { -brand-name-firefox } 上使用 <a { $attrs }>{ -brand-name-relay } 擴充套件</a>或是 { -brand-name-relay } 儀表板建立轉寄信箱的更多資訊。
+what-can-you-do-with-relay-point-one-subpoint-html = 直接提供轉寄信箱，即可將郵件轉寄到您的收件匣。您可以直接在 { -brand-name-firefox } 使用 <a { $attrs }>{ -brand-name-relay } 擴充套件</a>或在 { -brand-name-relay } 儀表板建立轉寄信箱。
 what-can-you-do-with-relay-point-two = 避免網站與寄送垃圾郵件的人很簡單就能追蹤到您
 what-can-you-do-with-relay-point-two-subpoint = 現在的電子郵件追蹤器比比皆是。{ -brand-name-relay } 的轉寄信箱可幫助您，不讓他們連結您的身分。
 what-can-you-do-with-relay-point-three = 不讓垃圾信抵達您的收件匣，也可以完全關閉轉寄信箱
-what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 儀表板您可以建立轉寄信箱、為轉寄信箱加上標籤以記下在哪裡使用、開啟垃圾信封鎖功能以及刪除任何不再想要的轉寄信箱。
+what-can-you-do-with-relay-point-three-subpoint = 您可以在 { -brand-name-relay } 儀表板建立轉寄信箱、為轉寄信箱加上標籤以記下在哪裡使用、開啟垃圾信封鎖功能，或是刪除任何不再需要的轉寄信箱。
 forwarded-email-hero-header = 您收到了第一封轉寄郵件！
-forwarded-email-hero-desc = 看到這個檔頭了嗎將在所有使用 { -brand-name-relay } 轉寄的郵件中顯示。
+forwarded-email-hero-desc = 看到這個檔頭了嗎？所有透過 { -brand-name-relay } 轉寄的郵件當中都會顯示此標示。
 first-time-user-email-how-title = { -brand-name-relay } 的運作原理
 first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-relay } 轉寄信箱，不使用您的實際信箱。
 # Variables
