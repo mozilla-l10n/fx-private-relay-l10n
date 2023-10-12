@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Awgrym { $nr }
 tips-toast-button-expand-label = Dysgu rhagor
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Sut i greu arallenwau personol
-popover-custom-alias-explainer-explanation-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth personol - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
-popover-custom-alias-explainer-generate-button-heading-2 = Crëwch arallenw personol â llaw
-popover-custom-alias-explainer-generate-button-label-2 = Cynhyrchwch arallenw personol
-popover-custom-alias-explainer-close-button-label = Cau
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Rhwystro e-byst hyrwyddo
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Galluogwch Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
@@ -270,6 +262,22 @@ first-time-user-email-welcome-subhead = Mae modd defnyddio'ch cyfeiriad e-bost i
 first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
 first-time-user-email-hero-secondary-text = Rheolwch eich holl arallenwau o'ch bwrd rheoli { -brand-name-relay }.
 first-time-user-email-hero-cta = Gweld eich bwrdd rheoli
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Ein haddewid i chi
+our-promise-content = Mae { -brand-name-relay } yn anfon pob e-bost arallenw ymlaen i'ch blwch derbyn unrhyw negeseuon a anfonwyd i'r e-bost arallenw hwnnw - heb ddatgelu eich cyfeiriad e-bost go iawn i'r anfonwr.
+what-can-you-do-with-relay-title = Beth allwch chi ei wneud gyda { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Derbyn e-byst heb ddatgelu eich cyfeiriad e-bost go iawn i anfonwyr
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Rhannwch e-bost arallenw yn lle hynny. Bydd e-bost arallenw'n anfon e-byst ymlaen i'ch blwch derbyn. Gallwch greu e-bost arallenw yn uniongyrchol ar { -brand-name-firefox } , gyda'r estyniad <a { $attrs }>{ -brand-name-relay }</a>, neu ar eich bwrdd rheoli { -brand-name-relay } .
+what-can-you-do-with-relay-point-two = Cadwch wefannau a sbamwyr rhag tracio'n hawdd pwy ydych chi
+what-can-you-do-with-relay-point-two-subpoint = Mae tracwyr e-bost ym mhobman y dyddiau hyn. Mae e-byst arallenw { -brand-name-relay } yn eich helpu i'w cadw i ddyfalu.
+what-can-you-do-with-relay-point-three = Rhwystrwch sbam rhag cyrraedd eich blwch derbyn, a hyd yn oed diffoddwch eich e-byst arallenwau yn llwyr!
+what-can-you-do-with-relay-point-three-subpoint = Ar y bwrdd rheoli { -brand-name-relay }, gallwch greu arallenwau, eu labelu i nodi ble rydych yn eu defnyddio, troi rhwystro sbam ymlaen, a dileu unrhyw rai nad ydych eu heisiau mwyach.
+forwarded-email-hero-header = Rydych wedi derbyn eich e-bost cyntaf a anfonwyd ymlaen!
+forwarded-email-hero-desc = Gweld y pennyn hwnnw? Bydd yn ymddangos ar bob e-bost sy'n cael ei anfon ymlaen gan arallenwau { -brand-name-relay }.
 first-time-user-email-how-title = Sut mae { -brand-name-relay } yn gweithio
 first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost go iawn, ym mhobman
 # Variables
