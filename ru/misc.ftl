@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Связаться с поддержкой
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Совет № { $nr }
 tips-toast-button-expand-label = Подробнее
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Как создавать собственные псевдонимы
-popover-custom-alias-explainer-explanation-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customsubdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
-popover-custom-alias-explainer-generate-button-heading-2 = Создайте собственный псевдоним вручную
-popover-custom-alias-explainer-generate-button-label-2 = Создать собственный псевдоним
-popover-custom-alias-explainer-close-button-label = Закрыть
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокировать рекламные письма
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Включите блокировку рекламных писем для псевдонима, чтобы такие электронные письма не попадали в ваш почтовый ящик.
@@ -283,6 +275,13 @@ first-time-user-email-welcome-subhead = Ваш адрес электронной
 first-time-user-email-hero-primary-text = Как пользователь { -brand-name-firefox } вы получаете 5 псевдонимов электронной почты бесплатно. Используйте их, чтобы скрыть свой настоящий адрес электронной почты, защитить свою личность и пересылать в свой ящик только те электронные письма, которые хотите.
 first-time-user-email-hero-secondary-text = Управляйте всеми своими псевдонимами с панели управления { -brand-name-relay }.
 first-time-user-email-hero-cta = Просмотр панели управления
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Наше обещание вам
+our-promise-content = Псевдонимы электронной почты { -brand-name-relay } пересылают в ваш почтовый ящик все сообщения, отправленные на этот псевдоним, не раскрывая отправителю ваш настоящий адрес электронной почты.
+what-can-you-do-with-relay-title = Что вы можете сделать с помощью { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Получайте электронные письма, не раскрывая отправителям свой настоящий адрес электронной почты.
 first-time-user-email-how-title = Как работает { -brand-name-relay }
 first-time-user-email-how-item-1-header = Используйте везде псевдоним { -brand-name-relay } вместо настоящего адреса электронной почты.
 # Variables

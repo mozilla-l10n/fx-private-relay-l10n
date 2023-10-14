@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } облегчает создание псевдонимов электронной почты, письма с которых пересылаются в ваш настоящий почтовый ящик. Используйте их для защиты своих аккаунтов в Интернете от хакеров и нежелательных сообщений.
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Открывается в новой вкладке)
 
@@ -20,12 +20,13 @@ nav-email-dashboard = Псевдонимы электронной почты
 nav-phone-dashboard = Псевдонимы телефона
 label-open-menu = Открыть меню
 avatar-tooltip = Профиль
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = ЧАВО
 nav-profile-sign-in = Войти
 nav-profile-sign-up = Зарегистрироваться
+# Deprecated
 nav-profile-manage-fxa = Управление моим { -brand-name-firefox-account(case: "instrumental") }
+nav-profile-manage-account = Управление вашим аккаунтом
 nav-profile-sign-out = Выйти
 nav-profile-sign-out-relay = Выйти из { -brand-name-relay }
 nav-profile-sign-out-confirm = Вы уверены, что хотите выйти?
@@ -37,7 +38,9 @@ nav-profile-help-tooltip = Получите помощь по использов
 nav-profile-contact = Связаться с нами
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = Связаться с нами по { -brand-name-relay-premium }
+# Deprecated
 nav-profile-image-alt = Аватар { -brand-name-firefox-account(case: "genitive") }
+nav-profile-image-alt-v2 = аватар аккаунта
 nav-duo-description = Переключение панелей инструментов
 nav-duo-email-mask-alt = Псевдонимы электронной почты
 nav-duo-phone-mask-alt = Псевдонимы телефонов
@@ -52,7 +55,6 @@ nav-support = Справка и поддержка
 nav-sign-out = Выйти
 nav-contact = Связаться с нами
 nav-menu-mobile = Мобильное меню
-
 fx-desktop-2 = { -brand-name-firefox } для компьютера
 fx-mobile-2 = { -brand-name-firefox } для мобильных устройств
 
@@ -78,4 +80,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = Закрыть меню
-
