@@ -282,6 +282,15 @@ our-promise-header = Наше обещание вам
 our-promise-content = Псевдонимы электронной почты { -brand-name-relay } пересылают в ваш почтовый ящик все сообщения, отправленные на этот псевдоним, не раскрывая отправителю ваш настоящий адрес электронной почты.
 what-can-you-do-with-relay-title = Что вы можете сделать с помощью { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Получайте электронные письма, не раскрывая отправителям свой настоящий адрес электронной почты.
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Вместо этого просто поделитесь псевдонимом электронной почты. Псевдонимы электронной почты будут пересылать электронные письма на ваш почтовый ящик. Вы можете создавать псевдонимы непосредственно в { -brand-name-firefox }, с помощью расширения <a { $attrs }>{ -brand-name-relay }</a> или на панели управления { -brand-name-relay }. .
+what-can-you-do-with-relay-point-two = Не позволяйте веб-сайтам и спамерам легко отслеживать, кто вы
+what-can-you-do-with-relay-point-two-subpoint = Трекеры электронной почты в наши дни повсюду. Псевдонимы электронной почты { -brand-name-relay } помогут вам не дать им догадаться.
+what-can-you-do-with-relay-point-three = Блокируйте попадание спама в ваш почтовый ящик и даже полностью отключите псевдонимы
+what-can-you-do-with-relay-point-three-subpoint = На панели управления { -brand-name-relay } вы можете создавать псевдонимы, помечать их, чтобы отметить, где вы их используете, включать блокировку спама и удалять те, которые вам больше не нужны.
+forwarded-email-hero-header = Вы получили первое перенаправленное письмо!
+forwarded-email-hero-desc = Видите этот заголовок? Он будет отображаться во всех электронных письмах, пересылаемых с помощью псевдонима { -brand-name-relay }.
 first-time-user-email-how-title = Как работает { -brand-name-relay }
 first-time-user-email-how-item-1-header = Используйте везде псевдоним { -brand-name-relay } вместо настоящего адреса электронной почты.
 # Variables
