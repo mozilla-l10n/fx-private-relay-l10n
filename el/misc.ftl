@@ -273,6 +273,7 @@ first-time-user-email-hero-cta = Προβολή του πίνακα ελέγχο
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Η υπόσχεσή μας προς εσάς
+our-promise-content = Οι μάσκες email του { -brand-name-relay } προωθούν όλα τα μηνύματα που λαμβάνουν στα εισερχόμενά σας, χωρίς να αποκαλύπτεται η πραγματική σας διεύθυνση email στους αποστολείς.
 what-can-you-do-with-relay-title = Τι μπορείτε να κάνετε με το { -brand-name-firefox-relay };
 what-can-you-do-with-relay-point-one = Λάβετε email χωρίς να αποκαλύψετε την πραγματική σας διεύθυνση email στους αποστολείς
 what-can-you-do-with-relay-point-three-subpoint = Στον πίνακα ελέγχου του { -brand-name-relay }, μπορείτε να δημιουργήσετε μάσκες, να τους προσθέσετε ετικέτες για να σημειώσετε πού τις χρησιμοποιείτε, να ενεργοποιήσετε τη φραγή ανεπιθύμητων μηνυμάτων και να διαγράψετε όσες μάσκες δεν χρειάζεστε πλέον.
