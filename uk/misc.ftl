@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Звернутися до служби під
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Порада { $nr }
 tips-toast-button-expand-label = Докладніше
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Як створювати власні маски
-popover-custom-alias-explainer-explanation-2 = Усе що вам потрібно зробити, це створити й поділитися унікальною маскою, яка використовує ваш власний субдомен – маску буде згенеровано автоматично. Спробуйте, наприклад, “shop@вашдомен.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
-popover-custom-alias-explainer-generate-button-heading-2 = Згенерувати власну маску вручну
-popover-custom-alias-explainer-generate-button-label-2 = Згенерувати власну маску
-popover-custom-alias-explainer-close-button-label = Закрити
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування промоційних електронних листів маскою, щоб маркетингові листи не надходили до вашої теки вхідних.
@@ -283,6 +275,22 @@ first-time-user-email-welcome-subhead = Вашу адресу електронн
 first-time-user-email-hero-primary-text = Як користувач { -brand-name-firefox }, ви отримуєте 5 електронних масок безплатно. Використовуйте їх, щоб приховати свою справжню адресу електронної пошти, захистити свою особистість і пересилати до теки «Вхідні» лише ті листи, які вам потрібні.
 first-time-user-email-hero-secondary-text = Керуйте всіма своїми масками з панелі керування { -brand-name-relay }
 first-time-user-email-hero-cta = Перегляньте свою панель керування
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Наша обіцянка вам
+our-promise-content = Маски електронної пошти { -brand-name-relay } пересилають у вашу скриньку вхідних повідомлень будь-які повідомлення, надіслані на цю маску електронної пошти, не повідомляючи відправнику вашу справжню адресу електронної пошти.
+what-can-you-do-with-relay-title = Що ви можете зробити з { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Отримуйте електронні листи, не повідомляючи відправникам свою справжню адресу електронної пошти
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Натомість просто поділіться маскою електронної пошти. Маски електронної пошти пересилатимуть електронні листи у вашу скриньку вхідних повідомлень. Ви можете створювати маски безпосередньо у { -brand-name-firefox } за допомогою <a { $attrs }>розширення { -brand-name-relay }</a> або на панелі керування { -brand-name-relay }.
+what-can-you-do-with-relay-point-two = Не дозволяйте вебсайтам і спамерам легко відстежувати себе
+what-can-you-do-with-relay-point-two-subpoint = Елементи стеження електронної пошти сьогодні всюди. Маски електронної пошти { -brand-name-relay } допомагають ускладнити їм стеження.
+what-can-you-do-with-relay-point-three = Заблокуйте спам від потрапляння до скриньки вхідних і навіть повністю вимкніть маски
+what-can-you-do-with-relay-point-three-subpoint = На панелі керування { -brand-name-relay } ви можете створювати маски, позначати їх, щоб зазначати, де ви їх використовуєте, увімкнути блокування спаму та видалити ті, які більше не потрібні.
+forwarded-email-hero-header = Ви отримали свій перший пересланий електронний лист!
+forwarded-email-hero-desc = Бачите цей заголовок? Він з'являтиметься в усіх електронних листах, які пересилатимуться за допомогою масок { -brand-name-relay }.
 first-time-user-email-how-title = Як працює { -brand-name-relay }
 first-time-user-email-how-item-1-header = Використовуйте маски адрес електронної пошти { -brand-name-relay } замість справжньої адреси електронної пошти будь-де
 # Variables
