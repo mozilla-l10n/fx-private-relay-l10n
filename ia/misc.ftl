@@ -277,6 +277,7 @@ what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-r
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
 what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
+forwarded-email-hero-header = Tu recipeva tu prime email inultrate!
 first-time-user-email-how-title = Como functiona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
 # Variables
