@@ -276,6 +276,12 @@ our-promise-header = Η υπόσχεσή μας προς εσάς
 our-promise-content = Οι μάσκες email του { -brand-name-relay } προωθούν όλα τα μηνύματα που λαμβάνουν στα εισερχόμενά σας, χωρίς να αποκαλύπτεται η πραγματική σας διεύθυνση email στους αποστολείς.
 what-can-you-do-with-relay-title = Τι μπορείτε να κάνετε με το { -brand-name-firefox-relay };
 what-can-you-do-with-relay-point-one = Λάβετε email χωρίς να αποκαλύψετε την πραγματική σας διεύθυνση email στους αποστολείς
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Μοιραστείτε απλώς μία από τις μάσκες email σας. Οι μάσκες email θα προωθούν τα email στα εισερχόμενά σας. Μπορείτε να δημιουργήσετε μάσκες απευθείας από το { -brand-name-firefox }, με την <a { $attrs }>επέκταση του { -brand-name-relay }</a> ή από τον πίνακα ελέγχου του { -brand-name-relay }.
+what-can-you-do-with-relay-point-two = Αποτρέψτε τους ιστοτόπους και τους αποστολείς ανεπιθύμητων μηνυμάτων από το να εντοπίσουν εύκολα την ταυτότητά σας
+what-can-you-do-with-relay-point-two-subpoint = Οι ιχνηλάτες email βρίσκονται παντού αυτές τις μέρες. Οι μάσκες email του { -brand-name-relay } σάς βοηθούν να τους αποκλείσετε.
+what-can-you-do-with-relay-point-three = Αποκλείστε τα ανεπιθύμητα μηνύματα από τα εισερχόμενά σας ή απενεργοποιήστε εντελώς τις μάσκες
 what-can-you-do-with-relay-point-three-subpoint = Στον πίνακα ελέγχου του { -brand-name-relay }, μπορείτε να δημιουργήσετε μάσκες, να τους προσθέσετε ετικέτες για να σημειώσετε πού τις χρησιμοποιείτε, να ενεργοποιήσετε τη φραγή ανεπιθύμητων μηνυμάτων και να διαγράψετε όσες μάσκες δεν χρειάζεστε πλέον.
 forwarded-email-hero-header = Λάβατε το πρώτο σας προωθημένο email!
 forwarded-email-hero-desc = Βλέπετε αυτήν την κεφαλίδα; Θα εμφανίζεται σε όλα τα email που προωθούνται από τις μάσκες του { -brand-name-relay }.
