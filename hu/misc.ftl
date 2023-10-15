@@ -269,13 +269,13 @@ first-time-user-email-hero-cta = Saját irányítópult megtekintése
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
-our-promise-header = Az Önnek küldött ígéretünk
-our-promise-content = A { -brand-name-relay } e-mail-maszkok a beérkezett üzenetek mappájába továbbítják az ebbe az e-mail-maszkba küldött üzeneteket – anélkül, hogy felfednék a valódi e-mail-címét a feladónak.
-what-can-you-do-with-relay-title = Mit tehet a { -brand-name-firefox-relay }del?
-what-can-you-do-with-relay-point-one = Kapjon e-maileket anélkül, hogy felfedné a valódi e-mail-címét a feladókkal
+our-promise-header = Az Önnek adott ígéretünk
+our-promise-content = A { -brand-name-relay } e-mail-maszkok a postaládájába továbbítják az ennek az e-mail-maszknak küldött üzeneteket – anélkül, hogy felfednék a valódi e-mail-címét a feladónak.
+what-can-you-do-with-relay-title = Mit tehet a { -brand-name-firefox-relay }jel?
+what-can-you-do-with-relay-point-one = Kapjon e-maileket anélkül, hogy felfedné a valódi e-mail-címét a feladóknak
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }on hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpulton olvasható.
+what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }ban hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpultján.
 what-can-you-do-with-relay-point-two = Tartsa meg a webhelyeket és a spammereket attól, hogy könnyen nyomon kövessék, ki Ön
 what-can-you-do-with-relay-point-two-subpoint = Az e-mail-követők manapság mindenhol vannak. A { -brand-name-relay } e-mail-maszkok segítenek abban, hogy ne találgassanak.
 what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne érje el a Beérkezett üzenetek mappáját, sőt, kapcsolja ki teljesen a maszkokat
