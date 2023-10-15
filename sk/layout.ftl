@@ -6,7 +6,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
-meta-description-2 = { -brand-name-firefox-relay } uľahčuje vytváranie e-mailových masiek, ktoré posielajú vaše správy do vašej skutočnej e-mailovej schránky. Použite ich na ochranu svojich online účtov pred hackermi a nechcenými správami.
+meta-description-2 = { -brand-name-firefox-relay } uľahčuje vytváranie e‑mailových masiek, ktoré posielajú vaše správy do vašej skutočnej e‑mailovej schránky. Použite ich na ochranu svojich online účtov pred hackermi a nechcenými správami.
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Otvorí sa na novej karte)
 
@@ -16,7 +16,7 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = Ponuka
 nav-home = Domov
-nav-email-dashboard = E-mailové masky
+nav-email-dashboard = E‑mailové masky
 nav-phone-dashboard = Masky telefónnych čísiel
 label-open-menu = Otvoriť ponuku
 avatar-tooltip = Profil
@@ -42,7 +42,7 @@ nav-profile-contact-tooltip = Kontaktujte nás ohľadom služby { -brand-name-re
 nav-profile-image-alt = Avatar pre { -brand-name-firefox-account(capitalization: "lowercase") }
 nav-profile-image-alt-v2 = avatar účtu
 nav-duo-description = Prepnúť nástenky
-nav-duo-email-mask-alt = E-mailové masky
+nav-duo-email-mask-alt = E‑mailové masky
 nav-duo-phone-mask-alt = Masky telefónnych čísiel
 
 ## Mobile menu text
