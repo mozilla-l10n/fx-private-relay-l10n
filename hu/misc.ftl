@@ -275,13 +275,13 @@ what-can-you-do-with-relay-title = Mit tehet a { -brand-name-firefox-relay }jel?
 what-can-you-do-with-relay-point-one = Kapjon e-maileket anélkül, hogy felfedné a valódi e-mail-címét a feladóknak
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }ban hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } vezérlőpultján.
-what-can-you-do-with-relay-point-two = Tartsa meg a webhelyeket és a spammereket attól, hogy könnyen nyomon kövessék, ki Ön
-what-can-you-do-with-relay-point-two-subpoint = Az e-mail-követők manapság mindenhol vannak. A { -brand-name-relay } e-mail-maszkok segítenek abban, hogy ne találgassanak.
-what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne érje el a Beérkezett üzenetek mappáját, sőt, kapcsolja ki teljesen a maszkokat
-what-can-you-do-with-relay-point-three-subpoint = A { -brand-name-relay } irányítópulton maszkokat hozhat létre, címkézheti őket, hogy hol használja, bekapcsolhatja a levélszemét-blokkolást, és törölheti azokat, amelyeket már nem szeretne.
-forwarded-email-hero-header = Megkapta az első továbbított e-mailt!
-forwarded-email-hero-desc = Látja ezt a fejlécet? Meg fog jelenni az összes { -brand-name-relay }-maszkok által továbbított e-mailen.
+what-can-you-do-with-relay-point-one-subpoint-html = Inkább osszon meg egy e-mail-maszkot. Az e-mail-maszkok a postaládájába továbbítják a leveleket. Maszkokat közvetlenül a { -brand-name-firefox }ban hozhat létre, a <a { $attrs }>{ -brand-name-relay } kiegészítővel</a>, vagy a { -brand-name-relay } irányítópultján.
+what-can-you-do-with-relay-point-two = Akadályozza meg a webhelyeket és a spammereket abban, hogy könnyen nyomon kövessék Önt
+what-can-you-do-with-relay-point-two-subpoint = Az e-mail-követők manapság mindenhol ott vannak. A { -brand-name-relay } e-mail-maszkok segítenek abban, hogy ne találják meg.
+what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne érje el a postaládáját, sőt, kapcsolja ki teljesen a maszkokat
+what-can-you-do-with-relay-point-three-subpoint = A { -brand-name-relay } irányítópulton maszkokat hozhat létre, címkézheti őket, hogy hol használja, bekapcsolhatja a levélszemét-blokkolást, és törölheti azokat, amelyeket már nem szeretne megtartani.
+forwarded-email-hero-header = Megkapta az első továbbított levelet!
+forwarded-email-hero-desc = Látja ezt a fejlécet? Meg fog jelenni az összes { -brand-name-relay }-maszk által továbbított levélnél.
 first-time-user-email-how-title = Hogyan működik a { -brand-name-relay }
 first-time-user-email-how-item-1-header = Használjon { -brand-name-relay } maszkot a valódi e-mail-címe helyett mindenhol
 # Variables
