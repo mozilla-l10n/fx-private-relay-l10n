@@ -284,8 +284,18 @@ first-time-user-email-hero-cta = Zobraziť moju nástenku
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Náš sľub pre vás
-forwarded-email-hero-header = Dostali ste svoj prvý preposlaný e-mail!
-forwarded-email-hero-desc = Vidíte tú hlavičku? Zobrazí sa vo všetkých e-mailoch preposlaných cez masku služby { -brand-name-relay }.
+our-promise-content = E‑mailové masky { -brand-name-relay }  preposielajú do vašej e‑mailovej schránky všetky správy odoslané na túto e‑mailovú masku – bez toho, aby ste odosielateľovi odhalili vašu skutočnú e‑mailovú adresu.
+what-can-you-do-with-relay-title = Čo môžete robiť so službou { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Dostávajte e‑maily bez toho, aby ste odosielateľom prezradili svoju skutočnú e‑mailovú adresu
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Namiesto e‑mailu zdieľajte e‑mailovú masku. E‑mailové masky budú posielať e‑maily do vašej skutočnej schránky. Masky môžete vytvárať priamo vo { -brand-name-firefox(case: "loc") }, pomocou rozšírenia <a { $attrs }>{ -brand-name-relay }</a> alebo na hlavnom paneli služby { -brand-name-relay }.
+what-can-you-do-with-relay-point-two = Zabráňte webovým stránkam a spamerom ľahko sledovať, kto ste
+what-can-you-do-with-relay-point-two-subpoint = E‑mailové sledovače sú dnes všade. E‑mailové masky služby { -brand-name-relay } vám pomôžu nechať ich hádať.
+what-can-you-do-with-relay-point-three = Zablokujte spam, aby sa nedostal do vašej schránky, alebo dokonca úplne vypnite preposielanie z masiek
+what-can-you-do-with-relay-point-three-subpoint = Na informačnom paneli { -brand-name-relay } môžete vytvárať masky, označovať ich tak, aby ste si všimli, kde ich používate, zapnúť blokovanie spamu či odstrániť tie, ktoré už nechcete.
+forwarded-email-hero-header = Dostali ste svoj prvý preposlaný e‑mail!
+forwarded-email-hero-desc = Vidíte tú hlavičku? Zobrazí sa vo všetkých e‑mailoch preposlaných cez masku služby { -brand-name-relay }.
 first-time-user-email-how-title = Ako { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používajte masku služby { -brand-name-relay } namiesto svojho skutočného e-mailu, kdekoľvek
 # Variables
