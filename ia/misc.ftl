@@ -275,6 +275,7 @@ first-time-user-email-hero-cta = Vide tu pannello de controlo
 our-promise-header = Nostre promissa a te
 what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
+what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
 what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
 forwarded-email-hero-header = Tu recipeva tu prime email inultrate!
