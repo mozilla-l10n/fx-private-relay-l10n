@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Contactar con la ayuda
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Consejo { $nr }
 tips-toast-button-expand-label = Saber más
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Cómo crear máscaras personalizadas
-popover-custom-alias-explainer-explanation-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use tu subdominio personalizado: la máscara se generará automáticamente. Prueba "shop@dominiopersonalizado.mozmail.com" la próxima vez que compres en línea, por ejemplo.
-popover-custom-alias-explainer-generate-button-heading-2 = Crea una máscara personalizada manualmente
-popover-custom-alias-explainer-generate-button-label-2 = Generar máscara personalizada
-popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos promocionales
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Activa el bloqueo de correos electrónicos promocionales en una máscara para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
@@ -277,6 +269,10 @@ first-time-user-email-welcome-subhead = Tu dirección de correo electrónico se 
 first-time-user-email-hero-primary-text = Como usuario de { -brand-name-firefox }, obtienes 5 máscaras de correo electrónico gratis. Úsalas para ocultar tu dirección de correo electrónico real, proteger tu identidad y reenviar a tu bandeja de entrada solo los correos electrónicos que deseas.
 first-time-user-email-hero-secondary-text = Administra todas tus máscaras desde tu panel de { -brand-name-relay }
 first-time-user-email-hero-cta = Ver tu panel
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Nuestra promesa para ti
 first-time-user-email-how-title = Cómo funciona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utiliza una máscara de { -brand-name-relay } en vez de tu correo electrónico real, en cualquier lugar
 # Variables
