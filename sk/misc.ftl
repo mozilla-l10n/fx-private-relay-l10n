@@ -280,6 +280,12 @@ first-time-user-email-welcome-subhead = Vašu e-mailovú adresu možno použiť 
 first-time-user-email-hero-primary-text = Ako používateľ { -brand-name-firefox(case: "gen") } získate 5 e-mailových masiek zadarmo. Použite ich na skrytie vašej skutočnej e-mailovej adresy, ochranu vašej identity a preposielanie iba tých e-mailov, ktoré chcete vidieť vo vašej schránke doručenej pošty.
 first-time-user-email-hero-secondary-text = Spravujte všetky svoje masky z nástenky služby { -brand-name-relay }.
 first-time-user-email-hero-cta = Zobraziť moju nástenku
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Náš sľub pre vás
+forwarded-email-hero-header = Dostali ste svoj prvý preposlaný e-mail!
+forwarded-email-hero-desc = Vidíte tú hlavičku? Zobrazí sa vo všetkých e-mailoch preposlaných cez masku služby { -brand-name-relay }.
 first-time-user-email-how-title = Ako { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používajte masku služby { -brand-name-relay } namiesto svojho skutočného e-mailu, kdekoľvek
 # Variables
