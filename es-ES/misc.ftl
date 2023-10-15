@@ -273,6 +273,14 @@ first-time-user-email-hero-cta = Ver tu panel
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Nuestra promesa para ti
+our-promise-content = Las máscaras de correo electrónico de { -brand-name-relay } reenvían a tu bandeja de entrada de correo electrónico cualquier mensaje enviado a esa máscara de correo electrónico, sin revelar al remitente tu dirección de correo electrónico real.
+what-can-you-do-with-relay-title = ¿Qué puedes hacer con { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Recibe correos electrónicos sin revelar tu dirección de correo electrónico real a los remitentes
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = En su lugar, simplemente comparte una máscara de correo electrónico. Las máscaras de correo electrónico reenviarán los correos electrónicos a tu bandeja de entrada. Puedes crear máscaras directamente en { -brand-name-firefox }, con la <a { $attrs }>extensión { -brand-name-relay }</a>, o en tu panel de { -brand-name-relay } .
+what-can-you-do-with-relay-point-two = Evita que los sitios web y los spammers rastreen fácilmente quién eres
+what-can-you-do-with-relay-point-two-subpoint = Los rastreadores de correo electrónico están en todas partes hoy en día. Las máscaras de correo electrónico { -brand-name-relay } te ayudan a permanecer oculto.
 first-time-user-email-how-title = Cómo funciona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utiliza una máscara de { -brand-name-relay } en vez de tu correo electrónico real, en cualquier lugar
 # Variables
