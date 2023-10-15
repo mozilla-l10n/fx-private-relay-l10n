@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Kontaktovat podporu
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Zjistit více
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Jak vytvořit vlastní masku
-popover-custom-alias-explainer-explanation-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-domena.mozmail.com“.
-popover-custom-alias-explainer-generate-button-heading-2 = Ruční vytvoření vlastní masky
-popover-custom-alias-explainer-generate-button-label-2 = Vytvořit vlastní masku
-popover-custom-alias-explainer-close-button-label = Zavřít
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovat reklamní e-maily
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Zapnutím blokování reklamních e-mailů zaslaných na vaší masku zabráníte jejich doručování do vaší e-mailové schránky.
@@ -320,6 +312,10 @@ first-time-user-email-welcome-subhead = Vaši e-mailovou adresu lze použít ke 
 first-time-user-email-hero-primary-text = Jako uživatel { -brand-name-firefox } získáte 5 e-mailových masek zdarma. Použijte je ke skrytí vaší skutečné e-mailové adresy, ochraně vaší identity a přeposílání pouze e-mailů, které chcete, do vaší schránky.
 first-time-user-email-hero-secondary-text = Spravujte všechny své masky z nástěnky { -brand-name-relay }
 first-time-user-email-hero-cta = Zobrazit moji nástěnku
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Náš slib pro vás
 first-time-user-email-how-title = Jak { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
 # Variables
