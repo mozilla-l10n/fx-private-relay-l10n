@@ -19,19 +19,19 @@ success-signed-in-message = Sessão iniciada com sucesso como { $username }.
 error-premium-cannot-change-subdomain = Não pode alterar o seu subdomínio
 error-premium-set-subdomain = Tem de ser um subscritor premium para definir um subdomínio
 error-premium-check-subdomain = Tem que ser um subscritor premium para verificar um subdomínio
-error-subdomain-not-created = O subdomínio não pôde ser criado, tente outra coisa
-error-subdomain-email-not-created = Não foi possível criar o endereço de e-mail com o subdomínio, tente outra coisa
+error-subdomain-not-created = Não foi possível criar o subdomínio. Experimente outra coisa
+error-subdomain-email-not-created = Não foi possível criar o endereço de e-mail com o subdomínio. Experimente outra coisa
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = O subdomínio @ { $unavailable_subdomain } não está disponível. Por favor, tente um diferente.
-error-settings-update = Ocorreu um erro ao atualizar as suas definições, por favor, tente novamente
-error-mask-create-failed = A máscara não pôde ser criada. Por favor, tente novamente.
+error-settings-update = Ocorreu um erro ao atualizar as suas definições. Por favor, tente novamente
+error-mask-create-failed = Não foi possível criar a máscara. Por favor, tente novamente.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
-error-mask-update-failed = Os dados da máscara não puderam ser atualizados. Por favor, tente novamente.
+error-mask-update-failed = Não foi possível atualizar os dados da máscara. Por favor, tente novamente.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
-error-mask-delete-failed = A máscara { $mask } não pôde ser eliminada. Por favor, tente novamente.
+error-mask-delete-failed = Não foi possível eliminar a máscara { $mask }. Por favor, tente novamente.
 
 ## Notifications component
 
@@ -46,7 +46,7 @@ tips-footer-link-faq-tooltip = Perguntas frequentes
 tips-footer-link-feedback-label = Feedback
 tips-footer-link-feedback-tooltip = Dar feedback
 tips-footer-link-support-label = Apoio
-tips-footer-link-support-tooltip = Contactar o suporte
+tips-footer-link-support-tooltip = Contactar o apoio
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
@@ -54,7 +54,7 @@ tips-switcher-label = Dica { $nr }
 tips-toast-button-expand-label = Saber mais
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear mensagens promocionais
-popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative o Bloquear e-mails promocionais numa máscara para impedir que as mensagens de marketing cheguem à sua caixa de entrada.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Ative o Bloqueio de e-mails promocionais numa máscara para impedir que as mensagens de marketing cheguem à sua caixa de entrada.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mais informações
 
 ## Tip about using custom masks

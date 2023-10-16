@@ -22,10 +22,11 @@
 -brand-name-firefox-lockwise = Firefox Lockwise
 -brand-name-firefox-monitor = Firefox Monitor
 -brand-name-pocket = Pocket
+# Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
-       *[lowercase] Conta Firefox
         [uppercase] Conta Firefox
+       *[lowercase] conta Firefox
     }
 -brand-name-chrome = Chrome
 -brand-name-google-chrome = Google Chrome
