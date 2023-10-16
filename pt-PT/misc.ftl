@@ -60,19 +60,19 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Mais informa�
 ## Tip about using custom masks
 
 tips-custom-alias-heading-2 = Criar máscaras utilizando o seu subdomínio personalizado
-tips-custom-alias-content-2 = Tudo o que precisa de fazer é criar e partilhar uma máscara única que utiliza o seu subdomínio personalizado — a máscara será gerada automaticamente. Experimente “shop@customdomain.mozmail.com” da próxima vez que fazer compras online, por exemplo.
+tips-custom-alias-content-2 = Tudo o que precisa de fazer é criar e partilhar uma máscara única que utiliza o seu subdomínio personalizado — a máscara será gerada automaticamente. Experimente “loja@oseudominiopersonalizado.mozmail.com” da próxima vez que fizer compras online, por exemplo.
 
 ## Tip about using custom masks
 
-tips-promo-email-blocking-heading = Bloquear emails promocionais
-tips-promo-email-blocking-content = Com o { -brand-name-relay-premium }, pode bloquear as mensagens promocionais de chegarem à sua caixa de entrada e ainda permitir que receba e-mails tais como recibos ou informação de entrega.
+tips-promo-email-blocking-heading = Bloquear e-mails promocionais
+tips-promo-email-blocking-content = Com o { -brand-name-relay-premium }, pode bloquear e impedir que as mensagens promocionais cheguem à sua caixa de entrada e, ainda assim, permitir que receba e-mails tais como recibos ou informações de envio.
 
 ## Report of trackers removed from an email
 
-trackerreport-title = { -brand-name-relay } Relatório de remoção de rastreadores
+trackerreport-title = Relatório de remoção de rastreadores do { -brand-name-relay }
 trackerreport-meta-from-heading = De
 trackerreport-meta-receivedat-heading = Recebido por
-trackerreport-meta-count-heading = Trackers totais
+trackerreport-meta-count-heading = Total de rastreadores
 trackerreport-trackers-heading = Rastreadores detetados
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
 trackerreport-trackers-tracker-heading = Domínio do rastreador
@@ -102,7 +102,7 @@ trackerreport-breakage-warning-2 = Importante: remover rastreadores pode fazer c
 trackerreport-faq-heading = Principais questões sobre rastreadores de e-mail
 trackerreport-faq-cta = Ver mais perguntas frequentes sobre o { -brand-name-firefox-relay }
 trackerreport-loading = A carregar o seu relatório de remoção de rastreadores…
-trackerreport-load-error = Ocorreu um erro ao gerar o relatório da remoção do seu rastreador. Por favor, atualize a página para tentar novamente.
+trackerreport-load-error = Ocorreu um erro ao gerar o seu relatório de remoção de rastreadores. Por favor, atualize a página para tentar novamente.
 
 ## Tracker warning page
 
@@ -165,7 +165,7 @@ offer-countdown-timer-seconds = Seg.
 
 ## Evergreen Survey (displayed on the profile page)
 
-survey-question-1 = Numa escala de 1 a 10, qual a probabilidade de você sugerir o { -brand-name-relay } a um amigo ou colega?
+survey-question-1 = Numa escala de 1 a 10, qual a probabilidade de recomendar o { -brand-name-relay } a um amigo ou colega?
 survey-question-2 = É fácil de utilizar o { -brand-name-relay }?
 survey-question-3 = Acha que o { -brand-name-relay } é confiável?
 survey-question-4 = O { -brand-name-relay } tem uma apresentação simples e limpa?
@@ -176,8 +176,8 @@ survey-option-unsure = Não tenho a certeza
 survey-option-agree = Concordo
 survey-option-strongly-agree = Concordo plenamente
 survey-option-i-wouldnt-care = Indiferente
-survey-option-somewhat-disappointed = Um pouco desapontado
-survey-option-very-disappointed = Muito desapontado
+survey-option-somewhat-disappointed = Um pouco desapontado(a)
+survey-option-very-disappointed = Muito desapontado(a)
 survey-option-very-likely = Muito provável
 survey-option-not-likely = Pouco provável
 survey-option-dismiss = Dispensar
@@ -185,14 +185,14 @@ survey-option-dismiss = Dispensar
 ## CSAT survey
 
 survey-csat-question = Quão satisfeito(a) está com a sua experiência com o { -brand-name-firefox-relay }?
-survey-csat-answer-very-dissatisfied = Muito insatisfeito
-survey-csat-answer-dissatisfied = Insatisfeito
-survey-csat-answer-neutral = Neutro
-survey-csat-answer-satisfied = Satisfeito
-survey-csat-answer-very-satisfied = Muito satisfeito
+survey-csat-answer-very-dissatisfied = Muito insatisfeito(a)
+survey-csat-answer-dissatisfied = Insatisfeito(a)
+survey-csat-answer-neutral = Neutro(a)
+survey-csat-answer-satisfied = Satisfeito(a)
+survey-csat-answer-very-satisfied = Muito satisfeito(a)
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
-survey-csat-followup = Obrigado pelo seu feedback. Gostaríamos de saber mais sobre como podemos melhorar o { -brand-name-relay } para si. Gostaria de responder a um questionário de dois minutos?
+survey-csat-followup = Obrigado pelo o seu feedback. Gostaríamos de saber mais sobre como podemos melhorar o { -brand-name-relay } para si. Gostaria de responder a um questionário de dois minutos?
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
@@ -266,7 +266,7 @@ reply-not-sent-header = A sua resposta não foi enviada
 upgrade-to-reply-to-future-emails = Atualizar agora para enviar respostas
 upgrade-for-more-protection = Atualize para mais proteção
 upgrade-to-premium = Atualizar para o { -brand-name-firefox-relay-premium }
-manage-your-masks = Gira as suas máscaras
+manage-your-masks = Gerir as suas máscaras
 
 ## Email sent to first time free users
 
