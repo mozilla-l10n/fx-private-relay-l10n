@@ -265,8 +265,8 @@ first-time-user-email-hero-cta = 查看您的控制面板
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = 我们对您的承诺
-our-promise-content = { -brand-name-relay } 马甲邮箱可转发发送给马甲邮箱的任何邮件避免向发件人泄露您的真实邮箱地址。
-what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 有什么功能
+our-promise-content = { -brand-name-relay } 马甲邮箱会将所有发送至马甲邮箱的邮件转发到您的收件箱，您无需向发件人提供真实邮箱地址。
+what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 有什么用处？
 what-can-you-do-with-relay-point-one = 无需向发件人透露真实邮箱地址也可接收邮件
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
