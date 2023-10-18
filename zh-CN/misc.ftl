@@ -267,6 +267,10 @@ first-time-user-email-hero-cta = 查看您的控制面板
 our-promise-header = 我们对您的承诺
 our-promise-content = { -brand-name-relay } 马甲邮箱会将所有发送至马甲邮箱的邮件转发到您的收件箱，您无需向发件人提供真实邮箱地址。
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } 有什么用处？
+what-can-you-do-with-relay-point-one = 无需向发件人提供真实邮箱地址也可接收邮件
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = 可以改为提供马甲邮箱。马甲邮箱会将邮件转发到您的收件箱。您可直接在 { -brand-name-firefox } 中创建马甲，也可使用 <a { $attrs }>{ -brand-name-relay } 扩展</a>，或在您的 { -brand-name-relay } 面板中创建。
 what-can-you-do-with-relay-point-two = 阻止网站和垃圾发送者轻易跟踪您是谁
 what-can-you-do-with-relay-point-two-subpoint = 近来电子邮件跟踪器无处不在。 { -brand-name-relay } 马甲邮箱助您防范不已。
 what-can-you-do-with-relay-point-three = 阻止垃圾邮件到达您的收件箱甚至完全关闭马甲
