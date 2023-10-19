@@ -92,13 +92,13 @@ trackerreport-tracker-count =
         [one] 1 rastreador
        *[other] { $count } rastreadores
     }
-trackerreport-confidentiality-notice = As informações de rastreadores e de endereços apresentadas nestes relatórios não são guardadas pelo { -brand-name-firefox-relay } e apenas estão contidas nos URLs dos relatórios. Não guardamos os seus e-mails.
+trackerreport-confidentiality-notice = As informações de rastreadores e de endereços apresentadas nestes relatórios não são guardadas pelo { -brand-name-firefox-relay } e apenas estão contidas nos endereços dos relatórios. Não guardamos os seus e-mails.
 trackerreport-removal-explainer-heading = Como funciona a remoção de rastreadores
-trackerreport-removal-explainer-content = O { -brand-name-firefox-relay } agora pode remover rastreadores comuns das mensagens encaminhadas através das suas máscaras de correio eletrónico. Irá continuar a receber os seus e-mails, mas os rastreadores nas mensagens encaminhadas serão removidos, para que possa receber as suas mensagens sem ser rastreado. Para ativar a remoção do rastreador em todas as suas máscaras de uma vez, ative a remoção do rastreador nas configurações em vez de individualmente para cada máscara.
-trackerreport-trackers-explainer-heading = Acerca dos rastreadores de e-mail
-trackerreport-trackers-explainer-content-part1 = O rastreamento de e-mail é uma ferramenta comum de vigilância e publicidade que ocupa muitas caixas de entrada. Estes rastreadores podem ser utilizados para compreender mais sobre o seu comportamento na Internet, os seus interesses e a sua atividade no correio eletrónico.
-trackerreport-trackers-explainer-content-part2 = Uma empresa ou organização irá embutir um rastreador nos e-mails enviados para si, geralmente oculto dentro de uma imagem ou ligação. Quando o e-mail é aberto, o código dentro do rastreador envia os dados de volta para a empresa.
-trackerreport-breakage-warning-2 = Importante: remover rastreadores pode fazer com que o seu e-mail pareça danificado porque os rastreadores estão muitas vezes presentes em imagens e ligações. Quaisquer e-mails que receba como este não podem ser corrigidos ou recuperados.
+trackerreport-removal-explainer-content = O { -brand-name-firefox-relay } agora pode remover rastreadores comuns das mensagens encaminhadas através das suas máscaras de correio eletrónico. Irá continuar a receber os seus e-mails, mas os rastreadores nas mensagens encaminhadas serão removidos, para que possa receber as suas mensagens sem ser rastreado. Para ativar a remoção generalizada de rastreadores em todas as suas máscaras de uma única vez, ative a remoção de rastreadores nas definições em vez de ativar a opção individualmente para cada máscara.
+trackerreport-trackers-explainer-heading = Sobre os rastreadores de e-mail
+trackerreport-trackers-explainer-content-part1 = O rastreamento de e-mails é uma ferramenta comum de monitorização e publicidade que tem tomado muitas caixas de entrada. Estes rastreadores podem ser utilizados para compreender e saber mais sobre o seu comportamento na Internet, os seus interesses e a sua atividade no correio eletrónico.
+trackerreport-trackers-explainer-content-part2 = Uma empresa ou organização irá incorporar um rastreador nos e-mails enviados para si, geralmente oculto dentro de uma imagem ou ligação. Quando o e-mail é aberto, o código dentro do rastreador envia os dados novamente para a empresa.
+trackerreport-breakage-warning-2 = Importante: remover rastreadores pode fazer com que o seu e-mail pareça danificado porque os rastreadores estão muitas vezes presentes em imagens e ligações. Quaisquer e-mails que receba assim não podem ser corrigidos ou recuperados.
 trackerreport-faq-heading = Principais questões sobre rastreadores de e-mail
 trackerreport-faq-cta = Ver mais perguntas frequentes sobre o { -brand-name-firefox-relay }
 trackerreport-loading = A carregar o seu relatório de remoção de rastreadores…
@@ -112,7 +112,7 @@ contains-tracker-title = Esta ligação ou imagem contém um rastreador
 #   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
 contains-tracker-description = Os rastreadores de e-mail são ferramentas de vigilância que as empresas incorporam nos e-mails para monitorizar o seu comportamento na Internet. Para proteger a sua privacidade, removemos este rastreador do e-mail enviado por <u>{ $sender }</u> a { $datetime }.
 contains-tracker-warning-title = Gostaria de continuar a ver a ligação?
-contains-tracker-warning-description = Aviso: ao clicar nesta ligação irá enviar informação sobre si de volta para o remetente
+contains-tracker-warning-description = Aviso: ao clicar nesta ligação irá enviar informação sobre si para o remetente
 contains-tracker-warning-view-link-cta = Sim, ver ligação
 contains-tracker-faq-section-title = Perguntas frequentes sobre rastreadores de e-mail
 # Time remaining until Relay Premium's introductory pricing is no longer available.
