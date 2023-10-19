@@ -52,13 +52,6 @@ tips-footer-link-support-tooltip = Ota yhteys tukeen
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Vinkki { $nr }
 tips-toast-button-expand-label = Lue lisää
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Kuinka luoda mukautettuja maskeja
-popover-custom-alias-explainer-generate-button-heading-2 = Luo mukautettu maski manuaalisesti
-popover-custom-alias-explainer-generate-button-label-2 = Luo mukautettu maski
-popover-custom-alias-explainer-close-button-label = Sulje
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Estä mainossähköpostit
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ota käyttöön "Estä mainossähköpostit" maskissa estääksesi markkinointisähköpostien saapumisen postilaatikkoosi.
@@ -234,6 +227,14 @@ first-time-user-email-welcome-subhead = Sähköpostiosoitettasi voidaan käyttä
 first-time-user-email-hero-primary-text = { -brand-name-firefox }-käyttäjänä saat viisi sähköpostimaskia ilmaiseksi. Niiden avulla voit piilottaa oikean sähköpostiosoitteesi, suojata henkilöyttäsi ja välittääksesi vain haluamasi sähköpostit postilaatikkoosi.
 first-time-user-email-hero-secondary-text = Hallitse kaikkia maskejasi { -brand-name-relay }-hallintapaneelista.
 first-time-user-email-hero-cta = Näytä hallintapaneeli
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = Lupauksemme sinulle
+what-can-you-do-with-relay-title = Mitä { -brand-name-firefox-relay } -palvelulla voi tehdä?
+what-can-you-do-with-relay-point-one = Vastaanota sähköpostia paljastamatta oikeaa sähköpostiosoitettasi lähettäjille
+forwarded-email-hero-header = Sait ensimmäisen edelleenlähetetyn sähköpostisi!
+forwarded-email-hero-desc = Näetkö otsakkeen? Se näkyy kaikissa { -brand-name-relay }-maskien välittämissä sähköpostiviesteissä.
 first-time-user-email-how-title = Miten { -brand-name-relay } toimii
 first-time-user-email-how-item-1-header = Käytä { -brand-name-relay }-maskia oikean sähköpostiosoitteesi sijaan kaikkialla
 # Variables
