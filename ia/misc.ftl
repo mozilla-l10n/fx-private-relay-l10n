@@ -273,6 +273,7 @@ first-time-user-email-hero-cta = Vide tu pannello de controlo
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Nostre promissa a te
+our-promise-content = Le mascas email de { -brand-name-relay } inultra a tu cassa de ingresso tote le message adressate a ille masca, sin revelar al mittente tu real adresse email.
 what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
 what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
