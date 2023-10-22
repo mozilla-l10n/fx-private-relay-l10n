@@ -276,6 +276,9 @@ our-promise-header = Nostre promissa a te
 our-promise-content = Le mascas email de { -brand-name-relay } inultra a tu cassa de ingresso tote le message adressate a ille masca, sin revelar al mittente tu real adresse email.
 what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Basta in vice compartir un masca email. Le mascas email inultrara le emails a tu cassa de ingresso. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu quadro de commando de { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
 what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
