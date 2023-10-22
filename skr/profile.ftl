@@ -2,13 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Profile Page (Logged In)
 
 onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
 onboarding-alias-tip-2 = { -brand-name-relay } ایکسٹنشن ورتݨ نال { -brand-name-firefox-relay } آئیکان چݨو جہڑے ویلے ایہ ای میل خانے وچ ظاہر تھیوے۔
 onboarding-alias-tip-3-2 = { -brand-name-relay } ایکسٹنشن ورتیندے ہوئے،  فارم خانے وچ " نواں ماسک جنریٹ کرو" تے سڄا کلک کرو۔
-
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
@@ -36,6 +36,7 @@ profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
 profile-label-create-subdomain = آپݨی ای میل سب ڈومین گھنو
 profile-label-subdomain = ای میل سب ڈومین:
 profile-label-custom-domain = تہاݙی { -brand-name-relay } ای میل ڈومین:
+# Deprecated
 profile-label-set-your-custom-domain = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
 profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
 profile-label-subdomain-tooltip = آپݨی نویکلی ای میل سب ڈومین بݨاؤ۔
@@ -43,18 +44,14 @@ profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
 profile-label-skip = چھوڑو
 profile-label-continue = جاری
-
 # This string is followed by an email address
 profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
-
 # This string is followed by date
 profile-label-first-emailed = پہلی ای میل تھئی:
-
 # This string is followed by date:
 profile-label-created = بݨیا:
 profile-label-details-show = تفصیلاں ݙکھاؤ
 profile-label-details-hide = تفصیلاں لُکاؤ
-
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = اڳوں تے پٹھݨ
 profile-label-blocking = بلاک کرݨ
@@ -125,3 +122,7 @@ profile-promo-email-blocking-description-promotionals-locked-label = { -brand-na
 profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گریڈ کرو
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = تانگھ تندیر { -brand-name-relay-premium } نال رلت کرو
 profile-promo-email-blocking-description-promotionals-locked-close = بند کرو
+
+## 5 Mask Upsell (displayed on the profile page)
+
+profile-maxed-aliases-cta = { -brand-name-premium } تے اپ گریڈ کرو
