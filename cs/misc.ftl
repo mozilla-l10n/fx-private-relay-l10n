@@ -317,17 +317,17 @@ first-time-user-email-hero-cta = Zobrazit moji nástěnku
 
 our-promise-header = Náš slib pro vás
 our-promise-content = Služba { -brand-name-relay } přeposílá do vaší e-mailové schránky všechny zprávy odeslané na tuto masku, aniž by odesílateli prozradila vaši skutečnou e-mailovou adresu.
-what-can-you-do-with-relay-title = Co můžete s { -brand-name-firefox-relay(case: "ins") } dělat?
+what-can-you-do-with-relay-title = Co můžete se službou { -brand-name-firefox-relay(case: "ins") } dělat?
 what-can-you-do-with-relay-point-one = Dostávejte e-maily bez toho, abyste odesílatelům prozradili svou skutečnou e-mailovou adresu
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = Stačí místo toho sdílet e-mailovou masku. E-mailové masky budou přeposílat e-maily do vaší e-mailové schránky. Masky můžete vytvářet přímo ve { -brand-name-firefox(case: "loc") } pomocí <a { $attrs }>rozšíření { -brand-name-relay }</a> nebo na nástěnce služby { -brand-name-relay } .
-what-can-you-do-with-relay-point-two = Zabraňte webovým stránkám a odesílatelům spamu ve sledování, kdo jste
-what-can-you-do-with-relay-point-two-subpoint = Sledovací prvky e-mailů jsou dnes všude. E-mailové masky služby { -brand-name-relay } vám pomohou je udržet uhodnout.
-what-can-you-do-with-relay-point-three = Zabraňte spamu, aby se dostával do vaší e-mailové schránky, a dokonce si úplně vypněte masky
-what-can-you-do-with-relay-point-three-subpoint = Na nástěnce služby { -brand-name-relay } můžete vytvářet masky, označovat je tak, jak jste je použili, zapnout blokování spamu a mazat ty, které již nechcete používat.
+what-can-you-do-with-relay-point-two = Zabraňte webovým stránkám a odesílatelům nevyžádané pošty ve sledování, kdo jste
+what-can-you-do-with-relay-point-two-subpoint = Sledovací prvky e-mailů jsou dnes všude. E-mailové masky služby { -brand-name-relay } vám pomohou udržet je v nejistotě.
+what-can-you-do-with-relay-point-three = Blokování nevyžádané pošty v doručené poště a dokonce úplné vypnutí masek
+what-can-you-do-with-relay-point-three-subpoint = Na nástěnce služby { -brand-name-relay } můžete vytvářet masky, označovat je tak, jak jste je použili, zapnout blokování nevyžádané pošty a mazat ty, které již nechcete používat.
 forwarded-email-hero-header = Obdrželi jste svůj první přeposlaný e-mail!
-forwarded-email-hero-desc = Vidíte tu hlavičku? Zobrazí se u všech e-mailů přeposlaných maskami { -brand-name-relay }.
+forwarded-email-hero-desc = Vidíte tu hlavičku? Zobrazí se u všech e-mailů přeposlaných maskami služby { -brand-name-relay }.
 first-time-user-email-how-title = Jak { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
 # Variables
