@@ -284,6 +284,7 @@ what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es
 what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
 what-can-you-do-with-relay-point-three-subpoint = Sur le quadro de commando de { -brand-name-relay }, tu pote crear mascas, etiquettar los pro notar ubi tu los usa. activar le blocada de spam, e deler toto lo que tu non vole plus.
 forwarded-email-hero-header = Tu recipeva tu prime email inultrate!
+forwarded-email-hero-desc = Vide tu ille testa? Illo apparera sur tote le emails inultrate per le mascas { -brand-name-relay }.
 first-time-user-email-how-title = Como functiona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
 # Variables
