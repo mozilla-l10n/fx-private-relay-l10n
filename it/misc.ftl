@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = Contatta l’assistenza
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Suggerimento { $nr }
 tips-toast-button-expand-label = Ulteriori informazioni
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = Come creare alias personalizzati
-popover-custom-alias-explainer-explanation-2 = Tutto ciò che devi fare è inventare e condividere un alias univoco che utilizzi il tuo sottodominio personalizzato. L’alias verrà generato automaticamente. Ad esempio, la prossima volta che fai shopping online prova con “shop@miodominio.mozmail.com”.
-popover-custom-alias-explainer-generate-button-heading-2 = Genera manualmente un alias personalizzato
-popover-custom-alias-explainer-generate-button-label-2 = Genera alias personalizzato
-popover-custom-alias-explainer-close-button-label = Chiudi
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocca email pubblicitarie
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Attiva il blocco delle email pubblicitarie su un alias per impedire alle email di marketing di raggiungere la tua casella di posta.
@@ -278,6 +270,14 @@ first-time-user-email-welcome-subhead = Il tuo indirizzo email può essere utili
 first-time-user-email-hero-primary-text = Come utente di { -brand-name-firefox }, ricevi gratuitamente 5 alias di posta elettronica. Usali per nascondere il tuo indirizzo reale, proteggere la tua identità e inoltrare alla tua casella di posta solo le email che desideri.
 first-time-user-email-hero-secondary-text = Gestisci tutti i tuoi alias dalla dashboard di { -brand-name-relay }
 first-time-user-email-hero-cta = Visualizza la dashboard
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = La nostra promessa
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = Condividi un alias al posto del tuo indirizzo. Gli alias email inoltreranno i messaggi alla tua casella. Puoi creare alias email direttamente in { -brand-name-firefox }, con l’estensione di <a{ $attrs }>{ -brand-name-relay }</a>, o nella dashboard di { -brand-name-relay }.
+what-can-you-do-with-relay-point-two = Impedisci a siti web e spammer di tracciare facilmente la tua identità
 first-time-user-email-how-title = Come funziona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utilizza un alias { -brand-name-relay } invece del tuo indirizzo email reale, ovunque
 # Variables
