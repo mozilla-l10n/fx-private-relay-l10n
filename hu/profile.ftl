@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Promóciók
 profile-promo-email-blocking-option-none = Semelyiket
 profile-promo-email-blocking-description-all-2 = A { -brand-name-relay } blokkol minden, az erre a maszkra küldött e-mailt.
 profile-promo-email-blocking-description-promotionals = A { -brand-name-relay } megpróbálja blokkolni a promóciós e-maileket, miközben továbbra is továbbítja az olyan e-maileket, amelyek nyugtákat és szállítási információkat tartalmaznak.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = A { -brand-name-relay } nem blokkol semmilyen e-mailt ennél a maszknál.
+profile-promo-email-blocking-description-none-3 = Az erre a maszkra küldött e-mailek a valódi címére lesznek továbbítva.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Promóciók blokkolása
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Promóciós e-mailek blokkolása
+# Deprecated
 profile-promo-email-blocking-label-none = Az összes blokkolása
+profile-promo-email-blocking-label-none-2 = Összes e-mail blokkolása
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Összes e-mail továbbítása
 profile-promo-email-blocking-label-not-forwarding = Nincs továbbítás
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (csak { -brand-name-premium }mal)
 profile-promo-email-blocking-description-promotionals-locked-label = A { -brand-name-relay-premium } előfizetők számára érhető el
