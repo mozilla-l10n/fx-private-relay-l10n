@@ -274,10 +274,18 @@ first-time-user-email-hero-cta = Visualizza la dashboard
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = La nostra promessa
+our-promise-content = Gli alias di posta elettronica { -brand-name-relay } inoltrano alla tua casella tutti i messaggi inviati a quel determinato alias, senza rivelare al mittente il tuo indirizzo reale.
+what-can-you-do-with-relay-title = Che cosa si può fare con { -brand-name-firefox-relay }?
+what-can-you-do-with-relay-point-one = Ricevi messaggi senza rivelare al mittente il tuo indirizzo email reale
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = Condividi un alias al posto del tuo indirizzo. Gli alias email inoltreranno i messaggi alla tua casella. Puoi creare alias email direttamente in { -brand-name-firefox }, con l’estensione di <a{ $attrs }>{ -brand-name-relay }</a>, o nella dashboard di { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Impedisci a siti web e spammer di tracciare facilmente la tua identità
+what-can-you-do-with-relay-point-two-subpoint = Gli elementi traccianti si trovano ormai in tutte le email in questi giorni. Gli alias di posta elettronica { -brand-name-relay } li obbligano a tirare a indovinare.
+what-can-you-do-with-relay-point-three = Impedisci allo spam di raggiungere la tua casella di posta, o disattiva completamente gli alias
+what-can-you-do-with-relay-point-three-subpoint = Nella dashboard di { -brand-name-relay } puoi creare alias, etichettarli per indicare dove vengono utilizzati, attivare il blocco dello spam ed eliminare quelli che non vuoi più utilizzare.
+forwarded-email-hero-header = Hai ricevuto la tua prima email inoltrata!
+forwarded-email-hero-desc = Vedi questa intestazione? Apparirà in tutte le email inoltrate dagli alias { -brand-name-relay }.
 first-time-user-email-how-title = Come funziona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Utilizza un alias { -brand-name-relay } invece del tuo indirizzo email reale, ovunque
 # Variables
