@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Reklamní
 profile-promo-email-blocking-option-none = Žádné
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všechny e-maily odeslané na tuto masku.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } se pokusí blokovat reklamní e-maily, zatímco bude dál přeposílat e-maily jako účtenky a dodací údaje.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žádné e-maily odeslané na tuto masku.
+profile-promo-email-blocking-description-none-3 = Všechny e-maily zaslané na tuto masku budou přeposlány na vaši skutečnou adresu.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Blokovat reklamy
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Blokování reklamních e-mailů
+# Deprecated
 profile-promo-email-blocking-label-none = Blokovat vše
+profile-promo-email-blocking-label-none-2 = Blokovány všechny e-maily
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Přeposílání všech e-mailů
 profile-promo-email-blocking-label-not-forwarding = Nepřeposílá se
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (jen { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Pro předplatitele { -brand-name-relay-premium(case: "gen") }
