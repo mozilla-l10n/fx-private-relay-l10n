@@ -293,7 +293,7 @@ first-time-user-email-how-item-1-subhead-html = Erstellen Sie Masken direkt in {
 first-time-user-email-how-item-1-subhead-text = Erstellen Sie Masken direkt in { -brand-name-firefox }, mit dem { -brand-name-relay }-Add-on  oder auf Ihrer { -brand-name-relay }-Übersicht.
 first-time-user-email-how-item-2-header = Wir leiten alle E-Mails an Ihren Posteingang weiter
 first-time-user-email-how-item-2-subhead = Absender sehen nie Ihre echte Adresse und Sie können E-Mails jederzeit blockieren.
-first-time-user-email-how-item-3-header = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übesicht
+first-time-user-email-how-item-3-header = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übersicht
 # Variables
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link

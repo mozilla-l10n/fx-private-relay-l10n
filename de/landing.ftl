@@ -56,7 +56,7 @@ how-it-works-section-forward-body = Seien Sie versichert, dass Absender niemals 
 
 # Item 3
 
-how-it-works-section-manage-headline = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übesicht
+how-it-works-section-manage-headline = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übersicht
 how-it-works-section-manage-body = Melden Sie sich bei Ihrer { -brand-name-relay }-Übersicht an, um neue Masken zu erstellen, vorhandene Masken zu kennzeichnen und Anrufe, SMS oder E-Mails von Masken zu blockieren, die zu viel Spam erhalten.
 
 ## PRICING MATRIX SECTION
