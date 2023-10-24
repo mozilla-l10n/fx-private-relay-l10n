@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Promosi
 profile-promo-email-blocking-option-none = Tidak ada
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } memblokir semua surel yang masuk ke topeng ini.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } akan mencoba memblokir surel promosi sambil tetap meneruskan surel seperti tanda terima dan informasi pengiriman.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } tidak memblokir surel apapun yang masuk ke topeng ini.
+profile-promo-email-blocking-description-none-3 = Semua surel yang dikirim ke topeng ini akan diteruskan ke alamat asli Anda.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Blokir promosi
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Memblokir surel promo
+# Deprecated
 profile-promo-email-blocking-label-none = Memblokir semua
+profile-promo-email-blocking-label-none-2 = Memblokir semua surel
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Meneruskan semua surel
 profile-promo-email-blocking-label-not-forwarding = Tidak meneruskan
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } saja)
 profile-promo-email-blocking-description-promotionals-locked-label = Tersedia untuk pelanggan { -brand-name-relay-premium }
