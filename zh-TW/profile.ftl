@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = 行銷郵件
 profile-promo-email-blocking-option-none = 無
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 將封鎖所有寄到此轉寄信箱的郵件。
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 將嘗試封鎖行銷郵件，但仍然轉寄消費收據、訂單出貨通知等重要郵件給您。
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不會封鎖任何寄到此轉寄信箱的郵件。
+profile-promo-email-blocking-description-none-3 = 所有寄到此轉寄信箱的郵件都會轉寄到您的實際信箱。
+# Deprecated
 profile-promo-email-blocking-label-promotionals = 封鎖行銷郵件
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = 封鎖行銷郵件
+# Deprecated
 profile-promo-email-blocking-label-none = 封鎖全部
+profile-promo-email-blocking-label-none-2 = 封鎖所有電子郵件
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = 轉寄所有電子郵件
 profile-promo-email-blocking-label-not-forwarding = 不轉寄
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = （僅　{ -brand-name-premium }）
 profile-promo-email-blocking-description-promotionals-locked-label = 僅提供 { -brand-name-relay-premium } 訂閱者使用
