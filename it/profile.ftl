@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Promozioni
 profile-promo-email-blocking-option-none = Nessuna
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } sta bloccando tutte le email inviate a questo alias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tenterà di bloccare le email pubblicitarie, consentendoti comunque di ricevere email essenziali come fatture o informazioni su una spedizione.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non sta bloccando alcuna email per questo alias.
+profile-promo-email-blocking-description-none-3 = Tutte le email inviate a questo alias verranno inoltrate al tuo indirizzo reale.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Blocco email promozionali
+# Deprecated
 profile-promo-email-blocking-label-none = Blocca tutto
+profile-promo-email-blocking-label-none-2 = Blocco di tutte le email
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Inoltro di tutte le email
 profile-promo-email-blocking-label-not-forwarding = Inoltro disattivato
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (solo per { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponibile per gli abbonati { -brand-name-relay-premium }
