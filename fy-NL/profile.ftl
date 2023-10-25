@@ -118,13 +118,13 @@ profile-promo-email-blocking-description-none-3 = Alle e-mailberjochten dy’t n
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Reklame blokkearje
 # Let's the user know we are blocking promotional emails 
-profile-promo-email-blocking-label-promotionals-2 = E-mailberjochten mei promoasjes blokkearje
+profile-promo-email-blocking-label-promotionals-2 = Advertinsjeberjochten wurde blokkearre
 # Deprecated
 profile-promo-email-blocking-label-none = Alles blokkearje
-profile-promo-email-blocking-label-none-2 = Alle e-mailberjochten blokkearje
+profile-promo-email-blocking-label-none-2 = Alle e-mailberjochten wurde blokkearre
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
-profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberjochten trochstjoere
+profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberjochten wurde trochstjoerd
 profile-promo-email-blocking-label-not-forwarding = Net trochstjoere
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (allinnich { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Beskikber foar { -brand-name-relay-premium }-abonnees
