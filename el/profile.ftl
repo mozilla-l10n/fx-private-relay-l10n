@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Διαφημίσεις
 profile-promo-email-blocking-option-none = Κανένα
 profile-promo-email-blocking-description-all-2 = Το { -brand-name-relay } αποκλείει όλα τα email που αποστέλλονται σε αυτήν τη μάσκα.
 profile-promo-email-blocking-description-promotionals = Το { -brand-name-relay } θα επιχειρήσει να αποκλείσει τα διαφημιστικά email, προωθώντας όμως άλλα email, όπως αποδείξεις και στοιχεία αποστολής.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = Το { -brand-name-relay } δεν αποκλείει κανένα email για αυτήν τη μάσκα.
+profile-promo-email-blocking-description-none-3 = Όλα τα email που αποστέλλονται σε αυτήν τη μάσκα θα προωθούνται στην πραγματική σας διεύθυνση.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Φραγή διαφημίσεων
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Αποκλεισμός διαφημιστικών email
+# Deprecated
 profile-promo-email-blocking-label-none = Φραγή όλων
+profile-promo-email-blocking-label-none-2 = Αποκλεισμός όλων των email
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Προώθηση όλων των email
 profile-promo-email-blocking-label-not-forwarding = Χωρίς προώθηση
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (μόνο στο { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Διαθέσιμο για συνδρομητές { -brand-name-relay-premium }
