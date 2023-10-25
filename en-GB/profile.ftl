@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Promotions
 profile-promo-email-blocking-option-none = None
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } is blocking all emails sent to this mask.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } will attempt to block promotional emails while still forwarding emails like receipts and shipping information.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } is not blocking any emails for this mask.
+profile-promo-email-blocking-description-none-3 = All emails sent to this mask will be forwarded to your real address.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Block promotions
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Blocking promo emails
+# Deprecated
 profile-promo-email-blocking-label-none = Block all
+profile-promo-email-blocking-label-none-2 = Blocking all emails
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Forwarding all emails
 profile-promo-email-blocking-label-not-forwarding = Not forwarding
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } only)
 profile-promo-email-blocking-description-promotionals-locked-label = Available to { -brand-name-relay-premium } subscribers
