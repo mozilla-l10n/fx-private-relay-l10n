@@ -118,13 +118,13 @@ profile-promo-email-blocking-description-none-3 = Alle e-mailberichten die naar 
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Reclame blokkeren
 # Let's the user know we are blocking promotional emails 
-profile-promo-email-blocking-label-promotionals-2 = E-mailberichten met promoties blokkeren
+profile-promo-email-blocking-label-promotionals-2 = Advertentieberichten worden geblokkeerd
 # Deprecated
 profile-promo-email-blocking-label-none = Alles blokkeren
-profile-promo-email-blocking-label-none-2 = Alle e-mailberichten blokkeren
+profile-promo-email-blocking-label-none-2 = Alle e-mailberichten worden geblokkeerd
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
-profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberichten doorsturen
+profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberichten worden doorgestuurd
 profile-promo-email-blocking-label-not-forwarding = Niet doorsturen
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (alleen { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Beschikbaar voor { -brand-name-relay-premium }-abonnees
