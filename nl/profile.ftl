@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Reclames
 profile-promo-email-blocking-option-none = Geen
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokkeert alle e-mailberichten die naar dit masker worden verzonden.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } probeert reclameberichten te blokkeren terwijl e-mailberichten zoals ontvangstbewijzen en verzendinformatie nog steeds wordt doorgestuurd.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blokkeert geen enkel e-mailbericht voor dit masker.
+profile-promo-email-blocking-description-none-3 = Alle e-mailberichten die naar dit masker worden verzonden, worden doorgestuurd naar uw echte adres.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Reclame blokkeren
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = E-mailberichten met promoties blokkeren
+# Deprecated
 profile-promo-email-blocking-label-none = Alles blokkeren
+profile-promo-email-blocking-label-none-2 = Alle e-mailberichten blokkeren
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberichten doorsturen
 profile-promo-email-blocking-label-not-forwarding = Niet doorsturen
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (alleen { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Beschikbaar voor { -brand-name-relay-premium }-abonnees
