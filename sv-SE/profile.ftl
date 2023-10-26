@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Reklamerbjudanden
 profile-promo-email-blocking-option-none = Inga
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blockerar alla e-post som skickas till detta e-postalias.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } kommer att försöka blockera reklammeddelanden samtidigt som de vidarebefordrar e-postmeddelanden som kvitton och leveransinformation.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } blockerar inte några e-postmeddelanden för detta e-postalias.
+profile-promo-email-blocking-description-none-3 = Alla e-postmeddelanden som skickas till detta alias kommer att vidarebefordras till din riktiga adress.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Blockera reklam
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Blockera reklammeddelanden
+# Deprecated
 profile-promo-email-blocking-label-none = Blockera alla
+profile-promo-email-blocking-label-none-2 = Blockerar alla e-postmeddelanden
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Vidarebefordrar alla e-postmeddelanden
 profile-promo-email-blocking-label-not-forwarding = Vidarebefordrar inte
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (endast { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Tillgänglig för { -brand-name-relay-premium }-prenumeranter
