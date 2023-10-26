@@ -114,7 +114,7 @@ profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bloque to
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tente de bloquer les e-mails promotionnels tout en transférant les messages tels que les reçus et les avis d’expédition.
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ne bloque aucun e-mail envoyé à cet alias.
-profile-promo-email-blocking-description-none-3 = Tous les e-mails envoyés à cet alias seront transférés à votre adresse réelle.
+profile-promo-email-blocking-description-none-3 = Tous les e-mails envoyés à cet alias seront transférés à votre véritable adresse.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquer les e-mails promotionnels
 # Let's the user know we are blocking promotional emails 
