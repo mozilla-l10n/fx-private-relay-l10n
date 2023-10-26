@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Hyrwyddiadau
 profile-promo-email-blocking-option-none = Dim
 profile-promo-email-blocking-description-all-2 = Mae { -brand-name-relay } yn rhwystro pob e-bost sy'n cael eu hanfon at yr arallenw hwn.
 profile-promo-email-blocking-description-promotionals = Bydd { -brand-name-relay } yn ceisio rhwystro e-byst hyrwyddo tra'n parhau i anfon e-byst ymlaen megis derbynebau a manylion cludo.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = Nid yw { -brand-name-relay } yn rhwystro unrhyw e-byst ar gyfer yr arallenw hwn.
+profile-promo-email-blocking-description-none-3 = Bydd pob e-bost sy'n cael ei anfon at yr arallenw hwn yn cael ei anfon ymlaen i'ch cyfeiriad go iawn.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Rhwystro'r hyrwyddiadau
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Yn rhwystro e-byst hyrwyddo
+# Deprecated
 profile-promo-email-blocking-label-none = Rhwystro'r cyfan
+profile-promo-email-blocking-label-none-2 = Yn rhwystro pob e-bost
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Anfon pob e-bost ymlaen
 profile-promo-email-blocking-label-not-forwarding = Ddim yn anfon ymlaen
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } yn unig)
 profile-promo-email-blocking-description-promotionals-locked-label = Ar gael i danysgrifwyr { -brand-name-relay-premium }
