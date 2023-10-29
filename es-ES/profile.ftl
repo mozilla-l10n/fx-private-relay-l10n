@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Promociones
 profile-promo-email-blocking-option-none = Ninguno
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } está bloqueando todos los correos electrónicos enviados a esta máscara.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } intentará bloquear los correos electrónicos promocionales mientras sigue reenviando correos electrónicos como recibos o seguimientos de compras.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está bloqueando ningún correo electrónico para esta máscara.
+profile-promo-email-blocking-description-none-3 = Todos los correos electrónicos enviados a esta máscara se reenviarán a tu dirección real.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Bloquear correos electrónicos promocionales
+# Deprecated
 profile-promo-email-blocking-label-none = Bloquear todo
+profile-promo-email-blocking-label-none-2 = Bloquear todos los correos electrónicos
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Reenviar todos los correos electrónicos
 profile-promo-email-blocking-label-not-forwarding = No reenviar
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = Solo para { -brand-name-premium }
 profile-promo-email-blocking-description-promotionals-locked-label = Disponible para los suscriptores de { -brand-name-relay-premium }
