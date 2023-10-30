@@ -112,10 +112,19 @@ profile-promo-email-blocking-option-promotions = Промоції
 profile-promo-email-blocking-option-none = Не блокувати
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокує всі електронні листи, надіслані на цю маску.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } намагатиметься заблокувати рекламні листи, водночас пересилаючи електронні листи, як-от квитанції та інформацію про доставлення.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не блокує електронні листи для цієї маски.
+profile-promo-email-blocking-description-none-3 = Усі електронні листи, надіслані на цю маску, будуть пересилатися на вашу справжню адресу.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Блокувати промоції
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Блокування рекламних листів
+# Deprecated
 profile-promo-email-blocking-label-none = Блокувати всі
+profile-promo-email-blocking-label-none-2 = Блокування всіх листів
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Пересилання всіх листів
 profile-promo-email-blocking-label-not-forwarding = Не пересилаються
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (лише { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Доступно для передплатників { -brand-name-relay-premium }
