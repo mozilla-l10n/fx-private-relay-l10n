@@ -271,12 +271,12 @@ what-can-you-do-with-relay-point-one = 无需向发件人提供真实邮箱地�
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = 可以改为提供马甲邮箱。马甲邮箱会将邮件转发到您的收件箱。您可直接在 { -brand-name-firefox } 中创建马甲，也可使用 <a { $attrs }>{ -brand-name-relay } 扩展</a>，或在您的 { -brand-name-relay } 面板中创建。
-what-can-you-do-with-relay-point-two = 阻止网站和垃圾发送者轻易跟踪您是谁
-what-can-you-do-with-relay-point-two-subpoint = 近来电子邮件跟踪器无处不在。 { -brand-name-relay } 马甲邮箱助您防范不已。
-what-can-you-do-with-relay-point-three = 阻止垃圾邮件到达您的收件箱甚至完全关闭马甲
+what-can-you-do-with-relay-point-two = 不让网站和垃圾邮件发送者轻易跟踪到您的身份
+what-can-you-do-with-relay-point-two-subpoint = 近来邮件跟踪器比比皆是，让 { -brand-name-relay } 马甲邮箱来为您的身份信息披上马甲。
+what-can-you-do-with-relay-point-three = 把垃圾邮件挡在收件箱外。如有需要，还可完全关闭某个马甲邮箱
 what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 面板上您可以创建马甲、为它们添加标签以注明将其用于何处、开启垃圾邮件拦截以及删除不再需要的马甲。
-forwarded-email-hero-header = 您收到了第一封转发给您的邮件
-forwarded-email-hero-desc = 看到那个标题了吗它将出现在 { -brand-name-relay } Masks 转发的所有电子邮件上。
+forwarded-email-hero-header = 您收到了第一封转发给您的邮件！
+forwarded-email-hero-desc = 看到开头那个标签了吗？所有由 { -brand-name-relay } 马甲邮箱转发的邮件上都会出现此标签。
 first-time-user-email-how-title = { -brand-name-relay } 如何工作
 first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 马甲邮箱，不必交出真实邮箱地址
 # Variables
