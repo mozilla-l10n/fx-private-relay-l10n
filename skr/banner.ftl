@@ -2,12 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = فارغ کرو
-
 banner-bounced-headline = { -brand-name-relay } تہاݙا ای میل سپرد کائنی کر سڳا۔
-
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -35,12 +34,10 @@ banner-register-subdomain-headline-aliases-2 = آپݨے ماسکاں  کیتے �
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-register-subdomain-example-address = تہاݙی ڈومین
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
-#
+
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 banner-register-subdomain-copy-2 =
@@ -56,36 +53,30 @@ banner-pack-upgrade-copy-2 = بے انت ای میل ماسکاں تے تہاݙ�
 footer-banner-premium-promo-headine = آپݨے فون <i>تے</i> ای میل حفاظت کیتے <strong>{ -brand-name-firefox-relay-premium }</strong> اپ گریڈ کرو
 footer-banner-premium-promo-body = فوری ماسک تخیلق کرݨ کیتے مخصوص ای میل پتے، بے انت ای میل ماسکاں تے فون نمبر ماسک گھنو۔
 banner-pack-upgrade-cta = ہݨ اپ گریڈ کرو
-
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = رازداری نوٹس اپ ڈیٹ
 banner-label-privacy-notice-update-body = ای میل ڈیلیور نہ تھیوݨ دی صورت وِچ { -brand-name-firefox-relay } دی اعتمادکوں بہتر بݨاوݨ کیتے، اساں عارضی طور تے ای میل کوں اپݨے سرورز تے اوں وقت تائیں رکھیسوں جے تائیں ایہ ڈیلیور ہ تھی ونڄے۔ اساں اینکوں ترائے ݙینہہ کنوں زیادہ کݙاہیں نہ رکھیسو۔
 banner-label-privacy-notice-update-cta = رازداری نوٹس ݙیکھو
-
 # Data Notification Banner:
 banner-label-data-notification-header = { -brand-name-relay } تے جلدی آندا پئے
 banner-label-data-notification-cta = ترتیباں تے ون٘ڄو
 banner-label-data-notification-header-v2 = نویاں خصوصیات فعال کرو
 banner-label-data-notification-body-cta = ٻیا سِکھو
-
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = آپݨی رازداری دی حفاظت کرو، انٹرنیٹ محفوظ کرو
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 banner-upgrade-loyalist-copy-2 = ہک بہتر انٹرنیٹ اسارݨ کیتے ساݙے مشن وچ شامل تھیندے ہوئے آپݨی رازداری دی حفاظت کرو، سب کجھ { $monthly_price } وچ
 banner-upgrade-loyalist-cta = ٻئی وی حفاظت گھنو
-
 # End of intro pricing countdown banner:
 banner-offer-end-headline = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُک ویسی!
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو  تے اساݙی تعارفی ماہانہ قیمت تے لامحدود ماسکنگ دا لطف چاوو۔
 banner-offer-end-cta = ہݨ اپ گریڈ کرو
-
 # Variables:
 # $subdomain (url) - User-set subdomain
 banner-choose-subdomain-description = تساں کوئی وی پتہ @{ $subdomain } بݨا سڳدے ہو
-
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = سپیم، روبو کالاں تے فضول عبارت کوں روکو
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } تہاݙے اصل نمبر دے حفاظت کیتے تہاکوں فون ماسک — تے بے انت ای میل ماسکاں ݙیندے۔
@@ -111,7 +102,6 @@ banner-set-email-domain-input-search = ڳولو
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = تہاݙی ڈومین
 banner-set-email-domain-learn-more = ٻیا سِکھو
-
 modal-email-domain-good-news = خوشخبری!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -130,5 +120,5 @@ modal-email-domain-success-headline-any-word = کوئی لفظ یا ترکیب �
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_full } سٹور ورتو۔
 modal-email-domain-success-continue = جاری
-
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے
+tooltip-email-domain-explanation-title-free = آپݨی { -brand-name-relay } ای میل ڈومین گھنو

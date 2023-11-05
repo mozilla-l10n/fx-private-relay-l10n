@@ -52,14 +52,6 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = گُر { $nr }
 tips-toast-button-expand-label = ٻیا سِکھو
-
-## Popover explaining how custom masks work
-
-popover-custom-alias-explainer-heading-2 = کسٹم  ماسک کین٘ویں تخلیق کروں
-popover-custom-alias-explainer-explanation-2 = تہاکوں صرف ہک نویکلا ماسک بݨاوݨ تے شیئر کرݨ دی ضرورت ہے جیڑھا تہاݙی حسب ضرورت ذیلی ڈومین استعمال کریندا ہے — ماسک آپوں ڄاݨ تیار تھی ویسے۔ مثال دے طور تے اڳلی واری جݙاں تساں آن لائن خریداری کرو تاں shop@customsubdomain.mozmail.com کوں ازماؤ۔
-popover-custom-alias-explainer-generate-button-heading-2 = کسٹم ماسک  دستی جنریٹ کرو
-popover-custom-alias-explainer-generate-button-label-2 = کسٹم ماسک جنریٹ کرو
-popover-custom-alias-explainer-close-button-label = بند کرو
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
 popover-custom-alias-explainer-promotional-block-tooltip-2 = مارکیٹنگ ای میلاں کوں آپݨے ان باکس تائیں پہنچݨ کنوں روکݨ کیتے ماسک تے پروموشنل ای میلاں بلاک کرݨ  فعال کرو۔
@@ -264,6 +256,10 @@ first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم �
 first-time-user-email-preheader = تہاݙی سُن٘ڄاݨ دی حفاظت کیتے ای میل ماسکنگ
 first-time-user-email-hero-secondary-text = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے سارے ماسک منیج کرو۔
 first-time-user-email-hero-cta = آپݨاں ڈیش بورڈ ݙیکھو
+
+## Email sent to people onboarding that receive their first forwarded email.
+
+our-promise-header = تہاݙے نال ساݙا وعدہ
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
