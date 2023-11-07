@@ -114,7 +114,7 @@ profile-promo-email-blocking-description-all-2 = { -brand-name-relay } 将屏蔽
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } 将尝试屏蔽营销邮件，但仍会转发消费收据、物流信息等重要邮件。
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } 不会屏蔽任何发送至此马甲邮箱的邮件。
-profile-promo-email-blocking-description-none-3 = 发送到此马甲的所有电子邮件都将转发到您的真实地址。
+profile-promo-email-blocking-description-none-3 = 发送到此马甲的所有电子邮件都将转发到您的真实邮箱。
 # Deprecated
 profile-promo-email-blocking-label-promotionals = 屏蔽营销邮件
 # Let's the user know we are blocking promotional emails 
