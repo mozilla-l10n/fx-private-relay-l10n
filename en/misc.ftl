@@ -266,6 +266,7 @@ first-time-user-email-welcome-subhead = Your email address can be used to track 
 first-time-user-email-hero-primary-text = As a { -brand-name-firefox } user, you get 5 email masks for free. Use them to hide your real email address, protect your identity, and forward only the emails you want to your inbox.
 first-time-user-email-hero-secondary-text = Manage all your masks from your { -brand-name-relay } dashboard.
 first-time-user-email-hero-cta = View your dashboard
+first-time-user-email-cta-dashboard-button = Learn to use { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
