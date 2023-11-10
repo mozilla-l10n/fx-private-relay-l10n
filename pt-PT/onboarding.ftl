@@ -10,7 +10,7 @@ multi-part-onboarding-premium-welcome-subheadline-2 = Vamos preparar tudo para a
 multi-part-onboarding-premium-welcome-feature-headline = Com o { -brand-name-firefox-relay-premium }, obtém:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Máscaras de e-mail ilimitadas
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Melhore a sua privacidade e segurança com uma máscara única para cada site
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crie máscaras instantaneamente em qualquer lugar
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crie máscaras instantaneamente, em qualquer sítio
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtenha um domínio de e-mail { -brand-name-relay } único para uma criação de máscaras instantânea e fácil de memorizar
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalizados de caixa de entrada
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controle o tipo de mensagens que são encaminhadas para a sua caixa de entrada
@@ -27,7 +27,7 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Cri
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
-multi-part-onboarding-premium-email-domain-feature-body = Selecione o seu domínio de e-mail { -brand-name-relay } preferido e crie instantaneamente novas máscaras ao adicionar qualquer palavra ou frase antes do símbolo @. <p>Fazer compras? Utilizar loja@yourdomain.{ $mozmail }.</p>
+multi-part-onboarding-premium-email-domain-feature-body = Selecione o seu domínio de e-mail { -brand-name-relay } preferido e crie instantaneamente novas máscaras ao adicionar qualquer palavra ou frase antes do símbolo @. <p>Fazer compras? Utilizar loja@oseudominio.{ $mozmail }.</p>
 multi-part-onboarding-premium-email-domain-feature-input-placeholder = Pesquisar uma palavra ou frase
 multi-part-onboarding-premium-email-domain-feature-input-search = Pesquisar
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
@@ -57,6 +57,6 @@ multi-part-onboarding-continue = Continuar
 
 multi-part-onboarding-reply-headline = Responder aos seus e-mails
 onboarding-premium-title-detail = Com o { -brand-name-firefox-relay-premium } pode:
-onboarding-premium-reply-description-2 = Precisa de responder a e-mails enviados para uma máscara? Responda como normal - a sua máscara ainda irá proteger o seu endereço de e-mail.
+onboarding-premium-reply-description-2 = Precisa de responder a e-mails enviados para uma máscara? Responda como habitualmente — a sua máscara irá proteger ainda o seu endereço de e-mail.
 multi-part-onboarding-premium-reply-description = Responda a e-mails sem revelar o seu endereço real
 multi-part-onboarding-step-counter = Passo { $step } de { $max }.
