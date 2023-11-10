@@ -74,9 +74,9 @@ whatsnew-feature-firefox-integration-description = Proteger o seu correio eletr�
 whatsnew-feature-mailing-list-heading = Obtenha ajuda para proteger a sua privacidade
 # A preview of the full content of `whatsnew-feature-mailing-list-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-mailing-list-snippet = Não é fácil seguir as dicas de privacidade e de segurança mais recentes…
-whatsnew-feature-mailing-list-description = Não é fácil seguir as dicas e hábitos mais recentes de privacidade e segurança. Por isso, criámos uma newsletter para o ajudar a tornar a sua vida na Internet mais segura.
-whatsnew-feature-mailing-list-cta = Subscrever newsletter
+whatsnew-feature-mailing-list-snippet = Não é fácil seguir as informações de privacidade e de segurança mais recentes…
+whatsnew-feature-mailing-list-description = Não é fácil seguir as informação e hábitos mais recentes de privacidade e segurança. Por isso, criámos uma newsletter para ajudar a tornar a sua vida na Internet mais segura.
+whatsnew-feature-mailing-list-cta = Subscrever a newsletter
 whatsnew-feature-premium-expansion-eu-heading = Máscaras ilimitadas agora disponíveis
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
