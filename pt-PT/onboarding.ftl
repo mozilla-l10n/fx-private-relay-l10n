@@ -6,7 +6,7 @@
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Bem-vindo(a) ao { -brand-name-relay-premium }
-multi-part-onboarding-premium-welcome-subheadline-2 = Vamos configurar-lhe para aproveitar ao máximo a sua conta { -brand-name-premium }.
+multi-part-onboarding-premium-welcome-subheadline-2 = Vamos preparar tudo para aproveitar ao máximo a sua conta { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Com o { -brand-name-firefox-relay-premium }, obtém:
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Máscaras de e-mail ilimitadas
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Melhore a sua privacidade e segurança com uma máscara única para cada site

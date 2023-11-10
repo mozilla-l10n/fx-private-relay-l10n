@@ -307,8 +307,8 @@ first-time-user-email-how-item-3-header = Faça a gestão das suas máscaras a p
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
 first-time-user-email-how-item-3-subhead-text = Inicie sessão para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
-first-time-user-email-extra-protection-inbox-title = Proteção extra para a sua caixa de entrada
-first-time-user-email-extra-protection-inbox-phone-title = Proteção extra para a sua caixa de entrada e telefone
+first-time-user-email-extra-protection-inbox-title = Proteção adicional para a sua caixa de entrada
+first-time-user-email-extra-protection-inbox-phone-title = Proteção adicional para a sua caixa de entrada e telefone
 first-time-user-email-extra-protection-inbox-subhead = Atualize para o { -brand-name-relay-premium } para obter máscaras de correio eletrónico ilimitadas, um domínio { -brand-name-relay } personalizado e controlos de caixa de entrada personalizados.
 first-time-user-email-extra-protection-inbox-phone-subhead = Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas — mais uma máscara de telefone para proteger o seu número real.
 first-time-user-email-extra-protection-cta = Obter o { -brand-name-relay-premium }
@@ -318,20 +318,20 @@ first-time-user-email-questions-title = Questões sobre o { -brand-name-firefox-
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = A nossa <a href="{ $url }" { $attrs }>equipa de apoio</a> está aqui para ajudar.
 first-time-user-email-questions-subhead-text = A nossa equipa de apoio está aqui para ajudar.
-first-time-user-email-footer-text-1 = Está a receber este e-mail automático como um subscritor da { -brand-name-firefox-relay } que utilizou o { -brand-name-relay } pela primeira vez. Se o recebeu por erro, nenhuma ação é necessária.
+first-time-user-email-footer-text-1 = Está a receber este e-mail automático como um subscritor do { -brand-name-firefox-relay } que utilizou o { -brand-name-relay } pela primeira vez. Se o recebeu por erro, nenhuma ação é necessária.
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
-first-time-user-email-footer-text-2-html = Para mais informação, por favor visite o <a href="{ $url }" { $attrs }>Apoio da { -brand-name-mozilla }</a>.
-first-time-user-email-footer-text-2-text = Para mais informação, por favor visite o Apoio da { -brand-name-mozilla }.
-first-time-user-email-footer-text-legal = Informação legal
+first-time-user-email-footer-text-2-html = Para mais informação, visite o <a href="{ $url }" { $attrs }>Apoio da { -brand-name-mozilla }</a>.
+first-time-user-email-footer-text-2-text = Para mais informação, visite o Apoio da { -brand-name-mozilla }.
+first-time-user-email-footer-text-legal = Informação jurídica
 first-time-user-email-footer-text-privacy = Termos e privacidade
 
 ## API error messages
 
 # Variables:
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
-api-error-free-tier-limit = Utilizou todas as { $free_tier_limit } máscaras de e-mail incluídas com a sua conta gratuita. Pode reutilizar uma máscara existente, mas utilizar uma máscara única para cada conta é a opção mais segura.
+api-error-free-tier-limit = Utilizou todas as { $free_tier_limit } máscaras de e-mail incluídas na sua conta gratuita. Pode reutilizar uma máscara existente, mas utilizar uma máscara única para cada conta é a opção mais segura.
 api-error-free-tier-no-subdomain-masks = A sua conta gratuita não inclui subdomínios personalizados para máscaras. Para criar máscaras personalizadas, atualize para o { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
