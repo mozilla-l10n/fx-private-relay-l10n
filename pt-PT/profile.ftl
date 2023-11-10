@@ -60,28 +60,28 @@ profile-label-enable-forwarding-button-2 = Ativar encaminhamento de e-mail para 
 profile-label-click-to-copy = Clique para copiar
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueado
-profile-label-forwarded = Reencaminhada
+profile-label-forwarded = Reencaminhado
 profile-label-replies = Respostas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Rastreadores removidos
-profile-trackers-removed-tooltip-part1 = Com a remoção de rastreadores ativada, rastreadores de e-mail comuns serão removidos dos seus e-mails encaminhados.
-profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> Remover rastreadores pode fazer com que o seu e-mail pareça danificado porque os rastreadores estão, muitas vezes, dentro de imagens e ligações.
+profile-trackers-removed-tooltip-part1 = Com a remoção de rastreadores ativada, os rastreadores de e-mail comuns serão removidos dos seus e-mails reencaminhados.
+profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> a remoção de rastreadores pode fazer com que o seu e-mail pareça danificado porque os rastreadores estão, muitas vezes, dentro de imagens e ligações.
 profile-label-cancel = Cancelar
-profile-blocked-copy-2 = O { -brand-name-firefox-relay } irá apagar as mensagens antes que estas cheguem à sua caixa de entrada quando seleciona o bloqueio para esta máscara.
-profile-forwarded-copy-2 = O { -brand-name-firefox-relay } irá enviar mensagens para a sua caixa de entrada quando seleciona o encaminhamento para esta máscara.
+profile-blocked-copy-2 = O { -brand-name-firefox-relay } irá eliminar as mensagens antes que estas cheguem à sua caixa de entrada quando seleciona o bloqueio para esta máscara.
+profile-forwarded-copy-2 = O { -brand-name-firefox-relay } irá enviar mensagens para a sua caixa de entrada quando seleciona o reencaminhamento para esta máscara.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Atualmente, os e-mails (incluindo anexos) maiores que { email-size-limit } não são suportados e não serão encaminhados.
-profile-forwarded-note-copy-v2 = Email (incluindo anexos) maiores que { email-size-limit } não serão encaminhados.
+profile-forwarded-note-copy-v2 = E-mails (incluindo anexos) maiores que { email-size-limit } não serão encaminhados.
 profile-replies-tooltip = Pode responder a e-mails recebidos através desta máscara e o { -brand-name-firefox-relay } irá continuar a proteger o seu endereço de e-mail verdadeiro.
 profile-stat-learn-more = Saber mais
 profile-stat-learn-more-close = Fechar
 profile-stat-label-blocked = E-mails bloqueados
-profile-stat-label-forwarded = E-mails encaminhados
+profile-stat-label-forwarded = E-mails reencaminhados
 profile-stat-label-aliases-used-2 = Máscaras de e-mail utilizadas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Rastreadores removidos
-profile-stat-label-trackers-learn-more-part1 = Ativar a remoção do rastreador irá remover os rastreadores de e-mail mais comuns dos seus e-mails encaminhados.
-profile-stat-label-trackers-learn-more-part2-2 = Importante: Remover rastreadores pode fazer com que o seu e-mail pareça com problemas porque os rastreadores muitas vezes estão dentro de imagens e ligações.
+profile-stat-label-trackers-learn-more-part1 = Ativar a remoção do rastreador irá remover os rastreadores de e-mail mais comuns dos seus e-mails reencaminhados.
+profile-stat-label-trackers-learn-more-part2-2 = Importante: a remoção de rastreadores pode fazer com que o seu e-mail pareça danificado porque os rastreadores estão, muitas vezes, dentro de imagens e ligações.
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão atualmente a bloquear a receção de correio eletrónico
@@ -92,41 +92,41 @@ profile-filter-category-option-active-masks = Máscaras de reencaminhamento
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Máscaras de bloqueio
 # Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
-profile-filter-category-option-promo-blocking-masks = Máscaras de bloqueio de promoção
+profile-filter-category-option-promo-blocking-masks = Máscaras de bloqueio de promoções
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Máscaras aleatórias
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
 profile-filter-category-option-custom-masks = Máscaras personalizadas
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Estado da remoção de rastreadores
-profile-indicator-tracker-removal-tooltip = Atualmente a remover rastreadores de e-mail
+profile-indicator-tracker-removal-tooltip = Atualmente a remover rastreadores de e-mails
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = Que e-mails deseja bloquear?
 # Block all emails sent to a speciic mask
-profile-promo-email-blocking-option-all = Tudo
+profile-promo-email-blocking-option-all = Todos
 # Block promotional emails sent to a speciic mask
 profile-promo-email-blocking-option-promotions = Promoções
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Nenhum
 profile-promo-email-blocking-description-all-2 = O { -brand-name-relay } está a bloquear todos os e-mails enviados para esta máscara.
-profile-promo-email-blocking-description-promotionals = O { -brand-name-relay } irá tentar bloquear as mensagens promocionais enquanto ainda reencaminha mensagens tais como recibos e informação de envio.
+profile-promo-email-blocking-description-promotionals = O { -brand-name-relay } irá tentar bloquear as mensagens promocionais mas reencaminhando, ainda assim, mensagens tais como recibos e informação de envio.
 # Deprecated
 profile-promo-email-blocking-description-none-2 = O { -brand-name-relay } não está a bloquear quaisquer e-mails para esta máscara.
 profile-promo-email-blocking-description-none-3 = Todos os e-mails enviados para esta máscara serão encaminhados para o seu endereço real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Bloquear promoções
 # Let's the user know we are blocking promotional emails 
-profile-promo-email-blocking-label-promotionals-2 = A bloquear emails de promoção
+profile-promo-email-blocking-label-promotionals-2 = A bloquear e-mails de promoções
 # Deprecated
 profile-promo-email-blocking-label-none = Bloquear tudo
 profile-promo-email-blocking-label-none-2 = A bloquear todos os emails
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = A reencaminhar todos os e-mails
-profile-promo-email-blocking-label-not-forwarding = Não reencaminhar
-profile-promo-email-blocking-option-promotionals-premiumonly-marker = (Apenas o { -brand-name-premium })
+profile-promo-email-blocking-label-not-forwarding = A não reencaminhar
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (Apenas no { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponível para subscritores do { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Atualizar agora
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Junte-se à lista de espera do { -brand-name-relay-premium }
@@ -140,7 +140,7 @@ profile-promo-email-blocking-description-promotionals-locked-close = Fechar
 profile-maxed-aliases-tooltip = Utilizou todas as { $limit } máscaras. Pode reutilizá-las, mas utilizar uma máscara única para cada conta é a opção mais segura.
 profile-maxed-aliases-with-phone-header = Maximize a sua proteção do seu correio eletrónico e telemóvel
 profile-maxed-aliases-without-phone-header = Maximize a proteção do seu e-mail no { -brand-name-relay }
-profile-maxed-aliases-with-phone-description = Atingiu o limite de { $limit }-máscaras na sua conta gratuita { -brand-name-relay }. Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas, mais a capacidade de proteger o seu número de telefone.
-profile-maxed-aliases-without-phone-description = Atingiu o limite de { $limit }-máscaras na sua conta gratuita { -brand-name-relay }. Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas.
+profile-maxed-aliases-with-phone-description = Atingiu o limite de { $limit } máscaras na sua conta gratuita do { -brand-name-relay }. Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas, mais a capacidade de proteger o seu número de telefone.
+profile-maxed-aliases-without-phone-description = Atingiu o limite de { $limit } máscaras na sua conta gratuita { -brand-name-relay }. Atualize para o { -brand-name-relay-premium } para máscaras de e-mail ilimitadas.
 profile-maxed-aliases-cta = Atualizar para o { -brand-name-premium }
 profile-label-set-your-custom-domain-free-user = Obtenha o seu próprio domínio de e-mail com o { -brand-name-premium }

@@ -11,14 +11,14 @@ settings-meta-contact-tooltip = Entre em contacto sobre o { -brand-name-relay }
 settings-meta-help-label = Ajuda e apoio
 settings-meta-help-tooltip = Obter ajuda na utilização do { -brand-name-relay }
 settings-meta-status-label = Estado do serviço
-settings-meta-status-tooltip = Verificar se todos os sistemas { -brand-name-relay } estão atualmente operacionais.
+settings-meta-status-tooltip = Verificar se todos os sistemas do { -brand-name-relay } estão atualmente operacionais.
 settings-error-save-heading = A alteração das definições falhou
 settings-error-save-description = As suas alterações às definições não foram guardadas devido a um erro de ligação. Por favor, tente novamente.
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = A função de etiqueta de máscara de e-mail está desativada
+settings-warning-collection-off-heading-2 = A função de rotulagem de máscaras de e-mail está desativada
 settings-warning-collection-off-heading-3 = Os nomes das suas contas de máscara de e-mail estão desativadas
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = Atualmente, o { -brand-name-relay } não tem permissão para recolher os dados que mostram os sites onde você gerou e utilizou máscaras de e-mail. Pode alterar isto nas “Definições” em “Recolha de dados”.
+settings-warning-collection-off-description-2 = Atualmente, o { -brand-name-relay } não tem permissão para recolher os dados que mostram os sites onde você gerou e utilizou máscaras de e-mail. Pode alterar isto nas “Definições”, em “Recolha de dados”.
 settings-warning-collection-off-description-3 = Atualmente, o { -brand-name-relay } não tem permissão para rotular as suas máscaras de e-mail com os sites onde as utilizou. Para mudar isto, ative os nomes das contas para as máscaras de e-mail em “Privacidade”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacidade
