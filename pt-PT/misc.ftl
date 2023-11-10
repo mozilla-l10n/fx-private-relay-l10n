@@ -273,7 +273,7 @@ manage-your-masks = Gerir as suas máscaras
 first-time-user-email-welcome = Bem-vindo(a) ao { -brand-name-firefox-relay }
 first-time-user-email-preheader = Máscaras de e-mail para proteger a sua identidade
 first-time-user-email-welcome-subhead = O seu endereço de e-mail pode ser utilizado para o monitorizar na Internet – estamos aqui para ajudar a acabar com isto.
-first-time-user-email-hero-primary-text = Como utilizador do { -brand-name-firefox }, tem 5 máscaras de correio eletrónico gratuitas. Utilize-os para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que pretende para a sua caixa de entrada.
+first-time-user-email-hero-primary-text = Como utilizador do { -brand-name-firefox }, tem 5 máscaras de correio eletrónico gratuitas. Utilize-as para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que quiser para a sua caixa de entrada.
 first-time-user-email-hero-secondary-text = Faça a gestão de todas as suas máscaras a partir do seu painel do { -brand-name-relay }.
 first-time-user-email-hero-cta = Ver o seu painel
 
@@ -285,28 +285,28 @@ what-can-you-do-with-relay-title = O que pode fazer com o { -brand-name-firefox-
 what-can-you-do-with-relay-point-one = Obtenha e-mails sem revelar o seu endereço de e-mail real aos remetentes
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Em vez disso, apenas partilhe uma máscara de e-mail. As máscaras de e-mail irão encaminhar mensagens para a sua caixa de entrada. Pode criar máscaras diretamente no { -brand-name-firefox }, com a <a { $attrs }>extensão { -brand-name-relay }</a>, ou no seu painel de { -brand-name-relay } .
+what-can-you-do-with-relay-point-one-subpoint-html = Em vez disso, apenas partilhe uma máscara de e-mail. As máscaras de e-mail irão encaminhar mensagens para a sua caixa de entrada. Pode criar máscaras diretamente no { -brand-name-firefox }, com a <a { $attrs }>extensão { -brand-name-relay }</a>, ou no seu painel do { -brand-name-relay } .
 what-can-you-do-with-relay-point-two = Impeça que os sites e os remetentes de spam monitorizem facilmente quem é
-what-can-you-do-with-relay-point-two-subpoint = Os rastreadores de e-mail estão por todo o lado atualmente. As máscaras de e-mail do { -brand-name-relay } ajudam-no a mantê-los a adivinhar.
-what-can-you-do-with-relay-point-three = Impeça o spam de chegar à sua caixa de entrada e até desative as máscaras completamente
+what-can-you-do-with-relay-point-two-subpoint = Os rastreadores de e-mail estão por todo o lado atualmente. As máscaras de e-mail do { -brand-name-relay } ajudam-no a mantê-los sem informação.
+what-can-you-do-with-relay-point-three = Impeça o spam de chegar à sua caixa de entrada e, até, desative as máscaras completamente
 what-can-you-do-with-relay-point-three-subpoint = No painel do { -brand-name-relay }, pode criar máscaras, etiquetar as mesmas para indicar onde as utiliza, ativar o bloqueio de spam e eliminar as que já não queira.
-forwarded-email-hero-header = Recebeu o seu primeiro email encaminhado!
-forwarded-email-hero-desc = Vê esse cabeçalho? Irá aparecer em todos os e-mails encaminhados por máscaras { -brand-name-relay }.
+forwarded-email-hero-header = Recebeu o seu primeiro e-mail reencaminhado!
+forwarded-email-hero-desc = Está a ver este cabeçalho? Irá aparecer em todos os e-mails encaminhados por máscaras do { -brand-name-relay }.
 first-time-user-email-how-title = Como é que o { -brand-name-relay } funciona
-first-time-user-email-how-item-1-header = Utilize uma máscara { -brand-name-relay } em vez do seu e-mail real, em todo o lado
+first-time-user-email-how-item-1-header = Utilize uma máscara do { -brand-name-relay } em todo o lado em vez do seu e-mail real
 # Variables
 #   $url (string) - URL of add-on
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-1-subhead-html = Crie máscaras diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>extra { -brand-name-relay }</a> ou no seu { -brand-name-relay } painel.
-first-time-user-email-how-item-1-subhead-text = Crie máscaras diretamente no { -brand-name-firefox }, com o extra { -brand-name-relay }, ou no seu painel do { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-html = Crie máscaras diretamente no { -brand-name-firefox }, com o <a href="{ $url }" { $attrs }>extra do { -brand-name-relay }</a> ou no seu painel do { -brand-name-relay }.
+first-time-user-email-how-item-1-subhead-text = Crie máscaras diretamente no { -brand-name-firefox }, com o extra fo { -brand-name-relay }, ou no seu painel do { -brand-name-relay }.
 first-time-user-email-how-item-2-header = Reencaminharemos todos os emails para a sua caixa de entrada
 first-time-user-email-how-item-2-subhead = Os remetentes nunca irão ver o seu endereço real e pode bloquear as mensagens a qualquer momento.
 first-time-user-email-how-item-3-header = Faça a gestão das suas máscaras a partir do seu painel do { -brand-name-relay }
 # Variables
 #   $url (string) - URL of the dashboard
 #   $attrs (string) - Inline attributes for the link
-first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar novas máscaras, etiquetar as suas máscaras, e eliminar máscaras que recebem spam.
-first-time-user-email-how-item-3-subhead-text = Inicie sessão para criar novas máscaras, rotular as suas máscaras e eliminar as máscaras que recebem spam.
+first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Inicie sessão</a> para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
+first-time-user-email-how-item-3-subhead-text = Inicie sessão para criar novas máscaras, etiquetar as suas máscaras e eliminar as máscaras que recebem spam.
 first-time-user-email-extra-protection-inbox-title = Proteção extra para a sua caixa de entrada
 first-time-user-email-extra-protection-inbox-phone-title = Proteção extra para a sua caixa de entrada e telefone
 first-time-user-email-extra-protection-inbox-subhead = Atualize para o { -brand-name-relay-premium } para obter máscaras de correio eletrónico ilimitadas, um domínio { -brand-name-relay } personalizado e controlos de caixa de entrada personalizados.
