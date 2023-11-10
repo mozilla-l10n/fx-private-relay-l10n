@@ -216,7 +216,7 @@ forwarded-email-header-attachment = O { -brand-name-firefox-relay } suporta o re
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } rastreadores de e-mail removidos
 forwarded-email-trackers-blocked-report = Saber mais
 # This entire text is a link
-forwarded-email-footer-2 = Pare o reencaminhamento de mensagens e gira as configurações para todas as máscaras aqui.
+forwarded-email-footer-2 = Pare o reencaminhamento de mensagens e faça a gestão das definições para todas as máscaras aqui.
 # This entire text is a link
 forwarded-email-footer-premium-banner = Atualizar para o { -brand-name-relay-premium }
 # Variables:
@@ -256,7 +256,7 @@ relay-email-trackers-removed =
 
 # Variables
 #   $sender (string) - the original sender's email address
-first-reply-forwarded = Enviámos esta resposta para { $sender }. Mas, daqui para a frente, as suas respostas não serão enviadas.
+first-reply-forwarded = Enviámos esta resposta para { $sender }. Mas, de ora em diante, as suas respostas não serão enviadas.
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = A sua resposta não foi enviada para { $sender }.
@@ -272,7 +272,7 @@ manage-your-masks = Gerir as suas máscaras
 
 first-time-user-email-welcome = Bem-vindo(a) ao { -brand-name-firefox-relay }
 first-time-user-email-preheader = Máscaras de e-mail para proteger a sua identidade
-first-time-user-email-welcome-subhead = O seu endereço de e-mail pode ser utilizado para o monitorizar na Internet - estamos aqui para ajudar a acabar com o mesmo.
+first-time-user-email-welcome-subhead = O seu endereço de e-mail pode ser utilizado para o monitorizar na Internet – estamos aqui para ajudar a acabar com isto.
 first-time-user-email-hero-primary-text = Como utilizador do { -brand-name-firefox }, tem 5 máscaras de correio eletrónico gratuitas. Utilize-os para ocultar o seu endereço de e-mail real, proteger a sua identidade e reencaminhar apenas as mensagens que pretende para a sua caixa de entrada.
 first-time-user-email-hero-secondary-text = Faça a gestão de todas as suas máscaras a partir do seu painel do { -brand-name-relay }.
 first-time-user-email-hero-cta = Ver o seu painel
