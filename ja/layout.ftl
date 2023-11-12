@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } ではメールアドレスを隠すためのマスクを簡単に作成し、真の受信トレイへメールを転送します。マスクの使用でハッカーや迷惑メールからオンラインアカウントを保護できます。
-
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (新しいタブで開く)
 
@@ -16,13 +16,15 @@ logo-alt = { -brand-name-firefox-relay }
 logo-premium-alt = { -brand-name-firefox-relay-premium }
 nav-menu = メニュー
 nav-home = ホーム
+nav-email-dashboard = メールマスク
+nav-phone-dashboard = 電話番号マスク
 label-open-menu = メニューを開く
 avatar-tooltip = プロファイル
-
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = よくある質問
 nav-profile-sign-in = ログイン
 nav-profile-sign-up = アカウント登録
+# Deprecated
 nav-profile-manage-fxa = { -brand-name-firefox-account(capitalization: "uppercase") } の管理
 nav-profile-sign-out = ログアウト
 nav-profile-sign-out-relay = { -brand-name-relay } からログアウト
@@ -35,7 +37,11 @@ nav-profile-help-tooltip = { -brand-name-relay } のサポートを表示
 nav-profile-contact = お問い合わせ
 # This is only visible to Premium users.
 nav-profile-contact-tooltip = { -brand-name-relay-premium } についての問い合わせ
+# Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } アバター
+nav-duo-description = ダッシュボードの切り替え
+nav-duo-email-mask-alt = メールマスク
+nav-duo-phone-mask-alt = 電話番号マスク
 
 ## Mobile menu text
 
@@ -47,7 +53,6 @@ nav-support = ヘルプとサポート
 nav-sign-out = ログアウト
 nav-contact = お問い合わせ
 nav-menu-mobile = モバイル版メニュー
-
 fx-desktop-2 = デスクトップ版 { -brand-name-firefox }
 fx-mobile-2 = モバイル版 { -brand-name-firefox }
 
@@ -57,6 +62,7 @@ nav-footer-privacy = プライバシー
 nav-footer-relay-terms = { -brand-name-relay } 利用規約
 nav-footer-legal = 法的情報
 nav-footer-release-notes = リリースノート
+nav-footer-stock-photo-legal = このページの画像は iStock から提供されています。© iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub ロゴ
 
@@ -72,4 +78,3 @@ fx-monitor = { -brand-name-firefox-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
 bento-button-close-label = メニューを閉じる
-
