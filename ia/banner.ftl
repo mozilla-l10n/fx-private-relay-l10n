@@ -80,7 +80,7 @@ banner-ab-premium-promo-advanced-identity-headline = Protection de identitate av
 banner-ab-premium-promo-advanced-identity-body = Impedi al traciatores e aggregatores de datos de identificar te via tu numero de telephono e adresse email.
 banner-ab-premium-promo-control-receiver-headline = Controla qui obtene tu numero real
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } te da un masca de telephono pro proteger tu real numero, plus illimitate mascas email.
-banner-ab-premium-promo-extra-protection-headline = Obtene extra protection pro tu cassa de ingresso e tu telephono
+banner-ab-premium-promo-extra-protection-headline = Obtene un protection extra pro tu cassa de entrata e tu telephono
 banner-ab-premium-promo-extra-protection-body = Obtene mascas email illimitate, plus un masca de telephono pro controlar qui obtene tu numero real.
 banner-ab-premium-promo-cta = Promover
 

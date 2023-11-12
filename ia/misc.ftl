@@ -54,7 +54,7 @@ tips-switcher-label = Suggestion { $nr }
 tips-toast-button-expand-label = Pro saper plus
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blocar e-mails promotional
-popover-custom-alias-explainer-promotional-block-tooltip-2 = Activar le blocada de emails promotional sur un masca pro stoppar emails de marketing que attinge tu cassa de ingresso.
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Activa le blocage de e-mail promotional sur un masca pro impedir que le messages de campanias publicitari attinge tu cassa de entrata.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Pro saper plus
 
 ## Tip about using custom masks
@@ -65,7 +65,7 @@ tips-custom-alias-content-2 = Toto lo que tu debe facer es crear e compartir un 
 ## Tip about using custom masks
 
 tips-promo-email-blocking-heading = Blocar e-mails promotional
-tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, tu pote blocar e-mails promotional de attinger tu cassa de ingresso durante que ancora te es permittite reciper e-mails como quitantias o informationes de expedition.
+tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, tu pote impedir que le e-mail promotional attinge tu cassa de entrata durante que tu continua a reciper messages como quitantias o informationes de expedition.
 
 ## Report of trackers removed from an email
 
@@ -96,7 +96,7 @@ trackerreport-confidentiality-notice = Le informationes de traciator e de adress
 trackerreport-removal-explainer-heading = Como functiona le remotion de traciatores
 trackerreport-removal-explainer-content = { -brand-name-firefox-relay } pote ora remover commun traciatores de messages de e-mail reexpedite per medio de tu mascas de e-mail. Tu ancora recipera tu e-mail, ma le traciatores in tu messages reexpedite essera removite de sorta que tu pote reciper tu e-mail sin esser traciate. Pro activar le elimination de traciatores sur tote tu mascas in un sol vice, activa le remotion de traciatores in le parametros e non individualmente pro cata masca.
 trackerreport-trackers-explainer-heading = Re traciatores de email
-trackerreport-trackers-explainer-content-part1 = Le traciamento de emails es un commun instrumento de surveliantia e publicitate que es mantenite super multe cassas de ingresso. Iste traciatores pote esser usate pro comprender plus re tu comportamento online, tu interesses, e tu activitate email.
+trackerreport-trackers-explainer-content-part1 = Le traciamento de e-mail es un instrumento commun de surveliantia e publicitate que ha invadite multe cassas de entrata. Iste traciatores pote esser usate pro ganiar intelligentia sur tu comportamento in linea, tu interesses, e tu activitate de e-mail.
 trackerreport-trackers-explainer-content-part2 = Un compania o organisation incorporara un traciator in emails inviate a te, usualmente celate intra un imagine o un ligamine. Quando le email es aperite, le codice intra le traciator invia datos retro al compania.
 trackerreport-breakage-warning-2 = Importante: le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite in imagines e ligamines. Ulle emails que tu recipe assi non pote esser corrigite o remediate.
 trackerreport-faq-heading = Questiones principal re traciatores de email
@@ -281,7 +281,7 @@ what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse
 what-can-you-do-with-relay-point-one-subpoint-html = Suffice compartir un masca de e-mail. Le mascas de e-mail reexpedira le messages a tu cassa de entrata. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu tabuliero de instrumentos de { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
-what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
+what-can-you-do-with-relay-point-three = Impedi que le spam attinge tu cassa de entrata, e mesmo disactiva completemente le mascas.
 what-can-you-do-with-relay-point-three-subpoint = Sur le quadro de commando de { -brand-name-relay }, tu pote crear mascas, etiquettar los pro notar ubi tu los usa. activar le blocada de spam, e deler toto lo que tu non vole plus.
 forwarded-email-hero-header = Tu ha recipite tu prime message de e-mail reexpedite!
 forwarded-email-hero-desc = Vide tu ille capite? Illo apparera sur tote le messages reexpedite per le mascas { -brand-name-relay }.
@@ -300,9 +300,9 @@ first-time-user-email-how-item-3-header = Gere tu mascas ab le pannello de contr
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Accede</a> pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
 first-time-user-email-how-item-3-subhead-text = Accede pro crear nove mascas, etiquettar tu mascas, e deler mascas que recipe spam.
-first-time-user-email-extra-protection-inbox-title = Extra protection pro tu cassa de ingresso
-first-time-user-email-extra-protection-inbox-phone-title = Extra protection pro tu cassa de ingresso e telephono
-first-time-user-email-extra-protection-inbox-subhead = Promove a { -brand-name-relay-premium } pro obtener illimitate mascas email, un dominio personal de { -brand-name-relay }, e controlos personalisate pro le cassa de ingresso.
+first-time-user-email-extra-protection-inbox-title = Protection extra pro tu cassa de entrata
+first-time-user-email-extra-protection-inbox-phone-title = Protection extra pro tu cassa de entrata e tu telephono
+first-time-user-email-extra-protection-inbox-subhead = Promove a { -brand-name-relay-premium } pro obtener un numero illimitate de mascas de e-mail, un dominio personal de { -brand-name-relay }, e controlos personalisate pro le cassa de entrata.
 first-time-user-email-extra-protection-inbox-phone-subhead = Promove a { -brand-name-relay-premium } pro illimitate mascas email, plus un masca de telephono pro proteger tu numero real.
 first-time-user-email-extra-protection-cta = Abona te a { -brand-name-relay-premium }
 first-time-user-email-questions-title = Questiones re { -brand-name-firefox-relay }?
