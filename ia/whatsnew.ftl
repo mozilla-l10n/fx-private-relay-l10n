@@ -81,5 +81,5 @@ whatsnew-feature-premium-expansion-eu-heading = Mascas illimitate ora disponibil
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } es ora disponibile in tu pais…
-whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } es ora disponibile in tu pais. Protege tu cassa de ingresso con mascas email illimitate, e obtene un dominio email { -brand-name-relay } unic pro render le creation al volo de mascas facile e secur.
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } es ora disponibile in tu pais. Protege tu cassa de entrata con un numero illimitate de mascas de e-mail, e obtene un dominio de e-mail unic de { -brand-name-relay } pro render le creation immediate de mascas facile e secur.
 whatsnew-feature-premium-expansion-eu-cta = Abona te a { -brand-name-relay-premium }

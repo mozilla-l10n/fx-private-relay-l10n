@@ -12,12 +12,12 @@ multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = M
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Meliora tu confidentialitate e securitate con un unic masca pro cata sito
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtene un domino email { -brand-name-relay } unic pro creation instantanee de mascas, facile-a-memorar
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalisate del cassa de ingresso
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalisate del cassa de entrata
 multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controla le typo de e-mail reexpedite a tu cassa de entrata
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Responsas anonyme
 multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Responde a messages reexpedite sin divulgar tu adresse de e-mail real
 multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-relay-premium }
-multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de ingresso, un e-mail cata vice.
+multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de entrata, un e-mail al vice.
 
 ## Step 2 Set Custom Domain
 
