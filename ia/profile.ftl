@@ -64,14 +64,14 @@ profile-label-forwarded = Inviate ultra
 profile-label-replies = Responsas
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = Traciatores removite
-profile-trackers-removed-tooltip-part1 = Con le remotion de traciatores activate, commun traciatores de email sera removite de tu emails inultrate.
+profile-trackers-removed-tooltip-part1 = Con le remotion de traciatores activate, traciatores commun de e-mail essera removite de tu messages reexpedite.
 profile-trackers-removed-tooltip-part2-2 = <b>Importante:</b> le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite intra imagines e ligamines.
 profile-label-cancel = Cancellar
 profile-blocked-copy-2 = { -brand-name-firefox-relay } delera messages ante que illes poter attinger tu cassa de entrata quando tu selige le blocage pro iste masca.
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } inviara messages a tu cassa de entrata quando tu selige le reexpedition pro iste masca.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non es actualmente supportate e non essera reexpedite.
-profile-forwarded-note-copy-v2 = Ulle e-mail (annexos includite) major de { email-size-limit } non sera inultrate.
+profile-forwarded-note-copy-v2 = Messages de e-mail (includite annexos) plus grande de { email-size-limit } non essera reexpedite.
 profile-replies-tooltip = Per iste masca tu pote responder al emails recipite, e { -brand-name-firefox-relay } continuara a proteger tu ver adresse email
 profile-stat-learn-more = Pro saper plus
 profile-stat-learn-more-close = Clauder
@@ -80,7 +80,7 @@ profile-stat-label-forwarded = Emails inviate ultra
 profile-stat-label-aliases-used-2 = Mascas email usate
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Traciatores removite
-profile-stat-label-trackers-learn-more-part1 = Activar le remotion de traciatores removera commun traciatores de email de tu emails inultrate.
+profile-stat-label-trackers-learn-more-part1 = Activar le remotion de traciatores removera le traciatores commun de e-mail de tu messages reexpedite.
 profile-stat-label-trackers-learn-more-part2-2 = Importante: le remotion de traciatores pote causar que tu email appare corrupte perque le traciatores es sovente continite intra imagines e ligamines.
 profile-filter-search-placeholder-2 = Cercar in mascas
 profile-filter-category-button-label = Filtrar le mascas visibile
@@ -88,7 +88,7 @@ profile-filter-category-button-tooltip = Filtra mascas per subdominio e si illos
 profile-filter-category-title = Filtrar le mascas visibile
 profile-filter-no-results = Nulle mascas concorda tu criterios de selection. <clear-button>Clarar tote le filtros.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
-profile-filter-category-option-active-masks = Inultrante mascas
+profile-filter-category-option-active-masks = Mascas con reexpedition active
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Blocante mascas
 # Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".

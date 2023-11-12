@@ -29,9 +29,9 @@ modal-delete-warning-upgrade-2 =
     Si tu usa iste masca pro acceder a sitos que tu cura, 
     tu debe actualisar tu credentiales con un altere adresse email deler isto.
 modal-delete-domain-address-warning-upgrade-2 =
-    Si tu usa iste masca pro acceder a sitos que tu cura,
-    tu debe actualisar tu credentiales con un altere adresse email ante deler lo.
-    Si tu recrea un masca delite, le emails inviate al masca original continuara a esser inultrate.
+    Si tu usa iste masca pro acceder a sitos que te interessa,
+    tu deberea actualisar tu credentiales con un altere adresse de e-mail ante de deler iste.
+    Si tu recrea un masca delite, le messages inviate al masca original continuara a esser reexpedite.
 modal-delete-confirmation-2 = Si, io desira deler iste masca.
 modal-domain-register-good-news = Bon novas!
 modal-domain-register-warning-reminder-2 = Rememora, tu pote registrar solo un subdominio. Tu non potera cambiar lo postea.

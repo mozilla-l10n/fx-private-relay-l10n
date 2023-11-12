@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Benvenite a { -brand-name-relay-premium }
@@ -12,9 +13,9 @@ multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Melio
 multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Crear instantaneemente mascas al volo
 multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtene un domino email { -brand-name-relay } unic pro creation instantanee de mascas, facile-a-memorar
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlos personalisate del cassa de ingresso
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controla le typo de emails inultrate a tu cassa de ingresso
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controla le typo de e-mail reexpedite a tu cassa de entrata
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Responsas anonyme
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Responde a emails inultrate sin compartir tu real adresse email
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Responde a messages reexpedite sin divulgar tu adresse de e-mail real
 multi-part-onboarding-premium-welcome-feature-cta = Configurar { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora tu pote controlar lo que attinge tu cassa de ingresso, un e-mail cata vice.
 
@@ -47,7 +48,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Adder le extension { -
 
 multi-part-onboarding-premium-extension-added = Extension { -brand-name-relay } addite!
 multi-part-onboarding-premium-added-extension-body = Tu non besoniara plus de acceder a { -brand-name-relay } pro generar un nove masca, justo cerca le icone de Relay quando le sitos web quere tu adresse email.
-
 multi-part-onboarding-premium-extension-button-dashboard = Ir al quadro de controlo
 multi-part-onboarding-skip = Saltar, io lo definira plus tarde
 multi-part-onboarding-skip-download-extension = Saltar, io discargara plus tarde le extension
@@ -59,8 +59,4 @@ multi-part-onboarding-reply-headline = Replicar a tu e-mails
 onboarding-premium-title-detail = Con { -brand-name-firefox-relay-premium } tu pote:
 onboarding-premium-reply-description-2 = Besonia tu de responder a emails inviate a un masca? solo replica normalmente, tu masca ancora protegera tu adresse email.
 multi-part-onboarding-premium-reply-description = Responder a emails sin revelar tu real adresse
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Passo { $step } de { $max }.
