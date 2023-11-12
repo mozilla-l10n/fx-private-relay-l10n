@@ -40,11 +40,7 @@ banner-register-subdomain-example-address = tudominio
 
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
-banner-register-subdomain-copy-2 =
-    Con un dominio personalisate, tu pote compartir mascas sin deber generar los
-    ante usar los. Besonia tu un pro un reservation? Da
-    “restaurante@tudominio.{ $mozmail }” al restaurante. Cata alias que usa tu
-     subdominio personal essera inultrate a te.
+banner-register-subdomain-copy-2 = Con un dominio personalisate, tu pote compartir mascas sin necessitate de generar los ante de usar los. Require un adresse pro un reservation? Da “restaurante@tudominio.{ $mozmail }” al restaurante. Tote messages inviate a tote mascas que usa tu subdominio personal essera reexpedite a te.
 banner-choose-subdomain-input-placeholder-3 = Cercar subdominio
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Cercar

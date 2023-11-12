@@ -94,7 +94,7 @@ trackerreport-tracker-count =
     }
 trackerreport-confidentiality-notice = Le informationes de traciator e de adresse monstrate in iste reportos non es salvate per { -brand-name-firefox-relay } e solo continite intra le URLs del reporto.
 trackerreport-removal-explainer-heading = Como functiona le remotion de traciatores
-trackerreport-removal-explainer-content = { -brand-name-firefox-relay } pote ora remover commun traciatores de emails inultrate per tu mascas email. Tu ancora recipera tu emails, ma le traciatores in tu emails inultrate sera removite, assi que tu pote reciper tu emails sin esser traciate. Pro activar le remotion de traciatores sur tote tu mascas contemporaneemente, activa le remotion de traciatores in parametros plus tosto que individualmente pro cata masca.
+trackerreport-removal-explainer-content = { -brand-name-firefox-relay } pote ora remover commun traciatores de messages de e-mail reexpedite per medio de tu mascas de e-mail. Tu ancora recipera tu e-mail, ma le traciatores in tu messages reexpedite essera removite de sorta que tu pote reciper tu e-mail sin esser traciate. Pro activar le elimination de traciatores sur tote tu mascas in un sol vice, activa le remotion de traciatores in le parametros e non individualmente pro cata masca.
 trackerreport-trackers-explainer-heading = Re traciatores de email
 trackerreport-trackers-explainer-content-part1 = Le traciamento de emails es un commun instrumento de surveliantia e publicitate que es mantenite super multe cassas de ingresso. Iste traciatores pote esser usate pro comprender plus re tu comportamento online, tu interesses, e tu activitate email.
 trackerreport-trackers-explainer-content-part2 = Un compania o organisation incorporara un traciator in emails inviate a te, usualmente celate intra un imagine o un ligamine. Quando le email es aperite, le codice intra le traciator invia datos retro al compania.
@@ -236,7 +236,7 @@ relay-email-byline-html = per <a href="{ $url }" { $attrs }>{ -brand-name-firefo
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
 #   $attrs (string) - Inline attributes for the <a> link
-relay-email-forwarded-from-html = Inultrate de <a href="{ $url }" { $attrs }>{ $email_address }</a>
+relay-email-forwarded-from-html = Reexpedite de <a href="{ $url }" { $attrs }>{ $email_address }</a>
 # Variables:
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed =
@@ -253,7 +253,7 @@ first-reply-forwarded = Nos ha inviate iste responsa a { $sender }. Ma movente a
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Tu responsa non ha essite inviate a { $sender }.
-replies-only-available-with-premium = Responder a emails inultrate de tu email mascate es solo disponibile con { -brand-name-firefox-relay-premium }.
+replies-only-available-with-premium = Responder a messages reexpedite desde tu adresse de e-mail mascate es solmente possibile con { -brand-name-firefox-relay-premium }.
 replies-not-included-in-free-account-header = Le responsas non es includite con tu conto gratuite
 reply-not-sent-header = Tu responsa non ha essite inviate
 upgrade-to-reply-to-future-emails = Promove ora pro inviar responsas
