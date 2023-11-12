@@ -111,10 +111,10 @@ profile-promo-email-blocking-option-promotions = Promotiones
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Nulle
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bloca tote le e-mails inviate a iste masca.
-profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tentara de blocar e-mails promotional durante que ancora inultrara e-mails como quitantias e informationes de expedition.
+profile-promo-email-blocking-description-promotionals = { -brand-name-relay } tentara blocar messages promotional durante que reexpedira e-mails como quitantias e informationes de expedition.
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } non bloca alcun emails pro iste masca.
-profile-promo-email-blocking-description-none-3 = Tote le emails inviate a iste adresse sera inultrate a tu adresse real.
+profile-promo-email-blocking-description-none-3 = Tote le emails inviate a iste adresse essera reexpedite a tu adresse real.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blocar promotiones
 # Let's the user know we are blocking promotional emails 
@@ -124,8 +124,8 @@ profile-promo-email-blocking-label-none = Blocar tote
 profile-promo-email-blocking-label-none-2 = Blocante tote le emails
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
-profile-promo-email-blocking-label-forwarding-2 = Inultrante tote le emails
-profile-promo-email-blocking-label-not-forwarding = Non inultrar
+profile-promo-email-blocking-label-forwarding-2 = Reexpedition de tote le e-mail
+profile-promo-email-blocking-label-not-forwarding = Non reexpedir
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = Solo { -brand-name-premium }
 profile-promo-email-blocking-description-promotionals-locked-label = Disponibile al abonatos de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Promover ora
