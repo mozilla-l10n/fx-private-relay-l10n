@@ -266,25 +266,25 @@ manage-your-masks = Gere tu mascas
 first-time-user-email-welcome = Benvenite in { -brand-name-firefox-relay }
 first-time-user-email-preheader = Email mascate pro proteger tu identitate
 first-time-user-email-welcome-subhead = Tu adresse email pote esser usate pro traciar te online, nos es ci pro adjutar a poner fin a illo.
-first-time-user-email-hero-primary-text = Como usator de { -brand-name-firefox }, tu recipe 5 mascas email gratuitemente. Usa los pro celar tu real adresse email, proteger tu identitate, e inultrar solo le emails que tu vole a tu cassa de ingresso.
+first-time-user-email-hero-primary-text = Como usator de { -brand-name-firefox }, tu recipe 5 mascas de e-mail gratuite. Usa los pro celar tu adresse de e-mail real, proteger tu identitate, e reexpedir solmente le messages que tu vole a tu cassa de entrata.
 first-time-user-email-hero-secondary-text = Gere tote tu mascas ab le pannello de controlo de tu { -brand-name-relay }
 first-time-user-email-hero-cta = Vide tu pannello de controlo
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = Nostre promissa a te
-our-promise-content = Le mascas email de { -brand-name-relay } inultra a tu cassa de ingresso tote le message adressate a ille masca, sin revelar al mittente tu real adresse email.
+our-promise-content = Le mascas de e-mail de { -brand-name-relay } reexpedi a tu cassa de entrata tote le messages inviate a ille masca, sin revelar tu real adresse de e-mail al expeditor.
 what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-relay }?
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Basta in vice compartir un masca email. Le mascas email inultrara le emails a tu cassa de ingresso. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu quadro de commando de { -brand-name-relay }.
+what-can-you-do-with-relay-point-one-subpoint-html = Suffice compartir un masca de e-mail. Le mascas de e-mail reexpedira le messages a tu cassa de entrata. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu tabuliero de instrumentos de { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
 what-can-you-do-with-relay-point-three = Bloca le SPAM de attinger tu cassa de ingresso, e mesmo completemente disactiva le mascas.
 what-can-you-do-with-relay-point-three-subpoint = Sur le quadro de commando de { -brand-name-relay }, tu pote crear mascas, etiquettar los pro notar ubi tu los usa. activar le blocada de spam, e deler toto lo que tu non vole plus.
-forwarded-email-hero-header = Tu recipeva tu prime email inultrate!
-forwarded-email-hero-desc = Vide tu ille testa? Illo apparera sur tote le emails inultrate per le mascas { -brand-name-relay }.
+forwarded-email-hero-header = Tu ha recipite tu prime message de e-mail reexpedite!
+forwarded-email-hero-desc = Vide tu ille capite? Illo apparera sur tote le messages reexpedite per le mascas { -brand-name-relay }.
 first-time-user-email-how-title = Como functiona { -brand-name-relay }
 first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in vice que tu real email, ubique
 # Variables
@@ -292,7 +292,7 @@ first-time-user-email-how-item-1-header = Usa un masca { -brand-name-relay } in 
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-1-subhead-html = Crea mascas directemente sur { -brand-name-firefox }, con le <a href="{ $url }" { $attrs }>additivo { -brand-name-relay }</a>, o sur tu pannello de controlo de { -brand-name-relay }.
 first-time-user-email-how-item-1-subhead-text = Crea mascas directemente sur { -brand-name-firefox }, con le additivo de { -brand-name-relay }, o sur tu pannello de controlo de { -brand-name-relay }.
-first-time-user-email-how-item-2-header = Nos inultrara tote le emails a tu cassa de ingresso
+first-time-user-email-how-item-2-header = Nos reexpedira tote le messages a tu cassa de entrata
 first-time-user-email-how-item-2-subhead = Le expeditores non videra jammais tu adresse real, e tu pote blocar messages quando tu vole.
 first-time-user-email-how-item-3-header = Gere tu mascas ab le pannello de controlo de tu { -brand-name-relay }
 # Variables
