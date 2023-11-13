@@ -63,6 +63,7 @@ multi-part-onboarding-premium-reply-description = Reply to emails without giving
 multi-part-onboarding-step-counter = Step { $step } of { $max }.
 
 # New free user onboarding strings (November 8th, 2023)
+
 profile-free-onboarding-welcome-headline = Welcome to { -brand-name-relay }
 profile-free-onboarding-welcome-description = Let’s create a new email mask.
 profile-free-onboarding-welcome-item-headline-1 = Use free email masks to protect your real address
