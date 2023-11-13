@@ -72,5 +72,8 @@ locales = [
 [[paths]]
     reference = "en/whatsnew.ftl"
     l10n = "{locale}/whatsnew.ftl"
-
+[[paths]]
+    reference = "en/onboarding.ftl"
+    l10n = "{locale}/onboarding.ftl"
+    
 
