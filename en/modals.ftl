@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Email masks can only con
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Email masks can only contain lowercase letters, numbers, periods, and hyphens, and may not start or end with a period or hyphen.
 modal-custom-alias-picker-form-submit-label-2 = Generate mask
 modal-custom-alias-picker-creation-error-2 = Your custom email mask could not be manually created. Please try again, or send an email to the mask to create it.
+modal-custom-alias-picker-tip-redesign = Tip: To create a custom mask without having to sign in to { -brand-name-relay }, just add any word or phrase before the @ in your { -brand-name-relay } email domain. The first time anyone emails it, your mask will be created automatically.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Enter text
+error-alias-picker-prefix-invalid-uppercase-letters = No upper case letters  
+error-alias-picker-prefix-invalid-symbols = No symbols except periods or hyphens
+error-alias-picker-prefix-invalid = We couldn’t generate a custom mask with that word or phrase. Please try another one.
+done-msg = Done
+copy-mask = Copy mask
+popover-custom-alias-explainer-promotional-block-checkbox-label = Start blocking promotional emails
+error-state-valid-alt = Valid
+error-state-invalid-alt = Invalid
+close-button-label-alt = Close
 
 modal-rename-alias-saved = Label saved!
 modal-delete-headline-2 = Permanently delete this email mask?
