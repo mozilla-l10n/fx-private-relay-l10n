@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = 马甲邮箱只能包含
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = 马甲邮箱只能包含小写字母、数字、小数点和连字符（-），并且不能以小数点或连字符开头或结尾。
 modal-custom-alias-picker-form-submit-label-2 = 生成马甲
 modal-custom-alias-picker-creation-error-2 = 无法手动创建自定义马甲，请重试，或直接向该马甲邮箱发送邮件即可创建。
+modal-custom-alias-picker-tip-redesign = 提示若要在不登录 { -brand-name-relay } 的情况下创建自定义马甲请在 { -brand-name-relay } 邮箱域名中的 @ 前面添加字符。有任何人第一次发送邮件时会自动创建您的马甲。
+modal-custom-alias-picker-form-prefix-placeholder-redesign = 输入文本
+error-alias-picker-prefix-invalid-uppercase-letters = 没有大写字母
+error-alias-picker-prefix-invalid-symbols = 除了点和连字符外没有其他符号
+error-alias-picker-prefix-invalid = 遇到该字词无法生成自定义马甲。请尝试另一个。
+done-msg = 完成
+copy-mask = 复制马甲
+popover-custom-alias-explainer-promotional-block-checkbox-label = 开始屏蔽营销邮件
+error-state-valid-alt = 有效
+error-state-invalid-alt = 无效
+close-button-label-alt = 关闭
 modal-rename-alias-saved = 标签已保存！
 modal-delete-headline-2 = 确定要永久删除此马甲邮箱吗？
 # Variables:
