@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Les alias de messagerie 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Les alias de messagerie ne peuvent contenir que des lettres minuscules, des chiffres, des points et des traits d’union, et ne peuvent pas commencer ou se terminer par un point ou un trait d’union.
 modal-custom-alias-picker-form-submit-label-2 = Générer l’alias
 modal-custom-alias-picker-creation-error-2 = Votre alias de messagerie personnalisé n’a pas pu être créé manuellement. Veuillez réessayer ou envoyer un e-mail à l’alias pour le créer.
+modal-custom-alias-picker-tip-redesign = Astuce : pour créer un alias personnalisé sans avoir à vous connecter à { -brand-name-relay }, ajoutez simplement n’importe quel mot ou phrase avant le @ dans votre domaine de messagerie { -brand-name-relay }. La première fois que quelqu’un l’enverra par courriel, votre alias sera créé automatiquement.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Saisir du texte
+error-alias-picker-prefix-invalid-uppercase-letters = Pas de lettre majuscule
+error-alias-picker-prefix-invalid-symbols = Aucun symbole sauf des points et des traits d’union
+error-alias-picker-prefix-invalid = Impossible de générer un alias personnalisé avec ce mot ou cette expression. Veuillez en essayer un autre.
+done-msg = Terminé
+copy-mask = Copier l’alias
+popover-custom-alias-explainer-promotional-block-checkbox-label = Commencez à bloquer les e-mails promotionnels
+error-state-valid-alt = Valide
+error-state-invalid-alt = Invalide
+close-button-label-alt = Fermer
 modal-rename-alias-saved = Nom enregistré !
 modal-delete-headline-2 = Supprimer définitivement cet alias de messagerie ?
 # Variables:
