@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Topeng surel hanya dapat
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Masker email hanya dapat berisi huruf kecil, angka, titik, dan tanda hubung, dan tidak boleh dimulai atau diakhiri dengan titik atau tanda hubung.
 modal-custom-alias-picker-form-submit-label-2 = Buat topeng
 modal-custom-alias-picker-creation-error-2 = Topeng surel kustom Anda tidak dapat dibuat secara manual. Silakan coba lagi, atau kirim surel ke topeng untuk membuatnya.
+modal-custom-alias-picker-tip-redesign = Kiat: Untuk membuat topeng kustom tanpa harus masuk ke { -brand-name-relay }, cukup tambahkan kata atau frasa sebelum @ di domain surel { -brand-name-relay } Anda. Pertama kali seseorang mengirim surel, topeng Anda akan dibuat secara otomatis.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Masukkan teks
+error-alias-picker-prefix-invalid-uppercase-letters = Tidak ada huruf besar
+error-alias-picker-prefix-invalid-symbols = Tidak ada simbol kecuali titik atau tanda hubung
+error-alias-picker-prefix-invalid = Kami tidak dapat membuat topeng kustom dengan kata atau frasa tersebut. Silakan coba yang lain.
+done-msg = Selesai
+copy-mask = Salin topeng
+popover-custom-alias-explainer-promotional-block-checkbox-label = Mulai blokir surel promosi
+error-state-valid-alt = Sah
+error-state-invalid-alt = Tidak sah
+close-button-label-alt = Tutup
 modal-rename-alias-saved = Label disimpan!
 modal-delete-headline-2 = Hapus topeng surel ini secara permanen?
 # Variables:
