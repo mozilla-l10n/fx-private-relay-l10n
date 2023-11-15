@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = 轉寄信箱名稱僅可
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = 轉寄信箱名稱僅可包含小寫字母、數字、小數點、連字號（－），且小數點與連字號不可位於開頭或結尾。
 modal-custom-alias-picker-form-submit-label-2 = 產生轉寄信箱
 modal-custom-alias-picker-creation-error-2 = 無法手動建立您的自訂轉寄信箱，請再試一次，或直接寄信到該轉寄信箱即可建立。
+modal-custom-alias-picker-tip-redesign = 小秘訣: 若要不用登入 { -brand-name-relay } 只要在 @ 前面加入您 { -brand-name-relay } 郵件網域中的任何文字或詞組即可建立自訂轉寄信箱。當第一次有人寄信時會自動建立您的轉寄信箱。
+modal-custom-alias-picker-form-prefix-placeholder-redesign = 請輸入文字
+error-alias-picker-prefix-invalid-uppercase-letters = 沒有大寫字母
+error-alias-picker-prefix-invalid-symbols = 除小數點或連字號以外不得使用任何符號
+error-alias-picker-prefix-invalid = 無法產生含有該字或詞組的自訂轉寄信箱。請試試另一個。
+done-msg = 完成
+copy-mask = 複製轉寄信箱
+popover-custom-alias-explainer-promotional-block-checkbox-label = 開始封鎖行銷郵件
+error-state-valid-alt = 驗證成功
+error-state-invalid-alt = 不正確
+close-button-label-alt = 關閉
 modal-rename-alias-saved = 已儲存標籤！
 modal-delete-headline-2 = 確定要永久刪除這組轉寄信箱嗎？
 # Variables:
