@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Az e-mail-maszkok csak k
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Az e-mail-maszkok csak kisbetűket, számokat, pontokat és kötőjeleket tartalmazhatnak, és nem kezdődhetnek vagy végződhetnek ponttal illetve kötőjellel.
 modal-custom-alias-picker-form-submit-label-2 = Maszk előállítása
 modal-custom-alias-picker-creation-error-2 = Az egyéni e-mail-maszk nem hozható létre kézileg. Próbálja újra, vagy küldjön egy e-mailt a maszkra a létrehozásához.
+modal-custom-alias-picker-tip-redesign = Tipp: Ha a { -brand-name-relay }be történő bejelentkezés nélkül szeretne egyéni maszkot létrehozni, csak adjon hozzá bármilyen szót vagy kifejezést a @ elé a { -brand-name-relay } e-mail-tartományában. Amikor valaki először küld e-mailt, a maszk automatikusan létrejön.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Írjon be szöveget
+error-alias-picker-prefix-invalid-uppercase-letters = Ne legyenek nagybetűk
+error-alias-picker-prefix-invalid-symbols = Nincsenek szimbólumok, a pontokon és a kötőjeleken kívül
+error-alias-picker-prefix-invalid = Nem tudtunk egyéni maszkot létrehozni ezzel a szóval vagy kifejezéssel. Próbálkozzon másikkal.
+done-msg = Kész
+copy-mask = Maszk másolása
+popover-custom-alias-explainer-promotional-block-checkbox-label = Kezdje el a promóciós levelek blokkolását
+error-state-valid-alt = Érvényes
+error-state-invalid-alt = Érvénytelen
+close-button-label-alt = Bezárás
 modal-rename-alias-saved = Címke mentve!
 modal-delete-headline-2 = Véglegesen törli ezt az e-mail-maszkot?
 # Variables:
