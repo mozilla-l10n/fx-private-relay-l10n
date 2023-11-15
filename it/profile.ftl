@@ -118,7 +118,7 @@ profile-promo-email-blocking-description-none-3 = Tutte le email inviate a quest
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blocca le pubblicità
 # Let's the user know we are blocking promotional emails 
-profile-promo-email-blocking-label-promotionals-2 = Blocco email promozionali
+profile-promo-email-blocking-label-promotionals-2 = Blocco email pubblicitarie
 # Deprecated
 profile-promo-email-blocking-label-none = Blocca tutto
 profile-promo-email-blocking-label-none-2 = Blocco di tutte le email

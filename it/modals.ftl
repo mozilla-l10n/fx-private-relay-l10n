@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Gli alias email possono 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Gli alias email possono contenere solo lettere minuscole, numeri, punti e trattini e non possono iniziare o terminare con un punto o un trattino.
 modal-custom-alias-picker-form-submit-label-2 = Genera alias
 modal-custom-alias-picker-creation-error-2 = Impossibile creare manualmente il tuo alias personalizzato. Riprova o invia un’email all’alias per crearlo.
+modal-custom-alias-picker-tip-redesign = Suggerimento: per creare un alias personalizzato senza bisogno di accedere a { -brand-name-relay }, aggiungi una parola o una frase prima di @ nel tuo dominio email { -brand-name-relay }. La prima volta che qualcuno ti invia un’email, l’alias verrà creato automaticamente.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Inserisci testo
+error-alias-picker-prefix-invalid-uppercase-letters = Lettere maiuscole non consentite
+error-alias-picker-prefix-invalid-symbols = Nessun simbolo tranne punti o trattini
+error-alias-picker-prefix-invalid = Non è stato possibile generare un alias personalizzato con questa parola o frase. Prova con un testo diverso.
+done-msg = Fatto
+copy-mask = Copia alias
+popover-custom-alias-explainer-promotional-block-checkbox-label = Inizia a bloccare le email pubblicitarie
+error-state-valid-alt = Valido
+error-state-invalid-alt = Non valido
+close-button-label-alt = Chiudi
 modal-rename-alias-saved = Etichetta salvata.
 modal-delete-headline-2 = Eliminare definitivamente questo alias?
 # Variables:
