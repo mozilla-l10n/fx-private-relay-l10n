@@ -18,9 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E‑mailové masky môž
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E‑mailové masky môžu obsahovať iba malé písmená, čísla, bodky a spojovníky a nesmú začínať ani končiť bodkou alebo spojovníkom.
 modal-custom-alias-picker-form-submit-label-2 = Vytvoriť masku
 modal-custom-alias-picker-creation-error-2 = Vašu vlastnú masku nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e‑mail na masku, aby ste ju vytvorili.
+modal-custom-alias-picker-tip-redesign = Tip: ak chcete vytvoriť vlastnú masku bez toho, aby ste sa museli prihlasovať do služby { -brand-name-relay }, stačí pridať akékoľvek slovo alebo frázu pred znak @ vo vašej e‑mailovej doméne služby { -brand-name-relay }. Keď na adresu niekto pošle prvý e‑mail, vaša maska sa vytvorí automaticky.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Zadajte text
 error-alias-picker-prefix-invalid-uppercase-letters = Žiadne veľké písmená
 error-alias-picker-prefix-invalid-symbols = Žiadne symboly okrem bodiek alebo pomlčiek
+error-alias-picker-prefix-invalid = Nepodarilo sa nám vygenerovať vlastnú masku s použitím zadaného slova alebo vety. Skúste zadať iné.
+done-msg = Hotovo
+copy-mask = Skopírovať masku
+popover-custom-alias-explainer-promotional-block-checkbox-label = Začať blokovať marketingové e‑maily
+error-state-valid-alt = Platná
+error-state-invalid-alt = Neplatná
+close-button-label-alt = Zavrieť
 modal-rename-alias-saved = Štítok uložený!
 modal-delete-headline-2 = Chcete natrvalo odstrániť túto e‑mailovú masku?
 # Variables:
