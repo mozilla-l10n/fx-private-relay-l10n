@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E-Mail-Masken dürfen nu
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-Mail-Masken dürfen nur Kleinbuchstaben, Zahlen Punkte und Bindestriche enthalten und dürfen nicht mit einem Punkt oder Bindestrich beginnen oder enden.
 modal-custom-alias-picker-form-submit-label-2 = Maske erzeugen
 modal-custom-alias-picker-creation-error-2 = Ihre benutzerdefinierte Maske konnte nicht manuell erstellt werden. Bitte versuchen Sie es erneut oder senden Sie eine E-Mail an die Maske, um sie zu erstellen.
+modal-custom-alias-picker-tip-redesign = Tipp: Um eine benutzerdefinierte Maske zu erstellen, ohne sich bei { -brand-name-relay } anzumelden, fügen Sie einfach ein beliebiges Wort oder einen Ausdruck vor dem @ in Ihrer { -brand-name-relay }-E-Mail-Domain ein. Wenn jemand zum ersten Mal eine E-Mail an diese Adresse sendet, wird Ihre Maske automatisch erstellt.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Text eingeben
+error-alias-picker-prefix-invalid-uppercase-letters = Keine Großbuchstaben
+error-alias-picker-prefix-invalid-symbols = Keine Symbole außer Punkten oder Bindestrichen
+error-alias-picker-prefix-invalid = Wir konnten mit diesem Wort oder diesem Ausdruck keine benutzerdefinierte Maske erzeugen. Bitte versuchen Sie es mit einem anderen.
+done-msg = Fertig
+copy-mask = Maske kopieren
+popover-custom-alias-explainer-promotional-block-checkbox-label = Werbe-E-Mails ab sofort blockieren
+error-state-valid-alt = Gültig
+error-state-invalid-alt = Ungültig
+close-button-label-alt = Schließen
 modal-rename-alias-saved = Beschriftung gespeichert!
 modal-delete-headline-2 = Diese E-Mail-Maske endgültig löschen?
 # Variables:
