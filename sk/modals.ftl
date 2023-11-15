@@ -18,6 +18,9 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E‑mailové masky môž
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E‑mailové masky môžu obsahovať iba malé písmená, čísla, bodky a spojovníky a nesmú začínať ani končiť bodkou alebo spojovníkom.
 modal-custom-alias-picker-form-submit-label-2 = Vytvoriť masku
 modal-custom-alias-picker-creation-error-2 = Vašu vlastnú masku nebolo možné vytvoriť manuálne. Skúste to znova alebo pošlite e‑mail na masku, aby ste ju vytvorili.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Zadajte text
+error-alias-picker-prefix-invalid-uppercase-letters = Žiadne veľké písmená
+error-alias-picker-prefix-invalid-symbols = Žiadne symboly okrem bodiek alebo pomlčiek
 modal-rename-alias-saved = Štítok uložený!
 modal-delete-headline-2 = Chcete natrvalo odstrániť túto e‑mailovú masku?
 # Variables:
