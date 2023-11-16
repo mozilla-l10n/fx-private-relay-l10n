@@ -18,6 +18,13 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Mascas email pote solo c
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Mascas email pote solo continer litteras minusculas, numeros, punctos e lineettas, e non pote initiar o finir con un puncto o tracto de union.
 modal-custom-alias-picker-form-submit-label-2 = Generar masca
 modal-custom-alias-picker-creation-error-2 = Tu masca email personal non pote esser create manualmente. Retenta, o invia un email al masca pro crear lo.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Insere texto
+error-alias-picker-prefix-invalid-uppercase-letters = Sin litteras majuscule
+done-msg = Facite
+copy-mask = Copiar masca
+error-state-valid-alt = Valide
+error-state-invalid-alt = Non valide
+close-button-label-alt = Clauder
 modal-rename-alias-saved = Etiquetta salvate!
 modal-delete-headline-2 = Deler permanentemente iste masca email?
 # Variables:
