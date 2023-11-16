@@ -18,6 +18,12 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Οι μάσκες email 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Οι μάσκες email μπορούν να περιέχουν μόνο πεζά γράμματα, αριθμούς, τελείες και παύλες και δεν μπορούν να ξεκινούν ή να τελειώνουν με τελεία ή παύλα.
 modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 modal-custom-alias-picker-creation-error-2 = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένης μάσκας email. Παρακαλώ δοκιμάστε ξανά ή στείλτε ένα email στη μάσκα για να δημιουργηθεί.
+error-alias-picker-prefix-invalid-uppercase-letters = Όχι κεφαλαία γράμματα
+copy-mask = Αντιγραφή μάσκας
+popover-custom-alias-explainer-promotional-block-checkbox-label = Έναρξη αποκλεισμού διαφημιστικών email
+error-state-valid-alt = Έγκυρο
+error-state-invalid-alt = Μη έγκυρο
+close-button-label-alt = Κλείσιμο
 modal-rename-alias-saved = Η ετικέτα αποθηκεύτηκε!
 modal-delete-headline-2 = Οριστική διαγραφή μάσκας email;
 # Variables:
