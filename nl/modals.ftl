@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers mogen alle
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailmaskers mogen alleen kleine letters, cijfers, punten en koppeltekens bevatten en mogen niet beginnen of eindigen met een punt of een koppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker aanmaken
 modal-custom-alias-picker-creation-error-2 = Uw aangepaste masker kan niet handmatig worden gemaakt. Probeer het opnieuw of stuur een e-mailbericht naar het masker om het aan te maken.
+modal-custom-alias-picker-tip-redesign = Tip: om een aangepast masker te maken zonder dat u zich hoeft aan te melden bij { -brand-name-relay }, voegt u gewoon een woord of woordgroep toe voor de @ in uw { -brand-name-relay }-e-maildomein. De eerste keer dat iemand er een e-mailbericht naar stuurt, wordt uw masker automatisch aangemaakt.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Voer tekst in
+error-alias-picker-prefix-invalid-uppercase-letters = Geen hoofdletters
+error-alias-picker-prefix-invalid-symbols = Geen symbolen behalve punten of afbreektekens
+error-alias-picker-prefix-invalid = We konden geen aangepast masker genereren met dat woord of die zin. Probeer een ander.
+done-msg = Gereed
+copy-mask = Masker kopiëren
+popover-custom-alias-explainer-promotional-block-checkbox-label = Starten met reclameberichten blokkeren
+error-state-valid-alt = Geldig
+error-state-invalid-alt = Ongeldig
+close-button-label-alt = Sluiten
 modal-rename-alias-saved = Label opgeslagen!
 modal-delete-headline-2 = Dit masker definitief verwijderen?
 # Variables:
