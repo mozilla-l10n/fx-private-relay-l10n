@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E-postalias kan bara inn
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-postalias kan bara innehålla små bokstäver, siffror, punkter och bindestreck och får inte börja eller sluta med punkt eller bindestreck.
 modal-custom-alias-picker-form-submit-label-2 = Generera e-postalias
 modal-custom-alias-picker-creation-error-2 = Ditt anpassade e-postalias kunde inte skapas manuellt. Försök igen eller skicka ett e-postmeddelande till ditt alias för att skapa det.
+modal-custom-alias-picker-tip-redesign = Tips: För att skapa ett anpassat alias utan att behöva logga in på { -brand-name-relay }, lägg bara till ett ord eller en fras före @ i din e-postdomän { -brand-name-relay }. Första gången någon mejlar den skapas ditt alias automatiskt.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Skriv text
+error-alias-picker-prefix-invalid-uppercase-letters = Inga versaler
+error-alias-picker-prefix-invalid-symbols = Inga symboler förutom punkter eller bindestreck
+error-alias-picker-prefix-invalid = Vi kunde inte skapa ett anpassat alias med det ordet eller frasen. Försök med något annat.
+done-msg = Klar
+copy-mask = Kopiera alias
+popover-custom-alias-explainer-promotional-block-checkbox-label = Börja blockera reklammeddelanden
+error-state-valid-alt = Giltig
+error-state-invalid-alt = Ogiltig
+close-button-label-alt = Stäng
 modal-rename-alias-saved = Etikett sparad!
 modal-delete-headline-2 = Vill du radera detta e-postalias permanent?
 # Variables:
