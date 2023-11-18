@@ -11,3 +11,16 @@
 -brand-name-firefox = Firefox
 -brand-name-firefox-relay = Firefox Relay
 -brand-name-relay = Relay
+-brand-name-firefox-browser = Firefox توركۆرگۈ
+-brand-name-mozilla = Mozilla
+-brand-name-vpn = VPN
+-brand-name-mozilla-vpn = Mozilla VPN
+-brand-name-mozilla-privacy-pack = Mozilla شەخسىيەت بوغچىسى
+# Deprecated
+-brand-name-firefox-account =
+    { $capitalization ->
+        [uppercase] Firefox ھېسابات
+       *[lowercase] Firefox ھېسابات
+    }
+-brand-name-chrome = Chrome
+-brand-name-google-chrome = Google Chrome
