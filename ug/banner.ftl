@@ -5,6 +5,7 @@
 
 ## Banner Messages (displayed on the profile page)
 
+banner-dismiss = بولدىلا
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
