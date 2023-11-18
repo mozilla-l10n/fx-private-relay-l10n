@@ -22,12 +22,39 @@ avatar-tooltip = تەرجىمىھال
 nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
 nav-profile-sign-up = تىزىملىتىڭ
+nav-profile-sign-out-confirm = راستىنلا تىزىمدىن چىقامسىز؟
+nav-profile-settings = تەڭشەكلەر
+nav-profile-settings-tooltip = { -brand-name-firefox-relay } سەپلەڭ
+nav-profile-help = ياردەم ۋە قوللاش
+nav-profile-help-tooltip = { -brand-name-relay } ئىشلىتىش ياردىمى
+# This is only visible to Premium users.
+nav-profile-contact = بىز بىلەن ئالاقىلىشىڭ
+# Deprecated
+nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } سىما
+nav-profile-image-alt-v2 = ھېسابات سىماسى
+nav-duo-description = باشقۇرۇش تاختىسىنى ئالماشتۇر
+nav-duo-email-mask-alt = ئېلخەت نىقابى
+nav-duo-phone-mask-alt = تېلېفون نىقابى
 
 ## Mobile menu text
 
+menu-upgrade-button = يۈكسەلت
+menu-toggle-open = تىزىملىك ئاچ
+menu-toggle-close = تىزىملىكنى ياپ
+nav-settings = تەڭشەكلەر
+nav-support = ياردەم ۋە قوللاش
+nav-sign-out = تىزىمدىن چىق
+nav-contact = بىز بىلەن ئالاقىلىشىڭ
+nav-menu-mobile = كۆچمە تىزىملىك
+fx-desktop-2 = { -brand-name-firefox } ئۈستەل نەشرى
+fx-mobile-2 = { -brand-name-firefox } كۆچمە نەشرى
 
 ## Footer
 
+nav-footer-privacy = شەخسىيەت
+nav-footer-relay-terms = { -brand-name-relay } شەرتلىرى
+nav-footer-legal = قانۇنلۇق
+nav-footer-release-notes = تارقىتىش ئۇقتۇرۇشى
 
 ## Bento Menu
 
