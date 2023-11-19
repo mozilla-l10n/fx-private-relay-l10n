@@ -11,10 +11,17 @@ banner-download-firefox-cta = { -brand-name-firefox } چۈشۈر
 banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = مەشغۇلات باسقۇچى
+# This string is used in the example subdomain mask. Keep it lowercase and
+# without spaces, to resemble an actual email address, and make sure it’s
+# translated consistently across other strings.
+banner-register-subdomain-example-address = دائىرە ئىسمى
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
 
+banner-choose-subdomain-input-placeholder-3 = تارماق دائىرە ئىسمى ئىزدە
+# This is the “call to action” text on the submit button of subdomain registration form.
+banner-register-subdomain-button-search = ئىزدە
 banner-pack-upgrade-cta = ھازىر يېڭىلا
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = شەخسىيەت ئۇقتۇرۇشى يېڭىلاندى
@@ -26,7 +33,14 @@ banner-label-data-notification-header-v2 = يېڭى ئىقتىدارنى قوز�
 banner-label-data-notification-body-cta = تەپسىلاتى
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = شەخسىيىتىڭىزنى قوغداپ، ئىنتېرنېتنى قۇتقۇزىدۇ
+banner-upgrade-loyalist-cta = تېخىمۇ كۆپ قوغداشقا ئېرىشىڭ
 banner-offer-end-cta = ھازىر يېڭىلا
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = ئەخلەت ئېلخەت، ئاپتوماتىك تېلېفون ۋە ئەخلەت قىسقا ئۇچۇرلارنى توسىدۇ
+banner-ab-premium-promo-advanced-identity-headline = ئالىي كىملىك قوغداش
+banner-ab-premium-promo-advanced-identity-body = ئىزلىغۇچىلار ۋە ئۇچۇر توپلىغۇچىلارنىڭ تېلېفون نومۇرىڭىز ۋە ئېلخەت ئادرېسىڭىز ئارقىلىق سىزنى تونۇشىنى توسىدۇ.
+banner-ab-premium-promo-control-receiver-headline = ھەقىقىي نومۇرىڭىزغا كىمنىڭ ئىرىشەلەيدىغانلىقىنى باشقۇرىدۇ
+banner-ab-premium-promo-extra-protection-headline = خەت ساندۇق ۋە تېلېفونىڭىزنى قوشۇمچە قوغداشقا ئېرىشتۈرىدۇ
 banner-ab-premium-promo-cta = يۈكسەلت
 
 ## Set domain banner
