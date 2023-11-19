@@ -46,6 +46,8 @@ banner-ab-premium-promo-cta = يۈكسەلت
 ## Set domain banner
 
 banner-set-email-domain-headline-action-needed = مەشغۇلات زۆرۈر
+banner-set-email-domain-input-placeholder-label = ئېلخەت دائىرە ئىزدە
+banner-set-email-domain-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 banner-set-email-domain-input-search = ئىزدە
 # This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
 # and without spaces, to resemble an actual email address, and make sure it’s
@@ -56,6 +58,9 @@ modal-email-domain-good-news = خۇشخەۋەر!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> نى ئىشلەتكىلى بولىدۇ
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = ھەئە، مەن { $subdomain } غا تىزىملاتماقچى
 modal-email-domain-cancel = ۋاز كەچ
 modal-email-domain-register = تىزىملىتىڭ
 modal-email-domain-success-continue = داۋاملاشتۇر
