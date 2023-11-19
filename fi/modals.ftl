@@ -20,6 +20,7 @@ modal-custom-alias-picker-creation-error-2 = Mukautettua sähköpostimaskia ei v
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Kirjoita teksti
 error-alias-picker-prefix-invalid-uppercase-letters = Ei isoja kirjaimia
 error-alias-picker-prefix-invalid-symbols = Ei symboleja paitsi pisteitä tai yhdysmerkkejä
+error-alias-picker-prefix-invalid = Emme voineet luoda mukautettua maskia kyseisellä sanalla tai lauseella. Kokeile toista sanaa tai lausetta.
 done-msg = Valmis
 copy-mask = Kopioi maski
 popover-custom-alias-explainer-promotional-block-checkbox-label = Aloita mainossähköpostien estäminen

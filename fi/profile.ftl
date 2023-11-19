@@ -112,9 +112,14 @@ profile-promo-email-blocking-option-promotions = Mainosviestit
 profile-promo-email-blocking-option-none = Ei mitään
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } estää kaikki tähän maskiin lähetetyt sähköpostit.
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } yrittää estää mainossähköpostit ja lähettää edelleen sähköpostit, kuten kuitit ja ostosten toimitustiedot.
+# Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } ei estä mitään sähköposteja tämän maskin kohdalla.
+profile-promo-email-blocking-description-none-3 = Kaikki tähän maskiin lähetetyt sähköpostit välitetään oikeaan osoitteeseesi.
+# Deprecated
 profile-promo-email-blocking-label-promotionals = Estä mainokset
+# Deprecated
 profile-promo-email-blocking-label-none = Estä kaikki
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-not-forwarding = Ei edelleenlähetystä
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (vain { -brand-name-premium })
