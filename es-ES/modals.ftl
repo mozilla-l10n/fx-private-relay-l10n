@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Las máscaras de correo 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Las máscaras de correo electrónico solo pueden tener letras minúsculas, números, puntos o guiones, y además no pueden comenzar o terminar con un guión.
 modal-custom-alias-picker-form-submit-label-2 = Generar máscara
 modal-custom-alias-picker-creation-error-2 = Tu máscara de correo electrónico personalizada no ha podido ser creada manualmente. Por favor, inténtalo de nuevo, o envía un correo electrónico a la máscara para crearla.
+modal-custom-alias-picker-tip-redesign = Consejo: Para crear una máscara personalizada sin tener que iniciar sesión en { -brand-name-relay }, simplemente añade cualquier palabra o frase antes de @ en tu dominio de correo electrónico { -brand-name-relay }. La primera vez que alguien te envíe un correo electrónico, tu máscara se creará automáticamente.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Introducir texto
+error-alias-picker-prefix-invalid-uppercase-letters = Sin letras mayúsculas
+error-alias-picker-prefix-invalid-symbols = Sin símbolos excepto puntos o guiones
+error-alias-picker-prefix-invalid = No hemos podido generar una máscara personalizada con esa palabra o frase. Por favor prueba con otro texto.
+done-msg = Hecho
+copy-mask = Copiar máscara
+popover-custom-alias-explainer-promotional-block-checkbox-label = Comienza a bloquear correos electrónicos promocionales
+error-state-valid-alt = Válido
+error-state-invalid-alt = No válido
+close-button-label-alt = Cerrar
 modal-rename-alias-saved = ¡Etiqueta guardada!
 modal-delete-headline-2 = ¿Eliminar permanentemente esta máscara de correo electrónico?
 # Variables:
