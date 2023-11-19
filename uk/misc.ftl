@@ -53,8 +53,8 @@ tips-footer-link-support-tooltip = Звернутися до служби під
 tips-switcher-label = Порада { $nr }
 tips-toast-button-expand-label = Докладніше
 # Checkbox the user can click to adjust the block level of the new mask
-popover-custom-alias-explainer-promotional-block-checkbox = Блокувати промоційні листи
-popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування промоційних електронних листів маскою, щоб маркетингові листи не надходили до вашої теки вхідних.
+popover-custom-alias-explainer-promotional-block-checkbox = Блокувати рекламні листи
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування рекламних електронних листів маскою, щоб маркетингові листи не надходили до вашої поштової скриньки.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Докладніше
 
 ## Tip about using custom masks
@@ -64,8 +64,8 @@ tips-custom-alias-content-2 = Усе що вам потрібно зробити
 
 ## Tip about using custom masks
 
-tips-promo-email-blocking-heading = Блокувати промоційні листи
-tips-promo-email-blocking-content = За допомогою { -brand-name-relay-premium } ви можете блокувати надходження промоційних листів до вашої теки «Вхідні», при цьому дозволяючи вам отримувати електронні листи, як-от квитанції або інформацію про доставлення.
+tips-promo-email-blocking-heading = Блокувати рекламні листи
+tips-promo-email-blocking-content = За допомогою { -brand-name-relay-premium } ви можете блокувати надходження рекламних листів до вашої поштової скриньки, однак дозволяти електронні листи з квитанціями або інформацією про доставку.
 
 ## Report of trackers removed from an email
 

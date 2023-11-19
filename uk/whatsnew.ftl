@@ -30,11 +30,11 @@ whatsnew-feature-sign-back-in-heading = Увійдіть використову�
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = Щоб створити нову псевдоадресу, коли вас попросять ввести електронну адресу, відкрийте…
 whatsnew-feature-sign-back-in-description = Щоб увійти за допомогою раніше використовуваної псевдоадреси, відкрийте контекстне меню, коли сайт запитує вашу електронну пошту. Ви зможете вибрати псевдоадресу й автоматично заповнити поле електронної пошти.
-whatsnew-feature-forward-some-heading = Блокування промоційної електронної пошти
+whatsnew-feature-forward-some-heading = Блокування рекламних електронних листів
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи…
-whatsnew-feature-forward-some-description = { -brand-name-relay-premium } дає змогу блокувати лише промоційні листи, надіслані на псевдоадреси. Ви отримуватимете електронні листи, як-от квитанції, але не маркетингові листи.
+whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } дає змогу блокувати лише рекламні листи…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } дає змогу блокувати лише рекламні листи, надіслані на псевдоадреси. Ви отримуватимете електронні листи з квитанціями про оплату, але не маркетингові листи.
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = Псевдоадреси відтепер називаються масками

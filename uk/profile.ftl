@@ -107,7 +107,7 @@ profile-promo-email-blocking-title = Які електронні листи ви
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Усі
 # Block promotional emails sent to a speciic mask
-profile-promo-email-blocking-option-promotions = Промоції
+profile-promo-email-blocking-option-promotions = Рекламні листи
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Не блокувати
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } блокує всі електронні листи, надіслані на цю маску.
@@ -116,7 +116,7 @@ profile-promo-email-blocking-description-promotionals = { -brand-name-relay } н
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } не блокує електронні листи для цієї маски.
 profile-promo-email-blocking-description-none-3 = Усі електронні листи, надіслані на цю маску, будуть пересилатися на вашу справжню адресу.
 # Deprecated
-profile-promo-email-blocking-label-promotionals = Блокувати промоції
+profile-promo-email-blocking-label-promotionals = Блокувати рекламні листи
 # Let's the user know we are blocking promotional emails 
 profile-promo-email-blocking-label-promotionals-2 = Блокування рекламних листів
 # Deprecated
