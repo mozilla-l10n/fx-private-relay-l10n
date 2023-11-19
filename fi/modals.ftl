@@ -17,6 +17,15 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Sähköpostimaskit voiva
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Sähköpostimaskit voivat sisältää vain pieniä kirjaimia, numeroita, pisteitä ja tavuviivoja, eivätkä ne saa alkaa tai päättyä pisteellä tai tavuviivalla.
 modal-custom-alias-picker-form-submit-label-2 = Luo maski
 modal-custom-alias-picker-creation-error-2 = Mukautettua sähköpostimaskia ei voitu luoda manuaalisesti. Yritä uudelleen tai lähetä maskille sähköposti luodaksesi sen.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Kirjoita teksti
+error-alias-picker-prefix-invalid-uppercase-letters = Ei isoja kirjaimia
+error-alias-picker-prefix-invalid-symbols = Ei symboleja paitsi pisteitä tai yhdysmerkkejä
+done-msg = Valmis
+copy-mask = Kopioi maski
+popover-custom-alias-explainer-promotional-block-checkbox-label = Aloita mainossähköpostien estäminen
+error-state-valid-alt = Kelvollinen
+error-state-invalid-alt = Virheellinen
+close-button-label-alt = Sulje
 modal-rename-alias-saved = Nimike tallennettu!
 modal-delete-headline-2 = Poistetaanko tämä sähköpostimaski pysyvästi?
 # Variables:
