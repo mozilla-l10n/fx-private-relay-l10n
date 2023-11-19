@@ -6,6 +6,11 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = بولدىلا
+banner-bounced-headline = { -brand-name-relay } ئېلخىتىڭىزنى يەتكۈزەلمىدى.
+banner-download-firefox-cta = { -brand-name-firefox } چۈشۈر
+banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
+# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
+banner-label-action = مەشغۇلات باسقۇچى
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
