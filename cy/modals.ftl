@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = Dim ond llythrennau bach
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Dim ond llythrennau bach, rhifau, cyfnodau a chysylltnodau y gall arallenwau e-bost eu cynnwys, ac efallai na fyddan nhw'n dechrau nac yn gorffen gyda chyfnod na chysylltnod.
 modal-custom-alias-picker-form-submit-label-2 = Cynhyrchwch arallenw
 modal-custom-alias-picker-creation-error-2 = Nid oedd modd creu eich arallenw personol. Ceisiwch eto, neu anfonwch e-bost at yr arallenw i'w greu.
+modal-custom-alias-picker-tip-redesign = Awgrym: I greu arallenw cyfaddas deilwra heb orfod mewngofnodi i { -brand-name-relay }, ychwanegwch unrhyw air neu ymadrodd cyn y @ yn eich parth e-bost { -brand-name-relay }. Y tro cyntaf y bydd unrhyw un yn ei e-bostio, bydd eich arallenw'n cael ei greu'n awtomatig.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Rhowch destun
+error-alias-picker-prefix-invalid-uppercase-letters = Dim prif lythrennau
+error-alias-picker-prefix-invalid-symbols = Dim symbolau ar wahân i atalnodau a chysylltnodau
+error-alias-picker-prefix-invalid = Nid oedd modd i ni gynhyrchu arallenw cyfaddas gyda'r gair neu'r ymadrodd hwnnw. Rhowch gynnig ar un arall.
+done-msg = Gorffen
+copy-mask = Copïo’r arallenw
+popover-custom-alias-explainer-promotional-block-checkbox-label = Cychwyn rhwystro e-byst hyrwyddo
+error-state-valid-alt = Dilys
+error-state-invalid-alt = Annilys
+close-button-label-alt = Cau
 modal-rename-alias-saved = Label wedi’i gadw!
 modal-delete-headline-2 = Dileu'r arallenw hwn yn barhaol?
 # Variables:
