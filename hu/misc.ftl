@@ -266,6 +266,7 @@ first-time-user-email-welcome-subhead = Az e-mail-címe felhasználható arra, h
 first-time-user-email-hero-primary-text = { -brand-name-firefox }-felhasználóként 5 ingyenes e-mail-maszkot kap. Használja őket a valódi e-mail-címének elrejtésére, személyazonosságának védelmére, és csak a kívánt levelek továbbítására a postaládájába.
 first-time-user-email-hero-secondary-text = Kezelje az összes maszkját a { -brand-name-relay } irányítópultjáról.
 first-time-user-email-hero-cta = Saját irányítópult megtekintése
+first-time-user-email-cta-dashboard-button = Ismerje meg a { -brand-name-relay } használatát
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
