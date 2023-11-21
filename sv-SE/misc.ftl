@@ -269,6 +269,7 @@ first-time-user-email-welcome-subhead = Din e-postadress kan användas för att 
 first-time-user-email-hero-primary-text = Som användare av { -brand-name-firefox } får du 5 e-postalias gratis. Använd dem för att dölja din riktiga e-postadress, skydda din identitet och vidarebefordra endast de e-postmeddelanden du vill ha till din inkorg.
 first-time-user-email-hero-secondary-text = Hantera alla dina alias från översikten i { -brand-name-relay }.
 first-time-user-email-hero-cta = Visa din översikt
+first-time-user-email-cta-dashboard-button = Lär dig att använda { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
