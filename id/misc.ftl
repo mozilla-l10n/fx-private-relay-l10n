@@ -263,6 +263,7 @@ first-time-user-email-welcome-subhead = Alamat surel Anda dapat digunakan untuk 
 first-time-user-email-hero-primary-text = Sebagai pengguna { -brand-name-firefox }, Anda mendapatkan 5 topeng surel gratis. Gunakan topeng tersebut untuk menyembunyikan alamat surel asli Anda, melindungi identitas Anda, dan hanya meneruskan surel yang diinginkan ke kotak masuk Anda.
 first-time-user-email-hero-secondary-text = Kelola semua topeng Anda dari dasbor { -brand-name-relay } Anda.
 first-time-user-email-hero-cta = Lihat dasbor Anda
+first-time-user-email-cta-dashboard-button = Belajar menggunakan { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
