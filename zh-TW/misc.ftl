@@ -263,6 +263,7 @@ first-time-user-email-welcome-subhead = 您的電子郵件地址可能會被用�
 first-time-user-email-hero-primary-text = { -brand-name-firefox } 使用者可免費獲得 5 組轉寄信箱。您可以使用它們來隱藏您實際的電子郵件地址、保護身分資訊，只把想要的郵件轉寄回您的實際信箱。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 儀表板管理您的所有轉寄信箱。
 first-time-user-email-hero-cta = 檢視儀表板
+first-time-user-email-cta-dashboard-button = 學習使用 { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
