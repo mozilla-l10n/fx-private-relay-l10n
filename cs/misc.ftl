@@ -312,6 +312,7 @@ first-time-user-email-welcome-subhead = Vaši e-mailovou adresu lze použít ke 
 first-time-user-email-hero-primary-text = Jako uživatel { -brand-name-firefox } získáte 5 e-mailových masek zdarma. Použijte je ke skrytí vaší skutečné e-mailové adresy, ochraně vaší identity a přeposílání pouze e-mailů, které chcete, do vaší schránky.
 first-time-user-email-hero-secondary-text = Spravujte všechny své masky z nástěnky { -brand-name-relay }
 first-time-user-email-hero-cta = Zobrazit moji nástěnku
+first-time-user-email-cta-dashboard-button = Naučte se používat { -brand-name-relay(case: "acc") }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
