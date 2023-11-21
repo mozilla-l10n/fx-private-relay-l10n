@@ -19,6 +19,7 @@ modal-custom-alias-picker-form-prefix-invalid-warning-2 = Οι μάσκες emai
 modal-custom-alias-picker-form-submit-label-2 = Δημιουργία μάσκας
 modal-custom-alias-picker-creation-error-2 = Δεν ήταν δυνατή η μη αυτόματη δημιουργία προσαρμοσμένης μάσκας email. Παρακαλώ δοκιμάστε ξανά ή στείλτε ένα email στη μάσκα για να δημιουργηθεί.
 error-alias-picker-prefix-invalid-uppercase-letters = Όχι κεφαλαία γράμματα
+done-msg = Τέλος
 copy-mask = Αντιγραφή μάσκας
 popover-custom-alias-explainer-promotional-block-checkbox-label = Έναρξη αποκλεισμού διαφημιστικών email
 error-state-valid-alt = Έγκυρο
