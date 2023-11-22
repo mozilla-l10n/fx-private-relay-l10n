@@ -18,6 +18,7 @@ profile-free-onboarding-copy-mask-paste-the-email = Επικολλήστε τη 
 profile-free-onboarding-copy-mask-send-email = Αποστολή email
 profile-free-onboarding-copy-mask-continue = Συνέχεια
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Μάσκα email { -brand-name-relay }
+profile-free-onboarding-copy-mask-email-this-mask = Δεν θα στείλουμε ξανά email σε αυτήν τη μάσκα, μην ανησυχείτε.
 
 ## Step 3 Relay Extension Added
 
