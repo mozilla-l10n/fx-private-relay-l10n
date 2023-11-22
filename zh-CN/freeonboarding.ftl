@@ -23,26 +23,26 @@ profile-free-onboarding-copy-mask-description = 马甲邮箱地址会显示在�
 profile-free-onboarding-copy-mask-email-mask-label = 输入马甲邮箱标签
 profile-free-onboarding-copy-mask-item-headline-1 = 订阅新闻通讯
 profile-free-onboarding-copy-mask-item-description-1 = 无需提供真实邮箱地址也可收到精彩内容。
-profile-free-onboarding-copy-mask-item-headline-2 = 得到基本信息而不是垃圾邮件
+profile-free-onboarding-copy-mask-item-headline-2 = 只收网购商品，不收垃圾邮件
 profile-free-onboarding-copy-mask-item-description-2 = 网店无需您的真实邮箱地址也能发货。
-profile-free-onboarding-copy-mask-how-forwarding-works = 了解转发功能如何工作
-profile-free-onboarding-copy-mask-what-emails-to-block = 马甲邮箱转发您不想要的电子邮件您可以一步关闭转发功能避免收到不需要的邮件。
+profile-free-onboarding-copy-mask-how-forwarding-works = 了解转发功能的工作方式
+profile-free-onboarding-copy-mask-what-emails-to-block = 马甲邮箱转发了不需要的邮件？只需一步操作即可停止转发，不再收到此类邮件。
 profile-free-onboarding-copy-mask-paste-the-email = 粘贴您刚刚复制的马甲邮箱
 profile-free-onboarding-copy-mask-try-out-email-forwarding = 试试邮件转发
 profile-free-onboarding-copy-mask-send-email = 发送邮件
-profile-free-onboarding-copy-mask-nevermind = 算了
+profile-free-onboarding-copy-mask-nevermind = 不用
 profile-free-onboarding-copy-mask-continue = 继续
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } 马甲邮箱
-profile-free-onboarding-copy-mask-check-inbox = 检查您的收件箱
-profile-free-onboarding-copy-mask-email-this-mask = 我们不会再向这个马甲发送邮件不用担心。
+profile-free-onboarding-copy-mask-check-inbox = 现在请查看收件箱
+profile-free-onboarding-copy-mask-email-this-mask = 请放心，我们不会再向此马甲邮箱发送邮件。
 
 ## Step 3 Relay Extension Added
 
 profile-free-onboarding-addon-get-extension = 获取 { -brand-name-relay } 扩展
 profile-free-onboarding-addon-finish = 完成
 profile-free-onboarding-addon-headline = 随时随地使用马甲
-profile-free-onboarding-addon-subheadline = 想在任何需要电子邮件地址的地方都使用马甲邮箱
-profile-free-onboarding-addon-item-headline-1 = 任何地方都能用
-profile-free-onboarding-addon-item-description-1 = 您可以使用 { -brand-name-relay } 马甲邮箱任何需要输入电子邮件地址的地方。还可以直接在 { -brand-name-firefox } 密码管理器中生成新马甲。
-profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } 扩展让一切更简单
-profile-free-onboarding-addon-item-description-2 = 当您看到电子邮件地址栏时{ -brand-name-firefox-relay } 浏览器扩展会自动填写您要使用的马甲邮箱。不用记住每个马甲
+profile-free-onboarding-addon-subheadline = 试试在需要提交邮箱地址时提交马甲邮箱地址
+profile-free-onboarding-addon-item-headline-1 = 任何需要提交邮箱地址的地方都能用
+profile-free-onboarding-addon-item-description-1 = 您可在需要提交邮箱地址时，输入马甲邮箱地址。还可直接在 { -brand-name-firefox } 密码管理器中生成新马甲。
+profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } 扩展让马甲邮箱更易用
+profile-free-onboarding-addon-item-description-2 = 出现邮箱地址栏时，{ -brand-name-firefox-relay } 浏览器扩展可自动填写您想要使用的马甲邮箱，您无需费心记忆！

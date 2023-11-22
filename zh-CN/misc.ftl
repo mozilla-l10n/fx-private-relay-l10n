@@ -261,7 +261,7 @@ first-time-user-email-welcome-subhead = 您的电子邮件地址可能会被用�
 first-time-user-email-hero-primary-text = 作为 { -brand-name-firefox } 用户，您可以免费获得 5 个邮箱马甲。请使用它们来隐藏您的真实电子邮件地址，保护您的身份，并仅将您需要的电子邮件转发到您的收件箱。
 first-time-user-email-hero-secondary-text = 在 { -brand-name-relay } 面板管理您的所有马甲。
 first-time-user-email-hero-cta = 查看您的控制面板
-first-time-user-email-cta-dashboard-button = 了解如何使用 { -brand-name-relay }
+first-time-user-email-cta-dashboard-button = 了解 { -brand-name-relay } 的使用方法
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
