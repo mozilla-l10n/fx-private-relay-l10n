@@ -43,6 +43,6 @@ profile-free-onboarding-addon-finish = 完成
 profile-free-onboarding-addon-headline = 随时随地使用马甲
 profile-free-onboarding-addon-subheadline = 试试在需要提交邮箱地址时提交马甲邮箱
 profile-free-onboarding-addon-item-headline-1 = 任何需要提交邮箱地址的地方都能用
-profile-free-onboarding-addon-item-description-1 = 您可在需要提交邮箱地址时，输入马甲邮箱地址。还可直接在 { -brand-name-firefox } 密码管理器中生成新马甲。
+profile-free-onboarding-addon-item-description-1 = 您可在需要输入邮箱地址时，提交 { -brand-name-relay } 马甲邮箱。还可直接在 { -brand-name-firefox } 密码管理器中生成新马甲。
 profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } 扩展让马甲邮箱更易用
 profile-free-onboarding-addon-item-description-2 = 出现邮箱地址栏时，{ -brand-name-firefox-relay } 浏览器扩展可自动填写您想要使用的马甲邮箱，您无需费心记忆！
