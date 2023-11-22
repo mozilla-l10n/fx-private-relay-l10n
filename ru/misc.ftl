@@ -275,6 +275,7 @@ first-time-user-email-welcome-subhead = Ваш адрес электронной
 first-time-user-email-hero-primary-text = Как пользователь { -brand-name-firefox } вы получаете 5 псевдонимов электронной почты бесплатно. Используйте их, чтобы скрыть свой настоящий адрес электронной почты, защитить свою личность и пересылать в свой ящик только те электронные письма, которые хотите.
 first-time-user-email-hero-secondary-text = Управляйте всеми своими псевдонимами с панели управления { -brand-name-relay }.
 first-time-user-email-hero-cta = Просмотр панели управления
+first-time-user-email-cta-dashboard-button = Научитесь использовать { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
