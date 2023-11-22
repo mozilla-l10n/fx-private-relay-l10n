@@ -43,6 +43,6 @@ profile-free-onboarding-addon-finish = Befejezés
 profile-free-onboarding-addon-headline = Használja a maszkokat mindenhol
 profile-free-onboarding-addon-subheadline = Próbálja mindenhol használni a maszkokat, ahol szüksége van egy e-mail-címre
 profile-free-onboarding-addon-item-headline-1 = Mindenhol működnek, ahol e-mail-címre van szükség
-profile-free-onboarding-addon-item-description-1 = Ahol meg kell adnia egy e-mail címet, ott használhat egy { -brand-name-relay } e-mail-maszkot. Akár közvetlenül a { -brand-name-firefox } jelszókezelőjéből is létrehozhat új maszkokat.
+profile-free-onboarding-addon-item-description-1 = Ahol meg kell adnia egy e-mail-címet, ott használhat egy { -brand-name-relay } e-mail-maszkot. Akár közvetlenül a { -brand-name-firefox } jelszókezelőjéből is hozhat létre új maszkokat.
 profile-free-onboarding-addon-item-headline-2 = A { -brand-name-relay } kiegészítő ezt megkönnyíti
 profile-free-onboarding-addon-item-description-2 = Ha egy e-mail-cím mezőt lát, akkor a { -brand-name-firefox-relay } böngészőkiterjesztés automatikusan kitölti a használni kívánt e-mail-maszkokat. Nem kell minden maszkot megjegyezni!
