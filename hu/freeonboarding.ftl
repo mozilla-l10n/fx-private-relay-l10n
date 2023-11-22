@@ -7,8 +7,8 @@
 
 profile-free-onboarding-welcome-headline = Üdvözli a { -brand-name-relay }
 profile-free-onboarding-welcome-description = Hozzon létre egy új e-mail-maszkot.
-profile-free-onboarding-welcome-item-headline-1 = Használjon ingyenes e-mail-maszkokat, hogy megvédje valódi címét
-profile-free-onboarding-welcome-item-description-1 = Ahol szüksége van e-mail-címre, használjon egy e-mail-maszkot.
+profile-free-onboarding-welcome-item-headline-1 = Használjon ingyenes e-mail-maszkokat a valódi e-mail-címének védelmére
+profile-free-onboarding-welcome-item-description-1 = Ahol e-mail-címre van szüksége, használjon inkább egy e-mail-maszkot.
 profile-free-onboarding-welcome-item-headline-2 = Mi az e-mail-maszk?
 profile-free-onboarding-welcome-item-description-2 = A { -brand-name-relay } e-mail-maszkok névtelen e-mail-címek, amelyek a valódi címére továbbítják az üzeneteket. Készítsük el közösen az elsőt.
 profile-free-onboarding-welcome-generate-new-mask = Új maszk előállítása
@@ -20,7 +20,7 @@ profile-free-onboarding-close-modal = Felugró ablak bezárása
 
 profile-free-onboarding-copy-mask-headline = Másolja le a maszkot a használatához
 profile-free-onboarding-copy-mask-description = Ne aggódjon, hogy elfelejti – meg fog jelenni a vezérlőpulton.
-profile-free-onboarding-copy-mask-email-mask-label = Adja meg az e-mail-maszkcímkét
+profile-free-onboarding-copy-mask-email-mask-label = Adja meg az e-mail-maszk címkéjét
 profile-free-onboarding-copy-mask-item-headline-1 = Iratkozzon fel a hírlevelekre
 profile-free-onboarding-copy-mask-item-description-1 = Kapjon nagyszerű tartalmakat a valódi címének megosztása nélkül.
 profile-free-onboarding-copy-mask-item-headline-2 = Az inget szerezze meg, ne a spamet
