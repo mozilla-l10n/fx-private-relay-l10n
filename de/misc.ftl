@@ -268,6 +268,7 @@ first-time-user-email-welcome-subhead = Ihre E-Mail-Adresse kann dazu verwendet 
 first-time-user-email-hero-primary-text = Als { -brand-name-firefox }-Nutzer erhalten Sie fünf E-Mail-Masken kostenlos. Verwenden Sie sie, um Ihre echte E-Mail-Adresse zu verbergen, Ihre Identität zu schützen und nur die gewünschten E-Mails an Ihren Posteingang weiterzuleiten.
 first-time-user-email-hero-secondary-text = Verwalten Sie alle Ihre Masken über Ihre { -brand-name-relay }-Übersicht.
 first-time-user-email-hero-cta = Ihre Übersicht anzeigen
+first-time-user-email-cta-dashboard-button = Lernen Sie, wie man { -brand-name-relay } verwendet
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
