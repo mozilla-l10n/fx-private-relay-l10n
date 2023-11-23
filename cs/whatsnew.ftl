@@ -90,3 +90,10 @@ whatsnew-feature-premium-expansion-eu-heading = Nyní je dostupný neomezený po
 whatsnew-feature-premium-expansion-eu-snippet = Služba { -brand-name-firefox-relay-premium } je nyní dostupná ve vaší zemi…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } je nyní k dispozici ve vaší zemi. Chraňte svou doručenou poštu neomezeným počtem e-mailových masek a získejte jedinečnou e-mailovou doménu služby { -brand-name-relay }, díky které bude vytváření masek na cestách snadné a bezpečné.
 whatsnew-feature-premium-expansion-eu-cta = Získejte { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = O těchto svátcích získejte slevu 20 % z ceny, na kterou máte roční službu { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Získejte slevu 20 % na { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = O těchto svátcích získejte slevu 20 % z ceny, na kterou máte roční službu { -brand-name-relay-premium }. Stačí při placení zadat promo kód “HOLIDAY20”. Nabídka končí 31. prosince 2023.
+whatsnew-holiday-promo-2023-cta = Získejte jeden rok služby { -brand-name-relay-premium }
