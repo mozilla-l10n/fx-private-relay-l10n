@@ -82,3 +82,10 @@ whatsnew-feature-premium-expansion-eu-heading = Topeng tak terbatas sekarang ter
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } kini tersedia di negara Anda…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } kini tersedia di negara Anda. Lindungi kotak masuk Anda dengan topeng surel tanpa batas, dan dapatkan domain surel { -brand-name-relay } yang unik untuk membuat pembuatan topeng di mana saja menjadi mudah dan aman.
 whatsnew-feature-premium-expansion-eu-cta = Dapatkan { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Musim liburan ini, dapatkan diskon 20% dari harga { -brand-name-relay-premium } selama 1 tahun.
+whatsnew-holiday-promo-2023-news-heading = Dapatkan diskon 20% { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Musim liburan ini, dapatkan diskon 20% dari harga { -brand-name-relay-premium } selama 1 tahun. Cukup masukkan kode promo “HOLIDAY20” saat checkout. Penawaran berakhir pada 31 Des 2023.
+whatsnew-holiday-promo-2023-cta = Dapatkan { -brand-name-relay-premium } selama 1 tahun
