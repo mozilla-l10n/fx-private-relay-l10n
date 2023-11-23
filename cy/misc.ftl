@@ -262,6 +262,7 @@ first-time-user-email-welcome-subhead = Mae modd defnyddio'ch cyfeiriad e-bost i
 first-time-user-email-hero-primary-text = Fel defnyddiwr { -brand-name-firefox }, byddwch yn cael 5 arallenw e-bost am ddim. Defnyddiwch nhw i guddio'ch cyfeiriad e-bost go iawn, diogelu eich hunaniaeth ac anfon ymlaen dim ond yr e-byst rydych chi eu heisiau i'ch blwch derbyn.
 first-time-user-email-hero-secondary-text = Rheolwch eich holl arallenwau o'ch bwrd rheoli { -brand-name-relay }.
 first-time-user-email-hero-cta = Gweld eich bwrdd rheoli
+first-time-user-email-cta-dashboard-button = Dysgwch sut i ddefnyddio { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
