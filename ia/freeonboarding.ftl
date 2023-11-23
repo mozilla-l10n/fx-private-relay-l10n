@@ -6,6 +6,7 @@
 ## Step 1 Welcome to Relay
 
 profile-free-onboarding-welcome-headline = Benvenite a { -brand-name-relay }
+profile-free-onboarding-welcome-description = Que nos crea un nove masca de email
 profile-free-onboarding-welcome-item-headline-1 = Usa mascas email gratuite pro proteger tu real adresse
 profile-free-onboarding-welcome-item-headline-2 = Que es un masca email?
 profile-free-onboarding-welcome-generate-new-mask = Generar un nove masca
