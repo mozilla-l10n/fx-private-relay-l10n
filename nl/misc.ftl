@@ -268,6 +268,7 @@ first-time-user-email-welcome-subhead = Uw e-mailadres kan worden gebruikt om u 
 first-time-user-email-hero-primary-text = Als gebruiker van { -brand-name-firefox } krijgt u 5 e-mailmaskers gratis. Gebruik ze om uw echte e-mailadres te verbergen, uw identiteit te beschermen en alleen uw gewenste e-mailberichten door te sturen naar uw Postvak IN.
 first-time-user-email-hero-secondary-text = Beheer al uw maskers vanaf uw { -brand-name-relay }-dashboard
 first-time-user-email-hero-cta = Bekijk uw dashboard
+first-time-user-email-cta-dashboard-button = { -brand-name-relay } leren gebruiken
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
