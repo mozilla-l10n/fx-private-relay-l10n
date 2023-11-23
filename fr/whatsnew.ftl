@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Vous pouvez désormais obtenir u
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } est désormais disponible dans votre pays…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } est désormais disponible dans votre pays. Protégez votre boîte de réception avec un nombre illimité d’alias de messagerie et obtenez un domaine de messagerie { -brand-name-relay } unique pour faciliter et sécuriser la création d’alias à la volée.
 whatsnew-feature-premium-expansion-eu-cta = Obtenir { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = En cette période de fêtes, bénéficiez de 20 % de réduction sur le prix d’un an d’abonnement { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Obtenez 20 % de réduction sur { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = En cette période de fêtes, bénéficiez de 20 % de réduction sur le prix d’un an d’abonnement { -brand-name-relay-premium }. Saisissez simplement le code promotionnel « HOLIDAY20 » lors du règlement. L’offre se termine le 31 décembre 2023.
+whatsnew-holiday-promo-2023-cta = Bénéficiez d’un an de { -brand-name-relay-premium }
