@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Most már korlátlan számú mas
 whatsnew-feature-premium-expansion-eu-snippet = A { -brand-name-firefox-relay-premium } már elérhető az országában…
 whatsnew-feature-premium-expansion-eu-description = A { -brand-name-firefox-relay-premium } mostantól elérhető az országában. Védje meg a postaládáját a korlátlan számú e-mail-maszkokkal, és kapjon egy egyedi { -brand-name-relay } e-mail-domaint, hogy a maszkok menet közbeni létrehozása egyszerű és biztonságos legyen.
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } beszerzése
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Ebben az ünnepi időszakban 20% kedvezményt kapjon az 1 évnyi { -brand-name-relay-premium } árából.
+whatsnew-holiday-promo-2023-news-heading = 20% kedvezmény a { -brand-name-relay-premium }ra
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Ebben az ünnepi időszakban 20% kedvezményt kapjon az 1 évnyi { -brand-name-relay-premium } árából. Csak írja be a „HOLIDAY20” promóciós kódot vásárláskor. Az ajánlat 2023. december 31-én jár le.
+whatsnew-holiday-promo-2023-cta = Kapjon 1 év { -brand-name-relay-premium }ot
