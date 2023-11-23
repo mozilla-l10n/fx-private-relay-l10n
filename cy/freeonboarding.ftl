@@ -34,7 +34,7 @@ profile-free-onboarding-copy-mask-nevermind = Dim gwahaniaeth
 profile-free-onboarding-copy-mask-continue = Parhau
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Arallenwau e-byst { -brand-name-relay }
 profile-free-onboarding-copy-mask-check-inbox = Nawr gwiriwch eich blwch derbyn e-bost
-profile-free-onboarding-copy-mask-email-this-mask = Peidiwch â phoeni, fyddwn n ddim yn e-bostio'r arallenw hwn eto.
+profile-free-onboarding-copy-mask-email-this-mask = Peidiwch â phoeni, fyddwn ni ddim yn e-bostio'r arallenw hwn eto.
 
 ## Step 3 Relay Extension Added
 
