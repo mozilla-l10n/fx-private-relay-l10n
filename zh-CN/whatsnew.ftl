@@ -82,3 +82,10 @@ whatsnew-feature-premium-expansion-eu-heading = 无限量马甲登场
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } 已在您的地区推出…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } 已在您的地区推出。订阅后，即可用无限量的马甲来保护自己的收件箱，还能获得专属 { -brand-name-relay } 邮箱域名，让您随时随地、安全便捷地创建马甲。
 whatsnew-feature-premium-expansion-eu-cta = 订阅 { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = 这个假期订阅一年的 { -brand-name-relay-premium } 价格可享 20% 折扣。
+whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } 可享八折优惠
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = 这个假期订阅一年的 { -brand-name-relay-premium } 价格可享 20% 折扣。结账时输入折扣码“HOLIDAY20”。优惠至 2023 年 12 月 31 日。
+whatsnew-holiday-promo-2023-cta = 免费订阅 1 年 { -brand-name-relay-premium }
