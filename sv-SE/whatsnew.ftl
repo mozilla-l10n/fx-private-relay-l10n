@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Obegränsat med alias nu tillgä
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } är nu tillgängligt i ditt land…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } är nu tillgängligt i ditt land. Skydda din inkorg med obegränsade e-postalias och få en unik { -brand-name-relay } e-postdomän för att göra det enkelt och säkert att skapa alias när du är på språng.
 whatsnew-feature-premium-expansion-eu-cta = Skaffa { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Denna semesterperiod får du 20% rabatt på priset för ett års { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Få 20% rabatt på { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Denna semesterperiod får du 20% rabatt på priset för ett års { -brand-name-relay-premium }. Ange bara kampanjkoden "HOLIDAY20" i kassan. Erbjudandet upphör 31 december 2023.
+whatsnew-holiday-promo-2023-cta = Få 1 års { -brand-name-relay-premium }
