@@ -79,3 +79,10 @@ whatsnew-feature-premium-expansion-eu-heading = Alias illimitati ora disponibili
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } è ora disponibile nel tuo Paese…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } è ora disponibile nel tuo Paese. Proteggi la tua casella di posta con un numero illimitato di alias e ottieni un dominio di posta elettronica { -brand-name-relay } univoco per rendere la creazione di alias facile e sicura, ovunque ti trovi.
 whatsnew-feature-premium-expansion-eu-cta = Ottieni { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Per questo periodo di feste, ricevi uno sconto del 20% sul prezzo di 1 anno di { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Ottieni uno sconto del 20% su { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Per questo periodo di feste, ricevi uno sconto del 20% sul prezzo di 1 anno di { -brand-name-relay-premium }. Inserisci il codice promozionale “HOLIDAY20” al momento del pagamento. L’offerta scade il 31 dicembre 2023.
+whatsnew-holiday-promo-2023-cta = Ottieni 1 anno di { -brand-name-relay-premium }
