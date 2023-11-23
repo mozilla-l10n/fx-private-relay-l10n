@@ -88,4 +88,3 @@ whatsnew-holiday-promo-2023-news-snippet = 这个假期订阅一年的 { -brand-
 whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } 可享八折优惠
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = 这个假期订阅一年的 { -brand-name-relay-premium } 价格可享 20% 折扣。结账时输入折扣码“HOLIDAY20”。优惠至 2023 年 12 月 31 日。
-whatsnew-holiday-promo-2023-cta = 免费订阅 1 年 { -brand-name-relay-premium }
