@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Máscaras ilimitadas agora dispo
 whatsnew-feature-premium-expansion-eu-snippet = O { -brand-name-firefox-relay-premium } está agora disponível no seu país…
 whatsnew-feature-premium-expansion-eu-description = O { -brand-name-firefox-relay-premium } está agora disponível no seu país. Proteja a sua caixa de entrada com máscaras de e-mail ilimitadas e obtenha um domínio de e-mail { -brand-name-relay } único para tornar a criação de máscaras em qualquer lugar fácil e segura.
 whatsnew-feature-premium-expansion-eu-cta = Obter o { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Nesta época festiva, obtenha 20% de desconto no preço de 1 ano do { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Obtenha 20% de desconto no { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Nesta época festiva, obtenha 20% de desconto no preço de 1 ano do { -brand-name-relay-premium }. Basta introduzir o código promocional “Holiday20” no processo de pagamento. A oferta termina a 31 de dezembro de 2023.
+whatsnew-holiday-promo-2023-cta = Obtenha 1 ano de { -brand-name-relay-premium }
