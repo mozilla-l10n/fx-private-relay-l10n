@@ -14,6 +14,8 @@ profile-free-onboarding-next-step = Επόμενο
 
 ## Step 2 How to Use a Mask
 
+profile-free-onboarding-copy-mask-headline = Αντιγράψτε τη μάσκα σας για να τη χρησιμοποιήσετε
+profile-free-onboarding-copy-mask-item-description-2 = Το ηλεκτρονικό κατάστημα δεν χρειάζεται το πραγματικό email σας για να σας το στείλει.
 profile-free-onboarding-copy-mask-paste-the-email = Επικολλήστε τη μάσκα email που μόλις αντιγράψατε
 profile-free-onboarding-copy-mask-send-email = Αποστολή email
 profile-free-onboarding-copy-mask-continue = Συνέχεια
@@ -25,3 +27,4 @@ profile-free-onboarding-copy-mask-email-this-mask = Δεν θα στείλουμ
 profile-free-onboarding-addon-get-extension = Λήψη της επέκτασης { -brand-name-relay }
 profile-free-onboarding-addon-finish = Τέλος
 profile-free-onboarding-addon-item-headline-1 = Λειτουργούν οπουδήποτε χρειάζεστε ένα email
+profile-free-onboarding-addon-item-headline-2 = Η επέκταση του { -brand-name-relay } κάνει τα πράγματα εύκολα

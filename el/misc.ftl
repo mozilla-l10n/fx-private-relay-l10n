@@ -269,6 +269,7 @@ first-time-user-email-welcome-subhead = Η διεύθυνση email σας μπ�
 first-time-user-email-hero-primary-text = Ως χρήστης του { -brand-name-firefox }, λαμβάνετε δωρεάν 5 μάσκες email. Χρησιμοποιήστε τις για να αποκρύψετε την πραγματική σας διεύθυνση email, να προστατέψετε την ταυτότητά σας και να προωθήσετε μόνο τα email που θέλετε στα εισερχόμενα σας.
 first-time-user-email-hero-secondary-text = Διαχειριστείτε όλες τις μάσκες σας από τον πίνακα ελέγχου του { -brand-name-relay }.
 first-time-user-email-hero-cta = Προβολή του πίνακα ελέγχου σας
+first-time-user-email-cta-dashboard-button = Μάθετε πώς να χρησιμοποιείτε το { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
