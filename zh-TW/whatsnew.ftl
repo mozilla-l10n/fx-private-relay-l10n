@@ -84,8 +84,8 @@ whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-
 whatsnew-feature-premium-expansion-eu-cta = 下載 { -brand-name-relay-premium }
 # A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-holiday-promo-2023-news-snippet = 在這個聖誕假期中訂閱 { -brand-name-relay-premium } 即可獲得 1 年以上的價格折扣。
-whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } 可享八折折扣
+whatsnew-holiday-promo-2023-news-snippet = 在這個假期中訂閱 { -brand-name-relay-premium } 1 年年約，即可享八折優惠。
+whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } 八折折扣
 # DO NOT translate the promo code "HOLIDAY20" in this string.
-whatsnew-holiday-promo-2023-news-content-description = 在這個聖誕假期中訂閱 { -brand-name-relay-premium } 即可獲得 1 年以上的價格折扣。只要在結帳時輸入折扣碼「假日 20」。優惠至 2023 年 12 月 31 日。
-whatsnew-holiday-promo-2023-cta = 獲得 1 年 { -brand-name-relay-premium } 使用權
+whatsnew-holiday-promo-2023-news-content-description = 在這個假期中訂閱 { -brand-name-relay-premium } 1 年年約，即可享八折優惠。結帳時請輸入優惠碼「HOLIDAY」，優惠期限至 2023 年 12 月 31 日止。
+whatsnew-holiday-promo-2023-cta = 獲得 1 年 { -brand-name-relay-premium }
