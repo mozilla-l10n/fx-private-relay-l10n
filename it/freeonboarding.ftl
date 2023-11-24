@@ -17,4 +17,4 @@ profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Alias di posta 
 
 ## Step 3 Relay Extension Added
 
-profile-free-onboarding-addon-item-description-2 = Ogni volta che viene visualizzato un campo per un indirizzo email, l’estensione del browser { -brand-name-firefox-relay } compilerà automaticamente qualsiasi alias di posta elettronica che desideri utilizzare. Non c'è bisogno di ricordare ogni alias!
+profile-free-onboarding-addon-item-description-2 = Ogni volta che viene visualizzato un campo per un indirizzo email, l’estensione del browser { -brand-name-firefox-relay } compilerà automaticamente qualsiasi alias di posta elettronica che desideri utilizzare. Non c’è bisogno di ricordare ogni alias!
