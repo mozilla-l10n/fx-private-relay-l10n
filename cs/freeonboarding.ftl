@@ -10,8 +10,8 @@ profile-free-onboarding-welcome-description = Pojďme vytvořit novou e-mailovou
 profile-free-onboarding-welcome-item-headline-1 = Používejte bezplatné e-mailové masky, abyste ochránili svou skutečnou adresu
 profile-free-onboarding-welcome-item-description-1 = Všude, kde potřebujete e-mailovou adresu, použijte místo ní e-mailovou masku.
 profile-free-onboarding-welcome-item-headline-2 = Co je to e-mailová maska?
-profile-free-onboarding-welcome-item-description-2 = E-mailové masky služby { -brand-name-relay } jsou anonymní e-mailové adresy, které přeposílají zprávy na vaši skutečnou adresu. Pojďme společně vytvořit váš první.
-profile-free-onboarding-welcome-generate-new-mask = Vygenerovat novou masku
+profile-free-onboarding-welcome-item-description-2 = E-mailové masky služby { -brand-name-relay } jsou anonymní e-mailové adresy, které přeposílají zprávy na vaši skutečnou adresu. Pojďme společně vytvořit vaši první.
+profile-free-onboarding-welcome-generate-new-mask = Vytvořit novou masku
 profile-free-onboarding-skip-step = Přeskočit
 profile-free-onboarding-next-step = Další
 profile-free-onboarding-close-modal = Zavřít
@@ -19,7 +19,7 @@ profile-free-onboarding-close-modal = Zavřít
 ## Step 2 How to Use a Mask
 
 profile-free-onboarding-copy-mask-headline = Pro použití masku zkopírujte
-profile-free-onboarding-copy-mask-description = Nebojte se, že jej zapomenete – zobrazí se na vaší nástěnce.
+profile-free-onboarding-copy-mask-description = Nebojte se, že ji zapomenete – zobrazí se na vaší nástěnce.
 profile-free-onboarding-copy-mask-email-mask-label = Zadejte jmenovku e-mailové masky
 profile-free-onboarding-copy-mask-item-headline-1 = Přihlásit se k odběru zpravodajů
 profile-free-onboarding-copy-mask-item-description-1 = Získejte skvělý obsah bez sdílení své skutečné adresy.
