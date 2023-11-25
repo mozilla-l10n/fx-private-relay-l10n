@@ -270,6 +270,7 @@ first-time-user-email-welcome-subhead = Il tuo indirizzo email può essere utili
 first-time-user-email-hero-primary-text = Come utente di { -brand-name-firefox }, ricevi gratuitamente 5 alias di posta elettronica. Usali per nascondere il tuo indirizzo reale, proteggere la tua identità e inoltrare alla tua casella di posta solo le email che desideri.
 first-time-user-email-hero-secondary-text = Gestisci tutti i tuoi alias dalla dashboard di { -brand-name-relay }
 first-time-user-email-hero-cta = Visualizza la dashboard
+first-time-user-email-cta-dashboard-button = Scopri come utilizzare { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
