@@ -20,15 +20,29 @@ profile-free-onboarding-close-modal = Zavrieť
 
 profile-free-onboarding-copy-mask-headline = Skopírujte si masku, aby ste ju mohli použiť
 profile-free-onboarding-copy-mask-description = Nebojte sa, že ju zabudnete – zobrazí sa na vašej nástenke.
+profile-free-onboarding-copy-mask-email-mask-label = Zadajte štítok masky e‑mailu
+profile-free-onboarding-copy-mask-item-headline-1 = Prihláste sa na odber noviniek
+profile-free-onboarding-copy-mask-item-description-1 = Získajte skvelý obsah bez zdieľania svojej skutočnej adresy.
+profile-free-onboarding-copy-mask-item-headline-2 = Získajte tričko, nie spam
+profile-free-onboarding-copy-mask-item-description-2 = Tento internetový obchod nepotrebuje váš skutočný e‑mail, aby vám ho mohol poslať.
 profile-free-onboarding-copy-mask-how-forwarding-works = Pozrite sa, ako funguje preposielanie
 profile-free-onboarding-copy-mask-what-emails-to-block = Preposielajú masky e‑maily, ktoré nechcete? Preposielanie môžete vypnúť v jedinom kroku, čím zabránite prijímaniu nežiaducich e‑mailov.
+profile-free-onboarding-copy-mask-paste-the-email = Prilepte e‑mailovú masku, ktorú ste práve skopírovali
+profile-free-onboarding-copy-mask-try-out-email-forwarding = Vyskúšajte preposielanie e‑mailov
+profile-free-onboarding-copy-mask-send-email = Odoslať e‑mail
+profile-free-onboarding-copy-mask-nevermind = Zrušiť
+profile-free-onboarding-copy-mask-continue = Pokračovať
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = E‑mailová maska { -brand-name-relay }
+profile-free-onboarding-copy-mask-check-inbox = Teraz skontrolujte svoju e‑mailovú schránku
+profile-free-onboarding-copy-mask-email-this-mask = Na túto masku už e‑mail nepošleme, nebojte sa.
 
 ## Step 3 Relay Extension Added
 
-profile-free-onboarding-addon-get-extension = Získajte rozšírenie { -brand-name-relay }
+profile-free-onboarding-addon-get-extension = Získať rozšírenie { -brand-name-relay }
 profile-free-onboarding-addon-finish = Dokončiť
 profile-free-onboarding-addon-headline = Používajte svoje masky všade
 profile-free-onboarding-addon-subheadline = Skúste použiť svoje masky všade, kde potrebujete zadať e‑mail
 profile-free-onboarding-addon-item-headline-1 = Fungujú všade, kde potrebujete zadať e‑mail
 profile-free-onboarding-addon-item-description-1 = Všade, kde potrebujete zadať e‑mail, môžete použiť e‑mailovú masku služby { -brand-name-relay }. Môžete dokonca generovať nové masky priamo zo Správcu hesiel { -brand-name-firefox(case: "gen") }.
 profile-free-onboarding-addon-item-headline-2 = S rozšírením { -brand-name-relay } je to jednoduché
+profile-free-onboarding-addon-item-description-2 = Vždy, keď uvidíte pole s e‑mailovou adresou, rozšírenie { -brand-name-firefox-relay } automaticky vyplní e‑mailovú masku, ktorú môžete použiť. Nie je potrebné si pamätať každú masku!

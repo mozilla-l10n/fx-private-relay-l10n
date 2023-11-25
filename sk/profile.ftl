@@ -114,17 +114,17 @@ profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje v
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } sa pokúsi zablokovať marketingové e‑maily a zároveň preposielať e‑maily, ako sú potvrdenia o prečítaní a informácie o dodaní vašich objednávok.
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } neblokuje žiadne e‑maily odoslané na túto masku.
-profile-promo-email-blocking-description-none-3 = Všetky e-maily odoslané na túto masku budú preposlané na vašu skutočnú adresu.
+profile-promo-email-blocking-description-none-3 = Všetky e‑maily odoslané na túto masku budú preposlané na vašu skutočnú adresu.
 # Deprecated
 profile-promo-email-blocking-label-promotionals = Blokovať marketingové
 # Let's the user know we are blocking promotional emails 
 profile-promo-email-blocking-label-promotionals-2 = Blokujú sa marketingové e‑maily
 # Deprecated
 profile-promo-email-blocking-label-none = Blokovať všetky
-profile-promo-email-blocking-label-none-2 = Blokujú sa všetky e-maily
+profile-promo-email-blocking-label-none-2 = Blokujú sa všetky e‑maily
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
-profile-promo-email-blocking-label-forwarding-2 = Preposielajú sa všetky e-maily
+profile-promo-email-blocking-label-forwarding-2 = Preposielajú sa všetky e‑maily
 profile-promo-email-blocking-label-not-forwarding = Nepreposiela sa
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (len { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Dostupné pre predplatiteľov { -brand-name-relay-premium }
