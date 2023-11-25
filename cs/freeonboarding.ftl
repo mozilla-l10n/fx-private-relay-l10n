@@ -20,10 +20,10 @@ profile-free-onboarding-close-modal = Zavřít
 
 profile-free-onboarding-copy-mask-headline = Pro použití masku zkopírujte
 profile-free-onboarding-copy-mask-description = Nebojte se, že ji zapomenete – zobrazí se na vaší nástěnce.
-profile-free-onboarding-copy-mask-email-mask-label = Zadejte jmenovku e-mailové masky
+profile-free-onboarding-copy-mask-email-mask-label = Zadejte štítek e-mailové masky
 profile-free-onboarding-copy-mask-item-headline-1 = Přihlásit se k odběru zpravodajů
 profile-free-onboarding-copy-mask-item-description-1 = Získejte skvělý obsah bez sdílení své skutečné adresy.
-profile-free-onboarding-copy-mask-item-headline-2 = Vezměte si tričko, ne spam
+profile-free-onboarding-copy-mask-item-headline-2 = Získejte tričko, ne spam
 profile-free-onboarding-copy-mask-item-description-2 = Tento e-shop nepotřebuje váš skutečný e-mail, aby vám ho mohl poslat.
 profile-free-onboarding-copy-mask-how-forwarding-works = Podívejte se, jak funguje přeposílání
 profile-free-onboarding-copy-mask-what-emails-to-block = Nechcete přeposílat e-maily, které nechcete? Přeposílání můžete vypnout v jednom kroku a zabránit tak přijímání nevyžádaných e-mailů.
