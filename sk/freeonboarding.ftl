@@ -6,9 +6,22 @@
 ## Step 1 Welcome to Relay
 
 profile-free-onboarding-welcome-headline = Víta vás { -brand-name-relay }
+profile-free-onboarding-welcome-description = Poďme vytvoriť novú e‑mailovú masku.
+profile-free-onboarding-welcome-item-headline-1 = Bezplatné e‑mailové masky je možné použiť na ochranu svojej skutočnej adresy
+profile-free-onboarding-welcome-item-description-1 = Kdekoľvek potrebujete zadať e‑mailovú adresu, použite radšej e‑mailovú masku.
+profile-free-onboarding-welcome-item-headline-2 = Čo je to e‑mailová maska?
+profile-free-onboarding-welcome-item-description-2 = E‑mailové masky služby { -brand-name-relay } sú anonymné e‑mailové adresy, ktoré posielajú správy na vašu skutočnú adresu. Poďme vytvoriť vašu prvú.
+profile-free-onboarding-welcome-generate-new-mask = Vytvoriť novú e‑mailovú masku
+profile-free-onboarding-skip-step = Preskočiť
+profile-free-onboarding-next-step = Ďalej
+profile-free-onboarding-close-modal = Zavrieť
 
 ## Step 2 How to Use a Mask
 
+profile-free-onboarding-copy-mask-headline = Skopírujte si masku, aby ste ju mohli použiť
+profile-free-onboarding-copy-mask-description = Nebojte sa, že ju zabudnete – zobrazí sa na vašej nástenke.
+profile-free-onboarding-copy-mask-how-forwarding-works = Pozrite sa, ako funguje preposielanie
+profile-free-onboarding-copy-mask-what-emails-to-block = Preposielajú masky e‑maily, ktoré nechcete? Preposielanie môžete vypnúť v jedinom kroku, čím zabránite prijímaniu nežiaducich e‑mailov.
 
 ## Step 3 Relay Extension Added
 

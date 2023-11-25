@@ -49,7 +49,7 @@ profile-label-forward-emails = E‑maily preposielať na:
 # This string is followed by date
 profile-label-first-emailed = Prvý e‑mail odoslaný:
 # This string is followed by date:
-profile-label-created = Vytvorený:
+profile-label-created = Vytvorená:
 profile-label-details-show = Zobraziť podrobnosti
 profile-label-details-hide = Skryť podrobnosti
 # This string is a label for a toggle (on/off) switch
@@ -107,7 +107,7 @@ profile-promo-email-blocking-title = Aké e‑maily chcete blokovať?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Všetky
 # Block promotional emails sent to a speciic mask
-profile-promo-email-blocking-option-promotions = Propagačné akcie
+profile-promo-email-blocking-option-promotions = Marketingové
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Žiadne
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } blokuje všetky e‑maily odoslané na túto masku.
