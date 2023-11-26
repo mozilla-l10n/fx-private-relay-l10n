@@ -7,6 +7,7 @@
 
 profile-free-onboarding-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay }
 profile-free-onboarding-welcome-description = Ας δημιουργήσουμε μια νέα μάσκα email.
+profile-free-onboarding-welcome-item-headline-1 = Χρησιμοποιήστε τις δωρεάν μάσκες email για προστασία της πραγματικής σας διεύθυνσης email
 profile-free-onboarding-welcome-item-headline-2 = Τι είναι μια μάσκα email;
 profile-free-onboarding-welcome-generate-new-mask = Δημιουργία νέας μάσκας
 profile-free-onboarding-skip-step = Παράλειψη
