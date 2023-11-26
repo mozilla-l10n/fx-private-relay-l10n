@@ -92,8 +92,8 @@ whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-
 whatsnew-feature-premium-expansion-eu-cta = Získejte { -brand-name-relay-premium }
 # A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
 # Try to keep this string short, not longer than the English version.
-whatsnew-holiday-promo-2023-news-snippet = O těchto svátcích získejte slevu 20 % z ceny, na kterou máte roční službu { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-snippet = O těchto svátcích získejte slevu 20 % z ceny ročního předplatného služby { -brand-name-relay-premium }.
 whatsnew-holiday-promo-2023-news-heading = Získejte slevu 20 % na { -brand-name-relay-premium }
 # DO NOT translate the promo code "HOLIDAY20" in this string.
-whatsnew-holiday-promo-2023-news-content-description = O těchto svátcích získejte slevu 20 % z ceny, na kterou máte roční službu { -brand-name-relay-premium }. Stačí při placení zadat promo kód “HOLIDAY20”. Nabídka končí 31. prosince 2023.
-whatsnew-holiday-promo-2023-cta = Získejte jeden rok služby { -brand-name-relay-premium }
+whatsnew-holiday-promo-2023-news-content-description = O těchto svátcích získejte slevu 20 % z ceny ročního předplatného služby { -brand-name-relay-premium }. Stačí při placení zadat promo kód “HOLIDAY20”. Nabídka končí 31. prosince 2023.
+whatsnew-holiday-promo-2023-cta = Získat { -brand-name-relay-premium } na 1 rok
