@@ -275,6 +275,7 @@ first-time-user-email-welcome-subhead = Вашу адресу електронн
 first-time-user-email-hero-primary-text = Як користувач { -brand-name-firefox }, ви отримуєте 5 електронних масок безплатно. Використовуйте їх, щоб приховати свою справжню адресу електронної пошти, захистити свою особистість і пересилати до теки «Вхідні» лише ті листи, які вам потрібні.
 first-time-user-email-hero-secondary-text = Керуйте всіма своїми масками з панелі керування { -brand-name-relay }
 first-time-user-email-hero-cta = Перегляньте свою панель керування
+first-time-user-email-cta-dashboard-button = Навчіться використовувати { -brand-name-relay }
 
 ## Email sent to people onboarding that receive their first forwarded email.
 

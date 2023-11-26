@@ -84,3 +84,10 @@ whatsnew-feature-premium-expansion-eu-heading = Відтепер доступн�
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } відтепер доступний у вашій країні…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } відтепер доступний у вашій країні. Захистіть свою поштову скриньку за допомогою необмеженої кількості масок електронної пошти та отримайте унікальний домен електронної пошти { -brand-name-relay }, щоб легко та безпечно створювати маски на ходу.
 whatsnew-feature-premium-expansion-eu-cta = Отримайте { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = У цей святковий сезон отримайте знижку розміром 20% на 1 рік { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Отримайте знижку 20% на { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = У цей святковий сезон отримайте знижку розміром 20% на 1 рік { -brand-name-relay-premium }. Просто введіть промокод “HOLIDAY20” під час оформлення замовлення. Пропозиція діє до 31 грудня 2023 р.
+whatsnew-holiday-promo-2023-cta = Отримайте 1 рік { -brand-name-relay-premium }
