@@ -41,8 +41,8 @@ toast-button-close-label = Закрити сповіщення
 
 tips-header-title = Довідка й поради
 tips-header-button-close-label = Відхилити
-tips-footer-link-faq-label = ЧаП
-tips-footer-link-faq-tooltip = Часті запитання
+tips-footer-link-faq-label = Поширені запитання
+tips-footer-link-faq-tooltip = Поширені запитання
 tips-footer-link-feedback-label = Відгук
 tips-footer-link-feedback-tooltip = Надіслати відгук
 tips-footer-link-support-label = Підтримка

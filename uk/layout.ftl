@@ -21,7 +21,7 @@ nav-phone-dashboard = Маски номерів телефонів
 label-open-menu = Відкрити меню
 avatar-tooltip = Профіль
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
-nav-faq = ЧаП
+nav-faq = Поширені запитання
 nav-profile-sign-in = Увійти
 nav-profile-sign-up = Зареєструватися
 # Deprecated
