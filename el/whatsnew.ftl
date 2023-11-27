@@ -83,3 +83,6 @@ whatsnew-feature-premium-expansion-eu-heading = Απεριόριστες μάσ�
 whatsnew-feature-premium-expansion-eu-snippet = Το { -brand-name-firefox-relay-premium } διατίθεται πλέον στη χώρα σας…
 whatsnew-feature-premium-expansion-eu-description = Το { -brand-name-firefox-relay-premium } είναι πλέον διαθέσιμο στη χώρα σας. Προστατέψτε τα εισερχόμενά σας με απεριόριστες μάσκες email και αποκτήστε έναν μοναδικό τομέα email στο { -brand-name-relay } για να κάνετε τη δημιουργία μασκών εν κινήσει εύκολη και ασφαλή.
 whatsnew-feature-premium-expansion-eu-cta = Απόκτηση του { -brand-name-relay-premium }
+whatsnew-holiday-promo-2023-news-heading = Λάβετε 20% έκπτωση στο { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Αυτές τις γιορτές, λάβετε έκπτωση 20% στην τιμή του { -brand-name-relay-premium } για ένα έτος. Εισαγάγετε απλώς τον κωδικό «HOLIDAY20» κατά την πληρωμή. Η προσφορά λήγει στις 31 Δεκεμβρίου 2023.
