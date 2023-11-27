@@ -136,3 +136,13 @@ tooltip-email-domain-explanation-part-one-free = Mit { -brand-name-premium } kö
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = In einem Restaurant? Verwenden Sie restaurant@ihredomain.{ $mozmail }. <p>Einkaufen? Versuchen Sie es mit shop@ihredomain.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Schützen Sie Ihren Posteingang für weniger Geld
+holiday-promo-banner-code-desc = Erhalten Sie 20% auf { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Verwenden Sie beim Bezahlen den Code <coupon>{ $couponCode }</coupon>
+holiday-promo-banner-cta-button = Holen Sie sich ein Jahr { -brand-name-premium }
+holiday-promo-banner-promo-expiry = Angebot endet am 31. Dezember 2023
