@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Onbeperkte maskers nu beschikbaa
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is nu beschikbaar in uw land…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } is nu beschikbaar in uw land. Bescherm uw Postvak IN met onbeperkte e-mailmaskers en ontvang een uniek { -brand-name-relay }-e-maildomein om het aanmaken van maskers onderweg eenvoudig en veilig te maken.
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } verkrijgen
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Ontvang deze feestdagen 20% korting op de prijs van 1 jaar { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Ontvang 20% korting op { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Ontvang deze feestdagen 20% korting op de prijs van 1 jaar { -brand-name-relay-premium }. Voer gewoon de promotiecode ‘HOLIDAY20’ in bij het afrekenen. Aanbieding eindigt op 31 december 2023.
+whatsnew-holiday-promo-2023-cta = Ontvang 1 jaar { -brand-name-relay-premium }
