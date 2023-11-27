@@ -136,3 +136,13 @@ tooltip-email-domain-explanation-part-one-free = A { -brand-name-premium }mal ko
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet. <p>Vásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Védje meg a postafiókját olcsóbban
+holiday-promo-banner-code-desc = Szerezzen 20% kedvezményt a { -brand-name-relay-premium }ból
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Használja a <coupon>{ $couponCode }</coupon> kódot fizetéskor
+holiday-promo-banner-cta-button = Kapjon 1 év { -brand-name-premium }ot
+holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-én jár le
