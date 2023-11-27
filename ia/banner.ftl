@@ -132,3 +132,8 @@ tooltip-email-domain-explanation-part-one-free = Con { -brand-name-premium }, tu
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = A un restaurante? Usa restaurante@tu_dominio.{ $mozmail }. <p>Compras? Prova boteca@tu_dominio.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-cta-button = Obtene 1 anno de { -brand-name-premium }
+holiday-promo-banner-promo-expiry = le offerta expira le 31 decembre 2023
