@@ -136,3 +136,13 @@ tooltip-email-domain-explanation-part-one-free = Dengan { -brand-name-premium },
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = Di restoran? Gunakan restoran@domainanda.{ $mozmail }. <p>Belanja? Coba belanja@domainanda.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Lindungi kotak masuk Anda dengan harga lebih murah
+holiday-promo-banner-code-desc = Dapatkan diskon 20% { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Gunakan kode <coupon>{ $couponCode }</coupon> saat checkout
+holiday-promo-banner-cta-button = Dapatkan { -brand-name-premium } selama 1 tahun
+holiday-promo-banner-promo-expiry = penawaran berakhir pada 31 Des 2023
