@@ -136,9 +136,9 @@ tooltip-email-domain-explanation-part-three = 要预订餐厅？可以用 cantin
 ## 2023 Holiday promo
 
 holiday-promo-banner-protect-inbox = 以更少的费用保护您的收件箱
-holiday-promo-banner-code-desc = { -brand-name-relay-premium } 折扣
+holiday-promo-banner-code-desc = { -brand-name-relay-premium } 八折优惠
 # Variables:
 # 	$couponCode (string) - the coupon code.
 holiday-promo-banner-code-usage = 结帐时使用折扣码 <coupon>{ $couponCode }</coupon>
-holiday-promo-banner-cta-button = 免费订阅 1 年 { -brand-name-premium }
+holiday-promo-banner-cta-button = 订阅 1 年 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 优惠至 2023 年 12 月 31 日
