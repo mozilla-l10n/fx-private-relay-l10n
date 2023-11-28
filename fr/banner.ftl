@@ -135,10 +135,10 @@ tooltip-email-domain-explanation-part-three = Vous êtes au restaurant ? Utilis
 
 ## 2023 Holiday promo
 
-holiday-promo-banner-protect-inbox = Protégez votre boîte de réception à bas prix
+holiday-promo-banner-protect-inbox = Protégez votre boîte de réception sans vous ruiner
 holiday-promo-banner-code-desc = Obtenez 20 % de réduction sur { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
-holiday-promo-banner-code-usage = Utilisez le code <coupon>{ $couponCode }</coupon> à la caisse
+holiday-promo-banner-code-usage = Utilisez le code <coupon>{ $couponCode }</coupon> lors du paiement
 holiday-promo-banner-cta-button = Bénéficiez d’un an de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = l’offre prend fin le 31 décembre 2023
