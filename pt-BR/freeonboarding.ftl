@@ -26,6 +26,17 @@ profile-free-onboarding-copy-mask-item-description-1 = Receba excelente conteúd
 profile-free-onboarding-copy-mask-item-headline-2 = Obtenha a camisa, não spam
 profile-free-onboarding-copy-mask-item-description-2 = Aquela loja online não precisa do seu email verdadeiro para enviar o produto para você.
 profile-free-onboarding-copy-mask-how-forwarding-works = Veja como funciona o encaminhamento
+profile-free-onboarding-copy-mask-what-emails-to-block = Máscaras estão encaminhando emails que você não quer? Você pode desativar o encaminhamento em uma única etapa, evitando receber emails indesejados.
+profile-free-onboarding-copy-mask-paste-the-email = Cole a máscara de email que você acabou de copiar
+profile-free-onboarding-copy-mask-try-out-email-forwarding = Experimente o encaminhamento de email
+profile-free-onboarding-copy-mask-send-email = Enviar email
+profile-free-onboarding-copy-mask-nevermind = Não, obrigado
+profile-free-onboarding-copy-mask-continue = Avançar
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Máscara de email do { -brand-name-relay }
+profile-free-onboarding-copy-mask-check-inbox = Agora verifique sua caixa de entrada de email
 
 ## Step 3 Relay Extension Added
 
+profile-free-onboarding-addon-finish = Concluir
+profile-free-onboarding-addon-headline = Use suas máscaras em qualquer lugar
+profile-free-onboarding-addon-subheadline = Experimente usar suas máscaras em qualquer lugar que precisar de um email
