@@ -135,5 +135,10 @@ tooltip-email-domain-explanation-part-three = A un restaurante? Usa restaurante@
 
 ## 2023 Holiday promo
 
+holiday-promo-banner-protect-inbox = Protege tu cassa de ingresso pro minus
+holiday-promo-banner-code-desc = Sparnia le 20% sur { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Usa le codice <coupon>{ $couponCode }</coupon> al momento del pagamento
 holiday-promo-banner-cta-button = Obtene 1 anno de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = le offerta expira le 31 decembre 2023
