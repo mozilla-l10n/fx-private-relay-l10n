@@ -145,4 +145,4 @@ holiday-promo-banner-code-desc = Szerezzen 20% kedvezményt a { -brand-name-rela
 # 	$couponCode (string) - the coupon code.
 holiday-promo-banner-code-usage = Használja a <coupon>{ $couponCode }</coupon> kódot fizetéskor
 holiday-promo-banner-cta-button = Kapjon 1 év { -brand-name-premium }ot
-holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-én jár le
+holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-ig érvényes
