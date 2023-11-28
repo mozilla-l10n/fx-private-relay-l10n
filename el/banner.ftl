@@ -136,3 +136,13 @@ tooltip-email-domain-explanation-part-one-free = Με το { -brand-name-premium
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = Είστε σε κάποιο εστιατόριο; Χρησιμοποιήστε το estiatorio@otomeassas.{ $mozmail }. <p>Κάνετε αγορές; Δοκιμάστε το katasthma@otomeassas.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Προστατέψτε τα εισερχόμενά σας με λιγότερο κόστος
+holiday-promo-banner-code-desc = Λάβετε έκπτωση 20% στο { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Χρησιμοποιήστε τον κωδικό <coupon>{ $couponCode }</coupon> κατά την πληρωμή
+holiday-promo-banner-cta-button = Αποκτήστε το { -brand-name-premium } για ένα έτος
+holiday-promo-banner-promo-expiry = Η προσφορά λήγει στις 31 Δεκεμβρίου 2023
