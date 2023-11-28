@@ -34,9 +34,15 @@ profile-free-onboarding-copy-mask-nevermind = Não, obrigado
 profile-free-onboarding-copy-mask-continue = Avançar
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = Máscara de email do { -brand-name-relay }
 profile-free-onboarding-copy-mask-check-inbox = Agora verifique sua caixa de entrada de email
+profile-free-onboarding-copy-mask-email-this-mask = Não enviaremos mais email para esta máscara, não se preocupe.
 
 ## Step 3 Relay Extension Added
 
+profile-free-onboarding-addon-get-extension = Instalar a extensão do { -brand-name-relay }
 profile-free-onboarding-addon-finish = Concluir
 profile-free-onboarding-addon-headline = Use suas máscaras em qualquer lugar
 profile-free-onboarding-addon-subheadline = Experimente usar suas máscaras em qualquer lugar que precisar de um email
+profile-free-onboarding-addon-item-headline-1 = Elas funcionam em qualquer lugar que você precisar de um email
+profile-free-onboarding-addon-item-description-1 = Sempre que precisar inserir um email, você pode usar uma máscara de email do { -brand-name-relay }. Pode até gerar novas máscaras diretamente no gerenciador de senhas do { -brand-name-firefox }.
+profile-free-onboarding-addon-item-headline-2 = A extensão do { -brand-name-relay } facilita
+profile-free-onboarding-addon-item-description-2 = Sempre que aparecer um campo de endereço de email, a extensão de navegador do { -brand-name-firefox-relay } preenche automaticamente qualquer máscara de email que você quiser usar. Não precisa lembrar de cada máscara!
