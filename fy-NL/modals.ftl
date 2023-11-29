@@ -18,6 +18,17 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E-mailmaskers meie allin
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-mailmaskers meie allinnich lytse letters, sifers en keppeltekens befetsje en meie net begjinne of einigje mei in punt of in keppelteken.
 modal-custom-alias-picker-form-submit-label-2 = Masker oanmeitsje
 modal-custom-alias-picker-creation-error-2 = Jo oanpaste masker kin net hânmjittich makke wurde. Probearje it opnij of stjoer in e-mailberjocht nei it masker om dizze oan te meitsjen.
+modal-custom-alias-picker-tip-redesign = Tip: om in oanpast masker te meitsjen sûnder dat jo jo oan hoege te melden by { -brand-name-relay }, foegje jo gewoan in wurd of wurdgroep ta foar de @ yn jo { -brand-name-relay }-e-maildomein. De earste kear dat immen dêr in e-mailberjocht hinne stjoert, sil jo masker automatysk oanmakke wurde.
+modal-custom-alias-picker-form-prefix-placeholder-redesign = Fier tekst yn
+error-alias-picker-prefix-invalid-uppercase-letters = Gjin haadletters
+error-alias-picker-prefix-invalid-symbols = Gjin symboalen útsein punten of keppeltekens
+error-alias-picker-prefix-invalid = Wy koene gjin oanpast masker generearje mei dat wurd of dy sin. Probearje in oare.
+done-msg = Dien
+copy-mask = Masker kopiearje
+popover-custom-alias-explainer-promotional-block-checkbox-label = Starte mei reklameberjochten blokkearjen
+error-state-valid-alt = Jildich
+error-state-invalid-alt = Unjildich
+close-button-label-alt = Slute
 modal-rename-alias-saved = Label bewarre!
 modal-delete-headline-2 = Dit masker definityf fuortsmite?
 # Variables:

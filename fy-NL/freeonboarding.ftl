@@ -43,3 +43,6 @@ profile-free-onboarding-addon-finish = Foltôgje
 profile-free-onboarding-addon-headline = Brûk jo maskers oeral
 profile-free-onboarding-addon-subheadline = Probearje jo maskers oeral te brûken wêr’t jo in e-mailadres nedich hawwe
 profile-free-onboarding-addon-item-headline-1 = Se wurkje oeral wêr’t jo in e-mailadres nedich hawwe
+profile-free-onboarding-addon-item-description-1 = Oeral wêr’t jo in e-mailadres ynfiere moatte, kinne jo in { -brand-name-relay }-e-mailmasker brûke. Jo kinne sels nije maskers streekrjocht fan jo { -brand-name-firefox }-wachtwurdbehearder út oanmeitsje.
+profile-free-onboarding-addon-item-headline-2 = De { -brand-name-relay }-útwreiding makket it ienfâldich
+profile-free-onboarding-addon-item-description-2 = Elke kear as jo in e-mailadresfjild sjogge, sil de browserútwreiding { -brand-name-firefox-relay } automatysk elk e-mailmasker dat jo mar brûke wolle ynfolje. Jo hoege net elk masker te ûnthâlden!

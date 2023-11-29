@@ -83,3 +83,10 @@ whatsnew-feature-premium-expansion-eu-heading = Unbeheinde maskers no beskikber
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is no beskikber yn jo lân…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } is no beskikber yn jo lân. Beskermje jo Postfek YN mei ûnbeheinde e-mailmaskers, en ûntfang in unyk { -brand-name-relay }-e-maildomein om it meitsjen fan maskers ûnderweis maklik en feilich te meitsjen.
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } krije
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Untfang dizze feestdagen 20% koarting op de priis fan 1 jier { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Untfang 20% koarting op { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Untfang dizze feestdagen 20% koarting op de priis fan 1 jier { -brand-name-relay-premium }. Fier gewoan de promoasjekoade ‘HOLIDAY20’ yn by it ôfrekkenjen. Oanbieding einiget op 31 desimber 2023.
+whatsnew-holiday-promo-2023-cta = Untfang 1 jier { -brand-name-relay-premium }

@@ -268,6 +268,7 @@ first-time-user-email-welcome-subhead = Jo e-mailadres kin brûkt wurde om jo on
 first-time-user-email-hero-primary-text = As brûker fan { -brand-name-firefox } krije jo 5 e-mailmaskers fergees. Brûk se om jo echte e-mailadres te ferbergjen, jo identiteit te beskermjen en allinnich jo winske e-mailberjochten nei jo Postfek YN troch te stjoeren.
 first-time-user-email-hero-secondary-text = Behear al jo maskers fan jo { -brand-name-relay }-dashboerd ôf
 first-time-user-email-hero-cta = Besjoch jo dashboerd
+first-time-user-email-cta-dashboard-button = { -brand-name-relay } leare brûke
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
