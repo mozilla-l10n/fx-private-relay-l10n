@@ -135,10 +135,10 @@ tooltip-email-domain-explanation-part-three = 在餐廳吃飯嗎？可以使用 
 
 ## 2023 Holiday promo
 
-holiday-promo-banner-protect-inbox = 花更少錢保護您的收件匣
+holiday-promo-banner-protect-inbox = 用更划算的金額保護您的收件匣
 holiday-promo-banner-code-desc = { -brand-name-relay-premium } 可享八折折扣
 # Variables:
 # 	$couponCode (string) - the coupon code.
 holiday-promo-banner-code-usage = 結帳時使用折扣碼 <coupon>{ $couponCode }</coupon>
-holiday-promo-banner-cta-button = 使用 1 年的 { -brand-name-premium }
+holiday-promo-banner-cta-button = 獲得 1 年的 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 優惠結束於 2023 年 12 月 31 日
