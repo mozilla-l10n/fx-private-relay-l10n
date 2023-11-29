@@ -32,6 +32,14 @@ profile-free-onboarding-copy-mask-try-out-email-forwarding = Probearje it trochs
 profile-free-onboarding-copy-mask-send-email = E-mailberjocht ferstjoere
 profile-free-onboarding-copy-mask-nevermind = Lit mar
 profile-free-onboarding-copy-mask-continue = Trochgean
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay }-e-mailmasker
+profile-free-onboarding-copy-mask-check-inbox = Kontrolearje no jo Postfek YN
+profile-free-onboarding-copy-mask-email-this-mask = Wy sille gjin berjocht mear nei dit masker ferstjoere, meitsje jo gjin soargen.
 
 ## Step 3 Relay Extension Added
 
+profile-free-onboarding-addon-get-extension = Download de { -brand-name-relay }-útwreiding
+profile-free-onboarding-addon-finish = Foltôgje
+profile-free-onboarding-addon-headline = Brûk jo maskers oeral
+profile-free-onboarding-addon-subheadline = Probearje jo maskers oeral te brûken wêr’t jo in e-mailadres nedich hawwe
+profile-free-onboarding-addon-item-headline-1 = Se wurkje oeral wêr’t jo in e-mailadres nedich hawwe
