@@ -68,6 +68,21 @@ modal-email-domain-good-news = İyi bir haberimiz var!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> kullanılabilir
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-confirmation-checkbox = Evet, @{ $subdomain } alan adını kaydettirmek istiyorum
+modal-email-domain-cancel = Vazgeç
+modal-email-domain-register = Kaydet
+modal-email-domain-success-body-on-the-go = Yeni maske oluşturmak için { -brand-name-relay }’e giriş yapmanıza gerek yok.
+modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümleyi ekleyerek sınırsız maske oluşturabilirsiniz
+modal-email-domain-success-continue = İleri
+tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
 
 ## 2023 Holiday promo
 
+holiday-promo-banner-code-desc = { -brand-name-relay-premium }’da %20 indirim
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Ödeme sırasında <coupon>{ $couponCode }</coupon> kodunu kullanın
+holiday-promo-banner-cta-button = 1 yıllık { -brand-name-premium } alın
+holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
