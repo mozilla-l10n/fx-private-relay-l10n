@@ -26,6 +26,12 @@ profile-free-onboarding-copy-mask-item-description-1 = Untfang geweldige ynhâld
 profile-free-onboarding-copy-mask-item-headline-2 = Untfng it shirt, net de spam
 profile-free-onboarding-copy-mask-item-description-2 = Dy online winkel hat jo echte e-mail net nedich om it nei jo te ferstjoeren.
 profile-free-onboarding-copy-mask-how-forwarding-works = Besjoch hoe’t trochstjoeren wurket
+profile-free-onboarding-copy-mask-what-emails-to-block = Stjoere maskers e-mailberjochten troch dy’t jo net wolle? Jo kinne it trochstjoeren yn ien stap útsette, wêrtroch jo gjin net-winske e-mailberjochten ûntfange.
+profile-free-onboarding-copy-mask-paste-the-email = Plak it e-mailmasker dat jo niiskrekt kopiearre hawwe
+profile-free-onboarding-copy-mask-try-out-email-forwarding = Probearje it trochstjoeren fan e-mailberjochten
+profile-free-onboarding-copy-mask-send-email = E-mailberjocht ferstjoere
+profile-free-onboarding-copy-mask-nevermind = Lit mar
+profile-free-onboarding-copy-mask-continue = Trochgean
 
 ## Step 3 Relay Extension Added
 
