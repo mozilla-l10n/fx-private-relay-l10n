@@ -136,3 +136,13 @@ tooltip-email-domain-explanation-part-one-free = Gyda { -brand-name-premium } , 
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = Mewn bwyty? Defnyddiwch restaurant@eichparth.{ $mozmail }. <p>Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-protect-inbox = Diogelwch eich blwch derbyn am lai
+holiday-promo-banner-code-desc = Tynnwch 20% oddi ar bris { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Defnyddiwch y cod <coupon>{ $couponCode }</coupon> wrth y ddesg dalu
+holiday-promo-banner-cta-button = Cael 1 flwyddyn oddi ar bris { -brand-name-premium }
+holiday-promo-banner-promo-expiry = daw'r cynnig i ben Rhagfyr 31, 2023

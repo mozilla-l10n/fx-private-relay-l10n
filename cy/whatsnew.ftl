@@ -87,3 +87,10 @@ whatsnew-feature-premium-expansion-eu-heading = Arallenwau diderfyn ar gael nawr
 whatsnew-feature-premium-expansion-eu-snippet = Mae { -brand-name-firefox-relay-premium } bellach ar gael yn eich gwlad…
 whatsnew-feature-premium-expansion-eu-description = Mae { -brand-name-firefox-relay-premium } bellach ar gael yn eich gwlad. Diogelwch eich blwch derbyn gydag arallenwau e-bost diderfyn, a chael parth e-bost { -brand-name-relay } unigryw i wneud creu arallenwau wrth fynd yn hawdd ac yn ddiogel.
 whatsnew-feature-premium-expansion-eu-cta = Cael { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Y tymor gwyliau hwn, cewch ostyngiad o 20% ar bris 1 flwyddyn o { -brand-name-relay-premium }.
+whatsnew-holiday-promo-2023-news-heading = Cael 20% oddi ar bris { -brand-name-relay-premium }
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = Y tymor gwyliau hwn, cewch ostyngiad o 20% ar bris 1 flwyddyn o { -brand-name-relay-premium }. Rhowch y cod hyrwyddo “HOLIDAY20” wrth y ddesg dalu. Daw’r cynnig i ben ar 31 Rhagfyr, 2023.
+whatsnew-holiday-promo-2023-cta = Cael 1 flwyddyn o { -brand-name-relay-premium }
