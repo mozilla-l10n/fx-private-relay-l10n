@@ -30,7 +30,7 @@ banner-register-subdomain-example-address = alanadiniz
 banner-choose-subdomain-input-placeholder-3 = Alt alan adı ara
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Ara
-banner-pack-upgrade-headline-2-html = Daha fazla e-posta maskesine sahip olmak için { -brand-name-firefox-relay-premium }</strong>’a geçin
+banner-pack-upgrade-headline-2-html = Daha fazla e-posta maskesine sahip olmak için <strong>{ -brand-name-firefox-relay-premium }</strong>’a geçin
 banner-pack-upgrade-cta = Şimdi yükselt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Gizlilik Bildirimi Güncellemesi
