@@ -32,6 +32,7 @@ nav-profile-sign-out-confirm = Çıkış yapmak istediğinizden emin misiniz?
 nav-profile-settings = Ayarlar
 nav-profile-settings-tooltip = { -brand-name-firefox-relay }’i yapılandır
 nav-profile-help = Yardım ve destek
+nav-profile-help-tooltip = { -brand-name-relay }’in kullanımıyla ilgili yardım alın
 # This is only visible to Premium users.
 nav-profile-contact = Bize ulaşın
 # This is only visible to Premium users.
@@ -58,6 +59,9 @@ fx-mobile-2 = Mobil cihazlar için { -brand-name-firefox }
 ## Footer
 
 nav-footer-privacy = Gizlilik
+nav-footer-relay-terms = { -brand-name-relay } Koşulları
+nav-footer-legal = Hukuki Bilgiler
+nav-footer-release-notes = Sürüm Notları
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logosu
 
