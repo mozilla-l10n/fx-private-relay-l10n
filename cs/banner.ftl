@@ -139,6 +139,6 @@ holiday-promo-banner-protect-inbox = Chraňte svou e-mailovou schránku za mén�
 holiday-promo-banner-code-desc = Získejte slevu 20 % na službu { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
-holiday-promo-banner-code-usage = U pokladny použijte kód <coupon>{ $couponCode }</coupon>
-holiday-promo-banner-cta-button = Získejte 1 rok { -brand-name-premium }
+holiday-promo-banner-code-usage = Při placení použijte kód <coupon>{ $couponCode }</coupon>
+holiday-promo-banner-cta-button = Získat { -brand-name-premium } na 1 rok
 holiday-promo-banner-promo-expiry = nabídka končí 31. prosince 2023
