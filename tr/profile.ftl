@@ -7,12 +7,14 @@
 
 onboarding-headline-2 = İlk e-posta maskenizi oluşturun
 onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni maske oluştur”u seçin.
+profile-promo-upgrade-headline = Daha fazla özellik için yükseltme yapın.
 profile-details-expand = Maske ayrıntılarını göster
 profile-details-collapse = Maske ayrıntılarını gizle
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = { $address } maskesini kopyalamak için tıklayın.
+profile-label-edit-2 = Bu maskenin etiketini düzenle
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Hesap adı ekle
 profile-label-save-error = Kaydedilemedi. Lütfen yeniden deneyin.
@@ -44,6 +46,7 @@ profile-label-copied = Kopyalandı
 profile-label-cancel = Vazgeç
 profile-forwarded-note = Not:
 profile-stat-learn-more-close = Kapat
+profile-filter-search-placeholder-2 = Maske ara
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
@@ -51,6 +54,11 @@ profile-stat-learn-more-close = Kapat
 profile-promo-email-blocking-option-all = Tümü
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Hiçbiri
+# Deprecated
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-option-promotionals-premiumonly-marker = (yalnızca { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } bekleme listesine katılın
+profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 
 ## 5 Mask Upsell (displayed on the profile page)
 

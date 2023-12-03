@@ -147,6 +147,25 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 ## Email sent to people onboarding that receive their first forwarded email.
 
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
+first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
+first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
+first-time-user-email-extra-protection-inbox-title = Gelen kutunuz için ekstra koruma
+first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
+first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Destek ekibimiz</a> size yardımcı olabilir.
+first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı olabilir.
+first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 ## API error messages
 
+# Variables:
+#   $unavailable_address (string) - User-set subdomain that is not allowed
+api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.
+api-error-need-subdomain = Özel bir e-posta adresi oluşturmadan önce lütfen bir alt alan adı seçin.

@@ -6,6 +6,7 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Kapat
+banner-bounced-headline = { -brand-name-relay } e-postanızı teslim edemedi.
 banner-download-firefox-headline = { -brand-name-relay } { -brand-name-firefox }’ta daha da iyi
 banner-download-firefox-copy-2 = { -brand-name-firefox-browser } { -brand-name-relay } uzantısı maske oluşturmayı daha da kolaylaştırıyor.
 banner-download-firefox-cta = { -brand-name-firefox }’u indirin

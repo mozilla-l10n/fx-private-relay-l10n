@@ -21,6 +21,7 @@ error-state-invalid-alt = Geçersiz
 close-button-label-alt = Kapat
 modal-rename-alias-saved = Etiket kaydedildi
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
+modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } kullanılabilir durumda!
@@ -28,4 +29,5 @@ modal-domain-register-available = { $subdomain } kullanılabilir durumda!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> kullanılabilir durumda!
+modal-domain-register-success-title = Tamamlandı!
 modal-domain-register-success-copy-2 = Artık sınırsız sayıda özel e-posta maskesi oluşturabilirsiniz!
