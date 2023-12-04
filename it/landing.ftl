@@ -46,7 +46,7 @@ how-it-works-section-title = Come funzionano gli alias { -brand-name-relay } per
 # Item 1
 
 how-it-works-section-extension-headline = Utilizza gli alias { -brand-name-relay } per numeri di telefono e posta elettronica ovunque
-how-it-works-section-extension-body = Ottieni alias di posta elettronica sicuri e casuali e un alias univoco per il tuo numero di telefono da utilizzare ogni volta che siti web, app, negozi o ristoranti richiedono le tue informazioni,
+how-it-works-section-extension-body = Ottieni alias di posta elettronica sicuri e casuali e un alias univoco per il tuo numero di telefono da utilizzare ogni volta che siti web, app, negozi o ristoranti richiedono le tue informazioni.
 
 # Item 2
 
