@@ -17,7 +17,10 @@ profile-free-onboarding-close-modal = Kutuyu kapat
 
 ## Step 2 How to Use a Mask
 
+profile-free-onboarding-copy-mask-headline = Kullanmak için e-posta maskenizi kopyalayın
 profile-free-onboarding-copy-mask-description = Unuturum diye endişelenmeyin, kontrol panelinizden görebilirsiniz.
+profile-free-onboarding-copy-mask-email-mask-label = E-posta maskesi etiketini yazın
+profile-free-onboarding-copy-mask-item-headline-1 = Bültenlere kaydolun
 profile-free-onboarding-copy-mask-item-description-1 = Gerçek e-posta adresinizi paylaşmadan harika içeriklere kavuşun.
 profile-free-onboarding-copy-mask-paste-the-email = Az önce kopyaladığınız e-posta maskesini yapıştırın
 profile-free-onboarding-copy-mask-continue = İleri
@@ -31,4 +34,5 @@ profile-free-onboarding-addon-finish = Bitir
 profile-free-onboarding-addon-headline = Maskelerinizi her yerde kullanın
 profile-free-onboarding-addon-subheadline = E-postaya ihtiyacınız olan her yerde maskelerinizi kullanmayı deneyin
 profile-free-onboarding-addon-item-headline-1 = E-posta adresinizi vermeniz gereken her yerde çalışırlar
+profile-free-onboarding-addon-item-description-1 = E-posta girmeniz gereken her yerde { -brand-name-relay } e-posta maskesi kullanabilirsiniz. Yeni maskeleri doğrudan { -brand-name-firefox } parola yöneticinizden bile oluşturabilirsiniz.
 profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } uzantısıyla işinizi kolaylaştırın

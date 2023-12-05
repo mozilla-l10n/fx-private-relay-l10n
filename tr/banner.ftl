@@ -51,6 +51,7 @@ banner-offer-end-headline = Tanıtım fiyatı teklifimiz yakında bitiyor!
 banner-offer-end-copy = { $end_date } tarihinden önce { -brand-name-relay-premium }’u edinin ve başlangıç fiyatıyla sınırsız maskelemenin keyfini çıkarın.
 banner-offer-end-cta = Şimdi yükseltin
 banner-ab-premium-promo-advanced-identity-headline = Gelişmiş kimlik koruması
+banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi de sağlar.
 banner-ab-premium-promo-extra-protection-headline = Gelen kutunuz ve telefonunuz için ek koruma
 banner-ab-premium-promo-cta = Yükselt
 
@@ -59,12 +60,14 @@ banner-ab-premium-promo-cta = Yükselt
 banner-set-email-domain-headline-action-needed = İşlem gerekiyor
 banner-set-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 banner-set-email-domain-step-one-headline = İstediğiniz { -brand-name-relay } e-posta alan adını seçin
+banner-set-email-domain-step-one-body = E-postanızda @ simgesinden sonra gelir.
 banner-set-email-domain-input-placeholder-label = E-posta alan adı ara
 banner-set-email-domain-input-placeholder = Kelime veya kelime öbeği ara
 # This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
 # and without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = alanadiniz
+banner-set-email-domain-learn-more = Daha fazla bilgi alın
 modal-email-domain-good-news = İyi bir haberimiz var!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -74,13 +77,19 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> kullanılabilir
 modal-domain-register-confirmation-checkbox = Evet, @{ $subdomain } alan adını kaydettirmek istiyorum
 modal-email-domain-cancel = Vazgeç
 modal-email-domain-register = Kaydet
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> artık { -brand-name-relay } e-posta alan adınız!
+modal-email-domain-success-headline-on-the-go = Her yerde yeni { -brand-name-relay } maskeleri oluşturmak için bunu kullanabilirsiniz
 modal-email-domain-success-body-on-the-go = Yeni maske oluşturmak için { -brand-name-relay }’e giriş yapmanıza gerek yok.
 modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümleyi ekleyerek sınırsız maske oluşturabilirsiniz
 modal-email-domain-success-continue = İleri
+tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
 
 ## 2023 Holiday promo
 
+holiday-promo-banner-protect-inbox = Gelen kutunuzu daha ucuza koruyun
 holiday-promo-banner-code-desc = { -brand-name-relay-premium }’da %20 indirim
 # Variables:
 # 	$couponCode (string) - the coupon code.

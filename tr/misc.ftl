@@ -19,7 +19,8 @@ success-signed-in-message = { $username } olarak başarıyla giriş yapıldı.
 error-premium-cannot-change-subdomain = Alt alan adınızı değiştiremezsiniz
 error-premium-set-subdomain = Alt alan adı ayarlamak için premium abone olmalısınız
 error-premium-check-subdomain = Bir alt alan adını kontrol etmek için premium abone olmalısınız
-error-subdomain-not-created = Alt alan oluşturulamadı. Başka bir şey deneyin
+error-subdomain-not-created = Alt alan adı oluşturulamadı. Başka bir şey deneyin
+error-subdomain-email-not-created = Alt alan adıyla e-posta adresi oluşturulamadı. Başka bir şey deneyin
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = @{ $unavailable_subdomain } alt alan adı kullanılamıyor. Lütfen farklı bir tane deneyin.
@@ -38,6 +39,7 @@ toast-button-close-label = Bildirimi kapat
 
 ## Tips and tricks at the bottom of the page
 
+tips-header-title = Yardım ve İpuçları
 tips-header-button-close-label = Kapat
 tips-footer-link-faq-label = SSS
 tips-footer-link-faq-tooltip = Sıkça sorulan sorular
@@ -52,6 +54,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bi
 
 ## Report of trackers removed from an email
 
+trackerreport-title = { -brand-name-relay } takip kodu kaldırma raporu
 trackerreport-meta-count-heading = Toplam takip kodu
 trackerreport-trackers-count-heading = Takip kodu sayısı
 trackerreport-trackers-none = Bu e-postada hiç takip kodu tespit edilmedi.
@@ -80,6 +83,32 @@ contains-tracker-title = Bu bağlantı veya resim takip kodu içeriyor
 contains-tracker-warning-title = Bağlantıyı yine de görüntülemek istiyor musunuz?
 contains-tracker-warning-view-link-cta = Evet, bağlantıyı göster
 contains-tracker-faq-section-title = E-posta takip kodlarıyla ilgili sık sorulan sorular
+# Time remaining until Relay Premium's introductory pricing is no longer available.
+# This will not be shown anymore once the time runs out.
+# Variables:
+#   $remaining_days (number) - The number of days before the countdown stops
+#   $remaining_hours (number) - The number of hours (in addition to $remaining_days) before the countdown stops
+offer-countdown-timer-alt =
+    { $remaining_days ->
+        [0]
+            { $remaining_hours ->
+                [1] 1 saat kaldı
+                [0] { "" }
+               *[other] { $remaining_hours } saat kaldı
+            }
+        [1]
+            { $remaining_hours ->
+                [1] 1 gün 1 saat kaldı
+                [0] 1 gün kaldı
+               *[other] 1 gün { $remaining_hours } saat kaldı
+            }
+       *[other]
+            { $remaining_hours ->
+                [1] { $remaining_days } gün 1 saat kaldı
+                [0] { $remaining_days } gün kaldı
+               *[other] { $remaining_days } gün { $remaining_hours } saat kaldı
+            }
+    }
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = Gün
@@ -95,6 +124,7 @@ offer-countdown-timer-seconds = Saniye
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-1 = 1-10 arası bir ölçekte, { -brand-name-relay }’i bir arkadaşınıza önerme olasılığınız nedir?
 survey-question-2 = { -brand-name-relay }’in kullanımı kolay mı?
 survey-question-3 = { -brand-name-relay }’in güvenilir olduğunu düşünüyor musunuz?
 survey-question-4 = { -brand-name-relay } yalın ve basit bir arayüze sahip mi?
@@ -126,10 +156,12 @@ survey-csat-answer-very-satisfied = Çok memnunum
 # Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-posta takip kodu kaldırıldı
+forwarded-email-trackers-blocked-report = Daha fazla bilgi alın
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-manage-this-mask = Bu maskeyi yönet
 relay-email-your-dashboard = Kontrol paneliniz
 
 ## Email sent to free users who try to reply
