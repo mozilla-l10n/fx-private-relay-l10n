@@ -63,6 +63,6 @@ modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的�
 
 ## Updated mask deletion modal strings
 
-mask-deletion-header = 要刪除這組轉寄信箱嗎
-mask-deletion-warning-no-recovery = 刪除此轉寄信箱後就無法再复原。您將不會再收到任何透過它發送的郵件。
-mask-deletion-warning-sign-ins = 若您使用此轉寄信箱來登入任何帳號請在刪除此轉寄信箱前更改這些帳號的信箱。
+mask-deletion-header = 要刪除這組轉寄信箱嗎？
+mask-deletion-warning-no-recovery = 刪除此轉寄信箱後就無法再還原，不會再透過此信箱轉寄任何郵件給您。
+mask-deletion-warning-sign-ins = 若您使用此轉寄信箱註冊過帳號，也實際用於登入，請在刪除此轉寄信箱前先更改這些帳號對應的電子郵件地址。
