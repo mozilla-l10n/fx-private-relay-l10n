@@ -44,4 +44,5 @@ profile-free-onboarding-addon-headline = Utilisez vos alias partout
 profile-free-onboarding-addon-subheadline = Essayez d’utiliser vos alias dès que vous avez besoin d’une adresse e-mail
 profile-free-onboarding-addon-item-headline-1 = Ils fonctionnent partout où vous avez besoin d’une adresse e-mail
 profile-free-onboarding-addon-item-description-1 = Chaque fois que vous devez saisir une adresse e-mail, vous pouvez utiliser un alias de messagerie { -brand-name-relay }. Vous pouvez même générer de nouveaux alias directement depuis le gestionnaire de mots de passe de { -brand-name-firefox }.
+profile-free-onboarding-addon-item-headline-2 = L’extension { -brand-name-relay } facilite l’utilisation des alias
 profile-free-onboarding-addon-item-description-2 = Chaque fois que vous voyez un champ d’adresse e-mail, l’extension { -brand-name-firefox-relay } remplira automatiquement l’alias de messagerie que vous souhaitez utiliser. Pas besoin de se souvenir de chaque alias !
