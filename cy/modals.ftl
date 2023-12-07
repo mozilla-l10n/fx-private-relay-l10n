@@ -67,3 +67,9 @@ modal-domain-register-success-2 = { $subdomain } yw eich is-barth e-bost!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>. { $domain }</domain> yw eich is-barth e-bost!
 modal-domain-register-success-copy-2 = Nawr gallwch chi greu arallenwau e-bost personol diderfyn!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Dileu'r e-bost arallenw hwn?
+mask-deletion-warning-no-recovery = Unwaith chi ddileu'r arallenw hwn, nid oes modd ei adfer. Fyddwch chi ddim yn derbyn unrhyw e-byst a anfonwyd ato bellach.
+mask-deletion-warning-sign-ins = Os ydych yn defnyddio'r arallenw hwn i fewngofnodi i unrhyw gyfrifon, dylech newid y cyfrifon e-bost hynny cyn dileu'r arallenw hwn.
