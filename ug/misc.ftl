@@ -32,9 +32,26 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 
 ## Tracker warning page
 
+# This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-days = كۈن
+# This is a label displayed on top of a large number representing the number of hours of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), so this might need abbreviating.
+offer-countdown-timer-hours = سائەت
+# This is a label displayed on top of a large number representing the number of minutes of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-minutes = مىنۇت
+# This is a label displayed on top of a large number representing the number of seconds of the remaining time that the introductory pricing offer is still valid
+# There's not much room for this (about five characters), hence the abbreviation.
+offer-countdown-timer-seconds = سېكۇنت
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-option-strongly-disagree = قەتئىي قوشۇلمايمەن
+survey-option-disagree = قوشۇلمايمەن
+survey-option-unsure = پىكىرىم يوق
+survey-option-agree = قوشۇلىمەن
+survey-option-strongly-agree = تامامەن قوشۇلىمەن
 
 ## CSAT survey
 
@@ -42,6 +59,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+forwarded-email-trackers-blocked-report = تېخىمۇ كۆپ بىلدۈرگۈ
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -49,12 +67,14 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 
 ## Email sent to free users who try to reply
 
+reply-not-sent-header = جاۋابىڭىز يوللانمىدى
 
 ## Email sent to first time free users
 
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 
 ## API error messages
 
