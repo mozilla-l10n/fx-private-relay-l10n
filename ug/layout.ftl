@@ -22,6 +22,7 @@ avatar-tooltip = تەرجىمىھال
 nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
 nav-profile-sign-up = تىزىملىتىڭ
+nav-profile-manage-account = ھېسابات باشقۇرۇش
 nav-profile-sign-out-confirm = راستىنلا تىزىمدىن چىقامسىز؟
 nav-profile-settings = تەڭشەكلەر
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } سەپلەڭ
@@ -55,6 +56,16 @@ nav-footer-privacy = شەخسىيەت
 nav-footer-relay-terms = { -brand-name-relay } شەرتلىرى
 nav-footer-legal = قانۇنلۇق
 nav-footer-release-notes = تارقىتىش ئۇقتۇرۇشى
+logo-mozilla-alt = { -brand-name-mozilla }
+logo-github-alt = GitHub تۇغى
 
 ## Bento Menu
 
+made-by-mozilla = { -brand-name-mozilla } ياسىغان
+fx-desktop = { -brand-name-firefox-browser } ئۈستەل نەشرى
+fx-lockwise = { -brand-name-firefox-lockwise }
+fx-mobile = { -brand-name-firefox-browser } كۆچمە نەشرى
+fx-monitor = { -brand-name-firefox-monitor }
+fx-pocket = { -brand-name-pocket }
+fx-vpn = { -brand-name-mozilla-vpn }
+bento-button-close-label = تىزىملىكنى ياپ
