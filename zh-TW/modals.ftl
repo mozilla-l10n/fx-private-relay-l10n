@@ -60,3 +60,9 @@ modal-domain-register-success-2 = 現在起將使用 { $subdomain } 作為您的
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = 現在起將使用 <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> 做為您的信箱子網域！
 modal-domain-register-success-copy-2 = 現在起，您可以無限量建立的自訂轉寄信箱！
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = 要刪除這組轉寄信箱嗎
+mask-deletion-warning-no-recovery = 刪除此轉寄信箱後就無法再复原。您將不會再收到任何透過它發送的郵件。
+mask-deletion-warning-sign-ins = 若您使用此轉寄信箱來登入任何帳號請在刪除此轉寄信箱前更改這些帳號的信箱。
