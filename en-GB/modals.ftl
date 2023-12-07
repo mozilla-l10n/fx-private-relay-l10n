@@ -67,3 +67,9 @@ modal-domain-register-success-2 = { $subdomain } is now your email subdomain!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is now your email subdomain!
 modal-domain-register-success-copy-2 = Now you can create unlimited custom email masks!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Delete this email mask?
+mask-deletion-warning-no-recovery = Once you delete this mask, it cannot be recovered. You will no longer receive any emails sent to it.
+mask-deletion-warning-sign-ins = If you use this mask to sign in to any accounts, you should change those account emails before deleting this mask.
