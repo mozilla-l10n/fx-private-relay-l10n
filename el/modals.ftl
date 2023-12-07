@@ -68,3 +68,9 @@ modal-domain-register-success-2 = Το { $subdomain } είναι πλέον ο �
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Το <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> είναι πλέον ο υποτομέας email σας!
 modal-domain-register-success-copy-2 = Τώρα μπορείτε να δημιουργήσετε απεριόριστες προσαρμοσμένες μάσκες email!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Διαγραφή μάσκας email;
+mask-deletion-warning-no-recovery = Μόλις διαγράψετε αυτήν τη μάσκα, δεν θα είναι δυνατή η ανάκτησή της. Δεν θα λαμβάνετε πλέον τα email που θα αποστέλλονται σε αυτήν.
+mask-deletion-warning-sign-ins = Εάν χρησιμοποιείτε αυτήν τη μάσκα για να συνδεθείτε σε λογαριασμούς, θα πρέπει να αλλάξετε τις διευθύνσεις email σε αυτούς πριν διαγράψετε τη μάσκα.
