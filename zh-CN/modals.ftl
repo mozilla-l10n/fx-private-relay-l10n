@@ -60,3 +60,9 @@ modal-domain-register-success-2 = { $subdomain }  现在是您的专属邮箱子
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain>  现在是您的专属邮箱子域名！
 modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自定义马甲邮箱！
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = 删除此马甲邮箱
+mask-deletion-warning-no-recovery = 此马甲一旦删除就无法恢复。您将不会再收到发送给它的任何邮件。
+mask-deletion-warning-sign-ins = 如果您使用此马甲登录过任何账号您应该在删除此马甲之前更改这些账号的邮箱地址。
