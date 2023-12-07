@@ -67,3 +67,8 @@ modal-domain-register-success-2 = { $subdomain } je teraz vašou e‑mailovou su
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> je teraz vašou e‑mailovou subdoménou!
 modal-domain-register-success-copy-2 = Teraz môžete vytvárať neobmedzené množstvo vlastných e‑mailových masiek!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Odstrániť túto e‑mailovú masku?
+mask-deletion-warning-no-recovery = Keď túto masku odstránite, nebude ju možné obnoviť. Už na ňu nebudete dostávať žiadne e‑maily.
