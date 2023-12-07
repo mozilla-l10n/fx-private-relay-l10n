@@ -64,3 +64,9 @@ modal-domain-register-success-2 = { $subdomain } è ora il tuo sottodominio di p
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> è ora il tuo sottodominio di posta elettronica.
 modal-domain-register-success-copy-2 = Ora puoi creare illimitati alias email personalizzati!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Eliminare questo alias di posta elettronica?
+mask-deletion-warning-no-recovery = Una volta eliminato questo alias, non sarà più possibile recuperarlo. Non riceverai più alcuna email indirizzata a questo specifico alias.
+mask-deletion-warning-sign-ins = Se utilizzi questo alias per accedere a qualsiasi account, dovresti cambiare gli indirizzi email in questi account prima di eliminarlo.
