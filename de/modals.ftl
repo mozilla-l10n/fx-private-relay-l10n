@@ -67,3 +67,9 @@ modal-domain-register-success-2 = { $subdomain } ist jetzt Ihre E-Mail-Subdomain
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ist jetzt Ihre E-Mail-Subdomain!
 modal-domain-register-success-copy-2 = Jetzt können Sie unbegrenzt benutzerdefinierte E-Mail-Masken erstellen!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Diese E-Mail-Maske löschen?
+mask-deletion-warning-no-recovery = Sobald Sie diese Maske gelöscht haben, kann sie nicht wiederhergestellt werden. Sie erhalten keine E-Mails mehr, die an diese Maske gesendet wurden.
+mask-deletion-warning-sign-ins = Wenn Sie diese Maske zur Anmeldung bei Benutzerkonten verwenden, sollten Sie die E-Mail-Adressen dieser Konten ändern, bevor Sie diese Maske löschen.
