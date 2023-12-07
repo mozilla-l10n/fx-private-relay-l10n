@@ -60,3 +60,9 @@ modal-domain-register-success-2 = { $subdomain } é agora o seu subdomínio de e
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> é agora o seu subdomínio de correio eletrónico!
 modal-domain-register-success-copy-2 = Agora pode criar máscaras de e-mail personalizadas e ilimitadas!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Eliminar esta máscara de e-mail?
+mask-deletion-warning-no-recovery = Depois de apagar esta máscara, a mesma não pode ser recuperação. Não irá receber mais quaisquer mensagens enviadas para este.
+mask-deletion-warning-sign-ins = Se utiliza esta máscara para iniciar sessão em qualquer conta, deve alterar os emails dessa conta antes de eliminar esta máscara.
