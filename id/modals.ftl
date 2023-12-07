@@ -67,3 +67,9 @@ modal-domain-register-success-2 = Kini { $subdomain } adalah subdomain surel And
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = Kini, <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> adalah subdomain surel Anda!
 modal-domain-register-success-copy-2 = Sekarang Anda dapat membuat topeng email kustom tanpa batas!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Hapus topeng surel ini?
+mask-deletion-warning-no-recovery = Setelah Anda menghapus topeng ini, topeng tidak dapat dipulihkan. Anda tidak akan lagi menerima surel yang dikirim ke sana.
+mask-deletion-warning-sign-ins = Jika Anda menggunakan topeng ini untuk masuk ke akun apa pun, Anda harus mengubah surel akun tersebut sebelum menghapus topeng ini.
