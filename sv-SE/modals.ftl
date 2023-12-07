@@ -67,3 +67,9 @@ modal-domain-register-success-2 = { $subdomain } är nu din e-postunderdomän!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> är nu din e-postunderdomän!
 modal-domain-register-success-copy-2 = Nu kan du skapa obegränsat antal anpassade e-postalias!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Vill du ta bort det här e-postaliaset?
+mask-deletion-warning-no-recovery = När du har tagit bort det här aliaset kan det inte återställas. Du kommer inte längre att få några e-postmeddelanden skickade till det.
+mask-deletion-warning-sign-ins = Om du använder det här aliaset för att logga in på något konto bör du ändra kontots e-postadresser innan du tar bort det här aliaset.
