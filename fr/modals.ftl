@@ -64,3 +64,9 @@ modal-domain-register-success-2 = { $subdomain } est maintenant votre sous-domai
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> est maintenant votre sous-domaine de messagerie !
 modal-domain-register-success-copy-2 = Vous pouvez désormais créer un nombre illimité d’alias de messagerie personnalisés !
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Supprimer cet alias de messagerie ?
+mask-deletion-warning-no-recovery = Une fois que vous avez supprimé cet alias, il ne peut pas être récupéré. Vous ne recevrez plus les e-mails qui lui sont envoyés.
+mask-deletion-warning-sign-ins = Si vous utilisez cet alias pour vous connecter à n’importe quel compte, vous devriez modifier les adresses e-mail de ces comptes avant de supprimer cet alias.
