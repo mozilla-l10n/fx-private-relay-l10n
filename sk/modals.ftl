@@ -72,3 +72,4 @@ modal-domain-register-success-copy-2 = Teraz môžete vytvárať neobmedzené mn
 
 mask-deletion-header = Odstrániť túto e‑mailovú masku?
 mask-deletion-warning-no-recovery = Keď túto masku odstránite, nebude ju možné obnoviť. Už na ňu nebudete dostávať žiadne e‑maily.
+mask-deletion-warning-sign-ins = Ak používate túto masku na prihlásenie do ľubovoľného účtu, mali by ste pred odstránením tejto masky zmeniť e‑mailovú adresu v týchto účtoch.
