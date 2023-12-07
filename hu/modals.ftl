@@ -67,3 +67,9 @@ modal-domain-register-success-2 = A(z) { $subdomain } mostantól az Ön e-mail-a
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = A(z) <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> mostantól az e-mail-aldomainja.
 modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-mail-maszkot hozhat létre.
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Törli ezt az e-mail-maszkot?
+mask-deletion-warning-no-recovery = Ha egyszer törölte ezt a maszkot, akkor nem állítható vissza. A továbbiakban nem fog kapni semmilyen levelet sem.
+mask-deletion-warning-sign-ins = Ha ezt a maszkot bármely fiókba bejelentkezéshez használja, akkor módosítsa ezeket a fiók e-mail címeket, mielőtt törölné ezt a maszkot.
