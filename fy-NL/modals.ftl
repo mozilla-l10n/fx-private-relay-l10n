@@ -72,3 +72,4 @@ modal-domain-register-success-copy-2 = No kinne jo ûnbeheind oanpaste e-mailmas
 
 mask-deletion-header = Dit e-mailmasker fuortsmite?
 mask-deletion-warning-no-recovery = As jo dit masker fuortsmite, kin it net mear wersteld wurde. Jo ûntfange gjin e-mailberjochten mear dy’t dêrnei ta ferstjoerd binne.
+mask-deletion-warning-sign-ins = As jo dit masker brûke om jo by accounts oan te melden, moatte jo it e-mailadres by dy accounts wizigje eardat jo dit masker fuorrtsmite.
