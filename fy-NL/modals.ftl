@@ -67,3 +67,8 @@ modal-domain-register-success-2 = { $subdomain } is no jo e-mailsubdomein!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> is no jo e-mailsubdomein!
 modal-domain-register-success-copy-2 = No kinne jo ûnbeheind oanpaste e-mailmaskers meitsje!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Dit e-mailmasker fuortsmite?
+mask-deletion-warning-no-recovery = As jo dit masker fuortsmite, kin it net mear wersteld wurde. Jo ûntfange gjin e-mailberjochten mear dy’t dêrnei ta ferstjoerd binne.
