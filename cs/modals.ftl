@@ -66,5 +66,5 @@ modal-domain-register-success-copy-2 = Nyní můžete vytvářet neomezené mno�
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Smazat tuto e-mailovou masku?
-mask-deletion-warning-no-recovery = Jakmile tuto masku smažete, už ji nebude možné obnovit. Na něj už nebudete dostávat žádné e-maily.
-mask-deletion-warning-sign-ins = Pokud tuto masku používáte pro přihlášení k nějakému účtu, měli byste před odstraněním této masky změnit jeho e-mailovou adresu.
+mask-deletion-warning-no-recovery = Jakmile tuto masku odstraníte, nebude možné ji obnovit. Nebudete již dostávat žádné e-maily, které na ni byly odeslány.
+mask-deletion-warning-sign-ins = Pokud tuto masku používáte k přihlašování k některým účtům, měli byste před odstraněním této masky změnit e-maily těchto účtů.
