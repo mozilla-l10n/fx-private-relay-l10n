@@ -67,3 +67,7 @@ modal-domain-register-success-2 = { $subdomain } es ora tu subdominio email!
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> es ora tu subdominio email!
 modal-domain-register-success-copy-2 = Ora tu pote crear illimitate mascas email personalisate!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Deler iste masca email?
