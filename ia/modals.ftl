@@ -71,3 +71,5 @@ modal-domain-register-success-copy-2 = Ora tu pote crear illimitate mascas email
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Deler iste masca email?
+mask-deletion-warning-no-recovery = Un vice que tu dele iste masca, illo non potera esser restaurate. Tu non plus recipera ulle emails inviate a illo.
+mask-deletion-warning-sign-ins = Si tu usa iste masca pro acceder a ulle contos, tu deberea cambiar iste emails de conto ante deler iste masca.
