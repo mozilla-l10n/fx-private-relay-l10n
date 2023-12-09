@@ -23,6 +23,8 @@ nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
 nav-profile-sign-up = تىزىملىتىڭ
 nav-profile-manage-account = ھېسابات باشقۇرۇش
+nav-profile-sign-out = تىزىمدىن چىق
+nav-profile-sign-out-relay = { -brand-name-relay } دىن تىزىمدىن چىق
 nav-profile-sign-out-confirm = راستىنلا تىزىمدىن چىقامسىز؟
 nav-profile-settings = تەڭشەكلەر
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } سەپلەڭ
@@ -30,6 +32,8 @@ nav-profile-help = ياردەم ۋە قوللاش
 nav-profile-help-tooltip = { -brand-name-relay } ئىشلىتىش ياردىمى
 # This is only visible to Premium users.
 nav-profile-contact = بىز بىلەن ئالاقىلىشىڭ
+# This is only visible to Premium users.
+nav-profile-contact-tooltip = { -brand-name-relay-premium } ھەققىدە پىكىرلىشىش
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } سىما
 nav-profile-image-alt-v2 = ھېسابات سىماسى
@@ -56,11 +60,14 @@ nav-footer-privacy = شەخسىيەت
 nav-footer-relay-terms = { -brand-name-relay } شەرتلىرى
 nav-footer-legal = قانۇنلۇق
 nav-footer-release-notes = تارقىتىش ئۇقتۇرۇشى
+nav-footer-stock-photo-legal = بۇ بەتتىكى سۈرەتلەرنىڭ مەنبەسى iStock، © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub تۇغى
 
 ## Bento Menu
 
+bento-button-title = { -brand-name-firefox } ئەپ ۋە مۇلازىمەت
+fx-makes-tech = { -brand-name-firefox } تېخنىكىسىنى قوللىنىپ توردىكى شەخسىيىتىڭىزنى قوغداش ئۈچۈن كۈرەش قىلىدۇ.
 made-by-mozilla = { -brand-name-mozilla } ياسىغان
 fx-desktop = { -brand-name-firefox-browser } ئۈستەل نەشرى
 fx-lockwise = { -brand-name-firefox-lockwise }
