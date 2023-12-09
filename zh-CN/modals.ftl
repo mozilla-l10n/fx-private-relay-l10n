@@ -65,4 +65,4 @@ modal-domain-register-success-copy-2 = 您现在可以创建无限数量的自�
 
 mask-deletion-header = 删除此马甲邮箱？
 mask-deletion-warning-no-recovery = 此马甲一旦删除就无法恢复。您将不会再收到发送给它的任何邮件。
-mask-deletion-warning-sign-ins = 如果您使用此马甲登录过任何账号，您应该在删除此马甲之前更改这些账号的邮箱地址。
+mask-deletion-warning-sign-ins = 如果您使用此马甲登录过任何账户，则应在删除此马甲前更改这些账户的邮箱地址。
