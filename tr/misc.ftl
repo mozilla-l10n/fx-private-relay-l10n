@@ -44,6 +44,10 @@ tips-header-button-close-label = Kapat
 tips-footer-link-faq-label = SSS
 tips-footer-link-faq-tooltip = Sıkça sorulan sorular
 tips-footer-link-support-label = Destek
+# Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
+# Variables
+#   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
+tips-switcher-label = İpucu { $nr }
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bilgi
 
 ## Tip about using custom masks
@@ -76,6 +80,8 @@ trackerreport-removal-explainer-heading = Takip kodu temizleme nasıl çalışı
 trackerreport-trackers-explainer-heading = E-posta takip kodları hakkında
 trackerreport-faq-heading = E-posta takip kodlarıyla ilgili sıkça sorulan sorular
 trackerreport-faq-cta = { -brand-name-firefox-relay } hakkındaki diğer SSS’lere bakın
+trackerreport-loading = Takip kodu kaldırma raporunuz yükleniyor…
+trackerreport-load-error = Takip kodu kaldırma raporunuz oluşturulurken bir sorun oluştu. Yeniden denemek için lütfen sayfayı yenileyin.
 
 ## Tracker warning page
 
@@ -157,18 +163,34 @@ survey-csat-answer-very-satisfied = Çok memnunum
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-posta takip kodu kaldırıldı
 forwarded-email-trackers-blocked-report = Daha fazla bilgi alın
+# This entire text is a link
+forwarded-email-footer-premium-banner = { -brand-name-relay-premium }’a yükseltin
+# Variables:
+#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
+forwarded-email-footer-offer-countdown-banner = Tanıtım fiyatımız sona ermeden { $premium_link } aboneliğine yükseltin.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-upgrade-for-more-protection = Daha fazla koruma için yükseltin
 relay-email-manage-this-mask = Bu maskeyi yönet
 relay-email-your-dashboard = Kontrol paneliniz
+# Variables:
+#   $number (number) - the number of email trackers removed
+relay-email-trackers-removed =
+    { $number ->
+        [one] 1 e-posta takip kodu kaldırıldı
+       *[other] { $number } e-posta takip kodu kaldırıldı
+    }
 
 ## Email sent to free users who try to reply
 
 # Variables
 #   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Yanıtınız { $sender } adresine gönderilmedi.
+reply-not-sent-header = Yanıtınız gönderilmedi
+upgrade-to-reply-to-future-emails = Yanıtlamak için şimdi yükseltin
+upgrade-for-more-protection = Daha fazla koruma için yükseltin
 
 ## Email sent to first time free users
 
@@ -178,7 +200,9 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
+first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
 first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz
 # Variables
 #   $url (string) - URL of the dashboard
