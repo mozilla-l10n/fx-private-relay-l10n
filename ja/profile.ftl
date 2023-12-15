@@ -27,15 +27,28 @@ profile-label-created = 作成日:
 profile-label-click-to-copy = クリックしてコピー
 profile-label-blocked = ブロック済み
 profile-label-forwarded = 転送済み
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = 削除されたトラッカー
+profile-trackers-removed-tooltip-part2-2 = <b>重要:</b> トラッカーを削除するとメールの表示が崩れることがあります。これは、トラッカーが画像やリンク内に含まれていることが多いために起こるものです。
+profile-label-cancel = キャンセル
 profile-blocked-copy-2 = このマスクでブロックを選択すると、受信トレイに到達する前に { -brand-name-firefox-relay } がメッセージを削除します。
 profile-forwarded-copy-2 = このマスクで転送を選択すると、{ -brand-name-firefox-relay } が受信トレイにメッセージを送信します。
 profile-forwarded-note-copy = { email-size-limit } を超えるメール (添付ファイルを含む) は現在サポートされておらず、転送されません。
+profile-stat-label-blocked = ブロックされたメール
+profile-stat-label-forwarded = 転送されたメール
+profile-stat-label-aliases-used-2 = 使用中のメールマスク
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = 削除されたトラッカー
 profile-filter-search-placeholder-2 = マスクを検索
 profile-filter-no-results = 選択した条件に一致するマスクはありません。 <clear-button>すべてのフィルターを消去</clear-button>
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = どのメールをブロックしますか？
+# Block all emails sent to a speciic mask
+profile-promo-email-blocking-option-all = すべて
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = 広告
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = なし
 profile-promo-email-blocking-description-all-2 = { -brand-name-relay } がこのマスクに送信されたすべてのメールをブロックしています。
