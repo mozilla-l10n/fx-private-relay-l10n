@@ -2,12 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Settings page
 
-settings-headline = { -brand-name-relay } 設定
+settings-headline = { -brand-name-relay } の設定
 settings-meta-contact-label = お問い合わせ
 settings-meta-help-label = ヘルプとサポート
+settings-meta-help-tooltip = { -brand-name-relay } のサポートを表示
 settings-meta-status-label = サービスの状況
+settings-meta-status-tooltip = すべての { -brand-name-relay } のシステムが現在稼働しているか確認する。
+settings-error-save-heading = 設定の変更に失敗しました
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = メールマスクのラベル機能は無効化されています
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.

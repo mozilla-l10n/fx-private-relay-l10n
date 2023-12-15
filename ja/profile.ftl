@@ -34,6 +34,7 @@ profile-label-cancel = キャンセル
 profile-blocked-copy-2 = このマスクでブロックを選択すると、受信トレイに到達する前に { -brand-name-firefox-relay } がメッセージを削除します。
 profile-forwarded-copy-2 = このマスクで転送を選択すると、{ -brand-name-firefox-relay } が受信トレイにメッセージを送信します。
 profile-forwarded-note-copy = { email-size-limit } を超えるメール (添付ファイルを含む) は現在サポートされておらず、転送されません。
+profile-stat-learn-more = 詳細情報
 profile-stat-label-blocked = ブロックされたメール
 profile-stat-label-forwarded = 転送されたメール
 profile-stat-label-aliases-used-2 = 使用中のメールマスク
@@ -55,14 +56,24 @@ profile-promo-email-blocking-description-all-2 = { -brand-name-relay } がこの
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } は領収書や配送情報などのメールを転送し、広告メールをブロックします。
 # Deprecated
 profile-promo-email-blocking-description-none-2 = { -brand-name-relay } は、このマスクに転送されたメールをブロックしていません。
+profile-promo-email-blocking-description-none-3 = 個のマスクに送信されたすべてのメールが実際のメールアドレスに転送されます。
 # Deprecated
 profile-promo-email-blocking-label-promotionals = 広告をブロック
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = 広告メールをブロック
 # Deprecated
 profile-promo-email-blocking-label-none = すべてブロック
+profile-promo-email-blocking-label-none-2 = すべてのメールをブロック
+# Deprecated
+profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = すべてのメールを転送
+profile-promo-email-blocking-label-not-forwarding = 転送しない
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } のみ)
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } に登録すると利用できます
+profile-promo-email-blocking-description-promotionals-locked-cta = 今すぐアップグレード
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } の順番待ちに登録する
 profile-promo-email-blocking-description-promotionals-locked-close = 閉じる
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+profile-maxed-aliases-cta = { -brand-name-premium } にアップグレード
