@@ -20,6 +20,7 @@ banner-upgrade-headline = { -brand-name-relay-premium }’a yükseltin
 banner-upgrade-cta = { -brand-name-relay-premium }’a yükseltin
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = İşlem adımı
+banner-register-subdomain-headline-aliases-2 = Maskeleriniz için kendi alt alan adınızı oluşturun
 # This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -32,10 +33,13 @@ banner-choose-subdomain-input-placeholder-3 = Alt alan adı ara
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = Ara
 banner-pack-upgrade-headline-2-html = Daha fazla e-posta maskesine sahip olmak için <strong>{ -brand-name-firefox-relay-premium }</strong>’a geçin
+banner-pack-upgrade-copy-2 = Sınırsız e-posta maskesi ve kendi e-posta alt alan adınızla { -brand-name-firefox-relay-premium } internette korunmanızı sağlar.
+footer-banner-premium-promo-headine = Telefonunuzu <i>ve</i> e-postanızı korumak için { -brand-name-firefox-relay-premium }</strong>’a geçin
 banner-pack-upgrade-cta = Şimdi yükselt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Gizlilik Bildirimi Güncellemesi
 banner-label-privacy-notice-update-body = { -brand-name-firefox-relay }’in güvenilirliğini artırmak için bir e-postanın teslim edilemediği durumlarda e-postayı teslim edilene kadar geçici olarak sunucularımızda saklayabiliriz. E-postalarınızı asla üç günden fazla saklamayız.
+banner-label-privacy-notice-update-cta = Gizlilik bildirimini görüntüle
 # Data Notification Banner:
 banner-label-data-notification-header = Çok yakında { -brand-name-relay }’de
 # Loyalist Upsell Banner:
