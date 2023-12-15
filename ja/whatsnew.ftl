@@ -27,10 +27,12 @@ whatsnew-feature-sign-back-in-heading = 別名で再ログイン
 # A preview of the full content of `whatsnew-feature-sign-back-in-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-sign-back-in-snippet = メールアドレスの入力を求められたときに新しいエイリアスを作成するには…
-whatsnew-feature-forward-some-heading = 宣伝メールのブロック
+whatsnew-feature-sign-back-in-description = 使ったことのあるエイリアス (別名) でログインするには、メールアドレス入力欄でコンテキストメニューを開き、使用したいエイリアスを選択します。
+whatsnew-feature-forward-some-heading = 広告メールのブロック
 # A preview of the full content of `whatsnew-feature-forward-some-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-forward-some-snippet = { -brand-name-relay-premium } は宣伝メールのみをブロックできます…
+whatsnew-feature-forward-some-description = { -brand-name-relay-premium } では、エイリアスに送られたメールのうち広告メールだけをブロックできます。キャンペーン情報のような営業メールは排除されるので、領収書など必要なメールだけに集中できます。
 # Note: this string will only be shown to people using locales in which the local equivalent of the term "alias" has been changed into "mask".
 # Thus, if your locale did not make this change, please keep the English version.
 whatsnew-feature-alias-to-mask-heading = エイリアスはマスクになりました
