@@ -26,6 +26,7 @@ nav-profile-sign-in = ログイン
 nav-profile-sign-up = アカウント登録
 # Deprecated
 nav-profile-manage-fxa = { -brand-name-firefox-account(capitalization: "uppercase") } の管理
+nav-profile-manage-account = アカウント管理
 nav-profile-sign-out = ログアウト
 nav-profile-sign-out-relay = { -brand-name-relay } からログアウト
 nav-profile-sign-out-confirm = 本当にログアウトしますか？
@@ -39,6 +40,7 @@ nav-profile-contact = お問い合わせ
 nav-profile-contact-tooltip = { -brand-name-relay-premium } についての問い合わせ
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } アバター
+nav-profile-image-alt-v2 = アカウントのアバター
 nav-duo-description = ダッシュボードの切り替え
 nav-duo-email-mask-alt = メールマスク
 nav-duo-phone-mask-alt = 電話番号マスク
