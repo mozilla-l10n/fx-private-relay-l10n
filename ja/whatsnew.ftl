@@ -41,3 +41,4 @@ whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium
 # A preview of the full content of `whatsnew-feature-premium-expansion-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-snippet = 今すぐアップグレードして、保護をさらに強化してください...
+whatsnew-feature-tracker-removal-heading = メールトラッカー削除の紹介

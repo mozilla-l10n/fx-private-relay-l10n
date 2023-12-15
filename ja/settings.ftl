@@ -12,6 +12,7 @@ settings-meta-help-tooltip = { -brand-name-relay } のサポートを表示
 settings-meta-status-label = サービスの状況
 settings-meta-status-tooltip = すべての { -brand-name-relay } のシステムが現在稼働しているか確認する。
 settings-error-save-heading = 設定の変更に失敗しました
+settings-error-save-description = 接続エラーのため、設定の変更は保存されませんでした。もう一度試してください。
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
 settings-warning-collection-off-heading-2 = メールマスクのラベル機能は無効化されています
 # This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
@@ -25,3 +26,6 @@ setting-label-api-key = API キー
 # This is a label that appears on hover to copy the API key
 settings-button-copy = クリックしてコピー
 setting-api-key-copied = コピーしました！
+setting-api-key-copied-alt = クリックしてコピー
+setting-tracker-removal-heading = メールトラッカーの削除
+setting-tracker-removal-warning-2 = 重要: トラッカーを削除するとメールの表示が崩れることがあります。これは、トラッカーが画像やリンク内に含まれていることが多いために起こるものです。受信したメールは修正したり回復したりすることはありません。
