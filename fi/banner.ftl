@@ -106,3 +106,12 @@ modal-email-domain-success-continue = Jatka
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 tooltip-email-domain-explanation-part-three = Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }. <p>Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }</p>
+
+## 2023 Holiday promo
+
+holiday-promo-banner-code-desc = Saa 20 prosentin alennus { -brand-name-relay-premium }ista
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = Käytä koodia <coupon>{ $couponCode }</coupon> kassalla
+holiday-promo-banner-cta-button = Hanki 1 vuosi { -brand-name-premium }ia
+holiday-promo-banner-promo-expiry = tarjous päättyy 31.12.2023

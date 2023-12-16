@@ -63,3 +63,8 @@ whatsnew-feature-premium-expansion-eu-heading = Nyt saatavilla rajattomasti mask
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } is now available in your country…
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } on nyt saatavilla maassasi. Suojaa postilaatikkosi rajattomilla sähköpostimaskeilla ja hanki ainutlaatuinen { -brand-name-relay }-sähköpostiverkkotunnus, joka tekee maskien luomisesta liikkeellä ollessa helppoa ja turvallista.
 whatsnew-feature-premium-expansion-eu-cta = Hanki { -brand-name-relay-premium }
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = Tänä jouluna saat 20 prosentin alennuksen yhden vuoden { -brand-name-relay-premium } -hinnasta.
+whatsnew-holiday-promo-2023-news-heading = Saa 20 prosentin alennus { -brand-name-relay-premium }ista
+whatsnew-holiday-promo-2023-cta = Hanki 1 vuosi { -brand-name-relay-premium }ia

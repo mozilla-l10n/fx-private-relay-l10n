@@ -69,3 +69,5 @@ modal-domain-register-success-copy-2 = Nyt voit luoda rajattomasti mukautettuja 
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Poistetaanko tämä sähköpostimaski?
+mask-deletion-warning-no-recovery = Kun poistat tämän maskin, sitä ei voi palauttaa. Et enää saa siihen lähetettyjä sähköposteja.
+mask-deletion-warning-sign-ins = Jos käytät tätä maskia sisäänkirjautumisiin, sinun tulee vaihtaa kyseisten tilien sähköpostiosoite ennen maskin poistamista.
