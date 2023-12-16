@@ -65,3 +65,7 @@ modal-domain-register-success-2 = { $subdomain } on nyt sähköpostisi aliverkko
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> on nyt sähköpostisi aliverkkotunnus!
 modal-domain-register-success-copy-2 = Nyt voit luoda rajattomasti mukautettuja sähköpostimaskeja!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Poistetaanko tämä sähköpostimaski?
