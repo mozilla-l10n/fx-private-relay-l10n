@@ -5,7 +5,10 @@
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-heading-2 = يېڭىدىن ئىختىيارى نىقاب قۇر
 modal-custom-alias-picker-form-prefix-placeholder-redesign = تېكىست كىرگۈزۈڭ
+done-msg = تامام
+copy-mask = نىقابنى كۆچۈر
 
 ## Updated mask deletion modal strings
 

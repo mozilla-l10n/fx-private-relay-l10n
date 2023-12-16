@@ -7,7 +7,12 @@
 
 banner-dismiss = بولدىلا
 banner-bounced-headline = { -brand-name-relay } ئېلخىتىڭىزنى يەتكۈزەلمىدى.
+banner-download-firefox-headline = { -brand-name-firefox } دا { -brand-name-relay } ئۈنۈمى تېخىمۇ ياخشى
 banner-download-firefox-cta = { -brand-name-firefox } چۈشۈر
+banner-download-install-extension-headline = { -brand-name-firefox } نىڭ { -brand-name-relay } كېڭەيتمىسىنى يۈكلەش
+banner-download-install-extension-cta = { -brand-name-relay } نى { -brand-name-firefox } قا قوشۇش
+banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } نىڭ { -brand-name-relay } سىنى سىناش
+banner-upgrade-headline = { -brand-name-relay-premium } غا يۈكسەلت
 banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = مەشغۇلات باسقۇچى
@@ -34,6 +39,8 @@ banner-label-data-notification-body-cta = تەپسىلاتى
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = شەخسىيىتىڭىزنى قوغداپ، ئىنتېرنېتنى قۇتقۇزىدۇ
 banner-upgrade-loyalist-cta = تېخىمۇ كۆپ قوغداشقا ئېرىشىڭ
+# End of intro pricing countdown banner:
+banner-offer-end-headline = ئېتبار باھا پات يېقىندا ئاخىرلىشىدۇ!
 banner-offer-end-cta = ھازىر يېڭىلا
 # Relay Premium Promo A/B Test
 banner-ab-premium-promo-stop-spam-headline = ئەخلەت ئېلخەت، ئاپتوماتىك تېلېفون ۋە ئەخلەت قىسقا ئۇچۇرلارنى توسىدۇ
@@ -64,3 +71,6 @@ modal-domain-register-confirmation-checkbox = ھەئە، مەن { $subdomain } �
 modal-email-domain-cancel = ۋاز كەچ
 modal-email-domain-register = تىزىملىتىڭ
 modal-email-domain-success-continue = داۋاملاشتۇر
+
+## 2023 Holiday promo
+

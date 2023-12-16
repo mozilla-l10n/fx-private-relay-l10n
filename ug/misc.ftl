@@ -15,8 +15,11 @@
 ## Tips and tricks at the bottom of the page
 
 tips-header-title = ياردەم ۋە كۆرسەتمە
+tips-header-button-close-label = بولدىلا
 tips-footer-link-faq-label = كۆپ سورالغان سوئاللار
 tips-footer-link-faq-tooltip = كۆپ سورالغان سوئاللار
+tips-footer-link-feedback-label = تەكلىپ
+tips-footer-link-feedback-tooltip = پىكىر بېرىڭ
 tips-footer-link-support-label = قوللاش
 tips-toast-button-expand-label = تېخىمۇ كۆپ بىلدۈرگۈ
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىلاتى
@@ -64,6 +67,7 @@ forwarded-email-trackers-blocked-report = تېخىمۇ كۆپ بىلدۈرگۈ
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
+relay-email-manage-this-mask = بۇ نىقابنى باشقۇرۇش
 
 ## Email sent to free users who try to reply
 

@@ -5,11 +5,16 @@
 
 ## Step 1 Welcome to Relay
 
+profile-free-onboarding-welcome-description = يېڭى بىر ئېلخەت نىقابى قۇرايلى.
+profile-free-onboarding-welcome-item-headline-2 = ئېلخەت نىقابى دېگەن نېمە؟
+profile-free-onboarding-welcome-generate-new-mask = يېڭى نىقاب ھاسىللاش
 profile-free-onboarding-skip-step = ئاتلا
 profile-free-onboarding-next-step = كېيىنكى
 
 ## Step 2 How to Use a Mask
 
+profile-free-onboarding-copy-mask-headline = نىقابىڭىزنى كۆچۈرۈپ ئىشلىتىڭ
+profile-free-onboarding-copy-mask-paste-the-email = سىز كۆچۈرگەن ئېلخەت نىقابىنى چاپلايدۇ
 profile-free-onboarding-copy-mask-send-email = ئېلخەت يوللاش
 profile-free-onboarding-copy-mask-nevermind = بولدىلا
 profile-free-onboarding-copy-mask-continue = داۋاملاشتۇر
