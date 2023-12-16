@@ -20,8 +20,13 @@ profile-free-onboarding-close-modal = Sulje valintaikkuna
 profile-free-onboarding-copy-mask-headline = Kopioi maski käyttääksesi sitä
 profile-free-onboarding-copy-mask-item-headline-1 = Tilaa uutiskirjeet
 profile-free-onboarding-copy-mask-item-headline-2 = Hanki paita, älä roskapostia
+profile-free-onboarding-copy-mask-how-forwarding-works = Katso kuinka edelleenlähetys toimii
+profile-free-onboarding-copy-mask-paste-the-email = Liitä juuri kopioimasi sähköpostimaski
+profile-free-onboarding-copy-mask-try-out-email-forwarding = Kokeile sähköpostin edelleenlähetystä
 profile-free-onboarding-copy-mask-send-email = Lähetä sähköposti
 profile-free-onboarding-copy-mask-continue = Jatka
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay }-sähköpostimaski
+profile-free-onboarding-copy-mask-check-inbox = Tarkista nyt sähköpostisi
 
 ## Step 3 Relay Extension Added
 
@@ -29,3 +34,4 @@ profile-free-onboarding-addon-get-extension = Hanki { -brand-name-relay } -laaje
 profile-free-onboarding-addon-finish = Valmis
 profile-free-onboarding-addon-headline = Käytä maskeja missä tahansa
 profile-free-onboarding-addon-item-headline-1 = Ne toimivat kaikkialla, missä tarvitset sähköpostiosoitetta
+profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay }-laajennus tekee siitä helppoa
