@@ -89,4 +89,4 @@ whatsnew-holiday-promo-2023-news-snippet = Αυτές τις γιορτές, λ�
 whatsnew-holiday-promo-2023-news-heading = Λάβετε έκπτωση 20% στο { -brand-name-relay-premium }
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = Αυτές τις γιορτές, λάβετε έκπτωση 20% στην τιμή του { -brand-name-relay-premium } για ένα έτος. Εισαγάγετε απλώς τον κωδικό «HOLIDAY20» κατά την πληρωμή. Η προσφορά λήγει στις 31 Δεκεμβρίου 2023.
-whatsnew-holiday-promo-2023-cta = Αποκτήστε { -brand-name-relay-premium } για ένα έτος
+whatsnew-holiday-promo-2023-cta = Αποκτήστε το { -brand-name-relay-premium } για 1 έτος

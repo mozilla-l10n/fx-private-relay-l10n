@@ -144,5 +144,5 @@ holiday-promo-banner-code-desc = Λάβετε έκπτωση 20% στο { -brand
 # Variables:
 # 	$couponCode (string) - the coupon code.
 holiday-promo-banner-code-usage = Χρησιμοποιήστε τον κωδικό <coupon>{ $couponCode }</coupon> κατά την πληρωμή
-holiday-promo-banner-cta-button = Αποκτήστε το { -brand-name-premium } για ένα έτος
+holiday-promo-banner-cta-button = Αποκτήστε το { -brand-name-premium } για 1 έτος
 holiday-promo-banner-promo-expiry = Η προσφορά λήγει στις 31 Δεκεμβρίου 2023
