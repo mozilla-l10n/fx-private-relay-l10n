@@ -62,6 +62,7 @@ nav-footer-privacy = Gizlilik
 nav-footer-relay-terms = { -brand-name-relay } Koşulları
 nav-footer-legal = Hukuki Bilgiler
 nav-footer-release-notes = Sürüm Notları
+nav-footer-stock-photo-legal = Bu sayfadaki fotoğraflar iStock'tan alınmıştır. ©StockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
 logo-github-alt = GitHub logosu
 

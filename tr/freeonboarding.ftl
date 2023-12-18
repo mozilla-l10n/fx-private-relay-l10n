@@ -10,6 +10,7 @@ profile-free-onboarding-welcome-description = Yeni bir e-posta maskesi oluştura
 profile-free-onboarding-welcome-item-headline-1 = Gerçek adresinizi korumak için ücretsiz e-posta maskelerini kullanabilirsiniz
 profile-free-onboarding-welcome-item-description-1 = E-posta adresine ihtiyacınız olan her yerde e-posta maskesi kullanabilirsiniz.
 profile-free-onboarding-welcome-item-headline-2 = E-posta maskesi nedir?
+profile-free-onboarding-welcome-item-description-2 = { -brand-name-relay } e-posta maskeleri, e-postaları gerçek e-posta adresinize ileten anonim e-posta adresleridir. İlk e-posta maskenizi birlikte oluşturalım.
 profile-free-onboarding-welcome-generate-new-mask = Yeni maske oluştur
 profile-free-onboarding-skip-step = Geç
 profile-free-onboarding-next-step = İleri

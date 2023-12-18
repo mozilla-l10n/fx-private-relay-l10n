@@ -6,6 +6,7 @@
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium }’a hoş geldiniz
+multi-part-onboarding-premium-welcome-subheadline-2 = { -brand-name-premium } hesabınızı en iyi şekilde kullanabilmeniz için ilk ayarları yapalım.
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Sınırsız e-posta maskesi
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Her site için benzersiz bir maskeyle gizliliğinizi ve güvenliğinizi artırın
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Özel gelen kutusu kontrolleri
