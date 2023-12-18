@@ -15,6 +15,7 @@ multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anoni
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
+multi-part-onboarding-premium-email-domain-feature-input-search = Ara
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

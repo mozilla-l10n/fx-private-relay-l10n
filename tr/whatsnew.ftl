@@ -23,6 +23,9 @@ whatsnew-feature-alias-to-mask-heading = Takma adlar artık maskeye dönüştü
 whatsnew-feature-premium-expansion-sweden-heading = { -brand-name-relay-premium } İsveç’te kullanıma açıldı
 whatsnew-feature-premium-expansion-finland-heading = { -brand-name-relay-premium } Finlandiya’da kullanıma açıldı
 whatsnew-feature-tracker-removal-heading = Karşınızda e-posta takip kodu kaldırma
+# A preview of the full content of `whatsnew-feature-tracker-removal-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-tracker-removal-snippet = { -brand-name-relay } artık yönlendirilen e-postalardaki sık karşılaşılan takip kodlarını kaldırabilir…
 whatsnew-feature-offer-countdown-heading = Tanıtım fiyatı teklifimiz yakında bitiyor!
 # A preview of the full content of `whatsnew-feature-offer-countdown-description`.
 # Try to keep this string short, not longer than the English version.

@@ -42,6 +42,9 @@ banner-label-privacy-notice-update-body = { -brand-name-firefox-relay }’in gü
 banner-label-privacy-notice-update-cta = Gizlilik bildirimini görüntüle
 # Data Notification Banner:
 banner-label-data-notification-header = Çok yakında { -brand-name-relay }’de
+banner-label-data-notification-cta = Ayarlar’a gidin
+banner-label-data-notification-header-v2 = Yeni özellikleri etkinleştirin
+banner-label-data-notification-body-cta = Daha fazla bilgi alın
 # Loyalist Upsell Banner:
 banner-upgrade-loyalist-headline-2 = Gizliliğinizi koruyun, interneti kurtarın
 # Variables:
@@ -54,6 +57,9 @@ banner-offer-end-headline = Tanıtım fiyatı teklifimiz yakında bitiyor!
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 banner-offer-end-copy = { $end_date } tarihinden önce { -brand-name-relay-premium }’u edinin ve başlangıç fiyatıyla sınırsız maskelemenin keyfini çıkarın.
 banner-offer-end-cta = Şimdi yükseltin
+# Relay Premium Promo A/B Test
+banner-ab-premium-promo-stop-spam-headline = Spam’leri, otomatik çağrıları ve istenmeyen SMS’leri durdurun
+banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi de sağlar.
 banner-ab-premium-promo-advanced-identity-headline = Gelişmiş kimlik koruması
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi de sağlar.
 banner-ab-premium-promo-extra-protection-headline = Gelen kutunuz ve telefonunuz için ek koruma
@@ -67,6 +73,7 @@ banner-set-email-domain-step-one-headline = İstediğiniz { -brand-name-relay } 
 banner-set-email-domain-step-one-body = E-postanızda @ simgesinden sonra gelir.
 banner-set-email-domain-input-placeholder-label = E-posta alan adı ara
 banner-set-email-domain-input-placeholder = Kelime veya kelime öbeği ara
+banner-set-email-domain-input-search = Ara
 # This string is used in the example subdomain mask. Keep it lowercase, only in latin characters
 # and without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

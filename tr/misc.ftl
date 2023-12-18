@@ -59,7 +59,12 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bi
 ## Report of trackers removed from an email
 
 trackerreport-title = { -brand-name-relay } takip kodu kaldırma raporu
+trackerreport-meta-from-heading = Gönderen
+trackerreport-meta-receivedat-heading = Alıcı
 trackerreport-meta-count-heading = Toplam takip kodu
+trackerreport-trackers-heading = Takip kodu algılandı
+# This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
+trackerreport-trackers-tracker-heading = Takipçi alan adı
 trackerreport-trackers-count-heading = Takip kodu sayısı
 trackerreport-trackers-none = Bu e-postada hiç takip kodu tespit edilmedi.
 # Variables:
@@ -178,6 +183,11 @@ forwarded-email-footer-offer-countdown-banner = Tanıtım fiyatımız sona ermed
 relay-email-upgrade-for-more-protection = Daha fazla koruma için yükseltin
 relay-email-manage-this-mask = Bu maskeyi yönet
 relay-email-your-dashboard = Kontrol paneliniz
+# The link to manage this Relay mask
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-forwarded-from-html = <a href="{ $url }" { $attrs }>{ $email_address }</a> adresinden yönlendirildi
 # Variables:
 #   $number (number) - the number of email trackers removed
 relay-email-trackers-removed =
@@ -194,6 +204,7 @@ other-reply-not-forwarded-2 = Yanıtınız { $sender } adresine gönderilmedi.
 reply-not-sent-header = Yanıtınız gönderilmedi
 upgrade-to-reply-to-future-emails = Yanıtlamak için şimdi yükseltin
 upgrade-for-more-protection = Daha fazla koruma için yükseltin
+manage-your-masks = Maskelerinizi yönetin
 
 ## Email sent to first time free users
 
@@ -201,6 +212,7 @@ first-time-user-email-welcome = { -brand-name-firefox-relay }’e hoş geldiniz
 first-time-user-email-welcome-subhead = E-posta adresiniz sizi internette takip etmek için kullanılabilir. Buna bir son vermenin vakti geldi.
 first-time-user-email-hero-primary-text = Her { -brand-name-firefox } kullanıcısı 5 adet ücretsiz maske oluşturabilir. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaların size ulaşmasını sağlamak için bu maskeleri kullanabilirsiniz.
 first-time-user-email-hero-secondary-text = Tüm maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz.
+first-time-user-email-hero-cta = Kontrol panelinizi görüntüleyin
 first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmayı öğrenin
 
 ## Email sent to people onboarding that receive their first forwarded email.
@@ -231,6 +243,7 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Destek ekibimiz</a> size yardımcı olabilir.
 first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı olabilir.
+first-time-user-email-footer-text-2-text = Daha fazla bilgi için { -brand-name-mozilla } Destek’i ziyaret edebilirsiniz.
 first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 ## API error messages
@@ -239,3 +252,4 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.
 api-error-need-subdomain = Özel bir e-posta adresi oluşturmadan önce lütfen bir alt alan adı seçin.
+api-error-account-is-paused = Hesabınız duraklatıldı.

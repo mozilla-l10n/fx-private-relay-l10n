@@ -15,6 +15,7 @@ modal-custom-alias-picker-form-prefix-spaces-warning = E-posta maskelerinde boş
 modal-custom-alias-picker-form-submit-label-2 = Maske oluştur
 modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluşturulamadı. Lütfen yeniden deneyin veya maskeyi oluşturmak için maskeye e-posta gönderin.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
+done-msg = Tamam
 copy-mask = Maskeyi kopyala
 error-state-valid-alt = Geçerli
 error-state-invalid-alt = Geçersiz
@@ -31,3 +32,7 @@ modal-domain-register-available = { $subdomain } kullanılabilir durumda!
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> kullanılabilir durumda!
 modal-domain-register-success-title = Tamamlandı!
 modal-domain-register-success-copy-2 = Artık sınırsız sayıda özel e-posta maskesi oluşturabilirsiniz!
+
+## Updated mask deletion modal strings
+
+mask-deletion-header = Bu e-posta maskesi silinsin mi?

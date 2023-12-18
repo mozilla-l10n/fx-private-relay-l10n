@@ -27,6 +27,7 @@ profile-free-onboarding-copy-mask-how-forwarding-works = İletmenin nasıl çal�
 profile-free-onboarding-copy-mask-what-emails-to-block = Maskelere istemediğiniz e-postalar mı geliyor? Tek adımda yönlendirmeyi kapatarak istenmeyen e-postaların gelmesini önleyebilirsiniz.
 profile-free-onboarding-copy-mask-paste-the-email = Az önce kopyaladığınız e-posta maskesini yapıştırın
 profile-free-onboarding-copy-mask-try-out-email-forwarding = E-posta yönlendirmeyi deneyin
+profile-free-onboarding-copy-mask-send-email = E-posta gönder
 profile-free-onboarding-copy-mask-nevermind = Sonra denerim
 profile-free-onboarding-copy-mask-continue = İleri
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } e-posta maskesi

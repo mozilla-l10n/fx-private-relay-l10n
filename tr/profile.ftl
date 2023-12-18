@@ -57,36 +57,65 @@ profile-label-blocked = engellendi
 profile-label-forwarded = yönlendirildi
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = takip kodu kaldırıldı
+profile-trackers-removed-tooltip-part2-2 = <b>Önemli:</b> Takip kodları genellikle resimlerde ve bağlantılarda bulunduğundan takip kodlarını kaldırmak e-postanızın bozuk görünmesine neden olabilir.
 profile-label-cancel = Vazgeç
 profile-forwarded-note = Not:
+profile-stat-learn-more = Daha fazla bilgi alın
 profile-stat-learn-more-close = Kapat
 profile-stat-label-blocked = Engellenen e-posta
 profile-stat-label-forwarded = Yönlendirilen e-posta
 profile-stat-label-aliases-used-2 = Kullanılan e-posta maskesi
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
 profile-stat-label-trackers-removed = Kaldırılan takip kodu
+profile-stat-label-trackers-learn-more-part1 = Takip kodlarını kaldırmayı etkinleştirdiğinizde yönlendirilen e-postalardaki sık kullanılan e-posta takip kodları kaldırılır.
+profile-stat-label-trackers-learn-more-part2-2 = Önemli: Takip kodları genellikle resimlerde ve bağlantılarda bulunduğu için takip kodlarını kaldırmanız e-postanızın düzgün görünmemesine neden olabilir.
 profile-filter-search-placeholder-2 = Maske ara
+profile-filter-category-button-label = Görünür maskeleri filtrele
+profile-filter-category-button-tooltip = Maskeleri alt alan adına ve/veya gelen e-postaları engelleyip engellemediğine göre filtrele
+profile-filter-category-title = Görünür maskeleri filtrele
 profile-filter-no-results = Seçtiğiniz ölçütlerle eşleşen maske bulunamadı. <clear-button>Tüm filtreleri temizle.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Yönlendirme maskeleri
+# Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
+profile-filter-category-option-random-masks = Rastgele maskeler
+# Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
+profile-filter-category-option-custom-masks = Özel maskeler
+# This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
+profile-indicator-tracker-removal-alt = Takip kodu kaldırma durumu
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
 profile-promo-email-blocking-title = Hangi e-postaları engellemek istiyorsunuz?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Tümü
+# Block promotional emails sent to a speciic mask
+profile-promo-email-blocking-option-promotions = Reklamlar
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Hiçbiri
+profile-promo-email-blocking-description-all-2 = { -brand-name-relay } bu maskeye gönderilen tüm e-postaları engelliyor.
+# Deprecated
+profile-promo-email-blocking-description-none-2 = { -brand-name-relay } bu maskeye gönderilen e-postaları engellemiyor.
 profile-promo-email-blocking-description-none-3 = Bu maskeye gönderilen tüm e-postalar gerçek adresinize yönlendirilecektir.
+# Deprecated
+profile-promo-email-blocking-label-promotionals = Reklamları engelle
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = Reklam e-postaları engelleniyor
+# Deprecated
+profile-promo-email-blocking-label-none = Tümünü engelle
+profile-promo-email-blocking-label-none-2 = Tüm e-postalar engelleniyor
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Tüm e-postalar yönlendiriliyor
 profile-promo-email-blocking-label-not-forwarding = Yönlendirilmiyor
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (yalnızca { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } abonelerine özel
+profile-promo-email-blocking-description-promotionals-locked-cta = Şimdi yükseltin
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } bekleme listesine katılın
 profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+profile-maxed-aliases-with-phone-header = E-posta ve telefon korumanızı en üst seviyeye çıkarın
+profile-maxed-aliases-without-phone-header = { -brand-name-relay } e-posta korumanızı en üst seviyeye çıkarın
+profile-maxed-aliases-cta = { -brand-name-premium }’a yükseltin
 profile-label-set-your-custom-domain-free-user = { -brand-name-premium } ile kendi e-posta alan adınızı oluşturun
