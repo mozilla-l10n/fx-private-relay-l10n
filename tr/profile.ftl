@@ -10,6 +10,7 @@ onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni mask
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Merhaba</span> { $email }!
+profile-supports-email-forwarding = { -brand-name-firefox-relay } en fazla { email-size-limit } boyutundaki e-postaları (ekleri dahil) iletebilir
 profile-promo-upgrade-headline = Daha fazla özellik için yükseltme yapın.
 profile-details-expand = Maske ayrıntılarını göster
 profile-details-collapse = Maske ayrıntılarını gizle
@@ -59,7 +60,13 @@ profile-label-trackers-removed = takip kodu kaldırıldı
 profile-label-cancel = Vazgeç
 profile-forwarded-note = Not:
 profile-stat-learn-more-close = Kapat
+profile-stat-label-blocked = Engellenen e-posta
+profile-stat-label-forwarded = Yönlendirilen e-posta
+profile-stat-label-aliases-used-2 = Kullanılan e-posta maskesi
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to all of a user's masks
+profile-stat-label-trackers-removed = Kaldırılan takip kodu
 profile-filter-search-placeholder-2 = Maske ara
+profile-filter-no-results = Seçtiğiniz ölçütlerle eşleşen maske bulunamadı. <clear-button>Tüm filtreleri temizle.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Yönlendirme maskeleri
 
@@ -76,8 +83,10 @@ profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Tüm e-postalar yönlendiriliyor
 profile-promo-email-blocking-label-not-forwarding = Yönlendirilmiyor
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (yalnızca { -brand-name-premium })
+profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } abonelerine özel
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } bekleme listesine katılın
 profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+profile-label-set-your-custom-domain-free-user = { -brand-name-premium } ile kendi e-posta alan adınızı oluşturun

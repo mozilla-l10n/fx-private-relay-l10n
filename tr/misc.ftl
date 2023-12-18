@@ -160,6 +160,9 @@ survey-csat-answer-very-satisfied = Çok memnunum
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
 # Variables:
+#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
+forwarded-email-header-attachment = { -brand-name-firefox-relay } en fazla { email-size-limit } boyutundaki e-postaları (ekleri dahil) iletebilir. Daha fazla bilgi için { $faq_link } sayfamıza bakabilirsiniz.
+# Variables:
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-posta takip kodu kaldırıldı
 forwarded-email-trackers-blocked-report = Daha fazla bilgi alın
@@ -195,6 +198,8 @@ upgrade-for-more-protection = Daha fazla koruma için yükseltin
 ## Email sent to first time free users
 
 first-time-user-email-welcome = { -brand-name-firefox-relay }’e hoş geldiniz
+first-time-user-email-welcome-subhead = E-posta adresiniz sizi internette takip etmek için kullanılabilir. Buna bir son vermenin vakti geldi.
+first-time-user-email-hero-primary-text = Her { -brand-name-firefox } kullanıcısı 5 adet ücretsiz maske oluşturabilir. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaların size ulaşmasını sağlamak için bu maskeleri kullanabilirsiniz.
 first-time-user-email-hero-secondary-text = Tüm maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz.
 first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmayı öğrenin
 
@@ -204,7 +209,14 @@ our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
-first-time-user-email-how-item-2-header = Tüm e-postaları gelen kutunuza yönlendireceğiz
+first-time-user-email-how-item-1-header = İstediğiniz yerde gerçek e-postanız yerine { -brand-name-relay } maskesi kullanın
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = Maskeleri <a href="{ $url }" { $attrs }> uzantısıyla</a> doğrudan { -brand-name-firefox } üzerinden veya { -brand-name-relay } kontrol panelinizden oluşturabilirsiniz.
+first-time-user-email-how-item-1-subhead-text = Maskeleri { -brand-name-relay } uzantısıyla doğrudan { -brand-name-firefox } üzerinden veya { -brand-name-relay } kontrol panelinizden oluşturabilirsiniz.
+first-time-user-email-how-item-2-header = Tüm e-postaları gelen kutunuza yönlendirelim
+first-time-user-email-how-item-2-subhead = Gönderenler gerçek adresinizi asla görmez ve e-postaları istediğiniz zaman engelleyebilirsiniz.
 first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz
 # Variables
 #   $url (string) - URL of the dashboard
