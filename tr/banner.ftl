@@ -34,7 +34,7 @@ banner-choose-subdomain-input-placeholder-3 = Alt alan adı ara
 banner-register-subdomain-button-search = Ara
 banner-pack-upgrade-headline-2-html = Daha fazla e-posta maskesine sahip olmak için <strong>{ -brand-name-firefox-relay-premium }</strong>’a geçin
 banner-pack-upgrade-copy-2 = Sınırsız e-posta maskesi ve kendi e-posta alt alan adınızla { -brand-name-firefox-relay-premium } internette korunmanızı sağlar.
-footer-banner-premium-promo-headine = Telefonunuzu <i>ve</i> e-postanızı korumak için { -brand-name-firefox-relay-premium }</strong>’a geçin
+footer-banner-premium-promo-headine = Telefonunuzu <i>ve</i> e-postanızı korumak için <strong>{ -brand-name-firefox-relay-premium }</strong>’a geçin
 banner-pack-upgrade-cta = Şimdi yükselt
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = Gizlilik Bildirimi Güncellemesi
