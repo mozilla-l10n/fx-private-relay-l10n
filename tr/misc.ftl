@@ -202,7 +202,9 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 
 our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
+forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
+first-time-user-email-how-item-2-header = Tüm e-postaları gelen kutunuza yönlendireceğiz
 first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz
 # Variables
 #   $url (string) - URL of the dashboard

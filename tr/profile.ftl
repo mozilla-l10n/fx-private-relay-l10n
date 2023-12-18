@@ -7,6 +7,9 @@
 
 onboarding-headline-2 = İlk e-posta maskenizi oluşturun
 onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni maske oluştur”u seçin.
+# Variables:
+#   $email (string) - User email address
+profile-label-welcome-html = <span>Merhaba</span> { $email }!
 profile-promo-upgrade-headline = Daha fazla özellik için yükseltme yapın.
 profile-details-expand = Maske ayrıntılarını göster
 profile-details-collapse = Maske ayrıntılarını gizle
@@ -37,25 +40,41 @@ profile-label-reset = Sıfırla
 profile-label-apply = Uygula
 profile-label-skip = Geç
 profile-label-continue = İleri
+# This string is followed by an email address
+profile-label-forward-emails = Yönlendirilecek adres:
 # This string is followed by date:
 profile-label-created = Oluşturma:
 profile-label-details-show = Ayrıntıları göster
 profile-label-details-hide = Ayrıntıları gizle
+# This string is a label for a toggle (on/off) switch
+profile-label-forwarding = yönlendirme
+profile-label-disable-forwarding-button-2 = Bu maske için e-posta yönlendirmeyi kapat
+profile-label-enable-forwarding-button-2 = Bu maske için e-posta yönlendirmeyi aç
 profile-label-click-to-copy = Kopyalamak için tıkla
 profile-label-copied = Kopyalandı
+profile-label-blocked = engellendi
+profile-label-forwarded = yönlendirildi
+# This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
+profile-label-trackers-removed = takip kodu kaldırıldı
 profile-label-cancel = Vazgeç
 profile-forwarded-note = Not:
 profile-stat-learn-more-close = Kapat
 profile-filter-search-placeholder-2 = Maske ara
+# Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
+profile-filter-category-option-active-masks = Yönlendirme maskeleri
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 
+profile-promo-email-blocking-title = Hangi e-postaları engellemek istiyorsunuz?
 # Block all emails sent to a speciic mask
 profile-promo-email-blocking-option-all = Tümü
 # Allow/forward all emails sent to a speciic mask
 profile-promo-email-blocking-option-none = Hiçbiri
+profile-promo-email-blocking-description-none-3 = Bu maskeye gönderilen tüm e-postalar gerçek adresinize yönlendirilecektir.
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = Tüm e-postalar yönlendiriliyor
+profile-promo-email-blocking-label-not-forwarding = Yönlendirilmiyor
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (yalnızca { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = { -brand-name-relay-premium } bekleme listesine katılın
 profile-promo-email-blocking-description-promotionals-locked-close = Kapat
