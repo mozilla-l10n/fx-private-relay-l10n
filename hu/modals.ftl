@@ -71,5 +71,5 @@ modal-domain-register-success-copy-2 = Mostantól korlátlan számú egyéni e-m
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Törli ezt az e-mail-maszkot?
-mask-deletion-warning-no-recovery = Ha egyszer törölte ezt a maszkot, akkor nem állítható vissza. A továbbiakban nem fog kapni semmilyen levelet sem.
+mask-deletion-warning-no-recovery = Ha egyszer törölte ezt a maszkot, akkor nem állítható vissza. A továbbiakban nem fog kapni semmilyen levelet.
 mask-deletion-warning-sign-ins = Ha ezt a maszkot bármely fiókba bejelentkezéshez használja, akkor módosítsa ezeket a fiók e-mail címeket, mielőtt törölné ezt a maszkot.
