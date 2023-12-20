@@ -273,7 +273,7 @@ what-can-you-do-with-relay-point-one = 无需向发件人提供真实邮箱地�
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
 what-can-you-do-with-relay-point-one-subpoint-html = 可以改为提供马甲邮箱。马甲邮箱会将邮件转发到您的收件箱。您可直接在 { -brand-name-firefox } 中创建马甲，也可使用 <a { $attrs }>{ -brand-name-relay } 扩展</a>，或在您的 { -brand-name-relay } 面板中创建。
 what-can-you-do-with-relay-point-two = 不让网站和垃圾邮件发送者轻易跟踪到您的身份
-what-can-you-do-with-relay-point-two-subpoint = 近来邮件跟踪器比比皆是，让 { -brand-name-relay } 马甲邮箱来为您的身份信息披上马甲。
+what-can-you-do-with-relay-point-two-subpoint = 近来邮件跟踪器无处不在，让 { -brand-name-relay } 马甲邮箱来为您的身份信息披上马甲。
 what-can-you-do-with-relay-point-three = 把垃圾邮件挡在收件箱外。如有需要，还可完全关闭某个马甲邮箱
 what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 面板上您可以创建马甲、为它们添加标签以注明将其用于何处、开启垃圾邮件拦截以及删除不再需要的马甲。
 forwarded-email-hero-header = 您收到了第一封转发给您的邮件！
