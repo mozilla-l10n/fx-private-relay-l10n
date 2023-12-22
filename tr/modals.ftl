@@ -23,6 +23,7 @@ close-button-label-alt = Kapat
 modal-rename-alias-saved = Etiket kaydedildi
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
+modal-domain-register-button-2 = Alt alan adı kaydet
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-available = { $subdomain } kullanılabilir durumda!
@@ -30,7 +31,18 @@ modal-domain-register-available = { $subdomain } kullanılabilir durumda!
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> kullanılabilir durumda!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+modal-domain-register-confirmation-checkbox-2 = Evet, <subdomain>{ $subdomain }</subdomain> alt alan adını kaydetmek istiyorum
 modal-domain-register-success-title = Tamamlandı!
+# Variables:
+#   $subdomain (string) - This is the custom subdomain the user wants to use
+#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
+modal-domain-register-success-2 = { $subdomain } artık e-posta alt alan adınız!
+# Variables:
+#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
+#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
+modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> artık e-posta alt alan adınız!
 modal-domain-register-success-copy-2 = Artık sınırsız sayıda özel e-posta maskesi oluşturabilirsiniz!
 
 ## Updated mask deletion modal strings

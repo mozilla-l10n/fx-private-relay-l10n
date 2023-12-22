@@ -9,12 +9,19 @@ multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium }�
 multi-part-onboarding-premium-welcome-subheadline-2 = { -brand-name-premium } hesabınızı en iyi şekilde kullanabilmeniz için ilk ayarları yapalım.
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Sınırsız e-posta maskesi
 multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Her site için benzersiz bir maskeyle gizliliğinizi ve güvenliğinizi artırın
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = İstediğiniz yerde anında maske oluşturun
 multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Özel gelen kutusu kontrolleri
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Gelen kutunuza yönlendirilen e-postaların türünü kontrol edin
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonim yanıtlar
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Gerçek e-posta adresinizi paylaşmadan yönlendirilen e-postaları yanıtlayın
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium }’u ayarlayın
+multi-part-onboarding-premium-welcome-subheadline = Artık gelen kutunuza gelen her e-postayı kontrol altında tutabilirsiniz.
 
 ## Step 2 Set Custom Domain
 
 multi-part-onboarding-premium-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
+multi-part-onboarding-premium-email-domain-feature-headline = Kendinize ait bir { -brand-name-relay } e-posta alan adıyla şunları yapabilirsiniz:
+multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = İstediğiniz yerde anında maske oluşturun
 multi-part-onboarding-premium-email-domain-feature-input-search = Ara
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
@@ -32,6 +39,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = { -brand-name-relay } 
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } uzantısı eklendi!
+multi-part-onboarding-premium-extension-button-dashboard = Kontrol paneline git
 multi-part-onboarding-skip = Atla, bunu daha sonra kuracağım
 multi-part-onboarding-skip-download-extension = Atla, uzantıyı daha sonra indireceğim
 multi-part-onboarding-continue = İleri

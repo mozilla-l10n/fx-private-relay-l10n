@@ -7,6 +7,7 @@
 
 onboarding-headline-2 = İlk e-posta maskenizi oluşturun
 onboarding-alias-tip-1-2 = İlk e-posta maskenizi oluşturmak için “Yeni maske oluştur”u seçin.
+onboarding-alias-tip-3-2 = { -brand-name-relay } uzantısını kullanarak form alanlarına sağ tıklayıp “Yeni maske oluştur”u seçin.
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Merhaba</span> { $email }!
@@ -55,11 +56,14 @@ profile-label-click-to-copy = Kopyalamak için tıkla
 profile-label-copied = Kopyalandı
 profile-label-blocked = engellendi
 profile-label-forwarded = yönlendirildi
+profile-label-replies = Yanıt
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = takip kodu kaldırıldı
 profile-trackers-removed-tooltip-part2-2 = <b>Önemli:</b> Takip kodları genellikle resimlerde ve bağlantılarda bulunduğundan takip kodlarını kaldırmak e-postanızın bozuk görünmesine neden olabilir.
 profile-label-cancel = Vazgeç
 profile-forwarded-note = Not:
+profile-forwarded-note-copy-v2 = { email-size-limit } boyutundan büyük e-postalar (ekler dahil) yönlendirilmeyecektir.
+profile-replies-tooltip = Bu maskeyi kullanarak aldığınız e-postaları yanıtlayabilirsiniz. { -brand-name-firefox-relay } gerçek e-posta adresinizi korumaya devam edecektir.
 profile-stat-learn-more = Daha fazla bilgi alın
 profile-stat-learn-more-close = Kapat
 profile-stat-label-blocked = Engellenen e-posta

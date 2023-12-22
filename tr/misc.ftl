@@ -183,6 +183,16 @@ forwarded-email-footer-offer-countdown-banner = Tanıtım fiyatımız sona ermed
 relay-email-upgrade-for-more-protection = Daha fazla koruma için yükseltin
 relay-email-manage-this-mask = Bu maskeyi yönet
 relay-email-your-dashboard = Kontrol paneliniz
+# The byline for the premium email header that reads "by Firefox Relay Premium".
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-premium-byline-html = <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay-premium }</a> aracılığıyla
+# The byline for the email header that reads "by Firefox Relay"
+# Variables:
+#   $url (string) - The URL of the Relay dashboard
+#   $attrs (string) - Inline attributes for the <a> link
+relay-email-byline-html = <a href="{ $url }" { $attrs }>{ -brand-name-firefox-relay }</a> aracılığıyla
 # The link to manage this Relay mask
 # Variables:
 #   $url (string) - The URL of the Relay dashboard
@@ -200,15 +210,22 @@ relay-email-trackers-removed =
 
 # Variables
 #   $sender (string) - the original sender's email address
+first-reply-forwarded = Bu yanıtı { $sender } adresine gönderdik ama bundan sonra yanıtlarınız gönderilmeyecek.
+# Variables
+#   $sender (string) - the original sender's email address
 other-reply-not-forwarded-2 = Yanıtınız { $sender } adresine gönderilmedi.
+replies-only-available-with-premium = Maskeli e-postanızdan yönlendirilen e-postaları yalnızca { -brand-name-firefox-relay-premium } ile yanıtlayabilirsiniz.
+replies-not-included-in-free-account-header = Ücretsiz hesabınızla yanıt gönderemezsiniz
 reply-not-sent-header = Yanıtınız gönderilmedi
 upgrade-to-reply-to-future-emails = Yanıtlamak için şimdi yükseltin
 upgrade-for-more-protection = Daha fazla koruma için yükseltin
+upgrade-to-premium = { -brand-name-firefox-relay-premium }’a yükseltin
 manage-your-masks = Maskelerinizi yönetin
 
 ## Email sent to first time free users
 
 first-time-user-email-welcome = { -brand-name-firefox-relay }’e hoş geldiniz
+first-time-user-email-preheader = Kimliğinizi korumak için e-posta maskeleme
 first-time-user-email-welcome-subhead = E-posta adresiniz sizi internette takip etmek için kullanılabilir. Buna bir son vermenin vakti geldi.
 first-time-user-email-hero-primary-text = Her { -brand-name-firefox } kullanıcısı 5 adet ücretsiz maske oluşturabilir. Gerçek e-posta adresinizi gizlemek, kimliğinizi korumak ve yalnızca istediğiniz e-postaların size ulaşmasını sağlamak için bu maskeleri kullanabilirsiniz.
 first-time-user-email-hero-secondary-text = Tüm maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz.
@@ -220,6 +237,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay }’i kullanmay
 our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
+forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
 first-time-user-email-how-item-1-header = İstediğiniz yerde gerçek e-postanız yerine { -brand-name-relay } maskesi kullanın
 # Variables
@@ -243,6 +261,10 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = <a href="{ $url }" { $attrs }>Destek ekibimiz</a> size yardımcı olabilir.
 first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı olabilir.
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = Daha fazla bilgi için <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Destek</a>’i ziyaret edebilirsiniz.
 first-time-user-email-footer-text-2-text = Daha fazla bilgi için { -brand-name-mozilla } Destek’i ziyaret edebilirsiniz.
 first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
