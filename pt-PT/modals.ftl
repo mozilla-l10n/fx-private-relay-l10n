@@ -64,5 +64,5 @@ modal-domain-register-success-copy-2 = Agora pode criar máscaras de e-mail pers
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Eliminar esta máscara de e-mail?
-mask-deletion-warning-no-recovery = Depois de apagar esta máscara, a mesma não pode ser recuperação. Não irá receber mais quaisquer mensagens enviadas para este.
-mask-deletion-warning-sign-ins = Se utiliza esta máscara para iniciar sessão em qualquer conta, deve alterar os emails dessa conta antes de eliminar esta máscara.
+mask-deletion-warning-no-recovery = Depois de eliminar esta máscara, a mesma não pode ser recuperada. Não irá receber mais quaisquer mensagens enviadas para a mesma.
+mask-deletion-warning-sign-ins = Se utiliza esta máscara para iniciar sessão em qualquer conta, deve alterar os e-mails dessa conta antes de eliminar esta máscara.

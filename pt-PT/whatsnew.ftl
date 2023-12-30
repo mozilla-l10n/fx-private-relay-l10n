@@ -88,5 +88,5 @@ whatsnew-feature-premium-expansion-eu-cta = Obter o { -brand-name-relay-premium 
 whatsnew-holiday-promo-2023-news-snippet = Nesta época festiva, obtenha 20% de desconto no preço de 1 ano do { -brand-name-relay-premium }.
 whatsnew-holiday-promo-2023-news-heading = Obtenha 20% de desconto no { -brand-name-relay-premium }
 # DO NOT translate the promo code "HOLIDAY20" in this string.
-whatsnew-holiday-promo-2023-news-content-description = Nesta época festiva, obtenha 20% de desconto no preço de 1 ano do { -brand-name-relay-premium }. Basta introduzir o código promocional “Holiday20” no processo de pagamento. A oferta termina a 31 de dezembro de 2023.
+whatsnew-holiday-promo-2023-news-content-description = Nesta época festiva, obtenha 20% de desconto no preço de 1 ano do { -brand-name-relay-premium }. Basta introduzir o código promocional “HOLIDAY20” no processo de pagamento. A oferta termina a 31 de dezembro de 2023.
 whatsnew-holiday-promo-2023-cta = Obtenha 1 ano de { -brand-name-relay-premium }
