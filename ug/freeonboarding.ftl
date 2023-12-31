@@ -5,7 +5,10 @@
 
 ## Step 1 Welcome to Relay
 
+profile-free-onboarding-welcome-headline = { -brand-name-relay } غا خۇش كەپسىز
 profile-free-onboarding-welcome-description = يېڭى بىر ئېلخەت نىقابى قۇرايلى.
+profile-free-onboarding-welcome-item-headline-1 = ھەقسىز ئېلخەت ماسكىسى ئارقىلىق ھەقىقىي ئادرېسىڭىزنى قوغداڭ
+profile-free-onboarding-welcome-item-description-1 = ئېلخەت ئادرېسىنى يوللاش لازىم بولغاندا، ماسكا ئېلخەت ئادرېسىنى ئىشلىتىڭ.
 profile-free-onboarding-welcome-item-headline-2 = ئېلخەت نىقابى دېگەن نېمە؟
 profile-free-onboarding-welcome-generate-new-mask = يېڭى نىقاب ھاسىللاش
 profile-free-onboarding-skip-step = ئاتلا

@@ -74,3 +74,10 @@ modal-email-domain-success-continue = داۋاملاشتۇر
 
 ## 2023 Holiday promo
 
+holiday-promo-banner-protect-inbox = تېخىمۇ ئاز چىقىم بىلەن قوبۇللاش ساندۇقىڭىزنى قوغداڭ
+holiday-promo-banner-code-desc = 20% ئېتىبار { -brand-name-relay-premium }
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = ھېساب بوغقاندا { $couponCode } كودنى ئىشلىتىڭ
+holiday-promo-banner-cta-button = 1 يىللىق { -brand-name-premium } ئېلىڭ
+holiday-promo-banner-promo-expiry = ئېتىبار 2023-يىلى 31-دېكابىر ئاخىرلىشىدۇ
