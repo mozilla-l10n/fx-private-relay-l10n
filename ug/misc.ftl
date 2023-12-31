@@ -5,6 +5,14 @@
 
 ## Success Messages
 
+# Variables:
+#   $subdomain (url) - User-set subdomain
+success-subdomain-registered-2 = دائىرە نامىڭىز @{ $subdomain } قۇرۇلدى
+success-settings-update = تەڭشىكىڭىز يېڭىلاندى
+success-signed-out-message = تىزىمدىن چىقتىڭىز.
+# Variables:
+#   $username (url) - Username of the current user
+success-signed-in-message = { $username } مۇۋەپپەقىيەتلىك تىزىمغا كىردى.
 
 ## Error Messages
 

@@ -5,6 +5,7 @@
 
 ## Meta Data
 
+meta-title = { -brand-name-firefox-relay }
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (يېڭى بەتكۈچتە ئاچ)
 
@@ -22,6 +23,8 @@ avatar-tooltip = تەرجىمىھال
 nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
 nav-profile-sign-up = تىزىملىتىڭ
+# Deprecated
+nav-profile-manage-fxa = { -brand-name-firefox-account(capitalization: "uppercase") } باشقۇرۇڭ
 nav-profile-manage-account = ھېسابات باشقۇرۇش
 nav-profile-sign-out = تىزىمدىن چىق
 nav-profile-sign-out-relay = { -brand-name-relay } دىن تىزىمدىن چىق
