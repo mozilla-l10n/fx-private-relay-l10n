@@ -88,9 +88,17 @@ trackerreport-tracker-count =
         [one] 1 ئىزلىغۇچ
        *[other] { $count } ئىزلىغۇچ
     }
+trackerreport-removal-explainer-heading = ئىزلىغۇچنى چىقىرىۋېتىش قانداق ئىشلەيدۇ
+trackerreport-trackers-explainer-heading = ئېلخەت ئىزلىغۇچ ھەققىدە
+trackerreport-faq-heading = ئېلخەت ئىزلىغۇچ ھەققىدىكى كۆپ سورالغان سوئاللار
+trackerreport-faq-cta = { -brand-name-firefox-relay } ھەققىدىكى تېخىمۇ كۆپ سوئاللارنى كۆرۈڭ
+trackerreport-loading = ئىزلىغۇچ چىقىرىۋېتىش دوكلاتىڭىزنى يۈكلەۋاتىدۇ…
 
 ## Tracker warning page
 
+contains-tracker-warning-title = يەنىلا بۇ ئۇلانمىنى كۆرەمسىز؟
+contains-tracker-warning-description = ئاگاھلاندۇرۇش: بۇ ئۇلانمىنى چەكسىڭىز سىزگە مۇناسىۋەتلىك ئۇچۇر يوللىغۇچىغا قايتۇرۇلىدۇ
+contains-tracker-warning-view-link-cta = ھەئە، ئۇلانمىنى كۆرسەت
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = كۈن
