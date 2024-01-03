@@ -142,3 +142,12 @@ holiday-promo-banner-code-desc = Risparmia il 20% su { -brand-name-relay-premium
 holiday-promo-banner-code-usage = Utilizza il codice <coupon>{ $couponCode }</coupon> al momento del pagamento
 holiday-promo-banner-cta-button = Ottieni 1 anno di { -brand-name-premium }
 holiday-promo-banner-promo-expiry = l’offerta scade il 31 dicembre 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Chiudi
+upsell-banner-4-masks-us-heading = Ottieni la massima protezione per email e telefono
+upsell-banner-4-masks-non-us-heading = Ottieni la massima protezione per le email
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } ti offre un alias per numeri di telefono per proteggere il tuo numero reale, oltre ad alias di posta elettronica illimitati e la possibilità di bloccare le email promozionali.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } ti offre alias di posta elettronica illimitati, blocco dello spam, un dominio email { -brand-name-relay } personalizzato e la possibilità di rispondere ai messaggi inoltrati.
+upsell-banner-4-masks-us-cta = Aggiorna a { -brand-name-relay-premium }
