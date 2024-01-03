@@ -142,3 +142,12 @@ holiday-promo-banner-code-desc = Obtenez 20 % de réduction sur { -brand-name-r
 holiday-promo-banner-code-usage = Utilisez le code <coupon>{ $couponCode }</coupon> lors du paiement
 holiday-promo-banner-cta-button = Bénéficiez d’un an de { -brand-name-premium }
 holiday-promo-banner-promo-expiry = l’offre prend fin le 31 décembre 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Fermer
+upsell-banner-4-masks-us-heading = Obtenez une protection maximale de votre messagerie et de votre téléphone
+upsell-banner-4-masks-non-us-heading = Obtenez une protection maximale de vos e-mails
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } vous fournit un alias de téléphone pour protéger votre véritable numéro, ainsi qu’un nombre illimité d’alias de messagerie et la possibilité de bloquer les e-mails promotionnels.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } vous offre un nombre illimité d’alias de messagerie, le blocage des messages indésirables, un domaine de messagerie { -brand-name-relay } personnalisé et la possibilité de répondre aux messages transférés.
+upsell-banner-4-masks-us-cta = Passez à { -brand-name-relay-premium }
