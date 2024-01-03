@@ -142,3 +142,12 @@ holiday-promo-banner-code-desc = { -brand-name-relay-premium } 八折优惠
 holiday-promo-banner-code-usage = 结账时使用折扣码 <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = 订阅 1 年 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 优惠至 2023 年 12 月 31 日
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = 关闭
+upsell-banner-4-masks-us-heading = 获得强大的邮箱和手机保护
+upsell-banner-4-masks-non-us-heading = 获得全套电子邮件保护
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } 为您提供虚拟手机号以保护您的真实号码和无限量的马甲邮箱并屏蔽营销邮件。
+upsell-banner-4-masks-non-us-description = 订阅 { -brand-name-relay-premium } 即可获得无限量马甲马甲、垃圾邮件拦截、自定义 { -brand-name-relay } 邮箱域名并可回复转发消息。
+upsell-banner-4-masks-us-cta = 升级为 { -brand-name-relay-premium }
