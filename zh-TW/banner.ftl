@@ -142,3 +142,12 @@ holiday-promo-banner-code-desc = { -brand-name-relay-premium } 可享八折折�
 holiday-promo-banner-code-usage = 結帳時使用折扣碼 <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = 獲得 1 年的 { -brand-name-premium }
 holiday-promo-banner-promo-expiry = 優惠結束於 2023 年 12 月 31 日
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = 關閉
+upsell-banner-4-masks-us-heading = 獲得最大程度的 E-mail 與手機號碼保護
+upsell-banner-4-masks-non-us-heading = 獲得最大程度的 E-Mail 保護
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } 給您一個轉寄信箱來保護您的實際號碼號碼、無限量轉寄信箱以及封鎖行銷郵件的功能。
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } 提供無限量的轉寄信箱、垃圾郵件封鎖、自訂 { -brand-name-relay } 郵件網域以及能夠回覆轉寄郵件的功能。
+upsell-banner-4-masks-us-cta = 升級到 { -brand-name-relay-premium }
