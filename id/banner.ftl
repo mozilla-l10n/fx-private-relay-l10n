@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Dapatkan diskon 20% { -brand-name-relay-premium
 holiday-promo-banner-code-usage = Gunakan kode <coupon>{ $couponCode }</coupon> saat checkout
 holiday-promo-banner-cta-button = Dapatkan { -brand-name-premium } selama 1 tahun
 holiday-promo-banner-promo-expiry = penawaran berakhir pada 31 Des 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Tutup
+upsell-banner-4-masks-us-heading = Dapatkan perlindungan email dan telepon yang maksimal
+upsell-banner-4-masks-non-us-heading = Dapatkan perlindungan email maksimal
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } memberi Anda topeng telepon untuk melindungi nomor asli Anda, ditambah topeng email tanpa batas dan kemampuan untuk memblokir email promosi.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } memberi Anda topeng surel tanpa batas, pemblokiran spam, domain surel { -brand-name-relay } khusus, dan kemampuan untuk membalas pesan yang diteruskan.
+upsell-banner-4-masks-us-cta = Beralih ke { -brand-name-relay-premium }
