@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Ontvang 20% korting op { -brand-name-relay-prem
 holiday-promo-banner-code-usage = Gebruik code <coupon>{ $couponCode }</coupon> bij het afrekenen
 holiday-promo-banner-cta-button = Ontvang 1 jaar { -brand-name-premium }
 holiday-promo-banner-promo-expiry = aanbieding eindigt op 31 december 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Sluiten
+upsell-banner-4-masks-us-heading = Ontvang maximale e-mail- en telefoonbescherming
+upsell-banner-4-masks-non-us-heading = Ontvang maximale e-mailbescherming
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } geeft u een telefoonmasker om uw echte nummer te beschermen, plus onbeperkte e-mailmaskers en de mogelijkheid om reclameberichten te blokkeren.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } geeft u onbeperkte e-mailmaskers, blokkeren van spam, een aangepast { -brand-name-relay }-e-maildomein en de mogelijkheid om doorgestuurde berichten te beantwoorden.
+upsell-banner-4-masks-us-cta = Upgraden naar { -brand-name-relay-premium }
