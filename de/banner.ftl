@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Erhalten Sie 20% auf { -brand-name-relay-premiu
 holiday-promo-banner-code-usage = Verwenden Sie beim Bezahlen den Code <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = Holen Sie sich ein Jahr { -brand-name-premium }
 holiday-promo-banner-promo-expiry = Angebot endet am 31. Dezember 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Schließen
+upsell-banner-4-masks-us-heading = Holen Sie sich den bestmöglichen Schutz für Ihre E-Mail-Adresse und Ihr Telefon
+upsell-banner-4-masks-non-us-heading = Holen Sie sich den bestmöglichen für Ihre E-Mail-Adresse
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } bietet Ihnen eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer – plus unbegrenzte E-Mail-Masken und die Möglichkeit, Werbe-E-Mails zu blockieren.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } bietet unbegrenzte E-Mail-Masken, Spam-Blocker, eine benutzerdefinierte { -brand-name-relay }-E-Mail-Domain und die Möglichkeit, auf weitergeleitete Nachrichten zu antworten.
+upsell-banner-4-masks-us-cta = Machen Sie das Upgrade auf { -brand-name-relay-premium }
