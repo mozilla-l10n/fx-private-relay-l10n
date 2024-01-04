@@ -13,6 +13,7 @@ onboarding-alias-tip-3-2 = { -brand-name-relay } uzantısını kullanarak form a
 profile-label-welcome-html = <span>Merhaba</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } en fazla { email-size-limit } boyutundaki e-postaları (ekleri dahil) iletebilir
 profile-promo-upgrade-headline = Daha fazla özellik için yükseltme yapın.
+profile-promo-upgrade-cta = { -brand-name-relay }’i yükseltin
 profile-details-expand = Maske ayrıntılarını göster
 profile-details-collapse = Maske ayrıntılarını gizle
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.

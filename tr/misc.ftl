@@ -43,11 +43,14 @@ tips-header-title = Yardım ve İpuçları
 tips-header-button-close-label = Kapat
 tips-footer-link-faq-label = SSS
 tips-footer-link-faq-tooltip = Sıkça sorulan sorular
+tips-footer-link-feedback-label = Görüş bildir
+tips-footer-link-feedback-tooltip = Geri bildirim gönder
 tips-footer-link-support-label = Destek
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = İpucu { $nr }
+tips-toast-button-expand-label = Daha fazla bilgi al
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bilgi
 
 ## Tip about using custom masks
