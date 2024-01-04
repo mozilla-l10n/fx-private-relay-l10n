@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Tynnwch 20% oddi ar bris { -brand-name-relay-pr
 holiday-promo-banner-code-usage = Defnyddiwch y cod <coupon>{ $couponCode }</coupon> wrth y ddesg dalu
 holiday-promo-banner-cta-button = Cael 1 flwyddyn oddi ar bris { -brand-name-premium }
 holiday-promo-banner-promo-expiry = daw'r cynnig i ben Rhagfyr 31, 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Cau
+upsell-banner-4-masks-us-heading = Sicrhewch y diogelwch mwyaf posibl ar e-bost a'r ffôn
+upsell-banner-4-masks-non-us-heading = Cael y diogelwch e-bost mwyaf posibl
+upsell-banner-4-masks-us-description = Mae { -brand-name-relay-premium } yn rhoi rhif ffôn ffug er mwyn diogelu eich rhif go iawn, yn ogystal ag arallenwau e-bost diderfyn a'r gallu i rwystro e-byst hyrwyddo.
+upsell-banner-4-masks-non-us-description = Mae { -brand-name-relay-premium } yn rhoi arallenwau e-bost diderfyn i chi, yn rhwystro sbam, parth e-bost { -brand-name-relay } cyfaddas, a'r gallu i ymateb i negeseuon wedi'u hanfon ymlaen
+upsell-banner-4-masks-us-cta = Uwchraddiwch i { -brand-name-relay-premium }
