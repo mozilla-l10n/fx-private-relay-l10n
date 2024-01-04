@@ -148,3 +148,4 @@ holiday-promo-banner-promo-expiry = le offerta expira le 31 decembre 2023
 upsell-banner-4-masks-button-close-label = Clauder
 upsell-banner-4-masks-us-heading = Obtene la maxime protection de email e telephono
 upsell-banner-4-masks-non-us-heading = Obtene la maxime protection de email
+upsell-banner-4-masks-us-cta = Promover a { -brand-name-relay-premium }
