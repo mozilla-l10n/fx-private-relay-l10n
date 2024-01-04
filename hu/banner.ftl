@@ -152,6 +152,6 @@ holiday-promo-banner-promo-expiry = Az ajánlat 2023. december 31-ig érvényes
 upsell-banner-4-masks-button-close-label = Bezárás
 upsell-banner-4-masks-us-heading = Kapjon maximális védelmet a postafiókja és telefonja
 upsell-banner-4-masks-non-us-heading = Kapjon maximális e-mail-védelmet
-upsell-banner-4-masks-us-description = A { -brand-name-relay-premium } telefonmaszkot ad, amely megvédi valós számát, valamint korlátlan számú e-mail-maszkot és lehetővé teszi a promóciós levelek blokkolását.
+upsell-banner-4-masks-us-description = A { -brand-name-relay-premium } telefonmaszkot nyújt, amely megvédi valós számát, valamint korlátlan számú e-mail-maszkot is ad, és lehetővé teszi a promóciós levelek blokkolását.
 upsell-banner-4-masks-non-us-description = A { -brand-name-relay-premium } korlátlan e-mail-maszkot, levélszemét-blokkolást, egyéni { -brand-name-relay } e-mail domaint, és a továbbított üzenetekre történő válaszadást biztosít.
 upsell-banner-4-masks-us-cta = Frissítés a { -brand-name-relay-premium }ra
