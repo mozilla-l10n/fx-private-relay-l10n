@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Få 20% rabatt på { -brand-name-relay-premium 
 holiday-promo-banner-code-usage = Använd koden <coupon>{ $couponCode }</coupon> i kassan
 holiday-promo-banner-cta-button = Få 1 års { -brand-name-premium }
 holiday-promo-banner-promo-expiry = erbjudandet upphör 31 december 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Stäng
+upsell-banner-4-masks-us-heading = Få maximalt e-post- och telefonskydd
+upsell-banner-4-masks-non-us-heading = Få maximalt e-postskydd
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } ger dig ett telefonalias för att skydda ditt riktiga nummer, plus obegränsade e-postalias och möjligheten att blockera reklammeddelanden.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } ger dig obegränsade e-postalias, skräppostblockering, en anpassad { -brand-name-relay } e-postdomän och möjligheten att svara på vidarebefordrade meddelanden.
+upsell-banner-4-masks-us-cta = Uppgradera till { -brand-name-relay-premium }
