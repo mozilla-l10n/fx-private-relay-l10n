@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Take 20% off { -brand-name-relay-premium }
 holiday-promo-banner-code-usage = Use code <coupon>{ $couponCode }</coupon> at checkout
 holiday-promo-banner-cta-button = Get 1 year of { -brand-name-premium }
 holiday-promo-banner-promo-expiry = offer ends 31st Dec 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Close
+upsell-banner-4-masks-us-heading = Get maximum email and phone protection
+upsell-banner-4-masks-non-us-heading = Get maximum email protection
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } gives you a phone mask to protect your real number, plus unlimited email masks and the ability to block promotional emails.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } gives you unlimited email masks, spam blocking, a custom { -brand-name-relay } email domain, and the ability to reply to forwarded messages.
+upsell-banner-4-masks-us-cta = Upgrade to { -brand-name-relay-premium }
