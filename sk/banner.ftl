@@ -144,3 +144,12 @@ holiday-promo-banner-code-desc = Získajte 20 % zľavu z { -brand-name-relay-pr
 holiday-promo-banner-code-usage = Pri pokladni použite kód <coupon>{ $couponCode }</coupon>
 holiday-promo-banner-cta-button = Získať { -brand-name-premium } na 1 rok
 holiday-promo-banner-promo-expiry = ponuka končí 31. decembra 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Zavrieť
+upsell-banner-4-masks-us-heading = Získajte maximálnu ochranu svojho e‑mailu a telefónu
+upsell-banner-4-masks-non-us-heading = Získajte maximálnu ochranu svojho e‑mailu
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } vám poskytuje masku telefónneho čísla na ochranu vášho skutočného čísla, plus neobmedzený počet e‑mailových masiek a možnosť blokovať marketingové e‑maily.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } vám poskytuje neobmedzený počet e‑mailových masiek, blokovanie nevyžiadanej pošty, vlastnú e‑mailovú doménu služby { -brand-name-relay } a možnosť odpovedať na preposlané správy.
+upsell-banner-4-masks-us-cta = Inovujte na { -brand-name-relay-premium }
