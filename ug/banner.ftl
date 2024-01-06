@@ -78,6 +78,9 @@ holiday-promo-banner-protect-inbox = تېخىمۇ ئاز چىقىم بىلەن �
 holiday-promo-banner-code-desc = 20% ئېتىبار { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
-holiday-promo-banner-code-usage = ھېساب بوغقاندا<coupon> { $couponCode }</coupon> كودنى ئىشلىتىڭ
+holiday-promo-banner-code-usage = ھېساب بوغقاندا <coupon> { $couponCode }</coupon> كودنى ئىشلىتىڭ
 holiday-promo-banner-cta-button = 1 يىللىق { -brand-name-premium } ئېلىڭ
 holiday-promo-banner-promo-expiry = ئېتىبار 2023-يىلى 31-دېكابىر ئاخىرلىشىدۇ
+
+## 4-mask upsell banner 
+
