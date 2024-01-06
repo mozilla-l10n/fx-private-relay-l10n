@@ -146,3 +146,12 @@ holiday-promo-banner-code-desc = Отримайте знижку 20% на { -bra
 holiday-promo-banner-code-usage = Скористайтеся кодом <coupon>{ $couponCode }</coupon> під час оформлення
 holiday-promo-banner-cta-button = Отримайте 1 рік { -brand-name-premium }
 holiday-promo-banner-promo-expiry = пропозиція діє до 31 грудня 2023 року
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Закрити
+upsell-banner-4-masks-us-heading = Отримайте максимальний захист електронної пошти та телефону
+upsell-banner-4-masks-non-us-heading = Отримайте максимальний захист електронної пошти
+upsell-banner-4-masks-us-description = { -brand-name-relay-premium } надає вам маску телефону для захисту вашого справжнього номера, а також необмежену кількість масок електронної пошти та можливість блокувати рекламні електронні листи.
+upsell-banner-4-masks-non-us-description = { -brand-name-relay-premium } надає вам необмежену кількість масок електронної пошти, блокування спаму, спеціальний домен електронної пошти { -brand-name-relay } і можливість відповідати на переслані повідомлення.
+upsell-banner-4-masks-us-cta = Оновити до { -brand-name-relay-premium }
