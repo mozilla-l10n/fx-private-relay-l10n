@@ -54,9 +54,9 @@ footer-banner-premium-promo-headine = Перейдіть на <strong>{ -brand-n
 footer-banner-premium-promo-body = Отримайте маску номера телефону, необмежену кількість масок електронної пошти та власні адреси електронної пошти для швидкого створення масок.
 banner-pack-upgrade-cta = Оновити зараз
 # Privacy Notice update banner:
-banner-label-privacy-notice-update-header = Оновлення повідомлення про приватність
-banner-label-privacy-notice-update-body = Щоб підвищити надійність { -brand-name-firefox-relay } у разі неможливості доставлення електронного листа, ми тимчасово зберігатимемо електронну пошту на наших серверах, доки вона не буде доставлена. Ми ніколи не протримаємо його більше ніж три дні.
-banner-label-privacy-notice-update-cta = Переглянути повідомлення про приватності
+banner-label-privacy-notice-update-header = Оновлення Положення про приватність
+banner-label-privacy-notice-update-body = Щоб підвищити надійність { -brand-name-firefox-relay } у разі неможливості доставлення електронного листа, ми тимчасово зберігатимемо електронну пошту на наших серверах, доки вона не буде доставлена. Ми ніколи не зберігатимемо листи більш як три дні.
+banner-label-privacy-notice-update-cta = Переглянути Положення про приватність
 # Data Notification Banner:
 banner-label-data-notification-header = Незабаром у { -brand-name-relay }
 banner-label-data-notification-cta = Перейти до налаштувань
