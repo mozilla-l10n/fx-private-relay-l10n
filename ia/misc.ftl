@@ -279,7 +279,7 @@ what-can-you-do-with-relay-title = Que pote tu facer con { -brand-name-firefox-r
 what-can-you-do-with-relay-point-one = Recipe emails sin revelar tu real adresse email al mittentes
 # Variables
 #   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
-what-can-you-do-with-relay-point-one-subpoint-html = Suffice compartir un masca de e-mail. Le mascas de e-mail reexpedira le messages a tu cassa de entrata. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu tabuliero de instrumentos de { -brand-name-relay }.
+what-can-you-do-with-relay-point-one-subpoint-html = Suffice compartir un masca de e-mail. Le mascas de e-mail reexpedira le messages a tu cassa de entrata. Tu pote crear mascas directemente sur { -brand-name-firefox }, con le <a { $attrs }>{ -brand-name-relay } extension</a>, o sur tu pannello de instrumentos de { -brand-name-relay }.
 what-can-you-do-with-relay-point-two = Evita que sitos e spammatores tracia facialmente qui tu es
 what-can-you-do-with-relay-point-two-subpoint = Hodie le traciatores de email es ubique. Le mascas email de { -brand-name-relay } te adjuta a mantener los reservate.
 what-can-you-do-with-relay-point-three = Impedi que le spam attinge tu cassa de entrata, e mesmo disactiva completemente le mascas.
