@@ -77,3 +77,4 @@ profile-promo-email-blocking-description-promotionals-locked-close = 閉じる
 ## 5 Mask Upsell (displayed on the profile page)
 
 profile-maxed-aliases-cta = { -brand-name-premium } にアップグレード
+profile-label-set-your-custom-domain-free-user = { -brand-name-premium } を購読して独自ドメインを取得

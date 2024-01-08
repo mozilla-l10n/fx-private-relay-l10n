@@ -7,6 +7,7 @@
 
 profile-free-onboarding-welcome-headline = { -brand-name-relay } へようこそ
 profile-free-onboarding-welcome-description = 新しいメールマスクを作成しましょう。
+profile-free-onboarding-welcome-item-headline-1 = 無料のメールマスクを使用して本当のアドレスを守りましょう
 profile-free-onboarding-skip-step = スキップ
 profile-free-onboarding-next-step = 次へ
 

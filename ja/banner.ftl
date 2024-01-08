@@ -26,3 +26,10 @@ banner-register-subdomain-button-search = 検索
 
 banner-set-email-domain-input-search = 検索
 modal-email-domain-register = 登録
+tooltip-email-domain-explanation-title-free = { -brand-name-relay } で独自ドメインを使用しましょう
+
+## 2023 Holiday promo
+
+
+## 4-mask upsell banner 
+
