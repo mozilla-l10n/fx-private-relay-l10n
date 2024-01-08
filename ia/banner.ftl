@@ -25,7 +25,7 @@ banner-download-install-chrome-extension-headline = Proba { -brand-name-relay } 
 banner-download-install-chrome-extension-copy-2 = Le extension { -brand-name-firefox-relay } pro { -brand-name-chrome } rende mesmo plus facile crear e usar le mascas.
 banner-download-install-chrome-extension-cta = Installa le extension { -brand-name-relay }
 banner-upgrade-headline = Promover a { -brand-name-relay-premium }
-banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rende mesmo plus facile crear mascas email, con un subdominio mascas personalisate e mascas illimitate.
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } rende mesmo plus facile crear mascas email, con un subdominio pro mascas personalisate e illimitate.
 banner-upgrade-cta = Promover a { -brand-name-relay-premium }
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = Action necesse
