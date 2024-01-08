@@ -146,3 +146,10 @@ holiday-promo-banner-code-desc = Λάβετε έκπτωση 20% στο { -brand
 holiday-promo-banner-code-usage = Χρησιμοποιήστε τον κωδικό <coupon>{ $couponCode }</coupon> κατά την πληρωμή
 holiday-promo-banner-cta-button = Αποκτήστε το { -brand-name-premium } για 1 έτος
 holiday-promo-banner-promo-expiry = Η προσφορά λήγει στις 31 Δεκεμβρίου 2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Κλείσιμο
+upsell-banner-4-masks-us-heading = Λάβετε τη μέγιστη προστασία για email και τηλέφωνο
+upsell-banner-4-masks-non-us-heading = Λάβετε τη μέγιστη προστασία για email
+upsell-banner-4-masks-us-cta = Αναβάθμιση στο { -brand-name-relay-premium }
