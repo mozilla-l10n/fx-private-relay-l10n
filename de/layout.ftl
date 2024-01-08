@@ -47,7 +47,7 @@ nav-duo-phone-mask-alt = Telefonnummer-Masken
 
 ## Mobile menu text
 
-menu-upgrade-button = Aktualisieren
+menu-upgrade-button = Upgrade durchführen
 menu-toggle-open = Menü öffnen
 menu-toggle-close = Menü schließen
 nav-settings = Einstellungen
