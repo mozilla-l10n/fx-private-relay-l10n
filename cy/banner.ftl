@@ -139,7 +139,7 @@ tooltip-email-domain-explanation-part-three = Mewn bwyty? Defnyddiwch restaurant
 
 ## 2023 Holiday promo
 
-holiday-promo-banner-protect-inbox = Diogelwch eich blwch derbyn am lai
+holiday-promo-banner-protect-inbox = Diogelu eich blwch derbyn am lai
 holiday-promo-banner-code-desc = Tynnwch 20% oddi ar bris { -brand-name-relay-premium }
 # Variables:
 # 	$couponCode (string) - the coupon code.
