@@ -122,3 +122,10 @@ modal-email-domain-success-body-any-word = خریداری؟ { $custom_domain_ful
 modal-email-domain-success-continue = جاری
 tooltip-email-domain-explanation-title = تہاݙی نویکلی { -brand-name-relay } ای میل ڈومین بارے
 tooltip-email-domain-explanation-title-free = آپݨی { -brand-name-relay } ای میل ڈومین گھنو
+
+## 2023 Holiday promo
+
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = بند کرو
