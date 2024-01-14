@@ -16,6 +16,13 @@ modal-custom-alias-picker-form-prefix-invalid-warning = ای میل وچ صرف 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = ای میل وچ صرف چھوٹی اے بی سی، عدد، پیریڈتےہائفن آ سڳدن۔تے ہائفن تے پیریڈ شروع تے یا چھیکڑ تے کائنی آسڳدے۔
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 modal-custom-alias-picker-creation-error-2 = تہاݙا مخصوص ای میل ماسک دستی تخلیق کائنی تھی سڳیا۔ سوہݨا ولدا کوشش کرو، یا جہڑا ای میل ماسک تخلیق کرݨے اوں تے ای میل بھیڄو۔
+modal-custom-alias-picker-form-prefix-placeholder-redesign = عبارت درج کرو
+done-msg = تھی ڳیا
+copy-mask = ماسک کاپی کرو
+popover-custom-alias-explainer-promotional-block-checkbox-label = مشہوری ای میلاں بلاک کرݨ شروع کرو
+error-state-valid-alt = ٹھیک
+error-state-invalid-alt = غلط
+close-button-label-alt = بند کرو
 modal-rename-alias-saved = لیبل محفوظ تھی ڳیا!
 modal-delete-headline-2 = ایہ ای میل ماسک پکّا پکّا مٹاؤں؟
 # Variables:
@@ -54,3 +61,6 @@ modal-domain-register-success-2 = { $subdomain } ہݨ تہاݙی ای میل س�
 #   $domain (string) - Applicable domain, i.e. `.mozmail.com`
 modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> ہݨ تہاݙی ای میل سب ڈومین ہے!
 modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای میل ماسک تخلیق کر سڳدے ہو!
+
+## Updated mask deletion modal strings
+
