@@ -21,6 +21,7 @@ settings-warning-collection-off-heading-3 = E-posta maskesi hesap adlarınız ka
 setting-label-collection-heading-v2 = Gizlilik
 setting-label-collection-description-3 = E-posta maskeleri için hesap adlarını etkinleştir
 settings-button-save-label = Kaydet
+settings-button-save-tooltip = İstediğiniz ayarları uygulayın.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API anahtarı
 settings-api-key-description = Bu sizin { -brand-name-relay } API anahtarınız. Bu anahtar, diğer uygulamaların { -brand-name-relay } hesabınıza otomatik olarak erişebilmesini sağlar.

@@ -105,6 +105,10 @@ modal-email-domain-success-body-any-word = Alışveriş mi yapıyorsunuz? magaza
 modal-email-domain-success-continue = İleri
 tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+tooltip-email-domain-explanation-part-three = Restoranda mısınız? restoranadi@alanadiniz.{ $mozmail } adresini kullanabilirsiniz. <p>Alışveriş mi yapıyorsunuz? magazaadi@alanadiniz.{ $mozmail }'u deneyebilirsiniz.</p>
 
 ## 2023 Holiday promo
 

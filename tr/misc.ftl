@@ -55,6 +55,8 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bi
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = Kendi alt alan adınızı kullanarak maske oluşturma
+tips-custom-alias-content-2 = Tek yapmanız gereken, özel alt alan adınızı kullanan bir maske kullanıcı adı uydurmak. Uydurduğunuz maske otomatik olarak oluşturulacaktır. Örneğin, bir sonraki alışverişlerinizde “magazaadi@alanadiniz.mozmail.com” adresini deneyebilirsiniz.
 
 ## Tip about using custom masks
 
@@ -174,6 +176,8 @@ forwarded-email-header-attachment = { -brand-name-firefox-relay } en fazla { ema
 #   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
 forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-posta takip kodu kaldırıldı
 forwarded-email-trackers-blocked-report = Daha fazla bilgi alın
+# This entire text is a link
+forwarded-email-footer-2 = E-posta yönlendirmeyi durdurabilir ve tüm maskelerin ayarlarını buradan yönetebilirsiniz.
 # This entire text is a link
 forwarded-email-footer-premium-banner = { -brand-name-relay-premium }’a yükseltin
 # Variables:
