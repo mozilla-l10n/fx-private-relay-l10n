@@ -61,6 +61,7 @@ banner-offer-end-cta = Şimdi yükseltin
 banner-ab-premium-promo-stop-spam-headline = Spam’leri, otomatik çağrıları ve istenmeyen SMS’leri durdurun
 banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi de sağlar.
 banner-ab-premium-promo-advanced-identity-headline = Gelişmiş kimlik koruması
+banner-ab-premium-promo-control-receiver-headline = Gerçek telefon numaranızı kime vereceğinize siz karar verin
 banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } gerçek telefon numaranızı koruyan bir telefon maskesinin yanı sıra sınırsız e-posta maskesi de sağlar.
 banner-ab-premium-promo-extra-protection-headline = Gelen kutunuz ve telefonunuz için ek koruma
 banner-ab-premium-promo-cta = Yükselt
@@ -71,6 +72,10 @@ banner-set-email-domain-headline-action-needed = İşlem gerekiyor
 banner-set-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 banner-set-email-domain-step-one-headline = İstediğiniz { -brand-name-relay } e-posta alan adını seçin
 banner-set-email-domain-step-one-body = E-postanızda @ simgesinden sonra gelir.
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+# "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
+banner-set-email-domain-step-two-body = @ karakterinden önce bir kelime veya kelime grubu eklemeniz yeterli. Örneğin, alışveriş yaparken magazaadi@alanadiniz.{ $mozmail } kullanabilirsiniz.
 banner-set-email-domain-input-placeholder-label = E-posta alan adı ara
 banner-set-email-domain-input-placeholder = Kelime veya kelime öbeği ara
 banner-set-email-domain-input-search = Ara
@@ -94,6 +99,9 @@ modal-email-domain-success-subheadline = <p>{ $custom_domain_full }</p> artık {
 modal-email-domain-success-headline-on-the-go = Her yerde yeni { -brand-name-relay } maskeleri oluşturmak için bunu kullanabilirsiniz
 modal-email-domain-success-body-on-the-go = Yeni maske oluşturmak için { -brand-name-relay }’e giriş yapmanıza gerek yok.
 modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümleyi ekleyerek sınırsız maske oluşturabilirsiniz
+# Variables:
+#   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
+modal-email-domain-success-body-any-word = Alışveriş mi yapıyorsunuz? magazaadi{ $custom_domain_full } adresini kullanabilirsiniz.
 modal-email-domain-success-continue = İleri
 tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
