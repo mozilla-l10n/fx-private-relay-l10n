@@ -52,6 +52,11 @@ whatsnew-feature-firefox-integration-description = E-postanızı korumak artık 
 whatsnew-feature-mailing-list-heading = Gizliliğinizi koruma konusunda yardım alın
 whatsnew-feature-mailing-list-cta = Bültene abone olun
 whatsnew-feature-premium-expansion-eu-heading = Artık sınırsız sayıda maske kullanabilirsiniz
+# A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ülkenizde kullanıma açıldı…
+whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } ülkenizde kullanıma açıldı. Sınırsız e-posta maskesiyle gelen kutunuzu koruyun, maske oluşturmayı kolaylaştıran ve güvenli hale getiren { -brand-name-relay } e-posta alan adınızı edinin.
+whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } üyesi olun
 # A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-holiday-promo-2023-news-snippet = Bu yılbaşı döneminde 1 yıllık { -brand-name-relay-premium }’u %20 indirimli alın.

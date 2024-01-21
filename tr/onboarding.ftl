@@ -22,6 +22,7 @@ multi-part-onboarding-premium-welcome-subheadline = Artık gelen kutunuza gelen 
 multi-part-onboarding-premium-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 multi-part-onboarding-premium-email-domain-feature-headline = Kendinize ait bir { -brand-name-relay } e-posta alan adıyla şunları yapabilirsiniz:
 multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = İstediğiniz yerde anında maske oluşturun
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = Kelime veya kelime öbeği ara
 multi-part-onboarding-premium-email-domain-feature-input-search = Ara
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
@@ -46,5 +47,7 @@ multi-part-onboarding-continue = İleri
 
 ## Step 3 Mobile Reply to Emails
 
+multi-part-onboarding-reply-headline = E-postalarınızı yanıtlayın
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium } ile şunları yapabilirsiniz:
+multi-part-onboarding-premium-reply-description = E-postaları gerçek adresinizi paylaşmadan yanıtlayın
 multi-part-onboarding-step-counter = Adım { $step }/{ $max }.
