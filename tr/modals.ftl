@@ -12,6 +12,7 @@ modal-custom-alias-picker-form-prefix-label-3 = @ işaretinden önce gelecek met
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder-2 = @ozelalanadi.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = E-posta maskelerinde boşluk kullanılamaz.
+modal-custom-alias-picker-form-prefix-invalid-warning = E-posta maskeleri yalnızca küçük harf, rakam ve tire içerebilir; tire ile başlayamaz ve bitemez.
 modal-custom-alias-picker-form-submit-label-2 = Maske oluştur
 modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluşturulamadı. Lütfen yeniden deneyin veya maskeyi oluşturmak için maskeye e-posta gönderin.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
@@ -25,6 +26,7 @@ close-button-label-alt = Kapat
 modal-rename-alias-saved = Etiket kaydedildi
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
+modal-domain-register-warning-reminder-2 = Tek bir alt alan adı kaydedebileceğinizi unutmayın. Bunu daha sonra değiştiremezsiniz.
 modal-domain-register-button-2 = Alt alan adı kaydet
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.

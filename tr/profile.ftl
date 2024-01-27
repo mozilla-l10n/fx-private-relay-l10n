@@ -81,6 +81,8 @@ profile-filter-category-title = Görünür maskeleri filtrele
 profile-filter-no-results = Seçtiğiniz ölçütlerle eşleşen maske bulunamadı. <clear-button>Tüm filtreleri temizle.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Yönlendirme maskeleri
+# Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
+profile-filter-category-option-disabled-masks = Engelleme maskeleri
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Rastgele maskeler
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
