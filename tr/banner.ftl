@@ -88,6 +88,7 @@ modal-email-domain-good-news = İyi bir haberimiz var!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
 modal-email-domain-available = <p>{ $custom_domain_full }</p> kullanılabilir
+modal-email-domain-available-body = Tek bir { -brand-name-relay } e-posta alan adı kaydedebilirsiniz. <p>Bunu daha sonra değiştiremezsiniz.</p>
 # Variables:
 #   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
 modal-domain-register-confirmation-checkbox = Evet, @{ $subdomain } alan adını kaydettirmek istiyorum
@@ -123,4 +124,5 @@ holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
 ## 4-mask upsell banner 
 
 upsell-banner-4-masks-button-close-label = Kapat
+upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviyeye çıkarın
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium }’a yükseltin

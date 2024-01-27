@@ -96,6 +96,13 @@ trackerreport-load-error = Takip kodu kaldırma raporunuz oluşturulurken bir so
 ## Tracker warning page
 
 contains-tracker-title = Bu bağlantı veya resim takip kodu içeriyor
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    E-posta takip kodları, şirketlerin çevrimiçi davranışlarınızı takip etmek için e-postalara yerleştirdiği
+    gözetim araçlarıdır. Gizliliğinizi korumak için bu takip kodunu { $datetime } tarihinde <u>{ $sender }</u> 
+    tarafından gönderilen e-postadan kaldırdık.
 contains-tracker-warning-title = Bağlantıyı yine de görüntülemek istiyor musunuz?
 contains-tracker-warning-view-link-cta = Evet, bağlantıyı göster
 contains-tracker-faq-section-title = E-posta takip kodlarıyla ilgili sık sorulan sorular
@@ -165,10 +172,17 @@ survey-csat-answer-dissatisfied = Memnun değilim
 survey-csat-answer-neutral = Orta
 survey-csat-answer-satisfied = Memnunum
 survey-csat-answer-very-satisfied = Çok memnunum
+# This is a link that the user can click to get to the two-minute survey.
+# It appears after the user has answered survey-csat-question:
+survey-csat-followup = Görüşleriniz için teşekkürler. { -brand-name-relay }’i sizin için nasıl daha iyi hale getirebileceğimizi öğrenmek istiyoruz. İki dakikalık bir ankete katılmak ister misiniz?
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
+#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
+forwarded-email-header-from = Bu ileti { $linked_origin } aracılığıyla { $display_email } adresinden yönlendirildi.
 # Variables:
 #   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
 forwarded-email-header-attachment = { -brand-name-firefox-relay } en fazla { email-size-limit } boyutundaki e-postaları (ekleri dahil) iletebilir. Daha fazla bilgi için { $faq_link } sayfamıza bakabilirsiniz.
@@ -262,6 +276,7 @@ first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maske
 first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
 first-time-user-email-extra-protection-inbox-title = Gelen kutunuz için ekstra koruma
 first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } üyesi olun
 first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
 # Variables
 #   $url (string) - URL of the support team website
@@ -273,6 +288,7 @@ first-time-user-email-questions-subhead-text = Destek ekibimiz size yardımcı o
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-footer-text-2-html = Daha fazla bilgi için <a href="{ $url }" { $attrs }>{ -brand-name-mozilla } Destek</a>’i ziyaret edebilirsiniz.
 first-time-user-email-footer-text-2-text = Daha fazla bilgi için { -brand-name-mozilla } Destek’i ziyaret edebilirsiniz.
+first-time-user-email-footer-text-legal = Hukuki Bilgiler
 first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 
 ## API error messages

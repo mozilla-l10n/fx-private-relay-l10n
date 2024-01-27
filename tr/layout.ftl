@@ -40,6 +40,7 @@ nav-profile-contact-tooltip = { -brand-name-relay-premium } ile ilgili bize ula�
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } avatarı
 nav-profile-image-alt-v2 = hesap avatarı
+nav-duo-description = Diğer panele geç
 nav-duo-email-mask-alt = E-posta maskeleri
 nav-duo-phone-mask-alt = Telefon maskeleri
 
