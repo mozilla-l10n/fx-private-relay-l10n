@@ -154,6 +154,7 @@
         [ins] Firefoxem Lockwise
     }
     .gender = masculine
+# Deprecated
 -brand-name-firefox-monitor =
     { $case ->
        *[nom] Firefox Monitor
@@ -165,6 +166,7 @@
         [ins] Firefox Monitorem
     }
     .gender = masculine
+-brand-name-mozilla-monitor = Mozilla Monitor
 -brand-name-pocket =
     { $case ->
        *[nom] Pocket
@@ -176,6 +178,7 @@
         [ins] Pocketem
     }
     .gender = masculine
+# Deprecated
 -brand-name-firefox-account =
     { $case ->
        *[nom]
