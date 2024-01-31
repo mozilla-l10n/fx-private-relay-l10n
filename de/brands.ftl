@@ -20,8 +20,11 @@
 -brand-name-mozilla-vpn = Mozilla VPN
 -brand-name-mozilla-privacy-pack = Mozilla Privacy Pack
 -brand-name-firefox-lockwise = Firefox Lockwise
+# Deprecated
 -brand-name-firefox-monitor = Firefox Monitor
+-brand-name-mozilla-monitor = Mozilla Monitor
 -brand-name-pocket = Pocket
+# Deprecated
 -brand-name-firefox-account =
     { $capitalization ->
        *[lowercase] Firefox-Konto
