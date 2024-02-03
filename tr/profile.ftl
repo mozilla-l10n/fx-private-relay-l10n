@@ -62,7 +62,10 @@ profile-label-replies = Yanıt
 profile-label-trackers-removed = takip kodu kaldırıldı
 profile-trackers-removed-tooltip-part2-2 = <b>Önemli:</b> Takip kodları genellikle resimlerde ve bağlantılarda bulunduğundan takip kodlarını kaldırmak e-postanızın bozuk görünmesine neden olabilir.
 profile-label-cancel = Vazgeç
+profile-blocked-copy-2 = Bu maskeyi engellerseniz { -brand-name-firefox-relay }, iletileri gelen kutunuza iletmeden silecektir.
+profile-forwarded-copy-2 = Bu maske için iletmeyi seçtiğinizde { -brand-name-firefox-relay } iletileri gelen kutunuza iletecektir.
 profile-forwarded-note = Not:
+profile-forwarded-note-copy = { email-size-limit } boyutundan büyük e-postalar (ekler dahil) şu anda desteklenmediği için iletilmeyecektir.
 profile-forwarded-note-copy-v2 = { email-size-limit } boyutundan büyük e-postalar (ekler dahil) yönlendirilmeyecektir.
 profile-replies-tooltip = Bu maskeyi kullanarak aldığınız e-postaları yanıtlayabilirsiniz. { -brand-name-firefox-relay } gerçek e-posta adresinizi korumaya devam edecektir.
 profile-stat-learn-more = Daha fazla bilgi alın
@@ -89,6 +92,7 @@ profile-filter-category-option-random-masks = Rastgele maskeler
 profile-filter-category-option-custom-masks = Özel maskeler
 # This is a button that, when clicked, will open a tooltip with profile-indicator-tracker-removal-tooltip ("Currently removing email trackers").
 profile-indicator-tracker-removal-alt = Takip kodu kaldırma durumu
+profile-indicator-tracker-removal-tooltip = Şu anda e-posta takip kodları kaldırılıyor
 
 ## Mask Promotional Email Blocking (displayed on the profile page)
 

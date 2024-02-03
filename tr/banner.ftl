@@ -72,6 +72,7 @@ banner-set-email-domain-headline-action-needed = İşlem gerekiyor
 banner-set-email-domain-headline = Benzersiz { -brand-name-relay } e-posta alan adınızı ayarlayın
 banner-set-email-domain-step-one-headline = İstediğiniz { -brand-name-relay } e-posta alan adını seçin
 banner-set-email-domain-step-one-body = E-postanızda @ simgesinden sonra gelir.
+banner-set-email-domain-step-two-headline = Anında size özel { -brand-name-relay } maskeleri oluşturabilirsiniz
 # Variables:
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
@@ -125,4 +126,5 @@ holiday-promo-banner-promo-expiry = teklif 31 Aralık 2023’te sona erecek
 
 upsell-banner-4-masks-button-close-label = Kapat
 upsell-banner-4-masks-us-heading = E-posta ve telefon korumanızı en üst seviyeye çıkarın
+upsell-banner-4-masks-non-us-heading = En üst seviye e-posta korumasına kavuşun
 upsell-banner-4-masks-us-cta = { -brand-name-relay-premium }’a yükseltin

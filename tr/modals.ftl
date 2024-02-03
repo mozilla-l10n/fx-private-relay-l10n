@@ -26,6 +26,7 @@ close-button-label-alt = Kapat
 modal-rename-alias-saved = Etiket kaydedildi
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
+modal-domain-register-good-news = İyi bir haberimiz var!
 modal-domain-register-warning-reminder-2 = Tek bir alt alan adı kaydedebileceğinizi unutmayın. Bunu daha sonra değiştiremezsiniz.
 modal-domain-register-button-2 = Alt alan adı kaydet
 # Variables:

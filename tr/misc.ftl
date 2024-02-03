@@ -46,6 +46,7 @@ tips-footer-link-faq-tooltip = Sıkça sorulan sorular
 tips-footer-link-feedback-label = Görüş bildir
 tips-footer-link-feedback-tooltip = Geri bildirim gönder
 tips-footer-link-support-label = Destek
+tips-footer-link-support-tooltip = Destek birimine ulaş
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
 # Variables
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
