@@ -45,12 +45,15 @@ profile-label-skip = Geç
 profile-label-continue = İleri
 # This string is followed by an email address
 profile-label-forward-emails = Yönlendirilecek adres:
+# This string is followed by date
+profile-label-first-emailed = İlk e-posta:
 # This string is followed by date:
 profile-label-created = Oluşturma:
 profile-label-details-show = Ayrıntıları göster
 profile-label-details-hide = Ayrıntıları gizle
 # This string is a label for a toggle (on/off) switch
 profile-label-forwarding = yönlendirme
+profile-label-blocking = engelleme
 profile-label-disable-forwarding-button-2 = Bu maske için e-posta yönlendirmeyi kapat
 profile-label-enable-forwarding-button-2 = Bu maske için e-posta yönlendirmeyi aç
 profile-label-click-to-copy = Kopyalamak için tıkla
@@ -60,6 +63,7 @@ profile-label-forwarded = yönlendirildi
 profile-label-replies = Yanıt
 # This is displayed in small under a number in a large font indicating the number of trackers that have been removed from all emails sent to a particular mask
 profile-label-trackers-removed = takip kodu kaldırıldı
+profile-trackers-removed-tooltip-part1 = Takip kodlarını kaldırmayı etkinleştirdiğinizde yönlendirilen e-postalardaki sık kullanılan e-posta takip kodları kaldırılır.
 profile-trackers-removed-tooltip-part2-2 = <b>Önemli:</b> Takip kodları genellikle resimlerde ve bağlantılarda bulunduğundan takip kodlarını kaldırmak e-postanızın bozuk görünmesine neden olabilir.
 profile-label-cancel = Vazgeç
 profile-blocked-copy-2 = Bu maskeyi engellerseniz { -brand-name-firefox-relay }, iletileri gelen kutunuza iletmeden silecektir.
@@ -86,6 +90,8 @@ profile-filter-no-results = Seçtiğiniz ölçütlerle eşleşen maske bulunamad
 profile-filter-category-option-active-masks = Yönlendirme maskeleri
 # Filter on Relay masks that are inactive; i.e. that do not forward received emails to your email address, but block them instead.
 profile-filter-category-option-disabled-masks = Engelleme maskeleri
+# Filter on Relay masks that block promotional emails. "Promo" is an English slang/shortened version of "Promotion".
+profile-filter-category-option-promo-blocking-masks = Reklam engelleyici maskeler
 # Filter on Relay masks that have a random name (<gibberish>@mozmail.com).
 profile-filter-category-option-random-masks = Rastgele maskeler
 # Filter on Relay masks that have a user-chosen name (<user-chosen name>@<user-chosen subdomain>.mozmail.com).
@@ -126,6 +132,10 @@ profile-promo-email-blocking-description-promotionals-locked-close = Kapat
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = { $limit } maskenizin hepsini kullandınız. Bu maskeleri farklı yerlerde yeniden kullanabilirsiniz ama her hesap için ayrı bir maske kullanmak en güvenli seçenektir.
 profile-maxed-aliases-with-phone-header = E-posta ve telefon korumanızı en üst seviyeye çıkarın
 profile-maxed-aliases-without-phone-header = { -brand-name-relay } e-posta korumanızı en üst seviyeye çıkarın
 profile-maxed-aliases-cta = { -brand-name-premium }’a yükseltin

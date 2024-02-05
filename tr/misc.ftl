@@ -52,6 +52,9 @@ tips-footer-link-support-tooltip = Destek birimine ulaş
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = İpucu { $nr }
 tips-toast-button-expand-label = Daha fazla bilgi al
+# Checkbox the user can click to adjust the block level of the new mask
+popover-custom-alias-explainer-promotional-block-checkbox = Reklam e-postalarını engelleme
+popover-custom-alias-explainer-promotional-block-tooltip-2 = Reklam e-postalarının gelen kutunuza ulaşmasını engellemek için maskelerinizden “Reklam e-postalarını engelle” seçeneğini etkinleştirebilirsiniz.
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = Daha fazla bilgi
 
 ## Tip about using custom masks
@@ -61,6 +64,8 @@ tips-custom-alias-content-2 = Tek yapmanız gereken, özel alt alan adınızı k
 
 ## Tip about using custom masks
 
+tips-promo-email-blocking-heading = Reklam e-postalarını engelleme
+tips-promo-email-blocking-content = { -brand-name-relay-premium } ile reklam e-postalarının gelen kutunuza ulaşmasını engellerken fatura, kargo bilgisi gibi e-postaların size ulaşmasını sağlayabilirsiniz.
 
 ## Report of trackers removed from an email
 

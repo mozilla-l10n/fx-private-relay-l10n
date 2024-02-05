@@ -20,6 +20,7 @@ error-alias-picker-prefix-invalid-uppercase-letters = Büyük harf kullanmayın
 error-alias-picker-prefix-invalid-symbols = Nokta ve tire dışındaki işaretleri kullanmayın
 done-msg = Tamam
 copy-mask = Maskeyi kopyala
+popover-custom-alias-explainer-promotional-block-checkbox-label = Reklam e-postalarını engellemeye başlayın
 error-state-valid-alt = Geçerli
 error-state-invalid-alt = Geçersiz
 close-button-label-alt = Kapat
