@@ -9,6 +9,12 @@ modal-custom-alias-picker-heading-2 = يېڭىدىن ئىختىيارى نىقا
 modal-custom-alias-picker-form-prefix-placeholder-redesign = تېكىست كىرگۈزۈڭ
 done-msg = تامام
 copy-mask = نىقابنى كۆچۈر
+error-state-valid-alt = ئىناۋەتلىك
+error-state-invalid-alt = ئىناۋەتسىز
+close-button-label-alt = تاقا
+modal-domain-register-good-news = خۇشخەۋەر!
+modal-domain-register-success-title = مۇۋەپپەقىيەتلىك!
 
 ## Updated mask deletion modal strings
 
+mask-deletion-header = بۇ ئېلخەت نىقابىنى ئۆچۈرەمدۇ؟

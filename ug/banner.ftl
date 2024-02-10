@@ -8,14 +8,20 @@
 banner-dismiss = بولدىلا
 banner-bounced-headline = { -brand-name-relay } ئېلخىتىڭىزنى يەتكۈزەلمىدى.
 banner-download-firefox-headline = { -brand-name-firefox } دا { -brand-name-relay } ئۈنۈمى تېخىمۇ ياخشى
+banner-download-firefox-copy-2 = { -brand-name-firefox-browser } نىڭ { -brand-name-relay } كېڭەيتمىسى نىقاب ياساشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
 banner-download-firefox-cta = { -brand-name-firefox } چۈشۈر
 banner-download-install-extension-headline = { -brand-name-firefox } نىڭ { -brand-name-relay } كېڭەيتمىسىنى يۈكلەش
+banner-download-install-extension-copy-2 = { -brand-name-firefox-browser }  نىڭ { -brand-name-relay } كېڭەيتمىسى ئېلخەت نىقابى ئىشلىتىشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
 banner-download-install-extension-cta = { -brand-name-relay } نى { -brand-name-firefox } قا قوشۇش
 banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } نىڭ { -brand-name-relay } سىنى سىناش
+banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } نىڭ { -brand-name-firefox-relay } كېڭەيتمىسى نىقاب ياساش ۋە ئىشلىتىشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
+banner-download-install-chrome-extension-cta = { -brand-name-relay } كېڭەيتمىسىگە ئېرىشىڭ
 banner-upgrade-headline = { -brand-name-relay-premium } غا يۈكسەلت
+banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } ئېلخەت نىقابى ياساشنى تېخىمۇ ئاسانلاشتۇرىدۇ، ئۇندىن باشقا يەنە خاس نىقاب تارماق تور بېكىتى ۋە چەكلىمىسىز نىقاب بار.
 banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
 # This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
 banner-label-action = مەشغۇلات باسقۇچى
+banner-register-subdomain-headline-aliases-2 = نىقابىڭىزغا خاس تارماق تور نامىغا ئېرىشىڭ
 # This string is used in the example subdomain mask. Keep it lowercase and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -27,6 +33,7 @@ banner-register-subdomain-example-address = دائىرە ئىسمى
 banner-choose-subdomain-input-placeholder-3 = تارماق دائىرە ئىسمى ئىزدە
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ئىزدە
+banner-pack-upgrade-headline-2-html = تېخىمۇ كۆپ ئېلخەت نىقابىغا ئېرىشىش ئۈچۈن <strong>{ -brand-name-firefox-relay-premium }</strong> غا يۈكسەلتىڭ.
 banner-pack-upgrade-cta = ھازىر يېڭىلا
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = شەخسىيەت ئۇقتۇرۇشى يېڭىلاندى
@@ -84,3 +91,7 @@ holiday-promo-banner-promo-expiry = ئېتىبار 2023-يىلى 31-دېكابى
 
 ## 4-mask upsell banner 
 
+upsell-banner-4-masks-button-close-label = تاقا
+upsell-banner-4-masks-us-heading = ئېلخەت ۋە تېلېفون ئۈچۈن ئالىي قوغداشقا ئېرىشىڭ
+upsell-banner-4-masks-non-us-heading = ئېلخەتنى ئالىي قوغداشقا ئېرىشىڭ
+upsell-banner-4-masks-us-cta = { -brand-name-relay-premium } غا يۈكسەلت

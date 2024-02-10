@@ -58,6 +58,7 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 
 ## Tip about using custom masks
 
+tips-custom-alias-heading-2 = خاس تارماق تور نامىڭىزنى ئىشلىتىپ نىقاب قۇرىدۇ
 
 ## Tip about using custom masks
 
@@ -96,9 +97,11 @@ trackerreport-loading = ئىزلىغۇچ چىقىرىۋېتىش دوكلاتىڭ
 
 ## Tracker warning page
 
+contains-tracker-title = بۇ ئۇلىنىش ياكى سۈرەتتە ئىزلىغۇچ بار
 contains-tracker-warning-title = يەنىلا بۇ ئۇلانمىنى كۆرەمسىز؟
 contains-tracker-warning-description = ئاگاھلاندۇرۇش: بۇ ئۇلانمىنى چەكسىڭىز سىزگە مۇناسىۋەتلىك ئۇچۇر يوللىغۇچىغا قايتۇرۇلىدۇ
 contains-tracker-warning-view-link-cta = ھەئە، ئۇلانمىنى كۆرسەت
+contains-tracker-faq-section-title = ئېلخەت ئىزلىغۇچ ھەققىدە دائىم سورالغان سوئاللار
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = كۈن
@@ -114,34 +117,55 @@ offer-countdown-timer-seconds = سېكۇنت
 
 ## Evergreen Survey (displayed on the profile page)
 
+survey-question-2 = { -brand-name-relay } نى ئىشلىتىش ئاسانمۇ؟
+survey-question-3 = سىزچە { -brand-name-relay } ئىشەنچلىكمىكەن؟
 survey-option-strongly-disagree = قەتئىي قوشۇلمايمەن
 survey-option-disagree = قوشۇلمايمەن
 survey-option-unsure = پىكىرىم يوق
 survey-option-agree = قوشۇلىمەن
 survey-option-strongly-agree = تامامەن قوشۇلىمەن
+survey-option-i-wouldnt-care = پەرۋايىم پەلەك
+survey-option-somewhat-disappointed = بىر ئاز ئۈمىدسىزلەندىم
+survey-option-very-disappointed = بەك ئۈمىدسىزلەندىم
+survey-option-very-likely = بەك رازى بولدۇم
+survey-option-not-likely = پەقەت رازى بولمىدىم
+survey-option-dismiss = بولدىلا
 
 ## CSAT survey
 
+survey-csat-answer-very-dissatisfied = بەك نارازى بولدۇم
+survey-csat-answer-dissatisfied = نارازى
+survey-csat-answer-neutral = بىتەرەپ
+survey-csat-answer-satisfied = رازى
+survey-csat-answer-very-satisfied = بەك رازى
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
+# Variables:
+#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
+forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ئېلخەت ئىزلىغۇچى ئۆچۈرۈلدى
 forwarded-email-trackers-blocked-report = تېخىمۇ كۆپ بىلدۈرگۈ
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
 
 relay-email-manage-this-mask = بۇ نىقابنى باشقۇرۇش
+relay-email-your-dashboard = باشقۇرۇش تاختىڭىز
 
 ## Email sent to free users who try to reply
 
 reply-not-sent-header = جاۋابىڭىز يوللانمىدى
+manage-your-masks = نىقاب باشقۇرۇش
 
 ## Email sent to first time free users
 
+first-time-user-email-welcome = { -brand-name-firefox-relay } غا خۇش كەپسىز
+first-time-user-email-hero-cta = باشقۇرۇش تاختىڭىزنى كۆرسىتىدۇ
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 
 ## API error messages
