@@ -18,6 +18,9 @@ multi-part-onboarding-premium-email-domain-feature-input-search = ئىزدە
 ## Step 3 Relay Extension Added
 
 multi-part-onboarding-premium-extension-button-dashboard = باشقۇرۇش تاختىسىغا يۆتكەل
+multi-part-onboarding-skip = ئاتلا، بۇنى كېيىن تەڭشەيمەن
+multi-part-onboarding-continue = داۋاملاشتۇر
 
 ## Step 3 Mobile Reply to Emails
 
+multi-part-onboarding-reply-headline = ئېلخەتلىرىڭىزگە جاۋاب قايتۇرۇڭ
