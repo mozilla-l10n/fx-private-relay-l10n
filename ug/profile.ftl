@@ -5,6 +5,14 @@
 
 ## Profile Page (Logged In)
 
+profile-promo-upgrade-headline = تېخىمۇ كۆپ ئىقتىدارلار ئۈچۈن يۈكسەلتىڭ.
+profile-promo-upgrade-cta = { -brand-name-relay } نى يۈكسەلت
+profile-details-expand = ماسكا تەپسىلاتىنى كۆرسەت
+profile-details-collapse = ماسكا تەپسىلاتىنى يوشۇر
+# This will be read to screen readers when focusing the button to copy an mask to the clipboard.
+# Variables:
+#   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
+profile-label-click-to-copy-alt = چېكىلسە { $address } ماسكا ئادرېسى كۆچۈرۈلىدۇ.
 profile-label-delete = ئۆچۈر
 profile-label-subdomain-tooltip-trigger = تەپسىلاتى
 profile-label-reset = ئەسلىگە قايتۇر
