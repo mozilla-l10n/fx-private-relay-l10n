@@ -22,6 +22,8 @@ profile-promo-email-blocking-option-all = ھەممىسى
 profile-promo-email-blocking-option-promotions = تەشۋىق
 # Deprecated
 profile-promo-email-blocking-label-none = ھەممىنى توس
+profile-promo-email-blocking-description-promotionals-locked-cta = ھازىر يۈكسەلت
+profile-promo-email-blocking-description-promotionals-locked-close = تاقا
 
 ## 5 Mask Upsell (displayed on the profile page)
 
