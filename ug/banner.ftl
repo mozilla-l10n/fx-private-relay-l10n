@@ -34,6 +34,7 @@ banner-choose-subdomain-input-placeholder-3 = تارماق دائىرە ئىسم
 # This is the “call to action” text on the submit button of subdomain registration form.
 banner-register-subdomain-button-search = ئىزدە
 banner-pack-upgrade-headline-2-html = تېخىمۇ كۆپ ئېلخەت نىقابىغا ئېرىشىش ئۈچۈن <strong>{ -brand-name-firefox-relay-premium }</strong> غا يۈكسەلتىڭ.
+footer-banner-premium-promo-headine = تېلېفون <i> ۋە </i> ئېلخېتىڭىزنى قوغداش ئۈچۈن<strong>{ -brand-name-firefox-relay-premium }</strong> غا يۈكسەلتىڭ.
 banner-pack-upgrade-cta = ھازىر يېڭىلا
 # Privacy Notice update banner:
 banner-label-privacy-notice-update-header = شەخسىيەت ئۇقتۇرۇشى يېڭىلاندى

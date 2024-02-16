@@ -7,8 +7,8 @@
 
 profile-free-onboarding-welcome-headline = { -brand-name-relay } غا خۇش كەپسىز
 profile-free-onboarding-welcome-description = يېڭى بىر ئېلخەت نىقابى قۇرايلى.
-profile-free-onboarding-welcome-item-headline-1 = ھەقسىز ئېلخەت ماسكىسى ئارقىلىق ھەقىقىي ئادرېسىڭىزنى قوغداڭ
-profile-free-onboarding-welcome-item-description-1 = ئېلخەت ئادرېسىنى يوللاش لازىم بولغاندا، ماسكا ئېلخەت ئادرېسىنى ئىشلىتىڭ.
+profile-free-onboarding-welcome-item-headline-1 = ھەقسىز ئېلخەت نىقابى ئارقىلىق ھەقىقىي ئادرېسىڭىزنى قوغداڭ
+profile-free-onboarding-welcome-item-description-1 = ئېلخەت ئادرېسىنى يوللاش لازىم بولغاندا، نىقاب ئېلخەت ئادرېسىنى ئىشلىتىڭ.
 profile-free-onboarding-welcome-item-headline-2 = ئېلخەت نىقابى دېگەن نېمە؟
 profile-free-onboarding-welcome-generate-new-mask = يېڭى نىقاب ھاسىللاش
 profile-free-onboarding-skip-step = ئاتلا
@@ -30,7 +30,7 @@ profile-free-onboarding-copy-mask-try-out-email-forwarding = ئېلخەت ئۇل
 profile-free-onboarding-copy-mask-send-email = ئېلخەت يوللاش
 profile-free-onboarding-copy-mask-nevermind = بولدىلا
 profile-free-onboarding-copy-mask-continue = داۋاملاشتۇر
-profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } ئېلخەت ماسكىسى
+profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } ئېلخەت نىقابى
 profile-free-onboarding-copy-mask-check-inbox = ھازىر ئېلخەت ئادرېسىڭىزنى تەكشۈرۈڭ
 profile-free-onboarding-copy-mask-email-this-mask = ئەنسىرىمەڭ، بۇ ماسكا ئېلخەت ئادرېسىغا قايتا ئېلخەت ئەۋەتمەيمىز.
 
