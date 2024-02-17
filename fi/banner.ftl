@@ -115,3 +115,8 @@ holiday-promo-banner-code-desc = Saa 20 prosentin alennus { -brand-name-relay-pr
 holiday-promo-banner-code-usage = Käytä koodia <coupon>{ $couponCode }</coupon> kassalla
 holiday-promo-banner-cta-button = Hanki 1 vuosi { -brand-name-premium }ia
 holiday-promo-banner-promo-expiry = tarjous päättyy 31.12.2023
+
+## 4-mask upsell banner 
+
+upsell-banner-4-masks-button-close-label = Sulje
+upsell-banner-4-masks-us-cta = Päivitä { -brand-name-relay-premium }iin
