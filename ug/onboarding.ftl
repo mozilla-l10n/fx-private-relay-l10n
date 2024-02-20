@@ -5,11 +5,14 @@
 
 ## Step 1 Premium Onboarding
 
+multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } غا خۇش كەپسىز
 multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = چەكسىز ئېلخەت نىقابى
 multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = نامسىز جاۋاب
+multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } نى تەڭشەش
 
 ## Step 2 Set Custom Domain
 
+multi-part-onboarding-premium-email-domain-feature-input-placeholder = سۆز ياكى ئىبارە ئىزدە
 multi-part-onboarding-premium-email-domain-feature-input-search = ئىزدە
 
 ## Step 3 Add Relay Extension

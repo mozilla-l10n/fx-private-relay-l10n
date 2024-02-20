@@ -165,8 +165,12 @@ first-time-user-email-hero-cta = باشقۇرۇش تاختىڭىزنى كۆرس�
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
+our-promise-header = سىزگە بەرگەن ۋەدىمىز
+first-time-user-email-how-title = { -brand-name-relay } قانداق ئىشلەيدۇ
+first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گە ئېرىشىڭ
 first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 
 ## API error messages
 
+api-error-account-is-paused = ھېساباتىڭىز ۋاقىتلىق توختىتىلدى.
