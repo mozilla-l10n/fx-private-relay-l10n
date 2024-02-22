@@ -7,6 +7,7 @@
 
 modal-custom-alias-picker-heading-2 = Yeni özel maske oluştur
 modal-custom-alias-picker-warning-2 = Tek yapmanız gereken, özel alt alan adınızı kullanan bir maske kullanıcı adı uydurmak. Uydurduğunuz maske otomatik olarak oluşturulacaktır. Örneğin, bir sonraki alışverişlerinizde “magazaadi@altalanadiniz.mozmail.com” adresini deneyebilirsiniz.
+modal-custom-alias-picker-form-heading-2 = Veya kendi maskenizi manuel olarak oluşturun
 modal-custom-alias-picker-form-prefix-label-3 = @ işaretinden önce gelecek metni yazın:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
@@ -18,6 +19,7 @@ modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluştu
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
 error-alias-picker-prefix-invalid-uppercase-letters = Büyük harf kullanmayın
 error-alias-picker-prefix-invalid-symbols = Nokta ve tire dışındaki işaretleri kullanmayın
+error-alias-picker-prefix-invalid = Bu kelimeyle veya kelime öbeğiyle özel maske oluşturamadık. Lütfen başka bir şey deneyin.
 done-msg = Tamam
 copy-mask = Maskeyi kopyala
 popover-custom-alias-explainer-promotional-block-checkbox-label = Reklam e-postalarını engellemeye başlayın

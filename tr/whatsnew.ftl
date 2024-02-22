@@ -50,6 +50,10 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } artık { -b
 whatsnew-feature-firefox-integration-snippet = E-postanızı korumak artık daha kolay. Doğrudan bilgisayarınızdaki…
 whatsnew-feature-firefox-integration-description = E-postanızı korumak artık daha kolay. Doğrudan bilgisayarınızdaki { -brand-name-firefox } parola yöneticisinden yeni { -brand-name-relay } e-posta maskeleri oluşturabilirsiniz.
 whatsnew-feature-mailing-list-heading = Gizliliğinizi koruma konusunda yardım alın
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = En yeni gizlilik ve güvenlik ipuçlarına ve alışkanlıklarına uymak…
+whatsnew-feature-mailing-list-description = En yeni gizlilik ve güvenlik ipuçlarına ve alışkanlıklarına uymak kolay değil. Bu nedenle çevrimiçi hayatınızı daha güvenli hale getirmenize yardımcı olacak bir bülten başlattık.
 whatsnew-feature-mailing-list-cta = Bültene abone olun
 whatsnew-feature-premium-expansion-eu-heading = Artık sınırsız sayıda maske kullanabilirsiniz
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
