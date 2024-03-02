@@ -23,7 +23,7 @@ profile-details-collapse = Сховати подробиці маски
 profile-label-click-to-copy-alt = Клацніть, щоб скопіювати маску { $address }.
 profile-label-edit-2 = Змінити мітку для цієї маски
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
-profile-label-placeholder = Додайте назву облікового запису
+profile-label-placeholder = Назва облікового запису
 profile-label-save-error = Не вдалося зберегти. Повторіть спробу.
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias-2 = Згенерувати нову маску
