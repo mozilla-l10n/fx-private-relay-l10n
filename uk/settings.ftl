@@ -23,7 +23,7 @@ settings-warning-collection-off-description-3 = { -brand-name-relay } нараз
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватність
 setting-label-collection-description-2 = Дозволити { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші маски.
-setting-label-collection-description-3 = Увімкніть імена облікових записів для масок електронної пошти
+setting-label-collection-description-3 = Увімкнути імена облікових записів для масок електронної пошти
 # This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
 setting-label-collection-off-warning-2 = Ці дані дозволять нам пов'язувати ваші маски адрес електронної пошти з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші маски адрес електронної пошти матимуть позначки про вебсайти, на яких вони використовуються.
 setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } зберігатиме вебсайти, на яких ви використовували свої маски електронної пошти, і позначатиме ваші маски назвами цих вебсайтів, щоб ви могли легко їх знаходити. Якщо вимкнути цей параметр, ви не зможете бачити, де використовували кожну з масок, а імена ваших облікових записів більше не синхронізуватимуться між пристроями.
