@@ -75,7 +75,7 @@ trackerreport-meta-receivedat-heading = Alıcı
 trackerreport-meta-count-heading = Toplam takip kodu
 trackerreport-trackers-heading = Takip kodu algılandı
 # This is a table heading, entries in this column are e.g. ads.facebook.com, ads.googletagmanager.com
-trackerreport-trackers-tracker-heading = Takipçi alan adı
+trackerreport-trackers-tracker-heading = Takip kodu alan adı
 trackerreport-trackers-count-heading = Takip kodu sayısı
 trackerreport-trackers-none = Bu e-postada hiç takip kodu tespit edilmedi.
 # Variables:
