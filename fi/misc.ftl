@@ -227,6 +227,7 @@ first-time-user-email-welcome-subhead = Sähköpostiosoitettasi voidaan käyttä
 first-time-user-email-hero-primary-text = { -brand-name-firefox }-käyttäjänä saat viisi sähköpostimaskia ilmaiseksi. Niiden avulla voit piilottaa oikean sähköpostiosoitteesi, suojata henkilöyttäsi ja välittääksesi vain haluamasi sähköpostit postilaatikkoosi.
 first-time-user-email-hero-secondary-text = Hallitse kaikkia maskejasi { -brand-name-relay }-hallintapaneelista.
 first-time-user-email-hero-cta = Näytä hallintapaneeli
+first-time-user-email-cta-dashboard-button = Opettele { -brand-name-relay }n käyttö
 
 ## Email sent to people onboarding that receive their first forwarded email.
 
