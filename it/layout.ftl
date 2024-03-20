@@ -33,7 +33,7 @@ nav-profile-sign-out-confirm = Effettuare la disconnessione?
 nav-profile-settings = Impostazioni
 nav-profile-settings-tooltip = Configura { -brand-name-firefox-relay }
 nav-profile-help = Guida e supporto
-nav-profile-help-tooltip = Ottieni assistenza sull’utilizzo di { -brand-name-relay }
+nav-profile-help-tooltip = Ricevi assistenza sull’utilizzo di { -brand-name-relay }
 # This is only visible to Premium users.
 nav-profile-contact = Contatti
 # This is only visible to Premium users.
