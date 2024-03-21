@@ -341,3 +341,4 @@ api-error-account-is-paused = Ваш аккаунт приостановлен.
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = «{ $duplicate_address }» уже существует. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
+api-error-address-not-editable = Вы не можете редактировать поле адреса существующего домена.
