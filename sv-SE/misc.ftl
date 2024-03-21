@@ -332,3 +332,7 @@ api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpass
 api-error-address-unavailable = "{ $unavailable_address }" kunde inte skapas. Försök igen med ett annat aliasnamn.
 api-error-need-subdomain = Välj en underdomän innan du skapar en anpassad e-postadress.
 api-error-account-is-paused = Ditt konto är pausat.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = "{ $duplicate_address }" finns redan. Försök igen med ett annat aliasnamn.
+api-error-address-not-editable = Du kan inte redigera ett befintligt domänadressfält.
