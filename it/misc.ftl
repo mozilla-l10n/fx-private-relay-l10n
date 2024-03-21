@@ -330,6 +330,9 @@ api-error-free-tier-limit = Hai utilizzato tutti e { $free_tier_limit } gli alia
 api-error-free-tier-no-subdomain-masks = Il tuo account gratuito non include sottodomini personalizzati per gli alias. Per creare alias personalizzati, aggiorna a { -brand-name-relay-premium }.
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
-api-error-address-unavailable = Non è stato possibile creare “{ $unavailable_address }”. Riprova con un nome differente per l’alias.
+api-error-address-unavailable = Non è stato possibile creare “{ $unavailable_address }”. Riprova con un nome diverso per l’alias.
 api-error-need-subdomain = Seleziona un sottodominio prima di creare un indirizzo di posta personalizzato.
 api-error-account-is-paused = Il tuo account è temporaneamente sospeso.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” esiste già. . Riprova con un nome diverso per l’alias.
