@@ -326,3 +326,7 @@ api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
 api-error-need-subdomain = 請先選擇子網域才能建立自訂轉寄信箱。
 api-error-account-is-paused = 您的帳號暫停中。
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = 「{ $duplicate_address }」已存在，請改用其他名稱建立轉寄信箱。
+api-error-address-not-editable = 您無法編輯現有的網域名稱欄位。
