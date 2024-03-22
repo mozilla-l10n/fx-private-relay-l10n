@@ -331,3 +331,6 @@ api-error-free-tier-no-subdomain-masks = Jo fergese account omfettet gjin oanpas
 api-error-address-unavailable = ‘{ $unavailable_address }’ koe net oanmakke wurde. Probearje it nochris mei in oare maskernamme.
 api-error-need-subdomain = Selektearje in subdomein eardat jo in oanpast e-mailadres oanmeitsje.
 api-error-account-is-paused = Jo account is pauzearre!
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = ‘{ $duplicate_address }’ bestiet al. Probearje it nochris mei in oare maskernamme.
