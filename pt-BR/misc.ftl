@@ -329,3 +329,7 @@ api-error-free-tier-no-subdomain-masks = Sua conta gratuita não inclui subdomí
 api-error-address-unavailable = “{ $unavailable_address }” não pôde ser criado. Tente novamente com outro nome de máscara.
 api-error-need-subdomain = Selecione um subdomínio antes de criar um endereço de email personalizado.
 api-error-account-is-paused = Sua conta está em temporariamente suspensa.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” já existe. Tente novamente com outro nome de máscara.
+api-error-address-not-editable = Você não pode editar um campo de endereço de domínio existente.
