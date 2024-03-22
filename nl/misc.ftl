@@ -331,3 +331,7 @@ api-error-free-tier-no-subdomain-masks = Uw gratis account bevat geen aangepaste
 api-error-address-unavailable = ‘{ $unavailable_address }’ kan niet worden aangemaakt. Probeer het nogmaals met een andere maskernaam.
 api-error-need-subdomain = Selecteer een subdomein voordat u een aangepast e-mailadres aanmaakt.
 api-error-account-is-paused = Uw account is gepauzeerd.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = ‘{ $duplicate_address }’ bestaat al. Probeer het nogmaals met een andere maskernaam.
+api-error-address-not-editable = U kunt een bestaand domeinadresveld niet bewerken.
