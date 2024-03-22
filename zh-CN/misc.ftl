@@ -324,3 +324,7 @@ api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的
 api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。
 api-error-need-subdomain = 请在创建自定义电子邮件地址前先选择一个子域名。
 api-error-account-is-paused = 您的账户已暂停。
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }”已存在。请尝试其他马甲名称。
+api-error-address-not-editable = 您不能编辑已有的域名地址字段。
