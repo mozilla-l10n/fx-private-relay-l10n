@@ -338,3 +338,7 @@ api-error-free-tier-no-subdomain-masks = Ваш безплатний облік�
 api-error-address-unavailable = Неможливо створити “{ $unavailable_address }”. Спробуйте вжити іншу назву маски.
 api-error-need-subdomain = Перш ніж створювати власну адресу електронної пошти, оберіть піддомен.
 api-error-account-is-paused = Ваш обліковий запис призупинено.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” вже існує. Повторіть спробу з іншою назвою маски.
+api-error-address-not-editable = Ви не можете редагувати наявне поле адреси домену.
