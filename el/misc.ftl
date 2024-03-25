@@ -332,3 +332,7 @@ api-error-free-tier-no-subdomain-masks = Ο δωρεάν λογαριασμός 
 api-error-address-unavailable = Δεν ήταν δυνατή η δημιουργία του «{ $unavailable_address }». Παρακαλώ δοκιμάστε ξανά με άλλο όνομα μάσκας.
 api-error-need-subdomain = Παρακαλώ επιλέξτε έναν υποτομέα πριν από τη δημιουργία προσαρμοσμένης διεύθυνσης email.
 api-error-account-is-paused = Ο λογαριασμός σας έχει τεθεί σε παύση.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = Το «{ $duplicate_address }» υπάρχει ήδη. Παρακαλούμε δοκιμάστε ξανά με ένα άλλο όνομα μάσκας.
+api-error-address-not-editable = Δεν μπορείτε να επεξεργαστείτε υπάρχον πεδίο διεύθυνσης τομέα.
