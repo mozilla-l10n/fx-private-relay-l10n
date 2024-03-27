@@ -325,3 +325,7 @@ api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn c
 api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.
 api-error-need-subdomain = Dewiswch is-barth cyn creu cyfeiriad e-bost cyfaddas.
 api-error-account-is-paused = Mae eich cyfrif wedi'i oedi.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = Mae “ { $duplicate_address } ” eisoes yn bodoli. Ceisiwch eto gydag arallenw gwahanol.
+api-error-address-not-editable = Nid oes modd i chi olygu maes cyfeiriad parth sy'n bodoli eisoes.
