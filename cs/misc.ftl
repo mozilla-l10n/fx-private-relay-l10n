@@ -375,3 +375,6 @@ api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlas
 api-error-address-unavailable = “{ $unavailable_address }” se nepodařilo vytvořit. Zkuste to znovu s jiným názvem masky.
 api-error-need-subdomain = Před vytvořením vlastní e-mailové adresy vyberte subdoménu.
 api-error-account-is-paused = Váš účet je pozastavený.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = "{ $duplicate_address }" již existuje. Zkuste to prosím znovu s jiným názvem masky.
