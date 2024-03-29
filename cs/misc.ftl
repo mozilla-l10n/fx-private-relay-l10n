@@ -378,3 +378,4 @@ api-error-account-is-paused = Váš účet je pozastavený.
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = "{ $duplicate_address }" již existuje. Zkuste to prosím znovu s jiným názvem masky.
+api-error-address-not-editable = Existující pole doménové adresy nelze upravit.
