@@ -334,3 +334,4 @@ api-error-account-is-paused = Jo account is pauzearre!
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = ‘{ $duplicate_address }’ bestiet al. Probearje it nochris mei in oare maskernamme.
+api-error-address-not-editable = Jo kinne in besteand domeinadresfjild net bewurkje.
