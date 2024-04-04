@@ -329,3 +329,7 @@ api-error-free-tier-no-subdomain-masks = Az ingyenes fiókja nem tartalmaz egyé
 api-error-address-unavailable = A(z) „{ $unavailable_address }” nem hozható létre. Próbálja újra egy másik maszknévvel.
 api-error-need-subdomain = Válasszon egy aldomaint, mielőtt egyéni e-mail-címet hozna létre.
 api-error-account-is-paused = A fiókja szünetel.
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = A(z) „{ $duplicate_address }” már létezik. Próbálja újra egy másik maszknévvel.
+api-error-address-not-editable = Meglévő tartománycímmező nem szerkeszthető.
