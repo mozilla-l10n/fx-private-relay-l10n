@@ -64,3 +64,4 @@ modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای �
 
 ## Updated mask deletion modal strings
 
+mask-deletion-header = ایہ ای میل ماسک مٹاؤں؟

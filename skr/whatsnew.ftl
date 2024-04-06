@@ -78,3 +78,4 @@ whatsnew-feature-premium-expansion-eu-heading = ہݨ بے شمار ماسک دس
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ہݨ تہاݙے ملک وچ دستیاب ہے۔۔۔
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } گھنو
+whatsnew-holiday-promo-2023-cta = { -brand-name-relay-premium } دا 1 سال گھنو

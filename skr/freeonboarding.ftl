@@ -7,6 +7,7 @@
 
 profile-free-onboarding-welcome-headline = { -brand-name-relay } وچ ست بسم اللہ
 profile-free-onboarding-welcome-description = آؤ نواں ای میل ماسک بݨاؤں۔
+profile-free-onboarding-welcome-item-headline-1 = آپݨے اصلی پتے دی حفاظت کیتے مفت ای میل ماسک ورتو
 profile-free-onboarding-welcome-item-headline-2 = نواں ای میل ماسک کیا ہے؟
 profile-free-onboarding-welcome-generate-new-mask = نواں ماسک جنریٹ کرو
 profile-free-onboarding-skip-step = چھوڑو
@@ -15,7 +16,9 @@ profile-free-onboarding-next-step = اڳلا
 ## Step 2 How to Use a Mask
 
 profile-free-onboarding-copy-mask-email-mask-label = ای میل ماسک لیبل درج کرو
+profile-free-onboarding-copy-mask-item-headline-1 = خبرنامے کیتے سائن اپ تھیوو
 profile-free-onboarding-copy-mask-send-email = ای میل بھیڄو
+profile-free-onboarding-copy-mask-nevermind = محسوس نہ کراہے
 profile-free-onboarding-copy-mask-continue = جاری
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } ای میل ماسک
 
