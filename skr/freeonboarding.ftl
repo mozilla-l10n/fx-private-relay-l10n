@@ -6,6 +6,7 @@
 ## Step 1 Welcome to Relay
 
 profile-free-onboarding-welcome-headline = { -brand-name-relay } وچ ست بسم اللہ
+profile-free-onboarding-welcome-item-headline-2 = نواں ای میل ماسک کیا ہے؟
 profile-free-onboarding-welcome-generate-new-mask = نواں ماسک جنریٹ کرو
 profile-free-onboarding-skip-step = چھوڑو
 profile-free-onboarding-next-step = اڳلا
