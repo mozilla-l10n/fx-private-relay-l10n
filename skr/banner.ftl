@@ -129,3 +129,4 @@ tooltip-email-domain-explanation-title-free = آپݨی { -brand-name-relay } ا�
 ## 4-mask upsell banner 
 
 upsell-banner-4-masks-button-close-label = بند کرو
+upsell-banner-4-masks-us-cta = { -brand-name-relay-premium } تے اپ گریڈ کرو
