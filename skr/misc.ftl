@@ -256,6 +256,7 @@ first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم �
 first-time-user-email-preheader = تہاݙی سُن٘ڄاݨ دی حفاظت کیتے ای میل ماسکنگ
 first-time-user-email-hero-secondary-text = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے سارے ماسک منیج کرو۔
 first-time-user-email-hero-cta = آپݨاں ڈیش بورڈ ݙیکھو
+first-time-user-email-cta-dashboard-button = { -brand-name-relay } ورتݨ سکھو
 
 ## Email sent to people onboarding that receive their first forwarded email.
 

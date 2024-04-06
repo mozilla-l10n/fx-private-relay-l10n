@@ -40,6 +40,7 @@ nav-profile-contact = ساݙے نال رابطہ کرو
 nav-profile-contact-tooltip = { -brand-name-relay-premium } بارے رابطہ وچ راہوو
 # Deprecated
 nav-profile-image-alt = { -brand-name-firefox-account(capitalization: "uppercase") } اواتار
+nav-profile-image-alt-v2 = کھاتہ اواتار
 nav-duo-description = سوئچ ڈیش بورڈ
 nav-duo-email-mask-alt = ای میل ماسک
 nav-duo-phone-mask-alt = فون ماسک
