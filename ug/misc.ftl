@@ -25,13 +25,13 @@ error-subdomain-email-not-created = تارماق دائىرە بار ئېلخە�
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = تارماق دائىرە @{ $unavailable_subdomain } نى ئىشلەتكىلى بولمايدۇ. باشقا بىرىنى سىناڭ.
 error-settings-update = تەڭشەكلىرىڭىزنى يېڭىلاشتا خاتالىق كۆرۈلدى، قايتا سىناڭ
-error-mask-create-failed = ماسكىنى قۇرالمىدى. قايتا سىناڭ.
+error-mask-create-failed = نىقابنى قۇرالمىدى. قايتا سىناڭ.
 # This currently appears when a mask label could not be updated,
 # but in the future it might also appear if other mask data could not be changed.
-error-mask-update-failed = ماسكا سانلىق مەلۇماتىنى يېڭىلىيالمايدۇ. قايتا سىناڭ.
+error-mask-update-failed = نىقاب سانلىق مەلۇماتىنى يېڭىلىيالمايدۇ. قايتا سىناڭ.
 # Variables:
 #   $mask (string) - The email mask (e.g. abcdef@mozmail.com) that the user tried to delete
-error-mask-delete-failed = بۇ { $mask } ماسكىنى ئۆچۈرەلمەيدۇ. قايتا سىناڭ.
+error-mask-delete-failed = بۇ { $mask } نىقابنى ئۆچۈرەلمىدى. قايتا سىناڭ.
 
 ## Notifications component
 

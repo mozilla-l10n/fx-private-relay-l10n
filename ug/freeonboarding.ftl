@@ -19,7 +19,7 @@ profile-free-onboarding-close-modal = سۆزلەشكۈنى تاقا
 
 profile-free-onboarding-copy-mask-headline = نىقابىڭىزنى كۆچۈرۈپ ئىشلىتىڭ
 profile-free-onboarding-copy-mask-description = ئۇنتۇپ قېلىشتىن ئەنسىرىمەڭ - ئۇ باشقۇرۇش تاختىڭىزدا كۆرۈنىدۇ.
-profile-free-onboarding-copy-mask-email-mask-label = ئېلخەت ماسكا بەلگىسىنى كىرگۈزۈڭ
+profile-free-onboarding-copy-mask-email-mask-label = ئېلخەت نىقاب بەلگىسى كىرگۈزۈلىدۇ
 profile-free-onboarding-copy-mask-item-headline-1 = خەۋەرگە تىزىملىتىڭ
 profile-free-onboarding-copy-mask-item-description-1 = ھەقىقىي ئېلخەت ئادرېسىنى ھەمبەھىرلىمەيمۇ ئېسىل مەزمۇنغا ئېرىشكىلى بولىدۇ.
 profile-free-onboarding-copy-mask-item-headline-2 = ئەخلەت خەتنى ئەمەس بەلكى توردىن سېتىۋالغان مەھسۇلاتنىلا تاپشۇرۇۋېلىڭ
@@ -32,13 +32,13 @@ profile-free-onboarding-copy-mask-nevermind = بولدىلا
 profile-free-onboarding-copy-mask-continue = داۋاملاشتۇر
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } ئېلخەت نىقابى
 profile-free-onboarding-copy-mask-check-inbox = ھازىر ئېلخەت ئادرېسىڭىزنى تەكشۈرۈڭ
-profile-free-onboarding-copy-mask-email-this-mask = ئەنسىرىمەڭ، بۇ ماسكا ئېلخەت ئادرېسىغا قايتا ئېلخەت ئەۋەتمەيمىز.
+profile-free-onboarding-copy-mask-email-this-mask = ئەنسىرىمەڭ، بۇ نىقاب ئېلخەت ئادرېسىغا قايتا ئېلخەت ئەۋەتمەيمىز.
 
 ## Step 3 Relay Extension Added
 
 profile-free-onboarding-addon-get-extension = { -brand-name-relay } كېڭەيتمىگە ئېرىشىڭ
 profile-free-onboarding-addon-finish = تامام
-profile-free-onboarding-addon-headline = ماسكا ئېلخەتنى خالىغان جايدا ئىشلىتىڭ
-profile-free-onboarding-addon-subheadline = ئېلخەت سورايدىغان ھەر قانداق جايدا ماسكا ئېلخەتنى ئىشلىتىپ سىناپ بېقىڭ
+profile-free-onboarding-addon-headline = نىقاب ئېلخەتنى خالىغان جايدا ئىشلىتىڭ
+profile-free-onboarding-addon-subheadline = ئېلخەت سورايدىغان ھەر قانداق جايدا نىقابلىق ئېلخەت ئىشلىتىپ سىناپ بېقىڭ
 profile-free-onboarding-addon-item-headline-1 = ئېلخەت تاپشۇرۇشنى تەلەپ قىلىدىغان ھەر قانداق جايدا ئىشلەيدۇ
-profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } كېڭەيتىلمىسى ماسكا ئېلخەت ئىشلىتىشنى قۇلايلاشتۇرىدۇ
+profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } كېڭەيتمىسى نىقابلىق ئېلخەت ئىشلىتىشنى قۇلايلاشتۇرىدۇ
