@@ -112,10 +112,15 @@ profile-promo-email-blocking-option-promotions = پرموشناں
 profile-promo-email-blocking-option-none = کوئی وی کائنی
 profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھیاں ڳیاں ساریاں میلاں { -brand-name-relay } بلاک کریندا پئے۔
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } پروموشنل ای میلز کوں بلاک کرݨ دی کوشش کریسے جݙاں جو ہݨ وی ای میلز جیویں جو رسیداں تے شپنگ دیاں معلومات کوں اڳوں تے ودھایا ویسے۔
+# Deprecated
 profile-promo-email-blocking-description-none-2 = ایں ماسک  کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
+# Deprecated
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
+# Deprecated
 profile-promo-email-blocking-label-none = سارے بلاک کرو
+# Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
+profile-promo-email-blocking-label-forwarding-2 = ساریاں ای میلاں اڳوں تے پٹھݨ
 profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } صرف)
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } دے سبسکرائبراں کیتے دستیاب
@@ -125,4 +130,6 @@ profile-promo-email-blocking-description-promotionals-locked-close = بند کر
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+profile-maxed-aliases-with-phone-header = آپݨے ای میل تے فون دی حفاظت ودھ ودھ کرو
 profile-maxed-aliases-cta = { -brand-name-premium } تے اپ گریڈ کرو
+profile-label-set-your-custom-domain-free-user = { -brand-name-premium } نال آپݨی ای میل ڈومین گھنو

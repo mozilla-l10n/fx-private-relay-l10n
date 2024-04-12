@@ -261,6 +261,7 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay } ورتݨ سک
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = تہاݙے نال ساݙا وعدہ
+forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
