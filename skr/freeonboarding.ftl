@@ -27,3 +27,4 @@ profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-r
 
 profile-free-onboarding-addon-get-extension = { -brand-name-relay } ایکسٹنشن گھنو
 profile-free-onboarding-addon-finish = ختم کرو
+profile-free-onboarding-addon-headline = آپݨے ماسک ہر جاء تے ورتو

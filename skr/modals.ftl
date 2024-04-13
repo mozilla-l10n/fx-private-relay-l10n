@@ -17,6 +17,7 @@ modal-custom-alias-picker-form-prefix-invalid-warning-2 = ای میل وچ صر�
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 modal-custom-alias-picker-creation-error-2 = تہاݙا مخصوص ای میل ماسک دستی تخلیق کائنی تھی سڳیا۔ سوہݨا ولدا کوشش کرو، یا جہڑا ای میل ماسک تخلیق کرݨے اوں تے ای میل بھیڄو۔
 modal-custom-alias-picker-form-prefix-placeholder-redesign = عبارت درج کرو
+error-alias-picker-prefix-invalid-uppercase-letters = وݙی اے بی سی کوئی کائنی
 done-msg = تھی ڳیا
 copy-mask = ماسک کاپی کرو
 popover-custom-alias-explainer-promotional-block-checkbox-label = مشہوری ای میلاں بلاک کرݨ شروع کرو

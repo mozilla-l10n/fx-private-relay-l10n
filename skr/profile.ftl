@@ -116,8 +116,11 @@ profile-promo-email-blocking-description-promotionals = { -brand-name-relay } پ
 profile-promo-email-blocking-description-none-2 = ایں ماسک  کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
 # Deprecated
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
+# Let's the user know we are blocking promotional emails 
+profile-promo-email-blocking-label-promotionals-2 = مشہوری ای میلاں روک ݙتیاں ہن
 # Deprecated
 profile-promo-email-blocking-label-none = سارے بلاک کرو
+profile-promo-email-blocking-label-none-2 = ساریاں ای میلاں روک ݙتیاں ہن
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = ساریاں ای میلاں اڳوں تے پٹھݨ
