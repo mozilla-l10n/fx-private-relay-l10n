@@ -269,6 +269,7 @@ first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس ک�
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
+first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ مدد کرݨ کیتے ہے۔
 first-time-user-email-footer-text-legal = قنونی
 first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 
