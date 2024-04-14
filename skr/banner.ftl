@@ -125,6 +125,11 @@ tooltip-email-domain-explanation-title-free = آپݨی { -brand-name-relay } ا�
 
 ## 2023 Holiday promo
 
+holiday-promo-banner-code-desc = { -brand-name-relay-premium } تے 20 ٪ رعایت گھنو
+# Variables:
+# 	$couponCode (string) - the coupon code.
+holiday-promo-banner-code-usage = چیک آؤٹ تے کوڈ <coupon> { $couponCode } </coupon> ورتو
+holiday-promo-banner-cta-button = { -brand-name-premium } دا 1 سال گھنو
 
 ## 4-mask upsell banner 
 
