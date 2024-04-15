@@ -22,6 +22,7 @@ profile-free-onboarding-copy-mask-send-email = ای میل بھیڄو
 profile-free-onboarding-copy-mask-nevermind = محسوس نہ کراہے
 profile-free-onboarding-copy-mask-continue = جاری
 profile-free-onboarding-copy-mask-placeholder-relay-email-mask = { -brand-name-relay } ای میل ماسک
+profile-free-onboarding-copy-mask-check-inbox = ہݨ آپݨے ای میل انباکس دی پڑتال کرو
 
 ## Step 3 Relay Extension Added
 
