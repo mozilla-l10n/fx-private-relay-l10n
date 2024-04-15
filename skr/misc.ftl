@@ -264,6 +264,7 @@ our-promise-header = تہاݙے نال ساݙا وعدہ
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } نال تساں کیا کر سڳدے ہو؟
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
+first-time-user-email-how-item-2-header = اساں ساریاں ای میلاں تہاݙے انباکس وچ پٹھیسوں
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
