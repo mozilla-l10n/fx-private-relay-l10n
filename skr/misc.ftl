@@ -106,6 +106,7 @@ trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خر
 
 ## Tracker warning page
 
+contains-tracker-title = لنک یا تصویر وچ ٹریکر ہے
 contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
 contains-tracker-faq-section-title = ای میل ٹریکراں بارے اہم سوالات
 # Time remaining until Relay Premium's introductory pricing is no longer available.
@@ -265,6 +266,7 @@ our-promise-header = تہاݙے نال ساݙا وعدہ
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } نال تساں کیا کر سڳدے ہو؟
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
+first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
 first-time-user-email-how-item-2-header = اساں ساریاں ای میلاں تہاݙے انباکس وچ پٹھیسوں
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت

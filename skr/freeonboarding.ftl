@@ -29,3 +29,4 @@ profile-free-onboarding-copy-mask-check-inbox = ہݨ آپݨے ای میل انب
 profile-free-onboarding-addon-get-extension = { -brand-name-relay } ایکسٹنشن گھنو
 profile-free-onboarding-addon-finish = ختم کرو
 profile-free-onboarding-addon-headline = آپݨے ماسک ہر جاء تے ورتو
+profile-free-onboarding-addon-item-headline-2 = { -brand-name-relay } ایکسٹنشن ایں کوں سوکھا بݨیندی ہے
