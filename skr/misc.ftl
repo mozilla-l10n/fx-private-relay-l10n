@@ -107,6 +107,7 @@ trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خر
 ## Tracker warning page
 
 contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
+contains-tracker-faq-section-title = ای میل ٹریکراں بارے اہم سوالات
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -271,6 +272,7 @@ first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباک
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
 first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ مدد کرݨ کیتے ہے۔
+first-time-user-email-footer-text-2-text = ٻیاں معلومات کیتے سوہݨا، { -brand-name-mozilla } سپورٹ تے ون٘ڄو۔
 first-time-user-email-footer-text-legal = قنونی
 first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 

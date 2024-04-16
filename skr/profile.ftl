@@ -134,5 +134,6 @@ profile-promo-email-blocking-description-promotionals-locked-close = بند کر
 ## 5 Mask Upsell (displayed on the profile page)
 
 profile-maxed-aliases-with-phone-header = آپݨے ای میل تے فون دی حفاظت ودھ ودھ کرو
+profile-maxed-aliases-without-phone-header = آپݨی { -brand-name-relay } ای میل حفاظت سب کنوں ودھ کرو
 profile-maxed-aliases-cta = { -brand-name-premium } تے اپ گریڈ کرو
 profile-label-set-your-custom-domain-free-user = { -brand-name-premium } نال آپݨی ای میل ڈومین گھنو
