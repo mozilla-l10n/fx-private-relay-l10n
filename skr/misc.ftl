@@ -107,6 +107,14 @@ trackerreport-load-error = تہاݙی ٹریکر ہݨاوݨ رپورٹ وچ خر
 ## Tracker warning page
 
 contains-tracker-title = لنک یا تصویر وچ ٹریکر ہے
+# Variables:
+#   $sender (string) - Sender of the email, e.g. person@email.com
+#   $datetime (string) - Time and date of when the email was sent, e.g. 05/06/2023 at 10:53pm EST
+contains-tracker-description =
+    ای میل ٹریکرز نگرانی دے اوزار ہِن جہڑیاں کمپنیاں تُہاݙے ٹریک کرݨ کِیتے ای میلاں وِچ سرائیت کرین٘دیاں ہِن۔ 
+    آن لائن سلوک۔ تُہاݙی رازداری دے تحفّظ کِیتے، اَساں اِیں ٹریکر کوں بھیڄے ڳئے ای میل نالوں ہَٹا چھوڑیا۔ { $datetime } اُتّے <u>{ $sender }</u> ذریعے۔
+contains-tracker-warning-title = بَھلا تُساں ہالی وی لنک ݙیکھݨاں چاہسو؟
+contains-tracker-warning-description = چِتاوݨی: اِیں لِنک اُتے دباوݨ نال تُہاݙے بارے وِچ معلومات بھیڄݨ آلے کوں ولا بھیڄ ݙِتّیاں ویسِن
 contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
 contains-tracker-faq-section-title = ای میل ٹریکراں بارے اہم سوالات
 # Time remaining until Relay Premium's introductory pricing is no longer available.
@@ -256,6 +264,8 @@ manage-your-masks = آپݨے ماسک منظم کرو
 
 first-time-user-email-welcome = { -brand-name-firefox-relay } وچ ست بسم اللہ
 first-time-user-email-preheader = تہاݙی سُن٘ڄاݨ دی حفاظت کیتے ای میل ماسکنگ
+first-time-user-email-welcome-subhead = تُہاݙا ای میل پتہ تُہاکوں آن لائن ٹریک کرݨ کِیتے استعمال کِیتا ون٘ڄ سڳین٘دا ہِے — اَساں اِیکوں مُکاوݨ وِچ مَدَت کِیتے حاضر ہِسے۔
+first-time-user-email-hero-primary-text = ہِک { -brand-name-firefox } صارف دے طور تے، تُہاکوں 5 ای میل ماسک مُفت وِچ مِلدے ہِن۔ آپݨے اصلی ای میل پتے کوں لُکاوݨ، آپݨی سُن٘ڄاݨ دی راکھی کرݨ اَتے صرف اُنّھاں ای میلاں کوں اَڳّوں تے گَھلّݨ کِیتے اِنّھاں دا استعمال کرو جہڑیاں تُساں آپݨے اِن باکس وِچ چاہن٘دے ہِیوے۔
 first-time-user-email-hero-secondary-text = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے سارے ماسک منیج کرو۔
 first-time-user-email-hero-cta = آپݨاں ڈیش بورڈ ݙیکھو
 first-time-user-email-cta-dashboard-button = { -brand-name-relay } ورتݨ سکھو
@@ -263,7 +273,14 @@ first-time-user-email-cta-dashboard-button = { -brand-name-relay } ورتݨ سک
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = تہاݙے نال ساݙا وعدہ
+our-promise-content = { -brand-name-relay } ای میل ماسک تُہاݙے ای میل اِن باکس وِچ گَھل ݙیؤ جہڑے وی پیغام اِیں ای میل ماسک اُتّے گَھلّے ڳئے ہِن — گَھلَّݨ آلے کوں آپݨاں اصلی ای میل پتہ ظاہر کِیتے مُتُّوں۔
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } نال تساں کیا کر سڳدے ہو؟
+what-can-you-do-with-relay-point-one = بھیڄݨ آلیاں کوں آپݨاں اصلی ای میل پتہ ظاہر کِیتے مُتُّوں ای میلاں حاصل کرو
+# Variables
+#   $attrs (anchor tag attributes) - Includes the href (url string) which points to the relay extension add-on page.
+what-can-you-do-with-relay-point-one-subpoint-html = اِین٘دی بجائے صرف ہِک ای میل ماسک دا اشتراک کرو۔ ای میل ماسک ای میلاں کوں تُہاݙے اِن باکس وِچ گَھلیسن۔ تُساں ماسک براہِ راست { -brand-name-firefox } اُتے، <a { $attrs }>{ -brand-name-relay }ایکسٹنشن</a> نال، یا آپݨے { -brand-name-relay } ڈیش بورڈ اُتّے بݨا سڳدے ہِیوے۔
+what-can-you-do-with-relay-point-two = ویب سائٹاں اَتے سپیمرز کوں سَوکھ نال ٹریک کرݨ کنوں روکو جو تُساں کوݨ ہِیوے
+what-can-you-do-with-relay-point-two-subpoint = ای میل ٹریکرز اَڄ کل ہر جاء موجود ہِن۔ { -brand-name-relay } ای میل ماسک تُہاکوں اندازہ لاوݨ وِچ مَدَت کرین٘دے ہِن۔
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
