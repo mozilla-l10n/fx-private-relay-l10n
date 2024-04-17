@@ -80,4 +80,6 @@ whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-prem
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } ہݨ تہاݙے ملک وچ دستیاب ہے۔ بے شمار ماسکاں نال آپݨی ای میل دی حفاظت کرو۔ تے گو تے سوکھے تے محفوظ ماسک بݨاوݨ کیتے نویکلی { -brand-name-relay } ای میل ڈومین گھنو۔
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } گھنو
 whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } تے 20 ٪ رعایت گھنو
+# DO NOT translate the promo code "HOLIDAY20" in this string.
+whatsnew-holiday-promo-2023-news-content-description = اِیں ناغیاں دے موسم وِچ، { -brand-name-relay-premium } دی 1 ورین٘ہ دے مُل تے 20٪ رعائت حاصل کرو۔ چیک آؤٹ تے صرف پرموکوڈ "HOLIDAY20" درج کرو۔ پیشکش 31 دسمبر، 2023 کوں مُکدی پئی ہِے۔
 whatsnew-holiday-promo-2023-cta = { -brand-name-relay-premium } دا 1 سال گھنو
