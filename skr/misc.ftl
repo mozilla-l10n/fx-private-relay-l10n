@@ -273,6 +273,10 @@ first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس ک�
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-questions-subhead-html = ساݙی <a href="{ $url }" { $attrs }> سپورٹ ٹیم </a> مدد کرݨ کیتے اتھ ہے۔
 first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ مدد کرݨ کیتے ہے۔
 first-time-user-email-footer-text-2-text = ٻیاں معلومات کیتے سوہݨا، { -brand-name-mozilla } سپورٹ تے ون٘ڄو۔
 first-time-user-email-footer-text-legal = قنونی
@@ -289,4 +293,7 @@ api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ما�
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
 api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
+# Variables:
+#   $duplicate_address (string) - User-set email address that already exists
+api-error-duplicate-address = “{ $duplicate_address }” پہلے ہی موجود ہے۔ سوہݨا، محتلف ماسک ناں نال ولدا کوشش کرو۔
 api-error-address-not-editable = تساں موجودہ ڈومین پتہ خانے وچ تبدیلی نہوے کر سڳدے۔
