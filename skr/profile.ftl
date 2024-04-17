@@ -114,6 +114,7 @@ profile-promo-email-blocking-description-all-2 = ایں ماسک کوں پٹھی
 profile-promo-email-blocking-description-promotionals = { -brand-name-relay } پروموشنل ای میلز کوں بلاک کرݨ دی کوشش کریسے جݙاں جو ہݨ وی ای میلز جیویں جو رسیداں تے شپنگ دیاں معلومات کوں اڳوں تے ودھایا ویسے۔
 # Deprecated
 profile-promo-email-blocking-description-none-2 = ایں ماسک  کیتے { -brand-name-relay } کوئی ای میلاں بلاک کائنی کریندا پیا۔
+profile-promo-email-blocking-description-none-3 = ایں ماسک تے بھیڄیاں ہوئیاں ای میلاں تہاݙے اصلی پتے تے بھیڄیاں ویسن۔
 # Deprecated
 profile-promo-email-blocking-label-promotionals = مشہوریاں بلاک کرو
 # Let's the user know we are blocking promotional emails 
