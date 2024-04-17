@@ -14,6 +14,7 @@ modal-custom-alias-picker-form-prefix-label-3 = @ işaretinden önce gelecek met
 modal-custom-alias-picker-form-prefix-placeholder-2 = @ozelalanadi.mozmail.com
 modal-custom-alias-picker-form-prefix-spaces-warning = E-posta maskelerinde boşluk kullanılamaz.
 modal-custom-alias-picker-form-prefix-invalid-warning = E-posta maskeleri yalnızca küçük harf, rakam ve tire içerebilir; tire ile başlayamaz ve bitemez.
+modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-posta maskeleri yalnızca küçük harf, rakam, nokta ve tire içerebilir; nokta veya tire ile başlayamaz ve bitemez.
 modal-custom-alias-picker-form-submit-label-2 = Maske oluştur
 modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluşturulamadı. Lütfen yeniden deneyin veya maskeyi oluşturmak için maskeye e-posta gönderin.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
@@ -56,3 +57,5 @@ modal-domain-register-success-copy-2 = Artık sınırsız sayıda özel e-posta 
 ## Updated mask deletion modal strings
 
 mask-deletion-header = Bu e-posta maskesi silinsin mi?
+mask-deletion-warning-no-recovery = Bu maskeyi sildikten sonra bir daha geri getiremezsiniz. Artık bu maskeye gönderilen hiçbir e-postayı alamazsınız.
+mask-deletion-warning-sign-ins = Bu maskeyi herhangi bir hesaba giriş yapmak için kullanıyorsanız bu maskeyi silmeden önce söz konusu hesabın e-postasını değiştirmelisiniz.
