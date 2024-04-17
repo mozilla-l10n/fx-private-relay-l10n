@@ -286,6 +286,11 @@ first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کر
 first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
 first-time-user-email-how-item-2-header = اساں ساریاں ای میلاں تہاݙے انباکس وچ پٹھیسوں
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
+# Variables
+#   $url (string) - URL of the dashboard
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-3-subhead-html = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے <a href="{ $url }" { $attrs }>سائن ان تھیوو</a>۔
+first-time-user-email-how-item-3-subhead-text = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے سائن ان تھیوو۔
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
@@ -295,6 +300,10 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے �
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = ساݙی <a href="{ $url }" { $attrs }> سپورٹ ٹیم </a> مدد کرݨ کیتے اتھ ہے۔
 first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ مدد کرݨ کیتے ہے۔
+# Variables
+#   $url (string) - URL of the support team website
+#   $attrs (string) - In-line attributes for the link
+first-time-user-email-footer-text-2-html = ٻیاں معلومات کیتے، سوہݨا، <a href="{ $url }" { $attrs }>سپورٹ</a> تے ون٘ڄو۔
 first-time-user-email-footer-text-2-text = ٻیاں معلومات کیتے سوہݨا، { -brand-name-mozilla } سپورٹ تے ون٘ڄو۔
 first-time-user-email-footer-text-legal = قنونی
 first-time-user-email-footer-text-privacy = شرطاں تے رازداری
