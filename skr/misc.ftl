@@ -303,7 +303,7 @@ first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link
-first-time-user-email-footer-text-2-html = ٻیاں معلومات کیتے، سوہݨا، <a href="{ $url }" { $attrs }>سپورٹ</a> تے ون٘ڄو۔
+first-time-user-email-footer-text-2-html = ٻیاں معلومات کیتے، سوہݨا، <a href="{ $url }" { $attrs }>{ -brand-name-mozilla }سپورٹ</a> تے ون٘ڄو۔
 first-time-user-email-footer-text-2-text = ٻیاں معلومات کیتے سوہݨا، { -brand-name-mozilla } سپورٹ تے ون٘ڄو۔
 first-time-user-email-footer-text-legal = قنونی
 first-time-user-email-footer-text-privacy = شرطاں تے رازداری
