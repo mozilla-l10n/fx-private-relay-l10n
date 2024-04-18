@@ -18,6 +18,7 @@ modal-custom-alias-picker-form-prefix-invalid-warning = ای میل وچ صرف 
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = ای میل وچ صرف چھوٹی اے بی سی، عدد، پیریڈتےہائفن آ سڳدن۔تے ہائفن تے پیریڈ شروع تے یا چھیکڑ تے کائنی آسڳدے۔
 modal-custom-alias-picker-form-submit-label-2 = ماسک جنریٹ کرو
 modal-custom-alias-picker-creation-error-2 = تہاݙا مخصوص ای میل ماسک دستی تخلیق کائنی تھی سڳیا۔ سوہݨا ولدا کوشش کرو، یا جہڑا ای میل ماسک تخلیق کرݨے اوں تے ای میل بھیڄو۔
+modal-custom-alias-picker-tip-redesign = صلاح: { -brand-name-relay }وِچ سائن اِن کِیتے مُتُّوں ہِک لوڑ مطابق ماسک بݨاوݨ کِیتے، صرف آپݨے { -brand-name-relay } ای میل ڈومین @ کنوں پہلاں کُئی لوّظ یا جملہ شامل کرو۔ پہلی واری جہڑیلے کُئی اِیکوں ای میل کریسی تاں تُہاݙا ماسک خود کار طریقے نال بݨ ویسی۔
 modal-custom-alias-picker-form-prefix-placeholder-redesign = عبارت درج کرو
 error-alias-picker-prefix-invalid-uppercase-letters = وݙی اے بی سی کوئی کائنی
 error-alias-picker-prefix-invalid-symbols = ڈاٹ یا ہائفن دے علاوہ کوئی علامت نہ ہووے
