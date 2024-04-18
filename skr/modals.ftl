@@ -5,9 +5,11 @@
 
 ## Modal for generating a custom mask
 
+modal-custom-alias-picker-tip = صلاح: کئیں وی ویلے لوڑ مطابق ماسک بݨاوݨ کِیتے، اِیکو موقع تے ای بݨاؤ۔ ڄیکر تُساں آپݨاں { -brand-name-relay } ڈومین استعمال کرین٘دے ہِیوے، تاں اِیہ کَم کریسی، بھان٘ویں تُساں اِیکوں پہلاں اِتّھاں نہ بݨایا ہووے۔
 modal-custom-alias-picker-heading-2 = نواں کسٹم ماسک  بݨاؤ
 modal-custom-alias-picker-warning-2 = تہاکوں صرف ہک نویکلا ماسک بݨاوݨ تے شیئر کرݨ دی ضرورت ہے جیڑھا تہاݙی حسب ضرورت ذیلی ڈومین استعمال کریندا ہے — ماسک آپوں ڄاݨ تیار تھی ویسے۔ مثال دے طور تے اڳلی واری جݙاں تساں آن لائن خریداری کرو تاں shop@customsubdomain.mozmail.com کوں ازماؤ۔
 modal-custom-alias-picker-form-heading-2 = یا، کسٹم ماسک دستی تخلیق کرو
+modal-custom-alias-picker-form-prefix-label-3 = اُوہ متن درج کرو جہڑی @ علامت کنوں پہلاں وین٘دا ہِے:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
 modal-custom-alias-picker-form-prefix-placeholder-2 = @customdomain.mozmail.com
@@ -19,6 +21,7 @@ modal-custom-alias-picker-creation-error-2 = تہاݙا مخصوص ای میل �
 modal-custom-alias-picker-form-prefix-placeholder-redesign = عبارت درج کرو
 error-alias-picker-prefix-invalid-uppercase-letters = وݙی اے بی سی کوئی کائنی
 error-alias-picker-prefix-invalid-symbols = ڈاٹ یا ہائفن دے علاوہ کوئی علامت نہ ہووے
+error-alias-picker-prefix-invalid = اَساں اِیں لوّظ یا فقرے دے نال لوڑ مطابق ماسک نِھیوے بݨا سڳے۔ تھورائیت کرین٘دے ہوئے ہِک ٻئی کوشِش کرو۔
 done-msg = تھی ڳیا
 copy-mask = ماسک کاپی کرو
 popover-custom-alias-explainer-promotional-block-checkbox-label = مشہوری ای میلاں بلاک کرݨ شروع کرو
@@ -67,3 +70,5 @@ modal-domain-register-success-copy-2 = ہݨ تساں بے انت کسٹم ای �
 ## Updated mask deletion modal strings
 
 mask-deletion-header = ایہ ای میل ماسک مٹاؤں؟
+mask-deletion-warning-no-recovery = ہِک واری جہڑیلے تُساں اِیں ماسک کوں حذف کر ݙین٘دے ہِیوے، تاں اِیکوں وَلا حاصل نِھیں کِیتا ون٘ڄ سڳین٘دا۔ ہُݨ تُہاکوں اِین٘دے اُتّے بھیڄی ڳئی کُئی ای میل موصول نہ تھیسی۔
+mask-deletion-warning-sign-ins = ڄیکر تُساں کئیں وی اکاؤنٹ وِچ سائن اِن کرݨ کِیتے اِیں ماسک دا استعمال کرین٘دے ہِیوے، تاں تُہاکوں اِیں ماسک کوں حذف کرݨ کنوں پہلاں اِنّھاں اکاؤنٹ دی ای میلز کوں بَدلݨاں چاہِیدا ہِے۔

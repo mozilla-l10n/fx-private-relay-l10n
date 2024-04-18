@@ -281,10 +281,19 @@ what-can-you-do-with-relay-point-one = بھیڄݨ آلیاں کوں آپݨاں �
 what-can-you-do-with-relay-point-one-subpoint-html = اِین٘دی بجائے صرف ہِک ای میل ماسک دا اشتراک کرو۔ ای میل ماسک ای میلاں کوں تُہاݙے اِن باکس وِچ گَھلیسن۔ تُساں ماسک براہِ راست { -brand-name-firefox } اُتے، <a { $attrs }>{ -brand-name-relay }ایکسٹنشن</a> نال، یا آپݨے { -brand-name-relay } ڈیش بورڈ اُتّے بݨا سڳدے ہِیوے۔
 what-can-you-do-with-relay-point-two = ویب سائٹاں اَتے سپیمرز کوں سَوکھ نال ٹریک کرݨ کنوں روکو جو تُساں کوݨ ہِیوے
 what-can-you-do-with-relay-point-two-subpoint = ای میل ٹریکرز اَڄ کل ہر جاء موجود ہِن۔ { -brand-name-relay } ای میل ماسک تُہاکوں اندازہ لاوݨ وِچ مَدَت کرین٘دے ہِن۔
+what-can-you-do-with-relay-point-three = سپیم کوں آپݨے اِن باکس تئیں پُڄّݨ کنوں بلاک کرو، اَتے ایہ تئیں جو ماسک کوں پوری طرح بند کر ݙیؤ
+what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } ڈیش بورڈ اُتے، تُساں ماسک بݨا سڳدے ہِیوے، اِنّھاں اُتّے لیبل لاء تے نوٹ کر سڳدے ہِیوے جو تُساں اِنّھاں کوں کِتّھاں استعمال کرین٘دے ہِیوے، سپیم بلاکنگ کوں چالو کر سڳدے ہِیوے، اَتے جیکوں تُساں ٻِیا نِھیوے چاہن٘دے اُوکوں حذف کر سڳدے ہِیوے۔
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
+forwarded-email-hero-desc = اُوہ ہیڈر ݙیکھو؟ اِیہ { -brand-name-relay } ماسک دے ذریعے اڳّوں بھیڄی ڳئی سبّھے ای میلاں اُتّے ظاہر تھیسی۔
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
+# Variables
+#   $url (string) - URL of add-on
+#   $attrs (string) - Inline attributes for the link
+first-time-user-email-how-item-1-subhead-html = ماسک { -brand-name-firefox } اُتے براہِ راست بݨاؤ، <a href="{ $url }" { $attrs }>{ -brand-name-relay }ایڈ آن</a>دے نال، یا آپݨے { -brand-name-relay } ڈیش بورڈ اُتے۔
+first-time-user-email-how-item-1-subhead-text = ماسک { -brand-name-firefox } اُتے براہِ راست، { -brand-name-relay } ایڈ آن دے نال بݨاؤ، یا آپݨے { -brand-name-relay } ڈیش بورڈ اُتے۔
 first-time-user-email-how-item-2-header = اساں ساریاں ای میلاں تہاݙے انباکس وچ پٹھیسوں
+first-time-user-email-how-item-2-subhead = بھیڄݨ آلے کݙان٘ہیں وی تُہاݙا اصلی پتہ نہ ݙیکھ سڳسِن، اَتے تُساں کئیں وی ویلے ای میلاں کوں بلاگ کر سڳدے ہِیوے۔
 first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش بورڈ کنوں آپݨے ماسک منیج کرو
 # Variables
 #   $url (string) - URL of the dashboard
@@ -293,6 +302,8 @@ first-time-user-email-how-item-3-subhead-html = نویں ماسک بݨاوݨ، �
 first-time-user-email-how-item-3-subhead-text = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے سائن ان تھیوو۔
 first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
+first-time-user-email-extra-protection-inbox-subhead = لا محدود ای میل ماسک، ہِک لوڑ مطابق{ -brand-name-relay } ڈومین، اَتے لوڑ مطابق اِن باکس کنٹرول حاصل کرݨ کِیتے { -brand-name-relay-premium } اُتے اپ ڈیٹ کرو۔
+first-time-user-email-extra-protection-inbox-phone-subhead = لا محدود ای میل ماسک کِیتے { -brand-name-relay-premium } اُتے اَپ گریڈ کرو — ٻِیا آپݨے اصلی نمبر دی راکھی کِیتے ہِک فون ماسک۔
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
 # Variables
@@ -300,6 +311,7 @@ first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے �
 #   $attrs (string) - In-line attributes for the link
 first-time-user-email-questions-subhead-html = ساݙی <a href="{ $url }" { $attrs }> سپورٹ ٹیم </a> مدد کرݨ کیتے اتھ ہے۔
 first-time-user-email-questions-subhead-text = ساݙی سپورٹ ٹیم اتھ مدد کرݨ کیتے ہے۔
+first-time-user-email-footer-text-1 = تُہاکوں اِیہ خود کار طریقے نال بھیڄیا ڳِیا ای میل { -brand-name-firefox-relay } دے سبسکرائبر دے طور تے موصول تِھین٘دا پِیا ہِے ڄئیں پہلی واری { -brand-name-relay } دا استعمال کِیتا۔ ڄیکر تُہاکوں اِیہ غلطی نال مِلّیا ہِے تاں کئیں کارروائی دی لوڑ کائنی۔
 # Variables
 #   $url (string) - URL of the support team website
 #   $attrs (string) - In-line attributes for the link

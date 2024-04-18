@@ -72,6 +72,10 @@ whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ہݨ { -bra
 whatsnew-feature-firefox-integration-snippet = اپݨے ای میل دی حفاظت کرݨ ہݨ آسان تھی ڳیا ہے۔ ہݨ تساں بݨا سڳدے او …
 whatsnew-feature-firefox-integration-description = اپݨے ای میل دی حفاظت کرݨ ہݨ آسان تھی ڳیا ہے۔ ہݨ تساں ڈیسک ٹاپ تے اپݨے { -brand-name-firefox } پاس ورڈ مینیجر کنوں براہ راست نویں { -brand-name-relay } ای میل ماسک بݨا سڳدے او۔
 whatsnew-feature-mailing-list-heading = آپݨی رازداری دی حفاظت کیتے مدد گھنو
+# A preview of the full content of `whatsnew-feature-mailing-list-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-feature-mailing-list-snippet = تازہ ترین رازداری اَتے حفاظتی نکتیاں کنوں با خبر رہوݨ سَوکھا کائنی…
+whatsnew-feature-mailing-list-description = نویں نروئے رازداری اَتے حفاظتی نکتے اَتے عادتاں کنوں با خبر رہوݨ سَوکھا کائنی۔ تَہُوں اَساں تُہاݙی آن لائن حیاتی کوں ٻِیا محفوظ بݨاوݨ وِچ مَدَت کِیتے ہِک نیوز لیٹر شروع کِیتا۔
 whatsnew-feature-mailing-list-cta = خبرنامہ سبسکرائب کرو
 whatsnew-feature-premium-expansion-eu-heading = ہݨ بے شمار ماسک دستیاب ہن
 # A preview of the full content of `whatsnew-feature-premium-expansion-eu-description`.
@@ -79,6 +83,9 @@ whatsnew-feature-premium-expansion-eu-heading = ہݨ بے شمار ماسک دس
 whatsnew-feature-premium-expansion-eu-snippet = { -brand-name-firefox-relay-premium } ہݨ تہاݙے ملک وچ دستیاب ہے۔۔۔
 whatsnew-feature-premium-expansion-eu-description = { -brand-name-firefox-relay-premium } ہݨ تہاݙے ملک وچ دستیاب ہے۔ بے شمار ماسکاں نال آپݨی ای میل دی حفاظت کرو۔ تے گو تے سوکھے تے محفوظ ماسک بݨاوݨ کیتے نویکلی { -brand-name-relay } ای میل ڈومین گھنو۔
 whatsnew-feature-premium-expansion-eu-cta = { -brand-name-relay-premium } گھنو
+# A preview of the full content of `whatsnew-holiday-promo-2023-news-content-description`.
+# Try to keep this string short, not longer than the English version.
+whatsnew-holiday-promo-2023-news-snippet = ناغیاں دے اِیں موسم وِچ، { -brand-name-relay-premium } دی 1 ورین٘ہ دے مُل وِچ 20٪ رعائیت حاصل کرو۔
 whatsnew-holiday-promo-2023-news-heading = { -brand-name-relay-premium } تے 20 ٪ رعایت گھنو
 # DO NOT translate the promo code "HOLIDAY20" in this string.
 whatsnew-holiday-promo-2023-news-content-description = اِیں ناغیاں دے موسم وِچ، { -brand-name-relay-premium } دی 1 ورین٘ہ دے مُل تے 20٪ رعائت حاصل کرو۔ چیک آؤٹ تے صرف پرموکوڈ "HOLIDAY20" درج کرو۔ پیشکش 31 دسمبر، 2023 کوں مُکدی پئی ہِے۔

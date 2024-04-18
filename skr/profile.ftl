@@ -134,7 +134,13 @@ profile-promo-email-blocking-description-promotionals-locked-close = بند کر
 
 ## 5 Mask Upsell (displayed on the profile page)
 
+# Mask limit has been reached. 
+# Variables:
+# $limit (number) - the current limit of free masks you can create.
+profile-maxed-aliases-tooltip = تُساں سارے { $limit } ماسک استعمال کر گِھدّے ہِن۔ تُساں اِنّھاں کوں وَلا استعمال کر سڳدے ہِیوے، پَر ہر اکاؤنٹ کِیتے منفرد ماسک دا استعمال ساریاں کنوں محفوظ چوݨ ہِے۔
 profile-maxed-aliases-with-phone-header = آپݨے ای میل تے فون دی حفاظت ودھ ودھ کرو
 profile-maxed-aliases-without-phone-header = آپݨی { -brand-name-relay } ای میل حفاظت سب کنوں ودھ کرو
+profile-maxed-aliases-with-phone-description = تُساں آپݨے مُفت { -brand-name-relay }اکاؤنٹ اُتے آپݨی ماسک حد{ $limit } کوں پورا کر گِھدّا ہِے۔ لا محدود ای میل ماسک کنوں ان٘ج آپݨے فون نمبر دی راکھی کرݨ دی صلاحیت کِیتے { -brand-name-relay-premium } اُتے اپ گریڈ کرو۔
+profile-maxed-aliases-without-phone-description = تُساں آپݨے مُفت { -brand-name-relay }اکاؤنٹ اُتے آپݨی ماسک حد{ $limit } کوں پورا کر گِھدّا ہِے۔ لا محدود ای میل ماسک کِیتے { -brand-name-relay-premium } اُتے اپ گریڈ کرو۔
 profile-maxed-aliases-cta = { -brand-name-premium } تے اپ گریڈ کرو
 profile-label-set-your-custom-domain-free-user = { -brand-name-premium } نال آپݨی ای میل ڈومین گھنو
