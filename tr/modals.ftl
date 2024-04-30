@@ -30,6 +30,9 @@ error-state-invalid-alt = Geçersiz
 close-button-label-alt = Kapat
 modal-rename-alias-saved = Etiket kaydedildi
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
+# Variables:
+#   $email (string) - The relay mask (email address) that will be deleted
+modal-delete-warning-recovery-2-html = Bu maskeyi sildikten sonra asla geri alamazsınız. { -brand-name-firefox-relay } bundan sonra <strong>{ $email }</strong> adresine gönderilen e-postaları size yönlendirmeyecektir. Parola sıfırlama iletileri de buna dahildir.
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
 modal-domain-register-good-news = İyi bir haberimiz var!
 modal-domain-register-warning-reminder-2 = Tek bir alt alan adı kaydedebileceğinizi unutmayın. Bunu daha sonra değiştiremezsiniz.
