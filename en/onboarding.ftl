@@ -7,14 +7,6 @@
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Let’s set you up to get the most out of your { -brand-name-premium } account.
 multi-part-onboarding-premium-welcome-feature-headline = With { -brand-name-firefox-relay-premium }, you get:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unlimited email masks
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Enhance your privacy and security with a unique mask for every site
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Instantly create masks on-the-go
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Get a unique { -brand-name-relay } email domain for instant, easy-to-remember mask creation
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Custom inbox controls
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Control the type of emails that get forwarded to your inbox
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymous replies
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Respond to forwarded emails without sharing your real email address
 multi-part-onboarding-premium-welcome-feature-cta = Set up { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 
@@ -27,8 +19,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Ins
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Select your preferred { -brand-name-relay } email domain, then instantly create new masks by adding any word or phrase before the @ symbol. <p>Shopping? Use shop@yourdomain.{ $mozmail }.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Search a word or phrase
-multi-part-onboarding-premium-email-domain-feature-input-search = Search
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

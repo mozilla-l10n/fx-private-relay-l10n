@@ -25,11 +25,8 @@ avatar-tooltip = Profile
 nav-faq = FAQ
 nav-profile-sign-in = Sign In
 nav-profile-sign-up = Sign Up
-# Deprecated
-nav-profile-manage-fxa = Manage your { -brand-name-firefox-account(capitalization: "uppercase") }
 nav-profile-manage-account = Manage your account
 nav-profile-sign-out = Sign Out
-nav-profile-sign-out-relay = Sign Out of { -brand-name-relay }
 nav-profile-sign-out-confirm = Are you sure you want to sign out?
 nav-profile-settings = Settings
 nav-profile-settings-tooltip = Configure { -brand-name-firefox-relay }
@@ -65,10 +62,7 @@ fx-mobile-2 = { -brand-name-firefox } for Mobile
 nav-footer-privacy = Privacy
 nav-footer-relay-terms = { -brand-name-relay } Terms
 nav-footer-legal = Legal
-nav-footer-release-notes = Release Notes
-nav-footer-stock-photo-legal = Photographs on this page are sourced from iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
-logo-github-alt = GitHub logo
 
 ## Bento Menu
 
@@ -76,10 +70,8 @@ bento-button-title = { -brand-name-firefox } apps and services
 fx-makes-tech = { -brand-name-firefox } is tech that fights for your online privacy.
 made-by-mozilla = Made by { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } for Desktop
-fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } for Mobile
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-bento-button-close-label = Close menu
 
