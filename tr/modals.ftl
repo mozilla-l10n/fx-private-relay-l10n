@@ -17,6 +17,7 @@ modal-custom-alias-picker-form-prefix-invalid-warning = E-posta maskeleri yalnı
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-posta maskeleri yalnızca küçük harf, rakam, nokta ve tire içerebilir; nokta veya tire ile başlayamaz ve bitemez.
 modal-custom-alias-picker-form-submit-label-2 = Maske oluştur
 modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluşturulamadı. Lütfen yeniden deneyin veya maskeyi oluşturmak için maskeye e-posta gönderin.
+modal-custom-alias-picker-tip-redesign = İpucu: Özel bir maske oluşturmak için { -brand-name-relay }’e giriş yapmanıza gerek yok. { -brand-name-relay } e-posta alan adınızdaki @ işaretinden önce istediğiniz bir kelime veya ifadeyi eklemeniz yeterli. Bu adrese bir e-posta geldiği anda maskeniz otomatik olarak oluşturulacaktır.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
 error-alias-picker-prefix-invalid-uppercase-letters = Büyük harf kullanmayın
 error-alias-picker-prefix-invalid-symbols = Nokta ve tire dışındaki işaretleri kullanmayın
