@@ -23,7 +23,6 @@ faq-question-missing-emails-answer-reason-turned-off-2 = L’inoltro per l’ali
 faq-question-missing-emails-answer-reason-delay = È possibile che { -brand-name-relay } stia richiedendo più tempo del solito per inoltrare i tuoi messaggi
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = Se sei un utente { -brand-name-relay-premium } alle prese con uno di questi problemi, <a href="{ $url }" { $attrs }>contatta il nostro team di supporto</a>.
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Se stai riscontrando uno di questi problemi, <a href="{ $url }" { $attrs }>visita il nostro sito di supporto</a>.
@@ -42,11 +41,7 @@ faq-question-1-answer-a-2 = { -brand-name-relay } non filtra la posta indesidera
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Se noti un problema diffuso di posta indesiderata da tutti i tuoi alias, consigliamo di <a href="{ $url }" { $attrs }>segnalarcelo</a> in modo che possiamo correggere i parametri di Amazon SES per questo servizio. Evita di segnalare questi messaggi come posta indesiderata nella tua casella di posta, poiché il tuo provider vedrà { -brand-name-relay } come sorgente dello spam invece del mittente originale.
 faq-question-availability-question = Dov’è disponibile { -brand-name-relay }?
-faq-question-availability-answer = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda.
-faq-question-availability-answer-v2 = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Finlandia, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Svezia, Paesi Bassi e Irlanda.
-faq-question-availability-answer-v3 = { -brand-name-relay } è disponibile gratuitamente nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in Austria, Belgio, Canada, Cipro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Portogallo, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
 faq-question-availability-answer-v4 = { -brand-name-relay } è disponibile gratuitamente nella maggior parte dei Paesi. { -brand-name-relay-premium } è disponibile in Austria, Bulgaria, Belgio, Canada, Croazia, Cipro, Repubblica Ceca, Danimarca, Estonia, Finlandia, Francia, Germania, Grecia, Ungheria, Irlanda, Italia, Lettonia, Lituania, Lussemburgo, Malesia, Malta, Paesi Bassi, Nuova Zelanda, Polonia, Portogallo, Romania, Singapore, Slovacchia, Slovenia, Spagna, Svezia, Svizzera, Regno Unito e Stati Uniti.
-faq-question-landing-page-availability = La versione gratuita di { -brand-name-relay } è disponibile nella maggior parte dei Paesi. Gli alias di posta elettronica { -brand-name-relay-premium } sono disponibili in: Stati Uniti, Germania, Regno Unito, Canada, Singapore, Malesia, Nuova Zelanda, Francia, Belgio, Austria, Spagna, Italia, Svizzera, Paesi Bassi e Irlanda. Gli alias per numeri di telefono { -brand-name-relay-premium } sono disponibili solo negli Stati Uniti e in Canada.
 faq-question-4-question-2 = Posso rispondere ai messaggi usando il mio alias { -brand-name-relay }?
 faq-question-4-answer-v4 = Gli utenti { -brand-name-relay-premium } possono rispondere a un’email inoltrata entro 3 mesi dalla ricezione. Se aggiungi qualcuno in Cc o Ccn quando rispondi, il tuo indirizzo email reale sarà esposto ai destinatari e agli altri soggetti inclusi nell’email. Se non vuoi che il tuo indirizzo email reale venga mostrato, non aggiungere destinatari in Cc o Ccn quando rispondi.
 faq-question-subdomain-characters-question = Quali caratteri si possono utilizzare per creare un sottodominio?
@@ -65,7 +60,6 @@ faq-question-8-question = Quali dati vengono raccolti da { -brand-name-firefox-r
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-2-html = Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>. Facoltativamente, puoi anche condividere i dati sulle etichette e sui siti che utilizzi per i tuoi alias email, per permetterci di offrirti questo servizio e di migliorarlo per te.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } memorizza i siti web in cui hai utilizzato i tuoi alias di posta elettronica e utilizza questa informazione per contrassegnare gli alias, così da poterli identificare più facilmente. Puoi decidere di disattivare questa funzione nella sezione “Privacy” delle impostazioni. Tuttavia, tieni presente che in questo modo non sarai più in grado di stabilire dove hai utilizzato ciascun alias e i nomi dei tuoi account non verranno più sincronizzati tra i dispositivi. Puoi trovare ulteriori informazioni sui dati raccolti da { -brand-name-firefox-relay } nella nostra <a href="{ $url }" { $attrs }>Informativa sulla privacy</a>.
 faq-question-email-storage-question = { -brand-name-relay } conserva le mie email?
 faq-question-email-storage-answer = Nelle rare situazioni in cui il servizio non è attivo, potremmo salvare temporaneamente le tue email fino a quando non potranno essere inviate. Le tue email non verranno mai conservate per più di tre giorni.
@@ -73,7 +67,9 @@ faq-question-acceptable-use-question = Quali sono gli utilizzi accettabili di { 
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } è soggetto alle stesse <a href="{ $url }" { $attrs }>condizioni di utilizzo di tutti i prodotti { -brand-name-mozilla }</a>. Abbiamo una politica di tolleranza zero nel caso in cui { -brand-name-relay } venga utilizzato con intenti dolosi come l’invio di spam, con conseguente chiusura dell’account. Adottiamo misure per impedire agli utenti di violare le nostre condizioni:
+# Deprecated
 faq-question-acceptable-use-answer-measure-account = È obbligatorio utilizzare un { -brand-name-firefox-account } con un indirizzo email verificato
+faq-question-acceptable-use-answer-measure-account-v2 = È obbligatorio utilizzare un account con un indirizzo email verificato
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = La creazione di più di cinque alias è un servizio a pagamento
 faq-question-acceptable-use-answer-measure-rate-limit-2 = È possibile creare un numero limitato di alias ogni giorno
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -92,4 +88,3 @@ faq-question-trackerremoval-breakage-answer-2 = A volte la rimozione degli eleme
 faq-question-define-tracker-question = Che cosa sono gli elementi traccianti nelle email?
 faq-question-define-tracker-answer-partone = Il tracciamento delle email è uno strumento di sorveglianza e pubblicità ormai comune e sta invadendo sempre più caselle di posta. Questi elementi traccianti possono essere utilizzati per comprendere meglio il tuo comportamento online, i tuoi interessi e l’attività della tua casella di posta.
 faq-question-define-tracker-answer-parttwo = Un’azienda o un’organizzazione può incorporare un elemento tracciante nelle email che ti vengono inviate, solitamente nascosto all’interno di un’immagine o di un link. Quando l’email viene aperta, il codice all’interno dell’elemento tracciante invia informazioni all’azienda.
-
