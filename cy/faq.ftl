@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Weithiau gall cael gwared ar dra
 faq-question-define-tracker-question = Beth yw tracwyr e-bost?
 faq-question-define-tracker-answer-partone = Mae tracio e-byst yn offer gwyliadwriaeth a hysbysebu cyffredin sydd wedi meddiannu llawer o flychau derbyn. Mae modd defnyddio'r tracwyr hyn i ddeall mwy am eich ymddygiad ar-lein, eich diddordebau, a'ch gweithgaredd e-bostio.
 faq-question-define-tracker-answer-parttwo = Bydd cwmni neu sefydliad yn mewnosod traciwr mewn e-byst sy'n cael ei anfon atoch, fel arfer wedi'u cuddio o fewn delwedd neu ddolen. Pan fyddwch yn agor yr e-bost, mae cod o fewn y traciwr yn anfon data yn ôl i'r cwmni.
+

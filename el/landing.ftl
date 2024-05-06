@@ -270,3 +270,4 @@ waitlist-privacy-policy-use-bundle = Τα στοιχεία σας θα χρησ�
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
 waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
 waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
+

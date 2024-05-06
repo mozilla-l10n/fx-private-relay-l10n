@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Às vezes, a remoção de rastre
 faq-question-define-tracker-question = O que são rastreadores de email?
 faq-question-define-tracker-answer-partone = Rastreamento de email é uma ferramenta comum de vigilância e publicidade que tomou posse de muitas caixas de entrada. Esses rastreadores podem ser usados para entender mais sobre seu comportamento online, seus interesses e sua atividade de email.
 faq-question-define-tracker-answer-parttwo = Uma empresa ou organização embute rastreadores em emails enviados a você, geralmente escondidos em imagens ou links. Quando o email é aberto, o código do rastreador envia dados de volta para a empresa.
+

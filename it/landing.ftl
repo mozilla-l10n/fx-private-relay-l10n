@@ -263,3 +263,4 @@ waitlist-privacy-policy-use-bundle = Le tue informazioni saranno utilizzate solo
 waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-firefox-relay-premium } sarà disponibile per il tuo Paese, ti invieremo un’email.
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
+

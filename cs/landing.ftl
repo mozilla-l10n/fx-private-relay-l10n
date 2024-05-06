@@ -284,3 +284,4 @@ waitlist-subscribe-success =
     }
 waitlist-subscribe-error-connection = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkontrolujte prosím své připojení a zkuste to znovu.
 waitlist-subscribe-error-unknown = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkuste to prosím znovu.
+

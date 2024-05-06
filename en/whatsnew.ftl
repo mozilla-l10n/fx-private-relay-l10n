@@ -13,7 +13,6 @@ whatsnew-tab-new-label = News
 whatsnew-tab-archive-label = History
 whatsnew-footer-clear-all-label = Clear all
 whatsnew-footer-back-label = Back
-whatsnew-footer-learn-more-label = Learn more
 
 whatsnew-empty-message = Be sure to check back here — we’re always working on great new features to make { -brand-name-relay } even better.
 
@@ -73,7 +72,6 @@ whatsnew-feature-offer-countdown-snippet = Get { -brand-name-relay-premium } bef
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Get { -brand-name-relay-premium } before { $end_date } and enjoy unlimited masking at our intro month-to-month price.
-whatsnew-feature-offer-countdown-cta = Upgrade now
 
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } is now available in { -brand-name-firefox } password manager
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.

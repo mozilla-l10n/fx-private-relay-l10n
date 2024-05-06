@@ -222,3 +222,4 @@ waitlist-privacy-policy-use-phone = Tu información solo se utilizará para noti
 waitlist-subscribe-success = ¡Estás en la lista! Una vez que { -brand-name-firefox-relay-premium } esté disponible para tu región, te enviaremos un correo.
 waitlist-subscribe-error-connection = Hubo un error al agregarte a la lista de espera. Por favor, revisa tu conexión y vuelve a intentarlo.
 waitlist-subscribe-error-unknown = Hubo un error al agregarte a la lista de espera. Por favor, inténtalo de nuevo.
+

@@ -104,3 +104,4 @@ waitlist-control-email-label = Qual é o seu endereço de correio eletrónico?
 waitlist-control-email-placeholder = oseunome@example.com
 waitlist-control-country-label-2 = Em que país ou região reside?
 waitlist-control-locale-label = Selecione o seu idioma preferencial.
+

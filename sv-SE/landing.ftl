@@ -273,3 +273,4 @@ waitlist-privacy-policy-use-bundle = Din information kommer endast att användas
 waitlist-subscribe-success = Du är på listan! När { -brand-name-firefox-relay-premium } blir tillgänglig för din region skickar vi ett e-postmeddelande till dig.
 waitlist-subscribe-error-connection = Det gick inte att lägga till dig på väntelistan. Kontrollera din anslutning och försök sedan igen.
 waitlist-subscribe-error-unknown = Det gick inte att lägga till dig på väntelistan. Var god försök igen.
+

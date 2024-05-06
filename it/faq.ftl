@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = A volte la rimozione degli eleme
 faq-question-define-tracker-question = Che cosa sono gli elementi traccianti nelle email?
 faq-question-define-tracker-answer-partone = Il tracciamento delle email è uno strumento di sorveglianza e pubblicità ormai comune e sta invadendo sempre più caselle di posta. Questi elementi traccianti possono essere utilizzati per comprendere meglio il tuo comportamento online, i tuoi interessi e l’attività della tua casella di posta.
 faq-question-define-tracker-answer-parttwo = Un’azienda o un’organizzazione può incorporare un elemento tracciante nelle email che ti vengono inviate, solitamente nascosto all’interno di un’immagine o di un link. Quando l’email viene aperta, il codice all’interno dell’elemento tracciante invia informazioni all’azienda.
+

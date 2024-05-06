@@ -4,9 +4,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Your subdomain @{ $subdomain } has been created
 success-settings-update = Your settings have been updated
 success-signed-out-message = You have signed out.
 # Variables:
@@ -18,8 +15,6 @@ success-signed-in-message = Successfully signed in as { $username }.
 error-premium-cannot-change-subdomain = You cannot change your subdomain
 error-premium-set-subdomain = You must be a premium subscriber to set a subdomain
 error-premium-check-subdomain = You must be a premium subscriber to check a subdomain
-error-subdomain-not-created = Subdomain could not be created, try something else
-error-subdomain-email-not-created = Email address with subdomain could not be created, try something else
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = The subdomain @{ $unavailable_subdomain } is not available. Please try a different one.
@@ -42,8 +37,6 @@ tips-header-title = Help & Tips
 tips-header-button-close-label = Dismiss
 tips-footer-link-faq-label = FAQ
 tips-footer-link-faq-tooltip = Frequently asked questions
-tips-footer-link-feedback-label = Feedback
-tips-footer-link-feedback-tooltip = Give feedback
 tips-footer-link-support-label = Support
 tips-footer-link-support-tooltip = Contact support
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -61,11 +54,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = More info
 
 tips-custom-alias-heading-2 = Creating masks using your custom subdomain
 tips-custom-alias-content-2 = All you need to do is make up and share a unique mask that uses your custom subdomain — the mask will be generated automatically. Try “shop@customdomain.mozmail.com” next time you shop online, for example.
-
-## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Block Promotional Emails
-tips-promo-email-blocking-content = With { -brand-name-relay-premium }, you can block promotional emails from reaching your inbox while still allowing you to receive emails like receipts or shipping information.
 
 ## Report of trackers removed from an email
 
@@ -156,18 +144,6 @@ offer-countdown-timer-seconds = Sec.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = On a scale from 1-10, how likely are you to recommend { -brand-name-relay } to a friend or colleague?
-survey-question-2 = Is { -brand-name-relay } easy to use?
-survey-question-3 = Do you feel { -brand-name-relay } is trustworthy?
-survey-question-4 = Does { -brand-name-relay } have a clean and simple presentation?
-survey-question-5 = How would you feel if you could no longer use { -brand-name-relay }?
-survey-option-strongly-disagree = Strongly disagree
-survey-option-disagree = Disagree
-survey-option-unsure = Unsure
-survey-option-agree = Agree
-survey-option-strongly-agree = Strongly agree
-survey-option-i-wouldnt-care = I wouldn’t care
-survey-option-somewhat-disappointed = Somewhat disappointed
-survey-option-very-disappointed = Very disappointed
 survey-option-very-likely = Very likely
 survey-option-not-likely = Not likely
 survey-option-dismiss = Dismiss
@@ -183,35 +159,6 @@ survey-csat-answer-very-satisfied = Very Satisfied
 # This is a link that the user can click to get to the two-minute survey.
 # It appears after the user has answered survey-csat-question:
 survey-csat-followup = Thank you for your feedback. We would like to learn more about how we can improve { -brand-name-relay } for you, would you be willing to take a two-minute survey?
-
-## Deprecated (since January 2023)
-## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = This message was forwarded from { $display_email } by { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } removes CCs and BCCs from your replies. If you re-add them, your true email will be exposed.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Upgrade to { $premium_link } to get unlimited email masks, a custom subdomain, and the ability to reply to emails.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Our intro monthly pricing offer is expiring. Upgrade to { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } supports email forwarding (including attachments) of email up to { email-size-limit } in size. To learn more, check our { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } email trackers removed
-forwarded-email-trackers-blocked-report = Learn more
-# This entire text is a link
-forwarded-email-footer-2 = Stop email forwarding and manage settings for all masks here.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Upgrade to { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Upgrade to { $premium_link } before our intro pricing expires.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -300,9 +247,7 @@ first-time-user-email-how-item-3-header = Manage your masks from your { -brand-n
 first-time-user-email-how-item-3-subhead-html =  <a href="{ $url }" { $attrs }>Sign in</a> to create new masks, label your masks, and delete masks that get spam.
 first-time-user-email-how-item-3-subhead-text =  Sign in to create new masks, label your masks, and delete masks that get spam.
 
-first-time-user-email-extra-protection-inbox-title = Extra protection for your inbox
 first-time-user-email-extra-protection-inbox-phone-title = Extra protection for your inbox and phone
-first-time-user-email-extra-protection-inbox-subhead = Upgrade to { -brand-name-relay-premium } to get unlimited email masks, a custom { -brand-name-relay } domain, and custom inbox controls.
 first-time-user-email-extra-protection-inbox-phone-subhead = Upgrade to { -brand-name-relay-premium } for unlimited email masks — plus a phone mask to protect your real number.
 first-time-user-email-extra-protection-cta = Get { -brand-name-relay-premium }
 

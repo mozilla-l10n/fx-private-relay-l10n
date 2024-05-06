@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Ibland kan borttagning av spåra
 faq-question-define-tracker-question = Vad är e-postspårare?
 faq-question-define-tracker-answer-partone = E-postspårning är ett vanligt övervaknings- och reklamverktyg som har tagit över många inkorgar. Dessa spårare kan användas för att förstå mer om ditt beteende online, dina intressen och din e-postaktivitet.
 faq-question-define-tracker-answer-parttwo = Ett företag eller en organisation kommer att bädda in en spårare i e-postmeddelanden som skickas till dig, vanligtvis gömda i en bild eller en länk. När e-postmeddelandet öppnas skickar koden i spåraren data tillbaka till företaget.
+

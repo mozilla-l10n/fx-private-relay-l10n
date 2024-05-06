@@ -269,3 +269,4 @@ waitlist-privacy-policy-use-bundle = 您的信息将仅用于通知您有关 { -
 waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
 waitlist-subscribe-error-connection = 加入预约名单时出错，请检查您的网络连接并重试。
 waitlist-subscribe-error-unknown = 加入预约名单时出错，请重试。
+

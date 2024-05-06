@@ -104,3 +104,4 @@ faq-question-bulk-trackerremoval-question = ¿Puedo eliminar rastreadores solo e
 faq-question-bulk-trackerremoval-answer = Solo puedes activar la eliminación del rastreador a nivel de cuenta; elimina los rastreadores de todos tus correos electrónicos o ninguno de ellos.
 faq-question-trackerremoval-breakage-question = ¿Por qué mis correos electrónicos no se muestran correctamente?
 faq-question-trackerremoval-breakage-answer-2 = A veces, la eliminación de rastreadores puede hacer que tu correo se vea dañado porque los rastreadores a menudo se encuentran dentro de imágenes y enlaces. Cuando se elimina el rastreador, parece que el correo electrónico tiene un formato incorrecto porque faltan imágenes. Esto no se puede arreglar para los correos electrónicos que ya recibiste. Si esto le impide leer tus correos electrónicos correctamente, desactiva la eliminación del rastreador.
+

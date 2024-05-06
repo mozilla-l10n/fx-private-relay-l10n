@@ -257,3 +257,4 @@ waitlist-privacy-policy-use-bundle = Vaše informácie budú použité iba na to
 waitlist-subscribe-success = Ste na zozname! Keď bude služba { -brand-name-firefox-relay-premium } dostupná pre váš región, pošleme vám e-mail.
 waitlist-subscribe-error-connection = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Skontrolujte pripojenie a skúste to znova.
 waitlist-subscribe-error-unknown = Pri pridávaní vás do zoznamu čakateľov sa vyskytla chyba. Prosím skúste to znova.
+

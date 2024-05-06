@@ -27,7 +27,6 @@ phone-onboarding-step2-input-placeholder = Enter your phone number
 phone-onboarding-step2-button-cta = Send code
 phone-onboarding-step2-invalid-number = { $phone_number } is not a valid number. Please review and provide a real phone number.
 
-phone-onboarding-step3-headline = Verify your true phone number
 # Variables:
 #   $phone_number (string) - The phone number to which a verification code was sent, e.g. +1 (415) 555-2671
 #   $remaining_minutes (number) - The number of minutes (to be added to $remaining_seconds) left before the verification code expires
@@ -44,7 +43,6 @@ phone-onboarding-step3-body =
 phone-onboarding-step3-input-placeholder = Enter 6-digit code
 phone-onboarding-step3-button-cta = Confirm my phone number
 phone-onboarding-step3-button-edit = Edit true phone number
-phone-onboarding-step3-button-resend = Resend verification code
 phone-onboarding-step3-error-exipred = Try again — the time limit expired.
 phone-onboarding-step3-error-cta = Send a new code
 phone-onboarding-step3-code-fail-title = Wrong verification code
@@ -60,13 +58,9 @@ phone-onboarding-step3-loading = Based on your true phone number, { -brand-name-
 phone-onboarding-step4-country = United States and Canada
 phone-onboarding-step4-body = These available phone number masks are similar to your true phone number.
 phone-onboarding-step4-sub-body = Once you register a phone number mask, you cannot change it.
-phone-onboarding-step4-smiliar-phone = Similar to { $phone_number }
 phone-onboarding-step4-input-search = Enter an area code
 phone-onboarding-step4-button-more-options = Show me other options
 phone-onboarding-step4-button-register-phone-number = Register phone number mask
-phone-onboarding-step4-search-results-body = Phone number masks available in <strong>{ $location }</strong>. Once you register a phone number mask, you cannot change it.
-phone-onboarding-step4-confirm-message = To confirm your phone number mask, enter it below. This can’t be changed later.
-phone-onboarding-step4-confirm-alt-cancel = Cancel
 phone-onboarding-step4-body-confirm-relay-number = Please confirm that this is the phone number mask you want. This can’t be changed later.
 phone-onboarding-step4-button-confirm-relay-number = Confirm
 phone-onboarding-step4-code-success-title = Congratulations!
@@ -121,20 +115,6 @@ phone-dashboard-sender-disabled-body =  You have disabled the Caller and Sender 
 phone-dashboard-sender-disabled-update-settings = Update Settings
 phone-dashboard-sender-empty-body = You haven’t received any call or message yet!
 phone-dashboard-header-new = New
-
-## Phone Banner
-
-phone-banner-pill-new = New!
-phone-banner-callout = Phone number masking
-phone-banner-header = Layer on even more protection with phone number masking
-phone-banner-body = With phone number masking, you can choose a phone number mask that protects your phone number. Share your phone number mask to receive and reply to calls and texts privately without revealing your true phone number.
-phone-banner-cta-landing = Sign Up
-phone-banner-cta-user = Upgrade now
-# Variables:
-#   $nr_calls (number) - the number of calls one can make per month
-#   $nr_texts (number) - the number of texts one can send and receive per month
-phone-banner-float-limits = { $nr_calls } call minutes + { $nr_texts } texts
-phone-banner-float-replies = Reply to texts privately
 
 ## Frequently Asked Questions about Phone plans
 

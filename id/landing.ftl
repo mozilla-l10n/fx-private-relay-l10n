@@ -273,3 +273,4 @@ waitlist-privacy-policy-use-bundle = Informasi Anda hanya akan digunakan untuk m
 waitlist-subscribe-success = Anda masuk ke dalam daftar! Setelah { -brand-name-firefox-relay-premium } tersedia untuk wilayah Anda, kami akan mengirim surel kepada Anda.
 waitlist-subscribe-error-connection = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Periksa sambungan Anda, lalu coba lagi.
 waitlist-subscribe-error-unknown = Terjadi kesalahan saat menambahkan Anda ke daftar tunggu. Silakan coba lagi.
+

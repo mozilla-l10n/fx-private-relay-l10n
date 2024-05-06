@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Soms kan het verwijderen van tra
 faq-question-define-tracker-question = Wat zijn e-mailtrackers?
 faq-question-define-tracker-answer-partone = E-mailtracking is een veelgebruikt hulpmiddel voor bewaking en reclame dat terug te vinden is in menig Postvak IN. Deze trackers kunnen worden gebruikt om meer inzicht te krijgen in uw online gedrag, uw interesses en uw e-mailactiviteit.
 faq-question-define-tracker-answer-parttwo = Een bedrijf of organisatie zal een tracker opnemen in e-mailberichten die naar u worden verzonden, meestal verborgen in een afbeelding of een koppeling. Wanneer het e-mailbericht wordt geopend, stuurt de code in de tracker gegevens terug naar het bedrijf.
+

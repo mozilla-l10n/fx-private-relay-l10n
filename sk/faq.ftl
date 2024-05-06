@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Odstránenie sledovacích prvkov
 faq-question-define-tracker-question = Čo sú sledovacie prvky v e-mailoch?
 faq-question-define-tracker-answer-partone = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
 faq-question-define-tracker-answer-parttwo = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
+

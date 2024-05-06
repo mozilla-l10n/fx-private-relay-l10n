@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Manchmal kann das Entfernen von 
 faq-question-define-tracker-question = Was sind E-Mail-Tracker?
 faq-question-define-tracker-answer-partone = E-Mail-Tracking ist ein gängiges Werkzeug für Überwachung und Werbung, das für viele Posteingänge zum Problem geworden ist. Diese Tracker können verwendet werden, um mehr über Ihr Online-Verhalten, Ihre Interessen und Ihre E-Mail-Aktivitäten zu erfahren.
 faq-question-define-tracker-answer-parttwo = Ein Unternehmen oder eine Organisation bettet einen Tracker in E-Mails ein, die an Sie gesendet werden, normalerweise versteckt in einer Grafik oder einem Link. Wenn die E-Mail geöffnet wird, sendet der Code im Tracker Daten an das Unternehmen zurück.
+
