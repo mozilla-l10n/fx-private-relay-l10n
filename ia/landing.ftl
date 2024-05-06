@@ -273,3 +273,4 @@ waitlist-privacy-policy-use-bundle = Tu informationes sera solo usate pro allert
 waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefox-relay-premium } devenira disponibile pro tu region, nos te inviara un email.
 waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
 waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
+

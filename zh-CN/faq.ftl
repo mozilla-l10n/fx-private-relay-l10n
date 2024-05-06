@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = 有时移除跟踪器可能会�
 faq-question-define-tracker-question = 什么是邮件跟踪器？
 faq-question-define-tracker-answer-partone = 电子邮件跟踪是常见的监视和广告工具，许多邮箱饱受其侵扰。这些跟踪器可用于更多地了解您的上网行为、兴趣爱好和电子邮件活动。
 faq-question-define-tracker-answer-parttwo = 一些公司或组织会在发送给您的电子邮件中嵌入跟踪器（通常隐藏在图像或链接中）。打开电子邮件后，跟踪器中的代码就会执行，并回传数据。
+

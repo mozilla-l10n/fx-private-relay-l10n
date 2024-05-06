@@ -269,3 +269,4 @@ waitlist-privacy-policy-use-bundle = Dim ond i roi gwybod i chi am argaeledd pec
 waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-name-firefox-relay-premium } ar gael ar gyfer eich ardal, byddwn yn anfon e-bost atoch.
 waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
 waitlist-subscribe-error-unknown = Bu gwall wrth eich ychwanegu at y rhestr aros. Ceisiwch eto, os gwelwch yn dda.
+

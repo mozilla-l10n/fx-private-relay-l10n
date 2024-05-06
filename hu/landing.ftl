@@ -271,3 +271,4 @@ waitlist-privacy-policy-use-bundle = Adatait csak arra használjuk, hogy értes�
 waitlist-subscribe-success = Rajta van a listán. Amint a { -brand-name-firefox-relay-premium } elérhetővé válik az Ön régiójában, e-mailt küldünk Önnek.
 waitlist-subscribe-error-connection = Hiba történt a várólistára való felvétel során. Ellenőrizze az internetkapcsolatát, majd próbálja újra.
 waitlist-subscribe-error-unknown = Hiba történt a várólistára való felvétel során. Próbálja újra.
+

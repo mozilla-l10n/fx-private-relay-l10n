@@ -277,3 +277,4 @@ waitlist-privacy-policy-use-bundle = Uw gegevens worden alleen gebruikt om u te 
 waitlist-subscribe-success = U staat op de lijst! Zodra { -brand-name-firefox-relay-premium } beschikbaar komt voor uw regio, sturen we u een e-mailbericht.
 waitlist-subscribe-error-connection = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Controleer uw verbinding en probeer het opnieuw.
 waitlist-subscribe-error-unknown = Er is een fout opgetreden bij het plaatsen op de wachtlijst. Probeer het nog eens.
+

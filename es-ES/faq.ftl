@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = A veces, la eliminación de rast
 faq-question-define-tracker-question = ¿Qué son los rastreadores de correo electrónico?
 faq-question-define-tracker-answer-partone = Los rastreadores en los correos electrónicos son una herramienta común de vigilancia y publicidad que se ha apoderado de muchas bandejas de entrada. Estos rastreadores se pueden usar para saber más sobre tu comportamiento en línea, tus intereses y tu actividad de correo electrónico.
 faq-question-define-tracker-answer-parttwo = Una empresa u organización incorporará un rastreador en los correos electrónicos que te envían, generalmente oculto dentro de una imagen o un enlace. Cuando se abre el correo electrónico, el código dentro del rastreador envía datos a la empresa.
+

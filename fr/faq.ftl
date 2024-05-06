@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Quelquefois la suppression des t
 faq-question-define-tracker-question = Que sont les traqueurs dans les e-mails ?
 faq-question-define-tracker-answer-partone = Le pistage des e-mails est une pratique courante utilisée dans un but de surveillance et pour la publicité, et qui a envahi de nombreuses boîtes de réception. Ces traqueurs peuvent être utilisés pour en savoir plus sur votre comportement en ligne, vos intérêts et votre activité de messagerie.
 faq-question-define-tracker-answer-parttwo = Une entreprise ou une organisation intègre un traqueur dans des e-mails qui vous sont envoyés, habituellement caché dans une image ou un lien. Lorsque l’e-mail est ouvert, le code du traqueur renvoie les données à la société.
+

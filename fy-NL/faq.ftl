@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Somtiden kin it ferwiderjen fan 
 faq-question-define-tracker-question = Wat binne e-mailtrackers?
 faq-question-define-tracker-answer-partone = E-mailtracking is in faaks brûkt helpmiddel foar bewekking en reklame dat gauris werom te finen is yn Postfek YN. Dizze trackers kinne brûkt wurde om mear ynsjoch te krijen yn jo online gedrach, jo ynteressen en jo e-mailaktiviteit.
 faq-question-define-tracker-answer-parttwo = In bedriuw of organisaasje sil in tracker opnimmen yn e-mailberjochten dy’t nei jo ferstjoerd wurde, meastentiids ferburgen yn in ôfbylding of in keppeling. Wannear’t it e-mailberjocht iepene wurdt, stjoert de koade yn de tracker gegevens werom nei it bedriuw.
+

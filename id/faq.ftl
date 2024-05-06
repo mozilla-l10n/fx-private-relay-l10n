@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Terkadang menghapus pelacak dapa
 faq-question-define-tracker-question = Apa itu pelacak surel?
 faq-question-define-tracker-answer-partone = Pelacakan surel adalah alat pengawasan dan iklan yang umum, yang telah mengambil alih banyak kotak masuk. Pelacak ini dapat digunakan untuk memahami lebih lanjut tentang perilaku daring, minat, dan aktivitas surel Anda.
 faq-question-define-tracker-answer-parttwo = Perusahaan atau organisasi akan menyematkan pelacak dalam surel yang dikirimkan kepada Anda, biasanya disembunyikan dalam sebuah gambar atau tautan. Saat surel dibuka, kode dalam pelacak akan mengirim data kembali ke perusahaan.
+

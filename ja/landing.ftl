@@ -79,3 +79,4 @@ waitlist-control-email-label = メールアドレス
 waitlist-control-email-placeholder = yourname@example.com
 waitlist-control-locale-label = ご希望の言語を選択してください。
 waitlist-privacy-policy-use = あなたの個人情報は、{ -brand-name-firefox-relay-premium } の利用についての通知のみに使用されます。
+

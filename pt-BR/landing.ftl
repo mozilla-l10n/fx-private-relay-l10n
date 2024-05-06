@@ -261,3 +261,4 @@ waitlist-privacy-policy-use-bundle = Suas informações só serão usadas para t
 waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-firefox-relay-premium } estiver disponível em sua região, enviaremos um email.
 waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
 waitlist-subscribe-error-unknown = Houve um erro ao adicionar você à lista de espera. Tente novamente.
+

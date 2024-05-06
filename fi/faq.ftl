@@ -70,3 +70,4 @@ faq-question-trackerremoval-breakage-answer-2 = Joskus seurainten poistaminen vo
 faq-question-define-tracker-question = Mitä sähköpostiseuraimet ovat?
 faq-question-define-tracker-answer-partone = Sähköpostin seuranta on yleinen valvonta- ja mainontatyökalu, joka on vallannut monia postilaatikoita. Näitä seuraimia voidaan käyttää ymmärtämään enemmän ihmisten verkkokäyttäytymisestä, kiinnostuksen kohteista ja sähköpostitoiminnasta.
 faq-question-define-tracker-answer-parttwo = Yritys tai organisaatio upottaa seuraimen, seurantaohjelman, sinulle lähetettyihin sähköposteihin, yleensä piilotettuna kuvan tai linkin sisään. Kun sähköpostiviesti avataan, seuraimen koodi lähettää tietoa takaisin yritykselle.
+

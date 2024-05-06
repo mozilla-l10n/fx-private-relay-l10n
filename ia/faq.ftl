@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Aliquando le remotion de traciat
 faq-question-define-tracker-question = Que es le traciatores de email?
 faq-question-define-tracker-answer-partone = Le traciamento de emails es un commun instrumento de surveliantia e publicitate que es mantenite super multe cassas de ingresso. Iste traciatores pote esser usate pro comprender plus re tu comportamento online, tu interesses, e tu activitate email.
 faq-question-define-tracker-answer-parttwo = Un compania o organisation incorporara un traciator in emails inviate a te, usualmente celate intra un imagine o un ligamine. Quando le email es aperite, le codice intra le traciator invia datos retro al compania.
+

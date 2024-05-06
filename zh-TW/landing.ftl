@@ -257,3 +257,4 @@ waitlist-privacy-policy-use-bundle = 您提供的資訊，將只會在 { -brand-
 waitlist-subscribe-success = 登記好了！當 { -brand-name-firefox-relay-premium } 於您所在的地區推出時，我們就會發信通知。
 waitlist-subscribe-error-connection = 將您加入候補名單時遇到錯誤，請確認網路連線是否正常，然後再試一次。
 waitlist-subscribe-error-unknown = 將您加入候補名單時發生錯誤，請再試一次。
+

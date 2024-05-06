@@ -270,3 +270,4 @@ waitlist-privacy-policy-use-bundle = Tietojasi käytetään vain { -brand-name-r
 waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-premium } tulee saataville alueellasi, lähetämme sinulle sähköpostia.
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.
 waitlist-subscribe-error-unknown = Jonotuslistalle lisättäessä tapahtui virhe. Yritä uudelleen.
+

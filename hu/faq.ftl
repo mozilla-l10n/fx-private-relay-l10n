@@ -92,3 +92,4 @@ faq-question-trackerremoval-breakage-answer-2 = Néha a követők eltávolítás
 faq-question-define-tracker-question = Mik azok az e-mail-követők?
 faq-question-define-tracker-answer-partone = Az e-mail-követés egy elterjedt felügyeleti és hirdetési eszköz, amely sok postafiókot érint. Ezekkel a követőkkel több információ tudható meg az online viselkedéséről, érdeklődési köréről és a levelezési tevékenységéről.
 faq-question-define-tracker-answer-parttwo = Egy vállalat vagy szervezet nyomkövetőt ágyaz be az Önnek küldött e-mailekbe, általában egy képbe vagy hivatkozásba rejtve. Az e-mail megnyitásakor a követőben található kód visszaküldi az adatokat a cégnek.
+
