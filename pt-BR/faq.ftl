@@ -23,7 +23,6 @@ faq-question-missing-emails-answer-reason-turned-off-2 = A máscara pode estar c
 faq-question-missing-emails-answer-reason-delay = O { -brand-name-relay } pode estar demorando mais do que o normal para encaminhar suas mensagens
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = Se você é usuário do { -brand-name-relay-premium } e está enfrentando algum desses problemas, <a href="{ $url }" { $attrs }>entre em contato com nossa equipe de suporte</a>.
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Se estiver tendo algum desses problemas, <a href="{ $url }" { $attrs }>visite nosso site de suporte</a>.
@@ -42,11 +41,7 @@ faq-question-1-answer-a-2 = Embora o { -brand-name-relay } não filtre spam, nos
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Se perceber um problema mais amplo de emails indesejados de todas as suas máscaras, <a href="{ $url }" { $attrs }>denuncie para nós</a> para que possamos considerar ajustar a tolerância de spam do SES neste serviço. Se você denunciar diretamente como spam, seu provedor de email irá considerar o { -brand-name-relay } como origem do spam, não o remetente original.
 faq-question-availability-question = Onde o { -brand-name-relay } está disponível?
-faq-question-availability-answer = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda.
-faq-question-availability-answer-v2 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, Finlândia, França, Bélgica, Áustria, Espanha, Itália, Suécia, Suíça, Holanda e Irlanda.
-faq-question-availability-answer-v3 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível na Áustria, Bélgica, Canadá, Chipre, Estônia, Finlândia, França, Alemanha, Grécia, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Portugal, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
 faq-question-availability-answer-v4 = O { -brand-name-relay } gratuito está disponível na maioria dos países. O { -brand-name-relay-premium } está disponível na Áustria, Bulgária, Bélgica, Canadá, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Grécia, Hungria, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Malásia, Malta, Holanda, Nova Zelândia, Polônia, Portugal, Romênia, Cingapura, Eslováquia, Eslovênia, Espanha, Suécia, Suíça, Reino Unido e Estados Unidos.
-faq-question-landing-page-availability = O { -brand-name-relay } gratuito está disponível na maioria dos países. A ocultação de email do { -brand-name-relay-premium } está disponível nos Estados Unidos, Alemanha, Reino Unido, Canadá, Cingapura, Malásia, Nova Zelândia, França, Bélgica, Áustria, Espanha, Itália, Suíça, Holanda e Irlanda. A ocultação de celular do { -brand-name-relay-premium } só está disponível nos Estados Unidos e no Canadá.
 faq-question-4-question-2 = Posso responder a mensagens usando minha máscara de email do { -brand-name-relay }?
 faq-question-4-answer-v4 = Usuários do { -brand-name-relay-premium } podem responder a um email encaminhado até 3 meses após receber. Se você adicionar destinatários em Cc ou Cco ao responder a um email, seu endereço de email original é exposto aos destinatários e aos que recebem cópia. Se não quiser que seu endereço de email original seja exposto, não adicione remetentes em Cc ou Cco ao responder.
 faq-question-subdomain-characters-question = Que caracteres posso usar para criar um subdomínio?
@@ -65,7 +60,6 @@ faq-question-8-question = Que dados o { -brand-name-firefox-relay } coleta?
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-2-html = Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta dando uma olhada em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>. Você também tem a opção de compartilhar dados sobre os rótulos e sites onde usa suas máscaras de email, para que possamos fornecer e melhorar este serviço para você.
 faq-question-8-answer-3-html = O { -brand-name-firefox-relay } coleta os sites onde você usa suas máscaras de email e rotula suas máscaras com esses sites para que você possa identificar com facilidade. Você pode desativar isso na página de configurações, na seção Privacidade. Mas observe que desativar esta configuração significa que você não poderá ver onde usou cada máscara e seus nomes de conta não serão mais sincronizados entre dispositivos. Você pode saber mais sobre os dados que o { -brand-name-firefox-relay } coleta em nosso <a href="{ $url }" { $attrs }>Aviso de privacidade</a>.
 faq-question-email-storage-question = O { -brand-name-relay } armazena meus emails?
 faq-question-email-storage-answer = Nas raras circunstâncias em que o serviço não esteja ativado, podemos armazenar temporariamente seus emails até que possamos enviar, mas nunca armazenaremos seus emails por mais de três dias.
@@ -73,7 +67,9 @@ faq-question-acceptable-use-question = Quais são os usos aceitáveis do { -bran
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = O { -brand-name-firefox-relay } tem as mesmas <a href="{ $url }" { $attrs }>condições de uso de todos os produtos { -brand-name-mozilla }</a>. Temos uma política de tolerância zero quando se trata de usar o { -brand-name-relay } para fins maliciosos, como spam, resultando no encerramento da conta de um usuário. Tomamos medidas para evitar que os usuários violem nossas condições:
+# Deprecated
 faq-question-acceptable-use-answer-measure-account = Precisa ter uma { -brand-name-firefox-account(capitalization: "uppercase") } com um endereço de email validado
+faq-question-acceptable-use-answer-measure-account-v2 = É necessário uma conta com um endereço de email validado
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Precisa pagar para um usuário criar mais de cinco máscaras
 faq-question-acceptable-use-answer-measure-rate-limit-2 = É limitado o número de máscaras que podem ser geradas a cada dia
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -92,4 +88,3 @@ faq-question-trackerremoval-breakage-answer-2 = Às vezes, a remoção de rastre
 faq-question-define-tracker-question = O que são rastreadores de email?
 faq-question-define-tracker-answer-partone = Rastreamento de email é uma ferramenta comum de vigilância e publicidade que tomou posse de muitas caixas de entrada. Esses rastreadores podem ser usados para entender mais sobre seu comportamento online, seus interesses e sua atividade de email.
 faq-question-define-tracker-answer-parttwo = Uma empresa ou organização embute rastreadores em emails enviados a você, geralmente escondidos em imagens ou links. Quando o email é aberto, o código do rastreador envia dados de volta para a empresa.
-
