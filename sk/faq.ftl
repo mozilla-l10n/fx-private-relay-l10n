@@ -23,7 +23,6 @@ faq-question-missing-emails-answer-reason-turned-off-2 = Maska môže mať vypnu
 faq-question-missing-emails-answer-reason-delay = Službe { -brand-name-relay } môže preposielanie vašich správ trvať dlhšie ako zvyčajne
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = Ak ste používateľom služby { -brand-name-relay-premium }, ktorý zápasí s niektorým z týchto problémov, <a href="{ $url }" { $attrs }>kontaktujte náš tím podpory</a>.
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = Ak ste narazili na ktorýkoľvek z týchto problémov, <a href="{ $url }" { $attrs }>navštívte našu stránku podpory</a>.
@@ -42,11 +41,7 @@ faq-question-1-answer-a-2 = Aj keď { -brand-name-relay } nefiltruje nevyžiadan
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = Ak vidíte širší problém s nevyžiadanou poštou zo všetkých vašich masiek, <a href="{ $url }" { $attrs }> nahláste nám to </a>, aby sme mohli zvážiť úpravu nastavení filtrov nevyžiadanej pošty SES pre túto službu. Ak totiž tieto správy nahlásite ako nevyžiadanú poštu priamo vášmu poskytovateľovi e-mailovej schránky, tento uvidí ako zdroj spamu službu { -brand-name-relay }, nie pôvodného odosielateľa.
 faq-question-availability-question = Kde je služba { -brand-name-relay } k dispozícii?
-faq-question-availability-answer = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
-faq-question-availability-answer-v2 = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Platená služba { -brand-name-relay-premium } je k dispozícii v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Fínsku, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švédsku, Švajčiarsku, Holandsku, Írsku a na Novom Zélande.
-faq-question-availability-answer-v3 = Bezplatná verzia { -brand-name-relay } je dostupná vo väčšine krajín. { -brand-name-relay-premium } je k dispozícii v Rakúsku, Belgicku, Kanade, na Cypre, Estónsku, Fínsku, Francúzsku, Nemecku, Grécku, Írsku, Taliansku, Lotyšsku, Litve, Luxembursku, Malajzii, Malte, Holandsku, Novom Zélande, Portugalsku, Singapure, Slovensku, Slovinsku, Španielsku, Švédsku, Švajčiarsku, Veľkej Británii a USA.
 faq-question-availability-answer-v4 = Bezplatná verzia { -brand-name-relay } je dostupná vo väčšine krajín. { -brand-name-relay-premium } je k dispozícii v týchto krajinách: Belgicko, Bulharsko, Chorvátsko, Cyprus, Česká republika, Dánsko, Estónsko, Fínsko, Francúzsko, Grécko, Holandsko, Írsko, Kanada, Maďarsko, Litva, Lotyšsko, Luxembursko, Malajzia, Malta, Nemecko, Nový Zéland, Poľsko, Portugalsko, Rakúsko, Rumunsko, Singapur, Slovensko, Slovinsko, Španielsko, Švajčiarsko, Švédsko, Taliansko, Veľká Británia a USA.
-faq-question-landing-page-availability = Bezplatná služba { -brand-name-relay } je dostupná vo väčšine krajín. Maskovanie e-mailov službou { -brand-name-relay-premium } je dostupné v USA, Nemecku, Veľkej Británii, Kanade, Singapure, Malajzii, Novom Zélande, Francúzsku, Belgicku, Rakúsku, Španielsku, Taliansku, Švajčiarsku, Holandsku a Írsku. Naskovanie telefónu službou { -brand-name-relay-premium } je dostupné iba v USA a Kanade.
 faq-question-4-question-2 = Môžem odpovedať na správy pomocou svojej e-mailovej masky { -brand-name-relay }?
 faq-question-4-answer-v4 = Používatelia služby { -brand-name-relay-premium } môžu odpovedať na preposlaný e-mail do 3 mesiacov od prijatia e-mailu. Ak pri odpovedi na e-mail pridáte adresátov do polí Kópia alebo Skrytá kópia, vaša pôvodná e-mailová adresa sa zobrazí všetkým príjemcom. Ak nechcete, aby bola vaša pôvodná e-mailová adresa zverejnená, pri odpovedaní nepridávajte nikoho do polí Kópia ani Skrytá kópia.
 faq-question-subdomain-characters-question = Aké znaky môžem použiť na vytvorenie subdomény?
@@ -65,7 +60,6 @@ faq-question-8-question = Aké údaje služba { -brand-name-firefox-relay } zhro
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-2-html = Ak sa chcete dozvedieť viac o údajoch, ktoré služba { -brand-name-firefox-relay } zhromažďuje, pozrite sa na naše <a href="{ $url }" { $attrs }>Vyhlásenie o ochrane osobných údajov</a>. Tiež môžete voliteľne zdieľať údaje o štítkoch a stránkach, na ktorých používate pre svoje e-mailové masky, aby sme vám mohli poskytovať túto službu a ďalej ju vylepšovať.
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } zhromažďuje webové stránky, na ktorých ste použili svoje e-mailové masky, a označí vaše masky týmito webovými stránkami, aby ste ich mohli ľahko identifikovať. Túto možnosť môžete zrušiť na stránke Nastavenia v časti Ochrana súkromia. Upozorňujeme však, že vypnutie tohto nastavenia znamená, že nebudete môcť vidieť, kde ste jednotlivé masky použili, a názvy vašich účtov sa už nebudú synchronizovať medzi zariadeniami. Viac informácií o údajoch, ktoré { -brand-name-firefox-relay } zhromažďuje, nájdete v našom <a href="{ $url }" { $attrs }>Vyhlásení o ochrane osobných údajov</a>.
 faq-question-email-storage-question = Ukladá { -brand-name-relay } moje e-maily?
 faq-question-email-storage-answer = Vo výnimočných prípadoch, keď je služba mimo prevádzky, môžeme dočasne uchovávať vaše e-maily, kým ich nebudeme môcť odoslať. Vaše e-maily nikdy nebudeme uchovávať dlhšie ako tri dni.
@@ -73,7 +67,9 @@ faq-question-acceptable-use-question = Aké sú prijateľné použitia služby {
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } má rovnaké <a href="{ $url }" { $attrs }>podmienky používania ako všetky produkty { -brand-name-mozilla(case: "gen") }</a>. Máme zásadu nulovej tolerancie, pokiaľ ide o používanie služby { -brand-name-relay } na škodlivé účely, ako je spam, čo vedie k zrušeniu účtu používateľa. Prijímame opatrenia, aby sme zabránili používateľom porušovať naše podmienky tým, že:
+# Deprecated
 faq-question-acceptable-use-answer-measure-account = Vyžaduje sa { -brand-name-firefox-account(capitalization: "lowercase") } s overenou e-mailovou adresou
+faq-question-acceptable-use-answer-measure-account-v2 = Vyžaduje sa účet s overenou e‑mailovou adresou
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Vyžaduje platbu od používateľa za vytvorenie viac ako piatich masiek
 faq-question-acceptable-use-answer-measure-rate-limit-2 = Obmedzuje sa počet masiek, ktoré je možné vygenerovať za jeden deň
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -92,4 +88,3 @@ faq-question-trackerremoval-breakage-answer-2 = Odstránenie sledovacích prvkov
 faq-question-define-tracker-question = Čo sú sledovacie prvky v e-mailoch?
 faq-question-define-tracker-answer-partone = Sledovanie e-mailov je bežný sledovací a reklamný nástroj, ktorý zabral mnoho schránok. Tieto sledovacie prvky možno použiť na pochopenie vášho online správania, vašich záujmov a vašej e-mailovej aktivity.
 faq-question-define-tracker-answer-parttwo = Spoločnosť alebo organizácia vkladajú sledovacie prvky do e-mailov, ktoré vám posielajú, zvyčajne skrytý v obrázku alebo odkaze. Po otvorení e-mailu kód sledovacieho prvku odošle údaje späť danej spoločnosti.
-
