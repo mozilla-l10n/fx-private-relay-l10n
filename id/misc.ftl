@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Subdomain Anda @{ $subdomain } telah dibuat
 success-settings-update = Setelan Anda telah diperbarui.
 success-signed-out-message = Anda telah keluar.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Sukses masuk sebagai { $username }.
 error-premium-cannot-change-subdomain = Anda tidak dapat mengubah subdomain Anda
 error-premium-set-subdomain = Anda harus menjadi pelanggan premium untuk mengatur subdomain
 error-premium-check-subdomain = Anda harus menjadi pelanggan premium untuk memeriksa subdomain
-error-subdomain-not-created = Subdomain tidak dapat dibuat, coba yang lain
-error-subdomain-email-not-created = Alamat surel dengan subdomain tidak dapat dibuat, coba yang lain
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Subdomain @{ $unavailable_subdomain } tidak tersedia. Silakan coba dengan subdomain yang berbeda.
@@ -43,8 +38,6 @@ tips-header-title = Kiat & Bantuan
 tips-header-button-close-label = Tutup
 tips-footer-link-faq-label = Tanya Jawab
 tips-footer-link-faq-tooltip = Pertanyaan umum
-tips-footer-link-feedback-label = Masukan
-tips-footer-link-feedback-tooltip = Kirim masukan
 tips-footer-link-support-label = Dukungan
 tips-footer-link-support-tooltip = Kontak dukungan
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Kontak dukungan
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Kiat { $nr }
 tips-toast-button-expand-label = Pelajari lebih lanjut
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokir surel promosi
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktifkan Pemblokiran Surel Promosi pada topeng untuk menghentikan surel pemasaran masuk ke dalam kotak masuk Anda.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Buat topeng dengan subdomain kustom Anda
 tips-custom-alias-content-2 = Yang perlu Anda lakukan hanyalah membuat dan membagikan topeng unik yang menggunakan subdomain kustom Anda — topeng akan dibuat secara otomatis. Misalnya, dengan menggunakan “shop@customdomain.mozmail.com” saat berbelanja secara daring.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Pemblokiran Surel Promosi
-tips-promo-email-blocking-content = Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi untuk mencapai kotak masuk saat masih memungkinkan Anda menerima surel seperti informasi kuitansi atau pengiriman.
 
 ## Report of trackers removed from an email
 
@@ -113,6 +104,7 @@ contains-tracker-warning-title = Apakah Anda masih ingin membuka tautannya?
 contains-tracker-warning-description = Peringatan: Mengklik tautan ini akan mengirim informasi tentang Anda ke pengirim
 contains-tracker-warning-view-link-cta = Ya, buka tautan
 contains-tracker-faq-section-title = Pertanyaan yang sering diajukan tentang pelacak surel
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -154,18 +146,6 @@ offer-countdown-timer-seconds = Dtk.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Dalam skala 1-10, seberapa besar kemungkinan Anda merekomendasikan { -brand-name-relay } kepada teman atau kolega?
-survey-question-2 = Apakah { -brand-name-relay } mudah untuk digunakan?
-survey-question-3 = Apakah { -brand-name-relay } dapat dipercaya?
-survey-question-4 = Apakah { -brand-name-relay } memiliki tampilan yang bersih dan sederhana?
-survey-question-5 = Apa tanggapan Anda jika Anda tidak dapat lagi menggunakan { -brand-name-relay }?
-survey-option-strongly-disagree = Sangat tidak setuju
-survey-option-disagree = Tidak setuju
-survey-option-unsure = Tidak yakin
-survey-option-agree = Setuju
-survey-option-strongly-agree = Sangat setuju
-survey-option-i-wouldnt-care = Saya tidak peduli
-survey-option-somewhat-disappointed = Agak kecewa
-survey-option-very-disappointed = Sangat mengecewakan
 survey-option-very-likely = Sangat mungkin
 survey-option-not-likely = Kemungkinan tidak
 survey-option-dismiss = Tutup
@@ -184,32 +164,6 @@ survey-csat-followup = Terima kasih atas tanggapan Anda. Kami ingin mempelajari 
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Pesan ini diteruskan dari { $display_email } oleh { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } menghapus CC dan BCC dari balasan Anda. Jika Anda menambahkannya kembali, surel asli Anda akan diketahui.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Tingkatkan ke { $premium_link } untuk mendapatkan topeng surel tanpa batas, subdomain khusus, dan kemampuan untuk membalas surel.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Penawaran harga bulanan intro kami akan berakhir. Tingkatkan versi ke { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } mendukung penerusan surel (termasuk lampiran) dari surel hingga ukuran { email-size-limit }. Untuk lebih lanjut, kunjungi { $faq_link } kami.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } pelacak surel dihapus
-forwarded-email-trackers-blocked-report = Pelajari lebih lanjut
-# This entire text is a link
-forwarded-email-footer-2 = Hentikan penerusan surel dan kelola setelan untuk semua topeng di sini.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Beralih ke { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Tingkatkan ke { $premium_link } sebelum harga perkenalan kami berakhir.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -280,6 +234,7 @@ what-can-you-do-with-relay-point-three = Blokir spam agar tidak masuk ke kotak m
 what-can-you-do-with-relay-point-three-subpoint = Di dasbor { -brand-name-relay }, Anda dapat membuat topeng, memberi label untuk mencatat di mana Anda menggunakannya, mengaktifkan pemblokiran spam, dan menghapus yang tidak Anda inginkan lagi.
 forwarded-email-hero-header = Anda mendapatkan surel pertama yang diteruskan!
 forwarded-email-hero-desc = Lihat tajuk itu? Ini akan muncul di semua surel yang diteruskan oleh topeng { -brand-name-relay }.
+
 first-time-user-email-how-title = Cara kerja { -brand-name-relay }
 first-time-user-email-how-item-1-header = Gunakan topeng { -brand-name-relay } alih-alih surel asli Anda, di mana saja
 # Variables
@@ -295,11 +250,11 @@ first-time-user-email-how-item-3-header = Kelola topeng Anda dari dasbor { -bran
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Masuk</a> untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
 first-time-user-email-how-item-3-subhead-text = Masuk untuk membuat topeng baru, memberi label topeng Anda, dan menghapus topeng yang mendapatkan spam.
-first-time-user-email-extra-protection-inbox-title = Perlindungan ekstra untuk kotak masuk Anda
+
 first-time-user-email-extra-protection-inbox-phone-title = Perlindungan ekstra untuk kotak masuk dan ponsel Anda
-first-time-user-email-extra-protection-inbox-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas, domain { -brand-name-relay } khusus, dan kontrol kotak masuk khusus.
 first-time-user-email-extra-protection-inbox-phone-subhead = Tingkatkan ke { -brand-name-relay-premium } untuk mendapatkan topeng surel tanpa batas — ditambah topeng telepon untuk melindungi nomor asli Anda.
 first-time-user-email-extra-protection-cta = Dapatkan { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Punya pertanyaan tentang { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -321,8 +276,10 @@ first-time-user-email-footer-text-privacy = Ketentuan dan Privasi
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Anda telah menggunakan jatah semua topeng surel { $free_tier_limit } yang disertakan dengan akun gratis Anda. Anda dapat menggunakan kembali topeng yang ada, tetapi menggunakan topeng unik untuk setiap akun adalah opsi yang paling aman.
 api-error-free-tier-no-subdomain-masks = Akun gratis Anda tidak menyertakan subdomain khusus untuk topeng. Untuk membuat topeng khusus , tingkatkan ke { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” tidak dapat dibuat. Silakan coba lagi dengan nama topeng yang berbeda.
 api-error-need-subdomain = Pilih subdomain sebelum membuat alamat surel khusus.
 api-error-account-is-paused = Akun Anda sedang dijeda.
+

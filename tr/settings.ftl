@@ -7,21 +7,15 @@
 
 settings-headline = { -brand-name-relay } Ayarları
 settings-meta-contact-label = Bize ulaşın
-settings-meta-contact-tooltip = { -brand-name-relay } ile ilgili bize ulaşın
 settings-meta-help-label = Yardım ve destek
 settings-meta-help-tooltip = { -brand-name-relay }’i kullanmayla ilgili yardım alın
 settings-meta-status-label = Hizmet durumu
 settings-meta-status-tooltip = Tüm { -brand-name-relay } sistemlerinin şu anda çalışır durumda olup olmadığını kontrol edin.
-settings-error-save-heading = Ayar değişikliği başarısız oldu
-settings-error-save-description = Ayarlarda yaptığınız değişiklikler bir bağlantı sorunu nedeniyle kaydedilmedi. Lütfen yeniden deneyin.
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = E-posta maskesi etiket özelliği devre dışı
 settings-warning-collection-off-heading-3 = E-posta maskesi hesap adlarınız kapatıldı
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Gizlilik
 setting-label-collection-description-3 = E-posta maskeleri için hesap adlarını etkinleştir
 settings-button-save-label = Kaydet
-settings-button-save-tooltip = İstediğiniz ayarları uygulayın.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API anahtarı
 settings-api-key-description = Bu sizin { -brand-name-relay } API anahtarınız. Bu anahtar, diğer uygulamaların { -brand-name-relay } hesabınıza otomatik olarak erişebilmesini sağlar.

@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = 您的子域名 @{ $subdomain } 已创建
 success-settings-update = 您的设置已更新。
 success-signed-out-message = 您已退出登录。
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = 已成功以 { $username } 的身份登录。
 error-premium-cannot-change-subdomain = 无法更改您的子域名
 error-premium-set-subdomain = 您须成为 Premium 版订阅者，才能设置子域名
 error-premium-check-subdomain = 您须成为 Premium 版订阅者，才能确认子域名的可用性
-error-subdomain-not-created = 无法创建子域名，请尝试其他字符
-error-subdomain-email-not-created = 无法创建使用此子域名的邮箱，请尝试其他字符
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = 子域名 @{ $unavailable_subdomain } 不可用。请使用其他子域名重试。
@@ -43,8 +38,6 @@ tips-header-title = 帮助和提示
 tips-header-button-close-label = 知道了
 tips-footer-link-faq-label = 常见问题
 tips-footer-link-faq-tooltip = 常见问题
-tips-footer-link-feedback-label = 反馈
-tips-footer-link-feedback-tooltip = 提供反馈
 tips-footer-link-support-label = 用户支持
 tips-footer-link-support-tooltip = 联系用户支持
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = 联系用户支持
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 提示 { $nr }
 tips-toast-button-expand-label = 详细了解
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 屏蔽营销邮件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 启用马甲邮箱的“屏蔽营销邮件”功能，即会停止转发营销邮件至收件箱。
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = 使用自定义子域名创建马甲
 tips-custom-alias-content-2 = 您需要做的就是用自定义子域名构造一个不重复的马甲邮箱。例如，下次网购时可以直接使用 “shop@customdomain.mozmail.com”，这个马甲即会自动生成。
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = 屏蔽营销邮件
-tips-promo-email-blocking-content = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
 
 ## Report of trackers removed from an email
 
@@ -113,6 +104,7 @@ contains-tracker-warning-title = 仍要打开此链接吗？
 contains-tracker-warning-description = 警告：打开此链接后，与您关联的信息将被回传给发件人
 contains-tracker-warning-view-link-cta = 仍要打开
 contains-tracker-faq-section-title = 有关电子邮件跟踪器的常见问题
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -155,18 +147,6 @@ offer-countdown-timer-seconds = 秒
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = 以 1 - 10 分计，您向朋友或同事推荐 { -brand-name-relay } 的可能性有多大？
-survey-question-2 = { -brand-name-relay } 易于使用吗？
-survey-question-3 = 您认为 { -brand-name-relay } 值得信赖吗？
-survey-question-4 = { -brand-name-relay } 的界面简洁好用吗？
-survey-question-5 = 若不能再使用 { -brand-name-relay }，您会觉得？
-survey-option-strongly-disagree = 强烈反对
-survey-option-disagree = 不同意
-survey-option-unsure = 不确定
-survey-option-agree = 同意
-survey-option-strongly-agree = 非常同意
-survey-option-i-wouldnt-care = 没有感觉
-survey-option-somewhat-disappointed = 有点失望
-survey-option-very-disappointed = 非常失望
 survey-option-very-likely = 极有可能
 survey-option-not-likely = 不太可能
 survey-option-dismiss = 隐藏
@@ -185,32 +165,6 @@ survey-csat-followup = 感谢您的反馈。我们想要了解如何为您改进
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = 此消息转发自 { $linked_origin } — { $display_email } 。
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 将删除您回复中的抄送和密送。若您重新添加，则会暴露真实邮箱地址。
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = 升级为 { $premium_link }，即享无限数量马甲、自定义子域名，还能回复邮件。
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = 上市优惠促销即将结束。立即升级到 { $premium_link }。
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）。欲详细了解，请参阅我们的 { $faq_link }。
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } 个电子邮件跟踪器已移除
-forwarded-email-trackers-blocked-report = 详细了解
-# This entire text is a link
-forwarded-email-footer-2 = 点此停止转发邮件或管理马甲设置。
-# This entire text is a link
-forwarded-email-footer-premium-banner = 升级为 { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = 在优惠价结束前升级为 { $premium_link }。
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -278,6 +232,7 @@ what-can-you-do-with-relay-point-three = 把垃圾邮件挡在收件箱外。如
 what-can-you-do-with-relay-point-three-subpoint = 在 { -brand-name-relay } 面板上您可以创建马甲、为它们添加标签以注明将其用于何处、开启垃圾邮件拦截以及删除不再需要的马甲。
 forwarded-email-hero-header = 您收到了第一封转发给您的邮件！
 forwarded-email-hero-desc = 看到开头那个标签了吗？所有由 { -brand-name-relay } 马甲邮箱转发的邮件上都会出现此标签。
+
 first-time-user-email-how-title = { -brand-name-relay } 如何工作
 first-time-user-email-how-item-1-header = 随时随地使用 { -brand-name-relay } 马甲邮箱，不必交出真实邮箱地址
 # Variables
@@ -293,11 +248,11 @@ first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 面板管理
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登录</a>以创建新马甲、标记马甲以及删除收到垃圾邮件的马甲。
 first-time-user-email-how-item-3-subhead-text = 登录以创建新马甲、为马甲添加标签，以及删除收到垃圾邮件的马甲。
-first-time-user-email-extra-protection-inbox-title = 为您的收件箱提供额外保护
+
 first-time-user-email-extra-protection-inbox-phone-title = 为您的收件箱和手机提供额外保护
-first-time-user-email-extra-protection-inbox-subhead = 升级到 { -brand-name-relay-premium } 以获得无限的邮箱马甲、自定义 { -brand-name-relay } 域名和自定义收件箱控件。
 first-time-user-email-extra-protection-inbox-phone-subhead = 升级到 { -brand-name-relay-premium } 即可获得无限量马甲邮箱，还能使用虚拟手机号来保护您的真实手机号。
 first-time-user-email-extra-protection-cta = 获取 { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = 有关于 { -brand-name-firefox-relay } 的问题？
 # Variables
 #   $url (string) - URL of the support team website
@@ -319,11 +274,13 @@ first-time-user-email-footer-text-privacy = 条款和隐私
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已用尽免费账户所能创建的 { $free_tier_limit } 个马甲邮箱。您可以重复使用现有马甲，但为不同账户使用不同马甲最为安全。
 api-error-free-tier-no-subdomain-masks = 您的免费账户无法设置马甲的自定义子域名。如需创建自定义马甲，请升级到 { -brand-name-relay-premium }。
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 无法创建“{ $unavailable_address }”。请尝试其他马甲名称。
 api-error-need-subdomain = 请在创建自定义电子邮件地址前先选择一个子域名。
 api-error-account-is-paused = 您的账户已暂停。
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }”已存在。请尝试其他马甲名称。

@@ -25,10 +25,6 @@ bundle-banner-plan-modules-email-masking = 马甲邮箱
 bundle-banner-plan-modules-phone-masking = 虚拟手机号
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = 获取 { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } 和 { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = 新订阅者可享 { $days_guarantee } 天退款保证
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = { $num_vpn_servers } 余台服务器
@@ -72,30 +68,14 @@ plan-matrix-heading-plan-free = 有限的电子邮件保护
 plan-matrix-heading-plan-premium = 电子邮件保护
 plan-matrix-heading-plan-phones = 电子邮件和电话保护
 plan-matrix-heading-plan-bundle-2 = 添加 { -brand-name-vpn } 保护
-plan-matrix-heading-plan-bundle-alt = 获取{ -brand-name-relay-premium } 和 { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = 可保护您的真实邮箱的马甲邮箱
-plan-matrix-feature-browser-extension = 可在所有网站上使用 { -brand-name-relay } 的扩展
-plan-matrix-feature-email-tracker-removal = 移除邮件跟踪器
-plan-matrix-feature-promo-email-blocking = 屏蔽营销邮件
-plan-matrix-feature-email-subdomain = 使用 { -brand-name-relay } 邮箱域名随时创建马甲
-plan-matrix-feature-email-reply = 匿名回复邮件
 plan-matrix-feature-phone-mask = 可保护您的真实号码的虚拟手机号
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保护
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = 马甲邮箱
-plan-matrix-feature-mobile-browser-extension = 浏览器扩展
-plan-matrix-feature-mobile-email-tracker-removal = 移除邮件跟踪器
-plan-matrix-feature-mobile-promo-email-blocking = 屏蔽营销邮件
-plan-matrix-feature-mobile-email-subdomain = 专属的 { -brand-name-relay } 邮箱域名
-plan-matrix-feature-mobile-email-reply = 匿名回复邮件
-plan-matrix-feature-mobile-phone-mask = 保护您的真实电话号码
-plan-matrix-feature-mobile-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -118,7 +98,6 @@ plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <s
 
 # Plan CTAs
 
-plan-matrix-upgrade = 升级
 plan-matrix-sign-up = 注册
 plan-matrix-get-relay-cta = 获取 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入预约名单
@@ -152,42 +131,13 @@ highlighted-features-section-new-item = 新功能！
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    所有人都可免费获得 { $mask_limit } 个马甲邮箱。
-    不过订阅 { -brand-name-relay-premium } 后，就可以根据需要生成无限量的马甲来保护您的收件箱
-    免受垃圾邮件、不法分子和网络跟踪器的侵扰。
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 
-highlighted-features-section-replying-headline = 匿名回复邮件和短信
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } 可让您使用马甲邮箱帐号来回复邮件，
-    这样邮件的发送者就无法得知您的真实邮件地址。
-    配合虚拟手机号，您还可以回复短信而不泄露真实电话号码。
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = 屏蔽营销邮件
-highlighted-features-section-block-promotions-body =
-    使用 { -brand-name-relay-premium } 可屏蔽营销邮件，
-    您仍能收到收据和物流信息等电子邮件。
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = 移除邮件跟踪器
-highlighted-features-section-remove-trackers-body =
-    现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，
-    帮助您免受跟踪器和广告商窥视。
 
 ## FAQ SECTION
 
@@ -199,53 +149,9 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = 订阅 { -brand-name-firefox-relay-premium }，即享无限量的自定义马甲，只转发想要收取的邮件到您的真实邮箱地址。 <b>限时价格：每月只需 { $monthly_price }，即可升级为 { -brand-name-relay-premium }。</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
 premium-promo-hero-cta = 立即升级
-premium-promo-offer-end-hero-heading = 优惠价即将结束！
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市特惠价享受高级电子邮件保护。
-premium-promo-offer-end-hero-cta = 立即升级
-premium-promo-availability-warning = 当前已在奥地利、比利时、加拿大、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞士、英国和美国推出 { -brand-name-relay-premium }。
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } 当前已在奥地利、比利时、加拿大、芬兰、法国、德国、爱尔兰、意大利、马来西亚、荷兰、新西兰、新加坡、西班牙、瑞典、瑞士、英国和美国推出。
-premium-promo-availability-warning-3 = { -brand-name-relay-premium } 可用于奥地利、比利时、加拿大、塞浦路斯、爱沙尼亚、芬兰、法国、德国、希腊、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、葡萄牙、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } 可用于奥地利、保加利亚、比利时、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
-premium-promo-perks-headline = 为什么要升级为 { -brand-name-firefox-relay-premium }？
-premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } 可享不限数量马甲和自定义子域名两大功能，让 { -brand-name-relay } 助您更轻松高效地保护和管理收件箱。
-premium-promo-perks-cta-label = 立即升级
-premium-promo-perks-cta-tooltip = 升级为 { -brand-name-firefox-relay-premium }
-premium-promo-perks-pill-new = 新功能！
-premium-promo-perks-perk-unlimited-headline-2 = 创建无限数量马甲
-premium-promo-perks-perk-unlimited-body-2 = 突破 5 个马甲的数量限制：{ -brand-name-relay-premium } 允许您生成任意数量的马甲，帮助保护您的收件箱不受垃圾邮件和跟踪器的侵扰。您可以安心回复邮件，不必担心暴露真实邮箱地址。
-premium-promo-perks-perk-custom-domain-headline-2 = 选择您的自定义子域名
-premium-promo-perks-perk-custom-domain-body-2 =
-    借助自定义子域名功能，可创建比以往更好记和分享的马甲。
-    想在预订餐厅时用马甲邮箱？“food@mydomain.mozmail.com”就 Okay，无需事先创建。
-premium-promo-perks-perk-dashboard-headline-2 = 轻松管理所有马甲
-premium-promo-perks-perk-dashboard-body-2 = 轻松管理所有马甲：若发现收到不需要的邮件，您可操作阻止这些邮件进入收件箱。
-premium-promo-perks-perk-block-promotionals-headline = 屏蔽营销邮件
-premium-promo-perks-perk-block-promotionals-body = 使用 { -brand-name-relay-premium } 可屏蔽营销邮件，您仍能收到收据和物流信息等电子邮件。
-premium-promo-perks-perk-tracker-blocking-headline = 移除邮件跟踪器
-premium-promo-perks-perk-tracker-blocking-body = 现在 { -brand-name-relay } 可以帮助您阻挡电子邮件跟踪——您的马甲邮箱将从转发给您的所有电子邮件中移除常见的跟踪器，帮助您对跟踪器和广告商保持隐形。
-premium-promo-use-cases-headline-2 = 任何地方皆可使用 { -brand-name-relay } 马甲邮箱
-premium-promo-use-cases-shopping-heading = 网购
-premium-promo-use-cases-shopping-body-2 = 想要收到优惠信息，但不想收到垃圾邮件？可以为各个购物网站绑定不同的自定义马甲，例如“mydeals@mydomain.mozmail.com”。
-premium-promo-use-cases-social-networks-heading = 社交网络
-premium-promo-use-cases-social-networks-body-2 = 想在社交网络上更好地保护个人信息？在每个社交平台使用不同的马甲邮箱，可帮助保护您的真实邮箱地址免遭泄露。
-premium-promo-use-cases-gaming-heading = 游戏
-premium-promo-use-cases-gaming-body-2 = 担心其他玩家或憨批通过玩家代号或邮箱地址人肉您？打游戏时使用像 “onlinegame@mydomain.mozmail.com”这样的马甲邮箱，多一层身份伪装，多一份安全。
-premium-promo-pricing-free-price = 您当前的免费方案
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = 上市优惠：每月 { $monthly_price } 即享无限马甲
-premium-promo-pricing-offer-end-warning = 本促销活动即将结束
-premium-promo-pricing-offer-end-cta = 立即升级
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = 在 { $end_date } 之前获取 { -brand-name-relay-premium } ，以我们的上市优惠价享受高级电子邮件保护。
 
 ## The Premium waitlist page
 

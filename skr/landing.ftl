@@ -21,10 +21,6 @@ bundle-banner-plan-modules-email-masking = ای میل ماسکنگ
 bundle-banner-plan-modules-phone-masking = فون ماسکنگ
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } گھنو
-bundle-banner-alt = { -brand-name-mozilla-vpn } تے { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = پہلی واری سبسکرائبراں کیتے { $days_guarantee } ݙین٘ہ رقم واپسی ضمانت
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = { $num_vpn_servers } کنوں ودھ سرور
@@ -65,30 +61,14 @@ plan-matrix-heading-plan-free = محدود ای میل حفاظت
 plan-matrix-heading-plan-premium = ای میل حفاظت
 plan-matrix-heading-plan-phones = ای میل تے فون حفاظت
 plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } حفاظت شامل کرو
-plan-matrix-heading-plan-bundle-alt = { -brand-name-relay-premium } تے{ -brand-name-mozilla-vpn } گھنو
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
-plan-matrix-feature-browser-extension = کہیں وی سائٹ تے { -brand-name-relay } ورتݨ کیتے ایکسٹنشن براؤز کرو
-plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
-plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
-plan-matrix-feature-email-subdomain = آن دی گو تے ماسک تخلیق کرݨ کیتے { -brand-name-relay } ای میل ڈومین
-plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
 plan-matrix-feature-phone-mask = تہاݙے اصلی فون نمبر دی حفاظت کیتے فون ماسک
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> کنوں { -brand-name-vpn } حفاظت
 plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = ای میل ماسکس
-plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
-plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
-plan-matrix-feature-mobile-promo-email-blocking = مشہوری ای میلاں بلاک کرو
-plan-matrix-feature-mobile-email-subdomain = نویکلی { -brand-name-relay } ای میل ڈومین
-plan-matrix-feature-mobile-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
-plan-matrix-feature-mobile-phone-mask = آپݨے اصلی فون نمبر دی حفاظت کرو
-plan-matrix-feature-mobile-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
 
 # Plan Details
 
@@ -111,7 +91,6 @@ plan-matrix-price-vpn-discount-promo = ریگولر { -brand-name-vpn } قیمت
 
 # Plan CTAs
 
-plan-matrix-upgrade = اپ گریڈ
 plan-matrix-sign-up = سائن اپ
 plan-matrix-get-relay-cta = { -brand-name-relay } گھنو
 plan-matrix-join-waitlist = تانگھ تندیر نال رلت کرو
@@ -145,29 +124,13 @@ highlighted-features-section-new-item = نواں!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = بے انت ای میل ماسک تخلیق کرو
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = گو تے ٹھک پک ماسک تخلیق کرو
 
 # Item 3
 
-highlighted-features-section-replying-headline = گمنام دے طور تے ای میلاں تے عبارتاں دا جواب ݙیوو
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
-highlighted-features-section-block-promotions-body =
-    { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو 
-    جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ساریاں ای میلاں وچوں مٹا سڳدا ہے، 
-    تہاکوں مشہوری کرݨ آلے لوکاں تے ٹریکراں کنوں لکاوݨ سانگے۔
 
 ## FAQ SECTION
 
@@ -179,56 +142,8 @@ landing-faq-cta = { -brand-name-firefox-relay } بارے ٻئے FAQs ݙیکھو
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } نال آپݨے انباکس دی حفاظت سوکھی بݨاؤ
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔ <b> محدود وقت کیتے، اساں ماہانہ صرف { $monthly_price } وِچ { -brand-name-relay-premium } وِچ اپ گریڈ کر سڳدے ہیں۔ </b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں لامحدود حسب ضرورت ای میل ماسک ملدے ہن جیڑھے صرف انہاں ای میلز کوں فارورڈ کریندے ہن جیڑھیاں تساں اپݨے حقیقی ای میل ایڈریس تے چاہندے او۔
 premium-promo-hero-cta = ہݨ اپ گریڈ کرو
-
-premium-promo-offer-end-hero-heading = ساݙی تعارفی قیمتاں دی پیش کش ٻہوں جلدی مُکدی پئی ہے!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
-premium-promo-offer-end-hero-cta = ہݨ اپ گریڈ کرو
-
-premium-promo-availability-warning = { -brand-name-relay-premium } فی الحال آسٹریا، بیلجیم، کینیڈا، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، نیدرلینڈز، نیوزی لینڈ، سنگاپور، اسپین، سوئٹزرلینڈ، برطانیہ تے امریکہ وِچ دستیاب ہے۔
-premium-promo-availability-warning-2 = { -brand-name-relay-premium }  فی الحال آسٹریا، بیلجیم، کینیڈا، فن لینڈ، فرانس، جرمنی، آئرلینڈ، اٹلی، ملائیشیا، ہالینڈ، نیوزی لینڈ، سنگاپور، اسپین، سویڈن، سوئٹزرلینڈ، برطانیہ، تے امریکہ وِچ دستیاب ہے۔
-premium-promo-availability-warning-3 = { -brand-name-relay-premium } آسٹریا، بیلجیم، کنیڈا، قبرص، اسٹونیا، فن لینڈ، فرانس، جرمنی، یونان، آئرلینڈ، اٹلے، لیٹیویا، لیتھونیا، لیکسم برگ، ملائشیاء، مالٹا، نیدرلینڈ، نیوزی لینڈ، پتگال، سنگاپور، سلاویکیا، سلاونیا، سپین، سویڈن، برطانیہ تے امریکہ وچ دستیاب ہے۔
-
-premium-promo-perks-headline = { -brand-name-firefox-relay-premium } تے اپ گریڈ کیوں کروں؟
-premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium } دے نال، تہاکوں { -brand-name-relay } دا تمام ان باکس تحفظ تے انتظام ملدا ہے، لیکن لامحدود ای میل ماسک تے تہاݙے اپݨے حسب ضرورت ذیلی ڈومین دے نال تہاݙے ان باکس دا نظم و نسق ٻیا وی آسان تھی ویندا ہے۔
-premium-promo-perks-cta-label = ہݨ اپ گریڈ کرو
-premium-promo-perks-cta-tooltip = { -brand-name-firefox-relay-premium } تے اپ گریڈ کرو
-premium-promo-perks-pill-new = نواں!
-premium-promo-perks-perk-unlimited-headline-2 = بے انت ای میل ماسک تخلیق کرو
-premium-promo-perks-perk-unlimited-body-2 = ودھیک پنج ماسک دی حد کائنی: { -brand-name-relay-premium } دے نال، تساں اپݨے ای میل ان باکس کوں سپامرز تے آن لائن ٹریکرز کنوں بچاوݨ وِچ مدد کیتے جتنے ماسک تیار کر سڳدے او۔ اتنے تائیں جو تساں اپݨا اصلی پتہ ظاہر کیتے بغیر ای میلز دا جواب ݙے سڳدے او۔
-premium-promo-perks-perk-custom-domain-headline-2 = آپݨی کسٹم  نکی ڈومین چُݨو
-premium-promo-perks-perk-custom-domain-body-2 = حسب ضرورت ذیلی ڈومین دے نال، تساں اینجھے ماسک بݨا سڳدے او جیڑھے یاد رکھݨ تے شیئر کرݨ وِچ پہلے کنوں ٻہوں زیادہ آسان ہن۔ ریستوران دے تحفظات کیتے ہک دی ضرورت ہے؟ ہک دا استعمال کرو جیویں food@mydomain.mozmail.com — پہلے کنوں ماسک بݨاوݨ دی ضروری کائنی۔
-premium-promo-perks-perk-dashboard-headline-2 = ڈیشبورڈ کنوں آپݨے ماسک کنٹرول کرو
-premium-promo-perks-perk-dashboard-body-2 = استعمال وِچ آسان ڈیش بورڈ وِچ اپݨے تمام ای میل ماسک منظم کرو: جے تہاکوں معلوم تھیندا ہے جو کہیں کوں بے بھانوݨے سنیہے وصول تھیندے ہن، تاں تساں انہاں سنیہاں کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او۔
-premium-promo-perks-perk-block-promotionals-headline = مشہوری ای میلاں بلاک کرو
-premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے او جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
-premium-promo-perks-perk-tracker-blocking-headline = سارے ای میل ٹریکر ہٹاؤ
-premium-promo-perks-perk-tracker-blocking-body = ہݨ { -brand-name-relay } ای میل ٹریکنگ کوں روکݨ وِچ تہاݙی مدد کر سڳدا ہے — تہاݙے ای میل ماسک تہاکوں بھیڄے ڳئے کہیں وی ای میل کنوں عام ای میل ٹریکرز کوں ہٹا ݙیسن، جیندے نال تہاکوں ٹریکرز تے مشتہرین کیتے اوڈھر رہݨ وِچ مدد ملسے۔
-
-premium-promo-use-cases-headline-2 = کہیں وی جاء تے { -brand-name-relay } ای میل ماسک ورتو
-premium-promo-use-cases-shopping-heading = خریداری
-premium-promo-use-cases-shopping-body-2 = سبھے سپیم دے بغیر رعایت کیتے سائن اپ کرݨ دی کوشش کریندے پئے ہن؟ اپݨے تمام "شاپنگ" اکاؤنٹس کوں حسب ضرورت ای میل ماسک دے تحت بنڈل کرو، جیویں mydeals@mydomain.mozmail.com۔
-premium-promo-use-cases-social-networks-heading = سماجی نیٹ ورک
-premium-promo-use-cases-social-networks-body-2 = سوشل نیٹ ورک استعمال کریندے ویلھے اپݨی آن لائن سنڄاݨ دی بہتر حفاظت کرݨ چاہندے او؟ ہر سوشل نیٹ ورک وِچ لاگ ان کرݨ کیتے ہک مختلف ای میل ماسک دا استعمال کرو تے اپݨے حقیقی ای میل کوں انہاں سائٹاں دے سامݨے آوݨ کنوں بچاوݨ وِچ مدد کرو۔
-premium-promo-use-cases-gaming-heading = کھیݙݨ
-premium-promo-use-cases-gaming-body-2 = اپݨے گیمر ٹیگ تے ای میل ایڈریس دے ذریعے ٻئے گیمرز یا ٹرول سیکھݨ دے بارے وِچ فکر مند ہو جو تساں کون او؟ اپݨی سنجاݨ تے جیڑھیاں کھیݙاں تساں آن لائن کھیݙدے او انہاں دے درمیان تحفظ دی ہک ٻئی پرت لاوݨ کیتے onlinegame@mydomain.mozmail.com جیہاں ماسک استعمال کرو۔
-
-premium-promo-pricing-free-price = تہاݙا حالیہ مفت منصوبہ
-
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = تعارفی قیمت: { $monthly_price } فی مہینہ وچ بے انت ماسک
-premium-promo-pricing-offer-end-warning = ایں پرومو دی معیاد جلدی مُکدی پئی ہے
-premium-promo-pricing-offer-end-cta = ہݨ اپ گریڈ کرو
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = { $end_date } کنوں پہلے { -brand-name-relay-premium } حاصل کرو تے اساݙی تعاری ماہانہ قیمت تے پریمیئم ای میل تحفظ کنوں لطف اندوز تھیوو۔
 
 ## The Premium waitlist page
 

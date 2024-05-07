@@ -14,8 +14,9 @@ copy-mask = نىقابنى كۆچۈر
 error-state-valid-alt = ئىناۋەتلىك
 error-state-invalid-alt = ئىناۋەتسىز
 close-button-label-alt = تاقا
+
 modal-delete-confirmation-2 = شۇنداق، مەن بۇ نىقابنى ئۆچۈرمەكچى.
-modal-domain-register-good-news = خۇشخەۋەر!
+
 modal-domain-register-success-title = مۇۋەپپەقىيەتلىك!
 
 ## Updated mask deletion modal strings

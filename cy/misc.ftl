@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Mae eich is-barth @{ $subdomain } wedi'i greu
 success-settings-update = Mae eich gosodiadau wedi'u diweddaru
 success-signed-out-message = Rydych wedi allgofnodi.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Wedi mewngofnodi'n llwyddiannus fel { $username }.
 error-premium-cannot-change-subdomain = Nid oes modd i chi newid eich is-barth
 error-premium-set-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i osod is-barth
 error-premium-check-subdomain = Rhaid i chi fod yn danysgrifiwr premiwm i wirio is-barth
-error-subdomain-not-created = Nid oes modd  creu'r is-barth hwnnw, rhowch gynnig ar rywbeth arall
-error-subdomain-email-not-created = Nid oedd modd creu cyfeiriad e-bost gydag is-barth, rhowch gynnig ar rywbeth arall
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Nid yw'r parth @{ $unavailable_subdomain } ar gael. Rhowch gynnig arall arni gydag un arall.
@@ -43,8 +38,6 @@ tips-header-title = Cymorth a Chynghorion
 tips-header-button-close-label = Cau
 tips-footer-link-faq-label = Cwestiynau Cyffredin
 tips-footer-link-faq-tooltip = Cwestiynau cyffredin
-tips-footer-link-feedback-label = Adborth
-tips-footer-link-feedback-tooltip = Rhowch adborth
 tips-footer-link-support-label = Cefnogaeth
 tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Cysylltu â chefnogaeth
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Awgrym { $nr }
 tips-toast-button-expand-label = Dysgu rhagor
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Rhwystro e-byst hyrwyddo
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Galluogwch Rhwystro E-byst Hyrwyddo ar arallenw i rwystro e-byst marchnata rhag cyrraedd eich blwch derbyn.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Creu arallenwau gan ddefnyddio'ch parth personol
 tips-custom-alias-content-2 = Y cyfan sy'n rhaid i chi ei wneud yw creu a rhannu arallenw unigryw sy'n defnyddio'ch parth personol - bydd yr arallenw'n cael ei gynhyrchu'n awtomatig. Rhowch gynnig ar “shop@customdomain.mozmail.com” y tro nesaf y byddwch chi'n siopa ar-lein, er enghraifft.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Rhwystro E-byst Hyrwyddo
-tips-promo-email-blocking-content = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
 
 ## Report of trackers removed from an email
 
@@ -126,6 +117,7 @@ contains-tracker-warning-title = Hoffech chi dal i weld y ddolen?
 contains-tracker-warning-description = Rhybudd: Bydd clicio ar y ddolen hon yn anfon gwybodaeth amdanoch chi yn ôl at yr anfonwr
 contains-tracker-warning-view-link-cta = Ie, gweld y ddolen
 contains-tracker-faq-section-title = Cwestiynau cyffredin am dracwyr e-byst
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -148,18 +140,6 @@ offer-countdown-timer-seconds = Eil.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Ar raddfa o 1-10, pa mor debygol ydych chi i argymell { -brand-name-relay } i ffrind neu gydweithiwr?
-survey-question-2 = A yw { -brand-name-relay } yn hawdd ei ddefnyddio?
-survey-question-3 = Ydych chi'n teimlo bod { -brand-name-relay } yn ddibynadwy?
-survey-question-4 = A oes gan { -brand-name-relay } gyflwyniad glân a syml?
-survey-question-5 = Sut fyddech chi'n teimlo pe na fyddech chi'n gallu defnyddio { -brand-name-relay } mwyach?
-survey-option-strongly-disagree = Anghytuno'n gryf
-survey-option-disagree = Anghytuno
-survey-option-unsure = Ansicr
-survey-option-agree = Cytuno
-survey-option-strongly-agree = Cytuno'n gryf
-survey-option-i-wouldnt-care = Fyddwn i ddim yn poeni
-survey-option-somewhat-disappointed = Braidd yn siomedig
-survey-option-very-disappointed = Siomedig iawn
 survey-option-very-likely = Yn debygol iawn
 survey-option-not-likely = Ddim yn debygol
 survey-option-dismiss = Cau
@@ -178,32 +158,6 @@ survey-csat-followup = Diolch i chi am eich adborth. Hoffem ddysgu ragor am sut 
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Anfonwyd y neges hon ymlaen o { $display_email } gan { $linked_origin }.
-forwarded-email-header-cc-notice-2 = Mae { -brand-name-relay-premium } yn tynnu CCs a BCCs o'ch atebion. Os byddwch chi'n eu hail-ychwanegu, bydd eich e-bost go iawn yn cael ei ddatgelu.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Uwchraddiwch i { $premium_link } i gael arallenwau e-bost diderfyn, is-barth personol, a'r gallu i ymateb i e-byst.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Mae ein cynnig prisio misol rhagarweiniol yn dod i ben. Uwchraddiwch i { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = Mae { -brand-name-firefox-relay } yn cefnogi anfon e-bost (gan gynnwys atodiadau) e-bost hyd at { email-size-limit } o faint.  I ddysgu rhagor, gwiriwch ein { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } traciwr e-bost wedi'u dileu
-forwarded-email-trackers-blocked-report = Dysgu rhagor
-# This entire text is a link
-forwarded-email-footer-2 = Stopiwch anfon e-bost ymlaen a rheoli gosodiadau ar gyfer pob arallenw yma.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Uwchraddiwch i { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Uwchraddiwch i { $premium_link } cyn i'n pris agoriadol ddod i ben.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -279,6 +233,7 @@ what-can-you-do-with-relay-point-three = Rhwystrwch sbam rhag cyrraedd eich blwc
 what-can-you-do-with-relay-point-three-subpoint = Ar y bwrdd rheoli { -brand-name-relay }, gallwch greu arallenwau, eu labelu i nodi ble rydych yn eu defnyddio, troi rhwystro sbam ymlaen, a dileu unrhyw rai nad ydych eu heisiau mwyach.
 forwarded-email-hero-header = Rydych wedi derbyn eich e-bost cyntaf a anfonwyd ymlaen!
 forwarded-email-hero-desc = Gweld y pennyn hwnnw? Bydd yn ymddangos ar bob e-bost sy'n cael ei anfon ymlaen gan arallenwau { -brand-name-relay }.
+
 first-time-user-email-how-title = Sut mae { -brand-name-relay } yn gweithio
 first-time-user-email-how-item-1-header = Defnyddiwch arallenw { -brand-name-relay } yn lle eich e-bost go iawn, ym mhobman
 # Variables
@@ -294,11 +249,11 @@ first-time-user-email-how-item-3-header = Rheolwch eich arallenwau o'ch bwrdd rh
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href = "{ $url }" { $attrs }>Mewngofnodwch</a> i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
 first-time-user-email-how-item-3-subhead-text = Mewngofnodwch i greu arallenwau newydd, labelu eich arallenwau, a dileu arallenwau sy'n denu sbam.
-first-time-user-email-extra-protection-inbox-title = Diogelwch ychwanegol i'ch blwch derbyn
+
 first-time-user-email-extra-protection-inbox-phone-title = Diogelwch ychwanegol i'ch blwch derbyn a'ch ffôn
-first-time-user-email-extra-protection-inbox-subhead = Uwchraddiwch i { -brand-name-relay-premium } i gael arallenwau e-bost diddiwedd, parth { -brand-name-relay } cyfaddas, a rheolyddion blwch derbyn cyfaddas.
 first-time-user-email-extra-protection-inbox-phone-subhead = Uwchraddiwch i { -brand-name-relay-premium } ar gyfer arallewau e-bost diderfyn - ynghyd â rhif ffôn cudd i ddiogelu eich rhif go iawn.
 first-time-user-email-extra-protection-cta = Cael { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Cwestiynau am { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -320,11 +275,13 @@ first-time-user-email-footer-text-privacy = Amodau a Phreifatrwydd
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Rydych wedi defnyddio pob un o'r { $free_tier_limit } arallenwau e-bost sydd wedi'u cynnwys yn eich cyfrif rhad ac am ddim. Gallwch ailddefnyddio arallenw sy'n bodoli eisoes, ond defnyddio arallenw unigryw ar gyfer pob cyfrif yw'r dewis mwyaf diogel.
 api-error-free-tier-no-subdomain-masks = Nid yw eich cyfrif rhad ac am ddim yn cynnwys is-barthau personol ar gyfer arallenwau. I greu arallenwau personol, uwchraddiwch i { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Nid oedd modd creu "{ $unavailable_address }". Ceisiwch eto gydag arallenw gwahanol.
 api-error-need-subdomain = Dewiswch is-barth cyn creu cyfeiriad e-bost cyfaddas.
 api-error-account-is-paused = Mae eich cyfrif wedi'i oedi.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = Mae “ { $duplicate_address } ” eisoes yn bodoli. Ceisiwch eto gydag arallenw gwahanol.

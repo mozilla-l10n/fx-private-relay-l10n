@@ -13,8 +13,6 @@ onboarding-alias-tip-3-2 = Con la extensión { -brand-name-relay }, haz clic con
 #   $email (string) - User email address
 profile-label-welcome-html = <span>¡Bienvenido,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } admite el reenvío de correos electrónicos (incluidos los archivos adjuntos) con un tamaño de hasta { email-size-limit }
-profile-promo-upgrade-headline = Actualiza para obtener aún más funciones.
-profile-promo-upgrade-cta = Actualizar { -brand-name-relay }
 profile-details-expand = Mostrar detalles de las máscaras
 profile-details-collapse = Ocultar detalles de las máscaras
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +22,6 @@ profile-label-click-to-copy-alt = Clic para copiar máscara { $address }.
 profile-label-edit-2 = Edita la etiqueta para esta máscara
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Agregar nombre de cuenta
-profile-label-save-error = No se ha podido guardar, vuelve a intentarlo.
 profile-label-saved = ¡Etiqueta guardada!
 profile-label-generate-new-alias-2 = Generar nueva máscara
 profile-label-generate-new-alias-menu-random-2 = Correo enmascarado aleatorio
@@ -33,31 +30,16 @@ profile-label-generate-new-alias-menu-random-2 = Correo enmascarado aleatorio
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } máscara
 profile-label-delete = Eliminar
 profile-label-upgrade-2 = Consigue correos enmascarados ilimitados
-profile-label-create-subdomain = Consigue tu subdominio de correo
-profile-label-subdomain = Subdominio de correo:
-profile-label-subdomain-tooltip-trigger = Más información
-profile-label-subdomain-tooltip = Cree su subdominio de correo electrónico único.
 profile-label-reset = Restablecer
 profile-label-apply = Aplicar
-profile-label-skip = Omitir
 profile-label-continue = Continuar
 
 # This string is followed by an email address
 profile-label-forward-emails = Reenviar correos electrónicos a:
 
-# This string is followed by date
-profile-label-first-emailed = Fecha del primer mensaje:
-
 # This string is followed by date:
 profile-label-created = Creado:
-profile-label-details-show = Mostrar detalles
-profile-label-details-hide = Ocultar detalles
 
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = reenviando
-profile-label-blocking = bloqueando
-profile-label-disable-forwarding-button-2 = Inhabilitar el reenvío de correo para esta máscara
-profile-label-enable-forwarding-button-2 = Habilitar el reenvío de correo para esta máscara
 profile-label-click-to-copy = Clic para copiar
 profile-label-copied = ¡Copiado!
 profile-label-blocked = Bloqueado
@@ -72,7 +54,6 @@ profile-blocked-copy-2 = { -brand-name-firefox-relay } eliminará los mensajes a
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } enviará mensajes a tu bandeja de entrada cuando selecciones el reenvío para esta máscara
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Los correos electrónicos (incluyendo archivos adjuntos) de más de { email-size-limit } no se admiten actualmente y no se reenviarán.
-profile-forwarded-note-copy-v2 = No se reenviarán los mensajes de correo electrónico (incluidos los archivos adjuntos) con un tamaño superior a { email-size-limit }.
 profile-replies-tooltip = Puedes responder a los correos electrónicos recibidos a través de esta máscara y { -brand-name-firefox-relay } continuará protegiendo tu dirección de correo verdadero.
 profile-stat-learn-more = Saber más
 profile-stat-learn-more-close = Cerrar
@@ -86,7 +67,6 @@ profile-stat-label-trackers-learn-more-part2-2 = Importante: Eliminar los rastre
 profile-filter-search-placeholder-2 = Buscar máscaras
 profile-filter-category-button-label = Filtras máscaras visibles
 profile-filter-category-button-tooltip = Filtrar las máscaras por subdominio y/o si actualmente están bloqueando el correo electrónico entrante
-profile-filter-category-title = Filtrar máscaras visibles
 profile-filter-no-results = Ninguna máscara coincide con los criterios seleccionados. <clear-button>Borrar todos los filtros.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Máscaras de reenvío
@@ -117,9 +97,11 @@ profile-promo-email-blocking-description-none-2 = { -brand-name-relay } no está
 profile-promo-email-blocking-label-promotionals = Bloquear promociones
 profile-promo-email-blocking-label-none = Bloquear todo
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
-profile-promo-email-blocking-label-not-forwarding = No reenviar
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (Solo { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponible para los suscriptores de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Actualiza ahora
 profile-promo-email-blocking-description-promotionals-locked-waitlist-cta = Únete a la lista de espera de { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-close = Cerrar
+
+## 5 Mask Upsell (displayed on the profile page)
+

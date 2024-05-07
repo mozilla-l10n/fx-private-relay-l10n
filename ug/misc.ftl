@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = دائىرە نامىڭىز @{ $subdomain } قۇرۇلدى
 success-settings-update = تەڭشىكىڭىز يېڭىلاندى
 success-signed-out-message = تىزىمدىن چىقتىڭىز.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = { $username } مۇۋەپپەقىيەتلىك تىز�
 error-premium-cannot-change-subdomain = تارماق دائىرە نامىڭىزنى ئۆزگەرتەلمەيسىز
 error-premium-set-subdomain = تارماق دائىرە نامىنى ئۆزگەرتىش ئۈچۈن premium نەشرىگە مۇشتەرى بولۇڭ
 error-premium-check-subdomain = تارماق دائىرە نامىنى تەكشۈرۈش ئۈچۈن premium نەشرىگە مۇشتەرى بولۇڭ
-error-subdomain-not-created = تارماق دائىرىنى قۇرالمايدۇ، باشقىسىنى سىناپ بېقىڭ
-error-subdomain-email-not-created = تارماق دائىرە بار ئېلخەتنى قۇرالمايدۇ، باشقىسىنى سىناپ بېقىڭ
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = تارماق دائىرە @{ $unavailable_subdomain } نى ئىشلەتكىلى بولمايدۇ. باشقا بىرىنى سىناڭ.
@@ -43,8 +38,6 @@ tips-header-title = ياردەم ۋە كۆرسەتمە
 tips-header-button-close-label = بولدىلا
 tips-footer-link-faq-label = كۆپ سورالغان سوئاللار
 tips-footer-link-faq-tooltip = كۆپ سورالغان سوئاللار
-tips-footer-link-feedback-label = تەكلىپ
-tips-footer-link-feedback-tooltip = پىكىر بېرىڭ
 tips-footer-link-support-label = قوللاش
 tips-footer-link-support-tooltip = قوللاش بىلەن ئالاقىلىشىش
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = قوللاش بىلەن ئالاقىلىشى�
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = { $nr } كۆرسەتمە
 tips-toast-button-expand-label = تېخىمۇ كۆپ بىلدۈرگۈ
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = بازارچىلىق ئېلخەتنى توسسۇن
 popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىلاتى
@@ -61,8 +55,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = تەپسىل�
 tips-custom-alias-heading-2 = خاس تارماق تور نامىڭىزنى ئىشلىتىپ نىقاب قۇرىدۇ
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = بازارچىلىق ئېلخەتنى توس
 
 ## Report of trackers removed from an email
 
@@ -102,6 +94,7 @@ contains-tracker-warning-title = يەنىلا بۇ ئۇلانمىنى كۆرەم
 contains-tracker-warning-description = ئاگاھلاندۇرۇش: بۇ ئۇلانمىنى چەكسىڭىز سىزگە مۇناسىۋەتلىك ئۇچۇر يوللىغۇچىغا قايتۇرۇلىدۇ
 contains-tracker-warning-view-link-cta = ھەئە، ئۇلانمىنى كۆرسەت
 contains-tracker-faq-section-title = ئېلخەت ئىزلىغۇچ ھەققىدە دائىم سورالغان سوئاللار
+
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = كۈن
@@ -117,16 +110,6 @@ offer-countdown-timer-seconds = سېكۇنت
 
 ## Evergreen Survey (displayed on the profile page)
 
-survey-question-2 = { -brand-name-relay } نى ئىشلىتىش ئاسانمۇ؟
-survey-question-3 = سىزچە { -brand-name-relay } ئىشەنچلىكمىكەن؟
-survey-option-strongly-disagree = قەتئىي قوشۇلمايمەن
-survey-option-disagree = قوشۇلمايمەن
-survey-option-unsure = پىكىرىم يوق
-survey-option-agree = قوشۇلىمەن
-survey-option-strongly-agree = تامامەن قوشۇلىمەن
-survey-option-i-wouldnt-care = پەرۋايىم پەلەك
-survey-option-somewhat-disappointed = بىر ئاز ئۈمىدسىزلەندىم
-survey-option-very-disappointed = بەك ئۈمىدسىزلەندىم
 survey-option-very-likely = بەك رازى بولدۇم
 survey-option-not-likely = پەقەت رازى بولمىدىم
 survey-option-dismiss = بولدىلا
@@ -141,11 +124,6 @@ survey-csat-answer-very-satisfied = بەك رازى
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ئېلخەت ئىزلىغۇچى ئۆچۈرۈلدى
-forwarded-email-trackers-blocked-report = تېخىمۇ كۆپ بىلدۈرگۈ
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -166,11 +144,15 @@ first-time-user-email-hero-cta = باشقۇرۇش تاختىڭىزنى كۆرس�
 ## Email sent to people onboarding that receive their first forwarded email.
 
 our-promise-header = سىزگە بەرگەن ۋەدىمىز
+
 first-time-user-email-how-title = { -brand-name-relay } قانداق ئىشلەيدۇ
+
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گە ئېرىشىڭ
+
 first-time-user-email-footer-text-legal = قانۇنلۇق
 first-time-user-email-footer-text-privacy = شەرت ۋە شەخسىيەت
 
 ## API error messages
 
 api-error-account-is-paused = ھېساباتىڭىز ۋاقىتلىق توختىتىلدى.
+

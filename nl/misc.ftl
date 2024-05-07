@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Uw subdomein @{ $subdomain } is aangemaakt
 success-settings-update = Uw instellingen zijn bijgewerkt
 success-signed-out-message = U bent afgemeld.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Succesvol aangemeld als { $username }.
 error-premium-cannot-change-subdomain = U kunt uw subdomein niet wijzigen
 error-premium-set-subdomain = U moet een premiumabonnee zijn om een subdomein in te stellen
 error-premium-check-subdomain = U moet een premiumabonnee zijn om een subdomein te controleren
-error-subdomain-not-created = Subdomein kan niet worden aangemaakt, probeer iets anders
-error-subdomain-email-not-created = E-mailadres met subdomein kan niet worden aangemaakt, probeer iets anders
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Het subdomein @{ $unavailable_subdomain } is niet beschikbaar. Probeer een ander.
@@ -43,8 +38,6 @@ tips-header-title = Hulp & Tips
 tips-header-button-close-label = Sluiten
 tips-footer-link-faq-label = FAQ
 tips-footer-link-faq-tooltip = Veelgestelde vragen
-tips-footer-link-feedback-label = Feedback
-tips-footer-link-feedback-tooltip = Feedback geven
 tips-footer-link-support-label = Ondersteuning
 tips-footer-link-support-tooltip = Contact opnemen
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Contact opnemen
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Meer info
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reclameberichten blokkeren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Schakel Reclameberichten blokkeren in voor een masker om te voorkomen dat marketingberichten uw Postvak IN bereiken.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Maskers maken met uw aangepaste subdomein
 tips-custom-alias-content-2 = Het enige dat u hoeft te doen, is een uniek masker bedenken en delen die uw aangepaste domein gebruikt – het masker wordt automatisch aangemaakt. Probeer bijvoorbeeld de volgende keer dat u online winkelt “winkel@aangepastdomein.mozmail.com”.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Reclameberichten blokkeren
-tips-promo-email-blocking-content = Met { -brand-name-relay-premium } kunt u reclameberichten blokkeren voordat ze uw Postvak IN bereiken, terwijl u nog steeds e-mailberichten zoals ontvangstbewijzen of verzendinformatie kunt ontvangen.
 
 ## Report of trackers removed from an email
 
@@ -117,6 +108,7 @@ contains-tracker-warning-title = Wilt u de koppeling nog steeds bekijken?
 contains-tracker-warning-description = Waarschuwing: als u op de koppeling klikt, worden gegevens over u teruggestuurd naar de afzender
 contains-tracker-warning-view-link-cta = Ja, koppeling bekijken
 contains-tracker-faq-section-title = Veelgestelde vragen over e-mailtrackers
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -158,18 +150,6 @@ offer-countdown-timer-seconds = Sec.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Op een schaal van 1-10, hoe waarschijnlijk is het dat u { -brand-name-relay } aanbeveelt bij een vriend of collega?
-survey-question-2 = Is { -brand-name-relay } gemakkelijk te gebruiken?
-survey-question-3 = Vindt u { -brand-name-relay } betrouwbaar?
-survey-question-4 = Heeft { -brand-name-relay } een duidelijke en eenvoudige uitstraling?
-survey-question-5 = Hoe zou u zich voelen als u { -brand-name-relay } niet meer zou kunnen gebruiken?
-survey-option-strongly-disagree = Sterk oneens
-survey-option-disagree = Oneens
-survey-option-unsure = Weet niet
-survey-option-agree = Eens
-survey-option-strongly-agree = Sterk eens
-survey-option-i-wouldnt-care = Maakt mij niet uit
-survey-option-somewhat-disappointed = Enigszins teleurgesteld
-survey-option-very-disappointed = Zeer teleurgesteld
 survey-option-very-likely = Zeer waarschijnlijk
 survey-option-not-likely = Niet waarschijnlijk
 survey-option-dismiss = Sluiten
@@ -188,32 +168,6 @@ survey-csat-followup = Bedankt voor uw feedback. We willen graag meer weten over
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Dit bericht is doorgestuurd van { $display_email } door { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } verwijdert Cc’s en Bcc’s uit uw antwoorden. Als u ze opnieuw toevoegt, wordt uw echte e-mailadres zichtbaar.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Upgrade naar { $premium_link } om onbeperkte e-mailmaskers, een aangepast e-mailsubdomein en de mogelijkheid om e-mailberichten te beantwoorden te verkrijgen.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Onze maandelijkse introductieprijsaanbieding verloopt. Upgrade naar { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }. Kijk in onze { $faq_link } voor meer info.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-mailtrackers verwijderd
-forwarded-email-trackers-blocked-report = Meer info
-# This entire text is a link
-forwarded-email-footer-2 = Hier kunt u het doorsturen van e-mail stopzetten en de instellingen voor alle maskers beheren.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Upgraden naar { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Upgrade naar { $premium_link } voordat onze introductieprijs verloopt.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -285,6 +239,7 @@ what-can-you-do-with-relay-point-three = Voorkomen dat spam uw Postvak IN bereik
 what-can-you-do-with-relay-point-three-subpoint = Op het { -brand-name-relay }-dashboard kunt u maskers aanmaken, ze labelen om aan te geven waar u ze gebruikt, spamblokkering inschakelen en maskers verwijderen die u niet meer wilt gebruiken.
 forwarded-email-hero-header = U hebt uw eerste doorgestuurde e-mailbericht ontvangen!
 forwarded-email-hero-desc = Ziet u die koptekst? Deze verschijnt bij alle e-mailberichten die door { -brand-name-relay }-maskers worden doorgestuurd.
+
 first-time-user-email-how-title = Hoe { -brand-name-relay } werkt
 first-time-user-email-how-item-1-header = Gebruik overal een { -brand-name-relay }-masker in plaats van uw echte e-mailadres
 # Variables
@@ -300,11 +255,11 @@ first-time-user-email-how-item-3-header = Beheer uw maskers vanaf uw { -brand-na
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Meld u aan</a> om nieuwe maskers te maken, uw maskers te labelen en maskers die spam ontvangen te verwijderen.
 first-time-user-email-how-item-3-subhead-text = Meld u aan om nieuwe maskers te maken, uw maskers te labelen en maskers die spam ontvangen te verwijderen.
-first-time-user-email-extra-protection-inbox-title = Extra bescherming voor uw Postvak IN
+
 first-time-user-email-extra-protection-inbox-phone-title = Extra bescherming voor uw Postvak IN en telefoon
-first-time-user-email-extra-protection-inbox-subhead = Upgrade naar { -brand-name-relay-premium } voor onbeperkte e-mailmaskers, een aangepast { -brand-name-relay }-domein en meer controle over uw Postvak IN.
 first-time-user-email-extra-protection-inbox-phone-subhead = Upgrade naar { -brand-name-relay-premium } voor onbeperkte e-mailmaskers – plus een telefoonmasker om uw echte nummer te beschermen.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } downloaden
+
 first-time-user-email-questions-title = Vragen over { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -326,11 +281,13 @@ first-time-user-email-footer-text-privacy = Voorwaarden en privacy
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = U hebt alle { $free_tier_limit } e-mailmaskers gebruikt die bij uw gratis account zijn inbegrepen. U kunt een bestaand masker hergebruiken, maar het gebruik van een uniek masker voor elke account is de veiligste optie.
 api-error-free-tier-no-subdomain-masks = Uw gratis account bevat geen aangepaste subdomeinen voor maskers. Waardeer op naar { -brand-name-relay-premium } om aangepaste maskers te maken.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = ‘{ $unavailable_address }’ kan niet worden aangemaakt. Probeer het nogmaals met een andere maskernaam.
 api-error-need-subdomain = Selecteer een subdomein voordat u een aangepast e-mailadres aanmaakt.
 api-error-account-is-paused = Uw account is gepauzeerd.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = ‘{ $duplicate_address }’ bestaat al. Probeer het nogmaals met een andere maskernaam.

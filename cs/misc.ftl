@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Vaše subdoména @{ $subdomain } byla vytvořena
 success-settings-update = Vaše nastavení bylo aktualizováno.
 success-signed-out-message = Byli jste odhlášeni.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Úspěšně jste se přihlásili jako { $username }.
 error-premium-cannot-change-subdomain = Svou subdoménu nemůžete změnit
 error-premium-set-subdomain = Pro nastavení subdomény musíte být prémiovým předplatitelem
 error-premium-check-subdomain = Pro ověření subdomény musíte být prémiovým předplatitelem
-error-subdomain-not-created = Subdoménu se nepodařilo vytvořit, zkuste prosím něco jiného
-error-subdomain-email-not-created = E-mailovou adresu se subdoménou se nepodařilo vytvořit, zkuste prosím něco jiného
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Subdoména @{ $unavailable_subdomain } není dostupná. Zkuste prosím jinou.
@@ -43,8 +38,6 @@ tips-header-title = Nápověda a tipy
 tips-header-button-close-label = Zavřít
 tips-footer-link-faq-label = Časté dotazy
 tips-footer-link-faq-tooltip = Často kladené otázky
-tips-footer-link-feedback-label = Zpětná vazba
-tips-footer-link-feedback-tooltip = Poskytnout zpětnou vazbu
 tips-footer-link-support-label = Podpora
 tips-footer-link-support-tooltip = Kontaktovat podporu
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Kontaktovat podporu
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tip { $nr }
 tips-toast-button-expand-label = Zjistit více
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blokovat reklamní e-maily
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Zapnutím blokování reklamních e-mailů zaslaných na vaší masku zabráníte jejich doručování do vaší e-mailové schránky.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Vytvoření masky pomocí vlastní subdomény
 tips-custom-alias-content-2 = Vše, co musíte udělat, je vymyslet a sdílet jedinečnou masku, která používá vaši vlastní subdoménu – maska se vygeneruje automaticky. Až budete příště nakupovat přes internet, zkuste použít například „nakupy@vlastni-domena.mozmail.com“.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Blokování reklamních e-mailů
-tips-promo-email-blocking-content = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
 
 ## Report of trackers removed from an email
 
@@ -122,6 +113,7 @@ contains-tracker-warning-title = Chcete přesto zobrazit odkaz?
 contains-tracker-warning-description = Upozornění: Klepnutím na tento odkaz odešlete informaci o vás zpět odesílateli
 contains-tracker-warning-view-link-cta = Ano, zobrazit odkaz
 contains-tracker-faq-section-title = Často kladené otázky o sledovacích prvcích v e-mailech
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -200,18 +192,6 @@ offer-countdown-timer-seconds = Sek.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Na stupnici od 1 do 10, jako moc byste { -brand-name-relay(case: "acc") } doporučili svým přátelům nebo kolegům?
-survey-question-2 = Je používaní služby { -brand-name-relay } snadné?
-survey-question-3 = Je podle vás služba { -brand-name-relay } důvěryhodná?
-survey-question-4 = Prezentuje se { -brand-name-relay } jednoduše a srozumitelně?
-survey-question-5 = Jak byste si cítili, kdybyste { -brand-name-relay(case: "acc") } najednou nemohli používat?
-survey-option-strongly-disagree = Rozhodně nesouhlasím
-survey-option-disagree = Nesouhlasím
-survey-option-unsure = Nevím
-survey-option-agree = Souhlasím
-survey-option-strongly-agree = Rozhodně souhlasím
-survey-option-i-wouldnt-care = Bylo by mi to jedno
-survey-option-somewhat-disappointed = Lehké zklamání
-survey-option-very-disappointed = Velké zklamání
 survey-option-very-likely = Určitě ano
 survey-option-not-likely = Spíše ne
 survey-option-dismiss = Zavřít
@@ -230,32 +210,6 @@ survey-csat-followup = Děkujeme za vaši zpětnou vazbu. Rádi bychom se dozvě
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Tato zpráva byla přeposlána z adresy { $display_email } službou { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } odstraňuje pole Kopie a Skrytá kopie z vašich odpovědí. Pokud je znovu přidáte, váš skutečný e-mail bude odhalený.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Aktualizujte na { $premium_link } a získejte neomezené množství e-mailových masek, vlastní subdoménu a možnost odpovídat na e-maily.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Platnost naší úvodní měsíční cenové nabídky brzy vyprší. Aktualizujte na { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } podporuje přeposílání e-mailů (včetně příloh) až do velikosti { email-size-limit }. Pro další informace se podívejte na { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = Odebrané sledovací prvky: { $nr_blocked_trackers }
-forwarded-email-trackers-blocked-report = Více informací
-# This entire text is a link
-forwarded-email-footer-2 = Zde zastavíte přeposílání e-mailů a můžete zde spravovat nastavení pro všechny masky.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Upgradovat na { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Upgradujte na { $premium_link } před vypršením zaváděcí ceny.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -329,6 +283,7 @@ what-can-you-do-with-relay-point-three = Blokování nevyžádané pošty v doru
 what-can-you-do-with-relay-point-three-subpoint = Na nástěnce služby { -brand-name-relay } můžete vytvářet masky, označovat je tak, jak jste je použili, zapnout blokování nevyžádané pošty a mazat ty, které již nechcete používat.
 forwarded-email-hero-header = Obdrželi jste svůj první přeposlaný e-mail!
 forwarded-email-hero-desc = Vidíte tu hlavičku? Zobrazí se u všech e-mailů přeposlaných maskami služby { -brand-name-relay }.
+
 first-time-user-email-how-title = Jak { -brand-name-relay } funguje
 first-time-user-email-how-item-1-header = Používejte masku { -brand-name-relay } místo svého skutečného e-mailu, a to všude
 # Variables
@@ -344,11 +299,11 @@ first-time-user-email-how-item-3-header = Spravujte své masky z nástěnky { -b
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Přihlaste se</a> a vytvořte si nové masky, pojmenujte si ty existující a odstraňte masky, přes které dostáváte nevyžádanou poštu.
 first-time-user-email-how-item-3-subhead-text = Přihlaste se a vytvořte si nové masky, pojmenujte ty existující a odstraňte masky, přes které dostáváte nevyžádanou poštu.
-first-time-user-email-extra-protection-inbox-title = Extra ochrana pro vaši e-mailovou schránku
+
 first-time-user-email-extra-protection-inbox-phone-title = Extra ochrana pro vaši e-mailovou schránku a telefon
-first-time-user-email-extra-protection-inbox-subhead = Přejděte na { -brand-name-relay-premium } a získejte neomezené množství e-mailových masek, vlastní doménu { -brand-name-relay } a vlastní nastavení pro doručování pošty.
 first-time-user-email-extra-protection-inbox-phone-subhead = Přejděte na { -brand-name-relay-premium } a získejte neomezené množství e-mailových masek — plus masku telefonu, která ochrání vaše skutečné telefonní číslo.
 first-time-user-email-extra-protection-cta = Získejte { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Máte otázky týkající se { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -370,11 +325,13 @@ first-time-user-email-footer-text-privacy = Podmínky a ochrana soukromí
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Využili jste všech { $free_tier_limit } e-mailových masek, které jsou součástí vašeho bezplatného účtu. Můžete znovu použít stávající masku, ale použití jedinečné masky pro každý účet je nejbezpečnější možností.
 api-error-free-tier-no-subdomain-masks = Váš bezplatný účet nezahrnuje vlastní subdomény pro masky. Pokud chcete vlastní masky, aktualizujte na { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” se nepodařilo vytvořit. Zkuste to znovu s jiným názvem masky.
 api-error-need-subdomain = Před vytvořením vlastní e-mailové adresy vyberte subdoménu.
 api-error-account-is-paused = Váš účet je pozastavený.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = "{ $duplicate_address }" již existuje. Zkuste to prosím znovu s jiným názvem masky.

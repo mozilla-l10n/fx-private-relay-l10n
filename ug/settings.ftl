@@ -10,8 +10,6 @@ settings-meta-contact-label = بىز بىلەن ئالاقىلىشىڭ
 settings-meta-help-label = ياردەم ۋە قوللاش
 settings-meta-help-tooltip = { -brand-name-relay } ئىشلىتىش ياردىمى
 settings-meta-status-label = مۇلازىمەت ھالىتى
-settings-error-save-heading = تەڭشەشنى ئۆزگەرتەلمىدى
-settings-error-save-description = تەڭشەكتىكى ئۆزگەرتىشلىرىڭىز تور ئۇلىنىشى خاتالىقى سەۋەبىدىن ساقلانمىدى. قايتا سىناڭ.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = شەخسىيەت
 settings-button-save-label = ساقلا

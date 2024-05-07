@@ -9,12 +9,11 @@ onboarding-headline-2 = Створіть свою першу маску адре
 onboarding-alias-tip-1-2 = Виберіть “Згенерувати нову маску”, щоб створити свою першу маску електронної адреси
 onboarding-alias-tip-2 = Використовуючи розширення { -brand-name-relay }, виберіть піктограму { -brand-name-firefox-relay }, коли вона з’явиться в полях електронної пошти.
 onboarding-alias-tip-3-2 = Використовуючи розширення { -brand-name-relay }, клацніть правою кнопкою миші на полі форми та виберіть “Згенерувати нову маску.”
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Вітаємо,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }
-profile-promo-upgrade-headline = Оновіть, щоб отримати ще більше можливостей.
-profile-promo-upgrade-cta = Оновити { -brand-name-relay }
 profile-details-expand = Показати подробиці маски
 profile-details-collapse = Сховати подробиці маски
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = Клацніть, щоб скопіювати 
 profile-label-edit-2 = Змінити мітку для цієї маски
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Назва облікового запису
-profile-label-save-error = Не вдалося зберегти. Повторіть спробу.
 profile-label-saved = Мітку збережено!
 profile-label-generate-new-alias-2 = Згенерувати нову маску
 profile-label-generate-new-alias-menu-random-2 = Випадкова маска електронної пошти
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = Випадкова маска �
 profile-label-generate-new-alias-menu-custom-2 = Маска @{ $subdomain }
 profile-label-delete = Видалити
 profile-label-upgrade-2 = Отримати необмежену кількість масок електронної пошти
-profile-label-create-subdomain = Отримайте свій піддомен електронної пошти
-profile-label-subdomain = Піддомен електронної пошти:
 profile-label-custom-domain = Ваш домен електронної пошти { -brand-name-relay }:
 # Deprecated
 profile-label-set-your-custom-domain = Налаштуйте унікальний домен електронної пошти { -brand-name-relay }
-profile-label-subdomain-tooltip-trigger = Докладніше
-profile-label-subdomain-tooltip = Створіть свій унікальний піддомен електронної пошти.
 profile-label-reset = Скинути
 profile-label-apply = Застосувати
-profile-label-skip = Пропустити
 profile-label-continue = Продовжити
+
 # This string is followed by an email address
 profile-label-forward-emails = Пересилати електронні листи на адресу:
-# This string is followed by date
-profile-label-first-emailed = Перший електронний лист:
+
 # This string is followed by date:
 profile-label-created = Створено:
-profile-label-details-show = Показати подробиці
-profile-label-details-hide = Сховати подробиці
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = пересилання
-profile-label-blocking = блокування
-profile-label-disable-forwarding-button-2 = Вимкнути пересилання листів для цієї маски
-profile-label-enable-forwarding-button-2 = Увімкнути пересилання листів для цієї маски
+
 profile-label-click-to-copy = Клацніть, щоб скопіювати
 profile-label-copied = Скопійовано!
 profile-label-blocked = Заблоковано
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = { -brand-name-firefox-relay } видалить пові
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } надсилатиме повідомлення на вашу поштову скриньку, якщо ви виберете пересилання для цієї маски.
 profile-forwarded-note = Примітка:
 profile-forwarded-note-copy = Електронна пошта (включно з вкладеними файлами) розміром понад { email-size-limit } наразі не підтримується й не пересилається.
-profile-forwarded-note-copy-v2 = Електронна пошта (включно з вкладеними файлами) обсягом понад { email-size-limit } не пересилатиметься.
 profile-replies-tooltip = Ви можете відповідати на листи, отримані за допомогою цієї маски, а { -brand-name-firefox-relay } продовжить захищати вашу справжню адресу електронної пошти.
 profile-stat-learn-more = Докладніше
 profile-stat-learn-more-close = Закрити
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = Важливо: Вилучен�
 profile-filter-search-placeholder-2 = Пошук масок
 profile-filter-category-button-label = Відфільтрувати видимі маски
 profile-filter-category-button-tooltip = Фільтруйте маски за піддоменом та/або даними чи блокують вони наразі вхідну електронну пошту
-profile-filter-category-title = Відфільтрувати видимі маски
 profile-filter-no-results = Жодна маска не відповідає вибраним критеріям. <clear-button>Очистити всі фільтри.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Активні маски
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = Блокування всіх лис
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Пересилання всіх листів
-profile-promo-email-blocking-label-not-forwarding = Не пересилаються
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (лише { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Доступно для передплатників { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Оновити зараз

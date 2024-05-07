@@ -7,6 +7,7 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } mempermudah pembuatan topeng surel yang meneruskan pesan ke kotak masuk asli Anda. Gunakan untuk melindungi akun daring Anda dari peretas dan pesan yang tidak diinginkan.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Buka di tab baru)
 
@@ -20,15 +21,13 @@ nav-email-dashboard = Topeng Email
 nav-phone-dashboard = Topeng Telepon
 label-open-menu = Buka menu
 avatar-tooltip = Profil
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = Tanya Jawab
 nav-profile-sign-in = Masuk
 nav-profile-sign-up = Daftar
-# Deprecated
-nav-profile-manage-fxa = Kelola { -brand-name-firefox-account(capitalization: "uppercase") } Anda
 nav-profile-manage-account = Kelola akun Anda
 nav-profile-sign-out = Keluar
-nav-profile-sign-out-relay = Keluar dari { -brand-name-relay }
 nav-profile-sign-out-confirm = Anda yakin ingin keluar?
 nav-profile-settings = Pengaturan
 nav-profile-settings-tooltip = Konfigurasikan { -brand-name-firefox-relay }
@@ -55,6 +54,7 @@ nav-support = Bantuan dan Dukungan
 nav-sign-out = Keluar
 nav-contact = Hubungi Kami
 nav-menu-mobile = Menu Seluler
+
 fx-desktop-2 = { -brand-name-firefox } untuk Desktop
 fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 
@@ -63,10 +63,7 @@ fx-mobile-2 = { -brand-name-firefox } untuk Ponsel
 nav-footer-privacy = Privasi
 nav-footer-relay-terms = Ketentuan { -brand-name-relay }
 nav-footer-legal = Legal
-nav-footer-release-notes = Catatan Rilis
-nav-footer-stock-photo-legal = Foto-foto di laman ini bersumber dari iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
-logo-github-alt = Logo GitHub
 
 ## Bento Menu
 
@@ -74,9 +71,8 @@ bento-button-title = Aplikasi dan layanan { -brand-name-firefox }
 fx-makes-tech = { -brand-name-firefox } adalah teknologi yang berjuang untuk privasi daring Anda.
 made-by-mozilla = Dibuat oleh { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser } untuk Desktop
-fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } untuk Mobile
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-bento-button-close-label = Tutup menu
+

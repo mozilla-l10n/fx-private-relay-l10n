@@ -9,12 +9,11 @@ onboarding-headline-2 = Crie sua primeira máscara de email
 onboarding-alias-tip-1-2 = Selecione “Gerar nova máscara” para criar sua primeira máscara de email.
 onboarding-alias-tip-2 = Ao usar a extensão { -brand-name-relay }, clique no ícone do { -brand-name-firefox-relay } quando ele aparecer em campos de email.
 onboarding-alias-tip-3-2 = Usando a extensão { -brand-name-relay }, clique com o botão direito em campos de formulário e selecione “Gerar nova máscara”.
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Boas-vindas,</span> { $email }!
 profile-supports-email-forwarding = O { -brand-name-firefox-relay } oferece suporte para encaminhamento de emails (incluindo anexos) de tamanho até { email-size-limit }
-profile-promo-upgrade-headline = Mude para a versão premium para ter ainda mais funcionalidades.
-profile-promo-upgrade-cta = Mudar para a versão premium do { -brand-name-relay }
 profile-details-expand = Mostrar detalhes da máscara
 profile-details-collapse = Ocultar detalhes da máscara
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = Clique para copiar a máscara { $address }.
 profile-label-edit-2 = Editar o rótulo desta máscara
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Adicionar nome da conta
-profile-label-save-error = Falha ao salvar, tente novamente.
 profile-label-saved = Rótulo salvo!
 profile-label-generate-new-alias-2 = Gerar nova máscara
 profile-label-generate-new-alias-menu-random-2 = Máscara de email aleatória
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = Máscara de email aleatória
 profile-label-generate-new-alias-menu-custom-2 = Máscara de @{ $subdomain }
 profile-label-delete = Excluir
 profile-label-upgrade-2 = Tenha máscaras de email ilimitadas
-profile-label-create-subdomain = Tenha seu subdomínio de emails
-profile-label-subdomain = Subdomínio de emails:
 profile-label-custom-domain = Seu domínio de emails do { -brand-name-relay }:
 # Deprecated
 profile-label-set-your-custom-domain = Defina seu domínio exclusivo de emails do { -brand-name-relay }
-profile-label-subdomain-tooltip-trigger = Mais informações
-profile-label-subdomain-tooltip = Crie seu subdomínio de emails exclusivo.
 profile-label-reset = Redefinir
 profile-label-apply = Aplicar
-profile-label-skip = Ignorar
 profile-label-continue = Continuar
+
 # This string is followed by an email address
 profile-label-forward-emails = Encaminhar emails para:
-# This string is followed by date
-profile-label-first-emailed = Primeira mensagem:
+
 # This string is followed by date:
 profile-label-created = Criado em:
-profile-label-details-show = Exibir detalhes
-profile-label-details-hide = Ocultar detalhes
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = encaminhamento
-profile-label-blocking = bloqueio
-profile-label-disable-forwarding-button-2 = Desativar o encaminhamento de email desta máscara
-profile-label-enable-forwarding-button-2 = Ativar o encaminhamento de email desta máscara
+
 profile-label-click-to-copy = Clique para copiar
 profile-label-copied = Copiado!
 profile-label-blocked = Bloqueados
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = O { -brand-name-firefox-relay } exclui mensagens antes 
 profile-forwarded-copy-2 = O { -brand-name-firefox-relay } envia mensagens para sua caixa de entrada quando você seleciona encaminhamento desta máscara.
 profile-forwarded-note = Nota:
 profile-forwarded-note-copy = Emails (incluindo anexos) maiores que { email-size-limit } no momento não são aceitos e não são encaminhados.
-profile-forwarded-note-copy-v2 = Emails (incluindo anexos) maiores que { email-size-limit } não são encaminhados.
 profile-replies-tooltip = Você pode responder a emails recebidos através dessa máscara, o { -brand-name-firefox-relay } continua a proteger seu endereço de email verdadeiro.
 profile-stat-learn-more = Saiba mais
 profile-stat-learn-more-close = Fechar
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = Importante: A remoção de rast
 profile-filter-search-placeholder-2 = Pesquisar máscaras
 profile-filter-category-button-label = Filtrar máscaras visíveis
 profile-filter-category-button-tooltip = Filtrar máscaras por subdomínio e/ou se estão bloqueando recebimento de email
-profile-filter-category-title = Filtrar máscaras visíveis
 profile-filter-no-results = Nenhuma máscara corresponde aos critérios selecionados. <clear-button>Limpar todos os filtros.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Máscaras com encaminhamento
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = Bloqueando todos os emails
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Encaminhando todos os emails
-profile-promo-email-blocking-label-not-forwarding = Não encaminhando
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (somente no { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Disponível para assinantes do { -brand-name-relay-premium }
 profile-promo-email-blocking-description-promotionals-locked-cta = Mudar agora

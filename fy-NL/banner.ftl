@@ -6,7 +6,9 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Slute
+
 banner-bounced-headline = { -brand-name-relay } kin jo e-mail net besoargje.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -24,16 +26,7 @@ banner-download-install-extension-cta = { -brand-name-relay } tafoegje oan { -br
 banner-download-install-chrome-extension-headline = Probearje { -brand-name-relay } foar { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy-2 = De { -brand-name-firefox-relay }-útwreiding foar { -brand-name-chrome } makket it gebrûk fan maskers noch ienfâldiger.
 banner-download-install-chrome-extension-cta = De { -brand-name-relay }-útwreiding downloade
-banner-upgrade-headline = Opwurdearje nei { -brand-name-relay-premium }
-banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } makket it oanmeitsjen fan e-mailmaskers noch ienfâldiger, mei oanpaste maskersubdomeinen en ûnbeheinde maskers.
 banner-upgrade-cta = Opwurdearje nei { -brand-name-relay-premium }
-# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
-banner-label-action = Aksjestap
-banner-register-subdomain-headline-aliases-2 = In oanpast subdomein krije foar jo maskers
-# This string is used in the example subdomain mask. Keep it lowercase and
-# without spaces, to resemble an actual email address, and make sure it’s
-# translated consistently across other strings.
-banner-register-subdomain-example-address = jodomein
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
@@ -45,48 +38,12 @@ banner-register-subdomain-copy-2 =
     eardat jo se brûke. Hawwe jo der ien nedich foar in reservearring? Jou
     ‘restaurant@jodomein.{ $mozmail }’ oan it restaurant. Elk masker dy’t jo oanpaste
     subdomein brûkt wurdt nei jo trochstjoerd.
-banner-choose-subdomain-input-placeholder-3 = Subdomein sykje
-# This is the “call to action” text on the submit button of subdomain registration form.
-banner-register-subdomain-button-search = Sykje
-banner-pack-upgrade-headline-2-html = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om mear e-mailmaskers te krijen
-banner-pack-upgrade-copy-2 = Mei ûnbeheinde e-mailmaskers en jo eigen e-mailsubdomein, helpt { -brand-name-firefox-relay-premium } jo online beskerme te bliuwen.
-footer-banner-premium-promo-headine = Opwurdearje nei <strong>{ -brand-name-firefox-relay-premium }</strong> om jo telefoan <i>en</i> e-mail te beskermjen
-footer-banner-premium-promo-body = Krij in telefoannûmermasker, ûnbeheinde e-mailmaskers en oanpaste e-mailadressen foar it rap oanmeitsjen fan maskers.
 banner-pack-upgrade-cta = No opwurdearje
-# Privacy Notice update banner:
-banner-label-privacy-notice-update-header = Fernijing privacyferklearring
-banner-label-privacy-notice-update-body = Om de betrouberheid fan { -brand-name-firefox-relay } te ferbetterjen yn it gefal dat in e-mailberjocht net ôflevere wurde kin, bewarje wy it e-mailberjocht tydlik op ús servers oant it ôflevere is. Wy bewarje it nea langer as trije dagen.
-banner-label-privacy-notice-update-cta = Privacyferklearring besjen
-# Data Notification Banner:
-banner-label-data-notification-header = Ynkoarten by { -brand-name-relay }
-banner-label-data-notification-cta = Nei Ynstellingen
-banner-label-data-notification-header-v2 = Nije funksjes ynskeakelje
+
+
 banner-label-data-notification-body-cta = Mear ynfo
-# Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline-2 = Beskermje jo privacy, rêd it ynternet
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy-2 = Beskermje jo privacy wylst jo meidogge oan ús misje om in better ynternet te bouwen, allegearre foar { $monthly_price }
-banner-upgrade-loyalist-cta = Mear beskerming ûntfange
-# End of intro pricing countdown banner:
-banner-offer-end-headline = Us yntroduksjepriisoanbieding einiget ynkoarten!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-banner-offer-end-copy = Abonnearje jo foar { $end_date } op { -brand-name-relay-premium } en genietsje fan ûnbeheind maskearjen tsjin ús yntroduksjepriis foar in moanne-abonnemint.
-banner-offer-end-cta = No opwurdearje
-# Variables:
-# $subdomain (url) - User-set subdomain
-banner-choose-subdomain-description = Jo kinne elk adres @{ $subdomain } betinke
+
 # Relay Premium Promo A/B Test
-banner-ab-premium-promo-stop-spam-headline = Stopje spam, robocalls en junkteksten
-banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo wiere nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
-banner-ab-premium-promo-advanced-identity-headline = Avansearre identiteitsbeskerming
-banner-ab-premium-promo-advanced-identity-body = Foarkom dat trackers en gegevensaggregators jo identifisearje fia jo telefoannûmer en e-mailadres.
-banner-ab-premium-promo-control-receiver-headline = Bepaal wa’t jo wiere nûmer krijt
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } jout jo in telefoanmasker om jo wiere nûmer te beskermjen – plus ûnbeheinde e-mailmaskers.
-banner-ab-premium-promo-extra-protection-headline = Untfang ekstra beskerming foar jo Postfek YN en telefoan
-banner-ab-premium-promo-extra-protection-body = Untfang ûnbeheinde e-mailmaskers – plus in telefoanmasker om te bepalen wa’t jo wiere nûmer kriget.
-banner-ab-premium-promo-cta = Opwurdearje
 
 ## Set domain banner
 
@@ -107,6 +64,7 @@ banner-set-email-domain-input-search = Sykje
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = jodomein
 banner-set-email-domain-learn-more = Mear ynfo
+
 modal-email-domain-good-news = Goed nijs!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -126,7 +84,7 @@ modal-email-domain-success-headline-any-word = Meitsje ûnbeheind maskers oan tr
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Winkelje? Brûk winkel{ $custom_domain_full }.
-modal-email-domain-success-continue = Trochgean
+
 tooltip-email-domain-explanation-title = Oer jo unike { -brand-name-relay }-e-maildomein
 tooltip-email-domain-explanation-part-one = Mei dizze weardefolle funksje fan jo { -brand-name-relay-premium }-account kinne jo in unyk { -brand-name-relay }-e-maildomein kieze dat jo brûke kinne om ûnderweis ûnbeheinde, oanpaste { -brand-name-relay }-maskers oan te meitsjen.
 tooltip-email-domain-explanation-part-two = Jo hoege jo net oan te melden by { -brand-name-relay } om in nij masker oan te meitsjen; foegje gewoan in wurd of wurdgroep ta foar it @-symboal fan jo { -brand-name-relay }-e-maildomein om daliks in nij masker te meitsjen, wêr’t jo ek binne.

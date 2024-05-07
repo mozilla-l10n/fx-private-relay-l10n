@@ -7,6 +7,7 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } облегчает создание псевдонимов электронной почты, письма с которых пересылаются в ваш настоящий почтовый ящик. Используйте их для защиты своих аккаунтов в Интернете от хакеров и нежелательных сообщений.
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (Открывается в новой вкладке)
 
@@ -20,15 +21,13 @@ nav-email-dashboard = Псевдонимы электронной почты
 nav-phone-dashboard = Псевдонимы телефона
 label-open-menu = Открыть меню
 avatar-tooltip = Профиль
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = ЧАВО
 nav-profile-sign-in = Войти
 nav-profile-sign-up = Зарегистрироваться
-# Deprecated
-nav-profile-manage-fxa = Управление моим { -brand-name-firefox-account(case: "instrumental") }
 nav-profile-manage-account = Управление вашим аккаунтом
 nav-profile-sign-out = Выйти
-nav-profile-sign-out-relay = Выйти из { -brand-name-relay }
 nav-profile-sign-out-confirm = Вы уверены, что хотите выйти?
 nav-profile-settings = Настройки
 nav-profile-settings-tooltip = Настроить { -brand-name-firefox-relay }
@@ -55,6 +54,7 @@ nav-support = Справка и поддержка
 nav-sign-out = Выйти
 nav-contact = Связаться с нами
 nav-menu-mobile = Мобильное меню
+
 fx-desktop-2 = { -brand-name-firefox } для компьютера
 fx-mobile-2 = { -brand-name-firefox } для мобильных устройств
 
@@ -63,10 +63,7 @@ fx-mobile-2 = { -brand-name-firefox } для мобильных устройст
 nav-footer-privacy = Приватность
 nav-footer-relay-terms = Условия { -brand-name-relay }
 nav-footer-legal = Юридическая информация
-nav-footer-release-notes = Примечания к выпуску
-nav-footer-stock-photo-legal = Фотографии на этой странице взяты с iStock, © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
-logo-github-alt = Логотип GitHub
 
 ## Bento Menu
 
@@ -74,9 +71,8 @@ bento-button-title = Приложения и службы { -brand-name-firefox 
 fx-makes-tech = { -brand-name-firefox } — это технологии, отстаивающие вашу приватность в Интернете.
 made-by-mozilla = Создано { -brand-name-mozilla }
 fx-desktop = { -brand-name-firefox-browser(case: "nominative_uppercase") } для компьютера
-fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser(case: "nominative_uppercase") } для мобильных устройств
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-bento-button-close-label = Закрыть меню
+

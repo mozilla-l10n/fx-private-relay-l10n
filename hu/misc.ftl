@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Az Ön @{ $subdomain } aldomainje létrejött
 success-settings-update = A beállításai frissítve lettek
 success-signed-out-message = Ön kijelentkezett.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Sikeresen bejelentkezett mint { $username }.
 error-premium-cannot-change-subdomain = Nem módosíthatja az aldomainjét
 error-premium-set-subdomain = Az aldomain beállításához prémium előfizetőnek kell lennie
 error-premium-check-subdomain = Az aldomain ellenőrzéséhez prémium előfizetőnek kell lennie
-error-subdomain-not-created = Nem sikerült létrehozni az aldomaint, próbálkozzon mással
-error-subdomain-email-not-created = Nem sikerült e-mail-címet létrehozni az aldomainnel, próbálkozzon mással
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = A(z) @{ $unavailable_subdomain } aldomain nem érhető el. Próbálja újra egy másikkal.
@@ -43,8 +38,6 @@ tips-header-title = Súgó és tippek
 tips-header-button-close-label = Eltüntetés
 tips-footer-link-faq-label = GYIK
 tips-footer-link-faq-tooltip = Gyakran ismételt kérdések
-tips-footer-link-feedback-label = Visszajelzés
-tips-footer-link-feedback-tooltip = Visszajelzés
 tips-footer-link-support-label = Támogatás
 tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Kapcsolatfelvétel az ügyfélszolgálattal
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = { $nr }. tipp
 tips-toast-button-expand-label = További tudnivalók
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Promóciós e-mailek letiltása
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Engedélyezze a Promóciós e-mailek letiltását egy maszkon, hogy megakadályozza, hogy a marketinges e-mailek eljussanak a postaládájába.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Maszkok létrehozása az egyéni aldomainje haszn�
 tips-custom-alias-content-2 = Mindössze annyit kell tennie, hogy létrehoz és megoszt egy egyedi maszkot, amely az Ön egyéni aldomainjét használja – a maszk automatikusan létrejön. Próbálja ki például a „vasarlas@egyenidomain.mozmail.com” címet legközelebb, amikor online vásárol.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Promóciós e-mailek blokkolása
-tips-promo-email-blocking-content = A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába, miközben továbbra is lehetővé teszi a nyugtákat vagy szállítási információkat tartalmazó e-mailek fogadását.
 
 ## Report of trackers removed from an email
 
@@ -115,6 +106,7 @@ contains-tracker-warning-title = Továbbra is meg akarja nézni a hivatkozást?
 contains-tracker-warning-description = Figyelmeztetés: A hivatkozásra kattintás információkat küld vissza Önről a feladónak
 contains-tracker-warning-view-link-cta = Igen, hivatkozás megtekintése
 contains-tracker-faq-section-title = Gyakran ismételt kérdések az e-mail-követőkről
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -156,18 +148,6 @@ offer-countdown-timer-seconds = mp.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = 1-től 10-ig terjedő skálán, mekkora valószínűséggel ajánlaná a { -brand-name-relay }t egy barátjának vagy kollégájának?
-survey-question-2 = A { -brand-name-relay } könnyen használható?
-survey-question-3 = Megbízhatónak érzi a { -brand-name-relay }t?
-survey-question-4 = A { -brand-name-relay }nek letisztult és egyszerű a megjelenése?
-survey-question-5 = Mit érezne, ha már nem használhatná a { -brand-name-relay }t?
-survey-option-strongly-disagree = Egyáltalán nem ért egyet
-survey-option-disagree = Nem ért egyet
-survey-option-unsure = Bizonytalan
-survey-option-agree = Egyetért
-survey-option-strongly-agree = Teljesen egyetért
-survey-option-i-wouldnt-care = Nem érdekelné
-survey-option-somewhat-disappointed = Kissé csalódna
-survey-option-very-disappointed = Nagyon csalódna
 survey-option-very-likely = Nagyon valószínű
 survey-option-not-likely = Nem valószínű
 survey-option-dismiss = Eltüntetés
@@ -186,32 +166,6 @@ survey-csat-followup = Köszönjük a visszajelzést. Szeretnénk többet megtud
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Ezt az üzenetet a(z) { $display_email } továbbította a következőtől: { $linked_origin }.
-forwarded-email-header-cc-notice-2 = A { -brand-name-relay-premium } eltávolítja a „Másolatot kap” és „Vakmásolatot kap” mezőket a válaszokból. Ha újra felveszi őket, akkor kikerül a valódi e-mail-címe.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Frissítsen a { $premium_link } szolgáltatásra, hogy korlátlan számú e-mail-maszkhoz és egyéni e-mail-aldomainhez jusson, valamint megválaszolhassa a leveleket.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Bevezető havi árajánlatunk lejár. Frissítsen a { $premium_link }ra.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = A { -brand-name-firefox-relay } legfeljebb a { email-size-limit }-os levelek (beleértve a mellékleteket is) továbbítását támogatja. További információkért lásd a { $faq_link } oldalunkat.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-mail-követő eltávolítva
-forwarded-email-trackers-blocked-report = További tudnivalók
-# This entire text is a link
-forwarded-email-footer-2 = Itt állíthatja le az e-mail-továbbítást, és kezelheti az összes maszk beállításait.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Frissítés a { -brand-name-relay-premium }ra
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Frissítsen a { $premium_link }ra, mielőtt bevezető áraink lejárnának.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -283,6 +237,7 @@ what-can-you-do-with-relay-point-three = Blokkolja a levélszemetet, hogy ne ér
 what-can-you-do-with-relay-point-three-subpoint = A { -brand-name-relay } irányítópulton maszkokat hozhat létre, címkézheti őket, hogy hol használja, bekapcsolhatja a levélszemét-blokkolást, és törölheti azokat, amelyeket már nem szeretne megtartani.
 forwarded-email-hero-header = Megkapta az első továbbított levelet!
 forwarded-email-hero-desc = Látja ezt a fejlécet? Meg fog jelenni az összes { -brand-name-relay }-maszk által továbbított levélnél.
+
 first-time-user-email-how-title = Hogyan működik a { -brand-name-relay }
 first-time-user-email-how-item-1-header = Használjon { -brand-name-relay } maszkot a valódi e-mail-címe helyett mindenhol
 # Variables
@@ -298,11 +253,11 @@ first-time-user-email-how-item-3-header = Kezelje maszkjait a { -brand-name-rela
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Jelentkezzen be</a>, hogy új maszkokat hozzon létre, címkézze a maszkokat, és törölje a levélszemetet kapó maszkokat.
 first-time-user-email-how-item-3-subhead-text = Jelentkezzen be új maszkok létrehozásához, a maszkok címkézéséhez, és a levélszemetet kapó maszkok törléséhez.
-first-time-user-email-extra-protection-inbox-title = Extra védelem a postafiókja számára
+
 first-time-user-email-extra-protection-inbox-phone-title = Extra védelem a postafiókja és a telefonja számára
-first-time-user-email-extra-protection-inbox-subhead = Frissítsen a { -brand-name-relay-premium }ra, hogy korlátlan e-mail-maszkhoz, egyéni { -brand-name-relay } domainhez és egyéni postafiók-vezérléshez jusson.
 first-time-user-email-extra-protection-inbox-phone-subhead = Frissítsen a { -brand-name-relay-premium }ra a korlátlan e-mail-maszkokért – plusz egy telefonmaszkért, amely megvédi a valós telefonszámát.
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } beszerzése
+
 first-time-user-email-questions-title = Kérdése van a { -brand-name-firefox-relay }-jel kapcsolatban?
 # Variables
 #   $url (string) - URL of the support team website
@@ -324,11 +279,13 @@ first-time-user-email-footer-text-privacy = Feltételek és adatvédelem
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Felhasználta az ingyenes fiókjához tartozó { $free_tier_limit } e-mail-maszk mindegyikét. Újra felhasználhatja a meglévő maszkokat, de a legbiztonságosabb lehetőség, ha minden fiókhoz egyedi maszkot használ.
 api-error-free-tier-no-subdomain-masks = Az ingyenes fiókja nem tartalmaz egyéni aldomaineket a maszkokhoz. Egyéni maszkok létrehozásához váltson a { -brand-name-relay-premium } verzióra.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = A(z) „{ $unavailable_address }” nem hozható létre. Próbálja újra egy másik maszknévvel.
 api-error-need-subdomain = Válasszon egy aldomaint, mielőtt egyéni e-mail-címet hozna létre.
 api-error-account-is-paused = A fiókja szünetel.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = A(z) „{ $duplicate_address }” már létezik. Próbálja újra egy másik maszknévvel.

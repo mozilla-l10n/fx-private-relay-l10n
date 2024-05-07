@@ -7,14 +7,6 @@
 multi-part-onboarding-premium-welcome-headline = Wolkom by { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Litte wy derfoar soargje dat jo it measte út jo { -brand-name-premium }-account helje.
 multi-part-onboarding-premium-welcome-feature-headline = Mei { -brand-name-firefox-relay-premium } ûntange jo:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unbeheinde e-mailmaskers
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Ferbetterje jo privacy en feilichheid mei in unyk masker foar elke website
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Meitsje ûnderweis daliks maskers
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Untfang in unyk { -brand-name-relay } e-maildomein om daliks in maklik te ûnthâlden masker te meitsjen
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Oanpaste betsjinningseleminten foar jo Postfek YN
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Behear it type e-mailberjochten dat trochstjoerd wurdt nei jo Postfek YN
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonime antwurden
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Reagearje op trochstjoerde e-mailberjochten sûnder jo echte e-mailadres te dielen
 multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } ynstelle
 multi-part-onboarding-premium-welcome-subheadline = Jo kinne no bepale wat der yn jo Postfek YN te lâne komt, ien e-mailberjocht tagelyk.
 
@@ -27,8 +19,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Und
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Selektearje it { -brand-name-relay }-e-maildomein fan jo foarkar en meitsje dernei daliks nije maskers troch in wurd of wurdgroep ta te foegjen foar it @-symboal. <p>Winkelje? Brûk winkel@jodomein.{ $mozmail }.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sykje nei in wurd of sin
-multi-part-onboarding-premium-email-domain-feature-input-search = Sykje
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

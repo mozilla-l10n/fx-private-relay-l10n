@@ -6,6 +6,7 @@
 ## Meta Data
 
 meta-title = { -brand-name-firefox-relay }
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (يېڭى بەتكۈچتە ئاچ)
 
@@ -19,15 +20,13 @@ nav-email-dashboard = ئېلخەت نىقابى
 nav-phone-dashboard = تېلېفون نىقابى
 label-open-menu = تىزىملىك ئاچ
 avatar-tooltip = تەرجىمىھال
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = كۆپ سورالغان سوئاللار
 nav-profile-sign-in = تىزىمغا كىرىڭ
 nav-profile-sign-up = تىزىملىتىڭ
-# Deprecated
-nav-profile-manage-fxa = { -brand-name-firefox-account(capitalization: "uppercase") } باشقۇرۇڭ
 nav-profile-manage-account = ھېسابات باشقۇرۇش
 nav-profile-sign-out = تىزىمدىن چىق
-nav-profile-sign-out-relay = { -brand-name-relay } دىن تىزىمدىن چىق
 nav-profile-sign-out-confirm = راستىنلا تىزىمدىن چىقامسىز؟
 nav-profile-settings = تەڭشەكلەر
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } سەپلەڭ
@@ -54,6 +53,7 @@ nav-support = ياردەم ۋە قوللاش
 nav-sign-out = تىزىمدىن چىق
 nav-contact = بىز بىلەن ئالاقىلىشىڭ
 nav-menu-mobile = كۆچمە تىزىملىك
+
 fx-desktop-2 = { -brand-name-firefox } ئۈستەل نەشرى
 fx-mobile-2 = { -brand-name-firefox } كۆچمە نەشرى
 
@@ -62,10 +62,7 @@ fx-mobile-2 = { -brand-name-firefox } كۆچمە نەشرى
 nav-footer-privacy = شەخسىيەت
 nav-footer-relay-terms = { -brand-name-relay } شەرتلىرى
 nav-footer-legal = قانۇنلۇق
-nav-footer-release-notes = تارقىتىش ئۇقتۇرۇشى
-nav-footer-stock-photo-legal = بۇ بەتتىكى سۈرەتلەرنىڭ مەنبەسى iStock، © iStockPhoto.com
 logo-mozilla-alt = { -brand-name-mozilla }
-logo-github-alt = GitHub تۇغى
 
 ## Bento Menu
 
@@ -73,9 +70,8 @@ bento-button-title = { -brand-name-firefox } ئەپ ۋە مۇلازىمەت
 fx-makes-tech = { -brand-name-firefox } تېخنىكىسىنى قوللىنىپ توردىكى شەخسىيىتىڭىزنى قوغداش ئۈچۈن كۈرەش قىلىدۇ.
 made-by-mozilla = { -brand-name-mozilla } ياسىغان
 fx-desktop = { -brand-name-firefox-browser } ئۈستەل نەشرى
-fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = { -brand-name-firefox-browser } كۆچمە نەشرى
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-bento-button-close-label = تىزىملىكنى ياپ
+

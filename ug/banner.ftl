@@ -6,7 +6,9 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = بولدىلا
+
 banner-bounced-headline = { -brand-name-relay } ئېلخىتىڭىزنى يەتكۈزەلمىدى.
+
 banner-download-firefox-headline = { -brand-name-firefox } دا { -brand-name-relay } ئۈنۈمى تېخىمۇ ياخشى
 banner-download-firefox-copy-2 = { -brand-name-firefox-browser } نىڭ { -brand-name-relay } كېڭەيتمىسى نىقاب ياساشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
 banner-download-firefox-cta = { -brand-name-firefox } چۈشۈر
@@ -16,47 +18,17 @@ banner-download-install-extension-cta = { -brand-name-relay } نى { -brand-name
 banner-download-install-chrome-extension-headline = { -brand-name-google-chrome } نىڭ { -brand-name-relay } سىنى سىناش
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } نىڭ { -brand-name-firefox-relay } كېڭەيتمىسى نىقاب ياساش ۋە ئىشلىتىشنى تېخىمۇ ئاسانلاشتۇرىدۇ.
 banner-download-install-chrome-extension-cta = { -brand-name-relay } كېڭەيتمىسىگە ئېرىشىڭ
-banner-upgrade-headline = { -brand-name-relay-premium } غا يۈكسەلت
-banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } ئېلخەت نىقابى ياساشنى تېخىمۇ ئاسانلاشتۇرىدۇ، ئۇندىن باشقا يەنە خاس نىقاب تارماق تور بېكىتى ۋە چەكلىمىسىز نىقاب بار.
 banner-upgrade-cta = { -brand-name-relay-premium } غا يۈكسەلت
-# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
-banner-label-action = مەشغۇلات باسقۇچى
-banner-register-subdomain-headline-aliases-2 = نىقابىڭىزغا خاس تارماق تور نامىغا ئېرىشىڭ
-# This string is used in the example subdomain mask. Keep it lowercase and
-# without spaces, to resemble an actual email address, and make sure it’s
-# translated consistently across other strings.
-banner-register-subdomain-example-address = دائىرە ئىسمى
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
 
-banner-choose-subdomain-input-placeholder-3 = تارماق دائىرە ئىسمى ئىزدە
-# This is the “call to action” text on the submit button of subdomain registration form.
-banner-register-subdomain-button-search = ئىزدە
-banner-pack-upgrade-headline-2-html = تېخىمۇ كۆپ ئېلخەت نىقابىغا ئېرىشىش ئۈچۈن <strong>{ -brand-name-firefox-relay-premium }</strong> غا يۈكسەلتىڭ.
-footer-banner-premium-promo-headine = تېلېفون <i> ۋە </i> ئېلخېتىڭىزنى قوغداش ئۈچۈن<strong>{ -brand-name-firefox-relay-premium }</strong> غا يۈكسەلتىڭ.
 banner-pack-upgrade-cta = ھازىر يېڭىلا
-# Privacy Notice update banner:
-banner-label-privacy-notice-update-header = شەخسىيەت ئۇقتۇرۇشى يېڭىلاندى
-banner-label-privacy-notice-update-cta = شەخسىيەت ئۇقتۇرۇشىنى كۆرسەت
-# Data Notification Banner:
-banner-label-data-notification-header = يېقىندا { -brand-name-relay } غا قوشۇلىدۇ
-banner-label-data-notification-cta = تەڭشەككە يۆتكەل
-banner-label-data-notification-header-v2 = يېڭى ئىقتىدارنى قوزغات
+
+
 banner-label-data-notification-body-cta = تەپسىلاتى
-# Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline-2 = شەخسىيىتىڭىزنى قوغداپ، ئىنتېرنېتنى قۇتقۇزىدۇ
-banner-upgrade-loyalist-cta = تېخىمۇ كۆپ قوغداشقا ئېرىشىڭ
-# End of intro pricing countdown banner:
-banner-offer-end-headline = ئېتبار باھا پات يېقىندا ئاخىرلىشىدۇ!
-banner-offer-end-cta = ھازىر يېڭىلا
+
 # Relay Premium Promo A/B Test
-banner-ab-premium-promo-stop-spam-headline = ئەخلەت ئېلخەت، ئاپتوماتىك تېلېفون ۋە ئەخلەت قىسقا ئۇچۇرلارنى توسىدۇ
-banner-ab-premium-promo-advanced-identity-headline = ئالىي كىملىك قوغداش
-banner-ab-premium-promo-advanced-identity-body = ئىزلىغۇچىلار ۋە ئۇچۇر توپلىغۇچىلارنىڭ تېلېفون نومۇرىڭىز ۋە ئېلخەت ئادرېسىڭىز ئارقىلىق سىزنى تونۇشىنى توسىدۇ.
-banner-ab-premium-promo-control-receiver-headline = ھەقىقىي نومۇرىڭىزغا كىمنىڭ ئىرىشەلەيدىغانلىقىنى باشقۇرىدۇ
-banner-ab-premium-promo-extra-protection-headline = خەت ساندۇق ۋە تېلېفونىڭىزنى قوشۇمچە قوغداشقا ئېرىشتۈرىدۇ
-banner-ab-premium-promo-cta = يۈكسەلت
 
 ## Set domain banner
 
@@ -69,6 +41,7 @@ banner-set-email-domain-input-search = ئىزدە
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = دائىرە نامىڭىز
 banner-set-email-domain-learn-more = تەپسىلاتى
+
 modal-email-domain-good-news = خۇشخەۋەر!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -78,7 +51,6 @@ modal-email-domain-available = <p>{ $custom_domain_full }</p> نى ئىشلەت�
 modal-domain-register-confirmation-checkbox = ھەئە، مەن { $subdomain } غا تىزىملاتماقچى
 modal-email-domain-cancel = ۋاز كەچ
 modal-email-domain-register = تىزىملىتىڭ
-modal-email-domain-success-continue = داۋاملاشتۇر
 
 ## 2023 Holiday promo
 

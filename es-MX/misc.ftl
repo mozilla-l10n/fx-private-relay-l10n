@@ -4,9 +4,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Tu subdominio @{ $subdomain } ha sido creado
 success-settings-update = Tu configuración ha sido actualizada
 success-signed-out-message = Has cerrado sesión.
 # Variables:
@@ -18,8 +15,6 @@ success-signed-in-message = Has iniciado sesión correctamente como { $username 
 error-premium-cannot-change-subdomain = No puedes cambiar tu subdominio
 error-premium-set-subdomain = Debes ser un suscriptor premium para configurar un subdominio
 error-premium-check-subdomain = Debes ser un suscriptor premium para verificar un subdominio
-error-subdomain-not-created = No se pudo crear el subdominio, intenta con otro
-error-subdomain-email-not-created = No se pudo crear la dirección de correo electrónico con el subdominio, intenta con otro
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Tu subdominio @{ $unavailable_subdomain } no está disponible. Por favor, prueba una diferente.
@@ -42,8 +37,6 @@ tips-header-title = Ayuda y consejos
 tips-header-button-close-label = Descartar
 tips-footer-link-faq-label = Preguntas frecuentes
 tips-footer-link-faq-tooltip = Preguntas frecuentemente realizadas
-tips-footer-link-feedback-label = Comentarios
-tips-footer-link-feedback-tooltip = Enviar opinión
 tips-footer-link-support-label = Soporte
 tips-footer-link-support-tooltip = Contactar al soporte
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -54,11 +47,6 @@ tips-toast-button-expand-label = Saber más
 
 ## Popover explaining how custom masks work
 
-popover-custom-alias-explainer-heading-2 = Cómo crear máscaras personalizadas
-popover-custom-alias-explainer-explanation-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use su subdominio personalizado: la máscara se generará automáticamente. Prueba “compra@dominiopersonalizado.mozmail.com" la siguiente ves que compres en línea, por ejemplo.
-popover-custom-alias-explainer-generate-button-heading-2 = Genera una máscara personalizada manualmente
-popover-custom-alias-explainer-generate-button-label-2 = Genera una máscara personalizada
-popover-custom-alias-explainer-close-button-label = Cerrar
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Bloquear correos electrónicos promocionales
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Habilita el bloqueo de correos electrónicos promocionales en una máscara para evitar que los correos electrónicos de marketing lleguen a tu bandeja de entrada.
@@ -70,9 +58,6 @@ tips-custom-alias-heading-2 = Creación de máscaras con su subdominio personali
 tips-custom-alias-content-2 = Todo lo que necesitas hacer es crear y compartir una máscara única que use su subdominio personalizado: la máscara se generará automáticamente. Intenta “comprar@dominiopersonalizado.mozmail.com” la siguiente ves que compres en línea, por ejemplo.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Bloquear correos electrónicos promocionales
-tips-promo-email-blocking-content = Con { -brand-name-relay-premium }, puedes bloquear correos electrónicos promocionales para que no lleguen a tu bandeja de entrada y al mismo tiempo te permite recibir correos electrónicos como recibos o información de envío.
 
 ## Report of trackers removed from an email
 
@@ -112,6 +97,8 @@ trackerreport-loading = Cargando el informe de eliminación de rastreadores…
 trackerreport-load-error = Se produjo un error al generar el informe de eliminación del rastreador. Actualiza la página para volver a intentarlo.
 
 ## Countdown timer (e.g. to count down to pricing increases)
+
+## Tracker warning page
 
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
@@ -154,18 +141,6 @@ offer-countdown-timer-seconds = Seg.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = En una escala del 1-10, ¿qué probabilidades hay de que recomiendes { -brand-name-relay } a un amigo o colega?
-survey-question-2 = ¿{ -brand-name-relay } es fácil de usar?
-survey-question-3 = ¿Sientes que { -brand-name-relay } es confiable?
-survey-question-4 = ¿Tiene { -brand-name-relay } una presentación limpia y simple?
-survey-question-5 = ¿Cómo te sentirías si ya no pudieras usar { -brand-name-relay }?
-survey-option-strongly-disagree = Totalmente en desacuerdo
-survey-option-disagree = En desacuerdo
-survey-option-unsure = No estoy seguro
-survey-option-agree = De acuerdo
-survey-option-strongly-agree = Totalmente de acuerdo
-survey-option-i-wouldnt-care = No me importaría
-survey-option-somewhat-disappointed = Algo decepcionado
-survey-option-very-disappointed = Muy decepcionado
 survey-option-very-likely = Muy probablemente
 survey-option-not-likely = Poco probable
 survey-option-dismiss = Descartar
@@ -184,31 +159,8 @@ survey-csat-followup = Gracias por tus comentarios. Nos gustaría obtener más i
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Este mensaje fue reenviado desde{ $display_email } por { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } elimina CCs y BCCs de tus respuestas. Si los vuelves a agregar, tu verdadero correo quedará expuesto.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Actualiza a { $premium_link } para obtener mascaras de correo electrónico ilimitadas, un subdominio personalizado, y la habilidad de responder a los correo electrónicos.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Nuestra oferta de precios mensuales de introducción está por terminar. Actualiza a { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } admite el reenvío de correo electrónico (incluyendo archivos adjuntos) de hasta { email-size-limit } de tamaño. Para saber más, revisa nuestro { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } rastreadores de correo electrónico eliminados
-forwarded-email-trackers-blocked-report = Saber más
-# This entire text is a link
-forwarded-email-footer-2 = Detener el reenvío de correo electrónico y administrar la configuración de todas las máscaras aquí.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Actualiza a { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Actualiza a { $premium_link } antes de que se acabe nuestro precio de introducción.
+## Email wrapping (header and footer messages wrapped around forwarded emails)
+## January 2023 redesign
 
 ## Email sent to free users who try to reply
 
@@ -222,6 +174,10 @@ upgrade-for-more-protection = Actualiza para obtener más protección
 upgrade-to-premium = Actualizar a { -brand-name-firefox-relay-premium }
 manage-your-masks = Administra tus máscaras
 
+## Email sent to first time free users
+
+## Email sent to people onboarding that receive their first forwarded email.
+
 ## API error messages
 
 api-error-free-tier-no-subdomain-masks = Tu cuenta gratuita no incluye subdominios personalizados para máscaras. Para crear máscaras personalizadas, actualiza a { -brand-name-relay-premium }.
@@ -231,3 +187,4 @@ api-error-free-tier-no-subdomain-masks = Tu cuenta gratuita no incluye subdomini
 api-error-address-unavailable = No se pudo crear “{ $unavailable_address }”. Vuelve a intentarlo con un nombre de máscara diferente.
 api-error-need-subdomain = Selecciona un subdominio antes de crear una dirección de correo electrónico personalizada.
 api-error-account-is-paused = Tu cuenta está en pausa.
+

@@ -6,9 +6,8 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-tip = Dica: Para criar uma máscara personalizada quando quiser, invente uma na hora. Se você usar seu domínio do { -brand-name-relay }, ela funcionará mesmo que você não a tenha gerado antes aqui.
+
 modal-custom-alias-picker-heading-2 = Criar máscara personalizada
-modal-custom-alias-picker-warning-2 = Tudo o que você precisa fazer é inventar e compartilhar uma máscara exclusiva com seu subdomínio personalizado. A máscara é gerada automaticamente. Experimente, por exemplo, “compras@subdominiopersonalizado.mozmail.com” na próxima vez que comprar algo online.
-modal-custom-alias-picker-form-heading-2 = Ou crie uma máscara personalizada manualmente
 modal-custom-alias-picker-form-prefix-label-3 = Digite o texto que vem antes do símbolo @:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
@@ -17,7 +16,6 @@ modal-custom-alias-picker-form-prefix-spaces-warning = Não são permitidos espa
 modal-custom-alias-picker-form-prefix-invalid-warning = Máscaras de email só podem conter letras minúsculas, números e traços e não podem começar nem terminar com um traço.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = Máscaras de email só podem conter letras minúsculas, números, pontos e traços e não podem começar nem terminar com um ponto ou traço.
 modal-custom-alias-picker-form-submit-label-2 = Gerar máscara
-modal-custom-alias-picker-creation-error-2 = Sua máscara de email personalizada não pôde ser criada manualmente. Tente novamente, ou envie um email para a máscara para criar automaticamente.
 modal-custom-alias-picker-tip-redesign = Dica: Para criar uma máscara personalizada sem precisar entrar na sua conta no { -brand-name-relay }, basta adicionar qualquer palavra ou frase antes do @ no seu domínio de email do { -brand-name-relay }. Na primeira vez que alguém enviar um email para essa máscara, ela é criada automaticamente.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Insira texto
 error-alias-picker-prefix-invalid-uppercase-letters = Sem letras maiúsculas
@@ -29,8 +27,9 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Comece a bloqu
 error-state-valid-alt = Válida
 error-state-invalid-alt = Inválida
 close-button-label-alt = Fechar
-modal-rename-alias-saved = Rótulo salvo!
+
 modal-delete-headline-2 = Excluir permanentemente esta máscara de email?
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html =
@@ -44,29 +43,11 @@ modal-delete-domain-address-warning-upgrade-2 =
     deve alterar o endereço de email de cada conta antes de excluir esta máscara.
     Se você recriar uma máscara excluída, os emails enviados para a máscara original voltam a ser encaminhados.
 modal-delete-confirmation-2 = Sim, quero excluir esta máscara.
-modal-domain-register-good-news = Boas notícias!
-modal-domain-register-warning-reminder-2 = Lembre, você só pode registrar um subdomínio. Não poderá alterar depois.
-modal-domain-register-button-2 = Registrar subdomínio
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-available = { $subdomain } está disponível!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> está disponível!
+
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Sim, quero registrar <subdomain>{ $subdomain }</subdomain>
 modal-domain-register-success-title = Sucesso!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use
-#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success-2 = Agora { $subdomain } é seu subdomínio de emails!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-success-3 = Agora <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> é seu subdomínio de emails!
-modal-domain-register-success-copy-2 = Agora você pode criar máscaras de email personalizadas ilimitadas!
 
 ## Updated mask deletion modal strings
 

@@ -13,7 +13,6 @@ whatsnew-tab-new-label = Noticias
 whatsnew-tab-archive-label = Historial
 whatsnew-footer-clear-all-label = Borrar todo
 whatsnew-footer-back-label = Atrás
-whatsnew-footer-learn-more-label = Saber más
 
 whatsnew-empty-message = Asegúrate de volver a consultar aquí — siempre estamos trabajando en funciones nuevas y geniales para hacer que { -brand-name-relay }  sea aún mejor.
 
@@ -73,10 +72,10 @@ whatsnew-feature-offer-countdown-snippet = Obtén { -brand-name-relay-premium } 
 # Variables:
 #   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
 whatsnew-feature-offer-countdown-description = Obtén { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio de introducción de mes a mes.
-whatsnew-feature-offer-countdown-cta = Actualizar ahora
 
 whatsnew-feature-firefox-integration-heading = { -brand-name-relay } ahora está disponible en el administrador de contraseñas de { -brand-name-firefox }
 # A preview of the full content of `whatsnew-feature-firefox-integration-description`.
 # Try to keep this string short, not longer than the English version.
 whatsnew-feature-firefox-integration-snippet = Proteger tu correo electrónico ahora es más fácil. Ahora puedes generar…
 whatsnew-feature-firefox-integration-description = Proteger tu correo electrónico ahora es más fácil. Ahora puedes generar nuevas máscaras de correo electrónico de { -brand-name-relay } desde tu administrador de contraseñas de { -brand-name-firefox } en escritorio.
+

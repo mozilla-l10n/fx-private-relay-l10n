@@ -9,12 +9,11 @@ onboarding-headline-2 = آپݨاں پہلا ای میل ماسک بݨاؤ
 onboarding-alias-tip-1-2 = آپݨاں پہلا ای میل ماسک  خلقݨ کیتے "نواں ماسک جنریٹ کرو" چُݨو۔
 onboarding-alias-tip-2 = { -brand-name-relay } ایکسٹنشن ورتݨ نال { -brand-name-firefox-relay } آئیکان چݨو جہڑے ویلے ایہ ای میل خانے وچ ظاہر تھیوے۔
 onboarding-alias-tip-3-2 = { -brand-name-relay } ایکسٹنشن ورتیندے ہوئے،  فارم خانے وچ " نواں ماسک جنریٹ کرو" تے سڄا کلک کرو۔
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>ست بسم اللہ،</span> { $email }!
 profile-supports-email-forwarding = سائز وچ { email-size-limit } تائیں ای میل (نتھیاں سمیت) اڳوں تے پٹھݨ وچ { -brand-name-firefox-relay } سپورٹ کریندے۔
-profile-promo-upgrade-headline = ڈھیر ٻیاں خصوصیات کیتے اپ گریڈ کرو۔
-profile-promo-upgrade-cta = { -brand-name-relay } اپ گریڈ کرو
 profile-details-expand = ماسک تفصیلاں ݙکھاؤ
 profile-details-collapse = ماسک تفصیلاں لکاؤ
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = ماسک { $address } نقل کرݨ کیتے �
 profile-label-edit-2 = ایں ماسک کیتے لیبل وچ تبدیلی کرو
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = کھاتہ ناں شامل کرو
-profile-label-save-error = محفوظ کرݨ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 profile-label-saved = لیبل محفوظ تھی ڳیا!
 profile-label-generate-new-alias-2 = نواں ماسک جنریٹ کرو
 profile-label-generate-new-alias-menu-random-2 = رینڈم ای میل ماسک
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = رینڈم ای میل ماسک
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } ماسک
 profile-label-delete = مٹاؤ
 profile-label-upgrade-2 = بے انت ای میل ماسک گھنو
-profile-label-create-subdomain = آپݨی ای میل سب ڈومین گھنو
-profile-label-subdomain = ای میل سب ڈومین:
 profile-label-custom-domain = تہاݙی { -brand-name-relay } ای میل ڈومین:
 # Deprecated
 profile-label-set-your-custom-domain = آپݨی نویکلی { -brand-name-relay } ای میل ڈومین بݨاؤ
-profile-label-subdomain-tooltip-trigger = ٻئی ڄاݨکاری
-profile-label-subdomain-tooltip = آپݨی نویکلی ای میل سب ڈومین بݨاؤ۔
 profile-label-reset = ولدا ٹھیک کرو
 profile-label-apply = لاگو کرو
-profile-label-skip = چھوڑو
 profile-label-continue = جاری
+
 # This string is followed by an email address
 profile-label-forward-emails = کوں ای میل اڳوں تے پٹھو:
-# This string is followed by date
-profile-label-first-emailed = پہلی ای میل تھئی:
+
 # This string is followed by date:
 profile-label-created = بݨیا:
-profile-label-details-show = تفصیلاں ݙکھاؤ
-profile-label-details-hide = تفصیلاں لُکاؤ
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = اڳوں تے پٹھݨ
-profile-label-blocking = بلاک کرݨ
-profile-label-disable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ غیرفعال کرو
-profile-label-enable-forwarding-button-2 = ایں ماسک  کنوں ای میلاں اڳوں تے پٹھݨ فعال کرو
+
 profile-label-click-to-copy = نقل کرݨ کیتے کلک کرو
 profile-label-copied = نقل تھی ڳیا!
 profile-label-blocked = بلاک تھی ڳیا
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = جہڑے ویلے تساں ایں ماسک  کیتے ب
 profile-forwarded-copy-2 = تساں جہڑے ویلے ماسک کیتے اڳوں تے پٹھݨ چُݨسو تاں { -brand-name-firefox-relay } تہاݙے انباکس وچ سنیہے بھیڄیسی۔
 profile-forwarded-note = نوٹ:
 profile-forwarded-note-copy = { email-size-limit } کنوں وݙیاں (بشمول نتھیاں) ای میل حالیہ سہارا تھیاں کائنی تے فارورڈ کائناں تھیسن۔
-profile-forwarded-note-copy-v2 = { email-size-limit } کنوں وݙی (بشمول نتھیاں) ای میل فارورڈ کائناں تھیسی۔
 profile-replies-tooltip = تساں ایں ماسک دے ذریعے وصول تھیوݨ والیاں ای میلز دا جواب ݙے سڳدے او، تے { -brand-name-firefox-relay } تہاݙے حقیقی ای میل ایڈریس دی حفاظت جاری رکھیسے۔
 profile-stat-learn-more = ٻیا سِکھو
 profile-stat-learn-more-close = بند کرو
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = اہم: ٹریکرز کوں ہ�
 profile-filter-search-placeholder-2 = ماسک ڳولو
 profile-filter-category-button-label = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-category-button-tooltip = ذیلی ڈومین دے ذریعے ماسک کوں فلٹر کرو تے/ یا او فی الحال آوݨ والی ای میل کوں روکیندے پئے ہن۔
-profile-filter-category-title = نظرݨ آلے ماسکاں کوں فلٹر کرو
 profile-filter-no-results = تہاݙے چُݨے ہوئے معیار دے مطابق کوئی ماسک کائنی۔ <clear-button>سارے چھاݨے صاف کرو۔</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = اڳوں تے پٹھݨ آلے ماسک
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = ساریاں ای میلاں روک 
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = ساریاں ای میلاں اڳوں تے پٹھݨ
-profile-promo-email-blocking-label-not-forwarding = اڳوں تے  نہ پٹھݨ
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } صرف)
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } دے سبسکرائبراں کیتے دستیاب
 profile-promo-email-blocking-description-promotionals-locked-cta = ہݨ اپ گریڈ کرو

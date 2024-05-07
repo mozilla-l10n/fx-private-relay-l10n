@@ -7,28 +7,17 @@
 
 settings-headline = Налаштування { -brand-name-relay }
 settings-meta-contact-label = Зв'язатися з нами
-settings-meta-contact-tooltip = Зв’язатися щодо { -brand-name-relay }
 settings-meta-help-label = Довідка та підтримка
 settings-meta-help-tooltip = Отримати допомогу щодо користування { -brand-name-relay }
 settings-meta-status-label = Стан служби
 settings-meta-status-tooltip = Перевірити, чи всі системи { -brand-name-relay } зараз працюють.
-settings-error-save-heading = Не вдалося змінити налаштування
-settings-error-save-description = Ваші зміни в налаштуваннях не були збережені через помилку з'єднання. Будь ласка, повторіть спробу.
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = Функцію міток масок адрес електронної пошти вимкнено
 settings-warning-collection-off-heading-3 = Ваші імена облікових записів масок електронної пошти вимкнено
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = Наразі { -brand-name-relay } заборонено збирати дані про сайти, на яких ви генерували та використовували маски адрес електронної пошти. Ви можете змінити це в “Налаштуваннях” у розділі “Збір даних.”
 settings-warning-collection-off-description-3 = { -brand-name-relay } наразі не має права позначати ваші маски електронної пошти назвами вебсайтів, на яких ви їх використовували. Щоб змінити це, увімкніть імена облікових записів для масок електронної пошти в розділі «Приватність».
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Приватність
-setting-label-collection-description-2 = Дозволити { -brand-name-relay } збирати дані про те, на яких сайтах створюються та використовуються ваші маски.
 setting-label-collection-description-3 = Увімкнути імена облікових записів для масок електронної пошти
-# This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning-2 = Ці дані дозволять нам пов'язувати ваші маски адрес електронної пошти з вебсайтами, на яких вони використовуються. Якщо ви вирішите відмовитися від цього параметра, ваші маски адрес електронної пошти матимуть позначки про вебсайти, на яких вони використовуються.
 setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } зберігатиме вебсайти, на яких ви використовували свої маски електронної пошти, і позначатиме ваші маски назвами цих вебсайтів, щоб ви могли легко їх знаходити. Якщо вимкнути цей параметр, ви не зможете бачити, де використовували кожну з масок, а імена ваших облікових записів більше не синхронізуватимуться між пристроями.
 settings-button-save-label = Зберегти
-settings-button-save-tooltip = Застосувати вибрані налаштування.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Ключ API
 settings-api-key-description = Це ваш ключ API { -brand-name-relay }. Він дозволяє іншим програмам автоматично отримувати доступ до вашого облікового запису { -brand-name-relay }.

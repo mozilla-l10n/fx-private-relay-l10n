@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Ihre Subdomain @{ $subdomain } wurde erstellt
 success-settings-update = Deine Einstellungen wurden aktualisiert
 success-signed-out-message = Sie haben sich abgemeldet.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Erfolgreich angemeldet als { $username }.
 error-premium-cannot-change-subdomain = Du kannst deine Subdomain nicht ändern
 error-premium-set-subdomain = Du musst Premium-Abonnent sein, um eine Subdomain einzurichten
 error-premium-check-subdomain = Du musst Premium-Abonnent sein, um eine Subdomain zu überprüfen
-error-subdomain-not-created = Subdomain konnte nicht erstellt werden, versuche etwas anderes
-error-subdomain-email-not-created = E-Mail-Adresse mit Subdomain konnte nicht erstellt werden, versuche etwas anderes
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Die Subdomain @{ $unavailable_subdomain } ist nicht verfügbar. Bitte versuchen Sie es mit einer anderen Subdomain erneut.
@@ -43,8 +38,6 @@ tips-header-title = Hilfe & Tipps
 tips-header-button-close-label = Schließen
 tips-footer-link-faq-label = FAQ
 tips-footer-link-faq-tooltip = Häufig gestellte Fragen
-tips-footer-link-feedback-label = Feedback
-tips-footer-link-feedback-tooltip = Feedback senden
 tips-footer-link-support-label = Hilfe
 tips-footer-link-support-tooltip = Hilfe kontaktieren
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Hilfe kontaktieren
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tipp { $nr }
 tips-toast-button-expand-label = Weitere Informationen
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Werbe-E-Mails blockieren
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivieren Sie bei einer Maske die Funktion „Werbe-E-Mails blockieren“, um zu verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Erstellen von Masken mit Ihrer benutzerdefinierten
 tips-custom-alias-content-2 = Sie müssen nur eine eindeutige Maske erfinden und weitergeben, die Ihre benutzerdefinierte Subdomain verwendet – die Maske wird automatisch erzeugt. Versuchen Sie es zum Beispiel mit „shop@meinedomain.mozmail.com“, wenn Sie das nächste Mal online einkaufen.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Werbe-E-Mails blockieren
-tips-promo-email-blocking-content = Mit { -brand-name-relay-premium } kannst du verhindern, dass Werbe-E-Mails deinen Posteingang erreichen, während du weiterhin E-Mails wie Quittungen oder Versandinformationen erhältst.
 
 ## Report of trackers removed from an email
 
@@ -117,6 +108,7 @@ contains-tracker-warning-title = Soll der Link trotzdem aufgerufen werden?
 contains-tracker-warning-description = Warnung: Durch Klicken auf diesen Link werden Informationen über Sie an den Absender zurückgesendet
 contains-tracker-warning-view-link-cta = Ja, Link aufrufen
 contains-tracker-faq-section-title = Häufig gestellte Fragen zu E-Mail-Trackern
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -158,18 +150,6 @@ offer-countdown-timer-seconds = Sek.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Wie wahrscheinlich ist es auf einer Skala von 1-10, dass du { -brand-name-relay } einem Freund oder Kollegen empfiehlst?
-survey-question-2 = Ist { -brand-name-relay } einfach zu bedienen?
-survey-question-3 = Hältst du { -brand-name-relay } für vertrauenswürdig?
-survey-question-4 = Hat { -brand-name-relay } eine übersichtliche und einfache Benutzeroberfläche?
-survey-question-5 = Wie würdest du dich fühlen, wenn du { -brand-name-relay } nicht mehr verwenden kannst?
-survey-option-strongly-disagree = Stimme überhaupt nicht zu
-survey-option-disagree = Stimme nicht zu
-survey-option-unsure = Unsicher
-survey-option-agree = Stimme zu
-survey-option-strongly-agree = Stimme voll zu
-survey-option-i-wouldnt-care = Es wäre mir egal
-survey-option-somewhat-disappointed = Etwas enttäuscht
-survey-option-very-disappointed = Sehr enttäuscht
 survey-option-very-likely = Sehr wahrscheinlich
 survey-option-not-likely = Unwahrscheinlich
 survey-option-dismiss = Schließen
@@ -188,32 +168,6 @@ survey-csat-followup = Danke für deine Rückmeldung. Wir würden gerne mehr dar
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Diese Nachricht wurde von { $display_email } von { $linked_origin } weitergeleitet
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } entfernt CCs und BCCs aus Ihren Antworten. Wenn Sie sie erneut hinzufügen, wird Ihre echte E-Mail-Adresse offengelegt.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Machen Sie das Upgrade auf { $premium_link }, um unbegrenzte E-Mail-Masken, eine benutzerdefinierte Subdomain und die Möglichkeit zu erhalten, auf E-Mails zu antworten.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Unser monatliches Einführungspreisangebot läuft ab. Machen Sie das Upgrade auf { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } unterstützt die Weiterleitung von E-Mails (einschließlich Anhängen) bis zu einer Größe von { email-size-limit }. Weitere Informationen findest du in unseren { $faq_link }
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } E-Mail-Tracker entfernt
-forwarded-email-trackers-blocked-report = Weitere Informationen
-# This entire text is a link
-forwarded-email-footer-2 = Hier können Sie die Weiterleitung für alle Masken beenden und die Einstellungen verwalten.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Mache das Upgrade auf { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Machen Sie das Upgrade auf { $premium_link }, solange unsere Einführungspreise noch gelten.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -285,6 +239,7 @@ what-can-you-do-with-relay-point-three = Verhindern Sie, dass Spam Ihren Postein
 what-can-you-do-with-relay-point-three-subpoint = In der { -brand-name-relay }-Übersicht können Sie Masken erstellen, sie beschriften, um sich zu merken, wo Sie sie verwenden, den Spam-Block aktivieren und nicht mehr benötigte Masken löschen.
 forwarded-email-hero-header = Sie haben Ihre erste weitergeleitete E-Mail erhalten!
 forwarded-email-hero-desc = Sehen Sie die Kopfzeile? Er erscheint in allen E-Mails, die von { -brand-name-relay }-Masken weitergeleitet werden.
+
 first-time-user-email-how-title = So funktioniert { -brand-name-relay }
 first-time-user-email-how-item-1-header = Verwenden Sie eine { -brand-name-relay }-Maske statt Ihrer richtigen E-Mail-Adresse, egal wo es nötig ist
 # Variables
@@ -300,11 +255,11 @@ first-time-user-email-how-item-3-header = Verwalten Sie Ihre Masken über Ihre {
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Melden Sie sich an</a>, um neue Masken zu erstellen, Ihre Masken zu beschriften und Masken zu löschen, die Spam erhalten.
 first-time-user-email-how-item-3-subhead-text = Melden Sie sich an, um neue Masken zu erstellen, Ihre Masken zu beschriften und Masken zu löschen, die Spam erhalten.
-first-time-user-email-extra-protection-inbox-title = Zusätzlicher Schutz für Ihren Posteingang
+
 first-time-user-email-extra-protection-inbox-phone-title = Zusätzlicher Schutz für Ihren Posteingang und Ihr Handy
-first-time-user-email-extra-protection-inbox-subhead = Machen Sie das Upgrade auf { -brand-name-relay-premium } und erhalten unbegrenzt viele E-Mail-Masken, eine benutzerdefinierte { -brand-name-relay }-Domain und benutzerdefinierte Posteingangseinstellungen.
 first-time-user-email-extra-protection-inbox-phone-subhead = Mit einem Upgrade auf { -brand-name-relay-premium } erhalten Sie unbegrenzt viele E-Mail-Masken – plus eine Telefonnummer-Maske zum Schutz Ihrer echten Nummer.
 first-time-user-email-extra-protection-cta = Holen Sie sich { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Haben Sie Fragen zu { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -326,11 +281,13 @@ first-time-user-email-footer-text-privacy = Nutzungsbedingungen und Datenschutz
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Sie haben alle { $free_tier_limit } E-Mail-Masken verwendet, die in Ihrem kostenlosen Konto enthalten sind. Sie können eine vorhandene Maske wiederverwenden, aber die Verwendung einer eindeutigen Maske für jedes Konto ist die sicherste Option.
 api-error-free-tier-no-subdomain-masks = Ihr kostenloses Konto bietet keine benutzerdefinierten Subdomains für Masken. Um benutzerdefinierte Masken zu erstellen, führen Sie ein Upgrade auf { -brand-name-relay-premium } durch.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = „{ $unavailable_address }“ konnte nicht erstellt werden. Bitte versuchen Sie es erneut mit einem anderen Maskennamen.
 api-error-need-subdomain = Bitte wählen Sie eine Subdomain aus, bevor Sie eine benutzerdefinierte E-Mail-Adresse erstellen.
 api-error-account-is-paused = Ihr Konto ist pausiert.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = „{ $duplicate_address }“ existiert bereits. Bitte versuchen Sie es erneut mit einem anderen Maskennamen.

@@ -6,28 +6,17 @@
 
 settings-headline = { -brand-name-relay }-instellingen
 settings-meta-contact-label = Contact
-settings-meta-contact-tooltip = Contact opnemen over { -brand-name-relay }
 settings-meta-help-label = Hulp en ondersteuning
 settings-meta-help-tooltip = Hulp verkrijgen met { -brand-name-relay }
 settings-meta-status-label = Servicestatus
 settings-meta-status-tooltip = Bekijken of alle { -brand-name-relay }-systemen momenteel operationeel zijn.
-settings-error-save-heading = Wijziging instellingen mislukt
-settings-error-save-description = Uw instellingswijzigingen zijn niet opgeslagen vanwege een verbindingsfout. Probeer het opnieuw.
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = Labelfunctie voor e-mailmaskers is uitgeschakeld
 settings-warning-collection-off-heading-3 = Uw accountnamen voor e-mailmaskers zijn uitgeschakeld
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = { -brand-name-relay } mag momenteel geen gegevens verzamelen over de websites waar u e-mailmaskers heeft aangemaakt en gebruikt. U kunt dit in ‘Instellingen’ wijzigen onder ‘Gegevensverzameling’.
 settings-warning-collection-off-description-3 = { -brand-name-relay } mag momenteel uw e-mailmaskers niet labelen met de websites waar u ze hebt gebruikt. Schakel onder ‘Privacy’ accountnamen voor e-mailmaskers in om dit te wijzigen.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
-setting-label-collection-description-2 = { -brand-name-relay } toestaan om gegevens te verzamelen over de websites waarop uw maskers zijn aangemaakt en gebruikt.
 setting-label-collection-description-3 = Accountnamen voor e-mailmaskers inschakelen
-# This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning-2 = Met deze gegevens kunnen we uw maskers labelen met de relevante websites waar ze worden gebruikt. Als u besluit deze voorkeur uit te schakelen, worden uw maskers niet gelabeld met de websites waar ze worden gebruikt.
 setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } slaat de websites op waar u uw e-mailmaskers hebt gebruikt en labelt uw maskers met die websites, zodat u ze gemakkelijk kunt identificeren. Als u dit uitschakelt, kunt u niet zien waar u elk masker hebt gebruikt en worden uw accountnamen niet meer tussen apparaten gesynchroniseerd.
 settings-button-save-label = Opslaan
-settings-button-save-tooltip = Uw gekozen instellingen toepassen.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API-sleutel
 settings-api-key-description = Dit is uw { -brand-name-relay }-API-sleutel. Hiermee kunnen andere apps automatisch toegang verkrijgen tot uw { -brand-name-relay }-account.

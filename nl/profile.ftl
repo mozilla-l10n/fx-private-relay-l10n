@@ -9,12 +9,11 @@ onboarding-headline-2 = Uw eerste e-mailmasker aanmaken
 onboarding-alias-tip-1-2 = Selecteer ‘Nieuw masker aanmaken’ om uw eerste e-mailmasker aan te maken.
 onboarding-alias-tip-2 = Selecteer als u de { -brand-name-relay }-extensie gebruikt het { -brand-name-firefox-relay }-pictogram wanneer dit in e-mailvelden verschijnt.
 onboarding-alias-tip-3-2 = Klik als u de { -brand-name-relay }-extensie gebruikt met de rechtermuisknop op formuliervelden en selecteer ‘Nieuw masker aanmaken’.
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>Welkom,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } ondersteunt het doorsturen van e-mailberichten (inclusief bijlagen) van berichten met een maximale grootte van { email-size-limit }
-profile-promo-upgrade-headline = Upgrade voor nog meer functies.
-profile-promo-upgrade-cta = { -brand-name-relay } upgraden
 profile-details-expand = Details masker tonen
 profile-details-collapse = Details masker verbergen
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = Klik om masker { $address } te kopiëren.
 profile-label-edit-2 = Het label voor dit masker bewerken
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Accountnaam toevoegen
-profile-label-save-error = Opslaan mislukt, probeer het opnieuw.
 profile-label-saved = Label opgeslagen!
 profile-label-generate-new-alias-2 = Nieuw masker aanmaken
 profile-label-generate-new-alias-menu-random-2 = Willekeurig e-mailmasker
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = Willekeurig e-mailmasker
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain }-masker
 profile-label-delete = Verwijderen
 profile-label-upgrade-2 = Onbeperkte e-mailmaskers verkrijgen
-profile-label-create-subdomain = Uw e-mailsubdomein verkrijgen
-profile-label-subdomain = E-mailsubdomein:
 profile-label-custom-domain = Uw { -brand-name-relay }-e-maildomein:
 # Deprecated
 profile-label-set-your-custom-domain = Stel uw unieke { -brand-name-relay }-e-maildomein in
-profile-label-subdomain-tooltip-trigger = Meer info
-profile-label-subdomain-tooltip = Maak uw unieke e-mailsubdomein aan.
 profile-label-reset = Herinitialiseren
 profile-label-apply = Toepassen
-profile-label-skip = Overslaan
 profile-label-continue = Doorgaan
+
 # This string is followed by an email address
 profile-label-forward-emails = E-mailberichten doorsturen naar:
-# This string is followed by date
-profile-label-first-emailed = Eerste keer gemaild:
+
 # This string is followed by date:
 profile-label-created = Gemaakt:
-profile-label-details-show = Details tonen
-profile-label-details-hide = Details verbergen
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = doorsturen
-profile-label-blocking = blokkeren
-profile-label-disable-forwarding-button-2 = Doorsturen van e-mailberichten voor dit masker uitschakelen
-profile-label-enable-forwarding-button-2 = Doorsturen van e-mailberichten voor dit masker inschakelen
+
 profile-label-click-to-copy = Klik om te kopiëren
 profile-label-copied = Gekopieerd!
 profile-label-blocked = Geblokkeerd
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = { -brand-name-firefox-relay } verwijdert berichten voor
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } stuurt berichten naar uw Postvak IN wanneer u doorsturen voor dit masker selecteert.
 profile-forwarded-note = Opmerking:
 profile-forwarded-note-copy = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden momenteel niet ondersteund en worden niet doorgestuurd.
-profile-forwarded-note-copy-v2 = E-mailberichten (inclusief bijlagen) groter dan { email-size-limit } worden niet doorgestuurd.
 profile-replies-tooltip = U kunt via dit masker ontvangen e-mailberichten beantwoorden en { -brand-name-firefox-relay } zal uw echte e-mailadres blijven beschermen.
 profile-stat-learn-more = Meer info
 profile-stat-learn-more-close = Sluiten
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = Belangrijk: het verwijderen van
 profile-filter-search-placeholder-2 = Maskers doorzoeken
 profile-filter-category-button-label = Zichtbare maskers filteren
 profile-filter-category-button-tooltip = Maskers filteren op subdomein en/of of ze momenteel inkomende e-mailberichten blokkeren
-profile-filter-category-title = Zichtbare maskers filteren
 profile-filter-no-results = Er komen geen maskers overeen met uw geselecteerde criteria. <clear-button>Alle filters wissen.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Doorsturende maskers
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = Alle e-mailberichten worden geblokke
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Alle e-mailberichten worden doorgestuurd
-profile-promo-email-blocking-label-not-forwarding = Niet doorsturen
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (alleen { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Beschikbaar voor { -brand-name-relay-premium }-abonnees
 profile-promo-email-blocking-description-promotionals-locked-cta = Nu upgraden
