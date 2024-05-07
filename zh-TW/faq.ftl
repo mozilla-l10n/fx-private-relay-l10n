@@ -23,7 +23,6 @@ faq-question-missing-emails-answer-reason-turned-off-2 = 轉寄信箱的轉寄�
 faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } 可能需花比較久的時間轉寄這封信
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
-faq-question-missing-emails-answer-b-html = 若您是 { -brand-name-relay-premium } 使用者，遇到這些困擾，請<a href="{ $url }" { $attrs }>聯絡我們的技術支援團隊</a>。
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 faq-question-missing-emails-answer-support-site-html = 若您遇到上述任何問題，請<a href="{ $url }" { $attrs }>到我們的技術支援網站</a>。
@@ -42,11 +41,7 @@ faq-question-1-answer-a-2 = { -brand-name-relay } 本身不會過濾垃圾信，
 #   $attrs (string) - specific attributes added to external links
 faq-question-1-answer-b-2-html = 若您發現更嚴重的問題，例如您所有的轉寄信箱都開始轉寄不想收到的郵件，請<a href="{ $url }" { $attrs }>回報給我們</a>這樣我們就可以考慮調整 SES 的垃圾信判讀門檻。若您將這些郵件回報為垃圾信，您的郵件服務業者會將整個 { -brand-name-relay } 當成垃圾信的來源，而非原始寄件者。
 faq-question-availability-question = { -brand-name-relay } 在哪些國家推出？
-faq-question-availability-answer = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。
-faq-question-availability-answer-v2 = 大部分國家均可使用 { -brand-name-relay } 免費版，而 { -brand-name-relay-premium } 已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、芬蘭、法國、比利時、奧地利、西班牙、義大利、瑞典、瑞士、荷蘭、愛爾蘭等地推出。
-faq-question-availability-answer-v3 = { -brand-name-relay } 免費版在大多數國家皆能使用。{ -brand-name-relay-premium } 已在奧地利、比利時、加拿大、賽普勒斯、愛沙尼亞、芬蘭、法國、德國、希臘、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、葡萄牙、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
 faq-question-availability-answer-v4 = { -brand-name-relay } 免費板在大多數國家皆能使用。{ -brand-name-relay-premium } 已在奧地利、保加利亞、比利時、加拿大、克羅埃西亞、賽普勒斯、捷克、丹麥、愛沙尼亞、芬蘭、法國、德國、希臘、匈牙利、愛爾蘭、義大利、拉脫維亞、立陶宛、盧森堡、馬來西亞、馬爾他、荷蘭、紐西蘭、波蘭、葡萄牙、羅馬尼亞、新加坡、斯洛伐克、斯洛維尼亞、西班牙、瑞典、瑞士、英國、美國等地推出。
-faq-question-landing-page-availability = 大部分國家均可以使用 { -brand-name-relay }，而 { -brand-name-relay-premium } 郵件轉寄信箱已於美國、德國、英國、加拿大、新加坡、馬來西亞、紐西蘭、法國、比利時、奧地利、西班牙、義大利、瑞士、荷蘭、愛爾蘭推出。{ -brand-name-relay-premium } 虛擬電話轉接功能則已在美國與加拿大推出。
 faq-question-4-question-2 = 我可以用我的 { -brand-name-relay } 轉寄信箱回信嗎？
 faq-question-4-answer-v4 = { -brand-name-relay-premium } 使用者可以在收到信後的三個月內回覆轉寄郵件。若您在回信時加入副本或密件副本收件者，原始郵件地址將會暴露給郵件中的收件者。若您不想暴露出原始寄件地址，回信時請勿加入。
 faq-question-subdomain-characters-question = 我可以用哪些字元來建立子網域？
@@ -65,7 +60,6 @@ faq-question-8-question = { -brand-name-firefox-relay } 會收集哪些資料？
 # Variables:
 #   $url (url) - https://www.mozilla.org/privacy/firefox-relay/
 #   $attrs (string) - specific attributes added to external links
-faq-question-8-answer-2-html = 可以閱讀我們的 <a href="{ $url }" { $attrs }>隱私權公告</a>來了解 { -brand-name-firefox-relay } 會收集哪些資料。您還可以跟我們分享在哪些網站使用了哪些轉寄信箱標籤的資訊（非必要），讓我們為您提供並改善服務。
 faq-question-8-answer-3-html = { -brand-name-firefox-relay } 會收集您曾在哪些網站使用過轉寄信箱的紀錄，並幫信箱加上標籤，讓您可輕鬆確認名稱。您可以在「設定」頁面中的「隱私權」關閉此功能，但請注意：關閉此功能後就無法再看到您曾於哪些網站使用過每轉寄信箱了，且帳號名稱也不會再於裝置間同步。您可以在我們的<a href="{ $url }" { $attrs }>隱私權公告</a>頁面了解 { -brand-name-firefox-relay } 會收集哪些資料。
 faq-question-email-storage-question = { -brand-name-relay } 會儲存我的郵件嗎？
 faq-question-email-storage-answer = 服務臨時中斷的極少數情況下，我們可能會暫時儲存您的郵件，直到能夠重新轉寄給您為止。我們不會儲存您的郵件超過三天。
@@ -73,7 +67,9 @@ faq-question-acceptable-use-question = { -brand-name-relay } 可接受哪些合�
 #   $url (url) - link to Mozilla's Acceptable Use Policy, i.e. https://www.mozilla.org/about/legal/acceptable-use/
 #   $attrs (string) - specific attributes added to external links
 faq-question-acceptable-use-answer-a-html = { -brand-name-firefox-relay } 的 <a href="{ $url }" { $attrs }>使用條款與所有 { -brand-name-mozilla } 產品都相同</a>。我們絕不允許透過 { -brand-name-relay } 進行諸如濫發垃圾信件等有害行為，此類行為將導致使用者帳號被關閉。我們會採取下列行為來防止使用者違反使用條款：
+# Deprecated
 faq-question-acceptable-use-answer-measure-account = 要求 { -brand-name-firefox-account(capitalization: "uppercase") } 使用驗證過的電子郵件地址
+faq-question-acceptable-use-answer-measure-account-v2 = 必須使用已驗證過的電子郵件地址所註冊的帳號
 faq-question-acceptable-use-answer-measure-unlimited-payment-2 = 要求使用者付款才可以建立超過五組轉寄信箱
 faq-question-acceptable-use-answer-measure-rate-limit-2 = 限制一天內可產生的轉寄信箱數量
 #   $url (url) - link to the Terms of Service, i.e. https://www.mozilla.org/about/legal/terms/firefox-relay/
@@ -92,4 +88,3 @@ faq-question-trackerremoval-breakage-answer-2 = 有的時候，移除郵件追�
 faq-question-define-tracker-question = 什麼是郵件追蹤器？
 faq-question-define-tracker-answer-partone = 監控與廣告工具會透過郵件追蹤功能來監控許多信箱。這些追蹤器會用來更加了解您的上網行為、您的興趣與郵件記錄。
 faq-question-define-tracker-answer-parttwo = 一間公司或組織，可能會透過在寄送給您的電子郵件中嵌入追蹤器（通常隱藏於圖片或鏈結之中）。當郵件開啟時，追蹤器內的程式就會執行，並且回傳追蹤資料。
-
