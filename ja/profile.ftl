@@ -20,10 +20,13 @@ profile-label-placeholder = アカウント名を追加
 profile-label-saved = ラベルが保存されました
 profile-label-generate-new-alias-2 = 新しいマスクを生成
 profile-label-delete = 削除
+
 # This string is followed by an email address
 profile-label-forward-emails = 転送元のメールアドレス:
+
 # This string is followed by date:
 profile-label-created = 作成日:
+
 profile-label-click-to-copy = クリックしてコピー
 profile-label-blocked = ブロック済み
 profile-label-forwarded = 転送済み
@@ -67,7 +70,6 @@ profile-promo-email-blocking-label-none-2 = すべてのメールをブロック
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = すべてのメールを転送
-profile-promo-email-blocking-label-not-forwarding = 転送しない
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = ({ -brand-name-premium } のみ)
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } に登録すると利用できます
 profile-promo-email-blocking-description-promotionals-locked-cta = 今すぐアップグレード

@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Aliverkkotunnuksesi @{ $subdomain } on luotu
 success-settings-update = Asetukset on päivitetty
 success-signed-out-message = Olet kirjautunut ulos.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Kirjauduttu käyttäjänä { $username }.
 error-premium-cannot-change-subdomain = Et voi vaihtaa aliverkkotunnustasi
 error-premium-set-subdomain = Sinun on oltava premium-tilaaja voidaksesi määrittää aliverkkotunnuksen
 error-premium-check-subdomain = Sinun on oltava premium-tilaaja voidaksesi tarkistaa aliverkkotunnuksen
-error-subdomain-not-created = Aliverkkotunnusta ei voitu luoda, kokeile jotain muuta
-error-subdomain-email-not-created = Sähköpostiosoitetta aliverkkotunnuksella ei voitu luoda, kokeile jotain muuta
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Aliverkkotunnus @{ $unavailable_subdomain } ei ole käytettävissä. Kokeile toista aliverkkotunnusta.
@@ -43,8 +38,6 @@ tips-header-title = Ohjeet ja vinkit
 tips-header-button-close-label = Hylkää
 tips-footer-link-faq-label = UKK
 tips-footer-link-faq-tooltip = Usein kysytyt kysymykset
-tips-footer-link-feedback-label = Palaute
-tips-footer-link-feedback-tooltip = Anna palautetta
 tips-footer-link-support-label = Tuki
 tips-footer-link-support-tooltip = Ota yhteys tukeen
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Ota yhteys tukeen
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Vinkki { $nr }
 tips-toast-button-expand-label = Lue lisää
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Estä mainossähköpostit
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Ota käyttöön "Estä mainossähköpostit" maskissa estääksesi markkinointisähköpostien saapumisen postilaatikkoosi.
@@ -62,9 +56,6 @@ popover-custom-alias-explainer-promotional-block-tooltip-trigger = Lisätietoja
 tips-custom-alias-heading-2 = Maskien luominen mukautetun aliverkkotunnuksen avulla
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Estä mainossähköpostit
-tips-promo-email-blocking-content = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
 
 ## Report of trackers removed from an email
 
@@ -116,6 +107,7 @@ contains-tracker-warning-title = Haluatko silti nähdä linkin?
 contains-tracker-warning-description = Varoitus: Tämän linkin napsauttaminen lähettää tietoa sinusta lähettäjälle
 contains-tracker-warning-view-link-cta = Kyllä, näytä linkki
 contains-tracker-faq-section-title = Usein kysyttyjä kysymyksiä sähköpostiseuraimista
+
 # This is a label displayed on top of a large number representing the number of days that the introductory pricing offer is still valid
 # There's not much room for this (about five characters), so this might need abbreviating.
 offer-countdown-timer-days = pv
@@ -132,18 +124,6 @@ offer-countdown-timer-seconds = s
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Asteikolla 1-10, kuinka todennäköisesti suosittelisit { -brand-name-relay }-palvelua ystävillesi tai työkavereillesi?
-survey-question-2 = Onko { -brand-name-relay } helppokäyttöinen?
-survey-question-3 = Onko { -brand-name-relay } mielestäsi luotettava?
-survey-question-4 = Onko { -brand-name-relay }n esitystapa selkeä ja yksinkertainen?
-survey-question-5 = Miltä sinusta tuntuisi, jos et voisi enää käyttää { -brand-name-relay }-palvelua?
-survey-option-strongly-disagree = Vahvasti eri mieltä
-survey-option-disagree = Eri mieltä
-survey-option-unsure = Epävarma
-survey-option-agree = Samaa mieltä
-survey-option-strongly-agree = Vahvasti samaa mieltä
-survey-option-i-wouldnt-care = Ei merkitystä
-survey-option-somewhat-disappointed = Hieman pettynyt
-survey-option-very-disappointed = Hyvin pettynyt
 survey-option-very-likely = Hyvin todennäköisesti
 survey-option-not-likely = Epätodennäköisesti
 survey-option-dismiss = Hylkää
@@ -162,28 +142,6 @@ survey-csat-followup = Kiitos palautteesta. Haluaisimme ymmärtää nykyistä pa
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } poistaa kopio- ja piilokopiovastaanottajat vastauksistasi. Jos lisäät ne uudelleen, todellinen sähköpostiosoitteesi paljastuu.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Päivitä { $premium_link }iin, niin saat rajattoman määrän sähköpostimaskeja, mukautetun aliverkkotunnuksen ja mahdollisuuden vastata sähköposteihin.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Kuukausittainen esittelyhintatarjouksemme on päättymässä. Päivitä { $premium_link }iin.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } tukee sähköpostin edelleenlähetystä (mukaan lukien liitteet) sähköpostiviestin ollessa kooltaan enintään { email-size-limit }. Lue lisää { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } sähköpostiseurainta poistettu
-forwarded-email-trackers-blocked-report = Lue lisää
-# This entire text is a link
-forwarded-email-footer-2 = Lopeta sähköpostin edelleenlähetys ja hallitse kaikkien maskien asetuksia täällä.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Päivitä { -brand-name-relay-premium }iin
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Päivitä { $premium_link }iin, ennen kuin tutustumishintamme vanhenee.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -236,6 +194,7 @@ what-can-you-do-with-relay-title = Mitä { -brand-name-firefox-relay } -palvelul
 what-can-you-do-with-relay-point-one = Vastaanota sähköpostia paljastamatta oikeaa sähköpostiosoitettasi lähettäjille
 forwarded-email-hero-header = Sait ensimmäisen edelleenlähetetyn sähköpostisi!
 forwarded-email-hero-desc = Näetkö otsakkeen? Se näkyy kaikissa { -brand-name-relay }-maskien välittämissä sähköpostiviesteissä.
+
 first-time-user-email-how-title = Miten { -brand-name-relay } toimii
 first-time-user-email-how-item-1-header = Käytä { -brand-name-relay }-maskia oikean sähköpostiosoitteesi sijaan kaikkialla
 # Variables
@@ -251,11 +210,11 @@ first-time-user-email-how-item-3-header = Hallitse maskeja { -brand-name-relay }
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Kirjaudu sisään</a> luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
 first-time-user-email-how-item-3-subhead-text = Kirjaudu sisään luodaksesi uusia maskeja, nimetäksesi maskeja ja poistaaksesi roskapostia saavia maskeja.
-first-time-user-email-extra-protection-inbox-title = Lisäsuojausta postilaatikollesi
+
 first-time-user-email-extra-protection-inbox-phone-title = Lisäsuojausta postilaatikollesi ja puhelimellesi
-first-time-user-email-extra-protection-inbox-subhead = Päivitä { -brand-name-relay-premium }iin, niin saat rajattomasti sähköpostimaskeja, mukautetun { -brand-name-relay }-verkkotunnuksen ja mukautetun postilaatikon hallinnan.
 first-time-user-email-extra-protection-inbox-phone-subhead = Päivitä { -brand-name-relay-premium }iin, niin saat rajattomasti sähköpostimaskeja – sekä oikeaa puhelinnumeroasi suojaavan maskin.
 first-time-user-email-extra-protection-cta = Hanki { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Onko sinulla kysymyksiä { -brand-name-firefox-relay } -palvelua koskien?
 # Variables
 #   $url (string) - URL of the support team website
@@ -277,8 +236,10 @@ first-time-user-email-footer-text-privacy = Ehdot ja tietosuoja
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Olet käyttänyt kaikki ilmaiseen tiliisi kuuluvat { $free_tier_limit } sähköpostimaskia. Voit käyttää olemassa olevaa maskia uudelleen, mutta yksilöllisen maskin käyttäminen jokaiselle tilille on kaikkein turvallisin vaihtoehto.
 api-error-free-tier-no-subdomain-masks = Ilmainen tilisi ei sisällä mukautettuja aliverkkotunnuksia maskeille. Jos haluat luoda mukautettuja maskeja, päivitä { -brand-name-relay-premium }iin.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" ei voitu luoda. Yritä uudelleen toisella maskin nimellä.
 api-error-need-subdomain = Valitse aliverkkotunnus ennen mukautetun sähköpostiosoitteen luomista.
 api-error-account-is-paused = Tilisi on keskeytetty.
+

@@ -7,14 +7,6 @@
 multi-part-onboarding-premium-welcome-headline = Välkommen till { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Låt oss hjälpa dig att få ut det mesta av ditt { -brand-name-premium }-konto.
 multi-part-onboarding-premium-welcome-feature-headline = Med { -brand-name-firefox-relay-premium } får du:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Obegränsade e-postalias
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Förbättra din integritet och säkerhet med ett unikt alias för varje webbplats
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Skapa omedelbart alias när du är på språng
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Skaffa en unik { -brand-name-relay } e-postdomän för att omedelbart skapa ett alias som är lätt att komma ihåg
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Anpassade inkorgskontroller
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kontrollera vilken typ av e-postmeddelanden som vidarebefordras till din inkorg
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyma svar
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Svara på vidarebefordrade e-postmeddelanden utan att dela din riktiga e-postadress
 multi-part-onboarding-premium-welcome-feature-cta = Konfigurera { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nu kan du styra vad som hamnar i din inkorg, ett e-postmeddelande i taget.
 
@@ -27,8 +19,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Ska
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Välj din föredragna e-postdomän { -brand-name-relay } och skapa sedan omedelbart nya alias genom att lägga till ett ord eller en fras före @-symbolen. <p>Shoppar du? Använd handla@dindomän.{ $mozmail }.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Sök efter ett ord eller en fras
-multi-part-onboarding-premium-email-domain-feature-input-search = Sök
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

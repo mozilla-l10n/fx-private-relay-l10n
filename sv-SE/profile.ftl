@@ -9,12 +9,11 @@ onboarding-headline-2 = Skapa ditt första e-postalias
 onboarding-alias-tip-1-2 = Välj "Generera nytt alias" för att skapa ditt första e-postalias.
 onboarding-alias-tip-2 = Använd tillägget { -brand-name-relay } och välj ikonen { -brand-name-firefox-relay } när den visas i e-postfälten.
 onboarding-alias-tip-3-2 = Använd tillägget { -brand-name-relay }, högerklicka på formulärfälten och välj "Generera nytt alias."
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span> Välkommen,</span> { $email }!
 profile-supports-email-forwarding = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek
-profile-promo-upgrade-headline = Uppgradera för ännu fler funktioner.
-profile-promo-upgrade-cta = Uppgradera { -brand-name-relay }
 profile-details-expand = Visa detaljer för alias
 profile-details-collapse = Dölj detaljer för alias
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = Klicka för att kopiera e-postalias { $address
 profile-label-edit-2 = Redigera etiketten för detta alias
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = Lägg till kontonamn
-profile-label-save-error = Det gick inte att spara, försök igen.
 profile-label-saved = Etikett sparad!
 profile-label-generate-new-alias-2 = Generera nytt e-postalias
 profile-label-generate-new-alias-menu-random-2 = Slumpmässigt e-postalias
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = Slumpmässigt e-postalias
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } e-postalias
 profile-label-delete = Ta bort
 profile-label-upgrade-2 = Få obegränsade e-postalias
-profile-label-create-subdomain = Skaffa din e-postunderdomän
-profile-label-subdomain = E-postunderdomän:
 profile-label-custom-domain = Din { -brand-name-relay } e-postdomän:
 # Deprecated
 profile-label-set-your-custom-domain = Ställ in din unika { -brand-name-relay } e-postdomän
-profile-label-subdomain-tooltip-trigger = Mer information
-profile-label-subdomain-tooltip = Skapa din unika underdomän för e-post.
 profile-label-reset = Återställ
 profile-label-apply = Tillämpa
-profile-label-skip = Hoppa över
 profile-label-continue = Fortsätt
+
 # This string is followed by an email address
 profile-label-forward-emails = Vidarebefordra e-post till:
-# This string is followed by date
-profile-label-first-emailed = Första e-posten:
+
 # This string is followed by date:
 profile-label-created = Skapad:
-profile-label-details-show = Visa detaljer
-profile-label-details-hide = Dölj detaljer
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = vidarebefordrar
-profile-label-blocking = blockerar
-profile-label-disable-forwarding-button-2 = Inaktivera vidarebefordran av e-post för detta e-postalias
-profile-label-enable-forwarding-button-2 = Aktivera vidarebefordran av e-post för detta e-postalias
+
 profile-label-click-to-copy = Klicka för att kopiera
 profile-label-copied = Kopierad!
 profile-label-blocked = Blockerad
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = { -brand-name-firefox-relay } tar bort meddelanden inna
 profile-forwarded-copy-2 = { -brand-name-firefox-relay } skickar meddelanden till din inkorg när du väljer vidarebefordran för detta alias.
 profile-forwarded-note = Obs:
 profile-forwarded-note-copy = E-post (inklusive bilagor) större än { email-size-limit } stöds för närvarande inte och kommer inte att vidarebefordras.
-profile-forwarded-note-copy-v2 = E-post (inklusive bilagor) större än { email-size-limit } vidarebefordras inte.
 profile-replies-tooltip = Du kan svara på e-postmeddelanden som tas emot via detta alias och { -brand-name-firefox-relay } kommer att fortsätta att skydda din riktiga e-postadress.
 profile-stat-learn-more = Läs mer
 profile-stat-learn-more-close = Stäng
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = Viktigt: Om du tar bort spårar
 profile-filter-search-placeholder-2 = Sök efter e-postalias
 profile-filter-category-button-label = Filtrera synliga e-postalias
 profile-filter-category-button-tooltip = Filtrera alias efter underdomän och/eller om de för närvarande blockerar inkommande e-post
-profile-filter-category-title = Filtrera synliga e-postalias
 profile-filter-no-results = Inga alias matchar dina valda kriterier. <clear-button>Rensa alla filter.</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = Vidarebefordrade e-postalias
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = Blockerar alla e-postmeddelanden
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = Vidarebefordrar alla e-postmeddelanden
-profile-promo-email-blocking-label-not-forwarding = Vidarebefordrar inte
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = (endast { -brand-name-premium })
 profile-promo-email-blocking-description-promotionals-locked-label = Tillgänglig för { -brand-name-relay-premium }-prenumeranter
 profile-promo-email-blocking-description-promotionals-locked-cta = Uppgradera nu

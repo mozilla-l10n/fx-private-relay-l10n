@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = @{ $subdomain } alt alan adınız oluşturuldu
 success-settings-update = Ayarlarınız güncellendi
 success-signed-out-message = Çıkış yaptınız.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = { $username } olarak başarıyla giriş yapıldı.
 error-premium-cannot-change-subdomain = Alt alan adınızı değiştiremezsiniz
 error-premium-set-subdomain = Alt alan adı ayarlamak için premium abone olmalısınız
 error-premium-check-subdomain = Bir alt alan adını kontrol etmek için premium abone olmalısınız
-error-subdomain-not-created = Alt alan adı oluşturulamadı. Başka bir şey deneyin
-error-subdomain-email-not-created = Alt alan adıyla e-posta adresi oluşturulamadı. Başka bir şey deneyin
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = @{ $unavailable_subdomain } alt alan adı kullanılamıyor. Lütfen farklı bir tane deneyin.
@@ -43,8 +38,6 @@ tips-header-title = Yardım ve İpuçları
 tips-header-button-close-label = Kapat
 tips-footer-link-faq-label = SSS
 tips-footer-link-faq-tooltip = Sıkça sorulan sorular
-tips-footer-link-feedback-label = Görüş bildir
-tips-footer-link-feedback-tooltip = Geri bildirim gönder
 tips-footer-link-support-label = Destek
 tips-footer-link-support-tooltip = Destek birimine ulaş
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Destek birimine ulaş
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = İpucu { $nr }
 tips-toast-button-expand-label = Daha fazla bilgi al
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Reklam e-postalarını engelleme
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Reklam e-postalarının gelen kutunuza ulaşmasını engellemek için maskelerinizden “Reklam e-postalarını engelle” seçeneğini etkinleştirebilirsiniz.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Kendi alt alan adınızı kullanarak maske oluştu
 tips-custom-alias-content-2 = Tek yapmanız gereken, özel alt alan adınızı kullanan bir maske kullanıcı adı uydurmak. Uydurduğunuz maske otomatik olarak oluşturulacaktır. Örneğin, bir sonraki alışverişlerinizde “magazaadi@alanadiniz.mozmail.com” adresini deneyebilirsiniz.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Reklam e-postalarını engelleme
-tips-promo-email-blocking-content = { -brand-name-relay-premium } ile reklam e-postalarının gelen kutunuza ulaşmasını engellerken fatura, kargo bilgisi gibi e-postaların size ulaşmasını sağlayabilirsiniz.
 
 ## Report of trackers removed from an email
 
@@ -112,6 +103,7 @@ contains-tracker-description =
 contains-tracker-warning-title = Bağlantıyı yine de görüntülemek istiyor musunuz?
 contains-tracker-warning-view-link-cta = Evet, bağlantıyı göster
 contains-tracker-faq-section-title = E-posta takip kodlarıyla ilgili sık sorulan sorular
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -154,18 +146,6 @@ offer-countdown-timer-seconds = Saniye
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = 1-10 arası bir ölçekte, { -brand-name-relay }’i bir arkadaşınıza önerme olasılığınız nedir?
-survey-question-2 = { -brand-name-relay }’in kullanımı kolay mı?
-survey-question-3 = { -brand-name-relay }’in güvenilir olduğunu düşünüyor musunuz?
-survey-question-4 = { -brand-name-relay } yalın ve basit bir arayüze sahip mi?
-survey-question-5 = { -brand-name-relay }’i artık kullanamayacak olsanız ne hissederdiniz?
-survey-option-strongly-disagree = Kesinlikle katılmıyorum
-survey-option-disagree = Katılmıyorum
-survey-option-unsure = Emin değilim
-survey-option-agree = Katılıyorum
-survey-option-strongly-agree = Kesinlikle katılıyorum
-survey-option-i-wouldnt-care = Umrumda olmazdı
-survey-option-somewhat-disappointed = Biraz hayal kırıklığına uğrardım
-survey-option-very-disappointed = Çok hayal kırıklığına uğrardım
 survey-option-very-likely = Çok yüksek
 survey-option-not-likely = Çok düşük
 survey-option-dismiss = Kapat
@@ -184,25 +164,6 @@ survey-csat-followup = Görüşleriniz için teşekkürler. { -brand-name-relay 
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Bu ileti { $linked_origin } aracılığıyla { $display_email } adresinden yönlendirildi.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } en fazla { email-size-limit } boyutundaki e-postaları (ekleri dahil) iletebilir. Daha fazla bilgi için { $faq_link } sayfamıza bakabilirsiniz.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-posta takip kodu kaldırıldı
-forwarded-email-trackers-blocked-report = Daha fazla bilgi alın
-# This entire text is a link
-forwarded-email-footer-2 = E-posta yönlendirmeyi durdurabilir ve tüm maskelerin ayarlarını buradan yönetebilirsiniz.
-# This entire text is a link
-forwarded-email-footer-premium-banner = { -brand-name-relay-premium }’a yükseltin
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Tanıtım fiyatımız sona ermeden { $premium_link } aboneliğine yükseltin.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -265,6 +226,7 @@ our-promise-header = Size söz veriyoruz
 what-can-you-do-with-relay-title = { -brand-name-firefox-relay } ile neler yapabilirsiniz?
 forwarded-email-hero-header = Yönlendirilen ilk e-postanızı aldınız!
 forwarded-email-hero-desc = Başlığı fark ettiniz mi? { -brand-name-relay } maskeleri ile yönlendirilen tüm e-postalarda bu başlık görünecektir.
+
 first-time-user-email-how-title = { -brand-name-relay } nasıl çalışır?
 first-time-user-email-how-item-1-header = İstediğiniz yerde gerçek e-postanız yerine { -brand-name-relay } maskesi kullanın
 # Variables
@@ -280,9 +242,10 @@ first-time-user-email-how-item-3-header = Maskelerinizi { -brand-name-relay } ko
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için <a href="{ $url }" { $attrs }>giriş yapın</a>.
 first-time-user-email-how-item-3-subhead-text = Yeni maskeler oluşturmak, maskelerinizi etiketlemek ve spam gelen maskeleri silmek için giriş yapın.
-first-time-user-email-extra-protection-inbox-title = Gelen kutunuz için ekstra koruma
+
 first-time-user-email-extra-protection-inbox-phone-title = Gelen kutunuz ve telefonunuz için ekstra koruma
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } üyesi olun
+
 first-time-user-email-questions-title = { -brand-name-firefox-relay } ile ilgili sorularınız mı var?
 # Variables
 #   $url (string) - URL of the support team website
@@ -304,3 +267,4 @@ first-time-user-email-footer-text-privacy = Koşullar ve Gizlilik
 api-error-address-unavailable = “{ $unavailable_address }” oluşturulamadı. Lütfen farklı bir maske adıyla yeniden deneyin.
 api-error-need-subdomain = Özel bir e-posta adresi oluşturmadan önce lütfen bir alt alan adı seçin.
 api-error-account-is-paused = Hesabınız duraklatıldı.
+

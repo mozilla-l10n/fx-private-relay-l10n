@@ -7,28 +7,17 @@
 
 settings-headline = Impostazioni di { -brand-name-relay }
 settings-meta-contact-label = Contatti
-settings-meta-contact-tooltip = Contattaci riguardo a { -brand-name-relay }
 settings-meta-help-label = Guida e supporto
 settings-meta-help-tooltip = Ricevi assistenza sull’utilizzo di { -brand-name-relay }
 settings-meta-status-label = Stato del servizio
 settings-meta-status-tooltip = Verifica se tutti i sistemi di { -brand-name-relay } sono attualmente operativi.
-settings-error-save-heading = Modifica delle impostazioni non riuscita
-settings-error-save-description = Le modifiche alle impostazioni non sono state salvate a causa di un errore di connessione. Riprova.
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = La funzione di etichetta per gli alias email è disattivata
 settings-warning-collection-off-heading-3 = I nomi account per gli alias di posta elettronica sono disattivati
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = { -brand-name-relay } non è attualmente autorizzato a raccogliere i dati relativi ai siti dove hai generato e utilizzato gli alias email. È possibile modificare questa opzione in “Impostazioni”, nella sezione “Raccolta dati”.
 settings-warning-collection-off-description-3 = { -brand-name-relay } non è attualmente autorizzato a contrassegnare i tuoi alias con i siti web in cui li hai utilizzati. Puoi cambiare questa impostazione attivando i nomi account per gli alias di posta elettronica in “Privacy”.
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = Privacy
-setting-label-collection-description-2 = Consenti a { -brand-name-relay } di raccogliere i dati relativi ai siti dove vengono generati e utilizzati i tuoi alias.
 setting-label-collection-description-3 = Attiva nomi account per gli alias di posta elettronica
-# This is a warning displayed when the user toggles off server storage of mask labels, but hasn't pressed "Save" yet.
-setting-label-collection-off-warning-2 = Questi dati ci consentiranno di etichettare i tuoi alias con i siti web dove vengono utilizzati. Se decidi di disattivare questa preferenza, i tuoi alias non verranno più etichettati in questo modo.
 setting-label-collection-off-warning-3 = { -brand-name-firefox-relay } memorizzerà i siti web in cui hai utilizzato i tuoi alias di posta elettronica e utilizzerà questa informazione per contrassegnare gli alias, così da poterli identificare più facilmente. Disattivando questa opzione, non sarai più in grado di stabilire dove hai utilizzato ciascun alias e i nomi dei tuoi account non verranno più sincronizzati tra i dispositivi.
 settings-button-save-label = Salva
-settings-button-save-tooltip = Applica le impostazioni scelte.
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = Chiave API
 settings-api-key-description = Questa è la tua chiave API per { -brand-name-relay }. Consente ad altre applicazioni di accedere automaticamente al tuo account { -brand-name-relay }.

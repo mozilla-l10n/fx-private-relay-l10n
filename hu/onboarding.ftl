@@ -8,14 +8,6 @@
 multi-part-onboarding-premium-welcome-headline = Üdvözli a { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Állítsuk be a dolgokat, hogy a lehető legtöbbet hozza ki a { -brand-name-premium } fiókjából.
 multi-part-onboarding-premium-welcome-feature-headline = A { -brand-name-firefox-relay-premium }mal a következőket kapja:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Korlátlan számú e-mail-maszk
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Fokozza adatvédelmét és biztonságát egy egyedi maszkkal minden webhelynél
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Azonnal készítsen maszkokat útközben
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Szerezzen egyedi { -brand-name-relay } e-mail-domaint az azonnali, könnyen megjegyezhető maszkok létrehozásához
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Egyéni postaláda-vezérlők
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Szabályozza, hogy milyen típusú e-mailek legyenek továbbítva a postaládájába
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Névtelen válaszok
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Válaszoljon az átirányított e-mailekre anélkül, hogy megosztaná valódi e-mail-címét
 multi-part-onboarding-premium-welcome-feature-cta = A { -brand-name-relay-premium } beállítása
 multi-part-onboarding-premium-welcome-subheadline = Mostantól e-mail-címenként szabályozhatja, hogy mi kerüljön a postaládájába.
 
@@ -28,8 +20,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Azo
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Válassza ki a kívánt { -brand-name-relay } e-mail-domaint, majd azonnal hozzon létre új maszkokat úgy, hogy tetszőleges szót vagy kifejezést ad meg a @ szimbólum előtt. <p>Vásárlás? Használja a bolt@sajatdomain.{ $mozmail } címet.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Keressen egy szót vagy kifejezést
-multi-part-onboarding-premium-email-domain-feature-input-search = Keresés
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -48,6 +38,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = Adja hozzá a { -brand
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } kiegészítő hozzáadva!
 multi-part-onboarding-premium-added-extension-body = Többé nem kell bejelentkeznie a { -brand-name-relay } szolgáltatásba, hogy új maszkot hozzon létre – csak keresse a Relay ikont, amikor a webhelyek az Ön e-mail-címét kérik.
+
 multi-part-onboarding-premium-extension-button-dashboard = Ugrás a vezérlőpultra
 multi-part-onboarding-skip = Kihagyás, beállítás később
 multi-part-onboarding-skip-download-extension = Kihagyás, a kiegészítő letöltése később
@@ -59,4 +50,5 @@ multi-part-onboarding-reply-headline = Válaszoljon a leveleire
 onboarding-premium-title-detail = A { -brand-name-firefox-relay-premium }mal a következőket teheti:
 onboarding-premium-reply-description-2 = Válaszolnia kell a maszkra küldött levelekre? Csak válaszoljon a szokásos módon – a maszk továbbra is védi az e-mail-címét.
 multi-part-onboarding-premium-reply-description = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
+
 multi-part-onboarding-step-counter = { $step }. / { $max } lépés

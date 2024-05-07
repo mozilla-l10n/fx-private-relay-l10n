@@ -61,16 +61,6 @@ landing-faq-cta = { -brand-name-firefox-relay } に関するよくある質問�
 
 premium-promo-hero-cta = 今すぐアップグレード
 
-premium-promo-availability-warning = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スイス、イギリス、アメリカで利用できます。
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } は、現在オーストリア、ベルギー、カナダ、フィンランド、フランス、ドイツ、アイルランド、イタリア、マレーシア、ドイツ、ニュージーランド、シンガポール、スペイン、スウェーデン、スイス、イギリス、アメリカで利用できます。
-
-premium-promo-perks-cta-label = 今すぐアップグレード
-premium-promo-perks-perk-block-promotionals-headline = 広告メールをブロック
-
-premium-promo-use-cases-shopping-heading = ショッピング
-premium-promo-use-cases-social-networks-heading = SNS
-premium-promo-use-cases-gaming-heading = ゲーム
-
 ## The Premium waitlist page
 
 waitlist-control-required = 必須

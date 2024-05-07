@@ -25,10 +25,6 @@ bundle-banner-plan-modules-email-masking = Απόκρυψη email
 bundle-banner-plan-modules-phone-masking = Απόκρυψη τηλεφώνου
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Απόκτηση των { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } και { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = Εγγύηση επιστροφής χρημάτων { $days_guarantee } ημερών για νέους συνδρομητές
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Περισσότεροι από { $num_vpn_servers } διακομιστές
@@ -72,30 +68,14 @@ plan-matrix-heading-plan-free = Περιορισμένη προστασία emai
 plan-matrix-heading-plan-premium = Προστασία email
 plan-matrix-heading-plan-phones = Προστασία email και τηλεφώνου
 plan-matrix-heading-plan-bundle-2 = Προσθήκη προστασίας { -brand-name-vpn }
-plan-matrix-heading-plan-bundle-alt = Αποκτήστε τα { -brand-name-relay-premium } και { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = Μάσκες email για την προστασία της πραγματικής σας διεύθυνσης email
-plan-matrix-feature-browser-extension = Επέκταση για χρήση του { -brand-name-relay } σε κάθε ιστότοπο
-plan-matrix-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
-plan-matrix-feature-promo-email-blocking = Φραγή διαφημιστικών email
-plan-matrix-feature-email-subdomain = Τομέας email { -brand-name-relay } για τη δημιουργία μασκών εν κινήσει
-plan-matrix-feature-email-reply = Απάντηση σε email ανώνυμα
 plan-matrix-feature-phone-mask = Μάσκα τηλεφώνου για την προστασία του πραγματικού αριθμού τηλεφώνου σας
 plan-matrix-feature-vpn = Προστασία { -brand-name-vpn } από το <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = Μάσκες email
-plan-matrix-feature-mobile-browser-extension = Επέκταση φυλλομετρητή
-plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
-plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
-plan-matrix-feature-mobile-email-subdomain = Μοναδικός τομέας email { -brand-name-relay }
-plan-matrix-feature-mobile-email-reply = Απάντηση σε email ανώνυμα
-plan-matrix-feature-mobile-phone-mask = Προστασία του πραγματικού σας αριθμού τηλεφώνου
-plan-matrix-feature-mobile-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -118,7 +98,6 @@ plan-matrix-price-vpn-discount-promo = <span>Εξοικονομήστε { $savin
 
 # Plan CTAs
 
-plan-matrix-upgrade = Αναβάθμιση
 plan-matrix-sign-up = Εγγραφή
 plan-matrix-get-relay-cta = Λήψη του { -brand-name-relay }
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
@@ -152,45 +131,13 @@ highlighted-features-section-new-item = Νέο!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = Δημιουργία απεριόριστων μασκών email
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Όλοι λαμβάνουν { $mask_limit } δωρεάν μάσκες email. 
-    Αλλά με το { -brand-name-relay-premium }, μπορείτε να δημιουργήσετε όσες μάσκες χρειάζεστε για την προστασία των εισερχόμενων email σας 
-    από ανεπιθύμητα μηνύματα, χάκερ και ιχνηλάτες.
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = Άμεση δημιουργία μασκών εν κινήσει
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    Το { -brand-name-relay-premium } σάς παρέχει έναν μοναδικό τομέα email στο { -brand-name-relay }, ώστε να 
-    δημιουργείτε νέες μάσκες όπου κι αν βρίσκεστε. Προσθέστε απλώς μια λέξη ή φράση πριν από το σύμβολο «@». Βρίσκεστε σε εστιατόριο; Χρησιμοποιήστε το estiatorio@otomeassas.{ $mozmail }. 
-    Κάνετε αγορές; Δοκιμάστε το agores@otomeassas.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Απάντηση σε email και μηνύματα ανώνυμα
-highlighted-features-section-replying-body =
-    Το { -brand-name-relay-premium } σάς επιτρέπει να απαντάτε σε email μέσω των μασκών email σας, ώστε να μη
-    μάθουν ποτέ οι αποστολείς την πραγματική σας διεύθυνση email. Με την απόκρυψη τηλεφώνου, μπορείτε να
-    απαντάτε σε μηνύματα μέσω της μάσκας αριθμού τηλεφώνου για την προστασία του πραγματικού σας αριθμού.
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Φραγή διαφημιστικών email
-highlighted-features-section-block-promotions-body =
-    Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email 
-    από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = Αφαίρεση ιχνηλατών email
-highlighted-features-section-remove-trackers-body =
-    Το { -brand-name-relay } μπορεί να αφαιρεί κοινούς ιχνηλάτες email από όλα τα προωθημένα email σας,
-    βοηθώντας σας να παραμείνετε αόρατοι για τους ιχνηλάτες και τους διαφημιστές.
 
 ## FAQ SECTION
 
@@ -202,51 +149,9 @@ landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσ�
 premium-promo-hero-headline = Προστατέψτε ευκολότερα τα εισερχόμενά σας με το { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email. <b>Για περιορισμένο χρονικό διάστημα, μπορείτε να αναβαθμίσετε στο { -brand-name-relay-premium } με μόλις { $monthly_price } τον μήνα.</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email.
 premium-promo-hero-cta = Αναβάθμιση τώρα
-premium-promo-offer-end-hero-heading = Η προσφορά γνωριμίας μας λήγει σύντομα!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
-premium-promo-offer-end-hero-cta = Αναβάθμιση τώρα
-premium-promo-availability-warning = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
-premium-promo-availability-warning-2 = Το { -brand-name-relay-premium } διατίθεται προς το παρόν στην Αυστρία, το Βέλγιο, τον Καναδά, τη Γαλλία, τη Φινλανδία, τη Γερμανία, την Ιρλανδία, την Ιταλία, τη Μαλαισία, την Ολλανδία, τη Νέα Ζηλανδία, τη Σιγκαπούρη, την Ισπανία, τη Σουηδία, την Ελβετία, το Ηνωμένο Βασίλειο και τις ΗΠΑ.
-premium-promo-availability-warning-3 = Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Πορτογαλία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία και τη Φινλανδία.
 premium-promo-availability-warning-4 = Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Βουλγαρία, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κροατία, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Ουγγαρία, την Πολωνία, την Πορτογαλία, τη Ρουμανία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία, την Τσεχία και τη Φινλανδία.
-premium-promo-perks-headline = Γιατί να αναβαθμίσω στο { -brand-name-firefox-relay-premium };
-premium-promo-perks-lead-2 = Με το { -brand-name-firefox-relay-premium }, έχετε όλη την προστασία και τη διαχείριση εισερχομένων του { -brand-name-relay }, αλλά με απεριόριστες μάσκες email και τον δικό σας προσαρμοσμένο υποτομέα για ακόμα πιο εύκολη διαχείριση των εισερχομένων σας.
-premium-promo-perks-cta-label = Αναβάθμιση τώρα
-premium-promo-perks-cta-tooltip = Αναβάθμιση στο { -brand-name-firefox-relay-premium }
-premium-promo-perks-pill-new = Νέο!
-premium-promo-perks-perk-unlimited-headline-2 = Δημιουργία απεριόριστων μασκών email
-premium-promo-perks-perk-unlimited-body-2 = Χωρίς τον περιορισμό των πέντε μασκών: με το { -brand-name-relay-premium }, μπορείτε να έχετε όσες μάσκες χρειάζεστε για την προστασία των εισερχομένων σας από ανεπιθύμητα μηνύματα και διαδικτυακούς ιχνηλάτες. Μπορείτε ακόμα και να απαντήσετε σε email χωρίς να εκτεθεί η πραγματική σας διεύθυνση.
-premium-promo-perks-perk-custom-domain-headline-2 = Επιλέξτε τον δικό σας προσαρμοσμένο υποτομέα
-premium-promo-perks-perk-custom-domain-body-2 = Με έναν προσαρμοσμένο υποτομέα, μπορείτε να δημιουργήσετε μάσκες που μπορείτε να θυμάστε και να μοιράζεστε πιο εύκολα από ποτέ. Χρειάζεστε μία για κρατήσεις σε εστιατόρια; Χρησιμοποιήστε κάτι σαν αυτό: faghto@otomeasmou.mozmail.com — Δεν χρειάζεται να έχετε δημιουργήσει τη μάσκα εκ των προτέρων.
-premium-promo-perks-perk-dashboard-headline-2 = Ελέγξτε τις μάσκες σας από τον πίνακα ελέγχου
-premium-promo-perks-perk-dashboard-body-2 = Διαχειριστείτε όλες τις μάσκες email σας στον εύχρηστο πίνακα ελέγχου: αν διαπιστώσετε ότι κάποιο λαμβάνει ανεπιθύμητα μηνύματα, μπορείτε να τα αποκλείσετε από τα εισερχόμενά σας.
-premium-promo-perks-perk-block-promotionals-headline = Φραγή διαφημιστικών email
-premium-promo-perks-perk-block-promotionals-body = Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
-premium-promo-perks-perk-tracker-blocking-headline = Αφαίρεση ιχνηλατών email
-premium-promo-perks-perk-tracker-blocking-body = Το { -brand-name-relay } σάς βοηθά πλέον να διακόπτετε την καταγραφή email — οι μάσκες email σας θα αφαιρέσουν τους κοινούς ιχνηλάτες email από τα προωθημένα email, βοηθώντας σας να παραμείνετε αόρατοι σε ιχνηλάτες και διαφημιστές.
-premium-promo-use-cases-headline-2 = Χρησιμοποιήστε τις μάσκες email του { -brand-name-relay } παντού
-premium-promo-use-cases-shopping-heading = Αγορές
-premium-promo-use-cases-shopping-body-2 = Θέλετε να εγγραφείτε για εκπτώσεις, χωρίς ανεπιθύμητα μηνύματα; Ομαδοποιήστε τους λογαριασμούς αγορών σας σε προσαρμοσμένες μάσκες email, όπως το «prosfores@otomeasmou.mozmail.com».
-premium-promo-use-cases-social-networks-heading = Κοινωνικά δίκτυα
-premium-promo-use-cases-social-networks-body-2 = Θέλετε να προστατεύσετε καλύτερα την ηλεκτρονική σας ταυτότητα σε ένα κοινωνικό δίκτυο; Χρησιμοποιήστε μια διαφορετική μάσκα email για να συνδεθείτε σε κάθε κοινωνικό δίκτυο και να αποτρέψετε την έκθεση του πραγματικού σας email σε αυτούς τους ιστοτόπους.
-premium-promo-use-cases-gaming-heading = Παιχνίδια
-premium-promo-use-cases-gaming-body-2 = Ανησυχείτε μήπως ανακαλύψουν την ταυτότητά σας οι άλλοι παίκτες ή τα τρολ, μέσω του ονόματος παίκτη και της διεύθυνσης email σας; Χρησιμοποιήστε μια μάσκα όπως το «paixnidi@otomeasmou.mozmail.com» για να προσθέσετε ένα ακόμα επίπεδο προστασίας για την ταυτότητά σας.
-premium-promo-pricing-free-price = Το τρέχον δωρεάν πρόγραμμά σας
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = Τιμή γνωριμίας: Απεριόριστες μάσκες με { $monthly_price } ανά μήνα
-premium-promo-pricing-offer-end-warning = Αυτή η προσφορά λήγει σύντομα
-premium-promo-pricing-offer-end-cta = Αναβάθμιση τώρα
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = Αποκτήστε το { -brand-name-relay-premium } πριν τις { $end_date } και απολαύστε προνομιακή προστασία email στη μηνιαία τιμή γνωριμίας μας.
 
 ## The Premium waitlist page
 

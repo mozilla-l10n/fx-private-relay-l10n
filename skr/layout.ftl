@@ -7,6 +7,7 @@
 
 meta-title = { -brand-name-firefox-relay }
 meta-description-2 = { -brand-name-firefox-relay } تہاݙے اصلی ان باکس وچ تہاݙے سنیہے بھیڄݨ واسطے ہک ای میل دا ماسک بنݨیندا ہے۔ آپݨے انلائن کھاتے کوں ہیکر تے غیر ضروری سنہیے کولوں بچاون کیتے انہاں کوں استعمال کرو۔
+
 # When there is an icon indicating that a link opens in a new tab, this is the text that screen readers will read.
 common-link-newtab-alt = (نویں ٹیب وچ کھُلدے)
 
@@ -20,15 +21,13 @@ nav-email-dashboard = ای میل ماسکس
 nav-phone-dashboard = فون ماسکس
 label-open-menu = مینیو کھولو
 avatar-tooltip = پروفائل
+
 # FAQ stands for Frequently Asked Questions. The intent of this page is to answer commonly asked questions.
 nav-faq = عمومی سوالات
 nav-profile-sign-in = سائن ان
 nav-profile-sign-up = سائن اپ
-# Deprecated
-nav-profile-manage-fxa = آپݨاں { -brand-name-firefox-account(capitalization: "uppercase") } منیج کرو
 nav-profile-manage-account = آپݨاں کھاتہ منیج کرو
 nav-profile-sign-out = سائن آؤٹ
-nav-profile-sign-out-relay = { -brand-name-relay } توں سائن آؤٹ تھیوو
 nav-profile-sign-out-confirm = بھلا تہاکوں پک ہے جو تساں سائن آؤٹ تھیوݨ چاہندے ہو؟
 nav-profile-settings = ترتیباں
 nav-profile-settings-tooltip = { -brand-name-firefox-relay } کنفیگر کرو
@@ -55,6 +54,7 @@ nav-support = مدد تے سہارا
 nav-sign-out = سائن آؤٹ
 nav-contact = ساݙے نال رابطہ کرو
 nav-menu-mobile = موبائل مینیو
+
 fx-desktop-2 = ڈیسک ٹاپ کیتے { -brand-name-firefox }
 fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 
@@ -63,10 +63,7 @@ fx-mobile-2 = موبائل کیتے { -brand-name-firefox }
 nav-footer-privacy = رازداری
 nav-footer-relay-terms = { -brand-name-relay } ٹرماں
 nav-footer-legal = قنونی
-nav-footer-release-notes = ریلیز نوٹس
-nav-footer-stock-photo-legal = ایں ورقے دے فوٹواں دا ماخذ  iStock, © iStockPhoto.com ہے
 logo-mozilla-alt = { -brand-name-mozilla }
-logo-github-alt = GitHub لوگو
 
 ## Bento Menu
 
@@ -74,9 +71,8 @@ bento-button-title = { -brand-name-firefox } ایپ تے خدمتاں
 fx-makes-tech = { -brand-name-firefox } او ٹیکنالوجی ہے جہڑی تہاݙی آن لائن رازداری کیتے بھِڑدی ہے۔
 made-by-mozilla = { -brand-name-mozilla } ولوں بݨیا
 fx-desktop = ڈیسک ٹاپ کیتے { -brand-name-firefox-browser }
-fx-lockwise = { -brand-name-firefox-lockwise }
 fx-mobile = موبائل کیتے { -brand-name-firefox-browser }
 moz-monitor = { -brand-name-mozilla-monitor }
 fx-pocket = { -brand-name-pocket }
 fx-vpn = { -brand-name-mozilla-vpn }
-bento-button-close-label = مینیو بند کرو
+

@@ -22,7 +22,6 @@ plan-matrix-heading-features = Funcionalidades
 plan-matrix-heading-plan-free = Proteção de e-mail limitada
 plan-matrix-heading-plan-premium = Proteção de e-mail
 plan-matrix-heading-plan-phones = Proteção de e-mail e de telefone
-plan-matrix-heading-plan-bundle-alt = Obter o { -brand-name-relay-premium } e a { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
@@ -77,24 +76,6 @@ landing-faq-headline = Perguntas principais sobre o { -brand-name-firefox-relay 
 ## Premium promo page
 
 premium-promo-hero-cta = Atualizar agora
-
-premium-promo-offer-end-hero-heading = A nossa oferta de preço de lançamento termina em breve!
-premium-promo-offer-end-hero-cta = Atualizar agora
-
-premium-promo-perks-headline = Porquê atualizar para o { -brand-name-firefox-relay-premium }?
-premium-promo-perks-cta-label = Atualizar agora
-premium-promo-perks-cta-tooltip = Atualizar para o { -brand-name-firefox-relay-premium }
-premium-promo-perks-pill-new = Novo!
-premium-promo-perks-perk-tracker-blocking-headline = Remover rastreadores de e-mail
-
-premium-promo-use-cases-shopping-heading = Compras
-premium-promo-use-cases-social-networks-heading = Redes sociais
-premium-promo-use-cases-gaming-heading = Jogos
-
-premium-promo-pricing-free-price = O seu plano gratuito atual
-
-premium-promo-pricing-offer-end-warning = Esta promoção expira brevemente
-premium-promo-pricing-offer-end-cta = Atualizar agora
 
 ## The Premium waitlist page
 

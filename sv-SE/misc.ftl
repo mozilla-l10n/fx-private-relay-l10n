@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Din underdomän @{ $subdomain } har skapats
 success-settings-update = Dina inställningar har uppdaterats
 success-signed-out-message = Du har loggat ut.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Inloggad som { $username }.
 error-premium-cannot-change-subdomain = Du kan inte ändra din underdomän
 error-premium-set-subdomain = Du måste vara en premiumabonnent för att ställa in en underdomän
 error-premium-check-subdomain = Du måste vara en premiumabonnent för att kontrollera en underdomän
-error-subdomain-not-created = Underdomänen kunde inte skapas, prova något annat
-error-subdomain-email-not-created = E-postadress med underdomän kunde inte skapas, prova något annat
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Underdomänen @{ $unavailable_subdomain } är inte tillgänglig. Försök igen med en annan.
@@ -43,8 +38,6 @@ tips-header-title = Hjälp & tips
 tips-header-button-close-label = Ignorera
 tips-footer-link-faq-label = Vanliga frågor
 tips-footer-link-faq-tooltip = Vanliga frågor
-tips-footer-link-feedback-label = Återkoppling
-tips-footer-link-feedback-tooltip = Ge återkoppling
 tips-footer-link-support-label = Support
 tips-footer-link-support-tooltip = Kontakta supporten
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Kontakta supporten
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Tips { $nr }
 tips-toast-button-expand-label = Läs mer
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Blockera reklammeddelanden
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Aktivera Blockera reklammeddelanden för ett alias för att hindra marknadsföringsmeddelanden från att nå din inkorg.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Skapa alias med din anpassade underdomän
 tips-custom-alias-content-2 = Allt du behöver göra är att skapa och dela ett unikt alias som använder din anpassade underdomän — ett alias kommer att genereras automatiskt. Prova "shop@customsubdomain.mozmail.com" nästa gång du handlar online, till exempel.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Blockera reklammeddelanden
-tips-promo-email-blocking-content = Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din inkorg samtidigt som du kan ta emot e-postmeddelanden som kvitton eller leveransinformation.
 
 ## Report of trackers removed from an email
 
@@ -118,6 +109,7 @@ contains-tracker-warning-title = Vill du fortfarande se länken?
 contains-tracker-warning-description = Varning: Genom att klicka på denna länk skickas information om dig tillbaka till avsändaren
 contains-tracker-warning-view-link-cta = Ja, visa länk
 contains-tracker-faq-section-title = Vanliga frågor om e-postspårare
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -159,18 +151,6 @@ offer-countdown-timer-seconds = Sek.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = På en skala från 1-10, hur troligt är det att du skulle rekommendera { -brand-name-relay } till en vän eller kollega?
-survey-question-2 = Är { -brand-name-relay } lätt att använda?
-survey-question-3 = Tycker du att { -brand-name-relay } är pålitlig?
-survey-question-4 = Har { -brand-name-relay } en ren och enkel presentation?
-survey-question-5 = Hur skulle du känna om du inte längre kunde använda { -brand-name-relay }?
-survey-option-strongly-disagree = Håller inte alls med
-survey-option-disagree = Håller inte med
-survey-option-unsure = Osäker
-survey-option-agree = Håller med
-survey-option-strongly-agree = Håller helt med
-survey-option-i-wouldnt-care = Jag bryr mig inte
-survey-option-somewhat-disappointed = Något besviken
-survey-option-very-disappointed = Väldigt besviken
 survey-option-very-likely = Väldigt troligt
 survey-option-not-likely = Inte troligt
 survey-option-dismiss = Ignorera
@@ -189,32 +169,6 @@ survey-csat-followup = Tack för din återkoppling. Vi skulle vilja veta mer om 
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Det här meddelandet vidarebefordrades från { $display_email } av { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } tar bort kopior och dolda kopior från dina svar. Om du lägger till dem igen kommer din riktiga e-post att exponeras.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Uppgradera till { $premium_link } för att få obegränsade e-postalias, en anpassad underdomän och möjligheten att svara på e-postmeddelanden.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Vårt månatliga erbjudande till introduktionspris upphör. Uppgradera till { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } stöder vidarebefordran av e-post (inklusive bilagor) av e-postmeddelanden upp till { email-size-limit } i storlek. Mer information finns i vår { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } e-postspårare har tagits bort
-forwarded-email-trackers-blocked-report = Läs mer
-# This entire text is a link
-forwarded-email-footer-2 = Sluta vidarebefordra e-post och hantera inställningar för alla alias här.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Uppgradera till { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Uppgradera till { $premium_link } innan våra introduktionspriser upphör.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -286,6 +240,7 @@ what-can-you-do-with-relay-point-three = Blockera spam från att nå din inkorg 
 what-can-you-do-with-relay-point-three-subpoint = På instrumentpanelen för { -brand-name-relay } kan du skapa alias, märka dem för att notera var du använder dem, aktivera spamblockering och ta bort alla du inte längre vill ha.
 forwarded-email-hero-header = Du fick ditt första vidarebefordrade e-postmeddelande!
 forwarded-email-hero-desc = Ser du den där rubriken? Det kommer att visas på alla e-postmeddelanden som vidarebefordras av { -brand-name-relay } alias.
+
 first-time-user-email-how-title = Hur { -brand-name-relay } fungerar
 first-time-user-email-how-item-1-header = Använd ett { -brand-name-relay }-alias istället för din riktiga e-post, överallt
 # Variables
@@ -301,11 +256,11 @@ first-time-user-email-how-item-3-header = Hantera dina alias från översikten i
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Logga in</a> för att skapa nya alias, märk dina alias och ta bort alias som får skräppost.
 first-time-user-email-how-item-3-subhead-text = Logga in för att skapa nya alias, märk dina alias och ta bort alias som får skräppost.
-first-time-user-email-extra-protection-inbox-title = Extra skydd för din inkorg
+
 first-time-user-email-extra-protection-inbox-phone-title = Extra skydd för din inkorg och telefon
-first-time-user-email-extra-protection-inbox-subhead = Uppgradera till { -brand-name-relay-premium } för att få obegränsade e-postalias, en anpassad { -brand-name-relay }-domän och anpassade inkorgskontroller.
 first-time-user-email-extra-protection-inbox-phone-subhead = Uppgradera till { -brand-name-relay-premium } för obegränsade e-postalias — plus ett telefonalias för att skydda ditt riktiga nummer.
 first-time-user-email-extra-protection-cta = Skaffa { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Frågor om { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -327,11 +282,13 @@ first-time-user-email-footer-text-privacy = Villkor och sekretess
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Du har använt alla { $free_tier_limit } e-postalias som ingår i ditt gratiskonto. Du kan återanvända ett befintligt alias, men att använda ett unikt alias för varje konto är det säkraste alternativet.
 api-error-free-tier-no-subdomain-masks = Ditt gratiskonto inkluderar inte anpassade underdomäner för alias. För att skapa anpassade alias, uppgradera till { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = "{ $unavailable_address }" kunde inte skapas. Försök igen med ett annat aliasnamn.
 api-error-need-subdomain = Välj en underdomän innan du skapar en anpassad e-postadress.
 api-error-account-is-paused = Ditt konto är pausat.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = "{ $duplicate_address }" finns redan. Försök igen med ett annat aliasnamn.

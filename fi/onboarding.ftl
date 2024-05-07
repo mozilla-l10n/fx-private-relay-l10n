@@ -8,11 +8,6 @@
 multi-part-onboarding-premium-welcome-headline = Tervetuloa { -brand-name-relay-premium }iin
 multi-part-onboarding-premium-welcome-subheadline-2 = Määritetään asiat valmiiksi saadaksesi kaikki irti { -brand-name-premium } -tilistäsi.
 multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium }illa saat:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Rajattomasti sähköpostimaskeja
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Paranna yksityisyyttäsi ja turvallisuuttasi yksilöllisellä maskilla jokaiselle sivustolle
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Luo maskeja heti tarpeen vaatiessa
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyymit vastaukset
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Vastaa edelleenlähetettyihin sähköposteihin jakamatta oikeaa sähköpostiosoitettasi
 multi-part-onboarding-premium-welcome-feature-cta = Määritä { -brand-name-relay-premium }
 
 ## Step 2 Set Custom Domain
@@ -24,8 +19,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = Luo
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Valitse haluamasi { -brand-name-relay }-sähköpostiverkkotunnus ja luo sitten välittömästi uusia maskeja lisäämällä mikä tahansa sana tai lause ennen @-merkkiä. <p>Ostoksilla? Käytä kauppa@verkkotunnuksesi.{ $mozmail }.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Hae sanaa tai lausetta
-multi-part-onboarding-premium-email-domain-feature-input-search = Hae
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.
@@ -44,6 +37,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = Lisää { -brand-name-
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-laajennus lisätty!
 multi-part-onboarding-premium-added-extension-body = Sinun ei enää tarvitse kirjautua sisään { -brand-name-relay }-palveluun luodaksesi uuden maskin – etsi vain Relay-kuvake, kun verkkosivustot pyytävät sähköpostiosoitettasi.
+
 multi-part-onboarding-premium-extension-button-dashboard = Siirry kojelaudalle
 multi-part-onboarding-skip = Ohita, määritän tämän myöhemmin
 multi-part-onboarding-skip-download-extension = Ohita, lataan laajennuksen myöhemmin
@@ -55,4 +49,5 @@ multi-part-onboarding-reply-headline = Vastaa sähköposteihisi
 onboarding-premium-title-detail = { -brand-name-firefox-relay-premium }illa voit:
 onboarding-premium-reply-description-2 = Haluatko vastata maskin kautta välitettyyn sähköpostiin? Vastaa tavalliseen tapaan — maski suojaa edelleen sähköpostiosoitettasi.
 multi-part-onboarding-premium-reply-description = Vastaa sähköposteihin paljastamatta oikeaa sähköpostiosoitettasi
+
 multi-part-onboarding-step-counter = Vaihe { $step }/{ $max }.

@@ -31,23 +31,9 @@ whatsnew-feature-bundle-upgrade-cta = Actualizar ahora
 ## VPN and Relay Landing Page Bundle Banner
 
 bundle-banner-header = { -brand-name-firefox-relay } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-bundle-banner-subheader = Seguridad, fiabilidad y velocidad — en cada dispositivo, donde quiera que vayas.
 # String below is obsolete
 bundle-banner-body = Navega, transmite, juega y trabaja manteniendo tu privacidad en línea. Ya sea porque estás viajando, usando WiFi público, o simplemente buscando mayor privacidad en línea, siempre le daremos prioridad a tu privacidad.
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
-bundle-banner-body-v2 = Navega, transmite, juega y trabaja mientras mantienes tu privacidad en línea. ¡Ahora obtén { $savings } de { -brand-name-mozilla-vpn } al agregarlo a { -brand-name-firefox-relay }!
-# String below is obsolete
-bundle-banner-1-year-plan = Plan de 1 año: <b>{ -brand-name-firefox-relay-premium } + { -brand-name-mozilla-vpn }</b>
-bundle-banner-1-year-plan-v2 = Plan de 1 año: <b>{ -brand-name-firefox-relay } Enmascaramiento de correo electrónico y teléfono + { -brand-name-vpn }</b>
 bundle-banner-plan-header = plan de 1 año:
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for a given plan. Examples: $0.99, 0,99 €
-bundle-price-monthly = Mensual: <monthly-price>{ $monthly_price }</monthly-price>
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
-#   $old_price (string) - the outdated monthly cost (including currency symbol) for a given plan. This value has a strikethrough.
-bundle-price-save-amount = Ahorra { $savings } <outdated-price>Normalmente { $old_price }</outdated-price>
 # Variables:
 #   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
 bundle-banner-money-back-guarantee = { $days_guarantee } garantía de devolución de dinero de un día para nuevos suscriptores
@@ -60,3 +46,4 @@ bundle-banner-dashboard-header = Presentamos: plan de suscripción { -brand-name
 #   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 bundle-banner-dashboard-body = Actualiza tu suscripción para obtener { -brand-name-relay-premium } Enmascaramiento de teléfono + { -brand-name-mozilla-vpn } por { $monthly_price }. ¡Actualiza ahora para obtener { $savings } de { -brand-name-mozilla-vpn }!
 bundle-banner-dashboard-upgrade-cta = Actualizar ahora
+

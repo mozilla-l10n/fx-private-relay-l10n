@@ -25,10 +25,6 @@ bundle-banner-plan-modules-email-masking = Zamaskování e-mailové adresy
 bundle-banner-plan-modules-phone-masking = Zamaskování telefonního čísla
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Získejte { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } a { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = { $days_guarantee }denní záruka vrácení peněz pro nové předplatitele
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Více než { $num_vpn_servers } serverů
@@ -72,30 +68,14 @@ plan-matrix-heading-plan-free = Omezená ochrana e-mailu
 plan-matrix-heading-plan-premium = Ochrana e-mailu
 plan-matrix-heading-plan-phones = Ochrana e-mailu a telefonu
 plan-matrix-heading-plan-bundle-2 = Přidaná ochrana sítí { -brand-name-vpn }
-plan-matrix-heading-plan-bundle-alt = Získejte { -brand-name-relay-premium(case: "acc") } a { -brand-name-mozilla-vpn(case: "acc") }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = E-mailové masky pro ochranu vaší skutečné e-mailové adresy
-plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použití služby { -brand-name-relay } na libovolném webu
-plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-promo-email-blocking = Blokování reklamních e-mailů
-plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
-plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
 plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
 plan-matrix-feature-vpn = Ochrana sítí { -brand-name-vpn } prostřednictvím služby <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = E-mailové masky
-plan-matrix-feature-mobile-browser-extension = Rozšíření do prohlížeče
-plan-matrix-feature-mobile-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-mobile-promo-email-blocking = Blokování reklamních e-mailů
-plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
-plan-matrix-feature-mobile-email-reply = Anonymní odpovědi na e-maily
-plan-matrix-feature-mobile-phone-mask = Ochrana vašeho skutečného telefonního čísla
-plan-matrix-feature-mobile-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -118,7 +98,6 @@ plan-matrix-price-vpn-discount-promo = <span>Ušetřete { $savings }</span> z be
 
 # Plan CTAs
 
-plan-matrix-upgrade = Aktualizovat
 plan-matrix-sign-up = Zaregistrovat se
 plan-matrix-get-relay-cta = Získat { -brand-name-relay }
 plan-matrix-join-waitlist = Přidat se na čekací listinu
@@ -157,36 +136,13 @@ highlighted-features-section-new-item = Novinka!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body = Každý dostane několik e-mailových masek zdarma (celkem { $mask_limit }). Ale pomocí { -brand-name-relay-premium } můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svoji e-mailovou schránku před odesílateli nevyžádané pošty, hackery a sledováním pomocí sledovacích prvků.
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
-    Nakupujete? Zkuste nakup@vasedomena.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
-highlighted-features-section-replying-body =
-    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
-    maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
-highlighted-features-section-block-promotions-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
-highlighted-features-section-remove-trackers-body = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## FAQ SECTION
 
@@ -198,63 +154,9 @@ landing-faq-cta = Zobrazit další časté dotazy k { -brand-name-firefox-relay(
 premium-promo-hero-headline = Usnadněte si ochranu své doručené pošty pomocí { -brand-name-firefox-relay-premium(case: "gen") }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = S { -brand-name-firefox-relay-premium(case: "ins") } získáte neomezený počet vlastních e-mailových masek, které přeposílají pouze e-maily, které chcete, na vaši skutečnou e-mailovou adresu. <b>Po omezenou dobu můžete upgradovat na { -brand-name-relay-premium(case: "acc") } jen za { $monthly_price } měsíčně.</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Se službou { -brand-name-firefox-relay-premium } získáte neomezený počet vlastních e-mailových masek, které na vaši skutečnou e-mailovou adresu přeposílají pouze ty e-maily, které chcete.
 premium-promo-hero-cta = Upgradujte hned teď
-premium-promo-offer-end-hero-heading = Naše zaváděcí cenová nabídka brzy končí!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiové ochrany e-mailu za naši zaváděcí měsíční cenu.
-premium-promo-offer-end-hero-cta = Upgradujte hned teď
-premium-promo-availability-warning =
-    { -brand-name-relay-premium.gender ->
-        [masculine] { -brand-name-relay-premium } je momentálně dostupný v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
-        [feminine] { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
-        [neuter] { -brand-name-relay-premium } je momentálně dostupné v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
-       *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švýcarsku, Spojeném království a v USA.
-    }
-premium-promo-availability-warning-2 =
-    { -brand-name-relay-premium.gender ->
-        [masculine] { -brand-name-relay-premium } je momentálně dostupný v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
-        [feminine] { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
-        [neuter] { -brand-name-relay-premium } je momentálně dostupné v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
-       *[other] Služba { -brand-name-relay-premium } je momentálně dostupná v Rakousku, Belgii, Kanadě, Finsku, Francii, Německu, Irsku, Itálii, Malajsii, Nizozemsku, Novém Zélandu, Singapuru, Španělsku, Švédsku, Švýcarsku, Spojeném království a v USA.
-    }
-premium-promo-availability-warning-3 = Služba { -brand-name-relay-premium } je dostupná v Belgii, Estonsku, Finsku, Francii, Irsku, Itálii, Kanadě, Kypru, Litvě, Lotyšsku, Lucembursku, Malajsii, Maltě, Německu, Nizozemsku, na Novém Zélandu, v Portugalsku, Rakousku, Řecku, Singapuru, Slovensku, Slovinsku, Spojeném království, Španělsku, Švédsku, Švýcarsku a Spojených státech.
 premium-promo-availability-warning-4 = Služba { -brand-name-relay-premium } je k dispozici v Rakousku, Bulharsku, Belgii, Kanadě, Chorvatsku, Kypru, České republice, Dánsku, Estonsku, Finsku, Francii, Německu, Řecku, Maďarsku, Irsku, Itálii, Lotyšsku, Litvě, Lucembursko, Malajsie, Malta, Nizozemsko, Nový Zéland, Polsko, Portugalsko, Rumunsko, Singapur, Slovensko, Slovinsko, Španělsko, Švédsko, Švýcarsko, Spojené království a Spojené státy americké.
-premium-promo-perks-headline = Proč upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }?
-premium-promo-perks-lead-2 = S { -brand-name-firefox-relay-premium(case: "ins") } získáte veškerou ochranu a správu doručené pošty { -brand-name-relay }, ale s neomezeným počtem e-mailových masek a vlastní subdoménou, díky čemuž bude správa doručené pošty ještě jednodušší.
-premium-promo-perks-cta-label = Upgradujte hned teď
-premium-promo-perks-cta-tooltip = Upgradovat na { -brand-name-firefox-relay-premium(case: "acc") }
-premium-promo-perks-pill-new = Nové!
-premium-promo-perks-perk-unlimited-headline-2 = Vytvářejte neomezený počet e-mailových masek
-premium-promo-perks-perk-unlimited-body-2 = Už žádný limit pěti masek: s { -brand-name-relay-premium(case: "ins") } můžete vygenerovat tolik masek, kolik potřebujete, abyste pomohli ochránit svou e-mailovou schránku před spammery a online sledováním. Můžete dokonce odpovídat na e-maily, aniž byste odhalili svou skutečnou adresu.
-premium-promo-perks-perk-custom-domain-headline-2 = Vyberte si vlastní subdoménu
-premium-promo-perks-perk-custom-domain-body-2 = S vlastní subdoménou můžete vytvářet masky, které si zapamatujete a sdílíte snadněji než kdy dříve. Potřebujete jednu pro rezervaci v restauraci? Použijte například jidlo@vase-domena.mozmail.com — Není třeba vytvářet masku předem.
-premium-promo-perks-perk-dashboard-headline-2 = Ovládejte své masky z vlastní nástěnky
-premium-promo-perks-perk-dashboard-body-2 = Spravujte všechny své e-mailové masky na snadno použitelné nástěnce: pokud zjistíte, že některá z masek dostává nevyžádané zprávy, můžete ji zablokovat, aby se tyto zprávy nedostávaly do vaší doručené pošty.
-premium-promo-perks-perk-block-promotionals-headline = Blokování reklamních e-mailů
-premium-promo-perks-perk-block-promotionals-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
-premium-promo-perks-perk-tracker-blocking-headline = Odstraňování sledovacích prvků z e-mailů
-premium-promo-perks-perk-tracker-blocking-body = Nyní vám služba { -brand-name-relay } může pomoci zastavit sledování e-mailů – vaše e-mailové masky odstraní běžné sledovací prvky ze všech e-mailů, které vám budou přeposlány, a vy tak zůstanete neviditelní pro sledující subjekty a inzerenty.
-premium-promo-use-cases-headline-2 = Používejte e-mailové masky { -brand-name-relay } kdekoli
-premium-promo-use-cases-shopping-heading = Nakupování
-premium-promo-use-cases-shopping-body-2 = Pokoušíte se přihlásit ke slevám, ale nechcete spam? Seskupte všechny své „nákupní“ účty pod své vlastní e-mailové masky, například „obchody@vase-domena.mozmail.com“.
-premium-promo-use-cases-social-networks-heading = Sociální sítě
-premium-promo-use-cases-social-networks-body-2 = Chcete lépe chránit svou online identitu při používání sociálních sítí? Pro přihlášení do každé sociální sítě použijte jinou e-mailovou masku a ochraňte svůj skutečný e-mail před zveřejněním na těchto stránkách.
-premium-promo-use-cases-gaming-heading = Hraní her
-premium-promo-use-cases-gaming-body-2 = Obáváte se, že se ostatní hráči nebo trollové prostřednictvím vašeho gamertagu a e-mailové adresy dozví, kdo jste? Použijte masku například „online-hry@vase-domena.mozmail.com“, abyste vložili další vrstvu ochrany mezi vaši identitu a hry, které hrajete online.
-premium-promo-pricing-free-price = Váš aktuální bezplatný tarif
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = Zaváděcí cena: Neomezený počet masek za { $monthly_price } měsíčně
-premium-promo-pricing-offer-end-warning = Tato promoakce brzy skončí
-premium-promo-pricing-offer-end-cta = Upgradujte hned teď
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = Pořiďte si { -brand-name-relay-premium(case: "acc") } do dne { $end_date } a užívejte si prémiovou ochranu e-mailu za naši zaváděcí měsíční cenu.
 
 ## The Premium waitlist page
 

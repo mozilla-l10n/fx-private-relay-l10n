@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = تہاݙی ذیلی ڈومین { $subdomain }@ تخلیق تھی ڳئی ہے
 success-settings-update = تہاݙیاں ترتیباں اپ ڈیٹ تھی ڳیاں
 success-signed-out-message = تساں سائن آؤٹ تھی ڳئے ہو۔
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = { $username } دے طور تے کامیابی نال
 error-premium-cannot-change-subdomain = تساں آپݨی سب ڈومین نہوے وٹا سڳدے
 error-premium-set-subdomain = سب ڈومین مقرر کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
 error-premium-check-subdomain = سب ڈومین پڑتال کرݨ کیتے تہاݙا پریمیئم سبسکرائبر ہووݨ ضروری ہے
-error-subdomain-not-created = سب ڈومین تخلیق کائنی تھی سڳی، کوئی ٻئی شئے کوشش کرو
-error-subdomain-email-not-created = سب ڈومین نال ای میل  پتہ تخلیق کائنی تھی سڳا، کوئی ٻئی شئے کوشش کرو
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = ذیلی ڈومین  @{ $unavailable_subdomain } دستیاب کائنی۔ سوہݨا، کوئی ہک ٻئی ازماؤ۔
@@ -43,8 +38,6 @@ tips-header-title = مدد تے گُر
 tips-header-button-close-label = فارغ کرو
 tips-footer-link-faq-label = عمومی سوالات
 tips-footer-link-faq-tooltip = اکثر پچھے ون٘ڄݨ آلے سوالات
-tips-footer-link-feedback-label = فیڈبیک
-tips-footer-link-feedback-tooltip = فیڈبیک ݙیوو
 tips-footer-link-support-label = سہارا
 tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = سہارے نال رابطہ کرو
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = گُر { $nr }
 tips-toast-button-expand-label = ٻیا سِکھو
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = مشہوری ای میلاں بلاک کرو
 popover-custom-alias-explainer-promotional-block-tooltip-2 = مارکیٹنگ ای میلاں کوں آپݨے ان باکس تائیں پہنچݨ کنوں روکݨ کیتے ماسک تے پروموشنل ای میلاں بلاک کرݨ  فعال کرو۔
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = تہاݙی کسٹم سب ڈومین ورت تے م
 tips-custom-alias-content-2 = تہاکوں صرف ہک نویکلا ماسک بݨاوݨ تے شیئر کرݨ دی ضرورت ہے جیڑھا تہاݙی حسب ضرورت ذیلی ڈومین استعمال کریندا ہے — ماسک آپوں ڄاݨ تیار تھی ویسے۔ مثال دے طور تے اڳلی واری جݙاں تساں آن لائن خریداری کرو تاں shop@customsubdomain.mozmail.com کوں ازماؤ۔
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = مشہوری ای میلاں بلاک کرو
-tips-promo-email-blocking-content = { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو پر رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول کرݨ دی تہاکوں اجازت ہوسی۔
 
 ## Report of trackers removed from an email
 
@@ -117,6 +108,7 @@ contains-tracker-warning-title = بَھلا تُساں ہالی وی لنک ݙی
 contains-tracker-warning-description = چِتاوݨی: اِیں لِنک اُتے دباوݨ نال تُہاݙے بارے وِچ معلومات بھیڄݨ آلے کوں ولا بھیڄ ݙِتّیاں ویسِن
 contains-tracker-warning-view-link-cta = جیا، لنک ݙیکھو
 contains-tracker-faq-section-title = ای میل ٹریکراں بارے اہم سوالات
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -158,18 +150,6 @@ offer-countdown-timer-seconds = سیکنڈ
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = 1-10 دے پیمانے تے، تہاݙے کہیں دوست یا سنگتی کوں { -brand-name-relay } دی سفارش کرݨ دا کتنا امکان ہے؟
-survey-question-2 = بھلا { -brand-name-relay } ورتݨ کیتے سوکھا ہے؟
-survey-question-3 = بھلا تساں محسوس کریندے جو { -brand-name-relay } بھروسے دے قابل ہے؟
-survey-question-4 = بھلا { -brand-name-relay } وچ سادہ تے ستھری پیش کش ہے؟
-survey-question-5 = جے تساں { -brand-name-relay } کوں کافی عرصے کنوں نہ ورت سڳے ہوو تاں تساں کیا محسوس کریسو۔
-survey-option-strongly-disagree = ݙاڈھا اختلاف
-survey-option-disagree = اختلاف
-survey-option-unsure = کچ پک
-survey-option-agree = متفق
-survey-option-strongly-agree = ݙاڈھا متفق
-survey-option-i-wouldnt-care = میں خیال کائناں رکھیساں
-survey-option-somewhat-disappointed = کجھ مون٘جھا
-survey-option-very-disappointed = ݙاڈھا مون٘جھا
 survey-option-very-likely = غالباً
 survey-option-not-likely = امکان کائنی
 survey-option-dismiss = فارغ  کرو
@@ -188,32 +168,6 @@ survey-csat-followup = تہاݙے تبصرے دا شکریہ، اساں ایں �
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = ایہ سنیہا { $linked_origin } ولوں { $display_email } کنوں اڳوں تے بھیڄیا ڳیا ہائی۔
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } BCCs  تے CCs کوں تہاݙے جواباں وچوں ہٹیندی ہے۔ جے تساں انہاں کوں ولدا شامل کریسو تاں تہاݙا اصل ای میل ظاہر تھی ویسی۔
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = بے انت ای میل ماسک، مخصوص  سب ڈومین تے ای میلاں کوں جواب ݙیوݨ دی صلاحیت گھنݨ کیتے { $premium_link } تے اپ گریڈ کرو۔
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = ساݙی ماہانہ تعارفی قیمت دی پیش کش مکدی پئی ہے۔{ $premium_link } تے اپ گریڈ کرو۔
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = سائز وچ { email-size-limit } تائیں ای میل (نتھیاں سمیت) اڳوں تے پٹھݨ وچ { -brand-name-firefox-relay } سپورٹ کریندے۔ ٻیا سکھݨ کیتے ساݙے { $faq_link } دی پڑتال کرو۔
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } ای میل ٹریکر ہٹ ڳئے
-forwarded-email-trackers-blocked-report = ٻیا سِکھو
-# This entire text is a link
-forwarded-email-footer-2 = اتھ سارے ماسکاں کنوں ای میل بھیڄݨ کنوں روکو  تے ترتیباں منیج کرو۔
-# This entire text is a link
-forwarded-email-footer-premium-banner = { -brand-name-relay-premium } تے اپ گریڈ کرو
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = ساݙے تعارفی قیمت ختم تھیوݨ توں پہلے { $premium_link } وچ اپ گریڈ تھی ونجو۔
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -285,6 +239,7 @@ what-can-you-do-with-relay-point-three = سپیم کوں آپݨے اِن باک�
 what-can-you-do-with-relay-point-three-subpoint = { -brand-name-relay } ڈیش بورڈ اُتے، تُساں ماسک بݨا سڳدے ہِیوے، اِنّھاں اُتّے لیبل لاء تے نوٹ کر سڳدے ہِیوے جو تُساں اِنّھاں کوں کِتّھاں استعمال کرین٘دے ہِیوے، سپیم بلاکنگ کوں چالو کر سڳدے ہِیوے، اَتے جیکوں تُساں ٻِیا نِھیوے چاہن٘دے اُوکوں حذف کر سڳدے ہِیوے۔
 forwarded-email-hero-header = تساں آپݨی پہلی اڳوں تے بھیڄی ہوئی ای میل گھدی!
 forwarded-email-hero-desc = اُوہ ہیڈر ݙیکھو؟ اِیہ { -brand-name-relay } ماسک دے ذریعے اڳّوں بھیڄی ڳئی سبّھے ای میلاں اُتّے ظاہر تھیسی۔
+
 first-time-user-email-how-title = { -brand-name-relay } کین٘ویں کم کریندے
 first-time-user-email-how-item-1-header = ہر جاء تے آپݨے اصل ای میل دی بجائے { -brand-name-relay } ماسک ورتو۔
 # Variables
@@ -300,11 +255,11 @@ first-time-user-email-how-item-3-header = آپݨے { -brand-name-relay } ڈیش 
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے <a href="{ $url }" { $attrs }>سائن ان تھیوو</a>۔
 first-time-user-email-how-item-3-subhead-text = نویں ماسک بݨاوݨ، آپݨے ماسک لیبل کرݨ تے سپیم آلے ماسک مٹاوݨ کیتے سائن ان تھیوو۔
-first-time-user-email-extra-protection-inbox-title = تہاݙے انباکس کیتے وادھوں حفاظت
+
 first-time-user-email-extra-protection-inbox-phone-title = تہاݙے انباکس تے فون کیتے وادھوں حفاظت
-first-time-user-email-extra-protection-inbox-subhead = لا محدود ای میل ماسک، ہِک لوڑ مطابق{ -brand-name-relay } ڈومین، اَتے لوڑ مطابق اِن باکس کنٹرول حاصل کرݨ کِیتے { -brand-name-relay-premium } اُتے اپ ڈیٹ کرو۔
 first-time-user-email-extra-protection-inbox-phone-subhead = لا محدود ای میل ماسک کِیتے { -brand-name-relay-premium } اُتے اَپ گریڈ کرو — ٻِیا آپݨے اصلی نمبر دی راکھی کِیتے ہِک فون ماسک۔
 first-time-user-email-extra-protection-cta = { -brand-name-relay-premium } گھنو
+
 first-time-user-email-questions-title = { -brand-name-firefox-relay } بارے سوالات
 # Variables
 #   $url (string) - URL of the support team website
@@ -326,11 +281,13 @@ first-time-user-email-footer-text-privacy = شرطاں تے رازداری
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = تساں اپݨے مفت اکاؤنٹ دے نال شامل تمام { $free_tier_limit } ای میل ماسک استعمال کر گھدے ہن۔ تساں موجودہ ماسک کوں دوبارہ استعمال کر سڳدے او، لیکن ہر اکاؤنٹ کیتے نویکلے ماسک دا استعمال سبھ توں محفوظ آپشن ہے۔
 api-error-free-tier-no-subdomain-masks = تہاݙے مفت کھاتے وچ ماسکاں کیتے مخصوص سب ڈومیناں شامل کائنی۔ مخصوص ماسک خلقݨ کیتے، { -brand-name-relay-premium } تے اپ گریڈ کرو۔
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = “{ $unavailable_address }” تخلیق کائنی تھی سڳا۔ سوہݨا، ٻئے ماسک ناں نال ولدا کوشش کرو۔
 api-error-need-subdomain = سوہݨا، کسٹم ای میل پتہ خلقݨ کنوں پہلے سب ڈومین چُݨو۔
 api-error-account-is-paused = تہاݙا کھاتہ معطل تھیا کھڑے۔
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” پہلے ہی موجود ہے۔ سوہݨا، محتلف ماسک ناں نال ولدا کوشش کرو۔

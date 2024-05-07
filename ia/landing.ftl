@@ -28,10 +28,6 @@ bundle-banner-plan-modules-email-masking = Mascas email
 bundle-banner-plan-modules-phone-masking = Mascas de telephono
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Discarga { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } e { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = Reimbursamento garantite pro { $days_guarantee } dies pro le abonatos del prime vice
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Plus que { $num_vpn_servers } servitores
@@ -75,30 +71,14 @@ plan-matrix-heading-plan-free = Protection de email limitate
 plan-matrix-heading-plan-premium = Protection email
 plan-matrix-heading-plan-phones = Protection email e telephono
 plan-matrix-heading-plan-bundle-2 = Adder protection { -brand-name-vpn }
-plan-matrix-heading-plan-bundle-alt = Discarga { -brand-name-relay-premium } e { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = Mascas email pro proteger tu real adresse email
-plan-matrix-feature-browser-extension = Extension de navigator pro usar { -brand-name-relay } sur omne sitos
-plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
-plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
-plan-matrix-feature-email-subdomain = Dominio email { -brand-name-relay } pro crear mascas al volo
-plan-matrix-feature-email-reply = Responder anonymemente al emails
 plan-matrix-feature-phone-mask = Masca de telephono pro proteger tu real numero de telephono
 plan-matrix-feature-vpn = protection { -brand-name-vpn } de <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = Mascas email
-plan-matrix-feature-mobile-browser-extension = Extension de navigator
-plan-matrix-feature-mobile-email-tracker-removal = Remover traciatores de emails
-plan-matrix-feature-mobile-promo-email-blocking = Blocar e-mails promotional
-plan-matrix-feature-mobile-email-subdomain = Domino email unic { -brand-name-relay }
-plan-matrix-feature-mobile-email-reply = Responde anonymemente al emails
-plan-matrix-feature-mobile-phone-mask = Proteger tu numero de telephono real
-plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -121,7 +101,6 @@ plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le 
 
 # Plan CTAs
 
-plan-matrix-upgrade = Promover
 plan-matrix-sign-up = Inscriber se
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Inscriber te al lista de attender
@@ -155,45 +134,13 @@ highlighted-features-section-new-item = Nove!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Quicunque recipe { $mask_limit } mascas email gratuitemente. 
-    Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
-    de spammatores, piratas informatic, e traciatores online.
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
-    crear nove mascas ubique tu es. Simplemente adde ulle parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
-    Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } te permitte de responder a emails per tu
-    conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
-    al SMS ab tu numero de telephono disguisate pro proteger tu real numero.
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
-highlighted-features-section-block-promotions-body =
-    Con { -brand-name-relay-premium }, tu pote impedir al emails promotional de attinger tu 
-    cassa de ingresso dum ancora tu recipe emails como quitantias o informationes de expedition.
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } pote remover le commun traciatores de email de ulle emails inultrate pro te, adjutante 
-    te a remaner invisibile a traciatores e publicitarios.
 
 ## FAQ SECTION
 
@@ -205,51 +152,9 @@ landing-faq-cta = Altere folios a questiones  re { -brand-name-firefox-relay }
 premium-promo-hero-headline = Rende plus facile proteger tu cassa de ingresso con { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = Con { -brand-name-firefox-relay-premium }, tu recipe illimitate mascas email personal que inultra solo le emails que tu lo vole a tu ver adresse email. <b>Pro un tempore limitate, tu pote promover te a { -brand-name-relay-premium } pro solo { $monthly_price } a mense.</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Con { -brand-name-firefox-relay-premium }, tu obtene illimitate aliases e-mail personal que inultra solo le e-mails que tu vole a tu real adresse e-mail.
 premium-promo-hero-cta = Promover ora
-premium-promo-offer-end-hero-heading = Nostre offerta de compra introductive finira tosto!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
-premium-promo-offer-end-hero-cta = Promover ora
-premium-promo-availability-warning = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Francia, Germania, Irlanda, Italia, Malaysia, Hollanda, Nove Zelanda, Singapore, Espania, Suissa, le UK, e le SUA.
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } es actualmente disponibile in Austria, Belgio, Canada, Finlandia, Francia, Germania, Irlanda, Italia, Malaya, Hollanda, Nove Zelanda, Singapore, Espania, Svedia, Suissa, le UK, e le SUA.
-premium-promo-availability-warning-3 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Canada, Cypro, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Hollanda, Nove Zelanda, Portugal, Singapore, Slovachia, Slovenia, Espania, Svedia, Suissa, Regno Unite, e le Statos Unite
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } es disponibile in Austria, Belgio, Bulgaria, Canada, Croatia, Cypro, Danmark, Espania, Estonia, Finlandia, Francia, Germania, Grecia, Hollanda, Hungaria, Irlanda, Italia, Latvia, Lituania, Luxemburg, Malaysia, Malta, Nove Zelanda, Polonia, Portugal, Regno Unite, Republica chec, Romania, Singapore, Slovachia, Slovenia, Statos Unite, Suissa, e Svedia.
-premium-promo-perks-headline = Perque promover a { -brand-name-firefox-relay-premium }?
-premium-promo-perks-lead-2 = Con { -brand-name-firefox-relay-premium }, tu recipe tote le protection de cassa de ingresso e gestion de { -brand-name-relay }, ma con illimitate mascas email e tu proprie subdominio personal pro render mesmo plus facile gerer tu cassa de ingresso.
-premium-promo-perks-cta-label = Promover ora
-premium-promo-perks-cta-tooltip = Promover a { -brand-name-firefox-relay-premium }
-premium-promo-perks-pill-new = Nove!
-premium-promo-perks-perk-unlimited-headline-2 = Crea illimitate mascas email
-premium-promo-perks-perk-unlimited-body-2 = Jammais plus limite de cinque-mascas: con { -brand-name-relay-premium }, tu pote generar quante mascas te besonia pro adjutar a proteger tu cassa de ingresso email ab le spammatores e traciatores online. Tu pote mesmo replicar al emails sin exponer tu ver adresse.
-premium-promo-perks-perk-custom-domain-headline-2 = Elige tu proprie subdominio personal
-premium-promo-perks-perk-custom-domain-body-2 = Con un subdominio personal, tu pote crear mascas que es plus facile que mais a rememorar e compartir. Besonia tu de un pro reservationes de restaurante? Usa un como alimentos@mydomain.mozmail.com — Nulle besonio de crear le alias previemente.
-premium-promo-perks-perk-dashboard-headline-2 = Controla tu mascas ab le pannello de controlo
-premium-promo-perks-perk-dashboard-body-2 = Gere tote tu mascas email in le pannello de controlo facile a usar: si tu trova que un recipe messages indesirate, tu pote blocar ille messages de attinger tu cassa de ingresso.
-premium-promo-perks-perk-block-promotionals-headline = Blocar emails promotional
-premium-promo-perks-perk-block-promotionals-body = Con { -brand-name-relay-premium }, tu pote obstruer al emails promotional de attinger tu cassa de ingresso dum ancora recipe emails como quitantias o informationes de expedition.
-premium-promo-perks-perk-tracker-blocking-headline = Remover traciatores de emails
-premium-promo-perks-perk-tracker-blocking-body = Ora { -brand-name-relay } pote adjutar te a stoppar le traciamento per emails: tu mascas email removera commun traciatores de email de ulle emails inultrate a te, e te adjutara a remaner invisibile al traciatores e al publicitarios.
-premium-promo-use-cases-headline-2 = Usa ubique mascas email { -brand-name-relay }
-premium-promo-use-cases-shopping-heading = Compras
-premium-promo-use-cases-shopping-body-2 = Tenta tu de inscriber te al discontos sin tote le SPAM? Gruppa tote tu contos de “compras” sub unic personal mascas email personalisate, como “mydeals@mydomain.mozmail.com.”
-premium-promo-use-cases-social-networks-heading = Retes social
-premium-promo-use-cases-social-networks-body-2 = Vole tu melio proteger tu identitate online quando tu usa un rete social? Usa un differente masca email pro acceder a cata rete social e adjuta proteger tu ver email de esser exponite a ille sitos.
-premium-promo-use-cases-gaming-heading = Jocos
-premium-promo-use-cases-gaming-body-2 = Preoccupate que altere jocatores o trolls apprende qui tu es a transverso de tu etiquetta de jocator e adresse e-mail? Usa un masca como “onlinegame@mydomain.mozmail.com” pro poner un altere strato de protection inter tu identitate e le jocos que tu joca online.
-premium-promo-pricing-free-price = Tu actual plano gratuite
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = Precio introductive: mascas illimitate pro { $monthly_price } cata mense
-premium-promo-pricing-offer-end-warning = Iste promotion va expirar tosto
-premium-promo-pricing-offer-end-cta = Promover ora
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = Abona te ante le { $end_date } a { -brand-name-relay-premium } e frue del protection email premio a nostre precio introductive mensual.
 
 ## The Premium waitlist page
 

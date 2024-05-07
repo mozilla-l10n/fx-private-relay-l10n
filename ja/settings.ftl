@@ -11,15 +11,8 @@ settings-meta-help-label = ヘルプとサポート
 settings-meta-help-tooltip = { -brand-name-relay } のサポートを表示
 settings-meta-status-label = サービスの状況
 settings-meta-status-tooltip = すべての { -brand-name-relay } のシステムが現在稼働しているか確認する。
-settings-error-save-heading = 設定の変更に失敗しました
-settings-error-save-description = 接続エラーのため、設定の変更は保存されませんでした。もう一度試してください。
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-heading-2 = メールマスクのラベル機能は無効化されています
-# This is a warning displayed at the top of the settings page when server storage of mask labels and associated websites are turned off.
-settings-warning-collection-off-description-2 = { -brand-name-relay } は現在メールマスクを生成して使用したサイトを表すデータの収集が許可されていません。「設定」内で「プライバシー」の設定を変更してください。
 # This is the heading for the checkbox labelled with `setting-label-collection-description`.
 setting-label-collection-heading-v2 = プライバシー
-setting-label-collection-description-2 = マスクが生成されて使用されたサイトを表すデータの収集を { -brand-name-relay } に許可します。
 settings-button-save-label = 保存
 # This is a read-only input where a user can copy their API key to their clipboard
 setting-label-api-key = API キー

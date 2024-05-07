@@ -7,14 +7,6 @@
 multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Давайте настроим всё так, чтобы вы могли максимально эффективно использовать свой аккаунт { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = С { -brand-name-firefox-relay-premium } вы получаете:
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Неограниченное число псевдонимов электронной почты
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Повышаете свою приватность и безопасность с помощью уникального псевдонима для каждого сайта.
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Можете мгновенно на ходу создавать псевдонимы
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Получаете уникальный домен электронной почты { -brand-name-relay } для мгновенного создания легко запоминающегося псевдонима.
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Настраиваемое управление входящими письмами
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Управление типами писем, которые пересылаются в ваш почтовый ящик
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонимные ответы
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Возможность отвечать на пересылаемые письма, без раскрытия настоящего адреса электронной почты
 multi-part-onboarding-premium-welcome-feature-cta = Настройте { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Теперь вы можете контролировать каждое письмо, которое попадает в ваш почтовый ящик.
 
@@ -27,8 +19,6 @@ multi-part-onboarding-premium-email-domain-headline-create-masks-on-the-go = М�
 #   $mozmail (string): domain used by Relay masks (mozmail.com)
 # "yourdomain" is used as an example custom domain. Keep it lowercase without space and in latin characters, to resemble and actual email address. Example: shopping@johndoe.mozmail.com
 multi-part-onboarding-premium-email-domain-feature-body = Выберите предпочитаемый домен электронной почты { -brand-name-relay }, а затем мгновенно создавайте новые псевдонимы, добавляя любое слово или фразу перед символом @. <p>Покупки? Используйте магазин@вашдомен.{ $mozmail }.</p>
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Поиск слова или фразы
-multi-part-onboarding-premium-email-domain-feature-input-search = Поиск
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

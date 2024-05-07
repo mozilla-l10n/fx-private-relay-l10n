@@ -28,10 +28,6 @@ bundle-banner-plan-modules-email-masking = E-postalias
 bundle-banner-plan-modules-phone-masking = Telefonalias
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Skaffa { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } och { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = { $days_guarantee }-dagars pengarna-tillbaka-garanti för förstagångsprenumeranter
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Fler än { $num_vpn_servers } servrar
@@ -75,30 +71,14 @@ plan-matrix-heading-plan-free = Begränsat e-postskydd
 plan-matrix-heading-plan-premium = E-postskydd
 plan-matrix-heading-plan-phones = E-post och telefonskydd
 plan-matrix-heading-plan-bundle-2 = Lägg till { -brand-name-vpn }-skydd
-plan-matrix-heading-plan-bundle-alt = Skaffa { -brand-name-relay-premium } och { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = E-postalias för att skydda din riktiga e-postadress
-plan-matrix-feature-browser-extension = Webbläsartillägg för att använda { -brand-name-relay } på vilken webbplats som helst
-plan-matrix-feature-email-tracker-removal = Ta bort e-postspårare
-plan-matrix-feature-promo-email-blocking = Blockera e-postreklam
-plan-matrix-feature-email-subdomain = { -brand-name-relay } e-postdomän för att skapa alias på språng
-plan-matrix-feature-email-reply = Svara anonymt på mejl
 plan-matrix-feature-phone-mask = Telefonalias för att skydda ditt riktiga telefonnummer
 plan-matrix-feature-vpn = { -brand-name-vpn }-skydd från <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Obegränsade e-postalias
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = E-postalias
-plan-matrix-feature-mobile-browser-extension = Webbläsartillägg
-plan-matrix-feature-mobile-email-tracker-removal = Ta bort e-postspårare
-plan-matrix-feature-mobile-promo-email-blocking = Blockera e-postreklam
-plan-matrix-feature-mobile-email-subdomain = Unik { -brand-name-relay } e-postdomän
-plan-matrix-feature-mobile-email-reply = Svara anonymt på mejl
-plan-matrix-feature-mobile-phone-mask = Skydda ditt riktiga telefonnummer
-plan-matrix-feature-mobile-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -121,7 +101,6 @@ plan-matrix-price-vpn-discount-promo = <span>Spara { $savings }</span> på ordin
 
 # Plan CTAs
 
-plan-matrix-upgrade = Uppgradera
 plan-matrix-sign-up = Registrera dig
 plan-matrix-get-relay-cta = Hämta { -brand-name-relay }
 plan-matrix-join-waitlist = Ställ dig i väntelistan
@@ -155,45 +134,13 @@ highlighted-features-section-new-item = Nytt!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = Skapa obegränsat antal e-postalias
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Alla får { $mask_limit } e-postalias gratis.
-    Men med { -brand-name-relay-premium } kan du generera så många alias du behöver för att skydda din inkorg
-    från spammare, hackare och onlinespårare.
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias när du är på språng
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } ger dig en unik { -brand-name-relay } e-postdomän så att du omedelbart kan
-    skapa nya alias var du än är. Lägg bara till valfritt ord eller fras före @-symbolen. Vid en restaurang? Använd restaurang@dindomän.{ $mozmail }.
-    Handla? Testa handla@dindomän.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Svara anonymt på mejl och sms
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } låter dig svara på e-postmeddelanden från ditt
-    maskerade e-postkonto, så att avsändare aldrig kommer att veta din riktiga e-postadress. Med telefonmaskering kan du svara
-    på sms från ditt maskerade telefonnummer för att skydda ditt riktiga nummer.
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Blockera e-postreklam
-highlighted-features-section-block-promotions-body =
-    Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din
-    inkorg medan du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = Ta bort e-postspårare
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } kan ta bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper
-    dig att förbli osynlig för spårare och annonsörer.
 
 ## FAQ SECTION
 
@@ -205,51 +152,9 @@ landing-faq-cta = Se mer vanliga frågor om { -brand-name-firefox-relay }
 premium-promo-hero-headline = Gör det enklare att skydda din inkorg med { -brand-name-firefox-relay-premium }
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress. <b>Under en begränsad tid kan du uppgradera till { -brand-name-relay-premium } för endast { $monthly_price } i månaden.</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Med { -brand-name-firefox-relay-premium } får du ett obegränsat antal anpassade e-postalias som bara vidarebefordrar de e-postmeddelanden du vill ha till din riktiga e-postadress.
 premium-promo-hero-cta = Uppgradera nu
-premium-promo-offer-end-hero-heading = Vårt erbjudande till introduktionspris upphör snart!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
-premium-promo-offer-end-hero-cta = Uppgradera nu
-premium-promo-availability-warning = { -brand-name-relay-premium } finns för närvarande tillgängligt i Österrike, Belgien, Kanada, Frankrike, Tyskland, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Storbritannien och USA.
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } finns för närvarande tillgängligt i Belgien, Kanada, Finland, Frankrike, Irland, Italien, Malaysia, Nederländerna, Nya Zeeland, Singapore, Spanien, Schweiz, Sverige, Storbritannien, Tyskland, USA och Österrike.
-premium-promo-availability-warning-3 = { -brand-name-relay-premium } är nu tillgängligt i Österrike, Belgien, Kanada, Cypern, Estland, Finland, Frankrike, Tyskland, Grekland, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Portugal, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } är tillgängligt i Österrike, Bulgarien, Belgien, Kanada, Kroatien, Cypern, Tjeckien, Danmark, Estland, Finland, Frankrike, Tyskland, Grekland, Ungern, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, Nederländerna, Nya Zeeland, Polen, Portugal, Rumänien, Singapore, Slovakien, Slovenien, Spanien, Sverige, Schweiz, Storbritannien och USA.
-premium-promo-perks-headline = Varför ska man uppgradera till { -brand-name-firefox-relay-premium }?
-premium-promo-perks-lead-2 = Med { -brand-name-firefox-relay-premium } får du all e-postskydd och hantering av { -brand-name-relay }, men med ett obegränsat antal e-postalias och din egen anpassade underdomän för att göra hanteringen av din inkorg ännu enklare.
-premium-promo-perks-cta-label = Uppgradera nu
-premium-promo-perks-cta-tooltip = Uppgradera till { -brand-name-firefox-relay-premium }
-premium-promo-perks-pill-new = Ny!
-premium-promo-perks-perk-unlimited-headline-2 = Skapa obegränsat antal e-postalias
-premium-promo-perks-perk-unlimited-body-2 = Ingen gräns på fem alias: med { -brand-name-relay-premium } kan du skapa så många alias du behöver för att skydda din inkorg från spammare och onlinespårare. Du kan till och med svara på e-postmeddelanden utan att avslöja din riktiga adress.
-premium-promo-perks-perk-custom-domain-headline-2 = Välj din egen anpassade underdomän
-premium-promo-perks-perk-custom-domain-body-2 = Med en anpassad underdomän kan du skapa alias som är enklare än någonsin att komma ihåg och dela. Behöver du en för restaurangbokningar? Använd en som food@mydomain.mozmail.com — Inget behov av att skapa alias i förväg.
-premium-promo-perks-perk-dashboard-headline-2 = Styr dina alias från översikten
-premium-promo-perks-perk-dashboard-body-2 = Hantera alla dina alias i den lättanvända översikten: om du upptäcker att du tar emot oönskade meddelanden kan du blockera dessa meddelanden från att nå din inkorg.
-premium-promo-perks-perk-block-promotionals-headline = Blockera e-postreklam
-premium-promo-perks-perk-block-promotionals-body = Med { -brand-name-relay-premium }, kan du blockera e-postreklam-meddelanden från att nå din inkorg samtidigt som du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
-premium-promo-perks-perk-tracker-blocking-headline = Ta bort e-postspårare
-premium-promo-perks-perk-tracker-blocking-body = Nu kan { -brand-name-relay } hjälpa dig att stoppa e-postspårning – dina e-post alias tar bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper dig att förbli osynlig för spårare och annonsörer.
-premium-promo-use-cases-headline-2 = Använd { -brand-name-relay } e-postalias var som helst
-premium-promo-use-cases-shopping-heading = Shopping
-premium-promo-use-cases-shopping-body-2 = Försöker du registrera dig för rabatter utan all spam? Bunta alla dina "shopping"-konton under anpassade e-postalias, som "mydeals@mydomain.mozmail.com."
-premium-promo-use-cases-social-networks-heading = Sociala nätverk
-premium-promo-use-cases-social-networks-body-2 = Vill du bättre skydda din onlineidentitet när du använder ett socialt nätverk? Använd ett unikt e-postalias för att logga in på varje socialt nätverk och skydda din riktiga e-post från att exponeras för dessa webbplatser.
-premium-promo-use-cases-gaming-heading = Spel
-premium-promo-use-cases-gaming-body-2 = Orolig för att andra spelare eller troll lär sig vem du är genom din gamertagg och e-postadress? Använd ett alias som "onlinegame@mydomain.mozmail.com" för att lägga ytterligare ett lager av skydd mellan din identitet och spelen du spelar online.
-premium-promo-pricing-free-price = Din nuvarande gratisplan
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = Introduktionspris: Obegränsat antal alias för { $monthly_price } per månad
-premium-promo-pricing-offer-end-warning = Denna kampanj går snart ut
-premium-promo-pricing-offer-end-cta = Uppgradera nu
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = Skaffa { -brand-name-relay-premium } före { $end_date } och njut av premium e-postskydd till vårt månatliga introduktionspris.
 
 ## The Premium waitlist page
 

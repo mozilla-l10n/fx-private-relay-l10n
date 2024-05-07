@@ -5,8 +5,6 @@
 
 ## Profile Page (Logged In)
 
-profile-promo-upgrade-headline = تېخىمۇ كۆپ ئىقتىدارلار ئۈچۈن يۈكسەلتىڭ.
-profile-promo-upgrade-cta = { -brand-name-relay } نى يۈكسەلت
 profile-details-expand = نىقاب تەپسىلاتىنى كۆرسەت
 profile-details-collapse = نىقاب تەپسىلاتىنى يوشۇر
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -14,10 +12,9 @@ profile-details-collapse = نىقاب تەپسىلاتىنى يوشۇر
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = چېكىلسە { $address } نىقاب ئادرېسى كۆچۈرۈلىدۇ.
 profile-label-delete = ئۆچۈر
-profile-label-subdomain-tooltip-trigger = تەپسىلاتى
 profile-label-reset = ئەسلىگە قايتۇر
-profile-label-skip = ئاتلا
 profile-label-continue = داۋاملاشتۇر
+
 profile-label-copied = كۆچۈرۈلدى!
 profile-label-blocked = توسۇلغان
 profile-forwarded-note = ئەسكەرتىش:

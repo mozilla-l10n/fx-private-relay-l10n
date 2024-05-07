@@ -9,12 +9,11 @@ onboarding-headline-2 = 创建您的第一个马甲邮箱
 onboarding-alias-tip-1-2 = 点击“生成新马甲”创建您的第一个马甲邮箱。
 onboarding-alias-tip-2 = 使用 { -brand-name-relay } 扩展，点击出现在电子邮件栏的 { -brand-name-firefox-relay } 图标。
 onboarding-alias-tip-3-2 = 使用 { -brand-name-relay } 扩展，鼠标右键表单栏并选择“生成新马甲”。
+
 # Variables:
 #   $email (string) - User email address
 profile-label-welcome-html = <span>欢迎，</span> { $email }！
 profile-supports-email-forwarding = { -brand-name-firefox-relay } 可转发最大 { email-size-limit } 的电子邮件（含附件）
-profile-promo-upgrade-headline = 升级后可享受更多功能。
-profile-promo-upgrade-cta = 升级 { -brand-name-relay }
 profile-details-expand = 显示马甲详细信息
 profile-details-collapse = 隐藏马甲详细信息
 # This will be read to screen readers when focusing the button to copy an mask to the clipboard.
@@ -24,7 +23,6 @@ profile-label-click-to-copy-alt = 点击复制马甲邮箱 { $address }。
 profile-label-edit-2 = 编辑此马甲的标签
 # On the user's profile page, this text appears for a mask when it doesn't have a label.
 profile-label-placeholder = 添加标签
-profile-label-save-error = 保存失败，请重试。
 profile-label-saved = 标签已保存！
 profile-label-generate-new-alias-2 = 生成新马甲
 profile-label-generate-new-alias-menu-random-2 = 随机马甲邮箱
@@ -33,30 +31,19 @@ profile-label-generate-new-alias-menu-random-2 = 随机马甲邮箱
 profile-label-generate-new-alias-menu-custom-2 = @{ $subdomain } 马甲
 profile-label-delete = 删除
 profile-label-upgrade-2 = 获得无限量马甲
-profile-label-create-subdomain = 获取您的子域名邮箱
-profile-label-subdomain = 子域名邮箱：
 profile-label-custom-domain = 您的 { -brand-name-relay } 邮箱域名：
 # Deprecated
 profile-label-set-your-custom-domain = 设置您专属的 { -brand-name-relay } 邮箱域名
-profile-label-subdomain-tooltip-trigger = 更多信息
-profile-label-subdomain-tooltip = 创建您专属的子域名邮箱。
 profile-label-reset = 重置
 profile-label-apply = 应用
-profile-label-skip = 跳过
 profile-label-continue = 继续
+
 # This string is followed by an email address
 profile-label-forward-emails = 转发邮件至：
-# This string is followed by date
-profile-label-first-emailed = 首次发件于：
+
 # This string is followed by date:
 profile-label-created = 创建于：
-profile-label-details-show = 显示详细信息
-profile-label-details-hide = 隐藏详细信息
-# This string is a label for a toggle (on/off) switch
-profile-label-forwarding = 转发中
-profile-label-blocking = 拦截中
-profile-label-disable-forwarding-button-2 = 禁用此马甲的转发
-profile-label-enable-forwarding-button-2 = 启用此马甲的转发
+
 profile-label-click-to-copy = 点击复制
 profile-label-copied = 已复制！
 profile-label-blocked = 拦截
@@ -71,7 +58,6 @@ profile-blocked-copy-2 = 选择屏蔽此马甲时，{ -brand-name-firefox-relay 
 profile-forwarded-copy-2 = 选择启用此马甲的转发时，{ -brand-name-firefox-relay } 将会向您转发邮件。
 profile-forwarded-note = 注意：
 profile-forwarded-note-copy = 若邮件（含附件）大于 { email-size-limit }，将不会向您转发。
-profile-forwarded-note-copy-v2 = 大于 { email-size-limit } 的电子邮件（含附件）将不会被转发。
 profile-replies-tooltip = 您可以回复通过此马甲收到的电子邮件，{ -brand-name-firefox-relay } 仍将继续保护您的真实电子邮件地址。
 profile-stat-learn-more = 详细了解
 profile-stat-learn-more-close = 关闭
@@ -85,7 +71,6 @@ profile-stat-label-trackers-learn-more-part2-2 = 重要提示：有时移除跟�
 profile-filter-search-placeholder-2 = 搜索马甲
 profile-filter-category-button-label = 过滤可见的马甲邮箱
 profile-filter-category-button-tooltip = 按子域名和/或是否屏蔽收到的邮件过滤马甲邮箱
-profile-filter-category-title = 过滤可见的马甲邮箱
 profile-filter-no-results = 没有匹配您选择条件的马甲邮箱。<clear-button>清除所有过滤选项。</clear-button>
 # Filter on Relay masks that are still active; i.e. that still forward received emails to your email address.
 profile-filter-category-option-active-masks = 转发中马甲
@@ -125,7 +110,6 @@ profile-promo-email-blocking-label-none-2 = 屏蔽所有邮件
 # Deprecated
 profile-promo-email-blocking-label-forwarding = { profile-label-forwarding }
 profile-promo-email-blocking-label-forwarding-2 = 转发所有邮件
-profile-promo-email-blocking-label-not-forwarding = 不转发
 profile-promo-email-blocking-option-promotionals-premiumonly-marker = （限 { -brand-name-premium }）
 profile-promo-email-blocking-description-promotionals-locked-label = { -brand-name-relay-premium } 订阅者可用
 profile-promo-email-blocking-description-promotionals-locked-cta = 立即升级

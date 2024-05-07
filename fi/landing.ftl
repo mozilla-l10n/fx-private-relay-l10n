@@ -28,10 +28,6 @@ bundle-banner-plan-modules-email-masking = Maski sähköpostiosoittelle
 bundle-banner-plan-modules-phone-masking = Maski puhelinnumerolle
 bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
 bundle-banner-cta = Hanki { -brand-name-mozilla-vpn } + { -brand-name-relay }
-bundle-banner-alt = { -brand-name-mozilla-vpn } ja { -brand-name-relay }
-# Variables:
-#   $days_guarantee (string) - the number of days for money-back guarantee. Examples: 30, 90
-bundle-banner-money-back-guarantee-2 = { $days_guarantee } päivän rahat takaisin -takuu ensimmäistä kertaa tilaavalle
 # Variables:
 #   $num_vpn_servers (string) - the number of VPN servers. Examples: 400, 500, 600
 bundle-feature-one = Yli { $num_vpn_servers } palvelinta
@@ -75,30 +71,14 @@ plan-matrix-heading-plan-free = Rajoitettu sähköpostisuojaus
 plan-matrix-heading-plan-premium = Sähköpostin suojaus
 plan-matrix-heading-plan-phones = Sähköpostin ja puhelimen suojaus
 plan-matrix-heading-plan-bundle-2 = Lisää { -brand-name-vpn } -suojaus
-plan-matrix-heading-plan-bundle-alt = Hanki { -brand-name-relay-premium } ja { -brand-name-mozilla-vpn }
 
 # Feature Breakdowns
 
-plan-matrix-feature-email-masks = Sähköpostimaskit suojaavat oikeaa sähköpostiosoitettasi
-plan-matrix-feature-browser-extension = Selainlaajennus { -brand-name-relay }n käyttämiseksi millä tahansa sivulla
-plan-matrix-feature-email-tracker-removal = Poista sähköpostin seuraimet
-plan-matrix-feature-promo-email-blocking = Estä mainossähköpostit
-plan-matrix-feature-email-subdomain = { -brand-name-relay }n sähköpostiverkkotunnus luodaksesi maskeja milloin tahansa
-plan-matrix-feature-email-reply = Vastaa sähköposteihin anonyymisti
 plan-matrix-feature-phone-mask = Puhelinnumeron peittäminen todellisen puhelinnumerosi suojaamiseksi
 plan-matrix-feature-vpn = { -brand-name-vpn }-suojaus käyttäen <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
-
-plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
-plan-matrix-feature-mobile-browser-extension = Selainlaajennus
-plan-matrix-feature-mobile-email-tracker-removal = Poista sähköpostin seuraimet
-plan-matrix-feature-mobile-promo-email-blocking = Estä mainossähköpostit
-plan-matrix-feature-mobile-email-subdomain = Yksilöllinen { -brand-name-relay }-verkkotunnus sähköpostille
-plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
-plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
-plan-matrix-feature-mobile-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -121,7 +101,6 @@ plan-matrix-price-vpn-discount-promo = <span>Säästä { $savings }</span> { -br
 
 # Plan CTAs
 
-plan-matrix-upgrade = Päivitä
 plan-matrix-sign-up = Rekisteröidy
 plan-matrix-get-relay-cta = Hanki { -brand-name-relay }
 plan-matrix-join-waitlist = Liity odotuslistalle
@@ -155,45 +134,13 @@ highlighted-features-section-new-item = Uutta!
 
 # Item 1
 
-highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
-# Variables:
-#   $mask_limit (number) - the number of masks included with a particular plan
-highlighted-features-section-unlimited-masks-body =
-    Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
-    { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
-    roskapostittajilta, hakkereilta ja seuraimilta.
-
 # Item 2
-
-highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
-# Variables:
-#   $mozmail (string): domain used by Relay masks (mozmail.com)
-highlighted-features-section-masks-on-the-go-body =
-    { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
-    luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
-    Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
 
 # Item 3
 
-highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
-highlighted-features-section-replying-body =
-    { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
-    peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
-    tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
-
 # Item 4
 
-highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
-highlighted-features-section-block-promotions-body =
-    { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
-    mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
-
 # Item 5
-
-highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
-highlighted-features-section-remove-trackers-body =
-    { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
-    sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.
 
 ## FAQ SECTION
 
@@ -205,48 +152,8 @@ landing-faq-cta = Katso lisää usein kysyttyjä kysymyksiä { -brand-name-firef
 premium-promo-hero-headline = Tee postilaatikon suojaamisesta aiempaa helpompaa { -brand-name-firefox-relay-premium }illa
 # Variables:
 #   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-hero-body-2-html = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi. <b>Rajoitetun ajan voit päivittää { -brand-name-relay-premium }iin hintaan { $monthly_price } kuukaudessa.</b>
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = { -brand-name-firefox-relay-premium } tarjoaa rajoittamattoman määrän mukautettuja sähköpostimaskeja, jotka välittävät vain haluamasi sähköpostiviestit oikeaan sähköpostiosoitteeseesi.
 premium-promo-hero-cta = Päivitä nyt
-premium-promo-offer-end-hero-heading = Tutustumishintatarjouksemme päättyy pian!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-offer-end-hero-content = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
-premium-promo-offer-end-hero-cta = Päivitä nyt
-premium-promo-availability-warning = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Singaporessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
-premium-promo-availability-warning-2 = { -brand-name-relay-premium } on tällä hetkellä saatavilla Alankomaissa, Belgiassa, Espanjassa, Irlannissa, Isossa-Britanniassa, Italiassa, Itävallassa, Kanadassa, Malesiassa, Ranskassa, Saksassa, Ruotsissa, Singaporessa, Suomessa, Sveitsissä, Uudessa-Seelannissa ja Yhdysvalloissa.
-premium-promo-perks-headline = Miksi päivittää { -brand-name-firefox-relay-premium }iin?
-premium-promo-perks-lead-2 = { -brand-name-firefox-relay-premium }illa saat kaiken { -brand-name-relay }n tarjoaman postilaatikon suojauksen ja hallinnan, mutta rajattomalla määrällä sähköpostimaskeja ja oman mukautetun aliverkkotunnuksen, jonka avulla postilaatikon hallinta on entistäkin helpompaa.
-premium-promo-perks-cta-label = Päivitä nyt
-premium-promo-perks-cta-tooltip = Päivitä { -brand-name-firefox-relay-premium }iin
-premium-promo-perks-pill-new = Uutta!
-premium-promo-perks-perk-unlimited-headline-2 = Luo rajattomasti sähköpostimaskeja
-premium-promo-perks-perk-unlimited-body-2 = Ei enää viiden maskin rajaa: { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset suojataksesi sähköpostisi roskapostittajilta ja verkon seuraimilta. Voit jopa vastata sähköposteihin paljastamatta oikeaa osoitettasi.
-premium-promo-perks-perk-custom-domain-headline-2 = Valitse oma mukautettu aliverkkotunnus
-premium-promo-perks-perk-custom-domain-body-2 = Mukautetun aliverkkotunnuksen avulla voit luoda maskeja, jotka on helpompi muistaa ja jakaa kuin koskaan. Tarvitsetko yhden maskin ravintolavarauksia varten? Käytä esimerkiksi ruoka@mydomain.mozmail.com — Maskia ei tarvitse luoda etukäteen.
-premium-promo-perks-perk-dashboard-headline-2 = Hallitse maskeja hallintapaneelista
-premium-promo-perks-perk-dashboard-body-2 = Hallitse kaikkia sähköpostimaskejasi helppokäyttöisessä hallintapaneelissa: jos huomaat vastaanottavasi ei-toivottuja viestejä, voit estää näitä viestejä pääsemästä postilaatikkoosi.
-premium-promo-perks-perk-block-promotionals-headline = Estä mainossähköpostit
-premium-promo-perks-perk-block-promotionals-body = { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi, mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
-premium-promo-perks-perk-tracker-blocking-headline = Poista sähköpostin seuraimet
-premium-promo-perks-perk-tracker-blocking-body = { -brand-name-relay } voi auttaa sinua lopettamaan sähköpostien seurannan — sähköpostimaskisi poistavat yleiset sähköpostin seuraimet kaikista sinulle välitetyistä sähköposteista, mikä auttaa sinua pysymään näkymättömänä seuraajille ja mainostajille.
-premium-promo-use-cases-headline-2 = Käytä { -brand-name-relay }-sähköpostimaskeja missä tahansa
-premium-promo-use-cases-shopping-heading = Ostokset
-premium-promo-use-cases-shopping-body-2 = Yritätkö rekisteröityä saadaksesi alennuksia, mutta et halua roskapostia? Liitä kaikki "ostotilisi" mukautettujen sähköpostimaskien alle, kuten "ostokset@mydomain.mozmail.com".
-premium-promo-use-cases-social-networks-heading = Sosiaaliset verkostot
-premium-promo-use-cases-social-networks-body-2 = Haluatko paremman suojan verkkoidentiteettillesi, kun käytät sosiaalista verkostoa? Käytä eri sähköpostimaskia kirjautuaksesi kuhunkin sosiaaliseen verkostoon ja estä oikean sähköpostiosoitteesi näkyminen näille sivustoille.
-premium-promo-use-cases-gaming-heading = Pelit
-premium-promo-pricing-free-price = Nykyinen ilmainen tilaus
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-premium-promo-pricing-offer-end-headline = Tutustumishinta: Rajoittamaton määrä maskeja hintaan { $monthly_price } kuukaudessa
-premium-promo-pricing-offer-end-warning = Tämä tarjous vanhenee pian
-premium-promo-pricing-offer-end-cta = Päivitä nyt
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-premium-promo-pricing-offer-end-body = Hanki { -brand-name-relay-premium } ennen { $end_date } ja nauti ensiluokkaisesta sähköpostin suojauksesta kuukausittaiseen esittelyhintaamme.
 
 ## The Premium waitlist page
 

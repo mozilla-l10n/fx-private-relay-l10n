@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Ваш піддомен @{ $subdomain } створено
 success-settings-update = Ваші налаштування були оновлені
 success-signed-out-message = Ви вийшли.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Ви успішно ввійшли як { $username 
 error-premium-cannot-change-subdomain = Ви не можете змінити свій піддомен
 error-premium-set-subdomain = Щоб встановити піддомен, ви повинні бути преміумпередплатником
 error-premium-check-subdomain = Щоб перевірити піддомен, ви повинні бути преміумпередплатником
-error-subdomain-not-created = Не вдалося створити піддомен, спробуйте іншу назву
-error-subdomain-email-not-created = Не вдалося створити адресу електронної пошти з піддоменом, спробуйте іншу назву
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Піддомен @{ $unavailable_subdomain } недоступний. Будь ласка, спробуйте інший.
@@ -43,8 +38,6 @@ tips-header-title = Довідка й поради
 tips-header-button-close-label = Відхилити
 tips-footer-link-faq-label = Поширені запитання
 tips-footer-link-faq-tooltip = Поширені запитання
-tips-footer-link-feedback-label = Відгук
-tips-footer-link-feedback-tooltip = Надіслати відгук
 tips-footer-link-support-label = Підтримка
 tips-footer-link-support-tooltip = Звернутися до служби підтримки
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Звернутися до служби під
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Порада { $nr }
 tips-toast-button-expand-label = Докладніше
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокувати рекламні листи
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Увімкніть блокування рекламних електронних листів маскою, щоб маркетингові листи не надходили до вашої поштової скриньки.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Створюйте маски з використ�
 tips-custom-alias-content-2 = Усе що вам потрібно зробити, це створити й поділитися унікальною маскою, яка використовує ваш власний піддомен – маску буде згенеровано автоматично. Спробуйте, наприклад, “shop@вашдомен.mozmail.com” наступного разу, коли ви робитимете покупки в інтернеті.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Блокувати рекламні листи
-tips-promo-email-blocking-content = За допомогою { -brand-name-relay-premium } ви можете блокувати надходження рекламних листів до вашої поштової скриньки, однак дозволяти електронні листи з квитанціями або інформацією про доставку.
 
 ## Report of trackers removed from an email
 
@@ -120,6 +111,7 @@ contains-tracker-warning-title = Усе одно хочете перегляну
 contains-tracker-warning-description = Попередження: клацнувши це посилання, ви надішлете відправнику інформацію про себе
 contains-tracker-warning-view-link-cta = Так, переглянути посилання
 contains-tracker-faq-section-title = Поширені запитання про елементи стеження електронної пошти
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -164,18 +156,6 @@ offer-countdown-timer-seconds = C
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = За оцінкою від 1 до 10, наскільки ймовірно, що ви порекомендуєте { -brand-name-relay } друзям чи колегам?
-survey-question-2 = Чи простий у користуванні { -brand-name-relay }?
-survey-question-3 = Чи вважаєте ви, що { -brand-name-relay } заслуговує довіри?
-survey-question-4 = Чи зрозуміло та просто представлено { -brand-name-relay }?
-survey-question-5 = Як би ви почувались, якби більше не змогли користуватись { -brand-name-relay }?
-survey-option-strongly-disagree = Категорично не погоджуюсь
-survey-option-disagree = Не погоджуюсь
-survey-option-unsure = Невпевнений
-survey-option-agree = Погоджуюсь
-survey-option-strongly-agree = Цілком погоджуюсь
-survey-option-i-wouldnt-care = Мені байдуже
-survey-option-somewhat-disappointed = Дещо засмучено
-survey-option-very-disappointed = Дуже засмучено
 survey-option-very-likely = Обов'язково порекомендую
 survey-option-not-likely = Швидше не порекомендую
 survey-option-dismiss = Відхилити
@@ -194,32 +174,6 @@ survey-csat-followup = Спасибі за ваш відгук. Ми хотіл�
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Це повідомлення було переслано з { $display_email } за допомогою { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } прибирає копію та приховану копію з ваших відповідей. Якщо ви додасте їх повторно, ваша справжня електронна адреса буде розкрита.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Передплатіть { $premium_link }, щоб отримати необмежену кількість масок електронної адреси, власний субдомен та можливість відповідати на електронні листи.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Термін дії нашої початкової місячної цінової пропозиції закінчується. Оновіть до { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } підтримує пересилання електронних листів (включно з вкладеннями) електронної пошти розміром до { email-size-limit }. Докладніше: { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = { $nr_blocked_trackers } елементи стеження електронної пошти вилучено
-forwarded-email-trackers-blocked-report = Докладніше
-# This entire text is a link
-forwarded-email-footer-2 = Припинити пересилання електронної пошти та керувати налаштуваннями всіма масками можна тут.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Передплатити { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Оновіть до { $premium_link } перед закінченням терміну дії нашої початкової ціни.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -292,6 +246,7 @@ what-can-you-do-with-relay-point-three = Заблокуйте спам від п
 what-can-you-do-with-relay-point-three-subpoint = На панелі керування { -brand-name-relay } ви можете створювати маски, позначати їх, щоб зазначати, де ви їх використовуєте, увімкнути блокування спаму та видалити ті, які більше не потрібні.
 forwarded-email-hero-header = Ви отримали свій перший пересланий електронний лист!
 forwarded-email-hero-desc = Бачите цей заголовок? Він з'являтиметься в усіх електронних листах, які пересилатимуться за допомогою масок { -brand-name-relay }.
+
 first-time-user-email-how-title = Як працює { -brand-name-relay }
 first-time-user-email-how-item-1-header = Використовуйте маски адрес електронної пошти { -brand-name-relay } замість справжньої адреси електронної пошти будь-де
 # Variables
@@ -307,11 +262,11 @@ first-time-user-email-how-item-3-header = Керуйте своїми маска
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Увійдіть</a>, щоб створювати нові маски, позначати свої маски та видаляти маски, на які надходить спам.
 first-time-user-email-how-item-3-subhead-text = Увійдіть, щоб створювати нові маски, позначати свої маски та видаляти маски, на які надходить спам.
-first-time-user-email-extra-protection-inbox-title = Додатковий захист для вашої скриньки
+
 first-time-user-email-extra-protection-inbox-phone-title = Додатковий захист для вашої поштової скриньки та телефону
-first-time-user-email-extra-protection-inbox-subhead = Передплатіть { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти, власний домен { -brand-name-relay } і спеціальні елементи керування вхідними.
 first-time-user-email-extra-protection-inbox-phone-subhead = Передплатіть { -brand-name-relay-premium }, щоб отримати необмежену кількість масок електронної пошти — плюс маску номера телефону, щоб захистити ваш справжній номер.
 first-time-user-email-extra-protection-cta = Отримайте { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Маєте запитання про { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -333,11 +288,13 @@ first-time-user-email-footer-text-privacy = Умови та приватніст
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Ви використали всі { $free_tier_limit } масок електронної пошти, доступні у вашому безплатному обліковому записі. Можна скористатися вже наявною маскою, але найбезпечнішим способом є використання унікальної маски для кожного облікового запису.
 api-error-free-tier-no-subdomain-masks = Ваш безплатний обліковий запис не включає власні піддомени для масок. Щоб створювати власні маски, передплатіть { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = Неможливо створити “{ $unavailable_address }”. Спробуйте вжити іншу назву маски.
 api-error-need-subdomain = Перш ніж створювати власну адресу електронної пошти, оберіть піддомен.
 api-error-account-is-paused = Ваш обліковий запис призупинено.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = “{ $duplicate_address }” вже існує. Повторіть спробу з іншою назвою маски.

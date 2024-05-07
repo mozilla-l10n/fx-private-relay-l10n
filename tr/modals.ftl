@@ -6,8 +6,6 @@
 ## Modal for generating a custom mask
 
 modal-custom-alias-picker-heading-2 = Yeni özel maske oluştur
-modal-custom-alias-picker-warning-2 = Tek yapmanız gereken, özel alt alan adınızı kullanan bir maske kullanıcı adı uydurmak. Uydurduğunuz maske otomatik olarak oluşturulacaktır. Örneğin, bir sonraki alışverişlerinizde “magazaadi@altalanadiniz.mozmail.com” adresini deneyebilirsiniz.
-modal-custom-alias-picker-form-heading-2 = Veya kendi maskenizi manuel olarak oluşturun
 modal-custom-alias-picker-form-prefix-label-3 = @ işaretinden önce gelecek metni yazın:
 # This is shown in placeholder of the form field in which users can pick a custom mask prefix for their own subdomain,
 # as an example of what email addresses to use (e.g. `coffee@customdomain.mozmail.com`).
@@ -16,7 +14,6 @@ modal-custom-alias-picker-form-prefix-spaces-warning = E-posta maskelerinde boş
 modal-custom-alias-picker-form-prefix-invalid-warning = E-posta maskeleri yalnızca küçük harf, rakam ve tire içerebilir; tire ile başlayamaz ve bitemez.
 modal-custom-alias-picker-form-prefix-invalid-warning-2 = E-posta maskeleri yalnızca küçük harf, rakam, nokta ve tire içerebilir; nokta veya tire ile başlayamaz ve bitemez.
 modal-custom-alias-picker-form-submit-label-2 = Maske oluştur
-modal-custom-alias-picker-creation-error-2 = Özel e-posta maskeniz elle oluşturulamadı. Lütfen yeniden deneyin veya maskeyi oluşturmak için maskeye e-posta gönderin.
 modal-custom-alias-picker-tip-redesign = İpucu: Özel bir maske oluşturmak için { -brand-name-relay }’e giriş yapmanıza gerek yok. { -brand-name-relay } e-posta alan adınızdaki @ işaretinden önce istediğiniz bir kelime veya ifadeyi eklemeniz yeterli. Bu adrese bir e-posta geldiği anda maskeniz otomatik olarak oluşturulacaktır.
 modal-custom-alias-picker-form-prefix-placeholder-redesign = Metni girin
 error-alias-picker-prefix-invalid-uppercase-letters = Büyük harf kullanmayın
@@ -28,35 +25,18 @@ popover-custom-alias-explainer-promotional-block-checkbox-label = Reklam e-posta
 error-state-valid-alt = Geçerli
 error-state-invalid-alt = Geçersiz
 close-button-label-alt = Kapat
-modal-rename-alias-saved = Etiket kaydedildi
+
 modal-delete-headline-2 = Bu e-posta maskesini kalıcı olarak silmek istediğinizden emin misiniz?
+
 # Variables:
 #   $email (string) - The relay mask (email address) that will be deleted
 modal-delete-warning-recovery-2-html = Bu maskeyi sildikten sonra asla geri alamazsınız. { -brand-name-firefox-relay } bundan sonra <strong>{ $email }</strong> adresine gönderilen e-postaları size yönlendirmeyecektir. Parola sıfırlama iletileri de buna dahildir.
 modal-delete-confirmation-2 = Evet, bu maskeyi silmek istiyorum.
-modal-domain-register-good-news = İyi bir haberimiz var!
-modal-domain-register-warning-reminder-2 = Tek bir alt alan adı kaydedebileceğinizi unutmayın. Bunu daha sonra değiştiremezsiniz.
-modal-domain-register-button-2 = Alt alan adı kaydet
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-available = { $subdomain } kullanılabilir durumda!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-available-2 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> kullanılabilir durumda!
+
 # Variables:
 #   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
 modal-domain-register-confirmation-checkbox-2 = Evet, <subdomain>{ $subdomain }</subdomain> alt alan adını kaydetmek istiyorum
 modal-domain-register-success-title = Tamamlandı!
-# Variables:
-#   $subdomain (string) - This is the custom subdomain the user wants to use
-#   for subdomain-based relay addresses. Example: Jane wants to register jane.mozmail.com.
-modal-domain-register-success-2 = { $subdomain } artık e-posta alt alan adınız!
-# Variables:
-#   $subdomain (string) - Chosen subdomain, i.e. the part after `@` and before `.mozmail.com`
-#   $domain (string) - Applicable domain, i.e. `.mozmail.com`
-modal-domain-register-success-3 = <subdomain>{ $subdomain }</subdomain><domain>.{ $domain }</domain> artık e-posta alt alan adınız!
-modal-domain-register-success-copy-2 = Artık sınırsız sayıda özel e-posta maskesi oluşturabilirsiniz!
 
 ## Updated mask deletion modal strings
 

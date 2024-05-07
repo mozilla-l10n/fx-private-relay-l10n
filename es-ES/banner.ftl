@@ -6,7 +6,9 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Descartar
+
 banner-bounced-headline = { -brand-name-relay } no pudo entregar tu correo electrónico.
+
 # Variables:
 #   $username (string) - Username
 #   $bounce_type (string) - Type of bounced email
@@ -24,16 +26,7 @@ banner-download-install-extension-cta = Añadir { -brand-name-relay } a { -brand
 banner-download-install-chrome-extension-headline = Prueba { -brand-name-relay } para { -brand-name-google-chrome }
 banner-download-install-chrome-extension-copy-2 = La extensión de { -brand-name-firefox-relay } para { -brand-name-chrome } hace que la creación y uso de máscaras sea aún más fácil.
 banner-download-install-chrome-extension-cta = Obtén la extensión { -brand-name-relay }
-banner-upgrade-headline = Actualiza a { -brand-name-relay-premium }
-banner-upgrade-copy-2 = { -brand-name-firefox-relay-premium } hace que la creación de máscaras de correo electrónico sea aún más fácil, con dominios de máscaras personalizados y máscaras ilimitados.
 banner-upgrade-cta = Actualiza a { -brand-name-relay-premium }
-# This is a small label that appears in the top corner of banner notifications that require a user to complete an important task.
-banner-label-action = Acción importante
-banner-register-subdomain-headline-aliases-2 = Obtén un dominio personalizado para tus máscaras
-# This string is used in the example subdomain mask. Keep it lowercase and
-# without spaces, to resemble an actual email address, and make sure it’s
-# translated consistently across other strings.
-banner-register-subdomain-example-address = tudominio
 
 # Translate "restaurant" and "yourdomain" in the email address, keeping them
 # lowercase and without spaces to resemble an actual email address.
@@ -45,48 +38,12 @@ banner-register-subdomain-copy-2 =
     antes de usarlas. ¿Necesitas una para hacer una reserva? Usa
     “restaurante@tudominio.{ $mozmail }” para el restaurante. Cualquier máscara que use tu
     subdominio personalizado se te reenviará.
-banner-choose-subdomain-input-placeholder-3 = Buscar subdominio
-# This is the “call to action” text on the submit button of subdomain registration form.
-banner-register-subdomain-button-search = Buscar
-banner-pack-upgrade-headline-2-html = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para obtener más máscaras
-banner-pack-upgrade-copy-2 = Con máscaras de correo electrónico ilimitados y tu propio subdominio de correo electrónico, { -brand-name-firefox-relay-premium } te ayuda a mantenerte protegido en línea.
-footer-banner-premium-promo-headine = Actualiza a <strong>{ -brand-name-firefox-relay-premium }</strong> para proteger tu teléfono <i>y</i> correo electrónico
-footer-banner-premium-promo-body = Obtén una máscara de número de teléfono, máscaras de correo electrónico ilimitadas y direcciones de correo electrónico personalizadas para crear máscaras rápidamente.
 banner-pack-upgrade-cta = Actualizar ahora
-# Privacy Notice update banner:
-banner-label-privacy-notice-update-header = Actualización del aviso de privacidad
-banner-label-privacy-notice-update-body = Para mejorar la fiabilidad de { -brand-name-firefox-relay } en el caso de que no se pueda entregar un correo electrónico, lo mantendremos temporalmente en nuestros servidores hasta que se haya entregado. Nunca lo conservaremos durante más de tres días.
-banner-label-privacy-notice-update-cta = Ver el aviso de privacidad
-# Data Notification Banner:
-banner-label-data-notification-header = Próximamente en { -brand-name-relay }
-banner-label-data-notification-cta = Ir a Ajustes
-banner-label-data-notification-header-v2 = Activar nuevas funciones
+
+
 banner-label-data-notification-body-cta = Saber más
-# Loyalist Upsell Banner:
-banner-upgrade-loyalist-headline-2 = Protege tu privacidad, salva Internet
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
-banner-upgrade-loyalist-copy-2 = Protege tu privacidad mientras te unes a nuestra misión para construir un Internet mejor, todo por { $monthly_price }
-banner-upgrade-loyalist-cta = Obtén más protección
-# End of intro pricing countdown banner:
-banner-offer-end-headline = ¡Nuestra oferta de lanzamiento finaliza pronto!
-# Variables:
-#   $end_date (string) - The localised date the introductory pricing offer ends, e.g. "September 27 2022"
-banner-offer-end-copy = Consigue { -brand-name-relay-premium } antes del { $end_date } y disfruta enmascaramiento ilimitado a nuestro precio mensual de lanzamiento.
-banner-offer-end-cta = Actualizar ahora
-# Variables:
-# $subdomain (url) - User-set subdomain
-banner-choose-subdomain-description = Puedes crear cualquier dirección @{ $subdomain }
+
 # Relay Premium Promo A/B Test
-banner-ab-premium-promo-stop-spam-headline = Detén el spam, las llamadas automáticas y los mensajes de texto no deseados
-banner-ab-premium-promo-stop-spam-body = { -brand-name-relay-premium } te proporciona una máscara de teléfono para proteger tu número real, además de máscaras de correo electrónico ilimitadas.
-banner-ab-premium-promo-advanced-identity-headline = Protección avanzada de identidad
-banner-ab-premium-promo-advanced-identity-body = Evita que los rastreadores y agregadores de datos te identifiquen a través de tu número de teléfono y dirección de correo electrónico.
-banner-ab-premium-promo-control-receiver-headline = Controla quién tiene tu número real
-banner-ab-premium-promo-control-receiver-body = { -brand-name-relay-premium } te proporciona una máscara de teléfono para proteger tu número real, además de máscaras de correo electrónico ilimitadas.
-banner-ab-premium-promo-extra-protection-headline = Obtén protección adicional para tu bandeja de entrada y tu teléfono
-banner-ab-premium-promo-extra-protection-body = Obtén máscaras de correo electrónico ilimitadas, además de una máscara de teléfono para controlar quién tiene tu número real.
-banner-ab-premium-promo-cta = Actualizar
 
 ## Set domain banner
 
@@ -107,6 +64,7 @@ banner-set-email-domain-input-search = Buscar
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = tudominio
 banner-set-email-domain-learn-more = Saber más
+
 modal-email-domain-good-news = ¡Buenas noticias!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -126,7 +84,7 @@ modal-email-domain-success-headline-any-word = Crea máscaras ilimitadas añadie
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = ¿De compras? Usa la tienda{ $custom_domain_full }.
-modal-email-domain-success-continue = Continuar
+
 tooltip-email-domain-explanation-title = Acerca de tu dominio de correo electrónico único { -brand-name-relay }
 tooltip-email-domain-explanation-part-one = Esta valiosa función de tu cuenta { -brand-name-relay-premium } te permite elegir un dominio de correo electrónico único de { -brand-name-relay } que puedes usar para crear máscaras { -brand-name-relay } personalizadas e ilimitadas sobre la marcha.
 tooltip-email-domain-explanation-part-two = No es necesario iniciar sesión en { -brand-name-relay } para generar una nueva máscara; Simplemente añade cualquier palabra o frase antes del símbolo @ de tu dominio de correo electrónico { -brand-name-relay } para crear instantáneamente una nueva máscara dondequiera que estés.

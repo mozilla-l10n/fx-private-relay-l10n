@@ -9,8 +9,6 @@ multi-part-onboarding-premium-welcome-subheadline = Ahora puedes controlar lo qu
 
 ## Step 2 Set Custom Domain
 
-multi-part-onboarding-premium-email-domain-feature-input-placeholder = Buscar una palabra o frase
-multi-part-onboarding-premium-email-domain-feature-input-search = Buscar
 # This string is used in the example subdomain mask. Keep it lowercase, in latin characters and
 # without spaces, to resemble an actual email address, and make sure it’s
 # translated consistently across other strings.

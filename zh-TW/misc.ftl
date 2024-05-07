@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = 已建立您的子網域 @{ $subdomain }
 success-settings-update = 已更新您的設定。
 success-signed-out-message = 您已登出。
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = 已成功以 { $username } 的身分登入。
 error-premium-cannot-change-subdomain = 無法變更您的子網域
 error-premium-set-subdomain = 您必須訂閱 Premium 版本，才能設定子網域
 error-premium-check-subdomain = 您必須訂閱 Premium 版本，才能確認子網域是否可以使用
-error-subdomain-not-created = 無法建立子網域，請嘗試改用其他子網域名稱
-error-subdomain-email-not-created = 無法建立使用子網域的電子郵件信箱，請嘗試改用其他子網域名稱
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = 子網域 @{ $unavailable_subdomain } 無法使用。請使用其他名稱再試一次。
@@ -43,8 +38,6 @@ tips-header-title = 使用說明與小秘訣
 tips-header-button-close-label = 知道了！
 tips-footer-link-faq-label = 常見問題
 tips-footer-link-faq-tooltip = 常見問題
-tips-footer-link-feedback-label = 意見回饋
-tips-footer-link-feedback-tooltip = 提供意見回饋
 tips-footer-link-support-label = 技術支援
 tips-footer-link-support-tooltip = 聯絡支援團隊
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = 聯絡支援團隊
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = 秘訣 { $nr }
 tips-toast-button-expand-label = 了解更多
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = 封鎖行銷郵件
 popover-custom-alias-explainer-promotional-block-tooltip-2 = 對轉寄信箱開啟「封鎖行銷郵件」功能，即可不讓行銷郵件進入收件匣。
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = 使用您的自訂子網域來建立轉寄信箱
 tips-custom-alias-content-2 = 您只要想一組獨特的名稱，即可建立專屬您的子網域轉寄信箱。例如在網購時改用「shop@customsubdomain.mozmail.com」就會自動產生。
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = 封鎖行銷郵件
-tips-promo-email-blocking-content = 透過 { -brand-name-relay-premium } 即可封鎖行銷郵件，但還是能收到消費收據、訂單出貨通知等重要郵件。
 
 ## Report of trackers removed from an email
 
@@ -113,6 +104,7 @@ contains-tracker-warning-title = 您還想要檢視鏈結嗎？
 contains-tracker-warning-description = 警告：點擊此鏈結，會將您的資訊傳送回給寄件者
 contains-tracker-warning-view-link-cta = 好，檢視鏈結
 contains-tracker-faq-section-title = 關於電子郵件追蹤器的常見問題
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -154,18 +146,6 @@ offer-countdown-timer-seconds = 秒
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = 從 1-10 分計算，您多有可能會把 { -brand-name-relay } 推薦給朋友或同事？
-survey-question-2 = { -brand-name-relay } 使用簡單嗎？
-survey-question-3 = 您覺得 { -brand-name-relay } 值得信賴嗎？
-survey-question-4 = 您覺得 { -brand-name-relay } 的畫面簡潔好用嗎？
-survey-question-5 = 如果不能再使用 { -brand-name-relay } 了，您會覺得如何？
-survey-option-strongly-disagree = 非常不同意
-survey-option-disagree = 不同意
-survey-option-unsure = 沒意見
-survey-option-agree = 同意
-survey-option-strongly-agree = 非常同意
-survey-option-i-wouldnt-care = 我沒差
-survey-option-somewhat-disappointed = 有點失望
-survey-option-very-disappointed = 非常失望
 survey-option-very-likely = 非常願意
 survey-option-not-likely = 非常不願意
 survey-option-dismiss = 隱藏
@@ -184,32 +164,6 @@ survey-csat-followup = 感謝您提供意見回饋，我們想更加了解要如
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = 此訊息是由 { $linked_origin } 的 { $display_email } 帳號轉寄過來。
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } 會從回覆中清除附本與密件副本收件者。若您重新把他們加回來，就會暴露您的實際電子郵件信箱。
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = 升級到 { $premium_link } 即可獲得無限量的轉寄信箱、自訂郵件子網域，與透過轉寄信箱回覆郵件的功能。
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = 上市優惠價促銷即將結束。立即升級 { $premium_link }。
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } 可轉寄最大 { email-size-limit } 的電子郵件（含附件）。若需詳細資訊，請參考我們的 { $faq_link }。
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = 已移除 { $nr_blocked_trackers } 組電子郵件追蹤器
-forwarded-email-trackers-blocked-report = 了解更多
-# This entire text is a link
-forwarded-email-footer-2 = 點擊此處即可停止轉寄郵件或管理轉寄信箱設定。
-# This entire text is a link
-forwarded-email-footer-premium-banner = 升級到 { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = 在上市優惠價促銷結束前升級 { $premium_link }。
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -280,6 +234,7 @@ what-can-you-do-with-relay-point-three = 不讓垃圾信抵達您的收件匣，
 what-can-you-do-with-relay-point-three-subpoint = 您可以在 { -brand-name-relay } 儀表板建立轉寄信箱、為轉寄信箱加上標籤以記下在哪裡使用、開啟垃圾信封鎖功能，或是刪除任何不再需要的轉寄信箱。
 forwarded-email-hero-header = 您收到了第一封轉寄郵件！
 forwarded-email-hero-desc = 看到這個檔頭了嗎？所有透過 { -brand-name-relay } 轉寄的郵件當中都會顯示此標示。
+
 first-time-user-email-how-title = { -brand-name-relay } 的運作原理
 first-time-user-email-how-item-1-header = 隨時隨地都使用 { -brand-name-relay } 轉寄信箱，不使用您的實際信箱。
 # Variables
@@ -295,11 +250,11 @@ first-time-user-email-how-item-3-header = 在 { -brand-name-relay } 儀表板管
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>登入</a>後即可建立轉寄信箱、為您的轉寄信箱加上標籤，或刪除會收到垃圾信的轉寄信箱。
 first-time-user-email-how-item-3-subhead-text = 登入後即可建立轉寄信箱、為轉寄信箱加上標籤，或是刪除收到垃圾信的轉寄信箱。
-first-time-user-email-extra-protection-inbox-title = 為您的信箱提供額外保護
+
 first-time-user-email-extra-protection-inbox-phone-title = 為您的信箱與手機門號再加一道保護
-first-time-user-email-extra-protection-inbox-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱、自訂 { -brand-name-relay } 網域以及自訂收件匣控制功能。
 first-time-user-email-extra-protection-inbox-phone-subhead = 升級到 { -brand-name-relay-premium } 即可獲得無限量的轉寄信箱，與能保護您實際手機號碼的轉接門號。
 first-time-user-email-extra-protection-cta = 下載 { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = 有 { -brand-name-firefox-relay } 相關問題嗎？
 # Variables
 #   $url (string) - URL of the support team website
@@ -321,11 +276,13 @@ first-time-user-email-footer-text-privacy = 使用條款及隱私權
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = 您已經用完免費帳戶能夠建立的 { $free_tier_limit } 組免費轉寄信箱。您可以重複使用現有的轉寄信箱，但針對每個帳號都建立專屬轉寄信箱是最安全的作法。
 api-error-free-tier-no-subdomain-masks = 您的免費帳號無法針對轉寄信箱建立子網域。若要建立自訂轉寄信箱，請升級 { -brand-name-relay-premium }。
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = 無法建立「{ $unavailable_address }」，請改用其他名稱建立轉寄信箱。
 api-error-need-subdomain = 請先選擇子網域才能建立自訂轉寄信箱。
 api-error-account-is-paused = 您的帳號暫停中。
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = 「{ $duplicate_address }」已存在，請改用其他名稱建立轉寄信箱。

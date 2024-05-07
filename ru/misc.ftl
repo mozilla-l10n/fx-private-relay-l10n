@@ -5,9 +5,6 @@
 
 ## Success Messages
 
-# Variables:
-#   $subdomain (url) - User-set subdomain
-success-subdomain-registered-2 = Ваш поддомен @{ $subdomain } создан
 success-settings-update = Ваши настройки обновлены
 success-signed-out-message = Вы вышли.
 # Variables:
@@ -19,8 +16,6 @@ success-signed-in-message = Вы успешно вошли как { $username }.
 error-premium-cannot-change-subdomain = Вы не можете изменять свой поддомен
 error-premium-set-subdomain = Вы должны быть премиум-подписчиком, чтобы выбрать поддомен
 error-premium-check-subdomain = Вы должны быть премиум-подписчиком, чтобы проверить поддомен
-error-subdomain-not-created = Не удалось создать поддомен, попробуйте другой
-error-subdomain-email-not-created = Не удалось создать адрес электронной почты с помощью поддомена, попробуйте другой
 # Variables:
 #   $unavailable_subdomain (url) - User-set subdomain that is not allowed
 error-subdomain-not-available-2 = Поддомен @{ $unavailable_subdomain } недоступен. Пожалуйста, попробуйте другой.
@@ -43,8 +38,6 @@ tips-header-title = Справка и советы
 tips-header-button-close-label = Пропустить
 tips-footer-link-faq-label = ЧЗВ
 tips-footer-link-faq-tooltip = Часто задаваемые вопросы
-tips-footer-link-feedback-label = Отзывы
-tips-footer-link-feedback-tooltip = Оставить отзыв
 tips-footer-link-support-label = Поддержка
 tips-footer-link-support-tooltip = Связаться с поддержкой
 # Label for each of the dots representing a tip in a panel in the bottom right-hand corner.
@@ -52,6 +45,7 @@ tips-footer-link-support-tooltip = Связаться с поддержкой
 #   $nr (number) - Which tip can be seen by clicking/tapping this particular dot.
 tips-switcher-label = Совет № { $nr }
 tips-toast-button-expand-label = Подробнее
+
 # Checkbox the user can click to adjust the block level of the new mask
 popover-custom-alias-explainer-promotional-block-checkbox = Блокировать рекламные письма
 popover-custom-alias-explainer-promotional-block-tooltip-2 = Включите блокировку рекламных писем для псевдонима, чтобы такие электронные письма не попадали в ваш почтовый ящик.
@@ -63,9 +57,6 @@ tips-custom-alias-heading-2 = Создание псевдонимов с пом�
 tips-custom-alias-content-2 = Всё, что вам нужно сделать, — это придумать уникальный псевдоним с собственным поддоменом и воспользоваться им.  Создание произойдёт автоматически. Попробуйте, например, «shop@customdomain.mozmail.com» в следующий раз, когда будете делать покупки в Интернете.
 
 ## Tip about using custom masks
-
-tips-promo-email-blocking-heading = Блокировка рекламных писем
-tips-promo-email-blocking-content = С { -brand-name-relay-premium } вы можете блокировать рекламные письма, при этом получая такие электронные письма, как квитанции и информацию о доставке.
 
 ## Report of trackers removed from an email
 
@@ -120,6 +111,7 @@ contains-tracker-warning-title = Вы все еще хотите просмот�
 contains-tracker-warning-description = Предупреждение: При щелчке по этой ссылке информация о вас будет отправлена обратно отправителю.
 contains-tracker-warning-view-link-cta = Да, просмотреть ссылку
 contains-tracker-faq-section-title = Часто задаваемые вопросы о трекерах электронной почты
+
 # Time remaining until Relay Premium's introductory pricing is no longer available.
 # This will not be shown anymore once the time runs out.
 # Variables:
@@ -164,18 +156,6 @@ offer-countdown-timer-seconds = Сек.
 ## Evergreen Survey (displayed on the profile page)
 
 survey-question-1 = Оцените по шкале от 1 до 10, насколько вероятно, что вы порекомендуете { -brand-name-relay } знакомым или коллегам?
-survey-question-2 = { -brand-name-relay } легко использовать?
-survey-question-3 = Вы можете доверять { -brand-name-relay }?
-survey-question-4 = { -brand-name-relay } представлен понятно и просто?
-survey-question-5 = Как вы будете себя чувствовать, если больше не сможете использовать { -brand-name-relay }?
-survey-option-strongly-disagree = Полностью не соглашаюсь
-survey-option-disagree = Не соглашаюсь
-survey-option-unsure = Не знаю
-survey-option-agree = Соглашаюсь
-survey-option-strongly-agree = Полностью соглашаюсь
-survey-option-i-wouldnt-care = Мне всё равно
-survey-option-somewhat-disappointed = Немного огорчусь
-survey-option-very-disappointed = Очень огорчусь
 survey-option-very-likely = Очень вероятно
 survey-option-not-likely = Маловероятно
 survey-option-dismiss = Пропустить
@@ -194,32 +174,6 @@ survey-csat-followup = Спасибо за отзыв. Мы хотели бы у
 
 ## Deprecated (since January 2023)
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
-
-# Variables:
-#   $display_email (string) - This is the relay mask displayed in the email header. Example: abc123@relay.firefox.com
-#   $linked_origin (html) - This is a link to the website, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com" ...>Firefox Relay</a>
-forwarded-email-header-from = Это сообщение было переслано с { $display_email } с помощью { $linked_origin }.
-forwarded-email-header-cc-notice-2 = { -brand-name-relay-premium } удаляет копии и скрытые копии из ваших ответов. Если вы добавите их снова, ваш настоящий адрес электронной почты будет раскрыт.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Firefox Relay Premium</a>
-forwarded-email-header-premium-banner-3 = Переходите на { $premium_link }, чтобы получить неограниченное число псевдонимов, собственный поддомен и возможность отвечать на электронные письма.
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-header-offer-countdown-banner = Наше начальное ежемесячное ценовое предложение истекает. Обновитесь до { $premium_link }.
-# Variables:
-#   $faq_link (html) - This is a link to the website FAQ, wrapped with inline styles for email. Example: <a href="https://relay.firefox.com/faq" ...>{nav-faq}</a>
-forwarded-email-header-attachment = { -brand-name-firefox-relay } поддерживает переадресацию писем размером до { email-size-limit } (включая вложения). Подробнее: { $faq_link }.
-# Variables:
-#   $nr_blocked_trackers (number) - The number of trackers that were removed from an email.
-forwarded-email-trackers-blocked-count = Трекеров удалено: { $nr_blocked_trackers }
-forwarded-email-trackers-blocked-report = Подробнее
-# This entire text is a link
-forwarded-email-footer-2 = Прекратить переадресацию электронных писем и управлять настройками всех псевдонимов можно тут.
-# This entire text is a link
-forwarded-email-footer-premium-banner = Перейти на { -brand-name-relay-premium }
-# Variables:
-#   $premium_link (string) - This is a link to relay.firefox.com/premium. Example: <a href="https://relay.firefox.com/premium" ...>Relay Premium</a>
-forwarded-email-footer-offer-countdown-banner = Обновите до { $premium_link } до истечения срока действия начальной цены.
 
 ## Email wrapping (header and footer messages wrapped around forwarded emails)
 ## January 2023 redesign
@@ -292,6 +246,7 @@ what-can-you-do-with-relay-point-three = Блокируйте попадание
 what-can-you-do-with-relay-point-three-subpoint = На панели управления { -brand-name-relay } вы можете создавать псевдонимы, помечать их, чтобы отметить, где вы их используете, включать блокировку спама и удалять те, которые вам больше не нужны.
 forwarded-email-hero-header = Вы получили первое перенаправленное письмо!
 forwarded-email-hero-desc = Видите этот заголовок? Он будет отображаться во всех электронных письмах, пересылаемых с помощью псевдонима { -brand-name-relay }.
+
 first-time-user-email-how-title = Как работает { -brand-name-relay }
 first-time-user-email-how-item-1-header = Используйте везде псевдоним { -brand-name-relay } вместо настоящего адреса электронной почты.
 # Variables
@@ -307,11 +262,11 @@ first-time-user-email-how-item-3-header = Управляйте своими пс
 #   $attrs (string) - Inline attributes for the link
 first-time-user-email-how-item-3-subhead-html = <a href="{ $url }" { $attrs }>Войдите</a>, чтобы создавать новые псевдонимы, помечать и удалять свои псевдонимы, на которые поступает спам.
 first-time-user-email-how-item-3-subhead-text = Войдите, чтобы создавать новые псевдонимы, помечать и удалять свои псевдонимы, на которые поступает спам.
-first-time-user-email-extra-protection-inbox-title = Дополнительная защита для вашего ящика
+
 first-time-user-email-extra-protection-inbox-phone-title = Дополнительная защита для вашего ящика и телефона
-first-time-user-email-extra-protection-inbox-subhead = Обновитесь до { -brand-name-relay-premium }, чтобы получить неограниченное количество псевдонимов электронной почты, настраиваемый домен { -brand-name-relay } и настраиваемые элементы управления почтовыми ящиками.
 first-time-user-email-extra-protection-inbox-phone-subhead = Обновитесь до { -brand-name-relay-premium }, чтобы получить неограниченное количество псевдонимов электронной почты, а также псевдоним телефона для защиты вашего реального номера.
 first-time-user-email-extra-protection-cta = Получить { -brand-name-relay-premium }
+
 first-time-user-email-questions-title = Есть вопросы о { -brand-name-firefox-relay }?
 # Variables
 #   $url (string) - URL of the support team website
@@ -333,11 +288,13 @@ first-time-user-email-footer-text-privacy = Условия и конфиденц
 #   $free_tier_limit (number) - Maximum email masks created for free account, currently 5
 api-error-free-tier-limit = Вы использовали все { $free_tier_limit } псевдонимов электронной почты, включённых в бесплатную учётную запись. Вы можете повторно использовать существующий псевдоним, но использование уникального псевдонима для каждой учётной записи является наиболее безопасным решением.
 api-error-free-tier-no-subdomain-masks = Ваша бесплатная учётная запись не включает настраиваемые поддомены для псевдонимов. Чтобы создавать собственные псевдонимы, перейдите на { -brand-name-relay-premium }.
+
 # Variables:
 #   $unavailable_address (string) - User-set subdomain that is not allowed
 api-error-address-unavailable = «{ $unavailable_address }» не может быть создан. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
 api-error-need-subdomain = Пожалуйста, выберите поддомен перед созданием собственного адреса электронной почты.
 api-error-account-is-paused = Ваш аккаунт приостановлен.
+
 # Variables:
 #   $duplicate_address (string) - User-set email address that already exists
 api-error-duplicate-address = «{ $duplicate_address }» уже существует. Пожалуйста, попробуйте ещё раз с другим именем псевдонима.
