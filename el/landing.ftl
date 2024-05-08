@@ -11,6 +11,9 @@ hero-section-body =
     ώστε να δημιουργείτε ανώνυμα νέους λογαριασμούς, να εμποδίζετε ανεπιθύμητα μηνύματα και κλήσεις, 
     καθώς και να λαμβάνετε μόνο τα email που θέλετε στα εισερχόμενά σας.
 hero-section-cta = Έναρξη
+# Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
+# Example: "As seen in FORBES magainze and LifeHacker website"
+hero-section-social-proof = Όπως φαίνεται στα:
 
 ## BUNDLE BANNER SECTION
 
@@ -61,8 +64,6 @@ plan-matrix-offer-body = Το { -brand-name-firefox-relay } προστατεύε
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Δυνατότητες
 plan-matrix-heading-plan-free = Περιορισμένη προστασία email
 plan-matrix-heading-plan-premium = Προστασία email
@@ -74,8 +75,6 @@ plan-matrix-heading-plan-bundle-2 = Προσθήκη προστασίας { -bra
 plan-matrix-feature-phone-mask = Μάσκα τηλεφώνου για την προστασία του πραγματικού αριθμού τηλεφώνου σας
 plan-matrix-feature-vpn = Προστασία { -brand-name-vpn } από το <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
-
-# Feature Breakdowns Mobile (Shorter than desktop strings)
 
 # Plan Details
 
@@ -94,6 +93,8 @@ plan-matrix-price-period-yearly = Ετησίως
 plan-matrix-price-period-monthly = Μηνιαία
 plan-matrix-price-period-yearly-footnote-1 = Ετήσια χρέωση
 plan-matrix-price-period-monthly-footnote-1 = Μηνιαία χρέωση
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Εξοικονομήστε { $savings }</span> από την κανονική τιμή του { -brand-name-vpn }
 
 # Plan CTAs
@@ -129,16 +130,6 @@ highlighted-features-section-bottom-title = Προστατέψτε την ταυ
 highlighted-features-section-bottom-cta = Έναρξη
 highlighted-features-section-new-item = Νέο!
 
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
-
 ## FAQ SECTION
 
 landing-faq-headline = Συνήθεις ερωτήσεις για το { -brand-name-firefox-relay }
@@ -147,8 +138,6 @@ landing-faq-cta = Δείτε περισσότερες συχνές ερωτήσ�
 ## Premium promo page
 
 premium-promo-hero-headline = Προστατέψτε ευκολότερα τα εισερχόμενά σας με το { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Με το { -brand-name-firefox-relay-premium }, έχετε απεριόριστες προσαρμοσμένες μάσκες email που προωθούν μόνο τα email που θέλετε στην πραγματική σας διεύθυνση email.
 premium-promo-hero-cta = Αναβάθμιση τώρα
 premium-promo-availability-warning-4 = Το { -brand-name-relay-premium } είναι διαθέσιμο στην Αυστρία, το Βέλγιο, τη Βουλγαρία, τη Γαλλία, τη Γερμανία, την Ελβετία, την Ελλάδα, την Εσθονία, τις Ηνωμένες Πολιτείες, το Ηνωμένο Βασίλειο, την Ιρλανδία, την Ισπανία, την Ιταλία, τον Καναδά, την Κροατία, την Κύπρο, τη Λετονία, τη Λιθουανία, το Λουξεμβούργο, τη Μαλαισία, τη Μάλτα, τη Νέα Ζηλανδία, την Ολλανδία, την Ουγγαρία, την Πολωνία, την Πορτογαλία, τη Ρουμανία, τη Σιγκαπούρη, τη Σλοβακία, τη Σλοβενία, τη Σουηδία, την Τσεχία και τη Φινλανδία.
@@ -175,4 +164,3 @@ waitlist-privacy-policy-use-bundle = Τα στοιχεία σας θα χρησ�
 waitlist-subscribe-success = Είστε στη λίστα! Μόλις το { -brand-name-firefox-relay-premium } γίνει διαθέσιμο στην περιοχή σας, θα σας ειδοποιήσουμε μέσω email.
 waitlist-subscribe-error-connection = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.
 waitlist-subscribe-error-unknown = Προέκυψε σφάλμα κατά την προσθήκη σας στη λίστα αναμονής. Παρακαλώ δοκιμάστε ξανά.
-
