@@ -18,6 +18,8 @@ faq-question-missing-emails-answer-reason-spam = İletilerin spam klasörüne gi
 faq-question-missing-emails-answer-reason-blocked-2 = E-posta sağlayıcınızın e-posta maskelerinizi engellemesi
 faq-question-missing-emails-answer-reason-size = İletilen e-postanın { email-size-limit } boyutundan büyük bir ekinin olması
 faq-question-missing-emails-answer-reason-not-accepted-2 = Sitenin e-posta maskelerini kabul etmemesi
+faq-question-missing-emails-answer-reason-turned-off-2 = Maske iletmenin kapalı olması
+faq-question-missing-emails-answer-reason-delay = { -brand-name-relay } iletilerinizin iletilmesinin normalden uzun sürmesi
 #   $url (url) - link to the support site
 #   $attrs (string) - specific attributes added to external links
 #   $url (url) - link to the support site
@@ -52,3 +54,4 @@ faq-question-disable-trackerremoval-answer = Evet. E-postaların bozuk görünme
 faq-question-bulk-trackerremoval-question = E-posta takip kodlarını sadece belirli e-posta maskelerimden kaldırabilir miyim?
 faq-question-bulk-trackerremoval-answer = Takip kodlarını kaldırmayı yalnızca hesap düzeyinde açabilirsiniz. Bu özellik, takip kodlarını ya tüm e-postalarınızdan kaldırır ya da hiçbirinden kaldırmaz.
 faq-question-trackerremoval-breakage-question = E-postalarım neden bozuk görünüyor?
+faq-question-define-tracker-question = E-posta takip kodları nedir?

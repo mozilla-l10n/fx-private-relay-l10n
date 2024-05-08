@@ -132,3 +132,4 @@ waitlist-privacy-policy-use-phone = Bilgileriniz yalnızca telefon maskeleme öz
 waitlist-privacy-policy-use-bundle = Bilgileriniz yalnızca sizi { -brand-name-relay } + { -brand-name-vpn } paketinin kullanılabilirliği hakkında bilgilendirmek için kullanılacaktır.
 waitlist-subscribe-success = Listeye eklendiniz! { -brand-name-firefox-relay-premium } bölgenize açılınca sizi e-postayla bilgilendireceğiz.
 waitlist-subscribe-error-connection = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen bağlantınızı kontrol edip yeniden deneyin.
+waitlist-subscribe-error-unknown = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen yeniden deneyin.
