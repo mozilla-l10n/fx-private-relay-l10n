@@ -6,7 +6,7 @@
 ## HERO SECTION 
 
 hero-section-title = Güvenli telefon ve e-posta maskeleme ile kimliğinizi koruyun
-hero-section-body = Güvenli, kullanımı kolay e-posta ve telefon maskelerimiz kimliğinizi gizli tutmanıza yardımcı olur, böylece yeni hesaplara anonim olarak kaydolabilir, spam iletileri ve gereksiz aramaları durdurabilir ve gelen kutunuza yalnızca istediğiniz e-postaların gelmesini sağlayabilirsiniz.
+hero-section-body = Güvenli, kullanımı kolay e-posta ve telefon maskelerimiz kimliğinizi gizli tutmanıza yardımcı olur. Böylece yeni hesaplara anonim olarak kaydolabilir, spam iletileri ve gereksiz aramaları durdurabilir ve gelen kutunuza yalnızca istediğiniz e-postaların gelmesini sağlayabilirsiniz.
 hero-section-cta = Kullanmaya başlayın
 # Context: This describes the various websites and magazines who have mentioned Firefox Relay. 
 # Example: "As seen in FORBES magainze and LifeHacker website"
@@ -38,10 +38,12 @@ how-it-works-section-extension-headline = { -brand-name-relay } e-posta ve telef
 # Item 2
 
 how-it-works-section-forward-headline = E-postaları, telefon aramalarını ve SMS’leri size yönlendireceğiz
+how-it-works-section-forward-body = İçiniz rahat olsun, gönderenler gerçek e-posta adresinizi veya telefon numaranızı asla öğrenmeyecek. Gerçek kimliğinizi paylaşmadan SMS’lere ve e-postalara yanıt bile verebilirsiniz.
 
 # Item 3
 
 how-it-works-section-manage-headline = Maskelerinizi { -brand-name-relay } kontrol panelinizden yönetebilirsiniz
+how-it-works-section-manage-body = Yeni maskeler oluşturmak, mevcut maskeleri etiketlemek ve çok fazla spam alan maskelerden gelen telefon aramalarını, SMS’leri ve e-postaları engellemek için { -brand-name-relay } kontrol panelinize giriş yapın.
 
 ## PRICING MATRIX SECTION
 

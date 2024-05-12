@@ -29,6 +29,7 @@ faq-question-use-cases-question-2 = { -brand-name-relay } e-posta maskelerini ne
 faq-question-2-question-2 = Bir site neden { -brand-name-relay } e-posta maskemi kabul etmiyor?
 faq-question-1-question = Spam e-postalara ne olacak?
 faq-question-availability-question = { -brand-name-relay } hangi ülkelerde kullanılabilir?
+faq-question-availability-answer-v4 = { -brand-name-relay } çoğu ülkede ücretsizdir. { -brand-name-relay-premium } şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de mevcuttur.
 faq-question-4-question-2 = { -brand-name-relay } e-posta maskemi kullanarak e-postalara cevap verebilir miyim?
 faq-question-subdomain-characters-question = Alt alan adı oluştururken hangi karakterleri kullanabilirim?
 faq-question-subdomain-characters-answer-v2 = Alt alan adı oluştururken yalnızca küçük İngilizce harfleri, rakamları ve kısa çizgiyi kullanabilirsiniz.
