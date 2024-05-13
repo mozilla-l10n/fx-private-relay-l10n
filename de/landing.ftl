@@ -52,7 +52,7 @@ how-it-works-section-forward-body = Seien Sie versichert, dass Absender niemals 
 
 # Item 3
 
-how-it-works-section-manage-headline = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übesicht
+how-it-works-section-manage-headline = Verwalten Sie Ihre Masken über Ihre { -brand-name-relay }-Übersicht
 how-it-works-section-manage-body = Melden Sie sich bei Ihrer { -brand-name-relay }-Übersicht an, um neue Masken zu erstellen, vorhandene Masken zu kennzeichnen und Anrufe, SMS oder E-Mails von Masken zu blockieren, die zu viel Spam erhalten.
 
 ## PRICING MATRIX SECTION
@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } schützt Ihre Identität 
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funktionen
 plan-matrix-heading-plan-free = Limitierter Schutz für E-Mail-Adressen
 plan-matrix-heading-plan-premium = Schutz für E-Mail-Adressen
@@ -77,8 +75,6 @@ plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn }-Schutz hinzufügen
 plan-matrix-feature-phone-mask = Telefonnummer-Maske zum Schutz Ihrer echten Telefonnummer
 plan-matrix-feature-vpn = { -brand-name-vpn }-Schutz von <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
-
-# Feature Breakdowns Mobile (Shorter than desktop strings)
 
 # Plan Details
 
@@ -97,6 +93,8 @@ plan-matrix-price-period-yearly = Jährlich
 plan-matrix-price-period-monthly = Monatlich
 plan-matrix-price-period-yearly-footnote-1 = Jährlich abgerechnet
 plan-matrix-price-period-monthly-footnote-1 = Monatlich abgerechnet
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Sparen Sie { $savings }</span> gegenüber dem regulären Preis von { -brand-name-vpn }
 
 # Plan CTAs
@@ -132,16 +130,6 @@ highlighted-features-section-bottom-title = Schützen Sie Ihre Identität (und I
 highlighted-features-section-bottom-cta = Erste Schritte
 highlighted-features-section-new-item = Neu!
 
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
-
 ## FAQ SECTION
 
 landing-faq-headline = Häufigste Fragen zu { -brand-name-firefox-relay }
@@ -150,8 +138,6 @@ landing-faq-cta = Weitere FAQs zu { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Erleichtere den Schutz deines Posteingangs mit { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mit { -brand-name-firefox-relay-premium } erhalten Sie unbegrenzt viele benutzerdefinierte E-Mail-Masken, die nur die gewünschten E-Mails an Ihre echte E-Mail-Adresse weiterleiten.
 premium-promo-hero-cta = Jetzt upgraden
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } ist in Österreich, Bulgarien, Belgien, Kanada, Kroatien, Zypern, der Tschechischen Republik, Dänemark, Estland, Finnland, Frankreich, Deutschland, Griechenland, Ungarn, Irland, Italien, Lettland, Litauen, Luxemburg, Malaysia, Malta, den Niederlanden, Neuseeland, Polen, Portugal, Rumänien, Singapur, der Slowakei, Slowenien, Spanien, Schweden, der Schweiz, dem Vereinigten Königreich und den Vereinigten Staaten verfügbar.
@@ -178,4 +164,3 @@ waitlist-privacy-policy-use-bundle = Ihre Daten werden nur verwendet, um Sie üb
 waitlist-subscribe-success = Sie stehen auf der Liste! Wir werden Sie per E-Mail informieren, sobald { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-subscribe-error-connection = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.
 waitlist-subscribe-error-unknown = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.
-
