@@ -34,6 +34,7 @@ how-it-works-section-title = { -brand-name-relay } e-posta ve telefon maskeleme 
 # Item 1
 
 how-it-works-section-extension-headline = { -brand-name-relay } e-posta ve telefon maskelerini her yerde kullanın
+how-it-works-section-extension-body = Bilgilerinizi isteyen web sitelerinde, uygulamalarda, mağazalarda ve restoranlarda kullanabileceğiniz güvenli, rastgele e-posta maskelerine ve sadece size ait, maskelenmiş bir telefon numarasına sahip olun.
 
 # Item 2
 

@@ -12,6 +12,7 @@ faq-headline = Sıkça Sorulan Sorular
 #  $unit (string): unit of measurement (e.g. MB for Megabyte)
 email-size-limit = { $size } { $unit }
 faq-question-what-is-question-2 = { -brand-name-relay } e-posta maskesi nedir?
+faq-question-what-is-answer-2 = E-posta maskeleri, gelen iletileri gerçek e-posta adresinize yönlendiren maskelenmiş e-posta adresleridir. Bu maskeler gerçek e-posta adresinizi gizler. Üçüncü şahıslarla gerçek e-posta adresinizi paylaşmak yerine bu adresleri paylaşabilir ve iletilerin gerçek adresinize yönlendirilmesini sağlayabilirsiniz.
 faq-question-missing-emails-question-2 = E-posta maskelerimden ileti alamıyorum
 faq-question-missing-emails-answer-a-2 = Maskeleriniz aracılığıyla iletilen e-postaları alamamanızın birkaç nedeni olabilir. Bu nedenler şunlar olabilir:
 faq-question-missing-emails-answer-reason-spam = İletilerin spam klasörüne gitmesi
@@ -55,4 +56,5 @@ faq-question-disable-trackerremoval-answer = Evet. E-postaların bozuk görünme
 faq-question-bulk-trackerremoval-question = E-posta takip kodlarını sadece belirli e-posta maskelerimden kaldırabilir miyim?
 faq-question-bulk-trackerremoval-answer = Takip kodlarını kaldırmayı yalnızca hesap düzeyinde açabilirsiniz. Bu özellik, takip kodlarını ya tüm e-postalarınızdan kaldırır ya da hiçbirinden kaldırmaz.
 faq-question-trackerremoval-breakage-question = E-postalarım neden bozuk görünüyor?
+faq-question-trackerremoval-breakage-answer-2 = Bazen takip kodlarını kaldırmak e-postanızın bozuk görünmesine neden olabilir çünkü takip kodları genellikle resimlerde ve bağlantılarda bulunur. Takip kodu kaldırıldığında bazı resimler de yok olacağı için e-posta yanlış biçimlendirilmiş gibi görünebilir. Daha önce aldığınız e-postalarda bu sorunu düzeltemezsiniz. Bu durum e-postalarınızı düzgün bir şekilde okumanızı engelliyorsa takip kodlarını kaldırmayı kapatabilirsiniz.
 faq-question-define-tracker-question = E-posta takip kodları nedir?

@@ -6,9 +6,15 @@
 ## Banner Messages (displayed on the profile page)
 
 banner-dismiss = Kapat
-
 banner-bounced-headline = { -brand-name-relay } e-postanızı teslim edemedi.
-
+# Variables:
+#   $username (string) - Username
+#   $bounce_type (string) - Type of bounced email
+#   $date (string) - A date for the next time the services tries to resend the email
+banner-bounced-copy =
+    Şu anda { $username } adresine e-posta gönderemiyoruz.¶
+    Size e-posta iletmeye çalışırken e-posta sağlayıcınızdan bir <em>{ $bounce_type }</em> “bounce” aldık.¶
+    Bu sorun, { -brand-name-relay } e-posta sağlayıcınıza bağlanamadığında veya posta kutunuz dolu olduğunda yaşanabilir. { $date } tarihinde yeniden deneyeceğiz.
 banner-download-firefox-headline = { -brand-name-relay } { -brand-name-firefox }’ta daha da iyi
 banner-download-firefox-copy-2 = { -brand-name-firefox-browser } { -brand-name-relay } uzantısı maske oluşturmayı daha da kolaylaştırıyor.
 banner-download-firefox-cta = { -brand-name-firefox }’u indirin
@@ -19,16 +25,12 @@ banner-download-install-chrome-extension-headline = { -brand-name-google-chrome 
 banner-download-install-chrome-extension-copy-2 = { -brand-name-chrome } için { -brand-name-firefox-relay } uzantısı maske oluşturmayı ve kullanmayı daha da kolaylaştırıyor.
 banner-download-install-chrome-extension-cta = { -brand-name-relay } uzantısını yükleyin
 banner-upgrade-cta = { -brand-name-relay-premium }’a yükseltin
-
-# Translate "restaurant" and "yourdomain" in the email address, keeping them
-# lowercase and without spaces to resemble an actual email address.
-
 banner-pack-upgrade-cta = Şimdi yükselt
-
-
+# Data Notification Banner:
 banner-label-data-notification-body-cta = Daha fazla bilgi alın
 
 # Relay Premium Promo A/B Test
+
 
 ## Set domain banner
 
@@ -49,7 +51,6 @@ banner-set-email-domain-input-search = Ara
 # translated consistently across other strings.
 banner-set-email-domain-placeholder = alanadiniz
 banner-set-email-domain-learn-more = Daha fazla bilgi alın
-
 modal-email-domain-good-news = İyi bir haberimiz var!
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based Relay addresses. E.g. @customdomain.mozmail.com is available
@@ -69,7 +70,6 @@ modal-email-domain-success-headline-any-word = İstediğiniz kelime veya cümley
 # Variables:
 #   $custom_domain_full (string) - This is the full custom domain mask the user wants to use for custom domain-based relay addresses. E.g. @customdomain.mozmail.com is now your unique email domain!
 modal-email-domain-success-body-any-word = Alışveriş mi yapıyorsunuz? magazaadi{ $custom_domain_full } adresini kullanabilirsiniz.
-
 tooltip-email-domain-explanation-title = Benzersiz { -brand-name-relay } e-posta alan adınız hakkında
 tooltip-email-domain-explanation-title-free = Kendi { -brand-name-relay } e-posta alan adınızı alın
 # Variables:
