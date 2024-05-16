@@ -55,6 +55,7 @@ plan-matrix-heading-features = Özellikler
 plan-matrix-heading-plan-free = Sınırlı e-posta koruması
 plan-matrix-heading-plan-premium = E-posta koruması
 plan-matrix-heading-plan-phones = E-posta ve telefon koruması
+plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } koruması ekle
 
 # Feature Breakdowns
 
@@ -82,6 +83,8 @@ plan-matrix-price-vpn-discount-promo = Normal { -brand-name-vpn } fiyatından <s
 
 # Plan CTAs
 
+plan-matrix-sign-up = Kaydol
+plan-matrix-get-relay-cta = { -brand-name-relay }’i dene
 plan-matrix-join-waitlist = Bekleme listesine katıl
 
 ## REVIEWS SECTION
@@ -114,12 +117,14 @@ landing-faq-cta = { -brand-name-firefox-relay } hakkındaki diğer SSS’lere ba
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } ile gelen kutunuzu koruyun
+premium-promo-hero-cta = Şimdi yükseltin
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } hizmeti şu anda Avusturya, Bulgaristan, Belçika, Kanada, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Finlandiya, Fransa, Almanya, Yunanistan, Macaristan, İrlanda, İtalya, Letonya, Litvanya, Lüksemburg, Malezya, Malta, Hollanda, Yeni Zelanda, Polonya, Portekiz, Romanya, Singapur, Slovakya, Slovenya, İspanya, İsveç, İsviçre, Birleşik Krallık ve ABD’de kullanılabilir.
 
 ## The Premium waitlist page
 
 waitlist-heading-2 = { -brand-name-relay-premium } bekleme listesine katıl
 waitlist-heading-phone = { -brand-name-relay } telefon maskeleme bekleme listesine katıl
+waitlist-heading-bundle = { -brand-name-relay } + { -brand-name-vpn } paketi için bekleme listesine katılın
 waitlist-lead-2 = { -brand-name-relay-premium } bölgenizde kullanıma sunulduğunda size haber vereceğiz.
 waitlist-lead-phone = Telefon maskeleme bölgenizde kullanıma sunulduğunda size haber vereceğiz.
 waitlist-lead-bundle = { -brand-name-relay-premium }’u ve { -brand-name-mozilla-vpn }’i bölgenizde indirimli olarak kullanabileceğiniz zaman size haber vereceğiz.
@@ -129,6 +134,7 @@ waitlist-control-email-label = E-posta adresiniz nedir?
 waitlist-control-email-placeholder = kullanici@example.com
 waitlist-control-country-label-2 = Hangi ülke veya bölgede yaşıyorsunuz?
 waitlist-control-locale-label = Tercih ettiğiniz dili seçin.
+waitlist-submit-label-2 = Bekleme listesine katıl
 waitlist-privacy-policy-use = Bilgileriniz yalnızca sizi { -brand-name-firefox-relay-premium }’un kullanılabilirliği hakkında bilgilendirmek için kullanılacaktır.
 waitlist-privacy-policy-use-phone = Bilgileriniz yalnızca telefon maskeleme özelliği bölgenizde kullanıma sunulduğunda sizi bilgilendirmek için kullanılacaktır.
 waitlist-privacy-policy-use-bundle = Bilgileriniz yalnızca sizi { -brand-name-relay } + { -brand-name-vpn } paketinin kullanılabilirliği hakkında bilgilendirmek için kullanılacaktır.
