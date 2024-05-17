@@ -12,8 +12,8 @@ banner-bounced-headline = { -brand-name-relay } e-postanızı teslim edemedi.
 #   $bounce_type (string) - Type of bounced email
 #   $date (string) - A date for the next time the services tries to resend the email
 banner-bounced-copy =
-    Şu anda { $username } adresine e-posta gönderemiyoruz.¶
-    Size e-posta iletmeye çalışırken e-posta sağlayıcınızdan bir <em>{ $bounce_type }</em> “bounce” aldık.¶
+    Şu anda { $username } adresine e-posta gönderemiyoruz.
+    Size e-posta iletmeye çalışırken e-posta sağlayıcınızdan bir <em>{ $bounce_type }</em> “bounce” aldık.
     Bu sorun, { -brand-name-relay } e-posta sağlayıcınıza bağlanamadığında veya posta kutunuz dolu olduğunda yaşanabilir. { $date } tarihinde yeniden deneyeceğiz.
 banner-download-firefox-headline = { -brand-name-relay } { -brand-name-firefox }’ta daha da iyi
 banner-download-firefox-copy-2 = { -brand-name-firefox-browser } { -brand-name-relay } uzantısı maske oluşturmayı daha da kolaylaştırıyor.
