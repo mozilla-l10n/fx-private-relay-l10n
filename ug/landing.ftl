@@ -48,6 +48,7 @@ plan-matrix-price-period-monthly = ئايلىق
 # Plan CTAs
 
 plan-matrix-sign-up = تىزىملىتىڭ
+plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 ## REVIEWS SECTION
 
