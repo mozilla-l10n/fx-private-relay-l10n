@@ -11,12 +11,14 @@ profile-details-collapse = نىقاب تەپسىلاتىنى يوشۇر
 # Variables:
 #   $address (string) - Mask address, e.g. wz7n0vykd@mozmail.com.
 profile-label-click-to-copy-alt = چېكىلسە { $address } نىقاب ئادرېسى كۆچۈرۈلىدۇ.
+profile-label-saved = بەلگە ساقلاندى!
+profile-label-generate-new-alias-2 = يېڭى نىقاب ھاسىللاش
 profile-label-delete = ئۆچۈر
 profile-label-reset = ئەسلىگە قايتۇر
 profile-label-continue = داۋاملاشتۇر
-
 profile-label-copied = كۆچۈرۈلدى!
 profile-label-blocked = توسۇلغان
+profile-label-cancel = ۋاز كەچ
 profile-forwarded-note = ئەسكەرتىش:
 profile-stat-learn-more = تەپسىلاتى
 profile-stat-learn-more-close = تاقا

@@ -52,9 +52,14 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 ## REVIEWS SECTION
 
+landing-reviews-add-ons = قوشۇلما
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+landing-review-anonymous-user = { -brand-name-firefox } ئىشلەتكۈچى { $user_id }
 
 ## HIGHLIGHTED FEATURES SECTION
 
+highlighted-features-section-bottom-cta = باشلاڭ
+highlighted-features-section-new-item = يېڭى!
 
 ## FAQ SECTION
 
@@ -64,3 +69,5 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 ## The Premium waitlist page
 
+waitlist-control-required = زۆرۈر
+waitlist-submit-label-2 = كۈتۈش تىزىمىغا قوشۇلۇڭ
