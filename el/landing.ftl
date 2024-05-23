@@ -158,6 +158,9 @@ highlighted-features-section-block-promotions-body =
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = Αφαίρεση ιχνηλατών email
+highlighted-features-section-remove-trackers-body =
+    Το { -brand-name-relay } μπορεί να αφαιρεί κοινούς ιχνηλάτες email από όλα τα προωθημένα email σας,
+    βοηθώντας σας να παραμείνετε αόρατοι για τους ιχνηλάτες και τους διαφημιστές.
 
 ## REVIEWS SECTION
 
