@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } protects your identity an
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Features
 plan-matrix-heading-plan-free = Limited email protection
 plan-matrix-heading-plan-premium = Email protection
@@ -74,11 +72,26 @@ plan-matrix-heading-plan-bundle-2 = Add { -brand-name-vpn } protection
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Email masks to protect your real email address
+plan-matrix-feature-browser-extension = Browser extension to use { -brand-name-relay } on any site
+plan-matrix-feature-email-tracker-removal = Remove email trackers
+plan-matrix-feature-promo-email-blocking = Block promotional emails
+plan-matrix-feature-email-subdomain = { -brand-name-relay } email domain to create masks on-the-go
+plan-matrix-feature-email-reply = Reply to emails anonymously
 plan-matrix-feature-phone-mask = Phone mask to protect your real phone number
 plan-matrix-feature-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Email masks
+plan-matrix-feature-mobile-browser-extension = Browser extension
+plan-matrix-feature-mobile-email-tracker-removal = Remove email trackers
+plan-matrix-feature-mobile-promo-email-blocking = Block promotional emails
+plan-matrix-feature-mobile-email-subdomain = Unique { -brand-name-relay } email domain
+plan-matrix-feature-mobile-email-reply = Reply to emails anonymously
+plan-matrix-feature-mobile-phone-mask = Protect your real phone number
+plan-matrix-feature-mobile-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -97,6 +110,8 @@ plan-matrix-price-period-yearly = Yearly
 plan-matrix-price-period-monthly = Monthly
 plan-matrix-price-period-yearly-footnote-1 = Billed annually
 plan-matrix-price-period-monthly-footnote-1 = Billed monthly
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular { -brand-name-vpn } price
 
 # Plan CTAs
@@ -104,6 +119,29 @@ plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular
 plan-matrix-sign-up = Sign Up
 plan-matrix-get-relay-cta = Get { -brand-name-relay }
 plan-matrix-join-waitlist = Join the Waiting List
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Create unlimited email masks
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Everyone gets { $mask_limit } email masks for free. 
+    But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox 
+    from spammers, hackers, and online trackers.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Instantly create masks on the go
+
+# Item 3
+
+
+# Item 4
+
+
+# Item 5
+
 
 ## REVIEWS SECTION
 
@@ -132,16 +170,6 @@ highlighted-features-section-bottom-title = Protect your identity (and your inbo
 highlighted-features-section-bottom-cta = Get started
 highlighted-features-section-new-item = New!
 
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
-
 ## FAQ SECTION
 
 landing-faq-headline = Top questions about { -brand-name-firefox-relay }
@@ -150,8 +178,6 @@ landing-faq-cta = See more FAQs about { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Make protecting your inbox easier with { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = With { -brand-name-firefox-relay-premium }, you get unlimited custom email masks that forward only the emails you want to your true email address.
 premium-promo-hero-cta = Upgrade now
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } is available in Austria, Bulgaria, Belgium, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, New Zealand, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, and the United States.
@@ -178,4 +204,3 @@ waitlist-privacy-policy-use-bundle = Your information will only be used to notif
 waitlist-subscribe-success = You’re on the list! Once { -brand-name-firefox-relay-premium } becomes available for your region, we’ll email you.
 waitlist-subscribe-error-connection = There was an error adding you to the waiting list. Please check your connection, then try again.
 waitlist-subscribe-error-unknown = There was an error adding you to the waiting list. Please try again.
-
