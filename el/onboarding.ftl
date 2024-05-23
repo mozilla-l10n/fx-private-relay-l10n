@@ -8,6 +8,7 @@
 multi-part-onboarding-premium-welcome-headline = Καλώς ορίσατε στο { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Θα σας βοηθήσουμε να αξιοποιήσετε στο έπακρο τον λογαριασμό { -brand-name-premium } σας.
 multi-part-onboarding-premium-welcome-feature-headline = Με το { -brand-name-firefox-relay-premium }, έχετε:
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Ανώνυμες απαντήσεις
 multi-part-onboarding-premium-welcome-feature-cta = Ρύθμιση του { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Πλέον, μπορείτε να ελέγχετε τα εισερχόμενά σας, ένα email κάθε φορά.
 
@@ -38,7 +39,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Προσθέσετε �
 
 multi-part-onboarding-premium-extension-added = Προστέθηκε η επέκταση { -brand-name-relay }!
 multi-part-onboarding-premium-added-extension-body = Δεν θα χρειάζεται πλέον να συνδεθείτε στο { -brand-name-relay } για να δημιουργήσετε μια νέα μάσκα — εντοπίστε απλώς το εικονίδιο του Relay όταν οι ιστότοποι ζητούν τη διεύθυνση email σας.
-
 multi-part-onboarding-premium-extension-button-dashboard = Μετάβαση στον πίνακα
 multi-part-onboarding-skip = Παράλειψη, θα το ρυθμίσω αργότερα
 multi-part-onboarding-skip-download-extension = Παράλειψη, θα κάνω λήψη της επέκτασης αργότερα
@@ -50,5 +50,4 @@ multi-part-onboarding-reply-headline = Απαντήστε στα email σας
 onboarding-premium-title-detail = Με το { -brand-name-firefox-relay-premium }, μπορείτε να:
 onboarding-premium-reply-description-2 = Θέλετε να απαντήσετε σε email που απεστάλησαν σε μια μάσκα; Απαντήστε κανονικά — η μάσκα σας θα προστατεύσει τη διεύθυνση email.
 multi-part-onboarding-premium-reply-description = Απαντήστε σε email χωρίς να φαίνεται η πραγματική σας διεύθυνση
-
 multi-part-onboarding-step-counter = Βήμα { $step } από { $max }.

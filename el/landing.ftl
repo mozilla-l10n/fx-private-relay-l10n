@@ -72,9 +72,26 @@ plan-matrix-heading-plan-bundle-2 = Προσθήκη προστασίας { -bra
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Μάσκες email για την προστασία της πραγματικής σας διεύθυνσης email
+plan-matrix-feature-browser-extension = Επέκταση για χρήση του { -brand-name-relay } σε κάθε ιστότοπο
+plan-matrix-feature-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-feature-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-email-subdomain = Τομέας email { -brand-name-relay } για τη δημιουργία μασκών εν κινήσει
+plan-matrix-feature-email-reply = Απάντηση σε email ανώνυμα
 plan-matrix-feature-phone-mask = Μάσκα τηλεφώνου για την προστασία του πραγματικού αριθμού τηλεφώνου σας
 plan-matrix-feature-vpn = Προστασία { -brand-name-vpn } από το <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Απεριόριστες μάσκες email
+
+# Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Μάσκες email
+plan-matrix-feature-mobile-browser-extension = Επέκταση προγράμματος περιήγησης
+plan-matrix-feature-mobile-email-tracker-removal = Αφαίρεση ιχνηλατών email
+plan-matrix-feature-mobile-promo-email-blocking = Φραγή διαφημιστικών email
+plan-matrix-feature-mobile-email-subdomain = Μοναδικός τομέας email { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Απάντηση σε email ανώνυμα
+plan-matrix-feature-mobile-phone-mask = Προστασία του πραγματικού σας αριθμού τηλεφώνου
+plan-matrix-feature-mobile-vpn = Πρόσβαση στο <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -102,6 +119,45 @@ plan-matrix-price-vpn-discount-promo = <span>Εξοικονομήστε { $savin
 plan-matrix-sign-up = Εγγραφή
 plan-matrix-get-relay-cta = Λήψη του { -brand-name-relay }
 plan-matrix-join-waitlist = Εγγραφή στη λίστα αναμονής
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Δημιουργία απεριόριστων μασκών email
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Όλοι λαμβάνουν { $mask_limit } δωρεάν μάσκες email. 
+    Αλλά με το { -brand-name-relay-premium }, μπορείτε να δημιουργήσετε όσες μάσκες χρειάζεστε για την προστασία των εισερχόμενων email σας 
+    από ανεπιθύμητα μηνύματα, χάκερ και ιχνηλάτες.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Άμεση δημιουργία μασκών εν κινήσει
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    Το { -brand-name-relay-premium } σάς παρέχει έναν μοναδικό τομέα email στο { -brand-name-relay }, ώστε να 
+    δημιουργείτε νέες μάσκες όπου κι αν βρίσκεστε. Προσθέστε απλώς μια λέξη ή φράση πριν από το σύμβολο «@». Βρίσκεστε σε εστιατόριο; Χρησιμοποιήστε το estiatorio@otomeassas.{ $mozmail }. 
+    Κάνετε αγορές; Δοκιμάστε το agores@otomeassas.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Απάντηση σε email και μηνύματα ανώνυμα
+highlighted-features-section-replying-body =
+    Το { -brand-name-relay-premium } σάς επιτρέπει να απαντάτε σε email μέσω των μασκών email σας, ώστε να μη
+    μάθουν ποτέ οι αποστολείς την πραγματική σας διεύθυνση email. Με την απόκρυψη τηλεφώνου, μπορείτε να
+    απαντάτε σε μηνύματα μέσω της μάσκας αριθμού τηλεφώνου για την προστασία του πραγματικού σας αριθμού.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Φραγή διαφημιστικών email
+highlighted-features-section-block-promotions-body =
+    Με το { -brand-name-relay-premium }, μπορείτε να αποκλείσετε τα διαφημιστικά email 
+    από τα εισερχόμενά σας, ενώ θα λαμβάνετε ακόμα email, όπως αποδείξεις ή στοιχεία αποστολής.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Αφαίρεση ιχνηλατών email
 
 ## REVIEWS SECTION
 
