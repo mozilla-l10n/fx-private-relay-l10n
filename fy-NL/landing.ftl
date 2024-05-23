@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } beskermet jo identiteit e
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Funksjes
 plan-matrix-heading-plan-free = Beheinde e-mailbeskerming
 plan-matrix-heading-plan-premium = E-mailbeskerming
@@ -74,11 +72,26 @@ plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn }-beskerming tafoegje
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mailmaskers om jo wiere e-mailadres te beskermjen
+plan-matrix-feature-browser-extension = Browserútwreiding om { -brand-name-relay } op elke website te brûken
+plan-matrix-feature-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-feature-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-feature-email-subdomain = { -brand-name-relay }-e-maildomein om ûnderweis maskers te meitsjen
+plan-matrix-feature-email-reply = Beäntwurdzje e-mailberjochten anonym
 plan-matrix-feature-phone-mask = Telefoanmasker om jo wiere telefoannûmer te beskermjen
 plan-matrix-feature-vpn = { -brand-name-vpn }-beskerming fan <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unbeheinde e-mailmaskers
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-mailmaskers
+plan-matrix-feature-mobile-browser-extension = Browserútwreiding
+plan-matrix-feature-mobile-email-tracker-removal = E-mailtrackers fuortsmite
+plan-matrix-feature-mobile-promo-email-blocking = Reklameberjochten blokkearje
+plan-matrix-feature-mobile-email-subdomain = Unyk { -brand-name-relay }-e-maildomein
+plan-matrix-feature-mobile-email-reply = Beäntwurdzje e-mailberjochten anonym
+plan-matrix-feature-mobile-phone-mask = Beskermje jo wiere telefoannûmer
+plan-matrix-feature-mobile-vpn = Tagong ta <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -97,6 +110,8 @@ plan-matrix-price-period-yearly = Jierliks
 plan-matrix-price-period-monthly = Moanliks
 plan-matrix-price-period-yearly-footnote-1 = Jierliks fakturearre
 plan-matrix-price-period-monthly-footnote-1 = Moanlikse fakturearre
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Besparje { $savings }</span> op de normale priis fan { -brand-name-vpn }
 
 # Plan CTAs
@@ -104,6 +119,48 @@ plan-matrix-price-vpn-discount-promo = <span>Besparje { $savings }</span> op de 
 plan-matrix-sign-up = Registrearje
 plan-matrix-get-relay-cta = { -brand-name-relay } downloade
 plan-matrix-join-waitlist = Op de wachtlist pleatse
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Meitsje ûnbeheinde e-mailmaskers oan
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Elkenien ûntfangt fergees { $mask_limit } e-mailmaskers.
+    Mar mei { -brand-name-relay-premium } kinne jo safolle maskers oanmeitsje as jo nedich hawwe om jo Postfek YN te beskermjen
+    tsjin spammers, hackers en online trackers.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Meitsje ûnderweis daliks maskers
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } jout jo in unyk { -brand-name-relay } e-maildomein, sadat jo daliks
+    nije maskers oanmeitsje kinne, oeral wêr’t jo binne. Foegje gewoanwei elk wurd of wudgroep ta foar it @-teken. Yn in restaurant? Brûk restaurant@jodomein.{ $mozmail }.
+    Winkelje? Probearje winkel@jodomein.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Beäntwurdzje anonym e-mailberjochten en sms’kes
+highlighted-features-section-replying-body =
+    Mei { -brand-name-relay-premium } kinne jo reagearje op e-mailberjochten fan jo
+    maskearre e-mailaccount út, sadat ôfstjoerders nea jo wiere e-mailadres kenne sille. Mei telefoanmaskearring kinne jo antwurdzje
+    op sms’kes fan jo maskearre telefoannûmer ôf, om jo wiere nûmer te beskermjen.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Reklameberjochten blokkearje
+highlighted-features-section-block-promotions-body =
+    Mei { -brand-name-relay-premium } kinne jo foarkomme dat reklameberjochten jo Postfek YN berikke,
+    wylst jo noch hieltyd e-mailberjochten lykas ûntfangstbefêstigingen of ferstjoerynformaasje ûntfange kinne.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = E-mailtrackers fuortsmite
+highlighted-features-section-remove-trackers-body =
+    { -brand-name-relay } kin faaks brûkte e-mailtrackers fuortsmite út e-mailberjochten dy’t nei jo trochstjoerd binne,
+    wêrtroch it jo helpt ûnsichtber te bliuwen foar trackers en advertearders.
 
 ## REVIEWS SECTION
 
@@ -132,16 +189,6 @@ highlighted-features-section-bottom-title = Beskermje jo identiteit (en jo Postf
 highlighted-features-section-bottom-cta = Begjinne
 highlighted-features-section-new-item = Nij!
 
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
-
 ## FAQ SECTION
 
 landing-faq-headline = Faakstelde fragen oer { -brand-name-firefox-relay }
@@ -150,8 +197,6 @@ landing-faq-cta = Mear FAQ oer { -brand-name-firefox-relay }
 ## Premium promo page
 
 premium-promo-hero-headline = Meitsje it beskermjen fan jo Postfek YN makliker mei { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = Mei { -brand-name-firefox-relay-premium } krije jo ûnbeheind oanpaste e-mailmaskers dy’t allinnich de winske e-mailberjochten trochstjoere nei jo wiere e-mailadres.
 premium-promo-hero-cta = No opwurdearje
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } is beskikber yn Eastenryk, Bulgarije, België, Kanada, Kroaasje, Syprus, Tsjechië, Denemarken, Estlân, Finlân, Frankryk, Dútslân, Grikelân, Hongarije, Ierlân, Italië, Letlân, Litouwen, Lúksemboarch, Maleizje, Malta, Nederlân, Nij-Seelân, Poalen, Portugal, Roemenië, Singapoer, Slowakije, Slovenië, Spanje, Sweden, Switserlân, Feriene Keninkryk en de Feriene Steaten.
@@ -178,4 +223,3 @@ waitlist-privacy-policy-use-bundle = Jo gegevens wurde allinnich brûkt om jo te
 waitlist-subscribe-success = Jo steane op de list! Sa gau as { -brand-name-firefox-relay-premium } beskikber komt foar jo regio, stjoere wy jo in e-mailberjocht.
 waitlist-subscribe-error-connection = Der is in flater bard by it pleatsen op de wachtlist. Kontrolearje jo ferbining en probearje it opnij.
 waitlist-subscribe-error-unknown = Der is in flater bard by it pleatsen op de wachtlist. Probearje it nochris.
-
