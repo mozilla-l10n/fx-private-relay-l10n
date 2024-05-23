@@ -70,9 +70,26 @@ plan-matrix-heading-plan-bundle-2 = Add { -brand-name-vpn } protection
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Email masks to protect your real email address
+plan-matrix-feature-browser-extension = Browser extension to use { -brand-name-relay } on any site
+plan-matrix-feature-email-tracker-removal = Remove email trackers
+plan-matrix-feature-promo-email-blocking = Block promotional emails
+plan-matrix-feature-email-subdomain = { -brand-name-relay } email domain to create masks on-the-go
+plan-matrix-feature-email-reply = Reply to emails anonymously
 plan-matrix-feature-phone-mask = Phone mask to protect your real phone number
 plan-matrix-feature-vpn = { -brand-name-vpn } protection from <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unlimited email masks
+
+# Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Email masks
+plan-matrix-feature-mobile-browser-extension = Browser extension
+plan-matrix-feature-mobile-email-tracker-removal = Remove email trackers
+plan-matrix-feature-mobile-promo-email-blocking = Block promotional emails
+plan-matrix-feature-mobile-email-subdomain = Unique { -brand-name-relay } email domain
+plan-matrix-feature-mobile-email-reply = Reply to emails anonymously
+plan-matrix-feature-mobile-phone-mask = Protect your real phone number
+plan-matrix-feature-mobile-vpn = Access to <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -100,6 +117,43 @@ plan-matrix-price-vpn-discount-promo = <span>Save { $savings }</span> on regular
 plan-matrix-sign-up = Sign Up
 plan-matrix-get-relay-cta = Get { -brand-name-relay }
 plan-matrix-join-waitlist = Join the Waitlist
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Create unlimited email masks
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = Everyone gets { $mask_limit } email masks for free. 
+    But with { -brand-name-relay-premium }, you can generate as many masks as you need to help protect your email inbox 
+    from spammers, hackers, and online trackers.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Instantly create masks on the go
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } gives you a unique { -brand-name-relay } email domain so you can instantly 
+    create new masks anywhere you are. Simply add any word or phrase before the @ symbol. At a restaurant? Use restaurant@yourdomain.{ $mozmail }. 
+    Shopping? Try shop@yourdomain.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Reply to emails & texts anonymously
+highlighted-features-section-replying-body = { -brand-name-relay-premium } lets you respond to emails from your
+    masked email account, so senders will never know your real email address. With phone masking, you can reply 
+    to texts from your masked phone number to protect your real number. 
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Block promotional emails
+highlighted-features-section-block-promotions-body = With { -brand-name-relay-premium }, you can block promotional emails from reaching your 
+    inbox while still receiving emails like receipts or shipping information. 
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Remove email trackers
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } can remove common email trackers from any emails forwarded to you, helping 
+    you stay invisible to trackers and advertisers.
 
 ## REVIEWS SECTION
 
