@@ -47,8 +47,9 @@ faq-question-email-storage-answer = Hizmetin çalışmadığı ender durumlarda 
 faq-question-acceptable-use-question = { -brand-name-relay }’in kabul edilebilir kullanım alanları nelerdir?
 # Deprecated
 faq-question-acceptable-use-answer-measure-account = Doğrulanmış bir e-posta adresine sahip bir { -brand-name-firefox-account(capitalization: "uppercase") } gereklidir
-faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Bir kullanıcının beşten fazla maske oluşturması için ödeme yapılması zorunludur
-faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebilecek maske sayısı limiti
+faq-question-acceptable-use-answer-measure-account-v2 = Hesapların asıl e-posta adresinin doğrulanmasını zorunlu tutuyoruz
+faq-question-acceptable-use-answer-measure-unlimited-payment-2 = Bir kullanıcının beşten fazla maske oluşturması için ödeme yapmasını zorunlu tutuyoruz
+faq-question-acceptable-use-answer-measure-rate-limit-2 = Bir günde üretilebilecek maske sayısını kısıtlıyoruz
 faq-question-promotional-email-blocking-question = Reklam e-postalarını engelleme nedir?
 faq-question-detect-promotional-question = { -brand-name-relay } bir e-postanın reklam amaçlı olup olmadığını nasıl tespit ediyor?
 faq-question-disable-trackerremoval-question = E-posta takip kodlarını kaldırmayı durdurabilir miyim?

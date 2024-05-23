@@ -60,8 +60,23 @@ plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } koruması ekle
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Gerçek e-posta adresinizi koruyan e-posta maskeleri
+plan-matrix-feature-browser-extension = Her sitede { -brand-name-relay }’i kullanmanızı sağlayan tarayıcı uzantısı
+plan-matrix-feature-email-tracker-removal = E-posta takip kodlarını kaldırma
+plan-matrix-feature-promo-email-blocking = Reklam e-postalarını engelleme
+plan-matrix-feature-email-reply = E-postaları anonim olarak yanıtlama
 plan-matrix-feature-phone-mask = Gerçek telefon numaranızı koruyan telefon maskesi
 plan-matrix-feature-list-email-masks-unlimited = Sınırsız e-posta maskesi
+
+# Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-posta maskeleri
+plan-matrix-feature-mobile-browser-extension = Tarayıcı uzantısı
+plan-matrix-feature-mobile-email-tracker-removal = E-posta takip kodlarını kaldırma
+plan-matrix-feature-mobile-promo-email-blocking = Reklam e-postalarını engelleme
+plan-matrix-feature-mobile-email-subdomain = Size özel { -brand-name-relay } e-posta alan adı
+plan-matrix-feature-mobile-email-reply = E-postaları anonim olarak yanıtlama
+plan-matrix-feature-mobile-phone-mask = Gerçek telefon numaranızı koruma
 
 # Plan Details
 
@@ -88,6 +103,26 @@ plan-matrix-sign-up = Kaydol
 plan-matrix-get-relay-cta = { -brand-name-relay }’i dene
 plan-matrix-join-waitlist = Bekleme listesine katıl
 
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Sınırsız e-posta maskesi oluşturma
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = İstediğiniz yerde anında maske oluşturma
+
+# Item 3
+
+highlighted-features-section-replying-headline = E-postaları ve SMS’leri anonim olarak yanıtlama
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Reklam e-postalarını engelleme
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = E-posta takip kodlarını kaldırma
+
 ## REVIEWS SECTION
 
 landing-reviews-add-ons = Eklentiler
@@ -100,6 +135,7 @@ landing-reviews-rating = / 5 ({ $review_count } inceleme)
 landing-reviews-show-next-button = sonraki incelemeyi göster
 landing-reviews-show-previous-button = önceki incelemeyi göster
 landing-review-anonymous-user = { -brand-name-firefox } kullanıcısı { $user_id }
+landing-review-user-three-review = Bu uzantıyı seviyorum! Çok basit ama güçlü. Tarayıcıyla entegrasyonu da harika.
 landing-review-user-four-review-list-1 = İnternette gezinirken içiniz rahat olsun.
 landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } harikalar yaratıyor, deneyin!!!
 
