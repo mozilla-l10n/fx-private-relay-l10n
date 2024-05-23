@@ -2,11 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Welcome to { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Let’s set you up to get the most out of your { -brand-name-premium } account.
 multi-part-onboarding-premium-welcome-feature-headline = With { -brand-name-firefox-relay-premium }, you get:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unlimited email masks
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Enhance your privacy and security with a unique mask for every site
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Instantly create masks on-the-go
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Get a unique { -brand-name-relay } email domain for instant, easy-to-remember mask creation
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Custom inbox controls
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Control the type of emails that get forwarded to your inbox
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymous replies
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Respond to forwarded emails without sharing your real email address
 multi-part-onboarding-premium-welcome-feature-cta = Set up { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Now you can control what hits your inbox, one email at a time.
 
@@ -37,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Add { -brand-name-rela
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay } extension added!
 multi-part-onboarding-premium-added-extension-body = You’ll no longer need to sign into { -brand-name-relay } to generate a new mask — just look for the Relay icon when web sites ask for your email address.
-
 multi-part-onboarding-premium-extension-button-dashboard = Go to Dashboard
 multi-part-onboarding-skip = Skip, I’ll set this up later
 multi-part-onboarding-skip-download-extension = Skip, I’ll download the extension later
@@ -49,8 +57,4 @@ multi-part-onboarding-reply-headline = Reply to your emails
 onboarding-premium-title-detail = With { -brand-name-firefox-relay-premium } you can:
 onboarding-premium-reply-description-2 = Need to reply to emails sent to a mask? Just reply as normal — your mask will still protect your email address.
 multi-part-onboarding-premium-reply-description = Reply to emails without giving away your real address
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Step { $step } of { $max }.
