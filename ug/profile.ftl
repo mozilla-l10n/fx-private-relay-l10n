@@ -16,6 +16,7 @@ profile-label-generate-new-alias-2 = يېڭى نىقاب ھاسىللاش
 profile-label-delete = ئۆچۈر
 profile-label-reset = ئەسلىگە قايتۇر
 profile-label-continue = داۋاملاشتۇر
+
 profile-label-copied = كۆچۈرۈلدى!
 profile-label-blocked = توسۇلغان
 profile-label-cancel = ۋاز كەچ

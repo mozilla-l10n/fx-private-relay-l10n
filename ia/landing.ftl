@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Adder protection { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Mascas email pro proteger tu real adresse email
+plan-matrix-feature-browser-extension = Extension de navigator pro usar { -brand-name-relay } sur omne sitos
+plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
+plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-email-subdomain = Dominio email { -brand-name-relay } pro crear mascas al volo
+plan-matrix-feature-email-reply = Responder anonymemente al emails
 plan-matrix-feature-phone-mask = Masca de telephono pro proteger tu real numero de telephono
 plan-matrix-feature-vpn = protection { -brand-name-vpn } de <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Mascas email
+plan-matrix-feature-mobile-browser-extension = Extension de navigator
+plan-matrix-feature-mobile-email-tracker-removal = Remover traciatores de emails
+plan-matrix-feature-mobile-promo-email-blocking = Blocar e-mails promotional
+plan-matrix-feature-mobile-email-subdomain = Domino email unic { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Responde anonymemente al emails
+plan-matrix-feature-mobile-phone-mask = Proteger tu numero de telephono real
+plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Sparnia { $savings }</span> sur le 
 plan-matrix-sign-up = Inscriber se
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Inscriber te al lista de attender
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
+highlighted-features-section-unlimited-masks-body = 
+    Quicunque recipe { $mask_limit } mascas email gratuitemente. 
+    Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
+    de spammatores, piratas informatic, e traciatores online.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
+    crear nove mascas ubique tu es. Simplemente adde ulle parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
+    Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } te permitte de responder a emails per tu
+    conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
+    al SMS ab tu numero de telephono disguisate pro proteger tu real numero.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
+highlighted-features-section-block-promotions-body = 
+    Con { -brand-name-relay-premium }, tu pote impedir al emails promotional de attinger tu 
+    cassa de ingresso dum ancora tu recipe emails como quitantias o informationes de expedition.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } pote remover le commun traciatores de email de ulle emails inultrate pro te, adjutante 
+    te a remaner invisibile a traciatores e publicitarios.
 
 ## REVIEWS SECTION
 
@@ -131,16 +184,6 @@ highlighted-features-section-title = Secur e simple functionalitates pro adjutar
 highlighted-features-section-bottom-title = Protege tu identitate (e tu cassa de ingresso) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenciar
 highlighted-features-section-new-item = Nove!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
@@ -179,43 +222,3 @@ waitlist-subscribe-success = Tu es in le lista! Un vice que { -brand-name-firefo
 waitlist-subscribe-error-connection = Un error occurreva addente te al lista de attendentia. Per favor verifica tu connexion e reproba.
 waitlist-subscribe-error-unknown = Un error occurreva addente te al lista de attendentia. Reproba per favor.
 
-plan-matrix-feature-email-masks = Mascas email pro proteger tu real adresse email
-plan-matrix-feature-browser-extension = Extension de navigator pro usar { -brand-name-relay } sur omne sitos
-plan-matrix-feature-email-tracker-removal = Remover traciatores de emails
-plan-matrix-feature-promo-email-blocking = Blocar e-mails promotional
-plan-matrix-feature-email-subdomain = Dominio email { -brand-name-relay } pro crear mascas al volo
-plan-matrix-feature-email-reply = Responder anonymemente al emails
-plan-matrix-feature-phone-mask = Masca de telephono pro proteger tu real numero de telephono
-plan-matrix-feature-vpn = protection { -brand-name-vpn } de <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Mascas de e-mail illimitate
-plan-matrix-feature-mobile-email-masks = Mascas email
-plan-matrix-feature-mobile-browser-extension = Extension de navigator
-plan-matrix-feature-mobile-email-tracker-removal = Remover traciatores de emails
-plan-matrix-feature-mobile-promo-email-blocking = Blocar e-mails promotional
-plan-matrix-feature-mobile-email-subdomain = Domino email unic { -brand-name-relay }
-plan-matrix-feature-mobile-email-reply = Responde anonymemente al emails
-plan-matrix-feature-mobile-phone-mask = Proteger tu numero de telephono real
-plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Crea illimitate mascas email
-highlighted-features-section-unlimited-masks-body = 
-    Quicunque recipe { $mask_limit } mascas email gratuitemente. 
-    Ma con { -brand-name-relay-premium }, tu pote generar quante mascas como te besonia pro adjutar te a proteger tu cassa de ingresso email 
-    de spammatores, piratas informatic, e traciatores online.
-highlighted-features-section-masks-on-the-go-headline = Crea instantaneemente mascas al volo
-highlighted-features-section-masks-on-the-go-body = 
-    { -brand-name-relay-premium } te da un domino email { -brand-name-relay } unic assi que tu pote instantaneemente 
-    crear nove mascas ubique tu es. Simplemente adde ulle parola o expression ante le symbolo @. A un restaurante? Usa restaurante@yourdomain.{ $mozmail }.{ $mozmail }. 
-    Compras? Prova boteca@yourdomain.{ $mozmail }.{ $mozmail }.
-highlighted-features-section-replying-headline = Responde anonymemente a emails e SMS
-highlighted-features-section-replying-body = 
-    { -brand-name-relay-premium } te permitte de responder a emails per tu
-    conto email mascate, assi expeditores jammais sapera tu real adresse email. Con le mascas pro telephono, tu pote replicar 
-    al SMS ab tu numero de telephono disguisate pro proteger tu real numero.
-highlighted-features-section-block-promotions-headline = Blocar e-mails promotional
-highlighted-features-section-block-promotions-body = 
-    Con { -brand-name-relay-premium }, tu pote impedir al emails promotional de attinger tu 
-    cassa de ingresso dum ancora tu recipe emails como quitantias o informationes de expedition.
-highlighted-features-section-remove-trackers-headline = Remover traciatores de emails
-highlighted-features-section-remove-trackers-body = 
-    { -brand-name-relay } pote remover le commun traciatores de email de ulle emails inultrate pro te, adjutante 
-    te a remaner invisibile a traciatores e publicitarios.

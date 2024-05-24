@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Ychwanegu diogelwch { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Arallenwau e-bost i ddiogelu eich cyfeiriad e-bost go iawn
+plan-matrix-feature-browser-extension = Yr ychwanegyn porwr i ddefnyddio { -brand-name-relay } ar unrhyw wefan
+plan-matrix-feature-email-tracker-removal = Dileu tracwyr e-bost
+plan-matrix-feature-promo-email-blocking = Rhwystro e-byst hyrwyddo
+plan-matrix-feature-email-subdomain = Parth e-bost { -brand-name-relay } i greu arallenwau ar daith
+plan-matrix-feature-email-reply = Ateb e-byst yn ddienw
 plan-matrix-feature-phone-mask = Cuddio rhif ffôn i ddiogelu eich gwir rif ffôn
 plan-matrix-feature-vpn = Diogelwch { -brand-name-vpn }  gan <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = E-byst arallenwau e-bost dirifedi
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Arallenwau e-byst
+plan-matrix-feature-mobile-browser-extension = Estyniad porwr
+plan-matrix-feature-mobile-email-tracker-removal = Dileu tracwyr e-bost
+plan-matrix-feature-mobile-promo-email-blocking = Rhwystro e-byst hyrwyddo
+plan-matrix-feature-mobile-email-subdomain = Parth e-bost { -brand-name-relay } unigryw
+plan-matrix-feature-mobile-email-reply = Ateb e-byst yn ddienw
+plan-matrix-feature-mobile-phone-mask = Diogelwch eich rhif ffôn go iawn
+plan-matrix-feature-mobile-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,40 @@ plan-matrix-price-vpn-discount-promo = <span>Arbedwch { $savings }</span> ar bri
 plan-matrix-sign-up = Cofrestru
 plan-matrix-get-relay-cta = Cael { -brand-name-relay }
 plan-matrix-join-waitlist = Ymunwch â'r Rhestr Aros
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Crëwch e-byst arallenwau dirifedi
+highlighted-features-section-unlimited-masks-body = 
+    Mae pawb yn cael { $mask_limit } o arallenwau e-bost am ddim.
+    Ond gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-bost
+    rhag  sbamwyr, hacwyr, a thracwyr ar-lein.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost ar daith, yn syth
+highlighted-features-section-masks-on-the-go-body = 
+    Mae { -brand-name-relay-premium } yn cynnig parth e-bost { -brand-name-relay } unigryw i chi er mwyn i chi allu creu arallenwau newydd
+    yn syth, ble bynnag yr ydych. Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn y symbol @. Mewn bwyty? Defnyddiwch bwyty@eichparth.{ $mozmail }.
+    Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Ateb e-byst a negeseuon testun yn ddienw
+highlighted-features-section-replying-body = 
+    Mae { -brand-name-relay-premium } yn gadael i chi ateb e-byst oddi wrth eich
+    cyfrif e-bost cudd, felly ni fydd anfonwyr byth yn gwybod eich cyfeiriad e-bost go iawn. Gyda chuddio rhif ffôn, gallwch ateb
+    i negeseuon testun o'ch rhif ffôn wedi'i guddio i ddiogelu eich rhif go iawn.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Rhwystro e-byst hyrwyddo
+highlighted-features-section-block-promotions-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Dileu tracwyr e-bost
+highlighted-features-section-remove-trackers-body = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.
 
 ## REVIEWS SECTION
 
@@ -131,16 +180,6 @@ highlighted-features-section-title = Nodweddion diogel, syml i helpu i ddiogelu 
 highlighted-features-section-bottom-title = Diogelwch eich hunaniaeth (a'ch blwch derbyn ) gyda { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Cychwyn arni
 highlighted-features-section-new-item = Newydd!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
@@ -179,39 +218,3 @@ waitlist-subscribe-success = Rydych chi ar y rhestr! Unwaith y bydd { -brand-nam
 waitlist-subscribe-error-connection = Bu gwall wrth eich ychwanegu at y rhestr aros. Gwiriwch eich cysylltiad, yna ceisiwch eto.
 waitlist-subscribe-error-unknown = Bu gwall wrth eich ychwanegu at y rhestr aros. Ceisiwch eto, os gwelwch yn dda.
 
-plan-matrix-feature-email-masks = Arallenwau e-bost i ddiogelu eich cyfeiriad e-bost go iawn
-plan-matrix-feature-browser-extension = Yr ychwanegyn porwr i ddefnyddio { -brand-name-relay } ar unrhyw wefan
-plan-matrix-feature-email-tracker-removal = Dileu tracwyr e-bost
-plan-matrix-feature-promo-email-blocking = Rhwystro e-byst hyrwyddo
-plan-matrix-feature-email-subdomain = Parth e-bost { -brand-name-relay } i greu arallenwau ar daith
-plan-matrix-feature-email-reply = Ateb e-byst yn ddienw
-plan-matrix-feature-phone-mask = Cuddio rhif ffôn i ddiogelu eich gwir rif ffôn
-plan-matrix-feature-vpn = Diogelwch { -brand-name-vpn }  gan <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = E-byst arallenwau e-bost dirifedi
-plan-matrix-feature-mobile-email-masks = Arallenwau e-byst
-plan-matrix-feature-mobile-browser-extension = Estyniad porwr
-plan-matrix-feature-mobile-email-tracker-removal = Dileu tracwyr e-bost
-plan-matrix-feature-mobile-promo-email-blocking = Rhwystro e-byst hyrwyddo
-plan-matrix-feature-mobile-email-subdomain = Parth e-bost { -brand-name-relay } unigryw
-plan-matrix-feature-mobile-email-reply = Ateb e-byst yn ddienw
-plan-matrix-feature-mobile-phone-mask = Diogelwch eich rhif ffôn go iawn
-plan-matrix-feature-mobile-vpn = Mynediad i <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Crëwch e-byst arallenwau dirifedi
-highlighted-features-section-unlimited-masks-body = 
-    Mae pawb yn cael { $mask_limit } o arallenwau e-bost am ddim.
-    Ond gyda { -brand-name-relay-premium }, gallwch gynhyrchu cymaint o arallenwau ag sydd eu hangen arnoch i helpu i ddiogelu eich blwch derbyn e-bost
-    rhag  sbamwyr, hacwyr, a thracwyr ar-lein.
-highlighted-features-section-masks-on-the-go-headline = Crëwch arallenwau e-bost ar daith, yn syth
-highlighted-features-section-masks-on-the-go-body = 
-    Mae { -brand-name-relay-premium } yn cynnig parth e-bost { -brand-name-relay } unigryw i chi er mwyn i chi allu creu arallenwau newydd
-    yn syth, ble bynnag yr ydych. Yn syml, ychwanegwch unrhyw air neu ymadrodd cyn y symbol @. Mewn bwyty? Defnyddiwch bwyty@eichparth.{ $mozmail }.
-    Siopa? Rhowch gynnig ar siop@eichparth.{ $mozmail }.
-highlighted-features-section-replying-headline = Ateb e-byst a negeseuon testun yn ddienw
-highlighted-features-section-replying-body = 
-    Mae { -brand-name-relay-premium } yn gadael i chi ateb e-byst oddi wrth eich
-    cyfrif e-bost cudd, felly ni fydd anfonwyr byth yn gwybod eich cyfeiriad e-bost go iawn. Gyda chuddio rhif ffôn, gallwch ateb
-    i negeseuon testun o'ch rhif ffôn wedi'i guddio i ddiogelu eich rhif go iawn.
-highlighted-features-section-block-promotions-headline = Rhwystro e-byst hyrwyddo
-highlighted-features-section-block-promotions-body = Gyda { -brand-name-relay-premium }, gallwch rwystro e-byst hyrwyddo rhag cyrraedd eich blwch derbyn tra'n parhau i ganiatáu i chi dderbyn e-byst fel derbynebau neu fanylion cludo.
-highlighted-features-section-remove-trackers-headline = Dileu tracwyr e-bost
-highlighted-features-section-remove-trackers-body = Nawr gall { -brand-name-relay } dynnu tracwyr e-bost cyffredin o e-byst sy'n cael eu hanfon atoch, gan eich helpu i aros yn anweledig i hysbysebwyr.

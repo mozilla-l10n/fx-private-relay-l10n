@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Lisää { -brand-name-vpn } -suojaus
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Sähköpostimaskit suojaavat oikeaa sähköpostiosoitettasi
+plan-matrix-feature-browser-extension = Selainlaajennus { -brand-name-relay }n käyttämiseksi millä tahansa sivulla
+plan-matrix-feature-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-promo-email-blocking = Estä mainossähköpostit
+plan-matrix-feature-email-subdomain = { -brand-name-relay }n sähköpostiverkkotunnus luodaksesi maskeja milloin tahansa
+plan-matrix-feature-email-reply = Vastaa sähköposteihin anonyymisti
 plan-matrix-feature-phone-mask = Puhelinnumeron peittäminen todellisen puhelinnumerosi suojaamiseksi
 plan-matrix-feature-vpn = { -brand-name-vpn }-suojaus käyttäen <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
+plan-matrix-feature-mobile-browser-extension = Selainlaajennus
+plan-matrix-feature-mobile-email-tracker-removal = Poista sähköpostin seuraimet
+plan-matrix-feature-mobile-promo-email-blocking = Estä mainossähköpostit
+plan-matrix-feature-mobile-email-subdomain = Yksilöllinen { -brand-name-relay }-verkkotunnus sähköpostille
+plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
+plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
+plan-matrix-feature-mobile-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Säästä { $savings }</span> { -br
 plan-matrix-sign-up = Rekisteröidy
 plan-matrix-get-relay-cta = Hanki { -brand-name-relay }
 plan-matrix-join-waitlist = Liity odotuslistalle
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
+highlighted-features-section-unlimited-masks-body = 
+    Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
+    { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
+    roskapostittajilta, hakkereilta ja seuraimilta.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
+    luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
+    Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
+    peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
+    tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
+highlighted-features-section-block-promotions-body = 
+    { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
+    mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
+    sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.
 
 ## REVIEWS SECTION
 
@@ -131,16 +184,6 @@ highlighted-features-section-title = Turvallisia ja yksinkertaisia ominaisuuksia
 highlighted-features-section-bottom-title = Suojaa henkilöytesi (ja postilaatikkosi) { -brand-name-firefox-relay } -palvelua käyttäen
 highlighted-features-section-bottom-cta = Aloitetaan
 highlighted-features-section-new-item = Uutta!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
@@ -178,43 +221,3 @@ waitlist-subscribe-success = Olet listalla! Kun { -brand-name-firefox-relay-prem
 waitlist-subscribe-error-connection = Jonotuslistalle lisättäessä tapahtui virhe. Tarkista verkkoyhteytesi ja yritä sitten uudelleen.
 waitlist-subscribe-error-unknown = Jonotuslistalle lisättäessä tapahtui virhe. Yritä uudelleen.
 
-plan-matrix-feature-email-masks = Sähköpostimaskit suojaavat oikeaa sähköpostiosoitettasi
-plan-matrix-feature-browser-extension = Selainlaajennus { -brand-name-relay }n käyttämiseksi millä tahansa sivulla
-plan-matrix-feature-email-tracker-removal = Poista sähköpostin seuraimet
-plan-matrix-feature-promo-email-blocking = Estä mainossähköpostit
-plan-matrix-feature-email-subdomain = { -brand-name-relay }n sähköpostiverkkotunnus luodaksesi maskeja milloin tahansa
-plan-matrix-feature-email-reply = Vastaa sähköposteihin anonyymisti
-plan-matrix-feature-phone-mask = Puhelinnumeron peittäminen todellisen puhelinnumerosi suojaamiseksi
-plan-matrix-feature-vpn = { -brand-name-vpn }-suojaus käyttäen <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Rajattomasti sähköpostimaskeja
-plan-matrix-feature-mobile-email-masks = Sähköpostimaskit
-plan-matrix-feature-mobile-browser-extension = Selainlaajennus
-plan-matrix-feature-mobile-email-tracker-removal = Poista sähköpostin seuraimet
-plan-matrix-feature-mobile-promo-email-blocking = Estä mainossähköpostit
-plan-matrix-feature-mobile-email-subdomain = Yksilöllinen { -brand-name-relay }-verkkotunnus sähköpostille
-plan-matrix-feature-mobile-email-reply = Vastaa sähköposteihin anonyymisti
-plan-matrix-feature-mobile-phone-mask = Suojaa todellista puhelinnumeroasi
-plan-matrix-feature-mobile-vpn = Käytä <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Luo rajattomasti sähköpostimaskeja
-highlighted-features-section-unlimited-masks-body = 
-    Kaikki saavat { $mask_limit } sähköpostimaskia ilmaiseksi.
-    { -brand-name-relay-premium }illa voit luoda niin monta maskia kuin tarvitset sähköpostisi suojaamiseksi
-    roskapostittajilta, hakkereilta ja seuraimilta.
-highlighted-features-section-masks-on-the-go-headline = Luo maskeja heti tarpeen vaatiessa
-highlighted-features-section-masks-on-the-go-body = 
-    { -brand-name-relay-premium } antaa sinulle ainutlaatuisen { -brand-name-relay }-sähköpostiverkkotunnuksen, joten voit heti
-    luoda uusia maskeja missä tahansa. Lisää mikä tahansa sana tai lause ennen @-symbolia. Ravintolassa? Käytä ravintola@omaverkkotunnus.{ $mozmail }.
-    Ostoksilla? Kokeile kauppa@omaverkkotunnus.{ $mozmail }.
-highlighted-features-section-replying-headline = Vastaa sähköposteihin ja tekstiviesteihin anonyymisti
-highlighted-features-section-replying-body = 
-    { -brand-name-relay-premium } antaa sinun vastata sähköposteihin
-    peitetyllä sähköpostitilillä, joten lähettäjät eivät koskaan tiedä oikeaa sähköpostiosoitettasi. Puhelimen maskauksella voit vastata
-    tekstiviesteihin peitetystä puhelinnumerosta todellisen numerosi suojaamiseksi.
-highlighted-features-section-block-promotions-headline = Estä mainossähköpostit
-highlighted-features-section-block-promotions-body = 
-    { -brand-name-relay-premium }illa voit estää mainossähköpostien pääsyn postilaatikkoosi,
-    mutta silti vastaanottaa sähköpostiviestejä, kuten kuitteja tai toimitustietoja.
-highlighted-features-section-remove-trackers-headline = Poista sähköpostin seuraimet
-highlighted-features-section-remove-trackers-body = 
-    { -brand-name-relay } voi poistaa yleiset sähköpostiseuraimet kaikista sinulle lähetetyistä sähköposteista, mikä auttaa
-    sinua pysymään näkymättömänä seurantaa ja mainontaa harjoittaville tahoille.

@@ -223,3 +223,4 @@ waitlist-privacy-policy-use-bundle = Jo gegevens wurde allinnich brûkt om jo te
 waitlist-subscribe-success = Jo steane op de list! Sa gau as { -brand-name-firefox-relay-premium } beskikber komt foar jo regio, stjoere wy jo in e-mailberjocht.
 waitlist-subscribe-error-connection = Der is in flater bard by it pleatsen op de wachtlist. Kontrolearje jo ferbining en probearje it opnij.
 waitlist-subscribe-error-unknown = Der is in flater bard by it pleatsen op de wachtlist. Probearje it nochris.
+

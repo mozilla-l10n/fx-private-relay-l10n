@@ -71,11 +71,26 @@ plan-matrix-heading-plan-bundle-2 = Přidaná ochrana sítí { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mailové masky pro ochranu vaší skutečné e-mailové adresy
+plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použití služby { -brand-name-relay } na libovolném webu
+plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-feature-promo-email-blocking = Blokování reklamních e-mailů
+plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
+plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
 plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
 plan-matrix-feature-vpn = Ochrana sítí { -brand-name-vpn } prostřednictvím služby <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-mailové masky
+plan-matrix-feature-mobile-browser-extension = Rozšíření do prohlížeče
+plan-matrix-feature-mobile-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
+plan-matrix-feature-mobile-promo-email-blocking = Blokování reklamních e-mailů
+plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Anonymní odpovědi na e-maily
+plan-matrix-feature-mobile-phone-mask = Ochrana vašeho skutečného telefonního čísla
+plan-matrix-feature-mobile-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -101,6 +116,35 @@ plan-matrix-price-vpn-discount-promo = <span>Ušetřete { $savings }</span> z be
 plan-matrix-sign-up = Zaregistrovat se
 plan-matrix-get-relay-cta = Získat { -brand-name-relay }
 plan-matrix-join-waitlist = Přidat se na čekací listinu
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
+highlighted-features-section-unlimited-masks-body = Každý dostane několik e-mailových masek zdarma (celkem { $mask_limit }). Ale pomocí { -brand-name-relay-premium } můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svoji e-mailovou schránku před odesílateli nevyžádané pošty, hackery a sledováním pomocí sledovacích prvků.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
+highlighted-features-section-masks-on-the-go-body = 
+    Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
+    Nakupujete? Zkuste nakup@vasedomena.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
+highlighted-features-section-replying-body = 
+    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
+    maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
+highlighted-features-section-block-promotions-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.
 
 ## REVIEWS SECTION
 
@@ -133,16 +177,6 @@ highlighted-features-section-title = Bezpečné a jednoduché funkce, které pom
 highlighted-features-section-bottom-title = Chraňte svou identitu (a svou e-mailovou schránku) pomocí služby { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Jdeme na to
 highlighted-features-section-new-item = Novinka!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
@@ -187,34 +221,3 @@ waitlist-subscribe-success =
 waitlist-subscribe-error-connection = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkontrolujte prosím své připojení a zkuste to znovu.
 waitlist-subscribe-error-unknown = Při pokusu o vaše přidání na čekací listinu došlo k chybě. Zkuste to prosím znovu.
 
-plan-matrix-feature-email-masks = E-mailové masky pro ochranu vaší skutečné e-mailové adresy
-plan-matrix-feature-browser-extension = Rozšíření do prohlížeče pro použití služby { -brand-name-relay } na libovolném webu
-plan-matrix-feature-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-promo-email-blocking = Blokování reklamních e-mailů
-plan-matrix-feature-email-subdomain = E-mailová doména { -brand-name-relay } pro vytváření masek kdekoliv se nacházíte
-plan-matrix-feature-email-reply = Anonymní odpovědi na e-maily
-plan-matrix-feature-phone-mask = Telefonní maska pro ochranu vašeho skutečného telefonního čísla
-plan-matrix-feature-vpn = Ochrana sítí { -brand-name-vpn } prostřednictvím služby <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Neomezený počet e-mailových masek
-plan-matrix-feature-mobile-email-masks = E-mailové masky
-plan-matrix-feature-mobile-browser-extension = Rozšíření do prohlížeče
-plan-matrix-feature-mobile-email-tracker-removal = Odstraňování sledovacích prvků z e-mailů
-plan-matrix-feature-mobile-promo-email-blocking = Blokování reklamních e-mailů
-plan-matrix-feature-mobile-email-subdomain = Jedinečná e-mailová doména { -brand-name-relay }
-plan-matrix-feature-mobile-email-reply = Anonymní odpovědi na e-maily
-plan-matrix-feature-mobile-phone-mask = Ochrana vašeho skutečného telefonního čísla
-plan-matrix-feature-mobile-vpn = Přístup k síti <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Vytvářejte neomezený počet e-mailových masek
-highlighted-features-section-unlimited-masks-body = Každý dostane několik e-mailových masek zdarma (celkem { $mask_limit }). Ale pomocí { -brand-name-relay-premium } můžete vygenerovat tolik masek, kolik potřebujete, abyste ochránili svoji e-mailovou schránku před odesílateli nevyžádané pošty, hackery a sledováním pomocí sledovacích prvků.
-highlighted-features-section-masks-on-the-go-headline = Okamžitě vytváření masek ať jste kdekoliv
-highlighted-features-section-masks-on-the-go-body = 
-    Služba { -brand-name-relay-premium } vám poskytne jedinečnou e-mailovou doménu { -brand-name-relay }, takže můžete okamžitě vytvářet nové masky, ať jste kdekoli. Stačí přidat libovolné slovo nebo frázi před symbol @. Jste v restauraci? Použijte restaurace@vasedomena.{ $mozmail }.
-    Nakupujete? Zkuste nakup@vasedomena.{ $mozmail }.
-highlighted-features-section-replying-headline = Odpovídejte na e-maily a textové zprávy anonymně
-highlighted-features-section-replying-body = 
-    Služba { -brand-name-relay-premium } umožňuje odpovídat na e-maily od vašeho
-    maskovaného e-mailového účtu, takže odesílatelé nikdy nepoznají vaši skutečnou e-mailovou adresu. Díky maskování telefonu můžete odpovídat na zprávy z maskovaného telefonního čísla, abyste ochránili své skutečné číslo.
-highlighted-features-section-block-promotions-headline = Blokování reklamních e-mailů
-highlighted-features-section-block-promotions-body = Se službou { -brand-name-relay-premium } můžete blokovat doručování reklamních e-mailů do vaší e-mailové schránky, přičemž ostatní e-maily jako třeba pokladní doklady nebo informace o doručení zásilky stále dostanete.
-highlighted-features-section-remove-trackers-headline = Odstraňování sledovacích prvků z e-mailů
-highlighted-features-section-remove-trackers-body = { -brand-name-relay } umí z přeposlaných e-mailů odstranit běžné sledovací prvky, díky čemuž zůstanete pro inzerenty neviditelní.

@@ -72,9 +72,26 @@ plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn }-Schutz hinzufügen
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-Mail-Masken zum Schutz Ihrer echten E-Mail-Adresse
+plan-matrix-feature-browser-extension = Browser-Erweiterung zur Verwendung von { -brand-name-relay } auf jeder Website
+plan-matrix-feature-email-tracker-removal = E-Mail-Tracker entfernen
+plan-matrix-feature-promo-email-blocking = Werbe-E-Mails blockieren
+plan-matrix-feature-email-subdomain = { -brand-name-relay } E-Mail-Domain zum Erstellen von Masken für unterwegs
+plan-matrix-feature-email-reply = Antworten Sie anonym auf E-Mails
 plan-matrix-feature-phone-mask = Telefonnummer-Maske zum Schutz Ihrer echten Telefonnummer
 plan-matrix-feature-vpn = { -brand-name-vpn }-Schutz von <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
+
+# Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-Mail-Masken
+plan-matrix-feature-mobile-browser-extension = Browser-Erweiterung
+plan-matrix-feature-mobile-email-tracker-removal = E-Mail-Tracker entfernen
+plan-matrix-feature-mobile-promo-email-blocking = Werbe-E-Mails blockieren
+plan-matrix-feature-mobile-email-subdomain = Eindeutige { -brand-name-relay }-E-Mail-Domain
+plan-matrix-feature-mobile-email-reply = Antworten Sie anonym auf E-Mails
+plan-matrix-feature-mobile-phone-mask = Schützen Sie Ihre echte Telefonnummer
+plan-matrix-feature-mobile-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -102,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Sparen Sie { $savings }</span> gege
 plan-matrix-sign-up = Registrieren
 plan-matrix-get-relay-cta = Holen Sie sich { -brand-name-relay }
 plan-matrix-join-waitlist = Auf Warteliste setzen
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Unbegrenzt viele E-Mail-Masken erstellen
+highlighted-features-section-unlimited-masks-body = 
+    Jeder erhält kostenlos { $mask_limit } E-Mail-Masken.
+    Aber mit { -brand-name-relay-premium } können Sie so viele Masken erzeugen, wie Sie zum Schutz Ihres E-Mail-Posteingangs 
+    vor Spammern, Hackern und Online-Trackern benötigen.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Erstellen Sie unterwegs sofort Masken
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } bietet Ihnen eine einzigartige { -brand-name-relay }-E-Mail-Domain, damit Sie sofort loslegen können
+    Erstellen Sie neue Masken, wo immer Sie sind. Fügen Sie einfach ein beliebiges Wort oder einen Satz vor dem @-Symbol hinzu. In einem Restaurant? Verwenden Sie restaurant@ihredomain.{ $mozmail }.
+    Einkaufen? Versuchen Sie es mit shop@ihredomain.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Antworten Sie anonym auf E-Mails & SMS
+highlighted-features-section-replying-body = 
+    Mit { -brand-name-relay-premium } können Sie über Ihr maskiertes E-Mail-Konto auf E-Mails antworten, 
+    sodass Absender niemals Ihre echte E-Mail-Adresse erfahren. Mit den Telefonnummer-Masken können Sie über Ihr maskiertes Handy auf SMS antworten 
+    und Ihre echte Telefonnummer schützen.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Werbe-E-Mails blockieren
+highlighted-features-section-block-promotions-body = 
+    Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, 
+    während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = E-Mail-Tracker entfernen
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } kann gängige E-Mail-Tracker aus allen an Sie weitergeleiteten E-Mails entfernen, 
+    sodass Sie für  TrackerWerbetreibende unsichtbar bleiben.
 
 ## REVIEWS SECTION
 
@@ -164,43 +219,4 @@ waitlist-privacy-policy-use-bundle = Ihre Daten werden nur verwendet, um Sie üb
 waitlist-subscribe-success = Sie stehen auf der Liste! Wir werden Sie per E-Mail informieren, sobald { -brand-name-firefox-relay-premium } für Ihre Region verfügbar ist.
 waitlist-subscribe-error-connection = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.
 waitlist-subscribe-error-unknown = Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.
-plan-matrix-feature-email-masks = E-Mail-Masken zum Schutz Ihrer echten E-Mail-Adresse
-plan-matrix-feature-browser-extension = Browser-Erweiterung zur Verwendung von { -brand-name-relay } auf jeder Website
-plan-matrix-feature-email-tracker-removal = E-Mail-Tracker entfernen
-plan-matrix-feature-promo-email-blocking = Werbe-E-Mails blockieren
-plan-matrix-feature-email-subdomain = { -brand-name-relay } E-Mail-Domain zum Erstellen von Masken für unterwegs
-plan-matrix-feature-email-reply = Antworten Sie anonym auf E-Mails
-plan-matrix-feature-phone-mask = Telefonnummer-Maske zum Schutz Ihrer echten Telefonnummer
-plan-matrix-feature-vpn = { -brand-name-vpn }-Schutz von <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Unbegrenzte E-Mail-Masken
-plan-matrix-feature-mobile-email-masks = E-Mail-Masken
-plan-matrix-feature-mobile-browser-extension = Browser-Erweiterung
-plan-matrix-feature-mobile-email-tracker-removal = E-Mail-Tracker entfernen
-plan-matrix-feature-mobile-promo-email-blocking = Werbe-E-Mails blockieren
-plan-matrix-feature-mobile-email-subdomain = Eindeutige { -brand-name-relay }-E-Mail-Domain
-plan-matrix-feature-mobile-email-reply = Antworten Sie anonym auf E-Mails
-plan-matrix-feature-mobile-phone-mask = Schützen Sie Ihre echte Telefonnummer
-plan-matrix-feature-mobile-vpn = Zugriff auf <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Unbegrenzt viele E-Mail-Masken erstellen
-highlighted-features-section-unlimited-masks-body = 
-    Jeder erhält kostenlos { $mask_limit } E-Mail-Masken.
-    Aber mit { -brand-name-relay-premium } können Sie so viele Masken erzeugen, wie Sie zum Schutz Ihres E-Mail-Posteingangs 
-    vor Spammern, Hackern und Online-Trackern benötigen.
-highlighted-features-section-masks-on-the-go-headline = Erstellen Sie unterwegs sofort Masken
-highlighted-features-section-masks-on-the-go-body = 
-    { -brand-name-relay-premium } bietet Ihnen eine einzigartige { -brand-name-relay }-E-Mail-Domain, damit Sie sofort loslegen können
-    Erstellen Sie neue Masken, wo immer Sie sind. Fügen Sie einfach ein beliebiges Wort oder einen Satz vor dem @-Symbol hinzu. In einem Restaurant? Verwenden Sie restaurant@ihredomain.{ $mozmail }.
-    Einkaufen? Versuchen Sie es mit shop@ihredomain.{ $mozmail }.
-highlighted-features-section-replying-headline = Antworten Sie anonym auf E-Mails & SMS
-highlighted-features-section-replying-body = 
-    Mit { -brand-name-relay-premium } können Sie über Ihr maskiertes E-Mail-Konto auf E-Mails antworten, 
-    sodass Absender niemals Ihre echte E-Mail-Adresse erfahren. Mit den Telefonnummer-Masken können Sie über Ihr maskiertes Handy auf SMS antworten 
-    und Ihre echte Telefonnummer schützen.
-highlighted-features-section-block-promotions-headline = Werbe-E-Mails blockieren
-highlighted-features-section-block-promotions-body = 
-    Mit { -brand-name-relay-premium } können Sie verhindern, dass Werbe-E-Mails Ihren Posteingang erreichen, 
-    während Sie weiterhin E-Mails wie Quittungen oder Versandinformationen erhalten.
-highlighted-features-section-remove-trackers-headline = E-Mail-Tracker entfernen
-highlighted-features-section-remove-trackers-body = 
-    { -brand-name-relay } kann gängige E-Mail-Tracker aus allen an Sie weitergeleiteten E-Mails entfernen, 
-    sodass Sie für  TrackerWerbetreibende unsichtbar bleiben.
+

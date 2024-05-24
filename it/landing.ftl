@@ -73,11 +73,26 @@ plan-matrix-heading-plan-bundle-2 = Aggiungi la protezione { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Alias di posta elettronica per proteggere il tuo indirizzo email reale
+plan-matrix-feature-browser-extension = Estensione del browser per utilizzare { -brand-name-relay } su qualsiasi sito
+plan-matrix-feature-email-tracker-removal = Rimozione elementi traccianti dalle email
+plan-matrix-feature-promo-email-blocking = Blocco delle email pubblicitarie
+plan-matrix-feature-email-subdomain = Dominio { -brand-name-relay } per creare alias di posta elettronica ovunque ti trovi
+plan-matrix-feature-email-reply = Rispondi alle email in modo anonimo
 plan-matrix-feature-phone-mask = Alias per numeri di telefono per proteggere il tuo numero reale
 plan-matrix-feature-vpn = Protezione { -brand-name-vpn } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Alias di posta elettronica illimitati
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Alias di posta elettronica
+plan-matrix-feature-mobile-browser-extension = Estensione per browser
+plan-matrix-feature-mobile-email-tracker-removal = Rimozione elementi traccianti dalle email
+plan-matrix-feature-mobile-promo-email-blocking = Blocco delle email pubblicitarie
+plan-matrix-feature-mobile-email-subdomain = Dominio di posta elettronica { -brand-name-relay } univoco
+plan-matrix-feature-mobile-email-reply = Rispondi alle email in modo anonimo
+plan-matrix-feature-mobile-phone-mask = Proteggi il tuo numero di telefono reale
+plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -103,6 +118,35 @@ plan-matrix-price-vpn-discount-promo = <span>Risparmia il { $savings }</span> su
 plan-matrix-sign-up = Registrati
 plan-matrix-get-relay-cta = Ottieni { -brand-name-relay }
 plan-matrix-join-waitlist = Iscriviti alla lista d’attesa
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Crea alias di posta elettronica illimitati
+highlighted-features-section-unlimited-masks-body = 
+    Tutti hanno a disposizione gratuitamente { $mask_limit } alias di posta elettronica. 
+    Ma con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam, hacker e tracciamento online.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Crea alias al volo
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } ti offre un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo nuovi alias ovunque ti trovi. Devi semplicemente aggiungere una parola o una frase prima del simbolo @. Sei al ristorante? Utilizza ristorante@tuodominio.{ $mozmail }. Stai facendo acquisti? Prova con shop@tuodominio.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Rispondi alle email e agli SMS in modo anonimo
+highlighted-features-section-replying-body = { -brand-name-relay-premium } ti consente di rispondere alle email dal tuo alias di posta elettronica, impedendo ai mittenti di scoprire il tuo indirizzo email reale. Allo stesso modo, con gli alias per numeri di telefono puoi rispondere agli SMS direttamente dal tuo alias per proteggere il tuo numero reale.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blocco delle email pubblicitarie
+highlighted-features-section-block-promotions-body = 
+    Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua 
+    casella di posta e al tempo stesso ricevere email essenziali come fatture o informazioni su una spedizione.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Rimozione elementi traccianti dalle email
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile a soggetti che cercano di tracciarti e agli inserzionisti.
 
 ## REVIEWS SECTION
 
@@ -130,16 +174,6 @@ highlighted-features-section-title = Funzionalità semplici e sicure per aiutart
 highlighted-features-section-bottom-title = Proteggi la tua identità (e la tua casella di posta) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Inizia
 highlighted-features-section-new-item = Novità
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
@@ -178,34 +212,3 @@ waitlist-subscribe-success = Sei iscritto alla lista. Non appena { -brand-name-f
 waitlist-subscribe-error-connection = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Verifica la connessione e riprova.
 waitlist-subscribe-error-unknown = Si è verificato un errore durante l’aggiunta alla lista d’attesa. Riprova.
 
-plan-matrix-feature-email-masks = Alias di posta elettronica per proteggere il tuo indirizzo email reale
-plan-matrix-feature-browser-extension = Estensione del browser per utilizzare { -brand-name-relay } su qualsiasi sito
-plan-matrix-feature-email-tracker-removal = Rimozione elementi traccianti dalle email
-plan-matrix-feature-promo-email-blocking = Blocco delle email pubblicitarie
-plan-matrix-feature-email-subdomain = Dominio { -brand-name-relay } per creare alias di posta elettronica ovunque ti trovi
-plan-matrix-feature-email-reply = Rispondi alle email in modo anonimo
-plan-matrix-feature-phone-mask = Alias per numeri di telefono per proteggere il tuo numero reale
-plan-matrix-feature-vpn = Protezione { -brand-name-vpn } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-plan-matrix-feature-list-email-masks-unlimited = Alias di posta elettronica illimitati
-plan-matrix-feature-mobile-email-masks = Alias di posta elettronica
-plan-matrix-feature-mobile-browser-extension = Estensione per browser
-plan-matrix-feature-mobile-email-tracker-removal = Rimozione elementi traccianti dalle email
-plan-matrix-feature-mobile-promo-email-blocking = Blocco delle email pubblicitarie
-plan-matrix-feature-mobile-email-subdomain = Dominio di posta elettronica { -brand-name-relay } univoco
-plan-matrix-feature-mobile-email-reply = Rispondi alle email in modo anonimo
-plan-matrix-feature-mobile-phone-mask = Proteggi il tuo numero di telefono reale
-plan-matrix-feature-mobile-vpn = Accesso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
-highlighted-features-section-unlimited-masks-headline = Crea alias di posta elettronica illimitati
-highlighted-features-section-unlimited-masks-body = 
-    Tutti hanno a disposizione gratuitamente { $mask_limit } alias di posta elettronica. 
-    Ma con { -brand-name-relay-premium } puoi creare tutti gli alias di cui hai bisogno per proteggere la tua casella di posta da spam, hacker e tracciamento online.
-highlighted-features-section-masks-on-the-go-headline = Crea alias al volo
-highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } ti offre un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo nuovi alias ovunque ti trovi. Devi semplicemente aggiungere una parola o una frase prima del simbolo @. Sei al ristorante? Utilizza ristorante@tuodominio.{ $mozmail }. Stai facendo acquisti? Prova con shop@tuodominio.{ $mozmail }.
-highlighted-features-section-replying-headline = Rispondi alle email e agli SMS in modo anonimo
-highlighted-features-section-replying-body = { -brand-name-relay-premium } ti consente di rispondere alle email dal tuo alias di posta elettronica, impedendo ai mittenti di scoprire il tuo indirizzo email reale. Allo stesso modo, con gli alias per numeri di telefono puoi rispondere agli SMS direttamente dal tuo alias per proteggere il tuo numero reale.
-highlighted-features-section-block-promotions-headline = Blocco delle email pubblicitarie
-highlighted-features-section-block-promotions-body = 
-    Con { -brand-name-relay-premium } puoi impedire alle email pubblicitarie di raggiungere la tua 
-    casella di posta e al tempo stesso ricevere email essenziali come fatture o informazioni su una spedizione.
-highlighted-features-section-remove-trackers-headline = Rimozione elementi traccianti dalle email
-highlighted-features-section-remove-trackers-body = { -brand-name-relay } può rimuovere gli elementi traccianti più comuni dalle email che ti vengono inoltrate, aiutandoti a rimanere invisibile a soggetti che cercano di tracciarti e agli inserzionisti.

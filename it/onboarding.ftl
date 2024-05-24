@@ -7,6 +7,14 @@
 multi-part-onboarding-premium-welcome-headline = Benvenuto in { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Comincia la configurazione per ottenere il massimo dal tuo account { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Con { -brand-name-firefox-relay-premium } ottieni:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Alias di posta elettronica illimitati
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Migliora la tua privacy e sicurezza con un alias univoco per ogni sito
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creazione di alias al volo
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Ottieni un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo alias facili da ricordare
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlli personalizzati per la posta in arrivo
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controlla che tipo di email vengono inoltrate alla tua casella di posta
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Risposte anonime
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Rispondi alle email inoltrate senza condividere il tuo indirizzo email reale
 multi-part-onboarding-premium-welcome-feature-cta = Configura { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Ora puoi decidere che cosa arriva nella tua casella di posta, per ogni singola email.
 
@@ -54,11 +62,3 @@ multi-part-onboarding-premium-reply-description = Rispondi alle email senza rive
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Passaggio { $step } di { $max }.
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Alias di posta elettronica illimitati
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Migliora la tua privacy e sicurezza con un alias univoco per ogni sito
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creazione di alias al volo
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Ottieni un dominio di posta elettronica { -brand-name-relay } univoco per creare al volo alias facili da ricordare
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controlli personalizzati per la posta in arrivo
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controlla che tipo di email vengono inoltrate alla tua casella di posta
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Risposte anonime
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Rispondi alle email inoltrate senza condividere il tuo indirizzo email reale

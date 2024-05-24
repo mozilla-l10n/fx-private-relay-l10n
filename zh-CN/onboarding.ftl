@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = 欢迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = 我们将引导您完成设置，解锁 { -brand-name-premium } 账户完整体验。
 multi-part-onboarding-premium-welcome-feature-headline = 使用 { -brand-name-firefox-relay-premium } 即可
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 无限数量马甲
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 为不同网站使用不同马甲，隐私与安全更上一层楼
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 随时随地创建马甲
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 您可选择一个专属 { -brand-name-relay } 邮箱域名，随时随地创建好记的马甲
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 您的收件箱您做主
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 掌控转发到您收件箱的邮件类型
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回复
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 无需暴露真实邮箱地址也能回复转发的邮件
 multi-part-onboarding-premium-welcome-feature-cta = 设置 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 哪一封邮件可以进入收件箱，控制权在您。
 
@@ -52,11 +60,3 @@ onboarding-premium-reply-description-2 = 需回复发送给马甲邮箱的邮件
 multi-part-onboarding-premium-reply-description = 无需暴露真实邮箱地址也能回复邮件
 
 multi-part-onboarding-step-counter = 第 { $step } / { $max } 步。
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 无限数量马甲
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 为不同网站使用不同马甲，隐私与安全更上一层楼
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 随时随地创建马甲
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 您可选择一个专属 { -brand-name-relay } 邮箱域名，随时随地创建好记的马甲
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 您的收件箱您做主
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 掌控转发到您收件箱的邮件类型
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回复
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 无需暴露真实邮箱地址也能回复转发的邮件

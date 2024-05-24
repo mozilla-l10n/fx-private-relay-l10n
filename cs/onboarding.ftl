@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = Vítá vás { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Pojďme nastavit službu tak, abyste ze svého účtu { -brand-name-premium } vytěžili maximum.
 multi-part-onboarding-premium-welcome-feature-headline = Se službou { -brand-name-firefox-relay-premium } získáváte:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neomezený počet e-mailových masek
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvyšte své soukromí a bezpečnost pomocí jedinečné masky pro každou stránku
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Získejte jedinečnou e-mailovou doménu { -brand-name-relay } na okamžité vytvoření vlastní lehko zapamatovatelné masky
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavení pro schránku doručené pošty
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e-mailů, které se budou přeposílat do vaší doručené pošty
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymní odpovědi
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovídejte na přeposlané e-maily bez sdílení své skutečné e-mailové adresy
 multi-part-onboarding-premium-welcome-feature-cta = Nastavit { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nyní můžete mít kontrolu nad tím, co vám přijde do e-mailové schránky, e-mail po e-mailu.
 
@@ -52,11 +60,3 @@ onboarding-premium-reply-description-2 = Potřebujete odpovídat na e-maily odes
 multi-part-onboarding-premium-reply-description = Odpovídejte na e-maily bez uvedení své skutečné adresy
 
 multi-part-onboarding-step-counter = { $step }. krok z { $max }.
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neomezený počet e-mailových masek
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvyšte své soukromí a bezpečnost pomocí jedinečné masky pro každou stránku
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváření masek ať jste kdekoliv
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Získejte jedinečnou e-mailovou doménu { -brand-name-relay } na okamžité vytvoření vlastní lehko zapamatovatelné masky
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavení pro schránku doručené pošty
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e-mailů, které se budou přeposílat do vaší doručené pošty
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymní odpovědi
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovídejte na přeposlané e-maily bez sdílení své skutečné e-mailové adresy

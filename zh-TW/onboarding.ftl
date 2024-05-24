@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = 歡迎使用 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = 讓我們一起來了解如何完整使用您的 { -brand-name-premium } 帳號。
 multi-part-onboarding-premium-welcome-feature-headline = 透過 { -brand-name-firefox-relay-premium }，您會得到：
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信箱，加強您的隱私權與安全性
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 獲得獨特的 { -brand-name-relay } 電子郵件網域，讓您可即時產生易記好用的轉寄信箱
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 自行控制要轉寄哪些電子郵件到您的收件匣
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 不用透露您的實際電子郵件地址，就能回覆轉寄的郵件
 multi-part-onboarding-premium-welcome-feature-cta = 設定 { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = 現在起您可一封一封郵件自行控制哪些能進到信件匣。
 
@@ -52,11 +60,3 @@ onboarding-premium-reply-description-2 = 需要回覆寄到轉寄信箱的郵件
 multi-part-onboarding-premium-reply-description = 不用給出實際信箱，就能回覆郵件
 
 multi-part-onboarding-step-counter = 第 { $step } 步，共 { $max } 步。
-multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
-multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信箱，加強您的隱私權與安全性
-multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
-multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 獲得獨特的 { -brand-name-relay } 電子郵件網域，讓您可即時產生易記好用的轉寄信箱
-multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
-multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 自行控制要轉寄哪些電子郵件到您的收件匣
-multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
-multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 不用透露您的實際電子郵件地址，就能回覆轉寄的郵件

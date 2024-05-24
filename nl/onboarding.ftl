@@ -46,6 +46,7 @@ multi-part-onboarding-premium-add-extension-feature-cta = De { -brand-name-relay
 
 multi-part-onboarding-premium-extension-added = { -brand-name-relay }-extensie toegevoegd!
 multi-part-onboarding-premium-added-extension-body = U hoeft niet langer aan te melden bij { -brand-name-relay } om een nieuw masker aan te maken – zoek gewoon naar het Relay-pictogram wanneer websites om uw e-mailadres vragen.
+
 multi-part-onboarding-premium-extension-button-dashboard = Naar het dashboard
 multi-part-onboarding-skip = Overslaan, ik stel dit later in
 multi-part-onboarding-skip-download-extension = Overslaan, ik download de extensie later
@@ -57,4 +58,5 @@ multi-part-onboarding-reply-headline = Uw e-mailberichten beantwoorden
 onboarding-premium-title-detail = Met { -brand-name-firefox-relay-premium } kunt u:
 onboarding-premium-reply-description-2 = Moet u e-mailberichten die naar een masker zijn gestuurd beantwoorden? Antwoord gewoon als altijd – uw masker beschermt uw e-mailadres nog steeds.
 multi-part-onboarding-premium-reply-description = Antwoorden op e-mailberichten zonder uw echte adres prijs te geven
+
 multi-part-onboarding-step-counter = Stap { $step } van { $max }.
