@@ -168,3 +168,31 @@ waitlist-subscribe-success = تساں تندیر وچ شامل ہو، ہک وا�
 waitlist-subscribe-error-connection = تانگھ تندیر وچ تہاکوں شامل کرݨ وچ خرابی ہائی۔ سوہݨا، آپݨے نیٹ ورک دی پڑتال کرو تے ولدا کوشش کرو۔
 waitlist-subscribe-error-unknown = تہاکوں تانگھ تندیر وچ شامل کرݨ وچ خرابی ہائی۔ سوہݨا، ولدا کوشش کرو۔
 
+plan-matrix-feature-email-masks = آپݨے اصلی ای میل پتے دی حفاظت کیتے ای میل ماسک
+plan-matrix-feature-browser-extension = کہیں وی سائٹ تے { -brand-name-relay } ورتݨ کیتے ایکسٹنشن براؤز کرو
+plan-matrix-feature-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-feature-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-email-subdomain = آن دی گو تے ماسک تخلیق کرݨ کیتے { -brand-name-relay } ای میل ڈومین
+plan-matrix-feature-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
+plan-matrix-feature-phone-mask = تہاݙے اصلی فون نمبر دی حفاظت کیتے فون ماسک
+plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> کنوں { -brand-name-vpn } حفاظت
+plan-matrix-feature-list-email-masks-unlimited = بے انت ای میل ماسک
+plan-matrix-feature-mobile-email-masks = ای میل ماسکس
+plan-matrix-feature-mobile-browser-extension = براؤزر ایکسٹنشن
+plan-matrix-feature-mobile-email-tracker-removal = سارے ای میل ٹریکر ہٹاؤ
+plan-matrix-feature-mobile-promo-email-blocking = مشہوری ای میلاں بلاک کرو
+plan-matrix-feature-mobile-email-subdomain = نویکلی { -brand-name-relay } ای میل ڈومین
+plan-matrix-feature-mobile-email-reply = گمنام دے طور تے ای میلاں دا جواب ݙیوو
+plan-matrix-feature-mobile-phone-mask = آپݨے اصلی فون نمبر دی حفاظت کرو
+plan-matrix-feature-mobile-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> تے رسائی
+highlighted-features-section-unlimited-masks-headline = بے انت ای میل ماسک تخلیق کرو
+highlighted-features-section-masks-on-the-go-headline = گو تے ٹھک پک ماسک تخلیق کرو
+highlighted-features-section-replying-headline = گمنام دے طور تے ای میلاں تے عبارتاں دا جواب ݙیوو
+highlighted-features-section-block-promotions-headline = مشہوری ای میلاں بلاک کرو
+highlighted-features-section-block-promotions-body = 
+    { -brand-name-relay-premium } دے نال، تساں پروموشنل ای میلز کوں اپݨے ان باکس تائیں پُڄݨ کنوں روک سڳدے ہو 
+    جے تائیں رسیداں یا شپنگ دیاں معلومات جیہاں ای میل وصول تھیندیاں ہن۔
+highlighted-features-section-remove-trackers-headline = سارے ای میل ٹریکر ہٹاؤ
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } عام ای میل ٹریکراں کوں اڳوں بھیجی ڳئی ساریاں ای میلاں وچوں مٹا سڳدا ہے، 
+    تہاکوں مشہوری کرݨ آلے لوکاں تے ٹریکراں کنوں لکاوݨ سانگے۔

@@ -52,3 +52,11 @@ onboarding-premium-reply-description-2 = Válaszolnia kell a maszkra küldött l
 multi-part-onboarding-premium-reply-description = Válaszolhat az e-mailekre anélkül, hogy megadná a valódi címét
 
 multi-part-onboarding-step-counter = { $step }. / { $max } lépés
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Korlátlan számú e-mail-maszk
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Fokozza adatvédelmét és biztonságát egy egyedi maszkkal minden webhelynél
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Azonnal készítsen maszkokat útközben
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Szerezzen egyedi { -brand-name-relay } e-mail-domaint az azonnali, könnyen megjegyezhető maszkok létrehozásához
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Egyéni postaláda-vezérlők
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Szabályozza, hogy milyen típusú e-mailek legyenek továbbítva a postaládájába
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Névtelen válaszok
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Válaszoljon az átirányított e-mailekre anélkül, hogy megosztaná valódi e-mail-címét

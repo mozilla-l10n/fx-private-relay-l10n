@@ -52,3 +52,11 @@ onboarding-premium-reply-description-2 = Potrebujete odpovedať na e‑maily odo
 multi-part-onboarding-premium-reply-description = Odpovedajte na e‑maily bez uvedenia svojej skutočnej adresy
 
 multi-part-onboarding-step-counter = Krok { $step } z { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neobmedzený počet e‑mailových masiek
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvýšte svoje súkromie a bezpečnosť pomocou jedinečnej masky pre každú stránku
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváranie masiek nech ste kdekoľvek
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Získajte jedinečnú e‑mailovú doménu { -brand-name-relay } na okamžité vytvorenie vlastnej ľahko zapamätateľnej masky
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavenia pre schránku doručenej pošty
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e‑mailov, ktoré sa preposielajú do vašej doručenej pošty
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymné odpovede
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovedajte na preposlané e‑maily bez zdieľania svojej skutočnej e‑mailovej adresy

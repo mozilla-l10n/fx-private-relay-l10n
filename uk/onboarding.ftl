@@ -54,3 +54,11 @@ multi-part-onboarding-premium-reply-description = Відповідайте на 
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Крок { $step } із { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Необмежена кількість масок електронної пошти
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Вдоскональте свою приватність і безпеку за допомогою унікальних масок для кожного вебсайту
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Миттєво створюйте маски
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Отримайте унікальний домен електронної пошти { -brand-name-relay }, щоб миттєво створювати маски, які легко запам'ятати
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Керування власною поштовою скринькою
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Керуйте типом електронних листів, які пересилаються на вашу поштову скриньку
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонімні відповіді
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Відповідайте на переслані листи, не розкриваючи свою справжню адресу електронної пошти

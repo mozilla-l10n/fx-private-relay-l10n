@@ -179,3 +179,41 @@ waitlist-subscribe-success = Ви в списку! Щойно { -brand-name-fire
 waitlist-subscribe-error-connection = Під час додавання вас до списку очікування сталася помилка. Перевірте з’єднання, а потім повторіть спробу.
 waitlist-subscribe-error-unknown = Під час додавання вас до списку очікування сталася помилка. Повторіть спробу.
 
+plan-matrix-feature-email-masks = Маски електронної пошти для захисту вашої справжньої електронної адреси
+plan-matrix-feature-browser-extension = Розширення браузера для користування { -brand-name-relay } на будь-якому сайті
+plan-matrix-feature-email-tracker-removal = Вилучайте елементи стеження електронної пошти
+plan-matrix-feature-promo-email-blocking = Блокуйте промоційні листи
+plan-matrix-feature-email-subdomain = { -brand-name-relay } домен електронної пошти для створення масок на ходу
+plan-matrix-feature-email-reply = Відповідайте на електронні листи анонімно
+plan-matrix-feature-phone-mask = Маскуйте номер телефону для захисту вашого справжнього номера телефону
+plan-matrix-feature-vpn = Захист { -brand-name-vpn } від <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Необмежена кількість масок електронної пошти
+plan-matrix-feature-mobile-email-masks = Маски електронної пошти
+plan-matrix-feature-mobile-browser-extension = Розширення для браузера
+plan-matrix-feature-mobile-email-tracker-removal = Вилучайте елементи стеження електронної пошти
+plan-matrix-feature-mobile-promo-email-blocking = Блокуйте промоційні листи
+plan-matrix-feature-mobile-email-subdomain = Унікальний домен електронної пошти { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Відповідайте на електронні листи анонімно
+plan-matrix-feature-mobile-phone-mask = Захистіть свій справжній номер телефону
+plan-matrix-feature-mobile-vpn = Доступ до <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+highlighted-features-section-unlimited-masks-headline = Створюйте необмежену кількість масок адрес електронної пошти
+highlighted-features-section-unlimited-masks-body = 
+    Будь-хто отримує { $mask_limit } масок електронної пошти безплатно.
+    Але за допомогою { -brand-name-relay-premium } ви можете згенерувати стільки масок, скільки потрібно, щоб захистити свою скриньку
+    вхідних повідомлень від спамерів, хакерів і елементів онлайн-стеження.
+highlighted-features-section-masks-on-the-go-headline = Миттєво створюйте маски на ходу
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } надає вам унікальний домен електронної пошти { -brand-name-relay }, щоб ви могли миттєво
+    створювати нові маски, де б ви не були. Просто додайте будь-яке слово чи фразу перед символом @. В ресторані? Використовуйте
+    restaurant@yourdomain.{ $mozmail }.  На шопінгу? Спробуйте shop@yourdomain.{ $mozmail }.
+highlighted-features-section-replying-headline = Відповідайте на електронні та текстові повідомлення анонімно
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } дає змогу відповідати на електронні листи з вашого замаскованого облікового запису електронної
+    пошти, тому відправники ніколи не дізнаються вашу справжню адресу електронної пошти. Завдяки маскуванню номера телефону
+    ви можете відповідати на текстові повідомлення з вашого замаскованого номера телефону, щоб захистити ваш справжній номер.
+highlighted-features-section-block-promotions-headline = Блокуйте промоційні листи
+highlighted-features-section-block-promotions-body = 
+    За допомогою { -brand-name-relay-premium } ви можете блокувати надходження промоційних листів до вашої теки «Вхідні», 
+    водночас отримуючи електронні листи, як-от квитанції чи інформацію про доставлення.
+highlighted-features-section-remove-trackers-headline = Вилучайте елементи стеження електронної пошти
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } може вилучати поширені елементи стеження в будь-якій електронній пошті, допомагаючи вам залишатися непоміченим для елементів стеження та рекламодавців.

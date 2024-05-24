@@ -23,3 +23,5 @@ multi-part-onboarding-continue = داۋاملاشتۇر
 
 multi-part-onboarding-reply-headline = ئېلخەتلىرىڭىزگە جاۋاب قايتۇرۇڭ
 
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = چەكسىز ئېلخەت نىقابى
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = نامسىز جاۋاب

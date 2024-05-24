@@ -54,3 +54,11 @@ multi-part-onboarding-premium-reply-description = Atebwch e-byst heb ddatgelu ei
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Cam { $step } o { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = E-byst arallenwau e-bost diddiwedd
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Gwella'ch preifatrwydd a'ch diogelwch gydag arallenw unigryw ar gyfer pob gwefan
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creu masgiau ar unwaith, lle bynag rydych chi
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Cael parth e-bost { -brand-name-relay } unigryw ar gyfer creu masgiau ar unwaith, hawdd eu cofio
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Rheolaethau blwch derbyn cyfaddasedig
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Rheolwch y math o e-byst sy'n cael eu hanfon ymlaen i'ch blwch derbyn
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Atebion dienw
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Atebwch negeseuon e-bost a anfonwyd ymlaen heb rannu eich cyfeiriad e-bost go iawn

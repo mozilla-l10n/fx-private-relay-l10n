@@ -176,3 +176,35 @@ waitlist-subscribe-success = Vous êtes sur la liste ! Une fois que { -brand-na
 waitlist-subscribe-error-connection = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez vérifier votre connexion, puis réessayer.
 waitlist-subscribe-error-unknown = Une erreur s’est produite lors de votre ajout à la liste d’attente. Veuillez réessayer.
 
+plan-matrix-feature-email-masks = Alias de messagerie pour protéger votre véritable adresse e-mail
+plan-matrix-feature-browser-extension = Extension de navigateur pour utiliser { -brand-name-relay } sur n’importe quel site
+plan-matrix-feature-email-tracker-removal = Supprimer les traqueurs des e-mails
+plan-matrix-feature-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-feature-email-subdomain = Domaine de messagerie { -brand-name-relay } pour créer des alias à la volée
+plan-matrix-feature-email-reply = Répondre aux e-mails de manière anonyme
+plan-matrix-feature-phone-mask = Alias de numéro de téléphone pour protéger votre véritable numéro
+plan-matrix-feature-vpn = Protection { -brand-name-vpn } avec <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Nombre illimité d’alias de messagerie
+plan-matrix-feature-mobile-email-masks = Alias de messagerie
+plan-matrix-feature-mobile-browser-extension = Extension de navigateur
+plan-matrix-feature-mobile-email-tracker-removal = Supprimer les traqueurs des e-mails
+plan-matrix-feature-mobile-promo-email-blocking = Bloquer les e-mails promotionnels
+plan-matrix-feature-mobile-email-subdomain = Domaine de messagerie unique { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Répondre aux e-mails de manière anonyme
+plan-matrix-feature-mobile-phone-mask = Protéger votre véritable numéro de téléphone
+plan-matrix-feature-mobile-vpn = Accès à <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+highlighted-features-section-unlimited-masks-headline = Créez un nombre illimité d’alias de messagerie
+highlighted-features-section-unlimited-masks-body = 
+    Tout le monde dispose de { $mask_limit } alias de messagerie gratuits.
+    Mais avec { -brand-name-relay-premium }, vous pouvez générer autant d’alias que nécessaire pour protéger votre boîte de réception contre les spammeurs, les pirates et les traqueurs en ligne.
+highlighted-features-section-masks-on-the-go-headline = Créez instantanément des alias lors de vos déplacements
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } vous propose un domaine de messagerie { -brand-name-relay } unique pour que vous puissiez instantanément
+    créer de nouveaux alias où que vous soyez. Ajoutez simplement n’importe quel mot ou phrase avant le symbole @. Vous allez au restaurant ? Utilisez restaurant@votredomaine.{ $mozmail }.
+    Vous faites des achats ? Essayez magasin@votredomaine.{ $mozmail }.
+highlighted-features-section-replying-headline = Répondez aux e-mails et aux SMS de manière anonyme
+highlighted-features-section-replying-body = { -brand-name-relay-premium } vous permet de répondre aux e-mails de votre alias de messagerie, afin que les expéditeurs ne connaissent jamais votre véritable adresse e-mail. Avec les alias de numéro de téléphone, vous pouvez répondre aux SMS de votre alias de numéro de téléphone pour protéger votre véritable numéro.
+highlighted-features-section-block-promotions-headline = Blocage des e-mails promotionnels
+highlighted-features-section-block-promotions-body = Grâce à { -brand-name-relay-premium }, vous pouvez empêcher les e-mails promotionnels d’arriver dans votre boîte de réception tout recevant des messages tels que les reçus ou les avis d’expédition.
+highlighted-features-section-remove-trackers-headline = Supprimer les traqueurs des e-mails
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } peut supprimer les traqueurs courants des e-mails transférés sur votre adresse, vous aidant à rester invisible aux yeux des traqueurs et annonceurs.

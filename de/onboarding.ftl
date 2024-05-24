@@ -54,3 +54,11 @@ multi-part-onboarding-premium-reply-description = Antworten Sie auf E-Mails, ohn
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Schritt { $step } von { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Unbegrenzte E-Mail-Masken
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Verbessern Sie Ihre Privatsphäre und Sicherheit mit einer einzigartigen Maske für jede Website
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Erstellen Sie unterwegs sofort Masken
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Holen Sie sich eine einzigartige { -brand-name-relay }-E-Mail-Domain, um sofort leicht zu merkende Masken zu erstellen
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Benutzerdefinierte Posteingangssteuerung
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Steuern Sie die Art der E-Mails, die an Ihren Posteingang weitergeleitet werden
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyme Antworten
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Antworten Sie auf weitergeleitete E-Mails, ohne Ihre echte E-Mail-Adresse weiterzugeben

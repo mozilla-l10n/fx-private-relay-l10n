@@ -176,3 +176,34 @@ waitlist-subscribe-success = Você está na lista! Assim que o { -brand-name-fir
 waitlist-subscribe-error-connection = Houve um erro ao adicionar você à lista de espera. Verifique sua conexão e tente novamente.
 waitlist-subscribe-error-unknown = Houve um erro ao adicionar você à lista de espera. Tente novamente.
 
+plan-matrix-feature-email-masks = Máscaras de email para proteger seu endereço de email real
+plan-matrix-feature-browser-extension = Extensão de navegador para usar o { -brand-name-relay } em qualquer site
+plan-matrix-feature-email-tracker-removal = Remover rastreadores de email
+plan-matrix-feature-promo-email-blocking = Bloqueio de emails promocionais
+plan-matrix-feature-email-subdomain = Domínio de email do { -brand-name-relay } para criar máscaras em qualquer lugar
+plan-matrix-feature-email-reply = Responda a emails anonimamente
+plan-matrix-feature-phone-mask = Máscara de celular para proteger seu número real
+plan-matrix-feature-vpn = Proteção do { -brand-name-vpn } da <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+plan-matrix-feature-list-email-masks-unlimited = Máscaras de email ilimitadas
+plan-matrix-feature-mobile-email-masks = Máscaras de email
+plan-matrix-feature-mobile-browser-extension = Extensão de navegador
+plan-matrix-feature-mobile-email-tracker-removal = Remover rastreadores de email
+plan-matrix-feature-mobile-promo-email-blocking = Bloqueio de emails promocionais
+plan-matrix-feature-mobile-email-subdomain = Domínio exclusivo de emails do { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Responder a emails anonimamente
+plan-matrix-feature-mobile-phone-mask = Proteja seu número de celular real
+plan-matrix-feature-mobile-vpn = Acesse o <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
+highlighted-features-section-unlimited-masks-headline = Crie máscaras de email ilimitadas
+highlighted-features-section-unlimited-masks-body = 
+    Todos podem ter { $mask_limit } máscaras de email gratuitamente.
+    Mas com o { -brand-name-relay-premium }, você pode gerar quantas máscaras precisar para ajudar a proteger sua caixa de entrada de email contra spam, hackers e rastreadores online.
+highlighted-features-section-masks-on-the-go-headline = Crie máscaras instantaneamente em qualquer lugar
+highlighted-features-section-masks-on-the-go-body = 
+    O { -brand-name-relay-premium } oferece um domínio de email exclusivo do { -brand-name-relay } para que você possa criar novas máscaras instantaneamente, onde quer que esteja. Basta adicionar qualquer palavra ou frase antes do símbolo @. Em um restaurante? Use nomedorestaurante@seudominio.{ $mozmail }.
+    Fazendo compras? Experimente nomedaloja@seudominio.{ $mozmail }.
+highlighted-features-section-replying-headline = Responda a emails e mensagens de texto anonimamente
+highlighted-features-section-replying-body = O { -brand-name-relay-premium } permite responder a emails com sua conta de email mascarada, assim os remetentes nunca ficam sabendo seu endereço de email real. Com o mascaramento de celular, você pode responder a mensagens de texto com seu número de celular mascarado para proteger seu número real.
+highlighted-features-section-block-promotions-headline = Bloqueio de emails promocionais
+highlighted-features-section-block-promotions-body = Com o { -brand-name-relay-premium }, você pode bloquear o recebimento de emails promocionais, mas permitir receber emails como recibos ou informações de frete.
+highlighted-features-section-remove-trackers-headline = Remova rastreadores de email
+highlighted-features-section-remove-trackers-body = O { -brand-name-relay } pode remover rastreadores comuns de todos os emails encaminhados a você, te ajudando a ficar invisível para rastreadores e anunciantes.

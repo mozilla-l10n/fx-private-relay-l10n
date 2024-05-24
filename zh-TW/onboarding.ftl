@@ -52,3 +52,11 @@ onboarding-premium-reply-description-2 = 需要回覆寄到轉寄信箱的郵件
 multi-part-onboarding-premium-reply-description = 不用給出實際信箱，就能回覆郵件
 
 multi-part-onboarding-step-counter = 第 { $step } 步，共 { $max } 步。
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = 無限量轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = 對不同網站使用不同的轉寄信箱，加強您的隱私權與安全性
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = 隨時隨地自由建立轉寄信箱
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = 獲得獨特的 { -brand-name-relay } 電子郵件網域，讓您可即時產生易記好用的轉寄信箱
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = 自行管控收件匣
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = 自行控制要轉寄哪些電子郵件到您的收件匣
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = 匿名回覆
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = 不用透露您的實際電子郵件地址，就能回覆轉寄的郵件

@@ -54,3 +54,11 @@ multi-part-onboarding-premium-reply-description = Répondre aux e-mails sans ré
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Étape { $step } sur { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Nombre illimité d’alias de messagerie
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Renforcez votre vie privée et votre sécurité avec un alias unique pour chaque site
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Créer instantanément des alias lors de vos déplacements
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Obtenez un domaine de messagerie { -brand-name-relay } unique pour une création d’alias instantanée et facile à retenir
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Contrôles personnalisés de la boîte de réception
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Contrôlez quels types d’e-mails sont transférés dans votre boîte de réception
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Réponses anonymes
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Répondez aux e-mails transférés sans partager votre véritable adresse e-mail

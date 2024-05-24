@@ -54,3 +54,11 @@ multi-part-onboarding-premium-reply-description = Svara på e-postmeddelanden ut
 #   $step (number) - Which step the user currently is on
 #   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Steg { $step } av { $max }.
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Obegränsade e-postalias
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Förbättra din integritet och säkerhet med ett unikt alias för varje webbplats
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Skapa omedelbart alias när du är på språng
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Skaffa en unik { -brand-name-relay } e-postdomän för att omedelbart skapa ett alias som är lätt att komma ihåg
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Anpassade inkorgskontroller
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kontrollera vilken typ av e-postmeddelanden som vidarebefordras till din inkorg
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonyma svar
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Svara på vidarebefordrade e-postmeddelanden utan att dela din riktiga e-postadress

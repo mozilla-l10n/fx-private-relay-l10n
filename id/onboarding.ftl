@@ -52,3 +52,11 @@ onboarding-premium-reply-description-2 = Perlu membalas surel yang dikirim ke to
 multi-part-onboarding-premium-reply-description = Balas surel tanpa memberikan alamat asli Anda
 
 multi-part-onboarding-step-counter = Langkah { $step } dari { $max }
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Topeng surel tak terbatas
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Tingkatkan privasi dan keamanan Anda dengan topeng unik untuk setiap situs
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Buat topeng secara instan saat bepergian
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Dapatkan domain surel { -brand-name-relay } unik untuk pembuatan topeng yang instan dan mudah diingat
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Kontrol kotak masuk khusus
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kendalikan jenis surel yang diteruskan ke kotak masuk Anda
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Balasan anonim
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Balas surel yang diteruskan tanpa membagikan alamat surel asli Anda
