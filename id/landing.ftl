@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Tambahkan perlindungan { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Topeng surel untuk melindungi alamat surel asli Anda
+plan-matrix-feature-browser-extension = Ekstensi peramban untuk menggunakan { -brand-name-relay } di situs mana saja
+plan-matrix-feature-email-tracker-removal = Hapus pelacak surel
+plan-matrix-feature-promo-email-blocking = Blokir surel promosi
+plan-matrix-feature-email-subdomain = Domain surel { -brand-name-relay } untuk membuat topeng kapan saja
+plan-matrix-feature-email-reply = Balas surel secara anonim
 plan-matrix-feature-phone-mask = Topeng telepon untuk melindungi nomor telepon asli Anda
 plan-matrix-feature-vpn = Perlindungan { -brand-name-vpn } dari <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Topeng surel tak terbatas
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Topeng surel
+plan-matrix-feature-mobile-browser-extension = Ekstensi Peramban
+plan-matrix-feature-mobile-email-tracker-removal = Hapus pelacak surel
+plan-matrix-feature-mobile-promo-email-blocking = Blokir surel promosi
+plan-matrix-feature-mobile-email-subdomain = Domain email unik { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Balas surel secara anonim
+plan-matrix-feature-mobile-phone-mask = Lindungi nomor telepon asli Anda
+plan-matrix-feature-mobile-vpn = Akses ke <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Hemat { $savings }</span> dari harg
 plan-matrix-sign-up = Daftar
 plan-matrix-get-relay-cta = Dapatkan { -brand-name-relay }
 plan-matrix-join-waitlist = Gabung ke Daftar Tunggu
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Buat topeng surel tak terbatas
+highlighted-features-section-unlimited-masks-body = 
+    Semua orang mendapatkan topeng surel { $mask_limit } gratis.
+    Namun dengan { -brand-name-relay-premium }, Anda dapat membuat topeng sebanyak yang dibutuhkan untuk membantu melindungi kotak masuk surel Anda
+    dari spammer, peretas, dan pelacak daring.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Buat topeng secara instan saat bepergian
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } memberi Anda domain email unik { -brand-name-relay } sehingga Anda dapat langsung
+    buat topeng baru di mana pun Anda berada. Cukup tambahkan kata atau frasa sebelum simbol @. Di restoran? Gunakan restoran@domainanda.{ $mozmail }.
+    Belanja? Coba shop@domainanda.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Balas surel & teks secara anonim
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } memungkinkan Anda membalas surel dari
+    akun surel bertopeng, sehingga pengirim tidak akan pernah tahu alamat surel asli Anda. Dengan penyamaran ponsel, Anda dapat membalas
+    ke teks dari nomor telepon bertopeng Anda untuk melindungi nomor asli Anda.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blokir surel promosi
+highlighted-features-section-block-promotions-body = 
+    Dengan { -brand-name-relay-premium }, Anda dapat memblokir surel promosi agar tidak mencapai
+    kotak masuk, tetapi masih menerima surel seperti tanda terima atau informasi pengiriman.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Hapus pelacak surel
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } dapat menghapus pelacak surel umum dari surel yang diteruskan kepada Anda, membantu
+    Anda tetap tidak terlihat oleh pelacak dan pengiklan.
 
 ## REVIEWS SECTION
 
@@ -131,16 +184,6 @@ highlighted-features-section-title = Fitur aman dan sederhana untuk membantu mel
 highlighted-features-section-bottom-title = Lindungi identitas Anda (dan kotak masuk Anda) dengan { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Mulai
 highlighted-features-section-new-item = Baru!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

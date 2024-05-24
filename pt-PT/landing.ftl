@@ -44,6 +44,16 @@ plan-matrix-price-period-monthly = Mensal
 
 plan-matrix-join-waitlist = Junte-se à lista de espera
 
+# Item 1
+
+# Item 2
+
+# Item 3
+
+# Item 4
+
+# Item 5
+
 ## REVIEWS SECTION
 
 landing-reviews-add-ons = Extras
@@ -58,16 +68,6 @@ landing-reviews-show-previous-button = mostrar comentário anterior
 landing-review-anonymous-user = utilizador { -brand-name-firefox } { $user_id }
 
 ## HIGHLIGHTED FEATURES SECTION
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

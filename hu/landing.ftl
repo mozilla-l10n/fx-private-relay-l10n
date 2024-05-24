@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } védelem hozzáadása
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-mail-maszkok a valódi e-mail-címének védelmére
+plan-matrix-feature-browser-extension = Böngészőkiegészítő a { -brand-name-relay } használatához bármely webhelyen
+plan-matrix-feature-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-feature-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-feature-email-subdomain = { -brand-name-relay } e-mail-domain maszkok létrehozása útközben
+plan-matrix-feature-email-reply = Válasz a levelekre névtelenül
 plan-matrix-feature-phone-mask = Telefonmaszk a valódi telefonszámának védelmére
 plan-matrix-feature-vpn = { -brand-name-vpn }-védelem a következőtől: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Korlátlan számú e-mail-maszk
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-mail-maszkok
+plan-matrix-feature-mobile-browser-extension = Böngészőkiegészítő
+plan-matrix-feature-mobile-email-tracker-removal = E-mail-követők eltávolítása
+plan-matrix-feature-mobile-promo-email-blocking = Promóciós e-mailek blokkolása
+plan-matrix-feature-mobile-email-subdomain = Egyedi { -brand-name-relay } e-mail-domain
+plan-matrix-feature-mobile-email-reply = Válasz a levelekre névtelenül
+plan-matrix-feature-mobile-phone-mask = Védje valódi telefonszámát
+plan-matrix-feature-mobile-vpn = Hozzáférés a következőhöz: <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,42 @@ plan-matrix-price-vpn-discount-promo = <span>{ $savings } megtakarítás</span> 
 plan-matrix-sign-up = Regisztráció
 plan-matrix-get-relay-cta = { -brand-name-relay } beszerzése
 plan-matrix-join-waitlist = Csatlakozás a várólistához
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Korlátlan számú e-mail-maszk létrehozása
+highlighted-features-section-unlimited-masks-body = 
+    Mindenki ingyenesen kap { $mask_limit } e-mail-maszkot.
+    A { -brand-name-relay-premium } segítségével azonban annyi maszkot hozhat létre, amennyire csak szüksége van a postaládája
+    spammerektől, hackerektől és online nyomkövetőktől történő megvédéséhez.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Maszkok azonnali készítése útközben
+highlighted-features-section-masks-on-the-go-body = 
+    A { -brand-name-relay-premium } egyedi { -brand-name-relay } e-mail-domaint biztosít Önnek, így azonnal
+    létrehozhat új maszkokat, bárhol is legyen. Egyszerűen adjon hozzá bármilyen szót vagy kifejezést a @ szimbólum elé. Étteremben van? Használja az etterem@sajatdomain.{ $mozmail } címet.
+    Bevásárlás? Próbálja ki a bolt@sajatdomain.{ $mozmail } címet.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Válaszoljon a levelekre és SMS-ekre névtelenül
+highlighted-features-section-replying-body = 
+    A { -brand-name-relay-premium } lehetővé teszi, hogy válaszoljon az Ön által küldött e-mailekre
+    a maszkolt e-mail-fiókjából, így a feladók soha nem tudják meg az Ön valódi e-mail-címét. A telefonmaszkolással
+    válaszolhat a maszkolt telefonszámról érkező SMS-ekre, hogy megvédje a valódi számát.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blokkolja a promóciós leveleket
+highlighted-features-section-block-promotions-body = 
+    A { -brand-name-relay-premium } segítségével letilthatja a promóciós e-maileket, hogy ne jussanak el a postaládájába,
+    miközben továbbra is megkapja a a nyugtákat vagy a szállítási információkat tartalmazó e-maileket.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = E-mail-követők eltávolítása
+highlighted-features-section-remove-trackers-body = A { -brand-name-relay } el tudja távolítani a gyakori e-mail-követőket az Ön számára továbbított e-mailekből, így Ön láthatatlan marad a követők és a hirdetők számára.
 
 ## REVIEWS SECTION
 
@@ -131,16 +182,6 @@ highlighted-features-section-title = Biztonságos, egyszerű funkciók, amelyek 
 highlighted-features-section-bottom-title = Védje személyazonosságát (és postaládáját) a { -brand-name-firefox-relay } segítségével
 highlighted-features-section-bottom-cta = Kezdő lépések
 highlighted-features-section-new-item = Új!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

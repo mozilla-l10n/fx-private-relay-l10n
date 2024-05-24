@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = Selamat datang di { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Mari siapkan Anda untuk mendapatkan hasil maksimal dari akun { -brand-name-premium } Anda.
 multi-part-onboarding-premium-welcome-feature-headline = Dengan { -brand-name-firefox-relay-premium }, Anda mendapatkan:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Topeng surel tak terbatas
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Tingkatkan privasi dan keamanan Anda dengan topeng unik untuk setiap situs
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Buat topeng secara instan saat bepergian
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Dapatkan domain surel { -brand-name-relay } unik untuk pembuatan topeng yang instan dan mudah diingat
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Kontrol kotak masuk khusus
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Kendalikan jenis surel yang diteruskan ke kotak masuk Anda
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Balasan anonim
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Balas surel yang diteruskan tanpa membagikan alamat surel asli Anda
 multi-part-onboarding-premium-welcome-feature-cta = Siapkan { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Kini Anda dapat mengontrol apa yang masuk ke kotak masuk, satu surel sekaligus.
 

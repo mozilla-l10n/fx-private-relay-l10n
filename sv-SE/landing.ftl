@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Lägg till { -brand-name-vpn }-skydd
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = E-postalias för att skydda din riktiga e-postadress
+plan-matrix-feature-browser-extension = Webbläsartillägg för att använda { -brand-name-relay } på vilken webbplats som helst
+plan-matrix-feature-email-tracker-removal = Ta bort e-postspårare
+plan-matrix-feature-promo-email-blocking = Blockera e-postreklam
+plan-matrix-feature-email-subdomain = { -brand-name-relay } e-postdomän för att skapa alias på språng
+plan-matrix-feature-email-reply = Svara anonymt på mejl
 plan-matrix-feature-phone-mask = Telefonalias för att skydda ditt riktiga telefonnummer
 plan-matrix-feature-vpn = { -brand-name-vpn }-skydd från <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Obegränsade e-postalias
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = E-postalias
+plan-matrix-feature-mobile-browser-extension = Webbläsartillägg
+plan-matrix-feature-mobile-email-tracker-removal = Ta bort e-postspårare
+plan-matrix-feature-mobile-promo-email-blocking = Blockera e-postreklam
+plan-matrix-feature-mobile-email-subdomain = Unik { -brand-name-relay } e-postdomän
+plan-matrix-feature-mobile-email-reply = Svara anonymt på mejl
+plan-matrix-feature-mobile-phone-mask = Skydda ditt riktiga telefonnummer
+plan-matrix-feature-mobile-vpn = Tillgång till <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Spara { $savings }</span> på ordin
 plan-matrix-sign-up = Registrera dig
 plan-matrix-get-relay-cta = Hämta { -brand-name-relay }
 plan-matrix-join-waitlist = Ställ dig i väntelistan
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Skapa obegränsat antal e-postalias
+highlighted-features-section-unlimited-masks-body = 
+    Alla får { $mask_limit } e-postalias gratis.
+    Men med { -brand-name-relay-premium } kan du generera så många alias du behöver för att skydda din inkorg
+    från spammare, hackare och onlinespårare.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Skapa omedelbart alias när du är på språng
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } ger dig en unik { -brand-name-relay } e-postdomän så att du omedelbart kan
+    skapa nya alias var du än är. Lägg bara till valfritt ord eller fras före @-symbolen. Vid en restaurang? Använd restaurang@dindomän.{ $mozmail }.
+    Handla? Testa handla@dindomän.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Svara anonymt på mejl och sms
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } låter dig svara på e-postmeddelanden från ditt
+    maskerade e-postkonto, så att avsändare aldrig kommer att veta din riktiga e-postadress. Med telefonmaskering kan du svara
+    på sms från ditt maskerade telefonnummer för att skydda ditt riktiga nummer.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Blockera e-postreklam
+highlighted-features-section-block-promotions-body = 
+    Med { -brand-name-relay-premium } kan du blockera reklammeddelanden från att nå din
+    inkorg medan du fortfarande får e-postmeddelanden som kvitton eller leveransinformation.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Ta bort e-postspårare
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } kan ta bort vanliga e-postspårare från alla e-postmeddelanden som vidarebefordras till dig, vilket hjälper
+    dig att förbli osynlig för spårare och annonsörer.
 
 ## REVIEWS SECTION
 
@@ -131,16 +184,6 @@ highlighted-features-section-title = Säkra, enkla funktioner för att skydda di
 highlighted-features-section-bottom-title = Skydda din identitet (och din inkorg) med { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Kom igång
 highlighted-features-section-new-item = Nytt!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

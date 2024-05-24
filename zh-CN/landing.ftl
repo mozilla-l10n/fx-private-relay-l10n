@@ -71,11 +71,26 @@ plan-matrix-heading-plan-bundle-2 = 添加 { -brand-name-vpn } 保护
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = 可保护您的真实邮箱的马甲邮箱
+plan-matrix-feature-browser-extension = 可在所有网站上使用 { -brand-name-relay } 的扩展
+plan-matrix-feature-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-feature-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-feature-email-subdomain = 使用 { -brand-name-relay } 邮箱域名随时创建马甲
+plan-matrix-feature-email-reply = 匿名回复邮件
 plan-matrix-feature-phone-mask = 可保护您的真实号码的虚拟手机号
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保护
 plan-matrix-feature-list-email-masks-unlimited = 无限数量马甲
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = 马甲邮箱
+plan-matrix-feature-mobile-browser-extension = 浏览器扩展
+plan-matrix-feature-mobile-email-tracker-removal = 移除邮件跟踪器
+plan-matrix-feature-mobile-promo-email-blocking = 屏蔽营销邮件
+plan-matrix-feature-mobile-email-subdomain = 专属的 { -brand-name-relay } 邮箱域名
+plan-matrix-feature-mobile-email-reply = 匿名回复邮件
+plan-matrix-feature-mobile-phone-mask = 保护您的真实电话号码
+plan-matrix-feature-mobile-vpn = 访问 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -101,6 +116,41 @@ plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <s
 plan-matrix-sign-up = 注册
 plan-matrix-get-relay-cta = 获取 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入预约名单
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
+highlighted-features-section-unlimited-masks-body = 
+    所有人都可免费获得 { $mask_limit } 个马甲邮箱。
+    不过订阅 { -brand-name-relay-premium } 后，就可以根据需要生成无限量的马甲来保护您的收件箱
+    免受垃圾邮件、不法分子和网络跟踪器的侵扰。
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
+highlighted-features-section-masks-on-the-go-body = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
+
+# Item 3
+
+highlighted-features-section-replying-headline = 匿名回复邮件和短信
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } 可让您使用马甲邮箱帐号来回复邮件，
+    这样邮件的发送者就无法得知您的真实邮件地址。
+    配合虚拟手机号，您还可以回复短信而不泄露真实电话号码。
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = 屏蔽营销邮件
+highlighted-features-section-block-promotions-body = 
+    使用 { -brand-name-relay-premium } 可屏蔽营销邮件，
+    您仍能收到收据和物流信息等电子邮件。
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = 移除邮件跟踪器
+highlighted-features-section-remove-trackers-body = 
+    现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，
+    帮助您免受跟踪器和广告商窥视。
 
 ## REVIEWS SECTION
 
@@ -128,16 +178,6 @@ highlighted-features-section-title = 简单而安全的功能，保护您的身�
 highlighted-features-section-bottom-title = 使用 { -brand-name-firefox-relay } 保护您的身份信息和收件箱
 highlighted-features-section-bottom-cta = 开始使用
 highlighted-features-section-new-item = 新功能！
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

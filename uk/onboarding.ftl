@@ -7,6 +7,14 @@
 multi-part-onboarding-premium-welcome-headline = Ласкаво просимо до { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Налаштуймо все для найкращої роботи вашого облікового запису { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = З { -brand-name-firefox-relay-premium } ви отримаєте:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Необмежена кількість масок електронної пошти
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Вдоскональте свою приватність і безпеку за допомогою унікальних масок для кожного вебсайту
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Миттєво створюйте маски
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Отримайте унікальний домен електронної пошти { -brand-name-relay }, щоб миттєво створювати маски, які легко запам'ятати
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Керування власною поштовою скринькою
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Керуйте типом електронних листів, які пересилаються на вашу поштову скриньку
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонімні відповіді
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Відповідайте на переслані листи, не розкриваючи свою справжню адресу електронної пошти
 multi-part-onboarding-premium-welcome-feature-cta = Налаштувати { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Тепер ви можете контролювати, що саме потрапляє у вашу поштову скриньку, по одному листу за раз.
 

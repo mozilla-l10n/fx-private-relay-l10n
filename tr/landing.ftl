@@ -178,3 +178,4 @@ waitlist-privacy-policy-use-bundle = Bilgileriniz yalnızca sizi { -brand-name-r
 waitlist-subscribe-success = Listeye eklendiniz! { -brand-name-firefox-relay-premium } bölgenize açılınca sizi e-postayla bilgilendireceğiz.
 waitlist-subscribe-error-connection = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen bağlantınızı kontrol edip yeniden deneyin.
 waitlist-subscribe-error-unknown = Sizi bekleme listesine eklerken bir hata oluştu. Lütfen yeniden deneyin.
+

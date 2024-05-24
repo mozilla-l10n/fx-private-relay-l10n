@@ -74,11 +74,26 @@ plan-matrix-heading-plan-bundle-2 = Añadir la protección { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de correo electrónico para proteger tu dirección de correo electrónico real
+plan-matrix-feature-browser-extension = Extensión de navegador para usar { -brand-name-relay } en cualquier sitio
+plan-matrix-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-feature-email-subdomain = Dominio de correo electrónico { -brand-name-relay }  para crear máscaras sobre la marcha
+plan-matrix-feature-email-reply = Responder correos electrónicos de forma anónima
 plan-matrix-feature-phone-mask = Enmascaramiento de números de teléfono para proteger tu número real
 plan-matrix-feature-vpn = Protección { -brand-name-vpn } con <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 plan-matrix-feature-list-email-masks-unlimited = Máscaras de correo electrónico ilimitadas
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Máscaras de correo electrónico
+plan-matrix-feature-mobile-browser-extension = Extensión del navegador
+plan-matrix-feature-mobile-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos promocionales
+plan-matrix-feature-mobile-email-subdomain = Dominio de correo electrónico único { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Responder correos electrónicos de forma anónima
+plan-matrix-feature-mobile-phone-mask = Protege tu número de teléfono real
+plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -104,6 +119,44 @@ plan-matrix-price-vpn-discount-promo = <span>Ahorra { $savings }</span> en el pr
 plan-matrix-sign-up = Registrarse
 plan-matrix-get-relay-cta = Obtén { -brand-name-relay }
 plan-matrix-join-waitlist = Únete a la lista de espera
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Crea máscaras de correo electrónico ilimitadas
+highlighted-features-section-unlimited-masks-body = 
+    Todo el mundo recibe { $mask_limit } máscaras de correo electrónico de forma gratuita.
+    Pero con { -brand-name-relay-premium }, puedes generar tantas máscaras como necesites para ayudar a proteger tu bandeja de entrada
+    de spammers, piratas informáticos y rastreadores en línea.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Crea máscaras instantáneamente
+highlighted-features-section-masks-on-the-go-body = 
+    { -brand-name-relay-premium } te ofrece un dominio de correo electrónico exclusivo de { -brand-name-relay } para que puedas
+    crear nuevas máscaras dondequiera que estés. Simplemente añade cualquier palabra o frase antes del símbolo @. ¿En un restaurante? Usa restaurante@tudominio.{ $mozmail }.
+    ¿De compras? Prueba shop@tudominio.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
+highlighted-features-section-replying-body = 
+    { -brand-name-relay-premium } te permite responder correos electrónicos de tu
+    cuenta de correo electrónico enmascarada, por lo que los remitentes nunca sabrán tu dirección de correo electrónico real. Con el enmascaramiento del teléfono, puedes responder
+    a mensajes de texto desde tu número de teléfono enmascarado para proteger tu número real.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Bloquear correos promocionales
+highlighted-features-section-block-promotions-body = 
+    Con { -brand-name-relay-premium }, puedes bloquear los correos electrónicos promocionales para que no lleguen a tu
+    bandeja de entrada mientras sigues recibiendo otros correos electrónicos como recibos o seguimiento de compras.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
+highlighted-features-section-remove-trackers-body = 
+    { -brand-name-relay } puede eliminar rastreadores comunes del correo electrónico de los mensajes de correo electrónico que se te reenvían, ayudando 
+    a mantenerte invisible para rastreadores y anunciantes.
 
 ## REVIEWS SECTION
 
@@ -131,16 +184,6 @@ highlighted-features-section-title = Funciones seguras y simples para ayudar a p
 highlighted-features-section-bottom-title = Protege tu identidad (y tu bandeja de entrada) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenzar
 highlighted-features-section-new-item = ¡Nuevo!
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

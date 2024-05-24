@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = { -brand-name-relay-premium } وچ ست بسم اللہ
 multi-part-onboarding-premium-welcome-subheadline-2 = آؤ تُہاکوں تُہاݙے { -brand-name-premium } اکاؤنٹ کنوں وَدھ کنوں وَدھ فَیدہ چاوݨ کِیتے ترتیب ݙین٘دے ہِسے۔
 multi-part-onboarding-premium-welcome-feature-headline = { -brand-name-firefox-relay-premium } نال، تہاکوں ملسی:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = بے انت ای میل ماسک
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = ہر سائٹ کِیتے ہِک منفرد ماسک دے نال آپݨی پرائیویسی اَتے سیکیورٹی کوں چَنڳا بݨاؤ
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = گو تے فوری طور تے ماسک بݨاؤ
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = جَلتی نال، یاد رکّھݨ وِچ سَوکھا ماسک بݨاوݨ کِیتے ہِک منفرد { -brand-name-relay } ای میل ڈومین حاصل کرو
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = لوڑ مطابق اِن باکس کنٹرولز
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = ای میلاں دی اِیں ونکی کوں کنٹرول کرو جہڑی تُہاݙے اِن باکس وِچ گَھلّی وین٘دی ہِے
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = گمنام جواب
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = آپݨے اصلی ای میل پتے دا اشتراک کِیتے مُتُّوں فارورڈ کِیتے ڳئے ای میلاں دا جواب ݙیؤ
 multi-part-onboarding-premium-welcome-feature-cta = { -brand-name-relay-premium } قائم کرو
 multi-part-onboarding-premium-welcome-subheadline = جو کجھ تہاݙے انباکس وچ آندے تساں اوں کوں کنٹرول کر سڳدے ہو، ہک ویلے صرف ہک ای میل۔
 

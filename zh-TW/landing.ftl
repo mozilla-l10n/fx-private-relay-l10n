@@ -71,11 +71,26 @@ plan-matrix-heading-plan-bundle-2 = 加上 { -brand-name-vpn } 保護
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = 透過電子郵件轉寄信箱來保護您的實際信箱
+plan-matrix-feature-browser-extension = 讓您在任何網站都能直接使用 { -brand-name-relay } 的瀏覽器擴充套件
+plan-matrix-feature-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-feature-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-email-subdomain = 可隨時產生轉寄信箱的 { -brand-name-relay } 郵件網域
+plan-matrix-feature-email-reply = 匿名回覆電子郵件
 plan-matrix-feature-phone-mask = 保護您實際手機門號的轉接號碼
 plan-matrix-feature-vpn = <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo> 提供的 { -brand-name-vpn } 保護
 plan-matrix-feature-list-email-masks-unlimited = 無限量轉寄信箱
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = 轉寄信箱
+plan-matrix-feature-mobile-browser-extension = 瀏覽器擴充套件
+plan-matrix-feature-mobile-email-tracker-removal = 移除郵件追蹤器
+plan-matrix-feature-mobile-promo-email-blocking = 封鎖行銷郵件
+plan-matrix-feature-mobile-email-subdomain = { -brand-name-relay } 專屬郵件網域
+plan-matrix-feature-mobile-email-reply = 匿名回覆電子郵件
+plan-matrix-feature-mobile-phone-mask = 保護您的實際電話號碼
+plan-matrix-feature-mobile-vpn = 使用 <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -101,6 +116,31 @@ plan-matrix-price-vpn-discount-promo = 以 { -brand-name-vpn } 原價再<span>�
 plan-matrix-sign-up = 註冊
 plan-matrix-get-relay-cta = 下載 { -brand-name-relay }
 plan-matrix-join-waitlist = 加入排隊名單
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = 建立無限量的轉寄信箱
+highlighted-features-section-unlimited-masks-body = 人人都能免費獲得 { $mask_limit } 組轉寄信箱。但透過 { -brand-name-relay-premium }，您可以隨意產生無限組轉寄信箱來保護您的收件匣，不受垃圾郵件發送者、駭客、線上追蹤器侵害。
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = 隨時隨地自由建立轉寄信箱
+highlighted-features-section-masks-on-the-go-body = { -brand-name-relay-premium } 讓您可以設定專屬 { -brand-name-relay } 郵件網域，讓您能隨時隨地建立轉寄信箱。只要在 @ 符號前加入任何文字或詞彙。想預約餐廳？可以使用 restaurant@yourdomain.{ $mozmail }。買東西？可以使用 shop@yourdomain.{ $mozmail }。
+
+# Item 3
+
+highlighted-features-section-replying-headline = 匿名回覆電子郵件與簡訊
+highlighted-features-section-replying-body = { -brand-name-relay-premium } 讓您可以直接從轉寄信箱回信，寄件者永遠無法知道您的實際信箱。您也可以直接回覆透過虛擬手機號碼轉接功能接收到的簡訊，以保護您的實際號碼。
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = 封鎖行銷郵件
+highlighted-features-section-block-promotions-body = 透過 { -brand-name-relay-premium }，您可以封鎖行銷郵件，同時確保收據、訂單出貨通知等重要郵件能夠直達信件匣。
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = 移除郵件追蹤器
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } 可移除轉寄郵件當中常見的追蹤器，幫助您不被追蹤器與廣告商追蹤。
 
 ## REVIEWS SECTION
 
@@ -128,16 +168,6 @@ highlighted-features-section-title = 簡單又安全就能幫助保護您身分�
 highlighted-features-section-bottom-title = 使用 { -brand-name-firefox-relay } 保護您的個人身分資料（與信件匣）
 highlighted-features-section-bottom-cta = 開始使用
 highlighted-features-section-new-item = 新功能！
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 

@@ -32,16 +32,6 @@ plan-matrix-price-free = 無料
 
 # Plan CTAs
 
-## REVIEWS SECTION
-
-landing-reviews-add-ons = アドオン
-landing-reviews-logo-title = { -brand-name-firefox-browser }
-# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
-# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
-landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
-
-## HIGHLIGHTED FEATURES SECTION
-
 # Item 1
 
 # Item 2
@@ -51,6 +41,16 @@ landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
 # Item 4
 
 # Item 5
+
+## REVIEWS SECTION
+
+landing-reviews-add-ons = アドオン
+landing-reviews-logo-title = { -brand-name-firefox-browser }
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = / 5 ({ $review_count } 件のレビュー)
+
+## HIGHLIGHTED FEATURES SECTION
 
 ## FAQ SECTION
 

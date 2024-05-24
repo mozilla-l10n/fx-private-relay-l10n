@@ -31,6 +31,8 @@ hero-section-cta = باشلاڭ
 # Feature Breakdowns
 
 
+# Feature Breakdowns Mobile (Shorter than desktop strings)
+
 # Plan Details
 
 plan-matrix-heading-price = باھاسى
@@ -49,6 +51,16 @@ plan-matrix-price-period-monthly = ئايلىق
 
 plan-matrix-sign-up = تىزىملىتىڭ
 plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
+
+# Item 1
+
+# Item 2
+
+# Item 3
+
+# Item 4
+
+# Item 5
 
 ## REVIEWS SECTION
 
@@ -71,3 +83,4 @@ highlighted-features-section-new-item = يېڭى!
 
 waitlist-control-required = زۆرۈر
 waitlist-submit-label-2 = كۈتۈش تىزىمىغا قوشۇلۇڭ
+

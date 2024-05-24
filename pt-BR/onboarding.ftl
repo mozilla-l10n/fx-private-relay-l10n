@@ -7,6 +7,14 @@
 multi-part-onboarding-premium-welcome-headline = Boas-vindas ao { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Vamos te ajudar a aproveitar ao máximo sua conta { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Com o { -brand-name-firefox-relay-premium }, você tem:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Máscaras de email ilimitadas
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Melhore sua privacidade e segurança com uma máscara exclusiva para cada site
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Criar máscaras imediatamente em qualquer lugar
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Ter um domínio de emails do { -brand-name-relay } exclusivo para criar máscaras imediatas e fáceis de lembrar
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Controles personalizados da caixa de entrada
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Controle do tipo de emails que são encaminhados para sua caixa de entrada
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Respostas anônimas
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Responda a emails encaminhados sem compartilhar seu endereço de email real
 multi-part-onboarding-premium-welcome-feature-cta = Configurar o { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Agora você pode controlar o que chega em sua caixa de entrada, um email por vez.
 

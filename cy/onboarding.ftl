@@ -7,6 +7,14 @@
 multi-part-onboarding-premium-welcome-headline = Croeso i { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Gadewch i ni eich gosod er mwyn i chi gael y gorau o'ch cyfrif { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = Gyda { -brand-name-firefox-relay-premium }, cewch:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = E-byst arallenwau e-bost diddiwedd
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Gwella'ch preifatrwydd a'ch diogelwch gydag arallenw unigryw ar gyfer pob gwefan
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Creu masgiau ar unwaith, lle bynag rydych chi
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Cael parth e-bost { -brand-name-relay } unigryw ar gyfer creu masgiau ar unwaith, hawdd eu cofio
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Rheolaethau blwch derbyn cyfaddasedig
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Rheolwch y math o e-byst sy'n cael eu hanfon ymlaen i'ch blwch derbyn
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Atebion dienw
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Atebwch negeseuon e-bost a anfonwyd ymlaen heb rannu eich cyfeiriad e-bost go iawn
 multi-part-onboarding-premium-welcome-feature-cta = Gosod { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Nawr gallwch reoli'r hyn sy'n taro'ch blwch derbyn, un e-bost ar y tro.
 

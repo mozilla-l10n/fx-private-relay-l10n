@@ -8,6 +8,14 @@
 multi-part-onboarding-premium-welcome-headline = Víta vás { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Poďme službu nastaviť tak, aby ste zo svojho účtu { -brand-name-premium } vyťažili maximum.
 multi-part-onboarding-premium-welcome-feature-headline = So službou { -brand-name-firefox-relay-premium } získavate:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Neobmedzený počet e‑mailových masiek
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Zvýšte svoje súkromie a bezpečnosť pomocou jedinečnej masky pre každú stránku
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Okamžité vytváranie masiek nech ste kdekoľvek
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Získajte jedinečnú e‑mailovú doménu { -brand-name-relay } na okamžité vytvorenie vlastnej ľahko zapamätateľnej masky
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Nastavenia pre schránku doručenej pošty
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Nastavte si typ e‑mailov, ktoré sa preposielajú do vašej doručenej pošty
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Anonymné odpovede
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Odpovedajte na preposlané e‑maily bez zdieľania svojej skutočnej e‑mailovej adresy
 multi-part-onboarding-premium-welcome-feature-cta = Nastaviť { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Teraz môžete mať kontrolu nad tým, čo sa dostane do vašej e‑mailovej schránky, jeden e‑mail po druhom.
 

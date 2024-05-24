@@ -50,9 +50,23 @@ plan-matrix-heading-plan-bundle-2 = Agregar protección con { -brand-name-vpn }
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Máscaras de correo electrónico para proteger tu dirección de correo electrónico real.
+plan-matrix-feature-browser-extension = Extensión de navegador para usar { -brand-name-relay } en cualquier sitio
+plan-matrix-feature-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-email-reply = Responder correos electrónicos de forma anónima
 plan-matrix-feature-list-email-masks-unlimited = Correos enmascarados ilimitados
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Máscaras de correo electrónico
+plan-matrix-feature-mobile-browser-extension = Extensión del navegador
+plan-matrix-feature-mobile-email-tracker-removal = Eliminar rastreadores de correo electrónico
+plan-matrix-feature-mobile-promo-email-blocking = Bloquear correos electrónicos promocionales
+plan-matrix-feature-mobile-email-subdomain = Dominio de correo electrónico único { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Responder correos electrónicos anónimamente
+plan-matrix-feature-mobile-phone-mask = Protege tu número de teléfono verdadero
+plan-matrix-feature-mobile-vpn = Acceso a <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -79,6 +93,26 @@ plan-matrix-sign-up = Registrarse
 plan-matrix-get-relay-cta = Obtener { -brand-name-relay }
 plan-matrix-join-waitlist = Únete a la lista de espera
 
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Crear correos enmascarados ilimitados
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Crea máscaras al instante sobre la marcha
+
+# Item 3
+
+highlighted-features-section-replying-headline = Responder a correos electrónicos y mensajes de texto de forma anónima
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Bloquear correos electrónicos promocionales
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Eliminar rastreadores de correo electrónico
+
 ## REVIEWS SECTION
 
 landing-reviews-add-ons = Complementos
@@ -104,16 +138,6 @@ landing-review-user-four-review-list-4 = { -brand-name-firefox-relay } funciona 
 highlighted-features-section-title = Funciones seguras y simples para ayudar a proteger tu identidad
 highlighted-features-section-bottom-title = Protege tu identidad (y tu bandeja de entrada) con { -brand-name-firefox-relay }
 highlighted-features-section-bottom-cta = Comenzar
-
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
 
 ## FAQ SECTION
 
