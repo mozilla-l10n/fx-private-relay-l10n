@@ -64,8 +64,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } защищает вашу
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = Возможности
 plan-matrix-heading-plan-free = Ограниченная защита электронной почты
 plan-matrix-heading-plan-premium = Защита электронной почты
@@ -74,11 +72,26 @@ plan-matrix-heading-plan-bundle-2 = Добавить защиту { -brand-name-
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = Псевдонимы электронной почты для защиты вашего реального адреса электронной почты
+plan-matrix-feature-browser-extension = Расширение браузера для использования { -brand-name-relay } на любом сайте
+plan-matrix-feature-email-tracker-removal = Удаляйте трекеры из электронных писем
+plan-matrix-feature-promo-email-blocking = Блокируйте рекламные электронные письма
+plan-matrix-feature-email-subdomain = Домен электронной почты { -brand-name-relay } для создания псевдонимов на лету
+plan-matrix-feature-email-reply = Отвечайте на письма анонимно
 plan-matrix-feature-phone-mask = Маскирование номера телефона для защиты вашего настоящего номера телефона
 plan-matrix-feature-vpn = { -brand-name-vpn } защита от <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>.
 plan-matrix-feature-list-email-masks-unlimited = Неограниченное число псевдонимов электронной почты
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
+
+plan-matrix-feature-mobile-email-masks = Псевдонимы электронной почты
+plan-matrix-feature-mobile-browser-extension = Расширение для браузера
+plan-matrix-feature-mobile-email-tracker-removal = Удаление трекеров из электронных писем
+plan-matrix-feature-mobile-promo-email-blocking = Блокировка рекламных писем
+plan-matrix-feature-mobile-email-subdomain = Уникальный домен электронной почты { -brand-name-relay }
+plan-matrix-feature-mobile-email-reply = Отвечайте на письма анонимно
+plan-matrix-feature-mobile-phone-mask = Защитите свой реальный номер телефона
+plan-matrix-feature-mobile-vpn = Доступ к <vpn-logo>{ -brand-name-mozilla-vpn }</vpn-logo>
 
 # Plan Details
 
@@ -97,6 +110,8 @@ plan-matrix-price-period-yearly = Ежегодно
 plan-matrix-price-period-monthly = Ежемесячно
 plan-matrix-price-period-yearly-footnote-1 = Ежегодная оплата
 plan-matrix-price-period-monthly-footnote-1 = Ежемесячная оплата
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = <span>Сэкономьте { $savings }</span> от обычной цены за { -brand-name-vpn }
 
 # Plan CTAs
@@ -104,6 +119,43 @@ plan-matrix-price-vpn-discount-promo = <span>Сэкономьте { $savings }</
 plan-matrix-sign-up = Зарегистрироваться
 plan-matrix-get-relay-cta = Получить { -brand-name-relay }
 plan-matrix-join-waitlist = Присоединиться к списку ожидания
+
+# Item 1
+
+highlighted-features-section-unlimited-masks-headline = Создавайте неограниченное число псевдонимов электронной почты
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body =
+    Все получают { $mask_limit } псевдонимов электронной почты бесплатно.
+    Но с помощью { -brand-name-relay-premium } вы можете создать столько псевдонимов, сколько вам нужно, чтобы защитить свой почтовый ящик
+    от спамеров, хакеров и онлайн-трекеров.
+
+# Item 2
+
+highlighted-features-section-masks-on-the-go-headline = Мгновенно создавайте псевдонимы на лету
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
+highlighted-features-section-masks-on-the-go-body =
+    { -brand-name-relay-premium } даёт вам уникальный домен электронной почты { -brand-name-relay }, чтобы вы могли мгновенно
+    создавать новые псевдонимы, где бы вы ни находились. Просто добавьте любое слово или фразу перед символом @. В ресторане? Используйте restaurant@yourdomain.{ $mozmail }.
+    Покупка товаров? Попробуйте shop@yourdomain.{ $mozmail }.
+
+# Item 3
+
+highlighted-features-section-replying-headline = Отвечайте на электронные письма и тексты анонимно
+highlighted-features-section-replying-body =
+    { -brand-name-relay-premium } позволяет вам отвечать на электронные письма с вашей замаскированной учётной записи электронной почты, поэтому отправители никогда не узнают ваш настоящий адрес электронной почты. С маскировкой телефона вы можете ответить
+    на текстовые сообщения с вашего замаскированного номера телефона, чтобы защитить ваш настоящий номер.
+
+# Item 4
+
+highlighted-features-section-block-promotions-headline = Блокировка рекламных писем
+highlighted-features-section-block-promotions-body = С { -brand-name-relay-premium } вы можете блокировать рекламные письма, при этом получая такие электронные письма, как квитанции и информацию о доставке.
+
+# Item 5
+
+highlighted-features-section-remove-trackers-headline = Удаление трекеров из электронных писем
+highlighted-features-section-remove-trackers-body = { -brand-name-relay } может удалять распространённые трекеры из всех пересылаемых электронных писем, помогая вам оставаться невидимыми для трекеров и рекламодателей.
 
 ## REVIEWS SECTION
 
@@ -132,16 +184,6 @@ highlighted-features-section-bottom-title = Защитите свою лично
 highlighted-features-section-bottom-cta = Начало работы
 highlighted-features-section-new-item = Новинка!
 
-# Item 1
-
-# Item 2
-
-# Item 3
-
-# Item 4
-
-# Item 5
-
 ## FAQ SECTION
 
 landing-faq-headline = Самые популярные вопросы о { -brand-name-firefox-relay }
@@ -150,8 +192,6 @@ landing-faq-cta = Посмотрите другие ЧЗВ о { -brand-name-fire
 ## Premium promo page
 
 premium-promo-hero-headline = Упростите защиту своего почтового ящика с { -brand-name-firefox-relay-premium }
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = С { -brand-name-firefox-relay-premium } вы получаете неограниченное число настраиваемых псевдонимов электронной почты, которые пересылают только те электронные письма, которые вы хотите, на ваш настоящий адрес электронной почты.
 premium-promo-hero-cta = Перейти сейчас
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } доступен в Австрии, Болгарии, Бельгии, Канаде, Хорватии, Кипре, Чехии, Дании, Эстонии, Финляндии, Франции, Германии, Греции, Венгрии, Ирландии, Италии, Латвии, Литве, Люксембурге, Малайзии, Мальте, Нидерландах, Новой Зеландии, Польше, Португалии, Румынии, Сингапуре, Словакии, Словении, Испании, Швеции, Швейцарии, Великобритании и США.
@@ -178,4 +218,3 @@ waitlist-privacy-policy-use-bundle = Ваша информация будет и
 waitlist-subscribe-success = Вы в списке! Как только { -brand-name-firefox-relay-premium } станет доступным для вашего региона, ми уведомим вас об этом по электронной почте.
 waitlist-subscribe-error-connection = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, проверьте своё соединение и попробуйте ещё раз.
 waitlist-subscribe-error-unknown = При добавлении вас в список ожидания произошла ошибка. Пожалуйста, попробуйте ещё раз.
-

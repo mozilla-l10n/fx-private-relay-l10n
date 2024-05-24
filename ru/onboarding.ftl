@@ -2,11 +2,20 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Step 1 Premium Onboarding
 
 multi-part-onboarding-premium-welcome-headline = Добро пожаловать в { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline-2 = Давайте настроим всё так, чтобы вы могли максимально эффективно использовать свой аккаунт { -brand-name-premium }.
 multi-part-onboarding-premium-welcome-feature-headline = С { -brand-name-firefox-relay-premium } вы получаете:
+multi-part-onboarding-premium-welcome-feature-headline-unlimited-email-masks = Неограниченное число псевдонимов электронной почты
+multi-part-onboarding-premium-welcome-feature-body-unlimited-email-masks = Повышаете свою приватность и безопасность с помощью уникального псевдонима для каждого сайта.
+multi-part-onboarding-premium-welcome-feature-headline-create-masks-on-the-go = Создавайте псевдонимы мгновенно на ходу
+multi-part-onboarding-premium-welcome-feature-body-create-masks-on-the-go = Получите уникальный домен электронной почты { -brand-name-relay } для мгновенного создания легко запоминающегося псевдонима.
+multi-part-onboarding-premium-welcome-feature-headline-custom-inbox-controls = Настраиваемое управление входящими письмами
+multi-part-onboarding-premium-welcome-feature-body-custom-inbox-controls = Управление типами писем, которые пересылаются в ваш почтовый ящик
+multi-part-onboarding-premium-welcome-feature-headline-anonymous-replies = Анонимные ответы
+multi-part-onboarding-premium-welcome-feature-body-anonymous-replies = Отвечайте на пересылаемые письма без раскрытия настоящего адреса электронной почты
 multi-part-onboarding-premium-welcome-feature-cta = Настройте { -brand-name-relay-premium }
 multi-part-onboarding-premium-welcome-subheadline = Теперь вы можете контролировать каждое письмо, которое попадает в ваш почтовый ящик.
 
@@ -37,7 +46,6 @@ multi-part-onboarding-premium-add-extension-feature-cta = Добавьте ра�
 
 multi-part-onboarding-premium-extension-added = Расширение { -brand-name-relay } добавлено!
 multi-part-onboarding-premium-added-extension-body = Вам больше не нужно входить в { -brand-name-relay }, чтобы создать новый псевдоним — просто найдите значок Relay, когда веб-сайты запросят ваш адрес электронной почты.
-
 multi-part-onboarding-premium-extension-button-dashboard = Перейти на панель управления
 multi-part-onboarding-skip = Пропустить, я настрою это позже
 multi-part-onboarding-skip-download-extension = Пропустить, я скачаю расширение позже
@@ -49,8 +57,4 @@ multi-part-onboarding-reply-headline = Отвечайте на электрон�
 onboarding-premium-title-detail = С { -brand-name-firefox-relay-premium } вы можете:
 onboarding-premium-reply-description-2 = Нужно ответить на электронные письма, отправленные на псевдоним? Просто отвечайте как обычно — псевдоним по-прежнему будет защищать ваш адрес электронной почты.
 multi-part-onboarding-premium-reply-description = Отвечайте на электронные письма, не сообщая свой настоящий адрес
-
-# Variables:
-#   $step (number) - Which step the user currently is on
-#   $max (number) - Total number of steps
 multi-part-onboarding-step-counter = Шаг { $step } из { $max }.
