@@ -61,8 +61,6 @@ plan-matrix-offer-body = { -brand-name-firefox-relay } 通过使用独一无二�
 
 # Top Row Labels
 
-# Variables:
-#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 50%, 70%
 plan-matrix-heading-features = 功能
 plan-matrix-heading-plan-free = 有限的电子邮件保护
 plan-matrix-heading-plan-premium = 电子邮件保护
@@ -109,6 +107,8 @@ plan-matrix-price-period-yearly = 每年
 plan-matrix-price-period-monthly = 每月
 plan-matrix-price-period-yearly-footnote-1 = 按年收费
 plan-matrix-price-period-monthly-footnote-1 = 按月收费
+# Variables:
+#   $savings (string) - the percentage saved (including % symbol) for a given plan. Examples: 40%, 70%
 plan-matrix-price-vpn-discount-promo = 相比原价购入 { -brand-name-vpn } <span>优惠 { $savings }</span>
 
 # Plan CTAs
@@ -120,20 +120,21 @@ plan-matrix-join-waitlist = 加入预约名单
 # Item 1
 
 highlighted-features-section-unlimited-masks-headline = 创建无限数量马甲
-highlighted-features-section-unlimited-masks-body = 
-    所有人都可免费获得 { $mask_limit } 个马甲邮箱。
-    不过订阅 { -brand-name-relay-premium } 后，就可以根据需要生成无限量的马甲来保护您的收件箱
-    免受垃圾邮件、不法分子和网络跟踪器的侵扰。
+# Variables:
+#   $mask_limit (number) - the number of masks included with a particular plan
+highlighted-features-section-unlimited-masks-body = 所有人都可免费获得 { $mask_limit } 个马甲邮箱。不过订阅 { -brand-name-relay-premium } 后，就可以根据需要生成无限量的马甲来保护您的收件箱，免受垃圾邮件、不法分子和网络跟踪器的侵扰。
 
 # Item 2
 
 highlighted-features-section-masks-on-the-go-headline = 随时随地创建马甲
+# Variables:
+#   $mozmail (string): domain used by Relay masks (mozmail.com)
 highlighted-features-section-masks-on-the-go-body = 订阅 { -brand-name-relay-premium } 后，您可以使用专属的 { -brand-name-relay } 邮箱域名来随时创建新马甲。只需在 @ 符号前添加字符就能生成马甲。要预订餐厅？可以用 canting@<你的域名>.{ $mozmail }。要购物？那就用 shop@<你的域名>.{ $mozmail }。
 
 # Item 3
 
 highlighted-features-section-replying-headline = 匿名回复邮件和短信
-highlighted-features-section-replying-body = 
+highlighted-features-section-replying-body =
     { -brand-name-relay-premium } 可让您使用马甲邮箱帐号来回复邮件，
     这样邮件的发送者就无法得知您的真实邮件地址。
     配合虚拟手机号，您还可以回复短信而不泄露真实电话号码。
@@ -141,14 +142,14 @@ highlighted-features-section-replying-body =
 # Item 4
 
 highlighted-features-section-block-promotions-headline = 屏蔽营销邮件
-highlighted-features-section-block-promotions-body = 
+highlighted-features-section-block-promotions-body =
     使用 { -brand-name-relay-premium } 可屏蔽营销邮件，
     您仍能收到收据和物流信息等电子邮件。
 
 # Item 5
 
 highlighted-features-section-remove-trackers-headline = 移除邮件跟踪器
-highlighted-features-section-remove-trackers-body = 
+highlighted-features-section-remove-trackers-body =
     现在 { -brand-name-relay } 可以从转发给您的电子邮件中去除常见的跟踪器，
     帮助您免受跟踪器和广告商窥视。
 
@@ -187,8 +188,6 @@ landing-faq-cta = 更多 { -brand-name-firefox-relay } 的常见问题
 ## Premium promo page
 
 premium-promo-hero-headline = { -brand-name-firefox-relay-premium } 可为您更好地守护收件箱
-# Variables:
-#   $monthly_price (string) - the monthly cost (including currency symbol) for Relay Premium. Examples: $0.99, 0,99 €
 premium-promo-hero-body-3 = 使用 { -brand-name-firefox-relay-premium }，您可以获得无限的自定义邮箱马甲，它们只会把您想要的电子邮件转发到您的真实电子邮件地址。
 premium-promo-hero-cta = 立即升级
 premium-promo-availability-warning-4 = { -brand-name-relay-premium } 可用于奥地利、保加利亚、比利时、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、马来西亚、马耳他、荷兰、新西兰、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、西班牙、瑞典、瑞士、英国和美国。
@@ -215,4 +214,3 @@ waitlist-privacy-policy-use-bundle = 您的信息将仅用于通知您有关 { -
 waitlist-subscribe-success = 您已加入预约名单！当 { -brand-name-firefox-relay-premium } 在您的地区可用时，我们将会发邮件通知。
 waitlist-subscribe-error-connection = 加入预约名单时出错，请检查您的网络连接并重试。
 waitlist-subscribe-error-unknown = 加入预约名单时出错，请重试。
-
