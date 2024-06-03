@@ -33,6 +33,7 @@ hero-section-cta = باشلاڭ
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
+
 # Plan Details
 
 plan-matrix-heading-price = باھاسى
@@ -54,18 +55,30 @@ plan-matrix-join-waitlist = كۈتۈش تىزىمىغا قوشۇلۇڭ
 
 # Item 1
 
+
 # Item 2
+
 
 # Item 3
 
+
 # Item 4
 
+
 # Item 5
+
 
 ## REVIEWS SECTION
 
 landing-reviews-add-ons = قوشۇلما
 landing-reviews-logo-title = { -brand-name-firefox-browser }
+# Do not localize addons.mozilla.org
+landing-reviews-details-source = مەنبە: addons.mozilla.org
+# This string is displayed in a smaller font under a big number representing the average review score (e.g. "4.2").
+# Review count will stand for the total number of reviews at a given time (e.g. "328 reviews").
+landing-reviews-rating = يۇقىرىسى 5 يۇلتۇز ({ $review_count } باھالاش)
+landing-reviews-show-next-button = كېيىنكى باھالاشنى كۆرسەت
+landing-reviews-show-previous-button = ئالدىنقى باھالاشنى كۆرسەت
 landing-review-anonymous-user = { -brand-name-firefox } ئىشلەتكۈچى { $user_id }
 
 ## HIGHLIGHTED FEATURES SECTION
@@ -83,4 +96,3 @@ highlighted-features-section-new-item = يېڭى!
 
 waitlist-control-required = زۆرۈر
 waitlist-submit-label-2 = كۈتۈش تىزىمىغا قوشۇلۇڭ
-
