@@ -41,9 +41,18 @@ how-it-works-section-extension-headline = خالىغان جايدا { -brand-nam
 
 # Top Row Labels
 
+plan-matrix-heading-features = ئىقتىدار
+plan-matrix-heading-plan-free = چەكلىك ئىلخەت قوغداش
+plan-matrix-heading-plan-premium = ئېلخەت قوغداش
+plan-matrix-heading-plan-phones = ئېلخەت ۋە تېلېفون قوغداش
+plan-matrix-heading-plan-bundle-2 = { -brand-name-vpn } قوغداش قوش
 
 # Feature Breakdowns
 
+plan-matrix-feature-email-masks = ئېلخەت نىقابى بىلەن ھەقىقىي ئېلخەت ئادرېسىڭىزنى قوغدايدۇ
+plan-matrix-feature-browser-extension = بارلىق تور بېكەتلەردە { -brand-name-relay } توركۆرگۈ كېڭەيتىلمىسىنى ئىشلەتكىلى بولىدۇ
+plan-matrix-feature-email-tracker-removal = ئېلخەت ئىزلىغۇچنى چىقىرىۋەت
+plan-matrix-feature-promo-email-blocking = بازارچىلىق ئېلخەتنى توسسۇن
 
 # Feature Breakdowns Mobile (Shorter than desktop strings)
 
