@@ -9,6 +9,11 @@ hero-section-cta = باشلاڭ
 
 ## BUNDLE BANNER SECTION
 
+bundle-banner-plan-header-2 = 1 يىللىق پىلانىڭىزنىڭ ئىچىدە:
+bundle-banner-plan-modules-email-masking = ئېلخەت نىقابى
+bundle-banner-plan-modules-phone-masking = تېلېفون نىقابى
+bundle-banner-plan-modules-mozilla-vpn = { -brand-name-mozilla-vpn }
+bundle-banner-cta = { -brand-name-mozilla-vpn } + { -brand-name-relay } غا ئېرىشىش
 
 ## HOW IT WORKS SECTION 
 
